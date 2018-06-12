@@ -1,0 +1,43 @@
+---
+title: Célula TxtLocPinX (seção Text Transform)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm82251275
+localization_priority: Normal
+ms.assetid: cbfc4e91-10d1-d50e-3e8a-f269f7123276
+description: 'Determina o x-coordenadas do centro do bloco de texto de rotação em relação à origem do bloco de texto. A fórmula padrão é:'
+ms.openlocfilehash: 6eb48532bb19bce5b0d22ed2cd0997014721df88
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19773182"
+---
+# <a name="txtlocpinx-cell-text-transform-section"></a>Célula TxtLocPinX (seção Text Transform)
+
+Determina o *x* -coordenadas do centro do bloco de texto de rotação em relação à origem do bloco de texto. A fórmula padrão é: 
+  
+= TxtWidth \* 0.5
+  
+Essa fórmula avalia o centro horizontal do bloco de texto.
+  
+## <a name="remarks"></a>Comentários
+
+Para obter uma referência à célula TxtLocPinX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+  
+|||
+|:-----|:-----|
+| Nome da célula:  <br/> | TxtLocPinX  <br/> |
+   
+Para obter uma referência à célula TxtLocPinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+  
+|||
+|:-----|:-----|
+| Índice da seção:  <br/> |**visSectionObject** <br/> |
+| Índice da linha:  <br/> |**visRowTextXForm** <br/> |
+| Índice da célula:  <br/> |**visXFormLocPinX** <br/> |
+   
+
