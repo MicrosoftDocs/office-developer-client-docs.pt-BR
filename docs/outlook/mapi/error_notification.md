@@ -1,0 +1,95 @@
+---
+title: ERROR_NOTIFICATION
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.ERROR_NOTIFICATION
+api_type:
+- COM
+ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
+description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+ms.openlocfilehash: 86fe4b0a1a7521c310788505b99f53bc8657de75
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19766512"
+---
+# <a name="errornotification"></a>ERROR_NOTIFICATION
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Descreve as informações que se relacionam com um erro crítico. Isso faz com que uma notificação de erro a serem gerados. 
+  
+|||
+|:-----|:-----|
+|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+   
+```cpp
+typedef struct _ERROR_NOTIFICATION
+{
+  ULONG cbEntryID;
+  LPENTRYID lpEntryID;
+  SCODE scode;
+  ULONG ulFlags;
+  LPMAPIERROR lpMAPIError;
+} ERROR_NOTIFICATION;
+```
+
+## <a name="members"></a>Membros
+
+ **cbEntryID**
+  
+> Contagem de bytes no identificador de entrada apontado pela **lpEntryID**. 
+    
+ **lpEntryID**
+  
+> Ponteiro para o identificador de entrada do objeto que faz com que o erro.
+    
+ **SCODE**
+  
+> Valor de erro para o erro crítico. 
+    
+ **ulFlags**
+  
+> Bitmask dos sinalizadores usados para designar o formato do texto apontado pelo membro **lpszError** na estrutura apontado pela **lpMAPIError**. O seguinte sinalizador pode ser definido:
+    
+MAPI_UNICODE 
+  
+> As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
+    
+ **lpMAPIError**
+  
+> Ponteiro para uma estrutura [MAPIERROR](mapierror.md) descrevendo o erro. 
+    
+## <a name="remarks"></a>Coment�rios
+
+A estrutura **ERROR_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **ERROR_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido para _fnevCriticalError_.
+  
+O valor do membro **cbEntryID** e o membro **lpEntryID** pode ser NULL. 
+  
+Para obter mais informações sobre a notificação, consulte os tópicos descritos na tabela a seguir.
+  
+|**Tópico**|**Descrição**|
+|:-----|:-----|
+|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
+|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
+|[Suporte de notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método **IMAPISupport** para gerar notificações.  <br/> |
+   
+## <a name="see-also"></a>Confira também
+
+
+
+[MAPIERROR](mapierror.md)
+  
+[NOTIFICAÇÃO](notification.md)
+
+
+[Estruturas MAPI](mapi-structures.md)
+

@@ -1,0 +1,64 @@
+---
+title: Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
+description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
+ms.openlocfilehash: 29aabc7a2e8513bf24bd3b56ff3e4a126e3d7437
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767565"
+---
+# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Este tópico leva as etapas para baixar e instalar o provedor de repositórios de PST quebrado automaticamente amostra. O provedor de repositório PST de quebradas amostra, WrapPST, implementa um provedor de armazenamento com quebra PST que se destina a ser usado em conjunto com a API de replicação. Para obter mais informações sobre a API de replicação, consulte [Sobre o API de replicação](about-the-replication-api.md).
+  
+## <a name="install-the-sample-wrapped-pst-store-provider"></a>Instale o fornecedor de repositório PST encapsulado da amostra
+
+1. Para baixar o provedor de repositórios de PST quebrado automaticamente amostra, consulte [exemplos de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+    
+2. Abra a pasta **SampleWrappedPSTStoreProvider** e clique em **Extrair todos os arquivos**.
+    
+3. Clique em **Procurar**, selecione o local onde deseja salvar a amostra e clique em **Okey**.
+    
+4. Clique em **extrair**. A pasta selecionada é exibida e contém os arquivos extraídos.
+    
+5. Abra o Visual Studio 2005 como administrador.
+    
+    > [!NOTE]
+    > Se seu computador estiver executando o Windows XP, você deve ser logado como administrador. Se seu computador estiver executando o Windows Vista, você deve estar logado como administrador e você deve com o botão direito no ícone do Visual Studio 2005 e clique em **Executar como administrador**. 
+  
+6. No Visual Studio 2005, clique em **arquivo**, selecione **Abrir**e, em seguida, clique em **Project/Solution**.
+    
+7. Navegue até o local onde você salvou a amostra, clique em **WrapPST**e, em seguida, clique em **Abrir**.
+    
+8. On the **Build** menu, click **Build Solution**.
+    
+9. Na caixa de diálogo **Salvar arquivo como** , clique em **Salvar**.
+    
+10. Na pasta onde você salvou a amostra, com o botão direito do arquivo **Install. bat** e clique em **Executar como administrador**.
+    
+11. Na caixa de diálogo **Controle de conta de usuário** , clique em **continuar**.
+    
+## <a name="see-also"></a>Confira também
+
+
+
+[Sobre a amostra quebradas provedor de repositórios de PST](about-the-sample-wrapped-pst-store-provider.md)
+  
+[Inicializar um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
+  
+[Fazer logon no provedor de um repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+  
+[Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
+  
+[Encerrando um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+

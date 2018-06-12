@@ -1,0 +1,54 @@
+---
+title: Localizando um nome de perfil
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
+description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+ms.openlocfilehash: 332b78bcebbcd54de43376553ec4aea386c1c359
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19766551"
+---
+# <a name="finding-a-profile-name"></a>Localizando um nome de perfil
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Às vezes, os clientes precisam encontrar o nome do perfil sendo utilizado para a sessão, o nome do perfil padrão ou o nome de um perfil alternativo instalado no computador.
+  
+Há algumas maneiras para recuperar o nome de um perfil durante o curso de uma sessão. Se você precisar encontrar o nome de um perfil que não é necessariamente aquele que está sendo usado para a sessão, use o procedimento primeiro. Se você precisar encontrar o nome do perfil padrão, use o procedimento segundo. Se você precisar encontrar o nome do perfil atual para a sessão, use o procedimento a último. 
+  
+ **Para localizar o nome de qualquer perfil**
+  
+1. Chame [MAPIAdminProfiles](mapiadminprofiles.md) para recuperar um ponteiro de interface **IProfAdmin** . 
+    
+2. Chame [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) para acessar a tabela de perfil. 
+    
+3. Chame o método de [IMAPITable:: QueryRows](imapitable-queryrows.md) da tabela perfil para recuperar todas as linhas na tabela e examinar cada um para determinar se ele representa seu perfil de destino. 
+    
+ **Para encontrar o nome do perfil padrão**
+  
+1. Chame [MAPIAdminProfiles](mapiadminprofiles.md).
+    
+2. Chame [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) para acessar a tabela de perfil. 
+    
+3. Construa uma restrição de propriedade com uma estrutura de [SPropertyRestriction](spropertyrestriction.md) para corresponder **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) com o valor TRUE.
+    
+4. Chame [IMAPITable:: FindRow](imapitable-findrow.md) para localizar a linha na tabela de perfil que representa o perfil padrão. A coluna **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) contém o nome do perfil padrão.
+    
+ **Para encontrar o nome do perfil atual**
+  
+Para localizar o nome do perfil atual, conclua uma das seguintes etapas:
+  
+- Supondo que você tenha a estrutura [MAPIUID](mapiuid.md) que representa uma das seções do perfil atual, passe-o no parâmetro _lpUID_ para [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md). Recupere o perfil **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) a propriedade seção usando seu método [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+    
+- Chame [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para acessar a tabela de status e localize a linha que tem uma coluna **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) definida como MAPI_SUBSYSTEM. A coluna **PR_DISPLAY_NAME** para essa linha é o nome do perfil. Não use a tabela de status durante o início do porque ele bloqueia um aplicativo até que o spooler MAPI concluiu Inicializando todos os provedores de transporte. Isso pode prejudicar o desempenho. 
+    
+

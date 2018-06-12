@@ -1,0 +1,74 @@
+---
+title: Instalando o amostra Offline State suplemento
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
+description: 'Modificado pela última vez: 06 de julho de 2012'
+ms.openlocfilehash: 00232f290c367c4bab1854bfe3909abc7b03cef8
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767584"
+---
+# <a name="installing-the-sample-offline-state-add-in"></a>Instalando o amostra Offline State suplemento
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Este tópico leva as etapas para baixar e instalar o suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e utiliza a API de estado Offline. Através do menu estado Offline, você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para obter mais informações sobre como o suplemento de estado Offline é implementado, consulte [Add-in de configuração para cima uma Offline estado](setting-up-an-offline-state-add-in.md).
+  
+## <a name="install-the-sample-offline-state-add-in"></a>Instalar o amostra Offline State suplemento
+
+1. Baixar o Add-in amostra Offline estado aqui: [amostras de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+    
+2. Execute o Visual Studio 2005 como administrador.
+    
+    > [!NOTE]
+    > Se seu computador estiver executando o Windows XP, você deve ser logado como administrador. Se seu computador estiver executando o Windows Vista, você deve ser logado como administrador. Com o botão direito no ícone do Visual Studio 2005 e clique em **Executar como administrador**. 
+  
+3. No Visual Studio 2005, clique em **arquivo**, selecione **Abrir**e, em seguida, clique em **Project/Solution**.
+    
+4. Navegue até o local onde você salvou a amostra, clique em **ConnectionStateAddin**e, em seguida, clique em **Abrir**.
+    
+5. On the **Build** menu, click **Build Solution**.
+    
+6. Na caixa de diálogo **Salvar arquivo como** , clique em **Salvar**.
+    
+7. Clique no menu **Iniciar** , clique em **Todos os programas**, clique em **Acessórios**, do mouse em **Prompt de comando**e, em seguida, clique **em Executar como administrador**.
+    
+    > [!NOTE]
+    > Se você estiver executando o Windows XP, você deve ser logado como administrador. 
+  
+8. Na caixa de diálogo **Controle de conta de usuário** , clique em **continuar**.
+    
+9. Na janela de **Prompt de comando** , altere os diretórios para a pasta de depuração onde você salvou a amostra. Por exemplo, se você salvou a amostra em sua unidade C:\, digite **cd "C:\ConnectionStateAddin\Debug"** e pressione **ENTER**. 
+    
+10. Digite **regsvr32 OfflineStateAddin.dll** e pressione **ENTER**. 
+    
+    > [!NOTE]
+    > Para desinstalar o suplemento de amostra Offline estado, digite **regsvr32 -u OfflineStateAddin.dll**
+  
+11. Na caixa de diálogo **regsvr32** , clique em **Okey**.
+    
+12. Reinicie o Outlook para ver o menu de **Estado Offline** . 
+    
+## <a name="see-also"></a>Confira também
+
+
+
+[Sobre a API de estado Offline](about-the-offline-state-api.md)
+  
+[Instalando o amostra Offline State suplemento](installing-the-sample-offline-state-add-in.md)
+  
+[Sobre o amostra Offline State suplemento](about-the-sample-offline-state-add-in.md)
+  
+[Configurando um Offline suplemento State](setting-up-an-offline-state-add-in.md)
+  
+[Monitoramento estado de Conexão usando um Offline suplemento State é alterado](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+  
+[Desconectando um Offline suplemento State](disconnecting-an-offline-state-add-in.md)
+

@@ -1,0 +1,49 @@
+---
+title: IOlkAccountManagerDeleteAccount
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
+description: Exclui a conta especificada.
+ms.openlocfilehash: 1c0b246af10dac1af9c61f368d082a92c7b3616a
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19765962"
+---
+# <a name="iolkaccountmanagerdeleteaccount"></a>IOlkAccountManager::DeleteAccount
+
+Exclui a conta especificada.
+  
+## <a name="quick-info"></a>Informações rápidas
+
+Consulte [IOlkAccountManager](iolkaccountmanager.md).
+  
+```cpp
+HRESULT IOlkAccountManager::DeleteAccount (  
+    DWORD dwAcctID, 
+);
+```
+
+## <a name="parameters"></a>Par�metros
+
+_dwAcctID_
+  
+> [in] A ID de conta da conta a ser excluído.
+    
+## <a name="return-values"></a>Valores de retorno
+
+|**HRESULT**|**Descrição**|
+|:-----|:-----|
+|S_OK  <br/> |A chamada foi bem-sucedida  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |A conta especificada não foi encontrada.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
+   
+## <a name="see-also"></a>Confira também
+
+- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)  
+- [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)
+

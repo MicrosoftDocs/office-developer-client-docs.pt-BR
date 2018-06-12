@@ -1,0 +1,92 @@
+---
+title: IMsgStoreAbortSubmit
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMsgStore.AbortSubmit
+api_type:
+- COM
+ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
+description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+ms.openlocfilehash: e2871f5804cda172328fbd3ebdc43f860de939ab
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767499"
+---
+# <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Tenta remover uma mensagem da fila de saída.
+  
+```cpp
+AbortSubmit(
+  ULONG cbEntryID,
+  LPENTRYID lpEntryID,
+  ULONG ulFlags
+);
+```
+
+## <a name="parameters"></a>Par�metros
+
+ _cbEntryID_
+  
+> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+    
+ _lpEntryID_
+  
+> [in] Um ponteiro para o identificador de entrada da mensagem para remover da fila de saída. 
+    
+ _ulFlags_
+  
+> [in] Reservado; deve ser zero.
+    
+## <a name="return-value"></a>Valor retornado
+
+S_OK 
+  
+> A mensagem foi removida com êxito da fila de saída.
+    
+MAPI_E_NOT_IN_QUEUE 
+  
+> A mensagem identificada pela _lpEntryID_ não está mais na fila de saída do armazenamento de mensagens, geralmente porque ele já foi enviado. 
+    
+MAPI_E_UNABLE_TO_ABORT 
+  
+> A mensagem identificada pela _lpEntryID_ está bloqueada pelo spooler MAPI e a operação não pode ser interrompida. 
+    
+## <a name="remarks"></a>Coment�rios
+
+O método **IMsgStore::AbortSubmit** tenta remover uma mensagem enviada de fila de saída do armazenamento de mensagens. 
+  
+## <a name="notes-to-callers"></a>Notas para chamadores
+
+Depois que uma mensagem é enviada, anular o envio chamando **AbortSubmit** é a única ação que pode ser executada na mensagem. Não espera **AbortSubmit** sempre ter sucesso. Dependendo de como o sistema de mensagens subjacente é implementado, talvez não seja possível cancelar o envio da mensagem. 
+  
+## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+
+Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+  
+|**Arquivo**|**Function**|**Comment**|
+|:-----|:-----|:-----|
+|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa o método **IMsgStore::AbortSubmit** anular o envio da mensagem selecionada.  <br/> |
+   
+## <a name="see-also"></a>Confira também
+
+
+
+[IMessage::SubmitMessage](imessage-submitmessage.md)
+  
+[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+
+
+[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+

@@ -1,0 +1,191 @@
+---
+title: Noções básicas sobre totalmente formulários confiáveis
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
+description: O InfoPath fornece a capacidade de criar formulários totalmente confiáveis, que são os formulários que possui permissões de segurança maiores e podem acessar recursos do sistema e outros componentes no computador de um usuário. Este artigo descreve o que é um formulário totalmente confiável e por que ele é usado e criar um formulário totalmente confiável manualmente convertendo e registrando um formulário padrão ou ao assinar digitalmente um formulário padrão.
+ms.openlocfilehash: b410d5bee0080aae5e0af9687999595655b42edf
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19765710"
+---
+# <a name="understanding-fully-trusted-forms"></a>Noções básicas sobre totalmente formulários confiáveis
+
+O InfoPath fornece a capacidade de criar formulários totalmente confiáveis, que são os formulários que possui permissões de segurança maiores e podem acessar recursos do sistema e outros componentes no computador de um usuário. Este artigo descreve o que é um formulário totalmente confiável e por que ele é usado e criar um formulário totalmente confiável manualmente convertendo e registrando um formulário padrão ou ao assinar digitalmente um formulário padrão.
+
+Modelos de formulário do InfoPath podem ser implantados com vários níveis de segurança. O nível que você use é determinado pelo nível de acesso aos recursos externos que você deseja que tenham um formulário. Por padrão, os modelos de formulário do InfoPath são impedidos de acessar os recursos do sistema e não têm permissão para usar quaisquer componentes de software que não são marcados como seguros para script. No entanto, esse comportamento pode ser substituído para que um formulário possa acessar recursos do sistema e outros recursos externos, incluindo os componentes de software que não são marcados como seguros para script.
+  
+Para um formulário a ser usado, o InfoPath deve ser capaz de acessar o modelo de formulário para o qual o formulário se baseia. Quando você cria um modelo de formulário, o InfoPath cria uma entrada no arquivo de definição (. xsf) do formulário que contém a URL do local do modelo de formulário. Um formulário baseado em URL será considerado *em área restrita*. Quando o usuário preenche-out, o formulário é adicionado em um cache local e acesso negado aos recursos do sistema. Esse tipo de formulário herda suas permissões do domínio no qual ele é aberto. 
+  
+No entanto, você pode modificar um formulário para que ele se baseia em um recurso URN (nome) em vez disso, que permite acesso aos recursos do sistema. Formulários desse tipo são considerados *totalmente confiáveis*. 
+  
+## <a name="why-use-a-fully-trusted-form"></a>Por que usar um formulário totalmente confiável?
+
+Formulários totalmente confiáveis têm um conjunto melhor de permissões de formulários em área restrita. Por exemplo, eles podem conter o código de programação que utiliza objetos externos para acessar os recursos do sistema, eles podem usar os componentes de software ou os controles Microsoft ActiveX não marcados como seguros para script e eles podem usar a lógica de negócios personalizado fornecida pelo. Assemblies do NET.
+  
+Além disso, a alguns membros do modelo de objeto do InfoPath são definidos com o nível de segurança 3, que significa que eles só podem ser usados em um formulário totalmente confiável. Por exemplo, para acessar o objeto do Microsoft Office **CommandBars** , use a propriedade [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) da classe InfoPath [janela](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) para definir uma referência a ele. Porque essa propriedade é definida para o nível de segurança 3, ele não pode ser usado em um formulário que não seja totalmente confiável. 
+  
+> [!NOTE]
+> Usando a propriedade [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) da classe da [janela](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) ou qualquer outro membro de modelo de objeto que tem um nível de segurança de 3, em um formulário que não seja totalmente confiável resultará em um erro "permission denied". 
+  
+## <a name="what-makes-a-form-fully-trusted"></a>O que torna um formulário totalmente confiável?
+
+As seguintes ações, envolvendo tanto a interface de usuário do InfoPath e os arquivos de formulário são necessários para criar e usar um formulário totalmente confiável:
+  
+- Habilitando o InfoPath permitir o uso de formulários totalmente confiáveis na categoria **Editores confiáveis** da caixa de diálogo **Central de confiabilidade** . Esta opção deve ser habilitada para os usuários abram formulários totalmente confiáveis. 
+    
+- Registrando o formulário totalmente confiável no computador de destino usando o método **RegisterSolution** do objeto do InfoPath **aplicativo** . 
+    
+## <a name="creating-a-fully-trusted-form"></a>Criação de um formulário totalmente confiável
+
+- Você pode criar o formulário manualmente, que envolve a modificação de alguns dos arquivos formulário diretamente.
+    
+- Você pode assinar digitalmente o modelo de formulário.
+    
+### <a name="manually-creating-a-fully-trusted-form"></a>Criar manualmente um formulário totalmente confiável
+
+#### <a name="to-manually-create-a-fully-trusted-form"></a>Criar manualmente um formulário totalmente confiável
+
+1. Faça uma cópia de backup do modelo de formulário que você deseja tornar totalmente confiável.
+    
+2. Abra o modelo de formulário do InfoPath.
+    
+3. Salve o formulário arquivos de origem em uma pasta no seu disco rígido clicando na guia **arquivo** , clicando em **Publish**, e clicando em **Exportar arquivos de origem**.
+    
+4. Especifique a pasta na qual deseja salvar o formulário arquivos de origem, clique em **Okey**e saia do InfoPath designer.
+    
+5. Na pasta em que você extraiu os arquivos de formulário, abra o arquivo de definição (. xsf) do formulário, chamado `manifest.xsf` por padrão, em um editor de texto como o Microsoft Notepad. 
+    
+6. Adicione os seguintes atributos ao elemento **xDocumentClass** no arquivo. xsf: 
+   
+   `requireFullTrust="yes"`<br/>
+   `name="urn:MyForm:MyCompany`
+
+   > [!NOTE]
+   > Os valores que são usados para o URN podem ser qualquer tipo de valor de cadeia de caracteres, desde que esse valor for exclusivo. Deve haver pelo menos dois valores após o `urn:` prefixo e esses valores devem ser separados por dois pontos. Além disso, o URN não deve exceder 255 caracteres. 
+  
+7. Salve e feche o arquivo. xsf e abra o arquivo de modelo (. xml) do XML nomeado `Template.xml` por padrão, em um editor de texto como o bloco de notas. 
+    
+8. Remova o atributo **href** do `mso-infoPathSolution` instrução de processamento e substituí-lo com o mesmo atributo de **nome** que você usou na etapa 6 para o arquivo. xsf. 
+    
+   > [!NOTE]
+   > Os valores URN que são usados para o atributo **name** devem ser o mesmo no arquivo. xsf tanto arquivo de modelo XML. 
+  
+9. Salve e feche o arquivo de modelo XML.
+    
+10. Remonte os arquivos no formato. xsn CAB com uma ferramenta como makecab.exe.
+    
+    > [!NOTE]
+    > Embora o designer de formulários do InfoPath suporta remontagem os arquivos de formulário em um arquivo. xsn, fazer isso reverterá o formulário a um formulário baseado em URL. Por esse motivo, você deve remonte os arquivos manualmente para evitar sobrescrever as alterações nos arquivos de formulário. 
+  
+11. Crie um programa de instalação personalizada usando o método **RegisterSolution** do objeto do InfoPath **aplicativo** para instalar o formulário totalmente confiável. Uma maneira simples de fazer isso é criar um arquivo de script que usa as seguintes linhas de código (em sintaxe Microsoft JScript ou VBScript): 
+    
+    ```js
+        objIPApp = new ActiveXObject("InfoPath.Application"); 
+        objIPApp.RegisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
+        objIPApp.Quit(); 
+        objIPApp = null;
+    ```
+   
+    ```vb
+        Public Sub InstallForm()
+            Dim objIPApp As Object
+            ' Create a reference to the Application object.
+            Set objIPApp = CreateObject("InfoPath.Application")
+            ' Register the InfoPath form template.
+            objIPApp.RegisterSolution ("C:\\My Forms\\MyFormTemplate.xsn")
+            MsgBox "The InfoPath form template has been registered."
+            Set objIPApp = Nothing
+        End Sub
+        
+    ```
+
+> [!NOTE] 
+> Embora este exemplo usa um arquivo de script simples, você também pode usar um mecanismo de instalação mais robusto como arquivos do Microsoft Windows Installer (. msi). Certifique-se, no entanto, usar o método **RegisterSolution** para instalar corretamente o formulário totalmente confiável no computador de destino. Para acessar o método **RegisterSolution** do objeto **Application** do InfoPath no Visual Basic ou Visual Studio, defina uma referência à biblioteca de tipos do Microsoft InfoPath 3.0, fornecida pelo IPEDITOR.dll que é instalado na C:\Program Pasta Files\Microsoft Office\Office14. 
+  
+Se você tiver que remover um formulário totalmente confiável, você pode usar o método **UnregisterSolution** do objeto **Application** , conforme mostrado nos exemplos a seguir JScript e VBScript. 
+    
+```js
+    objIPApp = new ActiveXObject("InfoPath.Application"); 
+    objIPApp.UnregisterSolution("C:\\MyForms\\MyTrustedForm.xsn"); 
+    objIPApp.Quit(); 
+    objIPApp = null;
+```
+
+```vb
+    Public Sub UninstallForm()
+        Dim objIPApp As Object
+        ' Create a reference to the Application object.
+        Set objIPApp = CreateObject("InfoPath.Application")
+        ' Unregister the InfoPath form template.
+        objIPApp.UnregisterSolution ("C:\My Forms\MyFormTemplate.xsn")
+        MsgBox ("The InfoPath form template has been unregistered.")
+        Set objIPApp = Nothing
+    End Sub
+    
+```
+
+### <a name="digitally-signing-a-form-template-to-create-a-fully-trusted-form"></a>Assinar digitalmente um modelo de formulário para criar um formulário totalmente confiável
+
+Assinar digitalmente um modelo de formulário permite implantar um modelo de formulário totalmente confiável por email ou em um servidor Web, como um servidor que está executando o Microsoft SharePoint Foundation. Use as etapas nos seguintes três procedimentos para tornar um formulário totalmente confiável especificando confiança total para o formulário, assiná-lo digitalmente e, em seguida, publicá-lo.
+  
+#### <a name="to-digitally-sign-a-form-template"></a>Para assinar digitalmente um modelo de formulário
+
+1. Abra o formulário no InfoPath designer, clique na guia **arquivo** e clique em **Opções de formulário** , na guia **informações** . 
+    
+2. Na caixa de diálogo **Opções de formulário** , clique na categoria de **segurança e confiança** . 
+    
+3. Desmarque a seleção para **determinar o nível de segurança automaticamente (recomendado)**.
+    
+4. Selecione a **Confiança total (o formulário tem acesso aos arquivos e configurações no computador do usuário)**.
+    
+5. Em **Assinatura do modelo de formulário**, selecione **o modelo de formulário de entrada**.
+    
+6. Clique em **Selecionar certificado** para selecionar um certificado que foi baixado e instalado a partir de um provedor de certificado confiável anteriormente. 
+    
+7. Clique duas vezes em Okey para sair completamente.
+    
+#### <a name="to-publish-the-form-template-to-a-sharepoint-document-library"></a>Para publicar o modelo de formulário em uma biblioteca de documentos do SharePoint
+
+1. Clique na guia **arquivo** , clique em **Publicar**e, em seguida, clique em **SharePoint Server**.
+    
+2. Siga as instruções no **Assistente de publicação** para publicar o modelo de formulário em uma biblioteca de documentos nova ou existente do SharePoint. 
+    
+#### <a name="to-a-create-a-form-that-is-based-on-your-fully-trusted-digitally-signed-form-template"></a>A um criar um formulário baseado no modelo de formulário totalmente confiável, digitalmente assinadas
+
+1. Na biblioteca de documentos do SharePoint, clique em **Preencher o formulário**.
+    
+   > [!NOTE]
+   > Depois de publicar o modelo de formulário para uma biblioteca de documentos do SharePoint usando o **Assistente de publicação**, o modelo não será exibido como um item na biblioteca de formulários. Quando você cria um formulário nessa biblioteca de documentos, o modelo será usado por padrão como o modelo para o novo formulário. 
+  
+2. Se o modelo de formulário padrão foi assinado digitalmente, o InfoPath exibirá um aviso de segurança sobre o modelo de formulário assinado digitalmente. Selecione **Sempre confiar em arquivos deste editor e abri-los automaticamente**e clique em **Abrir**.
+    
+## <a name="using-a-fully-trusted-form"></a>Usando um formulário totalmente confiável
+
+O uso de um formulário totalmente confiável é muito semelhante ao uso de um formulário padrão. As diferenças apenas significativas são que o formulário pode acessar recursos restritos e avisos não serão exibidos.
+  
+> [!NOTE]
+> Para habilitar o InfoPath, para usar um formulário totalmente confiável, os usuários devem assegurar que a caixa de seleção **Permitir que formulários completamente confiáveis sejam executados no meu computador** é selecionada na categoria **Editores confiáveis** da caixa de diálogo **Central de confiabilidade** . Para abrir a caixa de diálogo **Central de confiabilidade** , clique na guia **arquivo** , clique em **Opções** (abaixo da guia **InfoPath** ), clique em **Central de confiabilidade**e, em seguida, clique em **Configurações da Central de confiabilidade**. 
+  
+Um formulário totalmente confiável pode ser aberto no InfoPath da caixa de diálogo **Preencher um formulário** . 
+  
+A caixa de diálogo **Preencher um formulário** é aberto quando você clicar em **Mais formulários** no painel de tarefas **Preencher um formulário** , ou clique em **Preencher um formulário** , no menu **arquivo** . 
+  
+### <a name="making-changes-to-a-fully-trusted-form"></a>Fazendo alterações em um formulário totalmente confiável
+
+Se você precisar fazer alterações no arquivo. xsn, você pode ter usuários substitua seu arquivo. xsn existente uma nova depois que as alterações forem feitas. Eles não terão reinstalá-lo usando um programa de instalação personalizada.
+  
+No entanto, se você estiver fazendo alterações para os arquivos de formulário que contém o arquivo. xsn, você deve remonte os arquivos, conforme explicado anteriormente e, em seguida, tiver usuários reinstalar o formulário totalmente confiável.
+  
+> [!NOTE]
+> A melhor abordagem é salvar o modelo de formulário volta para o formato. xsn do InfoPath designer e siga as etapas neste artigo para criar um formulário totalmente confiável. 
+  
+## <a name="conclusion"></a>Conclusion
+
+Dependendo de suas necessidades de negócios e as necessidades dos seus usuários, você pode precisar criar um formulário que tenha um conjunto maior de permissões que o formulário padrão do InfoPath. O InfoPath fornece a capacidade de modificar um formulário para que ele possa acessar os recursos do sistema e outros recursos externos que não são marcados como seguros para script. Isso pode ser feito manualmente por fazer modificações nos arquivos de formulário que contém um modelo de formulário e executar um script de instalação ou por assinar digitalmente o modelo de formulário.
+  
+

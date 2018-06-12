@@ -1,0 +1,82 @@
+---
+title: IMAPIOfflineMgrAdvise
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMAPIOfflineMgr.Advise
+api_type:
+- COM
+ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
+description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+ms.openlocfilehash: 53fa6bd49190bb88daeb0438dc0112e34322383e
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767117"
+---
+# <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Registra um cliente para receber retornos de chamada em um objeto offline.
+  
+```cpp
+HRESULT COfflineObj::Advise( 
+      ULONG ulFlags, 
+      MAPIOFFLINE_ADVISEINFO* pAdviseInfo, 
+      ULONG* pulAdviseToken 
+);
+```
+
+## <a name="parameters"></a>Par�metros
+
+ _ulFlags_
+  
+>  [in] Sinalizadores que modificam o comportamento. Somente o valor MAPIOFFLINE_ADVISE_DEFAULT é suportado. 
+    
+ _pAdviseInfo_
+  
+> [in] Informações sobre o tipo de retorno de chamada, quando receber um retorno de chamada, uma interface de retorno de chamada para o chamador e outros detalhes. Ele também contém um token de cliente que o Outlook usa no envio retornos de chamada de notificação subsequentes para o chamador do cliente.
+    
+ _pulAdviseToken_
+  
+> [out] Um token de advise retornado para o chamador do cliente para subsequentemente cancelamento de retorno de chamada para o objeto.
+    
+## <a name="return-value"></a>Valor retornado
+
+S_OK
+  
+> A chamada foi bem-sucedida.
+    
+E_INVALIDARG
+  
+> Um parâmetro inválido foi especificado.
+    
+E_NOINTERFACE
+  
+> A interface de retorno de chamada especificada em *pAdviseInfo* não é válida. 
+    
+## <a name="remarks"></a>Coment�rios
+
+Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente obtém um objeto offline que suporta **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto usando **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. O cliente pode determinar o tipo e outros detalhes sobre o retorno de chamada, ele quiser e depois ligue **IMAPIOfflineMgr::Advise** para registrar-se para receber esses retornos de chamada sobre o objeto. 
+  
+## <a name="see-also"></a>Confira também
+
+
+
+[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)
+  
+[IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)
+
+
+[Constantes MAPI](mapi-constants.md)
+  
+[HrOpenOfflineObj](hropenofflineobj.md)
+
