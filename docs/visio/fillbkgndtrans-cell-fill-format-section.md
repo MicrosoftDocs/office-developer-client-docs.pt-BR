@@ -1,0 +1,47 @@
+---
+title: Célula FillBkgndTrans (Seção Fill Format)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm82253230
+localization_priority: Normal
+ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
+description: Determina o nível de transparência para a cor do plano de fundo (preenchimento) do padrão de preenchimento da forma.
+ms.openlocfilehash: c8dcec8cc0bdb87700bb85754298ec4755bae7d0
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19771870"
+---
+# <a name="fillbkgndtrans-cell-fill-format-section"></a>Célula FillBkgndTrans (Seção Fill Format)
+
+Determina o nível de transparência para a cor do plano de fundo (preenchimento) do padrão de preenchimento da forma.
+  
+|**Valor**|**Descrição**|
+|:-----|:-----|
+|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+   
+## <a name="remarks"></a>Comentários
+
+Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma forma com preenchimento completamente transparente tenha a mesma aparência de uma forma sem preenchimento na página de desenho, ela irá interagir com os outros objetos da página da mesma forma que se a transparência fosse 0%.
+  
+Você também pode definir o valor utilizando o controle deslizante na caixa de diálogo **preenchimento** (na guia **página inicial** , no grupo **forma** , clique em **preenchimento**e, em seguida, clique em **Opções de preenchimento**). Esse valor controla o valor das transparências de preenchimento de primeiro plano e plano de fundo. Para definir esses valores de forma independente, você deverá inseri-los na janela ShapeSheet.
+  
+Para obter uma referência para a célula FillBkgndTrans pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+  
+|||
+|:-----|:-----|
+|Nome da célula:  <br/> |FillBkgndTrans  <br/> |
+   
+Para obter uma referência para a célula FillBkgndTrans pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+  
+|||
+|:-----|:-----|
+|Índice da seção:  <br/> |**visSectionObject** <br/> |
+|Índice da linha:  <br/> |**visRowFill** <br/> |
+|Índice da célula:  <br/> |**visFillBkgndTrans** <br/> |
+   
+
