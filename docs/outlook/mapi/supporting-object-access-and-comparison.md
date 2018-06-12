@@ -1,0 +1,43 @@
+---
+title: Suporte a comparação e acesso a objetos
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
+description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19770561"
+---
+# <a name="supporting-object-access-and-comparison"></a><span data-ttu-id="5788c-103">Suporte a comparação e acesso a objetos</span><span class="sxs-lookup"><span data-stu-id="5788c-103">Supporting Object Access and Comparison</span></span>
+
+  
+  
+<span data-ttu-id="5788c-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="5788c-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="5788c-105">Provedores de serviços podem usar os métodos [IMAPISupport::OpenEntry](imapisupport-openentry.md) e [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para abrir e comparar objetos que pertencem ao seu provedor ou para outros provedores:</span><span class="sxs-lookup"><span data-stu-id="5788c-105">Service providers can use the [IMAPISupport::OpenEntry](imapisupport-openentry.md) and [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) methods to open and compare objects that belong to their provider or to other providers:</span></span> 
+  
+<span data-ttu-id="5788c-106">Como [IMAPISession::OpenEntry](imapisession-openentry.md) para clientes, provedores podem usar o método de **OpenEntry** do objeto seus suporte para acessar qualquer objeto tempo eles sabem identificador de entrada do objeto.</span><span class="sxs-lookup"><span data-stu-id="5788c-106">Like [IMAPISession::OpenEntry](imapisession-openentry.md) for clients, providers can use their support object's **OpenEntry** method to access any object as long they know the object's entry identifier.</span></span> <span data-ttu-id="5788c-107">Ao contrário do método de sessão, o método de suporte requer que você especifique um identificador de entrada válida no parâmetro _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="5788c-107">Unlike the session method, the support method requires that you specify a valid entry identifier in the  _lpEntryID_ parameter.</span></span> <span data-ttu-id="5788c-108">Ele não pode ser NULL.</span><span class="sxs-lookup"><span data-stu-id="5788c-108">It cannot be NULL.</span></span> 
+  
+<span data-ttu-id="5788c-109">Para ilustrar como um provedor de transporte pode usar **IMAPISupport::OpenEntry**, considere o seguinte cenário.</span><span class="sxs-lookup"><span data-stu-id="5788c-109">To illustrate how a transport provider might use **IMAPISupport::OpenEntry**, consider the following scenario.</span></span> <span data-ttu-id="5788c-110">O provedor de transporte recebeu uma mensagem formatada em formato Rich Text e não sabe se o destinatário de destino pode lidar com esse formato.</span><span class="sxs-lookup"><span data-stu-id="5788c-110">The transport provider has received a message formatted in Rich Text Format and does not know whether the target recipient can handle this format.</span></span> <span data-ttu-id="5788c-111">Antes de entregar a mensagem, o provedor de transporte precisa fazer o seguinte:</span><span class="sxs-lookup"><span data-stu-id="5788c-111">Before delivering the message, the transport provider needs to do the following:</span></span>
+  
+1. <span data-ttu-id="5788c-112">Chame o método de [IMessage::GetRecipientTable](imessage-getrecipienttable.md) da mensagem para acessar a tabela de destinatários e o identificador de entrada do destinatário, sua propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="5788c-112">Call the message's [IMessage::GetRecipientTable](imessage-getrecipienttable.md) method to access the recipient table and the recipient's entry identifier, its **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.</span></span>
+    
+2. <span data-ttu-id="5788c-113">Passe o identificador de entrada para **IMAPISupport::OpenEntry** para abrir o destinatário, normalmente um uma lista de usuário ou de distribuição de mensagens.</span><span class="sxs-lookup"><span data-stu-id="5788c-113">Pass the entry identifier to **IMAPISupport::OpenEntry** to open the recipient, typically either a messaging user or distribution list.</span></span> <span data-ttu-id="5788c-114">O parâmetro _lpInterface_ deve ser definido como NULL, porque o provedor não pode saber antes do tempo, o tipo de objeto do destinatário.</span><span class="sxs-lookup"><span data-stu-id="5788c-114">The  _lpInterface_ parameter should be set to NULL because the provider cannot know ahead of time the object type of the recipient.</span></span> <span data-ttu-id="5788c-115">O suporte ao método do objeto **OpenEntry** chama [IMAPISession::OpenEntry](imapisession-openentry.md) para determinar o provedor de catálogo de endereços responsável pelo destinatário.</span><span class="sxs-lookup"><span data-stu-id="5788c-115">The support object's **OpenEntry** method calls [IMAPISession::OpenEntry](imapisession-openentry.md) to determine the address book provider responsible for the recipient.</span></span> <span data-ttu-id="5788c-116">O objeto de sessão, em seguida, chama o método de **OpenEntry** do provedor de catálogo de endereço apropriado para abrir o destinatário e retornar um ponteiro de interface para o provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="5788c-116">The session object then calls the appropriate address book provider's **OpenEntry** method to open the recipient and return an interface pointer to the transport provider.</span></span> 
+    
+3. <span data-ttu-id="5788c-117">Chame o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do destinatário para recuperar sua propriedade **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="5788c-117">Call the recipient's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve its **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) property.</span></span> <span data-ttu-id="5788c-118">Se **PR_SEND_RICH_INFO** for definido como TRUE, o destinatário pode lidar com texto formatado.</span><span class="sxs-lookup"><span data-stu-id="5788c-118">If **PR_SEND_RICH_INFO** is set to TRUE, the recipient can handle formatted text.</span></span> 
+    
+<span data-ttu-id="5788c-119">Se você abrir vários objetos de outros fornecedores, você pode precisar descobrir se os dois identificadores de entrada se referir ao mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="5788c-119">If you have opened several objects from other providers, you may need to find out whether two entry identifiers refer to the same object.</span></span> <span data-ttu-id="5788c-120">Por exemplo, talvez você tenha um identificador de entrada de curto prazo e um identificador de entrada de longo prazo e desses identificadores podem ou não podem identificar o mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="5788c-120">For example, you may have a short-term entry identifier and a long-term entry identifier and these identifiers may or may not identify the same object.</span></span> <span data-ttu-id="5788c-121">Para evitar o processamento redundante, chame o método de [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) para comparar desses identificadores de entrada.</span><span class="sxs-lookup"><span data-stu-id="5788c-121">To avoid redundant processing, call the [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) method to compare these entry identifiers.</span></span> <span data-ttu-id="5788c-122">Você deve usar esse método para comparação de identificador de entrada porque os identificadores de entrada não podem ser comparados diretamente.</span><span class="sxs-lookup"><span data-stu-id="5788c-122">You must use this method for entry identifier comparison because entry identifiers cannot be compared directly.</span></span> 
+  
+## <a name="see-also"></a><span data-ttu-id="5788c-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="5788c-123">See also</span></span>
+
+
+
+[<span data-ttu-id="5788c-124">Provedores de serviços MAPI</span><span class="sxs-lookup"><span data-stu-id="5788c-124">MAPI Service Providers</span></span>](mapi-service-providers.md)
+

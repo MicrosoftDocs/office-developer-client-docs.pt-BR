@@ -1,0 +1,63 @@
+---
+title: ACCELERATEABSDI
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- ACCELERATEABSDI
+api_type:
+- HeaderDef
+ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
+description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+ms.openlocfilehash: b7d4d758f7031c55aa3a23b662ec8727ea1e0719
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19766116"
+---
+# <a name="accelerateabsdi"></a><span data-ttu-id="0b1e0-103">ACCELERATEABSDI</span><span class="sxs-lookup"><span data-stu-id="0b1e0-103">ACCELERATEABSDI</span></span>
+ 
+<span data-ttu-id="0b1e0-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0b1e0-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="0b1e0-105">Define uma função de retorno de chamada para teclas de aceleração do processo em uma caixa de diálogo do catálogo de endereços sem janela restrita.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-105">Defines a callback function to process accelerator keys in a modeless address book dialog box.</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="0b1e0-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="0b1e0-106">Header file:</span></span>  <br/> |<span data-ttu-id="0b1e0-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0b1e0-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="0b1e0-108">Função definido implementada por:</span><span class="sxs-lookup"><span data-stu-id="0b1e0-108">Defined function implemented by:</span></span>  <br/> |<span data-ttu-id="0b1e0-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0b1e0-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="0b1e0-110">Função definido chamada pelo:</span><span class="sxs-lookup"><span data-stu-id="0b1e0-110">Defined function called by:</span></span>  <br/> |<span data-ttu-id="0b1e0-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="0b1e0-111">Client applications</span></span>  <br/> |
+   
+```cpp
+BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)( 
+  ULONG_PTR ulUIParam,
+  LPVOID lpvmsg
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="0b1e0-112">Par�metros</span><span class="sxs-lookup"><span data-stu-id="0b1e0-112">Parameters</span></span>
+
+ <span data-ttu-id="0b1e0-113">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="0b1e0-113">_ulUIParam_</span></span>
+  
+> <span data-ttu-id="0b1e0-114">[in] Um valor específico de implementação usado para passar as informações de interface de usuário para uma função.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-114">[in] An implementation-specific value used for passing user interface information to a function.</span></span> <span data-ttu-id="0b1e0-115">Em aplicativos em execução no Microsoft Windows, _ulUIParam_ é o identificador da janela pai para uma caixa de diálogo e do tipo HWND, convertida em um **ULONG_PTR**.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-115">In applications running on Microsoft Windows,  _ulUIParam_ is the parent window handle for a dialog box and is of type HWND, cast to a **ULONG_PTR**.</span></span> <span data-ttu-id="0b1e0-116">Um valor de zero indica que não há nenhuma janela pai.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-116">A value of zero indicates there is no parent window.</span></span> 
+    
+ <span data-ttu-id="0b1e0-117">_lpvmsg_</span><span class="sxs-lookup"><span data-stu-id="0b1e0-117">_lpvmsg_</span></span>
+  
+> <span data-ttu-id="0b1e0-118">[in] Ponteiro para uma mensagem do Windows.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-118">[in] Pointer to a Windows message.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="0b1e0-119">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="0b1e0-119">Return value</span></span>
+
+<span data-ttu-id="0b1e0-120">Uma função com o protótipo **ACCELERATEABSDI** retorna TRUE se ele lida com a mensagem.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-120">A function with the **ACCELERATEABSDI** prototype returns TRUE if it handles the message.</span></span> 
+  
+## <a name="remarks"></a><span data-ttu-id="0b1e0-121">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="0b1e0-121">Remarks</span></span>
+
+<span data-ttu-id="0b1e0-122">Uma função com base em protótipo **ACCELERATEABSDI** é usada somente com uma caixa de diálogo sem janela restrita, ou seja, apenas se o aplicativo cliente tiver definido o sinalizador DIALOG_SDI no membro _ulFlags_ da estrutura [ADRPARM](adrparm.md) .</span><span class="sxs-lookup"><span data-stu-id="0b1e0-122">A function based on the **ACCELERATEABSDI** prototype is used only with a modeless dialog, that is, only if the client application has set the DIALOG_SDI flag in the  _ulFlags_ member of the [ADRPARM](adrparm.md) structure.</span></span> 
+  
+<span data-ttu-id="0b1e0-123">Uma caixa de diálogo sem janela restrita compartilha um loop de mensagem do aplicativo cliente Windows, em vez de seu próprio loop.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-123">A modeless dialog shares the client application's Windows message loop, instead of having its own loop.</span></span> <span data-ttu-id="0b1e0-124">O aplicativo, que controla o loop de mensagens, não sabe quais teclas de aceleração os usos de diálogo, portanto, ele chama um **ACCELERATEABSDI** com base função para testar e agir em teclas de aceleração como CTRL + P para impressão.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-124">The application, which controls the message loop, does not know what accelerator keys the dialog uses, so it calls an **ACCELERATEABSDI** based function to test for and act upon accelerator keys such as CTRL+P for printing.</span></span> 
+  
+<span data-ttu-id="0b1e0-125">Chamadas de loop de mensagem do cliente a **ACCELERATEABSDI** com base em função quando o cliente invoca uma caixa de diálogo do catálogo de endereços sem janela restrita com o método [IAddrBook::Address](iaddrbook-address.md) .</span><span class="sxs-lookup"><span data-stu-id="0b1e0-125">A client's message loop calls the **ACCELERATEABSDI** based function when the client invokes a modeless address book dialog box with the [IAddrBook::Address](iaddrbook-address.md) method.</span></span> <span data-ttu-id="0b1e0-126">Essa chamada é encerrada quando uma função com base no protótipo de função [DISMISSMODELESS](dismissmodeless.md) chamadas de MAPI.</span><span class="sxs-lookup"><span data-stu-id="0b1e0-126">This call is terminated when MAPI calls a function based on the [DISMISSMODELESS](dismissmodeless.md) function prototype.</span></span> 
+  
+
