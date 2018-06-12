@@ -1,0 +1,143 @@
+---
+title: IMAPIPropGetIDsFromNames
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMAPIProp.GetIDsFromNames
+api_type:
+- COM
+ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
+description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767152"
+---
+# <a name="imapipropgetidsfromnames"></a><span data-ttu-id="8e2c9-103">IMAPIProp::GetIDsFromNames</span><span class="sxs-lookup"><span data-stu-id="8e2c9-103">IMAPIProp::GetIDsFromNames</span></span>
+
+  
+  
+<span data-ttu-id="8e2c9-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8e2c9-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="8e2c9-105">Fornece os identificadores de propriedade que correspondem a um ou mais nomes de propriedade.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-105">Provides the property identifiers that correspond to one or more property names.</span></span>
+  
+```cpp
+HRESULT GetIDsFromNames(
+  ULONG cPropNames,
+  LPMAPINAMEID FAR * lppPropNames,
+  ULONG ulFlags,
+  LPSPropTagArray FAR * lppPropTags
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="8e2c9-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="8e2c9-106">Parameters</span></span>
+
+ <span data-ttu-id="8e2c9-107">_cPropNames_</span><span class="sxs-lookup"><span data-stu-id="8e2c9-107">_cPropNames_</span></span>
+  
+> <span data-ttu-id="8e2c9-108">[in] A contagem de nomes de propriedade apontado pelo parâmetro _lppPropNames_ .</span><span class="sxs-lookup"><span data-stu-id="8e2c9-108">[in] The count of property names pointed to by the  _lppPropNames_ parameter.</span></span> <span data-ttu-id="8e2c9-109">Se _lppPropNames_ for NULL, o parâmetro _cPropNames_ deve ser 0.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-109">If  _lppPropNames_ is NULL, the  _cPropNames_ parameter must be 0.</span></span> 
+    
+ <span data-ttu-id="8e2c9-110">_lppPropNames_</span><span class="sxs-lookup"><span data-stu-id="8e2c9-110">_lppPropNames_</span></span>
+  
+> <span data-ttu-id="8e2c9-111">[in] Um ponteiro para uma matriz de nomes de propriedade ou nulo.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-111">[in] A pointer to an array of property names, or NULL.</span></span> <span data-ttu-id="8e2c9-112">Identificadores de propriedade para todos os nomes de propriedade em todos os conjuntos de propriedade sobre quais o objeto possui informações de solicitações de passagem nula.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-112">Passing NULL requests property identifiers for all property names in all property sets about which the object has information.</span></span> <span data-ttu-id="8e2c9-113">O parâmetro _lppPropNames_ não deve ser NULL se o sinalizador MAPI_CREATE é definido no parâmetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="8e2c9-113">The  _lppPropNames_ parameter must not be NULL if the MAPI_CREATE flag is set in the  _ulFlags_ parameter.</span></span> 
+    
+ <span data-ttu-id="8e2c9-114">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="8e2c9-114">_ulFlags_</span></span>
+  
+> <span data-ttu-id="8e2c9-115">[in] Uma bitmask dos sinalizadores que indica como os identificadores de propriedade devem ser retornados.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-115">[in] A bitmask of flags that indicates how the property identifiers should be returned.</span></span> <span data-ttu-id="8e2c9-116">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="8e2c9-116">The following flag can be set:</span></span>
+    
+<span data-ttu-id="8e2c9-117">MAPI_CREATE</span><span class="sxs-lookup"><span data-stu-id="8e2c9-117">MAPI_CREATE</span></span> 
+  
+> <span data-ttu-id="8e2c9-118">Atribui um identificador de propriedade, se um tem ainda não foram atribuído, a um ou mais dos nomes incluídos na matriz de nome de propriedade apontado pela _lppPropNames_.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-118">Assigns a property identifier, if one has not yet been assigned, to one or more of the names included in the property name array pointed to by  _lppPropNames_.</span></span> <span data-ttu-id="8e2c9-119">Esse sinalizador internamente registra o identificador na tabela de mapeamento de identificador do nome.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-119">This flag internally registers the identifier in the name-to-identifier mapping table.</span></span>
+    
+ <span data-ttu-id="8e2c9-120">_lppPropTags_</span><span class="sxs-lookup"><span data-stu-id="8e2c9-120">_lppPropTags_</span></span>
+  
+> <span data-ttu-id="8e2c9-121">[out] Um ponteiro para um ponteiro para uma matriz de marcas de propriedade que contém os identificadores de propriedade existente ou recentemente atribuído.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-121">[out] A pointer to a pointer to an array of property tags that contains existing or newly assigned property identifiers.</span></span> <span data-ttu-id="8e2c9-122">Os tipos de propriedade para as marcas de propriedade nessa matriz são definidos com **PT_UNSPECIFIED**.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-122">The property types for the property tags in this array are set to **PT_UNSPECIFIED**.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="8e2c9-123">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="8e2c9-123">Return value</span></span>
+
+<span data-ttu-id="8e2c9-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="8e2c9-124">S_OK</span></span> 
+  
+> <span data-ttu-id="8e2c9-125">Os identificadores para os nomes de propriedade especificado foram retornados com êxito.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-125">The identifiers for the specified property names were successfully returned.</span></span>
+    
+<span data-ttu-id="8e2c9-126">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="8e2c9-126">MAPI_E_NO_SUPPORT</span></span> 
+  
+> <span data-ttu-id="8e2c9-127">O objeto não dá suporte a propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-127">The object does not support named properties.</span></span>
+    
+<span data-ttu-id="8e2c9-128">MAPI_E_NOT_ENOUGH_MEMORY</span><span class="sxs-lookup"><span data-stu-id="8e2c9-128">MAPI_E_NOT_ENOUGH_MEMORY</span></span> 
+  
+> <span data-ttu-id="8e2c9-129">Memória insuficiente estava disponível para recuperar os identificadores.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-129">Insufficient memory was available to retrieve the identifiers.</span></span>
+    
+<span data-ttu-id="8e2c9-130">MAPI_E_TOO_BIG</span><span class="sxs-lookup"><span data-stu-id="8e2c9-130">MAPI_E_TOO_BIG</span></span> 
+  
+> <span data-ttu-id="8e2c9-131">A operação não pode ser executada porque requer muitas marcas de propriedade a ser retornado.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-131">The operation cannot be performed because it requires too many property tags to be returned.</span></span>
+    
+<span data-ttu-id="8e2c9-132">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="8e2c9-132">MAPI_W_ERRORS_RETURNED</span></span> 
+  
+> <span data-ttu-id="8e2c9-133">Chamada bem-sucedida, mas um ou mais identificadores de propriedade não puderam ser retornados.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-133">The call succeeded overall, but one or more property identifiers could not be returned.</span></span> <span data-ttu-id="8e2c9-134">O tipo de propriedade correspondentes para cada propriedade indisponível é definido para **PT_ERROR** e seu identificador como zero.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-134">The corresponding property type for each unavailable property is set to **PT_ERROR** and its identifier to zero.</span></span> <span data-ttu-id="8e2c9-135">Quando esse aviso é retornado, lidar com a chamada como bem sucedida.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-135">When this warning is returned, handle the call as successful.</span></span> <span data-ttu-id="8e2c9-136">Para testar esse aviso, use a macro **HR_FAILED** .</span><span class="sxs-lookup"><span data-stu-id="8e2c9-136">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="8e2c9-137">Consulte [usando Macros para tratamento de erros](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="8e2c9-137">See [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+    
+## <a name="remarks"></a><span data-ttu-id="8e2c9-138">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="8e2c9-138">Remarks</span></span>
+
+<span data-ttu-id="8e2c9-139">O método **IMAPIProp::GetIDsFromNames** recupera uma matriz de marcas de propriedade que armazenam os identificadores de propriedade para um ou mais propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-139">The **IMAPIProp::GetIDsFromNames** method retrieves an array of property tags that hold the property identifiers for one or more named properties.</span></span> <span data-ttu-id="8e2c9-140">**IMAPIProp::GetIDsFromNames** pode ser chamado para fazer o seguinte:</span><span class="sxs-lookup"><span data-stu-id="8e2c9-140">**IMAPIProp::GetIDsFromNames** can be called to do the following:</span></span> 
+  
+- <span data-ttu-id="8e2c9-141">Crie identificadores para novos nomes.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-141">Create identifiers for new names.</span></span>
+    
+- <span data-ttu-id="8e2c9-142">Recupere os identificadores para nomes específicos.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-142">Retrieve identifiers for specific names.</span></span>
+    
+- <span data-ttu-id="8e2c9-143">Recupere os identificadores para todas as propriedades nomeadas que estão incluídos no mapeamento do objeto.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-143">Retrieve identifiers for all named properties that are included in the object's mapping.</span></span>
+    
+<span data-ttu-id="8e2c9-144">Propriedades nomeadas geralmente são usadas por provedores de repositório de mensagem para mensagens e pastas.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-144">Named properties are typically used by message store providers for folders and messages.</span></span> <span data-ttu-id="8e2c9-145">Outros objetos, como mensagens de seções de perfil e os usuários podem não suportar a associação de nomes aos identificadores de propriedade e podem retornar MAPI_E_NO_SUPPORT da **GetIDsFromNames**.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-145">Other objects, such as messaging users and profile sections, might not support the association of names to property identifiers and might return MAPI_E_NO_SUPPORT from **GetIDsFromNames**.</span></span>
+  
+<span data-ttu-id="8e2c9-146">Se houver um erro dizendo que retorna um identificador para um determinado nome, **GetIDsFromNames** retorna MAPI_W_ERRORS_RETURNED e define o tipo de propriedade a entrada de matriz de marca de propriedade que corresponde ao nome **PT_ERROR** e o identificador como zero.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-146">If there is an error that returns an identifier for a particular name, **GetIDsFromNames** returns MAPI_W_ERRORS_RETURNED and sets the property type in the property tag array entry that corresponds to the name to **PT_ERROR** and the identifier to zero.</span></span> 
+  
+<span data-ttu-id="8e2c9-147">Mapeamento de identificador do nome é representado pela propriedade de **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) de um objeto.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-147">Name-to-identifier mapping is represented by an object's **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) property.</span></span> <span data-ttu-id="8e2c9-148">**PR_MAPPING_SIGNATURE** contém uma estrutura [MAPIUID](mapiuid.md) que indica o provedor de serviços responsável pelo objeto.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-148">**PR_MAPPING_SIGNATURE** contains a [MAPIUID](mapiuid.md) structure that indicates the service provider responsible for the object.</span></span> <span data-ttu-id="8e2c9-149">Se a propriedade **PR_MAPPING_SIGNATURE** é o mesmo para dois objetos, suponha que esses objetos usam o mesmo mapeamento de identificador do nome.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-149">If the **PR_MAPPING_SIGNATURE** property is the same for two objects, assume that these objects use the same name-to-identifier mapping.</span></span> 
+  
+## <a name="notes-to-implementers"></a><span data-ttu-id="8e2c9-150">Notas para implementadores</span><span class="sxs-lookup"><span data-stu-id="8e2c9-150">Notes to implementers</span></span>
+
+<span data-ttu-id="8e2c9-151">Os identificadores que você passa de volta na propriedade tag matriz apontado pelo parâmetro _lppPropNames_ devem estar no intervalo 0x8000 para 0xFFFE.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-151">The identifiers that you pass back in the property tag array pointed to by the  _lppPropNames_ parameter must be in the 0x8000 to 0xFFFE range.</span></span> <span data-ttu-id="8e2c9-152">As entradas nessa matriz devem estar na mesma ordem em que os nomes passado na matriz de nome de propriedade apontadas pela _lppPropNames_.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-152">The entries in this array must be in the same order as the names passed in the property name array pointed to by  _lppPropNames_.</span></span> 
+  
+<span data-ttu-id="8e2c9-153">Caso você ofereça suporte a propriedades nomeadas em um recipiente, use o mesmo mapeamento de identificador do nome para todos os objetos em seu contêiner (ou seja, não use um mapeamento diferente para cada pasta no seu armazenamento de mensagens ou de cada mensagem na pasta).</span><span class="sxs-lookup"><span data-stu-id="8e2c9-153">If you support named properties on a container, use the same name-to-identifier mapping for all objects in your container (that is, do not use a different mapping for each folder in your message store or each message in your folder).</span></span>
+  
+## <a name="notes-to-callers"></a><span data-ttu-id="8e2c9-154">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="8e2c9-154">Notes to callers</span></span>
+
+<span data-ttu-id="8e2c9-155">Como os tipos de propriedade para os identificadores retornados na matriz de marca de propriedade apontado pela _lppPropTags_ estiver definidos como **PT_UNSPECIFIED**, você terá que chamar o método [IMAPIProp::SetProps](imapiprop-setprops.md) para recuperar os tipos exatos.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-155">Because the property types for the returned identifiers in the property tag array pointed to by  _lppPropTags_ are set to **PT_UNSPECIFIED**, you will have to call the [IMAPIProp::SetProps](imapiprop-setprops.md) method to retrieve the accurate types.</span></span> 
+  
+<span data-ttu-id="8e2c9-156">Se você move ou copiar objetos com propriedades nomeadas e os objetos de origem e destino têm assinaturas de mapeamento diferente como indicado pela lista os valores das suas propriedades **PR_MAPPING_SIGNATURE** , os nomes devem ser preservadas durante essas operações.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-156">If you move or copy objects with named properties, and the source and destination objects have different mapping signatures as indicated by the values of their **PR_MAPPING_SIGNATURE** properties, you must preserve the names during these operations.</span></span> <span data-ttu-id="8e2c9-157">Para preservar os nomes de propriedade, ajuste os identificadores de propriedade correspondentes para coincidir com o mapeamento de identificador do nome do objeto de destino.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-157">To preserve property names, adjust the corresponding property identifiers to match the name-to-identifier mapping of the destination object.</span></span> 
+  
+<span data-ttu-id="8e2c9-158">Alguns objetos tem um limite como para o número de identificadores de propriedade, que eles podem name.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-158">Some objects have a limit as to the number of property identifiers they can name.</span></span> <span data-ttu-id="8e2c9-159">Se uma chamada para **GetIDsFromNames** faz exceder esse limite, o método retornará MAPI_E_TOO_BIG.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-159">If a call to **GetIDsFromNames** causes this limit to be exceeded, the method returns MAPI_E_TOO_BIG.</span></span> <span data-ttu-id="8e2c9-160">Nesse caso, a consulta por identificador.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-160">In this case, query by identifier.</span></span> 
+  
+<span data-ttu-id="8e2c9-161">Para obter mais informações, consulte [Propriedades de chamada de MAPI](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="8e2c9-161">For more information, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
+  
+## <a name="mfcmapi-reference"></a><span data-ttu-id="8e2c9-162">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="8e2c9-162">MFCMAPI reference</span></span>
+
+<span data-ttu-id="8e2c9-163">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-163">For MFCMAPI sample code, see the following table.</span></span>
+  
+|<span data-ttu-id="8e2c9-164">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="8e2c9-164">**File**</span></span>|<span data-ttu-id="8e2c9-165">**Function**</span><span class="sxs-lookup"><span data-stu-id="8e2c9-165">**Function**</span></span>|<span data-ttu-id="8e2c9-166">**Comment**</span><span class="sxs-lookup"><span data-stu-id="8e2c9-166">**Comment**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="8e2c9-167">SingleMAPIPropListCtrl.cpp</span><span class="sxs-lookup"><span data-stu-id="8e2c9-167">SingleMAPIPropListCtrl.cpp</span></span>  <br/> |<span data-ttu-id="8e2c9-168">CSingleMAPIPropListCtrl::FindAllNamedPropsUsed</span><span class="sxs-lookup"><span data-stu-id="8e2c9-168">CSingleMAPIPropListCtrl::FindAllNamedPropsUsed</span></span>  <br/> |<span data-ttu-id="8e2c9-169">MFCMAPI usa o método **IMAPIProp::GetIDsFromNames** para obter as marcas de propriedade para todas as propriedades nomeadas que foram mapeadas.</span><span class="sxs-lookup"><span data-stu-id="8e2c9-169">MFCMAPI uses the **IMAPIProp::GetIDsFromNames** method to obtain property tags for all named properties that have been mapped.</span></span>  <br/> |
+   
+## <a name="see-also"></a><span data-ttu-id="8e2c9-170">Confira também</span><span class="sxs-lookup"><span data-stu-id="8e2c9-170">See also</span></span>
+
+
+
+[<span data-ttu-id="8e2c9-171">IMAPIProp::GetNamesFromIDs</span><span class="sxs-lookup"><span data-stu-id="8e2c9-171">IMAPIProp::GetNamesFromIDs</span></span>](imapiprop-getnamesfromids.md)
+  
+[<span data-ttu-id="8e2c9-172">IMAPIProp::SetProps</span><span class="sxs-lookup"><span data-stu-id="8e2c9-172">IMAPIProp::SetProps</span></span>](imapiprop-setprops.md)
+  
+[<span data-ttu-id="8e2c9-173">MAPINAMEID</span><span class="sxs-lookup"><span data-stu-id="8e2c9-173">MAPINAMEID</span></span>](mapinameid.md)
+  
+[<span data-ttu-id="8e2c9-174">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="8e2c9-174">MAPIUID</span></span>](mapiuid.md)
+  
+[<span data-ttu-id="8e2c9-175">IMAPIProp: IUnknown</span><span class="sxs-lookup"><span data-stu-id="8e2c9-175">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
+
+
+[<span data-ttu-id="8e2c9-176">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="8e2c9-176">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+  
+[<span data-ttu-id="8e2c9-177">MAPI denominada propriedades</span><span class="sxs-lookup"><span data-stu-id="8e2c9-177">MAPI Named Properties</span></span>](mapi-named-properties.md)
+  
+[<span data-ttu-id="8e2c9-178">Usando Macros para tratamento de erros</span><span class="sxs-lookup"><span data-stu-id="8e2c9-178">Using Macros for Error Handling</span></span>](using-macros-for-error-handling.md)
+
