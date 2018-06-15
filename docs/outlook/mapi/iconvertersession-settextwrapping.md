@@ -16,7 +16,7 @@ ms.openlocfilehash: 81771a263a7496042d4950b465c0d5b03290399b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19766910"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping

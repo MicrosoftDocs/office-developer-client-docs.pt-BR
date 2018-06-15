@@ -1,23 +1,22 @@
 ---
-title: Aviso de direitos autorais SDK XLL do Excel
+title: Aviso de direitos autorais de documentação do Office 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
+ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: 92a242e6-c94c-4eef-a4b2-efd1b8f62de8
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 0d01f908fb43215cb7d61a55220e3abe37157feb
+ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
+description: Este documento é providedas-é. Informações e exibições existentes neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. O risco de usá-lo é responsabilidade sua.
+ms.openlocfilehash: 4a686a9d3e95ed143db69962ab45337cdb4d373d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19765357"
+ms.locfileid: "19771025"
 ---
-# <a name="excel-xll-sdk-copyright-notice"></a>Aviso de direitos autorais SDK XLL do Excel
+# <a name="office-2013-documentation-copyright-notice"></a>Aviso de direitos autorais de documentação do Office 2013
 
- **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
-  
 Este documento é fornecido "como-é". Informações e visões expressas neste documento, incluindo URL e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. Você assume o risco de usá-lo. 
   
 Alguns exemplos citados neste documento são fornecidos apenas para ilustração e são fictícios. Nenhuma associação ou conexão é intencional ou deve ser inferida.

@@ -11,7 +11,7 @@ ms.openlocfilehash: d25170563b065d68302a120a2dfce960919b6195
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19765219"
 ---
 # <a name="replicate-function-access-custom-web-app"></a>Replicar função (aplicativo da web personalizado do Access)

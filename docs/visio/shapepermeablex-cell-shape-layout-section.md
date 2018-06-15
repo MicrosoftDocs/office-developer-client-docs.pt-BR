@@ -13,7 +13,7 @@ ms.openlocfilehash: 1e0fe614b9401ea453b9c650ef9af3b4105b3805
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19772893"
 ---
 # <a name="shapepermeablex-cell-shape-layout-section"></a>Célula ShapePermeableX (Seção Shape Layout)

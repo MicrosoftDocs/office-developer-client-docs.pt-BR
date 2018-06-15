@@ -12,7 +12,7 @@ ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19766705"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Escolher uma versão específica de MAPI para carregar
