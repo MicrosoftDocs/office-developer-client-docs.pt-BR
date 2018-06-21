@@ -11,21 +11,21 @@ ms.openlocfilehash: aaeac8804be96ece41f9d80a6355c51f3b58b1f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765816"
 ---
-# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="0e010-103">Constantes (camada de dados degradação API)</span><span class="sxs-lookup"><span data-stu-id="0e010-103">Constants (Data degradation layer API)</span></span>
+# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="f5e5a-103">Constantes (camada de dados degradação API)</span><span class="sxs-lookup"><span data-stu-id="f5e5a-103">Constants (Data degradation layer API)</span></span>
 
-<span data-ttu-id="0e010-104">Este tópico contém definições constantes para a API de camada de degradação de dados.</span><span class="sxs-lookup"><span data-stu-id="0e010-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
+<span data-ttu-id="f5e5a-104">Este tópico contém definições constantes para a API de camada de degradação de dados.</span><span class="sxs-lookup"><span data-stu-id="f5e5a-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
   
-## <a name="constants"></a><span data-ttu-id="0e010-105">Constants</span><span class="sxs-lookup"><span data-stu-id="0e010-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="f5e5a-105">Constants</span><span class="sxs-lookup"><span data-stu-id="f5e5a-105">Constants</span></span>
 
-|<span data-ttu-id="0e010-106">**Constante**</span><span class="sxs-lookup"><span data-stu-id="0e010-106">**Constant**</span></span>|<span data-ttu-id="0e010-107">**Definição**</span><span class="sxs-lookup"><span data-stu-id="0e010-107">**Definition**</span></span>|
+|<span data-ttu-id="f5e5a-106">**Constante**</span><span class="sxs-lookup"><span data-stu-id="f5e5a-106">**Constant**</span></span>|<span data-ttu-id="f5e5a-107">**Definição**</span><span class="sxs-lookup"><span data-stu-id="f5e5a-107">**Definition**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0e010-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="0e010-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="0e010-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="0e010-109">0x00000001</span></span>  <br/> |
-|<span data-ttu-id="0e010-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="0e010-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="0e010-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="0e010-111">0x00000002</span></span>  <br/> |
+|<span data-ttu-id="f5e5a-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="f5e5a-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="f5e5a-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="f5e5a-109">0x00000001</span></span>  <br/> |
+|<span data-ttu-id="f5e5a-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f5e5a-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="f5e5a-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="f5e5a-111">0x00000002</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0e010-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="0e010-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5e5a-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="f5e5a-112">See also</span></span>
 
-- [<span data-ttu-id="0e010-113">Sobre a camada de redução de dados API</span><span class="sxs-lookup"><span data-stu-id="0e010-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
+- [<span data-ttu-id="f5e5a-113">Sobre a camada de redução de dados API</span><span class="sxs-lookup"><span data-stu-id="f5e5a-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
 
