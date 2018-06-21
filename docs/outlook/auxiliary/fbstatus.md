@@ -11,7 +11,7 @@ ms.openlocfilehash: 67d710f82856dc8ff4839c926018eef88d355f73
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765808"
 ---
 # <a name="fbstatus"></a>FBStatus
@@ -31,7 +31,7 @@ enum
 
 ```
 
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O status livre/ocupado de um bloco de tempo determina como ele é exibido em um calendário: **disponível**, **ocupado**, **Provisório**ou **Ausência temporária**. 
   

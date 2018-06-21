@@ -11,7 +11,7 @@ ms.openlocfilehash: d569b03eeb85ce98530e773f33b6dcfa29377e48
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765845"
 ---
 # <a name="ifreebusysupportplaceholder19"></a>IFreeBusySupport::Placeholder19
@@ -35,7 +35,7 @@ HRESULT Placeholder19(
 
 Sempre E_NOTIMPL, porque este membro é um espaço reservado e não é suportado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro deve retornar E_NOTIMPL.
   

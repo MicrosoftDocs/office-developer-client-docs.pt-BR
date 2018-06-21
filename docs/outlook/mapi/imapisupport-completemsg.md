@@ -16,7 +16,7 @@ ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19767221"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
@@ -55,7 +55,7 @@ S_OK
   
 > O pós-processamento foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::CompleteMsg** é implementado para objetos de suporte do provedor de repositório de mensagem e é chamado somente por provedores de armazenamento de mensagem que estejam intimamente ligadas a provedores de transporte. Provedores de armazenamento de ligação estreita chamarem **IMAPISupport::CompleteMsg** para instruir o spooler MAPI para postprocess uma mensagem. 
   

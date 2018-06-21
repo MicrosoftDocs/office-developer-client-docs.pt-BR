@@ -12,7 +12,7 @@ ms.openlocfilehash: a4e4e8a4e01dc8d0fbfe9c5cbed0ae4b85b51e94
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765603"
 ---
 # <a name="getting-started-developing-form-templates-with-code"></a>Introdução ao desenvolvimento de modelos de formulário com código

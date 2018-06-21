@@ -16,7 +16,7 @@ ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19766527"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
@@ -55,7 +55,7 @@ typedef struct _EXTENDED_NOTIFICATION
   
 > Ponteiro para os parâmetros de eventos específicos. O tipo de parâmetros que são usados depende do valor do membro **ulEvent** ; Esses parâmetros são documentados pelo provedor que emitiu o evento. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **EXTENDED_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **EXTENDED_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido para _fnevExtended_.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19766886"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
@@ -107,7 +107,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada especificado em _lpEntryID_ não é reconhecido. Esse valor geralmente será retornado se o provedor de catálogo de endereços responsável por na entrada correspondente não está aberto. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e clientes chame o método de **IAddrBook::OpenEntry** para abrir uma entrada do catálogo de endereços. MAPI encaminha a chamada para o provedor de catálogo de endereço apropriado, com base na estrutura [MAPIUID](mapiuid.md) incluída no passado no parâmetro _lpEntryID_ o identificador de entrada. O provedor de catálogo de endereços a entrada é aberta como somente leitura, a menos que o sinalizador MAPI_MODIFY ou MAPI_BEST_ACCESS no parâmetro _ulFlags_ está definido. No entanto, esses sinalizadores são sugestões. Se o provedor de catálogo de endereços não permite a modificação da entrada solicitada, ele retornará MAPI_E_NO_ACCESS. 
   

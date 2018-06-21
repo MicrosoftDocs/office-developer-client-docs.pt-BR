@@ -16,7 +16,7 @@ ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19766159"
 ---
 # <a name="adrparm"></a>ADRPARM
@@ -160,7 +160,7 @@ DIALOG_SDI
   
 > Ponteiro para uma estrutura **SRestriction** que limita os contêineres do catálogo de endereços que podem fornecer as entradas de endereço a ser exibido na caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Estruturas **ADRPARM** são usadas por clientes e provedores de serviços para controlar a aparência e o comportamento das caixas de diálogo de endereço comuns de MAPI. Existem duas variedades da caixa de diálogo endereço: sem janela restrita e modal. Alguns dos membros na estrutura **ADRPARM** aplicam às duas versões da caixa de diálogo, mas algumas só se aplicam a uma das duas versões. A tabela a seguir relaciona os membros de uma estrutura de **ADRPARM** para seu uso com caixas de diálogo comuns do endereço. 
   
