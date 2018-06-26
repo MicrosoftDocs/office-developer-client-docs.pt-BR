@@ -7,7 +7,7 @@ localization_priority: Normal
 ms.assetid: 8d696fa4-a6f2-4fb1-8662-a313bf0b5989
 ms.openlocfilehash: 4cc55fc13396c5af6a90e9428a0138fdd7b3d942
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765029"
@@ -17,7 +17,7 @@ ms.locfileid: "19765029"
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Conceitos (aplicativo da web personalizado do Access)](concepts-access-custom-web-app.md)
     

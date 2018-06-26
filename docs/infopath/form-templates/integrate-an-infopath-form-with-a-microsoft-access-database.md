@@ -8,7 +8,7 @@ ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: O Microsoft InfoPath dá suporte ao uso de um banco de dados do Microsoft Access 2010 como a fonte de dados primária para um formulário, ou como uma fonte de dados secundária para um formulário ou controle. Este artigo explica como usar um banco de dados do Access 2010 como uma fonte de dados.
 ms.openlocfilehash: 30aea15a5e9a8d19f64b3f089b71e859cff93e0e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765658"
@@ -28,12 +28,12 @@ Ao clicar em **Selecionar Banco de Dados**, você poderá escolher uma fonte de 
 Depois de selecionar um banco de dados, o assistente solicitará que você selecione uma tabela do banco de dados a ser usado como a fonte de dados para o formulário. À medida que você adiciona tabelas, os relacionamentos das tabelas umas com as outras serão estabelecidos, e o assistente exibirá as tabelas e os relacionamentos hierárquicos na lista **Estrutura da fonte de dados**. Se você marcar a caixa de seleção **Mostrar colunas da tabela**, o assistente exibirá os nomes de campo de cada tabela na lista Estrutura da fonte de dados; use as caixas de seleção ao lado de cada campo para especificar se um campo será incluído na instrução SQL criada pelo assistente. 
   
 > [!NOTE]
-> [!OBSERVAçãO] Os campos de chave primária de cada tabela sempre estarão selecionados e não podem ser removidos. 
+> Os campos de chave primária de cada tabela sempre estarão selecionados e não podem ser removidos. 
   
 Quando as tabelas, os relacionamentos e os campos tiverem sido especificados usando o **Assistente de Conexão de Dados**, você poderá clicar em **Editar SQL** para exibir a instrução SQL que será usada para estabelecer a fonte de dados para o formulário. Na caixa de diálogo **Editar SQL**, é possível clicar em **Testar Instrução SQL** para verificar se o InfoPath conseguirá criar a fonte de dados das informações fornecidas. Também é possível usar a caixa de diálogo **Editar SQL** para modificar a instrução SQL para criar consultas mais complexas. 
   
 > [!NOTE]
-> [!OBSERVAçãO] As instruções SQL usadas pelo InfoPath são consultas de modelagem de dados. As consultas de modelagem de dados permitem a criação de relacionamentos hierárquicos entre duas ou mais entidades lógicas. É possível usar instruções JOIN SQL, mas isso não é recomendável, porque fazer isso desabilitará o envio de formulários. Para saber mais sobre consultas de modelagem de dados, consulte a documentação no Microsoft Developer Network (MSDN). 
+> As instruções SQL usadas pelo InfoPath são consultas de modelagem de dados. As consultas de modelagem de dados permitem a criação de relacionamentos hierárquicos entre duas ou mais entidades lógicas. É possível usar instruções JOIN SQL, mas isso não é recomendável, porque fazer isso desabilitará o envio de formulários. Para saber mais sobre consultas de modelagem de dados, consulte a documentação no Microsoft Developer Network (MSDN). 
   
 A última página do **Assistente de Conexão de Dados** exibe informações de resumo sobre a fonte de dados, incluindo o nome e o local do arquivo da fonte de dados, o nome da tabela pai primária, o número de tabelas usadas e o status de envio. O status de envio diz a você se a instrução SQL gerada permitirá o envio de dados bem-sucedido para a fonte de dados. 
   
@@ -46,7 +46,7 @@ Quando você iniciar o **Assistente de Conexão de Dados**, será solicitado que
 Depois de selecionar um banco de dados, o assistente solicitará a seleção de uma tabela ou consulta do banco de dados a ser usada como a fonte de dados do formulário. Você deve selecionar uma tabela ou consulta para começar, mas poderá selecionar tabelas adicionais posteriormente se quiser incluí-las. Depois de selecionar uma tabela ou consulta, o assistente permitirá que você selecione os campos que deseja usar na lista **Estrutura da fonte de dados**. Por padrão, todos os campos da tabela são selecionados, mas é possível remover campos se eles não forem necessários para seu formulário. Você também pode controlar como os registros retornados da tabela são classificados e se vários registros são permitidos. Para fazer isso, clique em **Modificar Tabela** e então selecione até três critérios de classificação na caixa de seleção **Ordem de Classificação**. Quando estiver satisfeito, clique em **Concluir**.
   
 > [!NOTE]
-> [!OBSERVAçãO] Os campos de chave primária de cada tabela sempre estarão selecionados e não podem ser removidos. 
+> Os campos de chave primária de cada tabela sempre estarão selecionados e não podem ser removidos. 
   
 O InfoPath também permite que você recupere dados de várias tabelas ou consultas ao mesmo tempo. Quando você recupera dados de várias tabelas ou consultas, deve ser capaz de estabelecer um relacionamento entre todas as tabelas ou consultas envolvidas com a tabela ou consulta original selecionada no **Assistente de Conexão de Dados**. Por exemplo, se for preciso recuperar dados da tabela Clientes do banco de dados Northwind, você poderá adicionar a tabela Pedidos para recuperar dados sobre todos os pedidos para aquele cliente e poderá adicionar a tabela Detalhes do Pedido para recuperar os detalhes de cada pedido.
   
@@ -57,7 +57,7 @@ Quando estiver satisfeito com os relacionamentos, clique em **Concluir**. Assim 
 Quando as tabelas, os relacionamentos e os campos tiverem sido especificados, você poderá clicar em **Editar SQL** para exibir a instrução da consulta SQL que será usada para estabelecer a fonte de dados para o formulário. Na caixa de diálogo **Editar SQL**, você pode clicar em **Testar Instrução SQL** para verificar se o InfoPath poderá criar a fonte de dados desde as informações fornecidas. Também é possível usar a caixa de diálogo **Editar SQL** para modificar a instrução SQL para criar consultas mais complexas. 
   
 > [!NOTE]
-> [!OBSERVAçãO] As instruções SQL usadas pelo InfoPath são consultas de modelagem de dados. As consultas de modelagem de dados permitem a criação de relacionamentos hierárquicos entre duas ou mais entidades lógicas. É possível usar instruções JOIN SQL, mas isso não é recomendável, porque fazer isso desabilitará o envio de formulários. Para saber mais sobre consultas de modelagem de dados, consulte a documentação no Microsoft Developer Network (MSDN). 
+> As instruções SQL usadas pelo InfoPath são consultas de modelagem de dados. As consultas de modelagem de dados permitem a criação de relacionamentos hierárquicos entre duas ou mais entidades lógicas. É possível usar instruções JOIN SQL, mas isso não é recomendável, porque fazer isso desabilitará o envio de formulários. Para saber mais sobre consultas de modelagem de dados, consulte a documentação no Microsoft Developer Network (MSDN). 
   
 ## <a name="enabling-form-submission"></a>Habilitando o envio de formulários
 
