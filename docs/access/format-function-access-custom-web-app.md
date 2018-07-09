@@ -36,13 +36,13 @@ ms.locfileid: "19765091"
 
 <span data-ttu-id="13af3-119">Para o parâmetro *Format* , você pode passar cadeias de caracteres que correspondam a qualquer um dos seguintes padrões:</span><span class="sxs-lookup"><span data-stu-id="13af3-119">For the  *Format*  parameter, you can pass strings that match any of the following patterns:</span></span> 
   
-- [<span data-ttu-id="13af3-120">Cadeias de caracteres de formato numérico padrão</span><span class="sxs-lookup"><span data-stu-id="13af3-120">Standard Numeric Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [<span data-ttu-id="13af3-120">Cadeias de caracteres de formato numérico padrão</span><span class="sxs-lookup"><span data-stu-id="13af3-120">Standard Numeric Format Strings</span></span>](http://msdn.microsoft.com/pt-br/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="13af3-121">Cadeias de caracteres de formato numérico personalizado</span><span class="sxs-lookup"><span data-stu-id="13af3-121">Custom Numeric Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [<span data-ttu-id="13af3-121">Cadeias de caracteres de formato numérico personalizado</span><span class="sxs-lookup"><span data-stu-id="13af3-121">Custom Numeric Format Strings</span></span>](http://msdn.microsoft.com/pt-br/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="13af3-122">As cadeias de caracteres de formato padrão de data e hora</span><span class="sxs-lookup"><span data-stu-id="13af3-122">Standard Date and Time Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [<span data-ttu-id="13af3-122">As cadeias de caracteres de formato padrão de data e hora</span><span class="sxs-lookup"><span data-stu-id="13af3-122">Standard Date and Time Format Strings</span></span>](http://msdn.microsoft.com/pt-br/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [<span data-ttu-id="13af3-123">As cadeias de caracteres de formato de data e hora personalizado</span><span class="sxs-lookup"><span data-stu-id="13af3-123">Custom Date and Time Format Strings</span></span>](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [<span data-ttu-id="13af3-123">As cadeias de caracteres de formato de data e hora personalizado</span><span class="sxs-lookup"><span data-stu-id="13af3-123">Custom Date and Time Format Strings</span></span>](http://msdn.microsoft.com/pt-br/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 <span data-ttu-id="13af3-124">Você não pode usar a função **Format** nas seguintes áreas do Access 2013 web apps:</span><span class="sxs-lookup"><span data-stu-id="13af3-124">You cannot use the **Format** function in the following areas of Access 2013 web apps:</span></span> 
   

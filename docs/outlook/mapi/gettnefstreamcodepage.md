@@ -73,5 +73,5 @@ HRESULT GetTnefStreamCodepage(
 
 
 
-[<span data-ttu-id="2348e-130">attOemCodepage</span><span class="sxs-lookup"><span data-stu-id="2348e-130">attOemCodepage</span></span>](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
+[<span data-ttu-id="2348e-130">attOemCodepage</span><span class="sxs-lookup"><span data-stu-id="2348e-130">attOemCodepage</span></span>](http://msdn.microsoft.com/pt-br/library/ee158667%28EXCHG.80%29.aspx)
 

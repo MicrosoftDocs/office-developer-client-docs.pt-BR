@@ -51,9 +51,9 @@ ms.locfileid: "19765594"
     
 <span data-ttu-id="0b3d9-123">Além disso, há duas interfaces COM InfoPath específica que oferecem maior integração dos controles:</span><span class="sxs-lookup"><span data-stu-id="0b3d9-123">Also, there are two InfoPath-specific COM interfaces that provide tighter integration of controls:</span></span>
   
-- [<span data-ttu-id="0b3d9-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="0b3d9-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [<span data-ttu-id="0b3d9-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="0b3d9-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/pt-br/library/bb264625.aspx)
     
-- [<span data-ttu-id="0b3d9-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="0b3d9-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [<span data-ttu-id="0b3d9-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="0b3d9-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/pt-br/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a><span data-ttu-id="0b3d9-126">Adicionar um controle ActiveX para o ambiente de Design do InfoPath</span><span class="sxs-lookup"><span data-stu-id="0b3d9-126">Add an ActiveX Control to the InfoPath Design Environment</span></span>
 

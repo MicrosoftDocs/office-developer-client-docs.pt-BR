@@ -18,7 +18,7 @@ ms.locfileid: "19765061"
 <span data-ttu-id="893eb-104">Calcula a média aritmética de um conjunto de valores contidos em um campo especificado.</span><span class="sxs-lookup"><span data-stu-id="893eb-104">Calculates the arithmetic mean of a set of values contained in a specified field.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="893eb-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="893eb-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="893eb-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="893eb-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="893eb-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="893eb-107">Syntax</span></span>
 

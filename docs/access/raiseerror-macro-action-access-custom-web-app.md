@@ -19,10 +19,10 @@ ms.locfileid: "19765213"
 <span data-ttu-id="cc6f0-104">A ação **Gerarerro** exibe uma janela pop-up que contém uma mensagem de erro especificado.</span><span class="sxs-lookup"><span data-stu-id="cc6f0-104">The **RaiseError** action displays a popup window that contains a specified error message.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="cc6f0-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="cc6f0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="cc6f0-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="cc6f0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="cc6f0-107">[!OBSERVAçãO] A ação **GerarErro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="cc6f0-107">The **RaiseError** action is available only in Data Macros.</span></span> 
+> <span data-ttu-id="cc6f0-107">A ação **GerarErro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="cc6f0-107">The **RaiseError** action is available only in Data Macros.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="cc6f0-108">Configuração</span><span class="sxs-lookup"><span data-stu-id="cc6f0-108">Setting</span></span>
 

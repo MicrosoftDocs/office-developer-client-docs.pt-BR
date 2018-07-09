@@ -19,7 +19,7 @@ ms.locfileid: "19765498"
 <span data-ttu-id="43f8f-104">A instrução **grupo** permite que você especifique um bloco de ações em uma macro que você pode expandir ou recolher.</span><span class="sxs-lookup"><span data-stu-id="43f8f-104">The **Group** statement enables you to specify a block of actions within a macro that you can expand or collapse.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="43f8f-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="43f8f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="43f8f-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="43f8f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="43f8f-107">Configuração</span><span class="sxs-lookup"><span data-stu-id="43f8f-107">Setting</span></span>
 

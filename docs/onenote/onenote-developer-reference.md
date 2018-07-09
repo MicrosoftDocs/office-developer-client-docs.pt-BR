@@ -40,9 +40,9 @@ ms.locfileid: "19765783"
     
 - [<span data-ttu-id="f2913-120">Accessibility in Microsoft Products</span><span class="sxs-lookup"><span data-stu-id="f2913-120">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
     
-- [<span data-ttu-id="f2913-121">Conven��es de Documentos</span><span class="sxs-lookup"><span data-stu-id="f2913-121">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="f2913-121">Conven��es de Documentos</span><span class="sxs-lookup"><span data-stu-id="f2913-121">Document Conventions</span></span>](http://msdn.microsoft.com/pt-br/office/aa905365.aspx)
     
-- [<span data-ttu-id="f2913-122">Informações de direitos autorais de referência do desenvolvedor do OneNote</span><span class="sxs-lookup"><span data-stu-id="f2913-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [<span data-ttu-id="f2913-122">Informações de direitos autorais de referência do desenvolvedor do OneNote</span><span class="sxs-lookup"><span data-stu-id="f2913-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/pt-br/library/office/jj680116.aspx)
     
 - [<span data-ttu-id="f2913-123">Aviso de Privacidade do Microsoft Online</span><span class="sxs-lookup"><span data-stu-id="f2913-123">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
     

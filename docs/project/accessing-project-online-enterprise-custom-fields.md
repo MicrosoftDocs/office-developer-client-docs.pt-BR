@@ -207,7 +207,7 @@ private static ProjectContext projContext =
 
 - [<span data-ttu-id="9559c-212">Portal de desenvolvimento do Project</span><span class="sxs-lookup"><span data-stu-id="9559c-212">Project Development Portal</span></span>](http://dev.office.com/project.aspx)
 - [<span data-ttu-id="9559c-213">Visão geral: Campos personalizados da empresa e tabelas de pesquisa</span><span class="sxs-lookup"><span data-stu-id="9559c-213">Overview: Enterprise custom fields and lookup tables</span></span>](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- <span data-ttu-id="9559c-214">[Local e campos personalizados da empresa](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)</span><span class="sxs-lookup"><span data-stu-id="9559c-214">[Local and Enterprise Custom Fields](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)</span></span>
+- <span data-ttu-id="9559c-214">[Local e campos personalizados da empresa](https://msdn.microsoft.com/pt-br/library/office/ms447495(v=office.14).aspx)</span><span class="sxs-lookup"><span data-stu-id="9559c-214">[Local and Enterprise Custom Fields](https://msdn.microsoft.com/pt-br/library/office/ms447495(v=office.14).aspx)</span></span>
 - [<span data-ttu-id="9559c-215">Adicionar ou editar campos personalizados empresariais no Project Server 2013</span><span class="sxs-lookup"><span data-stu-id="9559c-215">Add or edit enterprise custom fields in Project Server 2013</span></span>](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 

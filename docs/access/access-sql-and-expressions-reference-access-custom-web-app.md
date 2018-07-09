@@ -17,7 +17,7 @@ ms.locfileid: "19765068"
 ## <a name="in-this-section"></a><span data-ttu-id="eb202-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="eb202-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="eb202-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="eb202-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="eb202-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="eb202-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 - [<span data-ttu-id="eb202-106">Funções de conversão (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="eb202-106">Conversion functions (Access custom web app)</span></span>](conversion-functions-access-custom-web-app.md)
     

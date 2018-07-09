@@ -29,7 +29,7 @@ ms.locfileid: "19767441"
     
 <span data-ttu-id="48a09-110">Execute as seguintes tarefas em qualquer método de logon que você implementar:</span><span class="sxs-lookup"><span data-stu-id="48a09-110">Perform the following tasks in whatever logon method you implement:</span></span>
   
-1. <span data-ttu-id="48a09-111">Incrementa a contagem de referência no objeto suporte que é passada como um parâmetro de entrada chamando o método [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="48a09-111">Increment the reference count on the support object that is passed as an input parameter by calling its [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method.</span></span> 
+1. <span data-ttu-id="48a09-111">Incrementa a contagem de referência no objeto suporte que é passada como um parâmetro de entrada chamando o método [AddRef](http://msdn.microsoft.com/pt-br/library/ms691379%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="48a09-111">Increment the reference count on the support object that is passed as an input parameter by calling its [IUnknown::AddRef](http://msdn.microsoft.com/pt-br/library/ms691379%28v=VS.85%29.aspx) method.</span></span> 
     
 2. <span data-ttu-id="48a09-112">Chame o suporte ao método do objeto [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para acessar a seção de perfil.</span><span class="sxs-lookup"><span data-stu-id="48a09-112">Call the support object's [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to access your profile section.</span></span> 
     

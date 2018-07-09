@@ -72,7 +72,7 @@ ms.locfileid: "19766083"
     
 - [<span data-ttu-id="efa61-134">Ler as propriedades de fuso horário de um compromisso</span><span class="sxs-lookup"><span data-stu-id="efa61-134">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [<span data-ttu-id="efa61-135">Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)</span><span class="sxs-lookup"><span data-stu-id="efa61-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [<span data-ttu-id="efa61-135">Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)</span><span class="sxs-lookup"><span data-stu-id="efa61-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/pt-br/library/office/gg262879.aspx)
     
 - [<span data-ttu-id="efa61-136">Use o tempo relativo para acessar dados do tipo disponível/ocupado</span><span class="sxs-lookup"><span data-stu-id="efa61-136">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
     

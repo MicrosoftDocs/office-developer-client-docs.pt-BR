@@ -17,7 +17,7 @@ ms.locfileid: "19765090"
 ## <a name="in-this-section"></a><span data-ttu-id="dd32f-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="dd32f-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="dd32f-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="dd32f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="dd32f-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="dd32f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 - [<span data-ttu-id="dd32f-106">Palavras reservadas (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="dd32f-106">Reserved Words (Access custom web app)</span></span>](reserved-words-access-custom-web-app.md)
     

@@ -61,7 +61,7 @@ ms.locfileid: "19765271"
 - <span data-ttu-id="4e900-128">**XLOPER** &ndash; uma estrutura de dados do tipo multi pode representar todos os tipos de dados de planilha (incluindo erros), inteiros, referências de intervalo, tipos de controle de fluxo de planilha de macro XLM e um tipo de dados binários de armazenamento interno.</span><span class="sxs-lookup"><span data-stu-id="4e900-128">**XLOPER** &ndash; a multi-type data structure that can represent all the worksheet data types (including errors), integers, range references, XLM macro sheet flow control types, and an internal binary storage data type.</span></span> 
     
    > [!NOTE]
-   > <span data-ttu-id="4e900-129">[!OBSERVA��O] Cadeias de caracteres s�o representadas como cadeias de caracteres de bytes contada por tamanho de at� 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="4e900-129">Strings are represented as length-counted byte strings of up to 255 characters length.</span></span> 
+   > <span data-ttu-id="4e900-129">Cadeias de caracteres s�o representadas como cadeias de caracteres de bytes contada por tamanho de at� 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="4e900-129">Strings are represented as length-counted byte strings of up to 255 characters length.</span></span> 
   
 <span data-ttu-id="4e900-130">Iniciando em Excel�2007:</span><span class="sxs-lookup"><span data-stu-id="4e900-130">Starting in Excel 2007:</span></span>
   
@@ -70,7 +70,7 @@ ms.locfileid: "19765271"
 - <span data-ttu-id="4e900-132">**XLOPER12** &ndash; uma estrutura de dados do tipo multi pode representar todos os tipos de dados de planilha (incluindo erros), inteiros, referências de intervalo, tipos de controle de fluxo de planilha de macro XLM e um tipo de dados binários de armazenamento interno.</span><span class="sxs-lookup"><span data-stu-id="4e900-132">**XLOPER12** &ndash; a multi-type data structure that can represent all the worksheet data types (including errors), integers, range references, XLM macro sheet flow control types, and an internal binary storage data type.</span></span> 
     
    > [!NOTE]
-   > <span data-ttu-id="4e900-133">[!OBSERVA��O] Cadeias de caracteres s�o representadas como cadeias de caracteres Unicode contada por tamanho de at� 32.767 caracteres.</span><span class="sxs-lookup"><span data-stu-id="4e900-133">Strings are represented as length-counted Unicode strings of up to 32,767 characters long.</span></span> 
+   > <span data-ttu-id="4e900-133">Cadeias de caracteres s�o representadas como cadeias de caracteres Unicode contada por tamanho de at� 32.767 caracteres.</span><span class="sxs-lookup"><span data-stu-id="4e900-133">Strings are represented as length-counted Unicode strings of up to 32,767 characters long.</span></span> 
   
 ## <a name="registration-data-type-codes"></a><span data-ttu-id="4e900-134">Códigos de tipo de dados de registro</span><span class="sxs-lookup"><span data-stu-id="4e900-134">Registration data type codes</span></span>
 

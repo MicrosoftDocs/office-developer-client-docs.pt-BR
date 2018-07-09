@@ -27,11 +27,11 @@ ms.locfileid: "19765619"
   
 ## <a name="related-links"></a><span data-ttu-id="97cf1-109">Links Relacionados</span><span class="sxs-lookup"><span data-stu-id="97cf1-109">Related Links</span></span>
 
-[<span data-ttu-id="97cf1-110">Centro do desenvolvedor do InfoPath</span><span class="sxs-lookup"><span data-stu-id="97cf1-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
+[<span data-ttu-id="97cf1-110">Centro do desenvolvedor do InfoPath</span><span class="sxs-lookup"><span data-stu-id="97cf1-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/pt-br/office/aa905434.aspx)
   
-[<span data-ttu-id="97cf1-111">Centro de Desenvolvimento do Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="97cf1-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
+[<span data-ttu-id="97cf1-111">Centro de Desenvolvimento do Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="97cf1-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/pt-br/office/default.aspx)
   
-[<span data-ttu-id="97cf1-112">Convenções de Documentos na Documentação dos Desenvolvedores do Office</span><span class="sxs-lookup"><span data-stu-id="97cf1-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+[<span data-ttu-id="97cf1-112">Convenções de Documentos na Documentação dos Desenvolvedores do Office</span><span class="sxs-lookup"><span data-stu-id="97cf1-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/pt-br/office/aa905365.aspx)
   
 [<span data-ttu-id="97cf1-113">Acessibilidade da Microsoft</span><span class="sxs-lookup"><span data-stu-id="97cf1-113">Microsoft Accessibility</span></span>](http://www.microsoft.com/ENABLE/)
   

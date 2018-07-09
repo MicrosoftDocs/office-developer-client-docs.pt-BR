@@ -18,7 +18,7 @@ ms.locfileid: "19765083"
 <span data-ttu-id="9fda1-104">Pesquisas uma expressão de texto para outra expressão de texto e retorna suas Iniciando posição se encontrado.</span><span class="sxs-lookup"><span data-stu-id="9fda1-104">Searches a text expression for another text expression and returns its starting position if found.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="9fda1-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9fda1-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="9fda1-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9fda1-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="9fda1-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="9fda1-107">Syntax</span></span>
 

@@ -18,7 +18,7 @@ ms.locfileid: "19765087"
 <span data-ttu-id="9d673-104">Saiba como controlar como uma data ou hora é exibida criando uma formatação personalizada.</span><span class="sxs-lookup"><span data-stu-id="9d673-104">Learn how to control how a date or time is displayed by creating a custom formatting.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="9d673-p101">[!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9d673-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="9d673-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="9d673-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="format-specifications"></a><span data-ttu-id="9d673-107">Especificações de formato</span><span class="sxs-lookup"><span data-stu-id="9d673-107">Format specifications</span></span>
 

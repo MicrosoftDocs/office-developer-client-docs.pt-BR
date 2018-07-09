@@ -65,7 +65,7 @@ HRESULT Logoff(
     
 ## <a name="remarks"></a><span data-ttu-id="a9245-125">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="a9245-125">Remarks</span></span>
 
-<span data-ttu-id="a9245-126">O método **IMAPISession::Logoff** termina uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="a9245-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="a9245-127">Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) pode ser chamado.</span><span class="sxs-lookup"><span data-stu-id="a9245-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
+<span data-ttu-id="a9245-126">O método **IMAPISession::Logoff** termina uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="a9245-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="a9245-127">Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) pode ser chamado.</span><span class="sxs-lookup"><span data-stu-id="a9245-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
   
 ## <a name="notes-to-callers"></a><span data-ttu-id="a9245-128">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="a9245-128">Notes to callers</span></span>
 

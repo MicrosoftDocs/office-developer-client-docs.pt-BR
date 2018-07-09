@@ -60,5 +60,5 @@ BOOL IsBadBoundedStringPtr(
 
 
 
-[<span data-ttu-id="d9e67-125">IsBadStringPtr</span><span class="sxs-lookup"><span data-stu-id="d9e67-125">IsBadStringPtr</span></span>](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
+[<span data-ttu-id="d9e67-125">IsBadStringPtr</span><span class="sxs-lookup"><span data-stu-id="d9e67-125">IsBadStringPtr</span></span>](http://msdn.microsoft.com/pt-br/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

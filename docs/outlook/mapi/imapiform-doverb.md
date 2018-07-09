@@ -52,7 +52,7 @@ HRESULT DoVerb(
     
  <span data-ttu-id="b4ab6-115">_lprcPosRect_</span><span class="sxs-lookup"><span data-stu-id="b4ab6-115">_lprcPosRect_</span></span>
   
-> <span data-ttu-id="b4ab6-116">[in] Um ponteiro para um Win32 estrutura [Retangular](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário.</span><span class="sxs-lookup"><span data-stu-id="b4ab6-116">[in] A pointer to a Win32 [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
+> <span data-ttu-id="b4ab6-116">[in] Um ponteiro para um Win32 estrutura [Retangular](http://msdn.microsoft.com/pt-br/library/dd162897%28VS.85%29.aspx) que contém o tamanho e a posição da janela do formulário.</span><span class="sxs-lookup"><span data-stu-id="b4ab6-116">[in] A pointer to a Win32 [RECT](http://msdn.microsoft.com/pt-br/library/dd162897%28VS.85%29.aspx) structure that contains the size and position of the form's window.</span></span> 
     
 ## <a name="return-value"></a><span data-ttu-id="b4ab6-117">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="b4ab6-117">Return value</span></span>
 
@@ -86,7 +86,7 @@ HRESULT DoVerb(
     
 <span data-ttu-id="b4ab6-136">Alguns verbos, como imprimir, devem ser modais com relação a chamada **DoVerb** — ou seja, a operação indicada deve ser concluída antes da chamada **DoVerb** retorna.</span><span class="sxs-lookup"><span data-stu-id="b4ab6-136">Some verbs, such as Print, should be modal with respect to the **DoVerb** call — that is, the indicated operation must be finished before the **DoVerb** call returns.</span></span> 
   
-<span data-ttu-id="b4ab6-137">Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função de [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="b4ab6-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function.</span></span> 
+<span data-ttu-id="b4ab6-137">Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função de [GetWindowRect](http://msdn.microsoft.com/pt-br/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="b4ab6-137">To obtain the **RECT** structure used by a form's window, call the [GetWindowRect](http://msdn.microsoft.com/pt-br/library/ms633519) function.</span></span> 
   
 <span data-ttu-id="b4ab6-138">Não salve a alça no parâmetro _hwndParent_ porque, embora ele geralmente permanecerá válido até a conclusão da **DoVerb**, ele pode ser destruído imediatamente após retornar da chamada.</span><span class="sxs-lookup"><span data-stu-id="b4ab6-138">Do not save the handle in the  _hwndParent_ parameter because, although it usually remains valid until the completion of **DoVerb**, it can be destroyed immediately upon the call's return.</span></span>
   
@@ -94,7 +94,7 @@ HRESULT DoVerb(
 
 <span data-ttu-id="b4ab6-140">Você pode fazer com que não restrita verbos agir como verbos modais, apontando _lpViewContext_ para uma implementação de contexto do modo de exibição que retorna o sinalizador VCSTATUS_MODAL de seu método de [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="b4ab6-140">You can make non-modal verbs act as modal verbs by pointing  _lpViewContext_ to a view context implementation that returns the VCSTATUS_MODAL flag from its [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
   
-<span data-ttu-id="b4ab6-141">Para obter mais informações sobre os verbos na MAPI, consulte [Verbos de formulário](form-verbs.md).</span><span class="sxs-lookup"><span data-stu-id="b4ab6-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="b4ab6-142">Para obter mais informações sobre como os verbos são manipulados no OLE, consulte [OLE e transferência de dados](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b4ab6-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="b4ab6-141">Para obter mais informações sobre os verbos na MAPI, consulte [Verbos de formulário](form-verbs.md).</span><span class="sxs-lookup"><span data-stu-id="b4ab6-141">For more information about verbs in MAPI, see [Form Verbs](form-verbs.md).</span></span> <span data-ttu-id="b4ab6-142">Para obter mais informações sobre como os verbos são manipulados no OLE, consulte [OLE e transferência de dados](http://msdn.microsoft.com/pt-br/library/ms693425%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b4ab6-142">For more information about how verbs are handled in OLE, see [OLE and Data Transfer](http://msdn.microsoft.com/pt-br/library/ms693425%28VS.85%29.aspx).</span></span>
   
 ## <a name="mfcmapi-reference"></a><span data-ttu-id="b4ab6-143">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="b4ab6-143">MFCMAPI reference</span></span>
 

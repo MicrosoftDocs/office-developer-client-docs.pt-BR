@@ -42,7 +42,7 @@ HRESULT DeleteMessage(
     
  <span data-ttu-id="e1ad6-109">_prcPosRect_</span><span class="sxs-lookup"><span data-stu-id="e1ad6-109">_prcPosRect_</span></span>
   
-> <span data-ttu-id="e1ad6-110">[in] Um ponteiro para uma estrutura de [Retangular](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário.</span><span class="sxs-lookup"><span data-stu-id="e1ad6-110">[in] A pointer to a [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position.</span></span> <span data-ttu-id="e1ad6-111">A próxima forma exibida também usa esse retângulo de janela.</span><span class="sxs-lookup"><span data-stu-id="e1ad6-111">The next form displayed also uses this window rectangle.</span></span> 
+> <span data-ttu-id="e1ad6-110">[in] Um ponteiro para uma estrutura de [Retangular](http://msdn.microsoft.com/pt-br/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário.</span><span class="sxs-lookup"><span data-stu-id="e1ad6-110">[in] A pointer to a [RECT](http://msdn.microsoft.com/pt-br/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position.</span></span> <span data-ttu-id="e1ad6-111">A próxima forma exibida também usa esse retângulo de janela.</span><span class="sxs-lookup"><span data-stu-id="e1ad6-111">The next form displayed also uses this window rectangle.</span></span> 
     
 ## <a name="return-value"></a><span data-ttu-id="e1ad6-112">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="e1ad6-112">Return value</span></span>
 
@@ -76,7 +76,7 @@ HRESULT DeleteMessage(
     
 4. <span data-ttu-id="e1ad6-130">Exclui ou move a mensagem.</span><span class="sxs-lookup"><span data-stu-id="e1ad6-130">It deletes or moves the message.</span></span>
     
-<span data-ttu-id="e1ad6-131">Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="e1ad6-131">To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function.</span></span> 
+<span data-ttu-id="e1ad6-131">Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](http://msdn.microsoft.com/pt-br/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="e1ad6-131">To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/pt-br/library/ms633519) function.</span></span> 
   
 <span data-ttu-id="e1ad6-132">Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="e1ad6-132">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   

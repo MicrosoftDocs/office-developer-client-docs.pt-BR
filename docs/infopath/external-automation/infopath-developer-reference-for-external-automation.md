@@ -25,9 +25,9 @@ ms.locfileid: "19765511"
   
 ## <a name="see-also"></a><span data-ttu-id="36ed7-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="36ed7-109">See also</span></span>
 
-- [<span data-ttu-id="36ed7-110">Centro do desenvolvedor do InfoPath</span><span class="sxs-lookup"><span data-stu-id="36ed7-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
-- [<span data-ttu-id="36ed7-111">Centro de Desenvolvimento do Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="36ed7-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
-- [<span data-ttu-id="36ed7-112">Convenções de Documentos na Documentação dos Desenvolvedores do Office</span><span class="sxs-lookup"><span data-stu-id="36ed7-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="36ed7-110">Centro do desenvolvedor do InfoPath</span><span class="sxs-lookup"><span data-stu-id="36ed7-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/pt-br/office/aa905434.aspx)  
+- [<span data-ttu-id="36ed7-111">Centro de Desenvolvimento do Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="36ed7-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/pt-br/office/default.aspx)
+- [<span data-ttu-id="36ed7-112">Convenções de Documentos na Documentação dos Desenvolvedores do Office</span><span class="sxs-lookup"><span data-stu-id="36ed7-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/pt-br/office/aa905365.aspx)
 - [<span data-ttu-id="36ed7-113">Acessibilidade da Microsoft</span><span class="sxs-lookup"><span data-stu-id="36ed7-113">Microsoft Accessibility</span></span>](http://www.microsoft.com/ENABLE/)
 - [<span data-ttu-id="36ed7-114">Aviso de Privacidade do Microsoft Online</span><span class="sxs-lookup"><span data-stu-id="36ed7-114">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
   
