@@ -19,7 +19,7 @@ ms.locfileid: "19765230"
 <span data-ttu-id="fb4ed-104">A ação **DefinirCampo** pode ser usada para atribuir um valor a um campo.</span><span class="sxs-lookup"><span data-stu-id="fb4ed-104">The **SetField** action can be used to assign a value to a field.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="fb4ed-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="fb4ed-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="fb4ed-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="fb4ed-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
 > <span data-ttu-id="fb4ed-107">A ação **DefinirCampo** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="fb4ed-107">The **SetField** action is available only in Data Macros.</span></span> 

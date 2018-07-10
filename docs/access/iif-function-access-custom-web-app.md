@@ -19,7 +19,7 @@ ms.locfileid: "19765048"
 <span data-ttu-id="7c5ed-104">Verifica se uma condição for atendida e retorna um valor se for TRUE, de um outro se for FALSE.</span><span class="sxs-lookup"><span data-stu-id="7c5ed-104">Checks whether a condition is met, and returns one value if TRUE of another on if it is FALSE.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="7c5ed-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="7c5ed-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="7c5ed-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="7c5ed-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="7c5ed-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="7c5ed-107">Syntax</span></span>
 
