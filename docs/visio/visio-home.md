@@ -19,7 +19,7 @@ ms.locfileid: "19773263"
 <span data-ttu-id="21ae2-104">Encontre conteúdo de instruções, exemplos de código, documentação SDK e API, referências VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Visio.</span><span class="sxs-lookup"><span data-stu-id="21ae2-104">Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Visio.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="21ae2-p101">[!OBSERVAçãO] Tem interesse em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="21ae2-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).</span></span> 
+> <span data-ttu-id="21ae2-p101">Tem interesse em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de suplementos do Office](https://docs.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="21ae2-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-ins).</span></span> 
   
 ### <a name="viewed-most"></a><span data-ttu-id="21ae2-107">Mais vistos</span><span class="sxs-lookup"><span data-stu-id="21ae2-107">Viewed most</span></span>
   
@@ -43,7 +43,7 @@ ms.locfileid: "19773263"
   
 - [<span data-ttu-id="21ae2-117">Introdução</span><span class="sxs-lookup"><span data-stu-id="21ae2-117">Get started</span></span>](https://dev.office.com/getting-started/addins)
   
-- [<span data-ttu-id="21ae2-118">Visão geral da plataforma</span><span class="sxs-lookup"><span data-stu-id="21ae2-118">Platform overview</span></span>](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [<span data-ttu-id="21ae2-118">Visão geral da plataforma</span><span class="sxs-lookup"><span data-stu-id="21ae2-118">Platform overview</span></span>](https://msdn.microsoft.com/pt-br/library/office/jj220082.aspx)
   
 ### <a name="other-resources"></a><span data-ttu-id="21ae2-119">Outros recursos</span><span class="sxs-lookup"><span data-stu-id="21ae2-119">Other resources</span></span>
   
@@ -53,6 +53,6 @@ ms.locfileid: "19773263"
   
 - [<span data-ttu-id="21ae2-122">SDK do Open XML</span><span class="sxs-lookup"><span data-stu-id="21ae2-122">Open XML SDK</span></span>](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [<span data-ttu-id="21ae2-123">Suplementos do VSTO para Office</span><span class="sxs-lookup"><span data-stu-id="21ae2-123">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [<span data-ttu-id="21ae2-123">Suplementos do VSTO para Office</span><span class="sxs-lookup"><span data-stu-id="21ae2-123">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/pt-br/library/jj620922.aspx)
   
 
