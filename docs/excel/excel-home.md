@@ -20,11 +20,11 @@ Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, refer
 > [!NOTE]
 > [!OBSERVAçãO] Tem interesse em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de suplementos do Excel](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview). 
   
-### <a name="viewed-most"></a>Exibidos mais
+### <a name="viewed-most"></a>Mais vistos
   
 - [Referência do VBA do Excel](https://msdn.microsoft.com/EN-US/library/ee861528.aspx)
   
-- [Excel 2010](https://msdn.microsoft.com/en-us/library/ee658205%28v=office.14%29.aspx)
+- [Excel 2010](https://msdn.microsoft.com/en-us/library/ee658205%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a>Suplementos do Office
   
@@ -32,7 +32,7 @@ Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, refer
   
 - [Visão geral da plataforma](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
   
-### <a name="code-samples"></a>Code samples
+### <a name="code-samples"></a>Exemplos de código
   
 - [Amostras de código do Excel no Centro de desenvolvimento do Office](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
   

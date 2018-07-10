@@ -16,7 +16,7 @@ ms.locfileid: "19765025"
 
 Encontre conteúdos de instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Access.
   
-### <a name="viewed-most"></a>Exibidos mais
+### <a name="viewed-most"></a>Mais vistos
   
 - [Referência do VBA do Access](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   

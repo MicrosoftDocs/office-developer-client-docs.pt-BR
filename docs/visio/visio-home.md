@@ -21,9 +21,9 @@ Encontre conteúdo de instruções, exemplos de código, documentação SDK e AP
 > [!NOTE]
 > [!OBSERVAçãO] Tem interesse em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
-### <a name="viewed-most"></a>Exibidos mais
+### <a name="viewed-most"></a>Mais vistos
   
-- [Referência do Visio VBA](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
+- [Referência do VBA do Visio](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
   
 - [Salvar como referência da Web do Visio](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
   
@@ -33,7 +33,7 @@ Encontre conteúdo de instruções, exemplos de código, documentação SDK e AP
   
 - [Referência de formato de arquivo do Visio](visio-file-format-reference.md)
   
-- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
+- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
   
 ### <a name="downloads"></a>Downloads
   
