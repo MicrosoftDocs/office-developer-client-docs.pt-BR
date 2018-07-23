@@ -8,7 +8,7 @@ ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Saiba como controlar como um número é exibido criando um formato de número definido pelo usuário
 ms.openlocfilehash: fac128ce13edf89105fbee7319533e1a3f346d05
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765093"
@@ -18,9 +18,9 @@ ms.locfileid: "19765093"
 Saiba como controlar como um número é exibido criando um formato de número definido pelo usuário
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
-Você pode alterar a maneira como um número é exibido criando um formato de número definido pelo usuário. Um formato de número definido pelo usuário pode conter de uma a três seções separadas por um ponto e vírgula (;). Se o argumento Style da função [Função Format (aplicativo da web personalizado do Access)](format-function-access-custom-web-app.md) contiver um dos formatos numéricos predefinidos, somente uma seção será permitida. 
+Você pode alterar a maneira como um número é exibido criando um formato de número definido pelo usuário. Um formato de número definido pelo usuário pode conter de uma a três seções separadas por um ponto e vírgula (;). Se o argumento Style da função [Função Format (aplicativo Web personalizado do Access)](format-function-access-custom-web-app.md) contiver um dos formatos numéricos predefinidos, somente uma seção será permitida. 
   
 ## <a name="format-specifications"></a>Especificações de formato
 <a name="bk_addresources"> </a>
@@ -29,7 +29,7 @@ A tabela a seguir lista os caracteres que você pode usar para criar formatos de
   
 |**Especificação de formato**|**Descrição**|
 |:-----|:-----|
-|None  <br/> |Exibe o número sem formatação.  <br/> |
+|Nenhum  <br/> |Exibe o número sem formatação.  <br/> |
 |**0** (caractere zero)  <br/> |Espaço reservado de dígito. Exibe um dígito ou um zero. Se a expressão tiver um dígito na posição onde o zero aparece na cadeia de caracteres de formato, exibe o dígito; caso contrário, exibe um zero nessa posição.  <br/> Se o número tiver menos dígitos do que zeros (em qualquer casa decimal) na expressão de formato, exibe os zeros à esquerda ou à direita. Se o número tiver mais dígitos do que zeros ao lado direito do separador de decimais na expressão de formato, arredonda o número de casas decimais de acordo com o número de zeros. Se o número tiver mais dígitos do que zeros à esquerda do separador de decimais na expressão de formato, exibe os dígitos adicionais sem modificação.  <br/> |
 |#  <br/> |Espaço reservado de dígito. Exibe um dígito ou nada. Se a expressão tiver um dígito na posição onde o caractere # aparece na cadeia de caracteres de formato, exibe o dígito; caso contrário, não exibe nada nessa posição.  <br/> Este símbolo funciona exatamente como o espaço reservado de dígito 0, excetuando que os zeros à esquerda e à direita não são exibidos caso o número tenha menos dígitos do que caracteres # em cada lado do separador de decimais na expressão de formato.  <br/> |
 |. (caractere de ponto)  <br/> |Espaço reservado de decimal. O espaço reservado de decimal determina quantos dígitos são exibidos à esquerda e à direita do separador de decimais. Se a expressão de formato contiver somente # caracteres à esquerda deste símbolo, os números menores do que 1 começam com um separador de decimais. Para exibir um zero à esquerda com números fracionados, use zero como o espaço reservado de primeiro dígito à esquerda do separador de decimais. Em alguns locais, uma vírgula é usada como o separador de decimais. O caractere atual que é usado como um espaço reservado de decimais na saída formatada depende do formato de número reconhecido pelo sistema. Por isso, você deveria usar o ponto como caractere de espaço reservado de decimais nos seus formatos mesmo caso esteja num local que use vírgulas para essa função. A cadeia de caracteres formatada será exibida no formato correto para o local.  <br/> |
@@ -58,14 +58,14 @@ A tabela a seguir contém algumas amostras de expressões de formato para númer
 |0.00E-00  <br/> |5.00E00  <br/> |-5.00E00  <br/> |5.00E-01  <br/> |0.00E00  <br/> |
 |"$#,##0;;\Z\e\r\o"  <br/> |$5  <br/> |$-5  <br/> |$1  <br/> |Zero  <br/> |
    
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Comentários
 <a name="bk_addresources"> </a>
 
 Se você incluir pontos e vírgulas com nada entre eles, a seção em falta será exibida usando o formato do valor positivo.
   
 ## <a name="see-also"></a>Confira também
 
-- [Função Format (aplicativo da web personalizado do Access)](format-function-access-custom-web-app.md) 
+- [Função Format (aplicativo Web personalizado do Access)](format-function-access-custom-web-app.md) 
 - [Formatos de data e hora personalizados da função Format (aplicativo Web personalizado do Access)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
   
 

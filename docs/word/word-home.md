@@ -5,36 +5,37 @@ ms.date: 12/13/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
-description: Encontre conteúdo de instruções, exemplos de código, documentação SDK e API, referências VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Word.
+description: Encontre conteúdos de instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Word.
 ms.openlocfilehash: ca2ce7da5fe76842e924036918c41470d202b834
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773400"
 ---
 # <a name="word"></a>Word
 
-Encontre conteúdo de instruções, exemplos de código, documentação SDK e API, referências VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Word.
+Encontre conteúdos de instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Word.
   
 > [!NOTE]
-> [!OBSERVAçãO] Tem interesse em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).  
+> Interessado em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/pt-BR/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/pt-BR/office/dev/add-ins/overview/office-add-ins).  
   
 ### <a name="viewed-most"></a>Mais vistos
   
-- [Referência do VBA do Word](https://msdn.microsoft.com/en-us/library/ee861527.aspx)
+- [Referência do VBA do Word](https://msdn.microsoft.com/pt-BR/library/ee861527.aspx)
   
-- [Word 2010](https://msdn.microsoft.com/en-us/library/office/ff601860%28v=office.14%29.aspx)
+- [Word 2010](https://msdn.microsoft.com/pt-BR/library/office/ff601860%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a>Suplementos do Office
   
-- [Introdução ao suplementos do Word](https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/word-quickstart)
+- [Introdução aos suplementos do Word](https://docs.microsoft.com/pt-BR/office/dev/add-ins/quickstarts/word-quickstart)
   
-- [Visão geral da plataforma](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
+- [Visão geral da plataforma](https://docs.microsoft.com/pt-BR/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="code-samples"></a>Exemplos de código
   
-- [Amostras de código do Word no Centro de desenvolvimento do Office](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
+- 
+  [Exemplos de código do Word no Centro de Desenvolvimento do Office](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Outros recursos
   
@@ -44,6 +45,6 @@ Encontre conteúdo de instruções, exemplos de código, documentação SDK e AP
   
 - [SDK do Open XML](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [Suplementos do VSTO para Office](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [Suplementos do VSTO para Office](https://msdn.microsoft.com/pt-BR/library/jj620922.aspx)
   
 
