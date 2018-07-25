@@ -1,21 +1,21 @@
 ---
-title: 'Passo a passo: Criar um modelo de formulário básica com código'
+title: 'Passo a passo: criar um modelo de formulário básico com código'
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
-- form templates [infopath 2007], creating managed code,managed code form templates [InfoPath 2007], creating,form templates [InfoPath 2007], walkthroughs,InfoPath 2007, walkthroughs
+- modelos de formulário do [InfoPath 2007], criar código gerenciado, modelos de formulário de código gerenciado do [InfoPath 2007], criação, modelos de formulário [InfoPath 2007], passo a passo, InfoPath 2007, passo a passo
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: No Microsoft InfoPath, você pode escrever lógica de negócios no Visual Basic ou no C# abrindo um modelo de formulário no designer do InfoPath e então usando um dos comandos da interface do usuário para adicionar um manipulador de eventos, que abrirá o ambiente de desenvolvimento do Visual Studio 2012 para que seu código seja escrito.
 ms.openlocfilehash: 8c98d71c26f8e56c532b2a4467218c366072b2ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765729"
 ---
-# <a name="walkthrough-create-a-basic-form-template-with-code"></a>Passo a passo: Criar um modelo de formulário básica com código
+# <a name="walkthrough-create-a-basic-form-template-with-code"></a>Passo a passo: criar um modelo de formulário básico com código
 
 No Microsoft InfoPath, você pode escrever lógica de negócios no Visual Basic ou no C# abrindo um modelo de formulário no designer do InfoPath e então usando um dos comandos da interface do usuário para adicionar um manipulador de eventos, que abrirá o ambiente de desenvolvimento do Visual Studio 2012 para que seu código seja escrito. Por padrão, projetos de modelo de formulário criados usando o Visual Studio 2012 funcionam no modelo de objeto de código gerenciado fornecido pelo namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
@@ -38,7 +38,7 @@ No passo a passo a seguir, você aprenderá a escrever código no ambiente de de
 2. Para especificar qual linguagem de programação será usada, clique no **Botão do Office**, clique em **Opções de Formulário**, clique em **Programação** na lista **Categoria** e então selecione **Visual Basic** ou **C#** na lista suspensa **Linguagem do código do modelo de formulário**. 
     
    > [!NOTE]
-   > [!OBSERVAçãO] As outras opções de linguagem de programação da lista **Linguagem do código do modelo de formulário** oferecem compatibilidade com versões anteriores do InfoPath. As opções **C# (Compatível com o InfoPath 2007)** e **Visual Basic (Compatível com o InfoPath 2007)** funcionarão com os procedimentos deste tópico. No entanto, para usar as opções **C# (Compatível com o InfoPath 2003)** e **Visual Basic (Compatível com o InfoPath 2003)**, consulte [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md). 
+   > As outras opções de linguagem de programação da lista **Linguagem do código do modelo de formulário** oferecem compatibilidade com versões anteriores do InfoPath. As opções **C# (Compatível com o InfoPath 2007)** e **Visual Basic (Compatível com o InfoPath 2007)** funcionarão com os procedimentos deste tópico. No entanto, para usar as opções **C# (Compatível com o InfoPath 2003)** e **Visual Basic (Compatível com o InfoPath 2003)**, consulte [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md). 
   
     Agora você está pronto para adicionar um controle **Botão** e criar seu manipulador de eventos. 
     
@@ -142,7 +142,7 @@ No passo a passo a seguir, você aprenderá a escrever código no ambiente de de
     
 7. O código do manipulador de eventos é executado e a mensagem "Hello World!" é exibida. 
     
-8. Clique em **OK** para retornar ao editor de códigos do Visual Studio 2012 e então clique em **Parar Depuração** no menu **Depurar** (ou pressione Ctrl+Alt+Break). 
+8. Clique em **OK** para retornar ao editor de código do Visual Studio 2012 e clique em **Interromper a Depuração** no menu **Depurar** (ou pressione Ctrl+Alt+Break). 
     
 ## <a name="getting-the-current-users-name"></a>Obtendo o nome do usuário atual
 
@@ -154,9 +154,9 @@ Primeiro, a propriedade [MainDataSource](https://msdn.microsoft.com/library/Micr
   
 O método [SelectSingleNode](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.selectsinglenode%28v=vs.100%29.aspx) da classe **XPathNavigator** é chamado para selecionar o campo funcionário na fonte de dados do formulário. Por fim, o método [SetValue](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.setvalue%28v=vs.100%29.aspx) é chamado para definir o valor do campo com a propriedade [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) . 
   
-Para obter mais informações sobre como trabalhar com **System. XML** em modelos de formulário de código gerenciado, consulte [trabalhar com o XPathNavigator e Classes de XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+Confira mais informações sobre o trabalho com **System.Xml** em modelos de formulário de código gerenciado em [Trabalhar com as classes XPathNavigator e XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
-### <a name="add-a-loading-event-handler"></a>Adicionar um manipulador de eventos Loading
+### <a name="add-a-loading-event-handler"></a>Adicionar um manipulador de eventos de Carregamento
 
 1. Abra o modelo de formulário HelloWorld criado no passo a passo anterior no designer do InfoPath.
     
@@ -199,15 +199,15 @@ Para obter mais informações sobre como trabalhar com **System. XML** em modelo
     
 ## <a name="next-steps"></a>Próximas etapas
 
-- Para obter informações sobre como trabalhar com manipuladores de eventos para outros controles e eventos, consulte [Adicionar um manipulador de eventos](how-to-add-an-event-handler.md).
+- Confira mais informações sobre como trabalhar com manipuladores de eventos para outros controles e eventos em [Adicionar um Manipulador de Eventos](how-to-add-an-event-handler.md).
     
-- Para obter mais informações sobre como visualizar e depurando o código em modelos de formulário, consulte [Preview e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+- Confira mais informações sobre como visualizar e depurar códigos em modelos de formulário em [Visualizar e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md).
     
-- Para obter informações sobre como implantar um modelo de formulário de código gerenciado, consulte [Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md).
+- Confira mais informações sobre como implantar um modelo de formulário de código gerenciado em [Implantar os modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md).
     
 - Para saber mais sobre o modelo de objeto e as tarefas comuns de programação do InfoPath em modelos de formulário de código gerenciado, consulte [Understanding the InfoPath Object Model and Common Developer Tasks](understanding-the-infopath-object-model-and-common-developer-tasks.md).
     
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 - [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)
 
