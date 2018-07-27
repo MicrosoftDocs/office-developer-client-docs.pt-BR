@@ -7,13 +7,13 @@ ms.topic: reference
 f1_keywords:
 - xlAutoClose
 keywords:
-- função xlAutoClose [excel 2007]
+- função xlautoclose [excel 2007]
 localization_priority: Normal
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3cbe1cd879fb5a91d14b38f8a659a7f77d943fe7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765469"
@@ -22,49 +22,49 @@ ms.locfileid: "19765469"
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Chamado pelo Microsoft Excel sempre que o XLL é desativado. O suplemento é desativado quando uma sessão do Excel é encerrada normalmente. O suplemento pode ser desativado pelo usuário durante uma sessão do Excel e essa função será chamada nesse caso.
+Chamada pelo Microsoft Excel sempre que o XLL está desativado. O suplemento é desativado quando a sessão do Excel termina normalmente. O suplemento pode ser desativado pelo usuário durante uma sessão do Excel e, nesse caso, essa função será chamada.
   
-Excel não exige um XLL implementar e exportar essa função, apesar de ser recomendável para que seu XLL pode cancelar o registro de funções e comandos, liberar recursos, desfazer personalizações e assim por diante. Se as funções e comandos não são explicitamente não registrados pelo XLL, o Excel faz isso depois de chamar a função **xlAutoClose** . 
+O Excel não requer um XLL para implementar e exportar essa função, embora seja recomendável para que o XLL possa cancelar o registro de comandos e funções, liberar recursos, desfazer personalizações e assim por diante. Se as funções e comandos não forem explicitamente registrados pelo XLL, o Excel executa isso depois de chamar a função **xlAutoClose**. 
   
 ```cs
 int WINAPI xlAutoClose(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 A implementação dessa função deve retornar 1 (**int**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Excel chama a função **xlAutoClose** sempre que o XLL estiver desativado, ou seja, descarregado da memória. XLL é desativado nas seguintes situações: 
+O Excel chama a função **xlAutoClose** sempre que o XLL está desativado, ou seja, não está carregado na memória. O XLL é desativado nas seguintes situações: 
   
-- No final de uma sessão do Excel se ativo durante a sessão normal.
+- No final normal de uma sessão do Excel, se for ativado durante a sessão.
     
-- Se explicitamente descarregado durante uma sessão do Excel.
+- Se for explicitamente descarregado durante uma sessão do Excel.
     
 - Um XLL pode ser descarregado de várias maneiras:
     
-- Usando o Gerenciador de suplemento.
+- Usando o Gerenciador de Suplemento.
     
-- A partir de outra XLL que chama [xlfUnregister](xlfunregister-form-1.md) com o nome dessa DLL como o único argumento. 
+- A partir de outro XLL que chama [xlfUnregister](xlfunregister-form-1.md) com o nome dessa DLL como o único argumento. 
     
-- De uma folha de macro XLM que chama [cancela o registro](xlfunregister-form-1.md) com o nome dessa DLL como o único argumento. 
+- A partir de uma planilha de macro XLL que chama [xlfUnregister](xlfunregister-form-1.md) com o nome dessa DLL como o único argumento. 
     
-Essa função deve fazer o seguinte:
+Esta função deve fazer o seguinte:
   
-- Remova os menus ou itens de menu que foram adicionados pelo XLL.
+- Remova os menus ou itens de menu adicionados pelo XLL.
     
 - Execute qualquer limpeza global necessária.
     
-- Exclua todos os nomes que foram criados, especialmente os nomes das funções exportadas. Lembre-se de que registrar funções pode causar alguns nomes a serem criados, se o quarto argumento para **registrar** estiver presente. 
+- Exclua os nomes foram criados, especialmente nomes de funções exportadas. Lembre-se de que registrar funções pode causar a criação de alguns nomes, se o quarto argumento **REGISTER** estiver presente. 
     
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
-Consulte os arquivos `SAMPLES\EXAMPLE\EXAMPLE.C` e `SAMPLES\GENERIC\GENERIC.C` por exemplo implementações dessa função. O código a seguir é de `SAMPLES\GENERIC\GENERIC.C`.
+Veja os arquivos `SAMPLES\EXAMPLE\EXAMPLE.C` e `SAMPLES\GENERIC\GENERIC.C` como exemplos de implementações dessa função. O código a seguir é de `SAMPLES\GENERIC\GENERIC.C`.
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -116,5 +116,5 @@ int WINAPI xlAutoClose(void)
 [xlAutoOpen](xlautoopen.md)
 
 
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 
