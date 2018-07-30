@@ -1,5 +1,5 @@
 ---
-title: Crie e personalize aplicativos da web no Access
+title: Criar e personalizar um aplicativo Web no Access
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -8,15 +8,15 @@ localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765098"
 ---
-# <a name="create-and-customize-a-web-app-in-access"></a>Crie e personalize aplicativos da web no Access
+# <a name="create-and-customize-a-web-app-in-access"></a>Criar e personalizar um aplicativo Web no Access
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 Access 2013 apresenta um novo modelo de aplicativo, que permite aos especialistas da área criar de forma rápida os aplicativos baseados na Web. Acompanha Access um conjunto de modelos que podem ser usados para promover a criação de aplicativos.
 
@@ -30,9 +30,9 @@ Para acompanhar as etapas deste exemplo, será necessário:
     
 - Um ambiente de desenvolvimento do SharePoint
     
-Para obter mais informações sobre como configurar seu ambiente de desenvolvimento do SharePoint, consulte [Configurar um ambiente de desenvolvimento geral do SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
+Para obter mais informações sobre como configurar o ambiente de desenvolvimento do SharePoint, confira [Configurar um ambiente de desenvolvimento geral para o SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-Para obter mais informações sobre como adquirir o Access e o SharePoint, consulte os [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627).
+Para saber mais sobre como obter o Access e o SharePoint, confira [Downloads](http://msdn.microsoft.com/pt-BR/office/apps/fp123627).
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -52,7 +52,7 @@ Imagine que você deseja criar um Access aplicativo que acompanha problemas em s
     
    **Figura 1. Modelos que correspondem à pesquisa de problemas**
 
-   ![Modelos que correspondem a pesquisa busca de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modelos que correspondem a pesquisa busca de problemas")
+   ![Modelos correspondentes à pesquisa de problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modelos correspondentes à pesquisa por problemas")
   
 4. Escolha **Problemas**.
     
@@ -71,7 +71,7 @@ O campo **Cliente** está relacionado à tabela **Clientes**. Para testar os rel
   
 **Figura 2. O assistente de pesquisa exibindo a relação da tabela Clientes**
 
-![Assistente de pesquisa exibindo o relacionamento] (media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Assistente de pesquisa exibindo o relacionamento")
+![Assistente de Pesquisa exibindo a relação](media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Assistente de Pesquisa exibindo a relação")
   
 A caixa de diálogo do assistente de pesquisa mostra que o campo **Cliente** está associado à tabela **Clientes** e para retornar ao campo **Nome para Exibição Nome Sobrenome** na tabela **Clientes**. 
   
@@ -81,9 +81,9 @@ Feche a tabela **Problemas** e teste o Painel Bloco. Os três blocos superiores,
   
 **Figura 3. Painel Bloco para o esquema Problemas**
 
-![Painel de blocos para o esquema de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Painel de blocos para o esquema de problemas")
+![Painel Bloco para o esquema Problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Painel Bloco para o esquema de Problemas")
   
-As tabelas **Problemas Relacionados** e **Comentários do Problema** estarão desativados, pois devem ser ocultados do usuário no navegador da Web 
+As tabelas **Problemas Relacionados** e **Comentários do Problema** estarão desativadas, pois devem ser ocultadas do usuário no navegador da Web. 
   
 Use o aplicativo para acompanhar alguns problemas. Para isso, clique em **Iniciar aplicativo** para abri-lo no navegador da Web. 
   
@@ -93,7 +93,7 @@ Use o Seletor de Modo de Exibição para escolher um entre os três disponíveis
   
 **Figura 4. Seletor de Modo de Exibição**
 
-![Seletor de exibição] (media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Seletor de exibição")
+![Seletor de Modo de Exibição](media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Seletor de Modo de Exibição")
   
 Escolher **Lista** vai ativar o modo de exibição de **Lista de Clientes**, que é um modo de exibição de Detalhes da Lista. Detalhes da Lista é um dos modos de exibição Access gerados automaticamente quando você criar uma tabela. A principal característica que distingue o modo de exibição Detalhes da Lista é o painel de Lista exibido ao lado esquerdo da exibição. Esse painel é usado para filtrar e para navegar entre os registros no modo de exibição. Em um Access banco de dados de área de trabalho, implementar um modo de exibição de lista pesquisável exige um código escrito personalizado. 
   
@@ -105,13 +105,13 @@ Escolher Grupos abrirá o Modo de Exibição de Resumo. Esse recurso pode ser us
   
 **Figura 5. Barra de Ações**
 
-![Barra de ação] (media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barra de ação")
+![Barra de Ações](media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barra de Ações")
   
 Ao adicionar alguns clientes e funcionários, abra o modo de exibição Lista de Problemas e comece a adicionar problemas. À medida que você digitar o nome de um cliente na caixa Cliente, serão exibidos um ou mais nomes de clientes, como mostrado na Figura 6.
   
 **Figura 6. Controle de Preenchimento Automático**
 
-![Controle de preenchimento automático] (media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Controle de preenchimento automático")
+![Controle de Preenchimento Automático](media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Controle de Preenchimento Automático")
   
 A caixa Cliente é um controle de preenchimento automático. Esse controle exibe uma lista de registros que correspondem ao que você estiver digitando dentro da caixa. Isso ajuda a garantir a precisão da entrada de dados.
   
@@ -130,7 +130,7 @@ Agora que você está familiarizado com o aplicativo, observe que o modo de exib
     
 4. Escolha **Texto Curto** na coluna **Tipo de Dados**. 
     
-5. Selecione **Salvar**.
+5. Escolha **Salvar**.
     
 6. Feche a tabela Problemas.
     
@@ -153,11 +153,11 @@ Agora que você já tem um campo para armazenar o número de telefone, crie uma 
 7. Escolha **SetReturnVar** na lista suspensa **Adicionar Nova Ação**. 
     
     > [!NOTE]
-    > [!OBSERVAçãO] Serão exibidas duas listas suspensas **Adicionar Nova Ação**, uma dentro do bloco **LookupRecord** e outra fora **dele**. É necessário escolher a lista suspensa **Adicionar Nova Ação** dentro do bloco **LookupRecord**, como descrito na Figura 7. 
+    > Serão exibidas duas listas suspensas **Adicionar Nova Ação**, uma dentro do bloco **LookupRecord** e outra fora **dele**. É necessário escolher a lista suspensa **Adicionar Nova Ação** dentro do bloco **LookupRecord**, como descrito na Figura 7. 
   
    **Figura 7. Lista suspensa Adicionar Nova Ação**
 
-   ![Adicionar nova ação dropdown] (media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Adicionar nova ação dropdown")
+   ![Lista suspensa Adicionar Nova Ação](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Lista suspensa Adicionar Nova Ação")
   
 8. Na caixa **Nome**, digite **ContactPhone**. 
     
@@ -169,7 +169,7 @@ Agora que você já tem um campo para armazenar o número de telefone, crie uma 
     
     **Figura 8. Macro de dados GetContactPhone**
 
-    ![Macro de dados GetContactPhone] (media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macro de dados GetContactPhone")
+    ![Macros de dados GetContactPhone](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macros de dados GetContactPhone")
   
 11. Feche o Modo Design da macro.
     
@@ -187,7 +187,7 @@ Agora você está pronto para adicionar o campo **Número de Contato** ao formul
     
 5. Na caixa **Nome do Controle**, digite **CustomerContact** e feche o menu pop-up **Dados**. 
     
-6. Selecione **Salvar**.
+6. Escolha **Salvar**.
     
 Agora é necessário escrever uma macro de interface do usuário (UI), que copiará o campo **Telefone Comercial**, da tabela **Clientes** para o campo **Telefone de Contato** da tabela **Problemas**. O evento **After Update** do controle **CustomerAutocomplete** é um bom local para a macro. 
   
@@ -217,31 +217,31 @@ Agora é necessário escrever uma macro de interface do usuário (UI), que copia
     
 9. Na caixa **Valor**, digite **=[Phone]**. 
     
-10. Selecione **Salvar**.
+10. Escolha **Salvar**.
     
     A macro deverá ser semelhante à macro exibida na Figura 9.
     
     **Figura 9. Macro Após Atualização**
 
-    ![Macro após atualizar] (media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro após atualizar")
+    ![Macro Após Atualização](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro Após Atualização")
   
 11. Feche o Modo Design da macro.
     
-12. Feche o Modo de Exibição Lista de Problemas. Escolha **Sim**, quando for solicitado a salvar as alterações. 
+12. Feche o modo de exibição Lista de Problemas. Escolha **Sim**, quando for solicitado que você salve as alterações. 
     
-Agora você está pronto para testar a personalização. Clique em **Iniciar Aplicativo** para abrir o aplicativo no navegador da Web e adicione um novo problema. As atualizações de caixa de **Número contato** automaticamente após o nome do cliente for inserido, conforme mostrado na Figura 10. 
+Agora estamos prontos para testar a personalização. Clique em **Iniciar Aplicativo** para abrir o aplicativo no navegador da web e adicionar um problema novo. A caixa **Número de Contato** será atualizada automaticamente depois que o nome do cliente for digitado, como mostra a Figura 10. 
   
 **Figura 10. O modo de exibição Problemas atualizado com o número de telefone**
 
-![Modo de exibição de problemas atualizado com o número de telefone] (media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Modo de exibição de problemas atualizado com o número de telefone")
+![O modo de exibição Problemas atualizado com o número de telefone](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "O modo de exibição Problemas atualizado com o número de telefone")
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 
 Usar um dos modelos de esquema que acompanham o é uma boa maneira de promover a criação de um Access aplicativo da Web. Os modos de exibição criados automaticamente por você contêm funcionalidades avançadas que exigem a implementação de código personalizado em um banco de dados de área de trabalho do Access. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Novo no Access para desenvolvedores](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Novidades para os desenvolvedores do Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Referência de aplicativo Web personalizado do Access](access-custom-web-app-reference.md)
   
 
