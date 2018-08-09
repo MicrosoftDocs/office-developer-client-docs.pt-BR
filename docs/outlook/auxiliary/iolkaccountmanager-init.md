@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::Init (
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pAcctHelper_
   
@@ -54,7 +54,7 @@ _dwFlags_
 |E_OLK_ALREADY_INITIALIZED  <br/> |**Inicialização** já foi chamado.  <br/> |
 |E_OLK_REGISTRY  <br/> |O gerente de conta não foi possível acessar as configurações do registro necessárias.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente deve chamar **IOlkAccountManager::Init** para inicializar a conta do gerente antes de usar o Gerenciador de conta para contas de acessar ou configurar as notificações. Como o Outlook sincroniza automaticamente serviços MAPI com contas na inicialização, use **ACCT_INIT_NOSYNCH_MAPI_ACCTS** , a menos que haja uma causa específica para sincronizar. 
   

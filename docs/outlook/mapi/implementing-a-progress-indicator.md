@@ -1,5 +1,5 @@
 ---
-title: Implementando um indicador de progresso
+title: Implementar um indicador de progresso
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767407"
 ---
-# <a name="implementing-a-progress-indicator"></a>Implementando um indicador de progresso
+# <a name="implementing-a-progress-indicator"></a>Implementar um indicador de progresso
 
   
   

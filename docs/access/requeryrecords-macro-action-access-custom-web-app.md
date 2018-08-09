@@ -19,7 +19,7 @@ ms.locfileid: "19765216"
 Você pode usar a ação de **RequeryRecords** para atualizar, classificar e filtrar os dados no modo de exibição ativo repetindo a fonte do modo de exibição. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -30,7 +30,7 @@ A ação **RequeryRecords** tem os seguintes argumentos.
 |**Onde =** <br/> |Não  <br/> |Uma cláusula SQL WHERE que restringe os registros no modo de exibição. Por padrão, esse argumento estiver em branco.  <br/> |
 |**OrderBy** <br/> |Não  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Qualquer classificação ou filtragem aplicada pelo usuário é limpa quando a ação **RequeryRecords** é chamada. 
   

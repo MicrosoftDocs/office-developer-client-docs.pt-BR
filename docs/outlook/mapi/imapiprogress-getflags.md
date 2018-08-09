@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetFlags(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -49,7 +49,7 @@ S_OK
   
 > O valor flags foi retornado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI permite que os provedores de serviço diferenciar entre objetos de nível superior e subobjetos com o sinalizador MAPI_TOP_LEVEL para que todos os objetos envolvidos em uma operação podem usar a mesma implementação [IMAPIProgress](imapiprogressiunknown.md) para mostrar o progresso. Isso faz com que a exibição de indicador prossiga normalmente em uma única direção positiva. Se o sinalizador MAPI_TOP_LEVEL está definido determina como provedores de serviços de definir os outros parâmetros em chamadas subsequentes ao objeto de andamento. 
   
@@ -77,12 +77,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Exibir um indicador de progresso](how-to-display-a-progress-indicator.md)
   
-[Implementando um indicador de progresso](implementing-a-progress-indicator.md)
+[Implementar um indicador de progresso](implementing-a-progress-indicator.md)
 

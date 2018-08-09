@@ -19,9 +19,9 @@ ms.locfileid: "19765211"
 Retorna o valor da expressão especificado à potência especificada.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Alimentação** (*NumericExpression*, *Power*) 
   
@@ -30,6 +30,6 @@ A função **potência** contém os seguintes argumentos.
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |Uma expressão numérica  <br/> |
-| *Alimentação*  <br/> |A potência à qual que eleve *NumericExpression* .  <br/> |
+| *Potência*  <br/> |A potência à qual que eleve *NumericExpression* .  <br/> |
    
 

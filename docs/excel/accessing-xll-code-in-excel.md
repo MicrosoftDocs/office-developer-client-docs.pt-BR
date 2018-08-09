@@ -8,7 +8,7 @@ keywords:
 - acessando código xll [excel 2007], XLLs [Excel 2007], acessando código, comandos [Excel 2007], registro, funções [Excel 2007], registro, chamando XLLs do Excel, registrando comandos [Excel 2007], registrando funções [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1523f9e8213cb955f1bfd995c42f921b001299fe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -113,10 +113,10 @@ Iniciar na interface de usuário do Excel 2007 é muito diferente das versões a
   
 ## <a name="see-also"></a>Confira também
 
-- [Criando XLLs](creating-xlls.md)
-- [Funções do Assistente de função ou caixas de diálogo Replace XLL chamada](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
-- [Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
-- [Developing Excel XLLs](developing-excel-xlls.md)
+- [Criar XLLs](creating-xlls.md)
+- [Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+- [Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 
 
 

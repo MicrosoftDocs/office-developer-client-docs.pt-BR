@@ -32,11 +32,11 @@ A função **DateFromParts** contém os seguintes argumentos.
 | *Month*  <br/> |Expressão de inteiro especificando um mês, de 1 a 12.  <br/> |
 | *Dia*  <br/> |Expressão de inteiro especificando um dia.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 **DateFromParts** retorna um valor de data com a parte da data definida como a parte de hora definido como o padrão e dia, mês e ano especificado. Se os argumentos não são válidos, um erro é gerado. Se for necessário argumentos são nulos, nulo será retornado. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A expressão a seguir utiliza a função **DateFromParts** para calcular o primeiro dia do mês atual. 
   

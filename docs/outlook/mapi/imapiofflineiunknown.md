@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6f17e501a90a50a4984cae470d3924205c78a604
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767129"
 ---
-# <a name="imapioffline--iunknown"></a>IMAPIOffline: IUnknown
+# <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
   
   
@@ -42,7 +42,7 @@ Fornece informações para um objeto offline.
 |**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Obtém o estado atual de online ou offline, de um objeto offline.  <br/> |
 | *Membro do espaço reservado*  <br/> |Este membro é um espaço reservado e não é suportado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um cliente usa **[HrOpenOfflineObj](hropenofflineobj.md)** abrir e obter um objeto offline que ofereça suporte a **IMAPIOfflineMgr**. Como **IMAPIOfflineMgr** herda de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx), o cliente pode consultar a esta interface (usando [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)) para obter um ponteiro para o ponteiro de interface **IMAPIOffline** para o objeto offline. O cliente pode então obter ou definir o estado atual do objeto, ou Saiba mais sobre os recursos de retorno de chamada do objeto (chamando **IMAPIOffline::GetCapabilities** ) e optar por configurar retornos de chamada usando **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
@@ -52,10 +52,10 @@ Um membro nesta interface é um espaço reservado reservado para uso interno do 
 
 
 
-[IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md)
+[IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

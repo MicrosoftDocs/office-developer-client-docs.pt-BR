@@ -1,5 +1,5 @@
 ---
-title: Ler as propriedades de fuso horário de um compromisso
+title: Ler propriedades de fuso horário de um compromisso
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765809"
 ---
-# <a name="read-time-zone-properties-from-an-appointment"></a>Ler as propriedades de fuso horário de um compromisso
+# <a name="read-time-zone-properties-from-an-appointment"></a>Ler propriedades de fuso horário de um compromisso
 
 Este tópico mostra uma função, `ReadTimeZones`, que chama duas funções, `BinToTZDEFINITION` e `BinToTZREG`, para ler as propriedades de fuso horário, [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) e [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), a partir de um compromisso.
   

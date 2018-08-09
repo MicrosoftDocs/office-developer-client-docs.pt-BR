@@ -10,7 +10,7 @@ keywords:
 - função excelcursorproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Quando uma caixa de diálogo restrita for exibida sobre a janela do Microsoft Ex
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hWndDlg_ (**HWND**)
   
@@ -44,11 +44,11 @@ A mensagem para responder aos.
   
 Os argumentos passados pelo Windows.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 LRESULT: 0 se a mensagem foi tratada, caso contrário, o resultado retornado pelo **WndProc**padrão.
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
   
@@ -56,5 +56,5 @@ Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função.
 
 
 
-[Funções na DLL genérico](functions-in-the-generic-dll.md)
+[Funções na DLL genérica](functions-in-the-generic-dll.md)
 

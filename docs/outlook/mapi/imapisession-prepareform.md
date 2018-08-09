@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 026a120406b714a50a9191e4761021693a250b94
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767188"
 ---
-# <a name="imapisessionprepareform"></a>PrepareForm
+# <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -55,7 +55,7 @@ S_OK
   
 > A preparação de formulário foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **PrepareForm** cria um token de mensagem para a mensagem apontado pelo parâmetro _lpMessage_ e chama o método de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) da mensagem. Este token é passada no parâmetro _ulMessageToken_ para **IMAPISession:: ShowForm**. 
   
@@ -75,9 +75,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPISession:: ShowForm](imapisession-showform.md)
+[IMAPISession::ShowForm](imapisession-showform.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bce70d891bc33dcddb94fc05992c09991c6cdc63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767310"
 ---
-# <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback: IUnknown
+# <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
   
   
@@ -47,7 +47,7 @@ Passa o provedor de armazenamento como um campo na estrutura MAPISIB durante uma
 
 
 
-[IMAPISync: IUnknown](imapisynciunknown.md)
+[IMAPISync : IUnknown](imapisynciunknown.md)
 
 
 [Interfaces MAPI](mapi-interfaces.md)

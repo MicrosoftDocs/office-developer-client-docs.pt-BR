@@ -1,5 +1,5 @@
 ---
-title: Ligações para o Excel da DLL ou XLL
+title: Chamar no Excel a partir de DLL ou XLL
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - comandos, DLLs [Excel 2007], comandos de chamada para o Excel, passando argumentos às funções da API C [Excel 2007], [Excel 2007], do excel de caixas de diálogo [excel 2007], invocação de invocação com caixas de diálogo, comandos [Excel 2007], acessíveis a partir da DLL/XLL, Excel4 funcionam [ Função de Excel12 do Excel 2007], [Excel 2007], XLCallVer funcionar argumento de operRes [Excel 2007], [Excel 2007], funções [Excel 2007], acessíveis a partir da DLL/XLL, Excel12v funcionam [Excel 2007], somente DLL funciona [Excel 2007], C API [Excel 2007], passando Contagem de argumentos, o argumento [Excel 2007], comandos [Excel 2007], chamando em versões internacionais, somente DLL comandos [Excel 2007], versões internacionais [Excel 2007], chamadas funções e comandos, XLLs [Excel 2007], ligações para Excel, Excel 4v função [ Excel 2007], xlfn argumento [Excel 2007], [Excel 2007], de funções chamando em versões internacionais
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765312"
 ---
-# <a name="calling-into-excel-from-the-dll-or-xll"></a>Ligações para o Excel da DLL ou XLL
+# <a name="calling-into-excel-from-the-dll-or-xll"></a>Chamar no Excel a partir de DLL ou XLL
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -319,13 +319,13 @@ Embora você possa usar isso para determinar se a nova API C está disponível e
 
 
 
-[Criando XLLs](creating-xlls.md)
+[Criar XLLs](creating-xlls.md)
   
-[Acessando código XLL no Excel](accessing-xll-code-in-excel.md)
+[Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)
   
 [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
   
 [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

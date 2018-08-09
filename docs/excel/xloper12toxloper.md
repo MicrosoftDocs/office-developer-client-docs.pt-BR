@@ -10,7 +10,7 @@ keywords:
 - função xloper12toxloper [excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2c06102699db8810da803ecc0ddfa30375fcc125
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Rotina de conversão usada para converter do novo **XLOPER12** **XLOPER**antigo.
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxloper12_ (**LPXLOPER12**)
   
@@ -38,11 +38,11 @@ _pxloper_ (**LPXLOPER**)
   
 Ponteiro para o destino **XLOPER** contenha o valor convertido. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 **TRUE** se a conversão foi bem-sucedida, **FALSE** caso contrário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Dependendo do tipo de **XLOPER12**, essa função aloca um novo buffer de memória para os valores convertidos, que são apontados para no destino **XLOPER**. O chamador é responsável por liberar qualquer memória associada a cópia se a conversão foi bem sucedida; **FreeXLOperT** pode ser usado, ou ele pode ser feito diretamente usando **livre**.
   
@@ -54,11 +54,11 @@ Conversão de **XLOPER12** em **XLOPER** pode falhar quando o **XLOPER12** cont�
   
 O **XLOPER12** **xltypeInt** é um inteiro assinado de 32 bits, enquanto o **XLOPER** **xltypeInt** é um inteiro assinado de 16 bits. Quando um inteiro de **XLOPER12** fornecido excede o limite de um inteiro **XLOPER** , o inteiro é convertido em uma dupla de 8 bytes e retornado em **XLOPER** do tipo **xltypeNum**. Este é o único caso em que essa função altera o tipo de **XLOPER**convertido.
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte o arquivo `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para o código para essa função. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+- [Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

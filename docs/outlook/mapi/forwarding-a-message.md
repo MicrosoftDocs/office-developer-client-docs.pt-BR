@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -72,5 +72,5 @@ A principal diferença entre criando uma mensagem para serem encaminhadas e cria
     
 ## <a name="see-also"></a>Confira também
 
-- [Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+- [Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
 

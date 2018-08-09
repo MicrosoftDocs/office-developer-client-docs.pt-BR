@@ -34,7 +34,7 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -66,7 +66,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos cliente chamam o método de **IMAPIFormContainer::CalcFormPropSet** para obter uma matriz de propriedades usadas por todos os formulários instalados em um contêiner de formulário. **IMAPIFormContainer::CalcFormPropSet** funciona como o método [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) , exceto que ele opera em todos os formulários registrado em um contêiner específico. 
   
@@ -88,5 +88,5 @@ Se um cliente passa o sinalizador MAPI_UNICODE em _ulFlags_, todas as cadeias de
   
 [SMAPIFormPropArray](smapiformproparray.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 

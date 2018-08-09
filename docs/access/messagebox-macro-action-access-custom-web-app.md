@@ -19,7 +19,7 @@ ms.locfileid: "19765207"
 Você pode usar a ação **MessageBox** para exibir uma caixa de mensagem contendo um aviso ou uma mensagem informativa. Por exemplo, você pode usar a ação **MessageBox** com macros de validação. Quando um controle ou registro falha uma condição de validação na macro, uma caixa de mensagem pode exibir uma mensagem de erro e forneça instruções sobre o tipo de dados que devem ser inseridos. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 

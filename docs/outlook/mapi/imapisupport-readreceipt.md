@@ -35,7 +35,7 @@ LPMESSAGE FAR * lppEmptyMessage
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ S_OK
   
 > O relatório foi gerado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::ReadReceipt** é implementado apenas para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **ReadReceipt** para instruir o MAPI para gerar uma leitura ou relatório nonread da mensagem apontado pelo parâmetro _lpReadMessage_ . 
   
@@ -93,7 +93,7 @@ Você pode ocultar ou exibir relatórios de leitura e nonread gerados pelo repos
   
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[Propriedade canônico de PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
+[Propriedade canônica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

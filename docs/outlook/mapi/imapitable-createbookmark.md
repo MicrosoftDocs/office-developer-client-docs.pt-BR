@@ -33,7 +33,7 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpbkPosition_
   
@@ -49,7 +49,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > A operação solicitada não pôde ser concluída.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::CreateBookmark** marca uma posição tabela criando um valor chamado um indicador. Um indicador pode ser usado para retornar à posição identificada pelo indicador. A posição marcado pelo indicador está associada com o objeto nesse objeto row na tabela. 
   
@@ -75,5 +75,5 @@ Quando o chamador tenta usar um indicador que está apontando para uma linha arq
   
 [IMAPITable::SeekRow](imapitable-seekrow.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

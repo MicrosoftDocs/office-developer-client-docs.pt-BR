@@ -10,7 +10,7 @@ keywords:
 - função xlautoremove [excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6e5daac21a6d89472a7d84a25e9aeaea56db1ae1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -32,21 +32,21 @@ Excel não exige um XLL implementar e exportar essa função.
 int WINAPI xlAutoRemove(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 A implementação dessa função deve retornar 1 (**int**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use esta função se seu XLL precisa concluir qualquer tarefa quando ele é removido pelo gerente de suplemento.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
-Consulte os arquivos `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` por exemplo implementações dessa função. O código a seguir é de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Veja os arquivos `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` como exemplos de implementações dessa função. O código a seguir é de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoRemove(void)
@@ -66,5 +66,5 @@ int WINAPI xlAutoRemove(void)
 [xlAutoAdd](xlautoadd.md)
 
 
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 

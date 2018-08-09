@@ -16,7 +16,7 @@ ms.locfileid: "19765034"
 # <a name="database-functions-access-custom-web-app"></a>Funções de banco de dados (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 
 - [Função UserDisplayName (aplicativo da web personalizado do Access)](userdisplayname-function-access-custom-web-app.md)

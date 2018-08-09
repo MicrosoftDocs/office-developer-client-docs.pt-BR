@@ -1,5 +1,5 @@
 ---
-title: Garantindo que uma notificação de Thread-Safe
+title: Garantindo uma notificação livre de threads
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766496"
 ---
-# <a name="ensuring-a-thread-safe-notification"></a>Garantindo que uma notificação de Thread-Safe
+# <a name="ensuring-a-thread-safe-notification"></a>Garantindo uma notificação livre de threads
 
   
   

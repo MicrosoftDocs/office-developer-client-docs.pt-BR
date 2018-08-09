@@ -1,5 +1,5 @@
 ---
-title: Implementando uma tela de formulário
+title: Implementar um visualizador de formulários
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767397"
 ---
-# <a name="implementing-a-form-viewer"></a>Implementando uma tela de formulário
+# <a name="implementing-a-form-viewer"></a>Implementar um visualizador de formulários
 
   
   

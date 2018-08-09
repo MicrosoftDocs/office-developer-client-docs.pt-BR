@@ -40,7 +40,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSrcInterface_
   
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::CopyMessages** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagens podem chamar **IMAPISupport::CopyMessages** na sua implementação do [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar ou mover uma ou mais mensagens de uma pasta para outro. Como parte da chamada **IMAPISupport::CopyMessages** , o provedor de armazenamento de mensagens pode especificar que o MAPI deve exibir um indicador de progresso. 
   

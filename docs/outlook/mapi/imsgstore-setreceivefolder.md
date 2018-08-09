@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c30c38e1dbc944fd3016badf2621aef5de1e08f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT SetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszMessageClass_
   
@@ -64,7 +64,7 @@ S_OK
   
 > Uma pasta de recebimento foi estabelecida com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::SetReceiveFolder** define ou altera a pasta de recebimento para uma classe de mensagem específica. Com **SetReceiveFolder**, um cliente pode usando sucessivas chamadas, especificar um diferentes receber a pasta para cada classe de mensagem definidas ou especificar que as mensagens de entrada para várias classes de mensagem todos caminham na mesma pasta. Por exemplo, um cliente pode ter sua própria classe de mensagens chegarem na sua própria pasta. Um aplicativo de fax pode designar uma pasta em que o provedor de armazenamento coloca os faxes de entrada e outra pasta na qual o provedor coloca os faxes de entrada.
   
@@ -84,7 +84,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

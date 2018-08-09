@@ -164,7 +164,7 @@ O exemplo a seguir usa o método **Run** para exibir a caixa de diálogo Preench
 |:-----|:-----|
 |**Descrição** <br/> |Exibe a opção de criar novo bloco de anotações na caixa de diálogo.  <br/> |
 |**Sintaxe** <br/> | `HRESULT ShowCreateNewNotebook ();` <br/> |
-|**Parameters** <br/> |None  <br/> |
+|**Parameters** <br/> |Nenhum  <br/> |
    
 **AddInitialEditor**
 
@@ -180,7 +180,7 @@ O exemplo a seguir usa o método **Run** para exibir a caixa de diálogo Preench
 |:-----|:-----|
 |**Descrição** <br/> |Remove todos os editores iniciais da caixa de diálogo arquivamento rápido.  <br/> |
 |**Sintaxe** <br/> | `HRESULT ClearInitialEditors ();` <br/> |
-|**Parameters** <br/> |None  <br/> |
+|**Parameters** <br/> |Nenhum  <br/> |
    
 **ShowSharingHyperlink**
 
@@ -188,7 +188,7 @@ O exemplo a seguir usa o método **Run** para exibir a caixa de diálogo Preench
 |:-----|:-----|
 |**Descrição** <br/> |Exibe o hiperlink de tópico da Ajuda do compartilhamento na caixa de diálogo arquivamento rápido.  <br/> |
 |**Sintaxe** <br/> | `HRESULT ShowSharingHyperlink();` <br/> |
-|**Parameters** <br/> |None  <br/> |
+|**Parameters** <br/> |Nenhum  <br/> |
    
 ## <a name="iquickfilingdialogcallback-interface"></a>Interface de IQuickFilingDialogCallback
 <a name="odc_IQuickFilingDialog"> </a>
@@ -225,7 +225,7 @@ O exemplo a seguir é uma interface de **IQuickFilingDialogCallback** de amostra
 
 ```
 
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 <a name="odc_IQuickFilingDialog"> </a>
 
 O exemplo de código a seguir abre uma caixa de diálogo Preenchimento rápido que tem um título personalizado, descrição, a lista de resultados recentes, profundidade de árvore, caixa de seleção e botões. O usuário selecionou o item, pressionado o botão e o estado da caixa de seleção será exibido em uma janela do console quando a caixa de diálogo é fechada. Para ver o botão página habilitado, o usuário terá que pesquisar uma página e selecioná-lo, porque a profundidade de árvore está definida para baixo às seções. A caixa de diálogo não é um filho de qualquer janela.
@@ -304,5 +304,5 @@ namespace SampleQFD
 
 ## <a name="see-also"></a>Confira também
 
-- [Referência para desenvolvedores do OneNote](onenote-developer-reference.md)
+- [Referência do desenvolvedor do OneNote](onenote-developer-reference.md)
 

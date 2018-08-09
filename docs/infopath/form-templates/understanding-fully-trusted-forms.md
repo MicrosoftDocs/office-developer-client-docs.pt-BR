@@ -1,5 +1,5 @@
 ---
-title: Noções básicas sobre totalmente formulários confiáveis
+title: Compreender formulários totalmente confiáveis
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765710"
 ---
-# <a name="understanding-fully-trusted-forms"></a>Noções básicas sobre totalmente formulários confiáveis
+# <a name="understanding-fully-trusted-forms"></a>Compreender formulários totalmente confiáveis
 
 O InfoPath fornece a capacidade de criar formulários totalmente confiáveis, que são os formulários que possui permissões de segurança maiores e podem acessar recursos do sistema e outros componentes no computador de um usuário. Este artigo descreve o que é um formulário totalmente confiável e por que ele é usado e criar um formulário totalmente confiável manualmente convertendo e registrando um formulário padrão ou ao assinar digitalmente um formulário padrão.
 
@@ -184,7 +184,7 @@ No entanto, se você estiver fazendo alterações para os arquivos de formulári
 > [!NOTE]
 > A melhor abordagem é salvar o modelo de formulário volta para o formato. xsn do InfoPath designer e siga as etapas neste artigo para criar um formulário totalmente confiável. 
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 
 Dependendo de suas necessidades de negócios e as necessidades dos seus usuários, você pode precisar criar um formulário que tenha um conjunto maior de permissões que o formulário padrão do InfoPath. O InfoPath fornece a capacidade de modificar um formulário para que ele possa acessar os recursos do sistema e outros recursos externos que não são marcados como seguros para script. Isso pode ser feito manualmente por fazer modificações nos arquivos de formulário que contém um modelo de formulário e executar um script de instalação ou por assinar digitalmente o modelo de formulário.
   

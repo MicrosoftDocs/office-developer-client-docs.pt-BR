@@ -34,7 +34,7 @@ HRESULT SetLockState(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMessage_
   
@@ -58,7 +58,7 @@ S_OK
   
 > O estado de bloqueio da mensagem foi definido com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::SetLockState** bloqueia ou desbloqueia uma mensagem. **SetLockState** pode ser chamado apenas pelo spooler MAPI enquanto ele está enviando a mensagem. 
   
@@ -78,5 +78,5 @@ Chame o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensage
   
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

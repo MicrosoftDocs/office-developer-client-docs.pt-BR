@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a679d04f7697abbe0172105febf87082c0cd9946
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767196"
 ---
-# <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown: IUnknown
+# <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
@@ -44,7 +44,7 @@ Permite que o subsistema MAPI informar um provedor MAPI do desligamento rápido 
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indica o provedor MAPI que um cliente MAPI irá fazer um rápido desligamento, para que o provedor pode executar ações para evitar a perda de dados.  <br/> |
 |[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indica o provedor MAPI que o cliente MAPI está deixando imediatamente, para que o provedor MAPI persistirá alterações para evitar a perda de dados.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Desligamento rápido permite que um cliente MAPI sair seu processo de dentro de um curto período de tempo, espera-se após o cliente e carregado provedores MAPI tem salvado dados e configurações de MAPI. O cliente MAPI sempre inicia um desligamento rápido e deve consultar o subsistema MAPI para suporte de desligamento rápido dos provedores MAPI carregados. Um administrador pode definir o registro do Windows no nível do usuário para especificar o nível de suporte do provedor que é necessário para permitir que o desligamento rápido de todos os clientes MAPI. Para obter mais informações sobre as configurações do registro, consulte [Opções de usuário de desligamento Fast](fast-shutdown-user-options.md). No entanto, para o desligamento rápido ocorra com êxito sem perda de dados, provedores MAPI devem implementar a interface de **IMAPIProviderShutdown** . 
   

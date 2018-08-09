@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0451d8635848705ef912b9a575d6390898251f4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT MoveMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pFolderDestination_
   
@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
   
 > A operação não é suportada por este site de mensagem.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIMessageSite::MoveMessage** para mover a mensagem atual para uma nova pasta. 
   
@@ -87,7 +87,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

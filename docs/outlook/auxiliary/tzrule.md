@@ -28,7 +28,7 @@ typedef struct {
 } TZRULE;
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 _wFlags_
   
@@ -46,7 +46,7 @@ _TZReg_
   
 > As informações de fuso horário para a regra de fuso horário.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa estrutura aumenta [TZREG](tzreg.md) fornecendo informações adicionais indicando quando as regras de fuso horário entrem em vigor. 
   

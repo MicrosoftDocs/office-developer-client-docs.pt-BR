@@ -27,7 +27,7 @@ Para pesquisar mensagens que são enviadas para um destinatário específico, é
   
 Os membros de segundo e terceiro da matriz são mais simples. Se ambas apontarem para estruturas de restrição de conteúdo, um para pesquisar por mensagens que tenham uma propriedade **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) definida como "Sam" e outro que tenha uma propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) definida como" voleibol."
   
-**Implementação de restrição**
+**Restriction implementation**
   
 ![Implementação de restrição] (media/amapi_61.gif "Implementação de restrição")
   

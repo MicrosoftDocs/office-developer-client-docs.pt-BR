@@ -1,5 +1,5 @@
 ---
-title: Implementação de um objeto de Logon
+title: Implementar um objeto de logon
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e23c73931c9051b61d30b7ea7e9c54d06a4d9c33
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767403"
 ---
-# <a name="implementing-a-logon-object"></a>Implementação de um objeto de Logon
+# <a name="implementing-a-logon-object"></a>Implementar um objeto de logon
 
   
   
@@ -25,9 +25,9 @@ Cada catálogo de endereços, o armazenamento de mensagens e o provedor de trans
   
 |**Interface de objeto de logon**|**Provedor de serviços**|
 |:-----|:-----|
-|[IABLogon: IUnknown](iablogoniunknown.md) <br/> |Provedor de catálogo de endereços  <br/> |
-|[IMSLogon: IUnknown](imslogoniunknown.md) <br/> |Provedor de armazenamento de mensagem  <br/> |
-|[IXPLogon: IUnknown](ixplogoniunknown.md) <br/> |Provedor de transporte  <br/> |
+|[IABLogon : IUnknown](iablogoniunknown.md) <br/> |Provedor de catálogo de endereços  <br/> |
+|[IMSLogon : IUnknown](imslogoniunknown.md) <br/> |Provedor de armazenamento de mensagem  <br/> |
+|[IXPLogon : IUnknown](ixplogoniunknown.md) <br/> |Provedor de transporte  <br/> |
    
 Mensagem e o catálogo de endereços armazenam provedores implementar os seguintes recursos nos seus objetos de logon:
   
@@ -71,5 +71,5 @@ Objeto de logon de um provedor de transporte, que implementa [IXPLogon: IUnknown
 
 
 
-[Implementação de Logon do provedor de serviço](implementing-service-provider-logon.md)
+[Implementar o logon do provedor de serviços](implementing-service-provider-logon.md)
 

@@ -170,7 +170,7 @@ Para obter informações sobre como implantar um modelo de formulário de códig
   
 ## <a name="see-also"></a>Confira também
 
-- [Código de inicialização e a limpeza usando o modelo de objeto do InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
-- [Modelos de objeto do InfoPath 2003 compatíveis](infopath-2003-compatible-object-models.md)
+- [Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
+- [InfoPath 2003 compatível com modelos de objeto](infopath-2003-compatible-object-models.md)
 - [Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

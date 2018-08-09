@@ -34,7 +34,7 @@ HRESULT Error(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  **hResult**
   
@@ -54,5 +54,5 @@ S_OK
 
 
 
-[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)
+[IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

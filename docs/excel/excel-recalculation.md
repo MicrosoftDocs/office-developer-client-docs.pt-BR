@@ -8,7 +8,7 @@ keywords:
 - cálculo de forçado [excel 2007], recálculo seletivo [Excel 2007], funções voláteis, cálculo de [Excel 2007], modos, células recalculadas [Excel 2007], [Excel 2007], a dependência especificado cálculo de planilha [Excel 2007], recálculo [Excel 2007 ], reconstrução de árvore da pasta de trabalho [Excel 2007], [Excel 2007], [de funções não voláteis de células de recálculo do Excel, funções voláteis [Excel 2007], funções de cálculo de planilha não voláteis, active [Excel 2007], [Excel 2007], dirty de cálculo de intervalo [Excel 2007] Excel 2007], forçado recálculo [Excel 2007]
 localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9964f2c4282158e83891d82ba43fa19f23ab1eb6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -231,7 +231,7 @@ API C: Não suporte
 
 
 
-[Recálculo multithreaded no Excel](multithreaded-recalculation-in-excel.md)
+[Recálculo do vários threads no Excel](multithreaded-recalculation-in-excel.md)
   
 [Tipos de dados usados pelo Excel](data-types-used-by-excel.md)
   

@@ -10,7 +10,7 @@ keywords:
 - função xlUDF [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8f45f800ca50d2a46792e7cf5e00ac25bd099e8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,7 +29,7 @@ Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** ou **xltypeNum**)
   
@@ -43,7 +43,7 @@ Zero ou mais argumentos para a função definida pelo usuário. Quando você cha
 
 Retorna o valor que a função definida pelo usuário retornada.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir executa **TestMacro** na planilha Macro1 na BOOK1. XLS. Certifique-se de que a macro estiver em uma planilha chamada Macro1. 
   
@@ -63,5 +63,5 @@ short WINAPI xlUDFExample(void)
 
 ## <a name="see-also"></a>Confira também
 
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

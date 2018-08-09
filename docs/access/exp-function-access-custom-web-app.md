@@ -19,9 +19,9 @@ ms.locfileid: "19765050"
 Retorna o valor exponencial da expressão especificada.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Exp** (*NumericExpression*) 
   
@@ -31,7 +31,7 @@ A função **Exp** contém os seguintes argumentos.
 |:-----|:-----|
 | *NumericExpression*  <br/> |Uma expressão do tipo Double ou de um tipo que pode ser convertido implicitamente para Double.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A constante **f** (2.718281...), é a base dos logaritmos naturais. 
   

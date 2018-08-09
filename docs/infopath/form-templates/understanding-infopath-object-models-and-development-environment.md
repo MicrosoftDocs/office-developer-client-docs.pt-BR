@@ -1,5 +1,5 @@
 ---
-title: Noções básicas sobre modelos de objeto do InfoPath e o ambiente de desenvolvimento
+title: Noções básicas sobre o ambiente de desenvolvimento e modelos de objeto do InfoPath
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765717"
 ---
-# <a name="understanding-infopath-object-models-and-development-environment"></a>Noções básicas sobre modelos de objeto do InfoPath e o ambiente de desenvolvimento
+# <a name="understanding-infopath-object-models-and-development-environment"></a>Noções básicas sobre o ambiente de desenvolvimento e modelos de objeto do InfoPath
 
 Microsoft InfoPath 2013 suporta dois tipos de modelos de programação para desenvolver lógica de negócios nos modelos de formulário e oferece suporte a automação externa do código gerenciado.
   
@@ -119,7 +119,7 @@ O desenvolvimento de lógica de negócios nos modelos de formulário do InfoPath
 
 
 
-[Passo a passo: Criando um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
+[Passo a passo: criar um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
   
 [Passo a passo: Criando e depurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

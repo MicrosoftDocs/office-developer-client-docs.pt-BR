@@ -34,7 +34,7 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > Um ou mais das linhas no passado não tem uma coluna de índice. Se esse erro for retornado, nenhuma linha é alterada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrModifyRows** insere as linhas descritas pela estrutura [SRowSet](srowset.md) apontada pelo parâmetro _lpSRowSet_ . Se o valor de índice de coluna de uma linha no conjunto de linha corresponder ao valor de uma linha existente na tabela, linha existente será substituída. Se não há nenhuma linha que corresponde o um incluída na estrutura de **SRowSet** , **HrModifyRows** adiciona a linha no final da tabela. 
   
@@ -70,5 +70,5 @@ Depois **HrModifyRows** tiver adicionado as linhas, as notificações são envia
 
 [SRowSet](srowset.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

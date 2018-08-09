@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767208"
 ---
-# <a name="imapistatuschangepassword"></a>IMAPIStatus:: ChangePassword
+# <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
   
   
@@ -35,7 +35,7 @@ HRESULT ChangePassword(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpOldPass_
   
@@ -67,7 +67,7 @@ MAPI_E_NO_SUPPORT
   
 > O objeto status não suporta essa operação, conforme indicado pela ausência do sinalizador STATUS_CHANGE_PASSWORD na propriedade de **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto status.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Nem todos os objetos de status suportam ao método **IMAPIStatus:: ChangePassword** . Ele é suportado somente por provedores de serviços que exigem que os clientes a digitar uma senha. Nenhum dos objetos status que implementa MAPI suporte à operação de alteração de senha. 
   
@@ -81,7 +81,7 @@ Provedores de transporte remoto implementam **ChangePassword** conforme especifi
 
 
 
-[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

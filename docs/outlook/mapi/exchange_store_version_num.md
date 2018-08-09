@@ -35,7 +35,7 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  _wMajorVersion_
   
@@ -59,5 +59,5 @@ typedef struct {
 
 [Sobre as adições de MAPI](about-mapi-additions.md)
   
-[Propriedade canônico de PidTagProfileServerFullVersion](pidtagprofileserverfullversion-canonical-property.md)
+[Propriedade canônica PidTagProfileServerFullVersion](pidtagprofileserverfullversion-canonical-property.md)
 

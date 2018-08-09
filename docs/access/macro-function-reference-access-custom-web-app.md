@@ -18,7 +18,7 @@ ms.locfileid: "19765037"
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Blocos de dados (aplicativo da web personalizado do Access)](data-blocksaccess-custom-web-app.md)
     

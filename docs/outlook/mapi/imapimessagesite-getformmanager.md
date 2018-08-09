@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: abaf8f665ea7add92a34c2e4d6fcbf9d5fc08d3f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetFormManager(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppFormMgr_
   
@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
   
@@ -63,7 +63,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [MAPIOpenFormMgr](mapiopenformmgr.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

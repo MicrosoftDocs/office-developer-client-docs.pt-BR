@@ -38,7 +38,7 @@ HRESULT CreateOneOff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszName_
   
@@ -78,7 +78,7 @@ S_OK
   
 > O identificador de entrada únicos foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::CreateOneOff** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **CreateOneOff** para criar um identificador de entrada para um destinatário único (um destinatário que não pertençam a qualquer um dos contêineres de qualquer um dos provedores de catálogo de endereços carregado no momento). 
   
@@ -96,9 +96,9 @@ Suportar o TNEF Transport Neutral Encapsulation Format () e use o valor da propr
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propriedade canônica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propriedade canônico de PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)
+[Propriedade canônica PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Seção de [Propriedades] do arquivo de configuração de formulário
+title: Seção do arquivo de configuração de formulários [Propriedades]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766607"
 ---
-# <a name="form-configuration-file-properties-section"></a>Seção de [Propriedades] do arquivo de configuração de formulário
+# <a name="form-configuration-file-properties-section"></a>Seção do arquivo de configuração de formulários [Propriedades]
 
   
   

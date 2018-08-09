@@ -10,7 +10,7 @@ keywords:
 - função xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,11 +28,11 @@ Retorna o nome completo do arquivo e o caminho da DLL na forma de uma cadeia de 
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 Essa função não tem argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna o nome de arquivo e caminho (**xltypeStr**). 
   
@@ -53,5 +53,5 @@ short WINAPI xlGetNameExample(void)
 
 ## <a name="see-also"></a>Confira também
 
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

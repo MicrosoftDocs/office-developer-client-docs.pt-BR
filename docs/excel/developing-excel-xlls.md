@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo XLLs do Excel
+title: Desenvolvimento de XLLs do Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - suplementos - [excel 2007], desenvolvendo XLLs XLLs - [Excel 2007] - [Excel 2007], desenvolvendo
 localization_priority: Normal
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cb2483b9cd1b11bcfeee81bba02b6d593e8818fc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765272"
 ---
-# <a name="developing-excel-xlls"></a>Desenvolvendo XLLs do Excel
+# <a name="developing-excel-xlls"></a>Desenvolvimento de XLLs do Excel
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -27,27 +27,27 @@ A API C não tem nenhum dos recursos de desenvolvimento rápido de nível superi
 
 - [Excel Programming Concepts](excel-programming-concepts.md)
   
-- [Trabalhando com DLLs](working-with-dlls.md)
+- [Trabalhar com DLLs](working-with-dlls.md)
   
-- [Acessando código XLL no Excel](accessing-xll-code-in-excel.md)
+- [Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)
   
-- [Funções do Assistente de função ou caixas de diálogo Replace XLL chamada](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
 - [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
   
-- [Criando XLLs](creating-xlls.md)
+- [Criar XLLs](creating-xlls.md)
   
-- [Avaliando os nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
+- [Avaliar nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-- [Multithreading e gerenciamento de memória](multithreading-and-memory-management.md)
+- [Vários threads e gerenciamento de memória](multithreading-and-memory-management.md)
   
 - [Funções assíncronas definidas pelo usuário](asynchronous-user-defined-functions.md)
   
-- [Funções de segurança de cluster](cluster-safe-functions.md)
+- [Funções de segurança do cluster](cluster-safe-functions.md)
   
-- [Quebras de autorizações de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
+- [Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
   
-- [Exibindo caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+- [Exibir as caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 - [Acessar a instância do Excel e as alças da janela principal](how-to-access-excel-instance-and-main-window-handles.md)
   

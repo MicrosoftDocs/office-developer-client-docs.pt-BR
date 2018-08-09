@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d329d3a14b6026d0bd62df9feba6ccff251e4151
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT InstallForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -115,7 +115,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [MAPIERROR](mapierror.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

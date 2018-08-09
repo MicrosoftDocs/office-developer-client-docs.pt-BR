@@ -23,5 +23,5 @@ Os tópicos nesta seção descrevem as interações entre aplicativos clientes, 
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

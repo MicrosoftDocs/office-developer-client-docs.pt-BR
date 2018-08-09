@@ -19,7 +19,7 @@ ms.locfileid: "19765221"
 Você pode usar a ação **DefinirPropriedade** para definir uma propriedade para um controle em um modo de exibição. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -27,11 +27,11 @@ A ação **DefinirPropriedade** tem os argumentos listados na tabela a seguir.
   
 |**Argumento da ação**|**Descrição**|
 |:-----|:-----|
-| _Nome do controle_ <br/> |Digite o nome do campo ou controle para o qual você deseja definir o valor da propriedade. Deixe este argumento em branco para definir a propriedade no modo de exibição.  <br/> |
-| _Property_ <br/> |Selecione a propriedade que você deseja definir. Consulte a seção **comentários** neste artigo para obter uma lista das propriedades que podem ser definidas usando essa ação.  <br/> |
-| _Valor_ <br/> |Digite o valor que a propriedade deve ser definida como. Para propriedades cujos valores são Sim ou não, usam **-1** para Sim e **0** para não.  <br/> |
+| _Nome do Controle_ <br/> |Digite o nome do campo ou controle para o qual você deseja definir o valor da propriedade. Deixe este argumento em branco para definir a propriedade no modo de exibição.  <br/> |
+| _Propriedade_ <br/> |Selecione a propriedade a ser definida. Consulte a seção **Comentários** deste artigo para obter uma lista das propriedades que podem ser definidas com esta ação.<br/> |
+| _Valor_ <br/> |Digite o valor com o qual a propriedade deve ser definida. Para propriedades cujos valores sejam Sim ou Não, use **-1** para Sim e **0** para Não.<br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode usar a ação **DefinirPropriedade** para definir as seguintes propriedades de um controle: 
   
@@ -39,7 +39,7 @@ Você pode usar a ação **DefinirPropriedade** para definir as seguintes propri
     
 - Habilitado
     
-- Propriedade ForeColor
+- ForeColor
     
 - Value
     

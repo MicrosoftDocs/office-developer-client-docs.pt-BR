@@ -29,7 +29,7 @@ HRESULT IOlkAccount::FreeMemory (
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _VP_
   
@@ -39,7 +39,7 @@ _VP_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use este método para liberar memória alocado pelo [IOlkAccount::GetProp](iolkaccount-getprop.md) (se o valor da propriedade conta especificada é um tipo binário ou cadeia de caracteres) e [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
   

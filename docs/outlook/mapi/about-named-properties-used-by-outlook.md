@@ -185,9 +185,9 @@ Propriedades nomeadas no namespace **PS_PUBLIC_STRINGS** s�o as seguintes:
 
 [Constantes MAPI](mapi-constants.md)
   
-[Determinar se o Outlook download somente do cabeçalho de uma mensagem](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
+[Determinar se o Outlook baixou somente o cabeçalho de uma mensagem](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   
-[Obter o endereço de Email de um Item de contato](how-to-get-the-email-address-of-a-contact-item.md)
+[Obter o endereço de Email de um item de contato](how-to-get-the-email-address-of-a-contact-item.md)
   
-[Remova a definição de formulário personalizado salva com uma mensagem](how-to-remove-custom-form-definition-saved-with-a-message.md)
+[Remover a definição de formulário personalizada salva com uma mensagem](how-to-remove-custom-form-definition-saved-with-a-message.md)
 

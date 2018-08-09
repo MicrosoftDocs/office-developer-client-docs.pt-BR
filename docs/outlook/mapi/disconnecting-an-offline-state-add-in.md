@@ -1,5 +1,5 @@
 ---
-title: Desconectando um Offline suplemento State
+title: Desconectar-se de um suplemento de estado offline
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19766411"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>Desconectando um Offline suplemento State
+# <a name="disconnecting-an-offline-state-add-in"></a>Desconectar-se de um suplemento de estado offline
 
 **Aplica-se a**: Outlook 
   
@@ -145,9 +145,9 @@ void UnloadLibraries()
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de estado Offline](about-the-offline-state-api.md)
-- [Instalando o amostra Offline State suplemento](installing-the-sample-offline-state-add-in.md)
-- [Sobre o amostra Offline State suplemento](about-the-sample-offline-state-add-in.md)
-- [Configurando um Offline suplemento State](setting-up-an-offline-state-add-in.md)
-- [Monitoramento estado de Conexão usando um Offline suplemento State é alterado](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Sobre a API de estado offline](about-the-offline-state-api.md)
+- [Instalar o exemplo de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
+- [Sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
+- [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
+- [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

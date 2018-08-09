@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2a003be35fc9c3ef8efc7c66997ee99f6e578f09
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulValue_
   
@@ -85,12 +85,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Exibir um indicador de progresso](how-to-display-a-progress-indicator.md)
   
-[Implementando um indicador de progresso](implementing-a-progress-indicator.md)
+[Implementar um indicador de progresso](implementing-a-progress-indicator.md)
 

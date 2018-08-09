@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0eb6d62b64595474957415e94275d0ac52cc2b6b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766823"
 ---
-# <a name="iabcontainer--imapicontainer"></a>IABContainer: IMAPIContainer
+# <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
 **Aplica-se a**: Outlook 
   
@@ -60,7 +60,7 @@ Fornece acesso aos contêineres do catálogo de endereços. Aplicativos MAPI e c
 |**PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A interface **IABContainer** herda indiretamente da interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) por meio do [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) e [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Provedores de catálogo de endereços implementam a interface de **IABContainer** . 
   

@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::GetOrder (
 ); 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pclsidCategory_
   
@@ -58,7 +58,7 @@ _prgAccts_
 |E_INVALIDARG  <br/> |Um ou mais argumentos são inválidos.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Antes de chamar este método, o chamador aloca apenas uma matriz ponteiro *prgAccts* , mas não há memória para a matriz nos quais pontos *prgAccts* . Depois que esse método retorna, o chamador deve usar [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) para liberar a memória alocada para *prgAccts* . 
   

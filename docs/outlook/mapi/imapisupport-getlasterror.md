@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e MAPI não oferece suporte a Unicode, ou MAPI_UNICODE não foi definido e Unicode só oferece suporte a MAPI.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::GetLastError** é implementado para todos os objetos de suporte. Os chamadores podem fornecer aos usuários informações detalhadas sobre o erro, incluindo os dados da estrutura de **MAPIERROR** em uma caixa de diálogo. 
   

@@ -10,7 +10,7 @@ keywords:
 - função xlSet [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Coloca valores de constantes em intervalos de células ou muito rapidamente. Par
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxReference_ (**xltypeRef** ou **xltypeSRef**)
   
@@ -38,7 +38,7 @@ _pxValue_
   
 O valor ou valores sejam colocadas em uma ou mais células. Para obter mais informações, consulte a seção "Comentários".
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 ### <a name="pxvalue-argument"></a>argumento pxValue
 
@@ -58,7 +58,7 @@ Para limpar um elemento do retângulo de destino, use um elemento de matriz do t
   
 **xlSet** se comporta como uma função equivalente de comando de classe 3; ou seja, ele estará disponível somente dentro de uma DLL quando a DLL é chamada a partir de um objeto, macro, menu, barra de ferramentas, tecla de atalho ou no botão **Executar** na caixa de diálogo **Macro** (acessada a partir da guia **Exibir** da faixa de opções inicial no Excel 2007 e as ferramentas de ** **menu em versões anteriores). 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir preenche B205:B206 com o valor passado em de uma macro. Exemplo da função este comando requer um argumento e portanto funcionará somente se for chamado a partir de uma folha de macro XLM ou um módulo do VBA usando o método Application **Run** . 
   
@@ -84,5 +84,5 @@ short WINAPI xlSetExample(short int iVal)
 ## <a name="see-also"></a>Confira também
 
 - [xlCoerce](xlcoerce.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

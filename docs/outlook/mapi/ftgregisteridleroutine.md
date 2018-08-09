@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0d3f24c41f2cfbd499d92e050c74da904dd4c377
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ FTG FtgRegisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pfnIdle_
   
@@ -95,11 +95,11 @@ _iroIdle_
 
 A função de **FtgRegisterIdleRoutine** retornará uma marca de função que identifica a rotina ociosa que foi adicionada ao sistema de MAPI. Se **FtgRegisterIdleRoutine** não é possível registrar a rotina ociosa para o aplicativo cliente ou o provedor de serviço, por exemplo devido a problemas de memória, ele retornará NULL. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função [FNIDLE](fnidle.md) . 
   
-|**Função de rotina ociosa**|**Usage**|
+|**Função de rotina ociosa**|**Uso**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |

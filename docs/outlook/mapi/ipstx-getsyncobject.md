@@ -33,13 +33,13 @@ HRESULT GetSyncObject(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppostx_
   
 >  [out] Ponteiro para a interface **IOSTX** a ser obtido. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O chamador deve assegurar que a mesma pasta não está sincronizada ao mesmo tempo em mais de um segmento.
   

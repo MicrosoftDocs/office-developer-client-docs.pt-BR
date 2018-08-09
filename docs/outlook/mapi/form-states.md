@@ -21,15 +21,15 @@ ms.locfileid: "19766618"
   
 Objetos de formulário podem estar em um dos cinco estados distintos, dependendo do que métodos tiverem sido chamados neles e se ocorreu algum erro na execução desses métodos. Os estados são descritos nos tópicos a seguir:
   
-- [Estado não inicializado](uninitialized-state.md)
+- [Estado Uninitialized](uninitialized-state.md)
     
-- [Estado normal](normal-state.md)
+- [Estado Normal](normal-state.md)
     
-- [Estado de NoScribble](noscribble-state.md)
+- [Estado NoScribble](noscribble-state.md)
     
-- [Estado de HandsOffAfterSave](handsoffaftersave-state.md)
+- [Estado HandsOffAfterSave](handsoffaftersave-state.md)
     
-- [Estado de HandsOffFromNormal](handsofffromnormal-state.md)
+- [Estado HandsOffFromNormal](handsofffromnormal-state.md)
     
 Os estados estão relacionadas principalmente até o status dos dados no objeto form. Os diferentes estados refletem se os dados precisam ser salvo, se o objeto de formulário deve permitir modificações aos dados, e que o ponto no processo de salvar os dados que o formulário está nesse. Sendo assim, o formulário Estados e transições entre elas têm mais a ver com a implementação do seu servidor de formulário do [IPersistMessage: IUnknown](ipersistmessageiunknown.md) métodos que qualquer outra de interface. É muito útil para implementação adequada das interfaces de formulário de MAPI que seu servidor do formulário deve implementar o conhecimento desses estados. 
   
@@ -40,5 +40,5 @@ Os tópicos desta seção descrevem os diversos estados, juntamente com as açõ
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

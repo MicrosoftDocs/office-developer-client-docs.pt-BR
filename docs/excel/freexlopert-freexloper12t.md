@@ -11,7 +11,7 @@ keywords:
 - função freexlopert [excel 2007], função FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7411bc51770dadc7c2d4a5c2c65d2d546f6025f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxloper_ (**LPXLOPER**)
   
@@ -85,5 +85,5 @@ void FreeXLOper12T(LPXLOPER12 pxloper12)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

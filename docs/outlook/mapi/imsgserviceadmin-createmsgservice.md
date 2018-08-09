@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6e0bdd7108bacd17134592ac05ba71510fde76d8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767503"
 ---
-# <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin:: CreateMsgService
+# <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
   
   
@@ -36,7 +36,7 @@ HRESULT CreateMsgService(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszService_
   
@@ -80,7 +80,7 @@ E_NOT_FOUND
   
 > O nome do serviço de mensagem não está na seção **[Services]** da Mapisvc. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin:: CreateMsgService** adiciona um serviço de mensagem ao perfil atual. **CreateMsgService** chama a função de ponto de entrada do serviço de mensagem para executar tarefas específicas do serviço de configuração. Se o sinalizador SERVICE_UI_ALLOWED é definido no parâmetro _ulFlags_ , o serviço de mensagem que está sendo instalado pode exibir uma folha de propriedades para permitir que o usuário definir suas configurações. 
   
@@ -120,7 +120,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

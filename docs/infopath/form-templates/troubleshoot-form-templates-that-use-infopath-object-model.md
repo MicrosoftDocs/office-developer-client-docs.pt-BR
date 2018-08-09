@@ -19,7 +19,7 @@ ms.locfileid: "19765723"
 
 Esta seção contém dicas para resolver problemas comuns que você pode encontrar ao criar o modelo de formulário de código gerenciado que usam o modelo de objeto compatível com o InfoPath 2003.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [Modelos de formulário de solução de problemas que usam o modelo de objeto do InfoPath 2003 em tempo de execução](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md): descreve a resolução de problemas que pode surgir enquanto você estiver criando e visualização do InfoPath gerenciado modelos de formulário de código que usam o compatíveis com o InfoPath 2003 modelo de objeto.
     

@@ -8,7 +8,7 @@ keywords:
 - compatibilidade de versão [excel 2007], compatibilidade XLL [Excel 2007], [Excel 2007] de compatibilidade com versões anteriores
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -74,6 +74,6 @@ Funções do análise (ATP) de ferramentas fazem parte do Excel iniciada no Exce
 ## <a name="see-also"></a>Confira também
 
 - [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
-- [Programando com a API C no Excel](programming-with-the-c-api-in-excel.md)
+- [Programar com a API de C no Excel](programming-with-the-c-api-in-excel.md)
 - [What's New in the C API for Excel](what-s-new-in-the-c-api-for-excel.md)
 

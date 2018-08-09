@@ -1,5 +1,5 @@
 ---
-title: Gerenciando mensagem downloads para contas POP3
+title: Gerenciar o download de mensagens de contas POP3
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766002"
 ---
-# <a name="managing-message-downloads-for-pop3-accounts"></a>Gerenciando mensagem downloads para contas POP3
+# <a name="managing-message-downloads-for-pop3-accounts"></a>Gerenciar o download de mensagens de contas POP3
 
 Esta seção descreve como o provedor de POP3 do Outlook usa o histórico de listagem de identificação exclusiva (UIDL) utilizando uma conta POP3 para identificar as mensagens que o provedor tenha baixado ou excluídas do servidor POP3, para evitar o download a mesma mensagem mais de uma vez.
   
@@ -30,9 +30,9 @@ Mensagens para uma conta POP são identificadas por identificadores exclusivos (
     
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciamento de conta do Outlook](outlook-account-management.md)    
-- [Localizando o histórico de download de mensagens para uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md) 
-- [Analisar o histórico de download de mensagens para uma conta POP3](parsing-the-message-download-history-for-a-pop3-account.md)   
+- [Gerenciamento de contas do Outlook](outlook-account-management.md)    
+- [Localizar o histórico de download de mensagens de uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md) 
+- [Analisar o histórico de download de mensagens de uma conta POP3](parsing-the-message-download-history-for-a-pop3-account.md)   
 - [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md)  
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)    
 - [Propriedades (API de gerenciamento de conta)](properties-account-management-api.md)

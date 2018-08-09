@@ -10,7 +10,7 @@ keywords:
 - função xlGetHwnd [excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a22365d6c945aaa5995e2c519c757a1a7515655a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,26 +29,26 @@ Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 Essa função não tem argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Contém um manipulador de janela (**xltypeInt**) no campo **val.w** . 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa função é útil para escrever o código de API do Windows.
   
 Quando você chamar essa função usando [Excel4](excel4-excel12.md) ou [Excel4v](excel4v-excel12v.md), a variável de inteiro XLOPER retornada é um curto int 16 bits assinado, a. Isso só é capaz de conter os 16 bits baixos da alça de Windows de 32 bits. Para localizar a parte alta, seu código deve percorrer todas as janelas abertas procurando uma correspondência com a parte inferior. Iniciando no Excel 2007, a variável de inteiro de **XLOPER12** é um int assinado de 32 bits e, portanto, contém um manipulador de inteiro, removendo a necessidade de iterar todas as janelas abertas. 
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Ver o código para a [função fShowDialog](fshowdialog.md) em `SAMPLES\GENERIC\GENERIC.C`.
   
 ## <a name="see-also"></a>Confira também
 
 - [xlGetInst](xlgetinst.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

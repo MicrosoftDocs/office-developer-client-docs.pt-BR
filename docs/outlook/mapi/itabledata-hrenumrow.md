@@ -34,7 +34,7 @@ HRESULT HrEnumRow(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulRowNumber_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A linha foi recuperada com êxito, ou uma linha para o número da linha especificada pelo parâmetro _ulRowNumber_ não existe. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrEnumRow** recupera uma linha com base em um número sequencial. Este número representa a ordem de inserção (0 indica que a primeira linha e o número de linhas menos 1 indica a última linha). MAPI mantém nesta ordem cronológica de inserção de linha para o tempo de vida do objeto de dados de tabela. 
   
@@ -70,5 +70,5 @@ Para recuperar linhas de uma tabela na ordem em que foram inseridos, os usuário
   
 [SRow](srow.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

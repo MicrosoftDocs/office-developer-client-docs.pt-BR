@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 69bbed644a8173bf9291ca48a63960f693108318
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ BOOL FPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _lpSPropValue1_
   
@@ -63,7 +63,7 @@ FALSO
   
 > Os valores de propriedade não atenderem a relação especificada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método de comparação depende os tipos de propriedade especificados nas definições de propriedade [SPropValue](spropvalue.md) . As funções **FPropCompareProp** e [FPropContainsProp](fpropcontainsprop.md) podem ser usadas para preparar restrições para gerar uma tabela. 
   

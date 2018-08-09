@@ -28,7 +28,7 @@ HRESULT IOlkAccountManager::FreeMemory (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _VP_
   
@@ -38,7 +38,7 @@ _VP_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use esse método para liberar memória alocada pelo [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
   

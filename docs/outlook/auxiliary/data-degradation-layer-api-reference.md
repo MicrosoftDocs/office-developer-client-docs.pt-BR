@@ -1,5 +1,5 @@
 ---
-title: Referência de API de camada de degradação de dados
+title: Referência da API de camada de degradação de dados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765805"
 ---
-# <a name="data-degradation-layer-api-reference"></a>Referência de API de camada de degradação de dados
+# <a name="data-degradation-layer-api-reference"></a>Referência da API de camada de degradação de dados
 
 Esta seção fornece conteúdo de referência para a dados degradação camada API, que fornece a capacidade de ocultar o formato de caractere nativo subjacentes de um objeto do Outlook, permitindo que um cliente acessar o objeto em um formato de caracteres preferencial e não na formato de caractere nativo do objeto.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Constantes](constants-data-degradation-layer-api.md)
     

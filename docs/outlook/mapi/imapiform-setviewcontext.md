@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7b10007-42d8-4755-8362-f8ad9a8dad68
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c1ba49ba1b4deacb684da1411d86ebd4dd19e63f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT SetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pViewContext_
   
@@ -45,7 +45,7 @@ S_OK
   
 > O contexto de modo de exibição foi definido com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIForm::SetViewContext** para estabelecer um contexto de modo de exibição de formulário específico como o atual. Um formulário pode ter apenas um contexto de modo de exibição de cada vez. 
   
@@ -81,7 +81,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

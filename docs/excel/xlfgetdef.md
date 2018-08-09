@@ -8,7 +8,7 @@ keywords:
 - xlfgetdef
 localization_priority: Normal
 ms.assetid: 68f5edbd-9040-46d3-acd5-dd51ca82f6fa
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 030c4e501e8a9eb4b6ce29d7fe0e171324b50b5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -26,7 +26,7 @@ Retorna o nome, como texto, que é definido para uma determinada área, valor ou
 Excel12(xlfGetDef, LPXLOPER12 pxRes, 3, LPXLOPER12 pxDefText, LPXLOPER12 pxDocumentText, LPXLOPER12 pxTypeNum);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxDefText_ (**xltypeStr**)
   
@@ -48,13 +48,13 @@ Um número de 1 a 3 para especificar quais tipos de nomes são retornados.
 |2  <br/> |Apenas nomes ocultos.  <br/> |
 |3  <br/> |Todos os nomes.  <br/> |
    
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
  _pxRes_ (**xltypeStr** ou **xltypeErr**)
   
 Retorna o nome associado à definição especificada.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir lista os quatro exemplos dos valores retornados por uma chamada para **xlfGetDef** com os argumentos especificados. 
   
@@ -68,5 +68,5 @@ A tabela a seguir lista os quatro exemplos dos valores retornados por uma chamad
 ## <a name="see-also"></a>Confira também
 
 - [xlfGetName](xlfgetname.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

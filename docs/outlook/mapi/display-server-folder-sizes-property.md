@@ -1,5 +1,5 @@
 ---
-title: Propriedade tamanhos da pasta de exibição servidor
+title: Exibir propriedades de tamanhos da pasta do servidor
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1ddf4501918d598169a3a74fd1c8d2ac38499cd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766421"
 ---
-# <a name="display-server-folder-sizes-property"></a>Propriedade tamanhos da pasta de exibição servidor
+# <a name="display-server-folder-sizes-property"></a>Exibir propriedades de tamanhos da pasta do servidor
 
   
   
@@ -37,7 +37,7 @@ Exibe os tamanhos das pastas especificadas no servidor, na caixa de diálogo **T
 |Tipo de propriedade:  <br/> |PT_BOOLEAN  <br/> |
 |Tipo de acesso:  <br/> |Leitura/gravação  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fornecer qualquer funcionalidade loja, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válido para qualquer uma dessas propriedades passados para uma chamada [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::GetProps](imapiprop-getprops.md), o provedor de armazenamento também deve retornar o valor da propriedade correto. Provedores de armazenamento podem chamar [HrGetOneProp](hrgetoneprop.md) e [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
   

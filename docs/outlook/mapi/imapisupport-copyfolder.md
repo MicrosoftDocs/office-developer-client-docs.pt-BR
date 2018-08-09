@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0b079b311a68459a43b0a7659ddfbe94d96d7f9c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSrcInterface_
   
@@ -114,7 +114,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A chamada foi bem-sucedida, mas nem todas as entradas foram copiadas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::CopyFolder** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagens podem chamar **IMAPISupport::CopyFolder** na sua implementação do [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) para copiar ou mover uma única pasta da pasta pai de um para outro. 
   

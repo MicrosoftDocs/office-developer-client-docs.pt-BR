@@ -34,7 +34,7 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszProfileName_
   
@@ -58,7 +58,7 @@ E_NOT_FOUND
   
 > O perfil especificado não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::SetDefaultProfile** estabelece um perfil específico como o perfil do cliente padrão ou limpa o perfil padrão atual. O perfil padrão é o perfil que será usado automaticamente sempre que o cliente inicia uma sessão MAPI. **SetDefaultProfile** também define a propriedade de **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) do novo perfil padrão como TRUE.
   
@@ -74,7 +74,7 @@ Para iniciar uma sessão com o perfil padrão, passe o sinalizador MAPI_USE_DEFA
   
 [MAPILogonEx](mapilogonex.md)
   
-[Propriedade canônico de PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
+[Propriedade canônica PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

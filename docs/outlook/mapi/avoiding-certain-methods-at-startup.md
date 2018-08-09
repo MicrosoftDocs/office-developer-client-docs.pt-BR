@@ -1,5 +1,5 @@
 ---
-title: Evitando determinados métodos na inicialização
+title: Evitar determinados métodos na inicialização
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766233"
 ---
-# <a name="avoiding-certain-methods-at-startup"></a>Evitando determinados métodos na inicialização
+# <a name="avoiding-certain-methods-at-startup"></a>Evitar determinados métodos na inicialização
 
  
   

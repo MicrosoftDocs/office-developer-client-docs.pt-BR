@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e o provedor de catálogo de endereços não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e o provedor de catálogo de endereços suporta somente Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de catálogo de endereços implementam o método **GetLastError** para fornecer informações sobre uma chamada de método anterior que falharam. Os chamadores podem fornecer aos usuários informações detalhadas sobre o erro, incluindo os dados da estrutura de **MAPIERROR** em uma caixa de diálogo. 
   
@@ -81,5 +81,5 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

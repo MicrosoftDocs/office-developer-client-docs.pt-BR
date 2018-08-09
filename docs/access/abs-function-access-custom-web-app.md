@@ -18,9 +18,9 @@ ms.locfileid: "19765059"
 Retorna o valor (positivo) absoluto da expressão numérica especificado.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Abs** (*NumericExpression*) 
   

@@ -1,5 +1,5 @@
 ---
-title: Encerrar uma sessão MAPI
+title: Finalizar uma sessão MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766497"
 ---
-# <a name="ending-a-mapi-session"></a>Encerrar uma sessão MAPI
+# <a name="ending-a-mapi-session"></a>Finalizar uma sessão MAPI
 
   
   

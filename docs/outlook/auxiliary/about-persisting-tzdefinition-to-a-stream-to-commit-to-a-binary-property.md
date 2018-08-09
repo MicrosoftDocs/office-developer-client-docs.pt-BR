@@ -1,5 +1,5 @@
 ---
-title: Sobre TZDEFINITION mantendo a um fluxo ao confirmar em uma propriedade binária
+title: Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765786"
 ---
-# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Sobre TZDEFINITION mantendo a um fluxo ao confirmar em uma propriedade binária
+# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária
 
 As propriedades de fuso horário, [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)e [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) são binário denominado propriedades, cada um deles contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](tzdefinition.md) . 
   
@@ -65,5 +65,5 @@ Observe que a estrutura [TZREG](tzreg.md) é persistente aqui diferentemente vez
 
 - [Constantes (Outlook exportados APIs)](constants-outlook-exported-apis.md)
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
 

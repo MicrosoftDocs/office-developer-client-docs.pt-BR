@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 553ec17e9caf9bf93278ff139eb94e02e6b48554
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SGuidArray
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,7 +50,7 @@ typedef struct _SGuidArray
   
 > Ponteiro para uma matriz de estruturas **GUID** que contém os valores de identificador de classe. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter mais informações sobre PT_MV_CLSID, consulte a [Lista de tipos de propriedade](property-types.md).
   

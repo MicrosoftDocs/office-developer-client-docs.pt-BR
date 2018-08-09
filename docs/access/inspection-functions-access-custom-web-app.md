@@ -17,9 +17,9 @@ ms.locfileid: "19765055"
 # <a name="inspection-functions-access-custom-web-app"></a>Funções de inspeção (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Função Try_Convert (aplicativo da web personalizado do Access)](try_convert-function-access-custom-web-app.md)
     

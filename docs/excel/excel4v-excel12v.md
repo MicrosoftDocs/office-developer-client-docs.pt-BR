@@ -11,7 +11,7 @@ keywords:
 - função Excel12v [excel 2007], função Excel4v [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7ffa0bc3ae6222af1ecd7f65de66d026ea178c87
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
 int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[]);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _iFunction_ (**int**)
   
@@ -58,11 +58,11 @@ Uma matriz que contém os argumentos para a função. Todos os argumentos na mat
 
 Essas funções retornam os mesmos valores **Excel4** e **Excel12**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas funções são úteis onde o número de argumentos passados para o operador é a variável. Por exemplo, **Excel4v** e **Excel12v** são úteis quando você registra funções usando [xlfRegister](xlfregister-form-1.md) onde o número de argumentos total depende do número de argumentos tomada pela função está sendo registrada. **Excel4v** e **Excel12v** também são úteis quando você escrever uma função de wrapper para **Excel4** ou **Excel12**. Nesses casos, você precisa converter uma lista de argumentos variável, como normalmente seria ser fornecidos ao **Excel4** ou **Excel12**, como um argumento de matriz único de tamanho variável para a chamada de retorno no Excel usando **Excel4v** ou **Excel12v**.
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Para obter exemplos de código, consulte o código para as funções do **Excel** e **Excel12f** no SDK do Excel 2010 XLL, no seguinte local onde você instalou o SDK: 
   

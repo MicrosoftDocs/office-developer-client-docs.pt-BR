@@ -18,7 +18,7 @@ ms.locfileid: "19765816"
 
 Este tópico contém definições constantes para a API de camada de degradação de dados.
   
-## <a name="constants"></a>Constants
+## <a name="constants"></a>Constantes
 
 |**Constante**|**Definição**|
 |:-----|:-----|

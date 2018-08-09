@@ -18,7 +18,7 @@ ms.locfileid: "19765027"
 Você pode usar a ação **ExcluirRegistro** para excluir um registro. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -26,7 +26,7 @@ A ação **ExcluirRegistro** tem os seguintes argumentos.
   
 |**Argumento**|**Descrição**|
 |:-----|:-----|
-|**Alias de registro** <br/> |Uma cadeia de caracteres que identifica o registro a ser excluído. Se o argumento *Alias* não for especificado, o registro atual é excluído.  <br/> |
+|**Alias de Registro** <br/> |Uma cadeia de caracteres que identifica o registro a ser excluído. Se o argumento *Alias* não for especificado, o registro atual é excluído.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

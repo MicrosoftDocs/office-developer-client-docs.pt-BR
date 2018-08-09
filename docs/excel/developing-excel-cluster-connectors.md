@@ -1,12 +1,12 @@
 ---
-title: Desenvolvendo conectores de Cluster do Excel
+title: Desenvolvimento de conectores de cluster do Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8c9a166ac06685c0a450e1e0bd60b2fbef67d336
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765255"
 ---
-# <a name="developing-excel-cluster-connectors"></a>Desenvolvendo conectores de Cluster do Excel
+# <a name="developing-excel-cluster-connectors"></a>Desenvolvimento de conectores de cluster do Excel
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   

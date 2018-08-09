@@ -1,5 +1,5 @@
 ---
-title: Funções na biblioteca do Framework
+title: Funções na biblioteca de estrutura
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - funções da biblioteca do Framework [excel 2007] funções [Excel 2007], biblioteca Framework
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1d3878e376f95be3b277f1bb1a59545eb0a631ac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765385"
 ---
-# <a name="functions-in-the-framework-library"></a>Funções na biblioteca do Framework
+# <a name="functions-in-the-framework-library"></a>Funções na biblioteca de estrutura
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   

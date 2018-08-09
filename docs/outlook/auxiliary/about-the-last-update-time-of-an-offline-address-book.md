@@ -1,5 +1,5 @@
 ---
-title: Sobre a hora da última atualização de um catálogo de Endereços Offline
+title: Sobre o último tempo de atualização de um catálogo de endereços offline
 manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765810"
 ---
-# <a name="about-the-last-update-time-of-an-offline-address-book"></a>Sobre a hora da última atualização de um catálogo de Endereços Offline
+# <a name="about-the-last-update-time-of-an-offline-address-book"></a>Sobre o último tempo de atualização de um catálogo de endereços offline
 
 Um endereço catálogo Offline (OAB) fornece os usuários do Outlook no access estado desconectado às informações de diretório da lista de endereços Global (GAL) e de outros catálogos de endereços. É uma cópia de um catálogo de endereços que o Outlook baixou de um servidor Exchange para fornecer acesso offline.
   

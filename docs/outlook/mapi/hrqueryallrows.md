@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5c62e5919c6e605aa4b60f48072996ed1fd4c355
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT HrQueryAllRows(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ptable_
   
@@ -80,7 +80,7 @@ MAPI_E_TABLE_TOO_BIG
   
 > O número de linhas da tabela é maior que o número passado para o parâmetro _crowsMax_ . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um aplicativo cliente ou um provedor de serviços não tem controle sobre o número de linhas **que HrQueryAllRows** tenta recuperar, diferente de, impondo uma restrição apontado pelo parâmetro _pré-instalação_ . O parâmetro _crowsMax_ não limitam a recuperação para um determinado número de linhas da tabela, mas em vez disso, define uma quantidade máxima de memória disponível para abrigar recuperadas todas as linhas. A única proteção contra estouro de memória enorme é o recurso de provisórias fornecido, definindo _crowsMax_. O retorno de erro MAPI_E_TABLE_TOO_BIG significa que a tabela contém muitas linhas seja mantido todo ao mesmo tempo na memória. 
   

@@ -43,7 +43,7 @@ O nível de segurança restrito não permite qualquer comunicação fora o model
 - Modo de exibição de impressão externo
 - Imagens vinculadas
     
-### <a name="domain"></a>Domínio
+### <a name="domain"></a>Domain
 
 O nível de segurança de domínio restringe um formulário a um determinado domínio de Internet e suas permissões são impedidos as configurações do Internet Explorer para a zona onde o domínio está localizado. O formulário pode se comunicar com outras fontes de dados dentro de seu próprio domínio, mas geralmente não é permitido para recuperar dados de outros domínios, a menos que a zona permite a comunicação entre domínios. Este é o nível mínimo permitido para modelos de formulário compatíveis com navegador.
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a187245b2594282bc9908b3075852440f418af2b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -46,7 +46,7 @@ typedef struct DTPAGE
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cctl**
   
@@ -68,7 +68,7 @@ typedef struct DTPAGE
   
 > Ponteiro para uma matriz de estruturas [DTCTL](dtctl.md) , um para cada controle na página. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para identificar o arquivo de ajuda para a página com guias, defina o membro **lpszComponent** para uma cadeia de caracteres codificada ou o membro **ulItemID** como um identificador de recurso inteiro. 
   

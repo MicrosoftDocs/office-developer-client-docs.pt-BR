@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c744407790fecde6b6d89dff669ea4db07ce7701
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT DeleteEntries(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpEntries_
   
@@ -66,7 +66,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

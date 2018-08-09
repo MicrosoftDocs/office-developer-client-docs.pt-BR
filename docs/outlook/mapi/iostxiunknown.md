@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7419a0df7a2f3b76caeeb1ca564624d437eddd52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767604"
 ---
-# <a name="iostx--iunknown"></a>IOSTX: IUnknown
+# <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
   
   
@@ -45,7 +45,7 @@ Fornece os métodos de sincronização. Essa interface recupera as informações
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |Define o resultado da sincronização.  <br/> |
 | *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando um cliente carrega ou sincroniza pastas e o conteúdo da pasta em um repositório local, ele transfere o armazenamento local de um estado para outro conforme ilustrado no diagrama a transição de estado no [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md). Este é a ordem de eventos para o cliente mover o repositório local de um estado para outro:
   

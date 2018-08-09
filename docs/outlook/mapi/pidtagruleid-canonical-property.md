@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagRuleId
+title: Propriedade canônica PidTagRuleId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 52a6132dcd6aa2c3a2951f3d1a6458808364dccb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769895"
 ---
-# <a name="pidtagruleid-canonical-property"></a>Propriedade canônico de PidTagRuleId
+# <a name="pidtagruleid-canonical-property"></a>Propriedade canônica PidTagRuleId
 
   
   
@@ -34,7 +34,7 @@ Especifica um identificador exclusivo que do servidor de mensagens gera para cad
 |Tipo de dados:  <br/> |PT_I8  <br/> |
 |Área:  <br/> |Regras do lado servidor  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente não deve especificar essa propriedade ao criar uma nova regra, mas deve especificá-lo quando modificar ou excluir uma regra.
   
@@ -66,18 +66,18 @@ Mapitags.h
 
 
 
-[Propriedade canônico de PidTagRuleCondition](pidtagrulecondition-canonical-property.md)
+[Propriedade canônica PidTagRuleCondition](pidtagrulecondition-canonical-property.md)
   
-[Propriedade canônico de PidTagRuleActions](pidtagruleactions-canonical-property.md)
+[Propriedade canônica PidTagRuleActions](pidtagruleactions-canonical-property.md)
   
-[Propriedade canônico de PidTagRuleProvider](pidtagruleprovider-canonical-property.md)
+[Propriedade canônica PidTagRuleProvider](pidtagruleprovider-canonical-property.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

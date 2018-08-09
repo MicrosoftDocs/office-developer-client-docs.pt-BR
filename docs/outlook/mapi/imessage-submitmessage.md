@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1d325c67c836e727d8285bd2dceecf88bf68327c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -53,7 +53,7 @@ MAPI_E_NO_RECIPIENTS
   
 > Tabela de destinatário da mensagem está vazia.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::SubmitMessage** marca uma mensagem como pronto para ser transmitidos. MAPI passa mensagens para o sistema de mensagens subjacente na ordem em que estão marcados para envio. Devido a essa funcionalidade, uma mensagem pode ficar em um armazenamento de mensagens, por algum tempo antes que o sistema de mensagens subjacente pode assumir a responsabilidade para ele. A ordem de recebimento no destino está no controle do sistema de mensagens subjacentes e não necessariamente correspondem a ordem na qual as mensagens foram enviadas. 
   
@@ -81,7 +81,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e o provedor de catálogo de endereços não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e o provedor de catálogo de endereços suporta somente Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário implementar o método **IPersistMessage::GetLastError** para fornecer informações sobre uma chamada de método anterior que falharam. Visualizadores de formulário podem fornecer seus usuários com informações detalhadas sobre o erro, incluindo os dados da estrutura de [MAPIERROR](mapierror.md) em uma caixa de diálogo. 
   
@@ -83,5 +83,5 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

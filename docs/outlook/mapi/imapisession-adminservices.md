@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 850d4d952102e11d11234fa3184b88e280a98c21
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -66,11 +66,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   
 [IProfAdmin::AdminServices](iprofadmin-adminservices.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

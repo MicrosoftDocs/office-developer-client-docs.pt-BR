@@ -24,7 +24,7 @@ A chave de conversa de email de 3.1 de grupos de trabalho do Windows é uma cade
 > [!NOTE]
 > As propriedades correspondentes no MAPI para que esses atributos TNEF são mapeados, PR_CONVERSATION_KEY e PR_PARENT_KEY, foram preteridos no Microsoft Exchange Server: uso de **PR_CONVERSATION_KEY**, o [PidTagConversationKey canônico Propriedade](pidtagconversationkey-canonical-property.md), persistir somente no Outlook para localizar **IPM. MessageManager** mensagens. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade **PR_CONVERSATION_KEY** é o contrário obsoleto precursor do **PR_CONVERSATION_INDEX**, [Propriedade canônico PidTagConversationIndex](pidtagconversationindex-canonical-property.md) e **PR_CONVERSATION_TOPIC**, [Mapipidtagconversationtopic canônico Propriedade](pidtagconversationtopic-canonical-property.md), que deve ser usado em vez disso.
   

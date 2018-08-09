@@ -18,16 +18,16 @@ ms.locfileid: "19765806"
 
 Esta seção descreve as APIs de quatro na referência de auxiliar do Outlook 2013 e fornece as tarefas de amostra que usam essas APIs.
 
-- [Gerenciamento de conta do Outlook](outlook-account-management.md)
+- [Gerenciamento de contas do Outlook](outlook-account-management.md)
     
 - [Sobre a camada de redução de dados API](about-the-data-degradation-layer-api.md)
     
-- [Sobre APIs exportado pelo Outlook](about-apis-exported-by-outlook.md)
+- [Sobre APIs exportadas pelo Outlook](about-apis-exported-by-outlook.md)
     
 - [Configuração do Outlook](outlook-configuration.md)
     
-- [Compromissos e calendários do outlook](outlook-calendars-and-appointments.md)
+- [Compromissos e calendários do Outlook](outlook-calendars-and-appointments.md)
     
-- [Tarefas de amostra](sample-tasks.md)
+- [Tarefas de exemplo](sample-tasks.md)
     
 

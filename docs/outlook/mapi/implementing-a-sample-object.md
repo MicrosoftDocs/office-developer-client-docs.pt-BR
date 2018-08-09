@@ -115,6 +115,6 @@ lpMyObj->lpVtbl = &vtblADVISE;
 
 ## <a name="see-also"></a>Confira também
 
-- [Vis�o geral da propriedade MAPI](mapi-property-overview.md)
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Visão geral da propriedade MAPI](mapi-property-overview.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

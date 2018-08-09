@@ -1,5 +1,5 @@
 ---
-title: Sobre a API de livre/ocupado
+title: Sobre a API do serviço de disponibilidade
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765792"
 ---
-# <a name="about-the-freebusy-api"></a>Sobre a API de livre/ocupado
+# <a name="about-the-freebusy-api"></a>Sobre a API do serviço de disponibilidade
 
 A API de Free/Busy permite que os provedores de email fornecer informações de status livre/ocupado para contas de usuário especificado dentro de um intervalo de tempo especificado. O status livre/ocupado de um bloco de horário no calendário do usuário é um dos seguintes: fora do escritório, ocupado, provisório ou livre.
   

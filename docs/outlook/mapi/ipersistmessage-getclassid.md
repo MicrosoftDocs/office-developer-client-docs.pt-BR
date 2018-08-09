@@ -33,7 +33,7 @@ HRESULT GetClassID(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpClassID_
   
@@ -45,7 +45,7 @@ S_OK
   
 > O identificador de classe foi retornado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IPersistMessge::GetClassID** define o conteúdo do parâmetro _lpClassID_ como identificador de classe do servidor formulário e retorna S_OK. Quando um visualizador de formulário chama **GetClassID** e ela retorna com êxito, o formulário é colocado no estado [não inicializado](uninitialized-state.md) . 
   
@@ -55,5 +55,5 @@ Para obter mais informações sobre como os identificadores de classe são usado
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

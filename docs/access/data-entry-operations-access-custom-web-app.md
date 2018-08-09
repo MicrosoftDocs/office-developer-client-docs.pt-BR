@@ -16,9 +16,9 @@ ms.locfileid: "19765041"
 # <a name="data-entry-operations-access-custom-web-app"></a>Operações de entrada de dados (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Ação de Macro ExcluirRegistro (aplicativo da web personalizado do Access)](deleterecord-macro-action-access-custom-web-app.md)
     

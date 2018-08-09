@@ -8,7 +8,7 @@ keywords:
 - memória XLOPER12 [excel 2007], gerenciar memória no Excel, do Excel pilha, cadeias de caracteres [Excel 2007], gerenciamento de memória, gerenciamento de memória no Excel, memória XLOPER [Excel 2007], memória [Excel 2007], diretrizes de gerenciamento
 localization_priority: Normal
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 97c76d762fdc5e575c571804816e5581a7bec8bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -120,7 +120,7 @@ A função **xlFree** é totalmente documentada na seção de referência de fun
 
 Suponha que você queria modificar o comando de exemplo na seção anterior e alterá-la para uma função de planilha que retorna o caminho e nome da DLL quando passado um argumento **booleano** de **true** e **# N/d** caso contrário. Sem dúvida, você não pode chamar **xlFree** para liberar memória a cadeia de caracteres antes de retorná-la para o Excel. No entanto, se ela não é liberada em algum momento, o suplemento será vazamento de memória sempre que a função for chamada. Para contornar esse problema, você pode definir um pouco no campo **xltype** da **XLOPER**/ **XLOPER12**, definido como **xlbitXLFree** no xlcall. h. Essa configuração informa ao Excel que ele deve liberar a memória retornada quando ele tiver terminado, copiando o valor. 
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 O exemplo de código a seguir mostra o comando XLL na seção anterior convertida em uma função de planilha XLL.
   
@@ -444,9 +444,9 @@ Se você estiver preocupado ou apenas curioso, ou você deseja eliminar falta de
 
 
 
-[Recálculo multithreaded no Excel](multithreaded-recalculation-in-excel.md)
+[Recálculo do vários threads no Excel](multithreaded-recalculation-in-excel.md)
   
-[Multithreading e contenção de memória no Excel](multithreading-and-memory-contention-in-excel.md)
+[Vários threads e contenção da memória no Excel](multithreading-and-memory-contention-in-excel.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

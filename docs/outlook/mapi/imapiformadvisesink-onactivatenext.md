@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OnActivateNext(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszMessageClass_
   
@@ -64,7 +64,7 @@ S_FALSE
   
 > O formulário não processa a classe de mensagem da próxima mensagem.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormAdviseSink::OnActivateNext** para ajudar a determinar se ele pode exibir a próxima mensagem em uma pasta de formulário. A próxima mensagem poderia ser uma mensagem de qualquer classe, mas geralmente é da mesma classe ou uma classe relacionada. Isso faz com que o processo de leitura várias mensagens da mesma classe mais eficiente, permitindo que aplicativos de cliente reutilizar os objetos de formulário sempre que possível. 
   
@@ -98,15 +98,15 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
   
 [IPersistMessage::Load](ipersistmessage-load.md)
   
-[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)
+[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

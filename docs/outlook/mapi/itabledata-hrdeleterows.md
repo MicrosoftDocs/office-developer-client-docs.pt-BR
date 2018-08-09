@@ -35,7 +35,7 @@ HRESULT HrDeleteRows(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ S_OK
   
 > As linhas de tabela foram excluídas com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrDeleteRows** localiza e remove as linhas de tabela que contêm as colunas que coincidem com a propriedade apontada para pelo membro de cada entrada de **aRow** na linha **lpProps** definir. Uma coluna de índice é usada para identificar cada linha; Essa coluna deve ter a mesma marca de propriedade, como a marca de propriedade passada no parâmetro _ulPropTagIndexColumn_ na chamada para a função [CreateTable](createtable.md) . 
   
@@ -83,5 +83,5 @@ A exclusão de linhas não reduz as colunas disponíveis para modos de exibiçã
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

@@ -34,7 +34,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pwszFileName_
   
@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [Constantes MAPI](mapi-constants.md)
   
-[Verifique se que um anexo estiver bloqueado](how-to-verify-an-attachment-is-blocked.md)
+[Verificar se um anexo foi bloqueado](how-to-verify-an-attachment-is-blocked.md)
 

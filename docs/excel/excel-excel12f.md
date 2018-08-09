@@ -10,7 +10,7 @@ keywords:
 - função do Excel [excel 2007], função Excel12f [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 56034984852713496465c3d1f79a9989fc47df1c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ int Excel12f(int iFunction, LPXLOPER12 pxRes, int iCount,
 LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _iFunction_ (**int**)
   
@@ -55,7 +55,7 @@ Os argumentos opcionais para a função. Todos os argumentos devem ser ponteiros
 
 Ambas as funções retornam o mesmo erro e códigos de sucesso como **Excel4**, **Excel4v**, **Excel12**e **Excel12v**. Consulte [Excel4/Excel12](excel4-excel12.md) para obter uma descrição completa desses códigos. Além disso, essas funções de Framework retornam **xlretFailed** sem chamar a API C se um ponteiro NULL a um parâmetro é detectado. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo passa um argumento inválido para a função de **Excel12f** , que envia uma mensagem ao depurador. 
   
@@ -76,5 +76,5 @@ short WINAPI Excel12fExample(void)
 [Excel4/Excel12](excel4-excel12.md)
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

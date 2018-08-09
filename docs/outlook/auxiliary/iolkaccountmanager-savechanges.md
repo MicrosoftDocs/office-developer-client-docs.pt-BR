@@ -29,7 +29,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _dwAcctID_
   
@@ -47,7 +47,7 @@ _dwFlags_
 |E_ACCT_NOT_FOUND  <br/> |A conta especificada não foi encontrada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Após alterar o valor das propriedades de conta usando [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccountManager::SaveChanges** ou [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) salve as alterações. 
   

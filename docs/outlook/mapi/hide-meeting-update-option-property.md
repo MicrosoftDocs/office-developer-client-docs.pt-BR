@@ -1,5 +1,5 @@
 ---
-title: Ocultar a propriedade de opção de atualização de reunião
+title: Ocultar as propriedades de opção de atualização de reuniões
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 25942df6f6156266f16cf6e681270dbb530472e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766699"
 ---
-# <a name="hide-meeting-update-option-property"></a>Ocultar a propriedade de opção de atualização de reunião
+# <a name="hide-meeting-update-option-property"></a>Ocultar as propriedades de opção de atualização de reuniões
 
   
   
@@ -37,7 +37,7 @@ Oculta a opção para enviar atualizações de reunião para apenas os participa
 |Tipo de propriedade:  <br/> |PT_BOOLEAN  <br/> |
 |Tipo de acesso:  <br/> |Leitura/gravação  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fornecer qualquer funcionalidade loja, o provedor de repositório deve implementar [IMAPIProp: IUnknown](imapipropiunknown.md) e retornar uma marca de propriedade válido para qualquer uma dessas propriedades passados para uma chamada [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Quando a marca de propriedade para qualquer uma dessas propriedades é passada para [IMAPIProp::GetProps](imapiprop-getprops.md), o provedor de armazenamento também deve retornar o valor da propriedade correto. Provedores de armazenamento podem chamar [HrGetOneProp](hrgetoneprop.md) e [HrSetOneProp](hrsetoneprop.md) para obter ou definir essas propriedades. 
   

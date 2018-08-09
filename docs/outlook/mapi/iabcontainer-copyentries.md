@@ -36,7 +36,7 @@ HRESULT CopyEntries(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpEntries_
   
@@ -80,7 +80,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A operação de cópia bem-sucedida, mas um ou mais das entradas não pôde ser copiado. Quando este valor é retornado, a chamada deve ser manipulada com êxito. Para testar esse valor, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IABContainer::CopyEntries** copia entradas do mesmo contêiner ou em um contêiner diferente. Uma chamada para **CopyEntries** é funcionalmente equivalente à fazendo as seguintes chamadas para cada entrada a serem copiados: 
   
@@ -120,9 +120,9 @@ Use os sinalizadores CREATE_CHECK_DUP_LOOSE e CREATE_CHECK_DUP_STRICT para indic
   
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 

@@ -34,7 +34,7 @@ HRESULT HrInsertRow(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _uliRow_
   
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > Uma linha que tem o mesmo valor para a coluna de seu índice, como a linha a ser inserido já existe na tabela.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrInsertRow** insere uma linha em uma tabela em uma posição específica. A nova linha é inserida após a linha que está na posição especificada pelo parâmetro _uliRow_ . 
   
@@ -74,5 +74,5 @@ Depois que a linha é inserida, as notificações são enviadas para todos os cl
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

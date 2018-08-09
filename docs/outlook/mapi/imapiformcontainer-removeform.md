@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0d2c908f86ccd66ffd3a2eb2506d129ee2a14d48
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT RemoveForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _szMessageClass_
   
@@ -61,7 +61,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

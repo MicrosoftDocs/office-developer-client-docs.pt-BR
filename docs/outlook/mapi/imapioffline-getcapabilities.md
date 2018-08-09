@@ -33,7 +33,7 @@ HRESULT GetCapabilities(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pulCapablities_
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_CAPABILITY_ONLINE
   
 > O objeto offline é capaz de fornecer notificações online.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente pode consultar em [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obter um ponteiro para uma interface **IMAPIOffline** e chamadas **IMAPIOffline::GetCapabilities** para descobrir os retornos de chamada com suporte pelo objeto. O cliente pode optar por configurar retornos de chamada usando **IMAPIOfflineMgr**.
   
@@ -63,7 +63,7 @@ Observe também que, enquanto um objeto offline pode suportar retornos de chamad
   
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
   
-[IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md)
+[IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
 [Constantes MAPI](mapi-constants.md)

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidHomeAddress
+title: Propriedade canônica PidLidHomeAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 00f40a443d6ab730c8b612fd0fdfd93a1fd5cf52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19768501"
 ---
-# <a name="pidlidhomeaddress-canonical-property"></a>Propriedade canônico de PidLidHomeAddress
+# <a name="pidlidhomeaddress-canonical-property"></a>Propriedade canônica PidLidHomeAddress
 
   
   
@@ -35,7 +35,7 @@ Especifica o endereço completo do endereço residencial do contato.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta propriedade deve ser uma combinação das outras propriedades de endereço físico e baseia-se no idioma do cliente.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

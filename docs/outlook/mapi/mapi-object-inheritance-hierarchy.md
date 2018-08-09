@@ -21,13 +21,13 @@ ms.locfileid: "19767890"
   
 Todas as interfaces implementadas por objetos MAPI basicamente herdem [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), a interface OLE que permite a comunicação entre objetos. A maioria das interfaces herde diretamente **IUnknown**, mas algumas herdarem de uma das duas interfaces de base: [IMAPIProp: IUnknown](imapipropiunknown.md) ou [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). A ilustração a seguir mostra a hierarquia de herança completa em MAPI.
   
-**Hierarquia de herança de MAPI**
+**MAPI inheritance hierarchy**
   
 ![Hierarquia de herança de MAPI] (media/amapi_06.gif "Hierarquia de herança de MAPI")
   
 ## <a name="see-also"></a>Confira também
 
-- [IMAPIProp: IUnknown](imapipropiunknown.md) 
-- [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+- [IMAPIProp : IUnknown](imapipropiunknown.md) 
+- [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 - [Objeto MAPI e visão geral da Interface](mapi-object-and-interface-overview.md)
 

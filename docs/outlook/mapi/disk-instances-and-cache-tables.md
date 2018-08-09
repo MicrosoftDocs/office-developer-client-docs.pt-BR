@@ -1,5 +1,5 @@
 ---
-title: Instâncias de disco e tabelas de Cache
+title: Instâncias de disco e tabelas de cache
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766418"
 ---
-# <a name="disk-instances-and-cache-tables"></a>Instâncias de disco e tabelas de Cache
+# <a name="disk-instances-and-cache-tables"></a>Instâncias de disco e tabelas de cache
 
 **Aplica-se a**: Outlook 
   

@@ -49,7 +49,7 @@ Se estiver planejando lidar com formulários MAPI seu cliente, você usará o Ge
     
 Para acessar o Gerenciador de formulário, chame a função de [MAPIOpenFormMgr](mapiopenformmgr.md) uma vez durante a inicialização. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Implementando uma tela de formulário](implementing-a-form-viewer.md): descreve como implementar um visualizador de formulário usando um modo de exibição de aviso de coletor de eventos, um site de mensagem e um contexto de modo de exibição.
     
@@ -68,5 +68,5 @@ Para acessar o Gerenciador de formulário, chame a função de [MAPIOpenFormMgr]
 ## <a name="see-also"></a>Confira também
 
 - [Formulários MAPI](mapi-forms.md)
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

@@ -28,7 +28,7 @@ Retorna o carimbo da conta da conta que entregar a mensagem.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Soluções gerais de mensagens  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade deve conter o mesmo valor que é retornado da propriedade API de gerenciamento de conta [PROP_ACCT_STAMP](prop_acct_stamp.md) para a conta que entregar a mensagem. 
   
@@ -52,5 +52,5 @@ Para oferecer suporte a essas propriedades nomeadas, provedores de armazenamento
 
 - [Sobre a API de gerenciamento de conta](about-the-account-management-api.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
-- [Propriedade canônico de PidLidInternetAccountStamp](http://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
+- [Propriedade canônica PidLidInternetAccountStamp](http://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
 

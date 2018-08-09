@@ -18,7 +18,7 @@ ms.locfileid: "19765047"
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Função ABS (aplicativo da web personalizado do Access)](abs-function-access-custom-web-app.md)
     
@@ -46,7 +46,7 @@ ms.locfileid: "19765047"
     
 - [Função RAND (aplicativo da web personalizado do Access)](rand-function-access-custom-web-app.md)
     
-- [Função Round (aplicativo da web personalizado do Access)](round-function-access-custom-web-app.md)
+- [Função Round (aplicativo Web personalizado do Access)](round-function-access-custom-web-app.md)
     
 - [Função Sign (aplicativo da web personalizado do Access)](sign-function-access-custom-web-app.md)
     

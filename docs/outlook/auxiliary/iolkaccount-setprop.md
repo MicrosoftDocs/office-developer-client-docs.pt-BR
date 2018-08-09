@@ -29,7 +29,7 @@ HRESULT IOlkAccount::SetProp(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _dwProp_
   
@@ -46,7 +46,7 @@ _pVar_
 |S_OK  <br/> |A chamada do método foi bem-sucedida.  <br/> |
 |E_INVALIDARG  <br/> |Uma marca de propriedade inválido foi especificada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para salvar as alterações para o valor das propriedades de conta. 
   

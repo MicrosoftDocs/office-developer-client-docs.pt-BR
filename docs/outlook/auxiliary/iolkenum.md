@@ -36,7 +36,7 @@ Suporta enumerando contas como objetos [IUnknown](http://msdn.microsoft.com/libr
 |[GetNext](iolkenum-getnext.md) <br/> |Obtém a próxima conta no enumerador.  <br/> |
 |[Ignorar](iolkenum-skip.md) <br/> |Ignora um número especificado de contas do enumerador.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta interface é retornado por **IOlkAccountManager::EnumerateAccounts** ao obter um enumerador de contas. 
   

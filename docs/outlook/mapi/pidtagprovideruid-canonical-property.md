@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagProviderUid
+title: Propriedade canônica PidTagProviderUid
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7a42a3b50cfa5630ac66cb03caac06dd7cb00e6f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769704"
 ---
-# <a name="pidtagprovideruid-canonical-property"></a>Propriedade canônico de PidTagProviderUid
+# <a name="pidtagprovideruid-canonical-property"></a>Propriedade canônica PidTagProviderUid
 
   
   
@@ -34,7 +34,7 @@ Contém uma estrutura **MAPIUID** do provedor de serviços que está tratando a 
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |MAPI comuns  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é computada pelo todos os provedores de serviço. Ele contém uma estrutura [MAPIUID](mapiuid.md) associada e geralmente codificadas, pelo provedor. Normalmente, ele é usado por um aplicativo cliente que está interessado em somente os contêineres de catálogo de endereços fornecidos por um provedor específico. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

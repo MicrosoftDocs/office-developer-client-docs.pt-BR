@@ -36,7 +36,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _cbEntryID_
   
@@ -115,5 +115,5 @@ O parâmetro _lpInterface_ indica qual interface deve ser usada para acessar a e
   
 ## <a name="see-also"></a>Confira também
 
-- [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+- [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

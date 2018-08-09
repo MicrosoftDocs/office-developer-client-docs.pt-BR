@@ -34,7 +34,7 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormFactory::LockServer** para manter um aplicativo de servidor do formulário aberto na memória. Manter o servidor de formulário na memória melhora o seu desempenho quando formulários frequentemente são criados e lançados. 
   
@@ -62,5 +62,5 @@ O método **IMAPIFormFactory::LockServer** é muito semelhante ao método [IClas
 
 
 
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

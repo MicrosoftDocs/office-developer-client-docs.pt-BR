@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1d55f22de88b274d0403f81717d0fddefbea0219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -24,7 +24,7 @@ Chama uma função definida pelo usuário em um ambiente de computação de alto
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _SessionId_
   
@@ -58,11 +58,11 @@ _Parâmetro1_
 
 **xlHpcRetSuccess** se a chamada UDF é iniciada com êxito; **xlHpcRetInvalidSessionId** se o argumento _SessionId_ é inválido; **xlHpcRetCallFailed** em outras falhas, incluindo o tempo limite. Se a chamada retornar qualquer código de erro (nada, exceto **xlHpcRetSuccess**), em seguida, Excel considera que a chamada UDF para ter falhado, invalida o _pxAsyncHandle_e não esperar que ocorra um retorno de chamada.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta função executa de forma assíncrona.
   
 ## <a name="see-also"></a>Confira também
 
-- [Funções de conector de Cluster do Excel](excel-cluster-connector-functions.md)
+- [Funções de conector de cluster do Excel](excel-cluster-connector-functions.md)
 

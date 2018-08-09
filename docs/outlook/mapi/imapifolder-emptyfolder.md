@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7d8653b8f0cb2196319c4a9c2b4bca89c8be5a24
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -71,7 +71,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A chamada foi bem-sucedida, mas a pasta não foi esvaziada completamente. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::EmptyFolder** exclui todo o conteúdo de uma pasta sem excluir na pasta propriamente dita. 
   
@@ -109,10 +109,10 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+[Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

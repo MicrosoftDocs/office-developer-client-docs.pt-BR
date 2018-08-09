@@ -1,5 +1,5 @@
 ---
-title: Interação dos componentes e provedores MAPI
+title: Interação de provedores e componentes MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767590"
 ---
-# <a name="interaction-of-mapi-providers-and-components"></a>Interação dos componentes e provedores MAPI
+# <a name="interaction-of-mapi-providers-and-components"></a>Interação de provedores e componentes MAPI
 
   
   

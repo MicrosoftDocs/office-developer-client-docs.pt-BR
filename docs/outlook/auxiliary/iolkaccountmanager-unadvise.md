@@ -29,7 +29,7 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _dwCookie_
   

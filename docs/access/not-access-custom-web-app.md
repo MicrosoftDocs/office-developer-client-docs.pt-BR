@@ -19,9 +19,9 @@ ms.locfileid: "19765194"
 Nega uma entrada booleana.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 [ **Não** ]  *BooleanExpression* 
   
@@ -31,11 +31,11 @@ O operador **não** contém os seguintes argumentos.
 |:-----|:-----|
 | *BooleanExpression*  <br/> |Uma expressão de booleana válida.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir mostra os resultados da comparação de TRUE e FALSE valores usando o operador **não** . 
   
-||**Não**|
+||**Not**|
 |:-----|:-----|
 |**TRUE** <br/> |False  <br/> |
 |**FALSE** <br/> |True  <br/> |

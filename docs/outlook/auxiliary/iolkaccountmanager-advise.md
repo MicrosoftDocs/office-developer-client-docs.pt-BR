@@ -29,7 +29,7 @@ HRESULT IOlkAccountManager::Advise (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pNotify_
   

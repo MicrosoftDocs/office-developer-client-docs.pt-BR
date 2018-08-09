@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: df6347298aab5404ec69bd9ac876863e31b741d0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > Um ou ambos os identificadores de entrada especificados como parâmetros não fazem referência a objetos, possivelmente porque esses objetos são atualmente não abertas e não está disponível.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::CompareEntryIDs** compara dois identificadores de entrada que pertencem a um provedor de serviços único para determinar se eles se referem ao mesmo objeto. MAPI extrai a parte do [MAPIUID](mapiuid.md) dos identificadores de entrada para determinar o responsável para os objetos do provedor de serviço e, em seguida, chama o método de **CompareEntryIDs** do seu objeto logon para executar a comparação. 
   
@@ -98,7 +98,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [MAPIUID](mapiuid.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

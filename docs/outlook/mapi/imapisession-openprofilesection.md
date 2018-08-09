@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -80,7 +80,7 @@ E_NOT_FOUND
   
 > A seção de perfil solicitada não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::OpenProfileSection** abre uma seção de perfil ou o objeto que dá suporte à interface **IProfSect** . As seções de perfil são usadas para ler informações do e gravando informações do perfil da sessão. 
   
@@ -98,11 +98,11 @@ Você pode criar uma seção de perfil chamando **OpenProfileSection** com o sin
 
 
 
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIUID](mapiuid.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 

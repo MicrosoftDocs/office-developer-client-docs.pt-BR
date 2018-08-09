@@ -10,7 +10,7 @@ keywords:
 - função debugprintf [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ Essa função não retorna um valor.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpFormat (LPSTR)_
   
@@ -40,7 +40,7 @@ A sequência de formato, que segue a sintaxe e as regras para que usados com a f
   
 Zero ou mais argumentos para coincidir com a cadeia de caracteres de formato.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Essa função imprime uma cadeia de caracteres para mostrar que o controle foi passado para ele. O sinalizador _DEBUG deve ser definido antes de compilar senão essa função não faz nada.
   
@@ -61,5 +61,5 @@ short WINAPI debugPrintfExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

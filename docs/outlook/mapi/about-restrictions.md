@@ -1,5 +1,5 @@
 ---
-title: Sobre as restrições
+title: Sobre restrições
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766099"
 ---
-# <a name="about-restrictions"></a>Sobre as restrições
+# <a name="about-restrictions"></a>Sobre restrições
 
   
   

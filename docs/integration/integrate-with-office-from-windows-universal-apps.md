@@ -1,5 +1,5 @@
 ---
-title: Integração com o Office a partir de aplicativos universais do Windows
+title: Integração com o Office em aplicativos universais do Windows
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765721"
 ---
-# <a name="integrate-with-office-from-windows-universal-apps"></a>Integração com o Office a partir de aplicativos universais do Windows
+# <a name="integrate-with-office-from-windows-universal-apps"></a>Integração com o Office em aplicativos universais do Windows
 
 É possível integrar seus aplicativos de terceiros plataforma Windows app universal com Excel Mobile, Mobile do PowerPoint e Word Mobile. Aplicativos universais integram com o Office apps via Windows [contratos de selecionador de arquivo](https://msdn.microsoft.com/en-us/library/windows/apps/hh465174.aspx), [Propriedades expandido](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh770655.aspx)e [contratos de cache atualizador de arquivo](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
   
@@ -35,11 +35,11 @@ A tabela a seguir descreve as propriedades de seu aplicativo para fornecer ao es
   
 Defina essas propriedades no conjunto de propriedades **System.ExpandoProperties** . 
   
-|**Property**|**Descrição**|**Type**|**Exemplo**|
+|**Propriedade**|**Descrição**|**Type**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|**AppDisplayName** <br/> |Nome do provedor para exibir ao usuário. Aparece em vários locais no Office, como a lista de documentos recentes.  <br/> |Cadeia de caracteres  <br/> |Contoso  <br/> |
+|**AppDisplayName** <br/> |Nome do provedor para exibir ao usuário. Aparece em vários locais no Office, como a lista de documentos recentes.  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |Para licenciamento, indique se o local do documento/é trabalho/comercial ou pessoal/consumidor. Os valores permitidos são 1 (pessoais) e 2 (comercial). Por exemplo, se o arquivo do seu usuário é armazenado em negócios da Contoso, use o valor "2" para a empresa.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Por exemplo, se o arquivo do seu usuário é armazenado em negócios da Contoso, esse arquivo deve marcado 2 para negócios.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Texto legal para declarar que as informações fornecidas são precisas por nossos termos de uso. Esse texto não é exibido ao usuário. É um contrato entre você, o provedor de aplicativo e da Microsoft.  <br/> Veja o seguinte para ver um exemplo.  <br/> | Cadeia de caracteres  <br/> | Eu concordar com os termos localizados em[https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |Texto legal para declarar que as informações fornecidas são precisas por nossos termos de uso. Esse texto não é exibido ao usuário. É um contrato entre você, o provedor de aplicativo e da Microsoft.  <br/> Veja o seguinte para ver um exemplo.  <br/> | String  <br/> | Eu concordar com os termos localizados em[https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 O exemplo de código a seguir mostra como definir essas propriedades.
   
@@ -110,6 +110,6 @@ Para otimizar a consistência de arquivo, por exemplo quando edições conflitan
 ## <a name="see-also"></a>Confira também
 
 - [Integração com o Office](integrate-with-office.md)   
-- [Integração com o Office de clientes de sincronização de Win32](integrate-with-office-from-win32-sync-clients.md)
+- [Integração com o Office em clientes de sincronização do Win32](integrate-with-office-from-win32-sync-clients.md)
     
 

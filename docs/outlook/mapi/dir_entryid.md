@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2af9d529cb92e1040427eba69270908dcf4a5d9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -68,7 +68,7 @@ typedef struct _dir_entryid
   
 > Um GUID que identifica o objeto de logon.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As estruturas **DIR_ENTRYID** e [CONTAB_ENTRYID](contab_entryid.md) são idênticas, exceto para o membro **ulType** . O conteúdo do membro **ulType** determinar qual estrutura é apropriada para os campos restantes. 
   

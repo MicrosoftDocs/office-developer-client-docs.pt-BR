@@ -1,5 +1,5 @@
 ---
-title: Estado de HandsOffAfterSave
+title: Estado HandsOffAfterSave
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4bc4d680903d81b51a39ed39db3861597443d116
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766692"
 ---
-# <a name="handsoffaftersave-state"></a>Estado de HandsOffAfterSave
+# <a name="handsoffaftersave-state"></a>Estado HandsOffAfterSave
 
   
   
@@ -36,5 +36,5 @@ O estado de HandsOffAfterSave faz parte do processo de salvar o conteúdo de um 
 
 
 
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 

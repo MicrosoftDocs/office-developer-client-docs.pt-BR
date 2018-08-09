@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3f13a4d278b85ffae33e8f44f3a15eb499fb11b3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT SetPAB(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O contêiner especificado como o PAB foi estabelecido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes e provedores de serviços de chamar o método de **SetPAB** para designar um contêiner específico como o PAB. O PAB é um contêiner que consiste de entradas copiadas de outros contêineres, bem como novas entradas. 
   
@@ -74,9 +74,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

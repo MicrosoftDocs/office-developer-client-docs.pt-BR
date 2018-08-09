@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7f08528c067f48267ec70016839fd85c6823f657
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767304"
 ---
-# <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage: IUnknown
+# <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
   
   
@@ -30,7 +30,7 @@ Define os métodos usados para gerenciar mensagens seguras.
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Exchsec.h  <br/> |
-|Expostos pelo:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
+|Expostos pelo:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 |Implementada por:  <br/> |O Microsoft Outlook 2010 e o Microsoft Outlook 2013  <br/> |
 |Chamado pelo:  <br/> |Cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
@@ -53,5 +53,5 @@ Define os métodos usados para gerenciar mensagens seguras.
 
 
 
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

@@ -8,7 +8,7 @@ keywords:
 - conceitos de programação, Excel do Excel
 localization_priority: Normal
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9a8598aeaf92a3f6950b6baa809cdcc071516bce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -22,17 +22,17 @@ ms.locfileid: "19765299"
   
 Esta seção fornece informações sobre o Excel comandos e funções, Estados do Excel, planilha e expressão avaliação, active versus planilha atual e referências de planilha.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Comandos, funções e estados do Excel](excel-commands-functions-and-states.md)
+[Estados, funções e comandos do Excel](excel-commands-functions-and-states.md)
   
 > 
     
-[Planilha do Excel e avaliação de expressão](excel-worksheet-and-expression-evaluation.md)
+[Planilha do Excel e avaliação de expressões](excel-worksheet-and-expression-evaluation.md)
   
 > 
     
-[Referências de planilha](worksheet-references.md)
+[Referências da planilha](worksheet-references.md)
   
 > 
     

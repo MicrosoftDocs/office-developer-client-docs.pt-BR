@@ -1,5 +1,5 @@
 ---
-title: Cancelamento de uma notificação
+title: Cancelar uma notificação
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766248"
 ---
-# <a name="canceling-a-notification"></a>Cancelamento de uma notificação
+# <a name="canceling-a-notification"></a>Cancelar uma notificação
 
   
   

@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo um provedor de catálogo de endereços MAPI
+title: Desenvolver um provedor do catálogo de endereços MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766400"
 ---
-# <a name="developing-a-mapi-address-book-provider"></a>Desenvolvendo um provedor de catálogo de endereços MAPI
+# <a name="developing-a-mapi-address-book-provider"></a>Desenvolver um provedor do catálogo de endereços MAPI
 
   
   

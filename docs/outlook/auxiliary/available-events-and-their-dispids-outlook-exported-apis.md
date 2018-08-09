@@ -1,5 +1,5 @@
 ---
-title: Eventos disponíveis e suas dispids (Outlook exportados APIs)
+title: Eventos disponíveis e os dispids (Outlook exportados APIs)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765804"
 ---
-# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Eventos disponíveis e suas dispids (Outlook exportados APIs)
+# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Eventos disponíveis e os dispids (Outlook exportados APIs)
 
 Esta seção descreve os identificadores de expedição para os eventos que disponibiliza Outlook.
   
@@ -29,8 +29,8 @@ Para obter um exemplo de como usar um dispid ouvir e manipular um evento, consul
   
 ## <a name="see-also"></a>Confira também
 
-- [APIs de exportadas do Outlook](outlook-exported-apis.md)
+- [APIs exportadas do Outlook](outlook-exported-apis.md)
 - [Constantes (Outlook exportados APIs)](constants-outlook-exported-apis.md)
-- [Sobre APIs exportado pelo Outlook](about-apis-exported-by-outlook.md)
+- [Sobre APIs exportadas pelo Outlook](about-apis-exported-by-outlook.md)
 - [Implementar o Outlook 2002/XP evento recpetores no .NET 2003 do C++ MFC](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
 

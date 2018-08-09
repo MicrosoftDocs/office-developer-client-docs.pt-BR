@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9be25dc655536ff5d32a635da57c54ebd12fea0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ FILETIME FtAdcFt(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _FT1_
   
@@ -54,7 +54,7 @@ FILETIME FtAdcFt(
 
 A função **FtAdcFt** retorna uma estrutura **FILETIME** que contém a soma dos dois valores inteiros. Os dois parâmetros de entrada permanecem inalterados. Se **pwCarry** for não-nulo, ele contém o resultado deve executar para a soma, 0 ou 1. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **FtAdcFt** é idêntica ao **FtAddFt** quando _pwCarry_ é NULL. Se _pwCarry_ não for nula e pontos como 0, **FtAdcFt** retorna o mesmo valor **FILETIME** que **FtAddFt** retorna. 
   

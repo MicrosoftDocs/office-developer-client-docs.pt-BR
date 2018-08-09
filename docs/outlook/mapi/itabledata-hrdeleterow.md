@@ -33,7 +33,7 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSPropValue_
   
@@ -49,7 +49,7 @@ E_NOT_FOUND
   
 > A propriedade apontada pelo parâmetro _lpSPropValue_ não identifica uma linha da tabela. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrDeleteRow** remove a linha da tabela que contém a coluna que coincida com a propriedade apontada pelo parâmetro _lpSPropValue_ . Os dados para a linha serão excluídos e a linha é removida do open todos os modos de exibição. 
   
@@ -71,5 +71,5 @@ A exclusão de uma linha não reduz o conjunto de colunas que está disponível 
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -58,7 +58,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 **ulCtlType**
   
@@ -168,7 +168,7 @@ DT_SET_IMMEDIATE
   
 > Uma estrutura que contém os dados para o controle e corresponde à propriedade de **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) do controle. Cada tipo de controle tem uma estrutura diferente.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **DTCTL** descreve um controle de qualquer tipo. A maioria dos seus membros é usada para definir as propriedades do controle. 
   

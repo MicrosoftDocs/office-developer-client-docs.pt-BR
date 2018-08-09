@@ -35,7 +35,7 @@ HRESULT COfflineObj::Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -63,7 +63,7 @@ E_NOINTERFACE
   
 > A interface de retorno de chamada especificada em *pAdviseInfo* não é válida. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente obtém um objeto offline que suporta **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto usando **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. O cliente pode determinar o tipo e outros detalhes sobre o retorno de chamada, ele quiser e depois ligue **IMAPIOfflineMgr::Advise** para registrar-se para receber esses retornos de chamada sobre o objeto. 
   

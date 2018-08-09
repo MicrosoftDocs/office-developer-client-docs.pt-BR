@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 03a67371c67d5f0ac346470ec7ab38bb67d5ce2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pstm_
   
@@ -76,7 +76,7 @@ E_INVALIDARG
   
 > Indica que _pstm_ for **nula**, _pmsg_ é **Nulo**ou _ulFlags_ é inválido. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se você especificou **CCSF_USE_RTF** como parte do _ulFlags_ e o armazenamento de mensagens de destino oferece suporte a HTML e RTF, a mensagem MAPI será convertida em HTML ou RTF. Se a mensagem é convertida em RTF, será compactado convertido no novo formato RTF, qualquer HTML será incorporada na sequência de RTF compactada e a cadeia de caracteres será contida a [Propriedade canônico de PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
@@ -93,7 +93,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

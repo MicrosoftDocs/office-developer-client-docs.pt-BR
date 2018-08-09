@@ -33,7 +33,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pmsg_
   
@@ -93,7 +93,7 @@ E_INVALIDARG
   
 > Sinalizadores inválidos foram passados ou *pmsg* ou *pstm* é nulo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Suporte apenas para os tipos de mensagem padrão do Outlook.
   
@@ -110,7 +110,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   
@@ -126,7 +126,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
   
-[Propriedade canônico de PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
+[Propriedade canônica PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
 [Propriedade can�nico de PidLidUseTnef](pidlidusetnef-canonical-property.md)
 

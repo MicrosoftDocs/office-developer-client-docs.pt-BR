@@ -86,5 +86,5 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 ## <a name="see-also"></a>Confira também
 
 - [Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
 

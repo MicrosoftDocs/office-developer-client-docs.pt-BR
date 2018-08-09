@@ -1,5 +1,5 @@
 ---
-title: Implementando uma função de ponto de entrada do endereço livro provedor
+title: Implementar uma função de ponto de entrada do provedor de catálogo de endereços
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767416"
 ---
-# <a name="implementing-an-address-book-provider-entry-point-function"></a>Implementando uma função de ponto de entrada do endereço livro provedor
+# <a name="implementing-an-address-book-provider-entry-point-function"></a>Implementar uma função de ponto de entrada do provedor de catálogo de endereços
 
   
   

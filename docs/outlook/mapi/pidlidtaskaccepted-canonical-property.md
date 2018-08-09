@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidTaskAccepted
+title: Propriedade canônica PidLidTaskAccepted
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e31f893-b639-43da-a535-662153c82d82
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7448768a0a35cbf53b481eab0571b405fead1544
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768688"
 ---
-# <a name="pidlidtaskaccepted-canonical-property"></a>Propriedade canônico de PidLidTaskAccepted
+# <a name="pidlidtaskaccepted-canonical-property"></a>Propriedade canônica PidLidTaskAccepted
 
   
   
@@ -33,9 +33,9 @@ Indica se um destinatário de tarefa respondeu a uma solicitação de tarefa.
 |Propriedade definida:  <br/> |PSETID_Task  <br/> |
 |ID de longo (LID):  <br/> |0x00008108  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente define essa propriedade como FALSE para uma nova tarefa ou o cliente define essa propriedade como TRUE quando uma tarefa é aceita ou rejeitada. Se a propriedade for deixada não definida, um valor FALSE é assumido.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

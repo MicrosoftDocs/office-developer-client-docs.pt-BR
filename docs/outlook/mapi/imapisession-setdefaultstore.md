@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e3c4125bf4fcf1881a0cba9b04a8bb6aa71f527d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT SetDefaultStore(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -75,7 +75,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::SetDefaultStore** estabelece um armazenamento de mensagens como um destes procedimentos: 
   
@@ -117,13 +117,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[Propriedade canônico de PidTagResourceFlags](pidtagresourceflags-canonical-property.md)
+[Propriedade canônica PidTagResourceFlags](pidtagresourceflags-canonical-property.md)
   
-[Propriedade canônico de PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
+[Propriedade canônica PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

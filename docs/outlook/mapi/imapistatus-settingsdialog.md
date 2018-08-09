@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767210"
 ---
-# <a name="imapistatussettingsdialog"></a>IMAPIStatus:: SettingsDialog
+# <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
   
   
@@ -34,7 +34,7 @@ HRESULT SettingsDialog(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > O objeto status não suporta este método, conforme indicado pela ausência do sinalizador STATUS_SETTINGS_DIALOG na propriedade **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIStatus:: SettingsDialog** exibe uma folha de propriedades de configuração. Todos os provedores de serviço devem oferecer suporte para o método **SettingsDialog** , mas ela não é necessária. Provedores de serviço podem implementar suas próprias folhas de propriedade ou use a implementação fornecida no método de [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) de suporte do objeto. **DoConfigPropsheet** constrói uma folha de propriedades de leitura/gravação. 
   
@@ -100,7 +100,7 @@ Como uma interface de usuário é sempre envolvida nesta operação, somente cli
 
 [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)
   
-[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

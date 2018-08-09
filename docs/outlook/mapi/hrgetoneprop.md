@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4dcdce72781669988a0cb15eb9b3a7cd73494bfb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ HrGetOneProp(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _PMP_
   
@@ -61,7 +61,7 @@ E_NOT_FOUND
   
 > A propriedade solicitada não está disponível da interface especificada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao contrário do método [IMAPIProp::GetProps](imapiprop-getprops.md) , a função **HrGetOneProp** nunca retorna qualquer aviso. Porque ele recupera apenas uma propriedade, ele simplesmente for bem-sucedido ou falha. Para recuperar as várias propriedades, **GetProps** é mais rápido. 
   

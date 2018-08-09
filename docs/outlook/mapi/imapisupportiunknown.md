@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767306"
 ---
-# <a name="imapisupport--iunknown"></a>IMAPISupport: IUnknown
+# <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
@@ -42,7 +42,7 @@ Fornece implementações para tarefas que são normalmente executadas por proved
 |:-----|:-----|
 |[GetLastError](imapisupport-getlasterror.md) <br/> |Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de objeto de suporte anteriores.  <br/> |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |Recupera os endereços das MAPI memória alocação e desalocação funções ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md)).  <br/> |
-|[Inscrever-se](imapisupport-subscribe.md) <br/> |Registra um coletor advise para receber notificações por meio de MAPI.  <br/> |
+|[Subscribe](imapisupport-subscribe.md) <br/> |Registra um coletor advise para receber notificações por meio de MAPI.  <br/> |
 |[Cancelar assinatura](imapisupport-unsubscribe.md) <br/> |Cancela a responsabilidade de envio de notificações que anteriormente foi estabelecida com uma chamada para o método **Subscribe** .  <br/> |
 |[Notify](imapisupport-notify.md) <br/> |Envia uma notificação de um evento especificado a uma fonte de advise originalmente registrado para a notificação por meio do método **Subscribe** .  <br/> |
 |[ModifyStatusRow](imapisupport-modifystatusrow.md) <br/> |Modifica a tabela de status, adicionando uma nova linha ou modificando uma linha existente.  <br/> |
@@ -80,7 +80,7 @@ Fornece implementações para tarefas que são normalmente executadas por proved
 |[IStorageFromStream](imapisupport-istoragefromstream.md) <br/> |Implementa um objeto de armazenamento para acessar um stream.  <br/> |
 |[GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) <br/> |Cria um objeto de suporte de serviço de mensagem.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Endereços manuais, repositórios de mensagem, provedores de transporte e mensagem serviços cada têm seus próprios objetos de suporte. Provedores de serviço e serviços de mensagem chame os métodos nos seus objetos de suporte como parte de suas implementações de outros métodos de interface. Cada objeto de suporte de diferentes tem implementações completas dos métodos que se aplicam ao seu chamador; os métodos que não são aplicáveis retornam MAPI_E_NO_SUPPORT. Objetos de suporte do provedor de catálogo de endereços têm implementações para os seguintes métodos:
   
@@ -93,7 +93,7 @@ Endereços manuais, repositórios de mensagem, provedores de transporte e mensag
 |**ModifyStatusRow** <br/> |**NewEntry** <br/> |**NewUID** <br/> |
 |**Notify** <br/> |**OpenAddressBook** <br/> |**OpenEntry** <br/> |
 |**OpenProfileSection** <br/> |**OpenTemplateID** <br/> |**SetProviderUID** <br/> |
-|**Inscrever-se** <br/> |**Cancelar assinatura** <br/> |**WrapStoreEntryID** <br/> |
+|**Subscribe** <br/> |**Cancelar assinatura** <br/> |**WrapStoreEntryID** <br/> |
    
 Objetos de suporte do provedor de repositório de mensagem têm implementações para os seguintes métodos:
   
@@ -108,7 +108,7 @@ Objetos de suporte do provedor de repositório de mensagem têm implementações
 |**NewUID** <br/> |**Notify** <br/> |**OpenAddressBook** <br/> |
 |**OpenEntry** <br/> |**OpenProfileSection** <br/> |**PrepareSubmit** <br/> |
 |**ReadReceipt** <br/> |**SetProviderUID** <br/> |**SpoolerNotify** <br/> |
-|**StoreLogoffTransports** <br/> |**Inscrever-se** <br/> |**Cancelar assinatura** <br/> |
+|**StoreLogoffTransports** <br/> |**Subscribe** <br/> |**Cancelar assinatura** <br/> |
 |**WrapStoreEntryID** <br/> |
    
 Objetos de suporte do provedor de transporte têm implementações para os seguintes métodos:
@@ -121,7 +121,7 @@ Objetos de suporte do provedor de transporte têm implementações para os segui
 |**OpenAddressBook** <br/> |**RegisterPreprocessor** <br/> |**NewUID** <br/> |
 |**Notify** <br/> |**OpenProfileSection** <br/> |**OpenEntry** <br/> |
 |**StatusRecips** <br/> |**SpoolerNotify** <br/> |**SpoolerYield** <br/> |
-|**WrapStoreEntryID** <br/> |**Inscrever-se** <br/> |**Cancelar assinatura** <br/> |
+|**WrapStoreEntryID** <br/> |**Subscribe** <br/> |**Cancelar assinatura** <br/> |
    
 Objetos de suporte de serviço de mensagem têm implementações para os seguintes métodos:
   

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagHobbies
+title: Propriedade canônica PidTagHobbies
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2cc57464-5b33-4b65-a1bf-abd0ccac209f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9e5bae7f6d64c056dccaf7bac571e10d5b874b7c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769302"
 ---
-# <a name="pidtaghobbies-canonical-property"></a>Propriedade canônico de PidTagHobbies
+# <a name="pidtaghobbies-canonical-property"></a>Propriedade canônica PidTagHobbies
 
   
   
@@ -34,7 +34,7 @@ Contém os nomes dos hobbies do usuário mensagens.
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuário de email MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades fornecem identificação e acessar informações sobre um usuário de mensagens e o conteúdo é definido por organização do usuário. 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

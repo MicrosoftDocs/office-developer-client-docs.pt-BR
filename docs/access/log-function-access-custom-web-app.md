@@ -19,9 +19,9 @@ ms.locfileid: "19765046"
 Retorna o logaritmo natural ou o logaritmo de base determinado, da expressão especificada.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Log** (*NumericExpression* , [ *Base* ]) 
   
@@ -32,7 +32,7 @@ A função de **Log** contém os seguintes argumentos.
 | *NumericExpression*  <br/> |O número positivo para o qual você deseja obter o logaritmo.  <br/> |
 | *Base*  <br/> |A base do logaritmo. Se for omitido, a função **Log** retorna o logaritmo natural.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **Log10** é semelhante, mas sempre retorna o logaritmo comum, que significa que o logaritmo de base 10. 
   

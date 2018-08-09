@@ -33,7 +33,7 @@ HRESULT StoreLogoff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -79,7 +79,7 @@ S_OK
   
 > O logoff concluído com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::StoreLogoff** exerce controle sobre a interação da mensagem armazenar e provedores de transporte durante o processo de logoff. Chamar **StoreLogoff** é válida apenas para repositórios de mensagem que estão sendo usados somente pelo chamador. Por exemplo, quando dois clientes estão usando o mesmo armazenamento de mensagens e um deles chama **StoreLogoff**, o armazenamento de mensagens é liberado imediatamente e o controle é retornado para o cliente da chamada.
   
@@ -99,5 +99,5 @@ Se nenhuma chamada foi feita para **StoreLogoff** antes da mensagem contagem de 
   
 [IXPLogon::FlushQueues](ixplogon-flushqueues.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

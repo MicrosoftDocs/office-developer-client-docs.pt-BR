@@ -36,7 +36,7 @@ HRESULT HrGetView(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSSortOrderSet_
   
@@ -60,7 +60,7 @@ S_OK
   
 > O modo de exibição foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ITableData::HrGetView** cria uma exibição somente leitura dos dados na tabela, classificada na ordem apontada pelo parâmetro _lpSSortOrderSet_ . O cursor é colocado no início da primeira linha no modo de exibição. Uma implementação de interface **IMAPITable** para acessar o modo de exibição será retornada. 
   
@@ -74,9 +74,9 @@ Se precisa de um provedor de serviços retornar a um cliente de um modo de exibi
 
 [CALLERRELEASE](callerrelease.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [SSortOrderSet](ssortorderset.md)
   
-[ITableData: IUnknown](itabledataiunknown.md)
+[ITableData : IUnknown](itabledataiunknown.md)
 

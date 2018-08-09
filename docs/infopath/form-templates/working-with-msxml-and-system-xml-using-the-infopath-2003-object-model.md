@@ -1,5 +1,5 @@
 ---
-title: Trabalhando com MSXML e System. XML usando o modelo de objeto do InfoPath 2003
+title: Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765712"
 ---
-# <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Trabalhando com MSXML e System. XML usando o modelo de objeto do InfoPath 2003
+# <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003
 
 Projetos de modelo de formulário que funcionam com o modelo de objeto do InfoPath 2003 usam o Microsoft XML Core Services (MSXML) internamente para trabalhar com o XML. Em código gerenciado, geralmente é mais fácil de usar o suporte a XML fornecido pelo namespace **System. XML** na biblioteca de classes .NET Framework. MSXML e **System. XML** não podem trocar objetos nativamente, portanto, sempre que você precisa passar dados XML entre o InfoPath e outro código gerenciado, os dados XML precisam ser convertido. Você pode trocar dados XML dos objetos **System. XML** com o código de formulário do InfoPath usando as técnicas neste tópico. 
   

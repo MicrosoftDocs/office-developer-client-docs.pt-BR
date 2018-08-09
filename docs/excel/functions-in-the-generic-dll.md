@@ -1,5 +1,5 @@
 ---
-title: Funções na DLL genérico
+title: Funções na DLL genérica
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - dll genérico [excel 2007], funções, funções [Excel 2007], DLL genérico
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765390"
 ---
-# <a name="functions-in-the-generic-dll"></a>Funções na DLL genérico
+# <a name="functions-in-the-generic-dll"></a>Funções na DLL genérica
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -36,7 +36,7 @@ GENERIC.xll também fornece três funções de planilha, Func1, FuncSum e FuncFi
   
 Esse projeto usa a biblioteca de framework (FRMWRK32.lib).
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [DIALOGMsgProc](dialogmsgproc.md)
   
@@ -64,5 +64,5 @@ Esse projeto usa a biblioteca de framework (FRMWRK32.lib).
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

@@ -57,5 +57,5 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ## <a name="see-also"></a>Confira também
 
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
 

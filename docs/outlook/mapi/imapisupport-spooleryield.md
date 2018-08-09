@@ -33,7 +33,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -49,7 +49,7 @@ MAPI_W_CANCEL_MESSAGE
   
 > Instrui o provedor de transporte para interromper a entrega da mensagem para qualquer destinatários que ainda não recebeu-lo.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::SpoolerYield** é implementado para objetos de suporte do provedor de transporte. Provedores de transporte chamarem **SpoolerYield** para permitir que o spooler MAPI realizar qualquer processamento necessário. 
   

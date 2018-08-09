@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  **pwczsProgress**
   
@@ -59,5 +59,5 @@ S_OK
 
 
 
-[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)
+[IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

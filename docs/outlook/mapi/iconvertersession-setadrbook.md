@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e6880a32e30b8f208ce5ba0a2d30e635ff464461
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -32,7 +32,7 @@ HRESULT IConverterSession::SetAdrBook(
 LPADRBOOK pab); 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _PAB_
   
@@ -44,7 +44,7 @@ S_OK
   
 > A chamada de função é bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Convertendo um MAPI mensagem para o fluxo de MIME geralmente não exige o registro em log em um perfil MAPI. Entretanto, a especificação de um catálogo de endereços MAPI para conversão requer logon a um perfil para obter o catálogo de endereços.
   
@@ -61,7 +61,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

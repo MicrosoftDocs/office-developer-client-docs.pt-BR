@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a13d4e54900989c692add85add6853a1b511f448
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -31,9 +31,9 @@ HRESULT IConverterSession:: SetEncoding (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-_ET_
+_et_
   
 > Um valor [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) . Apenas os valores a seguir são suportados: 
     
@@ -49,7 +49,7 @@ E_INVALIDARG
   
 > O tipo de codificação passado era inválido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Chame **SetEncoding** antes de usar [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para executar a conversão. 
   
@@ -66,7 +66,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
    
 ## <a name="see-also"></a>Confira também
 
-- [IConverterSession: IUnknown](iconvertersessioniunknown.md)
+- [IConverterSession : IUnknown](iconvertersessioniunknown.md)
 - [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
 - [IConverterSession::MIMEToMAPI](iconvertersession-mimetomapi.md)
 - [IConverterSession::SetAdrBook](iconvertersession-setadrbook.md)

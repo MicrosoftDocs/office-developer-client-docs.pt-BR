@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2c463252aa029ac4c7cb2fac6e962a5d8af31b97
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppViewContext_
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Não há nenhum contexto de modo de exibição para o formulário.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame **GetViewContext** para obter um ponteiro para o contexto de modo de exibição estabelecido em uma chamada anterior para [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Se nenhuma chamada anterior foi feita para **SetViewContext**, **GetViewContext** define _ppViewContext_ como NULL. 
   
@@ -69,9 +69,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

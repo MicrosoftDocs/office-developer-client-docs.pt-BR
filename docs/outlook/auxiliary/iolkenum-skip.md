@@ -28,7 +28,7 @@ HRESULT IOlkEnum::Skip(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _cSkip_
   

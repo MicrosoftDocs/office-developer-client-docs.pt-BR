@@ -34,7 +34,7 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMessage_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A mensagem foi preparada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::PrepareSubmit** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **PrepareSubmit** em sua implementação do método [IMessage::SubmitMessage](imessage-submitmessage.md) para preparar uma mensagem para o envio para o spooler MAPI. 
   

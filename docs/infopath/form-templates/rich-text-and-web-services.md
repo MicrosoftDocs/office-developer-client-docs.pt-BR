@@ -1,5 +1,5 @@
 ---
-title: Rich Text e serviços da Web
+title: Rich Text e Serviços Web
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765702"
 ---
-# <a name="rich-text-and-web-services"></a>Rich Text e serviços da Web
+# <a name="rich-text-and-web-services"></a>Rich Text e Serviços Web
 
 Microsoft InfoPath suporta vinculando um controle de **Caixa de Rich Text** em um formulário a um elemento XML que é recebido de um serviço da Web e o envio de dados de um controle de caixa de rich text para um elemento XML por meio de um serviço Web. O elemento deve seguir o formato de linguagem de marcação de hipertexto extensível (XHTML). Por exemplo, o esquema de um elemento chamado `MyRichTextElement` que contém o rich text teria a seguinte definição de esquema XML: 
   

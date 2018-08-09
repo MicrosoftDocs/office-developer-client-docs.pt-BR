@@ -41,7 +41,7 @@ HRESULT Details(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulUIParam_
   
@@ -97,7 +97,7 @@ S_OK
   
 > A caixa de diálogo detalhes foi exibida com êxito para a entrada do catálogo de endereços.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::Details** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **detalhes** para exibir uma caixa de diálogo que fornece detalhes sobre uma determinada entrada no catálogo de endereços. Os parâmetros _lpfButtonCallback_, _lpvButtonContext_e _lpszButtonText_ podem ser usados para adicionar um botão de cliente definido para a caixa de diálogo. Quando o botão é clicado, o MAPI chama a função de retorno de chamada apontada pela _lpfButtonCallback_, passando o identificador de entrada do botão e os dados em _lpvButtonContext_. Se um botão extensível não for necessário, _lpszButtonText_ deve ser NULL. 
   

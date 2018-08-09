@@ -8,7 +8,7 @@ keywords:
 - avaliação da expressão [excel 2007], planilhas [Excel 2007], avaliação de nome, avaliando expressões [Excel 2007], avaliando os nomes de planilha [Excel 2007], expressões [Excel 2007], avaliando, nomes [Excel 2007], avaliando, nomeie avaliação [Excel 2007] , cadeias de caracteres [Excel 2007], convertendo em valores, a função de xlfEvaluate [Excel 2007], planilhas [Excel 2007], avaliação de expressão
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9d726d89c859e2f7428b459971d5d13586f144e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -87,7 +87,7 @@ Você também pode usar a função **xlfEvaluate** para recuperar a ID de regist
   
 ## <a name="see-also"></a>Confira também
 
-- [Planilha do Excel e avaliação de expressão](excel-worksheet-and-expression-evaluation.md)
-- [Quebras de autorizações de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
+- [Planilha do Excel e avaliação de expressões](excel-worksheet-and-expression-evaluation.md)
+- [Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
 - [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Repositórios de mensagem de somente leitura
+title: Repositórios de mensagens somente leitura
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770222"
 ---
-# <a name="read-only-message-stores"></a>Repositórios de mensagem de somente leitura
+# <a name="read-only-message-stores"></a>Repositórios de mensagens somente leitura
 
   
   
@@ -53,5 +53,5 @@ O fato de que o seu provedor de armazenamento de mensagens é somente leitura é
 
 
 
-[Desenvolvendo um provedor de armazenamento de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

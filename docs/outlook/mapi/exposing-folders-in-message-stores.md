@@ -1,5 +1,5 @@
 ---
-title: Expondo pastas em repositórios de mensagem
+title: Expor pastas em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766511"
 ---
-# <a name="exposing-folders-in-message-stores"></a>Expondo pastas em repositórios de mensagem
+# <a name="exposing-folders-in-message-stores"></a>Expor pastas em repositórios de mensagens
 
   
   
@@ -43,5 +43,5 @@ Clientes MAPI usam essas pastas para acessar outros objetos folder e objetos de 
 
 
 
-[Implementando pastas em repositórios de mensagem](implementing-folders-in-message-stores.md)
+[Implementar pastas em repositórios de mensagens](implementing-folders-in-message-stores.md)
 

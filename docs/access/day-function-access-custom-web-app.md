@@ -30,7 +30,7 @@ A função **Day** contém os seguintes argumentos.
 |:-----|:-----|
 | *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 **Dia** retorna o mesmo valor que **Datepart** (dia, data). 
   

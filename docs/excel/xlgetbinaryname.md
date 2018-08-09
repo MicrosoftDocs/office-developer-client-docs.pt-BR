@@ -10,7 +10,7 @@ keywords:
 - função xlgetbinaryname [excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d2332967e798b43a350c0733cd7398e2a921add6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Usado para retornar uma alça de dados salvos pela [função xlDefineBinaryName]
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxRes_ (**xltypeBigData** ou **xltypeErr**)
   
@@ -38,12 +38,12 @@ _pxName_ (**xltypeStr**)
   
 Uma cadeia de caracteres especificando o nome dos dados.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O Microsoft Excel possui o identificador de memória retornado em **hdata**. No Windows, o identificador é uma alça de memória global (alocada pela função **GlobalAlloc** ). 
   
 ## <a name="see-also"></a>Confira também
 
 - [xlDefineBinaryName](xldefinebinaryname.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 16dca82b94225afc88bcb6c4e698a50565d6b088
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ FILETIME FtMulDwDw(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _Multiplicand_
   

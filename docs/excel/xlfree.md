@@ -10,7 +10,7 @@ keywords:
 - função xlFree [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2dd61ee5cd0e2e671cc47425689287b8a437732f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,23 +29,23 @@ Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _px_1,..., px_n_
   
 Um ou mais **XLOPER**/ **XLOPER12**s serem liberados. Nas versões do Excel até 2003, o número máximo de ponteiros que podem ser passados é 30. Iniciando no Excel 2007, isso é aumentado para 255.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Essa função não retorna um valor.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você deve liberar cada **XLOPER** que você obtenha um valor de retorno do **Excel4** ou **Excel4v** e cada **XLOPER12** que você obteve como um valor de retorno de **Excel12** ou **Excel12v** se eles são um dos seguintes tipos: xltypeStr ** **, **xltypeMulti**ou **xltypeRef**. É sempre seguro liberar outros tipos, mesmo se eles não usar memória auxiliar, desde que você obteve-los do **Excel4** ou **Excel12**.
   
 Onde você está retornando ao Excel um ponteiro para um **XLOPER**/ **XLOPER12** que ainda contém memória alocada para Excel serem liberados, você deve definir o **xlbitXLFree** para garantir a memória de versões do Excel. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo chama **Obtenha. WORKSPACE(1)** para retornar a plataforma na qual Excel está sendo executado como uma cadeia de caracteres. O código copia isso retornou a cadeia de caracteres em um buffer para uso posterior. O código coloca o buffer de volta à **XLOPER12** para uso posterior com a função do Excel. Finalmente, o código exibirá a cadeia de caracteres em uma caixa de alerta. 
   
@@ -89,5 +89,5 @@ short WINAPI xlFreeExample(void)
 
 ## <a name="see-also"></a>Confira também
 
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

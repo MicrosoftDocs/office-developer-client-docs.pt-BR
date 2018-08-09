@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -45,7 +45,7 @@ HRESULT ABProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hInstance_
   
@@ -97,7 +97,7 @@ MAPI_E_VERSION
   
 > A versão EDA sendo usada pelo MAPI não é compatível com o SPI sendo usado por este provedor.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama a função do ponto de entrada **ABProviderInit** ao inicializar um provedor de catálogo de endereços seguindo um logon do cliente. 
   
@@ -113,7 +113,7 @@ Para obter mais informações sobre como escrever **ABProviderInit**, consulte [
   
 ## <a name="see-also"></a>Confira também
 
-- [IABProvider: IUnknown](iabprovideriunknown.md) 
+- [IABProvider : IUnknown](iabprovideriunknown.md) 
 - [MSProviderInit](msproviderinit.md)
 - [XPProviderInit](xpproviderinit.md)
 

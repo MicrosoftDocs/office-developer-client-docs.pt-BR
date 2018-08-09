@@ -19,7 +19,7 @@ ms.locfileid: "19765213"
 A ação **Gerarerro** exibe uma janela pop-up que contém uma mensagem de erro especificado. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
 > [!OBSERVAçãO] A ação **GerarErro** está disponível somente em Macros de Dados. 

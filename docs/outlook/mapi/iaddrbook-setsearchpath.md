@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ MAPI_E_MISSING_REQUIRED_COLUMN
   
 > Um dos contêineres descritos na estrutura de **SRowSet** não incluiu sua propriedade **PR_ENTRYID** . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e clientes chame o método de **SetSearchPath** para salvar as alterações feitas na ordem de pesquisa do contêiner que é usado para resolver nomes com o método [IAddrBook::ResolveName](iaddrbook-resolvename.md) . O caminho de pesquisa é salvo entre instâncias de uma sessão. 
   
@@ -70,7 +70,7 @@ Clientes e provedores não precisará chamar o método [IMAPIProp::SaveChanges](
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

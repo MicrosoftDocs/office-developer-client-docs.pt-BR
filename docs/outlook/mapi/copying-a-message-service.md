@@ -1,5 +1,5 @@
 ---
-title: Copiar um serviço de mensagem
+title: Copiar um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766300"
 ---
-# <a name="copying-a-message-service"></a>Copiar um serviço de mensagem
+# <a name="copying-a-message-service"></a>Copiar um serviço de mensagens
 
   
   

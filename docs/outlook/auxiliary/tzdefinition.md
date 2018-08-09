@@ -29,7 +29,7 @@ typedef struct {
 } TZDEFINITION;
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 _wFlags_
   
@@ -47,7 +47,7 @@ _rgRules_
   
 > Uma matriz de regras que descrevem quando desloca ocorre.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Deve haver pelo menos uma regra *rgRules* . A primeira regra no *rgRules* é considerado a regra usar até a segunda regra for iniciado, independentemente do *stStart* na primeira regra. 
   

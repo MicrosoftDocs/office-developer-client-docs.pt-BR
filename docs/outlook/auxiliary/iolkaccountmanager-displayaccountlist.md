@@ -34,7 +34,7 @@ HRESULT IOlkAccountManager::DisplayAccountList (
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _hwnd_
   
@@ -77,7 +77,7 @@ _pclsidType_
 |MAPI_E_INVALID_PARAMETER  <br/> |O parâmetro _cCategories_, _rgclsidCategories_ou _pclsidType_ é não-nulos.  <br/> |
 |MAPI_E_USER_CANCEL  <br/> |A caixa de diálogo **Configurações de conta** retornou um erro.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os parâmetros _cCategories_, _rgclsidCategories_e _pclsidType_ não são usados neste momento e devem ser NULL.  _wszTitle_ não é usado e também deve ser NULL. 
   

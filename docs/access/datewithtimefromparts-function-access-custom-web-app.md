@@ -35,7 +35,7 @@ A função **DateWithTimeFromParts** contém os seguintes argumentos.
 | *Minuto*  <br/> |Expressão de inteiro especificando minutos.  <br/> |
 | *Segundo*  <br/> |Expressão de inteiro especificando segundos.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 **DateWithTimeFromParts** retorna um valor de data/hora totalmente inicializado. Se os argumentos não são válidos, um erro será gerado. Se for necessário argumentos forem nulos, Null será retornado. 
   

@@ -31,7 +31,7 @@ O **FIMMÊS** contém os seguintes argumentos.
 | *Date*  <br/> |A data de início em formato de data/hora, ou em uma representação em texto aceitos de uma data.  <br/> |
 | *NumberOfMonth*  <br/> |Um número que representa o número de meses antes ou depois da *Data* .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se *Data* não for uma data válida, **FIMMÊS** retornará um erro. 
   

@@ -33,7 +33,7 @@ HRESULT HandsOffMessage( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -41,7 +41,7 @@ S_OK
   
 > A mensagem foi liberada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Transição de formulários em dois estados HandsOff:
   
@@ -63,8 +63,8 @@ Para obter mais informações sobre os diferentes estados de um formulário, con
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 

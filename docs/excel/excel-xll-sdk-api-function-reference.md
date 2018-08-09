@@ -1,5 +1,5 @@
 ---
-title: Referência de função de API do SDK XLL do Excel
+title: Excel XLL SDK API Function Reference
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2bb0a57ebcae618c8e921135b2bd4c50e8adf751
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765366"
 ---
-# <a name="excel-xll-sdk-api-function-reference"></a>Referência de função de API do SDK XLL do Excel
+# <a name="excel-xll-sdk-api-function-reference"></a>Excel XLL SDK API Function Reference
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -42,25 +42,25 @@ O SDK XLL do Excel 2013 fornece os arquivos de origem e os arquivos de projeto d
     
 - O projeto **genérico** (`SAMPLES\GENERIC\`) contém um projeto que pode ser criado para um XLL, GENERIC.xll. XLL demonstra as várias funções de exemplo e comandos e é um bom ponto de partida para escrever seus próprios XLLs.
     
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+- [Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
   
 - [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
   
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-- [Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+- [Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
   
-- [Funções na DLL genérico](functions-in-the-generic-dll.md)
+- [Funções na DLL genérica](functions-in-the-generic-dll.md)
   
-- [Funções de conector de Cluster do Excel](excel-cluster-connector-functions.md)
+- [Funções de conector de cluster do Excel](excel-cluster-connector-functions.md)
   
 ## <a name="see-also"></a>Confira também
 
-- [Programando com a API C no Excel](programming-with-the-c-api-in-excel.md)
+- [Programar com a API de C no Excel](programming-with-the-c-api-in-excel.md)
   
-- [Developing Excel XLLs](developing-excel-xlls.md)
+- [Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

@@ -36,7 +36,7 @@ HRESULT CreateProfile(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszProfileName_
   
@@ -72,7 +72,7 @@ MAPI_E_NO_ACCESS
   
 > O novo perfil especificado já existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::CreateProfile** cria um novo perfil. 
   
@@ -98,9 +98,9 @@ O parâmetro _lpszPassword_ deve ser NULL ou um ponteiro para uma cadeia de cara
 
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   
-[IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md)
+[IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md)
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

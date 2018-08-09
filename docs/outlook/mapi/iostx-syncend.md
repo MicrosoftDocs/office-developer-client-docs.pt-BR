@@ -31,7 +31,7 @@ Finaliza a sincronização no estado atual e sai desse estado.
 HRESULT SyncEnd();
 ```
 
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente deve chamar **IOSTX::SyncEnd** para cada chamada ao [IOSTX::SyncBeg](iostx-syncbeg.md). A estrutura de dados correspondente contém informações para indicar se o cliente foi concluída com êxito o estado atual para que o Outlook pode limpar o seu estado interno.
   
@@ -51,7 +51,7 @@ O cliente deve chamar **IOSTX::SyncEnd** para cada chamada ao [IOSTX::SyncBeg](i
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

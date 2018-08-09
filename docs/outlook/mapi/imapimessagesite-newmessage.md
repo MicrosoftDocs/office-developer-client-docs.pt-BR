@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7062e0b73d2d70be12fb9cead6813ef9c36fdd43
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT NewMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _fComposeInFolder_
   
@@ -70,7 +70,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIMessageSite::NewMessage** para criar uma nova mensagem. O formulário usa **NewMessage** para fazer uma nova mensagem e o site de mensagem associada a partir de seu modo de exibição. Em seguida, ele pode modificar a nova mensagem. 
   
@@ -90,9 +90,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

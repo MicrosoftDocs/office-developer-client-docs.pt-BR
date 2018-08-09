@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidTaskGlobalId
+title: Propriedade canônica PidLidTaskGlobalId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 33f3b8e7d3d0e0d4461c947aa8e9b3ee66373d2e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768695"
 ---
-# <a name="pidlidtaskglobalid-canonical-property"></a>Propriedade canônico de PidLidTaskGlobalId
+# <a name="pidlidtaskglobalid-canonical-property"></a>Propriedade canônica PidLidTaskGlobalId
 
   
   
@@ -33,9 +33,9 @@ Localiza uma tarefa existente, usando um GUID, no recebimento de uma atualizaç�
 |Propriedade definida:  <br/> |PSETID_Common  <br/> |
 |ID de longo (LID):  <br/> |0x00008519  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é da esquerda não definida para tarefas não atribuídas.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

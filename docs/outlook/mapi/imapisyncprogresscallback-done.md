@@ -34,7 +34,7 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  **hThreadDoneEvent**
   
@@ -54,5 +54,5 @@ S_OK
 
 
 
-[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)
+[IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

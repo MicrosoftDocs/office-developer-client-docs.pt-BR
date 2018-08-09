@@ -37,7 +37,7 @@ HRESULT EmulateSpooler(
   
 >  [in] Defina este parâmetro como True se o armazenamento local deve emular o spooler; configurá-lo como False se não. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um repositório local chama **IPSTX::EmulateSpooler** para agir como um protocolo Gerenciador Outlook, mensagens de spooling na fila de saída para o servidor de back-end (por exemplo, servidor do MSN ou servidor AOL) para processamento. Emula um spooler durante a sincronização, o armazenamento, em seguida, chama esses dois métodos: 
   

@@ -33,7 +33,7 @@ HRESULT NotifyNewMail(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpNotification_
   
@@ -45,7 +45,7 @@ S_OK
   
 > O armazenamento de mensagens foi notificado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::NotifyNewMail** é chamado pelo spooler MAPI para informar o armazenamento de mensagens que uma mensagem está pronta para entrega. 
   
@@ -67,5 +67,5 @@ Não modifique ou liberar a memória para a estrutura de [notificação](notific
   
 [ScCopyNotifications](sccopynotifications.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

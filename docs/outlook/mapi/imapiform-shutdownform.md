@@ -33,7 +33,7 @@ HRESULT ShutdownForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulSaveOptions_
   
@@ -61,7 +61,7 @@ E_UNEXPECTED
   
 > O formulário já foi fechado por uma chamada anterior ao **ShutdownForm**.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método **IMAPIForm::ShutdownForm** para fechar um formulário. 
   
@@ -108,5 +108,5 @@ Quando **ShutdownForm** retorna, independentemente se ele retornará um erro, li
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 

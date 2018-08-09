@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ec85f7bdfc9d2d275bdb5ffe7ba0113ad4a35c3b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Formulários chame o método de **IMAPIMessageSite::SaveMessage** para solicitar que uma mensagem seja salvo. 
   
@@ -59,7 +59,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

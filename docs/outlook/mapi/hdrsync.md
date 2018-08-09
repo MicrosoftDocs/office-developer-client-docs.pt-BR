@@ -36,7 +36,7 @@ struct HDRSYNC
 };
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  _pupmsg_
   

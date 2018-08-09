@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2b7ef789c80f85f3539ec3bbd0caf4a8adc50f3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _SZ_
   
@@ -65,7 +65,7 @@ MAPI_E_INVALID_ENTRYID
   
 > A identificação de entrada era inválida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As funções **HrEntryIDFromSz** e [HrSzFromEntryID](hrszfromentryid.md) fornecem conversão entre a cadeia de caracteres e formatos binários de identificadores de entrada. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ typedef struct _SContentRestriction
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 **ulFuzzyLevel**
   
@@ -69,7 +69,7 @@ typedef struct _SContentRestriction
   
 > Ponteiro para uma estrutura de valor de propriedade que contém o valor de cadeia de caracteres a ser usado como a cadeia de caracteres de pesquisa.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Há duas marcas de propriedade em uma estrutura de **SContentRestriction** : um membro do **ulPropTag** e o outro no membro **ulPropTag** da estrutura **SPropValue** apontado pela **lpProp**. Em ambas as marcas, MAPI exige apenas o campo de tipo de propriedade e ignora o campo do identificador de propriedade. No entanto, os tipos de dois propriedade devem corresponder, caso contrário, o valor de erro MAPI_E_TOO_COMPLEX é retornado quando a restrição é usada em uma chamada para [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md). 
   

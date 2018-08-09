@@ -70,7 +70,7 @@ Tipos de dados:
     
 - **[SKEY](skey.md)**
     
-- **[SINCRONIZAÇÃO](sync.md)**
+- **[SYNC](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

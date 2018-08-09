@@ -1,5 +1,5 @@
 ---
-title: Desenvolvimento de servidores de formulário MAPI
+title: Desenvolver servidores de formulário MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766412"
 ---
-# <a name="developing-mapi-form-servers"></a>Desenvolvimento de servidores de formulário MAPI
+# <a name="developing-mapi-form-servers"></a>Desenvolver servidores de formulário MAPI
 
   
   
@@ -45,5 +45,5 @@ Provavelmente você executará as etapas 1 a 5 simultaneamente em vez de conclu�
 
 
 
-[Conceitos MAPI (em ingl�s)](mapi-concepts.md)
+[Conceitos MAPI](mapi-concepts.md)
 

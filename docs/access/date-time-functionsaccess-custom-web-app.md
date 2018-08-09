@@ -16,7 +16,7 @@ ms.locfileid: "19765049"
 # <a name="datetime-functions-access-custom-web-app"></a>Data/hora funções (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
 
 - [Função DateAdd (aplicativo da web personalizado do Access)](dateadd-function-access-custom-web-app.md)

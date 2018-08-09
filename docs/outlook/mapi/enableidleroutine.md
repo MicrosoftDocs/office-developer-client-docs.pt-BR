@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 00b5c123e588636654fb4287cc7b45500d47d89c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ VOID EnableIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ftg_
   
@@ -58,7 +58,7 @@ Nenhum.
 
 As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função [FNIDLE](fnidle.md) : 
   
-|**Função de rotina ociosa**|**Usage**|
+|**Função de rotina ociosa**|**Uso**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |

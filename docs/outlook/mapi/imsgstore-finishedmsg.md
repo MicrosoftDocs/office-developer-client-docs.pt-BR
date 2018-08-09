@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9da9a13f87eac097fba078da1f1d6c3f78f69c0e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT FinishedMsg(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor de armazenamento de mensagem não suporta o processamento da mensagem enviada. Esse valor de erro será retornado se o chamador não é o spooler MAPI.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::FinishedMsg** realiza processamento em uma mensagem enviada. Esse processamento pode envolver excluindo a mensagem, movê-lo para uma pasta diferente, ou ambas as ações. O tipo de processamento depende se o **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) e as propriedades de **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) estão definidas. 
   
@@ -84,5 +84,5 @@ Depois de executar qualquer ação é apropriada, chame o método de [IMAPISuppo
 
 [IMAPISupport::DoSentMail](imapisupport-dosentmail.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

@@ -1,12 +1,12 @@
 ---
-title: Multithreading e gerenciamento de memória
+title: Vários threads e gerenciamento de memória
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f7e052a-4270-4b83-b1ed-feabf6dbeaa2
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4f5495648c9012b0e028358037090f7e10ef5219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765423"
 ---
-# <a name="multithreading-and-memory-management"></a>Multithreading e gerenciamento de memória
+# <a name="multithreading-and-memory-management"></a>Vários threads e gerenciamento de memória
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -26,13 +26,13 @@ Os tópicos a seguir descrevem como gerenciar memória e threads em XLLs:
   
 - [Gerenciamento de memória no Excel](memory-management-in-excel.md)
     
-- [Multithreading e contenção de memória no Excel](multithreading-and-memory-contention-in-excel.md)
+- [Vários threads e contenção da memória no Excel](multithreading-and-memory-contention-in-excel.md)
     
-- [Recálculo multithreaded no Excel](multithreaded-recalculation-in-excel.md)
+- [Recálculo do vários threads no Excel](multithreaded-recalculation-in-excel.md)
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

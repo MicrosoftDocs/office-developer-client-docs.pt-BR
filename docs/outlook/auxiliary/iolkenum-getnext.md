@@ -29,7 +29,7 @@ HRESULT IOlkEnum:: GetNext(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ppunk_
   
@@ -42,7 +42,7 @@ _ppunk_
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
 |S_FALSE  <br/> |O enumerador atingiu o final.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A interface especificada por *ppunk* herda de **IUnknown**. O cliente pode consultar a esta interface (usando **IUnknown:: QueryInterface**) para obter um ponteiro para uma interface **IOlkAccount** e obter ou definir informações para essa conta. 
   

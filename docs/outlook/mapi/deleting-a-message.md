@@ -1,5 +1,5 @@
 ---
-title: Exclusão de uma mensagem
+title: Excluir uma mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766387"
 ---
-# <a name="deleting-a-message"></a>Exclusão de uma mensagem
+# <a name="deleting-a-message"></a>Excluir uma mensagem
 
   
   

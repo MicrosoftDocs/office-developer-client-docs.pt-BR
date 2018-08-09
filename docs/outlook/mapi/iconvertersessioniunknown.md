@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a89b1a93b2b03f97426a3988739e9b0d8411f113
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766918"
 ---
-# <a name="iconvertersession--iunknown"></a>IConverterSession: IUnknown
+# <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
   
   
@@ -49,7 +49,7 @@ Permite conversões entre os objetos MIME e mensagens MAPI. Isso pode ser útil 
 | *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
 |**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Especifica o que conjunto de um caractere opcional que MAPI conversor de MIME usa ao converter uma mensagem MAPI para um fluxo MIME.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Chame **SetEncoding** antes de usar **MAPIToMIMEStm** para executar a conversão. 
   
@@ -57,7 +57,7 @@ Chame **SetEncoding** antes de usar **MAPIToMIMEStm** para executar a conversão
 
 
 
-[Sobre o API de conversão de MIME MAPI](about-the-mapi-mime-conversion-api.md)
+[Sobre a API de conversão MAPI-MIME](about-the-mapi-mime-conversion-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a693c06d933c7e93d384aac8da8d5311eaf1d9da
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ HRESULT CheckParameters(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _eMethod_
   
@@ -56,7 +56,7 @@ S_OK
   
 > A chamada foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A macro **CheckParameters** foi substituída pela macro [CheckParms](checkparms.md) . **CheckParms** é recomendável em todas as plataformas. 
   

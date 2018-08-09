@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c1da292943d6e4d9625c6ce37019c630471e200b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pMsgClassArray_
   
@@ -59,7 +59,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos cliente chamam o método de **IMAPIFormContainer::ResolveMultipleMessageClasses** para resolver um grupo de classes de mensagens para formulários dentro de um contêiner de formulário. A matriz de objetos de informações de formulário retornado no parâmetro _ppfrminfoarray_ fornece mais acesso a cada uma das propriedades formas a. 
   
@@ -83,7 +83,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

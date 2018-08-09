@@ -19,9 +19,9 @@ ms.locfileid: "19765198"
 Abre o modo de exibição especificado em uma janela pop-up.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **OpenPopup** (*Modo de exibição*, *onde =*, *Ordenar por*) 
   
@@ -31,9 +31,9 @@ A ação **OpenPopup** contém os seguintes argumentos.
 |:-----|:-----|
 | *View*  <br/> |O nome da exibição a ser aberto.  <br/> |
 | *Onde =*  <br/> |Uma cláusula SQL WHERE válida (sem a palavra onde) que restringe os registros no modo de exibição.  <br/> |
-| *Classificado por*  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
+| *Classificado Por*  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A macro atual termina depois que a ação **OpenPopup** é processada. 
   

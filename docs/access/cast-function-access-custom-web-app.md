@@ -27,6 +27,6 @@ Converte uma expressão de um tipo de dados para outro.
 |**Nome do Argumento**|**Descrição**|
 |:-----|:-----|
 | *Expressão*  <br/> |Uma expressão válida.  <br/> |
-| *Tipo de dados*  <br/> |O tipo de dados de destino.  <br/> |
+| *DataType*  <br/> |O tipo de dados de destino.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Expandindo listas de distribuição
+title: Expandir listas de distribuição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766517"
 ---
-# <a name="expanding-distribution-lists"></a>Expandindo listas de distribuição
+# <a name="expanding-distribution-lists"></a>Expandir listas de distribuição
 
   
   

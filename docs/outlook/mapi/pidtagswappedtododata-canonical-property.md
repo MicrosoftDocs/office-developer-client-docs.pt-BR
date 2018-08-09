@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagSwappedToDoData
+title: Propriedade canônica PidTagSwappedToDoData
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dedb60c5356e1dbb6d35f27372a09c152da0fed0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770113"
 ---
-# <a name="pidtagswappedtododata-canonical-property"></a>Propriedade canônico de PidTagSwappedToDoData
+# <a name="pidtagswappedtododata-canonical-property"></a>Propriedade canônica PidTagSwappedToDoData
 
   
   
@@ -34,7 +34,7 @@ Mantém um segundo conjunto de valores de propriedade que não afetam o estado s
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |MAPI não transmittable  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Atuando como o local de armazenamento de sinalizador secundário, se houver suporte para sinalizadores de remetente ou lembretes do remetente, esta estrutura oferece um local na qual armazenar todas as propriedades relacionadas ao protocolo de sinalização informativos suportados no sinalizadores de remetente e todos propriedades relacionadas ao protocolo lembrete configurações que são compatíveis com os lembretes de remetente sem expor o sinalizador de remetente ou informações de lembrete do remetente para os destinatários de uma mensagem.
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a52c0501040d77ddb8172b212bf341a08704dcc3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT SetReadFlags(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _lpMsgList_
   
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A chamada foi bem-sucedida, mas nem todas as mensagens foram processadas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::SetReadFlags** define ou limpa o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** de uma ou mais das mensagens da pasta. Definindo o sinalizador MSGFLAG_READ marca uma mensagem como lida, que não necessariamente indica que o destinatário pretendido realmente leu a mensagem. 
   
@@ -154,9 +154,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 - [ENTRYLIST](entrylist.md) 
 - [IMessage::SetReadFlag](imessage-setreadflag.md)  
-- [Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
-- [Propriedade canônico de PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
-- [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+- [Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
+- [Propriedade canônica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
+- [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 - [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)  
-- [Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+- [Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

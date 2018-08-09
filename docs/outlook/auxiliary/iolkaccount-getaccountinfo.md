@@ -31,7 +31,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pclsidType_
   
@@ -65,7 +65,7 @@ _prgclsidCategory_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Depois que esse método retorna, você deve liberar *prgclsidCategory* usando [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   

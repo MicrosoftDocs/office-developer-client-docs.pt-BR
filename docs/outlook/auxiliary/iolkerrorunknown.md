@@ -31,7 +31,7 @@ Fornece informações adicionais sobre o último erro.
 |:-----|:-----|
 |[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Obtém uma cadeia de caracteres da mensagem de erro especificado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa interface fornece informações adicionais sobre um erro em [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)e [IOlkAccount](iolkaccount.md). Também é a interface de base para **IOlkAccountManager**, **IOlkAccountNotify**e **IOlkAccount**. 
   

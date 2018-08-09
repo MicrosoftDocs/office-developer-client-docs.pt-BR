@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f1a4834fc600cc93eeb7fc96563723326c7f2169
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -31,7 +31,7 @@ HRESULT IConverterSession::SetSaveFormat (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _mstSaveFormat_
   
@@ -57,7 +57,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
    
 ## <a name="see-also"></a>Confira também
 
-- [IConverterSession: IUnknown](iconvertersessioniunknown.md)
+- [IConverterSession : IUnknown](iconvertersessioniunknown.md)
 - [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
 - [IConverterSession::MIMEToMAPI](iconvertersession-mimetomapi.md)
 - [IConverterSession::SetAdrBook](iconvertersession-setadrbook.md)

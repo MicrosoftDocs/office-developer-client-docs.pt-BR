@@ -10,7 +10,7 @@ keywords:
 - função xlStack [excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fcd073f7d2b97e84743d01c498435f186277e345
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,15 +28,15 @@ Verifica a quantidade de espaço deixado na pilha.
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna o número de bytes (**xltypeInt**) restante na pilha.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A quantidade de espaço de pilha disponível das versões recentes estouros de inteiro assinado de 16 bits de **XLOPER**. Isso significa que **xlStack** pode retornar um valor entre-32767 e 32768 quando chamado usando **XLOPER**s e **Excel4** ou **Excel4v**. Para obter o valor correto, nesse caso, você deve converter o valor retornado para um unsigned short.
   
@@ -46,7 +46,7 @@ O Excel tem uma quantidade de espaço limitada na pilha e você deve ter cuidado
   
 Se você achar que você está saturar a pilha, chame essa função com frequência para ver quanto espaço em pilha é da esquerda.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O primeiro exemplo exibe uma mensagem de alerta contendo a quantidade de espaço de pilha deixado e está contido no `\SAMPLES\EXAMPLE\EXAMPLE.C`. O segundo exemplo faz a mesma coisa, trabalhando com **XLOPER**s e não está contido no código de exemplo do SDK.
   
@@ -72,5 +72,5 @@ short int WINAPI xlStackExample_XLOPER(void)
 
 ## <a name="see-also"></a>Confira também
 
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

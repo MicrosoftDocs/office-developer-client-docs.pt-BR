@@ -19,9 +19,9 @@ ms.locfileid: "19765210"
 Retorna um número pseudo-aleatório entre 0 e 1.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Rand** ([ *Propagação* ]) 
   
@@ -31,7 +31,7 @@ A função **Rand** contém os seguintes argumentos.
 |:-----|:-----|
 | *Seed*  <br/> |Uma expressão de inteiro que retornará o valor de propagação. Se *propagar* não for especificado, um valor de propagação é atribuído aleatoriamente.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Chamadas repetitivas da função **Rand** com a mesma propagação retornam os mesmos resultados. 
   

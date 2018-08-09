@@ -1,5 +1,5 @@
 ---
-title: Sobre a API de segurança de anexo
+title: Sobre a API de segurança de anexos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766102"
 ---
-# <a name="about-the-attachment-security-api"></a>Sobre a API de segurança de anexo
+# <a name="about-the-attachment-security-api"></a>Sobre a API de segurança de anexos
 
   
   

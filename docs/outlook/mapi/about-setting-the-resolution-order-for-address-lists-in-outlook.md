@@ -25,7 +25,7 @@ MAPI oferece suporte ao m�todo **[SetSearchPath](iaddrbook-getsearchpath.md)**
   
 A seguir est�o exemplos de c�digo de como especificar um caminho de pesquisa personalizada para listas de endere�os.
   
-- [Definir a ordem de resolução de listas de endereços de forma programática](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
+- [Definir a ordem de resolução de listas de endereços via programação](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
 - [KB 292590: como alterar a ordem de classifica��o do cat�logo de endere�os com SetSearchPath](http://support.microsoft.com/kb/292590)
     

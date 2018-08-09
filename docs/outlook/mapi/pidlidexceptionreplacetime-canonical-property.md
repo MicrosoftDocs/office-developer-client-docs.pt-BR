@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidExceptionReplaceTime
+title: Propriedade canônica PidLidExceptionReplaceTime
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768406"
 ---
-# <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriedade canônico de PidLidExceptionReplaceTime
+# <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriedade canônica PidLidExceptionReplaceTime
 
   
   
@@ -35,7 +35,7 @@ Especifica a data e hora em que o padrão de recorrência que substituirá a exc
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor deve ser especificado no tempo Universal Coordenado (UTC). Essa propriedade permite que o objeto exception anexo a ser localizado para uma determinada instância.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

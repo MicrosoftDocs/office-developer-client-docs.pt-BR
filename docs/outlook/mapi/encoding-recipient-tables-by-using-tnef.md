@@ -1,5 +1,5 @@
 ---
-title: Tabelas de destinatários de codificação usando TNEF
+title: Codificar tabelas de destinatários usando TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766506"
 ---
-# <a name="encoding-recipient-tables-by-using-tnef"></a>Tabelas de destinatários de codificação usando TNEF
+# <a name="encoding-recipient-tables-by-using-tnef"></a>Codificar tabelas de destinatários usando TNEF
 
   
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ccfb503f62ef039700f79cd8852883685f329dfe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ BOOL FPropExists(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pobj_
   
@@ -60,7 +60,7 @@ FALSO
   
 > Não foi encontrada uma correspondência para a marca de propriedade fornecida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a marca de propriedade no parâmetro _ulPropTag_ tiver tipo PT_UNSPECIFIED, a função **FPropExists** procura por uma correspondência com base apenas no identificador de propriedade. Caso contrário, a correspondência diferencia para a marca de propriedade inteira, incluindo o tipo. 
   

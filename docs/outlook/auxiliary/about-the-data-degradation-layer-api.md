@@ -1,5 +1,5 @@
 ---
-title: Sobre a camada de dados degradação API
+title: Sobre a API de camada de degradação de dados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765788"
 ---
-# <a name="about-the-data-degradation-layer-api"></a>Sobre a camada de dados degradação API
+# <a name="about-the-data-degradation-layer-api"></a>Sobre a API de camada de degradação de dados
 
 A API de camada de degradação dados fornece a capacidade para ocultar o formato de caractere nativo subjacentes de um objeto do Outlook, permitindo que um cliente acessar o objeto em um formato de caracteres preferencial e não em formato de caractere nativo do objeto. Ele fornece as definições de constante mostradas na [constantes (camada de dados degradação API)](constants-data-degradation-layer-api.md)e a função [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) que retorna um objeto do Outlook quebrado automaticamente em um formato especificado. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d5d0f465ecdf4865ca86448448c56d54d5df4505
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetSession(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppSession_
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Nenhuma sessão existe para a mensagem atual.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter uma lista das interfaces que estão relacionados aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
   
@@ -65,7 +65,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

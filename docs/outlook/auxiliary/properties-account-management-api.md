@@ -18,7 +18,7 @@ ms.locfileid: "19766101"
 
 Esta seção descreve as propriedades do API de gerenciamento de conta.
   
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |[PidTagNextSendAcct](pidtagnextsendacct.md) <br/> |Este é o carimbo de conta secundária "Enviar" para a mensagem.  <br/> |
 |[PidTagPrimarySendAccount](pidtagprimarysendaccount.md) <br/> |Este é o carimbo de "Enviar" da conta principal para uma mensagem.  <br/> |

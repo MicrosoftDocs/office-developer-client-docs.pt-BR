@@ -1,5 +1,5 @@
 ---
-title: Implementando uma função de ponto de entrada de provedor de serviço
+title: Implementar uma função de ponto de entrada do provedor de serviços
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 632aff9c0f6fc60ee9730b5e43667b5b610ae8df
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767412"
 ---
-# <a name="implementing-a-service-provider-entry-point-function"></a>Implementando uma função de ponto de entrada de provedor de serviço
+# <a name="implementing-a-service-provider-entry-point-function"></a>Implementar uma função de ponto de entrada do provedor de serviços
 
   
   
@@ -53,5 +53,5 @@ Catálogo de endereços, armazenamento de mensagens e provedores de transporte e
 
 
 
-[Iniciando um provedor de serviços](starting-a-service-provider.md)
+[Iniciar um provedor de serviços](starting-a-service-provider.md)
 

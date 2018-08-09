@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagTelecommunicationsDeviceForDeafTelephoneNumber
+title: Propriedade canônica PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa6510e74030407015330ed6f0259d50559c09d1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770121"
 ---
-# <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propriedade canônico de PidTagTelecommunicationsDeviceForDeafTelephoneNumber
+# <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propriedade canônica PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 
   
   
@@ -34,7 +34,7 @@ Contém os dispositivos de telecomunicações de mensagens do usuário para o n�
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuário de email MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades fornecem identificação e acessar informações sobre um usuário de mensagens. O conteúdo é definido pelo usuário mensagens e organização de mensagens do usuário.
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

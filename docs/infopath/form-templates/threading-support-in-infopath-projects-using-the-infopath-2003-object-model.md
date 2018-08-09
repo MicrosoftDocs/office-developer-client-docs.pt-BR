@@ -1,5 +1,5 @@
 ---
-title: Threading suporte em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
+title: Suporte a threading em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765704"
 ---
-# <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Threading suporte em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
+# <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Suporte a threading em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
 
 Os objetos COM acessada por meio de assemblies de interoperabilidade Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll instalados pelo Microsoft InfoPath não oferecem suporte a chamadas feita em vários threads. Isso inclui as interfaces para objetos do Microsoft XML Core Services (MSXML) que devem ser quebradas por namespace **SemiTrust** (a maioria dos quais têm nomes que são prefixados com IXMLDOM) e todas as interfaces expostas pelo o namespace [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) , sendo que nenhum deles são thread-safe. 
   

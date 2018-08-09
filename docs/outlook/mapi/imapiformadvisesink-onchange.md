@@ -33,7 +33,7 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulDir_
   
@@ -73,7 +73,7 @@ S_OK
   
 > A notificação foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método **IMAPIFormAdviseSink::OnChange** para notificar o formulário sobre uma alteração no status do visualizador. Geralmente, a única alteração é a definição ou desmarcar o sinalizador VCSTATUS_NEXT ou VCSTATUS_PREVIOUS com base na presença ou ausência de uma mensagem seguinte ou anterior no visualizador. Da mesma forma, a objeto form, em seguida, habilita ou desabilita quaisquer ações seguinte ou anteriores, que ele oferece suporte. 
   
@@ -89,5 +89,5 @@ A implementação específica desse método depende completamente as especifica�
 
 [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)
   
-[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)
+[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md)
 

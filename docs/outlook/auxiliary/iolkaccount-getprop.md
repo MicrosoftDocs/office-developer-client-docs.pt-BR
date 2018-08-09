@@ -29,7 +29,7 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _dwProp_
   
@@ -47,7 +47,7 @@ _pVar_
 |E_ACCT_NOT_FOUND  <br/> |A propriedade não foi encontrada para a conta de determinado.  <br/> |
 |E_INVALIDARG  <br/> |Uma marca de propriedade inválido foi especificada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Depois que esse método retorna, se o valor da propriedade conta é um tipo binário ou cadeia de caracteres, você deve liberar *pVar* usando [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   

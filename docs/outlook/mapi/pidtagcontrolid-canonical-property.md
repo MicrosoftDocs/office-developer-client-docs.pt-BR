@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagControlId
+title: Propriedade canônica PidTagControlId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 799f83b397cbef9d7dcb6c9a88154b88afe35675
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19769124"
 ---
-# <a name="pidtagcontrolid-canonical-property"></a>Propriedade canônico de PidTagControlId
+# <a name="pidtagcontrolid-canonical-property"></a>Propriedade canônica PidTagControlId
 
   
   
@@ -34,7 +34,7 @@ Contém um identificador exclusivo para um controle usado em uma caixa de diálo
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Tabela de exibição MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade contém um identificador exclusivo para o controle. Esse identificador deve conter uma estrutura [GUID](guid.md) e um valor binário do tipo **LONG**. Todos os controles na caixa de diálogo devem usar o mesmo **GUID** para identificar o provedor de serviço, e cada controle deve usar um único valor **longo** para garantir que os controles não coincidem. 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

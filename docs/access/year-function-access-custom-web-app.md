@@ -31,7 +31,7 @@ A função **Year** contém os seguintes argumentos.
 |:-----|:-----|
 | *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Valores retornados pelas funções **ano**, **mês**e **dia** serão valores gregoriano independente do formato de exibição para o valor de data fornecida. Por exemplo, se o formato de exibição dos usos data fornecida o calendário islâmico, os valores retornados para o **ano**, **mês**e **dia** funções serão ser valores associados à data gregoriano equivalente. 
   

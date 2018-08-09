@@ -1,5 +1,5 @@
 ---
-title: Visão geral da referência do MAPI do Outlook
+title: Visão geral da referência de MAPI do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768192"
 ---
-# <a name="outlook-mapi-reference-overview"></a>Visão geral da referência do MAPI do Outlook
+# <a name="outlook-mapi-reference-overview"></a>Visão geral da referência de MAPI do Outlook
 
 **Aplica-se a**: Outlook 
   
@@ -64,7 +64,7 @@ O restante desta referência é categorizado os três tipos de informações a s
     
 ## <a name="see-also"></a>Confira também
 
-- [Introdu��o � refer�ncia do MAPI do Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+- [Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Amostras MAPI (em ingl�s)](mapi-samples.md)
 - [Conceitos MAPI (em ingl�s)](mapi-concepts.md)
 

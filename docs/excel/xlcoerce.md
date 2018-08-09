@@ -10,7 +10,7 @@ keywords:
 - função xlCoerce [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e0474b81a6d24663fe85303efc8fe2fd62cfdd82
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Converte um tipo de **XLOPER**/ **XLOPER12** para outro ou aparências os valore
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxSource_
   
@@ -38,17 +38,17 @@ A fonte **XLOPER**/ **XLOPER12** que precisa ser convertido.
   
 (Opcional). Uma máscara de bits dos tipos resultantes você está disposto a aceitar. Você deve usar o operador **OR** bit a bit (|) para especificar vários tipos possíveis. Se esse argumento for omitido, o referências a células única são convertidas em um dos tipos de valor **xltypeStr** **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (se a célula referida estiver vazia) e referências aos blocos de células são convertidos **xltypeMulti**. Isso torna **xlCoerce** a maneira mais conveniente para consultar os valores de célula. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna o valor forçado (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**ou **xltypeMulti**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **xlCoerce** não pode converter ou para **xltypeBigData** ou **xltypeFlow**. Passando um tipo **xltypeMissing** ou **xltypeNil** como _pxDestType_ é equivalente a omitir o argumento. Conversão pode falhar em alguns casos. Por exemplo, algumas cadeias de caracteres não podem ser convertidas em números, enquanto outros usuários possam. 
   
 Se uma matriz ou uma referência de célula múltiplos é convertida em um tipo de valor único, o resultado é o valor do elemento superior e esquerdo de célula ou matriz.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O código a seguir pode ser encontrado no `\SAMPLES\EXAMPLE\EXAMPLE.C`. 
   
@@ -77,5 +77,5 @@ short WINAPI xlCoerceExample(short iVal)
 [xlSet](xlset.md)
 
 
-[Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

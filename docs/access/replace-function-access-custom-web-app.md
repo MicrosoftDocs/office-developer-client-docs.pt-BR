@@ -19,15 +19,15 @@ ms.locfileid: "19765220"
 Substitui todas as ocorrências de um valor de cadeia de caracteres especificada por outro valor de cadeia de caracteres.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Substituir** (*TextExpression*, *padrão*, *substituição*) 
   
 A função **Replace** contém os seguintes argumentos. 
   
-|**Nome do argumento**|**Description**|
+|**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |A expressão de cadeia de caracteres a ser pesquisado.  <br/> |
 | *Pattern*  <br/> |A subcadeia de caracteres a ser localizado.  *Padrão* não pode ser uma cadeia de caracteres vazia ("").  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Texto formatado no MAPI
+title: Texto formatado em MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766610"
 ---
-# <a name="formatted-text-in-mapi"></a>Texto formatado no MAPI
+# <a name="formatted-text-in-mapi"></a>Texto formatado em MAPI
 
   
   
@@ -29,27 +29,27 @@ MAPI define essas duas propriedades de texto de mensagem e mecanismos para conve
   
 ### 
 
-[Sincronizar o texto e a formatação](synchronizing-text-and-formatting.md)
+[Sincronizar texto e formatação](synchronizing-text-and-formatting.md)
   
 > Descreve como manter o texto da mensagem RTF sincronizado com a formatação.
     
-[Suporte formatado Text em mensagens de saída: responsabilidades do cliente](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
+[Suporte a texto formatado em mensagens de saída: responsabilidades do cliente](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
   
 > Descreve as responsabilidades do aplicativo cliente para dar suporte a texto formatado em mensagens de saída.
     
-[Suporte formatado Text em mensagens de entrada: responsabilidades do cliente](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
+[Suporte a texto formatado em mensagens de entrada: responsabilidades do cliente](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
   
 > Descreve as responsabilidades do aplicativo cliente para dar suporte a texto formatado em mensagens de entrada.
     
-[Suporte de texto formatado: Responsabilidades do armazenamento de mensagens](supporting-formatted-text-message-store-responsibilities.md)
+[Suporte a texto formatado: responsabilidades do repositório de mensagens](supporting-formatted-text-message-store-responsibilities.md)
   
 > Descreve as responsabilidades do repositório de mensagem para dar suporte a texto formatado.
     
-[Suporte de texto formatado: Processamento de anexos](supporting-formatted-text-rendering-attachments.md)
+[Suporte a texto formatado: anexos de renderização](supporting-formatted-text-rendering-attachments.md)
   
 > Descreve como escolher onde os anexos são processados.
     
-[Suporte de texto formatado: Responsabilidades do Gateway](supporting-formatted-text-gateway-responsibilities.md)
+[Suporte a texto formatado: responsabilidades do gateway](supporting-formatted-text-gateway-responsibilities.md)
   
 > Descreve as responsabilidades do gateway para mensagens de texto formatado de entrada e saída.
     

@@ -30,25 +30,25 @@ A abordagem conceitual inclui os seguintes assuntos:
   
 - [Sobre as configurações do anti-spams](about-anti-spam-settings.md)
     
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)
     
-- [Localizando o histórico de download de mensagens para uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md)
+- [Localizar o histórico de download de mensagens de uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md)
     
-- [Analisar o histórico de download de mensagens para uma conta POP3](parsing-the-message-download-history-for-a-pop3-account.md)
+- [Analisar o histórico de download de mensagens de uma conta POP3](parsing-the-message-download-history-for-a-pop3-account.md)
     
-- [Sobre a resolução de conflito para tipos de item personalizada](about-conflict-resolution-for-custom-item-types.md)
+- [Sobre a resolução de conflitos de tipos de itens personalizados](about-conflict-resolution-for-custom-item-types.md)
     
-- [Sobre a hora da última atualização de um catálogo de Endereços Offline](about-the-last-update-time-of-an-offline-address-book.md)
+- [Sobre o último tempo de atualização de um catálogo de endereços offline](about-the-last-update-time-of-an-offline-address-book.md)
     
 - [Sobre como registrar um novo domínio para configuração automática](about-registering-a-new-domain-for-automatic-configuration.md)
     
-- [Sobre as solicitações de reunião como atualizações informativas e completo](about-meeting-requests-as-informational-updates-and-full-updates.md)
+- [Sobre solicitações de reunião como atualizações informativas e atualizações completas](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
 - [Sobre REBASE de calendários programaticamente para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (Também há um instalador redistribuível para ferramentas de REBASE de calendário de terceiros, que funciona para versões anteriores do Outlook também desde o Outlook 2010. Para baixar o instalador, consulte [Outlook 2010: instalador redistribuível de referência auxiliar e o arquivo de cabeçalho para a alteração da Base de calendários](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
 - [Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 
-## <a name="reference"></a>Refer�ncia
+## <a name="reference"></a>Referência
 
 O conteúdo de referência inclui o seguinte:
   
@@ -60,7 +60,7 @@ O conteúdo de referência inclui o seguinte:
     
 - A [API de Free/Busy](about-the-free-busy-api.md) fornece informações de status livre/ocupado sobre contas de usuários específicos dentro de um intervalo de tempo específico. 
 
-## <a name="sample-tasks"></a>Tarefas de amostra
+## <a name="sample-tasks"></a>Tarefas de exemplo
 
 Tarefas de amostra instruções na referência auxiliar do Outlook incluem o seguinte:
     
@@ -70,11 +70,11 @@ Tarefas de amostra instruções na referência auxiliar do Outlook incluem o seg
     
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
     
 - [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-- [Use o tempo relativo para acessar dados do tipo disponível/ocupado](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Usar o tempo relativo para acessar dados de disponibilidade](how-to-use-relative-time-to-access-free-busy-data.md)
     
 A referência para a API de cada lista de constantes, definições de tipo e interfaces que um desenvolvedor deve implementar para usar a funcionalidade adicional.
   

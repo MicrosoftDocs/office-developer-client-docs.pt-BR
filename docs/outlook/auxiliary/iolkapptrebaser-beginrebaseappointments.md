@@ -30,7 +30,7 @@ HRESULT BeginRebaseAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pRows_
   
@@ -52,7 +52,7 @@ _ppContext_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta tarefa é executada em um novo segmento.
   

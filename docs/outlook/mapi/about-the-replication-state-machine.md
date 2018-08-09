@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -48,15 +48,15 @@ Um cliente chama **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](iost
 |:-----|:-----|:-----|:-----|
 |**Estado** <br/> |**Dados replicados** <br/> |**Identificador de controle de sessão** <br/> |**Estrutura de dados** <br/> |
 |[Estado ocioso](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
-|[Sincronizar o estado](synchronize-state.md) <br/> |Pastas ou itens  <br/> |**LR_SYNC** <br/> |**[SINCRONIZAÇÃO](sync.md)** <br/> |
-|[Carregar o estado de hierarquia](upload-hierarchy-state.md) <br/> |Pastas  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
-|[Carregar o estado de pasta](upload-folder-state.md) <br/> |Pasta  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
+|[Sincronizar o estado](synchronize-state.md) <br/> |Pastas ou itens  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
+|[Carregar o estado de hierarquia](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[Carregar o estado de pasta](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Sincronizar o estado de conteúdo](synchronize-contents-state.md) <br/> |Items  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[Carregar o estado da tabela](upload-table-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[Carregar o estado da mensagem](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[Carregar o estado de leitura de status](upload-read-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
 |[Carregar excluir o estado de status](upload-delete-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
-|[Baixe o estado de hierarquia](download-hierarchy-state.md) <br/> |Pastas  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
+|[Baixe o estado de hierarquia](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[Baixe o estado da tabela](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Baixe o estado do cabeçalho da mensagem](download-message-header-state.md) <br/> |Cabeçalho da mensagem  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    

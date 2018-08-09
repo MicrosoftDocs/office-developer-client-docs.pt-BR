@@ -67,7 +67,7 @@ Suporte a obtenção e definição de propriedades e outras informações sobre 
 |[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Obtém ou define a identificação de entrada do catálogo de endereços para a conta.  <br/> |
 |[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Representa as configurações de transporte que o Microsoft Outlook usa para determinar as tarefas necessárias de sincronização e desabilitar os elementos de interface (UI) do usuário que a conta não oferece suporte.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta interface é retornado por **IOlkAccountManager::FindAccount** ao pesquisar uma conta que oferece suporte a **IOlkAccount** e **IOlkEnum::GetNext** quando Obtendo a próxima conta em um enumerador. 
   

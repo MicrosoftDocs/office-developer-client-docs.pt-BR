@@ -16,7 +16,7 @@ ms.locfileid: "19765026"
 # <a name="deleterecord-macro-action-access-custom-web-app"></a>Ação de Macro ExcluirRegistro (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 Você pode usar a ação **ExcluirRegistro** para excluir um registro. 
   

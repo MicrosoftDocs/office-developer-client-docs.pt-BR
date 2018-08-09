@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e2871f5804cda172328fbd3ebdc43f860de939ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ AbortSubmit(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -63,7 +63,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 > A mensagem identificada pela _lpEntryID_ está bloqueada pelo spooler MAPI e a operação não pode ser interrompida. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::AbortSubmit** tenta remover uma mensagem enviada de fila de saída do armazenamento de mensagens. 
   
@@ -85,7 +85,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -33,7 +33,7 @@ HRESULT Abort( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -45,7 +45,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 > Uma operação assíncrona está em andamento e não pode ser parada ou já foi concluída.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::Abort** interrompe qualquer operação assíncrona que está em andamento. 
   
@@ -63,9 +63,9 @@ Se **Anular** interrompe o processamento de uma chamada para o método [IMAPITab
 
 [IMAPITable::GetStatus](imapitable-getstatus.md)
   
-[IMAPITable:: Restrict](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

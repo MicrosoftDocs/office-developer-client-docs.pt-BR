@@ -30,7 +30,7 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 Sempre E_NOTIMPL, pois este membro é um espaço reservado no [IOlkAccountHelper](iolkaccounthelper.md) e não é suportado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro sempre deve retornar E_NOTIMPL.
   

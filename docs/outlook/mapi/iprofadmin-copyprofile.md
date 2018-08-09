@@ -37,7 +37,7 @@ HRESULTCopyProfile(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszOldProfileName_
   
@@ -85,7 +85,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::CopyProfile** faz uma cópia do perfil apontado pela _lpszOldProfileName_, dando a ele o nome apontada pela _lpszNewProfileName_. Copiar um perfil deixa a cópia com a mesma senha que o original.
   
@@ -103,5 +103,5 @@ Se _lpszOldPassword_ for definido como NULL, o perfil a ser copiado exige uma se
 
 
 
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

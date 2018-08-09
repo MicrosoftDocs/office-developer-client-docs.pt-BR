@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo um aplicativo de cliente MAPI
+title: Desenvolver aplicativos cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766404"
 ---
-# <a name="developing-a-mapi-client-application"></a>Desenvolvendo um aplicativo de cliente MAPI
+# <a name="developing-a-mapi-client-application"></a>Desenvolver aplicativos cliente MAPI
 
   
   

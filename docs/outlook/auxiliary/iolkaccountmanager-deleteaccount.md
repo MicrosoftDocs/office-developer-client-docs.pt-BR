@@ -28,7 +28,7 @@ HRESULT IOlkAccountManager::DeleteAccount (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _dwAcctID_
   

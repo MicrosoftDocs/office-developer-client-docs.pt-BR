@@ -48,8 +48,8 @@ Outlook expõe os seguintes identificadores de expedição (dispids) para que os
    
 ## <a name="see-also"></a>Confira também
 
-- [APIs de exportadas do Outlook](outlook-exported-apis.md)
-- [Sobre APIs exportado pelo Outlook](about-apis-exported-by-outlook.md)
+- [APIs exportadas do Outlook](outlook-exported-apis.md)
+- [Sobre APIs exportadas pelo Outlook](about-apis-exported-by-outlook.md)
 - [Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
 - [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
 - [Eventos disponíveis e os dispids (Outlook exportados APIs)](available-events-and-their-dispids-outlook-exported-apis.md)

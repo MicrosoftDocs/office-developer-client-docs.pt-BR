@@ -19,7 +19,7 @@ ms.locfileid: "19765703"
 
 Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [Sobre o modelo de segurança para modelos de formulário com código](about-the-security-model-for-form-templates-with-code.md)
   

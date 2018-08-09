@@ -1,5 +1,5 @@
 ---
-title: Criando XLLs
+title: Criar XLLs
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - DLLs [excel 2007], ligações para excel, função xlAutoFree [Excel 2007], função xlAutoFree12 [Excel 2007],xlcall32.lib [Excel 2007], função xlAutoRegister [Excel 2007],xlcall.cpp [Excel 2007], xlAutoRemove função [Excel 2007], xlAddInManagerInfo função [Excel 2007], função xlAutoAdd [Excel 2007], função xlAutoOpen [Excel 2007], xlAutoClose função [Excel 2007], DLLs [Excel 2007], transformando em XLLs, XLLs [Excel 2007], ligações para Excel, função xlAutoRegister12 [Excel 2007],xlcall.h [Excel função de xlAddInManagerInfo12 de 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: de347d34768c25adf0d96642b4fade781ae26a9c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765273"
 ---
-# <a name="creating-xlls"></a>Criando XLLs
+# <a name="creating-xlls"></a>Criar XLLs
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -122,9 +122,9 @@ Excel e funções definidas pelo usuário podem ser executados em sistemas opera
 
 
 
-[Funções do Assistente de função ou caixas de diálogo Replace XLL chamada](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

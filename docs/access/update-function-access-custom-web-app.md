@@ -31,7 +31,7 @@ A função de **atualização** contém os seguintes argumentos.
 |:-----|:-----|
 | *Column*  <br/> |O nome do campo para verificar se há uma operação de inserção ou atualização.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função de **atualização** retorna TRUE, independentemente se uma tentativa INSERT ou UPDATE for bem-sucedido. 
   

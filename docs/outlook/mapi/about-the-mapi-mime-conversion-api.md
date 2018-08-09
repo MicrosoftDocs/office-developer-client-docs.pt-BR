@@ -1,5 +1,5 @@
 ---
-title: Sobre o API de conversão de MIME MAPI
+title: Sobre a API de conversão MAPI-MIME
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766100"
 ---
-# <a name="about-the-mapi-mime-conversion-api"></a>Sobre o API de conversão de MIME MAPI
+# <a name="about-the-mapi-mime-conversion-api"></a>Sobre a API de conversão MAPI-MIME
 
   
   

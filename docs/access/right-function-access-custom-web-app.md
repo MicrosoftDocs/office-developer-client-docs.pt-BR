@@ -19,15 +19,15 @@ ms.locfileid: "19765215"
 Retorna a parte direita de uma cadeia de caracteres com o número especificado de caracteres.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **À direita** (*TextExpression*, *comprimento*) 
   
 A função **direita** contém os seguintes argumentos. 
   
-|**Nome do argumento**|**Description**|
+|**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto.  <br/> |
 | *Length*  <br/> |É um inteiro positivo que especifica quantos caracteres do *TextExpression* são retornados.  <br/> |

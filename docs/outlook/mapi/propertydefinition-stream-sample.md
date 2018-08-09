@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -102,7 +102,7 @@ A seguir está uma análise dos dados de amostra para o fluxo de PropertyDefinit
     
 ## <a name="see-also"></a>Confira também
 
-- [Campos e itens do outlook](outlook-items-and-fields.md)
+- [Campos e itens do Outlook](outlook-items-and-fields.md)
 - [Estruturas de fluxo](stream-structures.md)
 - [Estrutura de fluxo de PropertyDefinition](propertydefinition-stream-structure.md)
 - [Estrutura de fluxo de FieldDefinition](fielddefinition-stream-structure.md)

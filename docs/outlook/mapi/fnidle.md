@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bf1a84a1f305580fc9d9085753ab7eb5c62b8aa9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpvContext_
   
@@ -50,7 +50,7 @@ FALSO
   
 > Uma rotina de ociosidade com o protótipo **FNIDLE** deve sempre retornam FALSE. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A funcionalidade específica de rotina ociosa é determinada Implementando o aplicativo cliente ou provedor de serviços. 
   
@@ -60,7 +60,7 @@ O cliente ou o provedor deve chamar a função MAPI [MAPIInitIdle](mapiinitidle.
   
 As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função FNIDLE: 
   
-|**Função de rotina ociosa**|**Usage**|
+|**Função de rotina ociosa**|**Uso**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |

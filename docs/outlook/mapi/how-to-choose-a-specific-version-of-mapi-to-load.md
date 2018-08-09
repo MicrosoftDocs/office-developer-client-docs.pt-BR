@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -57,7 +57,7 @@ Como você pode alterar as [Configurações de registro de Stub Mapi32](http://m
 > [!NOTE]
 > Observe que o cliente de email padrão não pode implementar o MAPI estendido. 
   
-#### <a name="example"></a>Example
+#### <a name="example"></a>Exemplo
 
 Para carregar MAPI conforme implementado pelo Outlook, procure as chaves do registro em `HKLM\Software\Clients\Mail\Microsoft Outlook` e passá-las para **FGetComponentPath**. **FGetComponentPath** retornará o caminho para a implementação do Outlook de MAPI. 
   

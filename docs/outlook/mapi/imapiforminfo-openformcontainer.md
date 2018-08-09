@@ -33,7 +33,7 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppformcontainer_
   
@@ -49,5 +49,5 @@ S_OK
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 

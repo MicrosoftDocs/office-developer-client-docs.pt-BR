@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 694ee8b12b9918502e60c0c6ea92992cc1062945
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -49,7 +49,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método de **IMAPIMessageSite::SubmitMessage** para solicitar que uma mensagem ser colocados na fila de entrega. O site de mensagem deve chamar o método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar a mensagem. A mensagem não precisa tenha sido salva anteriormente, porque **SubmitMessage** deve fazer com que a mensagem a ser salvo se a mensagem tiver sido modificada. Após o retorno de **SubmitMessage**, o formulário deve verificar se há uma mensagem atual e, em seguida, descartar a próprio se não houver nenhum. 
   
@@ -69,7 +69,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

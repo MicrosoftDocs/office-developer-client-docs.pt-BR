@@ -10,7 +10,7 @@ keywords:
 - função xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 815565d886b1aea203f6b3b9774325d6b534abd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Retorna o nome de uma planilha ou folha de macro da sua ID de planilha interna c
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
@@ -38,11 +38,11 @@ Se você estiver passando uma referência externa (**xltypeRef**), ele precisa c
   
 Se você estiver passando uma referência interna (**xltypeSef**), **xlSheetNm** retorna o nome da planilha atual. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna o nome da planilha (**xltypeStr**) no formato `[Book1]Sheet1`.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir exibe o nome da planilha do qual a função foi chamada. A função funciona corretamente somente se chamado a partir de uma folha de macro durante a execução de um comando de macro XLM. Isso acontece porque ele chama **xlcAlert**, que podem ser feito apenas comandos e, em seguida, ele precisa ser chamado a partir de uma planilha em vez de uma caixa de diálogo, menu ou barra de comandos na ordem para **xlfCaller** retornar uma referência. 
   
@@ -63,5 +63,5 @@ short WINAPI xlSheetNmExample(void)
 ## <a name="see-also"></a>Confira também
 
 - [xlSheetId](xlsheetid.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

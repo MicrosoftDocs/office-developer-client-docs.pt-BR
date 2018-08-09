@@ -10,7 +10,7 @@ keywords:
 - função initframework [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2d7e3286d794d6f21da9ef83ca44d18ec242c063
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,15 +28,15 @@ Função da biblioteca de Framework que inicializa a biblioteca de Framework, qu
 short WINAPI InitFramework(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
 ## <a name="return-value"></a>Valor retornado
 
 Essa função não retorna um valor.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa a função **InitFramework** para liberar memória temporária todos. 
   
@@ -54,5 +54,5 @@ short WINAPI InitFrameworkExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

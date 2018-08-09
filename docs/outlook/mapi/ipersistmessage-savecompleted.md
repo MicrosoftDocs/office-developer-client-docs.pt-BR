@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7a82ce9a46017993adfc6c4c755b6c97b847e579
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -31,7 +31,7 @@ HRESULT SaveCompleted(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pMessage_
   
@@ -57,7 +57,7 @@ E_UNEXPECTED
     
    - [NoScribble](noscribble-state.md)
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IPersistMessage::SaveCompleted** é chamado por um visualizador de formulário para notificar o formulário que foram salvos todas as alterações pendentes. **SaveCompleted** deve ser chamado apenas quando o formulário está em um dos seguintes estados: 
   
@@ -89,10 +89,10 @@ Para obter mais informações sobre como salvar objetos de armazenamento, consul
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 
 
 [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)

@@ -49,7 +49,7 @@ E_INVALIDARG
   
 > O número de conexão passado no parâmetro _ulConnection_ não representa um registro válido. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIForm::Unadvise** para cancelar um registro de notificação de que eles estabelecerem primeiramente chamando o método **IMAPIForm::Advise** . 
   
@@ -63,7 +63,7 @@ Descartar o ponteiro que você está mantendo ao modo de exibição do visualiza
 
 [IMAPIForm::Advise](imapiform-advise.md)
   
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 

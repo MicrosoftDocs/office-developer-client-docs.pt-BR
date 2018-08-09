@@ -1,5 +1,5 @@
 ---
-title: Sobre a indexação do repositório baseada em notificação
+title: Sobre a indexação de repositórios baseados em notificação
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766093"
 ---
-# <a name="about-notification-based-store-indexing"></a>Sobre a indexação do repositório baseada em notificação
+# <a name="about-notification-based-store-indexing"></a>Sobre a indexação de repositórios baseados em notificação
 
   
   
@@ -31,7 +31,7 @@ Porque um indexador sempre não pode indexar tudo antes da ocorrência de um des
 
 
 
-[Sobre o API de armazenamento](about-the-store-api.md)
+[Sobre a API de armazenamento](about-the-store-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

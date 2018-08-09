@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 86fe4b0a1a7521c310788505b99f53bc8657de75
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _ERROR_NOTIFICATION
 } ERROR_NOTIFICATION;
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
@@ -68,7 +68,7 @@ MAPI_UNICODE
   
 > Ponteiro para uma estrutura [MAPIERROR](mapierror.md) descrevendo o erro. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **ERROR_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **ERROR_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido para _fnevCriticalError_.
   
@@ -78,9 +78,9 @@ Para obter mais informações sobre a notificação, consulte os tópicos descri
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte de notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método **IMAPISupport** para gerar notificações.  <br/> |
+|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
+|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
+|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método **IMAPISupport** para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

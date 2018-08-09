@@ -26,5 +26,5 @@ A opção de **Suporte à programação do .NET** no programa de instalação do
   
 ## <a name="see-also"></a>Confira também
 
-- [Trabalhando com MSXML e System. XML usando o modelo de objeto do InfoPath 2003](http://msdn.microsoft.com/library/f7a0cac5-26f9-49ed-b52c-0240ef0c9d38%28Office.15%29.aspx)
+- [Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003](http://msdn.microsoft.com/library/f7a0cac5-26f9-49ed-b52c-0240ef0c9d38%28Office.15%29.aspx)
 

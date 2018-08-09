@@ -16,11 +16,11 @@ ms.locfileid: "19765064"
 # <a name="database-objects-access-custom-web-app"></a>Objetos de banco de dados (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Ação de Macro GoToControl (aplicativo da web personalizado do Access)](gotocontrol-macro-action-access-custom-web-app.md)
+- [Ação de macro IrParaControle (aplicativo Web personalizado do Access)](gotocontrol-macro-action-access-custom-web-app.md)
     
 - [Ação de Macro IrParaRegistro (aplicativo da web personalizado do Access)](gotorecord-macro-action-access-custom-web-app.md)
     

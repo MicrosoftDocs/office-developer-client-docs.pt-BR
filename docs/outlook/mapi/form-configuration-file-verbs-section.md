@@ -1,5 +1,5 @@
 ---
-title: Seção de [verbos] do arquivo de configuração de formulário
+title: Seção do arquivo de configuração de formulários [Verbos]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766589"
 ---
-# <a name="form-configuration-file-verbs-section"></a>Seção de [verbos] do arquivo de configuração de formulário
+# <a name="form-configuration-file-verbs-section"></a>Seção do arquivo de configuração de formulários [Verbos]
 
   
   

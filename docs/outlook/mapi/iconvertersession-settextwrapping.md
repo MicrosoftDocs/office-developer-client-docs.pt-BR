@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 81771a263a7496042d4950b465c0d5b03290399b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  *fWrapText* 
   
@@ -63,7 +63,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

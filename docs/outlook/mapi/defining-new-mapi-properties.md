@@ -51,5 +51,5 @@ Use o tipo **PT_BINARY** para indicar uma matriz de bytes contado. Esse tipo de 
 
 
 
-[Vis�o geral da propriedade MAPI](mapi-property-overview.md)
+[Visão geral da propriedade MAPI](mapi-property-overview.md)
 

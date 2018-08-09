@@ -34,7 +34,7 @@ Fornece a funcionalidade de auxiliar na sessão MAPI atual para gerenciar contas
 |[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Abre uma sessão MAPI e mantém uma referência para a sessão para o gerente de conta.  <br/> |
 |[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Libera o objeto de sessão MAPI que foi retornado por [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta interface é passado para [IOlkAccountManager::Init](iolkaccountmanager-init.md) ao inicializar o Gerenciador de conta. 
   

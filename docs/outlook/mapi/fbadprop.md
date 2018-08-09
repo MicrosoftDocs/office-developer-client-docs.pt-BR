@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 39e10e9139036cc86ec93ea24a89b98125ea6e83
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ULONG FBadProp(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpprop_
   
@@ -55,7 +55,7 @@ FALSO
   
 > A propriedade especificada é válida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um provedor de serviços pode chamar a função **FBadProp** por vários motivos, por exemplo, para se preparar para uma chamada ao método [IMAPIProp::SetProps](imapiprop-setprops.md) a definição de uma propriedade. **FBadProp** valida a propriedade especificada, dependendo do tipo de propriedade. Por exemplo, se a propriedade for Boolean, **FBadProp** disponibilizar sures que seu valor é TRUE ou FALSE. Se a propriedade for binária, **FBadProp** verifica o ponteiro e o tamanho e certifica-se de que ele está alocado corretamente. 
   

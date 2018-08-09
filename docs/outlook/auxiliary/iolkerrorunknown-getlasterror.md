@@ -30,7 +30,7 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _RH_
   

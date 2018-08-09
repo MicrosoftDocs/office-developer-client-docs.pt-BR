@@ -35,7 +35,7 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ S_OK
   
 > A lista de destinatários foi preparada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes e provedores de serviços de chamar o método de **PrepareRecips** para fazer o seguinte: 
   
@@ -83,11 +83,11 @@ Para obter informações sobre PT_ERROR, consulte [Tipos de propriedade](propert
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

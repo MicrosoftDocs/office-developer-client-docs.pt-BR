@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 80bba1a5bfcce143fe7566d9ec1343cf56cc924b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766904"
 ---
-# <a name="icontabadmin--iunknown"></a>IContabAdmin: IUnknown
+# <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
   
   
@@ -31,7 +31,7 @@ Remove contate pastas do catálogo de endereços do Microsoft Outlook 2010 e o M
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |cabadmin.h  <br/> |
 |Expostos pelo:  <br/> ||
-|Implementada por:  <br/> |[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
+|Implementada por:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Chamado pelo:  <br/> |CRM  <br/> |
 |Identificador de interface:  <br/> |IID_IContabAdmin  <br/> |
 |Tipo de ponteiro:  <br/> ||

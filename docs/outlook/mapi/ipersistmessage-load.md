@@ -36,7 +36,7 @@ HRESULT Load(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pMessageSite_
   
@@ -60,7 +60,7 @@ S_OK
   
 > O formulário foi carregado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IPersistMessage::Load** para carregar um formulário para uma mensagem existente. 
   
@@ -86,20 +86,20 @@ Se nenhum erro ocorrer, retorne S_OK.
 
 
 
-[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estado não inicializado](uninitialized-state.md)
+[Estado Uninitialized](uninitialized-state.md)
   
-[Estado de HandsOffAfterSave](handsoffaftersave-state.md)
+[Estado HandsOffAfterSave](handsoffaftersave-state.md)
   
-[Estado de HandsOffFromNormal](handsofffromnormal-state.md)
+[Estado HandsOffFromNormal](handsofffromnormal-state.md)
   
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 
 
 [IPersistStorage::Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)

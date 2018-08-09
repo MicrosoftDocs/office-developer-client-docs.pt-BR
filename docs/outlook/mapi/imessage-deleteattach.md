@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 93f264cc91118e40f7a2869d29e7e53d404ae381
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulAttachmentNum_
   
@@ -64,7 +64,7 @@ S_OK
   
 > O anexo foi excluído com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::DeleteAttach** exclui um anexo de dentro de uma mensagem. 
   
@@ -90,7 +90,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

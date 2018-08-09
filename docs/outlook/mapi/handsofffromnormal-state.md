@@ -1,5 +1,5 @@
 ---
-title: Estado de HandsOffFromNormal
+title: Estado HandsOffFromNormal
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d0b7baf4ab17d12145170961a43ca4be252146a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766700"
 ---
-# <a name="handsofffromnormal-state"></a>Estado de HandsOffFromNormal
+# <a name="handsofffromnormal-state"></a>Estado HandsOffFromNormal
 
   
   
@@ -35,5 +35,5 @@ O estado de HandsOffFromNormal é muito similar ao estado [HandsOffAfterSave](ha
 
 
 
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 

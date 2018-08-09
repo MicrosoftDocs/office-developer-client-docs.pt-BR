@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pclsidCategory_
   
@@ -73,7 +73,7 @@ _ppEnum_
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Especificando NULL para categoria retorna um enumerador de todas as contas do tipo especificado. Da mesma forma, especificando NULL para tipo retorna um enumerador de todas as contas da categoria especificada.
   

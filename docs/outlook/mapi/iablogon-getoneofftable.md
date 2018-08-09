@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766837"
 ---
-# <a name="iablogongetoneofftable"></a>IABLogon:: GetOneOffTable
+# <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
@@ -34,7 +34,7 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor de catálogo de endereços não fornecer quaisquer modelos únicos.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **GetOneOffTable** para tornar modelos únicos disponíveis para criar os destinatários. Os destinatários novos são adicionados à lista de destinatários de uma mensagem de saída. Provedores de catálogo de endereços devem oferecer suporte a notificação em seu tabela único para informar MAPI de modificações em modelos. MAPI mantém a tabela único abertas para habilitar a atualização dinâmica. 
   
@@ -80,5 +80,5 @@ Para obter uma lista das colunas na tabela de um provedor catálogo de endereço
   
 [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

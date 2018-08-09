@@ -1,5 +1,5 @@
 ---
-title: Sobre a alteração da base calendários programaticamente para horário de verão
+title: Sobre a alteração programática da base de calendários para o horário de verão
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765787"
 ---
-# <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>Sobre a alteração da base calendários programaticamente para horário de verão
+# <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>Sobre a alteração programática da base de calendários para o horário de verão
 
 Vários países observam o horário de verão (DST) avançando relógios para que as noites tenham mais horário de verão. Normalmente, isso é feito definindo o relógio uma hora com antecedência no primeiro semestre e definindo o relógio uma hora de volta no terceiro trimestre. Neste tópico, esse período entre a mola e queda é conhecido como o período de horário de verão. A maioria dos países têm suas próprias normas para quando o horário de verão começa e termina. As datas do período de horário de verão podem alterar todos os anos, e os usuários devem atualizar seu calendário do Microsoft Outlook toda vez que as normas de horário de verão alterem. 
   
@@ -69,7 +69,7 @@ Para obter o assembly Tzmovelib.dll, baixe o instalador redistribuível de Outlo
 - [Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
 - [Horário de verão Centro de Ajuda e suporte](http://support.microsoft.com/gp/cp_dst)
 - [Como resolver o horário de verão usando a ferramenta de atualização de calendário do Exchange](http://support.microsoft.com/kb/941018)
 - [Como as alterações de fuso horário do endereço, usando a ferramenta de atualização de dados de fuso horário para Microsoft Office Outlook](http://support.microsoft.com/kb/931667)

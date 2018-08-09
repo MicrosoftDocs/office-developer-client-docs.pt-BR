@@ -11,7 +11,7 @@ keywords:
 - função fdialog [excel 2007], função fDialog12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 554b76d2d316110286e83158acfff33aa68e19c1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,15 +29,15 @@ Definido pelo usuário comando de exemplo que demonstra como criar um UDD de Exc
 int WINAPI fDialog(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 A função não assumir nenhum parâmetro.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 A função sempre retornará 1.
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
   
@@ -45,5 +45,5 @@ Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função.
 
 
 
-[Funções na DLL genérico](functions-in-the-generic-dll.md)
+[Funções na DLL genérica](functions-in-the-generic-dll.md)
 

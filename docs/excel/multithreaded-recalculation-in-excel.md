@@ -8,7 +8,7 @@ keywords:
 - células de thread-safe [excel 2007], multithreading no Excel, tarefas simultâneas [Excel 2007], funções thread-safe [Excel 2007], recálculo multithreaded [Excel 2007], MTR [Excel 2007], funções XLL [Excel 2007], registrando como thread-safe, [recálculo Excel 2007], memória multithreaded, contenção [Excel 2007], registrando XLL funciona como thread seguras funções inseguras [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -226,7 +226,7 @@ Para disponibilizar as funções de um XLL dessa maneira, eles, portanto, devem 
 
 - [Recálculo do Excel](excel-recalculation.md)  
 - [Gerenciamento de memória no Excel](memory-management-in-excel.md) 
-- [Acessando código XLL no Excel](accessing-xll-code-in-excel.md)  
+- [Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)  
 - [Excel Programming Concepts](excel-programming-concepts.md)  
 - [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

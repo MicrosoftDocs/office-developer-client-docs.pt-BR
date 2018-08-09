@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidImapDeleted
+title: Propriedade canônica PidLidImapDeleted
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 59c0deefc680bdb5eafca681aedbee7fda29a273
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768494"
 ---
-# <a name="pidlidimapdeleted-canonical-property"></a>Propriedade canônico de PidLidImapDeleted
+# <a name="pidlidimapdeleted-canonical-property"></a>Propriedade canônica PidLidImapDeleted
 
   
   
@@ -35,7 +35,7 @@ Denota itens de Internet Mail Access Protocol (IMAP) que são marcados para excl
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |IMAP  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se definido como um valor diferente de zero, o item foi marcado para exclusão.
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

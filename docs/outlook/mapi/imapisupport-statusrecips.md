@@ -34,7 +34,7 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMessage_
   
@@ -54,7 +54,7 @@ MAPI_W_ERRORS_RETURNED
   
 > Chamada bem-sucedida, mas não existem opções destinatários para esse tipo de destinatário. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::StatusRecips** é implementado para objetos de suporte do provedor de transporte. Provedores de transporte chamarem **StatusRecips** para solicitar que enviam MAPI em um relatório de entrega ou não entrega a um conjunto de um ou mais dos destinatários de uma mensagem. 
   

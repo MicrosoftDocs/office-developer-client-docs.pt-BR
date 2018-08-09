@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e1f12760607c86a9e076df7565696a58fdead32c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767699"
 ---
-# <a name="ipstx6--ipstx5"></a>IPSTX6: IPSTX5
+# <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
   
   

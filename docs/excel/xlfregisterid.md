@@ -10,7 +10,7 @@ keywords:
 - função xlfregisterid [excel 2007]
 localization_priority: Normal
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cd401393b7465442cef9342b942a27456871c68b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Pode ser chamado a partir de uma DLL que o próprio foi chamada pelo Microsoft E
 Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -42,11 +42,11 @@ _pxTypeText_ (**xltypeStr**)
   
 Uma cadeia de caracteres opcional especificando os tipos de todos os argumentos para a função e o tipo do valor de retorno da função. Para obter mais informações, consulte a seção "Comentários". Este argumento pode ser emitido para um autônomo DLL (XLL) definindo **xlAutoRegister**.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna a ID de registro da função (**xltypeNum**), que pode ser usada em chamadas subsequentes para **xlfUnregister**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa função é útil quando você não quiser preocupar mantendo um identificador de registro, mas você precisa de um posteriormente para cancelar o registro. Também é útil para atribuição a botões, ferramentas e menus quando a função que você deseja atribuir estiver em uma DLL.
   
@@ -56,5 +56,5 @@ Onde uma função DLL ou XLL foi registrada com um argumento válido _pxFunction
 
 - [REGISTRAR](xlfregister-form-1.md)
 - [CANCELAR O REGISTRO](xlfunregister-form-1.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

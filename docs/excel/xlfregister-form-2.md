@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (formulário 2)
+title: xlfRegister (Formulário 2)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - função xlfRegister [excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a535018e2b644966d183ba9ae862ce83670c9231
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765465"
 ---
-# <a name="xlfregister-form-2"></a>xlfRegister (formulário 2)
+# <a name="xlfregister-form-2"></a>xlfRegister (Formulário 2)
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -36,13 +36,13 @@ Chamado no formulário 2, essa função pode ser usada apenas para carregar e at
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxModuleText_ (**xltypeStr**)
   
 O nome da DLL seja carregado e ativado.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se tiver êxito, isso retorna o nome da DLL (**xltypeStr**). Caso contrário, ele retornará um #VALUE! erro.
   
@@ -50,5 +50,5 @@ Se tiver êxito, isso retorna o nome da DLL (**xltypeStr**). Caso contrário, el
 
 
 
-[Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+[Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

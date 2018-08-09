@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (formulário 1)
+title: xlfUnregister (Formulário 1)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - função xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6077027a27c054c5a5e65a751373c41a87cb3836
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765473"
 ---
-# <a name="xlfunregister-form-1"></a>xlfUnregister (formulário 1)
+# <a name="xlfunregister-form-1"></a>xlfUnregister (Formulário 1)
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -38,21 +38,21 @@ Chamado no formulário 1, essa função reduz a contagem de uso de uma função 
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxRegisterId_ (**xltypeNum**)
   
 A ID do registro da função a ser cancelado.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se tiver êxito, retornará **TRUE** (**xltypeBool**), caso contrário, ele retornará FALSE.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O registro retornado por **xlfRegister** ID da função quando a função for primeira registrado. Ele também pode ser obtido chamando-se a [função xlfRegisterId](xlfregisterid.md) ou a [função xlfEvaluate](xlfevaluate.md). Observe que xlfRegisterId tenta registrar a função se ele já não foi registrado. Por esse motivo, se você estiver tentando apenas obter a identificação de modo que você pode cancelar o registro de função, é melhor obtê-lo, passando o nome registrado para **xlfEvaluate**. Se a função não foi registrada, **xlfEvaluate** falhar com um #NAME? erro. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Ver o código para a função **fExit** em `\SAMPLES\GENERIC\GENERIC.C`.
   
@@ -93,6 +93,6 @@ int WINAPI fExit(void)
 
 - [xlfRegister (Form 1)](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (formulário 2)](xlfunregister-form-2.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister (Formulário 2)](xlfunregister-form-2.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

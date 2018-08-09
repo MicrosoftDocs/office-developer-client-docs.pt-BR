@@ -1,5 +1,5 @@
 ---
-title: Comandos, funções e estados do Excel
+title: Estados, funções e comandos do Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - estados [excel 2007], [Excel 2007] de comandos, funções de planilha [Excel 2007], funções de folha de macro [Excel 2007], Estados do Excel
 localization_priority: Normal
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765294"
 ---
-# <a name="excel-commands-functions-and-states"></a>Comandos, funções e estados do Excel
+# <a name="excel-commands-functions-and-states"></a>Estados, funções e comandos do Excel
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -116,5 +116,5 @@ O exemplo a último é de importância ao suplemento desenvolvedores. Você deve
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   
-[Quebras de autorizações de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
+[Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
 

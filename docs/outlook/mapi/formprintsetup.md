@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ff46c58fbb352d56ae3df09d6949cdd5f614673f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -69,7 +69,7 @@ MAPI_UNICODE
   
 > Sinalizador que indica se há anexos a ser impresso. Se houver anexos para imprimir, o membro **ulFPrintAttachments** estiver definido como 1. Se não houver nenhum anexo para imprimir, ela é definida como 0. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **FORMPRINTSETUP** é usada para descrever as informações de configuração de impressão de um objeto form. Implementações de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) preencham a estrutura **FORMPRINTSETUP** e retorná-lo no conteúdo do parâmetro de saída _lppFormPrintSetup_ de **GetPrintSetup**.
   

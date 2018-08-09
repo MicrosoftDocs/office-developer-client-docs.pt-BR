@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 21889bf626d7f9128d1e01b3e6a15b5fa0d2e696
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767512"
 ---
-# <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin: IUnknown
+# <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
   
   
@@ -53,7 +53,7 @@ Faz alterações em um serviço de mensagem em um perfil.
 |[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |Designa um serviço de mensagem a ser o fornecedor da identidade principal para o perfil.  <br/> |
 |[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |Fornece acesso à tabela de provedor, uma lista de provedores de serviços de perfil.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma implementação pode obter um ponteiro para uma interface **IMsgServiceAdmin** de duas maneiras: chamando o método [IMAPISession::AdminServices](imapisession-adminservices.md) ou chamando o método [IProfAdmin::AdminServices](iprofadmin-adminservices.md) . Para clientes principalmente preocupados com a configuração de perfil, **IProfAdmin::AdminServices** é a maneira preferencial para obter a interface **IMsgServiceAdmin** , pois ele não fazer logon provedores para a sessão MAPI. Se um cliente exigir a capacidade de fazer alterações para o perfil ativo, **IMAPISession::AdminServices** deve ser chamado para obter o ponteiro **IMsgServiceAdmin** . Lembre-se de que, embora MAPI não permitir que um perfil que está em uso a ser excluído, não há nenhuma proteções para impedir que um cliente removendo todos os serviços de mensagem no perfil. 
   

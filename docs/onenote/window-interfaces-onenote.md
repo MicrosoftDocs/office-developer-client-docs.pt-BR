@@ -32,7 +32,7 @@ A lista a seguir mostra os modos de exibição de quatro que você pode usar par
     
 A figura a seguir mostra qual a exibição de página inteira, encaixar na exibição da área de trabalho, e notas rápidas se parecem na área de trabalho.
   
-**Modos de exibição do OneNote**
+**OneNote views**
 
 ![Exibições de janela do OneNote] (media/ON15Con_views.jpg "Exibições de janela do OneNote")
   
@@ -75,7 +75,7 @@ A interface de **janela** permite que o usuário acesse determinadas propriedade
   
 Você pode usar os seguintes métodos da interface da **janela** para navegar para os objetos especificados na janela do OneNote ou URLs especificadas. 
   
-**Navegarpara**
+**NavigateTo**
 
 |||
 |:-----|:-----|
@@ -99,7 +99,7 @@ Você pode usar os seguintes métodos da interface da **janela** para navegar pa
 |**Sintaxe** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
 |**Parameters** <br/> | _dockLocation_ - indica a localização ancorada de uma janela do OneNote 2013.  <br/>  _ptMonitor_ - indica (opcional) em x, coordenadas y que monitorar a janela deve ser encaixado.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O código a seguir itera-se as janelas do OneNote para encontrar uma janela encaixada. Se nenhuma janela encaixada existir, o exemplo encaixa a janela ativa. Se nenhuma janela ativa existir, o código cria uma nova janela encaixada.
   
@@ -144,5 +144,5 @@ namespace SampleWND
 
 ## <a name="see-also"></a>Confira também
 
-- [Referência para desenvolvedores do OneNote](onenote-developer-reference.md)
+- [Referência do desenvolvedor do OneNote](onenote-developer-reference.md)
 

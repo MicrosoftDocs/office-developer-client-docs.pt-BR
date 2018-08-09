@@ -36,7 +36,7 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -64,7 +64,7 @@ S_OK
   
 > O anexo foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::CreateAttach** cria um novo anexo em uma mensagem. O novo anexo e as propriedades que são definidas para ele, não estão disponíveis até que um cliente tenha chamado o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) do anexo e o método de **IMAPIProp::SaveChanges** da mensagem. 
   
@@ -74,5 +74,5 @@ O número de anexo apontado pela _lpulAttachmentNum_ é exclusivo e válido some
 
 
 
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

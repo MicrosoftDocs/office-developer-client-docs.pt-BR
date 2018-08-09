@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct _DTBLPAGE
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -65,7 +65,7 @@ MAPI_UNICODE
   
 > Um identificador exclusivo para a página com guias na cadeia de caracteres definida pelo membro **ulbLpszComponent** . O membro **ulbLpszComponent** e o membro de **ulContext** devem ser diferente de zero para o botão **Ajuda** trabalhar. Se esse identificador é zero e a cadeia de caracteres do componente for NULL, não há nenhuma ajuda associada à página. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLPAGE** descreve uma página com guias de um controle que é usado para separar várias caixas de diálogo relacionadas. Geralmente, essas caixas de diálogo são folhas de propriedades para exibir a configuração, uma mensagem ou opções de destinatário. Ao clicar na guia, o usuário pode alternar de uma planilha para outro. 
   

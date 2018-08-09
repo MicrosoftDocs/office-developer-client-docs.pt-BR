@@ -1,5 +1,5 @@
 ---
-title: Chamar MAPI dos serviços do Windows
+title: Chamar o MAPI a partir dos Serviços do Windows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766234"
 ---
-# <a name="calling-mapi-from-windows-services"></a>Chamar MAPI dos serviços do Windows
+# <a name="calling-mapi-from-windows-services"></a>Chamar o MAPI a partir dos Serviços do Windows
 
   
   
@@ -50,5 +50,5 @@ Para processar mensagens em um segmento de inicialização, um cliente MAPI que 
 [MAPILogonEx](mapilogonex.md)
 
 
-[Problemas operacionais no ambiente](operating-environment-issues.md)
+[Problemas do ambiente de operação](operating-environment-issues.md)
 

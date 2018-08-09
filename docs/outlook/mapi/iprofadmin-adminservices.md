@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7566bb075c2ef9903b5a376fd90f209c8683c31e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszProfileName_
   
@@ -81,7 +81,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::AdminServices** fornece acesso a um objeto de administração do serviço de mensagem para as alterações de configuração a mensagem serviços em um perfil. 
   
@@ -113,7 +113,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPISession::AdminServices](imapisession-adminservices.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

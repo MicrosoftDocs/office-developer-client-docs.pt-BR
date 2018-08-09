@@ -45,7 +45,7 @@ S_OK
   
 > O registro foi cancelado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes chame o método de **Unadvise** para parar de receber notificações sobre alterações em uma entrada de catálogo de endereço específica. Quando um registro de notificação for cancelado, as versões de provedor de catálogo de endereços seu ponteiro para o chamador do coletor de eventos de aviso. No entanto, a versão pode ocorrer durante a chamada **Unadvise** ou em algum momento posterior, se outro thread no processo de chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Quando uma notificação estiver em andamento, a versão foi adiada até que o método **OnNotify** retorna. 
   
@@ -57,5 +57,5 @@ Clientes chame o método de **Unadvise** para parar de receber notificações so
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

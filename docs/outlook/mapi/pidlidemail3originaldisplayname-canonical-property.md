@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidEmail3OriginalDisplayName
+title: Propriedade canônica PidLidEmail3OriginalDisplayName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ac90910e143d05c17b73aa6a1062cd0999b0d3c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768398"
 ---
-# <a name="pidlidemail3originaldisplayname-canonical-property"></a>Propriedade canônico de PidLidEmail3OriginalDisplayName
+# <a name="pidlidemail3originaldisplayname-canonical-property"></a>Propriedade canônica PidLidEmail3OriginalDisplayName
 
   
   
@@ -35,7 +35,7 @@ Especifica o nome de exibição de terceiro que corresponde ao endereço de emai
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o valor da propriedade **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) for "SMTP", o valor da propriedade respectivos **dispidEmail3OriginalDisplayName** será igual ao valor de **os respectivos dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). A finalidade dessa propriedade é para exibir um endereço alternativo de fácil utilização que é equivalente ao **dispidEmail3EmailAddress**especificado no.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

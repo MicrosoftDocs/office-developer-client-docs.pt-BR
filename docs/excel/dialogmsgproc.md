@@ -10,7 +10,7 @@ keywords:
 - função dialogmsgproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3a69d192babbcf0419850e203f51d8cfd81cdef6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Esse procedimento é associado com a caixa de diálogo nativa do Windows que [fS
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hWndDlg_ (**HWND**)
   
@@ -44,11 +44,11 @@ A mensagem para responder aos.
   
 Os argumentos passados pelo Windows.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
  **TRUE** se a mensagem processada, **FALSE** se não. 
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
   
@@ -56,5 +56,5 @@ Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função.
 
 
 
-[Funções na DLL genérico](functions-in-the-generic-dll.md)
+[Funções na DLL genérica](functions-in-the-generic-dll.md)
 

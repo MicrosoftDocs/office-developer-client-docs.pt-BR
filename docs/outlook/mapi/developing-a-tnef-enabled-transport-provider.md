@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo um provedor de transporte habilitado TNEF
+title: Desenvolver um provedor de transporte habilitado por TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766407"
 ---
-# <a name="developing-a-tnef-enabled-transport-provider"></a>Desenvolvendo um provedor de transporte habilitado TNEF
+# <a name="developing-a-tnef-enabled-transport-provider"></a>Desenvolver um provedor de transporte habilitado por TNEF
 
   
   

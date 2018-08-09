@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -45,7 +45,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulReserved_
   
@@ -77,7 +77,7 @@ E_NOT_FOUND
   
 - Falha da chamada de função.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta é a primeira chamada que faz com que um cliente quando o cliente deseja ser notificado sobre qualquer alteração de estado de conexão para um determinado perfil. Após chamar **HrOpenOfflineObj**, o cliente obtém um objeto offline que suporta **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto (usando [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) e, em seguida, configurar retornos de chamada para ele (usando [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
@@ -89,12 +89,12 @@ Ao usar o [GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx
 
 
 
-[IMAPIOffline: IUnknown](imapiofflineiunknown.md)
+[IMAPIOffline : IUnknown](imapiofflineiunknown.md)
   
-[IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md)
+[IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

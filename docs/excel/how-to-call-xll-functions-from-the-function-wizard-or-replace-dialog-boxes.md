@@ -1,5 +1,5 @@
 ---
-title: Funções do Assistente de função ou caixas de diálogo Replace XLL chamada
+title: Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - funções de XLL [excel 2007], chamada a partir de caixa de diálogo Substituir, substituir diálogo caixa chamando funções XLL [Excel 2007], o Assistente de função [Excel 2007], chamar funções XLL, as funções XLL [Excel 2007], chamando do Assistente de função
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7ebb33a5b98cebedfca7fb5923e62486bfd85696
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765386"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Funções do Assistente de função ou caixas de diálogo Replace XLL chamada
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Chamar funções de XLL no Assistente de função ou nas caixas de diálogo Substituir
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -119,9 +119,9 @@ bool called_from_paste_fn_dlg(void)
 
 
 
-[Acessando código XLL no Excel](accessing-xll-code-in-excel.md)
+[Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)
   
 [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

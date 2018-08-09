@@ -27,12 +27,12 @@ Especifica se deve usar o protocolo Secure Socket Layer (SSL) para a conta de SM
 |Marca de propriedade:  <br/> |0x02020003  <br/> |
 |Access:  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um meio de valor zero não usar criptografia SSL, caso contrário, use a criptografia SSL.
   
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 

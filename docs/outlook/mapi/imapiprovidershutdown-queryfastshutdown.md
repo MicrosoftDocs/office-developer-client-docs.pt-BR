@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor MAPI não suporta o cliente MAPI para rápida desligamento.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores MAPI que não é necessário para suportar o desligamento rápido do cliente ainda devem implementar a interface [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) e têm o método **IMAPIProviderShutdown::QueryFastShutdown** retornar MAPI_E_NO_SUPPORT. Para o Outlook como um cliente MAPI, isso faz com que o Outlook esperar por todas as referências externas ser liberada antes de sair. 
   
@@ -51,7 +51,7 @@ Dependendo do registro do Windows do usuário configuração para fast desligame
 
 
 
-[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md)
+[IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md)
 
 
 [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)

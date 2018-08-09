@@ -16,7 +16,7 @@ ms.locfileid: "19765036"
 # <a name="conversion-functions-access-custom-web-app"></a>Funções de conversão (aplicativo da web personalizado do Access)
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
 - [Função cast (aplicativo da web personalizado do Access)](cast-function-access-custom-web-app.md)
     
@@ -24,7 +24,7 @@ ms.locfileid: "19765036"
     
 - [Função DateWithTimeFromParts (aplicativo da web personalizado do Access)](datewithtimefromparts-function-access-custom-web-app.md)
     
-- [Função Format (aplicativo da web personalizado do Access)](format-function-access-custom-web-app.md)
+- [Função Format (aplicativo Web personalizado do Access)](format-function-access-custom-web-app.md)
     
 - [Analisar a função (aplicativo da web personalizado do Access)](parse-function-access-custom-web-app.md)
     

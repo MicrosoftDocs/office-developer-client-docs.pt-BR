@@ -1,5 +1,5 @@
 ---
-title: Determinando a fim de uma tabela
+title: Determinar o fim de uma tabela
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766402"
 ---
-# <a name="determining-a-tables-end"></a>Determinando a fim de uma tabela
+# <a name="determining-a-tables-end"></a>Determinar o fim de uma tabela
 
   
   

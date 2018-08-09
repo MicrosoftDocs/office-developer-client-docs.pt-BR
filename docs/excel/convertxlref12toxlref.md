@@ -10,7 +10,7 @@ keywords:
 - função convertxlref12toxlref [excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 826428edb57eba9e17d601164aa8b4b797fc8929
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Tenta converter um **XLREF12** em um **XLREF**.
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxRef12_ (**LPXLREF12**)
   
@@ -38,11 +38,11 @@ Ponteiro para a estrutura de referência da fonte.
   
 Ponteiro para a estrutura de referência de destino em que o valor convertido é sejam colocadas.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
  **TRUE** se a conversão foi bem-sucedida, **FALSE** caso contrário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A conversão de **XLREF12** para **XLREF** falhará se a referência fornecida refere-se a parte de uma planilha do Excel 2007 que não é suportada nas versões anteriores. 
   
@@ -75,5 +75,5 @@ BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

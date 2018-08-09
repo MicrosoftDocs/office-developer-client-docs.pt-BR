@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para desligamento rápido
+title: Práticas recomendadas para o desligamento rápido
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766244"
 ---
-# <a name="best-practices-for-fast-shutdown"></a>Práticas recomendadas para desligamento rápido
+# <a name="best-practices-for-fast-shutdown"></a>Práticas recomendadas para o desligamento rápido
 
   
   
@@ -41,7 +41,7 @@ Este tópico fornece práticas recomendadas para os administradores, os clientes
 
 [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)
   
-[Visão geral de desligamento rápido](fast-shutdown-overview.md)
+[Visão geral do desligamento rápido](fast-shutdown-overview.md)
   
-[Opções de desligamento rápido do usuário](fast-shutdown-user-options.md)
+[Opções de usuário do desligamento rápido](fast-shutdown-user-options.md)
 

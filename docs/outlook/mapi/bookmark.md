@@ -1,5 +1,5 @@
 ---
-title: Indicador
+title: BOOKMARK
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8f5f3bc454e18b1dbab434fc1b7cc094b0d6a360
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766398"
 ---
-# <a name="bookmark"></a>Indicador
+# <a name="bookmark"></a>BOOKMARK
 
   
   
@@ -36,7 +36,7 @@ Define os dados de indicadores para memorizar uma posição em uma tabela.
 typedef ULONG_PTR BOOKMARK;
 ```
 
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI define três indicadores, listadas a seguir:
   
@@ -60,7 +60,7 @@ Os clientes podem criar outros indicadores lembrando outras posições de tabela
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
-[IMAPITable:: FindRow](imapitable-findrow.md)
+[IMAPITable::ExpandRow](imapitable-findrow.md)
   
 [IMAPITable::FreeBookmark](imapitable-freebookmark.md)
   

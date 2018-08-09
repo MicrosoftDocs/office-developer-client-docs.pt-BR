@@ -1,5 +1,5 @@
 ---
-title: Modelo de recepção de mensagem
+title: Modelo de recebimento de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19768126"
 ---
-# <a name="message-reception-model"></a>Modelo de recepção de mensagem
+# <a name="message-reception-model"></a>Modelo de recebimento de mensagens
 
   
   

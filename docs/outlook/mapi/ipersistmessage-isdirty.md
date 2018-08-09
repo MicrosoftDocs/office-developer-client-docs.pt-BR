@@ -33,7 +33,7 @@ HRESULT IsDirty( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -45,7 +45,7 @@ S_FALSE
   
 > O formulário não terá as alterações feitas desde que foi salvo pela última vez.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IPersistMessage::IsDirty** para determinar se a mensagem tem os dados. 
   
@@ -53,5 +53,5 @@ Visualizadores de formulário chame o método de **IPersistMessage::IsDirty** pa
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

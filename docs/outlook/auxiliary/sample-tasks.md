@@ -1,5 +1,5 @@
 ---
-title: Tarefas de amostra
+title: Tarefas de exemplo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766090"
 ---
-# <a name="sample-tasks"></a>Tarefas de amostra
+# <a name="sample-tasks"></a>Tarefas de exemplo
 
 Esta seção contém as tarefas de amostra que usam as APIs disponíveis na referência auxiliar do Outlook 2013.
 
@@ -24,10 +24,10 @@ Esta seção contém as tarefas de amostra que usam as APIs disponíveis na refe
     
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [Ler as propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
     
 - [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-- [Use o tempo relativo para acessar dados do tipo disponível/ocupado](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Usar o tempo relativo para acessar dados de disponibilidade](how-to-use-relative-time-to-access-free-busy-data.md)
     
 

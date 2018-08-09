@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f0cf6fa03d8f38b7d160a8747111445cfdac1ae9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _SBitMaskRestriction
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **relBMR**
   
@@ -63,7 +63,7 @@ BMR_NEZ
   
 > Bitmask a ser aplicado à propriedade identificada pela **ulPropTag**.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **SBitMaskRestriction** executa uma operação **AND** bit a bit, usando o bitmask descrito no membro **ulMask** e o valor da propriedade descrito pelo membro **ulPropTag** . Se o resultado for zero, BMR_EQZ será satisfeita. Se for diferente de zero, ou seja, se o valor da propriedade tenha pelo menos uma dos mesmos bits definido como **ulMask**, em seguida, BMR_NEZ será satisfeita.
   

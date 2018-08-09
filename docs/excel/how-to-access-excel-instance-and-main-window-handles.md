@@ -8,7 +8,7 @@ keywords:
 - acessando alças, alças [Excel 2007], acessando, instâncias de Excel, acessando, identificadores de janela [Excel 2007], acesso do excel
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -85,9 +85,9 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[Exibindo caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[Exibir as caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
-[Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

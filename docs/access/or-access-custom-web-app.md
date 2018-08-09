@@ -19,9 +19,9 @@ ms.locfileid: "19765199"
 Combina duas condições. Retorna TRUE quando uma das duas condições for verdadeira.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  *BooleanExpression* **Ou** *BooleanExpression* 
   
@@ -31,7 +31,7 @@ O operador **Or** utiliza o argumento a seguir.
 |:-----|:-----|
 | *BooleanExpression*  <br/> |Qualquer expressão válida que retorna TRUE ou FALSE.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando mais de um operador lógico é usado em uma instrução, **ou** operadores são avaliadas após **e** operadores. No entanto, você pode alterar a ordem de avaliação usando parênteses. 
   

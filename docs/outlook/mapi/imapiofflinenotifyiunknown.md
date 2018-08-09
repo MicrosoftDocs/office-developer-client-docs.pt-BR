@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 37f21c438a0a337eecf5c15a27a0b891d19bcfb8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767124"
 ---
-# <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify: IUnknown
+# <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
   
   
@@ -38,7 +38,7 @@ Suporta o Microsoft Outlook 2010 e o Microsoft Outlook 2013 em Enviar retornos d
 |:-----|:-----|
 |[Notify](imapiofflinenotify-notify.md) <br/> |Envia notificações para um cliente sobre alterações no estado da conexão.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente deve implementar essa interface e passar um ponteiro para ele como um membro no **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** ao configurar retornos de chamada usando **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Subsequentemente, Outlook 2010 ou Outlook 2013 poderão usar essa interface para enviar retornos de chamada de notificação para o cliente. 
   
@@ -49,7 +49,7 @@ O cliente deve implementar essa interface e passar um ponteiro para ele como um 
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

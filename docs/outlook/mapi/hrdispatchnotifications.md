@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 28afa338b37e747ed441a8767981b7e63808e741
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT HrDispatchNotifications(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ MAPI_E_NOT_INITIALIZED
   
 > MAPI não foi inicializado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **HrDispatchNotifications** faz com que o MAPI expedir todas as notificações que estão atualmente enfileiradas no mecanismo de notificação de MAPI sem esperar por uma expedição de mensagem. Isso pode ter um efeito vantajoso na utilização de memória. Para obter mais informações, consulte [forçando uma notificação](forcing-a-notification.md). 
   

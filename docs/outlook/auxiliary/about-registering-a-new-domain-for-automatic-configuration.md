@@ -39,5 +39,5 @@ Se o serviço de mensagem está atualmente registrado no Mapisvc e o provedor de
   
 ## <a name="see-also"></a>Confira também
 
-- [Formato de arquivo do Mapisvc](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
+- [Formato de arquivo de MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 

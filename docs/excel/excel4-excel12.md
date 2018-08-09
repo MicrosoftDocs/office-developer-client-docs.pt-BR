@@ -11,7 +11,7 @@ keywords:
 - função Excel4 [excel 2007], função Excel12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ int Excel4(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER argument1, ...);
 int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _iFunction_ (**int**)
   
@@ -72,7 +72,7 @@ Retorna um dos seguintes valores inteiros (**int**).
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |O identificador de função assíncronas é inválido.  <br/> Esse valor é usado somente pelo Excel 2010.  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |A chamada não é suportada em clusters.  <br/> Esse valor é usado somente pelo Excel 2010.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 ### <a name="valid-ifunction-values"></a>Valores válidos iFunction
 
@@ -113,7 +113,7 @@ Se você definir o bit **xlIntl** no **iFunction**, a função ou o comando é r
 
 Após receber um desses valores de retorno, sua DLL deve limpar e retorne imediatamente o controle para o Excel. Retornos de chamada para o Excel por meio da API C, exceto **xlFree**, estão desabilitados após receber um desses valores de retorno.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir usa a função **Excel12** para selecionar a célula do qual ele foi chamado. 
   

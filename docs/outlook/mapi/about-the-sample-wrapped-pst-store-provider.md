@@ -1,5 +1,5 @@
 ---
-title: Sobre a amostra quebradas provedor de repositórios de PST
+title: Sobre o exemplo de provedor do repositório PST encapsulado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766097"
 ---
-# <a name="about-the-sample-wrapped-pst-store-provider"></a>Sobre a amostra quebradas provedor de repositórios de PST
+# <a name="about-the-sample-wrapped-pst-store-provider"></a>Sobre o exemplo de provedor do repositório PST encapsulado
 
  
   
@@ -35,25 +35,25 @@ A API de replicação permite que você replique os itens de um repositório de 
   
 O provedor de armazenamento de PST quebrado automaticamente do exemplo usa o provedor de pastas particulares (. PST) do arquivo como back-end para armazenar os dados. O provedor de repositórios de PST com quebra deve ser usado em conjunto com a API de replicação. Para obter mais informações, consulte [Sobre o API de replicação](about-the-replication-api.md). A maioria das funções do provedor de armazenamento do exemplo quebradas PST passa seus argumentos diretamente para o provedor de PST subjacente. Determinadas funções exigem implementação especial e são descritas nos tópicos a seguir.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST](installing-the-sample-wrapped-pst-store-provider.md)
+- [Instalar o provedor do repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
     
 - Explica como baixar e instalar o provedor de repositórios de PST quebrado automaticamente amostra.
     
-- [Inicializar um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
+- [Iniciar um provedor do repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
     
 - A primeira etapa na implementação de um provedor de armazenamento de PST com quebra é inicializar e configurar o provedor de repositórios de PST com quebra.
     
-- [Fazer logon no provedor de um repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Fazer logon em um provedor do repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
     
 - Depois que um provedor de armazenamento de PST com quebra é inicializado, você deve implementar funções para que o spooler MAPI e MAPI podem fazer logon no provedor de armazenamento de PST com quebra.
     
-- [Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
+- [Usar um provedor do repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
     
 - Para usar um repositório PST encapsulado provedor que você deve quebrar a interface **[IMAPISupport::IUnknown](imapisupportiunknown.md)** implementar comuns quebradas tarefas do provedor de armazenamento de PST. 
     
-- [Encerrando um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Desativar um provedor do repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
     
 - Após concluir o uso de um provedor de armazenamento com quebra PST, você deve desligar corretamente o provedor de repositórios de PST com quebra.
     
@@ -63,5 +63,5 @@ O provedor de armazenamento de PST quebrado automaticamente do exemplo usa o pro
 
 [Sobre a API de replicação](about-the-replication-api.md)
   
-[Desenvolvendo um provedor de armazenamento de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

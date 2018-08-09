@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 983c22772acfea7837e85d409b7928a35aed91ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OpenMsgStore(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulUIParam_
   
@@ -102,7 +102,7 @@ MAPI_W_ERRORS_RETURNED
   
 > A chamada foi bem-sucedida, mas o provedor de armazenamento de mensagem tem informações de erro disponíveis. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para obter as informações de erro do provedor, chame o método [IMAPISession::GetLastError](imapisession-getlasterror.md) . Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::OpenMsgStore** abre um armazenamento de mensagens específico. 
   
@@ -152,11 +152,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
    
 ## <a name="see-also"></a>Confira também
 
-- [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+- [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 - [IMAPISession::GetLastError](imapisession-getlasterror.md)
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 - [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
-- [IMAPISession: IUnknown](imapisessioniunknown.md)
+- [IMAPISession : IUnknown](imapisessioniunknown.md)
 - [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
-- [Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+- [Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

@@ -18,9 +18,9 @@ ms.locfileid: "19765066"
 Retorna o item no índice especificado de uma lista de valores.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 **Escolha** (*Número_de_índice*, *valor*, [*Value_n*]) 
   
@@ -31,7 +31,7 @@ A função **Escolher** contém os seguintes argumentos.
 | *Número_de_índice*  <br/> |Uma expressão de inteiro que representa um índice baseado em 1 para a lista dos itens depois dela.  <br/> |
 | *Valor*  <br/> |Lista de valores de qualquer tipo de dados.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o fornecido *Número_de_índice* não for um inteiro, o valor implicitamente é convertido em um número inteiro. 
   

@@ -31,7 +31,7 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 _lBias_
   
@@ -53,7 +53,7 @@ _stDaylightDate_
   
 > O tempo para alternar para o horário de verão.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa estrutura é semelhante ao **TIME_ZONE_INFORMATION**. Esta é a estrutura usada por clientes herdados para armazenar informações de fuso horário para reuniões recorrentes.
   

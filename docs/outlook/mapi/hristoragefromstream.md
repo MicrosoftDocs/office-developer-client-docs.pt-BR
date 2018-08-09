@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bd2d0a662585e8aba91250786f88dd310fe37e32
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ HRESULT HrIStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUnkIn_
   
@@ -82,7 +82,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Mensagem armazenar provedores suportam a função **HrIStorageFromStream** usando a interface de **IStorage** para anexos. Provedores de armazenamento devem implementar a interface **IStream** . **HrIStorageFromStream** fornece a interface de **IStorage** para o objeto **IStream** . É possível passar um **ILockBytes** ou uma interface **IStream** em _lpUnkIn_. 
   

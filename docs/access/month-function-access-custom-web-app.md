@@ -31,7 +31,7 @@ A função **Month** contém os seguintes argumentos.
 |:-----|:-----|
 | *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **Mês** retorna o mesmo valor que **DatePart** (mês, data). 
   

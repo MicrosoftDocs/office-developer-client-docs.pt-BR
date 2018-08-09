@@ -18,7 +18,7 @@ ms.locfileid: "19765057"
 Você pode usar o bloco de dados **EditarRegistro** para alterar os valores contidos em um registro existente. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 > [!NOTE]
 > [!OBSERVAçãO] O bloco de dados **EditarRegistro** está disponível somente em Macros de Dados. 
@@ -31,7 +31,7 @@ O bloco de dados **EditarRegistro** tem os seguintes argumentos.
 |:-----|:-----|
 |**Alias** <br/> |Uma cadeia de caracteres que identifica o registro para editar. Se o argumento *Alias* não for especificado, o registro atual é editado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Após a instrução **EditarRegistro** , você pode inserir um bloco de comandos que executará antes das alterações no registro forem confirmadas. As ações a seguir estão disponíveis em um bloco de dados **EditarRegistro** . 
   

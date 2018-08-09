@@ -25,7 +25,7 @@ Retorna o valor de data e hora atual no fuso horário definido pelo aplicativo.
 
  **Agora** () 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O resultado das **agora** função alterações somente quando a coluna que contém a fórmula for atualizada. Ele não é atualizado continuamente. 
   

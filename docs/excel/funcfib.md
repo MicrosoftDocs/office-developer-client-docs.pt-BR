@@ -10,7 +10,7 @@ keywords:
 - função funcfib [excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8d1c97ea57e968aaedffca6b37ded3d875e87413
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,23 +28,23 @@ Função de planilha definida pelo usuário de exemplo que computa o número de 
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxN_ (**LPXLOPER12**)
   
 O valor de N para o qual o número de Fibonacci enésima é necessário.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 (**xltypeNum LPXLOPER12** se tiver êxito ou **xltypeErr** caso contrário) 
   
 O número de Fibonacci enésima.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função usa uma variável estática definida dentro do bloco de função, como o valor de retorno **XLOPER12**. Isso não é thread-safe e, portanto essa função e qualquer função de planilha que usa essa estratégia para retornar **XLOPER**s ou s **XLOPER12**, não devem ser registradas como thread-safe iniciada no Excel 2007.
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função. 
   
@@ -52,5 +52,5 @@ Consulte `\SAMPLES\GENERIC\GENERIC.C` para o código-fonte para essa função.
 
 
 
-[Funções na DLL genérico](functions-in-the-generic-dll.md)
+[Funções na DLL genérica](functions-in-the-generic-dll.md)
 

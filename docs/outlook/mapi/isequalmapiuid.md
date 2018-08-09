@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 635a4a872b83a2996b1a0198975a0ecd2cd906eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Testa duas estruturas [MAPIUID](mapiuid.md) para determinar se eles contêm o me
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpuid1_
   
@@ -46,7 +46,7 @@ IsEqualMAPIUID(lpuid1, lpuid2)
   
 > Ponteiro para a estrutura **MAPIUID** segundo a ser testado. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A macro **IsEqualMAPIUID** retorna TRUE se as duas estruturas **MAPIUID** contêm o mesmo identificador e FALSE se não tiverem. 
   
@@ -59,5 +59,5 @@ A macro **IsEqualMAPIUID** requer que o arquivo de cabeçalho Memory.h ser inclu
 [MAPIUID](mapiuid.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

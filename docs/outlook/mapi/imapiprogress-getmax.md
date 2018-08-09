@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: bbd52116a108be12df7697f45df41b03adeba68e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetMax(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulMax_
   
@@ -45,7 +45,7 @@ S_OK
   
 > O número máximo de itens na operação terem sido recuperado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor máximo representa o fim da operação no formulário numérico. O valor pode ser um valor máximo global, usado para representar o escopo da tela inteira progresso, ou um valor local, usado para representar a apenas uma parte da tela. 
   
@@ -75,12 +75,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Exibir um indicador de progresso](how-to-display-a-progress-indicator.md)
   
-[Implementando um indicador de progresso](implementing-a-progress-indicator.md)
+[Implementar um indicador de progresso](implementing-a-progress-indicator.md)
 

@@ -34,7 +34,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pAdvise_
   
@@ -54,7 +54,7 @@ E_OUTOFMEMORY
   
 > O registro não foi bem-sucedida devido a memória insuficiente.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIForm::Advise** de um formulário para registrar a notificação quando ocorrem alterações ao formulário. 
   
@@ -74,12 +74,12 @@ Para obter mais informações sobre a notificação e formulários, consulte [de
 
 [IMAPIForm::Unadvise](imapiform-unadvise.md)
   
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Notificação de evento em MAPI](event-notification-in-mapi.md)
+[Notificações de eventos no MAPI](event-notification-in-mapi.md)
   
-[Enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md)
+[Enviar e receber notificações de formulários](sending-and-receiving-form-notifications.md)
 

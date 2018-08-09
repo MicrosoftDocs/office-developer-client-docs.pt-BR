@@ -37,7 +37,7 @@ HRESULT RenameProfile(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszOldProfileName_
   
@@ -73,7 +73,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::RenameProfile** atribui um novo nome para um perfil, caso haja algum. Se o perfil renomear estiver sendo usado por um cliente quando **RenameProfile** é chamado, o **RenameProfile** marca o perfil e retorna S_OK em vez de tentar a operação de renomeação enquanto o perfil estiver em uso. Quando o perfil não mais estiver sendo usado, **RenameProfile** atribui o novo nome. 
   
@@ -89,5 +89,5 @@ O _lpszPassword_ deve sempre ser NULL ou um ponteiro para uma cadeia de caracter
 
 
 
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

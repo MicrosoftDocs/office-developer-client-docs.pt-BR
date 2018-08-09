@@ -27,12 +27,12 @@ Analisa um valor de texto e retorna seu valor em um determinado tipo usando a cu
   
 A função **Analisar** contém os seguintes argumentos. 
   
-|**Nome do argumento**|**Description**|
+|**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar em tipo de dados especificado.  <br/> |
-| *Tipo de dados*  <br/> |Valor literal que representa o tipo de dados solicitado para o resultado.  <br/> |
+| *DataType*  <br/> |Valor literal que representa o tipo de dados solicitado para o resultado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use a **Analisar** apenas para a conversão de cadeia de caracteres, data/hora e tipos de número. Para conversões de tipo geral, use a função **Converter** . Tenha em mente que há um determinado desempenho sobrecarga na análise o valor de cadeia de caracteres. 
   

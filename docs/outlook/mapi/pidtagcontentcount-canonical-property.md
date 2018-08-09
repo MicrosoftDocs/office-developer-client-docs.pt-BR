@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagContentCount
+title: Propriedade canônica PidTagContentCount
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3c542b07eac626da5fbbb6a96b4545ad3c8558b6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769110"
 ---
-# <a name="pidtagcontentcount-canonical-property"></a>Propriedade canônico de PidTagContentCount
+# <a name="pidtagcontentcount-canonical-property"></a>Propriedade canônica PidTagContentCount
 
   
   
@@ -32,9 +32,9 @@ Contém o número de mensagens em uma pasta, como computado pelo armazenamento d
 |Propriedades associadas:  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificador:  <br/> |0x3602  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Pasta  <br/> |
+|Área:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade computada pelo armazenamento de mensagens é usada para dois diferentes, embora relacionado, fins. Em um objeto MapiFolder, ele contém o número de mensagens em uma pasta. Em uma linha de cabeçalho nas tabelas MAPI categorizadas, ele contém o número de mensagens não associado na categoria correspondente para essa linha de título.
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

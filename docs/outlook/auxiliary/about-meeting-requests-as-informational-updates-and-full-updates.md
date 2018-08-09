@@ -1,5 +1,5 @@
 ---
-title: Sobre as solicitações de reunião como atualizações informativas e completo
+title: Sobre solicitações de reunião como atualizações informativas e atualizações completas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765791"
 ---
-# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Sobre as solicitações de reunião como atualizações informativas e completo
+# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Sobre solicitações de reunião como atualizações informativas e atualizações completas
 
 Uma solicitação de reunião é um email que tenha **IPM. Schedule.Meeting.Request** como a classe de mensagem. Por padrão, um participante receber uma solicitação de reunião responde a ele diretamente. O Outlook suporta configurar representantes que podem responder às solicitações de reunião em nome do destinatário principal. Programaticamente, Outlook define a propriedade nomeada [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de uma solicitação de reunião para identificar o status atual da atualização. 
   

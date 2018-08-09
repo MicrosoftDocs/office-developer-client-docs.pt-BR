@@ -1,5 +1,5 @@
 ---
-title: Sobre a API de gerenciamento de conta
+title: Sobre a API de gerenciamento de contas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765789"
 ---
-# <a name="about-the-account-management-api"></a>Sobre a API de gerenciamento de conta
+# <a name="about-the-account-management-api"></a>Sobre a API de gerenciamento de contas
 
 A API de gerenciamento de conta fornece acesso às informações de conta e dá suporte a notificações de alterações de conta. Como os clientes desta API, provedores de email faça o seguinte:
   

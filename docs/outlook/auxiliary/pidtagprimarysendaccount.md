@@ -27,7 +27,7 @@ Especifica o carimbo de "Enviar" da conta principal para uma mensagem.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Conta  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem recebida, o carimbo de "Enviar" da conta principal indica qual conta um encaminhamento ou uma resposta deve ser enviada com. Para uma mensagem de saída, ele determina qual conta para enviar a mensagem com. Seu valor é o valor [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) da interface de [IOlkAccount](iolkaccount.md) da conta com a qual a mensagem está sendo enviada. 
   
@@ -35,5 +35,5 @@ Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem receb
 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 - [Propriedades MAPI](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
-- [Propriedade canônico de PidTagPrimarySendAccount](http://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
+- [Propriedade canônica PidTagPrimarySendAccount](http://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
 

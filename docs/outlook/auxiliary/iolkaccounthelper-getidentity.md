@@ -29,7 +29,7 @@ HRESULT IOlkAccountHelper::GetIdentity (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pwszIdentity_
   
@@ -47,7 +47,7 @@ _pcch_
 |E_OUTOFMEMORY  <br/> |O nome do perfil retornado é maior que o tamanho da _pwszIdentity_.  <br/> |
 |E_INVALIDARG  <br/> | _pcch_ é nulo.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se _pwszIdentity_ for muito pequeno para conter o nome do perfil, ela não será definida no retorno e _pcch_ irá apontar para o tamanho necessário para _pwszIdentity_.
   

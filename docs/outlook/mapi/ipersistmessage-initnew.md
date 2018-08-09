@@ -34,7 +34,7 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pMessageSite_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A nova mensagem foi inicializada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IPersistMessage::InitNew** quando o usuário escreve uma nova mensagem que pertence a uma classe de mensagem que processa o formulário. Se o objeto de formulário tiver um ponteiro de interface de usuário válido, a interface do usuário para o objeto de mensagem deve ser exibida. 
   
@@ -92,5 +92,5 @@ Para obter mais informações sobre os estados de formulários, consulte [Estado
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

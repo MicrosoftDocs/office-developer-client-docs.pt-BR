@@ -1,5 +1,5 @@
 ---
-title: Recursos opcionais para provedores de catálogo de endereços
+title: Recursos opcionais para provedores do catálogo de endereços
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1558259-7f0b-4731-80d2-88e51e203df0
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ffdd1203316b2c80aba34c980745a0330ec19888
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768186"
 ---
-# <a name="optional-features-for-address-book-providers"></a>Recursos opcionais para provedores de catálogo de endereços
+# <a name="optional-features-for-address-book-providers"></a>Recursos opcionais para provedores do catálogo de endereços
 
   
   

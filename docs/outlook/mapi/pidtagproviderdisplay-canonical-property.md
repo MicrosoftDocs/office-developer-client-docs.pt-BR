@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagProviderDisplay
+title: Propriedade canônica PidTagProviderDisplay
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1546ee1aa970be71d853dba59ce0fab7cc5a4dac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769699"
 ---
-# <a name="pidtagproviderdisplay-canonical-property"></a>Propriedade canônico de PidTagProviderDisplay
+# <a name="pidtagproviderdisplay-canonical-property"></a>Propriedade canônica PidTagProviderDisplay
 
   
   
@@ -34,7 +34,7 @@ Contém o nome de exibição de fornecedor definido para um provedor de serviço
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |MAPI comuns  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades e **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) são definidas apenas em seções de perfil que pertencem a provedores de serviços. Elas devem estar presentes em MAPISVC.
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

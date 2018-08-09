@@ -19,7 +19,7 @@ ms.locfileid: "19765223"
 Você pode usar a ação **ExecutarMacro** para executar uma macro (UI) da interface de usuário. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -27,9 +27,9 @@ A ação **ExecutarMacro** tem os argumentos a seguir.
   
 |**Argumento da ação**|**Descrição**|
 |:-----|:-----|
-|**Nome da macro** <br/> |O nome da macro a interface do usuário a ser executada.  <br/> |
+|**Macro Name** <br/> |O nome da macro a interface do usuário a ser executada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando você executar uma macro de interface do usuário que contém a ação **ExecutarMacro** e alcançar a ação **ExecutarMacro** , o Access executa a macro chamada da interface do usuário. Quando a macro chamada da interface do usuário for concluída, o Access retorna à macro da interface do usuário original e executa a próxima ação. 
   

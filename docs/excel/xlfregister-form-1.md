@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (formulário 1)
+title: xlfRegister (Formulário 1)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - função xlfRegister [excel 2007]
 localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4fb4e8656b4f27105a30764cdda020849a07645e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765472"
 ---
-# <a name="xlfregister-form-1"></a>xlfRegister (formulário 1)
+# <a name="xlfregister-form-1"></a>xlfRegister (Formulário 1)
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -45,7 +45,7 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
         ...);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -111,11 +111,11 @@ _pxArgumentHelp1_ (**xltypeStr**)
   
 Opcional. A primeira das cadeias de caracteres que descrevem os argumentos personalizados da função quando a função é selecionada no Assistente de função. No Excel 2003 e versões anteriores, **xlfRegister** pode demorar, no máximo, 30 argumentos para que você possa fornecer essa ajuda para o primeiro 20 argumentos da função apenas. Iniciando no Excel 2007, **xlfRegister** pode demorar até 255 argumentos para que você possa fornecer essa ajuda para até 245 parâmetros de função. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se o registro foi bem-sucedida, essa função retornará a identificação de registro da função (**xltypeNum**), que pode ser usada em chamadas **xlUDF** e **xlfUnregister** em uma DLL ou com **CHAMADAS** e **cancela o registro** em uma folha de macro XLM. Caso contrário, ele retornará um #VALUE! erro. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 ### <a name="data-types"></a>Tipos de dados
 
@@ -284,9 +284,9 @@ A tabela a seguir lista as categorias padrão que estejam visíveis quando você
 |5  <br/> |Lógica  <br/> |
 |6  <br/> |Pesquisa &amp; referência  <br/> |
 |7  <br/> |Banco de dados  <br/> |
-|8  <br/> |Estatísticas  <br/> |
-|9  <br/> |Informações  <br/> |
-|14  <br/> |Definido pelo usuário  <br/> |
+|8  <br/> |Estatística  <br/> |
+|9  <br/> |Informação  <br/> |
+|14  <br/> |Definida pelo Usuário  <br/> |
 ||Engenharia (começando no Excel 2007)  <br/> |
 ||Cubo (começando no Excel 2007)  <br/> |
    
@@ -295,11 +295,11 @@ Além disso, essas categorias também estarão visíveis quando você exibe a ca
 |**Número**|**Text**|
 |:-----|:-----|
 |10  <br/> |Comandos  <br/> |
-|11  <br/> |DDE/externo  <br/> |
-|12  <br/> |Personalizando  <br/> |
-|13  <br/> |Controle de macro  <br/> |
+|11  <br/> |DDE/Externa  <br/> |
+|12  <br/> |Personalização  <br/> |
+|13  <br/> |Controle de Macro  <br/> |
    
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Ver o código para a função **xlAutoOpen** em `\SAMPLES\GENERIC\GENERIC.C`.
   
@@ -307,5 +307,5 @@ Ver o código para a função **xlAutoOpen** em `\SAMPLES\GENERIC\GENERIC.C`.
 
 - [REGISTER.ID](xlfregisterid.md)
 - [CANCELAR O REGISTRO](xlfunregister-form-1.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

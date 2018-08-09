@@ -1,5 +1,5 @@
 ---
-title: Referência para desenvolvedores do OneNote
+title: Referência do desenvolvedor do OneNote
 manager: soliver
 ms.date: 05/16/2016
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765783"
 ---
-# <a name="onenote-developer-reference"></a>Referência para desenvolvedores do OneNote
+# <a name="onenote-developer-reference"></a>Referência do desenvolvedor do OneNote
 
 Esta referência contém visões gerais conceituais e programáticas referências para guiá-lo no desenvolvimento de soluções para aplicativos de cliente de desktop do OneNote 2013. Inclui todas as adições e altera para a interface de programação de aplicativo (API) do OneNote 2013 e fornece exemplos de códigos em c# para mostrar como executar algumas tarefas no OneNote. A API do OneNote 2013 permite aos usuários programaticamente acessar e editar o conteúdo do OneNote. Os usuários também podem fazer alterações ao modo de exibição de janelas do OneNote.
   
@@ -30,7 +30,7 @@ Esta documentação contém as seguintes informações:
 - [Códigos de erro](error-codes-onenote.md): lista os códigos de erro no modelo de objeto do OneNote 2013.
     
 > [!NOTE]
-> As APIs descritas nesta documentação servem apenas para as soluções de cliente de desktop do OneNote Win32 em cenários não conectadas. Para cenários conectados, use as APIs de serviço OneNote recomendados. Para saber mais, visite [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
+> As APIs descritas nesta documentação destinam-se apenas para soluções de cliente de área de trabalho do OneNote Win32 em cenários não conectados. Para cenários conectados, use as APIs de serviço recomendadas do OneNote. Para saber mais, visite [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
   
 ## <a name="see-also"></a>Confira também
 
@@ -40,7 +40,7 @@ Esta documentação contém as seguintes informações:
     
 - [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
     
-- [Conven��es de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
     
 - [Informações de direitos autorais de referência do desenvolvedor do OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     

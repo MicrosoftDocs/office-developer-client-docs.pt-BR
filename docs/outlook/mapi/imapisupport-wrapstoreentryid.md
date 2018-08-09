@@ -36,7 +36,7 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbOrigEntry_
   
@@ -60,7 +60,7 @@ S_OK
   
 > O identificador de entrada foi empacotado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::WrapStoreEntryID** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços usam **WrapStoreEntryID** para gerar um identificador de entrada para um armazenamento de mensagens que distribui o identificador de entrada interna da loja MAPI. 
   

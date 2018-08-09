@@ -37,7 +37,7 @@ HRESULT SetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -89,7 +89,7 @@ S_OK
   
 > O status da mensagem foi definido com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::SetMessageStatus** define o status da mensagem com o valor armazenado na sua propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
@@ -109,7 +109,7 @@ Você pode usar a propriedade **PR_MSG_STATUS** de uma mensagem para negociar um
 
 [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

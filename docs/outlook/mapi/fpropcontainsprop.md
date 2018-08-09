@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _lpSPropValueDst_
   
@@ -79,7 +79,7 @@ FALSO
   
 > Os valores de propriedade estão sendo comparados não são do tipo PT_STRING8 ou PT_BINARY, os valores de propriedade são de tipos diferentes ou a cadeia de caracteres de pesquisa _lpSPropValueSrc_ não está contida conforme especificado no valor da propriedade _lpSPropValueDst_ . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método de comparação depende os tipos de propriedade especificados nas definições de propriedade [SPropValue](spropvalue.md) e o heurístico nível difuso fornecido no parâmetro _ulFuzzyLevel_ . As funções [FPropCompareProp](fpropcompareprop.md) e **FPropContainsProp** podem ser usadas para preparar restrições para gerar uma tabela. 
   

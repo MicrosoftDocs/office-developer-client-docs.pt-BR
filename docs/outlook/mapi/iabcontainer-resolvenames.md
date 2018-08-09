@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766833"
 ---
-# <a name="iabcontainerresolvenames"></a>IABContainer:: ResolveNames
+# <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
   
   
@@ -92,7 +92,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor de catálogo de endereços não oferece suporte a resolução de nomes em massa usando esse método.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **ResolveNames** tenta corresponder destinatários não resolvidos da matriz de entradas no parâmetro _lpAdrList_ para destinatários neste contêiner de catálogo de endereços. Um destinatário não resolvido geralmente tem apenas a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) e, possivelmente, algumas outras propriedades. Um destinatário não resolvido não tem a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) e seu sinalizador correspondente no parâmetro _lpFlagList_ estiver definido como MAPI_UNRESOLVED. Por outro lado, um destinatário resolvido sempre possui pelo menos a propriedade **PR_ENTRYID** plus várias outras propriedades como **PR_ADDRTYPE** ([ , **PR_DISPLAY_NAME**e **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   
@@ -150,9 +150,9 @@ Se você deve substituir em vez de modificar uma estrutura **ADRENTRY** , livre 
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônico de PidTagAnr](pidtaganr-canonical-property.md)
+[Propriedade canônica PidTagAnr](pidtaganr-canonical-property.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
-[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 

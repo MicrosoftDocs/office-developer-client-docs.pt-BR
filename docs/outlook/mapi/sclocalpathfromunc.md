@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e94692ac4eb401109fcb522e6224c8748bef37f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ SCODE ScLocalPathFromUNC(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _szUNC_
   

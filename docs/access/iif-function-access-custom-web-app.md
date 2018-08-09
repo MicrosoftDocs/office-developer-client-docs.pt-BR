@@ -19,9 +19,9 @@ ms.locfileid: "19765048"
 Verifica se uma condição for atendida e retorna um valor se for TRUE, de um outro se for FALSE.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 **IIf** (*Condição*, *TrueValue*, *FalseValue*) 
   
@@ -33,9 +33,9 @@ A função **IIf** contém os seguintes argumentos.
 | *TrueValue*  <br/> |Expressão ou valor retornado se a *condição* for verdadeira.  <br/> |
 | *FalseValue*  <br/> |Expressão ou valor retornado se a *condição* for False.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
-A expressão a seguir pode ser usada para exibir o nome completo de uma pessoa em um dos campos da tabela Nome, Sobrenome e Nome do Meio. Se o campo MiddleInitial estiver vazio, somente os campos FirstName e LastName são combinados para exibir o nome completo.
+A expressão a seguir pode ser usada para exibir o nome completo de uma pessoa quando a tabela contém os campos Nome, Nome do Meio e Sobrenome. Se o campo Nome do Meio estiver em branco, apenas os campos de Nome e Sobrenome serão combinados para exibir o nome completo.
   
 `IIf([MiddleInitial] Is Null,Concat([FirstName]," ",[LastName]),Concat([FirstName]," ",[MiddleInitial]," ",[LastName]))`
 
