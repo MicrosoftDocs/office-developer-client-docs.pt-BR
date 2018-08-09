@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765837"
 ---
-# <a name="ifreebusysupportplaceholder14"></a><span data-ttu-id="70a53-103">IFreeBusySupport::Placeholder14</span><span class="sxs-lookup"><span data-stu-id="70a53-103">IFreeBusySupport::Placeholder14</span></span>
+# <a name="ifreebusysupportplaceholder14"></a><span data-ttu-id="8239f-103">IFreeBusySupport::Placeholder14</span><span class="sxs-lookup"><span data-stu-id="8239f-103">IFreeBusySupport::Placeholder14</span></span>
 
-<span data-ttu-id="70a53-104">Este membro é um espaço reservado e não é suportado.</span><span class="sxs-lookup"><span data-stu-id="70a53-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="8239f-104">Este membro é um espaço reservado e não é suportado.</span><span class="sxs-lookup"><span data-stu-id="8239f-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="70a53-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="70a53-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8239f-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="8239f-105">Quick info</span></span>
 
-<span data-ttu-id="70a53-106">Consulte [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="70a53-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="8239f-106">Consulte [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="8239f-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder14( 
@@ -29,12 +29,12 @@ HRESULT Placeholder14(
 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="70a53-107">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="70a53-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8239f-107">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="8239f-107">Return values</span></span>
 
-<span data-ttu-id="70a53-108">Sempre E_NOTIMPL, porque este membro é um espaço reservado e não é suportado.</span><span class="sxs-lookup"><span data-stu-id="70a53-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="8239f-108">Sempre E_NOTIMPL, porque este membro é um espaço reservado e não é suportado.</span><span class="sxs-lookup"><span data-stu-id="8239f-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="70a53-109">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="70a53-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8239f-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="8239f-109">Remarks</span></span>
 
-<span data-ttu-id="70a53-110">Este membro deve retornar E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="70a53-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="8239f-110">Este membro deve retornar E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="8239f-110">This member must return E_NOTIMPL.</span></span>
   
 

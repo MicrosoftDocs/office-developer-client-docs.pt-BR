@@ -14,21 +14,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765078"
 ---
-# <a name="lower-function-access-custom-web-app"></a><span data-ttu-id="f17c3-103">Função LOWER (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="f17c3-103">Lower Function (Access custom web app)</span></span>
+# <a name="lower-function-access-custom-web-app"></a><span data-ttu-id="dc3e4-103">Função LOWER (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="dc3e4-103">Lower Function (Access custom web app)</span></span>
 
-<span data-ttu-id="f17c3-104">Retorna uma expressão de caractere após converter dados caracteres maiusculos em minúsculas.</span><span class="sxs-lookup"><span data-stu-id="f17c3-104">Returns a character expression after converting uppercase character data to lowercase.</span></span>
+<span data-ttu-id="dc3e4-104">Retorna uma expressão de caractere após converter dados caracteres maiusculos em minúsculas.</span><span class="sxs-lookup"><span data-stu-id="dc3e4-104">Returns a character expression after converting uppercase character data to lowercase.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f17c3-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="f17c3-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="dc3e4-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="dc3e4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f17c3-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="f17c3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dc3e4-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="dc3e4-107">Syntax</span></span>
 
- <span data-ttu-id="f17c3-108">**Inferior** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="f17c3-108">**Lower** (*TextExpression*)</span></span> 
+ <span data-ttu-id="dc3e4-108">**Inferior** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="dc3e4-108">**Lower** (*TextExpression*)</span></span> 
   
-<span data-ttu-id="f17c3-109">A função **minúscula** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="f17c3-109">The **Lower** function contains the following argument.</span></span> 
+<span data-ttu-id="dc3e4-109">A função **minúscula** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="dc3e4-109">The **Lower** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="f17c3-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="f17c3-110">**Argument name**</span></span>|<span data-ttu-id="f17c3-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="f17c3-111">**Description**</span></span>|
+|<span data-ttu-id="dc3e4-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="dc3e4-110">**Argument name**</span></span>|<span data-ttu-id="dc3e4-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="dc3e4-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="f17c3-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="f17c3-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="f17c3-113">Uma expressão de texto.</span><span class="sxs-lookup"><span data-stu-id="f17c3-113">A text expression.</span></span>  <br/> |
+| <span data-ttu-id="dc3e4-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="dc3e4-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="dc3e4-113">Uma expressão de texto.</span><span class="sxs-lookup"><span data-stu-id="dc3e4-113">A text expression.</span></span>  <br/> |
    
 

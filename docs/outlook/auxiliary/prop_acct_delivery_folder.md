@@ -14,29 +14,29 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766066"
 ---
-# <a name="propacctdeliveryfolder"></a><span data-ttu-id="4e4e9-103">PROP_ACCT_DELIVERY_FOLDER</span><span class="sxs-lookup"><span data-stu-id="4e4e9-103">PROP_ACCT_DELIVERY_FOLDER</span></span>
+# <a name="propacctdeliveryfolder"></a><span data-ttu-id="aaaab-103">PROP_ACCT_DELIVERY_FOLDER</span><span class="sxs-lookup"><span data-stu-id="aaaab-103">PROP_ACCT_DELIVERY_FOLDER</span></span>
 
-<span data-ttu-id="4e4e9-104">Representa a identificação de entrada da pasta de entrega padrão para a conta.</span><span class="sxs-lookup"><span data-stu-id="4e4e9-104">Represents the Entry ID of the default delivery folder for the account.</span></span>
+<span data-ttu-id="aaaab-104">Representa a identificação de entrada da pasta de entrega padrão para a conta.</span><span class="sxs-lookup"><span data-stu-id="aaaab-104">Represents the Entry ID of the default delivery folder for the account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="4e4e9-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="4e4e9-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="aaaab-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="aaaab-105">Quick info</span></span>
 
-<span data-ttu-id="4e4e9-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="4e4e9-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="aaaab-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="aaaab-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4e4e9-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="4e4e9-107">Identifier:</span></span>  <br/> |<span data-ttu-id="4e4e9-108">0x0019</span><span class="sxs-lookup"><span data-stu-id="4e4e9-108">0x0019</span></span>  <br/> |
-|<span data-ttu-id="4e4e9-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="4e4e9-109">Property type:</span></span>  <br/> |<span data-ttu-id="4e4e9-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4e4e9-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="4e4e9-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="4e4e9-111">Property tag:</span></span>  <br/> |<span data-ttu-id="4e4e9-112">0x00190102</span><span class="sxs-lookup"><span data-stu-id="4e4e9-112">0x00190102</span></span>  <br/> |
-|<span data-ttu-id="4e4e9-113">Access:</span><span class="sxs-lookup"><span data-stu-id="4e4e9-113">Access:</span></span>  <br/> |<span data-ttu-id="4e4e9-114">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="4e4e9-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="aaaab-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="aaaab-107">Identifier:</span></span>  <br/> |<span data-ttu-id="aaaab-108">0x0019</span><span class="sxs-lookup"><span data-stu-id="aaaab-108">0x0019</span></span>  <br/> |
+|<span data-ttu-id="aaaab-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="aaaab-109">Property type:</span></span>  <br/> |<span data-ttu-id="aaaab-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="aaaab-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="aaaab-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="aaaab-111">Property tag:</span></span>  <br/> |<span data-ttu-id="aaaab-112">0x00190102</span><span class="sxs-lookup"><span data-stu-id="aaaab-112">0x00190102</span></span>  <br/> |
+|<span data-ttu-id="aaaab-113">Access:</span><span class="sxs-lookup"><span data-stu-id="aaaab-113">Access:</span></span>  <br/> |<span data-ttu-id="aaaab-114">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="aaaab-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4e4e9-115">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="4e4e9-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aaaab-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="aaaab-115">Remarks</span></span>
 
-<span data-ttu-id="4e4e9-116">Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.</span><span class="sxs-lookup"><span data-stu-id="4e4e9-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
+<span data-ttu-id="aaaab-116">Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.</span><span class="sxs-lookup"><span data-stu-id="aaaab-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
   
-<span data-ttu-id="4e4e9-117">A pasta de entrega padrão é a **caixa de entrada**.</span><span class="sxs-lookup"><span data-stu-id="4e4e9-117">The default delivery folder is **Inbox**.</span></span>
+<span data-ttu-id="aaaab-117">A pasta de entrega padrão é a **caixa de entrada**.</span><span class="sxs-lookup"><span data-stu-id="aaaab-117">The default delivery folder is **Inbox**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4e4e9-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="4e4e9-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aaaab-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="aaaab-118">See also</span></span>
 
-- [<span data-ttu-id="4e4e9-119">Sobre a API de gerenciamento de conta</span><span class="sxs-lookup"><span data-stu-id="4e4e9-119">About the Account Management API</span></span>](about-the-account-management-api.md)  
-- [<span data-ttu-id="4e4e9-120">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="4e4e9-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="aaaab-119">Sobre a API de gerenciamento de conta</span><span class="sxs-lookup"><span data-stu-id="aaaab-119">About the Account Management API</span></span>](about-the-account-management-api.md)  
+- [<span data-ttu-id="aaaab-120">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="aaaab-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

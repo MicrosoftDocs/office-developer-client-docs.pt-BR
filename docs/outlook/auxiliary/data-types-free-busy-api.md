@@ -14,14 +14,14 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765824"
 ---
-# <a name="data-types-freebusy-api"></a><span data-ttu-id="14c51-103">Tipos de dados (API de livre/ocupado)</span><span class="sxs-lookup"><span data-stu-id="14c51-103">Data types (Free/busy API)</span></span>
+# <a name="data-types-freebusy-api"></a><span data-ttu-id="4e3fe-103">Tipos de dados (API de livre/ocupado)</span><span class="sxs-lookup"><span data-stu-id="4e3fe-103">Data types (Free/busy API)</span></span>
 
-<span data-ttu-id="14c51-104">Esta seção descreve os tipos de dados na API disponível/ocupado.</span><span class="sxs-lookup"><span data-stu-id="14c51-104">This section describes the data types in the Free/Busy API.</span></span>
+<span data-ttu-id="4e3fe-104">Esta seção descreve os tipos de dados na API disponível/ocupado.</span><span class="sxs-lookup"><span data-stu-id="4e3fe-104">This section describes the data types in the Free/Busy API.</span></span>
   
-|<span data-ttu-id="14c51-105">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="14c51-105">**Data type**</span></span>|<span data-ttu-id="14c51-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="14c51-106">**Description**</span></span>|
+|<span data-ttu-id="4e3fe-105">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="4e3fe-105">**Data type**</span></span>|<span data-ttu-id="4e3fe-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4e3fe-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="14c51-107">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="14c51-107">FBBlock_1</span></span>](fbblock_1.md) <br/> |<span data-ttu-id="14c51-108">Define um bloco de informações de disponibilidade de dados.</span><span class="sxs-lookup"><span data-stu-id="14c51-108">Defines a free/busy block of data.</span></span>  <br/> |
-|[<span data-ttu-id="14c51-109">FBStatus</span><span class="sxs-lookup"><span data-stu-id="14c51-109">FBStatus</span></span>](fbstatus.md) <br/> |<span data-ttu-id="14c51-110">Uma enumeração para o status livre/ocupado de blocos de livre/ocupado.</span><span class="sxs-lookup"><span data-stu-id="14c51-110">An enumeration for the free/busy status of free/busy blocks.</span></span>  <br/> |
-|[<span data-ttu-id="14c51-111">FBUser</span><span class="sxs-lookup"><span data-stu-id="14c51-111">FBUser</span></span>](fbuser.md) <br/> |<span data-ttu-id="14c51-112">Identifica um usuário que pode ou não ter livre/ocupado dados disponíveis.</span><span class="sxs-lookup"><span data-stu-id="14c51-112">Identifies a user that may or may not have free/busy data available.</span></span>  <br/> |
+|[<span data-ttu-id="4e3fe-107">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="4e3fe-107">FBBlock_1</span></span>](fbblock_1.md) <br/> |<span data-ttu-id="4e3fe-108">Define um bloco de informações de disponibilidade de dados.</span><span class="sxs-lookup"><span data-stu-id="4e3fe-108">Defines a free/busy block of data.</span></span>  <br/> |
+|[<span data-ttu-id="4e3fe-109">FBStatus</span><span class="sxs-lookup"><span data-stu-id="4e3fe-109">FBStatus</span></span>](fbstatus.md) <br/> |<span data-ttu-id="4e3fe-110">Uma enumeração para o status livre/ocupado de blocos de livre/ocupado.</span><span class="sxs-lookup"><span data-stu-id="4e3fe-110">An enumeration for the free/busy status of free/busy blocks.</span></span>  <br/> |
+|[<span data-ttu-id="4e3fe-111">FBUser</span><span class="sxs-lookup"><span data-stu-id="4e3fe-111">FBUser</span></span>](fbuser.md) <br/> |<span data-ttu-id="4e3fe-112">Identifica um usuário que pode ou não ter livre/ocupado dados disponíveis.</span><span class="sxs-lookup"><span data-stu-id="4e3fe-112">Identifies a user that may or may not have free/busy data available.</span></span>  <br/> |
    
 

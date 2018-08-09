@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767064"
 ---
-# <a name="imapiformmgrprepareform"></a><span data-ttu-id="9f08f-103">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="9f08f-103">IMAPIFormMgr::PrepareForm</span></span>
+# <a name="imapiformmgrprepareform"></a><span data-ttu-id="56558-103">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="56558-103">IMAPIFormMgr::PrepareForm</span></span>
 
   
   
-<span data-ttu-id="9f08f-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="9f08f-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="56558-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="56558-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="9f08f-105">Baixa um formulário para abertura.</span><span class="sxs-lookup"><span data-stu-id="9f08f-105">Downloads a form for opening.</span></span>
+<span data-ttu-id="56558-105">Baixa um formulário para abertura.</span><span class="sxs-lookup"><span data-stu-id="56558-105">Downloads a form for opening.</span></span>
   
 ```cpp
 HRESULT PrepareForm(
@@ -35,43 +35,43 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9f08f-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="9f08f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="56558-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="56558-106">Parameters</span></span>
 
- <span data-ttu-id="9f08f-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="9f08f-107">_ulUIParam_</span></span>
+ <span data-ttu-id="56558-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="56558-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="9f08f-108">[in] Um identificador para a janela pai do indicador de progresso é exibida enquanto o formulário é baixado.</span><span class="sxs-lookup"><span data-stu-id="9f08f-108">[in] A handle to the parent window of the progress indicator that is displayed while the form is downloaded.</span></span> <span data-ttu-id="9f08f-109">O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="9f08f-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="56558-108">[in] Um identificador para a janela pai do indicador de progresso é exibida enquanto o formulário é baixado.</span><span class="sxs-lookup"><span data-stu-id="56558-108">[in] A handle to the parent window of the progress indicator that is displayed while the form is downloaded.</span></span> <span data-ttu-id="56558-109">O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="56558-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="9f08f-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="9f08f-110">_ulFlags_</span></span>
+ <span data-ttu-id="56558-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="56558-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="9f08f-111">[in] Uma bitmask dos sinalizadores que controla como o formulário é baixado.</span><span class="sxs-lookup"><span data-stu-id="9f08f-111">[in] A bitmask of flags that controls how the form is downloaded.</span></span> <span data-ttu-id="9f08f-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="9f08f-112">The following flag can be set:</span></span>
+> <span data-ttu-id="56558-111">[in] Uma bitmask dos sinalizadores que controla como o formulário é baixado.</span><span class="sxs-lookup"><span data-stu-id="56558-111">[in] A bitmask of flags that controls how the form is downloaded.</span></span> <span data-ttu-id="56558-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="56558-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="9f08f-113">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="9f08f-113">MAPI_DIALOG</span></span> 
+<span data-ttu-id="56558-113">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="56558-113">MAPI_DIALOG</span></span> 
   
-> <span data-ttu-id="9f08f-114">Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="9f08f-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="9f08f-115">Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.</span><span class="sxs-lookup"><span data-stu-id="9f08f-115">If this flag is not set, no user interface is displayed.</span></span>
+> <span data-ttu-id="56558-114">Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="56558-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="56558-115">Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.</span><span class="sxs-lookup"><span data-stu-id="56558-115">If this flag is not set, no user interface is displayed.</span></span>
     
- <span data-ttu-id="9f08f-116">_pfrmiInfo_</span><span class="sxs-lookup"><span data-stu-id="9f08f-116">_pfrmiInfo_</span></span>
+ <span data-ttu-id="56558-116">_pfrmiInfo_</span><span class="sxs-lookup"><span data-stu-id="56558-116">_pfrmiInfo_</span></span>
   
-> <span data-ttu-id="9f08f-117">[in] Um ponteiro para um objeto de informações de formulário para o formulário sejam baixados.</span><span class="sxs-lookup"><span data-stu-id="9f08f-117">[in] A pointer to a form information object for the form to be downloaded.</span></span>
+> <span data-ttu-id="56558-117">[in] Um ponteiro para um objeto de informações de formulário para o formulário sejam baixados.</span><span class="sxs-lookup"><span data-stu-id="56558-117">[in] A pointer to a form information object for the form to be downloaded.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9f08f-118">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="9f08f-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="56558-118">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="56558-118">Return value</span></span>
 
-<span data-ttu-id="9f08f-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="9f08f-119">S_OK</span></span> 
+<span data-ttu-id="56558-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="56558-119">S_OK</span></span> 
   
-> <span data-ttu-id="9f08f-120">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="9f08f-120">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="56558-120">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="56558-120">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="9f08f-121">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="9f08f-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="56558-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="56558-121">Remarks</span></span>
 
-<span data-ttu-id="9f08f-122">Visualizadores de formulário chame o método de **IMAPIFormMgr::PrepareForm** para baixar um formulário a partir de um contêiner de formulário para abertura.</span><span class="sxs-lookup"><span data-stu-id="9f08f-122">Form viewers call the **IMAPIFormMgr::PrepareForm** method to download a form from a form container for opening.</span></span> <span data-ttu-id="9f08f-123">A maioria dos visualizadores de formulário não é necessário chamar **PrepareForm**, pois métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) tanto o [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário.</span><span class="sxs-lookup"><span data-stu-id="9f08f-123">Most form viewers do not need to call **PrepareForm**, because both the [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) and [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) methods call **PrepareForm**, if necessary.</span></span> 
+<span data-ttu-id="56558-122">Visualizadores de formulário chame o método de **IMAPIFormMgr::PrepareForm** para baixar um formulário a partir de um contêiner de formulário para abertura.</span><span class="sxs-lookup"><span data-stu-id="56558-122">Form viewers call the **IMAPIFormMgr::PrepareForm** method to download a form from a form container for opening.</span></span> <span data-ttu-id="56558-123">A maioria dos visualizadores de formulário não é necessário chamar **PrepareForm**, pois métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) tanto o [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário.</span><span class="sxs-lookup"><span data-stu-id="56558-123">Most form viewers do not need to call **PrepareForm**, because both the [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) and [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) methods call **PrepareForm**, if necessary.</span></span> 
   
-<span data-ttu-id="9f08f-124">Você pode usar **PrepareForm** para obter as bibliotecas de vínculos dinâmicos (DLLs) e outros arquivos associados a um formulário para modificá-los.</span><span class="sxs-lookup"><span data-stu-id="9f08f-124">You can use **PrepareForm** to obtain the dynamic-link libraries (DLLs) and other files associated with a form to modify them.</span></span> <span data-ttu-id="9f08f-125">Se o formulário modificado for carregado de volta para seu contêiner de formulário, ele deve ser reinstalado.</span><span class="sxs-lookup"><span data-stu-id="9f08f-125">If the modified form is loaded back into its form container, it must be reinstalled.</span></span> 
+<span data-ttu-id="56558-124">Você pode usar **PrepareForm** para obter as bibliotecas de vínculos dinâmicos (DLLs) e outros arquivos associados a um formulário para modificá-los.</span><span class="sxs-lookup"><span data-stu-id="56558-124">You can use **PrepareForm** to obtain the dynamic-link libraries (DLLs) and other files associated with a form to modify them.</span></span> <span data-ttu-id="56558-125">Se o formulário modificado for carregado de volta para seu contêiner de formulário, ele deve ser reinstalado.</span><span class="sxs-lookup"><span data-stu-id="56558-125">If the modified form is loaded back into its form container, it must be reinstalled.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="9f08f-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="9f08f-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56558-126">Confira também</span><span class="sxs-lookup"><span data-stu-id="56558-126">See also</span></span>
 
 
 
-[<span data-ttu-id="9f08f-127">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="9f08f-127">IMAPIFormMgr::CreateForm</span></span>](imapiformmgr-createform.md)
+[<span data-ttu-id="56558-127">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="56558-127">IMAPIFormMgr::CreateForm</span></span>](imapiformmgr-createform.md)
   
-[<span data-ttu-id="9f08f-128">IMAPIFormMgr::LoadForm</span><span class="sxs-lookup"><span data-stu-id="9f08f-128">IMAPIFormMgr::LoadForm</span></span>](imapiformmgr-loadform.md)
+[<span data-ttu-id="56558-128">IMAPIFormMgr::LoadForm</span><span class="sxs-lookup"><span data-stu-id="56558-128">IMAPIFormMgr::LoadForm</span></span>](imapiformmgr-loadform.md)
   
-[<span data-ttu-id="9f08f-129">IMAPIFormMgr: IUnknown</span><span class="sxs-lookup"><span data-stu-id="9f08f-129">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
+[<span data-ttu-id="56558-129">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="56558-129">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
 

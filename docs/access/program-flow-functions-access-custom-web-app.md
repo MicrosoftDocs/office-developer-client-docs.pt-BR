@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765212"
 ---
-# <a name="program-flow-functions-access-custom-web-app"></a><span data-ttu-id="cef0a-102">Funções de fluxo de programa (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="cef0a-102">Program flow functions (Access custom web app)</span></span>
+# <a name="program-flow-functions-access-custom-web-app"></a><span data-ttu-id="093f8-102">Funções de fluxo de programa (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="093f8-102">Program flow functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cef0a-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="cef0a-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="093f8-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="093f8-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="cef0a-105">Nesta se��o</span><span class="sxs-lookup"><span data-stu-id="cef0a-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="093f8-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="093f8-105">In this section</span></span>
 
-- [<span data-ttu-id="cef0a-106">Escolha a função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="cef0a-106">Choose Function (Access custom web app)</span></span>](choose-function-access-custom-web-app.md)
+- [<span data-ttu-id="093f8-106">Escolha a função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="093f8-106">Choose Function (Access custom web app)</span></span>](choose-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="cef0a-107">Função IIf (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="cef0a-107">IIf Function (Access custom web app)</span></span>](iif-function-access-custom-web-app.md)
+- [<span data-ttu-id="093f8-107">Função IIf (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="093f8-107">IIf Function (Access custom web app)</span></span>](iif-function-access-custom-web-app.md)
     
 

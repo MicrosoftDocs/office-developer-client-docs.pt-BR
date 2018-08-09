@@ -14,26 +14,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766060"
 ---
-# <a name="propmapiidentityentryid"></a><span data-ttu-id="5160b-103">PROP_MAPI_IDENTITY_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="5160b-103">PROP_MAPI_IDENTITY_ENTRYID</span></span>
+# <a name="propmapiidentityentryid"></a><span data-ttu-id="f0813-103">PROP_MAPI_IDENTITY_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="f0813-103">PROP_MAPI_IDENTITY_ENTRYID</span></span>
 
-<span data-ttu-id="5160b-104">Obtém ou define a identificação de entrada do catálogo de endereços para a conta.</span><span class="sxs-lookup"><span data-stu-id="5160b-104">Retrieves or sets the address book entry ID for the account.</span></span>
+<span data-ttu-id="f0813-104">Obtém ou define a identificação de entrada do catálogo de endereços para a conta.</span><span class="sxs-lookup"><span data-stu-id="f0813-104">Retrieves or sets the address book entry ID for the account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="5160b-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="5160b-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f0813-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="f0813-105">Quick info</span></span>
 
-<span data-ttu-id="5160b-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="5160b-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="f0813-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="f0813-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5160b-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="5160b-107">Identifier:</span></span>  <br/> |<span data-ttu-id="5160b-108">0x2002</span><span class="sxs-lookup"><span data-stu-id="5160b-108">0x2002</span></span>  <br/> |
-|<span data-ttu-id="5160b-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="5160b-109">Property type:</span></span>  <br/> |<span data-ttu-id="5160b-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="5160b-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="5160b-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="5160b-111">Property tag:</span></span>  <br/> |<span data-ttu-id="5160b-112">0x20020102</span><span class="sxs-lookup"><span data-stu-id="5160b-112">0x20020102</span></span>  <br/> |
-|<span data-ttu-id="5160b-113">Access:</span><span class="sxs-lookup"><span data-stu-id="5160b-113">Access:</span></span>  <br/> |<span data-ttu-id="5160b-114">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="5160b-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="f0813-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="f0813-107">Identifier:</span></span>  <br/> |<span data-ttu-id="f0813-108">0x2002</span><span class="sxs-lookup"><span data-stu-id="f0813-108">0x2002</span></span>  <br/> |
+|<span data-ttu-id="f0813-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="f0813-109">Property type:</span></span>  <br/> |<span data-ttu-id="f0813-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="f0813-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="f0813-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="f0813-111">Property tag:</span></span>  <br/> |<span data-ttu-id="f0813-112">0x20020102</span><span class="sxs-lookup"><span data-stu-id="f0813-112">0x20020102</span></span>  <br/> |
+|<span data-ttu-id="f0813-113">Access:</span><span class="sxs-lookup"><span data-stu-id="f0813-113">Access:</span></span>  <br/> |<span data-ttu-id="f0813-114">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="f0813-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5160b-115">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="5160b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f0813-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="f0813-115">Remarks</span></span>
 
- <span data-ttu-id="5160b-116">**PROP\_MAPI\_identidade\_ENTRYID** não deve existir em cada conta.</span><span class="sxs-lookup"><span data-stu-id="5160b-116">**PROP\_MAPI\_IDENTITY\_ENTRYID** is not expected to exist on every account.</span></span> <span data-ttu-id="5160b-117">Por exemplo, uma conta do Exchange poderia ter **PROP\_MAPI\_identidade\_ENTRYID** definido e não [PROP\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md)enquanto revertida para uma conta de SMTP/POP3 a situação.</span><span class="sxs-lookup"><span data-stu-id="5160b-117">For example, an Exchange account could have **PROP\_MAPI\_IDENTITY\_ENTRYID** set and not [PROP\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), while for an SMTP/POP3 account the situation is reversed.</span></span> <span data-ttu-id="5160b-118">**PROP\_MAPI_IDENTITY_ENTRYID** retorna uma identificação de entrada é semelhante ao valor retornado pela _lppEntryID_ em [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="5160b-118">**PROP\_MAPI_IDENTITY_ENTRYID** returns an entry ID that is similar to the value returned by  _lppEntryID_ in [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx).</span></span> 
+ <span data-ttu-id="f0813-116">**PROP\_MAPI\_identidade\_ENTRYID** não deve existir em cada conta.</span><span class="sxs-lookup"><span data-stu-id="f0813-116">**PROP\_MAPI\_IDENTITY\_ENTRYID** is not expected to exist on every account.</span></span> <span data-ttu-id="f0813-117">Por exemplo, uma conta do Exchange poderia ter **PROP\_MAPI\_identidade\_ENTRYID** definido e não [PROP\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md)enquanto revertida para uma conta de SMTP/POP3 a situação.</span><span class="sxs-lookup"><span data-stu-id="f0813-117">For example, an Exchange account could have **PROP\_MAPI\_IDENTITY\_ENTRYID** set and not [PROP\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), while for an SMTP/POP3 account the situation is reversed.</span></span> <span data-ttu-id="f0813-118">**PROP\_MAPI_IDENTITY_ENTRYID** retorna uma identificação de entrada é semelhante ao valor retornado pela _lppEntryID_ em [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="f0813-118">**PROP\_MAPI_IDENTITY_ENTRYID** returns an entry ID that is similar to the value returned by  _lppEntryID_ in [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5160b-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="5160b-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f0813-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="f0813-119">See also</span></span>
 
-- [<span data-ttu-id="5160b-120">Sobre a API de gerenciamento de conta</span><span class="sxs-lookup"><span data-stu-id="5160b-120">About the Account Management API</span></span>](about-the-account-management-api.md)
+- [<span data-ttu-id="f0813-120">Sobre a API de gerenciamento de conta</span><span class="sxs-lookup"><span data-stu-id="f0813-120">About the Account Management API</span></span>](about-the-account-management-api.md)
 

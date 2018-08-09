@@ -14,15 +14,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765237"
 ---
-# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="c4f08-103">Ação de Macro UndoRecord (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c4f08-103">UndoRecord Macro Action (Access custom web app)</span></span>
+# <a name="undorecord-macro-action-access-custom-web-app"></a><span data-ttu-id="3d28c-103">Ação de Macro UndoRecord (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="3d28c-103">UndoRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="c4f08-104">Descarta as alterações no registro atual.</span><span class="sxs-lookup"><span data-stu-id="c4f08-104">Discards changes to the current record.</span></span>
+<span data-ttu-id="3d28c-104">Descarta as alterações no registro atual.</span><span class="sxs-lookup"><span data-stu-id="3d28c-104">Discards changes to the current record.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="c4f08-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="c4f08-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3d28c-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="3d28c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="c4f08-107">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="c4f08-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3d28c-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="3d28c-107">Remarks</span></span>
 
-<span data-ttu-id="c4f08-108">A ação **UndoRecord** é equivalente ao uso o botão **Cancelar** na ação descartar alterações da barra.</span><span class="sxs-lookup"><span data-stu-id="c4f08-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
+<span data-ttu-id="3d28c-108">A ação **UndoRecord** é equivalente ao uso o botão **Cancelar** na ação descartar alterações da barra.</span><span class="sxs-lookup"><span data-stu-id="3d28c-108">The **UndoRecord** action is equivalent to using the **Cancel** button in the action bar discard changes.</span></span> 
   
 

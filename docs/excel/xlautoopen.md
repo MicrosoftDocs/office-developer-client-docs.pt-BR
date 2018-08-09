@@ -10,7 +10,7 @@ keywords:
 - função xlAutoOpen [excel 2007]
 localization_priority: Normal
 ms.assetid: 748cecb6-61d0-496b-a1a4-a73d22eb29e2
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: bf64841cbd75e25443abe5cfc7d3d7419757e245
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,56 +18,56 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765449"
 ---
-# <a name="xlautoopen"></a><span data-ttu-id="8bc01-104">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="8bc01-104">xlAutoOpen</span></span>
+# <a name="xlautoopen"></a><span data-ttu-id="3cfc0-104">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="3cfc0-104">xlAutoOpen</span></span>
 
- <span data-ttu-id="8bc01-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8bc01-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="3cfc0-105">**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="3cfc0-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="8bc01-106">Função de retorno de chamada que deve ser implementada e exportá-los por cada XLL válido.</span><span class="sxs-lookup"><span data-stu-id="8bc01-106">Callback function that must be implemented and exported by every valid XLL.</span></span> <span data-ttu-id="8bc01-107">A função de **xlAutoOpen** é o local recomendado de onde para registrar funções e comandos XLL, inicializar estruturas de dados, personalize a interface do usuário e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="8bc01-107">The **xlAutoOpen** function is the recommended place from where to register XLL functions and commands, initialize data structures, customize the user interface, and so on.</span></span> 
+<span data-ttu-id="3cfc0-106">Função de retorno de chamada que deve ser implementada e exportá-los por cada XLL válido.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-106">Callback function that must be implemented and exported by every valid XLL.</span></span> <span data-ttu-id="3cfc0-107">A função de **xlAutoOpen** é o local recomendado de onde para registrar funções e comandos XLL, inicializar estruturas de dados, personalize a interface do usuário e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-107">The **xlAutoOpen** function is the recommended place from where to register XLL functions and commands, initialize data structures, customize the user interface, and so on.</span></span> 
   
 ```cs
 int WINAPI xlAutoOpen(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8bc01-108">Par�metros</span><span class="sxs-lookup"><span data-stu-id="8bc01-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3cfc0-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3cfc0-108">Parameters</span></span>
 
-<span data-ttu-id="8bc01-109">Essa função não assume nenhum argumento.</span><span class="sxs-lookup"><span data-stu-id="8bc01-109">This function takes no arguments.</span></span>
+<span data-ttu-id="3cfc0-109">Essa função não usa argumentos.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-109">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="8bc01-110">Propriedade valor/valor de retorno</span><span class="sxs-lookup"><span data-stu-id="8bc01-110">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="3cfc0-110">Valor de propriedade/Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3cfc0-110">Property value/Return value</span></span>
 
-<span data-ttu-id="8bc01-111">A implementação dessa função deve retornar 1 (**int**).</span><span class="sxs-lookup"><span data-stu-id="8bc01-111">Your implementation of this function must return 1 (**int**).</span></span>
+<span data-ttu-id="3cfc0-111">A implementação dessa função deve retornar 1 (**int**).</span><span class="sxs-lookup"><span data-stu-id="3cfc0-111">Your implementation of this function must return 1 (**int**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8bc01-112">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="8bc01-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3cfc0-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="3cfc0-112">Remarks</span></span>
 
-<span data-ttu-id="8bc01-113">Microsoft Excel chama **xlAutoOpen** sempre que o XLL é ativado.</span><span class="sxs-lookup"><span data-stu-id="8bc01-113">Microsoft Excel calls **xlAutoOpen** whenever the XLL is activated.</span></span> <span data-ttu-id="8bc01-114">XLL é ativado nas seguintes situações:</span><span class="sxs-lookup"><span data-stu-id="8bc01-114">The XLL is activated in the following situations:</span></span> 
+<span data-ttu-id="3cfc0-113">Microsoft Excel chama **xlAutoOpen** sempre que o XLL é ativado.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-113">Microsoft Excel calls **xlAutoOpen** whenever the XLL is activated.</span></span> <span data-ttu-id="3cfc0-114">XLL é ativado nas seguintes situações:</span><span class="sxs-lookup"><span data-stu-id="3cfc0-114">The XLL is activated in the following situations:</span></span> 
   
-- <span data-ttu-id="8bc01-115">No início de uma sessão do Excel, caso este tenha sido ativa na última sessão Excel que terminou normalmente.</span><span class="sxs-lookup"><span data-stu-id="8bc01-115">At the start of an Excel session if it was active in the last Excel session that ended normally.</span></span>
+- <span data-ttu-id="3cfc0-115">No início de uma sessão do Excel, caso este tenha sido ativa na última sessão Excel que terminou normalmente.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-115">At the start of an Excel session if it was active in the last Excel session that ended normally.</span></span>
     
-- <span data-ttu-id="8bc01-116">Se carregado durante uma sessão do Excel.</span><span class="sxs-lookup"><span data-stu-id="8bc01-116">If loaded during an Excel session.</span></span>
+- <span data-ttu-id="3cfc0-116">Se carregado durante uma sessão do Excel.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-116">If loaded during an Excel session.</span></span>
     
-- <span data-ttu-id="8bc01-117">Um XLL pode ser carregado de várias maneiras:</span><span class="sxs-lookup"><span data-stu-id="8bc01-117">An XLL can be loaded in several ways:</span></span>
+- <span data-ttu-id="3cfc0-117">Um XLL pode ser carregado de várias maneiras:</span><span class="sxs-lookup"><span data-stu-id="3cfc0-117">An XLL can be loaded in several ways:</span></span>
     
-- <span data-ttu-id="8bc01-118">Escolhendo **Abrir** no menu **arquivo** (onde a versão do Excel oferece suporte a esse método de carregamento XLLs).</span><span class="sxs-lookup"><span data-stu-id="8bc01-118">By choosing **Open** on the **File** menu (where the version of Excel supports this method of loading XLLs).</span></span> 
+- <span data-ttu-id="3cfc0-118">Escolhendo **Abrir** no menu **arquivo** (onde a versão do Excel oferece suporte a esse método de carregamento XLLs).</span><span class="sxs-lookup"><span data-stu-id="3cfc0-118">By choosing **Open** on the **File** menu (where the version of Excel supports this method of loading XLLs).</span></span> 
     
-- <span data-ttu-id="8bc01-119">Usando o Gerenciador de suplemento.</span><span class="sxs-lookup"><span data-stu-id="8bc01-119">Using the Add-In Manager.</span></span>
+- <span data-ttu-id="3cfc0-119">Usando o Gerenciador de Suplemento.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-119">Using the Add-In Manager.</span></span>
     
-- <span data-ttu-id="8bc01-120">A partir de outra XLL que chama [xlfRegister](xlfregister-form-1.md) com o nome dessa DLL como o único argumento.</span><span class="sxs-lookup"><span data-stu-id="8bc01-120">From another XLL that calls [xlfRegister](xlfregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="3cfc0-120">A partir de outra XLL que chama [xlfRegister](xlfregister-form-1.md) com o nome dessa DLL como o único argumento.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-120">From another XLL that calls [xlfRegister](xlfregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-- <span data-ttu-id="8bc01-121">De uma folha de macro XLM que chama [registrar](xlfregister-form-1.md) com o nome dessa DLL como o único argumento.</span><span class="sxs-lookup"><span data-stu-id="8bc01-121">From an XLM macro sheet that calls [REGISTER](xlfregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="3cfc0-121">De uma folha de macro XLM que chama [registrar](xlfregister-form-1.md) com o nome dessa DLL como o único argumento.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-121">From an XLM macro sheet that calls [REGISTER](xlfregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-- <span data-ttu-id="8bc01-122">Se o suplemento é desativado e reativado durante uma sessão do Excel, essa função é chamada no reativação.</span><span class="sxs-lookup"><span data-stu-id="8bc01-122">If the add-in is deactivated and reactivated during an Excel session, this function is called on reactivation.</span></span>
+- <span data-ttu-id="3cfc0-122">Se o suplemento é desativado e reativado durante uma sessão do Excel, essa função é chamada no reativação.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-122">If the add-in is deactivated and reactivated during an Excel session, this function is called on reactivation.</span></span>
     
-### <a name="example"></a><span data-ttu-id="8bc01-123">Example</span><span class="sxs-lookup"><span data-stu-id="8bc01-123">Example</span></span>
+### <a name="example"></a><span data-ttu-id="3cfc0-123">Exemplo</span><span class="sxs-lookup"><span data-stu-id="3cfc0-123">Example</span></span>
 
-<span data-ttu-id="8bc01-124">Consulte os arquivos `SAMPLES\EXAMPLE\EXAMPLE.C` e `SAMPLES\GENERIC\GENERIC.C`e por exemplo implementações dessa função.</span><span class="sxs-lookup"><span data-stu-id="8bc01-124">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C`, and for example implementations of this function.</span></span>
+<span data-ttu-id="3cfc0-124">Consulte os arquivos `SAMPLES\EXAMPLE\EXAMPLE.C` e `SAMPLES\GENERIC\GENERIC.C`e por exemplo implementações dessa função.</span><span class="sxs-lookup"><span data-stu-id="3cfc0-124">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C`, and for example implementations of this function.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8bc01-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="8bc01-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3cfc0-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="3cfc0-125">See also</span></span>
 
 
 
-[<span data-ttu-id="8bc01-126">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="8bc01-126">xlAutoClose</span></span>](xlautoclose.md)
+[<span data-ttu-id="3cfc0-126">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="3cfc0-126">xlAutoClose</span></span>](xlautoclose.md)
   
-[<span data-ttu-id="8bc01-127">xlAutoRegister/xlAutoRegister12</span><span class="sxs-lookup"><span data-stu-id="8bc01-127">xlAutoRegister/xlAutoRegister12</span></span>](xlautoregister-xlautoregister12.md)
+[<span data-ttu-id="3cfc0-127">xlAutoRegister/xlAutoRegister12</span><span class="sxs-lookup"><span data-stu-id="3cfc0-127">xlAutoRegister/xlAutoRegister12</span></span>](xlautoregister-xlautoregister12.md)
 
 
-[<span data-ttu-id="8bc01-128">Gerenciador de suplemento e funções da Interface XLL</span><span class="sxs-lookup"><span data-stu-id="8bc01-128">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
+[<span data-ttu-id="3cfc0-128">Gerenciador de Suplemento e Funções da Interface XLL</span><span class="sxs-lookup"><span data-stu-id="3cfc0-128">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
 

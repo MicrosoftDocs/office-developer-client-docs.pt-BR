@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766576"
 ---
-# <a name="followupstatus"></a><span data-ttu-id="f12da-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="f12da-103">FollowUpStatus</span></span>
+# <a name="followupstatus"></a><span data-ttu-id="c6e42-103">FollowUpStatus</span><span class="sxs-lookup"><span data-stu-id="c6e42-103">FollowUpStatus</span></span>
 
   
   
-<span data-ttu-id="f12da-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="f12da-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="c6e42-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c6e42-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="f12da-105">Especifica os status de acompanhamento diferentes para uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="f12da-105">Specifies the different follow-up statuses for a message.</span></span>
+<span data-ttu-id="c6e42-105">Especifica os status de acompanhamento diferentes para uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="c6e42-105">Specifies the different follow-up statuses for a message.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f12da-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="f12da-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c6e42-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="c6e42-106">Quick info</span></span>
 
 ```cpp
 enum FollowUpStatus { 
@@ -34,27 +34,27 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f12da-107">Membros</span><span class="sxs-lookup"><span data-stu-id="f12da-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c6e42-107">Members</span><span class="sxs-lookup"><span data-stu-id="c6e42-107">Members</span></span>
 
- <span data-ttu-id="f12da-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="f12da-108">_flwupNone_</span></span>
+ <span data-ttu-id="c6e42-108">_flwupNone_</span><span class="sxs-lookup"><span data-stu-id="c6e42-108">_flwupNone_</span></span>
   
-> <span data-ttu-id="f12da-109">Nenhum acompanhamento foi especificado.</span><span class="sxs-lookup"><span data-stu-id="f12da-109">No follow-up has been specified.</span></span>
+> <span data-ttu-id="c6e42-109">Nenhum acompanhamento foi especificado.</span><span class="sxs-lookup"><span data-stu-id="c6e42-109">No follow-up has been specified.</span></span>
     
- <span data-ttu-id="f12da-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="f12da-110">_flwupComplete_</span></span>
+ <span data-ttu-id="c6e42-110">_flwupComplete_</span><span class="sxs-lookup"><span data-stu-id="c6e42-110">_flwupComplete_</span></span>
   
-> <span data-ttu-id="f12da-111">A mensagem foi concluída.</span><span class="sxs-lookup"><span data-stu-id="f12da-111">The message is complete.</span></span>
+> <span data-ttu-id="c6e42-111">A mensagem foi concluída.</span><span class="sxs-lookup"><span data-stu-id="c6e42-111">The message is complete.</span></span>
     
- <span data-ttu-id="f12da-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="f12da-112">_flwupMarked_</span></span>
+ <span data-ttu-id="c6e42-112">_flwupMarked_</span><span class="sxs-lookup"><span data-stu-id="c6e42-112">_flwupMarked_</span></span>
   
-> <span data-ttu-id="f12da-113">A mensagem é marcada para acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="f12da-113">The message is marked for follow-up.</span></span>
+> <span data-ttu-id="c6e42-113">A mensagem é marcada para acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="c6e42-113">The message is marked for follow-up.</span></span>
     
- <span data-ttu-id="f12da-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="f12da-114">_flwupMAX_</span></span>
+ <span data-ttu-id="c6e42-114">_flwupMAX_</span><span class="sxs-lookup"><span data-stu-id="c6e42-114">_flwupMAX_</span></span>
   
-> <span data-ttu-id="f12da-115">O número de status diferentes com suporte para acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="f12da-115">The number of different statuses supported for follow-up.</span></span>
+> <span data-ttu-id="c6e42-115">O número de status diferentes com suporte para acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="c6e42-115">The number of different statuses supported for follow-up.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f12da-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="f12da-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6e42-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="c6e42-116">See also</span></span>
 
 
 
-[<span data-ttu-id="f12da-117">Propriedade canônico de PidTagFlagStatus</span><span class="sxs-lookup"><span data-stu-id="f12da-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
+[<span data-ttu-id="c6e42-117">Propriedade canônica PidTagFlagStatus</span><span class="sxs-lookup"><span data-stu-id="c6e42-117">PidTagFlagStatus Canonical Property</span></span>](pidtagflagstatus-canonical-property.md)
 

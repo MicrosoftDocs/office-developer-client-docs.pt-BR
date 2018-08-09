@@ -15,15 +15,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766646"
 ---
-# <a name="gender"></a><span data-ttu-id="31ea5-103">Gênero</span><span class="sxs-lookup"><span data-stu-id="31ea5-103">Gender</span></span>
+# <a name="gender"></a><span data-ttu-id="ac25a-103">Gênero</span><span class="sxs-lookup"><span data-stu-id="ac25a-103">Gender</span></span>
 
   
   
-<span data-ttu-id="31ea5-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="31ea5-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="ac25a-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="ac25a-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="31ea5-105">Especifica os valores possíveis para o gênero de um usuário de mensagens.</span><span class="sxs-lookup"><span data-stu-id="31ea5-105">Specifies the possible values for the gender of a messaging user.</span></span>
+<span data-ttu-id="ac25a-105">Especifica os valores possíveis para o gênero de um usuário de mensagens.</span><span class="sxs-lookup"><span data-stu-id="ac25a-105">Specifies the possible values for the gender of a messaging user.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="31ea5-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="31ea5-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="ac25a-106">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="ac25a-106">Quick info</span></span>
 
 ```cpp
 enum Gender { 
@@ -37,35 +37,35 @@ enum Gender {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="31ea5-107">Membros</span><span class="sxs-lookup"><span data-stu-id="31ea5-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ac25a-107">Members</span><span class="sxs-lookup"><span data-stu-id="ac25a-107">Members</span></span>
 
- <span data-ttu-id="31ea5-108">_genderMin_</span><span class="sxs-lookup"><span data-stu-id="31ea5-108">_genderMin_</span></span>
+ <span data-ttu-id="ac25a-108">_genderMin_</span><span class="sxs-lookup"><span data-stu-id="ac25a-108">_genderMin_</span></span>
   
-> <span data-ttu-id="31ea5-109">O número mínimo de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="31ea5-109">The minimum number of different values supported for the gender.</span></span>
+> <span data-ttu-id="ac25a-109">O número mínimo de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="ac25a-109">The minimum number of different values supported for the gender.</span></span>
     
- <span data-ttu-id="31ea5-110">_genderUnspecified_</span><span class="sxs-lookup"><span data-stu-id="31ea5-110">_genderUnspecified_</span></span>
+ <span data-ttu-id="ac25a-110">_genderUnspecified_</span><span class="sxs-lookup"><span data-stu-id="ac25a-110">_genderUnspecified_</span></span>
   
-> <span data-ttu-id="31ea5-111">O gênero não for especificado para o usuário de mensagens.</span><span class="sxs-lookup"><span data-stu-id="31ea5-111">The gender is not specified for the messaging user.</span></span>
+> <span data-ttu-id="ac25a-111">O gênero não for especificado para o usuário de mensagens.</span><span class="sxs-lookup"><span data-stu-id="ac25a-111">The gender is not specified for the messaging user.</span></span>
     
- <span data-ttu-id="31ea5-112">_genderFemale_</span><span class="sxs-lookup"><span data-stu-id="31ea5-112">_genderFemale_</span></span>
+ <span data-ttu-id="ac25a-112">_genderFemale_</span><span class="sxs-lookup"><span data-stu-id="ac25a-112">_genderFemale_</span></span>
   
-> <span data-ttu-id="31ea5-113">O usuário de mensagens é feminino.</span><span class="sxs-lookup"><span data-stu-id="31ea5-113">The messaging user is female.</span></span>
+> <span data-ttu-id="ac25a-113">O usuário de mensagens é feminino.</span><span class="sxs-lookup"><span data-stu-id="ac25a-113">The messaging user is female.</span></span>
     
- <span data-ttu-id="31ea5-114">_genderMale_</span><span class="sxs-lookup"><span data-stu-id="31ea5-114">_genderMale_</span></span>
+ <span data-ttu-id="ac25a-114">_genderMale_</span><span class="sxs-lookup"><span data-stu-id="ac25a-114">_genderMale_</span></span>
   
-> <span data-ttu-id="31ea5-115">O usuário de mensagens é Masculino.</span><span class="sxs-lookup"><span data-stu-id="31ea5-115">The messaging user is male.</span></span>
+> <span data-ttu-id="ac25a-115">O usuário de mensagens é Masculino.</span><span class="sxs-lookup"><span data-stu-id="ac25a-115">The messaging user is male.</span></span>
     
- <span data-ttu-id="31ea5-116">_genderCount_</span><span class="sxs-lookup"><span data-stu-id="31ea5-116">_genderCount_</span></span>
+ <span data-ttu-id="ac25a-116">_genderCount_</span><span class="sxs-lookup"><span data-stu-id="ac25a-116">_genderCount_</span></span>
   
-> <span data-ttu-id="31ea5-117">O número de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="31ea5-117">The number of different values supported for the gender.</span></span>
+> <span data-ttu-id="ac25a-117">O número de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="ac25a-117">The number of different values supported for the gender.</span></span>
     
- <span data-ttu-id="31ea5-118">_genderMax_</span><span class="sxs-lookup"><span data-stu-id="31ea5-118">_genderMax_</span></span>
+ <span data-ttu-id="ac25a-118">_genderMax_</span><span class="sxs-lookup"><span data-stu-id="ac25a-118">_genderMax_</span></span>
   
-> <span data-ttu-id="31ea5-119">O número máximo de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="31ea5-119">The maximum number of different values supported for the gender.</span></span>
+> <span data-ttu-id="ac25a-119">O número máximo de diferentes valores suportados para o gênero.</span><span class="sxs-lookup"><span data-stu-id="ac25a-119">The maximum number of different values supported for the gender.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="31ea5-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="31ea5-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ac25a-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="ac25a-120">See also</span></span>
 
 
 
-[<span data-ttu-id="31ea5-121">Propriedade canônico de PidTagGender</span><span class="sxs-lookup"><span data-stu-id="31ea5-121">PidTagGender Canonical Property</span></span>](pidtaggender-canonical-property.md)
+[<span data-ttu-id="ac25a-121">Propriedade canônica PidTagGender</span><span class="sxs-lookup"><span data-stu-id="ac25a-121">PidTagGender Canonical Property</span></span>](pidtaggender-canonical-property.md)
 

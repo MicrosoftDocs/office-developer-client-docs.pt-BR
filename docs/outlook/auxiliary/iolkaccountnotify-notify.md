@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765981"
 ---
-# <a name="iolkaccountnotifynotify"></a><span data-ttu-id="6ee27-103">IOlkAccountNotify::Notify</span><span class="sxs-lookup"><span data-stu-id="6ee27-103">IOlkAccountNotify::Notify</span></span>
+# <a name="iolkaccountnotifynotify"></a><span data-ttu-id="8905a-103">IOlkAccountNotify::Notify</span><span class="sxs-lookup"><span data-stu-id="8905a-103">IOlkAccountNotify::Notify</span></span>
 
-<span data-ttu-id="6ee27-104">Notifica o cliente de alterações para a conta especificada.</span><span class="sxs-lookup"><span data-stu-id="6ee27-104">Notifies the client of changes to the specified account.</span></span>
+<span data-ttu-id="8905a-104">Notifica o cliente de alterações para a conta especificada.</span><span class="sxs-lookup"><span data-stu-id="8905a-104">Notifies the client of changes to the specified account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="6ee27-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="6ee27-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8905a-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="8905a-105">Quick info</span></span>
 
-<span data-ttu-id="6ee27-106">Consulte [IOlkAccountNotify](iolkaccountnotify.md).</span><span class="sxs-lookup"><span data-stu-id="6ee27-106">See [IOlkAccountNotify](iolkaccountnotify.md).</span></span>
+<span data-ttu-id="8905a-106">Consulte [IOlkAccountNotify](iolkaccountnotify.md).</span><span class="sxs-lookup"><span data-stu-id="8905a-106">See [IOlkAccountNotify](iolkaccountnotify.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -31,36 +31,36 @@ HRESULT IOlkAccount::Notify(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6ee27-107">Par�metros</span><span class="sxs-lookup"><span data-stu-id="6ee27-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8905a-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="8905a-107">Parameters</span></span>
 
-<span data-ttu-id="6ee27-108">_dwNotify_</span><span class="sxs-lookup"><span data-stu-id="6ee27-108">_dwNotify_</span></span>
+<span data-ttu-id="8905a-108">_dwNotify_</span><span class="sxs-lookup"><span data-stu-id="8905a-108">_dwNotify_</span></span>
   
-> <span data-ttu-id="6ee27-109">[in] O tipo de notificação.</span><span class="sxs-lookup"><span data-stu-id="6ee27-109">[in] The type of notification.</span></span> <span data-ttu-id="6ee27-110">O valor deve ser uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="6ee27-110">The value must be one of the following:</span></span>
+> <span data-ttu-id="8905a-109">[in] O tipo de notificação.</span><span class="sxs-lookup"><span data-stu-id="8905a-109">[in] The type of notification.</span></span> <span data-ttu-id="8905a-110">O valor deve ser uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="8905a-110">The value must be one of the following:</span></span>
     
-   - <span data-ttu-id="6ee27-111">NOTIFY_ACCT_CHANGED</span><span class="sxs-lookup"><span data-stu-id="6ee27-111">NOTIFY_ACCT_CHANGED</span></span> 
+   - <span data-ttu-id="8905a-111">NOTIFY_ACCT_CHANGED</span><span class="sxs-lookup"><span data-stu-id="8905a-111">NOTIFY_ACCT_CHANGED</span></span> 
     
-   - <span data-ttu-id="6ee27-112">NOTIFY_ACCT_CREATED</span><span class="sxs-lookup"><span data-stu-id="6ee27-112">NOTIFY_ACCT_CREATED</span></span> 
+   - <span data-ttu-id="8905a-112">NOTIFY_ACCT_CREATED</span><span class="sxs-lookup"><span data-stu-id="8905a-112">NOTIFY_ACCT_CREATED</span></span> 
     
-   - <span data-ttu-id="6ee27-113">NOTIFY_ACCT_DELETED</span><span class="sxs-lookup"><span data-stu-id="6ee27-113">NOTIFY_ACCT_DELETED</span></span>
+   - <span data-ttu-id="8905a-113">NOTIFY_ACCT_DELETED</span><span class="sxs-lookup"><span data-stu-id="8905a-113">NOTIFY_ACCT_DELETED</span></span>
     
-   - <span data-ttu-id="6ee27-114">NOTIFY_ACCT_ORDER_CHANGED</span><span class="sxs-lookup"><span data-stu-id="6ee27-114">NOTIFY_ACCT_ORDER_CHANGED</span></span> 
+   - <span data-ttu-id="8905a-114">NOTIFY_ACCT_ORDER_CHANGED</span><span class="sxs-lookup"><span data-stu-id="8905a-114">NOTIFY_ACCT_ORDER_CHANGED</span></span> 
     
-   - <span data-ttu-id="6ee27-115">NOTIFY_ACCT_PREDELETED</span><span class="sxs-lookup"><span data-stu-id="6ee27-115">NOTIFY_ACCT_PREDELETED</span></span> 
+   - <span data-ttu-id="8905a-115">NOTIFY_ACCT_PREDELETED</span><span class="sxs-lookup"><span data-stu-id="8905a-115">NOTIFY_ACCT_PREDELETED</span></span> 
     
- <span data-ttu-id="6ee27-116">_dwAcctID_</span><span class="sxs-lookup"><span data-stu-id="6ee27-116">_dwAcctID_</span></span>
+ <span data-ttu-id="8905a-116">_dwAcctID_</span><span class="sxs-lookup"><span data-stu-id="8905a-116">_dwAcctID_</span></span>
   
-> <span data-ttu-id="6ee27-117">[in] A ID da conta da conta que tiver sido criada, alterado, excluído ou excluído anteriormente.</span><span class="sxs-lookup"><span data-stu-id="6ee27-117">[in] The account ID of the account that has been created, changed, deleted, or pre-deleted.</span></span>
+> <span data-ttu-id="8905a-117">[in] A ID da conta da conta que tiver sido criada, alterado, excluído ou excluído anteriormente.</span><span class="sxs-lookup"><span data-stu-id="8905a-117">[in] The account ID of the account that has been created, changed, deleted, or pre-deleted.</span></span>
     
- <span data-ttu-id="6ee27-118">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="6ee27-118">_dwFlags_</span></span>
+ <span data-ttu-id="8905a-118">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="8905a-118">_dwFlags_</span></span>
   
->  <span data-ttu-id="6ee27-119">[in] Não usado.</span><span class="sxs-lookup"><span data-stu-id="6ee27-119">[in] Not used.</span></span> <span data-ttu-id="6ee27-120">OLK_ACCOUNT_NO_FLAGS é o único valor com suporte.</span><span class="sxs-lookup"><span data-stu-id="6ee27-120">OLK_ACCOUNT_NO_FLAGS is the only supported value.</span></span> 
+>  <span data-ttu-id="8905a-119">[in] Não usado.</span><span class="sxs-lookup"><span data-stu-id="8905a-119">[in] Not used.</span></span> <span data-ttu-id="8905a-120">OLK_ACCOUNT_NO_FLAGS é o único valor com suporte.</span><span class="sxs-lookup"><span data-stu-id="8905a-120">OLK_ACCOUNT_NO_FLAGS is the only supported value.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="6ee27-121">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="6ee27-121">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8905a-121">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="8905a-121">Return values</span></span>
 
-<span data-ttu-id="6ee27-122">S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="6ee27-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="8905a-122">S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.</span><span class="sxs-lookup"><span data-stu-id="8905a-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="6ee27-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="6ee27-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8905a-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="8905a-123">See also</span></span>
 
-- [<span data-ttu-id="6ee27-124">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="6ee27-124">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="6ee27-125">IOlkAccountManager</span><span class="sxs-lookup"><span data-stu-id="6ee27-125">IOlkAccountManager</span></span>](iolkaccountmanager.md)
+- [<span data-ttu-id="8905a-124">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="8905a-124">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="8905a-125">IOlkAccountManager</span><span class="sxs-lookup"><span data-stu-id="8905a-125">IOlkAccountManager</span></span>](iolkaccountmanager.md)
 

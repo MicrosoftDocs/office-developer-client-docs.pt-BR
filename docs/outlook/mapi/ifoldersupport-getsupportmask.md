@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766928"
 ---
-# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="d7cd0-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="d7cd0-103">IFolderSupport::GetSupportMask</span></span>
+# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="77546-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="77546-103">IFolderSupport::GetSupportMask</span></span>
 
   
   
-<span data-ttu-id="d7cd0-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="d7cd0-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="77546-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="77546-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="d7cd0-105">Obtém informações sobre o suporte de uma pasta para compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="d7cd0-105">Gets information about a folder's support for sharing.</span></span>
+<span data-ttu-id="77546-105">Obtém informações sobre o suporte de uma pasta para compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="77546-105">Gets information about a folder's support for sharing.</span></span>
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -33,24 +33,24 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d7cd0-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="d7cd0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="77546-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="77546-106">Parameters</span></span>
 
- <span data-ttu-id="d7cd0-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="d7cd0-107">_pdwSupportMask_</span></span>
+ <span data-ttu-id="77546-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="77546-107">_pdwSupportMask_</span></span>
   
-> <span data-ttu-id="d7cd0-108">[out] Uma máscara de bits que indica se a pasta oferece suporte a compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="d7cd0-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
+> <span data-ttu-id="77546-108">[out] Uma máscara de bits que indica se a pasta oferece suporte a compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="77546-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
     
- <span data-ttu-id="d7cd0-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="d7cd0-109">**FS_NONE**</span></span>
+ <span data-ttu-id="77546-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="77546-109">**FS_NONE**</span></span>
   
-> <span data-ttu-id="d7cd0-110">Indica que a pasta não oferece suporte a compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="d7cd0-110">Indicates that the folder does not support sharing.</span></span>
+> <span data-ttu-id="77546-110">Indica que a pasta não oferece suporte a compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="77546-110">Indicates that the folder does not support sharing.</span></span>
     
- <span data-ttu-id="d7cd0-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="d7cd0-111">**FS_SUPPORTS_SHARING**</span></span>
+ <span data-ttu-id="77546-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="77546-111">**FS_SUPPORTS_SHARING**</span></span>
   
-> <span data-ttu-id="d7cd0-112">Indica que a pasta suporta compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="d7cd0-112">Indicates that the folder supports sharing.</span></span>
+> <span data-ttu-id="77546-112">Indica que a pasta suporta compartilhamento.</span><span class="sxs-lookup"><span data-stu-id="77546-112">Indicates that the folder supports sharing.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d7cd0-113">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="d7cd0-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="77546-113">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="77546-113">Return value</span></span>
 
-<span data-ttu-id="d7cd0-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="d7cd0-114">S_OK</span></span> 
+<span data-ttu-id="77546-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="77546-114">S_OK</span></span> 
   
-> <span data-ttu-id="d7cd0-115">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="d7cd0-115">The call was successful.</span></span>
+> <span data-ttu-id="77546-115">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="77546-115">The call was successful.</span></span>
     
 

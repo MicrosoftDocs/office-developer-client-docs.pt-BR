@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767240"
 ---
-# <a name="imapisupportmodifystatusrow"></a><span data-ttu-id="f271a-103">IMAPISupport::ModifyStatusRow</span><span class="sxs-lookup"><span data-stu-id="f271a-103">IMAPISupport::ModifyStatusRow</span></span>
+# <a name="imapisupportmodifystatusrow"></a><span data-ttu-id="32e4d-103">IMAPISupport::ModifyStatusRow</span><span class="sxs-lookup"><span data-stu-id="32e4d-103">IMAPISupport::ModifyStatusRow</span></span>
 
   
   
-<span data-ttu-id="f271a-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="f271a-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="32e4d-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="32e4d-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="f271a-105">Modifica a tabela de status, adicionando uma nova linha ou modificando uma linha existente.</span><span class="sxs-lookup"><span data-stu-id="f271a-105">Modifies the status table by adding a new row or modifying an existing row.</span></span>
+<span data-ttu-id="32e4d-105">Modifica a tabela de status, adicionando uma nova linha ou modificando uma linha existente.</span><span class="sxs-lookup"><span data-stu-id="32e4d-105">Modifies the status table by adding a new row or modifying an existing row.</span></span>
   
 ```cpp
 HRESULT ModifyStatusRow(
@@ -35,45 +35,45 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f271a-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="f271a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="32e4d-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="32e4d-106">Parameters</span></span>
 
- <span data-ttu-id="f271a-107">_cValues_</span><span class="sxs-lookup"><span data-stu-id="f271a-107">_cValues_</span></span>
+ <span data-ttu-id="32e4d-107">_cValues_</span><span class="sxs-lookup"><span data-stu-id="32e4d-107">_cValues_</span></span>
   
-> <span data-ttu-id="f271a-108">[in] A contagem de propriedades a serem incluídas na linha da tabela de status de novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="f271a-108">[in] The count of properties to be included in the new or modified status table row.</span></span> 
+> <span data-ttu-id="32e4d-108">[in] A contagem de propriedades a serem incluídas na linha da tabela de status de novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="32e4d-108">[in] The count of properties to be included in the new or modified status table row.</span></span> 
     
- <span data-ttu-id="f271a-109">_lpColumnVals_</span><span class="sxs-lookup"><span data-stu-id="f271a-109">_lpColumnVals_</span></span>
+ <span data-ttu-id="32e4d-109">_lpColumnVals_</span><span class="sxs-lookup"><span data-stu-id="32e4d-109">_lpColumnVals_</span></span>
   
-> <span data-ttu-id="f271a-110">[in] Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem incluídos como colunas na linha da tabela de status de novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="f271a-110">[in] A pointer to an array of property values that describe the properties to be included as columns in the new or modified status table row.</span></span>
+> <span data-ttu-id="32e4d-110">[in] Um ponteiro para uma matriz de valores de propriedade que descrevem as propriedades a serem incluídos como colunas na linha da tabela de status de novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="32e4d-110">[in] A pointer to an array of property values that describe the properties to be included as columns in the new or modified status table row.</span></span>
     
- <span data-ttu-id="f271a-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f271a-111">_ulFlags_</span></span>
+ <span data-ttu-id="32e4d-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="32e4d-111">_ulFlags_</span></span>
   
-> <span data-ttu-id="f271a-112">[in] Uma bitmask dos sinalizadores que controla como as informações que definem a linha da tabela de status são processadas.</span><span class="sxs-lookup"><span data-stu-id="f271a-112">[in] A bitmask of flags that controls how information that defines the status table row is processed.</span></span> <span data-ttu-id="f271a-113">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="f271a-113">The following flag can be set:</span></span>
+> <span data-ttu-id="32e4d-112">[in] Uma bitmask dos sinalizadores que controla como as informações que definem a linha da tabela de status são processadas.</span><span class="sxs-lookup"><span data-stu-id="32e4d-112">[in] A bitmask of flags that controls how information that defines the status table row is processed.</span></span> <span data-ttu-id="32e4d-113">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="32e4d-113">The following flag can be set:</span></span>
     
-<span data-ttu-id="f271a-114">STATUSROW_UPDATE</span><span class="sxs-lookup"><span data-stu-id="f271a-114">STATUSROW_UPDATE</span></span> 
+<span data-ttu-id="32e4d-114">STATUSROW_UPDATE</span><span class="sxs-lookup"><span data-stu-id="32e4d-114">STATUSROW_UPDATE</span></span> 
   
-> <span data-ttu-id="f271a-115">Direciona o MAPI para mesclar as propriedades incluídas na matriz apontado pela _lpColumnVals_ com uma linha de tabela de status existente, em vez de uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="f271a-115">Directs MAPI to merge the properties included in the array pointed to by  _lpColumnVals_ with an existing status table row, rather than in a new row.</span></span> 
+> <span data-ttu-id="32e4d-115">Direciona o MAPI para mesclar as propriedades incluídas na matriz apontado pela _lpColumnVals_ com uma linha de tabela de status existente, em vez de uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="32e4d-115">Directs MAPI to merge the properties included in the array pointed to by  _lpColumnVals_ with an existing status table row, rather than in a new row.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f271a-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="f271a-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="32e4d-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="32e4d-116">Return value</span></span>
 
-<span data-ttu-id="f271a-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="f271a-117">S_OK</span></span> 
+<span data-ttu-id="32e4d-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="32e4d-117">S_OK</span></span> 
   
-> <span data-ttu-id="f271a-118">A tabela de status foi atualizada com êxito.</span><span class="sxs-lookup"><span data-stu-id="f271a-118">The status table was successfully updated.</span></span>
+> <span data-ttu-id="32e4d-118">A tabela de status foi atualizada com êxito.</span><span class="sxs-lookup"><span data-stu-id="32e4d-118">The status table was successfully updated.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f271a-119">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="f271a-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="32e4d-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="32e4d-119">Remarks</span></span>
 
-<span data-ttu-id="f271a-120">O método **IMAPISupport::ModifyStatusRow** é implementado para todos os objetos de suporte de provedor de serviço.</span><span class="sxs-lookup"><span data-stu-id="f271a-120">The **IMAPISupport::ModifyStatusRow** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="f271a-121">Provedores de serviços de chamada **ModifyStatusRow** em tempo de logon para adicionar uma linha à tabela de status e em outros momentos durante a sessão para atualizar a linha.</span><span class="sxs-lookup"><span data-stu-id="f271a-121">Service providers call **ModifyStatusRow** at logon time to add a row to the status table and at other times during the session to update the row.</span></span> <span data-ttu-id="f271a-122">**ModifyStatusRow** fornece MAPI com as informações necessárias para criar a tabela de status.</span><span class="sxs-lookup"><span data-stu-id="f271a-122">**ModifyStatusRow** provides MAPI with the information necessary to build the status table.</span></span> 
+<span data-ttu-id="32e4d-120">O método **IMAPISupport::ModifyStatusRow** é implementado para todos os objetos de suporte de provedor de serviço.</span><span class="sxs-lookup"><span data-stu-id="32e4d-120">The **IMAPISupport::ModifyStatusRow** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="32e4d-121">Provedores de serviços de chamada **ModifyStatusRow** em tempo de logon para adicionar uma linha à tabela de status e em outros momentos durante a sessão para atualizar a linha.</span><span class="sxs-lookup"><span data-stu-id="32e4d-121">Service providers call **ModifyStatusRow** at logon time to add a row to the status table and at other times during the session to update the row.</span></span> <span data-ttu-id="32e4d-122">**ModifyStatusRow** fornece MAPI com as informações necessárias para criar a tabela de status.</span><span class="sxs-lookup"><span data-stu-id="32e4d-122">**ModifyStatusRow** provides MAPI with the information necessary to build the status table.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="f271a-123">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="f271a-123">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="32e4d-123">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="32e4d-123">Notes to callers</span></span>
 
-<span data-ttu-id="f271a-124">Defina o sinalizador STATUSROW_UPDATE quando você chama **ModifyStatusRow** para fazer alterações nas propriedades em sua linha existente de tabela de status.</span><span class="sxs-lookup"><span data-stu-id="f271a-124">Set the STATUSROW_UPDATE flag when you call **ModifyStatusRow** to make changes to the properties in your existing status table row.</span></span> <span data-ttu-id="f271a-125">Isso informa MAPI que somente as colunas que está sendo alteradas são passadas no parâmetro _lpColumnVals_ .</span><span class="sxs-lookup"><span data-stu-id="f271a-125">Doing so informs MAPI that only the columns being changed are passed in the  _lpColumnVals_ parameter.</span></span> 
+<span data-ttu-id="32e4d-124">Defina o sinalizador STATUSROW_UPDATE quando você chama **ModifyStatusRow** para fazer alterações nas propriedades em sua linha existente de tabela de status.</span><span class="sxs-lookup"><span data-stu-id="32e4d-124">Set the STATUSROW_UPDATE flag when you call **ModifyStatusRow** to make changes to the properties in your existing status table row.</span></span> <span data-ttu-id="32e4d-125">Isso informa MAPI que somente as colunas que está sendo alteradas são passadas no parâmetro _lpColumnVals_ .</span><span class="sxs-lookup"><span data-stu-id="32e4d-125">Doing so informs MAPI that only the columns being changed are passed in the  _lpColumnVals_ parameter.</span></span> 
   
-<span data-ttu-id="f271a-126">Clientes podem usar as informações na tabela de status para acessar o objeto de status.</span><span class="sxs-lookup"><span data-stu-id="f271a-126">Clients can use the information in the status table to access your status object.</span></span> 
+<span data-ttu-id="32e4d-126">Clientes podem usar as informações na tabela de status para acessar o objeto de status.</span><span class="sxs-lookup"><span data-stu-id="32e4d-126">Clients can use the information in the status table to access your status object.</span></span> 
   
-<span data-ttu-id="f271a-127">Para obter uma lista completa das colunas que você deve incluir na sua linha da tabela de status, consulte [Tabelas de Status](status-tables.md).</span><span class="sxs-lookup"><span data-stu-id="f271a-127">For a complete list of columns that you should include in your status table row, see [Status Tables](status-tables.md).</span></span>
+<span data-ttu-id="32e4d-127">Para obter uma lista completa das colunas que você deve incluir na sua linha da tabela de status, consulte [Tabelas de Status](status-tables.md).</span><span class="sxs-lookup"><span data-stu-id="32e4d-127">For a complete list of columns that you should include in your status table row, see [Status Tables](status-tables.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f271a-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="f271a-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32e4d-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="32e4d-128">See also</span></span>
 
 
 
-[<span data-ttu-id="f271a-129">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="f271a-129">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="32e4d-129">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="32e4d-129">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

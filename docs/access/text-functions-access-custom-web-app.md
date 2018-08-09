@@ -13,37 +13,37 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765234"
 ---
-# <a name="text-functions-access-custom-web-app"></a><span data-ttu-id="99833-102">Funções de texto (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-102">Text functions (Access custom web app)</span></span>
+# <a name="text-functions-access-custom-web-app"></a><span data-ttu-id="c6e72-102">Funções de texto (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-102">Text functions (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="99833-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="99833-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c6e72-103">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="c6e72-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="99833-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="99833-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="c6e72-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="c6e72-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="99833-106">Função CharIndex (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-106">CharIndex Function (Access custom web app)</span></span>](charindex-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-106">Função CharIndex (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-106">CharIndex Function (Access custom web app)</span></span>](charindex-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-107">Função CONCATENAR (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-107">Concat Function (Access custom web app)</span></span>](concat-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-107">Função CONCATENAR (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-107">Concat Function (Access custom web app)</span></span>](concat-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-108">Função Left (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-108">Left Function (Access custom web app)</span></span>](left-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-108">Função Left (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-108">Left Function (Access custom web app)</span></span>](left-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-109">Função Len (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-109">Len Function (Access custom web app)</span></span>](len-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-109">Função Len (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-109">Len Function (Access custom web app)</span></span>](len-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-110">Função LOWER (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-110">Lower Function (Access custom web app)</span></span>](lower-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-110">Função LOWER (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-110">Lower Function (Access custom web app)</span></span>](lower-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-111">Função LTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-111">LTrim Function (Access custom web app)</span></span>](ltrim-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-111">Função LTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-111">LTrim Function (Access custom web app)</span></span>](ltrim-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-112">Substituir função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-112">Replace Function (Access custom web app)</span></span>](replace-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-112">Substituir função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-112">Replace Function (Access custom web app)</span></span>](replace-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-113">Replicar função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-113">Replicate Function (Access custom web app)</span></span>](replicate-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-113">Replicar função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-113">Replicate Function (Access custom web app)</span></span>](replicate-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-114">Função Right (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-114">Right Function (Access custom web app)</span></span>](right-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-114">Função Right (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-114">Right Function (Access custom web app)</span></span>](right-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-115">Função RTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-115">RTrim Function (Access custom web app)</span></span>](rtrim-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-115">Função RTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-115">RTrim Function (Access custom web app)</span></span>](rtrim-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-116">Função coisas (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-116">Stuff Function (Access custom web app)</span></span>](stuff-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-116">Função coisas (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-116">Stuff Function (Access custom web app)</span></span>](stuff-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-117">Função subcadeia de caracteres (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-117">SubString Function (Access custom web app)</span></span>](substring-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-117">Função SubString (aplicativo Web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-117">SubString Function (Access custom web app)</span></span>](substring-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="99833-118">Função Upper (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="99833-118">Upper Function (Access custom web app)</span></span>](upper-function-access-custom-web-app.md)
+- [<span data-ttu-id="c6e72-118">Função Upper (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="c6e72-118">Upper Function (Access custom web app)</span></span>](upper-function-access-custom-web-app.md)
     
 

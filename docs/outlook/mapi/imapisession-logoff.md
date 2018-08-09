@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7d6ccd64fea0af30e81a2db0bcb9630062b4b64d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767174"
 ---
-# <a name="imapisessionlogoff"></a><span data-ttu-id="a9245-103">IMAPISession::Logoff</span><span class="sxs-lookup"><span data-stu-id="a9245-103">IMAPISession::Logoff</span></span>
+# <a name="imapisessionlogoff"></a><span data-ttu-id="dc7bd-103">IMAPISession::Logoff</span><span class="sxs-lookup"><span data-stu-id="dc7bd-103">IMAPISession::Logoff</span></span>
 
   
   
-<span data-ttu-id="a9245-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="a9245-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="dc7bd-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="dc7bd-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="a9245-105">Finaliza uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="a9245-105">Ends a MAPI session.</span></span>
+<span data-ttu-id="dc7bd-105">Finaliza uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-105">Ends a MAPI session.</span></span>
   
 ```cpp
 HRESULT Logoff(
@@ -35,63 +35,63 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a9245-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="a9245-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="dc7bd-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="dc7bd-106">Parameters</span></span>
 
- <span data-ttu-id="a9245-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="a9245-107">_ulUIParam_</span></span>
+ <span data-ttu-id="dc7bd-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="dc7bd-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="a9245-108">[in] Um identificador para a janela pai de todas as caixas de diálogo ou do windows a ser exibido.</span><span class="sxs-lookup"><span data-stu-id="a9245-108">[in] A handle to the parent window of any dialog boxes or windows to be displayed.</span></span> <span data-ttu-id="a9245-109">Esse parâmetro será ignorado se o sinalizador MAPI_LOGOFF_UI não estiver definido.</span><span class="sxs-lookup"><span data-stu-id="a9245-109">This parameter is ignored if the MAPI_LOGOFF_UI flag is not set.</span></span>
+> <span data-ttu-id="dc7bd-108">[in] Um identificador para a janela pai de todas as caixas de diálogo ou do windows a ser exibido.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-108">[in] A handle to the parent window of any dialog boxes or windows to be displayed.</span></span> <span data-ttu-id="dc7bd-109">Esse parâmetro será ignorado se o sinalizador MAPI_LOGOFF_UI não estiver definido.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-109">This parameter is ignored if the MAPI_LOGOFF_UI flag is not set.</span></span>
     
- <span data-ttu-id="a9245-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="a9245-110">_ulFlags_</span></span>
+ <span data-ttu-id="dc7bd-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="dc7bd-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="a9245-111">[in] Uma bitmask dos sinalizadores que controlam a operação de logoff.</span><span class="sxs-lookup"><span data-stu-id="a9245-111">[in] A bitmask of flags that control the logoff operation.</span></span> <span data-ttu-id="a9245-112">Sinalizadores a seguir podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="a9245-112">The following flags can be set:</span></span>
+> <span data-ttu-id="dc7bd-111">[in] Uma bitmask dos sinalizadores que controlam a operação de logoff.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-111">[in] A bitmask of flags that control the logoff operation.</span></span> <span data-ttu-id="dc7bd-112">Sinalizadores a seguir podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="dc7bd-112">The following flags can be set:</span></span>
     
-<span data-ttu-id="a9245-113">MAPI_LOGOFF_SHARED</span><span class="sxs-lookup"><span data-stu-id="a9245-113">MAPI_LOGOFF_SHARED</span></span> 
+<span data-ttu-id="dc7bd-113">MAPI_LOGOFF_SHARED</span><span class="sxs-lookup"><span data-stu-id="dc7bd-113">MAPI_LOGOFF_SHARED</span></span> 
   
-> <span data-ttu-id="a9245-114">Se esta sessão é compartilhada, todos os clientes que feito logon usando a sessão compartilhada devem ser notificados de que o logoff em andamento.</span><span class="sxs-lookup"><span data-stu-id="a9245-114">If this session is shared, all clients that logged on by using the shared session should be notified of the logoff in progress.</span></span> <span data-ttu-id="a9245-115">Os clientes devem fazer logoff.</span><span class="sxs-lookup"><span data-stu-id="a9245-115">The clients should log off.</span></span> <span data-ttu-id="a9245-116">Qualquer cliente que está usando a sessão compartilhada pode definir esse sinalizador.</span><span class="sxs-lookup"><span data-stu-id="a9245-116">Any client that is using the shared session can set this flag.</span></span> <span data-ttu-id="a9245-117">MAPI_LOGOFF_SHARED será ignorada se a sessão atual não é compartilhada.</span><span class="sxs-lookup"><span data-stu-id="a9245-117">MAPI_LOGOFF_SHARED is ignored if the current session is not shared.</span></span>
+> <span data-ttu-id="dc7bd-114">Se esta sessão é compartilhada, todos os clientes que feito logon usando a sessão compartilhada devem ser notificados de que o logoff em andamento.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-114">If this session is shared, all clients that logged on by using the shared session should be notified of the logoff in progress.</span></span> <span data-ttu-id="dc7bd-115">Os clientes devem fazer logoff.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-115">The clients should log off.</span></span> <span data-ttu-id="dc7bd-116">Qualquer cliente que está usando a sessão compartilhada pode definir esse sinalizador.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-116">Any client that is using the shared session can set this flag.</span></span> <span data-ttu-id="dc7bd-117">MAPI_LOGOFF_SHARED será ignorada se a sessão atual não é compartilhada.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-117">MAPI_LOGOFF_SHARED is ignored if the current session is not shared.</span></span>
     
-<span data-ttu-id="a9245-118">MAPI_LOGOFF_UI</span><span class="sxs-lookup"><span data-stu-id="a9245-118">MAPI_LOGOFF_UI</span></span> 
+<span data-ttu-id="dc7bd-118">MAPI_LOGOFF_UI</span><span class="sxs-lookup"><span data-stu-id="dc7bd-118">MAPI_LOGOFF_UI</span></span> 
   
-> <span data-ttu-id="a9245-119">**Fazer logoff** pode exibir uma caixa de diálogo durante a operação, possivelmente solicitando a confirmação do usuário.</span><span class="sxs-lookup"><span data-stu-id="a9245-119">**Logoff** can display a dialog box during the operation, possibly prompting the user for confirmation.</span></span> 
+> <span data-ttu-id="dc7bd-119">**Fazer logoff** pode exibir uma caixa de diálogo durante a operação, possivelmente solicitando a confirmação do usuário.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-119">**Logoff** can display a dialog box during the operation, possibly prompting the user for confirmation.</span></span> 
     
- <span data-ttu-id="a9245-120">_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="a9245-120">_ulReserved_</span></span>
+ <span data-ttu-id="dc7bd-120">_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="dc7bd-120">_ulReserved_</span></span>
   
-> <span data-ttu-id="a9245-121">[in] Reservado; deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="a9245-121">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="dc7bd-121">[in] Reservado; deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-121">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a9245-122">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="a9245-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dc7bd-122">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="dc7bd-122">Return value</span></span>
 
-<span data-ttu-id="a9245-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="a9245-123">S_OK</span></span> 
+<span data-ttu-id="dc7bd-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="dc7bd-123">S_OK</span></span> 
   
-> <span data-ttu-id="a9245-124">A operação de logoff foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="a9245-124">The logoff operation was successful.</span></span>
+> <span data-ttu-id="dc7bd-124">A operação de logoff foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-124">The logoff operation was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a9245-125">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="a9245-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc7bd-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="dc7bd-125">Remarks</span></span>
 
-<span data-ttu-id="a9245-126">O método **IMAPISession::Logoff** termina uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="a9245-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="a9245-127">Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) pode ser chamado.</span><span class="sxs-lookup"><span data-stu-id="a9245-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
+<span data-ttu-id="dc7bd-126">O método **IMAPISession::Logoff** termina uma sessão MAPI.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="dc7bd-127">Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) pode ser chamado.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="a9245-128">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="a9245-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="dc7bd-128">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="dc7bd-128">Notes to callers</span></span>
 
-<span data-ttu-id="a9245-129">Quando o **Logoff** retorna, libere o objeto de sessão chamando seu método **IUnknown:: Release** .</span><span class="sxs-lookup"><span data-stu-id="a9245-129">When **Logoff** returns, release the session object by calling its **IUnknown::Release** method.</span></span> 
+<span data-ttu-id="dc7bd-129">Quando o **Logoff** retorna, libere o objeto de sessão chamando seu método **IUnknown:: Release** .</span><span class="sxs-lookup"><span data-stu-id="dc7bd-129">When **Logoff** returns, release the session object by calling its **IUnknown::Release** method.</span></span> 
   
-<span data-ttu-id="a9245-130">Para obter mais informações sobre como encerrar uma sessão, consulte [encerrar uma sessão MAPI](ending-a-mapi-session.md).</span><span class="sxs-lookup"><span data-stu-id="a9245-130">For more information about ending a session, see [Ending a MAPI Session](ending-a-mapi-session.md).</span></span>
+<span data-ttu-id="dc7bd-130">Para obter mais informações sobre como encerrar uma sessão, consulte [encerrar uma sessão MAPI](ending-a-mapi-session.md).</span><span class="sxs-lookup"><span data-stu-id="dc7bd-130">For more information about ending a session, see [Ending a MAPI Session](ending-a-mapi-session.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="a9245-131">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="a9245-131">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="dc7bd-131">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="dc7bd-131">MFCMAPI reference</span></span>
 
-<span data-ttu-id="a9245-132">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="a9245-132">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="dc7bd-132">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-132">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="a9245-133">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="a9245-133">**File**</span></span>|<span data-ttu-id="a9245-134">**Function**</span><span class="sxs-lookup"><span data-stu-id="a9245-134">**Function**</span></span>|<span data-ttu-id="a9245-135">**Comment**</span><span class="sxs-lookup"><span data-stu-id="a9245-135">**Comment**</span></span>|
+|<span data-ttu-id="dc7bd-133">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="dc7bd-133">**File**</span></span>|<span data-ttu-id="dc7bd-134">**Function**</span><span class="sxs-lookup"><span data-stu-id="dc7bd-134">**Function**</span></span>|<span data-ttu-id="dc7bd-135">**Comment**</span><span class="sxs-lookup"><span data-stu-id="dc7bd-135">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="a9245-136">MAPIObjects.cpp</span><span class="sxs-lookup"><span data-stu-id="a9245-136">MAPIObjects.cpp</span></span>  <br/> |<span data-ttu-id="a9245-137">CMapiObjects::Logoff</span><span class="sxs-lookup"><span data-stu-id="a9245-137">CMapiObjects::Logoff</span></span>  <br/> |<span data-ttu-id="a9245-138">MFCMAPI usa o método **IMAPISession::Logoff** fazer logoff da sessão antes de liberá-la.</span><span class="sxs-lookup"><span data-stu-id="a9245-138">MFCMAPI uses the **IMAPISession::Logoff** method to log off from the session before releasing it.</span></span>  <br/> |
+|<span data-ttu-id="dc7bd-136">MAPIObjects.cpp</span><span class="sxs-lookup"><span data-stu-id="dc7bd-136">MAPIObjects.cpp</span></span>  <br/> |<span data-ttu-id="dc7bd-137">CMapiObjects::Logoff</span><span class="sxs-lookup"><span data-stu-id="dc7bd-137">CMapiObjects::Logoff</span></span>  <br/> |<span data-ttu-id="dc7bd-138">MFCMAPI usa o método **IMAPISession::Logoff** fazer logoff da sessão antes de liberá-la.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-138">MFCMAPI uses the **IMAPISession::Logoff** method to log off from the session before releasing it.</span></span>  <br/> |
    
 > [!NOTE]
-> <span data-ttu-id="a9245-139">Devido ao comportamento de desligamento rápido introduzido no Microsoft Office Outlook 2007 Service Pack 2, o Microsoft Outlook 2010 e o Microsoft Outlook 2013, clientes nunca devem passar o parâmetro **MAPI_LOGOFF_SHARED** para [IMAPISession::Logoff](imapisession-logoff.md).</span><span class="sxs-lookup"><span data-stu-id="a9245-139">Due to the fast shutdown behavior introduced in Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010, and Microsoft Outlook 2013, clients should never pass the **MAPI_LOGOFF_SHARED** parameter to [IMAPISession::Logoff](imapisession-logoff.md).</span></span> <span data-ttu-id="a9245-140">Passar **MAPI_LOGOFF_SHARED** fará com que todos os clientes MAPI começar o desligamento e ocorrerá um comportamento inesperado.</span><span class="sxs-lookup"><span data-stu-id="a9245-140">Passing **MAPI_LOGOFF_SHARED** will cause all MAPI clients to begin shutdown and unexpected behavior will occur.</span></span> 
+> <span data-ttu-id="dc7bd-139">Devido ao comportamento de desligamento rápido introduzido no Microsoft Office Outlook 2007 Service Pack 2, o Microsoft Outlook 2010 e o Microsoft Outlook 2013, clientes nunca devem passar o parâmetro **MAPI_LOGOFF_SHARED** para [IMAPISession::Logoff](imapisession-logoff.md).</span><span class="sxs-lookup"><span data-stu-id="dc7bd-139">Due to the fast shutdown behavior introduced in Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010, and Microsoft Outlook 2013, clients should never pass the **MAPI_LOGOFF_SHARED** parameter to [IMAPISession::Logoff](imapisession-logoff.md).</span></span> <span data-ttu-id="dc7bd-140">Passar **MAPI_LOGOFF_SHARED** fará com que todos os clientes MAPI começar o desligamento e ocorrerá um comportamento inesperado.</span><span class="sxs-lookup"><span data-stu-id="dc7bd-140">Passing **MAPI_LOGOFF_SHARED** will cause all MAPI clients to begin shutdown and unexpected behavior will occur.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a9245-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="a9245-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc7bd-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="dc7bd-141">See also</span></span>
 
 
 
-[<span data-ttu-id="a9245-142">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="a9245-142">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="dc7bd-142">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="dc7bd-142">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="a9245-143">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="a9245-143">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="dc7bd-143">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="dc7bd-143">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="a9245-144">Encerrar uma sessão MAPI</span><span class="sxs-lookup"><span data-stu-id="a9245-144">Ending a MAPI Session</span></span>](ending-a-mapi-session.md)
+[<span data-ttu-id="dc7bd-144">Finalizar uma sessão MAPI</span><span class="sxs-lookup"><span data-stu-id="dc7bd-144">Ending a MAPI Session</span></span>](ending-a-mapi-session.md)
 

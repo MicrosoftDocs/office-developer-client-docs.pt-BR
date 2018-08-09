@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765820"
 ---
-# <a name="ienumfbblockclone"></a><span data-ttu-id="18001-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="18001-103">IEnumFBBlock::Clone</span></span>
+# <a name="ienumfbblockclone"></a><span data-ttu-id="088d0-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="088d0-103">IEnumFBBlock::Clone</span></span>
 
-<span data-ttu-id="18001-104">Cria uma cópia do enumerador, usando a mesma restrição de tempo, mas definir o cursor para o início do enumerador.</span><span class="sxs-lookup"><span data-stu-id="18001-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
+<span data-ttu-id="088d0-104">Cria uma cópia do enumerador, usando a mesma restrição de tempo, mas definir o cursor para o início do enumerador.</span><span class="sxs-lookup"><span data-stu-id="088d0-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="18001-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="18001-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="088d0-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="088d0-105">Quick info</span></span>
 
-<span data-ttu-id="18001-106">Consulte [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="18001-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="088d0-106">Consulte [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="088d0-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Clone(  
@@ -28,24 +28,24 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="18001-107">Par�metros</span><span class="sxs-lookup"><span data-stu-id="18001-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="088d0-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="088d0-107">Parameters</span></span>
 
-<span data-ttu-id="18001-108">_ppclone_</span><span class="sxs-lookup"><span data-stu-id="18001-108">_ppclone_</span></span>
+<span data-ttu-id="088d0-108">_ppclone_</span><span class="sxs-lookup"><span data-stu-id="088d0-108">_ppclone_</span></span>
   
-> <span data-ttu-id="18001-109">[out] Um ponteiro para o ponteiro para a cópia da interface [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="18001-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
+> <span data-ttu-id="088d0-109">[out] Um ponteiro para o ponteiro para a cópia da interface [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="088d0-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="18001-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="18001-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="088d0-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="088d0-110">Return values</span></span>
 
-|<span data-ttu-id="18001-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="18001-111">**HRESULT**</span></span>|<span data-ttu-id="18001-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="18001-112">**Description**</span></span>|
+|<span data-ttu-id="088d0-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="088d0-111">**HRESULT**</span></span>|<span data-ttu-id="088d0-112">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="088d0-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="18001-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="18001-113">S_OK</span></span>  <br/> |<span data-ttu-id="18001-114">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="18001-114">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="18001-115">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="18001-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="18001-116">Não há memória suficiente para tornar a cópia.</span><span class="sxs-lookup"><span data-stu-id="18001-116">There is insufficient memory for making the copy.</span></span>  <br/> |
+|<span data-ttu-id="088d0-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="088d0-113">S_OK</span></span>  <br/> |<span data-ttu-id="088d0-114">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="088d0-114">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="088d0-115">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="088d0-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="088d0-116">Não há memória suficiente para tornar a cópia.</span><span class="sxs-lookup"><span data-stu-id="088d0-116">There is insufficient memory for making the copy.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="18001-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="18001-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="088d0-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="088d0-117">See also</span></span>
 
-- [<span data-ttu-id="18001-118">Constantes (API de livre/ocupado)</span><span class="sxs-lookup"><span data-stu-id="18001-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="18001-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="18001-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="18001-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="18001-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
-- [<span data-ttu-id="18001-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="18001-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
-- [<span data-ttu-id="18001-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="18001-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
+- [<span data-ttu-id="088d0-118">Constantes (API de livre/ocupado)</span><span class="sxs-lookup"><span data-stu-id="088d0-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="088d0-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="088d0-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="088d0-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="088d0-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
+- [<span data-ttu-id="088d0-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="088d0-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
+- [<span data-ttu-id="088d0-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="088d0-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
 
