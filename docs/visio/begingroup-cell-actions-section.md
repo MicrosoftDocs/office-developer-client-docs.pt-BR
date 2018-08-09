@@ -22,18 +22,22 @@ Indica se um separador está inserido no menu acima desta ação.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Um separador está inserido no menu acima desta ação.  <br/> |
-|FALSO  <br/> |Um separador não está inserido no menu acima desta ação (padrão).  <br/> |
+|VERDADEIRO  <br/> |
+          Um separador está inserido no menu acima desta ação. 
+  <br/> |
+|FALSO  <br/> |
+          Um separador não está inserido no menu acima desta ação.
+  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula BeginGroup pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula BeginGroup pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Ações. *nome*. BeginGroup onde ações. *nome* é o nome da linha Actions  <br/> |
    
-Para obter uma referência para a célula BeginGroup pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula BeginGroup pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

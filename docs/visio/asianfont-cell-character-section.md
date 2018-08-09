@@ -22,17 +22,17 @@ Contém o número da fonte utilizada para formatar o texto com caracteres asiát
   
 ## <a name="remarks"></a>Comentários
 
-Fontes para idiomas asiáticos são listadas na guia **fonte** da caixa de diálogo **texto** (clique na seta na **fonte** de grupo na guia **página inicial** ). Esta lista é exibida somente se você tiver adicionado um idioma que contém caracteres asiáticos ou de script complexo, na caixa de diálogo **Preferências de idioma do Microsoft Office** . (Clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Office**, clique em **Ferramentas do Microsoft Office**e clique em **Preferências de idioma do Microsoft Office**.
+Fontes asiáticas são listadas na guia **Fonte** na caixa de diálogo **Texto** (clique na seta do grupo **Fonte** na guia **Página Inicial**). Essa lista só é exibida se você tiver adicionado um idioma que contenha caracteres Asiáticos ou de script complexo, na caixa de diálogo **Preferências de Idioma do Microsoft Office**. (Clique em **Iniciar**, em **Todos os programas**, em **Microsoft Office**, em **Ferramentas do Microsoft Office** e em **Preferências de Idioma do Microsoft Office**.
   
 O número 0 significa que não há fontes especificadas. A fonte latina ou as fontes padrão são usadas se elas contiverem os caracteres necessários.
   
-Para obter uma referência à célula AsianFont pelo nome a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para fazer referência à célula AsianFont pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Char.AsianFont [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula AsianFont pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula AsianFont pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

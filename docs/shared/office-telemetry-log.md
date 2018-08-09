@@ -19,9 +19,9 @@ Encontre informações sobre o arquivo de Log de telemetria que está incluído 
   
 Explore esses links para saber mais sobre o uso do Log de telemetria do Office 2013 e interpretando os resultados que ela exibe.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Solucionando problemas de arquivos do Office e soluções personalizadas com o log de telemetria](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
+- [Solucionando problemas de arquivos e de soluções personalizadas do Office com o log de telemetria](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     
 - [Compatibility issues in Office 2013](compatibility-issues-in-office.md)
     

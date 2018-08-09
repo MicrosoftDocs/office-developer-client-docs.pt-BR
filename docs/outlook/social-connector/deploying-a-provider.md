@@ -1,5 +1,5 @@
 ---
-title: Implantando um provedor
+title: Implantar um provedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770855"
 ---
-# <a name="deploying-a-provider"></a>Implantando um provedor
+# <a name="deploying-a-provider"></a>Implantar um provedor
 
 O método recomendado de Implantando um provedor do Outlook Social Connector (OSC) é usar um pacote do Windows Installer (. msi). Depois de baixar o pacote de instalação para um disco rígido local, o usuário final Office instala o provedor do OSC. Depois que o provedor de instalação for concluída, o usuário pode conectar ao provedor de OSC e forneça as credenciais de logon para a conta de redes sociais. Se o usuário decidir desinstalar o provedor do OSC, o usuário pode usar **programas e recursos** no painel de controle para desinstalar. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Registrando um provedor](registering-a-provider.md): descreve os requisitos de registro para um provedor OSC.
     
 - [Lista de verificação de instalação](installation-checklist.md): fornece uma lista de verificação para garantir que um provedor OSC é instalado com êxito.
     
-## <a name="reference"></a>Refer�ncia
+## <a name="reference"></a>Referência
 
 - [Referência do provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   

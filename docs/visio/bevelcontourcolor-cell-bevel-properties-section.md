@@ -1,5 +1,5 @@
 ---
-title: Célula BevelContourColor (seção Propriedades de bisel)
+title: Célula BevelContourColor (Seção Bevel Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771302"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Célula BevelContourColor (seção Propriedades de bisel)
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Célula BevelContourColor (Seção Bevel Properties)
 
 Determina a cor do bisel delimitação no valor RGB ou conforme determinada pelo tema ativo.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **BevelContourColor** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

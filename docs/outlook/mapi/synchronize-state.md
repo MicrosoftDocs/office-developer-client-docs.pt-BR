@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 36bdeecfaaa94492b1e719dbd1cf455bfa40db47
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.locfileid: "19770567"
 |||
 |:-----|:-----|
 |Identificador de controle de sessão:  <br/> |**LR_SYNC** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[SINCRONIZAÇÃO](sync.md)** <br/> |
+|Estrutura de dados relacionados:  <br/> |**[SYNC](sync.md)** <br/> |
 |Desse estado:  <br/> |[Estado ocioso](idle-state.md) <br/> |
 |Com esse estado:  <br/> |[Baixe o estado de hierarquia](download-hierarchy-state.md), [sincronizar o estado de conteúdo](synchronize-contents-state.md), [carregar o estado de hierarquia](upload-hierarchy-state.md)ou estado ocioso  <br/> |
    

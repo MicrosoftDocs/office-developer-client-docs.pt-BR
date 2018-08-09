@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771237"
 ---
-# <a name="about-format-pictures"></a>Sobre Figuras de Formatação
+# <a name="about-format-pictures"></a>Sobre a formatação de imagens
 
 Uma figura de formatação é utilizada para determinar como um valor é exibido. Por exemplo, é possível controlar o número de dígitos exibidos à direita ou à esquerda de um ponto decimal ou se uma cadeia de caracteres será exibida em letras maiúsculas ou minúsculas.
   
@@ -25,14 +25,14 @@ Uma figura de formatação é utilizada para determinar como um valor é exibido
   
 As seções a seguir mostram símbolos que você pode usar para formatar diferentes tipos de valores para serem exibidos.
   
-## <a name="string-and-numeric-values"></a>Valores numéricos e de cadeia de caracteres
+## <a name="string-and-numeric-values"></a>Valores numéricos e de sequência de caracteres
 
 |**Caractere**|**Descrição**|
 |:-----|:-----|
 |#  <br/> |Espaço reservado para dígito. Exibe um dígito ou nada. Zeros à esquerda e à direita não são exibidos. Se mais dígitos do que espaços reservados para dígito estiverem à esquerda do decimal, todos os dígitos serão exibidos. Se mais dígitos do que espaços reservados para dígito estiverem à direita do decimal, a fração será arredondada para o número de espaços. Para uma dimensão, se o espaço for o último dígito à esquerda, as subunidades 0 não são exibidas.  <br/> Por exemplo, FORMAT(0pé 11.25pol,"#.##u") exibe 11,25pol.  <br/> |
 |0  <br/> |Espaço reservado para dígito (zero). Exibe um dígito ou nada. Zeros à esquerda e à direita são exibidos. Se mais dígitos do que espaços reservados para dígito estiverem à esquerda do decimal, todos os dígitos serão exibidos. Se mais dígitos do que espaços reservados para dígito estiverem à direita do decimal, a fração será arredondada para o número de espaços. Para uma dimensão, as subunidades 0 são exibidas.  <br/> Por exemplo, FORMAT(2pés 11.33pol,"0.## u") exibe 2 pés 11,33 pol.  <br/> |
-|.  <br/> |Espaço reservado de decimal. Determina quantos dígitos são exibidos à esquerda e direita da posição decimal. Em uma unidade de várias partes, o decimal é utilizado na menor subunidade (mais à direita). Exibe o caractere decimal definido para do sistema de **região e idioma** configurações (painel de controle).  <br/> Por exemplo, FORMAT(250 cm,"0.000 u") exibe 250,000 cm.  <br/> |
-|,  <br/> |Milhares separador. Se envolta por espaços reservados de dígito (# ou 0), o separador separa milhares de centenas dentro de um número que tem quatro ou mais dígitos à esquerda da vírgula decimal. Separador de milhares de exibe definido para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
+|.  <br/> |Espaço reservado para decimal. Determina quantos dígitos serão exibidos à esquerda e à direita da posição decimal. Em uma unidade de diversas partes, o decimal é utilizado na menor subunidade (da extrema direita). Exibe o caractere decimal definido nas configurações **Região e Idioma** do sistema (Painel de Controle).<br/> Por exemplo, FORMAT(250 cm,"0.000 u") exibe 250,000 cm.  <br/> |
+|,  <br/> |Separador de milhar. Se acompanhado de espaços reservados para dígito (# ou 0) será utilizado para separar milhares de centenas em um número que contenha quatro ou mais dígitos à esquerda do decimal. Exibe o separador de milhar definido nas configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 |E- E+ e- e+  <br/> |Formato científico. Se o formato contiver pelo menos um espaço reservado para dígito à direita desses símbolos, o número será exibido em formato científico. Insere o E ou e entre o número e seu exponente. Para E+ ou e+, exibe o sinal de mais (+) antes de exponentes positivos e o sinal de menos (-) antes de exponentes negativos. Para E- ou e-, exibe o sinal de menos (-) somente quando o exponente é negativo.  <br/> Por exemplo, FORMAT(12345.67,"###.#e+#") exibe 123.5e+2.  <br/> |
 |u ou U  <br/> |Espaço reservado de rótulo curto. Insere os rótulos de unidade abreviados depois de cada subunidade. Por exemplo: pol., pé, grau. O espaço reservado U insere rótulos em maiusculas, enquanto o espaço reservado u insere rótulos em letras minúsculas. Insere o mesmo número de espaços antes do rótulo como antes do espaço reservado.  <br/> Por exemplo, FORMAT(12 c 13 d,"#u") exibe 13c1.  <br/> |
 |uu ou UU  <br/> |Espaço reservado de rótulo extenso. Insere rótulos de unidade depois de cada subunidade. Por exemplo: polegadas, pés, graus U o espaço reservado inserirá maiusculas rótulos, enquanto o espaço reservado u insere rótulos em letras minúsculas. Insere o mesmo número de espaços antes do rótulo como antes do espaço reservado.  <br/> Por exemplo, FORMAT(12.43pol,"# #/4 UU") exibe 12 2/4 POLEGADAS.  <br/> |
@@ -40,11 +40,11 @@ As seções a seguir mostram símbolos que você pode usar para formatar diferen
 |/  <br/> |Espaço reservado para fração. Exibe a expressão como um número inteiro com fração se um espaço reservado para dígito à esquerda estiver presente. Caso contrário, exibe somente o número inteiro no numerador. Se um número seguir o espaço reservado para dígito no denominador, a fração será arredondada para a fração mais próxima, cujo numerador seja 1, e simplificada. Se um número for especificado no denominador sem o espaço reservado para dígito, a fração será arredondada, mas não simplificada.  <br/> Por exemplo, FORMAT(12.43,"# #/4") exibe 12 2/4.  <br/> |
 |espaço  <br/> |Exibe um caractere de espaço na saída formatada. Para exibir outro caractere, use a barra invertida (\) caractere.  <br/> |
    
-## <a name="currency-values"></a>Valores de moeda
+## <a name="currency-values"></a>Valores de moeda.
 
 |**Caractere**|**Descrição**|
 |:-----|:-----|
-|$  <br/> |Símbolo de moeda. Exibe o símbolo de moeda definido para do sistema de **região e idioma** configurações (painel de controle)  <br/> |
+|$  <br/> |Símbolo de moeda. Exibe o símbolo de moeda definido para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 |u ou U  <br/> |Espaço reservado de rótulo curto. Insere o símbolo padrão para a moeda local ou as abreviaturas de três caracteres de moeda para moedas não-locais. Por exemplo, $99.00, 42.70 FRF. O espaço reservado u insere minúsculas e U insere rótulos de maiusculas.  <br/> |
 |uu ou UU  <br/> |Espaço reservado de rótulo extenso. Insere rótulos de moeda longos depois de cada subunidade. Por exemplo: dólar americano, Franco francês. O espaço reservado u insere minúsculas e U insere rótulos de maiusculas.  <br/> |
 |uuu ou UUU  <br/> |Espaço reservado de rótulo universal. Insere as abreviaturas de moeda universal, três caracteres para todas as moedas depois de cada subunidade. Por exemplo, 99.00 USD, 42.70 FRF. O espaço reservado u insere minúsculas e U insere rótulos de maiusculas. Insere o mesmo número de espaços antes do rótulo como antes do espaço reservado.  <br/> |
@@ -64,14 +64,14 @@ As seções a seguir mostram símbolos que você pode usar para formatar diferen
 |**Caractere**|**Descrição**|
 |:-----|:-----|
 |c ou C  <br/> |Espaço reservado para hora ou data. Exibe os valores de data e hora usando formatos de data curto (c) ou longo (C) e o formato de hora geral. As versões 4.0 e posteriores do Visio ignoram esse espaço reservado.  <br/> Por exemplo: FORMAT(DATETIME("6/25/07 12:05"),"C") exibe Segunda-feira, 25 de junho de 2007 12:05:00 PM. FORMAT(DATETIME("25 de junho de 2007"),"c") exibe 25/6/2007.  <br/> |
-|/  <br/> |Separador de data. Se a expressão for uma data, separa os componentes de data. Exibe o separador de data definido para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
+|/  <br/> |Separador de data. Se a expressão for uma data, separa os componentes da data. Exibe o separador de data definido para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 | [ ]  <br/> |Espaço reservado para data decorrida. Utilizado com os espaços reservados d, dd, s e ss para exibir as unidades de duração.  <br/> Por exemplo, [d] ou [dd] indica dias decorridos e [s] ou [ss], semanas decorridas.  <br/> |
 |d  <br/> |Espaço reservado para dia. Exibe o dia como um número (1-31) sem um zero à esquerda.  <br/> |
 |dd  <br/> | Espaço reservado para dia. Exibe o dia como um número (01-31) com um zero à esquerda.  <br/> |
 |ddd ou s  <br/> |Espaço reservado para dia da semana curto. Exibe o dia como uma abreviatura (Dom-Sáb).  <br/> |
 |dddd ou w  <br/> |Espaço reservado para dia da semana longo. Exibe o dia como um nome completo (Domingo-Sábado).  <br/> |
-|ddddd  <br/> |Espaço reservado de data curta. Exibe uma data no formato curto definido para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
-|dddd  <br/> |Espaço reservado de data longa. Exibe uma data na forma longa definida para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
+|ddddd  <br/> |Espaço reservado para data curta. Exibe uma data no formato curto definido para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
+|dddd  <br/> |Espaço reservado para data longa. Exibe uma data no formato longo definido para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 |D  <br/> |Espaço reservado para dia do chinês tradicional. Exibe o dia do mês como uma representação textual do número ordinal. Específico ao local.  <br/> |
 |D_c  <br/> |Espaço reservado para dia do chinês tradicional. Exibe o dia do mês como uma representação textual do número ordinal. Independente do local do usuário.  <br/> |
 |w_c ou w_c  <br/> |Espaço reservado para dia do chinês tradicional. Independente do local do usuário.  <br/> |
@@ -116,7 +116,7 @@ As seções a seguir mostram símbolos que você pode usar para formatar diferen
 
 |**Caractere**|**Descrição**|
 |:-----|:-----|
-|:  <br/> |Separador de tempo. Exibe a hora definida para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
+|:  <br/> |Separador de hora. Exibe a hora definida para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 |[ ]  <br/> |Espaço reservado para tempo decorrido. Usado com espaços reservados de h, hh, m, mm, s e ss para exibir unidades de duração. Por exemplo, [h] ou [hh] significa horas decorridas, [m] ou [mm] significa minutos decorridos e [s] ou [ss] significa segundos decorridos.  <br/> |
 |h  <br/> |Espaço reservado para hora. Exibe a hora sem um zero à esquerda no formato de 12 horas (0-12).  <br/> |
 |hh  <br/> |Espaço reservado para hora. Exibe a hora com um zero à esquerda no formato de 12 horas (00-12).  <br/> |
@@ -126,8 +126,8 @@ As seções a seguir mostram símbolos que você pode usar para formatar diferen
 |mm  <br/> |Espaço reservado para minuto. Exibe os minutos com um zero à esquerda (00-59).  <br/> |
 |s  <br/> |Espaço reservado para segundo. Exibe os segundos sem um zero à esquerda (0-59).  <br/> |
 |ss  <br/> |Espaço reservado para segundo. Exibe os segundos com um zero à esquerda (00-59).  <br/> |
-|t  <br/> |Abreviação AM/PM. Exibe a abreviação definida para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
-|tt  <br/> |Designador AM/PM. Exibe o designador completo definido para do sistema de **região e idioma** configurações (painel de controle).  <br/> |
+|t  <br/> |Abreviação AM/PM. Exibe a abreviação definida para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
+|tt  <br/> |Designador AM/PM. Exibe o designador definido para as configurações **Região e Idioma** do sistema (Painel de Controle).<br/> |
 |t_c ou tt_c  <br/> |Designador AM/PM do chinês tradicional. Exibe o designador. Independente do local do usuário.  <br/> |
 |t_k ou tt_k  <br/> |Designador AM/PM do coreano. Exibe o designador. Independente do local do usuário.  <br/> |
 |t_j ou tt_j  <br/> |Designador AM/PM do japonês. Exibe o designador. Independente do local do usuário.  <br/> |

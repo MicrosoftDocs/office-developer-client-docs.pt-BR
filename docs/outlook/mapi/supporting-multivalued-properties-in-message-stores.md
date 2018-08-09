@@ -1,5 +1,5 @@
 ---
-title: Suporte a vários valores de propriedades em repositórios de mensagem
+title: Suporte a propriedades com vários valores em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770552"
 ---
-# <a name="supporting-multivalued-properties-in-message-stores"></a>Suporte a vários valores de propriedades em repositórios de mensagem
+# <a name="supporting-multivalued-properties-in-message-stores"></a>Suporte a propriedades com vários valores em repositórios de mensagens
 
   
   
@@ -27,5 +27,5 @@ Os requisitos para dar suporte a propriedades com vários valores são documenta
 
 
 
-[Implementando mensagens em repositórios de mensagem](implementing-messages-in-message-stores.md)
+[Implementar mensagens em repositórios de mensagens](implementing-messages-in-message-stores.md)
 

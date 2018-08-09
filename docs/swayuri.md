@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771245"
 ---
-# <a name="sway-uri-scheme"></a>Esquema de URI de sway
+# <a name="sway-uri-scheme"></a>Esquema do URI do Sway
 
 Este documento define o formato do Uniform Resource Identifiers (URIs) para o aplicativo Sway para Windows. Você pode usar o esquema de URI para invocar o aplicativo Sway com diversos comandos.
 
@@ -33,12 +33,11 @@ Vários argumentos de comando podem ser incluídos como parte do esquema de URL 
 
 |Nome de argumento do comando|Descrição|Tipo|Valores possíveis|Necessário?|
 |:-----|:-----|:-----|:-----|:-----|
-|
-  **id**|O identificador exclusivo de um Sway. Usado para indicar o Sway a serem abertas.|Cadeia de caracteres|Um identificador exclusivo válido para um Sway. A identificação sempre é parte da URL para um Sway.<br/><br/>Por exemplo, para o seguinte Sway `https://sway.com/dBheQgVZ1RQBfiQU`, a id é `dBheQgVZ1RQBfiQU`.<br/><br/>Se a conta de usuário associada ao aplicativo Sway tiver permissões de edição, o aplicativo abre o Sway no modo de edição. Caso contrário, o aplicativo abre o Sway no modo de exibição.|Não|
-|**modo**|O modo no qual um Sway específica deve ser aberta, para edição ou para exibição.|Cadeia de caracteres|edit<br/>modo de exibição<br/><br/>**Observação**: se nenhuma **identificação** for especificado, esse argumento do comando será ignorado.|Não|
-|**auth_upn**|A conta a ser usado ao abrir Sway.|Cadeia de caracteres|Um endereço de email válido.<br/><br/>Se o endereço de email especificado não estiver associado uma conta de Sway, Sway pede ao usuário entrar como o usuário especificado.<br/><br/>Se mais de uma conta está associada ao aplicativo Sway e o endereço de email especificado existe, o aplicativo Sway alterna para usando essa conta quando invocado.|Não|
-|**autenticação\_pvr**|O tipo de conta a ser usada para abrir o Sway&mdash;uma conta Microsoft ou uma conta do Windows Azure Active Directory (AD Azure).|Cadeia de caracteres|WindowsLiveId – Especifica que o **auth\_upn** é uma conta da Microsoft.<br/><br/>OrgId – Especifica que o **auth\_upn** conta é uma conta do Windows Azure AD.<br/><br/>Se nenhum **auth\_upn** for especificado, esse argumento do comando é ignorado.|Não|
-|**invocação\_app**|O nome do aplicativo Windows utilizado para chamar Sway.|Cadeia de caracteres|O nome amigável do aplicativo Windows utilizado para chamar Sway via o esquema de URL Sway.<br/><br/>A finalidade deste argumento do comando é de telemetria e acompanhamento.|Não|
+|**id**|O identificador exclusivo de um Sway. Usado para indicar o Sway a serem abertas.|String|Um identificador exclusivo válido para um Sway. A identificação sempre é parte da URL para um Sway.<br/><br/>Por exemplo, para o seguinte Sway `https://sway.com/dBheQgVZ1RQBfiQU`, a id é `dBheQgVZ1RQBfiQU`.<br/><br/>Se a conta de usuário associada ao aplicativo Sway tiver permissões de edição, o aplicativo abre o Sway no modo de edição. Caso contrário, o aplicativo abre o Sway no modo de exibição.|Não|
+|**modo**|O modo no qual um Sway específica deve ser aberta, para edição ou para exibição.|String|edit<br/>modo de exibição<br/><br/>**Observação**: se nenhuma **identificação** for especificado, esse argumento do comando será ignorado.|Não|
+|**auth_upn**|A conta a ser usado ao abrir Sway.|String|Um endereço de email válido.<br/><br/>Se o endereço de email especificado não estiver associado uma conta de Sway, Sway pede ao usuário entrar como o usuário especificado.<br/><br/>Se mais de uma conta está associada ao aplicativo Sway e o endereço de email especificado existe, o aplicativo Sway alterna para usando essa conta quando invocado.|Não|
+|**autenticação\_pvr**|O tipo de conta a ser usada para abrir o Sway&mdash;uma conta Microsoft ou uma conta do Windows Azure Active Directory (AD Azure).|String|WindowsLiveId – Especifica que o **auth\_upn** é uma conta da Microsoft.<br/><br/>OrgId – Especifica que o **auth\_upn** conta é uma conta do Windows Azure AD.<br/><br/>Se nenhum **auth\_upn** for especificado, esse argumento do comando é ignorado.|Não|
+|**invocação\_app**|O nome do aplicativo Windows utilizado para chamar Sway.|String|O nome amigável do aplicativo Windows utilizado para chamar Sway via o esquema de URL Sway.<br/><br/>A finalidade deste argumento do comando é de telemetria e acompanhamento.|Não|
 
 ## <a name="uri-scheme-semantics"></a>Semântica de esquema URI
 
@@ -50,7 +49,7 @@ O `<ms-sway>` esquema define uma sintaxe URI para abrir um Sway ou para o aplica
 
 - Abra um Sway para edição no aplicativo Sway &ndash; a **id** e o **modo** definido como para editar precisam ser especificados. Recomendamos que você inclua também **auth\_upn** e **auth\_pvr** para ajudar a garantir que a conta correta com permissões de edição é usada quando Sway é aberto.  
 
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 `ms-sway:id=CyrvEYLmFKi1B2_I&auth_upn=account@email.com&auth_pvr=WindowsLiveId&invoking_app=MyApp` 
 

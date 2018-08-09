@@ -21,7 +21,7 @@ Referência do provedor do Outlook Social Connector (OSC) descreve como desenvol
 
 Esta seção fornece uma visão geral do OSC, como um provedor OSC pode ser útil, rápidas etapas de aprendizado para desenvolver um provedor, requisitos técnicos, práticas recomendadas para o desenvolvimento de um provedor e o que há de novo nesta versão. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [What's New for Providers](what-s-new-for-providers.md): OSC compara recursos na versão anterior e atual e descreve os membros de interface e os elementos de esquema XML que foram adicionados, alterados ou preteridos nesta versão. 
     
@@ -35,7 +35,7 @@ Esta seção fornece uma visão geral do OSC, como um provedor OSC pode ser úti
     
 - [Práticas recomendadas para o desenvolvimento de um provedor](best-practices-for-developing-a-provider.md): fornece uma lista de práticas recomendadas a seguir ao desenvolver um provedor OSC.
     
-## <a name="reference"></a>Refer�ncia
+## <a name="reference"></a>Referência
 
 - [Referência do provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   

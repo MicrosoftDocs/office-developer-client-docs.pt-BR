@@ -27,11 +27,11 @@ Retorna uma string que representa o nome de rede social.
 
 Uma cadeia de caracteres que contém o nome de rede social.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores do Outlook Social Connector (OSC) devem localizar o nome de rede social.
   
 ## <a name="see-also"></a>Confira também
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

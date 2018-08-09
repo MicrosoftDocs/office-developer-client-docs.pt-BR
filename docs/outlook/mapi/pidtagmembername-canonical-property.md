@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagMemberName
+title: Propriedade canônica PidTagMemberName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 694cc4e4626fb9070927232bb72252f716eb458e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769453"
 ---
-# <a name="pidtagmembername-canonical-property"></a>Propriedade canônico de PidTagMemberName
+# <a name="pidtagmembername-canonical-property"></a>Propriedade canônica PidTagMemberName
 
   
   
@@ -34,7 +34,7 @@ Contém o nome de exibição de um membro da tabela de lista (ACL) do controle d
 |Tipo de dados:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Controle de acesso  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades são usadas pelo [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) interface para exibir o nome de um membro de uma tabela ACL, que é uma pessoa ou função com direitos explícitos em uma pasta ou caixa de correio. 
   
@@ -64,14 +64,14 @@ Mapitags.h
 
 
 
-[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)
+[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

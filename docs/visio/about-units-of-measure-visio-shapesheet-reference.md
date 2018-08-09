@@ -28,7 +28,7 @@ Sempre especifique uma unidade de medida quando você inserir uma fórmula em um
 
 Ao indicar unidades de medida em fórmulas ShapeSheet, use as abreviações listadas na tabela a seguir.
   
-|**Para especificar essas unidades de medida**|**Uso**|**Constante de automação**|
+|**Para especificar estas unidades de medida**|**Uso**|**Constante de automação**|
 |:-----|:-----|:-----|
 | Centímetros  <br/> | cm  <br/> |**visCentimeters (69)** <br/> |
 | Cíceros  <br/> | c  <br/> |**visCiceros (54)** <br/> |
@@ -59,9 +59,9 @@ Ao indicar unidades de medida em fórmulas ShapeSheet, use as abreviações list
 
 Em fórmulas, você pode expressar unidades de medida para os números de compostos usando as abreviações na tabela a seguir. Visio simplifica os resultados e exibe-os nas unidades compostas.
   
-Por exemplo, se você digitar 45,635 °, o Visio exibirá o valor equivalente como 45° 38' 6".
+Por exemplo, se você inserir 45,635°, o Visio exibirá o valor equivalente a 45° 38' 6".
   
-|**Para especificar unidades**|**Use essa abreviação**|**Constante de automação**|
+|**Para especificar unidades**|**Usar esta abreviação**|**Constante de automação**|
 |:-----|:-----|:-----|
 | Cíceros e didots  <br/> | CÍCERO/DIDOT  <br/> |**visCicerosAndDidots (52)** <br/> |
 | Graus, minutos e segundos  <br/> | °  <br/> |**visDegreeMinSec (82)** <br/> |
@@ -78,7 +78,7 @@ Você pode especificar unidades fracionais de medida na célula **DrawingScale**
     
 As unidades de medida fracionadas só afetam a célula DrawingScale
   
-|**Para especificar unidades fracionais**|**Use essa abreviação**|**Constante de automação**|
+|**Para especificar unidades fracionadas**|**Usar esta abreviação**|**Constante de automação**|
 |:-----|:-----|:-----|
 | Polegadas em frações  <br/> | IN_F  <br/> |**visInchFrac (73)** <br/> |
 | Milhas em frações  <br/> | MI_F  <br/> |**visMileFrac (74)** <br/> |
@@ -88,7 +88,7 @@ As unidades de medida fracionadas só afetam a célula DrawingScale
 
 Em fórmulas, você pode expressar unidades de medida para números multidimensionais usando as abreviações da tabela a seguir. O Visio simplifica os resultados e os exibe nas unidades multidimensionais.
   
-|**Para especificar unidades multidimensionais**|**Use essa abreviação**|**Constante de automação**|
+|**Para especificar unidades multidimensionais**|**Usar esta abreviação**|**Constante de automação**|
 |:-----|:-----|:-----|
 | Acre  <br/> | ACRES  <br/> |**visAcre (36)** <br/> |
 | Centímetros  <br/> | SQ. CM., SQ CM, CM.^2, CM^2  <br/> |**visCentimeters (69)** <br/> |
@@ -158,7 +158,7 @@ number  [unit , flag ]
    
 O parâmetro _sinalizador_ é uma das seguintes letras (maiusculas ou minúsculas) indicando o sistema de medida que deve ser usado quando a unidade de valor implícito é exibida. 
   
-|**_Sinalizador_**|**Sistema de medida**|**Exemplo**|
+|**_Flag_**|**Sistema de medida**|**Exemplo**|
 |:-----|:-----|:-----|
 | a, A  <br/> | Angular  <br/> | =5[grau,A]  <br/> |
 | d, D  <br/> | Desenho  <br/> | =5[pol,D]  <br/> |
@@ -174,12 +174,13 @@ Usando a sintaxe implícita descrita acima, essa expressão (=2 DL) é equivalen
 
 A seguir, as unidades de medida padrão junto com as configurações equivalentes na interface do usuário.
   
-|**Unidade de medida padrão**|**Interface do usuário equivalente**|
+|**Unidade de medida padrão**|**Equivalente da interface do usuário**|
 |:-----|:-----|
 |**visDrawingUnits** <br/> |As unidades na célula DrawingScale da página ou mestre que contém a célula.  <br/> |
-|**visPageUnits** <br/> |As unidades selecionadas na caixa **unidades de medida** na guia **Propriedades da página** da caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ).  <br/> |
+|**visPageUnits** <br/> |As unidades selecionadas na caixa **Unidades de medida** na guia **Propriedades da Página** da caixa de diálogo **Configuração da Página** (na guia **Design**, clique na seta **Configuração da Página**). 
+  <br/> |
 |**visTypeUnits** <br/> |As unidades selecionadas na caixa de **texto** em **Exibir** na guia **Avançado** da caixa de diálogo **Opções do Visio** (clique na guia **arquivo** e, em seguida, clique em **Opções**).  <br/> |
-|**visAngleUnits** <br/> |As unidades selecionadas na caixa **ângulo** em **Exibir** na guia **Avançado** da caixa de diálogo **Opções do Visio** .  <br/> |
-|**visDurationUnits** <br/> |As unidades selecionadas na caixa **duração** em **Exibir** na guia **Avançado** da caixa de diálogo **Opções do Visio** .  <br/> |
+|**visAngleUnits** <br/> |As unidades selecionadas na caixa **Ângulo** em **Exibir** na guia **Avançado** da caixa de diálogo **Opções do Visio**.  <br/> |
+|**visDurationUnits** <br/> |As unidades selecionadas na caixa **Duração** em **Exibir** na guia **Avançado** da caixa de diálogo **Opções do Visio**.  <br/> |
    
 

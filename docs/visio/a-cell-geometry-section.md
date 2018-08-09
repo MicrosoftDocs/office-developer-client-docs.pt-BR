@@ -31,29 +31,29 @@ Representa informações diferentes em linhas diferentes. Esta tabela descreve a
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto em uma linha infinita, juntamente com *y* -coordenada representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto na elipse; juntamente com *y* -coordenada representada pela célula [B](b-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula pelo nome, a partir de outra fórmula ou de um programa, use a propriedade **CellsU** , utilize: 
+Para fazer referência à célula A pelo nome, a partir de outra fórmula ou programa, usando a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Geometria *i* . Um *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
 || Geometria *i* . A1 (linhas InfiniteLine e Ellipse) onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula A pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Linhas InfiniteLine e Ellipse)  <br/> |
-| Índice da célula:  <br/> |**visBow** (Linha ArcTo)  <br/> |
-||**visControlX** (Linha EllipticalArcTo)  <br/> |
-||**visControlY** (Linha EllipticalArcTo)  <br/> |
-||**visPolylineData** (Linha Polyline)  <br/> |
-||**visNURBSKnot** (Linha NURBSTo)  <br/> |
-||**visSplineKnot** (Linhas SplineStart e SplineKnot)  <br/> |
-||**visInfiniteLineX2** (Linha InfiniteLine)  <br/> |
-||**visEllipseMajorX** (Linha ellipse)  <br/> |
+||**visRowVertex **(linhas Ellipse e InfiniteLine)  <br/> |
+| Índice da célula:  <br/> |**visBow **(linha ArcTo)  <br/> |
+||**visControlX** (EllipticalArcTo row)  <br/> |
+||**visControlY** (linha EllipticalArcTo)  <br/> |
+||**visPolylineData **(linha Polyline)  <br/> |
+||**visNURBSKnot **(linha NURBSTO)  <br/> |
+||**visSplineKnot **(linhas SplineStart e SplineKnot)  <br/> |
+||**visInfiniteLineX2 **(linha InfiniteLine)  <br/> |
+||**visEllipseMajorX **(linha Ellipse)  <br/> |
    
 

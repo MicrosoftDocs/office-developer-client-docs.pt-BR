@@ -1,5 +1,5 @@
 ---
-title: Usando uma caixa de diálogo de pesquisa avançada
+title: Usar a caixa de diálogo de pesquisa avançada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770693"
 ---
-# <a name="using-an-advanced-search-dialog-box"></a>Usando uma caixa de diálogo de pesquisa avançada
+# <a name="using-an-advanced-search-dialog-box"></a>Usar a caixa de diálogo de pesquisa avançada
 
   
   

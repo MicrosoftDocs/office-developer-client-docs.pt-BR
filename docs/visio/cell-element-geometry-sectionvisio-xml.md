@@ -18,7 +18,7 @@ ms.locfileid: "19771485"
 
 Define as propriedades que determinam as propriedades de formatação e comportamentos com relação a linhas e arcos que compõem a seção Geometry.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -60,15 +60,15 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
 |V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
   
-|**Valor**|**Descrição**|**Obter mais informações**|
+|**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
 |NoFill  <br/> |Indica se um caminho pode ser preenchido.  <br/> |[Célula NoFill (Seção Geometry)](nofill-cell-geometry-section.md) <br/> |
 |NoLine  <br/> |Determina se uma linha será desenhada em torno do limite do caminho.  <br/> |[Célula NoLine (Seção Geometry)](noline-cell-geometry-section.md) <br/> |
-|NoQuickDrag  <br/> |Determina se uma forma pode ser selecionada ou arrastada quando o usuário clica na área preenchida definida pela seção Geometry.  <br/> |[Célula NoQuickDrag (seção Geometry)](noquickdrag-cell-geometry-section.md) <br/> |
+|NoQuickDrag  <br/> |Determina se uma forma pode ser selecionada ou arrastada quando o usuário clica na área preenchida definida pela seção Geometry.  <br/> |[Célula NoQuickDrag (Seção Geometry)](noquickdrag-cell-geometry-section.md) <br/> |
 |NoShow  <br/> |Indica se um caminho será exibido na página de desenho.  <br/> |[Célula NoShow (Seção Geometry)](noshow-cell-geometry-section.md) <br/> |
 |NoSnap  <br/> |Determina se outras formas serão ajustadas a um caminho.  <br/> |[Célula NoSnap (Seção Geometry)](nosnap-cell-geometry-section.md) <br/> |
    

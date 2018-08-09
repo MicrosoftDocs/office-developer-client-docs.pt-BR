@@ -127,7 +127,7 @@ Na seguinte documentação de referência de API:
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Par�metros
+#### <a name="parameters"></a>Parâmetros
 
 -  _displaylevel_: **true** para mostrar o status de instalação, incluindo erros, durante o processo de atualização; **false** para ocultar o status de instalação, incluindo erros, durante o processo de atualização. O padrão é **false**.
     
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>Coment�rios
+#### <a name="remarks"></a>Comentários
 
 - Se qualquer aplicativo do Office estiver em execução quando a ação de **Aplicar** é acionada, a ação de **Aplicar** falhará. Passando `forceappshutdown=true` para **Aplicar** o método causará o serviço **OfficeClickToRun** para serem desligados imediatamente quaisquer aplicativos do Office que estão funcionando e aplicam a atualização. O usuário perceba dados conforme eles não serão solicitados a salvar as alterações para abrir documentos do.. 
     
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>Coment�rios
+#### <a name="remarks"></a>Comentários
 
 - Este método só pode ser acionado quando o de id de status COM **eDOWNLOAD_WIP**. Ele tentará cancelar a ação de download atual. O status de COM será altere para **eDOWNLOAD_CANCELLING** e eventualmente para **eDOWNLOAD_CANCELED**. O status COM retornará **E_ILLEGAL_METHOD_CALL** se disparado em qualquer outro momento. 
     
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Par�metros
+#### <a name="parameters"></a>Parâmetros
 
 -  _displaylevel_: **true** para mostrar o status de instalação, incluindo erros, durante o processo de atualização; **false** para ocultar o status de instalação, incluindo erros, durante o processo de atualização. O padrão é **false**.
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>Coment�rios
+#### <a name="remarks"></a>Comentários
 
 - Você deve especificar _downloadsource_ e _contentid_ como um par. Caso contrário, o método **Baixar** retornará um erro **E_INVALIDARG** . 
     
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Par�metros
+#### <a name="parameters"></a>Parâmetros
 
 |||
 |:-----|:-----|
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |O método **Status** sempre retorna este resultado. Inspecione o `UPDATE_STATUS_RESULT` estrutura para o status da ação atual.  <br/> |
    
-#### <a name="remarks"></a>Coment�rios
+#### <a name="remarks"></a>Comentários
 
 - O campo status do `UPDATE_STATUS_REPORT` contém o status da ação atual. Um dos seguintes valores de status é retornado: 
     

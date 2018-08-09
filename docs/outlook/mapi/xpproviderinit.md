@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0415e782a98102314ce732f744c0d29590f646c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -47,7 +47,7 @@ HRESULT XPProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hInstance_
   
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > A versão EDA sendo usada pelo MAPI não é compatível com o SPI sendo usado por este provedor.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama a função do ponto de entrada **XPProviderInit** ao inicializar um provedor de transporte seguindo um logon do cliente. **XPProviderInit** é chamado uma vez para cada provedor de transporte especificado no perfil do cliente. 
   
@@ -119,7 +119,7 @@ Para obter mais informações sobre como escrever **XPProviderInit**, consulte [
 
 [ABProviderInit](abproviderinit.md)
   
-[IXPProvider: IUnknown](ixpprovideriunknown.md)
+[IXPProvider : IUnknown](ixpprovideriunknown.md)
   
 [MSProviderInit](msproviderinit.md)
 

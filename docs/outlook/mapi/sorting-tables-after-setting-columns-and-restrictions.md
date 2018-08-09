@@ -1,5 +1,5 @@
 ---
-title: Classificando tabelas após definir colunas e restrições
+title: Classificar tabelas depois de configurar colunas e restrições
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770480"
 ---
-# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Classificando tabelas após definir colunas e restrições
+# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Classificar tabelas depois de configurar colunas e restrições
 
   
   

@@ -18,7 +18,7 @@ ms.locfileid: "19771281"
 
 Especifica as propriedades usadas para identificar o autor de um comentário em um desenho.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -52,8 +52,8 @@ Nenhum.
 
 |**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Id  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Iniciais  <br/> |XSD: String  <br/> |opcional  <br/> |As iniciais do autor.  <br/> |Valores do tipo xsd: String.  <br/> |
+|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Initials  <br/> |XSD: String  <br/> |opcional  <br/> |As iniciais do autor.  <br/> |Valores do tipo xsd: String.  <br/> |
 |Nome  <br/> |XSD: String  <br/> |opcional  <br/> |O nome do autor.  <br/> |Valores do tipo xsd: String.  <br/> |
 |ResolutionID  <br/> |XSD: String  <br/> |opcional  <br/> |Um identificador exclusivo para o autor.  <br/> |Valores do tipo xsd: String.  <br/> |
    

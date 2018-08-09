@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagServiceUid
+title: Propriedade canônica PidTagServiceUid
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 304efc3f4ea903f9ed0e9fcf95c7100fa6ebfc95
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770045"
 ---
-# <a name="pidtagserviceuid-canonical-property"></a>Propriedade canônico de PidTagServiceUid
+# <a name="pidtagserviceuid-canonical-property"></a>Propriedade canônica PidTagServiceUid
 
   
   
@@ -34,7 +34,7 @@ Contém a estrutura [MAPIUID](mapiuid.md) para um serviço de mensagem.
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Perfil MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade é computada pelo MAPI em objetos de seção de perfil. MAPI utiliza para todos os provedores que pertencem ao mesmo serviço de mensagem de grupo. Essa propriedade é fornecida como um parâmetro para a maioria dos métodos [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Ele não deve aparecer em MAPISVC. 
   
@@ -54,14 +54,14 @@ Mapitags.h
 
 
 
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

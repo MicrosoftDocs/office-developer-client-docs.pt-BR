@@ -1,5 +1,5 @@
 ---
-title: Anexos de mensagens de suporte para provedores de armazenamento de mensagens
+title: Suporte a anexos de mensagens para provedores do repositório de mensagens
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770521"
 ---
-# <a name="supporting-message-attachments-for-message-store-providers"></a>Anexos de mensagens de suporte para provedores de armazenamento de mensagens
+# <a name="supporting-message-attachments-for-message-store-providers"></a>Suporte a anexos de mensagens para provedores do repositório de mensagens
 
  
   
@@ -41,5 +41,5 @@ Como um implementa links para mensagens pode depender aspectos do sistema de men
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

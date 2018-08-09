@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771278"
 ---
-# <a name="and-function"></a>Função AND
+# <a name="and-function"></a>Função E
 
 Retorna verdadeiro (1) se todas as expressões lógicas fornecidas forem TRUE. Se qualquer uma das expressões lógicas for FALSE ou 0, a função AND retorna FALSE (0).
   
@@ -30,7 +30,7 @@ E (* * *expression1 lógica* * *, * * *expression2 lógica* * *,..., * * *lógic
 |:-----|:-----|:-----|:-----|
 | _expressão lógica_ <br/> |Obrigatório  <br/> |**String** <br/> | Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor. Qualquer expressão avaliada como um valor diferente de zero é considerada VERDADEIRO.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 E (altura \> 1, PinX \> 1)
   

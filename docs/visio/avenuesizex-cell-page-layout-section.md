@@ -20,19 +20,19 @@ ms.locfileid: "19771298"
 
 Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Novo Layout de página**e, em seguida, clique em * * mais Opções de layout * *).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na caixa de diálogo **Layout e roteamento espaçamento** (na guia **Design** , clique na seta do grupo **Configurar página** , clique na guia **Layout e roteamento** e clique em **espaçamento**).
+Também é possível definir esse valor na caixa de diálogo **Espaçamento de Layout e Direcionamento** (na guia **Design**, clique na seta do grupo **Configurar Página**, clique na guia **Layout e Direcionamento** e em **Espaçamento**).
   
-A grade dinâmica usa a configuração na célula AvenueSizeX quando somente uma forma está disponível para o cálculo de espaçamento horizontal. Para usar a grade dinâmica, na guia **Exibir** , no grupo **Auxílios visuais** , selecione **Grade dinâmica**.
+A grade dinâmica utilizará a configuração na célula AvenueSizeX somente quando uma forma estiver disponível para o cálculo do espaçamento horizontal. Para utilizar a grade dinâmica, na guia **Exibir**, no grupo **Auxílios Visuais**, selecione **Grade Dinâmica**.
   
-Para obter uma referência à célula AvenueSizeX pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para fazer referência à célula AvenueSizeX pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | AvenueSizeY  <br/> |
    
-Para obter uma referência à célula AvenueSizeX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula AvenueSizeX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

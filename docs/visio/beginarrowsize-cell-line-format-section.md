@@ -30,17 +30,17 @@ Determina o tamanho da ponta de seta no início da linha.
 | 5  <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
 | 6  <br/> | Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir o tamanho da ponta de seta na caixa de diálogo **linha** . 
+É possível também definir o tamanho da ponta de seta na caixa de diálogo **Linha**. 
   
-Para obter uma referência à célula BeginArrowSize pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula BeginArrowSize pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | BeginArrowSize  <br/> |
    
-Para obter uma referência à célula BeginArrowSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula BeginArrowSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

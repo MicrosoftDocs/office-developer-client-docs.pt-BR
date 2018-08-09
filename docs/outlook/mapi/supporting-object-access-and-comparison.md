@@ -1,5 +1,5 @@
 ---
-title: Suporte a comparação e acesso a objetos
+title: Suporte ao objeto de acesso e comparação
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770561"
 ---
-# <a name="supporting-object-access-and-comparison"></a>Suporte a comparação e acesso a objetos
+# <a name="supporting-object-access-and-comparison"></a>Suporte ao objeto de acesso e comparação
 
   
   

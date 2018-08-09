@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagRtfInSync
+title: Propriedade canônica PidTagRtfInSync
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 85e517601d291f144652befa267d8fd8f76dea64
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769885"
 ---
-# <a name="pidtagrtfinsync-canonical-property"></a>Propriedade canônico de PidTagRtfInSync
+# <a name="pidtagrtfinsync-canonical-property"></a>Propriedade canônica PidTagRtfInSync
 
   
   
@@ -34,7 +34,7 @@ Conterá TRUE se a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidt
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Email  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um valor de verdadeiro significa que a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), a versão de texto sem formatação dessa mensagem e a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), a versão do formato Rich Text (RTF), são idênticas, exceto para espaço em branco no **PR_BODY** e a formatação **PR_RTF_COMPRESSED**. O texto nas duas versões consiste nos mesmos caracteres na mesma sequência.
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagMessageSize
+title: Propriedade canônica PidTagMessageSize
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7da0e480af9761c1317c1941da1d68d448a1ef63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769488"
 ---
-# <a name="pidtagmessagesize-canonical-property"></a>Propriedade canônico de PidTagMessageSize
+# <a name="pidtagmessagesize-canonical-property"></a>Propriedade canônica PidTagMessageSize
 
   
   
@@ -34,7 +34,7 @@ Contém a soma, em bytes, dos tamanhos de todas as propriedades em um objeto de 
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Soluções gerais de mensagens  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 É recomendável que os objetos de mensagem exponham essa propriedade. O tamanho da mensagem indica o número aproximado de bytes são transferidos quando a mensagem é movida do repositório de uma mensagem para outro. Sendo a soma dos tamanhos de todas as propriedades no objeto de mensagem, normalmente é consideravelmente maior do que o texto da mensagem sozinho. 
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

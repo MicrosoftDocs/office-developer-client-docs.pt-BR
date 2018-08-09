@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3a38a4604230c0aa3f5b0d104ae3b838f544b31d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
-_tamanho_
+_size_
   
 > O tamanho da estrutura **RTF_WCSRETINFO** em número de bytes. 
     

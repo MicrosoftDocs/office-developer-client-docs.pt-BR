@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fc6c12d914e581c3f975e94809f0bdea73020099
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ULONG UlAddRef(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _punk_
   
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > Um erro de origem inesperado ou desconhecido impediu a conclusão da operação.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **UlAddRef** retornará o valor retornado pelo método **AddRef** , que é o novo valor da contagem de referência para a interface. O valor é diferente de zero. 
   

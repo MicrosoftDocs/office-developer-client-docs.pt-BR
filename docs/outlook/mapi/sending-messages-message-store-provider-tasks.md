@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8bfa5709dede4a9501d261e0f495acbc0894b470
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770365"
 ---
-# <a name="sending-messages-message-store-provider-tasks"></a>Envio de mensagens: Tarefas de provedor de armazenamento de mensagens
+# <a name="sending-messages-message-store-provider-tasks"></a>Enviar mensagens: tarefas do provedor do repositório de mensagens
 
 **Aplica-se a**: Outlook 
   

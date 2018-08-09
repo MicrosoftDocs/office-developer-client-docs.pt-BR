@@ -1,5 +1,5 @@
 ---
-title: Salvando uma mensagem
+title: Salvar uma mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770292"
 ---
-# <a name="saving-a-message"></a>Salvando uma mensagem
+# <a name="saving-a-message"></a>Salvar uma mensagem
 
   
   

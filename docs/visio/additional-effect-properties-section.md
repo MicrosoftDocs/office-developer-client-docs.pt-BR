@@ -1,5 +1,5 @@
 ---
-title: Seção de propriedades do efeito adicional
+title: Seção Additional Effect Properties
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771255"
 ---
-# <a name="additional-effect-properties-section"></a>Seção de propriedades do efeito adicional
+# <a name="additional-effect-properties-section"></a>Seção Additional Effect Properties
 
 Mostra os efeitos adicionais aplicados à forma, incluindo os efeitos de bordas suaves, brilho e reflexão. Esta seção também incluídos os valores para um efeito de esboço.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode definir a reflexão, brilho e efeitos de bordas suaves na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **efeitos**). Um efeito de esboço pode ser aplicado a uma forma usando um dos temas Esboço (**Design** > **temas** > **efeitos**) ou por meio de alterações para valores do ShapeSheet correspondente cells.
   

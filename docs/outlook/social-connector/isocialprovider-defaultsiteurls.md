@@ -27,7 +27,7 @@ Retorna uma matriz de cadeias de caracteres que especifica as URLs do site para 
 
 Um ponteiro para uma estrutura que especifica uma matriz de cadeias de caracteres que representam as URLs do site para o provedor do OSC.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um provedor pode oferecer suporte a várias URLs de site. O OSC define a propriedade [ISocialSession::SiteUrl](isocialsession-siteurl.md) para informar o provedor da URL do site selecionado. 
   
@@ -35,5 +35,5 @@ O OSC usa o primeiro elemento da matriz como a URL do site padrão. Um provedor 
   
 ## <a name="see-also"></a>Confira também
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

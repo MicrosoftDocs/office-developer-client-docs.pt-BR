@@ -22,13 +22,13 @@ Representa o ângulo de rotação atual da forma em relação ao pai. A fórmula
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula Angle pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Angle pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Angle  <br/> |
    
-Para obter uma referência à célula Angle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Angle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

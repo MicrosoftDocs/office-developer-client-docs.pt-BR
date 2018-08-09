@@ -1,5 +1,5 @@
 ---
-title: Suporte a propriedades nomeadas em repositórios de mensagem
+title: Suporte a propriedades nomeadas em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770535"
 ---
-# <a name="supporting-named-properties-in-message-stores"></a>Suporte a propriedades nomeadas em repositórios de mensagem
+# <a name="supporting-named-properties-in-message-stores"></a>Suporte a propriedades nomeadas em repositórios de mensagens
 
   
   
@@ -29,5 +29,5 @@ A maioria das mensagens armazenar provedores que suportam chamados de assinatura
 
 
 
-[Implementando mensagens em repositórios de mensagem](implementing-messages-in-message-stores.md)
+[Implementar mensagens em repositórios de mensagens](implementing-messages-in-message-stores.md)
 

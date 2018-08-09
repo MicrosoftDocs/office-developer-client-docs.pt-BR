@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19770538"
 ---
-# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Suporte formatado Text em mensagens de entrada: responsabilidades do cliente
+# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Suporte a texto formatado em mensagens de entrada: responsabilidades do cliente
 
   
   

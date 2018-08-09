@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagRoamingDatatypes
+title: Propriedade canônica PidTagRoamingDatatypes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d8b4df2dbb0d7fd2edeb82222f333c11c5f71987
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769859"
 ---
-# <a name="pidtagroamingdatatypes-canonical-property"></a>Propriedade canônico de PidTagRoamingDatatypes
+# <a name="pidtagroamingdatatypes-canonical-property"></a>Propriedade canônica PidTagRoamingDatatypes
 
   
   
@@ -34,7 +34,7 @@ Contém uma bitmask que indica qual fluxo propriedades existem na mensagem.
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuração  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Esta propriedade deve ser definida para um ou mais dos seguintes valores:
   
@@ -73,7 +73,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

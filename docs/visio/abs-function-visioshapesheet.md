@@ -30,7 +30,7 @@ ABS ( *número*)
 |:-----|:-----|:-----|:-----|
 | _Número_ <br/> |Obrigatório  <br/> |**Decimal** <br/> |O número cujo valor absoluto você deseja localizar.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ABS(-1.24) 
   

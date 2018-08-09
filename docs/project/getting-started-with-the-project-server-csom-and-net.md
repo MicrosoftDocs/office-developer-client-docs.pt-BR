@@ -388,7 +388,7 @@ Quando você executa o aplicativo **QueueCreateProject** pela primeira vez em um
 
 Atualize a página da Central de projetos no Project Web App (`http://ServerName/ProjectServerName/Projects.aspx`), para mostrar os projetos publicados. A figura a seguir mostra que os projetos de teste são publicados.
 
-**Verificando os projetos publicados no Project Web App**
+**Checking the published projects in Project Web App**
 
 ![Verificando os projetos publicados no Project Web App] (media/pj15_GetStartedCSOMNET_pwa.gif "Verificando os projetos publicados no Project Web App")
   

@@ -1,5 +1,5 @@
 ---
-title: Adicionar, alterar ou excluir linhas na ShapeSheet
+title: Adicionar, alterar ou excluir linhas no ShapeSheet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771246"
 ---
-# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Adicionar, alterar ou excluir linhas na ShapeSheet
+# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Adicionar, alterar ou excluir linhas no ShapeSheet
 
 Você pode adicionar novas linhas, altere o tipo de linhas existentes ou excluir linhas na ShapeSheet do Microsoft Visio.
   

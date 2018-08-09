@@ -20,7 +20,8 @@ Retorna o ângulo da tangente para o caminho em um determinado ponto.
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2010 
+Version Added: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -38,7 +39,7 @@ ANGLEALONGPATH (* * *seção* * *, * * *de viagem* * * * * *[, segmento]* * *)
 
  **Double**
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se você incluir um valor _segment_ , ANGLEALONGPATH retornará o valor para esse segmento apenas. 
   

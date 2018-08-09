@@ -32,6 +32,6 @@ Uma linha ArcTo contém as células a seguir.
 
 Os arcos desenhados no Visio são elípticos, mesmo se baseados em um círculo. Por padrão, os arcos desenhados são representados por uma linha EllipticalArcTo em uma janela ShapeSheet. Para mostrar uma linha ArcTo em uma janela ShapeSheet, desenhe um arco e depois altere o tipo de linha EllipticalArcTo para uma linha ArcTo; na verdade, você está alterando um arco elíptico para um arco circular.
   
-Para alterar um tipo de linha, do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho. 
+Para alterar um tipo de linha, clique com o botão direito do mouse na linha e clique em **Alterar Tipo de Linha** no menu de atalho. 
   
 

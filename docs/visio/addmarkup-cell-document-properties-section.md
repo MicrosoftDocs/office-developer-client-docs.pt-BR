@@ -32,15 +32,15 @@ Quando a célula AddMarkup está definida como TRUE, o revisor está adicionando
 > [!NOTE]
 > Você pode impedir a marcação em seus documentos usando a função GUARD. Se a célula AddMarkup contém a fórmula = Guard (FALSO), o comando **Rastrear Marcação** está desabilitado. 
   
-Essa configuração corresponde à configuração de comando **Rastrear Marcação** no grupo **marcação** na guia **revisão** . 
+Essa configuração corresponde à configuração de comando **Rastrear Marcação** no grupo **Marcação** na guia **Revisão**. 
   
-Para obter uma referência à célula AddMarkup pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula AddMarkup pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |AddMarkup  <br/> |
    
-Para obter uma referência à célula AddMarkup pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula AddMarkup pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

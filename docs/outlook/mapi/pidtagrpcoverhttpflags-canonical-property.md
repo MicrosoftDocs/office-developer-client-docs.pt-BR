@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagRpcOverHttpFlags
+title: Propriedade canônica PidTagRpcOverHttpFlags
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 151aa730f2ae6a4d39ffa474eb7ecd79ed5602eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769858"
 ---
-# <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriedade canônico de PidTagRpcOverHttpFlags
+# <a name="pidtagrpcoverhttpflags-canonical-property"></a>Propriedade canônica PidTagRpcOverHttpFlags
 
   
   
@@ -30,7 +30,7 @@ Contém as configurações em um perfil usado pelo Microsoft Office Outlook para
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Diversos  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A propriedade **PR_ROH_FLAGS** é armazenada na seção perfil Global de um perfil de Messaging Application Programming Interface (MAPI). O valor de **PR_ROH_FLAGS** é uma bitmask que é composta de um ou mais dos seguintes sinalizadores. 
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

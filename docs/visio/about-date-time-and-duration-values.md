@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771236"
 ---
-# <a name="about-date-time-and-duration-values"></a>Sobre valores de data, hora, duração
+# <a name="about-date-time-and-duration-values"></a>Sobre valores de data, hora e duração
 
 É possível executar operações em fórmulas usando valores de data, hora e duração. No Microsoft Visio, uma expressão de data e tempo pode ser avaliada como um único valor. Uma expressão de data e hora é qualquer expressão comumente reconhecida como uma data e/ou hora ou uma referência a uma célula que contenha uma data e/ou hora. Isso inclui cadeias de caracteres e números que pareçam uma data e hora, e valores de data e hora retornados de funções.
   

@@ -1,5 +1,5 @@
 ---
-title: Recuperando dados de linhas da tabela
+title: Recuperar dados das linhas de tabelas
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 91b1fa06fd47321e9c19d9751caac793e27e8f16
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770263"
 ---
-# <a name="retrieving-data-from-table-rows"></a>Recuperando dados de linhas da tabela
+# <a name="retrieving-data-from-table-rows"></a>Recuperar dados das linhas de tabelas
 
   
   
@@ -33,7 +33,7 @@ Clientes e provedores de serviços podem fazer uma das seguintes chamadas para r
   
 |||
 |:-----|:-----|
-|[IMAPITable:: QueryRows](imapitable-queryrows.md) <br/> |Recupera um número especificado de linhas, começando com a linha atual na direção frente ou para trás.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Recupera um número especificado de linhas, começando com a linha atual na direção frente ou para trás.  <br/> |
 |[HrQueryAllRows](hrqueryallrows.md) <br/> |Recupera todas as linhas em uma tabela.  <br/> |
 |[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |Recupera uma linha em uma tabela de acordo com o valor da coluna seu índice. **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) é geralmente a coluna de índice para uma tabela.  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagMessageToMe
+title: Propriedade canônica PidTagMessageToMe
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 42aec7a8d617bdf1abd385add30d903efa2b73d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769490"
 ---
-# <a name="pidtagmessagetome-canonical-property"></a>Propriedade canônico de PidTagMessageToMe
+# <a name="pidtagmessagetome-canonical-property"></a>Propriedade canônica PidTagMessageToMe
 
   
   
@@ -34,7 +34,7 @@ Conterá TRUE se esse usuário de mensagens é especificamente denominado primá
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Soluções gerais de mensagens  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade oferece uma maneira conveniente para determinar se o nome de usuário aparece explicitamente na lista de destinatários principal, sem o exame todas as entradas na lista. 
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fe07ed7c7f9c76f82b54732c019b9b5f8beb5db2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SBinary
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cb**
   
@@ -50,7 +50,7 @@ typedef struct _SBinary
   
 > Ponteiro para o valor da propriedade PT_BINARY.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter informações sobre os tipos de propriedade, consulte [Visão geral do tipo de propriedade de MAPI](mapi-property-type-overview.md).
   

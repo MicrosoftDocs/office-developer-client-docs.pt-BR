@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771227"
 ---
-# <a name="about-strings"></a>Sobre Sequências de Caracteres
+# <a name="about-strings"></a>Sobre cadeias de caracteres
 
 As fórmulas podem conter sequências de caracteres. Para formatar a saída da sequência, como em uma célula de prompt, um valor de item de dados da forma ou um campo de texto, especifique uma figura de formatação. A saída pode ser formatada como um par de unidade numérica, uma sequência de caracteres, uma data ou hora, uma duração ou uma moeda. Por exemplo, a figura de formatação "0 #/10 uu" formata o par de unidade numérica 10,9 cm como "10 9/10 centímetros".
   
@@ -36,7 +36,7 @@ Microsoft Visio utiliza as configurações na guia **moeda** , na caixa de diál
   
 Para converter uma sequência de caracteres no valor de uma moeda, de forma que você possa efetuar cálculos com o valor, use a função CY.
   
-## <a name="using-functions-to-manipulate-text-strings"></a>Usando funções para manipular cadeias de caracteres de texto
+## <a name="using-functions-to-manipulate-text-strings"></a>Usando funções para manipular sequências de caracteres de texto
 
 É possível usar funções para manipular sequências de caracteres de texto, por exemplo, para localizar ou substituir determinados caracteres em uma sequência de texto. Além disso, você pode obter informações sobre a posição de um caractere em uma sequência ou identificar os caracteres inicial e final em uma sequência de texto. 
   

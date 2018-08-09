@@ -22,20 +22,24 @@ Especifica se a camada está ativa. As formas sem camadas atribuídas previament
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A camada está ativa.  <br/> |
-|FALSO  <br/> |A camada não está ativa.  <br/> |
+|VERDADEIRO  <br/> |
+          A camada está ativa.
+  <br/> |
+|FALSO  <br/> |
+          A camada não está ativa.
+  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-O valor desta célula corresponde à configuração **ativa** na caixa de diálogo **Propriedades da camada** (no grupo **edição** na guia **página inicial** , clique em **camadas**e, em seguida, clique em **Propriedades da camada**).
+O valor nesta célula corresponde à opção **Ativo** na caixa de diálogo **Propriedades da Camada** (no grupo **Edição** na guia **Página Inicial**, clique em **Camadas** e em **Propriedades da Camada**).
   
-Para obter uma referência à célula Active pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Active pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Layers.Active [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula Active pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Active pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

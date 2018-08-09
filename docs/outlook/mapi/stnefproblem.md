@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8595cdb411e68f2aed3ac063b2b81965e9b4d975
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _STnefProblem
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulComponent**
   
@@ -68,7 +68,7 @@ typedef struct _STnefProblem
   
 > Valor de erro indicando que o problema encontrado durante o processamento.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se uma estrutura de **STnefProblem** não foi gerada durante o processamento de um atributo ou propriedade, o aplicativo pode continuar com a pressuposição de que o processamento desse atributo ou a propriedade teve êxito. A única exceção ocorre quando o problema surgiu durante a decodificação de um bloco de encapsulamento. Nesse caso, o componente correspondente para o bloco de decodificação é interrompido e decodificação continua no outro componente. 
   
@@ -78,7 +78,7 @@ Se uma estrutura de **STnefProblem** não foi gerada durante o processamento de 
 
 [STnefProblemArray](stnefproblemarray.md)
   
-[Propriedade canônico de PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propriedade canônica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

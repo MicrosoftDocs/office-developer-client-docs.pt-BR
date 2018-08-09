@@ -27,7 +27,7 @@ ARG (* * *argName* * *, [* * *defaultValue* * *])
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _argName_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome de um argumento que a célula de chamada pode passar para a função.  <br/> |
-| _Valor do padrão_ <br/> |Opcional  <br/> |**Numérico** <br/> |O valor retornado pelo ARG se a célula de chamada não passou um valor para o parâmetro _argName_ .  <br/> |
+| _Valor do padrão_ <br/> |Opcional  <br/> |**Numeric** <br/> |O valor retornado pelo ARG se a célula de chamada não passou um valor para o parâmetro _argName_ .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -35,7 +35,7 @@ Como desenvolvedor de formas, você pode criar funções personalizadas colocand
   
 A célula de chamada especifica a célula que contém a função personalizada, bem como os argumentos que deseja passar para a função. A célula de expressão é avaliada e o resultado retornado para a célula de chamada.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como usar a função ARG em conjunto com a função EVALCELL para encontrar o valor intermediário de um conjunto de três valores. 
   

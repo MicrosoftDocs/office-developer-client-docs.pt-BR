@@ -1,5 +1,5 @@
 ---
-title: Suporte a formulários e modos de exibição em repositórios de mensagem de somente leitura
+title: Suporte a formulários e modos de exibição em repositórios de mensagens somente leitura
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770536"
 ---
-# <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Suporte a formulários e modos de exibição em repositórios de mensagem de somente leitura
+# <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Suporte a formulários e modos de exibição em repositórios de mensagens somente leitura
 
   
   
@@ -33,5 +33,5 @@ Esse requisito que as tabelas de conteúdo associado deve ser criadas e preenchi
 
 
 
-[Repositórios de mensagem de somente leitura](read-only-message-stores.md)
+[Repositórios de mensagens somente leitura](read-only-message-stores.md)
 

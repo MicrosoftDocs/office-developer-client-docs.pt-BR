@@ -65,7 +65,7 @@ No Office Developer Tools para Visual Studio 2012, o arquivo AppManifext.xml tem
 
 **Tabela 1. Escopos de solicitação de permissão para suplementos do Project Server**
 
-|Escopo|Permissões|
+|Escopo|Permissions|
 |:-----|:-----|
 |**Project Server** <br/> |**Gerenciar** (Exige permissões de administrador do Project Server).  <br/> |
 |**Vários projetos** <br/> |**Leitura**, **gravação** (exige permissões de gerente de projeto para algumas operações; permissões de membro da equipe de projeto para basic leia operações, como atribuições de tarefa.)  <br/> |
@@ -286,7 +286,7 @@ Para ajudá-lo a decidir se deseja usar o Project Server no local ou Project Onl
 |**Distribuição** <br/> |-Office Store (para aplicativos baseados em CSOM)<br/>-Catálogo de aplicativos privado no SharePoint<br/>-Compartilhamento de arquivo intranet  <br/> |-Office Store<br/>-Catálogo de aplicativos privado no SharePoint  <br/> |
 
    
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 <a name="pj15_WhatsNew_Conclusion"> </a>
 
 Project Server 2013 fornece uma ampla gama de novos recursos de desenvolvimento e cenários em que os parceiros e clientes podem usar para se adaptar e estender os recursos e a eficácia do Project Server em empresas de grandes porte e em organizações de pequenas porte. Você pode usar a infraestrutura para Office 2013 e SharePoint 2013 para ajudar a criar e distribuir aplicativos para o Project 2013 que pode estender significativamente a COMERCIABILIDADE e o uso de aplicativos personalizados. Alguns recursos de extensibilidade e práticas de versões anteriores foram eliminadas no Project 2013, particularmente os serviços de web ASMX do PSI e recursos que envolvem representação ou alterações de banco de dados direta, que não podem ser usadas com o Project Online.
@@ -303,7 +303,7 @@ Para obter mais informações sobre como desenvolver aplicativos e usar os recur
 - [Tarefas de programação do Project](project-programming-tasks.md) 
 - [Modelo de objeto do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md) 
 - [ProjectData - referência do serviço OData do Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
-- [Tarefa painel suplementos para o Project](task-pane-add-ins-for-project.md)   
+- [Suplementos do painel de tarefas para Project](task-pane-add-ins-for-project.md)   
 - [OData: Convenções URI](http://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
 - [SharePoint para desenvolvedores](http://msdn.microsoft.com/en-US/sharepoint)    
 - [Office para desenvolvedores](http://msdn.microsoft.com/en-US/office)   

@@ -22,13 +22,13 @@ Determina a posição horizontal, em relação à origem de seu pai, de uma guia
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula AlignLeft pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula AlignLeft pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | AlignLeft  <br/> |
    
-Para obter uma referência à célula AlignLeft pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula AlignLeft pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

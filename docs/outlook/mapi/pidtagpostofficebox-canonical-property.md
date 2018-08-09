@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagPostOfficeBox
+title: Propriedade canônica PidTagPostOfficeBox
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c2968bb-9625-4ebe-a8a0-cce8ef1651f4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d469db1fde1645d028c1d4f6beb45f0f42e7e9b6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769669"
 ---
-# <a name="pidtagpostofficebox-canonical-property"></a>Propriedade canônico de PidTagPostOfficeBox
+# <a name="pidtagpostofficebox-canonical-property"></a>Propriedade canônica PidTagPostOfficeBox
 
   
   
@@ -34,7 +34,7 @@ Contém o número ou o identificador da caixa postal do destinatário.
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuário de email MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades fornecem identificação e acessar informações para um destinatário. Eles são definidos por destinatário e suas respectivas organizações. 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

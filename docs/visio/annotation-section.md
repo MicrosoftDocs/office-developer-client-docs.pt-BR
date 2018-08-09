@@ -23,11 +23,11 @@ Contém informações sobre comentários inseridos na página de um documento.
 > [!NOTE]
 > Esta seção é usada para acompanhar comentários somente quando abrir um arquivo. vsd no Microsoft Visio 2013 ou ao salvar um arquivo. vsdx no formato de arquivo. vsd. Ele não é usado para rastreamento de comentários em novos documentos. vsdx no Visio 2013. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A seção **Annotation** da ShapeSheet de uma página contém uma linha para cada comentário adicionado a uma página de desenho, seja uma página de desenho original ou uma página de sobreposição de marcação (uma página que contém a marcação que foi adicionada ao desenho por um revisor). Informações sobre a marcação que foi adicionada usando tinta ou outras formas, em vez de comentários, não estão incluídas na seção **Annotation** . 
   
-Para exibir a ShapeSheet de uma página, verifique se que nada está selecionado na página, clique com o botão a página e clique em **Mostrar ShapeSheet**.
+Para exibir a ShapeSheet de uma página, verifique se nada está selecionado na página, clique com o botão direito do mouse na página e clique em **Mostrar ShapeSheet**.
   
 Para obter informações sobre determinados revisores, consulte a seção **Reviewer** na ShapeSheet do documento. 
   

@@ -304,8 +304,8 @@ Quando você está navegando namespaces e classes de referência do PSI, por exe
 ## <a name="see-also"></a>Confira também
 
 - [Arquitetura do Project Server 2013](project-server-2013-architecture.md)
-- [Recursos de programação do Project Server](project-server-programmability.md)   
-- [O que faz a PSI e não faz](what-the-psi-does-and-does-not-do.md)   
+- [Programabilidade do Project Server](project-server-programmability.md)   
+- [O que o PSI faz e não faz](what-the-psi-does-and-does-not-do.md)   
 - [Pré-requisitos para amostras de código com base em ASMX no projeto](prerequisites-for-asmx-based-code-samples-in-project.md)   
 - [Pré-requisitos para amostras de código com base em WCF no projeto](prerequisites-for-wcf-based-code-samples-in-project.md)   
 - [Centro do desenvolvedor do .NET framework](http://msdn.microsoft.com/en-us/netframework/aa496123.aspx)
