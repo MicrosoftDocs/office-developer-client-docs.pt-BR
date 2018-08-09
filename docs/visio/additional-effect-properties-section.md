@@ -1,5 +1,5 @@
 ---
-title: Seção de propriedades do efeito adicional
+title: Seção Additional Effect Properties
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771255"
 ---
-# <a name="additional-effect-properties-section"></a><span data-ttu-id="ebbeb-104">Seção de propriedades do efeito adicional</span><span class="sxs-lookup"><span data-stu-id="ebbeb-104">Additional Effect Properties Section</span></span>
+# <a name="additional-effect-properties-section"></a><span data-ttu-id="e5941-104">Seção Additional Effect Properties</span><span class="sxs-lookup"><span data-stu-id="e5941-104">Additional Effect Properties Section</span></span>
 
-<span data-ttu-id="ebbeb-105">Mostra os efeitos adicionais aplicados à forma, incluindo os efeitos de bordas suaves, brilho e reflexão.</span><span class="sxs-lookup"><span data-stu-id="ebbeb-105">Shows the additional effects applied to the shape, including reflection, glow, and soft edges effects.</span></span> <span data-ttu-id="ebbeb-106">Esta seção também incluídos os valores para um efeito de esboço.</span><span class="sxs-lookup"><span data-stu-id="ebbeb-106">This section also included the values for a Sketch effect.</span></span>
+<span data-ttu-id="e5941-105">Mostra os efeitos adicionais aplicados à forma, incluindo os efeitos de bordas suaves, brilho e reflexão.</span><span class="sxs-lookup"><span data-stu-id="e5941-105">Shows the additional effects applied to the shape, including reflection, glow, and soft edges effects.</span></span> <span data-ttu-id="e5941-106">Esta seção também incluídos os valores para um efeito de esboço.</span><span class="sxs-lookup"><span data-stu-id="e5941-106">This section also included the values for a Sketch effect.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ebbeb-107">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="ebbeb-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5941-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="e5941-107">Remarks</span></span>
 
-<span data-ttu-id="ebbeb-108">Você pode definir a reflexão, brilho e efeitos de bordas suaves na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **efeitos**).</span><span class="sxs-lookup"><span data-stu-id="ebbeb-108">You can set the reflection, glow, and soft edges effects in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects**).</span></span> <span data-ttu-id="ebbeb-109">Um efeito de esboço pode ser aplicado a uma forma usando um dos temas Esboço (**Design** > **temas** > **efeitos**) ou por meio de alterações para valores do ShapeSheet correspondente cells.</span><span class="sxs-lookup"><span data-stu-id="ebbeb-109">A Sketch effect can be applied to a shape by using one of the sketch themes (**Design** > **Themes** > **Effects**) or by making changes to values in the corresponding ShapeSheet cells.</span></span>
+<span data-ttu-id="e5941-108">Você pode definir a reflexão, brilho e efeitos de bordas suaves na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **efeitos**).</span><span class="sxs-lookup"><span data-stu-id="e5941-108">You can set the reflection, glow, and soft edges effects in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Effects**).</span></span> <span data-ttu-id="e5941-109">Um efeito de esboço pode ser aplicado a uma forma usando um dos temas Esboço (**Design** > **temas** > **efeitos**) ou por meio de alterações para valores do ShapeSheet correspondente cells.</span><span class="sxs-lookup"><span data-stu-id="e5941-109">A Sketch effect can be applied to a shape by using one of the sketch themes (**Design** > **Themes** > **Effects**) or by making changes to values in the corresponding ShapeSheet cells.</span></span>
   
 

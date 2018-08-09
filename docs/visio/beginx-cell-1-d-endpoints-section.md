@@ -16,24 +16,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771308"
 ---
-# <a name="beginx-cell-1-d-endpoints-section"></a><span data-ttu-id="4a89e-103">Célula BeginX (Seção 1-D Endpoints)</span><span class="sxs-lookup"><span data-stu-id="4a89e-103">BeginX Cell (1-D Endpoints Section)</span></span>
+# <a name="beginx-cell-1-d-endpoints-section"></a><span data-ttu-id="155e6-103">Célula BeginX (Seção 1-D Endpoints)</span><span class="sxs-lookup"><span data-stu-id="155e6-103">BeginX Cell (1-D Endpoints Section)</span></span>
 
-<span data-ttu-id="4a89e-104">Representa o *x* -coordenadas do ponto inicial da forma 1D em relação à origem de seu pai.</span><span class="sxs-lookup"><span data-stu-id="4a89e-104">Represents the  *x*  -coordinate of the begin point of the 1-D shape, in relation to the origin of its parent.</span></span> 
+<span data-ttu-id="155e6-104">Representa o *x* -coordenadas do ponto inicial da forma 1D em relação à origem de seu pai.</span><span class="sxs-lookup"><span data-stu-id="155e6-104">Represents the  *x*  -coordinate of the begin point of the 1-D shape, in relation to the origin of its parent.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="4a89e-105">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="4a89e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="155e6-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="155e6-105">Remarks</span></span>
 
-<span data-ttu-id="4a89e-106">Para obter uma referência à célula BeginX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="4a89e-106">To get a reference to the BeginX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="155e6-106">Para fazer referência à célula BeginX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="155e6-106">To get a reference to the BeginX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4a89e-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="4a89e-107">Cell name:</span></span>  <br/> | <span data-ttu-id="4a89e-108">BeginX</span><span class="sxs-lookup"><span data-stu-id="4a89e-108">BeginX</span></span>  <br/> |
+| <span data-ttu-id="155e6-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="155e6-107">Cell name:</span></span>  <br/> | <span data-ttu-id="155e6-108">BeginX</span><span class="sxs-lookup"><span data-stu-id="155e6-108">BeginX</span></span>  <br/> |
    
-<span data-ttu-id="4a89e-109">Para obter uma referência à célula BeginX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="4a89e-109">To get a reference to the BeginX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="155e6-109">Para fazer referência à célula BeginX pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="155e6-109">To get a reference to the BeginX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4a89e-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="4a89e-110">Section index:</span></span>  <br/> |<span data-ttu-id="4a89e-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="4a89e-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="4a89e-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="4a89e-112">Row index:</span></span>  <br/> |<span data-ttu-id="4a89e-113">**visRowXForm1D**</span><span class="sxs-lookup"><span data-stu-id="4a89e-113">**visRowXForm1D**</span></span> <br/> |
-| <span data-ttu-id="4a89e-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="4a89e-114">Cell index:</span></span>  <br/> |<span data-ttu-id="4a89e-115">**vis1DBeginX**</span><span class="sxs-lookup"><span data-stu-id="4a89e-115">**vis1DBeginX**</span></span> <br/> |
+| <span data-ttu-id="155e6-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="155e6-110">Section index:</span></span>  <br/> |<span data-ttu-id="155e6-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="155e6-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="155e6-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="155e6-112">Row index:</span></span>  <br/> |<span data-ttu-id="155e6-113">**visRowXForm1D**</span><span class="sxs-lookup"><span data-stu-id="155e6-113">**visRowXForm1D**</span></span> <br/> |
+| <span data-ttu-id="155e6-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="155e6-114">Cell index:</span></span>  <br/> |<span data-ttu-id="155e6-115">**vis1DBeginX**</span><span class="sxs-lookup"><span data-stu-id="155e6-115">**vis1DBeginX**</span></span> <br/> |
    
 

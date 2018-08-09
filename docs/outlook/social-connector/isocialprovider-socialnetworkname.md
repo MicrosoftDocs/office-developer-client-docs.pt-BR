@@ -15,23 +15,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770848"
 ---
-# <a name="isocialprovidersocialnetworkname"></a><span data-ttu-id="165f5-103">ISocialProvider::SocialNetworkName</span><span class="sxs-lookup"><span data-stu-id="165f5-103">ISocialProvider::SocialNetworkName</span></span>
+# <a name="isocialprovidersocialnetworkname"></a><span data-ttu-id="44991-103">ISocialProvider::SocialNetworkName</span><span class="sxs-lookup"><span data-stu-id="44991-103">ISocialProvider::SocialNetworkName</span></span>
 
-<span data-ttu-id="165f5-104">Retorna uma string que representa o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="165f5-104">Returns a string that represents the social network name.</span></span> 
+<span data-ttu-id="44991-104">Retorna uma string que representa o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="44991-104">Returns a string that represents the social network name.</span></span> 
   
 ```cpp
 [propget] HRESULT _stdcall SocialNetworkName([out, retval] BSTR* networkName);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="165f5-105">Property value</span><span class="sxs-lookup"><span data-stu-id="165f5-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="44991-105">Property value</span><span class="sxs-lookup"><span data-stu-id="44991-105">Property value</span></span>
 
-<span data-ttu-id="165f5-106">Uma cadeia de caracteres que contém o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="165f5-106">A string that contains the social network name.</span></span>
+<span data-ttu-id="44991-106">Uma cadeia de caracteres que contém o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="44991-106">A string that contains the social network name.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="165f5-107">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="165f5-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44991-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="44991-107">Remarks</span></span>
 
-<span data-ttu-id="165f5-108">Provedores do Outlook Social Connector (OSC) devem localizar o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="165f5-108">Outlook Social Connector (OSC) providers should localize the social network name.</span></span>
+<span data-ttu-id="44991-108">Provedores do Outlook Social Connector (OSC) devem localizar o nome de rede social.</span><span class="sxs-lookup"><span data-stu-id="44991-108">Outlook Social Connector (OSC) providers should localize the social network name.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="165f5-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="165f5-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44991-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="44991-109">See also</span></span>
 
-- [<span data-ttu-id="165f5-110">ISocialProvider: IUnknown</span><span class="sxs-lookup"><span data-stu-id="165f5-110">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="44991-110">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="44991-110">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

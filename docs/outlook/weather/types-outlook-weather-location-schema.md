@@ -15,10 +15,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771031"
 ---
-# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="185ef-103">Tipos (esquema de local de clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="185ef-103">Types (Outlook Weather Location Schema)</span></span>
+# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="d2740-103">Tipos (esquema de local de clima do Outlook)</span><span class="sxs-lookup"><span data-stu-id="d2740-103">Types (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="185ef-104">Este tópico lista os tipos de esquema XML de local de clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="185ef-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="d2740-104">Este tópico lista os tipos de esquema XML de local de clima do Outlook.</span><span class="sxs-lookup"><span data-stu-id="d2740-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="185ef-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="185ef-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
+- [<span data-ttu-id="d2740-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="d2740-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
     
 

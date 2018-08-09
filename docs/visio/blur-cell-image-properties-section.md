@@ -16,24 +16,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771408"
 ---
-# <a name="blur-cell-image-properties-section"></a><span data-ttu-id="3dfee-104">Célula Blur (Seção Image Properties)</span><span class="sxs-lookup"><span data-stu-id="3dfee-104">Blur Cell (Image Properties Section)</span></span>
+# <a name="blur-cell-image-properties-section"></a><span data-ttu-id="f95e9-104">Célula Blur (Seção Image Properties)</span><span class="sxs-lookup"><span data-stu-id="f95e9-104">Blur Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="3dfee-p102">Esfuma ou suaviza uma imagem de bitmap. O valor padrão é 0%.</span><span class="sxs-lookup"><span data-stu-id="3dfee-p102">Blurs or softens a bitmap image. The default value is 0%.</span></span>
+<span data-ttu-id="f95e9-p102">Esfuma ou suaviza uma imagem de bitmap. O valor padrão é 0%.</span><span class="sxs-lookup"><span data-stu-id="f95e9-p102">Blurs or softens a bitmap image. The default value is 0%.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3dfee-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="3dfee-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f95e9-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="f95e9-107">Remarks</span></span>
 
-<span data-ttu-id="3dfee-108">Para obter uma referência à célula Blur pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="3dfee-108">To get a reference to the Blur cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="f95e9-108">Para fazer referência à célula Blur pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="f95e9-108">To get a reference to the Blur cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3dfee-109">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="3dfee-109">Cell name:</span></span>  <br/> | <span data-ttu-id="3dfee-110">Blur</span><span class="sxs-lookup"><span data-stu-id="3dfee-110">Blur</span></span>  <br/> |
+| <span data-ttu-id="f95e9-109">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="f95e9-109">Cell name:</span></span>  <br/> | <span data-ttu-id="f95e9-110">Blur</span><span class="sxs-lookup"><span data-stu-id="f95e9-110">Blur</span></span>  <br/> |
    
-<span data-ttu-id="3dfee-111">Para obter uma referência à célula Blur pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="3dfee-111">To get a reference to the Blur cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="f95e9-111">Para fazer referência à célula Blur pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="f95e9-111">To get a reference to the Blur cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3dfee-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="3dfee-112">Section index:</span></span>  <br/> |<span data-ttu-id="3dfee-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3dfee-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3dfee-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="3dfee-114">Row index:</span></span>  <br/> |<span data-ttu-id="3dfee-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="3dfee-115">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="3dfee-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="3dfee-116">Cell index:</span></span>  <br/> |<span data-ttu-id="3dfee-117">**visImageBlur**</span><span class="sxs-lookup"><span data-stu-id="3dfee-117">**visImageBlur**</span></span> <br/> |
+| <span data-ttu-id="f95e9-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="f95e9-112">Section index:</span></span>  <br/> |<span data-ttu-id="f95e9-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f95e9-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="f95e9-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="f95e9-114">Row index:</span></span>  <br/> |<span data-ttu-id="f95e9-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="f95e9-115">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="f95e9-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="f95e9-116">Cell index:</span></span>  <br/> |<span data-ttu-id="f95e9-117">**visImageBlur**</span><span class="sxs-lookup"><span data-stu-id="f95e9-117">**visImageBlur**</span></span> <br/> |
    
 
