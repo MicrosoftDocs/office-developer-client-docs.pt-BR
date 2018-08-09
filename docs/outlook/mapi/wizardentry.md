@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2c307d18c5b62e5190aa10632a47a3f16b80e81f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ ULONG WIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hProviderDLLInstance_
   
@@ -75,7 +75,7 @@ MAPI_E_CALL_FAILED
   
 > Um erro de origem inesperado ou desconhecido impediu a conclusão da operação.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O Assistente de perfil chama a função **WIZARDENTRY** com base em quando ele estiver pronto para exibir a interface do usuário de configuração do provedor de serviços. Quando o Assistente de perfil for terminar de configurar todos os provedores, ele grava as propriedades de configuração para o perfil chamando [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   

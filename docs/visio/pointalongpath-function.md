@@ -20,7 +20,8 @@ Retorna as coordenadas de um ponto no caminho ou o deslocamento em relação a e
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2010 
+Version Added: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -39,7 +40,7 @@ POINTALONGPATH (* * *seção* * *, * * *de viagem* * * * * *[, deslocamento]* * 
 
  **Ponto**
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se não existir _section_ nem _segment_ , o Microsoft Visio retornará #REF!. 
   
@@ -47,6 +48,6 @@ Valores de *deslocamento* de positivos especificam pontos à esquerda da direç�
   
 Valores de *deslocamento* de negativos especificam pontos à direita da direção da viagem. 
   
-Um **Point** representa um par ordenado de coordenadas geométricas (*x, y*) como um valor único. 
+Um **Point** representa um par ordenado de coordenadas geométricas (*x,y*) como um único valor. 
   
 

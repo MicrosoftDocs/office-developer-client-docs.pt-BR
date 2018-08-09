@@ -1,5 +1,5 @@
 ---
-title: Célula UseGroupGradient (seção Propriedades de gradiente)
+title: Célula UseGroupGradient (Seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773228"
 ---
-# <a name="usegroupgradient-cell-gradient-properties-section"></a>Célula UseGroupGradient (seção Propriedades de gradiente)
+# <a name="usegroupgradient-cell-gradient-properties-section"></a>Célula UseGroupGradient (Seção Gradient Properties)
 
 Determina se a forma leva em um gradiente quando a forma é agrupada em conjunto com relação às outras formas, como um valor booleano. O valor da célula **UseGroupGradient** afeta somente o preenchimento da forma. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **UseGroupGradient** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

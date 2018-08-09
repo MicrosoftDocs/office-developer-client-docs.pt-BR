@@ -26,7 +26,7 @@ Mostra a definição de comportamento de redimensionamento atual da forma.
 |1  <br/> |Apenas reposicionar.  <br/> |**visXFormResizeSpread** <br/> |
 |2  <br/> |Escala com grupo.  <br/> |**visXFormResizeScale** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você também pode definir esse valor na guia **comportamento** , na caixa de diálogo **comportamento** (na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md), no grupo **Design da forma** , clique em **comportamento**). Para obter uma referência à célula ResizeMode pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
   
@@ -34,7 +34,7 @@ Você também pode definir esse valor na guia **comportamento** , na caixa de di
 |:-----|:-----|
 |Nome da célula:  <br/> |ResizeMode  <br/> |
    
-Para obter uma referência à célula ResizeMode pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ResizeMode pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

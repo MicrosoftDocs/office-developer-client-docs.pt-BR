@@ -19,7 +19,7 @@ ms.locfileid: "19771038"
 
 Especifica as condições de clima de um local.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

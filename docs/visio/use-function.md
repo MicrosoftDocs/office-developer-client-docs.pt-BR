@@ -32,7 +32,7 @@ USO ("* * *nome* * *")
    
 ### <a name="return-value"></a>Valor retornado
 
-Número
+Number
   
 ## <a name="remarks"></a>Comentários
 
@@ -40,7 +40,7 @@ Se um mestre chamado _name_ estiver presente no estêncil do documento do docume
   
 Essa função sempre retornará 254.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 USE("Railroad Tracks") 
   

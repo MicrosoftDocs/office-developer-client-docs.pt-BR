@@ -18,7 +18,7 @@ ms.locfileid: "19772914"
 
 Contém uma coleção de elementos de forma.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

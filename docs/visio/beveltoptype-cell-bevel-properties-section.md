@@ -1,5 +1,5 @@
 ---
-title: Célula BevelTopType (seção Propriedades de bisel)
+title: Célula BevelTopType (Seção Bevel Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771324"
 ---
-# <a name="beveltoptype-cell-bevel-properties-section"></a>Célula BevelTopType (seção Propriedades de bisel)
+# <a name="beveltoptype-cell-bevel-properties-section"></a>Célula BevelTopType (Seção Bevel Properties)
 
 Determina o tipo de bisel na borda superior de uma forma. 
   
@@ -34,7 +34,7 @@ Determina o tipo de bisel na borda superior de uma forma.
 |11  <br/> |Disco rígido bisel de borda  <br/> |
 |12  <br/> |Bisel art decô  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **BevelTopType** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

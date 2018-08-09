@@ -35,7 +35,7 @@ BITXOR (* * *Número1 binário* * *, * * *binário 2* * *)
 
 Binário de 16 bits
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 BITXOR(12,6)
   

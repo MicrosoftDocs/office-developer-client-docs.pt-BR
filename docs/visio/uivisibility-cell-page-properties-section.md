@@ -25,22 +25,22 @@ Determina se o nome da página será exibido na interface do usuário.
 |0  <br/> |Exibe o nome da página na interface do usuário (o padrão).  <br/> |**visUIVNormal** <br/> |
 |1  <br/> |Não exibe o nome da página na interface do usuário.  <br/> |**visUIVHidden** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Definindo a célula UIVisibility como **visUIVHidden** impede que a página que aparecem em qualquer lugar na interface de usuário onde a cadeia de caracteres contendo o nome da página aparece. Por exemplo, a página não seria listada como uma opção no **Gerenciador de desenho** ou nas guias de página. A página permanece acessível, no entanto, se você usar caminhos de automação ou da interface do usuário que não inclua o nome da página, por exemplo, o comando **Imprimir** . 
   
- Esta célula é destinada para uso com páginas do documento; ele não é destinado para uso com páginas de sobreposição de marcação, que possuem a célula UIVisibility definida como **visUIVHidden** por padrão e não deve ser alterado. 
+ Essa célula é destinada ao uso com páginas de documento, e não com páginas de sobreposição de marcação, cuja célula UIVisibility é definida como **visUIVHidden** por padrão e não deve ser mudada. 
   
 > [!NOTE]
 > Para ocultar uma página do comando **Imprimir** do documento, torná-lo uma página de plano de fundo (a propriedade**Type** é **visTypeBackground** ) que não é usado como um plano de fundo por qualquer página (as formas em páginas são impressas quando uma página utilizá-lo como um plano de fundo é de plano de fundo impresso). Comando **Imprimir** do documento funciona somente com páginas indexadas e páginas de plano de fundo não estão indexadas. 
   
-Para obter uma referência para a célula UIVisibility pelo nome a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula UIVisibility pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |UIVisibility  <br/> |
    
-Para obter uma referência para a célula UIVisibility pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula UIVisibility pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

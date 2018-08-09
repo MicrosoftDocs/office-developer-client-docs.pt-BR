@@ -1,5 +1,5 @@
 ---
-title: Célula FontSchemeIndex (seção de propriedades de tema
+title: Célula FontSchemeIndex (Seção Theme Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771916"
 ---
-# <a name="fontschemeindex-cell-theme-properties-section"></a>Célula FontSchemeIndex (seção de propriedades de tema
+# <a name="fontschemeindex-cell-theme-properties-section"></a>Célula FontSchemeIndex (Seção Theme Properties)
 
 Determina o esquema de fontes de um tema aplicado à forma, como um número inteiro. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **FontSchemeIndex** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

@@ -18,7 +18,7 @@ ms.locfileid: "19771931"
 
 Contém a cadeia de caracteres de texto que aparece na parte direita do rodapé de um documento.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

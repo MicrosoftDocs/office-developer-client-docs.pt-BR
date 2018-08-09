@@ -1,5 +1,5 @@
 ---
-title: Suporte de notificação de evento
+title: Suporte à notificação de eventos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19770512"
 ---
-# <a name="supporting-event-notification"></a>Suporte de notificação de evento
+# <a name="supporting-event-notification"></a>Suporte à notificação de eventos
 
   
   

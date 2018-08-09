@@ -18,7 +18,7 @@ ms.locfileid: "19773239"
 
 Encapsula as propriedades relacionadas a validação do documento.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

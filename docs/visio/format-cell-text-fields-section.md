@@ -22,17 +22,17 @@ Especifica a formatação de um campo de texto que pode ser uma sequência de ca
   
 ## <a name="remarks"></a>Comentários
 
-Se o valor da célula Type for 0, 2, 5, 6 ou 7 (cadeia de caracteres, número, data ou hora, duração ou moeda, respectivamente), especifique uma figura de formatação apropriada para o tipo de dados. Por exemplo, a imagem de formato "# #/ 4 UU" formata o número pol 12.43. como 12 2/4 polegadas. Para obter mais informações sobre como especificar uma figura de formatação, consulte [sobre figuras de formatação](about-format-pictures.md).
+Se o valor da célula Type for 0, 2, 5, 6 ou 7 (cadeia de caracteres, número, data ou hora, duração ou moeda, respectivamente), especifique uma figura de formatação apropriada para o tipo de dados. Por exemplo, a figura de formatação "# #/4 UU" formata o número 12,43 pol. como 12 2/4 POLEGADAS. Para obter mais informações sobre como especificar uma figura de formatação, consulte [Sobre figuras de formatação](about-format-pictures.md).
   
 Um número (Tipo = 2) pode representar uma dimensão, uma grandeza escalar, um ângulo, uma data, uma hora ou uma moeda. Para garantir que um número de entrada seja sempre avaliado como uma data, hora ou moeda, utilize as funções DATETIME ou CY na célula Format em vez de uma figura de formatação.
   
-Para obter uma referência à célula Format pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Format pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Fields.Format [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula Format pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Format pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

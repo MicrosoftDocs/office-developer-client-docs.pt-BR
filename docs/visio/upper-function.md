@@ -34,7 +34,7 @@ SUPERIOR (* * *expressão* * *)
 
 A conversão de maiúsculas e minúsculas é específica a cada local, tendo por base as configurações de usuário atuais. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 UPPER("MAiúsculas/minÚsculas") 
   

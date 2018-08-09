@@ -26,13 +26,13 @@ Esse valor pode ser especificado para marcadores predefinidos ou personalizados,
   
 Se o valor for zero (0), o marcador é o mesmo tamanho da fonte que do primeiro caractere do parágrafo. Se o valor é uma porcentagem, o marcador é dimensionado como um percentual do tamanho da fonte do primeiro caractere do parágrafo. Números negativos são tratados como porcentagens.
   
-Para obter uma referência à célula BulletSize pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula BulletSize pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Para.BulletFontSize [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula BulletSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula BulletSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

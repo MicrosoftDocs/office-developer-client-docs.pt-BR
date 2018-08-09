@@ -22,15 +22,15 @@ Determina a distância em unidades de página pela qual a sombra projetada de um
   
 ## <a name="remarks"></a>Comentários
 
-Esse valor é definido na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ). Esse valor é independente da escala do desenho. Se o desenho estiver em escala, o deslocamento de sombra permanece o mesmo. 
+Esse valor é definido na caixa de diálogo **Configurar página** (na guia **Design**, clique na seta **Configurar Página**). Esse valor não depende da escala do desenho. Se o desenho estiver em escala, o deslocamento da sombra será o mesmo. 
   
-Para obter uma referência para a célula ShdwOffsetX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShdwOffsetX pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShdwOffsetX  <br/> |
    
-Para obter uma referência para a célula ShdwOffsetX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShdwOffsetX pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

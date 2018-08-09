@@ -22,15 +22,15 @@ Contém a função para um campo.
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir o valor desta célula usando a caixa de diálogo **campo** (na guia **Inserir** , no grupo **texto** , clique em **campo**).
+Você pode definir o valor desta célula usando a caixa de diálogo **Campo** (na guia **Inserir**, do grupo **Texto**, clique em **Campo**).
   
-Para obter uma referência à célula Value pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Value pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Fields.Value [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula Value pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -24,13 +24,13 @@ Um número que determina a ordem de hiperlinks que aparecem em um menu de atalho
 
 Os hiperlinks de um menu de atalho são exibidos no menu classificados do mais baixo ao mais alto, com os números menores exibidos no alto do menu. Se duas linhas de hiperlink tiverem o mesmo valor na célula SortKey, a ordem é determinada por ordem de linha física. O padrão é 0 (zero). 
   
-Para obter uma referência para a célula SortKey pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula SortKey pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Hiperlink. *nome* . SortKey onde Hyperlink *. nome* é o nome da linha  <br/> |
    
-Para obter uma referência para a célula SortKey pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula SortKey pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

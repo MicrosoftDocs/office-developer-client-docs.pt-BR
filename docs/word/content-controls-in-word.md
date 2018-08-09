@@ -82,9 +82,9 @@ Word 2013 permite que um controle de conteúdo individual seja exibido em um dos
 - Nenhum
     
 > [!NOTE]
-> Se não indicado de outra forma, esta seção discute a visualização dos controles de conteúdo quando o documento não é exibido no **Modo de Design**. Você pode definir o modo de exibição para um controle de conteúdo usando o controle de lista suspensa **são exibidos como** na caixa de diálogo **Propriedades de controle de conteúdo** . 
+> Se não especificado algo em contrário, esta seção discute a visualização de controles de conteúdo quando o documento não é exibido no **Modo de Design**. Você define o modo de exibição para um controle de conteúdo usando o controle de lista suspensa **Mostrar como** na caixa de diálogo **Propriedades de Controle de Conteúdo**. 
   
-**Figura 1. Caixa de diálogo Propriedades do controle conteúda**
+**Figura 1. Caixa de diálogo Propriedades de Controle de Conteúdo**
 
 ![Caixa de diálogo de propriedades de controle de conteúdo] (media/DK2_WordCC_Fig01.jpg "Caixa de diálogo de propriedades de controle de conteúdo")
   
@@ -99,7 +99,7 @@ O processamento de padrão para controles de conteúdo no Word 2013 é para pres
     
 - Quando o ponteiro do mouse é colocado sobre ele, o controle de conteúdo é exibido como um retângulo sombreado
     
-**Figura 2. Controle de conteúdo em passar o mouse**
+**Figura 2. Controle de conteúdo com o ponteiro do mouse colocado sobre ele**
 
 ![Conteúdo do controle em um mouse sobre] (media/DK2_WordCC_Fig02.jpg "Conteúdo do controle em um mouse sobre")
   
@@ -112,16 +112,16 @@ O processamento de padrão para controles de conteúdo no Word 2013 é para pres
 ### <a name="startend-tags"></a>Marcas de início/fim
 <a name="WordCC_StartEndTags"> </a>
 
-Quando o controle de conteúdo é definido para mostrar como a **marca de início/término**, as marcas serão exibidas, independentemente da interação do usuário e o título, nunca será exibida; mas botões, como o botão de **Lista suspensa** , aparecem em mouse sobre. 
+Quando o controle de conteúdo é definido para ser mostrado como **Marca de Início/Fim**, as marcas são exibidas independentemente da interação do usuário, e o título nunca aparece; no entanto, botões como **Lista Suspensa** são mostrados quando o ponteiro do mouse é colocado sobre ele. 
   
-**Figura 4. Controle de conteúdo definido para mostrar como marcas de início/término**
+**Figura 4. Controle de conteúdo definido para ser mostrado como marcas de início/fim**
 
 ![Controle de conteúdo definido para mostrar como iniciar e finalizar marcas] (media/DK2_WordCC_Fig04.jpg "Controle de conteúdo definido para mostrar como iniciar e finalizar marcas")
   
-### <a name="none"></a>None
+### <a name="none"></a>Nenhum
 <a name="WordCC_Invisible"> </a>
 
-Quando o controle de conteúdo é definido para mostrar como **Nenhum**, o controle de conteúdo não é exibido.
+Quando o controle de conteúdo é definido para ser mostrado como **Nenhum**, ele não é exibido.
   
 ### <a name="content-control-colorization"></a>Colorização de controle de conteúdo
 <a name="WordCC_CCColorization"> </a>
@@ -130,7 +130,7 @@ Além de ativar a um tipo de exibição para um controle de conteúdo diferente,
   
 Você também pode definir a cor de um controle de conteúdo usando o modelo de objeto do Word 2013 (discutido posteriormente [membros do modelo de objeto do Word 2013 novo controle de conteúdo](#WordCC_NewOM)).
   
-**Figura 5. Caixa de diálogo Propriedades do controle conteúda**
+**Figura 5. Caixa de diálogo Propriedades de Controle de Conteúdo**
 
 ![Caixa de diálogo de propriedades de controle de conteúdo] (media/DK2_WordCC_Fig05.jpg "Caixa de diálogo de propriedades de controle de conteúdo")
   
@@ -142,7 +142,7 @@ Word 2013 ajuda você a mapear o conteúdo de controles de conteúdo de rich tex
 > [!NOTE]
 > Controles de conteúdo de rich text não podem ter outros controles de conteúdo de rich text. Se houver um dentro de outro (por exemplo, devido a manipulação de formato de arquivo, cópia e colagem e assim por diante), ele será desvinculado até que não esteja mais está contido em um controle de rich text mapeado. 
   
-Para obter mais informações sobre como configurar o mapeamento XML, consulte a seção [membros do modelo de objeto do Word 2013 novo controle de conteúdo](#WordCC_NewOM) mais adiante neste tópico. 
+Para obter mais informações sobre como configurar um mapeamento de XML, confira a seção [Novos membros do modelo de objeto controle de conteúdo do Word 2013](#WordCC_NewOM) mais adiante neste tópico. 
   
 ### <a name="supporting-repeating-content"></a>Suporte a conteúdo de repetição
 <a name="WordCC_SupportingRepeating"> </a>
@@ -151,19 +151,19 @@ Além dos aprimoramentos de visualização e suporte para mapeamento de XML para
   
 Você insere o controle de conteúdo de seção recorrente ao redor de parágrafos inteiros ou linhas de tabela. Depois que o controle envolve uma seção, você pode inserir cópias da seção acima ou abaixo da seção contida.
   
-**Figura 6. Menu de contexto de controle de conteúdo de seção de repetição**
+**Figura 6. Menu de contexto de controle de conteúdo de seção recorrente**
 
 ![Contexto de controle de conteúdo de seção de repetição] (media/DK2_WordCC_Fig06.jpg "Contexto de controle de conteúdo de seção de repetição")
   
 Você pode repetir a seção inserida usando o controle na extremidade do controle de conteúdo (exibido como um botão com um sinal de adição (![sinal de adição]de(media/DK2_WordCC_Fig06A.jpg "sinal de adição"))) ou escolhendo um comando no menu de contexto, conforme mostrado na Figura 6. O conteúdo repetido torna-se uma seção separada do controle que você pode atribuir um título usando a caixa de diálogo **Propriedades de controle de conteúdo** . 
   
-**Figura 7. Atribuir um título de seção na caixa de diálogo Propriedades de controle de conteúdo**
+**Figura 7. Atribuir um título à seção na caixa de diálogo Propriedades de Controle de Conteúdo**
 
 ![Caixa de diálogo de propriedades de controle de conteúdo] (media/DK2_WordCC_Fig07.jpg "Caixa de diálogo de propriedades de controle de conteúdo")
   
-Depois que você concedeu a seção um título, se você selecionar **Permitir que os usuários para adicionar e remover seções** na caixa de diálogo **Propriedades de controle de conteúdo** , os usuários podem adicionar ou excluir a seção pelo nome. 
+Após dar um título a uma seção, se você selecionar **Permitir aos usuários adicionar e remover seções** na caixa de diálogo **Propriedades de Controle de Conteúdo**, os usuários poderão adicionar ou excluir a seção pelo nome. 
   
-**Figura 8. Use o menu de contexto de controle de conteúdo de seção repetição para excluir uma seção**
+**Figura 8. Usar o menu de contexto de controle de conteúdo de seção recorrente para excluir uma seção**
 
 ![Contexto de controle de conteúdo de seção de repetição] (media/DK2_WordCC_Fig08.jpg "Contexto de controle de conteúdo de seção de repetição")
   
@@ -173,11 +173,11 @@ Quando o controle de conteúdo de uma seção recorrente envolve outros controle
     
 - Quando um controle filho tem mapeamento de XML para um nó fora do controle de conteúdo de seção recorrente.
     
-**Figura 9. Controle de conteúdo de seção contendo controles filho antes da repetição de repetição**
+**Figura 9. Controle de conteúdo de seção recorrente com controles filho antes da repetição**
 
 ![Repita a seção controle de conteúdo antes de repetição] (media/DK2_WordCC_Fig09.jpg "Repita a seção controle de conteúdo antes de repetição")
   
-**Figura 10. Controle de conteúdo de seção que contém controles filho após repetir de repetição**
+**Figura 10. Controle de conteúdo de seção recorrente com controles filho depois da repetição**
 
 ![Repita a seção controle de conteúdo após a repetição] (media/DK2_WordCC_Fig10.jpg "Repita a seção controle de conteúdo após a repetição")
   
@@ -225,14 +225,14 @@ Se você deseja vincular um controle de conteúdo de seção de repetição a um
 
 O aninhamento de controles de conteúdo de seção recorrente rigidamente dentro de uma tabela (por exemplo, quando o fim do controle de conteúdo de seção recorrente pai e filho está na mesma célula) faz com que a seção recorrente externa seja excluída quando um item é adicionado ou removido da seção interna.
   
-Você pode evitar que isso aconteça, adicionando um marcador de parágrafo entre o final de um controle de conteúdo de seção de repetição e a próxima. Para ocultar o marcador de parágrafo, desmarque a opção de **Mostrar/ocultar** , na guia **página inicial** da faixa de opções. 
+Você pode evitar que isso aconteça adicionando um marcador de parágrafo entre o fim de um controle de conteúdo de seção recorrente e o seguinte. Para ocultar o marcador de parágrafo, desmarque a opção **Mostrar/Ocultar** na guia **Página Inicial** da faixa de opções. 
   
 ### <a name="open-xml-file-format-schema-additions"></a>Adições de esquema de Formato de Arquivo Open XML
 <a name="WordCC"> </a>
 
 Os elementos a seguir foram adicionados ao esquema de Formato de Arquivo Open XML WordprocessingML.
   
-**Tabela 1. Novos elementos no esquema WordprocessingML formato de arquivo Open XML para controles de conteúdo**
+**Tabela 1. Novos elementos no esquema de Formato de Arquivo Open XML WordprocessingML para controles de conteúdo**
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|
@@ -251,16 +251,16 @@ As seções a seguir fornecem mais informações sobre as alterações de modelo
 
 Várias adições de modelo de objeto são incluídas no Word 2013 para aprimoramentos de visualização de controle de conteúdo. A tabela a seguir lista os novos membros do objeto **ContentControl** para visualização. 
   
-**Tabela 2. Novos membros do objeto ContentControl**
+**Tabela 2. Novos membros de objeto ContentControl**
 
 |**Membro**|**Descrição**|
 |:-----|:-----|
 |. **Aparência** como **WdContentControlAppearance** <br/> |Obtém ou define a visualização do controle de conteúdo.  <br/> |
 |. **Cor** como **WdColor** <br/> |Obtém ou define a cor do controle de conteúdo.  <br/> |
    
-A tabela a seguir lista as constantes na enumeração **WdContentControlAppearance** nova. 
+A tabela a seguir lista as constantes na nova enumeração **WdContentControlAppearance**. 
   
-**Tabela 3. Novas constantes da enumeração WdContentControlAppearance**
+**Tabela 3. Constantes na nova enumeração WdContentControlAppearance**
 
 |**Constante**|**Descrição**|
 |:-----|:-----|
@@ -341,29 +341,29 @@ End Sub
 ### <a name="repeating-section-content-controls-represented-in-the-object-model"></a>Controles de conteúdo de seção recorrente representados no modelo de objeto
 <a name="WordCC_RepeatingSection"> </a>
 
-O controle de conteúdo de seção de repetição está disponível no modelo de objeto, usando as seguintes adições ao objeto **ContentControl** e os novos objetos **RepeatingSectionItem** e **RepeatingSectionItemColl** . Tabela 4 lista os mais importantes novos membros do objeto **ContentControl** para repetir os controles de conteúdo de seção. 
+O controle de conteúdo de seção recorrente está disponível no modelo de objeto usando as seguintes adições para o objeto **ContentControl** e os novos objetos **RepeatingSectionItem** e **RepeatingSectionItemColl**. A Tabela 4 lista os novos membros mais importantes do objeto **ContentControl** para controles de conteúdo de seção recorrente. 
   
-**Tabela 4. Membros do objeto ContentControl**
+**Tabela 4. Membros de objeto ContentControl**
 
 |**Membro**|**Descrição**|
 |:-----|:-----|
-|**AllowInsertDeleteSection** como **booleano** <br/> |Obtém ou define se os usuários podem adicionar ou remover seções do controle de conteúdo usando a interface do usuário. Se essa propriedade é chamada para um controle de conteúdo que não é do tipo de seção de repetição, a chamada falhar com a seguinte mensagem de erro: "Esta propriedade só pode ser usada com controles de conteúdo de seção de repetição."  <br/> |
-|**RepeatingSectionItemTitle** como **cadeia de caracteres** <br/> |Obtém ou define o nome de itens de seção usados no menu de contexto de repetição. Se essa propriedade é chamada para um controle de conteúdo que não é do tipo de seção de repetição, a chamada falha com: "Esta propriedade só pode ser usada com controles de conteúdo de seção de repetição."  <br/> |
+|**AllowInsertDeleteSection** como **Boolean** <br/> |Obtém ou define se os usuários podem adicionar ou remover seções do controle de conteúdo usando a interface do usuário. Se essa propriedade é chamada para um controle de conteúdo que não é do tipo de seção de repetição, a chamada falhar com a seguinte mensagem de erro: "Esta propriedade só pode ser usada com controles de conteúdo de seção de repetição."  <br/> |
+|**RepeatingSectionItemTitle** como **String** <br/> |Obtém ou define o nome de itens de seção usados no menu de contexto de repetição. Se essa propriedade é chamada para um controle de conteúdo que não é do tipo de seção de repetição, a chamada falha com: "Esta propriedade só pode ser usada com controles de conteúdo de seção de repetição."  <br/> |
 |**InsertRepeatingSectionItemBefore** como **ContentControl** <br/> |Adiciona um item de seção de repetição antes do item atual e retorna o novo item de seção de repetição. Se esse método é chamado para um controle de conteúdo que não é do tipo de item de seção de repetição, a chamada falha com: "Esta propriedade só pode ser usada com controles de conteúdo de item de seção de repetição."  <br/> |
 |**InsertRepeatingSectionItemAfter** como **ContentControl** <br/> |Adiciona um item de seção de repetição após o item atual e retorna o novo item de seção de repetição. Se esse método é chamado para um controle de conteúdo que não é do tipo de item de seção de repetição, a chamada falha com: "Esta propriedade só pode ser usada com controles de conteúdo de item de seção de repetição."  <br/> |
    
-Tabela 5 lista os membros mais importantes do objeto **RepeatingSectionItem** . 
+A Tabela 5 lista os membros mais importantes do objeto **RepeatingSectionItem**. 
   
 **Tabela 5. Membros do objeto RepeatingSectionItem**
 
 |**Membro**|**Descrição**|
 |:-----|:-----|
-|**Intervalo** como **intervalo** <br/> |Retorna o intervalo de repetição seção item especificado, excluindo as marcas de início e término.  <br/> |
+|**Range** como **Range** <br/> |Retorna o intervalo de repetição seção item especificado, excluindo as marcas de início e término.  <br/> |
 |**Delete** <br/> |Exclui o item de seção recorrente especificado.  <br/> |
 |**InsertItemAfter** como **RepeatingSectionItem** <br/> |Adiciona um item de seção recorrente depois do item especificado e retorna o novo item.  <br/> |
 |**InsertItemBefore** como **RepeatingSectionItem** <br/> |Adiciona um item de seção recorrente antes do item especificado e retorna o novo item.  <br/> |
    
-Tabela 6 lista os membros mais importantes do objeto **RepeatingSectionItemColl** . 
+A Tabela 6 lista os membros mais importantes do objeto **RepeatingSectionItemColl**. 
   
 **Tabela 6. Membros do objeto RepeatingSectionItemColl**
 
@@ -371,9 +371,9 @@ Tabela 6 lista os membros mais importantes do objeto **RepeatingSectionItemColl*
 |:-----|:-----|
 |**Item** como **RepeatingSectionItem** <br/> |Retorna um item de seção recorrente individual.  <br/> |
    
-A tabela 7 mostra o novo membro da enumeração **WdContentControlType** para os controles de conteúdo de seção de repetição. 
+A Tabela 7 mostra o novo membro da enumeração **WdContentControlType** para controles de conteúdo de seção recorrente. 
   
-**A tabela 7. Adição de enumeração WdContentControlType**
+**Tabela 7. Adição de enumeração WdContentControlType**
 
 |**Constante**|**Descrição**|
 |:-----|:-----|
@@ -428,7 +428,7 @@ A representação de formato de arquivo de um controle de conteúdo de seção r
   
 Os itens de repetição individuais dentro do controle de conteúdo de seção recorrente (que envolvem cada item individual) são salvos como controles de conteúdo de rich text usando a representação WordprocessingML existente. A Tabela 8 lista novos elementos no esquema WordprocessingML para controles de conteúdo de seção recorrente.
   
-**A tabela 8. Controles de conteúdo de novos elementos no esquema do WordprocessingML para a seção de repetição**
+**Tabela 8. Novos elementos no esquema WordprocessingML para controles de conteúdo de seção recorrente**
 
 |**Elemento**|**Descrição**|
 |:-----|:-----|

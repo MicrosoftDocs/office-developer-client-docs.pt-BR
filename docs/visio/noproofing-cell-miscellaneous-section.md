@@ -1,5 +1,5 @@
 ---
-title: Célula NoProofing (seção Miscellaneous)
+title: Célula NoProofing (Seção Miscellaneous)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19772416"
 ---
-# <a name="noproofing-cell-miscellaneous-section"></a>Célula NoProofing (seção Miscellaneous)
+# <a name="noproofing-cell-miscellaneous-section"></a>Célula NoProofing (Seção Miscellaneous)
 
 Determina a ortografia foi corrigida automaticamente e se os erros de ortografia são exibidos para a forma selecionada. Recebe um valor **booleano** . 
   

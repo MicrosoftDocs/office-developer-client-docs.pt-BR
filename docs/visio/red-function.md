@@ -32,7 +32,7 @@ VERMELHO (* * *expressão* * *)
    
 ### <a name="return-value"></a>Valor retornado
 
-Número
+Number
   
 ## <a name="remarks"></a>Comentários
 

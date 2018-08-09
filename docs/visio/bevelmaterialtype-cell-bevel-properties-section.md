@@ -1,5 +1,5 @@
 ---
-title: Célula BevelMaterialType (seção Propriedades de bisel)
+title: Célula BevelMaterialType (Seção Bevel Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771328"
 ---
-# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>Célula BevelMaterialType (seção Propriedades de bisel)
+# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>Célula BevelMaterialType (Seção Bevel Properties)
 
 Determina o tipo de bisel é composto de material. 
   
@@ -33,7 +33,7 @@ Determina o tipo de bisel é composto de material.
 |10  <br/> |Pó Translúcido  <br/> |
 |11  <br/> |Limpar  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **BevelMaterialType** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

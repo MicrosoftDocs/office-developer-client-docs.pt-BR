@@ -31,7 +31,7 @@ Encontrar uma visão geral da referência do Project Server Interface (PSI), com
 > [!NOTE]
 > Para obter as referências primárias para a PSI e o modelo de objeto do cliente (CSOM) no Project Server 2013, consulte as seguintes seções: [referência do serviço web e de biblioteca de classe](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) e [referência de API do JavaScript para o Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). > Para as referências de suplementos do Office, que incluem a referência do JavaScript para aplicativos de painel de tarefas do Project 2013, consulte [API do JavaScript para Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx). > Para referência do VBA para o Project Standard 2013 e Project Professional 2013, consulte [referência para desenvolvedores VBA do Project 2013](http://msdn.microsoft.com/en-us/library/jj235035.aspx). > A referência para as tabelas de relatórios e modos de exibição no banco de dados do Project Server 2013 local ainda não está disponível. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [Visão geral da referência do Project PSI](project-psi-reference-overview.md) Descreve os assemblies e namespaces na referência do PSI do Project Server 2013. 
   
@@ -49,5 +49,5 @@ Encontrar uma visão geral da referência do Project Server Interface (PSI), com
 
 [API JavaScript para Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx)
   
-[Referência para desenvolvedores VBA do Project 2013](http://msdn.microsoft.com/en-us/library/jj235035.aspx)
+[Referência para desenvolvedores do VBA para o Project 2013](http://msdn.microsoft.com/en-us/library/jj235035.aspx)
 

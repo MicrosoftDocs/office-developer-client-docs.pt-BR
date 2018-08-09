@@ -34,7 +34,7 @@ BITNOT (* * *número binário* * *)
 
 Binário de 16 bits
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 BITNOT(6)
   

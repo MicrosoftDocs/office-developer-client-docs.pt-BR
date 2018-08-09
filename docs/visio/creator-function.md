@@ -18,7 +18,7 @@ ms.locfileid: "19771624"
 ---
 # <a name="creator-function"></a>Função CREATOR
 
-Retorna o texto do campo **autor** das propriedades de um documento. 
+Retorna o texto do campo **Autor** das propriedades de um documento. 
   
 CREATOR () 
   

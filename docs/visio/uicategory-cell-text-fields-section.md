@@ -24,13 +24,13 @@ Determina a categoria de um campo inserido em versões do Visio anteriores à ve
 
 Esta célula não é exibida na janela ShapeSheet. Utilize essa célula se precisar lidar com questões de capacidade de compatibilidade com versões anteriores, como salvar um desenho do Visio 2000 em um formato de arquivo do Visio 5.0.
   
-Para obter uma referência à célula UICategory pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula UICategory pelo nome, a partir de outra fórmula ou programa que usa a propriedade **Cells**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Fields.UICat [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula UICategory pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula UICategory pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -1,0 +1,53 @@
+---
+title: Função BOUNDINGBOXRECT
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
+description: Retorna a coordenada da borda especificada da caixa delimitadora da forma.
+ms.openlocfilehash: 2c850cb213ec0093ead53cd860f92e38da46f27e
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19771420"
+---
+# <a name="boundingboxrect-function"></a>Função BOUNDINGBOXRECT
+
+Retorna a coordenada da borda especificada da caixa delimitadora da forma.
+  
+## <a name="version-information"></a>Informações da versão
+
+Version Added: Visio 2010
+ 
+  
+## <a name="syntax"></a>Sintaxe
+
+BOUNDINGBOXRECT (* * *índice* * *) 
+  
+### <a name="parameters"></a>Parâmetros
+
+|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|:-----|:-----|:-----|:-----|
+| _Index_ <br/> |Obrigatório  <br/> |**Integer** <br/> |A borda da caixa delimitadora da forma para a qual será obtida a coordenada. Consulte Comentários para obter os valores possíveis.  <br/> |
+   
+### <a name="return-value"></a>Valor retornado
+
+ **Número**
+  
+## <a name="remarks"></a>Comentários
+
+ *Index* pode ser um dos seguintes valores. 
+  
+|**1.1**|**Valor**|
+|:-----|:-----|
+|Borda esquerda  <br/> |0  <br/> |
+|Borda direita  <br/> |1  <br/> |
+|Borda superior  <br/> |2  <br/> |
+|Borda inferior  <br/> |3  <br/> |
+   
+Se a forma tiver um pai, o valor de retorno é no sistema de coordenadas desse pai.
+  
+

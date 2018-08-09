@@ -29,7 +29,7 @@ HYPERLINK ("* * *endereço* * *" [,"* * *subaddress* * *","* * *extrainfo* * *",
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _endereço_ <br/> |Obrigatório  <br/> |**String** <br/> |Um caminho completo ou relativo.  <br/> |
-| _Subendereço_ <br/> |Opcional  <br/> |**String** <br/> |Especifica uma localidade no endereço deseja estabelecer um vínculo. Por exemplo, se o endereço for um arquivo do Microsoft Visio, subendereço pode ser um nome de página; Se um arquivo do Microsoft Excel, o subendereço pode ser uma planilha ou um intervalo em uma planilha; Se uma URL para uma página HTML, o subendereço pode ser uma âncora.  <br/> |
+| _Subendereço_ <br/> |Opcional  <br/> |**String** <br/> |Especifica uma localização no address ao qual se vincular. Por exemplo, se o address for um arquivo do Microsoft Visio, o subaddress poderá ser um nome de página; se for um arquivo do Microsoft Excel, o subaddress poderá ser uma planilha ou um intervalo na planilha; se for uma URL de uma página HTML, o subaddress poderá ser uma âncora.  <br/> |
 | _ExtraInfo_ <br/> |Opcional  <br/> |**String** <br/> |Passa as informações utilizadas para resolver o URL, como as coordenadas de um mapa de imagens.  <br/> |
 | _janela_ <br/> |Opcional  <br/> |**Boolean** <br/> |Especifica se o hiperlink será aberto em uma nova janela. O valor padrão é FALSO.  <br/> |
 | _quadro_ <br/> |Opcional  <br/> |**String** <br/> | Especifica o nome de uma moldura para servir de destino quando o Visio for aberto como um documento ativo em um navegador ActiveX, como o Microsoft Internet Explorer 3.0 ou superior. O padrão é uma cadeia de caracteres vazia.  <br/> |
@@ -38,7 +38,7 @@ HYPERLINK ("* * *endereço* * *" [,"* * *subaddress* * *","* * *extrainfo* * *",
 
 Se o documento não tiver caminho de base, o Visio navegará de acordo com o caminho do documento. Se o documento não tiver sido salvo, o hiperlink não será definido. 
   
-Caminhos relativos baseiam-se no campo **base do hiperlink** especificado na caixa de diálogo **Propriedades do Visio** . 
+Caminhos relativos têm como base o campo **Base do Hiperlink** especificado na caixa de diálogo **Propriedades do Visio**. 
   
 Utilize a função GOTOPAGE para navegar em páginas de um documento. 
   

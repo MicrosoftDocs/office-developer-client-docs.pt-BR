@@ -18,7 +18,7 @@ ms.locfileid: "19771535"
 
 Especifica as propriedades usadas para identificar um comentário em um desenho.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -54,7 +54,7 @@ Nenhum.
 |:-----|:-----|:-----|:-----|:-----|
 |AuthorID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor exclusivo que identifica o comentário em uma página de desenho.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Data  <br/> |XSD: DateTime  <br/> |obrigatório  <br/> |Especifica que um comentário foi criado.  <br/> |Valores do tipo xsd: DateTime.  <br/> |
+|Date  <br/> |XSD: DateTime  <br/> |obrigatório  <br/> |Especifica que um comentário foi criado.  <br/> |Valores do tipo xsd: DateTime.  <br/> |
 |Concluído  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Especifica o estado atual do comentário.  <br/> |Valores do tipo xsd:boolean.  <br/> |
 |EditDate  <br/> |XSD: DateTime  <br/> |opcional  <br/> |Especifica quando um comentário foi alterada pela última vez.  <br/> |Valores do tipo xsd: DateTime.  <br/> |
 |PageID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor que identifica a página de desenho o comentário é no.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |

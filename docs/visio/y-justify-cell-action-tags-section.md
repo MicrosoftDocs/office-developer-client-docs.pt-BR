@@ -29,17 +29,17 @@ ms.locfileid: "19773334"
 | 1  <br/> | Centralizado.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
 | 2  <br/> | Justificado na base.  <br/> |**visSmartTagYJustifyBottom** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As células X Justify e Y Justify determinam onde o botão de marca de ação é colocado em relação ao ponto definido nas células X e Y.
   
-Para obter uma referência à célula Y Justify pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Y Justify pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Marcas inteligentes.  *nome* . YJustify onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
    
-Para obter uma referência à célula Y Justify pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula X Justify pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

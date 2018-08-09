@@ -22,15 +22,15 @@ Determina a distância em unidades de página pela qual a sombra de uma forma es
   
 ## <a name="remarks"></a>Comentários
 
-Esse valor corresponde ao valor na configuração **Deslocamento X** na caixa de diálogo **sombra** (na guia **página inicial** , no grupo **forma** , clique em **sombra**e, em seguida, clique em **Opções de sombra**).
+Esse valor corresponde ao valor existente na configuração **Deslocamento de X** na caixa de diálogo **Sombra** (na guia **Página Inicial**, do grupo **Forma**, clique em **Sombra** e em **Opções de sombra**).
   
-Para obter uma referência para a célula ShapeShdwOffsetX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShapeShdwOffsetX pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShapeShdwOffsetX  <br/> |
    
-Para obter uma referência para a célula ShapeShdwOffsetX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShapeShdwOffsetX pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Célula VariationColorIndex (seção Propriedades do tema)
+title: Célula VariationColorIndex (Seção Theme Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773245"
 ---
-# <a name="variationcolorindex-cell-theme-properties-section"></a>Célula VariationColorIndex (seção Propriedades do tema)
+# <a name="variationcolorindex-cell-theme-properties-section"></a>Célula VariationColorIndex (Seção Theme Properties)
 
 Determina o índice de cores da variação tema ativo na página, como um número inteiro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **VariationColorIndex** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

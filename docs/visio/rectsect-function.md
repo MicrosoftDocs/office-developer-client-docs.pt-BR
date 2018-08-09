@@ -40,7 +40,7 @@ Considere um retângulo que tem uma *largura* e *Altura* e um ponto (*x, y*) a p
   
 ![](media/ShpSheetRef_CA_03_ZA07645862.gif)
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 RECTSECT(1 pol, 2 pol, 1 pol, -7 pol, 0) 
   

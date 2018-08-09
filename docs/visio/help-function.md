@@ -34,7 +34,7 @@ AJUDAR ("* * *filename.chm!keyword* * *")
 
 Se nenhuma *palavra-chave* for especificado, a função HELP abrirá a página de conteúdo do arquivo de Ajuda. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Help("Visio.chm!ShapeSheet") 
   

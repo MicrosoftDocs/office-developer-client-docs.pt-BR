@@ -27,9 +27,9 @@ Especifica se as formas pertencentes à camada podem ser impressas.
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor usando a opção **Imprimir** na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e, em seguida, clique em **Propriedades da camada**).
+Também é possível definir esse valor usando a opção **Imprimir** na caixa de diálogo **Propriedades da Camada** (na guia **Página Inicial** no grupo **Edição** clique em **Camadas** e em **Propriedades da Camada**).
   
-Para obter uma referência para a célula Print pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula Print pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

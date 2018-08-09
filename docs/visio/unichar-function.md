@@ -34,7 +34,7 @@ UNICHAR (* * *número* * *)
 
 A cadeia de caracteres resultante é um caractere Unicode (dois caracteres). 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 UNICHAR(65) 
   

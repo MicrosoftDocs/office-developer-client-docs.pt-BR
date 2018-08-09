@@ -26,9 +26,9 @@ REF( )
   
 ### <a name="return-value"></a>Valor retornado
 
-Cadeia de caracteres
+String
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 REF( ) 
   

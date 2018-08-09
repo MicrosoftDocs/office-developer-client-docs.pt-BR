@@ -28,15 +28,15 @@ Cada sombra possui um local de pino sombreado, que é um ponto na sombra que cor
   
 Para configurar este comportamento para uma forma individual, use a célula ShapeShdwScaleFactor na seção Fill Format.
   
-Esse valor corresponde ao valor na caixa **ampliação** da guia **sombras** na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ). 
+Este valor corresponde àquele existente na caixa **Ampliação** da guia **Sombras** da caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta  **Configurar Página**). 
   
-Para obter uma referência para a célula ShdwScaleFactor pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShdwScaleFactor pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShdwScaleFactor  <br/> |
    
-Para obter uma referência para a célula ShdwScaleFactor pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShdwScaleFactor pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

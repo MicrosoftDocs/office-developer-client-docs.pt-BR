@@ -33,24 +33,24 @@ Representa um *y* -coordenadas em uma forma em coordenadas locais. Esta tabela d
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *Y -* coordenadas de um ponto em uma linha infinita.  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | *Y* -coordenadas do centro da elipse.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula Y pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Y pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Geometria *i* . Y *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
 || Geometria *i* . Y1 (linhas InfiniteLine e Ellipse) onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula Y pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Y pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Linhas InfiniteLine e Ellipse)  <br/> |
-| Índice da célula:  <br/> |**visY** (Linhas MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, PolylineTo, SplineStart e SplineKnot)  <br/> |
-||**visInfiniteLineY1** (Linha InfiniteLine)  <br/> |
-||**visEllipseCenterY** (Linha ellipse)  <br/> |
+||**visRowVertex **(linhas Ellipse e InfiniteLine)  <br/> |
+| Índice da célula:  <br/> |**visY **(linhas MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, PolylineTo, SplineStart e SplineKnot)  <br/> |
+||**visInfiniteLineY1 **(linha InfiniteLine)  <br/> |
+||**visEllipseCenterY **(linha Ellipse)  <br/> |
    
 

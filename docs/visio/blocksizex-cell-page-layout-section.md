@@ -20,11 +20,11 @@ ms.locfileid: "19771401"
 
 Determina o tamanho do bloco horizontal, a área na qual cada uma das formas deve caber na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Refazer Layout da página **e clique em **Mais opções de Layout**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir esse valor na caixa de diálogo **Layout e roteamento espaçamento** (na guia **Design** , clique na seta do grupo **Configurar página** , clique na guia **Layout e roteamento** e clique em **espaçamento**).
+Também é possível definir esse valor na caixa de diálogo **Espaçamento de Layout e Direcionamento** (na guia **Design**, clique na seta do grupo **Configurar Página**, clique na guia **Layout e Direcionamento** e em **Espaçamento**).
   
-Para obter uma referência para a célula BlockSizeX pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula BlockSizeX pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

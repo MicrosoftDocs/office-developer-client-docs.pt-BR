@@ -1,5 +1,5 @@
 ---
-title: Manipular o formato de arquivo do Visio programaticamente
+title: Manipular o formato de arquivo do Visio via programação
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772038"
 ---
-# <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular o formato de arquivo do Visio programaticamente
+# <a name="manipulate-the-visio-file-format-programmatically"></a>Manipular o formato de arquivo do Visio via programação
 
 ![How to topic](media/mod_icon_howto.png)
   
@@ -38,7 +38,7 @@ Neste artigo, examinamos como trabalhar com o formato de arquivo do Visio 2013 p
 
 |**Título do artigo**|**Descrição**|
 |:-----|:-----|
-|[Introdução ao formato de arquivo do Visio (. vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Esta visão geral de alto nível descreve alguns dos principais recursos do formato de arquivo do Visio 2013. Ele aborda as convenções de empacotamento aberto (OPC) à medida que eles tiverem sido aplicados ao formato de arquivo do Visio 2013. Ela também lista algumas diferenças entre o formato de arquivo do Visio 2013 e o formato de arquivo de desenho XML do Visio (. vdx) anterior.  <br/> |
+|[Introdução ao formato de arquivo do Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Esta visão geral de alto nível descreve alguns dos principais recursos do formato de arquivo do Visio 2013. Ele aborda as convenções de empacotamento aberto (OPC) à medida que eles tiverem sido aplicados ao formato de arquivo do Visio 2013. Ela também lista algumas diferenças entre o formato de arquivo do Visio 2013 e o formato de arquivo de desenho XML do Visio (. vdx) anterior.  <br/> |
 |[OPC: Um novo padrão para empacotar dados](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx) <br/> |Este artigo do MSDN Magazine descreve as convenções de empacotamento abertos como um conceito.  <br/> |
 |[Conceitos básicos sobre as convenções de empacotamento Open](http://msdn.microsoft.com/en-us/library/ee361919.aspx) <br/> [Apresentando os formatos de arquivo do Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx) <br/> |Esses dois artigos abordam como as convenções de empacotamento Open tiverem sido aplicadas aos arquivos do Microsoft Office. Eles contêm descrições de como os relacionamentos funcionam em um pacote e também incluem alguns exemplos de código.  <br/> |
    

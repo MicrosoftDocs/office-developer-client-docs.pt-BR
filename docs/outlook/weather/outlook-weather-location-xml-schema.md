@@ -1,5 +1,5 @@
 ---
-title: Esquema XML do Outlook clima local
+title: Esquema XML de localização do clima do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771039"
 ---
-# <a name="outlook-weather-location-xml-schema"></a>Esquema XML do Outlook clima local
+# <a name="outlook-weather-location-xml-schema"></a>Esquema XML de localização do clima do Outlook
 
 Esta seção contém a referência de esquema do Outlook 2013 para o esquema XML do Outlook clima local. Este esquema permite que os provedores de serviço de meteorologia responder a uma solicitação de serviço de web do Outlook para um código de local. O código local deve corresponder ao local para o qual um usuário está solicitando informações de clima na barra de meteorologia.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Mapa de esquema (esquema de local de clima do Outlook)](schema-map-outlook-weather-location-schema.md)
     

@@ -1,5 +1,5 @@
 ---
-title: Célula ReplaceLockText (seção de comportamento de forma alterar)
+title: Célula ReplaceLockText (Seção Change Shape Behavior)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772727"
 ---
-# <a name="replacelocktext-cell-change-shape-behavior-section"></a>Célula ReplaceLockText (seção de comportamento de forma alterar)
+# <a name="replacelocktext-cell-change-shape-behavior-section"></a>Célula ReplaceLockText (Seção Change Shape Behavior)
 
 Indica se os valores das células especificadas em uma forma mestra substituir os valores (incluindo valores locais) de uma forma que está sendo substituído durante uma operação de substituição de forma. O **ReplaceLockText** determina se o texto exibido no mestre substitui o texto da forma que está sendo substituído. 
   
@@ -33,7 +33,7 @@ Se definido como verdadeiro (1), os valores da forma mestra substitui os valores
     
 - Células na [seção Tabs](tabs-section.md)
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **ReplaceLockText** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

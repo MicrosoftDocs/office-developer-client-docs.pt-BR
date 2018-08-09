@@ -34,13 +34,13 @@ EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* *
    
 ### <a name="return-value"></a>Valor retornado
 
-Número
+Number
   
 ## <a name="remarks"></a>Comentários
 
 A célula de chamada não deve especificar cada argumento usado pela função personalizada. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir mostra como usar a função EVALCELL em conjunto com a função ARG para encontrar o valor intermediários de um conjunto de três valores. 
   

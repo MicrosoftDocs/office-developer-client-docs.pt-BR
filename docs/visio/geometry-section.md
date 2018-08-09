@@ -22,7 +22,7 @@ Contém linhas que listam as coordenadas dos vértices de linhas e arcos que com
   
 A geometria de uma forma pode ser expressa em várias seções **Geometry** . Vários caminhos podem ser útil quando vários caminhos tem propriedades diferentes (por exemplo, caminhos de [recorte de imagem](clippingpath-cell-foreign-image-info-section.md) ). 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A seção **Geometry** contém os seguintes tipos de linha. Para obter detalhes, consulte os tópicos de linha. 
   
@@ -44,6 +44,6 @@ A seção **Geometry** contém os seguintes tipos de linha. Para obter detalhes,
 |[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Move para uma coordenada em relação a largura e altura da forma.  <br/> |
 |[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Desenha uma curva de Bézier quadrática em relação a largura e altura da forma.  <br/> |
    
-Para alterar um tipo de linha nesta seção, clique com botão direito na linha e clique em **Alterar tipo de linha** no menu de atalho. 
+Para alterar um tipo de linha nesta seção, clique com o botão direito do mouse na linha e clique em **Alterar Tipo de Linha** no menu de atalho. 
   
 

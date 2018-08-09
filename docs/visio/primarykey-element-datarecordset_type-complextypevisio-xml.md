@@ -18,7 +18,7 @@ ms.locfileid: "19772611"
 
 Identifica um ou mais colunas de chave primária no conjunto de registros de dados.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

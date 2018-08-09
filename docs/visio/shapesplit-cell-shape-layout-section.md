@@ -43,7 +43,7 @@ Para obter uma referência à célula ShapeSplit pelo nome, a partir de outra f�
 |:-----|:-----|
 | Nome da célula:  <br/> | ShapeSplit  <br/> |
    
-Para obter uma referência à célula ShapeSplit pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula ShapeSplit pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

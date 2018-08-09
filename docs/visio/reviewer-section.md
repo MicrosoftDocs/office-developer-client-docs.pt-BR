@@ -24,7 +24,7 @@ Contém informações de identificação sobre cada revisor de documento.
 
 A seção reviewer contém uma linha para cada revisor que adicionou marcação ao documento, mesmo se toda a marcação de um determinado revisor tenha sido excluída. 
   
-A seção reviewer está contida na ShapeSheet de um documento. Para exibir a ShapeSheet de um documento, na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) , no grupo **Mostrar/ocultar** , selecione o **Gerenciador de desenho**, clique com botão direito no nome do documento e, em seguida, clique em **Mostrar ShapeSheet**. 
+A seção reviewer está contida no ShapeSheet de um documento. Para exibir o ShapeSheet de um documento, na guia [Desenvolvedor](run-in-developer-mode-display-the-developer-tab.md), do grupo **Mostrar/Ocultar**, selecione **Gerenciador de Desenho**, clique com o botão direito do mouse no nome do documento e clique em **Mostrar ShapeSheet**. 
   
 Para obter mais informações sobre comentários que são adicionados a um documento como parte da marcação, consulte a seção **Annotation** . 
   

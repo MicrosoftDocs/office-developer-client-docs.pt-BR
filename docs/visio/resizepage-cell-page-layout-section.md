@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm850
 localization_priority: Normal
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
-description: Determina se é necessário ampliar a página para incluir o desenho após dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
+description: Determina se a página de ser ampliada para incluir o desenho depois que as formas são dispostas usando a caixa de diálogo Configurar Layout (na guia Design, do grupo Layout, clique em Refazer o Layout da Página e em Mais Opções de Layout).
 ms.openlocfilehash: fab37ee4561ba82ea1f314ad595e513253478b30
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,13 +27,13 @@ Determina se é necessário ampliar a página para incluir o desenho após dispo
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula ResizePage pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência à célula ResizePage pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ResizePage  <br/> |
    
-Para obter uma referência à célula ResizePage pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência à célula ResizePage pelo índice, de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

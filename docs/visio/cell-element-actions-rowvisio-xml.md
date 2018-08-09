@@ -18,7 +18,7 @@ ms.locfileid: "19771424"
 
 Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de atalho ou de ação de marca.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento de linha (seção Actions)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de atalho ou de ação de marca.  <br/> |
+|[Elemento Row (Seção Actions)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Especifica uma propriedade de uma ação associada a um comando personalizado em um menu de atalho ou de ação de marca.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -60,18 +60,18 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
 |V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
   
-|**Valor**|**Descrição**|**Obter mais informações**|
+|**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
 |Ação  <br/> |Contém a fórmula a ser executada quando o usuário escolhe um comando em um menu de atalho ou de ação de marca.  <br/> |[Célula Action (Seção Actions)](action-cell-actions-section.md) <br/> |
 |BeginGroup  <br/> |Indica se um separador está inserido no menu acima desta ação.  <br/> |[Célula BeginGroup (Seção Actions)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |Identifica o ícone exibido ao lado de um item em um menu de atalho ou de ação de marca.  <br/> |[Célula ButtonFace (Seção Actions)](buttonface-cell-actions-section.md) <br/> |
 |Verificado  <br/> |Indica se um item é verificado no menu de atalho ou marca de ação.  <br/> |[Célula Checked (Seção Actions)](checked-cell-actions-section.md) <br/> |
 |Desabilitado  <br/> |Indica se um item em um menu de atalho ou de marca de ação está desabilitado.  <br/> |[Célula Disabled (Seção Actions)](disabled-cell-actions-section.md) <br/> |
-|FlyoutChild  <br/> |Determina se a linha é um menu de submenu filho da última linha acima da que não é filha de submenu.  <br/> |[Célula FlyoutChild (seção Actions)](flyoutchild-cell-actions-section.md) <br/> |
+|FlyoutChild  <br/> |Determina se a linha é um menu de submenu filho da última linha acima da que não é filha de submenu.  <br/> |[Célula FlyoutChildd (Seção Actions)](flyoutchild-cell-actions-section.md) <br/> |
 |Invisível  <br/> |Indica se uma ação é visível em um menu de atalho ou marca de ação.  <br/> |[Célula Invisible (Seção Actions)](invisible-cell-actions-section.md) <br/> |
 |Menu  <br/> |Define o nome de um item de menu exibido em um menu de atalho ou de marca de ação para uma forma ou página.  <br/> |[Célula Menu (Seção Actions)](menu-cell-actions-section.md) <br/> |
 |ReadOnly  <br/> |Controla se a ação em um menu de atalho ou de marca de ação é somente leitura.  <br/> |[Célula ReadOnly (Seção Actions)](readonly-cell-actions-section.md) <br/> |

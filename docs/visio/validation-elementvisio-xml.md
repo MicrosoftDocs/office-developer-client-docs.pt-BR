@@ -18,7 +18,7 @@ ms.locfileid: "19773236"
 
 Armazena informações sobre a validação de diagrama do documento.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

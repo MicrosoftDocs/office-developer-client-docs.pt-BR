@@ -26,6 +26,6 @@ Como a seção [Scratch](scratch-section.md) , a seção **User-defined Cells** 
   
 Se a solução tiver um objetivo bem definido, é recomendável que você use as células na seção **User-defined Cells** para manter a clareza porque as células de usuário podem ser nomeadas. A seção **Scratch** geralmente é usada para isolar cálculos complexos repetidos. 
   
-Para adicionar essa seção, use a caixa de diálogo **Inserir seção** (clique com botão direito na janela ShapeSheet e clique em **Inserir seção**).
+Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**).
   
 

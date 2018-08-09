@@ -20,7 +20,8 @@ Retorna uma referência de planilha para a forma de destino da forma de texto ex
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2010 
+Version Added: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -34,7 +35,7 @@ Referência do ShapeSheet
 
 Se a forma não for uma forma de texto explicativo, ou se ele não estiver associado uma forma de destino, CALLOUTTARGETREF retornará #REF.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 CALLOUTTARGETREF()!Height 
   

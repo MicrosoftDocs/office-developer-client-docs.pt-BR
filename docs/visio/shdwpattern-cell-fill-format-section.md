@@ -28,15 +28,15 @@ Determina o padrão de preenchimento da sombra de uma forma.
    
 ## <a name="remarks"></a>Comentários
 
-Para definir o padrão de preenchimento, insira um número de 0 a 40, que é um índice em uma coleção de padrões. Você pode exibir a coleção de padrões de preenchimento na caixa de diálogo **preenchimento** (na guia **página inicial** , no grupo **forma** , clique em **preenchimento**e, em seguida, clique em **Opções de preenchimento**).
+Para definir o padrão de preenchimento, insira um número de 0 a 40, que serve como um índice para uma coleção de padrões. É possível visualizar a coleção de padrões de preenchimento na caixa de diálogo **Preenchimento** (na guia **Página Inicial**, do grupo **Forma**, clique em **Preenchimento** e em **Opções de Preenchimento**).
   
-Para obter uma referência para a célula ShdwPattern pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShdwPattern pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |ShdwPattern  <br/> |
    
-Para obter uma referência para a célula ShdwPattern pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShdwPattern pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

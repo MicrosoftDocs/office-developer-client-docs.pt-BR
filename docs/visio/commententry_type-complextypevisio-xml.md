@@ -79,7 +79,7 @@ Nenhum.
 |AuthorID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |AutoCommentType  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
-|Data  <br/> |XSD: DateTime  <br/> |obrigatório  <br/> ||Valores do tipo xsd: DateTime.  <br/> |
+|Date  <br/> |XSD: DateTime  <br/> |obrigatório  <br/> ||Valores do tipo xsd: DateTime.  <br/> |
 |Concluído  <br/> |XSD:Boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
 |EditDate  <br/> |XSD: DateTime  <br/> |opcional  <br/> ||Valores do tipo xsd: DateTime.  <br/> |
 |PageID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |

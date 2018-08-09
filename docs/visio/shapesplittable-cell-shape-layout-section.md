@@ -35,7 +35,7 @@ Para habilitar ou desabilitar a divisão no nível do aplicativo, use a configur
   
 Para habilitar ou desabilitar a divisão em uma página, consulte a célula [PageShapeSplit](pageshapesplit-cell-page-layout-section.md) . 
   
-Para fazer com que uma forma possa dividir formas de 1D divisíveis, consulte a célula [ShapeSplit](shapesplit-cell-shape-layout-section.md) . 
+Para fazer com que uma forma possa dividir formas 1D divisíveis, consulte a célula [ShapeSplit](shapesplit-cell-shape-layout-section.md). 
   
 Para obter uma referência à célula ShapeSplittable pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
   
@@ -43,7 +43,7 @@ Para obter uma referência à célula ShapeSplittable pelo nome, a partir de out
 |:-----|:-----|
 | Nome da célula:  <br/> | ShapeSplittable  <br/> |
    
-Para obter uma referência à célula ShapeSplittable pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula ShapeSplittable pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

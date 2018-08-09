@@ -32,11 +32,11 @@ USERUI (* * *estado* * *, * * *defaultexpression* * *, * * *userexpression* * *)
 | _defaultexpression_ <br/> |Obrigatório  <br/> |**String** <br/> |A expressão padrão.  <br/> |
 | _userexpression_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma expressão fornecida pelo usuário.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o _estado_ for 0, a função USERUI avalia o _defaultexpression_. Se o _estado_ for 1, ela avalia o _userexpression_.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 USERUI (1, se (largura\>6pol, 6pol, largura), largura\*0,75) 
   

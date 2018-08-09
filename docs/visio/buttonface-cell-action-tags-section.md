@@ -29,13 +29,13 @@ A cadeia de caracteres contida na célula ButtonFace representa a identificaçã
   
 As IDs que podem ser usadas na célula ButtonFace são os mesmos as IDs usadas com a propriedade **FaceID** de um objeto **CommandBarButton** . Para obter mais detalhes sobre essas IDs, procure "Trabalhando com imagens de botão de barra de comandos" no MSDN. 
   
-Para obter uma referência à célula ButtonFace pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula ButtonFace pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Marcas inteligentes.  *nome* . ButtonFace onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
    
-Para obter uma referência à célula ButtonFace pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula ButtonFace pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

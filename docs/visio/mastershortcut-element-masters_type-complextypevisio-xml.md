@@ -18,7 +18,7 @@ ms.locfileid: "19772327"
 
 Especifica um atalho de mestre definido no documento.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Mestres](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contém os elementos de **mestre** para o documento.  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contém os elementos de **mestre** para o documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -56,7 +56,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |:-----|:-----|:-----|:-----|:-----|
 |AlignName  <br/> |XSD:unsignedShort  <br/> |opcional  <br/> |Especifica se o texto do elemento na janela de estêncil é alinhado à esquerda, direita, ou center.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
 |IconSize  <br/> |XSD:unsignedShort  <br/> |opcional  <br/> |O tamanho do ícone do elemento.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
-|Id  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Nome  <br/> |XSD: String  <br/> |opcional  <br/> |O nome do elemento.  <br/> |Valores do tipo xsd: String.  <br/> |
 |NameU  <br/> |XSD: String  <br/> |opcional  <br/> |O nome universal do elemento.  <br/> |Valores do tipo xsd: String.  <br/> |
 |PatternFlags  <br/> |XSD:unsignedShort  <br/> |opcional  <br/> |Determina se um mestre se comporta como um padrão personalizado.  <br/> |Valores do tipo xsd:unsignedShort.  <br/> |
