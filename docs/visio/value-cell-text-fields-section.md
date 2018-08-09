@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773241"
 ---
-# <a name="value-cell-text-fields-section"></a><span data-ttu-id="81f79-103">Célula Value (Seção Text Fields)</span><span class="sxs-lookup"><span data-stu-id="81f79-103">Value Cell (Text Fields Section)</span></span>
+# <a name="value-cell-text-fields-section"></a><span data-ttu-id="174ae-103">Célula Value (Seção Text Fields)</span><span class="sxs-lookup"><span data-stu-id="174ae-103">Value Cell (Text Fields Section)</span></span>
 
-<span data-ttu-id="81f79-104">Contém a função para um campo.</span><span class="sxs-lookup"><span data-stu-id="81f79-104">Contains the function for a field.</span></span>
+<span data-ttu-id="174ae-104">Contém a função para um campo.</span><span class="sxs-lookup"><span data-stu-id="174ae-104">Contains the function for a field.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="81f79-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="81f79-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="174ae-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="174ae-105">Remarks</span></span>
 
-<span data-ttu-id="81f79-106">Você pode definir o valor desta célula usando a caixa de diálogo **campo** (na guia **Inserir** , no grupo **texto** , clique em **campo**).</span><span class="sxs-lookup"><span data-stu-id="81f79-106">You can set the value of this cell using the **Field** dialog box (on the **Insert** tab, in the **Text** group, click **Field**).</span></span>
+<span data-ttu-id="174ae-106">Você pode definir o valor desta célula usando a caixa de diálogo **Campo** (na guia **Inserir**, do grupo **Texto**, clique em **Campo**).</span><span class="sxs-lookup"><span data-stu-id="174ae-106">You can set the value of this cell using the **Field** dialog box (on the **Insert** tab, in the **Text** group, click **Field**).</span></span>
   
-<span data-ttu-id="81f79-107">Para obter uma referência à célula Value pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="81f79-107">To get a reference to the Value cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="174ae-107">Para fazer referência à célula Value pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="174ae-107">To get a reference to the Value cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="81f79-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="81f79-108">Cell name:</span></span>  <br/> |<span data-ttu-id="81f79-109">Fields.Value [ *i* ] onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="81f79-109">Fields.Value[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="174ae-108">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="174ae-108">Cell name:</span></span>  <br/> |<span data-ttu-id="174ae-109">Fields.Value [ *i* ] onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="174ae-109">Fields.Value[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="81f79-110">Para obter uma referência à célula Value pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="81f79-110">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="174ae-110">Para obter uma referência para a célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="174ae-110">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="81f79-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="81f79-111">Section index:</span></span>  <br/> |<span data-ttu-id="81f79-112">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="81f79-112">**visSectionTextField**</span></span> <br/> |
-|<span data-ttu-id="81f79-113">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="81f79-113">Row index:</span></span>  <br/> |<span data-ttu-id="81f79-114">**visRowField** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="81f79-114">**visRowField** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="81f79-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="81f79-115">Cell index:</span></span>  <br/> |<span data-ttu-id="81f79-116">**visFieldCell**</span><span class="sxs-lookup"><span data-stu-id="81f79-116">**visFieldCell**</span></span> <br/> |
+|<span data-ttu-id="174ae-111">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="174ae-111">Section index:</span></span>  <br/> |<span data-ttu-id="174ae-112">**visSectionTextField**</span><span class="sxs-lookup"><span data-stu-id="174ae-112">**visSectionTextField**</span></span> <br/> |
+|<span data-ttu-id="174ae-113">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="174ae-113">Row index:</span></span>  <br/> |<span data-ttu-id="174ae-114">**visRowField** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="174ae-114">**visRowField** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="174ae-115">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="174ae-115">Cell index:</span></span>  <br/> |<span data-ttu-id="174ae-116">**visFieldCell**</span><span class="sxs-lookup"><span data-stu-id="174ae-116">**visFieldCell**</span></span> <br/> |
    
 

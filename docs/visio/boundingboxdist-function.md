@@ -14,41 +14,42 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771425"
 ---
-# <a name="boundingboxdist-function"></a><span data-ttu-id="8a0d0-103">Função BOUNDINGBOXDIST</span><span class="sxs-lookup"><span data-stu-id="8a0d0-103">BOUNDINGBOXDIST Function</span></span>
+# <a name="boundingboxdist-function"></a><span data-ttu-id="0732a-103">Função BOUNDINGBOXDIST</span><span class="sxs-lookup"><span data-stu-id="0732a-103">BOUNDINGBOXDIST Function</span></span>
 
-<span data-ttu-id="8a0d0-104">Retorna a medida da parte especificada da caixa delimitadora da forma.</span><span class="sxs-lookup"><span data-stu-id="8a0d0-104">Returns the measurement of the specified part of the shape's bounding box.</span></span> 
+<span data-ttu-id="0732a-104">Retorna a medida da parte especificada da caixa delimitadora da forma.</span><span class="sxs-lookup"><span data-stu-id="0732a-104">Returns the measurement of the specified part of the shape's bounding box.</span></span> 
   
-## <a name="version-information"></a><span data-ttu-id="8a0d0-105">Informações da versão</span><span class="sxs-lookup"><span data-stu-id="8a0d0-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="0732a-105">Informações da versão</span><span class="sxs-lookup"><span data-stu-id="0732a-105">Version Information</span></span>
 
-<span data-ttu-id="8a0d0-106">Versão adicionada: Visio 2010</span><span class="sxs-lookup"><span data-stu-id="8a0d0-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="0732a-106">Version Added: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="0732a-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="8a0d0-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="8a0d0-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0732a-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0732a-107">Syntax</span></span>
 
-<span data-ttu-id="8a0d0-108">BOUNDINGBOXDIST (* * *índice* * *)</span><span class="sxs-lookup"><span data-stu-id="8a0d0-108">BOUNDINGBOXDIST(** *Index* ** )</span></span> 
+<span data-ttu-id="0732a-108">BOUNDINGBOXDIST (* * *índice* * *)</span><span class="sxs-lookup"><span data-stu-id="0732a-108">BOUNDINGBOXDIST(** *Index* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="8a0d0-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="8a0d0-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="0732a-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="0732a-109">Parameters</span></span>
 
-|<span data-ttu-id="8a0d0-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-110">**Name**</span></span>|<span data-ttu-id="8a0d0-111">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-111">**Required/Optional**</span></span>|<span data-ttu-id="8a0d0-112">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-112">**Data Type**</span></span>|<span data-ttu-id="8a0d0-113">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-113">**Description**</span></span>|
+|<span data-ttu-id="0732a-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="0732a-110">**Name**</span></span>|<span data-ttu-id="0732a-111">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="0732a-111">**Required/Optional**</span></span>|<span data-ttu-id="0732a-112">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="0732a-112">**Data Type**</span></span>|<span data-ttu-id="0732a-113">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0732a-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="8a0d0-114">_Index_</span><span class="sxs-lookup"><span data-stu-id="8a0d0-114">_Index_</span></span> <br/> |<span data-ttu-id="8a0d0-115">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="8a0d0-115">Required</span></span>  <br/> |<span data-ttu-id="8a0d0-116">**Número**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-116">**Number**</span></span> <br/> |<span data-ttu-id="8a0d0-117">A parte da forma delimitadora da caixa para medir e retornar.</span><span class="sxs-lookup"><span data-stu-id="8a0d0-117">The part of the shape's bounding box to measure and return.</span></span> <span data-ttu-id="8a0d0-118">Consulte Comentários para obter os valores possíveis.</span><span class="sxs-lookup"><span data-stu-id="8a0d0-118">See Remarks for possible values.</span></span>  <br/> |
+| <span data-ttu-id="0732a-114">_Index_</span><span class="sxs-lookup"><span data-stu-id="0732a-114">_Index_</span></span> <br/> |<span data-ttu-id="0732a-115">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="0732a-115">Required</span></span>  <br/> |<span data-ttu-id="0732a-116">**Número**</span><span class="sxs-lookup"><span data-stu-id="0732a-116">**Number**</span></span> <br/> |<span data-ttu-id="0732a-117">A parte da forma delimitadora da caixa para medir e retornar.</span><span class="sxs-lookup"><span data-stu-id="0732a-117">The part of the shape's bounding box to measure and return.</span></span> <span data-ttu-id="0732a-118">Consulte Comentários para obter os valores possíveis.</span><span class="sxs-lookup"><span data-stu-id="0732a-118">See Remarks for possible values.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="8a0d0-119">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="8a0d0-119">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0732a-119">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="0732a-119">Return value</span></span>
 
- <span data-ttu-id="8a0d0-120">**Número**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-120">**Number**</span></span>
+ <span data-ttu-id="0732a-120">**Número**</span><span class="sxs-lookup"><span data-stu-id="0732a-120">**Number**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8a0d0-121">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="8a0d0-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0732a-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="0732a-121">Remarks</span></span>
 
- <span data-ttu-id="8a0d0-122">*Index* pode ser um dos seguintes valores.</span><span class="sxs-lookup"><span data-stu-id="8a0d0-122">*Index*  can be one of the following values.</span></span> 
+ <span data-ttu-id="0732a-122">*Index* pode ser um dos seguintes valores.</span><span class="sxs-lookup"><span data-stu-id="0732a-122">*Index*  can be one of the following values.</span></span> 
   
-|<span data-ttu-id="8a0d0-123">**1.1**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-123">**Item**</span></span>|<span data-ttu-id="8a0d0-124">**Valor**</span><span class="sxs-lookup"><span data-stu-id="8a0d0-124">**Value**</span></span>|
+|<span data-ttu-id="0732a-123">**1.1**</span><span class="sxs-lookup"><span data-stu-id="0732a-123">**Item**</span></span>|<span data-ttu-id="0732a-124">**Valor**</span><span class="sxs-lookup"><span data-stu-id="0732a-124">**Value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8a0d0-125">Largura</span><span class="sxs-lookup"><span data-stu-id="8a0d0-125">Width</span></span>  <br/> |<span data-ttu-id="8a0d0-126">0</span><span class="sxs-lookup"><span data-stu-id="8a0d0-126">0</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-127">Altura</span><span class="sxs-lookup"><span data-stu-id="8a0d0-127">Height</span></span>  <br/> |<span data-ttu-id="8a0d0-128">1</span><span class="sxs-lookup"><span data-stu-id="8a0d0-128">1</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-129">Borda esquerda até o pino da forma</span><span class="sxs-lookup"><span data-stu-id="8a0d0-129">Left edge to shape pin</span></span>  <br/> |<span data-ttu-id="8a0d0-130">2</span><span class="sxs-lookup"><span data-stu-id="8a0d0-130">2</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-131">Pino da forma até a borda direita</span><span class="sxs-lookup"><span data-stu-id="8a0d0-131">Shape pin to right edge</span></span>  <br/> |<span data-ttu-id="8a0d0-132">3</span><span class="sxs-lookup"><span data-stu-id="8a0d0-132">3</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-133">Pino da forma até a borda superior</span><span class="sxs-lookup"><span data-stu-id="8a0d0-133">Shape pin to top edge</span></span>  <br/> |<span data-ttu-id="8a0d0-134">4</span><span class="sxs-lookup"><span data-stu-id="8a0d0-134">4</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-135">Borda inferior até o pino da forma</span><span class="sxs-lookup"><span data-stu-id="8a0d0-135">Bottom edge to shape pin</span></span>  <br/> |<span data-ttu-id="8a0d0-136">5</span><span class="sxs-lookup"><span data-stu-id="8a0d0-136">5</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-137">Centro da caixa delimitadora até PinX</span><span class="sxs-lookup"><span data-stu-id="8a0d0-137">Center of bounding box to PinX</span></span>  <br/> |<span data-ttu-id="8a0d0-138">6</span><span class="sxs-lookup"><span data-stu-id="8a0d0-138">6</span></span>  <br/> |
-|<span data-ttu-id="8a0d0-139">Centro da caixa delimitadora até PinY</span><span class="sxs-lookup"><span data-stu-id="8a0d0-139">Center of bounding box to PinY</span></span>  <br/> |<span data-ttu-id="8a0d0-140">7</span><span class="sxs-lookup"><span data-stu-id="8a0d0-140">7</span></span>  <br/> |
+|<span data-ttu-id="0732a-125">Largura</span><span class="sxs-lookup"><span data-stu-id="0732a-125">Width</span></span>  <br/> |<span data-ttu-id="0732a-126">0</span><span class="sxs-lookup"><span data-stu-id="0732a-126">0</span></span>  <br/> |
+|<span data-ttu-id="0732a-127">Altura</span><span class="sxs-lookup"><span data-stu-id="0732a-127">Height</span></span>  <br/> |<span data-ttu-id="0732a-128">1</span><span class="sxs-lookup"><span data-stu-id="0732a-128">1</span></span>  <br/> |
+|<span data-ttu-id="0732a-129">Borda esquerda até o pino da forma</span><span class="sxs-lookup"><span data-stu-id="0732a-129">Left edge to shape pin</span></span>  <br/> |<span data-ttu-id="0732a-130">2</span><span class="sxs-lookup"><span data-stu-id="0732a-130">2</span></span>  <br/> |
+|<span data-ttu-id="0732a-131">Pino da forma até a borda direita</span><span class="sxs-lookup"><span data-stu-id="0732a-131">Shape pin to right edge</span></span>  <br/> |<span data-ttu-id="0732a-132">3</span><span class="sxs-lookup"><span data-stu-id="0732a-132">3</span></span>  <br/> |
+|<span data-ttu-id="0732a-133">Pino da forma até a borda superior</span><span class="sxs-lookup"><span data-stu-id="0732a-133">Shape pin to top edge</span></span>  <br/> |<span data-ttu-id="0732a-134">4</span><span class="sxs-lookup"><span data-stu-id="0732a-134">4</span></span>  <br/> |
+|<span data-ttu-id="0732a-135">Borda inferior até o pino da forma</span><span class="sxs-lookup"><span data-stu-id="0732a-135">Bottom edge to shape pin</span></span>  <br/> |<span data-ttu-id="0732a-136">5</span><span class="sxs-lookup"><span data-stu-id="0732a-136">5</span></span>  <br/> |
+|<span data-ttu-id="0732a-137">Centro da caixa delimitadora até PinX</span><span class="sxs-lookup"><span data-stu-id="0732a-137">Center of bounding box to PinX</span></span>  <br/> |<span data-ttu-id="0732a-138">6</span><span class="sxs-lookup"><span data-stu-id="0732a-138">6</span></span>  <br/> |
+|<span data-ttu-id="0732a-139">Centro da caixa delimitadora até PinY</span><span class="sxs-lookup"><span data-stu-id="0732a-139">Center of bounding box to PinY</span></span>  <br/> |<span data-ttu-id="0732a-140">7</span><span class="sxs-lookup"><span data-stu-id="0732a-140">7</span></span>  <br/> |
    
 

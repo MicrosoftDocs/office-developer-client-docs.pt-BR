@@ -16,18 +16,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771393"
 ---
-# <a name="blob-function"></a><span data-ttu-id="cbe3e-103">Função BLOB</span><span class="sxs-lookup"><span data-stu-id="cbe3e-103">BLOB Function</span></span>
+# <a name="blob-function"></a><span data-ttu-id="a18b3-103">Função BLOB</span><span class="sxs-lookup"><span data-stu-id="a18b3-103">BLOB Function</span></span>
 
-<span data-ttu-id="cbe3e-104">Decodifica uma sequência de caracteres base64 e a armazena como dados binários.</span><span class="sxs-lookup"><span data-stu-id="cbe3e-104">Decodes a base64 string and stores it as binary data.</span></span> 
+<span data-ttu-id="a18b3-104">Decodifica uma sequência de caracteres base64 e a armazena como dados binários.</span><span class="sxs-lookup"><span data-stu-id="a18b3-104">Decodes a base64 string and stores it as binary data.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="cbe3e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="cbe3e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a18b3-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a18b3-105">Syntax</span></span>
 
-<span data-ttu-id="cbe3e-106">BLOB (* * *texto binário* * *)</span><span class="sxs-lookup"><span data-stu-id="cbe3e-106">BLOB (** *bintext* ** )</span></span> 
+<span data-ttu-id="a18b3-106">BLOB (* * *texto binário* * *)</span><span class="sxs-lookup"><span data-stu-id="a18b3-106">BLOB (** *bintext* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="cbe3e-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="cbe3e-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="a18b3-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="a18b3-107">Parameters</span></span>
 
-|<span data-ttu-id="cbe3e-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="cbe3e-108">**Name**</span></span>|<span data-ttu-id="cbe3e-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="cbe3e-109">**Required/Optional**</span></span>|<span data-ttu-id="cbe3e-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="cbe3e-110">**Data Type**</span></span>|<span data-ttu-id="cbe3e-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cbe3e-111">**Description**</span></span>|
+|<span data-ttu-id="a18b3-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="a18b3-108">**Name**</span></span>|<span data-ttu-id="a18b3-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="a18b3-109">**Required/Optional**</span></span>|<span data-ttu-id="a18b3-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="a18b3-110">**Data Type**</span></span>|<span data-ttu-id="a18b3-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="a18b3-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="cbe3e-112">_texto binário_</span><span class="sxs-lookup"><span data-stu-id="cbe3e-112">_bintext_</span></span> <br/> |<span data-ttu-id="cbe3e-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="cbe3e-113">Required</span></span>  <br/> |<span data-ttu-id="cbe3e-114">**String**</span><span class="sxs-lookup"><span data-stu-id="cbe3e-114">**String**</span></span> <br/> | <span data-ttu-id="cbe3e-115">Uma cadeia de caracteres codificada base64.</span><span class="sxs-lookup"><span data-stu-id="cbe3e-115">A base64 encoded string.</span></span>  <br/> |
+| <span data-ttu-id="a18b3-112">_texto binário_</span><span class="sxs-lookup"><span data-stu-id="a18b3-112">_bintext_</span></span> <br/> |<span data-ttu-id="a18b3-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="a18b3-113">Required</span></span>  <br/> |<span data-ttu-id="a18b3-114">**String**</span><span class="sxs-lookup"><span data-stu-id="a18b3-114">**String**</span></span> <br/> | <span data-ttu-id="a18b3-115">Uma cadeia de caracteres codificada base64.</span><span class="sxs-lookup"><span data-stu-id="a18b3-115">A base64 encoded string.</span></span>  <br/> |
    
 

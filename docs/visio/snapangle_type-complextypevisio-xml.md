@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773011"
 ---
-# <a name="snapangletype-complextype-visio-xml"></a><span data-ttu-id="c1441-102">SnapAngle_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="c1441-102">SnapAngle_Type complexType ('Visio XML')</span></span>
+# <a name="snapangletype-complextype-visio-xml"></a><span data-ttu-id="493e4-102">SnapAngle_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="493e4-102">SnapAngle_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="c1441-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="c1441-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="493e4-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="493e4-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c1441-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="c1441-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="c1441-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="c1441-105">**Schema file**</span></span> <br/> |<span data-ttu-id="c1441-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="c1441-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="c1441-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="c1441-107">**Extension base**</span></span> <br/> |<span data-ttu-id="c1441-108">XSD:Double</span><span class="sxs-lookup"><span data-stu-id="c1441-108">xsd:double</span></span>  <br/> |
+|<span data-ttu-id="493e4-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="493e4-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="493e4-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="493e4-105">**Schema file**</span></span> <br/> |<span data-ttu-id="493e4-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="493e4-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="493e4-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="493e4-107">**Extension base**</span></span> <br/> |<span data-ttu-id="493e4-108">XSD:Double</span><span class="sxs-lookup"><span data-stu-id="493e4-108">xsd:double</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="c1441-109">Definição</span><span class="sxs-lookup"><span data-stu-id="c1441-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="493e4-109">Definição</span><span class="sxs-lookup"><span data-stu-id="493e4-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="SnapAngle_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "19773011"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="c1441-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="c1441-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="493e4-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="493e4-110">Elements and attributes</span></span>
 
-<span data-ttu-id="c1441-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="c1441-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="493e4-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="493e4-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="c1441-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c1441-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="493e4-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="493e4-112">Child elements</span></span>
 
-<span data-ttu-id="c1441-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c1441-113">None.</span></span>
+<span data-ttu-id="493e4-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="493e4-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c1441-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="c1441-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="493e4-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="493e4-114">Attributes</span></span>
 
-<span data-ttu-id="c1441-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c1441-115">None.</span></span>
+<span data-ttu-id="493e4-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="493e4-115">None.</span></span>
   
 

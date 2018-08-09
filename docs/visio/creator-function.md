@@ -16,10 +16,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771624"
 ---
-# <a name="creator-function"></a><span data-ttu-id="001d8-103">Função CREATOR</span><span class="sxs-lookup"><span data-stu-id="001d8-103">CREATOR Function</span></span>
+# <a name="creator-function"></a><span data-ttu-id="13a1e-103">Função CREATOR</span><span class="sxs-lookup"><span data-stu-id="13a1e-103">CREATOR Function</span></span>
 
-<span data-ttu-id="001d8-104">Retorna o texto do campo **autor** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="001d8-104">Returns the text from the **Author** field of a document's properties.</span></span> 
+<span data-ttu-id="13a1e-104">Retorna o texto do campo **Autor** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="13a1e-104">Returns the text from the **Author** field of a document's properties.</span></span> 
   
-<span data-ttu-id="001d8-105">CREATOR ()</span><span class="sxs-lookup"><span data-stu-id="001d8-105">CREATOR ()</span></span> 
+<span data-ttu-id="13a1e-105">CREATOR ()</span><span class="sxs-lookup"><span data-stu-id="13a1e-105">CREATOR ()</span></span> 
   
 
