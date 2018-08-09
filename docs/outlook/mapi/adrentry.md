@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4b6f850c8f88088863b37bd94de6b1f3d4c48d4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _ADRENTRY
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulReserved1**
   
@@ -55,7 +55,7 @@ typedef struct _ADRENTRY
   
 > Ponteiro para uma matriz de valores de propriedade descrevendo as propriedades do destinatário. O membro **rgPropVals** pode ser NULL. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **ADRENTRY** descreve as propriedades que pertencem a um único destinatário. As propriedades que geralmente são usadas para descrever um destinatário incluem o seguinte: 
   

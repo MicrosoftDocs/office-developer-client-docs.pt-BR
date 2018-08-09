@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 10f8f2cf44bf1a8e00f8c2b1a76826db5fc07161
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulUIParam_
   
@@ -55,7 +55,7 @@ S_OK
   
 > A caixa de diálogo endereço comuns com êxito foi exibida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o membro **ulFlags** do parâmetro _lpAdrParms_ estiver definido como DIALOG_SDI prevendo o retorno da alça de janela da caixa de diálogo sem janela restrita na saída, ele é ignorado no Outlook; a versão modal da caixa de diálogo sempre é mostrada nos clientes não do Outlook. 
   
@@ -101,7 +101,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [FreeProws](freeprows.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
@@ -115,7 +115,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

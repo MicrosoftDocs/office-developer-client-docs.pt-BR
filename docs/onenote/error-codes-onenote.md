@@ -79,5 +79,5 @@ O exemplo a seguir lista os códigos de erro de novo para o OneNote 2013.
    
 ## <a name="see-also"></a>Confira também
 
-- [Referência para desenvolvedores do OneNote](onenote-developer-reference.md)
+- [Referência do desenvolvedor do OneNote](onenote-developer-reference.md)
 

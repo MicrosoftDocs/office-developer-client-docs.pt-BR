@@ -35,7 +35,7 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pfrminfoarray_
   
@@ -71,7 +71,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chamar o método **IMAPIFormMgr::CalcFormPropSet** para obter uma matriz das propriedades que usa um grupo de formulários. **CalcFormPropSet** leva a uma interseção ou uma união de propriedade desses formulários define, dependendo do sinalizador definido no parâmetro _ulFlags_ e ele retorna uma estrutura **SMAPIFormPropArray** que contém o grupo resultante de Propriedades. 
   
@@ -85,5 +85,5 @@ Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro
 
 [SMAPIFormPropArray](smapiformproparray.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

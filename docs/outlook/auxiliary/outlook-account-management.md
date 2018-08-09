@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de conta do Outlook
+title: Gerenciamento de contas do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766037"
 ---
-# <a name="outlook-account-management"></a>Gerenciamento de conta do Outlook
+# <a name="outlook-account-management"></a>Gerenciamento de contas do Outlook
 
 Esta seção descreve a API de gerenciamento de conta que fornece acesso às informações de conta e dá suporte a notificações de alteração da conta. Ele também inclui informações sobre proteção contra spam de contas e gerenciamento de downloads de mensagem para contas POP3.
 
@@ -22,6 +22,6 @@ Esta seção descreve a API de gerenciamento de conta que fornece acesso às inf
     
 - [Sobre as configurações do anti-spams](about-anti-spam-settings.md)
     
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)
     
 

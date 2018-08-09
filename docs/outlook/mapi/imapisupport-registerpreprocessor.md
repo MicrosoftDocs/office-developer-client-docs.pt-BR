@@ -38,7 +38,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMuid_
   
@@ -70,7 +70,7 @@ S_OK
   
 > A função pré-processador foi registrada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::RegisterPreprocessor** é implementado para transporte provedor suporte apenas os objetos. Provedores de transporte chamarem **RegisterPreprocessor** para registrar uma função pré-processador (uma função que está em conformidade com o protótipo [PreprocessMessage](preprocessmessage.md) ). Uma função pré-processador deve ser registrada antes do MAPI spooler pode chamá-lo. 
   

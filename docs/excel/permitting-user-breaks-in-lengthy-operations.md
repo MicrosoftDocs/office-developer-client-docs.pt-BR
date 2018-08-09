@@ -1,5 +1,5 @@
 ---
-title: Quebras de autorizações de usuário em operações demoradas
+title: Permitir intervenções de usuário em operações demoradas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - função xlAbort [excel 2007], tarefas simultâneas [Excel 2007], quebras de usuário [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b13f9b9a8c0e5621b25df13537632bdbe5dfc29e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765427"
 ---
-# <a name="permitting-user-breaks-in-lengthy-operations"></a>Quebras de autorizações de usuário em operações demoradas
+# <a name="permitting-user-breaks-in-lengthy-operations"></a>Permitir intervenções de usuário em operações demoradas
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -32,11 +32,11 @@ Quando você detectar uma condição de quebra em um comando, você geralmente d
 
 
 
-[Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[Recálculo multithreaded no Excel](multithreaded-recalculation-in-excel.md)
+[Recálculo do vários threads no Excel](multithreaded-recalculation-in-excel.md)
   
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
   
 [Acessar a instância do Excel e as alças da janela principal](how-to-access-excel-instance-and-main-window-handles.md)
 

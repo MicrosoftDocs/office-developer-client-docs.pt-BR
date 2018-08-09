@@ -37,7 +37,7 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _szComponent_
   
@@ -69,7 +69,7 @@ BOOL FGetComponentPath(
   
 > O caminho não foi encontrado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use a função de **FGetComponentPath** quando precisar fazer o caminho para o Mapi32 privada. 
   
@@ -77,7 +77,7 @@ Use a função de **FGetComponentPath** quando precisar fazer o caminho para o M
 
 
 
-[Escolher uma versão específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
+[Escolher uma versão MAPI específica para carregar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
 [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/dd162409.aspx)

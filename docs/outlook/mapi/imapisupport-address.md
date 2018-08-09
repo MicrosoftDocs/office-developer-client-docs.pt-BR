@@ -35,7 +35,7 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulUIParam_
   
@@ -55,7 +55,7 @@ S_OK
   
 > A caixa de diálogo de endereço com êxito foi exibida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::Address** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **endereço** para criar ou atualizar uma lista de destinatários da mensagem. 
   
@@ -103,7 +103,7 @@ Se o **endereço** deve retornar uma estrutura de **ADRLIST** maior, ou se você
   
 [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
@@ -113,15 +113,15 @@ Se o **endereço** deve retornar uma estrutura de **ADRLIST** maior, ou se você
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagAddressType](pidtagaddresstype-canonical-property.md)
+[Propriedade canônica PidTagAddressType](pidtagaddresstype-canonical-property.md)
   
-[Propriedade canônico de PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propriedade canônica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propriedade canônico de PidTagDisplayType](pidtagdisplaytype-canonical-property.md)
+[Propriedade canônica PidTagDisplayType](pidtagdisplaytype-canonical-property.md)
   
-[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
   
-[Propriedade canônico de PidTagRecipientType](pidtagrecipienttype-canonical-property.md)
+[Propriedade canônica PidTagRecipientType](pidtagrecipienttype-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   
@@ -130,5 +130,5 @@ Se o **endereço** deve retornar uma estrutura de **ADRLIST** maior, ou se você
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Gerenciando memória para ADRLIST e estruturas de SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+[Gerenciar memória das estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

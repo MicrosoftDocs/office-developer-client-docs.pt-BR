@@ -37,7 +37,7 @@ Os recursos de assinaturas digitais disponíveis no InfoPath permitem:
     
 ## <a name="overview-of-the-digital-signatures-object-model"></a>Visão geral do modelo de objeto de assinaturas digitais
 
-### <a name="events"></a>Events
+### <a name="events"></a>Eventos
 
 O modelo de objeto para assinaturas digitais fornece o evento a seguir.
   

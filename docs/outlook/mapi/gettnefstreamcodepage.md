@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c4859fa4f8f55af7913c884e25c96727c063ba79
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT GetTnefStreamCodepage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpStream_
   
@@ -65,7 +65,7 @@ HRESULT GetTnefStreamCodepage(
   
 > O fluxo não era um stream TNEF ou houve um erro ao ler o atributo attOemCodepage.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use a função **GetTnefStreamCodepage** para ler o atributo **attOemCodepage** do stream TNEF para determinar a página de código e a página subcódigo. Se **attOemCodepage** não for encontrado, **GetTnefStreamCodepage** retorna uma página de código dos 437 e uma página de subcódigo 0. 
   

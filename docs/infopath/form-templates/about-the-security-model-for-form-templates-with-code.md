@@ -25,8 +25,8 @@ A tabela a seguir descreve a relação entre os níveis de segurança para membr
   
 |**Nível de segurança do modelo de objeto**|**Descrição**|**Permissão definida usado**|
 |:-----|:-----|:-----|
-|0  <br/> |Pode ser acessado sem restrições.  <br/> |None  <br/> |
-|2  <br/> |Pode ser acessado apenas por formulários sendo executados no mesmo domínio que o formulário atualmente aberto ou por formulários que receberam permissões entre domínios.  <br/> |None  <br/> |
+|0  <br/> |Pode ser acessado sem restrições.  <br/> |Nenhum  <br/> |
+|2  <br/> |Pode ser acessado apenas por formulários sendo executados no mesmo domínio que o formulário atualmente aberto ou por formulários que receberam permissões entre domínios.  <br/> |Nenhum  <br/> |
 |3  <br/> |Pode ser acessado apenas por formulários totalmente confiáveis.  <br/> |FullTrust  <br/> |
    
 > [!NOTE]
@@ -44,7 +44,7 @@ Em conjunto com os níveis de segurança do modelo de objeto que são impostas p
 |**Nível de segurança de acesso do domínio**|**Descrição**|
 |:-----|:-----|
 |Restrito  <br/> |Não permitir que qualquer comunicação fora o modelo de formulário. Esse nível de segurança é destinado a impedir a transmissão de dados do seu computador para um invasor mal-intencionado formulários prejudiciais. Ao executar neste modo de segurança, os seguintes recursos não funcionará: o painel de tarefas personalizado, conexões de dados (exceto o envio de email), os controles ActiveX, código de formulário de código gerenciado, funções e fluxo de trabalho. Gerenciados não podem ser executado no domínio restrito modelos de formulário de código. Quando um modelo de formulário de código gerenciado é definido como a configuração de **determinar o nível de segurança automaticamente** na categoria de **segurança e confiança** da caixa de diálogo **Opções de formulário** , o modelo de formulário sempre exigirá pelo menos o acesso de segurança de domínio nível para executar um código.  <br/><br/>**Importante**: O assembly de código gerenciado criado para um modelo de formulário de código gerenciado não vai ser carregado e executado quando um formulário é aberto a partir de um domínio restrito, por exemplo, a partir de um formulário do InfoPath enviado como um anexo de email. Qualquer modelo de formulário que você deseja implantar como um anexo de email deve omitir os recursos listados acima, e se o modelo de formulário contém código de formulário, o código de formulário deve ser implementado em JScript ou VBScript e deve utilizar apenas os membros do modelo de objeto com um nível de segurança de 0 (zero) .           |
-|Domínio  <br/> |Restringe a um formulário baseado em seu local em uma das zonas de segurança definidas pelo Microsoft Internet Explorer. Por exemplo, se o formulário está localizado na zona da Intranet Local, ele pode se comunicar com outros dados dentro de seu próprio domínio, mas não é permitido para recuperar dados de outros domínios. O local em uma zona de segurança do Microsoft Internet Explorer também determina se os controles ActiveX que são marcados como seguros para script terão permissão para executar.  <br/> |
+|Domain  <br/> |Restringe a um formulário baseado em seu local em uma das zonas de segurança definidas pelo Microsoft Internet Explorer. Por exemplo, se o formulário está localizado na zona da Intranet Local, ele pode se comunicar com outros dados dentro de seu próprio domínio, mas não é permitido para recuperar dados de outros domínios. O local em uma zona de segurança do Microsoft Internet Explorer também determina se os controles ActiveX que são marcados como seguros para script terão permissão para executar.  <br/> |
 |Confiança total  <br/> |Permite a execução de um formulário com confiança total no computador onde o formulário será usado. Esse nível de segurança só pode ser usado ao trabalhar com um formulário que é assinado digitalmente com uma assinatura que corresponde a um fornecedor de raiz confiável no seu computador ou criando um programa de instalação que instala o formulário e define o **requireFullTrust** atributo do elemento **xDocumentClass** como "yes" no arquivo de definição de formulário (. xsf). Usando essa configuração, seu formulário pode acessar as chamadas de modelo de objeto que exigem o nível de segurança de modelo objeto 3, como propriedades e métodos que acessam o sistema de arquivos, e você pode desabilitar determinados avisos de segurança que aparecem durante a execução em um título mais restritivo nível.  <br/> |
    
 Por padrão, um formulário do InfoPath é configurado para selecione automaticamente o nível de segurança de domínio ou restrito dependendo dos recursos que estão sendo usados no modelo de formulário, e onde e como o modelo de formulário é implantado. Por exemplo, um modelo de formulário implantado como um anexo de email é configurado automaticamente o nível de segurança restrito. A configuração de segurança é tão restritiva sempre que possível, começando restrito, para garantir um maior nível de proteção para você e seus dados. Quando um modelo de formulário que contém o código gerenciado é definido para selecionar automaticamente o nível de segurança, o modelo de formulário sempre exigirá pelo menos o nível de acesso de segurança de domínio antes de código pode ser executado. Manualmente, você pode substituir essa configuração no tempo de design para selecionar um nível de segurança que é mais apropriado para o formulário usando o procedimento a seguir. 
@@ -67,12 +67,12 @@ A tabela a seguir resume o modelo de segurança do InfoPath. A primeira coluna l
   
 |**Nível exigido por formulário**|**Tem URN identificador**|**Tem um identificador de URL**|**ActiveX marcados não seguro para scripts**|**Acesso entre domínios**|**Código gerenciado**|**Segurança do modelo de objeto**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Restricted  <br/> ||X  <br/> |Nenhum ActiveX mudaram  <br/> |Falhar  <br/> |Formar cargas, mas gerenciada código não serão executados  <br/> |0  <br/> |
+|Restricted  <br/> ||X  <br/> |Nenhum ActiveX mudaram  <br/> |Fail  <br/> |Formar cargas, mas gerenciada código não serão executados  <br/> |0  <br/> |
 |Domínio (zona **sites restritos** do Internet Explorer)  <br/> |Não é executada  <br/> |Não é executada  <br/> |Não é executada  <br/> |Não é executada  <br/> |Não é executada  <br/> |Não é executada  <br/> |
-|Domínio (zona da Internet Explorer **Internet** )  <br/> |X  <br/> ||Falhar  <br/> |Falhar  <br/> |Não é executada  <br/> |0  <br/> |
-|Domínio (zona da Internet Explorer **intranet Local** )  <br/> |X  <br/> ||Falhar  <br/> |Prompt  <br/> |Código gerenciado é executado com permissões de **intranet Local** .  <br/> |2  <br/> |
+|Domínio (zona da Internet Explorer **Internet** )  <br/> |X  <br/> ||Fail  <br/> |Fail  <br/> |Não é executada  <br/> |0  <br/> |
+|Domínio (zona da Internet Explorer **intranet Local** )  <br/> |X  <br/> ||Fail  <br/> |Prompt  <br/> |Código gerenciado é executado com permissões de **intranet Local** .  <br/> |2  <br/> |
 |Domínio (zona **sites confiáveis** do Internet Explorer)  <br/> |X  <br/> ||Prompt  <br/> |OK  <br/> |Código gerenciado é executado com permissões de **Internet** . Acesso entre domínios é permitido. Observe que, mesmo que o formulário está na zona **sites confiáveis** , permissões de zona da **Internet** sejam aplicadas.  <br/> |2  <br/> |
-|Domínio (zona da Internet Explorer **computador Local** )  <br/> |X  <br/> |X  <br/> |Prompt  <br/> |Falhar  <br/> |Código gerenciado é executado com permissões de **intranet Local** .  <br/> |2  <br/> |
+|Domínio (zona da Internet Explorer **computador Local** )  <br/> |X  <br/> |X  <br/> |Prompt  <br/> |Fail  <br/> |Código gerenciado é executado com permissões de **intranet Local** .  <br/> |2  <br/> |
 |Confiança total  <br/> |X  <br/> |X  <br/> |OK  <br/> |OK  <br/> |Confiança total  <br/> |3  <br/> |
    
 > [!IMPORTANT]
@@ -113,5 +113,5 @@ A tabela a seguir resume os cenários de implantação e os conjuntos de permiss
 ## <a name="see-also"></a>Confira também
 
 - [Definir configurações de segurança para modelos de formulário com código](how-to-configure-security-settings-for-form-templates-with-code.md)
-- [Visualizar e depurar os modelos de formulário que exijam confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

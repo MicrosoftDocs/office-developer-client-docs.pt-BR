@@ -34,7 +34,7 @@ HRESULT Activate(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O controle de botão foi ativado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIControl::Activate** executa tarefas após o clique de um usuário do controle de botão. Após o clique ocorre, como parte do processamento da tabela exibição, o MAPI faz uma chamada para **Ativar** após a primeira chamada [IMAPIControl::GetState](imapicontrol-getstate.md) para determinar se o botão está habilitado. 
   
@@ -62,5 +62,5 @@ Para obter mais informações sobre como implementar **Ativar** e o outro [IMAPI
 
 [IMAPIControl::GetState](imapicontrol-getstate.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

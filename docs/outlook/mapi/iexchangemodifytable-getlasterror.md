@@ -35,7 +35,7 @@ HRESULT GetLastError(
 ); 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -53,7 +53,7 @@ HRESULT GetLastError(
 
 
 
-[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)
+[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
   
 [MAPIERROR](mapierror.md)
 

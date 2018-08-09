@@ -51,7 +51,7 @@ Antes de exibir uma mensagem de entrada para um usuário, determine se sua class
     
 7. Abra um anexo, se desejado. Para obter mais informações, consulte [abertura de um anexo](opening-an-attachment.md).
     
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Texto da mensagem de abertura](opening-message-text.md): descreve como abrir o texto da mensagem.
     

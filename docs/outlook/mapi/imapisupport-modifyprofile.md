@@ -33,7 +33,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -49,7 +49,7 @@ S_OK
   
 > As alterações para a seção de perfil foram bem-sucedidas.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::ModifyProfile** é implementado para objetos de suporte do provedor de repositório de mensagem. Mensagem de chamada de provedores de repositório **ModifyProfile** para solicitar o MAPI para modificar suas informações de perfil. 
   

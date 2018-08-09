@@ -1,5 +1,5 @@
 ---
-title: Recursos não suportados pelos gerentes de formulário
+title: Recursos incompatíveis com gerentes de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766240"
 ---
-# <a name="capabilities-not-supported-by-form-managers"></a>Recursos não suportados pelos gerentes de formulário
+# <a name="capabilities-not-supported-by-form-managers"></a>Recursos incompatíveis com gerentes de formulário
 
   
   

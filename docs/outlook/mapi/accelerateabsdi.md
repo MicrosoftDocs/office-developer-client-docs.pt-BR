@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b7d4d758f7031c55aa3a23b662ec8727ea1e0719
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -52,7 +52,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
 Uma função com o protótipo **ACCELERATEABSDI** retorna TRUE se ele lida com a mensagem. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma função com base em protótipo **ACCELERATEABSDI** é usada somente com uma caixa de diálogo sem janela restrita, ou seja, apenas se o aplicativo cliente tiver definido o sinalizador DIALOG_SDI no membro _ulFlags_ da estrutura [ADRPARM](adrparm.md) . 
   

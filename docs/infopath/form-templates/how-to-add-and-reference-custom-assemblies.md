@@ -1,5 +1,5 @@
 ---
-title: Adicione e referência Assemblies personalizados
+title: Adicionar e fazer referência a assemblies personalizados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765599"
 ---
-# <a name="add-and-reference-custom-assemblies"></a>Adicione e referência Assemblies personalizados
+# <a name="add-and-reference-custom-assemblies"></a>Adicionar e fazer referência a assemblies personalizados
 
 Quando você adiciona uma referência a um assembly personalizado em um projeto de modelo de formulário de código gerenciado, nesse assembly é incluído dentro do arquivo de modelo de formulário (. xsn) quando o projeto é compilado e publicado.
   

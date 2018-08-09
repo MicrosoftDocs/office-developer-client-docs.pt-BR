@@ -30,7 +30,7 @@ HRESULT Placeholder12();
 
 Sempre S_OK, porque este membro é um espaço reservado e não é suportado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro deve retornar S_OK.
   

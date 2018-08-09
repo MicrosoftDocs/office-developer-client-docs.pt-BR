@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1fd711683ff476ef5d381bca2f9db6bc25b07c68
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbInstanceKey_
   
@@ -68,7 +68,7 @@ MAPI_E_INVALID_ENTRYID
   
 > A linha identificada pelo parâmetro _pbInstanceKey_ não existe. Esse erro é uma alternativa ao E_NOT_FOUND; provedores de serviços podem retornar qualquer deles. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::CollapseRow** recolhe uma categoria de tabela e a remove do modo de exibição de tabela. As linhas são contraídas começando na linha identificada pela propriedade **PR_INSTANCE_KEY** apontada pelo parâmetro _pbInstanceKey_ . O número de linhas que foram removidos do modo de exibição é retornado no conteúdo do parâmetro _lpulRowCount_ . 
   
@@ -98,11 +98,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
 [SSortOrderSet](ssortorderset.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

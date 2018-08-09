@@ -1,5 +1,5 @@
 ---
-title: Sobre o Assembly de interoperabilidade primário do InfoPath do Microsoft Office
+title: Sobre o assembly de interoperabilidade primário do InfoPath do Microsoft Office
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765504"
 ---
-# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Sobre o Assembly de interoperabilidade primário do InfoPath do Microsoft Office
+# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Sobre o assembly de interoperabilidade primário do InfoPath do Microsoft Office
 
 O aplicativo InfoPath é criado como um aplicativo (COM Component Object Model) que expõe suas interfaces de programação para automação externa como interfaces COM. Para oferecer suporte a criação de soluções do InfoPath que usam os idiomas de código gerenciado, como o Visual c# e Visual Basic, a opção de **Suporte de programação do .NET** no programa de instalação do InfoPath instala os assemblies de interoperabilidade três. Os assemblies de interoperabilidade são assemblies .NET que agem como uma ponte entre código gerenciado e, mapeamento de membros do objeto COM ao equivalente .NET gerenciado membros. 
   

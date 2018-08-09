@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c79d9ebb5be1d8af6c9136514d8a2b695513f755
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT HrAddColumnsEx(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lptbl_
   
@@ -76,7 +76,7 @@ S_OK
   
 > A chamada foi bem-sucedida e das colunas especificadas foram movidas ou adicionadas.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 As propriedades passadas para **HrAddColumnsEx** usando o parâmetro _lpproptagColumnsNew_ se tornam as propriedades de primeira expostas nas chamadas para o método [IMAPITable:: QueryRows](imapitable-queryrows.md) subsequentes. Todas as propriedades anteriormente na tabela que não foram especificadas no parâmetro _lpproptagColumnsNew_ são expostas após todas as propriedades adicionadas e movidas. 
   

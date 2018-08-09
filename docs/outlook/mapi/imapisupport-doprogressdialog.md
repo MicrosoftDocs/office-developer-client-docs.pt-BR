@@ -35,7 +35,7 @@ HRESULT DoProgressDialog(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -59,7 +59,7 @@ S_OK
   
 > O objeto de andamento foi recuperado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::DoProgressDialog** é implementado para endereço livro e mensagem provedor suporte objetos store. Esses provedores chamarem **DoProgressDialog** para acessar a implementação de MAPI da interface [IMAPIProgress](imapiprogressiunknown.md) , que calcula as informações de andamento e exibe uma caixa de diálogo padrão. 
   
@@ -69,7 +69,7 @@ Para obter informações sobre como usar um objeto de progresso e a interface de
 
 
 
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   

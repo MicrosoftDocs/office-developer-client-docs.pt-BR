@@ -35,7 +35,7 @@ HRESULT EnumAdrTypes(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ S_OK
   
 > Os tipos de endereço foram recuperados com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::EnumAdrTypes** retorna uma lista dos tipos de endereço que podem ser administrados por todos os provedores de transporte ativa na sessão. Os tipos de endereço para provedores de transporte que não são carregadas no momento não são incluídos na lista. Provedores de transporte Registre-se para lidar com um ou mais tipos de endereço ao seu método de [IXPLogon::AddressTypes](ixplogon-addresstypes.md) chamadas de MAPI. 
   
@@ -75,5 +75,5 @@ Chame [MAPIFreeBuffer](mapifreebuffer.md) para liberar a matriz de cadeia de car
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 

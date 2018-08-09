@@ -1,5 +1,5 @@
 ---
-title: Exibindo os controles de tabela
+title: Exibir controles de tabela
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 11b3279582c4cfb0d2c2249c6f4eddd7f0260b49
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766440"
 ---
-# <a name="displaying-table-controls"></a>Exibindo os controles de tabela
+# <a name="displaying-table-controls"></a>Exibir controles de tabela
 
   
   

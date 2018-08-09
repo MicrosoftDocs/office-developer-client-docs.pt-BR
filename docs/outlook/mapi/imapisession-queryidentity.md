@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c8f05707d63f922c9ce22e6e520c6c57e686f884
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT QueryIdentity(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpcbEntryID_
   
@@ -54,7 +54,7 @@ MAPI_W_NO_SERVICE
   
 > A chamada foi bem-sucedida, mas não há nenhuma identidade primária para a sessão. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::QueryIdentity** recupera a identidade principal para a sessão atual e retorna o valor através do parâmetro _lppEntryID_ . A identidade principal é um objeto, normalmente um usuário de mensagens, que represente o usuário de uma sessão.  _lppEntryID_ retorna a identidade principal para um objeto [IMailUser](imailuserimapiprop.md) , que também é armazenado à propriedade [PidTagEntryID](pidtagentryid-canonical-property.md) . Você pode usar o valor retornado nos _lppEntryID_ para abrir um objeto **IMailUser** usando [IMAPISession::OpenEntry](imapisession-openentry.md).
   
@@ -104,16 +104,16 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Identidade primária de MAPI](mapi-primary-identity.md)
   
-[Recuperando principal e o provedor de identidade](retrieving-primary-and-provider-identity.md)
+[Recuperar identidade principal e do provedor](retrieving-primary-and-provider-identity.md)
   
-[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+[Usar macros para lidar com erros](using-macros-for-error-handling.md)
   
-[Tabela de status e objetos de Status](status-table-and-status-objects.md)
+[Tabela de status e objetos de status](status-table-and-status-objects.md)
 

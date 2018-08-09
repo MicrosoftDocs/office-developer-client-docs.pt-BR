@@ -1,5 +1,5 @@
 ---
-title: Baixando as amostras MAPI do Outlook
+title: Baixar exemplos de MAPI do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766457"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>Baixando as amostras MAPI do Outlook
+# <a name="downloading-the-outlook-mapi-samples"></a>Baixar exemplos de MAPI do Outlook
 
   
   
@@ -41,7 +41,7 @@ As amostras de MAPI do Microsoft Outlook incluem um fornecedor de catálogo de e
 
 [Exemplo de provedor de catálogo de endereços](address-book-provider-sample.md)
   
-[Exemplo de provedor de armazenamento de mensagens](message-store-provider-sample.md)
+[Exemplo de provedor de repositório de mensagens](message-store-provider-sample.md)
   
 [Exemplo de provedor de transporte](transport-provider-sample.md)
 

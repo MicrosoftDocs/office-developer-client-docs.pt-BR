@@ -1,5 +1,5 @@
 ---
-title: Criando uma lista de destinatários
+title: Criar lista de destinatários
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766370"
 ---
-# <a name="creating-a-recipient-list"></a>Criando uma lista de destinatários
+# <a name="creating-a-recipient-list"></a>Criar lista de destinatários
 
   
   

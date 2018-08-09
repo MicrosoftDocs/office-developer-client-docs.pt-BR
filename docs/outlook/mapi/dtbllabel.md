@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 28f6471f74fb0fcc4f7e2f4114f0790e1564e17e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _DTBLLABEL
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabelName**
   
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo está no formato ANSI.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLLABEL** descreve um texto de controle do rótulo que é exibido com outro tipo de controle para adicionar o significado a esse controle. Por exemplo, a maioria dos controles de edição posicionados ao lado de rótulos para informar ao usuário sobre o tipo de informação a ser inserido. Alguns controles, como caixas de grupo e os botões de opção, mantenha suas próprias rótulos. 
   

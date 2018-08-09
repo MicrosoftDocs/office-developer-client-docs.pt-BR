@@ -41,7 +41,7 @@ O membro de estrutura de controle de uma estrutura **DTCTL** descreve os dados q
   
 A relação entre os três tipos de estruturas de tabela de exibição é mostrada na ilustração a seguir. A caixa de diálogo descrita pela tabela exibição tem dois controles: um rótulo e um controle de edição. A estrutura **DTBLLBX** tem um membro de deslocamento de rótulo, como várias das estruturas de controle, que descreve onde a cadeia de caracteres para o rótulo começa. Cadeias de caracteres de rótulo geralmente são colocadas na memória imediatamente após a estrutura. 
   
-**Exibir estruturas de tabela**
+**Display table structures**
   
 ![Estruturas de tabela de exibição] (media/dtstruct.gif "Estruturas de tabela de exibição")
   

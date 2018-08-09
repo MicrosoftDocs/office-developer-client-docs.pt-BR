@@ -40,7 +40,7 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -80,7 +80,7 @@ S_OK
   
 > A nova entrada foi criada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::NewEntry** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **NewEntry** para criar uma nova entrada Catálogo de endereços a ser adicionado diretamente em um contêiner ou a ser usado para resolver uma mensagem de saída. 
   
@@ -112,7 +112,7 @@ Para usar um modelo específico para adicionar uma nova entrada de um contêiner
   
 [IMAPISupport::OpenEntry](imapisupport-openentry.md)
   
-[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

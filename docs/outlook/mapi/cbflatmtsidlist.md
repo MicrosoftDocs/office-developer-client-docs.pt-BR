@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c69ee41fe4cf170deb12ba92e5629627b9cd1bd0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes em uma estrutura [FLATMTSIDLIST](flatmtsidlist.md) ex
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __lplist_
   
@@ -49,5 +49,5 @@ CbFLATMTSIDLIST (_lplist)
 [FLATMTSIDLIST](flatmtsidlist.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

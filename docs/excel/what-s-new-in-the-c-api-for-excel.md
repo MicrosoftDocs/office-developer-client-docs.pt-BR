@@ -1,5 +1,5 @@
 ---
-title: Quais são as novidades do C API para Excel
+title: Novidades na API de C do Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - a api c [excel 2007], o que há de novo
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765440"
 ---
-# <a name="whats-new-in-the-c-api-for-excel"></a>Quais são as novidades do C API para Excel
+# <a name="whats-new-in-the-c-api-for-excel"></a>Novidades na API de C do Excel
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -45,11 +45,11 @@ Em conjunto com o Microsoft Excel 2013, o Microsoft Excel 2013 XLL Software Deve
 
 
 
-[Developing Excel XLLs](developing-excel-xlls.md)
+[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
   
-[Programando com a API C no Excel](programming-with-the-c-api-in-excel.md)
+[Programar com a API de C no Excel](programming-with-the-c-api-in-excel.md)
   
-[Multithreading e contenção de memória no Excel](multithreading-and-memory-contention-in-excel.md)
+[Vários threads e contenção da memória no Excel](multithreading-and-memory-contention-in-excel.md)
 
 
 [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)

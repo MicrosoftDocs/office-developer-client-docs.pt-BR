@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -74,7 +74,7 @@ MAPI_E_INVALID_ENTRYID
   
 > O provedor de catálogo de endereços não fazem parte de um ou ambos os identificadores de entrada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de catálogo de endereços implementam o método **CompareEntryIDs** para comparar os dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. 
   
@@ -86,5 +86,5 @@ Para obter mais informações sobre como criar os identificadores de entrada, co
 
 
 
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

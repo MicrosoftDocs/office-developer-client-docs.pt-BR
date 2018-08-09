@@ -1,5 +1,5 @@
 ---
-title: Compreendendo o modelo de objeto do InfoPath 2003
+title: Compreender o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765718"
 ---
-# <a name="understanding-the-infopath-2003-object-model"></a>Compreendendo o modelo de objeto do InfoPath 2003
+# <a name="understanding-the-infopath-2003-object-model"></a>Compreender o modelo de objeto do InfoPath 2003
 
 Esta seção discute o modelo de objeto para soluções de código gerenciado do InfoPath e descreve as tarefas de programação comuns.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Modelos de objeto do InfoPath 2003 compatíveis](infopath-2003-compatible-object-models.md)
+[InfoPath 2003 compatível com modelos de objeto](infopath-2003-compatible-object-models.md)
   
 > Fornece uma visão geral dos modelos de objeto do usados em projetos de código gerenciado do InfoPath.
     
-[Dados de aplicativo do Access usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Acessar dados do aplicativo usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Discute como acessar informações sobre o aplicativo InfoPath, documento XML de base do formulário e o arquivo de definição (. xsf) do formulário.
     
@@ -41,15 +41,15 @@ Esta seção discute o modelo de objeto para soluções de código gerenciado do
   
 > Discute como exibir alertas e caixas de diálogo em projetos de código gerenciado do InfoPath.
     
-[Manipular erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[Lidar com erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
 > Discute como manipular erros em projetos de código gerenciado do InfoPath.
     
-[Responder para formar eventos usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Responder eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
 > Discute como criar manipuladores de eventos que respondam a eventos que ocorrem conforme um usuário preenche um formulário.
     
-[Trabalhar com Windows de formulário usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Trabalhar com formulários do Windows usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Discute como trabalhar com janelas de formulários.
     
@@ -61,7 +61,7 @@ Esta seção discute o modelo de objeto para soluções de código gerenciado do
   
 > Discute como trabalhar com assinaturas digitais.
     
-[Trabalhar com as soluções Offline usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+[Trabalhar com soluções do Office usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
   
 > Discute como trabalhar com as soluções offline.
     

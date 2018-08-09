@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e68211049bc0f958ae24975f4ab4063953eef567
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766956"
 ---
-# <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown: IUnknown
+# <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
   
   
@@ -44,7 +44,7 @@ Permite que um cliente MAPI realizar o desligamento rápido do processo de clien
 |[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica a intenção do cliente MAPI para prosseguir com desligado.  <br/> |
 |[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica a intenção do cliente MAPI para sair do processo de cliente imediatamente.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A finalidade do desligamento rápido é permitir que um cliente MAPI e qualquer provedor MAPI carregado com o qual o cliente MAPI tem uma sessão MAPI ativa para salvar os dados e configurações de MAPI. Isso permite que o cliente MAPI desconectar todas as referências externas e sair sem causar perda de dados. Um cliente MAPI que precisa para executar um desligamento rápido deve usar a interface de **IMAPIClientShutdown** . O cliente MAPI pode obter um ponteiro para essa interface chamando o método IUnknown:: QueryInterface em qualquer objeto [IMAPISession](imapisessioniunknown.md) . 
   

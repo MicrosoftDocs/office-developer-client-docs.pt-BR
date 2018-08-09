@@ -45,7 +45,7 @@ Uma mensagem de saída é uma mensagem que pode ser enviada para um ou mais dest
     
 Se você quiser intermittantly salve a mensagem antes de enviá-lo, chame o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem. Para obter mais informações, consulte, [Salvando uma mensagem](saving-a-message.md) ou [Enviar uma mensagem](sending-a-message.md). 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Criar uma lista de destinatário](creating-a-recipient-list.md): descreve como criar uma lista de destinatários.
     

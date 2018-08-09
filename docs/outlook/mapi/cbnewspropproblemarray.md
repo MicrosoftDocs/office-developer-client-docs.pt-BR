@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 267624cc89ce7cd72720a2b296f3dab5c79385e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes a ser alocada para uma nova estrutura de [SPropProble
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __cprob_
   
@@ -51,5 +51,5 @@ CbNewSPropProblemArray (_cprob)
 [SPropProblem](spropproblem.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

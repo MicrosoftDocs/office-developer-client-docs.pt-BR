@@ -30,7 +30,7 @@ HRESULT GetFBPublishRange(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _prtmStart_
   
@@ -44,7 +44,7 @@ _prtmEnd_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um provedor de livre/ocupado chama [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) para definir o intervalo de tempo para uma enumeração. Se não tiver sido chamado [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) , os valores padrão para **prtmStart** e **prtmEnd** devem ser definidos entre 1º de abril de 1601 00:00:00Z e 31 de agosto de 4500 11:59:59Z respectivamente. Além disso, você não deve definir a hora de início para ser maior do que a hora de término. 
   
@@ -52,7 +52,7 @@ Um provedor de livre/ocupado chama [IFreeBusyData::EnumBlocks](ifreebusydata-enu
   
 ## <a name="see-also"></a>Confira também
 
-- [Use o tempo relativo para acessar dados do tipo disponível/ocupado](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Usar o tempo relativo para acessar dados de disponibilidade](how-to-use-relative-time-to-access-free-busy-data.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)
 

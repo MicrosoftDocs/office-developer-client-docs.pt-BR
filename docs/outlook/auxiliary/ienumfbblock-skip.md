@@ -28,7 +28,7 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _celt_
   

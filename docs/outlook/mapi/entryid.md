@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -71,13 +71,13 @@ MAPI_THISSESSION
   
 > Indica uma matriz de dados binários que são usados pelos provedores de serviço. O aplicativo cliente não pode usar essa matriz.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **ENTRYID** é usada por mensagem armazenar e provedores de catálogo para construir identificadores exclusivos para seus objetos de endereços. Identificadores de entrada são usados para identificar os seguintes tipos de objetos: 
   
 - Repositórios de mensagem
     
-- Pastas
+- Folders
     
 - Mensagens
     
@@ -125,7 +125,7 @@ Para obter mais informações, consulte [Identificadores de entrada](mapi-entry-
   
 [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md)
   
-[Propriedade canônico de PidTagRecordKey](pidtagrecordkey-canonical-property.md)
+[Propriedade canônica PidTagRecordKey](pidtagrecordkey-canonical-property.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

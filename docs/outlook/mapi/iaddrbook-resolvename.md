@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa72085c4e50fcef1f2d3da81e5409af3d55d89b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT ResolveName(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -84,7 +84,7 @@ E_NOT_FOUND
   
 > Pelo menos um destinatário no parâmetro _lpAdrList_ não pode ser resolvido. Geralmente, esse valor é retornado quando o sinalizador MAPI_DIALOG estiver definido, impedindo a exibição de uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes e provedores de serviços de chamar o método de **ResolveName** para iniciar o processo de resolução de nome. Uma entrada não resolvida é uma entrada que ainda não tem um identificador de entrada ou a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
@@ -131,11 +131,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [ADRLIST](adrlist.md)
   
-[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)
+[IABContainer::ResolveNames](iabcontainer-resolvenames.md)
   
 [IAddrBook::Address](iaddrbook-address.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -19,9 +19,9 @@ ms.locfileid: "19765232"
 Insere uma cadeia de caracteres de texto em outra cadeia de caracteres de texto. Ela exclui um tamanho especificado de caracteres na primeira cadeia de caracteres na posição inicial e, em seguida, insere a segunda cadeia a primeira cadeia de caracteres na posição inicial.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  **Coisas** (*IntoTextExpression*, *Iniciar*, *comprimento*, *ThisTextExpression*) 
   
@@ -34,7 +34,7 @@ A função **coisas** contém os seguintes argumentos.
 | *Length*  <br/> |Um inteiro que especifica o número de caracteres a ser excluído. Se length for maior que o primeiro *IntoTextExpression* , exclusão ocorre até o último caractere no último *IntoTextExpression* .  <br/> |
 | *ThisTextExpression*  <br/> |Um texto chapéu de expressão Especifica o texto para inserir em *IntoTextExpression* . Esta expressão substituirá os caracteres de comprimento de início de *IntoTextExpression* em *Iniciar* .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se os argumentos *Iniciar* ou *comprimento* são negativos, ou se a posição inicial for maior que o comprimento da cadeia de caracteres primeiro, uma cadeia de caracteres nula será retornada. Se a posição inicial for 0, é retornado um valor nulo. Se o comprimento para excluir for maior que a primeira cadeia de caracteres, ele é excluído para o primeiro caractere na primeira cadeia de caracteres. 
   

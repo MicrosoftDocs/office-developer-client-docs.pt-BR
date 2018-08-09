@@ -28,7 +28,7 @@ Retorna o nome para exibição da conta que entregar a mensagem.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Soluções gerais de mensagens  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade deve conter o mesmo valor que é retornado da propriedade API de gerenciamento de conta [PROP_ACCT_NAME](prop_acct_name.md) para a conta que entregar a mensagem. 
   
@@ -52,5 +52,5 @@ Para oferecer suporte a essas propriedades nomeadas, provedores de armazenamento
 
 - [Sobre a API de gerenciamento de conta](about-the-account-management-api.md)
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
-- [Propriedade canônico de PidLidInternetAccountName](http://msdn.microsoft.com/library/29bedadf-903d-419d-804d-dc8bd92b745d%28Office.15%29.aspx)
+- [Propriedade canônica PidLidInternetAccountName](http://msdn.microsoft.com/library/29bedadf-903d-419d-804d-dc8bd92b745d%28Office.15%29.aspx)
 

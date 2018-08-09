@@ -1,5 +1,5 @@
 ---
-title: O retorno de chamada do C API funciona Excel4, Excel12
+title: 'Retorno de chamada da API de C: funções Excel4, Excel12'
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - funções [excel 2007], o retorno de chamada de api c
 localization_priority: Normal
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 221ea4c9c706d11acd31d3f2870d326a7189d299
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765249"
 ---
-# <a name="c-api-callback-functions-excel4-excel12"></a>O retorno de chamada do C API funciona Excel4, Excel12
+# <a name="c-api-callback-functions-excel4-excel12"></a>Retorno de chamada da API de C: funções Excel4, Excel12
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -28,7 +28,7 @@ As funções do **Excel4** e **Excel12** são fornecidas para habilitar DLLs cha
     
 Com exceção da maneira na qual os argumentos são passados para esses retornos de chamada, as duas formas são funcionalmente equivalentes. Os conceitos básicos para ambos os formulários totalmente são descritos na [Excel4/Excel12](excel4-excel12.md). [Excel4v/Excel12v](excel4v-excel12v.md) aborda outras questões sobre este formulário. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [Excel4/Excel12](excel4-excel12.md)
   

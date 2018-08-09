@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -59,7 +59,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::PrepareForm** para baixar um formulário a partir de um contêiner de formulário para abertura. A maioria dos visualizadores de formulário não é necessário chamar **PrepareForm**, pois métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) tanto o [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) chamam **PrepareForm**, se necessário. 
   
@@ -73,5 +73,5 @@ Você pode usar **PrepareForm** para obter as bibliotecas de vínculos dinâmico
   
 [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

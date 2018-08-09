@@ -19,21 +19,21 @@ ms.locfileid: "19765603"
 
 Esta seção fornece informações sobre como começar a criar gerenciadas modelos de formulário de código que funcionam com o modelo de objeto do InfoPath fornecido por membros do namespace **Microsoft.Office.InfoPath** . 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [O que há de novo para desenvolvedores do InfoPath](what-s-new-for-infopath-developers.md)
   
 > Fornece informações sobre novos recursos e aprimoramentos de interesse para desenvolvedores.
     
-[Noções básicas sobre modelos de objeto do InfoPath e o ambiente de desenvolvimento](understanding-infopath-object-models-and-development-environment.md)
+[Noções básicas sobre o ambiente de desenvolvimento e modelos de objeto do InfoPath](understanding-infopath-object-models-and-development-environment.md)
   
 > Descreve os dois tipos de modelos de programação para o desenvolvimento de lógica de negócios nos modelos de formulário e o ambiente de desenvolvimento do Visual Studio 2012 suportados pelo InfoPath.
     
-[Desenvolver com o Visual Studio](how-to-develop-with-visual-studio.md)
+[Desenvolvimento com o Visual Studio](how-to-develop-with-visual-studio.md)
   
 > Descreve como instalar o ambiente do Visual Studio 2012.
     
-[Instalar a Ajuda do Local do .NET Framework do Visual Studio Tools para aplicativos](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Instalar a Ajuda local do .NET Framework para Microsoft Visual Studio Tools for Applications (VSTA)](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
   
 > Descreve como instalar uma cópia local da documentação do .NET Framework para uso offline no ambiente do Visual Studio 2012.
     
@@ -41,19 +41,19 @@ Esta seção fornece informações sobre como começar a criar gerenciadas model
   
 > Descreve como adicionar manipuladores de eventos a um modelo de formulário de código gerenciado do InfoPath. 
     
-[Visualizar e depurar os modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Visualizar e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > Descreve como visualizar e depurar modelos de formulário de código gerenciado do InfoPath.
     
-[Visualizar e depurar os modelos de formulário que exijam confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
   
 > Descreve como visualizar e depurar modelos de formulário de código gerenciado do InfoPath que contêm lógica de negócios que requer confiança total.
     
-[Passo a passo: Criando um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
+[Passo a passo: criar um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
   
 > Um guia passo a passo que fornece uma introdução à criação e depuração de um modelo de formulário de código gerenciado do InfoPath básico 
     
-[Valores de log para um campo para depuração](how-to-log-values-to-a-field-for-debugging.md)
+[Valores de log para um campo de depuração](how-to-log-values-to-a-field-for-debugging.md)
   
 > Descreve como criar uma função auxiliar para o log de informações de depuração e um campo de várias linha.
     
@@ -65,23 +65,23 @@ Esta seção fornece informações sobre como começar a criar gerenciadas model
   
 > Descreve como implantar modelos de formulário de código gerenciado do InfoPath.
     
-[Como posso fazer … Em modelos de formulário do InfoPath com código](how-do-iin-infopath-form-templates-with-code.md)
+[Como... em modelos de formulário do InfoPath com código](how-do-iin-infopath-form-templates-with-code.md)
   
 > Fornece um resumo das tarefas comuns para desenvolvedores de modelos de formulário de código gerenciado do InfoPath.
     
-[Trabalhar com os XPathNavigator e Classes de XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
+[Trabalhar com as classes XPathNavigator e XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
 > Fornece um resumo dos membros do modelo de objeto de código gerenciado do InfoPath que usar as classes **XPathNavigator** e **XPathNodeIterator** para trabalhar com dados XML. 
     
-[Use os membros do modelo de objeto do SharePoint](how-to-use-sharepoint-object-model-members.md)
+[Usar membros do modelo de objeto do SharePoint](how-to-use-sharepoint-object-model-members.md)
   
 > Descreve como criar uma referência para o assembly do Microsoft. SharePoint para que você pode escrever código em relação a seu modelo de objeto do código do formulário.
     
-[Publicando formulários com código](publishing-forms-with-code.md)
+[Publicar formulários com código](publishing-forms-with-code.md)
   
 > Descreve as diferenças entre a publicação de soluções de área restrita e implantados pelo administrador.
     
-[Exemplos de soluções em área restrita](sample-sandboxed-solutions.md)
+[Exemplo de soluções em área restrita](sample-sandboxed-solutions.md)
   
 > Fornece dois exemplos que mostram o tipo de código que você pode escrever em uma solução em área restrita do InfoPath.
     

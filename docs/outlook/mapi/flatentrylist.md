@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a8f17c3cf3d3d00930f87acd004b24f683a3fc8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 **cEntries**
   
@@ -54,7 +54,7 @@ typedef struct
   
 > Matriz de bytes que contém uma ou mais estruturas **FLATENTRY** , organizada ponta a ponta. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Na matriz **abEntries** , cada estrutura **FLATENTRY** é alinhada em um limite naturalmente alinhado. Bytes extras são incluídos como preenchimento para tornar o alinhamento certeza natural entre qualquer duas estruturas **FLATENTRY** . A estrutura **FLATENTRY** primeira na matriz é sempre alinhada corretamente porque o deslocamento do membro **abEntries** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondado para cima até o próximo múltiplo de 4. Use a macro [CbFLATENTRY](cbflatentry.md) para calcular o tamanho de uma estrutura **FLATENTRY** . 
   
@@ -71,6 +71,6 @@ O exemplo de código a seguir indica como compute deslocamentos em uma estrutura
 ## <a name="see-also"></a>Confira também
 
 - [FLATENTRY](flatentry.md)
-- [Propriedade canônico de PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)
+- [Propriedade canônica PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)
 - [Estruturas MAPI](mapi-structures.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d1503aaa5bddd23a90035219901e1dc232dbd026
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ULONG FBadPropTag(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulPropTag_
   
@@ -55,7 +55,7 @@ FALSO
   
 > A marca de propriedade especificado é uma marca de propriedade MAPI válida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **FBadPropTag** valida a marca de propriedade especificado com base nas definições de MAPI. Ele faz sures que o tipo de propriedade é um dos tipos definidos pelo MAPI e que o identificador de propriedade é definido para ser desse tipo. 
   

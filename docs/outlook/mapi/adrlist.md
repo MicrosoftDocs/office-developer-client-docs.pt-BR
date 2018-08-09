@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b2d3dce7835f92d9ad78f7d8837e655fdd8fd412
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ typedef struct _ADRLIST
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 **cEntries**
   
@@ -49,7 +49,7 @@ typedef struct _ADRLIST
   
 > Matriz de estruturas [ADRENTRY](adrentry.md) , uma estrutura de cada destinatário. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **ADRLIST** contém uma ou mais estruturas **ADRENTRY** , cada uma delas descreve as propriedades de um destinatário. Um destinatário pode ser não resolvido. Isso significa que ele está faltando um identificador de entrada na sua matriz de valores de propriedade. Um destinatário resolvido significa que o **PR\_ENTRYID** propriedade ([PidTagEntryId](pidtagentryid-canonical-property.md)) esteja incluída. Geralmente, destinatários resolvidos também têm um email a propriedade **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) de endereços. No entanto, o endereço de email não é necessário. Estruturas **ADRLIST** são usadas, por exemplo, para descrever a lista de destinatários para uma mensagem de saída e por MAPI para exibir as entradas no catálogo de endereços. 
   
@@ -57,7 +57,7 @@ Estruturas **ADRLIST** assemelhar [SRowSet](srowset.md) estruturas as estruturas
   
 A ilustração a seguir mostra o layout de uma estrutura **ADRLIST** . 
   
-**Componentes ADRLIST**
+**ADRLIST components**
   
 ![Componentes ADRLIST] (media/amapi_18.gif "Componentes ADRLIST")
   

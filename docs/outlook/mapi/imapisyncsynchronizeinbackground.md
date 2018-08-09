@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767311"
 ---
-# <a name="imapisync--synchronizeinbackground"></a>IMAPISync: SynchronizeInBackground
+# <a name="imapisync--synchronizeinbackground"></a>IMAPISync : SynchronizeInBackground
 
  
   
@@ -33,7 +33,7 @@ HRESULT SynchronizeInBackground (
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _psibpb_
   
@@ -49,7 +49,7 @@ S_OK
 
 
 
-[IMAPISync: IUnknown](imapisynciunknown.md)
+[IMAPISync : IUnknown](imapisynciunknown.md)
   
 [MAPISIB](mapisib.md)
 

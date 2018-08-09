@@ -1,11 +1,11 @@
 ---
-title: Estado do cabeçalho de mensagem de download
+title: Baixar o estado do cabeçalho da mensagem
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7407b6606634ecc0151f582e4481ecbff5e7dc57
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766443"
 ---
-# <a name="download-message-header-state"></a>Estado do cabeçalho de mensagem de download
+# <a name="download-message-header-state"></a>Baixar o estado do cabeçalho da mensagem
 
   
   

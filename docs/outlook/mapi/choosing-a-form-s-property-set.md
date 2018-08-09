@@ -38,5 +38,5 @@ Para obter mais informações sobre como definir propriedades personalizadas, co
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

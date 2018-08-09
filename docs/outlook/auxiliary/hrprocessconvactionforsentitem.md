@@ -34,7 +34,7 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
     DWORD dwFlags)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pmbinStoreEid_
   
@@ -63,7 +63,7 @@ _dwFlags_
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
 |E_INVALIDARG  <br/> | _dwFlags_ contém um sinalizador desconhecido.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Categorias são consideradas informações pessoais e não devem ser transmitidas fora da caixa de correio do usuário. Portanto, não chame **HrProcessConvActionForSentItem** em um item de email não enviados. Em vez disso, enviar o item e, em seguida, chame **HrProcessConvActionForSentItem** na cópia arquivada. A cópia arquivada pode ser armazenada na pasta Itens enviados, ou um local equivalente. 
   

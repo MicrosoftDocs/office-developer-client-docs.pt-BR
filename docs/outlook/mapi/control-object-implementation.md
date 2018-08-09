@@ -1,5 +1,5 @@
 ---
-title: Implementação de objeto do controle
+title: Implementação do objeto de controle
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766318"
 ---
-# <a name="control-object-implementation"></a>Implementação de objeto do controle
+# <a name="control-object-implementation"></a>Implementação do objeto de controle
 
   
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2cf5ff69e8453b2da26fd5044823ddf4f99a9f45
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cFlags**
   
@@ -62,7 +62,7 @@ MAPI_UNRESOLVED
   
 > A entrada não foi resolvida. Outros contêineres do catálogo de endereços devem tentar resolver o destinatário.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **FLAGLIST** é usada como um parâmetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada um dos destinatários ser resolvido está incluída em uma estrutura [ADRLIST](adrlist.md) . Como o contêiner de catálogo de endereços tenta resolver cada destinatário, ele define o sinalizador apropriado na entrada correspondente na estrutura **FLAGLIST** . Todas as entradas na estrutura de **FLAGLIST** estão na mesma ordem como as entradas na estrutura de **ADRLIST** . Isso facilita associar a um destinatário de uma configuração de sinalizador. 
   
@@ -72,7 +72,7 @@ A estrutura **FLAGLIST** é usada como um parâmetro para [IABContainer:: Resolv
 
 [ADRLIST](adrlist.md)
   
-[IABContainer:: ResolveNames](iabcontainer-resolvenames.md)
+[IABContainer::ResolveNames](iabcontainer-resolvenames.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

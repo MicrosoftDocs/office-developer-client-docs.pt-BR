@@ -55,7 +55,7 @@ Quando é hora de gerar uma notificação, provedores de serviços de executam q
   
 A ilustração a seguir mostra a comunicação entre os objetos de coletor de eventos de aviso, o aviso de objetos source e MAPI. MAPI está envolvido somente quando a fonte de advise chama os métodos de **IMAPISupport** para suporte de notificação. 
   
-**Chamadas de notificação de evento**
+**Event notification calls**
   
 ![Chamadas de notificação de evento] (media/amapi_51.gif "Chamadas de notificação de evento")
   

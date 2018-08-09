@@ -29,7 +29,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 |Marca de propriedade:  <br/> |0x00220102  <br/> |
 |Access:  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use o **PROP_ACCT_PREFERENCES_UID** em chamadas para [IMAPISupport::OpenProfileSection](http://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) para recuperar a seção de perfil que contém as preferências de conta. 
   

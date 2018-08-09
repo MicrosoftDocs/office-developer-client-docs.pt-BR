@@ -36,7 +36,7 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -64,7 +64,7 @@ S_OK
   
 > A chamada foi bem-sucedida e o objeto de status tiver sido aberto.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de catálogo de endereços implementam o método **OpenStatusEntry** para conceder acesso ao objeto seus status. Todos os provedores de catálogo de endereços são necessários para implementar um objeto de status que suporta, no mínimo, o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . Para obter mais informações, consulte [Implementação do objeto de Status](status-object-implementation.md).
   
@@ -72,11 +72,11 @@ Provedores de catálogo de endereços implementam o método **OpenStatusEntry** 
 
 
 
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   
-[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)
+[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)
   
 [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

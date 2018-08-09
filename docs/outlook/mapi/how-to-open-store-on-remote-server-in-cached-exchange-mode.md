@@ -92,5 +92,5 @@ HRESULT HrRemoteMessageStore(
 
 - [Sobre as adições de MAPI](about-mapi-additions.md) 
 - [Constantes MAPI](mapi-constants.md)
-- [Acesso um repositório no Outlook Remote Server quando está no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Acessar um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ff8f13a1dcf678e1d05b6e8e083597156422b83d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT CopyProps(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpIncludeProps_
   
@@ -129,7 +129,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > O tipo de propriedade não é o tipo esperado pelo chamador.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIProp::CopyProps** copia ou move propriedades selecionadas do objeto atual para um objeto de destino. **CopyProps** é usado principalmente para responder e encaminhar mensagens, onde apenas algumas das propriedades da mensagem original com a resposta de viagem ou encaminhadas a cópia. 
   
@@ -180,7 +180,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
@@ -192,25 +192,25 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônico de PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propriedade canônica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propriedade canônico de PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propriedade canônica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
-[Propriedade canônico de PidTagObjectType](pidtagobjecttype-canonical-property.md)
+[Propriedade canônica PidTagObjectType](pidtagobjecttype-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   
 [SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

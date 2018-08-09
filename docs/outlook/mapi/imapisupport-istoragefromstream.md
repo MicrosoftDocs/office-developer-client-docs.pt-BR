@@ -36,7 +36,7 @@ HRESULT IStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUnkIn_
   
@@ -76,7 +76,7 @@ S_OK
   
 > O objeto de armazenamento foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::IStorageFromStream** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **IStorageFromStream** para criar um objeto de armazenamento a ser usado para abrir propriedades específicas. Provedores de serviço que tem sua própria implementação da interface [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) não precisará chamar **IStorageFromStream**. 
   

@@ -23,7 +23,7 @@ Como outros provedores de serviço MAPI, armazenamentos de mensagem são bibliot
   
 A ilustração a seguir mostra a arquitetura básica de repositório de mensagem MAPI.
   
-**Arquitetura de armazenamento de mensagem**
+**Message store architecture**
   
 ![Arquitetura de armazenamento de mensagens] (media/storearc.gif "Arquitetura de armazenamento de mensagens")
   

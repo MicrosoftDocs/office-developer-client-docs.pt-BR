@@ -33,7 +33,7 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -53,5 +53,5 @@ Em sua implementação do método **desligamento** , execute as tarefas que voc�
 
 
 
-[IABProvider: IUnknown](iabprovideriunknown.md)
+[IABProvider : IUnknown](iabprovideriunknown.md)
 

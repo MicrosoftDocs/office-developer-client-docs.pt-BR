@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 926fef0e1b2f905d510102e69afb667414e6cce3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -86,7 +86,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O provedor de catálogo de endereços não pode manipular o identificador de entrada passado _lpEntryID_.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de catálogo de endereços implementam o método **IABLogon::Advise** para registrar o chamador para ser notificado quando ocorre uma alteração a um objeto em um dos seus contêineres. Os chamadores podem registrar para notificações sobre todo contêineres, listas de distribuição ou mensagens de usuários. 
   
@@ -130,5 +130,5 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 [NOTIFICAÇÃO](notification.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

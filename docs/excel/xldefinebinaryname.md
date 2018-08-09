@@ -10,7 +10,7 @@ keywords:
 - função xlDefineBinaryName [excel 2007]
 localization_priority: Normal
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 14515cc262ea398a9f200c0de3a1f6b64c758b3d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Usado para alocar armazenamento persistente para um **xltypeBigData** **XLOPER**
 Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxName_ (**xltypeStr**)
   
@@ -47,7 +47,7 @@ Se o argumento _pxData_ não for especificado (**xltypeMissing**), a alocação 
 [xlGetBinaryName](xlgetbinaryname.md)
 
 
-[Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
 [Problemas conhecidos no desenvolvimento de XLL do Excel](known-issues-in-excel-xll-development.md)
 

@@ -62,6 +62,6 @@ Se o método **OpenEntry** retorna o código de erro **MAPI_E_INTERFACE_NOT_SUPP
 ## <a name="see-also"></a>Confira também
 
 - [Sobre as adições de MAPI](about-mapi-additions.md) 
-- [Acesso um repositório no Outlook Remote Server quando está no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
-- [Abrir um repositório no Outlook Remote Server quando estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Acessar um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Abrir um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 

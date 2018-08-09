@@ -18,9 +18,9 @@ ms.locfileid: "19765088"
 Divide um número por outro.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  *dividendo*  /  *divisor* 
   
@@ -34,7 +34,7 @@ Retorna o tipo de dados do argumento com a prioridade mais alta.
   
 Se um número inteiro *dividendo* é dividido por um número inteiro *divisor* , o resultado é um inteiro que tenha qualquer parte fracional do resultado truncado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor real retornado pelo / operador é o quociente da primeira expressão dividido pela segunda expressão.
   

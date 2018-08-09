@@ -30,11 +30,11 @@ A função de **adesão** contém os seguintes argumentos
 |:-----|:-----|
 | *Valor*  <br/> |Uma expressão.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se todos os argumentos forem NULL, **adesão** retornará NULL. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A expressão a seguir é usada como a regra de validação para uma tabela. A expressão garante que as entradas são feitas nos campos nome, último nome, Email, telefone celular, trabalho, Home telefone, e companhia telefônica antes que um registro seja confirmado. Se qualquer um dos campos listados forem deixadas em branco, a função de **adesão** retornará Null, o que viola a regra de validação. 
   

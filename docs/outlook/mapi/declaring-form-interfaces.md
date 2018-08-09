@@ -1,5 +1,5 @@
 ---
-title: Declarando Interfaces de formulário
+title: Declarar interfaces de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766372"
 ---
-# <a name="declaring-form-interfaces"></a>Declarando Interfaces de formulário
+# <a name="declaring-form-interfaces"></a>Declarar interfaces de formulário
 
   
   
@@ -45,5 +45,5 @@ public:
 
 
 
-[Escrevendo códigos de servidor do formulário](writing-form-server-code.md)
+[Gravar um código de servidor de formulário](writing-form-server-code.md)
 

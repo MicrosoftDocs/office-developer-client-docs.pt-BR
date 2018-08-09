@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3d67d71effde87711e3be9aca1b979627acda37d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpcbEntryID_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O identificador de entrada do PAB foi retornado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes chamar o método **GetPAB** para recuperar o identificador de entrada do contêiner designado como o PAB. Se um PAB não tiver sido estabelecido no perfil, MAPI selecionará como o PAB o primeiro contêiner na hierarquia de catálogo de endereços que permite modificações. 
   
@@ -70,9 +70,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

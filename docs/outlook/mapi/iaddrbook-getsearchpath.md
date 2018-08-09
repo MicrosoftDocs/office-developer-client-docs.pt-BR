@@ -34,7 +34,7 @@ HRESULT GetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ S_OK
   
 > O caminho de pesquisa foi recuperado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e clientes chame o método de **GetSearchPath** para obter o caminho de pesquisa que é usado para resolver nomes com o método **ResolveName** . Normalmente, os clientes chame o método de [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) para estabelecer um caminho de pesquisa do contêiner no perfil antes de que ligarem **GetSearchPath** para recuperá-la. No entanto, chamar **SetSearchPath** é opcional. 
   
@@ -78,5 +78,5 @@ Após a primeira chamada para **SetSearchPath**, as chamadas subsequentes **SetS
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

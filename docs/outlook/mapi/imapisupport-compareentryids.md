@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > Um ou ambos os identificadores de entrada especificados como parâmetros não fazem referência a objetos válidos, possivelmente porque eles estão atualmente não abertas e não está disponível.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::CompareEntryIDs** é implementado para endereço livro e mensagem provedor suporte objetos store. **CompareEntryIDs** compara dois identificadores de entrada que pertencem a um provedor de serviços único para determinar se eles se referem ao mesmo objeto. MAPI extrai a parte [MAPIUID](mapiuid.md) de identificadores de entrada para determinar o responsável para os objetos do provedor de serviço. MAPI, em seguida, chama o método de **CompareEntryIDs** do seu objeto logon para realizar a comparação. 
   

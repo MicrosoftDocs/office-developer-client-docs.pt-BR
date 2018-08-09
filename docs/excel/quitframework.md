@@ -10,7 +10,7 @@ keywords:
 - função quitframework
 localization_priority: Normal
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5c4b122b200d9de0cf098d2bc9e2fbd887ad9ff3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,11 +28,11 @@ Função da biblioteca de Framework que uninitializes a biblioteca de Framework,
 short WINAPI QuitFramework(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Essa função não retorna um valor.
   
@@ -40,5 +40,5 @@ Essa função não retorna um valor.
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

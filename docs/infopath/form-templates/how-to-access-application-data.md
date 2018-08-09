@@ -1,5 +1,5 @@
 ---
-title: Dados de aplicativo do Access
+title: Acessar dados de aplicativo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765591"
 ---
-# <a name="access-application-data"></a>Dados de aplicativo do Access
+# <a name="access-application-data"></a>Acessar dados de aplicativo
 
 O InfoPath modelo de objeto de código gerenciado fornece objetos e coleções que podem ser usadas para acessar informações sobre o aplicativo do InfoPath, incluindo informações relacionadas ao documento XML subjacente de um formulário e o arquivo de definição (. xsf) do formulário. Esses dados são acessados através do objeto de nível superior na hierarquia de modelos de objeto do InfoPath, que é instanciado, usando a classe de [aplicativo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   
 Em um projeto do InfoPath código gerenciado formulário modelo criado usando o Visual Studio 2012, você pode usar a **Este** (c#) ou palavra-chave **Me** (Visual Basic) para acessar uma instância da classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) que representa o aplicativo atual do InfoPath, que podem ser usados para acessar as propriedades e métodos da classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ### <a name="displaying-the-application-name-version-and-language-id"></a>Exibir o nome do aplicativo, versão e ID de idioma
 

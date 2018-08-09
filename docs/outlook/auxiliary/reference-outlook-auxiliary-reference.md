@@ -24,6 +24,6 @@ Esta seção inclui conteúdo de referência para as seguintes APIs na referênc
     
 - [Referência da API de disponibilidade](free-busy-api-reference.md)
     
-- [APIs de exportadas do Outlook](outlook-exported-apis.md)
+- [APIs exportadas do Outlook](outlook-exported-apis.md)
     
 

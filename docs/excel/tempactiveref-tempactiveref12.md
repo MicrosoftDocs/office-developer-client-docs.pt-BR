@@ -11,7 +11,7 @@ keywords:
 - função tempactiveref [excel 2007], função TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5c2e82dcaf9bf562048b5d2582ece1bd262b47eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _rwFirst_
   
@@ -56,7 +56,7 @@ Argumentos de coluna estão baseado em zero, portanto, uma coluna é passada com
 
 Retorna uma referência de **xltypeRef** externo para bloco retangular de células passados. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa a função **TempActiveRef12** para selecionar A105:C110 de células. 
   
@@ -74,5 +74,5 @@ short WINAPI TempActiveRefExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

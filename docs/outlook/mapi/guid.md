@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 08ecb718572944db07c2888e0aae1464bd5c0f98
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **Data1**
   
@@ -60,7 +60,7 @@ typedef struct _GUID
   
 > Uma matriz de caracteres não assinados.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  Estruturas **GUID** são usadas na MAPI, da seguinte maneira: 
   

@@ -102,5 +102,5 @@ Este tópico descreve os procedimentos para adicionar manipuladores de eventos p
 
 
 
-[Passo a passo: Criando um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
+[Passo a passo: criar um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
 

@@ -37,7 +37,7 @@ ULONG FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpKey_
   
@@ -105,7 +105,7 @@ S_OK
   
 > O registro de notificação foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::Subscribe** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços chamarem **Subscribe** de um dos seus métodos **Advise** para permitir que o MAPI gerenciar as notificações. 
   

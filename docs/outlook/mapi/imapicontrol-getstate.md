@@ -34,7 +34,7 @@ HRESULT GetState(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ S_OK
   
 > O estado do controle botão foi recuperado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços de implementam o método **IMAPIControl::GetState** para fornecer MAPI com o estado de um controle de botão. Se o botão estiver habilitado, ele pode responder a um clique do mouse ou pressionamento de tecla. Se ele estiver desabilitado, o botão aparece esmaecido e não responde a um clique do mouse ou pressionamento de tecla. 
   
@@ -70,5 +70,5 @@ Para obter mais informações sobre como implementar **GetState** e o outro [IMA
 
 [IMAPIControl::Activate](imapicontrol-activate.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

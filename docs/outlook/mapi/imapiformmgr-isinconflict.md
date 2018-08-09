@@ -35,7 +35,7 @@ HRESULT IsInConflict(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulMessageFlags_
   
@@ -63,7 +63,7 @@ S_FALSE
   
 > O formulário manipula conflitos sua própria mensagem ou a mensagem para os quais informações passadas não está em conflito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::IsInConflict** para descobrir se a determinado formulário não lidar com conflitos sua própria mensagem. **IsInConflict** verifica a bitmasks nos parâmetros _ulMessageFlags_ e _ulMessageStatus_ a presença de um sinalizador de conflito. Se for definido um sinalizador de conflito, **IsInConflict** resolva a classe de mensagem passada no parâmetro _szMessageClass_ e retorna S_OK se o formulário não manipular seus próprio conflitos. **IsInConflict** retorna S_FALSE se o formulário manipula o seus próprio conflitos. 
   
@@ -79,9 +79,9 @@ Aplicativos clientes geralmente têm que lidar com conflitos quando os aplicativ
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   
-[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

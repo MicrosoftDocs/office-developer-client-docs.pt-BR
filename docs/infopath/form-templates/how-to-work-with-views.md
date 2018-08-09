@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com modos de exibição
+title: Trabalhar com Modos de Exibição
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765637"
 ---
-# <a name="work-with-views"></a>Trabalhar com modos de exibição
+# <a name="work-with-views"></a>Trabalhar com Modos de Exibição
 
 Ao trabalhar com um modelo de formulário do InfoPath, você pode escrever código para acessar os modos de exibição do formulário e, em seguida, executar uma variedade de ações nos dados que contêm os modos de exibição. O modelo de objeto do InfoPath fornecido pelo access [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace oferece suporte aos modos de exibição de um formulário utilizando os membros da classe [modo de exibição](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) . 
   

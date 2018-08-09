@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 656e5c5532edfc6c791ca30aa30f4c4d96847295
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT OpenProperty(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulPropTag_
   
@@ -99,7 +99,7 @@ MAPI_E_INVALID_PARAMETER
   
 > O tipo de propriedade na marca é definido como PT_UNSPECIFIED.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIProp::OpenProperty** fornece acesso a uma propriedade por meio de uma interface específica. **OpenProperty** é uma alternativa para os métodos [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPIProp::SetProps](imapiprop-setprops.md) . Quando **GetProps** ou **SetProps** falha porque a propriedade é muito grande ou muito complexa, chame **OpenProperty**. **OpenProperty** geralmente é utilizado para acessar as propriedades do tipo PT_OBJECT. 
   
@@ -110,7 +110,7 @@ Para acessar os anexos de mensagens, abra a propriedade **PR_ATTACH_DATA_OBJ** (
 |**Tipo de anexo**|**Identificador de interface usar**|
 |:-----|:-----|
 |Binário  <br/> |IID_IStream  <br/> |
-|Cadeia de caracteres  <br/> |IID_IStream  <br/> |
+|String  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
@@ -145,8 +145,8 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
 - [IMAPIProp::SetProps](imapiprop-setprops.md)
 - [IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
-- [IMAPITable: IUnknown](imapitableiunknown.md)
-- [IMAPIProp: IUnknown](imapipropiunknown.md)
+- [IMAPITable : IUnknown](imapitableiunknown.md)
+- [IMAPIProp : IUnknown](imapipropiunknown.md)
 - [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
-- [Abertura de um anexo](opening-an-attachment.md)
+- [Abrir um anexo](opening-an-attachment.md)
 

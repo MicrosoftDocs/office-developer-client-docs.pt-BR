@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > Um ou ambos os identificadores de entrada passados com os parâmetros _lpEntryID1_ ou _lpEntryID2_ não são reconhecidos pelas qualquer provedor de catálogo de endereços. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos cliente e o serviço provedores chamada do método **CompareEntryIDs** para comparar os dois identificadores de entrada que pertence a um provedor de catálogo de endereço para determinar se eles se referem ao mesmo objeto. **CompareEntryIDs** é útil porque um objeto pode ter mais de um identificador de entrada válida. Essa situação poderá ocorrer, por exemplo, depois que uma nova versão de um provedor de catálogo de endereços é instalada. 
   
@@ -86,5 +86,5 @@ Se os identificadores de dois entrada se referir ao mesmo objeto, **CompareEntry
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

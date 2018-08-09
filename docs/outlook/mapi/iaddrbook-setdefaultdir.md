@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 00d5b2bfc6b0c024f0ef12ce19fed90ef0af6721
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT SetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O contêiner de catálogo de endereços padrão foi definido com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e clientes chame o método de **SetDefaultDir** para estabelecer um novo contêiner de catálogo de endereços padrão. O contêiner padrão é o contêiner em que o usuário vê exibido no catálogo de endereços quando o catálogo de endereços é aberto pela primeira vez. **SetDefaultDir** salva o contêiner padrão como uma entrada no perfil. O contêiner permanece como padrão até que outra chamada para **SetDefaultDir** é feita na mesma sessão ou em outra sessão, ou o contêiner é removido. 
   
@@ -77,7 +77,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPILogonEx](mapilogonex.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

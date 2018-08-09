@@ -35,7 +35,7 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _clsidForm_
   
@@ -55,7 +55,7 @@ S_OK
   
 > O objeto de classe de fábrica foi retornado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormFactory::CreateClassFactory** para obter um alocador de classe de um formulário específico. O alocador de classe é usado para criar instâncias de um formulário que processa mensagens de uma classe específica e controlar o acesso a essas instâncias. 
   
@@ -71,5 +71,5 @@ Você pode ter uma implementação de fábrica de classe única que cria instân
 
 
 
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

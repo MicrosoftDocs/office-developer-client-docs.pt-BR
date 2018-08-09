@@ -34,7 +34,7 @@ HRESULT GetSvcConfigSupportObj(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O objeto de configuração de suporte foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::GetSvcConfigSupportObj** é implementado para todos os objetos de suporte. Provedores de serviços de chamarem **GetSvcConfigSupportObj** para criar um objeto de configuração de suporte a serem passados para uma função de ponto de entrada de serviço de mensagens. 
   
@@ -60,13 +60,13 @@ Uma função de ponto de entrada de serviço de mensagem se baseia em protótipo
 
 
 
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   
-[IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md)
+[IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   

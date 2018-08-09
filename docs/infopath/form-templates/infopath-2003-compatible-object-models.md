@@ -123,8 +123,8 @@ Internamente, cada interface e o membro no assembly SemiTrust tem seu atributo *
   
 ## <a name="see-also"></a>Confira também
 
-- [Tarefas comuns para o desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
+- [Tarefas comuns de desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
 - [Sobre o modelo de segurança para modelos de formulário com código](about-the-security-model-for-form-templates-with-code.md)
-- [Criando modelos de formulário usando o modelo de objeto do InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
-- [Compreendendo o modelo de objeto do InfoPath 2003](understanding-the-infopath-2003-object-model.md)
+- [Criar modelos de formulário usando o modelo de objeto do InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+- [Compreender o modelo de objeto do InfoPath 2003](understanding-the-infopath-2003-object-model.md)
 

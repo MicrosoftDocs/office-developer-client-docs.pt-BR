@@ -1,5 +1,5 @@
 ---
-title: Criar um controle ActiveX que pode vincular dados de formulário do InfoPath
+title: Criar um controle ActiveX que pode associar-se a dados de formulário do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765594"
 ---
-# <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Criar um controle ActiveX que pode vincular dados de formulário do InfoPath
+# <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Criar um controle ActiveX que pode associar-se a dados de formulário do InfoPath
 
 Você pode hospedar controles ActiveX em formulários do InfoPath que foram projetados para ser aberto no editor do InfoPath. Esses controles podem ser preexistente (com algumas restrições) ou podem ser escritos especificamente para o InfoPath.
   

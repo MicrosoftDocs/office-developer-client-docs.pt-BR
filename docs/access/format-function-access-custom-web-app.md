@@ -1,5 +1,5 @@
 ---
-title: Função Format (aplicativo da web personalizado do Access)
+title: Função Format (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765091"
 ---
-# <a name="format-function-access-custom-web-app"></a>Função Format (aplicativo da web personalizado do Access)
+# <a name="format-function-access-custom-web-app"></a>Função Format (aplicativo Web personalizado do Access)
 
 Retorna um valor formatado de acordo com um padrão especificado.
   
@@ -32,7 +32,7 @@ A função **Format** contém os seguintes argumentos.
 | *Expressão*  <br/> |Expressão de um tipo de dados com suporte para formatar.  <br/> |
 | *Format*  <br/> | Um formato padrão. O argumento format deve conter uma cadeia de caracteres de formato válido, como uma cadeia de caracteres de formato padrão (por exemplo, "C" ou "D"), ou como um padrão de caracteres personalizados para datas e os valores numéricos (por exemplo, "MMMM dd, yyyy (dddd)"). Para obter mais informações, consulte comentários.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para o parâmetro *Format* , você pode passar cadeias de caracteres que correspondam a qualquer um dos seguintes padrões: 
   

@@ -1,5 +1,5 @@
 ---
-title: Responsabilidades de nomenclatura de cliente
+title: Responsabilidades de nomenclatura do cliente
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a97d108b2f36b40e5f8818ea81c138d7384ce9b0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766295"
 ---
-# <a name="client-naming-responsibilities"></a>Responsabilidades de nomenclatura de cliente
+# <a name="client-naming-responsibilities"></a>Responsabilidades de nomenclatura do cliente
 
   
   

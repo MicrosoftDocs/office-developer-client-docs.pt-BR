@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMsgList_
   
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A chamada foi bem-sucedida, mas nem todas as entradas foram copiadas ou movidas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::CopyMessages** copia ou mova mensagens para outra pasta. 
   
@@ -128,5 +128,5 @@ Quando **IMAPIFolder::CopyMessages** é impossível concluir, não presuma que f
 
 
 
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

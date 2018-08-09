@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 33351235db2a9a3f9d9b67f59e8356a0fa8abfa8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -72,7 +72,7 @@ MAPI_E_INVALID_PARAMETER
   
 > O membro **cValues** da estrutura **SPropTagArray** apontado pela _lpPropTagArray_foi passado zero.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIProp::GetProps** obtém os valores de propriedade de uma ou mais propriedades de um objeto. 
   
@@ -190,12 +190,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SPropValue](spropvalue.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Recuperar as propriedades MAPI](retrieving-mapi-properties.md)
   
-[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+[Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

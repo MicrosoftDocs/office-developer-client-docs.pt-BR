@@ -448,7 +448,7 @@ Os tipos de conteúdo que pode ser arquivado incluem itens do Outlook e anotaç�
 
 Esta seção descreve as propriedades da interface do **aplicativo** . 
   
-|**Property**|**Descrição**|
+|**Propriedade**|**Descrição**|
 |:-----|:-----|
 |**Windows** <br/> |Fornece acesso aos usuários janelas abertas do OneNote. Essa propriedade permite que os usuários enumerar toda o conjunto de janelas do OneNote e modificar determinadas propriedades de janela. Para obter mais informações, consulte [Interfaces do Windows](window-interfaces-onenote.md).  <br/> |
 |**COMAddIns** <br/> |Retorna a coleção **COMAddIns** para o OneNote. Essa coleção contém todos os suplementos COM estão disponíveis para o OneNote. A propriedade **Count** da coleção **COMAddins** retorna o número de suplementos de COM disponíveis. Para obter mais informações, consulte o objeto [COMAddIns](http://msdn.microsoft.com/en-us/library/office/ff865489.aspx) .  <br/> |
@@ -479,5 +479,5 @@ Esta seção descreve os eventos da interface do aplicativo.
    
 ## <a name="see-also"></a>Confira também
 
-- [Referência para desenvolvedores do OneNote](onenote-developer-reference.md)
+- [Referência do desenvolvedor do OneNote](onenote-developer-reference.md)
 

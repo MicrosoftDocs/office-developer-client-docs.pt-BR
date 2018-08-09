@@ -1,5 +1,5 @@
 ---
-title: Configurando um serviço de mensagem
+title: Configurar um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766287"
 ---
-# <a name="configuring-a-message-service"></a>Configurando um serviço de mensagem
+# <a name="configuring-a-message-service"></a>Configurar um serviço de mensagens
 
   
   

@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (formulário 2)
+title: xlfUnregister (Formulário 2)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e0154e380b65b8c57e7e96a98ef131e26b49e203
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765488"
 ---
-# <a name="xlfunregister-form-2"></a>xlfUnregister (formulário 2)
+# <a name="xlfunregister-form-2"></a>xlfUnregister (Formulário 2)
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -36,17 +36,17 @@ Chamado no formulário 2, essa função força um DLL ou código do recurso a se
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxModuleText_ (**xltypeStr**)
   
 O nome da DLL.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se tiver êxito, retornará **TRUE** (**xltypeBool**). Se for bem sucedida, retornará **FALSE**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 > [!NOTE] 
 > Não chame essa forma da função da sua implementação do [xlAutoClose](xlautoclose.md) em uma tentativa de cancelar o registro de todos os recursos da DLL com chamada de uma função simples. Isso leva a chamada recursiva de **xlAutoClose** e um estouro de pilha. 
@@ -59,6 +59,6 @@ Se você especificou o argumento _pxFunctionText_ de **xlfRegister**, ao registr
 
 - [xlfRegister (Form 1)](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (formulário 1)](xlfunregister-form-1.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister (Formulário 1)](xlfunregister-form-1.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

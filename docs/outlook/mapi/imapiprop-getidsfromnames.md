@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT GetIDsFromNames(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cPropNames_
   
@@ -80,7 +80,7 @@ MAPI_W_ERRORS_RETURNED
   
 > Chamada bem-sucedida, mas um ou mais identificadores de propriedade não puderam ser retornados. O tipo de propriedade correspondentes para cada propriedade indisponível é definido para **PT_ERROR** e seu identificador como zero. Quando esse aviso é retornado, lidar com a chamada como bem sucedida. Para testar esse aviso, use a macro **HR_FAILED** . Consulte [usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIProp::GetIDsFromNames** recupera uma matriz de marcas de propriedade que armazenam os identificadores de propriedade para um ou mais propriedades nomeadas. **IMAPIProp::GetIDsFromNames** pode ser chamado para fazer o seguinte: 
   
@@ -132,12 +132,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIUID](mapiuid.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [MAPI denominada propriedades](mapi-named-properties.md)
   
-[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+[Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

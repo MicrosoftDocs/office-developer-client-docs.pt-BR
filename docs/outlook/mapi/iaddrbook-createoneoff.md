@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fefd81a7d6cdfda24df93ec928cd3305cb8ef8be
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT CreateOneOff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszName_
   
@@ -78,7 +78,7 @@ S_OK
   
 > O identificador de entrada únicos foi criado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Clientes chamar o método **CreateOneOff** para criar um identificador de entrada para um destinatário único — um destinatário que não pertençam a qualquer um dos contêineres de qualquer um dos provedores de catálogo de endereços atualmente carregado. Destinatários únicos podem ter qualquer tipo de endereço que é suportado por um dos provedores de catálogo de endereços ativo para a sessão. 
   
@@ -102,7 +102,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

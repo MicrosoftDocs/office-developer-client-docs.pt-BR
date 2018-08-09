@@ -10,7 +10,7 @@ keywords:
 - função xlautoadd [excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ae0b4ae2d5f5fc58c3e18ffa9d79ec4128cb4639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -32,19 +32,19 @@ Excel não exige um XLL implementar e exportar essa função.
 int WINAPI xlAutoAdd(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
-Essa função não assume nenhum argumento.
+Essa função não usa argumentos.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 A implementação dessa função deve retornar 1. (**int**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use esta função se não houver nada que seu XLL precisa fazer quando ele é adicionado pelo gerente de suplemento.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Consulte `\SAMPLES\EXAMPLE\EXAMPLE.C` e `\SAMPLES\GENERIC\GENERIC.C` por exemplo implementações dessa função. O código a seguir é de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
@@ -67,5 +67,5 @@ int WINAPI xlAutoAdd(void)
 [xlAutoRemove](xlautoremove.md)
 
 
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Acessar fontes de dados externos
+title: Acessar fontes de dados externas
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765608"
 ---
-# <a name="access-external-data-sources"></a>Acessar fontes de dados externos
+# <a name="access-external-data-sources"></a>Acessar fontes de dados externas
 
 Ao trabalhar com um modelo de formulário do InfoPath, você pode escrever código para acessar fontes de dados secundária do formulário e manipular os dados que elas contêm. 
   
@@ -133,5 +133,5 @@ MessageBox.Show("Connection string: " &amp; myADOConnection.Connection)
 
 
 
-[Criando modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
+[Criar modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
 

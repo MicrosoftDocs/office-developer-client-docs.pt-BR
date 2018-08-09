@@ -1,5 +1,5 @@
 ---
-title: Criando e armazenando mensagens em repositórios de mensagem
+title: Criar e armazenar mensagens em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766354"
 ---
-# <a name="creating-and-storing-messages-in-message-stores"></a>Criando e armazenando mensagens em repositórios de mensagem
+# <a name="creating-and-storing-messages-in-message-stores"></a>Criar e armazenar mensagens em repositórios de mensagens
 
   
   
@@ -47,5 +47,5 @@ Algumas propriedades em objetos de mensagem tem semântica especial para aplicat
 
 
 
-[Implementando mensagens em repositórios de mensagem](implementing-messages-in-message-stores.md)
+[Implementar mensagens em repositórios de mensagens](implementing-messages-in-message-stores.md)
 

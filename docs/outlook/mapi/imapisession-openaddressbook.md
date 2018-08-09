@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dcde242f5f2e956d1926d6914431008383f5aa55
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OpenAddressBook(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -68,7 +68,7 @@ MAPI_W_ERRORS_RETURNED
   
 > A chamada foi bem-sucedida, mas os contêineres de um ou mais provedores de catálogo de endereços não pôde ser abertos. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::OpenAddressBook** abre o catálogo de endereços integrada de MAPI, uma coleção dos contêineres de todos os provedores de catálogo de endereços no perfil de nível superior. O ponteiro retornado no parâmetro _lppAdrBook_ fornece mais acesso ao conteúdo do catálogo de endereços. Isso permite que o chamador realizar tarefas como contêineres individuais de abertura, os usuários de mensagens de localização e exibindo caixas de diálogo comuns do endereço. 
   
@@ -90,13 +90,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
 [IMAPISession::GetLastError](imapisession-getlasterror.md)
   
 [MAPIERROR](mapierror.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

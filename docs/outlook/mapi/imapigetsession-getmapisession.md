@@ -33,7 +33,7 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lppSession_
   
@@ -43,8 +43,8 @@ HRESULT GetMAPISession(
 
 
 
-[IMAPIGetSession: IUnknown](imapigetsessioniunknown.md)
+[IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
 
 
-[Visão geral do objeto de suporte](support-object-overview.md)
+[Visão geral de objetos de suporte](support-object-overview.md)
 

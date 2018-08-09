@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 562fff0654def6cf2f05aa5f0b95a4df243c7abf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes que deve ser alocada para uma nova estrutura [MTSID](
 CbNewMTSID (_cb)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __cb_
   
@@ -49,5 +49,5 @@ CbNewMTSID (_cb)
 [MTSID](mtsid.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

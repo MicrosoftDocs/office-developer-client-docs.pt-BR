@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 02d2b136ed1437ba53ce1e54a202d70a48b2abe9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767165"
 ---
-# <a name="imapiprop--iunknown"></a>IMAPIProp: IUnknown
+# <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
@@ -53,7 +53,7 @@ Permite que os clientes, provedores de serviços e MAPI trabalhar com propriedad
 |[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fornece os nomes de propriedades que correspondem a um ou mais identificadores de propriedade.  <br/> |
 |[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fornece os identificadores de propriedade que correspondem a um ou mais nomes de propriedade.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **IMAPIProp** é a interface de base para as seguintes interfaces: 
   

@@ -1,5 +1,5 @@
 ---
-title: Acessando objetos usando a sessão
+title: Acessar objetos usando a sessão
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ee20e73e5bc7bb6854b956da541d3a318a267d0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766132"
 ---
-# <a name="accessing-objects-by-using-the-session"></a>Acessando objetos usando a sessão
+# <a name="accessing-objects-by-using-the-session"></a>Acessar objetos usando a sessão
 
   
   
@@ -41,7 +41,7 @@ Com o método **OpenEntry** e um identificador de entrada válida, você pode ab
 |Sessão  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
 |Armazenamento de mensagens  <br/> |[IMsgStore::OpenEntry](imsgstore-openentry.md) <br/> |
 |Objeto de logon do provedor de repositório de mensagem  <br/> |[IMSLogon::OpenEntry](imslogon-openentry.md) <br/> |
-|Pasta  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
+|Folder  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
 |Objeto de suporte  <br/> |[IMAPISupport::OpenEntry](imapisupport-openentry.md) <br/> |
    
 Alguns métodos **OpenEntry** exigem um identificador de entrada do objeto a ser aberto, como o **IMAPISession::OpenEntry**; outros métodos permitem NULL deve ser especificado. Um identificador de entrada NULL será interpretado forma diferente, dependendo do objeto. Por exemplo, quando você chama **IAddrBook::OpenEntry** com um identificador de entrada NULL, MAPI abre o contêiner de raiz do catálogo de endereços. Método de **OpenEntry** da loja mensagem se comporta da mesma forma; ele abre a pasta raiz do armazenamento de mensagens. **IMAPIContainer::OpenEntry**, implementada por pastas e contêineres do catálogo de endereços, deverá retornar MAPI_E_INVALID_PARAMETER ou no contêiner de raiz, dependendo do implementador. 

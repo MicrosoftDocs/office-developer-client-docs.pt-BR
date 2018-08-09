@@ -27,12 +27,12 @@ Representa o número da porta para uma caixa de correio geral na Internet.
 |Marca de propriedade:  <br/> |0x01040003  <br/> |
 |Access:  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um exemplo é 110 para contas POP.
   
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 

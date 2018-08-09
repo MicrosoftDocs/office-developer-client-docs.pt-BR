@@ -28,14 +28,14 @@ A função **PartData** contém os seguintes argumentos.
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *DatePart*  <br/> |A parte de *Data* (um valor de data ou hora) para o qual será retornado um número inteiro. Consulte a seção de comentários para a lista de abreviações válidas.  <br/> |
+| *ParteDeData*  <br/> |A parte de *Data* (um valor de data ou hora) para o qual será retornado um número inteiro. Consulte a seção de comentários para a lista de abreviações válidas.  <br/> |
 | *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir lista todos os argumentos *DatePart* válidos. 
   
-|***DatePart***|
+|***ParteDeData***|
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |

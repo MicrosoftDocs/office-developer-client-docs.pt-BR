@@ -8,7 +8,7 @@ keywords:
 - xlfgetname
 localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 63bfc6e94950a621c2367b2d35d25e3de48b344f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -26,7 +26,7 @@ Retorna a definição de um nome como ele aparece na coluna da caixa de diálogo
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxNameText_ (**xltypeStr**)
   
@@ -36,13 +36,13 @@ _pxInfoType_ (**xltypeBool**)
   
 Especifica o tipo de informações que serão retornadas sobre o nome. Se **Falso** ou omitido, a definição é retornada. Se **TRUE**, retorna **TRUE** se o nome está definido apenas da planilha, **FALSE** se o nome está definido para a pasta de trabalho inteira. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 _pxRes_ (**xltypeStr**, **xltypeBool**ou **xltypeErr**)
   
 Dependendo do valor passado para _pxInfoType_, retorna a definição do nome especificado (**xltypeStr**) ou **TRUE** ou **FALSE** (**xltypeBool**).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a caixa de seleção de **proteger a planilha e o conteúdo de células bloqueadas** tiver sido selecionada na caixa de diálogo **Proteger planilha** para proteger a pasta de trabalho que contém o nome, **xlfGetName** retorna o `#N/A` o valor de erro. Para ver a caixa de diálogo **Proteger planilha** , clique em **Proteger planilha** na seção **alterações** da guia **revisão** . 
   
@@ -57,5 +57,5 @@ A tabela a seguir lista os três exemplos dos valores retornados por uma chamada
 ## <a name="see-also"></a>Confira também
 
 - [xlfGetDef](xlfgetdef.md)
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

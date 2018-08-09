@@ -27,7 +27,7 @@ Especifica a deixar uma cópia de uma mensagem no servidor para uma conta POP.
 |Marca de propriedade:  <br/> |0x10000003  <br/> |
 |Access:  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir lista os valores possíveis. Consulte [constantes (API de gerenciamento de conta)](constants-account-management-api.md) para obter mais informações sobre as constantes. 
   
@@ -41,6 +41,6 @@ A tabela a seguir lista os valores possíveis. Consulte [constantes (API de gere
    
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 

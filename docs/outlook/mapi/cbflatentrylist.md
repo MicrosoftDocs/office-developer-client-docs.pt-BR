@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a9f74e46fe74689cbcfba5414f7f083c34ef4f98
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes em uma estrutura [FLATENTRYLIST](flatentrylist.md) ex
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __lplist_
   
@@ -49,5 +49,5 @@ CbFLATENTRYLIST(_lplist)
 [FLATENTRYLIST](flatentrylist.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

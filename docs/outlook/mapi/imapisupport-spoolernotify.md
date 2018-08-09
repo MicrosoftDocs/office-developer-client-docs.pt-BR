@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ LPVOID lpvData
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -88,7 +88,7 @@ S_OK
   
 > A notificação foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::SpoolerNotify** é implementado para mensagem armazenar e objetos de suporte do provedor de transporte. Esses provedores chamarem **SpoolerNotify** para notificar o MAPI spooler de uma alteração no status ou uma solicitação de serviço. **SpoolerNotify** é chamado principalmente pelos provedores de transporte e pode ser chamado a qualquer momento durante a sessão. 
   
@@ -112,11 +112,11 @@ Se o seu provedor de armazenamento de mensagem está intimamente ligado com um t
   
 Para obter mais informações sobre como chamar **SpoolerNotify**, consulte qualquer um dos seguintes tópicos:
   
-- [Implementando o método FlushQueues](implementing-the-flushqueues-method.md)
+- [Implementar método FlushQueues](implementing-the-flushqueues-method.md)
     
-- [Interação com o Spooler MAPI](interacting-with-the-mapi-spooler.md)
+- [Interagir com um spooler MAPI](interacting-with-the-mapi-spooler.md)
     
-- [Modelo de recepção de mensagem](message-reception-model.md)
+- [Modelo de recebimento de mensagens](message-reception-model.md)
     
 ## <a name="see-also"></a>Confira também
 

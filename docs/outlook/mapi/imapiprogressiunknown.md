@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 975c01457515a400d1d442fedc432dc000f06665
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767143"
 ---
-# <a name="imapiprogress--iunknown"></a>IMAPIProgress: IUnknown
+# <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
   
   
@@ -46,7 +46,7 @@ Implementa um objeto de progresso que fornece aos aplicativos de cliente com um 
 |[GetMin](imapiprogress-getmin.md) <br/> |Retorna o valor mínimo no método [SetLimits](imapiprogress-setlimits.md) para qual andamento informações são exibidas.  <br/> |
 |[SetLimits](imapiprogress-setlimits.md) <br/> |Define os limites inferiores e superiores para o número de itens da operação e os sinalizadores que controlam como as informações sobre o andamento é calculada para a operação.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI inclui um parâmetro _lpProgress_ em muitos dos métodos que executam operações potencialmente demoradas.  _lpProgress_ aponta para uma implementação do cliente de um objeto de andamento. Clientes que implementam a interface **IMAPIProgress** defina esse parâmetro para apontar para sua implementação; clientes que não implementam **IMAPIProgress** defina o parâmetro como NULL. Para exibir um indicador de progresso durante o processamento da operação, provedores de serviços usam o objeto de progresso fornecido pelo cliente, se disponível, ou uma implementação de MAPI (indicada quando _lpProgress_ estiver definido como NULL). 
   

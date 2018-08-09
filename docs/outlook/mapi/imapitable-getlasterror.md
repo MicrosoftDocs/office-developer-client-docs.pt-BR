@@ -35,7 +35,7 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação só oferece suporte a Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::GetLastError** retorna informações detalhadas, se estiver disponível, sobre uma chamada de método anterior que falharam. Essas informações podem ser exibidas em uma mensagem ou uma caixa de diálogo. 
   
@@ -85,5 +85,5 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

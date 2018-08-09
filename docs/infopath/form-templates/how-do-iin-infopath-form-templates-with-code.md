@@ -1,5 +1,5 @@
 ---
-title: Como posso fazer … Em modelos de formulário do InfoPath com código
+title: Como... em modelos de formulário do InfoPath com código
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765581"
 ---
-# <a name="how-do-iin-infopath-form-templates-with-code"></a>Como posso fazer … Em modelos de formulário do InfoPath com código
+# <a name="how-do-iin-infopath-form-templates-with-code"></a>Como... em modelos de formulário do InfoPath com código
 
 Use os links neste tópico para localizar rapidamente as respostas para suas perguntas mais frequentes de programação sobre como trabalhar com modelos de formulário de código gerenciado do InfoPath.
   

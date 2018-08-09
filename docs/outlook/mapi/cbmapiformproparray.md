@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0f65cf5d6ec486499bffbc2bc42a5b1d5d731c43
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes em uma estrutura [SMAPIFormPropArray](smapiformpropar
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __c_
   
@@ -51,5 +51,5 @@ CbMAPIFormPropArray (_c)
 [SMAPIFormProp](smapiformprop.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

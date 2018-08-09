@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2505f555fd8867fdc24a14f523a74b6f478a3e70
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _DTBLBUTTON
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > Marca de propriedade para uma propriedade do tipo PT_OBJECT que implementa a interface [IMAPIControl](imapicontroliunknown.md) . Quando o botão é clicado, MAPI chama o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para a implementação de [IMAPIProp](imapipropiunknown.md) de exibição da tabela recuperar essa propriedade. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLBUTTON** descreve um botão de um controle que, quando clicado, permite que um usuário iniciar uma operação. Normalmente, clicando em um botão faz com que uma caixa de diálogo de janela restrita a ser exibido ou uma tarefa programática a ser chamado. Provedores de serviço podem implementar nada através de um controle de botão. Se o botão deve para executar uma tarefa com base nos valores dos outros controles, esses controles devem ter configurado o sinalizador DT_SET_IMMEDIATE. 
   

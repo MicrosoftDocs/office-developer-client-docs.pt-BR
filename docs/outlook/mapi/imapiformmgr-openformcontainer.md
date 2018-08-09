@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 64031725e06a949464e7bfabb0a2f114d325470e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hfrmreg_
   
@@ -75,7 +75,7 @@ MAPI_E_NO_INTERFACE
   
 > O objeto apontado pela _lpunk_ não suporta a interface necessária. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::OpenFormContainer** para abrir uma interface **IMAPIFormContainer** para um contêiner de formulário específico. Essa interface, em seguida, pode ser usado para instalar em e remoção de formulários do contêiner de um formulário. 
   
@@ -104,7 +104,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

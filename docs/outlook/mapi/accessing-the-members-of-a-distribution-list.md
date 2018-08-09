@@ -1,5 +1,5 @@
 ---
-title: Acessando os membros de uma lista de distribuição
+title: Acessar os membros de uma lista de distribuição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766127"
 ---
-# <a name="accessing-the-members-of-a-distribution-list"></a>Acessando os membros de uma lista de distribuição
+# <a name="accessing-the-members-of-a-distribution-list"></a>Acessar os membros de uma lista de distribuição
 
   
   

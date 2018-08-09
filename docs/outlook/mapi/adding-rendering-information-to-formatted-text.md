@@ -1,5 +1,5 @@
 ---
-title: Adicionar informações de processamento de texto formatado
+title: Adicionar informações de renderização ao texto formatado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766134"
 ---
-# <a name="adding-rendering-information-to-formatted-text"></a>Adicionar informações de processamento de texto formatado
+# <a name="adding-rendering-information-to-formatted-text"></a>Adicionar informações de renderização ao texto formatado
 
   
   

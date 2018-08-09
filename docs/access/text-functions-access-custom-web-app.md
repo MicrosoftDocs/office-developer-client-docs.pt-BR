@@ -18,7 +18,7 @@ ms.locfileid: "19765234"
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Função CharIndex (aplicativo da web personalizado do Access)](charindex-function-access-custom-web-app.md)
     
@@ -42,7 +42,7 @@ ms.locfileid: "19765234"
     
 - [Função coisas (aplicativo da web personalizado do Access)](stuff-function-access-custom-web-app.md)
     
-- [Função subcadeia de caracteres (aplicativo da web personalizado do Access)](substring-function-access-custom-web-app.md)
+- [Função SubString (aplicativo Web personalizado do Access)](substring-function-access-custom-web-app.md)
     
 - [Função Upper (aplicativo da web personalizado do Access)](upper-function-access-custom-web-app.md)
     

@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -76,7 +76,7 @@ MAPI_MODIFY
   
 > [out] Um ponteiro para um ponteiro para o objeto aberto.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 S_OK 
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada no parâmetro _lpEntryID_ não tem um formato reconhecido pelo provedor de catálogo de endereços. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método de **OpenEntry** para abrir um contêiner, o usuário ou lista de distribuição de mensagens. 
   
@@ -112,5 +112,5 @@ O objeto que você está sendo solicitado para abrir pode ser um objeto copiado 
 
 
 
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

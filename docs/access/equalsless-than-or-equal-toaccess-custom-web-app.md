@@ -19,9 +19,9 @@ ms.locfileid: "19765071"
 Compara duas expressões. Quando você comparar expressões de não-nulo, o resultado será TRUE se o operando esquerdo possuir um valor menor que ou igual ao operando à direita; Caso contrário, o resultado é FALSE.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 `<= (Less Than or Equal To)`
 

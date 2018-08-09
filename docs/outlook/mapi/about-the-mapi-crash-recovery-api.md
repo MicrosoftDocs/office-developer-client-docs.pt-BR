@@ -1,5 +1,5 @@
 ---
-title: Sobre a recuperação de travamento MAPI API
+title: Sobre a API de recuperação de falhas MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766106"
 ---
-# <a name="about-the-mapi-crash-recovery-api"></a>Sobre a recuperação de travamento MAPI API
+# <a name="about-the-mapi-crash-recovery-api"></a>Sobre a API de recuperação de falhas MAPI
 
   
   
@@ -37,5 +37,5 @@ Funções:
 
 
 
-[Use a recuperação de travamento MAPI API](how-to-use-the-mapi-crash-recovery-api.md)
+[Usar a API de recuperação de falhas MAPI](how-to-use-the-mapi-crash-recovery-api.md)
 

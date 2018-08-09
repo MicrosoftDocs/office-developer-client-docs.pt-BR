@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > O sinalizador MAPI_UNICODE foi definido e a sessão não dá suporte a Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::GetLastError** recupera informações sobre o último erro que foi retornado por uma chamada de método **IMAPISession** . Clientes podem fornecer aos usuários informações detalhadas sobre o erro, incluindo essas informações em uma caixa de diálogo. 
   
@@ -81,7 +81,7 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MAPI estendido erros](mapi-extended-errors.md)

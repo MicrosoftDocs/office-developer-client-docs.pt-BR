@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 43e0d8d28836b3114ab2029bc1f241197c569ffc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ULONG FBadRestriction(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpres_
   
@@ -55,7 +55,7 @@ FALSO
   
 > A restrição especificada e todos os seus subrestrictions são válidos.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Depois que uma restrição é validada, ela poderá ser passada em chamadas para o método [IMAPITable:: Restrict](imapitable-restrict.md) para restringir a tabela para determinadas linhas, para o método [IMAPITable:: FindRow](imapitable-findrow.md) para localizar uma linha da tabela e para os métodos do [IMAPIContainer](imapicontainerimapiprop.md) interface para realizar uma restrição em um objeto container. 
   

@@ -1,5 +1,5 @@
 ---
-title: Diretrizes para melhorar o desempenho de formulários do InfoPath
+title: Diretrizes para melhorar o desempenho dos formulários do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765583"
 ---
-# <a name="guidelines-for-improving-the-performance-of-infopath-forms"></a>Diretrizes para melhorar o desempenho de formulários do InfoPath
+# <a name="guidelines-for-improving-the-performance-of-infopath-forms"></a>Diretrizes para melhorar o desempenho dos formulários do InfoPath
 
 Criar um modelo de formulário do InfoPath para obter melhor desempenho exige que você tenha cuidado com o tamanho e o número de modos de exibição, o tamanho e a estrutura do XML e a quantidade de controles de arquivo e imagem que você usa. Você também precisará ter cuidado estruturação suas assinaturas digitais e o tamanho e o número de conexões de dados no formulário. Seguindo as diretrizes e práticas recomendadas no artigo melhorando o desempenho do InfoPath 2007 Forms, você pode evitar problemas de desempenho durante a criação de um modelo de formulário e solucionar os problemas do mesmos em modelos de formulário existente.
   

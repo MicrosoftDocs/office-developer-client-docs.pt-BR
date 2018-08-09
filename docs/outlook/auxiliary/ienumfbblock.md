@@ -35,7 +35,7 @@ Suporta acessando e enumerando blocos de informações de disponibilidade de dad
 |[Clone](ienumfbblock-clone.md) <br/> |Cria uma cópia do enumerador, usando a mesma restrição de tempo, mas definir o cursor para o início do enumerador.  <br/> |
 |[Restringir](ienumfbblock-restrict.md) <br/> |Restringe a enumeração para um período de tempo especificado.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma enumeração contém blocos de informações de disponibilidade de dados que não se sobreponham em tempo. Quando houver sobreposição de itens em um calendário, o Outlook mescla desses itens para formar não sobrepostos blocos de livre/ocupado na enumeração com base nesta ordem de precedência: fora do escritório, ocupado, provisório.
   

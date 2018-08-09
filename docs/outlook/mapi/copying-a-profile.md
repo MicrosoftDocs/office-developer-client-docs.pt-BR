@@ -1,5 +1,5 @@
 ---
-title: Copiando um perfil
+title: Copiar um perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766319"
 ---
-# <a name="copying-a-profile"></a>Copiando um perfil
+# <a name="copying-a-profile"></a>Copiar um perfil
 
   
   

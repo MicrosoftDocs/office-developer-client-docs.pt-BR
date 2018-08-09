@@ -1,5 +1,5 @@
 ---
-title: Referência do desenvolvedor do InfoPath para automação externa
+title: Referência para desenvolvedores do InfoPath para automação externa
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765511"
 ---
-# <a name="infopath-developer-reference-for-external-automation"></a>Referência do desenvolvedor do InfoPath para automação externa
+# <a name="infopath-developer-reference-for-external-automation"></a>Referência para desenvolvedores do InfoPath para automação externa
 
 Bem-vindo à referência do desenvolvedor do InfoPath 2013 para automação externa. Esta documentação fornece visões gerais, tarefas de programação e informações de referência da biblioteca de classes que foram concebidas para ajudar você a criar soluções de código gerenciado que automatizam o InfoPath em aplicativos externos ou suplementos.
   

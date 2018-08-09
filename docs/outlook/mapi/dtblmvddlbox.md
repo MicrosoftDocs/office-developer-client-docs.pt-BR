@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ede0a448a32565446e614fc2d14f2a72a9549dad
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _DTBLMVDDLBX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -50,7 +50,7 @@ typedef struct _DTBLMVDDLBX
   
 > Marca de propriedade para uma propriedade de valores múltiplos do tipo PT_MV_TSTRING. Os diferentes valores dessa propriedade são exibidos como distintas entradas na lista suspensa.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLMVDDLBOX** descreve uma lista suspensa de valores múltiplos uma lista de somente leitura de itens. Usando uma lista suspensa de valores múltiplos, os valores são exibidos quando um usuário clica em uma barra de rolagem. 
   

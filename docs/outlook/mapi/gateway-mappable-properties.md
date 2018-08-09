@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b637f4921165d70ddeda914b4299c35aabe8218f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ Propriedades podem ser mapeados Gateway são propriedades que podem exigir a con
   
 MAPI Especifica cinco tipos de propriedades podem ser mapeados gateway:
   
-- Nome de exibição
+- Nome para exibição
     
 - Endereço de email
     

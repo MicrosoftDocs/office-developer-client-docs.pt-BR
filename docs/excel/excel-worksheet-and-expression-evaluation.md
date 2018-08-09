@@ -1,5 +1,5 @@
 ---
-title: Planilha do Excel e avaliação de expressão
+title: Planilha do Excel e avaliação de expressões
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - avaliação da expressão [excel 2007], erros em planilhas [Excel 2007], tempo cadeias de caracteres Unicode [Excel 2007], avaliando expressões [Excel 2007], avaliando planilhas [Excel 2007], avaliação de planilha [Excel 2007], erros de planilha [Excel 2007]
 localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 543ff7fcbc88253dafd7fc6e7000bf9657d8c258
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765346"
 ---
-# <a name="excel-worksheet-and-expression-evaluation"></a>Planilha do Excel e avaliação de expressão
+# <a name="excel-worksheet-and-expression-evaluation"></a>Planilha do Excel e avaliação de expressões
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Conteúdo de células de planilha do Microsoft Excel é avaliado em uma destas quatro tipos de dados básicos:
   
-- **Números**
+- **N�meros**
     
 - **Boolean TRUE** ou **FALSE**
     
@@ -115,9 +115,9 @@ O erro **# N/d** frequentemente é retornado para indicar que um resultado bem-s
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   
-[Programando com a API C no Excel](programming-with-the-c-api-in-excel.md)
+[Programar com a API de C no Excel](programming-with-the-c-api-in-excel.md)
   
-[Avaliando os nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
+[Avaliar nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
   
 [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

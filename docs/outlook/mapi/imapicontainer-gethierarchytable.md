@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b30c6e9840ed5dddfd2d3a5f149a3f0f6e8da605
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetHierarchyTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -74,7 +74,7 @@ MAPI_E_NO_SUPPORT
   
 > O contêiner tem sem contêineres filho e não pode fornecer uma tabela de hierarquia.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIContainer::GetHierarchyTable** retorna um ponteiro para a tabela de hierarquia de um contêiner. Uma tabela de hierarquia contém informações de resumo sobre os contêineres filho no contêiner. Tabelas de hierarquias de pasta mantêm informações sobre subpastas; tabelas de hierarquias de catálogo de endereços mantêm informações sobre filho contêineres do catálogo de endereços e listas de distribuição. 
   
@@ -114,11 +114,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
-[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

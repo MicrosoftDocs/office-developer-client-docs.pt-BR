@@ -23,15 +23,15 @@ Iniciando no Microsoft Outlook 2010 e, agora, incluindo Microsoft Outlook 2013, 
   
 Os tópicos nesta seção descrevem o suporte a MAPI para um cliente executar um desligamento rápido.
   
-[Visão geral de desligamento rápido](fast-shutdown-overview.md)
+[Visão geral do desligamento rápido](fast-shutdown-overview.md)
   
 > Este tópico apresenta o mecanismo básico de desligamento rápido.
     
-[Opções de desligamento rápido do usuário](fast-shutdown-user-options.md)
+[Opções de usuário do desligamento rápido](fast-shutdown-user-options.md)
   
 > Este tópico descreve as opções disponíveis para administradores adotar o desligamento rápido no nível do usuário para clientes MAPI do usuário.
     
-[Práticas recomendadas para desligamento rápido](best-practices-for-fast-shutdown.md)
+[Práticas recomendadas para o desligamento rápido](best-practices-for-fast-shutdown.md)
   
 > Este tópico fornece práticas recomendadas para usar as interfaces de desligamento rápido para ajudar a evitar a perda de dados durante um desligamento do cliente MAPI.
     

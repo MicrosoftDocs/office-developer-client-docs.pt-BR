@@ -19,9 +19,9 @@ ms.locfileid: "19765075"
 Determina se a expressão especificada é NULL.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  *expressão* **Encontra** [ *Não* ] **Nulo**
   
@@ -32,7 +32,7 @@ O **IS [NOT] NULL** predicado contém os seguintes argumentos.
 | *expressão*  <br/> |Qualquer expressão válida.  <br/> |
 | *NOT*  <br/> |Especifica que o resultado booleano ser negadas. O predicado reverte seus valores de retorno, retornando TRUE se o valor não for NULL e FALSE se o valor é nulo.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o valor da *expressão* for NULL, é nulo retorna TRUE; Caso contrário, ele retornará FALSE. 
   

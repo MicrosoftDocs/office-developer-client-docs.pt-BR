@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e7ba37629ff2198339394448410ffd16477d4766
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -24,7 +24,7 @@ Usado para retornar o resultado de uma função definida pelo usuário assíncro
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
@@ -34,11 +34,11 @@ _pxFunctionResult_
   
 O valor de retorno do UDF.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se tiver êxito, retornará **TRUE** (**xltypeBool**). Se for bem sucedida, retornará **FALSE**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 **xlAsyncReturn** é o retorno de chamada somente que Excel permite em segmentos de não-cálculo durante o recálculo. A parte assíncrona de uma UDF assíncrona não deve executar qualquer retornos de chamada que não seja **xlAsyncReturn**. XLL deve liberar memória alocada para manter o valor de retorno.
   

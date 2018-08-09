@@ -1,5 +1,5 @@
 ---
-title: Escolhendo uma classe de mensagem
+title: Escolher uma classe de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766308"
 ---
-# <a name="choosing-a-message-class"></a>Escolhendo uma classe de mensagem
+# <a name="choosing-a-message-class"></a>Escolher uma classe de mensagens
 
   
   
@@ -55,5 +55,5 @@ Para obter mais informações, consulte [Instalando um formulário em uma biblio
 
 
 
-[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

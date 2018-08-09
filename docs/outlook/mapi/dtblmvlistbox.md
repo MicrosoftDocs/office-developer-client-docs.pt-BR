@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0de5bf5d5bb4d8c5606e97bdbc6e70493609a05f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _DTBLMVLISTBOX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -50,7 +50,7 @@ typedef struct _DTBLMVLISTBOX
   
 > Marca de propriedade para uma propriedade de valores múltiplos do tipo PT_MV_TSTRING.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLMVLISTBOX** descreve uma lista de valores múltiplos padrão que tem uma lista de itens de somente leitura. Usando uma lista de valores múltiplos padrão, os valores são exibidos imediatamente. 
   

@@ -29,7 +29,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 |Marca de propriedade:  <br/> |0x000C001F  <br/> |
 |Access:  <br/> |Leitura/gravação  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  Espera- **PROP_ACCT_USER_EMAIL_ADDR** não existir em cada conta. Por exemplo, uma conta do Exchange poderia ter [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) , mas não **PROP_ACCT_USER_EMAIL_ADDR**, enquanto que para uma conta de SMTP/POP3, a situação é inversa.
   

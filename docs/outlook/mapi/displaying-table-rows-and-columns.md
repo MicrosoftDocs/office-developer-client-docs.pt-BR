@@ -1,5 +1,5 @@
 ---
-title: Exibindo a tabela de linhas e colunas
+title: Exibir linhas e colunas da tabela
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ee60e64559a0b4163074ddb62ed72c4600c8e03d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766437"
 ---
-# <a name="displaying-table-rows-and-columns"></a>Exibindo a tabela de linhas e colunas
+# <a name="displaying-table-rows-and-columns"></a>Exibir linhas e colunas da tabela
 
   
   

@@ -36,7 +36,7 @@ ULONG cMethods
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -60,7 +60,7 @@ S_OK
   
 > O objeto foi marcado como não utilizável com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::MakeInvalid** é implementado para todos os objetos de suporte. O objeto a ser invalidado deve ser derivado da interface **IUnknown** ou de uma interface derivada de **IUnknown**.
   

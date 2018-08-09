@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6673a38a478c080a880dcf70c8528ef93a1b4886
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes em uma estrutura [SMAPIVerbArray](smapiverbarray.md) 
 int CbMAPIVerbArray (_c)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __c_
   
@@ -51,5 +51,5 @@ int CbMAPIVerbArray (_c)
 [SMAPIVerb](smapiverb.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

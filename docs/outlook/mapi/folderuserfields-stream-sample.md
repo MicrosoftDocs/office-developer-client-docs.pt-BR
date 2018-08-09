@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -161,7 +161,7 @@ A seguir está uma análise dos dados de amostra para o fluxo de **FolderUserFie
     
 ## <a name="see-also"></a>Confira também
 
-- [Campos e itens do outlook](outlook-items-and-fields.md)
+- [Campos e itens do Outlook](outlook-items-and-fields.md)
 - [Estrutura de fluxo de PropertyDefinition](propertydefinition-stream-structure.md)
 - [Estrutura de fluxo de FieldDefinition](fielddefinition-stream-structure.md)
 - [Estrutura de fluxo de SkipBlock](skipblock-stream-structure.md)

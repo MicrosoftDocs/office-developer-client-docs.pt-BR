@@ -27,12 +27,12 @@ Analisa um valor de texto para o tipo de dados especificado na cultura do aplica
   
 A função **Try_Parse** contém os seguintes argumentos. 
   
-|**Nome do argumento**|**Description**|
+|**Nome do argumento**|**Descrição**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Uma expressão de texto representando o valor formatado para analisar em tipo de dados especificado.  <br/> |
-| *Tipo de dados*  <br/> |O tipo de dados no qual analisar *TextExpression* .  <br/> |
+| *DataType*  <br/> |O tipo de dados no qual analisar *TextExpression* .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use **Try_Parse** apenas para a conversão de cadeia de caracteres, data/hora e tipos de número. Para conversões de tipo geral, continue a usar a **Converter**. 
   

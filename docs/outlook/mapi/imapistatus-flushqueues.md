@@ -36,7 +36,7 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -88,7 +88,7 @@ MAPI_E_NO_SUPPORT
   
 > O objeto status não suporta essa operação, conforme indicado pela ausência do sinalizador STATUS_FLUSH_QUEUES na propriedade de **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) do objeto status.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIStatus::FlushQueues** solicita que o spooler MAPI ou um provedor de transporte imediatamente enviar todas as mensagens na fila de saída ou recebe todas as mensagens da fila de entrada. **FlushQueues** é implementado apenas pelo objeto de status de spooler MAPI e por objetos de status que suprimentos de provedores de transporte. 
   
@@ -108,9 +108,9 @@ Uma chamada para o objeto de status do MAPI spooler é uma diretiva para transfe
 
 
 
-[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
-[Propriedade canônico de PidTagStatusCode](pidtagstatuscode-canonical-property.md)
+[Propriedade canônica PidTagStatusCode](pidtagstatuscode-canonical-property.md)
   
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

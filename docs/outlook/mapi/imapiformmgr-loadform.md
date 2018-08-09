@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1f3a876269868c30df48e0a0b62036cfdc199955
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -111,7 +111,7 @@ E_NOT_FOUND
   
 > A classe de mensagem passada _lpszMessageClass_ não coincide com a classe de mensagem para qualquer formulário na biblioteca de formulários. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::LoadForm** para abrir um formulário para uma mensagem existente. **LoadForm** abre o objeto de formulário, carrega a mensagem para o objeto form, configura o contexto de modo de exibição apropriado, se necessário e retorna a interface solicitada para o objeto de formulário. 
   
@@ -133,13 +133,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[Propriedade canônico PidTagMessageClass](pidtagmessageclass-canonical-property.md)
+[Propriedade canônica PidTagMessageClass](pidtagmessageclass-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

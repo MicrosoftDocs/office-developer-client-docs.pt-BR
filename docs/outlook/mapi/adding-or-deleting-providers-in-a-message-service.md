@@ -1,5 +1,5 @@
 ---
-title: Adicionando ou excluindo provedores em um serviço de mensagem
+title: Adicionar ou excluir provedores em um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766135"
 ---
-# <a name="adding-or-deleting-providers-in-a-message-service"></a>Adicionando ou excluindo provedores em um serviço de mensagem
+# <a name="adding-or-deleting-providers-in-a-message-service"></a>Adicionar ou excluir provedores em um serviço de mensagens
 
   
   

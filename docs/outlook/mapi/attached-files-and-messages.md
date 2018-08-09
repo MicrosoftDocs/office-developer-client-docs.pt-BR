@@ -1,5 +1,5 @@
 ---
-title: Arquivos anexos e mensagens
+title: Mensagens e arquivos anexados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766167"
 ---
-# <a name="attached-files-and-messages"></a>Arquivos anexos e mensagens
+# <a name="attached-files-and-messages"></a>Mensagens e arquivos anexados
 
   
   

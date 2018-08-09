@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ea841ef4bc551581fb2d9ca90201b4615e67f134
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cMTSIDs**
   
@@ -56,7 +56,7 @@ typedef struct
   
 > Matriz de bytes que contém uma ou mais estruturas **MTSID** . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uso da estrutura **FLATMTSIDLIST** em x. 400 mensagens corresponde ao uso da estrutura [FLATENTRYLIST](flatentrylist.md) em mensagens de MAPI. MAPI usa estruturas **FLATMTSIDLIST** para manter as propriedades de x. 400 durante o tratamento de mensagens. Provedores de serviços usam estruturas **FLATMTSIDLIST** quando lidando com as mensagens de x. 400 de entrada e saídas. 
   

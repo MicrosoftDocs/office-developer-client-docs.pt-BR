@@ -1,5 +1,5 @@
 ---
-title: Algoritmo para codificar identificações de entrada e anexo
+title: Algoritmo para codificar IDs de entrada e IDs de anexo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766169"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar identificações de entrada e anexo
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar IDs de entrada e IDs de anexo
 
   
   
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
+[Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
   
 [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 

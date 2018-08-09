@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ Porque há nenhum estrita diretrizes que descrevem como implementar a notificaç
   
 |**Operação**|**Tipo de evento**|**Aviso de origem**|
 |:-----|:-----|:-----|
-|Crie uma pasta  <br/> | _fnevObjectCreated_ <br/> |Armazenamento de mensagens  <br/> |
+|Criar uma pasta  <br/> | _fnevObjectCreated_ <br/> |Armazenamento de mensagens  <br/> |
 |Excluir uma pasta  <br/> | _fnevObjectDeleted_ <br/> |Pasta excluído do armazenamento de mensagens  <br/> |
 |Mover uma pasta de uma pasta para outro  <br/> | _fnevObjectMoved_ <br/> |Pasta foi movido de armazenamento de mensagens  <br/> |
 |Copiar uma pasta de uma pasta para outro  <br/> | _fnevObjectCopied_ <br/> |Mensagem armazenar e copiou pasta (nenhuma notificação _fnevObjectCreated_ enviada para a nova cópia da pasta)  <br/> |

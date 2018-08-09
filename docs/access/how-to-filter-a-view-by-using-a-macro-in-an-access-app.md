@@ -19,7 +19,7 @@ ms.locfileid: "19765113"
 Saiba como filtrar um modo de exibição em um aplicativo do Access usando a ação de macro RequeryRecords e uma macro de dados.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
 O modo de exibição de lista padrão em um aplicativo de acesso permite filtrar os problemas nos valores que estão contidos nos campos. Pode haver instâncias onde você deseja filtrar um modo de exibição com base em um conjunto de condições, em vez de por um valor de correspondência. Para fazer isso, você deve criar uma macro. Este artigo mostra como criar uma macro que filtrar um modo de exibição para exibir tarefas que passaram vencidas ou de vencimento nos próximos sete dias.
   
@@ -51,7 +51,7 @@ Suponha que você deseja criar um aplicativo de acesso que rastreia as tarefas p
     
    **Figura 1. Modelos que correspondem a pesquisa para tarefas**
 
-   ![Modelos que correspondem a pesquisa busca de problemas] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modelos que correspondem a pesquisa busca de problemas")
+   ![Modelos correspondentes à pesquisa de problemas](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modelos correspondentes à pesquisa por problemas")
   
 4. Escolha **tarefas**.
     
@@ -122,13 +122,13 @@ Agora que você determinou as personalizações, implementá-las. A macro de dad
   
    **Figura 1. Adicionar caixa de listagem nova ação**
 
-   ![Adicionar nova ação dropdown] (media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Adicionar nova ação dropdown")
+   ![Lista suspensa Adicionar Nova Ação](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Lista suspensa Adicionar Nova Ação")
   
 7. Na caixa **nome** , digite **TaskFound**. 
     
 8. Na caixa **expressão** , insira **"Sim"**. 
     
-9. Selecione **Salvar**. Digite **TasksDueSoon** na caixa **Nome da Macro** e escolha **Okey**.
+9. Escolha **Salvar**. Digite **TasksDueSoon** na caixa **Nome da Macro** e escolha **Okey**.
     
     A macro deve se parecer com a macro mostrada na Figura 2.
     
@@ -199,7 +199,7 @@ Agora, estamos prontos para criar a macro de interface do usuário que filtrará
   
    **Figura 6. Adicionar caixa de listagem nova ação**
 
-   ![Adicionar nova ação dropdown] (media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Adicionar nova ação dropdown")
+   ![Lista suspensa Adicionar Nova Ação](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Lista suspensa Adicionar Nova Ação")
   
 7. Na caixa **onde** , insira **[tarefas]. [ Data de conclusão]\<DateAdd(Day,7,Today()) e [tarefas]. [Status] \< \>"Concluída"**. 
     
@@ -217,7 +217,7 @@ Agora, estamos prontos para criar a macro de interface do usuário que filtrará
     
 11. Na caixa de **mensagem** , digite **sem tarefas estão atrasadas ou vencimento em próximos sete dias!**. 
     
-12. Selecione **Salvar**.
+12. Escolha **Salvar**.
     
     A macro deverá ser semelhante à macro exibida na Figura 8.
     
@@ -255,7 +255,7 @@ Agora, estamos prontos para criar a macro de interface do usuário que removerá
     
     Neste momento, podemos vai deixe as caixas **Where** e **Order By** vazio. Em seguida, a ação **RequeryRecords** é chamada sem nenhum parâmetro, todos os filtros são removidos da exibição. 
     
-3. Selecione **Salvar**.
+3. Escolha **Salvar**.
     
 4. Feche o Modo Design da macro.
     
@@ -263,12 +263,12 @@ Agora, estamos prontos para criar a macro de interface do usuário que removerá
     
 Agora, estamos prontos para a personalização de texto. Escolha **O aplicativo de início** para abrir o aplicativo no seu navegador da web e escolha o botão da barra de ação FilterTasks personalizado. Quaisquer tarefas antigas vencimento ou vencimento em próximos sete dias são exibidas. Uma mensagem é exibida se o aplicativo não contém urgentes tarefas. 
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 
 Você pode usar a ação de macro **RequeryRecords** em uma macro UI para filtrar a exibição com base nos critérios que você escolher. Dependendo de comportamento que você deseja, convém criar uma macro de dados para verificar se um registro atende aos critérios antes de usar a ação de macro **RequeryRecords** . 
   
 ## <a name="see-also"></a>Confira também
 
-- [Novo no Access para desenvolvedores](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [Novidades para os desenvolvedores do Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

@@ -78,8 +78,8 @@ Alguns tópicos referem-se ao código-fonte do próprio aplicativo MFCMAPI. As e
     
 ## <a name="see-also"></a>Confira também
 
-- [Criar um Item de email simples](how-to-create-a-simple-mail-item.md)
-- [Criar um Item de tarefa recorrente simples](how-to-create-a-simple-recurrent-task-item.md)
-- [Criar um Item de compromisso recorrente complexa](how-to-create-a-complex-recurrent-appointment-item.md)
-- [Leia e analisar um padrão de recorrência](how-to-read-and-parse-a-recurrence-pattern.md)
+- [Criar um item de email simples](how-to-create-a-simple-mail-item.md)
+- [Criar um item de tarefa simples de recorrência](how-to-create-a-simple-recurrent-task-item.md)
+- [Criar um item de compromisso complexo de recorrência](how-to-create-a-complex-recurrent-appointment-item.md)
+- [Ler e analisar um padrão de recorrência](how-to-read-and-parse-a-recurrence-pattern.md)
 

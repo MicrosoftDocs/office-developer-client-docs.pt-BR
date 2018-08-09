@@ -1,5 +1,5 @@
 ---
-title: Manipular erros usando o modelo de objeto do InfoPath 2003
+title: Lidar com erros usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765628"
 ---
-# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Manipular erros usando o modelo de objeto do InfoPath 2003
+# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Lidar com erros usando o modelo de objeto do InfoPath 2003
 
 Ao criar aplicativos personalizados, os desenvolvedores devem frequentemente executar tratamento de erros que envolve escrever códigos de programação para verificar erros gerados pelo aplicativo ou para criar e gerar erros personalizados. O modelo de objeto compatível com o InfoPath 2003 oferece suporte com o uso do objeto [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) em associação com a coleção [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) de tratamento de erros. 
   

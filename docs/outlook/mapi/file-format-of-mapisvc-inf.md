@@ -37,7 +37,7 @@ Mapisvc é dividido em seções hierárquicas vinculadas:
     
 A ilustração a seguir mostra a organização de um arquivo Mapisvc típico. Há três serviços de mensagem: AB, MsgService e MS. O nome na parte lateral direita do sinal de igual para cada serviço de mensagem é o nome para exibição do serviço. Cada serviço de mensagem tem sua própria seção em outro local do arquivo que é vinculado a uma ou mais seções do provedor de serviço. Não há uma seção de provedor de serviço para cada provedor de serviço que pertence ao serviço de mensagem. Os serviços de mensagem AB e MS são serviços único provedor, enquanto os três provedores de serviços pertencem ao serviço MsgService.
   
-**Organização de arquivo Mapisvc**
+**MapiSvc.inf file organization**
   
 ![Organização de arquivo Mapisvc] (media/amapi_30.gif "Organização de arquivo Mapisvc")
   

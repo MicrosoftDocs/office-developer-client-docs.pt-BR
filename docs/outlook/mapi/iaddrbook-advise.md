@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8214390af883432d72f608452b8b944417884fd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada passado _lpEntryID_ não pode ser manipulado por qualquer um dos provedores de catálogo de endereços no perfil. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e clientes chame o método de **Advise** para se registrar em um determinado tipo ou tipos de notificação em uma entrada do catálogo de endereços. Os tipos de notificação são indicados pela máscara de evento passada com o parâmetro _ulEventMask_ . 
   
@@ -113,5 +113,5 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 [NOTIFICAÇÃO](notification.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

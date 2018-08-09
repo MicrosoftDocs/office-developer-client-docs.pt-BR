@@ -18,9 +18,9 @@ ms.locfileid: "19765076"
 Combina duas expressões booleanas e retorna TRUE quando as duas expressões forem TRUE. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  *boolean_expression* **AND** *boolean_expression* 
   
@@ -28,7 +28,7 @@ Combina duas expressões booleanas e retorna TRUE quando as duas expressões for
 
 Retorna TRUE quando as duas expressões forem TRUE.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando mais de um operador lógico é usado em uma instrução, os operadores AND são avaliados primeiro. Você pode alterar a ordem de avaliação usando parênteses.
   

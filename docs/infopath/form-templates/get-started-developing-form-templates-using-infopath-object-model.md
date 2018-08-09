@@ -19,7 +19,7 @@ ms.locfileid: "19765596"
 
 Esta seção fornece informações sobre como começar a criação de modelos de formulário de código gerenciado que funcionam com o modelo de objeto compatível com o InfoPath 2003 fornecido por membros do namespace [SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Criar um formulário modelo usando o modelo de objeto do InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md): fornece informações e etapas para criar modelos de formulário que contêm lógica de negócios que funciona com o modelo de objeto do InfoPath 2003 compatíveis.
     

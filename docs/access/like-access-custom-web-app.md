@@ -19,9 +19,9 @@ ms.locfileid: "19765110"
 Determina se uma cadeia de caracteres específica corresponde a um padrão especificado. Um padrão pode incluir caracteres regulares e caracteres curinga. Durante a correspondência de padrões, caracteres regulares devem corresponder exatamente os caracteres especificados na sequência de caracteres. No entanto, caracteres curinga podem ser comparadas com o arbitrários fragmentos da sequência de caracteres. Usando caracteres curinga torna o operador **LIKE** mais flexível do que usando o = e! = operadores de comparação de cadeia de caracteres. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
  *Expressão*  [NOT] **Como** *Padrão*  [ESCAPE *EscapeChar* ] 
   
@@ -33,7 +33,7 @@ O operador **LIKE** contém os seguintes argumentos
 | *Pattern*  <br/> |Sim  <br/> |A cadeia de caracteres específica de caracteres a ser pesquisado na *expressão* . Pode incluir caracteres curinga. Consulte os comentários para obter uma lista dos caracteres curinga válidos.  <br/> |
 | *EscapeChar*  <br/> |Não  <br/> |Um caractere que é colocado na frente de um caractere curinga para indicar que o caractere curinga deve ser interpretado como um caractere normal e não como um caractere curinga.  *EscapeChar* é uma expressão de caractere que não possui padrão e deve ser avaliada como apenas um caractere.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir contém os caracteres curinga que são válidos para uso no argumento *padrão* . 
   

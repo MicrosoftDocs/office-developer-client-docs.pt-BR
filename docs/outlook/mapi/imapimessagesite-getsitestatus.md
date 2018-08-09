@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7d81533b13f4f44a0644215e009dc3477717e9a2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulStatus_
   
@@ -73,7 +73,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIMessageSite::GetSiteStatus** para obter os recursos do objeto de site a mensagem para a mensagem atual. Os sinalizadores retornados no parâmetro _lpulStatus_ fornecem informações sobre o site da mensagem. Normalmente, um formulário habilita ou desabilita o comandos de menu, dependendo de informações que os sinalizadores fornecem sobre os recursos da implementação do site de mensagem. Se uma nova mensagem for carregada para um formulário, o método [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) ou o método [IPersistMessage::Load](ipersistmessage-load.md) , os sinalizadores de status devem ser verificados. Alguns objetos de site de mensagem, especialmente objetos de somente leitura, não permitir que as mensagens sejam salvos ou excluído. 
   
@@ -99,9 +99,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
-[Propriedade canônico de PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)
+[Propriedade canônica PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

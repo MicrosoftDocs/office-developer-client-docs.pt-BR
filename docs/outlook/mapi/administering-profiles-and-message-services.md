@@ -1,5 +1,5 @@
 ---
-title: Administração de perfis e serviços de mensagens
+title: Administrar perfis e serviços de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766139"
 ---
-# <a name="administering-profiles-and-message-services"></a>Administração de perfis e serviços de mensagens
+# <a name="administering-profiles-and-message-services"></a>Administrar perfis e serviços de mensagens
 
   
   
@@ -35,45 +35,45 @@ Caso você ofereça suporte a administração do serviço de perfil ou mensagem,
     
 Tenha cuidado no seu suporte da administração do serviço de perfil e mensagem. Não há nenhuma proteções para proteger contra adversamente para modificar um perfil que está em uso. MAPI pode impedir a exclusão de um perfil em uso, mas não pode impedir a exclusão de cada serviço de mensagem nela. Se você excluir cada serviço de mensagem em um perfil, todos os provedores de serviço nesses serviços irá parar causando assim resultados imprevisíveis ocorra.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Criação de um perfil](creating-a-profile.md)
+[Criar um perfil](creating-a-profile.md)
   
 > Descreve como criar um perfil.
     
-[Copiando um perfil](copying-a-profile.md)
+[Copiar um perfil](copying-a-profile.md)
   
 > Descreve como copiar um perfil.
     
-[Exclusão de um perfil](deleting-a-profile.md)
+[Excluir um perfil](deleting-a-profile.md)
   
 > Descreve como excluir um perfil.
     
-[Definir um perfil padrão](setting-a-default-profile.md)
+[Configurar um perfil padrão](setting-a-default-profile.md)
   
 > Descreve como definir um perfil padrão.
     
-[Localizando um nome de perfil](finding-a-profile-name.md)
+[Localizar o nome de um perfil](finding-a-profile-name.md)
   
 > Descreve como localizar um nome de um perfil.
     
-[Adição de um serviço de mensagem](adding-a-message-service.md)
+[Adicionar um serviço de mensagens](adding-a-message-service.md)
   
 > Descreve como adicionar um serviço de mensagem.
     
-[Configurando um serviço de mensagem](configuring-a-message-service.md)
+[Configurar um serviço de mensagens](configuring-a-message-service.md)
   
 > Descreve como configurar um serviço de mensagem.
     
-[Copiar um serviço de mensagem](copying-a-message-service.md)
+[Copiar um serviço de mensagens](copying-a-message-service.md)
   
 > Descreve como copiar um serviço de mensagem para um perfil.
     
-[Excluindo um serviço de mensagem](deleting-a-message-service.md)
+[Excluir um serviço de mensagens](deleting-a-message-service.md)
   
 > Descreve como excluir um serviço de mensagem.
     
-[Adicionando ou excluindo provedores em um serviço de mensagem](adding-or-deleting-providers-in-a-message-service.md)
+[Adicionar ou excluir provedores em um serviço de mensagens](adding-or-deleting-providers-in-a-message-service.md)
   
 > Descreve como adicionar ou excluir provedores em um serviço de mensagem.
     

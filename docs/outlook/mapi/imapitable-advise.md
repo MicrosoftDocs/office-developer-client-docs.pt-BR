@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 781146193748cdd9408a3320e90a73a070ced2af
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ULONG_PTR FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulEventMask_
   
@@ -61,7 +61,7 @@ MAPI_E_NO_SUPPORT
   
 > A implementação de tabela não oferece suporte a alterações em suas linhas e colunas ou não oferece suporte a notificação.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use o método **IMAPITable::Advise** para registrar um objeto table implementado no provedor para retornos de chamada de notificação. Sempre que ocorre uma alteração ao objeto table, o provedor verifica quais bits de máscara de evento foi definida no parâmetro _ulEventMask_ e, portanto, o tipo de alteração que ocorreu. Se um pouco for definido, o provedor chama o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto coletor de eventos de advise indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a rotina de **OnNotify** descrevem o evento. 
   
@@ -95,7 +95,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

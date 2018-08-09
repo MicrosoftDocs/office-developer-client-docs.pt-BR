@@ -1,5 +1,5 @@
 ---
-title: Office para suporte Android para o Android Framework de acesso de armazenamento
+title: Suporte do Office para Android para a Estrutura de acesso ao armazenamento do Android
 manager: soliver
 ms.date: 06/18/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765763"
 ---
-# <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Office para suporte Android para o Android Framework de acesso de armazenamento
+# <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Suporte do Office para Android para a Estrutura de acesso ao armazenamento do Android
 
 Office para Android integra-se a estrutura de acesso do armazenamento Android, que permite ao Office abrir arquivos armazenados pelo provedor de outro documento.
   
@@ -27,7 +27,7 @@ Se você estiver desenvolvendo um aplicativo que fornece serviços de armazename
 
 Os usuários podem se conectar ao Office apps com uma conta da Microsoft gratuito para criar ou editar documentos armazenados em um serviço de armazenamento orientado ao consumidor. A tabela a seguir lista as propriedades obrigatórias que provedores deverá fornecer como parte do cursor, para ativar a edição de consumidor gratuito para documentos acessados por meio da estrutura de acesso de armazenamento.
   
-|**Property**|**Index**|**Valor**|
+|**Propriedade**|**Index**|**Valor**|
 |:-----|:-----|:-----|
 |Tipo de documento  <br/> |com_microsoft_office_doctype  <br/> |\<consumidor\>  <br/> |
 |Nome amigável do serviço  <br/> |com_microsoft_office_servicename  <br/> |Qualquer nome amigável para o serviço, usado para identificar um documento na lista recente no Office apps. Observe que a propriedade "Termos do contrato de uso" deve ser fornecida antes do nome amigável para o serviço pode ser exibido.  <br/> |

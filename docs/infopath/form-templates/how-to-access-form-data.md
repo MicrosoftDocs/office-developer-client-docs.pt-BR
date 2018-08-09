@@ -1,5 +1,5 @@
 ---
-title: Dados de formulário do Access
+title: Acessar dados de formulário
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765641"
 ---
-# <a name="access-form-data"></a>Dados de formulário do Access
+# <a name="access-form-data"></a>Acessar dados de formulário
 
 Quando você deseja estender a funcionalidade de um formulário do InfoPath, geralmente é necessário acessar informações sobre o documento XML de base do formulário, acessar os dados contidos no documento XML ou executar alguma ação no documento XML programaticamente. O modelo de objeto do InfoPath suporta acessar e manipular o documento XML subjacente de um formulário utilizando a classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) em associação com a classe [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) . 
   

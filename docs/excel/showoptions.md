@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: dbf6f0f50e9f7fa988e83f3b58012e9deac13eac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -24,7 +24,7 @@ Mostra a caixa de diálogo modal para coletar informações do usuário. Esse po
 int ShowOptions(HWND hWndParent)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _hWndParent_
   
@@ -34,11 +34,11 @@ _hWndParent_
 
 **xlHpcRetSuccess** se a caixa de diálogo foi mostrada; **xlHpcRetCallFailed** se ele não foi exibido. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Conectores de cluster podem usar esta caixa de diálogo para obter mais informações, como o que o servidor do cluster use, do usuário.
   
 ## <a name="see-also"></a>Confira também
 
-- [Funções de conector de Cluster do Excel](excel-cluster-connector-functions.md)
+- [Funções de conector de cluster do Excel](excel-cluster-connector-functions.md)
 

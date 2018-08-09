@@ -17,11 +17,11 @@ ms.locfileid: "19765090"
 ## <a name="in-this-section"></a>Nesta seção
 
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 - [Palavras reservadas (aplicativo da web personalizado do Access)](reserved-words-access-custom-web-app.md)
     
-- [Crie e personalize aplicativos da web no Access](how-to-create-and-customize-a-web-app-in-access.md)
+- [Criar e personalizar um aplicativo Web no Access](how-to-create-and-customize-a-web-app-in-access.md)
     
 - [Formatos numéricos personalizados da função Format (aplicativo Web personalizado do Access)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
     

@@ -10,7 +10,7 @@ keywords:
 - função xladdinmanagerinfo [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e42cca809c4426ddf9a98b3b275d08490d31c8db
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,19 +35,19 @@ LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
 LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxAction:_ Um ponteiro para um de numéricos **XLOPER/XLOPER12** (**xltypeInt** ou **xltypeNum**).
   
 As informações que solicita Excel.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Se _pxAction_ for, ou pode ser forçados para, o número 1, a implementação dessa função deve retornar uma cadeia de caracteres que contém algumas informações sobre o suplemento, geralmente seu nome e talvez um número de versão. Caso contrário, ele deverá retornar #VALUE!. 
   
 Se você não retornar uma cadeia de caracteres, o Excel tenta converter o valor retornado para uma cadeia de caracteres.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a cadeia de caracteres retornada aponta para o buffer alocado dinamicamente, você deve garantir que esse buffer eventualmente é liberado. Se a cadeia de caracteres foi alocada pelo Excel, você pode fazer isso, definindo **xlbitXLFree**. Se a cadeia de caracteres foi alocada pela DLL, para fazer isso, a configuração **xlbitDLLFree**e você também deve implementar no [xlAutoFree](xlautofree-xlautofree12.md) (se você estiver retornando um **XLOPER**) ou **xlAutoFree12** (se você estiver retornando **XLOPER12**).
   
@@ -87,5 +87,5 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
 
 
 
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 

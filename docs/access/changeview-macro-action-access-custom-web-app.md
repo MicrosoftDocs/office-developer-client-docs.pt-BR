@@ -18,7 +18,7 @@ ms.locfileid: "19765077"
 Você pode usar a ação **ChangeView** para navegar entre os modos de exibição no lugar. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -29,9 +29,9 @@ A ação **ChangeView** tem os seguintes argumentos.
 |Table  <br/> |Sim  <br/> |O nome da tabela para abrir.  <br/> |
 |Exibir  <br/> |Sim  <br/> |O nome da exibição a ser aberto.  <br/> |
 |Onde  <br/> |Não  <br/> |Se estiver especificado, substitui a condição Where da fonte de registro de objeto.  <br/> |
-|Classificado por  <br/> |Não  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
+|Classificado Por  <br/> |Não  <br/> |Uma expressão de cadeia de caracteres que inclui o nome do(s) campo(s) no(s) qual(is) serão classificados os registros e as palavras-chave CRESC ou DECRESC opcionais. Por padrão, esse argumento estiver em branco.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Qualquer classificação ou filtragem aplicada pelo usuário é limpa quando a ação **ChangeView** é chamada. 
   

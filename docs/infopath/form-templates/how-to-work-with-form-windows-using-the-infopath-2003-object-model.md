@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com Windows de formulário usando o modelo de objeto do InfoPath 2003
+title: Trabalhar com formulários do Windows usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765631"
 ---
-# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Trabalhar com Windows de formulário usando o modelo de objeto do InfoPath 2003
+# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Trabalhar com formulários do Windows usando o modelo de objeto do InfoPath 2003
 
 Ao trabalhar programaticamente com um formulário do InfoPath, você pode escrever código para acessar as janelas de formulários e, em seguida, personalizar alguns dos itens que elas contêm. O modelo de objeto compatível com o InfoPath 2003 oferece suporte ao acesso Windows de um formulário com o uso da interface de [WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) em associação com a interface [WindowsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowsCollection.aspx) . 
   

@@ -1,5 +1,5 @@
 ---
-title: Analisar o histórico de download de mensagens para uma conta POP3
+title: Analisar o histórico de download de mensagens de uma conta POP3
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766041"
 ---
-# <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analisar o histórico de download de mensagens para uma conta POP3
+# <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analisar o histórico de download de mensagens de uma conta POP3
 
 Este tópico descreve a estrutura do BLOB POP3 que representa o histórico de download de mensagens de uma conta POP3, para identificar as mensagens que foram baixadas ou excluídas dessa conta.
 
@@ -64,7 +64,7 @@ Cada marca de recurso Especifica a operação que será aplicada a uma mensagem,
 
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_Example"> </a>
 
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A Figura 1 mostra um exemplo de um BLOB que representa o histórico de download de mensagens de uma conta POP. 
   
@@ -89,8 +89,8 @@ Da mesma forma, você pode analisar as demais marcas de 22 de recurso para esse 
 ## <a name="see-also"></a>Confira também
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
 
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md)    
-- [Localizando o histórico de download de mensagens para uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md)    
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)    
+- [Localizar o histórico de download de mensagens de uma conta POP3](locating-the-message-download-history-for-a-pop3-account.md)    
 - [Analisar o histórico UIDL POP3](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
     
 

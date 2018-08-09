@@ -1,5 +1,5 @@
 ---
-title: Referências de planilha
+title: Referências da planilha
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - referências [excel 2007], planilha, referências de planilha [Excel 2007], referências de planilha externos [Excel 2007], a planilha ativa [Excel 2007], planilha atual [Excel 2007], planilha interna referencia [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7089fb891c96be9182189e3a5f30057721cebbc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765458"
 ---
-# <a name="worksheet-references"></a>Referências de planilha
+# <a name="worksheet-references"></a>Referências da planilha
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -50,7 +50,7 @@ As diferenças importantes entre os tipos de referência interna e externa é qu
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   
-[Avaliando os nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
+[Avaliar nomes e outras expressões de fórmula de planilha](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[Planilha do Excel e avaliação de expressão](excel-worksheet-and-expression-evaluation.md)
+[Planilha do Excel e avaliação de expressões](excel-worksheet-and-expression-evaluation.md)
 

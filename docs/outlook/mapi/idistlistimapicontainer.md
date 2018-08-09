@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7fee3c84d6a4d4a94397f5197f45637b0c7dd2be
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766925"
 ---
-# <a name="idistlist--imapicontainer"></a>IDistList: IMAPIContainer
+# <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
   
   
@@ -49,7 +49,7 @@ Essa interface não tem quaisquer métodos exclusivos.
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A interface **IDistList** herda de [IMAPIContainer](imapicontainerimapiprop.md) e inclui os mesmos métodos como recipientes do catálogo de endereços. Portanto, como os métodos da interface **IDistList** são idênticos da interface [IABContainer](iabcontainerimapicontainer.md) , eles não são duplicados aqui. 
   

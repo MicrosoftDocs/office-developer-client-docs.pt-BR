@@ -33,13 +33,13 @@ void STDMETHODCALLTYPE Notify(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pNotifyInfo_
   
 > [in] A notificação informando que o Outlook enviará ao cliente. A notificação indica a parte do estado de conexão que foi alterada, o estado de conexão antigo e o novo estado de conexão.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O Outlook usa este método para enviar retornos de chamada de notificação para um cliente. Para disponibilizar essa interface para Microsoft Outlook 2010 ou o Microsoft Outlook 2013, o cliente deve implementar essa interface e passar um ponteiro para ele como um membro no **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** ao configurar retornos de chamada usando **[IMAPIOfflineMgr::Advise ](imapiofflinemgr-advise.md)**. 
   
@@ -51,7 +51,7 @@ Em geral, o Outlook 2010 e o Outlook 2013 podem notificá-um cliente de alteraç
 
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
 [MAPIOFFLINE_NOTIFY](mapioffline_notify.md)
 

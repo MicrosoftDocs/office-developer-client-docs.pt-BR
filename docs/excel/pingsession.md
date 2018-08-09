@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 165be9eada54b2030471fc10e7a0bf0c7dcc7c8e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -24,7 +24,7 @@ Verifica se a uma sessão é válida. Essa função geralmente é chamada quando
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _SessionID_
   
@@ -37,5 +37,5 @@ _SessionID_
 ## <a name="see-also"></a>Confira também
 
 - [OpenSession](opensession.md)
-- [Funções de conector de Cluster do Excel](excel-cluster-connector-functions.md)
+- [Funções de conector de cluster do Excel](excel-cluster-connector-functions.md)
 

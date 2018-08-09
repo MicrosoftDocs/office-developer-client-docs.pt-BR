@@ -1,5 +1,5 @@
 ---
-title: Use o tempo relativo para acessar dados do tipo disponível/ocupado
+title: Usar o tempo relativo para acessar dados de disponibilidade
 manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765815"
 ---
-# <a name="use-relative-time-to-access-freebusy-data"></a>Use o tempo relativo para acessar dados do tipo disponível/ocupado
+# <a name="use-relative-time-to-access-freebusy-data"></a>Usar o tempo relativo para acessar dados de disponibilidade
 
 A interface de [IFreeBusyData](ifreebusydata.md) na API Free/Busy usa um conceito de tempo relativo, que é o número de minutos desde 1 de janeiro de 1601, expressado em UTC (Tempo Universal) e é um valor de tipo **LONG**. 
   

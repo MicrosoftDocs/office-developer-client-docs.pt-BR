@@ -10,7 +10,7 @@ keywords:
 - função xlfevaluate [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e468dc18b8f78f56acaa67c2f23dd53254088ad0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,17 +28,17 @@ Usa o analisador do Microsoft Excel e do avaliador de função para avaliar qual
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxFormulaText (xltypeStr)_
   
 A cadeia de caracteres a ser avaliada. Um sinal de igual (=) à esquerda é opcional. A cadeia de caracteres pode ser qualquer texto que legalmente pode ser inserido em uma célula de planilha de planilha ou uma macro.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna o resultado da avaliação da cadeia de caracteres que pode ser qualquer um dos tipos **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeNil**, **xltypeMulti**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A cadeia de caracteres pode conter somente funções, não equivalentes do comando. É equivalente a pressionar **F9** da barra de fórmulas. Se **xlfEvaluate** é chamado de uma função de planilha XLL que foi registrada como thread-safe, a expressão deve conter somente funções thread-safe. 
   
@@ -46,7 +46,7 @@ O uso principal da função **xlfEvaluate** é permitir DLLs descobrir o valor a
   
  **xlfEvaluate** não pode ser usado para avaliar as referências a uma folha de externa que não está aberto. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa **xlfEvaluate** para forçar o texto "! B38 "para o conteúdo da célula B38. 
   
@@ -70,5 +70,5 @@ short WINAPI EvaluateExample(void)
 
 ## <a name="see-also"></a>Confira também
 
-- [Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+- [Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

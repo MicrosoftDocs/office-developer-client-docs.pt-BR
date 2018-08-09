@@ -1,5 +1,5 @@
 ---
-title: Bibliotecas de formulários de pasta
+title: Bibliotecas de formulários de pastas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766568"
 ---
-# <a name="folder-form-libraries"></a>Bibliotecas de formulários de pasta
+# <a name="folder-form-libraries"></a>Bibliotecas de formulários de pastas
 
   
   

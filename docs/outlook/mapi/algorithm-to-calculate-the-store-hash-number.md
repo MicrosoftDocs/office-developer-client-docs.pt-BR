@@ -1,5 +1,5 @@
 ---
-title: Algoritmo para calcular o número de Hash do repositório
+title: Algoritmo para calcular o número de hash do repositório
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766146"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de Hash do repositório
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de hash do repositório
  
 **Aplica-se a**: Outlook 
   
@@ -242,6 +242,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
+- [Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
 - [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 

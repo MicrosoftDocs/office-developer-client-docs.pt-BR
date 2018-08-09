@@ -34,7 +34,7 @@ HRESULT SaveContentsSort(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSortCriteria_
   
@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor de armazenamento de mensagem não suporta a salvando uma ordem de classificação para suas tabelas de conteúdo de pasta.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::SaveContentsSort** estabelece uma ordem de classificação padrão para a tabela de conteúdo de uma pasta. Ou seja, quando um cliente chama o método de [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) da pasta após o código chama **SaveContentsSort**, as linhas da tabela de conteúdo retornado aparecerá na ordem estabelecida pelo **SaveContentsSort**.
   
@@ -72,5 +72,5 @@ Nem todos os provedores de armazenamento de mensagem suportam **SaveContentsSort
   
 [SSortOrderSet](ssortorderset.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

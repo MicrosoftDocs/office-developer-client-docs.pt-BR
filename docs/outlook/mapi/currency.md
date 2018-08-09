@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0789b566eb814fe984ae78670d22ad2937b0c3a5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct tagCY
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **Lo**
   
@@ -50,7 +50,7 @@ typedef struct tagCY
   
 > Ordem alta de 32 bits do valor de moeda.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura de **moeda** é uma representação de inteiro em escala de um número decimal com quatro dígitos à direita da vírgula decimal. Por exemplo, um valor armazenado de 327500 deve ser interpretado como representando um valor de moeda da 32.7500. 
   

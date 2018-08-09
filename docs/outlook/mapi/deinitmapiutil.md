@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ae6f7d7066638ef1b149d3e411443384d531184d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ VOID DeinitMapiUtil( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None 
+Nenhum 
   
 ## <a name="return-value"></a>Valor retornado
 

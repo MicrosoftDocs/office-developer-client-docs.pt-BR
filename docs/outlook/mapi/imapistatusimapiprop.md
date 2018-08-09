@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e36a987174ffb2abb4c0f5fc95bf695f31af942e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767211"
 ---
-# <a name="imapistatus--imapiprop"></a>IMAPIStatus: IMAPIProp
+# <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
@@ -56,7 +56,7 @@ Fornece informações de status sobre o MAPI spooler, o catálogo de endereços 
 |**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os objetos de status que implementa MAPI suportam os seguintes métodos:
   

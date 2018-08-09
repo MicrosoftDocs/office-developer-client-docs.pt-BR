@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -75,7 +75,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     |iTypeVariant  <br/> |10  <br/> |Esse tipo não é usado para campos definidos pelo usuário.  <br/> |
     |iTypeFloatResult  <br/> |11  <br/> |Esse tipo não é usado para campos definidos pelo usuário.  <br/> |
     |iTypeConcat  <br/> |12  <br/> |**Combinação**, com a opção de **Unindo campos e qualquer fragmentos de texto uns com os outros** selecionada na caixa de diálogo **Campo de fórmula de combinação** .  <br/> |
-    |iTypeKeywords  <br/> |13  <br/> |**Palavra-chave** <br/> |
+    |iTypeKeywords  <br/> |13  <br/> |**Keyword** <br/> |
     |iTypeInteger  <br/> |14  <br/> |**Integer** <br/> |
    
 - SkipBlocks: Uma série de uma ou mais estruturas de fluxo de [SkipBlock](skipblock-stream-structure.md) . Este elemento de dados está presente apenas se o formato de definição de campo é PropDefV2. Se o formato de definição de campo for PropDefV2, a série deve conter pelo menos uma estrutura de SkipBlock, a estrutura de SkipBlock que tem o elemento de dados de tamanho igual a 0, e a série deve começar e terminar com essa estrutura SkipBlock. 
@@ -89,7 +89,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     
 ## <a name="see-also"></a>Confira também
 
-- [Campos e itens do outlook](outlook-items-and-fields.md)
+- [Campos e itens do Outlook](outlook-items-and-fields.md)
 - [Estruturas de fluxo](stream-structures.md)
 - [Estrutura de fluxo de PropertyDefinition](propertydefinition-stream-structure.md)
 

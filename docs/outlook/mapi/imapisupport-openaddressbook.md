@@ -35,7 +35,7 @@ LPADRBOOK FAR * lppAdrBook
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -59,7 +59,7 @@ MAPI_W_ERRORS_RETURNED
   
 > A chamada foi bem-sucedida, mas um ou mais provedores de catálogo de endereços não pôde ser carregados. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::OpenAddressBook** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de mensagem de ligação geralmente estreita armazenam e provedores de transporte, chame **OpenAddressBook** para obter acesso ao catálogo de endereços. O ponteiro **IAddrBook** retornado pode ser usado para uma variedade de tarefas do catálogo de endereços, incluindo a abertura de contêineres de catálogo de endereço, Localizando usuários mensagens e exibindo caixas de diálogo de endereço. 
   
@@ -73,7 +73,7 @@ Se um ou mais provedores de catálogo de endereços Falha ao carregar, chame [IM
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
 [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md)
   

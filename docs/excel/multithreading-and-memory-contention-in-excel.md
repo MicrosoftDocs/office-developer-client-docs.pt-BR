@@ -1,5 +1,5 @@
 ---
-title: Multithreading e contenção de memória no Excel
+title: Vários threads e contenção da memória no Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - multithreading em excel, contenção de memória no Excel, funções [Excel 2007], thread-safe, thread-safe funciona memória local de segmento de [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765432"
 ---
-# <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading e contenção de memória no Excel
+# <a name="multithreading-and-memory-contention-in-excel"></a>Vários threads e contenção da memória no Excel
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -308,7 +308,7 @@ Onde há muita contenção para um recurso compartilhado, como solicitações de
 
 [Gerenciamento de memória no Excel](memory-management-in-excel.md)
   
-[Recálculo multithreaded no Excel](multithreaded-recalculation-in-excel.md)
+[Recálculo do vários threads no Excel](multithreaded-recalculation-in-excel.md)
   
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 

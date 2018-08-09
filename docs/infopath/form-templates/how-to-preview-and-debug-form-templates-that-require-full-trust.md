@@ -1,5 +1,5 @@
 ---
-title: Visualizar e depurar os modelos de formulário que exijam confiança total
+title: Visualizar e depurar modelos de formulário que exigem confiança total
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765602"
 ---
-# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Visualizar e depurar os modelos de formulário que exijam confiança total
+# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Visualizar e depurar modelos de formulário que exigem confiança total
 
 Por padrão, se você tentar depurar ou projeto de visualização de um código gerenciado que contém o código que invoca um membro de modelo de objeto que requer confiança total, tais como a propriedade **LoginName** que exige acesso a informações sobre o domínio de logon do usuário, Microsoft InfoPath exibirá as seguintes mensagens de erro. 
   
@@ -52,7 +52,7 @@ Depois que esse procedimento é executado, você pode depurar seu projeto, confo
 
 
 
-[Visualizar e depurar os modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Visualizar e depurar modelos de formulário do InfoPath com código](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 [Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md)
 

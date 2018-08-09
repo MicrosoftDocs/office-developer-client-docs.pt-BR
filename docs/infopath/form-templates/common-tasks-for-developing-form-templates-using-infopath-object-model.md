@@ -29,7 +29,7 @@ Tarefas comuns executadas durante a criação e desenvolvimento de projetos.
     
 - [Depurar projetos do InfoPath usando o modelo de objeto do InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
     
-- [Adicione e referência Assemblies personalizados](how-to-add-and-reference-custom-assemblies.md)
+- [Adicionar e fazer referência a assemblies personalizados](how-to-add-and-reference-custom-assemblies.md)
     
 - [Passo a passo: Criando e depurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
@@ -37,27 +37,27 @@ Tarefas comuns executadas durante a criação e desenvolvimento de projetos.
 
 Tarefas comuns executadas quando a programação de modelos de formulário de código gerenciado.
   
-- [Responder para formar eventos usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Responder eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
     
 - [Trabalhar com modos de exibição usando o modelo de objeto do InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [Trabalhar com Windows de formulário usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Trabalhar com formulários do Windows usando o modelo de objeto do InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
 - [Exibir alertas e caixas de diálogo usando o modelo de objeto do InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
-- [Manipular erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Lidar com erros usando o modelo de objeto do InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
     
 - [Trabalhar com assinaturas digitais usando o modelo de objeto do InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
     
-- [Trabalhar com as soluções Offline usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+- [Trabalhar com soluções do Office usando o modelo de objeto do InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
     
-- [Trabalhando com MSXML e System. XML usando o modelo de objeto do InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
+- [Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
-## <a name="data"></a>Dados
+## <a name="data"></a>Data
 
 Tarefas comuns executadas quando estiver trabalhando com dados.
   
-- [Dados de aplicativo do Access usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+- [Acessar dados do aplicativo usando o modelo de objeto do InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
     
 - [Acessar fontes de dados externas usando o modelo de objeto do InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
     
@@ -73,9 +73,9 @@ Tarefas comuns e informações sobre segurança e implantando modelos de formul�
     
 - [Definir configurações de segurança para modelos de formulário com código](how-to-configure-security-settings-for-form-templates-with-code.md)
     
-- [Visualizar e depurar os modelos de formulário que exijam confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
     
 ## <a name="see-also"></a>Confira também
 
-- [Modelos de objeto do InfoPath 2003 compatíveis](infopath-2003-compatible-object-models.md)
+- [InfoPath 2003 compatível com modelos de objeto](infopath-2003-compatible-object-models.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com os XPathNavigator e Classes de XPathNodeIterator
+title: Trabalhar com as classes XPathNavigator e XPathNodeIterator
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765648"
 ---
-# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Trabalhar com os XPathNavigator e Classes de XPathNodeIterator
+# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Trabalhar com as classes XPathNavigator e XPathNodeIterator
 
 Para acessar e manipular os dados XML em fontes de dados do modelo de formulário, número de membros do modelo de objeto de código gerenciado fornecidos pelo namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) crie ou pode ser passado como uma instância da classe **XPathNavigator** do Namespace **System.Xml.XPath** . Depois de ter acesso a um objeto **XPathNavigator** retornado por um membro de modelo de objeto do InfoPath, você pode usar as propriedades e métodos da classe **XPathNavigator** para trabalhar com os dados. 
   
@@ -250,7 +250,7 @@ A tabela a seguir fornece um resumo de todos os membros do namespace **Microsoft
 |[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |Propriedade [manifesto](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx)  <br/> |
 |[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |Propriedade [XML](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx)  <br/> |
 |[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |Método [execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx)  <br/> |
-|[Assinatura](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Propriedade [SignatureBlockXmlNode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx)  <br/> |
+|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Propriedade [SignatureBlockXmlNode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx)  <br/> |
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Propriedade [SignatureContainer](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.SignatureContainer.aspx)  <br/> |
 |[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |Métodos de [GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |
 ||Métodos de [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |

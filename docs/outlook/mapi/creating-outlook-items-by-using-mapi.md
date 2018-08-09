@@ -1,5 +1,5 @@
 ---
-title: Criando itens do Outlook usando MAPI
+title: Criar itens do Outlook usando MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766360"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a>Criando itens do Outlook usando MAPI
+# <a name="creating-outlook-items-by-using-mapi"></a>Criar itens do Outlook usando MAPI
 
   
   
@@ -27,19 +27,19 @@ Os tópicos desta seção demonstram como criar itens do Outlook usando MAPI.
     
     Este tópico mostra como instalar e exibir os exemplos discutidos nesta seção.
     
-- [Criar um Item de email simples](how-to-create-a-simple-mail-item.md)
+- [Criar um item de email simples](how-to-create-a-simple-mail-item.md)
     
     Este tópico mostra como criar um item de email simples que solicita a confirmação de leitura.
     
-- [Criar um Item de tarefa recorrente simples](how-to-create-a-simple-recurrent-task-item.md)
+- [Criar um item de tarefa simples de recorrência](how-to-create-a-simple-recurrent-task-item.md)
     
     Este tópico mostra como criar um item de tarefa simples que ocorre toda semana.
     
-- [Criar um Item de compromisso recorrente complexa](how-to-create-a-complex-recurrent-appointment-item.md)
+- [Criar um item de compromisso complexo de recorrência](how-to-create-a-complex-recurrent-appointment-item.md)
     
     Este tópico mostra como criar um item de compromisso recorrente-semanalmente, que também leva em problemas de consideração relacionados à fusos horários.
     
-- [Leia e analisar um padrão de recorrência](how-to-read-and-parse-a-recurrence-pattern.md)
+- [Ler e analisar um padrão de recorrência](how-to-read-and-parse-a-recurrence-pattern.md)
     
     Este tópico mostra como ler e analisar um padrão de recorrência para um item de compromisso.
     

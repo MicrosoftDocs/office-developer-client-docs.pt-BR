@@ -88,6 +88,6 @@ Os arquivos a seguir fornecem uma pasta de trabalho de exemplo que usa um UDF e 
 ## <a name="see-also"></a>Confira também
 
 - [Configurar definições administrativas Excel Online](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [Visualização de servidor on-line do Office](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [Office Online Server Preview](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Copiando entradas do catálogo de endereços
+title: Copiar entradas do catálogo de endereços
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ce7f7e2db341be62912935b7a55d69eaf5db8ab5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766320"
 ---
-# <a name="copying-address-book-entries"></a>Copiando entradas do catálogo de endereços
+# <a name="copying-address-book-entries"></a>Copiar entradas do catálogo de endereços
 
   
   

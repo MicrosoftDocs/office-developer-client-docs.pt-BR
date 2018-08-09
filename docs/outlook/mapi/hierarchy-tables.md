@@ -1,5 +1,5 @@
 ---
-title: Tabelas de hierarquias
+title: Tabelas de hierarquia
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766713"
 ---
-# <a name="hierarchy-tables"></a>Tabelas de hierarquias
+# <a name="hierarchy-tables"></a>Tabelas de hierarquia
 
   
   
@@ -80,10 +80,10 @@ Provedores de catálogo de endereços devem suportar os seguintes métodos **IMA
 |||
 |:-----|:-----|
 |[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |[IMAPITable::QueryPosition](imapitable-queryposition.md) <br/> |
-|[IMAPITable::SeekRow](imapitable-seekrow.md) <br/> |[IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md) <br/> |
-|[IMAPITable:: FindRow](imapitable-findrow.md) <br/> |[IMAPITable:: Restrict](imapitable-restrict.md) <br/> |
+|[IMAPITable::SeekRow](imapitable-seekrow.md) <br/> |[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) <br/> |
+|[IMAPITable::ExpandRow](imapitable-findrow.md) <br/> |[IMAPITable::Restrict](imapitable-restrict.md) <br/> |
 |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) <br/> |[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
-|[IMAPITable:: QueryRows](imapitable-queryrows.md) <br/> | <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> | <br/> |
    
 ## <a name="see-also"></a>Confira também
 

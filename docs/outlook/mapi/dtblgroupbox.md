@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _DTBLGROUPBOX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo está no formato ANSI.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLGROUPBOX** descreve um controle de caixa de grupo que é usado para associar visualmente outros controles na caixa de diálogo. A técnica de realce envolve ao redor por uma caixa os outros controles. 
   

@@ -23,7 +23,7 @@ A extensão do provedor de documento suporta quatro operações:
   
 - Importação
     
-- Exportar
+- Export
     
 - Abrir
     

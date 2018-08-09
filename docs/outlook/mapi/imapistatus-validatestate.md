@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ff29ac7e7f9b7876bb678930390ca556351ecf6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -32,7 +32,7 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulUIParam_
   
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação de validação, geralmente clicando no botão **Cancelar** em uma caixa de diálogo. Esse valor será retornado somente por provedores de transporte remoto. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIStatus::ValidateState** verifica o estado de um recurso que está associado um objeto de status. **ValidateState** é o único método na interface do [IMAPIStatus](imapistatusimapiprop.md) que é necessário para todos os objetos de status. O comportamento exato desse método depende da implementação. A tabela a seguir descreve a implementação de cada um dos diferentes tipos de objetos de status. 
   
@@ -192,9 +192,9 @@ Quando o sinalizador SUPPRESS_UI é definido, nenhum dos caixas de diálogo de p
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
 - [IXPLogon::AddressTypes](ixplogon-addresstypes.md)
 - [IXPLogon::FlushQueues](ixplogon-flushqueues.md)
-- [Propriedade canônico de PidTagRemoteValidateOk](pidtagremotevalidateok-canonical-property.md)
-- [Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
-- [Propriedade canônico de PidTagStatusCode](pidtagstatuscode-canonical-property.md)
-- [Propriedade canônico de PidTagStatusString](pidtagstatusstring-canonical-property.md)
-- [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+- [Propriedade canônica PidTagRemoteValidateOk](pidtagremotevalidateok-canonical-property.md)
+- [Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+- [Propriedade canônica PidTagStatusCode](pidtagstatuscode-canonical-property.md)
+- [Propriedade canônica PidTagStatusString](pidtagstatusstring-canonical-property.md)
+- [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

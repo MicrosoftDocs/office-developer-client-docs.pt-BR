@@ -43,7 +43,7 @@ HRESULT DoCopyTo(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSrcInterface_
   
@@ -145,7 +145,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > O tipo de propriedade não é o tipo esperado pelo chamador.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::DoCopyTo** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagens podem chamar **DoCopyTo** para implementar o método [IMAPIProp::CopyTo](imapiprop-copyto.md) para suas pastas e mensagens. 
   
@@ -193,15 +193,15 @@ Se ocorrer um erro de global na chamada **DoCopyTo** , não use ou livre a estru
   
 [IMAPISupport::GetLastError](imapisupport-getlasterror.md)
   
-[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
+[Propriedade canônica PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   

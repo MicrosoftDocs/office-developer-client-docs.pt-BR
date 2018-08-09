@@ -38,7 +38,7 @@ HRESULT DoConfigPropsheet(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -70,7 +70,7 @@ S_OK
   
 > A folha de propriedades de configuração foi exibida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::DoConfigPropsheet** é implementado para todos os objetos de suporte. **DoConfigPropSheet** fornece uma interface de usuário padrão para exibir as propriedades de provedores de serviço e serviços de mensagem. Você deve usar essa caixa de diálogo padrão para todas as exibições da propriedade de configuração para que os usuários se beneficiam de uma interface consistente do Windows. 
   
@@ -90,11 +90,11 @@ Você pode criar a tabela de exibição apontada pelo parâmetro _lpDisplayTable
   
 [IABProvider::Logon](iabprovider-logon.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
-[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)
+[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   
 [IMSProvider::Logon](imsprovider-logon.md)
   

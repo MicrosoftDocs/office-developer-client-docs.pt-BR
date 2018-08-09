@@ -34,7 +34,7 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _lpKey_
   
@@ -68,7 +68,7 @@ S_OK
   
 > As notificações foram geradas com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::Notify** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **Notify** para solicitar que o MAPI gerar uma notificação para um coletor de advise foi registrado anteriormente para a notificação por meio do método **IMAPISupport::Subscribe** . 
   
@@ -95,6 +95,6 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
 - [NOTIFCALLBACK](notifcallback.md) 
 - [NOTIFICAÇÃO](notification.md)  
 - [NOTIFKEY](notifkey.md)  
-- [Propriedade canônico de PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
+- [Propriedade canônica PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

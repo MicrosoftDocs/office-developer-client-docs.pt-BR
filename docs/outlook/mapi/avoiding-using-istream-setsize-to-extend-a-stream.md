@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766241"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitar o uso de IStream::SetSize para estender um fluxo
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitar usar IStream::SetSize para estender um fluxo
 
   
   

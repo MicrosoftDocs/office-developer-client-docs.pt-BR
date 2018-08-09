@@ -76,6 +76,6 @@ Quando um cliente MAPI inicia um desligamento rápido e chama **IMAPIClientShutd
 ## <a name="see-also"></a>Confira também
 
 - [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)
-- [Visão geral de desligamento rápido](fast-shutdown-overview.md)
-- [Práticas recomendadas para desligamento rápido](best-practices-for-fast-shutdown.md)
+- [Visão geral do desligamento rápido](fast-shutdown-overview.md)
+- [Práticas recomendadas para o desligamento rápido](best-practices-for-fast-shutdown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d0418ac2ec5d01d58c63e4ad48a1066cc386e946
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct _DTBLEDIT
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   
@@ -73,7 +73,7 @@ MAPI_UNICODE
   
 > Marca de propriedade para uma propriedade do tipo PT_TSTRING. O membro **ulPropTag** identifica a propriedade de cadeia de caracteres cujos dados são exibidos e editados no controle de edição. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLEDIT** descreve um controle de edição de uma área em uma caixa de diálogo que contém informações alfanuméricos. Quase todas as caixas de diálogo possuem o controle de edição de pelo menos um. Controles de edição podem ser modificável por um usuário ou somente leitura. 
   
@@ -89,7 +89,7 @@ Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas]
   
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
-[Propriedade canônico de PidTagControlType](pidtagcontroltype-canonical-property.md)
+[Propriedade canônica PidTagControlType](pidtagcontroltype-canonical-property.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

@@ -31,7 +31,7 @@ HRESULT SetOrder(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pclsidCategory_
   
@@ -58,7 +58,7 @@ _rgAccts_
 |E_INVALIDARG  <br/> |Um ou mais argumentos são inválidos.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |O gerente de conta não foi inicializado para uso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O chamador aloca memória para o ponteiro de matriz _prgAccts_ , bem como para a matriz nos quais pontos _prgAccts_ . 
   

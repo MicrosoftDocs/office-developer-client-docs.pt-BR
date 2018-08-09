@@ -1,5 +1,5 @@
 ---
-title: Criando um destinatário
+title: Criar um destinatário
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c596cb219cb1096f186e616c05b8372fef3b42a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766362"
 ---
-# <a name="creating-a-recipient"></a>Criando um destinatário
+# <a name="creating-a-recipient"></a>Criar um destinatário
 
   
   

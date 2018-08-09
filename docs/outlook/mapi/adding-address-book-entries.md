@@ -1,5 +1,5 @@
 ---
-title: Adicionar entradas do catálogo de endereços
+title: Adicionar entradas ao catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766120"
 ---
-# <a name="adding-address-book-entries"></a>Adicionar entradas do catálogo de endereços
+# <a name="adding-address-book-entries"></a>Adicionar entradas ao catálogo de endereços
 
   
   

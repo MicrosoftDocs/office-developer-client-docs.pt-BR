@@ -1,5 +1,5 @@
 ---
-title: Integração com o Office de aplicativos do Android
+title: Integração com o Office em aplicativos do Android
 manager: soliver
 ms.date: 06/18/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765722"
 ---
-# <a name="integrate-with-office-from-android-applications"></a>Integração com o Office de aplicativos do Android
+# <a name="integrate-with-office-from-android-applications"></a>Integração com o Office em aplicativos do Android
 
 Office para Android fornece uma solução extensível que permite a integração com aplicativos de terceiros. É possível integrar com o Office a partir de seu aplicativo Android passando-se os usuários de seu aplicativo para o Office.
   
@@ -73,9 +73,9 @@ A tabela a seguir lista os protocolos para cada aplicativo do Office.
   
 |**Application**|**Protocolo**|
 |:-----|:-----|
-|Excel  <br/> |MS excel:  <br/> |
-|PowerPoint  <br/> |MS-powerpoint:  <br/> |
-|Word  <br/> |MS-word:  <br/> |
+|Excel  <br/> |ms-excel:  <br/> |
+|PowerPoint  <br/> |ms-powerpoint:  <br/> |
+|Word  <br/> |ms-word:  <br/> |
    
 ### <a name="open-mode"></a>Modo de abertura
 

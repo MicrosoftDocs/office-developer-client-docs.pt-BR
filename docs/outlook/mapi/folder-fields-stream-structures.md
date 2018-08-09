@@ -1,11 +1,11 @@
 ---
-title: Estruturas de fluxo de campos de pasta
+title: Estruturas de fluxo do campo de pastas
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766573"
 ---
-# <a name="folder-fields-stream-structures"></a>Estruturas de fluxo de campos de pasta
+# <a name="folder-fields-stream-structures"></a>Estruturas de fluxo do campo de pastas
 
 **Aplica-se a**: Outlook 
   
@@ -102,7 +102,7 @@ Valores de enumeração **FldType** estão listados na tabela a seguir.
 |ftTime  <br/> |0x5  <br/> |Data/Hora  <br/> |
 |ftBoolean  <br/> |0x6  <br/> |Sim/Não  <br/> |
 |ftDuration  <br/> |0x7  <br/> |Duração  <br/> |
-|ftMultiString  <br/> |0xB  <br/> |Palavras-chave  <br/> |
+|ftMultiString  <br/> |0xB  <br/> |Keywords  <br/> |
 |ftFloat  <br/> |0xC  <br/> |Número ou porcentagem  <br/> |
 |ftCurrency  <br/> |0xE  <br/> |Moeda  <br/> |
 |ftCalc  <br/> |0x12  <br/> |Fórmula  <br/> |
@@ -171,5 +171,5 @@ A fórmula do campo em seu formato de interface do usuário é editada na caixa 
 ## <a name="see-also"></a>Confira também
 
 - [Exemplo de fluxo de FolderUserFields](folderuserfields-stream-sample.md)
-- [Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [Adicionar uma definição de um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
 

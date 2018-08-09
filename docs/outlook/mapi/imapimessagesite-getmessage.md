@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b3cdd9994de3e2a02a5302068881abce57a632a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppmsg_
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Nenhuma mensagem atualmente existe para o formulário de chamada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Formulários chamar o método **IMAPIMessageSite::GetMessage** para obter uma interface de mensagem para a mensagem atual. A mensagem atual é a mesma mensagem conforme passado anteriormente no método [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)ou [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) . 
   
@@ -73,13 +73,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IPersistMessage::InitNew](ipersistmessage-initnew.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
   
 [IPersistMessage::Load](ipersistmessage-load.md)
   
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

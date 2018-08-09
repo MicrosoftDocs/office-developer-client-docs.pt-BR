@@ -27,7 +27,7 @@ Objetos de origem Advise implementam um método **Advise** , que é chamado pelo
   
 Como receber notificações permite aos usuários exibir as informações mais atualizadas, é recomendável que todos os clientes se registrar e manipular notificações. No entanto, é opcional.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Registrando uma notificação](registering-for-a-notification.md): descreve como registrar um cliente para notificações como parte do seu processo de inicialização.
     

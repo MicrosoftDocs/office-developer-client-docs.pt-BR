@@ -283,5 +283,5 @@ Se você executar um utilitário ofuscador no assembly gerado quando um modelo d
   
 ## <a name="see-also"></a>Confira também
 
-- [Responder para formar eventos usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Responder eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

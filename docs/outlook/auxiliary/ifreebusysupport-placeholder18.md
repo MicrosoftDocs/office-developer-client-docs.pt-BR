@@ -30,7 +30,7 @@ HRESULT Placeholder18();
 
 Sempre E_NOTIMPL, porque este membro é um espaço reservado e não é suportado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro deve retornar E_NOTIMPL.
   

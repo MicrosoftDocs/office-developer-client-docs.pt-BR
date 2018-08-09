@@ -1,5 +1,5 @@
 ---
-title: Adiar processamento
+title: Adiar o processamento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766373"
 ---
-# <a name="deferring-processing"></a>Adiar processamento
+# <a name="deferring-processing"></a>Adiar o processamento
 
   
   

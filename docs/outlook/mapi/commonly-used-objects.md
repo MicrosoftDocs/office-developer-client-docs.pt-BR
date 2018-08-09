@@ -1,5 +1,5 @@
 ---
-title: Os objetos mais usados
+title: Objetos usados com frequência
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766281"
 ---
-# <a name="commonly-used-objects"></a>Os objetos mais usados
+# <a name="commonly-used-objects"></a>Objetos usados com frequência
 
   
   
@@ -33,7 +33,7 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
     Introduz o modelo de objeto componente conforme ele está relacionado a MAPI, descreve o modelo de hierarquia e contenção de objeto MAPI, mapeia os objetos para interfaces e descreve as responsabilidades de implementação.
     
-- [Vis�o geral da propriedade MAPI](mapi-property-overview.md)
+- [Visão geral da propriedade MAPI](mapi-property-overview.md)
     
     Descreve como gerenciar objetos e clientes trabalham com propriedades.
     
@@ -53,7 +53,7 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
   - Mensagens
     
-  - Attachments
+  - Anexos
     
   - Destinatários
     
@@ -61,7 +61,7 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
   - Objetos de serviço de perfil e mensagem
     
-- [Desenvolvendo um aplicativo de cliente MAPI](developing-a-mapi-client-application.md)
+- [Desenvolver aplicativos cliente MAPI](developing-a-mapi-client-application.md)
     
     Descreve como usar objetos para implementar um aplicativo de cliente MAPI.
     
@@ -69,19 +69,19 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
     Descreve como usar objetos de suporte e o progresso e como implementar um objeto de status e exibe a tabela.
     
-- [Desenvolvendo um provedor de catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
+- [Desenvolver um provedor do catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
     
     Descreve como implementar os objetos de logon e o provedor de catálogo do endereço, recipientes do catálogo, usuários, listas de distribuição e tabelas relacionadas de mensagens de endereços.
     
-- [Desenvolvendo um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
+- [Desenvolver um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
     
     Descreve como implementar o logon de transporte e objetos do provedor, o objeto de status, objeto TNEF Transport Neutral Encapsulation Format () e pastas.
     
-- [Desenvolvendo um provedor de armazenamento de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+- [Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
     
     Descreve como implementar a objetos de logon e o provedor de armazenamento de mensagem, repositórios de mensagem, pastas, mensagens, anexos, destinatários e tabelas relacionadas.
     
-- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
     
     Descreve como implementar objetos de formulário.
     

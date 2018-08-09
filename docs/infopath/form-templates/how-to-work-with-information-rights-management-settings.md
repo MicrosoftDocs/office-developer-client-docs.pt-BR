@@ -1,5 +1,5 @@
 ---
-title: Manuseio configurações de gerenciamento de direitos de informação
+title: Trabalhar com configurações do Gerenciamento de Direitos de Informação
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765644"
 ---
-# <a name="work-with-information-rights-management-settings"></a>Manuseio configurações de gerenciamento de direitos de informação
+# <a name="work-with-information-rights-management-settings"></a>Trabalhar com configurações do Gerenciamento de Direitos de Informação
 
 Há dois tipos de configurações de gerenciamento de direitos de informação (IRM) disponíveis no Microsoft InfoPath: um para proteger o acesso aos modelos de formulário do InfoPath e outro para controlar o acesso aos e ações nos dados do formulário contidos em formulários preenchidos.
   
@@ -121,7 +121,7 @@ Permissões de um usuário são definidas ou lido usando valores de enumeração
 |**PermissionType.Save** <br/> |Permite que o usuário salve o formulário.  <br/> |
 |**PermissionType.View** <br/> |Permite ao usuário exibir (leitura) do formulário. (As permissões de **leitura** e o **modo de exibição** são equivalentes).  <br/> |
    
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 No exemplo a seguir, clicando no controle de **botão** obtém o **UserPermissionsCollection** para o formulário atual, adiciona e atribui um usuário para o nível de acesso de alteração e define uma data de validade de dois dias a partir da data atual. 
   

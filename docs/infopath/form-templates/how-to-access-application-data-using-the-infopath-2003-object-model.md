@@ -1,5 +1,5 @@
 ---
-title: Dados de aplicativo do Access usando o modelo de objeto do InfoPath 2003
+title: Acessar dados do aplicativo usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765589"
 ---
-# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Dados de aplicativo do Access usando o modelo de objeto do InfoPath 2003
+# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Acessar dados do aplicativo usando o modelo de objeto do InfoPath 2003
 
 O modelo de objeto compatível com o InfoPath 2003 fornece objetos e coleções que podem ser usadas para acessar informações sobre o aplicativo do InfoPath, incluindo informações relacionadas ao documento XML subjacente de um formulário e o arquivo de definição (. xsf) do formulário. Esses dados são acessados através do objeto de nível superior na hierarquia de modelos de objeto do InfoPath, que é instanciado por meio da interface do [aplicativo](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . 
   

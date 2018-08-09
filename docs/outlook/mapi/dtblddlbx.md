@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _DTBLDDLBX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -60,7 +60,7 @@ typedef struct _DTBLDDLBX
   
 > Marca de propriedade para uma propriedade de tabela do tipo PT_OBJECT que podem ser abertos usando uma **OpenProperty** chamar. A tabela deve ter duas colunas: **ulPRDisplayProperty** e **ulPRSetProperty**. As linhas da tabela devem corresponder ao itens na lista.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLDDLBX** descreve um controle de lista suspensa que é exibido como um único item, até que o usuário escolhe expandi-la. 
   
@@ -89,7 +89,7 @@ Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas]
   
 [Implementação da tabela de exibição](display-table-implementation.md)
   
-[Exiba tabelas](display-tables.md)
+[Exibir tabelas](display-tables.md)
   
 [Visão geral do tipo de propriedade MAPI](mapi-property-type-overview.md)
 

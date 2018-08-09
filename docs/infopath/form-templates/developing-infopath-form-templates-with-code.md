@@ -19,13 +19,13 @@ ms.locfileid: "19765582"
 
 Os tópicos desta seção fornecem informações sobre a criação de modelos de formulário que têm a lógica de negócios escrita em código gerenciado (Visual Basic ou c#) em relação a membros do namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 [Introdução ao desenvolvimento de modelos de formulário com código](getting-started-developing-form-templates-with-code.md)
   
 > Fornece informações sobre como começar a criar modelos de formulário de código que funcionam com o modelo de objeto do InfoPath fornecido pelo namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) de gerenciada. 
     
-[Compreendendo o modelo de objeto do InfoPath e tarefas comuns do desenvolvedor](understanding-the-infopath-object-model-and-common-developer-tasks.md)
+[Noções básicas sobre o modelo de objeto do InfoPath e tarefas comuns de desenvolvedor](understanding-the-infopath-object-model-and-common-developer-tasks.md)
   
 > Discute o modelo de objeto do InfoPath e tarefas de programação comuns para modelos de formulário de código gerenciado que funcionam com o modelo de objeto fornecido pelo namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
     
@@ -33,11 +33,11 @@ Os tópicos desta seção fornecem informações sobre a criação de modelos de
   
 > Discute o modelo de segurança para os modelos de formulário do InfoPath que usar o código gerenciado e relacionadas a procedimentos de segurança.
     
-[Como trabalhar com o SharePoint e InfoPath Forms Services](working-with-sharepoint-and-infopath-forms-services.md)
+[Trabalhar com o SharePoint e o InfoPath Forms Services](working-with-sharepoint-and-infopath-forms-services.md)
   
 > Discute a compatibilidade de suporte e o recurso de modelo de objeto em modelos de formulário de código gerenciado criado para o InfoPath Forms Services. 
     
-[Conceitos de desenvolvimento do InfoPath adicionais](additional-infopath-development-concepts.md)
+[Conceitos de desenvolvimento adicionais do InfoPath](additional-infopath-development-concepts.md)
   
 > Aborda os conceitos adicionais relacionados ao desenvolvimento de modelo de formulário do InfoPath.
     

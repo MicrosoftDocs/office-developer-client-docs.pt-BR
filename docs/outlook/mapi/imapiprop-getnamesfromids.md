@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a2ec6def319b1f4686a61e9f97a936bfeba0d410
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT GetNamesFromIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lppPropTags_
   
@@ -85,7 +85,7 @@ MAPI_E_INVALID_PARAMETER
   
 > O membro **cValues** de uma ou mais das entradas na matriz de marca de propriedade apontado pela _lppPropTags_ é definido como 0. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Enquanto o acesso a maioria das propriedades é por identificador de propriedade, algumas propriedades podem ser acessadas pelo nome. O método **IMAPIProp::GetNamesFromIDs** pode ser chamado para fazer o seguinte: 
   
@@ -157,12 +157,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [MAPI denominada propriedades](mapi-named-properties.md)
   
-[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
+[Usar macros para lidar com erros](using-macros-for-error-handling.md)
 

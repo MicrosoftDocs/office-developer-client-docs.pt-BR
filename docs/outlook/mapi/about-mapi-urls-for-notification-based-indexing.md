@@ -90,6 +90,6 @@ O provedor de armazenamento deve gravar esses valores BLOB na ordem mostrada. A 
     
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
+- [Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)
 

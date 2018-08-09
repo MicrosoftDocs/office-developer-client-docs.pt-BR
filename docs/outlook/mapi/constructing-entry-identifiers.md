@@ -1,5 +1,5 @@
 ---
-title: Construindo identificadores de entrada
+title: Criar identificadores de entradas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766299"
 ---
-# <a name="constructing-entry-identifiers"></a>Construindo identificadores de entrada
+# <a name="constructing-entry-identifiers"></a>Criar identificadores de entradas
 
   
   

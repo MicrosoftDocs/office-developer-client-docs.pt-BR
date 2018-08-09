@@ -36,7 +36,7 @@ HRESULT ResolveMessageClass(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _szMsgClass_
   
@@ -68,7 +68,7 @@ E_NOT_FOUND
   
 > A classe de mensagem passada no parâmetro _szMsgClass_ não coincide com a classe de mensagem para qualquer formulário na biblioteca de formulários. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::ResolveMessageClass** para resolver uma classe de mensagem para o seu formulário dentro de um contêiner de formulário. O objeto de informações do formulário retornado no parâmetro _ppResult_ fornece mais acesso às propriedades do formulário que tem a classe de mensagem determinado. 
   
@@ -86,11 +86,11 @@ O identificador de classe para a classe de mensagem resolvido é retornado como 
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

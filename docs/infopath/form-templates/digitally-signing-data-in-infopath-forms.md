@@ -57,5 +57,5 @@ Os formulários do InfoPath assinados e assinaturas digitais, criadas pelo InfoP
 
 
 
-[Trabalhar com assinaturas digitais](how-to-work-with-digital-signatures.md)
+[Trabalhar com Assinaturas Digitais](how-to-work-with-digital-signatures.md)
 

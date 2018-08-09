@@ -60,7 +60,7 @@ Para não-desenvolvedores, é recomendável que você usar a interface de usuár
   
 ||||
 |:-----|:-----|:-----|
-|**Property** <br/> |**Tag** <br/> |**Descrição** <br/> |
+|**Propriedade** <br/> |**Tag** <br/> |**Descrição** <br/> |
 | PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W  <br/> |0x6641001F  <br/> |Endereço SMTP do usuário  <br/> |
 |PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |O nome de exibição do usuário  <br/> |
 |PR_STORE_PROVIDERS  <br/> |0x3D000102  <br/> |Configure o valor dessa propriedade, localizado na seção **EMSMDB** e atualizar o UID correspondente para a propriedade correspondente  <br/> |
@@ -69,7 +69,7 @@ Para não-desenvolvedores, é recomendável que você usar a interface de usuár
   
 ||||
 |:-----|:-----|:-----|
-|**Property** <br/> |**Valor** <br/> |**Descrição** <br/> |
+|**Propriedade** <br/> |**Valor** <br/> |**Descrição** <br/> |
 |PR_PROFILE_UNRESOLVED_NAME<sup>1</sup> <br/> |alias da caixa de correio  <br/> |O alias para a caixa de correio de destino; Por exemplo, administrador  <br/> |
 |PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |id de servidor personalizado  <br/> |O valor recuperado da **descoberta automática**. no formato <guid>@tenant.onmicrosoft.com; Por exemplo, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Nó de descoberta automática* : resposta/conta/protocolo/servidor (EXCH)  <br/> |
 |PR_ROH_PROXY_SERVER  <br/> |Outlook.office365.com  <br/> | *Nó de descoberta automática* : resposta/conta/protocolo/servidor (EXPR) <sup>2</sup> <br/> |
@@ -82,7 +82,7 @@ Para não-desenvolvedores, é recomendável que você usar a interface de usuár
   
 ||||
 |:-----|:-----|:-----|
-|**Property** <br/> |**Valor** <br/> |**Descrição** <br/> |
+|**Propriedade** <br/> |**Valor** <br/> |**Descrição** <br/> |
 |PR_PROFILE_UNRESOLVED_NAME<sup>1</sup> <br/> |alias da caixa de correio  <br/> |O alias para a caixa de correio de destino; Por exemplo, administrador  <br/> |
 |PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |id de servidor personalizado  <br/> |O valor recuperado da **descoberta automática**. no formato <guid>@tenant.onmicrosoft.com; Por exemplo, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Nó de descoberta automática* : resposta/conta/protocolo/servidor (EXCH)  <br/> |
 |PR_ROH_PROXY_SERVER  <br/> | nome de domínio do servidor de acesso de cliente  <br/> | O nome de domínio totalmente qualificado (FQDN); Por exemplo, e2013cas.contoso.com *Nó de descoberta automática* : resposta/conta/protocolo/servidor (EXPR) <sup>2</sup> <br/> |

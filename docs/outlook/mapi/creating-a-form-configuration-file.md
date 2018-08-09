@@ -1,5 +1,5 @@
 ---
-title: Criando um arquivo de configuração de formulário
+title: Criar um arquivo de configuração de formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766352"
 ---
-# <a name="creating-a-form-configuration-file"></a>Criando um arquivo de configuração de formulário
+# <a name="creating-a-form-configuration-file"></a>Criar um arquivo de configuração de formulário
 
   
   
@@ -25,7 +25,7 @@ Um arquivo de configuração de formulário fornece informações sobre um formu
   
 Um arquivo de configuração do formulário é um arquivo com uma extensão. cfg e tem um formato semelhante a um arquivo de inicialização do Windows. É um arquivo de texto sem formatação com um número de seções. Cada seção começa com um nome de seção, colocado entre colchetes. Cada seção contém uma ou mais linhas que definem os valores e configurações relevantes dessa seção. Valores tem um dos seguintes tipos:
   
-- Cadeia de caracteres
+- String
     
 - Cadeia de caracteres exibida
     
@@ -43,5 +43,5 @@ Para obter mais informações sobre as seções de um arquivo. cfg, consulte o [
 
 
 
-[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

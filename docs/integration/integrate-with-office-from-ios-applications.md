@@ -1,5 +1,5 @@
 ---
-title: Integrar com o Office a partir de aplicativos do iOS
+title: Integração do Office com aplicativos do iOS
 manager: soliver
 ms.date: 06/04/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765728"
 ---
-# <a name="integrate-with-office-from-ios-applications"></a>Integrar com o Office a partir de aplicativos do iOS
+# <a name="integrate-with-office-from-ios-applications"></a>Integração do Office com aplicativos do iOS
 
 Office para iOS fornece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode integrar com o Office do seu aplicativo iOS passando os usuários de seu aplicativo para Office, e, em seguida, retornando-los ao seu aplicativo.
   
@@ -75,10 +75,10 @@ A tabela a seguir lista os protocolos para cada aplicativo do Office.
   
 |**Application**|**Protocolo**|
 |:-----|:-----|
-|Excel  <br/> |MS excel:  <br/> |
+|Excel  <br/> |ms-excel:  <br/> |
 |OneNote  <br/> |OneNote:  <br/> |
-|PowerPoint  <br/> |MS-powerpoint:  <br/> |
-|Word  <br/> |MS-word:  <br/> |
+|PowerPoint  <br/> |ms-powerpoint:  <br/> |
+|Word  <br/> |ms-word:  <br/> |
    
 ### <a name="open-mode"></a>Modo de abertura
 

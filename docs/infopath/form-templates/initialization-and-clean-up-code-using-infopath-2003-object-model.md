@@ -1,5 +1,5 @@
 ---
-title: Código de inicialização e a limpeza usando o modelo de objeto do InfoPath 2003
+title: Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765627"
 ---
-# <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Código de inicialização e a limpeza usando o modelo de objeto do InfoPath 2003
+# <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003
 
 Por padrão, o FormCode.cs FormCode.vb arquivo ou que é criado para um projeto de modelo de formulário que é compatível com o InfoPath 2003 contém o código-fonte para a lógica de programação do formulário. O modelo para o projeto gera uma classe no FormCode.cs ou FormCode.vb arquivo muito semelhante as classes nos exemplos a seguir onde é possível definir a inicialização e o código de limpeza, bem como manipuladores de eventos do formulário. Os arquivos FormCode.cs e FormCode.vb aplicam um atributo de **System.ComponentModel.DescriptionAttribute** de nível de assembly, que identifica a classe como a única classe onde os manipuladores de eventos são implementados. O atributo **InfoPathNamespace** (que é implementado pelo tipo [InfoPathNamespaceAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathNamespaceAttribute.aspx) ) é aplicado a uma classe para identificar os espaços para nome XML DOM seleção usados dentro da classe. Os espaços para nome referenciados no **InfoPathNamespace** são mantidos pelo sistema do projeto do InfoPath. 
   

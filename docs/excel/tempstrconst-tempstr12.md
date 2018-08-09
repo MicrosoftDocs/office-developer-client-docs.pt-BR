@@ -11,7 +11,7 @@ keywords:
 - função tempstr12 [excel 2007], função TempStrConst [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 321c41aa87a3bfa0edc1d77ecc8fbe4b6a6a4730
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ LPXLOPER TempStrConst(const LPSTR str);
 LPXLOPER12 TempStr12(const XCHAR* lpstr);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
- _STR_
+ _str_
   
 Um ponteiro para a cadeia de caracteres fonte terminada em nulo. No caso de s **XLOPER**, TempStrConst trunca strings que são maiores do que 255 bytes. No caso de **XLOPER12**s, TempStr12Const trunca cadeias de caracteres que são mais de 32.767 caracteres Unicode.
   
@@ -40,11 +40,11 @@ Um ponteiro para a cadeia de caracteres fonte terminada em nulo. No caso de s **
 
 Retorna uma cadeia de caracteres **xltypeStr** contendo uma cópia do buffer passado na cadeia de caracteres. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Observe que a cadeia de caracteres **XLOPER** função Framework, **TempStr**, se comporta de maneira diferente e tenta sobrescrever o primeiro caractere da cadeia de caracteres fornecida com o comprimento da cadeia de caracteres subsequentes. Isso não é sempre uma segura coisa a fazer: Microsoft Excel pode falhar se passadas uma cadeia de caracteres somente leitura. A maneira que o trabalho **TempStrConst** e o **TempStr12** agora é substituída dessa maneira de criação de cadeias de caracteres temporárias. Portanto, o primeiro caractere da cadeia de caracteres de entrada é tratado como o início da cadeia de caracteres, ou seja, não como um caractere de comprimento ou como um espaço para um caractere de comprimento. Você não deve passar cadeias de caracteres que possuem um caractere de comprimento codificado no início, conforme as consequências poderia ser imprevisíveis. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa a função **TempStr12** para criar uma cadeia de caracteres para uma caixa de mensagem. 
   
@@ -62,5 +62,5 @@ short WINAPI TempStrExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

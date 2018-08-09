@@ -29,7 +29,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 |Marca de propriedade:  <br/> |0x0002001F  <br/> |
 |Access:  <br/> |Leitura/gravação  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Obter ou definir essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp](iolkaccount-setprop.md), respectivamente.
   

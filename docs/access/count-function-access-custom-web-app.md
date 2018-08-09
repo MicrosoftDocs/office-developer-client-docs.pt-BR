@@ -18,9 +18,9 @@ ms.locfileid: "19765081"
 Retorna o número de registros em uma consulta ou tabela.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 **Contagem** (*Expressão*) 
   
@@ -30,7 +30,7 @@ A função **Count** contém os seguintes argumentos.
 |:-----|:-----|
 | *Expressão*  <br/> |Uma expressão de cadeia de caracteres que identifica o campo que contém os dados que você deseja contar ou uma expressão que executa um cálculo usando os dados no campo. Operandos em *expressão* podem incluir o nome de um campo de tabela ou a função (que pode ser intrínseca ou definida pelo usuário, mas não outro SQL agregadas funções). Você pode contar qualquer tipo de dados, incluindo o texto.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode usar a contagem para contar o número de registros em uma consulta de base. Por exemplo, você poderia usar contar para contar o número de pedidos enviados para um determinado país ou região.
   

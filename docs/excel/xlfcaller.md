@@ -10,7 +10,7 @@ keywords:
 - função xlfCaller [excel 2007]
 localization_priority: Normal
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 92d2d1877d7b315d178ef1fa36b47bd5f9f8e661
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,17 +42,17 @@ Retorna informações sobre a célula, o intervalo de células, o comando em um 
 Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 ```
 
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 O valor de retorno é um dos seguintes **XLOPER**/ **XLOPER12** tipos de dados: **xltypeRef**, **xltypeSRef**, **xltypeNum**, **xltypeStr**, **xltypeErr**ou **xltypeMulti**. Desde que três desses tipos de apontar para a memória alocada, o valor de retorno de **xlfCaller** deve sempre ser liberado em uma chamada para a [função xlFree](xlfree.md) quando ele não é mais necessária. 
   
 Para obter mais informações sobre **XLOPERs**/ **XLOPER12s** consulte [Gerenciamento de memória no Excel](memory-management-in-excel.md).
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa função é a função apenas não-planilha que pode ser chamada a partir de uma função de planilha DLL/XLL. Outras funções de informações XLM só podem ser chamadas de comandos ou equivalente de folha de macro funções.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
  `\SAMPLES\EXAMPLE\EXAMPLE.C`. Esta função chama uma macro de comando (xlcSelect) e funcionará corretamente somente quando chamadas de uma folha de macro.
   
@@ -71,5 +71,5 @@ short WINAPI CallerExample(void)
 
 
 
-[Funções de XLM API C essenciais e úteis](essential-and-useful-c-api-xlm-functions.md)
+[Funções XLM essenciais e úteis para a API de C](essential-and-useful-c-api-xlm-functions.md)
 

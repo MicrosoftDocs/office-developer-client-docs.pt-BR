@@ -1,5 +1,5 @@
 ---
-title: Localizando enviadas ou salvo mensagens
+title: Localizar mensagens enviadas ou salvas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766564"
 ---
-# <a name="finding-sent-or-saved-messages"></a>Localizando enviadas ou salvo mensagens
+# <a name="finding-sent-or-saved-messages"></a>Localizar mensagens enviadas ou salvas
 
   
   

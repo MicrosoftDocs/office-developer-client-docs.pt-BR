@@ -1,5 +1,5 @@
 ---
-title: Use a recuperação de travamento MAPI API
+title: Usar a API de recuperação de falhas MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766756"
 ---
-# <a name="use-the-mapi-crash-recovery-api"></a>Use a recuperação de travamento MAPI API
+# <a name="use-the-mapi-crash-recovery-api"></a>Usar a API de recuperação de falhas MAPI
 
 **Aplica-se a**: Outlook 
   
@@ -52,6 +52,6 @@ LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep)
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a recuperação de travamento MAPI API](about-the-mapi-crash-recovery-api.md) 
+- [Sobre a API de recuperação de falhas MAPI](about-the-mapi-crash-recovery-api.md) 
 - [MAPICrashRecovery](mapicrashrecovery.md)
 

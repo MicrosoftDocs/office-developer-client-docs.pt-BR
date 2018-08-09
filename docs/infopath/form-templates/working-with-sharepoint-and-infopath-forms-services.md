@@ -1,5 +1,5 @@
 ---
-title: Como trabalhar com o SharePoint e InfoPath Forms Services
+title: Trabalhar com o SharePoint e o InfoPath Forms Services
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765726"
 ---
-# <a name="working-with-sharepoint-and-infopath-forms-services"></a>Como trabalhar com o SharePoint e InfoPath Forms Services
+# <a name="working-with-sharepoint-and-infopath-forms-services"></a>Trabalhar com o SharePoint e o InfoPath Forms Services
 
 Esta seção fornece informações sobre como trabalhar com modelos de formulário compatíveis com navegador que serão implantados para Microsoft SharePoint Server 2010 com o InfoPath Forms Services.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Criando modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
+[Criar modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   
 > Descreve quais controles, recursos e membros do modelo de objeto são suportados para o modelo de formulário compatíveis com navegador implantado no InfoPath Forms Services.
     
-[Suporte de fluxo de trabalho do SharePoint nos formulários do InfoPath](sharepoint-workflow-support-in-infopath-forms.md)
+[Suporte a fluxo de trabalho do SharePoint em formulários do InfoPath](sharepoint-workflow-support-in-infopath-forms.md)
   
 > Fornece links para informações sobre o desenvolvimento de formulários do InfoPath para fluxos de trabalho.
     

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767324"
 ---
-# <a name="imapitablefindrow"></a>IMAPITable:: FindRow
+# <a name="imapitablefindrow"></a>IMAPITable::ExpandRow
 
   
   
@@ -35,7 +35,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpRestriction_
   
@@ -83,7 +83,7 @@ MAPI_W_POSITION_CHANGED
   
 > A chamada foi bem-sucedida, mas o indicador usado na operação não é mais é definido na mesma linha que quando ele foi usado por último; Se o indicador não tiver sido usado, ele não está mais na mesma posição quando ele foi criado. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Consulte [usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable:: FindRow** localiza a primeira linha da tabela para coincidir com um conjunto de critérios de pesquisa descrito na estrutura **SRestriction** apontada pelo parâmetro _lpRestriction_ . 
   
@@ -127,7 +127,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SRestriction](srestriction.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

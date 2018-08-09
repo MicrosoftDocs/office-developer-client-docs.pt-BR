@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a87f7595eb03062e54ea3aa8f7dca1f1b0f1e568
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -49,5 +49,5 @@ Para obter informações sobre como obter os arquivos de cabeçalho MAPI, consul
 
 
 
-[Introdu��o � refer�ncia do MAPI do Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
 

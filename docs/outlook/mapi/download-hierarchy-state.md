@@ -1,11 +1,11 @@
 ---
-title: Estado de hierarquia de download
+title: Baixar estado da hierarquia
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e31a2a9c45a8896efbc43eb7f4b22f31f51e4013
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766446"
 ---
-# <a name="download-hierarchy-state"></a>Estado de hierarquia de download
+# <a name="download-hierarchy-state"></a>Baixar estado da hierarquia
 
   
   

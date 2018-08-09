@@ -10,7 +10,7 @@ keywords:
 - função xlopertoxloper12 [excel 2007]
 localization_priority: Normal
 ms.assetid: b2d4581b-ebf6-4eba-aa95-69a5a9ee8028
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 76c78e5a2ad62b1a3d1aa23748b10e49e07f6543
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,7 +28,7 @@ Usado para converter do antigo **XLOPER** o novo **XLOPER12**rotina de conversã
 BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pxloper_ (**LPXLOPER**)
   
@@ -38,11 +38,11 @@ _pxloper12_ (**LPXLOPER12**)
   
 Ponteiro para o destino **XLOPER12** contenha o valor convertido. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 **TRUE** se a conversão foi bem-sucedida, **FALSE** caso contrário. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Dependendo do tipo de **XLOPER**, essa função aloca um novo buffer de memória para os valores convertidos, que são apontados para no destino **XLOPER12**. O chamador é responsável por liberar qualquer memória associada a cópia se a conversão foi bem sucedida; **FreeXLOper12T** pode ser usado, ou pode ser feito diretamente usando **livre**.
   
@@ -52,7 +52,7 @@ Em geral, a conversão de qualquer **XLOPER** em **XLOPER12** é possível. Por 
   
 **XLOPER** Cadeias de caracteres de byte ASCII são convertidas em cadeias de caracteres Unicode **XLOPER12** caractere largo de forma que depende da localidade. 
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte o arquivo `\SAMPLES\FRAMEWRK\FRAMEWRK.C` para o código para essa função. 
   

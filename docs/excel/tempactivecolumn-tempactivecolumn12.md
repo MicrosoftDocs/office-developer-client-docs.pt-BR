@@ -11,7 +11,7 @@ keywords:
 - função tempactivecolumn12 [excel 2007], função TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ LPXLOPER TempActiveColumn(BYTE col);
 LPXLOPER12 TempActiveColumn12(COL col);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _col_ (**Bytes**)
   
@@ -40,7 +40,7 @@ A coluna a ser referenciado. Isso é baseado em zero que a coluna A é passada c
 
 Retorna uma referência de **xltypeRef** externo à coluna passada. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir usa **TempActiveColumn12** para selecionar toda a coluna B. 
   
@@ -58,5 +58,5 @@ short WINAPI TempActiveColumnExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

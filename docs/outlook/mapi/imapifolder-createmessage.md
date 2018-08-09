@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8d7e6dfbf9e6a751845adb2319b66462bcde651f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT CreateMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -67,7 +67,7 @@ S_OK
   
 > A mensagem foi criada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::CreateMessage** cria uma nova mensagem com conteúdo genérico ou associado e atribui um identificador de entrada. O identificador de entrada consiste em uma parte que representa o provedor de armazenamento de mensagem e uma parte que representa a mensagem individual. 
   
@@ -101,7 +101,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

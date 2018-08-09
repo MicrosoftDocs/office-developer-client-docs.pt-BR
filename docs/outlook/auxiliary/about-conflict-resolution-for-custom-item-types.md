@@ -1,5 +1,5 @@
 ---
-title: Sobre a resolução de conflito para tipos de item personalizada
+title: Sobre a resolução de conflitos de tipos de itens personalizados
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765780"
 ---
-# <a name="about-conflict-resolution-for-custom-item-types"></a>Sobre a resolução de conflito para tipos de item personalizada
+# <a name="about-conflict-resolution-for-custom-item-types"></a>Sobre a resolução de conflitos de tipos de itens personalizados
 
 Este tópico descreve como resolver conflitos para tipos de item personalizada que você criar no Outlook.
   
@@ -51,7 +51,7 @@ Quando você cria um tipo de item personalizada, que não seja a classe de mensa
     
 Definindo a resolução de conflito por meio da diretiva de grupo prevalece sobre modificando diretamente a chave de registro do usuário. O local da chave no registro depende da versão do Outlook. Você pode especificar o nome da classe de mensagem personalizado como um valor sob essa chave. Especifique o tipo do valor como **DWORD**e os dados do valor como um dos valores mostrados na tabela a seguir, dependendo do esquema de resolução escolhido. 
   
-|Dados  | Descrição  |
+|Data  | Descrição  |
 |:-----|:-----|
 |0  <br/> |Resolução de item comum que requer uma decisão do usuário, conforme usado no Outlook 2002 e versões anteriores.  <br/> |
 |1  <br/> |Resolução de item comum que requer intervenção mínima do usuário, conforme usado no Outlook desde o Outlook 2003.  <br/> |

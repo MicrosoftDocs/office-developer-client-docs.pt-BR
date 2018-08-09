@@ -1,5 +1,5 @@
 ---
-title: Compromissos e calendários do outlook
+title: Compromissos e calendários do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766038"
 ---
-# <a name="outlook-calendars-and-appointments"></a>Compromissos e calendários do outlook
+# <a name="outlook-calendars-and-appointments"></a>Compromissos e calendários do Outlook
 
 Esta seção fornece informações conceituais sobre calendários do Outlook e compromissos, incluindo a API disponível/ocupado, atualizações de solicitação de reunião e a alteração da Base de calendários de horário de verão. 
 
 - [Sobre a API do serviço de disponibilidade](about-the-free-busy-api.md)
     
-- [Sobre as solicitações de reunião como atualizações informativas e completo](about-meeting-requests-as-informational-updates-and-full-updates.md)
+- [Sobre solicitações de reunião como atualizações informativas e atualizações completas](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
 - [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     

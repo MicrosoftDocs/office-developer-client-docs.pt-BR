@@ -29,7 +29,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 |Marca de propriedade:  <br/> |0x20020102  <br/> |
 |Access:  <br/> |Leitura/gravação  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  **PROP\_MAPI\_identidade\_ENTRYID** não deve existir em cada conta. Por exemplo, uma conta do Exchange poderia ter **PROP\_MAPI\_identidade\_ENTRYID** definido e não [PROP\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md)enquanto revertida para uma conta de SMTP/POP3 a situação. **PROP\_MAPI_IDENTITY_ENTRYID** retorna uma identificação de entrada é semelhante ao valor retornado pela _lppEntryID_ em [IMAPISession::QueryIdentity](http://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   

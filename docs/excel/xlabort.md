@@ -10,7 +10,7 @@ keywords:
 - função xlAbort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,17 +28,17 @@ Gere o processador para outras tarefas no sistema e verifica se o usuário press
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxRetain_ (**xltypeBool**)
   
 (Opcional). Se **Falso**, essa função verifica a condição de quebra e limpa qualquer quebra pendente. Isso permite que o usuário continue apesar a condição de quebra. Se esse argumento for omitido ou for **TRUE**, a função verifica uma anulação de usuário sem limpá-lo.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna **TRUE** (**xltypeBool**) se o usuário pressionou a **tecla ESC**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 ### 
 
@@ -50,7 +50,7 @@ Funções e comandos que pode demorar muito tempo devem chamar essa função com
 
 Evite usar o termo "Anulação" em sua interface do usuário. Considere o uso de "Cancelar", "Paralisado e" "Quebrar" ou "Parar" em vez disso.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O código a seguir move a célula ativa repetidamente em uma planilha até que um minuto decorrido ou até que o usuário pressionar **ESC**. Ele chama a função **xlAbort** ocasionalmente. Isso produz o processador, facilitando multitarefa cooperativa. 
   
@@ -121,5 +121,5 @@ int WINAPI fDance(void)
 
 
 
-[Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

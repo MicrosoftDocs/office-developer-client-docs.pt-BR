@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com assinaturas digitais
+title: Trabalhar com Assinaturas Digitais
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19765661"
 ---
-# <a name="work-with-digital-signatures"></a>Trabalhar com assinaturas digitais
+# <a name="work-with-digital-signatures"></a>Trabalhar com Assinaturas Digitais
 
 O modelo de objeto do namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) fornece recursos para trabalhando de maneira programática com assinaturas digitais. 
   
@@ -71,7 +71,7 @@ O modelo de objeto para assinaturas digitais fornece os seguintes objetos.
 |**Nome**|**Descrição**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Representa um conjunto de dados assinados em um formulário. O objeto [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) fornece um número de propriedades e um método que pode ser usado para interagir programaticamente com um conjunto de dados assinados.  <br/> |
-|[Assinatura](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Representa uma assinatura digital que foi adicionada a um formulário ou um conjunto de dados assinados em um formulário. O objeto [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) implementa propriedades que podem ser usadas para recuperar informações sobre a assinatura digital e o método de [entrada](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) para escrever o bloco de assinatura digital XML e seu valor de hash criptográfico de computação.  <br/> |
+|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Representa uma assinatura digital que foi adicionada a um formulário ou um conjunto de dados assinados em um formulário. O objeto [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) implementa propriedades que podem ser usadas para recuperar informações sobre a assinatura digital e o método de [entrada](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) para escrever o bloco de assinatura digital XML e seu valor de hash criptográfico de computação.  <br/> |
 |[Certificado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Representa o certificado digital x. 509 que foi usado para criar a assinatura.  <br/> |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Trabalhando de maneira programática com assinaturas digitais

@@ -36,7 +36,7 @@ HRESULT CreateEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -72,7 +72,7 @@ S_OK
   
 > A nova entrada foi criada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IABContainer::CreateEntry** cria uma nova entrada de um determinado tipo no contêiner especificado, retornando um ponteiro para uma implementação de interface para acesso à entrada. A nova entrada é criada usando um modelo que foi selecionado na lista do contêiner dos modelos disponíveis publicado em sua tabela único. Os chamadores acessar a tabela de únicos de um contêiner chamando seu método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) e solicitar a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
@@ -114,7 +114,7 @@ Embora os sinalizadores de verificação duplicados são passados como parâmetr
   
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
-[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 

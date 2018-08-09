@@ -29,7 +29,7 @@ Consulte [IOlkAccount](iolkaccount.md).
 |Marca de propriedade:  <br/> |0x20090102  <br/> |
 |Access:  <br/> |Somente leitura  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Obtenha essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md).
   
@@ -39,6 +39,6 @@ Use [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) para verificar se a conta é uma c
 
 - [Sobre a API de gerenciamento de conta](about-the-account-management-api.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
-- [Usando várias contas do Exchange](http://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
-- [Propriedade canônico de PidTagExchangeProfileSectionId](http://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
+- [Usar várias contas do Exchange](http://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
+- [Propriedade canônica PidTagExchangeProfileSectionId](http://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
 

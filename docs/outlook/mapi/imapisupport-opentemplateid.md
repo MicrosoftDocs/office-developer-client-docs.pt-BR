@@ -39,7 +39,7 @@ LPMAPIPROP lpMAPIPropSibling
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbTemplateID_
   
@@ -83,7 +83,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O provedor de catálogo de endereço estrangeiro não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::OpenTemplateID** é implementado apenas para objetos de suporte do provedor de catálogo de endereços. **OpenTemplateID** é chamado somente por provedores de catálogo de endereços que podem atuar como hosts para entradas que pertencem a outros provedores de catálogo de endereços, também conhecido como estrangeira provedores. Provedores de host chamarem **OpenTemplateID** para abrir uma entrada externa, o que ocorre quando os dados no provedor de host são vinculados ao código no provedor estrangeiro. 
   
@@ -99,11 +99,11 @@ Se **OpenTemplateID** falhar com MAPI_E_UNKNOWN_ENTRYID, tente continuar tratand
 
 
 
-[IABLogon:: OpenTemplateID](iablogon-opentemplateid.md)
+[IABLogon::OpenTemplateID](iablogon-opentemplateid.md)
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
   
-[Propriedade canônico de PidTagTemplateid](pidtagtemplateid-canonical-property.md)
+[Propriedade canônica PidTagTemplateid](pidtagtemplateid-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

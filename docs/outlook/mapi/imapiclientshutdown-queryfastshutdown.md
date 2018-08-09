@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor MAPI não suporta o cliente MAPI para rápida desligamento.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se o subsistema de MAPI suporta o cliente MAPI rápida desligamento depende da configuração de registro do Windows do usuário ou o comportamento padrão do cliente MAPI para desligamento rápido. Ele também depende da capacidade dos provedores MAPI carregados para suportar o desligamento rápido. Para obter mais informações, consulte [Opções de usuário de desligamento Fast](fast-shutdown-user-options.md).
   
@@ -49,7 +49,7 @@ Se o subsistema de MAPI suporta o cliente MAPI rápida desligamento depende da c
 
 
 
-[IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md)
+[IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md)
 
 
 [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)

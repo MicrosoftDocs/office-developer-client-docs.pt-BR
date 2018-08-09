@@ -1,5 +1,5 @@
 ---
-title: Responder a eventos de formulários
+title: Responder a eventos de formulário
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765647"
 ---
-# <a name="respond-to-form-events"></a>Responder a eventos de formulários
+# <a name="respond-to-form-events"></a>Responder a eventos de formulário
 
 Você pode escrever código para responder a diversos eventos que podem ocorrer como um usuário preenche um formulário. Para trabalhar com eventos no InfoPath, você pode adicionar manipuladores de evento enquanto estiver trabalhando com um modelo de formulário no modo de design.
   

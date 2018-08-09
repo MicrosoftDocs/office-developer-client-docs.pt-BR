@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dee12ba9da83d2167afe13d00270a900bf0d73d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct _DTBLRADIOBUTTON
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -69,7 +69,7 @@ MAPI_UNICODE
   
 > Número exclusivo que identifica o botão selecionado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLRADIOBUTTON** descreve um botão de opção de um controle de botão que está associado um grupo de botões. Somente um botão do grupo pode ser verificado; a definição de um botão faz com que os outros botões no grupo a ser desfeito. 
   

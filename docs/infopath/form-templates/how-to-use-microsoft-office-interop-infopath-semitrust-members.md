@@ -28,7 +28,7 @@ Se você deseja usar objetos e membros que foram adicionados no Office InfoPath 
 > [!NOTE]
 > Todos os modelos de formulário com lógica de negócios criados usando o modelo de objeto fornecido pelo namespace **SemiTrust** , se eles usam objetos e membros compatíveis com o InfoPath ou não, não há suporte para modelos de formulário habilitados para navegador implantados para Microsoft SharePoint Server 2010 com o InfoPath Forms Services. A lógica de negócios para modelos de formulário habilitados para navegador deve usar o novo modelo de objeto de código gerenciado do InfoPath fornecido pelo namespace [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ### <a name="creating-an-xdocument-or-application-object-variable-to-access-new-object-model-members"></a>Criando um XDocument ou a variável de objeto de aplicativo para o Access novos membros do modelo de objeto
 

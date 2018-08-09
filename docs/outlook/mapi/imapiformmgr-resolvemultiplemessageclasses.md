@@ -36,7 +36,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pMsgClasses_
   
@@ -68,7 +68,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::ResolveMultipleMessageClasses** para resolver um grupo de classes de mensagens para formulários dentro de um contêiner de formulário. A matriz de objetos do formulário informações retornadas nos _ppfrminfoarray_ fornece mais acesso a cada uma das propriedades formas a. 
   
@@ -86,5 +86,5 @@ Se uma classe de mensagem não pode ser resolvida para um formulário, NULL é r
 
 [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

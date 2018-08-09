@@ -37,7 +37,7 @@ enum Gender {
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  _genderMin_
   
@@ -67,5 +67,5 @@ enum Gender {
 
 
 
-[Propriedade canônico de PidTagGender](pidtaggender-canonical-property.md)
+[Propriedade canônica PidTagGender](pidtaggender-canonical-property.md)
 

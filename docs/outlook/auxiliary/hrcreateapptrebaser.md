@@ -44,7 +44,7 @@ HRESULT HrCreateApptRebaser(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulFlags_
   
@@ -116,7 +116,7 @@ _ppApptRebase_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao usar o [GetProcAddress](http://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) para procurar o endereço desta função no tzmovelib.dll, especifique **HrCreateApptRebaser@44** como o nome do procedimento. Nem todos os sinalizadores são válidos em combinação com umas às outras. 
   

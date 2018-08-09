@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa2869b1e3495bfb8a431e79a55d11a1ee1c5ca6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ HRESULT CopyTo(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ciidExclude_
   
@@ -139,7 +139,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > O tipo de propriedade não é o tipo esperado pelo chamador.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Por padrão, o método **IMAPIProp::CopyTo** copia ou move todas as propriedades do objeto atual a um objeto de destino. **CopyTo** é usado quando um objeto deve ser copiado ou movido exatamente, com todos ou a maioria de suas propriedades intactas. 
   
@@ -210,9 +210,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIProp::GetLastError](imapiprop-getlasterror.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md)
   
@@ -220,23 +220,23 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
+[Propriedade canônica PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
-[Propriedade canônico de PidTagObjectType](pidtagobjecttype-canonical-property.md)
+[Propriedade canônica PidTagObjectType](pidtagobjecttype-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   
 [SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -34,7 +34,7 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ S_OK
   
 > A tabela único foi recuperada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::GetOneOffTable** é implementado para objetos de suporte do provedor de catálogo de endereços. Provedores de catálogo de endereço chamarem **GetOneOffTable** para recuperar a lista completa de modelos para a criação de novos destinatários. Esta tabela inclui modelos que oferecem suporte a provedores de catálogo de endereços que estão ativos na sessão, bem como modelos que ofereça suporte a MAPI. 
   
@@ -76,15 +76,15 @@ Se você estiver registrado para receber notificações de alterações para est
   
 [IMAPISupport::NewEntry](imapisupport-newentry.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
-[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

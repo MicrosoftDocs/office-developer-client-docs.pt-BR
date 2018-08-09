@@ -1,5 +1,5 @@
 ---
-title: Escrever lógica condicional que determina o ambiente de tempo de execução
+title: Gravar lógica condicional que determina o ambiente do tempo de execução
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765611"
 ---
-# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Escrever lógica condicional que determina o ambiente de tempo de execução
+# <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Gravar lógica condicional que determina o ambiente do tempo de execução
 
 A propriedade [ambiente](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) da classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) obtém uma referência a um objeto de [ambiente](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) , que pode ser usado para determinar qual ambiente de tempo de execução (InfoPath, navegador da Web ou navegador móvel) foi usada para abrir o formulário. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ### <a name="determining-which-runtime-environment-a-form-is-running-in"></a>Determinando qual Runtime Environment um formulário está em execução no
 

@@ -32,7 +32,7 @@ BOOL Placeholder11(
 
 Sempre **false**, porque este membro é um espaço reservado e não é suportado.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro deve retornar **false**.
   

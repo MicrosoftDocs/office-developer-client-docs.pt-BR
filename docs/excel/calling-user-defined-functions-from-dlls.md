@@ -8,7 +8,7 @@ keywords:
 - UDFs [excel 2007], chamada a partir de dlls,-funções definidas pelo usuário [Excel 2007], chamada a partir de DLLs, DLLs [Excel 2007], chamar UDFs
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4e893cf1e54489610315dd5c5d57bd78c3c936d0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -115,7 +115,7 @@ Quando você está fazendo um grande número de chamadas para um UDF dessa manei
   
 ## <a name="see-also"></a>Confira também
 
-- [Quebras de autorizações de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 - [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

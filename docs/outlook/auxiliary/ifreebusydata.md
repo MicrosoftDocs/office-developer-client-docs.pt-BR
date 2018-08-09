@@ -39,7 +39,7 @@ Para um usuário específico, obtém e define um intervalo de tempo e retorna um
 |[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
 |[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Obtém um intervalo de tempo predefinido para uma enumeração de blocos de informações de disponibilidade de dados para um usuário.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A maioria dos membros nessa interface é espaços reservados reservados para uso interno do Outlook e está sujeita a alterações. Provedores de livre/ocupado devem implementá-los conforme especificado, retornando que apenas especificado retorna valores.
   

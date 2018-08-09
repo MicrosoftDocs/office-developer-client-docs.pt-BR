@@ -40,7 +40,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMAPISup_
   
@@ -112,7 +112,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** na caixa de diálogo de logon. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Conexões estabelecidas com cada provedor de catálogo de endereços no perfil da sessão quando um cliente chama o método [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) . **OpenAddressBook** chama o método de **Logon** do cada provedor. 
   
@@ -152,5 +152,5 @@ Retorno MAPI_E_FAILONEPROVIDER se ocorrer um erro que não é grave o suficiente
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IABProvider: IUnknown](iabprovideriunknown.md)
+[IABProvider : IUnknown](iabprovideriunknown.md)
 

@@ -11,7 +11,7 @@ keywords:
 - função temperr [excel 2007], função TempErr12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 22c0ff1b8259fc0e5ee70edb06bb3db53781ff8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ LPXLOPER TempErr(WORD err);
 LPXLOPER12 TempErr12(BOOL err);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
- _Err_
+ _err_
   
 O código de erro desejado ou seu equivalente numérico literal, conforme mostrado na tabela a seguir.
   
@@ -50,7 +50,7 @@ O código de erro desejado ou seu equivalente numérico literal, conforme mostra
 
 Retorna um **xltypeBool** que contém o código de erro passados. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa a função **TempErr12** para retornar um #VALUE! erro para o Excel. 
   
@@ -70,5 +70,5 @@ LPXLOPER WINAPI TempErrExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

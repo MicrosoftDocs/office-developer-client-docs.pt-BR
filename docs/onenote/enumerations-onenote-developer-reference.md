@@ -212,5 +212,5 @@ Quando passado para um dos métodos a seguir, especifica a versão do esquema XM
    
 ## <a name="see-also"></a>Confira também
 
-- [Referência para desenvolvedores do OneNote](onenote-developer-reference.md)
+- [Referência do desenvolvedor do OneNote](onenote-developer-reference.md)
 

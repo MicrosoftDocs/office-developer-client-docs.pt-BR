@@ -25,7 +25,7 @@ Retorna o nome de exibição do usuário atual.
 
  **UserDisplayName** () 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **UserDisplayName** está disponível somente em macros de (UI) da interface do usuário. 
   

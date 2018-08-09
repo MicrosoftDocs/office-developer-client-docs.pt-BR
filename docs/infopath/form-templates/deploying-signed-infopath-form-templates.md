@@ -1,5 +1,5 @@
 ---
-title: Implantando modelos de formulário do InfoPath assinado
+title: Implantar modelos de formulário assinados do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765590"
 ---
-# <a name="deploying-signed-infopath-form-templates"></a>Implantando modelos de formulário do InfoPath assinado
+# <a name="deploying-signed-infopath-form-templates"></a>Implantar modelos de formulário assinados do InfoPath
 
 Antes de ler este tópico, consulte a seção "Modelos de formulário assinados" [Conceitos adicionais de segurança de formulário do InfoPath](additional-infopath-form-security-concepts.md) para a compreensão de segurança do modelo de formulário assinado. Discussões no tópico [níveis de segurança, implantação de email e modelos de formulário remotos](security-levels-email-deployment-and-remote-form-templates.md) e informações também são relevantes. 
   

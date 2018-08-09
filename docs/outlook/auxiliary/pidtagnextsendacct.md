@@ -27,7 +27,7 @@ Especifica o carimbo de conta secundária "Enviar" para a mensagem.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Aplicativo do Outlook  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem recebida, o carimbo de data / conta secundária "Enviar" indica qual conta um encaminhamento ou uma resposta deve ser enviada com, se o encaminhamento e a resposta não pode ser enviada com a conta principal. Para uma mensagem de saída, a conta secundária "Enviar" carimbo determina com qual conta para enviar a mensagem, se a mensagem não pode ser enviada com a conta principal. Seu valor é o valor [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) da interface de [IOlkAccount](iolkaccount.md) da conta com a qual a mensagem está sendo enviada. 
   
@@ -35,5 +35,5 @@ Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem receb
 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 - [Propriedades MAPI](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx) 
-- [Propriedade canônico de PidTagNextSendAcct](http://msdn.microsoft.com/library/b7429c2e-0d9d-4921-9f56-9ecad817f8cb%28Office.15%29.aspx)
+- [Propriedade canônica PidTagNextSendAcct](http://msdn.microsoft.com/library/b7429c2e-0d9d-4921-9f56-9ecad817f8cb%28Office.15%29.aspx)
 

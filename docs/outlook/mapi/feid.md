@@ -35,7 +35,7 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SINCRONIZAÇÃO](sync.md)
+[SYNC](sync.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Criação de um perfil usando o Assistente de perfil
+title: Criar um perfil usando o assistente de perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766349"
 ---
-# <a name="creating-a-profile-by-using-the-profile-wizard"></a>Criação de um perfil usando o Assistente de perfil
+# <a name="creating-a-profile-by-using-the-profile-wizard"></a>Criar um perfil usando o assistente de perfil
 
   
   

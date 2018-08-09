@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2f5f4d50b085c437d1caab5f70dcb741afe090bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cb**
   
@@ -51,7 +51,7 @@ typedef struct
   
 > O identificador de entrada completa que inclui a matriz de sinalizadores e dados binários.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **FLATENTRY** é semelhante a uma estrutura [ENTRYID](entryid.md) . No entanto, há algumas diferenças: 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 784430f1286c9a017337a0fae4b269757a56a3e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766860"
 ---
-# <a name="iablogon--iunknown"></a>IABLogon: IUnknown
+# <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 
   
   
@@ -51,7 +51,7 @@ Recursos de acessos em um provedor de catálogo de endereços.
 |[GetOneOffTable](iablogon-getoneofftable.md) <br/> |Retorna uma tabela de modelos únicos para a criação de destinatários a ser adicionado à lista de destinatários de uma mensagem de saída.  <br/> |
 |[PrepareRecips](iablogon-preparerecips.md) <br/> |Prepara uma lista de destinatários para uso posterior pelo sistema de mensagens.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter informações gerais sobre os métodos da interface **IABLogon** , consulte [Implementando Logon do provedor de serviço](implementing-service-provider-logon.md).
   

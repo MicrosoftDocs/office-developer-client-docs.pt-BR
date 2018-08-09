@@ -33,7 +33,7 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -83,7 +83,7 @@ S_OK
   
 > O procedimento de logoff foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::StoreLogoffTransports** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **StoreLogoffTransports** para fornecer aplicativos cliente algum controle sobre como a atividade de provedor de transporte MAPI alças como um armazenamento de mensagens está sendo fechado. 
   

@@ -1,5 +1,5 @@
 ---
-title: Adição de um serviço de mensagem
+title: Adicionar um serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766118"
 ---
-# <a name="adding-a-message-service"></a>Adição de um serviço de mensagem
+# <a name="adding-a-message-service"></a>Adicionar um serviço de mensagens
 
   
   

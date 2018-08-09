@@ -1,11 +1,11 @@
 ---
-title: Usadas em conjuntos de propriedades
+title: Conjuntos de propriedades usados com frequência
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f24e2cf97aa27b220f1c214be9d4207b6871f888
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766297"
 ---
-# <a name="commonly-used-property-sets"></a>Usadas em conjuntos de propriedades
+# <a name="commonly-used-property-sets"></a>Conjuntos de propriedades usados com frequência
 
   
   
@@ -21,7 +21,7 @@ ms.locfileid: "19766297"
   
 Este tópico lista comumente usados conjuntos de propriedades nomeadas.
   
-## <a name="commonly-used-property-sets"></a>Usadas em conjuntos de propriedades
+## <a name="commonly-used-property-sets"></a>Conjuntos de propriedades usados com frequência
 
 A tabela a seguir lista cada propriedade definida com seu GUID e área funcional.
   
@@ -37,7 +37,7 @@ A tabela a seguir lista cada propriedade definida com seu GUID e área funcional
 |Mensagens  <br/> |PSETID_Messaging {41F28F13-83F4-4114-A584-EEDB5A6B0BFF}  <br/> |
 |Nota  <br/> |PSETID_Note {0006200E-0000-0000-C000-000000000046}  <br/> |
 |Feed RSS  <br/> |PSETID_PostRss {00062041-0000-0000-C000-000000000046}  <br/> |
-|Tarefa  <br/> |PSETID_Task {00062003-0000-0000-C000-000000000046}  <br/> |
+|Task  <br/> |PSETID_Task {00062003-0000-0000-C000-000000000046}  <br/> |
 |Unificação de mensagens  <br/> |PSETID_UnifiedMessaging {4442858E-A9E3-4E80-B900-317A210CC15B}  <br/> |
 |Comuns  <br/> |PS_MAPI {00020328-0000-0000-C000-000000000046}  <br/> |
 |Sync  <br/> |SETID_AirSync {71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |

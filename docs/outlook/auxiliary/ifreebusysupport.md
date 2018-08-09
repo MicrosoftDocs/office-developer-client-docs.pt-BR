@@ -54,7 +54,7 @@ Oferece suporte à especificação das interfaces que acessam dados livre/ocupad
 |[Placeholder21](ifreebusysupport-placeholder21.md) <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
 |[Placeholder22](ifreebusysupport-placeholder22.md) <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A maioria dos membros nessa interface é espaços reservados reservados para uso interno do Outlook e está sujeita a alterações. Provedores de livre/ocupado devem implementá-los conforme especificado, retornando que apenas especificado retorna valores.
   

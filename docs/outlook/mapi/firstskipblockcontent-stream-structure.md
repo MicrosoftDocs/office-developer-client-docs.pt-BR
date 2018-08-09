@@ -27,7 +27,7 @@ A estrutura de fluxo de FirstSkipBlockContent é o conteúdo da primeira estrutu
 
 
 
-[Campos e itens do outlook](outlook-items-and-fields.md)
+[Campos e itens do Outlook](outlook-items-and-fields.md)
   
 [Estruturas de fluxo](stream-structures.md)
   

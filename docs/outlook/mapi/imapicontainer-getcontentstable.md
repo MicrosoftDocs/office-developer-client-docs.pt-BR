@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 871dafd7bf8959cf814d65991fe08fdb2b283c08
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -78,7 +78,7 @@ MAPI_E_NO_SUPPORT
   
 > O contêiner não tiver conteúdo e não pode fornecer uma tabela de conteúdo.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIContainer::GetContentsTable** retorna um ponteiro para o índice de conteúdo de um contêiner. Uma tabela de conteúdo contém informações de resumo sobre objetos no contêiner. 
   
@@ -158,11 +158,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
-[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

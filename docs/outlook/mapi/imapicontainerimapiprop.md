@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e24f5ebd73a4652876282099f1460762c150b94d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766947"
 ---
-# <a name="imapicontainer--imapiprop"></a>IMAPIContainer: IMAPIProp
+# <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
   
   

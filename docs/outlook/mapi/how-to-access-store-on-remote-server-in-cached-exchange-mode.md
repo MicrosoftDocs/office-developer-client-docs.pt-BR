@@ -49,6 +49,6 @@ Se você abriu o armazenamento de mensagens com o sinalizador **MDB_ONLINE** no 
 ## <a name="see-also"></a>Confira também
 
 - [Sobre as adições de MAPI](about-mapi-additions.md)
-- [Abrir um repositório no Outlook Remote Server quando estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Gerenciar uma mensagem em um OST sem chamar uma sincronização no modo cache do Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Abrir um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Gerenciar mensagens em um OST sem solicitar uma sincronização do modo cache do Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

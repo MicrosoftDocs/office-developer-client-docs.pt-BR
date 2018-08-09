@@ -35,7 +35,7 @@ struct DNHIER
 };
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 _ulFlags_
   

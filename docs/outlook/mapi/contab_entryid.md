@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2c8661f24ed9555547446cf63fc08a3be7e6e941
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _contab_entryid
 #pragma pack() 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -77,7 +77,7 @@ typedef struct _contab_entryid
   
 > O identificador de entrada da mensagem de contato associado a essa entrada no catálogo de endereços de contatos.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um catálogo de endereços de contatos é um catálogo de endereços que contém todos os itens contatos em uma pasta de contatos que têm um endereço de email ou um número de fax. Cada entrada no catálogo de endereços de contatos é associada um endereço de email ou um número de fax. Uma vez que um item de contato pode ter até três endereços de email e três números de fax, um item de contato pode ser representado pela até seis entradas no catálogo de endereços de contatos correspondentes.
   

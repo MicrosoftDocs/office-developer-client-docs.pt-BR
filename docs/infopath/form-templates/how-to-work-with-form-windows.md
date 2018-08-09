@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com janelas de formulários
+title: Trabalhar com o Formulário do Windows
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765633"
 ---
-# <a name="work-with-form-windows"></a>Trabalhar com janelas de formulários
+# <a name="work-with-form-windows"></a>Trabalhar com o Formulário do Windows
 
 Ao trabalhar programaticamente com um formulário do InfoPath, você pode escrever código para acessar as janelas de formulários e, em seguida, personalizar alguns dos itens que elas contêm. O modelo de objeto do InfoPath fornecido pelo access [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace suporta Windows de um formulário com o uso a classe de [janela](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) em associação com a classe [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) . 
   

@@ -1,5 +1,5 @@
 ---
-title: Criando um perfil usando o código personalizado
+title: Criar um perfil usando um código personalizado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766357"
 ---
-# <a name="creating-a-profile-by-using-custom-code"></a>Criando um perfil usando o código personalizado
+# <a name="creating-a-profile-by-using-custom-code"></a>Criar um perfil usando um código personalizado
 
   
   

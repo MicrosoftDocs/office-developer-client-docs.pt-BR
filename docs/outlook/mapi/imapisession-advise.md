@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 45033ab924dcf443e9d231b3a7b4348119758935
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -113,7 +113,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada apontado pela _lpEntryID_ não pode ser manipulado por qualquer um dos provedores de serviços no perfil. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::Advise** estabelece uma conexão entre o chamador do objeto de coletor de eventos, a sessão e, opcionalmente, um provedor de serviços de aviso. Essa conexão é usado para enviar notificações para o coletor de advise quando um ou mais eventos especificados no parâmetro _ulEventMask_ ocorrem ao objeto apontado pela _lpEntryID_. Quando _lpEntryID_ for NULL, o objeto de destino é a sessão e notificações serão enviadas somente para erros críticos e eventos estendidos. 
   
@@ -153,10 +153,10 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPISession::Unadvise](imapisession-unadvise.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Notificação de evento em MAPI](event-notification-in-mapi.md)
+[Notificações de eventos no MAPI](event-notification-in-mapi.md)
 

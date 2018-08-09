@@ -1,5 +1,5 @@
 ---
-title: Criando modelos de formulário usando o modelo de objeto do InfoPath 2003
+title: Criar modelos de formulário usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765593"
 ---
-# <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>Criando modelos de formulário usando o modelo de objeto do InfoPath 2003
+# <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>Criar modelos de formulário usando o modelo de objeto do InfoPath 2003
 
 Esta seção aborda a inicialização e o código de limpeza, como adicionar manipuladores de eventos, como depurar e implantar modelos de formulário do InfoPath que usam o modelo de objeto compatível com o InfoPath 2003, suporte a segmentação e trabalhar com o Microsoft XML Core Services (MSXML) do Soluções de código gerenciado do InfoPath.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Código de inicialização e a limpeza usando o modelo de objeto do InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
+[Inicialização e limpeza de códigos que usam o modelo de objeto do InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
   
 > Discute como escrever o código de limpeza e de inicialização nos métodos Startup e _Shutdown do seu projeto.
     
@@ -37,11 +37,11 @@ Esta seção aborda a inicialização e o código de limpeza, como adicionar man
   
 > Discute como implantar os projetos de código gerenciado do InfoPath.
     
-[Threading suporte em projetos do InfoPath usando o modelo de objeto do InfoPath 2003](threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md)
+[Suporte a threading em projetos do InfoPath usando o modelo de objeto do InfoPath 2003](threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md)
   
 > Discute o suporte de threading em projetos de código gerenciado do InfoPath.
     
-[Trabalhando com MSXML e System. XML usando o modelo de objeto do InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
+[Trabalhar com MSXML e System.Xml usando o modelo de objeto do InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
   
 > Discute como trabalhar com código MSXML e System. XML em projetos de código gerenciado do InfoPath.
     

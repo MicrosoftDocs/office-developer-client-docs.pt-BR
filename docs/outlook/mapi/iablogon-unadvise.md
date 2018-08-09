@@ -45,7 +45,7 @@ S_OK
   
 > O registro de notificação foi cancelado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **Unadvise** para cancelar um registro de notificação para um contêiner, usuário ou objeto de lista de distribuição de mensagens. 
   
@@ -63,5 +63,5 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

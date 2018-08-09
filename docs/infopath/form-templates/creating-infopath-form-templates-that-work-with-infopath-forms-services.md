@@ -1,5 +1,5 @@
 ---
-title: Criando modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services
+title: Criar modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services
 manager: soliver
 ms.date: 03/20/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765630"
 ---
-# <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Criando modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services
+# <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Criar modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services
 
 Formulários compatíveis com navegador implantados para Microsoft SharePoint Server 2013 com recursos de suporte do InfoPath Forms Services e os controles que abrangem a maioria dos cenários de uso de formulário do InfoPath. No entanto, os formulários compatíveis com navegador entregues pelo InfoPath Forms Services não suportam todos os recursos do InfoPath. Alguns recursos e os controles não são implementados no servidor. Outros recursos não têm uma representação no servidor.
   
@@ -29,7 +29,7 @@ As seções a seguir listam os recursos que são compatíveis com os modelos de 
 
 Os controles a seguir são suportados nos modelos de formulário que podem ser abertos no InfoPath e o navegador.
   
-- **Caixa de texto**
+- **Caixa de Texto**
     
 - **Caixa de Rich Text** (somente editável no Microsoft Internet Explorer) 
     
@@ -39,7 +39,7 @@ Os controles a seguir são suportados nos modelos de formulário que podem ser a
     
 - **Selecionador de data** (Renderizada como uma caixa de texto em navegadores diferentes do Internet Explorer) 
     
-- **Caixa de seleção**
+- **Caixa de Verificação**
     
 - **Botão de opção**
     
@@ -87,7 +87,7 @@ Os controles a seguir são suportados nos modelos de formulário que podem ser a
 
 Outros recursos declarativos que funcionam no InfoPath e o navegador:
   
-- Regras
+- Rules
     
 - Cálculos
     
@@ -274,7 +274,7 @@ As classes e os membros do modelo de objeto de código gerenciado do InfoPath fo
 ||[Enviar](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) <br/> |
 ||[VersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.VersionUpgrade.aspx) <br/> |
 ||[ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) <br/> |
-|[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |[Manifesto](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx) <br/> |
+|[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |[Manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx) <br/> |
 ||[OpenFileFromPackage](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.OpenFileFromPackage.aspx) <br/> |
 ||[URI](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Uri.aspx) <br/> |
 ||[Versão](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Version.aspx) <br/> |
@@ -450,7 +450,7 @@ As classes e os membros do modelo de objeto de código gerenciado do InfoPath fo
 |[PermissionType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.aspx) <br/> |[Change](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.Change.aspx) <br/> |
 ||[Edit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.Edit.aspx) <br/> |
 ||[Extrair](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.Extract.aspx) <br/> |
-||[Controle total](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.FullControl.aspx) <br/> |
+||[FullControl](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.FullControl.aspx) <br/> |
 ||[ObjectModel](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.ObjectModel.aspx) <br/> |
 ||[Imprimir](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.Print.aspx) <br/> |
 ||[Read](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.Read.aspx) <br/> |
@@ -461,7 +461,7 @@ As classes e os membros do modelo de objeto de código gerenciado do InfoPath fo
 ||[Filename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SaveEventArgs.Filename.aspx) <br/> |
 ||[IsSaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SaveEventArgs.IsSaveAs.aspx) <br/> |
 ||[PerformSaveOperation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SaveEventArgs.PerformSaveOperation.aspx) <br/> |
-|[Assinatura](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[Certificado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Certificate.aspx) <br/> |
+|[Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[Certificado](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Certificate.aspx) <br/> |
 ||[Comment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Comment.aspx) <br/> |
 ||[Sinal](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) <br/> |
 ||[SignatureBlockXmlNode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx) <br/> |
@@ -523,7 +523,7 @@ As classes e os membros do modelo de objeto de código gerenciado do InfoPath fo
 ||[EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx) <br/> |
 ||[ExecuteAction](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx) <br/> |
 ||[ExecuteAction](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx) <br/> |
-||[Exportar](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx) <br/> |
+||[Export](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx) <br/> |
 ||[ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ForceUpdate.aspx) <br/> |
 ||[GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) <br/> |
 ||[GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx) <br/> |

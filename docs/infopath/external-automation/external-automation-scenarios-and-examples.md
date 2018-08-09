@@ -298,6 +298,6 @@ O exemplo a seguir automatiza abrir um formulário em branco e preencher o prime
     
 ## <a name="see-also"></a>Confira também
 
-- [Sobre o Assembly de interoperabilidade primário do InfoPath do Microsoft Office](about-the-microsoft-office-infopath-primary-interop-assembly.md)
-- [Sobre o Assembly de interoperabilidade de XML do InfoPath](about-the-infopath-xml-interop-assembly.md)
+- [Sobre o assembly de interoperabilidade primário do InfoPath do Microsoft Office](about-the-microsoft-office-infopath-primary-interop-assembly.md)
+- [Sobre o assembly de interoperabilidade do InfoPath XML](about-the-infopath-xml-interop-assembly.md)
 

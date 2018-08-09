@@ -1,5 +1,5 @@
 ---
-title: Criação de um perfil
+title: Criar um perfil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766365"
 ---
-# <a name="creating-a-profile"></a>Criação de um perfil
+# <a name="creating-a-profile"></a>Criar um perfil
 
   
   
@@ -23,13 +23,13 @@ ms.locfileid: "19766365"
   
 Um cliente pode criar um perfil de uma das duas maneiras, usando o Assistente de perfil ou escrevendo código personalizado.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Criação de um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
+[Criar um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
   
 > Descreve como chamar o Assistente de perfil, um aplicativo que cria um perfil, permitindo que o usuário escolha provedores de serviço e serviços de mensagem interativamente.
     
-[Criando um perfil usando o código personalizado](creating-a-profile-by-using-custom-code.md)
+[Criar um perfil usando um código personalizado](creating-a-profile-by-using-custom-code.md)
   
 > Descreve como escrever código C ou C++, muitas vezes a melhor escolha para aplicativos de cliente não-interativo que requerem um conjunto específico de serviços de mensagem.
     

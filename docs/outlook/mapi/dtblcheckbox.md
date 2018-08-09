@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c6726b852176fa31bf879b5a32b63c35ce2be514
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct _DTBLCHECKBOX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > Marca de propriedade para uma propriedade do tipo PT_BOOLEAN. O valor dessa propriedade é afetado pelo estado da caixa de seleção.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLCHECKBOX** descreve uma caixa de seleção de um controle que reflete a um dos dois estados: habilitado (uma caixa checked) ou não (uma caixa vazia). 
   
@@ -78,7 +78,7 @@ Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas]
 
 [DTCTL](dtctl.md)
   
-[Propriedade canônico de PidTagControlType](pidtagcontroltype-canonical-property.md)
+[Propriedade canônica PidTagControlType](pidtagcontroltype-canonical-property.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

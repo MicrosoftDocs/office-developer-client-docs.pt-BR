@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 15cf8ff7e282035ddff53565aa92e81e3886729c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT DeleteFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -89,7 +89,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > A chamada foi bem-sucedida, mas nem todas as entradas foram excluídas com êxito. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::DeleteFolder** exclui uma subpasta. Por padrão, **DeleteFolder** opera somente em pastas vazias, mas você pode usá-lo com êxito em pastas não vazias definindo dois sinalizadores: DEL_FOLDERS e DEL_MESSAGES. Apenas pastas vazias ou pastas que definir sinalizadores DEL_FOLDERS tanto o DEL_MESSAGES na chamada **DeleteFolder** podem ser excluídas. DEL_FOLDERS habilita todas as subpastas da pasta a ser removida; DEL_MESSAGES habilita todas as mensagens da pasta a ser removida. 
   
@@ -123,7 +123,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

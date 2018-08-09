@@ -35,7 +35,7 @@ LPPROFSECT FAR * lppProfileObj
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUid_
   
@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_FLAGS
   
 > Reservado ou não há suporte para sinalizadores foram usadas e, portanto, a operação não foi concluída.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::OpenProfileSection** é implementado para todos os objetos de suporte. Provedores de serviço e serviços de mensagem chamada **OpenProfileSection** para abrir uma seção de perfil e recuperar um ponteiro para sua implementação de interface **IProfSect** . 
   
@@ -89,9 +89,9 @@ Se **OpenProfileSection** tenta abrir uma seção de perfil inexistente como som
 
 
 
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIUID](mapiuid.md)
   

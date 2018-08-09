@@ -21,7 +21,7 @@ O Microsoft Outlook 2013 Messaging API (MAPI) Reference descreve como criar solu
   
 Se voc� � novo no desenvolvimento de solu��es para o Outlook, consulte [selecionando um API ou tecnologia para desenvolver solu��es do Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) para identificar as APIs e tecnologias que s�o mais apropriadas para suas necessidades. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
 - [Visão geral da referência do MAPI do Outlook](outlook-mapi-reference-overview.md): fornece informações gerais sobre a referência do MAPI do Outlook 2013.
     

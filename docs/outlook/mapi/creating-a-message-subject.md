@@ -1,5 +1,5 @@
 ---
-title: Criando um assunto da mensagem
+title: Criar um assunto de mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766364"
 ---
-# <a name="creating-a-message-subject"></a>Criando um assunto da mensagem
+# <a name="creating-a-message-subject"></a>Criar um assunto de mensagem
 
   
   

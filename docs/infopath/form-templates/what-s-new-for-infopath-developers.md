@@ -1,5 +1,5 @@
 ---
-title: O que há de novo para desenvolvedores do InfoPath
+title: Novidades para desenvolvedores do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765715"
 ---
-# <a name="whats-new-for-infopath-developers"></a>O que há de novo para desenvolvedores do InfoPath
+# <a name="whats-new-for-infopath-developers"></a>Novidades para desenvolvedores do InfoPath
 
 InfoPath foi projetado para facilitar a criação de aplicativos sofisticados baseada em formulários, na plataforma do Microsoft SharePoint Server. Microsoft InfoPath 2013 junto com o InfoPath Forms Services e o Microsoft SharePoint Server 2013 possuem muitos recursos para desenvolvedores. InfoPath Forms Services, que está disponível no SharePoint Server 2013, permite que você implante um modelo de formulário do InfoPath em um SharePoint Server, para que usuários sem o cliente avançado do InfoPath podem abrir e preencher formulários do InfoPath em um navegador da Web.
   
@@ -115,5 +115,5 @@ InfoPath fornece um conjunto rico de controles que podem ser adicionados aos seu
 
 [Desenvolvimento de modelos de formulário do InfoPath com código](developing-infopath-form-templates-with-code.md)
   
-[Desenvolvimento de modelos de formulário usando o modelo de objeto do InfoPath 2003](developing-form-templates-using-the-infopath-2003-object-model.md)
+[Desenvolver modelos de formulário usando o modelo de objeto do InfoPath 2003](developing-form-templates-using-the-infopath-2003-object-model.md)
 

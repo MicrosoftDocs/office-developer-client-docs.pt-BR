@@ -35,7 +35,7 @@ ULONG FAR * lpulDenominator
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulRow_
   
@@ -55,7 +55,7 @@ S_OK
   
 > O método retornados valores válidos em _lpulRow_, _lpulNumerator_e _lpulDenominator_.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::QueryPosition** determina a posição da linha atual e retorna o número de linha atual e um valor fracionário indicando sua posição relativa ao final da tabela. MAPI define a linha atual como a próxima linha a ser lido. 
   
@@ -77,7 +77,7 @@ Uma chamada para **QueryPosition** pode envolver grandes quantidades de memória
 
 
 
-[IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md)
+[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Trabalhando com esquemas XML no InfoPath
+title: Trabalhar com esquemas XML no InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765730"
 ---
-# <a name="working-with-xml-schemas-in-infopath"></a>Trabalhando com esquemas XML no InfoPath
+# <a name="working-with-xml-schemas-in-infopath"></a>Trabalhar com esquemas XML no InfoPath
 
 Um modelo de formulário que você criou com o Microsoft InfoPath usa um esquema XML (XSD) para executar estrutural e validação de dados em XML que é de entrada, editado, e a saída de um formulário do InfoPath. Cada modelo de formulário criado no InfoPath form designer contém pelo menos um arquivo de esquema XSD (. xsd) que é usado para validação em tempo de execução.
   
@@ -524,7 +524,7 @@ Se você deseja declarar um elemento que pode ser vinculado a um controle de **C
 
 ```
 
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 
 Ao aproveitar o suporte do InfoPath para criar soluções de formulário XML que se baseiam em arquivos de esquema XML (. xsd) externamente criados, você pode criar um modelo de formulário que funciona com um esquema de padrão do setor ou um esquema personalizado criado por sua empresa ou organização. Usando as informações neste artigo, você pode criar arquivos de esquema XSD personalizados que são compatíveis com o InfoPath, e você pode solucionar problemas comuns que podem ocorrer quando você carregar arquivos XSD externamente criados no ambiente de design do InfoPath.
   

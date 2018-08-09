@@ -25,7 +25,7 @@ Retorna o valor de data atual no fuso horário definido pela aplicação
 
  **Hoje** () 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A função **Now** é semelhante, mas retorna a hora exata, enquanto **hoje** retorna a hora 12:00:00 PM todas as datas de valor. 
   

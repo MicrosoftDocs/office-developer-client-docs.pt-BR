@@ -1,5 +1,5 @@
 ---
-title: Criar um suplemento COM para adicionar recursos personalizados ao InfoPath
+title: Criar um suplemento de COM para adicionar recursos personalizados ao InfoPath
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765505"
 ---
-# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Criar um suplemento COM para adicionar recursos personalizados ao InfoPath
+# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Criar um suplemento de COM para adicionar recursos personalizados ao InfoPath
 
 Microsoft InfoPath oferece suporte a suplementos COM para estender o experiência do usuário de edição de formulários. Embora o suporte para suplementos COM foi adicionado pela primeira vez no InfoPath, outros aplicativos do Office, como o Microsoft Office Word e Microsoft Office Excel o oferecem suporte a suplementos COM desde o Office 2000.
   

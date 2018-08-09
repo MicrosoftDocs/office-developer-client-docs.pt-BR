@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767066"
 ---
-# <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr: IUnknown
+# <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   

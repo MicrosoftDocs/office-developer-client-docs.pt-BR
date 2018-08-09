@@ -37,7 +37,7 @@ HRESULT Placeholder6(
 
 Sempre E_NOTIMPL, pois este membro é um espaço reservado no **IFreeBusyData** e não é suportado. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Este membro deve retornar E_NOTIMPL.
   

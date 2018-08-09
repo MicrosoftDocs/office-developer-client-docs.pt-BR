@@ -18,9 +18,9 @@ ms.locfileid: "19766036"
 
 Esta seção descreve como configurar o Outlook para resolver conflitos de item, determine o tempo de atualização para um catálogo de Endereços Offline e registrar um domínio para configuração automática.
 
-- [Sobre a resolução de conflito para tipos de item personalizada](about-conflict-resolution-for-custom-item-types.md)
+- [Sobre a resolução de conflitos de tipos de itens personalizados](about-conflict-resolution-for-custom-item-types.md)
     
-- [Sobre a hora da última atualização de um catálogo de Endereços Offline](about-the-last-update-time-of-an-offline-address-book.md)
+- [Sobre o último tempo de atualização de um catálogo de endereços offline](about-the-last-update-time-of-an-offline-address-book.md)
     
 - [Sobre como registrar um novo domínio para configuração automática](about-registering-a-new-domain-for-automatic-configuration.md)
     

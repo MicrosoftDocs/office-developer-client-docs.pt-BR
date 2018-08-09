@@ -19,7 +19,7 @@ ms.locfileid: "19765218"
 Você pode usar a ação **ExecutarMacrodeDados** para executar uma macro de dados independentes. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 
@@ -27,7 +27,7 @@ A ação **ExecutarMacrodeDados** tem os seguintes argumentos.
   
 |**Argumento da ação**|**Descrição**|
 |:-----|:-----|
-| _Nome da macro_ <br/> |O nome da macro de dados a ser executada.  <br/> |
+| _Macro Name_ <br/> |O nome da macro de dados a ser executada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

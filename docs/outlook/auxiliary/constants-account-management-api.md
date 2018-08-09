@@ -18,7 +18,7 @@ ms.locfileid: "19765825"
 
 Este tópico contém as definições de constantes, identificadores de classe e os identificadores de interface para a API de gerenciamento de conta.
   
-## <a name="constants"></a>Constants
+## <a name="constants"></a>Constantes
 
 |**Constante**|**Definição**|
 |:-----|:-----|

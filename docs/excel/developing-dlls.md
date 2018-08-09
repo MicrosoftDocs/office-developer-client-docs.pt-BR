@@ -1,5 +1,5 @@
 ---
-title: Desenvolvimento de DLLs
+title: Desenvolver DLLs
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - DLLs [excel 2007], a criação, criando DLLs [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 030cdd4358d9a71841eca6acfcef6e71839e02a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765284"
 ---
-# <a name="developing-dlls"></a>Desenvolvimento de DLLs
+# <a name="developing-dlls"></a>Desenvolver DLLs
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -202,8 +202,8 @@ Observe que a diretiva deve ser colocada dentro do corpo da função e é expand
   
 ## <a name="see-also"></a>Confira também
 
-- [Acesso DLLs no Excel](how-to-access-dlls-in-excel.md)
+- [Acessar DLLs no Excel](how-to-access-dlls-in-excel.md)
 - [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
 - [Excel Programming Concepts](excel-programming-concepts.md)
-- [Developing Excel XLLs](developing-excel-xlls.md)
+- [Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

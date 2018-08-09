@@ -18,9 +18,9 @@ ms.locfileid: "19765083"
 Pesquisas uma expressão de texto para outra expressão de texto e retorna suas Iniciando posição se encontrado.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Sintaxe
 
 **CharIndex** (*TextExpression*, *WithinText*, [*Iniciar*]) 
   
@@ -30,7 +30,7 @@ Pesquisas uma expressão de texto para outra expressão de texto e retorna suas 
 | *WithinText*  <br/> |Sim  <br/> |A expressão de texto a ser pesquisado.  <br/> |
 | *Start*  <br/> |Não  <br/> |Um inteiro que especifica o local em *WithinText* para iniciar a pesquisa. Se *Iniciar* não for especificado, for um número negativo ou for 0, a pesquisa começa no início do *WithinText* .  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se *TextExpression* ou *WithinText* for NULL, *CharIndex* retornará NULL. 
   

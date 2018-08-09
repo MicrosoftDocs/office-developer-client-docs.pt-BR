@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766879"
 ---
-# <a name="iattach--imapiprop"></a>IAttach: IMAPIProp
+# <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   

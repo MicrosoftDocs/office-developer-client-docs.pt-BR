@@ -19,7 +19,7 @@ ms.locfileid: "19765236"
 O Microsoft Access usa palavras-chave reservadas para definição, manipulá-lo e acessar os bancos de dados. Palavras-chave reservadas fazem parte da gramática do idioma que é usada pelo Access para analisar e entender as instruções SQL. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="access-reserved-keywords"></a>Acesso reservado palavras-chave
 
@@ -46,7 +46,7 @@ A tabela a seguir lista acesso reservado palavras-chave.
 |CASO  <br/> |IDENTITY_INSERT  <br/> |REGRA  <br/> |
 |CHECK  <br/> |IDENTITYCOL  <br/> |SALVAR  <br/> |
 |PONTO DE VERIFICAÇÃO  <br/> |SE  <br/> |ESQUEMA  <br/> |
-|CLOSE  <br/> |POL  <br/> |Segundo  <br/> |
+|CLOSE  <br/> |EM  <br/> |Segundo  <br/> |
 |CLUSTERED  <br/> |ÍNDICE  <br/> |SECURITYAUDIT  <br/> |
 |COALESCE  <br/> |INTERNA  <br/> |SELECT  <br/> |
 |COLLATE  <br/> |INSERIR  <br/> |SEMANTICKEYPHRASETABLE  <br/> |
@@ -65,12 +65,12 @@ A tabela a seguir lista acesso reservado palavras-chave.
 |CURRENT_DATE  <br/> |LongText  <br/> |Texto  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TAMANHO DO TEXTO  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milissegundo  <br/> |EM SEGUIDA  <br/> |
-|CURRENT_USER  <br/> |Minuto  <br/> |Hora  <br/> |
-|CURSOR  <br/> |Mês  <br/> |Para  <br/> |
+|CURRENT_USER  <br/> |Minuto  <br/> |Time  <br/> |
+|CURSOR  <br/> |Month  <br/> |Para  <br/> |
 |BANCO DE DADOS  <br/> |NACIONAL  <br/> |TOP  <br/> |
-|Data  <br/> |Não  <br/> |CAMARGO  <br/> |
+|Date  <br/> |Não  <br/> |CAMARGO  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |TRANSAÇÃO  <br/> |
-|Dia  <br/> |NONCLUSTERED  <br/> |GATILHO  <br/> |
+|Day  <br/> |NONCLUSTERED  <br/> |GATILHO  <br/> |
 |DayofYear  <br/> |NÃO  <br/> |TRUNCAR  <br/> |
 |DBCC  <br/> |NULL  <br/> |TRY_CONVERT  <br/> |
 |DESALOCAR  <br/> |NULLIF  <br/> |TSEQUAL  <br/> |
@@ -93,7 +93,7 @@ A tabela a seguir lista acesso reservado palavras-chave.
 |EXEC  <br/> |PLANEJAR  <br/> |COM  <br/> |
 |EXECUTAR  <br/> |PRECISION  <br/> |DENTRO DE GRUPO  <br/> |
 |EXISTE  <br/> |PRINCIPAL  <br/> |WRITETEXT  <br/> |
-|EXIT  <br/> |IMPRIMIR  <br/> |Ano  <br/> |
+|EXIT  <br/> |IMPRIMIR  <br/> |Year  <br/> |
 |EXTERNO  <br/> |PROC  <br/> |Sim  <br/> |
 |FETCH  <br/> |PROCEDIMENTO  <br/> |YesNo  <br/> |
 |ARQUIVO  <br/> |PUBLIC  <br/> ||
@@ -135,7 +135,7 @@ Esta é a lista atual de palavras-chave do ODBC reservado.
 |EM CASCATA  <br/> |HOUR  <br/> |ESQUEMA  <br/> |
 |EM CASCATA  <br/> |IDENTIDADE  <br/> |ROLAGEM  <br/> |
 |CASO  <br/> |IMEDIATA  <br/> |SECOND  <br/> |
-|CAST  <br/> |POL  <br/> |SEÇÃO  <br/> |
+|CAST  <br/> |EM  <br/> |SEÇÃO  <br/> |
 |CATALOG  <br/> |INCLUIR  <br/> |SELECT  <br/> |
 |CHAR  <br/> |ÍNDICE  <br/> |SESSÃO  <br/> |
 |CHAR_LENGTH  <br/> |INDICADOR  <br/> |SESSION_USER  <br/> |

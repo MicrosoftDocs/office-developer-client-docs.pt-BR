@@ -164,7 +164,7 @@ InfoPath se encaixa bem com o modelo de menos rígido dos serviços da Web, no q
 |**grupo de campo:** <br/> |Uma seção, seção de repetição, seção opcional ou tabela de repetição. Seções e tabelas de repetição são controles em um formulário que contêm outros controles e que Repita conforme necessário. Os usuários podem inserir várias seções ou linhas durante o preenchimento do formulário.  <br/> |
 |**Árvore DOM:** <br/> |A estrutura da fonte de dados do formulário. Em particular, a coleção de campos e grupos que definem e armazenam os dados de um formulário do InfoPath.  <br/> |
    
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 
 Para fornecer aos usuários flexível ainda estruturado edição de XML para coleta de dados, o InfoPath usa os padrões do open XML. Para fornecer uma interface de usuário fácil para a visualização e edição de dados XML hierárquicos, grupos aninhados do campo que contém os controles da interface do usuário são mapeados para a árvore DOM. Transformações XSLT habilite o conteúdo dos modos de exibição da interface do usuário sejam organizados de forma diferente a estrutura dos dados XML.
   

@@ -39,7 +39,7 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pvUnwrapped_
   
@@ -83,7 +83,7 @@ _ppvWrapped_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Passagem em um objeto com quebra com _fCheckWrap_ definido como **true** resultará em um objeto desfeito. Independentemente de estarem ou não o objeto retornado é disposto, o cliente é responsável por liberando a referência de objeto retornado. 
   

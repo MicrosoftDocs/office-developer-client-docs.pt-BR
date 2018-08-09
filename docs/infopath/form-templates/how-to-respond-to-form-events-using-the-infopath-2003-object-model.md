@@ -1,5 +1,5 @@
 ---
-title: Responder para formar eventos usando o modelo de objeto do InfoPath 2003
+title: Responder eventos de formulário usando o modelo de objeto do InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765614"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Responder para formar eventos usando o modelo de objeto do InfoPath 2003
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Responder eventos de formulário usando o modelo de objeto do InfoPath 2003
 
 Você pode escrever código para responder a diversos eventos que podem ocorrer como um usuário preenche um formulário. Para trabalhar com eventos no InfoPath, você pode criar manipuladores de eventos no InfoPath designer.
   

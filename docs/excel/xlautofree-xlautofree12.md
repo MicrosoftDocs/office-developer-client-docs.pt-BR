@@ -10,7 +10,7 @@ keywords:
 - função xlAutoFree [excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a2d2b8e60b484ba8156acc80d543493e3ec9c564
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ void WINAPI xlAutoFree(LPXLOPER pxFree);
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxFree_ (**LPXLOPER no caso de xlAutoFree**)
   
@@ -43,17 +43,17 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
   
 Um ponteiro para o **XLOPER** ou **XLOPER12** com memória que precisa ser liberado. 
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Essa função não retorna um valor e deve ser declarada como retornando void.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando o Excel está configurado para usar o recálculo de pasta de trabalho multithreaded, **xlAutoFree**/ **xlAutoFree12** é chamado no mesmo thread usado para chamar a função que retornados a ele. A chamada para **xlAutoFree**/ **xlAutoFree12** sempre é feita antes de alguma célula da planilha subsequentes é avaliada naquele segmento. Isso simplifica o design de thread-safe em seu XLL. 
   
 Se o **xlAutoFree**/ função**xlAutoFree12** fornecidas por você observa o campo **xltype** de _pxFree_, lembre-se de que o bit **xlbitDLLFree** ainda será definido. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
  **Implementação de exemplo 1**
   
@@ -179,5 +179,5 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 
 
 
-[Gerenciador de suplemento e funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gerenciador de Suplemento e Funções da Interface XLL](add-in-manager-and-xll-interface-functions.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 5bf2ff74f6cda01608efd4b372aa4b03468c820f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT CopyMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pFolderDestination_
   
@@ -49,7 +49,7 @@ MAPI_E_NO_SUPPORT
   
 > A operação não é suportada por este site de mensagem.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIMessageSite::CopyMessage** para copiar a mensagem atual para uma nova pasta. **CopyMessage** não altera a mensagem atualmente estiver sendo exibida ao usuário e nenhuma interface para a mensagem recém-criado é retornado ao formulário. 
   
@@ -85,7 +85,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a5f950907e2b14cb4101a094715c24b25beb2016
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _FILETIME
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **dwLowDateTime**
   
@@ -50,7 +50,7 @@ typedef struct _FILETIME
   
 > Valor de tempo de 32 bits de ordem alta do arquivo.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma propriedade do tipo PT_SYSTIME tem uma estrutura **FILETIME** para seu valor. Essa propriedade tem um tipo de dados **FILETIME** para o membro de **valor** em sua definição em uma estrutura [SPropValue](spropvalue.md) . 
   

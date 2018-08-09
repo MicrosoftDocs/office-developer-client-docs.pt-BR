@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -98,7 +98,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada no parâmetro _lpEntryID_ não tem um formato reconhecido pelo contêiner. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIContainer::OpenEntry** abre um objeto ao longo de um contêiner e retorna um ponteiro para uma implementação de interface usar para obter mais acesso. 
   
@@ -112,5 +112,5 @@ Por padrão, provedores de serviços abrem objetos com acesso somente leitura, a
 
 
 
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

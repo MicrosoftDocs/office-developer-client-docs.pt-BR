@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 73eb92b0c1b88e114775231695b91157a3d26a2b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ULONG OnNotify(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cNotif_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A notificação foi processada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O processo de notificação começa quando um cliente ou MAPI faz uma chamada para o método **Advise** de um provedor de serviços para registrar-se para receber uma notificação de um tipo específico de um determinado objeto. Um dos parâmetros para o método **Advise** é um ponteiro para um objeto de coletor de eventos advise que implementa a interface [IMAPIAdviseSink](imapiadvisesinkiunknown.md) . Quando um evento ocorre ao objeto de destino que corresponde à notificação registrada, o provedor de serviço, direta ou indiretamente por meio de MAPI, chama o método de **OnNotify** do coletor de eventos advise. 
   
@@ -109,7 +109,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [NOTIFICAÇÃO](notification.md)
   
-[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)
+[IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

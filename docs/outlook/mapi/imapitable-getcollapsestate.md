@@ -37,7 +37,7 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPORT
   
 > A tabela não oferece suporte a categorização e exibições expandida e recolhida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::GetCollapseState** funciona com o método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para alterar o modo de exibição do usuário de uma tabela categorizado. **GetCollapseState** salva os dados que é necessário para **SetCollapseState** será usado para reconstruir os modos de exibição apropriados das categorias de uma tabela categorizada. Provedores de serviços de determinam os dados a serem salvos. No entanto, a maioria dos provedores de serviço implementando **GetCollapseState** salvar o seguinte: 
   
@@ -99,5 +99,5 @@ Sempre chame **GetCollapseState** antes de chamar **SetCollapseState**.
 
 [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

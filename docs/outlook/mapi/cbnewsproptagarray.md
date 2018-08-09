@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: dffc8093200d5fb65e44236bda0eaca63a580cac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes a ser alocada para uma nova estrutura de [SPropTagArr
 CbNewSPropTagArray (_ctag)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __ctag_
   
@@ -49,5 +49,5 @@ CbNewSPropTagArray (_ctag)
 [SPropTagArray](sproptagarray.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

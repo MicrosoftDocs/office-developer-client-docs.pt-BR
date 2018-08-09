@@ -1,5 +1,5 @@
 ---
-title: Identificadores de catálogo de endereços
+title: Identificadores do Catálogo de Endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766133"
 ---
-# <a name="address-book-identifiers"></a>Identificadores de catálogo de endereços
+# <a name="address-book-identifiers"></a>Identificadores do Catálogo de Endereços
 
   
   

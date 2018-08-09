@@ -1,5 +1,5 @@
 ---
-title: Copiando um destinatário
+title: Copiar um destinatário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766328"
 ---
-# <a name="copying-a-recipient"></a>Copiando um destinatário
+# <a name="copying-a-recipient"></a>Copiar um destinatário
 
   
   

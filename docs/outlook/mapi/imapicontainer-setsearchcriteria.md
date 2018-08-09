@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT SetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpRestriction_
   
@@ -87,7 +87,7 @@ MAPI_E_TOO_COMPLEX
   
 > O provedor de serviços não suporta os critérios de pesquisa especificado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIContainer::SetSearchCriteria** estabelece critérios de pesquisa para um contêiner que suporta pesquisas, geralmente, uma pasta de resultados de pesquisa. Uma pasta de resultados de pesquisa contém links para as mensagens que atendam aos critérios de pesquisa; as mensagens reais ainda são armazenadas em seus locais originais. Os dados somente exclusivos que estão contidos em uma pasta de resultados de pesquisa são sua tabela de conteúdo. A tabela de conteúdo de uma pasta de resultados de pesquisa tem o conteúdo mesclado o armazenamento de mensagens depois que tiver sido aplicada a restrição de pesquisa. 
   
@@ -133,7 +133,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIFolder::CreateFolder](imapifolder-createfolder.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
@@ -141,7 +141,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SSubRestriction](ssubrestriction.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

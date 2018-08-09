@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fce8bc45d5cc87c238288653ab989b62076ad451
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767045"
 ---
-# <a name="imapiform--iunknown"></a>IMAPIForm: IUnknown
+# <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   

@@ -39,5 +39,5 @@ As funções da API descritas as propriedades de cópia lista anterior na memór
 
 
 
-[Vis�o geral da propriedade MAPI](mapi-property-overview.md)
+[Visão geral da propriedade MAPI](mapi-property-overview.md)
 

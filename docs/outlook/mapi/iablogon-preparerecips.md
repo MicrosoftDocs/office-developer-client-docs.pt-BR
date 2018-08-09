@@ -33,7 +33,7 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulFlags_
   
@@ -106,7 +106,7 @@ Para implementar **IABLogon::PrepareRecips**, use o procedimento a seguir:
 
 - [ADRLIST](adrlist.md)
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
-- [Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+- [Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
 - [SPropValue](spropvalue.md)
-- [IABLogon: IUnknown](iablogoniunknown.md)
+- [IABLogon : IUnknown](iablogoniunknown.md)
 

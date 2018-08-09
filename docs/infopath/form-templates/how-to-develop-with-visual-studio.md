@@ -1,5 +1,5 @@
 ---
-title: Desenvolver com o Visual Studio
+title: Desenvolvimento com o Visual Studio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765625"
 ---
-# <a name="develop-with-visual-studio"></a>Desenvolver com o Visual Studio
+# <a name="develop-with-visual-studio"></a>Desenvolvimento com o Visual Studio
 
 Você pode aprimorar a funcionalidade dos formulários do InfoPath bastante estendendo-as com código gerenciado desenvolvido no Visual Studio 2012. Em seguida, você pode publicar seus formulários com código bibliotecas de formulários no SharePoint Server 2013.
   

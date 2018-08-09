@@ -41,7 +41,7 @@ HRESULT DoCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpSrcInterface_
   
@@ -131,7 +131,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > O tipo de propriedade não é o tipo esperado do chamador.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::DoCopyProps** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagens podem chamar **DoCopyProps** para implementar o método [IMAPIProp::CopyProps](imapiprop-copyprops.md) para suas pastas e mensagens. **DoCopyProps** copia ou move as propriedades que são identificados na propriedade tag matriz apontado pela _lpIncludeProps_ e que estão presentes no objeto apontado pela _lpSrcObj_. 
   
@@ -165,15 +165,15 @@ Se **DoCopyProps** Retorna S_OK, livre a estrutura de **SPropProblemArray** reto
   
 [IMAPISupport::GetLastError](imapisupport-getlasterror.md)
   
-[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônico de PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propriedade canônica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   

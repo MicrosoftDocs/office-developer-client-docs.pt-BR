@@ -35,7 +35,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cValues_
   
@@ -59,7 +59,7 @@ S_OK
   
 > A tabela de status foi atualizada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::ModifyStatusRow** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamada **ModifyStatusRow** em tempo de logon para adicionar uma linha à tabela de status e em outros momentos durante a sessão para atualizar a linha. **ModifyStatusRow** fornece MAPI com as informações necessárias para criar a tabela de status. 
   

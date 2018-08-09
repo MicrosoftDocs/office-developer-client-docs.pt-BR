@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1b3d8c74d85696e733b378a4cac2b8e2a3b6a072
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ ULONG FAR * lpulMoreRows
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbInstanceKey_
   
@@ -74,7 +74,7 @@ E_NOT_FOUND
   
 > A linha identificada pelo parâmetro _pbInstanceKey_ não existe. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::ExpandRow** expande uma categoria de tabela recolhida, adicionando a folha ou linhas de cabeçalho de nível inferior que pertencem à categoria para o modo de exibição de tabela. Um limite no número de linhas a serem retornados no parâmetro _lppRows_ pode ser especificado no parâmetro _ulRowCount_ . Quando _ulRowCount_ estiver definida como um valor maior que zero e uma ou mais linhas são retornadas no conjunto de linha apontado pela _lppRows_, defina a posição do indicador que bookmark_current é movido para a linha imediatamente após a última linha a linha.
   
@@ -106,7 +106,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPITable::CollapseRow](imapitable-collapserow.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

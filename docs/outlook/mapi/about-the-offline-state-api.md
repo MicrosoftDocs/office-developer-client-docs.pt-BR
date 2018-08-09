@@ -1,5 +1,5 @@
 ---
-title: Sobre a API de estado Offline
+title: Sobre a API de estado offline
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766115"
 ---
-# <a name="about-the-offline-state-api"></a>Sobre a API de estado Offline
+# <a name="about-the-offline-state-api"></a>Sobre a API de estado offline
 
   
   

@@ -19,7 +19,7 @@ ms.locfileid: "19765225"
 Você pode usar a ação de **funções SetVariable** para criar uma variável temporária e defini-la como um valor específico. A variável, em seguida, pode ser usada como um argumento em ações subsequentes ou condição, ou você pode usar a variável em outra macro (UI) da interface de usuário. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="setting"></a>Configuração
 

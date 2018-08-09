@@ -33,7 +33,7 @@ HRESULT SaveForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _szFileName_
   
@@ -53,7 +53,7 @@ MAPI_E_NO_SUPPORT
   
 > **SaveForm** provavelmente foi chamado para salvar um formulário no contêiner local do formulário. **SaveForm** não é suportado no contêiner do local do formulário. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos cliente chamam o método de **IMAPIFormInfo::SaveForm** para salvar uma descrição do formulário atual no arquivo que tenha o nome de arquivo fornecido. **SaveForm** cria um arquivo de configuração. 
   
@@ -71,5 +71,5 @@ Chamar o método [IMAPIProp::GetLastError](imapiprop-getlasterror.md) se **SaveF
   
 [MAPIERROR](mapierror.md)
   
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Tabelas de informações associadas a pasta
+title: Tabelas de informações associadas à pasta
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766580"
 ---
-# <a name="folder-associated-information-tables"></a>Tabelas de informações associadas a pasta
+# <a name="folder-associated-information-tables"></a>Tabelas de informações associadas à pasta
 
   
   
@@ -45,5 +45,5 @@ Não há nenhum bit na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSuppor
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

@@ -11,7 +11,7 @@ keywords:
 - função tempbool [excel 2007], função TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,17 +30,17 @@ LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _b_ (**int**)
   
 Use 0 para retornar **FALSE**; Use qualquer outro valor para retornar **TRUE**.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 Retorna um **xltypeBool** **booliano** que contém o valor lógico passado. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir usa a função **TempBool12** para limpar a barra de status. Memória temporária é liberada quando a função do [Excel/Excel12f](excel-excel12f.md) é chamada. 
   
@@ -58,5 +58,5 @@ short int WINAPI TempBoolExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

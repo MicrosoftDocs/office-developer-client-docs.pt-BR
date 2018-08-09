@@ -33,7 +33,7 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppmsg_
   
@@ -49,7 +49,7 @@ S_OK
 
 
 
-[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)
+[IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

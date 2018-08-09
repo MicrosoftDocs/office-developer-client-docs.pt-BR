@@ -1,5 +1,5 @@
 ---
-title: Comparando entradas do catálogo de endereços
+title: Comparar entradas do catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766289"
 ---
-# <a name="comparing-address-book-entries"></a>Comparando entradas do catálogo de endereços
+# <a name="comparing-address-book-entries"></a>Comparar entradas do catálogo de endereços
 
   
   

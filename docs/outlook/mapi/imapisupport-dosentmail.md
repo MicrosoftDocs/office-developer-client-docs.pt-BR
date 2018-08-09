@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::DoSentMail** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **DoSentMail** da sua implementação do método [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) , que é chamado pelo spooler MAPI quando ele tiver terminado de processamento de uma mensagem. **FinishedMsg** desbloqueia a mensagem, garante que a contagem de referência da mensagem é 1 e chama **DoSentMail**.
   
@@ -72,7 +72,7 @@ O método **IMAPISupport::DoSentMail** é implementado para objetos de suporte d
 
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   
-[Propriedade canônico de PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
+[Propriedade canônica PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

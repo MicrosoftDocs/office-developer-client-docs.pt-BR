@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ed3f793e4353cf78949a9df3a17dd3997a573f58
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -73,7 +73,7 @@ MAPI_E_NO_INTERFACE
   
 > Não há suporte para a interface solicitada pelo objeto form.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método **IMAPIFormMgr::CreateForm** para abrir um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário. **CreateForm** abre o formulário criando uma instância do servidor de formulário para nesse formulário, conforme descrito no objeto informações determinado formulário. Se for necessário, **CreateForm** chama o método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para baixar o código de servidor do formulário no disco do usuário. 
   
@@ -95,12 +95,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Lançar um servidor de formulário](launching-a-form-server.md)
+[Iniciar um servidor de formulário](launching-a-form-server.md)
 

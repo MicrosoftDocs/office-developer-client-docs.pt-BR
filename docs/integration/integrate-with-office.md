@@ -21,23 +21,23 @@ Office universal, Office para iPad, o Office para iPhone, Office para Android ta
   
 Se você for um provedor de armazenamento de nuvem, você pode registrar para nosso [programa de parceria](http://dev.office.com/programs/officecloudstorage) de integrar com os aplicativos do Office Online para habilitar os usuários exibir e editar documentos do Excel, PowerPoint e Word em qualquer navegador da web. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-- [Integrar com o Office a partir de aplicativos do iOS](integrate-with-office-from-ios-applications.md)
+- [Integração do Office com aplicativos do iOS](integrate-with-office-from-ios-applications.md)
     
 - [Office para suporte de iOS para o iOS selecionador de documento](office-for-ios-support-for-the-ios-document-picker.md)
     
-- [Integração com o Office a partir de aplicativos universais do Windows](integrate-with-office-from-windows-universal-apps.md)
+- [Integração com o Office em aplicativos universais do Windows](integrate-with-office-from-windows-universal-apps.md)
     
-- [Integração com o Office de clientes de sincronização de Win32](integrate-with-office-from-win32-sync-clients.md)
+- [Integração com o Office em clientes de sincronização do Win32](integrate-with-office-from-win32-sync-clients.md)
     
-- [Office para suporte Android para o Android Framework de acesso de armazenamento](office-for-android-support-for-the-android-storage-access-framework.md)
+- [Suporte do Office para Android para a Estrutura de acesso ao armazenamento do Android](office-for-android-support-for-the-android-storage-access-framework.md)
     
-- [Integração com o Office de aplicativos do Android](integrate-with-office-from-android-applications.md)
+- [Integração com o Office em aplicativos do Android](integrate-with-office-from-android-applications.md)
     
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolvimento de cliente do Office](https://msdn.microsoft.com/en-us/library/dn833103.aspx)
+- [Desenvolvimento do cliente do Office](https://msdn.microsoft.com/en-us/library/dn833103.aspx)
     
 - [Desenvolvimento do Office](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     

@@ -23,7 +23,7 @@ Ao escrever código para estender a funcionalidade de um modelo de formulário q
 
 A interface de [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) fornece os seguintes métodos, os desenvolvedores de formulário podem usar para ter tipos diferentes de caixas de diálogo exibidas para os usuários do InfoPath conforme estiverem preenchendo um formulário. 
   
-|Name|Descrição|
+|Nome|Descrição|
 |:-----|:-----|
 |[Alerta](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Exibe uma caixa de mensagem simples que contém uma cadeia de caracteres da mensagem especificada. Esse método deve ser usado quando nenhuma entrada será necessária do usuário e apenas uma mensagem precisa ser exibido. A caixa de diálogo exibida está fechada clicando no botão **Okey** .  <br/> |
 |[Confirmar](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Exibe uma caixa de mensagem com botões para entrada de um usuário. O valor retornado é uma das seguintes constantes [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) enumerado.  <br/> |

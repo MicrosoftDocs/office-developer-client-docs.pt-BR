@@ -1,5 +1,5 @@
 ---
-title: Referência do desenvolvedor do InfoPath para modelos de formulário
+title: Referência de desenvolvimento do InfoPath para modelos de formulário
 ms.author: mroberts
 author: mroberts
 manager: soliver
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765619"
 ---
-# <a name="infopath-developer-reference-for-form-templates"></a>Referência do desenvolvedor do InfoPath para modelos de formulário
+# <a name="infopath-developer-reference-for-form-templates"></a>Referência de desenvolvimento do InfoPath para modelos de formulário
 
 Bem-vindo à referência do desenvolvedor do InfoPath 2013 para modelos de formulário. Esta documentação fornece visões gerais, tarefas de programação e informações de referência da biblioteca de classes que foram concebidas para ajudar você a compilar modelos de formulários do InfoPath que contêm lógica corporativa escrita em Visual Basic ou Visual C#.
   

@@ -11,7 +11,7 @@ keywords:
 - função tempmissing [excel 2007], função TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a6db2e1f2917ecd9361043577f4bf203b3267a5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 Essa função não usa parâmetros.
   
@@ -38,7 +38,7 @@ Essa função não usa parâmetros.
 
 Retorna um ponteiro para uma **xltypeMissing** **XLOPER**/ **XLOPER12**.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa **TempMissing12** para fornecer três argumentos ausentes para **xlcWorkspace** seguido **booleano** **FALSE** para suprimir a exibição das barras de rolagem da planilha. Os três primeiros argumentos correspondem às outras configurações de espaço de trabalho que não são afetadas. 
   
@@ -60,5 +60,5 @@ short WINAPI TempMissingExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

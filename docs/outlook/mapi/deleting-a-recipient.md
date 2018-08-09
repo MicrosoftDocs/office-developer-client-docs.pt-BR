@@ -1,5 +1,5 @@
 ---
-title: Excluindo um destinatário
+title: Excluir um destinatário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766383"
 ---
-# <a name="deleting-a-recipient"></a>Excluindo um destinatário
+# <a name="deleting-a-recipient"></a>Excluir um destinatário
 
   
   

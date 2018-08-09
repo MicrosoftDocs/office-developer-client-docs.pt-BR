@@ -41,5 +41,5 @@ Antes de começar a escrever código para suportar o seu serviço de mensagem, �
     
 ## <a name="see-also"></a>Confira também
 
-- [Implementação do serviço de mensagem](message-service-implementation.md)
+- [Implementação do serviço de mensagens](message-service-implementation.md)
 

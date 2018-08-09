@@ -11,7 +11,7 @@ keywords:
 - função tempactivecell12 [excel 2007], função TempActiveCell [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac5a200d-32d5-4313-9a6d-d730032aaf10
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8ad409a76195d67fa61e7991ce6527c40e0a3265
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ LPXLOPER TempActiveCell(WORD row, BYTE col);
 LPXLOPER12 TempActiveCell12(RW row, COL co);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
- _linha_
+ _row_
   
 A linha a ser referenciado. Argumentos de linha são baseada em zero, portanto, essa linha 1 é passada como 0. No Microsoft Office Excel 2003 e anteriores versões e iniciando em uma pasta de trabalho em execução no modo de compatibilidade do Excel 2007, o valor máximo é 65.535 = 2 ^ 16-1 e é o valor máximo que pode ser realizado por um inteiro do WORD. Iniciando no Excel 2007 executando uma pasta de trabalho, o valor máximo é 1.048.575 = 2 ^ 20-1. RW é definido como um inteiro assinado de 32 bits em XLCALL. H.
   
@@ -44,7 +44,7 @@ A coluna a ser referenciado. Isso é baseado em zero que a coluna A é passada c
 
 Retorna uma referência de **xltypeRef** externo para a célula passada. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 O exemplo a seguir usa **TempActiveCell12** para exibir o conteúdo de B94 na planilha ativa. 
   
@@ -62,5 +62,5 @@ short WINAPI TempActiveCellExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

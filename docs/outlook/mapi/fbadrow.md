@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c3025c353c71958a19303c5e79cec319a3bf8015
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ULONG FBadRow(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lprow_
   

@@ -34,7 +34,7 @@ HRESULT ExpandRecips(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMessage_
   
@@ -58,7 +58,7 @@ S_OK
   
 > Lista de destinatários da mensagem foi processada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::ExpandRecips** é implementado para objetos de suporte do provedor de repositório de mensagem. Provedores de armazenamento de mensagem chamarem **ExpandRecips** para solicitar que o MAPI para executar as seguintes tarefas: 
   

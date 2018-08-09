@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 36fd729b1ca3e5d877d03358d581b83fc6d4782c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT CreateFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFolderType_
   
@@ -98,7 +98,7 @@ MAPI_E_COLLISION
   
 > Uma pasta que tem o nome fornecido no parâmetro _lpszFolderName_ já existe. Nomes de pasta devem ser exclusivos. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIFolder::CreateFolder** cria uma subpasta na pasta atual e atribui um identificador de entrada para a nova pasta. 
   
@@ -126,7 +126,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -28,15 +28,15 @@ A função **DateAdd** contém os seguintes argumentos.
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *DatePart*  <br/> |A parte da *Data* à qual um número inteiro é adicionado. Consulte a seção de comentários para a lista das configurações válidas.  <br/> |
+| *ParteDeData*  <br/> |A parte da *Data* à qual um número inteiro é adicionado. Consulte a seção de comentários para a lista das configurações válidas.  <br/> |
 | *Número*  <br/> |É uma expressão que possa ser resolvida para um número inteiro que é adicionado a um *DatePart* de *Data* . Se você especificar um valor com uma fração decimal, a fração será truncada.  <br/> |
 | *Date*  <br/> |Uma expressão que pode ser resolvida como um valor de data/hora. A expressão de argumento *Data* , expressão de coluna, a variável definida pelo usuário ou cadeia de caracteres literal.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A tabela a seguir lista todos os argumentos *DatePart* válidos. 
   
-|***DatePart***|
+|***ParteDeData***|
 |:-----|
 |**year** <br/> |
 |**trimestre** <br/> |
@@ -49,7 +49,7 @@ A tabela a seguir lista todos os argumentos *DatePart* válidos.
 |**segundo** <br/> |
 |**milissegundo** <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 A expressão a seguir calcula o último dia do mês atual.
   

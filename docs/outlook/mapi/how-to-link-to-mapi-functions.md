@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -126,9 +126,9 @@ Para acessar os arquivos da biblioteca de Stub MAPI e para obter informações s
 ## <a name="see-also"></a>Confira também
 
 - [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
-- [Instalando o subsistema de MAPI](installing-the-mapi-subsystem.md)
+- [Instalar o subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar arquivos de cabeçalho MAPI](how-to-install-mapi-header-files.md)
-- [Escolher uma versão específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Escolher uma versão MAPI específica para carregar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Determinando qual método vinculação de uso](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
 - [Vinculando um arquivo executável para uma DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
 - [Configurando as chaves MSI para sua DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)

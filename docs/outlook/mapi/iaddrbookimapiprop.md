@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766876"
 ---
-# <a name="iaddrbook--imapiprop"></a>IAddrBook: IMAPIProp
+# <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   

@@ -8,7 +8,7 @@ keywords:
 - xlrunningoncluster
 localization_priority: Normal
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f42ccbeb94e1fc6b6cf880f1b32ee1bfeb24997e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -26,7 +26,7 @@ Retorna um valor que indica se a função definida pelo usuário está sendo exe
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 Essa função não tem argumentos.
   
@@ -40,6 +40,6 @@ Esta função é definida no arquivo de cabeçalho xlcall. h.
   
 ## <a name="see-also"></a>Confira também
 
-- [Funções de segurança de cluster](cluster-safe-functions.md)
-- [Funções da API C que podem ser chamadas apenas por um DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Funções de segurança do cluster](cluster-safe-functions.md)
+- [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

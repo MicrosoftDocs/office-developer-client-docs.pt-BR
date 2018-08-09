@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpProviderID_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A estrutura **MAPIUID** foi registrada com êxito. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::SetProviderUID** é implementado para endereço livro e mensagem provedor suporte objetos store. Esses provedores chamarem **SetProviderUID** para registrar um identificador exclusivo descrito na estrutura **MAPIUID** que é apontada pela _lpProviderID_. Provedores de incluem esse identificador em todos os identificadores de entrada que eles criam. 
   

@@ -1,5 +1,5 @@
 ---
-title: Repositórios de mensagem padrão
+title: Repositórios de mensagens padrão
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766363"
 ---
-# <a name="default-message-stores"></a>Repositórios de mensagem padrão
+# <a name="default-message-stores"></a>Repositórios de mensagens padrão
 
   
   
@@ -43,5 +43,5 @@ Um armazenamento de mensagens padrão é aquela que aplicativos cliente podem us
 
 
 
-[Desenvolvendo um provedor de armazenamento de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

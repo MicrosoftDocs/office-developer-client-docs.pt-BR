@@ -10,7 +10,7 @@ keywords:
 - função xlautoregister [excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e6430a54b0c0ed3b6e08d3c9256cae7dcde926ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,21 +36,21 @@ LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
 LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pxName_ (**xltypeStr**)
   
 O nome da função XLL que está sendo registrado.
   
-## <a name="property-valuereturn-value"></a>Propriedade valor/valor de retorno
+## <a name="property-valuereturn-value"></a>Valor de propriedade/Valor de retorno
 
 A função deve retornar o resultado da tentativa de registrar a função XLL _pxName_ , usando a função **xlfRegister** . Se a função especificada não for uma das exportações do XLL, ele deve retornar o **#VALUE!** erro ou **Nulo** que Excel irá interpretar em **#VALUE!**.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A implementação dos **xlAutoRegister** deve realizar uma pesquisa diferenciam maiusculas e minúsculas através de listas de interno do seu XLL das funções e comandos que ele exporta procurando uma correspondência com o nome passado. Se a função ou o comando for localizado, **xlAutoRegister** deve tentar registrar a ele, usando a função **xlfRegister** , certificando-se de fornecer a cadeia de caracteres que indica os tipos de retorno e o argumento de função, bem como qualquer outro necessários ao Excel informações sobre a função. Em seguida, ele deverá retornar para o Excel vivo do que a chamada para **xlfRegister** retornado. Se a função foi registrada com êxito, **xlfRegister** retorna um valor **xltypeNum** que contém a ID de registrar da função. 
   
-### <a name="example"></a>Example
+### <a name="example"></a>Exemplo
 
 Consulte o arquivo `SAMPLES\EXAMPLE\EXAMPLE.C` para um exemplo de implementação dessa função. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 644fad96c8aec3701233351469a84ef93341b397
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767137"
 ---
-# <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr: IMAPIOffline
+# <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
@@ -48,7 +48,7 @@ Suporta Registrando para retornos de chamada de notificação sobre alterações
 | *Membro do espaço reservado*  <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
 | *Membro do espaço reservado*  <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Ao abrir um objeto offline para um perfil de conta de usuário usando **[HrOpenOfflineObj](hropenofflineobj.md)**, um cliente obtém um objeto offline que suporta **IMAPIOfflineMgr**. 
   
@@ -60,10 +60,10 @@ A maioria dos membros nessa interface é espaços reservados reservados para uso
 
 
 
-[IMAPIOffline: IUnknown](imapiofflineiunknown.md)
+[IMAPIOffline : IUnknown](imapiofflineiunknown.md)
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

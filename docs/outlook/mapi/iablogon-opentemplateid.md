@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766849"
 ---
-# <a name="iablogonopentemplateid"></a>IABLogon:: OpenTemplateID
+# <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
@@ -39,7 +39,7 @@ HRESULT OpenTemplateID(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbTemplateID_
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de modelo passado no parâmetro _lpTemplateID_ não é reconhecido pelo provedor de catálogo de endereços. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IABLogon:: OpenTemplateID** é implementado apenas por provedores de catálogo de endereços que precisam manter o controle sobre cópias de suas entradas que estão localizadas em contêineres de provedores de host. Os provedores que implementam **OpenTemplateID** são conhecidos como provedores de catálogo de endereço estrangeiro. Ligue para provedores de host [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para criar uma entrada copiada ou abra a entrada copiada e MAPI passa na chamada **IABLogon:: OpenTemplateID**. **IABLogon:: OpenTemplateID** abre a entrada e vincula o código que controla-lo aos dados no provedor de host. 
   
@@ -133,7 +133,7 @@ Para obter mais informações sobre como trabalhar com identificadores de modelo
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
   
-[Propriedade canônico de PidTagTemplateid](pidtagtemplateid-canonical-property.md)
+[Propriedade canônica PidTagTemplateid](pidtagtemplateid-canonical-property.md)
   
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

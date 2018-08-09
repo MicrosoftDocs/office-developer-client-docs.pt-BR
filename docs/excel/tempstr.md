@@ -10,7 +10,7 @@ keywords:
 - função tempstr [excel 2007]
 localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ce9399168d5b94d10481d2d0b5b69dd2e1d1d2e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -28,9 +28,9 @@ Função preterida da biblioteca Framework que cria um temporário que contém u
 LPXLOPER TempStr(LPSTR str);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
- _STR_
+ _str_
   
 Um ponteiro para a cadeia de caracteres fonte terminada em nulo. **TempStr** trunca strings que são maiores do que 255 bytes. 
   
@@ -38,7 +38,7 @@ Um ponteiro para a cadeia de caracteres fonte terminada em nulo. **TempStr** tru
 
 Retorna uma cadeia de caracteres **xltypeStr** contendo um ponteiro para o buffer passado na cadeia de caracteres. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A maneira em que ambos os trabalhos de [TempStrConst e TempStr12](tempstrconst-tempstr12.md) agora é substituída dessa maneira de criação de cadeias de caracteres temporárias. Essas funções alocar um novo buffer de memória e copiem a cadeia de caracteres passada para ele. As cadeias de caracteres de entrada para **TempStrConst** e **TempStr12** não forem alteradas e portanto são declaradas como **constante**. Por outro lado, a sequência de entrada para **TempStr** for alterada e não pode ser declarada como **constante**. O primeiro caractere da cadeia de caracteres de entrada é tratado como espaço para um caractere de comprimento e será substituído por essa função.
   
@@ -46,5 +46,5 @@ A maneira em que ambos os trabalhos de [TempStrConst e TempStr12](tempstrconst-t
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

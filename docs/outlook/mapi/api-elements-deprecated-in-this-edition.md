@@ -45,5 +45,5 @@ Os seguintes elementos de API são preteridos nesta versão devido a mensagem ob
 
 
 
-[Introdu��o � refer�ncia do MAPI do Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
 

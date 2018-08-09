@@ -33,7 +33,7 @@ HRESULT SaveChanges(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -81,7 +81,7 @@ MAPI_E_OBJECT_DELETED
   
 > O objeto foi excluído desde que ela foi aberta.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIProp::SaveChanges** faz com que as alterações de propriedade permanente para objetos que suportam o modelo de transação do processamento, como mensagens, anexos, recipientes do catálogo de endereços e objetos de usuário de mensagens. Objetos que não oferecem suporte a transações, como pastas, repositórios de mensagem e seções de perfil, faça alterações permanentes imediatamente. Nenhuma chamada para **SaveChanges** é necessária. 
   
@@ -130,9 +130,9 @@ Para obter mais informações, consulte [Salvar Propriedades de MAPI](saving-map
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [Salvar propriedades MAPI](saving-mapi-properties.md)

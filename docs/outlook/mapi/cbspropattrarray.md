@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3469e5b6e4ab3d6a4af1f74c68cafe2ab3156fb1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ Calcula o número de bytes em uma estrutura de [SPropAttrArray](spropattrarray.m
 CbSPropAttrArray (_lparray)
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  __lparray_
   
@@ -49,5 +49,5 @@ CbSPropAttrArray (_lparray)
 [SPropAttrArray](spropattrarray.md)
 
 
-[Macros de estruturas](macros-related-to-structures.md)
+[Macros relacionadas a estruturas](macros-related-to-structures.md)
 

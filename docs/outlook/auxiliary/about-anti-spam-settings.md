@@ -1,5 +1,5 @@
 ---
-title: Sobre configurações antispam
+title: Sobre as configurações antispam
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765779"
 ---
-# <a name="about-anti-spam-settings"></a>Sobre configurações antispam
+# <a name="about-anti-spam-settings"></a>Sobre as configurações antispam
 
 Outlook permite que os usuários especifiquem configurações para cada conta para ajudar a proteger a conta contra spam. Tais configurações antispam são armazenadas em uma seção designada para essa conta no perfil do usuário. Use a propriedade [PROP_ACCT_PREFERENCES_UID](prop_acct_preferences_uid.md) para obter o ID exclusivo (UID) para a seção no perfil que armazena as preferências do usuário para essa conta, incluindo as configurações antispam. 
   
@@ -26,7 +26,7 @@ Use as propriedades a seguir para obter configurações antispam para a conta:
     
 |Valor com suporte |Definição |
 |:-----|:-----|
-|None  <br/> |0xFFFFFFFF  <br/> |
+|Nenhum  <br/> |0xFFFFFFFF  <br/> |
 |Baixa  <br/> |0x00000006  <br/> |
 |Médio  <br/> |0x00000005  <br/> |
 |Alta  <br/> |0x00000003  <br/> |

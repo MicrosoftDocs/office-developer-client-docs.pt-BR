@@ -27,5 +27,5 @@ Da mesma forma, os provedores de armazenamento de mensagem devem tentar preserva
   
 ## <a name="see-also"></a>Confira também
 
-- [Recursos de armazenamento de mensagens](message-store-features.md)
+- [Recursos do repositório de mensagens](message-store-features.md)
 

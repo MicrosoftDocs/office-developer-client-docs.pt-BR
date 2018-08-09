@@ -1,5 +1,5 @@
 ---
-title: Exibir a caixa de diálogo endereço comuns
+title: Exibir a caixa de diálogo de endereços comuns
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766453"
 ---
-# <a name="displaying-the-common-address-dialog-box"></a>Exibir a caixa de diálogo endereço comuns
+# <a name="displaying-the-common-address-dialog-box"></a>Exibir a caixa de diálogo de endereços comuns
 
   
   

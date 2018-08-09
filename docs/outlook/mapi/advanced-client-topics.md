@@ -23,29 +23,29 @@ ms.locfileid: "19766155"
   
 Esta seção inclui subtópicos sobre como implementar alguns dos recursos mais incomuns ou difícil em um aplicativo cliente.
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Como escrever um cliente automatizado](writing-an-automated-client.md)
+[Gravar um cliente automatizado](writing-an-automated-client.md)
   
 > Descreve como escrever um cliente automatizado que suprime a interface do usuário.
     
-[Como escrever um visualizador remoto](writing-a-remote-viewer.md)
+[Gravar um visualizador remoto](writing-a-remote-viewer.md)
   
 > Descreve como escrever um aplicativo cliente que fornece acesso controlado às mensagens armazenadas em outro computador.
     
-[Como escrever um visualizador de hierarquia](writing-a-hierarchy-viewer.md)
+[Gravar um visualizador de hierarquia](writing-a-hierarchy-viewer.md)
   
 > Descreve como escrever um visualizador de hierarquia, um componente de interface do usuário que é usado para exibir a pasta e o endereço de tabelas de hierarquias de contêiner de catálogo.
     
-[Usando os utilitários MAPI](using-the-mapi-utilities.md)
+[Usar os utilitários MAPI](using-the-mapi-utilities.md)
   
 > Descreve como usar os utilitários MAPI que são compostos de dados da tabela e objetos de dados de propriedade e uma variedade de funções para dar suporte a diversos recursos
     
-[Implementando um indicador de progresso](implementing-a-progress-indicator.md)
+[Implementar um indicador de progresso](implementing-a-progress-indicator.md)
   
 > Descreve como implementar um indicador de progresso.
     
-[Centralizando o recebimento de NDRs](centralizing-the-receipt-of-ndrs.md)
+[Centralizar a recebimentos de NDRs](centralizing-the-receipt-of-ndrs.md)
   
 > Descreve como centralizar o recebimento de falha na entrega.
     

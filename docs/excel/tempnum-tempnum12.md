@@ -11,7 +11,7 @@ keywords:
 - função tempnum12 [excel 2007], função TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -30,7 +30,7 @@ LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _d_ (**double**)
   
@@ -40,7 +40,7 @@ O valor desejado. Observe que os números de sub-recursos normais padrão IEEE n
 
 Retorna numéricos **xltypeNum** contendo o valor passado ou zero se o valor passado na era sub-recursos normal. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 Este exemplo usa a função **TempNum12** para passar um argumento para **xlfGetWorkspace**.
   
@@ -60,5 +60,5 @@ short WINAPI TempNumExample(void)
 
 
 
-[Funções na biblioteca do Framework](functions-in-the-framework-library.md)
+[Funções na biblioteca de estrutura](functions-in-the-framework-library.md)
 

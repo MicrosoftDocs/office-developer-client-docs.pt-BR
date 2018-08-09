@@ -38,7 +38,7 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulRowIndex_
   
@@ -68,7 +68,7 @@ _pError_
 
 S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos de cliente MAPI que usam a interface [IOlkApptRebaser](iolkapptrebaser.md) implementam esta função para controlar a conclusão das atualizações de item. 
   

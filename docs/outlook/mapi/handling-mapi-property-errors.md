@@ -39,7 +39,7 @@ Quando um valor de erro � retornado de **SetProps**, **DeleteProps**, **CopyTo
   
 **GetLastError** � semelhante � fun��o do mesmo nome fornecido no SDK do Windows. Ambos fornecem que informa��es mais detalhadas sobre um erro que est� dispon�vel com o valor de retorno. Ambos retornarem informa��es sobre o erro anterior que tenha ocorrido. A diferen�a � que a fun��o de **GetLastError** Win32 relat�rios sobre um erro gerado pelo thread de chamada e o m�todo **IMAPIProp::GetLastError** relat�rios sobre um erro gerado pelo objeto atual. Ou seja, se um cliente chama **DeleteProps** em uma mensagem e MAPI_E_NO_ACCESS � retornado para indicar que a mensagem � somente leitura, **GetLastError** retorna dados fornecidos pela mensagem. 
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
-- [Vis�o geral da propriedade MAPI](mapi-property-overview.md)
+- [Visão geral da propriedade MAPI](mapi-property-overview.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Publicando formulários com código
+title: Publicar formulários com código
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765713"
 ---
-# <a name="publishing-forms-with-code"></a>Publicando formulários com código
+# <a name="publishing-forms-with-code"></a>Publicar formulários com código
 
 Qualquer administrador de conjunto de sites pode publicar formulários com código diretamente a partir do Assistente de publicação do InfoPath Designer para uma biblioteca de formulários no SharePoint. O código é executado em um ambiente de área restrita para que o código mal-intencionado não pode prejudicar o servidor. Isso é conhecido como uma solução alternativa de publicação ou publicar a infraestrutura de área restrita do SharePoint.
   

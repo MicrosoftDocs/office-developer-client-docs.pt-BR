@@ -1,5 +1,5 @@
 ---
-title: Visão geral de desligamento rápido
+title: Visão geral do desligamento rápido
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766520"
 ---
-# <a name="fast-shutdown-overview"></a>Visão geral de desligamento rápido
+# <a name="fast-shutdown-overview"></a>Visão geral do desligamento rápido
 
 **Aplica-se a**: Outlook 
   
@@ -50,6 +50,6 @@ Se um cliente MAPI precisa adotar o desligamento rápido, ela deve usar o **IMAP
 ## <a name="see-also"></a>Confira também
 
 - [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)
-- [Opções de desligamento rápido do usuário](fast-shutdown-user-options.md)
-- [Práticas recomendadas para desligamento rápido](best-practices-for-fast-shutdown.md)
+- [Opções de usuário do desligamento rápido](fast-shutdown-user-options.md)
+- [Práticas recomendadas para o desligamento rápido](best-practices-for-fast-shutdown.md)
 

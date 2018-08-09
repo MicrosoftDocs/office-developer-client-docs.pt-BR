@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 13c151a134e4334e8ed2e75e031a6fc9dddbf941
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT GetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -88,7 +88,7 @@ MAPI_E_NOT_INITIALIZED
   
 > Critérios de pesquisa nunca estabelecidos para o contêiner.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPIContainer::GetSearchCriteria** obtém os critérios de pesquisa para um contêiner que suporta pesquisas, geralmente, uma pasta de resultados de pesquisa. Você pode criar critérios de pesquisa chamando o método de **IMAPIContainer::SetSearchCriteria** de um contêiner. 
   
@@ -118,9 +118,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagSearch](pidtagsearch-canonical-property.md)
+[Propriedade canônica PidTagSearch](pidtagsearch-canonical-property.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

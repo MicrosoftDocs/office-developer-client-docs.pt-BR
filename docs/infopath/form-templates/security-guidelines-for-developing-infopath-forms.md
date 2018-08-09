@@ -1,5 +1,5 @@
 ---
-title: Diretrizes de segurança para o desenvolvimento de formulários do InfoPath
+title: Diretrizes de segurança para desenvolver formulários do InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765720"
 ---
-# <a name="security-guidelines-for-developing-infopath-forms"></a>Diretrizes de segurança para o desenvolvimento de formulários do InfoPath
+# <a name="security-guidelines-for-developing-infopath-forms"></a>Diretrizes de segurança para desenvolver formulários do InfoPath
 
 Antes de ler este tópico, consulte [Conceitos adicionais de segurança de formulário do InfoPath](additional-infopath-form-security-concepts.md) para ter uma compreensão geral do modelo de segurança do InfoPath. 
   

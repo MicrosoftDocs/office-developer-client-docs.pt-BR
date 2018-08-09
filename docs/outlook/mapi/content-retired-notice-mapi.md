@@ -25,7 +25,7 @@ O conteúdo que você tentou exibir não está mais disponível. Ele pode foram 
 
 - [Referência de MAPI do Outlook](outlook-mapi-reference.md)
     
-- [Introdu��o � refer�ncia do MAPI do Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+- [Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
     
 - [Amostras MAPI (em ingl�s)](mapi-samples.md)
     

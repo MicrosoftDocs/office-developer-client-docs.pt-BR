@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _DTBLLBX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -63,7 +63,7 @@ MAPI_NO_VBAR
   
 > Marca de propriedade para uma propriedade de tabela do tipo PT_OBJECT que podem ser abertos usando uma **OpenProperty** chamar. O número de colunas que a tabela deve ter depende se a lista é uma lista de seleção única ou múltipla. Se o membro **ulPRSetProperty** é definido como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), a lista permite a seleção múltipla.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLLBX** descreve uma um controle que é usado para mostrar vários itens e permitir que o usuário selecione um ou mais dos itens de lista. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3a5188ea9f83d05722c6b5ab81d9e796b33ef254
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ typedef struct _DTBLCOMBOBOX
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   
@@ -78,7 +78,7 @@ MAPI_UNICODE
   
 > Marca de propriedade para uma propriedade de PT_OBJECT tipo no qual uma interface **IMAPITable** pode ser aberta usando uma chamada **OpenProperty** . A tabela deve ter uma coluna com uma propriedade que é o mesmo tipo que a propriedade identificada pelo membro **ulPRPropertyName** . As linhas da tabela são usadas para preencher a lista. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma estrutura **DTBLCOMBOBOX** descreve uma caixa de combinação de um controle que consiste em uma lista e um campo da seleção. A lista apresenta as informações a partir do qual um usuário pode selecionar e o campo de seleção exibir a seleção atual. O campo de seleção é um controle de edição que também pode ser usado para inserir texto ainda não estiver na lista. 
   
@@ -96,7 +96,7 @@ Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas]
 
 [DTCTL](dtctl.md)
   
-[Propriedade canônico de PidTagControlType](pidtagcontroltype-canonical-property.md)
+[Propriedade canônica PidTagControlType](pidtagcontroltype-canonical-property.md)
 
 
 [Estruturas MAPI](mapi-structures.md)

@@ -29,6 +29,6 @@ Representa o número da porta da conta do SMTP.
    
 ## <a name="see-also"></a>Confira também
 
-- [Gerenciando mensagem downloads para contas POP3](managing-message-downloads-for-pop3-accounts.md) 
+- [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
 

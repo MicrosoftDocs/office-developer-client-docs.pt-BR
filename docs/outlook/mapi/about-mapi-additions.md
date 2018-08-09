@@ -29,7 +29,7 @@ Adições de MAPI são APIs que pertencem à Messaging Application Programming I
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- [**Gênero**](gender.md)
+- **[Gênero](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -187,15 +187,15 @@ As seguintes propriedades expostas pelos objetos de usuário de mensagens.
     
 - **[PR_TTYTDD_PHONE_NUMBER_W](pidtagttytddphonenumber-canonical-property.md)**
     
-- [**PR_WEDDING_ANNIVERSARY**](pidtagweddinganniversary-canonical-property.md)
+- **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
 As seguintes propriedades são expostas pelos objetos de seção de perfil.
   
-- [**PR_PROFILE_SERVER_FULL_VERSION**](pidtagprofileserverfullversion-canonical-property.md)
+- **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
-- [**PR_PROFILE_SERVER_VERSION**](pidtagprofileserverversion-canonical-property.md)
+- **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)**
     
-- [**PR_PROVIDER_DISPLAY_NAME_W**](pidtagproviderdisplayname-canonical-property.md)
+- **[PR_PROVIDER_DISPLAY_NAME_W](pidtagproviderdisplayname-canonical-property.md)**
     
 - **[PR_PROVIDER_ICON_W](pidtagprovidericon-canonical-property.md)**
     
@@ -213,9 +213,9 @@ As seguintes propriedades são expostas pelos objetos de repositório.
     
 - **[PR_IPM_CONTACT_ENTRYID](pidtagipmcontactentryid-canonical-property.md)**
     
-- [**PR_IPM_DRAFTS_ENTRYID**](pidtagipmdraftsentryid-canonical-property.md)
+- **[PR_IPM_DRAFTS_ENTRYID](pidtagipmdraftsentryid-canonical-property.md)**
     
-- [**PR_IPM_JOURNAL_ENTRYID**](pidtagipmjournalentryid-canonical-property.md)
+- **[PR_IPM_JOURNAL_ENTRYID](pidtagipmjournalentryid-canonical-property.md)**
     
 - **[PR_IPM_NOTE_ENTRYID](pidtagipmnoteentryid-canonical-property.md)**
     
@@ -223,18 +223,18 @@ As seguintes propriedades são expostas pelos objetos de repositório.
     
 As seguintes propriedades expostas pelos objetos store e são usadas em elementos específicos de um email no repositório de pesquisa.
   
-- [**PR_SEARCH_ATTACHMENTS_W**](pidtagsearchattachments-canonical-property.md)
+- **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
 - **[PR_SEARCH_RECIP_EMAIL_BCC_W](pidtagsearchrecipientemailbcc-canonical-property.md)**
     
 - **[PR_SEARCH_RECIP_EMAIL_CC_W](pidtagsearchrecipientemailcc-canonical-property.md)**
     
-- [**PR_SEARCH_RECIP_EMAIL_TO_W**](pidtagsearchrecipientemailto-canonical-property.md)
+- **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
 ## <a name="see-also"></a>Confira também
 
-- [Acesso um repositório no Outlook Remote Server quando está no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
+- [Acessar um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detectar a versão do Exchange Server em um perfil do Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-- [Abrir um repositório no Outlook Remote Server quando estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Gerenciar uma mensagem em um OST sem chamar uma sincronização no modo cache do Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Abrir um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Gerenciar mensagens em um OST sem solicitar uma sincronização do modo cache do Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6f0ebd2112b65140a106a1376896f6de9c00da1c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,7 +25,7 @@ MAPI em plataformas de 32 bits funciona somente com valores HRESULT.
   
 A ilustração a seguir mostra o formato HRESULT para plataformas de 32 bits.
   
-**Formato HRESULT**
+**HRESULT format**
   
 ![Formato HRESULT] (media/amapi_49.gif "Formato HRESULT")
   

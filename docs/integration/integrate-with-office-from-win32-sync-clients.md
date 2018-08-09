@@ -1,5 +1,5 @@
 ---
-title: Integração com o Office de clientes de sincronização de Win32
+title: Integração com o Office em clientes de sincronização do Win32
 manager: soliver
 ms.date: 07/29/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765727"
 ---
-# <a name="integrate-with-office-from-win32-sync-clients"></a>Integração com o Office de clientes de sincronização de Win32
+# <a name="integrate-with-office-from-win32-sync-clients"></a>Integração com o Office em clientes de sincronização do Win32
 
 Integre seus clientes de sincronização do Win32 de terceiros aplicativos móveis do Excel, PowerPoint Mobile e Word Mobile Office. 
   
@@ -38,6 +38,6 @@ No Office, os usuários podem criar documentos em suas bibliotecas de documentos
 
 - [Integração com o Office](integrate-with-office.md)
     
-- [Integração com o Office a partir de aplicativos universais do Windows](integrate-with-office-from-windows-universal-apps.md)
+- [Integração com o Office em aplicativos universais do Windows](integrate-with-office-from-windows-universal-apps.md)
     
 

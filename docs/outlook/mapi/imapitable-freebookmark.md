@@ -33,7 +33,7 @@ BOOKMARK bkPosition
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _bkPosition_
   
@@ -49,7 +49,7 @@ MAPI_E_INVALID_BOOKMARK
   
 > O indicador especificado não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::FreeBookmark** libera um indicador que não é mais necessária. O indicador não é mais válido após essa chamada. Sempre que uma tabela é liberada da memória, todos seus indicadores associadas também sejam liberados. 
   
@@ -63,5 +63,5 @@ Se o chamador passa uma dos três indicadores predefinidos no parâmetro _bkPosi
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

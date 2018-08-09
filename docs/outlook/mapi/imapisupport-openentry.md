@@ -38,7 +38,7 @@ LPUNKNOWN FAR * lppUnk
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > O identificador de entrada passado no parâmetro _lpEntryID_ está em um formato não reconhecível. Esse valor geralmente é retornado se o provedor de catálogo de endereços que contém o objeto não estiver aberto. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISupport::OpenEntry** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **IMAPISupport::OpenEntry** para recuperar um ponteiro para uma interface que pode ser usado para acessar um objeto específico. 
   

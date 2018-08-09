@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ba540b0fd3371b3e12be9eeeb102a9bd9d7e8d22
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetMsgStoresTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > O sinalizador MAPI_UNICODE foi definido e a sessão não dá suporte a Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPISession::GetMsgStoresTable** recupera um ponteiro para a tabela de repositório de mensagens, uma tabela mantidas por MAPI que contém informações sobre cada repositório de mensagem aberta no perfil. 
   
@@ -84,22 +84,22 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Tabelas de armazenamento de mensagens](message-store-tables.md)
+[Tabelas de repositórios de mensagens](message-store-tables.md)
 

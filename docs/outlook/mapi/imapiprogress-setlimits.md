@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 14abfaadcdb1710a7cb8275c8f82d502aea8300e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT SetLimits(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulMin_
   
@@ -59,7 +59,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços de chamarem o método de **IMAPIProgress::SetLimits** para definir ou limpar o sinalizador MAPI_TOP_LEVEL e para definir os valores máximo e mínimo de globais e locais. O valor da configuração de sinalizador afeta se o objeto de progresso entende os valores mínimos e máximo para ser local ou global. Quando o sinalizador MAPI_TOP_LEVEL estiver definido, esses valores são considerados globais e são usados para calcular o progresso de toda a operação. Objetos de progresso inicializar o valor mínimo global como 1 e o valor máximo global a 1000. 
   
@@ -87,12 +87,12 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Exibir um indicador de progresso](how-to-display-a-progress-indicator.md)
   
-[Implementando um indicador de progresso](implementing-a-progress-indicator.md)
+[Implementar um indicador de progresso](implementing-a-progress-indicator.md)
 

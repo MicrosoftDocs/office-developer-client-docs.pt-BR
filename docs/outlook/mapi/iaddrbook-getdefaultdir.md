@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a9fdf3f-fd76-40fb-8217-967c6efba5f6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7309f65965fe3c88f927eeba0bbcccff97c479af
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpcbEntryID_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O identificador de entrada do contêiner padrão era retornado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de serviços e aplicativos cliente chamar o método **GetDefaultDir** para recuperar o identificador de entrada do contêiner de catálogo de endereços padrão. O contêiner padrão é o que o usuário vê exibido no catálogo de endereços quando o catálogo de endereços é aberto pela primeira vez. Se um recipiente padrão não tiver sido definido por uma chamada para o método [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md) , MAPI atribui como o contêiner padrão o primeiro recipiente com nomes que não seja o catálogo de endereços pessoal (PAB). Se tais um contêiner não for encontrado, o PAB torna-se o contêiner padrão. 
   
@@ -74,9 +74,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

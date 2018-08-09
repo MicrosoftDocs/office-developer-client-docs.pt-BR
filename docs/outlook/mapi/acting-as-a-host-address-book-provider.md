@@ -1,5 +1,5 @@
 ---
-title: Atuando como um provedor de catálogo de endereço de Host
+title: Atuar como um provedor de catálogo de endereços de hospedagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766126"
 ---
-# <a name="acting-as-a-host-address-book-provider"></a>Atuando como um provedor de catálogo de endereço de Host
+# <a name="acting-as-a-host-address-book-provider"></a>Atuar como um provedor de catálogo de endereços de hospedagem
 
   
   

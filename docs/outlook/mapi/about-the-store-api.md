@@ -1,5 +1,5 @@
 ---
-title: Sobre o API de armazenamento
+title: Sobre a API de armazenamento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766123"
 ---
-# <a name="about-the-store-api"></a>Sobre o API de armazenamento
+# <a name="about-the-store-api"></a>Sobre a API de armazenamento
 
   
   

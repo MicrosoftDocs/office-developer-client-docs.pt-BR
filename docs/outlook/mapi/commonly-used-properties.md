@@ -1,5 +1,5 @@
 ---
-title: Propriedades comumente usadas
+title: Propriedades usadas com frequência
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766306"
 ---
-# <a name="commonly-used-properties"></a>Propriedades comumente usadas
+# <a name="commonly-used-properties"></a>Propriedades usadas com frequência
 
  
   
@@ -25,23 +25,23 @@ Listas de propriedades MAPI obrigatórios e opcionais são documentadas em vári
   
 Consulte as seguintes interfaces para obter listas de propriedades associadas a objetos que oferecem suporte a essas interfaces:
   
-- [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+- [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
-- [IAttach: IMAPIProp](iattachimapiprop.md)
+- [IAttach : IMAPIProp](iattachimapiprop.md)
     
-- [IDistList: IMAPIContainer](idistlistimapicontainer.md)
+- [IDistList : IMAPIContainer](idistlistimapicontainer.md)
     
-- [IMailUser: IMAPIProp](imailuserimapiprop.md)
+- [IMailUser : IMAPIProp](imailuserimapiprop.md)
     
-- [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+- [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
     
-- [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+- [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
     
-- [IMessage: IMAPIProp](imessageimapiprop.md)
+- [IMessage : IMAPIProp](imessageimapiprop.md)
     
-- [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+- [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
     
-- [IProfSect: IMAPIProp](iprofsectimapiprop.md)
+- [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
 Para obter listas de propriedades necessárias para tabelas, consulte a documentação para cada tipo de tabela em [Tabelas de MAPI](mapi-tables.md).
   
@@ -49,12 +49,12 @@ Para obter listas de propriedades da mensagem obrigatórios e opcionais para as 
   
 - [Propriedades necessárias para todas as mensagens](required-properties-for-all-messages.md)
     
-- [Propriedades da mensagem relatório necessário](required-report-message-properties.md)
+- [Propriedades exigidas da mensagem de relatório](required-report-message-properties.md)
     
-- [Propriedades da mensagem opcional de relatório](optional-report-message-properties.md)
+- [Propriedades opcionais da mensagem de relatório](optional-report-message-properties.md)
     
-- [Propriedades de destinatário para todas as mensagens](recipient-properties-for-all-messages.md)
+- [Propriedades do destinatário para todas as mensagens](recipient-properties-for-all-messages.md)
     
-- [Propriedades de destinatário para relatórios de Status de entrega](recipient-properties-for-delivery-status-reports.md)
+- [Propriedades do destinatário de relatórios de status de entrega](recipient-properties-for-delivery-status-reports.md)
     
 

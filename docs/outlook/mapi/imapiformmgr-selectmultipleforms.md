@@ -38,7 +38,7 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -82,7 +82,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão **Cancelar** na caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::SelectMultipleForms** para apresentado antes de uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, para recuperar uma matriz de formulário informações objetos que descrevem os formulários selecionados. A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, se ou não estão ocultos (ou seja, se ou não suas propriedades ocultas são criptografadas). 
   
@@ -94,5 +94,5 @@ Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro
 
 
 
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9ea44c9ba75390f06ff12ddeed0c7b652538e07d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT DoVerb(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _iVerb_
   
@@ -64,7 +64,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 > O verbo representado pelo parâmetro _iVerb_ é válido, mas o formulário não é possível executar as operações atualmente associadas a ela. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IMAPIForm::DoVerb** para solicitar que o formulário execute as tarefas que ela associa a cada verbo que o formulário oferece suporte. 
   
@@ -112,7 +112,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
   
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
