@@ -1,5 +1,5 @@
 ---
-title: Implementando a Interface IClassFactory para servidores de formulário
+title: Implementar a Interface IClassFactory para servidores de formulário
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22402261-c0fc-49bd-a222-e31989d6ff30
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ecae23d8631c818fb3d1c6786b2d180e9f32a2e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767444"
 ---
-# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implementando a Interface IClassFactory para servidores de formulário
+# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implementar a Interface IClassFactory para servidores de formulário
 
   
   
@@ -34,5 +34,5 @@ Para todas as informações necessárias para implementar esses métodos, consul
 
 
 
-[Escrevendo códigos de servidor do formulário](writing-form-server-code.md)
+[Gravar um código de servidor de formulário](writing-form-server-code.md)
 

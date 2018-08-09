@@ -1,5 +1,5 @@
 ---
-title: Mensagens de aviso de direitos autorais da referência de API (MAPI) do Outlook
+title: 'Aviso de Direitos Autorais da Referência de Messaging API (MAPI) do Outlook '
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768204"
 ---
-# <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Mensagens de aviso de direitos autorais da referência de API (MAPI) do Outlook
+# <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Aviso de Direitos Autorais da Referência de Messaging API (MAPI) do Outlook 
 
  
   

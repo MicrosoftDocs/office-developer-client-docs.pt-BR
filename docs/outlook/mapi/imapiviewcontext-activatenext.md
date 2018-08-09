@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 150a0c6eb7efa83f5ff1d12d915351bf5ca9d45a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -32,7 +32,7 @@ LPCRECT prcPosRect
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulDir_
   
@@ -70,7 +70,7 @@ S_FALSE
   
 > A mensagem foi ativada com êxito, mas um tipo diferente de formulário foi aberto no processo.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método de **IMAPIViewContext::ActivateNext** para alterar o que mensagem é exibida ao usuário. O valor passado no parâmetro _ulDir_ indica qual mensagem deve ser ativado e, em alguns casos, o motivo. Os sinalizadores VCDIR_NEXT e VCDIR_PREVIOUS correspondem aos usuários, escolha o comando **próximo** ou **anterior** em um modo de exibição, respectivamente. Essas operações geralmente correspondem ao mover para cima ou para baixo uma mensagem na lista do Visualizador de formulário de mensagens. 
   
@@ -95,6 +95,6 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 ## <a name="see-also"></a>Confira também
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
-- [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+- [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 - [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidDistributionListMembers
+title: Propriedade canônica PidLidDistributionListMembers
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c27513474048e9805bc29116aa094bc47f8f0cae
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768363"
 ---
-# <a name="pidliddistributionlistmembers-canonical-property"></a>Propriedade canônico de PidLidDistributionListMembers
+# <a name="pidliddistributionlistmembers-canonical-property"></a>Propriedade canônica PidLidDistributionListMembers
 
   
   
@@ -35,7 +35,7 @@ Especifica a lista de EntryIds dos objetos que correspondem aos membros da lista
 |Tipo de dados:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Membros da lista de distribuição pessoal podem ser outras listas de distribuição pessoal, endereços eletrônicos contidos em um contato, os usuários da lista de endereços Global ou listas de distribuição ou endereços de email únicos. O formato de cada EntryId deve ser uma EntryId único, conforme especificado na [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou uma EntryId com quebra. 
   
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

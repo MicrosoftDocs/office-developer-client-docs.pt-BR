@@ -35,7 +35,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pwzDllPath_
   
@@ -51,7 +51,7 @@ S_OK
   
 > A chamada de função foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A DLL especificada pelo parâmetro wzDllPath deve estar conectada usando um certificado digital. A DLL também deve exportar uma função com a seguinte assinatura.
   
@@ -67,7 +67,7 @@ Para obter mais informações, consulte [como implementar um manipulador de subs
 
 
 
-[IPSTOVERRIDE1: IUnknown](ipstoverride1iunknown.md)
+[IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md)
   
-[IPSTOVERRIDEREQ: IUnknown](ipstoverridereqiunknown.md)
+[IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)
 

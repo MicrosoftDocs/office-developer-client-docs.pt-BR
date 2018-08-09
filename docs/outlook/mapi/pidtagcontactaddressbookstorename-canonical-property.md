@@ -1,0 +1,64 @@
+---
+title: Propriedade canônica PidTagContactAddressBookStoreName
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagContactAddressBookStoreName
+api_type:
+- HeaderDef
+ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
+description: 'Última modificação: 9 de março de 2015'
+ms.openlocfilehash: 995baafc477834d01ed41869c0f1140ef4ebe32f
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19769066"
+---
+# <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriedade canônica PidTagContactAddressBookStoreName
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Contém o nome de exibição do repositório de associado com o provedor de catálogo de endereços. 
+  
+|||
+|:-----|:-----|
+|Propriedades associadas:  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A, PR_CONTAB_STORE_NAME_W  <br/> |
+|Identificador:  <br/> |0x6612  <br/> |
+|Tipo de dados:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
+|Área:  <br/> |Catálogo de endereços de contatos  <br/> |
+   
+## <a name="remarks"></a>Comentários
+
+Essas propriedades estão em um contêiner de catálogo de endereços de contatos e uma coluna na tabela de contêineres do catálogo de endereços de contatos.
+  
+## <a name="related-resources"></a>Recursos relacionados
+
+### <a name="header-files"></a>Arquivos de cabeçalho
+
+Mapidefs.h
+  
+> Fornece definições de tipo de dados.
+    
+Mapitags.h
+  
+> Contém definições das propriedades listadas como propriedades associadas.
+    
+## <a name="see-also"></a>Confira também
+
+
+
+[Propriedades MAPI](mapi-properties.md)
+  
+[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+  
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+

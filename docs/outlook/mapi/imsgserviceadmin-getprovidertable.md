@@ -34,7 +34,7 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A tabela de provedor foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::GetProviderTable** fornece acesso à tabela de provedor MAPI, uma tabela que lista todos os catálogos de endereços, armazenamento de mensagens e provedores de transporte instalados atualmente no perfil. 
   
@@ -94,5 +94,5 @@ Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ faz o seguinte:
   
 [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

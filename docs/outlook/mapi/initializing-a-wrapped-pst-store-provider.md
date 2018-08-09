@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a amostra quebradas provedor de repositórios de PST](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST](installing-the-sample-wrapped-pst-store-provider.md)
-- [Fazer logon no provedor de um repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
-- [Encerrando um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Sobre o exemplo de provedor do repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalar o provedor do repositório PST encapsulado de exemplo](installing-the-sample-wrapped-pst-store-provider.md)
+- [Fazer logon em um provedor do repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Usar um provedor do repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
+- [Desativar um provedor do repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
 

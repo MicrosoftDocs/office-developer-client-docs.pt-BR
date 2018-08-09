@@ -1,5 +1,5 @@
 ---
-title: Faça logoff e Logon de provedor de catálogo de endereços implementing
+title: Implementar o logon e logoff do provedor do catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767421"
 ---
-# <a name="implementing-address-book-provider-logon-and-logoff"></a>Faça logoff e Logon de provedor de catálogo de endereços implementing
+# <a name="implementing-address-book-provider-logon-and-logoff"></a>Implementar o logon e logoff do provedor do catálogo de endereços
 
 **Aplica-se a**: Outlook 
   

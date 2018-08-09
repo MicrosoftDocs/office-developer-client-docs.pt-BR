@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c702e4063bf5e5a06a9e476a02172a780c7e326a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OpenAttach(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulAttachmentNum_
   
@@ -72,7 +72,7 @@ S_OK
   
 > O anexo foi aberto com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::OpenAttach** abre o anexo da mensagem. 
   
@@ -96,7 +96,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

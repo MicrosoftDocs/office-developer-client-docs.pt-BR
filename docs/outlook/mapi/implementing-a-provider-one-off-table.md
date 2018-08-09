@@ -1,5 +1,5 @@
 ---
-title: Implementando uma tabela únicos do provedor
+title: Implementar a tabela única de um provedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767415"
 ---
-# <a name="implementing-a-provider-one-off-table"></a>Implementando uma tabela únicos do provedor
+# <a name="implementing-a-provider-one-off-table"></a>Implementar a tabela única de um provedor
 
   
   

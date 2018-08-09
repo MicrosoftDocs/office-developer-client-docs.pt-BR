@@ -38,7 +38,7 @@ HRESULT CompareStoreIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -70,7 +70,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **IMSProvider::CompareStoreIDs** quando ele processa uma chamada ao método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** é chamado, nesse momento, para determinar qual seção de perfil, se houver, está associada com o armazenamento de mensagens está sendo aberto. Uma chamada de **CompareStoreIDs** pode ser feita quando nenhum armazenamentos de mensagem estão abertos para um provedor de armazenamento específica. Além disso, o MAPI também chama **CompareStoreIDs** quando ele processa uma chamada do provedor de repositório para o método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) . 
   
@@ -88,5 +88,5 @@ Comparar os identificadores de entrada é útil porque um objeto pode ter mais d
   
 [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

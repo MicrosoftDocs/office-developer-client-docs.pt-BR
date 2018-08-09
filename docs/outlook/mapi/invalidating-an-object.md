@@ -1,5 +1,5 @@
 ---
-title: A invalidação de um objeto
+title: Invalidar um objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767585"
 ---
-# <a name="invalidating-an-object"></a>A invalidação de um objeto
+# <a name="invalidating-an-object"></a>Invalidar um objeto
 
   
   
@@ -29,5 +29,5 @@ A invalidação de um objeto dá MAPI a responsabilidade ultimate para liberar a
 
 
 
-[Encerrando um provedor de serviços](shutting-down-a-service-provider.md)
+[Desligar a um provedor de serviços](shutting-down-a-service-provider.md)
 

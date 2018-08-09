@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -82,7 +82,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **IMSLogon::OpenEntry** para abrir uma pasta ou uma mensagem em um armazenamento de mensagens. MAPI passa o identificador de entrada do objeto a ser aberto. O provedor de armazenamento de mensagem deve retornar um ponteiro que permite o acesso ao objeto especificado no parâmetro _lppUnk_ . 
   
@@ -98,5 +98,5 @@ Antes de chamadas de MAPI **IMSLogon::OpenEntry**, primeiro determina que o iden
   
 [IMsgStore::OpenEntry](imsgstore-openentry.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

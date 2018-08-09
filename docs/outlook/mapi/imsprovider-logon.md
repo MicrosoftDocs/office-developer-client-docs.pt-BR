@@ -44,7 +44,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMAPISup_
   
@@ -152,7 +152,7 @@ MAPI_W_ERRORS_RETURNED
   
 > A chamada foi bem-sucedida, mas o provedor de armazenamento de mensagem tem informações de erro disponíveis. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md). Para obter as informações de erro do provedor, chame o método [IMAPISession::GetLastError](imapisession-getlasterror.md) . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **IMSProvider::Logon** para fazer a maior parte do processamento necessário para obter acesso a um armazenamento de mensagens. Provedores de armazenamento de mensagem validam as credenciais de usuário necessárias para acessar um repositório específico e retornar um objeto de repositório de mensagem no parâmetro _lppMDB_ que os aplicativos de cliente e o spooler MAPI podem fazer logon em. 
   
@@ -232,15 +232,15 @@ Se um provedor retorna MAPI_E_UNCONFIGURED de seu logon, MAPI será chamada de f
   
 [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
   
 [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIERROR](mapierror.md)
   
 [MSProviderInit](msproviderinit.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 588a32cb2a468c84dfc513af5e4abf6a9a1d0286
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetMsgServiceTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A tabela de serviços de mensagem foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::GetMsgServiceTable** fornece acesso à tabela de serviço de mensagem, uma tabela que mantém MAPI que lista os serviços de mensagem instalados atualmente no perfil da sessão. Para obter uma lista completa das colunas na tabela de serviço de mensagens, consulte a [Tabela de serviços de mensagem](message-service-tables.md).
   
@@ -72,7 +72,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

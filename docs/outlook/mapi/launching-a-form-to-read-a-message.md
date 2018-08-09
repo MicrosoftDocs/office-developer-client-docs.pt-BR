@@ -1,5 +1,5 @@
 ---
-title: Iniciando uma forma para ler uma mensagem
+title: Iniciar um formulário para ler uma mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767764"
 ---
-# <a name="launching-a-form-to-read-a-message"></a>Iniciando uma forma para ler uma mensagem
+# <a name="launching-a-form-to-read-a-message"></a>Iniciar um formulário para ler uma mensagem
 
   
   

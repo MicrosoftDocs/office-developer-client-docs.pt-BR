@@ -1,5 +1,5 @@
 ---
-title: Identificadores de entrada de longo prazo
+title: Identificadores de entradas de longo prazo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767781"
 ---
-# <a name="long-term-entry-identifiers"></a>Identificadores de entrada de longo prazo
+# <a name="long-term-entry-identifiers"></a>Identificadores de entradas de longo prazo
 
   
   

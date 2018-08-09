@@ -1,0 +1,80 @@
+---
+title: Propriedade canônica PidLidMeetingType
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidLidMeetingType
+api_type:
+- COM
+ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
+description: 'Última modificação: 9 de março de 2015'
+ms.openlocfilehash: e61ce7798c9e41dbb707d0d5773b116f7cce02d6
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19768531"
+---
+# <a name="pidlidmeetingtype-canonical-property"></a>Propriedade canônica PidLidMeetingType
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Indica o tipo de solicitação de reunião ou atualização de reunião.
+  
+|||
+|:-----|:-----|
+|Propriedades associadas:  <br/> |dispidMeetingType  <br/> |
+|Propriedade definida:  <br/> |PSETID_Meeting  <br/> |
+|ID de longo (LID):  <br/> |0x00000026  <br/> |
+|Tipo de dados:  <br/> |PT_LONG  <br/> |
+|Área:  <br/> |Reuniões  <br/> |
+   
+## <a name="remarks"></a>Comentários
+
+O valor dessa propriedade deve ser definido como um destes procedimentos:
+  
+|**Propriedade**|**Valor**|**Descrição**|
+|:-----|:-----|:-----|
+|mtgEmpty  <br/> |0x00000000  <br/> |Não for especificado.  <br/> |
+|mtgRequest  <br/> |0x00000001  <br/> |Solicitação de reunião inicial.  <br/> |
+|mtgFull  <br/> |0x00010000  <br/> |Atualização completa.  <br/> |
+|mtgInfo  <br/> |0x00020000  <br/> |Atualização informativa.  <br/> |
+|mtgOutOfDate  <br/> |0x00080000  <br/> |Uma solicitação de reunião mais recente ou atualização de reunião foi recebida depois deste.  <br/> |
+|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Isso é definido na cópia do delegator quando objetos de reuniões de alças um representante.  <br/> |
+   
+## <a name="related-resources"></a>Recursos relacionados
+
+### <a name="protocol-specifications"></a>Especificações de protocolo
+
+[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+  
+> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+    
+[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+  
+> Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
+    
+### <a name="header-files"></a>Arquivos de cabeçalho
+
+Mapidefs.h
+  
+> Fornece definições de tipo de dados.
+    
+## <a name="see-also"></a>Confira também
+
+
+
+[Propriedades MAPI](mapi-properties.md)
+  
+[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+  
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+

@@ -39,7 +39,7 @@ HRESULT CopyMsgService(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -87,7 +87,7 @@ E_NOT_FOUND
   
 > **MAPIUID** apontado pela _lpUID_ não faz referência a um serviço de mensagem existente. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::CopyMsgService** copia um serviço de mensagem para um perfil, o perfil ativo ou outro perfil. O perfil que contém o serviço de mensagem a ser copiado e o destino não precisam ser o mesmo perfil, mas eles podem ser. 
   
@@ -101,5 +101,5 @@ Função do ponto de entrada do serviço de mensagem não é chamada para uma op
   
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

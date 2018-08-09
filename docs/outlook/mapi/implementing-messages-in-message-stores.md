@@ -1,5 +1,5 @@
 ---
-title: Implementando mensagens em repositórios de mensagem
+title: Implementar mensagens em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767434"
 ---
-# <a name="implementing-messages-in-message-stores"></a>Implementando mensagens em repositórios de mensagem
+# <a name="implementing-messages-in-message-stores"></a>Implementar mensagens em repositórios de mensagens
 
   
   
@@ -27,5 +27,5 @@ O [IMessage: IMAPIProp](imessageimapiprop.md) interface é semelhante do [IMAPIF
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

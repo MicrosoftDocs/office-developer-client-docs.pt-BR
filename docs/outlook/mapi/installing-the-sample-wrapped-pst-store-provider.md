@@ -1,5 +1,5 @@
 ---
-title: Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST
+title: Instalar o provedor do repositório PST encapsulado de exemplo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767565"
 ---
-# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalação do exemplo quebrado automaticamente o provedor de armazenamento de PST
+# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar o provedor do repositório PST encapsulado de exemplo
 
   
   
@@ -52,13 +52,13 @@ Este tópico leva as etapas para baixar e instalar o provedor de repositórios d
 
 
 
-[Sobre a amostra quebradas provedor de repositórios de PST](about-the-sample-wrapped-pst-store-provider.md)
+[Sobre o exemplo de provedor do repositório PST encapsulado](about-the-sample-wrapped-pst-store-provider.md)
   
-[Inicializar um provedor de repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
+[Iniciar um provedor do repositório PST encapsulado](initializing-a-wrapped-pst-store-provider.md)
   
-[Fazer logon no provedor de um repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
+[Fazer logon em um provedor do repositório PST encapsulado](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[Usando um provedor de repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
+[Usar um provedor do repositório PST encapsulado](using-a-wrapped-pst-store-provider.md)
   
-[Encerrando um provedor de repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
+[Desativar um provedor do repositório PST encapsulado](shutting-down-a-wrapped-pst-store-provider.md)
 

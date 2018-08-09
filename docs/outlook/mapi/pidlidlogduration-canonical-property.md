@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidLogDuration
+title: Propriedade canônica PidLidLogDuration
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 012a3f6e-fd16-4dc9-845d-2bf4cebeaa42
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: cc2d52ec183cc336bf126b1fda9a85d41f704f7d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768529"
 ---
-# <a name="pidlidlogduration-canonical-property"></a>Propriedade canônico de PidLidLogDuration
+# <a name="pidlidlogduration-canonical-property"></a>Propriedade canônica PidLidLogDuration
 
   
   
@@ -35,7 +35,7 @@ Representa a duração em minutos, de uma mensagem de diário.
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Diário  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A duração em minutos, da atividade que deve ser a diferença entre as propriedades de **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) e o **dispidLogEnd** ([PidLidLogEnd](pidlidlogend-canonical-property.md)).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

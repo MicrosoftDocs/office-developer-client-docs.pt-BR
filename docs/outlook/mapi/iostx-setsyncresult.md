@@ -33,13 +33,13 @@ HRESULT SetSyncResult(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hrSync_
   
 >  [in] O resultado da sincronização. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Chame **IOSTX::SetSyncResult** antes de chamar **IOSTX::SyncEnd** para informar o armazenamento local do resultado da sincronização. 
   

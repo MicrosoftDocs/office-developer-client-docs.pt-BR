@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidCleanGlobalObjectId
+title: Propriedade canônica PidLidCleanGlobalObjectId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19768353"
 ---
-# <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propriedade canônico de PidLidCleanGlobalObjectId
+# <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propriedade canônica PidLidCleanGlobalObjectId
 
   
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

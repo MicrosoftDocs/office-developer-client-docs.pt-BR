@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de armazenamento de mensagem implementam o método **IMSLogon::Logoff** para serem desligados obrigatoriamente um provedor de armazenamento de mensagem. **IMSLogon::Logoff** é chamado nas seguintes situações: 
   
@@ -67,5 +67,5 @@ Provedores de armazenamento de mensagem implementam o método **IMSLogon::Logoff
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

@@ -34,7 +34,7 @@ HRESULT SetPrimaryIdentity(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -54,7 +54,7 @@ MAPI_E_NO_ACCESS
   
 > **SetPrimaryIdentity** tentou designar um serviço de mensagem que tem o sinalizador SERVICE_NO_PRIMARY_IDENTITY definido em sua propriedade **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::SetPrimaryIdentity** estabelece um serviço de mensagem como o fornecedor da identidade principal para o perfil. A identidade principal é normalmente o usuário que está conectado ao serviço de mensagem. Ela é representada por três propriedades: 
   
@@ -78,5 +78,5 @@ Cada provedor de serviços de mensagem MAPI tem informações sobre pode estabel
   
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

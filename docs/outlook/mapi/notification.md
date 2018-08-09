@@ -1,5 +1,5 @@
 ---
-title: NOTIFICAÇÃO
+title: NOTIFICATION
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768175"
 ---
-# <a name="notification"></a>NOTIFICAÇÃO
+# <a name="notification"></a>NOTIFICATION
  
 **Aplica-se a**: Outlook 
   
@@ -46,7 +46,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 **ulEventType**
   
@@ -96,7 +96,7 @@ typedef struct
   
 > União de estruturas de notificação descrevendo os dados afetados para um determinado tipo de evento. A estrutura incluída no membro **info** depende do valor do membro **ulEventType** . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma ou mais estruturas de **notificação** são passadas como parâmetros de entrada com cada chamada ao método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) um advise registrados do receptor. As estruturas de **notificação** contêm informações sobre as determinados eventos ocorridos e descrevem os objetos afetados. 
   
@@ -114,9 +114,9 @@ Para obter mais informações sobre a notificação, consulte os tópicos descri
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte de notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
+|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
+|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

@@ -1,5 +1,5 @@
 ---
-title: Implementando pastas em repositórios de mensagem
+title: Implementar pastas em repositórios de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767433"
 ---
-# <a name="implementing-folders-in-message-stores"></a>Implementando pastas em repositórios de mensagem
+# <a name="implementing-folders-in-message-stores"></a>Implementar pastas em repositórios de mensagens
 
   
   
@@ -27,5 +27,5 @@ Uma grande quantidade das informações relacionadas ao suporte do provedor de r
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

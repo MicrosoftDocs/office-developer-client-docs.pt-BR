@@ -34,7 +34,7 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ S_OK
   
 > As informações de impressão foi recuperadas com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIViewContext::GetPrintSetup** para recuperar informações sobre a configuração da impressora antes de tentar imprimir a mensagem atual. 
   
@@ -74,5 +74,5 @@ Libere os membros **hDevMode** e **hDevName** da estrutura **FORMPRINTSETUP** ch
 
 [FORMPRINTSETUP](formprintsetup.md)
   
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Instalando o subsistema de MAPI
+title: Instalar o subsistema MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c2e135fc031dd3faf5a4e08c50147dfcf7787b5e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767562"
 ---
-# <a name="installing-the-mapi-subsystem"></a>Instalando o subsistema de MAPI
+# <a name="installing-the-mapi-subsystem"></a>Instalar o subsistema MAPI
 
   
   

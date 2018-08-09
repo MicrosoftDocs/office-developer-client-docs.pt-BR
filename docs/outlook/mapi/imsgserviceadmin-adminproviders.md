@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9b65c8e32580fa85302b874bd17c1829ad67fd63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT AdminProviders(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -59,7 +59,7 @@ E_NOT_FOUND
   
 > **MAPIUID** apontado pela _lpUID_ não existe. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::AdminProviders** fornece acesso a um objeto de administração do provedor. A administração de um provedor é um objeto que dá suporte à interface [IProviderAdmin](iprovideradminiunknown.md) e permite que os clientes façam o seguinte: 
   
@@ -89,11 +89,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
   
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

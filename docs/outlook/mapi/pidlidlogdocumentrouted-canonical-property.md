@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidLogDocumentRouted
+title: Propriedade canônica PidLidLogDocumentRouted
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e88c240b4219ac66bc9a1d4b8fa11ffc47682dd9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768518"
 ---
-# <a name="pidlidlogdocumentrouted-canonical-property"></a>Propriedade canônico de PidLidLogDocumentRouted
+# <a name="pidlidlogdocumentrouted-canonical-property"></a>Propriedade canônica PidLidLogDocumentRouted
 
   
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

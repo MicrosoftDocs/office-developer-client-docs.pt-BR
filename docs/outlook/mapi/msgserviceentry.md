@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9af170f3445757eb96b9fe78c7cbea2c29ef4612
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -48,7 +48,7 @@ HRESULT MSGSERVICEENTRY(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hInstance_
   
@@ -160,7 +160,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação só oferece suporte a Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma função definida usando o protótipo de função **MSGSERVICEENTRY** permite que os serviços de mensagens para configurar sozinhos ou para executar outras ações específicas do serviço. A função principalmente fornece uma caixa de diálogo na qual o usuário pode alterar configurações específicas para o serviço de mensagem. Ele também pode oferecer suporte configuração programática usando a matriz de valor de propriedade passada no parâmetro _lpProps_ . Configuração programática é opcional, a menos que o serviço suporta o Assistente de perfil, para os quais é necessário. 
   

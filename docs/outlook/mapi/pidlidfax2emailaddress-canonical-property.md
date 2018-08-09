@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFax2EmailAddress
+title: Propriedade canônica PidLidFax2EmailAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 119c00cf-b7df-4354-aef8-575429e5ab3c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 16b1ebeb67b48c62bcccc804415d962831f13d7a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768418"
 ---
-# <a name="pidlidfax2emailaddress-canonical-property"></a>Propriedade canônico de PidLidFax2EmailAddress
+# <a name="pidlidfax2emailaddress-canonical-property"></a>Propriedade canônica PidLidFax2EmailAddress
 
   
   
@@ -35,7 +35,7 @@ Especifica o endereço de email de endereço de fax residencial do contato.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade, se houver, deve conter um nome de exibição legíveis de usuário, seguido de "@" caractere, seguido por um número de fax.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

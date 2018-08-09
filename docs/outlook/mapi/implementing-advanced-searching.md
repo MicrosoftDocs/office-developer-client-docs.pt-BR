@@ -1,5 +1,5 @@
 ---
-title: Implementando a pesquisa avançada
+title: Implementar a pesquisa avançada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767419"
 ---
-# <a name="implementing-advanced-searching"></a>Implementando a pesquisa avançada
+# <a name="implementing-advanced-searching"></a>Implementar a pesquisa avançada
 
   
   

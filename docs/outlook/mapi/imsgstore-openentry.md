@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 124208a3f5c6bb300aca3699a04b15e842c46cd1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -90,7 +90,7 @@ MAPI_NO_CACHE
   
 > Quando um repositório é aberto no modo de cache, um provedor de cliente ou serviço pode chamar **IMsgStore::OpenEntry**, definindo o sinalizador MAPI_NO_CACHE para abrir um item ou uma pasta no repositório remoto. Se você abrir o armazenamento de mensagens com o sinalizador MDB_ONLINE no servidor remoto, você não precisará usar o sinalizador MAPI_NO_CACHE.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::OpenEntry** abre uma pasta ou uma mensagem e retorna um ponteiro para uma interface que pode ser usada para obter mais acesso. 
   
@@ -119,7 +119,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPIContainer::OpenEntry](imapicontainer-openentry.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

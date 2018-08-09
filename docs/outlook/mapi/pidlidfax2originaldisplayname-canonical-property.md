@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFax2OriginalDisplayName
+title: Propriedade canônica PidLidFax2OriginalDisplayName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f521e27-834c-4fb5-9782-2c5d1380690f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d009118b8e4c11f70e9545302e2fd7ab9b43f00e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768423"
 ---
-# <a name="pidlidfax2originaldisplayname-canonical-property"></a>Propriedade canônico de PidLidFax2OriginalDisplayName
+# <a name="pidlidfax2originaldisplayname-canonical-property"></a>Propriedade canônica PidLidFax2OriginalDisplayName
 
   
   
@@ -35,7 +35,7 @@ Especifica o nome para exibição original do endereço de fax residencial do co
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade, se houver, deve ser definida para o mesmo valor que a propriedade **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

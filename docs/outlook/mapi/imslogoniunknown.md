@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 42e2633ac6d534be2c75c47b24c1da5ed9771e18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767548"
 ---
-# <a name="imslogon--iunknown"></a>IMSLogon: IUnknown
+# <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
@@ -48,7 +48,7 @@ Recursos de acessos em uma mensagem armazenam o objeto de logon.
 |[Unadvise](imslogon-unadvise.md) <br/> |Remove o registro de um objeto de notificação de alteração de repositório de mensagem tenha estabelecido por meio de uma chamada ao método **IMSLogon::Advise** .  <br/> |
 |[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Abre um objeto de status.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O objeto de logon do repositório de mensagens é a parte de um provedor de armazenamento de mensagem aberta diretamente chamadas de MAPI. Não há uma correspondência direta entre o objeto de logon de armazenamento de mensagem que armazenam o objeto que aplicativos de cliente chamam; chamadas MAPI e a mensagem Você pode imaginar o logon e armazenar objetos como um único objeto que expõe duas interfaces. Os dois objetos são criados juntos e liberação juntos.
   

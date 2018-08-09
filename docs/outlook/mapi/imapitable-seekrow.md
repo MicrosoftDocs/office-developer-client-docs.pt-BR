@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 143ca03a5e98d638d29394f5c0803e349ab4de25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ LONG FAR * lplRowsSought
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _bkOrigin_
   
@@ -79,7 +79,7 @@ MAPI_W_POSITION_CHANGED
   
 > A chamada foi bem-sucedida, mas o indicador especificado no parâmetro _bkOrigin_ não mais é definido na mesma linha como ele era quando ele foi usado por último. Se o indicador não tiver sido usado, ele não está mais na mesma posição como era quando ele foi criado. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::SeekRow** estabelece uma nova posição BOOKMARK_CURRENT para o cursor. O parâmetro _lRowCount_ indica o número de linhas que move o cursor e a direção da movimentação. 
   
@@ -117,13 +117,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPITable::CreateBookmark](imapitable-createbookmark.md)
   
-[IMAPITable:: FindRow](imapitable-findrow.md)
+[IMAPITable::ExpandRow](imapitable-findrow.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
-[IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md)
+[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

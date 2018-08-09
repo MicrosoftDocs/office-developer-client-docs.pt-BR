@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e8267b254648870cea4e16b4dea0e9c92e316fb3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767750"
 ---
-# <a name="itnef--iunknown"></a>ITnef: IUnknown
+# <a name="itnef--iunknown"></a>ITnef : IUnknown
 
   
   

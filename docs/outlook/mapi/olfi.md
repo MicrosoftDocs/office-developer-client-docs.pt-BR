@@ -37,7 +37,7 @@ typedef struct {
 } OLFI, *POLFI;
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  _ulVersion_
   
@@ -67,7 +67,7 @@ typedef struct {
   
 - Estrutura de ID longo prazo identificando a próxima entrada disponível.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma identificação de entrada é um identificador de entrada MAPI de 4 bytes para uma pasta ou uma mensagem. Para obter mais informações, consulte [ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
   

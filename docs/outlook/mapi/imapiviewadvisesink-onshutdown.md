@@ -33,7 +33,7 @@ HRESULT OnShutdown( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -41,7 +41,7 @@ S_OK
   
 > A notificação foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter mais informações sobre as notificações do formulário, consulte [de envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md).
   
@@ -49,5 +49,5 @@ Para obter mais informações sobre as notificações do formulário, consulte [
 
 
 
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

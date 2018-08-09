@@ -33,7 +33,7 @@ HRESULT OnSaved( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -41,7 +41,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Um objeto form chama o método **IMAPIViewAdviseSink::OnSaved** depois que a mensagem atual em um formulário foi salvo com êxito. Isso permite que os visualizadores atualizam suas janelas para refletir as alterações à mensagem. 
   
@@ -51,5 +51,5 @@ Para obter mais informações sobre as notificações do formulário, consulte [
 
 
 
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

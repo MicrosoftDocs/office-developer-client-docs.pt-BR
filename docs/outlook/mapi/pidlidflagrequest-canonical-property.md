@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFlagRequest
+title: Propriedade canônica PidLidFlagRequest
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: df2e474206559dadf250bdf9a078c69da61187c8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768466"
 ---
-# <a name="pidlidflagrequest-canonical-property"></a>Propriedade canônico de PidLidFlagRequest
+# <a name="pidlidflagrequest-canonical-property"></a>Propriedade canônica PidLidFlagRequest
 
   
   
@@ -35,7 +35,7 @@ Representa o status de uma solicitação de reunião.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Sinalizando  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 No Microsoft Office Outlook, uma solicitação de reunião é um item de compromisso.
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

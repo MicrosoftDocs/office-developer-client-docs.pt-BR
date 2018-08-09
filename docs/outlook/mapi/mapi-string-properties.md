@@ -55,5 +55,5 @@ Quando um cliente chama um método do objeto **GetProps** ou **SetProps** para t
 
 
 
-[Vis�o geral da propriedade MAPI](mapi-property-overview.md)
+[Visão geral da propriedade MAPI](mapi-property-overview.md)
 

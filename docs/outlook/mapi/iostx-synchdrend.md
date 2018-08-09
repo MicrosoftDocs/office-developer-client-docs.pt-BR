@@ -33,13 +33,13 @@ HRESULT SyncHdrEnd(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pprog_
   
 > [in] Interface de **[IMAPIProgress](imapiprogressiunknown.md)** para sincronização de movido ou copiadas de mensagens. Consulte mapidefs.h para a definição de tipo de **LPMAPIPROGRESS**. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Após a **[IOSTX::SyncBeg](iostx-syncbeg.md)**, armazenamento local entra de [baixar o estado do cabeçalho da mensagem](download-message-header-state.md). O cliente baixa um item de mensagem completo (como *pmsgFull* **[HDRSYNC](hdrsync.md)** ). Se isso for bem-sucedida, o cliente também define *ulFlags* no **HDRSYNC** como **HSF_OK**. Após **IOSTX::SyncHdrEnd**, o Outlook verifica o resultado em **HDRSYNC** e usa *pprog* e as informações no **HDRSYNC** para atualizar o cabeçalho de mensagem local. 
   
@@ -61,7 +61,7 @@ Armazenamento local retorna ao estado em que se encontrava antes do anterior **[
   
 [IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

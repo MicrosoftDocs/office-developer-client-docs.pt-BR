@@ -1,5 +1,5 @@
 ---
-title: Anexos de OLE
+title: Anexos OLE
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768160"
 ---
-# <a name="ole-attachments"></a>Anexos de OLE
+# <a name="ole-attachments"></a>Anexos OLE
 
   
   

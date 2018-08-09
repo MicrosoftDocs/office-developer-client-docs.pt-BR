@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFlagString
+title: Propriedade canônica PidLidFlagString
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 53fe309fb15807ad698fef5a06781e5c3e0bae0c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768476"
 ---
-# <a name="pidlidflagstring-canonical-property"></a>Propriedade canônico de PidLidFlagString
+# <a name="pidlidflagstring-canonical-property"></a>Propriedade canônica PidLidFlagString
 
   
   
@@ -33,9 +33,9 @@ Contém um índice que identifica um conjunto de cadeias de caracteres de texto 
 |Propriedade definida:  <br/> |PSETID_Common  <br/> |
 |ID de longo (LID):  <br/> |0x000085C0  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se essa propriedade estiver definida, os clientes devem usar o valor de cadeia de caracteres correspondente nas tabelas a seguir (por exemplo, para substituir uma cadeia de caracteres que é traduzida no idioma do usuário atual) e devem ignorar o valor definido no **dispidFlagRequest** ([ PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) e **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
@@ -94,7 +94,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

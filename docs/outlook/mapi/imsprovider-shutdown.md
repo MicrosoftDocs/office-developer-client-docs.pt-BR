@@ -33,7 +33,7 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 MAPI chama o método **IMSProvider::Shutdown** antes de liberar o objeto de provedor de repositório de mensagem. MAPI libera todos os objetos de logon para um provedor antes de chamar o **desligamento** desse provedor. 
   
@@ -53,5 +53,5 @@ MAPI chama o método **IMSProvider::Shutdown** antes de liberar o objeto de prov
 
 
 
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

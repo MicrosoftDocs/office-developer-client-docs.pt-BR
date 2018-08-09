@@ -1,5 +1,5 @@
 ---
-title: Nomeando pastas usando cadeias de caracteres
+title: Nomear pastas usando cadeias de caracteres
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768154"
 ---
-# <a name="naming-folders-by-using-character-strings"></a>Nomeando pastas usando cadeias de caracteres
+# <a name="naming-folders-by-using-character-strings"></a>Nomear pastas usando cadeias de caracteres
 
   
   

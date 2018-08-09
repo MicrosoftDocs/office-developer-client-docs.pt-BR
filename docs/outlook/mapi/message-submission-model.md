@@ -1,5 +1,5 @@
 ---
-title: Modelo de envio de mensagem
+title: Modelo de envio de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768146"
 ---
-# <a name="message-submission-model"></a>Modelo de envio de mensagem
+# <a name="message-submission-model"></a>Modelo de envio de mensagens
 
   
   

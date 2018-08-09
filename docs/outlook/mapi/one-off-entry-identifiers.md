@@ -21,7 +21,7 @@ ms.locfileid: "19768162"
   
 Identificadores de entrada únicos são criados por MAPI no método **IAddrBook::CreateOneOff** e componentes que não têm acesso ao subsistema de MAPI, como componentes do gateway. Para obter mais informações, consulte [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). A ilustração a seguir mostra o formato de um identificador de entrada únicos.
   
-**Formato do identificador de entrada únicos**
+**One-off entry identifier format**
   
 ![Formato do identificador de entrada únicos] (media/amapi_69.gif "Formato do identificador de entrada únicos")
   

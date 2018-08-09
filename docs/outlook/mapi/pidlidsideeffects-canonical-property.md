@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidSideEffects
+title: Propriedade canônica PidLidSideEffects
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 479ba1990f7cac1768fc5e514e3fc55f017e4a0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768653"
 ---
-# <a name="pidlidsideeffects-canonical-property"></a>Propriedade canônico de PidLidSideEffects
+# <a name="pidlidsideeffects-canonical-property"></a>Propriedade canônica PidLidSideEffects
 
   
   
@@ -35,7 +35,7 @@ Controla como um objeto de mensagem é manipulado pelo cliente quando atuando na
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuração de tempo de execução  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Deve ser definido como um bit a bit ou zero ou mais dos seguintes sinalizadores.
   
@@ -83,7 +83,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

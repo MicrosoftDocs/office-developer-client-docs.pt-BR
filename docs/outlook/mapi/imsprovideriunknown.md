@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9444806347c97077b03922b116e2ed7f61665cc1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767546"
 ---
-# <a name="imsprovider--iunknown"></a>IMSProvider: IUnknown
+# <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
   
   
@@ -40,12 +40,12 @@ Fornece acesso a um provedor de armazenamento de mensagens por meio de um objeto
 
 |||
 |:-----|:-----|
-|[Desligamento](imsprovider-shutdown.md) <br/> |Fecha um provedor de armazenamento de mensagem de forma ordenada.  <br/> |
+|[Shutdown](imsprovider-shutdown.md) <br/> |Fecha um provedor de armazenamento de mensagem de forma ordenada.  <br/> |
 |[Logon](imsprovider-logon.md) <br/> |Logs de MAPI em uma instância de um provedor de armazenamento de mensagem.  <br/> |
 |[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Registra o MAPI spooler em um armazenamento de mensagens.  <br/> |
 |[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compara dois mensagem repositório identificadores de entrada para determinar se eles se referem ao mesmo objeto store.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI usa um objeto de provedor de armazenamento de mensagens por sessão, não importa quantos mensagem repositórios abertos pelo provedor de armazenamento. Se um segundo MAPI sessão faz logon em qualquer repositórios open, chamadas MAPI **MSProviderInit** uma segunda vez para criar um novo objeto de provedor de repositório de mensagem para a sessão de usar. 
   

@@ -33,7 +33,7 @@ LPSSortOrderSet FAR * lppSortCriteria
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lppSortCriteria_
   
@@ -49,7 +49,7 @@ MAPI_E_BUSY
   
 > Outra operação está em andamento que impede que a operação de recuperação de ordem de classificação seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::QuerySortOrder** recupera a ordem de classificação atual para uma tabela. Ordens de classificação são descritas com uma estrutura [SSortOrderSet](ssortorderset.md) . 
   
@@ -71,11 +71,11 @@ Para obter mais informações sobre a classificação, consulte [classificação
 
 
 
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
 [SSortOrderSet](ssortorderset.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

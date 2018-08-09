@@ -32,7 +32,7 @@ HRESULT TransportNotify(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulFlags_
   
@@ -88,7 +88,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI spooler chama o método de **IXPLogon::TransportNotify** para sinalizar o provedor de transporte sobre eventos de notificação para o qual tiver sido solicitada. Esses eventos incluem uma solicitação de spooler MAPI para cancelar uma transferência de mensagem, o início ou final das operações de transporte de entrada ou de saída e início ou no fim de uma operação para limpar uma fila de mensagens de entrada ou de saída. 
   
@@ -108,5 +108,5 @@ O provedor deve sincronizar o acesso aos seus dados nessa chamada, pois o MAPI s
 - [IXPLogon::StartMessage](ixplogon-startmessage.md)
 - [IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
-- [IXPLogon: IUnknown](ixplogoniunknown.md)
+- [IXPLogon : IUnknown](ixplogoniunknown.md)
 

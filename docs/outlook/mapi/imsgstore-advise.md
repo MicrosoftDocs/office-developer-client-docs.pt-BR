@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6a315cef8263f7e241a815a0f054dc3174d88fa7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -113,7 +113,7 @@ MAPI_E_NO_SUPPORT
   
 > O provedor de armazenamento de mensagem não suporta o registro para notificação por meio de armazenamento de mensagens.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::Advise** estabelece uma conexão entre o chamador do aviso de objeto coletor de eventos e o armazenamento de mensagens ou um objeto no repositório de mensagem. Essa conexão é usado para enviar notificações para o coletor de advise quando um ou mais eventos, conforme especificado no parâmetro _ulEventMask_ , ocorrem para o objeto de origem advise. Quando os pontos de parâmetro _lpEntryID_ a um identificador de entrada válida, a fonte de advise é o objeto identificado por esse identificador de entrada. Quando _lpEntryID_ for NULL, a fonte de advise é o armazenamento de mensagens. 
   
@@ -157,7 +157,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [NOTIFICAÇÃO](notification.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

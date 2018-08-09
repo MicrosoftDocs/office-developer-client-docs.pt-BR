@@ -25,7 +25,7 @@ O vtable em si, não há um ponteiro para cada método em cada interface suporta
   
 A ilustração a seguir mostra como isso funciona. A caixa na extrema esquerda representa um cliente que precisa usar um objeto de provedor de serviço. Através da sessão, o cliente obtém um ponteiro para o objeto, **lpObject**. O vtable aparece primeiro no objeto seguido por métodos e dados particulares. O ponteiro vtable aponta para o vtable real, que contém ponteiros para cada uma das implementações dos métodos na interface do. 
   
-**Implementação de objeto**
+**Object implementation**
   
 ![Implementação de objeto] (media/amapi_42.gif "Implementação de objeto")
   
@@ -81,5 +81,5 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

@@ -35,7 +35,7 @@ HRESULT SyncHdrBeg(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbeid_
   
@@ -49,7 +49,7 @@ HRESULT SyncHdrBeg(
   
 >  [in] / [out] ponteiro para a estrutura **[HDRSYNC](hdrsync.md)** para o cabeçalho da mensagem. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Após a **IOSTX::SyncHdrBeg**, o local armazenar transições a [baixar o estado do cabeçalho da mensagem](download-message-header-state.md). Inicializa o Outlook para o cliente a estrutura **HDRSYNC** com a representação atual do cabeçalho da mensagem no repositório e a pasta pai. O cliente, em seguida, deve baixar um item de mensagem completo (como *pmsgFull* **HDRSYNC** ). Se isso foi bem-sucedida, o cliente também definirá *ulFlags* em **HDRSYNC** **HSF_OK**. Após a **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, o Outlook verifica o resultado em **HDRSYNC** e usa as informações em **HDRSYNC** para atualizar o cabeçalho de mensagem local. 
   
@@ -69,7 +69,7 @@ Após a **IOSTX::SyncHdrBeg**, o local armazenar transições a [baixar o estado
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

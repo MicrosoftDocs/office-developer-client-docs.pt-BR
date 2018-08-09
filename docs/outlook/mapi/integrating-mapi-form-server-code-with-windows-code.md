@@ -1,5 +1,5 @@
 ---
-title: Integrando MAPI código de servidor de formulário com código do Windows
+title: Integrar o código do servidor de formulário MAPI ao código do Windows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767560"
 ---
-# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Integrando MAPI código de servidor de formulário com código do Windows
+# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Integrar o código do servidor de formulário MAPI ao código do Windows
 
   
   
@@ -49,5 +49,5 @@ Quando seu servidor de formulário é encerrado, ele deve executar as seguintes 
 
 
 
-[Escrevendo códigos de servidor do formulário](writing-form-server-code.md)
+[Gravar um código de servidor de formulário](writing-form-server-code.md)
 

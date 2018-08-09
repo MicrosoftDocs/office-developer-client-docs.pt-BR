@@ -45,7 +45,7 @@ S_OK
   
 > O registro foi cancelado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::Unadvise** cancela um registro de notificação. Versões de **Unadvise** coletor, o que ele recebido na chamada **Advise** usada para o registro de aviso de seu ponteiro para o chamador. 
   
@@ -59,5 +59,5 @@ Geralmente, o **Unadvise** chama o método de [IUnknown:: Release](http://msdn.m
   
 [IMsgStore::Advise](imsgstore-advise.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

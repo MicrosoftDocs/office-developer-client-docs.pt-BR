@@ -1,5 +1,5 @@
 ---
-title: Vinculando a DLLs MAPI
+title: Vincular a DLLs MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767757"
 ---
-# <a name="linking-to-the-mapi-dlls"></a>Vinculando a DLLs MAPI
+# <a name="linking-to-the-mapi-dlls"></a>Vincular a DLLs MAPI
 
   
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f16585a96164835784bfa1af3752bd652daf76e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767352"
 ---
-# <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink: IUnknown
+# <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   

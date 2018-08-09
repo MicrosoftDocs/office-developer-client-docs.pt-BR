@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 2ad57b91a1b9d06ab8284fa53c283d17e4eb5613
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ S_OK
   
 > A tabela de provedor foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProviderAdmin::GetProviderTable** recupera um ponteiro para a tabela de provedor do serviço na mensagem, uma tabela que mantém o MAPI que contém informações sobre cada provedor de serviço no serviço de mensagem. 
   
@@ -90,7 +90,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
@@ -98,7 +98,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md)
   
-[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

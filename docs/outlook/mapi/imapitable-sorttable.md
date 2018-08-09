@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767349"
 ---
-# <a name="imapitablesorttable"></a>IMAPITable:: SortTable
+# <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
 **Aplica-se a**: Outlook 
   
@@ -32,7 +32,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _lpSortCriteria_
   
@@ -84,7 +84,7 @@ MAPI_E_TOO_COMPLEX
     
    - Uma operação de classificação que não seja aquele que prossegue no índice da propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) encaminhar é especificada apenas para uma tabela de anexos que ofereça suporte a esse tipo de classificação.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable:: SortTable** ordena as linhas em um modo de exibição de tabela. Enquanto algumas tabelas suportam a classificação de padrão e categorizados em várias colunas de chave de classificação, outras tabelas mais estão limitadas em seu suporte. Provedores de catálogo de endereços normalmente não suportam a classificação de tabela. Provedores de armazenamento de mensagem normalmente suportam a classificação na medida em que elas mantenham a ordem de classificação das pastas que resulte quando uma tabela completa (uma tabela sem restrições) é classificada. 
   
@@ -116,5 +116,5 @@ Sempre que **SortTable** falhar, a ordem de classificação que estava em vigor 
 - [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
 - [IMAPITable::SetColumns](imapitable-setcolumns.md)
 - [SSortOrderSet](ssortorderset.md)
-- [IMAPITable: IUnknown](imapitableiunknown.md)
+- [IMAPITable : IUnknown](imapitableiunknown.md)
 

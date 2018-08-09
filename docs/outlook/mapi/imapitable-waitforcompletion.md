@@ -35,7 +35,7 @@ ULONG FAR * lpulTableStatus
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -63,7 +63,7 @@ MAPI_E_TIMEOUT
   
 > A operação assíncrona ou operações não foram concluída no tempo especificado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::WaitForCompletion** suspende o processamento até que tenha concluído a qualquer operação assíncrona em andamento no momento para a tabela. **WaitForCompletion** pode permitir que as operações assíncronas para totalmente concluída ou a ser executada para um determinado número de milissegundos, conforme indicado pela _ulTimeout_, antes da interrupção. Para detectar operações assíncronas em andamento, chame o método [IMAPITable::GetStatus](imapitable-getstatus.md) . 
   
@@ -75,11 +75,11 @@ O método **IMAPITable::WaitForCompletion** suspende o processamento até que te
   
 [IMAPITable::GetStatus](imapitable-getstatus.md)
   
-[IMAPITable:: Restrict](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Instalando um formulário em uma biblioteca
+title: Instalar um formulário em uma biblioteca
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767574"
 ---
-# <a name="installing-a-form-into-a-library"></a>Instalando um formulário em uma biblioteca
+# <a name="installing-a-form-into-a-library"></a>Instalar um formulário em uma biblioteca
 
   
   
@@ -46,5 +46,5 @@ Se você implementar um aplicativo de instalação, a série de ações ele deve
 
 
 
-[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

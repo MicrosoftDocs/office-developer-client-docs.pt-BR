@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFileUnder
+title: Propriedade canônica PidLidFileUnder
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: aa0a7f958ed1a5ed4140e87e25bd540123616568
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768464"
 ---
-# <a name="pidlidfileunder-canonical-property"></a>Propriedade canônico de PidLidFileUnder
+# <a name="pidlidfileunder-canonical-property"></a>Propriedade canônica PidLidFileUnder
 
   
   
@@ -35,7 +35,7 @@ Especifica o nome sob o qual o contato é arquivado ao exibir uma lista de conta
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O aplicativo deve tratar essa propriedade como um PT_UNICODE vazia se ele estiver ausente do contato.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

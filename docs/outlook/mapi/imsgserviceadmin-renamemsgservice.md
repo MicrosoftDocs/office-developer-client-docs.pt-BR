@@ -35,7 +35,7 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -55,7 +55,7 @@ MAPI_E_NO_SUPPORT
   
 > MAPI não oferece suporte para renomear este serviço de mensagem. **RenameMsgService** sempre retorna este valor. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para atribuir um novo nome para um serviço de mensagem, os clientes devem usar a propriedade **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) do serviço de mensagem. Os nomes dos provedores de serviços em um serviço de mensagem são armazenados em suas propriedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
@@ -65,5 +65,5 @@ Para atribuir um novo nome para um serviço de mensagem, os clientes devem usar 
 
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

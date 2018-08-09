@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f24910a-e14e-44a1-8477-d8968130ba74
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 954dc467a0d83466b1b16a3ead5b6404d372ecab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -80,7 +80,7 @@ E_NOT_FOUND
   
 > A seção de perfil solicitada não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin::OpenProfileSection** abre uma seção de perfil, um objeto que dá suporte à interface [IProfSect](iprofsectimapiprop.md) . As seções de perfil são usadas para ler informações do e gravando informações do perfil da sessão. 
   
@@ -106,15 +106,15 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
 [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: abee768dd29cc807b605a7d13570a579cb271b2c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ LPMAPIFORMADVISESINK pmvns
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pmvns_
   
@@ -45,7 +45,7 @@ S_OK
   
 > O registro ou cancelamento de notificação de formulário foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método de **IMAPIViewContext::SetAdviseSink** para registrar-se para aprender sobre alterações no Visualizador do formulário ou cancelar um registro prévio. Quando _pmvns_ estiver definido como nulo, o formulário deseja cancelar um registro. Quando o coletor de eventos de aviso de pontos de _pmvns_ para um formulário válido, o formulário quer registrar para notificações futuras. 
   

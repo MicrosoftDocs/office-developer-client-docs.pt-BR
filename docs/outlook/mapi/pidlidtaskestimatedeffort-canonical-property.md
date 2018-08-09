@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidTaskEstimatedEffort
+title: Propriedade canônica PidLidTaskEstimatedEffort
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ceb055f6269e7abc8270c7d16da79c041d7f4ed0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768686"
 ---
-# <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propriedade canônico de PidLidTaskEstimatedEffort
+# <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propriedade canônica PidLidTaskEstimatedEffort
 
   
   
@@ -33,9 +33,9 @@ Indica a quantidade de tempo, em minutos, que o usuário espera para executar um
 |Propriedade definida:  <br/> |PSETID_Task  <br/> |
 |ID de longo (LID):  <br/> |0x00008111  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Tarefa  <br/> |
+|Área:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor deve ser maior ou igual a 0 e menor que 0x5AE980DF (1,525,252,319), onde o 480 minutos igual a um dia e 2400 minutos igual uma semana (oito horas em um dia de trabalho e cinco dias em uma semana de trabalho).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

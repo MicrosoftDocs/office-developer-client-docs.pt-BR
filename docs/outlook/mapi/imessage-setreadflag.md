@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0ae35166f01f597c2c3ab399a1b66e5760ab0dc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -31,7 +31,7 @@ HRESULT SetReadFlag(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _ulFlags_
   
@@ -69,7 +69,7 @@ MAPI_E_INVALID_PARAMETER
     
    - CLEAR_READ_FLAG | GENERATE_RECEIPT_ONLY
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::SetReadFlag** define ou limpa o sinalizador MSGFLAG_READ da mensagem na propriedade **PR_MESSAGE_FLAGS** e chamadas [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para salvar a mensagem. Definindo o sinalizador MSGFLAG_READ marca uma mensagem como tendo sido lida, que não necessariamente indica que o destinatário pretendido realmente leu a mensagem. 
   
@@ -123,7 +123,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 - [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md)  
 - [IMAPIProp::GetProps](imapiprop-getprops.md)  
 - [IMAPIProp::SaveChanges](imapiprop-savechanges.md) 
-- [Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md) 
-- [IMessage: IMAPIProp](imessageimapiprop.md)
+- [Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md) 
+- [IMessage : IMAPIProp](imessageimapiprop.md)
 - [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Mensagem armazenar provedores implementar o método **IMSLogon::Unadvise** para liberar o ponteiro para o objeto de coletor de eventos de advise passado no parâmetro _lpAdviseSink_ na chamada anterior a **IMSLogon::Advise**, cancelando, portanto, uma notificação Registro. Como parte do descartar o ponteiro para o objeto coletor de eventos advise, o método do objeto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) é chamado. Geralmente, a **versão** é chamado durante a chamada **Unadvise** . However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns. 
   
@@ -57,5 +57,5 @@ Mensagem armazenar provedores implementar o método **IMSLogon::Unadvise** para 
   
 [IMSLogon::Advise](imslogon-advise.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

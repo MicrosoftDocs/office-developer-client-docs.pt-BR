@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID1_
   
@@ -70,7 +70,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de armazenamento de mensagem implementam o método **IMSLogon::CompareEntryIDs** para comparar os dois identificadores de entrada para uma dada entrada em um armazenamento de mensagens para determinar se eles se referem ao mesmo objeto. Se os identificadores de dois entrada se referir ao mesmo objeto, **CompareEntryIDs** define o parâmetro _lpulResult_ como TRUE; Se eles se referir a objetos diferentes, **CompareEntryIDs** define _lpulResult_ como FALSE. 
   
@@ -80,5 +80,5 @@ Provedores de armazenamento de mensagem implementam o método **IMSLogon::Compar
 
 
 
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

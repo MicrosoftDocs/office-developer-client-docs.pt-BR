@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidNameXSharingRemoteStoreUid
+title: Propriedade canônica PidNameXSharingRemoteStoreUid
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c820571b-0ef3-4ab3-af81-cc8cbba0d840
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ed0fae17f0385775811102161b3c46c4cdfdf7f1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768871"
 ---
-# <a name="pidnamexsharingremotestoreuid-canonical-property"></a>Propriedade canônico de PidNameXSharingRemoteStoreUid
+# <a name="pidnamexsharingremotestoreuid-canonical-property"></a>Propriedade canônica PidNameXSharingRemoteStoreUid
 
   
   
@@ -29,7 +29,7 @@ Representa o valor da propriedade **dispidSharingRemoteStoreUid** ([PidLidSharin
   
 |||
 |:-----|:-----|
-|Nomes amigáveis:  <br/> |None  <br/> |
+|Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Propriedade definida:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nome da propriedade:  <br/> |X-compartilhamento-Remote-repositório-Uid  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

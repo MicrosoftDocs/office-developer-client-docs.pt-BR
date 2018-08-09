@@ -35,7 +35,7 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pulFlags_
   
@@ -67,7 +67,7 @@ S_OK
   
 > O fluxo foi recuperado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método **IMAPIViewContext::GetSaveStream** para recuperar um fluxo de um objeto que implementa a interface **IStream** para oferecer suporte a manipulação do verbo Salvar como no Visualizador do formulário. O método [IMAPIForm::DoVerb](imapiform-doverb.md) , que é implementado no servidor de formulário e chamado pelo Visualizador do formulário para chamar um verbo, não deve retornar até que a mensagem é totalmente convertida em formato de texto apropriado e colocada no stream apropriado. 
   
@@ -79,5 +79,5 @@ Não grava no fluxo apontado pela _ppstm_ antes de chamar **GetSaveStream**. Qua
 
 
 
-[IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md)
+[IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)
 

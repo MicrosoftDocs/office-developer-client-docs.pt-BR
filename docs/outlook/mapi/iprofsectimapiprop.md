@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c0653caec5f3cac531206e1bb9c4330cac5f3133
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767650"
 ---
-# <a name="iprofsect--imapiprop"></a>IProfSect: IMAPIProp
+# <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
   
   

@@ -1,5 +1,5 @@
 ---
-title: Implementação de Logon do provedor de serviço
+title: Implementar o logon do provedor de serviços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767441"
 ---
-# <a name="implementing-service-provider-logon"></a>Implementação de Logon do provedor de serviço
+# <a name="implementing-service-provider-logon"></a>Implementar o logon do provedor de serviços
 
 **Aplica-se a**: Outlook 
   
@@ -67,5 +67,5 @@ A lista anterior de tarefas descreve uma implementação mínima para um método
   
 ## <a name="see-also"></a>Confira também
 
-- [Iniciando um provedor de serviços](starting-a-service-provider.md)
+- [Iniciar um provedor de serviços](starting-a-service-provider.md)
 

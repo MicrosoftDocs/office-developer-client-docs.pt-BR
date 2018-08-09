@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 6478f2c6c8196fa332a7b019269e6a6266485d1d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ULONG FAR * lpulTableType
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpulTableStatus_
   
@@ -94,7 +94,7 @@ S_OK
   
 > Status da tabela foi retornado com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPTable::GetStatus** recupera informações sobre o tipo e o status atual de uma tabela. 
   
@@ -120,13 +120,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPITable:: Restrict](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

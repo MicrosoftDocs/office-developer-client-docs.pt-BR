@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f58bd8499b63bcd526906f78143b76092f194cb4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT GetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszMessageClass_
   
@@ -69,7 +69,7 @@ S_OK
   
 > A pasta de recebimento foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::GetReceiveFolder** obtém o identificador de entrada de uma pasta de recebimento, em uma pasta designada para receber mensagens de entrada de uma classe de mensagem específica. Os chamadores podem especificar uma classe de mensagem ou NULL no parâmetro _lpszMessageClass_ . Se _lpszMessageClass_ for NULL, **GetReceiveFolder** retorna os seguintes valores: 
   
@@ -99,7 +99,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

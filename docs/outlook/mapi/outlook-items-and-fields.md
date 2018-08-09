@@ -1,5 +1,5 @@
 ---
-title: Campos e itens do outlook
+title: Campos e itens do Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768198"
 ---
-# <a name="outlook-items-and-fields"></a>Campos e itens do outlook
+# <a name="outlook-items-and-fields"></a>Campos e itens do Outlook
 
   
   
@@ -35,7 +35,7 @@ Cada campo definido pelo usuário de um item tem um valor que é armazenado em u
 
 
 
-[Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Adicionar uma definição de um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemplo de fluxo de PropertyDefinition](propertydefinition-stream-sample.md)
   

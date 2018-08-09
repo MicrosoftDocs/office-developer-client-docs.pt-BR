@@ -36,7 +36,7 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -64,7 +64,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de armazenamento de mensagem implementam o método **IMSLogon::OpenStatusEntry** para abrir um objeto de status. Este objeto de status é usado para permitir que os clientes chamar métodos [IMAPIStatus](imapistatusimapiprop.md) . Por exemplo, os clientes podem usar o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para reconfigurar a sessão de logon do repositório de mensagem ou o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para validar o estado da sessão de logon do repositório de mensagem. 
   
@@ -72,11 +72,11 @@ Provedores de armazenamento de mensagem implementam o método **IMSLogon::OpenSt
 
 
 
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   
-[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)
+[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)
   
 [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

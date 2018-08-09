@@ -1,5 +1,5 @@
 ---
-title: Implementar objetos de Thread-Safe
+title: Implementar objetos livres de threads
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767460"
 ---
-# <a name="implementing-thread-safe-objects"></a>Implementar objetos de Thread-Safe
+# <a name="implementing-thread-safe-objects"></a>Implementar objetos livres de threads
 
   
   

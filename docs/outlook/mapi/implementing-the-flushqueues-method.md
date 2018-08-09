@@ -1,5 +1,5 @@
 ---
-title: Implementando o método FlushQueues
+title: Implementar método FlushQueues
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767455"
 ---
-# <a name="implementing-the-flushqueues-method"></a>Implementando o método FlushQueues
+# <a name="implementing-the-flushqueues-method"></a>Implementar método FlushQueues
 
   
   

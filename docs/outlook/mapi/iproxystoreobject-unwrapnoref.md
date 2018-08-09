@@ -31,7 +31,7 @@ Obtém um ponteiro para um objeto de repositório IMAP Internet Message Access P
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppvObject_
   
@@ -43,7 +43,7 @@ S_OK
   
 - A chamada foi bem-sucedida e um ponteiro para uma interface desfeita foi retornado no _ppvObject_.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Sem primeiro desempacotamento um repositório IMAP, acessar uma mensagem no repositório de pode forçar uma sincronização que tenta fazer o download de toda a mensagem. Usando o repositório desfeito permite o acesso à mensagem em seu estado atual sem disparar um download.
   

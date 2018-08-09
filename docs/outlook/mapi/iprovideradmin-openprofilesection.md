@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 276a2bd84156e9b396df71f51130e6704ad7c7fb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -80,7 +80,7 @@ E_NOT_FOUND
   
 > A seção de perfil solicitada não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProviderAdmin::OpenProfileSection** abre uma seção de perfil, permitindo que o chamador ler informações de e possivelmente gravar informações sobre o perfil ativo. 
   
@@ -106,13 +106,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 
 
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIUID](mapiuid.md)
   
-[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

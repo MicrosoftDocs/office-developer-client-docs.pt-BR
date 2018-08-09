@@ -37,7 +37,7 @@ HRESULT CreateMsgServiceEx(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszService_
   
@@ -85,7 +85,7 @@ E_NOT_FOUND
   
 > O nome do serviço de mensagem não está na seção **[Services]** da Mapisvc. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgServiceAdmin2::CreateMsgServiceEx** adiciona um serviço de mensagem ao perfil atual. **CreateMsgServiceEx** chama a função de ponto de entrada do serviço de mensagem para executar tarefas específicas do serviço de configuração. Se o sinalizador SERVICE_UI_ALLOWED é definido no parâmetro _ulFlags_ , o serviço de mensagem que está sendo instalado pode exibir uma folha de propriedades, permitindo ao usuário definir suas configurações. 
   
@@ -109,7 +109,7 @@ Passe o valor da propriedade **PR_SERVICE_UID** no parâmetro _lpuidService_ par
 
 
 
-[IMsgServiceAdmin2: IMsgServiceAdmin](imsgserviceadmin2imsgserviceadmin.md)
+[IMsgServiceAdmin2 : IMsgServiceAdmin](imsgserviceadmin2imsgserviceadmin.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

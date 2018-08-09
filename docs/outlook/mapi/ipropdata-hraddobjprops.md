@@ -62,7 +62,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > Alguns, mas não todos, das propriedades foram adicionados.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IPropData::HrAddObjProps** adiciona uma ou mais propriedades do tipo PT_OBJECT ao objeto. **HrAddObjProps** oferece uma alternativa ao método [IMAPIProp::SetProps](imapiprop-setprops.md) para propriedades de objeto, porque as propriedades de objeto não podem ser criadas chamando **SetProps**. Adicionando um resultado de propriedade do objeto na marca de propriedade sejam incluída na lista de marcas de propriedade que o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) retorna. 
   

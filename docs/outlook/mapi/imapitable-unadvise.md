@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e9d8565cfaa17764e92bddafb29e744d23872515
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use o método **IMAPITable::Unadvise** para liberar o ponteiro para o objeto de coletor de eventos de advise passado no parâmetro _lpAdviseSink_ na chamada anterior a **IMAPITable::Advise**, assim, Cancelando um registro de notificação. Como parte do descartar o ponteiro para o objeto coletor de eventos advise, o método do objeto **IUnknown:: Release** é chamado. Geralmente, a **versão** é chamado durante a chamada **Unadvise** , mas se outro thread está em processo de chamar o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o coletor de advise, a chamada de **liberação** foi adiada até o **OnNotify** método retorna. 
   
@@ -67,7 +67,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPITable::Advise](imapitable-advise.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

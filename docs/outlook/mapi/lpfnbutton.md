@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: e1f15a5f031f5c5a9568b8a36722eaac011b814c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulUIParam_
   
@@ -71,7 +71,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Aplicativos cliente chamam uma função de retorno de chamada com base em protótipo **LPFNBUTTON** para definir um botão em uma caixa de diálogo detalhes. O cliente passa um ponteiro para a função de retorno de chamada em chamadas para o método [IAddrBook::Details](iaddrbook-details.md) . 
   

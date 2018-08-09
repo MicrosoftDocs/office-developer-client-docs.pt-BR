@@ -31,7 +31,7 @@ Recupera a lista dos registros para o arquivo de pastas particulares (. pst).
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ppmval_
   
@@ -50,7 +50,7 @@ S_OK
 
 
 
-[IPSTOVERRIDE1: IUnknown](ipstoverride1iunknown.md)
+[IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md)
   
-[IPSTOVERRIDEREQ: IUnknown](ipstoverridereqiunknown.md)
+[IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)
 

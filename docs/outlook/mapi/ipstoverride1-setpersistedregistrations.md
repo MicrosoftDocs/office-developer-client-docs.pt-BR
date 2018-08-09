@@ -31,7 +31,7 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
 _pmval_
   
@@ -50,7 +50,7 @@ S_OK
   
 > A chamada de função foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os registros persistentes podem afetar negativamente o desempenho de aplicativos, como o Outlook e Windows Desktop Search, que PSTs ser aberto. Considere o efeito no desempenho ao usar ou expandindo o uso dos registros persistentes.
   
@@ -59,6 +59,6 @@ Os registros persistentes podem afetar negativamente o desempenho de aplicativos
   
 ## <a name="see-also"></a>Confira também
 
-- [IPSTOVERRIDE1: IUnknown](ipstoverride1iunknown.md) 
-- [IPSTOVERRIDEREQ: IUnknown](ipstoverridereqiunknown.md)
+- [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md) 
+- [IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFax3EmailType
+title: Propriedade canônica PidLidFax3EmailType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31076833-363f-4914-ba60-ab6f478d0cf5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a109bfee7f2d3c90971cbb8af89de1920cb75fe6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768446"
 ---
-# <a name="pidlidfax3emailtype-canonical-property"></a>Propriedade canônico de PidLidFax3EmailType
+# <a name="pidlidfax3emailtype-canonical-property"></a>Propriedade canônica PidLidFax3EmailType
 
   
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

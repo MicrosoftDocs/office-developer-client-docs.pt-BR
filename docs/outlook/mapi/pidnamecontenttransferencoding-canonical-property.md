@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidNameContentTransferEncoding
+title: Propriedade canônica PidNameContentTransferEncoding
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b297a81a6a6fa2e328b0c747eaf269c038288b1b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19768823"
 ---
-# <a name="pidnamecontenttransferencoding-canonical-property"></a>Propriedade canônico de PidNameContentTransferEncoding
+# <a name="pidnamecontenttransferencoding-canonical-property"></a>Propriedade canônica PidNameContentTransferEncoding
 
   
   
@@ -29,7 +29,7 @@ Contém um valor de campo do cabeçalho de codificação de transferência de co
   
 |||
 |:-----|:-----|
-|Nomes amigáveis:  <br/> |None  <br/> |
+|Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Propriedade definida:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nome da propriedade:  <br/> |Codificação de transferência de conteúdo  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

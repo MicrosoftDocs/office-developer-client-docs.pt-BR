@@ -34,7 +34,7 @@ HRESULT GetRecipientTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ S_OK
   
 > A tabela de destinatários foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::GetRecipientTable** retorna um ponteiro para a tabela de destinatário da mensagem, que inclui informações sobre todos os destinatários da mensagem. Não há uma linha para cada destinatário. 
   
@@ -86,9 +86,9 @@ Você pode alterar uma tabela de destinatário, enquanto ela está aberta chaman
 
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

@@ -1,0 +1,82 @@
+---
+title: Propriedade canônica PidTagAttachLongPathname
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagAttachLongPathname
+api_type:
+- HeaderDef
+ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
+description: 'Última modificação: 9 de março de 2015'
+ms.openlocfilehash: a2230f2c2b1d4793c425694f76bb79fb7284c479
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19768957"
+---
+# <a name="pidtagattachlongpathname-canonical-property"></a>Propriedade canônica PidTagAttachLongPathname
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Contém o caminho longo totalmente qualificado e o nome de um anexo. 
+  
+|||
+|:-----|:-----|
+|Propriedades associadas:  <br/> |PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, PR_ATTACH_LONG_PATHNAME_W  <br/> |
+|Identificador:  <br/> |0x370D  <br/> |
+|Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Área:  <br/> |Anexo de mensagem  <br/> |
+   
+## <a name="remarks"></a>Comentários
+
+Essas propriedades são aplicáveis ao usar qualquer um dos valores da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indicam o anexo pela referência: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**ou **ATTACH_BY _REF_ONLY**. Plataformas de nomes extensos de arquivos de suporte devem definir **PR_ATTACH_LONG_PATHNAME** ou propriedades associadas e propriedades de **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) ao enviar e deve verificar **PR_ATTACH_LONG_PATHNAME **ou propriedades associadas inicialmente ao receber. 
+  
+O aplicativo cliente deve definir essas propriedades para uma sugestão de caminho longo e o nome de arquivo a ser usado se a máquina host recebendo uma mensagem suporta nomes extensos de arquivos. A definição dessas propriedades indica que os dados do anexo não estão incluídos com a mensagem, mas estão disponíveis em um servidor de arquivos comuns. 
+  
+Ao contrário de diretórios e nomes de arquivo fornecido pelo **PR_ATTACH_PATHNAME**, esses nomes de arquivos e diretórios não são restritos a um diretório de oito caracteres ou filename além de extensão de três caracteres. Em vez disso, cada diretório ou o nome de arquivo pode ser até 256 caracteres longos, incluindo o nome, a extensão e o período de separador. No entanto, o caminho geral é limitado a 256 caracteres. 
+  
+Os clientes devem usar um caminho de convenção universal de nomenclatura (UNC) na maioria dos casos, quando o arquivo é compartilhado e deve usar um caminho absoluto quando o arquivo for local.
+  
+MAPI funciona somente com caminhos e nomes de arquivo ANSI do conjunto de caracteres. Aplicativos cliente que usam caminhos e nomes de arquivo em um conjunto de caracteres OEM deverá convertê-los para ANSI antes de chamar MAPI. 
+  
+## <a name="related-resources"></a>Recursos relacionados
+
+### <a name="protocol-specifications"></a>Especificações de protocolo
+
+[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+  
+> Trata objetos de mensagem e o anexo.
+    
+[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+  
+> Especifica as propriedades das mensagens codificadas direitos gerenciados.
+    
+### <a name="header-files"></a>Arquivos de cabeçalho
+
+Mapidefs.h
+  
+> Fornece definições de tipo de dados.
+    
+Mapitags.h
+  
+> Contém definições das propriedades listadas como nomes alternativos.
+    
+## <a name="see-also"></a>Confira também
+
+
+
+[Propriedades MAPI](mapi-properties.md)
+  
+[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+  
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+

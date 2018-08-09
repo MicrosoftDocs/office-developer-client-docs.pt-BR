@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767355"
 ---
-# <a name="imapitableseekrowapprox"></a>IMAPITable:: SeekRowApprox
+# <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
   
   
@@ -34,7 +34,7 @@ ULONG ulDenominator
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulNumerator_
   
@@ -54,7 +54,7 @@ MAPI_E_BUSY
   
 > Outra operação está em andamento que impede que a linha que buscam início da operação. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A posição do cursor em uma tabela depois de uma chamada para o método **IMAPITable:: SeekRowApprox** heuristicamente é a fração e pode não ser exata. Por exemplo, certos provedores podem implementar uma tabela na parte superior de uma árvore binária, tratando ponto intermediário da tabela como parte superior da árvore por motivos de desempenho. Se a árvore não é balanceada, em seguida, o ponto intermediário usado pode não ser exatamente na metade a tabela. 
   
@@ -68,5 +68,5 @@ Use o esquema de qualquer número é apropriado. Ou seja, para buscar para uma p
 
 
 
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

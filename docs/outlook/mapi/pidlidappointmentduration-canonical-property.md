@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidAppointmentDuration
+title: Propriedade canônica PidLidAppointmentDuration
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 0d124bd3aa4350863351284a9e4b19ca4533e382
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768224"
 ---
-# <a name="pidlidappointmentduration-canonical-property"></a>Propriedade canônico de PidLidAppointmentDuration
+# <a name="pidlidappointmentduration-canonical-property"></a>Propriedade canônica PidLidAppointmentDuration
 
   
   
@@ -35,7 +35,7 @@ Representa o período de tempo, em minutos, quando um compromisso agendado.
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O valor deve ser o número de minutos entre as propriedades de **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) e o valor de **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

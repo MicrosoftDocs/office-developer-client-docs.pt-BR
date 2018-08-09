@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 249d2dcf3a298abde85bdc53620680146d43c168
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT DeleteProfile(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpszProfileName_
   
@@ -54,7 +54,7 @@ E_NOT_FOUND
   
 > O perfil especificado não existe.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProfAdmin::DeleteProfile** exclui um perfil. Se o perfil para excluir estiver em uso quando **DeleteProfile** é chamado, **DeleteProfile** Retorna S_OK, mas não exclui o perfil imediatamente. Em vez disso, o **DeleteProfile** marca o perfil para exclusão e exclui-la depois que ele não é mais sendo usado, quando todas as suas sessões ativas tiverem terminado. 
   
@@ -78,7 +78,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

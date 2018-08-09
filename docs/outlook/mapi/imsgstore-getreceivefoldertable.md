@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8146b5c2b9c9fb5429a9c1d46bca687c32bcf3dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,7 +33,7 @@ HRESULT GetReceiveFolderTable(
   LPMAPITABLE FAR * lppTable );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -57,7 +57,7 @@ S_OK
   
 > A tabela de pasta de recebimento foi retornada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMsgStore::GetReceiveFolderTable** fornece acesso a uma tabela que mostra que as configurações de propriedade para o armazenamento de mensagens todos recebem pastas. 
   
@@ -85,13 +85,13 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

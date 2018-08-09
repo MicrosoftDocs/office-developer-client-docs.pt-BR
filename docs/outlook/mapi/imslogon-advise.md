@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _cbEntryID_
   
@@ -81,7 +81,7 @@ MAPI_E_NO_SUPPORT
   
 > A operação não é suportada por MAPI ou por um ou mais provedores de serviço.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Provedores de armazenamento de mensagem implementam o método **IMSLogon::Advise** para registrar um objeto para retornos de chamada de notificação. Sempre que ocorre uma alteração no objeto indicado, o provedor verifica quais bits de máscara de evento foi definida no parâmetro _ulEventMask_ e, portanto, o tipo de alteração que ocorreu. Se um pouco estiver definida, o provedor chama o método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para o objeto coletor de eventos de advise indicado pelo parâmetro _lpAdviseSink_ para relatar o evento. Dados passados na estrutura de notificação para a rotina de **OnNotify** descrevem o evento. 
   
@@ -105,5 +105,5 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 [NOTIFICAÇÃO](notification.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

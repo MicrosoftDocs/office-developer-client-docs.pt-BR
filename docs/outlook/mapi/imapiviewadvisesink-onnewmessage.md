@@ -33,7 +33,7 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Parâmetros
 
-None
+Nenhum
   
 ## <a name="return-value"></a>Valor retornado
 
@@ -41,7 +41,7 @@ S_OK
   
 > A notificação foi bem-sucedida.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método de **IMAPIViewAdviseSink::OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método o [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
   
@@ -55,11 +55,11 @@ Para obter mais informações sobre as notificações do formulário, consulte [
 
 
 
-[IMAPIForm: IUnknown](imapiformiunknown.md)
+[IMAPIForm : IUnknown](imapiformiunknown.md)
   
 [IPersistMessage::InitNew](ipersistmessage-initnew.md)
   
 [IPersistMessage::Load](ipersistmessage-load.md)
   
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

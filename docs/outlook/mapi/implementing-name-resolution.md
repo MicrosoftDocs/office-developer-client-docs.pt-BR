@@ -1,5 +1,5 @@
 ---
-title: Implementando a resolução de nomes
+title: Implementar a resolução de nome
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767428"
 ---
-# <a name="implementing-name-resolution"></a>Implementando a resolução de nomes
+# <a name="implementing-name-resolution"></a>Implementar a resolução de nome
 
   
   

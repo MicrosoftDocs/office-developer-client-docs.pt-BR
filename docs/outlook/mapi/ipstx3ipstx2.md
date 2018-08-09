@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2545c7a-03da-94d9-1bad-b1637a90080f
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 52a630a8c1f18783b00423507bc2045e70066e0d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767685"
 ---
-# <a name="ipstx3--ipstx2"></a>IPSTX3: IPSTX2
+# <a name="ipstx3--ipstx2"></a>IPSTX3 : IPSTX2
 
   
   

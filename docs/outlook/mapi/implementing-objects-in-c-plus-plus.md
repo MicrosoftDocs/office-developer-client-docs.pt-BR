@@ -57,5 +57,5 @@ lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

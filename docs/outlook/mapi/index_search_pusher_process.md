@@ -31,7 +31,7 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 } INDEX_SEARCH_PUSHER_PROCESS; 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  *dwPID* 
   

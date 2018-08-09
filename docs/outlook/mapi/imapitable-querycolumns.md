@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 96fd317c28d95335a3acc5d0603298f2fe8345e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ LPSPropTagArray FAR * lpPropTagArray
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ MAPI_E_BUSY
   
 > Outra operação é em andamento que impeça a coluna definida a operação de recuperação seja iniciado. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::QueryColumns** pode ser chamado para recuperar: 
   
@@ -94,7 +94,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SPropTagArray](sproptagarray.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -34,7 +34,7 @@ HRESULT hrStatus
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _dwPageNumber_
   
@@ -66,7 +66,7 @@ MAPI_E_USER_CANCEL
   
 > O usuário cancelou a operação, geralmente clicando no botão Cancelar em uma caixa de diálogo. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Objetos de formulário chame o método de **IMAPIViewAdviseSink::OnPrint** durante a impressão para informar o Visualizador do progresso da impressão. 
   
@@ -80,5 +80,5 @@ Para obter mais informações sobre as notificações do formulário, consulte [
 
 
 
-[IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)
+[IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md)
 

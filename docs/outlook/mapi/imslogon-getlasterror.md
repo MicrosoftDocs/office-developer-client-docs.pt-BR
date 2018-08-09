@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > Tanto o sinalizador MAPI_UNICODE foi definido e a implementação não dá suporte a Unicode, ou MAPI_UNICODE não foi definido e a implementação suporta somente Unicode.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use o método **IMSLogon::GetLastError** para recuperar informações a serem exibidas em uma mensagem ao usuário sobre o último erro retornado de uma chamada de método do objeto de repositório de mensagem. 
   
@@ -79,5 +79,5 @@ O valor de retorno de **GetLastError** deve ser S_OK para um aplicativo para usa
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMSLogon: IUnknown](imslogoniunknown.md)
+[IMSLogon : IUnknown](imslogoniunknown.md)
 

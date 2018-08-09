@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidFormStorage
+title: Propriedade canônica PidLidFormStorage
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c28902f142e06970feeaef4233ee32bfa4d0ee74
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768478"
 ---
-# <a name="pidlidformstorage-canonical-property"></a>Propriedade canônico de PidLidFormStorage
+# <a name="pidlidformstorage-canonical-property"></a>Propriedade canônica PidLidFormStorage
 
   
   
@@ -57,7 +57,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Cannonical do PidTagFolderWebViewInfo
+title: Propriedade canônica PidTagFolderWebViewInfo
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 62bc0e75d0a405ebe9f68ec9f4af1ca038bda219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769269"
 ---
-# <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriedade Cannonical do PidTagFolderWebViewInfo
+# <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriedade canônica PidTagFolderWebViewInfo
 
   
   
@@ -34,7 +34,7 @@ Contém a URL da home page de uma pasta no Microsoft Outlook. Essa propriedade c
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Pasta MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Uma URL da home page pode ser especificada para qualquer pasta do Outlook. Essas informações podem ser acessadas no Outlook a partir da guia **página inicial** da caixa de diálogo Propriedades de uma pasta. 
   

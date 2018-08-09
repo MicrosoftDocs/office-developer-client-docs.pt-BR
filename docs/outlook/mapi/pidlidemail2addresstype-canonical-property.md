@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidEmail2AddressType
+title: Propriedade canônica PidLidEmail2AddressType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28efecc4-b4a0-4e0b-bad6-a9005c8e5ddb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: de1755b1bf0ad01f48baea178280d7df3a5f8c17
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768380"
 ---
-# <a name="pidlidemail2addresstype-canonical-property"></a>Propriedade canônico de PidLidEmail2AddressType
+# <a name="pidlidemail2addresstype-canonical-property"></a>Propriedade canônica PidLidEmail2AddressType
 
   
   
@@ -35,7 +35,7 @@ Especifica o tipo de endereço do endereço de email do segundo.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se presente, o valor dessa propriedade deve ser um tipo de endereço válido.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

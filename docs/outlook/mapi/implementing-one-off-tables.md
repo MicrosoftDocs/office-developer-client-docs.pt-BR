@@ -1,5 +1,5 @@
 ---
-title: Implementando tabelas únicas
+title: Implementar tabelas únicas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767430"
 ---
-# <a name="implementing-one-off-tables"></a>Implementando tabelas únicas
+# <a name="implementing-one-off-tables"></a>Implementar tabelas únicas
 
 **Aplica-se a**: Outlook 
   

@@ -1,5 +1,5 @@
 ---
-title: Interação com o Spooler MAPI
+title: Interagir com um spooler MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767561"
 ---
-# <a name="interacting-with-the-mapi-spooler"></a>Interação com o Spooler MAPI
+# <a name="interacting-with-the-mapi-spooler"></a>Interagir com um spooler MAPI
 
   
   

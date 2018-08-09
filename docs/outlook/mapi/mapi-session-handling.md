@@ -23,25 +23,25 @@ ms.locfileid: "19767948"
   
 Antes de você poderá se comunicar com provedores de serviço e um sistema de mensagens subjacente, você precisa estabelecer uma sessão. Uma sessão MAPI é um vínculo de um cliente para outros componentes MAPI. Como resultado de iniciando com êxito uma sessão, MAPI retorna aos clientes um ponteiro para um objeto de sessão — um objeto que implementa a interface **IMAPISession** . Para obter mais informações, consulte [IMAPISession: IUnknown](imapisessioniunknown.md). Você pode usar os métodos da interface **IMAPISession** para acessar os objetos de provedores de armazenamento de mensagens e catálogo de endereço, acessar várias tabelas, formulários de exibição, definir propriedades de provedor de transporte e executar a administração de serviço de perfil e mensagem. 
   
-## <a name="in-this-section"></a>Nesta se��o
+## <a name="in-this-section"></a>Nesta seção
 
-[Iniciando uma sessão MAPI](starting-a-mapi-session.md)
+[Iniciar sessão MAPI](starting-a-mapi-session.md)
   
 > Descreve como iniciar uma sessão MAPI e inclui links para tópicos com informações mais detalhadas.
     
-[Encerrar uma sessão MAPI](ending-a-mapi-session.md)
+[Finalizar uma sessão MAPI](ending-a-mapi-session.md)
   
 > Descreve como encerrar uma sessão MAPI.
     
-[Acessando objetos usando a sessão](accessing-objects-by-using-the-session.md)
+[Acessar objetos usando a sessão](accessing-objects-by-using-the-session.md)
   
 > Descreve como usar um ponteiro de sessão para acessar objetos de sessão.
     
-[Recuperando principal e o provedor de identidade](retrieving-primary-and-provider-identity.md)
+[Recuperar identidade principal e do provedor](retrieving-primary-and-provider-identity.md)
   
 > Descreve as propriedades usadas para recuperar primário e a identidade do provedor.
     
-[Tabela de status e objetos de Status](status-table-and-status-objects.md)
+[Tabela de status e objetos de status](status-table-and-status-objects.md)
   
 > Descreve como acessar as informações da tabela de status.
     

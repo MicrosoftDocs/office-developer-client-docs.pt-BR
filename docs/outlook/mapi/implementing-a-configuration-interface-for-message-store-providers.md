@@ -1,5 +1,5 @@
 ---
-title: Implementando uma Interface de configuração para provedores de armazenamento de mensagens
+title: Implementar uma Interface de configuração para provedores do repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767385"
 ---
-# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementando uma Interface de configuração para provedores de armazenamento de mensagens
+# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementar uma Interface de configuração para provedores do repositório de mensagens
 
   
   
@@ -29,5 +29,5 @@ Você implementar a interface de configuração é acessada através de pontos d
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

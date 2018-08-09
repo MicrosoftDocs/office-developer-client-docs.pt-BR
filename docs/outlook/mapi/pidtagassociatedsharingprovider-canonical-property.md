@@ -1,0 +1,48 @@
+---
+title: Propriedade canônica PidTagAssociatedSharingProvider
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
+description: 'Última modificação: 9 de março de 2015'
+ms.openlocfilehash: 27e706315ad81c12b33b1d7670b8196df7fef14d
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19768954"
+---
+# <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propriedade canônica PidTagAssociatedSharingProvider
+
+  
+  
+**Aplica-se a**: Outlook 
+  
+Determina se um provedor de armazenamento de arquivo (. PST) de pastas particulares é configurado como um PST do Microsoft SharePoint 2010.
+  
+|||
+|:-----|:-----|
+|Propriedades associadas:  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
+|Identificador:  <br/> |0x0EA00048  <br/> |
+|Tipo de dados:  <br/> |PT_CLSID  <br/> |
+|Área:  <br/> |Tabela de armazenamento pessoal (. pst) interna  <br/> |
+   
+## <a name="remarks"></a>Comentários
+
+Esta propriedade indica se um PST está configurado para Microsoft SharePoint 2010. Se a propriedade não estiver presente, o PST não foi configurado como um PST do Microsoft SharePoint 2010.
+  
+## <a name="see-also"></a>Confira também
+
+
+
+[Propriedades MAPI](mapi-properties.md)
+  
+[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+  
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+

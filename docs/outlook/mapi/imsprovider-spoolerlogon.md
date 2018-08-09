@@ -44,7 +44,7 @@ HRESULT SpoolerLogon(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpMAPISup_
   
@@ -124,7 +124,7 @@ MAPI_W_ERRORS_RETURNED
   
 > A chamada foi bem-sucedida, mas o provedor de armazenamento de mensagem tem informações de erro disponíveis. Quando esse aviso é retornado, a chamada deve ser manipulada com êxito. Para testar esse aviso, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md). Para obter as informações de erro do provedor, chame o método [IMAPISession::GetLastError](imapisession-getlasterror.md) . 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI spooler chama o método de **IMSProvider::SpoolerLogon** para fazer logon um armazenamento de mensagens. O MAPI spooler deve usar o objeto de repositório de mensagem retornado pelo provedor de repositório de mensagem no parâmetro _lppMDB_ durante e após o logon. 
   
@@ -140,5 +140,5 @@ O provedor de armazenamento internamente marcará o objeto de repositório de me
   
 [MAPIERROR](mapierror.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

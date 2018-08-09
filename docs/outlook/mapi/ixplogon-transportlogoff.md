@@ -33,7 +33,7 @@ HRESULT TransportLogoff(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -45,7 +45,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores. Se qualquer coisa diferente de S_OK for retornada, o provedor será desconectado.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI spooler chama o método **IXPLogon::TransportLogoff** para encerrar uma sessão do provedor de transporte para um usuário específico. Antes de chamar **TransportLogoff**, o MAPI spooler descarta quaisquer dados sobre tipos de endereço de mensagens com suporte para esta sessão passada no método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
@@ -71,5 +71,5 @@ Em geral, em Concluindo uma chamada **TransportLogoff** , um provedor deve prime
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

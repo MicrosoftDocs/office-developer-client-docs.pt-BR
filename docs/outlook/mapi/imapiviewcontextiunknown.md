@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a7d62253baaaae7955e722874a15d05ed16e566e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767373"
 ---
-# <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext: IUnknown
+# <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
   
   

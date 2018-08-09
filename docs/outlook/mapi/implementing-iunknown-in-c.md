@@ -1,5 +1,5 @@
 ---
-title: Implementando IUnknown em C
+title: Implementar interface IUnknown em C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767438"
 ---
-# <a name="implementing-iunknown-in-c"></a>Implementando IUnknown em C
+# <a name="implementing-iunknown-in-c"></a>Implementar interface IUnknown em C
 
 **Aplica-se a**: Outlook 
   
@@ -132,6 +132,6 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
-- [Implementando a Interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementar interface IUnknown](implementing-the-iunknown-interface.md)
 

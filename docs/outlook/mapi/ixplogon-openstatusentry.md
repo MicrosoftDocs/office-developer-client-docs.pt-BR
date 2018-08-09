@@ -36,7 +36,7 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpInterface_
   
@@ -64,7 +64,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI spooler chama o método de **IXPLogon::OpenStatusEntry** quando um aplicativo cliente chama um método **OpenEntry** para o identificador de entrada na linha de tabela de status do provedor de transporte. **OpenStatusEntry** abre um objeto com a interface de **IMAPIStatus** associada a esse logon do provedor de transporte específica. Este objeto é usado para permitir que os aplicativos de cliente chamar métodos **IMAPIStatus** (por exemplo, para reconfigurar a sessão de logon usando o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou para validar o estado de sessão usando o [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) método). 
   
@@ -72,7 +72,7 @@ O MAPI spooler chama o método de **IXPLogon::OpenStatusEntry** quando um aplica
 
 
 
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

@@ -33,7 +33,7 @@ HRESULT DeleteProvider(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpUID_
   
@@ -49,7 +49,7 @@ E_NOT_FOUND
   
 > **MAPIUID** apontado pelo parâmetro _lpUID_ não foi reconhecido. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IProviderAdmin::DeleteProvider** exclui um provedor de serviço do serviço de mensagem. **DeleteProvider** determina o provedor de serviços para excluir combinando a estrutura **MAPIUID** apontada pela _lpUID_ com o conjunto de identificadores registrados pelos provedores de serviço ativo. 
   
@@ -71,5 +71,5 @@ A função de ponto de entrada de serviço de mensagem não é chamada novamente
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 

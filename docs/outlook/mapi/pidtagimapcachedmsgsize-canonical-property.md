@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagImapCachedMsgsize
+title: Propriedade canônica PidTagImapCachedMsgsize
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19769357"
 ---
-# <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propriedade canônico de PidTagImapCachedMsgsize
+# <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propriedade canônica PidTagImapCachedMsgsize
 
   
   
@@ -29,7 +29,7 @@ Contém o tamanho da mensagem de protocolo IMAP em cache.
   
 |||
 |:-----|:-----|
-|Propriedades associadas:  <br/> |None  <br/> |
+|Propriedades associadas:  <br/> |Nenhum  <br/> |
 |Identificador:  <br/> |0x10F0  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Renomear pasta de mensagem  <br/> |
@@ -64,7 +64,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 1593152786a3345827089e5f6702454896944b1f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -48,7 +48,7 @@ typedef struct _OBJECT_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
@@ -134,7 +134,7 @@ MAPI_SESSION
   
 > Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém as marcas de propriedade identificando propriedades afetadas pelo evento. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A estrutura **OBJECT_NOTIFICATION** é um dos membros da união de estruturas incluídos no membro **info** da estrutura de [notificação](notification.md) . Quando o membro de **informações** de uma estrutura de **notificação** contém uma estrutura **OBJECT_NOTIFICATION** , o membro **ulEventType** da estrutura de **notificação** é definido como um dos seguintes tipos de eventos: 
   
@@ -168,9 +168,9 @@ Para obter mais informações sobre a notificação, consulte os tópicos descri
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Notificação de evento em MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
-|[Manipular notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
-|[Suporte de notificação de evento](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
+|[Notificações de eventos no MAPI](event-notification-in-mapi.md) <br/> |Visão geral de notificação e eventos de notificação.  <br/> |
+|[Lidar com notificações](handling-notifications.md) <br/> |Discussão sobre como os clientes devem manipular notificações.  <br/> |
+|[Suporte à notificação de eventos](supporting-event-notification.md) <br/> |Discussão sobre como provedores de serviços podem usar o método [IMAPISupport](imapisupportiunknown.md) para gerar notificações.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

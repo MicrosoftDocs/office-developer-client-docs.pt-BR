@@ -1,5 +1,5 @@
 ---
-title: Inicializar os utilitários MAPI
+title: Iniciar utilitários MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767556"
 ---
-# <a name="initializing-the-mapi-utilities"></a>Inicializar os utilitários MAPI
+# <a name="initializing-the-mapi-utilities"></a>Iniciar utilitários MAPI
 
   
   

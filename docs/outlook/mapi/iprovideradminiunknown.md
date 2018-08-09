@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 41195a49d1bf3566c81fe6e97697012209cbc5ac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767645"
 ---
-# <a name="iprovideradmin--iunknown"></a>IProviderAdmin: IUnknown
+# <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
   
   
@@ -46,7 +46,7 @@ Funciona com provedores de serviço em um serviço de mensagem.
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Exclui um provedor de serviço do serviço de mensagem.  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Abre uma seção de perfil do perfil atual e retorna um ponteiro de [IProfSect](iprofsectimapiprop.md) para obter mais acesso.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os clientes podem obter um ponteiro para uma interface **IProviderAdmin** chamando o método [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md) ; provedores de serviços são passados um ponteiro **IProviderAdmin** quando a função de ponto de entrada do seu serviço de mensagem é chamada. 
   

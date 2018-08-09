@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidAppointmentEndWhole
+title: Propriedade canônica PidLidAppointmentEndWhole
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 155300d3c3043713ce2197d3b70843c589d777e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768219"
 ---
-# <a name="pidlidappointmentendwhole-canonical-property"></a>Propriedade canônico de PidLidAppointmentEndWhole
+# <a name="pidlidappointmentendwhole-canonical-property"></a>Propriedade canônica PidLidAppointmentEndWhole
 
   
   
@@ -35,7 +35,7 @@ Representa a data e hora de término de um compromisso.
 |Tipo de dados:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa propriedade corresponde à propriedade **dispidApptEndWhole** do compromisso no modelo de objeto do Microsoft Office Outlook. 
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

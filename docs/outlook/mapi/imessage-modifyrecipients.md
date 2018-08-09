@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3edcef69880dbc2a566a44582113c43802a47324
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -62,7 +62,7 @@ S_OK
   
 > A lista de destinatários com êxito foi modificada.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::ModifyRecipients** altera a lista de destinatários da mensagem. É a partir dessa lista, mantida em uma estrutura [ADRLIST](adrlist.md) , que a tabela de destinatário é criada. 
   
@@ -132,7 +132,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SPropValue](spropvalue.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

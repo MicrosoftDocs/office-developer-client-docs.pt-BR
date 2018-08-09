@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidAnniversaryEventEntryId
+title: Propriedade canônica PidLidAnniversaryEventEntryId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 177b2b87-7a06-4d53-8f03-5bec5632c2dd
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 78096affce8fa03cc3efc8f0ca0c7048c2f9aae9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768216"
 ---
-# <a name="pidlidanniversaryevententryid-canonical-property"></a>Propriedade canônico de PidLidAnniversaryEventEntryId
+# <a name="pidlidanniversaryevententryid-canonical-property"></a>Propriedade canônica PidLidAnniversaryEventEntryId
 
   
   
@@ -35,7 +35,7 @@ Especifica o identificador de entrada do compromisso que representa o aniversár
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contato  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O compromisso especificado pela propriedade **dispidAnniversaryEventEID** deve ser vinculado a este contato usando o **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)), **dispidContactLinkSearchKey** ([ PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) e as propriedades de **dispidContactLinkName** ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)), conforme detalhado no [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

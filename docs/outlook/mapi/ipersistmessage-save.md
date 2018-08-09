@@ -34,7 +34,7 @@ HRESULT Save(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _pMessage_
   
@@ -50,7 +50,7 @@ S_OK
   
 > O formulário foi salvo com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Visualizadores de formulário chame o método de **IPersistMessage::Save** para salvar um formulário revisado na mensagem do qual ele foi carregado ou criado. 
   
@@ -72,8 +72,8 @@ Para obter mais informações sobre como salvar objetos de armazenamento, consul
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulário](form-states.md)
+[Estados de formulários](form-states.md)
 

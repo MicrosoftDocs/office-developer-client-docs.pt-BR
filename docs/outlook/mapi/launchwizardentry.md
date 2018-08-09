@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: d80671331c2760c574ab32d79115a352ee4bcf25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ HRESULT LAUNCHWIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hParentWnd_
   
@@ -95,7 +95,7 @@ MAPI_E_CALL_FAILED
   
 > Um erro de origem inesperado ou desconhecido impediu a conclusão da operação. Incapacidade de acessar o perfil padrão e um erro possibilidades incluem falha ao inicializar o subsistema MAPI para o Assistente de perfil, retornar da caixa de diálogo.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A implementação de MAPI do protótipo de função **LAUNCHWIZARDENTRY** é o ponto de entrada para o aplicativo Assistente de perfil de MAPI. Esse ponto de entrada **LaunchWizard**os nomes de MAPI. 
   

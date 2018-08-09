@@ -34,7 +34,7 @@ HRESULT SyncBeg(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _uiSync_
   
@@ -100,7 +100,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-[SINCRONIZAÇÃO](sync.md)
+[SYNC](sync.md)
   
 > 
     
@@ -148,7 +148,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O cliente chama **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** para definir o resultado da sincronização e, em seguida, chama **[IOSTX::SyncEnd](iostx-syncend.md)** para encerrar a esse estado. O cliente deve chamar **[IOSTX::SyncEnd](iostx-syncend.md)** para cada chamada ao **IOSTX::SyncBeg** para determinar se o estado foi replicado com êxito. Depois que tiver sido determinado, o Outlook pode começar a limpar o seu estado interno. 
   
@@ -170,7 +170,7 @@ A maioria dessas estruturas contém [out] / [in] informações, permitindo que o
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

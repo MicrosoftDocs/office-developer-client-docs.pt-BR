@@ -36,7 +36,7 @@ BOOKMARK FAR * lpbkLocation
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -68,7 +68,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > A tabela não pôde concluir a recriação o modo de exibição recolhido ou expandido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable::SetCollapseState** restabelece o estado expandido ou recolhido do modo de exibição de tabela. **SetCollapseState** e **GetCollapseState** funcionam juntas da seguinte maneira: 
   
@@ -98,5 +98,5 @@ Para chamar **SetCollapseState**, você anteriormente deve ter chamado **GetColl
   
 [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

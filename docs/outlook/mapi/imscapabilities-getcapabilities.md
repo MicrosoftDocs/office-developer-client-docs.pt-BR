@@ -33,7 +33,7 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  *mscapSelector* 
   

@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidTagGeneration
+title: Propriedade canônica PidTagGeneration
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 81c2e479-84a1-42ba-a9ce-25e3fc8d80cb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4f13aa14569daeb60271ea6d8645af6f6fe3bcd8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19769287"
 ---
-# <a name="pidtaggeneration-canonical-property"></a>Propriedade canônico de PidTagGeneration
+# <a name="pidtaggeneration-canonical-property"></a>Propriedade canônica PidTagGeneration
 
   
   
@@ -34,7 +34,7 @@ Contém uma abreviatura gerações que segue o nome completo do destinatário.
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Área:  <br/> |Usuário de email MAPI  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essas propriedades fornecem identificação e acessar informações sobre um destinatário. Eles são definidos por destinatário e suas respectivas organizações. 
   
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

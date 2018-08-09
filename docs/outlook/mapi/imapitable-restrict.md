@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ab069728f872d82246e8925c5ad35c07f41f02e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767347"
 ---
-# <a name="imapitablerestrict"></a>IMAPITable:: Restrict
+# <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
   
   
@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lpRestriction_
   
@@ -66,7 +66,7 @@ MAPI_E_TOO_COMPLEX
   
 > A tabela não é possível executar a operação porque o filtro determinado apontado pelo parâmetro _lpRestriction_ é muito complicado. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable:: Restrict** estabelece uma restrição, ou filtro em uma tabela. Se houver uma restrição anterior, ela é descartada e uma nova aplicada. Aplicar uma restrição não terá nenhum efeito nos dados subjacentes de uma tabela; ele simplesmente altera o modo de exibição, limitando as linhas que podem ser recuperadas às linhas que contêm dados que satisfazem a restrição. 
   
@@ -109,15 +109,15 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 [IMAPITable::Abort](imapitable-abort.md)
   
-[IMAPITable:: FindRow](imapitable-findrow.md)
+[IMAPITable::ExpandRow](imapitable-findrow.md)
   
 [IMAPITable::GetRowCount](imapitable-getrowcount.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

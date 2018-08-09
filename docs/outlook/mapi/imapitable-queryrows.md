@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a6659f64f6e8d2e3dc61819b2263efe672cdd15c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767357"
 ---
-# <a name="imapitablequeryrows"></a>IMAPITable:: QueryRows
+# <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
   
   
@@ -35,7 +35,7 @@ LPSRowSet FAR * lppRows
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _lRowCount_
   
@@ -67,7 +67,7 @@ MAPI_E_INVALID_PARAMETER
   
 > O parâmetro _IRowCount_ é definido como zero. 
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMAPITable:: QueryRows** obtém uma ou mais linhas de dados de uma tabela. O valor do parâmetro _IRowCount_ afeta o ponto de partida para a recuperação. Se _IRowCount_ for positivo, as linhas são lidas em uma direção sequencial, começando na posição atual. Se _IRowCount_ for negativo, **QueryRows** redefine o ponto de partida movendo para trás o número de linhas indicado. Depois que o cursor é redefinido, linhas são lidas em ordem sequencial. 
   
@@ -141,7 +141,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [SRowSet](srowset.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

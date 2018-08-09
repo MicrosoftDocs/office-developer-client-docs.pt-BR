@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 9eeab1e1186aeb5a9b458facd59bd4cc155e8014
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -62,7 +62,7 @@ MAPI_E_BUSY
   
 > Outra operação está em andamento que impede que a coluna a definição de início da operação. Ou a operação em andamento deve ter permissão para concluir ou ele deve ser interrompido.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O conjunto de colunas de uma tabela é o grupo de propriedades que compõem as colunas para as linhas da tabela. Não há uma coluna padrão definido para cada tipo de tabela. O conjunto de colunas padrão é formado pelas propriedades que o implementador tabela inclui automaticamente. Os usuários da tabela podem alterar esse padrão definido chamando o método **IMAPITable::SetColumns** . Eles podem solicitar que outras colunas seja adicionado ao padrão definido se o implementador tabela oferece suporte a eles que colunas seja removido ou que a ordem das colunas seja alterado. **SetColumns** Especifica as colunas que são retornadas com cada linha e a ordem dessas colunas dentro da linha. 
   
@@ -127,11 +127,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
-[IMAPITable:: QueryRows](imapitable-queryrows.md)
+[IMAPITable::QueryRows](imapitable-queryrows.md)
   
-[IMAPITable:: Restrict](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
-[IMAPITable:: SortTable](imapitable-sorttable.md)
+[IMAPITable::SortTable](imapitable-sorttable.md)
   
 [SPropTagArray](sproptagarray.md)
   
@@ -141,7 +141,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
 [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)

@@ -1,5 +1,5 @@
 ---
-title: Recursos do provedor de transporte opcional
+title: Recursos opcionais do provedor de transporte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768185"
 ---
-# <a name="optional-transport-provider-features"></a>Recursos do provedor de transporte opcional
+# <a name="optional-transport-provider-features"></a>Recursos opcionais do provedor de transporte
 
   
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: f6566f567c228b6416a64dbd58653561bb592e6d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ Fornece um objeto de repositório IMAP Internet Message Access Protocol () que f
 |[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtém um ponteiro para um repositório IMAP desfeito.  <br/> |
 | *Membro do espaço reservado*  <br/> | *Não tem suporte ou documentadas.*  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Chame [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) no armazenamento da mensagem de origem para obter a interface **IProxyStoreObject** . Em seguida, chame **IProxyStoreObject::UnwrapNoRef** para obter o objeto store desfeita. Se **QueryInterface** retornará o erro **MAPI_E_INTERFACE_NOT_SUPPORTED**, em seguida, o repositório não foi quebrado. 
   

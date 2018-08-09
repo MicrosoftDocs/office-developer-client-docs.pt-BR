@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _hResult_
   
@@ -65,7 +65,7 @@ HRESULT GetLastError(
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [Constantes MAPI](mapi-constants.md)

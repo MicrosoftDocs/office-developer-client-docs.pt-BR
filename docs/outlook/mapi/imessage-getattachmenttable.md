@@ -34,7 +34,7 @@ HRESULT GetAttachmentTable(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ S_OK
   
 > A tabela de anexo foi recuperada com êxito.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O método **IMessage::GetAttachmentTable** retorna um ponteiro para a tabela de anexos da mensagem, que inclui informações sobre todos os anexos da mensagem. Os clientes podem obter acesso a um anexo através de apenas a tabela de anexos. Recuperando o número de um anexo sua propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) um cliente pode usar vários métodos **IMessage** para trabalhar com o anexo. 
   
@@ -90,5 +90,5 @@ Definindo as solicitações de sinalizador Unicode que as informações de quais
   
 [IMessage::OpenAttach](imessage-openattach.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

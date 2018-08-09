@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidRecurrencePattern
+title: Propriedade canônica PidLidRecurrencePattern
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 94656a1444149efeb6e2e9cd3a239ff14fa46937
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768587"
 ---
-# <a name="pidlidrecurrencepattern-canonical-property"></a>Propriedade canônico de PidLidRecurrencePattern
+# <a name="pidlidrecurrencepattern-canonical-property"></a>Propriedade canônica PidLidRecurrencePattern
 
   
   
@@ -35,7 +35,7 @@ Especifica uma descrição do padrão de recorrência do objeto calendar.
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Calendário  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se essa propriedade estiver definida, ela deve ser definida como uma descrição da recorrência que é especificada pela propriedade **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

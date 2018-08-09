@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidLidAppointmentCounterProposal
+title: Propriedade canônica PidLidAppointmentCounterProposal
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f510af2d-92b3-4c98-bdf4-8aca8e8b80d1
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c7f12ee746b5121242fd95f7bf168b89c9f7ce82
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768213"
 ---
-# <a name="pidlidappointmentcounterproposal-canonical-property"></a>Propriedade canônico de PidLidAppointmentCounterProposal
+# <a name="pidlidappointmentcounterproposal-canonical-property"></a>Propriedade canônica PidLidAppointmentCounterProposal
 
   
   
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Implementação de um objeto de coletor de eventos Advise
+title: Implementar um objeto de coletor de aviso
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767420"
 ---
-# <a name="implementing-an-advise-sink-object"></a>Implementação de um objeto de coletor de eventos Advise
+# <a name="implementing-an-advise-sink-object"></a>Implementar um objeto de coletor de aviso
 
   
   
@@ -37,7 +37,7 @@ Dependendo do tipo de evento e a origem de advise, seu método **OnNotify** pode
 |:-----|:-----|
 |Objeto movido  <br/> |Se o pai de original do objeto movido está relacionado ao novo pai, atualize o início do modo de exibição com a pasta ou o contêiner de catálogo de endereços mais alto na hierarquia. Se os contêineres dois pai não estão relacionados, atualize os dois de seus modos de exibição.  <br/> |
 |Nova mensagem  <br/> |Altere a interface do usuário para informar ao usuário sobre a chegada de uma ou mais mensagens novas. Coloque a pasta de recebimento na exibição atual.  <br/> |
-|Erro  <br/> |Para todos os objetos, exceto a sessão, faça o erro, se necessário e retorno. Para o objeto de sessão, faça o logoff se possível.  <br/> |
+|Error  <br/> |Para todos os objetos, exceto a sessão, faça o erro, se necessário e retorno. Para o objeto de sessão, faça o logoff se possível.  <br/> |
 |Pesquisa completa  <br/> |Nenhum processamento necessário.  <br/> |
    
 > [!NOTE]

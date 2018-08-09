@@ -1,5 +1,5 @@
 ---
-title: Instalando o amostra Offline State suplemento
+title: Instalar o exemplo de suplemento de estado offline
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767584"
 ---
-# <a name="installing-the-sample-offline-state-add-in"></a>Instalando o amostra Offline State suplemento
+# <a name="installing-the-sample-offline-state-add-in"></a>Instalar o exemplo de suplemento de estado offline
 
   
   
@@ -60,15 +60,15 @@ Este tópico leva as etapas para baixar e instalar o suplemento de amostra Offli
 
 
 
-[Sobre a API de estado Offline](about-the-offline-state-api.md)
+[Sobre a API de estado offline](about-the-offline-state-api.md)
   
-[Instalando o amostra Offline State suplemento](installing-the-sample-offline-state-add-in.md)
+[Instalar o exemplo de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
   
-[Sobre o amostra Offline State suplemento](about-the-sample-offline-state-add-in.md)
+[Sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
   
-[Configurando um Offline suplemento State](setting-up-an-offline-state-add-in.md)
+[Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
   
-[Monitoramento estado de Conexão usando um Offline suplemento State é alterado](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+[Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
   
-[Desconectando um Offline suplemento State](disconnecting-an-offline-state-add-in.md)
+[Desconectar-se de um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
 

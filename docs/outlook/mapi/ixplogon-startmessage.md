@@ -35,7 +35,7 @@ HRESULT StartMessage(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulFlags_
   
@@ -55,7 +55,7 @@ S_OK
   
 > A chamada foi bem-sucedida e retornou o valor esperado ou valores.
     
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O MAPI spooler chama o método **IXPLogon::StartMessage** para iniciar a transferência de uma mensagem de entrada do provedor de transporte para o spooler MAPI. Antes do provedor de transporte começa a usar a mensagem apontada pela _lpMessage_, ele deve armazenar uma referência de mensagem no parâmetro _lpulMsgRef_ para uso potencial por uma chamada ao método [IXPLogon::TransportNotify](ixplogon-transportnotify.md) . 
   
@@ -93,5 +93,5 @@ Para obter mais informações, consulte [interagindo com o Spooler de MAPI](inte
   
 [IXPLogon::TransportNotify](ixplogon-transportnotify.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

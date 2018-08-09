@@ -1,5 +1,5 @@
 ---
-title: Propriedade canônico de PidNameRightsManagementLicense
+title: Propriedade canônica PidNameRightsManagementLicense
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c75cb480b9a1a7ffdcff9c0f9b49aabba746fc3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19768864"
 ---
-# <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriedade canônico de PidNameRightsManagementLicense
+# <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriedade canônica PidNameRightsManagementLicense
 
   
   
@@ -29,13 +29,13 @@ Armazena em cache a licença de uso para a mensagem de email gerenciadas por dir
   
 |||
 |:-----|:-----|
-|Nomes amigáveis:  <br/> |None  <br/> |
+|Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Propriedade definida:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nome da propriedade:  <br/> |DRMLicense  <br/> |
 |Tipo de dados:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |Mensagens seguras  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a propriedade estiver presente em uma mensagem de email gerenciadas por direitos, o primeiro valor dessa propriedade binário vários deve conter a licença de uso compactado ZLIB (conforme especificado em [RFC1950]) para a mensagem de email gerenciadas por direitos.
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
 
