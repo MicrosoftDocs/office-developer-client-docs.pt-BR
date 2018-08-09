@@ -1,5 +1,5 @@
 ---
-title: Célula ReflectionSize (seção Propriedades do efeito adicionais)
+title: Célula ReflectionSize (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772657"
 ---
-# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Célula ReflectionSize (seção Propriedades do efeito adicionais)
+# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Célula ReflectionSize (Seção Additional Effect Properties)
 
 Determina o tamanho da reflexão em relação à forma, como uma porcentagem de 0,0 a 100,0%. Uma forma com um valor de 0% na célula **ReflectionSize** não tem um reflexo; um valor de 100% exibe uma imagem de espelho completa da forma. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **ReflectionSize** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

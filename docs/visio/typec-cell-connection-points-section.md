@@ -26,17 +26,17 @@ Especifica o tipo de ponto de conexão.
 |1  <br/> |Para fora  <br/> |**visCnnctTypeOutward** <br/> |
 |2  <br/> |DID &amp; para fora  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir o tipo de ponto de conexão escolhendo a ferramenta de **conector** , selecionando uma forma e clicando em um ponto de conexão. Para fazer isso, você precisará executar no modo do [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) . 
+Também é possível definir o tipo de ponto de conexão escolhendo a ferramenta **Conector**, selecionando uma forma e clicando com o botão direito do mouse em um ponto de conexão. Para fazer isso, você precisa executar no modo do [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md). 
   
-Para obter uma referência para o tipo / C célula pelo nome a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula Type / C pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Connections.Type [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência para o tipo / célula C pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Type / C pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

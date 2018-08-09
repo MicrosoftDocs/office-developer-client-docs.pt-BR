@@ -1,5 +1,5 @@
 ---
-title: Linha de parada de gradiente (seção de gradiente do preenchimento)
+title: Linha Gradient Stop (Seção Fill Gradient)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772003"
 ---
-# <a name="gradient-stop-row-fill-gradient-section"></a>Linha de parada de gradiente (seção de gradiente do preenchimento)
+# <a name="gradient-stop-row-fill-gradient-section"></a>Linha Gradient Stop (Seção Fill Gradient)
 
 Contém a cor, transparência e posição de uma parada de gradiente para um gradiente do preenchimento.
   

@@ -22,15 +22,15 @@ Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.
   
 ## <a name="remarks"></a>Comentários
 
-Para acessar a célula D, do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho. 
+Para acessar a célula D, clique com o botão direito do mouse em uma linha e clique em **Alterar tipo de linha** no menu de atalho. 
   
-Para obter uma referência à célula D pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula D pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Connections.D [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula D pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

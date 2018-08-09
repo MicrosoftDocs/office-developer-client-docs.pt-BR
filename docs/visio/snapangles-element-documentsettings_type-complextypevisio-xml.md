@@ -18,7 +18,7 @@ ms.locfileid: "19773007"
 
 Contém uma coleção de elementos de **SnapAngle** . 
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

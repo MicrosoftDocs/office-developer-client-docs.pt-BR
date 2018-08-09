@@ -34,7 +34,7 @@ LN (* * *número* * *)
 
 Numérico
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 LN(42) 
   

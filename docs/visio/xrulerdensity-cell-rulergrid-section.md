@@ -1,5 +1,5 @@
 ---
-title: Célula XRulerDensity (seção Ruler &amp; seção grade)
+title: Célula XRulerDensity (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773305"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Célula XRulerDensity (seção Ruler &amp; seção grade)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Célula XRulerDensity (Seção Ruler &amp; Grid)
 
 Especifica as subdivisões horizontais da régua na página.
   
@@ -27,17 +27,17 @@ Especifica as subdivisões horizontais da régua na página.
 |16 (&amp;H10)  <br/> |Normal (padrão)  <br/> |**visRulerNormal** <br/> |
 |32 (&amp;H20)  <br/> |Pequena  <br/> |**visRulerFine** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa célula corresponde à opção horizontal **Subdivisões** no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
   
-Para obter uma referência para a célula XRulerDensity pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula XRulerDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |XRulerDensity  <br/> |
    
-Para obter uma referência para a célula XRulerDensity pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula XRulerDensity pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

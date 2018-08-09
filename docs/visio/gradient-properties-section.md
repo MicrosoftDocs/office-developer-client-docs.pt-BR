@@ -1,5 +1,5 @@
 ---
-title: Seção Propriedades de gradiente
+title: Seção Gradient Properties
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771981"
 ---
-# <a name="gradient-properties-section"></a>Seção Propriedades de gradiente
+# <a name="gradient-properties-section"></a>Seção Gradient Properties
 
 Mostra as propriedades de qualquer linha ou preenchimento de gradiente efeitos de cor aplicadas à forma. Esta seção também inclui as células que controlam se gradiente de uma forma gira com a forma ou se a forma pressupõe um gradiente aplicado quando agrupado com relação às outras formas. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode definir configurações de gradiente na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **preenchimento** > **Opções de preenchimento** > **preenchimento** > **preenchimento gradual**). 
   

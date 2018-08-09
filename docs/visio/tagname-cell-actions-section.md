@@ -35,13 +35,13 @@ A célula TagName na seção Actions trabalha junto com a célula TagName na se�
     
 - Se várias linhas da marca inteligente tiverem o mesmo valor TagName, todas exibirão as mesmas ações.
     
-Para obter uma referência à célula TagName pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula TagName pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Ações. *nome* . Ações de TagNamewhere.  *nome* é o nome da linha Actions  <br/> |
    
-Para obter uma referência à célula TagName pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula TagName pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

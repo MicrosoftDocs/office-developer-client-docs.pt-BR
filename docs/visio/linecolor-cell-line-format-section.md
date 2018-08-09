@@ -22,13 +22,13 @@ Determina a cor da linha da forma.
   
 ## <a name="remarks"></a>Comentários
 
-Para definir a cor da linha, insira um número de 0 a 23, que é um índice em uma coleção de cores de linha. Você pode visualizar a coleção de cor de linha na caixa de diálogo **linha** (na guia **página inicial** , no grupo **forma** , clique em **linha**, aponte para **espessura**e, em seguida, clique em **Mais linhas**). Você também pode definir o valor da célula LineColor na caixa de diálogo **linha** . 
+Para definir a cor da linha, insira um número de 0 a 23, que serve como um índice para uma coleção de cores de linha. É possível visualizar a coleção de cores de linha na caixa de diálogo **Linha** (na guia **Página Inicial** no grupo **Forma**, clique em **Linha**, aponte para **Espessura** e clique em **Mais Linhas**). Você também pode definir o valor da célula LineColor na caixa de diálogo **Linha**). 
   
 Para inserir uma cor personalizada, use a função RGB ou HSL. O valor de uma cor personalizada é a cor RGB e RGB ( *r, g, b*), em vez de um número, será exibido na janela ShapeSheet. Quando usado em operações numéricas, as cores têm valores de 24 e acima. 
   
 É possível definir a transparência da cor de linha na célula LineColorTrans.
   
-Para obter uma referência para a célula LineColor pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineColor pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

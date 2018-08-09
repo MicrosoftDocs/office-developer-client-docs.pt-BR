@@ -24,13 +24,13 @@ Determina o número de páginas impressas nas quais será ajustada horizontalmen
 
 Esse valor é usado somente quando a célula OnPage está definida como VERDADEIRO. 
   
-Para obter uma referência à célula PagesX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula PagesX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | PagesX  <br/> |
    
-Para obter uma referência à célula PagesX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula PagesX pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

@@ -24,13 +24,13 @@ Especifica a margem esquerda da página.
 
 Esse valor representa unidades físicas e não é afetado pelas unidades de escala ou de desenho. Por exemplo, se o valor dessa célula for 0,25 pol., essa margem será 0,25 polegadas, mesmo que as unidades da página sejam pés. Se as unidades não estiverem explicitamente definidas, o valor utilizado como padrão são as unidades da página. 
   
-Para obter uma referência à célula PageLeftMargin pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula PageLeftMargin pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | PageLeftMargin  <br/> |
    
-Para obter uma referência à célula PageLeftMargin pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula PageLeftMargin pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

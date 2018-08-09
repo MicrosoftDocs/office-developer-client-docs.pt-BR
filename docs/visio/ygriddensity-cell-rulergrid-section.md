@@ -1,5 +1,5 @@
 ---
-title: Célula YGridDensity (seção Ruler &amp; seção grade)
+title: Célula YGridDensity (Seção Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773339"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (seção Ruler &amp; seção grade)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Célula YGridDensity (Seção Ruler &amp; Grid)
 
 Especifica o tipo de grade vertical a ser utilizada.
   
@@ -27,17 +27,17 @@ Especifica o tipo de grade vertical a ser utilizada.
 |4  <br/> |Normal (padrão)  <br/> |**visGridNormal** <br/> |
 |8  <br/> |Pequena  <br/> |**visGridFine** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Essa célula corresponde ao **espaçamento da grade** vertical opção no **régua &amp; grade** caixa de diálogo (na guia **Exibir** , clique na seta **Mostrar** ). 
   
-Para obter uma referência à célula YGridDensity pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula YGridDensity pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |YGridDensity  <br/> |
    
-Para obter uma referência à célula YGridDensity pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula YGridDensity pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

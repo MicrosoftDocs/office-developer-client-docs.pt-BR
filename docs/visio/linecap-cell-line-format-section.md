@@ -28,15 +28,15 @@ Indica se as terminações da linha são arredondadas, quadradas ou estendidas.
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na caixa de diálogo **linha** (na guia **página inicial** , no grupo **forma** , clique em **linha**, aponte para **setas**e, em seguida, clique em **Mais setas**).
+Também é possível definir o valor dessa célula na caixa de diálogo **Linha** (na guia **Página Inicial**, no grupo **Forma**, clique em **Linha**, aponte para **Setas** e em **Mais Setas**).
   
-Para obter uma referência para a célula LineCap pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineCap pelo nome, a partir de outra célula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |LineCap  <br/> |
    
-Para obter uma referência para a célula LineCap pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula LineCap a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

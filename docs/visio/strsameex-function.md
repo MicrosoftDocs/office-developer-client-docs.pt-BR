@@ -39,7 +39,9 @@ Booliano
   
 ## <a name="remarks"></a>Comentários
 
-STRSAMEEX retornará TRUE se ambas as cadeias de caracteres de entrada são iguais e FALSE se eles não forem. Use esta função para comparar cadeias de caracteres multibyte ou para fazer comparações que usam regras de maiusculas para uma localidade específica.
+STRSAMEEX retornará VERDADEIRO se as duas cadeias de caracteres de entrada forem iguais e FALSO se forem diferentes. Use esta função para comparar cadeias de caracteres multibyte ou para fazer comparações usando regras de maiúsculas e minúsculas para um local específico.
+			
+
   
 Utilize a combinação de qualquer um dos sinalizadores a seguir com a função STRSAMEEX.
   

@@ -26,21 +26,21 @@ Indica o tipo de sombra padrão para uma página.
 | 2  <br/> | Oblíquo  <br/> |**visFSTOblique** <br/> |
 |3  <br/> |Interna  <br/> |**visFSTInner** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
  O tipo de sombra descrito nesta célula é utilizado sempre que a célula ShapeShdwType (o tipo de sombra para uma forma individual na página) for definida como padrão da página (**visFSTPageDefault** ). 
   
 Tipos de sombra simples são descritos como sombras deslocadas na interface do usuário (UI). Uma sombra simples dá o efeito da forma sendo sombreada em um plano paralelo localizado um pouco atrás dela. Sombras oblíquas são descritas como sombras oblíquas na interface de usuário e fornecer o efeito de uma sombra sendo convertida em um plano perpendicular à forma. 
   
-Para obter uma lista dos tipos de sombra de simples e oblíqua predefinidos, consulte a lista de **estilo** na guia **sombras** da caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** ). 
+Para obter uma lista de tipos de sombra simples e oblíquas, consulte a lista **Estilo**, na guia **Sombras** da caixa de diálogo **Configurar Página** (na guia **Design**, clique na seta **Configurar Página**). 
   
-Para obter uma referência à célula ShdwType pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShdwType pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShdwType  <br/> |
    
-Para obter uma referência para a célula ShapeShdwOffsetX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShapeShdwOffsetX pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

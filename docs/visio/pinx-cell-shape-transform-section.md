@@ -20,15 +20,15 @@ ms.locfileid: "19772475"
 
 Representa o *x* -coordenadas do pino da forma (Centro de rotação) em relação à origem de seu pai. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula PinX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula PinX pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | PinX  <br/> |
    
-Para obter uma referência à célula PinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula PinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

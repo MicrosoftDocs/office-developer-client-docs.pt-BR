@@ -1,5 +1,5 @@
 ---
-title: Célula GlowColor (seção Propriedades do efeito adicionais)
+title: Célula GlowColor (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771960"
 ---
-# <a name="glowcolor-cell-additional-effect-properties-section"></a>Célula GlowColor (seção Propriedades do efeito adicionais)
+# <a name="glowcolor-cell-additional-effect-properties-section"></a>Célula GlowColor (Seção Additional Effect Properties)
 
 Determina a cor utilizada para o traço do brilho externo aplicado a uma forma, como um valor RGB ou o tema.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **GlowColor** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

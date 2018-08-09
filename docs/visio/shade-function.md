@@ -26,14 +26,14 @@ SOMBREAMENTO (* * *cor* * *, * * *int* * *)
 
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da cor.  <br/> |
+| _color_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O índice de cores do Microsoft Visio ou o valor RGB da cor.  <br/> |
 | _int_ <br/> |Obrigatório  <br/> |**Integer** <br/> |O valor pelo qual a luminosidade da cor será reduzida. Pode ser positivo ou negativo.  <br/> |
    
 ### <a name="return-value"></a>Valor retornado
 
  **RGB**
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Os limites superiores e inferiores de luminosidade são 0 e 240, respectivamente. Não há nenhum limite do tamanho do inteiro, que você pode passar para o parâmetro _int_ , mas luminosidade nunca excede esses limites. 
   

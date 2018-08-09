@@ -20,7 +20,8 @@ Retorna a posição da forma baseado em 1 na lista.
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2010 
+Version Added: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxe
 

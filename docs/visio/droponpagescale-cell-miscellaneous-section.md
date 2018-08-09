@@ -31,13 +31,13 @@ O percentual da célula DropOnPageScale indica o fator pelo qual o Visio dimensi
   
 Esse valor é 100% para formas com medida em desenhos com escala ou formas sem medida em desenhos sem escala. 
   
-Para obter uma referência à célula DropOnPageScale pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula DropOnPageScale pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | DropOnPageScale  <br/> |
    
-Para obter uma referência à célula DropOnPageScale pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DropOnPageScale pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

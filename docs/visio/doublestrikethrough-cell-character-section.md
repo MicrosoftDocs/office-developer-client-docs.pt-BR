@@ -22,13 +22,13 @@ Determina se o texto será formatado como tachado duplo.
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula DoubleStrikethrough pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula DoubleStrikethrough pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Char.DoubleStrikethrough [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula DoubleStrikethrough pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DoubleStrikethrough pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

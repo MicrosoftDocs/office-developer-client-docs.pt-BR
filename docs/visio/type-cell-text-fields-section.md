@@ -32,13 +32,13 @@ Especifica um tipo de dado para o valor do campo de texto.
 
 Você também pode definir o valor desta célula usando a caixa de diálogo **campo** (com a forma selecionada, na guia **Inserir** , no grupo **texto** , clique em **campo** ). 
   
-Para obter uma referência à célula Type pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência à célula Type pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Fields.Type [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula Type pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Type pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

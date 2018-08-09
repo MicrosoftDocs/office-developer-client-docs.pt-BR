@@ -22,15 +22,15 @@ Indica o idioma no qual as fórmulas das células foram criadas.
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma lista de idiomas suportados pelos aplicativos do Microsoft Office, consulte o tópico do [DocLangID](doclangid-cell-document-properties-section.md) (seção Document Properties) da célula. 
+Para obter uma lista de idiomas para os quais os aplicativos Microsoft Office oferecem suporte, consulte o tópico da célula [DocLangID](doclangid-cell-document-properties-section.md) (Seção Document Properties). 
   
-Para obter uma referência à célula LangID pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula LangID pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LangID  <br/> |
    
-Para obter uma referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula LangID pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

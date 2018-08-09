@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773182"
 ---
-# <a name="txtlocpinx-cell-text-transform-section"></a>Célula TxtLocPinX (seção Text Transform)
+# <a name="txtlocpinx-cell-text-transform-section"></a>Célula TxtLocPinX (Seção Text Transform)
 
 Determina o *x* -coordenadas do centro do bloco de texto de rotação em relação à origem do bloco de texto. A fórmula padrão é: 
   
@@ -26,13 +26,13 @@ Essa fórmula avalia o centro horizontal do bloco de texto.
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula TxtLocPinX pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula TxtLocPinX pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | TxtLocPinX  <br/> |
    
-Para obter uma referência à célula TxtLocPinX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula TxtLocPinX pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

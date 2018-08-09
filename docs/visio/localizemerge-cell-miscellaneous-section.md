@@ -25,15 +25,15 @@ Determina se as formas são localizadas quando copiadas entre documentos.
 | VERDADEIRO  <br/> | Localiza uma forma para o idioma do documento de destino.  <br/> |
 | FALSO  <br/> | Não localiza uma forma com base no idioma do documento de destino (o padrão).  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula LocalizeMerge pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula LocalizeMerge pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LocalizeMerge  <br/> |
    
-Para obter uma referência à célula LocalizeMerge pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula LocalizeMerge pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

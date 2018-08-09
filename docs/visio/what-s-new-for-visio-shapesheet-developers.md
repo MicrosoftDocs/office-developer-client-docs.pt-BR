@@ -1,5 +1,5 @@
 ---
-title: O que há de novo para desenvolvedores do ShapeSheet do Visio
+title: Novidades para desenvolvedores do Visio ShapeSheet
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773289"
 ---
-# <a name="whats-new-for-visio-shapesheet-developers"></a>O que há de novo para desenvolvedores do ShapeSheet do Visio
+# <a name="whats-new-for-visio-shapesheet-developers"></a>Novidades para desenvolvedores do Visio ShapeSheet
 
 Visio 2013 fornece uma única plataforma poderosa para suas soluções de desenho personalizadas. Novas células ShapeSheet e funções, juntamente com os novos produtos de objetos, propriedades, métodos e eventos, automação oferecem mais opções para definir e controlar o comportamento dos elementos em suas soluções.
   
@@ -58,10 +58,10 @@ A tabela a seguir lista as novas células que você pode usar para construir sol
 |[LineGradientAngle](linegradientangle-cell-gradient-properties-section.md) <br/> |Propriedades de gradientes  <br/> |
 |[LineGradientDir](linegradientdir-cell-gradient-properties-section.md) <br/> |Propriedades de gradientes  <br/> |
 |[LineGradientEnabled](linegradientenabled-cell-gradient-properties-section.md) <br/> |Propriedades de gradientes  <br/> |
-|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Proteção  <br/> |
-|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Proteção  <br/> |
-|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Proteção  <br/> |
-|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Proteção  <br/> |
+|[LockReplace](lockreplace-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeConnectors](lockthemeconnectors-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeFonts](lockthemefonts-cell-protection-section.md) <br/> |Protection  <br/> |
+|[LockThemeIndex](lockthemeindex-cell-protection-section.md) <br/> |Protection  <br/> |
 |[NoCoauth](nocoauth-cell-document-properties-section.md) <br/> |Propriedades do documento  <br/> |
 |[PageLockReplace](pagelockreplace-cell-page-properties-section.md) <br/> |Page Properties  <br/> |
 |[Perspective](perspective-cell-3-d-rotation-properties-section.md) <br/> |Propriedades de rotação 3D  <br/> |

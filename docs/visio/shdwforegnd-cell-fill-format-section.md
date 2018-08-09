@@ -28,13 +28,13 @@ Para inserir uma cor personalizada, use a função RGB ou HSL. O valor de uma co
   
 É possível definir a transparência da cor do primeiro plano do padrão de preenchimento da sombra projetada da forma na célula ShdwForegndTrans.
   
-Para obter uma referência para a célula ShdwForegnd pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShdwForegnd pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShdwForegnd  <br/> |
    
-Para obter uma referência para a célula ShdwForegnd pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShdwForegnd pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

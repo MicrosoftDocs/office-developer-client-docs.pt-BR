@@ -1,5 +1,5 @@
 ---
-title: Célula PageLockReplace (seção Page Properties)
+title: Célula PageLockReplace (Seção Page Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772456"
 ---
-# <a name="pagelockreplace-cell-page-properties-section"></a>Célula PageLockReplace (seção Page Properties)
+# <a name="pagelockreplace-cell-page-properties-section"></a>Célula PageLockReplace (Seção Page Properties)
 
 Indica se o botão **Substituir forma** deve ser desabilitado para esta página. 
   
@@ -23,7 +23,7 @@ Indica se o botão **Substituir forma** deve ser desabilitado para esta página.
 |VERDADEIRO  <br/> |O botão **Alterar forma** estiver esmaecido quando esta página estiver ativa.  <br/> |
 |FALSO  <br/> |O botão **Alterar forma** não está desabilitado por esta página. O botão pode ainda ser acinzentado if: o **DocLockReplace** em **DocumentSheet** estiver definida como **TRUE**; a célula **LockReplace** para a forma selecionada é definida como **TRUE**.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **PageLockReplace** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

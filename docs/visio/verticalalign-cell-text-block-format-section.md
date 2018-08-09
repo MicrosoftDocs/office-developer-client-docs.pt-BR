@@ -26,15 +26,15 @@ Determina o alinhamento vertical do texto no bloco de texto.
 | 1  <br/> | Meio  <br/> |**visVertMiddle** <br/> |
 | 2  <br/> | Inferior  <br/> |**visVertBottom** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula VerticalAlign pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula VerticalAlign pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | VerticalAlign  <br/> |
    
-Para obter uma referência à célula VerticalAlign pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula VerticalAlign pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

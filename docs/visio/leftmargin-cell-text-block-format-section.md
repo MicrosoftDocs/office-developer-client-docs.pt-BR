@@ -22,13 +22,13 @@ Determina a distância entre a borda esquerda do bloco de texto e o texto contid
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula LeftMargin pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula LeftMargin pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LeftMargin  <br/> |
    
-Para obter uma referência à célula LeftMargin pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula LeftMargin pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

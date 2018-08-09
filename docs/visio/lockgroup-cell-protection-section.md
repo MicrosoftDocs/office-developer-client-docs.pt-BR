@@ -29,7 +29,7 @@ Protege um grupo impedindo-o de ser desagrupado.
 
 A definição do valor LockGroupCell como TRUE também impede a exclusão de formas que sejam membros do grupo.
   
-Para obter uma referência para a célula LockGroup pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LockGroup pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

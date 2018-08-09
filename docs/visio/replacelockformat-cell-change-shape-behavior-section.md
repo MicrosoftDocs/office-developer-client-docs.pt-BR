@@ -1,5 +1,5 @@
 ---
-title: Célula ReplaceLockFormat (seção de comportamento de forma alterar)
+title: Célula ReplaceLockFormat (Seção Change Shape Behavior)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772694"
 ---
-# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Célula ReplaceLockFormat (seção de comportamento de forma alterar)
+# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Célula ReplaceLockFormat (Seção Change Shape Behavior)
 
 Indica se os valores das células especificadas em uma forma mestra substituir os valores (incluindo valores locais) de uma forma que está sendo substituído durante uma operação de substituição de forma. Se a célula **ReplaceLockFormat** de uma forma mestra é definida como verdadeiro (1), os valores de formatação do mestre substituir todos os valores correspondentes de uma forma que está sendo substituído pelo mestre. 
   
@@ -23,7 +23,7 @@ Indica se os valores das células especificadas em uma forma mestra substituir o
 |VERDADEIRO  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestra for definida como TRUE, os valores de formatação do mestre substituir todos os valores correspondentes de uma forma que está sendo substituído pelo mestre.  <br/> |
 |FALSO  <br/> |Se a célula **ReplaceLockFormat** de uma forma mestra for definida como FALSE, a forma de substituição contém os valores de formatação locais da forma antigo após a operação de substituição.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A célula **ReplaceLockFormat** determina se a forma mestra substitui os valores de formatação locais das células nas seções a seguir durante uma operação de substituição de forma: 
   

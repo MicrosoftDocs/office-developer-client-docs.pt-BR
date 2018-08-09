@@ -31,13 +31,13 @@ Quando o valor desta célula é VERDADEIRO, é possível também inverter, girar
   
 O valor da célula é VERDADEIRO para grupos em mestres e em instâncias de mestres criados nas versões do Visio anteriores à versão de 2000.
   
-Para obter uma referência à célula DontMoveChildren pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula DontMoveChildren pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | DontMoveChildren  <br/> |
    
-Para obter uma referência à célula DontMoveChildren pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DontMoveChildren pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

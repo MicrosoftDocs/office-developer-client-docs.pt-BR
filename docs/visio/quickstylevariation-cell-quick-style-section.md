@@ -1,5 +1,5 @@
 ---
-title: Célula QuickStyleVariation (seção de estilos rápidos)
+title: Célula QuickStyleVariation (Seção Quick Style)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772632"
 ---
-# <a name="quickstylevariation-cell-quick-style-section"></a>Célula QuickStyleVariation (seção de estilos rápidos)
+# <a name="quickstylevariation-cell-quick-style-section"></a>Célula QuickStyleVariation (Seção Quick Style)
 
 Determina se devem ser substituídas as fórmulas e os valores de texto, linha e preenchimento cor (ou uma combinação dessas propriedades) usando cores que contraste com o plano de fundo do diagrama. O valor é um OR bit a bit 0, 1, 2, 4 e 8.
   
@@ -26,7 +26,7 @@ Determina se devem ser substituídas as fórmulas e os valores de texto, linha e
 |4  <br/> |Altere a cor da linha de uma forma, se necessário, permaneça visível contra um tema determinados cor de plano de fundo.  <br/> |
 |8  <br/> |Altere a cor de preenchimento de uma forma, se necessário, permaneça visível contra um tema determinados cor de plano de fundo.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Use a célula QuickStyleVariation para garantir a visibilidade em texto ou linhas quando estiverem fora qualquer geometria da forma visível (por exemplo, em uma forma cujo textbox é abaixo da parte inferior da forma, como aquelas nos diagramas de rede). O valor da célula padrão é 0, o que significa que seu comportamento está inativo. Qualquer outro valor dispara o comportamento da célula.
   

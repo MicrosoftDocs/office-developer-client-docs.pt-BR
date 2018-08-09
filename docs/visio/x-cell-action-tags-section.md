@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773293"
 ---
-# <a name="x-cell-action-tags-section"></a>Célula X (Seção Action Tags)
+# <a name="x-cell-action-tags-section"></a>Célula X Cell (Seção Action Tags)
 
 *X* -coordenar posição nas coordenadas locais da forma, em torno da qual é colocado o botão de marca de ação. 
   
@@ -27,13 +27,13 @@ ms.locfileid: "19773293"
 
 As células X e Y definem um ponto nas coordenadas locais da forma, e as células X Justify e Y Justify definem o local em que o botão de marca de ação será colocado em relação àquele ponto. 
   
-Para obter uma referência à célula X pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula X pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> |Marcas inteligentes. *nome* . X, onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
    
-Para obter uma referência à célula X pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

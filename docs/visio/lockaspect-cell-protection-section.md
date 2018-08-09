@@ -27,13 +27,13 @@ Protege a taxa de proporção da forma para que ela somente seja dimensionada pr
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula LockAspect pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula LockAspect pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LockAspect  <br/> |
    
-Para obter uma referência à célula LockAspect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula LockAspect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

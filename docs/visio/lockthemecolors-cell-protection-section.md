@@ -15,19 +15,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19772267"
 ---
-# <a name="lockthemecolors-cell-protection-section"></a>Célula LockThemeColors (Seção Proteção)
+# <a name="lockthemecolors-cell-protection-section"></a>Célula LockThemeColors (Seção Protection)
 
 Impede a aplicação de cores de tema à forma. 
   
-O valor da célula LockThemeColors corresponde à configuração da caixa de seleção **de cores de tema** na caixa de diálogo **proteção** . 
+O valor da célula LockThemeColors corresponde à configuração da caixa de seleção **Das cores de tema** na caixa de diálogo **Proteção**. 
   
-Para fazer referência à célula LockThemeColors pelo nome, a partir de outra fórmula ou de um programa, use a propriedade **CellsU** , utilize: 
+Para referir-se à célula LockThemeColors pelo nome de outra fórmula ou a partir de um programa usando a propriedade**CellsU**, utilize:
+
+ 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |LockThemeColors  <br/> |
    
-Para fazer referência à célula LockThemeColors pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para referir-se à célula LockThemeColors pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:
+
+ 
   
 |||
 |:-----|:-----|

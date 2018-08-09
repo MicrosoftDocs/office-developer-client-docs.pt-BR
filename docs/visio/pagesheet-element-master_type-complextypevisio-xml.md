@@ -18,7 +18,7 @@ ms.locfileid: "19772500"
 
 Especifica as propriedades da página de desenho associados com o mestre.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

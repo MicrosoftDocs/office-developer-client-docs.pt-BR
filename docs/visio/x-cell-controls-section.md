@@ -16,19 +16,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773302"
 ---
-# <a name="x-cell-controls-section"></a>Célula X (Seção Controls)
+# <a name="x-cell-controls-section"></a>Célula X Cell (Seção Controls)
 
 Representa o *x* -coordenada que indica a localização da alça de controle de uma forma em coordenadas locais. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula X pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula X pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Controles.  *nome* . X, onde controla.  *nome* é o nome da linha controles.  <br/> |
    
-Para obter uma referência à célula X pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

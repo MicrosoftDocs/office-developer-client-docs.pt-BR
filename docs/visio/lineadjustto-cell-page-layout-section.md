@@ -27,11 +27,11 @@ Determina quais conectores dinâmicos são alinhados uns sobre os outros.
 |2  <br/> |Nenhuma linha  <br/> |**visPLOLineAdjustToNone** <br/> |
 |3  <br/> |Linhas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na guia **Layout e roteamento** na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** e, em seguida, clique em **Layout e roteamento**).
+Também é possível definir o valor dessa célula na guia **Layout e Direcionamento** na caixa de diálogo **Configurar Página** (na guia **Design** clique na seta **Configurar Página** e em **Layout e Direcionamento**).
   
-Para obter uma referência para a célula LineAdjustTo pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineAdjustTo pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

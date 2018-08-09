@@ -1,5 +1,5 @@
 ---
-title: Célula LineGradientAngle (seção Propriedades de gradiente)
+title: Célula LineGradientAngle (Seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772183"
 ---
-# <a name="linegradientangle-cell-gradient-properties-section"></a>Célula LineGradientAngle (seção Propriedades de gradiente)
+# <a name="linegradientangle-cell-gradient-properties-section"></a>Célula LineGradientAngle (Seção Gradient Properties)
 
 Determina o ângulo do gradiente para um gradiente linear, de 0 a 359.9 graus linha.
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **LineGradientAngle** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

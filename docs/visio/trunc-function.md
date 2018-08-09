@@ -29,7 +29,7 @@ TRUNC (* * *número* * *, * * *número de dígitos* * *)
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O número a ser truncado.  <br/> |
-| _número de dígitos_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O número de dígitos para o qual truncar _number_.  <br/> |
+| _número de dígitos_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número de dígitos para o qual truncar _number_.  <br/> |
    
 ### <a name="return-value"></a>Valor retornado
 

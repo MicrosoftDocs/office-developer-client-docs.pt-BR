@@ -27,15 +27,15 @@ Impede uma forma de ser selecionada.
    
 ## <a name="remarks"></a>Comentários
 
-Em ordem para a célula LockSelect tenha efeito, a caixa de seleção **formas** deve ser selecionada na caixa de diálogo **Proteger documento** . 
+Para que a célula LockSelect tenha efeito, a caixa de seleção **Formas** deve estar marcada na caixa de diálogo **Proteger Documento**. 
   
-Para obter uma referência à célula LockSelect pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula LockSelect pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | LockSelect  <br/> |
    
-Para obter uma referência à célula LockSelect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula LockSelect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

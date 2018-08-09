@@ -6,7 +6,9 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
-description: Representa uma janela aberta em uma instância do Microsoft Visio. Esse elemento contém as informações necessárias para recriar exatamente uma janela de interface de usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
+description: >-
+  Representa uma janela aberta em uma estância do Microsoft Visio.
+   Esse elemento contém as informações necessárias para recriar exatamente uma janela de interface de usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
 ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +18,10 @@ ms.locfileid: "19773287"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento da janela (Windows_Type complexType) ('Visio XML')
 
-Representa uma janela aberta em uma instância do Microsoft Visio. Esse elemento contém as informações necessárias para recriar exatamente uma janela de interface de usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
+Representa uma janela aberta em uma estância do Microsoft Visio.
+ Esse elemento contém as informações necessárias para recriar exatamente uma janela de interface de usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -69,7 +72,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |Container  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |ID do contêiner: página, mestre ou planilha. Somente relevantes e necessário se **ContainerType** for especificado.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |XSD:token  <br/> |opcional  <br/> |Pode ser um dos seguintes valores: documento, página ou mestre. Relevante apenas quando **WindowType** é especificado como o desenho ou planilha.  <br/> |Valores do tipo xsd:token.  <br/> |
 |Document  <br/> |XSD: String  <br/> |opcional  <br/> |Caminho de arquivo do documento exibido nessa janela.  <br/> |Valores do tipo xsd: String.  <br/> |
-|Id  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Master  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |ID do mestre se esta janela estiver exibindo um mestre.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |Page  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |ID da página se esta janela estiver exibindo uma página. Relevante apenas quando o **WindowType** é especificado como o desenho e **ContainerType** é especificado como página.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |ParentWindow  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |ID da janela em que essa janela estêncil está contida. Relevante somente quando **WindowType** é especificado como o estêncil.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
@@ -83,6 +86,6 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |WindowState  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |Um inteiro especificando sinalizadores de bit.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
 |WindowTop  <br/> |XSD:Short  <br/> |opcional  <br/> |Coordenada superior do retângulo janela.  <br/> |Valores do tipo xsd:short.  <br/> |
 |WindowType  <br/> |XSD:token  <br/> |obrigatório  <br/> |Um valor enumerado que pode ser uma das seguintes opções: ícone, planilha, estêncil ou desenho.  <br/> |Valores do tipo xsd:token.  <br/> |
-|LarguraDaJanela  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |Largura do retângulo janela.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|WindowWidth  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |Largura do retângulo janela.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

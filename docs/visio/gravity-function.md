@@ -34,7 +34,7 @@ GRAVITY (* * *ângulo* * *, [* * *limit1* * *], [* * *limit2* * *])
    
 ### <a name="return-value"></a>Valor retornado
 
-Cadeia de caracteres
+String
   
 ## <a name="remarks"></a>Comentários
 

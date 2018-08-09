@@ -21,7 +21,7 @@ ms.locfileid: "19771768"
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Extensão de base** <br/> |None  <br/> |
+|**Extensão de base** <br/> |Nenhum  <br/> |
    
 ## <a name="definition"></a>Definição
 

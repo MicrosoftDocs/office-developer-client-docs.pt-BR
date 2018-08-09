@@ -22,15 +22,15 @@ Determina o espaço vazio horizontal entre todos os conectores e as formas na p�
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na caixa de diálogo **Layout e espaçamento de roteamento** . (Na guia **Design** , clique na seta **Configurar página** , clique em **Layout e roteamento**e clique em **espaçamento**).
+Também é possível definir o valor dessa célula na caixa de diálogo **Espaçamento de Layout e Direcionamento**. (Na guia **Design**, clique na seta **Configurar Página**, clique em **Layout e Direcionamento** e clique em **Espaçamento**).
   
-Para obter uma referência para a célula LineToNodeY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineToNodeY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |LineToNodeX  <br/> |
    
-Para obter uma referência à célula LineToNodeX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula LineToNodeX pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

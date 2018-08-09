@@ -24,13 +24,13 @@ Especifica um valor para a célula definida pelo usuário correspondente.
 
 Para fazer referência a esse valor em outra célula, especifique o nome definido pelo usuário inserido no rótulo da linha User.Row.
   
-Para obter uma referência à célula Value pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Value pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Usuário.  *Nome* . Valor where usuário.  *Name* é o nome da linha  <br/> |
    
-Para obter uma referência à célula Value pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Value pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

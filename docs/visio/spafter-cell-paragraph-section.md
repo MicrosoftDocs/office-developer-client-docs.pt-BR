@@ -24,13 +24,13 @@ Determina a quantidade de espaço inserido depois de cada parágrafo no bloco de
 
 Esse valor não depende da escala do desenho. Se o desenho estiver em escala, a definição de Espaço após será a mesma.
   
-Para obter uma referência à célula SpAfter pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula SpAfter pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Para.SpAfter [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula SpAfter pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula SpAfter pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

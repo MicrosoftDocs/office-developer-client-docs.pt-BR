@@ -18,7 +18,7 @@ ms.locfileid: "19773190"
 
 Fornece instruções para o Microsoft Visio recalcular uma relação entre as partes de documentos em um arquivo do Visio.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -60,7 +60,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |:-----|:-----|:-----|:-----|:-----|
 |N  <br/> |XSD: String  <br/> |obrigatório  <br/> |O nome da fórmula a ser chamado quando o gatilho é ativado.  <br/> Consulte a seção comentários.  <br/> |Valores do tipo xsd: String.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 O atributo **N** deste elemento **gatilho** deve ser um conjunto limitado de valores que correspondem aos gatilho instruções. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento **gatilho** . 
   
@@ -88,6 +88,6 @@ O atributo **N** deste elemento **gatilho** deve ser um conjunto limitado de val
 |RecalcType  <br/> |[Forma](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Um gatilho que aparece em uma forma quando uma referência cruzada partes usando um **tipo** de função existe.  <br/> |
 |RelChanged  <br/> |[Forma](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Um gatilho que aparece em uma forma quando uma referência cruzada partes usando uma função **CONTAINERMEMBERCOUNT** existe.  <br/> |
 |ZOrderChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Um gatilho que aparece em uma página quando uma referência cruzada partes usando uma função **CONTAINERSHEETREF** existe.  <br/> |
-|Caminho  <br/> |[Forma](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Um gatilho que aparece em uma página quando uma referência cruzada partes usando uma função **POINTALONGPATH**, **PATHLENGTH**ou **PATHSEGMENT** existe.  <br/> |
+|Path  <br/> |[Forma](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Um gatilho que aparece em uma página quando uma referência cruzada partes usando uma função **POINTALONGPATH**, **PATHLENGTH**ou **PATHSEGMENT** existe.  <br/> |
    
 

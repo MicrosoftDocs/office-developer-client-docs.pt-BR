@@ -16,13 +16,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771784"
 ---
-# <a name="edit-a-part-of-a-formula"></a>Editar uma Parte de uma Fórmula
+# <a name="edit-a-part-of-a-formula"></a>Editar uma parte de uma fórmula
 
 1. Clique duas vezes na célula ou selecione a célula e pressione F2.
     
 2. Na célula ou na barra de fórmula, edite a fórmula usando as técnicas da tabela a seguir.
     
-|**To**|**Fazer isso**|
+|**To**|**Faça isso**|
 |:-----|:-----|
 | Inserir o ponto de inserção  <br/> | Clique onde deseja que o ponto de inserção seja exibido.  <br/> |
 | Mover o ponto de inserção  <br/> | Pressione a tecla de seta à esquerda ou à direita.  <br/> |

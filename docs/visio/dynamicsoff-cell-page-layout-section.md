@@ -29,13 +29,13 @@ Determina se as formas de colocação serão movidas e se os conectores serão r
 
 É possível desativar a dinâmica para aumentar o desempenho de sua solução. Por exemplo, se a sua solução adiciona formas de colocação a um desenho e você não quer que o aplicativo redirecione os conectores e reposicione as formas sempre que uma forma for adicionada, desative a dinâmica. Depois que a solução adicionar as formas, ative a dinâmica novamente.
   
-Para obter uma referência à célula DynamicsOff pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula DynamicsOff pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | DynamicsOff  <br/> |
    
-Para obter uma referência à célula DynamicsOff pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DynamicsOff pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

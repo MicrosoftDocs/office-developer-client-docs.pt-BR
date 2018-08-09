@@ -18,7 +18,7 @@ ms.locfileid: "19773105"
 
 Contém o texto de uma forma.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -49,7 +49,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marca o início das propriedades de um caractere ou seja executado formatado de acordo com o elemento Char correspondente.  <br/> |
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indica um ponto de inserção do campo de texto para o elemento do campo correspondente.  <br/> |
+|[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indica um ponto de inserção do campo de texto para o elemento do campo correspondente.  <br/> |
 |[PP](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Especifica o início das propriedades de um parágrafo é executado.  <br/> |
 |[PA](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Especifica o início de propriedades guias executar.  <br/> |
    

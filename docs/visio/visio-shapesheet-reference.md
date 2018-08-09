@@ -1,5 +1,5 @@
 ---
-title: Referência do ShapeSheet do Visio
+title: Referência do Visio ShapeSheet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773265"
 ---
-# <a name="visio-shapesheet-reference"></a>Referência do ShapeSheet do Visio
+# <a name="visio-shapesheet-reference"></a>Referência do Visio ShapeSheet
 
 Esta referência contém visões gerais conceituais, tarefas de programação, amostras e referências para guiá-lo no desenvolvimento de soluções com base no Visio 2013.
   
@@ -24,7 +24,7 @@ Bem-vindos seus comentários ou dúvidas sobre este conteúdo. Você pode enviar
   
 Esta documentação contém as seguintes seções:
   
-- [Novidades](what-s-new-for-visio-shapesheet-developers.md): fornece uma lista de novos membros por objeto e em ordem alfabética.
+- [Novidades					](what-s-new-for-visio-shapesheet-developers.md): fornece uma lista de novos membros por objeto e em ordem alfabética.
     
 - [Conceitos](concepts-visio-shapesheet.md): fornece conceitos importantes para desenvolver soluções personalizadas do Visio ShapeSheet.
     
@@ -38,7 +38,7 @@ Esta documentação contém as seguintes seções:
     
 - [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
     
-- [Conven��es de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
     
 - [Aviso de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
     

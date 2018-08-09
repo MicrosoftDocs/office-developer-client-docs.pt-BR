@@ -20,7 +20,8 @@ Recupera os valores do tema ativo.
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2013 
+Version Added: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -31,9 +32,9 @@ Versão adicionada: Visio 2013
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _"theme_value"_ <br/> |Opcional  <br/> |**String** <br/> |O nome de uma célula na definição de tema para obter um valor de.  <br/> |
-| _default_ <br/> |Opcional  <br/> |Diversos  <br/> |Um valor padrão se o documento não estiver com tema (não há uma definição de tema).  <br/> |
+| _default_ <br/> |Opcional  <br/> |Vários  <br/> |Um valor padrão se o documento não estiver com tema (não há uma definição de tema).  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Se a função **THEMEVAL** não receber nenhum argumento, ele retornará o valor com temas da célula host. Este é o valor armazenado na definição de tema atual. A célula do host deve ser capaz de sendo com temas, para retornar um valor; Se a célula não é capaz de sendo com temas, **THEMEVAL** retornará um erro. 
   
@@ -132,7 +133,7 @@ Se a função **THEMEVAL** recebe dois argumentos, ele recupera o valor da defin
 |"Transparência LineStop [x]"  <br/> |Recupera o valor da célula ColorTrans na linha *x* da definição de tema.  <br/> |
 |"Posição LineStop [x]"  <br/> |Recupera o valor da célula posição na linha *x* da definição de tema.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
  `THEMEVAL("5")`
   

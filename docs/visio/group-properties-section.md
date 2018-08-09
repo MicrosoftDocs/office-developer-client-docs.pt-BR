@@ -22,6 +22,6 @@ Contém as células de um grupo que controlam como adicionar formas a um grupo, 
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esses valores na guia **comportamento** , na caixa de diálogo **comportamento** ( **comportamento** do clique no grupo **Design** da forma na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) ). 
+Também é possível definir esses valores na guia **Comportamento** na caixa de diálogo **Comportamento** (clique em [Comportamento](run-in-developer-mode-display-the-developer-tab.md) no grupo **Design da Forma** na guia **Desenvolvedor**). 
   
 

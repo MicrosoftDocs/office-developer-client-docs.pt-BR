@@ -18,7 +18,7 @@ ms.locfileid: "19772804"
 
 Contém os elementos para criar vários saltos entre uma forma ou um site da Web e outra página de desenho, outro arquivo ou página de desenho.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

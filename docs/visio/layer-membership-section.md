@@ -22,7 +22,7 @@ Contém uma linha que relaciona cada camada à qual a forma está atribuída.
   
 ## <a name="remarks"></a>Comentários
 
-A atribuição de camada é mostrada como um índice à lista de camadas na página. O índice de camada corresponde a ordem de camadas na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e, em seguida, clique em **Propriedades da camada**). O primeiro nome na caixa de diálogo é a camada 0, o segundo é a camada 1 e assim por diante.
+A atribuição de camada é mostrada como um índice para a lista de camadas na página. O índice de camada corresponde à ordem de camadas na caixa de diálogo **Propriedades da Camada** (na guia **Página Inicial**, do grupo **Edição**, clique em **Camadas** e em **Propriedades da Camada**). O primeiro nome na caixa de diálogo é a camada 0, o segundo é a camada 1 e assim por diante.
   
 Se uma forma for atribuída a mais de uma camada, cada índice de camada aparecerá na célula Layer Membership separado por ponto-e-vírgula.
   

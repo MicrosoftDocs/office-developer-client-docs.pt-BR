@@ -1,0 +1,39 @@
+---
+title: Célula Prompt (Seção User-Defined Cells)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm840
+localization_priority: Normal
+ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
+description: Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo inclui automaticamente o texto do aviso de aspas () para indicar que ela é uma cadeia de caracteres de texto. Se você digitar um sinal de igual (=) e omite as aspas, você pode inserir uma fórmula nesta célula que avalia o aplicativo.
+ms.openlocfilehash: a7f8757af3e324a89f49bf5d19185b7a22173ff5
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19772618"
+---
+# <a name="prompt-cell-user-defined-cells-section"></a>Célula Prompt (Seção User-Defined Cells)
+
+Especifica um comentário ou prompt descritivo para a célula definida pelo usuário. O aplicativo automaticamente inclui o texto do prompt entre aspas (" ") para indicar que é uma sequência de texto. Se você digitar um sinal de igual (=) e omitir as aspas, é possível inserir uma fórmula na célula avaliada pelo aplicativo.
+  
+## <a name="remarks"></a>Comentários
+
+Para fazer referência à célula Prompt pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
+  
+|||
+|:-----|:-----|
+| Nome da célula:  <br/> | Usuário.  *Nome* . Where prompt do usuário.  *Name* é o nome da linha  <br/> |
+   
+Para fazer referência à célula Prompt pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+  
+|||
+|:-----|:-----|
+| Índice da seção:  <br/> |**visSectionUser** <br/> |
+| Índice da linha:  <br/> |**visRowUser +** *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice da célula:  <br/> |**visUserPrompt** <br/> |
+   
+

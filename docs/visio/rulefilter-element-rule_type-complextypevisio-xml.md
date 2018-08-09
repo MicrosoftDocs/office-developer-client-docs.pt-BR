@@ -18,7 +18,7 @@ ms.locfileid: "19772798"
 
 Especifica a expressão lógica que determina se a regra de validação deve ser aplicada a um objeto de destino.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

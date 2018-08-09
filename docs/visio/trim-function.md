@@ -32,13 +32,13 @@ TRIM (* * *texto* * *)
    
 ### <a name="return-value"></a>Valor retornado
 
-Cadeia de caracteres
+String
   
 ## <a name="remarks"></a>Comentários
 
 Você pode usar a função TRIM no texto recebido de outro aplicativo que tenha espaçamento irregular.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 TRIM ("1 de janeiro de 2003") 
   

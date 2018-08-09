@@ -1,5 +1,5 @@
 ---
-title: Célula ReplaceCopyCells (seção de comportamento de forma alterar)
+title: Célula ReplaceCopyCells (Seção Change Shape Behavior)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772681"
 ---
-# <a name="replacecopycells-cell-change-shape-behavior-section"></a>Célula ReplaceCopyCells (seção de comportamento de forma alterar)
+# <a name="replacecopycells-cell-change-shape-behavior-section"></a>Célula ReplaceCopyCells (Seção Change Shape Behavior)
 
 Indica uma lista das células na ShapeSheet que são copiadas de uma forma antiga à forma de substituição durante uma operação de substituição de forma. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A forma mestra da substituição deve conter uma chamada de função **DEPENDSON** na célula **ReplaceCopyCells** , onde cada argumento na função for uma referência a uma célula. Essas células são copiadas da forma antiga à forma resultante de uma operação de substituição de forma, independentemente de onde eles estão localizados no ShapeSheet. 
   

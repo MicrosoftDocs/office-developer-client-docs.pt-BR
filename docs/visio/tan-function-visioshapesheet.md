@@ -28,7 +28,7 @@ TAN (* * *ângulo* * *)
 
 |**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _ângulo_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O ângulo do qual obter a tangente.  <br/> |
+| _ângulo_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O ângulo do qual obter a tangente.  <br/> |
    
 ### <a name="return-value"></a>Valor retornado
 
@@ -38,7 +38,7 @@ Numérico
 
 A função TAN usa radianos, a menos que você especifique uma unidade de medida diferente em *angle* . 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 TAN(45 graus) 
   

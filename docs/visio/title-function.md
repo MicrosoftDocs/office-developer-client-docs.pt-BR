@@ -26,6 +26,6 @@ TÍTULO (DE)
   
 ### <a name="return-value"></a>Valor retornado
 
-Cadeia de caracteres
+String
   
 

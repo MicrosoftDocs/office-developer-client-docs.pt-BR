@@ -27,7 +27,7 @@ Uma linha **MoveTo** contém as células a seguir.
 |[X](x-cell-geometry-section.md) <br/> |Se a linha **MoveTo** for a primeira linha na seção, a célula X representará a *x* -coordenadas do primeiro vértice de uma forma. Se a linha **MoveTo** aparecer entre duas linhas, a célula X representará a *x* -coordenadas do primeiro vértice depois da quebra no caminho.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |Se a linha **MoveTo** for a primeira linha na seção, a célula Y representará a *y* -coordenadas do primeiro vértice de uma forma. Se a linha **MoveTo** aparecer entre duas linhas, a célula Y representará a *y* -coordenadas do primeiro vértice depois da quebra no caminho.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 A linha **MoveTo** contém os *x* e *y* -coordenadas do primeiro vértice da forma se a linha **MoveTo** for a primeira linha na seção. Normalmente, esse é o primeiro vértice inserido quando a forma foi desenhada e não correspondem necessariamente ao ponto inicial de uma forma 1D. 
   

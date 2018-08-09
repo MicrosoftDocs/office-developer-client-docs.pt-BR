@@ -22,9 +22,9 @@ Determina o espaço vazio vertical entre todos os conectores na página de desen
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na caixa de diálogo **Layout e espaçamento de roteamento** . (Na guia **Design** , clique na seta **Configurar página** , clique em **Layout e roteamento**e clique em **espaçamento**).
+Também é possível definir o valor dessa célula na caixa de diálogo **Espaçamento de Layout e Direcionamento**. (Na guia **Design**, clique na seta **Configurar Página**, clique em **Layout e Direcionamento** e clique em **Espaçamento**).
   
-Para obter uma referência para a célula LineToLineY pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineToLineY pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

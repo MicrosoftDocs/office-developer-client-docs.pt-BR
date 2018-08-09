@@ -22,19 +22,21 @@ Determina o nível de transparência para uma camada de cor.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|
+          0 - 100
+  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma camada com cor completamente transparente tenha a mesma na página de desenho como uma camada sem cor, ele se interage com outros objetos na página da mesma forma como se a transparência fosse 0%. Você também pode definir esse valor usando o controle deslizante na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e, em seguida, clique em **Propriedades da camada**).
+Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma camada com cor completamente transparente tenha a mesma aparência de uma camada sem cor na página de desenho, ela interage com os outros objetos da página da mesma forma que se a transparência fosse 0%. Também é possível definir esse valor usando o controle deslizante na caixa de diálogo **Propriedades da Camada** (na guia **Página Inicial **, do grupo **Edição**, clique em **Camadas** e em **Propriedades da Camada**).
   
-Para obter uma referência para a célula Transparency pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula Transparency pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Layers.ColorTrans [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência para a célula Transparency pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Transparency pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -20,7 +20,8 @@ Retorna um número inteiro que coincida com a versão principal do aplicativo Mi
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2010 
+Version Added: Visio 2010
+ 
   
 ## <a name="syntax"></a>Sintaxe
 

@@ -28,13 +28,13 @@ Para inserir uma cor personalizada, use a função RGB ou HSL mais um — por ex
   
 É possível definir a transparência da cor do plano de fundo do texto na célula TextBkgndTrans.
   
-Para obter uma referência para a célula TextBkgnd pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula TextBkgnd pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |TextBkgnd  <br/> |
    
-Para obter uma referência para a célula TextBkgnd pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula TextBkgnd pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

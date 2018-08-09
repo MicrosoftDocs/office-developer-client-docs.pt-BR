@@ -1,5 +1,5 @@
 ---
-title: Referência de formato de arquivo do Visio
+title: Referência de formato de arquivo para o Visio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773266"
 ---
-# <a name="visio-file-format-reference"></a>Referência de formato de arquivo do Visio
+# <a name="visio-file-format-reference"></a>Referência de formato de arquivo para o Visio
 
 Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para guiá-lo no desenvolvimento de soluções com o formato de arquivo do Visio (\*. vsdx).
   
@@ -24,9 +24,9 @@ Bem-vindos seus comentários ou dúvidas sobre este conteúdo. Você pode enviar
   
 Esta documentação contém as seguintes informações:
   
-- [Introdução ao formato de arquivo do Visio (. vsdx)](introduction-to-the-visio-file-formatvsdx.md)
+- [Introdução ao formato de arquivo do Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
     
-- [Manipular o formato de arquivo do Visio programaticamente](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [Manipular o formato de arquivo do Visio via programação](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [Mapa de esquema](schema-mapvisio-xml.md): exibe o esquema XML do formato de arquivo do Visio.
     
@@ -40,7 +40,7 @@ Esta documentação contém as seguintes informações:
     
 - [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
     
-- [Conven��es de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
     
 - [Aviso de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
     

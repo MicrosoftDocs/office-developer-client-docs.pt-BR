@@ -27,15 +27,15 @@ Determina se o texto está formatado como tachado.
    
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor desta célula usando a caixa de diálogo **texto** (na guia **página inicial** , clique na seta **fonte** ). 
+Você também pode definir o valor da célula usando a caixa de diálogo **Texto** (na guia **Página Inicial**, clique na seta **Fonte**). 
   
-Para obter uma referência para a célula Strikethru pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula Strikethru pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |Char.Strikethru [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência para a célula Strikethru pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula Strikethru pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

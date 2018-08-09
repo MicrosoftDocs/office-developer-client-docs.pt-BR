@@ -20,7 +20,8 @@ Retorna um valor RGB ou um inteiro que representa um índice na paleta de cores 
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2013 
+Version Added: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -37,7 +38,7 @@ Versão adicionada: Visio 2013
 
  **Número**
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 > [!NOTE]
 > A função THEMECBV não faz nada à cor passada como um argumento se a propriedade QuickStyle que é atribuída à forma não tiver um preenchimento gradiente. 
@@ -46,7 +47,7 @@ As configurações de gradiente em um tema são uma série de paradas de gradien
   
 A função **THEMECBV** recebe uma entrada de cor e a cor de saídas depois que ele tiver sido modificado pela tonalidade ou o sombreamento da parada do gradiente especificado. Os matizes e tons vêm de definição do tema, se o estilo rápido atual contiver um preenchimento de gradiente. Se o estilo rápido ativo não especificar que um preenchimento gradual ou a forma estiver definida como Nenhum tema, esta fórmula simplesmente retorna a cor que é passada para o primeiro argumento. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
  `THEMECBV(FillForegnd, 5)`
   

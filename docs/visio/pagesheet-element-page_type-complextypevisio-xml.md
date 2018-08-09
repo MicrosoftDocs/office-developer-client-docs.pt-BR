@@ -18,7 +18,7 @@ ms.locfileid: "19772460"
 
 Especifica as propriedades da página de desenho associado à página de desenho.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

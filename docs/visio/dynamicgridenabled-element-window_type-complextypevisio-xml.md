@@ -18,7 +18,7 @@ ms.locfileid: "19771778"
 
 Especifica se o recurso de grade dinâmica está habilitado para uma janela.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
@@ -42,7 +42,8 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Representa uma janela aberta em uma instância do Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Representa uma janela aberta em uma estância do Microsoft Visio.
+  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

@@ -24,13 +24,13 @@ Contém a largura da forma selecionada em unidades de desenho. A fórmula padrã
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula Width pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Width pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Width  <br/> |
    
-Para obter uma referência à célula Width pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Width pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

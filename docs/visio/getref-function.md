@@ -30,7 +30,7 @@ GETREF (* * *nome da célula* * *)
 |:-----|:-----|:-----|:-----|
 | _nome da célula_ <br/> |Obrigatório  <br/> |**String** <br/> |O nome da célula para fazer referência à.  <br/> |
    
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 SETF(GETREF(PinX),5.1) 
   

@@ -20,7 +20,8 @@ Permite que operações de comparação entre as representações de idioma dife
   
 ## <a name="version-information"></a>Informações da versão
 
-Versão adicionada: Visio 2013 
+Version Added: Visio 2013
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -36,7 +37,7 @@ Versão adicionada: Visio 2013
 
 Inteiro
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
  `LANGUAGE("en-us")`
   

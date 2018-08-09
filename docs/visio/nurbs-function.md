@@ -30,8 +30,8 @@ NURBS (* * *knotLast* * *, * * *grau* * *, * * *tipoX* * *, * * *tipoY* * *, * *
 |:-----|:-----|:-----|:-----|
 | _knotLast_ <br/> |Obrigatório  <br/> |**cadeia de caracteres** <br/> | O último nó.  <br/> |
 | _grau_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O grau da spline.  <br/> |
-| _tipoX_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |Especifica como interpretar os dados de entrada de _x_ . Se _tipoX_ for 0, todos os dados de entrada _x_ será interpretada como uma porcentagem da largura. Se _tipoX_ for 1, todos os dados de entrada _x_ será interpretada como coordenadas locais.  <br/> |
-| _tipoY_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |Especifica como interpretar os dados de entrada _y_ . Se _tipoY_ for 0, todos os dados de entrada _y_ será interpretada como uma porcentagem da altura. Se _tipoY_ for 1, todos os dados de entrada _y_ será interpretada como coordenadas locais.  <br/> |
+| _tipoX_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Especifica como interpretar os dados de entrada de _x_ . Se _tipoX_ for 0, todos os dados de entrada _x_ será interpretada como uma porcentagem da largura. Se _tipoX_ for 1, todos os dados de entrada _x_ será interpretada como coordenadas locais.  <br/> |
+| _tipoY_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |Especifica como interpretar os dados de entrada _y_ . Se _tipoY_ for 0, todos os dados de entrada _y_ será interpretada como uma porcentagem da altura. Se _tipoY_ for 1, todos os dados de entrada _y_ será interpretada como coordenadas locais.  <br/> |
 | _x1_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma coordenada x.  <br/> |
 | _Y1_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma coordenada y.  <br/> |
 | _knot1_ <br/> |Obrigatório  <br/> |**String** <br/> |Um nó na B-spline.  <br/> |

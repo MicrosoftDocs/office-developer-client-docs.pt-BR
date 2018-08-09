@@ -29,13 +29,13 @@ Determina se uma linha será desenhada em torno do limite do caminho.
 
 Ao alterar a cor de uma linha para branca, a linha continuará a existir embora não seja possível visualizá-la em um plano de fundo branco. Se o valor da célula for definido para VERDADEIRO, nenhuma linha será desenhada.
   
-Para obter uma referência à célula NoLine pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula NoLine pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Geometria *i* . NoLine onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula NoLine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula NoLine pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

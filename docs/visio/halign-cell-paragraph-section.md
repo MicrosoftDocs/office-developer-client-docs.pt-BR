@@ -34,13 +34,13 @@ A opção Justificar adiciona espaço entre as palavras em todas as linhas, com 
   
 A opção Forçar justificado alinha todas as linhas no parágrafo, inclusive a última.
   
-Para obter uma referência à célula HAlign pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula HAlign pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Para.HorzAlign [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
    
-Para obter uma referência à célula HAlign pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula HAlign pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

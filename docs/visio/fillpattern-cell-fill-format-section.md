@@ -24,13 +24,13 @@ Determina o padrão de preenchimento da forma. Para especificar um padrão de pr
 |:-----|:-----|
 |0  <br/> |Nenhum (preenchimento transparente).  <br/> |
 |1  <br/> |Cor do primeiro plano sólida.  <br/> |
-|2 - 40  <br/> |Padrões de preenchimento variados correspondentes a entradas indexadas na caixa de diálogo **preenchimento** .  <br/> |
+|2 - 40  <br/> |Padrões de preenchimento variados correspondentes a entradas indexadas na caixa de diálogo **Preenchimento**.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor utilizando a caixa de diálogo **preenchimento** (na guia **página inicial** , no grupo **forma** , clique em **preenchimento** e, em seguida, clique em **Opções de preenchimento**).
+Você pode também definir o valor utilizando a caixa de diálogo **Preenchimento** (na guia **Página Inicial**, no grupo **Forma**, clique em **Preenchimento** e em **Opções de preenchimento**).
   
-Para obter uma referência para a célula FillPattern pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula FillPattern pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

@@ -18,7 +18,7 @@ ms.locfileid: "19773094"
 
 Especifica a largura do controle guia página de uma janela de desenho (como uma fração da largura total da janela de desenho).
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

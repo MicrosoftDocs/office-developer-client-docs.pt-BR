@@ -1,5 +1,5 @@
 ---
-title: Célula GlowSize (seção Propriedades do efeito adicionais)
+title: Célula GlowSize (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771977"
 ---
-# <a name="glowsize-cell-additional-effect-properties-section"></a>Célula GlowSize (seção Propriedades do efeito adicionais)
+# <a name="glowsize-cell-additional-effect-properties-section"></a>Célula GlowSize (Seção Additional Effect Properties)
 
 Determina o tamanho do brilho externo de uma forma em pontos. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **GlowSize** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

@@ -22,13 +22,13 @@ Representa uma sequência de texto descritiva exibida como uma dica de ferrament
   
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula Tip pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Tip pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Controles.  *nome* . Controles de Tipwhere.  *nome* é o nome da linha controles.  <br/> |
    
-Para obter uma referência à célula Tip pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Tip pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

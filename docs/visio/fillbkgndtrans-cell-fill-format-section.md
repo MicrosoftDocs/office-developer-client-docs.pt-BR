@@ -22,15 +22,17 @@ Determina o nível de transparência para a cor do plano de fundo (preenchimento
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|
+          0 - 100
+  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma forma com preenchimento completamente transparente tenha a mesma aparência de uma forma sem preenchimento na página de desenho, ela irá interagir com os outros objetos da página da mesma forma que se a transparência fosse 0%.
   
-Você também pode definir o valor utilizando o controle deslizante na caixa de diálogo **preenchimento** (na guia **página inicial** , no grupo **forma** , clique em **preenchimento**e, em seguida, clique em **Opções de preenchimento**). Esse valor controla o valor das transparências de preenchimento de primeiro plano e plano de fundo. Para definir esses valores de forma independente, você deverá inseri-los na janela ShapeSheet.
+Você pode também definir o valor utilizando o controle deslizante na caixa de diálogo **Preenchimento** (na guia **Página Inicial**, no grupo **Forma**, clique em **Preenchimento** e em **Opções de preenchimento**). Esse valor controla o valor das transparências de preenchimento do primeiro plano e do plano de fundo. Para definir os valores independentemente, insira-os na janela ShapeSheet.
   
-Para obter uma referência para a célula FillBkgndTrans pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula FillBkgndTrans pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

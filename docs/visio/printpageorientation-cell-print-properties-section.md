@@ -26,17 +26,17 @@ Determina se a página será impressa na orientação retrato ou paisagem.
 | 1  <br/> | Retrato  <br/> |**visPPOPortrait** <br/> |
 |2  <br/> |Paisagem  <br/> |**visPPOLandscape** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Quando você insere novas páginas em um documento, essa configuração padrão é a configuração da página ativa.
   
-Para obter uma referência à célula PrintPageOrientation pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula PrintPageOrientation pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | PrintPageOrientation  <br/> |
    
-Para obter uma referência à célula PrintPageOrientation pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula PrintPageOrientation pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   
 |||
 |:-----|:-----|

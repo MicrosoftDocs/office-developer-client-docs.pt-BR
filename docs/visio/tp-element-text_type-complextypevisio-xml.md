@@ -18,7 +18,7 @@ ms.locfileid: "19773165"
 
 Especifica o início de propriedades guias executar. A execução é definida para o final do texto ou até que a próxima marca.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

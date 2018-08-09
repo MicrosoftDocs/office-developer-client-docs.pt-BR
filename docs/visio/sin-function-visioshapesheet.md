@@ -18,7 +18,9 @@ ms.locfileid: "19772979"
 ---
 # <a name="sin-function-visioshapesheet"></a>Função SIN (VisioShapeSheet)
 
-Retorna o seno de um ângulo. 
+Retorna o seno de um ângulo.
+    
+ 
   
 ## <a name="syntax"></a>Sintaxe
 
@@ -32,13 +34,13 @@ SIN (* * *ângulo* * *)
    
 ### <a name="return-value"></a>Valor retornado
 
-Número
+Number
   
 ## <a name="remarks"></a>Comentários
 
 A função SIN usa radianos, a menos que você especifique uma unidade de medida diferente em _angle_.
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 SIN(45 graus) 
   

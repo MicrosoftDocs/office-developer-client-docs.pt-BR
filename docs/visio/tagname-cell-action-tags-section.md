@@ -27,13 +27,13 @@ Nome da marca de ação usada como chave para associar a marca de ação a suas 
 
  A célula TagName na seção Action Tags funciona em conjunto com a célula TagName na seção Actions para associar uma marca de ação a suas ações. Linhas na seção Actions também têm uma célula TagName e as linhas com o mesmo valor da célula TagName como essa célula definem ações a serem tomadas para esta marca de ação. 
   
-Para obter uma referência à célula TagName pelo nome, a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para fazer referência à célula TagName pelo nome, de outra fórmula ou programa, usando a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | Marcas inteligentes.  *nome* . TagName onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
    
-Para obter uma referência à célula TagName pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula TagName pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

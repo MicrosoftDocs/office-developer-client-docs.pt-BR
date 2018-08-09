@@ -22,15 +22,17 @@ Determina o nível de transparência da cor da linha de uma forma.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|
+          0 - 100
+  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma forma com uma cor de linha completamente transparente tenha a mesma aparência de uma forma sem linhas na página de desenho, ela irá interagir com os outros objetos da página da mesma forma que se a transparência fosse 0%. 
   
-Você também pode definir esse valor usando o controle deslizante na caixa de diálogo **linha** (na guia **página inicial** , no grupo **forma** , clique em **linha**, aponte para **espessura**e, em seguida, clique em **Mais linhas**).
+Também é possível definir esse valor utilizando o controle deslizante na caixa de diálogo **Linha** (na guia **Página Inicial**, no grupo **Forma**, clique em **Linha**, aponte para **Espessura** e clique em **Mais Linhas**).
   
-Para obter uma referência para a célula LineColorTrans pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineColorTrans pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

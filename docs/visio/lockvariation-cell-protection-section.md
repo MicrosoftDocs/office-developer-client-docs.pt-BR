@@ -1,5 +1,5 @@
 ---
-title: Célula LockVariation (seção Protection)
+title: Célula LockVariation (Seção Protection)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772287"
 ---
-# <a name="lockvariation-cell-protection-section"></a>Célula LockVariation (seção Protection)
+# <a name="lockvariation-cell-protection-section"></a>Célula LockVariation (Seção Protection)
 
 Determina se a variação de tema aplicada à página ou forma pode ser alterada, como um valor booleano.
   
@@ -23,7 +23,7 @@ Determina se a variação de tema aplicada à página ou forma pode ser alterada
 |VERDADEIRO  <br/> |A variação atual aplicada à forma ou página não pode ser alterada.  <br/> |
 |FALSO  <br/> |A variação da página ou forma pode ser alterada.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **LockVariation** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

@@ -24,15 +24,15 @@ Especifica o ângulo de direção oblíqua da sombra de uma forma.
 
 Um valor zero (0) nesta célula indica que a direção do ângulo é reta, para cima, e é medido no sentido horário.
   
-Esse valor corresponde ao valor na configuração **direção** na caixa de diálogo **sombra** (na guia **página inicial** , no grupo **forma** , clique em **sombra**e, em seguida, clique em **Opções de sombra**).
+Esse valor corresponde ao valor existente na configuração **Direção** na caixa de diálogo **Sombra** (na guia **Página Inicial**, do grupo **Forma**, clique em **Sombra** e em **Opções de sombra**).
   
-Para obter uma referência para a célula ShapeShdwObliqueAngle pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShapeShdwObliqueAngle pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | ShapeShdwObliqueAngle  <br/> |
    
-Para obter uma referência para a célula ShapeShdwObliqueAngle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShapeShdwObliqueAngle pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

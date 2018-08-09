@@ -1,5 +1,5 @@
 ---
-title: Seção de propriedades do tema
+title: Seção Theme Properties
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773129"
 ---
-# <a name="theme-properties-section"></a>Seção de propriedades do tema
+# <a name="theme-properties-section"></a>Seção Theme Properties
 
 Mostra os valores de índice do tema atualmente é aplicada ao documento, incluindo cores, fontes, conector e valores de efeitos. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você pode definir valores de tema na guia **Design** ou fazendo alterações nas células na seção **Propriedades do tema** do ShapeSheet. 
   

@@ -20,15 +20,15 @@ ms.locfileid: "19773187"
 
 Determina o ângulo de rotação em relação a *x* atual do bloco de texto-eixo da forma. O padrão é 0 grau. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Para obter uma referência à célula TxtAngle pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula TxtAngle pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | TxtAngle  <br/> |
    
-Para obter uma referência à célula TxtAngle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula TxtAngle pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

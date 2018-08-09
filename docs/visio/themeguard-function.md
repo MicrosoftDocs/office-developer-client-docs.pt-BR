@@ -26,7 +26,7 @@ THEMEGUARD()
 
 Aplicando a função THEMEGUARD a uma célula não protege contra a formatação manual da mesma maneira que aplicando o protetor de função faz. Se você aplicar formatação à forma na interface do usuário ou programaticamente, por meio da automação, a fórmula THEMEGUARD é substituída, a menos que você inclua a função SETATREFEXPR na fórmula para armazenar o valor de formatação de manual. 
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 ```vb
 Shape.FillForegnd = THEMEGUARD(THEME("AccentColor2")

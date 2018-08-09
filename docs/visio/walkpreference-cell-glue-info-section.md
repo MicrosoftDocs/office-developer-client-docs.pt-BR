@@ -29,13 +29,13 @@ Determina se um ponto de extremidade de uma forma 1D será movido para um ponto 
 
 Esta célula não tem efeito em conectores dinâmicos. Um comportamento de um conector dinâmico é determinado pelo seu estilo de roteamento. Verifique a célula RouteStyle para obter o estilo de roteamento padrão para conectores dinâmicos em uma página ou a célula ShapeRouteStyle para obter o estilo de roteamento de um determinado conector dinâmico.
   
-Para obter uma referência à célula WalkPreference pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para fazer referência à célula WalkPreference pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 | Nome da célula:  <br/> | WalkPreference  <br/> |
    
-Para obter uma referência à célula WalkPreference pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula WalkPreference pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -18,7 +18,7 @@ ms.locfileid: "19772801"
 
 Contém as células para as formas ou os estilos que controlam o alinhamento e a posição de paradas de tabulação.
   
-## <a name="element-information"></a>Informações de elemento
+## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|

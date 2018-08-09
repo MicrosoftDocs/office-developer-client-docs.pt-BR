@@ -34,7 +34,7 @@ COMPR (* * *texto* * *)
 
 Numérico
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 LEN ("Seattle, WA") 
   

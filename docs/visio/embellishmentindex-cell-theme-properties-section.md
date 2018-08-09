@@ -1,5 +1,5 @@
 ---
-title: Célula EmbellishmentIndex (seção Propriedades do tema)
+title: Célula EmbellishmentIndex (Seção Theme Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19771791"
 ---
-# <a name="embellishmentindex-cell-theme-properties-section"></a>Célula EmbellishmentIndex (seção Propriedades do tema)
+# <a name="embellishmentindex-cell-theme-properties-section"></a>Célula EmbellishmentIndex (Seção Theme Properties)
 
 Altera a aparência (ornamentos) das formas de organograma, recipientes, cronogramas e textos explicativos.
   

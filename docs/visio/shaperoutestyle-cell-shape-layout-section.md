@@ -22,7 +22,7 @@ Determina o estilo de roteamento e a direção de um conector selecionado na pá
   
 |**Valor**|**Estilo de roteamento**|**Direction**|**Constante de automação**|
 |:-----|:-----|:-----|:-----|
-|0  <br/> |Utilizar padrão de página  <br/> |None  <br/> |**visLORouteDefault** <br/> |
+|0  <br/> |Utilizar padrão de página  <br/> |Nenhum  <br/> |**visLORouteDefault** <br/> |
 |1  <br/> |Ângulo direito  <br/> |Nenhuma  <br/> |**visLORouteRightAngle** <br/> |
 |2  <br/> |Reto  <br/> |Nenhuma  <br/> |**visLORouteStraight** <br/> |
 |3  <br/> |Organograma  <br/> |De cima para baixo  <br/> |**visLORouteOrgChartNS** <br/> |
@@ -46,7 +46,7 @@ Determina o estilo de roteamento e a direção de um conector selecionado na pá
 |21  <br/> |Horizontal-vertical simples  <br/> |Nenhuma  <br/> |**visLORouteSimpleHV** <br/> |
 |22  <br/> |Vertical-horizontal simples  <br/> |Nenhuma  <br/> |**visLORouteSimpleVH** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Você também pode definir o valor dessa célula para um determinado conector na guia **conector** na caixa de diálogo **comportamento** (com um conector selecionado, clique em **comportamento** , na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, clique na guia **conector** ). 
   
@@ -54,13 +54,13 @@ Para definir esse comportamento para *todos* os conectores em uma página, use a
   
 Nas versões anteriores ao Visio 2000, é possível utilizar a célula ObjBehavior, na seção Miscellaneous, para definir esse comportamento.
   
-Para obter uma referência para a célula ShapeRouteStyle pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula ShapeRouteStyle pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |ShapeRouteStyle  <br/> |
    
-Para obter uma referência para a célula ShapeRouteStyle pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ShapeRouteStyle pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

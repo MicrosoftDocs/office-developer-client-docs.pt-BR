@@ -1,0 +1,45 @@
+---
+title: Função SUM
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm82251501
+localization_priority: Normal
+ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
+description: Retorna a soma de uma lista de números.
+ms.openlocfilehash: a64de440868c055ed917b7646a7c1d81318e3eff
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19773083"
+---
+# <a name="sum-function"></a>Função SUM
+
+Retorna a soma de uma lista de números.
+  
+## <a name="syntax"></a>Sintaxe
+
+Soma (* * *Número1* * *, * * *número2* * *,..., * * *[numberN]* * *) 
+  
+### <a name="parameters"></a>Parâmetros
+
+|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|:-----|:-----|:-----|:-----|
+| _Número1_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O primeiro número.  <br/> |
+| _Número2_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O segundo número.  <br/> |
+| _numberN_ <br/> |Opcional  <br/> |**Numérico** <br/> |O enésimo número.  <br/> |
+   
+### <a name="return-value"></a>Valor retornado
+
+Numérico
+  
+## <a name="example"></a>Exemplo
+
+SUM(5,7,12)
+  
+Retornará 24.
+  
+

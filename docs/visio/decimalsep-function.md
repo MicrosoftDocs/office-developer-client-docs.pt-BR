@@ -24,7 +24,7 @@ Retorna a cadeia de caracteres de separador decimal para a localidade do usuári
 
 DECIMALSEP( )
   
-## <a name="example"></a>Example
+## <a name="example"></a>Exemplo
 
 SETF(GETREF(User.Size), user.wholePart &amp; DECIMALSEP() &amp; user.fracPart) 
   

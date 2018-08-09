@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773203"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>Digitar uma Nova Fórmula para uma Célula
+# <a name="type-a-new-formula-for-a-cell"></a>Definir uma nova fórmula para uma célula
 
 1. Selecione a célula.
     

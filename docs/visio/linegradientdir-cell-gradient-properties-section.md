@@ -1,5 +1,5 @@
 ---
-title: Célula LineGradientDir (seção Propriedades de gradiente)
+title: Célula LineGradientDir (Seção Gradient Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772204"
 ---
-# <a name="linegradientdir-cell-gradient-properties-section"></a>Célula LineGradientDir (seção Propriedades de gradiente)
+# <a name="linegradientdir-cell-gradient-properties-section"></a>Célula LineGradientDir (Seção Gradient Properties)
 
 Determina a direção do gradiente linha. Um gradiente pode ser linear, radial, retangular ou seguem um caminho. 
   
@@ -28,7 +28,7 @@ Determina a direção do gradiente linha. Um gradiente pode ser linear, radial, 
 |8-12  <br/> |Gradientes retangulares. Estende o gradiente como uma linha direcional de uma origem com um esmaecer retangular.  <br/> |
 |13  <br/> |Gradiente de caminho.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **LineGradientDir** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

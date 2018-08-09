@@ -31,15 +31,15 @@ Determina se a marcação é exibida na janela de desenho.
   
 A célula ViewMarkup também é definida como VERDADEIRO quando são inseridos comentários em um desenho (independente de o rastreamento de marcação estar ativado ou não) e precisa ser VERDADEIRO para que os comentários sejam exibidos no desenho.
   
-Essa célula corresponde ao comando **Mostrar marcação** no grupo **marcação** na guia **revisão** . 
+Essa célula corresponde à configuração de comando **Mostrar Marcação** no grupo **Marcação** na guia **Revisão**. 
   
-Para obter uma referência à célula ViewMarkup pelo nome a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para obter uma referência à célula ViewMarkup pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |ViewMarkup  <br/> |
    
-Para obter uma referência à célula ViewMarkup pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula ViewMarkup pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

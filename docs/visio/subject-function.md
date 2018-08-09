@@ -26,6 +26,6 @@ Retorna o texto do campo **assunto** das propriedades de um documento.
   
 ### <a name="return-value"></a>Valor retornado
 
-Cadeia de caracteres
+String
   
 

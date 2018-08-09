@@ -29,11 +29,11 @@ Determina os conectores aos quais você deseja adicionar saltos.
 |4  <br/> |Última linha exibida (primeira forma na *z* -ordem)  <br/> |**visPLOJumpDisplayOrder** <br/> |
 |5  <br/> |Primeira linha exibida (forma no fim de a *z* -ordem)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
-Você também pode definir o valor dessa célula na guia **Layout e roteamento** na caixa de diálogo **Configurar página** (na guia **Design** , clique na seta **Configurar página** e, em seguida, clique em **Layout e roteamento**).
+Também é possível definir o valor dessa célula na guia **Layout e Direcionamento** na caixa de diálogo **Configurar Página** (na guia **Design** clique na seta **Configurar Página** e em **Layout e Direcionamento**).
   
-Para obter uma referência para a célula LineJumpCode pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LineJumpCode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

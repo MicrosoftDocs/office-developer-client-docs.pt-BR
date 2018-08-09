@@ -1,5 +1,5 @@
 ---
-title: Célula DocLockReplace (seção Document Properties)
+title: Célula DocLockReplace (Seção Document Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771763"
 ---
-# <a name="doclockreplace-cell-document-properties-section"></a>Célula DocLockReplace (seção Document Properties)
+# <a name="doclockreplace-cell-document-properties-section"></a>Célula DocLockReplace (Seção Document Properties)
 
 Determina se a forma de substituição da interface do usuário deve ser desabilitada para este documento. 
   
@@ -23,7 +23,7 @@ Determina se a forma de substituição da interface do usuário deve ser desabil
 |VERDADEIRO  <br/> |Botão **Substituir forma** estiver esmaecido na interface de usuário.  <br/> |
 |FALSO  <br/> |Botão **Substituir forma** está ativo na interface de usuário. Os usuários podem usar o recurso de forma substituir neste documento.  <br/> |
    
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para fazer referência à célula **DocLockReplace** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize: 
   

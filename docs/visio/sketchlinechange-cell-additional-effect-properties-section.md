@@ -1,5 +1,5 @@
 ---
-title: Célula SketchLineChange (seção Propriedades do efeito adicionais)
+title: Célula SketchLineChange (Seção Additional Effect Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772997"
 ---
-# <a name="sketchlinechange-cell-additional-effect-properties-section"></a>Célula SketchLineChange (seção Propriedades do efeito adicionais)
+# <a name="sketchlinechange-cell-additional-effect-properties-section"></a>Célula SketchLineChange (Seção Additional Effect Properties)
 
 Determina a quantidade de randomização da linha da forma da geometria da forma ao usar um efeito de esboço, como um percentual do tamanho de uma seção. Se o valor da célula **SketchLineChange** é definido como 0%, a geometria de linha da forma faz a correspondência de geometria da forma. Se o valor é 100%, a geometria de linha da forma não seguem a geometria da forma. 
   
-## <a name="remarks"></a>Coment�rios
+## <a name="remarks"></a>Comentários
 
 Para obter melhores resultados, o intervalo de valores para a célula **SketchLineChange** ideal está entre 15% e 50%. Um valor abaixo de 15% é quase não perceptível; um valor maior do que 50% pôde tornar aleatório a linha muito grande. 
   

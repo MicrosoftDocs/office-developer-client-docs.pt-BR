@@ -27,7 +27,7 @@ Protege os vértices de uma forma impedindo-a de ser editada.
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula LockVtxEdit pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula LockVtxEdit pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|

@@ -22,21 +22,23 @@ Determina o nível de transparência para a cor do plano de fundo do bloco de te
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0 - 100  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
+|
+          0 - 100
+  <br/> |Representa a porcentagem de transparência. O padrão é 0% (completamente opaco).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 Os valores são arredondados para o meio por cento mais próximo. Um valor de 100% é completamente transparente. Embora uma forma com um plano de fundo de texto completamente transparente tenha a mesma aparência de uma forma sem plano de fundo de texto na página de desenho, ela interage com os outros objetos da página da mesma forma que se a transparência fosse 0%.
   
-Você também pode definir o valor utilizando o controle deslizante na guia **fonte** da caixa de diálogo **texto** (na guia **página inicial** , clique na seta **fonte** ). 
+Você pode também definir o valor utilizando o controle deslizante na guia **Fonte** da caixa de diálogo **Texto** (na guia **Página Inicial**, clique na seta **Fonte**). 
   
-Para obter uma referência para a célula TextBkgndTrans pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize: 
+Para obter uma referência para a célula TextBkgndTrans pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
 |Nome da célula:  <br/> |TextBkgndTrans  <br/> |
    
-Para obter uma referência para a célula TextBkgndTrans pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula TextBkgndTrans pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
