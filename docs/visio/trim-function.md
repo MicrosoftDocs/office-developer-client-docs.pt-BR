@@ -16,32 +16,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773188"
 ---
-# <a name="trim-function"></a><span data-ttu-id="938ed-103">Função TRIM</span><span class="sxs-lookup"><span data-stu-id="938ed-103">TRIM Function</span></span>
+# <a name="trim-function"></a><span data-ttu-id="4b877-103">Função TRIM</span><span class="sxs-lookup"><span data-stu-id="4b877-103">TRIM Function</span></span>
 
-<span data-ttu-id="938ed-104">Remove todo o espaço do texto, com exceção de espaços simples entre palavras.</span><span class="sxs-lookup"><span data-stu-id="938ed-104">Removes all space from text, except for single spaces between words.</span></span> 
+<span data-ttu-id="4b877-104">Remove todo o espaço do texto, com exceção de espaços simples entre palavras.</span><span class="sxs-lookup"><span data-stu-id="4b877-104">Removes all space from text, except for single spaces between words.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="938ed-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="938ed-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b877-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4b877-105">Syntax</span></span>
 
-<span data-ttu-id="938ed-106">TRIM (* * *texto* * *)</span><span class="sxs-lookup"><span data-stu-id="938ed-106">TRIM (** *text* ** )</span></span> 
+<span data-ttu-id="4b877-106">TRIM (* * *texto* * *)</span><span class="sxs-lookup"><span data-stu-id="4b877-106">TRIM (** *text* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="938ed-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="938ed-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="4b877-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="4b877-107">Parameters</span></span>
 
-|<span data-ttu-id="938ed-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="938ed-108">**Name**</span></span>|<span data-ttu-id="938ed-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="938ed-109">**Required/Optional**</span></span>|<span data-ttu-id="938ed-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="938ed-110">**Data Type**</span></span>|<span data-ttu-id="938ed-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="938ed-111">**Description**</span></span>|
+|<span data-ttu-id="4b877-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="4b877-108">**Name**</span></span>|<span data-ttu-id="4b877-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="4b877-109">**Required/Optional**</span></span>|<span data-ttu-id="4b877-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="4b877-110">**Data Type**</span></span>|<span data-ttu-id="4b877-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4b877-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="938ed-112">_text_</span><span class="sxs-lookup"><span data-stu-id="938ed-112">_text_</span></span> <br/> |<span data-ttu-id="938ed-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="938ed-113">Required</span></span>  <br/> |<span data-ttu-id="938ed-114">**String**</span><span class="sxs-lookup"><span data-stu-id="938ed-114">**String**</span></span> <br/> |<span data-ttu-id="938ed-115">O texto em que os espaços devem ser removidos.</span><span class="sxs-lookup"><span data-stu-id="938ed-115">The text from which you want to remove spaces.</span></span>  <br/> |
+| <span data-ttu-id="4b877-112">_text_</span><span class="sxs-lookup"><span data-stu-id="4b877-112">_text_</span></span> <br/> |<span data-ttu-id="4b877-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="4b877-113">Required</span></span>  <br/> |<span data-ttu-id="4b877-114">**String**</span><span class="sxs-lookup"><span data-stu-id="4b877-114">**String**</span></span> <br/> |<span data-ttu-id="4b877-115">O texto em que os espaços devem ser removidos.</span><span class="sxs-lookup"><span data-stu-id="4b877-115">The text from which you want to remove spaces.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="938ed-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="938ed-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4b877-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="4b877-116">Return value</span></span>
 
-<span data-ttu-id="938ed-117">Cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="938ed-117">String</span></span>
+<span data-ttu-id="4b877-117">String</span><span class="sxs-lookup"><span data-stu-id="4b877-117">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="938ed-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="938ed-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4b877-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="4b877-118">Remarks</span></span>
 
-<span data-ttu-id="938ed-119">Você pode usar a função TRIM no texto recebido de outro aplicativo que tenha espaçamento irregular.</span><span class="sxs-lookup"><span data-stu-id="938ed-119">You can use the TRIM function on text that you have received from another application that may have irregular spacing.</span></span>
+<span data-ttu-id="4b877-119">Você pode usar a função TRIM no texto recebido de outro aplicativo que tenha espaçamento irregular.</span><span class="sxs-lookup"><span data-stu-id="4b877-119">You can use the TRIM function on text that you have received from another application that may have irregular spacing.</span></span>
   
-## <a name="example"></a><span data-ttu-id="938ed-120">Example</span><span class="sxs-lookup"><span data-stu-id="938ed-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4b877-120">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4b877-120">Example</span></span>
 
-<span data-ttu-id="938ed-121">TRIM ("1 de janeiro de 2003")</span><span class="sxs-lookup"><span data-stu-id="938ed-121">TRIM ("January 1, 2003 ")</span></span> 
+<span data-ttu-id="4b877-121">TRIM ("1 de janeiro de 2003")</span><span class="sxs-lookup"><span data-stu-id="4b877-121">TRIM ("January 1, 2003 ")</span></span> 
   
-<span data-ttu-id="938ed-122">Retornará "January 1, 2003".</span><span class="sxs-lookup"><span data-stu-id="938ed-122">Returns "January 1, 2003".</span></span> 
+<span data-ttu-id="4b877-122">Retornará "January 1, 2003".</span><span class="sxs-lookup"><span data-stu-id="4b877-122">Returns "January 1, 2003".</span></span> 
   
 

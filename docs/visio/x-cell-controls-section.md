@@ -16,24 +16,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773302"
 ---
-# <a name="x-cell-controls-section"></a><span data-ttu-id="f72c4-103">Célula X (Seção Controls)</span><span class="sxs-lookup"><span data-stu-id="f72c4-103">X Cell (Controls Section)</span></span>
+# <a name="x-cell-controls-section"></a><span data-ttu-id="0483a-103">Célula X Cell (Seção Controls)</span><span class="sxs-lookup"><span data-stu-id="0483a-103">X Cell (Controls Section)</span></span>
 
-<span data-ttu-id="f72c4-104">Representa o *x* -coordenada que indica a localização da alça de controle de uma forma em coordenadas locais.</span><span class="sxs-lookup"><span data-stu-id="f72c4-104">Represents the  *x*  -coordinate that indicates the location of a shape's control handle in local coordinates.</span></span> 
+<span data-ttu-id="0483a-104">Representa o *x* -coordenada que indica a localização da alça de controle de uma forma em coordenadas locais.</span><span class="sxs-lookup"><span data-stu-id="0483a-104">Represents the  *x*  -coordinate that indicates the location of a shape's control handle in local coordinates.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f72c4-105">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="f72c4-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0483a-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="0483a-105">Remarks</span></span>
 
-<span data-ttu-id="f72c4-106">Para obter uma referência à célula X pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="f72c4-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="0483a-106">Para fazer referência à célula X pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="0483a-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f72c4-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="f72c4-107">Cell name:</span></span>  <br/> | <span data-ttu-id="f72c4-108">Controles.</span><span class="sxs-lookup"><span data-stu-id="f72c4-108">Controls.</span></span>  <span data-ttu-id="f72c4-109">*nome* . X, onde controla.</span><span class="sxs-lookup"><span data-stu-id="f72c4-109">*name*  .X where Controls.</span></span>  <span data-ttu-id="f72c4-110">*nome* é o nome da linha controles.</span><span class="sxs-lookup"><span data-stu-id="f72c4-110">*name*  is the name of the controls row.</span></span>  <br/> |
+| <span data-ttu-id="0483a-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="0483a-107">Cell name:</span></span>  <br/> | <span data-ttu-id="0483a-108">Controles.</span><span class="sxs-lookup"><span data-stu-id="0483a-108">Controls.</span></span>  <span data-ttu-id="0483a-109">*nome* . X, onde controla.</span><span class="sxs-lookup"><span data-stu-id="0483a-109">*name*  .X where Controls.</span></span>  <span data-ttu-id="0483a-110">*nome* é o nome da linha controles.</span><span class="sxs-lookup"><span data-stu-id="0483a-110">*name*  is the name of the controls row.</span></span>  <br/> |
    
-<span data-ttu-id="f72c4-111">Para obter uma referência à célula X pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="f72c4-111">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="0483a-111">Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="0483a-111">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f72c4-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="f72c4-112">Section index:</span></span>  <br/> |<span data-ttu-id="f72c4-113">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="f72c4-113">**visSectionControls**</span></span> <br/> |
-| <span data-ttu-id="f72c4-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="f72c4-114">Row index:</span></span>  <br/> |<span data-ttu-id="f72c4-115">**visRowControl** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="f72c4-115">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="f72c4-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="f72c4-116">Cell index:</span></span>  <br/> |<span data-ttu-id="f72c4-117">**visCtlX**</span><span class="sxs-lookup"><span data-stu-id="f72c4-117">**visCtlX**</span></span> <br/> |
+| <span data-ttu-id="0483a-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="0483a-112">Section index:</span></span>  <br/> |<span data-ttu-id="0483a-113">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="0483a-113">**visSectionControls**</span></span> <br/> |
+| <span data-ttu-id="0483a-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="0483a-114">Row index:</span></span>  <br/> |<span data-ttu-id="0483a-115">**visRowControl** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="0483a-115">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="0483a-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="0483a-116">Cell index:</span></span>  <br/> |<span data-ttu-id="0483a-117">**visCtlX**</span><span class="sxs-lookup"><span data-stu-id="0483a-117">**visCtlX**</span></span> <br/> |
    
 

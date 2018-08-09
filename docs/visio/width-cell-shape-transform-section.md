@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773278"
 ---
-# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="38b1b-104">Célula Width (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="38b1b-104">Width Cell (Shape Transform Section)</span></span>
+# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="289f2-104">Célula Width (Seção Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="289f2-104">Width Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="38b1b-p102">Contém a largura da forma selecionada em unidades de desenho. A fórmula padrão para determinar a largura de uma forma 1D é:</span><span class="sxs-lookup"><span data-stu-id="38b1b-p102">Contains the width of the selected shape in drawing units. The default formula for determining the width of a 1-D shape is:</span></span>
+<span data-ttu-id="289f2-p102">Contém a largura da forma selecionada em unidades de desenho. A fórmula padrão para determinar a largura de uma forma 1D é:</span><span class="sxs-lookup"><span data-stu-id="289f2-p102">Contains the width of the selected shape in drawing units. The default formula for determining the width of a 1-D shape is:</span></span>
   
-<span data-ttu-id="38b1b-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="38b1b-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
+<span data-ttu-id="289f2-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="289f2-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="38b1b-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="38b1b-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="289f2-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="289f2-108">Remarks</span></span>
 
-<span data-ttu-id="38b1b-109">Para obter uma referência à célula Width pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="38b1b-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="289f2-109">Para fazer referência à célula Width pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="289f2-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="38b1b-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="38b1b-110">Cell name:</span></span>  <br/> | <span data-ttu-id="38b1b-111">Width</span><span class="sxs-lookup"><span data-stu-id="38b1b-111">Width</span></span>  <br/> |
+| <span data-ttu-id="289f2-110">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="289f2-110">Cell name:</span></span>  <br/> | <span data-ttu-id="289f2-111">Width</span><span class="sxs-lookup"><span data-stu-id="289f2-111">Width</span></span>  <br/> |
    
-<span data-ttu-id="38b1b-112">Para obter uma referência à célula Width pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="38b1b-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="289f2-112">Para fazer referência à célula Width pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="289f2-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="38b1b-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="38b1b-113">Section index:</span></span>  <br/> |<span data-ttu-id="38b1b-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="38b1b-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="38b1b-115">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="38b1b-115">Row index:</span></span>  <br/> |<span data-ttu-id="38b1b-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="38b1b-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="38b1b-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="38b1b-117">Cell index:</span></span>  <br/> |<span data-ttu-id="38b1b-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="38b1b-118">**visXFormWidth**</span></span> <br/> |
+| <span data-ttu-id="289f2-113">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="289f2-113">Section index:</span></span>  <br/> |<span data-ttu-id="289f2-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="289f2-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="289f2-115">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="289f2-115">Row index:</span></span>  <br/> |<span data-ttu-id="289f2-116">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="289f2-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="289f2-117">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="289f2-117">Cell index:</span></span>  <br/> |<span data-ttu-id="289f2-118">**visXFormWidth**</span><span class="sxs-lookup"><span data-stu-id="289f2-118">**visXFormWidth**</span></span> <br/> |
    
 

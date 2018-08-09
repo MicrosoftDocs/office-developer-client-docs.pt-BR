@@ -16,16 +16,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773150"
 ---
-# <a name="title-function"></a><span data-ttu-id="b78c1-103">Função TITLE</span><span class="sxs-lookup"><span data-stu-id="b78c1-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="b82d4-103">Função TITLE</span><span class="sxs-lookup"><span data-stu-id="b82d4-103">TITLE Function</span></span>
 
-<span data-ttu-id="b78c1-104">Retorna o texto do campo **cargo** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="b78c1-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="b82d4-104">Retorna o texto do campo **cargo** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="b82d4-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b78c1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b78c1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b82d4-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b82d4-105">Syntax</span></span>
 
-<span data-ttu-id="b78c1-106">TÍTULO (DE)</span><span class="sxs-lookup"><span data-stu-id="b78c1-106">TITLE ()</span></span>
+<span data-ttu-id="b82d4-106">TÍTULO (DE)</span><span class="sxs-lookup"><span data-stu-id="b82d4-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="b78c1-107">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="b78c1-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="b82d4-107">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="b82d4-107">Return value</span></span>
 
-<span data-ttu-id="b78c1-108">Cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="b78c1-108">String</span></span>
+<span data-ttu-id="b82d4-108">String</span><span class="sxs-lookup"><span data-stu-id="b82d4-108">String</span></span>
   
 

@@ -16,28 +16,28 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19772181"
 ---
-# <a name="len-function-visioshapesheet"></a><span data-ttu-id="9eff6-103">Função LEN (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="9eff6-103">LEN Function (VisioShapeSheet)</span></span>
+# <a name="len-function-visioshapesheet"></a><span data-ttu-id="098f0-103">Função LEN (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="098f0-103">LEN Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="9eff6-104">Retorna o número de caracteres em uma cadeia de caracteres de texto.</span><span class="sxs-lookup"><span data-stu-id="9eff6-104">Returns the number of characters in a text string.</span></span>
+<span data-ttu-id="098f0-104">Retorna o número de caracteres em uma cadeia de caracteres de texto.</span><span class="sxs-lookup"><span data-stu-id="098f0-104">Returns the number of characters in a text string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="9eff6-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="9eff6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="098f0-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="098f0-105">Syntax</span></span>
 
-<span data-ttu-id="9eff6-106">COMPR (* * *texto* * *)</span><span class="sxs-lookup"><span data-stu-id="9eff6-106">LEN (** *text* ** )</span></span> 
+<span data-ttu-id="098f0-106">COMPR (* * *texto* * *)</span><span class="sxs-lookup"><span data-stu-id="098f0-106">LEN (** *text* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="9eff6-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="9eff6-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="098f0-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="098f0-107">Parameters</span></span>
 
-|<span data-ttu-id="9eff6-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="9eff6-108">**Name**</span></span>|<span data-ttu-id="9eff6-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="9eff6-109">**Required/Optional**</span></span>|<span data-ttu-id="9eff6-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="9eff6-110">**Data Type**</span></span>|<span data-ttu-id="9eff6-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9eff6-111">**Description**</span></span>|
+|<span data-ttu-id="098f0-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="098f0-108">**Name**</span></span>|<span data-ttu-id="098f0-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="098f0-109">**Required/Optional**</span></span>|<span data-ttu-id="098f0-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="098f0-110">**Data Type**</span></span>|<span data-ttu-id="098f0-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="098f0-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="9eff6-112">_text_</span><span class="sxs-lookup"><span data-stu-id="9eff6-112">_text_</span></span> <br/> |<span data-ttu-id="9eff6-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="9eff6-113">Required</span></span>  <br/> |<span data-ttu-id="9eff6-114">**String**</span><span class="sxs-lookup"><span data-stu-id="9eff6-114">**String**</span></span> <br/> |<span data-ttu-id="9eff6-115">A cadeia de caracteres cujo comprimento você quer localizar.</span><span class="sxs-lookup"><span data-stu-id="9eff6-115">The character string whose length you want to find.</span></span>  <br/> |
+| <span data-ttu-id="098f0-112">_text_</span><span class="sxs-lookup"><span data-stu-id="098f0-112">_text_</span></span> <br/> |<span data-ttu-id="098f0-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="098f0-113">Required</span></span>  <br/> |<span data-ttu-id="098f0-114">**String**</span><span class="sxs-lookup"><span data-stu-id="098f0-114">**String**</span></span> <br/> |<span data-ttu-id="098f0-115">A cadeia de caracteres cujo comprimento você quer localizar.</span><span class="sxs-lookup"><span data-stu-id="098f0-115">The character string whose length you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="9eff6-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="9eff6-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="098f0-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="098f0-116">Return value</span></span>
 
-<span data-ttu-id="9eff6-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="9eff6-117">Numeric</span></span>
+<span data-ttu-id="098f0-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="098f0-117">Numeric</span></span>
   
-## <a name="example"></a><span data-ttu-id="9eff6-118">Example</span><span class="sxs-lookup"><span data-stu-id="9eff6-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="098f0-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="098f0-118">Example</span></span>
 
-<span data-ttu-id="9eff6-119">LEN ("Seattle, WA")</span><span class="sxs-lookup"><span data-stu-id="9eff6-119">LEN ("Seattle, WA")</span></span> 
+<span data-ttu-id="098f0-119">LEN ("Seattle, WA")</span><span class="sxs-lookup"><span data-stu-id="098f0-119">LEN ("Seattle, WA")</span></span> 
   
-<span data-ttu-id="9eff6-120">Retornará 11.</span><span class="sxs-lookup"><span data-stu-id="9eff6-120">Returns 11.</span></span> 
+<span data-ttu-id="098f0-120">Retornará 11.</span><span class="sxs-lookup"><span data-stu-id="098f0-120">Returns 11.</span></span> 
   
 

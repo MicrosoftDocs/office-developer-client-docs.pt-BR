@@ -16,24 +16,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773297"
 ---
-# <a name="x-cell-connection-points-section"></a><span data-ttu-id="f7004-103">Célula X (Seção Connection Points)</span><span class="sxs-lookup"><span data-stu-id="f7004-103">X Cell (Connection Points Section)</span></span>
+# <a name="x-cell-connection-points-section"></a><span data-ttu-id="365ac-103">Célula X Cell (Seção Connection Points)</span><span class="sxs-lookup"><span data-stu-id="365ac-103">X Cell (Connection Points Section)</span></span>
 
-<span data-ttu-id="f7004-104">Representa o *x* -coordenadas de um ponto de conexão em coordenadas locais.</span><span class="sxs-lookup"><span data-stu-id="f7004-104">Represents the  *x*  -coordinate for a connection point in local coordinates.</span></span> 
+<span data-ttu-id="365ac-104">Representa o *x* -coordenadas de um ponto de conexão em coordenadas locais.</span><span class="sxs-lookup"><span data-stu-id="365ac-104">Represents the  *x*  -coordinate for a connection point in local coordinates.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f7004-105">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="f7004-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="365ac-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="365ac-105">Remarks</span></span>
 
-<span data-ttu-id="f7004-106">Para obter uma referência à célula X pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="f7004-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="365ac-106">Para fazer referência à célula X pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="365ac-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f7004-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="f7004-107">Cell name:</span></span>  <br/> | <span data-ttu-id="f7004-108">Connections.X *i* onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="f7004-108">Connections.X  *i*            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="365ac-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="365ac-107">Cell name:</span></span>  <br/> | <span data-ttu-id="365ac-108">Connections.X *i* onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="365ac-108">Connections.X  *i*            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="f7004-109">Para obter uma referência à célula X pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="f7004-109">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="365ac-109">Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="365ac-109">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f7004-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="f7004-110">Section index:</span></span>  <br/> |<span data-ttu-id="f7004-111">**visSectionConnectionPts**</span><span class="sxs-lookup"><span data-stu-id="f7004-111">**visSectionConnectionPts**</span></span> <br/> |
-| <span data-ttu-id="f7004-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="f7004-112">Row index:</span></span>  <br/> |<span data-ttu-id="f7004-113">**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="f7004-113">**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="f7004-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="f7004-114">Cell index:</span></span>  <br/> |<span data-ttu-id="f7004-115">**visX**</span><span class="sxs-lookup"><span data-stu-id="f7004-115">**visX**</span></span> <br/> |
+| <span data-ttu-id="365ac-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="365ac-110">Section index:</span></span>  <br/> |<span data-ttu-id="365ac-111">**visSectionConnectionPts**</span><span class="sxs-lookup"><span data-stu-id="365ac-111">**visSectionConnectionPts**</span></span> <br/> |
+| <span data-ttu-id="365ac-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="365ac-112">Row index:</span></span>  <br/> |<span data-ttu-id="365ac-113">**visRowConnectionPts** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="365ac-113">**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="365ac-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="365ac-114">Cell index:</span></span>  <br/> |<span data-ttu-id="365ac-115">**visX**</span><span class="sxs-lookup"><span data-stu-id="365ac-115">**visX**</span></span> <br/> |
    
 

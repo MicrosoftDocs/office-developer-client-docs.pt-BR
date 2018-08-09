@@ -16,31 +16,31 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19772272"
 ---
-# <a name="lockselect-cell-protection-section"></a><span data-ttu-id="8de29-103">Célula LockSelect (Seção Protection)</span><span class="sxs-lookup"><span data-stu-id="8de29-103">LockSelect Cell (Protection Section)</span></span>
+# <a name="lockselect-cell-protection-section"></a><span data-ttu-id="deada-103">Célula LockSelect (Seção Protection)</span><span class="sxs-lookup"><span data-stu-id="deada-103">LockSelect Cell (Protection Section)</span></span>
 
-<span data-ttu-id="8de29-104">Impede uma forma de ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="8de29-104">Prevents a shape from being selected.</span></span>
+<span data-ttu-id="deada-104">Impede uma forma de ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="deada-104">Prevents a shape from being selected.</span></span>
   
-|<span data-ttu-id="8de29-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="8de29-105">**Value**</span></span>|<span data-ttu-id="8de29-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="8de29-106">**Description**</span></span>|
+|<span data-ttu-id="deada-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="deada-105">**Value**</span></span>|<span data-ttu-id="deada-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="deada-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="8de29-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="8de29-107">TRUE</span></span>  <br/> | <span data-ttu-id="8de29-108">A forma não pode ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="8de29-108">Shape cannot be selected.</span></span>  <br/> |
-| <span data-ttu-id="8de29-109">FALSO</span><span class="sxs-lookup"><span data-stu-id="8de29-109">FALSE</span></span>  <br/> | <span data-ttu-id="8de29-110">A forma pode ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="8de29-110">Shape can be selected.</span></span>  <br/> |
+| <span data-ttu-id="deada-107">VERDADEIRO</span><span class="sxs-lookup"><span data-stu-id="deada-107">TRUE</span></span>  <br/> | <span data-ttu-id="deada-108">A forma não pode ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="deada-108">Shape cannot be selected.</span></span>  <br/> |
+| <span data-ttu-id="deada-109">FALSO</span><span class="sxs-lookup"><span data-stu-id="deada-109">FALSE</span></span>  <br/> | <span data-ttu-id="deada-110">A forma pode ser selecionada.</span><span class="sxs-lookup"><span data-stu-id="deada-110">Shape can be selected.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8de29-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="8de29-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="deada-111">Comentários</span><span class="sxs-lookup"><span data-stu-id="deada-111">Remarks</span></span>
 
-<span data-ttu-id="8de29-112">Em ordem para a célula LockSelect tenha efeito, a caixa de seleção **formas** deve ser selecionada na caixa de diálogo **Proteger documento** .</span><span class="sxs-lookup"><span data-stu-id="8de29-112">In order for LockSelect to take effect, the **Shapes** check box must be selected in the **Protect Document** dialog box.</span></span> 
+<span data-ttu-id="deada-112">Para que a célula LockSelect tenha efeito, a caixa de seleção **Formas** deve estar marcada na caixa de diálogo **Proteger Documento**.</span><span class="sxs-lookup"><span data-stu-id="deada-112">In order for LockSelect to take effect, the **Shapes** check box must be selected in the **Protect Document** dialog box.</span></span> 
   
-<span data-ttu-id="8de29-113">Para obter uma referência à célula LockSelect pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="8de29-113">To get a reference to the LockSelect cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="deada-113">Para fazer referência à célula LockSelect pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="deada-113">To get a reference to the LockSelect cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8de29-114">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="8de29-114">Cell name:</span></span>  <br/> | <span data-ttu-id="8de29-115">LockSelect</span><span class="sxs-lookup"><span data-stu-id="8de29-115">LockSelect</span></span>  <br/> |
+| <span data-ttu-id="deada-114">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="deada-114">Cell name:</span></span>  <br/> | <span data-ttu-id="deada-115">LockSelect</span><span class="sxs-lookup"><span data-stu-id="deada-115">LockSelect</span></span>  <br/> |
    
-<span data-ttu-id="8de29-116">Para obter uma referência à célula LockSelect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="8de29-116">To get a reference to the LockSelect cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="deada-116">Para fazer referência à célula LockSelect pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="deada-116">To get a reference to the LockSelect cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8de29-117">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="8de29-117">Section index:</span></span>  <br/> |<span data-ttu-id="8de29-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8de29-118">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="8de29-119">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="8de29-119">Row index:</span></span>  <br/> |<span data-ttu-id="8de29-120">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="8de29-120">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="8de29-121">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="8de29-121">Cell index:</span></span>  <br/> |<span data-ttu-id="8de29-122">**visLockSelect**</span><span class="sxs-lookup"><span data-stu-id="8de29-122">**visLockSelect**</span></span> <br/> |
+| <span data-ttu-id="deada-117">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="deada-117">Section index:</span></span>  <br/> |<span data-ttu-id="deada-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="deada-118">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="deada-119">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="deada-119">Row index:</span></span>  <br/> |<span data-ttu-id="deada-120">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="deada-120">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="deada-121">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="deada-121">Cell index:</span></span>  <br/> |<span data-ttu-id="deada-122">**visLockSelect**</span><span class="sxs-lookup"><span data-stu-id="deada-122">**visLockSelect**</span></span> <br/> |
    
 

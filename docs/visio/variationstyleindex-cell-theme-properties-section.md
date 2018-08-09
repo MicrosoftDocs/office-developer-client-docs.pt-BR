@@ -1,5 +1,5 @@
 ---
-title: Célula VariationStyleIndex (seção Propriedades do tema)
+title: Célula VariationStyleIndex (Seção Theme Properties)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773250"
 ---
-# <a name="variationstyleindex-cell-theme-properties-section"></a><span data-ttu-id="87f31-103">Célula VariationStyleIndex (seção Propriedades do tema)</span><span class="sxs-lookup"><span data-stu-id="87f31-103">VariationStyleIndex Cell (Theme Properties Section)</span></span>
+# <a name="variationstyleindex-cell-theme-properties-section"></a><span data-ttu-id="9aad5-103">Célula VariationStyleIndex (Seção Theme Properties)</span><span class="sxs-lookup"><span data-stu-id="9aad5-103">VariationStyleIndex Cell (Theme Properties Section)</span></span>
 
-<span data-ttu-id="87f31-104">Determina o índice de estilo da variação tema ativo na página, como um número inteiro.</span><span class="sxs-lookup"><span data-stu-id="87f31-104">Determines the style index of the active theme variation on the page, as an integer.</span></span>
+<span data-ttu-id="9aad5-104">Determina o índice de estilo da variação tema ativo na página, como um número inteiro.</span><span class="sxs-lookup"><span data-stu-id="9aad5-104">Determines the style index of the active theme variation on the page, as an integer.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="87f31-105">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="87f31-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9aad5-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="9aad5-105">Remarks</span></span>
 
-<span data-ttu-id="87f31-106">Para fazer referência à célula **VariationStyleIndex** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="87f31-106">To get a reference to the **VariationStyleIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="9aad5-106">Para fazer referência à célula **VariationStyleIndex** pelo nome a partir de outra fórmula, pelo valor do atributo **N** de um elemento de **célula** ou um programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="9aad5-106">To get a reference to the **VariationStyleIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="87f31-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="87f31-107">Cell name:</span></span>  <br/> | <span data-ttu-id="87f31-108">VariationStyleIndex</span><span class="sxs-lookup"><span data-stu-id="87f31-108">VariationStyleIndex</span></span>  <br/> |
+| <span data-ttu-id="9aad5-107">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="9aad5-107">Cell name:</span></span>  <br/> | <span data-ttu-id="9aad5-108">VariationStyleIndex</span><span class="sxs-lookup"><span data-stu-id="9aad5-108">VariationStyleIndex</span></span>  <br/> |
    
-<span data-ttu-id="87f31-109">Para obter uma referência à célula **VariationStyleIndex** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="87f31-109">To get a reference to the **VariationStyleIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="9aad5-109">Para obter uma referência à célula **VariationStyleIndex** pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="9aad5-109">To get a reference to the **VariationStyleIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="87f31-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="87f31-110">Section index:</span></span>  <br/> |<span data-ttu-id="87f31-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="87f31-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="87f31-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="87f31-112">Row index:</span></span>  <br/> |<span data-ttu-id="87f31-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="87f31-113">**visRowThemeProperties**</span></span> <br/> |
-| <span data-ttu-id="87f31-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="87f31-114">Cell index:</span></span>  <br/> |<span data-ttu-id="87f31-115">**visVariationStyleIndex**</span><span class="sxs-lookup"><span data-stu-id="87f31-115">**visVariationStyleIndex**</span></span> <br/> |
+| <span data-ttu-id="9aad5-110">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="9aad5-110">Section index:</span></span>  <br/> |<span data-ttu-id="9aad5-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="9aad5-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="9aad5-112">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="9aad5-112">Row index:</span></span>  <br/> |<span data-ttu-id="9aad5-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="9aad5-113">**visRowThemeProperties**</span></span> <br/> |
+| <span data-ttu-id="9aad5-114">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="9aad5-114">Cell index:</span></span>  <br/> |<span data-ttu-id="9aad5-115">**visVariationStyleIndex**</span><span class="sxs-lookup"><span data-stu-id="9aad5-115">**visVariationStyleIndex**</span></span> <br/> |
    
 

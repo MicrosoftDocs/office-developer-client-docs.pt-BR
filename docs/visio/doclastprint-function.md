@@ -16,16 +16,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771735"
 ---
-# <a name="doclastprint-function"></a><span data-ttu-id="a864b-103">Função DOCLASTPRINT</span><span class="sxs-lookup"><span data-stu-id="a864b-103">DOCLASTPRINT Function</span></span>
+# <a name="doclastprint-function"></a><span data-ttu-id="47c53-103">Função DOCLASTPRINT</span><span class="sxs-lookup"><span data-stu-id="47c53-103">DOCLASTPRINT Function</span></span>
 
-<span data-ttu-id="a864b-104">Retorna a data e hora de que um documento foi impresso pela última vez, de como um valor de série.</span><span class="sxs-lookup"><span data-stu-id="a864b-104">Returns the date and time a document was last printed, as a serial value.</span></span>
+<span data-ttu-id="47c53-104">Retorna a data e hora de que um documento foi impresso pela última vez, de como um valor de série.</span><span class="sxs-lookup"><span data-stu-id="47c53-104">Returns the date and time a document was last printed, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="a864b-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a864b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="47c53-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="47c53-105">Syntax</span></span>
 
-<span data-ttu-id="a864b-106">DOCLASTPRINT ()</span><span class="sxs-lookup"><span data-stu-id="a864b-106">DOCLASTPRINT ()</span></span>
+<span data-ttu-id="47c53-106">DOCLASTPRINT ()</span><span class="sxs-lookup"><span data-stu-id="47c53-106">DOCLASTPRINT ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a864b-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="a864b-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="47c53-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="47c53-107">Remarks</span></span>
 
-<span data-ttu-id="a864b-108">Utilize a função FORMAT para formatar o valor.</span><span class="sxs-lookup"><span data-stu-id="a864b-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="47c53-108">Utilize a função FORMAT para formatar o valor.</span><span class="sxs-lookup"><span data-stu-id="47c53-108">Use the FORMAT function to format the value.</span></span> 
   
 

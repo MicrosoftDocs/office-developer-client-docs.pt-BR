@@ -16,16 +16,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771758"
 ---
-# <a name="doclastsave-function"></a><span data-ttu-id="cb19f-103">Função DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="cb19f-103">DOCLASTSAVE Function</span></span>
+# <a name="doclastsave-function"></a><span data-ttu-id="eb654-103">Função DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="eb654-103">DOCLASTSAVE Function</span></span>
 
-<span data-ttu-id="cb19f-104">Retorna a data e hora de que um documento foi salvo pela última vez, de como um valor de série.</span><span class="sxs-lookup"><span data-stu-id="cb19f-104">Returns the date and time a document was last saved, as a serial value.</span></span>
+<span data-ttu-id="eb654-104">Retorna a data e hora de que um documento foi salvo pela última vez, de como um valor de série.</span><span class="sxs-lookup"><span data-stu-id="eb654-104">Returns the date and time a document was last saved, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="cb19f-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="cb19f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="eb654-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="eb654-105">Syntax</span></span>
 
-<span data-ttu-id="cb19f-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="cb19f-106">DOCLASTSAVE ()</span></span>
+<span data-ttu-id="eb654-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="eb654-106">DOCLASTSAVE ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="cb19f-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="cb19f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eb654-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="eb654-107">Remarks</span></span>
 
-<span data-ttu-id="cb19f-108">Utilize a função FORMAT para formatar o valor.</span><span class="sxs-lookup"><span data-stu-id="cb19f-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="eb654-108">Utilize a função FORMAT para formatar o valor.</span><span class="sxs-lookup"><span data-stu-id="eb654-108">Use the FORMAT function to format the value.</span></span> 
   
 

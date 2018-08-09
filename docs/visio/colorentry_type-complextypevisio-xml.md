@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771509"
 ---
-# <a name="colorentrytype-complextype-visio-xml"></a><span data-ttu-id="c0c61-102">ColorEntry_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="c0c61-102">ColorEntry_Type complexType ('Visio XML')</span></span>
+# <a name="colorentrytype-complextype-visio-xml"></a><span data-ttu-id="5bc99-102">ColorEntry_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="5bc99-102">ColorEntry_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="c0c61-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="c0c61-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="5bc99-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="5bc99-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c0c61-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="c0c61-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="c0c61-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="c0c61-105">**Schema file**</span></span> <br/> |<span data-ttu-id="c0c61-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="c0c61-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="c0c61-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="c0c61-107">**Extension base**</span></span> <br/> |<span data-ttu-id="c0c61-108">None</span><span class="sxs-lookup"><span data-stu-id="c0c61-108">None</span></span>  <br/> |
+|<span data-ttu-id="5bc99-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="5bc99-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="5bc99-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="5bc99-105">**Schema file**</span></span> <br/> |<span data-ttu-id="5bc99-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="5bc99-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="5bc99-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="5bc99-107">**Extension base**</span></span> <br/> |<span data-ttu-id="5bc99-108">Nenhum</span><span class="sxs-lookup"><span data-stu-id="5bc99-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="c0c61-109">Definição</span><span class="sxs-lookup"><span data-stu-id="c0c61-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="5bc99-109">Definição</span><span class="sxs-lookup"><span data-stu-id="5bc99-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="ColorEntry_Type">
@@ -39,19 +39,19 @@ ms.locfileid: "19771509"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="c0c61-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="c0c61-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="5bc99-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="5bc99-110">Elements and attributes</span></span>
 
-<span data-ttu-id="c0c61-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="c0c61-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="5bc99-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="5bc99-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="c0c61-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="c0c61-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5bc99-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="5bc99-112">Child elements</span></span>
 
-<span data-ttu-id="c0c61-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c0c61-113">None.</span></span>
+<span data-ttu-id="5bc99-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="5bc99-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c0c61-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="c0c61-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5bc99-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="5bc99-114">Attributes</span></span>
 
-|<span data-ttu-id="c0c61-115">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="c0c61-115">**Attribute**</span></span>|<span data-ttu-id="c0c61-116">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="c0c61-116">**Type**</span></span>|<span data-ttu-id="c0c61-117">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="c0c61-117">**Required**</span></span>|<span data-ttu-id="c0c61-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c0c61-118">**Description**</span></span>|<span data-ttu-id="c0c61-119">**Valores possíveis**</span><span class="sxs-lookup"><span data-stu-id="c0c61-119">**Possible values**</span></span>|
+|<span data-ttu-id="5bc99-115">**Attribute**</span><span class="sxs-lookup"><span data-stu-id="5bc99-115">**Attribute**</span></span>|<span data-ttu-id="5bc99-116">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="5bc99-116">**Type**</span></span>|<span data-ttu-id="5bc99-117">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="5bc99-117">**Required**</span></span>|<span data-ttu-id="5bc99-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5bc99-118">**Description**</span></span>|<span data-ttu-id="5bc99-119">**Valores possíveis**</span><span class="sxs-lookup"><span data-stu-id="5bc99-119">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="c0c61-120">IX</span><span class="sxs-lookup"><span data-stu-id="c0c61-120">IX</span></span>  <br/> |<span data-ttu-id="c0c61-121">XSD:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="c0c61-121">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="c0c61-122">obrigatório</span><span class="sxs-lookup"><span data-stu-id="c0c61-122">required</span></span>  <br/> ||<span data-ttu-id="c0c61-123">Valores do tipo xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="c0c61-123">Values of the xsd:unsignedInt type.</span></span>  <br/> |
-|<span data-ttu-id="c0c61-124">RGB</span><span class="sxs-lookup"><span data-stu-id="c0c61-124">RGB</span></span>  <br/> |<span data-ttu-id="c0c61-125">XSD: String</span><span class="sxs-lookup"><span data-stu-id="c0c61-125">xsd:string</span></span>  <br/> |<span data-ttu-id="c0c61-126">obrigatório</span><span class="sxs-lookup"><span data-stu-id="c0c61-126">required</span></span>  <br/> ||<span data-ttu-id="c0c61-127">Valores do tipo xsd: String.</span><span class="sxs-lookup"><span data-stu-id="c0c61-127">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="5bc99-120">IX</span><span class="sxs-lookup"><span data-stu-id="5bc99-120">IX</span></span>  <br/> |<span data-ttu-id="5bc99-121">XSD:unsignedInt</span><span class="sxs-lookup"><span data-stu-id="5bc99-121">xsd:unsignedInt</span></span>  <br/> |<span data-ttu-id="5bc99-122">obrigatório</span><span class="sxs-lookup"><span data-stu-id="5bc99-122">required</span></span>  <br/> ||<span data-ttu-id="5bc99-123">Valores do tipo xsd:unsignedInt.</span><span class="sxs-lookup"><span data-stu-id="5bc99-123">Values of the xsd:unsignedInt type.</span></span>  <br/> |
+|<span data-ttu-id="5bc99-124">RGB</span><span class="sxs-lookup"><span data-stu-id="5bc99-124">RGB</span></span>  <br/> |<span data-ttu-id="5bc99-125">XSD: String</span><span class="sxs-lookup"><span data-stu-id="5bc99-125">xsd:string</span></span>  <br/> |<span data-ttu-id="5bc99-126">obrigatório</span><span class="sxs-lookup"><span data-stu-id="5bc99-126">required</span></span>  <br/> ||<span data-ttu-id="5bc99-127">Valores do tipo xsd: String.</span><span class="sxs-lookup"><span data-stu-id="5bc99-127">Values of the xsd:string type.</span></span>  <br/> |
    
 

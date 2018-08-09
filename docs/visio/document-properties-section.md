@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771741"
 ---
-# <a name="document-properties-section"></a><span data-ttu-id="21a44-103">Seção Document Properties</span><span class="sxs-lookup"><span data-stu-id="21a44-103">Document Properties Section</span></span>
+# <a name="document-properties-section"></a><span data-ttu-id="3567b-103">Seção Document Properties</span><span class="sxs-lookup"><span data-stu-id="3567b-103">Document Properties Section</span></span>
 
-<span data-ttu-id="21a44-104">Contém as células de um documento que controla a qualidade da visualização, o escopo e o formato de saída.</span><span class="sxs-lookup"><span data-stu-id="21a44-104">Contains cells for a document that control preview quality, scope, and output format.</span></span>
+<span data-ttu-id="3567b-104">Contém as células de um documento que controla a qualidade da visualização, o escopo e o formato de saída.</span><span class="sxs-lookup"><span data-stu-id="3567b-104">Contains cells for a document that control preview quality, scope, and output format.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="21a44-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="21a44-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3567b-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="3567b-105">Remarks</span></span>
 
- <span data-ttu-id="21a44-106">Você também pode definir esses valores usando a caixa de diálogo **Propriedades** (clique na guia **arquivo** , clique em **Info**, clique em **Propriedades**e, em seguida, clique em **Propriedades avançadas**).</span><span class="sxs-lookup"><span data-stu-id="21a44-106">You can also set these values by using the **Properties** dialog box (click the **File** tab, click **Info**, click **Properties**, and then click **Advanced Properties**).</span></span>
+ <span data-ttu-id="3567b-106">Você também pode definir esses valores usando a caixa de diálogo **Propriedades** (clique na guia **arquivo** , clique em **Info**, clique em **Propriedades**e, em seguida, clique em **Propriedades avançadas**).</span><span class="sxs-lookup"><span data-stu-id="3567b-106">You can also set these values by using the **Properties** dialog box (click the **File** tab, click **Info**, click **Properties**, and then click **Advanced Properties**).</span></span>
   
 

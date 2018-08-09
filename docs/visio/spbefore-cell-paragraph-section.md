@@ -16,26 +16,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773042"
 ---
-# <a name="spbefore-cell-paragraph-section"></a><span data-ttu-id="ab7b3-103">Célula SpBefore (Seção Paragraph)</span><span class="sxs-lookup"><span data-stu-id="ab7b3-103">SpBefore Cell (Paragraph Section)</span></span>
+# <a name="spbefore-cell-paragraph-section"></a><span data-ttu-id="4277a-103">Célula SpBefore (Seção Paragraph)</span><span class="sxs-lookup"><span data-stu-id="4277a-103">SpBefore Cell (Paragraph Section)</span></span>
 
-<span data-ttu-id="ab7b3-104">Determina a quantidade de espaço inserido antes de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o primeiro parágrafo em um bloco de texto, da célula TopMargin.</span><span class="sxs-lookup"><span data-stu-id="ab7b3-104">Determines the amount of space inserted before each paragraph in the shape's text block, in addition to any space from the SpLine cell if it is the first paragraph in a text block, the TopMargin cell.</span></span>
+<span data-ttu-id="4277a-104">Determina a quantidade de espaço inserido antes de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o primeiro parágrafo em um bloco de texto, da célula TopMargin.</span><span class="sxs-lookup"><span data-stu-id="4277a-104">Determines the amount of space inserted before each paragraph in the shape's text block, in addition to any space from the SpLine cell if it is the first paragraph in a text block, the TopMargin cell.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ab7b3-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="ab7b3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4277a-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="4277a-105">Remarks</span></span>
 
-<span data-ttu-id="ab7b3-p101">Esse valor não depende da escala do desenho. Se o desenho estiver em escala, a definição de Espaço anterior será a mesma.</span><span class="sxs-lookup"><span data-stu-id="ab7b3-p101">This value is independent of the scale of the drawing. If the drawing is scaled, the Space Before setting remains the same.</span></span>
+<span data-ttu-id="4277a-p101">Esse valor não depende da escala do desenho. Se o desenho estiver em escala, a definição de Espaço anterior será a mesma.</span><span class="sxs-lookup"><span data-stu-id="4277a-p101">This value is independent of the scale of the drawing. If the drawing is scaled, the Space Before setting remains the same.</span></span>
   
-<span data-ttu-id="ab7b3-108">Para obter uma referência à célula SpBefore pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU** , utilize:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-108">To get a reference to the SpBefore cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="4277a-108">Para fazer referência à célula SpBefore pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="4277a-108">To get a reference to the SpBefore cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ab7b3-109">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-109">Cell name:</span></span>  <br/> | <span data-ttu-id="ab7b3-110">Para.SpBefore [ *i* ] onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="ab7b3-110">Para.SpBefore[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="4277a-109">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="4277a-109">Cell name:</span></span>  <br/> | <span data-ttu-id="4277a-110">Para.SpBefore [ *i* ] onde *i* = < 1 >, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="4277a-110">Para.SpBefore[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="ab7b3-111">Para obter uma referência à célula SpBefore pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-111">To get a reference to the SpBefore cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="4277a-111">Para fazer referência à célula SpBefore pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="4277a-111">To get a reference to the SpBefore cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ab7b3-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-112">Section index:</span></span>  <br/> |<span data-ttu-id="ab7b3-113">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="ab7b3-113">**visSectionParagraph**</span></span> <br/> |
-| <span data-ttu-id="ab7b3-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-114">Row index:</span></span>  <br/> |<span data-ttu-id="ab7b3-115">**visRowParagraph** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="ab7b3-115">**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="ab7b3-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="ab7b3-116">Cell index:</span></span>  <br/> |<span data-ttu-id="ab7b3-117">**visSpaceBefore**</span><span class="sxs-lookup"><span data-stu-id="ab7b3-117">**visSpaceBefore**</span></span> <br/> |
+| <span data-ttu-id="4277a-112">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="4277a-112">Section index:</span></span>  <br/> |<span data-ttu-id="4277a-113">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="4277a-113">**visSectionParagraph**</span></span> <br/> |
+| <span data-ttu-id="4277a-114">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="4277a-114">Row index:</span></span>  <br/> |<span data-ttu-id="4277a-115">**visRowParagraph** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="4277a-115">**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="4277a-116">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="4277a-116">Cell index:</span></span>  <br/> |<span data-ttu-id="4277a-117">**visSpaceBefore**</span><span class="sxs-lookup"><span data-stu-id="4277a-117">**visSpaceBefore**</span></span> <br/> |
    
 

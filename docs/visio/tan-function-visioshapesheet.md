@@ -16,32 +16,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773107"
 ---
-# <a name="tan-function-visioshapesheet"></a><span data-ttu-id="c1d66-103">Função TAN (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="c1d66-103">TAN Function (VisioShapeSheet)</span></span>
+# <a name="tan-function-visioshapesheet"></a><span data-ttu-id="12206-103">Função TAN (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="12206-103">TAN Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="c1d66-104">Retorna a tangente de um ângulo.</span><span class="sxs-lookup"><span data-stu-id="c1d66-104">Returns the tangent of an angle.</span></span>
+<span data-ttu-id="12206-104">Retorna a tangente de um ângulo.</span><span class="sxs-lookup"><span data-stu-id="12206-104">Returns the tangent of an angle.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="c1d66-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c1d66-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="12206-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="12206-105">Syntax</span></span>
 
-<span data-ttu-id="c1d66-106">TAN (* * *ângulo* * *)</span><span class="sxs-lookup"><span data-stu-id="c1d66-106">TAN(** *angle* ** )</span></span> 
+<span data-ttu-id="12206-106">TAN (* * *ângulo* * *)</span><span class="sxs-lookup"><span data-stu-id="12206-106">TAN(** *angle* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="c1d66-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c1d66-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="12206-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="12206-107">Parameters</span></span>
 
-|<span data-ttu-id="c1d66-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="c1d66-108">**Name**</span></span>|<span data-ttu-id="c1d66-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="c1d66-109">**Required/Optional**</span></span>|<span data-ttu-id="c1d66-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="c1d66-110">**Data Type**</span></span>|<span data-ttu-id="c1d66-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c1d66-111">**Description**</span></span>|
+|<span data-ttu-id="12206-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="12206-108">**Name**</span></span>|<span data-ttu-id="12206-109">**Obrigatório/Opcional**</span><span class="sxs-lookup"><span data-stu-id="12206-109">**Required/Optional**</span></span>|<span data-ttu-id="12206-110">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="12206-110">**Data Type**</span></span>|<span data-ttu-id="12206-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="12206-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="c1d66-112">_ângulo_</span><span class="sxs-lookup"><span data-stu-id="c1d66-112">_angle_</span></span> <br/> |<span data-ttu-id="c1d66-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="c1d66-113">Required</span></span>  <br/> |<span data-ttu-id="c1d66-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="c1d66-114">**Numeric**</span></span> <br/> |<span data-ttu-id="c1d66-115">O ângulo do qual obter a tangente.</span><span class="sxs-lookup"><span data-stu-id="c1d66-115">The angle of which to get the tangent.</span></span>  <br/> |
+| <span data-ttu-id="12206-112">_ângulo_</span><span class="sxs-lookup"><span data-stu-id="12206-112">_angle_</span></span> <br/> |<span data-ttu-id="12206-113">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="12206-113">Required</span></span>  <br/> |<span data-ttu-id="12206-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="12206-114">**Numeric**</span></span> <br/> |<span data-ttu-id="12206-115">O ângulo do qual obter a tangente.</span><span class="sxs-lookup"><span data-stu-id="12206-115">The angle of which to get the tangent.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="c1d66-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="c1d66-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="12206-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="12206-116">Return value</span></span>
 
-<span data-ttu-id="c1d66-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="c1d66-117">Numeric</span></span>
+<span data-ttu-id="12206-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="12206-117">Numeric</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c1d66-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="c1d66-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12206-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="12206-118">Remarks</span></span>
 
-<span data-ttu-id="c1d66-119">A função TAN usa radianos, a menos que você especifique uma unidade de medida diferente em *angle* .</span><span class="sxs-lookup"><span data-stu-id="c1d66-119">The TAN function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
+<span data-ttu-id="12206-119">A função TAN usa radianos, a menos que você especifique uma unidade de medida diferente em *angle* .</span><span class="sxs-lookup"><span data-stu-id="12206-119">The TAN function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
   
-## <a name="example"></a><span data-ttu-id="c1d66-120">Example</span><span class="sxs-lookup"><span data-stu-id="c1d66-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="12206-120">Exemplo</span><span class="sxs-lookup"><span data-stu-id="12206-120">Example</span></span>
 
-<span data-ttu-id="c1d66-121">TAN(45 graus)</span><span class="sxs-lookup"><span data-stu-id="c1d66-121">TAN(45 deg)</span></span> 
+<span data-ttu-id="12206-121">TAN(45 graus)</span><span class="sxs-lookup"><span data-stu-id="12206-121">TAN(45 deg)</span></span> 
   
-<span data-ttu-id="c1d66-122">Retornará 1.</span><span class="sxs-lookup"><span data-stu-id="c1d66-122">Returns 1.</span></span> 
+<span data-ttu-id="12206-122">Retornará 1.</span><span class="sxs-lookup"><span data-stu-id="12206-122">Returns 1.</span></span> 
   
 

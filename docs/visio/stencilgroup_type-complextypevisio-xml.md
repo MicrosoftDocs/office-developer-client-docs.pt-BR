@@ -13,17 +13,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773050"
 ---
-# <a name="stencilgrouptype-complextype-visio-xml"></a><span data-ttu-id="b2ca2-102">StencilGroup_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="b2ca2-102">StencilGroup_Type complexType ('Visio XML')</span></span>
+# <a name="stencilgrouptype-complextype-visio-xml"></a><span data-ttu-id="b1293-102">StencilGroup_Type complexType ('Visio XML')</span><span class="sxs-lookup"><span data-stu-id="b1293-102">StencilGroup_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="b2ca2-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="b2ca2-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="b1293-103">Informações de tipo</span><span class="sxs-lookup"><span data-stu-id="b1293-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b2ca2-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="b2ca2-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="b2ca2-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="b2ca2-105">**Schema file**</span></span> <br/> |<span data-ttu-id="b2ca2-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="b2ca2-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="b2ca2-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="b2ca2-107">**Extension base**</span></span> <br/> |<span data-ttu-id="b2ca2-108">XSD:int</span><span class="sxs-lookup"><span data-stu-id="b2ca2-108">xsd:int</span></span>  <br/> |
+|<span data-ttu-id="b1293-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="b1293-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="b1293-105">**Arquivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="b1293-105">**Schema file**</span></span> <br/> |<span data-ttu-id="b1293-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="b1293-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="b1293-107">**Extensão de base**</span><span class="sxs-lookup"><span data-stu-id="b1293-107">**Extension base**</span></span> <br/> |<span data-ttu-id="b1293-108">XSD:int</span><span class="sxs-lookup"><span data-stu-id="b1293-108">xsd:int</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="b2ca2-109">Definição</span><span class="sxs-lookup"><span data-stu-id="b2ca2-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="b1293-109">Definição</span><span class="sxs-lookup"><span data-stu-id="b1293-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="StencilGroup_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "19773050"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="b2ca2-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="b2ca2-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="b1293-110">Elementos e atributos</span><span class="sxs-lookup"><span data-stu-id="b1293-110">Elements and attributes</span></span>
 
-<span data-ttu-id="b2ca2-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="b2ca2-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="b1293-111">Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição.</span><span class="sxs-lookup"><span data-stu-id="b1293-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="b2ca2-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b2ca2-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b1293-112">Elementos filho</span><span class="sxs-lookup"><span data-stu-id="b1293-112">Child elements</span></span>
 
-<span data-ttu-id="b2ca2-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b2ca2-113">None.</span></span>
+<span data-ttu-id="b1293-113">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b1293-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b2ca2-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="b2ca2-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b1293-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="b1293-114">Attributes</span></span>
 
-<span data-ttu-id="b2ca2-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b2ca2-115">None.</span></span>
+<span data-ttu-id="b1293-115">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b1293-115">None.</span></span>
   
 

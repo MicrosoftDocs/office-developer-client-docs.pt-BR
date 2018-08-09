@@ -16,16 +16,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773079"
 ---
-# <a name="subject-function"></a><span data-ttu-id="339d6-103">Função SUBJECT</span><span class="sxs-lookup"><span data-stu-id="339d6-103">SUBJECT Function</span></span>
+# <a name="subject-function"></a><span data-ttu-id="0b50f-103">Função SUBJECT</span><span class="sxs-lookup"><span data-stu-id="0b50f-103">SUBJECT Function</span></span>
 
-<span data-ttu-id="339d6-104">Retorna o texto do campo **assunto** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="339d6-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
+<span data-ttu-id="0b50f-104">Retorna o texto do campo **assunto** das propriedades de um documento.</span><span class="sxs-lookup"><span data-stu-id="0b50f-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="339d6-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="339d6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0b50f-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0b50f-105">Syntax</span></span>
 
-<span data-ttu-id="339d6-106">() DO ASSUNTO</span><span class="sxs-lookup"><span data-stu-id="339d6-106">SUBJECT ()</span></span>
+<span data-ttu-id="0b50f-106">() DO ASSUNTO</span><span class="sxs-lookup"><span data-stu-id="0b50f-106">SUBJECT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="339d6-107">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="339d6-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0b50f-107">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="0b50f-107">Return value</span></span>
 
-<span data-ttu-id="339d6-108">Cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="339d6-108">String</span></span>
+<span data-ttu-id="0b50f-108">String</span><span class="sxs-lookup"><span data-stu-id="0b50f-108">String</span></span>
   
 

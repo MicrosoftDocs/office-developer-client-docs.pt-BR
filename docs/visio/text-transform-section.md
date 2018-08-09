@@ -16,12 +16,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773103"
 ---
-# <a name="text-transform-section"></a><span data-ttu-id="d0ebe-103">Seção Text Transform</span><span class="sxs-lookup"><span data-stu-id="d0ebe-103">Text Transform Section</span></span>
+# <a name="text-transform-section"></a><span data-ttu-id="99d4d-103">Seção Text Transform</span><span class="sxs-lookup"><span data-stu-id="99d4d-103">Text Transform Section</span></span>
 
-<span data-ttu-id="d0ebe-104">Contém as informações de posicionamento sobre o bloco de texto da forma.</span><span class="sxs-lookup"><span data-stu-id="d0ebe-104">Contains positioning information about a shape's text block.</span></span>
+<span data-ttu-id="99d4d-104">Contém as informações de posicionamento sobre o bloco de texto da forma.</span><span class="sxs-lookup"><span data-stu-id="99d4d-104">Contains positioning information about a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d0ebe-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="d0ebe-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="99d4d-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="99d4d-105">Remarks</span></span>
 
-<span data-ttu-id="d0ebe-106">Para adicionar essa seção, use a caixa de diálogo **Inserir seção** (clique com botão direito na janela ShapeSheet e clique em **Inserir seção**).</span><span class="sxs-lookup"><span data-stu-id="d0ebe-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="d0ebe-107">A definição de valores na seção **Text Transform** é comparável a trabalhar com o bloco de texto usando a ferramenta de **Bloco de texto** (o grupo de **Ferramentas** na guia **página inicial** ).</span><span class="sxs-lookup"><span data-stu-id="d0ebe-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
+<span data-ttu-id="99d4d-106">Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**).</span><span class="sxs-lookup"><span data-stu-id="99d4d-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="99d4d-107">A definição de valores na seção **Text Transform** é comparável a trabalhar com o bloco de texto usando a ferramenta de **Bloco de texto** (o grupo de **Ferramentas** na guia **página inicial** ).</span><span class="sxs-lookup"><span data-stu-id="99d4d-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
   
 

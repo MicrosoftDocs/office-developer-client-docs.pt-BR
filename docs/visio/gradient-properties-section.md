@@ -1,5 +1,5 @@
 ---
-title: Seção Propriedades de gradiente
+title: Seção Gradient Properties
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19771981"
 ---
-# <a name="gradient-properties-section"></a><span data-ttu-id="6f3be-104">Seção Propriedades de gradiente</span><span class="sxs-lookup"><span data-stu-id="6f3be-104">Gradient Properties Section</span></span>
+# <a name="gradient-properties-section"></a><span data-ttu-id="81138-104">Seção Gradient Properties</span><span class="sxs-lookup"><span data-stu-id="81138-104">Gradient Properties Section</span></span>
 
-<span data-ttu-id="6f3be-105">Mostra as propriedades de qualquer linha ou preenchimento de gradiente efeitos de cor aplicadas à forma.</span><span class="sxs-lookup"><span data-stu-id="6f3be-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="6f3be-106">Esta seção também inclui as células que controlam se gradiente de uma forma gira com a forma ou se a forma pressupõe um gradiente aplicado quando agrupado com relação às outras formas.</span><span class="sxs-lookup"><span data-stu-id="6f3be-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
+<span data-ttu-id="81138-105">Mostra as propriedades de qualquer linha ou preenchimento de gradiente efeitos de cor aplicadas à forma.</span><span class="sxs-lookup"><span data-stu-id="81138-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="81138-106">Esta seção também inclui as células que controlam se gradiente de uma forma gira com a forma ou se a forma pressupõe um gradiente aplicado quando agrupado com relação às outras formas.</span><span class="sxs-lookup"><span data-stu-id="81138-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6f3be-107">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="6f3be-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81138-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="81138-107">Remarks</span></span>
 
-<span data-ttu-id="6f3be-108">Você pode definir configurações de gradiente na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **preenchimento** > **Opções de preenchimento** > **preenchimento** > **preenchimento gradual**).</span><span class="sxs-lookup"><span data-stu-id="6f3be-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
+<span data-ttu-id="81138-108">Você pode definir configurações de gradiente na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **preenchimento** > **Opções de preenchimento** > **preenchimento** > **preenchimento gradual**).</span><span class="sxs-lookup"><span data-stu-id="81138-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
   
 
