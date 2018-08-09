@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767691"
 ---
-# <a name="ipstxgetlasterror"></a><span data-ttu-id="9609c-103">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="9609c-103">IPSTX::GetLastError</span></span>
+# <a name="ipstxgetlasterror"></a><span data-ttu-id="21b6d-103">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="21b6d-103">IPSTX::GetLastError</span></span>
 
   
   
-<span data-ttu-id="9609c-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="9609c-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="21b6d-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="21b6d-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="9609c-105">Obtém informações estendidas sobre o último erro.</span><span class="sxs-lookup"><span data-stu-id="9609c-105">Gets extended information about the last error.</span></span>
+<span data-ttu-id="21b6d-105">Obtém informações estendidas sobre o último erro.</span><span class="sxs-lookup"><span data-stu-id="21b6d-105">Gets extended information about the last error.</span></span>
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,25 +35,25 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9609c-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="9609c-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="21b6d-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="21b6d-106">Parameters</span></span>
 
- <span data-ttu-id="9609c-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="9609c-107">_hResult_</span></span>
+ <span data-ttu-id="21b6d-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="21b6d-107">_hResult_</span></span>
   
->  <span data-ttu-id="9609c-108">[in] Código de erro.</span><span class="sxs-lookup"><span data-stu-id="9609c-108">[in] Error code.</span></span> 
+>  <span data-ttu-id="21b6d-108">[in] Código de erro.</span><span class="sxs-lookup"><span data-stu-id="21b6d-108">[in] Error code.</span></span> 
     
- <span data-ttu-id="9609c-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="9609c-109">_ulFlags_</span></span>
+ <span data-ttu-id="21b6d-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="21b6d-109">_ulFlags_</span></span>
   
->  <span data-ttu-id="9609c-110">[in] Sinalizadores para modificar o comportamento.</span><span class="sxs-lookup"><span data-stu-id="9609c-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="9609c-111">Isso deve ser de 0.</span><span class="sxs-lookup"><span data-stu-id="9609c-111">This must be 0.</span></span> 
+>  <span data-ttu-id="21b6d-110">[in] Sinalizadores para modificar o comportamento.</span><span class="sxs-lookup"><span data-stu-id="21b6d-110">[in] Flags to modify behavior.</span></span> <span data-ttu-id="21b6d-111">Isso deve ser de 0.</span><span class="sxs-lookup"><span data-stu-id="21b6d-111">This must be 0.</span></span> 
     
- <span data-ttu-id="9609c-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="9609c-112">_lppMAPIError_</span></span>
+ <span data-ttu-id="21b6d-112">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="21b6d-112">_lppMAPIError_</span></span>
   
->  <span data-ttu-id="9609c-113">[out] Ponteiro para a estrutura **MAPIERROR** que contém as informações estendidas para o erro.</span><span class="sxs-lookup"><span data-stu-id="9609c-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="9609c-114">Consulte mapidefs.h para a definição de tipo de **LPMAPIERROR**.</span><span class="sxs-lookup"><span data-stu-id="9609c-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
+>  <span data-ttu-id="21b6d-113">[out] Ponteiro para a estrutura **MAPIERROR** que contém as informações estendidas para o erro.</span><span class="sxs-lookup"><span data-stu-id="21b6d-113">[out] Pointer to the **MAPIERROR** structure that contains the extended information for the error.</span></span> <span data-ttu-id="21b6d-114">Consulte mapidefs.h para a definição de tipo de **LPMAPIERROR**.</span><span class="sxs-lookup"><span data-stu-id="21b6d-114">See mapidefs.h for the type definition of **LPMAPIERROR**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="9609c-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="9609c-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21b6d-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="21b6d-115">See also</span></span>
 
 
 
-[<span data-ttu-id="9609c-116">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="9609c-116">IPSTX::EmulateSpooler</span></span>](ipstx-emulatespooler.md)
+[<span data-ttu-id="21b6d-116">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="21b6d-116">IPSTX::EmulateSpooler</span></span>](ipstx-emulatespooler.md)
   
-[<span data-ttu-id="9609c-117">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="9609c-117">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
+[<span data-ttu-id="21b6d-117">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="21b6d-117">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
 

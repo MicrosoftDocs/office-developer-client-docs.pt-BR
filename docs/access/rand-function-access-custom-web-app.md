@@ -14,25 +14,25 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765210"
 ---
-# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="16941-103">Função RAND (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="16941-103">Rand Function (Access custom web app)</span></span>
+# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="6b029-103">Função RAND (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="6b029-103">Rand Function (Access custom web app)</span></span>
 
-<span data-ttu-id="16941-104">Retorna um número pseudo-aleatório entre 0 e 1.</span><span class="sxs-lookup"><span data-stu-id="16941-104">Returns a pseudo-random number between 0 and 1.</span></span>
+<span data-ttu-id="6b029-104">Retorna um número pseudo-aleatório entre 0 e 1.</span><span class="sxs-lookup"><span data-stu-id="6b029-104">Returns a pseudo-random number between 0 and 1.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="16941-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="16941-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="6b029-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="6b029-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="16941-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="16941-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6b029-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="6b029-107">Syntax</span></span>
 
- <span data-ttu-id="16941-108">**Rand** ([ *Propagação* ])</span><span class="sxs-lookup"><span data-stu-id="16941-108">**Rand** ( [  *Seed*  ])</span></span> 
+ <span data-ttu-id="6b029-108">**Rand** ([ *Propagação* ])</span><span class="sxs-lookup"><span data-stu-id="6b029-108">**Rand** ( [  *Seed*  ])</span></span> 
   
-<span data-ttu-id="16941-109">A função **Rand** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="16941-109">The **Rand** function contains the following argument.</span></span> 
+<span data-ttu-id="6b029-109">A função **Rand** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="6b029-109">The **Rand** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="16941-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="16941-110">**Argument name**</span></span>|<span data-ttu-id="16941-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="16941-111">**Description**</span></span>|
+|<span data-ttu-id="6b029-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="6b029-110">**Argument name**</span></span>|<span data-ttu-id="6b029-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6b029-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="16941-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="16941-112">*Seed*</span></span>  <br/> |<span data-ttu-id="16941-113">Uma expressão de inteiro que retornará o valor de propagação.</span><span class="sxs-lookup"><span data-stu-id="16941-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="16941-114">Se *propagar* não for especificado, um valor de propagação é atribuído aleatoriamente.</span><span class="sxs-lookup"><span data-stu-id="16941-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
+| <span data-ttu-id="6b029-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="6b029-112">*Seed*</span></span>  <br/> |<span data-ttu-id="6b029-113">Uma expressão de inteiro que retornará o valor de propagação.</span><span class="sxs-lookup"><span data-stu-id="6b029-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="6b029-114">Se *propagar* não for especificado, um valor de propagação é atribuído aleatoriamente.</span><span class="sxs-lookup"><span data-stu-id="6b029-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="16941-115">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="16941-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b029-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="6b029-115">Remarks</span></span>
 
-<span data-ttu-id="16941-116">Chamadas repetitivas da função **Rand** com a mesma propagação retornam os mesmos resultados.</span><span class="sxs-lookup"><span data-stu-id="16941-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
+<span data-ttu-id="6b029-116">Chamadas repetitivas da função **Rand** com a mesma propagação retornam os mesmos resultados.</span><span class="sxs-lookup"><span data-stu-id="6b029-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
   
 

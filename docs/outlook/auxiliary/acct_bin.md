@@ -14,11 +14,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765803"
 ---
-# <a name="acctbin"></a><span data-ttu-id="5e08b-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="5e08b-103">ACCT_BIN</span></span>
+# <a name="acctbin"></a><span data-ttu-id="85e1f-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="85e1f-103">ACCT_BIN</span></span>
 
-<span data-ttu-id="5e08b-104">Uma variável desse tipo de dados contém um valor binário.</span><span class="sxs-lookup"><span data-stu-id="5e08b-104">A variable of this data type holds a binary value.</span></span>
+<span data-ttu-id="85e1f-104">Uma variável desse tipo de dados contém um valor binário.</span><span class="sxs-lookup"><span data-stu-id="85e1f-104">A variable of this data type holds a binary value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="5e08b-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="5e08b-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="85e1f-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="85e1f-105">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -28,14 +28,14 @@ typedef struct {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="5e08b-106">Membros</span><span class="sxs-lookup"><span data-stu-id="5e08b-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="85e1f-106">Members</span><span class="sxs-lookup"><span data-stu-id="85e1f-106">Members</span></span>
 
-<span data-ttu-id="5e08b-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="5e08b-107">_cb_</span></span>
+<span data-ttu-id="85e1f-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="85e1f-107">_cb_</span></span>
   
-> <span data-ttu-id="5e08b-108">Número de bytes que _pb_ aponta para.</span><span class="sxs-lookup"><span data-stu-id="5e08b-108">Number of bytes that  _pb_ points to.</span></span> 
+> <span data-ttu-id="85e1f-108">Número de bytes que _pb_ aponta para.</span><span class="sxs-lookup"><span data-stu-id="85e1f-108">Number of bytes that  _pb_ points to.</span></span> 
     
-<span data-ttu-id="5e08b-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="5e08b-109">_pb_</span></span>
+<span data-ttu-id="85e1f-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="85e1f-109">_pb_</span></span>
   
-> <span data-ttu-id="5e08b-110">Ponteiro para informações binárias.</span><span class="sxs-lookup"><span data-stu-id="5e08b-110">Pointer to binary information.</span></span>
+> <span data-ttu-id="85e1f-110">Ponteiro para informações binárias.</span><span class="sxs-lookup"><span data-stu-id="85e1f-110">Pointer to binary information.</span></span>
     
 

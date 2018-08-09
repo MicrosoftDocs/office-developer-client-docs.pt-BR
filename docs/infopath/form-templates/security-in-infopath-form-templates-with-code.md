@@ -15,18 +15,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765703"
 ---
-# <a name="security-in-infopath-form-templates-with-code"></a><span data-ttu-id="43651-104">Segurança nos modelos de formulário do InfoPath com código</span><span class="sxs-lookup"><span data-stu-id="43651-104">Security in InfoPath Form Templates with Code</span></span>
+# <a name="security-in-infopath-form-templates-with-code"></a><span data-ttu-id="50f34-104">Segurança nos modelos de formulário do InfoPath com código</span><span class="sxs-lookup"><span data-stu-id="50f34-104">Security in InfoPath Form Templates with Code</span></span>
 
-<span data-ttu-id="43651-105">Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="43651-105">This section discusses the security model for Microsoft InfoPath form templates that use managed code.</span></span>
+<span data-ttu-id="50f34-105">Esta seção discute o modelo de segurança para modelos de formulário do Microsoft InfoPath que usam código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="50f34-105">This section discusses the security model for Microsoft InfoPath form templates that use managed code.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="43651-106">Nesta se��o</span><span class="sxs-lookup"><span data-stu-id="43651-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="50f34-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="50f34-106">In this section</span></span>
 
-[<span data-ttu-id="43651-107">Sobre o modelo de segurança para modelos de formulário com código</span><span class="sxs-lookup"><span data-stu-id="43651-107">About the Security Model for Form Templates with Code</span></span>](about-the-security-model-for-form-templates-with-code.md)
+[<span data-ttu-id="50f34-107">Sobre o modelo de segurança para modelos de formulário com código</span><span class="sxs-lookup"><span data-stu-id="50f34-107">About the Security Model for Form Templates with Code</span></span>](about-the-security-model-for-form-templates-with-code.md)
   
-> <span data-ttu-id="43651-108">Descreve o modelo de segurança para modelos de formulário de código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="43651-108">Describes the security model for managed-code form templates.</span></span>
+> <span data-ttu-id="50f34-108">Descreve o modelo de segurança para modelos de formulário de código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="50f34-108">Describes the security model for managed-code form templates.</span></span>
     
-[<span data-ttu-id="43651-109">Definir configurações de segurança para modelos de formulário com código</span><span class="sxs-lookup"><span data-stu-id="43651-109">Configure Security Settings for Form Templates with Code</span></span>](how-to-configure-security-settings-for-form-templates-with-code.md)
+[<span data-ttu-id="50f34-109">Definir configurações de segurança para modelos de formulário com código</span><span class="sxs-lookup"><span data-stu-id="50f34-109">Configure Security Settings for Form Templates with Code</span></span>](how-to-configure-security-settings-for-form-templates-with-code.md)
   
-> <span data-ttu-id="43651-110">Descreve como definir configurações de segurança do .NET Framework para modelos de formulário de código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="43651-110">Describes how to configure .NET Framework security settings for managed code form templates.</span></span>
+> <span data-ttu-id="50f34-110">Descreve como definir configurações de segurança do .NET Framework para modelos de formulário de código gerenciado.</span><span class="sxs-lookup"><span data-stu-id="50f34-110">Describes how to configure .NET Framework security settings for managed code form templates.</span></span>
     
 

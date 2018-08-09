@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo um provedor de transporte MAPI
+title: Desenvolver um provedor de transporte MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766416"
 ---
-# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="eb56d-103">Desenvolvendo um provedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="eb56d-103">Developing a MAPI Transport Provider</span></span>
+# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="3caa4-103">Desenvolver um provedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="3caa4-103">Developing a MAPI Transport Provider</span></span>
 
   
   
-<span data-ttu-id="eb56d-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="eb56d-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="3caa4-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="3caa4-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="eb56d-105">Você deve estar familiarizado com a arquitetura de subsistema MAPI, a linguagem C++ e com a gravação de bibliotecas de vínculos dinâmicos (DLLs) para as diversas plataformas do Windows antes de desenvolver um provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="eb56d-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
+<span data-ttu-id="3caa4-105">Você deve estar familiarizado com a arquitetura de subsistema MAPI, a linguagem C++ e com a gravação de bibliotecas de vínculos dinâmicos (DLLs) para as diversas plataformas do Windows antes de desenvolver um provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="3caa4-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
   
 

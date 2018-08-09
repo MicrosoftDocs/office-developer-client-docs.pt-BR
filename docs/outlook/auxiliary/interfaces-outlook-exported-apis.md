@@ -14,12 +14,12 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765915"
 ---
-# <a name="interfaces-outlook-exported-apis"></a><span data-ttu-id="28451-103">Interfaces (Outlook exportados APIs)</span><span class="sxs-lookup"><span data-stu-id="28451-103">Interfaces (Outlook exported APIs)</span></span>
+# <a name="interfaces-outlook-exported-apis"></a><span data-ttu-id="7ed0e-103">Interfaces (Outlook exportados APIs)</span><span class="sxs-lookup"><span data-stu-id="7ed0e-103">Interfaces (Outlook exported APIs)</span></span>
 
-<span data-ttu-id="28451-104">Esta seção descreve as interfaces que exporta do Outlook.</span><span class="sxs-lookup"><span data-stu-id="28451-104">This section describes the interfaces that Outlook exports.</span></span>
+<span data-ttu-id="7ed0e-104">Esta seção descreve as interfaces que exporta do Outlook.</span><span class="sxs-lookup"><span data-stu-id="7ed0e-104">This section describes the interfaces that Outlook exports.</span></span>
   
-|<span data-ttu-id="28451-105">**Interface**</span><span class="sxs-lookup"><span data-stu-id="28451-105">**Interface**</span></span>|<span data-ttu-id="28451-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="28451-106">**Description**</span></span>|
+|<span data-ttu-id="7ed0e-105">**Interface**</span><span class="sxs-lookup"><span data-stu-id="7ed0e-105">**Interface**</span></span>|<span data-ttu-id="7ed0e-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="7ed0e-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="28451-107">IOlkApptRebaser</span><span class="sxs-lookup"><span data-stu-id="28451-107">IOlkApptRebaser</span></span>](iolkapptrebaser.md) <br/> |<span data-ttu-id="28451-108">Suporta a alteração da Base de compromissos em uma pasta de calendário.</span><span class="sxs-lookup"><span data-stu-id="28451-108">Supports rebasing appointments in a calendar folder.</span></span>  <br/> |
+|[<span data-ttu-id="7ed0e-107">IOlkApptRebaser</span><span class="sxs-lookup"><span data-stu-id="7ed0e-107">IOlkApptRebaser</span></span>](iolkapptrebaser.md) <br/> |<span data-ttu-id="7ed0e-108">Suporta a alteração da Base de compromissos em uma pasta de calendário.</span><span class="sxs-lookup"><span data-stu-id="7ed0e-108">Supports rebasing appointments in a calendar folder.</span></span>  <br/> |
    
 

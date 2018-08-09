@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767390"
 ---
-# <a name="imessagecreateattach"></a><span data-ttu-id="e703b-103">IMessage::CreateAttach</span><span class="sxs-lookup"><span data-stu-id="e703b-103">IMessage::CreateAttach</span></span>
+# <a name="imessagecreateattach"></a><span data-ttu-id="bb459-103">IMessage::CreateAttach</span><span class="sxs-lookup"><span data-stu-id="bb459-103">IMessage::CreateAttach</span></span>
 
   
   
-<span data-ttu-id="e703b-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="e703b-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="bb459-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="bb459-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="e703b-105">Cria um novo anexo.</span><span class="sxs-lookup"><span data-stu-id="e703b-105">Creates a new attachment.</span></span>
+<span data-ttu-id="bb459-105">Cria um novo anexo.</span><span class="sxs-lookup"><span data-stu-id="bb459-105">Creates a new attachment.</span></span>
   
 ```cpp
 HRESULT CreateAttach(
@@ -36,43 +36,43 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e703b-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="e703b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb459-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bb459-106">Parameters</span></span>
 
- <span data-ttu-id="e703b-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="e703b-107">_lpInterface_</span></span>
+ <span data-ttu-id="bb459-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="bb459-107">_lpInterface_</span></span>
   
-> <span data-ttu-id="e703b-108">[in] Ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="e703b-108">[in] Pointer to the interface identifier (IID) representing the interface to be used to access the message.</span></span> <span data-ttu-id="e703b-109">Passagem nula resulta em interface padrão ou **IMessage**, a mensagem que está sendo retornada.</span><span class="sxs-lookup"><span data-stu-id="e703b-109">Passing NULL results in the message's standard interface, or **IMessage**, being returned.</span></span> 
+> <span data-ttu-id="bb459-108">[in] Ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="bb459-108">[in] Pointer to the interface identifier (IID) representing the interface to be used to access the message.</span></span> <span data-ttu-id="bb459-109">Passagem nula resulta em interface padrão ou **IMessage**, a mensagem que está sendo retornada.</span><span class="sxs-lookup"><span data-stu-id="bb459-109">Passing NULL results in the message's standard interface, or **IMessage**, being returned.</span></span> 
     
- <span data-ttu-id="e703b-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e703b-110">_ulFlags_</span></span>
+ <span data-ttu-id="bb459-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bb459-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="e703b-111">[in] Bitmask dos sinalizadores que controla como o anexo é criado.</span><span class="sxs-lookup"><span data-stu-id="e703b-111">[in] Bitmask of flags that controls how the attachment is created.</span></span> <span data-ttu-id="e703b-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="e703b-112">The following flag can be set:</span></span>
+> <span data-ttu-id="bb459-111">[in] Bitmask dos sinalizadores que controla como o anexo é criado.</span><span class="sxs-lookup"><span data-stu-id="bb459-111">[in] Bitmask of flags that controls how the attachment is created.</span></span> <span data-ttu-id="bb459-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="bb459-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="e703b-113">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="e703b-113">MAPI_DEFERRED_ERRORS</span></span> 
+<span data-ttu-id="bb459-113">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="bb459-113">MAPI_DEFERRED_ERRORS</span></span> 
   
-> <span data-ttu-id="e703b-114">Permite que **CreateAttach** retornar com êxito, possivelmente antes que o anexo seja totalmente acessível para o cliente da chamada.</span><span class="sxs-lookup"><span data-stu-id="e703b-114">Allows **CreateAttach** to return successfully, possibly before the attachment is fully accessible to the calling client.</span></span> <span data-ttu-id="e703b-115">Se o anexo não está acessível, fazendo uma chamada subsequente a ele pode resultar em um erro.</span><span class="sxs-lookup"><span data-stu-id="e703b-115">If the attachment is not accessible, making a subsequent call to it can result in an error.</span></span> 
+> <span data-ttu-id="bb459-114">Permite que **CreateAttach** retornar com êxito, possivelmente antes que o anexo seja totalmente acessível para o cliente da chamada.</span><span class="sxs-lookup"><span data-stu-id="bb459-114">Allows **CreateAttach** to return successfully, possibly before the attachment is fully accessible to the calling client.</span></span> <span data-ttu-id="bb459-115">Se o anexo não está acessível, fazendo uma chamada subsequente a ele pode resultar em um erro.</span><span class="sxs-lookup"><span data-stu-id="bb459-115">If the attachment is not accessible, making a subsequent call to it can result in an error.</span></span> 
     
- <span data-ttu-id="e703b-116">_lpulAttachmentNum_</span><span class="sxs-lookup"><span data-stu-id="e703b-116">_lpulAttachmentNum_</span></span>
+ <span data-ttu-id="bb459-116">_lpulAttachmentNum_</span><span class="sxs-lookup"><span data-stu-id="bb459-116">_lpulAttachmentNum_</span></span>
   
-> <span data-ttu-id="e703b-117">[out] Ponteiro para um número de índice que identifica o anexo recém-criado.</span><span class="sxs-lookup"><span data-stu-id="e703b-117">[out] Pointer to an index number identifying the newly created attachment.</span></span> <span data-ttu-id="e703b-118">Esse número é válido somente quando a mensagem é aberta e é a base para a propriedade de **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.</span><span class="sxs-lookup"><span data-stu-id="e703b-118">This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.</span></span>
+> <span data-ttu-id="bb459-117">[out] Ponteiro para um número de índice que identifica o anexo recém-criado.</span><span class="sxs-lookup"><span data-stu-id="bb459-117">[out] Pointer to an index number identifying the newly created attachment.</span></span> <span data-ttu-id="bb459-118">Esse número é válido somente quando a mensagem é aberta e é a base para a propriedade de **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) do anexo.</span><span class="sxs-lookup"><span data-stu-id="bb459-118">This number is valid only when the message is open and is the basis for the attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.</span></span>
     
- <span data-ttu-id="e703b-119">_lppAttach_</span><span class="sxs-lookup"><span data-stu-id="e703b-119">_lppAttach_</span></span>
+ <span data-ttu-id="bb459-119">_lppAttach_</span><span class="sxs-lookup"><span data-stu-id="bb459-119">_lppAttach_</span></span>
   
-> <span data-ttu-id="e703b-120">[out] Ponteiro para um ponteiro para o objeto de abrir anexo.</span><span class="sxs-lookup"><span data-stu-id="e703b-120">[out] Pointer to a pointer to the open attachment object.</span></span>
+> <span data-ttu-id="bb459-120">[out] Ponteiro para um ponteiro para o objeto de abrir anexo.</span><span class="sxs-lookup"><span data-stu-id="bb459-120">[out] Pointer to a pointer to the open attachment object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e703b-121">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="e703b-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bb459-121">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="bb459-121">Return value</span></span>
 
-<span data-ttu-id="e703b-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="e703b-122">S_OK</span></span> 
+<span data-ttu-id="bb459-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="bb459-122">S_OK</span></span> 
   
-> <span data-ttu-id="e703b-123">O anexo foi criado com êxito.</span><span class="sxs-lookup"><span data-stu-id="e703b-123">The attachment was successfully created.</span></span>
+> <span data-ttu-id="bb459-123">O anexo foi criado com êxito.</span><span class="sxs-lookup"><span data-stu-id="bb459-123">The attachment was successfully created.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e703b-124">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="e703b-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb459-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="bb459-124">Remarks</span></span>
 
-<span data-ttu-id="e703b-125">O método **IMessage::CreateAttach** cria um novo anexo em uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="e703b-125">The **IMessage::CreateAttach** method creates a new attachment on a message.</span></span> <span data-ttu-id="e703b-126">O novo anexo e as propriedades que são definidas para ele, não estão disponíveis até que um cliente tenha chamado o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) do anexo e o método de **IMAPIProp::SaveChanges** da mensagem.</span><span class="sxs-lookup"><span data-stu-id="e703b-126">The new attachment and any properties that are set for it, are not available until a client has called both the attachment's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method and the message's **IMAPIProp::SaveChanges** method.</span></span> 
+<span data-ttu-id="bb459-125">O método **IMessage::CreateAttach** cria um novo anexo em uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="bb459-125">The **IMessage::CreateAttach** method creates a new attachment on a message.</span></span> <span data-ttu-id="bb459-126">O novo anexo e as propriedades que são definidas para ele, não estão disponíveis até que um cliente tenha chamado o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) do anexo e o método de **IMAPIProp::SaveChanges** da mensagem.</span><span class="sxs-lookup"><span data-stu-id="bb459-126">The new attachment and any properties that are set for it, are not available until a client has called both the attachment's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method and the message's **IMAPIProp::SaveChanges** method.</span></span> 
   
-<span data-ttu-id="e703b-127">O número de anexo apontado pela _lpulAttachmentNum_ é exclusivo e válido somente dentro do contexto da mensagem.</span><span class="sxs-lookup"><span data-stu-id="e703b-127">The attachment number pointed to by  _lpulAttachmentNum_ is unique and valid only within the context of the message.</span></span> <span data-ttu-id="e703b-128">Ou seja, dois anexos em duas mensagens diferentes podem ter o mesmo número enquanto dois anexos na mesma mensagem não é possível.</span><span class="sxs-lookup"><span data-stu-id="e703b-128">That is, two attachments in two different messages can have the same number while two attachments in the same message cannot.</span></span> 
+<span data-ttu-id="bb459-127">O número de anexo apontado pela _lpulAttachmentNum_ é exclusivo e válido somente dentro do contexto da mensagem.</span><span class="sxs-lookup"><span data-stu-id="bb459-127">The attachment number pointed to by  _lpulAttachmentNum_ is unique and valid only within the context of the message.</span></span> <span data-ttu-id="bb459-128">Ou seja, dois anexos em duas mensagens diferentes podem ter o mesmo número enquanto dois anexos na mesma mensagem não é possível.</span><span class="sxs-lookup"><span data-stu-id="bb459-128">That is, two attachments in two different messages can have the same number while two attachments in the same message cannot.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e703b-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="e703b-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb459-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="bb459-129">See also</span></span>
 
 
 
-[<span data-ttu-id="e703b-130">IMessage: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="e703b-130">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
+[<span data-ttu-id="bb459-130">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="bb459-130">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
 

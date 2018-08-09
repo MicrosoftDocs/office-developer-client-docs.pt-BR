@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766996"
 ---
-# <a name="imapiformadvisesinkonactivatenext"></a><span data-ttu-id="6f90e-103">IMAPIFormAdviseSink::OnActivateNext</span><span class="sxs-lookup"><span data-stu-id="6f90e-103">IMAPIFormAdviseSink::OnActivateNext</span></span>
+# <a name="imapiformadvisesinkonactivatenext"></a><span data-ttu-id="c2ecd-103">IMAPIFormAdviseSink::OnActivateNext</span><span class="sxs-lookup"><span data-stu-id="c2ecd-103">IMAPIFormAdviseSink::OnActivateNext</span></span>
 
   
   
-<span data-ttu-id="6f90e-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="6f90e-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="c2ecd-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c2ecd-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="6f90e-105">Indica se o formulário pode lidar com a classe de mensagem da próxima mensagem para exibir.</span><span class="sxs-lookup"><span data-stu-id="6f90e-105">Indicates whether the form can handle the message class of the next message to display.</span></span>
+<span data-ttu-id="c2ecd-105">Indica se o formulário pode lidar com a classe de mensagem da próxima mensagem para exibir.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-105">Indicates whether the form can handle the message class of the next message to display.</span></span>
   
 ```cpp
 HRESULT OnActivateNext(
@@ -36,78 +36,78 @@ HRESULT OnActivateNext(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6f90e-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="6f90e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c2ecd-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c2ecd-106">Parameters</span></span>
 
- <span data-ttu-id="6f90e-107">_lpszMessageClass_</span><span class="sxs-lookup"><span data-stu-id="6f90e-107">_lpszMessageClass_</span></span>
+ <span data-ttu-id="c2ecd-107">_lpszMessageClass_</span><span class="sxs-lookup"><span data-stu-id="c2ecd-107">_lpszMessageClass_</span></span>
   
-> <span data-ttu-id="6f90e-108">[in] Um ponteiro para a classe de mensagem da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-108">[in] A pointer to the message class of the next message.</span></span>
+> <span data-ttu-id="c2ecd-108">[in] Um ponteiro para a classe de mensagem da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-108">[in] A pointer to the message class of the next message.</span></span>
     
- <span data-ttu-id="6f90e-109">_ulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="6f90e-109">_ulMessageStatus_</span></span>
+ <span data-ttu-id="c2ecd-109">_ulMessageStatus_</span><span class="sxs-lookup"><span data-stu-id="c2ecd-109">_ulMessageStatus_</span></span>
   
-> <span data-ttu-id="6f90e-110">[in] Uma bitmask dos sinalizadores definido pelo provedor ou cliente, copiado da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da mensagem próxima a exibir, que fornece informações de status sobre a tabela de conteúdo que a mensagem é incluída in.</span><span class="sxs-lookup"><span data-stu-id="6f90e-110">[in] A bitmask of client-defined or provider-defined flags, copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the next message to display, that provides status information regarding the contents table that the message is included in.</span></span>
+> <span data-ttu-id="c2ecd-110">[in] Uma bitmask dos sinalizadores definido pelo provedor ou cliente, copiado da propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) da mensagem próxima a exibir, que fornece informações de status sobre a tabela de conteúdo que a mensagem é incluída in.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-110">[in] A bitmask of client-defined or provider-defined flags, copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the next message to display, that provides status information regarding the contents table that the message is included in.</span></span>
     
- <span data-ttu-id="6f90e-111">_ulMessageFlags_</span><span class="sxs-lookup"><span data-stu-id="6f90e-111">_ulMessageFlags_</span></span>
+ <span data-ttu-id="c2ecd-111">_ulMessageFlags_</span><span class="sxs-lookup"><span data-stu-id="c2ecd-111">_ulMessageFlags_</span></span>
   
-> <span data-ttu-id="6f90e-112">[in] Um ponteiro para uma bitmask dos sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem próxima a exibir que indica o estado atual da mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-112">[in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the next message to display that indicates the current state of the message.</span></span>
+> <span data-ttu-id="c2ecd-112">[in] Um ponteiro para uma bitmask dos sinalizadores copiados da propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem próxima a exibir que indica o estado atual da mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-112">[in] A pointer to a bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the next message to display that indicates the current state of the message.</span></span>
     
- <span data-ttu-id="6f90e-113">_ppPersistMessage_</span><span class="sxs-lookup"><span data-stu-id="6f90e-113">_ppPersistMessage_</span></span>
+ <span data-ttu-id="c2ecd-113">_ppPersistMessage_</span><span class="sxs-lookup"><span data-stu-id="c2ecd-113">_ppPersistMessage_</span></span>
   
-> <span data-ttu-id="6f90e-114">[out] Um ponteiro para um ponteiro para a implementação de [IPersistMessage](ipersistmessageiunknown.md) para o objeto de formulário usado para o novo formulário, se um novo formulário é necessário.</span><span class="sxs-lookup"><span data-stu-id="6f90e-114">[out] A pointer to a pointer to the [IPersistMessage](ipersistmessageiunknown.md) implementation for the form object used for the new form, if a new form is required.</span></span> <span data-ttu-id="6f90e-115">Um ponteiro como NULL pode ser retornado se o objeto atual do formulário pode ser usado para exibir e salvar a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-115">A pointer to NULL can be returned if the current form object can be used to display and save the next message.</span></span> 
+> <span data-ttu-id="c2ecd-114">[out] Um ponteiro para um ponteiro para a implementação de [IPersistMessage](ipersistmessageiunknown.md) para o objeto de formulário usado para o novo formulário, se um novo formulário é necessário.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-114">[out] A pointer to a pointer to the [IPersistMessage](ipersistmessageiunknown.md) implementation for the form object used for the new form, if a new form is required.</span></span> <span data-ttu-id="c2ecd-115">Um ponteiro como NULL pode ser retornado se o objeto atual do formulário pode ser usado para exibir e salvar a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-115">A pointer to NULL can be returned if the current form object can be used to display and save the next message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="6f90e-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="6f90e-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c2ecd-116">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="c2ecd-116">Return value</span></span>
 
-<span data-ttu-id="6f90e-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="6f90e-117">S_OK</span></span> 
+<span data-ttu-id="c2ecd-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="c2ecd-117">S_OK</span></span> 
   
-> <span data-ttu-id="6f90e-118">A notificação foi bem-sucedida e o formulário pode manipular a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-118">The notification was successful and the form can handle the next message.</span></span>
+> <span data-ttu-id="c2ecd-118">A notificação foi bem-sucedida e o formulário pode manipular a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-118">The notification was successful and the form can handle the next message.</span></span>
     
-<span data-ttu-id="6f90e-119">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="6f90e-119">S_FALSE</span></span> 
+<span data-ttu-id="c2ecd-119">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="c2ecd-119">S_FALSE</span></span> 
   
-> <span data-ttu-id="6f90e-120">O formulário não processa a classe de mensagem da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-120">The form does not handle the message class of the next message.</span></span>
+> <span data-ttu-id="c2ecd-120">O formulário não processa a classe de mensagem da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-120">The form does not handle the message class of the next message.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="6f90e-121">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="6f90e-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c2ecd-121">Comentários</span><span class="sxs-lookup"><span data-stu-id="c2ecd-121">Remarks</span></span>
 
-<span data-ttu-id="6f90e-122">Visualizadores de formulário chame o método de **IMAPIFormAdviseSink::OnActivateNext** para ajudar a determinar se ele pode exibir a próxima mensagem em uma pasta de formulário.</span><span class="sxs-lookup"><span data-stu-id="6f90e-122">Form viewers call the **IMAPIFormAdviseSink::OnActivateNext** method to help the form determine whether it can display the next message in a folder.</span></span> <span data-ttu-id="6f90e-123">A próxima mensagem poderia ser uma mensagem de qualquer classe, mas geralmente é da mesma classe ou uma classe relacionada.</span><span class="sxs-lookup"><span data-stu-id="6f90e-123">The next message could be a message of any class, but typically it is of the same class or a related class.</span></span> <span data-ttu-id="6f90e-124">Isso faz com que o processo de leitura várias mensagens da mesma classe mais eficiente, permitindo que aplicativos de cliente reutilizar os objetos de formulário sempre que possível.</span><span class="sxs-lookup"><span data-stu-id="6f90e-124">This makes the process of reading multiple messages of the same class more efficient by enabling client applications to reuse form objects whenever possible.</span></span> 
+<span data-ttu-id="c2ecd-122">Visualizadores de formulário chame o método de **IMAPIFormAdviseSink::OnActivateNext** para ajudar a determinar se ele pode exibir a próxima mensagem em uma pasta de formulário.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-122">Form viewers call the **IMAPIFormAdviseSink::OnActivateNext** method to help the form determine whether it can display the next message in a folder.</span></span> <span data-ttu-id="c2ecd-123">A próxima mensagem poderia ser uma mensagem de qualquer classe, mas geralmente é da mesma classe ou uma classe relacionada.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-123">The next message could be a message of any class, but typically it is of the same class or a related class.</span></span> <span data-ttu-id="c2ecd-124">Isso faz com que o processo de leitura várias mensagens da mesma classe mais eficiente, permitindo que aplicativos de cliente reutilizar os objetos de formulário sempre que possível.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-124">This makes the process of reading multiple messages of the same class more efficient by enabling client applications to reuse form objects whenever possible.</span></span> 
   
-<span data-ttu-id="6f90e-125">A maioria dos objetos do formulário usará a classe de mensagem apontada pelo parâmetro _lpszMessageClass_ para determinar se podem lidar com a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-125">Most form objects will use the message class pointed to by the  _lpszMessageClass_ parameter to determine whether they can handle the next message.</span></span> <span data-ttu-id="6f90e-126">Geralmente, um formulário pode manipular mensagens que pertencem às classes do qual a classe do formulário padrão é uma subclasse, além das mensagens que pertencem à classe padrão.</span><span class="sxs-lookup"><span data-stu-id="6f90e-126">Usually a form can handle messages that belong to classes of which the form's default class is a subclass, in addition to messages that belong to the default class.</span></span> <span data-ttu-id="6f90e-127">No entanto, um formulário pode usar outros fatores para determinar sem pergunta se uma mensagem pode ser lida, como o status enviado ou não enviado da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-127">However, a form can use other factors to determine without question whether a message can be handled, such as the sent or unsent status of the next message.</span></span> 
+<span data-ttu-id="c2ecd-125">A maioria dos objetos do formulário usará a classe de mensagem apontada pelo parâmetro _lpszMessageClass_ para determinar se podem lidar com a próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-125">Most form objects will use the message class pointed to by the  _lpszMessageClass_ parameter to determine whether they can handle the next message.</span></span> <span data-ttu-id="c2ecd-126">Geralmente, um formulário pode manipular mensagens que pertencem às classes do qual a classe do formulário padrão é uma subclasse, além das mensagens que pertencem à classe padrão.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-126">Usually a form can handle messages that belong to classes of which the form's default class is a subclass, in addition to messages that belong to the default class.</span></span> <span data-ttu-id="c2ecd-127">No entanto, um formulário pode usar outros fatores para determinar sem pergunta se uma mensagem pode ser lida, como o status enviado ou não enviado da próxima mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-127">However, a form can use other factors to determine without question whether a message can be handled, such as the sent or unsent status of the next message.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="6f90e-128">Notas para implementadores</span><span class="sxs-lookup"><span data-stu-id="6f90e-128">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="c2ecd-128">Notas para implementadores</span><span class="sxs-lookup"><span data-stu-id="c2ecd-128">Notes to implementers</span></span>
 
-<span data-ttu-id="6f90e-129">Retorne S_OK e NULL no parâmetro _ppPersistMessage_ se o formulário pode manipular a classe da mensagem.</span><span class="sxs-lookup"><span data-stu-id="6f90e-129">Return S_OK and NULL in the  _ppPersistMessage_ parameter if the form can handle the message class.</span></span> <span data-ttu-id="6f90e-130">Se o formulário pode criar um novo formulário que pode manipular a mensagem que o formulário é capaz de manipular, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="6f90e-130">If the form can create a new form that can handle the message that the form is unable to handle, follow these steps:</span></span> 
+<span data-ttu-id="c2ecd-129">Retorne S_OK e NULL no parâmetro _ppPersistMessage_ se o formulário pode manipular a classe da mensagem.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-129">Return S_OK and NULL in the  _ppPersistMessage_ parameter if the form can handle the message class.</span></span> <span data-ttu-id="c2ecd-130">Se o formulário pode criar um novo formulário que pode manipular a mensagem que o formulário é capaz de manipular, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="c2ecd-130">If the form can create a new form that can handle the message that the form is unable to handle, follow these steps:</span></span> 
   
-1. <span data-ttu-id="6f90e-131">Chame o alocador de classe do formulário para criar uma instância de um novo objeto de formulário.</span><span class="sxs-lookup"><span data-stu-id="6f90e-131">Call your form's class factory to create an instance of a new form object.</span></span>
+1. <span data-ttu-id="c2ecd-131">Chame o alocador de classe do formulário para criar uma instância de um novo objeto de formulário.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-131">Call your form's class factory to create an instance of a new form object.</span></span>
     
-2. <span data-ttu-id="6f90e-132">Armazene essa instância no conteúdo do parâmetro _ppPersistMessage_ ponteiro.</span><span class="sxs-lookup"><span data-stu-id="6f90e-132">Store that instance in the contents of the  _ppPersistMessage_ pointer parameter.</span></span> 
+2. <span data-ttu-id="c2ecd-132">Armazene essa instância no conteúdo do parâmetro _ppPersistMessage_ ponteiro.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-132">Store that instance in the contents of the  _ppPersistMessage_ pointer parameter.</span></span> 
     
-3. <span data-ttu-id="6f90e-133">Retorne S_OK.</span><span class="sxs-lookup"><span data-stu-id="6f90e-133">Return S_OK.</span></span>
+3. <span data-ttu-id="c2ecd-133">Retorne S_OK.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-133">Return S_OK.</span></span>
     
-<span data-ttu-id="6f90e-134">A tela de formulário será carregado a mensagem usando o método [IPersistMessage::Load](ipersistmessage-load.md) que pertence ao objeto apontado pela _ppPersistMessage_.</span><span class="sxs-lookup"><span data-stu-id="6f90e-134">The form viewer will load the message by using the [IPersistMessage::Load](ipersistmessage-load.md) method that belongs to the object pointed to by  _ppPersistMessage_.</span></span>
+<span data-ttu-id="c2ecd-134">A tela de formulário será carregado a mensagem usando o método [IPersistMessage::Load](ipersistmessage-load.md) que pertence ao objeto apontado pela _ppPersistMessage_.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-134">The form viewer will load the message by using the [IPersistMessage::Load](ipersistmessage-load.md) method that belongs to the object pointed to by  _ppPersistMessage_.</span></span>
   
-<span data-ttu-id="6f90e-135">Se nem o formulário nem em um formulário que você pode criar pode manipular a próxima mensagem, retorne S_FALSE.</span><span class="sxs-lookup"><span data-stu-id="6f90e-135">If neither the form nor a form that you can create can handle the next message, return S_FALSE.</span></span> <span data-ttu-id="6f90e-136">No entanto, em geral, formulários não devem retornar que esse valor porque isso causar redução de desempenho no Visualizador do formulário.</span><span class="sxs-lookup"><span data-stu-id="6f90e-136">However, in general, forms should not return this value because it causes decreased performance in the form viewer.</span></span>
+<span data-ttu-id="c2ecd-135">Se nem o formulário nem em um formulário que você pode criar pode manipular a próxima mensagem, retorne S_FALSE.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-135">If neither the form nor a form that you can create can handle the next message, return S_FALSE.</span></span> <span data-ttu-id="c2ecd-136">No entanto, em geral, formulários não devem retornar que esse valor porque isso causar redução de desempenho no Visualizador do formulário.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-136">However, in general, forms should not return this value because it causes decreased performance in the form viewer.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6f90e-137">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="6f90e-137">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="c2ecd-137">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="c2ecd-137">MFCMAPI reference</span></span>
 
-<span data-ttu-id="6f90e-138">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="6f90e-138">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="c2ecd-138">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-138">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="6f90e-139">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="6f90e-139">**File**</span></span>|<span data-ttu-id="6f90e-140">**Function**</span><span class="sxs-lookup"><span data-stu-id="6f90e-140">**Function**</span></span>|<span data-ttu-id="6f90e-141">**Comment**</span><span class="sxs-lookup"><span data-stu-id="6f90e-141">**Comment**</span></span>|
+|<span data-ttu-id="c2ecd-139">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="c2ecd-139">**File**</span></span>|<span data-ttu-id="c2ecd-140">**Function**</span><span class="sxs-lookup"><span data-stu-id="c2ecd-140">**Function**</span></span>|<span data-ttu-id="c2ecd-141">**Comment**</span><span class="sxs-lookup"><span data-stu-id="c2ecd-141">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="6f90e-142">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="6f90e-142">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="6f90e-143">CMyMAPIFormViewer::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="6f90e-143">CMyMAPIFormViewer::ActivateNext</span></span>  <br/> |<span data-ttu-id="6f90e-144">MFCMAPI usa o método **IMAPIFormAdviseSink::OnActivateNext** para implementar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .</span><span class="sxs-lookup"><span data-stu-id="6f90e-144">MFCMAPI uses the **IMAPIFormAdviseSink::OnActivateNext** method to implement the [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) method.</span></span>  <br/> |
+|<span data-ttu-id="c2ecd-142">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="c2ecd-142">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="c2ecd-143">CMyMAPIFormViewer::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="c2ecd-143">CMyMAPIFormViewer::ActivateNext</span></span>  <br/> |<span data-ttu-id="c2ecd-144">MFCMAPI usa o método **IMAPIFormAdviseSink::OnActivateNext** para implementar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) .</span><span class="sxs-lookup"><span data-stu-id="c2ecd-144">MFCMAPI uses the **IMAPIFormAdviseSink::OnActivateNext** method to implement the [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) method.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6f90e-145">Confira também</span><span class="sxs-lookup"><span data-stu-id="6f90e-145">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c2ecd-145">Confira também</span><span class="sxs-lookup"><span data-stu-id="c2ecd-145">See also</span></span>
 
 
 
-[<span data-ttu-id="6f90e-146">IMAPIViewContext::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="6f90e-146">IMAPIViewContext::ActivateNext</span></span>](imapiviewcontext-activatenext.md)
+[<span data-ttu-id="c2ecd-146">IMAPIViewContext::ActivateNext</span><span class="sxs-lookup"><span data-stu-id="c2ecd-146">IMAPIViewContext::ActivateNext</span></span>](imapiviewcontext-activatenext.md)
   
-[<span data-ttu-id="6f90e-147">IPersistMessage: IUnknown</span><span class="sxs-lookup"><span data-stu-id="6f90e-147">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="c2ecd-147">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c2ecd-147">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
   
-[<span data-ttu-id="6f90e-148">IPersistMessage::Load</span><span class="sxs-lookup"><span data-stu-id="6f90e-148">IPersistMessage::Load</span></span>](ipersistmessage-load.md)
+[<span data-ttu-id="c2ecd-148">IPersistMessage::Load</span><span class="sxs-lookup"><span data-stu-id="c2ecd-148">IPersistMessage::Load</span></span>](ipersistmessage-load.md)
   
-[<span data-ttu-id="6f90e-149">Propriedade canônico de PidTagMessageFlags</span><span class="sxs-lookup"><span data-stu-id="6f90e-149">PidTagMessageFlags Canonical Property</span></span>](pidtagmessageflags-canonical-property.md)
+[<span data-ttu-id="c2ecd-149">Propriedade canônica PidTagMessageFlags</span><span class="sxs-lookup"><span data-stu-id="c2ecd-149">PidTagMessageFlags Canonical Property</span></span>](pidtagmessageflags-canonical-property.md)
   
-[<span data-ttu-id="6f90e-150">Propriedade canônico de PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="6f90e-150">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
+[<span data-ttu-id="c2ecd-150">Propriedade canônica PidTagMessageStatus</span><span class="sxs-lookup"><span data-stu-id="c2ecd-150">PidTagMessageStatus Canonical Property</span></span>](pidtagmessagestatus-canonical-property.md)
   
-[<span data-ttu-id="6f90e-151">IMAPIFormAdviseSink: IUnknown</span><span class="sxs-lookup"><span data-stu-id="6f90e-151">IMAPIFormAdviseSink : IUnknown</span></span>](imapiformadvisesinkiunknown.md)
+[<span data-ttu-id="c2ecd-151">IMAPIFormAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c2ecd-151">IMAPIFormAdviseSink : IUnknown</span></span>](imapiformadvisesinkiunknown.md)
 
 
-[<span data-ttu-id="6f90e-152">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="6f90e-152">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="c2ecd-152">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="c2ecd-152">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

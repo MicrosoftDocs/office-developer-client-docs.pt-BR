@@ -1,5 +1,5 @@
 ---
-title: Expandindo listas de distribuição
+title: Expandir listas de distribuição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766517"
 ---
-# <a name="expanding-distribution-lists"></a><span data-ttu-id="53bc9-103">Expandindo listas de distribuição</span><span class="sxs-lookup"><span data-stu-id="53bc9-103">Expanding Distribution Lists</span></span>
+# <a name="expanding-distribution-lists"></a><span data-ttu-id="29452-103">Expandir listas de distribuição</span><span class="sxs-lookup"><span data-stu-id="29452-103">Expanding Distribution Lists</span></span>
 
   
   
-<span data-ttu-id="53bc9-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="53bc9-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="29452-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="29452-104">**Applies to**: Outlook</span></span> 
   
- <span data-ttu-id="53bc9-105">**Para solicitar o MAPI para expandir uma lista de distribuição**</span><span class="sxs-lookup"><span data-stu-id="53bc9-105">**To prompt MAPI to expand a distribution list**</span></span>
+ <span data-ttu-id="29452-105">**Para solicitar o MAPI para expandir uma lista de distribuição**</span><span class="sxs-lookup"><span data-stu-id="29452-105">**To prompt MAPI to expand a distribution list**</span></span>
   
-- <span data-ttu-id="53bc9-106">Defina sua propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) para MAPIPDL.</span><span class="sxs-lookup"><span data-stu-id="53bc9-106">Set its **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.</span></span>
+- <span data-ttu-id="29452-106">Defina sua propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) para MAPIPDL.</span><span class="sxs-lookup"><span data-stu-id="29452-106">Set its **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property to MAPIPDL.</span></span>
     
-    <span data-ttu-id="53bc9-107">MAPI expande endereços com esse tipo de antes de enviar a mensagem para o provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="53bc9-107">MAPI expands addresses with this type before sending the message to the transport provider.</span></span>
+    <span data-ttu-id="29452-107">MAPI expande endereços com esse tipo de antes de enviar a mensagem para o provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="29452-107">MAPI expands addresses with this type before sending the message to the transport provider.</span></span>
     
 

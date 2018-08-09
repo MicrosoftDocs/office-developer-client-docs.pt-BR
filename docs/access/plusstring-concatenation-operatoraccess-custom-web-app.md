@@ -14,17 +14,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765200"
 ---
-# <a name="-string-concatenation-operator-access-custom-web-app"></a><span data-ttu-id="db500-104">+ (Operador de concatenação de cadeia de caracteres) (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="db500-104">+ (String Concatenation Operator) (Access custom web app)</span></span>
+# <a name="-string-concatenation-operator-access-custom-web-app"></a><span data-ttu-id="08926-104">+ (Operador de concatenação de cadeia de caracteres) (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="08926-104">+ (String Concatenation Operator) (Access custom web app)</span></span>
 
-<span data-ttu-id="db500-105">No sinal de adição (+) é o operador de concatenação de cadeia de caracteres que permite a concatenação de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="db500-105">The plus sign (+) is the string concatenation operator that enables string concatenation.</span></span> <span data-ttu-id="db500-106">Todos os outra manipulação de cadeia de caracteres é manipulada usando funções de cadeia de caracteres como **subcadeia de caracteres**.</span><span class="sxs-lookup"><span data-stu-id="db500-106">All other string manipulation is handled by using string functions such as **Substring**.</span></span> 
+<span data-ttu-id="08926-105">No sinal de adição (+) é o operador de concatenação de cadeia de caracteres que permite a concatenação de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="08926-105">The plus sign (+) is the string concatenation operator that enables string concatenation.</span></span> <span data-ttu-id="08926-106">Todos os outra manipulação de cadeia de caracteres é manipulada usando funções de cadeia de caracteres como **subcadeia de caracteres**.</span><span class="sxs-lookup"><span data-stu-id="08926-106">All other string manipulation is handled by using string functions such as **Substring**.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="db500-p103">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="db500-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="08926-p103">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="08926-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="db500-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="db500-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="08926-109">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="08926-109">Syntax</span></span>
 
- <span data-ttu-id="db500-110">*TextExpression* **+** *TextExpression*</span><span class="sxs-lookup"><span data-stu-id="db500-110">*TextExpression* **+** *TextExpression*</span></span> 
+ <span data-ttu-id="08926-110">*TextExpression* **+** *TextExpression*</span><span class="sxs-lookup"><span data-stu-id="08926-110">*TextExpression* **+** *TextExpression*</span></span> 
   
- <span data-ttu-id="db500-111">*TextExpression*  Qualquer expressão de texto válido.</span><span class="sxs-lookup"><span data-stu-id="db500-111">*TextExpression*  Any valid text expression.</span></span> 
+ <span data-ttu-id="08926-111">*TextExpression*  Qualquer expressão de texto válido.</span><span class="sxs-lookup"><span data-stu-id="08926-111">*TextExpression*  Any valid text expression.</span></span> 
   
 

@@ -14,21 +14,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765035"
 ---
-# <a name="ltrim-function-access-custom-web-app"></a><span data-ttu-id="2f1cd-103">Função LTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="2f1cd-103">LTrim Function (Access custom web app)</span></span>
+# <a name="ltrim-function-access-custom-web-app"></a><span data-ttu-id="a501c-103">Função LTrim (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="a501c-103">LTrim Function (Access custom web app)</span></span>
 
-<span data-ttu-id="2f1cd-104">Retorna uma expressão de caractere após ele remove espaços em branco líderes.</span><span class="sxs-lookup"><span data-stu-id="2f1cd-104">Returns a character expression after it removes leading blanks.</span></span>
+<span data-ttu-id="a501c-104">Retorna uma expressão de caractere após ele remove espaços em branco líderes.</span><span class="sxs-lookup"><span data-stu-id="a501c-104">Returns a character expression after it removes leading blanks.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="2f1cd-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="2f1cd-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="a501c-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="a501c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="2f1cd-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="2f1cd-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a501c-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a501c-107">Syntax</span></span>
 
- <span data-ttu-id="2f1cd-108">**Funções LTrim** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="2f1cd-108">**LTrim** (*TextExpression*)</span></span> 
+ <span data-ttu-id="a501c-108">**Funções LTrim** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="a501c-108">**LTrim** (*TextExpression*)</span></span> 
   
-<span data-ttu-id="2f1cd-109">A função **LTrim** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="2f1cd-109">The **LTrim** function contains the following argument.</span></span> 
+<span data-ttu-id="a501c-109">A função **LTrim** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="a501c-109">The **LTrim** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="2f1cd-110">**Nome do Argumento**</span><span class="sxs-lookup"><span data-stu-id="2f1cd-110">**Argument Name**</span></span>|<span data-ttu-id="2f1cd-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="2f1cd-111">**Description**</span></span>|
+|<span data-ttu-id="a501c-110">**Nome do Argumento**</span><span class="sxs-lookup"><span data-stu-id="a501c-110">**Argument Name**</span></span>|<span data-ttu-id="a501c-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="a501c-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="2f1cd-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="2f1cd-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="2f1cd-113">Uma expressão de cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="2f1cd-113">A string expression.</span></span>  <br/> |
+| <span data-ttu-id="a501c-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="a501c-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="a501c-113">Uma expressão de cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="a501c-113">A string expression.</span></span>  <br/> |
    
 

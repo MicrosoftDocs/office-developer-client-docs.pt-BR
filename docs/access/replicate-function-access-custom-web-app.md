@@ -14,22 +14,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19765219"
 ---
-# <a name="replicate-function-access-custom-web-app"></a><span data-ttu-id="48d55-103">Replicar função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="48d55-103">Replicate Function (Access custom web app)</span></span>
+# <a name="replicate-function-access-custom-web-app"></a><span data-ttu-id="4b6d2-103">Replicar função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="4b6d2-103">Replicate Function (Access custom web app)</span></span>
 
-<span data-ttu-id="48d55-104">Repete um valor de texto em um número de vezes especificado.</span><span class="sxs-lookup"><span data-stu-id="48d55-104">Repeats a text value a specified number of times.</span></span>
+<span data-ttu-id="4b6d2-104">Repete um valor de texto em um número de vezes especificado.</span><span class="sxs-lookup"><span data-stu-id="4b6d2-104">Repeats a text value a specified number of times.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="48d55-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="48d55-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="4b6d2-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="4b6d2-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="48d55-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="48d55-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b6d2-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4b6d2-107">Syntax</span></span>
 
- <span data-ttu-id="48d55-108">**Replicar** (*TextExpression*, *NumberOfTimes*)</span><span class="sxs-lookup"><span data-stu-id="48d55-108">**Replicate** (*TextExpression*, *NumberOfTimes*)</span></span> 
+ <span data-ttu-id="4b6d2-108">**Replicar** (*TextExpression*, *NumberOfTimes*)</span><span class="sxs-lookup"><span data-stu-id="4b6d2-108">**Replicate** (*TextExpression*, *NumberOfTimes*)</span></span> 
   
-<span data-ttu-id="48d55-109">A função **replicar** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="48d55-109">The **Replicate** function contains the following arguments.</span></span> 
+<span data-ttu-id="4b6d2-109">A função **replicar** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="4b6d2-109">The **Replicate** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="48d55-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="48d55-110">**Argument name**</span></span>|<span data-ttu-id="48d55-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="48d55-111">**Description**</span></span>|
+|<span data-ttu-id="4b6d2-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="4b6d2-110">**Argument name**</span></span>|<span data-ttu-id="4b6d2-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="4b6d2-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="48d55-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="48d55-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="48d55-113">Uma expressão de texto.</span><span class="sxs-lookup"><span data-stu-id="48d55-113">A text expression.</span></span>  <br/> |
-| <span data-ttu-id="48d55-114">*NumberOfTimes*</span><span class="sxs-lookup"><span data-stu-id="48d55-114">*NumberOfTimes*</span></span>  <br/> |<span data-ttu-id="48d55-115">Um inteiro que especifica o número de vezes para repetir a *TextExpression* .</span><span class="sxs-lookup"><span data-stu-id="48d55-115">An integer that specifies the number of times to repeat the  *TextExpression*  .</span></span>  <br/> |
+| <span data-ttu-id="4b6d2-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="4b6d2-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="4b6d2-113">Uma expressão de texto.</span><span class="sxs-lookup"><span data-stu-id="4b6d2-113">A text expression.</span></span>  <br/> |
+| <span data-ttu-id="4b6d2-114">*NumberOfTimes*</span><span class="sxs-lookup"><span data-stu-id="4b6d2-114">*NumberOfTimes*</span></span>  <br/> |<span data-ttu-id="4b6d2-115">Um inteiro que especifica o número de vezes para repetir a *TextExpression* .</span><span class="sxs-lookup"><span data-stu-id="4b6d2-115">An integer that specifies the number of times to repeat the  *TextExpression*  .</span></span>  <br/> |
    
 

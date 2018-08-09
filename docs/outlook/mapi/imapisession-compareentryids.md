@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
-description: '�ltima altera��o: segunda-feira, 9 de mar�o de 2015'
+description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: df6347298aab5404ec69bd9ac876863e31b741d0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767190"
 ---
-# <a name="imapisessioncompareentryids"></a><span data-ttu-id="909d3-103">IMAPISession::CompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="909d3-103">IMAPISession::CompareEntryIDs</span></span>
+# <a name="imapisessioncompareentryids"></a><span data-ttu-id="83f2b-103">IMAPISession::CompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="83f2b-103">IMAPISession::CompareEntryIDs</span></span>
 
   
   
-<span data-ttu-id="909d3-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="909d3-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="83f2b-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="83f2b-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="909d3-105">Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="909d3-105">Compares two entry identifiers to determine whether they refer to the same object.</span></span> 
+<span data-ttu-id="83f2b-105">Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="83f2b-105">Compares two entry identifiers to determine whether they refer to the same object.</span></span> 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -38,68 +38,68 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="909d3-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="909d3-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="83f2b-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="83f2b-106">Parameters</span></span>
 
- <span data-ttu-id="909d3-107">_cbEntryID1_</span><span class="sxs-lookup"><span data-stu-id="909d3-107">_cbEntryID1_</span></span>
+ <span data-ttu-id="83f2b-107">_cbEntryID1_</span><span class="sxs-lookup"><span data-stu-id="83f2b-107">_cbEntryID1_</span></span>
   
-> <span data-ttu-id="909d3-108">[in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID1_ .</span><span class="sxs-lookup"><span data-stu-id="909d3-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID1_ parameter.</span></span> 
+> <span data-ttu-id="83f2b-108">[in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID1_ .</span><span class="sxs-lookup"><span data-stu-id="83f2b-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID1_ parameter.</span></span> 
     
- <span data-ttu-id="909d3-109">_lpEntryID1_</span><span class="sxs-lookup"><span data-stu-id="909d3-109">_lpEntryID1_</span></span>
+ <span data-ttu-id="83f2b-109">_lpEntryID1_</span><span class="sxs-lookup"><span data-stu-id="83f2b-109">_lpEntryID1_</span></span>
   
-> <span data-ttu-id="909d3-110">[in] Um ponteiro para o primeiro identificador de entrada a ser comparada.</span><span class="sxs-lookup"><span data-stu-id="909d3-110">[in] A pointer to the first entry identifier to be compared.</span></span>
+> <span data-ttu-id="83f2b-110">[in] Um ponteiro para o primeiro identificador de entrada a ser comparada.</span><span class="sxs-lookup"><span data-stu-id="83f2b-110">[in] A pointer to the first entry identifier to be compared.</span></span>
     
- <span data-ttu-id="909d3-111">_cbEntryID2_</span><span class="sxs-lookup"><span data-stu-id="909d3-111">_cbEntryID2_</span></span>
+ <span data-ttu-id="83f2b-111">_cbEntryID2_</span><span class="sxs-lookup"><span data-stu-id="83f2b-111">_cbEntryID2_</span></span>
   
-> <span data-ttu-id="909d3-112">[in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID2_ .</span><span class="sxs-lookup"><span data-stu-id="909d3-112">[in] The byte count in the entry identifier pointed to by the  _lpEntryID2_ parameter.</span></span> 
+> <span data-ttu-id="83f2b-112">[in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID2_ .</span><span class="sxs-lookup"><span data-stu-id="83f2b-112">[in] The byte count in the entry identifier pointed to by the  _lpEntryID2_ parameter.</span></span> 
     
- <span data-ttu-id="909d3-113">_lpEntryID2_</span><span class="sxs-lookup"><span data-stu-id="909d3-113">_lpEntryID2_</span></span>
+ <span data-ttu-id="83f2b-113">_lpEntryID2_</span><span class="sxs-lookup"><span data-stu-id="83f2b-113">_lpEntryID2_</span></span>
   
-> <span data-ttu-id="909d3-114">[in] Um ponteiro para o segundo identificador de entrada a ser comparada.</span><span class="sxs-lookup"><span data-stu-id="909d3-114">[in] A pointer to the second entry identifier to be compared.</span></span>
+> <span data-ttu-id="83f2b-114">[in] Um ponteiro para o segundo identificador de entrada a ser comparada.</span><span class="sxs-lookup"><span data-stu-id="83f2b-114">[in] A pointer to the second entry identifier to be compared.</span></span>
     
- <span data-ttu-id="909d3-115">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="909d3-115">_ulFlags_</span></span>
+ <span data-ttu-id="83f2b-115">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="83f2b-115">_ulFlags_</span></span>
   
-> <span data-ttu-id="909d3-116">[in] Reservado; deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="909d3-116">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="83f2b-116">[in] Reservado; deve ser zero.</span><span class="sxs-lookup"><span data-stu-id="83f2b-116">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="909d3-117">_lpulResult_</span><span class="sxs-lookup"><span data-stu-id="909d3-117">_lpulResult_</span></span>
+ <span data-ttu-id="83f2b-117">_lpulResult_</span><span class="sxs-lookup"><span data-stu-id="83f2b-117">_lpulResult_</span></span>
   
-> <span data-ttu-id="909d3-118">[out] Um ponteiro para o resultado da comparação.</span><span class="sxs-lookup"><span data-stu-id="909d3-118">[out] A pointer to the result of the comparison.</span></span> <span data-ttu-id="909d3-119">TRUE se os identificadores de dois entrada se referir ao mesmo objeto; Caso contrário, FALSE.</span><span class="sxs-lookup"><span data-stu-id="909d3-119">TRUE if the two entry identifiers refer to the same object; otherwise, FALSE.</span></span>
+> <span data-ttu-id="83f2b-118">[out] Um ponteiro para o resultado da comparação.</span><span class="sxs-lookup"><span data-stu-id="83f2b-118">[out] A pointer to the result of the comparison.</span></span> <span data-ttu-id="83f2b-119">TRUE se os identificadores de dois entrada se referir ao mesmo objeto; Caso contrário, FALSE.</span><span class="sxs-lookup"><span data-stu-id="83f2b-119">TRUE if the two entry identifiers refer to the same object; otherwise, FALSE.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="909d3-120">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="909d3-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="83f2b-120">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="83f2b-120">Return value</span></span>
 
-<span data-ttu-id="909d3-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="909d3-121">S_OK</span></span> 
+<span data-ttu-id="83f2b-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="83f2b-121">S_OK</span></span> 
   
-> <span data-ttu-id="909d3-122">A comparação foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="909d3-122">The comparison was successful.</span></span>
+> <span data-ttu-id="83f2b-122">A comparação foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="83f2b-122">The comparison was successful.</span></span>
     
-<span data-ttu-id="909d3-123">MAPI_E_UNKNOWN_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="909d3-123">MAPI_E_UNKNOWN_ENTRYID</span></span> 
+<span data-ttu-id="83f2b-123">MAPI_E_UNKNOWN_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="83f2b-123">MAPI_E_UNKNOWN_ENTRYID</span></span> 
   
-> <span data-ttu-id="909d3-124">Um ou ambos os identificadores de entrada especificados como parâmetros não fazem referência a objetos, possivelmente porque esses objetos são atualmente não abertas e não está disponível.</span><span class="sxs-lookup"><span data-stu-id="909d3-124">One or both of the entry identifiers specified as parameters do not refer to objects, possibly because these objects are currently unopened and unavailable.</span></span>
+> <span data-ttu-id="83f2b-124">Um ou ambos os identificadores de entrada especificados como parâmetros não fazem referência a objetos, possivelmente porque esses objetos são atualmente não abertas e não está disponível.</span><span class="sxs-lookup"><span data-stu-id="83f2b-124">One or both of the entry identifiers specified as parameters do not refer to objects, possibly because these objects are currently unopened and unavailable.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="909d3-125">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="909d3-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="83f2b-125">Comentários</span><span class="sxs-lookup"><span data-stu-id="83f2b-125">Remarks</span></span>
 
-<span data-ttu-id="909d3-126">O método **IMAPISession::CompareEntryIDs** compara dois identificadores de entrada que pertencem a um provedor de serviços único para determinar se eles se referem ao mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="909d3-126">The **IMAPISession::CompareEntryIDs** method compares two entry identifiers that belong to a single service provider to determine whether they refer to the same object.</span></span> <span data-ttu-id="909d3-127">MAPI extrai a parte do [MAPIUID](mapiuid.md) dos identificadores de entrada para determinar o responsável para os objetos do provedor de serviço e, em seguida, chama o método de **CompareEntryIDs** do seu objeto logon para executar a comparação.</span><span class="sxs-lookup"><span data-stu-id="909d3-127">MAPI extracts the [MAPIUID](mapiuid.md) portion from the entry identifiers to determine the service provider responsible for the objects and then calls its logon object's **CompareEntryIDs** method to perform the comparison.</span></span> 
+<span data-ttu-id="83f2b-126">O método **IMAPISession::CompareEntryIDs** compara dois identificadores de entrada que pertencem a um provedor de serviços único para determinar se eles se referem ao mesmo objeto.</span><span class="sxs-lookup"><span data-stu-id="83f2b-126">The **IMAPISession::CompareEntryIDs** method compares two entry identifiers that belong to a single service provider to determine whether they refer to the same object.</span></span> <span data-ttu-id="83f2b-127">MAPI extrai a parte do [MAPIUID](mapiuid.md) dos identificadores de entrada para determinar o responsável para os objetos do provedor de serviço e, em seguida, chama o método de **CompareEntryIDs** do seu objeto logon para executar a comparação.</span><span class="sxs-lookup"><span data-stu-id="83f2b-127">MAPI extracts the [MAPIUID](mapiuid.md) portion from the entry identifiers to determine the service provider responsible for the objects and then calls its logon object's **CompareEntryIDs** method to perform the comparison.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="909d3-128">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="909d3-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="83f2b-128">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="83f2b-128">Notes to callers</span></span>
 
-<span data-ttu-id="909d3-129">O método **CompareEntryIDs** é útil porque um objeto pode ter mais de um identificador de entrada válida.</span><span class="sxs-lookup"><span data-stu-id="909d3-129">The **CompareEntryIDs** method is useful because an object can have more than one valid entry identifier.</span></span> <span data-ttu-id="909d3-130">Esta situação pode ocorrer, por exemplo, depois que uma nova versão de um provedor de serviço é instalada.</span><span class="sxs-lookup"><span data-stu-id="909d3-130">This situation can occur, for example, after a new version of a service provider is installed.</span></span> 
+<span data-ttu-id="83f2b-129">O método **CompareEntryIDs** é útil porque um objeto pode ter mais de um identificador de entrada válida.</span><span class="sxs-lookup"><span data-stu-id="83f2b-129">The **CompareEntryIDs** method is useful because an object can have more than one valid entry identifier.</span></span> <span data-ttu-id="83f2b-130">Esta situação pode ocorrer, por exemplo, depois que uma nova versão de um provedor de serviço é instalada.</span><span class="sxs-lookup"><span data-stu-id="83f2b-130">This situation can occur, for example, after a new version of a service provider is installed.</span></span> 
   
-<span data-ttu-id="909d3-131">Se **CompareEntryIDs** retornará um erro, não terão qualquer ação baseada no resultado da comparação.</span><span class="sxs-lookup"><span data-stu-id="909d3-131">If **CompareEntryIDs** returns an error, do not take any action based on the result of the comparison.</span></span> <span data-ttu-id="909d3-132">Em vez disso, a abordagem mais conservadora levar possíveis.</span><span class="sxs-lookup"><span data-stu-id="909d3-132">Instead, take the most conservative approach possible.</span></span> <span data-ttu-id="909d3-133">**CompareEntryIDs** pode falhar se, por exemplo, um ou ambos os identificadores de entrada contiverem um inválido **MAPIUID**.</span><span class="sxs-lookup"><span data-stu-id="909d3-133">**CompareEntryIDs** might fail if, for example, one or both of the entry identifiers contain an invalid **MAPIUID**.</span></span> 
+<span data-ttu-id="83f2b-131">Se **CompareEntryIDs** retornará um erro, não terão qualquer ação baseada no resultado da comparação.</span><span class="sxs-lookup"><span data-stu-id="83f2b-131">If **CompareEntryIDs** returns an error, do not take any action based on the result of the comparison.</span></span> <span data-ttu-id="83f2b-132">Em vez disso, a abordagem mais conservadora levar possíveis.</span><span class="sxs-lookup"><span data-stu-id="83f2b-132">Instead, take the most conservative approach possible.</span></span> <span data-ttu-id="83f2b-133">**CompareEntryIDs** pode falhar se, por exemplo, um ou ambos os identificadores de entrada contiverem um inválido **MAPIUID**.</span><span class="sxs-lookup"><span data-stu-id="83f2b-133">**CompareEntryIDs** might fail if, for example, one or both of the entry identifiers contain an invalid **MAPIUID**.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="909d3-134">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="909d3-134">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="83f2b-134">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="83f2b-134">MFCMAPI reference</span></span>
 
-<span data-ttu-id="909d3-135">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="909d3-135">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="83f2b-135">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="83f2b-135">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="909d3-136">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="909d3-136">**File**</span></span>|<span data-ttu-id="909d3-137">**Function**</span><span class="sxs-lookup"><span data-stu-id="909d3-137">**Function**</span></span>|<span data-ttu-id="909d3-138">**Comment**</span><span class="sxs-lookup"><span data-stu-id="909d3-138">**Comment**</span></span>|
+|<span data-ttu-id="83f2b-136">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="83f2b-136">**File**</span></span>|<span data-ttu-id="83f2b-137">**Function**</span><span class="sxs-lookup"><span data-stu-id="83f2b-137">**Function**</span></span>|<span data-ttu-id="83f2b-138">**Comment**</span><span class="sxs-lookup"><span data-stu-id="83f2b-138">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="909d3-139">BaseDialog.cpp</span><span class="sxs-lookup"><span data-stu-id="909d3-139">BaseDialog.cpp</span></span>  <br/> |<span data-ttu-id="909d3-140">CbaseDialog::OnCompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="909d3-140">CbaseDialog::OnCompareEntryIDs</span></span>  <br/> |<span data-ttu-id="909d3-141">MFCMAPI usa o método **IMAPISession::CompareEntryIDs** para comparar duas identificações de entrada que um usuário digita.</span><span class="sxs-lookup"><span data-stu-id="909d3-141">MFCMAPI uses the **IMAPISession::CompareEntryIDs** method to compare two entry IDs that a user enters.</span></span>  <br/> |
+|<span data-ttu-id="83f2b-139">BaseDialog.cpp</span><span class="sxs-lookup"><span data-stu-id="83f2b-139">BaseDialog.cpp</span></span>  <br/> |<span data-ttu-id="83f2b-140">CbaseDialog::OnCompareEntryIDs</span><span class="sxs-lookup"><span data-stu-id="83f2b-140">CbaseDialog::OnCompareEntryIDs</span></span>  <br/> |<span data-ttu-id="83f2b-141">MFCMAPI usa o método **IMAPISession::CompareEntryIDs** para comparar duas identificações de entrada que um usuário digita.</span><span class="sxs-lookup"><span data-stu-id="83f2b-141">MFCMAPI uses the **IMAPISession::CompareEntryIDs** method to compare two entry IDs that a user enters.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="909d3-142">Confira também</span><span class="sxs-lookup"><span data-stu-id="909d3-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83f2b-142">Confira também</span><span class="sxs-lookup"><span data-stu-id="83f2b-142">See also</span></span>
 
 
 
-[<span data-ttu-id="909d3-143">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="909d3-143">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="83f2b-143">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="83f2b-143">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="909d3-144">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="909d3-144">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="83f2b-144">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="83f2b-144">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="909d3-145">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="909d3-145">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="83f2b-145">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="83f2b-145">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

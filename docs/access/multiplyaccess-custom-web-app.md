@@ -14,23 +14,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765193"
 ---
-# <a name="multiply-access-custom-web-app"></a><span data-ttu-id="f1a32-103">Multiplique (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="f1a32-103">Multiply (Access custom web app)</span></span>
+# <a name="multiply-access-custom-web-app"></a><span data-ttu-id="ba195-103">Multiplique (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="ba195-103">Multiply (Access custom web app)</span></span>
 
-<span data-ttu-id="f1a32-104">Multiplica duas expressões.</span><span class="sxs-lookup"><span data-stu-id="f1a32-104">Multiplies two expressions.</span></span>
+<span data-ttu-id="ba195-104">Multiplica duas expressões.</span><span class="sxs-lookup"><span data-stu-id="ba195-104">Multiplies two expressions.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f1a32-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="f1a32-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="ba195-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="ba195-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f1a32-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="f1a32-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ba195-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ba195-107">Syntax</span></span>
 
 `* (Multiply)`
 
-<span data-ttu-id="f1a32-108">*expressão*  \*  *expressão*</span><span class="sxs-lookup"><span data-stu-id="f1a32-108">*expression*  \*  *expression*</span></span> 
+<span data-ttu-id="ba195-108">*expressão*  \*  *expressão*</span><span class="sxs-lookup"><span data-stu-id="ba195-108">*expression*  \*  *expression*</span></span> 
   
-<span data-ttu-id="f1a32-109">*expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico.</span><span class="sxs-lookup"><span data-stu-id="f1a32-109">*expression*  Any valid expression of any one of the data types in the numeric category.</span></span> 
+<span data-ttu-id="ba195-109">*expressão*  Qualquer expressão válida de qualquer um dos tipos de dados na categoria numérico.</span><span class="sxs-lookup"><span data-stu-id="ba195-109">*expression*  Any valid expression of any one of the data types in the numeric category.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="f1a32-110">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="f1a32-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ba195-110">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="ba195-110">Return value</span></span>
 
-<span data-ttu-id="f1a32-111">Retorna o tipo de dados do argumento com a prioridade mais alta.</span><span class="sxs-lookup"><span data-stu-id="f1a32-111">Returns the data type of the argument with the higher precedence.</span></span>
+<span data-ttu-id="ba195-111">Retorna o tipo de dados do argumento com a prioridade mais alta.</span><span class="sxs-lookup"><span data-stu-id="ba195-111">Returns the data type of the argument with the higher precedence.</span></span>
   
 

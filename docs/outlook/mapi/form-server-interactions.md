@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766587"
 ---
-# <a name="form-server-interactions"></a><span data-ttu-id="8395a-103">Interações do servidor de formulário</span><span class="sxs-lookup"><span data-stu-id="8395a-103">Form server interactions</span></span>
+# <a name="form-server-interactions"></a><span data-ttu-id="54172-103">Interações do servidor de formulário</span><span class="sxs-lookup"><span data-stu-id="54172-103">Form server interactions</span></span>
 
-<span data-ttu-id="8395a-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8395a-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="54172-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="54172-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="8395a-105">Os tópicos nesta seção descrevem as interações entre aplicativos clientes, o gerente do formulário MAPI, servidores de formulário e objetos de formulário para uma variedade de ações comuns, como abrir uma mensagem e redigir uma nova mensagem.</span><span class="sxs-lookup"><span data-stu-id="8395a-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
+<span data-ttu-id="54172-105">Os tópicos nesta seção descrevem as interações entre aplicativos clientes, o gerente do formulário MAPI, servidores de formulário e objetos de formulário para uma variedade de ações comuns, como abrir uma mensagem e redigir uma nova mensagem.</span><span class="sxs-lookup"><span data-stu-id="54172-105">The topics in this section describe interactions between client applications, the MAPI form manager, form servers, and form objects for a variety of common actions such as opening a message and composing a new message.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8395a-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="8395a-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54172-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="54172-106">See also</span></span>
 
-- [<span data-ttu-id="8395a-107">Desenvolvimento de servidores de formulário MAPI</span><span class="sxs-lookup"><span data-stu-id="8395a-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
+- [<span data-ttu-id="54172-107">Desenvolver servidores de formulário MAPI</span><span class="sxs-lookup"><span data-stu-id="54172-107">Developing MAPI Form Servers</span></span>](developing-mapi-form-servers.md)
 

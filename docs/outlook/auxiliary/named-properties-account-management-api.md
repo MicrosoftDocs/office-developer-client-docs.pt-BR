@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19766042"
 ---
-# <a name="named-properties-account-management-api"></a><span data-ttu-id="dc208-103">Propriedades nomeadas (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="dc208-103">Named properties (Account management API)</span></span>
+# <a name="named-properties-account-management-api"></a><span data-ttu-id="2e91a-103">Propriedades nomeadas (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="2e91a-103">Named properties (Account management API)</span></span>
 
-<span data-ttu-id="dc208-104">Esta seção descreve as propriedades nomeadas do API de gerenciamento de conta.</span><span class="sxs-lookup"><span data-stu-id="dc208-104">This section describes the named properties in the Account Management API.</span></span>
+<span data-ttu-id="2e91a-104">Esta seção descreve as propriedades nomeadas do API de gerenciamento de conta.</span><span class="sxs-lookup"><span data-stu-id="2e91a-104">This section describes the named properties in the Account Management API.</span></span>
   
-|<span data-ttu-id="dc208-105">**Propriedade nomeada**</span><span class="sxs-lookup"><span data-stu-id="dc208-105">**Named property**</span></span>|<span data-ttu-id="dc208-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="dc208-106">**Description**</span></span>|
+|<span data-ttu-id="2e91a-105">**Propriedade nomeada**</span><span class="sxs-lookup"><span data-stu-id="2e91a-105">**Named property**</span></span>|<span data-ttu-id="2e91a-106">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="2e91a-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="dc208-107">PidLidInternetAccountName</span><span class="sxs-lookup"><span data-stu-id="dc208-107">PidLidInternetAccountName</span></span>](pidlidinternetaccountname.md) <br/> |<span data-ttu-id="dc208-108">Retorna o nome para exibição da conta que entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="dc208-108">Returns the display name of the account that delivered the message.</span></span>  <br/> |
-|[<span data-ttu-id="dc208-109">PidLidInternetAccountStamp</span><span class="sxs-lookup"><span data-stu-id="dc208-109">PidLidInternetAccountStamp</span></span>](pidlidinternetaccountstamp.md) <br/> |<span data-ttu-id="dc208-110">Retorna o carimbo da conta da conta que entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="dc208-110">Returns the account stamp of the account that delivered the message.</span></span>  <br/> |
+|[<span data-ttu-id="2e91a-107">PidLidInternetAccountName</span><span class="sxs-lookup"><span data-stu-id="2e91a-107">PidLidInternetAccountName</span></span>](pidlidinternetaccountname.md) <br/> |<span data-ttu-id="2e91a-108">Retorna o nome para exibição da conta que entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="2e91a-108">Returns the display name of the account that delivered the message.</span></span>  <br/> |
+|[<span data-ttu-id="2e91a-109">PidLidInternetAccountStamp</span><span class="sxs-lookup"><span data-stu-id="2e91a-109">PidLidInternetAccountStamp</span></span>](pidlidinternetaccountstamp.md) <br/> |<span data-ttu-id="2e91a-110">Retorna o carimbo da conta da conta que entregar a mensagem.</span><span class="sxs-lookup"><span data-stu-id="2e91a-110">Returns the account stamp of the account that delivered the message.</span></span>  <br/> |
    
 

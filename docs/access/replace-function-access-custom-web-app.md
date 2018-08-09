@@ -14,23 +14,23 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765220"
 ---
-# <a name="replace-function-access-custom-web-app"></a><span data-ttu-id="2f39d-103">Substituir função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="2f39d-103">Replace Function (Access custom web app)</span></span>
+# <a name="replace-function-access-custom-web-app"></a><span data-ttu-id="f72ee-103">Substituir função (aplicativo da web personalizado do Access)</span><span class="sxs-lookup"><span data-stu-id="f72ee-103">Replace Function (Access custom web app)</span></span>
 
-<span data-ttu-id="2f39d-104">Substitui todas as ocorrências de um valor de cadeia de caracteres especificada por outro valor de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="2f39d-104">Replaces all occurrences of a specified string value with another string value.</span></span>
+<span data-ttu-id="f72ee-104">Substitui todas as ocorrências de um valor de cadeia de caracteres especificada por outro valor de cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="f72ee-104">Replaces all occurrences of a specified string value with another string value.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="2f39d-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="2f39d-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/pt-br/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="f72ee-p101">A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="f72ee-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="2f39d-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="2f39d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f72ee-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f72ee-107">Syntax</span></span>
 
- <span data-ttu-id="2f39d-108">**Substituir** (*TextExpression*, *padrão*, *substituição*)</span><span class="sxs-lookup"><span data-stu-id="2f39d-108">**Replace** (*TextExpression*, *Pattern*, *Replacement*)</span></span> 
+ <span data-ttu-id="f72ee-108">**Substituir** (*TextExpression*, *padrão*, *substituição*)</span><span class="sxs-lookup"><span data-stu-id="f72ee-108">**Replace** (*TextExpression*, *Pattern*, *Replacement*)</span></span> 
   
-<span data-ttu-id="2f39d-109">A função **Replace** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="2f39d-109">The **Replace** function contains the following arguments.</span></span> 
+<span data-ttu-id="f72ee-109">A função **Replace** contém os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="f72ee-109">The **Replace** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="2f39d-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="2f39d-110">**Argument name**</span></span>|<span data-ttu-id="2f39d-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="2f39d-111">**Description**</span></span>|
+|<span data-ttu-id="f72ee-110">**Nome do argumento**</span><span class="sxs-lookup"><span data-stu-id="f72ee-110">**Argument name**</span></span>|<span data-ttu-id="f72ee-111">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="f72ee-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="2f39d-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="2f39d-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="2f39d-113">A expressão de cadeia de caracteres a ser pesquisado.</span><span class="sxs-lookup"><span data-stu-id="2f39d-113">The string expression to be searched.</span></span>  <br/> |
-| <span data-ttu-id="2f39d-114">*Pattern*</span><span class="sxs-lookup"><span data-stu-id="2f39d-114">*Pattern*</span></span>  <br/> |<span data-ttu-id="2f39d-115">A subcadeia de caracteres a ser localizado.</span><span class="sxs-lookup"><span data-stu-id="2f39d-115">The substring to be found.</span></span>  <span data-ttu-id="2f39d-116">*Padrão* não pode ser uma cadeia de caracteres vazia ("").</span><span class="sxs-lookup"><span data-stu-id="2f39d-116">*Pattern*  cannot be an empty string ("").</span></span>  <br/> |
-| <span data-ttu-id="2f39d-117">*Replacement*</span><span class="sxs-lookup"><span data-stu-id="2f39d-117">*Replacement*</span></span>  <br/> |<span data-ttu-id="2f39d-118">A cadeia de caracteres de substituição.</span><span class="sxs-lookup"><span data-stu-id="2f39d-118">The replacement string.</span></span>  <br/> |
+| <span data-ttu-id="f72ee-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="f72ee-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="f72ee-113">A expressão de cadeia de caracteres a ser pesquisado.</span><span class="sxs-lookup"><span data-stu-id="f72ee-113">The string expression to be searched.</span></span>  <br/> |
+| <span data-ttu-id="f72ee-114">*Pattern*</span><span class="sxs-lookup"><span data-stu-id="f72ee-114">*Pattern*</span></span>  <br/> |<span data-ttu-id="f72ee-115">A subcadeia de caracteres a ser localizado.</span><span class="sxs-lookup"><span data-stu-id="f72ee-115">The substring to be found.</span></span>  <span data-ttu-id="f72ee-116">*Padrão* não pode ser uma cadeia de caracteres vazia ("").</span><span class="sxs-lookup"><span data-stu-id="f72ee-116">*Pattern*  cannot be an empty string ("").</span></span>  <br/> |
+| <span data-ttu-id="f72ee-117">*Replacement*</span><span class="sxs-lookup"><span data-stu-id="f72ee-117">*Replacement*</span></span>  <br/> |<span data-ttu-id="f72ee-118">A cadeia de caracteres de substituição.</span><span class="sxs-lookup"><span data-stu-id="f72ee-118">The replacement string.</span></span>  <br/> |
    
 

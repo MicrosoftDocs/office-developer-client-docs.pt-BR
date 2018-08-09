@@ -1,0 +1,44 @@
+---
+title: Anexos de MAPI
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
+description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+ms.openlocfilehash: c6538f8fef7d8ccb87b6e6d9d2b9c68779ca8582
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19767826"
+---
+# <a name="mapi-attachments"></a><span data-ttu-id="0fda4-103">Anexos de MAPI</span><span class="sxs-lookup"><span data-stu-id="0fda4-103">MAPI Attachments</span></span>
+
+  
+  
+<span data-ttu-id="0fda4-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0fda4-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="0fda4-105">Alguns provedores de armazenamento de mensagem permitem que os clientes associar informações adicionadas na forma de arquivos, objetos OLE, mensagens ou dados binários de mensagens.</span><span class="sxs-lookup"><span data-stu-id="0fda4-105">Some message store providers enable clients to associate added information in the form of files, OLE objects, messages, or binary data with messages.</span></span> <span data-ttu-id="0fda4-106">Essas informações adicionadas são chamadas de anexos da mensagem.</span><span class="sxs-lookup"><span data-stu-id="0fda4-106">This added information is called a message's attachment.</span></span> <span data-ttu-id="0fda4-107">Como anexos são criados, mantidos e acessados apenas por meio de suas mensagens, eles são considerados subobjetos de mensagem.</span><span class="sxs-lookup"><span data-stu-id="0fda4-107">Because attachments are created, maintained, and accessed only through their messages, they are considered message subobjects.</span></span> <span data-ttu-id="0fda4-108">Em vez de um identificador de entrada de acesso, anexos tem um conhecido número sequencial como um número de anexo.</span><span class="sxs-lookup"><span data-stu-id="0fda4-108">Rather than having an entry identifier for access, attachments have a sequential number known as an attachment number.</span></span> <span data-ttu-id="0fda4-109">Esse número identifica exclusivamente o anexo dentro de sua mensagem, mas não necessariamente dentro do repositório de mensagem.</span><span class="sxs-lookup"><span data-stu-id="0fda4-109">This number uniquely identifies the attachment within its message, but not necessarily within the message store.</span></span> <span data-ttu-id="0fda4-110">Duas mensagens diferentes podem ter diferentes anexos com o mesmo número de anexo.</span><span class="sxs-lookup"><span data-stu-id="0fda4-110">Two different messages can have different attachments with the same attachment number.</span></span> <span data-ttu-id="0fda4-111">Números de anexo somente são válidos desde que a mensagem é aberta e são armazenados na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="0fda4-111">Attachment numbers are only valid as long as the message is open and are stored in the **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property.</span></span>
+  
+<span data-ttu-id="0fda4-112">Para acessar informações de resumo sobre todos os anexos da mensagem, clientes recuperam sua tabela de anexo.</span><span class="sxs-lookup"><span data-stu-id="0fda4-112">To access summary information about all of a message's attachments, clients retrieve its attachment table.</span></span> <span data-ttu-id="0fda4-113">A tabela de anexo inclui informações que os clientes podem usar para acessar um anexo diretamente, como seu número de anexo e a chave do registro.</span><span class="sxs-lookup"><span data-stu-id="0fda4-113">The attachment table includes information that clients can use to access an attachment directly, such as its attachment number and record key.</span></span> <span data-ttu-id="0fda4-114">Os clientes podem recuperar uma tabela de anexo por:</span><span class="sxs-lookup"><span data-stu-id="0fda4-114">Clients can retrieve an attachment table by:</span></span>
+  
+- <span data-ttu-id="0fda4-115">Chamando **IMessage::GetAttachmentTable**.</span><span class="sxs-lookup"><span data-stu-id="0fda4-115">Calling **IMessage::GetAttachmentTable**.</span></span> <span data-ttu-id="0fda4-116">Para obter mais informações, consulte [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).</span><span class="sxs-lookup"><span data-stu-id="0fda4-116">For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).</span></span>
+    
+- <span data-ttu-id="0fda4-117">Chamando **IMAPIProp::OpenProperty**.</span><span class="sxs-lookup"><span data-stu-id="0fda4-117">Calling **IMAPIProp::OpenProperty**.</span></span> <span data-ttu-id="0fda4-118">Para obter mais informações, consulte [IMAPIProp::OpenProperty](imapiprop-openproperty.md).</span><span class="sxs-lookup"><span data-stu-id="0fda4-118">For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).</span></span>
+    
+<span data-ttu-id="0fda4-119">Provedores de armazenamento de mensagem esperados para dar suporte a essas duas abordagens.</span><span class="sxs-lookup"><span data-stu-id="0fda4-119">Message store providers are expected to support both of these approaches.</span></span> <span data-ttu-id="0fda4-120">A abordagem de **OpenProperty** requer que o chamador Especifica IID_IMAPITable como o identificador de interface e **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) como a marca de propriedade.</span><span class="sxs-lookup"><span data-stu-id="0fda4-120">The **OpenProperty** approach requires that the caller specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) as the property tag.</span></span> <span data-ttu-id="0fda4-121">**PR_MESSAGE_ATTACHMENTS** é uma propriedade de objeto de tabela que representa a tabela de anexos da mensagem.</span><span class="sxs-lookup"><span data-stu-id="0fda4-121">**PR_MESSAGE_ATTACHMENTS** is a table object property that represents a message's attachment table.</span></span> <span data-ttu-id="0fda4-122">Provedores de armazenamento de mensagem são necessárias para definir **PR_MESSAGE_ATTACHMENTS** para cada mensagem e incluí-lo na matriz de marcas de propriedade retornado pelo método **IMAPIProp::GetPropList** .</span><span class="sxs-lookup"><span data-stu-id="0fda4-122">Message store providers are required to set **PR_MESSAGE_ATTACHMENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method.</span></span> <span data-ttu-id="0fda4-123">Para obter mais informações, consulte [IMAPIProp::GetPropList](imapiprop-getproplist.md).</span><span class="sxs-lookup"><span data-stu-id="0fda4-123">For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).</span></span>
+  
+ <span data-ttu-id="0fda4-124">**PR_MESSAGE_ATTACHMENTS** pode ser usado:</span><span class="sxs-lookup"><span data-stu-id="0fda4-124">**PR_MESSAGE_ATTACHMENTS** can be used:</span></span> 
+  
+- <span data-ttu-id="0fda4-125">Com **IMAPIProp::OpenProperty** para acessar uma tabela de anexo ou destinatário.</span><span class="sxs-lookup"><span data-stu-id="0fda4-125">With **IMAPIProp::OpenProperty** to access an attachment or recipient table.</span></span> 
+    
+- <span data-ttu-id="0fda4-126">Com **IMAPIProp::CopyTo** ou **IMAPIProp::CopyProps** para excluir ou incluir anexos ao copiar.</span><span class="sxs-lookup"><span data-stu-id="0fda4-126">With **IMAPIProp::CopyTo** or **IMAPIProp::CopyProps** to exclude or include attachments when copying.</span></span> <span data-ttu-id="0fda4-127">Para obter mais informações, consulte [IMAPIProp::CopyTo](imapiprop-copyto.md) e [IMAPIProp::CopyProps](imapiprop-copyprops.md).</span><span class="sxs-lookup"><span data-stu-id="0fda4-127">For more information, see [IMAPIProp::CopyTo](imapiprop-copyto.md) and [IMAPIProp::CopyProps](imapiprop-copyprops.md).</span></span>
+    
+- <span data-ttu-id="0fda4-128">Uma restrição subobjeto para indicar que a restrição filho deve ser aplicadas aos anexos.</span><span class="sxs-lookup"><span data-stu-id="0fda4-128">In a subobject restriction to indicate that the child restriction should apply to attachments.</span></span>
+    
+<span data-ttu-id="0fda4-129">Para obter mais informações, consulte [As tabelas de anexo](attachment-tables.md).</span><span class="sxs-lookup"><span data-stu-id="0fda4-129">For more information, see [Attachment Tables](attachment-tables.md).</span></span>
+  
+

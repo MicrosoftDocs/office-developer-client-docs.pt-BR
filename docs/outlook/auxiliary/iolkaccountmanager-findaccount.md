@@ -14,13 +14,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765961"
 ---
-# <a name="iolkaccountmanagerfindaccount"></a><span data-ttu-id="0b16c-103">IOlkAccountManager::FindAccount</span><span class="sxs-lookup"><span data-stu-id="0b16c-103">IOlkAccountManager::FindAccount</span></span>
+# <a name="iolkaccountmanagerfindaccount"></a><span data-ttu-id="445b8-103">IOlkAccountManager::FindAccount</span><span class="sxs-lookup"><span data-stu-id="445b8-103">IOlkAccountManager::FindAccount</span></span>
 
-<span data-ttu-id="0b16c-104">Localiza uma conta pelo valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="0b16c-104">Finds an account by property value.</span></span>
+<span data-ttu-id="445b8-104">Localiza uma conta pelo valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="445b8-104">Finds an account by property value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="0b16c-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="0b16c-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="445b8-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="445b8-105">Quick info</span></span>
 
-<span data-ttu-id="0b16c-106">Consulte [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="0b16c-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="445b8-106">Consulte [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="445b8-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::FindAccount (  
@@ -30,32 +30,32 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0b16c-107">Par�metros</span><span class="sxs-lookup"><span data-stu-id="0b16c-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="445b8-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="445b8-107">Parameters</span></span>
 
-<span data-ttu-id="0b16c-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="0b16c-108">_dwProp_</span></span>
+<span data-ttu-id="445b8-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="445b8-108">_dwProp_</span></span>
   
-> <span data-ttu-id="0b16c-109">[in] A propriedade de pesquisar.</span><span class="sxs-lookup"><span data-stu-id="0b16c-109">[in] The property to search on.</span></span> <span data-ttu-id="0b16c-110">Deve ser [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span><span class="sxs-lookup"><span data-stu-id="0b16c-110">Must be [PROP_ACCT_ID](prop_acct_id.md) or [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span></span>
+> <span data-ttu-id="445b8-109">[in] A propriedade de pesquisar.</span><span class="sxs-lookup"><span data-stu-id="445b8-109">[in] The property to search on.</span></span> <span data-ttu-id="445b8-110">Deve ser [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span><span class="sxs-lookup"><span data-stu-id="445b8-110">Must be [PROP_ACCT_ID](prop_acct_id.md) or [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).</span></span>
     
-<span data-ttu-id="0b16c-111">_pVar_</span><span class="sxs-lookup"><span data-stu-id="0b16c-111">_pVar_</span></span>
+<span data-ttu-id="445b8-111">_pVar_</span><span class="sxs-lookup"><span data-stu-id="445b8-111">_pVar_</span></span>
   
-> <span data-ttu-id="0b16c-112">[in] O valor a ser correspondido.</span><span class="sxs-lookup"><span data-stu-id="0b16c-112">[in] The value to match.</span></span>
+> <span data-ttu-id="445b8-112">[in] O valor a ser correspondido.</span><span class="sxs-lookup"><span data-stu-id="445b8-112">[in] The value to match.</span></span>
     
-<span data-ttu-id="0b16c-113">_ppAccount_</span><span class="sxs-lookup"><span data-stu-id="0b16c-113">_ppAccount_</span></span>
+<span data-ttu-id="445b8-113">_ppAccount_</span><span class="sxs-lookup"><span data-stu-id="445b8-113">_ppAccount_</span></span>
   
-> <span data-ttu-id="0b16c-114">[out] A conta foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="0b16c-114">[out] The account found.</span></span> <span data-ttu-id="0b16c-115">Este objeto oferece suporte a uma interface [IOlkAccount](iolkaccount.md) .</span><span class="sxs-lookup"><span data-stu-id="0b16c-115">This object supports an [IOlkAccount](iolkaccount.md) interface.</span></span> 
+> <span data-ttu-id="445b8-114">[out] A conta foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="445b8-114">[out] The account found.</span></span> <span data-ttu-id="445b8-115">Este objeto oferece suporte a uma interface [IOlkAccount](iolkaccount.md) .</span><span class="sxs-lookup"><span data-stu-id="445b8-115">This object supports an [IOlkAccount](iolkaccount.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="0b16c-116">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="0b16c-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="445b8-116">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="445b8-116">Return values</span></span>
 
-|<span data-ttu-id="0b16c-117">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="0b16c-117">**HRESULT**</span></span>|<span data-ttu-id="0b16c-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="0b16c-118">**Description**</span></span>|
+|<span data-ttu-id="445b8-117">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="445b8-117">**HRESULT**</span></span>|<span data-ttu-id="445b8-118">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="445b8-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0b16c-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="0b16c-119">S_OK</span></span>  <br/> |<span data-ttu-id="0b16c-120">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="0b16c-120">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="0b16c-121">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="0b16c-121">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="0b16c-122">A conta especificada não foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="0b16c-122">The specified account cannot be found.</span></span>  <br/> |
-|<span data-ttu-id="0b16c-123">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="0b16c-123">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="0b16c-124">O gerente de conta não foi inicializado para uso.</span><span class="sxs-lookup"><span data-stu-id="0b16c-124">The account manager has not been initialized for use.</span></span>  <br/> |
-|<span data-ttu-id="0b16c-125">E_OLK_PARAM_NOT_SUPPORTED</span><span class="sxs-lookup"><span data-stu-id="0b16c-125">E_OLK_PARAM_NOT_SUPPORTED</span></span>  <br/> |<span data-ttu-id="0b16c-126">Um ou mais parâmetros são inválidos.</span><span class="sxs-lookup"><span data-stu-id="0b16c-126">One or more parameters are invalid.</span></span>  <br/> |
+|<span data-ttu-id="445b8-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="445b8-119">S_OK</span></span>  <br/> |<span data-ttu-id="445b8-120">A chamada foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="445b8-120">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="445b8-121">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="445b8-121">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="445b8-122">A conta especificada não foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="445b8-122">The specified account cannot be found.</span></span>  <br/> |
+|<span data-ttu-id="445b8-123">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="445b8-123">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="445b8-124">O gerente de conta não foi inicializado para uso.</span><span class="sxs-lookup"><span data-stu-id="445b8-124">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="445b8-125">E_OLK_PARAM_NOT_SUPPORTED</span><span class="sxs-lookup"><span data-stu-id="445b8-125">E_OLK_PARAM_NOT_SUPPORTED</span></span>  <br/> |<span data-ttu-id="445b8-126">Um ou mais parâmetros são inválidos.</span><span class="sxs-lookup"><span data-stu-id="445b8-126">One or more parameters are invalid.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0b16c-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="0b16c-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="445b8-127">Confira também</span><span class="sxs-lookup"><span data-stu-id="445b8-127">See also</span></span>
 
-- [<span data-ttu-id="0b16c-128">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="0b16c-128">ACCT_VARIANT</span></span>](acct_variant.md)  
-- [<span data-ttu-id="0b16c-129">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="0b16c-129">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="0b16c-130">IOlkAccountHelper</span><span class="sxs-lookup"><span data-stu-id="0b16c-130">IOlkAccountHelper</span></span>](iolkaccounthelper.md)
+- [<span data-ttu-id="445b8-128">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="445b8-128">ACCT_VARIANT</span></span>](acct_variant.md)  
+- [<span data-ttu-id="445b8-129">Constantes (API de gerenciamento de conta)</span><span class="sxs-lookup"><span data-stu-id="445b8-129">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="445b8-130">IOlkAccountHelper</span><span class="sxs-lookup"><span data-stu-id="445b8-130">IOlkAccountHelper</span></span>](iolkaccounthelper.md)
 

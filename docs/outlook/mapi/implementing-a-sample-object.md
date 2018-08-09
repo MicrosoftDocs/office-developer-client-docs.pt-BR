@@ -15,13 +15,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767405"
 ---
-# <a name="implementing-a-sample-object"></a><span data-ttu-id="dbda6-103">Implementação de um objeto de amostra</span><span class="sxs-lookup"><span data-stu-id="dbda6-103">Implementing a sample object</span></span>
+# <a name="implementing-a-sample-object"></a><span data-ttu-id="d0d6c-103">Implementação de um objeto de amostra</span><span class="sxs-lookup"><span data-stu-id="d0d6c-103">Implementing a sample object</span></span>
 
-<span data-ttu-id="dbda6-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="dbda6-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="d0d6c-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="d0d6c-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="dbda6-105">Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações.</span><span class="sxs-lookup"><span data-stu-id="dbda6-105">Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications.</span></span> <span data-ttu-id="dbda6-106">**IMAPIAdviseSink** herda diretamente da [IUnknown](http://msdn.microsoft.com/pt-br/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**.</span><span class="sxs-lookup"><span data-stu-id="dbda6-106">**IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/pt-br/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**.</span></span> <span data-ttu-id="dbda6-107">Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).</span><span class="sxs-lookup"><span data-stu-id="dbda6-107">Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).</span></span>
+<span data-ttu-id="d0d6c-105">Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-105">Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications.</span></span> <span data-ttu-id="d0d6c-106">**IMAPIAdviseSink** herda diretamente da [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-106">**IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**.</span></span> <span data-ttu-id="d0d6c-107">Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).</span><span class="sxs-lookup"><span data-stu-id="d0d6c-107">Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).</span></span>
   
-<span data-ttu-id="dbda6-108">O arquivo de cabeçalho Mapidefs.h define uma implementação de interface **IMAPIAdviseSink** usando **DECLARE_MAPI_INTERFACE**, da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="dbda6-108">The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:</span></span>
+<span data-ttu-id="d0d6c-108">O arquivo de cabeçalho Mapidefs.h define uma implementação de interface **IMAPIAdviseSink** usando **DECLARE_MAPI_INTERFACE**, da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="d0d6c-108">The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:</span></span>
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-<span data-ttu-id="dbda6-109">Clientes que implementam aconselhe os objetos de coletor de eventos podem definir suas interfaces nos seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** .</span><span class="sxs-lookup"><span data-stu-id="dbda6-109">Clients that implement advise sink objects can define their interfaces in their objects manually or with the **MAPI_IUNKNOWN_METHODS** and **MAPI_IMAPIADVISESINK_METHODS** macros.</span></span> <span data-ttu-id="dbda6-110">Implementadores do objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e para economizar tempo e esforço.</span><span class="sxs-lookup"><span data-stu-id="dbda6-110">Object implementers should use the interface macros whenever possible to ensure consistency across objects and to save time and effort.</span></span> 
+<span data-ttu-id="d0d6c-109">Clientes que implementam aconselhe os objetos de coletor de eventos podem definir suas interfaces nos seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** .</span><span class="sxs-lookup"><span data-stu-id="d0d6c-109">Clients that implement advise sink objects can define their interfaces in their objects manually or with the **MAPI_IUNKNOWN_METHODS** and **MAPI_IMAPIADVISESINK_METHODS** macros.</span></span> <span data-ttu-id="d0d6c-110">Implementadores do objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e para economizar tempo e esforço.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-110">Object implementers should use the interface macros whenever possible to ensure consistency across objects and to save time and effort.</span></span> 
   
-<span data-ttu-id="dbda6-111">Implementar os métodos [AddRef](http://msdn.microsoft.com/pt-br/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) é relativamente simple, porque geralmente apenas algumas linhas de código são necessárias.</span><span class="sxs-lookup"><span data-stu-id="dbda6-111">Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/pt-br/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/pt-br/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed.</span></span> <span data-ttu-id="dbda6-112">Portanto, clientes e provedores de serviços que implementam objetos podem fazer sua embutida de implementações **AddRef** e **Release** .</span><span class="sxs-lookup"><span data-stu-id="dbda6-112">Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline.</span></span> <span data-ttu-id="dbda6-113">O código a seguir mostra como definir um C++ avise o objeto coletor de eventos com embutida implementações de **AddRef** e **Release**.</span><span class="sxs-lookup"><span data-stu-id="dbda6-113">The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.</span></span>
+<span data-ttu-id="d0d6c-111">Implementar os métodos [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) é relativamente simple, porque geralmente apenas algumas linhas de código são necessárias.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-111">Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed.</span></span> <span data-ttu-id="d0d6c-112">Portanto, clientes e provedores de serviços que implementam objetos podem fazer sua embutida de implementações **AddRef** e **Release** .</span><span class="sxs-lookup"><span data-stu-id="d0d6c-112">Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline.</span></span> <span data-ttu-id="d0d6c-113">O código a seguir mostra como definir um C++ avise o objeto coletor de eventos com embutida implementações de **AddRef** e **Release**.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-113">The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.</span></span>
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-<span data-ttu-id="dbda6-114">C, o objeto coletor de eventos advise consiste nos seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="dbda6-114">In C, the advise sink object is composed of the following elements:</span></span>
+<span data-ttu-id="d0d6c-114">C, o objeto coletor de eventos advise consiste nos seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="d0d6c-114">In C, the advise sink object is composed of the following elements:</span></span>
   
-- <span data-ttu-id="dbda6-115">Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos na **IUnknown** e **IMAPIAdviseSink**.</span><span class="sxs-lookup"><span data-stu-id="dbda6-115">A pointer to a vtable that contains pointers to implementations of each of the methods in **IUnknown** and **IMAPIAdviseSink**.</span></span>
+- <span data-ttu-id="d0d6c-115">Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos na **IUnknown** e **IMAPIAdviseSink**.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-115">A pointer to a vtable that contains pointers to implementations of each of the methods in **IUnknown** and **IMAPIAdviseSink**.</span></span>
     
-- <span data-ttu-id="dbda6-116">Membros de dados.</span><span class="sxs-lookup"><span data-stu-id="dbda6-116">Data members.</span></span>
+- <span data-ttu-id="d0d6c-116">Membros de dados.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-116">Data members.</span></span>
     
-<span data-ttu-id="dbda6-117">O exemplo de código a seguir mostra como definir um objeto de coletor de eventos advise em C e construir sua vtable.</span><span class="sxs-lookup"><span data-stu-id="dbda6-117">The following code example shows how to define an advise sink object in C and construct its vtable.</span></span> 
+<span data-ttu-id="d0d6c-117">O exemplo de código a seguir mostra como definir um objeto de coletor de eventos advise em C e construir sua vtable.</span><span class="sxs-lookup"><span data-stu-id="d0d6c-117">The following code example shows how to define an advise sink object in C and construct its vtable.</span></span> 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-<span data-ttu-id="dbda6-118">Depois que você declarar um objeto em C, inicializá-lo, definindo o ponteiro vtable como o endereço do vtable construído, conforme mostrado no seguinte código:</span><span class="sxs-lookup"><span data-stu-id="dbda6-118">After you declare an object in C, you must initialize it by setting the vtable pointer to the address of the constructed vtable, as shown in the following code:</span></span>
+<span data-ttu-id="d0d6c-118">Depois que você declarar um objeto em C, inicializá-lo, definindo o ponteiro vtable como o endereço do vtable construído, conforme mostrado no seguinte código:</span><span class="sxs-lookup"><span data-stu-id="d0d6c-118">After you declare an object in C, you must initialize it by setting the vtable pointer to the address of the constructed vtable, as shown in the following code:</span></span>
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -113,8 +113,8 @@ lpMyObj->lpVtbl = &vtblADVISE;
  
 ```
 
-## <a name="see-also"></a><span data-ttu-id="dbda6-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="dbda6-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d0d6c-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="d0d6c-119">See also</span></span>
 
-- [<span data-ttu-id="dbda6-120">Vis�o geral da propriedade MAPI</span><span class="sxs-lookup"><span data-stu-id="dbda6-120">MAPI Property Overview</span></span>](mapi-property-overview.md)
-- [<span data-ttu-id="dbda6-121">Implementar objetos de MAPI</span><span class="sxs-lookup"><span data-stu-id="dbda6-121">Implementing MAPI Objects</span></span>](implementing-mapi-objects.md)
+- [<span data-ttu-id="d0d6c-120">Visão geral da propriedade MAPI</span><span class="sxs-lookup"><span data-stu-id="d0d6c-120">MAPI Property Overview</span></span>](mapi-property-overview.md)
+- [<span data-ttu-id="d0d6c-121">Implementar objetos MAPI</span><span class="sxs-lookup"><span data-stu-id="d0d6c-121">Implementing MAPI Objects</span></span>](implementing-mapi-objects.md)
 
