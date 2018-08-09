@@ -19,13 +19,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767741"
 ---
-# <a name="ixplogonopenstatusentry"></a><span data-ttu-id="de2e8-103">IXPLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="de2e8-103">IXPLogon::OpenStatusEntry</span></span>
+# <a name="ixplogonopenstatusentry"></a><span data-ttu-id="70562-103">IXPLogon::OpenStatusEntry</span><span class="sxs-lookup"><span data-stu-id="70562-103">IXPLogon::OpenStatusEntry</span></span>
 
   
   
-<span data-ttu-id="de2e8-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="de2e8-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="70562-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="70562-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="de2e8-105">Abre o objeto de status do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="de2e8-105">Opens the transport provider's status object.</span></span>
+<span data-ttu-id="70562-105">Abre o objeto de status do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="70562-105">Opens the transport provider's status object.</span></span>
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,43 +36,43 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="de2e8-106">Par�metros</span><span class="sxs-lookup"><span data-stu-id="de2e8-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="70562-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="70562-106">Parameters</span></span>
 
- <span data-ttu-id="de2e8-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="de2e8-107">_lpInterface_</span></span>
+ <span data-ttu-id="70562-107">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="70562-107">_lpInterface_</span></span>
   
-> <span data-ttu-id="de2e8-108">[in] Um ponteiro para um identificador de interface (IID) para o objeto de logon de transporte.</span><span class="sxs-lookup"><span data-stu-id="de2e8-108">[in] A pointer to an interface identifier (IID) for the transport logon object.</span></span> <span data-ttu-id="de2e8-109">Passar NULL retorna a interface de [IMAPIStatus](imapistatusimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="de2e8-109">Passing NULL returns the [IMAPIStatus](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="de2e8-110">O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface para o objeto.</span><span class="sxs-lookup"><span data-stu-id="de2e8-110">The  _lpInterface_ parameter can also be set to an identifier for an interface for the object.</span></span> 
+> <span data-ttu-id="70562-108">[in] Um ponteiro para um identificador de interface (IID) para o objeto de logon de transporte.</span><span class="sxs-lookup"><span data-stu-id="70562-108">[in] A pointer to an interface identifier (IID) for the transport logon object.</span></span> <span data-ttu-id="70562-109">Passar NULL retorna a interface de [IMAPIStatus](imapistatusimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="70562-109">Passing NULL returns the [IMAPIStatus](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="70562-110">O parâmetro _lpInterface_ também pode ser definido como um identificador para uma interface para o objeto.</span><span class="sxs-lookup"><span data-stu-id="70562-110">The  _lpInterface_ parameter can also be set to an identifier for an interface for the object.</span></span> 
     
- <span data-ttu-id="de2e8-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="de2e8-111">_ulFlags_</span></span>
+ <span data-ttu-id="70562-111">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="70562-111">_ulFlags_</span></span>
   
-> <span data-ttu-id="de2e8-112">[in] Uma bitmask dos sinalizadores que controla como o objeto de status é aberto.</span><span class="sxs-lookup"><span data-stu-id="de2e8-112">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="de2e8-113">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="de2e8-113">The following flag can be set:</span></span>
+> <span data-ttu-id="70562-112">[in] Uma bitmask dos sinalizadores que controla como o objeto de status é aberto.</span><span class="sxs-lookup"><span data-stu-id="70562-112">[in] A bitmask of flags that controls how the status object is opened.</span></span> <span data-ttu-id="70562-113">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="70562-113">The following flag can be set:</span></span>
     
-<span data-ttu-id="de2e8-114">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="de2e8-114">MAPI_MODIFY</span></span> 
+<span data-ttu-id="70562-114">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="70562-114">MAPI_MODIFY</span></span> 
   
-> <span data-ttu-id="de2e8-115">Permissão de leitura/gravação solicitações.</span><span class="sxs-lookup"><span data-stu-id="de2e8-115">Requests read/write permission.</span></span> <span data-ttu-id="de2e8-116">A interface padrão é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="de2e8-116">The default interface is read-only.</span></span> 
+> <span data-ttu-id="70562-115">Permissão de leitura/gravação solicitações.</span><span class="sxs-lookup"><span data-stu-id="70562-115">Requests read/write permission.</span></span> <span data-ttu-id="70562-116">A interface padrão é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="70562-116">The default interface is read-only.</span></span> 
     
- <span data-ttu-id="de2e8-117">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="de2e8-117">_lpulObjType_</span></span>
+ <span data-ttu-id="70562-117">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="70562-117">_lpulObjType_</span></span>
   
-> <span data-ttu-id="de2e8-118">[out] Um ponteiro para o tipo de objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="de2e8-118">[out] A pointer to the type of the opened object.</span></span>
+> <span data-ttu-id="70562-118">[out] Um ponteiro para o tipo de objeto aberto.</span><span class="sxs-lookup"><span data-stu-id="70562-118">[out] A pointer to the type of the opened object.</span></span>
     
- <span data-ttu-id="de2e8-119">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="de2e8-119">_lppEntry_</span></span>
+ <span data-ttu-id="70562-119">_lppEntry_</span><span class="sxs-lookup"><span data-stu-id="70562-119">_lppEntry_</span></span>
   
-> <span data-ttu-id="de2e8-120">[out] Um ponteiro para o ponteiro para o objeto de status aberto.</span><span class="sxs-lookup"><span data-stu-id="de2e8-120">[out] A pointer to the pointer to the opened status object.</span></span>
+> <span data-ttu-id="70562-120">[out] Um ponteiro para o ponteiro para o objeto de status aberto.</span><span class="sxs-lookup"><span data-stu-id="70562-120">[out] A pointer to the pointer to the opened status object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="de2e8-121">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="de2e8-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="70562-121">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="70562-121">Return value</span></span>
 
-<span data-ttu-id="de2e8-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="de2e8-122">S_OK</span></span> 
+<span data-ttu-id="70562-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="70562-122">S_OK</span></span> 
   
-> <span data-ttu-id="de2e8-123">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="de2e8-123">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="70562-123">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="70562-123">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="de2e8-124">Coment�rios</span><span class="sxs-lookup"><span data-stu-id="de2e8-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="70562-124">Comentários</span><span class="sxs-lookup"><span data-stu-id="70562-124">Remarks</span></span>
 
-<span data-ttu-id="de2e8-125">O MAPI spooler chama o método de **IXPLogon::OpenStatusEntry** quando um aplicativo cliente chama um método **OpenEntry** para o identificador de entrada na linha de tabela de status do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="de2e8-125">The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client application calls an **OpenEntry** method for the entry identifier in the transport provider's status table row.</span></span> <span data-ttu-id="de2e8-126">**OpenStatusEntry** abre um objeto com a interface de **IMAPIStatus** associada a esse logon do provedor de transporte específica.</span><span class="sxs-lookup"><span data-stu-id="de2e8-126">**OpenStatusEntry** opens an object with the **IMAPIStatus** interface associated with this particular transport provider logon.</span></span> <span data-ttu-id="de2e8-127">Este objeto é usado para permitir que os aplicativos de cliente chamar métodos **IMAPIStatus** (por exemplo, para reconfigurar a sessão de logon usando o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou para validar o estado de sessão usando o [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) método).</span><span class="sxs-lookup"><span data-stu-id="de2e8-127">This object is then used to enable client applications to call **IMAPIStatus** methods (for example, to reconfigure the logon session by using the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method, or to validate the state of the logon session by using the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method).</span></span> 
+<span data-ttu-id="70562-125">O MAPI spooler chama o método de **IXPLogon::OpenStatusEntry** quando um aplicativo cliente chama um método **OpenEntry** para o identificador de entrada na linha de tabela de status do provedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="70562-125">The MAPI spooler calls the **IXPLogon::OpenStatusEntry** method when a client application calls an **OpenEntry** method for the entry identifier in the transport provider's status table row.</span></span> <span data-ttu-id="70562-126">**OpenStatusEntry** abre um objeto com a interface de **IMAPIStatus** associada a esse logon do provedor de transporte específica.</span><span class="sxs-lookup"><span data-stu-id="70562-126">**OpenStatusEntry** opens an object with the **IMAPIStatus** interface associated with this particular transport provider logon.</span></span> <span data-ttu-id="70562-127">Este objeto é usado para permitir que os aplicativos de cliente chamar métodos **IMAPIStatus** (por exemplo, para reconfigurar a sessão de logon usando o método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou para validar o estado de sessão usando o [ IMAPIStatus::ValidateState](imapistatus-validatestate.md) método).</span><span class="sxs-lookup"><span data-stu-id="70562-127">This object is then used to enable client applications to call **IMAPIStatus** methods (for example, to reconfigure the logon session by using the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method, or to validate the state of the logon session by using the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="de2e8-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="de2e8-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="70562-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="70562-128">See also</span></span>
 
 
 
-[<span data-ttu-id="de2e8-129">IMAPIStatus: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="de2e8-129">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
+[<span data-ttu-id="70562-129">IMAPIStatus : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="70562-129">IMAPIStatus : IMAPIProp</span></span>](imapistatusimapiprop.md)
   
-[<span data-ttu-id="de2e8-130">IXPLogon: IUnknown</span><span class="sxs-lookup"><span data-stu-id="de2e8-130">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
+[<span data-ttu-id="70562-130">IXPLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="70562-130">IXPLogon : IUnknown</span></span>](ixplogoniunknown.md)
 

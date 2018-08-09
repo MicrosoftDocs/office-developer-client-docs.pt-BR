@@ -15,10 +15,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19767452"
 ---
-# <a name="improving-client-performance"></a><span data-ttu-id="76efe-103">Melhorando o desempenho do cliente</span><span class="sxs-lookup"><span data-stu-id="76efe-103">Improving client performance</span></span>
+# <a name="improving-client-performance"></a><span data-ttu-id="86051-103">Melhorando o desempenho do cliente</span><span class="sxs-lookup"><span data-stu-id="86051-103">Improving client performance</span></span>
  
-<span data-ttu-id="76efe-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="76efe-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="86051-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="86051-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="76efe-105">Os tópicos nesta seção contêm dicas que o ajudarão a criar um aplicativo cliente com o melhor desempenho possível.</span><span class="sxs-lookup"><span data-stu-id="76efe-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
+<span data-ttu-id="86051-105">Os tópicos nesta seção contêm dicas que o ajudarão a criar um aplicativo cliente com o melhor desempenho possível.</span><span class="sxs-lookup"><span data-stu-id="86051-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
   
 
