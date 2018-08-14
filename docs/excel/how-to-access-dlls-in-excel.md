@@ -1,85 +1,85 @@
 ---
-title: Acesso DLLs no Excel
+title: Acessar DLLs no Excel
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- accessing dlls [excel 2007],DLLs [Excel 2007], accessing in Excel
+- acessar dlls [excel 2007], DLLs [Excel 2007], acessar no Excel
 localization_priority: Normal
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
-description: 'Aplica-se a: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: bfb562b6bbe824124c6b5a691745d076720ee004
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19765376"
 ---
-# <a name="access-dlls-in-excel"></a>Acesso DLLs no Excel
+# <a name="access-dlls-in-excel"></a>Acessar DLLs no Excel
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Voc� pode acessar uma fun��o ou um comando DLL no Microsoft Excel de diversas maneiras:
+Você pode acessar um comando ou função DLL no Microsoft Excel de diversas maneiras:
   
-- Por meio de um m�dulo de c�digo do Microsoft Visual Basic for Applications (VBA) no qual a fun��o ou o comando foi disponibilizado usando uma instru��o **Declare**. 
+- Por meio de um módulo de código Microsoft VBA (Visual Basic for Applications) na qual a função ou comando foi disponibilizada usando uma instrução **Declare**. 
     
-- Por meio de uma folha de macro XLM usando as fun��es **CALL** ou **REGISTER**. 
+- Por meio de uma folha de macro XLM usando as funções **CALL** ou **REGISTER**. 
     
-- Diretamente da planilha ou de um item personalizado na interface do usu�rio (IU).
+- Diretamente da planilha ou de um item personalizado na IU (interface do usuário).
     
-Esta documenta��o n�o aborda as fun��es XLM. � recomend�vel que voc� use uma das duas outras abordagens.
+Esta documentação não aborda as funções XLM. É recomendável que você use uma das outras duas abordagens.
   
-Para ser acessada diretamente da planilha ou de um item personalizado na IU, primeiro a fun��o ou o comando dever�o ser registrados no Excel. Para saber mais sobre o registro de comandos e de fun��es, consulte [Accessing XLL Code in Excel](accessing-xll-code-in-excel.md).
+Para acessar diretamente na planilha ou em um item personalizado na interface de usuário, primeiro a função ou o comando deve ser registrado no Excel. Confira mais informações sobre como registrar os comandos e as funções, veja [Acessar código XLL no Excel](accessing-xll-code-in-excel.md).
   
-## <a name="calling-dll-functions-and-commands-from-vba"></a>Chamando funções DLL e comandos do VBA
+## <a name="calling-dll-functions-and-commands-from-vba"></a>Chamar funções e comandos DLL do VBA
 
-Voc� pode acessar fun��es e comandos DLL no VBA usando a instru��o **Declare**. Essa instru��o tem uma sintaxe para os comandos e outra para as fun��es. 
+Você pode acessar os comandos e as funções DLL do VBA usando a instrução **Declare**. Essa instrução tem uma sintaxe para comandos e uma para funções. 
   
-- **Sintaxe 1 � comandos**
+- **Sintaxe 1 – comandos**
     
   ```vb
   [Public | Private] Declare Sub name Lib "libname" [Alias "aliasname"] [([arglist])]
   ```
 
-- **Sintaxe 2 � fun��es**
+- **Sintaxe 2 – funções**
     
   ```vb
   [Public | Private] Declare Function name Lib "libname" [Alias "aliasname"] [([arglist])] [As type]
   ```
 
-As palavras-chave **Public** e **Private** especificam o escopo da fun��o importada: o projeto inteiro do Visual Basic ou apenas o m�dulo do Visual Basic, respectivamente. O nome � o que voc� deseja usar no c�digo VBA. Se ele for diferente do nome na DLL, ser� necess�rio usar o especificador "nomedoalias" do Alias e nomear a fun��o como exportada pela DLL. Se voc� quiser acessar uma fun��o de DLL por refer�ncia a um n�mero ordinal de DLL, dever� fornecer um nome de alias, que � o ordinal com o prefixo **#**.
+As palavras-chave opcionais **Public** e **Private** especificam o escopo da função importada: todo o projeto do Visual Basic ou apenas o módulo do Visual Basic, respectivamente. O nome é aquele que você deseja usar no código VBA. Se for diferente do nome da DLL, você deve usar o especificador de Alias "nomedoalias" e deve fornecer o nome da função como exportado pela DLL. Se quiser acessar uma função DLL por referência para um número ordinal de DLL, você deve fornecer um nome de alias, que é o ordinal precedido por **#**.
   
-Os comandos devem retornar **void**. As fun��es devem retornar tipos que o VBA possa reconhecer **ByVal**. Isso significa que alguns tipos s�o retornados com mais facilidade pela modifica��o dos argumentos existentes: cadeias de caracteres, matrizes, tipos definidos pelo usu�rio e objetos.
+Os comandos devem retornar **void**. As funções devem retornar tipos que o VBA pode reconhecer **ByVal**. Isso significa que alguns tipos são retornados com maior facilidade ao modificar os argumentos no lugar: cadeias de caracteres, matrizes, objetos e tipos definidos pelo usuário.
   
 > [!NOTE]
-> [!OBSERVA��O] O VBA n�o pode verificar se a lista de argumentos e os estados retornados no m�dulo do Visual Basic s�o iguais aos codificados na DLL. Verifique isso com muito cuidado, pois um erro pode causar uma falha no Excel. 
+> O VBA não pode verificar se a lista de argumentos e o retorno declarado no módulo do Visual Basic são os mesmos codificados na DLL. Você deve verificar isso sozinho com muito cuidado, pois um erro pode causar uma falha no Excel. 
   
-Quando os argumentos da fun��o ou do comando n�o forem passados por refer�ncia ou por ponteiro, dever�o ser precedidos pela palavra-chave **ByVal** na declara��o **arglist**. Quando uma fun��o C/C++ obtiver argumentos do ponteiro, ou quando uma fun��o C++ obtiver argumentos de refer�ncia, dever�o ser passados **ByRef**. A palavra-chave **ByRef** pode ser omitida das listas de argumentos porque � o padr�o no VBA. 
+Quando os argumentos do comando ou da função não são passados por ponteiro ou referência, devem ser precedidos pela palavra-chave **ByVal** com a declaração **arglist**. Quando uma função C/C++ tem os argumentos de ponteiro ou quando uma função C++ tem os argumentos de referência, eles deveriam passar por **ByRef**. A palavra-chave **ByRef** pode ser omitida das listas de argumentos porque é o padrão no VBA. 
   
-### <a name="argument-types-in-cc-and-vba"></a>Tipos de argumento em C/C++ e VBA
+### <a name="argument-types-in-cc-and-vba"></a>Tipos de argumento no C/C++ e no VBA
 
-Voc� deve observar o seguinte ao comparar as declara��es de tipos de argumento no C/C++ e no VBA.
+Você deve observar o seguinte ao comparar as declarações dos tipos de argumentos no C/C++ e VBA.
   
-- Uma **String** do VBA � passada como um ponteiro para uma estrutura BSTR byte-cadeia de caracteres quando passada ByVal e como um ponteiro para um ponteiro quando passada **ByRef**.
+- Uma **String** do VBA é passada como um ponteiro para uma estrutura BSTR de cadeia de caracteres de bytes quando houver passado por ByVal e como um ponteiro para um ponteiro quando passada por **ByRef**.
     
-- Uma **Variant** do VBA que cont�m uma cadeia de caracteres � passada como um ponteiro para uma cadeia de caracteres de caractere largo Unicode usando a estrutura BSTR quando passada **ByVal** e como um ponteiro para um ponteiro quando passada **ByRef**.
+- Uma **Variant** do VBA que contém uma cadeia de caracteres é passada como um ponteiro para uma estrutura BSTR de cadeia de caracteres largos Unicode quando passada por **ByVal** e como um ponteiro para um ponteiro quando passada por **ByRef**.
     
-- O **Integer** do VBA � um equivalente do tipo de 16 bits para um signed short no C/C++. 
+- O **Integer** do VBA é um tipo de 16 bits equivalente a um curto assinado no C/C++. 
     
-- O **Long** do VBA � um tipo de 32 bits equivalente a um signed int no C/C++. 
+- O **Long** do VBA é um tipo de 32 bits equivalente a um curto assinado no C/C++. 
     
-- O VBA e o C/C++ permitem a defini��o de tipos de dados definidos pelo usu�rio usando as instru��es **Type** e **struct**, respectivamente. 
+- O VBA e o C++ permitem a definição de tipos de dados definidos pelo usuário, usando respectivamente as instruções **Type** e **struct**. 
     
-- O VBA e o C/C++ d�o suporte ao tipo de dados **Variant**, definido para o C/C++ nos arquivos de cabe�alho do OLE/COM do Windows como VARIANT. 
+- O VBA e o C++ oferecem suporte ao tipo de dados **Variant**, definido para o C++ nos arquivos de cabeçalho Windows OLE/COM, como VARIANT. 
     
-- As matrizes do VBA s�o **SafeArrays** OLE, definidos para o C/C++ no arquivo de cabe�alho OLE/COM do Windows como **SAFEARRAY**.
+- As matrizes do VBA são **SafeArrays** OLE, definidas para o C++ nos arquivos de cabeçalho Windows OLE/COM, como **SAFEARRAY**.
     
-- O tipo de dados **Currency** do VBA � passado como uma estrutura do tipo **CY**, definida no arquivo de cabe�alho wtypes.h do Windows, quando passado **ByVal**, e como um ponteiro para ponteiro para isso quando passado **ByRef**.
+- O tipo de dados **Currency** do VBA é passado como uma estrutura de tipo **CY**, definido no arquivo de cabeçalho de Windows wtypes.h, quando passado por **ByVal** e como um ponteiro para isso quando passado por **ByRef**.
     
-No VBA, os elementos de dados em tipos de dados definidos pelo usu�rio s�o empacotados em limites de 4 bytes, enquanto que, no Visual Studio, por padr�o, eles s�o empacotados em limites de 8 bytes. Portanto, você deve colocar a definição da estrutura de C/C++ em um `#pragma pack(4) … #pragma pack()` bloco para evitar elementos sendo fora de alinhamento. 
+No VBA, os elementos de dados nos tipos de dados definidos pelo usuário são compactados nos limites de 4 bytes, enquanto no Visual Studio, por padrão, eles são compactados nos limites de 8 bytes. Dessa forma, você deve inserir a definição de estrutura do C/C++ em um bloco `#pragma pack(4) … #pragma pack()` para evitar erros de alinhamento de elementos. 
   
-A seguir, um exemplo de defini��es de tipo de usu�rio equivalentes.
+A seguir, um exemplo de definições de tipo de usuário equivalentes.
   
 ```vb
 Type VB_User_Type
@@ -102,40 +102,40 @@ struct C_user_type
 
 ```
 
-O VBA d� suporte a uma s�rie de valores maior em alguns casos ao que o Excel consegue dar suporte. O double do VBA � compat�vel com IEEE, dando suporte a n�meros subnormais atualmente arredondados para baixo para zero na planilha. O tipo **Date** do VBA pode representar datas desde 1-Jan-0100 usando datas serializadas negativas. O Excel s� permite datas serializadas maiores ou iguais a zero. O tipo **Currency** do VBA � um inteiro de 64 bits dimensionado � pode obter precis�o sem suporte em doubles de 8 bytes e, portanto, n�o tem correspond�ncia na planilha. 
+Em alguns casos, o VBA dá suporte a um intervalo maior de valores do que o Excel. O VBA duplo é compatível com IEEE e dá suporte a números subnormais que atualmente são arredondados para zero na planilha. O tipo **Date** do VBA pode representar datas a partir de 1-Jan-0100 usando datas serializadas negativas. O Excel permite somente datas serializadas maiores ou iguais a zero. O tipo **Date** do VBA, um número inteiro de 64 bits em escala, pode alcançar uma precisão que não tem suporte em 8 bytes duplos e, portanto, não tem correspondência na planilha. 
   
-O Excel s� passa Variants dos tipos a seguir para uma fun��o definida pelo usu�rio do VBA.
+O Excel somente passa Variants dos seguintes tipos para uma função definida pelo usuário do VBA.
   
-|**Tipo de dados do VBA**|**Sinalizadores de bit do tipo Variant do C/C++**|**Descri��o**|
+|**Tipo de dados do VBA**|**Sinalizadores de bit do tipo Variant do C/C++**|**Descrição**|
 |:-----|:-----|:-----|
-|Double  <br/> |**VT_R8** <br/> ||
-|Booliano  <br/> |**VT_BOOL** <br/> ||
+|Duplo  <br/> |**VT_R8** <br/> ||
+|Boolean  <br/> |**VT_BOOL** <br/> ||
 |Data  <br/> |**VT_DATE** <br/> ||
-|String  <br/> |**VT_BSTR** <br/> |Cadeia de caracteres de byte Bstr OLE  <br/> |
-|Intervalo  <br/> |**VT_DISPATCH** <br/> |Refer�ncias de intervalo e de c�lula  <br/> |
+|Cadeia de caracteres  <br/> |**VT_BSTR** <br/> |Cadeia de caracteres de byte Bstr OLE  <br/> |
+|Intervalo  <br/> |**VT_DISPATCH** <br/> |Referências de intervalos e células  <br/> |
 |Variant com uma matriz  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |Matrizes literais  <br/> |
-|Ccy  <br/> |**VT_CY** <br/> |Inteiro de 64 bits dimensionado para permitir quatro casas decimais de precis�o.  <br/> |
+|Ccy  <br/> |**VT_CY** <br/> |Número inteiro de 64 bits dimensionado para permitir 4 casas decimais de precisão.  <br/> |
 |Variant com erro  <br/> |**VT_ERROR** <br/> ||
-||**VT_EMPTY** <br/> |C�lulas vazias ou argumentos omitidos  <br/> |
+||**VT_EMPTY** <br/> |Argumentos omitidos ou células vazias  <br/> |
    
-Voc� pode verificar o tipo de uma Variant passado no VBA usando o **VarType**, exceto que a fun��o retorna o tipo dos valores do intervalo quando chamado com refer�ncias. Para determinar se uma **Variant** � um objeto de refer�ncia **Range**, voc� poder� usar a fun��o **IsObject**. 
+Você pode verificar o tipo de uma Variant passada no VBA usando o **VarType**, com a exceção que a função retorna o tipo dos valores de intervalo quando chamado com referências. Para determinar se um **Variant** é um objeto **Range** de referência, você pode usar a função **IsObject**. 
   
-Voc� pode criar **Variants** com matrizes de variantes no VBA de um **Range** ao atribuir sua propriedade **Value** a uma **Variant**. Todas as c�lulas no intervalo de origem formatadas como a moeda padr�o para as configura��es regionais em vigor no momento ser�o convertidas em elementos da matriz do tipo **Currency**. Todas as c�lulas formatadas como datas ser�o convertidas em elementos de matriz do tipo **Date**. As c�lulas com cadeias de caracteres ser�o convertidas em Variants **BSTR** de caractere longo. As c�lulas com erros ser�o convertidas em **Variants** do tipo **VT_ERROR**. As c�lulas com **Boolean** **True** ou **False** ser�o convertidas em **Variants** do tipo **VT_BOOL**. 
+Você pode criar **Variants** que contêm matrizes de variantes do VBA de um **Range** atribuindo suas propriedades **Value** para uma **Variant**. Todas as células no intervalo de origem que são formatadas usando o formato de moeda padrão das configurações regionais em vigor no momento são convertidas em elementos de matriz do tipo **Currency**. Todas as células formatadas como datas são convertidas em elementos de matriz do tipo **Date**. As células que contêm cadeias de caracteres são convertidas em Variants **BSTR** de caracteres largos. As células que contêm erros são convertidas em **Variants** do tipo **VT_ERROR**. As células contendo **Boolean** **True** ou **False** são convertidas em **Variants** do tipo **VT_BOOL**. 
   
 > [!NOTE]
-> [!OBSERVA��O] A **Variant** armazena **True** como �1 e **False** como 0. Os n�meros n�o s�o formatados como datas ou valores monet�rios s�o convertidos em Variants do tipo **VT_R8**. 
+> A **Variant** armazena **True** como -1 e **False** como 0. Os números não formatados, como datas ou valores de moedas, são convertidos em Variants do tipo **VT_R8**. 
   
-### <a name="variant-and-string-arguments"></a>Argumentos Variant e a cadeia de caracteres
+### <a name="variant-and-string-arguments"></a>Argumentos de variant ou de cadeia de caracteres
 
-O Excel funciona internamente com cadeias de caracteres Unicode de caractere longo. Quando uma fun��o definida pelo usu�rio do VBA � declarada como obtendo um argumento de **String**, o Excel converte a cadeia de caracteres fornecida em uma cadeia de caracteres de byte de uma forma espec�fica da localidade. Se voc� quiser que uma cadeia de caracteres Unicode seja passada para sua fun��o, sua fun��o definida pelo usu�rio do VBA dever� aceitar um argumento de **Variant** em vez de um de **String**. Sua fun��o DLL poder� ent�o aceitar a cadeia de caracteres de caractere longo BSTR **Variant** do VBA. 
+O Excel funciona internamente com cadeias de caracteres Unicode de caracteres largos. Quando se declara que uma função definida pelo usuário do VBA obtém um argumento **String**, o Excel converte a cadeia de caracteres fornecida em uma cadeia de caracteres de bytes em forma específica do local. Se quiser que a função seja passada em uma cadeia de caracteres Unicode, a função definida pelo usuário do VBA deve aceitar um argumento **Variant**, em vez de um **String**. A função DLL pode aceitar aquela **Variant** da cadeia de caracteres larga de BSTR do VBA. 
   
-Para retornar cadeias de caracteres Unicode para o VBA de uma DLL, modifique um argumento de cadeia de caracteres **Variant** no local. Para que isso funcione, voc� dever� declarar a fun��o DLL como obtendo um ponteiro para a **Variant** em seu c�digo C/C++ e declarar o argumento no c�digo VBA como  `ByRef varg As Variant`. A mem�ria da cadeia de caracteres antiga dever� ser liberada e o valor da nova cadeia de caracteres criado usando o OLE. A cadeia de caracteres Bstr s� funciona na DLL.
+Para retornar cadeias de caracteres Unicode de uma DLL para o VBA, você deve modificar um argumento de cadeia de caracteres **Variant** no local. Para fazer isto, declare a função DLL como fazendo um ponteiro para a **Variant** e no seu código C/C++, e declare o argumento no código VBA como `ByRef varg As Variant`. A memória da cadeia de caracteres antiga deve ser liberada e o novo valor da cadeia de caracteres deve ser criado usando a as funções de cadeia de caracteres OLE Bstr somente na DLL.
   
-Para retornar uma cadeia de caracteres de byte para o VBA de uma DLL, voc� dever� modificar um argumento BSTR de cadeia de caracteres de byte existente. Para que isso funcione, voc� dever� declarar a fun��o DLL como obtendo um ponteiro para um ponteiro para o BSTR e em seu c�digo C/C++ e declarar o argumento no c�digo VBA como " **ByRef varg As String**".
+Para retornar uma cadeia de caracteres de bytes em VBA de uma DLL, você deve modificar um argumento BSTR da cadeia de caracteres de bytes no local. Para fazer isto, você deve declarar a função DLL como fazendo um ponteiro para um ponteiro para o BSTR e no seu código C/C++, e declarar o argumentos no código VBA como ' **ByRef varg As String**'.
   
-Voc� s� deve manipular as cadeias de caracteres passadas dessas maneiras do VBA usando as fun��es de cadeia de caracteres BSTR OLE para evitar problemas relacionados � mem�ria. Por exemplo, ser� necess�rio chamar **SysFreeString** para liberar a mem�ria antes de substituir o que foi passado na cadeia de caracteres e **SysAllocStringByteLen** ou **SysAllocStringLen** para alocar espa�o para uma nova cadeia de caracteres. 
+Você só deve manusear as cadeias de caracteres que são passadas dessa maneira do VBA usando as funções de cadeia de caracteres BSTR OLE para evitar problemas de memória. Por exemplo, você deverá chamar **SysFreeString** para liberar a memória antes de sobrescrever a cadeia de caracteres passada, e **SysAllocStringByteLen** ou **SysAllocStringLen** para alocar espaço para uma nova cadeia de caracteres. 
   
-Voc� pode criar erros de planilha do Excel como **Variants** no VBA usando a fun��o **CVerr** com argumentos como os mostrados na tabela a seguir. Os erros de planilha tamb�m pode ser retornados para o VBA de uma DLL usando **Variants** do tipo **VT_ERROR** e com os valores a seguir no campo **ulVal**. 
+Você pode criar erros de planilha do Excel como **Variants** em VBA usando a função **CVerr** com argumentos, como mostrado na tabela a seguir. Os erros de planilha também podem ser retornados em VBA para uma DLL que usa **Variants** do tipo **VT_ERROR** e com os seguintes valores no campo **ulVal**. 
   
 |**Erro**|**Valor da Variant ulVal**|**Argumento CVerr**|
 |:-----|:-----|:-----|
@@ -147,41 +147,41 @@ Voc� pode criar erros de planilha do Excel como **Variants** no VBA usando a f
 |#NUM!  <br/> |2148141044  <br/> |2036  <br/> |
 |#N/A  <br/> |2148141050  <br/> |2042  <br/> |
    
-Observe que o valor da Variant **ulVal** dado � equivalente ao valor do argumento de **CVerr** mais x800A0000 hexadecimal. 
+Observe que o valor fornecido de Variant **ulVal** é equivalente ao valor do argumento **CVerr** mais o hexadecimal x800A0000. 
   
-## <a name="calling-dll-functions-directly-from-the-worksheet"></a>Chamando funções DLL diretamente a partir de planilha
+## <a name="calling-dll-functions-directly-from-the-worksheet"></a>Como chamar funções DLL diretamente da planilha
 
-Voc� n�o pode acessar fun��es DLL Win32 da planilha sem, por exemplo, usar o VBA ou o XLM como interfaces ou sem permitir que o Excel conhe�a a fun��o, seus argumentos e seu tipo de retorno com anteced�ncia. O processo de fazer isso se chama registro.
+Não é possível acessar as funções Win32 DLL da planilha sem, por exemplo, usar o VBA ou XLM como interfaces, ou sem informar o Excel com antecedência sobre o tipo de função, seus argumentos e o tipo de retorno. Esse processo é chamado de registro.
   
-As maneiras nas quais as fun��es de uma DLL podem ser acessadas na planilha s�o as seguintes:
+Veja a seguir as maneiras para acessar as funções de uma DLL na planilha:
   
-- Declare a fun��o no VBA como descrito anteriormente e acesse-a por meio de uma fun��o definida pelo usu�rio do VBA.
+- Declare a função em VBA, como descrito anteriormente, e acesse-a por meio de uma função VBA definida pelo usuário.
     
-- Chame a fun��o DLL usando CALL em uma folha de macro XLM ou acesse-a por meio de uma fun��o definida pelo usu�rio XLM.
+- Chame a função DLL usando CALL em uma planilha de macro XLM e acesse-a por uma função XLM definida pelo usuário.
     
-- Use um comando XLM ou VBA para chamar a fun��o **REGISTER** XLM, que fornece as informa��es de que o Excel precisa para reconhecer a fun��o quando ela for inserida em uma c�lula de planilha. 
+- Use um comando XLM ou VBA para chamar a função XLM **REGISTER**, que fornece as informações que o Excel precisa para reconhecer a função quando ela é inserida em uma célula da planilha. 
     
-- Transforme a DLL em um XLL e registre a fun��o usando a fun��o **xlfRegister** da API do C quando o XLL for ativado. 
+- Transforme a DLL em um XLL e registre a função usando a função API de C **xlfRegister** quando o XLL estiver ativado. 
     
-A quarta abordagem � autocontida: o c�digo que registra as fun��es e o c�digo da fun��o est�o contidos no mesmo projeto de c�digo. Fazer altera��es no suplemento n�o envolve fazer altera��es em uma planilha XLM ou em um m�dulo de c�digo VBA. Para fazer isso de uma maneira bem gerenciada mantendo-se no limite dos recursos da API do C, voc� dever� transformar sua DLL em um XLL e carregar o suplemento resultante usando o Gerenciador de Suplementos. Isso permite que o Excel chame uma fun��o exposta por sua DLL quando o suplemento � carregado ou ativado, a partir do qual voc� poder� registrar todas as fun��es contidas em seu XLL e realizar a inicializa��o de qualquer outra DLL.
+A quarta abordagem é autocontida: o código que registra as funções e o código da função estão contidos no mesmo projeto de código. Fazer alterações no suplemento não inclui fazer alterações em uma planilha XLM ou em um módulo de código do VBA. Para fazer isso de maneira bem gerenciada enquanto permanece dentro dos recursos da API de C, é necessário transformar a DLL em um XLL e carregar o suplemento resultante usando o Gerenciador de Suplemento, o que permite que o Excel chame uma função exposta pelo seu DLL quando o suplemento é carregado ou ativado, na qual você pode registrar todas as funções contidas na sua XLL e executar qualquer outra inicialização de DLL.
   
-## <a name="calling-dll-commands-directly-from-excel"></a>Chamar comandos DLL diretamente do Excel
+## <a name="calling-dll-commands-directly-from-excel"></a>Chamando comandos de DLL diretamente do Excel
 
-Os comandos de DLL Win32 n�o podem ser diretamente acessados de caixas de di�logo e de menus do Excel sem que haja uma interface, como o VBA, ou sem o registro pr�vio dos comandos.
+Os comandos Win32 DLL não são acessíveis diretamente nos menus e caixas de diálogo do Excel sem a existência de uma interface, como o VBA, ou sem os comandos serem registrados com antecedência.
   
-As maneiras nas quais voc� pode acessar os comandos de uma DLL s�o as seguintes:
+Estas são as maneiras para acessar os comandos de uma DLL:
   
 - Declare o comando no VBA como descrito anteriormente e acesse-o por meio de uma macro do VBA.
     
 - Chame o comando da DLL usando **CALL** em uma folha de macros XLM e acesse-o por meio de uma macro XLM. 
     
-- Use um comando XLM ou VBA para chamar a fun��o **REGISTER** XLM, que fornece as informa��es de que o Excel precisa para reconhecer o comando quando ele for inserido em uma caixa de di�logo que espere o nome de um comando de macro. 
+- Use um comando XLM ou VBA para chamar a função de XLM **REGISTER**, que fornece as informações que o Excel precisa para reconhecer o comando quando ele é inserido na caixa de diálogo que espera o nome de um comando de macro. 
     
-- Transforme a DLL em um XLL e registre o comando usando a fun��o **xlfRegister** da API do C. 
+- Transforme a DLL em XLL e registre o comando usando a função API de C **xlfRegister**. 
     
-Como discutido anteriormente no contexto de fun��es de DLL, a quarta abordagem � a mais autocontida, mantendo o c�digo de registro pr�ximo ao c�digo do comando. Para fazer isso, voc� deve transformar sua DLL em um XLL e carregar o suplemento resultante usando o Gerenciador de Suplementos. O registro de comandos dessa maneira tamb�m permite que voc� anexe o comando a um elemento da interface do usu�rio, como um menu personalizado ou configure uma intercepta��o de evento que chame o comando em um determinado pressionamento de tecla ou outro evento.
+Como discutido anteriormente no contexto das funções DLL, a quarta abordagem é a mais autocontida, mantendo o código de registro parecido com o código de comando. Para isso, você deve transformar a DLL em um XLL e carregar o suplemento resultante usando o Gerenciador de Suplemento. Registrar os comandos dessa maneira também permite anexar o comando a um elemento da interface do usuário, como um menu personalizado, ou configurar um ajuste de registro de evento que chama o comando em um determinado pressionamento de tecla ou outro evento.
   
-Todos os comandos de XLL registrados no Excel s�o considerados pelo Excel como do formato a seguir.
+Todos os comandos do XLL registrados com o Excel são considerados pelo Excel da forma a seguir.
   
 ```cpp
 int WINAPI my_xll_cmd(void)
@@ -192,20 +192,20 @@ int WINAPI my_xll_cmd(void)
 ```
 
 > [!NOTE]
-> [!OBSERVA��O] O Excel ignorar� o valor de retorno, a menos que ele seja chamado de uma folha de macros XLM; nesse caso, o valor de retorno ser� convertido em **TRUE** ou em **FALSE**. Dessa forma, voc� dever� retornar 1 se o seu comando tiver sido executado com �xito e 0 caso ele tenha falhado ou tenha sido cancelado pelo usu�rio. 
+> O Excel ignora o valor de retorno, a menos que ele seja chamado de uma planilha de macro XLM; neste caso, o valor de retorno é convertido para **TRUE** ou **FALSE**. Portanto, você deve retornar 1 se o comando foi executado com sucesso e 0 se falhou ou foi cancelado pelo usuário. 
   
-## <a name="dll-memory-and-multiple-dll-instances"></a>DLL de memória e várias instâncias DLL
+## <a name="dll-memory-and-multiple-dll-instances"></a>Memória de DLL e várias instâncias de DLL
 
-Quando um aplicativo carrega uma DLL, o c�digo execut�vel da DLL � carregado na pilha global de forma que possa ser executado, e � alocado um espa�o na pilha global para suas estruturas de dados. O Windows usa o mapeamento de mem�ria para fazer com que essas �reas da mem�ria apare�am como se estivessem no processo do aplicativo, de forma que o aplicativo possa acess�-las.
+Quando um aplicativo carrega uma DLL, o código executável da DLL é carregado na pilha global para que possa ser executado e o espaço é alocado na pilha global das suas estruturas de dados. O Windows usa o mapeamento de memória para fazer com que essas áreas de memória apareçam como se estivessem no processo do aplicativo para que o aplicativo possa acessá-las.
   
-Se um segundo aplicativo carregar a DLL, o Windows n�o far� outra c�pia do c�digo execut�vel da DLL, j� que a mem�ria � somente leitura. O Windows mapeia a mem�ria do c�digo execut�vel da DLL para os processos de ambos os aplicativos. No entanto, ele aloca um segundo espa�o para uma c�pia privada das estruturas de dados da DLL e mapeia essa c�pia apenas para o segundo processo. Isso garante que os aplicativos n�o interfiram nos dados de DLL um do outro.
+Se um segundo aplicativo em seguida carrega a DLL, o Windows não faz outra cópia do código executável de DLL, pois essa memória é somente leitura. O Windows mapeia a memória de códigos executáveis DLL para os processos dos dois aplicativos, mas aloca um segundo espaço para uma cópia particular das estruturas de dados da DLL e mapeia esta cópia ao segundo processo. Isso garante que nenhum aplicativo possa interferir nos dados de DLL dos outros.
   
-Isso significa que os desenvolvedores n�o precisa se preocupar com a possibilidade de as vari�veis est�ticas e globais e as estruturas de dados serem acessados por mais de um aplicativo, ou por mais de uma inst�ncia do mesmo aplicativo. Todas as inst�ncias de todos os aplicativos obt�m sua pr�pria c�pia dos dados da DLL.
+Ou seja, os desenvolvedores DLL não precisam se preocupar com as variáveis globais e estáticas, e as estruturas de dados acessadas por mais de um aplicativo ou mais de uma instância do mesmo aplicativo. Todas as instâncias de todos os aplicativos obtêm sua própria cópia dos dados da DLL.
   
-Os desenvolvedores de DLL n�o precisam se preocupar com o fato de a mesma inst�ncia do aplicativo chamar sua DLL v�rias vezes de threads diferentes, porque isso pode resultar em conten��o dos dados da inst�ncia. Para saber mais, consulte [Memory Management in Excel](memory-management-in-excel.md).
+Os desenvolvedores de DLL precisam se preocupar com a mesma instância de um aplicativo chamando sua DLL várias vezes de threads diferentes, porque isso pode resultar em contenção dos dados dessa instância. Para saber mais, confira [Gerenciamento de memória no Excel](memory-management-in-excel.md).
   
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
-- [Developing DLLs](developing-dlls.md) 
+- [Desenvolver DLLs](developing-dlls.md) 
 - [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
 
