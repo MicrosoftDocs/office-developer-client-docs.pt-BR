@@ -8,25 +8,25 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 182ab0c6-c9d3-4cc8-892f-f6b09312ceb9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 26dcc31f2ebdd1892f966bfb95fda1a65c5140cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e85e2da4d63442dc1fb912c5941be9d6f6f53824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768014"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593785"
 ---
-# <a name="mapireallocatebuffer"></a><span data-ttu-id="424cf-103">MAPIReallocateBuffer</span><span class="sxs-lookup"><span data-stu-id="424cf-103">MAPIReallocateBuffer</span></span>
+# <a name="mapireallocatebuffer"></a><span data-ttu-id="76e49-103">MAPIReallocateBuffer</span><span class="sxs-lookup"><span data-stu-id="76e49-103">MAPIReallocateBuffer</span></span>
 
   
   
-<span data-ttu-id="424cf-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="424cf-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="76e49-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="76e49-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="424cf-105">Realoca um buffer de memória.</span><span class="sxs-lookup"><span data-stu-id="424cf-105">Reallocates a memory buffer.</span></span> <span data-ttu-id="424cf-106">Ele é usado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="424cf-106">It is used with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
+<span data-ttu-id="76e49-105">Realoca um buffer de memória.</span><span class="sxs-lookup"><span data-stu-id="76e49-105">Reallocates a memory buffer.</span></span> <span data-ttu-id="76e49-106">Ele é usado com a função [MAPIAllocateBuffer](mapiallocatebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="76e49-106">It is used with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="424cf-107">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="424cf-107">Header file:</span></span>  <br/> |<span data-ttu-id="424cf-108">omapix.h</span><span class="sxs-lookup"><span data-stu-id="424cf-108">omapix.h</span></span>  <br/> |
-|<span data-ttu-id="424cf-109">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="424cf-109">Called by:</span></span>  <br/> |<span data-ttu-id="424cf-110">Provedores de serviços e aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="424cf-110">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="76e49-107">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="76e49-107">Header file:</span></span>  <br/> |<span data-ttu-id="76e49-108">omapix.h</span><span class="sxs-lookup"><span data-stu-id="76e49-108">omapix.h</span></span>  <br/> |
+|<span data-ttu-id="76e49-109">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="76e49-109">Called by:</span></span>  <br/> |<span data-ttu-id="76e49-110">Provedores de serviços e aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="76e49-110">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 STDMETHODIMP_(SCODE) MAPIReallocateBuffer
@@ -37,27 +37,27 @@ LPVOID * lppv
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="424cf-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="424cf-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="76e49-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="76e49-111">Parameters</span></span>
 
- <span data-ttu-id="424cf-112">_lpv_</span><span class="sxs-lookup"><span data-stu-id="424cf-112">_lpv_</span></span>
+ <span data-ttu-id="76e49-112">_lpv_</span><span class="sxs-lookup"><span data-stu-id="76e49-112">_lpv_</span></span>
   
-> <span data-ttu-id="424cf-113">Um ponteiro para a memória sejam realocados.</span><span class="sxs-lookup"><span data-stu-id="424cf-113">A pointer to the memory to be reallocated.</span></span>
+> <span data-ttu-id="76e49-113">Um ponteiro para a memória sejam realocados.</span><span class="sxs-lookup"><span data-stu-id="76e49-113">A pointer to the memory to be reallocated.</span></span>
     
- <span data-ttu-id="424cf-114">_ulSize_</span><span class="sxs-lookup"><span data-stu-id="424cf-114">_ulSize_</span></span>
+ <span data-ttu-id="76e49-114">_ulSize_</span><span class="sxs-lookup"><span data-stu-id="76e49-114">_ulSize_</span></span>
   
-> <span data-ttu-id="424cf-115">O tamanho, em bytes, do buffer a ser alocado.</span><span class="sxs-lookup"><span data-stu-id="424cf-115">The size, in bytes, of the buffer to be allocated.</span></span>
+> <span data-ttu-id="76e49-115">O tamanho, em bytes, do buffer a ser alocado.</span><span class="sxs-lookup"><span data-stu-id="76e49-115">The size, in bytes, of the buffer to be allocated.</span></span>
     
- <span data-ttu-id="424cf-116">_lppv_</span><span class="sxs-lookup"><span data-stu-id="424cf-116">_lppv_</span></span>
+ <span data-ttu-id="76e49-116">_lppv_</span><span class="sxs-lookup"><span data-stu-id="76e49-116">_lppv_</span></span>
   
-> <span data-ttu-id="424cf-117">Um ponteiro para o buffer alocado retornado.</span><span class="sxs-lookup"><span data-stu-id="424cf-117">A pointer to the returned allocated buffer.</span></span>
+> <span data-ttu-id="76e49-117">Um ponteiro para o buffer alocado retornado.</span><span class="sxs-lookup"><span data-stu-id="76e49-117">A pointer to the returned allocated buffer.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="424cf-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="424cf-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="76e49-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="76e49-118">Remarks</span></span>
 
- <span data-ttu-id="424cf-119">**MAPIReallocateBuffer** aloca um novo bloco de memória do tamanho solicitado e copia o conteúdo do buffer que é passado para este novo bloco de memória.</span><span class="sxs-lookup"><span data-stu-id="424cf-119">**MAPIReallocateBuffer** allocates a new block of memory of the requested size and copies the contents of the buffer that is passed into this new block of memory.</span></span> <span data-ttu-id="424cf-120">Se o bloco de memória que é passada contém ponteiros internos, não alteram os ponteiros para coincidir com o novo local.</span><span class="sxs-lookup"><span data-stu-id="424cf-120">If the block of memory that is passed contains internal pointers, the pointers do not change to match the new location.</span></span> 
+ <span data-ttu-id="76e49-119">**MAPIReallocateBuffer** aloca um novo bloco de memória do tamanho solicitado e copia o conteúdo do buffer que é passado para este novo bloco de memória.</span><span class="sxs-lookup"><span data-stu-id="76e49-119">**MAPIReallocateBuffer** allocates a new block of memory of the requested size and copies the contents of the buffer that is passed into this new block of memory.</span></span> <span data-ttu-id="76e49-120">Se o bloco de memória que é passada contém ponteiros internos, não alteram os ponteiros para coincidir com o novo local.</span><span class="sxs-lookup"><span data-stu-id="76e49-120">If the block of memory that is passed contains internal pointers, the pointers do not change to match the new location.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="424cf-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="424cf-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="76e49-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="76e49-121">See also</span></span>
 
 
 
-[<span data-ttu-id="424cf-122">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="424cf-122">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="76e49-122">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="76e49-122">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
 
