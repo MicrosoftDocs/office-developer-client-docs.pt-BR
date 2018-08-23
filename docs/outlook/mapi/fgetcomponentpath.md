@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e4bce7f122522532023d18b43fe4bfdeda84af9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766537"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566345"
 ---
-# <a name="fgetcomponentpath"></a><span data-ttu-id="4aa21-103">FGetComponentPath</span><span class="sxs-lookup"><span data-stu-id="4aa21-103">FGetComponentPath</span></span>
+# <a name="fgetcomponentpath"></a><span data-ttu-id="ae0e4-103">FGetComponentPath</span><span class="sxs-lookup"><span data-stu-id="ae0e4-103">FGetComponentPath</span></span>
 
   
   
-<span data-ttu-id="4aa21-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="4aa21-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="ae0e4-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ae0e4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4aa21-105">Retorna o caminho para o Mapi32 privada.</span><span class="sxs-lookup"><span data-stu-id="4aa21-105">Returns the path to the private Mapi32.dll.</span></span>
+<span data-ttu-id="ae0e4-105">Retorna o caminho para o Mapi32 privada.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-105">Returns the path to the private Mapi32.dll.</span></span>
   
 ```cpp
 BOOL FGetComponentPath(
@@ -37,48 +37,48 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4aa21-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="4aa21-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ae0e4-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="ae0e4-106">Parameters</span></span>
 
- <span data-ttu-id="4aa21-107">_szComponent_</span><span class="sxs-lookup"><span data-stu-id="4aa21-107">_szComponent_</span></span>
+ <span data-ttu-id="ae0e4-107">_szComponent_</span><span class="sxs-lookup"><span data-stu-id="ae0e4-107">_szComponent_</span></span>
   
-> <span data-ttu-id="4aa21-108">[in] A chave do registro MSIComponentID descrito nas [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span><span class="sxs-lookup"><span data-stu-id="4aa21-108">[in] The MSIComponentID reg key described in [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span></span>
+> <span data-ttu-id="ae0e4-108">[in] A chave do registro MSIComponentID descrito nas [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span><span class="sxs-lookup"><span data-stu-id="ae0e4-108">[in] The MSIComponentID reg key described in [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span></span>
     
- <span data-ttu-id="4aa21-109">_szQualifier_</span><span class="sxs-lookup"><span data-stu-id="4aa21-109">_szQualifier_</span></span>
+ <span data-ttu-id="ae0e4-109">_szQualifier_</span><span class="sxs-lookup"><span data-stu-id="ae0e4-109">_szQualifier_</span></span>
   
-> <span data-ttu-id="4aa21-110">[in] A subchave MSIApplicationLCID ou MSIOfficeLCID descrita na [Escolha de uma versão específica de MAPI a carga](how-to-choose-a-specific-version-of-mapi-to-load.md).</span><span class="sxs-lookup"><span data-stu-id="4aa21-110">[in] The MSIApplicationLCID or MSIOfficeLCID subkey described in [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md).</span></span> <span data-ttu-id="4aa21-111">Os chamadores podem passar **null** se não houver nenhum qualificador.</span><span class="sxs-lookup"><span data-stu-id="4aa21-111">Callers can pass **null** if there is no qualifier.</span></span> 
+> <span data-ttu-id="ae0e4-110">[in] A subchave MSIApplicationLCID ou MSIOfficeLCID descrita na [Escolha de uma versão específica de MAPI a carga](how-to-choose-a-specific-version-of-mapi-to-load.md).</span><span class="sxs-lookup"><span data-stu-id="ae0e4-110">[in] The MSIApplicationLCID or MSIOfficeLCID subkey described in [Choose a Specific Version of MAPI to Load](how-to-choose-a-specific-version-of-mapi-to-load.md).</span></span> <span data-ttu-id="ae0e4-111">Os chamadores podem passar **null** se não houver nenhum qualificador.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-111">Callers can pass **null** if there is no qualifier.</span></span> 
     
- <span data-ttu-id="4aa21-112">_szDllPath_</span><span class="sxs-lookup"><span data-stu-id="4aa21-112">_szDllPath_</span></span>
+ <span data-ttu-id="ae0e4-112">_szDllPath_</span><span class="sxs-lookup"><span data-stu-id="ae0e4-112">_szDllPath_</span></span>
   
-> <span data-ttu-id="4aa21-113">[in] O caminho para o Mapi32 privada, que tem a funcionalidade total do MAPI (as exportações mesmas como o Mapi32).</span><span class="sxs-lookup"><span data-stu-id="4aa21-113">[in] The path to the private Mapi32.dll, which has full MAPI functionality (the same exports as the Mapi32.dll).</span></span>
+> <span data-ttu-id="ae0e4-113">[in] O caminho para o Mapi32 privada, que tem a funcionalidade total do MAPI (as exportações mesmas como o Mapi32).</span><span class="sxs-lookup"><span data-stu-id="ae0e4-113">[in] The path to the private Mapi32.dll, which has full MAPI functionality (the same exports as the Mapi32.dll).</span></span>
     
- <span data-ttu-id="4aa21-114">_cchBufferSize_</span><span class="sxs-lookup"><span data-stu-id="4aa21-114">_cchBufferSize_</span></span>
+ <span data-ttu-id="ae0e4-114">_cchBufferSize_</span><span class="sxs-lookup"><span data-stu-id="ae0e4-114">_cchBufferSize_</span></span>
   
-> <span data-ttu-id="4aa21-115">[in] O tamanho da _szDllPath_, em caracteres.</span><span class="sxs-lookup"><span data-stu-id="4aa21-115">[in] The size of  _szDllPath_, in characters.</span></span>
+> <span data-ttu-id="ae0e4-115">[in] O tamanho da _szDllPath_, em caracteres.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-115">[in] The size of  _szDllPath_, in characters.</span></span>
     
- <span data-ttu-id="4aa21-116">_fInstall_</span><span class="sxs-lookup"><span data-stu-id="4aa21-116">_fInstall_</span></span>
+ <span data-ttu-id="ae0e4-116">_fInstall_</span><span class="sxs-lookup"><span data-stu-id="ae0e4-116">_fInstall_</span></span>
   
-> <span data-ttu-id="4aa21-117">[in] Informa MAPI para instalar o componente de Mapi32 privado se ele está ausente.</span><span class="sxs-lookup"><span data-stu-id="4aa21-117">[in] Tells MAPI to install the private Mapi32.dll component if it is absent.</span></span>
+> <span data-ttu-id="ae0e4-117">[in] Informa MAPI para instalar o componente de Mapi32 privado se ele está ausente.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-117">[in] Tells MAPI to install the private Mapi32.dll component if it is absent.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4aa21-118">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="4aa21-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ae0e4-118">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="ae0e4-118">Return value</span></span>
 
- <span data-ttu-id="4aa21-119">**True**</span><span class="sxs-lookup"><span data-stu-id="4aa21-119">**true**</span></span>
+ <span data-ttu-id="ae0e4-119">**True**</span><span class="sxs-lookup"><span data-stu-id="ae0e4-119">**true**</span></span>
   
-> <span data-ttu-id="4aa21-120">O caminho foi encontrado.</span><span class="sxs-lookup"><span data-stu-id="4aa21-120">The path was found.</span></span>
+> <span data-ttu-id="ae0e4-120">O caminho foi encontrado.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-120">The path was found.</span></span>
     
- <span data-ttu-id="4aa21-121">**False**</span><span class="sxs-lookup"><span data-stu-id="4aa21-121">**false**</span></span>
+ <span data-ttu-id="ae0e4-121">**False**</span><span class="sxs-lookup"><span data-stu-id="ae0e4-121">**false**</span></span>
   
-> <span data-ttu-id="4aa21-122">O caminho não foi encontrado.</span><span class="sxs-lookup"><span data-stu-id="4aa21-122">The path was not found.</span></span>
+> <span data-ttu-id="ae0e4-122">O caminho não foi encontrado.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-122">The path was not found.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4aa21-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="4aa21-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae0e4-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="ae0e4-123">Remarks</span></span>
 
-<span data-ttu-id="4aa21-124">Use a função de **FGetComponentPath** quando precisar fazer o caminho para o Mapi32 privada.</span><span class="sxs-lookup"><span data-stu-id="4aa21-124">Use the **FGetComponentPath** function when you need to get the path to the private Mapi32.dll.</span></span> 
+<span data-ttu-id="ae0e4-124">Use a função de **FGetComponentPath** quando precisar fazer o caminho para o Mapi32 privada.</span><span class="sxs-lookup"><span data-stu-id="ae0e4-124">Use the **FGetComponentPath** function when you need to get the path to the private Mapi32.dll.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4aa21-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="4aa21-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae0e4-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="ae0e4-125">See also</span></span>
 
 
 
-[<span data-ttu-id="4aa21-126">Escolher uma versão MAPI específica para carregar</span><span class="sxs-lookup"><span data-stu-id="4aa21-126">Choose a Specific Version of MAPI to Load</span></span>](how-to-choose-a-specific-version-of-mapi-to-load.md)
+[<span data-ttu-id="ae0e4-126">Escolher uma versão MAPI específica para carregar</span><span class="sxs-lookup"><span data-stu-id="ae0e4-126">Choose a Specific Version of MAPI to Load</span></span>](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[<span data-ttu-id="4aa21-127">Configurações de registro de Stub Mapi32</span><span class="sxs-lookup"><span data-stu-id="4aa21-127">Mapi32.dll Stub Registry Settings</span></span>](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
+[<span data-ttu-id="ae0e4-127">Configurações de registro de Stub Mapi32</span><span class="sxs-lookup"><span data-stu-id="ae0e4-127">Mapi32.dll Stub Registry Settings</span></span>](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
 
