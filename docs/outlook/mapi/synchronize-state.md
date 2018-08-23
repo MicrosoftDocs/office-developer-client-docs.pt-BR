@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 36bdeecfaaa94492b1e719dbd1cf455bfa40db47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9f2a11a9ec1691863b476fed02eff1831a69207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770567"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569719"
 ---
 # <a name="synchronize-state"></a>Sincronizar o estado
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o estado de sincronização da máquina de estado de replicação. 
   

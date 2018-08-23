@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5b76a73a0fde8f4531b99a58646b927724162e81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769451"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569334"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriedade canônica PidTagMessageAttachments
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma tabela das restrições que podem ser aplicadas a uma tabela de conteúdo para localizar todas as mensagens que contêm subobjetos anexo que atendam as restrições. 
   

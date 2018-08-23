@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a693c06d933c7e93d384aac8da8d5311eaf1d9da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f01d0ad7e7e6b1ad7a5e4c4838bb46ca143e0968
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766307"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567052"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Chama uma função interna para validar os parâmetros de depuração em métodos do provedor de serviço chamados pelo MAPI. 
   

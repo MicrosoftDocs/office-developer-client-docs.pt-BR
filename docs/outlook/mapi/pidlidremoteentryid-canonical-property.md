@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0ab09fbbf51dc4574053d144d5be69d5bdb02859
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c63ee66924288ddedcf683c47ab5576be3cf6f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566597"
 ---
 # <a name="pidlidremoteentryid-canonical-property"></a>Propriedade canônica PidLidRemoteEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a identificação da entrada de um item remoto.
   

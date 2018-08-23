@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cdf06861cf123162e726348b12fa6033fc88ffdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766247"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569607"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Calcula o número de bytes em uma estrutura [SMessageClassArray](smessageclassarray.md) existente que contém um número especificado de ponteiros de cadeia de caracteres para classes de mensagens. 
   

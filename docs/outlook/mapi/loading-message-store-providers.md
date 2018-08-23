@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 96e2ca38391931508dd9f3f78f3ba69e6f8b9c15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568697"
 ---
 # <a name="loading-message-store-providers"></a>Carregar provedores do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando um aplicativo cliente abre um armazenamento de mensagens, MAPI carrega a DLL do provedor de repositório a mensagem na memória. Depois de MAPI carrega a DLL, uma sequência muito específica de chamadas de método ocorre entre o provedor de armazenamento de mensagem e MAPI. Esta sequência de chamada do método permite MAPI obter um nível superior [IMSProvider: IUnknown](imsprovideriunknown.md), [IMSLogon: IUnknown](imslogoniunknown.md), e [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) interfaces e permite que o provedor de armazenamento de mensagem obter um objeto de suporte MAPI. Após a sequência de chamadas, o provedor de armazenamento de mensagem deve estar pronto para aceitar logons de clientes. 
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: df225a0852b09e048656e817c54ea28b0de59888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa30a173251193d74d6560c8dce2663463a18e36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565981"
 ---
 # <a name="about-the-offline-state-api"></a>Sobre a API de estado offline
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A API de estado Offline oferece suporte a chamadas de retorno indicando alterações no estado de conexão de um usuário no Microsoft Outlook 2013 e o Microsoft Outlook 2010 — por exemplo, de sendo online no Outlook 2013 ou o Outlook 2010 para sendo offline. A API usa um objeto global de offline no Outlook 2013 ou o Outlook 2010 para rastrear tais alterações para um perfil de conta de usuário específico. Notificação é a única forma com suporte de retorno de chamada. Como os clientes desta API, provedores de email que desejam ser notificado sobre essas alterações de estado de conexão faça o seguinte:
   

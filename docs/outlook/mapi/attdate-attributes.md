@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22801641-752c-4c81-be90-02039eaa4277
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f3319c9ae49fa97a6179b0ee800bd5dd594aefab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff0cc6b1c17b2ed83d7b0ec0921904763da8624b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567010"
 ---
 # <a name="attdate-attributes"></a>Atributos attDate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todas as propriedades MAPI relativos ao datas e horas são mapeadas para os atributos TNEF que possuem o prefixo **attDate** . Estas são codificadas como estruturas **DTR** . As datas e horas dos atributos do anexo são codificadas como **DTR** estruturas também. 
   

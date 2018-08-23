@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19768036"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568060"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mapeamento dos atributos de email da Internet para propriedades MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este apêndice descreve como um provedor de transporte MAPI ou gateway reconhecimento de MAPI que se conecta à Internet deve traduzir entre os atributos de mensagem do protocolo de transporte de email simples (SMTP) e propriedades de mensagem MAPI. SMTP é o protocolo de mensagens usado em grande parte da Internet. SMTP define um conjunto de cabeçalhos de mensagem — o envelope da mensagem — e um formato de conteúdo da mensagem. SMTP está documentada em um conjunto de dois documentos, RFC 821 e RFC 822, que pode ser encontrado em um número de sites FTP e WWW na Internet.
   

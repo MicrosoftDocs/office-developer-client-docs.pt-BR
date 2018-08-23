@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e28bde9571081d61b37f6939a991c11ddeb75a4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566044"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriedade canônica PidLidExceptionReplaceTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a data e hora em que o padrão de recorrência que substituirá a exceção.
   

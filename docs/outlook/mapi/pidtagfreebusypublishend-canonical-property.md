@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f7f439b211b60f7acad3a9dd19c50a21923c1cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b539de9793c45e4b393452c264d72dda6fa58c4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568795"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>Propriedade canônica PidTagFreeBusyPublishEnd
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a hora de término do intervalo de publicação.
   

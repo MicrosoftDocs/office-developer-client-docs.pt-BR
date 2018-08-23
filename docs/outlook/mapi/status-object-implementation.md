@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 379378f2092f7b119a40ac44cbdcfa03f254b448
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770511"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569593"
 ---
 # <a name="status-object-implementation"></a>Implementação do objeto de status
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todos os provedores de serviço devem implementar um objeto de status e forneça as propriedades à tabela de status de sessão. Você pode incluir uma ou mais linhas na tabela de status, dependendo do número de recursos que você controle. Um provedor de transporte, por exemplo, deve criar uma linha da tabela de status de cada fila de mensagens que ele gerencia. Quando ocorrem alterações, a linha da tabela de status apropriado deve ser atualizada. Objetos de status são implementados para fornecer acesso às informações incluído na tabela de status e para informações adicionais não incluídas na tabela.
   

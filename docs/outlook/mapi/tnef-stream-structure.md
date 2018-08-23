@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0fcd1c79d1c0debfb18d270dc0e40de42842c6d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebe10ae741975b33ee58e1e99032aaca64ef38d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569726"
 ---
 # <a name="tnef-stream-structure"></a>Estrutura do fluxo de TNEF
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um fluxo TNEF começa com uma assinatura de 32 bits que identifica o fluxo como um fluxo TNEF. Após a assinatura é um inteiro não assinado de 16 bits que é usado como uma chave de anexos para seu local no texto da mensagem marcados de referência cruzada. O restante do fluxo é uma sequência de atributos TNEF. Atributos de mensagem aparecem primeiro no stream TNEF e siga os atributos de anexo. Atributos que pertencem a um determinado anexo são agrupados juntos, começando com o atributo **attAttachRenddata** . 
   

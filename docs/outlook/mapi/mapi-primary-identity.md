@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bd6fe1298a38733cb9d4916a931138c616e110bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de1fe8fd5ef5a6e79934478c62b2403c48f85b5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565876"
 ---
 # <a name="mapi-primary-identity"></a>Identidade primária de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A maioria das sessões MAPI tem um provedor de serviço específico que fornece a identidade principal para a sessão. Normalmente, ele é um provedor de catálogo de endereços, que fornece a identidade por meio de uma de suas mensagens de objetos de usuário ou listas de distribuição. Na verdade, MAPI recomenda que os serviços de mensagem que inclui um provedor de catálogo de endereços usam um dos seus objetos referente à identidade do principal. Quando um provedor de serviços que pertence a um serviço de mensagem fornece a identidade principal, todos os outros provedores de serviço no serviço de mensagem compartilham essa identidade.
   

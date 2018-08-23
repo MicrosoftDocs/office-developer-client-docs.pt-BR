@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b89c8129f68852bdd243a7f984497ab312aa2551
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567633"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Logs de MAPI em uma instância de um provedor de armazenamento de mensagem.
   

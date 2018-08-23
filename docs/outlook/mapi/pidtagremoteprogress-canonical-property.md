@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4e6495d5521e0f277ac4d501a987de0142d0960d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1f57fd95ff38ef102cd74b0035dbb6b553259c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569348"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propriedade canônica PidTagRemoteProgress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa propriedade contém um número que indica o status de uma transferência remota.
   

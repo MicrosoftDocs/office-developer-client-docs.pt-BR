@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f3138a5994ffc6e32ffebd1a4d5b221db0dd2312
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce69d563a0d797298a6d708bcf70f1b2e1ad950f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768666"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565937"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>Propriedade canônica PidLidSharingProviderGuid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o compartilhamento provedor identificador global exclusivo (GUID). Esta é uma propriedade de uma mensagem de compartilhamento.
   

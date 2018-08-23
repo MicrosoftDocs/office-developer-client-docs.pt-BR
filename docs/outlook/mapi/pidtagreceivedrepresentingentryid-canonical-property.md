@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ae2266c-f093-41e5-b4d0-e12aa0f03190
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 12e4c97947cfe579f550cc6d48ca0b64750b9ab6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 490025f22cd643ffededd6d8022907761c7f15d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567094"
 ---
 # <a name="pidtagreceivedrepresentingentryid-canonical-property"></a>Propriedade canônica PidTagReceivedRepresentingEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada para o usuário de mensagens que é representado pelo usuário receptor.
   

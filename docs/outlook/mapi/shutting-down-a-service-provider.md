@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 71706fc970170f74aa5555da29d904c08c0422f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567192"
 ---
 # <a name="shutting-down-a-service-provider"></a>Desligar a um provedor de serviços
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando um cliente chama o método [IMAPISession::Logoff](imapisession-logoff.md) terminar a sessão e desligue todos os provedores de serviço ativo, MAPI por sua vez chama os métodos a seguir: 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6edebdb63a63b9df830ae549c0f0d9146f6eb82e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ede62c792b1241a150c9d0a05adbe47fe0b6c0e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567458"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriedade canônica PidTagRuleActions
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o conjunto de ações associadas à regra. 
   

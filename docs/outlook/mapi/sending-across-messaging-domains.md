@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 65594253-66cd-486a-aa5b-0bc719f761f0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1fc5e4de63815c2cbfcb4818a9f6454af8c4d93b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40c12a4010d51cb433b62558b5fe1d12afb583dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567061"
 ---
 # <a name="sending-across-messaging-domains"></a>Enviar entre domínios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um domínio de mensagens representa um ou mais sistemas de mensagens que compartilham um formato de endereço comum. Comunicação entre vários domínios de mensagens envolve traduzir uma mensagem enviada no formato do domínio mensagens original para o formato do domínio de mensagens de destino. Porque nem todos os formatos de endereço são compatíveis, um gateway é necessária para traduzir as informações de endereçamento do formato de origem para o formato de destino. Para garantir a validade entre domínios de mensagens, aplicativos cliente armazenam informações de endereçamento importantes nas propriedades MAPI. Além disso, os gateways executam a conversão examinando as propriedades necessitam de conversão e alterá-los em um formato que o domínio de destino de mensagens pode usar.
   

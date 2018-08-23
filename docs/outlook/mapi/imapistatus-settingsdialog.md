@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 09a14a3cc9f77527c6bc254dc703328f2c9ce9f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a21feb474ef69da9ec8e36e06c8649b9d0f93981
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767210"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566702"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exibe uma folha de propriedades que permite ao usuário alterar a configuração de um provedor de serviços, que esse método não é suportado nos objetos de status que implementa de MAPI.
   

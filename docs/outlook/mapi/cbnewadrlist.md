@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0bbad04e728c9283df0a9b7ceb7a8e303f0595dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569747"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Calcula o número de bytes que deve ser alocada para uma nova estrutura [ADRLIST](adrlist.md) que contém um número especificado de destinatários representado por estruturas [ADRENTRY](adrentry.md) . 
   

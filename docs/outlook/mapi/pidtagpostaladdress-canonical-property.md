@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1c51e223eabea6fdcae32e99f7c04c7fd797f9ee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5456cedb8882bc43b7ee59b53ffb7d6ba40c3414
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769659"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569026"
 ---
 # <a name="pidtagpostaladdress-canonical-property"></a>Propriedade canônica PidTagPostalAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o endereço do destinatário postal.
   

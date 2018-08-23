@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: aaba816ca7efab6cee939087a18332561f31b81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770357"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569796"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Provedores de armazenamento de envio de mensagens por meio de mensagem
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagens não são necessárias para dar suporte a envios de mensagem de saída (ou seja, a capacidade para aplicativos de cliente para usar o provedor de armazenamento de mensagem para enviar mensagens). Aplicativos cliente precisam usar um armazenamento de mensagens, enquanto o envio de mensagens, pois os dados da mensagem devem ser armazenados em algum lugar entre o momento em que o usuário está concluído redigi-lo e a hora em que o MAPI spooler fornece a mensagem a um provedor de transporte para envio para o sistema de mensagens subjacente. Se o seu provedor de armazenamento de mensagens não oferece suporte a envios de mensagem de saída, ele não pode ser usado como o armazenamento de mensagens padrão.
   

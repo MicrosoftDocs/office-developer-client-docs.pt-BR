@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Modificado pela última vez: 03 de julho de 2012'
-ms.openlocfilehash: 4a2ccbbcdd3459af6b69156d80b37695251ba8d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74ccd44797bb5629bfe4f390b099771c6932a9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770686"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566464"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Usando um provedor de armazenamento com quebra PST
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes de poder usar um provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra, você deve inicializar e configurar o provedor de repositórios de PST com quebra. Depois que o provedor de repositórios de PST com quebra estiver configurado, você deve implementar funções para que o spooler MAPI e MAPI podem fazer logon no provedor de armazenamento de mensagem. Para obter mais informações sobre inicializar e fazer logon em um provedor de armazenamento de PST com quebra, consulte [inicializar um provedor de repositório PST quebrado automaticamente](initializing-a-wrapped-pst-store-provider.md) e [Registro em log em um provedor de repositório PST quebrado automaticamente](logging-on-to-a-wrapped-pst-store-provider.md).
   

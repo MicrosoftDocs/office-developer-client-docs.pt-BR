@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2ffc6973d2670402ec8095120eea3db02f529d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a120c44a83ad5e5a822e3959417b162e8ccbdd8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566912"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>Propriedade canônica PidTagMemberRights
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um conjunto de bits que indicado os direitos deste membro em uma pasta ou caixa de correio.
   

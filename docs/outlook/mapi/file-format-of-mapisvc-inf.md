@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 47b698eb12577442e5b2d9ea9ecae3e8a13e402b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567171"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Formato de arquivo do Mapisvc
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O arquivo Mapisvc atua como o banco de dados central para obter informações de configuração de serviço de mensagem MAPI. Mapisvc contém informações sobre cada um dos serviços de mensagem instalados na estação de trabalho, informações sobre os provedores de serviço que pertencem a cada serviço de mensagem e informações sobre o subsistema de MAPI. Mapisvc é a principal fonte de informações de perfis. Ou seja, quando um novo perfil está sendo construído ou um existente modificado, as informações relevantes para cada serviço de mensagem ou provedor de serviços é copiado do Mapisvc. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 14b1b424bc55a3a8c898eaac386a5344c2e5cf99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8260b5b7c1dd3fd6608c2fd17471d21ad362ece
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568991"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Propriedade canônica PidTagDeferredSendUnits
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a unidade de tempo pelo qual o valor da propriedade **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) deve ser multiplicado.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fccbbb15-dd08-4310-83d7-bf57eb3ed5de
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a230e13bf81c83504a9da1b0f8d0cd340eb18403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c09d4848373a530e80298d6c01ad3d411d9eb60e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567409"
 ---
 # <a name="pidtagipmcontactentryid-canonical-property"></a>Propriedade canônica PidTagIpmContactEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a **EntryID** da pasta Contatos do Outlook. 
   

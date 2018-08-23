@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c4e216f2204f4ee97d9eeac81f77ce6a82fff3f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 715cd001c5eab89f40c31200a12deaf6981b9a61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567122"
 ---
 # <a name="using-macros-for-error-handling"></a>Usar macros para lidar com erros
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Há várias macros para tornando mais fácil trabalhar com valores HRESULT.
   

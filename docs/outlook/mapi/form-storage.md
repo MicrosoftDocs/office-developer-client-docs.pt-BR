@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a99ef76e63e634c661bf82bdab10b86c843e0df0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c98427ab326ada0b717282dc4077d526780aa45c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766595"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568158"
 ---
 # <a name="form-storage"></a>Armazenamento de formulário
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Embora não seja necessário saber todos os detalhes de como os formulários são fisicamente armazenados, é útil compreender alguns dos principais conceitos. Portanto, antes de descrever os três tipos de bibliotecas de formulários compatíveis com o Gerenciador de formulário padrão, este tópico oferece uma visão geral de como os formulários são armazenados.
   

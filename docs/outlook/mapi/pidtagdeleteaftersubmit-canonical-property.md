@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7a63b3ad3c45790e043e1ea8e7d996c4847ef8d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21bbb498eb4d53704c7a1a1a5bc84e9c72a75258
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769156"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566422"
 ---
 # <a name="pidtagdeleteaftersubmit-canonical-property"></a>Propriedade canônica PidTagDeleteAfterSubmit
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se quiser que um aplicativo cliente MAPI para excluir a mensagem associada após o envio. 
   

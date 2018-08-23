@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f6566f567c228b6416a64dbd58653561bb592e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b842bee8d9e243aa38bafe39d786a31b5527b054
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567941"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece um objeto de repositório IMAP Internet Message Access Protocol () que foi desfeita e que permite o acesso aos itens no arquivo de pastas particulares (. PST) sem sincronização de invocação e baixando os itens.
   

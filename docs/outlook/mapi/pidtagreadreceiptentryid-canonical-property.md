@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 82bc5fd99df115527f703eff7261d02d1bf4d3ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 658f3694e7592fab54b2ddf303da2e15e4510354
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769726"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567101"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>Propriedade canônica PidTagReadReceiptEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um identificador de entrada para o usuário mensagens onde o sistema de mensagens deve direcionar um relatório de leitura para esta mensagem.
   

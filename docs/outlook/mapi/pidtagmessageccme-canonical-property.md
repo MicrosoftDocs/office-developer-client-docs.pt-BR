@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e1578da3a9caea7533b75fe6dc16c3d7c3488d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82d043adfe6e480b4d490f44ad89d73535c80c9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569775"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriedade canônica PidTagMessageCcMe
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se este usuário mensagens especificamente é nomeado como um destinatário de cópia carbono (CC) da mensagem e não faz parte de uma lista de distribuição. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9ed460a377e2a2f0d2780f97eaebff1f76b9d9fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1fcfd5e257798d21a296f077f0f5eacbcbb82a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569621"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>Propriedade canônica PidTagHasDeferredActionMessages
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se uma mensagem possui pelo menos uma regra de ações adiadas.
   

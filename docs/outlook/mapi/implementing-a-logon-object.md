@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e23c73931c9051b61d30b7ea7e9c54d06a4d9c33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568018"
 ---
 # <a name="implementing-a-logon-object"></a>Implementar um objeto de logon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cada catálogo de endereços, o armazenamento de mensagens e o provedor de transporte instancia um objeto de logon como parte de sua implementação do [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Objetos de logon implementam métodos que ajudam a solicitações de cliente do serviço MAPI. Dependendo do tipo de provedor de serviços, seu objeto logon dará suporte a uma das seguintes interfaces. 
   

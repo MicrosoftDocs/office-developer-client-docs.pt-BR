@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce7f7e2db341be62912935b7a55d69eaf5db8ab5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eca0c9f63a4efaaa7f9fd066cf5dce451b8f6175
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766320"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565883"
 ---
 # <a name="copying-address-book-entries"></a>Copiar entradas do catálogo de endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Método de [IABContainer::CopyEntries](iabcontainer-copyentries.md) do seu contêiner é chamado quando um ou mais destinatários no mesmo ou outro contêiner devem ser copiados para este contêiner. **CopyEntries** tem quatro parâmetros de entrada: uma matriz de identificadores de entrada que representa os destinatários a serem copiados, um identificador de janela para o indicador de progresso, um indicador de progresso do objeto e um valor de flags. Seu provedor deve exibir o progresso, se o sinalizador AB_NO_DIALOG não estiver definido e use o objeto de progresso do parâmetro _lpProgress_ se não for nula. Se _lpProgress_ for NULL, chame [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) para usar o objeto de progresso MAPI. Para obter mais informações sobre como exibir o progresso, consulte [exibindo um indicador de progresso](mapi-progress-indicators.md).
   

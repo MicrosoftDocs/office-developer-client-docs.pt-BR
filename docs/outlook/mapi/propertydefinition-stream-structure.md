@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566653"
 ---
 # <a name="propertydefinition-stream-structure"></a>Estrutura de fluxo de PropertyDefinition
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma estrutura de fluxo de PropertyDefinition é uma matriz de estruturas de fluxo de [FieldDefinition](fielddefinition-stream-structure.md) que contêm definições para todos os campos definidos pelo usuário em um item do Microsoft Outlook e configurações de associação de dados para alguns campos internos. 
   

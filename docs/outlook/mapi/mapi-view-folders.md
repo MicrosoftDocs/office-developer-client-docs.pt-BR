@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1936ec2-bf8a-4242-a41d-64d26b813bd0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cb26771e9968175ab67366e35cf019ce23d51b8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a89588294f07dca97fb48e56d2cde890c3f80ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568816"
 ---
 # <a name="mapi-view-folders"></a>Exibir as pastas de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exibir pastas são pastas raiz que contêm informações associadas para definir layouts de exibição alternativo para o conteúdo das pastas de mensagem interpessoais (IPM). Exibir pastas residem sob a raiz para o armazenamento de mensagens e, portanto, não são visíveis no aplicativo cliente típico. Nem todo armazenamento de mensagens inclui pastas de exibição; somente armazenamentos de mensagens que estão configurados para funcionar como o armazenamento de mensagens padrão para a sessão devem inclui-los.  
   

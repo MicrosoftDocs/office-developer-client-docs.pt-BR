@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2290e6751778f17defc8d1007ff62c88f1b75465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568802"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriedade canônica PidTagContentCorrelator
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que o remetente da mensagem pode usar para corresponder a um relatório com a mensagem original.
   

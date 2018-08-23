@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cec541db3cc46c108d2a5c41b1d5fbd4d8fac4f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 353734d28dd10da1e503e268f9e06e9bf9c86cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567563"
 ---
 # <a name="pidlidfileunderlist-canonical-property"></a>Propriedade canônica PidLidFileUnderList
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica uma lista de valores possíveis para a propriedade **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
   

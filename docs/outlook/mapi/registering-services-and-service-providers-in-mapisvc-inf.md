@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Modificado pela última vez: 18 de julho de 2013'
-ms.openlocfilehash: 2eb7f1b496e0732b157ea4f9105a0e067329c52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770228"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566919"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar provedores de serviços e serviços no MapiSvc.inf
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A instalação de um novo provedor em um sistema requer atualizando o arquivo Mapisvc para apontar para o novo provedor. Propriedades padrão definida durante a configuração, que incluem o seguinte, informam MAPI onde encontrar a biblioteca de vínculo dinâmico do provedor (. dll):
   

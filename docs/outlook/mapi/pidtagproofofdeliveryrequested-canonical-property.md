@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d5cb5807f4a3c24bf8ab1af1db2c57f361b32ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2eb811a88cd15ad05d016c690d3939a6b1e00ca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567793"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propriedade canônica PidTagProofOfDeliveryRequested
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa propriedade contém TRUE se o remetente da mensagem solicita uma prova de entrega para um destinatário específico.
   

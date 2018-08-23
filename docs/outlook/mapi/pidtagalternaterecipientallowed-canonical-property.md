@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dc77f9c7b58fc925048d6dec2bee2ff96a8723b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fcea0f0bc19140c5a0762143ce91bd41ea8fd07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569320"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>Propriedade canônica PidTagAlternateRecipientAllowed
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se o remetente permite o encaminhamento automático desta mensagem. 
   

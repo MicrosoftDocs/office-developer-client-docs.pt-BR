@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567157"
 ---
 # <a name="folder-fields-stream-structures"></a>Estruturas de fluxo do campo de pastas
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Propriedade de [PidTagUserFields](pidtaguserfields-canonical-property.md) da mensagem contém um fluxo binário, FolderUserFields, que contém as definições de campo definido pelo usuário da pasta. Este tópico descreve as estruturas de fluxo para definições de campo definido pelo usuário da pasta. 
 
@@ -94,7 +94,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
 
 Valores de enumeração **FldType** estão listados na tabela a seguir. 
   
-|Name|Value|Meaning|
+|Nome|Valor|Meaning|
 |:-----|:-----|:-----|
 |ftNull  <br/> |0x0  <br/> |Esse tipo de campo é usado para null-encerrar uma matriz das definições de campo.  <br/> |
 |ftString  <br/> |0x1  <br/> |Texto  <br/> |
@@ -122,7 +122,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
   
 - **fcapm**: DWORD (4 bytes), uma combinação de sinalizadores de zero ou mais valores de qual e significados estão listados na tabela a seguir. Sinalizadores com o mesmo valor tem significados dependentes do tipo de campo, ou seja, o valor FldType.
     
-    |Nome do sinalizador|Value|Meaning|
+    |Nome do sinalizador|Valor|Meaning|
     |:-----|:-----|:-----|
     |FCAPM_CAN_EDIT  <br/> |0x00000001  <br/> |O campo é editável.  <br/> |
     |FCAPM_CAN_SORT  <br/> |0x00000002  <br/> |O campo pode ser classificado.  <br/> |
@@ -130,7 +130,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |O campo pode conter várias linhas de texto.  <br/> |
     |FCAPM_PERCENT  <br/> |0x01000000  <br/> |Este campo de ftFloat o tipo é um campo de porcentagem.  <br/> |
     |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |Este campo de ftTime o tipo é um campo time somente Data.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Para esse campo de ftInteger o tipo, nenhuma unidade é permitida no formato de exibição; Por exemplo formatos como "Computador - 640 k..." não são permitidos.  <br/> |
+    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Para esse campo de ftInteger o tipo, nenhuma unidade é permitida no formato de exibição; Por exemplo formatos como "computador - 640 K..." não são permitidos.  <br/> |
     |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |O campo pode ser editado no item: Este é especificamente para formulários personalizados.  <br/> |
    
 - **dwString**: DWORD (4 bytes). Consulte a observação a seguir primeira.

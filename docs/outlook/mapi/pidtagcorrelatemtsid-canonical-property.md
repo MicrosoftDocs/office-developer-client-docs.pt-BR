@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 57da2d4c78914323b5dafa4f5ba5b7628d0e2f2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 468cda97398bc393b1c0a65e2c13df5ba3ade3aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769145"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568907"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>Propriedade canônica PidTagCorrelateMtsid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de sistema (MTS) de transferência de mensagem usado na correlação relatórios com as mensagens enviadas.
   
