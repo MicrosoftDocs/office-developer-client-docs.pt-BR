@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 6b82a755cbf2c8bd0f1d3676d4560e131dce3bd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766610"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580625"
 ---
 # <a name="formatted-text-in-mapi"></a>Texto formatado em MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O texto de uma mensagem pode ser armazenado e transmitidas usando texto sem formatação ou texto formatado. Texto formatado aumenta o texto da mensagem, alterar sua aparência com, por exemplo, uma ou mais fontes, tamanhos de fonte ou cores de texto. É recomendável que todos os clientes e sempre que possível, todos os provedores de armazenamento de mensagens, suporte a texto formatado. Com suporte para texto formatado em mensagens agrega valor melhorar a legibilidade de mensagem e fazendo o tratamento de mensagens mais fácil e eficiente.
   

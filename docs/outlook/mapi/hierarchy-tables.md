@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766713"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580751"
 ---
 # <a name="hierarchy-tables"></a>Tabelas de hierarquia
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma tabela de hierarquia contém informações sobre as pastas em um armazenamento de mensagens ou os contêineres em um contêiner de catálogo de endereços. Cada linha de uma tabela de hierarquia contém um conjunto de colunas com informações sobre uma pasta ou contêiner de catálogo de endereços. Tabelas de hierarquias principalmente são usadas pelos clientes e implementadas por provedores de armazenamento de mensagem para mostrar uma árvore de pastas e subpastas e implementadas pelos provedores de catálogo de endereços para mostrar uma árvore de contêineres no catálogo de endereços. Contêineres que não podem conter subcontêineres, conforme indicado pela ausência do sinalizador AB_SUBCONTAINERS em suas propriedades **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), não implementam uma tabela de hierarquia.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06fe4d20-c3f5-4f4f-b7b7-5a4f5257079b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e85150894b18881171e6c653d30188ed65d3e53a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49f0fb7a1bcbd1920e7a2620f28fd5289104c983
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768371"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575620"
 ---
 # <a name="pidliddistributionlistname-canonical-property"></a>Propriedade canônica PidLidDistributionListName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome da lista de distribuição pessoal.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 08e2403be35b87393d22f9109f59c0572c53073b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a4fdb94877fb9491005fc650c206ffefd3f8b94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578413"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriedade canônica PidLidFileUnderId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica como gerar e recalcular o valor da propriedade **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) quando alterar propriedades de nome de outro contato.
   

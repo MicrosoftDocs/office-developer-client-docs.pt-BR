@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a6a3eb88377777a3d27687179bfdcb82057be3a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c12d3e8314dea5be67727d0f286e7df13038fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769480"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574367"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>Propriedade canônica PidTagMessageEditorFormat
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o formato para um editor a ser usado para exibir uma mensagem.
   

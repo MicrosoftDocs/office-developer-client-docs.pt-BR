@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b906ce83e26326755b483382eec8e494cbe7875
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577363"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>Propriedade canônica PidLidSharingProviderUrl
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a URL que está relacionada ao provedor de compartilhamento e identificada pela propriedade **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Esta é uma propriedade de uma mensagem de compartilhamento.
   

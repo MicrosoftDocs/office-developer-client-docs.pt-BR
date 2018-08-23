@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6db8c5d8be3bc7120c91da17135b0d871ec2b026
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c9ef670e5c066c29dc8495c3d0b08ed67284895
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768241"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577622"
 ---
 # <a name="pidlidappointmentproposedendwhole-canonical-property"></a>Propriedade canônica PidLidAppointmentProposedEndWhole
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o valor proposto para a propriedade **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) para uma proposta de contador.
   

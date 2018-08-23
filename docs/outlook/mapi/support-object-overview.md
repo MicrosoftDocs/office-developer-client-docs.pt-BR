@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ecc5439b4abbbfd920fba5456db7462f7967388f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770514"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577433"
 ---
 # <a name="support-object-overview"></a>Visão geral de objetos de suporte
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI representa um objeto de suporte, um objeto que implementa o [IMAPISupport: IUnknown](imapisupportiunknown.md) interface, para todos os provedores de serviço durante o logon e para todos os serviços de mensagem durante a configuração. 
   

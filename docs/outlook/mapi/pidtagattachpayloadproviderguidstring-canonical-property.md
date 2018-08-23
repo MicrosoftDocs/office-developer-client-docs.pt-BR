@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9e581f040b3d7d9e204dd41431b1eba650b971a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1313ac62bd2ee6c1db27bd1c583f56dadc1bff1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574297"
 ---
 # <a name="pidtagattachpayloadproviderguidstring-canonical-property"></a>Propriedade canônica PidTagAttachPayloadProviderGuidString
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor de um campo de cabeçalho MIME X-carga--Guid do provedor.
   

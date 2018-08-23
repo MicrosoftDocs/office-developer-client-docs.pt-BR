@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e1782f3c20c1741e0e4b1859f1b29d835444009c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f9ac5d9cef09ce6d4f3006ecc804db6291cae77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579337"
 ---
 # <a name="supporting-message-service-configuration"></a>Configuração do serviço de mensagens de suporte
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para suportar a configuração do serviço de mensagens, use o procedimento a seguir:
   

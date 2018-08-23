@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 58157d597d3bb1042d6bc16ff954495a507c8333
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572218"
 ---
 # <a name="tracking-conversations"></a>Acompanhar conversas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Acompanhamento de conversa está coletando respostas a uma mensagem. Os clientes devem definir duas propriedades que auxiliam em conversas de acompanhamento:
   

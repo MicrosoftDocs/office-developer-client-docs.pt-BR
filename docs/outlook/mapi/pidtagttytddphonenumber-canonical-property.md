@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0471b331-7c8e-4b48-996c-276bdd61f522
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39f9fddddc77578d08eefb23dc35b78add434f6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c5d2c7a58db4f3c6d505a35867ebab6a5b6bf43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770131"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575739"
 ---
 # <a name="pidtagttytddphonenumber-canonical-property"></a>Propriedade canônica PidTagTtyTddPhoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone do contato de texto (TTY) telefone ou dispositivo de telecomunicação para surdos (TDD).
   

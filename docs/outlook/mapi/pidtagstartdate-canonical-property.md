@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 908c2d9f-53f4-4aa8-b309-2f3ac2dca5b5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 14a077dfdb0f0781ab0d9f085c758c7a7d6285af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82d9060513814b5011e33ca00d849a75f9defbf6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577370"
 ---
 # <a name="pidtagstartdate-canonical-property"></a>Propriedade canônica PidTagStartDate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a data inicial e a hora de um compromisso como gerenciado por um aplicativo de agendamento.
   

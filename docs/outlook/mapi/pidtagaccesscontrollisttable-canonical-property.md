@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d992c7ac43c736e01184e1f12b3ad366587c9b06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40a2bc8a27ec3ce3df610b9c7364719c2b5ee750
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768890"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572785"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propriedade canônica PidTagAccessControlListTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma tabela que consiste em todas as sistema acesso controle listas (SACL) aplicadas a uma pasta.
   

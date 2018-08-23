@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 36fd729b1ca3e5d877d03358d581b83fc6d4782c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 694f7ec5715a7348c9bd90c28d14f30d43d19974
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766976"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581780"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria uma nova subpasta.
   

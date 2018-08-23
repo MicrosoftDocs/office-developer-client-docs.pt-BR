@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 9f7f3bc0e305fb5aa7d6ae1e1909b573b3376ef8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8385b2379f2fde8689ae2c7fc5d177af696f22e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768135"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579876"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Monitoramento de alterações de estado de conexão usando um suplemento de estado offline
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes de poder usar um suplemento do estado offline para monitorar as alterações de estado de conexão, você deve implementar funções para configurar e inicializar o suplemento. Para obter mais informações, consulte [Add-in de configuração para cima uma Offline estado](setting-up-an-offline-state-add-in.md).
   

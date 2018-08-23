@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Modificado pela última vez: 30 de janeiro de 2013'
-ms.openlocfilehash: 1ea1d3e6f636cf6a3ad47b6fdfe88d0f7130a5f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768153"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574528"
 ---
 # <a name="nickname-cache"></a>Cache de apelidos
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 e Microsoft Outlook 2013 interagem com o cache de apelidos, também conhecido como "AutoCompletar stream." O fluxo de AutoCompletar é onde o Outlook mantém a lista de preenchimento automático, que é a lista de nomes que exibe o **para**, **Cc**e **Cco** caixas de edição enquanto um usuário está redigindo um email. Este tópico descreve como o Outlook 2007, Outlook 2010 e Outlook 2013 interagem com o fluxo de AutoCompletar e também aborda o formato binário do arquivo e as maneiras recomendadas para interagir com o fluxo de AutoCompletar. 
   

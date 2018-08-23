@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 104de38a41408091a6fbb69995de4f41f6fea6a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ffed8070c219e6611aebbcb1dd5cd181b662850
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579694"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>Definir uma posição de tabela com um valor fracionado
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os usuários da tabela podem mover para uma posição que representa um percentual aproximado de linhas em relação à total. Em vez de mover para uma linha exata, esse método de posicionamento divide a tabela em partes com base em frações. Os usuários da tabela podem mover, por exemplo, para o ponto de meia vias de uma tabela ou na linha que é 7/8 da maneira como a tabela. 
   

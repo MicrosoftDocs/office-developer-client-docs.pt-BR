@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 82242de7-e6f6-4882-bd2e-d62c8d6701b7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: adda71c3c3454ce64b8c8de8f1ae43be51096c77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 04797568bf6622fb848bd0ff5a7ad601ce8bb543
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579428"
 ---
 # <a name="pidnamemultimediaclipcount-canonical-property"></a>Propriedade canônica PidNameMultimediaClipCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o número de clipes multimídia do arquivo que está anexado ao documento.
   

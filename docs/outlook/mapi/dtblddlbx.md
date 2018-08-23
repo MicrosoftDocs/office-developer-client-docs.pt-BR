@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3307bb252ca4436999a541f85657fed9878c798a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579393"
 ---
 # <a name="dtblddlbx"></a>DTBLDDLBX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um controle de lista suspensa que será usado em uma caixa de diálogo construída a partir de uma tabela de exibição.
   

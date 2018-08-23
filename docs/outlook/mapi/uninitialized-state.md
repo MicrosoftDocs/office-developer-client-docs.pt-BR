@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c00d5bb2e5da02b007579c7a8206baa98f64143f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95ed80a6d0ea6a6a7c8cc768b32981ac899b69e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578245"
 ---
 # <a name="uninitialized-state"></a>Estado Uninitialized
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O estado não inicializado é o formulário de estado inicial objetos devem estar no quando forem criados pela primeira vez. Objetos de formulário se tornam inicializados com dados de mensagem quando um aplicativo cliente chama o método [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) no objeto de formulário. A tabela a seguir descreve as transições permitidas do estado de Unitialized. 
   

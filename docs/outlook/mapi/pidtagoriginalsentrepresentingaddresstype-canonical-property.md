@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7fcd358b2ada5137ed28f4439dcc9d4ebdc50305
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce3678c5137caec2e9f80c7fc15cde0ae99441ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572526"
 ---
 # <a name="pidtagoriginalsentrepresentingaddresstype-canonical-property"></a>Propriedade canônica PidTagOriginalSentRepresentingAddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tipo de endereço do usuário mensagens em nome do qual a mensagem original foi enviada.
   

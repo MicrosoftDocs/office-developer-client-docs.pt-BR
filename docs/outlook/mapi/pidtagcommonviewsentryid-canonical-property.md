@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7d91ed369b3a6e8b4f62534d49b202b46c327baa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7449e59227b147d34c2329175d0251dbb9c427b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769046"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581339"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>Propriedade canônica PidTagCommonViewsEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada da pasta de exibição comuns predefinidos. 
   

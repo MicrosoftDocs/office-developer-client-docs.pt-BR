@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: Esta referência contém visões gerais conceituais, tarefas de programação, amostras e referências para guiá-lo no desenvolvimento de soluções com base no Visio 2013.
-ms.openlocfilehash: 4c75623aa0f1fc248c3b1b2b8f1ba1a4d43acedd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d379004aa420febeaea13925c03eaca90349fa7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773265"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579169"
 ---
 # <a name="visio-shapesheet-reference"></a>Referência do Visio ShapeSheet
 
@@ -34,14 +34,10 @@ Esta documentação contém as seguintes seções:
     
 ## <a name="see-also"></a>Confira também
 
-- [Centro do desenvolvedor do Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Centro do desenvolvedor do Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)    
+- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)    
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
 - [Aviso de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
-    
-- [Aviso de Privacidade do Microsoft Online](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

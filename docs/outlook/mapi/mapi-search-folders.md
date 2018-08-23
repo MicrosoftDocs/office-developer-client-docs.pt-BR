@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 36c14d91-77f7-43a3-8d87-d50bcc21fad7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e74767f4b3a19442beac5f9c9ac375286bb47c81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5a95ca77496c3c4c2d28641ab649c2b4328a27c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578553"
 ---
 # <a name="mapi-search-folders"></a>Pastas de pesquisa MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma pasta de resultados de pesquisa contém links para as mensagens nas pastas genéricas em vez das mensagens reais. Clientes crie uma pasta de resultados de pesquisa chamando o método [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) com FOLDER_SEARCH como o parâmetro _ulFolderType_ . Clientes preencher uma pasta de resultados de pesquisa, configurando e a aplicação de critérios de pesquisa — regras que filtram mensagens com características específicas. Critérios de pesquisa são configurados com o método [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) . Clientes construa uma ou mais estruturas [SRestriction](srestriction.md) para representar os critérios de pesquisa será aplicado e passá-las para **definir SetSearchCriteria**. **Definir SetSearchCriteria** também especifica uma lista de pastas que indicam o domínio de pesquisa e um conjunto de sinalizadores que controlam como a pesquisa é realizada. 
   

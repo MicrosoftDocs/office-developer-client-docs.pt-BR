@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e755c18ef3cc32f9a00169f19cf336eace447a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a6ba7af5e497ba59b43e9b80cfc9595961ed10e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579540"
 ---
 # <a name="mapi-named-properties"></a>MAPI denominada propriedades
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI fornece uma facilidade para atribuir nomes às propriedades, para mapear esses nomes para identificadores exclusivos e para tornar esse mapeamento persistente. Nome persistente para mapeamento do identificador garante que os nomes de propriedade permaneçam válidos nas sessões.
   

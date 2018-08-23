@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7da0e480af9761c1317c1941da1d68d448a1ef63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c52fd6d6caaec6f215856daead809ceb0bd76729
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574990"
 ---
 # <a name="pidtagmessagesize-canonical-property"></a>Propriedade canônica PidTagMessageSize
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a soma, em bytes, dos tamanhos de todas as propriedades em um objeto de mensagem. 
   

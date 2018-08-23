@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3db53389041448c18b19b8b67b6775b9bfe42f47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a2bbaaee9325a7d2c110ff4082e14a249e4dc16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768356"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577699"
 ---
 # <a name="pidlidclipstart-canonical-property"></a>Propriedade canônica PidLidClipStart
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a data de início e a hora do evento em tempos de Universal Coordenado (UTC) para objetos de calendário de única instância e especifica a meia-noite na data da primeira instância em UTC para uma série recorrente.
   

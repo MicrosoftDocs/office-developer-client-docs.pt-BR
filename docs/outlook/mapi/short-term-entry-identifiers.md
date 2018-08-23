@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f601971e61eb6430bef9d50b093642ee04b14044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03352b55589138d406ad3e4ee0756fc44bca8c78
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580611"
 ---
 # <a name="short-term-entry-identifiers"></a>Identificadores de entrada de curto prazo
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um identificador de entrada de curto prazo é atribuído por um provedor de serviço a um objeto quando o identificador deve ser construído rapidamente e não precisa dure sobre tempo ou distância. A exclusividade de um identificador de entrada de curto prazo é garantida somente durante a vigência da sessão atual na estação de trabalho atual. Normalmente, um identificador de entrada de curto prazo é válido somente até que o objeto que ele representa for lançado. 
   

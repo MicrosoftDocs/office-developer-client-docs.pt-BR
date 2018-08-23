@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 406451adac3cd73286feb787bd6b4d2f356aa283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a0fad8fa20b2d94077f9fbdf8a3c595c0ab219e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770194"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580863"
 ---
 # <a name="property-sheet-implementation"></a>Implementação da folha de propriedades
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma folha de propriedades é uma caixa de diálogo para exibir as propriedades de um objeto. As propriedades podem ser somente leitura, permitindo que o usuário apenas para exibi-los, ou leitura/gravação, permitindo que o usuário faça alterações. Uma folha de propriedades contém uma ou mais janelas sobrepostas filho chamadas páginas. Cada página contém o controle do windows para configurar um grupo de propriedades relacionadas. Os usuários navegar pelas páginas selecionando uma guia que traz a página correspondente para o primeiro plano da folha de propriedades.
   

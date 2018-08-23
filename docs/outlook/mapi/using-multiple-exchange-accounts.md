@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: d5798f4836f6b5635c8e04bd380e53ade34384a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fa32b680f5016d4417efdcf62e9bb1f04a51845
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770696"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581381"
 ---
 # <a name="using-multiple-exchange-accounts"></a>Usar várias contas do Exchange
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook 2010 e o Microsoft Outlook 2013 suportam integração com várias contas de email do exchange. No Outlook 2010 ou Outlook 2013, um usuário pode adicionar duas contas do exchange para o mesmo perfil e ainda aproveitar os recursos avançados do Exchange como a lista publicada de endereços global (GAL), a configuração do Exchange de ausência temporária e compartilhamento de pastas.
   

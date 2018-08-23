@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 38db1d18f240188c7566a57afa23291a307446dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 031f8f17ae98bd62043a2cd8ce6c8c2d55a19c9f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582333"
 ---
 # <a name="rendering-an-attachment-in-plain-text"></a>Renderizar um anexo em texto sem formatação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para renderizar um anexo em uma mensagem com texto sem formatação, recuperar a propriedade de **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) do anexo e aplicá-lo aos dados da **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) propriedade. Há duas maneiras de se recuperar **PR_RENDERING_POSITION**:
   

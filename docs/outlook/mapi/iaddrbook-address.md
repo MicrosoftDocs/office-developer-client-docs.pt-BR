@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 10f8f2cf44bf1a8e00f8c2b1a76826db5fc07161
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a13696b355e6fd815cd6bda42843505d9fc3d1f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579953"
 ---
 # <a name="iaddrbookaddress"></a>IAddrBook::Address
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exibe a caixa de diálogo do catálogo de endereços do Outlook. 
   

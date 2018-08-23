@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5910fd60b7837c2f170358dd5cd4e3306e4c1770
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578644"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Propriedade canônica PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se o delegator quiser receber cópias dos objetos reuniões que são enviadas ao delegado.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a0744251727a913184500cdda57d956080cc9d6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5744e1674e1439729b81d3024fa6b1263ac421c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769042"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580884"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>Propriedade canônica PidTagConflictEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a EntryID da mensagem de resolução de conflito.
   

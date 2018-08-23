@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c480c420753b2da6c57b3961589d5c2e2e8022a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36b8381e2bf98f5ddcb88a54b56f2b5c91b3b668
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572596"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Identifica exclusivamente uma conexão entre um coletor advise, uma fonte de advise e MAPI.
   

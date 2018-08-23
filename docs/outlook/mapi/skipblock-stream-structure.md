@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d84704300602bada4cf93c9d3f6622feaf16f352
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580898"
 ---
 # <a name="skipblock-stream-structure"></a>Estrutura de fluxo de SkipBlock
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma estrutura de fluxo de SkipBlock é um bloco de dados que começa com um número inteiro que especifica o tamanho da parte restante do bloco. Essa estrutura stream existe em um stream [FieldDefinition](fielddefinition-stream-structure.md) se a definição de campo está no formato PropDefV2. 
   

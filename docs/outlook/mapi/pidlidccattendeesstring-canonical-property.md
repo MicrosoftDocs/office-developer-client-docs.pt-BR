@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 697d5c93-ec7f-4608-9866-9e249a093dbc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bb24d17e478de6b428750efb8d61797c8628b16d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3989331c43b25d877d03f039979a2885e08aa4a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768342"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578588"
 ---
 # <a name="pidlidccattendeesstring-canonical-property"></a>Propriedade canônica PidLidCcAttendeesString
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de todos os participantes sendable que também são participantes opcionais.
   

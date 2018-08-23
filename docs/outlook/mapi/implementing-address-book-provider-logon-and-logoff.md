@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1ffde0814fe5024a3f89a93462c48136712f1013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572099"
 ---
 # <a name="implementing-address-book-provider-logon-and-logoff"></a>Implementar o logon e logoff do provedor do catálogo de endereços
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de catálogo de endereços oferecem suporte a sessão logon e logoff Implementando os métodos para o [IABProvider: IUnknown](iabprovideriunknown.md) interface. O * * IABProvider * * interface herda diretamente da **IUnknown** e adiciona apenas dois outros métodos: **Logon** e **desligamento**. 
   

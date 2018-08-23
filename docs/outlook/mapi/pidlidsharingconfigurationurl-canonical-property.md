@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 548b4ded-1610-4fe1-8f19-ee57d5d0f606
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a403888699bfeec0e1a6e8b7b77aef1b89436b10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 972c9e494c44e0911aa09ccba9ef07f2cc0401b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578008"
 ---
 # <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propriedade canônica PidLidSharingConfigurationUrl
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Designa como uma propriedade de uma mensagem de compartilhamento.
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Contém linhas que listam as coordenadas dos vértices de linhas e arcos que compõem a forma.
-ms.openlocfilehash: 7a829651c4cab62a5c583d068211b9ffa20e725e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1581c87ae34eff4f01054a2340c18f1e55456cfb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581689"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Elemento de linha (seção Geometry) ('Visio XML')
 
@@ -87,7 +87,7 @@ O atributo **T** deste elemento de **linha** deve ser um conjunto limitado de va
 |ArcTo  <br/> |Contém as coordenadas x e y e um arco de uma curva circular.  <br/> |[Linha ArcTo (Seção Geometry)](arcto-row-geometry-section.md) <br/> |
 |Elipse  <br/> |Contém as coordenadas x e y de um ponto central de uma elipse e dois pontos na elipse.  <br/> |[Linha Ellipse (Seção Geometry)](ellipse-row-geometry-section.md) <br/> |
 |EllipticalArcTo  <br/> |Contém as coordenadas x e y do ponto de extremidade de um arco elíptico, as coordenadas x e y dos pontos de controle no arco, o ângulo do eixo x para o eixo principal da elipse e a razão entre os eixos principal e secundário da elipse.  <br/> |[Linha EllipticalArcTo (Seção Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
-|InfiniteLine  <br/> |Contém as coordenadas x e y de dois pontos em uma linha infinita  <br/> |[Linha InfiniteLine (Seção Geometry)](http://msdn.microsoft.com/library/Contains the x- and y-coordinates of two points on an infinite line.%28Office.15%29.aspx) <br/> |
+|InfiniteLine  <br/> |Contém as coordenadas x e y de dois pontos em uma linha infinita  <br/> |[Linha InfiniteLine (Seção Geometry)](infiniteline-row-geometry-section.md) |
 |LineTo  <br/> |Contém as coordenadas x e y do vértice final de um segmento de linha reta.  <br/> |[Linha LineTo (Seção Geometry)](lineto-row-geometry-section.md) <br/> |
 |MoveTo  <br/> |Contém as coordenadas x e y do primeiro vértice de uma forma ou representa as coordenadas x e y do primeiro vértice depois de uma quebra no caminho.  <br/> |[Linha MoveTo (Seção Geometry)](moveto-row-geometry-section.md) <br/> |
 |NURBSTo  <br/> |Contém as coordenadas x e y, a posição do penúltimo nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura e a fórmula para uma B-spline não-racional uniforme (NURBS).  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |

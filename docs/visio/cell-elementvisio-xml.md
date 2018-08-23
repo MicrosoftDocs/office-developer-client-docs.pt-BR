@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica os elementos de célula podem estar contidos em um DocumentSheet, StyleSheet, PageSheet ou ShapeSheet.
-ms.openlocfilehash: fb983b31dc69741b12c27f47833213f7b5c3ba2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771533"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575627"
 ---
 # <a name="cell-element-visio-xml"></a>Elemento de célula ('Visio XML')
 
@@ -149,7 +149,7 @@ O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de 
 |EndArrowSize  <br/> |Determina o tamanho da ponta de seta no final da linha.  <br/> |[Célula EndArrowSize (Seção Line Format)](endarrowsize-cell-line-format-section.md) <br/> |
 |EndTrigger  <br/> |Contém uma fórmula de gatilho gerada pelo aplicativo que determina se o ponto final de uma forma 1-D deve ser movido para manter sua conexão com outra forma.  <br/> |[Célula EndTrigger (Seção Glue Info)](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |Representa a coordenada x do ponto final da forma 1D em relação à origem de seu pai.  <br/> |[Célula EndX (Seção 1-D Endpoints)](endx-cell-1-d-endpoints-section.md) <br/> |
-|EndY  <br/> |Representa a coordenada y do ponto final da forma 1D em relação à origem de seu pai.  <br/> |[Célula EndY (Seção 1-D Endpoints)](http://msdn.microsoft.com/library/3fbfa4bc-7792-b6d9-d549-4602d252c293"%28Office.15%29.aspx) <br/> |
+|EndY  <br/> |Representa a coordenada y do ponto final da forma 1D em relação à origem de seu pai.  <br/> |[Célula EndY (Seção 1-D Endpoints)](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |Uma célula de evento avaliada ao se clicar duas vezes em uma forma.  <br/> |[Célula EventDblClick (Seção Events)](eventdblclick-cell-events-section.md) <br/> |
 |EventDrop  <br/> |Uma célula de evento avaliada ao soltar uma forma na página de desenho, como uma instância ou ao duplicar ou colar uma forma.  <br/> |[Célula EventDrop (Seção Events)](eventdrop-cell-events-section.md) <br/> |
 |EventMultiDrop  <br/> |Uma célula de evento que é avaliada quando várias formas são colocadas na página de desenho, como instâncias ou quando as formas são duplicar ou colar.  <br/> |[Célula EventMultiDrop (Seção Events)](eventmultidrop-cell-events-section.md) <br/> |
@@ -168,7 +168,7 @@ O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de 
 |Gamma  <br/> |Ajusta ou corrige a intensidade de uma imagem para um determinado dispositivo de saída, como um monitor ou scanner. O valor padrão é 1 (sem correção).  <br/> |[Célula Gamma (Seção Image Properties)](gamma-cell-image-properties-section.md) <br/> |
 |GlowColor  <br/> |Determina a cor utilizada para o traço do brilho externo aplicado a uma forma, como um valor RGB ou o tema.  <br/> |[Célula GlowColor (Seção Additional Effect Properties)](glowcolor-cell-additional-effect-properties-section.md) <br/> |
 |GlowColorTrans  <br/> |Determina o nível de transparência para a cor utilizada para o traço de brilho da forma, como um percentual.  <br/> |[Célula GlowColorTrans (Seção Additional Effect Properties)](glowcolortrans-cell-additional-effect-properties-section.md) <br/> |
-|GlowSize  <br/> |Determina o tamanho do brilho externo de uma forma em pontos.  <br/> |[Célula GlowSize (Seção Additional Effect Properties)](http://msdn.microsoft.com/library/2ddc7a08-25b8-4903-b0dd-be72d1fa8075"%28Office.15%29.aspx) <br/> |
+|GlowSize  <br/> |Determina o tamanho do brilho externo de uma forma em pontos.  <br/> |[Célula GlowSize (Seção Additional Effect Properties)](glowsize-cell-additional-effect-properties-section.md) <br/> |
 |GlueType  <br/> |Determina se uma forma 1D utilizará a cola estática (ponto a ponto) ou dinâmica (forma a forma) ao ser colada em outra forma.  <br/> |[Célula GlueType (Seção Glue Info)](gluetype-cell-glue-info-section.md) <br/> |
 |Altura  <br/> |Determina a altura da forma em unidades de desenho.  <br/> |[Célula Height (Seção Shape Transform)](height-cell-shape-transform-section.md) <br/> |
 |HelpTopic  <br/> |Especifica a ID do tópico da Ajuda da forma.  <br/> ||
@@ -222,7 +222,7 @@ O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de 
 |LockGroup  <br/> |Protege um grupo impedindo-o de ser desagrupado.  <br/> |[Célula LockGroup (Seção Protection)](lockgroup-cell-protection-section.md) <br/> |
 |LockHeight  <br/> |Protege a altura da forma para que ela não seja alterada quando a forma for dimensionada.  <br/> |[Célula LockHeight (Seção Protection)](lockheight-cell-protection-section.md) <br/> |
 |LockMoveX  <br/> |Protege a posição horizontal da forma para que ela não se mova horizontalmente.  <br/> |[Célula LockMoveX (Seção Protection)](lockmovex-cell-protection-section.md) <br/> |
-|LockMoveY  <br/> |Protege a posição vertical da forma para que ela não se mova verticalmente.  <br/> |[Célula LockMoveY (Seção Protection)](http://msdn.microsoft.com/library/4ed8cab4-112a-e96a-f4e3-02490a6f87fa"%28Office.15%29.aspx) <br/> |
+|LockMoveY  <br/> |Protege a posição vertical da forma para que ela não se mova verticalmente.  <br/> |[Célula LockMoveY (Seção Protection)](lockmovey-cell-protection-section.md) <br/> |
 |LockPreview  <br/> |Determina se uma visualização será salva sempre que um desenho for salvo.  <br/> |[Célula LockPreview (Seção Document Properties)](lockpreview-cell-document-properties-section.md) <br/> |
 |LockReplace  <br/> |Indica se uma forma pode participar de uma operação de substituição (como um destino ou uma forma de substituição).  <br/> |[Célula LockReplace (Seção Protection)](lockreplace-cell-protection-section.md) <br/> |
 |LockRotate  <br/> |Trava as formas 2D para impedir que sejam giradas com a alça de rotação ou com o comando Girar 90° para a esquerda ou Girar 90° para a direita.  <br/> |[Célula LockRotate (Seção Protection)](lockrotate-cell-protection-section.md) <br/> |

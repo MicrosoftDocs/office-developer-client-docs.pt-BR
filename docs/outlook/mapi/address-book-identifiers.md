@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766133"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580520"
 ---
 # <a name="address-book-identifiers"></a>Identificadores do Catálogo de Endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todos os provedores de catálogo de endereços atribuem identificadores de entrada usando a propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para suas mensagens de usuário e os objetos da lista de distribuição. Aplicativos clientes usam esses identificadores de entrada para abrir e acessar os objetos aos quais eles são atribuídos.
   

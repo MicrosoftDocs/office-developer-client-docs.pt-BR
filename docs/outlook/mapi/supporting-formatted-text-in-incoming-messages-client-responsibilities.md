@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8fdd9ea4dfbc40d7e800be5e2df666738d2cd23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19770538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577454"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Suporte a texto formatado em mensagens de entrada: responsabilidades do cliente
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como as mensagens são transferidas entre sistemas de mensagens, o MAPI spooler certifica-se de que a formatação rich text permanecerá sincronizada com o texto da mensagem. O MAPI spooler chama a função de [RTFSync](rtfsync.md) de dentro de uma versão com quebra da mensagem que ele passa para o provedor de transporte. O provedor de transporte salva as alterações feitas à mensagem chamando o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) e encaminha para o novo destinatário. 
   

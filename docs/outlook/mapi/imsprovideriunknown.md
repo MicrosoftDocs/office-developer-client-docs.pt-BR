@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9444806347c97077b03922b116e2ed7f61665cc1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c00e54d02ba494c94c9826eabe142e1bd3b9a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767546"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579624"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso a um provedor de armazenamento de mensagens por meio de um objeto de provedor de armazenamento de mensagem. Este objeto de provedor de armazenamento de mensagens é retornado no logon do provedor por função de ponto de entrada do provedor de repositório a mensagem [MSProviderInit](msproviderinit.md) . O objeto de provedor de armazenamento de mensagem é usado principalmente pelos aplicativos cliente e o MAPI spooler para abrir armazenamentos de mensagem. 
   

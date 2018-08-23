@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b6193cb-612b-408e-b9bc-285df313e2cc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 119cd7edc5b9b615a39cea6aa1c405c396ce2afa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: facbcb9eed18db304cac334be845c0b3869ba508
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574801"
 ---
 # <a name="pidlidappointmenttimezonedefinitionenddisplay-canonical-property"></a>Propriedade canônica PidLidAppointmentTimeZoneDefinitionEndDisplay
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que armazena a descrição para o fuso horário que é usado quando a hora de término de uma única instância compromisso ou solicitação de reunião é selecionada. 
   

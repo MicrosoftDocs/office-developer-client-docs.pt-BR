@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f448f25b469a1669e2fc3aaaa347dca6242da5f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e2a1aa45bfd718fa8ae1d4cd827023a80463a47
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580443"
 ---
 # <a name="pidlidclassificationkeep-canonical-property"></a>Propriedade canônica PidLidClassificationKeep
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se a classificação de mensagem deve persistir na mensagem se a mensagem for encaminhada ou respondida.
   

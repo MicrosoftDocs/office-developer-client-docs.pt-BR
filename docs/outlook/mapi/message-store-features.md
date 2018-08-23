@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a26701b5b0f9f31277a442321e5e3016cfcb4d1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e99d9d2e1289ed98ba659e97b05c8ea6d891a74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581808"
 ---
 # <a name="message-store-features"></a>Recursos do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagem são mais complexos que outros provedores de serviços MAPI em que os provedores de armazenamento de mensagem obtêm uma ampla gama de recursos opcionais, que eles podem implementar. A lista de recursos necessários para um provedor de armazenamento de mensagens é relativamente curta. No entanto, um provedor de armazenamento de mensagem típica dará suporte a um número de recursos opcionais, porque muitos dos recursos opcionais são muito úteis ou exigido pela maioria dos clientes MAPI. A tabela a seguir lista os principais recursos que os provedores de armazenamento de mensagens podem implementar e se cada recurso é obrigatório ou opcional para mensagens de todos os provedores de armazenamento e provedores de armazenamento de mensagem padrão.
   

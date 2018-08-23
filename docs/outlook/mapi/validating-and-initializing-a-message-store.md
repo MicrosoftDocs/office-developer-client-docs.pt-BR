@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 48883ec33db9ffd6b3e7cc6e16ae9c2487a31607
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a5a5045594e87953d967fddbdeefd5ac18c8a3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581969"
 ---
 # <a name="validating-and-initializing-a-message-store"></a>Validar e inicializar um repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando você abre um armazenamento de mensagens por meio do método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) sem definir o sinalizador MDB_NO_MAIL, MAPI cria várias pastas e os atribui funções e os nomes padrão. MAPI é responsável por criar essas pastas para evitar incompatibilidades que ocorreriam inevitavelmente fossem clientes ou provedores de armazenamento de mensagem responsáveis pela criação. 
   

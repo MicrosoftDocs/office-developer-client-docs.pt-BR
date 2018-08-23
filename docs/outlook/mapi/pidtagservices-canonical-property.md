@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a067455f-c67e-4434-83bf-5acc320865d0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a89297e74851cca90463b65fe78e20c5885828f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d1ebd7752dec05db112c6a8805244579cc9848f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770030"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571700"
 ---
 # <a name="pidtagservices-canonical-property"></a>Propriedade canônica PidTagServices
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de identificadores de serviços de mensagem no perfil atual.
   

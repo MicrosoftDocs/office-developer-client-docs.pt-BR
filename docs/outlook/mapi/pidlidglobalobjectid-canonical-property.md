@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ba79af79ddadba2ca2223008e367738299475f02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 173c679b7a94678b1b3b14bf82abf6638ecc5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575655"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>Propriedade canônica PidLidGlobalObjectId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o identificador exclusivo do objeto calendar.
   

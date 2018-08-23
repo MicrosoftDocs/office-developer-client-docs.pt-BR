@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 84c2d02da840dfcad077462954cb10894ba153d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571476"
 ---
 # <a name="profile-tables"></a>Tabelas de perfis
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela de perfil lista informações sobre todos os perfis associados com um aplicativo cliente específico. Há uma tabela de perfil para cada sessão, implementadas pelo MAPI para uso por clientes. 
   

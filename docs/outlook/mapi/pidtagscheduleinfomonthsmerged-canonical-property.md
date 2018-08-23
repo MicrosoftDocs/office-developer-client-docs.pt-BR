@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b13b5d7b-413e-4405-8a35-0422477a9e86
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c1096df0eff4b43239978620f4ccf2e9d221095a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6de470a284b91126854a0c1324f5665fd72868ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769977"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577349"
 ---
 # <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsMerged
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista dos meses para os dados de disponibilidade do tipo ocupado ou uma ausência temporária (OOF) mensagem está presente na mensagem de livre/ocupado. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0793fefd744eecc95899c4166cb8a1a6a2e6cd2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581584"
 ---
 # <a name="personal-form-libraries"></a>Bibliotecas de formulários pessoais
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como seu nome sugere, bibliotecas de formulários particulares contêm formulários de interesse para um usuário específico. Biblioteca de formulários particular do usuário é a biblioteca de formulários associada ao repositório de mensagem padrão identificado no perfil do usuário; cada perfil instalado em uma estação de trabalho pode usar um repositório separado padrão e, portanto, uma biblioteca de formulários particulares separado. Uma biblioteca de formulários particulares pode conter cópias das formas que também estão contidas em outras bibliotecas de formulários, além de outras formas.
   

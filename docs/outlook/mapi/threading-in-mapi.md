@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 15fb6113e9c3428cff3865307736592fd6e2b2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9ee45ea7a3592a2b0fc0675bbdb6e640f9bd046
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770597"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580387"
 ---
 # <a name="threading-in-mapi"></a>Threading no MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um segmento é a entidade básica ao qual um sistema operacional aloca tempo da CPU. Um segmento tem seu próprio registradores, pilha, prioridade e armazenamento, mas compartilha um recursos de processo e espaço de endereço como tokens de acesso. Threads também compartilham memória, com um thread lendo o que outro thread tenha escrito.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f58bd8499b63bcd526906f78143b76092f194cb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8cd211cc16b620ac47357271070e0b45b867bea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579939"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Obtém a pasta que foi estabelecida como pasta para o armazenamento de mensagens de recebimento de destino para mensagens recebidas de uma classe de mensagem especificada ou como padrão.
   

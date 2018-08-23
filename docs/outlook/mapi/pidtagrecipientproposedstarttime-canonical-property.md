@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 65d5c2f94da219fc1cb87384ebdd3c1cf34bd9a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7500918daed361eac1c20e46e4046f47b6339c89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580856"
 ---
 # <a name="pidtagrecipientproposedstarttime-canonical-property"></a>Propriedade canônica PidTagRecipientProposedStartTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica uma hora de início proposta de uma reunião.
   

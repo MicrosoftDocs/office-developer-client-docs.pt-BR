@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 90ae9cee915296475d7fe64952b40ab7344e89e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5908069f5fa887fd9d2e3f8c0df75f2e3d69515c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579533"
 ---
 # <a name="imessagegetrecipienttable"></a>IMessage::GetRecipientTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna a tabela de destinatário da mensagem.
   

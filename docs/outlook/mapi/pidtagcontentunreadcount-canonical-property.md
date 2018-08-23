@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce7092840037345ae99b31c39cfbd4ac96b99ff5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b15dd467b7418ea10d384183dc32284924a90212
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581073"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propriedade canônica PidTagContentUnreadCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de mensagens não lidas em uma pasta, como computado pelo armazenamento de mensagens. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f534a4738eb18519dc62cc18cfb79391ea39633b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e05cf37d7605942abc9a2073957264503b8d92db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574066"
 ---
 # <a name="pidlidattendeecriticalchange-canonical-property"></a>Propriedade canônica PidLidAttendeeCriticalChange
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a data e hora em que o objeto de reuniões foi enviado.
   

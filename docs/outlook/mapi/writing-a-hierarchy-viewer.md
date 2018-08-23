@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0286696707d268867a5536ef345d0af7909918dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ff394c95dfa3166d39dcba4b0c577dcfac7b8d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581591"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>Gravar um visualizador de hierarquia
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um visualizador de hierarquia é um componente de interface do usuário que é usado para exibir a pasta e o endereço de tabelas de hierarquias de contêiner de catálogo. Visualizadores de hierarquia podem exibir os membros da hierarquia em níveis diferentes, expandindo e firmando contrato cada nível sob demanda.
   

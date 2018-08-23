@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 40a72bed0b3e763ea482b228174b85d9f42185c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579442"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notifica o Visualizador de formulário que a mensagem atual tiver sido enviada para o spooler MAPI.
   

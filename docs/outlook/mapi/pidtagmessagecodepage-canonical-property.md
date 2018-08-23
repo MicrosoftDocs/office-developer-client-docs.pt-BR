@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eef73e34-470c-4c37-94ce-ea95fe83bc10
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3a343ba1a8ef5a10f23a17b5ac62fd8def5fa7f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f75a5e10a59d7c6db4e43d2552a38d523b537790
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580198"
 ---
 # <a name="pidtagmessagecodepage-canonical-property"></a>Propriedade canônica PidTagMessageCodepage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a página de código que é usada para a mensagem.
   

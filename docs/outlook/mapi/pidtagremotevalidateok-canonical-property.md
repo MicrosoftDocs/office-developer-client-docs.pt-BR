@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d8d986554352e05398a843723ee802bb4969e5ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b06ebbe8cb162d77d60cfffa866438567c84c27
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576831"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Propriedade canônica PidTagRemoteValidateOk
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa propriedade contém TRUE se o visualizador remoto tiver permissão para chamar o método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . 
   

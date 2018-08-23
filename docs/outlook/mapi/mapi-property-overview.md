@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ed11677d09ae5acacced77373b2bca783d1ec0b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40a71592e658110dab81c9bcb4aec97f9930d014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767924"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576474"
 ---
 # <a name="mapi-property-overview"></a>Visão geral da propriedade MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma propriedade é um atributo de um objeto MAPI. As propriedades descrevem algo sobre o objeto, como a linha de assunto de uma mensagem ou o tipo de endereço de um usuário de mensagens. MAPI define várias propriedades, algumas para descrever muitos objetos e alguns que são adequadas somente para um objeto de um determinado tipo. Clientes e provedores de serviços podem estender o conjunto do MAPI de propriedades predefinidas criando novas e propriedades personalizadas. Os clientes podem definir propriedades para descrever novas classes de mensagem, e provedores de serviços podem definir propriedades para expor recursos exclusivos de seu sistema de mensagens.
   

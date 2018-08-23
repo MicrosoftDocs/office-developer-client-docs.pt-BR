@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae6202a1fdf7ec43bf2269236aa8120aa67e3c50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef60c13923753eb7e349b91a5a4727958ebb73e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580233"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Propriedade canônica PidLidDistributionListOneOffMembers
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a lista de EntryIds únicos que correspondem aos membros da lista de distribuição pessoal.
   

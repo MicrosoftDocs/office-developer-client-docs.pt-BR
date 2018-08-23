@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e98416ba7796c66d719adcc27ba8029b7908bb79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1bdd8a283fead891261bbb05c38d398132870a50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582256"
 ---
 # <a name="pidtagsearchfolderefpflags-canonical-property"></a>Propriedade canônica PidTagSearchFolderEfpFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os sinalizadores de pasta estendida que se aplicam para o contêiner de pasta de pesquisa para a pasta de pesquisa.
   

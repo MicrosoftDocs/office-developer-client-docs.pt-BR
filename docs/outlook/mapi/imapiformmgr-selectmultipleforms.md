@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 096437f10c5b992a1db55f6a856c38021a81b99a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767075"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579288"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Apresenta uma caixa de diálogo que permite ao usuário selecionar vários formulários e retorna uma matriz de formulário objetos de informações que descrevem esses formulários.
   

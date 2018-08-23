@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ec95ed9-4848-43ac-9b17-8092a37055e9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2188d9c1ea4d8d554beead5e59f51440dabc42cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09f2ed6f71108fdb0edcc1990c488926b41dd8c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579610"
 ---
 # <a name="pidlidpostrsschannellink-canonical-property"></a>Propriedade canônica PidLidPostRssChannelLink
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a URL do RSS ou Atom feed do qual o arquivo XML fornecidos.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4d71a0e26e2043bbaf961ae5096afc5789be36be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768966"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577720"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Propriedade canônica PidTagAttachExtension
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma extensão de nome de arquivo que indica o tipo de documento de um anexo. 
   

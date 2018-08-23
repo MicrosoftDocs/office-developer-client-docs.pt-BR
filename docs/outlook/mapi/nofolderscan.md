@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3477104cc254ea5f22158b9791d7fd3bd776d819
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3416bc50e4628df2be09f9fe1a22d19530bcdff8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768152"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578049"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica se o Microsoft Office Outlook deve verificar as pastas de contatos em um repositório.
   

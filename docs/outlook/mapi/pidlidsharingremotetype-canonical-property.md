@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9bc7c7c-86df-45d8-922b-76e3b076144a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8a9975090a8b90946482fa77fd2dafdb503c1f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87f3a1902c70cc9f875d472da406104ae1b45fda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768664"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573940"
 ---
 # <a name="pidlidsharingremotetype-canonical-property"></a>Propriedade canônica PidLidSharingRemoteType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o tipo da pasta compartilhada remota. Esta é uma propriedade de uma mensagem de compartilhamento.
   

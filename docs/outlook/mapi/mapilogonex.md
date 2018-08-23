@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 08782fe616fe260388cff8982dfbb09951453a00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db76dfec27100a22785082580da70ecc2c10fc45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579981"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Logs de um aplicativo cliente em uma sessão com o sistema de mensagens. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 517d0900e968ea55cedf6b17b31d97795fcf61c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76584e248f03deac62af94e4638fcead15594b3e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769507"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581129"
 ---
 # <a name="pidtagnextsendacct-canonical-property"></a>Propriedade canônica PidTagNextSendAcct
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o servidor que um cliente atualmente está tentando usar para enviar email.
   

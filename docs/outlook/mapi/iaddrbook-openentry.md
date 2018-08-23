@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: '�ltima altera��o: sexta-feira, 1 de fevereiro de 2013'
-ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d380f784094064232cdb7369080612ba9ccac0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19766886"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576866"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Abre uma entrada do catálogo de endereços e retorna um ponteiro para uma interface que pode ser usada para acessar a entrada.
   

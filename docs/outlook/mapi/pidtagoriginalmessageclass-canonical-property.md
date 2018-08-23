@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49deb153-03c6-4be2-a3a5-53cca01accba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7167b7b51698cda5610356779a8e8342b34a6082
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0abd3618f7a1586d8ca786fc1b6802c17e0f0f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573114"
 ---
 # <a name="pidtagoriginalmessageclass-canonical-property"></a>Propriedade canônica PidTagOriginalMessageClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a classe da mensagem original para uso em um relatório.
   

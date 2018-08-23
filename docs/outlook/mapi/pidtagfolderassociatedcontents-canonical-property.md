@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fe6395029e312a19bce6252e73b4616bb0aa0851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae09488b99cd55e5cfca23f504d81ac5919633d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574150"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propriedade canônica PidTagFolderAssociatedContents
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um objeto table de conteúdo incorporado que fornece informações sobre a tabela de conteúdo associado. 
   

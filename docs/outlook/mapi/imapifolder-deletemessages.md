@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7845abc4f3010daf8e13d56ac4b13d0333bad07e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0439c71df7083e3c4787a5d317fa11d2b99c61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766983"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578630"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exclui uma ou mais mensagens.
   

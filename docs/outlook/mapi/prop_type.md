@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 91a9d15544ebc71d27c8a9a6f930f3c32ecaa4fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bcaf230eed9cf21388b68f06ab678dc143f64ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571819"
 ---
 # <a name="proptype"></a>PROP_TYPE
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o tipo de propriedade de uma marca de propriedade especificado.
   

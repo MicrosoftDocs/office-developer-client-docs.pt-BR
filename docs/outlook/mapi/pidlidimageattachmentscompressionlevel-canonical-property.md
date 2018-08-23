@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 13e2ac93e7e3ba46bf25b26e76bd44c15f2b89e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55b965374bb1d7e5859f0cac5cc2f61956ea5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578917"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Propriedade canônica PidLidImageAttachmentsCompressionLevel
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define um nível de compactação a ser aplicado em anexos de imagem.
   

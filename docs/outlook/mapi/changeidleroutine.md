@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1fbeccd805953322b579d1490b5e74e5132aa7ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49682007946a4c5dda3800751deaebcc0e1e5740
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19766301"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579449"
 ---
 # <a name="changeidleroutine"></a>ChangeIdleRoutine
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Altera algumas ou todas as características de uma rotina de ociosidade [FNIDLE](fnidle.md) com base. 
   

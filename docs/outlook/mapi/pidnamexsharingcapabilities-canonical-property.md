@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 62319e45-b627-4e5a-b76d-2517bf515956
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f01b76d883bdd66074382bdbaeb30c04345fc8ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ad2e825f6d703147a4d043b2a09496dea9ffb7f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573702"
 ---
 # <a name="pidnamexsharingcapabilities-canonical-property"></a>Propriedade canônica PidNameXSharingCapabilities
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que indica os recursos de compartilhamento do item.
   

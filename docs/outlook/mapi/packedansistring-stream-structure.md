@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5494558db65e19891848264c170ba85a55c5df71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578973"
 ---
 # <a name="packedansistring-stream-structure"></a>Estrutura de fluxo de PackedAnsiString
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A estrutura de fluxo de PackedAnsiString contém uma representação de ANSI de uma cadeia de caracteres, com base na página de código ANSI do computador no qual está executando o Microsoft Outlook. Esta cadeia de caracteres não será terminada por um caractere nulo. Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, imediatamente após a outra na ordem listada abaixo. Os elementos de dados reais que existem dependem do comprimento da cadeia de caracteres na representação ANSI.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3a5188ea9f83d05722c6b5ab81d9e796b33ef254
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8d2f2c82c61280bae88c715f8ffae19e10f00f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577839"
 ---
 # <a name="dtblcombobox"></a>DTBLCOMBOBOX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um controle de caixa de combinação que será usado em uma caixa de diálogo construída a partir de uma tabela de exibição.
   

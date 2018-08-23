@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: cfc640fd419ad030de6922fa61817881caa70d07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578651"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Sobre como definir a ordem de resolu��o de listas de endere�os no Outlook
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para cada perfil, Microsoft Office Outlook oferece suporte a várias listas de endereços e os usuários podem especificar manualmente a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos. Por exemplo, voc� pode definir a ordem de resolu��o para que os nomes ser�o resolvidos primeiro contra seu cat�logo de endere�os do Outlook e, em seguida, a lista de endere�os Global. Em um computador, um usu�rio pode abrir o cat�logo de endere�os, clique em **Ferramentas** e em seguida **Op��es** para especificar nesta ordem de resolu��o. No entanto, em um ambiente corporativo, � mais eficiente para administradores de TI definir programaticamente a ordem das listas de endere�os pelo qual nomes forem resolvidos. Esse tipo de c�digo pode ser usado como parte de um script de automa��o de inicializa��o que um administrador implanta dentro da corpora��o. 
   

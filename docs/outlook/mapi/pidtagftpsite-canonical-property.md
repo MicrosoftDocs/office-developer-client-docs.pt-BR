@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d94087c2-a996-45b0-b5ed-0293d8a47d9b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e6375f6db7a2f4dae540267603f5ef50feb4f81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ee0982d8a8f1eb137caa6d708b74794de36cdb9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581332"
 ---
 # <a name="pidtagftpsite-canonical-property"></a>Propriedade canônica PidTagFtpSite
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a URL do protocolo de transferência de arquivo (FTP) do contato. FTP é um protocolo usado para transferir dados, conforme especificado na [RFC959].
   

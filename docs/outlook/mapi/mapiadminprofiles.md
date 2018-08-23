@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3cd1a19b23a3c4d3ff8a297881eb2b959585eb17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 843eed06f30dcca530cf4306c9e03bbffbb05af5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581283"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um objeto de administração do perfil. 
   

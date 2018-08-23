@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0f9826dab72968055604c5bb9f8f537facc5618e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767029"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573135"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o nome de exibição de um contêiner de formulário.
   

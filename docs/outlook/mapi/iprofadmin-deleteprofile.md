@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 249d2dcf3a298abde85bdc53620680146d43c168
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa3c010eafeba7908498965bc0491c993a4a9120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572078"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exclui um perfil.
   

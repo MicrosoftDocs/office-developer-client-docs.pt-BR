@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cf3a86f4-016e-49d2-a71d-7f3f68e69867
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 208226408751bb96f015719c4a1fea9bd1f9ee63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d9001250e4d39ea010af0fc04df297ceb497b1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769341"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572554"
 ---
 # <a name="pidtaghomeaddresscountry-canonical-property"></a>Propriedade canônica PidTagHomeAddressCountry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a região em um endereço do contato.
   

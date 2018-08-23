@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1fbe6084ad2d331bf056ea407fb8081e405b5632
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ee6943c6ff644b04d742e93638e2736ffaacc8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768535"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575403"
 ---
 # <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Propriedade canônica PidLidMeetingWorkspaceUrl
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a URL do espaço de trabalho de reunião que está associado um objeto calendar.
   

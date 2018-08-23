@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0789b566eb814fe984ae78670d22ad2937b0c3a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5a2cd09942559167300d8a921987864b8c5e48f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766368"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576460"
 ---
 # <a name="currency"></a>CURRENCY
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um inteiro assinado de 64 bits representando um valor de moeda. 
   

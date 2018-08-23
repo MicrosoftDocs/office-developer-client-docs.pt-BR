@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7ea60b73fb1abe32b6db5e3c73d6ef3fac53d35d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 263370590a35f19482cc5ad7e56c65f6df0087fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770623"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581297"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>Função do provedor de transporte no subsistema de MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Bibliotecas de vínculo dinâmico de provedor de transporte (DLLs) fornecem a interface entre o spooler MAPI e a parte de um sistema de mensagens responsável pelo envio e recebimento de mensagens. O spooler MAPI e o provedor de transporte funcionam em conjunto para lidar com as responsabilidades de enviar uma mensagem ou receber uma mensagem. O MAPI spooler carrega o provedor de transporte DLL quando ele é usado inicialmente e libera-lo quando ele não é mais necessária. Vários provedores de transporte que podem ser instalados no mesmo sistema, mas MAPI fornece o spooler de um necessários.
   

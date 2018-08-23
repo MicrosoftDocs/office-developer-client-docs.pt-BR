@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0de5bf5d5bb4d8c5606e97bdbc6e70493609a05f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7c1241f2ad31dee8277f3b3b77ac02137067a12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766480"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576306"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma lista de valores múltiplos que será exibida em uma caixa de diálogo que é construída a partir de uma tabela de exibição.
   

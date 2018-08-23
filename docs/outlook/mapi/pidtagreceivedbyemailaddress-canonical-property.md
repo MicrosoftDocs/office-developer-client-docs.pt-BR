@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6f6718bf63c48dec6d2d19b5931c6e7e81513a2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 442a5a69138fdd229289b4201224a4f151c8ccc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581899"
 ---
 # <a name="pidtagreceivedbyemailaddress-canonical-property"></a>Propriedade canônica PidTagReceivedByEmailAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o endereço de email para o usuário de mensagens que recebe a mensagem.
   

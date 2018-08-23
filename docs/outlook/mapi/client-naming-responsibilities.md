@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a97d108b2f36b40e5f8818ea81c138d7384ce9b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f47193bf8866622fa2e6d1f849d0568471c5461c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766295"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580779"
 ---
 # <a name="client-naming-responsibilities"></a>Responsabilidades de nomenclatura do cliente
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os clientes devem seguir uma convenção de nomenclatura para suas propriedades que precisam ser traduzidos por um gateway. Todas as propriedades a serem convertidos devem ser criadas como propriedades nomeadas em um dos conjuntos de cinco propriedade designados para manter as propriedades podem ser mapeadas:
   

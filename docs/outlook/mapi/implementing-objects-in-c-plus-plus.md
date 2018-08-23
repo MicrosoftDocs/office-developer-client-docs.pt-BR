@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ea9f37183f33459b09f2730b3efbb7afed3d4766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c233f9855674080496b2e54ba9548a53738ead8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574724"
 ---
 # <a name="implementing-objects-in-c"></a>Implementando objetos em C++
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de serviços e clientes C++ definem os objetos MAPI, criando classes que herdam as interfaces estão implementando. Cada um dos métodos interface é pública, assim como o construtor e destrutor para a classe. Se a classe tem métodos adicionais, eles podem ser pública ou privada, dependendo da implementação. Todos os membros de dados são privados. 
   

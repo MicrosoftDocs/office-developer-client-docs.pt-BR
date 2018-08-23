@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b7e0c174f0b31522cffbb4761ab64a50267874be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578406"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Propriedade canônica PidTagAttachPathname
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o caminho totalmente qualificado e o nome de um anexo.
   

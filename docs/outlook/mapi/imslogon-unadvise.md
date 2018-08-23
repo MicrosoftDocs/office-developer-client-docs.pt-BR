@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 34c15ca4f7d81eeeee71fb0cb7e31085c75e5492
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ee17799fc42faf383461af7eed9d700d17b868e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767570"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582382"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Remove o registro de um objeto de notificação de alteração de repositório de mensagem tenha estabelecido por meio de uma chamada ao método [IMSLogon::Advise](imslogon-advise.md) . 
   

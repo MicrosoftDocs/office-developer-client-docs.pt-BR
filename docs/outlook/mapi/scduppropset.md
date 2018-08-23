@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5b93f84026cacd8568dc5ceec5574d144f6d1633
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8bbe8aa00ce446d228c23e1d474fa5140ae7b40a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581976"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Duplica uma matriz de valores de propriedade em um único bloco de memória MAPI combinar as operações das funções [ScCopyProps](sccopyprops.md) e [ScCountProps](sccountprops.md) . 
   

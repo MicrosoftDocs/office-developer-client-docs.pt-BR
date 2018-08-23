@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 71e0a08436c925f0d68d63111722cc01bd73cc5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba93cd0343121751ab12514fe3f09e5a480d5b23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582270"
 ---
 # <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um objeto de status que tenha sido afetado por uma alteração. 
   

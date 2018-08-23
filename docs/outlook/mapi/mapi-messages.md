@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1146fa0441d0b55a7610368324489bd3a6bb24e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf7876dacac40420fdedb8b6f55c99efcf56c4f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579932"
 ---
 # <a name="mapi-messages"></a>Mensagens MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 As mensagens são objetos MAPI que são transmitidos de aplicativo de um cliente para outro por meio do spooler MAPI e os provedores de serviços por meio de um sistema de mensagens. Quase todos os componentes nas MAPI funciona com mensagens. Clientes permitem aos usuários criar, salvar, enviar e excluir mensagens Além disso, para copiar e movê-los de uma pasta para outro. Provedores de armazenamento de mensagem são responsáveis para gerenciamento de mensagem e de entrega de mensagens para o spooler MAPI ou um provedor de transporte. O MAPI spooler move as mensagens para um provedor de transporte apropriado, enquanto os provedores de transporte lidar com a entrega e o recebimento de mensagens de e para um sistema de mensagens e definir a mensagem e destinatário propriedades de opção. Provedores de catálogo de endereços funcionam indiretamente com mensagens, com suporte para propriedades que descrevem os destinatários da mensagem.
   

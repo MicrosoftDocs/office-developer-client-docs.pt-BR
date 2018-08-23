@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1593152786a3345827089e5f6702454896944b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 876c8fc3667929e3c2e7403e71e6d392981d34f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768168"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573352"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém informações sobre um objeto que sofreram uma alteração, tais como sendo copiado ou modificado.
   

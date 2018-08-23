@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 suporta dois tipos de modelos de programação para desenvolver lógica de negócios nos modelos de formulário e oferece suporte a automação externa do código gerenciado.
-ms.openlocfilehash: 18d5d68cdc047ddcb049874d677c6a20e851f2db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579526"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Noções básicas sobre o ambiente de desenvolvimento e modelos de objeto do InfoPath
 
@@ -110,16 +110,13 @@ Para obter mais informações sobre o modelo de objeto do InfoPath Forms Service
   
 ## <a name="infopath-development-environment"></a>Ambiente de desenvolvimento do InfoPath
 
-O desenvolvimento de lógica de negócios nos modelos de formulário do InfoPath 2013 pode ser executado usando o Visual Studio 2012 com o complemento do [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30364) instalado. 
+O desenvolvimento de lógica de negócios nos modelos de formulário do InfoPath 2013 pode ser executado usando o Visual Studio 2012 com o complemento do [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) instalado. 
   
 > [!NOTE]
 > InfoPath 2013 não oferece suporte à criação ou edição de modelos de formulário que usam a lógica de negócios gravada com JScript ou VBScript, embora o InfoPath Filler oferece suporte a modelos de formulário baseado em script de abertura que foram criados nas versões anteriores do InfoPath. 
   
 ## <a name="see-also"></a>Confira também
 
-
-
-[Passo a passo: criar um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
-  
-[Passo a passo: Criando e depurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Passo a passo: criar um modelo de formulário básico com código](walkthrough-creating-a-basic-form-template-with-code.md)
+- [Passo a passo: Criando e depurando um modelo de formulário básico usando o modelo de objeto do InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

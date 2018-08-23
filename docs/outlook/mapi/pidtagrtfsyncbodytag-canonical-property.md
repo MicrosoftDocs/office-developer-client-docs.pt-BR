@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bad754d21652d3f5278a6dad3ec06f4a0b533036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c141ce5b4a8d44cc42a070d73e8e89f35e776fe9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576852"
 ---
 # <a name="pidtagrtfsyncbodytag-canonical-property"></a>Propriedade canônica PidTagRtfSyncBodyTag
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém caracteres significativos que aparecem no início do texto da mensagem.
   

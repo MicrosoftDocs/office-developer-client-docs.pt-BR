@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770259"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577209"
 ---
 # <a name="required-features-for-address-book-containers"></a>Recursos necessários para contêineres do catálogo de endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A maioria dos provedores de catálogo de endereços oferecem suporte a pelo menos um contêiner, alguns deles pode ser modificado. Contêineres de catálogo de endereços podem fornecer conteúdo e tabelas de hierarquias, recursos de pesquisa e resolução de nomes. Contêineres modificáveis permitem a exclusão de entradas como mensagens de usuários, listas de distribuição, ou outros contêineres e a adição de entradas a partir de entradas em outros contêineres ou modelos únicos.
   

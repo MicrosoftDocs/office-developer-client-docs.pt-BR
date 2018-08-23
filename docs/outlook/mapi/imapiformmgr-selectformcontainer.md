@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ef9b99f06b62fd361bb780debb527ec2d7457589
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f66d0fb1fc9d252ff8b6985c4a54de79313266d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767083"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577923"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Apresenta uma caixa de diálogo que permite que o usuário selecione um contêiner de formulário e retorna uma interface para o objeto de contêiner do usuário selecionado.
   

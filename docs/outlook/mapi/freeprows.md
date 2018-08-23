@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 93659a28969efd0d04e9fc44f8926e89586f7773
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0686cee9bf6fa47332f75f99e1d2a2d35cb7e7fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578021"
 ---
 # <a name="freeprows"></a>FreeProws
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Destruir uma estrutura [SRowSet](srowset.md) e libera a memória associada, incluindo a memória alocada para todos os conjuntos de membro e estruturas. 
   

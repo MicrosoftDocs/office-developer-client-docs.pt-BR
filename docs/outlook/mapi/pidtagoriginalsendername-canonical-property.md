@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e3b7764-b122-4405-be4f-7fec571c7dfc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae0ae8536f4f088bae4561e123afce716b623414
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11f8df87dd9248a9d6061892bb0500274478646d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579162"
 ---
 # <a name="pidtagoriginalsendername-canonical-property"></a>Propriedade canônica PidTagOriginalSenderName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição do remetente da primeira versão de uma mensagem, ou seja, a mensagem antes que está sendo encaminhada ou respondida.
   

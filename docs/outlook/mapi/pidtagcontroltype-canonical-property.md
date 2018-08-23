@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fba82fef7c5330f538521d8d5fbdbcecc061ee27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c1d415cc9aa4e66b6c4b17262f9a491fc01f6bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769132"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574122"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriedade canônica PidTagControlType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que indica um tipo de controle para um controle usado em uma caixa de diálogo. 
   

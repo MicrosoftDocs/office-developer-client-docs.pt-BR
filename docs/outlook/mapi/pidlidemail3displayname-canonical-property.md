@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a42fb112-7be5-4b7b-a2e0-7e7f7f58b9a4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e52b2e1795405990864724d873ffa604e5e949b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb60af2550b7247b62b78b3bce1b94f9ba099b6a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581059"
 ---
 # <a name="pidlidemail3displayname-canonical-property"></a>Propriedade canônica PidLidEmail3DisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome de exibição legíveis de usuário para o terceiro endereço de email.
   

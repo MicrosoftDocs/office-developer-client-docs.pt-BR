@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 418ffdd19412dcf948d36a5e7df33f7978d0df3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3bcad4c236f71390f7a048eb66860720e9180e06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582039"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria uma cadeia de caracteres ASCII que representa um identificador de compostos de entrada para um objeto, geralmente em uma mensagem em um armazenamento de mensagens. 
   

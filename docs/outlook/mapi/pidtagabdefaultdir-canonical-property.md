@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ad0d148dd29ad634a420f405cea3b2582d1d8231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40acb94d01afc6b46d5857c5d299195ec90a1d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581493"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>Propriedade canônica PidTagAbDefaultDir
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada do contêiner de catálogo de endereços para exibir o primeiro. 
   

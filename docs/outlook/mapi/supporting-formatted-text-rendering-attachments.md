@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 14c1162bd4e225fd3ab2ea5ab11536b3bdf08edd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770524"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580310"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>Suporte a texto formatado: anexos de renderização
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um aplicativo cliente que se importa onde em uma mensagem em seus respectivos anexos são renderizados define a propriedade de **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) para esses anexos durante composição de mensagem. Um cliente que não está preocupado posicionamento de renderização deixa essa propriedade não definidas.
   

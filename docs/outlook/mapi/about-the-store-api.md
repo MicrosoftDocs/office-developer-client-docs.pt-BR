@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: 31aff61ec5868b0f1e9ab34d498b2e8175519f0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766123"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579372"
 ---
 # <a name="about-the-store-api"></a>Sobre a API de armazenamento
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A API de armazenar fornece uma funcionalidade de diversos repositório para provedores de armazenamento. Ele fornece as seguintes definições, tipos de dados, propriedades e interfaces.
   

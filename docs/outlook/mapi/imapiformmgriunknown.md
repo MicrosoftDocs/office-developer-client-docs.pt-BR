@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581514"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Permite que os visualizadores de formulário obter informações sobre e ativar servidores de formulário. 
   

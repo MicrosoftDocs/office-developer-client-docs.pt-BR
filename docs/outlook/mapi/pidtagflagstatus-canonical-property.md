@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 38df67757082bd12e008e56632ec7e6961ba9d42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769239"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575956"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>Propriedade canônica PidTagFlagStatus
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o estado de sinalizador do objeto de mensagem.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4eb2897c1834715f3d937ef7946998943b386aef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f73720860aa0ec54289f25a553bb00bfbe76b6a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768226"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581045"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propriedade canônica PidLidAddressBookProviderEmailList
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica quais propriedades de endereço eletrônico estão definidas no contato. 
   

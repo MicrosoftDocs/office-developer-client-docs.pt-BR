@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0f55d4cda013810884177a0f47e861e3693defd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768142"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581430"
 ---
 # <a name="message-services-and-profiles"></a>Perfis e serviços de mensagem
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Alguns usuários necessitam dos serviços de diversos sistemas de mensagens, cada um com um ou mais provedores de serviço. Porque ele é complicado para instalar e configurar cada um desses provedores de serviço individualmente e como um servidor de mensagens normalmente exige um grupo de provedores relacionados expor toda sua funcionalidade, MAPI inclui o conceito de um serviço de mensagem. Serviços de mensagens ajudam os usuários a instalar e configurar seus provedores de serviço.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 86fe4b0a1a7521c310788505b99f53bc8657de75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2405799fa59abf58583553f8e2d3718d68411a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574969"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve as informações que se relacionam com um erro crítico. Isso faz com que uma notificação de erro a serem gerados. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9965ed059ba4596232111f5fbd86b9d177e3c3dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 98dfdab24d2c4170609d9db1c3104a3f17436736
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578063"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Propriedade canônica PidLidToDoSubOrdinal
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Atua como um separador de tie quando a propriedade **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) classifica os objetos e o resultado em uma ligação.
   

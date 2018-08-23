@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 08ecb718572944db07c2888e0aae1464bd5c0f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577692"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um identificador global exclusivo (GUID). 
   

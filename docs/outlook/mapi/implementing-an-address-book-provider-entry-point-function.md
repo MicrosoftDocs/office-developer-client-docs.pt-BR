@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ba23e6ab23ff7306cd1326b73512b1c9f2a0f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767416"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579673"
 ---
 # <a name="implementing-an-address-book-provider-entry-point-function"></a>Implementar uma função de ponto de entrada do provedor de catálogo de endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando a chamadas do aplicativo de cliente [MAPILogonEx](mapilogonex.md) para iniciar uma sessão usando um perfil que contém seu provedor de catálogo de endereços, MAPI carrega seu provedor e todas as outras pessoas que fazem parte do perfil. MAPI aprende do nome da função do ponto de entrada do seu provedor observando o perfil. Lembre-se de que essa função não é o mesmo que uma função de ponto de entrada DLL; Consulte a documentação para **DllMain** na documentação do Win32. 
   

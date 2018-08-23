@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 83351e18750ccbffbe60c4e19f9b04a9c94a42e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d468943f84f1d23f1b4b84881e69cee0041a5bae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767401"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576593"
 ---
 # <a name="implementing-a-container-one-off-table"></a>Implementar a tabela única de um contêiner
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para acessar a tabela único pertencente a um dos seus contêineres, MAPI chama o método de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do contêiner para abrir a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) com o **IMAPITable** interface. Seu contêiner é solicitado para retornar sua tabela único quando um aplicativo cliente está tentando adicionar um destinatário para o contêiner. Se o contêiner permite quaisquer destinatários, seu provedor pode retornar sua própria implementação de tabela ou chamada [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md) para retornar a implementação de MAPI. 
   

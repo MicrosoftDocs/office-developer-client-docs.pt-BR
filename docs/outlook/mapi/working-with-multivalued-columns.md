@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572939"
 ---
 # <a name="working-with-multivalued-columns"></a>Trabalhar com colunas com vários valores
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma coluna de valores múltiplos contém os dados de uma propriedade de vários valores, que é uma propriedade que tem uma matriz de valores do tipo base, em vez de um único valor. Porque nenhuma das tabelas inclui vários valores de propriedades em seus conjuntos de coluna padrão, vários valores de propriedades são incluídas em uma tabela somente se solicitado pelo usuário da tabela. 
   

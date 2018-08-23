@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 96a53e427460990983242009500ade9ae0c5ada5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd7a287a2240d372edf6cca6bac522266c0ca620
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769736"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581164"
 ---
 # <a name="pidtagreceivedbyaddresstype-canonical-property"></a>Propriedade canônica PidTagReceivedByAddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o email tipo de endereço, como SMTP, para o usuário de mensagens que recebe a mensagem de fato.
   

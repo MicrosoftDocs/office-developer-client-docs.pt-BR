@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 566a56d855a517c937215b8a00eca3f6246bc212
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579022"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propriedade canônica PidTagNonDeliveryReportDiagCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um código de diagnóstico que faz parte de um relatório de não entrega.
   

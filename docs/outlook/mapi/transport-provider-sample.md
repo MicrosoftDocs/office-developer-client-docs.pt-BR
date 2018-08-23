@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1d0538f02f852580c064560460bb8b2ba54a2f65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770661"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575781"
 ---
 # <a name="transport-provider-sample"></a>Exemplo de provedor de transporte
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este exemplo usa os arquivos e diretórios para transmitir e receber mensagens. Ela implementa e registra um pré-processador muito simple que acrescenta uma linha de texto a cada mensagem de saída. O exemplo ilustra como dividir o conteúdo da mensagem entre TNEF Transport Neutral Encapsulation Format () e o texto. Ele também oferece suporte a todas as opções de configuração (folhas de propriedades, assistentes e configuração programática) e opções de mensagem. Ele não suporta as interfaces de transporte remoto. 
   

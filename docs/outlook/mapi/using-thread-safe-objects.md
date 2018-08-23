@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4a66f892043b9a90893a60f3fa6ba69ea6457f5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49a94b785a51b4b0c3082832145250eec0745a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580975"
 ---
 # <a name="using-thread-safe-objects"></a>Usar objetos livres de threads
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos cliente podem assumir que os objetos usados diretamente ou como retornos de chamada são sempre thread-safe, exceto nos seguintes casos:
   

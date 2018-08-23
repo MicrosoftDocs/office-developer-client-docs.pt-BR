@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 30099e9fe645f810e08ba331717cff975f69b313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766436"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580793"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Exibindo uma tabela de conteúdo de pasta
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela de conteúdo de uma pasta contém informações de resumo sobre todas as suas mensagens. Informações de resumo sobre novas mensagens de entrada é exibida na tabela de conteúdo da pasta de recebimento para a classe da mensagem. Para disponibilizar essas informações para usuários, recuperar a tabela e exibir as colunas e linhas conforme apropriado.
   

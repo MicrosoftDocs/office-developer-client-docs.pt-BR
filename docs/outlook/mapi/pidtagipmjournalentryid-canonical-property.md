@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a3765b9d-a108-46d7-a97c-a825ae3980be
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e48b3af79656279e3c554cd5093385d894525e43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1fc2beaa85f8bbc82debe6b39ea02429aeeea16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578686"
 ---
 # <a name="pidtagipmjournalentryid-canonical-property"></a>Propriedade canônica PidTagIpmJournalEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a **EntryID** da pasta diário do Outlook. 
   

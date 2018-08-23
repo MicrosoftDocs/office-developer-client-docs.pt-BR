@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1884d83a-826e-494a-a643-c58fa9bdf812
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 845002e915b4e84c05c43661a52f3a8d5497c341
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d771e46c92fd2bdc30857f6ba104784726dfbc62
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582144"
 ---
 # <a name="pidtagoriginatorreturnaddress-canonical-property"></a>Propriedade canônica PidTagOriginatorReturnAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o endereço do remetente codificado em binário do originador mensagem.
   

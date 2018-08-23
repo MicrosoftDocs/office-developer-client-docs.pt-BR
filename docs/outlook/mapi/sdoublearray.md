@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cde59b73381458533910dc8f0a728cc4e6ca0c01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6986ed7c9ab9932c5d95fcfb7f74f80088f21971
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580366"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de valores duplos usados para descrever uma propriedade do tipo PT_MV_DOUBLE.
   

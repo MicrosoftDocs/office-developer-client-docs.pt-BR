@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 20620a5835e627eb7543a03037f9be75db6739ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78bb5114b78142ce18d3f83c34795b72910c87a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573709"
 ---
 # <a name="pidtagscheduleinfomonthstentative-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsTentative
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os meses marcados provisórios na mensagem de livre/ocupado.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 871dafd7bf8959cf814d65991fe08fdb2b283c08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fb8919287420038b5c9165bb14b7d33d1ad2fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578861"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna um ponteiro para a tabela de conteúdo do contêiner.
   

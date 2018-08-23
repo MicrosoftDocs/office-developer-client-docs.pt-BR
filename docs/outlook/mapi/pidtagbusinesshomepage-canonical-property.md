@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 973f2c41f4d959f6af469212728a6ff1b9451151
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 279ffc19efd36af311b05b05a3175088877e3288
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769017"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575102"
 ---
 # <a name="pidtagbusinesshomepage-canonical-property"></a>Propriedade canônica PidTagBusinessHomePage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a URL da home page do negócio.
   

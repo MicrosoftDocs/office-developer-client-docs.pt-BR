@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 776f797d0c96d9173e114fd499d6cca0494a0a43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91c69489e1a72c5cd702a3c4d0392220a89c38fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580380"
 ---
 # <a name="mapisvcinf-help-file-mappings-section"></a>Seção MapiSvc.inf [Mapeamentos do Arquivo de ajuda]
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A seção **[Help File Mappings]** contém entradas que cada um mapa de um serviço de mensagem para o arquivo que fornece ajuda para erros gerados pelo serviço. Entradas nesta seção usam o seguinte formato: 
   

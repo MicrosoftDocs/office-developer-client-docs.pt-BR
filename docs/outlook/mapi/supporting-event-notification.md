@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 45bfe9f9314a154bd5f096ac20f76f6bf4f259c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580996"
 ---
 # <a name="supporting-event-notification"></a>Suporte à notificação de eventos
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como suporte a notificação de evento pode ser complicado, MAPI fornece três métodos de objeto de suporte que implementem as partes mais difíceis do processo. Esses métodos funcionam como uma unidade e um provedor deve usar todos os três ou nenhum deles.
   

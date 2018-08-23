@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e61ce7798c9e41dbb707d0d5773b116f7cce02d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebc7ed4563040e16c71e1df1094667f87a4c09b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572365"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriedade canônica PidLidMeetingType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o tipo de solicitação de reunião ou atualização de reunião.
   

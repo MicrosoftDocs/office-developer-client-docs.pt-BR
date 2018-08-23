@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 57b59e5c-fae7-48da-bb4d-90e4482a6e70
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b1baa181ce8fb76247ee44f531032c6ae1817a5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ab80bde8aa6cbcdb6960e7b9becdb51a4b351a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578743"
 ---
 # <a name="pidlidfax1addresstype-canonical-property"></a>Propriedade canônica PidLidFax1AddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o tipo de endereço para o endereço de fax comercial de um contato.
   

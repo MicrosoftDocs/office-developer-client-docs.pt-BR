@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 926b33fa3627461139362737f86248f217191534
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576838"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Criar um item de tarefa recorrente simples
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI pode ser usado para criar para criar itens de tarefa. Este tópico descreve como criar um item de tarefa recorrente simples.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7cbf11f16948d582ba36a0b4d20411549b723b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9979baf144b6106adcec416ee04439404e05d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766402"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576341"
 ---
 # <a name="determining-a-tables-end"></a>Determinar o fim de uma tabela
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Um erro comum é pressupõem que o fim da tabela foi alcançado quando: 
   

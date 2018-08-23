@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b15b87064cc30035004596e93c20ca7d5f653c9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1717e30679fb3f6721690db75fb5dd402048eb09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769547"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575046"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Propriedade canônica PidTagObsoletedMessageIds
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os identificadores de mensagens que substitui esta mensagem.
   

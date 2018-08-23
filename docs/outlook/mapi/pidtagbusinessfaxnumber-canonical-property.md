@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 10de01d1411abc860dfb37e8e913b8e2645cf45b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a84adb36c6b851c989b88f4cee6b090fd5e1679
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576761"
 ---
 # <a name="pidtagbusinessfaxnumber-canonical-property"></a>Propriedade canônica PidTagBusinessFaxNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone do aparelho de fax comercial do destinatário. 
   

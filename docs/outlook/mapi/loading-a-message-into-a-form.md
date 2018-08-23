@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4bdbe021-d694-4967-a105-4b24f1eebc44
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d677958b1a429201c05b5195c58bd7462d0f3d37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e65311187ba96abde31a4779ebba371b3d02084
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576495"
 ---
 # <a name="loading-a-message-into-a-form"></a>Carregar uma mensagem em um formulário
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para carregar uma mensagem existente em um formulário usando um servidor de formulário, use uma das seguintes estratégias.
   

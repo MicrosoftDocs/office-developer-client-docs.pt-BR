@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0bce1d682057b81135d1684c40bc79e6710d4e2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 428e92dd783368374fa07c8df9629d60e83dd217
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582025"
 ---
 # <a name="linking-to-the-mapi-dlls"></a>Vincular a DLLs MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Clientes MAPI podem vincular a DLLs MAPI implícita ou explicitamente, usando as funções do Windows **LoadLibrary** e **GetProcAddress**. Para obter informações sobre como vincular explicitamente DLLs MAPI, consulte o [Link para funções de MAPI](how-to-link-to-mapi-functions.md).
   

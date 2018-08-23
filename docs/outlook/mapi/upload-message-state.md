@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 752756cbcf6c1ce487188dd4b9ba55eee6506cd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 430734fe98799c386e71612355b194a6b8edf00a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575410"
 ---
 # <a name="upload-message-state"></a>Carregar o estado das mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o estado de mensagem de carregamento da máquina de estado de replicação. 
   

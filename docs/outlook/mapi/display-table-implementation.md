@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 07ad94c423c3be425dc905dc578f55ad2c467a95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e31dd7b25b3abf333505c8bde57f61be7a10901
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766413"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580604"
 ---
 # <a name="display-table-implementation"></a>Implementação da tabela de exibição
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma tabela de exibição é usada para mostrar uma folha de propriedades, uma caixa de diálogo especial é composta de um ou mais páginas com guias Propriedade dedicada ao exibindo e editando possivelmente uma ou mais propriedades. Associados com cada exibição tabela é um [IAttach: IMAPIProp](iattachimapiprop.md) implementação de interface. A implementação de [IMAPIProp](imapipropiunknown.md) mantém os dados de propriedade apresentada na folha de propriedades. 
   

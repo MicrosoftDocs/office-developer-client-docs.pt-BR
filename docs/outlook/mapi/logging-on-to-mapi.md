@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1ae3c47964ff238f57e98e0005a966008192f7c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579925"
 ---
 # <a name="logging-on-to-mapi"></a>Fazer logon no MAPI
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos cliente faça logon no subsistema de MAPI chamando a função **MAPILogonEx** . Para obter mais informações, consulte [MAPILogonEx](mapilogonex.md). **MAPILogonEx** valida a seleção de perfil e a configuração de cada provedor de serviços no perfil. Uma vez configurado, o MAPI inicia os provedores de catálogo de endereços antes de iniciar os provedores de repositório de mensagem. Provedores de transporte são iniciadas quando seus serviços primeiro são necessários. 
   

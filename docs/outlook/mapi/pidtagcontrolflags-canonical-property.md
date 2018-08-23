@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f6947efe1aa6866efb7a5a3d96262d021c68013f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc47dc88ed0618bcdf46c309776d5a871d2128e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769130"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580737"
 ---
 # <a name="pidtagcontrolflags-canonical-property"></a>Propriedade canônica PidTagControlFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que controlam o comportamento de um controle usado em uma caixa de diálogo construída a partir de uma tabela de exibição.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0dfec4b716a4831aeebb9d558223d919b17cb2d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63c1ca2277a65698ee341c56c27cb451d2b1d87c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768195"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574045"
 ---
 # <a name="optional-report-message-properties"></a>Propriedades opcionais da mensagem de relatório
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 As seguintes propriedades, às vezes, aparecem com as mensagens de relatório:
   

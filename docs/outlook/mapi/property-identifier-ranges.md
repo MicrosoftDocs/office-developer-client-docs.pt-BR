@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aee199cbbd05606d20378023f103fa122f1457f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 479e5abda9137ddaedcabb8d914bc038ddf200f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770189"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581101"
 ---
 # <a name="property-identifier-ranges"></a>Intervalos do identificador de propriedades
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela a seguir resume os diferentes intervalos para os identificadores de propriedade, descrevendo o proprietário para as propriedades em cada intervalo.
   

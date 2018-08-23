@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2a20f0f48eebe2194bc92afb98a620f9b39bb88d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e641842dd8264c0cd3556c498bd74c77bda32f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767227"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577503"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de objeto de suporte anteriores. 
   

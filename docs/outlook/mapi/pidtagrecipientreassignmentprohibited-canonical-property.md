@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0176485ca9b84260176e3be8ec9c8f42cf755cba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e758380a22531962d0d583935afa996d3c28404
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582347"
 ---
 # <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>Propriedade canônica PidTagRecipientReassignmentProhibited
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica se a adição de destinatários adicionais, quando o encaminhamento da mensagem, é proibida para a mensagem de email.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577713"
 ---
 # <a name="link-to-mapi-functions"></a>Link para funções MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Existem três métodos de vínculo: vinculação implícita, explícita de vinculação e um novo modelo de híbrida usando a biblioteca de Stub de MAPI.
   

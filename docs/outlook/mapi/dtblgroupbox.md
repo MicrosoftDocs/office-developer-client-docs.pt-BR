@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef38893c9ad44556cc9220809b5e407f86fd2642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766478"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576313"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um controle de caixa de grupo que será usado em uma caixa de diálogo construída a partir de uma tabela de exibição.
   

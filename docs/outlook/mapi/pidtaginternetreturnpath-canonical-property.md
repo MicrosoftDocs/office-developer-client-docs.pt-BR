@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aa8a683c0033682aa46944c5cc78503dc1a7d729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3f108ff1053c0aa1046597cd2f11b74bc2dab0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769371"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574171"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>Propriedade canônica PidTagInternetReturnPath
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor do campo de cabeçalho do caminho de retorno de uma mensagem email extensões MIME (Multipurpose Internet). O endereço de email do remetente da mensagem.
   

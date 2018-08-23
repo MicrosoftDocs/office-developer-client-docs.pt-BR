@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dffc8093200d5fb65e44236bda0eaca63a580cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716550a847aff868d01cb67356409537df83b6d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766268"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575928"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Calcula o número de bytes a ser alocada para uma nova estrutura de [SPropTagArray](sproptagarray.md) que contém um número especificado de marcas de propriedade. 
   

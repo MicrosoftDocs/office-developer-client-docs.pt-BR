@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1749c155693529836b20194f9c60763fdd466357
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: deb215e6c54a08a46f071158d2bf2422561d7c80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580212"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Propriedade canônica PidTagEndDate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a data e a hora de um compromisso como gerenciado por um aplicativo de agendamento. 
   

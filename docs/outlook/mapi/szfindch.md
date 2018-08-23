@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b517eaffa56001d8c414888ee6cbc8ec4f49cf66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8426f782eb5fbf8a125833c51b25ccd605acbd64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573520"
 ---
 # <a name="szfindch"></a>SzFindCh
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Localiza a primeira ocorrência de um caractere em uma cadeia de caracteres terminada em nulo. 
   

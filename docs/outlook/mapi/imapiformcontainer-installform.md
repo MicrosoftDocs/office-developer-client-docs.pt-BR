@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d329d3a14b6026d0bd62df9feba6ccff251e4151
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd7bc8f051e9584fc63f22bdbaf9696c2e4d15a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580933"
 ---
 # <a name="imapiformcontainerinstallform"></a>IMAPIFormContainer::InstallForm
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Instala um formulário em uma biblioteca de formulários.
   

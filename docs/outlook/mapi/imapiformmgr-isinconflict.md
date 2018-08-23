@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d8f28a6b0a1633b0060f02af7e38ef058527eb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 329771bf79e30f07c9de0a311aa2a836ca507c38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767042"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580030"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Determina se um formulário pode lidar com conflitos sua própria mensagem. Uma mensagem está em conflito se ele tiver sido editado simultaneamente por mais de um usuário. Isso pode acontecer às mensagens em pastas públicas.
   

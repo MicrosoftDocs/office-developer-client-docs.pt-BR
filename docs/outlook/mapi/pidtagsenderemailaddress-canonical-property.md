@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6e1531ac-489b-4224-921a-8fd13ace9497
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b97446c946c31ca8b55ce6c412814b48f4ee363c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8efceed4910d057d6dcca742dfe9b8f0010c968e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578672"
 ---
 # <a name="pidtagsenderemailaddress-canonical-property"></a>Propriedade canônica PidTagSenderEmailAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o endereço de email do remetente da mensagem.
   

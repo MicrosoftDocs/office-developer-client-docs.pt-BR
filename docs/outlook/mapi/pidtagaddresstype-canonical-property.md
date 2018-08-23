@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 986719d2-8837-46b4-8d04-c24508f5e19a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5398519dc841aa72f2c2655aac6c9f7acba7f335
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 464121a969beea06294049985052eb150651765f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580086"
 ---
 # <a name="pidtagaddresstype-canonical-property"></a>Propriedade canônica PidTagAddressType
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tipo de endereço de email de mensagens do usuário, como o SMTP.
   

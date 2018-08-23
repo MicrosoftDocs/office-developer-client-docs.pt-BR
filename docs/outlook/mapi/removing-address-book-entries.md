@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1fb7224e110bbee6844cf2820782aac8be213ba3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c5d7a2114f4a85b9f63cd778e899a83d335ff45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581276"
 ---
 # <a name="removing-address-book-entries"></a>Removendo entradas do catálogo de endereços
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Método de [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) do seu contêiner é chamado para remover um ou mais destinatários. **DeleteEntries** tem dois parâmetros: uma matriz de identificadores de entrada que representa os destinatários a ser excluído e um valor de flags reservado. Excluir um destinatário afeta o índice de conteúdo de seu contêiner; Além de excluir o destinatário, seu contêiner deve excluir a linha da tabela de conteúdo que representa o destinatário. Quando a linha foi removida da tabela, seu contêiner deve emitir uma notificação de tabela para cada cliente registrado. 
   

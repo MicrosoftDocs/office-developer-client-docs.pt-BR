@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 482a5306d2d06db9ecc01c88affbf9492469ec3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 375a98477fe45d60a7aa39ef0bfb8fad8fe0e8d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575417"
 ---
 # <a name="pidtaginferenceenabled-canonical-property"></a>Propriedade canônica PidTagInferenceEnabled
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Propriedade controlando log inferência de Store.
   
@@ -27,7 +27,7 @@ Propriedade controlando log inferência de Store.
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_INFERENCES_ENABLED  <br/> |
 |Identificador:  <br/> |0x3439000  <br/> |
-|Tipo de dados:  <br/> |Booliano  <br/> |
+|Tipo de dados:  <br/> |Boolean  <br/> |
 |Área:  <br/> |Armazenamento de mensagens  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados

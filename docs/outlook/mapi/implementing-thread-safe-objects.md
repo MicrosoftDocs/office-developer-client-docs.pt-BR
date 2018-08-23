@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3c911694-b953-4d35-9a3a-22c17cfd79bc
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8c8c89f3626d54f04896ad54de5d7e480dd9b568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f8235caceec8b27b2b14fac26d51e9e31ce1024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579771"
 ---
 # <a name="implementing-thread-safe-objects"></a>Implementar objetos livres de threads
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Com os objetos que são retornados de chamadas de métodos de interface diretamente, é responsabilidade do provedor para garantir a segurança do thread. Com objetos de retorno de chamada, é responsabilidade do aplicativo cliente.
   

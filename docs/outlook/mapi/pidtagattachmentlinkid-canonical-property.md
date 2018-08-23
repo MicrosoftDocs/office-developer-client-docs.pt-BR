@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5d0daae7-248d-459f-9d96-cb949b86f590
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e467fb7c05a647265d007429930ee522fd77b2fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a6071674dce97215bbeb7027752bfcedc94ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578070"
 ---
 # <a name="pidtagattachmentlinkid-canonical-property"></a>Propriedade canônica PidTagAttachmentLinkId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o tipo de objeto de mensagem à qual este anexo está vinculado.
   

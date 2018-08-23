@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 127770c04e6d77932a49d4f447b0bf109afcc194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769299"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580415"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Propriedade canônica PidTagFormMessageBehavior
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se uma mensagem deve ser composta na pasta atual. 
   

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 277505beb11dbc2b32b7e970c2bcf2a34dbdf00b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766709"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581605"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Obtém o caminho de uma versão específica de MAPI para o cliente de email padrão
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico inclui um exemplo de código em C++ que mostra como obter o caminho de uma versão específica de MAPI que é usado pelo cliente de email padrão em um computador. Clientes de email MAPI tem uma opção para especificar no registro uma DLL personalizada que a biblioteca de stub MAPI deve carregar e expedir MAPI chamadas para. A chave do registro para definir para essa DLL personalizada para um cliente de email padrão é **MSIComponentID**, sob a chave **HKLM\Software\Clients\Mail** do cliente de email padrão. A função [FGetComponentPath](fgetcomponentpath.md) , exportada-los por biblioteca MAPI stub, Mapistub, pode retornar o caminho para a versão personalizada do MAPI especificado pela chave do registro **MSIComponentID** . 
   

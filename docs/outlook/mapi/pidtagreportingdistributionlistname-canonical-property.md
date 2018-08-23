@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4d1460ff7e4451e455eb75de50301ae26fa3bd77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3006d1852dc47b942f87bd6cf3ffcd14f53b6632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577734"
 ---
 # <a name="pidtagreportingdistributionlistname-canonical-property"></a>Propriedade canônica PidTagReportingDistributionListName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição de uma lista de distribuição em que o sistema de mensagens oferece um relatório.
   

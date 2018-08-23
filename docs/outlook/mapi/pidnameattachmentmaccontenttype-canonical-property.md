@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d345324d-83a1-40e7-a6af-16cfc67a4932
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8f9ad3a6e84d4045d157a18989f62ea6db2fb136
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e98d8f3c94c119477c48e15788cf981a2f4f8f89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768794"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581262"
 ---
 # <a name="pidnameattachmentmaccontenttype-canonical-property"></a>Propriedade canônica PidNameAttachmentMacContentType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de campo de cabeçalho de tipo de conteúdo [RFC3282] anexos que são usadas pelos clientes de email baseada em Macintosh.
   

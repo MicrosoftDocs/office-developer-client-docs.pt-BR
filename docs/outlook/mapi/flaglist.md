@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2cf5ff69e8453b2da26fd5044823ddf4f99a9f45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582095"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista dos sinalizadores usados para indicar o status das entradas de endereço durante o processo de resolução de nome.
   

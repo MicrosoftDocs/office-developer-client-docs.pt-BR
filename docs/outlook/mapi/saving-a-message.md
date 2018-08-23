@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581318"
 ---
 # <a name="saving-a-message"></a>Salvar uma mensagem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes de uma mensagem é salva, os clientes geralmente chamar [IMAPIProp::SetProps](imapiprop-setprops.md) método da mensagem para definir algumas propriedades além de propriedades de texto da mensagem, as propriedades de anexo, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) e propriedades associado com a lista de destinatários.
   

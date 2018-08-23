@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e1a343486e78daae45ca7315ba4d29d44b688bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f33443531e5affd358669225044b2d63c909aff1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575053"
 ---
 # <a name="pidlidtasklastdelegate-canonical-property"></a>Propriedade canônica PidLidTaskLastDelegate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Os nomes de usuário que mais recentemente atribuído ou foi atribuído a tarefa. 
   

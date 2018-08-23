@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f7e91f5-63a8-4529-9fb4-6275027af145
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 195cc6454dd5d29839d36e3cf206b0354d5761a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f696fcbb65a4210160c8e14a31f3db1b2c220b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768791"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576804"
 ---
 # <a name="pidnameapplicationname-canonical-property"></a>Propriedade canônica PidNameApplicationName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o aplicativo que pode abrir o arquivo que está anexado ao documento.
   

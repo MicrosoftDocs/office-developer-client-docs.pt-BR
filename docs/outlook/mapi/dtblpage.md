@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0caff8a6c7834bdd01ef4be64805bde66dd6d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766494"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578819"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma página com guias que será usada em uma caixa de diálogo que é construída a partir de uma tabela de exibição. 
   

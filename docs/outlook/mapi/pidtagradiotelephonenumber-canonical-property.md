@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5906b296f3a3898a27944373cbbc9c48e3483eb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 777fdc66890bf245702304c0db81becf6e6c4147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580289"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>Propriedade canônica PidTagRadioTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de radiofone do destinatário.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 54b2dece31937b1ff233d4d1e7d8bbc198bfe118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3b20c9fb4b4f1a26eb4ed1a9a498bd56a915a70
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579778"
 ---
 # <a name="installing-a-form-into-a-library"></a>Instalar um formulário em uma biblioteca
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O Gerenciador de formulário MAPI padrão fornecido com o SDK do Windows não fornece uma interface de usuário de instalação formulários nas várias bibliotecas de formulário. Dessa forma, você precisará criar um aplicativo pequeno — ou detalhados de conjunto de instruções — que os usuários podem usar para instalar o formulário.
   

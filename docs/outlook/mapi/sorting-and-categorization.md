@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 5e63d276d25a26f937e9b4f44575fea1030f52d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581528"
 ---
 # <a name="sorting-and-categorization"></a>Classificação e categorização
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Classificar uma tabela coloca as linhas em uma ordem que faz sentido para seu visualizador. Por exemplo, um visualizador pode preferir ver o índice de conteúdo de uma pasta classificada por assunto da mensagem, para que todos os threads de uma conversa sejam juntos enquanto outro visualizador pode querer as mensagens classificadas pelo nome do remetente. Uma tabela instâncias recém-criadas não é necessariamente classificada em alguma ordem específica. 
   

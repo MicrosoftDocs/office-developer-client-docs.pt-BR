@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bbf09cb841c633b6f13ae12ec20e120ea3fd7ef7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b967b885ef35c04d52699c289dd60248e9abd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769614"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581080"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propriedade canônica PidTagOriginCheck
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor binário de verificação que permite que um destinatário de relatório de entrega verificar a origem da mensagem original.
   

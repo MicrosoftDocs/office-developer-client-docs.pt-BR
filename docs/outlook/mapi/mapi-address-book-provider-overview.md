@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4bd64aadd5fc18ba79a8717a5c58df72cd3695ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 855b145bcca8007601eb8e841665306d4c58982f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576558"
 ---
 # <a name="mapi-address-book-provider-overview"></a>Visão geral de provedor de catálogo de endereços MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 No catálogo de endereços provedores alça acesso às informações de diretório. Informações sobre o diretório dados consiste de dois tipos de destinatários da mensagem: individuais de usuários e grupos de usuários de mensagens que são geralmente resolvidos juntos em listas de distribuição de mensagens. Dependendo do tipo de destinatário e o provedor de catálogo de endereços, há uma ampla gama de informações que podem ser disponibilizadas. Por exemplo, todos os provedores de catálogo de endereços armazenam o nome, endereço e tipo de endereço do destinatário.
   

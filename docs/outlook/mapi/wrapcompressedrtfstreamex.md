@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bdb879a2412c817b7b314cd7bf6de1fa4c9f40d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572715"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descompacta o corpo de uma mensagem de email que está no compactado Rich Text Format (RTF), indica o formato do fluxo descompactado, opcionalmente converte o fluxo descompactado em seu formato nativo e retorna o fluxo de descompactados ou o convertido stream nativo.
   
