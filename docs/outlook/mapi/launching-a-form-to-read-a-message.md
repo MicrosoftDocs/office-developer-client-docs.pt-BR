@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 675de7eeda534d8761887cdcb6d5c94a209ca18b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9166090321aa24e35fe1c82908aec0c403095cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593736"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>Iniciar um formulário para ler uma mensagem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementadores de servidor do formulário devem esperar que a seguinte sequência de chamadas de método para seus servidores do formulário e seus objetos de formulário quando um aplicativo cliente carrega uma mensagem:
   

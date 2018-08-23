@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a3a83153dc799154edc6a46946682684cad8a09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769082"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593769"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propriedade canônica PidTagContainerClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma cadeia de caracteres de texto descrevendo o tipo de uma pasta. Embora esta propriedade é ignorada em geral, as versões do Microsoft® Exchange Server antes do Gerenciador de caixa de correio do Exchange Server 2003 esperam essa propriedade estar presentes.
   

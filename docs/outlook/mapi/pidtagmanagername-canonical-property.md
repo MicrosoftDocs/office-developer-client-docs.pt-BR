@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 564c01fa-a0df-4095-8e87-e75a409c67eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e623691d9e6a6c50dc9e513bdb5ca35478ed4db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ca4c4a9c81119577190ab802670d0ce0f1d3752
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769443"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594345"
 ---
 # <a name="pidtagmanagername-canonical-property"></a>Propriedade canônica PidTagManagerName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome do gerente do destinatário. 
   

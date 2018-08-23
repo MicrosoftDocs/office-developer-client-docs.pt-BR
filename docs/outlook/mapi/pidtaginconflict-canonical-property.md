@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e83c05c6-a7c0-486c-a112-58a39255767a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 573e0ba37d4117d85193933a3a5045b5060fbd3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33bf77029207e2d8d734d5c49735262135896660
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593722"
 ---
 # <a name="pidtaginconflict-canonical-property"></a>Propriedade canônica PidTagInConflict
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE quando o anexo representa uma réplica alternativa.
   

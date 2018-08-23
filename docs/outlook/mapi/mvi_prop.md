@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f8f58ee18095dec8a222ae8b5a19cbefbaafa663
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3d0d79d190b318d36fd9be8a3ec39d6aa7ad29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593974"
 ---
 # <a name="mviprop"></a>MVI_PROP
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define o MVI_FLAG para uma propriedade especificada. 
   

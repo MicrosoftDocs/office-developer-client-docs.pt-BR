@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e7b3774d8dce446f0e87f041f11dac607f464680
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357ace3267f22d751a20a12c96f108ee2f8ae1e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770594"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595199"
 ---
 # <a name="tchar"></a>TCHAR
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma cadeia de caracteres Win32 que pode ser usada para descrever as cadeias de caracteres ANSI, Unicode ou DBCS. Para plataformas ANSI e DBCS, TCHAR é definida da seguinte maneira:
   

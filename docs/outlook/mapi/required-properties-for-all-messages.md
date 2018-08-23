@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ebe4622ec9ed25be5ee8a736ed15e2f230ff05e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 068bd55761ffd6b10761412314de97791c016f9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770262"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594324"
 ---
 # <a name="required-properties-for-all-messages"></a>Propriedades necessárias para todas as mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela a seguir descreve as propriedades que os clientes podem esperar para definir ou consulte suportados em mensagens de todas as classes.
   

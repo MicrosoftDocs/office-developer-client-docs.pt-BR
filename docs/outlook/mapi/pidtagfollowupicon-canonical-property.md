@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39840f27d67daca625daea08555ab89d5a362e63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fa96736b5404d84c6ab48851b916c5ab987ae2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593918"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>Propriedade canônica PidTagFollowupIcon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a cor de sinalizador do objeto de mensagem.
   

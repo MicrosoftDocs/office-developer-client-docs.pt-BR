@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 9c1fd58a31481d8666ca931408c16bd73aaba660
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766525"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594541"
 ---
 # <a name="event-notification-in-mapi"></a>Notificação de evento em MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notificação de evento é a comunicação de informações entre dois objetos MAPI. Por meio de um dos objetos, um provedor de cliente ou serviço registra para a notificação de uma alteração ou erro, chamados de um evento, que pode ocorrer no outro objeto. Depois que o evento ocorre, o primeiro objeto é notificado da alteração ou erro. O objeto que receber a notificação é chamado o coletor de eventos advise; o objeto responsável por notificação é chamado a fonte advise.
   

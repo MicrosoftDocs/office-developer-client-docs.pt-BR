@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28afa338b37e747ed441a8767981b7e63808e741
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60c5d7e980d1dc4d4263a2be2267008dbee1fd4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766787"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594695"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Força expedir de todas as notificações na fila. 
   

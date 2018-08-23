@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 74869293215b86c69ab4e0b1337be6014419fa3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c14d58e8a03633615798b50b256b9cc54fcc4f4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766357"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594730"
 ---
 # <a name="creating-a-profile-by-using-custom-code"></a>Criar um perfil usando um código personalizado
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se você optar por escrever código para criar um perfil, certifique-se de que entendeu como entradas de perfil e o tipo e a quantidade de informações que é necessária para cada entrada de pedidos. As implicações de ordenação entradas em um perfil é explicada com [Perfis MAPI](mapi-profiles.md).
   

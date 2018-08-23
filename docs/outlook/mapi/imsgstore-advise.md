@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6a315cef8263f7e241a815a0f054dc3174d88fa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767481"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593715"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Registra para receber notificações de eventos especificados que afetam o armazenamento de mensagens.
   

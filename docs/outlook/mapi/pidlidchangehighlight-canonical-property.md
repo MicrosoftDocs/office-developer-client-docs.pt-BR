@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b5f806f838d617a6265279ee7e58dc2e28a662b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c38d1de1f2631277645ed10eb960ffc1956dfb6f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594709"
 ---
 # <a name="pidlidchangehighlight-canonical-property"></a>Propriedade canônica PidLidChangeHighlight
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica um campo de bit que indica como o objeto de reunião é alterada.
   

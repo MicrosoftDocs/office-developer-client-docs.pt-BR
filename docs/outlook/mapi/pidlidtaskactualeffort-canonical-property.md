@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0782191010341019ebea71ebf545dec490521520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593666"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Propriedade canônica PidLidTaskActualEffort
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o número de minutos que o usuário realizou uma tarefa.
   

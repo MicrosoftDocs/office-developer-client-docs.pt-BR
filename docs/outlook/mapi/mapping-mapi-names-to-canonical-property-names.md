@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e82dee1c0acea4e84e15cfe5c6993f9110246bd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ecf98d1e6b267d212d23959cdbde0d53f8c961a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768067"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594688"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>Mapear nomes MAPI para nomes de propriedades canônicas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico mapeia cada propriedade MAPI ao nome da propriedade canônico correspondente. O tópico contém três tabelas: uma tabela para propriedades nomeadas com identificadores numéricos, uma segunda tabela para propriedades nomeadas com identificadores de cadeia de caracteres e uma terceira tabela para propriedades marcadas.
   

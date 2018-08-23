@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1ecc80feec2b0a86f35d03f1ca4f75ea9ff094e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594095"
 ---
 # <a name="form-verbs"></a>Verbos de formulário
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Normalmente, a interface do usuário de um formulário oferece itens de menu ou controles que permitem que os usuários podem fazer algum tipo de ação com o formulário. É a função do servidor de formulário para lidar com essas ações do usuário. Esta interface é implementada por meio de APIs do Win32 padrão; escrever um é como escrever outras interfaces para programas de Win32 regulares.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3a468bb6-c4c2-42ee-8283-492196872ca0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a4015937dd2f3dc77cb3f549a0a70027b4fcea55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82328e285d0bf77ced074ba19aed306a27cea574
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594772"
 ---
 # <a name="pidlidemail3emailaddress-canonical-property"></a>Propriedade canônica PidLidEmail3EmailAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o terceiro endereço de email do contato.
   

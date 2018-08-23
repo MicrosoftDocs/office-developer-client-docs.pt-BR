@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d435a65a-de01-4fb0-bc54-a87a2c4462ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2e8ed4af81de6e48af3e427f2d2d2f94572d241f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f3ae69243da185430836903da9e7b0644c5db90
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769349"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594779"
 ---
 # <a name="pidtaginreplytoid-canonical-property"></a>Propriedade canônica PidTagInReplyToId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor da propriedade **PR_INTERNET_MESSAGE_ID** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) da mensagem original.
   

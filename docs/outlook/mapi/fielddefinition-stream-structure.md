@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594506"
 ---
 # <a name="fielddefinition-stream-structure"></a>Estrutura de fluxo de FieldDefinition
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma estrutura de fluxo de FieldDefinition contém a definição de campo de um campo definido pelo usuário ou um conjunto de definições de ligação de dados de um campo interna.
   

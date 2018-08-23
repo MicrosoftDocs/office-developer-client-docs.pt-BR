@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bce70d891bc33dcddb94fc05992c09991c6cdc63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33d811af0fc9e06902750075ba39bfb6ca88903f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767310"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593708"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Passa o provedor de armazenamento como um campo na estrutura MAPISIB durante uma chamada para [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). O provedor de armazenamento usa essa interface para fornecer comentários para o Microsoft Outlook sobre o status da sincronização.
   

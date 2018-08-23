@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1fd711683ff476ef5d381bca2f9db6bc25b07c68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767325"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595297"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recolhe uma categoria de tabela expandida, removendo qualquer títulos de nível inferior e linhas da folha que pertencem à categoria da visualização de tabela.
   

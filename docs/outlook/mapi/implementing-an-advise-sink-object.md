@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b457fce208923ce01686812f20031e365842ccd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593673"
 ---
 # <a name="implementing-an-advise-sink-object"></a>Implementar um objeto de coletor de aviso
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um cliente pode implementar seus próprios objetos de coletor de eventos advise ou usar uma função do utilitário, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** cria um objeto de coletor de eventos advise com uma implementação do **OnNotify** que chama uma função de retorno de chamada. 
   

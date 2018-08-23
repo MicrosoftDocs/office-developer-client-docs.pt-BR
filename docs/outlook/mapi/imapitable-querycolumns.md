@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 96fd317c28d95335a3acc5d0603298f2fe8345e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593743"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna uma lista das colunas da tabela.
   

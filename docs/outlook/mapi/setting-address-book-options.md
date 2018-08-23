@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c64f84da6bece809176bf67985b6f55ce92414a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d93fde7d654f0ee56dcda9f2fb69ad622e476dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770381"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593617"
 ---
 # <a name="setting-address-book-options"></a>Configurar opções de Catálogo de Endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Você pode definir três propriedades que descrevem as opções para usar o catálogo de endereços:
   

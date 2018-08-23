@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: Este tópico descreve os pré-requisitos para instalar com êxito um provedor do Outlook Social Connector (OSC) e a instalação verifica se o instalador do seu provedor deve ser concluídas para funcionar corretamente.
-ms.openlocfilehash: cb8ed24db28c3b0e945c4db4b2daa4a2470d7dd5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593995"
 ---
 # <a name="installation-checklist"></a>Lista de verificação da instalação
 
@@ -90,7 +90,7 @@ O procedimento a seguir descreve as verificações de instalação descritas na 
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      A ID do componente qualificado é um GUID que fornece um método de único nível indireção, semelhante a um ponteiro. Para obter mais informações sobre o Windows Installer, consulte o [roteiro para a documentação do Windows Installer](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx).
+      A ID do componente qualificado é um GUID que fornece um método de único nível indireção, semelhante a um ponteiro. Para obter mais informações sobre o Windows Installer, consulte o [roteiro para a documentação do Windows Installer](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. Se o componente qualificado especificado existir, uma versão do OSC é instalada. Vá para a etapa 5 para encontrar a localidade da interface de usuário do Outlook atual para se preparar para instalação da versão mais recente do OSC.
       

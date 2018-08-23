@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office para iOS fornece uma solução extensível que permite a integração com aplicativos de terceiros. Este artigo descreve como você pode integrar com o Office do seu aplicativo iOS passando os usuários de seu aplicativo para Office, e, em seguida, retornando-los ao seu aplicativo.
-ms.openlocfilehash: 2ba8e1a157953705b60ff0cac7d62bafade0c469
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66106c51706a9ab1cd0e36b51340e65ccb807902
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595325"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Integração do Office com aplicativos do iOS
 
@@ -42,7 +42,6 @@ Use o método [canOpenURL](https://developer.apple.com/library/ios/documentation
 |**Aplicativo do Office**|**Identificador iTunes**|
 |:-----|:-----|
 |Excel  <br/> |[https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4) <br/> |
-|OneNote (iPad)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp;uo=4) <br/> |
 |OneNote (iPhone)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4) <br/> |
 |PowerPoint  <br/> |[https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4) <br/> |
 |Word  <br/> |[https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp; uo = 4](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4) <br/> |

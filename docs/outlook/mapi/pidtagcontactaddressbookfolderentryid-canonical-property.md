@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9fac2c315b461bd08ba9305706842b667cd99eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c98d168ab0f3092ad3f4ada89b21fa85372b9537
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593925"
 ---
 # <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a>Propriedade canônica PidTagContactAddressBookFolderEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um identificador para a pasta Contatos no armazenamento de mensagens em que os usuários de email são mantidos. 
   

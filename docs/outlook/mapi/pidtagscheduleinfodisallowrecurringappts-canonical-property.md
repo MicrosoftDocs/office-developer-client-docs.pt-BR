@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 61e082dd-f5bc-479b-990a-c9c0360f883e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f5f3feb5b3186f8d0239558aa410c7f71bdf54f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19e2cc0b95aaefbca1ec618c55b8d397de4d340e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769953"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593687"
 ---
 # <a name="pidtagscheduleinfodisallowrecurringappts-canonical-property"></a>Propriedade canônica PidTagScheduleInfoDisallowRecurringAppts
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE quando a resposta automática para compromissos recorrentes recusar.
   

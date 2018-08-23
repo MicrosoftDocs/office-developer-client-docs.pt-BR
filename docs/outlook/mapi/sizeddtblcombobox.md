@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770424"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593652"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria uma estrutura nomeada que inclui uma estrutura [DTBLCOMBOBOX](dtblcombobox.md) para descrever um controle de caixa de combinação e o número máximo de caracteres que podem ser inseridos no controle de edição associado. 
   

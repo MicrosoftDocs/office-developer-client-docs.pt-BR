@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 645ea2be2f690701780932e891da3dc32bb1716f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769142"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593939"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriedade canônica PidTagConversionProhibited
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se as conversões de mensagem estão proibidas por padrão para o usuário de mensagens associado.
   

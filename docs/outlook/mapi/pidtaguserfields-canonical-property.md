@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5abfd9c98c5a83ca45792f094d0c9573b8affb85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a584c6beec0f06ab4cc6bd95f4611d1f30189a8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770145"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595150"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>Propriedade canônica PidTagUserFields
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome, tipo de dados e outras informações sobre um campo definido pelo usuário.
   

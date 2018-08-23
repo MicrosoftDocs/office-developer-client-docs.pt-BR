@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d059f913-3d61-4bec-8215-5b07f0fba488
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ccee84b8e548ee656366d07c81927a701e9b70f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d262c17ed433222cbb037ab6e86120d300df93a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769308"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594058"
 ---
 # <a name="pidtagfreebusypublishstart-canonical-property"></a>Propriedade canônica PidTagFreeBusyPublishStart
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a hora de início do intervalo de publicação.
   

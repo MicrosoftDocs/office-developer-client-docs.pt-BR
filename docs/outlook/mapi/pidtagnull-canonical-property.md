@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 55db507055692c9e929b0125abf719d8c03ac967
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595346"
 ---
 # <a name="pidtagnull-canonical-property"></a>Propriedade canônica PidTagNull
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa um valor nulo ou configuração de uma propriedade ou reserva espaço de matriz.
   

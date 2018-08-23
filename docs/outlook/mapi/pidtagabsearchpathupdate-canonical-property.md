@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4886749bf65d8bbb603d4b7d5fa38ad56b72ab97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2481ad01d8777783581663ead64ad3797eb8eb1a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594380"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Propriedade canônica PidTagAbSearchPathUpdate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de identificadores de entrada de contêineres de catálogo de endereços explicitamente configuradas pelo usuário. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c2e6600af66f3dab8ff0fbb5442a1354687a3cbb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5b2d7db745cc270c0be7ee2184e86c6a4f97aad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767530"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594296"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. MAPI refere-se essa chamada para um provedor de serviço somente se os identificadores exclusivos (UIDs) em ambos os identificadores de entrada a ser comparada são manipulados por esse provedor.
   

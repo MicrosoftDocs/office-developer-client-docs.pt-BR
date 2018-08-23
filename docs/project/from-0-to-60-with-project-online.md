@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Um desenvolvedor de aplicativos pode personalizar um site Project Online (SharePoint hospedado) usando aplicativos autônomos e/ou complementos do projeto. Uma ampla gama de aplicativos é possível que variam de endereçamento às necessidades das pessoas envolvidas em um projeto para funções de suporte PMO, como um destes procedimentos:'
-ms.openlocfilehash: c50ed12e9f1127f6313a02db4d84a151778e17b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594527"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Introdução rápida ao Project Online
 
@@ -83,7 +83,7 @@ Você pode baixar e executar a amostra em algumas etapas simples:
     
    Project Online examina o escopo de aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project Online. Se o acesso negado explicitamente em uma ou ambas as configurações, Project Online nega acesso às informações. Caso contrário, o acesso é concedido.
     
-3. Habilite sideloading em seu site. Consulte o artigo [Configurando o Project Online para o desenvolvimento de aplicativos ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)para obter mais informações. 
+3. Habilite [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) em seu site.  
     
 4. Compile o projeto.
     
@@ -101,7 +101,7 @@ Um exemplo do ambiente de desenvolvimento do Windows para esse tipo de aplicativ
     
 - .NET framework 4.0 ou mais recente
     
-- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (para chamadas do CSOM) 
+- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas do CSOM) 
     
 - Uma linguagem de programação, como c# 
     
@@ -115,7 +115,7 @@ Você pode executar o exemplo em algumas etapas:
     
    Project Online examina o escopo de aplicativo do suplemento e as permissões de usuário para controlar o acesso às informações no host do Project Online. Se o acesso negado explicitamente em uma ou ambas as configurações, Project Online nega acesso às informações. Caso contrário, o acesso é concedido.
     
-3. Habilite sideloading em seu site. Consulte o artigo [Configurando o Project Online para o desenvolvimento de aplicativos ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)para obter mais informações. 
+3. Habilite [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) em seu site. 
     
 4. Compile o projeto.
     
@@ -133,7 +133,7 @@ Um exemplo do ambiente de desenvolvimento do Windows para esse tipo de aplicativ
     
 - .NET framework 4.0 ou mais recente
     
-- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (para chamadas do CSOM) 
+- [Pacote de CSOM do SharePoint Online](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (para chamadas do CSOM) 
     
 - Uma linguagem de programação, como c# 
     
@@ -167,6 +167,6 @@ Cada aplicativo de amostra possui um artigo para explicar os destaques dos traba
     
 ## <a name="see-also"></a>Confira também
 
-Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](http://dev.office.com/project.aspx).
+Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
     
 

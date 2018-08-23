@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 649046aa48f293caa5bd71cc670481b5c205459a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdd5d01b96c9ea756ee64f113ccb5119a9693668
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594464"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define uma função de retorno de chamada invocada pelo Assistente de perfil para permitir que um provedor de serviços reajam a eventos quando estão sendo mostradas folhas de propriedades ou a páginas do provedor do usuário. 
   

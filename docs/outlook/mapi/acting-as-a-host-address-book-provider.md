@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cf52062eacbd13b45087df9d8558bffd43ccd744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0acb88eee6addc0347f5281e5fbe5070bad0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595402"
 ---
 # <a name="acting-as-a-host-address-book-provider"></a>Atuar como um provedor de catálogo de endereços de hospedagem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de host é um provedor de catálogo de endereços que inclui os destinatários de outros provedores em seus recipientes e baseia-se na implementação dos destinatários pelos outros provedores parcialmente controlar sua manutenção. Um provedor de host usa os identificadores de modelo desses destinatários externos para associar os dados para que esses destinatários ao código no provedor estrangeiro. Esse processo de associação é iniciado quando o seu provedor recupera a propriedade **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de um destinatário e o passa em uma chamada para [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
   

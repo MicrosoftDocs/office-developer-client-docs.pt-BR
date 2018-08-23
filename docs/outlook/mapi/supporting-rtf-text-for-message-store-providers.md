@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d7d64c8a7d4df4898502f4574ca879c736547b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e65ebd3ea485ca54978d622e8aaf093dc5eff74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770562"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594065"
 ---
 # <a name="supporting-rtf-text-for-message-store-providers"></a>Suporte a texto RTF para provedores do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Alguns aplicativos de cliente permitem que os usuários utilizem o formato Rich Text (RTF) texto em suas mensagens. Se sua mensagem armazenar as necessidades do provedor para dar suporte ao texto RTF em mensagens, ele precisa lidar com a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), além da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Basicamente, isso significa armazenar ambas as propriedades e certificando-se de que **PR_BODY** contém uma versão de texto sem formatação do texto em **PR_RTF_COMPRESSED**. A função [RTFSync](rtfsync.md) é útil para essa finalidade. 
   

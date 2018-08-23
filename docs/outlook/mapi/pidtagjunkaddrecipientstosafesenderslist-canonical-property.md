@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8c104af106a885f42f8063bcf5fb55d654f2688e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc31d26ba1aa695ad0b64114ac7992e10bb548ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595403"
 ---
 # <a name="pidtagjunkaddrecipientstosafesenderslist-canonical-property"></a>Propriedade canônica PidTagJunkAddRecipientsToSafeSendersList
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se ou não os destinatários de email a ser adicionado à lista de remetentes confiáveis.
   

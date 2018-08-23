@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7008549111f1b914cf2025c8d61ebc07196706fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0242015680f11e5be6ae8ea9987e5778dc7cdf05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767727"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594359"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Processa os componentes individuais de uma mensagem de um por vez em um fluxo de Transport-Neutral Encapsulation Format (TNEF).
   

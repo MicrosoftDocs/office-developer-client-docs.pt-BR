@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 95ef351e4fe906608319a3e25de8f20a44e23d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595129"
 ---
 # <a name="handling-table-notification"></a>Manipulação de notificação de tabela
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como uma alternativa para registrar-se diretamente com um objeto de origem de advise, como uma pasta ou um usuário de mensagens, um cliente pode registrar para notificações sobre um conteúdo ou tabela de hierarquia. Controle de alterações endereço livro entradas, pastas e mensagens por meio de um conteúdo ou tabela de hierarquia pode ser mais simples e mais simples do que por meio de objetos individuais. 
 

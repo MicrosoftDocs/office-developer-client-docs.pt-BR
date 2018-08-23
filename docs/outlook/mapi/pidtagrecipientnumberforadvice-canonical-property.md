@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ac4da2d4082cac632548594411528b7bf1d6dc64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595143"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propriedade canônica PidTagRecipientNumberForAdvice
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa propriedade contém o número de telefone de um destinatário de mensagem a chamada para a execução física de uma mensagem de aviso.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25c606531aa9a7436306a1b87c32aab49fd975db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593911"
 ---
 # <a name="message-store-provider-sample"></a>Exemplo de provedor de repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O provedor de repositórios de PST quebrado automaticamente amostra usa um provedor de pastas particulares (. PST) do arquivo como back-end para armazenar os dados. O provedor de repositórios de PST com quebra deve ser usado em conjunto com a API de replicação. 
   

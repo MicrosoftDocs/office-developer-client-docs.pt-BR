@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 22f17df9347b4744dfe6598e7007469ffb9e5251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595339"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A função de **MAPICrashRecovery** verifica que o estado do arquivo de pastas particulares (. PST) ou o arquivo de pastas Offline (OST) a memória compartilhada. Se a memória estiver em um estado consistente, a função **MAPICrashRecovery** move os dados em disco e impede que o maior acesso de leitura ou gravação até que o processo é encerrado. 
   

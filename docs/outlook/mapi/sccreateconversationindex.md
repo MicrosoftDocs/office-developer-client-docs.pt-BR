@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 43765cddb2f06bfbe58e0a4000c7eadfdc5f3347
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ae0c9f123ade599ca9bc1d3bdea3e9c89cfbc16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770323"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594143"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica onde em um segmento de mensagem uma mensagem pertence. 
   

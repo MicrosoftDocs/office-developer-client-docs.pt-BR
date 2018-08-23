@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fd2575d401aa8a39d6f3b2cd08377b587b430ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cee58299147c9f97ff61a3b8c460125349910637
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594457"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Permite que os servidores de formulário receber notificações de visualizadores de formulário. 
   
