@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f1256616eb73fae5f644e7e79a1b3c3350fa5727
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1357482b372e83be4aab1f77037908cafc0b3f05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569208"
 ---
 # <a name="forms-and-mapi-client-applications"></a>Formulários e aplicativos de cliente MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como todas as mensagens MAPI são instâncias de formulários, os aplicativos cliente exibem e interagem com os objetos de formulário como fazem com outros objetos de mensagem.
   

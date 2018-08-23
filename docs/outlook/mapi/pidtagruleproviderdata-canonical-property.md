@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 054299e6bdf685163bc23678a2070f5d702a4529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4f1070b89971c631fd855a6f84d56b699152421
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769915"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566842"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>Propriedade canônica PidTagRuleProviderData
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma propriedade opaca que o cliente define para o uso exclusivo do cliente. 
   

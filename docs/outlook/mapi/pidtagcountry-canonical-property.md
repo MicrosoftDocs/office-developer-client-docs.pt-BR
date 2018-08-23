@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9470496-fb37-4019-ae1b-b4f93ac55048
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f9c09e963ecbb5ddeecff1ad43e021d8718e0729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14d51b0af4828dc22127322f3f41f28b419e5ea8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769150"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569915"
 ---
 # <a name="pidtagcountry-canonical-property"></a>Propriedade canônica PidTagCountry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome do país do destinatário. 
   

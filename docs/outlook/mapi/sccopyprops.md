@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 979415f1d792f92e593a7073cc84cfd6ba832b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb3b3b3c9c2e9cffb77febf9c96baed40ce3f9e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566219"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 As propriedades definidas por uma matriz de estruturas de [SPropValue](spropvalue.md) para um novo destino de cópias. 
   

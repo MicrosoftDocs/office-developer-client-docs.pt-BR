@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5859d94f85ca3fe7a0c738ed596d3c1a11fb2e8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767785"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566156"
 ---
 # <a name="managing-memory-in-mapi"></a>Gerenciando memória nos MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Saber como e quando alocar e liberar memória é uma parte importante da programação com MAPI. MAPI fornece funções e macros que seu provedor de cliente ou serviço pode usar para gerenciar memória de maneira consistente. As três funções são:
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 562fff0654def6cf2f05aa5f0b95a4df243c7abf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7be2c8176e890e71963fa9c58ebea6b5bb510fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570076"
 ---
 # <a name="cbnewmtsid"></a>CbNewMTSID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Calcula o número de bytes que deve ser alocada para uma nova estrutura [MTSID](mtsid.md) com um identificador de agente de transferência de mensagem de um tamanho especificado. 
   

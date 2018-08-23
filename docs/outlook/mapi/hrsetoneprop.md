@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8af0d5c6eaff0c1e01e01c24c46f299e0c637f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31d2be027ef3b58fdd44e71c922677164d352feb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766812"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569124"
 ---
 # <a name="hrsetoneprop"></a>HrSetOneProp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define ou altera o valor de uma única propriedade em uma interface de propriedade, ou seja, uma interface derivada [IMAPIProp](imapipropiunknown.md). 
   

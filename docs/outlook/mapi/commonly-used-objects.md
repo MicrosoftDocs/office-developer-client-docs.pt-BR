@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: bc65aa379b6a6881dcee19d9b5cce06652f97771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766281"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567724"
 ---
 # <a name="commonly-used-objects"></a>Objetos usados com frequência
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Informações sobre objetos estão documentadas em várias seções da referência do MAPI do Microsoft Outlook 2013. Como quase todos os objetos MAPI exponham uma única interface MAPI, a abordagem é tratar de objetos e as interfaces que eles expor como sinônimos.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5894b98c-7d42-416d-b1b7-fb9a18abaaa3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f8d72efa0d6f913ce4263549a5decb3b7d919347
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2da3166e90c5988fdffa6ff736b1fb511794e798
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568536"
 ---
 # <a name="pidlidcurrentversion-canonical-property"></a>Propriedade canônica PidLidCurrentVersion
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um long que representa o número de compilação do aplicativo do Outlook para um item.
   

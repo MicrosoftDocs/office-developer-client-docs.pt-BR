@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ee60e64559a0b4163074ddb62ed72c4600c8e03d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dba7bd1fb7b0ca9bc23dbc45e07f44d0cc0dc8fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766437"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568137"
 ---
 # <a name="displaying-table-rows-and-columns"></a>Exibir linhas e colunas da tabela
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Uma página de propriedades pode ser usada por um provedor de catálogo de endereços para permitir que os usuários definam novos destinatários de email. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 588a32cb2a468c84dfc513af5e4abf6a9a1d0286
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d8e91490cc39c3f259d35a923bb3bcbb2bf6011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568165"
 ---
 # <a name="imsgserviceadmingetmsgservicetable"></a>IMsgServiceAdmin::GetMsgServiceTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso à tabela de serviço de mensagem, uma lista dos serviços de mensagem no perfil.
   

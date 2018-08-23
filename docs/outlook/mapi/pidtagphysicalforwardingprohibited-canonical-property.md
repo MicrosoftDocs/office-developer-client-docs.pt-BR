@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 97ecd7f6b94c9b57efeff5ba0e7e306d2129000f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae13eea7ee2579254eb4aa057647e20cfa61f389
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566352"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>Propriedade canônica PidTagPhysicalForwardingProhibited
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se o remetente da mensagem proíbe encaminhamento da mensagem física para um destinatário específico.
   

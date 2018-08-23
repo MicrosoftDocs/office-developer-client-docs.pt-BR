@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: dad36bfc5fed296cff3baa4cc11bb1fdf359c45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569922"
 ---
 # <a name="mapi-form-servers"></a>Servidores de formulário MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Da perspectiva do usuário, o formulário é geralmente uma folha de propriedades para uma mensagem ou um formulário de entrada de dados que permite que os usuários insiram as informações estruturadas. No entanto, pode ser qualquer interface do usuário que está associado uma classe de mensagem. Do ponto de vista do programador, um formulário consiste em:
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a111d7b7-6e87-4958-8f9b-0f2adbeb8b63
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 468dfd634c4aaf18b019d06975ec9066c9d5f7a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7120b843eae8df70cb2c4f9cbf581dcf0e09c11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566884"
 ---
 # <a name="mapiofflinenotifytype"></a>MAPIOFFLINE_NOTIFY_TYPE
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O MAPIOFFLINE_NOTIFY_TYPE de uma notificação identifica se está prestes a ser realizada uma alteração no estado de conexão, está sendo realizada ou foi concluída. 
   

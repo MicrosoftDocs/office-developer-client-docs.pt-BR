@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 980b1b81a0afbfe05fee915ddd730aad31811132
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d0d2c07355140e89ffb24095d1ca3a302f6e5ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568445"
 ---
 # <a name="pidtagmessagerecipients-canonical-property"></a>Propriedade canônica PidTagMessageRecipients
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma tabela das restrições que podem ser aplicadas a uma tabela de conteúdo para localizar todas as mensagens que contêm o destinatários subobjetos que atendam as restrições. 
   

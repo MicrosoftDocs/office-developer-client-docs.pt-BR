@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 498a740a6523434cc6c70793cf98fd1e2ccfbdb3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f65c197999f23d959657cbfee9c6fbb0aaf439f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769980"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566282"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propriedade canônica PidTagSearchRecipientEmailBcc
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição dos destinatários abordados na linha **Cco** mensagens não enviadas no repositório. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 506c4e89bda617ef307a64c266416c0538090ab0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20893f7c3d64698f70ae26c09c2d7ddc64ce3f9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769215"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569929"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>Propriedade canônica PidTagExceptionReplaceTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a data e a hora em que a instância no padrão de recorrência teria ocorrido se ele não fosse uma exceção original.
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Esta referência contém visões gerais conceituais e programáticas referências para guiá-lo no desenvolvimento de soluções para aplicativos de cliente de desktop do OneNote 2013.
-ms.openlocfilehash: 8af3f0b8623f0b457250ea11f185a25cadec7386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566576"
 ---
 # <a name="onenote-developer-reference"></a>Referência do desenvolvedor do OneNote
 
@@ -34,16 +34,11 @@ Esta documentação contém as seguintes informações:
   
 ## <a name="see-also"></a>Confira também
 
-- [OneNote para desenvolvedores](http://go.microsoft.com/fwlink/?LinkID=390615)
-    
-- [Exemplos de GitHub](https://github.com/OneNoteDev/) (Serviço APIs do OneNote) 
-    
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [OneNote para desenvolvedores](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [Exemplos de GitHub](https://github.com/OneNoteDev/) (Serviço APIs do OneNote)     
+- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)    
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
 - [Informações de direitos autorais de referência do desenvolvedor do OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
-- [Aviso de Privacidade do Microsoft Online](http://privacy.microsoft.com/en-us/default.mspx)
     
 

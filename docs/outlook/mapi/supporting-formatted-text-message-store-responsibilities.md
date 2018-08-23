@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567647"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Suporte a texto formatado: responsabilidades do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagem usam a propriedade de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para publicar se ou não podem lidar com Rich Text Format (RTF), texto HTML e, se ela sabe RTF, se eles armazenam o texto formatado em uma formato compactado ou descompactado. Provedores de armazenamento de mensagem indicam que eles estão cientes de RTF definindo o bit STORE_RTF_OK e que armazenam o texto formatado em um formulário descompactado definindo o bit STORE_UNCOMPRESSED_RTF. Provedores de armazenamento de mensagem indicam são reconhecem HTML definindo o bit STORE_HTML_OK.
   

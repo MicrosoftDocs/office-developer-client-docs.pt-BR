@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f1a4834fc600cc93eeb7fc96563723326c7f2169
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f24ad938fdb8c3ac234e1d78f2668139840c8b8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568214"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define o formato no qual o conversor retornará um fluxo MIME em [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d9330c3583d95e2124a6eea5720c634b9dba8994
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adef294255b8f29fc3d4f2d87bd0d7b10009aa57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566269"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Propriedade canônica PidTagStoreProviders
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de identificadores de provedores de armazenamento de mensagem no perfil atual.
   

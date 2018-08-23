@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3fd61828cd631c4abc0131da867ca213a3c44d20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568494"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de uma ou mais estruturas de [SPropProblem](spropproblem.md) . 
   

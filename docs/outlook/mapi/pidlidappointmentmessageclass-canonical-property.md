@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8777b2119e6beefc4d69dc0babfc8672df3a468b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b26266e58a201b13aa178534039c9e07c900de0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569495"
 ---
 # <a name="pidlidappointmentmessageclass-canonical-property"></a>Propriedade canônica PidLidAppointmentMessageClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) da reunião que deve ser geradas a partir da solicitação de reunião.
   

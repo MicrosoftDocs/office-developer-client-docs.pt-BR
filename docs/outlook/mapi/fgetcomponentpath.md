@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e4bce7f122522532023d18b43fe4bfdeda84af9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766537"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566345"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o caminho para o Mapi32 privada.
   

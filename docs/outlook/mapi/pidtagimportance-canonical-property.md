@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9f6a67dcff6c74f44bbc64ae8b95f3e0ec284a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12fa3d0d1c5cc84c42049f4a208ea961f6631bcd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566205"
 ---
 # <a name="pidtagimportance-canonical-property"></a>Propriedade canônica PidTagImportance
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que indica a opinião do remetente da mensagem a importância de uma mensagem. 
   

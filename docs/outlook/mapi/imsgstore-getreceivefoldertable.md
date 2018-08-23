@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8146b5c2b9c9fb5429a9c1d46bca687c32bcf3dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 681fd68fc068633912df1cb7f060b8c4111b5de8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767510"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566534"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso à tabela de pasta de recebimento, uma tabela que inclui informações sobre todas as pastas de recebimento para o armazenamento de mensagens.
   

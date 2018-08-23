@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: 75a08db313ac1b38a400fb329eefa914858ec71e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566226"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>Sobre propriedades nomeadas usadas pelo Outlook
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI fornece uma facilidade para atribuir nomes para determinadas propriedades para mapear esses nomes para identificadores exclusivos e para tornar os esse nome-para-identificador mapeamento persistente entre sess�es. Propriedades nomeadas s�o identificadas por um nome e um identificador global exclusivo (GUID) para um conjunto de propriedades. O nome pode ser um n�mero ou uma cadeia de caracteres. Para Microsoft Outlook 2013 ou Microsoft Outlook 2010, o conjunto de propriedades � geralmente um namespace definido por Outlook�2013 ou Outlook�2010, como **PSETID_Appointment**. 
   

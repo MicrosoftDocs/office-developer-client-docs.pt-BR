@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8be520734ce839d4efd2e643dec1dab96ff893c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6751b89572f21674f723e7b0d8ab369b804be74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569117"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Propriedade canônica PidLidRemoteMessageClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a classe de mensagem de um item remoto.
   

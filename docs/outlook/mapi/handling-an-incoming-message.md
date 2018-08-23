@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5705af6c8efaf42ae27d1b39bb28d162971ebf9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6ec40005683cc67c51a63d6b186c042c8e170d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766667"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568172"
 ---
 # <a name="handling-an-incoming-message"></a>Manipulação de uma mensagem de entrada
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma mensagem de entrada é uma mensagem que foi enviada entre um ou mais sistemas de mensagens. Ele pode ter sido enviado apenas para você ou para muitos outros destinatários. Mensagens de entrada são colocadas em uma pasta de recebimento designada para manter as mensagens de uma determinada classe. Você pode configurar a pasta para cada classe de mensagem que você deseja tratar ou usa uma pasta para todas as classes de receber uma diferente.
   

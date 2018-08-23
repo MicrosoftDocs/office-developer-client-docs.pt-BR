@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 295b20ebc0c41104a8b1c8e46e2064c3ef32f99e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b71feb6d5967eab3aa490a256825a2803381f40
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569089"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Propriedade canônica PidTagPstPathHint
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece o nome de tabela (arquivo. pst) do armazenamento pessoal, que o usuário pode editar, para a caixa de diálogo de configuração. 
   

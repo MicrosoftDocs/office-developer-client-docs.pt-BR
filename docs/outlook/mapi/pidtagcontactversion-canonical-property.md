@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8f61e386ed3f52c9ce3a8dbef021dc2423aedf1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b0679c37b04b05f240d8cea1b777a430c66d18e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570104"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Propriedade canônica PidTagContactVersion
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a versão das informações de contato de um destinatário.
   

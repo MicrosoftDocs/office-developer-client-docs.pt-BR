@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d53f15cb439494ae99ff45509ed14c0928756d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f43e3a7e3376cb437620204a29aed9fb732d3427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770379"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564091"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>Definir uma posição de tabela com um indicador
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um indicador é um recurso que indica uma localidade específica em uma tabela. A definição de um indicador torna possível retornar para uma posição em um momento posterior, um recurso que pode melhorar significativamente o desempenho das operações de tabela. MAPI define três indicadores padrão: 
   

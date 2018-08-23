@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 040c851d64f60c319250fd0e08620285b6f2f0db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36233d51f47c53d6a69494c0fcd799a7c83add29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567871"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>Desenvolvendo um provedor de armazenamento de mensagem MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como outros provedores de serviço MAPI, armazenamentos de mensagem são bibliotecas de vínculos dinâmicos (DLLs) que apresentam os serviços de um mecanismo de armazenamento subjacente para aplicativos de cliente MAPI e o spooler MAPI. O provedor de armazenamento de mensagem apresenta o mecanismo de armazenamento subjacente como um conjunto hierárquico de pastas e mensagens de clientes MAPI e o MAPI spooler podem usar.
   

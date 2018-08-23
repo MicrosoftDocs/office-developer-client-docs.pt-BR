@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6b0baa18-135d-4cf3-b265-ad873131f036
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 19c776728b8d57c3ca27b29ee3ca0bf2585ac1a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e68575a261725610540c5cae9c62e1d94220432
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570146"
 ---
 # <a name="pidtagcompanymaintelephonenumber-canonical-property"></a>Propriedade canônica PidTagCompanyMainTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone principal para uma empresa
   

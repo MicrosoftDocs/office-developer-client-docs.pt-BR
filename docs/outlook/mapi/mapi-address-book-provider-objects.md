@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 57e6974219059c301786295b2d5e6b9a8fb724bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767787"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568522"
 ---
 # <a name="mapi-address-book-provider-objects"></a>Objetos do provedor de catálogo de endereços MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Além do provedor padrão e objetos de logon, provedores de catálogo de endereços implementam contêineres do catálogo de endereços, listas de distribuição, mensagens usuários, tabelas, objetos de status e controles.
   

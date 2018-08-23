@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 62db34a0-887c-4607-94ad-d8cae68b35c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f09d96fd8b35df6cafa81b3830642cf6d67806e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c2926e7c94178d5a3135f34e2ab3b3ae11d145dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568480"
 ---
 # <a name="implementing-security"></a>Implementar a segurança
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se o sistema de mensagens exigir, o provedor de transporte é responsável por implementar um nível apropriado de segurança de acesso ao sistema de mensagens. Cada mensagem de entrada ou saída enviada através de um provedor de transporte pelo spooler MAPI é manipulada no contexto de uma sessão de logon do provedor. O provedor de transporte pode exibir uma caixa de diálogo de logon para o usuário que solicita credenciais do usuário antes de estabelecer uma conexão tal. Como alternativa, o provedor de transporte pode armazenar as credenciais do usuário inseridos anteriormente no intervalo propriedade segura dentro de uma seção de perfil e usá-los para o access sem avisar.
   

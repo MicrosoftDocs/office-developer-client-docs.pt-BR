@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 'Modificado pela última vez: 21 de fevereiro de 2012'
-ms.openlocfilehash: f5cb63ca3d421073b00a448f762ecf0137494f2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6957888f6727175d73d277cf4f5b84dc234d22ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768155"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570034"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa função é semelhante ao **WideCharToMultiByte**, que mapeia uma cadeia de caracteres UTF-16 (caracteres longa) para uma nova cadeia de caracteres. A nova cadeia de caracteres não é necessariamente a partir de um caractere multibyte definida.
   

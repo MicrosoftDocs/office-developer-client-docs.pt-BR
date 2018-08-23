@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b5a4a337d8f92a3142aeb43eec9f2e9f0578a8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e600d309a5b545ddd46f93f68d7bcb23b763ca24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568501"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>Propriedade canônica PidTagXCoordinate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a coordenada x da posição inicial (o canto superior esquerdo) de um controle de caixa de diálogo, em unidades de diálogo padrão do Windows.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a613bd744a113b4378c5bef94fb51f6ae3aa4041
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ccc51f33ff681021492949c2180fe70940157f4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566135"
 ---
 # <a name="provider-tables"></a>Tabelas de provedores
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma tabela de provedor contém informações sobre provedores de serviços. Há duas tabelas do provedor diferente, ambos implementadas pelo MAPI e usado pelos clientes. A primeira tabela acessada chamando o método [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) , mantém informações sobre todos os provedores para o perfil atual. A segunda tabela, acessada por meio de [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), cria uma tabela que armazena informações sobre todos os provedores de serviço para um serviço de mensagem.
   

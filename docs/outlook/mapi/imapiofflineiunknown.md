@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6f17e501a90a50a4984cae470d3924205c78a604
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 616bb4774e2ca5385e7da867477cb8849d94336b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568382"
 ---
 # <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece informações para um objeto offline.
   

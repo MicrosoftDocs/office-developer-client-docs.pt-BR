@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3007aeb5ac3810c57ed6fb4a555d5ce22e831768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567920"
 ---
 # <a name="mapi-progress-objects"></a>Objetos de progresso MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Com os métodos e os dados de um objeto de andamento, você pode controlar como os relatórios no indicador de progresso. Embora um cliente ou MAPI implementa o objeto de andamento, a maioria da responsabilidade de garantir a exatidão da exibição de progresso cai em provedores de serviços. Você pode garantir a precisão especificando uma ordem específica e um valor para os parâmetros que são passados para os métodos do objeto de progresso.
   

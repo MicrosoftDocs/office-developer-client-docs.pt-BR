@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 82f529f58a62f412ed8b25d1ceaf508463491612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19766411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564133"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Desconectar-se de um suplemento de estado offline
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando o suplemento de estado offline estiver desconectado, você deve implementar funções para encerrar e limpar o suplemento corretamente. Para obter mais informações sobre como configurar e usar o offline estado suplemento para monitorar as alterações de estado de conexão, consulte [Add-in de configuração de backup de um estado Offline](setting-up-an-offline-state-add-in.md) e [Monitoramento Conexão estado alterações usando um suplemento do estado Offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   

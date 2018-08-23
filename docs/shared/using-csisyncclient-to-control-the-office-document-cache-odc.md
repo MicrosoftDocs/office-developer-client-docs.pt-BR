@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Aprenda a usar CSISyncClient para controlar o Cache de documentos do Office (ODC).
-ms.openlocfilehash: adaa56bf040889bd8220506bcfab8fdb0b7ab6c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565281"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Usando CSISyncClient para controlar o Cache de documentos do Office (ODC)
 
@@ -59,7 +59,7 @@ A cadeia de caracteres que identifica o ResourceID do arquivo. Este valor deve s
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -92,7 +92,7 @@ Um enumerador para os eventos entregues ao consumidor. Não deve ser nula.
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -117,7 +117,7 @@ Especifica se o heurístico custo solicitada no momento é substituído ou não.
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -154,7 +154,7 @@ Um sinalizador que conterá o status solicitado por meio de _sfRequestedStatus_ 
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -180,7 +180,7 @@ Uma cadeia de caracteres a ser definido com um conjunto delimitada das extensõe
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -202,7 +202,7 @@ Identifica o consumidor e qual armazenar em cache para usar. Deve ser não vazia
   
  _bstrProgID_
   
-Identifica o objeto de COM do consumidor para comunicação bidirecional. Deve ser não vazias com um máximo de 39 caracteres. Consulte [ \<ProgID\> chave](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) para saber mais sobre ProgIDs. 
+Identifica o objeto de COM do consumidor para comunicação bidirecional. Deve ser não vazias com um máximo de 39 caracteres. Consulte [ \<ProgID\> chave](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) para obter mais informações sobre ProgIDs. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -218,7 +218,7 @@ Retorna se um novo cache foi criado. Se nenhum cache está associado com o Suppl
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -252,7 +252,7 @@ Uma cadeia de caracteres que identifica o arquivo no servidor. Este valor deve s
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -295,7 +295,7 @@ Especifica se carregamentos para o novo local são permitidos no momento.
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -319,7 +319,7 @@ Nenhum
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha na chamada.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) não foi chamado com êxito no passado.  <br/> |
@@ -344,7 +344,7 @@ Esse método permitirá que downloads se ela foi marcada como downloads bloquead
    
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha para definir o estado de conectividade do cache.  <br/> |
 |E_LSC_CONFLICTINGFILE  <br/> |O arquivo especificado por _bstrFileSystemPath_ tem um ResourceID diferente do especificado.  <br/> |
@@ -373,7 +373,7 @@ Um Booleano determinando o estado de conectividade do cache.
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha para definir o estado de conectividade do cache.  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
@@ -399,7 +399,7 @@ Especifica se é para forçar a sincronização on, substituindo assim que heur�
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha ao substituir heurísticos de sincronização.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) não tiver sido chamado com êxito no passado.  <br/> |
@@ -414,11 +414,11 @@ Descarrega o cache do objeto COM e realizar operações de fechamento. [ILSCLoca
 
 ##### <a name="parameters"></a>Parâmetros
 
-Nenhum.
+Nenhum
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Falha para reverter a.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) não tiver sido chamado com êxito no passado.  <br/> |
@@ -444,7 +444,7 @@ Um ponteiro para uma interface ILSCEvent.
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_FAIL  <br/> |Não existem mais eventos.  <br/> |
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
@@ -457,7 +457,7 @@ Redefine o enumerador para o primeiro evento.
 
 ##### <a name="parameters"></a>Parâmetros
 
-Nenhum.
+Nenhum
   
 ##### <a name="return-values"></a>Valores de retorno
 
@@ -533,7 +533,7 @@ O tipo de evento desse evento. Consulte [Enum LSCEventType](using-csisyncclient-
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
@@ -600,7 +600,7 @@ O tipo de erro associado ao evento. Consulte [Enum LSCEventType](using-csisynccl
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Um ou mais parâmetros são inválidos.  <br/> |
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
@@ -641,7 +641,7 @@ Uma cadeia de caracteres para armazenar as informações de cadeia de erro. Não
   
 ##### <a name="return-values"></a>Valores de retorno
 
-|Value|Descrição|
+|Valor|Descrição|
 |:-----|:-----|
 |E_NOTIMPL  <br/> |A versão instalada do Office não oferece suporte a essa interface  <br/> |
 |E_INVALIDARG  <br/> |Um ou mais dos valores de parâmetro são inválidos.  <br/> |

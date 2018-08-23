@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9706d1060347609708070140aae51d9dcadbb9c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70d8266bf0eb8543b9bea7d2258b576b6f02bcc2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768368"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567731"
 ---
 # <a name="pidlidcontactcharacterset-canonical-property"></a>Propriedade canônica PidLidContactCharacterSet
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o conjunto de caracteres usado para esse contato.
   

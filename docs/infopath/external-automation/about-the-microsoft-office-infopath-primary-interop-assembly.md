@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Para oferecer suporte a criação de soluções do InfoPath que usam os idiomas de código gerenciado, como o Visual c# e Visual Basic, a opção de suporte de programação do .NET no programa de instalação do InfoPath instala os assemblies de interoperabilidade três.
-ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765504"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564126"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Sobre o assembly de interoperabilidade primário do InfoPath do Microsoft Office
 
@@ -35,11 +35,11 @@ A opção de instalação padrão do programa de instalação do InfoPath instal
   
 Se o assembly Microsoft.Office.Interop.InfoPath não estiver visível no GAC, você deve confirmar que o InfoPath foi instalado corretamente. Por padrão, a opção de **Suporte à programação do .NET** no programa de instalação é definida para **Executar de Meu computador** desde que o redistribuível do .NET Framework 1.1, .NET Framework 1.1 Software Development Kit (SDK) ou uma versão posterior do .NET Framework está instalado antes de executar a instalação. Se esses assemblies de interoperabilidade não estão disponíveis no seu computador, você deve confirmar que 1.1 ou posterior do .NET Framework é instalado e use **programas e recursos** do **Painel de controle** para alterar a instalação, definindo o **programação do .NET Suporte** opção em **Microsoft Office InfoPath** para **Executar de Meu computador**.
   
-Para obter informações sobre como baixar o redistribuível do .NET Framework 1.1, consulte [Redistribuível do .NET Framework 1.1](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx).
+Para obter informações sobre como baixar o redistribuível do .NET Framework 1.1, consulte [Redistribuível do .NET Framework 1.1](https://www.microsoft.com/en-us/download/details.aspx?id=26).
   
 ## <a name="the-microsoftofficeinteropinfopath-namespace"></a>O Namespace Microsoft.Office.Interop.InfoPath
 
-Embora o processo de gravação gerenciada código para uma determinada tarefa é muito semelhante à executando a mesma tarefa usando uma linguagem como o Visual Basic for Applications ou JScript, o modelo de objeto exposto ao visualizar a **Microsoft.Office.Interop.InfoPath** namespace do **Pesquisador de objetos** no Microsoft Visual Studio procura mais complexo. Isso ocorre porque a interoperabilidade com o .NET Framework requer um servidor COM expor todas as suas interfaces públicas, bem como algumas construções adicionais necessárias para o .NET Framework em si. Para obter mais informações sobre como e por que o modelo de objeto exposto por um assembly de interoperabilidade aparece mais complexo, consulte a seção "Como COM objetos são expostos para código gerenciado" do tópico [Modelos de objeto do InfoPath 2003 compatíveis](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx) . 
+Embora o processo de gravação gerenciada código para uma determinada tarefa é muito semelhante à executando a mesma tarefa usando uma linguagem como o Visual Basic for Applications ou JScript, o modelo de objeto exposto ao visualizar a **Microsoft.Office.Interop.InfoPath** namespace do **Pesquisador de objetos** no Microsoft Visual Studio procura mais complexo. Isso ocorre porque a interoperabilidade com o .NET Framework requer um servidor COM expor todas as suas interfaces públicas, bem como algumas construções adicionais necessárias para o .NET Framework em si. Para obter mais informações sobre como e por que o modelo de objeto exposto por um assembly de interoperabilidade aparece mais complexo, consulte a seção "Como COM objetos são expostos para código gerenciado" do tópico [Modelos de objeto do InfoPath 2003 compatíveis](../form-templates/infopath-2003-compatible-object-models.md) . 
   
 ### <a name="using-intellisense"></a>Usando o IntelliSense
 

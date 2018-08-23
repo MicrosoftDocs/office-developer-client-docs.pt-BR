@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4272edef5b1b72944d1d27f0e4dd99ee4956aa57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565288"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso à tabela de provedor, uma lista de provedores de serviços de perfil.
   

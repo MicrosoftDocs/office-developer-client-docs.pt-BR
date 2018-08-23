@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 489930b35d24d2691c9b9fbb59b0fa95707a0618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566828"
 ---
 # <a name="attached-files-and-messages"></a>Mensagens e arquivos anexados
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se MIME com TNEF é usado durante a codificação de conteúdo da mensagem, todas as propriedades de anexo e o conteúdo são no stream TNEF. O TNEF em si é um arquivo de anexo único, binário denominado Winmail. dat codificado conforme descrito para MIME sem TNEF. 
   

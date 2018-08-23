@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 61176ec6f9ff00fa5a38a2b385cb5281fa40961e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ff428d96de40e70e63659c5a3e5fa1c7cf0d564
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569110"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propriedade canônica PidTagConflictItems
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma ou mais IDs de itens que participaram de resolução de conflitos automática de entrada.
   

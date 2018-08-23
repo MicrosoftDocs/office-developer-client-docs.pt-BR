@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0ffa0802-bfdd-4993-b4a3-142e5d15bfb4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ea5ca41ef21c72377ade72370e0aee1b313c92d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 297fff3482a4b7aea391c3e1869cd127cc49cad2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566814"
 ---
 # <a name="tnef-correlation-in-x400-gateways-and-transports"></a>Correlação de TNEF em transportes e gateways X.400
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Gateways e transportes que se conectam ao sistemas baseados em x. 400, use o valor do atributo IM_THIS_IPM 400 e o atributo TNEF **attMessageID** para implementar correlação TNEF. 
   

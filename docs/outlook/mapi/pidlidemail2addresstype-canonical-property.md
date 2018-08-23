@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28efecc4-b4a0-4e0b-bad6-a9005c8e5ddb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: de1755b1bf0ad01f48baea178280d7df3a5f8c17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06c6ca9207e9c8832f79b4532db4e3c1f5dcaeb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566086"
 ---
 # <a name="pidlidemail2addresstype-canonical-property"></a>Propriedade canônica PidLidEmail2AddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o tipo de endereço do endereço de email do segundo.
   

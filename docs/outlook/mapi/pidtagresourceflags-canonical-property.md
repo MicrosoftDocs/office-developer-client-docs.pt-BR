@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dae917b3e536aee5f24879edc3ccf0736e7c9f34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 875b37183134a6c5beca76ab7910cf601d1b6175
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567500"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Propriedade canônica PidTagResourceFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores para serviços de mensagem e provedores.
   

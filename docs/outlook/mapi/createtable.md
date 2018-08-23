@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5f42e1eb0d120d2fbb785e63b451acdd2d5a91f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d4717dad51e7e6b90da59d285268761eec84d7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564147"
 ---
 # <a name="createtable"></a>CreateTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um identificador de objeto para um objeto [ITableData](itabledataiunknown.md) que pode ser usado para criar o conteúdo da tabela e de estruturas. 
   

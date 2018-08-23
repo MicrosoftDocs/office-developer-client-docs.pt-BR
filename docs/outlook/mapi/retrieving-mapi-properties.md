@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bd3f9f59-9020-46e6-9560-86a7a0eeca20
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 41157b97eb28787deaf19c2e974da23dfb77e0be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1404239a54f9b8991099a66831e3364d9a683d1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770257"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566331"
 ---
 # <a name="retrieving-mapi-properties"></a>Recuperar as propriedades MAPI
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando um cliente ou serviço provedor recupera uma propriedade de um objeto, o objeto disponibiliza identificador, tipo e o valor da propriedade. 
   

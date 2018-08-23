@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a1a96cdb3aed03b9621097f1ef858a09391c0693
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c55aa308072db08e6103418be01f91d0d31a82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768738"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566310"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>Propriedade canônica PidLidTimeZoneStruct
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um stream que mapeie para o formato persistente de uma estrutura [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) , que descreve o fuso horário a ser usado para a hora de início e término de uma solicitação de reunião ou um compromisso recorrente. 
   

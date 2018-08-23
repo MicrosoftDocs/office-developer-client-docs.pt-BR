@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 598ced18d659fcbe52ded07cc3bb80dc396eddbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768183"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570090"
 ---
 # <a name="one-off-addresses"></a>Endereços únicos
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Endereços únicos são usados para enviar mensagens para destinatários únicos, destinatários que não têm uma entrada correspondente em qualquer um dos contêineres de catálogo de endereços da sessão. Os clientes podem criar endereços únicos quando adicionam novas entradas para o catálogo de endereços ou novos destinatários à lista de destinatários de uma mensagem de saída. Endereços únicos podem ser adicionados para qualquer contêiner que pode ser modificado.
   

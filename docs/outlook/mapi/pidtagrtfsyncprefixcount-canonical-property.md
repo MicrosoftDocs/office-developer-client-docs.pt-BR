@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2b15ac5-9e89-4ee2-812d-102d0b2ac56e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c9a62365b46e85cc8f5d22fd31de3b5c6bd3f76a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32344d81d929b0f78a5f883cd9860d838ba25bb8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568438"
 ---
 # <a name="pidtagrtfsyncprefixcount-canonical-property"></a>Propriedade canônica PidTagRtfSyncPrefixCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma contagem dos caracteres ignorável que aparecem antes dos caracteres significativos da mensagem.
   

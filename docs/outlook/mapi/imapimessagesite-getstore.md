@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2787150a9fa0fc41e04c58b4a4310ffa844f3743
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567927"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o repositório de mensagem que contém a mensagem atual, se existir um repositório tal. Este método retornará NULL no parâmetro _ppStore_ mensagens incorporado, o que são armazenados em outra mensagem em vez de diretamente em um repositório de mensagem. 
   

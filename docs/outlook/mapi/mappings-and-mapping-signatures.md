@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 16f192ae816aba2dd0e34a42fba211c3ef70ba47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5c8fd8c757de995e2a2e4239be614cf171fcb44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566184"
 ---
 # <a name="mappings-and-mapping-signatures"></a>Mapeamentos e assinaturas de mapeamento
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando um provedor de serviços oferece suporte a propriedades nomeadas, cada conjunto de pares de identificador e nome é conhecido como um mapeamento. Provedores de serviços podem oferecer suporte para mapeamento de uma ou várias. Que é, um provedor de armazenamento de mensagens, por exemplo, pode implementar os métodos **GetIDsFromNames** e **GetNamesFromIDs** para todas as suas mensagens, pasta e objetos de repositório de mensagem para trabalhar com uma única lista de nomes e seus identificadores correspondentes. Outro provedor de repositório de mensagem pode ter uma lista para cada pasta e as mensagens contidas dentro dele ou implementar uma lista exclusiva para cada mensagem e cada pasta. Provedores de armazenamento de mensagem que usam um mapeamento exclusivo para cada mensagem não devem permitir propriedades nomeadas apareça em suas tabelas de conteúdo de pasta porque um nome de propriedade fornecida, o identificador da propriedade será diferente de mensagem a mensagem. MAPI recomenda provedores mantê-lo simples e operam com uma única lista de todos os seus objetos incluindo tabelas. 
   

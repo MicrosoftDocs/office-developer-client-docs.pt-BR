@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b61012b2f0854808f0dbe002f6f2682f964b6b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e8a624090181ae35e4bf2828f72b645e5011728
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768532"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570048"
 ---
 # <a name="pidlidlogtype-canonical-property"></a>Propriedade canônica PidLidLogType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição do aplicativo de registro no diário (por exemplo, "MSWord") e geralmente é um atributo de forma livre de uma mensagem de diário, geralmente uma cadeia de caracteres.
   

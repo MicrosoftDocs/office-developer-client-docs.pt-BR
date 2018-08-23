@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cdf3052175870287ff1a66d3745e90f8b8fff256
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c82ff28dca4fc50c7801a533f7ad757b839cddf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568228"
 ---
 # <a name="mapi-session-handling"></a>Tratamento de sessão MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes de você poderá se comunicar com provedores de serviço e um sistema de mensagens subjacente, você precisa estabelecer uma sessão. Uma sessão MAPI é um vínculo de um cliente para outros componentes MAPI. Como resultado de iniciando com êxito uma sessão, MAPI retorna aos clientes um ponteiro para um objeto de sessão — um objeto que implementa a interface **IMAPISession** . Para obter mais informações, consulte [IMAPISession: IUnknown](imapisessioniunknown.md). Você pode usar os métodos da interface **IMAPISession** para acessar os objetos de provedores de armazenamento de mensagens e catálogo de endereço, acessar várias tabelas, formulários de exibição, definir propriedades de provedor de transporte e executar a administração de serviço de perfil e mensagem. 
   
