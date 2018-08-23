@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3095907498b1ce7ae6b3666e0678dd0c5f76c23e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 828d7ebcbceead02441165e3af92ec7b47d9f001
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766772"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564623"
 ---
-# <a name="hrdecomposemsgid"></a><span data-ttu-id="c94f7-103">HrDecomposeMsgID</span><span class="sxs-lookup"><span data-stu-id="c94f7-103">HrDecomposeMsgID</span></span>
+# <a name="hrdecomposemsgid"></a><span data-ttu-id="3cd3e-103">HrDecomposeMsgID</span><span class="sxs-lookup"><span data-stu-id="3cd3e-103">HrDecomposeMsgID</span></span>
 
   
   
-<span data-ttu-id="c94f7-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c94f7-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="3cd3e-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3cd3e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c94f7-105">Separa a representação ASCII do identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens para o identificador de entrada desse objeto no repositório e o identificador de entrada da loja.</span><span class="sxs-lookup"><span data-stu-id="c94f7-105">Separates the ASCII representation of the compound entry identifier of an object, usually a message in a message store, into the entry identifier of that object in the store and the store's entry identifier.</span></span> 
+<span data-ttu-id="3cd3e-105">Separa a representação ASCII do identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens para o identificador de entrada desse objeto no repositório e o identificador de entrada da loja.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-105">Separates the ASCII representation of the compound entry identifier of an object, usually a message in a message store, into the entry identifier of that object in the store and the store's entry identifier.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c94f7-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="c94f7-106">Header file:</span></span>  <br/> |<span data-ttu-id="c94f7-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="c94f7-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="c94f7-108">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="c94f7-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c94f7-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c94f7-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="c94f7-110">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="c94f7-110">Called by:</span></span>  <br/> |<span data-ttu-id="c94f7-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="c94f7-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="3cd3e-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="3cd3e-106">Header file:</span></span>  <br/> |<span data-ttu-id="3cd3e-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="3cd3e-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="3cd3e-108">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="3cd3e-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3cd3e-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3cd3e-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="3cd3e-110">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="3cd3e-110">Called by:</span></span>  <br/> |<span data-ttu-id="3cd3e-111">Aplicativos cliente</span><span class="sxs-lookup"><span data-stu-id="3cd3e-111">Client applications</span></span>  <br/> |
    
 ```cpp
 HrDecomposeMsgID(
@@ -44,40 +44,40 @@ HrDecomposeMsgID(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c94f7-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c94f7-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3cd3e-112">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3cd3e-112">Parameters</span></span>
 
- <span data-ttu-id="c94f7-113">_psession_</span><span class="sxs-lookup"><span data-stu-id="c94f7-113">_psession_</span></span>
+ <span data-ttu-id="3cd3e-113">_psession_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-113">_psession_</span></span>
   
-> <span data-ttu-id="c94f7-114">[in] Ponteiro para a sessão em uso pelo aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="c94f7-114">[in] Pointer to the session in use by the client application.</span></span> 
+> <span data-ttu-id="3cd3e-114">[in] Ponteiro para a sessão em uso pelo aplicativo cliente.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-114">[in] Pointer to the session in use by the client application.</span></span> 
     
- <span data-ttu-id="c94f7-115">_szMsgID_</span><span class="sxs-lookup"><span data-stu-id="c94f7-115">_szMsgID_</span></span>
+ <span data-ttu-id="3cd3e-115">_szMsgID_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-115">_szMsgID_</span></span>
   
-> <span data-ttu-id="c94f7-116">[in] A cadeia de caracteres representando o identificador de entrada do objeto.</span><span class="sxs-lookup"><span data-stu-id="c94f7-116">[in] The string representing the entry identifier of the object.</span></span> 
+> <span data-ttu-id="3cd3e-116">[in] A cadeia de caracteres representando o identificador de entrada do objeto.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-116">[in] The string representing the entry identifier of the object.</span></span> 
     
- <span data-ttu-id="c94f7-117">_pcbStoreEID_</span><span class="sxs-lookup"><span data-stu-id="c94f7-117">_pcbStoreEID_</span></span>
+ <span data-ttu-id="3cd3e-117">_pcbStoreEID_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-117">_pcbStoreEID_</span></span>
   
-> <span data-ttu-id="c94f7-118">[out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagem que contém o objeto.</span><span class="sxs-lookup"><span data-stu-id="c94f7-118">[out] Pointer to the returned size, in bytes, of the entry identifier of the message store that contains the object.</span></span> <span data-ttu-id="c94f7-119">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound cadeia de caracteres, em seguida, os pontos de parâmetro _pcbStoreEID_ como zero.</span><span class="sxs-lookup"><span data-stu-id="c94f7-119">If the  _szMsgID_ parameter points to a noncompound entry identifier string, then the  _pcbStoreEID_ parameter points to zero.</span></span> 
+> <span data-ttu-id="3cd3e-118">[out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do repositório de mensagem que contém o objeto.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-118">[out] Pointer to the returned size, in bytes, of the entry identifier of the message store that contains the object.</span></span> <span data-ttu-id="3cd3e-119">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound cadeia de caracteres, em seguida, os pontos de parâmetro _pcbStoreEID_ como zero.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-119">If the  _szMsgID_ parameter points to a noncompound entry identifier string, then the  _pcbStoreEID_ parameter points to zero.</span></span> 
     
- <span data-ttu-id="c94f7-120">_ppStoreEID_</span><span class="sxs-lookup"><span data-stu-id="c94f7-120">_ppStoreEID_</span></span>
+ <span data-ttu-id="3cd3e-120">_ppStoreEID_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-120">_ppStoreEID_</span></span>
   
-> <span data-ttu-id="c94f7-121">[out] Ponteiro para um ponteiro para o identificador retornado de entrada do repositório de mensagem que contém o objeto.</span><span class="sxs-lookup"><span data-stu-id="c94f7-121">[out] Pointer to a pointer to the returned entry identifier of the message store that contains the object.</span></span> <span data-ttu-id="c94f7-122">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, NULL é retornado no parâmetro _ppStoreEID_ .</span><span class="sxs-lookup"><span data-stu-id="c94f7-122">If the  _szMsgID_ parameter points to a noncompound entry identifier, NULL is returned in the  _ppStoreEID_ parameter.</span></span> 
+> <span data-ttu-id="3cd3e-121">[out] Ponteiro para um ponteiro para o identificador retornado de entrada do repositório de mensagem que contém o objeto.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-121">[out] Pointer to a pointer to the returned entry identifier of the message store that contains the object.</span></span> <span data-ttu-id="3cd3e-122">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, NULL é retornado no parâmetro _ppStoreEID_ .</span><span class="sxs-lookup"><span data-stu-id="3cd3e-122">If the  _szMsgID_ parameter points to a noncompound entry identifier, NULL is returned in the  _ppStoreEID_ parameter.</span></span> 
     
- <span data-ttu-id="c94f7-123">_pcbMsgEID_</span><span class="sxs-lookup"><span data-stu-id="c94f7-123">_pcbMsgEID_</span></span>
+ <span data-ttu-id="3cd3e-123">_pcbMsgEID_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-123">_pcbMsgEID_</span></span>
   
-> <span data-ttu-id="c94f7-124">[out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto dentro de seu armazenamento.</span><span class="sxs-lookup"><span data-stu-id="c94f7-124">[out] Pointer to the returned size, in bytes, of the entry identifier of the object within its store.</span></span> <span data-ttu-id="c94f7-125">Se o parâmetro _szMsgID_ aponta para uma cadeia de caracteres do identificador de entrada noncompound, o parâmetro _pcbMsgEID_ é igual ao valor do parâmetro _cbEID_ .</span><span class="sxs-lookup"><span data-stu-id="c94f7-125">If the  _szMsgID_ parameter points to a noncompound entry identifier string, then the  _pcbMsgEID_ parameter is equal to the value of the  _cbEID_ parameter.</span></span> 
+> <span data-ttu-id="3cd3e-124">[out] Ponteiro para o tamanho retornado, em bytes, do identificador de entrada do objeto dentro de seu armazenamento.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-124">[out] Pointer to the returned size, in bytes, of the entry identifier of the object within its store.</span></span> <span data-ttu-id="3cd3e-125">Se o parâmetro _szMsgID_ aponta para uma cadeia de caracteres do identificador de entrada noncompound, o parâmetro _pcbMsgEID_ é igual ao valor do parâmetro _cbEID_ .</span><span class="sxs-lookup"><span data-stu-id="3cd3e-125">If the  _szMsgID_ parameter points to a noncompound entry identifier string, then the  _pcbMsgEID_ parameter is equal to the value of the  _cbEID_ parameter.</span></span> 
     
- <span data-ttu-id="c94f7-126">_ppMsgEID_</span><span class="sxs-lookup"><span data-stu-id="c94f7-126">_ppMsgEID_</span></span>
+ <span data-ttu-id="3cd3e-126">_ppMsgEID_</span><span class="sxs-lookup"><span data-stu-id="3cd3e-126">_ppMsgEID_</span></span>
   
-> <span data-ttu-id="c94f7-127">[out] Ponteiro para um ponteiro para a cadeia de caracteres de identificador retornado de entrada do objeto dentro de seu armazenamento.</span><span class="sxs-lookup"><span data-stu-id="c94f7-127">[out] Pointer to a pointer to the returned entry identifier string of the object within its store.</span></span> <span data-ttu-id="c94f7-128">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, _ppMsgEID_ aponta para um ponteiro para uma cópia convertida do identificador de entrada noncompound.</span><span class="sxs-lookup"><span data-stu-id="c94f7-128">If the  _szMsgID_ parameter points to a noncompound entry identifier,  _ppMsgEID_ points to a pointer to a converted copy of the noncompound entry identifier.</span></span> 
+> <span data-ttu-id="3cd3e-127">[out] Ponteiro para um ponteiro para a cadeia de caracteres de identificador retornado de entrada do objeto dentro de seu armazenamento.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-127">[out] Pointer to a pointer to the returned entry identifier string of the object within its store.</span></span> <span data-ttu-id="3cd3e-128">Se o parâmetro _szMsgID_ aponta para um identificador de entrada noncompound, _ppMsgEID_ aponta para um ponteiro para uma cópia convertida do identificador de entrada noncompound.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-128">If the  _szMsgID_ parameter points to a noncompound entry identifier,  _ppMsgEID_ points to a pointer to a converted copy of the noncompound entry identifier.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c94f7-129">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="c94f7-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3cd3e-129">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="3cd3e-129">Return value</span></span>
 
-<span data-ttu-id="c94f7-130">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c94f7-130">None.</span></span>
+<span data-ttu-id="3cd3e-130">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-130">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c94f7-131">Comentários</span><span class="sxs-lookup"><span data-stu-id="c94f7-131">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3cd3e-131">Comentários</span><span class="sxs-lookup"><span data-stu-id="3cd3e-131">Remarks</span></span>
 
-<span data-ttu-id="c94f7-132">Se o identificador especificado pelo parâmetro _szMsgID_ for composto, ele é convertido de ASCII e dividido o identificador de entrada do objeto dentro de seu armazenamento de mensagens e o identificador de entrada da loja.</span><span class="sxs-lookup"><span data-stu-id="c94f7-132">If the identifier specified by the  _szMsgID_ parameter is compound, it is converted from ASCII and split into the entry identifier of the object within its message store and the store's entry identifier.</span></span> <span data-ttu-id="c94f7-133">Cadeias de caracteres de identificador de entrada noncompound simplesmente são convertidas e copiadas.</span><span class="sxs-lookup"><span data-stu-id="c94f7-133">Noncompound entry identifier strings are simply converted and copied.</span></span> <span data-ttu-id="c94f7-134">A cadeia de caracteres de identificador compostos sejam separados é geralmente uma criada pela função [HrComposeMsgID](hrcomposemsgid.md) .</span><span class="sxs-lookup"><span data-stu-id="c94f7-134">The compound identifier string to be separated is usually one created by the [HrComposeMsgID](hrcomposemsgid.md) function.</span></span> 
+<span data-ttu-id="3cd3e-132">Se o identificador especificado pelo parâmetro _szMsgID_ for composto, ele é convertido de ASCII e dividido o identificador de entrada do objeto dentro de seu armazenamento de mensagens e o identificador de entrada da loja.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-132">If the identifier specified by the  _szMsgID_ parameter is compound, it is converted from ASCII and split into the entry identifier of the object within its message store and the store's entry identifier.</span></span> <span data-ttu-id="3cd3e-133">Cadeias de caracteres de identificador de entrada noncompound simplesmente são convertidas e copiadas.</span><span class="sxs-lookup"><span data-stu-id="3cd3e-133">Noncompound entry identifier strings are simply converted and copied.</span></span> <span data-ttu-id="3cd3e-134">A cadeia de caracteres de identificador compostos sejam separados é geralmente uma criada pela função [HrComposeMsgID](hrcomposemsgid.md) .</span><span class="sxs-lookup"><span data-stu-id="3cd3e-134">The compound identifier string to be separated is usually one created by the [HrComposeMsgID](hrcomposemsgid.md) function.</span></span> 
   
-<span data-ttu-id="c94f7-135">Chamar a função **HrDecomposeMsgID** é equivalente a chamar a função [HrEntryIDFromSz](hrentryidfromsz.md) e, em seguida, a função [HrDecomposeEID](hrdecomposeeid.md) .</span><span class="sxs-lookup"><span data-stu-id="c94f7-135">Calling the **HrDecomposeMsgID** function is equivalent to calling the [HrEntryIDFromSz](hrentryidfromsz.md) function and then the [HrDecomposeEID](hrdecomposeeid.md) function.</span></span> 
+<span data-ttu-id="3cd3e-135">Chamar a função **HrDecomposeMsgID** é equivalente a chamar a função [HrEntryIDFromSz](hrentryidfromsz.md) e, em seguida, a função [HrDecomposeEID](hrdecomposeeid.md) .</span><span class="sxs-lookup"><span data-stu-id="3cd3e-135">Calling the **HrDecomposeMsgID** function is equivalent to calling the [HrEntryIDFromSz](hrentryidfromsz.md) function and then the [HrDecomposeEID](hrdecomposeeid.md) function.</span></span> 
   
 

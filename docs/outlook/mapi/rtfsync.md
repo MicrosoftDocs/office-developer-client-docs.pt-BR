@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565736"
 ---
-# <a name="rtfsync"></a><span data-ttu-id="bdedd-103">RTFSync</span><span class="sxs-lookup"><span data-stu-id="bdedd-103">RTFSync</span></span>
+# <a name="rtfsync"></a><span data-ttu-id="abf2d-103">RTFSync</span><span class="sxs-lookup"><span data-stu-id="abf2d-103">RTFSync</span></span>
 
-<span data-ttu-id="bdedd-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="bdedd-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="abf2d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="abf2d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bdedd-105">Certifica-se de que o texto da mensagem de Rich Text Format (RTF) corresponda à versão de texto sem formatação.</span><span class="sxs-lookup"><span data-stu-id="bdedd-105">Makes sure that the Rich Text Format (RTF) message text matches the plain text version.</span></span> <span data-ttu-id="bdedd-106">É necessário chamar essa função antes de ler a versão RTF e depois de modificar a versão RTF.</span><span class="sxs-lookup"><span data-stu-id="bdedd-106">It is necessary to call this function before reading the RTF version and after modifying the RTF version.</span></span> 
+<span data-ttu-id="abf2d-105">Certifica-se de que o texto da mensagem de Rich Text Format (RTF) corresponda à versão de texto sem formatação.</span><span class="sxs-lookup"><span data-stu-id="abf2d-105">Makes sure that the Rich Text Format (RTF) message text matches the plain text version.</span></span> <span data-ttu-id="abf2d-106">É necessário chamar essa função antes de ler a versão RTF e depois de modificar a versão RTF.</span><span class="sxs-lookup"><span data-stu-id="abf2d-106">It is necessary to call this function before reading the RTF version and after modifying the RTF version.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bdedd-107">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="bdedd-107">Header file:</span></span>  <br/> |<span data-ttu-id="bdedd-108">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="bdedd-108">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="bdedd-109">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="bdedd-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="bdedd-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="bdedd-110">MAPI</span></span>  <br/> |
-|<span data-ttu-id="bdedd-111">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="bdedd-111">Called by:</span></span>  <br/> |<span data-ttu-id="bdedd-112">Provedores de armazenamento de mensagem e aplicativos cliente com reconhecimento de RTF</span><span class="sxs-lookup"><span data-stu-id="bdedd-112">RTF-aware client applications and message store providers</span></span>  <br/> |
+|<span data-ttu-id="abf2d-107">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="abf2d-107">Header file:</span></span>  <br/> |<span data-ttu-id="abf2d-108">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="abf2d-108">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="abf2d-109">Implementada por:</span><span class="sxs-lookup"><span data-stu-id="abf2d-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="abf2d-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="abf2d-110">MAPI</span></span>  <br/> |
+|<span data-ttu-id="abf2d-111">Chamado pelo:</span><span class="sxs-lookup"><span data-stu-id="abf2d-111">Called by:</span></span>  <br/> |<span data-ttu-id="abf2d-112">Provedores de armazenamento de mensagem e aplicativos cliente com reconhecimento de RTF</span><span class="sxs-lookup"><span data-stu-id="abf2d-112">RTF-aware client applications and message store providers</span></span>  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -39,47 +39,47 @@ HRESULT RTFSync(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bdedd-113">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bdedd-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="abf2d-113">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="abf2d-113">Parameters</span></span>
 
-<span data-ttu-id="bdedd-114">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="bdedd-114">_lpMessage_</span></span>
+<span data-ttu-id="abf2d-114">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="abf2d-114">_lpMessage_</span></span>
   
-> <span data-ttu-id="bdedd-115">[in] Ponteiro para a mensagem a ser atualizado.</span><span class="sxs-lookup"><span data-stu-id="bdedd-115">[in] Pointer to the message to be updated.</span></span>
+> <span data-ttu-id="abf2d-115">[in] Ponteiro para a mensagem a ser atualizado.</span><span class="sxs-lookup"><span data-stu-id="abf2d-115">[in] Pointer to the message to be updated.</span></span>
     
-<span data-ttu-id="bdedd-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bdedd-116">_ulFlags_</span></span>
+<span data-ttu-id="abf2d-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="abf2d-116">_ulFlags_</span></span>
   
-> <span data-ttu-id="bdedd-117">[in] Bitmask dos sinalizadores usados para indicar o RTF ou a versão de texto sem formatação da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="bdedd-117">[in] Bitmask of flags used to indicate the RTF or plain text version of the message has changed.</span></span> <span data-ttu-id="bdedd-118">Sinalizadores a seguir podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="bdedd-118">The following flags can be set:</span></span>
+> <span data-ttu-id="abf2d-117">[in] Bitmask dos sinalizadores usados para indicar o RTF ou a versão de texto sem formatação da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="abf2d-117">[in] Bitmask of flags used to indicate the RTF or plain text version of the message has changed.</span></span> <span data-ttu-id="abf2d-118">Sinalizadores a seguir podem ser definidos:</span><span class="sxs-lookup"><span data-stu-id="abf2d-118">The following flags can be set:</span></span>
     
-  - <span data-ttu-id="bdedd-119">RTF_SYNC_BODY_CHANGED: A versão de texto sem formatação da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="bdedd-119">RTF_SYNC_BODY_CHANGED: The plain text version of the message has changed.</span></span>
+  - <span data-ttu-id="abf2d-119">RTF_SYNC_BODY_CHANGED: A versão de texto sem formatação da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="abf2d-119">RTF_SYNC_BODY_CHANGED: The plain text version of the message has changed.</span></span>
       
-  - <span data-ttu-id="bdedd-120">RTF_SYNC_RTF_CHANGED: A versão RTF da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="bdedd-120">RTF_SYNC_RTF_CHANGED: The RTF version of the message has changed.</span></span>
+  - <span data-ttu-id="abf2d-120">RTF_SYNC_RTF_CHANGED: A versão RTF da mensagem foi alterada.</span><span class="sxs-lookup"><span data-stu-id="abf2d-120">RTF_SYNC_RTF_CHANGED: The RTF version of the message has changed.</span></span>
     
-  <span data-ttu-id="bdedd-121">Todos os outros bits no parâmetro _ulFlags_ são reservados para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="bdedd-121">All other bits in the  _ulFlags_ parameter are reserved for future use.</span></span> 
+  <span data-ttu-id="abf2d-121">Todos os outros bits no parâmetro _ulFlags_ são reservados para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="abf2d-121">All other bits in the  _ulFlags_ parameter are reserved for future use.</span></span> 
     
-<span data-ttu-id="bdedd-122">_lpfMessageUpdated_</span><span class="sxs-lookup"><span data-stu-id="bdedd-122">_lpfMessageUpdated_</span></span>
+<span data-ttu-id="abf2d-122">_lpfMessageUpdated_</span><span class="sxs-lookup"><span data-stu-id="abf2d-122">_lpfMessageUpdated_</span></span>
   
-> <span data-ttu-id="bdedd-123">[out] Ponteiro para uma variável que indica se há uma mensagem atualizada.</span><span class="sxs-lookup"><span data-stu-id="bdedd-123">[out] Pointer to a variable indicating whether there is an updated message.</span></span> <span data-ttu-id="bdedd-124">TRUE se não houver uma mensagem atualizada, FALSE caso contrário.</span><span class="sxs-lookup"><span data-stu-id="bdedd-124">TRUE if there is an updated message, FALSE otherwise.</span></span>
+> <span data-ttu-id="abf2d-123">[out] Ponteiro para uma variável que indica se há uma mensagem atualizada.</span><span class="sxs-lookup"><span data-stu-id="abf2d-123">[out] Pointer to a variable indicating whether there is an updated message.</span></span> <span data-ttu-id="abf2d-124">TRUE se não houver uma mensagem atualizada, FALSE caso contrário.</span><span class="sxs-lookup"><span data-stu-id="abf2d-124">TRUE if there is an updated message, FALSE otherwise.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bdedd-125">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="bdedd-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="abf2d-125">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="abf2d-125">Return value</span></span>
 
-<span data-ttu-id="bdedd-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="bdedd-126">S_OK</span></span> 
+<span data-ttu-id="abf2d-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="abf2d-126">S_OK</span></span> 
   
-> <span data-ttu-id="bdedd-127">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="bdedd-127">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="abf2d-127">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="abf2d-127">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="bdedd-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="bdedd-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="abf2d-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="abf2d-128">Remarks</span></span>
 
-<span data-ttu-id="bdedd-129">Se a propriedade **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) está ausente ou é FALSE, antes de ler a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) a função **RTFSync** deve ser chamado com o RTF_SYNC_BODY_ ALTERADO o sinalizador definido.</span><span class="sxs-lookup"><span data-stu-id="bdedd-129">If the **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or is FALSE, before reading the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property the **RTFSync** function should be called with the RTF_SYNC_BODY_CHANGED flag set.</span></span> 
+<span data-ttu-id="abf2d-129">Se a propriedade **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) está ausente ou é FALSE, antes de ler a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) a função **RTFSync** deve ser chamado com o RTF_SYNC_BODY_ ALTERADO o sinalizador definido.</span><span class="sxs-lookup"><span data-stu-id="abf2d-129">If the **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or is FALSE, before reading the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property the **RTFSync** function should be called with the RTF_SYNC_BODY_CHANGED flag set.</span></span> 
   
-<span data-ttu-id="bdedd-130">Se o sinalizador STORE_RTF_OK não estiver definido na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), essa função deve ser chamada com o sinalizador RTF_SYNC_RTF_CHANGED definido depois de modificar **PR_RTF_COMPRESSED**.</span><span class="sxs-lookup"><span data-stu-id="bdedd-130">If the STORE_RTF_OK flag is not set in the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property, this function should be called with the RTF_SYNC_RTF_CHANGED flag set after modifying **PR_RTF_COMPRESSED**.</span></span> 
+<span data-ttu-id="abf2d-130">Se o sinalizador STORE_RTF_OK não estiver definido na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), essa função deve ser chamada com o sinalizador RTF_SYNC_RTF_CHANGED definido depois de modificar **PR_RTF_COMPRESSED**.</span><span class="sxs-lookup"><span data-stu-id="abf2d-130">If the STORE_RTF_OK flag is not set in the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) property, this function should be called with the RTF_SYNC_RTF_CHANGED flag set after modifying **PR_RTF_COMPRESSED**.</span></span> 
   
-<span data-ttu-id="bdedd-131">Se **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) e o **PR_RTF_COMPRESSED** foram alterados, a função **RTFSync** deve ser chamada com os dois conjuntos de sinalizadores.</span><span class="sxs-lookup"><span data-stu-id="bdedd-131">If both **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) and **PR_RTF_COMPRESSED** have been changed, the **RTFSync** function should be called with both flags set.</span></span> 
+<span data-ttu-id="abf2d-131">Se **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) e o **PR_RTF_COMPRESSED** foram alterados, a função **RTFSync** deve ser chamada com os dois conjuntos de sinalizadores.</span><span class="sxs-lookup"><span data-stu-id="abf2d-131">If both **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) and **PR_RTF_COMPRESSED** have been changed, the **RTFSync** function should be called with both flags set.</span></span> 
   
-<span data-ttu-id="bdedd-132">Se o valor do parâmetro _lpfMessageUpdated_ for definido como TRUE, o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) deve ser chamado para a mensagem.</span><span class="sxs-lookup"><span data-stu-id="bdedd-132">If the value of the  _lpfMessageUpdated_ parameter is set to TRUE, then the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method should be called for the message.</span></span> <span data-ttu-id="bdedd-133">Se **SaveChanges** não for chamado, as modificações não serão salvas na mensagem.</span><span class="sxs-lookup"><span data-stu-id="bdedd-133">If **SaveChanges** is not called, the modifications will not be saved in the message.</span></span> 
+<span data-ttu-id="abf2d-132">Se o valor do parâmetro _lpfMessageUpdated_ for definido como TRUE, o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) deve ser chamado para a mensagem.</span><span class="sxs-lookup"><span data-stu-id="abf2d-132">If the value of the  _lpfMessageUpdated_ parameter is set to TRUE, then the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method should be called for the message.</span></span> <span data-ttu-id="abf2d-133">Se **SaveChanges** não for chamado, as modificações não serão salvas na mensagem.</span><span class="sxs-lookup"><span data-stu-id="abf2d-133">If **SaveChanges** is not called, the modifications will not be saved in the message.</span></span> 
   
-<span data-ttu-id="bdedd-134">Provedores de armazenamento de mensagens podem usar **RTFSync** para manter as propriedades **PR_BODY** e **PR_RTF_COMPRESSED** sincronizadas.</span><span class="sxs-lookup"><span data-stu-id="bdedd-134">Message store providers can use **RTFSync** to keep the **PR_BODY** and **PR_RTF_COMPRESSED** properties synchronized.</span></span> 
+<span data-ttu-id="abf2d-134">Provedores de armazenamento de mensagens podem usar **RTFSync** para manter as propriedades **PR_BODY** e **PR_RTF_COMPRESSED** sincronizadas.</span><span class="sxs-lookup"><span data-stu-id="abf2d-134">Message store providers can use **RTFSync** to keep the **PR_BODY** and **PR_RTF_COMPRESSED** properties synchronized.</span></span> 
   
-<span data-ttu-id="bdedd-135">Para obter mais informações, consulte [Com suporte para texto de RTF para provedores de armazenamento de mensagem](supporting-rtf-text-for-message-store-providers.md).</span><span class="sxs-lookup"><span data-stu-id="bdedd-135">For more information, see [Supporting RTF Text for Message Store Providers](supporting-rtf-text-for-message-store-providers.md).</span></span> 
+<span data-ttu-id="abf2d-135">Para obter mais informações, consulte [Com suporte para texto de RTF para provedores de armazenamento de mensagem](supporting-rtf-text-for-message-store-providers.md).</span><span class="sxs-lookup"><span data-stu-id="abf2d-135">For more information, see [Supporting RTF Text for Message Store Providers](supporting-rtf-text-for-message-store-providers.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="bdedd-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="bdedd-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abf2d-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="abf2d-136">See also</span></span>
 
-- [<span data-ttu-id="bdedd-137">WrapCompressedRTFStream</span><span class="sxs-lookup"><span data-stu-id="bdedd-137">WrapCompressedRTFStream</span></span>](wrapcompressedrtfstream.md)
+- [<span data-ttu-id="abf2d-137">WrapCompressedRTFStream</span><span class="sxs-lookup"><span data-stu-id="abf2d-137">WrapCompressedRTFStream</span></span>](wrapcompressedrtfstream.md)
 
