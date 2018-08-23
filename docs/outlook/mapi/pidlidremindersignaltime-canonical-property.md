@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 375cde94d0ecd989908fccbdd69710c1961fba17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1a725583faf13fe8b46616d9d341798298a8b53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563433"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propriedade canônica PidLidReminderSignalTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o ponto no tempo quando um lembrete passa do pendentes para atrasados.
   

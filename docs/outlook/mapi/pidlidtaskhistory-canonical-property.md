@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6e53d91a80d7e3b3bb4bf02ff3446eb385293c6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba900ec4b8c8f1bcc2c85aae6c78ab59a43ee3cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563622"
 ---
 # <a name="pidlidtaskhistory-canonical-property"></a>Propriedade canônica PidLidTaskHistory
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o tipo de alteração foi feita última para a tarefa.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28453d29-30c5-405b-84d2-5bb5f281756c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a00505b765abdcb7b8fe9d68052774b30bbdf692
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b943f9a3b6f63f185a1b44cfa811d010a287a3d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769972"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565813"
 ---
 # <a name="pidtagscheduleinfofreebusytentative-canonical-property"></a>Propriedade canônica PidTagScheduleInfoFreeBusyTentative
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os blocos de vezes para o qual o status livre/ocupado é provisório.
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 69bbed644a8173bf9291ca48a63960f693108318
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adccbaf65adec2c517c4890f722198e8262092cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564602"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Compara dois valores de propriedade usando um operador relacional especificado. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ab293ee3813d77c3a954e8364736a89bc2330feb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f3330c132abdf35d0e4f67775c03f7d2e9fcc76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563986"
 ---
 # <a name="handling-an-outgoing-message"></a>Manipulação de uma mensagem de saída
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma mensagem de saída é uma mensagem que pode ser enviada para um ou mais destinatários através de um ou mais sistemas de mensagens ou ser remetida para uma pasta em um repositório de mensagem.
   

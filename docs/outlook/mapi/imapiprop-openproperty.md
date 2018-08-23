@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 656e5c5532edfc6c791ca30aa30f4c4d96847295
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767153"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563972"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna um ponteiro para uma interface que pode ser usada para acessar uma propriedade.
   
@@ -110,7 +110,7 @@ Para acessar os anexos de mensagens, abra a propriedade **PR_ATTACH_DATA_OBJ** (
 |**Tipo de anexo**|**Identificador de interface usar**|
 |:-----|:-----|
 |Binário  <br/> |IID_IStream  <br/> |
-|String  <br/> |IID_IStream  <br/> |
+|Cadeia de caracteres  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    

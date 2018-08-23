@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767777"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564497"
 ---
 # <a name="launching-a-new-compose-form"></a>Iniciar um novo formulário de redação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementadores de servidor do formulário devem esperar que a seguinte sequência de chamadas de método em seus servidores de formulário e objetos de formulário quando um aplicativo cliente abre uma nova mensagem para redigir:
   

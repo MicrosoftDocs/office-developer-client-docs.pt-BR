@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: baa2ac2e859b42234fcb07dd2bf521424ef9b465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 924ddbc7c2ad1ed84ce6927ae089b6eb223bfb92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563503"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de estruturas de **STnefProblem** descrevendo um ou mais processamento problemas que ocorreram durante a codificação ou decodificação de um stream TNEF Transport Neutral Encapsulation Format (). 
   

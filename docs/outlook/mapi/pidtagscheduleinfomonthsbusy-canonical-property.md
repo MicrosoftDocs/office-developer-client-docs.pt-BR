@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 293e8648374b61784f5bda0db124506f345b2701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7723897c6d249bbb53a0de5aa68ad8d1bc79830f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769974"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563720"
 ---
 # <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsBusy
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os meses para os quais informações de disponibilidade de dados do tipo ocupado estão presentes na mensagem de livre/ocupado.
   

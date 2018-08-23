@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3bfda4a1dbe464c744917c2e9b3ca66eaf88fd20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10634305130b0f465482cce025018d4929350513
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766661"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565449"
 ---
 # <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Gerando e uso de identificadores de entrada na mensagem de provedores de armazenamento
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando uma nova pasta ou mensagem é criada em um armazenamento de mensagens, o provedor de armazenamento de mensagem deve atribuir esse objeto em um identificador de entrada para que os aplicativos clientes podem se referir a ele. Provedores de armazenamento de mensagens podem reutilizar os identificadores de entrada de longo prazo expirado dos objetos excluídos ou criar novos identificadores. Não há nenhum requisito de uma forma ou outro para provedores de armazenamento de mensagem; No entanto, se ele for viável, um provedor de armazenamento de mensagem sempre deve gerar novos identificadores de entrada de longo prazo para novos objetos, em vez da reutilizando as antigas. Há problemas reutilizar os identificadores de entrada de curto prazo quando os objetos que se referem ao são excluídos.
   

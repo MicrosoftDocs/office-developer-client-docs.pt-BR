@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ea78d9487e4929c2df3d49a9b85ba4aefac90a59
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3ebb520de8929185a8b67b585976b4d768727b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562950"
 ---
 # <a name="pidtagalternaterecipient-canonical-property"></a>Propriedade canônica PidTagAlternateRecipient
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de identificadores de entrada para destinatários alternativos designados pelo destinatário original. 
   

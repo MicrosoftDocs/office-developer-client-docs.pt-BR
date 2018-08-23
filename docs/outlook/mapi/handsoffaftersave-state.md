@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4bc4d680903d81b51a39ed39db3861597443d116
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 274e7206171e1874e3625896952f861d25f3b382
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766692"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564532"
 ---
 # <a name="handsoffaftersave-state"></a>Estado HandsOffAfterSave
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O estado de HandsOffAfterSave faz parte do processo de salvar o conteúdo de um formulário em um armazenamento permanente. Quando nesse estado, o objeto form deve Evite as alterações as cópias na memória dos valores das propriedades da mensagem, pois não pode ser outra oportunidade salvar estas alterações. A tabela a seguir descreve as transições permitidas do estado de HandsOffAfterSave.
   

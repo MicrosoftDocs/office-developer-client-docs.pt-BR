@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a87f7595eb03062e54ea3aa8f7dca1f1b0f1e568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 377dc67b737f8b40c89d7f45d6fff544ce63193e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563881"
 ---
 # <a name="commonly-used-header-files"></a>Arquivos de cabeçalho usados com frequência
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cada tópico de referência inclui uma tabela que nomeia o arquivo de cabeçalho MAPI onde o elemento API está definido. A tabela a seguir descreve os arquivos de cabeçalho MAPI que frequentemente usam os desenvolvedores.
   

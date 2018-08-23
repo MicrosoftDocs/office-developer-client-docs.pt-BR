@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ece5340497f83862b711f076c8c6346e14ec9355
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 668e1c57c59bf2356be808e0347e1bd5135478a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770367"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563888"
 ---
 # <a name="sending-or-receiving-a-message-on-demand"></a>Enviar ou receber uma mensagem sob demanda
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os clientes normalmente dependem do subsistema de MAPI — o spooler MAPI e os provedores de serviço — para lidar com o tempo de transmissão de mensagem e recepção. No entanto, você pode alterar esse intervalo usando o objeto de status do spooler MAPI ou um provedor de transporte.
   

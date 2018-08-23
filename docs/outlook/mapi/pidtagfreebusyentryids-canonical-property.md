@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e0feaac0cb4c52b2f2acff1460a4d8a41196954d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564735"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propriedade canônica PidTagFreeBusyEntryIds Canonical Property
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém as **EntryIDs** para a mensagem de informação de representante, a mensagem de informações de disponibilidade do usuário conectado e a pasta cujo **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) é igual a "FreeBusy dados".
   

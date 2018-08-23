@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 09cac591aac9d266571348531e378974b86a3a9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9c75d0ae4b9fe060d6717dfa11ad418cbb715b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766580"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564644"
 ---
 # <a name="folder-associated-information-tables"></a>Tabelas de informações associadas à pasta
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI define o sinalizador MAPI_ASSOCIATED de vários componentes MAPI para usar quando lidando com as tabelas de informações associadas. Cada pasta em um repositório de mensagem deve ter uma tabela de conteúdo associado, juntamente com sua tabela de conteúdo padrão. Aplicativos cliente armazenam mensagens especiais na tabela de conteúdo associado de uma pasta para armazenar formulários e modos de exibição. Na verdade, para dar suporte a formulários e modos de exibição, seu provedor de armazenamento de mensagem deve implementar as tabelas de conteúdo associado.
   

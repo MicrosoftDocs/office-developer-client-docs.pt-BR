@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766679"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564588"
 ---
 # <a name="handling-message-store-notification"></a>Manipulação de notificação do repositório de mensagem
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para registrar para notificações do repositório de mensagens, chame o método o [IMAPISession::Advise](imapisession-advise.md) ou [IMsgStore::Advise](imsgstore-advise.md) e especifique um armazenamento de mensagens, uma pasta ou um identificador de entrada de mensagem no conteúdo do parâmetro _lpEntryID_ . Provedores de armazenamento de mensagem suportam a notificações de objeto e a tabela. Se você registrar com objetos de repositório de mensagem específica, com as tabelas de hierarquias e conteúdo de pasta que descrevem esses objetos ou com ambos os objetos e tabelas depende as notificações que o esperado, as chamadas feitas para executar operações, e como o provedor de armazenamento de mensagens oferece suporte a notificação. 
   

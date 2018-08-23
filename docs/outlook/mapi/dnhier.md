@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 3c7d59849fcd66a5fe90623b7bb8516d13b4a2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbf064201bf8d2733c3eea1e1a24f77b146a23c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564567"
 ---
 # <a name="dnhier"></a>DNHIER
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Informações para download de uma hierarquia do servidor durante o [estado de hierarquia de download](download-hierarchy-state.md), que é parte de uma sincronização de hierarquia completa. Este processo de download usa a sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
   

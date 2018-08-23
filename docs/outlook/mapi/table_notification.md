@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565841"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma linha em uma tabela que foi afetada por algum tipo de evento, como uma alteração ou um erro. Isso faz com que uma notificação de tabela a ser gerado. 
   

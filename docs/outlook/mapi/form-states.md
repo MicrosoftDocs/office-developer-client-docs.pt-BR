@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 195a82bfcc163ee01d2d42c71e79a8f5c9c620e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564630"
 ---
 # <a name="form-states"></a>Estados de formulário
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Objetos de formulário podem estar em um dos cinco estados distintos, dependendo do que métodos tiverem sido chamados neles e se ocorreu algum erro na execução desses métodos. Os estados são descritos nos tópicos a seguir:
   

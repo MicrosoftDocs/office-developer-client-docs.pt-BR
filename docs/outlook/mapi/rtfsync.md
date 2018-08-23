@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565736"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Certifica-se de que o texto da mensagem de Rich Text Format (RTF) corresponda à versão de texto sem formatação. É necessário chamar essa função antes de ler a versão RTF e depois de modificar a versão RTF. 
   

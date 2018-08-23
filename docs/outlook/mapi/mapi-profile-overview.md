@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 573709c4374786bb1bd3d763c8ba91de59f7fb1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767897"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563909"
 ---
 # <a name="mapi-profile-overview"></a>Visão geral do perfil MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um perfil é uma coleção de informações sobre os serviços de mensagens e provedores de serviços que um usuário de um aplicativo cliente quer esteja disponível durante uma determinada sessão MAPI. Cada usuário tenha pelo menos um perfil; muitos usuários manter vários. Por exemplo, um usuário pode ter um perfil para trabalhar com um serviço de repositório de mensagens baseado em servidor e outro perfil para trabalhar com um serviço de repositório de mensagem no computador local. Um usuário talvez queira acessar um conjunto de sistemas de mensagens usando os serviços de transporte adequado para a parte do dia e outro conjunto para o restante do dia. Perfis fornecem uma maneira flexível para selecionar combinações de serviços do sistema de mensagens. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 80c11dd3-775b-4c66-afc2-b31d7bbcad9f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 863dcc0a3a5081be74365ba22fea097b9e9e86f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 743779a815274ae00fae7bacfe9755fc574f38be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563671"
 ---
 # <a name="pidtagdistributionlistexpansionprohibited-canonical-property"></a>Propriedade canônica PidTagDistributionListExpansionProhibited
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de Expandindo listas de distribuição.
   

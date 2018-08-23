@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c820571b-0ef3-4ab3-af81-cc8cbba0d840
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ed0fae17f0385775811102161b3c46c4cdfdf7f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51e00c8f6abc54b5df3aacd1ab8d38904670e127
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563913"
 ---
 # <a name="pidnamexsharingremotestoreuid-canonical-property"></a>Propriedade canônica PidNameXSharingRemoteStoreUid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa o valor da propriedade **dispidSharingRemoteStoreUid** ([PidLidSharingRemoteStoreUid](pidlidsharingremotestoreuid-canonical-property.md)).
   

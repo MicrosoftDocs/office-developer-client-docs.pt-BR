@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f623345-b30e-452f-a822-9308b455697a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1ad4f83cb9021cef82ce62b6b6f5616a3fc3d118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20dcef118a5e3f513f8330802684a59f0f0dcf73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768828"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565344"
 ---
 # <a name="pidnamecontentclass-canonical-property"></a>Propriedade canônica PidNameContentClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de campo de cabeçalho de classe de conteúdo [RFC3282].
   

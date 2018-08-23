@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3095907498b1ce7ae6b3666e0678dd0c5f76c23e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 828d7ebcbceead02441165e3af92ec7b47d9f001
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766772"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564623"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Separa a representação ASCII do identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens para o identificador de entrada desse objeto no repositório e o identificador de entrada da loja. 
   

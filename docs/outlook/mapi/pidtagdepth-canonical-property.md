@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 25af87004ef5616a6c6fc575c647fdd1794d710f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 100d59a0fd95fcad1976e82aebf6892227c08ec9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564910"
 ---
 # <a name="pidtagdepth-canonical-property"></a>Propriedade canônica PidTagDepth
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número inteiro que representa o nível relativo de recuo ou profundidade, de um objeto em uma tabela de hierarquia.
   

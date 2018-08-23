@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c70fd9eb771268db4030cefdf2f27b75ae5963b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767765"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564889"
 ---
 # <a name="launching-a-form-server"></a>Iniciar um servidor de formulário
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A série de interações que ocorre quando um formulário é carregado do armazenamento persistente (ou seja, a partir de uma biblioteca de formulários) exibir uma mensagem é da seguinte maneira:
   

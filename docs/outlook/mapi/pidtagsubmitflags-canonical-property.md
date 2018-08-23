@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 444d98c4e8e32e0cc7d2eb8af753a394af1f020c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb048d622aaf3cfa97f380e21324749d7421603e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770107"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563685"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriedade canônica PidTagSubmitFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores indicando detalhes sobre o envio de uma mensagem.
   

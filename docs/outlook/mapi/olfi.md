@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ff23472254df2bd9d2195c7cf2c4258b856ec430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768171"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564259"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fila de longo prazo estruturas de ID usado pelo provedor de repositório de pastas particulares (. PST) do arquivo para atribuir uma ID de entrada para uma nova mensagem ou a pasta no modo offline.
   

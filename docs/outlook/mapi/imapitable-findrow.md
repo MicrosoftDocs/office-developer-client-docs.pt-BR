@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2a50a5f536e337e5ca37e61f17d4dfd40aa9c51e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767324"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565330"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::ExpandRow
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Localiza a próxima linha em uma tabela que corresponde a determinados critérios de pesquisa e move o cursor para essa linha.
   

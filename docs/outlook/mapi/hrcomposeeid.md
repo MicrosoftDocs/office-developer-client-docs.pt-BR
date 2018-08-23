@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a9aa6deeca930da82db61ba517796bfbc0676467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 335fac38ff3f084195a000ad32a27adcb85c1cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564812"
 ---
 # <a name="hrcomposeeid"></a>HrComposeEID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um identificador compostos de entrada para um objeto, geralmente em uma mensagem em um armazenamento de mensagens. 
   

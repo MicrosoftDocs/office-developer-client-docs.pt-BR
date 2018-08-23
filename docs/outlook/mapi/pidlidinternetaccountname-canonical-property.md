@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 29bedadf-903d-419d-804d-dc8bd92b745d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6705b121c58e0ff14726f835c779237cb35c32a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ac47f150ebdd39ed5f2abe4b30a2cac5768fd229
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768495"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565127"
 ---
 # <a name="pidlidinternetaccountname-canonical-property"></a>Propriedade canônica PidLidInternetAccountName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome da conta de email do usuário visíveis através do qual a mensagem de email é enviada.
   

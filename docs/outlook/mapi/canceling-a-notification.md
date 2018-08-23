@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8cd96dd22daeb98646a62672bd17f7de4d2f7dab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50d1fb451cbfcd07f97c5b12a9c86c03a435faa6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766248"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564770"
 ---
 # <a name="canceling-a-notification"></a>Cancelar uma notificação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para cancelar uma notificação, clientes chame método de **Unadvise** de uma fonte advise. Chamar **Unadvise** é importante, porque ele faz com que o provedor de serviços liberar a sua referência para o seu coletor advise. Um provedor de serviço mantém uma referência para um coletor advise, desde que o coletor de eventos advise pode continuar a receber chamadas de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Na verdade, devido à natureza assíncrona da notificação de evento, clientes podem ser notificados mesmo depois de chamar um bem-sucedida **Unadvise** . Clientes devem estar aptos a lidar com o recebimento de notificações a qualquer momento. 
   

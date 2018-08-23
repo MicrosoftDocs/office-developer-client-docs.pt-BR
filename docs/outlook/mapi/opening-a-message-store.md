@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 39d6df6db329abf7509f816165341ea0eda8331b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bab31dbcd1f7139980d7df5559c1ee52a6f167f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563643"
 ---
 # <a name="opening-a-message-store"></a>Abrindo um armazenamento de mensagens
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Dependendo do perfil, um cliente precisará abrir um ou mais armazenamentos de mensagem durante uma sessão típica. Abrir um repositório de mensagem significa que tenha acesso a um ponteiro para seu [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) implementação. A interface **IMsgStore** fornece métodos para fazer atribuições de pasta e o acesso às pastas e mensagens de notificação. 
   

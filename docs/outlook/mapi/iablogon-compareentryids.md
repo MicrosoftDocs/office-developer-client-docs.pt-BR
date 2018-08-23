@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 03256f2dec62d0228c4d5456dcd1b60f66b13ad2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766843"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565001"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto.
   

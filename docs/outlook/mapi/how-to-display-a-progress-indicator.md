@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3c4c553a000dab233eb208c1222cc427c97b1e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62549cbeea0044ceee8aa2e704b8a9bc271b7e8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564490"
 ---
 # <a name="display-a-progress-indicator"></a>Exibir um indicador de progresso
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para exibir um indicador de progresso, chame [IMAPIProgress::GetFlags](imapiprogress-getflags.md) para recuperar os sinalizadores atuais definição. 
   

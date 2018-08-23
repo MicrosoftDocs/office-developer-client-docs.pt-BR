@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 00d5b2bfc6b0c024f0ef12ce19fed90ef0af6721
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564651"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Estabelece o contêiner especificado como o contêiner de catálogo de endereços padrão.
   

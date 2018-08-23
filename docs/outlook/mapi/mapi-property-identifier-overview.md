@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 725256a64cb7d55be494ba623247255dfe5936c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cf2f08a69ee87c40789b764596e514c91483c2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563153"
 ---
 # <a name="mapi-property-identifier-overview"></a>Visão geral do identificador de propriedade MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um identificador de propriedade é um número que é usado para indicar que uma propriedade é usada e quem é responsável por ela. Identificadores de propriedade são divididos por MAPI em intervalos; onde um identificador cai no intervalo indica seu uso e a propriedade. 
   

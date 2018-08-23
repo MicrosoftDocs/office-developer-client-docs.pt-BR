@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c91ab5c7-82ac-4895-bf54-2863ca5e2410
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0333f0c309d89436c50a58124500f1b359584954
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad98be2a457a1f7152f428f4aae834848a3b0536
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564553"
 ---
 # <a name="pidlidsharingflavor-canonical-property"></a>Propriedade canônica PidLidSharingFlavor
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Designa como uma propriedade de uma mensagem de compartilhamento.
   

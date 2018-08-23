@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 6e8b618e477475e8e7f45c266791086af63d8bfb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766564"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565015"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Localizar mensagens enviadas ou salvas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  **Para localizar todas as mensagens de saída que você salva ou enviado**
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 486b1f913e7c3c76886232c48fa842e25e1f7905
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b17a5791db4ccb840224785dd71a2ed52143cbaf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768723"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565442"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Propriedade canônica PidLidTaskStartDate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A data quando o usuário espera para começar a tarefa.
   

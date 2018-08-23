@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ea95ea4efbbf50e5551a27eb81fe5d5ab3b73948
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767071"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565540"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna a pasta na qual a mensagem atual foi criada ou aberta, se existir uma pasta tal. Este método retornará NULL no parâmetro _ppFolder_ mensagens incorporado, o que não são armazenadas diretamente em uma pasta. 
   

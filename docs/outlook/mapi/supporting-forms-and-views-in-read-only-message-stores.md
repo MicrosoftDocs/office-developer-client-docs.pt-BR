@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1ef9b85fd8dad980f92f5e06a4b54daf146fbcec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770536"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563349"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Suporte a formulários e modos de exibição em repositórios de mensagens somente leitura
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se seu provedor de armazenamento de mensagens permite que a permissão somente leitura para o mecanismo de armazenamento subjacente, os aplicativos cliente e o Gerenciador de formulário MAPI poderão realizar certas tarefas. Especificamente, os clientes não poderão adicionar ou modificar modos de exibição personalizados e o Gerenciador de formulário MAPI poderão instalar formulários nas tabelas de pastas do repositório de conteúdo associado.
   

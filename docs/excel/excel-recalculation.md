@@ -1,7 +1,7 @@
 ---
 title: Recálculo do Excel
 manager: kelbow
-ms.date: 03/09/2018
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9964f2c4282158e83891d82ba43fa19f23ab1eb6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70ca322173fb76eb1871d841b6246b62b3a5000a
+ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765336"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554166"
 ---
 # <a name="excel-recalculation"></a>Recálculo do Excel
 
- **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
+**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
 O usuário pode disparar o recálculo no Microsoft Excel de várias maneiras, por exemplo:
   
@@ -131,6 +131,8 @@ Recálculo das tabelas de dados é tratado ligeiramente diferente:
 - Recálculo é tratado de maneira assíncrona para o recálculo de pasta de trabalho normal para que tabelas grandes podem demorar mais recalcular do resto da pasta de trabalho.
     
 - Referências circulares são toleradas. Se o cálculo que é usado para obter o resultado depende de um ou mais valores da tabela de dados, o Excel não retornará um erro quando a dependência circular. 
+
+- Tabelas de dados não use cálculo multithread.
     
 Devido a maneira de diferente que Excel manipula o recálculo de tabelas de dados e o fato de que as tabelas grandes que dependem de cálculos de longos ou complexos podem levar muito tempo para calcular, o Excel permite que você desabilite o cálculo automático de tabelas de dados. Para fazer isso, defina o modo de cálculo para automático, exceto tabelas de dados. Quando o cálculo é neste modo, o usuário recalcula as tabelas de dados pressionando F9 ou alguma operação programática equivalente.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 29579f91a85e74b568610c749d9408f813f157f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f36562ba189cd8f547056b93c0f0373ee9a3360
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563489"
 ---
 # <a name="pidtagrulesequence-canonical-property"></a>Propriedade canônica PidTagRuleSequence
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um valor usado para determinar a ordem na qual as regras são avaliadas e executadas. 
   

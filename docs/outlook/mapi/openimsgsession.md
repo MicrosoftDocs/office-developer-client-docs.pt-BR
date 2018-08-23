@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e7f652e7426792d8b4c878b7f6738439aec65348
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564952"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria e abre uma sessão de mensagem que agrupa as mensagens criadas com ela. 
   
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE [IMalloc](http://msdn.microsoft.com/library/047f281e-2665-4d6d-9a0b-918cd3339447%28Office.15%29.aspx) . MAPI deve usar esse método de alocação ao trabalhar com a interface OLE [IStorage](http://msdn.microsoft.com/library/stg.istorage%28Office.15%29.aspx) . 
+> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI deve usar esse método de alocação ao trabalhar com a interface OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) . 
     
  _ulFlags_
   

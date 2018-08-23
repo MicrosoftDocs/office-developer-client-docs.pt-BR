@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: 'Modificado pela última vez: 13 de agosto de 2013'
-ms.openlocfilehash: 346e6bc471f5257aacb34c2e7d02a0aade1bb46e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 472b5847053c0a18026c76b8055a26551331d8dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564539"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obter uma mensagem de contato recebe uma entrada de catálogo de endereços de contatos
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém um exemplo em C++, `HrOpenContact`, que mostra como usar a estrutura [CONTAB_ENTRYID](contab_entryid.md) que identifica uma entrada no catálogo de endereços de contatos para obter a mensagem de contato de MAPI associada. 
   

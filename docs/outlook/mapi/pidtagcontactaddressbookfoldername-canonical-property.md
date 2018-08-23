@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a4a72e6d5136d7e78648cb62849f7162b7b35f6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565407"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Propriedade canônica PidTagContactAddressBookFolderName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um nome de pasta usado para entradas do catálogo de endereços.
   

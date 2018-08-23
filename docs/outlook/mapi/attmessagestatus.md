@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 158e4db4b0f80b80385e85c8afa16fa515dc61b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565743"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Sinalizadores de mensagem MAPI são mapeadas para TNEF sinalizadores para preservar a compatibilidade com versões anteriores. Todos os sinalizadores são agrupados e codificados em um único byte. Os mapeamentos são:
   

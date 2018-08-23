@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0c38a59f-597c-4f1b-bdbb-788d4f8b1c9c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8329956d05eed80d1c6a1980a7ba99c5f2085b68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93791f2dbe7f412fca71bdd5198474b828b2fa12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563545"
 ---
 # <a name="pidnamenotecount-canonical-property"></a>Propriedade canônica PidNameNoteCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o número de anotações do arquivo que está anexado ao documento.
   

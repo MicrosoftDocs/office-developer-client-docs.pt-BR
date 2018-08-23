@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c342bb2a-157e-4748-bf21-0926f95e5312
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cf62338ef2dfca2c4e7edc3cdf05ffae50f269e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c57324972f02366822a64e9e6c642d0f22ce158b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563377"
 ---
 # <a name="pidtagreceivedrepresentingaddresstype-canonical-property"></a>Propriedade canônica PidTagReceivedRepresentingAddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tipo de endereço para o usuário de mensagens que é representado pelo usuário, na verdade, recebendo a mensagem.
   

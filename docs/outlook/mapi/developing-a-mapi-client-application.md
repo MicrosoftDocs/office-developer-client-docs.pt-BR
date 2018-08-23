@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bcb59b08-e6d7-4739-8cb5-e545bd0d478f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 42558fcc3d94b108c0dabb92d62f7c61fdf3039f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bffcfdd6d688c483655b97d61075b147430e3fcc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564973"
 ---
 # <a name="developing-a-mapi-client-application"></a>Desenvolver aplicativos cliente MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos de cliente MAPI são gravados com a interface de cliente MAPI orientada a objeto. Clientes MAPI interagem com um ou mais sistemas de mensagens por meio do subsistema MAPI e os provedores de serviço compatível com MAPI. Essa interação pode ocorrer de várias maneiras diferentes; Não há uma enorme variedade em aplicativos cliente. A maioria dos clientes são mensagens de clientes, a integração de mensagens em seu conjunto de recursos estabelecidas ou realização de mensagens como seu recurso principal. Outros recursos que podem fornecer a clientes MAPI incluem a administração de perfil ou gerenciamento de repositório de mensagem e catálogo de endereços.
   

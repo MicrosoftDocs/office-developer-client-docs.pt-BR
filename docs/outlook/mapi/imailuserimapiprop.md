@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0c70d16d294426d30f3ac5f00b6bc46992386a86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564560"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso às propriedades muitos que estão associados aos usuários de mensagens. A interface de **IMailUser** é implementada por objetos de usuário de mensagens. **IMailUser** herde a [IMAPIProp: IUnknown](imapipropiunknown.md) interface e não possui exclusivos métodos sua própria conta. 
   

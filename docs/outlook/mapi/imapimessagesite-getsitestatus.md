@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7d81533b13f4f44a0644215e009dc3477717e9a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b804728541b0f2a0499bbf0078bfee2e5aed6ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563804"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna informações de um objeto de site de mensagem sobre a mensagem de recursos do site da mensagem atual.
   

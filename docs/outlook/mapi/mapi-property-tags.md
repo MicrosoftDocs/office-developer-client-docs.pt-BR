@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8dc37f1b594eeaa199b48f5946d10e60427d4988
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 314d2d6987a8bc669239652b83a31b5927723c68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767926"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562922"
 ---
 # <a name="mapi-property-tags"></a>Marcas de propriedade MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma marca de propriedade é um número de 32 bits que contém um identificador exclusivo de propriedade em bits 31 até 16 e um tipo de propriedade em bits 0 a 15, conforme mostrado na ilustração a seguir. 
   

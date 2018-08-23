@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28c269db15d0c0a81950a61ee9e6629ad067b789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12226039457782162eb74a19713fa77936332f80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565141"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>Propriedade canônica PidTagIdentitySearchKey
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a chave de pesquisa para a identidade de um provedor de serviços, conforme definido em um sistema de mensagens. 
   

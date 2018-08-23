@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 10d45a99-54aa-4721-8847-1c7033a8a5b5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b6ee348ba63be4220114992379f4e71801884c9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08495ef0a38fda52c0cd011277995cf21ea756f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768384"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564469"
 ---
 # <a name="pidlidemail2originalentryid-canonical-property"></a>Propriedade canônica PidLidEmail2OriginalEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a **EntryId** do objeto que corresponde ao endereço de email da segundo. 
   

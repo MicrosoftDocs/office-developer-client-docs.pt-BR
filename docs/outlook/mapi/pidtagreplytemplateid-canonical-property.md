@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 03569d05f724df773b1ca3aaf8b7a8f5132b8681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8af182d905a1b7449d96a525696fb6af912d3ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769825"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563790"
 ---
 # <a name="pidtagreplytemplateid-canonical-property"></a>Propriedade canônica PidTagReplyTemplateId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador globalmente exclusivo (GUID) para o modelo de resposta.
   

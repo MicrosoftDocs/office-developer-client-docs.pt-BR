@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19766179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563811"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica se o Microsoft Office Outlook deve examinar as pastas em um repositório e arquivá-los automaticamente.
   

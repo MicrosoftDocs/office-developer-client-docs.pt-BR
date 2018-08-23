@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3a38a4604230c0aa3f5b0d104ae3b838f544b31d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf8cf115c6188b5058717437c470e11797ff5b9a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770280"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564959"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa estrutura fornece informações sobre um fluxo no formato nativo retornado da descompactando o corpo de uma mensagem que é encapsulado no compactado Rich Text Format (RTF).
   

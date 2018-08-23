@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 694d63165bb820ffef1a29d1646861435fc4ed26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5127f5aef50b1040b3e6f4bc644395f2af7555cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563538"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Leia e analisar um padrão de recorrência
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI pode ser usado para ler e analisar um padrão de recorrência de um compromisso.
   

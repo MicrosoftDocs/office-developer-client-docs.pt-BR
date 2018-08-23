@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2000e6e8-d908-4814-8093-28f8011250c8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 74061f33a88dceb371cad00ef44f611b583f7ae2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5bc464bc5a251579d262f5926193b7f7a731728
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563655"
 ---
 # <a name="pidtagnormalizedsubject-canonical-property"></a>Propriedade canônica PidTagNormalizedSubject
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o assunto da mensagem com nenhum prefixo removido.
   

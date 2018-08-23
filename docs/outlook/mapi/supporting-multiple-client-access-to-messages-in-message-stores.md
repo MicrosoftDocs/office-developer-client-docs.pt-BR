@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 31885c64-edb2-4a87-8730-09f163dedd40
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f48fa1712b6e09e5a73f331228a811b4eb8d284d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b13fbb9f2807c9814fed5ba3bcca8fe73aaa7b01
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564217"
 ---
 # <a name="supporting-multiple-client-access-to-messages-in-message-stores"></a>Suporte a vários acesso do cliente para mensagens em repositórios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 É possível para vários aplicativos de cliente abrir uma determinada mensagem simultaneamente. Provedores de armazenamento de mensagem não precisará Siga todas as regras específicas para administrando tal acesso. No entanto, se os aplicativos cliente modificar a mensagem e salvem suas alterações, o provedor de armazenamento deve ser compatíveis com as regras a seguir:
   

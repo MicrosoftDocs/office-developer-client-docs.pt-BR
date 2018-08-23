@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 807e592cf535ac060fd275075035ae8beb7d6e78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564847"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Compara dois identificadores de entrada que pertencem a um provedor de catálogo de endereço específico para determinar se eles se referem ao mesmo objeto de catálogo de endereços. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 390cec0cc59f189f83af2c5339512d82e125771e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563013"
 ---
 # <a name="tables-and-memory-usage"></a>Tabelas e uso de memória
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma questão importante conectada com a recuperação de dados de uma tabela é o uso de memória. Falta de memória disponível pode causar [IMAPITable:: QueryRows](imapitable-queryrows.md) e [HrQueryAllRows](hrqueryallrows.md) falha, retornando menor do que o número de linhas desejado. Decidir qual método ou a função a ser usada para recuperar dados da tabela depende se a tabela pode ser esperada para ajustá-la na memória e se for possível, se a falha é aceitável. 
   

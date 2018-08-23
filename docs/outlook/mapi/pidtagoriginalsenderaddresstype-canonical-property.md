@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5cac96287db9638f699b75e0c387e003beb5e197
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba0d68482c06a1f6d9ccdae95f63e980a1fd23e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769576"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563741"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propriedade canônica PidTagOriginalSenderAddressType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tipo de endereço do remetente da primeira versão de uma mensagem, ou seja, a mensagem antes que está sendo encaminhada ou respondida.
   

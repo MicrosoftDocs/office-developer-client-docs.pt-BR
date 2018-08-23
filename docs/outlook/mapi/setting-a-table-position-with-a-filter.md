@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4c3a5c13433fb2f037be24ddd4c877579429f7bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c4db9c67fc712143657fe66b86ea33ef2b9c272
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770384"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565589"
 ---
 # <a name="setting-a-table-position-with-a-filter"></a>Definir uma posição de tabela com um filtro
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os usuários da tabela podem mover o cursor para uma linha que corresponde a um conjunto de critérios de filtro. Filtros podem ser baseados em uma variedade de diretrizes como valores de propriedade de coluna, bitmasks ou subobjetos. Filtros são especificados em MAPI usando uma estrutura [SRestriction](srestriction.md) . 
   

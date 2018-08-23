@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c6726b852176fa31bf879b5a32b63c35ce2be514
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa7f6ac116bf5255d2598465085bab2695ae2c25
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766456"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564511"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém informações sobre uma caixa de seleção que será usada em uma caixa de diálogo construída a partir de uma tabela de exibição. 
   

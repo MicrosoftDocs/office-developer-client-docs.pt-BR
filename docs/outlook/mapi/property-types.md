@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fd0f25f20c9e628a80d27f2b70e01dacc98229b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fba09af82a3eccc05c72e44ffea14ca979714ff0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770201"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563594"
 ---
 # <a name="property-types"></a>Tipos de propriedades
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI suporta as propriedades de valor único e de valores múltiplos. Com uma propriedade de valor único, há um valor do tipo base da propriedade. Com uma propriedade de valores múltiplos, há vários valores do tipo base. 
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 338ae3c3c8d8b4037ab0c7b46916e45cf5a8ded2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 125147ed7d6cd90c1069aa5cc1c759abe752dfe2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564518"
 ---
 # <a name="about-notification-based-store-indexing"></a>Sobre a indexação de repositórios baseados em notificação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de repositório MAPI pode especificar se o manipulador de protocolo MAPI rastreamentos e índices de mensagens no repositório ou se o repositório envia notificações para o indexador quando há mensagens a serem indexados. O último é conhecido como indexação baseada em notificação e um repositório que ofereça suporte a indexação baseada em notificação é um conhecido como um repositório pusher.
   

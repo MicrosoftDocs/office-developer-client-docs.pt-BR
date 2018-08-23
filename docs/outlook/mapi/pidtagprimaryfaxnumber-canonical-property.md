@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a95330ab-fde7-4ad1-82ce-143ff2120306
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d08bd4d3932c2e0b4d7d179bb9e0cb04467e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8be851270b4b4212928728eb8c7f44996f91d6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563658"
 ---
 # <a name="pidtagprimaryfaxnumber-canonical-property"></a>Propriedade canônica PidTagPrimaryFaxNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone principal aparelho do destinatário de fax.
   

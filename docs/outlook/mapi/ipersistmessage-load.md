@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: eff192b0d2b5cde51a2909452b19ffe1a47b2c04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565169"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Carrega o formulário para uma mensagem especificada.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e8d0e79e01040c1cc3d46e73a7e6a456a915a67f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efa778f51ac047c911deb6a3c4d5d9e718dc33fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769855"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565036"
 ---
 # <a name="pidtagrowid-canonical-property"></a>Propriedade canônica PidTagRowid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um identificador exclusivo para um destinatário em uma tabela de destinatários ou a tabela de status.
   

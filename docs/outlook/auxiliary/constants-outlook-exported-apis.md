@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Este tópico contém definições constantes para APIs que exporta do Outlook.
-ms.openlocfilehash: 54b491e436b7b9275a227de40439ddb66d8d0c5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765796"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564462"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (Outlook exportados APIs)
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificadores de expedição Miscellaneous
 
-Outlook expõe os seguintes identificadores de expedição (dispids) para que os desenvolvedores podem usar [IDispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) para acessar o método ou a propriedade correspondente ou ouvir o evento correspondente. 
+Outlook expõe os seguintes identificadores de expedição (dispids) para que os desenvolvedores podem usar [IDispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para acessar o método ou a propriedade correspondente ou ouvir o evento correspondente. 
   
 |**Constante associada**|**Valor DISPID**|**Descrição**|**Interface aplicável**|
 |:-----|:-----|:-----|:-----|

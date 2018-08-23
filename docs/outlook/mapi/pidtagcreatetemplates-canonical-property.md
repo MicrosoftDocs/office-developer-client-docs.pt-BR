@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 82da274670c9266a746defcf6bbd5dbcf621901b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563356"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Propriedade canônica PidTagCreateTemplates
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um objeto incorporado de tabela que contém os identificadores de entrada de modelo de caixa de diálogo. 
   

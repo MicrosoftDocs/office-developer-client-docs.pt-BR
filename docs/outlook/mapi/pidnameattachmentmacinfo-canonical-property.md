@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 375eac56253772b363ae320b3f7044ac600e71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633a7e0ea7cc2b6ffdbc555e2e470ec66ef77f8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565603"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Propriedade canônica PidNameAttachmentMacInfo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de anexo [RFC3282] é composta de dados de bifurcação de cabeçalho e o recurso apropriado usados pelos clientes de email baseada em Macintosh.
   

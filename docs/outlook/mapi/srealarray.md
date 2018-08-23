@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c64e9a7497a70ea34dc09a5749dd281a24f9413d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564280"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de valores float que são usadas para descrever uma propriedade do tipo PT_MV_R4. 
   

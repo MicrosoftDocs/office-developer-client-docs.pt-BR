@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cad25cca-248d-4845-9d60-7aa60f2dda62
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cba8de706e7262ff59abdb6367fb505a2303dcf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d1d2a20720bd1c4b15464cd24aac4415721ae8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769801"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563174"
 ---
 # <a name="pidtagremindersonlineentryid-canonical-property"></a>Propriedade canônica PidTagRemindersOnlineEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a **EntryID** da pasta lembretes. 
   

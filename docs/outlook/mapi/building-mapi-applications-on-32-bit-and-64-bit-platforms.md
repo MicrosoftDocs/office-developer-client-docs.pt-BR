@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dce3f4b5bfdcb34148c25c880d8d2d8173755b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766246"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563573"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Compilando aplicativos MAPI em plataformas de 32 bits e 64 bits
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico descreve as ações que os desenvolvedores MAPI devem ser adotada para alterar e reconstruir aplicativos MAPI de 32 bits para ser executado em uma plataforma de 64 bits e aplicativos de 64 bits sejam executados em uma plataforma de 32 bits. Neste tópico, uma plataforma de 64 bits é um computador instalado com o Windows de 64 bits e de 64 bits Microsoft Outlook e uma plataforma de 32 bits é um computador instalado com um Outlook de 32 bits e Windows de 32 bits ou 64 bits. 
   

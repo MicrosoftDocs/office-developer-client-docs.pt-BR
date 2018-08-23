@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1093975e6cbdd79004125a0a4a3098ffa421ab0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a83e1e28534cc237419d9c4ae475c1d719c5de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565071"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Suporta o acesso a objetos de tabela do Microsoft Exchange Server, especificamente acesso ao sistema controlar objetos da tabela SACL (lista) e regra objetos table em pastas do Microsoft Exchange Server. Esta interface é semelhante a [IMAPITable: IUnknown](imapitableiunknown.md) interface, mas ele adiciona suporte a estruturas específicas de servidor Microsoft Exchange que são usadas para controlar a SACL e regras. 
   

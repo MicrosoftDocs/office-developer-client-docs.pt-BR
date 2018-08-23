@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76ad693b05e3989bd64ba66565ae4def22110ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564896"
 ---
 # <a name="folderuserfields-stream-sample"></a>Exemplo de fluxo de FolderUserFields
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico descreve um exemplo de um fluxo de FolderUserFields. O fluxo contém uma definição de um campo definido pelo usuário, `TextField1`. O tipo é **texto**e o fluxo de FolderUserFields contém FolderUserFieldsAnsi e o FolderUserFieldsUnicode partes. Para obter mais informações, consulte [Estruturas de fluxo de campos de pastas](folder-fields-stream-structures.md).
   

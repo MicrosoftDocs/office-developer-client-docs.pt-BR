@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e8266b0fcac8318420bd67cfd90e8ff594638cf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 545249f4777abc7d1a0a566631c777a6a1ba190b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769075"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563756"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>Propriedade canônica PidTagContactAddressBookStoreEntryIds
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém as identificações de entrada dos repositórios nas quais pastas que agem como endereço de contato foram encontradas entradas de catálogo.
   

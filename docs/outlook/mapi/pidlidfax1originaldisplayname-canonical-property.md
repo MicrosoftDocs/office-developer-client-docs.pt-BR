@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1520e27f-e261-4a94-be06-31cd47bea4a0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 02ca23ff3e0f7b764179517bb4ebba5f86216534
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9bcb3ac39568a771679c1797c17249edf6cd2d8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768402"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563398"
 ---
 # <a name="pidlidfax1originaldisplayname-canonical-property"></a>Propriedade canônica PidLidFax1OriginalDisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome para exibição original do endereço de fax comercial do contato.
   
