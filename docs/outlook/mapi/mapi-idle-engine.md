@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c535da245be09f930a70c5fae2a892f33087ebf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fdc254053c2d35c83866bd8a076279fd383db02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583033"
 ---
 # <a name="mapi-idle-engine"></a>Mecanismo de ociosidade de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI fornece várias funções que são conhecidas coletivamente como o mecanismo de ocioso. Essas funções permitem que os clientes, provedores de catálogo de endereços e provedores de armazenamento de mensagem realizar várias tarefas nos momentos lentos na sessão ou em resposta a um longo período. Por exemplo, clientes e provedores de serviços podem adiar operações lentas ou fechar arquivos que permaneceram não utilizados por um longo período. Provedores de transporte normalmente não usam o mecanismo de ociosidade porque o método **IXPLogon::Idle** assume seu lugar. Para obter mais informações, consulte [IXPLogon::Idle](ixplogon-idle.md).
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f198be78dd36a6d0c9439da68ab322cd8cfa4172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582914"
 ---
 # <a name="handing-address-book-notification"></a>Notificação de catálogo de endereços de manusear
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notificações de catálogo de endereços permitem que um cliente saiba de eventos que ocorrem com qualquer entrada do catálogo de endereços ou como uma entrada específica. Você pode registrar para essas notificações por meio do catálogo de endereços MAPI chamando [IAddrBook::Advise](iaddrbook-advise.md) ou hierarquia de um contêiner catálogo de endereços ou de tabela de conteúdo chamando [IMAPITable::Advise](imapitable-advise.md). 
   

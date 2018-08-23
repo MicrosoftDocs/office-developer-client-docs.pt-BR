@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0e89c2ad37b700a977962e5e0ff0ca30b9d910e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29a61ff8f7894c5582d31895bacd74e1ebcaa49c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768180"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583873"
 ---
 # <a name="objects-and-the-mapi-architecture"></a>Objetos e a arquitetura do MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todos os objetos que MAPI define se encaixam em uma ou mais camadas da arquitetura de MAPI. A camada da interface de cliente contém todos os objetos que um aplicativo cliente, o Visualizador do formulário ou o servidor de formulário pode implementar. A camada de interface do provedor de serviço contém os objetos que pode ser implementar um provedor de serviços de qualquer tipo. Essa camada inclui objetos implementados por catálogos de endereços, repositórios de mensagem, provedores de transporte e bibliotecas de formulários. A camada que representa o subsistema de MAPI está posicionada entre as camadas de interface de provedor de cliente e de serviço. A camada MAPI contém todos os objetos que implementa o MAPI para clientes ou provedores de serviço para usar. 
   

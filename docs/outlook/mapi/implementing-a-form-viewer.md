@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 645f98342b4b3ec2bebf3f233f719bd5cae69da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad0da261b3059ca83f2d547c25a508ec9337aa72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584741"
 ---
 # <a name="implementing-a-form-viewer"></a>Implementar um visualizador de formulários
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um visualizador de formulário inclui três objetos: um site de mensagem, coletor de eventos e um contexto de modo de exibição de aviso de um modo de exibição. Cada um desses objetos permite que você interaja com um servidor de formulário e seus formulários.
   

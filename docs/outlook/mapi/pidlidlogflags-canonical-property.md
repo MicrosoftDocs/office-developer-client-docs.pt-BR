@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7b2dd30511927f8df8a8bc587a6b1fedd5854810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f85fdc701a29f5865700c6519d589212a06fd0af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585777"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Propriedade canônica PidLidLogFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Inclui metadados sobre o diário.
   

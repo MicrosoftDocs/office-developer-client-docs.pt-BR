@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 73a99e52-97fe-40f5-af90-52cfd858ab22
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d8af2ba3067dabe759056313eb278b9901510980
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fc39c6d7da0970ee15cdd9dd67bfeef0997d7d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582865"
 ---
 # <a name="mapi-progress-indicators"></a>Indicadores de progresso MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Muitas das operações que podem ser executadas para clientes podem levar muito tempo para ser concluída. Para informar aos clientes sobre o progresso de uma operação demorada, você pode mostrar um indicador que exibe graficamente a terminar parte de uma operação em qualquer ponto do início da operação para sua conclusão. O indicador de progresso mostra uma porcentagem do total a operação seja concluída.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0d75616aaa6599709828d32393a316c642bc613b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3988596cc0b9c01d526354dabef3a6e7fdefc3b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770019"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583222"
 ---
 # <a name="pidtagserviceentryname-canonical-property"></a>Propriedade canônica PidTagServiceEntryName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome da função de ponto de entrada para a configuração de um serviço de mensagem.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c1d333c7c019c30c3f6c6b3567453f2f022d4b5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f68de5e18d84c728241c188b932f99456f5be8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584832"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Converte um número binário em uma representação de cadeia de caracteres de um número hexadecimal. 
   

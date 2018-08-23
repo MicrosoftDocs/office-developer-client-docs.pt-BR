@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 90333258-8913-4f98-aefb-4cc2ab34abcf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e8ae52df1dd9775f706e2b1b2dc8b17b1f47a0bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e577ad597df1a4d206cf2c080edfd53499754027
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584258"
 ---
 # <a name="pidtagmessagerecipientme-canonical-property"></a>Propriedade canônica PidTagMessageRecipientMe
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se esse usuário de mensagens é especificamente denominado primário (a), cópia carbono (CC) ou destinatário de cópia oculta (Cco) desta mensagem e não faz parte de uma lista de distribuição. 
   

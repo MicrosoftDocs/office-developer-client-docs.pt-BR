@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 560106e98f446529a68eded88a8f8283dd3f531d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c27e320341f2e2072fa45828263e2cb3873f6ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584209"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Propriedade canônica PidTagInternetArticleNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um número associado a um item em um armazenamento de mensagens.
   

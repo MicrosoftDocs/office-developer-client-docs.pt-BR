@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4206b003-2304-4215-9844-8ff4305cc2f4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0c9b3419147fec76d065e187adf76a2481d614c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e27ca666ca07675369eca310da8ad2acb6c37a4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584251"
 ---
 # <a name="pidtagpagertelephonenumber-canonical-property"></a>Propriedade canônica PidTagPagerTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número do pager do destinatário.
   

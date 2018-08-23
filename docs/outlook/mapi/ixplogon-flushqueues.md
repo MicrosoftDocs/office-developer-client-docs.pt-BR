@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 116e3cfaace9c0965001021575b76ec371667877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767746"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584727"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Solicita que o provedor de transporte imediatamente entrega todas as mensagens de entrada ou saídas pendentes.
   

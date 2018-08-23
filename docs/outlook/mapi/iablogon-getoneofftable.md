@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b8a6d74df3749a5445d95ad392f7f88d27190bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766837"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583677"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna uma tabela de modelos únicos para a criação de destinatários a ser adicionado à lista de destinatários de uma mensagem de saída.
   

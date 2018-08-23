@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 9ceb7ad347e73f69eca3463ed2edc4438a45a21f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8159d93aef020d7c9c1b56be4cf6256f80b8aa3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766352"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584161"
 ---
 # <a name="creating-a-form-configuration-file"></a>Criar um arquivo de configuração de formulário
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um arquivo de configuração de formulário fornece informações sobre um formulário para o gerente de formulário que está sendo usada e aplicativos cliente. Um arquivo de configuração do formulário contém uma especificação extensiva para um formulário, incluindo as propriedades publicadas pelo formulário para uso por clientes, os verbos implementados pelo formulário e as plataformas compatíveis com o formulário de mensagens.
   
 Um arquivo de configuração do formulário é um arquivo com uma extensão. cfg e tem um formato semelhante a um arquivo de inicialização do Windows. É um arquivo de texto sem formatação com um número de seções. Cada seção começa com um nome de seção, colocado entre colchetes. Cada seção contém uma ou mais linhas que definem os valores e configurações relevantes dessa seção. Valores tem um dos seguintes tipos:
   
-- String
+- Cadeia de caracteres
     
 - Cadeia de caracteres exibida
     

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a21eecfb1bf3bc4f09fc5becb9a4a99a97193330
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30482f7d6acef7377a1b63bc3de4e43be48d8608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769207"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583355"
 ---
 # <a name="pidtagdisplaytypeex-canonical-property"></a>Propriedade canônica PidTagDisplayTypeEx
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tipo de uma entrada, com relação a entrada como deve ser exibida em uma linha em uma tabela para a lista de endereços Global. 
   

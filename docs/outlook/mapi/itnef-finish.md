@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2b95e0dd62d83dd83a064ee4627811fcb24af921
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aff805f7868ec0c2adc55ece94c45b76368ba6eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767736"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583761"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Tiver terminado de processamento de todas as operações de Transport-Neutral Encapsulation Format (TNEF) que estão enfileiradas e em espera. 
   

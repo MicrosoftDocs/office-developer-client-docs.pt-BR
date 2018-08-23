@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9408da71-4abf-60cf-5412-58c5ceeb2205
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: c07eebf11b4e61d91f492206498558154e6ddef3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a21c8655b5d5d1b33b26228ed8cca8ef4f1f6f3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766751"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583915"
 ---
 # <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Recuperar o corpo da mensagem em RTF compactado e converter em seu formato nativo
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este exemplo de código no Microsoft C++ mostra como usar o Microsoft Outlook 2010 ou o Microsoft Outlook 2013 função exportada [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) para acessar o corpo de uma mensagem que é encapsulada em RTF compactado e para obter o corpo em seu formato nativo. 
   

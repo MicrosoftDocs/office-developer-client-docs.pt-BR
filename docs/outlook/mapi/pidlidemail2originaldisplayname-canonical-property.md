@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0b648ef6-86ed-40ee-b068-8fcde7e0fe75
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2b3f59633fcea0b895cd024dbbbc106c8d492bf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3461b265e9cae3609cc595401907c506e24aaf91
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768373"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584164"
 ---
 # <a name="pidlidemail2originaldisplayname-canonical-property"></a>Propriedade canônica PidLidEmail2OriginalDisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome de exibição segundo que corresponde ao endereço de email especificado para o contato.
   

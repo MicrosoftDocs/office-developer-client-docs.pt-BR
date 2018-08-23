@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b88fc54f1db26277d8a8d5e54fcff0ae164b0eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6cfc4d6eab5b2f19bcfd4c7e2a8fc9fa1494afa4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769338"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585574"
 ---
 # <a name="pidtagidentitydisplay-canonical-property"></a>Propriedade canônica PidTagIdentityDisplay
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição para a identidade de um provedor de serviços, conforme definido em um sistema de mensagens. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 70e594057f2d654e0527b0caa0951e44842df809
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad10b2ebd835b21f207fd43ecd8aebc7e1f475f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766496"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585301"
 ---
 # <a name="ensuring-a-thread-safe-notification"></a>Garantindo uma notificação livre de threads
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se seu cliente é executado em uma plataforma multithreaded, talvez você precise de garantia de que as chamadas para seus métodos [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ocorrerem em um determinado thread. Porque as chamadas para **OnNotify** normalmente podem ocorrer em qualquer segmento, é possível receber notificações de threads inesperado e indesejado, levando a erros que são difíceis de depuração. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fa2770daf38fe93eb9fb69990eebc2a6fcfd6a27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b82e27358c9f30a649dc10e1a53ee7c321cb3d82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769848"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584958"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>Propriedade canônica PidTagReportSearchKey
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a chave de pesquisa para o destinatário que deve obter relatórios para esta mensagem.
   

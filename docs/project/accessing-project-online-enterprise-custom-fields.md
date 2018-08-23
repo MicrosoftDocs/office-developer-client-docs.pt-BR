@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online é um serviço do Office 365 que as empresas podem ampliar para atender às necessidades de negócios. Uma área de extensão é campos personalizados da empresa (ECFs). ECFs são campos de valor digitado que podem ser adicionados a projetos, recursos e tarefas. A tabela a seguir lista ECFs associar projetos, recursos e tarefas e fornece um exemplo de um valor para uma instância do que ECF:'
-ms.openlocfilehash: d6c8f97ffc887b33e5d81af8e463cf10502845dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584601"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Acessar campos personalizados da empresa no Project Online
 
@@ -205,7 +205,7 @@ O método não verifica para ver se um projeto usa um ECF específico.
   
 ## <a name="see-also"></a>Confira também
 
-- [Portal de desenvolvimento do Project](http://dev.office.com/project.aspx)
+- [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project)
 - [Visão geral: Campos personalizados da empresa e tabelas de pesquisa](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Local e campos personalizados da empresa](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
 - [Adicionar ou editar campos personalizados empresariais no Project Server 2013](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)

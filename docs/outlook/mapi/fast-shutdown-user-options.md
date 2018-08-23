@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 'Modificado pela última vez: 26 de junho de 2012'
-ms.openlocfilehash: a58f8b98ab2f5a5c1028440676a561427272d028
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd541ed09bc661f3697408d3f475928b9ef0bcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585189"
 ---
 # <a name="fast-shutdown-user-options"></a>Opções de desligamento rápido do usuário
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico descreve as três Windows configurações do registro que estão disponíveis, iniciando no Microsoft Outlook 2010 e agora, incluindo Microsoft Outlook 2013, para desligamento rápido de clientes MAPI do usuário. Os administradores podem usar essas configurações do registro para especificar o comportamento de desligamento do cliente preferencial dependendo suporte dos provedores de MAPI para desligamento rápido do cliente. Configuração do administrador, por sua vez, determina como o subsistema de MAPI responde a chamada do cliente MAPI para [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) em termos de suporte de desligamento rápido disponíveis. 
   

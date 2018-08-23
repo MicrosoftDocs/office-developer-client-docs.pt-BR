@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 37a318df01101487fe0e8970251201c2515d1e8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583187"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriedade canônica PidTagExchangeProfileSectionId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um GUID gerado dinamicamente usado para determinar uma conta quando você estiver usando várias contas do Microsoft Exchange Server.
   

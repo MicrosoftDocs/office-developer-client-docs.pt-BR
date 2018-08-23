@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01296995adbca2640c8da42b4d06c1c749be3266
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582410"
 ---
 # <a name="implementing-the-flushqueues-method"></a>Implementar método FlushQueues
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O MAPI spooler usa o método [IXPLogon::FlushQueues](ixplogon-flushqueues.md) para baixar e carregar qualquer mensagens pendentes de e para um provedor de transporte. Normalmente, o MAPI spooler irá liberar as filas para todos os provedores de transporte que esteja conectados à sessão, começando com o primeiro provedor de transporte, conforme definido na seção de ordem de transporte do perfil do usuário. Filas de liberar quase sempre é o resultado de uma solicitação direta pelo usuário, o envio e recebimento de mensagens enquanto as filas são liberação são síncrona para o spooler MAPI. Como essas chamadas são síncronas, o provedor de transporte deve processá-los assim que possível. 
   

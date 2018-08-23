@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a267f9a9fb8d97256cf7a448b453d04db2118180
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1602d1753d9f7f6e6f407a85dab0a33255db7aae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585784"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Propriedade canônica PidTagDetailsTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um objeto table de vídeo incorporado.
   

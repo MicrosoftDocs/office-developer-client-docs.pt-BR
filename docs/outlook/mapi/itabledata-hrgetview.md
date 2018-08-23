@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a913f2f3a72a365ec7d5078eccf31c4212ca83a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582984"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um modo de exibição de tabela, retornando um ponteiro para uma implementação [IMAPITable](imapitableiunknown.md) . 
   

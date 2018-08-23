@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c4859fa4f8f55af7913c884e25c96727c063ba79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d00a2ce3ebec24ca69875bdcb83066d8b891137a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585952"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Determina a página de código para um fluxo de Transport-Neutral Encapsulation Format (TNEF).
   

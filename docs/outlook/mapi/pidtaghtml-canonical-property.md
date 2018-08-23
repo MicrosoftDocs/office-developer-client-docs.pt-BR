@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aad2509a8960ac7d371346afc61d235a5817c5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f63af98eac8d777e164400acc97043ac1ccc69a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769322"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584993"
 ---
 # <a name="pidtaghtml-canonical-property"></a>Propriedade canônica PidTagHtml
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o texto do corpo da mensagem no formato HTML.
   

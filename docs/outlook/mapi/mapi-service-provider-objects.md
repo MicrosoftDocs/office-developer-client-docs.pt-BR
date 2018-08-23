@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 505b27b469a4ab197b41058ea5b933608818f0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767936"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584853"
 ---
 # <a name="mapi-service-provider-objects"></a>Objetos do provedor de serviço MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de serviço implementar vários objetos. Alguns são usados principalmente pelos MAPI e alguns são usados por aplicativos do cliente. Alguns objetos são implementados por todos os tipos de provedores de serviços; o restante são específicos para um tipo de provedor único. A tabela a seguir descreve todos os objetos do provedor de serviço.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 97dad50fed4179526e46381c4d9ea9d12d568377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee004bdfb8d13537fd8823225f155223ebc76ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770338"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583348"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Determina o tamanho, em bytes, de uma matriz de valores de propriedade e valida a memória associada a matriz. 
   

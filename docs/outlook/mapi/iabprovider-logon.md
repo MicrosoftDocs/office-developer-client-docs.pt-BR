@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 21a6907f7511779d7e8ec6825ac68d109d2f48eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582459"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Estabelece uma conexão para uma sessão ativa.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bf095a9839a6e25fd86d7d35b51d035fff6af80d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e510da053ace91442a3cbc8127f719f88b301308
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583537"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Propriedade canônica PidLidContactLinkEntry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a lista de catálogos de endereços **EntryIDs** vinculado por esse objeto de mensagem. 
   

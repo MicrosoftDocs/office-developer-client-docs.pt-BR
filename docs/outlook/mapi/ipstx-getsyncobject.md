@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 44261e5ac296004fd113d4c9123b99c482bcb732
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767688"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585448"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Inicia uma sessão de sincronização e obtém a interface **[IOSTX](iostxiunknown.md)** associada. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1e1cba3d927072cb03dbd34eee518c9b0a9e0383
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f20c3e988c0a0461a966a109a8d345c22e1fccee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585735"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propriedade canônica PidLidTaskMultipleRecipients
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece dicas de otimização sobre os destinatários de uma tarefa.
   

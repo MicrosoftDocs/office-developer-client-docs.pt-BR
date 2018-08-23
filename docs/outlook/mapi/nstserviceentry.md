@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b5902c25197c2ae5790e654a8f29227e107b4a72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583782"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Função de ponto de entrada de serviço de mensagem para um MAPI armazenar provedor para empacotar um repositório local baseado em PST como um repositório NST. 
   

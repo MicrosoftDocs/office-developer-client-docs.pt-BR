@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Modificado pela última vez: 07 de setembro de 2016'
-ms.openlocfilehash: 1720e9a2eeb54daed1e559f99b0c63ce09585419
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583649"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propriedade canônica PidTagAttachMethod
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma constante definida pelo MAPI que representa a maneira como o conteúdo de um anexo pode ser acessado. 
   

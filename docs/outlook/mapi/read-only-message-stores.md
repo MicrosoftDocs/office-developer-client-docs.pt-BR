@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f82c213b6e0737c27c4e979fc90109b38b0746f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0a66443194a3f89b47218ed9dc0ed9ad9c2df83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584510"
 ---
 # <a name="read-only-message-stores"></a>Repositórios de mensagens somente leitura
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um armazenamento de mensagens de somente leitura é uma nos quais não o cliente MAPI nem o MAPI spooler pode criar, modificar ou excluir os objetos no repositório de mensagem. Há vários motivos por que talvez você queira implementar um armazenamento de mensagens de somente leitura. Por exemplo, uma empresa de relatórios de crédito poderia usar um repositório de somente leitura para permitir que seus clientes ou funcionários ver, mas não alterar relatórios de crédito individuais. A escolha de fazer com que uma mensagem de somente leitura armazenar tem implicações para a estrutura do provedor de armazenamento de e para o store em si. Por exemplo, um armazenamento de mensagens somente leitura não pode ter uma pasta de caixa de saída, porque e clientes MAPI seriam solicitar a criação de novas mensagens de saída nessa pasta. Da mesma forma, é responsabilidade do provedor de repositório para garantir a integridade do mecanismo de armazenamento subjacente.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4eaeb3338c95196ff346c5098e5d06371b00bc5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767983"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583495"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bb51e9a602bd5c2e59bb56fdbf44fddc39651de6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 464db3d360f6e872ac28f8d7cbec842d8b521f7e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585112"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriedade canônica PidTagRecipientCertificate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o certificado de ASN. 1 de um destinatário de mensagem para uso em um relatório.
   

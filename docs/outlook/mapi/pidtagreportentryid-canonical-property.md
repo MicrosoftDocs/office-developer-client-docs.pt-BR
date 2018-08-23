@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a1d81581afa3bb9df8bd7aded5c265dfa8f04676
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 558a2235f7cb617bf37ccff77ebeec6e4ba77604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769830"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582613"
 ---
 # <a name="pidtagreportentryid-canonical-property"></a>Propriedade canônica PidTagReportEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada para o destinatário que deve receber relatórios para esta mensagem.
   

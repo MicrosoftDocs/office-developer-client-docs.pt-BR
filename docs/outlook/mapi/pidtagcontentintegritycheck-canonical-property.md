@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2082db4ccd107fcd02e37882707e4e3ee697695d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53226daafd1c0a53f96db5af3432d6f34738fd93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585805"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Propriedade canônica PidTagContentIntegrityCheck
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de verificação de integridade do conteúdo de ASN. 1 que permite que um remetente da mensagem proteger o conteúdo da mensagem do divulgação para destinatários não autorizados.
   

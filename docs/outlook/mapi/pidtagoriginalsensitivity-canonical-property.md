@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6d461c88e96a3f749595b3e071737107480472aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c921d2c9eee69148713408ec2e2a5510a27011a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582704"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>Propriedade canônica PidTagOriginalSensitivity
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor de sensibilidade atribuído pelo remetente da primeira versão de uma mensagem ou seja, a mensagem antes que está sendo encaminhada ou respondida.
   

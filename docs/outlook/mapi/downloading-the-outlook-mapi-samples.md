@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e3501ef80b6e1b1b99d09e50186fa0bc10d7fb67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583257"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Baixar exemplos de MAPI do Outlook
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 As amostras de MAPI do Microsoft Outlook incluem um fornecedor de catálogo de endereços, um provedor de armazenamento de mensagens e um provedor de transporte.
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b8c68c2cd34ba037dc725a7d15575159466d8123
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33dc327b9e8609a5a1a8a24e131ce4ea1d1e55bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583901"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>Propriedade canônica PidTagRpcOverHttpProxyAuthScheme
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa o protocolo de autenticação a ser usado para esse perfil.
   

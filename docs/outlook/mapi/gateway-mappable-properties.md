@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b637f4921165d70ddeda914b4299c35aabe8218f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07c215511f010741e69c08c184df0ca3ce461e13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583614"
 ---
 # <a name="gateway-mappable-properties"></a>Propriedades podem ser mapeadas de gateway
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Propriedades podem ser mapeados Gateway são propriedades que podem exigir a conversão quando enviada de um domínio de mensagens para outro. Propriedades podem ser mapeados gateway do MAPI habilitar as mensagens incluir informações que requer um gateway para garantir que o sistema de mensagens de destino utiliza adequadamente. Embora os desenvolvedores de gateway não são necessários para fornecer esse recurso de conversão, eles devem considerar propriedades podem ser mapeados gateway como uma oportunidade para aperfeiçoar o tratamento do conteúdo da mensagem.
   

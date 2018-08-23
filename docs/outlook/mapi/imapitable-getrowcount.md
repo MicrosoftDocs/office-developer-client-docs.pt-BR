@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a591a49c1cb0ec936d09d59b4632d15e4842dd2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71178f1a531bd381387e0aa7fbacb02d4431a401
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584321"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o número total de linhas na tabela. 
   

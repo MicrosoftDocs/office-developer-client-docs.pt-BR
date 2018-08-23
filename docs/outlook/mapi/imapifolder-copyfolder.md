@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5961e7a2118a46bdc9c0e66138363976ae2f7154
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 134a492dbc86dd0ce6b3795d5ae40b334c14d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585147"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Copia ou move uma subpasta.
   

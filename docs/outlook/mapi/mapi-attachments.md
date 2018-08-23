@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c6538f8fef7d8ccb87b6e6d9d2b9c68779ca8582
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd8075d2fddb7ada6803c869cbbd282c464e75bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767826"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585875"
 ---
 # <a name="mapi-attachments"></a>Anexos de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Alguns provedores de armazenamento de mensagem permitem que os clientes associar informações adicionadas na forma de arquivos, objetos OLE, mensagens ou dados binários de mensagens. Essas informações adicionadas são chamadas de anexos da mensagem. Como anexos são criados, mantidos e acessados apenas por meio de suas mensagens, eles são considerados subobjetos de mensagem. Em vez de um identificador de entrada de acesso, anexos tem um conhecido número sequencial como um número de anexo. Esse número identifica exclusivamente o anexo dentro de sua mensagem, mas não necessariamente dentro do repositório de mensagem. Duas mensagens diferentes podem ter diferentes anexos com o mesmo número de anexo. Números de anexo somente são válidos desde que a mensagem é aberta e são armazenados na propriedade **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
   

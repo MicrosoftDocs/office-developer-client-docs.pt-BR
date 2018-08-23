@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 46c23a39-d607-404b-ac67-6d8b02ab6045
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 67e9aa6619405a79da6c874e23724947fb1d3287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9295109f5e73cc3461580e67ef6ff67c512c6ec3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768317"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583943"
 ---
 # <a name="pidlidbilling-canonical-property"></a>Propriedade canônica PidLidBilling
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém as informações de faturamento associadas a um item.
   

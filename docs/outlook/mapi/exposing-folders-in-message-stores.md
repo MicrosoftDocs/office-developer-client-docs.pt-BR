@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0e7b479931b6b2b00dd3927133187fe058b4c6e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f50ed7925305eca7432da17130d2be0365ef03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766511"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582592"
 ---
 # <a name="exposing-folders-in-message-stores"></a>Expor pastas em repositórios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedor de armazenamento de cada mensagem deve apresentar uma interface de [IMAPIFolder](imapifolderimapicontainer.md) de nível superior para os aplicativos cliente. A pasta de nível superior corresponde ao repositório de toda a mensagem; Ele fornece acesso às pastas que os usuários veem como o conteúdo do armazenamento de mensagens. Além disso, a pasta de nível superior é frequentemente usada como pasta para mensagens de CPI e como a pasta de recebimento padrão do qual ler relatórios são enviados. Provedores de armazenamento de mensagem também devem apresentar uma subárvore IPM — um conjunto de pastas usadas para armazenar mensagens IPM — para os aplicativos cliente. 
   

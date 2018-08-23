@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 03f53dbfbe57db76ee8ceefda3f6938301f70da8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 731ebf6f61db8e9f425d48ab63cb7b81035a41c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584279"
 ---
 # <a name="developing-a-mapi-address-book-provider"></a>Desenvolver um provedor do catálogo de endereços MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de catálogo de endereços fornece informações de destinatário para aplicativos de cliente, para o repositório de mensagem e transporte provedores e MAPI. Informações do destinatário são organizadas hierarquicamente em compartimentos de armazenamento conhecidos como contêineres. Cada catálogo de endereços no perfil contribui um ou mais nível superior, ou pai, provedores de livro de contêineres ao catálogo de endereços MAPI, uma exibição integrada de informações de destinatário de todos os endereços em uma sessão. É por meio do catálogo de endereços MAPI que os clientes e outros provedores de serviços obtém acesso aos dados de um provedor de catálogo de endereços.
   

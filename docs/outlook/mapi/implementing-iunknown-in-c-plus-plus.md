@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c899eb0afd123b26e12081f5157be3bae7917813
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a14b07888c7a17d550941909b345eff3b0276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767436"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585455"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implementar interface IUnknown em C++
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementar os métodos [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx), [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)e [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) da interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) em C++ é razoavelmente simple. Após algum validação padrão dos parâmetros que sejam passados, uma implementação de **QueryInterface** verifica o identificador da interface solicitada contra a lista das interfaces com suporte. Se o identificador solicitado for entre aqueles que têm suporte, **AddRef** é chamado e o ponteiro **this** é retornado. Se o identificador solicitado não estiver ligado a lista com suporte, o ponteiro de saída é definido como nulo e o valor MAPI_E_INTERFACE_NOT_SUPPORTED será retornado. 
   

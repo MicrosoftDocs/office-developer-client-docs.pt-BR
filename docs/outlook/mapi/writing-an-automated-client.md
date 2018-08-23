@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e5357c1e822dda35d3f38e00f91b58adbaf0ff9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 504e10efa4f540d64469f6aaab22b3f9e9e1157d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582550"
 ---
 # <a name="writing-an-automated-client"></a>Gravar um cliente automatizado
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um aplicativo cliente automatizado é um aplicativo que executa autônomo, não exibindo nenhuma interface de usuário.
   

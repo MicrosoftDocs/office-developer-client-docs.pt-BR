@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582928"
 ---
 # <a name="implementing-a-sample-object"></a>Implementação de um objeto de amostra
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações. **IMAPIAdviseSink** herda diretamente da [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**. Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).
   

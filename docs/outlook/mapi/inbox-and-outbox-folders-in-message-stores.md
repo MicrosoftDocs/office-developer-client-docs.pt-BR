@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2bd71ee4fca53fbf3d309cbaf9d33835b84c0c2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6781209cd1bf87f4becf1893b7cba5618549fbce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582886"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>Pastas de caixa de entrada e caixa de saída em repositórios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para ser o armazenamento de mensagens padrão, um provedor de armazenamento de mensagem deve implementar a caixa de entrada e pastas da caixa de saída. Normalmente, elas são armazenadas em subárvore IPM um armazenamento de mensagens. Essas pastas são especiais em que eles são designados como as pastas que as mensagens são entregues e enviadas de, mas nenhuma funcionalidade especial é exigida deles. Enviando e recebendo mensagens acontece por meio de sequências de chamada definidas entre aplicativos de cliente, o spooler MAPI e o provedor de armazenamento de mensagem. As pastas de caixa de entrada e caixa de saída são simplesmente as pastas que são usadas para armazenar mensagens durante as sequências de chamadas. Não, o importante é que as pastas são especiais ou até mesmo que eles são chamados de entrada e saída; o importante é que o provedor de armazenamento de mensagem usa-los como parte de seu suporte para envio e recebimento de mensagens.
   

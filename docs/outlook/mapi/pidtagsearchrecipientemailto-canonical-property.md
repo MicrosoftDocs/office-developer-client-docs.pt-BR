@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d6c029ba91b6b3489d3f6544ead6788760363a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad96b448018ec43cda85aab1245afb1ca22552f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583208"
 ---
 # <a name="pidtagsearchrecipientemailto-canonical-property"></a>Propriedade canônica PidTagSearchRecipientEmailTo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma cadeia de caracteres Unicode que está sendo consultada na lista de endereços de email ou nomes de exibição dos destinatários que serão abordados na linha **para** das mensagens no repositório. 
   

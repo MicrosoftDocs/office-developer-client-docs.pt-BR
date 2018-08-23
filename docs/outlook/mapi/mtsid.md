@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e42bbf23ea8cf4e6196017a962329366e168420d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768157"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585679"
 ---
 # <a name="mtsid"></a>MTSID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um identificador de entrada x. 400 mensagem transporte MTS (sistema). 
   

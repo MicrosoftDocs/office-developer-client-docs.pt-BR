@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c429f9d8-19f4-4c67-a93f-a55ebf6a148f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3ebf6a5ee7499f8d77f9577e69dc82311c224283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79ba36d08128a3073e1fd4b6af501c19200db38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583607"
 ---
 # <a name="pidnametitle-canonical-property"></a>Propriedade canônica PidNameTitle
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o título do arquivo que está anexado ao documento.
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 01a8e3c479ab3ddd1be9386e033b993fda5835a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96e81442125ae49e0c2856a1cf3a97a16d3453cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767800"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583334"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Estabelece uma sessão em que um aplicativo cliente faz logon em um provedor de transporte. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d0e95fafb8530f64280aff61dab27d24fba0ba1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a19c67d7b83c4890c998cd2e53a36bfc34d11386
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769645"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583887"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Propriedade canônica PidTagPhysicalDeliveryMode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que definem o modo de entrega física (por exemplo, entrega especial) para uma mensagem designada para um destinatário específico.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e9b9ae316749659c6fc6a043bfb72c49010ccc9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eaf472a380acd62cddb2c20c35335ccb1e2ce07f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585854"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Adiciona um novo destinatário para um contêiner de catálogo de endereços ou a lista de destinatários de uma mensagem de saída.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 34d29b9a15cc6f5a3f88a6477738eb63904e1fdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df9b880739215a681986670926b843fec6cc3969
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584188"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>Propriedade canônica PidLidBusinessCardDisplayDefinition
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém detalhes de personalização do usuário para a exibição de um contato como um cartão de visita.
   

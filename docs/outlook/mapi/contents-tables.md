@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0dd79d9630837b5ec8a709d386ccc0db987dfb5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 923fd527eb7d04b31f15e6d8673e2e964fa0d1ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585637"
 ---
 # <a name="contents-tables"></a>Tabelas de conteúdo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma tabela de conteúdo contém informações sobre objetos em um recipiente MAPI. Provedores de catálogo de endereços implementam tabelas de conteúdo para cada um dos seus contêineres e armazenamento de mensagens e provedores de transporte remoto implementam tabelas de conteúdo para suas pastas. O índice de conteúdo de um contêiner de catálogo de endereços lista informações sobre seus objetos de lista usuários e distribuição mensagens, enquanto o índice de conteúdo de uma pasta lista informações sobre suas mensagens. Tabelas de conteúdo são usadas principalmente por aplicativos do cliente. 
   

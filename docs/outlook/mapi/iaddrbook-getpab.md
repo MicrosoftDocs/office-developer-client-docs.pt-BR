@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3d67d71effde87711e3be9aca1b979627acda37d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f93ee653c9365488432c4e797b171a199c30107
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583712"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o identificador de entrada do contêiner que é designado como o catálogo de endereços pessoal (PAB).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2f5f4d50b085c437d1caab5f70dcb741afe090bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf84c7d94e67da0ce7453829042e7be0d4e313f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585546"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma estrutura [ENTRYID](entryid.md) mais uma contagem de bytes que especifica o tamanho da estrutura **ENTRYID** . 
   

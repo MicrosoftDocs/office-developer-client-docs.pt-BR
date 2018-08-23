@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 861a48464193f357224e33eb0348bc7d5372aa10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c823a4e3d08d9082a3b5ac5c4bd8169612caa16e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583992"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Multiplica um inteiro de 64 bits não assinado por um inteiro não assinado de 32 bits.
   

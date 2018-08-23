@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 09274c21df3a93abc19aa8158da976e2d16f3e7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88c036b3bc9b29962204ea0b90bd460ee1cf90f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585168"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>Propriedade canônica PidTagRtfSyncBodyCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma contagem dos caracteres significativos do texto da mensagem.
   

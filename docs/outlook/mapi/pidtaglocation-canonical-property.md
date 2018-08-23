@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 03082536902ead880ba88343cd1991e518ed5665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef88992cefda851742bb332c643136603a4d6a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769447"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584587"
 ---
 # <a name="pidtaglocation-canonical-property"></a>Propriedade canônica PidTagLocation
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o local do destinatário em um formato que é útil para a organização do destinatário. 
   

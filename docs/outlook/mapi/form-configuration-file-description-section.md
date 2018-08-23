@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d3673c3b10afb55121339e335163ce9b2e5937e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582893"
 ---
 # <a name="form-configuration-file-description-section"></a>Seção do arquivo de configuração de formulários [Descrição]
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A seção **[descrição]** lista todas as propriedades do formulário que estão associadas a controles de interface do usuário, mais atributos que são usados na localização de formulário do formulário. O **MessageClass**, **Clsid**e entradas de **DisplayName** , que identificam o nome de classe de mensagem do formulário, seu GUID e nome de exibição da classe de mensagem, respectivamente, são entradas necessárias usadas para localizar o formulário dentro da biblioteca de formulário . As entradas restantes são opcionais. O formato da seção **[descrição]** é: 
   

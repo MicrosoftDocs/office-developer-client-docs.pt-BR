@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
 description: 'Última modificação: 12 de março de 2013'
-ms.openlocfilehash: 2fd3e66e3171c677465a533ede3001cd0b28c8aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14b93a952e4776716c333dc730144b55bcc61259
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766190"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582711"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID e attParentID
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A chave de conversa de email de 3.1 de grupos de trabalho do Windows é uma cadeia de caracteres de texto. O equivalente MAPI é um valor binário. Para fornecer compatibilidade com versões anteriores, a implementação de TNEF converte os dados binários em texto e adiciona um caractere nulo de terminação.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 34d9d6d428f39765e739ce856f3666d07b457d52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f39f721d434f4e54cbfa5d25a3ba626858f2b13e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766392"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583565"
 ---
 # <a name="deleting-a-message-service"></a>Excluir um serviço de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  **Para excluir um serviço de mensagem de um perfil**
   

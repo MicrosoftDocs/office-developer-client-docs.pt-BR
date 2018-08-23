@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c5764ea39af7a96a1bc6e6abfcbc29cc315adeda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94b563e7bbf759cfa77d364225693c5ffc8740d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769053"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585182"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>Propriedade canônica PidTagCallbackTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número de telefone que o destinatário da mensagem pode usar para acessar o remetente. 
   

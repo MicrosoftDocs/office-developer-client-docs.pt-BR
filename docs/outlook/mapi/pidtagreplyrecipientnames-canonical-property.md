@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5abbe14576bec9f03f0b1bf5578b68032f95f8a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc9a64abefb9a4acaa9a1da396fb27f897f04ec2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585602"
 ---
 # <a name="pidtagreplyrecipientnames-canonical-property"></a>Propriedade canônica PidTagReplyRecipientNames
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de nomes de exibição dos destinatários que devem receber uma resposta.
   

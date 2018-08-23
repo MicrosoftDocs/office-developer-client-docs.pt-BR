@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2f78428b8067b7937e9bd2ee36934cc29a16bfb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58b6771c6bdae91ad0e496189258e4745de5bc84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584286"
 ---
 # <a name="structure-of-message-store-providers"></a>Estrutura de provedores de armazenamento de mensagem
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de armazenamento de mensagem, quando ele está em execução na memória, é um [IMSProvider: IUnknown](imsprovideriunknown.md) interface. A interface de **IMSProvider** permite que o cliente aplicativos e o spooler MAPI fazer logon e logoff de armazenamento de mensagens. As interfaces que aplicativos cliente e o MAPI spooler usam para acessar mensagens no armazenamento de mensagens e pastas são interfaces [IMSLogon](imslogoniunknown.md) e [IMsgStore](imsgstoreimapiprop.md) . Estas interfaces geralmente são criados quando o armazenamento de mensagens é primeiro fazer logon, embora o ponto de entrada da mensagem [MSProviderInit](msproviderinit.md) armazenar DLL também pode criá-los. 
   

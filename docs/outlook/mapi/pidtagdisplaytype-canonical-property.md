@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3fd5a8d92621dcefce66fb42e843f78755fa84df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b067b3bc38df978cd0f4c52beb37579619edc24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583509"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>Propriedade canônica PidTagDisplayType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor usado para associar um ícone com uma linha específica de uma tabela. 
   

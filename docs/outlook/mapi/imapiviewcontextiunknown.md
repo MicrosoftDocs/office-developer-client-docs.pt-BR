@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a7d62253baaaae7955e722874a15d05ed16e566e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae2729ec5620b6b408a5c999d4b6ede7143bed2f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767373"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584559"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Gerencia a um formulário no Visualizador de formulário de um aplicativo cliente. 
   

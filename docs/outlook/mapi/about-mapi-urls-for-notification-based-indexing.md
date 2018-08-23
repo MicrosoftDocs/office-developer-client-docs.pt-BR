@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 27ad80b9eca8332beeda147a8b2b4204f9f1cd38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583670"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Sobre URLs MAPI para indexação baseada em notificação
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando um provedor de armazenamento notifica um indexador que um objeto está pronto para indexação, ela gerará uma URL de MAPI que identifica exclusivamente o objeto para o manipulador de protocolo de MAPI. URLs de MAPI são codificados em Unicode e ter o seguinte formato: 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 61a9d403-e0e5-45c3-8d18-4d53207ab927
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e724cc727292158fab26495e5d627b42dfe00daa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8810b6c39b909ebaa612496824150499cd15165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769319"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584839"
 ---
 # <a name="pidtagidentityentryid-canonical-property"></a>Propriedade canônica PidTagIdentityEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada para a identidade de um provedor de serviços, conforme definido em um sistema de mensagens. 
   

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28e3522e51a5ec98c8ed7efed878aa436d06ed68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e747034d64d83105de6413fe7546235cabb5d491
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585469"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>Propriedade canônica PidTagPstRememberPassword
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Determina se deve se lembrar da senha no perfil.
   

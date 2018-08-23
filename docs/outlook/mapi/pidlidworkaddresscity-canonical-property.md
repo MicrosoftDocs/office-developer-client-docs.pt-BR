@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cbded5d-5aa6-47c5-aa25-416ed9bd3bbe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e9ba8eb8aee6ffd2e1b867e0df404837a78adcc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 584b358fa8aec473568f5ef63a31124aba367824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583138"
 ---
 # <a name="pidlidworkaddresscity-canonical-property"></a>Propriedade canônica PidLidWorkAddressCity
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a parte da cidade ou logradouro de endereço de trabalho do contato.
   
