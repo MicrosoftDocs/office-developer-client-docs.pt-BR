@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9911d6cee40637a69dfaf432be0e6d42bf38bccd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769200"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587415"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Propriedade canônica PidTagDiscreteValues
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se um relatório de não entrega aplica discretos apenas como membros de uma lista de distribuição em vez de toda a lista. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 451bab57d4e2e8669a25d119f9ce28a8f78e628f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586134"
 ---
 # <a name="tips-for-working-with-tables"></a>Dicas para trabalhar com tabelas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Trabalhando com um MAPI tabela é um pouco semelhante a trabalhar com uma tabela de banco de dados relacional. Um usuário pode limitar o número de linhas e colunas no modo de exibição e especifique sua ordem. Linhas podem ser recuperados de um por vez ou em grupos. Um cursor que controla a posição atual pode ser movido para um local específico na tabela. 
   

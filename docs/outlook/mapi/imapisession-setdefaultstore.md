@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e3c4125bf4fcf1881a0cba9b04a8bb6aa71f527d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7eda7089515942cb38a941bab863b3adf971bdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767192"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587842"
 ---
 # <a name="imapisessionsetdefaultstore"></a>IMAPISession::SetDefaultStore
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Estabelece um armazenamento de mensagens como o armazenamento de mensagens padrão para a sessão.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9635c06ffa5638e370312e3b2b29e0c98161a766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ade74b13811445c39c73f778b6de49b67b59093b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587555"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Propriedade canônica PidTagIpmSubtreeEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada da raiz da subárvore pasta interpessoais mensagens (IPM) na árvore de pastas do armazenamento de mensagens. 
   

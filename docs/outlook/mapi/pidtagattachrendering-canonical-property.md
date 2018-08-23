@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a1df3ba8e57f1e91894b88d7e8a72feb681e13dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588941"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Propriedade canônica PidTagAttachRendering
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um metarquivo do Microsoft Windows com informações de renderização de um anexo. 
   

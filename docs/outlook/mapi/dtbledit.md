@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d0418ac2ec5d01d58c63e4ad48a1066cc386e946
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eefd0c62314a35c4c6c956b8d4a4d92d5746d1c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590460"
 ---
 # <a name="dtbledit"></a>DTBLEDIT
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um controle de edição que será usado em uma caixa de diálogo construída a partir de uma tabela de exibição.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ad8e7f8cd4a082a456db4ca9b2bd1b5ba58e60b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ec8b776bddc21d356d6e803f56f6f26738a9747
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590740"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>Propriedade canônica PidTagFinderEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada para a pasta onde os resultados da pesquisa são geralmente criados.
   

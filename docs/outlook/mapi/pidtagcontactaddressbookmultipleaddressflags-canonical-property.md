@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fbe955d3e7a509edf6ba10678e1e2538c9185193
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b783a624ef5358a69d65dd52785b285db1a70df7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588668"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propriedade canônica PidTagContactAddressBookMultipleAddressFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os sinalizadores que indicam se os provedores dará suporte a email vários endereços por item de contato.
   

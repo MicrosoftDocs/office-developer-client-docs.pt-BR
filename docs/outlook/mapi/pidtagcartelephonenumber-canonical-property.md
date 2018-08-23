@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 91f027176fc3dac35cb951e2ae7a109c5044cb08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e770939f00896d8ec12ce990811c444f2a25f244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593484"
 ---
 # <a name="pidtagcartelephonenumber-canonical-property"></a>Propriedade canônica PidTagCarTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone do carro do destinatário. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: d8cd03fa184865446da48d7532764ba71e0e47d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586960"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obrigatórias e opcionais para provedores do repositório de mensagens
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI define um conjunto de interfaces que se relacionam com provedores de armazenamento de mensagem. Devido a ampla gama de recursos que pode escolher implementar um armazenamento de mensagens, algumas dessas interfaces são necessárias e alguns não são. A tabela a seguir lista as interfaces MAPI que estão relacionadas a provedores de repositório de mensagem, especifica se as interfaces são obrigatórias ou opcionais e descreve suas finalidades.
   

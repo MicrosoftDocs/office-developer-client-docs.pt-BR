@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b290d4a4-8d70-4656-9254-191c5179662f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dc850be73432873b88d5f6106dd62b0e8fd6e662
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6f45f75c8dca021660d2bd7220237095b765dd9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768394"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587625"
 ---
 # <a name="pidlidemail3originalentryid-canonical-property"></a>Propriedade canônica PidLidEmail3OriginalEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a **EntryId** do objeto que corresponde ao endereço de email da terceiro. 
   

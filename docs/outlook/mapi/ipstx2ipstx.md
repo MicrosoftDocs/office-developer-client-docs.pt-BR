@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c249254205e1b2b58505a88443ffef10bfde7d79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587044"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa interface fornece funcionalidade de auxiliares ao executar uma replicação por meio da interface **[IOSTX](iostxiunknown.md)** . 
   

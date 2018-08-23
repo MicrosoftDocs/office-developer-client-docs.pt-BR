@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 891851e1-e4a4-4c20-a26c-7223bcca35f7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 81ac1cb85e64b4ecdcf63997d4bdcd0f45b3364b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92008a387bb0130207af012df209a3aa6881d40e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593169"
 ---
 # <a name="pidtagextendedrulemessagecondition-canonical-property"></a>Propriedade canônica PidTagExtendedRuleMessageCondition
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém informações sobre todas as propriedades nomeadas que está contido dentro de condições de regra estendido.
   

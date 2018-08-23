@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: 15a53a0bb16db3683e4c1320ac2e54648c8c697b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14536755c304ede0139b6b1026bb1539a261942f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767950"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586407"
 ---
 # <a name="mapi-service-provider-overview"></a>Visão geral do provedor de serviço MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Entre os sistemas de mensagens e o subsistema de MAPI são os vários provedores de serviço. Provedores de serviços são como drivers que se conectam a aplicativos de cliente MAPI para um sistema de mensagens subjacente. Existem três tipos de provedores: provedores de armazenamento, catálogo de endereços ou provedores de diretório e provedores de transporte de mensagem de mensagem. MAPI oferece suporte a cada tipo de serviço de forma independente, permitindo que um fornecedor a oferecer um ou mais provedores de serviço personalizado. Por exemplo, um fornecedor pode querer para criar um provedor de catálogo de endereços que usa um diretório corporativo catálogo de telefone de funcionários ou para criar um provedor de armazenamento de mensagem que usa um banco de dados existente.
   

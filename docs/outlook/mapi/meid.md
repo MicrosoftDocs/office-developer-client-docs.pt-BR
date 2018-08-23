@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 'Modificado pela última vez: 03 de julho de 2012'
-ms.openlocfilehash: 1b725dc5151f1f088f2547a1ef82d322c8458b6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768150"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591937"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Identificador de um item do Outlook. Ele contém um identificador de entrada e outras informações relevantes.
   

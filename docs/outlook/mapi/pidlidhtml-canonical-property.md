@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d05d34c18152c397df04bcf5a82a79d9f1fdd55e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 636aa4d7f20dbd33676bbe65f38f6a9fab25a347
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587520"
 ---
 # <a name="pidlidhtml-canonical-property"></a>Propriedade canônica PidLidHtml
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a URL de página da Web comercial do contato.
   

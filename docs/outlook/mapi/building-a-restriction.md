@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3b40c8433f93237db2ae4fd5449fe8a0da486539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590096"
 ---
 # <a name="building-a-restriction"></a>Criando uma restrição
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para criar uma restrição, um aplicativo cliente cria uma hierarquia de uma ou mais estruturas de restrição de vários tipos e passa um ponteiro para a hierarquia para o método [IMAPITable:: Restrict](imapitable-restrict.md) ou [IMAPITable:: FindRow](imapitable-findrow.md) . A ilustração a seguir e o exemplo de código no [Exemplo de código de restrição](sample-restriction-code.md) demonstram como uma restrição típica é implementada com estruturas de restrição vinculados de diferentes tipos. 
 

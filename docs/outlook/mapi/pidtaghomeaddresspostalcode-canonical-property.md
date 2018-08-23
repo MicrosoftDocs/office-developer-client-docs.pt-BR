@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 098c75bdefc6f1a771aae95e12da436396c63585
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50acbe91854264869e72a5438e5d7df16f2c83bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593505"
 ---
 # <a name="pidtaghomeaddresspostalcode-canonical-property"></a>Propriedade canônica PidTagHomeAddressPostalCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o código postal do endereço residencial do usuário.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: eebc029d4ed72f355170710061c4d3717ed0aa1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6fe642d10a50d25874aee170441a07c184b46575
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767609"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591090"
 ---
 # <a name="ipm-subtree"></a>Subárvore IPM
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI cria uma árvore de pastas sob a pasta raiz de um armazenamento de mensagens para todos os clientes que enviam mensagens para e recebem mensagens de humana, em vez de computador, os destinatários. Mensagens trocadas entre os destinatários humanos são conhecidas como interpessoais emails e esta árvore é conhecida como a mensagem interpessoais ou IPM, subárvore. 
   

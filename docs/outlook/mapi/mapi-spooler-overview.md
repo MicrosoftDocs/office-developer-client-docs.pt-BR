@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5e4bd4f6038db3dbb33ec3511d953448fea7a6c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec581e2170b92721410106eae00e2d36b3c775a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591335"
 ---
 # <a name="mapi-spooler-overview"></a>Visão geral de spooler MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Spooler MAPI é uma função do processo do Microsoft Office Outlook que é responsável por mensagens de recebimento e envio de mensagens para a partir de um sistema de mensagens. Spooler MAPI tem uma função vital no recebimento da mensagem e entrega. Quando um sistema de mensagens não estiver disponível, MAPI spooler armazena as mensagens e os encaminha automaticamente mais tarde. Essa capacidade de retenção logon em ou enviar dados quando necessário conhecida como armazenar e encaminhar, um recurso fundamental em ambientes onde conexões remotas são comuns e tráfego de rede é alto. Spooler MAPI é executado como um segmento de plano de fundo dentro do Outlook.
   

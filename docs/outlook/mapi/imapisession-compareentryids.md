@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: df6347298aab5404ec69bd9ac876863e31b741d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 745c1b10cbbb24389cace7911d7c5fd37fe09472
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767190"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586848"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Compara dois identificadores de entrada para determinar se eles se referem ao mesmo objeto. 
   

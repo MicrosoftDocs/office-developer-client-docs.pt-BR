@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ae2a19d556fc9819312ce822f9347edcd6edc0d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588591"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Adiciona um novo destinatário diretamente para um contêiner de catálogo de endereços ou a lista de destinatários de uma mensagem de saída.
   

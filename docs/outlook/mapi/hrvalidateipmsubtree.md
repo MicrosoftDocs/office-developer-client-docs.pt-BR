@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8b6d4fa1d9ffa6ab5f800bad9f02ac5aa9abd8c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2625b148d15c2f5ccf65eedf3a1b1f2c9d0d133e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766811"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592042"
 ---
 # <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Adiciona as pastas de mensagem padrão interpessoais (IPM) para um armazenamento de mensagens. 
   

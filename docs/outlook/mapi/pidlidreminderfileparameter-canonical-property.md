@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1cfb8f7070a8001e94fa70e90c52635c9b8be122
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07653bea747e6e697cb1edb5669ae106c9e213fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768614"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591475"
 ---
 # <a name="pidlidreminderfileparameter-canonical-property"></a>Propriedade canônica PidLidReminderFileParameter
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome de arquivo do som que um cliente deve executar quando o lembrete para aquele objeto estiver vencido.
   

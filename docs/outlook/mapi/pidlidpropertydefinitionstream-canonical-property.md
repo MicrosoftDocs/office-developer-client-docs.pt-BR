@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f7f764d95c2fc36ba6af617333cb47d266cd2aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23850e7da71125642abd8484fb45b8ec23264748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587646"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propriedade canônica PidLidPropertyDefinitionStream
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa as configurações de associação de dados de campos internos de uma mensagem e definições de campos definida pelo usuário.
   

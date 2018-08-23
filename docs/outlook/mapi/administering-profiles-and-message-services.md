@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 71e8cf50c1951abf1df6163cae4757ffebc979b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587541"
 ---
 # <a name="administering-profiles-and-message-services"></a>Administrar perfis e serviços de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Perfil e a mensagem de administração do serviço pode envolver a criação de novos perfis, excluindo perfis antigos e modificar o conteúdo de perfis existentes, alterando os serviços de mensagem e os provedores de serviço contidos neles. Nem todos os clientes suportam administração do serviço de perfil e a mensagem como recursos padrão. Alguns clientes têm nada mais fazer com os perfis de permitir que os usuários selecionem um momento de logon.
   

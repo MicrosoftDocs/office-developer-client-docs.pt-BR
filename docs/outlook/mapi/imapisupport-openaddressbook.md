@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e9cd1c7ce0983a47311b2626cc3b40b47748b951
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588171"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso ao catálogo de endereços.
   

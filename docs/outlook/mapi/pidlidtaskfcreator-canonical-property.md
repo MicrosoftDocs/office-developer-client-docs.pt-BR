@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 458a20e238d6023520ede3416ece239f2d553891
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cbd237e80f4862683c1fa914f8261f8351b148e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589018"
 ---
 # <a name="pidlidtaskfcreator-canonical-property"></a>Propriedade canônica PidLidTaskFCreator
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica que a tarefa foi originalmente criada pelo usuário atual ou agente do usuário, em vez de processar uma solicitação de tarefa.
   

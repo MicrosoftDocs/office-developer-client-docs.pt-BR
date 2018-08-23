@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: aa3ddecbd5af56eef16f5ae3a349a027e689fc8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa48e97ed25fe1175ffd3a92ac961dcf5bde50b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588353"
 ---
 # <a name="displaying-configuration-property-sheets"></a>Exibindo as folhas de propriedades de configuração
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de transporte usam o método [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) para implementar folhas de propriedades de configuração. Ao chamar **DoConfigPropSheet**, o provedor de transporte passa em um ponteiro para uma matriz de propriedades, juntamente com informações sobre como exibi-los. MAPI apresenta as propriedades para o usuário por meio de uma caixa de diálogo padrão. Você é altamente encorajado usar esse mecanismo de folha de propriedade ao implementar o seu provedor de transporte devido a vantagem para o usuário de uma interface consistente.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 98d4fe3c-3908-4cd2-bfdb-ff1874a80b24
 description: 'Última modificação: 12 de março de 2013'
-ms.openlocfilehash: 34b64df25cb2f7f591f7c799dec957a0072840dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 440c27b019b91ec8c2c02e37850d2768a273559b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770624"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591930"
 ---
 # <a name="transport-neutral-encapsulation-format-tnef"></a>Transport Neutral Encapsulation Format (TNEF)
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 TNEF é um formato para converter um conjunto de propriedades MAPI — uma mensagem MAPI — em um fluxo de dados serial. As funções TNEF são usadas principalmente pelos provedores de transporte que precisa codificar propriedades de mensagem MAPI para transmissão através de um sistema de mensagens que não oferece suporte a essas propriedades diretamente. Por exemplo, um transporte baseados em SMTP usa o TNEF para codificar propriedades como **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)), que não possuem representações diretas na estrutura de uma mensagem de SMTP.
   

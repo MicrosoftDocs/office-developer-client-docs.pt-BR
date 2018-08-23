@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: afbef333af46051284fa51d52c2e3f77607b0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee7d729000fbda895918458993437fd4fe72e370
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770508"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591608"
 ---
 # <a name="status-tables"></a>Tabelas de status
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela de status contém informações relacionadas para o estado da sessão atual. Há uma tabela de status para cada sessão MAPI que inclui informações fornecidas por MAPI e por provedores de serviços. MAPI fornece dados para três linhas: uma linha para o subsistema de MAPI, uma linha para o spooler MAPI e uma linha para o catálogo de endereços integrada. Porque os provedores de transporte são necessários para fornecer informações de status à tabela de status, há uma linha para cada provedor de transporte ativa. Provedores de armazenamento de mensagens e o catálogo de endereços podem escolher se deseja oferecer suporte a tabela de status. 
   

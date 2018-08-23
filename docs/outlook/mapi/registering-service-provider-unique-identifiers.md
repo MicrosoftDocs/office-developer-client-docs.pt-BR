@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 80d2e4fd353f0746349563fd911e0af09a658b35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586267"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>Registrar identificadores exclusivos do provedor de serviços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Catálogo de endereços, armazenamento de mensagens e provedores de transporte usam um identificador exclusivo, conhecido como um [MAPIUID](mapiuid.md) para registrar para objetos de vários tipos de serviço. Um **MAPIUID** é um identificador de 16 bytes que contenha um GUID. Você pode criar um **MAPIUID** usando o procedimento a seguir: 
   

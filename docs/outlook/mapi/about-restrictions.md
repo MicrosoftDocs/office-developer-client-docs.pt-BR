@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d7294527fcd557ae2d4824b9a3215ff464f62c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586449"
 ---
 # <a name="about-restrictions"></a>Sobre restrições
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma restrição é uma maneira para limitar o número de linhas em um modo de exibição somente as linhas com valores de colunas que correspondem a critérios específicos. Há muitas oportunidades diferentes para o uso de restrições com tabelas. Aplicativos cliente podem usar a restrições, por exemplo, para filtrar uma tabela de conteúdo para mensagens enviadas por uma pessoa específica, para pesquisar por linhas que não oferecem suporte a uma propriedade ou tem definido uma propriedade para um valor específico ou para procurar por destinatários duplicados dentro um Mensagem. 
   

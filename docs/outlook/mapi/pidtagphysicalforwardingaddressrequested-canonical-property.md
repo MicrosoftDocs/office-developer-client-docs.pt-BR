@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 633e71e6-fdab-4453-8921-9bc0d5752b26
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4205c946eb92c05e5ff1ec3616dad174034cc893
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6d0d95351ab2b82f00a7a5758e3f30637ef2cbb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591398"
 ---
 # <a name="pidtagphysicalforwardingaddressrequested-canonical-property"></a>Propriedade canônica PidTagPhysicalForwardingAddressRequested
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se o agente de transferência de mensagem para anexar um endereço de encaminhamento físico para um destinatário de mensagem de solicitações de um remetente da mensagem.
   

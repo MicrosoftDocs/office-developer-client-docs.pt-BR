@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 451a8bd0ffd887212ce5c95579755fb8214bc1d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dafa251403740aca806efbb52962cc7323e55239
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769837"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590439"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propriedade canônica PidTagReportDispositionToNames
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica os nomes dos destinatários relatório para mensagens que solicitar confirmações.
   

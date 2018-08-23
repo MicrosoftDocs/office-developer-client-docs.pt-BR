@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 65a54475afe526cce40030cbfd1cdb9e86126554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589347"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propriedade canônica PidLidContactLinkSearchKey
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a lista de **SearchKeys** para o contato vinculado por esse objeto de mensagem. 
   

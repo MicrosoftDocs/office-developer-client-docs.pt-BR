@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 124b9f05-032d-42f1-a3d3-4f4c9b9f7a06
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 234bfaffab2e82bbcebd7222f32a750e8585d958
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4687bc4bb5cc2dd6a2125eac8a620c64c495eca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588290"
 ---
 # <a name="pidtagorganizationalidnumber-canonical-property"></a>Propriedade canônica PidTagOrganizationalIdNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número de identificação organizacional do contato, como um número de identificação de funcionário.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a6ff82fa3cc4a7ad243285e9eb93b0ec880a3bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58711a18fa6dc512cca10644437bee2ecd4d2143
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770204"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592994"
 ---
 # <a name="recipient-properties-for-delivery-status-reports"></a>Propriedades do destinatário de relatórios de status de entrega
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 As propriedades a seguir estão presentes para relatórios de status de entrega para destinatários. **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) não é usada em relatórios de falha na entrega. **PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) e **PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) são usadas apenas em relatórios de falha na entrega.
   

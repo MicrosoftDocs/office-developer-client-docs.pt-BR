@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4730fb04d530fce516fe1ca4fd572c58fc1f1ffa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7148383c92b59adb9d3783e079e7c5f28c038eac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770352"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588990"
 ---
 # <a name="sending-and-receiving-form-notifications"></a>Enviar e receber notificações de formulários
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notificações de formulário são usadas em MAPI para facilitar a comunicação tanto contra o formulário para o visualizador, bem como seu visualizador para o formulário.
   

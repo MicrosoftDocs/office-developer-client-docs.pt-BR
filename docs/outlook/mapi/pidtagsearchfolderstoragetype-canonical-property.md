@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bd9af0c2862cf2c780a0ec6e6ffd8e1a0ec56af7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769991"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590019"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propriedade canônica PidTagSearchFolderStorageType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os sinalizadores que especificam os dados de objeto binário grande (BLOB) que aparece na propriedade **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   

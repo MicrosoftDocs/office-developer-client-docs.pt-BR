@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f4f052d6-ef63-421a-9d8c-4f3c6df83863
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cfb06e8dd305add6049d035c44685be047dc744f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5b5c468b56e5b34d265e7f00bbee96142a88e1c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591118"
 ---
 # <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Listar entradas nas seções do serviço de mensagens MapiSvc.inf
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Existem dois tipos de entradas da lista de seção: que lista seções do provedor de serviço e que lista seções de específico ao serviço de mensagem diversos. Esses dois tipos de entradas aparecem no Mapisvc usando os seguintes formatos:
   

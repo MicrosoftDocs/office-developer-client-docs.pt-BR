@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f2e565dc8137edee441643a5d02a154f78737099
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8082b0b6d47a16a79f5e426375e20b17d22298d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586617"
 ---
 # <a name="pidtagmessageflags-canonical-property"></a>Propriedade canônica PidTagMessageFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que indicam a origem e o estado atual de uma mensagem. 
   

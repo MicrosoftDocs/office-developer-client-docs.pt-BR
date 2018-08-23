@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 09a79a68d7619ded9edf3ec4ac67733bdec1e32c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1b5b36c3a05ef17e319ef236b032b7d07ce8fa8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768940"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589417"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Propriedade canônica PidTagAgingGranularity
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa a unidade de tempo que é usado para determinar a quantidade de tempo que um item permanece em uma pasta antes do item será arquivado.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4fa47824-b4ef-41e1-9096-c1b1cdacd7ac
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 68a842ccfdaea8ecdb975e1c510711b0e43fd576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6845c3d86fb3d34119a296ebbae76a7322d7d8c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770334"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590908"
 ---
 # <a name="sending-a-message"></a>Enviar uma mensagem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando você estiver pronto para enviar uma mensagem, chame seu método de [IMessage::SubmitMessage](imessage-submitmessage.md) . **SubmitMessage** coloca a mensagem na fila de saída e define o sinalizador MSGFLAG_SUBMIT na propriedade de **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem.
   

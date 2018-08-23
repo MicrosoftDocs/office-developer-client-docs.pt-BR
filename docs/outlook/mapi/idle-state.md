@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dbe81a2a27f302a38eba6f3c5045df905d8db682
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19766909"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591797"
 ---
 # <a name="idle-state"></a>Estado ocioso
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o estado ocioso da máquina de estado de replicação. 
   

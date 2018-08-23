@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: caa7b7f3-a5a1-4f07-98c9-22652ecd5d21
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1e1b05be64029f80ec8a7379ed7b313b9cf645fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aa641ad0a41ff8015d2ece717d5a4cb3a7c4edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587310"
 ---
 # <a name="mapi-record-and-search-keys"></a>Registro MAPI e chaves de pesquisa
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Chaves de registro e chaves de pesquisa são identificadores binários que são atribuídos a vários objetos MAPI. Ao contrário do identificador de entrada de um objeto, sua chave de registro ou pesquisar diretamente é comparável tão transmittable. 
   

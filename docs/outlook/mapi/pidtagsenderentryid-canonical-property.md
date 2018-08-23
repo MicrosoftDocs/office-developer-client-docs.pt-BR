@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f311dd2-853e-46f7-966a-c2ab7a1fb6c5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 46ccc3c7e07e6920508fea630c96700d39366a35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2e8ecba7c92dcbcb719591464e10fb4af2d2344
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591762"
 ---
 # <a name="pidtagsenderentryid-canonical-property"></a>Propriedade canônica PidTagSenderEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada do remetente da mensagem.
   

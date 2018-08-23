@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 774aaea0365066981b9d6426a2579160f6578844
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590061"
 ---
 # <a name="status-table-and-status-objects"></a>Tabela de status e objetos de status
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI fornece uma tabela com informações sobre o status do subsistema de MAPI, spooler MAPI, catálogo de endereços ou um provedor de serviço específico. Você pode acessar esta tabela chamando [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
   

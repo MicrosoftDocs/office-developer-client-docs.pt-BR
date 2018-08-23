@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 17470f9ff552eaa4908973c4f033db2b4e754d7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3426854e727ebce7a2ac2243491994ce0e066ac6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767747"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591377"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se o provedor de transporte recebeu uma ou mais mensagens de entrada.
   

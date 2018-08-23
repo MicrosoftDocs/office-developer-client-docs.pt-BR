@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f59b0041f271010e56dda2f73d2248f133bc1325
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d588380ccc84f51fe58bb0f092d5287b12b4270
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586533"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma restrição de propriedade que será usada para corresponder a uma constante com o valor de uma propriedade.
   

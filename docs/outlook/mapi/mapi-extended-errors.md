@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 38e9418d5d9559b67bd79536635359ffaa3f724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a9499e2a980cbc00eb11c5199bb7329b255c7b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767837"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592658"
 ---
 # <a name="mapi-extended-errors"></a>MAPI estendido erros
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementadores m�todos da interface podem optar por simplesmente retornar (S_OK) de sucesso e falha (MAPI_E_CALL_FAILED) ou diferenciar entre as condi��es de erro, retornando quantos valores de erro como fazem sentido para a situa��o. A maioria das situa��es podem usar um dos valores de erro definidos pelo MAPI no MAPICODE. Arquivo de cabe�alho H. No entanto, para as situa��es em que n�o s�o cobertas por um valor predefinido, o valor MAPI_E_EXTENDED_ERROR pode ser usado. MAPI_E_EXTENDED_ERROR indica ao chamador que est�o dispon�veis mais informa��es sobre o erro. O chamador recupera as informa��es adicionais, chamando o m�todo **GetLastError** no mesmo objeto que retornados MAPI_E_EXTENDED_ERROR. 
   

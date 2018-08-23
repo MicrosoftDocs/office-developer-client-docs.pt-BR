@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 744d9a7588bff89e9d306e516a24da2db3038d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3df5e012867623d1c5e8fb5c3c93103548ab97be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766836"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588381"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um coletor de advise que dispõe de um coletor advise existente para a segurança do thread. 
   

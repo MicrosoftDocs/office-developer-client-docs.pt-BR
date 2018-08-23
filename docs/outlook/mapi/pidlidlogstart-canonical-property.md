@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b8c0c871-51d8-4752-ad4b-607463a9f837
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 55ba18a1dcbce5e3f7996184dae45a638f9531e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 359eb4ea4cbbcf6244bf3cca2f3a66b369bce6e0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586673"
 ---
 # <a name="pidlidlogstart-canonical-property"></a>Propriedade canônica PidLidLogStart
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa a data de início e a hora da mensagem de diário.
   

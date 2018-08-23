@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 921417d8fc73ca9c1f126b2cb0add23f6625e3f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 662330a7b8c665471e9bbe6af27dff84ee68c8cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770708"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586064"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Chama uma função interna para verificar que os aplicativos de cliente parâmetros já se passaram a provedores de serviços. 
   

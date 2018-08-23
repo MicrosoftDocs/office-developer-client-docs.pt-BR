@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 81b53bc138a64da673d6723e60fd90b086174efe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70aeda8789665a3f35bf75f83f32a92dbeedc8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767873"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589102"
 ---
 # <a name="mapi-hidden-folders"></a>Pastas ocultada de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Pastas ocultas são genéricas pastas criadas por clientes na pasta raiz do repositório de mensagem, em vez de na pasta raiz de uma subárvore interpessoais mensagens (IPM). Porque essas pastas não são colocadas em uma subárvore IPM, geralmente estão ocultos do modo de exibição do usuário pelo provedor de armazenamento de mensagem. Pastas ocultas normalmente contêm informações que são relevantes para o armazenamento de mensagens, mas é irrelevante para o usuário. Os clientes criar pastas ocultas para armazenar, por exemplo, informações adicionais sejam salvos com o restante da hierarquia de pastas.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a355faf85a44f6257b77b7171aa965faabf57fe9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b66b450318c802e773c2f2c47e4a39500c582d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770702"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592764"
 ---
 # <a name="using-mapi-objects"></a>Como usar objetos MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Clientes e provedores de serviço usam objetos MAPI chamando os métodos em suas implementações de interface. Isso é a única maneira que os objetos MAPI podem ser usados; métodos que são implementados por um objeto fora de uma interface MAPI não são acessíveis publicamente. Como todas as interfaces de um objeto estão relacionadas por meio de herança, o usuário de um objeto pode chamar métodos na interface base ou uma das interfaces herdadas conforme se eles pertencem a mesma interface. 
   

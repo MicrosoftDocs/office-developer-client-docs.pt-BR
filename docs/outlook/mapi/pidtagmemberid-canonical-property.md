@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce6925f40e09261494e4edbcbd7314728debbe2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caf1cb2e16c298af452e638631293379fdd68b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769477"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589781"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Propriedade canônica PidTagMemberId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de um membro de tabela que tenha os direitos descritos em uma pasta do Microsoft Exchange Server ou a caixa de correio.
   

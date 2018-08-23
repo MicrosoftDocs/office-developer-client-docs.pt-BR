@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d12d879ea5a82c5e0e3978d90694b3851aaac5cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592294"
 ---
 # <a name="mapi-form-manager"></a>Gerenciador de formulário MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um gerente de formulário é um objeto que implementa a interface [IMAPIFormMgr](imapiformmgriunknown.md) . A maioria das organizações usará o Gerenciador de formulário fornecido com MAPI, conhecido como o Gerenciador de formulário padrão. No entanto, uma organização pode substituir o Gerenciador de formulário padrão por um gerente de formulário personalizado, se desejado. O gerente do formulário cuida de localizar os formulários dentro de bibliotecas de formulários, carregando formulários em resposta às solicitações dos usuários e instalando formulários para a biblioteca de formulários particulares, biblioteca de formulários de pasta ou biblioteca de formulários local para um usuário. 
   

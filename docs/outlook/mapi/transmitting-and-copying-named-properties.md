@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a5d2244270463fcc2fe0a9786112590e741a8a66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c225712e354d72b79313ee4c3f36da55f11b0a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587513"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>Transmitir e copiar propriedades nomeadas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Sempre que uma propriedade nomeada é enviada, movido ou copiadas, o nome permanece constante, mas o identificador deve alterar para cumpram o mapeamento de objeto de destino. A única exceção a essa regra é quando a origem e destino têm a mesma assinatura de mapeamento, tornando o novo mapeamento desnecessária.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5f7bd94-6696-474a-a3f3-40928fd3086c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 86c71145d74b7ead536d83f2a6be71cd298931e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd9490304ac90ebc2cabebd78ab9f54ce45d6863
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769497"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587317"
 ---
 # <a name="pidtagmobiletelephonenumber-canonical-property"></a>Propriedade canônica PidTagMobileTelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o número de telefone celular do destinatário.
   

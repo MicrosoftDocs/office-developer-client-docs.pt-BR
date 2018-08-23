@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: fc444725aae20e7321fa287a90cf7d3e13b7ffb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587527"
 ---
 # <a name="mapi-message-service-overview"></a>Visão geral do serviço de mensagem MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um serviço de mensagem define um grupo de provedores de serviço relacionado, normalmente os provedores de serviços que funcionam com o mesmo sistema de mensagens. Enquanto os provedores de serviços de executam o trabalho de comunicação entre sistemas de mensagens e o subsistema MAPI, serviços de mensagem realizar o trabalho de interface entre o usuário e os provedores de serviços que funcionam com um sistema de mensagens comuns.  
   

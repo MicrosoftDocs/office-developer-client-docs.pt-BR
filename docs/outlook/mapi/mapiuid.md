@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3675c6a8ee2ee208f175dd5f7d219447aa52e9ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587163"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma versão independente da ordem de byte de uma estrutura [GUID](guid.md) é utilizada para identificar exclusivamente um provedor de serviços. 
   

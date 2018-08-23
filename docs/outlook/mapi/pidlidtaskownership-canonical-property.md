@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 17f3ac0c5cd6005329212d0dcb458b37bb75f41d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c335d8fab820c9876adbe8f001696a02068460c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591405"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>Propriedade canônica PidLidTaskOwnership
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a função do usuário atual em relação a tarefa.
   

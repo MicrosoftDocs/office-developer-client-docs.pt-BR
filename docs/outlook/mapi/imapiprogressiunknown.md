@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 975c01457515a400d1d442fedc432dc000f06665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 42d09fd92edf4dc221b73dac4948e78a7c6898ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589326"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementa um objeto de progresso que fornece aos aplicativos de cliente com um indicador de progresso. Um indicador de progresso é uma exibição da interface do usuário que mostra a porcentagem de conclusão de uma operação, como copiar pastas entre as lojas de mensagem. Aplicativos MAPI e cliente implementam objetos de progresso e provedores de serviços de usá-los. 
   

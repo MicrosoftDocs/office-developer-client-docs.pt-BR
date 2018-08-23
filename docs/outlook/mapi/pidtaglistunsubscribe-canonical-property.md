@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 87f5c3fc8475f9795847e4680babb26682608a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a4011a22f1029cc4002d4506eb4d335bd280bec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769439"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593435"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>Propriedade canônica PidTagListUnsubscribe
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor do campo de cabeçalho de cancelar a lista de uma mensagem de email extensões MIME (Multipurpose Internet).
   

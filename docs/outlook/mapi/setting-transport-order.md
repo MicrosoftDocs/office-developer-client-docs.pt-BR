@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 71d7ebf2bc8c7bbf3b5ee6ce60959fdeee79abe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e4c318678fdce7976140ff8f480ae638fd3ca4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593022"
 ---
 # <a name="setting-transport-order"></a>Configurar um pedido de transporte
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O MAPI spooler atribui a responsabilidade para mensagens de saída com base nos tipos de endereço e identificadores que declara, podem lidar com provedores de transporte. Provedores de transporte publicarem uma lista de tipos de endereço com suporte e os identificadores — armazenados nas estruturas **MAPIUID** — quando MAPI chama o método seus [IXPLogon::AddressTypes](ixplogon-addresstypes.md) , diretamente após o logon. Tipo de endereço do destinatário é armazenado em sua propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   

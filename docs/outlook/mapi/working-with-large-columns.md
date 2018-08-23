@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a191a8551d425d7e8b3b9a281936a4a0e2dfd587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11007fa18a57e296472c28f86480cb71b780e568
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593029"
 ---
 # <a name="working-with-large-columns"></a>Trabalhar com colunas grandes
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Colunas com dados de propriedade de cadeia de caracteres ou binário podem ser grandes, possivelmente muitos milhares de bytes de comprimento. Porque geralmente é impraticável incluindo uma ou mais colunas com centenas de bytes em um modo de exibição, MAPI permite implementadores de tabela truncar o valor com mais frequência para 255 bytes e com menos frequência 510 bytes. Sempre que possível, implementadores de tabela devem incluir o valor completo de uma propriedade em uma coluna de tabela. A alternativa recomendada é incluir apenas os primeiros 255 bytes.
   

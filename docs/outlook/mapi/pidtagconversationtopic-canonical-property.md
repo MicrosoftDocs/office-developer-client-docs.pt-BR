@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2e656679fcf76992ec0b648274bd5ffa673b4007
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce9d13b6ecd560798cee4f79d8d62b966dc427f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586470"
 ---
 # <a name="pidtagconversationtopic-canonical-property"></a>Propriedade canônica PidTagConversationTopic
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o tópico da primeira mensagem em um segmento de conversação. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fb7a8ea39d6e7b1d7df1560658ceb67a79d39d92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767299"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589081"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Oferece um mecanismo para sincronização de email em vez de usar a API de transporte. Esta interface é exposto em um objeto de repositório. Usando essa interface e [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), um provedor de transporte pode oferecer melhor progresso e mensagens de erro do que aqueles que aparecem na caixa de diálogo Enviar/receber no Microsoft Outlook.
   

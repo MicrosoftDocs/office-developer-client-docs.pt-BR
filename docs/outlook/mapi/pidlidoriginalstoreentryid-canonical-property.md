@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aaf442b941cfe14f695bf5e7f7ec246d06e5ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d7af1168bf5808523e1500ed2156779386f8d84a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591748"
 ---
 # <a name="pidlidoriginalstoreentryid-canonical-property"></a>Propriedade canônica PidLidOriginalStoreEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a identificação de entrada do repositório do representante.
   

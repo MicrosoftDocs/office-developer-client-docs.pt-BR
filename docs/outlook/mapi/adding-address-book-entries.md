@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: adbfbb73ac0f5f1e1cba547fa7a91393891fdb1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b2aa2830e2721b9f895b22df12c9d712188625
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766120"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590131"
 ---
 # <a name="adding-address-book-entries"></a>Adicionar entradas ao catálogo de endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para adicionar um usuário de mensagens ou a lista de distribuição para um contêiner, a chamadas de cliente [IAddrBook::NewEntry](iaddrbook-newentry.md) ou um provedor chama [IMAPISupport::NewEntry](imapisupport-newentry.md) com o identificador de entrada do contêiner de destino no parâmetro _lpEIDContainer_ . MAPI por sua vez chama o método de [IABContainer::CreateEntry](iabcontainer-createentry.md) do contêiner para criar a entrada usando um modelo único de uma tabela único. Um modelo único permite que o cliente criar um novo destinatário de um determinado tipo. A maioria dos campos podem ser editada. O modelo apontado pelo parâmetro _lpEntryID_ pode ser uma que seu provedor fornece ou talvez seja um modelo de um provedor estrangeiro, se o provedor oferece suporte a modelos estrangeiro. Implementações de **CreateEntry** para provedores que podem criar destinatários a partir de um modelo estrangeiro sempre são mais complexos que implementações para provedores que não é possível. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 83ab01363d478d197286bfa8f7b5b092a7ffd5a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03465df65498643ce02598fdc26ab78b44e1135a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588675"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>Propriedade canônica PidTagIconIndex
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número que indica qual ícone a ser usado ao exibir um grupo de objetos de email.
   

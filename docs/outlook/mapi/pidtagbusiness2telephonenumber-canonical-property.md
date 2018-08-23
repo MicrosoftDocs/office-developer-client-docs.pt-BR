@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 53d94bdb-b95b-48de-bbad-1263ff53e379
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 28d82bf34b0eb8f3c3066f2b88c9ee1c7fb40102
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c90b0c665d83bf11f5133d4904a129e0f2f709f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593057"
 ---
 # <a name="pidtagbusiness2telephonenumber-canonical-property"></a>Propriedade canônica PidTagBusiness2TelephoneNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número de telefone secundário no lugar do destinatário do negócio. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 788227e9-9bcf-465c-886c-746dbc665230
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b84de421b73fd328467dab8ea1f5888b9a37ecf1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1b98b12ac573165495de6938dd4bcd7e22a084b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588458"
 ---
 # <a name="pidlidoldwhenendwhole-canonical-property"></a>Propriedade canônica PidLidOldWhenEndWhole
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o valor original da propriedade **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) antes de uma atualização de reunião.
   

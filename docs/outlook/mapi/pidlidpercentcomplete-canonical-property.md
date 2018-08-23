@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f4675362de1e9efe4ef16285723cddeface9c403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf4edcc22deafe47fccb4fa44782b33aa18b8cec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768583"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587177"
 ---
 # <a name="pidlidpercentcomplete-canonical-property"></a>Propriedade canônica PidLidPercentComplete
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica que o progresso do usuário tornou-se em uma tarefa. 
   

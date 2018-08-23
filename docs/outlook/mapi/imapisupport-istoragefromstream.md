@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a73c87f172b4c97379bb9cd117679d3947c188af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767245"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588178"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Implementa um objeto de armazenamento para acessar um stream.
   

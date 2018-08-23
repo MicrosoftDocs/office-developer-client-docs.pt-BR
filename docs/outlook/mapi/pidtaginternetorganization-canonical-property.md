@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8759d873-d141-4b4a-9302-0dd11aa45de8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d294fc50e24afe523b53d3da3373d44c88c2d82d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3972e66676bf426b3ea94624ac6c9f7cf48062e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593358"
 ---
 # <a name="pidtaginternetorganization-canonical-property"></a>Propriedade canônica PidTagInternetOrganization
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Mapas ao cabeçalho da organização de MIME.
   

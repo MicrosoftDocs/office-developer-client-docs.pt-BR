@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590047"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Inicializa a um provedor de catálogo de endereços para a operação. 
   

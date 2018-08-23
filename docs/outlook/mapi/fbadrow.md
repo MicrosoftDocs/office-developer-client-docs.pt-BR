@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c3025c353c71958a19303c5e79cec319a3bf8015
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23b4ed78f4b65a5af4c2f3e11fa770030fe4eeee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766552"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590159"
 ---
 # <a name="fbadrow"></a>FBadRow
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Valida uma linha em uma tabela.
   

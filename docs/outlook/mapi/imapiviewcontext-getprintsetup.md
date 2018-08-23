@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7fdf76bc56feb7e46370e7fcf66c55d229933eca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63e3eca4e91e560a28d57f05250264d7e0592142
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587254"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recupera as informações de impressão atuais.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4fd0bf5a542e006ec743dbb7fe03d3331875c6d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cdb1ef3cf6db2a1b63b68a105867aa6624b80c2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770246"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588892"
 ---
 # <a name="resending-an-undelivered-message"></a>Reenviar uma mensagem de falha na entrega
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de transporte envia um relatório de falha na entrega (NDR) quando ele não pode entregar com êxito uma mensagem enviada. É até o cliente ou não, os usuários podem tentar reenviar essas mensagens não entregues. Caso você ofereça suporte reenviar mensagens, você pode usar um formulário fornecido pelo MAPI ou implementar seus próprios. O formulário MAPI exibe os nomes dos destinatários com falha e o motivo da falha de entrega, se possível e inclui um botão que, quando selecionada, permite que um usuário reenviar a mensagem.
   

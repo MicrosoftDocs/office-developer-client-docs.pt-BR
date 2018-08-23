@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ddb6d692a8e76a9c24affc3af9f612a6f1c0d769
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e17e8ef7df33ffa248eec4195c00c77d0c49f94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766647"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587765"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recupera os atributos das propriedades em um objeto [IMessage](imessageimapiprop.md) fornecido pela função [OpenIMsgOnIStg](openimsgonistg.md) . 
   

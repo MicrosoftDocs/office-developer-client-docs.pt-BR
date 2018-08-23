@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 026a120406b714a50a9191e4761021693a250b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4b62c4131ecc58db6957144321146625b43f7bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767188"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591020"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um token numérico que o método [IMAPISession:: ShowForm](imapisession-showform.md) usa para acessar uma mensagem. 
   

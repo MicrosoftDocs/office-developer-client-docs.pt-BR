@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d6c221ae307edb9d84cfcc0026660ea4bce7fadd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592196"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Força todas as mensagens aguardando para ser enviado ou recebido para ser carregadas ou baixadas imediatamente. Os objetos de status que implementam provedores de transporte e o objeto de status do MAPI spooler suportam este método.
   

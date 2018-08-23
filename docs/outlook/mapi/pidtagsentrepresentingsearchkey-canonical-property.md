@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a49b944-cef1-4642-9208-b137fd61171a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d18a595a1019c3bd583ef0c38ee5cbe0d497bf93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954e63e5b669ffdd15bbc2548d75c4d420eaf88d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770008"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591041"
 ---
 # <a name="pidtagsentrepresentingsearchkey-canonical-property"></a>Propriedade canônica PidTagSentRepresentingSearchKey
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a chave de pesquisa para o usuário mensagens representado pelo remetente.
   

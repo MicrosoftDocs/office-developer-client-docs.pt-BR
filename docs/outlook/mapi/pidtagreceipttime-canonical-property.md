@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0d0b8f3a394d2ec2239e8ab186d4021b60b00ea4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769744"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590278"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriedade canônica PidTagReceiptTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a data e hora que é gerado um relatório de entrega.
   

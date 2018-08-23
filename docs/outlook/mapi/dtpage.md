@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a187245b2594282bc9908b3075852440f418af2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 769ae984e4b6e8610ca7909ea2ac714d9d04d698
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766498"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589669"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve a caixa de diálogo que é construída a partir de uma tabela de exibição pela função [BuildDisplayTable](builddisplaytable.md) . 
   

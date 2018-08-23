@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 08239670-3211-420c-99d7-0056ed967cb8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f6d0c7c6f6f34330c143781fbac976392ee1c9a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ca53633f0c1e5b226f7e03c8ee702d4cda7d115
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586792"
 ---
 # <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>Propriedade canônica PidLidAppointmentTimeZoneDefinitionStartDisplay
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que armazena a descrição para o fuso horário que é usado quando a hora de início de uma única instância compromisso ou solicitação de reunião é selecionada. 
   

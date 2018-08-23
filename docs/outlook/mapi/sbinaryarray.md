@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fd9a8d731d141dbb71a204a2d20b268951bef42f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770294"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586463"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de valores binários. 
   

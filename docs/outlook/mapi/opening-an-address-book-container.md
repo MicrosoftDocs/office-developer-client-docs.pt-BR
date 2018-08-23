@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
 description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 28f60154524065bd2c818e2e4b7db37ca33276b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79f1f9254e69e1871e886fa0bb3fbb66e2aab128
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590453"
 ---
 # <a name="opening-an-address-book-container"></a>Abrindo um contêiner de catálogo de endereços
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Após a abertura de MAPI integrado catálogo de endereços, abra um ou mais contêineres de catálogo de endereços para acessar os destinatários dentro deles.
   

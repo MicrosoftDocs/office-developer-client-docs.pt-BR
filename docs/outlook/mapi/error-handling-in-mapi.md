@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6f0ebd2112b65140a106a1376896f6de9c00da1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593295"
 ---
 # <a name="error-handling-in-mapi"></a>Tratamento de erros no MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os valores de sucesso, aviso e erro são retornados usando um número de 32 bits, conhecido como resultado alça ou HRESULT. Um HRESULT não é realmente uma alça nada; ele é meramente um valor de 32 bits com vários campos codificados em que o valor. Um resultado de zero indica êxito e um resultado diferente de zero indica uma falha.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7071c05f6f59740163f97f840c7fa48d83bea815
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766444"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591286"
 ---
 # <a name="displaying-recipient-information"></a>Exibindo informações do destinatário
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI fornece uma caixa de diálogo comuns para mostrar detalhes do destinatário. A caixa de diálogo detalhes é criada a partir de uma tabela de exibição e uma implementação **IMAPIProp** . A tabela de exibição descreve a aparência da exibição detalhes e a implementação de **IMAPIProp** controla os dados para o destinatário. Seu provedor é responsável por fornecer a tabela de exibição e a implementação de **IMAPIProp** para cada destinatário. 
   

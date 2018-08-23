@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f399baa4643172aaa596b665fbefb478891f6e96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12bf24cc120a628559d1523405e27bbad3f1f8f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768997"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591755"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriedade canônica PidTagAutoForwardComment
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um comentário adicionado pelo agente de encaminhamento automático.
   

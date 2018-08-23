@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7595fac4346a537eed86550432f56a761c27c0ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91a56acf4afc7453496fa89becd905184101c910
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766682"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591391"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se o modo cache do Exchange para o armazenamento particular do Exchange está habilitado e, se isso é imposto pela diretiva.
   

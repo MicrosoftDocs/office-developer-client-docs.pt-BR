@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 150f2a55bff4188c1f692de8276ed869bcf66c3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88c3e0bdb3cc6660e35faf62c5bb63ec2f6352bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766658"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590369"
 ---
 # <a name="getting-and-setting-multiple-properties"></a>Obter e definir várias propriedades
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Obtendo e definindo propriedades quantos possíveis com o menor número de chamadas, remotas atividade é curtailed e a sobrecarga envolvida com cada propriedade é reduzida. Embora os provedores de serviços tentarem coletar propriedades antes de fazer uma chamada de procedimento remoto para recuperação ou modificação, você pode otimizar desse esforço solicitando-se começar com várias propriedades.
   

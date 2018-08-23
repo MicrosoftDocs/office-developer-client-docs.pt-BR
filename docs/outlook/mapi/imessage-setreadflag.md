@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0ae35166f01f597c2c3ab399a1b66e5760ab0dc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40815f1df597a8fb1fd8adef3dcc09323e946d30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767388"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592959"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define ou limpa o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem e gerencia o envio de relatórios de leitura.
   

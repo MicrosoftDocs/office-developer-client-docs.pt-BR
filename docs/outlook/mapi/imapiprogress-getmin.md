@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ab92aee6a8254a16c48352e371b711932bbe7427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587821"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna o valor mínimo no método [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) para qual andamento informações são exibidas. 
   

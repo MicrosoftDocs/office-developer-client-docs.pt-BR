@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 26c329323eebff6cfdf4f4be4dffe9a62f8745e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2f9d1623c3733292ebf5c65452ac0d65f577c4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592714"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Adicione uma definição para um novo campo definido pelo usuário
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Quando você adiciona um campo definido pelo usuário a um item do Microsoft Outlook, você adicionar uma definição de campo na estrutura do stream [PropertyDefinition](propertydefinition-stream-structure.md) correspondente. Use o procedimento a seguir para adicionar uma nova definição de campo para uma estrutura de fluxo de PropertyDefinition. 
   

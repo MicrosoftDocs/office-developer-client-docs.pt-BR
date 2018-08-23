@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a3bf9e01c16b810d8e48e15016416dd864420498
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4827627fcc11f903fbabcc4d4c8dc202188d3ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586141"
 ---
 # <a name="pidtaginitials-canonical-property"></a>Propriedade canônica PidTagInitials Canonical Property
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém as iniciais para partes do nome completo do destinatário. 
   

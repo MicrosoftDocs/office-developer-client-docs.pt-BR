@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d75f22af3f8c9184da55ec57e08cf4db832ed174
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3bf6347102fc0865b081847a0b66763ba2654665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589480"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>Propriedade canônica PidTagProviderDllName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de base do arquivo da biblioteca de vínculo dinâmico provedor de serviço MAPI (DLL).
   

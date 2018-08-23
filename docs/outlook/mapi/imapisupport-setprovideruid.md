@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2182ec71c54c81e9a43a34973e005292ddccdfff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df842e633f1586d6d77441126d51b2ce44ec3beb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767284"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589067"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Registra uma estrutura [MAPIUID](mapiuid.md) que representa exclusivamente o provedor de serviço. 
   

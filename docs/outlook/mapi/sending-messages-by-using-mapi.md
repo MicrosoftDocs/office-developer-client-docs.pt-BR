@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 36de3b70b0ab7b16f8abed85bbd0983224e00568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770358"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593449"
 ---
 # <a name="sending-messages-by-using-mapi"></a>Enviar mensagens usando MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos cliente chamam o método [IMessage::SubmitMessage](imessage-submitmessage.md) para enviar uma mensagem. **SubmitMessage** chama [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para salvar a mensagem antes de transferir o controle para o spooler MAPI ou diretamente a um provedor de transporte. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b0f86b2260299d2d0294598628f2895c50ed9452
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768639"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587114"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propriedade canônica PidLidRemoteTransport
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Identifica que conta o item de cabeçalho está associado, principalmente para implementar o deixe POP na funcionalidade do servidor. 
   

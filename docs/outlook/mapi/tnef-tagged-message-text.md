@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: bedfc0457b0de8287a4e7bc8bdf8fb57404e4fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588857"
 ---
 # <a name="tnef-tagged-message-text"></a>Texto da mensagem marcado por TNEF
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Texto da mensagem marcados é usado pelo TNEF resolver posições de anexo na mensagem pai. Isso é feito com a adição de um espaço reservado no texto da mensagem na posição do anexo. Esse espaço reservado ou marca de anexo, descreve o anexo de tal forma que o TNEF Saiba como resolver o anexo e sua posição. As marcas são formatadas da seguinte maneira:
   

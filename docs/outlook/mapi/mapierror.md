@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d0ddff638e26940ea74932a8a491455f67cc8dd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbf8e2eb2961a3d149010b876d2b4cb3d0c8abc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767981"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592525"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece informações detalhadas sobre um erro, normalmente gerado pelo sistema operacional, MAPI ou um provedor de serviços. 
   

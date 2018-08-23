@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 260a35af11b76b1867c693723c1a7fa8133082fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770028"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592672"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Propriedade canônica PidTagServiceName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de um serviço de mensagem conforme definido pelo usuário no arquivo Mapisvc.
   

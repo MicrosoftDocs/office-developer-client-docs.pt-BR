@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3912c429f1aa932b4956d943579a4ed99634dca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f636c0a49d6ad96ab157d00780fa6ffc5c8f3236
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588269"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>Propriedade canônica PidTagDeferredSendTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica um horário quando um cliente gostaria para adiar a enviar uma mensagem.
   

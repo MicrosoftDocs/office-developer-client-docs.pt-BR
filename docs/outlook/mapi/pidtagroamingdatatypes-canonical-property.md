@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d8b4df2dbb0d7fd2edeb82222f333c11c5f71987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b29f47191bc1f12653ddcc4e78dd8b3401f0480
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769859"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587639"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propriedade canônica PidTagRoamingDatatypes
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask que indica qual fluxo propriedades existem na mensagem.
   

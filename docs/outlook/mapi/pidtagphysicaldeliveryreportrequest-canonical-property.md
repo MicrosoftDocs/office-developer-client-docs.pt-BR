@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6965a314682b897a488157bf5d909fd6f40680c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc83bace43e4807598ce1b1f723eb15695794a86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590600"
 ---
 # <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a>Propriedade canônica PidTagPhysicalDeliveryReportRequest
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o modo de um relatório ao ser entregue a um destinatário de mensagem específica após a conclusão de entrega de mensagem física ou entrega pela tratamento de sistema de mensagens.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 33f3b8e7d3d0e0d4461c947aa8e9b3ee66373d2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f91b4cdeb301eba6eb9753fc5e7dc3e3d5d892c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592616"
 ---
 # <a name="pidlidtaskglobalid-canonical-property"></a>Propriedade canônica PidLidTaskGlobalId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Localiza uma tarefa existente, usando um GUID, no recebimento de uma atualização de tarefa ou uma resposta de tarefa.
   

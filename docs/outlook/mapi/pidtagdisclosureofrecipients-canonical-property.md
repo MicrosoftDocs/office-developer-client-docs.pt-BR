@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 92e4fa5b540e4d4836a0fa71ea269546afbd1b1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3a109f87ffc7c0e4c1860b779c9447596253a17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593442"
 ---
 # <a name="pidtagdisclosureofrecipients-canonical-property"></a>Propriedade canônica PidTagDisclosureOfRecipients
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se a divulgação de destinatários é permitida.
   

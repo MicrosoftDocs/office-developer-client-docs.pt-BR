@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a679d04f7697abbe0172105febf87082c0cd9946
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81b7b0c235f610e7aaa0c17ecd1760df5d382552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587968"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Permite que o subsistema MAPI informar um provedor MAPI do desligamento rápido de um cliente MAPI, para que o provedor MAPI possa atender ao desligamento.
   

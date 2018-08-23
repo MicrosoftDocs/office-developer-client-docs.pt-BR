@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 83ebb739302ca0e12604b9eaf854f273554826ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770593"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590292"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>Provedores do repositório de mensagens firmemente acoplados
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagem hermeticamente podem ser combinados com um provedor de transporte. Acoplamento hermeticamente meios de provedores de serviço MAPI implementando dois provedores de forma que o provedor de armazenamento e o provedor de transporte podem se comunicar para tornar o processo de envio e recebimento de mensagens mais eficientes. A vantagem de fazer isso é que os aprimoramentos de desempenho podem ocorrer quando dois provedores de serviço podem interagir uns com os outros diretamente, em vez de por meio de spooler MAPI. Para acoplar hermeticamente um provedor de armazenamento de mensagens a um provedor de transporte, o provedor de transporte coloque identificador de entrada do provedor de repositório a mensagem na propriedade **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) no provedor de transporte linha da tabela de status MAPI. Isso permite que o spooler MAPI conectar-se o provedor de armazenamento para o provedor de transporte.
   

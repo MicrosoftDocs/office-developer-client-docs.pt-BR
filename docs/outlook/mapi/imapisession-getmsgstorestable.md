@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ba540b0fd3371b3e12be9eeeb102a9bd9d7e8d22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc0039cf2210446704d25b2156bd4ff50041a524
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767168"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586274"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso à tabela do repositório de mensagem que contém informações sobre todos os repositórios de mensagem no perfil da sessão.
   

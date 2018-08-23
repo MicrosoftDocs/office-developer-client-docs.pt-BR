@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d106b16ac8a20d13a2360eae14272405e1aa717e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d80687df06633b0fd88b0d2c97f06e77c4d5a245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587723"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Propriedade canônica PidTagFormDesignerName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição para o objeto que é usado para criar o formulário. 
   

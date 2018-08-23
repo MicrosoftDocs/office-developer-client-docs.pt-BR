@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2185b059f2b831a14b90bad3a3c286ed72f8234d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589179"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma restrição de comentário, que é usada para anotar uma restrição. 
   

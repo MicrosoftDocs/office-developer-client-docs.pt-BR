@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 82a7ecc8fbad0baf67b49c80c5a62cb8df94dfd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c42077528a4f7227321d8f987cc5dd0ccd4c966c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589739"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Prepara uma lista de destinatários para uso posterior pelo sistema de mensagens.
   

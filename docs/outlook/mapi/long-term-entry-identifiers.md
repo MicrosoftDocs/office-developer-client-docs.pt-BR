@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 589420db48edb348a22f34ce72b948f4d8207ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e624ab4f39ef5a5385119779b0780ee7173a3ee7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586918"
 ---
 # <a name="long-term-entry-identifiers"></a>Identificadores de entradas de longo prazo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um identificador de entrada de longo prazo é atribuído por um provedor de serviço a um objeto quando um objeto exige um identificador com um tempo de vida prolongado. Identificadores de entrada de longo prazo sempre são válidos por semanas ou meses e podem ser válidos em outras estações de trabalho, dependendo do provedor. Os identificadores de longo prazo criados por provedores de catálogo de endereço para destinatários personalizados são válidos universal. 
   

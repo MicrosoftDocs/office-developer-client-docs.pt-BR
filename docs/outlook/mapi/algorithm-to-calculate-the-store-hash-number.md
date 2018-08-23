@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: de4fa7cb24cd486e506f5d747319c44ce9c15a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766146"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592098"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Algoritmo para calcular o número de hash do repositório
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como parte de um MAPI Uniform Resource Locator (URL), um provedor de armazenamento envia um número de hash de repositório para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O manipulador de protocolo MAPI usa esse número de hash de repositório para identificar um repositório. Em geral, um provedor de armazenamento calcula o número de hash de armazenamento com base em assinatura de mapeamento do repositório, se o repositório tem a propriedade **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida na seção perfil global. Caso contrário, o provedor de armazenamento usa o ID de entrada do repositório. O algoritmo para calcular o número de hash de repositório deve minimizar ambiguidades em repositórios de identificação. 
   

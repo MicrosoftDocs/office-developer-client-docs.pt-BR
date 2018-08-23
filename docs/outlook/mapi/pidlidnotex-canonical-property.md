@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b8a4f87c-1d7c-46be-88e6-f09aa1525423
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ba7b277405a529a3ba63f8d619363493b6d03b49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c8e98883e58070cdee233387dc5b7161a9ecb1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768576"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589928"
 ---
 # <a name="pidlidnotex-canonical-property"></a>Propriedade canônica PidLidNoteX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a distância, em pixels, da borda esquerda da tela onde uma interface do usuário exibe uma nota.
   

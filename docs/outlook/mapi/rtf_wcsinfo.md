@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c328e79b7e474369f11f8a4002e00137659db3c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2dd9f002401f8de52a9ad187b7e5850d47caf8a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770298"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587380"
 ---
 # <a name="rtfwcsinfo"></a>RTF_WCSINFO
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa estrutura permite que você especifique informações para descompactar o corpo da mensagem em compactado Rich Text Format (RTF) e, opcionalmente, retornará o fluxo de corpo em seu formato nativo.
   

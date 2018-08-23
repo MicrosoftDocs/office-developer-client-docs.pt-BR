@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: eaf84e1b2a747b313f1534eb66b190d86cf89df9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56c025713b0cc2b41a4bf4463f48f8d7c3d2124b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586414"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Registra o MAPI spooler em um armazenamento de mensagens.
   

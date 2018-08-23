@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8bfa5709dede4a9501d261e0f495acbc0894b470
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4af052cdbd354d321a1d9e1dd0feb004501c8eb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770365"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587611"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Enviar mensagens: tarefas do provedor do repositório de mensagens
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de armazenamento de mensagem obtém envolvido com a mensagem enviando processo quando um cliente chama o método de [IMessage::SubmitMessage](imessage-submitmessage.md) da mensagem. Se várias mensagens devem ser enviados, o armazenamento de mensagens deve enviá-los na mesma ordem em que o cliente usado para suas chamadas **SubmitMessage** . 
   

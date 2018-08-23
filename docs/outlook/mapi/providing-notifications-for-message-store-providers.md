@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3abb4ba67ff5f0cf2284fa9286b6968698877b84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3722893ae57a108b338725e46c975e92c0f8ff72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587506"
 ---
 # <a name="providing-notifications-for-message-store-providers"></a>Fornecer notificações para provedores do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Embora as notificações são opcionais, eles são uma parte muito importante de um provedor de armazenamento de mensagem de boas. Aplicativos cliente e o MAPI spooler contam com notificações do provedor de repositório de mensagem para obter um bom desempenho ao enviar mensagens de saída ou o recebimento de mensagens de entrada. Clientes e o MAPI spooler podem funcionar sem receber notificações do provedor de armazenamento de mensagem, mas não será capazes de informar os usuários das alterações no repositório de mensagem sem eles. Normalmente, isso significa que os usuários não poderão ver o que uma nova mensagem chegou até seu cliente Avançar abre o armazenamento de mensagens pasta de recebimento.
   

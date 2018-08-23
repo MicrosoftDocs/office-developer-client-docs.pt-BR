@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3ef877bca8f94844bb257387ff5cc272c10897b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769282"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590642"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propriedade canônica PidTagFormHidden
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se um formulário deve ser suprimida da exibição por redação menus e caixas de diálogo. 
   

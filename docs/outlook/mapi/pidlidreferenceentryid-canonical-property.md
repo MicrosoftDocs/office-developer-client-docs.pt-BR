@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 736b4e7354929fa7ba5d6bdfea23bb2169244a6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7846a1661b688ac5af2c5446e7a200302e7fdaeb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588129"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Propriedade canônica PidLidReferenceEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a referência [ENTRYID](entryid.md) para o contato. 
   

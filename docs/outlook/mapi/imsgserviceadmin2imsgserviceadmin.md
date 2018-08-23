@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8938f4f237f5d566b13c86e33fc721ab49e2081b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f501ffc9fdb708604e3e64769de16081f87a2450
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590558"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Faz alterações em um serviço de mensagem em um perfil.
   

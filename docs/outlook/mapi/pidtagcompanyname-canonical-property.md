@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 87bc5753-ef39-4275-a850-cfeb340a4a8b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9ac212172658445a1bb5be2fa21a7b21effb7ea0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e68acf07232d86ef4bd76086d0ae25fd927b74fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589879"
 ---
 # <a name="pidtagcompanyname-canonical-property"></a>Propriedade canônica PidTagCompanyName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome da empresa do destinatário. 
   

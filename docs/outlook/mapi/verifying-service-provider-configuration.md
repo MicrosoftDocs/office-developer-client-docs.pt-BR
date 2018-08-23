@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 047a3b99b2d615984252071a1264521a4b2240f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6190b2860e227b24b34e31a4ee9741468383460
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770707"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589634"
 ---
 # <a name="verifying-service-provider-configuration"></a>Verificando a configuração de provedor de serviço
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Seu método de logon ([IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)) Verifique a configuração do seu provedor. Isso envolve a verificação de que todas as propriedades necessárias para a operação completa estão definidas corretamente. Cada provedor requer um número diferente de propriedades; configuração depende do seu provedor e o grau de você permitir a interação do usuário. Alguns provedores de serviços mantenha todas as propriedades necessárias no perfil. 
 

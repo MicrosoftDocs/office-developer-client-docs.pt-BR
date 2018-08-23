@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 222ca10e58b50fa06876718658d1a6f3843da2f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0f4ae75117dff3610175b785ab3f982cc7e7552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590404"
 ---
 # <a name="pidtagprimarysendaccount-canonical-property"></a>Propriedade canônica PidTagPrimarySendAccount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma cadeia de caracteres que nomeia o primeiro servidor que é usado para enviar a mensagem.
   

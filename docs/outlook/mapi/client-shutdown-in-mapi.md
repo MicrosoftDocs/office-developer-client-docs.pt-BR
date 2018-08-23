@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: 'Modificado pela última vez: 26 de junho de 2012'
-ms.openlocfilehash: 2c5e4f422c4eb4fc59ebab6a2243b14f3e8f9502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfa4f1838cef5b5f4940775ec79c9a4b39b336fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766279"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591713"
 ---
 # <a name="client-shutdown-in-mapi"></a>Desligamento do cliente em MAPI 
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Iniciando no Microsoft Outlook 2010 e, agora, incluindo Microsoft Outlook 2013, clientes MAPI podem desligar da mesma maneira que antes, ou eles podem usar o desligamento rápido. Para desligamento rápido ocorra com êxito, o cliente MAPI, o provedor MAPI e o administrador do computador cliente precisam suportar o desligamento rápido. 
   

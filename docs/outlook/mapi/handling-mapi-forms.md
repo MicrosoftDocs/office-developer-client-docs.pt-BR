@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b0e54f78257eb6890e8afbb7941dc625dc79be0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766687"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589648"
 ---
 # <a name="handling-mapi-forms"></a>Manipulação de formulários MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um formulário MAPI é um visualizador de uma mensagem de uma determinada classe. Clientes que permitem que seus usuários trabalhar com mensagens que pertencem a uma variedade de classes de mensagem devem ser escritos para lidar com uma variedade de formulários MAPI. Para lidar com vários formulários, os clientes implementam um componente conhecido como um visualizador de formulário que contém os três objetos a seguintes:
   

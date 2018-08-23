@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: O Project Server Interface (PSI) pode ajudar a automatizar muitos processos do servidor em instalações de local do Project Server 2013. Porém, várias funções exigem o uso do Microsoft Project Professional 2013.
-ms.openlocfilehash: 0afdcdf43c4748fff42f7b5bc74af6c4b59b0b07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588108"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>O que o PSI faz e não faz
 
@@ -231,14 +231,10 @@ Para a tarefa de resumo do projeto, as limitações de PSI são iguais do Projec
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
 ## <a name="see-also"></a>Confira também
-<a name="pj14_WhatPSIDoes_AR"> </a>
 
-- [O que o CSOM faz e não faz](what-the-csom-does-and-does-not-do.md)
-    
-- [Programabilidade do Project Server](project-server-programmability.md)
-    
-- [Autenticação remota no SharePoint Online usando autenticação baseada em declarações](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
-    
-- [Suplementos do Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [O que o CSOM faz e não faz](what-the-csom-does-and-does-not-do.md)  
+- [Programabilidade do Project Server](project-server-programmability.md)   
+- [Autenticação remota no SharePoint Online usando autenticação baseada em declarações](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

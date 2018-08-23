@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4558fcdba11aed92eb21972ed62320209ade77ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0e01d3f56ef01984f281e7fae5990ccb0eade88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769377"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593330"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>Propriedade canônica PidTagInternetReferences
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor do campo de cabeçalho de referências de uma mensagem email extensões MIME (Multipurpose Internet).
   

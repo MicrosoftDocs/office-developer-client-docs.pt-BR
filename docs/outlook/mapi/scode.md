@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 6cd9dfe8fabd1ae7a4389550c628fb7ceff09ea8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f8ede3761ca10589c686e2ec4fac18fbe00fb2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770319"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588584"
 ---
 # <a name="scode"></a>SCODE
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um valor de status de 32 bits que é usado para descrever um erro ou aviso. 
   

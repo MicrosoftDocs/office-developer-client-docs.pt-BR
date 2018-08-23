@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2d0c3e3-ba49-4e2c-bcfd-27cc5ff78c5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b1e2a76198e0c11a826c1bfec6d5b8af1394899c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6032a1b6e54d9228e88482a1c2b0b194e591b697
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587751"
 ---
 # <a name="pidnamebytecount-canonical-property"></a>Propriedade canônica PidNameByteCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o tamanho, em bytes, do arquivo que está anexado ao documento.
   

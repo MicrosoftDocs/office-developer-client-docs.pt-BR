@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 63b8224ad56e2b9985c9d733e2a3c27c67eb2f7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ac4a30d6afc7e5245441bfe2d501169dd3a9447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586120"
 ---
 # <a name="opening-a-message-store-folder"></a>Abrir uma pasta de repositório de mensagens
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes de qualquer pasta pode ser aberta, seu identificador de entrada deve estar disponível. Para a maioria das pastas, isso significa que a recuperação de suas propriedades **PR_ENTRYID** . Para pastas especiais, como algumas das pastas subárvore IPM e outras pastas raiz, MAPI define propriedades de identificador de entrada especiais que estão acessíveis chamando o método de **IMAPIProp::GetProps** do armazenamento de mensagens. Esses identificadores de entrada são sempre longo prazo e são nomeados da seguinte maneira: 
   

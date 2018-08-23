@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767287"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592112"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notifica o MAPI spooler de uma alteração no status ou uma solicitação de serviço. 
   

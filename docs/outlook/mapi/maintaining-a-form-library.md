@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5ccb5a2881d3cef3ff21a106e7e9ea33e0aedd9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6713055837e3b9b664d5fa1465c9a889919ee5ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590089"
 ---
 # <a name="maintaining-a-form-library"></a>Manter uma biblioteca de formulários
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma biblioteca de formulários contém todas as informações importantes sobre um formulário: arquivos executáveis do seu servidor, seus verbos e suas propriedades. Alguns clientes permitir que seus usuários a manter, instalar ou remover servidores de formulário. Se você deseja oferecer esse recurso para seus usuários, você deve ter acesso ao:
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c2e275e373677e50510a0aa87f5060070a870a0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d960207e05b33efe55886166ff1322f7f4eedce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586197"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria uma estrutura nomeada que inclui uma estrutura [DTBLLABEL](dtbllabel.md) para descrever um controle label e o rótulo associado de um comprimento especificado. 
   

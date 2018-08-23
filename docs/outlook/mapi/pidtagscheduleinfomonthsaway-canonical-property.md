@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6301cd86a81dfbf38666b6fb3ea326bc1f801490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8caf16bad26eef10d7686d66c5a17320de5e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588101"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsAway
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista dos meses para os quais informações de disponibilidade de dados de tipo de ausência temporária (OOF) estão presentes na mensagem de livre/ocupado. 
   

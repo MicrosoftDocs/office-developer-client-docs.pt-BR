@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4c5b6cbdda63dcb79b23253e0db695ae658c4fa4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586911"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Instalar os exemplos usados nesta seção
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para instalar o aplicativo de MFCMAPI e o project CreateOutlookItemsAddin para exibir e executar o código de amostra referenciado pelos tópicos na seção [Criando itens do Outlook usando MAPI](creating-outlook-items-by-using-mapi.md) , siga estas etapas. 
 

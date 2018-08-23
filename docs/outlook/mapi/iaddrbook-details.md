@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fbe7f02555f76532896c951f50648c528c250a58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e240ec4e7a61b9e7484f467926501f8c5f5a59f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766882"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592343"
 ---
 # <a name="iaddrbookdetails"></a>IAddrBook::Details
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exibe uma caixa de diálogo que mostra detalhes sobre uma entrada de catálogo de endereço específica.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 94ea0fe7fba4e49c1f646d889f3727cf5ef4739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770215"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590187"
 ---
 # <a name="receiving-messages-by-using-message-store-providers"></a>Receber mensagens usando provedores do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagem não precisa suportar envios de mensagem de entrada (ou seja, oferecem suporte para o repositório provedor de provedores de transporte e o MAPI spooler para usar a mensagem como um ponto de entrega de mensagens). No entanto, se o seu provedor de armazenamento de mensagens não oferece suporte a envios de mensagem de entrada, ele não pode ser usado como o armazenamento de mensagens padrão.
   

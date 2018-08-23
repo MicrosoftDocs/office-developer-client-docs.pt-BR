@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica uma coleção de propriedades relacionadas.
-ms.openlocfilehash: 7cb5e1c30960e69b252abc7af38e021607fd3502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593519"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento de seção (Sheet_Type complexType) ('Visio XML')
 
@@ -53,7 +53,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Célula](http://msdn.microsoft.com/library/70a9d6d6-a4ff-2b0d-febc-789a04a2f5b0%28Office.15%29.aspx) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica uma única propriedade.  <br/> |
+|[Célula](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica uma única propriedade.  <br/> |
 |[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Especifica um conjunto de elementos de **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Atributos

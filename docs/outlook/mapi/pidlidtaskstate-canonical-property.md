@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b4bab1948bc563b92dafa16922da3b9760cf1a1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2cd536a2f287e880388457586f6bdfa9f67f2b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590845"
 ---
 # <a name="pidlidtaskstate-canonical-property"></a>Propriedade canônica PidLidTaskState
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o estado atual da atribuição da tarefa.
   

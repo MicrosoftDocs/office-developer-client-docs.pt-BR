@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4f28fab8-2ce1-4398-a941-6d718c9bbd6a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2d7311857ff54ef253fd00634671f4a510443f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0334ee9a90da38e472571314136195c84a7866
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592700"
 ---
 # <a name="mapi-transport-provider-objects"></a>Objetos do provedor de transporte MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Além do provedor padrão e objetos de logon implementados por todos os provedores de serviços, provedores de transporte são necessários para implementar um objeto de status. Para os outros tipos de provedor de serviço, a implementação de um objeto de status é opcional. No entanto, MAPI exige que ele para provedores de transporte. Provedores de transporte que suportam o download de cabeçalhos de mensagem de um servidor remoto também implementam uma pasta e uma tabela. 
   

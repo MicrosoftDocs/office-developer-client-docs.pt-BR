@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2a87e32fe21aa6fb1d9296c568a74da994c146bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da11cf684c4bdcfb94d33791ed7c61d2e322e1a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586582"
 ---
 # <a name="retrieving-primary-and-provider-identity"></a>Recuperar identidade principal e do provedor
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de serviços, geralmente provedores de catálogo de endereços, tem a opção de fornecer uma identidade que pode ser usada para representar a sessão em uma variedade de situações. Três propriedades descrevem a identidade de um provedor:
   

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8eb8c56c6b27592347a7d08186287fe1cf67cb41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589704"
 ---
 # <a name="about-mapi-additions"></a>Sobre as adições de MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Adições de MAPI são APIs que pertencem à Messaging Application Programming Interface (MAPI), como tipos de dados, funções e propriedades, que foram anteriormente não expostas e documentadas como parte da referência do programador de MAPI. Elas incluem as seguintes definições e propriedades.
   

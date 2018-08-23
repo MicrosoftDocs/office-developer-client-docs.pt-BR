@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
 description: Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para guiá-lo no desenvolvimento de soluções com o formato de arquivo do Visio.
-ms.openlocfilehash: e79ee31ed4ffb0096baa72eccda10b99a17390a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f5147e70febc0883f0de0dbd23eb5a7f6f1660d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593428"
 ---
 # <a name="visio-file-format-reference"></a>Referência de formato de arquivo para o Visio
 
@@ -36,14 +36,10 @@ Esta documentação contém as seguintes informações:
     
 ## <a name="see-also"></a>Confira também
 
-- [Visio para desenvolvedores](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
+- [Visio para desenvolvedores](http://msdn.microsoft.com/en-us/office/aa905478.aspx) 
 - [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx) 
 - [Aviso de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
-    
-- [Aviso de Privacidade do Microsoft Online](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

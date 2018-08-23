@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b4aaf05cdd8c85736215bd0d0f3a8c5c9dafecf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586589"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propriedade canônica PidTagContentReturnRequested
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se uma mensagem deve ser retornada com um relatório de não entrega. 
   

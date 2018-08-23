@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a8f17c3cf3d3d00930f87acd004b24f683a3fc8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 371d0305f8f00e66704bae03f93857c7275b6a10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766563"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589816"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de estruturas [FLATENTRY](flatentry.md) . 
   

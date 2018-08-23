@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6314d91c-4948-4fd1-bacc-932d4bb2c22f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 573ac849bba026ec6a5988220a7e49688393440d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d544c741685d401aaf36fe19be50ab402c9e5604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592679"
 ---
 # <a name="pidtagdefaultstore-canonical-property"></a>Propriedade canônica PidTagDefaultStore
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se um armazenamento de mensagens é o armazenamento de mensagens padrão na tabela de repositório de mensagens. 
   

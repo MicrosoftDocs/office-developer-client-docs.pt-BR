@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 32cfae36fb519654c1fb92d2f3b688c966f9288f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be718ea3ef4da91d2f85a0229f5a506198a2527f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589172"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Criar e armazenar mensagens em repositórios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como o seu provedor de armazenamento de mensagem cria e armazena mensagens em que o mecanismo de armazenamento subjacente dependem muito o mecanismo de armazenamento subjacente em si. Em geral, você precisa apenas gravar código para preservar as propriedades de uma mensagem e seus valores.
   

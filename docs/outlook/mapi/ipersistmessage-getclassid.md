@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e0937eed2e8ca61bc18ee45ff20337267808ea70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9d769e6a32fad22750a965debbbdce83e4de539
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586450"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna um identificador que representa o servidor de formulário que pode gerenciar o formulário. 
   

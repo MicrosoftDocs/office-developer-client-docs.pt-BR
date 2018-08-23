@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f3a876269868c30df48e0a0b62036cfdc199955
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e758acfa1cf0c11be666dd730d9bf589d2e9d77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586211"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Inicia um formulário para abrir uma mensagem existente.
   

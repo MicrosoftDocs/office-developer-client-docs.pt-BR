@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a4c019b98ebf106cc6e8c81d5ba69edf5dacb53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ca2f1c1dba52127808468ffaa505d0ef71c10d89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768647"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589410"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriedade canônica PidLidRemoteTransferSize
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica o tamanho de transferência, em bytes, para um item remoto.
   

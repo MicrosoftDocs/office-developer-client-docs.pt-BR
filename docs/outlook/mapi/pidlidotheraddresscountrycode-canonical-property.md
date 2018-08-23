@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c5358432-dbd3-4216-af0f-4fd01eacec69
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3a0278d5921bed58678cb0f979735dfcf81cc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 710d8554c8d1f4e00fd0d8e2cb8410fca583c2a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768589"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590670"
 ---
 # <a name="pidlidotheraddresscountrycode-canonical-property"></a>Propriedade canônica PidLidOtherAddressCountryCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica que a parte do código de país do contato a outro endereço do.
   

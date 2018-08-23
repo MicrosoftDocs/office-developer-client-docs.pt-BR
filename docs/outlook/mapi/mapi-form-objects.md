@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb9107d9-ad5c-4264-a457-dea193597dc9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 426d3d5787f4ef8cde2883c5e2eb3699dd664965
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0cece598d4ad337e29edb3bb98b302de900e056d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593463"
 ---
 # <a name="mapi-form-objects"></a>Objetos de formulário MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Objetos de formulário são criados dinamicamente pelos servidores de formulário para exibir mensagens específicas e permitir que os usuários interajam com eles. Um objeto form é, portanto, uma instanciação da classe derivada de [IMAPIForm](imapiformiunknown.md) que é implementada pelo servidor de formulário. Quando um aplicativo cliente abre uma mensagem, o servidor de formulário para a classe de mensagem que cria um objeto de formulário para manipular a mensagem. O objeto form sua interface de cria e exibe as propriedades da mensagem nela. O objeto form e sua interface persiste até que o usuário feche. O objeto form lida com todas as alterações feitas os valores das propriedades da mensagem. 
   

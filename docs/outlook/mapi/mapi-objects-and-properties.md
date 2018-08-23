@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0efc111523ad285d54fc40e37fe83a1130f1d291
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ba58cc87b0eefe6c6ff70994d887d7f83e713b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592399"
 ---
 # <a name="mapi-objects-and-properties"></a>Propriedades e objetos MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Algumas propriedades são compatíveis com muitos tipos diferentes de objetos. As propriedades a seguir são exemplos de propriedades que são utilizadas por vários objetos:
   

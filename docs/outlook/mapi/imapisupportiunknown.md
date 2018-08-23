@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590201"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece implementações para tarefas que são normalmente executadas por provedores de serviços e funções de ponto de entrada de serviço de mensagem. Provedores de serviços de recebem um ponteiro para seu objeto de suporte ao MAPI chama o método de logon do objeto seu provedor. Serviços de mensagens recebem o ponteiro de objeto de suporte na chamada para sua função de ponto de entrada.
   

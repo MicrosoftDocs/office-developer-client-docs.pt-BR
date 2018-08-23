@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0170bb9b-f43b-4089-9144-b8652c38f43d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dc4658d57a127cf2cf7cd8794cf7bc8c745c0e3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a36728fc3db2506e7c8d929842de6916b55409c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768307"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588255"
 ---
 # <a name="pidlidappointmentsequencetime-canonical-property"></a>Propriedade canônica PidLidAppointmentSequenceTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a data e hora em que essa propriedade da última modificação.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 014ce1aa-30b9-4106-82a1-447c370853cf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6dc487f0076c795b986976bcbd9ebe146f24b224
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa309a15cf25b3b57bc916eff0bbf18c1f786475
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769190"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586680"
 ---
 # <a name="pidtagdisplaynameprefix-canonical-property"></a>Propriedade canônica PidTagDisplayNamePrefix
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o prefixo do nome de exibição (por exemplo, perda, SR., Sra) para o usuário de mensagens. 
   

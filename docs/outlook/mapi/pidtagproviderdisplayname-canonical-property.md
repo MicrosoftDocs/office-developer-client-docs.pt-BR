@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e76d89b24371d0b08dd2e371aaf801970093c84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4629e4e932151978f551e4a89c6682a26a91eafe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591447"
 ---
 # <a name="pidtagproviderdisplayname-canonical-property"></a>Propriedade canônica PidTagProviderDisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição de um provedor.
   

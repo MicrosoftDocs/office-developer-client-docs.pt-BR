@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2d37898b100398218d4f8762cdd3a16943d8f11a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767718"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589515"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Permite que o provedor de serviços de chamada ou gateway adicionar propriedades ao encapsulamento de uma mensagem ou um anexo. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Codifica apenas as propriedades da mensagem ou anexo especificado pelo parâmetro _ulElemID_ . Se esse sinalizador estiver definido, o valor em _lpvData_ deve ser um ponteiro [IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx) . 
+> Codifica apenas as propriedades da mensagem ou anexo especificado pelo parâmetro _ulElemID_ . Se esse sinalizador estiver definido, o valor em _lpvData_ deve ser um ponteiro [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   

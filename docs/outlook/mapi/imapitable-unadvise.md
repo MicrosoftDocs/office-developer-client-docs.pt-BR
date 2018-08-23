@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e9d8565cfaa17764e92bddafb29e744d23872515
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7de4d3c58d5eeefcf9a82235333da5db4703bc8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767360"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592973"
 ---
 # <a name="imapitableunadvise"></a>IMAPITable::Unadvise
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cancela o envio de notificações configuradas anteriormente com uma chamada ao método [IMAPITable::Advise](imapitable-advise.md) . 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e2caccf3cf6ca7e6f15bed1c901d4dfbb198f19b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91cad169157b2dd0ff279e88b69db149c4c7df89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768595"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590747"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Propriedade canônica PidLidReminderDelta
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o intervalo, em minutos, entre o momento em que quando o lembrete primeiro estiver vencido e a hora de início do objeto calendar.
   

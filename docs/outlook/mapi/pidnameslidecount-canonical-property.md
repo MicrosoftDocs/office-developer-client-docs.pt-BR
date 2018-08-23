@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 44fdac48aff2defb786077b6d77924261a385407
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d20510b0e33744bf8ef7a0c42721d3aac3dec81a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768860"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587240"
 ---
 # <a name="pidnameslidecount-canonical-property"></a>Propriedade canônica PidNameSlideCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o número de slides do arquivo que está anexado ao documento.
   

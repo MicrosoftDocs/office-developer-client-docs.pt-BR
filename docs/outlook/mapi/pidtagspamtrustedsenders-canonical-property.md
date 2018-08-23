@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3ce8f76bf42b7483da047cd15f37596364c52fe4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34ed865e97452ee45d229640b2dadf38faffd537
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770053"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593309"
 ---
 # <a name="pidtagspamtrustedsenders-canonical-property"></a>Propriedade canônica PidTagSpamTrustedSenders
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista delimitada por ponto e vírgula dos endereços de email e domínios que são compostos de remetentes confiáveis.
   

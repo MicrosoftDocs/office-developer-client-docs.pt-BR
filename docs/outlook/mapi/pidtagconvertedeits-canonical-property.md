@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dbce468bc267b8776c2a37f1b88873636d31dbdd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffb7d73a80fce5316e5b948c0ca317501a15daa3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769137"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585994"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Propriedade canônica PidTagConvertedEits
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um identificador para os tipos de texto em uma mensagem após a conversão.
   

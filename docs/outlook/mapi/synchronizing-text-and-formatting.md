@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 40d7a45ab97e0d2f8e9d3db1e1d38eb3bdb75158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d797932a9fd22944f1cfd78e7fb67cd3ddbf8632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588815"
 ---
 # <a name="synchronizing-text-and-formatting"></a>Sincronizar texto e formatação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O principal desafio na enviando mensagens de formato Rich Text (RTF) é manter o sincronizada com a formatação de texto. Para garantir que quando as mensagens chegam ao seu destino estão como seus criadores foi projetados e que a formatação de texto e são sincronizados, MAPI fornece a função [RTFSync](rtfsync.md) . **RTFSync** é geralmente chamado por clientes RTF ciente antes de exibir mensagens de entrada e pelo spooler MAPI quando ele baixa mensagens a um provedor de transporte. Os chamadores especificam a área de possível discrepância, passando um ou dois sinalizadores para **RTFSync**:
   

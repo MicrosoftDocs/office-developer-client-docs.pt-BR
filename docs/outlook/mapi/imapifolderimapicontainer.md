@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 64a64029c3507d9ac4b520076a44e23170dd9bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1886987515f3cafe38418960baa4b6fd89e3b6f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590796"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Executa operações nas mensagens e subpastas em uma pasta.
   

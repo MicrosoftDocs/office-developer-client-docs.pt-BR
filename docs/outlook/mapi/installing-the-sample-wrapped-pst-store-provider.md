@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 29aabc7a2e8513bf24bd3b56ff3e4a126e3d7437
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587534"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar o provedor do repositório PST encapsulado de exemplo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico leva as etapas para baixar e instalar o provedor de repositórios de PST quebrado automaticamente amostra. O provedor de repositório PST de quebradas amostra, WrapPST, implementa um provedor de armazenamento com quebra PST que se destina a ser usado em conjunto com a API de replicação. Para obter mais informações sobre a API de replicação, consulte [Sobre o API de replicação](about-the-replication-api.md).
   

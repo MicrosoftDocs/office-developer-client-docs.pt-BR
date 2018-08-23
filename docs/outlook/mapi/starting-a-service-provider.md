@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 99f47ee4fe990b0e77fcf868977b72d83bfdbac7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d14a9961002d63733423af474e147ec5001051fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770497"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586330"
 ---
 # <a name="starting-a-service-provider"></a>Iniciar um provedor de serviços
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Em algum momento depois que um cliente inicia uma sessão com MAPI, seu provedor de serviços será iniciado. Provedores de transporte são iniciados quando um cliente faz uma solicitação para seus serviços. Provedores de armazenamento de mensagens e catálogo de endereço são iniciados durante o processo de logon do cliente.
   

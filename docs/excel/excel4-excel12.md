@@ -12,22 +12,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7caf4923e336020928006f6838de5eaeba814a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586806"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
+**Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
 Chama uma função de planilha do Microsoft Excel interna, função de folha de macro ou comando, ou somente XLL função especial ou comando, a partir de dentro de um recurso de código ou DLL/XLL.
   
 Suportam a todas as versões recentes do Excel **Excel4**. Iniciando no Excel 2007, **Excel12** é suportado. 
   
-Essas funções podem ser chamadas apenas quando o Excel tiver passado o controle para a DLL ou XLL. Também pode ser chamados quando o Excel passou controle indiretamente por meio de uma chamada para o Visual Basic for Applications (VBA). Eles não podem ser chamados em qualquer outro momento. Por exemplo, eles não podem ser chamados durante as chamadas para a função [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) ou outros horários, quando o sistema operacional tem chamado a DLL ou de um segmento criado pela DLL. 
+Essas funções podem ser chamadas apenas quando o Excel tiver passado o controle para a DLL ou XLL. Também pode ser chamados quando o Excel passou controle indiretamente por meio de uma chamada para o Visual Basic for Applications (VBA). Eles não podem ser chamados em qualquer outro momento. Por exemplo, eles não podem ser chamados durante as chamadas para a função [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) ou outros horários, quando o sistema operacional tem chamado a DLL ou de um segmento criado pela DLL. 
   
 As funções [Excel4v e Excel12v](excel4v-excel12v.md) aceitam seus argumentos como uma matriz, enquanto as funções **Excel4** e **Excel12** aceitam seus argumentos como uma lista de comprimento variável na pilha. Em todos os outros aspectos, **Excel4** se comporta igual **Excel4v**e **Excel12** se comporta igual **Excel12v**.
   

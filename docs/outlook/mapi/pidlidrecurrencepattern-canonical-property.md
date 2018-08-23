@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 94656a1444149efeb6e2e9cd3a239ff14fa46937
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12a55ec4dfe0fb53a07aef73cb4e96771379e483
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589221"
 ---
 # <a name="pidlidrecurrencepattern-canonical-property"></a>Propriedade canônica PidLidRecurrencePattern
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica uma descrição do padrão de recorrência do objeto calendar.
   

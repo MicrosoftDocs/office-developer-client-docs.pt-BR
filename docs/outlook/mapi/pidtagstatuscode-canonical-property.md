@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: efd0dcc8fc01fa433cbbf30936244e4818f8b14a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a60bc55686e883cabd144af3a9badfb55f835472
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770076"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593120"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>Propriedade canônica PidTagStatusCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que indicam o status atual de um recurso de sessão. Todos os provedores de serviço definir códigos de status como MAPI a ser relatado no status do catálogo de endereços integrada, o MAPI spooler e o subsistema de faz.
   

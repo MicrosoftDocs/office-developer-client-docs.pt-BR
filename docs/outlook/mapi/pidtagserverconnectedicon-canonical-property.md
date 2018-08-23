@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a34c3d087b7d736d489fabe7d8226b47e3e9fb65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ac6ee181d62647aeb5ae1b8ac1fc23b64ccf7c3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770018"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590502"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Propriedade canônica PidTagServerConnectedIcon
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o ícone exibido na barra de status.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 41e1113faec18625f57b24f9fc165e2cb029724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1312f590dfc0e8388495351dd4870fcf8b9e22f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768826"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591363"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Propriedade canônica PidNameExchangeJunkEmailMoveStamp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor de persistente de mensagem que indica que a mensagem não deve ser processada por um filtro de spam porque a mensagem foi já processadas ou é seguro.
   

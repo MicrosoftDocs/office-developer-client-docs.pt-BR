@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 61cdb8f0e1bcdcab56bc85a288baff47c8fd1fcb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfbeb6c60069d57d9a42082e80b2a45fd3410767
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769664"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587373"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Propriedade canônica PidTagPreprocess
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se a mensagem requer a pré-processamento.
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30dd43a3ac9a315cd41919872b918bee639ca259
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766103"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593050"
 ---
 # <a name="about-the-replication-state-machine"></a>Sobre a máquina de estado de replicação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém uma visão geral da máquina de estado de replicação de dados do Microsoft Outlook 2013 e o Microsoft Outlook 2010.
   

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d6d6c55776c1379ec1dab0e9a6f7ef0943d2480e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767842"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586302"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém as definições de constantes, declarações de interface MAPI e identificadores de classe e de interface usados pelas APIs de MAPI.
   

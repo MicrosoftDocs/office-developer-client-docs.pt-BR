@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7a82ce9a46017993adfc6c4c755b6c97b847e579
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7813636abc1c4d6ad756c7cf670e21d4acb7f540
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592742"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Notifica o formulário que uma gravação operação foi concluída. 
   
@@ -83,19 +83,9 @@ A tabela a seguir descreve as condições que afetam as ações que você deve t
 |O formulário está em um dos Estados HandsOff e o parâmetro _pMessage_ é definido como NULL.  <br/> |Retorne E_INVALIDARG.  <br/> |
 |O formulário está em um estado que não seja um dos Estados HandsOff ou o estado de NoScribble.  <br/> |Retorne E_UNEXPECTED.  <br/> |
    
-Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação para os métodos [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx) ou [IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx) . 
+Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação para os métodos [IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) ou [IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) . 
   
 ## <a name="see-also"></a>Confira também
 
-
-
-[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-
-
-[Estados de formulários](form-states.md)
-
-
-[IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)
-  
-[IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx)
-
+- [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
+- [Estados de formulários](form-states.md)

@@ -25,12 +25,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Saiba mais sobre os recursos de programação principais no Project Server 2013. Este artigo inclui informações sobre portando aplicativos que foram desenvolvidos para versões anteriores do Project Server.
-ms.openlocfilehash: c2c03da1e0b7c010d4cad8801f98c0c0cf0b1883
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3901fe97f1c8291d0b35709f2350fc4358044b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592980"
 ---
 # <a name="project-server-programmability"></a>Programabilidade do Project Server
 
@@ -235,7 +235,7 @@ Estes são os problemas e limitações de programação de PSI com o Project Ser
   
 - **Alterando o status ativo de uma tarefa** O mecanismo de agendamento mais antigo do Project Server pode mostrar inconsistente iniciar ou terminar vezes quando você usar o método [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) para alterar o status ativo de uma tarefa, se houver várias alterações no objeto **ProjectDataSet** para o _ DataSet_ parâmetro. Se a propriedade **TASK_IS_ACTIVE** for a única alteração no parâmetro _dataset_ do **QueueUpdateProject**, você poderá atualizar o projeto.
     
-    Para obter mais informações sobre tarefas inativas e o mecanismo de agendamento mais antigo, consulte o blog articles [Introducing de tarefas inativas no Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) e [Project Server 2010: agendamento na web, o Project Professional e PSI](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obter uma comparação de agendamento no Project Professional 2010 e do Project Web App no Project Server 2010, consulte [comparação de gerenciamento de agenda baseado na Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx).
+    Para obter mais informações sobre tarefas inativas e o mecanismo de agendamento mais antigo, consulte o blog articles [Introducing de tarefas inativas no Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) e [Project Server 2010: agendamento na web, o Project Professional e PSI](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Para obter uma comparação de agendamento no Project Professional 2010 e do Project Web App no Project Server 2010, consulte [comparação de gerenciamento de agenda baseado na Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
 - **Valor acumulado não calculada** O mecanismo de agendamento mais antigo não calculam os campos de valor acumulado: CRTR, OAT, COTR, cota, IDC, VC, VC %, EAT, EDA, VA, VA %, IDAC, VAT, variação da duração, variação inicial, variação do término, variação de custo e variação do trabalho. Se um projeto tem valores para esses campos e o projeto é atualizado, usando o método **QueueUpdateProject** , não alteram os valores do campo. Para evitar o problema, use o método **QueueUpdateProject2** . 
     
@@ -289,7 +289,5 @@ Os esquemas para o rascunho, publicado, e tabelas de arquivo morto não estão d
 - [Visão geral da referência PSI do Project](project-psi-reference-overview.md)    
 - [Criar ações personalizadas implante com aplicativos para SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
 - [Apresentando tarefas inativas no Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
-- [Project Server 2010: Agendamento na Web, a PSI e o Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)
-- [Comparação de gerenciamento de agenda baseado na Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)
-    
+- [Project Server 2010: Agendamento na Web, a PSI e o Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

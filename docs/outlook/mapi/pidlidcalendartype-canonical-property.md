@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06e066f1-2b7d-4a6b-b88c-85a9bfa83bd3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e3017d18491fde6b66c3173c43b8b9d0ee37ea8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 815a0475c678f30c520d2d7847571f4ddb31cac4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591958"
 ---
 # <a name="pidlidcalendartype-canonical-property"></a>Propriedade canônica PidLidCalendarType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o valor do campo CalendarType da propriedade **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   

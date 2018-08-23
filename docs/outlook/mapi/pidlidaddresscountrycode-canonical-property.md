@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 19b0b8a5-4907-4d3d-8301-d45591f582c3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b7c40fee0f1d8391166979836da2fce872019743
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8ba0fbb0808afde1bc7cbfd62c770e4829c03a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588738"
 ---
 # <a name="pidlidaddresscountrycode-canonical-property"></a>Propriedade canônica PidLidAddressCountryCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o código de país do endereço para correspondência do contato.
   

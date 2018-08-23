@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: eb64f2780530fd30784bf9a9b197bcde205b4a5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589550"
 ---
 # <a name="implementing-service-provider-logon"></a>Implementar o logon do provedor de serviços
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI chama um método em seu objeto provedor para começar o processo de logon usando o ponteiro que você retornar de sua função de ponto de entrada. O método varia, dependendo do tipo de provedor de serviços da seguinte maneira:
   

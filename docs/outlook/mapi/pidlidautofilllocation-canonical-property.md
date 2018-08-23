@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 55922f49d33abfed67b11ceade6d2762e8edacde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31cabf50602f9e0f7a70118ddc794387990862ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768308"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591265"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Propriedade canônica PidLidAutoFillLocation
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica que o valor da propriedade **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) é definido para a propriedade **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) do RecipientRow que representa um recurso.
   

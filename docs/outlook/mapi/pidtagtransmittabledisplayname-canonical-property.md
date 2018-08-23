@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 96eaf6c3f9ddc9d4bf6bc16ddc28a6f38bc311f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc2704b69994cb80b15de82edad6c65423c6b5a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591846"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>Propriedade canônica PidTagTransmittableDisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome para exibição do destinatário em uma forma segura não pode ser alterado.
   

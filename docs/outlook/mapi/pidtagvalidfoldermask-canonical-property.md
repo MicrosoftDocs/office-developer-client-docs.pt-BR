@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae09723c78fe4e333fb5c46e8c79da4b77c0b331
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 605e2f528ea0afc1a35348320abaffeb142d9921
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590719"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Propriedade canônica PidTagValidFolderMask
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que indicam a validade dos identificadores de entrada das pastas em um armazenamento de mensagens.
   
