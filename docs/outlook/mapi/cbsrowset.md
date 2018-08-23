@@ -12,42 +12,42 @@ api_type:
 - COM
 ms.assetid: d29e1f8e-bde8-4a6e-aee8-188cee94fe1a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 34822a2b451fd20a754e275e5d15f4c557de9e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbc652d03ef9046db08d9a56459a595073c5505b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766280"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574619"
 ---
-# <a name="cbsrowset"></a><span data-ttu-id="e1f48-103">CbSRowSet</span><span class="sxs-lookup"><span data-stu-id="e1f48-103">CbSRowSet</span></span>
+# <a name="cbsrowset"></a><span data-ttu-id="b5414-103">CbSRowSet</span><span class="sxs-lookup"><span data-stu-id="b5414-103">CbSRowSet</span></span>
 
   
   
-<span data-ttu-id="e1f48-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="e1f48-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="b5414-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b5414-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e1f48-105">Calcula o número de bytes em uma estrutura de [SRowSet](srowset.md) existente.</span><span class="sxs-lookup"><span data-stu-id="e1f48-105">Computes the number of bytes in an existing [SRowSet](srowset.md) structure.</span></span> 
+<span data-ttu-id="b5414-105">Calcula o número de bytes em uma estrutura de [SRowSet](srowset.md) existente.</span><span class="sxs-lookup"><span data-stu-id="b5414-105">Computes the number of bytes in an existing [SRowSet](srowset.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e1f48-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="e1f48-106">Header file:</span></span>  <br/> |<span data-ttu-id="e1f48-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e1f48-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="e1f48-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="e1f48-108">Related structure:</span></span>  <br/> |<span data-ttu-id="e1f48-109">**SRowSet**</span><span class="sxs-lookup"><span data-stu-id="e1f48-109">**SRowSet**</span></span> <br/> |
+|<span data-ttu-id="b5414-106">Arquivo de cabeçalho:</span><span class="sxs-lookup"><span data-stu-id="b5414-106">Header file:</span></span>  <br/> |<span data-ttu-id="b5414-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b5414-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="b5414-108">Estrutura relacionada:</span><span class="sxs-lookup"><span data-stu-id="b5414-108">Related structure:</span></span>  <br/> |<span data-ttu-id="b5414-109">**SRowSet**</span><span class="sxs-lookup"><span data-stu-id="b5414-109">**SRowSet**</span></span> <br/> |
    
 ```cpp
 CbSRowSet (_lprowset)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e1f48-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="e1f48-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b5414-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="b5414-110">Parameters</span></span>
 
- <span data-ttu-id="e1f48-111">__lprowset_</span><span class="sxs-lookup"><span data-stu-id="e1f48-111">__lprowset_</span></span>
+ <span data-ttu-id="b5414-111">__lprowset_</span><span class="sxs-lookup"><span data-stu-id="b5414-111">__lprowset_</span></span>
   
-> <span data-ttu-id="e1f48-112">Ponteiro para a estrutura **SRowSet** existente.</span><span class="sxs-lookup"><span data-stu-id="e1f48-112">Pointer to the existing **SRowSet** structure.</span></span> 
+> <span data-ttu-id="b5414-112">Ponteiro para a estrutura **SRowSet** existente.</span><span class="sxs-lookup"><span data-stu-id="b5414-112">Pointer to the existing **SRowSet** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="e1f48-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="e1f48-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5414-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="b5414-113">See also</span></span>
 
 
 
-[<span data-ttu-id="e1f48-114">SRowSet</span><span class="sxs-lookup"><span data-stu-id="e1f48-114">SRowSet</span></span>](srowset.md)
+[<span data-ttu-id="b5414-114">SRowSet</span><span class="sxs-lookup"><span data-stu-id="b5414-114">SRowSet</span></span>](srowset.md)
 
 
-[<span data-ttu-id="e1f48-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="e1f48-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="b5414-115">Macros relacionadas a estruturas</span><span class="sxs-lookup"><span data-stu-id="b5414-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 
