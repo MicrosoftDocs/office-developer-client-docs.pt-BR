@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7fc1fae4ed648d59c273b20ced247f6d20e01a6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766223"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591076"
 ---
 # <a name="autocomplete-stream"></a>Fluxo de preenchimento automático
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Além de saber como o Microsoft Outlook interage com o fluxo de preenchimento automático, você também deve entender formato binário dele.
   
