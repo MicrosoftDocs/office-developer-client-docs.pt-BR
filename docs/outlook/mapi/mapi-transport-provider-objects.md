@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 4f28fab8-2ce1-4398-a941-6d718c9bbd6a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 2d7311857ff54ef253fd00634671f4a510443f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0334ee9a90da38e472571314136195c84a7866
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592700"
 ---
-# <a name="mapi-transport-provider-objects"></a><span data-ttu-id="2c019-103">Objetos do provedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="2c019-103">MAPI transport provider objects</span></span>
+# <a name="mapi-transport-provider-objects"></a><span data-ttu-id="8e110-103">Objetos do provedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="8e110-103">MAPI transport provider objects</span></span>
   
-<span data-ttu-id="2c019-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="2c019-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="8e110-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8e110-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2c019-105">Além do provedor padrão e objetos de logon implementados por todos os provedores de serviços, provedores de transporte são necessários para implementar um objeto de status.</span><span class="sxs-lookup"><span data-stu-id="2c019-105">In addition to the standard provider and logon objects implemented by all service providers, transport providers are required to implement a status object.</span></span> <span data-ttu-id="2c019-106">Para os outros tipos de provedor de serviço, a implementação de um objeto de status é opcional.</span><span class="sxs-lookup"><span data-stu-id="2c019-106">For the other service provider types, implementing a status object is optional.</span></span> <span data-ttu-id="2c019-107">No entanto, MAPI exige que ele para provedores de transporte.</span><span class="sxs-lookup"><span data-stu-id="2c019-107">However, MAPI requires it for transport providers.</span></span> <span data-ttu-id="2c019-108">Provedores de transporte que suportam o download de cabeçalhos de mensagem de um servidor remoto também implementam uma pasta e uma tabela.</span><span class="sxs-lookup"><span data-stu-id="2c019-108">Transport providers that support the downloading of message headers from a remote server also implement a folder and a table.</span></span> 
+<span data-ttu-id="8e110-105">Além do provedor padrão e objetos de logon implementados por todos os provedores de serviços, provedores de transporte são necessários para implementar um objeto de status.</span><span class="sxs-lookup"><span data-stu-id="8e110-105">In addition to the standard provider and logon objects implemented by all service providers, transport providers are required to implement a status object.</span></span> <span data-ttu-id="8e110-106">Para os outros tipos de provedor de serviço, a implementação de um objeto de status é opcional.</span><span class="sxs-lookup"><span data-stu-id="8e110-106">For the other service provider types, implementing a status object is optional.</span></span> <span data-ttu-id="8e110-107">No entanto, MAPI exige que ele para provedores de transporte.</span><span class="sxs-lookup"><span data-stu-id="8e110-107">However, MAPI requires it for transport providers.</span></span> <span data-ttu-id="8e110-108">Provedores de transporte que suportam o download de cabeçalhos de mensagem de um servidor remoto também implementam uma pasta e uma tabela.</span><span class="sxs-lookup"><span data-stu-id="8e110-108">Transport providers that support the downloading of message headers from a remote server also implement a folder and a table.</span></span> 
   
-<span data-ttu-id="2c019-109">A ilustração a seguir mostra cada um dos objetos que podem ser implementar provedores de transporte com suas interfaces correspondentes.</span><span class="sxs-lookup"><span data-stu-id="2c019-109">The following illustration shows each of the objects that transport providers can implement with their corresponding interfaces.</span></span> <span data-ttu-id="2c019-110">A ilustração também indica se MAPI ou um cliente é o usuário do objeto.</span><span class="sxs-lookup"><span data-stu-id="2c019-110">The illustration also indicates whether MAPI or a client is the object's user.</span></span>
+<span data-ttu-id="8e110-109">A ilustração a seguir mostra cada um dos objetos que podem ser implementar provedores de transporte com suas interfaces correspondentes.</span><span class="sxs-lookup"><span data-stu-id="8e110-109">The following illustration shows each of the objects that transport providers can implement with their corresponding interfaces.</span></span> <span data-ttu-id="8e110-110">A ilustração também indica se MAPI ou um cliente é o usuário do objeto.</span><span class="sxs-lookup"><span data-stu-id="8e110-110">The illustration also indicates whether MAPI or a client is the object's user.</span></span>
   
-<span data-ttu-id="2c019-111">![Objetos que implementam provedores de transporte] (media/amapi_66.gif "Objetos que implementam provedores de transporte")</span><span class="sxs-lookup"><span data-stu-id="2c019-111">![Objects that transport providers implement](media/amapi_66.gif "Objects that transport providers implement")</span></span>
+<span data-ttu-id="8e110-111">![Objetos que implementam provedores de transporte] (media/amapi_66.gif "Objetos que implementam provedores de transporte")</span><span class="sxs-lookup"><span data-stu-id="8e110-111">![Objects that transport providers implement](media/amapi_66.gif "Objects that transport providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2c019-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="2c019-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e110-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="8e110-112">See also</span></span>
 
-- [<span data-ttu-id="2c019-113">Objetos do provedor de serviço MAPI</span><span class="sxs-lookup"><span data-stu-id="2c019-113">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="8e110-113">Objetos do provedor de serviço MAPI</span><span class="sxs-lookup"><span data-stu-id="8e110-113">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

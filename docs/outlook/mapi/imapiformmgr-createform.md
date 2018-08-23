@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ed3f793e4353cf78949a9df3a17dd3997a573f58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586162"
 ---
-# <a name="imapiformmgrcreateform"></a><span data-ttu-id="f4717-103">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="f4717-103">IMAPIFormMgr::CreateForm</span></span>
+# <a name="imapiformmgrcreateform"></a><span data-ttu-id="39d60-103">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="39d60-103">IMAPIFormMgr::CreateForm</span></span>
 
   
   
-<span data-ttu-id="f4717-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="f4717-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="39d60-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="39d60-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f4717-105">Abre um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário.</span><span class="sxs-lookup"><span data-stu-id="f4717-105">Opens a form to create a new message based on the form's message class.</span></span>
+<span data-ttu-id="39d60-105">Abre um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário.</span><span class="sxs-lookup"><span data-stu-id="39d60-105">Opens a form to create a new message based on the form's message class.</span></span>
   
 ```cpp
 HRESULT CreateForm(
@@ -37,70 +37,70 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f4717-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="f4717-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="39d60-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="39d60-106">Parameters</span></span>
 
- <span data-ttu-id="f4717-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="f4717-107">_ulUIParam_</span></span>
+ <span data-ttu-id="39d60-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="39d60-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="f4717-108">[in] Uma alça para a janela pai para o indicador de progresso é exibida enquanto o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="f4717-108">[in] A handle to the parent window for the progress indicator that is displayed while the form is opened.</span></span> <span data-ttu-id="f4717-109">O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="f4717-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="39d60-108">[in] Uma alça para a janela pai para o indicador de progresso é exibida enquanto o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="39d60-108">[in] A handle to the parent window for the progress indicator that is displayed while the form is opened.</span></span> <span data-ttu-id="39d60-109">O parâmetro _ulUIParam_ é ignorado, a menos que o sinalizador MAPI_DIALOG é definido no parâmetro _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="39d60-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="f4717-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f4717-110">_ulFlags_</span></span>
+ <span data-ttu-id="39d60-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="39d60-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="f4717-111">[in] Uma bitmask dos sinalizadores que controla como o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="f4717-111">[in] A bitmask of flags that controls how the form is opened.</span></span> <span data-ttu-id="f4717-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="f4717-112">The following flag can be set:</span></span>
+> <span data-ttu-id="39d60-111">[in] Uma bitmask dos sinalizadores que controla como o formulário é aberto.</span><span class="sxs-lookup"><span data-stu-id="39d60-111">[in] A bitmask of flags that controls how the form is opened.</span></span> <span data-ttu-id="39d60-112">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="39d60-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="f4717-113">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="f4717-113">MAPI_DIALOG</span></span> 
+<span data-ttu-id="39d60-113">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="39d60-113">MAPI_DIALOG</span></span> 
   
-> <span data-ttu-id="f4717-114">Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="f4717-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="f4717-115">Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.</span><span class="sxs-lookup"><span data-stu-id="f4717-115">If this flag is not set, no user interface is displayed.</span></span>
+> <span data-ttu-id="39d60-114">Exibe uma interface de usuário para fornecer status ou solicita ao usuário para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="39d60-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="39d60-115">Se esse sinalizador não estiver definida, nenhuma interface de usuário é exibida.</span><span class="sxs-lookup"><span data-stu-id="39d60-115">If this flag is not set, no user interface is displayed.</span></span>
     
- <span data-ttu-id="f4717-116">_pfrminfoToActivate_</span><span class="sxs-lookup"><span data-stu-id="f4717-116">_pfrminfoToActivate_</span></span>
+ <span data-ttu-id="39d60-116">_pfrminfoToActivate_</span><span class="sxs-lookup"><span data-stu-id="39d60-116">_pfrminfoToActivate_</span></span>
   
-> <span data-ttu-id="f4717-117">[in] Um ponteiro para o objeto de informações do formulário que é usado para abrir o formulário.</span><span class="sxs-lookup"><span data-stu-id="f4717-117">[in] A pointer to the form information object that is used to open the form.</span></span>
+> <span data-ttu-id="39d60-117">[in] Um ponteiro para o objeto de informações do formulário que é usado para abrir o formulário.</span><span class="sxs-lookup"><span data-stu-id="39d60-117">[in] A pointer to the form information object that is used to open the form.</span></span>
     
- <span data-ttu-id="f4717-118">_refiidToAsk_</span><span class="sxs-lookup"><span data-stu-id="f4717-118">_refiidToAsk_</span></span>
+ <span data-ttu-id="39d60-118">_refiidToAsk_</span><span class="sxs-lookup"><span data-stu-id="39d60-118">_refiidToAsk_</span></span>
   
-> <span data-ttu-id="f4717-119">[in] Um ponteiro para o identificador de interface (IID) para a interface a ser retornado para o objeto de formulário que foi criado.</span><span class="sxs-lookup"><span data-stu-id="f4717-119">[in] A pointer to the interface identifier (IID) for the interface to be returned for the form object that was created.</span></span> <span data-ttu-id="f4717-120">O parâmetro _refiidToAsk_ não deve ser NULL.</span><span class="sxs-lookup"><span data-stu-id="f4717-120">The  _refiidToAsk_ parameter must not be NULL.</span></span> 
+> <span data-ttu-id="39d60-119">[in] Um ponteiro para o identificador de interface (IID) para a interface a ser retornado para o objeto de formulário que foi criado.</span><span class="sxs-lookup"><span data-stu-id="39d60-119">[in] A pointer to the interface identifier (IID) for the interface to be returned for the form object that was created.</span></span> <span data-ttu-id="39d60-120">O parâmetro _refiidToAsk_ não deve ser NULL.</span><span class="sxs-lookup"><span data-stu-id="39d60-120">The  _refiidToAsk_ parameter must not be NULL.</span></span> 
     
- <span data-ttu-id="f4717-121">_ppvObj_</span><span class="sxs-lookup"><span data-stu-id="f4717-121">_ppvObj_</span></span>
+ <span data-ttu-id="39d60-121">_ppvObj_</span><span class="sxs-lookup"><span data-stu-id="39d60-121">_ppvObj_</span></span>
   
-> <span data-ttu-id="f4717-122">[out] Um ponteiro para um ponteiro para a interface retornada.</span><span class="sxs-lookup"><span data-stu-id="f4717-122">[out] A pointer to a pointer to the returned interface.</span></span>
+> <span data-ttu-id="39d60-122">[out] Um ponteiro para um ponteiro para a interface retornada.</span><span class="sxs-lookup"><span data-stu-id="39d60-122">[out] A pointer to a pointer to the returned interface.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f4717-123">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="f4717-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="39d60-123">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="39d60-123">Return value</span></span>
 
-<span data-ttu-id="f4717-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="f4717-124">S_OK</span></span> 
+<span data-ttu-id="39d60-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="39d60-124">S_OK</span></span> 
   
-> <span data-ttu-id="f4717-125">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="f4717-125">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="39d60-125">A chamada foi bem-sucedida e retornou o valor esperado ou valores.</span><span class="sxs-lookup"><span data-stu-id="39d60-125">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="f4717-126">MAPI_E_NO_INTERFACE</span><span class="sxs-lookup"><span data-stu-id="f4717-126">MAPI_E_NO_INTERFACE</span></span> 
+<span data-ttu-id="39d60-126">MAPI_E_NO_INTERFACE</span><span class="sxs-lookup"><span data-stu-id="39d60-126">MAPI_E_NO_INTERFACE</span></span> 
   
-> <span data-ttu-id="f4717-127">Não há suporte para a interface solicitada pelo objeto form.</span><span class="sxs-lookup"><span data-stu-id="f4717-127">The requested interface is not supported by the form object.</span></span>
+> <span data-ttu-id="39d60-127">Não há suporte para a interface solicitada pelo objeto form.</span><span class="sxs-lookup"><span data-stu-id="39d60-127">The requested interface is not supported by the form object.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f4717-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="f4717-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="39d60-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="39d60-128">Remarks</span></span>
 
-<span data-ttu-id="f4717-129">Visualizadores de formulário chame o método **IMAPIFormMgr::CreateForm** para abrir um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário.</span><span class="sxs-lookup"><span data-stu-id="f4717-129">Form viewers call the **IMAPIFormMgr::CreateForm** method to open a form to create a new message based on the form's message class.</span></span> <span data-ttu-id="f4717-130">**CreateForm** abre o formulário criando uma instância do servidor de formulário para nesse formulário, conforme descrito no objeto informações determinado formulário.</span><span class="sxs-lookup"><span data-stu-id="f4717-130">**CreateForm** opens the form by creating an instance of the form server for that form as described in the given form information object.</span></span> <span data-ttu-id="f4717-131">Se for necessário, **CreateForm** chama o método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para baixar o código de servidor do formulário no disco do usuário.</span><span class="sxs-lookup"><span data-stu-id="f4717-131">If required, **CreateForm** calls the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) method to download the form server code to the user's disk.</span></span> 
+<span data-ttu-id="39d60-129">Visualizadores de formulário chame o método **IMAPIFormMgr::CreateForm** para abrir um formulário para criar uma nova mensagem, com base na classe de mensagem do formulário.</span><span class="sxs-lookup"><span data-stu-id="39d60-129">Form viewers call the **IMAPIFormMgr::CreateForm** method to open a form to create a new message based on the form's message class.</span></span> <span data-ttu-id="39d60-130">**CreateForm** abre o formulário criando uma instância do servidor de formulário para nesse formulário, conforme descrito no objeto informações determinado formulário.</span><span class="sxs-lookup"><span data-stu-id="39d60-130">**CreateForm** opens the form by creating an instance of the form server for that form as described in the given form information object.</span></span> <span data-ttu-id="39d60-131">Se for necessário, **CreateForm** chama o método [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) para baixar o código de servidor do formulário no disco do usuário.</span><span class="sxs-lookup"><span data-stu-id="39d60-131">If required, **CreateForm** calls the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) method to download the form server code to the user's disk.</span></span> 
   
-<span data-ttu-id="f4717-132">O parâmetro _pfrminfoToActivate_ deve apontar para um objeto de informações de formulário que foi resolvido corretamente.</span><span class="sxs-lookup"><span data-stu-id="f4717-132">The  _pfrminfoToActivate_ parameter must point to a form information object that has been correctly resolved.</span></span> 
+<span data-ttu-id="39d60-132">O parâmetro _pfrminfoToActivate_ deve apontar para um objeto de informações de formulário que foi resolvido corretamente.</span><span class="sxs-lookup"><span data-stu-id="39d60-132">The  _pfrminfoToActivate_ parameter must point to a form information object that has been correctly resolved.</span></span> 
   
-<span data-ttu-id="f4717-133">Depois que o formulário foi aberto, a tela de formulário a chamada deve configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, pode configurar um contexto de modo de exibição para o formulário.</span><span class="sxs-lookup"><span data-stu-id="f4717-133">After the form has been opened, the calling form viewer must set up a message by using the [IPersistMessage](ipersistmessageiunknown.md) interface and can optionally set up a view context for the form.</span></span> <span data-ttu-id="f4717-134">Para obter mais informações, consulte [Lançar um servidor do formulário](launching-a-form-server.md).</span><span class="sxs-lookup"><span data-stu-id="f4717-134">For more information, see [Launching a Form Server](launching-a-form-server.md).</span></span> 
+<span data-ttu-id="39d60-133">Depois que o formulário foi aberto, a tela de formulário a chamada deve configurar uma mensagem usando a interface [IPersistMessage](ipersistmessageiunknown.md) e, opcionalmente, pode configurar um contexto de modo de exibição para o formulário.</span><span class="sxs-lookup"><span data-stu-id="39d60-133">After the form has been opened, the calling form viewer must set up a message by using the [IPersistMessage](ipersistmessageiunknown.md) interface and can optionally set up a view context for the form.</span></span> <span data-ttu-id="39d60-134">Para obter mais informações, consulte [Lançar um servidor do formulário](launching-a-form-server.md).</span><span class="sxs-lookup"><span data-stu-id="39d60-134">For more information, see [Launching a Form Server](launching-a-form-server.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="f4717-135">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="f4717-135">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="39d60-135">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="39d60-135">MFCMAPI reference</span></span>
 
-<span data-ttu-id="f4717-136">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="f4717-136">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="39d60-136">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="39d60-136">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="f4717-137">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="f4717-137">**File**</span></span>|<span data-ttu-id="f4717-138">**Function**</span><span class="sxs-lookup"><span data-stu-id="f4717-138">**Function**</span></span>|<span data-ttu-id="f4717-139">**Comment**</span><span class="sxs-lookup"><span data-stu-id="f4717-139">**Comment**</span></span>|
+|<span data-ttu-id="39d60-137">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="39d60-137">**File**</span></span>|<span data-ttu-id="39d60-138">**Function**</span><span class="sxs-lookup"><span data-stu-id="39d60-138">**Function**</span></span>|<span data-ttu-id="39d60-139">**Comment**</span><span class="sxs-lookup"><span data-stu-id="39d60-139">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="f4717-140">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="f4717-140">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="f4717-141">CreateAndDisplayNewMailInFolder</span><span class="sxs-lookup"><span data-stu-id="f4717-141">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="f4717-142">MFCMAPI usa o método **IMAPIFormMgr::CreateForm** para criar um formulário antes exibi-las.</span><span class="sxs-lookup"><span data-stu-id="f4717-142">MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it.</span></span>  <br/> |
+|<span data-ttu-id="39d60-140">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="39d60-140">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="39d60-141">CreateAndDisplayNewMailInFolder</span><span class="sxs-lookup"><span data-stu-id="39d60-141">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="39d60-142">MFCMAPI usa o método **IMAPIFormMgr::CreateForm** para criar um formulário antes exibi-las.</span><span class="sxs-lookup"><span data-stu-id="39d60-142">MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f4717-143">Confira também</span><span class="sxs-lookup"><span data-stu-id="f4717-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39d60-143">Confira também</span><span class="sxs-lookup"><span data-stu-id="39d60-143">See also</span></span>
 
 
 
-[<span data-ttu-id="f4717-144">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="f4717-144">IMAPIFormMgr::PrepareForm</span></span>](imapiformmgr-prepareform.md)
+[<span data-ttu-id="39d60-144">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="39d60-144">IMAPIFormMgr::PrepareForm</span></span>](imapiformmgr-prepareform.md)
   
-[<span data-ttu-id="f4717-145">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f4717-145">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="39d60-145">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="39d60-145">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
   
-[<span data-ttu-id="f4717-146">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f4717-146">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
+[<span data-ttu-id="39d60-146">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="39d60-146">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
 
 
-[<span data-ttu-id="f4717-147">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="f4717-147">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="39d60-147">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="39d60-147">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="f4717-148">Iniciar um servidor de formulário</span><span class="sxs-lookup"><span data-stu-id="f4717-148">Launching a Form Server</span></span>](launching-a-form-server.md)
+[<span data-ttu-id="39d60-148">Iniciar um servidor de formulário</span><span class="sxs-lookup"><span data-stu-id="39d60-148">Launching a Form Server</span></span>](launching-a-form-server.md)
 

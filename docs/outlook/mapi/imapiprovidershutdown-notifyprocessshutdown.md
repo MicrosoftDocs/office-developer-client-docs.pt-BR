@@ -12,37 +12,37 @@ api_type:
 - COM
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cce98dc630dd9f7fa459ca31d94d012ba9a7fd85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 251359a98f89c88e707e4f705bd94b1f30b32cbd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592049"
 ---
-# <a name="imapiprovidershutdownnotifyprocessshutdown"></a><span data-ttu-id="0b685-103">IMAPIProviderShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="0b685-103">IMAPIProviderShutdown::NotifyProcessShutdown</span></span>
+# <a name="imapiprovidershutdownnotifyprocessshutdown"></a><span data-ttu-id="15c6a-103">IMAPIProviderShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="15c6a-103">IMAPIProviderShutdown::NotifyProcessShutdown</span></span>
 
   
   
-<span data-ttu-id="0b685-104">**Aplica-se a**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0b685-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="15c6a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="15c6a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0b685-105">Indica o provedor MAPI que um cliente MAPI irá fazer um rápido desligamento, para que o provedor pode executar ações para evitar a perda de dados.</span><span class="sxs-lookup"><span data-stu-id="0b685-105">Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.</span></span>
+<span data-ttu-id="15c6a-105">Indica o provedor MAPI que um cliente MAPI irá fazer um rápido desligamento, para que o provedor pode executar ações para evitar a perda de dados.</span><span class="sxs-lookup"><span data-stu-id="15c6a-105">Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.</span></span>
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="0b685-106">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="0b685-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="15c6a-106">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="15c6a-106">Return value</span></span>
 
-<span data-ttu-id="0b685-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="0b685-107">S_OK</span></span>
+<span data-ttu-id="15c6a-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="15c6a-107">S_OK</span></span>
   
-> <span data-ttu-id="0b685-108">O provedor MAPI está demorando ações para evitar a perda de dados quando o cliente MAPI desligado.</span><span class="sxs-lookup"><span data-stu-id="0b685-108">The MAPI provider is taking actions to prevent data loss when the MAPI client shuts down.</span></span>
+> <span data-ttu-id="15c6a-108">O provedor MAPI está demorando ações para evitar a perda de dados quando o cliente MAPI desligado.</span><span class="sxs-lookup"><span data-stu-id="15c6a-108">The MAPI provider is taking actions to prevent data loss when the MAPI client shuts down.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0b685-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="0b685-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15c6a-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="15c6a-109">See also</span></span>
 
 
 
-[<span data-ttu-id="0b685-110">IMAPIProviderShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0b685-110">IMAPIProviderShutdown : IUnknown</span></span>](imapiprovidershutdowniunknown.md)
+[<span data-ttu-id="15c6a-110">IMAPIProviderShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="15c6a-110">IMAPIProviderShutdown : IUnknown</span></span>](imapiprovidershutdowniunknown.md)
 
 
-[<span data-ttu-id="0b685-111">Desligamento do cliente em MAPI</span><span class="sxs-lookup"><span data-stu-id="0b685-111">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
+[<span data-ttu-id="15c6a-111">Desligamento do cliente em MAPI</span><span class="sxs-lookup"><span data-stu-id="15c6a-111">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
 
