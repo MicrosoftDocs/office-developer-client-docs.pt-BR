@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fb37c15e6544798a956e865e6c8c6d62bee44d28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767834"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568767"
 ---
 # <a name="mapi-client-objects"></a>Objetos de cliente MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos de cliente de mensagens padrão implementam apenas um objeto — um coletor advise. Avise PIAs herdem a [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface e são usados pelo MAPI e provedores de notificação de evento de serviço. Alguns clientes também implementam objetos de andamento para oferecer suporte a exibição das caixas de diálogo de progresso. 
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Um modelo de formulário que você criou com o Microsoft InfoPath usa um esquema XML (XSD) para executar estrutural e validação de dados em XML que é de entrada, editado, e a saída de um formulário do InfoPath. Cada modelo de formulário criado no InfoPath form designer contém pelo menos um arquivo de esquema XSD (. xsd) que é usado para validação em tempo de execução.
-ms.openlocfilehash: 6921a2206c098992a0a24e85c263992a0e2c98b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b19399e4f31f6270fa6f360a8428c725050ce16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765730"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568270"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Trabalhar com esquemas XML no InfoPath
 
@@ -532,8 +532,8 @@ Ao aproveitar o suporte do InfoPath para criar soluções de formulário XML que
 
 - [Esquema XML do W3C](http://www.w3.org/XML/Schema)
 - [Cartilha de esquema XML W3C](http://www.w3.org/TR/xmlschema-0/)
-- [Referência de estruturas de esquema do W3C XML](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-- [Referência de tipos de dados de esquema do W3C XML](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-- [Tutorial do esquema XML](http://www.w3schools.com/schema/default.asp)
+- [Referência de estruturas de esquema do W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
+- [Referência de tipos de dados de esquema do W3C XML](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
+- [Tutorial do esquema XML](https://www.w3schools.com/xml/schema_intro.asp)
 - [Central de desenvolvedores de XML](http://msdn.microsoft.com/en-us/xml/default.aspx)
 

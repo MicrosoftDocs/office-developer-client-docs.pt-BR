@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5cc8261dfee6803492ffcf62c182930e2ac6d425
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 614d9ab1037f0fc2735112801e30e530bfafe4db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569068"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Visão geral do provedor de armazenamento de mensagem MAPI
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de armazenamento de mensagem lidar com o armazenamento e a recuperação de mensagens e outras informações para os usuários de aplicativos do cliente. As informações da mensagem são organizadas por meio de um sistema hierárquico conhecido como um armazenamento de mensagens. O armazenamento de mensagens é implementado em vários níveis, com chamadas pastas que contêm mensagens de diferentes tipos de contêineres. Não há nenhum limite no número de níveis em um armazenamento de mensagem. pastas podem conter muitas subpastas. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f915a17b8271f7ec4173f507504bf165a6084085
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0712407a7882c449c065cb6816694b4a1611036f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568466"
 ---
 # <a name="handling-a-message-store"></a>Manipulação de um armazenamento de mensagens
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Manipulação de um armazenamento de mensagens é uma parte importante do conjunto de qualquer cliente de tarefas. Essas tarefas incluem a abertura, copiar, mover, adicionando e excluindo pastas e mensagens, exibindo várias tabelas, definindo propriedades e controlar níveis de acesso.
 

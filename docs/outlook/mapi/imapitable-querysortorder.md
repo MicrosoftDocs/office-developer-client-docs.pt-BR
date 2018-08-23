@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b5eb671be022a6c3aa22e66f68386691fe23b275
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767334"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569432"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recupera a ordem de classificação atual para uma tabela.
   

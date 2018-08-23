@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2bf7665d7867b9c7151f787bbc6b3cfd802bca35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee2e9e7f73e03e0a201a5ff41ea6e37a78c668a1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569572"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriedade canônica PidTagIpmSentMailEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada da pasta Itens enviados mensagem interpessoais padrão (IPM). 
   

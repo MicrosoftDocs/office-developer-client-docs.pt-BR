@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4b6f850c8f88088863b37bd94de6b1f3d4c48d4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3a62f6783e3b1a0a0423a08c7f5e866b42b81f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19766161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569173"
 ---
 # <a name="adrentry"></a>ADRENTRY
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve as propriedades de zero ou mais que pertencem a um destinatário.
   

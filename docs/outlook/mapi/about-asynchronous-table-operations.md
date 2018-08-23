@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 99bff153d4ce4bac3f85e0ed0feeaffafa6bf3f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c31045e1fc19da63a2d4b61d92b3629afc96a55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766087"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569409"
 ---
 # <a name="about-asynchronous-table-operations"></a>Sobre as operações de tabela assíncrona
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A interface de **IMAPITable** inclui três métodos que operam de forma assíncrona e três métodos para controlar uma operação assíncrona. A tabela a seguir lista esses métodos: 
   

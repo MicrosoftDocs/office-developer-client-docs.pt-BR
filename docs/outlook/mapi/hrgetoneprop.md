@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4dcdce72781669988a0cb15eb9b3a7cd73494bfb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99b63e7b0b31a603bf372b1d52e83af39784b628
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766807"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564154"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recupera o valor de uma única propriedade de uma interface de propriedade, ou seja, uma interface derivada [IMAPIProp](imapipropiunknown.md). 
   

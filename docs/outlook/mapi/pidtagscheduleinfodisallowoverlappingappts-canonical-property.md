@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3719c0d86b0f14324e65b963d2a81a27f6cd52ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c563284eb261d9b1fe4823f5d3ae90629144e1f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769949"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565624"
 ---
 # <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a>Propriedade canônica PidTagScheduleInfoDisallowOverlappingAppts
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se compromissos sobrepostos não são permitidos.
   

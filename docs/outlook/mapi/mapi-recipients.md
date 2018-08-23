@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f83f3f51c8b11aececa31fa277fb799ce1ada512
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6af54b773b875531437a275f14c961a06ef799ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569516"
 ---
 # <a name="mapi-recipients"></a>Destinatários MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todas as mensagens sejam transmitidas tem um ou mais destinatários, ou um conjunto de propriedades que descrevem a qual a mensagem deve ser entregue. Como os destinatários são usados apenas no contexto de uma mensagem, eles são considerados subobjetos de uma mensagem em vez de objetos separados de MAPI. Clientes e provedores trabalham com destinatários usando a interface **IMessage** . Para obter mais informações, consulte [IMessage: IMAPIProp](imessageimapiprop.md).
   

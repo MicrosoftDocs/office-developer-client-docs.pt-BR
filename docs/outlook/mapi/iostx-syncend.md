@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 66542d2cc7600ecbcd8de9043b6b40559744c2ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd5b2ed23eba30cbe861a20c4fd100cb8ea1aeb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568837"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Finaliza a sincronização no estado atual e sai desse estado.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 74074f5ad28bca5bc98242cefebd0111d9cf6415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c0b235b3e931a8c188f5c92c3d9eb3f3c326a83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768835"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563496"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>Propriedade canônica PidNameHiddenCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o valor oculto do arquivo que está anexado ao documento.
   

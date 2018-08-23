@@ -14,18 +14,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Este tópico contém tabelas de códigos de erro para o Project Server Interface (PSI) no Project Server 2013. As tabelas são organizadas por área funcional e pelo intervalo de códigos de erro.
-ms.openlocfilehash: 9d63ed0dde638d123098ec4ffb8de083ddbb4fc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771215"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564140"
 ---
 # <a name="project-server-error-codes"></a>Códigos de erro do Project Server
 
 Este tópico contém tabelas de códigos de erro para o Project Server Interface (PSI) no Project Server 2013. As tabelas são organizadas por área funcional e pelo intervalo de códigos de erro.
    
-Processos do Project Server 2013 e métodos PSI tiverem números de código de erro que geralmente são organizados por área funcional. A enumeração [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx) é duplicada em [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx); eles listam os códigos de erro em ordem alfabética por nome. Este tópico lista os códigos de erro nas tabelas que são organizadas por classe PSI ou área funcional e pelo número de identificador (ID) de erro. 
+Processos do Project Server 2013 e métodos PSI tiverem números de código de erro que geralmente são organizados por área funcional. A enumeração [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) é duplicada em [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); eles listam os códigos de erro em ordem alfabética por nome. Este tópico lista os códigos de erro nas tabelas que são organizadas por classe PSI ou área funcional e pelo número de identificador (ID) de erro. 
   
 > [!NOTE]
 >  Muitos dos códigos de erro são gerais e podem ter várias causas possíveis. Para saber mais sobre erros, você poderá fazer o seguinte: 
@@ -1609,8 +1609,6 @@ CustomFieldRequiredValueNotProvided
 
 ## <a name="see-also"></a>Confira também
 
-- [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)
-- [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx)
 - [Artigos de conceituais e instruções do Project](project-conceptual-and-how-to-articles.md)
 - [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010: O que esperar quando você obtiver a inesperada](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)

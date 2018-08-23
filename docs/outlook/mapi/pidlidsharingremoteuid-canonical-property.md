@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cfe3b728-317b-4871-adea-e2fdf8441da7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cb8b4a7c71f3ad81949f3eac6cab230f40c6d487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd42711fc5647f16b33677a330e71d141f1962d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768662"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566863"
 ---
 # <a name="pidlidsharingremoteuid-canonical-property"></a>Propriedade canônica PidLidSharingRemoteUid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a identificação de entrada da pasta remota está sendo compartilhada. Esta é uma propriedade de uma mensagem de compartilhamento.
   

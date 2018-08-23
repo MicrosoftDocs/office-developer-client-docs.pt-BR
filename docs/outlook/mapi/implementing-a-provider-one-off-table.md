@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568235"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>Implementar a tabela única de um provedor
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI chama o método de [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) do seu provedor quando o usuário de um aplicativo cliente adiciona um destinatário a uma mensagem de saída. Normalmente, os tipos de endereços solicitados são exclusivos para seu sistema de mensagens. Se seu provedor de suporte para a criação de destinatário, ele deve fornecer uma tabela único que expõe os modelos para cada tipo de endereço do destinatário com suporte. Se seu provedor não oferece suporte a criação de destinatário, retorne MAPI_E_NO_SUPPORT da chamada **GetOneOffTable** . 
   

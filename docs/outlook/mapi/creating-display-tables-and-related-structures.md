@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 177fe21537e921a4b94a34ad531847701b16c344
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e17306e2b90f26dcef0a0214e78080fe78752e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568564"
 ---
 # <a name="creating-display-tables-and-related-structures"></a>Criando tabelas de exibição e estruturas relacionadas
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Criando uma tabela de exibição é semelhante ao escrever um programa com uma linguagem de script. Você pode criar uma tabela de exibição por chamar [BuildDisplayTable](builddisplaytable.md) ou escrever o código personalizado para preencher as linhas e colunas da tabela. Em geral, você deve usar a técnica **BuildDisplayTable** porque ele é mais simples. 
   

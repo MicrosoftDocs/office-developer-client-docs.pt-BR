@@ -1,7 +1,7 @@
 ---
 title: Chamar no Excel a partir de DLL ou XLL
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 996226aa8e01d58edbe9b9a8d6e6996b2453d581
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765312"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567703"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Chamar no Excel a partir de DLL ou XLL
 
@@ -50,7 +50,7 @@ Para a DLL poder chamar **Excel4**, **Excel4v**, **Excel12**ou **Excel12v**, Exc
     
 Você não pode chamar a API C do Excel nos seguintes cenários:
   
-- A partir de um evento de sistema operacional (por exemplo, a partir de função [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) ). 
+- A partir de um evento de sistema operacional (por exemplo, a partir de função [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) ). 
     
 - De um segmento de plano de fundo que sua DLL criado.
     
@@ -66,7 +66,7 @@ Todos os quatro dessas funções retornam um valor integer que informa ao chamad
 |4  <br/> |**xlretInvCount** <br/> |O número de argumentos fornecidos na chamada não está correto.  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |Um ou mais dos valores do argumento **XLOPER** ou **XLOPER12** estão formado incorretamente ou preenchido.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel detectado um risco que a operação talvez sua pilha de estouro e, portanto, não tivesse chamado a função.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |O comando ou função falhou por uma razão não descrita por um dos outros valores de retorno. Uma operação que exija muita memória, por exemplo, falhará com esse erro. Isso pode acontecer durante uma tentativa de converter uma referência muito grande para uma matriz de **xltypeMulti** usando a função [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx) .  <br/> |
+|32  <br/> |**xlretFailed** <br/> |O comando ou função falhou por uma razão não descrita por um dos outros valores de retorno. Uma operação que exija muita memória, por exemplo, falhará com esse erro. Isso pode acontecer durante uma tentativa de converter uma referência muito grande para uma matriz de **xltypeMulti** usando a função [xlCoerce](xlcoerce.md) .  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |A operação tentou recuperar o valor de uma célula não calculada. Para preservar a integridade de recálculo no Excel, funções de planilha não têm permissão para fazer isso. Entretanto, as funções e comandos XLL registrado como funções de folha de macro têm permissão para acessar valores de células não calculadas.  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |(Começando no Excel 2007) Uma função de planilha XLL registrada como thread-safe tentou chamar uma função da API C que não seja thread-safe. Por exemplo, uma função thread-safe não é possível chamar a função XLM **xlfGetCell**.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Começando no Excel 2010) O identificador de função assíncronas é inválido.  <br/> |
@@ -74,7 +74,7 @@ Todos os quatro dessas funções retornam um valor integer que informa ao chamad
    
 Se a função retornará um dos valores de falha na tabela (ou seja, ele não retorna **xlretSuccess**), o valor de retorno **XLOPER** ou **XLOPER12** também será definido **#VALUE!**. Em certas circunstâncias, por isso pode ser um teste suficiente de sucesso, mas lembre-se de que uma chamada pode retornar ambas as **xlretSuccess** de verificação e **#VALUE!**.
   
-Se uma chamada para os resultados da API C no **xlretUncalced** ou **xlretAbort**, seu código DLL ou XLL deve retornar controle para o Excel antes de fazer qualquer outras chamadas de API C (além de chamadas para a função de [xlfree](http://msdn.microsoft.com/library/guid_8ce2eef2-0138-495d-b6cb-bbb727a3cda4%28Office.15%29.aspx) para liberar memória alocada para Excel recursos nos valores **XLOPER** e **XLOPER12** ). 
+Se uma chamada para os resultados da API C no **xlretUncalced** ou **xlretAbort**, seu código DLL ou XLL deve retornar controle para o Excel antes de fazer qualquer outras chamadas de API C (além de chamadas para a função de [xlfree](xlfree.md) para liberar memória alocada para Excel recursos nos valores **XLOPER** e **XLOPER12** ). 
   
 ### <a name="command-or-function-enumeration-argument-xlfn"></a>Comando ou argumento de enumeração de função: xlfn
 
@@ -238,7 +238,7 @@ void Excel12v_example(double *dbl_array, int size, double &sum, double &average,
 
 Substituindo referências aos valores **XLOPER12** com **XLOPER**e **Excel12v** com **Excel4v**, no código precedente for resultar em uma função que funcionaria com todas as versões do Excel. Essa operação das funções do Excel **soma**, **média**, **MIN**e **MAX** é tão simple que seria mais eficiente codificá-los em C e evitar a sobrecarga de preparar os argumentos e ligações para o Excel. No entanto, muitas das funções do que Excel contém são mais complexas, tornando essa abordagem útil em alguns casos. 
   
-O tópico [xlfRegister](http://msdn.microsoft.com/library/guid_c730124c-1886-4a0f-8f06-79763025537d%28Office.15%29.aspx) fornece outro exemplo de como trabalhar com **Excel4v** e **Excel12v**. Ao registrar uma função de planilha XLL, você pode fornecer uma cadeia de caracteres descritiva para cada argumento usado na caixa de diálogo **Colar função** . Portanto, o número de argumentos total sendo fornecido para **xlfRegister** depende do número de argumentos que leva sua função XLL e irá variar de uma função para a próxima. 
+O tópico [xlfRegister](xlfregister-form-1.md) fornece outro exemplo de como trabalhar com **Excel4v** e **Excel12v**. Ao registrar uma função de planilha XLL, você pode fornecer uma cadeia de caracteres descritiva para cada argumento usado na caixa de diálogo **Colar função** . Portanto, o número de argumentos total sendo fornecido para **xlfRegister** depende do número de argumentos que leva sua função XLL e irá variar de uma função para a próxima. 
   
 Onde você sempre chamar uma função do C API ou comando com o mesmo número de argumentos, você deseja evitar a etapa extra de criação de uma matriz de ponteiros para os argumentos. Nesses casos, é mais simples e limpo usar **Excel4** e **Excel12**. Por exemplo, durante o registro de comandos e funções XLL, você precisará fornecer o nome de arquivo e caminho completo da DLL ou XLL. Você pode obter o nome de arquivo em uma chamada para **xlfGetName** e liberá-la com uma chamada para **xlFree**, conforme mostrado no exemplo a seguir para **Excel4** e **Excel12**.
   
@@ -317,15 +317,9 @@ Embora você possa usar isso para determinar se a nova API C está disponível e
   
 ## <a name="see-also"></a>Confira também
 
-
-
-[Criar XLLs](creating-xlls.md)
-  
-[Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)
-  
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
-  
-[C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
-  
-[Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
+- [Criar XLLs](creating-xlls.md)  
+- [Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)  
+- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)  
+- [Retorno de chamada da API de C: funções Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)  
+- [Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 

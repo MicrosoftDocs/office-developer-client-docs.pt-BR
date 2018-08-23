@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
 description: 'Modificado pela última vez: 05 de outubro de 2012'
-ms.openlocfilehash: a332c63814163579d5fe8ab365145e9583fa6c97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c39f66917ecc080785b3a3e91506d3994427ca62
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767572"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569075"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Inicializar um provedor de armazenamento com quebra PST
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para implementar um provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra, você deve inicializar o provedor de armazenamento com quebra PST usando a função **[MSProviderInit](msproviderinit.md)** como ponto de partida. Depois que a DLL do provedor é inicializada, a função **[MSGSERVICEENTRY](msgserviceentry.md)** configura o provedor de repositórios de PST com quebra. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767446"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568746"
 ---
 # <a name="implementing-standard-form-verbs"></a>Implementar verbos de formulário padrão
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI define um conjunto de verbos padrão ou ações tomadas quando um usuário faz uma seleção de menu ou clicar em um botão, que devem oferecer suporte a todos os visualizadores de formulário. Cada verbo tem uma constante associada a ela para identificação, definida no EXCHFORM. Arquivo de cabeçalho H. A tabela a seguir lista os verbos formulário padrão e suas constantes associados:
   

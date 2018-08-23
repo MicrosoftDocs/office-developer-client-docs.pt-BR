@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a93e5a44768cd99512189f800bf98ab6e30b575d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e84f1361e9ca3d95b4297c01801e649a9f86ced
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569229"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriedade canônica PidTagRecipientFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica um campo de bit que descreve o status do destinatário.
   

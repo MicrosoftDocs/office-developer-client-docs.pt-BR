@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 685ca78367ac4e0a8334a3d14c2fda9d57161e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cc8471f9a3125ce89d5baefac6058e368e601d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769647"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570405"
 ---
 # <a name="pidtagpersonalhomepage-canonical-property"></a>Propriedade canônica PidTagPersonalHomePage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a URL da home page pessoal do usuário.
   

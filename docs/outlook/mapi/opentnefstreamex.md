@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 52fd844954f41d5d09b5e78f7c23ff6f7469bb43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b651a913855e99e2f26dfd99fb725cc332201932
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565183"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cria um objeto Transport-Neutral Encapsulation Format (TNEF) que pode ser usado para codificar ou decodificar um objeto de mensagem em um fluxo de dados TNEF para uso por transportes ou gateways e repositórios de mensagem. Este é o ponto de entrada para acesso TNEF. 
   
