@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 835f805e-5bf3-4ae6-a69e-41eadb76f450
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c87d5c98bea38bc889b947f7b55aaa28c7750314
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d11de59e137b03f8e7f297b468f69c1b12cea9b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574214"
 ---
 # <a name="pidlidworkaddressstate-canonical-property"></a>Propriedade canônica PidLidWorkAddressState
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a parte do estado ou província do trabalho do contato endereço para correspondência.
   

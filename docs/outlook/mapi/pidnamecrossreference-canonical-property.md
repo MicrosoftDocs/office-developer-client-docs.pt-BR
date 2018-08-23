@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 148d71dc0e99e23ffe10445068170617cb26b01b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5daf8c1ee249cfc7fb1bc1ffb6dfc68b400fe953
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571126"
 ---
 # <a name="pidnamecrossreference-canonical-property"></a>Propriedade canônica PidNameCrossReference
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de campo de cabeçalho Xref [RFC3282].
   

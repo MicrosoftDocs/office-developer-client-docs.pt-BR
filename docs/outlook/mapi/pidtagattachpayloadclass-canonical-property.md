@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bc4de217-8241-45e7-9e97-8f0c1b16691a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cef412d212bf29cfd1a1d5c4b2911440fae6a15e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d00c1823ba152c20be213f16fe4e3ea3c771a83a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574318"
 ---
 # <a name="pidtagattachpayloadclass-canonical-property"></a>Propriedade canônica PidTagAttachPayloadClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor de um campo de cabeçalho X-carga-classe de MIME.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: bead72ab2b394634217c9ae219a03a98752ef27d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cd432540a4336b46a589e953b5ce4dde7553597
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766827"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573660"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre o erro de provedor de catálogo de endereços anterior. 
   

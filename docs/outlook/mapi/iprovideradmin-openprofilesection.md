@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 276a2bd84156e9b396df71f51130e6704ad7c7fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f917989d9bac403f2bea5b2d6699b7a1caf2008
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573009"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Abre uma seção de perfil do perfil atual e retorna um ponteiro de [IProfSect](iprofsectimapiprop.md) para obter mais acesso. 
   

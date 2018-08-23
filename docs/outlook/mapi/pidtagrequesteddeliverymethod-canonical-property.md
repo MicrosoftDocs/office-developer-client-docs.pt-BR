@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8a2199ee2bba8b3b41af7bf26de6cdd3d8d0956e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f18d726c1b06a6fb7f79964165bbdb9074a6d4d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571364"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Propriedade canônica PidTagRequestedDeliveryMethod
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Essa propriedade contém uma matriz de binária de métodos de entrega (provedores de serviço), na ordem de preferência do remetente da mensagem.
   

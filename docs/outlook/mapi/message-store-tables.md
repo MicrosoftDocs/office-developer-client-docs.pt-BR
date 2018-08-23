@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 84631ea6d332829430bf9d99488f8a1a5fdebac0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572015"
 ---
 # <a name="message-store-tables"></a>Tabelas de repositórios de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A tabela de repositório de mensagem contém informações sobre provedores de armazenamento de mensagem no perfil atual. Há uma tabela de repositório de mensagem para cada sessão MAPI, implementada por MAPI e usado pelos clientes. Clientes podem usar essa tabela, por exemplo, para localizar todas as instâncias de um provedor específico ou para localizar um repositório de mensagem específica. 
   

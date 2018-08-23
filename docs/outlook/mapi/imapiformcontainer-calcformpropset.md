@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 594e3aac-a00f-422e-8e7a-949e4c9a3f8d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b15dc4e467644c2a0c3856372b550c3b55469f1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c6a6d210230fc305aef46371c22f67b3d445a81
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576579"
 ---
 # <a name="imapiformcontainercalcformpropset"></a>IMAPIFormContainer::CalcFormPropSet
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna uma matriz das propriedades usadas por todos os formulários instalados em um contêiner de formulário.
   

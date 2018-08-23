@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e93325873f1d9e89bb591d136df04aa27403375f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8bd8c7fb2ff5a030cd96e4c3ac2bbb4b6b16ce5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571455"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Propriedade canônica PidTagReceiveFolderSettings
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma tabela de uma mensagem repositório receberão as configurações de pasta.
   

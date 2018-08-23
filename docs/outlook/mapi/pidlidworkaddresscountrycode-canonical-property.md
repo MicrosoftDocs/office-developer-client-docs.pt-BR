@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70080200-a9ad-47c5-8cde-7310e1c4d324
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 13f36f1e86f9b24ae2a29881e103180ffee0484e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0785e4d5bb2049996fb39cdf218f01bda9c6c61f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573625"
 ---
 # <a name="pidlidworkaddresscountrycode-canonical-property"></a>Propriedade canônica PidLidWorkAddressCountryCode
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a parte do código de país do endereço de trabalho do contato.
   

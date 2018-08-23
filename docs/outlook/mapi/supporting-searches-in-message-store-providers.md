@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0cd8bbe14e6af020ec5c93cd46a24853d1c8401c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f206623103f810b2868502aea7c6804cd306f022
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573191"
 ---
 # <a name="supporting-searches-in-message-store-providers"></a>Suporte a pesquisas em provedores do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos clientes frequentemente têm alguns componentes de interface do usuário devotados a pesquisar mensagens em um repositório de mensagem. Critérios de pesquisa são especificados no [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) interface por meio dos métodos [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) e [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md) . 
   

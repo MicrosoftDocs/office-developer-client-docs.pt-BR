@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 19031f6c02f3e8e925adfc8d2affa43fb6532fee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 520478061e192f9fec97c6b13edde7833a13a3d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768023"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571392"
 ---
 # <a name="mapisvcinf-services-section"></a>Seção MapiSvc.inf [Serviços]
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A seção **[serviços]** lista os serviços de mensagem que são instalados em um computador. Entradas nesta seção usam o seguinte formato: 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 66dbe65a-b9fd-41d5-946f-ec8888363043
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c2979a0825ad6c62dbbb7931255501e90d8450a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d6a2f7b8b4f5345faa54e24c359f15ee181a7f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575480"
 ---
 # <a name="pidtagcontainercontents-canonical-property"></a>Propriedade canônica PidTagContainerContents
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um objeto table de conteúdo incorporado que fornece informações sobre um contêiner.
   

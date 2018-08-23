@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: Este artigo descreve o desenvolvimento de suplemento Microsoft Project Online para aperfeiçoar sua experiência ao Project Online. O projeto de desenvolvimento é implementado como um passo a passo. O suplemento usado para este artigo lê e exibe os nomes de projeto e as identificações dos projetos publicados de sua conta do Project Online e permite fazer drill para baixo até tarefas recuperar associadas aos projetos individuais.
-ms.openlocfilehash: 91d475afd5c4085b00ed06b66620f0d18174fd7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea5c7e3f3d20aa6bf5b6bb77a18eb87d06f549e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572540"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Desenvolvendo um suplemento Project Online usando o modelo de objeto JavaScript (JSOM)
 
@@ -37,7 +37,9 @@ Project Online realiza uma ação de mais para proteger as informações que per
 A configuração de desenvolvimento para Project Online suplementos usa o tipo de projeto Visual Studio SharePoint Add-in. O suplemento é gravado em JavaScript e usa o modelo de objeto JavaScript do projeto (JSOM) para interagir com o serviço do Project Online. O JSOM herda grande parte da sua funcionalidade JSOM do SharePoint.
   
 > [!NOTE]
-> Suplementos podem ser publicados e vendidos no Office Store ou implantados em um catálogo de aplicativos privado no SharePoint. Para obter mais informações, consulte [Deploy e publicar o Add-in Office](http://dev.office.com/docs/add-ins/publish/publish.aspx). > O suplemento usado neste artigo é uma amostra para desenvolvedores; ele não é projetado para uso em um ambiente de produção. O objetivo principal é mostrar um exemplo de desenvolvimento de aplicativos para o Project Online. 
+> Suplementos podem ser publicados e vendidos no Office Store ou implantados em um catálogo de aplicativos privado no SharePoint. Para obter mais informações, consulte [Deploy e publicar o Add-in Office](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish).
+> 
+> O suplemento usado neste artigo é uma amostra para desenvolvedores; ele não é projetado para uso em um ambiente de produção. O objetivo principal é mostrar um exemplo de desenvolvimento de aplicativos para o Project Online. 
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -141,7 +143,7 @@ O projeto de suplemento consiste em vários arquivos. Neste exemplo, você preci
     
 Se o Project Online inquilino muda, como mover de uma versão de avaliação para um site de inscrição, você pode atualizar as propriedades do projeto, incluindo a Conexão do servidor e a URL do Site, usando a janela de propriedades disponíveis por meio do **modo de exibição** > **Propriedades Janela** comando. 
   
-Você também pode adicionar arquivos ao projeto. Nesse caso, você precisará atualizar o arquivo Elements XML localizado no mesmo grupo (conteúdo, imagens, páginas ou Scripts) para incluir os novos arquivos. Para obter mais informações sobre os arquivos do projeto, consulte [Explore a estrutura de manifesto de aplicativo e o pacote de um suplemento do SharePoint](https://msdn.microsoft.com/en-us/library/office/fp179918.aspx.aspx).
+Você também pode adicionar arquivos ao projeto. Nesse caso, você precisará atualizar o arquivo Elements XML localizado no mesmo grupo (conteúdo, imagens, páginas ou Scripts) para incluir os novos arquivos. Para obter mais informações sobre os arquivos do projeto, consulte [Explore a estrutura de manifesto de aplicativo e o pacote de um suplemento do SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
   
 ### <a name="set-application-scope"></a>Definir o escopo do aplicativo
 
@@ -331,6 +333,7 @@ Saída de exemplo para as tarefas de um único projeto segue.
   
 ## <a name="see-also"></a>Confira também
 
-Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](http://dev.office.com/project.aspx).
+Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
     
+
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4a027e0ac586834242dc6e06d80a9d8936dbfd53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77393be40db939088b775095cd38f254fb7406df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570398"
 ---
 # <a name="pidlidprivate-canonical-property"></a>Propriedade canônica PidLidPrivate
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se o usuário final quer que este objeto de mensagem oculto de outros usuários que têm acesso ao objeto de mensagem.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ee78458-7b51-4092-9c30-22ecafb5ce37
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 053a4cc0dca313ae1e72691383ffb2e1c80e8f88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 620ca83396817de7acd0ce82b70c55c77da9d5ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570265"
 ---
 # <a name="pidlidfax1richtextformat-canonical-property"></a>Propriedade canônica PidLidFax1RichTextFormat
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o formato rich text do endereço de fax comercial do contato.
   

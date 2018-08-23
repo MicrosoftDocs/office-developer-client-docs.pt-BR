@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e66d48b6caefe0fee67f41ea829db3201751cf27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7cae156e29503c8b50755c99023805aa6d14e704
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573366"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Separa o identificador de entrada compostos de um objeto, geralmente em uma mensagem em um armazenamento de mensagens, no identificador de entrada desse objeto no repositório e o identificador de entrada da loja.
   

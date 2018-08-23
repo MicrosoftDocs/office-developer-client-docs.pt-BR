@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e3459c639cac449cdc03361949c9618827515b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572442"
 ---
 # <a name="types-of-restrictions"></a>Tipos de restrições
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Há muitos tipos de restrições, alguns que se concentrem em colunas específicas. Todas as implementações de tabela esperadas para dar suporte a restrições nas colunas no conjunto atual de coluna. No entanto, para adicionar um valor, implementadores de tabela também podem oferecer suporte restrições com base nas propriedades do objeto que não estão atualmente no modo de exibição de tabela.
   

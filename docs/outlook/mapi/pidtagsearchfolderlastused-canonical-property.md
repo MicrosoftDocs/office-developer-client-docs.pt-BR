@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b90639675fa566a83dd78c6ac250f743d68480e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6cafa336bf915abd35de07a11ee65baf9ac4d69f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572687"
 ---
 # <a name="pidtagsearchfolderlastused-canonical-property"></a>Propriedade canônica PidTagSearchFolderLastUsed
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa a última vez em que a pasta foi acessada.
   

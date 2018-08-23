@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 165fe3a72060e88dc34d8153c13ae58bcbd9ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577482"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Verifica o status de externo do provedor de transporte. 
   

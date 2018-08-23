@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: ce9579cb6b07336cae7d69fe503c918d96946b0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766719"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575550"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obter o endereço de email de um item de contato
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico mostra como obter o valor de uma propriedade nomeada que representa o endereço de email de um item do Microsoft Outlook 2010 ou o contato do Microsoft Outlook 2013.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9ea44c9ba75390f06ff12ddeed0c7b652538e07d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767030"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573814"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Solicita que o formulário execute qualquer item das tarefas ele associa um verbo específico.
   

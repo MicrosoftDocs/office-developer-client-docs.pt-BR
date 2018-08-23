@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: cecdb2c30d6c9df2aafbeed43714269b863ebc48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fbc09d9d79f88ef783b8effe7a24e4b35564cee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19768126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570370"
 ---
 # <a name="message-reception-model"></a>Modelo de recebimento de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O provedor de transporte controla se o MAPI spooler deve sondá-lo para email de entrada ou se ele realiza uma chamada de volta para o MAPI spooler quando chegar novo email. O provedor de transporte define o sinalizador SP_LOGON_POLL quando ela retorna de [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) para solicitar sondagem. Caso contrário, o provedor de transporte usa [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) quando o email de entrada estiver disponível. Depois que o email de entrada está disponível de aprendizagem, o MAPI spooler abre uma nova mensagem e solicita o provedor de transporte para armazenar as propriedades da mensagem recebida na mensagem. 
   

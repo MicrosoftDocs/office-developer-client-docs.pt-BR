@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e8b2f23c10a0557744f483c894b7b2d00a7947df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee97f1a88213c05b41af07d682d2891baa0015a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769417"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572176"
 ---
 # <a name="pidtagjunkphishingenablelinks-canonical-property"></a>Propriedade canônica PidTagJunkPhishingEnableLinks
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Significa, se for TRUE, que o carimbo de phishing na mensagem deve ser ignorado.
   

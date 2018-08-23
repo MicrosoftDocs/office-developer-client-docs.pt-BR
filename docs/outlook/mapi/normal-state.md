@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b2acad7-5ef8-44db-911f-3bd2a7ca2778
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dcc92d220f07b1c111284acacac4a65a2e3f8b6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5c92c243069e5b8b500df086169c8e5b961976d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570713"
 ---
 # <a name="normal-state"></a>Estado Normal
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O estado Normal é onde o objeto form passa a maior parte de seu tempo, aguardando para aplicativos de cliente para iniciar uma ação como salvar as alterações ou fechar o formulário. A tabela a seguir descreve as transições permitidas do estado Normal.
   

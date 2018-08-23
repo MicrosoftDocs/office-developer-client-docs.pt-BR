@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 54fe624c98ddb631326853f387372468a61b2f70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2917f2119fde38686397b65956113bc430b2e31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770027"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570811"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>Propriedade canônica PidTagServiceDllName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de arquivo da DLL que contém a função do ponto de entrada do provedor de serviço de mensagem para chamar para configuração.
   

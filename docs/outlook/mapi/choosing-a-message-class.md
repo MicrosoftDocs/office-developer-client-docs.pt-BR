@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f1e604120041e9d91d06276fabb2e9dd7505df51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766308"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574234"
 ---
 # <a name="choosing-a-message-class"></a>Escolher uma classe de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conforme descrito nas [Classes de mensagem MAPI](mapi-message-classes.md), classes de mensagens são importantes para estabelecer a relação entre os tipos de mensagens personalizadas e, por extensão, entre os próprios servidores do formulário. Felizmente, escolher uma cadeia de caracteres de classe de mensagem é razoavelmente simple. A cadeia de caracteres de classe de mensagem de uma classe de mensagem é uma cadeia de caracteres arbitrária, mas ela deve usar as convenções a seguir:
   

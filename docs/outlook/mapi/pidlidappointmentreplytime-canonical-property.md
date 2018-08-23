@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5bc2af5205e6e07b56212a6cf7077f9ef4bee89c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 755342da4bc280241e313fbb7efb818ab29b829f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768309"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571623"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propriedade canônica PidLidAppointmentReplyTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a data e hora de quando o participante respondeu a solicitação de reunião um recebida ou atualização de reunião.
   

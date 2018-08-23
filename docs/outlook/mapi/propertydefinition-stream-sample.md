@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc216302cb68be4b0e9d57f60f491adebcba1975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573926"
 ---
 # <a name="propertydefinition-stream-sample"></a>Exemplo de fluxo de PropertyDefinition
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico descreve um exemplo de um stream PropertyDefinition. O fluxo contém uma definição de um campo definido pelo usuário, `TextField1`. O tipo é **texto**e a definição está no formato PropDefV2.
   

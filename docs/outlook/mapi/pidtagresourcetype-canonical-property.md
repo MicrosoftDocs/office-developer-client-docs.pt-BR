@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5d494577721feba01dd9cb93f344308251a8ed33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56f14488812842d5e9fe63ae228c325059ebe679
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575088"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>Propriedade canônica PidTagResourceType
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que indica o tipo de provedor de serviço.
   

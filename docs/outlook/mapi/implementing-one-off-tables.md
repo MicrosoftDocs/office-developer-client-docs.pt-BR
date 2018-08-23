@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b72b8658270a8e007123df3ead01168208b8d1b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b86ec02c0255d892c42a9be9610d31b76041822c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579106"
 ---
 # <a name="implementing-one-off-tables"></a>Implementar tabelas únicas
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Seu provedor pode implementar uma ou mais tabelas únicas. Uma tabela único é uma lista resumida de únicos modelos usados para criar os destinatários, diretamente em um contêiner ou para a lista de destinatários de uma mensagem de saída. Um modelo único é um utilizam de usuários do formulário para inserir dados relevantes para um determinado tipo de endereço. Quando o usuário estiver concluído trabalhar com o modelo, seu provedor cria o novo destinatário e o adiciona à mensagem. Geralmente cada modelo lida com um tipo de endereço único. No entanto, é possível para um modelo de lidar com vários tipos de ou para vários modelos de lidar com o mesmo tipo. 
   

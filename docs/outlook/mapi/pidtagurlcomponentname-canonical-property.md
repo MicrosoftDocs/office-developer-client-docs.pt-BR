@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3a2b0939bbfa5143e4bd99e74b0f84e3ca7efb12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 934a08916902aae145d1d36f35413c5dd40d78cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570419"
 ---
 # <a name="pidtagurlcomponentname-canonical-property"></a>Propriedade canônica PidTagUrlComponentName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O nome do componente de URL para uma mensagem. 
   

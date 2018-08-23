@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2c285f7655479d4599f4d62257087a5eebcfc295
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa04f897687fb96431225b297399df977dbf944f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768947"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573506"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriedade canônica PidTagAssociatedContentCount
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a contagem de itens do índice de conteúdo associado da pasta.
   

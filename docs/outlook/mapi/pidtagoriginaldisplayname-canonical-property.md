@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4a43bc33f13d8325a55d09b5ef3031dc632cf587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d168082a16ad5e8df205d976349fd6406d9d18a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570769"
 ---
 # <a name="pidtagoriginaldisplayname-canonical-property"></a>Propriedade canônica PidTagOriginalDisplayName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de exibição original para uma entrada copiado de um catálogo de endereços para um catálogo de endereços pessoal ou outro catálogo de endereços gravável.
   

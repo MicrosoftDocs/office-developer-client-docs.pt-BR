@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 55ee55fefd82f29c8b780a350ecdfe0285b3d649
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd37d72d6a214f91e371b7126c90e3fda25cde2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578896"
 ---
 # <a name="pidtagdisplaybcc-canonical-property"></a>Propriedade canônica PidTagDisplayBcc
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de ASCII dos nomes de exibição de qualquer destinatários de cópia oculta (Cco) da mensagem, separados por ponto e vírgula (;).
   

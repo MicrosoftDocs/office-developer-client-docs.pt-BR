@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39abd90027d7a3d767da186b0dab0ba7f278e4f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21bbcc32cd71899a2546b17f8023ef49744ba5e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768875"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570797"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Propriedade canônica PidTagAbProviders
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de identificadores para provedores de catálogo de endereços no perfil atual. 
   

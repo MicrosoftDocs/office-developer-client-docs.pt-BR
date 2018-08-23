@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 91b1fa06fd47321e9c19d9751caac793e27e8f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b8690871dbe5b7234645f00cabab9c65706141e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770263"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573443"
 ---
 # <a name="retrieving-data-from-table-rows"></a>Recuperar dados das linhas de tabelas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Recuperação de linhas de uma tabela envolve:
   

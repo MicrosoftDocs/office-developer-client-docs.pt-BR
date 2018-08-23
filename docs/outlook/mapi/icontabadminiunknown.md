@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 80bba1a5bfcce143fe7566d9ec1343cf56cc924b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d75f74de323e2ba70675a02e388d6d1539cd30ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571378"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Remove contate pastas do catálogo de endereços do Microsoft Outlook 2010 e o Microsoft Outlook 2013.
   

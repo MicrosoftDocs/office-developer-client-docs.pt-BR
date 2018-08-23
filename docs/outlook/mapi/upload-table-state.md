@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 454df4dde2062d20855e4d9bceaf4400669693ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd54c30e8701a13637235e28ddcfef4c21d10a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770677"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576978"
 ---
 # <a name="upload-table-state"></a>Carregar o estado da tabela
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o estado da tabela de carregamento da máquina de estado de replicação. 
   

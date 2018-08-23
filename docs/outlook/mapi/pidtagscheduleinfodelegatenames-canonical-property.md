@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 592d9c78-4487-4c68-8ae7-4cd3d6265685
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fed2b23680cd2654bbb6960e3c6be07074307a98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06462f992ec640992b95b89a618e7d82290eeeef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574500"
 ---
 # <a name="pidtagscheduleinfodelegatenames-canonical-property"></a>Propriedade canônica PidTagScheduleInfoDelegateNames
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os nomes dos representantes.
   

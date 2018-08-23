@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aaa1adaa170349c3df3a2256802a502cb2512b20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9a1c416cbf992c9cbcfb5de42d302ff16e7f521
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573184"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define uma função de retorno de chamada que pode liberar uma interface **IStorage** após o lançamento final de um objeto **IMessage** construído sobre ele com a função [OpenIMsgOnIStg](openimsgonistg.md) . 
   

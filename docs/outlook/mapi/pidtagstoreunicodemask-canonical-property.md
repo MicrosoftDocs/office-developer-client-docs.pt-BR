@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 010b17de08ee5836a26c56f300b36822df2e981e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bfbaada3ced58a689ca4d4745e6e4c798755d4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574304"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriedade canônica PidTagStoreUnicodeMask
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma bitmask dos sinalizadores que aplicativos cliente devem consultar para determinar as características de um armazenamento de mensagens.
   

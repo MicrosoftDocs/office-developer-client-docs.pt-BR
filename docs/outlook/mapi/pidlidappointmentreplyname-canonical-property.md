@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5b6d88b60f9f5c6a01a92ecc5905f711fbf3ab3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54b1f0f3bf837ad21e1b271111d4be2ad2c2b3f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768267"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573982"
 ---
 # <a name="pidlidappointmentreplyname-canonical-property"></a>Propriedade canônica PidLidAppointmentReplyName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o usuário quem última respondeu à solicitação de reunião ou reunião atualizar o objeto.
   

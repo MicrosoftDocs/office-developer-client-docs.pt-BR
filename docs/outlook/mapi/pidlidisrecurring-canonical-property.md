@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c21f2885f7e9475c2149e42e2a8d947311916b4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7813125e18f437087fa06c57f8442c84a81d80d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574059"
 ---
 # <a name="pidlidisrecurring-canonical-property"></a>Propriedade canônica PidLidIsRecurring
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica se é ou não o objeto associado a uma série recorrente.
   

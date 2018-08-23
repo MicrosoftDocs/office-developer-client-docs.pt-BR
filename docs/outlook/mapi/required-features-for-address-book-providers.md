@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ac76d1caf5db0b041a17d40d08671665b5427051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 919b21490bb3b4418ba291e8e06198028c995b00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570867"
 ---
 # <a name="required-features-for-address-book-providers"></a>Recursos necessários para provedores de catálogo de endereços
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de catálogo de endereços podem trabalhar com as informações de destinatário é temporário ou permanente, local ou remoto, compreensível por um ou mais sistemas de mensagens e formatada para uma tabela de banco de dados ou arquivo de disco. Há uma variedade de recursos que um provedor de catálogo de endereços pode implementar, assim, adicionando valor e melhorar a interoperabilidade com clientes e outros provedores. No entanto, alguns recursos que são necessários.
   

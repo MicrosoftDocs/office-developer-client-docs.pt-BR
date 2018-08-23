@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 77b302e3c8ae06fb7578fc8fcf9ba8f27d552e18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b1fab49f348a76693cc35fd89994419b81f250a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573688"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriedade canônica PidTagTransportKey
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor usado pelo spooler MAPI para acompanhar o progresso de uma mensagem de saída por meio de provedores de transporte de saída.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0d124bd3aa4350863351284a9e4b19ca4533e382
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfe5ad9a088fb4c02842e8be9d11a3623be749e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574900"
 ---
 # <a name="pidlidappointmentduration-canonical-property"></a>Propriedade canônica PidLidAppointmentDuration
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa o período de tempo, em minutos, quando um compromisso agendado.
   

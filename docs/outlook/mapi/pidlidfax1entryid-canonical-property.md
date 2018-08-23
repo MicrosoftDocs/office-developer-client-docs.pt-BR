@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9aa0b71e-1ee7-411c-a595-cccc5b7c4b0e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 10784dbf0b65dc4b95b37cfff1d057247702e375
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63a29bd2e61aa63e1771145af58dd9e0e860f226
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768412"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574962"
 ---
 # <a name="pidlidfax1entryid-canonical-property"></a>Propriedade canônica PidLidFax1EntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica a EntryID do endereço de fax comercial do contato.
   

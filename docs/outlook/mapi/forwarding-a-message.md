@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18113fd48f33eaf067942116f168a54e8b91c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766605"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579232"
 ---
 # <a name="forwarding-a-message"></a>Encaminhamento de uma mensagem
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Encaminhamento de uma mensagem envolve muitos das mesmas tarefas que enviar uma mensagem original. Primeiro, você deve abrir o armazenamento de mensagens padrão e a pasta que é designada para armazenar mensagens de saída, normalmente a caixa de saída, e chamar o método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) desta pasta para criar a mensagem para serem encaminhadas. Você também deve abrir a pasta que contém a mensagem original, normalmente a caixa de entrada. Para obter informações sobre como abrir pastas diferentes, consulte [abrindo uma pasta de repositório de mensagem](opening-a-message-store-folder.md).
   

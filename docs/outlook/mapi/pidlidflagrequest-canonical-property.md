@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: df2e474206559dadf250bdf9a078c69da61187c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a2bcfbbc06427e5bf7e06f1c4060a29689fce3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575389"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Propriedade canônica PidLidFlagRequest
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Representa o status de uma solicitação de reunião.
   

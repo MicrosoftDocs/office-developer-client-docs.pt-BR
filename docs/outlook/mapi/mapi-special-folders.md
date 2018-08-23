@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0195c68dae4a9d144da68a5e6d4ab84edca5c880
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 396a6c01d0b9cd867706a7dd4997bd6ddd7fd147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767954"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578287"
 ---
 # <a name="mapi-special-folders"></a>Pastas especiais de MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 MAPI define algumas pastas que são especiais porque eles atuam funções predefinidas como pastas padrão para determinados tipos de mensagens. Nessas pastas especiais geralmente não podem ser excluídas e têm propriedades do identificador de entrada especial.
   

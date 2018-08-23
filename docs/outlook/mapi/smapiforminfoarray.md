@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6389bbf2094f51711d80896db0db9862059826cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c09c271fefcf31dcde01526d65091714c0b682d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770456"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576271"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de ponteiros para objetos de informações do formulário. 
   

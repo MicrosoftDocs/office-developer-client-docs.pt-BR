@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: edd0df690df6af47ed6db34dc4a658b24136077c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78b157dfb11eb7e97d90142a148e3741e3d818d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768964"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572645"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Propriedade canônica PidTagAttachContentId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o cabeçalho de identificação de conteúdo de anexo de uma mensagem de email extensões MIME (Multipurpose Internet). 
   

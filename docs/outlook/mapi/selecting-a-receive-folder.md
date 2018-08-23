@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 87f8b4f4011e405d9848f12b5cae56f27fff1ab8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4245b5dd1b70d4cf695190c65b447cf92566ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574479"
 ---
 # <a name="selecting-a-receive-folder"></a>Escolher uma pasta de recebimento
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma pasta de recebimento é onde as mensagens recebidas de uma determinada classe são colocadas. Para IPM e mensagens de relatório relacionado, MAPI atribui a caixa de entrada, como o padrão de pasta de recebimento. Para CPI e mensagens de relatório relacionado, MAPI atribui a pasta raiz do armazenamento de mensagens, como o padrão de pasta de recebimento. Você pode alterar essas atribuições ou fazer atribuições adicionais para outras classes de mensagem. Fazendo explícitas receber atribuições de pasta para seu cliente com suporte a mensagem classes é opcional.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 08cc60d4-cac8-4ba5-bd7f-a56e63697be3
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4430b52b470b89bd7d81922b98b121b3a455768f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ba9958588c476ae330b0f4a413361e80d54667a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767419"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571966"
 ---
 # <a name="implementing-advanced-searching"></a>Implementar a pesquisa avançada
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Alguns recipientes do catálogo de endereços oferecem suporte a um recurso de pesquisando avançado que permite aos clientes pesquisar propriedades que não seja **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Para suportar pesquisas avançadas, seu provedor deve implementar um contêiner especial que pode ser acessado por meio da propriedade **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) dos seus outros contêineres. **PR_SEARCH** contém um objeto container que fornece acesso a uma tabela de exibição que descreve a caixa de diálogo usada para inserir e editar os critérios de pesquisa avançada. 
   

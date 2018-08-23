@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2505f555fd8867fdc24a14f523a74b6f478a3e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571063"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém informações sobre um controle de botão para uma caixa de diálogo construída a partir de uma tabela de exibição.
   

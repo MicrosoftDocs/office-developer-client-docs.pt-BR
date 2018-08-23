@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ffc0609-341d-4e35-8f53-ed3096c6fa7f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a9580428cd985902d3af6320dd754947565b74e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11b4ea96283bbef2dcb9afb109a6a81102727efc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570454"
 ---
 # <a name="pidlidallattendeesstring-canonical-property"></a>Propriedade canônica PidLidAllAttendeesString
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica uma lista de todos os participantes, exceto o organizador, incluindo recursos e participantes de outro.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7c7f654d42df7856b0e69bf276a763ccd29d1d87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ad6bd888594d09ab8e1dac050f8181341f7ee4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570776"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propriedade canônica PidLidFExceptionalAttendees
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se esta propriedade é um objeto calendar recorrente com um ou mais exceções e pelo menos uma das mensagens de exceção incorporada tem pelo menos um RecipientRow.
   

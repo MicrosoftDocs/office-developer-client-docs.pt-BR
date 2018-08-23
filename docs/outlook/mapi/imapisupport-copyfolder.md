@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0b079b311a68459a43b0a7659ddfbe94d96d7f9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ffbf74496d4b61357a0fb473b82deedf39ee576
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570671"
 ---
 # <a name="imapisupportcopyfolder"></a>IMAPISupport::CopyFolder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Copia ou move uma pasta da pasta pai atual para outra pasta pai.
   

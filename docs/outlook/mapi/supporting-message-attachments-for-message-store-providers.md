@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: e3d6844f8fe6121d6ea063a9594aaf1fed581ee5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576096"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>Suporte a anexos de mensagens para provedores do repositório de mensagens
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Seu provedor de armazenamento de mensagem não precisa suportar anexos de mensagens. No entanto, muitos aplicativos de cliente esperam poder adicionar anexos de mensagens. Se o armazenamento de mensagens será usado para criar ou armazenar IPM. Observe as mensagens, e em seguida, você deve dar suporte a anexos de mensagens. Provedores de armazenamento de mensagem padrão também devem oferecer suporte a anexos de mensagens. Para obter mais informações, consulte [Classes de mensagem MAPI](mapi-message-classes.md)e [Armazenamentos de mensagem padrão](default-message-stores.md).
   

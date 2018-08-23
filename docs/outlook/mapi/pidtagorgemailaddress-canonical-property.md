@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 287cac543bfc18a72cee9bb939b699c815af01bd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575109"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Propriedade canônica PidTagOrgEmailAddress
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o endereço de email da conta de email do originador.
   

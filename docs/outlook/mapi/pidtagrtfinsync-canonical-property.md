@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 85e517601d291f144652befa267d8fd8f76dea64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b182d2b568a3c7cf874dfe2fcf7a7503aa44193f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574486"
 ---
 # <a name="pidtagrtfinsync-canonical-property"></a>Propriedade canônica PidTagRtfInSync
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Conterá TRUE se a propriedade **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) tem o mesmo conteúdo de texto que a propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) para esta mensagem.
   

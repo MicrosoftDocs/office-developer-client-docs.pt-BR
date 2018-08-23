@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Modificado pela última vez: 06 de julho de 2012'
-ms.openlocfilehash: 676d74c6441716203006f2db3e4a7d5777320a98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766738"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577321"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Definir a ordem de resolução de listas de endereços de forma programática
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém um exemplo de código em C++ que programaticamente define a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos.
   

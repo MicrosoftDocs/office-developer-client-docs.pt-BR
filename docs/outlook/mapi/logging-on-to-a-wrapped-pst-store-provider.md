@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: 'Modificado pela última vez: 02 de julho de 2012'
-ms.openlocfilehash: 2dfa3820d8d2ab57f278e90bef5d5a40164da6fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0716017788239c22f31007438089118d109010a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19767762"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570475"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>Fazer logon em um provedor de armazenamento com quebra PST
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Antes que você possa fazer logon MAPI para um provedor de armazenamento com quebra PST, você deve inicializar e configurar o provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra. Para obter mais informações, consulte [inicializar um provedor de armazenamento de PST quebrado automaticamente](initializing-a-wrapped-pst-store-provider.md).
   

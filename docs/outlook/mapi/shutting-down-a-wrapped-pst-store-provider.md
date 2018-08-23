@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: 'Modificado pela última vez: 02 de julho de 2012'
-ms.openlocfilehash: 5c8ad7443b0c1aa05f48284e4b09859ab53dd2c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43a65548bedc1729ff2bcb62bc3df78d2408bf12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770402"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571742"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>Desativar um provedor do repositório PST encapsulado
 
  
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Após concluir o uso de um provedor de armazenamento de arquivo (. PST) de pastas particulares com quebra, você deve desligar corretamente o provedor de repositórios de PST com quebra. Para obter mais informações sobre como usar o provedor de repositórios de PST com quebra, consulte [usando um provedor de repositório PST quebrado automaticamente](using-a-wrapped-pst-store-provider.md).
   

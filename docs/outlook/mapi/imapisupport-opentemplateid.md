@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f99843bcdf3689acad72145a33d6a9804175a413
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 855810f7ac3bc1bd433ddd56aba3fe1f938b9559
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767277"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575382"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Abre uma entrada de destinatários em um provedor de catálogo de endereço estrangeiro.
   

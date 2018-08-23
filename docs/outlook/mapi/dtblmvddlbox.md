@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ede0a448a32565446e614fc2d14f2a72a9549dad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 910f779f3463ee5dccd052655a442ef24c2cce58
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570678"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve uma lista suspensa que será usada em uma caixa de diálogo que é construída a partir de uma tabela de exibição.
   

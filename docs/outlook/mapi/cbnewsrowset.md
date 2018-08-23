@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dd828f599d87e3912bf36c46aaee2703a4e2673a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571630"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Calcula o número de bytes a ser alocada para uma nova estrutura de [SRowSet](srowset.md) que contém um número especificado de linhas representadas por estruturas de [SRow](srow.md) . 
   

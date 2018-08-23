@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 710ba5173dcce6e948e1f49c7d82e46bc83b8200
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577916"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algoritmo para codificar IDs de entrada e IDs de anexo
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de armazenamento pode enviar como parte de um MAPI Uniform Resource Locator (URL) uma identificação de entrada e uma ID de anexo para o manipulador de protocolo MAPI para identificar um objeto que está pronto para indexação. O provedor de armazenamento codifica a entrada ID e a ID do anexo como cadeias de caracteres Unicode. Este tópico mostra um algoritmo que gera uma representação compact da identificação de entrada ou ID de anexo.
   

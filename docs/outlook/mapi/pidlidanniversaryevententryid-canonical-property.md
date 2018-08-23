@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 177b2b87-7a06-4d53-8f03-5bec5632c2dd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 78096affce8fa03cc3efc8f0ca0c7048c2f9aae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e146fea9332cde5751fa12d7f8ebb1e1bb763e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572351"
 ---
 # <a name="pidlidanniversaryevententryid-canonical-property"></a>Propriedade canônica PidLidAnniversaryEventEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o identificador de entrada do compromisso que representa o aniversário do contato.
   

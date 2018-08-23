@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 15729f8d2c618f16fb5bebab885eaf610c09da77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766731"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574689"
 ---
 # <a name="check-the-version-of-outlook"></a>Verificar a versão do Outlook
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este t�pico fornece um exemplo de c�digo que verifica se a vers�o instalada � Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ou Microsoft Outlook 2003 as informa��es de vers�o de vers�es instaladas do Microsoft Outlook. Verificar a vers�o do Outlook em alguns casos, � necess�rio garantir que um elementos de API de chamadas de aplicativos MAPI que s�o compat�veis com a vers�o em execu��o no momento do Outlook.
 

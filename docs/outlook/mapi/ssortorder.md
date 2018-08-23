@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7cb511c7a021c4e65214acc7efa785be0e02ffc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 331dc05b30390bb803d186f157e0fe9edb779ab0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571665"
 ---
 # <a name="ssortorder"></a>SSortOrder
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define como classificar as linhas de uma tabela, quais coluna a ser usado como a chave de classificação e a direção da classificação. 
   

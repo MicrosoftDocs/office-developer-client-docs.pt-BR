@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a4c71b08-c47a-4421-8603-d5356d32dca9
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4d55404149baca07a64b75d460bdfb2a8c541725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 489a5888014fa9299b407ebf91759627427b69bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767428"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571385"
 ---
 # <a name="implementing-name-resolution"></a>Implementar a resolução de nome
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Provedores de catálogo de endereços serão responsáveis pelo suporte a resolução de nome — o processo de associar um identificador de entrada com um nome de exibição. Os clientes iniciar a resolução de nomes quando ele liga [IAddrBook::ResolveName](iaddrbook-resolvename.md) para garantir que cada membro da lista de destinatários de uma mensagem de saída corresponde a um endereço válido. 
   

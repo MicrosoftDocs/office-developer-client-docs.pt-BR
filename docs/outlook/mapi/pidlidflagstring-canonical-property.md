@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 53fe309fb15807ad698fef5a06781e5c3e0bae0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b29fdbb82635ca7706be15ee9f674262d2204ad5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576180"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Propriedade canônica PidLidFlagString
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um índice que identifica um conjunto de cadeias de caracteres de texto predefinido associado com o sinalizador.
   

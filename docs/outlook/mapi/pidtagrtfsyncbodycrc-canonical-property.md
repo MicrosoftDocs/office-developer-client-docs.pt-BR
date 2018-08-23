@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aa144ca93e8fad9b9b5a5da1ee457e5cc3bbd841
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c72b87eec6d0a14b0ebba10529ef5d898747028
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769890"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572974"
 ---
 # <a name="pidtagrtfsyncbodycrc-canonical-property"></a>Propriedade canônica PidTagRtfSyncBodyCrc
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a verificação de redundância cíclica (CRC) computada para o texto da mensagem.
   

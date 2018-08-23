@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 31f09b1c2f7b23d63e17f59c28b7bcf377b769d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b37ae47e40906342aeecf179848311556a7d4ba4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573989"
 ---
 # <a name="integrating-mapi-form-server-code-with-windows-code"></a>Integrar o código do servidor de formulário MAPI ao código do Windows
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Lembre-se de que seu servidor de formulário é um aplicativo Win32. Assim, há algumas tarefas relacionadas ao carregar o seu servidor de formulário na memória e saindo corretamente. Como todos os aplicativos do Windows, o ponto de entrada para seu servidor de formulário é a função **WinMain** . Essa função é o local adequado para realizar as seguintes tarefas: 
   

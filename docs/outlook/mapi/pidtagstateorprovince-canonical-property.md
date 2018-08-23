@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f17874f-fab5-4119-b2eb-845c1f70d882
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: da4ed488498d820c7080a87752f58c5b8c524e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72f6bc791d9b27e4c9120c059ab7636672e5fa29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573086"
 ---
 # <a name="pidtagstateorprovince-canonical-property"></a>Propriedade canônica PidTagStateOrProvince
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome do estado ou a província do destinatário.
   

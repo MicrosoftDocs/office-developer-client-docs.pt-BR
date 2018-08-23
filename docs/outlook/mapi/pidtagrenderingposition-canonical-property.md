@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aa149a81102a4981712ea3ca897d8b1ad448a1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 649490f18bb1a14a7056b49fd846e893fba304bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769824"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575207"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>Propriedade canônica PidTagRenderingPosition
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um deslocamento, em caracteres, a ser usado na renderização de um anexo dentro do texto da mensagem principal.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 73eb92b0c1b88e114775231695b91157a3d26a2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d052e7590ee502b55f2076d698587ab68820ca56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576698"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Responde a uma notificação, executando uma ou mais tarefas. As tarefas realizadas dependem do tipo de evento e o objeto que gera a notificação. 
   

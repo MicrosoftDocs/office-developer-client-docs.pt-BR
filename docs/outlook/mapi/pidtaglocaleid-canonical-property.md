@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 65e6d8213d21a2b9f77a86d000a562012e0a3816
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c57bcfc9c44fd88c0b05b9cd1e8d906220a1f42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575011"
 ---
 # <a name="pidtaglocaleid-canonical-property"></a>Propriedade canônica PidTagLocaleId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Estabelece a localidade do idioma para traduzir mensagens geradas pelo sistema, como relatórios de entrega.
   

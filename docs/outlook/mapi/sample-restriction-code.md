@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4f41abe2ee41946f68e1d79c75b36791364ea970
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570258"
 ---
 # <a name="sample-restriction-code"></a>Exemplos de código de restrição
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O código de exemplo a seguir mostra como criar uma restrição que filtra todas as mensagens que não contêm a palavra "voleibol" na linha de assunto e não foram enviados a Suzana de Sam. Uma árvore de estruturas [SRestriction](srestriction.md) será necessária, com o nó superior, sendo uma restrição **e** implementada com uma estrutura [SAndRestriction](sandrestriction.md) . As restrições de três que são reunidas pela operação de **AND** são uma restrição subobjeto que procura as mensagens enviadas para Sue, uma restrição de conteúdo que procura por mensagens de Sam e restrição **e** outra que procura por mensagens que possuírem um assunto contendo "voleibol." Como **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) não é uma propriedade necessária, uma restrição **existem** deve ser incluída. 
   

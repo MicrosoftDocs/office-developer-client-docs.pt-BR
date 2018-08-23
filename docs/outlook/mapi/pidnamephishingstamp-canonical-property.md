@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ca92237d9d5b612fd4964831628a75dfe37aaf4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1eac8831b144053ff364208404dbac3925b51c4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572932"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propriedade canônica PidNamePhishingStamp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o valor de mensagem que identifica e mensagens de marcas que são provavelmente phishing.
   

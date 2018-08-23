@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7877667d78cf844cce9ff8c183ff1dc575fa2798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577608"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriedade canônica PidTagConversionEits
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém os tipos de informação codificada (EITs) que são aplicados a uma mensagem em trânsito para descrever as conversões.
   

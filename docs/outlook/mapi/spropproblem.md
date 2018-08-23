@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 32aa91d43e4674c0de20a0dbb670dcb9e2c782cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573282"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve um erro que se relacionam com uma operação envolvendo uma propriedade.
   

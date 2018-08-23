@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: da6de94342c8d8bbd378a3cde2fb065c97632291
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ed73cd683f1668900a76f7b8c48494952e9fc14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573345"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exclui a mensagem atual.
   

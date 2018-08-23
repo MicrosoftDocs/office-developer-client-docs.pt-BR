@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c744407790fecde6b6d89dff669ea4db07ce7701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4140dc39b7f866b0372e5940aef5efc0524ad593
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766822"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573107"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Remove uma ou mais entradas, normalmente mensagens outros contêineres, listas de distribuição ou os usuários.
   

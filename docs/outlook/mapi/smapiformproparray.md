@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d907f2e8ecb9b6126898ff35b13427b088af9561
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 389984f9d98ece6b2040edd741e3028fd7d766ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770448"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579309"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma matriz de estruturas de [SMAPIFormProp](smapiformprop.md) . 
   

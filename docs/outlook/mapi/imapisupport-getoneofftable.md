@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 51cd838164e3de28ab33d6ab8a08a021360f3183
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570832"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna um ponteiro para a tabela MAPI único (uma lista de modelos que todos no catálogo de endereços provedores de suporte para a criação de novos destinatários).
   

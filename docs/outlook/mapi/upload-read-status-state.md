@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770675"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573044"
 ---
 # <a name="upload-read-status-state"></a>Carregar o estado do status de leitura
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o carregamento ler o estado de status da máquina de estado de replicação. 
   

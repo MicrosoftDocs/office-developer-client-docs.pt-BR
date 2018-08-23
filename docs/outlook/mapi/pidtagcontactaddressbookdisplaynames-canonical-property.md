@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 963aea54bed36aa864dea1cd4b9a566eacd6daf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769038"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574438"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Propriedade canônica PidTagContactAddressBookDisplayNames
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma lista de nomes de exibição para os usuários no catálogo de endereços de contatos de mensagens.
   

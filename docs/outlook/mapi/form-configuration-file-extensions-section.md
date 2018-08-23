@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7c26b86ad4d6c7fd565abddbfc76f50ac3dccaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 459c5f5a34421583141028cd9accad5e242d31ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766572"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573555"
 ---
 # <a name="form-configuration-file-extensions-section"></a>Seção do arquivo de configuração de formulários [Extensões]
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 A seção **[Extensions]** lista os atributos estendidos do formulário, geralmente um conjunto nomeado de propriedade, que são atributos além dos básicos listados na seção **[descrição]** do arquivo de configuração de formulário. Os atributos estendidos são retornadas de chamadas para o método **GetProps** do objeto **IMAPIFormInfo** com alto definido o bit definido na marca de propriedade de propriedades. Aplicativos cliente podem determinar os atributos estendidos de um formulário, se houver, recuperando essas marcas. Para fazer isso, os clientes chamar o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) , passando nos nomes de propriedades do formulário e chame o método [IMAPIProp::GetProps](imapiprop-getprops.md) para obter as propriedades. 
   

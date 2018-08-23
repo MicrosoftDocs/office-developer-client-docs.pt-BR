@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 21d9fbcc-67b3-4475-b5c1-ff6af92404da
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8eda44012b01f9de94b44a3e13c30b3b382feed6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 280319f0a3cff19bae529eb398a22774eee1ecf0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572778"
 ---
 # <a name="pidlidtaskupdates-canonical-property"></a>Propriedade canônica PidLidTaskUpdates
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica se o destinatário da tarefa tiver sido solicitado para enviar uma atualização de tarefa quando a tarefa atribuída é alterada.
   

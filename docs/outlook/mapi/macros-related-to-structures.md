@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e60ba98bdf82f7e0f02aefc858f2eefd4c7d91f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 177a453f64dd41197b18418eefbfdf9868ad2849
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767776"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571637"
 ---
 # <a name="macros-related-to-structures"></a>Macros relacionadas a estruturas
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os tópicos desta seção descrevem as macros relacionadas ao estruturas MAPI. Para obter informações mais detalhadas, referências cruzadas para outras publicações ou para outros tópicos nesta documentação também são incluídas. 
   

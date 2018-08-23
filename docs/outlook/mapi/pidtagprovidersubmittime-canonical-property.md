@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 162451d000c0b3da42c8fbef5f64459bc5ae23b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e08b56fcfea38bf65e8628acfa481716554e2c01
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571609"
 ---
 # <a name="pidtagprovidersubmittime-canonical-property"></a>Propriedade canônica PidTagProviderSubmitTime
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a data e hora de que um provedor de transporte passada uma mensagem para seu sistema de mensagens subjacente.
   

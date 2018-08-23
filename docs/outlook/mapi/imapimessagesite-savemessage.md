@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ec85f7bdfc9d2d275bdb5ffe7ba0113ad4a35c3b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fa7c7226c4ddb5acf5c6b73f55c46829d959eef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572302"
 ---
 # <a name="imapimessagesitesavemessage"></a>IMAPIMessageSite::SaveMessage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Solicita que a mensagem atual seja salvo.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 26949f10e22c4d2ea49594ee3365ae7d3bb3662d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0765e46a6f0545682b16e484d08d296ea13e2136
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571343"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Extrai as propriedades de um encapsulamento TNEF. 
   

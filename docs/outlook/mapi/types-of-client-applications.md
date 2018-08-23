@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 17b55de84c38deb515dfb528e0ed01306934739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 783b8972c29b80e1005f0d55e00487dd0e2757b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572057"
 ---
 # <a name="types-of-client-applications"></a>Tipos de aplicativos cliente
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Existem basicamente dois tipos de clientes de mensagens: aqueles que lidam com interpessoais mensagens (IPM) e aqueles que trata as mensagens de comunicação entre processos (CPI). Dentre os tipos, aplicativos de cliente de mensagens podem ser categorizados da seguinte maneira:
   

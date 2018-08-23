@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8090d9b1a1f7fb571532cf32d7a2412261aee1fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7176f3547c18ec72e4bfc0a749b3814d1e906b7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767065"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577034"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna um ponteiro para a sessão MAPI associada ao objeto de suporte MAPI.
   

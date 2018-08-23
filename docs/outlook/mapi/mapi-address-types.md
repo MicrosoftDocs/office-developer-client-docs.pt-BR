@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 20eb429b2574f67e8b28ae96eeb96f42840123d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80e933f5723746dbaeb39271cc813eb0ea56a705
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767804"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571182"
 ---
 # <a name="mapi-address-types"></a>Tipos de endereço MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Cada usuário de mensagens é associado um tipo de endereço, uma cadeia de caracteres que descreve o formato do endereço do usuário que está armazenado na propriedade **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Tipos de endereço são mapeados para formatos de endereço. Ou seja, examinando o tipo de endereço do destinatário, aplicativos cliente podem determinar como formatar um endereço apropriado para o destinatário. 
   

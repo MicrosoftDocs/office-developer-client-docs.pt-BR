@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 538cc7cdc6dcb281beead6d06ff8644c534ed569
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b4013b311289816f778d7559ee3bcc7dc061538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769140"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574332"
 ---
 # <a name="pidtagdefaultpostmessageclass-canonical-property"></a>Propriedade canônica PidTagDefaultPostMessageClass
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de uma classe de mensagem do formulário personalizado.
   

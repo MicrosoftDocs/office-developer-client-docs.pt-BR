@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5f1dac712731175978bc639cc7296171448a41e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574787"
 ---
 # <a name="initializing-mapi"></a>Iniciar MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Todos os aplicativos de cliente que usam as bibliotecas MAPI devem chamar a função **MAPIInitialize** . Para obter mais informações, consulte [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** inicializa dados globais para a sessão e prepara as bibliotecas MAPI aceite as chamadas. Existem alguns sinalizadores que são importantes para definir em determinadas situações: 
   

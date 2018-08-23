@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: aa0a7f958ed1a5ed4140e87e25bd540123616568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58037aa74cbccb67ebd480650fd0ae967a12cbf3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768464"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575690"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>Propriedade canônica PidLidFileUnder
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica o nome sob o qual o contato é arquivado ao exibir uma lista de contatos.
   

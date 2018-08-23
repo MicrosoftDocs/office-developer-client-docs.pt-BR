@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8595cdb411e68f2aed3ac063b2b81965e9b4d975
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 90829f8fff530d22a7dee68dc227655064147cee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575326"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém informações sobre um problema de processamento de propriedade ou atributo que ocorreram durante a codificação ou decodificação de um stream TNEF Transport Neutral Encapsulation Format ().
   

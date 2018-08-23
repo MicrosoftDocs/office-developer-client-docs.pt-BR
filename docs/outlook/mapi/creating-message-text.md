@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 38be3bc2df8931ca45da12e43436377545e8a977
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd840c7bef0607db37c6477bd8f4a7320a8188c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574752"
 ---
 # <a name="creating-message-text"></a>Criando o texto da mensagem
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Embora algumas mensagens são compostas de nada mais que uma lista de destinatários e uma linha de assunto, o conteúdo da maioria das mensagens, especificamente IPM. Observação as mensagens, inclui o texto. Mensagem de texto pode ser simples ou formatada e está armazenado em três propriedades: **PR\_corpo** ([PidTagBody](pidtagbody-canonical-property.md)) **PR\_HTML** ([Taghtml](pidtaghtml-canonical-property.md)) e **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

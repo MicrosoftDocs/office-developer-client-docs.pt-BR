@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 3dfc67c8bcd899396da5371c614fd221cd9b2251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571938"
 ---
 # <a name="about-table-notifications"></a>Sobre as notificações de tabela
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os clientes frequentemente dependem de notificações de tabela para saber das alterações aos objetos em vez de registro para receber notificações diretamente a partir de objetos. Alterações comuns que fazer com que as notificações sejam enviadas incluem a adição, exclusão ou modificação de uma linha e quaisquer erros críticos. Quando chegam de notificações, os clientes podem determinar se fazer outra chamada recarregar a tabela. 
   

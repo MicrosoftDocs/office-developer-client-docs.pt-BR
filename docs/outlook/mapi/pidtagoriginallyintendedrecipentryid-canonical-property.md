@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4745318d5666cc3c138f424c94bc2c5e430a61d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e7d97f4b2043c9ca08e487e52d58fb534c7abef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572652"
 ---
 # <a name="pidtagoriginallyintendedrecipentryid-canonical-property"></a>Propriedade canônica PidTagOriginallyIntendedRecipEntryId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o identificador de entrada do destinatário pretendido originalmente de uma mensagem encaminhada para automático.
   

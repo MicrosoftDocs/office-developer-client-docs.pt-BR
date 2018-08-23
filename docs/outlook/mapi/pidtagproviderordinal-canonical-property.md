@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b56ee557884e12728c98827f9eb1a280d7a29c30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4cd865fbc443a20ebf4b4cd9722fe52c44d5eddc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573807"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>Propriedade canônica PidTagProviderOrdinal
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o índice baseado em zero da posição de um provedor de serviços na tabela de provedor.
   

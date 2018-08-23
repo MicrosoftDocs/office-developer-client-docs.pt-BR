@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c586d70054542e8d20c90a8caceafabbbb408de8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770223"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571826"
 ---
 # <a name="property-names-and-property-sets"></a>Nomes de propriedades e conjuntos de propriedades
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O nome de cada propriedade nomeada tem duas partes:
   

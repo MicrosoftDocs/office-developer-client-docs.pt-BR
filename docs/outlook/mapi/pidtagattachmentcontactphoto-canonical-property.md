@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ea5b77b7-8440-4e54-abd2-c475138c8f63
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae25bd32819de06e91ccb20ada7c7a14b723cd65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 332b6b857921c8f72837dc115805084efd8c5a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768965"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574745"
 ---
 # <a name="pidtagattachmentcontactphoto-canonical-property"></a>Propriedade canônica PidTagAttachmentContactPhoto
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Indica a existência de um anexo de foto de um contato.
   

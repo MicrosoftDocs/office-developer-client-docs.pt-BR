@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573541"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna sinaliza as configurações do objeto de andamento para o nível de operação no qual as informações sobre o andamento é calculado.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b2ac7aa4fca8583fc59d727c55433108bee62dee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c2089eee731fea8c80d8811f6b2e9f3c75ad1cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570524"
 ---
 # <a name="pidtaggender-canonical-property"></a>Propriedade canônica PidTagGender
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o gênero do usuário mensagens.
   

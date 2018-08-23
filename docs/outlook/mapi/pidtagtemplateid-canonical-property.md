@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7672c18f18d39ed1e4e8b4664ba7990563419a20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f95b97fc4150695c77871f8c4f768f6b5488ceb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572456"
 ---
 # <a name="pidtagtemplateid-canonical-property"></a>Propriedade canônica PidTagTemplateid
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), expressado como um formato de ID de entrada permanente.
   

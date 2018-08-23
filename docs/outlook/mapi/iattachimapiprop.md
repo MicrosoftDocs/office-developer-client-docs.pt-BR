@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570909"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Mantém e fornece acesso às propriedades de anexos em mensagens. A interface **IAttach** não possui exclusivos métodos sua própria conta. Para obter mais informações sobre como usar os anexos, consulte [As tabelas de anexo](attachment-tables.md)e [Anexos de MAPI](mapi-attachments.md) . 
   

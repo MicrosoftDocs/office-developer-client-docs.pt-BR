@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 90ed7da43d7f9e5e8b5f3024f1eee99a2d7a2b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74b63719f6d72e3c92cbcef6fdb26ee106d4b9aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571833"
 ---
 # <a name="searching-a-message-store"></a>Pesquisando um armazenamento de mensagens
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos cliente podem pesquisar por meio de uma ou mais pastas procurando mensagens que correspondam a critérios de pesquisa. A técnica de pesquisa mais direta envolve a aplicação de uma restrição para definir os critérios e colocar os resultados em uma pasta de resultados de pesquisa, criado explicitamente para esta pesquisa ou para uma pesquisa anterior. Nem todos os repositórios de mensagem suportam essa técnica. 
 

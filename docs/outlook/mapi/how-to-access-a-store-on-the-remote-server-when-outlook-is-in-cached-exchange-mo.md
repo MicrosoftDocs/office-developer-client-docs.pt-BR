@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: 'Modificado pela última vez: 02 de julho de 2012'
-ms.openlocfilehash: 8bb1e9bfc4d816daf4285d083c87bb3bea4e1139
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7994366000e323cc7d14a9c3a02b5229c5f08e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573310"
 ---
 # <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Acessar um repositório no servidor remoto, quando o Outlook estiver no modo cache do Exchange
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém um exemplo de código em C++ que mostra como usar o sinalizador **MAPI_NO_CACHE** para abrir uma pasta ou uma mensagem em um armazenamento de mensagens no servidor remoto, quando o Microsoft Office Outlook está no modo cache do Exchange. 
   

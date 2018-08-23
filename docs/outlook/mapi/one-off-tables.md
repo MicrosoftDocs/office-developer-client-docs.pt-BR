@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
 description: 'Modificado pela última vez: 08 de novembro de 2011'
-ms.openlocfilehash: 3ad9141f2530e64664a2d0c75ece2b834cc6ad78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc8d8d53dcbc091df98ba9e23533e4138660c8e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768159"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574563"
 ---
 # <a name="one-off-tables"></a>Tabelas únicas
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Uma tabela único contém informações sobre os modelos de um provedor de catálogo de endereços oferece suporte para a criação de novos destinatários. Tabelas únicas são implementadas por provedores de catálogo de endereços, recipientes do catálogo de endereços individuais e MAPI e podem ser persistente ou temporária. 
   

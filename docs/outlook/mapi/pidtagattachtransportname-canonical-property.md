@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6828a6436946de27020fa1177223955e07a08faf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3899f7000bfa1365228864d97b4410833b774bed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768999"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570777"
 ---
 # <a name="pidtagattachtransportname-canonical-property"></a>Propriedade canônica PidTagAttachTransportName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome de um arquivo de anexo modificado de modo que ela pode ser associada a mensagens TNEF. 
   

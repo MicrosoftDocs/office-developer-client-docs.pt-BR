@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 571ac25d6bc738f8289e3019c342820682d08c28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79b6461ca4a796b292b86f0f3bdbd8a39ad65863
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575676"
 ---
 # <a name="pidtagprofileserverversion-canonical-property"></a>Propriedade canônica PidTagProfileServerVersion
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica informações sobre a versão do Microsoft Exchange Server ao qual contas em um perfil do Microsoft Outlook estão conectadas.
   
