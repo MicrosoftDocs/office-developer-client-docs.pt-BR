@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f169a167342ea36eece313c68c2fe32199bb930a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d35a16432e1a7f7e78cce600d4a1bfa3133458b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769478"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594821"
 ---
 # <a name="pidtagmessagehandlingsystemcommonname-canonical-property"></a>Propriedade canônica PidTagMessageHandlingSystemCommonName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome comum da mensagem manipulação do sistema.
   

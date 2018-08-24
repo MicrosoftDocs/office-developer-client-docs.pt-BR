@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d2c2fb31b722e76034b08077632c817d6adde802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f66a570273d78f63ced110a4bdc8a12a49c531b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595241"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Propriedade canônica PidNameAcceptLanguage
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor de campo de cabeçalho [RFC3282] Accept-Language.
   

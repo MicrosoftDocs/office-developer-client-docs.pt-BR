@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 549acbb5e8f593144edffffb097ac7cdc2f0b271
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c77792c1e33f9b0aed1bb0e5d109a0339fa0fe6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769651"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587170"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>Propriedade canônica PidTagPhysicalDeliveryBureauFaxDelivery
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se o sistema de mensagens deve usar um bureau de fax de entrega física desta mensagem.
   

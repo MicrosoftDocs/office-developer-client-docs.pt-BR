@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
 description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
-ms.openlocfilehash: 8ac75bfb686496c151b5edc3a692c99a6e47ee96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41d70c2ab94712e40de9011bc752c79d8c859161
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766756"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595178"
 ---
 # <a name="use-the-mapi-crash-recovery-api"></a>Usar a API de recuperação de falhas MAPI
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Este tópico contém um exemplo de código em C++ que mostra como chamar a função [MAPICrashRecovery](mapicrashrecovery.md) da função [UnhandledExceptionFilter](http://msdn.microsoft.com/en-us/library/ms681401%28VS.85%29.aspx) . A função de [MAPICrashRecovery](mapicrashrecovery.md) verifica que o estado do arquivo de pastas particulares (. PST) ou o arquivo de pastas Offline (OST) a memória compartilhada. 
 

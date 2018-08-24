@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e6880a32e30b8f208ce5ba0a2d30e635ff464461
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae00fd0711b8fcae01db6a89da7607d79d8757c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766902"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584356"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica um catálogo de endereços MAPI opcional que usa de MAPI conversor de MIME para resolver endereços ambíguos ao converter uma mensagem MAPI para um fluxo MIME.
   

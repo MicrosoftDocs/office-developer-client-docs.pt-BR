@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bf1a84a1f305580fc9d9085753ab7eb5c62b8aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbad4b903592f83fc7d72fde21f149c9835f2e23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575634"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Define uma rotina de ociosidade chamada pelo mecanismo de ociosidade de MAPI periodicamente de acordo com a prioridade. 
   

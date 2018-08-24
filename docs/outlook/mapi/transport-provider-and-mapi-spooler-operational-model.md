@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0e6c38091e5b2e10e82012bc470ea41037f57c7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26d9982248fde015a584eb79cc248bafc5afc6bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594030"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>Provedor de transporte e modelo operacional do spooler MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Inicialização do provedor de transporte, inicialização, processamento, desligamento e deinitialization são realizadas por uma série de chamadas do spooler MAPI para o provedor de transporte. As chamadas são sequenciadas da seguinte maneira:
   

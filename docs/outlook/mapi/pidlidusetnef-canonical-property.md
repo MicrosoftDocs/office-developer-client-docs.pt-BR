@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 73fa4311a61be9259d8c45aca79d719785c213a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0d5588218fd74f005de19daba002cd622c13a17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587184"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>Propriedade canônica PidLidUseTnef
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica se o TNEF Transport Neutral Encapsulation Format () deve ser incluído em uma mensagem quando a mensagem é convertida de MAPI para o formato do Multipurpose Internet Mail Extensions (MIME) ou Simple Mail Transfer Protocol (SMTP).
   

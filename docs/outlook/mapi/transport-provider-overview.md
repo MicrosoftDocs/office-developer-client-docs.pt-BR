@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a51547e6-8f0e-45f4-a341-3cfa735112c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 22b9da0cfe70cf499cc6f3a699eabe4aaee25b0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbc56b7334d3966696641a84f23a64ce3802e3e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770635"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595269"
 ---
 # <a name="transport-provider-overview"></a>Visão geral do provedor de transporte
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um provedor de transporte é uma biblioteca de vínculo dinâmico (DLL) que atua como um intermediário entre um ou mais sistemas de mensagens subjacentes e o subsistema de MAPI. Um sistema de mensagens é algum mecanismo específico pelo qual as mensagens são enviadas e recebidas. Alguns exemplos de sistemas de mensagens são:
   

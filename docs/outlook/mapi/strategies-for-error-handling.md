@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: be941efd-04b3-48d0-9b9c-8195ad2bb58d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e778df216d0fe9b901cd9f7136c8014a6b8f0d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0ec3ada71a3e604ea71c5d386f1ff0466132081
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770506"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594086"
 ---
 # <a name="strategies-for-error-handling"></a>Estratégias para lidar com erros
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Como os métodos de interface são virtuais, não é possível saber, como um chamador, o conjunto completo de valores que pode ser retornado de qualquer uma chamada. Uma implementação de um método pode retornar cinco valores; outro pode retornar oito. As entradas de referência na documentação de MAPI listam alguns valores que podem ser retornadas para cada método; Estes são os valores que seu provedor de cliente ou serviço pode procurar e manipular porque eles têm um significado especial. Outros valores podem ser retornados, mas porque eles não são significativos, código especial para lidar com aqueles não é necessário. Uma verificação simple para o sucesso ou falha é adequada.
   

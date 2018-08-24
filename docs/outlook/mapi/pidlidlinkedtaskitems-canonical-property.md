@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d91e7ceb877a4f1a7ce10d33e1a25a8773db0547
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1d7174d6af73b74be7dbba6065ad799a728ae41
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594513"
 ---
 # <a name="pidlidlinkedtaskitems-canonical-property"></a>Propriedade canônica PidLidLinkedTaskItems
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica uma lista da propriedade **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) das tarefas que estão relacionados ao calendário. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 93be3351749ac3e9d285fb214f746d58b55fb5b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30a5848e07de03e61d3a63188aa7b608504ff24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573730"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriedade canônica PidTagSensitivity
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um valor que indica a opinião do remetente da mensagem da sensibilidade de uma mensagem.
   

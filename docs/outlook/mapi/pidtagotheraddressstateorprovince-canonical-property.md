@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b2fe06c7-44d6-4cd6-95ad-e296e40cc4b6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d8f9ea1e318c1bee998d9b60041cdf38611cd276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c6117ebaa3520d9ed690fedba93eba037a136dc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572190"
 ---
 # <a name="pidtagotheraddressstateorprovince-canonical-property"></a>Propriedade canônica PidTagOtherAddressStateOrProvince
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o nome do estado ou província usado em outro endereço.
   

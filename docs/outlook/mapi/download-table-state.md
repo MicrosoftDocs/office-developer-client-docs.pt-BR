@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6a29cc131b4fe352b067e343376b2b705e8e3244
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766465"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595395"
 ---
 # <a name="download-table-state"></a>Baixar o estado da tabela
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
  Este tópico descreve o que acontece durante o estado da tabela de download da máquina de estado de replicação. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b328a65f400e424fb2cd177e710fb8bcffa392c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767797"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587919"
 ---
 # <a name="mapi-address-book"></a>Catálogo de endereços MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 O catálogo de endereços integrada é um objeto que implementa a MAPI para fornecer acesso a uma coleção integrada de informações de endereçamento de todos os provedores de catálogo de endereços no perfil. Com o catálogo de endereços, provedores de serviços e aplicativos cliente não precisará diferenciar entre os esquemas de endereçamento exclusivos de sistemas de mensagens. Em vez disso, elas podem consultar os endereços de quaisquer destinatários em qualquer sistema de mensagens, desde que o provedor de catálogo de endereços para o sistema de mensagens está instalado.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766358"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577097"
 ---
 # <a name="creating-a-message-attachment"></a>Criando um anexo de mensagem
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um anexo da mensagem é alguns dados adicionais, como um arquivo, outra mensagem ou um objeto OLE, que você pode enviar ou salvar, juntamente com uma mensagem. Cada anexo tem um conjunto de propriedades que o identifica e descreve seu tipo e como ele é processado. Como destinatários, anexos de mensagens só podem ser acessados por meio da mensagem às quais eles pertencem. Portanto, para um anexo ser usado, sua mensagem deve estar aberta.
   

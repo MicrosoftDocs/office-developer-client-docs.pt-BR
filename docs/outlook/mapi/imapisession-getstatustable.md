@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7de404f421a405d80dd7f98beba5168969222fc9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48a69fa49735014dcbfffad0673f1d4da62452e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767183"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594828"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Fornece acesso à tabela de status, uma tabela que contém informações sobre todos os recursos MAPI na sessão.
   

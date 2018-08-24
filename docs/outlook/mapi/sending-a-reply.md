@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d83fce761afb4673b71df9d620ac3fd794d6009f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d8c995f5fbca322fca44cdcbb0de224af6b2fbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770335"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590285"
 ---
 # <a name="sending-a-reply"></a>Enviar uma resposta
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Aplicativos de cliente geralmente oferecem suporte a dois tipos de respostas: um que será enviada somente para o remetente da mensagem original e outro que será enviada para todos os outros destinatários incluídos na lista de destinatários da mensagem original além do remetente. Este segundo tipo de resposta é comumente conhecido como uma resposta de que todas as mensagem.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c4a46710311f2c4d26ec3d667c7bf535df69f595
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6de157864bff5be41b6e030d555be7b60dcda5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768980"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594751"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>Propriedade canônica PidTagAttachNumber
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém um número que identifica exclusivamente o anexo dentro de sua mensagem pai. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6981a3b0-96eb-44a2-b051-1c5efc70e9e3
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 9ee999841b53f358dcee85d4d92c5056f665dbf1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4b0292ab16eabe30755fe84885a29fb8e3ce295
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595192"
 ---
 # <a name="timing-a-notification"></a>Sincronizar uma notificação
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Porque a notificação de evento é um processo assíncrono, você pode ser notificado a qualquer momento, não necessariamente imediatamente após o evento ocorreu.
   

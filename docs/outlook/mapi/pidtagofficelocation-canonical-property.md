@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 90741a98-0941-454e-a3c0-886583bb576e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c8a0cab992e54837a0dccfa0d72542b58ace735a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 04964705c756143750fb1dc8796835cce08aadda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769528"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573744"
 ---
 # <a name="pidtagofficelocation-canonical-property"></a>Propriedade canônica PidTagOfficeLocation
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém o local do escritório do destinatário.
   

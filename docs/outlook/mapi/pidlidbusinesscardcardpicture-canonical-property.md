@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8e241022504291ad70f45a3318a7901bbbba213f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b83316b599ea9ee62bde78cbd734dfb6b2d8b80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588493"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>Propriedade canônica PidLidBusinessCardCardPicture
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém a imagem a ser usada em um cartão de visita.
   

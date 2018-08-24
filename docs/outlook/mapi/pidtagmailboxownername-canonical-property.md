@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7c1267a7b7cf479b62d8b8200573c9b3536f7d04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c074067039ed1d3ef064ddba0b6717b302f652e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595437"
 ---
 # <a name="pidtagmailboxownername-canonical-property"></a>Propriedade canônica PidTagMailboxOwnerName
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exibe o nome do proprietário da caixa de correio.
   

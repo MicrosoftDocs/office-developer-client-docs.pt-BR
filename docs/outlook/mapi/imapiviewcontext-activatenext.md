@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 150a0c6eb7efa83f5ff1d12d915351bf5ca9d45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6613e4168fea6536b1df873da12f2c215be515bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588500"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Ativa a mensagem anterior ou seguinte na ordem de exibição. 
   

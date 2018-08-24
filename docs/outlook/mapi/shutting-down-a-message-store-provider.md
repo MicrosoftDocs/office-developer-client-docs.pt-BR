@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b5c9874ca465bb0ebed62f218d1512feb1a2f9ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c7ae4ab6de20d69581a98323c14a2c15f436cad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572820"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>Desligar um provedor do repositório de mensagens
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Se seu provedor for um provedor de armazenamento de mensagem, ele pode ser desligado em uma das seguintes maneiras:
   

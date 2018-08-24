@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 07cea7606654bf32c1fe70e49254afeeb04f0e98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e508f9c3d84272a0641a27e18c94e0620a7072c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574402"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Propriedade canônica PidTagOriginatorDeliveryReportRequested
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém TRUE se o remetente da mensagem solicitar um relatório de entrega para um destinatário específico do sistema de mensagens antes que a mensagem é colocada no repositório de mensagem.
   

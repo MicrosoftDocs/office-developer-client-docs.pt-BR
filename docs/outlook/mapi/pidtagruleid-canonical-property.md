@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 52a6132dcd6aa2c3a2951f3d1a6458808364dccb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2831e31e8139dd2348c2deffa6da41793d0a3f4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576243"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propriedade canônica PidTagRuleId
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Especifica um identificador exclusivo que do servidor de mensagens gera para cada regra quando a regra é criada pela primeira vez. 
   

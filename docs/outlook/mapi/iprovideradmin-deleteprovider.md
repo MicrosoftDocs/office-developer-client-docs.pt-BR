@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e0f8dc1beeb669532e3731b38a4f03966403f76c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db09b44bd8eeeb3ab56513b1b9c2cab69f776002
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767634"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590082"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Exclui um provedor de serviço do serviço de mensagem.
   

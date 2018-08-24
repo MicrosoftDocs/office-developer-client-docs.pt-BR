@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: Este artigo descreve o Microsoft Project Online desenvolvimento de aplicativos para aplicativos de área de trabalho usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem.
-ms.openlocfilehash: a0a2b4042d4db127c56c5ba873ebe25418344571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572876"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desenvolvendo um aplicativo do Project Online usando o modelo de objeto do cliente
 
@@ -639,6 +639,6 @@ Value: Red
 
 ## <a name="see-also"></a>Confira também
 
-Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](http://dev.office.com/project.aspx).
+Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
     
 

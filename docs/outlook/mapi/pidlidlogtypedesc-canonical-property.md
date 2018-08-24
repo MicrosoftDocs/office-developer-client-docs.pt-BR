@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 71bee7321c9b9e2425c70b2377961b74c0df8e73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c07e3c62c5279c8c0f04506d0aff3cb0a1d8ed1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19768534"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572617"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>Propriedade canônica PidLidLogTypeDesc
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Descreve a atividade que está sendo registrada.
   

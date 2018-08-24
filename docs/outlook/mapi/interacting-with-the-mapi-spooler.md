@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: faf3d48b63d1858a2b91f66c83d9ce08e9daa02b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8032172ef19fbb01af68058b2e0255e269183a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587891"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>Interagir com um spooler MAPI
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Os métodos de [IXPLogon: IUnknown](ixplogoniunknown.md) interface são usados pelo spooler MAPI ao chamar o provedor de transporte. Ele deve ser possível para a maioria dos tipos de provedores de transporte para implementar a maioria desses métodos para que eles retornem rapidamente. Isso é desejável porque se um método leva muito tempo para retornar, em seguida, ele deve ser desmembrado com chamadas de volta para o spooler MAPI para liberar a CPU para outras tarefas. 
   

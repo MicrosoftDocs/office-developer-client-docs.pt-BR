@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 275dc17a141f1c002f62a43824174458e591d4de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf100ed916080a91366062f45b9e3349516bdb98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19767381"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588514"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Retorna a tabela de anexos da mensagem.
   

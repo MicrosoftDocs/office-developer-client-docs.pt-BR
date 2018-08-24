@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: Formulários compatíveis com navegador implantados para Microsoft SharePoint Server 2013 com recursos de suporte do InfoPath Forms Services e os controles que abrangem a maioria dos cenários de uso de formulário do InfoPath. No entanto, os formulários compatíveis com navegador entregues pelo InfoPath Forms Services não suportam todos os recursos do InfoPath. Alguns recursos e os controles não são implementados no servidor. Outros recursos não têm uma representação no servidor.
-ms.openlocfilehash: 65201358fc651325920bd3eefc863e839bb1f1a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c633c93eef5fa2d773ed1497f933f2cc3ee0e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595451"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Criar modelos de formulário do InfoPath que funcionam com o InfoPath Forms Services
 

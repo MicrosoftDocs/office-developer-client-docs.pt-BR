@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3bb3226868f88baf12e8778f0122f975c1cadd84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ed0f4f624314b2531f77751ae60def8982757ce2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594786"
 ---
 # <a name="pidtagoriginaleits-canonical-property"></a>Propriedade canônica PidTagOriginalEits
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma cópia dos tipos de informação codificada original (EITs) para o texto da mensagem.
   

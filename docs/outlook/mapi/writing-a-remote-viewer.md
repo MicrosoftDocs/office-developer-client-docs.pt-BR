@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 554f98f7bda8c6616ce06b86142213c18bff1f69
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584762"
 ---
 # <a name="writing-a-remote-viewer"></a>Como escrever um visualizador remoto
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Um visualizador remoto é uma janela em um aplicativo cliente que fornece acesso controlado às mensagens armazenadas em outro computador. Este acesso controlado pode funcionar em um link de comunicações lento. Em vez de recuperar uma seleção completa de mensagens disponíveis sempre que um usuário abre uma pasta, o visualizador remoto primeiro exibe somente os cabeçalhos. O usuário seleciona os cabeçalhos de qual das mensagens para exibir no total. Os clientes remotos visualizador podem permitir que seus usuários a excluir mensagens antes de serem baixados nunca. 
   

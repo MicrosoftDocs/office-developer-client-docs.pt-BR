@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 7b3d0eed6039552813798d4ceb30158444902b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576250"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Configurando um suplemento no estado offline
 
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Para implementar um suplemento do estado offline, você deve implementar a conexão, inicialização e outras funções de instalação. Este tópico, esses conexão, a inicialização e a configuração funções são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e usa a API de estado Offline. Através do menu de **Estado Offline** , você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para obter mais informações sobre como baixar e instalar o suplemento de amostra Offline estado, consulte [Instalando o suplemento de amostra Offline estado](installing-the-sample-offline-state-add-in.md). Para obter mais informações sobre a API de estado Offline, consulte [Sobre o Offline estado API](about-the-offline-state-api.md).
   

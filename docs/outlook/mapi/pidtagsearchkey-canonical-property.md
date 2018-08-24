@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 169afc3b8cf982c4767802542b900ae80822cd01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da7d19407856570a628529877252360d1537bae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19769993"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595388"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>Propriedade canônica PidTagSearchKey
 
   
   
-**Aplica-se a**: Outlook 
+**Aplica-se a**: Outlook 2013 | Outlook 2016 
   
 Contém uma chave binário-comparável que identifica objetos correlatas para uma pesquisa.
   
