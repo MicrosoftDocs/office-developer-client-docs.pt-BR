@@ -1,58 +1,54 @@
 ---
 title: Visio
 manager: soliver
-ms.date: 04/20/2016
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Visio.
-ms.openlocfilehash: 185d58b1ea556488bb1c101231c95614319c45f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e55c5ab195cf8f17eae98dbe61154b6a8fa7651e
+ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773263"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554159"
 ---
 # <a name="visio"></a>Visio
 
 Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Visio.
   
 > [!NOTE]
-> Interessado em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/pt-BR/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/pt-BR/office/dev/add-ins/overview/office-add-ins). 
+> Interessado em desenvolver soluções que ampliem a experiência do Office em [várias plataformas](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Confira o novo [modelo de Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
   
 ### <a name="viewed-most"></a>Mais vistos
+
+- [Suplementos do VSTO para Visio](https://docs.microsoft.com/visualstudio/vsto/visio-solutions)
+
+- [Referência do VBA do Visio](https://docs.microsoft.com/office/vba/api/overview/visio)
   
-- [Referência do VBA do Visio](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
+- [Salvar como referência Web do Visio](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference)
   
-- [Salvar como referência Web do Visio](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
-  
-- [Referência do Visualizador do Visio](http://msdn.microsoft.com/library/6ee197eb-5d40-61a8-4ba4-8c13c9dc3a7e%28Office.15%29.aspx)
+- [Referência do Visualizador do Visio](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference)
   
 - [Referência do Visio ShapeSheet](visio-shapesheet-reference.md)
   
 - [Referência de formato de arquivo do Visio](visio-file-format-reference.md)
   
-- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
-  
 ### <a name="downloads"></a>Downloads
   
-- [Download do SDK do Visio 2013](http://www.microsoft.com/en-us/download/details.aspx?id=36825)
-  
-### <a name="office-add-ins"></a>Suplementos do Office
-  
-- [Introdução](https://dev.office.com/getting-started/addins)
-  
-- [Visão geral da plataforma](https://msdn.microsoft.com/pt-BR/library/office/jj220082.aspx)
-  
+- [Download do SDK do Visio 2013](http://www.microsoft.com/download/details.aspx?id=36825)
+
+- [Download do SDK do Visio 2016](http://www.microsoft.com/download/details.aspx?id=51221)  
+
 ### <a name="other-resources"></a>Outros recursos
   
-- [Referência da biblioteca de Objetos do VBA do Office](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Referência da biblioteca de Objetos do VBA do Office](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference)
   
-- [Referência de linguagem do VBA do Office](http://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Referência de linguagem do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [SDK do Open XML](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [SDK do Open XML](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Suplementos do VSTO para Office](https://msdn.microsoft.com/pt-BR/library/jj620922.aspx)
+- [Suplementos do VSTO para Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio)
   
 
