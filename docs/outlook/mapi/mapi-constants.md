@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4f84ed318fa53877acd9d4759b81c140d2b32e6b
+ms.sourcegitcommit: 6a8c758e690c4b7f3ab6d40635606efd31a3cc07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586302"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "25361482"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
@@ -67,6 +67,7 @@ Esta seção contém definições de constantes e os identificadores de classe e
 |CCSF_USE_RTF  <br/> |0x0080  <br/> |
 |CCSF_PLAIN_TEXT_ONLY  <br/> |0x1000  <br/> |
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
+|CCSF_GLOBAL_MESSAGE  <br/> |0x00200000  <br/> |
 |E_INVALIDARG  <br/> | *Conforme definido em Winerror de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows*  <br/> |
    
 ### <a name="class-identifiers"></a>Identificadores de classe
