@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: be975f74-4b95-45a4-bbee-959fa8e4ad45
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: eddcc911653830f63ae4afc564af891d3d7213e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3be288b606e197b350c1b053303077c1cb984e9c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595234"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398287"
 ---
 # <a name="pidlidsharingremotename-canonical-property"></a>Propriedade canônica PidLidSharingRemoteName
 
@@ -43,11 +43,11 @@ Essa propriedade deve ser definida como o valor da propriedade **PR_DISPLAY_NAME
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Compartilha pastas de caixa de correio entre clientes.
     

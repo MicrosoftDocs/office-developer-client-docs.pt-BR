@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8074bd07-430a-779e-ad1f-e7e3a1c748b1
 description: Contém os elementos que definem a uma forma em um mestre, página ou elemento de forma do grupo.
-ms.openlocfilehash: 8c0a288858e2aaccbd3afadcdc1b057565dd30ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6308b8dd21c92f6ced9ea7f03ec8aa85773fa2bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772891"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399674"
 ---
 # <a name="shape-element-shapestype-complextype-visio-xml"></a>Elemento de forma (Shapes_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Contém os elementos que definem a uma forma em um **mestre**, **página**ou ele
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |página # XML, master. XML de #  <br/> |
    

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ce433dda7357bdce964f897ce985286d193ec0b1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 000132f052abb666ae844ec7d21b59c85ab43613
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576467"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400961"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>Propriedade canônica PidTagReplyRecipientEntries
 
@@ -46,15 +46,15 @@ Se essa propriedade ou a propriedade **PR_REPLY_RECIPIENT_NAMES** estiver defini
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em mensagens de email.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Converte de convenções de email padrão da Internet para os objetos de mensagem.
     

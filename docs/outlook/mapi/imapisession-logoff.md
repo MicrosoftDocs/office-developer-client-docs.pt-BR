@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587835"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399645"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
@@ -57,7 +57,7 @@ MAPI_LOGOFF_UI
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -65,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession::Logoff** termina uma sessão MAPI. Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) pode ser chamado. 
+O método **IMAPISession::Logoff** termina uma sessão MAPI. Quando o **Logoff** retorna, nenhum dos métodos, exceto [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) pode ser chamado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
@@ -73,11 +73,11 @@ Quando o **Logoff** retorna, libere o objeto de sessão chamando seu método **I
   
 Para obter mais informações sobre como encerrar uma sessão, consulte [encerrar uma sessão MAPI](ending-a-mapi-session.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI usa o método **IMAPISession::Logoff** fazer logoff da sessão antes de liberá-la.  <br/> |
    
@@ -91,7 +91,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Finalizar uma sessão MAPI](ending-a-mapi-session.md)
 

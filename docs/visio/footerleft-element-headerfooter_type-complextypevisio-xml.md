@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 994d29c1-deca-6036-fdb1-12da945b29f2
 description: Contém a cadeia de caracteres de texto que aparece na parte esquerda do rodapé de um documento.
-ms.openlocfilehash: 1d274eb191c933c8d7183f0a3863794c71fb2942
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ad4c6b4bb8323e9270d5615c5f814caadc4f35b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771921"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400555"
 ---
 # <a name="footerleft-element-headerfootertype-complextype-visio-xml"></a>Elemento FooterLeft (HeaderFooter_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Contém a cadeia de caracteres de texto que aparece na parte esquerda do rodapé
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

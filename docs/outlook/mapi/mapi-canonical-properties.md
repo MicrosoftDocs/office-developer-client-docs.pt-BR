@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4b017089a675727703de9e2ed4d584e7f77a778a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590432"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401563"
 ---
 # <a name="mapi-canonical-properties"></a>Propriedades MAPI canônicas
 
@@ -25,7 +25,7 @@ Uma propriedade canônica é uma propriedade virtual que representa uma propried
   
 ## <a name="naming-conventions"></a>Convenções de nomeação
 
-Nomes de propriedade canônico começam com um prefixo, "Pid", que representa o "identificador de propriedade." Dependendo se a propriedade é uma propriedade marcada, uma propriedade nomeada com um identificador numérico ou uma propriedade nomeada com um nome de cadeia de caracteres, o prefixo é ainda mais qualificado como "PidTag", "PidLid" e "PidName" respectivamente. Por exemplo, [PidTagAccount](pidtagaccount-canonical-property.md) representa as propriedades marcadas, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) e **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), que especificam um destinatário nome da conta; [PidLidContacts](pidlidcontacts-canonical-property.md) representa a propriedade **dispidContacts** , uma propriedade nomeada que tenha um identificador numérico e que especifica o nome do contatos associados a uma mensagem. e [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) representa "http://schemas.microsoft.com/outlook/phishingstamp," uma propriedade nomeada que tem um nome de cadeia de caracteres, e que especifica a cadeia de caracteres marcando as mensagens que são provavelmente phishing. 
+Nomes de propriedade canônico começam com um prefixo, "Pid", que representa o "identificador de propriedade." Dependendo se a propriedade é uma propriedade marcada, uma propriedade nomeada com um identificador numérico ou uma propriedade nomeada com um nome de cadeia de caracteres, o prefixo é ainda mais qualificado como "PidTag", "PidLid" e "PidName" respectivamente. Por exemplo, [PidTagAccount](pidtagaccount-canonical-property.md) representa as propriedades marcadas, **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) e **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), que especificam um destinatário nome da conta; [PidLidContacts](pidlidcontacts-canonical-property.md) representa a propriedade **dispidContacts** , uma propriedade nomeada que tenha um identificador numérico e que especifica o nome do contatos associados a uma mensagem. e [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) representa "https://schemas.microsoft.com/outlook/phishingstamp," uma propriedade nomeada que tem um nome de cadeia de caracteres, e que especifica a cadeia de caracteres marcando as mensagens que são provavelmente phishing. 
   
 ## <a name="representing-similar-properties-using-one-canonical-property"></a>Que representam propriedades semelhantes usando uma propriedade canônica
 
@@ -71,7 +71,7 @@ Se você deve usar os nomes de propriedade canônico em seu código, primeiro vo
   
 ## <a name="canonical-property-names-and-exchange-protocol-specifications"></a>Nomes de propriedade canônico e especificações de protocolo do Exchange
 
-Nomes canônicos são referenciados nas especificações de protocolo do Microsoft Exchange Server usadas pelo Exchange Server para se comunicar com outros produtos da Microsoft. Para obter mais informações sobre propriedades de objeto de mensagem referenciado pelo especificações de protocolo do Exchange, consulte [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
+Nomes canônicos são referenciados nas especificações de protocolo do Microsoft Exchange Server usadas pelo Exchange Server para se comunicar com outros produtos da Microsoft. Para obter mais informações sobre propriedades de objeto de mensagem referenciado pelo especificações de protocolo do Exchange, consulte [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 

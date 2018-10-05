@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: dcc7c79a-5036-4e62-bb54-6fe952acbddb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f71f19db1983045c2f31b3bf1980f1780c666955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b15ab39bac23a659626175b1bdae11a85ef02861
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590726"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399218"
 ---
 # <a name="pidnamepresentationformat-canonical-property"></a>Propriedade canônica PidNamePresentationFormat
 
@@ -39,11 +39,11 @@ Especifica o formato de apresentação do arquivo que está anexado ao documento
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em documentos.
     

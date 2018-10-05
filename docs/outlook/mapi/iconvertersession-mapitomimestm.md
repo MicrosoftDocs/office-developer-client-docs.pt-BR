@@ -11,12 +11,12 @@ api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
 description: 'Modificado pela última vez: 20 de setembro de 2017'
-ms.openlocfilehash: bcbc3d21a03c1585288ad23b1fb2d311d686f55c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570447"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400114"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
@@ -41,7 +41,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
     
  _pstm_
   
-> [out] Interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) para o fluxo de saída. 
+> [out] Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para o fluxo de saída. 
     
  _ulFlags_
   
@@ -97,11 +97,11 @@ E_INVALIDARG
 
 Suporte apenas para os tipos de mensagem padrão do Outlook.
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |

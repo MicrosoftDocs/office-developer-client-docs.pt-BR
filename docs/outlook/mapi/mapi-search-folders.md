@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 36c14d91-77f7-43a3-8d87-d50bcc21fad7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: b5a95ca77496c3c4c2d28641ab649c2b4328a27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c1d7f67458852319587d98831d031b2c3a131871
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578553"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400898"
 ---
 # <a name="mapi-search-folders"></a>Pastas de pesquisa MAPI
 
@@ -27,7 +27,7 @@ Uma pasta de resultados de pesquisa contém links para as mensagens nas pastas g
   
 Pastas de resultados de pesquisa tem os seguintes limites:
   
-- A única maneira que o conteúdo de uma pasta de resultados de pesquisa pode ser modificado é por meio de uma chamada para **definir SetSearchCriteria**. Para obter mais informações sobre a implementação do **definir SetSearchCriteria**, consulte o artigo [260322: como para pastas de pesquisa com o método definir SetSearchCriteria](http://go.microsoft.com/fwlink/?LinkId=123603).
+- A única maneira que o conteúdo de uma pasta de resultados de pesquisa pode ser modificado é por meio de uma chamada para **definir SetSearchCriteria**. Para obter mais informações sobre a implementação do **definir SetSearchCriteria**, consulte o artigo [260322: como para pastas de pesquisa com o método definir SetSearchCriteria](https://go.microsoft.com/fwlink/?LinkId=123603).
     
 - As mensagens não podem ser movidas ou copiadas em pastas de resultados de pesquisa.
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 411e8f81-c2b9-440a-9e9a-d6add5e4be63
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f363b0a756a2cf4c7e37854cab0ddc4a46a0754d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 031e5483539ce17c8b9b994690985c2349573e27
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582655"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400801"
 ---
 # <a name="pidlidcontactitemdata-canonical-property"></a>Propriedade canônica PidLidContactItemData
 
@@ -47,17 +47,17 @@ Se presente, a propriedade deve ter seis entradas, cada um correspondendo a um c
 |2  <br/> |0x00008080  <br/> |O aplicativo deve exibir Email1.  <br/> |
 |2  <br/> |0x00008090  <br/> |O aplicativo deve exibir Email2.  <br/> |
 |2  <br/> |0x000080A0  <br/> |O aplicativo deve exibir Email3.  <br/> |
-|3,4,5,6  <br/> |PropertyID de qualquer uma das propriedades telefônica ou de qualquer um dos números de fax que foram especificados em [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |O aplicativo deve exibir a propriedade correspondente.  <br/> |
+|3,4,5,6  <br/> |PropertyID de qualquer uma das propriedades telefônica ou de qualquer um dos números de fax que foram especificados em [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |O aplicativo deve exibir a propriedade correspondente.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

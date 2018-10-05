@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7c72b87eec6d0a14b0ebba10529ef5d898747028
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 85ac61d968243283e5ad9283730941adcd87cd5e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572974"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400968"
 ---
 # <a name="pidtagrtfsyncbodycrc-canonical-property"></a>Propriedade canônica PidTagRtfSyncBodyCrc
 
@@ -44,11 +44,11 @@ Essa propriedade é uma propriedade de auxiliar formato Rich Text (RTF). Essas p
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
     

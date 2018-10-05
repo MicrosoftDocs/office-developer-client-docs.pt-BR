@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6c7dbbaf9d3d8cc09eef8a6ac193e786092bb8cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 24c3369d1d6db4977d26e4d31678a4f2cc5808a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571448"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399799"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propriedade canônica PidTagFreeBusyRangeTimestamp
 
@@ -42,11 +42,11 @@ Essa propriedade é o número de minutos desde a meia-noite, 1 de janeiro de 160
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     

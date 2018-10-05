@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d00a2ce3ebec24ca69875bdcb83066d8b891137a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585952"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399652"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -26,8 +26,8 @@ Determina a página de código para um fluxo de Transport-Neutral Encapsulation 
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |TNEF.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente.  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços e aplicativos cliente.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -51,7 +51,7 @@ HRESULT GetTnefStreamCodepage(
   
 > [out] Ponteiro para a página subcódigo do fluxo.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
  **S_OK**
   
@@ -73,5 +73,5 @@ Use a função **GetTnefStreamCodepage** para ler o atributo **attOemCodepage** 
 
 
 
-[attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
+[attOemCodepage](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
 

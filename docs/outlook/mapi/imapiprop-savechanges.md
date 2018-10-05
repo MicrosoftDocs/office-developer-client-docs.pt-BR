@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569523"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398840"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
@@ -63,7 +63,7 @@ SPAMFILTER_ONSAVE
   
 > Permite que o spam filtrados em uma mensagem que está sendo salva. Suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente é Simple Mail Transfer Protocol (SMTP) e a mensagem está sendo salva um repositório para um arquivo de pastas particulares (. PST).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -87,9 +87,9 @@ O método **IMAPIProp::SaveChanges** faz com que as alterações de propriedade 
   
 Porque não têm os provedores de serviço gerar um identificador de entrada para seus objetos até que todas as propriedades foram salvos, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) propriedade de um objeto pode não estar disponível até após seu método **SaveChanges** foi chamado. Alguns provedores de aguardar até que o sinalizador KEEP_OPEN_READONLY está definido na chamada **SaveChanges** . KEEP_OPEN_READONLY indica que as alterações sejam salvos na chamada atual será as últimas alterações serão feitas no objeto. 
   
-Algumas implementações de repositório de mensagem do não mostrar recém-criadas mensagens em uma pasta até que um cliente salva a mensagem altera usando **SaveChanges** e libera os objetos de mensagem usando o método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . Além disso, algumas implementações de objeto não é possível gerar uma propriedade **PR_ENTRYID** para um objeto recém-criado até depois **SaveChanges** foi chamado e alguns podem fazê-lo apenas depois **SaveChanges** tiver sido chamado usando KEEP_OPEN_READONLY Defina no _ulFlags_.
+Algumas implementações de repositório de mensagem do não mostrar recém-criadas mensagens em uma pasta até que um cliente salva a mensagem altera usando **SaveChanges** e libera os objetos de mensagem usando o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Além disso, algumas implementações de objeto não é possível gerar uma propriedade **PR_ENTRYID** para um objeto recém-criado até depois **SaveChanges** foi chamado e alguns podem fazê-lo apenas depois **SaveChanges** tiver sido chamado usando KEEP_OPEN_READONLY Defina no _ulFlags_.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Se você receber o sinalizador KEEP_OPEN_READONLY, você tem a opção de deixar o acesso do objeto como leitura/gravação. No entanto, um provedor pode nunca deixe um objeto em um estado somente leitura quando o sinalizador KEEP_OPEN_READWRITE é passado.
   

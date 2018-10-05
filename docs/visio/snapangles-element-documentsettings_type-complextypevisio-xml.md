@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 803ddfc1-b7d3-736f-2d85-7b8780ef9278
 description: Contém uma coleção de elementos de SnapAngle.
-ms.openlocfilehash: 1cd73e14726486a52bca365ec4cc60baaa831500
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8121a65505c5283ea3cc4ff93a94fdae4c64d7a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773007"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398483"
 ---
 # <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Contém uma coleção de elementos de **SnapAngle** .
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

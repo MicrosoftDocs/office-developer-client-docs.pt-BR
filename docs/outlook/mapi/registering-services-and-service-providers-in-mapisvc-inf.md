@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Modificado pela última vez: 18 de julho de 2013'
-ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566919"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399547"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar provedores de serviços e serviços no MapiSvc.inf
 
@@ -43,11 +43,11 @@ Em alguns casos, em um provedor de armazenamento você irá gerar identificadore
 > [!IMPORTANT]
 > Se você estiver usando caminhos completos em MAPISVC, você deve usar o mesmo caminho em todas as chamadas para **WrapStoreEntryID**. 
   
-Além disso, o caminho que você usar pode ser convertido em Unicode usando a página de código fornecida pela função [GetACP](http://msdn.microsoft.com/en-us/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
+Além disso, o caminho que você usar pode ser convertido em Unicode usando a página de código fornecida pela função [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
   
 > [!CAUTION]
-> Fica falha se você escolher um caminho que contém caracteres que não podem sobreviver tal uma ida e volta por meio das funções [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) e [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
+> Fica falha se você escolher um caminho que contém caracteres que não podem sobreviver tal uma ida e volta por meio das funções [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) e [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
   
-Para obter uma demonstração dessa funcionalidade, a [amostra de PST quebrado automaticamente](http://ol2010mapisamples.codeplex.com/) no CodePlex foi revisado - a funcionalidade pertinente está em **MergeWithMapiSvc** e **GenerateProviderPath**.
+Para obter uma demonstração dessa funcionalidade, a [amostra de PST quebrado automaticamente](https://ol2010mapisamples.codeplex.com/) no CodePlex foi revisado - a funcionalidade pertinente está em **MergeWithMapiSvc** e **GenerateProviderPath**.
   
 

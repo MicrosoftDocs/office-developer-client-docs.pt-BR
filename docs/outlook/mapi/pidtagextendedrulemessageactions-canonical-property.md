@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9b6af0c7fae85a2ea6cbd53159674fdcd32c642c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70f09d6db5940fcb9b980cc839988113bd3a3e2e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592763"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399183"
 ---
 # <a name="pidtagextendedrulemessageactions-canonical-property"></a>Propriedade canônica PidTagExtendedRuleMessageActions
 
@@ -38,17 +38,17 @@ Contém informações adicionais sobre as propriedades nomeadas usado em uma men
 
 Esta propriedade deve ser definida em uma mensagem FAI. Esta propriedade tem a mesma finalidade como **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), mas contém informações adicionais sobre a versão das propriedades nomeadas armazenadas na ação da regra e a regra, bem como informações sobre as ações a serem executados por essa regra. Todos os valores de cadeia de caracteres contidos em qualquer parte do buffer de ação usado para conter as ações devem estar no formato Unicode.
   
-Para obter informações sobre o formato dessa propriedade binários, consulte [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Para obter informações sobre o formato dessa propriedade binários, consulte [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a especificações de protocolo do Exchange Server relacionadas..
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     

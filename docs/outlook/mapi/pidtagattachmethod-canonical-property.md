@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Modificado pela última vez: 07 de setembro de 2016'
-ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583649"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400723"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propriedade canônica PidTagAttachMethod
 
@@ -94,7 +94,7 @@ Quando o **PR_ATTACH_METHOD** for **ATTACH_BY_WEBREFERENCE**, o conteúdo do ane
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

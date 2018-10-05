@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577713"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400142"
 ---
 # <a name="link-to-mapi-functions"></a>Link para funções MAPI
 
@@ -121,7 +121,7 @@ Algumas das novas funções vinculadas a partir desta biblioteca que não estão
     
 Um método alternativo de incorporar a biblioteca de Stub MAPI é copiar os arquivos de origem, MapiStubLibrary.cpp e StubUtils.cpp, diretamente em seu projeto e remover qualquer vinculação com Mapi32.lib e qualquer código que explicitamente vincula a MAPI.
   
-Para acessar os arquivos da biblioteca de Stub MAPI e para obter informações sobre como criar e integrá-lo em seu projeto, bem como dúvidas sobre esta biblioteca como quando e por que usá-lo, consulte a [Biblioteca de Stub MAPI](http://mapistublibrary.codeplex.com/documentation) no site do CodePlex. 
+Para acessar os arquivos da biblioteca de Stub MAPI e para obter informações sobre como criar e integrá-lo em seu projeto, bem como dúvidas sobre esta biblioteca como quando e por que usá-lo, consulte a [Biblioteca de Stub MAPI](https://mapistublibrary.codeplex.com/documentation) no site do CodePlex. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -129,7 +129,7 @@ Para acessar os arquivos da biblioteca de Stub MAPI e para obter informações s
 - [Instalar o subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar arquivos de cabeçalho MAPI](how-to-install-mapi-header-files.md)
 - [Escolher uma versão MAPI específica para carregar](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Determinando qual método vinculação de uso](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [Vinculando um arquivo executável para uma DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [Configurando as chaves MSI para sua DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [Determinando qual método vinculação de uso](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Vinculando um arquivo executável para uma DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [Configurando as chaves MSI para sua DLL MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

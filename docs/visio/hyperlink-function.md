@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: Navega para o endereço especificado, que pode ser um arquivo, UNC ou URL caminho.
-ms.openlocfilehash: 4e86fd3682d5d9e26c52839e76d2016d654b3141
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e4952c3d56eff0cb1e6518928a7b8259f645046
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19772032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401073"
 ---
 # <a name="hyperlink-function"></a>Função HYPERLINK
 
@@ -52,7 +52,7 @@ Utilize a função GOTOPAGE para navegar em páginas de um documento.
   
 ## <a name="example-3"></a>Exemplo 3
 
- `HYPERLINK("http://www.microsoft.com")`
+ `HYPERLINK("https://www.microsoft.com")`
   
 ## <a name="example-4"></a>Exemplo 4
 

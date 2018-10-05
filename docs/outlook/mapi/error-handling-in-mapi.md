@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98ee0856411cce3a3e9012185be6c30503de7779
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593295"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401689"
 ---
 # <a name="error-handling-in-mapi"></a>Tratamento de erros no MAPI
 
@@ -39,9 +39,9 @@ O campo de recurso nas duas versões indica a área de responsabilidade para o e
 |:-----|:-----|
 |FACILITY_NULL  <br/> |Para obter códigos de status comuns amplamente aplicáveis como S_OK ou E_OUTOF_MEMORY; o valor for zero.  <br/> |
 |FACILITY_ITF  <br/> |Para a maioria dos códigos de status retornados de métodos de interface; o valor é definido pela interface. Ou seja, os dois valores HRESULT com exatamente o mesmo valor 32-bit retornado de duas interfaces diferentes podem ter significados diferentes.  <br/> |
-|FACILITY_DISPATCH  <br/> |Erros da interface para associação tardia [IDispatch](http://msdn.microsoft.com/en-us/library/ms221608.aspx) .  <br/> |
+|FACILITY_DISPATCH  <br/> |Erros da interface para associação tardia [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) .  <br/> |
 |FACILITY_RPC  <br/> |Para obter códigos de status retornados de chamadas de procedimento remoto.  <br/> |
-|FACILITY_STORAGE  <br/> |Para obter códigos de status retornados de chamadas de método [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) ou [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) relativos ao armazenamento estruturado. Códigos de status com valores de código (16 bits inferiores) nos códigos de erro de intervalo do Windows (ou seja, menos de 256) têm o mesmo significado como os erros do Windows correspondentes.  <br/> |
+|FACILITY_STORAGE  <br/> |Para obter códigos de status retornados de chamadas de método [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) ou [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) relativos ao armazenamento estruturado. Códigos de status com valores de código (16 bits inferiores) nos códigos de erro de intervalo do Windows (ou seja, menos de 256) têm o mesmo significado como os erros do Windows correspondentes.  <br/> |
    
 O campo código é um número exclusivo atribuído para representar o erro ou aviso.
   

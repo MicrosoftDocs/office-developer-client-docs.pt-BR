@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c5a7ba301d61468c0ff43a7e99d05976d55d239d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d353eba55e33b8ab48b3c47d2f31f1b5e0973b58
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576664"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399729"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Escolher uma versão específica de MAPI para carregar
 
@@ -27,7 +27,7 @@ Há dois métodos para vincular explicitamente a implementação de MAPI.
     
 2. Você pode implementar o algoritmo de pesquisa do cliente MAPI para pesquisar a versão do MAPI usado pelo cliente de email padrão e carregá-la.
     
-Como você pode alterar as [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx) para direcionar o seu aplicativo para usar qualquer implementação de MAPI, recomendamos que você direcione o seu aplicativo para usar uma implementação do MAPI que você testadas com. A seguir descreve os dois métodos de vínculo explicitamente. 
+Como você pode alterar as [Configurações de registro de Stub Mapi32](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) para direcionar o seu aplicativo para usar qualquer implementação de MAPI, recomendamos que você direcione o seu aplicativo para usar uma implementação do MAPI que você testadas com. A seguir descreve os dois métodos de vínculo explicitamente. 
   
 ## <a name="reading-from-the-registry"></a>Leitura do registro
 
@@ -99,16 +99,16 @@ Porque MFCMAPI carrega a implementação de padrão de MAPI por padrão, se voc�
 10.  `GetMAPIPath`em seguida, retorna este caminho ao chamador, que carrega MAPI e vincula explicitamente a ele, conforme descrito no [Link para funções de MAPI](how-to-link-to-mapi-functions.md).
     
 > [!NOTE] 
-> - Para oferecer suporte a cópias localizadas de MAPI para inglês e localidades diferentes do inglês, `GetMAPIPath` lê os valores para as subchaves **MSIApplicationLCID** e **MSIOfficeLCID** .  `GetMAPIPath`em seguida, chama-se **FGetComponentPath**, primeiro especificando **MSIApplicationLCID** como **szQualifier**e novamente, especificando **MSIOfficeLCID** como **szQualifier**. Para obter mais informações sobre as chaves do registro para clientes de email que oferecem suporte a idiomas diferentes do inglês, consulte [Configuração de backup das MSI chaves para sua DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).   
+> - Para oferecer suporte a cópias localizadas de MAPI para inglês e localidades diferentes do inglês, `GetMAPIPath` lê os valores para as subchaves **MSIApplicationLCID** e **MSIOfficeLCID** .  `GetMAPIPath`em seguida, chama-se **FGetComponentPath**, primeiro especificando **MSIApplicationLCID** como **szQualifier**e novamente, especificando **MSIOfficeLCID** como **szQualifier**. Para obter mais informações sobre as chaves do registro para clientes de email que oferecem suporte a idiomas diferentes do inglês, consulte [Configuração de backup das MSI chaves para sua DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).   
 > - Se MFCMAPI não recebe um caminho para o uso de MAPI `GetMAPIPath`, ele carrega a biblioteca de stub MAPI do diretório do sistema.
-> - O valor de registro **MSMapiApps** discutido no [Mapeamento explicitamente as chamadas de MAPI para DLLs MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx) só se aplica quando a biblioteca MAPI Stub é usada. Aplicativos que carregar uma implementação específica de MAPI ou a implementação de padrão de carga não precisará definir a chave de registro **MSMapiApps** . 
+> - O valor de registro **MSMapiApps** discutido no [Mapeamento explicitamente as chamadas de MAPI para DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) só se aplica quando a biblioteca MAPI Stub é usada. Aplicativos que carregar uma implementação específica de MAPI ou a implementação de padrão de carga não precisará definir a chave de registro **MSMapiApps** . 
     
 ## <a name="see-also"></a>Confira também
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
 - [Link para funções MAPI](how-to-link-to-mapi-functions.md)
-- [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
-- [Configurando as chaves MSI para sua DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
-- [Mapeando explicitamente chamadas MAPI para DLLs MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)
+- [Configurações de registro de Stub Mapi32](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [Configurando as chaves MSI para sua DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [Mapeando explicitamente chamadas MAPI para DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

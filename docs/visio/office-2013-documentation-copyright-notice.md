@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 description: Este documento é providedas-é. Informações e exibições existentes neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. O risco de usá-lo é responsabilidade sua.
-ms.openlocfilehash: 324af9613f81c4ccb61b422ab064bb802ce1a1ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11aa6aa5741e71d00fc7de98482654c74bac5979
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772431"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400646"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Aviso de direitos autorais de documentação do Office 2013
 
-Este documento é fornecido "como-é". Informações e visões expressas neste documento, incluindo URL e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. Você assume o risco de usá-lo. 
+Este documento é fornecido "como-é". Informações e exibições existentes neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio. O risco de usá-lo é responsabilidade sua. 
   
 Alguns exemplos citados neste documento são fornecidos apenas para ilustração e são fictícios. Nenhuma associação ou conexão é intencional ou deve ser inferida.
   

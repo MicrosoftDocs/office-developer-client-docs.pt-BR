@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: Novos recursos incluem um modelo de objeto do cliente (CSOM), interfaces do REST, um serviço OData para relatórios, receptores de evento remoto, fluxos de trabalho declarativos e suplementos de painel de tarefas para clientes do Project.
-ms.openlocfilehash: e524fe7b8cfa813bd198e99a99cf77d6e2b1905d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c4c3f9b4bb5852f2a620b2695c15de390ac9d78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567836"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401759"
 ---
 # <a name="updates-for-developers-in-project"></a>Atualizações para desenvolvedores no Project
 
@@ -24,7 +24,7 @@ Os bancos de dados do Project Server são combinados em um único banco de dados
 Para obter mais informações sobre as principais alterações no Project Server 2013 e diagramas, consulte [arquitetura do Project Server 2013](project-server-2013-architecture.md).
   
 > [!NOTE]
-> Project Server 2013 é criado na plataforma do SharePoint Server 2013 e Project 2013 inclui muito da infraestrutura de mesmo como os outros aplicativos do Office 2013. Para obter a documentação do modelo para o SharePoint Add-ins, fluxos de trabalho baseados no SharePoint, Web Parts, desenvolvimento com outros recursos do SharePoint e documentação de suplementos do Office, consulte [Add-ins do SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins), [suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)e [do SharePoint Visão geral do desenvolvimento de 2013](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx). 
+> Project Server 2013 é criado na plataforma do SharePoint Server 2013 e Project 2013 inclui muito da infraestrutura de mesmo como os outros aplicativos do Office 2013. Para obter a documentação do modelo para o SharePoint Add-ins, fluxos de trabalho baseados no SharePoint, Web Parts, desenvolvimento com outros recursos do SharePoint e documentação de suplementos do Office, consulte [Add-ins do SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins), [suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)e [do SharePoint Visão geral do desenvolvimento de 2013](https://msdn.microsoft.com/library/jj164084%28office.15%29.aspx). 
   
 ## <a name="major-new-features-in-project-2013"></a>Principais novos recursos no Project 2013
 <a name="pj15_WhatsNew_MajorNewFeatures"> </a>
@@ -33,7 +33,7 @@ Novos recursos no Project Standard 2013 e Project Professional 2013 incluem uma 
   
 Há vários novos recursos no Project Server 2013. Alguns não possuem uma história principais recursos de programação, como a nova linha do tempo no Project Web App. Esses recursos serão documentados na documentação de Ajuda e do usuário final do produto no Microsoft Office Online e nos tópicos destinados a administradores e profissionais de TI no Microsoft TechNet. Outros novos recursos, como quadros de horários aprimorados, tornam mais fácil para desenvolvedores de terceiros interagir com os quadros de horários e status através do Project Server Interface (PSI).
   
-A adição do Project Online e Office Store (http://office.microsoft.com/store) para suplementos de projeto são alterações grandes, onde o Project Server é acessível através do Microsoft Azure. Acesso baseado em nuvem ao Project Server usa um modelo de objeto do cliente (CSOM) para o desenvolvimento de suplementos com o Microsoft .NET Framework, Microsoft Silverlight, Windows Phone e aplicativos web que usam o JavaScript. Um requisito do Project Online é que os quatro bancos de dados do Project Server de versões anteriores são mesclados em um banco de dados.
+A adição do Project Online e Office Store (https://office.microsoft.com/store) para suplementos de projeto são alterações grandes, onde o Project Server é acessível através do Microsoft Azure. Acesso baseado em nuvem ao Project Server usa um modelo de objeto do cliente (CSOM) para o desenvolvimento de suplementos com o Microsoft .NET Framework, Microsoft Silverlight, Windows Phone e aplicativos web que usam o JavaScript. Um requisito do Project Online é que os quatro bancos de dados do Project Server de versões anteriores são mesclados em um banco de dados.
   
 Escalabilidade e desempenho do project Server 2013 é melhorado em muitas áreas como gerenciamento de projetos, quadros de horários e status da tarefa. Fluxos de trabalho do Project Server são reprojetados com a versão 4 do Windows Workflow Foundation (WF4). O uso do .NET Framework 4 e Windows Communication Foundation (WCF) com a PSI melhora a segurança, desempenho e escalabilidade. Por exemplo, você pode alterar o protocolo de transporte de aplicativos baseados em WCF usando arquivos de configuração, sem alterar o código do aplicativo ou recompilação. Muitas das chamadas PSI onde dados não alteram significativamente caches de Project Web App.
   
@@ -47,7 +47,7 @@ Escalabilidade e desempenho do project Server 2013 é melhorado em muitas áreas
 
 Distribuição e marketing do software foi revolucionou com o conceito de um suplemento. Para o Project 2013, suplementos podem ser disponibilizados para compra e o download da Office Store pública ou distribuídos dentro de um catálogo particular no SharePoint. Um suplemento é normalmente um programa interativo, independente, que executa um pequeno número de tarefas relacionadas. Um suplemento do Project pode ser um add-in de painel de tarefas para o Project Standard 2013 ou Project Standard 2013 clientes ou um suplemento para o Project Server 2013 ou Project Online.
   
-Para obter informações sobre suplementos para os clientes de área de trabalho do projeto, consulte [tarefa painel complementos no projeto](#pj15_WhatsNew_Agave). Para obter um exemplo do Project Server 2013, consulte o [suplemento do Project Server de criar um hospedado no SharePoint](create-a-sharepoint-hosted-project-server-add-in.md). Além dos artigos no [Office e SharePoint suplementos SDK](http://msdn.microsoft.com/library/fp161507.aspx), o [Blog do Office](https://blogs.office.com/dev/) tem muitas postagens que também são relevantes para o Project 2013 e Project Online. 
+Para obter informações sobre suplementos para os clientes de área de trabalho do projeto, consulte [tarefa painel complementos no projeto](#pj15_WhatsNew_Agave). Para obter um exemplo do Project Server 2013, consulte o [suplemento do Project Server de criar um hospedado no SharePoint](create-a-sharepoint-hosted-project-server-add-in.md). Além dos artigos no [Office e SharePoint suplementos SDK](https://msdn.microsoft.com/library/fp161507.aspx), o [Blog do Office](https://blogs.office.com/dev/) tem muitas postagens que também são relevantes para o Project 2013 e Project Online. 
   
 Um suplemento do Project Server 2013 pode trabalhar com uma instalação local e Project Online. Suplementos de servidor de projeto podem incluir Web Parts, receptores de evento remoto e a lógica de negócios. Acesso ao modelo de objeto do Project Server em um suplemento é por meio de CSOM, não a PSI. Armazenamento de dados pode ser baseado em nuvem, como com o SQL Azure, externos, como a Microsoft Business Connectivity Services (BCS), interno com um banco de dados local, ou mista.
   
@@ -59,7 +59,7 @@ No Office Developer Tools para Visual Studio 2012, o arquivo AppManifext.xml tem
   
 ```XML
   <AppPermissionRequests>
-    <AppPermissionRequest Scope="http://sharepoint/projectserver/projects" Right="Write" />
+    <AppPermissionRequest Scope="https://sharepoint/projectserver/projects" Right="Write" />
   </AppPermissionRequests>
 ```
 
@@ -76,16 +76,16 @@ No Office Developer Tools para Visual Studio 2012, o arquivo AppManifext.xml tem
 |**Fluxo de trabalho** <br/> |**Elevar** (Requer a permissão para executar fluxos de trabalho. O suplemento é executado com permissões elevadas, para habilitar o estágio a outro transições em um fluxo de trabalho. A lógica de negócios do add-in controla transições estágio).  <br/> |
    
 > [!NOTE]
-> Project Server 2013 e Project Online não use o modelo de autenticação do aplicativo somente no SharePoint 2013 (consulte o [suplemento de tipos de diretiva de autorização no SharePoint 2013](http://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)). 
+> Project Server 2013 e Project Online não use o modelo de autenticação do aplicativo somente no SharePoint 2013 (consulte o [suplemento de tipos de diretiva de autorização no SharePoint 2013](https://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)). 
   
-Para obter informações sobre como desenvolver, distribuir, hospedar e gerenciar suplementos, consulte Tópicos relacionados na documentação de desenvolvedor do SharePoint Server 2013 e Office 2013 e [suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)e [SharePoint suplementos](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) . Para obter informações sobre o escopo de solicitação de permissão para outros Add-ins do SharePoint, consulte [Add-in permissões no SharePoint 2013](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
+Para obter informações sobre como desenvolver, distribuir, hospedar e gerenciar suplementos, consulte Tópicos relacionados na documentação de desenvolvedor do SharePoint Server 2013 e Office 2013 e [suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)e [SharePoint suplementos](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) . Para obter informações sobre o escopo de solicitação de permissão para outros Add-ins do SharePoint, consulte [Add-in permissões no SharePoint 2013](https://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
   
 ### <a name="integrating-with-sharepoint-server"></a>Integrando com o SharePoint Server
 <a name="pj15_WhatsNew_IntegrationWSS"> </a>
 
 Muitos recursos no Project Web App exigem a infraestrutura de nova no SharePoint Server 2013 como OAuth e a autenticação baseada em declarações, autorização do Project Server e permissões por meio de grupos do SharePoint, sincronização de projetos com tarefas do SharePoint listas e fluxos de trabalho declarativos do Project Server. O aplicativo de serviço Project pode ser associado a qualquer conjunto de sites em um farm do SharePoint. Sincronização de projeto pode ser com uma lista de tarefas do SharePoint, onde o SharePoint mantém o projeto. Um projeto da empresa também pode ser sincronizado com uma lista de tarefas do SharePoint, onde o Project Server mantém controle total. Para obter uma explicação da sincronização do projeto e diagramas de arquitetura, consulte [arquitetura do Project Server 2013](project-server-2013-architecture.md).
   
-Há vários novos recursos no SharePoint Server 2013. Para obter mais informações, consulte [SharePoint para desenvolvedores](http://msdn.microsoft.com/en-US/sharepoint).
+Há vários novos recursos no SharePoint Server 2013. Para obter mais informações, consulte [SharePoint para desenvolvedores](https://msdn.microsoft.com/sharepoint).
   
 ### <a name="integrating-with-workflows"></a>Integrando com fluxos de trabalho
 <a name="pj15_WhatsNew_Workflow"> </a>
@@ -108,7 +108,7 @@ OAuth permite que os gerentes de projeto que possuem permissões de criação de
   
 Embora possa usar o Project Server 2013 local compilados fluxos de trabalho baseados em WF3.5, é recomendável atualizar fluxos de trabalho herdados para fluxos de trabalho declarativos com base em WF4. A tecnologia mais recente é mais escalonável e robusto. Analistas de negócios e equipe PMO pode criar ou atualizar designs do fluxo de trabalho usando o Visio 2013 e implementar fluxos de trabalho do Project Server sem codificação usando o SharePoint Designer 2013.
   
-Para obter informações sobre como criar um fluxo de trabalho declarativo para o Project Web App, consulte [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md). Para obter uma comparação do SharePoint Designer e recursos do Visual Studio para fluxos de trabalho, consulte [fluxos de trabalho de desenvolvimento do SharePoint 2013 usando o Visual Studio](http://msdn.microsoft.com/en-us/library/office/jj163199.aspx).
+Para obter informações sobre como criar um fluxo de trabalho declarativo para o Project Web App, consulte [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md). Para obter uma comparação do SharePoint Designer e recursos do Visual Studio para fluxos de trabalho, consulte [fluxos de trabalho de desenvolvimento do SharePoint 2013 usando o Visual Studio](https://msdn.microsoft.com/library/office/jj163199.aspx).
   
 ### <a name="client-side-object-model"></a>Modelo de objeto do cliente
 <a name="pj15_WhatsNew_CSOM"> </a>
@@ -160,22 +160,22 @@ Os quatro bancos de dados no Project Server 2010 são combinados em um único ba
 >
 > Não há nada a ativamente impedir o uso de acesso direto programático banco de dados para atualizar dados em qualquer uma das tabelas e modos de exibição no banco de dados do projeto. Você deve estar ciente de que o cache do Project Professional, as tabelas de dados publicados e de rascunho e as tabelas de relatório todos contam com um protocolo de sincronização do cache que pode ser interrompido por direcionam a edição de dados. Se você danificar seus bancos de dados do Project Server ou corromper o Project Professional do cliente armazena em cache usando o acesso direto para alterar os dados, ser avisado que suporte ao produto não poderão ajudar! 
   
-Project Server 2013 introduz um serviço OData para online e acesso local. As tabelas de relatórios online e visualizações são expostas apenas pela interface OData; para uso no local, pode usar a interface do OData ou acessar diretamente o relatório tabelas e modos de exibição no banco de dados ProjectService no farm do SharePoint. Project Online não oferece suporte a um banco de dados multilocatário. Ou seja, várias instâncias do Project Web App cada tem seu próprio banco de dados do Project. O serviço OData internamente executa consultas SQL nas tabelas e modos de exibição de relatórios e fornece uma carga XML ou JSON. Para obter uma introdução ao serviço OData para relatórios no Project Server 2013 e para a referência do esquema **ProjectData** , consulte [ProjectData - Referência de serviço OData do projeto](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx).
+Project Server 2013 introduz um serviço OData para online e acesso local. As tabelas de relatórios online e visualizações são expostas apenas pela interface OData; para uso no local, pode usar a interface do OData ou acessar diretamente o relatório tabelas e modos de exibição no banco de dados ProjectService no farm do SharePoint. Project Online não oferece suporte a um banco de dados multilocatário. Ou seja, várias instâncias do Project Web App cada tem seu próprio banco de dados do Project. O serviço OData internamente executa consultas SQL nas tabelas e modos de exibição de relatórios e fornece uma carga XML ou JSON. Para obter uma introdução ao serviço OData para relatórios no Project Server 2013 e para a referência do esquema **ProjectData** , consulte [ProjectData - Referência de serviço OData do projeto](https://msdn.microsoft.com/library/office/jj163015.aspx).
   
 Para obter informações gerais sobre consultas de OData, consulte [OData: convenções URI](https://www.odata.org/documentation/). Por exemplo, você pode ver todos os projetos em uma instância local do Project Web App, onde o nome do projeto começa com "Test" usando a seguinte consulta em um navegador. Com o botão direito na página do navegador e, em seguida, clique em **Exibir código-fonte**.
   
 ```html
-http://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
+https://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
 ```
 
-Para importar dados do projeto para o PowerPivot no Excel 2013, na faixa de opções dados, selecione o **feed do OData de dados** no menu suspenso **De outras fontes** . Na caixa de diálogo **Assistente para Conexão de dados** , digite http://ServerName/ProjectServerName/_api/ProjectData/ nos dados de local de feed, escolha **Avançar**e, em seguida, selecione a tabela de **projetos** na página **Selecione tabelas** do assistente. Nome e salve o arquivo. odc e, em seguida, escolha **Concluir**. Na caixa de diálogo **Importar dados** , escolha o **Relatório de tabela dinâmica**. Na planilha do Excel, escolha campos para as linhas de tabela dinâmica e colunas que você deseja mostrar.
+Para importar dados do projeto para o PowerPivot no Excel 2013, na faixa de opções dados, selecione o **feed do OData de dados** no menu suspenso **De outras fontes** . Na caixa de diálogo **Assistente para Conexão de dados** , digite https://ServerName/ProjectServerName/_api/ProjectData/ nos dados de local de feed, escolha **Avançar**e, em seguida, selecione a tabela de **projetos** na página **Selecione tabelas** do assistente. Nome e salve o arquivo. odc e, em seguida, escolha **Concluir**. Na caixa de diálogo **Importar dados** , escolha o **Relatório de tabela dinâmica**. Na planilha do Excel, escolha campos para as linhas de tabela dinâmica e colunas que você deseja mostrar.
   
 Os usuários do Project Server no local, que tem as permissões corretas, podem acessar diretamente as tabelas e modos de exibição de relatórios por meio do Microsoft SQL Server para criar relatórios, como faziam no Project Server 2010. No Project Server 2013, os usuários também podem tabelas de relatório do local de acesso por meio da interface de OData. É possível recuperar dados do Project Server online ou local por meio de pontos de extremidade do REST para o serviço OData. Por exemplo, o dbo. Tabela MSP_PROJECT e o dbo. Modo de exibição MSP_EpmProject_UserView pode ser usado para relatórios. Qualquer tabelas ou modos de exibição que têm um `draft`, `pub`, ou `ver` prefixo são apenas para uso interno pelo Project Server e não são para relatórios de uso. Por exemplo, o rascunho. Tabela MSP_TASKS e a publicação. Modo de exibição MSP_PROJECTS_WORKING_VIEW não estão documentadas e são somente para uso interno. 
   
 > [!NOTE]
 > Você pode estender a emissão de relatórios por meio da adição de tabelas, exibições, campos e procedimentos armazenados em um banco de dados separado no local. Você não deve modificar o relatório de tabelas existentes e modos de exibição no banco de dados do Project Server. 
   
-O relatório tabelas, exibições e campos no banco de dados de projeto serão documentados em um arquivo de Ajuda em HTML em uma atualização mais recente do download do SDK do Project 2013. Para obter a documentação do esquema XML de OData para o serviço **ProjectData** , consulte [ProjectData - Referência de serviço OData do projeto](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx). Consultas de relatórios tabelas e modos de exibição que foram criados para o Project Server 2010, na maioria dos casos, funcionará com o banco de dados de projeto no Project Server 2013. Usuários locais podem acessar os cubos OLAP do Project Server no SQL Server Analysis Services, como faziam no momento. Cubos OLAP no Project Online, não estão disponíveis.
+O relatório tabelas, exibições e campos no banco de dados de projeto serão documentados em um arquivo de Ajuda em HTML em uma atualização mais recente do download do SDK do Project 2013. Para obter a documentação do esquema XML de OData para o serviço **ProjectData** , consulte [ProjectData - Referência de serviço OData do projeto](https://msdn.microsoft.com/library/office/jj163015.aspx). Consultas de relatórios tabelas e modos de exibição que foram criados para o Project Server 2010, na maioria dos casos, funcionará com o banco de dados de projeto no Project Server 2013. Usuários locais podem acessar os cubos OLAP do Project Server no SQL Server Analysis Services, como faziam no momento. Cubos OLAP no Project Online, não estão disponíveis.
   
 ### <a name="task-pane-add-ins-in-project"></a>Suplementos do tarefa painel no Project
 <a name="pj15_WhatsNew_Agave"> </a>
@@ -205,7 +205,7 @@ Para uma instalação local do Project Server, você pode criar um receptor de e
 > [!NOTE]
 > Administração Central do SharePoint está disponível somente para instalações locais. Para o Project Online e SharePoint Online, você pode adicionar ou remover os receptores de evento remoto usando um pacote de aplicativos baseados em CSOM. 
   
-Na página manipuladores de eventos no servidor, o processo para adicionar um manipulador de evento local para uma instalação do Project Server no local é quase o mesmo que o processo descrito no tópico [criar um manipulador de eventos do Project Server e registrar um evento](http://msdn.microsoft.com/en-us/library/gg615466.aspx) do Project Server 2010. A diferença é que a página novo manipulador de eventos possui opções adicionais. Por exemplo, escolha a **Criação do projeto** na lista de **eventos** e, em seguida, escolha **Novo MANIPULADOR de eventos**. Na página de manipulador de evento New, os únicos dois necessário campos são **nome** e a **ordem** (consulte a Figura 3). Se você estiver adicionando um manipulador de eventos de confiança total local, adicione os campos **Nome do Assembly** e o **Nome de classe** ; Deixe a **Url do ponto de extremidade** vazio. Se você estiver adicionando um receptor de evento remoto, adicione a **Url de ponto de extremidade**e deixar vazio o **Nome do Assembly** e o **Nome de classe** . 
+Na página manipuladores de eventos no servidor, o processo para adicionar um manipulador de evento local para uma instalação do Project Server no local é quase o mesmo que o processo descrito no tópico [criar um manipulador de eventos do Project Server e registrar um evento](https://msdn.microsoft.com/library/gg615466.aspx) do Project Server 2010. A diferença é que a página novo manipulador de eventos possui opções adicionais. Por exemplo, escolha a **Criação do projeto** na lista de **eventos** e, em seguida, escolha **Novo MANIPULADOR de eventos**. Na página de manipulador de evento New, os únicos dois necessário campos são **nome** e a **ordem** (consulte a Figura 3). Se você estiver adicionando um manipulador de eventos de confiança total local, adicione os campos **Nome do Assembly** e o **Nome de classe** ; Deixe a **Url do ponto de extremidade** vazio. Se você estiver adicionando um receptor de evento remoto, adicione a **Url de ponto de extremidade**e deixar vazio o **Nome do Assembly** e o **Nome de classe** . 
   
 > [!CAUTION]
 > Se você especificar *tanto* o nome de classe de nome/assembly e a URL do ponto de extremidade, Project Server chama somente o local (no local) manipulador de eventos. O receptor de evento remoto será ignorado. 
@@ -225,7 +225,7 @@ Antes de implantar um manipulador de eventos do Project Server, instalar e testa
 > [!NOTE]
 > Para uma instalação do Project Server no local, é recomendável que você migre para receptores de evento remoto usando o CSOM para desenvolver receptores de evento. Porque os receptores de evento remoto não tiver código de terceiros em execução dentro do serviço de eventos do Project Server, os receptores de evento remoto são mais estáveis. Administradores locais são aliviados da responsabilidade para manter o serviço de eventos do Project Server. 
   
-Para obter informações gerais sobre eventos, consulte [manipulação de eventos de aplicativos do SharePoint](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx). 
+Para obter informações gerais sobre eventos, consulte [manipulação de eventos de aplicativos do SharePoint](https://msdn.microsoft.com/library/jj220048%28office.15%29.aspx). 
   
 ## <a name="deprecated-features"></a>Recursos preteridos
 <a name="pj15_WhatsNew_Deprecated"> </a>
@@ -235,11 +235,11 @@ Para obter informações gerais sobre eventos, consulte [manipulação de evento
   
 Recursos preteridos ainda estão disponíveis no Project 2013 para algumas soluções, mas não devem ser usados para o desenvolvimento de novos. A maioria das seguintes práticas recomendadas e recursos não funcionam com o Project Online ou com a instalação do local padrão do Project Server 2013 no modo de permissão do SharePoint. As soluções existentes que usam esses recursos podem não funcionar para uma atualização do Project Server 2010 para o Project Server 2013. Embora não preterido soluções que usam recursos podem continuar a funcionar em alguns casos, eles não são suportados totalmente para todas as instalações do Project 2013.
   
-Se suas soluções usam recursos preteridos, deve ser testadas amplamente antes da implantação, e você deve modificá-los para suporte de usar recursos tão logo que for possível. Para obter informações sobre como configurar a segurança do Project Server 2013 local para o modo de permissão do Project, consulte a seção de *Modo de permissão do SharePoint* no [que há de novo para profissionais de TI no Project Server 2013](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx).
+Se suas soluções usam recursos preteridos, deve ser testadas amplamente antes da implantação, e você deve modificá-los para suporte de usar recursos tão logo que for possível. Para obter informações sobre como configurar a segurança do Project Server 2013 local para o modo de permissão do Project, consulte a seção de *Modo de permissão do SharePoint* no [que há de novo para profissionais de TI no Project Server 2013](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx).
   
 - **Extensões** [Cenários de extensão do PSI](https://msdn.microsoft.com/library/office/ff843378%28v=office.14%29.aspx) são preteridos e não será suportada em versões futuras. Esses cenários do Project Server 2013 local habilitado integração usando serviços personalizados do Windows Communication Foundation (WCF). 
   
-- **Project PSI** A [classe do projeto](https://docs.microsoft.com/en-us/office/client-developer/project/project-psi-reference-overview) do PSI foi preterida. Para todo o desenvolvimento de novo, use o [CSOM do projeto](client-side-object-model-csom-for-project-2013.md). Project Server 2013 aplicativos que usam o Project PSI continuarão a funcionar, mas o Project Online aplicativos precisará Substitua quaisquer métodos da classe do projeto PSI seus métodos CSOM equivalentes.
+- **Project PSI** A [classe do projeto](https://docs.microsoft.com/office/client-developer/project/project-psi-reference-overview) do PSI foi preterida. Para todo o desenvolvimento de novo, use o [CSOM do projeto](client-side-object-model-csom-for-project-2013.md). Project Server 2013 aplicativos que usam o Project PSI continuarão a funcionar, mas o Project Online aplicativos precisará Substitua quaisquer métodos da classe do projeto PSI seus métodos CSOM equivalentes.
   
 - **Planejamento de recursos PSI** O [Recurso planejar PSI](https://msdn.microsoft.com/library/office/websvcresourceplan_di_pj14mref.aspx) foi preterida. Ele continuará a ter suporte para o desenvolvimento do Project 2013, mas não será suportado em versões futuras. 
   
@@ -249,13 +249,13 @@ Se suas soluções usam recursos preteridos, deve ser testadas amplamente antes 
   
 - **Provedor de vínculo de objeto (OLP)** Nas versões anteriores do Project Server, o serviço **ObjectLinkProvider** a PSI (consulte [WebSvcObjectLinkProvider](https://msdn.microsoft.com/library/WebSvcObjectLinkProvider.aspx) ) fornece uma maneira de gerenciar links de objeto da web entre tarefas de projetos da empresa e especializadas listas do SharePoint no site do projeto para problemas, riscos, produtos e documentos. No Project Server 2013, o OLP foi preterido. 
   
-  Você pode usar a classe de **[RelatedItemManager](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.client.relateditemmanager.aspx)** em CSOM do SharePoint para criar, ler e excluir links de objeto da web entre itens da lista de tarefas e as outras listas em um site de projeto. Por exemplo, para adicionar um link de um item de tarefa para um problema, você pode usar o método **[AddSingleLink](http://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.client.relateditemmanager.addsinglelink.aspx)** ou um dos dois métodos semelhantes, **AddSingleLinkFromUrl** ou **AddSingleLinkToUrl**. A classe **RelatedItemManager** também inclui métodos para excluir um link de objeto da web e ler itens relacionados. Para a classe equivalente a JSOM (modelo de objeto JavaScript), consulte [SP. Objeto RelatedItemManager (sp.js)](http://msdn.microsoft.com/en-us/library/jj838582.aspx).
+  Você pode usar a classe de **[RelatedItemManager](https://msdn.microsoft.com/library/microsoft.sharepoint.client.relateditemmanager.aspx)** em CSOM do SharePoint para criar, ler e excluir links de objeto da web entre itens da lista de tarefas e as outras listas em um site de projeto. Por exemplo, para adicionar um link de um item de tarefa para um problema, você pode usar o método **[AddSingleLink](https://msdn.microsoft.com/library/office/microsoft.sharepoint.client.relateditemmanager.addsinglelink.aspx)** ou um dos dois métodos semelhantes, **AddSingleLinkFromUrl** ou **AddSingleLinkToUrl**. A classe **RelatedItemManager** também inclui métodos para excluir um link de objeto da web e ler itens relacionados. Para a classe equivalente a JSOM (modelo de objeto JavaScript), consulte [SP. Objeto RelatedItemManager (sp.js)](https://msdn.microsoft.com/library/jj838582.aspx).
   
-  Recomendamos que você use o CSOM do SharePoint para criar aplicativos de tipo de OLP para uma instalação local do Project Server 2013 e Project Online. O namespace [Microsoft. SharePoint](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.aspx) não inclui um **RelatedItemManager** * * * classe. 
+  Recomendamos que você use o CSOM do SharePoint para criar aplicativos de tipo de OLP para uma instalação local do Project Server 2013 e Project Online. O namespace [Microsoft. SharePoint](https://msdn.microsoft.com/library/microsoft.sharepoint.aspx) não inclui um **RelatedItemManager** * * * classe. 
   
 - **Permissões personalizadas** Permissões de segurança personalizada para acessar recursos específicos do Project Server ou extensões eram suportadas no Office Project Server 2007, onde um artigo SDK explicado como criá-las modificando diretamente o banco de dados publicado. No Project Server 2010, permissões personalizadas ainda funcionam mas são reduzidas. No Project Server 2013, permissões personalizadas não funcionam com o modo de permissão do SharePoint padrão para instalações locais. Para o modo de permissão do Project, permissões personalizadas são aceitos. Com o Project Online, o acesso direto do banco de dados não é possível. 
   
-- **Representação** Representação em aplicativos baseados no PSI, onde o usuário de um aplicativo pode assumir as permissões de segurança de um usuário diferente do Project Server, foi preterida no Project Server 2013. Como anteriormente indicado, um padrão local instalação do Project Server 2013 usa o modo de permissão do SharePoint, que não permitem a representação em grupos de segurança do Project Server. Para obter mais informações, consulte [autenticação, autorização e segurança no SharePoint 2013](http://msdn.microsoft.com/en-us/library/ms457529%28office.15%29.aspx).
+- **Representação** Representação em aplicativos baseados no PSI, onde o usuário de um aplicativo pode assumir as permissões de segurança de um usuário diferente do Project Server, foi preterida no Project Server 2013. Como anteriormente indicado, um padrão local instalação do Project Server 2013 usa o modo de permissão do SharePoint, que não permitem a representação em grupos de segurança do Project Server. Para obter mais informações, consulte [autenticação, autorização e segurança no SharePoint 2013](https://msdn.microsoft.com/library/ms457529%28office.15%29.aspx).
   
   Os aplicativos de status são extensões típicas que possam ter usado representação nas versões anteriores do Project Server. Project Server 2010 introduziu o método **ReadStatusForResource** e o método **SubmitStatusForResource** a PSI, juntamente com a permissão global **StatusBrokerPermission** , eliminava a necessidade de representação ler e atualizar o status em nome de outro usuário. O CSOM no Project Server 2013 usa a PSI subjacente transparente habilitar extensões de status e pode ser usada para instalações locais ou Project Online. 
   
@@ -267,12 +267,12 @@ Se suas soluções usam recursos preteridos, deve ser testadas amplamente antes 
   
 - **Guia do projeto** Guia do projeto é um recurso padrão em aplicativos de desktop Office Project 2007, onde o conteúdo HTML e JavaScript em um painel de tarefas fornece orientação interativa para Criando e gerenciando projetos. No Project 2010, o guia do projeto não está disponível em uma instalação padrão, mas pode ser habilitado por meio de VBA ou um suplemento do VSTO. O download do SDK do Project 2010 inclui os arquivos modificados do guia do projeto. 
   
-  O modelo de objeto do VBA e o modelo de objeto **Microsoft.Office.Interop.MSProject** no Project 2013 ainda incluem os 22 membros da classe **Application** e a classe do **projeto** que pode gerenciar o guia do projeto. No entanto, Project 2013, aplicativos de painel de tarefas podem entrar em conflito com as ações em um painel de tarefas do guia do projeto e o conteúdo do guia do projeto não pode ser distribuído facilmente ou vendidos no Office Store. É altamente recomendável que você desenvolva soluções do painel de tarefa de projeto com suplementos do Office, o conteúdo não personalizado do guia do projeto. Para obter mais informações sobre o guia do projeto, consulte a [Documentação do SDK do Project 2010](http://msdn.microsoft.com/en-us/library/ms512767.aspx).
+  O modelo de objeto do VBA e o modelo de objeto **Microsoft.Office.Interop.MSProject** no Project 2013 ainda incluem os 22 membros da classe **Application** e a classe do **projeto** que pode gerenciar o guia do projeto. No entanto, Project 2013, aplicativos de painel de tarefas podem entrar em conflito com as ações em um painel de tarefas do guia do projeto e o conteúdo do guia do projeto não pode ser distribuído facilmente ou vendidos no Office Store. É altamente recomendável que você desenvolva soluções do painel de tarefa de projeto com suplementos do Office, o conteúdo não personalizado do guia do projeto. Para obter mais informações sobre o guia do projeto, consulte a [Documentação do SDK do Project 2010](https://msdn.microsoft.com/library/ms512767.aspx).
   
 ## <a name="comparing-project-server-on-premises-with-project-online"></a>Comparando o Project Server local com o Project Online
 <a name="pj15_WhatsNew_Comparing"> </a>
 
-Para ajudá-lo a decidir se deseja usar o Project Server no local ou Project Online e quais tipos de extensões, você pode desenvolver em ambos os casos, a tabela 2 compara os recursos extensíveis de uma instalação local do Project Server 2013 com o Project Online. Tabela 2 não inclui diferenças na implantação, administração e uso. Para obter mais informações sobre o Project Online e Project Server 2013, consulte [Project 2013 para desenvolvedores](http://msdn.microsoft.com/en-US/office/fp161502) e [Project Online](https://developer.microsoft.com/en-us/project).
+Para ajudá-lo a decidir se deseja usar o Project Server no local ou Project Online e quais tipos de extensões, você pode desenvolver em ambos os casos, a tabela 2 compara os recursos extensíveis de uma instalação local do Project Server 2013 com o Project Online. Tabela 2 não inclui diferenças na implantação, administração e uso. Para obter mais informações sobre o Project Online e Project Server 2013, consulte [Project 2013 para desenvolvedores](https://msdn.microsoft.com/office/fp161502) e [Project Online](https://developer.microsoft.com/en-us/project).
   
 **Tabela 2. Local de extensibilidade do Project Server e Project Online**
 
@@ -295,20 +295,20 @@ A introdução das CSOM do permite acesso programático ao Project Online para u
   
 Suplementos do Office fornecem um novo canal para venda de soluções e integrar o Project Standard 2013 com o conteúdo da web e outros produtos do Office 2013. Também é possível criar novas maneiras de integrar o Project Professional 2013 com dados do Project Server e listas do SharePoint por meio do painel de tarefas suplementos do Office.
   
-Para obter mais informações sobre como desenvolver aplicativos e usar os recursos de programação e o CSOM do SharePoint Server 2013, consulte [SharePoint para desenvolvedores](http://msdn.microsoft.com/en-US/sharepoint) e do [Office para desenvolvedores](http://msdn.microsoft.com/en-US/office).
+Para obter mais informações sobre como desenvolver aplicativos e usar os recursos de programação e o CSOM do SharePoint Server 2013, consulte [SharePoint para desenvolvedores](https://msdn.microsoft.com/sharepoint) e do [Office para desenvolvedores](https://msdn.microsoft.com/office).
   
 ## <a name="see-also"></a>Confira também
 
 - [Arquitetura do Project Server 2013](project-server-2013-architecture.md)  
 - [Tarefas de programação do Project](project-programming-tasks.md) 
 - [Modelo de objeto do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md) 
-- [ProjectData - referência do serviço OData do Project](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
+- [ProjectData - referência do serviço OData do Project](https://msdn.microsoft.com/library/office/jj163015.aspx)  
 - [Suplementos do painel de tarefas para Project](task-pane-add-ins-for-project.md)   
-- [OData: Convenções URI](http://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
-- [SharePoint para desenvolvedores](http://msdn.microsoft.com/en-US/sharepoint)    
-- [Office para desenvolvedores](http://msdn.microsoft.com/en-US/office)   
-- [Manipulação de eventos em aplicativos do SharePoint](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx)   
-- [Office Store](http://office.microsoft.com/en-us/store/)   
+- [OData: Convenções URI](https://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
+- [SharePoint para desenvolvedores](https://msdn.microsoft.com/sharepoint)    
+- [Office para desenvolvedores](https://msdn.microsoft.com/office)   
+- [Manipulação de eventos em aplicativos do SharePoint](https://msdn.microsoft.com/library/jj220048%28office.15%29.aspx)   
+- [Office Store](https://office.microsoft.com/en-us/store/)   
 - [Project Online](https://developer.microsoft.com/en-us/project)
     
 

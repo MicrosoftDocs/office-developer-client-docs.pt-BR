@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30fdfb20-1e12-442a-bfa0-8c18c15fa5c3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 32dddc77eee2e16dddb57f29bdb836d5962e29d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 83f3c0559a3317de3789f8c93d024f08ada3e735
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567451"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399022"
 ---
 # <a name="pidlidpostaladdressid-canonical-property"></a>Propriedade canônica PidLidPostalAddressId
 
@@ -37,7 +37,7 @@ Especifica o endereço físico que é o endereço de correspondência do contato
    
 ## <a name="remarks"></a>Comentários
 
-Se houver, esta propriedade deve ter um dos valores especificados na tabela a seguir ou em [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx). Se não estiver definida, o aplicativo deve presumir que o valor é "0x00000000".
+Se houver, esta propriedade deve ter um dos valores especificados na tabela a seguir ou em [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx). Se não estiver definida, o aplicativo deve presumir que o valor é "0x00000000".
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
@@ -50,11 +50,11 @@ Se houver, esta propriedade deve ter um dos valores especificados na tabela a se
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: e6b3ef7c7eb469a5de909d440e22e522218a41f8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 066ad3dfb64161e326b92fef7774d5b3b9461d8a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569488"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399564"
 ---
 # <a name="tnef-processing"></a>Processamento TNEF
 
@@ -35,7 +35,7 @@ A série de ações a seguir descreve como transportes usam os métodos TNEF par
     
 5. Uso [ITnef: IUnknown](itnefiunknown.md) métodos para inserir marcações descrevendo as posições das anexos de mensagens no texto da mensagem de interface. 
     
-6. Acessar o texto da mensagem marcados por meio dos métodos [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) e enviá-la para o sistema de mensagens. 
+6. Acessar o texto da mensagem marcados por meio dos métodos [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) e enviá-la para o sistema de mensagens. 
     
  **Para recuperar as propriedades encapsuladas**
   

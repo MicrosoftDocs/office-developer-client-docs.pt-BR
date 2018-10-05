@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d2926b09dd3dfd89ab771206e0c8848415238eba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585476"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398070"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>Propriedade canônica PidTagAttachDataObject
 
@@ -48,13 +48,13 @@ Para um objeto de armazenamento, como um arquivo composto no formato de arquivo 
   
 Se o aplicativo cliente ou o provedor de serviço não pode abrir um Subobjeto anexo usando **PR_ATTACH_DATA_OBJ** com a Ajuda de **PR_ATTACH_METHOD**, ele deve usar **PR_ATTACH_DATA_BIN**. 
   
-Para obter mais informações sobre formatos e interfaces OLE, consulte [OLE e transferência de dados](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
+Para obter mais informações sobre formatos e interfaces OLE, consulte [OLE e transferência de dados](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

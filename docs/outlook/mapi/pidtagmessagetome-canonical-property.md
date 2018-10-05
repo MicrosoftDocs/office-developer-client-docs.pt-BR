@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 51a8f1768f9b4ed859989058c66044c807068386
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96a0b010a8ba26a0c1b0cb409f1aaabb308a1c01
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583929"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400639"
 ---
 # <a name="pidtagmessagetome-canonical-property"></a>Propriedade canônica PidTagMessageToMe
 
@@ -48,11 +48,11 @@ As mensagens não enviadas geralmente não definir essa propriedade, **PR_MESSAG
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
     

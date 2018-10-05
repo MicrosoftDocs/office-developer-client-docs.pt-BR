@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
-description: Contém os elementos para criar vários saltos entre uma forma ou um site da Web e outra página de desenho, outro arquivo ou página de desenho.
-ms.openlocfilehash: ea2428ffbefa9ac2bf592e37d10c0089e72f6ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contém os elementos para criar vários saltos entre uma forma ou um site e outra página de desenho, outro arquivo ou página de desenho.
+ms.openlocfilehash: 16935e463e76e0f0ee72b3fa40964551cf125cdd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772804"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400030"
 ---
 # <a name="row-element-hyperlink-section-visio-xml"></a>Elemento de linha (seção de hiperlink) ('Visio XML')
 
-Contém os elementos para criar vários saltos entre uma forma ou um site da Web e outra página de desenho, outro arquivo ou página de desenho.
+Contém os elementos para criar vários saltos entre uma forma ou um site e outra página de desenho, outro arquivo ou página de desenho.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
    
@@ -42,7 +42,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Seção](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contém os elementos para criar vários saltos entre uma forma ou um site da Web e outra página de desenho, outro arquivo ou página de desenho.  <br/> |
+|[Seção](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contém os elementos para criar vários saltos entre uma forma ou um site e outra página de desenho, outro arquivo ou página de desenho.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

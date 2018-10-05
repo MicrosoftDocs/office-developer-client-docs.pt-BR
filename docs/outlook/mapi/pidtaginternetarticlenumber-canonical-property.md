@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c27e320341f2e2072fa45828263e2cb3873f6ad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb6e082e4ef284c2e269cd587102995f75f7e344
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584209"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400625"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Propriedade canônica PidTagInternetArticleNumber
 
@@ -42,11 +42,11 @@ Em repositórios de mensagem IMAPI, essa propriedade corresponde ao UID IMAPI.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Define as estruturas de dados básicos que são usadas em operações remotas.
     

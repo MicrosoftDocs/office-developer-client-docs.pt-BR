@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e72c947a6e0d4052d3335c3e3cfaf5ffb94da669
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 66ba27d1d333be3217f2a22ca5d53449372c1f31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593001"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399232"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
@@ -39,7 +39,7 @@ HRESULT Logoff(
   
 > [in] Reservado; deve ser um ponteiro para zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -51,7 +51,7 @@ Provedores de armazenamento de mensagem implementam o método **IMSLogon::Logoff
   
 - Enquanto está fazendo logon fora de um cliente MAPI após uma chamada para o método [IMAPISession::Logoff](imapisession-logoff.md) . 
     
-- Enquanto o MAPI é fazer logoff de um provedor de armazenamento de mensagem. Nesse caso, **IMSLogon::Logoff** é chamado como parte do MAPI processar o método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) do objeto de suporte que o provedor de armazenamento de mensagem cria enquanto ele está processando uma [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) ou **IUnknown:: Versão** chamada de método em um objeto de repositório de mensagem. 
+- Enquanto o MAPI é fazer logoff de um provedor de armazenamento de mensagem. Nesse caso, **IMSLogon::Logoff** é chamado como parte do MAPI processar o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do objeto de suporte que o provedor de armazenamento de mensagem cria enquanto ele está processando uma [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) ou **IUnknown:: Versão** chamada de método em um objeto de repositório de mensagem. 
     
 ## <a name="see-also"></a>Confira também
 

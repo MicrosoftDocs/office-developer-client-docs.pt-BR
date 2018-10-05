@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398119"
 ---
 # <a name="dntbl"></a>DNTBL
  
@@ -75,11 +75,11 @@ _pstmReserved4_
     
 _pxicc_
   
->  [out] Ponteiro para a interface de conteúdo **IExchangeImportContentsChanges** que suporta o download de alterações de conteúdo. Para obter mais informações sobre **IExchangeImportContentsChanges**, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Ponteiro para a interface de conteúdo **IExchangeImportContentsChanges** que suporta o download de alterações de conteúdo. Para obter mais informações sobre **IExchangeImportContentsChanges**, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   
->  [out] Ponteiro para a interface de hierarquia de **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para obter mais informações sobre **IExchangeImportHierarchyChanges**, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Ponteiro para a interface de hierarquia de **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para obter mais informações sobre **IExchangeImportHierarchyChanges**, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pszName_
   
@@ -91,7 +91,7 @@ _ftLastMod_
     
 _ulRights_
   
->  [out] Valor da propriedade **[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** da pasta. 
+>  [out] Valor da propriedade **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** da pasta. 
     
 _feid_
   
@@ -103,7 +103,7 @@ _uintReserved_
     
 _rgte_
   
-> [out] Alterações para normal (ou não ocultos) e os itens associados (ou ocultos).  *rgte [0]* é para itens normais e *rgte [1]* é para itens associados. Outlook preenche este membro durante o download ao usar a sincronização de alteração Incremental (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+> [out] Alterações para normal (ou não ocultos) e os itens associados (ou ocultos).  *rgte [0]* é para itens normais e *rgte [1]* é para itens associados. Outlook preenche este membro durante o download ao usar a sincronização de alteração Incremental (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _lpsrReserved_
   

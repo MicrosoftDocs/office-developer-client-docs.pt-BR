@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1dd7a23bbd643b496b7634b6ad0230c806585f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572218"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398602"
 ---
 # <a name="tracking-conversations"></a>Acompanhar conversas
 
@@ -47,7 +47,7 @@ Cada bloco filho é composto de 5 bytes, divididos como segue:
     
 - Bits de trinta um contendo a diferença entre a hora atual e a hora no bloco de cabeçalho expressado em unidades de **FILETIME** . Esta parte do bloco filho é produzida usando uma das duas estratégias, dependendo do valor da primeiro estará definido o bit. Se esse bit for zero, **ScCreateConversationIndex** descarta os bits de 15 altos e 18 bits baixos. Se esse bit é aquele, a função descarta os 10 bits altos e os bits de 23 baixos. 
     
-- Quatro bits contendo um número aleatório gerado da função Win32 [GetTickCount](http://msdn.microsoft.com/en-us/library/ms724408%28VS.85%29.aspx).
+- Quatro bits contendo um número aleatório gerado da função Win32 [GetTickCount](https://msdn.microsoft.com/library/ms724408%28VS.85%29.aspx).
     
 - Quatro bits contendo uma contagem de sequência é obtida a parte do número aleatório.
     

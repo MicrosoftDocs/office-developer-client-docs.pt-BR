@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7319f1abb4a74ee17b0a4a1220215c29434d256b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571077"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398399"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
@@ -85,7 +85,7 @@ MAPI_NOREPLACE
   
 > [além, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; Caso contrário, **null**, indicando que não há nenhuma necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **CopyProps** retorna informações detalhadas sobre erros no copiando uma ou mais propriedades. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -135,7 +135,7 @@ O método **IMAPIProp::CopyProps** copia ou move propriedades selecionadas do ob
   
 Qualquer subobjetos no objeto de origem automaticamente estão incluídos na operação e copiados ou movidos na íntegra, independentemente do uso das propriedades indicados pela estrutura [SPropTagArray](sproptagarray.md) . Por padrão, **CopyProps** substitui quaisquer propriedades no objeto de destino que corresponde às propriedades do objeto de origem. Se qualquer uma das propriedades movidas ou copiadas já existir no objeto de destino, as propriedades existentes são sobrescritas por novas propriedades, exceto se o sinalizador MAPI_NOREPLACE estiver definido no parâmetro _ulFlags_ . As informações existentes no objeto de destino que não será substituído são permanecem inalteradas. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você pode fornecer uma implementação total de **CopyProps** ou baseiam-se na implementação de MAPI fornece em seu objeto de suporte. Se você quiser usar a implementação de MAPI, chame o método de **IMAPISupport::DoCopyProps** . No entanto, se você delega o processamento para **DoCopyProps** e você é passadas o sinalizador MAPI_DECLINE_OK, evitar a chamada de suporte e retornar MAPI_E_DECLINE_COPY em vez disso. Você será chamado com esse sinalizador por MAPI para evitar a recursão possível que pode ocorrer quando você copia pastas. 
   
@@ -157,7 +157,7 @@ Se **CopyProps** Retorna S_OK, livre a estrutura de **SPropProblemArray** retorn
   
 Se você estiver copiando propriedades que são exclusivas para o tipo de objeto de origem, você deve garantir que o objeto de destino é do mesmo tipo. **CopyProps** não impede que você associar propriedades que geralmente pertencem a um tipo de objeto com outro tipo de objeto. Cabe a você copie as propriedades que fazem sentido para o objeto de destino. Por exemplo, você não deve copiar propriedades da mensagem para um contêiner de catálogo de endereços. 
   
-Para garantir que você está copiando entre os objetos do mesmo tipo, verifique se o objeto de origem e destino são do mesmo tipo, por comparando ponteiros de objeto ou chamar o método [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Defina o identificador de interface apontado pela _lpInterface_ para a interface padrão para o objeto de origem. Além disso, certifique-se de que o tipo de objeto ou a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) é o mesmo para os dois objetos. Por exemplo, se você está copiando uma mensagem, defina _lpInterface_ IID_IMessage e o **PR_OBJECT_TYPE** para ambos os objetos para MAPI_MESSAGE. 
+Para garantir que você está copiando entre os objetos do mesmo tipo, verifique se o objeto de origem e destino são do mesmo tipo, por comparando ponteiros de objeto ou chamar o método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Defina o identificador de interface apontado pela _lpInterface_ para a interface padrão para o objeto de origem. Além disso, certifique-se de que o tipo de objeto ou a propriedade **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) é o mesmo para os dois objetos. Por exemplo, se você está copiando uma mensagem, defina _lpInterface_ IID_IMessage e o **PR_OBJECT_TYPE** para ambos os objetos para MAPI_MESSAGE. 
   
 Se um ponteiro inválido é passado no parâmetro _lpDestObj_ , os resultados serão imprevisíveis. 
   
@@ -165,11 +165,11 @@ Para copiar a lista de destinatários da mensagem, chame o método **CopyProps**
   
 Para copiar uma pasta, a hierarquia do contêiner de catálogo de endereços ou a tabela de conteúdo, incluem o **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou propriedades **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) o matriz de marca de propriedade. Para incluir a tabela de conteúdo associado de uma pasta, inclua a propriedade **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) na matriz. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI usa o método **IMAPIProp::CopyProps** para copiar propriedades nomeadas de uma mensagem para outro.  <br/> |
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI usa o método **IMAPIProp::CopyProps** para colar uma propriedade que foi copiada de outro objeto.  <br/> |
@@ -213,5 +213,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

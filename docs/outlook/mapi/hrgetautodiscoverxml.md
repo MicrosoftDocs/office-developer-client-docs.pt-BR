@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584062"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400716"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
@@ -32,8 +32,8 @@ Retorna um fluxo de Extensible Markup Language (XML) que representa as informaç
 |||
 |:-----|:-----|
 |Exportá-los por:  <br/> |olmapi32.dll  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrGetAutoDiscoverXML( 
@@ -65,7 +65,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [out] Um ponteiro para um objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) que contém a XML de descoberta automática. Retorna **null** se a operação de descoberta automática falhar. Você deve liberar o objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) quando terminar com ele. 
+> [out] Um ponteiro para um objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que contém a XML de descoberta automática. Retorna **null** se a operação de descoberta automática falhar. Você deve liberar o objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) quando terminar com ele. 
     
 ## <a name="return-values"></a>Valores de retorno
 
@@ -75,7 +75,7 @@ S_OK
     
 E_INVALIDARG 
   
--  _pwzAddress_ é **Nulo** ou não é um endereço SMTP válido, ou _ppXmlStream_ é um ponteiro **Nulo** para um objeto [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) . 
+-  _pwzAddress_ é **Nulo** ou não é um endereço SMTP válido, ou _ppXmlStream_ é um ponteiro **Nulo** para um objeto [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . 
     
 E_NOT_FOUND 
   

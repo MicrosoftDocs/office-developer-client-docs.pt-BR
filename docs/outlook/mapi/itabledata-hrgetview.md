@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 375a0f1d39b09b7ad453120f20752e00ffda0e15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398707"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
@@ -54,7 +54,7 @@ HRESULT HrGetView(
   
 > [out] Um ponteiro para um ponteiro para o modo de exibição recém-criado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -64,7 +64,7 @@ S_OK
 
 O método **ITableData::HrGetView** cria uma exibição somente leitura dos dados na tabela, classificada na ordem apontada pelo parâmetro _lpSSortOrderSet_ . O cursor é colocado no início da primeira linha no modo de exibição. Uma implementação de interface **IMAPITable** para acessar o modo de exibição será retornada. 
   
-Provedores de serviços de chamarem **HrGetView** sempre que precisarem dar um acesso para cliente a uma tabela. **HrGetView** cria o modo de exibição e retorna o ponteiro **IMAPITable** . Provedores de serviços por sua vez passam o ponteiro para o cliente. Quando o cliente for concluído, usando a tabela e chama o método [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** chama a função de retorno de chamada apontada pelo parâmetro _lpfCallerRelease_ . 
+Provedores de serviços de chamarem **HrGetView** sempre que precisarem dar um acesso para cliente a uma tabela. **HrGetView** cria o modo de exibição e retorna o ponteiro **IMAPITable** . Provedores de serviços por sua vez passam o ponteiro para o cliente. Quando o cliente for concluído, usando a tabela e chama o método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** chama a função de retorno de chamada apontada pelo parâmetro _lpfCallerRelease_ . 
   
 Se precisa de um provedor de serviços retornar a um cliente de um modo de exibição que tenha uma coluna personalizada definida ou uma restrição, o provedor pode chamar métodos do modo de exibição de [IMAPITable::SetColumns](imapitable-setcolumns.md) e [IMAPITable:: Restrict](imapitable-restrict.md) antes de permitir o acesso do cliente. 
   

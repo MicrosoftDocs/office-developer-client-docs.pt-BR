@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Aprenda a usar CSISyncClient para controlar o Cache de documentos do Office (ODC).
-ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565281"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399449"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Usando CSISyncClient para controlar o Cache de documentos do Office (ODC)
 
@@ -202,7 +202,7 @@ Identifica o consumidor e qual armazenar em cache para usar. Deve ser não vazia
   
  _bstrProgID_
   
-Identifica o objeto de COM do consumidor para comunicação bidirecional. Deve ser não vazias com um máximo de 39 caracteres. Consulte [ \<ProgID\> chave](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) para obter mais informações sobre ProgIDs. 
+Identifica o objeto de COM do consumidor para comunicação bidirecional. Deve ser não vazias com um máximo de 39 caracteres. Consulte [ \<ProgID\> chave](https://docs.microsoft.com/windows/desktop/com/-progid--key) para obter mais informações sobre ProgIDs. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -248,7 +248,7 @@ Uma cadeia de caracteres que identifica o ResourceID do arquivo. Este valor deve
   
  _bstrWebPath_
   
-Uma cadeia de caracteres que identifica o arquivo no servidor. Este valor deve ser uma URL não vazias, válida, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela http://support.microsoft.com/kb/208427. 
+Uma cadeia de caracteres que identifica o arquivo no servidor. Este valor deve ser uma URL não vazias, válida, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela https://support.microsoft.com/kb/208427. 
   
 ##### <a name="return-values"></a>Valores de retorno
 
@@ -287,7 +287,7 @@ Uma cadeia de caracteres que especifica o novo caminho local para o arquivo. Est
   
  _bstrNewWebPath_
   
-Uma cadeia de caracteres que especifica a nova URL para o arquivo. Este valor deve ser um URL válido do não vazias, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela http://support.microsoft.com/kb/208427. 
+Uma cadeia de caracteres que especifica a nova URL para o arquivo. Este valor deve ser um URL válido do não vazias, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela https://support.microsoft.com/kb/208427. 
   
  _fBlockUploads_
   
@@ -340,7 +340,7 @@ Esse método permitirá que downloads se ela foi marcada como downloads bloquead
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |Uma cadeia de caracteres que identifica o arquivo no cliente. Este valor deve ser um caminho de local não vazias com um máximo de 256 caracteres. Esse caminho deve estar na árvore de pastas especificada pelo FileSystemDirectoryHint quando a chamada para inicializar foi feita.  <br/> |
 |bstrResourceID  <br/> |Uma cadeia de caracteres que identifica o ResourceID do arquivo. Este valor deve ser não vazias com um máximo de 128 caracteres.  <br/> |
-|bstrWebPath  <br/> |Uma cadeia de caracteres que identifica o arquivo no servidor. Este valor deve ser uma URL válida não vazias, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela http://support.microsoft.com/kb/208427.  <br/> |
+|bstrWebPath  <br/> |Uma cadeia de caracteres que identifica o arquivo no servidor. Este valor deve ser uma URL válida não vazias, mas não tenha mais de INTERNET_MAX_URL_LENGTH, conforme definido pela https://support.microsoft.com/kb/208427.  <br/> |
    
 ##### <a name="return-values"></a>Valores de retorno
 
@@ -414,7 +414,7 @@ Descarrega o cache do objeto COM e realizar operações de fechamento. [ILSCLoca
 
 ##### <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhum.
   
 ##### <a name="return-values"></a>Valores de retorno
 
@@ -457,7 +457,7 @@ Redefine o enumerador para o primeiro evento.
 
 ##### <a name="parameters"></a>Parâmetros
 
-Nenhum
+Nenhum.
   
 ##### <a name="return-values"></a>Valores de retorno
 

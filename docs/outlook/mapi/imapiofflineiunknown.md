@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 616bb4774e2ca5385e7da867477cb8849d94336b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20d8c39765b0dbbfdde530361894d0a27876010a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568382"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401276"
 ---
 # <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
@@ -30,7 +30,7 @@ Fornece informações para um objeto offline.
 |||
 |:-----|:-----|
 |Provided by:  <br/> |Consulta em [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIOffline  <br/> |
    
 ## <a name="vtable-order"></a>Ordem vtable
@@ -44,7 +44,7 @@ Fornece informações para um objeto offline.
    
 ## <a name="remarks"></a>Comentários
 
-Um cliente usa **[HrOpenOfflineObj](hropenofflineobj.md)** abrir e obter um objeto offline que ofereça suporte a **IMAPIOfflineMgr**. Como **IMAPIOfflineMgr** herda de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx), o cliente pode consultar a esta interface (usando [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)) para obter um ponteiro para o ponteiro de interface **IMAPIOffline** para o objeto offline. O cliente pode então obter ou definir o estado atual do objeto, ou Saiba mais sobre os recursos de retorno de chamada do objeto (chamando **IMAPIOffline::GetCapabilities** ) e optar por configurar retornos de chamada usando **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
+Um cliente usa **[HrOpenOfflineObj](hropenofflineobj.md)** abrir e obter um objeto offline que ofereça suporte a **IMAPIOfflineMgr**. Como **IMAPIOfflineMgr** herda de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx), o cliente pode consultar a esta interface (usando [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) para obter um ponteiro para o ponteiro de interface **IMAPIOffline** para o objeto offline. O cliente pode então obter ou definir o estado atual do objeto, ou Saiba mais sobre os recursos de retorno de chamada do objeto (chamando **IMAPIOffline::GetCapabilities** ) e optar por configurar retornos de chamada usando **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
 Um membro nesta interface é um espaço reservado reservado para uso interno do Microsoft Outlook 2013 e está sujeita a alterações. Outros membros nessa interface devem ser usados apenas como documentado. 
   

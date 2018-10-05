@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 30ee7c1a7eb86fd4cdfe90fb6711bd1b295fd5e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591083"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398021"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Propriedade canônica PidTagDeferredSendNumber
 
@@ -44,7 +44,7 @@ O valor **PR_DEFERRED_SEND_NUMBER** deve ser definido entre 0 e 999.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     

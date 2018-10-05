@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: Encontre links para informações nesta seção sobre as principais partes da plataforma do Project 2013, Introdução ao desenvolvimento de CSOM usando JavaScript e o .NET Framework, tarefa painel complementos no Project Professional 2013, a Interface do Project Server e o Serviço de relatório de OData.
-ms.openlocfilehash: e19fae2a187a9a4f809eaec4d8dade128b9529bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e09df20f435816444b656927d4f6f0ebf6c38731
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570300"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401591"
 ---
 # <a name="project-conceptual-and-how-to-articles"></a>Artigos de conceituais e instruções do Project
 
@@ -27,7 +27,7 @@ Project Server 2013 baseia-se na estrutura do serviço web do Project Server Int
   
 - [O modelo de objeto do lado do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md) inclui tópicos de Introdução ao desenvolvimento de CSOM usando JavaScript e o .NET Framework. 
   
-- [Programação do cliente Project](project-client-programming.md) inclui uma introdução aos suplementos de painel de tarefas no Project Professional 2013. Um SDK separado inclui artigos e referências para suplementos no projeto e os outros clientes do Office 2013. Para obter mais informações, consulte a documentação do desenvolvedor de [suplementos do Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins) . 
+- [Programação do cliente Project](project-client-programming.md) inclui uma introdução aos suplementos de painel de tarefas no Project Professional 2013. Um SDK separado inclui artigos e referências para suplementos no projeto e os outros clientes do Office 2013. Para obter mais informações, consulte a documentação do desenvolvedor de [suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) . 
   
 - [Tarefas de programação do Project](project-programming-tasks.md) mostra como desenvolver suplementos para o Project 2013, criar fluxos de trabalho para gerenciamento de demanda, personalizar a faixa de opções do Project Web App, criar Web Parts e muito mais. 
   
@@ -35,6 +35,6 @@ Project Server 2013 baseia-se na estrutura do serviço web do Project Server Int
   
 ## <a name="see-also"></a>Confira também
 
-- [Referência de serviço web e biblioteca de classe do Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
+- [Referência de serviço web e biblioteca de classe do Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
   
 

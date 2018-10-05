@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe3a76fa246cba9447db2f99562670973af183ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398392"
 ---
 # <a name="loading-message-store-providers"></a>Carregar provedores do repositório de mensagens
 
@@ -33,7 +33,7 @@ A sequência de chamadas quando um provedor de mensagem que dll é carregada é 
     
 4. Chamadas de MAPI [IMSProvider::Logon](imsprovider-logon.md), passando o identificador de entrada de repositório de mensagens do aplicativo cliente.
     
-5. **IMSProvider::Logon** cria e retorna um [IMSLogon: IUnknown](imslogoniunknown.md) interface e um [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) interface e, em seguida, chama o método [AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) em seu [IMAPISupport: IUnknown](imapisupportiunknown.md) interface. Se a mensagem do cliente armazena o identificador de entrada se refere a um armazenamento de mensagens que já está aberto, o provedor de armazenamento de mensagens pode retornar as interfaces **IMSLogon** e **IMsgStore** existentes e não precisam chamar **AddRef** em seu objeto de suporte. 
+5. **IMSProvider::Logon** cria e retorna um [IMSLogon: IUnknown](imslogoniunknown.md) interface e um [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) interface e, em seguida, chama o método [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) em seu [IMAPISupport: IUnknown](imapisupportiunknown.md) interface. Se a mensagem do cliente armazena o identificador de entrada se refere a um armazenamento de mensagens que já está aberto, o provedor de armazenamento de mensagens pode retornar as interfaces **IMSLogon** e **IMsgStore** existentes e não precisam chamar **AddRef** em seu objeto de suporte. 
     
 6. Se o cliente não definir o sinalizador MAPI_NO_MAIL quando ele conectado e ele não definiu a MDB_NO_MAIL na etapa 1, MAPI dá identificador de entrada do armazenamento de mensagens para o spooler MAPI modo o MAPI spooler pode fazer logon no armazenamento de mensagens.
     

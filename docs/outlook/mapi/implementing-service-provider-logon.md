@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589550"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401640"
 ---
 # <a name="implementing-service-provider-logon"></a>Implementar o logon do provedor de serviços
 
@@ -29,7 +29,7 @@ MAPI chama um método em seu objeto provedor para começar o processo de logon u
     
 Execute as seguintes tarefas em qualquer método de logon que você implementar:
   
-1. Incrementa a contagem de referência no objeto suporte que é passada como um parâmetro de entrada chamando o método [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) . 
+1. Incrementa a contagem de referência no objeto suporte que é passada como um parâmetro de entrada chamando o método [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) . 
     
 2. Chame o suporte ao método do objeto [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para acessar a seção de perfil. 
     

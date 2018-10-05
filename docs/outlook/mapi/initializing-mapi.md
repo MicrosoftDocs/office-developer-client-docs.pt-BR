@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574787"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399036"
 ---
 # <a name="initializing-mapi"></a>Iniciar MAPI
 
@@ -33,7 +33,7 @@ Todos os aplicativos de cliente que usam as bibliotecas MAPI devem chamar a fun�
     
 - MAPI_NO_COINIT
     
-    Defina o sinalizador MAPI_NO_COINT para que **MAPIInitialize** não tenta inicializar COM uma chamada a [CoInitialize](http://msdn.microsoft.com/en-us/library/ms886303.aspx). Se uma estrutura **MAPIINIT_0** é passada para **MAPIInitialize** com _ulFlags_ definido como MAPI_NO_COINIT, MAPI partirá do pressuposto de que COM já foi inicializado e ignorar a chamada para **CoInitialize**.
+    Defina o sinalizador MAPI_NO_COINT para que **MAPIInitialize** não tenta inicializar COM uma chamada a [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Se uma estrutura **MAPIINIT_0** é passada para **MAPIInitialize** com _ulFlags_ definido como MAPI_NO_COINIT, MAPI partirá do pressuposto de que COM já foi inicializado e ignorar a chamada para **CoInitialize**.
     
 Se o sinalizador MAPI_MULTITHREAD_NOTIFICATIONS não for passado, MAPI cria a janela de notificação no thread que foi usada para a primeira chamada de **MAPIInitialize** . MAPI cria a janela de notificação em um segmento separado se passar MAPI_MULTITHREAD_NOTIFICATIONS — um thread dedicada para manipular notificações. MAPI espera o segmento que é usado para criar a janela de notificação oculto para: 
   

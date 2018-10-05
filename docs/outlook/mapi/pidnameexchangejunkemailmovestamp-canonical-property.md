@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1312f590dfc0e8388495351dd4870fcf8b9e22f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07acfd8715dccad8833ee14ac8e573fb995539ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591363"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399697"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Propriedade canônica PidNameExchangeJunkEmailMoveStamp
 
@@ -31,7 +31,7 @@ Contém o valor de persistente de mensagem que indica que a mensagem não deve s
 |:-----|:-----|
 |Nomes amigáveis:  <br/> |Nenhum  <br/> |
 |Propriedade definida:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nome da propriedade:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|Nome da propriedade:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensagens seguras  <br/> |
    
@@ -43,15 +43,15 @@ Essa propriedade é marcada em todas as mensagens que é movida pela regra de li
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
     
-[[MS-OXORSS]](http://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que representam os itens RSS.
     
