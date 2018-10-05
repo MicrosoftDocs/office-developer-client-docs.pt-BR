@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 'Modificado pela última vez: 21 de fevereiro de 2012'
-ms.openlocfilehash: 6957888f6727175d73d277cf4f5b84dc234d22ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570034"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385512"
 ---
-# <a name="mnlswidechartomultibyte"></a><span data-ttu-id="75da6-103">MNLS_WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="75da6-103">MNLS_WideCharToMultiByte</span></span>
+# <a name="mnlswidechartomultibyte"></a><span data-ttu-id="c8d97-103">MNLS_WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="c8d97-103">MNLS_WideCharToMultiByte</span></span>
 
   
   
-<span data-ttu-id="75da6-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="75da6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8d97-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8d97-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="75da6-105">Essa função é semelhante ao **WideCharToMultiByte**, que mapeia uma cadeia de caracteres UTF-16 (caracteres longa) para uma nova cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="75da6-105">This function is similar to **WideCharToMultiByte**, which maps a UTF-16 (wide character) string to a new character string.</span></span> <span data-ttu-id="75da6-106">A nova cadeia de caracteres não é necessariamente a partir de um caractere multibyte definida.</span><span class="sxs-lookup"><span data-stu-id="75da6-106">The new character string is not necessarily from a multibyte character set.</span></span>
+<span data-ttu-id="c8d97-105">Essa função é semelhante ao **WideCharToMultiByte**, que mapeia uma cadeia de caracteres UTF-16 (caracteres longa) para uma nova cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="c8d97-105">This function is similar to **WideCharToMultiByte**, which maps a UTF-16 (wide character) string to a new character string.</span></span> <span data-ttu-id="c8d97-106">A nova cadeia de caracteres não é necessariamente a partir de um caractere multibyte definida.</span><span class="sxs-lookup"><span data-stu-id="c8d97-106">The new character string is not necessarily from a multibyte character set.</span></span>
   
 ```cpp
 int MNLS_WideCharToMultiByte(
@@ -35,51 +35,51 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="75da6-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="75da6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c8d97-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c8d97-107">Parameters</span></span>
 
- <span data-ttu-id="75da6-108">_uCodePage_</span><span class="sxs-lookup"><span data-stu-id="75da6-108">_uCodePage_</span></span>
+ <span data-ttu-id="c8d97-108">_uCodePage_</span><span class="sxs-lookup"><span data-stu-id="c8d97-108">_uCodePage_</span></span>
   
-> <span data-ttu-id="75da6-109">[in] Página de código a ser usada na execução da conversão.</span><span class="sxs-lookup"><span data-stu-id="75da6-109">[in] Code page to use in performing the conversion.</span></span>
+> <span data-ttu-id="c8d97-109">[in] Página de código a ser usada na execução da conversão.</span><span class="sxs-lookup"><span data-stu-id="c8d97-109">[in] Code page to use in performing the conversion.</span></span>
     
- <span data-ttu-id="75da6-110">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="75da6-110">_dwFlags_</span></span>
+ <span data-ttu-id="c8d97-110">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="c8d97-110">_dwFlags_</span></span>
   
-> <span data-ttu-id="75da6-111">[in] Sinalizadores que indica o tipo de conversão.</span><span class="sxs-lookup"><span data-stu-id="75da6-111">[in] Flags indicating the conversion type.</span></span>
+> <span data-ttu-id="c8d97-111">[in] Sinalizadores que indica o tipo de conversão.</span><span class="sxs-lookup"><span data-stu-id="c8d97-111">[in] Flags indicating the conversion type.</span></span>
     
- <span data-ttu-id="75da6-112">_lpWideCharStr_</span><span class="sxs-lookup"><span data-stu-id="75da6-112">_lpWideCharStr_</span></span>
+ <span data-ttu-id="c8d97-112">_lpWideCharStr_</span><span class="sxs-lookup"><span data-stu-id="c8d97-112">_lpWideCharStr_</span></span>
   
-> <span data-ttu-id="75da6-113">[in] Ponteiro para a cadeia de caracteres Unicode para converter.</span><span class="sxs-lookup"><span data-stu-id="75da6-113">[in] Pointer to the Unicode string to convert.</span></span>
+> <span data-ttu-id="c8d97-113">[in] Ponteiro para a cadeia de caracteres Unicode para converter.</span><span class="sxs-lookup"><span data-stu-id="c8d97-113">[in] Pointer to the Unicode string to convert.</span></span>
     
- <span data-ttu-id="75da6-114">_cchWideChar_</span><span class="sxs-lookup"><span data-stu-id="75da6-114">_cchWideChar_</span></span>
+ <span data-ttu-id="c8d97-114">_cchWideChar_</span><span class="sxs-lookup"><span data-stu-id="c8d97-114">_cchWideChar_</span></span>
   
-> <span data-ttu-id="75da6-115">[in] Sinalizadores que indica o tipo de conversão.</span><span class="sxs-lookup"><span data-stu-id="75da6-115">[in] Flags indicating the conversion type.</span></span>
+> <span data-ttu-id="c8d97-115">[in] Sinalizadores que indica o tipo de conversão.</span><span class="sxs-lookup"><span data-stu-id="c8d97-115">[in] Flags indicating the conversion type.</span></span>
     
- <span data-ttu-id="75da6-116">_lpMultiByteStr_</span><span class="sxs-lookup"><span data-stu-id="75da6-116">_lpMultiByteStr_</span></span>
+ <span data-ttu-id="c8d97-116">_lpMultiByteStr_</span><span class="sxs-lookup"><span data-stu-id="c8d97-116">_lpMultiByteStr_</span></span>
   
-> <span data-ttu-id="75da6-117">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="75da6-117">[out] Optional.</span></span> <span data-ttu-id="75da6-118">Ponteiro para um buffer que recebe a sequência convertida.</span><span class="sxs-lookup"><span data-stu-id="75da6-118">Pointer to a buffer that receives the converted string.</span></span>
+> <span data-ttu-id="c8d97-117">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="c8d97-117">[out] Optional.</span></span> <span data-ttu-id="c8d97-118">Ponteiro para um buffer que recebe a sequência convertida.</span><span class="sxs-lookup"><span data-stu-id="c8d97-118">Pointer to a buffer that receives the converted string.</span></span>
     
- <span data-ttu-id="75da6-119">_cchMultiByte_</span><span class="sxs-lookup"><span data-stu-id="75da6-119">_cchMultiByte_</span></span>
+ <span data-ttu-id="c8d97-119">_cchMultiByte_</span><span class="sxs-lookup"><span data-stu-id="c8d97-119">_cchMultiByte_</span></span>
   
-> <span data-ttu-id="75da6-120">[in] Tamanho, em bytes, do buffer indicado pelo _lpMultiByteStr_.</span><span class="sxs-lookup"><span data-stu-id="75da6-120">[in] Size, in bytes, of the buffer indicated by  _lpMultiByteStr_.</span></span>
+> <span data-ttu-id="c8d97-120">[in] Tamanho, em bytes, do buffer indicado pelo _lpMultiByteStr_.</span><span class="sxs-lookup"><span data-stu-id="c8d97-120">[in] Size, in bytes, of the buffer indicated by  _lpMultiByteStr_.</span></span>
     
- <span data-ttu-id="75da6-121">_lpDefaultChar_</span><span class="sxs-lookup"><span data-stu-id="75da6-121">_lpDefaultChar_</span></span>
+ <span data-ttu-id="c8d97-121">_lpDefaultChar_</span><span class="sxs-lookup"><span data-stu-id="c8d97-121">_lpDefaultChar_</span></span>
   
-> <span data-ttu-id="75da6-122">[in] Opcional.</span><span class="sxs-lookup"><span data-stu-id="75da6-122">[in] Optional.</span></span> <span data-ttu-id="75da6-123">Ponteiro para o caractere a ser utilizado se um caractere não pode ser representado na página de código especificada.</span><span class="sxs-lookup"><span data-stu-id="75da6-123">Pointer to the character to use if a character cannot be represented in the specified code page.</span></span>
+> <span data-ttu-id="c8d97-122">[in] Opcional.</span><span class="sxs-lookup"><span data-stu-id="c8d97-122">[in] Optional.</span></span> <span data-ttu-id="c8d97-123">Ponteiro para o caractere a ser utilizado se um caractere não pode ser representado na página de código especificada.</span><span class="sxs-lookup"><span data-stu-id="c8d97-123">Pointer to the character to use if a character cannot be represented in the specified code page.</span></span>
     
- <span data-ttu-id="75da6-124">_lpfUsedDefaultChar_</span><span class="sxs-lookup"><span data-stu-id="75da6-124">_lpfUsedDefaultChar_</span></span>
+ <span data-ttu-id="c8d97-124">_lpfUsedDefaultChar_</span><span class="sxs-lookup"><span data-stu-id="c8d97-124">_lpfUsedDefaultChar_</span></span>
   
-> <span data-ttu-id="75da6-125">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="75da6-125">[out] Optional.</span></span> <span data-ttu-id="75da6-126">Ponteiro para um sinalizador que indica se a função tiver usado um caractere padrão na conversão.</span><span class="sxs-lookup"><span data-stu-id="75da6-126">Pointer to a flag that indicates if the function has used a default character in the conversion.</span></span>
+> <span data-ttu-id="c8d97-125">[out] Opcional.</span><span class="sxs-lookup"><span data-stu-id="c8d97-125">[out] Optional.</span></span> <span data-ttu-id="c8d97-126">Ponteiro para um sinalizador que indica se a função tiver usado um caractere padrão na conversão.</span><span class="sxs-lookup"><span data-stu-id="c8d97-126">Pointer to a flag that indicates if the function has used a default character in the conversion.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="75da6-127">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="75da6-127">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c8d97-127">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c8d97-127">Return value</span></span>
 
-<span data-ttu-id="75da6-128">Retorna o número de bytes gravados no buffer apontado pela _lpMultiByteStr_ se tiver êxito.</span><span class="sxs-lookup"><span data-stu-id="75da6-128">Returns the number of bytes written to the buffer pointed to by  _lpMultiByteStr_ if successful.</span></span> 
+<span data-ttu-id="c8d97-128">Retorna o número de bytes gravados no buffer apontado pela _lpMultiByteStr_ se tiver êxito.</span><span class="sxs-lookup"><span data-stu-id="c8d97-128">Returns the number of bytes written to the buffer pointed to by  _lpMultiByteStr_ if successful.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="75da6-129">Comentários</span><span class="sxs-lookup"><span data-stu-id="75da6-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8d97-129">Comentários</span><span class="sxs-lookup"><span data-stu-id="c8d97-129">Remarks</span></span>
 
-<span data-ttu-id="75da6-130">Essa função é disposto a função **WideCharToMultiByte** .</span><span class="sxs-lookup"><span data-stu-id="75da6-130">This function wraps the **WideCharToMultiByte** function.</span></span> <span data-ttu-id="75da6-131">Para obter mais informações, consulte [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="75da6-131">For more information, see [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="c8d97-130">Essa função é disposto a função **WideCharToMultiByte** .</span><span class="sxs-lookup"><span data-stu-id="c8d97-130">This function wraps the **WideCharToMultiByte** function.</span></span> <span data-ttu-id="c8d97-131">Para obter mais informações, consulte [WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8d97-131">For more information, see [WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="75da6-132">Confira também</span><span class="sxs-lookup"><span data-stu-id="75da6-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8d97-132">Confira também</span><span class="sxs-lookup"><span data-stu-id="c8d97-132">See also</span></span>
 
 
 
-[<span data-ttu-id="75da6-133">WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="75da6-133">WideCharToMultiByte</span></span>](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[<span data-ttu-id="c8d97-133">WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="c8d97-133">WideCharToMultiByte</span></span>](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)
 

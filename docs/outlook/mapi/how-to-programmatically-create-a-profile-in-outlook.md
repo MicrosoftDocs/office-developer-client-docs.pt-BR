@@ -6,36 +6,36 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object.
-ms.openlocfilehash: fbd2dffc637cad022f78c9986eccd91a2c1fe4bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766741"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391046"
 ---
-# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="e6bdf-103">Criar um perfil no Outlook de forma programática</span><span class="sxs-lookup"><span data-stu-id="e6bdf-103">Programmatically create a profile in Outlook</span></span>
+# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="d695d-103">Criar um perfil no Outlook de forma programática</span><span class="sxs-lookup"><span data-stu-id="d695d-103">Programmatically create a profile in Outlook</span></span>
 
-<span data-ttu-id="e6bdf-104">**Aplica-se a**: Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6bdf-104">**Applies to:** Office 365 | Outlook | Outlook 2016 \*</span></span> 
+<span data-ttu-id="d695d-104">**Aplica-se a**: Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d695d-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
 
-<span data-ttu-id="e6bdf-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
+<span data-ttu-id="d695d-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span><span class="sxs-lookup"><span data-stu-id="d695d-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
 
-<span data-ttu-id="e6bdf-106">Em MAPI, você pode atualizar um perfil configurando a propriedade **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, conforme indicado no procedimento abaixo.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
+<span data-ttu-id="d695d-106">Em MAPI, você pode atualizar um perfil configurando a propriedade **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, conforme indicado no procedimento abaixo.</span><span class="sxs-lookup"><span data-stu-id="d695d-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
   
-### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="e6bdf-107">Set the property for Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6bdf-107">Set the property for Outlook 2016</span></span>
+### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="d695d-107">Set the property for Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d695d-107">Set the property for Outlook 2016</span></span>
 
-1. <span data-ttu-id="e6bdf-108">Make sure Outlook 2016 is property configured.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-108">Make sure Outlook 2016 is property configured.</span></span>
+1. <span data-ttu-id="d695d-108">Make sure Outlook 2016 is property configured.</span><span class="sxs-lookup"><span data-stu-id="d695d-108">Make sure Outlook 2016 is property configured.</span></span>
     
-2. <span data-ttu-id="e6bdf-109">Using the [IMAPIProp](https://msdn.microsoft.com/pt-BR/library/cc815525.aspx) interface, go to the Outlook Profile section.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-109">Using the [IMAPIProp](https://msdn.microsoft.com/pt-BR/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
+2. <span data-ttu-id="d695d-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span><span class="sxs-lookup"><span data-stu-id="d695d-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
     
-   <span data-ttu-id="e6bdf-p101">Isso pode ser difícil na MAPI do Outlook, já que nas versões a partir da 2010 não existe mais a seção de perfil global. Para encontrar a seção de Perfil, localize a propriedade PR_EMSMDB_SECTION_UID (0x3D150102). O valor será que o GUID da seção de perfil persistente em formato binário, que será usado nas etapas subsequentes. Você precisará lembrar desse valor.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-p101">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value.</span></span> 
+   <span data-ttu-id="d695d-p101">Isso pode ser difícil na MAPI do Outlook, já que nas versões a partir da 2010 não existe mais a seção de perfil global. Para encontrar a seção de Perfil, localize a propriedade PR_EMSMDB_SECTION_UID (0x3D150102). O valor será que o GUID da seção de perfil persistente em formato binário, que será usado nas etapas subsequentes. Você precisará lembrar desse valor.</span><span class="sxs-lookup"><span data-stu-id="d695d-p101">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value.</span></span> 
     
-3. <span data-ttu-id="e6bdf-114">Adicione a propriedade **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
+3. <span data-ttu-id="d695d-114">Adicione a propriedade **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span><span class="sxs-lookup"><span data-stu-id="d695d-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
     
-4. <span data-ttu-id="e6bdf-115">Defina a propriedade **0x6641001F** no repositório e a seção **emsuid** para todos os provedores.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
+4. <span data-ttu-id="d695d-115">Defina a propriedade **0x6641001F** no repositório e a seção **emsuid** para todos os provedores.</span><span class="sxs-lookup"><span data-stu-id="d695d-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
     
-5. <span data-ttu-id="e6bdf-116">Defina a propriedade **PR_DISPLAY_NAME**.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
+5. <span data-ttu-id="d695d-116">Defina a propriedade **PR_DISPLAY_NAME**.</span><span class="sxs-lookup"><span data-stu-id="d695d-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
     
-## <a name="code-example"></a><span data-ttu-id="e6bdf-117">Código de exemplo</span><span class="sxs-lookup"><span data-stu-id="e6bdf-117">Code example</span></span>
+## <a name="code-example"></a><span data-ttu-id="d695d-117">Código de exemplo</span><span class="sxs-lookup"><span data-stu-id="d695d-117">Code example</span></span>
 
 ```cpp
 // CreateProfile.cpp : Defines the entry point for the console application.
@@ -314,12 +314,12 @@ Cleanup:
 }
 ```
 
-## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="e6bdf-118">Use MFCMAPI to configure Outlook profiles</span><span class="sxs-lookup"><span data-stu-id="e6bdf-118">Use MFCMAPI to configure Outlook profiles</span></span>
+## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="d695d-118">Use MFCMAPI to configure Outlook profiles</span><span class="sxs-lookup"><span data-stu-id="d695d-118">Use MFCMAPI to configure Outlook profiles</span></span>
 
-<span data-ttu-id="e6bdf-119">[MFCMAPI](http://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span><span class="sxs-lookup"><span data-stu-id="e6bdf-119">[MFCMAPI](http://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
+<span data-ttu-id="d695d-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span><span class="sxs-lookup"><span data-stu-id="d695d-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e6bdf-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="e6bdf-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d695d-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="d695d-120">See also</span></span>
 
-- [<span data-ttu-id="e6bdf-121">Criar um perfil do Outlook usando MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="e6bdf-121">How To: Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/pt-BR/library/office/mt723322.aspx)
+- [<span data-ttu-id="d695d-121">Criar um perfil do Outlook usando MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="d695d-121">Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 
