@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Calcula o setor de um retângulo associado a x e y e retorna um inteiro de 0 a 4, indicando o setor.
-ms.openlocfilehash: 1f35704cdb827c9c751f11593436c110755d7777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772641"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395081"
 ---
 # <a name="rectsect-function"></a>Função RECTSECT
 
@@ -38,7 +38,7 @@ RECTSECT (* * *largura* * *, * * *Altura* * *, * * *x* * *, * * *y* * *, * * *op
 
 Considere um retângulo que tem uma *largura* e *Altura* e um ponto (*x, y*) a partir do ponto central do retângulo. Desenhe linhas diagonais por meio de cantos do retângulo para dividi-lo em quatro setores e um ponto central. Os setores de 0 a 4 representam o ponto central direita, superior, esquerda e inferior respectivamente. 
   
-![](media/ShpSheetRef_CA_03_ZA07645862.gif)
+![Setores 0 a 4 representam o ponto central direita, superior, esquerda e baixo respectivamente](media/ShpSheetRef_CA_03_ZA07645862.gif)
   
 ## <a name="example"></a>Exemplo
 

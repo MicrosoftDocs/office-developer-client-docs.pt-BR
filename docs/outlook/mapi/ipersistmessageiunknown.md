@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7eb65bbae2fca6648c3a701dfa5c83c5bf297ec5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396180"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
@@ -31,8 +31,8 @@ Permite que os visualizadores de formulário lidar com o armazenamento de um for
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
 |Expostos pelo:  <br/> |Objetos de mensagem de persistência  <br/> |
-|Implementada por:  <br/> |Objetos de formulário  <br/> |
-|Chamado pelo:  <br/> |Visualizadores de formulário  <br/> |
+|Implementado por:  <br/> |Objetos de formulário  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IPersistMessage  <br/> |
 |Tipo de ponteiro:  <br/> |LPPERSISTMESSAGE  <br/> |
    
@@ -53,7 +53,7 @@ Permite que os visualizadores de formulário lidar com o armazenamento de um for
 
 Todas as formas são necessários para implementar a interface **IPersistMessage** . 
   
- **IPersistMessage** funciona de modo semelhante à interface OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obter mais informações, consulte os métodos de **IPersistStorage** . 
+ **IPersistMessage** funciona de modo semelhante à interface OLE [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Para obter mais informações, consulte os métodos de **IPersistStorage** . 
   
 ## <a name="see-also"></a>Confira também
 

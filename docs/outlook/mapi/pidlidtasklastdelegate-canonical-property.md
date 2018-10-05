@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f33443531e5affd358669225044b2d63c909aff1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddf4b81ed35f500dad0029ea6375e9a75a996186
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392323"
 ---
 # <a name="pidlidtasklastdelegate-canonical-property"></a>Propriedade canônica PidLidTaskLastDelegate
 
@@ -43,11 +43,11 @@ Antes de enviar uma solicitação de tarefa, o cliente faz essa propriedade com 
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     

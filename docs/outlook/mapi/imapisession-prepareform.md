@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d4b62c4131ecc58db6957144321146625b43f7bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393233"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -49,7 +49,7 @@ HRESULT PrepareForm(
   
 > [out] Um ponteiro para um token de mensagem, que é usado pelo método **IMAPISession:: ShowForm** para acessar a mensagem apontada pela _lpMessage_.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -57,17 +57,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **PrepareForm** cria um token de mensagem para a mensagem apontado pelo parâmetro _lpMessage_ e chama o método de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) da mensagem. Este token é passada no parâmetro _ulMessageToken_ para **IMAPISession:: ShowForm**. 
+O método **PrepareForm** cria um token de mensagem para a mensagem apontado pelo parâmetro _lpMessage_ e chama o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) da mensagem. Este token é passada no parâmetro _ulMessageToken_ para **IMAPISession:: ShowForm**. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se a chamada para **PrepareForm** for bem sucedido, libere a mensagem apontada pela _lpMessage_ chamando seu método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) antes de chamar **ShowForm**. Falha ao liberar a mensagem antes de chamar **ShowForm** pode causar vazamento de memória. 
+Se a chamada para **PrepareForm** for bem sucedido, libere a mensagem apontada pela _lpMessage_ chamando seu método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de chamar **ShowForm**. Falha ao liberar a mensagem antes de chamar **ShowForm** pode causar vazamento de memória. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa o método **PrepareForm** , juntamente com **IMAPISession:: ShowForm**, exiba uma mensagem em um formulário restrito.  <br/> |
    
@@ -80,5 +80,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

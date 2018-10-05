@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c2bf94d9-0524-4a9d-8e30-1adbecd8f3dd
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d83788d25ec7a8a1559d3454f5ffd079de9e7275
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f8c151d2d43423ba10773320c51912ef7fbda09
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593043"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392176"
 ---
 # <a name="pidlidemail3addresstype-canonical-property"></a>Propriedade canônica PidLidEmail3AddressType
 
@@ -43,11 +43,11 @@ Se presente, o valor dessa propriedade deve ser um tipo de endereço válido.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

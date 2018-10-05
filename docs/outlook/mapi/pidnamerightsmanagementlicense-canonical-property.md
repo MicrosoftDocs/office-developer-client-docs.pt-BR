@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 889b823a55c39ebc19e52c8cc9a1d078a5732a01
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565526"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395541"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriedade canônica PidNameRightsManagementLicense
 
@@ -43,11 +43,11 @@ Se a propriedade estiver presente em uma mensagem de email gerenciadas por direi
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Especifica as propriedades das mensagens codificadas direitos gerenciados.
     

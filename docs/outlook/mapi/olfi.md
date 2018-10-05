@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564259"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397020"
 ---
 # <a name="olfi"></a>OLFI
 
@@ -69,7 +69,7 @@ typedef struct {
     
 ## <a name="remarks"></a>Comentários
 
-Uma identificação de entrada é um identificador de entrada MAPI de 4 bytes para uma pasta ou uma mensagem. Para obter mais informações, consulte [ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
+Uma identificação de entrada é um identificador de entrada MAPI de 4 bytes para uma pasta ou uma mensagem. Para obter mais informações, consulte [ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
 Quando um provedor de armazenamento de PST atribui uma identificação de entrada para um novo objeto, ele primeiro precisa um GUID que identifica o servidor e um índice que identifica o objeto no repositório. Embora não seja o GUID exclusivo entre todas as identificações de entrada, o GUID e o índice combinados fornecem uma entrada única. Esse par GUID e o índice é controlado por uma longo prazo estrutura de ID, **LTID**, que é parte da estrutura de **OLFI** . 
   

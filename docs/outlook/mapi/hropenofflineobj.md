@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ef929bf778fabc4350f553d185838dd5cb2cf0b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563384"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395795"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
@@ -32,8 +32,8 @@ Abre um objeto offline com base em um determinado perfil.
 |||
 |:-----|:-----|
 |Exportá-los por:  <br/> |Msmapi32  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
@@ -81,7 +81,7 @@ E_NOT_FOUND
 
 Esta é a primeira chamada que faz com que um cliente quando o cliente deseja ser notificado sobre qualquer alteração de estado de conexão para um determinado perfil. Após chamar **HrOpenOfflineObj**, o cliente obtém um objeto offline que suporta **IMAPIOfflineMgr**. O cliente pode verificar os tipos de retornos de chamada suportados pelo objeto (usando [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) e, em seguida, configurar retornos de chamada para ele (usando [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
-Ao usar o [GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx) para procurar o endereço desta função no Msmapi32, especifique **HrOpenOfflineObj@20** como o nome do procedimento. 
+Ao usar o [GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) para procurar o endereço desta função no Msmapi32, especifique **HrOpenOfflineObj@20** como o nome do procedimento. 
   
  **HrOpenOfflineObj** funciona apenas para clientes que estão provedores MAPI, suplementos COM e extensões de cliente do Exchange em execução dentro do processo do Outlook. Caso contrário, **HrOpenOfflineObj** retornará **E_NOT_FOUND**. 
   

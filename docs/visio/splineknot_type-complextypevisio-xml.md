@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 114d5460-c5fd-0e31-def4-f943b93bd1ae
-ms.openlocfilehash: a6e47f2e75691d4791fa17483efbb74aa01679f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d307bdf1d26044d2786d2e4fb3e3ee348f2dd389
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773038"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396747"
 ---
 # <a name="splineknottype-complextype-visio-xml"></a>SplineKnot_Type complexType ('Visio XML')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19773038"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extensão de base** <br/> |GeometryRow_Type  <br/> |
    

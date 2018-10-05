@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392183"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
@@ -29,8 +29,8 @@ Fornece acesso aos contêineres do catálogo de endereços. Aplicativos MAPI e c
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
 |Expostos pelo:  <br/> |Objetos de contêiner de catálogo de endereços  <br/> |
-|Implementada por:  <br/> |Provedores de catálogo de endereços  <br/> |
-|Chamado pelo:  <br/> |Aplicativos MAPI e cliente  <br/> |
+|Implementado por:  <br/> |Provedores de catálogo de endereços  <br/> |
+|Chamado por:  <br/> |Aplicativos MAPI e cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IABContainer  <br/> |
 |Tipo de ponteiro:  <br/> |LPABCONT  <br/> |
 |Modelo de transação:  <br/> |Transacionadas  <br/> |
@@ -62,7 +62,7 @@ Fornece acesso aos contêineres do catálogo de endereços. Aplicativos MAPI e c
    
 ## <a name="remarks"></a>Comentários
 
-A interface **IABContainer** herda indiretamente da interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) por meio do [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) e [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Provedores de catálogo de endereços implementam a interface de **IABContainer** . 
+A interface **IABContainer** herda indiretamente da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) por meio do [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) e [IMAPIProp: IUnknown](imapipropiunknown.md) interfaces. Provedores de catálogo de endereços implementam a interface de **IABContainer** . 
   
 Qualquer número de objetos de usuário de mensagens, listas de distribuição e outros contêineres do catálogo de endereços pode existir em um contêiner de catálogo de endereços. Assim como acontece com qualquer contêiner, clientes ou provedores de serviços podem usar um contêiner de catálogo de endereços para abrir uma das suas entradas ou para recuperar uma tabela de hierarquia ou a tabela de conteúdo. Contêineres também fornecem resolução de nomes e, dependendo de provedor, a capacidade de adicionar, remover ou modificar entradas de catálogo de endereços.
   

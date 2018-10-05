@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f636c0a49d6ad96ab157d00780fa6ffc5c8f3236
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d6374c2fd3c277e2bb976930e9e105cc839b1e8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588269"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397202"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>Propriedade canônica PidTagDeferredSendTime
 
@@ -46,7 +46,7 @@ Se o valor **PR_DEFERRED_SEND_TIME** for anterior a hora atual (em UTC), a mensa
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     

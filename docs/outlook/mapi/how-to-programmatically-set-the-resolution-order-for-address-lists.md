@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Modificado pela última vez: 06 de julho de 2012'
-ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577321"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392911"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Definir a ordem de resolução de listas de endereços de forma programática
   
@@ -19,7 +19,7 @@ ms.locfileid: "22577321"
   
 Este tópico contém um exemplo de código em C++ que programaticamente define a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos.
   
-Na MAPI, cada perfil pode oferecer suporte a várias listas de endereços e cada lista de endereços reside no seu próprio contêiner. MAPI oferece suporte ao método **[SetSearchPath](http://support.microsoft.com/kb/292590)** na interface do que permite que você defina um novo caminho de pesquisa no perfil que será usado para resolução de nome. Para usar o método **IAddrBook::SetSearchPath** , você precisará definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especifique a matriz como a *lpSearchPath*  Use o parâmetro. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente. 
+Na MAPI, cada perfil pode oferecer suporte a várias listas de endereços e cada lista de endereços reside no seu próprio contêiner. MAPI oferece suporte ao método **[SetSearchPath](https://support.microsoft.com/kb/292590)** na interface do que permite que você defina um novo caminho de pesquisa no perfil que será usado para resolução de nome. Para usar o método **IAddrBook::SetSearchPath** , você precisará definir a ordem de resolução desejada em uma matriz de **[SRowSet](srowset.md)** que mantém os contêineres dos catálogos de endereços relevantes na ordem desejada e, em seguida, especifique a matriz como a *lpSearchPath*  Use o parâmetro. A primeira propriedade para cada entrada na matriz **SRowSet** deve ser a propriedade **[PR_ENTRYID](pidtagentryid-canonical-property.md)** do catálogo de endereços correspondente. 
   
 O exemplo de código define a ordem de resolução nas etapas a seguir:
   

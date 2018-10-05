@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Especifica uma coleção de propriedades relacionadas.
-ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593519"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394332"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Elemento de seção (Sheet_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica uma coleção de propriedades relacionadas.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document, masters.xml,. XML de # mestre, pages.xml,. XML n º de página  <br/> |
    
@@ -54,7 +54,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |[Célula](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica uma única propriedade.  <br/> |
-|[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Especifica um conjunto de elementos de **Cell_Type** .  <br/> |
+|[Row](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Especifica um conjunto de elementos de **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

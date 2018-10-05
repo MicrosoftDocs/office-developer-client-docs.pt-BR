@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2ac14c43-36c1-4f2f-97b0-2462f2360575
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0863973a420920189cc32324154f1125a2b068fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 53ee4019752cf717840199d4a51cbc90133b8636
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569943"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393884"
 ---
 # <a name="pidtagusercertificate-canonical-property"></a>Propriedade canônica PidTagUserCertificate
 
@@ -42,11 +42,11 @@ Um certificado de autenticação é semelhante a uma assinatura digital. Várias
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     

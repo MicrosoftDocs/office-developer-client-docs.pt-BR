@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa2a447d0757e75c95d7dc3d9b1dd16b8c7a8084
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566856"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394717"
 ---
 # <a name="address-book-provider-sample"></a>Exemplo de provedor de catálogo de endereços
 
@@ -23,7 +23,7 @@ ms.locfileid: "22566856"
   
 Esta amostra oferece suporte a um único contêiner somente leitura para nomes para exibição e endereços de email, o qual serão lidas a partir de um arquivo binário plano. O exemplo suporta modelos únicos e todas as opções de configuração, exceto o Assistente de perfil.
   
-Você pode baixar esse exemplo de [Amostras de código do Outlook Messaging API (MAPI)](http://go.microsoft.com/fwlink/?LinkId=129740
+Você pode baixar esse exemplo de [Amostras de código do Outlook Messaging API (MAPI)](https://go.microsoft.com/fwlink/?LinkId=129740
 ).
   
 |||

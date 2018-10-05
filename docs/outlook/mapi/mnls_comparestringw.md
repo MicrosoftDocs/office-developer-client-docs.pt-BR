@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
 description: 'Modificado pela última vez: 20 de fevereiro de 2012'
-ms.openlocfilehash: 3e23fa9fcb074fabacf1a2dd9ac3f632cdce5b5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576173"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396208"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in] Identificador de localidade. Para obter definições detalhadas, consulte o parâmetro _Locale_ de [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+> [in] Identificador de localidade. Para obter definições detalhadas, consulte o parâmetro _Locale_ de [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [in] Sinalizadores para Ignorar maiusculas/minúsculas e sinais diacríticos. Para obter definições detalhadas, consulte o parâmetro _dwCmpFlags_ de [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+> [in] Sinalizadores para Ignorar maiusculas/minúsculas e sinais diacríticos. Para obter definições detalhadas, consulte o parâmetro _dwCmpFlags_ de [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
@@ -59,19 +59,19 @@ int MNLS_CompareStringW (
   
 > [in] Comprimento em caracteres da segunda cadeia de caracteres Unicode, excluindo o caractere de terminação null. O aplicativo pode fornecer um valor negativo se a cadeia de caracteres é terminada em nulo. Nesse caso, a função determina o comprimento automaticamente.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-Retorna os valores descritos para [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+Retorna os valores descritos para [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
 ## <a name="remarks"></a>Comentários
 
-Essa função distribui [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** usa os mesmos parâmetros e tem o mesmo comportamento como [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+Essa função distribui [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** usa os mesmos parâmetros e tem o mesmo comportamento como [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

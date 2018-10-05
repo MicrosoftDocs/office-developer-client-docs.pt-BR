@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c30377d3-6184-4c8a-8819-dd12c6b08ad4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9f9043a62de37baa89440a6eaa90070f68a311df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ebff194dc975733e0b7fff2b6f31bfe14c0889f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397622"
 ---
 # <a name="pidtaghomeaddresspostofficebox-canonical-property"></a>Propriedade canônica PidTagHomeAddressPostOfficeBox
 
@@ -42,11 +42,11 @@ Essas propriedades são definidas pelo usuário ou a organização do usuário.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

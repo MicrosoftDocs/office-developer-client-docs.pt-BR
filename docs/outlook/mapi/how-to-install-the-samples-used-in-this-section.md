@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 288ece7a26fb89fa240339da681f163909124823
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586911"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397055"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Instalar os exemplos usados nesta seção
 
@@ -25,11 +25,11 @@ Baixar e instalar exemplos usados no "usando MAPI para criar itens do Outlook" s
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Baixar e instalar o aplicativo MFCMAPI e abrir projeto CreateOutlookItemsAddin
 
-1. Baixe a versão atual do [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) executável para uma pasta no seu sistema. 
+1. Baixe a versão atual do [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) executável para uma pasta no seu sistema. 
     
 2. Extraia o arquivo MFCMapi.exe em MFCMapi.exe. _versão_zip para uma pasta vazia no disco rígido.
     
-3. Baixe a versão atual do projeto [CreateOutlookItemsAddin](http://go.microsoft.com/fwlink/?LinkID=127828) . 
+3. Baixe a versão atual do projeto [CreateOutlookItemsAddin](https://go.microsoft.com/fwlink/?LinkID=127828) . 
     
 4. Extrai todos os arquivos no arquivo CreateOutlookItemsAddin.zip para a pasta onde você extraiu o arquivo MFCMapi.exe na etapa 2.
     
@@ -70,7 +70,7 @@ Alguns tópicos referem-se ao código-fonte do próprio aplicativo MFCMAPI. As e
 
 ### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Fazer o download e ler o código-fonte MFCMAPI aplicativo
 
-1. Baixe o código-fonte para a versão atual do aplicativo [MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) para uma pasta no seu sistema. 
+1. Baixe o código-fonte para a versão atual do aplicativo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) para uma pasta no seu sistema. 
     
 2. Extraia os arquivos no MFCMAPI - zip de _conjunto de alterações_para uma pasta vazia no disco rígido.
     

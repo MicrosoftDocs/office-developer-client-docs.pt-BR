@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Para oferecer suporte a criação de soluções do InfoPath que usam os idiomas de código gerenciado, como o Visual c# e Visual Basic, a opção de suporte de programação do .NET no programa de instalação do InfoPath instala os assemblies de interoperabilidade três.
-ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51773ad46b1371c410c4249e13a489f0c5550cd1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564126"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393352"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Sobre o assembly de interoperabilidade primário do InfoPath do Microsoft Office
 
@@ -27,7 +27,7 @@ Os arquivos para os assemblies de interoperabilidade três instalados pelo InfoP
     
 - Microsoft.Office.Interop.InfoPath.Xml.dll
     
-Este tópico aborda o modelo de objeto exposto por meio do assembly de interoperabilidade Microsoft.Office.Interop.InfoPath é usado exclusivamente para o código de automação externa. Para obter informações sobre o assembly SemiTrust, que é usado exclusivamente para escrever e executando código gerenciado que executa a partir modelos de formulário do InfoPath (. xsn), consulte [Modelos de objeto do InfoPath 2003 compatíveis](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
+Este tópico aborda o modelo de objeto exposto por meio do assembly de interoperabilidade Microsoft.Office.Interop.InfoPath é usado exclusivamente para o código de automação externa. Para obter informações sobre o assembly SemiTrust, que é usado exclusivamente para escrever e executando código gerenciado que executa a partir modelos de formulário do InfoPath (. xsn), consulte [Modelos de objeto do InfoPath 2003 compatíveis](https://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
   
 ## <a name="important-installation-information"></a>Informações importantes sobre instalação
 

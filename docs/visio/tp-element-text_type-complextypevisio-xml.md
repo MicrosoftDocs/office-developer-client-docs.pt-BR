@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: Especifica o início de propriedades guias executar. A execução é definida para o final do texto ou até que a próxima marca.
-ms.openlocfilehash: 9b98374af4ffbf2eaeaea61dcb1dbb49214f01b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f27ea0babefa0ea69cbbc361031c57602649107
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773165"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397545"
 ---
 # <a name="tp-element-texttype-complextype-visio-xml"></a>elemento PA (Text_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica o início de propriedades guias executar. A execução é definida pa
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |página # XML, master. XML de #  <br/> |
    

@@ -5,12 +5,12 @@ ms.date: 01/14/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 834c4d2c2f47c6cc3f35423a7dfe3c13caf3d209
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71325af974e4778d65bea7d74561bde3c9c8bca2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765769"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394031"
 ---
 # <a name="office-uri-schemes"></a>Esquemas de URI do Office
 
@@ -30,7 +30,7 @@ Estes esquemas de URI permitem que aplicativos de produtividade de escritório s
   
 Uma URI como definida neste documento pode ter um ou mais argumentos de comando, cada um deve incluir os elementos < *descritor-command-argument*  > e <  *command-argument*  > e ser delimitada pelo caractere de barra vertical ("|"). Quando mais de um argumento de comando for incluído em uma URI, deverá haver um caractere de barra vertical ("|") separando cada argumento de comando do argumento de comando a seguir. 
   
-Esses esquemas não incluem um componente de autoridade como definido na seção 3.2 da RFC 3986. A invocação dos comandos especificados neste documento ocorre no contexto do sistema que está invocando o comando. Por exemplo, quando a URI "ms-excel:ofv|u|http://contoso/Q4/budget.xls" for invocada de um computador pessoal que esteja executando o Microsoft Windows com o Microsoft Office 2013 instalado, o resultado esperado é a instalação local do Microsoft Excel ser iniciada e os argumentos passados para abrir o arquivo em  *http://contoso/Q4/budget.xls*  em modo somente leitura. Observe que a barra vertical usada como um delimitador nesta especificação não está entre os caracteres identificados na seção 2.2 da RFC 3986 como reservados para uso potencial como delimitadores. Isso é feito intencionalmente para maximizar o conjunto de caracteres com suporte do argumento do comando de URI sem a necessidade de codificar esses caracteres codificados por porcentagem. 
+Esses esquemas não incluem um componente de autoridade como definido na seção 3.2 da RFC 3986. A invocação dos comandos especificados neste documento ocorre no contexto do sistema que está invocando o comando. Por exemplo, quando a URI "ms-excel:ofv|u|https://contoso/Q4/budget.xls" for invocada de um computador pessoal que esteja executando o Microsoft Windows com o Microsoft Office 2013 instalado, o resultado esperado é a instalação local do Microsoft Excel ser iniciada e os argumentos passados para abrir o arquivo em  *https://contoso/Q4/budget.xls*  em modo somente leitura. Observe que a barra vertical usada como um delimitador nesta especificação não está entre os caracteres identificados na seção 2.2 da RFC 3986 como reservados para uso potencial como delimitadores. Isso é feito intencionalmente para maximizar o conjunto de caracteres com suporte do argumento do comando de URI sem a necessidade de codificar esses caracteres codificados por porcentagem. 
   
 A sintaxe do esquema inclui o seguinte:
   
@@ -92,7 +92,7 @@ O comando a seguir fará com que o aplicativo abra o documento referenciado pela
     
 > Argumento de comando: uma URI para o documento, com base no esquema http ou https
     
-> Exemplo:  *ms-excel:ofv|u|http://contoso/Q4/budget.xls* 
+> Exemplo:  *ms-excel:ofv|u|https://contoso/Q4/budget.xls* 
     
 ### <a name="edit-document"></a>Editar Documento
 
@@ -104,7 +104,7 @@ O comando a seguir fará com que o aplicativo abra o documento referenciado pela
     
 > Argumento de comando: uma URI para o documento, com base no esquema http ou https
     
-> Exemplo:  *ms-powerpoint:ofe|u|http://www.fourthcoffee.com/AllHandsDeck.ppt* 
+> Exemplo:  *ms-powerpoint:ofe|u|https://www.fourthcoffee.com/AllHandsDeck.ppt* 
     
 ### <a name="new-document-from-template"></a>Novo Documento do Modelo
 
@@ -120,7 +120,7 @@ O comando a seguir fará com que o aplicativo crie e abra um novo documento com 
     
 > Argumento de comando opcional 2: URI para especificar a pasta de salvamento padrão
     
-> Exemplo:  *ms-word:nft|u|http://cohowinery/templates/elegance.pot|s|http://cohowinery/presentations* 
+> Exemplo:  *ms-word:nft|u|https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations* 
     
 Como uma observação, se a localização de salvamento padrão opcional for fornecida, deve estar apontando para o mesmo nome de host como o modelo.
   

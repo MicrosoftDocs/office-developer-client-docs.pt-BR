@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7200e7d226eb148fef094ab8540990644d2d4c99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392827"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
@@ -44,7 +44,7 @@ HRESULT IStorageFromStream(
     
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar o fluxo apontado pela _lpUnkIn_. Qualquer um dos seguintes valores são válidos: IID_IStream, IID_ILockBytes, ou **Nulo**, que indica que a interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) deve ser usada para acessar o fluxo. 
+> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar o fluxo apontado pela _lpUnkIn_. Qualquer um dos seguintes valores são válidos: IID_IStream, IID_ILockBytes, ou **Nulo**, que indica que a interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) deve ser usada para acessar o fluxo. 
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ STGSTRM_RESET
   
 > [out] Um ponteiro para um ponteiro para o objeto de armazenamento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -78,9 +78,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISupport::IStorageFromStream** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **IStorageFromStream** para criar um objeto de armazenamento a ser usado para abrir propriedades específicas. Provedores de serviço que tem sua própria implementação da interface [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) não precisará chamar **IStorageFromStream**. 
+O método **IMAPISupport::IStorageFromStream** é implementado para todos os objetos de suporte de provedor de serviço. Provedores de serviços de chamarem **IStorageFromStream** para criar um objeto de armazenamento a ser usado para abrir propriedades específicas. Provedores de serviço que tem sua própria implementação da interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) não precisará chamar **IStorageFromStream**. 
   
-O objeto de armazenamento criado pelo **IStorageFromStream** chama [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) método do fluxo para incrementar sua contagem de referência e diminui a contagem quando o armazenamento for lançado. 
+O objeto de armazenamento criado pelo **IStorageFromStream** chama [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) método do fluxo para incrementar sua contagem de referência e diminui a contagem quando o armazenamento for lançado. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
@@ -94,7 +94,7 @@ Quando o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de um dos 
     
 4. Retorne um ponteiro para este objeto de armazenamento.
     
-Se você implementar interfaces adicionais que usam o objeto de armazenamento, crie um objeto que envolve o objeto de armazenamento e implementar um método [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) de nível superior. 
+Se você implementar interfaces adicionais que usam o objeto de armazenamento, crie um objeto que envolve o objeto de armazenamento e implementar um método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de nível superior. 
   
 Não permita a ser aberto com a interface **IStream** se ele foi criado com **IStorage**uma propriedade. Por outro lado, não permita uma propriedade a ser aberto com a interface **IStorage** se ele foi criado com **IStream**. 
   

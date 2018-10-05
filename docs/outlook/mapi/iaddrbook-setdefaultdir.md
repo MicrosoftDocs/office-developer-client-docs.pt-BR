@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ab01f189734ac30b4c027f4e5596c88031b5f99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564651"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392708"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
@@ -44,7 +44,7 @@ HRESULT SetDefaultDir(
   
 > [in] Um ponteiro para o identificador de entrada do contêiner de catálogo de endereços padrão.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -55,13 +55,13 @@ S_OK
 Provedores de serviços e clientes chame o método de **SetDefaultDir** para estabelecer um novo contêiner de catálogo de endereços padrão. O contêiner padrão é o contêiner em que o usuário vê exibido no catálogo de endereços quando o catálogo de endereços é aberto pela primeira vez. **SetDefaultDir** salva o contêiner padrão como uma entrada no perfil. O contêiner permanece como padrão até que outra chamada para **SetDefaultDir** é feita na mesma sessão ou em outra sessão, ou o contêiner é removido. 
   
 > [!NOTE]
-> A propriedade [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) corresponde à configuração da **Escolha automaticamente** na caixa de diálogo Opções do catálogo de endereços. Quando essa propriedade existe na seção de perfil [IID_CAPONE_PROF](http://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) e estiver definida como **true**, a caixa de diálogo Catálogo de endereços não são mais padrões para o contêiner especificado por **SetDefaultDir**, mas escolhe um catálogo de endereços que considera do Microsoft Outlook apropriada para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de catálogo de endereços de terceiros. 
+> A propriedade [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) corresponde à configuração da **Escolha automaticamente** na caixa de diálogo Opções do catálogo de endereços. Quando essa propriedade existe na seção de perfil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) e estiver definida como **true**, a caixa de diálogo Catálogo de endereços não são mais padrões para o contêiner especificado por **SetDefaultDir**, mas escolhe um catálogo de endereços que considera do Microsoft Outlook apropriada para o contexto no qual a caixa de diálogo foi exibida. Observe que isso pode resultar em uma experiência ruim para provedores de catálogo de endereços de terceiros. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI usa o método **SetDefaultDir** para tornar o contêiner de catálogo de endereços especificado o padrão de um.  <br/> |
    
@@ -80,5 +80,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

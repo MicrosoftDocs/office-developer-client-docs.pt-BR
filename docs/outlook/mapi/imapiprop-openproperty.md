@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bf1d6912e44319c36e288cd3870218e8c4e45ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563972"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395802"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
@@ -73,7 +73,7 @@ MAPI_MODIFY
   
 > [out] Um ponteiro para a interface solicitada a ser usada para acesso à propriedade.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -114,11 +114,11 @@ Para acessar os anexos de mensagens, abra a propriedade **PR_ATTACH_DATA_OBJ** (
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile** é um derivado da interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) que baseia-se em um arquivo de compostos OLE 2.0. **IStreamDocfile** é a melhor opção para acessar os anexos OLE 2.0 porque envolve o mínimo de sobrecarga. Você pode usar o IID_IStreamDocFile para essas propriedades que contenham dados armazenados em armazenamento estruturado disponível por meio da interface [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) . 
+**IStreamDocfile** é um derivado da interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) que baseia-se em um arquivo de compostos OLE 2.0. **IStreamDocfile** é a melhor opção para acessar os anexos OLE 2.0 porque envolve o mínimo de sobrecarga. Você pode usar o IID_IStreamDocFile para essas propriedades que contenham dados armazenados em armazenamento estruturado disponível por meio da interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) . 
   
 Para obter mais informações sobre como usar **OpenProperty** com anexos, consulte a propriedade **PR_ATTACH_DATA_OBJ** e a [abertura de um anexo](opening-an-attachment.md).
   
-Não use o ponteiro de **IStream** recebidos para chamar o método seu [Seek](http://msdn.microsoft.com/en-us/library/aa380043%28v=VS.85%29.aspx) ou [SetSize](http://msdn.microsoft.com/en-us/library/aa380044%28v=VS.85%29.aspx) , a menos que você use uma zero variável de tamanho ou posição. Além disso, não confie no valor do parâmetro de saída _plibNewPosition_ retornado da chamada **Seek** . 
+Não use o ponteiro de **IStream** recebidos para chamar o método seu [Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx) ou [SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx) , a menos que você use uma zero variável de tamanho ou posição. Além disso, não confie no valor do parâmetro de saída _plibNewPosition_ retornado da chamada **Seek** . 
   
 Se você chamar **OpenProperty** para acessar uma propriedade com a interface **IStream** , use apenas essa interface para fazer alterações nele. Não tente atualizar a propriedade com qualquer uma das outras [IMAPIProp: IUnknown](imapipropiunknown.md) métodos, como **SetProps** ou [IMAPIProp::DeleteProps](imapiprop-deleteprops.md). 
   
@@ -126,15 +126,15 @@ Não tente abrir uma propriedade com **OpenProperty** mais de uma vez. Os result
   
 Se você precisar modificar a propriedade a ser aberto, defina o sinalizador MAPI_MODIFY. Se não esteja certo se o objeto oferece suporte à propriedade, mas você acha que deveria, defina os sinalizadores MAPI_CREATE e MAPI_MODIFY. Sempre que MAPI_CREATE for definido, MAPI_MODIFY também deve ser definida.
   
-Você é responsável por reformulação o ponteiro de interface retornado no parâmetro _lppUnk_ para um que é apropriado para a interface especificada no parâmetro _lpiid_ . Você também deve usar o ponteiro retornado para chamar seu método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) quando terminar com ele. 
+Você é responsável por reformulação o ponteiro de interface retornado no parâmetro _lppUnk_ para um que é apropriado para a interface especificada no parâmetro _lpiid_ . Você também deve usar o ponteiro retornado para chamar seu método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) quando terminar com ele. 
   
 Em alguns casos, definindo os sinalizadores no parâmetro _ulFlags_ não é suficiente para indicar o tipo de acesso para a propriedade que é necessário. Você pode colocar os dados adicionais, como sinalizadores, no parâmetro _ulInterfaceOptions_ . Esses dados são dependentes de interface. Algumas interfaces (por exemplo, **IStream**) usá-lo e outros não. Por exemplo, quando você abre uma propriedade a ser modificado com **IStream**, defina o sinalizador STGM_WRITE no parâmetro _ulInterfaceOptions_ além dos MAPI_MODIFY. Quando você abre uma tabela por meio da interface [IMAPITable](imapitableiunknown.md) , você pode definir _ulInterfaceOptions_ como MAPI_UNICODE para indicar se as colunas na tabela que armazenam as propriedades de cadeia de caracteres devem estar no formato Unicode. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI usa o método **IMAPIProp::OpenProperty** para recuperar uma interface de fluxo de texto grande e propriedades binárias.  <br/> |
    
@@ -147,6 +147,6 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 - [IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
 - [IMAPITable : IUnknown](imapitableiunknown.md)
 - [IMAPIProp : IUnknown](imapipropiunknown.md)
-- [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+- [MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 - [Abrir um anexo](opening-an-attachment.md)
 

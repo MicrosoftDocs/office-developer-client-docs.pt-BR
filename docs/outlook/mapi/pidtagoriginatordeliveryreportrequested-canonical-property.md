@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9e508f9c3d84272a0641a27e18c94e0620a7072c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a92ee13e571032c050f69677d9daba8dad7aea3c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395494"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Propriedade canônica PidTagOriginatorDeliveryReportRequested
 
@@ -44,7 +44,7 @@ A configuração da propriedade **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** em u
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     

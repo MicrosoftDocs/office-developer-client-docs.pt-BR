@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582928"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396789"
 ---
 # <a name="implementing-a-sample-object"></a>Implementação de um objeto de amostra
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações. **IMAPIAdviseSink** herda diretamente da [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**. Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).
+Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações. **IMAPIAdviseSink** herda diretamente da [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**. Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).
   
 O arquivo de cabeçalho Mapidefs.h define uma implementação de interface **IMAPIAdviseSink** usando **DECLARE_MAPI_INTERFACE**, da seguinte maneira:
   
@@ -36,7 +36,7 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
 
 Clientes que implementam aconselhe os objetos de coletor de eventos podem definir suas interfaces nos seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** . Implementadores do objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e para economizar tempo e esforço. 
   
-Implementar os métodos [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) é relativamente simple, porque geralmente apenas algumas linhas de código são necessárias. Portanto, clientes e provedores de serviços que implementam objetos podem fazer sua embutida de implementações **AddRef** e **Release** . O código a seguir mostra como definir um C++ avise o objeto coletor de eventos com embutida implementações de **AddRef** e **Release**.
+Implementar os métodos [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é relativamente simple, porque geralmente apenas algumas linhas de código são necessárias. Portanto, clientes e provedores de serviços que implementam objetos podem fazer sua embutida de implementações **AddRef** e **Release** . O código a seguir mostra como definir um C++ avise o objeto coletor de eventos com embutida implementações de **AddRef** e **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink

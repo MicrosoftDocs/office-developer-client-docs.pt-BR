@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 96266b948d80b07d7aefefbf29225d2f85089094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c1c04e5b04be9bb67b050f5cf498be89d380410
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566695"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396320"
 ---
 # <a name="mapi-custom-form-objects"></a>Objetos de formulário personalizado do MAPI
   
@@ -47,7 +47,7 @@ A tabela a seguir descreve todos os objetos de formulário personalizado.
 |Contexto de modo de exibição  <br/> |Suporte a comandos para ativar as mensagens anteriores e próximas e para salvar ou imprimir de formulário.  <br/> |
 |Coletor de eventos de aviso do modo de exibição  <br/> |Manipula notificações do servidor de formulário.  <br/> |
    
-A ilustração a seguir mostra a relação entre os componentes de formulário personalizado, os objetos e interfaces que eles implementam e os componentes que são usuários dos objetos. Observe que, ao contrário da maioria dos outros objetos MAPI, o objeto form implementa duas interfaces que não estão relacionados por herança direta. Quando um objeto expõe várias interfaces independentes, um usuário do objeto que tem um ponteiro para uma das interfaces pode recuperar um ponteiro para qualquer uma das outras interfaces. Essa capacidade para navegar entre implementações de interface de um objeto é um recurso do método [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
+A ilustração a seguir mostra a relação entre os componentes de formulário personalizado, os objetos e interfaces que eles implementam e os componentes que são usuários dos objetos. Observe que, ao contrário da maioria dos outros objetos MAPI, o objeto form implementa duas interfaces que não estão relacionados por herança direta. Quando um objeto expõe várias interfaces independentes, um usuário do objeto que tem um ponteiro para uma das interfaces pode recuperar um ponteiro para qualquer uma das outras interfaces. Essa capacidade para navegar entre implementações de interface de um objeto é um recurso do método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
   
 **Custom form components**
   

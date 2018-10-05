@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: Especifica o valor de uma chave primária para uma linha individual de um recordset.
-ms.openlocfilehash: 3b91997b5fe8184eb89f8c53197a512d809171b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12d60bb0ccccdcd8c1790678cae4ad1e887e73b6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772809"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396719"
 ---
 # <a name="rowkeyvalue-element-primarykeytype-complextype-visio-xml"></a>Elemento RowKeyValue (PrimaryKey_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica o valor de uma chave primária para uma linha individual de um record
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Recordsets.XML  <br/> |
    
@@ -53,6 +53,6 @@ Nenhum.
 |**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
 |RowID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor exclusivo que identifica uma linha de um recordset.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Value  <br/> |XSD: String  <br/> |obrigatório  <br/> |O valor da chave primária para esta linha do recordset.  <br/> |Valores do tipo xsd: String.  <br/> |
+|Valor  <br/> |XSD: String  <br/> |obrigatório  <br/> |O valor da chave primária para esta linha do recordset.  <br/> |Valores do tipo xsd: String.  <br/> |
    
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b635ad72acc2bd98ca0c207dea71ea2df757e22b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ebaea7fb6888e51ee1ef658db53dcf3050644da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593932"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397342"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>Propriedade canônica PidTagMessageDeliveryTime
 
@@ -42,7 +42,7 @@ Essa propriedade descreve o tempo que a mensagem foi armazenada no servidor, ao 
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     

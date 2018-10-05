@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: accea8bdea25ac44e6cc5d8fe88cb32caf1961be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397720"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propriedade canônica PidTagSearchFolderStorageType
 
@@ -36,17 +36,17 @@ Contém os sinalizadores que especificam os dados de objeto binário grande (BLO
    
 ## <a name="remarks"></a>Comentários
 
-As definições dos sinalizadores são especificadas em [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Procure **PR_WB_SF_STORAGE_TYPE**.
+As definições dos sinalizadores são especificadas em [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Procure **PR_WB_SF_STORAGE_TYPE**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
     

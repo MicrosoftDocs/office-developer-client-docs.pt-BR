@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Use o Telemetry Log for Office 2013 para determinar problemas de compatibilidade com o Office 2013 e as soluções criadas para versões anteriores do Office.
-ms.openlocfilehash: 95b23bfbb45a492147ec4d56849a08e0ec14e4a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebcf7908fb9f7e1558b0f0576fbbf9a6f0b07568
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771223"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393275"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Solucionando problemas de arquivos e de soluções personalizadas do Office com o log de telemetria
 
@@ -25,7 +25,7 @@ Com tal proliferação de soluções do Office, a atualização de versões do O
   
 O Telemetry Log for Office 2013, uma ferramenta criada no Excel 2013, ajuda desenvolvedores e usuários experientes a diagnosticar problemas de compatibilidade exibindo eventos que ocorrem em aplicativos do Office 2013 selecionados. Usando essa ferramenta, os usuários poderão determinar potenciais problemas com suplementos usados no ambiente de trabalho, oferecendo aos tomadores de decisão da empresa as informações de que precisam para decidir se atualizam para o Office 2013. O Telemetry Log também oferece comentários detalhados sobre alterações ou substituições nos modelos de objeto para os aplicativos do Office 2013, o que ajuda os desenvolvedores a identificar e a refatorar rapidamente código ou controles com problemas. Os profissionais de TI podem exibir tendências em integridade de solução em vários clientes usando o Telemetry Dashboard for Office 2013, uma ferramenta complementar do Telemetry Log.
   
-Para saber mais, consulte [Implantar o Painel de Telemetria do Office](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+Para saber mais, consulte [Implantar o Painel de Telemetria do Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
   
 ## <a name="how-the-telemetry-log-works"></a>Como funciona o Telemetry Log
 <a name="OEV_Types"> </a>
@@ -126,11 +126,11 @@ Use a tabela a seguir (Tabela 2) para interpretar os registros exibidos no Telem
 |**ID do Evento**|**Título**|**Severidade**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Documento carregado com êxito  <br/> ||O arquivo listado na coluna **Arquivo** foi aberto no aplicativo do Office sem problemas.  <br/> |
-|2  <br/> |Falha ao carregar o documento  <br/> |Aviso  <br/> | O aplicativo não conseguiu carregar o arquivo. Pode haver algum problema de compatibilidade subjacente.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](http://office.microsoft.com/pt-BR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](http://office.microsoft.com/pt-BR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|2  <br/> |Falha ao carregar o documento  <br/> |Aviso  <br/> | O aplicativo não conseguiu carregar o arquivo. Pode haver algum problema de compatibilidade subjacente.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Modelo carregado com êxito  <br/> ||O arquivo de modelo listado na coluna **Arquivo** foi aberto no aplicativo do Office sem problemas.  <br/> |
-|4  <br/> |Falha do modelo ao carregar  <br/> |Aviso  <br/> | O aplicativo não conseguiu carregar o arquivo de modelo. Pode haver algum problema de compatibilidade subjacente ou a disponibilidade do modelo pode ter sido alterada.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](http://office.microsoft.com/pt-BR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](http://office.microsoft.com/pt-BR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|4  <br/> |Falha do modelo ao carregar  <br/> |Aviso  <br/> | O aplicativo não conseguiu carregar o arquivo de modelo. Pode haver algum problema de compatibilidade subjacente ou a disponibilidade do modelo pode ter sido alterada.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Suplemento carregado com êxito  <br/> ||O suplemento carregado na coluna **Arquivo** foi carregado no aplicativo do Office com êxito. Nenhum problema de compatibilidade foi detectado.  <br/> |
-|6  <br/> |Falha ao carregar o suplemento  <br/> |Crítico  <br/> | O aplicativo não conseguiu carregar o suplemento listado na coluna **Arquivo**.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](http://office.microsoft.com/pt-BR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](http://office.microsoft.com/pt-BR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|6  <br/> |Falha ao carregar o suplemento  <br/> |Crítico  <br/> | O aplicativo não conseguiu carregar o suplemento listado na coluna **Arquivo**.  <br/><br/>Confira mais informações sobre como reparar uma pasta de trabalho corrompida no Excel 2013 em [Reparar uma pasta de trabalho corrompida](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Confira mais informações sobre como reparar um documento corrompido no Word 2013 em [Salvar e recuperar uma cópia de backup de um documento](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Manifesto de suplemento baixado com êxito  <br/> ||O aplicativo host carregou o manifesto no Suplemento do Office com êxito.  <br/> |
 |8  <br/> |Manifesto de suplemento não baixado  <br/> |Crítico  <br/> |O aplicativo host não pôde carregar o arquivo de manifesto do suplemento do Office do catálogo do SharePoint, do catálogo corporativo ou da Office Store.  <br/> |
 |9  <br/> |Não foi possível analisar o manifesto de suplemento  <br/> |Crítico  <br/> |O aplicativo host carregou o manifesto do Suplemento do Office no suplemento, mas não conseguiu ler o XML.  <br/> |
@@ -158,9 +158,9 @@ O Telemetry Log oferece às grandes empresas, aos usuários individuais e aos de
 ## <a name="see-also"></a>Confira também
 <a name="OEV_Additional"> </a>
 
-- [Central de Desenvolvedores do Office](http://msdn.microsoft.com/pt-BR/office/aa905340.aspx)
+- [Central de Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Compatibility issues in Office 2013](compatibility-issues-in-office.md)
-- [Implantar o Painel de Telemetria do Office](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Central de Desenvolvedores do Office](http://msdn.microsoft.com/pt-BR/office/aa905340)
+- [Implantar o Painel de Telemetria do Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
+- [Central de Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905340)
     
 

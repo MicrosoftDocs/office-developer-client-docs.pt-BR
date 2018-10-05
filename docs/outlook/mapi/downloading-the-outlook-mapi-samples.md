@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6b41d9cbd6ec74167dce74e97bb0923817dc6f84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583257"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395963"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Baixar exemplos de MAPI do Outlook
 
@@ -25,7 +25,7 @@ As amostras de MAPI do Microsoft Outlook incluem um fornecedor de catálogo de e
   
  **Para baixar o provedor de catálogo de endereços de amostra**
   
-1. Para baixar as amostras de MAPI do Outlook, clique na guia **página inicial** , na página de [Amostras de código do Outlook Messaging API (MAPI)](http://ol2010mapisamples.codeplex.com/) . 
+1. Para baixar as amostras de MAPI do Outlook, clique na guia **página inicial** , na página de [Amostras de código do Outlook Messaging API (MAPI)](https://ol2010mapisamples.codeplex.com/) . 
     
 2. Na guia **página inicial** , clique em **clique aqui para baixar a fonte para amostras de MAPI do Outlook 2010**.
     

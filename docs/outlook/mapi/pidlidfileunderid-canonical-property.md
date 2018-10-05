@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0a4fdb94877fb9491005fc650c206ffefd3f8b94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7af30866a5fd2846327223b7a58c6de91f5fef7a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578413"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397188"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriedade canônica PidLidFileUnderId
 
@@ -37,7 +37,7 @@ Especifica como gerar e recalcular o valor da propriedade **dispidFileUnder** ([
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade estiver faltando ou definida como um valor que não são detalhado na tabela a seguir ou em [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), o aplicativo pode escolher sua própria lógica recalcular o valor do **dispidFileUnder** como outra alteração de propriedades do nome do contato. 
+Se essa propriedade estiver faltando ou definida como um valor que não são detalhado na tabela a seguir ou em [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), o aplicativo pode escolher sua própria lógica recalcular o valor do **dispidFileUnder** como outra alteração de propriedades do nome do contato. 
   
 Na tabela a seguir, a notação <PropertyName> é usado para especificar "o valor de PropertyName". Por exemplo, se o valor da propriedade **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) é "Smith", e o valor da propriedade **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) é "Ben", em seguida, "<PidTagGivenName> <PidTagSurname>" Especifica a cadeia de caracteres "Ben Smith". Na tabela, "\r" Especifica um caractere de retorno de carro, "\n." Especifica um caractere de alimentação de linha, e <space> representa um caractere de espaço.
   
@@ -68,11 +68,11 @@ Na tabela a seguir, a notação <PropertyName> é usado para especificar "o valo
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

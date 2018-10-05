@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589515"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396313"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Codifica apenas as propriedades da mensagem ou anexo especificado pelo parâmetro _ulElemID_ . Se esse sinalizador estiver definido, o valor em _lpvData_ deve ser um ponteiro [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Codifica apenas as propriedades da mensagem ou anexo especificado pelo parâmetro _ulElemID_ . Se esse sinalizador estiver definido, o valor em _lpvData_ deve ser um ponteiro [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
@@ -78,7 +78,7 @@ TNEF_PROP_MESSAGE_ONLY
   
 > [in] Um ponteiro para a lista de propriedades para incluir ou excluir do encapsulamento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -92,11 +92,11 @@ Provedores de transporte, provedores de armazenamento de mensagem e gateways cha
   
 Observe que nenhuma real a codificação TNEF acontece para **AddProps** até que o método [ITnef::Finish](itnef-finish.md) é chamado. Essa funcionalidade significa que os ponteiros passados para **AddProps** devem permanecer válidos até após a chamada para **Concluir a** é feita. Nesse momento, todos os objetos e dados passados com **AddProps** chamadas podem ser lançados ou liberados. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |CPP  <br/> |SaveToTNEF  <br/> |MFCMAPI usa o método **ITnef::AddProps** para copiar propriedades de uma mensagem para um fluxo TNEF.  <br/> |
    
@@ -115,5 +115,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [ITnef : IUnknown](itnefiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

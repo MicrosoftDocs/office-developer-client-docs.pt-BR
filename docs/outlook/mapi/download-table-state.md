@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7451d159ef97ef9d8160b386ec5bf88fb388706e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595395"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395067"
 ---
 # <a name="download-table-state"></a>Baixar o estado da tabela
 
@@ -35,7 +35,7 @@ ms.locfileid: "22595395"
   
 ## <a name="description"></a>Descrição
 
-Nesse estado inicia baixando uma pasta. Durante esse estado, o Outlook inicializa a estrutura de dados **DNTBL** associada com informações sobre a pasta. O cliente baixa o conteúdo da pasta e atualiza a pasta no armazenamento local com conteúdo novo, modificações ou exclusões do servidor. O processo de download adota sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Nesse estado inicia baixando uma pasta. Durante esse estado, o Outlook inicializa a estrutura de dados **DNTBL** associada com informações sobre a pasta. O cliente baixa o conteúdo da pasta e atualiza a pasta no armazenamento local com conteúdo novo, modificações ou exclusões do servidor. O processo de download adota sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Quando for encerrada nesse estado, o armazenamento local retorna ao estado sincronizar conteúdo.
   
@@ -49,5 +49,5 @@ Quando for encerrada nesse estado, o armazenamento local retorna ao estado sincr
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

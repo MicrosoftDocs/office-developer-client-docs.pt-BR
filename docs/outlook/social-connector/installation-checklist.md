@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: Este tópico descreve os pré-requisitos para instalar com êxito um provedor do Outlook Social Connector (OSC) e a instalação verifica se o instalador do seu provedor deve ser concluídas para funcionar corretamente.
-ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8fec8523e57ad2678d02a0c5cbc1ad57340e5267
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593995"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395088"
 ---
 # <a name="installation-checklist"></a>Lista de verificação da instalação
 
@@ -28,15 +28,15 @@ Os usuários devem instalar provedores OSC somente se houver uma versão de supo
 - Verificar se o OSC está instalado.
     
 > [!NOTE]
-> Click-to-Run é um ambiente virtual no qual o Outlook 2010 (32 bits) ou Outlook 2013 (32-bit) podem executar. Para o Outlook 2013, verifique se a chave VirtualOutlook existe no HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook do registro do Windows. Para obter mais informações sobre como entregar Outlook como um produto clique para executar em um computador cliente, consulte [como verificar se o Outlook está disponível em um computador como um produto Click-to-Run](http://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx). 
+> Click-to-Run é um ambiente virtual no qual o Outlook 2010 (32 bits) ou Outlook 2013 (32-bit) podem executar. Para o Outlook 2013, verifique se a chave VirtualOutlook existe no HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook do registro do Windows. Para obter mais informações sobre como entregar Outlook como um produto clique para executar em um computador cliente, consulte [como verificar se o Outlook está disponível em um computador como um produto Click-to-Run](https://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx). 
   
 O usuário, no entanto, tem que garantir que o OSC está ativado antes de instalar o provedor.
   
-Terceiros, incluindo provedores OSC, não é possível redistribuir o OSC. No entanto, se o OSC não estiver instalado, o instalador do provedor pode usar g-links apropriados para instalar o OSC no computador cliente. Um link de g é uma URL especialmente construída em http://g.live.com que encaminha um usuário para uma página da Web correspondente para baixar o OSC. Um link de g OSC é formatado como http://g.live.com/0CR _LCID_/ _Glink_, onde _LCID_ e _Glink_ especificam a localidade, versão e bitness do Outlook no computador cliente. Cada link de g aponta para um arquivo executável e é específico para os valores _LCID_ e _Glink_ especificados. 
+Terceiros, incluindo provedores OSC, não é possível redistribuir o OSC. No entanto, se o OSC não estiver instalado, o instalador do provedor pode usar g-links apropriados para instalar o OSC no computador cliente. Um link de g é uma URL especialmente construída em https://g.live.com que encaminha um usuário para uma página da Web correspondente para baixar o OSC. Um link de g OSC é formatado como https://g.live.com/0CR _LCID_/ _Glink_, onde _LCID_ e _Glink_ especificam a localidade, versão e bitness do Outlook no computador cliente. Cada link de g aponta para um arquivo executável e é específico para os valores _LCID_ e _Glink_ especificados. 
   
 Por exemplo, o g-link para instalar a versão mais recente do OSC para o Outlook 2003 ou o Outlook 2007 para o LCID 1033 (inglês americano) é da seguinte maneira:
   
-http://g.live.com/0CR1033/80
+https://g.live.com/0CR1033/80
   
 Para obter detalhes sobre os valores de _Glink_ para diferentes versões e bitness do Outlook e valores _LCID_ para localidades com suporte, consulte #7 na seção [Lista de verificação de instalação](#olosc_InstallationOverview_InstallationChecklist) abaixo. 
 
@@ -52,7 +52,7 @@ O pacote de instalação do provedor deve realizar uma série de verificações 
   
 O procedimento a seguir descreve as verificações de instalação descritas na Figura 1.
   
-1. Como um pré-requisito, detectar se o Outlook está instalado ou apresentar e, se instalado ou presente, determine se a versão do Outlook suporta o OSC. Para obter mais informações sobre como detectar a versão instalada do Outlook, consulte [Verificar a versão do Outlook](http://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
+1. Como um pré-requisito, detectar se o Outlook está instalado ou apresentar e, se instalado ou presente, determine se a versão do Outlook suporta o OSC. Para obter mais informações sobre como detectar a versão instalada do Outlook, consulte [Verificar a versão do Outlook](https://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx).
     
    - Se a versão do Outlook instalada é anterior ao Outlook 2003, o procedimento de instalação do provedor não pode concluir. Informe o usuário para obter uma versão compatível do Outlook e o OSC antes de prosseguir para instalar o provedor OSC.
     
@@ -90,7 +90,7 @@ O procedimento a seguir descreve as verificações de instalação descritas na 
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      A ID do componente qualificado é um GUID que fornece um método de único nível indireção, semelhante a um ponteiro. Para obter mais informações sobre o Windows Installer, consulte o [roteiro para a documentação do Windows Installer](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
+      A ID do componente qualificado é um GUID que fornece um método de único nível indireção, semelhante a um ponteiro. Para obter mais informações sobre o Windows Installer, consulte o [roteiro para a documentação do Windows Installer](https://docs.microsoft.com/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. Se o componente qualificado especificado existir, uma versão do OSC é instalada. Vá para a etapa 5 para encontrar a localidade da interface de usuário do Outlook atual para se preparar para instalação da versão mais recente do OSC.
       
@@ -120,7 +120,7 @@ O procedimento a seguir descreve as verificações de instalação descritas na 
     
    `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\OSCLcid`
     
-   O `OSCLcid` chave é um valor DWORD que especifica a marca de localidade de Internet Engineering Task Force (IETF) (definida pelas [[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt) e [[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt)), que representa a localidade de interface de usuário atual do Outlook. Continue a etapa 7 para instalar o OSC mais recente no computador cliente.
+   O `OSCLcid` chave é um valor DWORD que especifica a marca de localidade de Internet Engineering Task Force (IETF) (definida pelas [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) e [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)), que representa a localidade de interface de usuário atual do Outlook. Continue a etapa 7 para instalar o OSC mais recente no computador cliente.
     
 6. **Continue com esta etapa se o Outlook 2003 ou o Outlook 2007 está instalado, ou o Outlook 2010 ou Outlook 2013 está presente, mas o mais recente OSC necessariamente não estiver instalado no computador cliente:**
     
@@ -141,11 +141,11 @@ O procedimento a seguir descreve as verificações de instalação descritas na 
     
    Encadear um link de g em seu pacote de instalação para assegurar que a versão mais recente do que o OSC seja instalada no computador cliente. O formato de vínculo g é da seguinte maneira:
     
-   http://g.live.com/0CR_LCID_ /  _Glink_
+   https://g.live.com/0CR_LCID_ /  _Glink_
     
    Consulte a tabela 1 a seguir para valores _LCID_ suportados e a tabela 2 para os valores de _Glink_ com suporte. Por exemplo, o link de g para instalar a versão mais recente do OSC de 32 bits para 32 bits Outlook Social Connector 2013 (inglês americano) é da seguinte maneira: 
     
-   http://g.live.com/0CR1033/82
+   https://g.live.com/0CR1033/82
     
 8. Instale o fornecedor. O procedimento de instalação do provedor deve registrar o identificador programático (ProgID) no local apropriado de registro do Windows. Para obter mais informações, consulte [Registrando um provedor](registering-a-provider.md). Além disso, certifique-se de que o número de bits do provedor a ser instalada é o mesmo que o número de bits da versão do Outlook presente no computador cliente. Por exemplo, instale um provedor de 32 bits, se houver Outlook 2013 de 32 bits e um provedor de 64 bits, se o Outlook 2013 de 64 bits é instalado. Para o Outlook 2003 ou 2007, se aplica somente a versão de 32 bits do seu provedor. 
     
@@ -197,7 +197,7 @@ O procedimento a seguir descreve as verificações de instalação descritas na 
    
 **Tabela 2: Valores de Glink com suporte para que o OSC**
   
-|**Valor GLINK**|**Function**|
+|**Valor GLINK**|**Função**|
 |:-----|:-----|
 |80  <br/> |Instala a versão mais recente do OSC para o Outlook 2003 ou o Outlook 2007.  <br/> |
 |82  <br/> |Instala o patch mais recente do OSC de 32 bits para o Outlook 2007, Outlook 2010 ou Outlook Social Connector 2013.  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bf92e62dc572a81b6e0aab4cb1b0fc8afe97800d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: efccd75cce04e4e392a7fbd9feecc7c8b49ab57e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573093"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394325"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Propriedade canônica PidTagAttachFlags
 
@@ -54,7 +54,7 @@ Se a propriedade **PR_ATTACH_FLAGS** for zero ou ausente, o anexo é a serem pro
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

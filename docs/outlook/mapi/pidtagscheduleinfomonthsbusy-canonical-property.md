@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7723897c6d249bbb53a0de5aa68ad8d1bc79830f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08f8f6e016ff08211bc10e80588ab33e83d6441b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393849"
 ---
 # <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsBusy
 
@@ -40,11 +40,11 @@ O formato, a computação e restrições dessa propriedade são iguais aos de **
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     

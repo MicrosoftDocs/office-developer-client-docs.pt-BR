@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 description: Especifica quando abrir o hiperlink em uma nova janela.
-ms.openlocfilehash: b4d927e1970e994047df3cb89afa7799a825511d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f9d1e4b1294dea3f211c8d0d69ffc49b6180066
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772411"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396334"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>Célula NewWindow (Seção Hyperlinks)
 
@@ -22,7 +22,7 @@ Especifica quando abrir o hiperlink em uma nova janela.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Abrir o documento, o site da Web ou a página vinculada em uma nova janela.  <br/> |
+| TRUE  <br/> | Abra a página vinculada, documento ou site em uma nova janela.  <br/> |
 | FALSO  <br/> | Padrão. Não abrir uma nova janela para o hiperlink.  <br/> |
    
 ## <a name="remarks"></a>Comentários

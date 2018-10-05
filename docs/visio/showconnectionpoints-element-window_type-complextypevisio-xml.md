@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
 description: Especifica se os pontos de conexão são exibidos em uma janela.
-ms.openlocfilehash: 9d5dd563c71285a2216b7377843019c6702fbaa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 084b3d4ba50f04494da76968195debfcd795647a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772967"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392134"
 ---
 # <a name="showconnectionpoints-element-windowtype-complextype-visio-xml"></a>Elemento ShowConnectionPoints (Window_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica se os pontos de conexão são exibidos em uma janela.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Windows.XML  <br/> |
    

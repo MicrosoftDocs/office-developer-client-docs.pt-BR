@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567192"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395172"
 ---
 # <a name="shutting-down-a-service-provider"></a>Desligar a um provedor de serviços
 
@@ -33,7 +33,7 @@ Esses métodos têm implementações semelhantes. As principais tarefas que est�
   
 - Liberar todos os objetos abertos, incluindo subobjetos e objetos de status.
     
-- Chamando o suporte ao método do objeto [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para diminuir sua contagem de referência. 
+- Chamando o suporte ao método do objeto [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para diminuir sua contagem de referência. 
     
 - Removendo todas as estruturas [MAPIUID](mapiuid.md) registradas do seu provedor. 
     

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590733"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392274"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriedade canônica PidTagDelegateFlags
 
@@ -49,7 +49,7 @@ Essa propriedade deverá ser definida no objeto de informações do representant
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
     

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7843a31094d2564f30000f21ee888e525f39f960
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397181"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriedade canônica PidTagExchangeProfileSectionId
 
@@ -36,7 +36,7 @@ Contém um GUID gerado dinamicamente usado para determinar uma conta quando voc�
    
 ## <a name="remarks"></a>Comentários
 
-Microsoft Outlook 2010 e o Microsoft Outlook 2013 suportam várias contas do Exchange, em vez de uma única conta do Exchange. Para acomodar várias contas do Exchange, o layout do perfil MAPI foi alterado. No Microsoft Office Outlook 2007 e versões anteriores, perfis contidos uma seção de perfil fixa dedicada para configurações do Exchange, como o nome do servidor, nome de usuário e o arquivo de pasta Offline (. ost). local. Essas configurações foram identificadas usando um identificador exclusivo, a propriedade **pbGlobalProfileSectionGuid** . A seção usada para configurações do Exchange é chamada a seção de perfil Global do Exchange. Para obter mais informações sobre o perfil Global do Exchange no Outlook 2007, consulte [como abrir a seção de perfil Global](http://support.microsoft.com/kb/188482).
+Microsoft Outlook 2010 e o Microsoft Outlook 2013 suportam várias contas do Exchange, em vez de uma única conta do Exchange. Para acomodar várias contas do Exchange, o layout do perfil MAPI foi alterado. No Microsoft Office Outlook 2007 e versões anteriores, perfis contidos uma seção de perfil fixa dedicada para configurações do Exchange, como o nome do servidor, nome de usuário e o arquivo de pasta Offline (. ost). local. Essas configurações foram identificadas usando um identificador exclusivo, a propriedade **pbGlobalProfileSectionGuid** . A seção usada para configurações do Exchange é chamada a seção de perfil Global do Exchange. Para obter mais informações sobre o perfil Global do Exchange no Outlook 2007, consulte [como abrir a seção de perfil Global](https://support.microsoft.com/kb/188482).
   
 Um local de seção perfil fixo não mais é suficiente para acomodar várias contas do Exchange. Em vez disso, para cada conta do Exchange no seu perfil, existe uma seção dedicada ao configurações dessa conta. Nova seção usada para configurações do Exchange é identificada pelo identificador exclusivo **emsmdbUID**.
   
@@ -70,5 +70,5 @@ O herdado **emsmdbUID** também é marcada na Global seção perfil do Outlook d
 [Usar várias contas do Exchange](using-multiple-exchange-accounts.md)
 
 
-[Como abrir a seção perfil Global](http://support.microsoft.com/kb/188482)
+[Como abrir a seção perfil Global](https://support.microsoft.com/kb/188482)
 

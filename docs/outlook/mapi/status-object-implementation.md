@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e97efb70716ffbd7fa98f980ce8520cfcb988532
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569593"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392400"
 ---
 # <a name="status-object-implementation"></a>Implementação do objeto de status
 
@@ -31,7 +31,7 @@ Todos os provedores de serviço devem implementar um objeto de status e forneça
           
       2. Crie um novo objeto de status.
           
-      3. Armazenar uma referência para a seção de perfil no objeto de status do seu provedor e chame o método de [AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) da seção perfil para incrementar sua contagem de referência. 
+      3. Armazenar uma referência para a seção de perfil no objeto de status do seu provedor e chame o método de [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) da seção perfil para incrementar sua contagem de referência. 
           
       4. Armazenar uma referência ao objeto logon no objeto de status do seu provedor e chame o método de **AddRef** do objeto logon para incrementar sua contagem de referência. 
           

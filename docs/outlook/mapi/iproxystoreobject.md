@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b842bee8d9e243aa38bafe39d786a31b5527b054
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 485d3f3cd4b6be4748a2ebf2ba0d0b71f691478f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567941"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395305"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
@@ -31,7 +31,7 @@ Fornece um objeto de repositório IMAP Internet Message Access Protocol () que f
 
 |||
 |:-----|:-----|
-|Herdado de:  <br/> |[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) <br/> |
+|Herdado de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
 |Fornecido por:  <br/> |Provedor de armazenamento de mensagem  <br/> |
 |Identificador de interface:  <br/> |**IID_IProxyStoreObject** <br/> |
    
@@ -45,8 +45,8 @@ Fornece um objeto de repositório IMAP Internet Message Access Protocol () que f
    
 ## <a name="remarks"></a>Comentários
 
-Chame [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) no armazenamento da mensagem de origem para obter a interface **IProxyStoreObject** . Em seguida, chame **IProxyStoreObject::UnwrapNoRef** para obter o objeto store desfeita. Se **QueryInterface** retornará o erro **MAPI_E_INTERFACE_NOT_SUPPORTED**, em seguida, o repositório não foi quebrado. 
+Chame [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) no armazenamento da mensagem de origem para obter a interface **IProxyStoreObject** . Em seguida, chame **IProxyStoreObject::UnwrapNoRef** para obter o objeto store desfeita. Se **QueryInterface** retornará o erro **MAPI_E_INTERFACE_NOT_SUPPORTED**, em seguida, o repositório não foi quebrado. 
   
-Porque **UnwrapNoRef** não incrementa a contagem de referência para este novo ponteiro para o objeto de repositório desfeita, após chamar o **UnwrapNoRef**com êxito, você deve chamar [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
+Porque **UnwrapNoRef** não incrementa a contagem de referência para este novo ponteiro para o objeto de repositório desfeita, após chamar o **UnwrapNoRef**com êxito, você deve chamar [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
   
 

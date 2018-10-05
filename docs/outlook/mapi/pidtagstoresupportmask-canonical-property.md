@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1936cb8e95e3faef8c92d6bf28f5b63b3ff72df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 143e7f0d2cd89cd4e7956cdda05d1bd512db4027
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392330"
 ---
 # <a name="pidtagstoresupportmask-canonical-property"></a>Propriedade canônica PidTagStoreSupportMask
 
@@ -138,11 +138,11 @@ Uma versão RTF de uma mensagem sempre pode ser armazenada, mesmo se o armazenam
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXMSG]](http://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
+[[MS-OXMSG]](https://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
   
 > Descreve o formato das mensagens usado para enviar informações relacionadas ao compartilhamento de pastas no cliente.
     

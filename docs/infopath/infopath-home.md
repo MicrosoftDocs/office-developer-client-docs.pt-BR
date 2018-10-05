@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: Encontre conteúdo de instruções, artigos técnicos, referências e postagens de blogs para soluções de desenvolvimento e personalização do InfoPath.
-ms.openlocfilehash: 79c608fcc13bf810ff8d2510c000549bf24ec157
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20777234fbc23589659bc50ca44ad9cd24a178d1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765719"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394122"
 ---
 # <a name="infopath"></a>InfoPath
 
@@ -20,9 +20,9 @@ Encontre conteúdo de instruções, artigos técnicos, referências e postagens 
   
 ### <a name="get-started"></a>Introdução
   
-- [Introdução ao desenvolvimento de modelos de formulário com código](http://msdn.microsoft.com/library/66468447-2012-4497-b371-c61f64a8bb49%28Office.15%29.aspx)
+- [Introdução ao desenvolvimento de modelos de formulário com código](https://msdn.microsoft.com/library/66468447-2012-4497-b371-c61f64a8bb49%28Office.15%29.aspx)
   
-- [Novidades para desenvolvedores do InfoPath](http://msdn.microsoft.com/library/d0ad3111-bd41-4f35-8a34-62c17f20fc19%28Office.15%29.aspx)
+- [Novidades para desenvolvedores do InfoPath](https://msdn.microsoft.com/library/d0ad3111-bd41-4f35-8a34-62c17f20fc19%28Office.15%29.aspx)
   
 ### <a name="references"></a>References
   
@@ -32,10 +32,10 @@ Encontre conteúdo de instruções, artigos técnicos, referências e postagens 
   
 ### <a name="community"></a>Comunidade
   
-- [Blog INFOPATHdev](http://www.infopathdev.com/blogs/)
+- [Blog INFOPATHdev](https://www.infopathdev.com/blogs/)
   
-- [Suporte do InfoPath 2013](http://support.microsoft.com/ph/920)
+- [Suporte do InfoPath 2013](https://support.microsoft.com/ph/920)
   
-- [Comunidade da Microsoft](http://answers.microsoft.com/pt-BR/office/forum/infopath)
+- [Comunidade da Microsoft](https://answers.microsoft.com/en-us/office/forum/infopath)
   
 

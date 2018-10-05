@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e4b85b92-abf7-4e4f-b612-2e20af3c1611
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e3f452c234c3050906d3c5c7c29e9ea7715c574e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ee022bdbc30f5b01cb2dcd34a7a1884ed5ef2c2f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590789"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393802"
 ---
 # <a name="pidlidclassificationdescription-canonical-property"></a>Propriedade canônica PidLidClassificationDescription
 
@@ -37,17 +37,17 @@ Descreve o que a classificação de mensagem pretende atingir.
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações adicionais, consulte [como implantar a classificação de mensagem do Outlook 2007](http://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
+Para obter informações adicionais, consulte [como implantar a classificação de mensagem do Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Converte de convenções de email padrão da Internet para os objetos de mensagem.
     

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: Especifica uma localidade no documento de destino à qual vincular.
-ms.openlocfilehash: 0509b9b6a708924b5aeb69f16f3f4cd99573cc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 092a53bd7c9d5adb77ed35f3e2ef53888bd6ebea
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773087"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395263"
 ---
 # <a name="subaddress-cell-hyperlinks-section"></a>Célula SubAddress (Seção Hyperlinks)
 
@@ -22,7 +22,7 @@ Especifica uma localidade no documento de destino à qual vincular.
   
 ## <a name="remarks"></a>Comentários
 
-Por exemplo, se a célula Address for "Drawing1.vsdx", a célula SubAddress pode especificar um nome de página como "Página-3". Se a célula Address for o arquivo do Microsoft Excel "Samples.xlsx", o valor dessa célula pode ser uma planilha ou um intervalo em uma planilha, como "Funções de planilha" ou "Sheet1! A1: D10 ". Se a célula Address for "http://www.microsoft.com/office/", o valor dessa célula pode ser uma âncora nomeada dentro do documento, como "soluções".
+Por exemplo, se a célula Address for "Drawing1.vsdx", a célula SubAddress pode especificar um nome de página como "Página-3". Se a célula Address for o arquivo do Microsoft Excel "Samples.xlsx", o valor dessa célula pode ser uma planilha ou um intervalo em uma planilha, como "Funções de planilha" ou "Sheet1! A1: D10 ". Se a célula Address for "https://www.microsoft.com/office/", o valor dessa célula pode ser uma âncora nomeada dentro do documento, como "soluções".
   
 Você pode também definir o valor da célula utilizando a caixa de diálogo **Hiperlinks** (no grupo **Links** da guia **Inserir**, clique em **Hyperlink**).
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579897"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397153"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
@@ -44,7 +44,7 @@ HRESULT Save(
   
 > [in] TRUE para indicar que a mensagem apontado por _pMessage_ é a mensagem a partir do qual o formulário foi carregado ou criado; Caso contrário, FALSE. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -56,7 +56,7 @@ Visualizadores de formulário chame o método de **IPersistMessage::Save** para 
   
  **Salvar** só deve ser chamado quando o formulário está em seu estado [Normal](normal-state.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Não confirmar as alterações salvas; é até o chamador para confirmar as alterações. Nunca fazer alterações nas propriedades que pertencem a mensagem do formulário, exceto durante a chamada de **Salvar** . 
   
@@ -66,7 +66,7 @@ Quando tiverem sido copiadas todas as propriedades, insira o estado de [NoScribb
   
 Se **Salvar** é chamado quando o formulário estiver em qualquer estado que não seja Normal, retorne E_UNEXPECTED. 
   
-Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação sobre os métodos [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
+Para obter mais informações sobre como salvar objetos de armazenamento, consulte a documentação sobre os métodos [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>Confira também
 

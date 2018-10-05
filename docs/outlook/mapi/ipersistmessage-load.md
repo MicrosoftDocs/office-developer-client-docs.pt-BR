@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565169"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395935"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
@@ -54,7 +54,7 @@ HRESULT Load(
   
 > [in] Uma bitmask dos sinalizadores, copiado de propriedade de **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem, que fornecem mais informações sobre o estado da mensagem.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -64,7 +64,7 @@ S_OK
 
 Visualizadores de formulário chame o método de **IPersistMessage::Load** para carregar um formulário para uma mensagem existente. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
  **Carga** é chamado somente quando um formulário estiver em um dos seguintes estados: 
   
@@ -76,7 +76,7 @@ Visualizadores de formulário chame o método de **IPersistMessage::Load** para 
     
 Se um visualizador de formulário chama **carga** enquanto o formulário está em qualquer outro estado, o método retornará E_UNEXPECTED. 
   
-Se o seu formulário tem uma referência a um site da mensagem ativa diferente daquela que é passado para o **carregamento**, libere o site original porque ele não será usado. Armazene os ponteiros para o site de mensagem e a mensagem de que os parâmetros _pMessageSite_ e _pMessage_ e chamar métodos de [AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) dos objetos para incrementar seus contagens de referência. 
+Se o seu formulário tem uma referência a um site da mensagem ativa diferente daquela que é passado para o **carregamento**, libere o site original porque ele não será usado. Armazene os ponteiros para o site de mensagem e a mensagem de que os parâmetros _pMessageSite_ e _pMessage_ e chamar métodos de [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) dos objetos para incrementar seus contagens de referência. 
   
 Após **AddRef** , armazene as propriedades dos parâmetros _ulMessageStatus_ e _ulMessageFlags_ no formulário. Fazer a transição de formulário ao seu estado [Normal](normal-state.md) antes de exibi-las e notificar os visualizadores registrados chamando os métodos [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
   
@@ -102,9 +102,9 @@ Se nenhum erro ocorrer, retorne S_OK.
 [Estados de formulários](form-states.md)
 
 
-[IPersistStorage::Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream::Load](http://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream::Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile:: Load](http://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

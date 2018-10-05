@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0902aeb71ed66381772a808d21d77edb7e0e2da8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51bf5f8455d4cb790d0c955e96249b0f9deef1af
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589872"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396971"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
@@ -58,7 +58,7 @@ AB_NO_DIALOG
   
 > [out] Um ponteiro para um ponteiro para o catálogo de endereços.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -74,15 +74,15 @@ O método **IMAPISession::OpenAddressBook** abre o catálogo de endereços integ
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
- **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED se ele não é possível carregar um ou mais dos provedores de catálogo de endereços no perfil. Esse valor é um aviso, não é um valor de erro; lidar com ele como faria S_OK. **OpenAddressBook** sempre retorna um ponteiro válido no parâmetro _lppAdrBook_ , independentemente de quantos dos provedores de catálogo de endereços a falha ao carregar. Portanto, você sempre deve chamar método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) do catálogo de endereços em algum momento antes de fazer logoff. 
+ **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED se ele não é possível carregar um ou mais dos provedores de catálogo de endereços no perfil. Esse valor é um aviso, não é um valor de erro; lidar com ele como faria S_OK. **OpenAddressBook** sempre retorna um ponteiro válido no parâmetro _lppAdrBook_ , independentemente de quantos dos provedores de catálogo de endereços a falha ao carregar. Portanto, você sempre deve chamar método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do catálogo de endereços em algum momento antes de fazer logoff. 
   
 Quando **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED, chame [IMAPISession::GetLastError](imapisession-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores de falha. Uma estrutura **MAPIERROR** única é retornada que contém as informações fornecidas pelo todos os provedores. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI usa o método **IMAPISession::OpenAddressBook** para obter o catálogo de endereços integrada.  <br/> |
    
@@ -99,5 +99,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: d65ccec0ab270a59252c8a3ae94bdeca839fa807
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0d67d10d54591de926724cbf594a44f17e9ea14
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582361"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397097"
 ---
 # <a name="implementing-mapi-objects"></a>Implementar objetos MAPI
 
@@ -29,7 +29,7 @@ Os desenvolvedores podem usar o Microsoft Visual Studio e ferramentas de desenvo
   
 Quando um objeto MAPI é implementado, um provedor de cliente ou serviço cria código para todos os métodos de interface, o código para quaisquer métodos privados que são específicas para a implementação e o código para dar suporte a membros de dados particulares para manutenção de informações de estado. O código para os métodos de interface deve seguir as especificações publicadas pela MAPI que documentam o comportamento esperado. 
   
-Há muitas macros no arquivo de cabeçalho Mapidefs.h e arquivos de cabeçalho OLE que os clientes e provedores de serviços em qualquer idioma podem usar para ajudá-los com suas definições de objetos MAPI. Por exemplo, há uma macro para definir os métodos de cada uma das interfaces de MAPI. A macro para definir os métodos da interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) aparece no Mapidefs.h da seguinte maneira: 
+Há muitas macros no arquivo de cabeçalho Mapidefs.h e arquivos de cabeçalho OLE que os clientes e provedores de serviços em qualquer idioma podem usar para ajudá-los com suas definições de objetos MAPI. Por exemplo, há uma macro para definir os métodos de cada uma das interfaces de MAPI. A macro para definir os métodos da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) aparece no Mapidefs.h da seguinte maneira: 
   
 ```cpp
 #define MAPI_IUNKNOWN_METHODS(IPURE)          \

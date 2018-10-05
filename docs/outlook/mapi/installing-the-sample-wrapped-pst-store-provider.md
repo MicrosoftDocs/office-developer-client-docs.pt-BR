@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587534"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397762"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Instalar o provedor do repositório PST encapsulado de exemplo
 
@@ -23,7 +23,7 @@ Este tópico leva as etapas para baixar e instalar o provedor de repositórios d
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Instale o fornecedor de repositório PST encapsulado da amostra
 
-1. Para baixar o provedor de repositórios de PST quebrado automaticamente amostra, consulte [exemplos de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Para baixar o provedor de repositórios de PST quebrado automaticamente amostra, consulte [exemplos de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Abra a pasta **SampleWrappedPSTStoreProvider** e clique em **Extrair todos os arquivos**.
     

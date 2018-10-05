@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583852"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397692"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propriedade canônica PidTagIcon
 
@@ -42,7 +42,7 @@ Essa propriedade contém uma imagem de 32 × 32 pixels de um ícone, o mesmo que
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ad81ac74f517b36029d29f8a6ed1e1dfcb28fade
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583663"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393359"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>Criar um item de compromisso recorrente complexa
   
@@ -42,11 +42,11 @@ O `AddAppointment` função no arquivo de origem Appointments.cpp do projeto Cre
   
 O `AddAppointment` método listado abaixo. Observe que o parâmetro _lpFolder_ passado para o `AddAppointment` método é um ponteiro para uma interface [IMAPIFolder](imapifolderimapicontainer.md) que representa a pasta onde o compromisso recorrente é criado. Dado o parâmetro _lpFolder_ que representa uma interface **IMAPIFolder** , o código chama o método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . O método **CreateMessage** retorna um código de sucesso e um ponteiro para um ponteiro para uma interface **IMessage** . A maioria do `AddAppointment` o trabalho de especificação de propriedades em preparação para chamar o método [IMAPIProp::SetProps](imapiprop-setprops.md) lida com o código de função. Se a chamada para o método **SetProps** tiver êxito, o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) é chamado para confirmar as alterações para o repositório e criar um novo item de calendário. 
   
-O `AddAppointment` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como eles são criados, consulte [Usando MAPI para criar itens do Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx). Porque as propriedades nomeadas usadas para itens de compromisso ocupam vários conjuntos de propriedade, deve ter cuidado ao construir parâmetros a serem passados para o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+O `AddAppointment` função define um número de propriedades nomeadas. Para obter informações sobre propriedades nomeadas e como eles são criados, consulte [Usando MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Porque as propriedades nomeadas usadas para itens de compromisso ocupam vários conjuntos de propriedade, deve ter cuidado ao construir parâmetros a serem passados para o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
-O `AddAppointment` função usa várias funções de auxiliar para criar uma estrutura para diversas propriedades relacionados ao compromisso. O `BuildTimeZoneStruct` e `BuildTimeZoneDefinition` funções auxiliares são usadas para criar uma estrutura que especifica as propriedades relacionadas a zona de tempo. As propriedades relacionadas a zona de tempo são **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) e **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), e eles são abordados nas seções correspondentes do [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). 
+O `AddAppointment` função usa várias funções de auxiliar para criar uma estrutura para diversas propriedades relacionados ao compromisso. O `BuildTimeZoneStruct` e `BuildTimeZoneDefinition` funções auxiliares são usadas para criar uma estrutura que especifica as propriedades relacionadas a zona de tempo. As propriedades relacionadas a zona de tempo são **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) e **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), e eles são abordados nas seções correspondentes do [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
 
-O `BuildGlobalObjectID` função é usada para criar uma estrutura que especifica o **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) e propriedades de **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que são abordadas na seções correspondentes [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx). A estrutura que especifica a propriedade **dispidApptRecur** é criada usando o `BuildWeeklyAppointmentRecurrencePattern` função. 
+O `BuildGlobalObjectID` função é usada para criar uma estrutura que especifica o **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) e propriedades de **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), que são abordadas na seções correspondentes [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). A estrutura que especifica a propriedade **dispidApptRecur** é criada usando o `BuildWeeklyAppointmentRecurrencePattern` função. 
 
 Para obter informações sobre a estrutura criada pelo `BuildWeeklyAppointmentRecurrencePattern` função, consulte [A propriedade canônico PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Observe que, enquanto uma grande variedade de padrões de recorrência de compromisso, são possíveis, o `BuildWeeklyAppointmentRecurrencePattern` função apenas cria um padrão de recorrência semanal do compromisso. Ele também usa vários valores codificadas, como o tipo de calendário (Gregoriano), o primeiro dia da semana (domingo) e número de modificados ou excluídos de instâncias (nenhum). Uma finalidade mais geral função de criação de padrão de recorrência de compromisso precisaria aceitar esses tipos de variáveis como parâmetros. 
   
@@ -292,5 +292,5 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>Confira também
 
-- [Usando MAPI para criar itens do Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Usando MAPI para criar itens do Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 
