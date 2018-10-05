@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dec8706ba00356660ec82c25e0213ef3e638691d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564889"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387724"
 ---
 # <a name="launching-a-form-server"></a>Iniciar um servidor de formulário
 
@@ -29,7 +29,7 @@ A série de interações que ocorre quando um formulário é carregado do armaze
     
 3. O gerente do formulário carrega o servidor de formulário da biblioteca de formulários apropriado. Se o servidor de formulário para a mensagem de destino não estiver instalado, o gerente de formulário instala arquivos executáveis do formulário, também.
     
-4. O Gerenciador de formulário chama [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) no objeto de formulário para obter o objeto de formulário [IMAPIForm: IUnknown](imapiformiunknown.md) e [IPersistMessage: IUnknown](ipersistmessageiunknown.md) interfaces. 
+4. O Gerenciador de formulário chama [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) no objeto de formulário para obter o objeto de formulário [IMAPIForm: IUnknown](imapiformiunknown.md) e [IPersistMessage: IUnknown](ipersistmessageiunknown.md) interfaces. 
     
 5. O Gerenciador de formulário chama [IPersistMessage::Load](ipersistmessage-load.md) com a mensagem interfaces de site e mensagem do objeto visualizador. 
     

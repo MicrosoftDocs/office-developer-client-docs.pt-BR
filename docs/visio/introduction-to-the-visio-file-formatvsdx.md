@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Saiba mais sobre o novo formato de arquivo no Visio 2013, explorar alguns conceitos de alto nível para trabalhar com o formato de arquivo do Visio 2013 programaticamente e criar um aplicativo de console simples que examina um arquivo do Visio 2013.
-ms.openlocfilehash: aa3497af7c467c8f51ab80ab82071776568b4978
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efa90ee513def005653f4f8717b0149de1cdc3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772086"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389362"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Introdução ao formato de arquivo do Visio (.vsdx)
 
@@ -50,7 +50,7 @@ Há vários tipos de arquivo, por extensão, que compõem o formato de arquivo d
 O formato de arquivo do Visio 2013 usa o Open remessa convenções (OPC), que definem um meio estruturado para armazenar dados de aplicativo com os recursos relacionados usando um contêiner de alguns sort─for por exemplo, um arquivo ZIP. Em um nível básico, um arquivo do Visio 2013 é realmente um contêiner ZIP que contém os outros tipos de arquivos. Na verdade, você pode salvar um desenho no Visio 2013, como um arquivo. vsdx, renomear a extensão de arquivo para "\*. zip" no Windows Explorer e então abrir o arquivo like para ver o conteúdo dentro de uma pasta.
   
 > [!NOTE]
->  Este artigo contém apenas uma breve visão geral das convenções de empacotamento Open. Você pode encontrar mais detalhadas cobertura das convenções em outros artigos: > para obter mais informações sobre as convenções de empacotamento Open sozinhos, consulte [OPC: uma nova padrão para seus dados do empacotamento](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > Para obter mais informações sobre as convenções de empacotamento aberto e seus usos em arquivos do Microsoft Office, consulte [conceitos básicos sobre as convenções de empacotamento abertos](http://msdn.microsoft.com/en-us/library/ee361919.aspx) e [apresentando formatos XML abertos do Office (2007)](http://msdn.microsoft.com/en-us/library/aa338205.aspx). 
+>  Este artigo contém apenas uma breve visão geral das convenções de empacotamento Open. Você pode encontrar mais detalhadas cobertura das convenções em outros artigos: > para obter mais informações sobre as convenções de empacotamento Open sozinhos, consulte [OPC: uma nova padrão para seus dados do empacotamento](https://msdn.microsoft.com/magazine/cc163372.aspx). > Para obter mais informações sobre as convenções de empacotamento aberto e seus usos em arquivos do Microsoft Office, consulte [conceitos básicos sobre as convenções de empacotamento abertos](https://msdn.microsoft.com/library/ee361919.aspx) e [apresentando formatos XML abertos do Office (2007)](https://msdn.microsoft.com/library/aa338205.aspx). 
   
 ### <a name="packages-and-package-parts"></a>Pacotes e partes de pacotes
 
@@ -134,7 +134,7 @@ No entanto, ele se parece com o código a seguir no arquivo do Visio 2013.
 ## <a name="developer-scenarios-for-working-with-the-visio-2013-file-format"></a>Cenários de desenvolvedores para trabalhar com formatos de arquivo do Visio 2013.
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-Conforme explicado acima, o formato de arquivo do Visio 2013 aproveita várias tecnologias bem compreendidas como arquivos ZIP e XML para armazenar dados. Para manipular no nível do arquivo de desenho do Visio 2013, uma solução só precisa usar os namespaces do .NET Framework e classes associadas como trabalhar com arquivos ZIP ou XML, como [System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx) ou [System. XML](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx).
+Conforme explicado acima, o formato de arquivo do Visio 2013 aproveita várias tecnologias bem compreendidas como arquivos ZIP e XML para armazenar dados. Para manipular no nível do arquivo de desenho do Visio 2013, uma solução só precisa usar os namespaces do .NET Framework e classes associadas como trabalhar com arquivos ZIP ou XML, como [System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx) ou [System. XML](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx).
   
 Os principais benefícios aos desenvolvedores de formato de arquivo do Visio 2013 é que você pode ler e gravar em arquivos do Visio 2013 sem automatizando o aplicativo cliente do Visio. Alguns cenários que podem ser considerados como um desenvolvedor para trabalhar com o formato de arquivo do Visio 2013 incluem:
   
@@ -284,12 +284,12 @@ No seguinte modelo de código, você pode verificar como abrir um arquivo .vsdx,
 
 Para obter mais informações sobre como trabalhar com arquivos de OpenXML Office Visio 2013or programaticamente, Open Packaging Convention ou o formato de arquivo do Visio 2013, consulte os seguintes recursos:
   
-- [Visio para desenvolvedores](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio para desenvolvedores](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC: um novo padrão para empacotar dados](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx).
+- [OPC: um novo padrão para empacotar dados](https://msdn.microsoft.com/magazine/cc163372.aspx).
     
-- [Conceitos básicos sobre as convenções de empacotamento Open](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [Conceitos básicos sobre as convenções de empacotamento Open](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Apresentando os formatos de arquivo do Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [Apresentando os formatos de arquivo do Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

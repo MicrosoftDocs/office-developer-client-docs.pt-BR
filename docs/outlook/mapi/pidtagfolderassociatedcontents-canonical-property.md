@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ae09488b99cd55e5cfca23f504d81ac5919633d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c85c5d7c3e80508c4d328f69ac4ad15f0f2c355a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574150"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391057"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propriedade canônica PidTagFolderAssociatedContents
 
@@ -56,15 +56,15 @@ Essa propriedade, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagc
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e itens de reunião.
     

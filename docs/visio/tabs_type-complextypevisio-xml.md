@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b97155ce-f0d2-e35c-bc58-e288f653ce2c
-ms.openlocfilehash: a46e9d0cfa1ad0e9bd398afec7a2f03de46c367f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea55169051c66f7434a1e1ba11ff5a23dee0e9c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773092"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386772"
 ---
 # <a name="tabstype-complextype-visio-xml"></a>Tabs_Type complexType ('Visio XML')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19773092"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extensão de base** <br/> |Section_Type  <br/> |
    

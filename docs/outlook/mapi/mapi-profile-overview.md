@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e196800b717ce2528da4b9871bad7425f3a2c326
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563909"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385624"
 ---
 # <a name="mapi-profile-overview"></a>Visão geral do perfil MAPI
 
@@ -39,7 +39,7 @@ As entradas incluídas em um perfil variam de serviço de mensagem para o servi�
     
 Perfis podem ser criados no momento da instalação, quando o MAPI ou um serviço de mensagem for carregado em um computador, ou a qualquer momento posterior. MAPI fornece o Assistente de perfil para administração de perfil. 
   
-O Assistente de perfil é um aplicativo que cria novos perfis com uma quantidade mínima de trabalho. O assistente usa valores padrão para configurações sempre que possível, economizando esforço e tempo dos usuários. Os usuários inserem valores somente quando absolutamente necessário. Para obter mais informações, consulte o [tópico Criando um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md). Você também pode usar a ferramenta de personalização do Office para criar um novo perfil. Para obter mais informações, consulte [Office Customization Tool](http://go.microsoft.com/fwlink/?LinkId=123000).
+O Assistente de perfil é um aplicativo que cria novos perfis com uma quantidade mínima de trabalho. O assistente usa valores padrão para configurações sempre que possível, economizando esforço e tempo dos usuários. Os usuários inserem valores somente quando absolutamente necessário. Para obter mais informações, consulte o [tópico Criando um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md). Você também pode usar a ferramenta de personalização do Office para criar um novo perfil. Para obter mais informações, consulte [Office Customization Tool](https://go.microsoft.com/fwlink/?LinkId=123000).
   
 ## <a name="see-also"></a>Confira também
 

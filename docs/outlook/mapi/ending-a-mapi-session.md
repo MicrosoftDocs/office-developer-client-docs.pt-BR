@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575501"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385194"
 ---
 # <a name="ending-a-mapi-session"></a>Finalizar uma sessão MAPI
 
@@ -27,7 +27,7 @@ Os clientes podem terminar suas sessões em resposta a uma solicitação do usu�
   
 1. Cancele os registros para todas as notificações chamando o método **Unadvise** de todos os objetos registrados. 
     
-2. Libere todos os objetos abertos chamando os métodos [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) . Os tipos de objetos open podem incluir PIAs, a tabela de status, pasta caixa de saída, um ou mais armazenamentos de mensagem e o catálogo de endereços de aviso. 
+2. Libere todos os objetos abertos chamando os métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) . Os tipos de objetos open podem incluir PIAs, a tabela de status, pasta caixa de saída, um ou mais armazenamentos de mensagem e o catálogo de endereços de aviso. 
     
 3. Chame [MAPIFreeBuffer](mapifreebuffer.md) para liberar a memória para qualquer identificadores de entrada de cache, como **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
@@ -35,7 +35,7 @@ Os clientes podem terminar suas sessões em resposta a uma solicitação do usu�
     
 5. Libere o ponteiro de sessão chamando o método de **IUnknown:: Release** da sessão. 
     
-6. Se você chamado [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) durante a inicialização de sessão para inicializar as bibliotecas OLE, não inicializá-los agora chamando [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx). Somente os clientes que têm chamado **OleInitialize** devem chamar **OleUninitialize**. 
+6. Se você chamado [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) durante a inicialização de sessão para inicializar as bibliotecas OLE, não inicializá-los agora chamando [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Somente os clientes que têm chamado **OleInitialize** devem chamar **OleUninitialize**. 
     
 7. Não inicializar as bibliotecas MAPI chamando [MAPIUninitialize](mapiuninitialize.md). Se você chamado **OleInitialize** em algum momento, certifique-se de que uma chamada para **OleUninitialize** ocorre antes essa chamada para **MAPIUninitialize**. O tempo é crucial. Se a chamada para **OleUninitialize** segue a chamada para **MAPIUninitialize**, seu cliente pode ser encerrada maneira brusca. 
     

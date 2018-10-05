@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1a4011a22f1029cc4002d4506eb4d335bd280bec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e057ab2ca0c75d5c0d749ebde8f1bdfb4f1ae66a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593435"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390594"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>Propriedade canônica PidTagListUnsubscribe
 
@@ -48,11 +48,11 @@ Para definir o valor dessas propriedades relacionadas ao servidor de lista, os c
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Converte de convenções de email padrão da Internet para os objetos de mensagem.
     

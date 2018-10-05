@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 'Modificado pela última vez: 21 de fevereiro de 2012'
-ms.openlocfilehash: 6957888f6727175d73d277cf4f5b84dc234d22ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570034"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385512"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
@@ -69,17 +69,17 @@ int MNLS_WideCharToMultiByte(
   
 > [out] Opcional. Ponteiro para um sinalizador que indica se a função tiver usado um caractere padrão na conversão.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 Retorna o número de bytes gravados no buffer apontado pela _lpMultiByteStr_ se tiver êxito. 
   
 ## <a name="remarks"></a>Comentários
 
-Essa função é disposto a função **WideCharToMultiByte** . Para obter mais informações, consulte [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).
+Essa função é disposto a função **WideCharToMultiByte** . Para obter mais informações, consulte [WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)
 

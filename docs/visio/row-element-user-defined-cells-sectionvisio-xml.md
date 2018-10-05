@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Uma parte das informações que podem ser referenciadas por outras células e outras ferramentas de complemento especificados pelo usuário.
-ms.openlocfilehash: 10a0e0e5f7255274de528a34d5faa2de6137446e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8852c1db31e9a9b8f0860c111da32de6d44dc7f5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388011"
 ---
 # <a name="row-element-user-defined-cells-section-visio-xml"></a>Elemento de linha (seção de células definidas pelo usuário) ('Visio XML')
 
@@ -23,7 +23,7 @@ Uma parte das informações que podem ser referenciadas por outras células e ou
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document, masters.xml,. XML de # mestre, pages.xml,. XML n º de página  <br/> |
    

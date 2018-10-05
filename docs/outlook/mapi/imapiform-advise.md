@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591069"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387528"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
@@ -44,7 +44,7 @@ HRESULT Advise(
   
 > [out] Um ponteiro para um valor diferente de zero que representa um registro de notificação bem-sucedida.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -58,9 +58,9 @@ E_OUTOFMEMORY
 
 Visualizadores de formulário chame o método de **IMAPIForm::Advise** de um formulário para registrar a notificação quando ocorrem alterações ao formulário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-O ponteiro do coletor de eventos passada no parâmetro _pAdvise_ para que você pode usá-lo para chamar o método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) apropriado quando ocorre um evento de aviso de manter uma cópia do modo de exibição. O modo de exibição de chamada de aviso de método do coletor de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) para reter o ponteiro até que o registro de notificação será cancelado. Defina o conteúdo do parâmetro _pulConnection_ para um número diferente de zero. 
+O ponteiro do coletor de eventos passada no parâmetro _pAdvise_ para que você pode usá-lo para chamar o método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) apropriado quando ocorre um evento de aviso de manter uma cópia do modo de exibição. O modo de exibição de chamada de aviso de método do coletor de [AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para reter o ponteiro até que o registro de notificação será cancelado. Defina o conteúdo do parâmetro _pulConnection_ para um número diferente de zero. 
   
 Formulários muitas implementam um objeto auxiliar para manipular o registro e as notificações subsequentes de eventos. 
   

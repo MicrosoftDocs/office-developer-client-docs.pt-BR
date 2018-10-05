@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592105"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390629"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
@@ -101,7 +101,7 @@ MAPI_NOREPLACE
   
 > [out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; Caso contrário, NULL, que indica que não há necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DoCopyTo** retorna informações detalhadas sobre erros no copiando uma ou mais propriedades. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -171,7 +171,7 @@ Se você passar um identificador de interface aceitável em _lpDestInterface_ , 
   
 De modo oposto, se você estiver ciente informações complementares que não devem ser copiadas ou movidas, adicione os identificadores de interface para as interfaces sejam excluídos na matriz passada no parâmetro _rgiidExclude_ . Por exemplo, se você estiver copiando mensagens, mas não a qualquer um dos seus anexos da mensagem, passe IID_IMessage na matriz _rgiidExclude_ . **DoCopyTo** ignora quaisquer interfaces listadas na _rgiidExclude_ que ele não reconhece. 
   
-Quando você usa o parâmetro _rgiidExclude_ para excluir uma interface, ele também exclui todas as interfaces derivadas essa interface. Por exemplo, excluindo a interface [IMAPIContainer](imapicontainerimapiprop.md) faz com que pastas ou contêineres de catálogo de endereços a serem excluídos, dependendo do tipo de provedor. Não exclua [IMAPIProp](imapipropiunknown.md) ou [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) porque tantas interfaces derivam deles. 
+Quando você usa o parâmetro _rgiidExclude_ para excluir uma interface, ele também exclui todas as interfaces derivadas essa interface. Por exemplo, excluindo a interface [IMAPIContainer](imapicontainerimapiprop.md) faz com que pastas ou contêineres de catálogo de endereços a serem excluídos, dependendo do tipo de provedor. Não exclua [IMAPIProp](imapipropiunknown.md) ou [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) porque tantas interfaces derivam deles. 
   
  **DoCopyTo** relata os erros de globais que se aplicam à operação como um todo e erros individuais que se aplicam às propriedades individuais. Esses erros individuais são colocados em uma estrutura **SPropProblemArray** . Você pode suprimir relatório no nível de propriedade passando NULL, em vez de um ponteiro válido, para o parâmetro de estrutura de matriz de problema de propriedade de erros. 
   

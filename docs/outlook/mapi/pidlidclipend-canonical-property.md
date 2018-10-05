@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b1b18db072cb7c62c10c8ee4ab79dd1d8754388f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71a0a50f26b26d65ed34f38c2a0c7f930e6082a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588017"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386065"
 ---
 # <a name="pidlidclipend-canonical-property"></a>Propriedade canônica PidLidClipEnd
 
@@ -45,11 +45,11 @@ O valor dessa propriedade deve ser definido como o valor de **dispidApptEndWhole
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

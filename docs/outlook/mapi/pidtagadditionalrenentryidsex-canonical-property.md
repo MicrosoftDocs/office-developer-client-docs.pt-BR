@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57ab68d4c53693c769a4aadf8737f57ef5e73fcd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590803"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390412"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Propriedade canônica PidTagAdditionalRenEntryIdsEx
 
@@ -75,7 +75,7 @@ Se o valor de **PersistBlockType** não for uma daquelas definidas aqui, o bloco
 
 |**Name**|**Valor**|**Valor da ElementDataSize**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indica que o campo de **ElementData** deste bloco contém um valor de cabeçalho de DWORD. Como esse valor é interpretado depende do tipo de **PersistID** do bloco.  <br/> Para todos os tipos de **PersistID** especificados no [[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), esse valor é zero.  <br/> |
+|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indica que o campo de **ElementData** deste bloco contém um valor de cabeçalho de DWORD. Como esse valor é interpretado depende do tipo de **PersistID** do bloco.  <br/> Para todos os tipos de **PersistID** especificados no [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), esse valor é zero.  <br/> |
 |RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variável  <br/> |Indica que este bloco contém a **EntryID** da pasta especificada pelo **PersistID**.  <br/> |
 |ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Indica que não há mais blocos **PersistElement** serão processados.  <br/> |
    
@@ -85,19 +85,19 @@ Se o valor de **PersistElementType** não for uma daquelas definidas aqui, o blo
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para a criação e a localização de pastas especiais em uma caixa de correio.
     
-[[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > Identifica e marca mensagens de email que foram projetadas para fazer com que os destinatários a divulgação de informações confidenciais (por exemplo, senhas e outras informações pessoais) para uma fonte não confiável.
     

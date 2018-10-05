@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: cd7a287a2240d372edf6cca6bac522266c0ca620
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00c07069ed174fe55556dfe48398d65b4e64100e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581164"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382663"
 ---
 # <a name="pidtagreceivedbyaddresstype-canonical-property"></a>Propriedade canônica PidTagReceivedByAddressType
 
@@ -44,11 +44,11 @@ A cadeia de caracteres de tipo de endereço pode conter apenas caracteres alfab�
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em mensagens de email.
     

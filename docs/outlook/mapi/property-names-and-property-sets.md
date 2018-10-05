@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571826"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391651"
 ---
 # <a name="property-names-and-property-sets"></a>Nomes de propriedades e conjuntos de propriedades
 
@@ -27,7 +27,7 @@ O nome de cada propriedade nomeada tem duas partes:
     
 - Uma cadeia de caracteres Unicode ou o valor numérico de 32 bits. 
     
-Nomes de propriedades nomeadas são descritos usando uma estrutura [MAPINAMEID](mapinameid.md) . Essa estrutura contém um membro do conjunto de propriedade, um membro para especificar o nome no formato numérico ou cadeia de caracteres e para identificar qual formato é usado. Como o conjunto de propriedades é parte do nome da propriedade, não é opcional. MAPI definiu vários conjuntos de propriedade para uso por clientes e provedores de serviço, mas se um conjunto existente de propriedade for inadequado, um novo conjunto de propriedades pode ser definido. Clientes e provedores de serviços podem definir seus próprios conjuntos de propriedade chamando [CoCreateGUID](http://msdn.microsoft.com/en-us/library/ms688568.aspx) função. Normalmente, esses conjuntos de propriedade são criados para os aplicativos cliente personalizados. 
+Nomes de propriedades nomeadas são descritos usando uma estrutura [MAPINAMEID](mapinameid.md) . Essa estrutura contém um membro do conjunto de propriedade, um membro para especificar o nome no formato numérico ou cadeia de caracteres e para identificar qual formato é usado. Como o conjunto de propriedades é parte do nome da propriedade, não é opcional. MAPI definiu vários conjuntos de propriedade para uso por clientes e provedores de serviço, mas se um conjunto existente de propriedade for inadequado, um novo conjunto de propriedades pode ser definido. Clientes e provedores de serviços podem definir seus próprios conjuntos de propriedade chamando [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) função. Normalmente, esses conjuntos de propriedade são criados para os aplicativos cliente personalizados. 
   
 Conjuntos de propriedades do MAPI são representados por constantes a seguir:
   

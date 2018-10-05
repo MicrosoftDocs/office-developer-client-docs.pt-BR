@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 73fa720b4285524d12a9dac468785f6ce211a2b1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4845c413232938319d2c6013d334137ebd2a8716
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574661"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384931"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Propriedade canônica PidTagInternetMailOverrideFormat
 
@@ -36,21 +36,21 @@ Indica o método de codificação e a inclusão de HTML para anexos que devem se
    
 ## <a name="remarks"></a>Comentários
 
-Para obter informações sobre as partes sub-recurso em que essa propriedade é dividida, consulte [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
+Para obter informações sobre as partes sub-recurso em que essa propriedade é dividida, consulte [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Converte de convenções de email padrão da Internet para os objetos de mensagem.
     

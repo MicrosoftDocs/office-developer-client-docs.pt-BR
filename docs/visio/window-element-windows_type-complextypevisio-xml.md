@@ -9,12 +9,12 @@ ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: >-
   Representa uma janela aberta em uma estância do Microsoft Visio.
    Esse elemento contém as informações necessárias para recriar exatamente uma janela de interface de usuário no espaço de trabalho do aplicativo quando o arquivo é aberto inicialmente pelo Visio.
-ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385344"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>Elemento da janela (Windows_Type complexType) ('Visio XML')
 
@@ -26,7 +26,7 @@ Representa uma janela aberta em uma estância do Microsoft Visio.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Windows.XML  <br/> |
    

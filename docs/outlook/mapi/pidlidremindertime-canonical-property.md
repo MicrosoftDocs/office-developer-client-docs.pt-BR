@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dd1daddbdf4e953dac53d44181fedf371ce3beb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8371418aabc557f48c74039320305df59624d7ac
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382467"
 ---
 # <a name="pidlidremindertime-canonical-property"></a>Propriedade canônica PidLidReminderTime
 
@@ -43,11 +43,11 @@ Para objetos de calendário, essa propriedade representa a hora de quando o usu�
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.
     

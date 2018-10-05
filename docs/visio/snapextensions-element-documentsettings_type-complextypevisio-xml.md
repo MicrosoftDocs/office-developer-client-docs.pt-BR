@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
 description: Especifica se uma configuração de extensão de snap específico está habilitada ou desabilitada para a janela ativa.
-ms.openlocfilehash: 4c00d8d45c1eb33f57f727779db91e358a83a969
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f21653fca7f1f5fa7be7449f1e588cf5ef67263
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773008"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387612"
 ---
 # <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica se uma configuração de extensão de snap específico está habilita
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

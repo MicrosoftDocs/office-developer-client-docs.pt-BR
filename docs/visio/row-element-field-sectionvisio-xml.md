@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
 description: Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
-ms.openlocfilehash: ec01ae3743eaf5345685c7273404bfdb826579ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 578269b9bcb2a85db2145f1bccafd3c3cff91936
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772787"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389635"
 ---
 # <a name="row-element-field-section-visio-xml"></a>Elemento de linha (seção de campo) ('Visio XML')
 
@@ -23,7 +23,7 @@ Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
    

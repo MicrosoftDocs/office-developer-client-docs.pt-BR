@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7e8a624090181ae35e4bf2828f72b645e5011728
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b4e8ef3f38a373cd3bab7af6f01d42113fe5fdc3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570048"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391420"
 ---
 # <a name="pidlidlogtype-canonical-property"></a>Propriedade canônica PidLidLogType
 
@@ -39,11 +39,11 @@ Contém o nome de exibição do aplicativo de registro no diário (por exemplo, 
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para diários.
     

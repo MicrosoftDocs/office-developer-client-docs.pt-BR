@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c60b542852653bd617b5b9f604bbc44d575e5cb3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576012"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384763"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
@@ -31,8 +31,8 @@ Suporta o uso dos formulários configuráveis de tempo de execução em ambiente
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
 |Expostos pelo:  <br/> |Objetos de fábrica do formulário  <br/> |
-|Implementada por:  <br/> |Servidores de formulário  <br/> |
-|Chamado pelo:  <br/> |Visualizadores de formulário  <br/> |
+|Implementado por:  <br/> |Servidores de formulário  <br/> |
+|Chamado por:  <br/> |Visualizadores de formulário  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
@@ -46,7 +46,7 @@ Suporta o uso dos formulários configuráveis de tempo de execução em ambiente
    
 ## <a name="remarks"></a>Comentários
 
-A interface **IMAPIFormFactory** baseia-se na interface [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) e objetos que implementam **IMAPIFormFactory** também devem herdar de **IClassFactory**.
+A interface **IMAPIFormFactory** baseia-se na interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) e objetos que implementam **IMAPIFormFactory** também devem herdar de **IClassFactory**.
   
  **IMAPIFormFactory** é a interface que os visualizadores de formulário usam para criar novos objetos de formulário quando um servidor de formulário oferece suporte a mais de uma classe de mensagem (ou seja, mais de um tipo de objeto do formulário). 
   

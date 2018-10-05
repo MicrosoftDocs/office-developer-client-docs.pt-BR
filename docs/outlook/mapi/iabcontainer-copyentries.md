@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddb730ed92db4c8d281e7c8d5d9b18bc44505598
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565323"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382943"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
@@ -70,7 +70,7 @@ CREATE_REPLACE
   
 > Indica que uma nova entrada deve substituir um existente, se for determinado que as duas versões sejam duplicatas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -92,9 +92,9 @@ O método **IABContainer::CopyEntries** copia entradas do mesmo contêiner ou em
     
 4. Método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da nova entrada para executar uma gravação. 
     
-5. Método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) da nova entrada ao lançamento de referência do contêiner. 
+5. Método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) da nova entrada ao lançamento de referência do contêiner. 
     
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Todos os contêineres que suportam o método **IABContainer::CopyEntries** devem ser pode ser modificados. Defina sinalizador AB_MODIFIABLE do seu contêiner na sua propriedade **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que ela é modificável. 
   

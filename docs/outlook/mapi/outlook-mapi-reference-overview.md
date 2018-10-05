@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: '�ltima altera��o: sexta-feira, 1 de fevereiro de 2013'
-ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5c1daf44f89d1ef8aa7472d69dfd7e86bbb92f6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564777"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387997"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Visão geral da referência de MAPI do Outlook
 
@@ -32,7 +32,7 @@ Anterior para o Microsoft Office Outlook 2007, a referência do programador de M
   
 A implementação do MAPI do Outlook difere de implementação do Microsoft Exchange. A implementação do Outlook é otimizada para execução nos computadores cliente e enfatiza baixa latência. A implementação do Exchange é direcionada para servidores que exigem alta disponibilidade e melhor multithreading são importantes.
   
-Use essa documentação para aplicativos executados em sistemas de usuário final. Para aplicativos de servidor, use a implementação do Exchange do MAPI se apropriado ou use APIs atual do Exchange, como serviços Web do Exchange. Para obter mais informações sobre serviços Web do Exchange, consulte a [Referência do Exchange Web Services](http://msdn.microsoft.com/en-us/library/bb204119.aspx).
+Use essa documentação para aplicativos executados em sistemas de usuário final. Para aplicativos de servidor, use a implementação do Exchange do MAPI se apropriado ou use APIs atual do Exchange, como serviços Web do Exchange. Para obter mais informações sobre serviços Web do Exchange, consulte a [Referência do Exchange Web Services](https://msdn.microsoft.com/library/bb204119.aspx).
   
 Talvez seja possível escrever aplicativos que funcionam com o Outlook ou o Exchange implementações de MAPI. Por exemplo, o MFCMAPI funciona bem em qualquer uma das plataformas. As implementações tem muitos recursos comuns, mas há diferenças óbvias e sutil. Você precisará testar cuidadosamente em ambas as plataformas, caso você pretenda para seu aplicativo funcionar em todos os ambientes. Esse teste exigirá dois sistemas porque não há suporte para a execução as duas implementações na mesma instalação do sistema operacional.
   
@@ -46,7 +46,7 @@ Para obter informações sobre quais são as novidades nesta edição, consulte 
     
 Se você ainda não conhece para desenvolver aplicativos MAPI para Outlook, consulte os seguintes tópicos:
   
-- [Selecionando uma API ou tecnologia para desenvolver soluções do Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [Selecionando uma API ou tecnologia para desenvolver soluções do Outlook 2013](https://msdn.microsoft.com/library/jj900714.aspx)
     
 - [Arquivos de cabe�alho usados com freq��ncia](commonly-used-header-files.md)
     

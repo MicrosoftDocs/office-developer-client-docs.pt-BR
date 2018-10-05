@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d5ebb0e16138c3cc65ff6fd7c635e5498c9c1ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573401"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388900"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
@@ -26,8 +26,8 @@ Certifica-se de que o processo de chamada tem acesso de leitura ao intervalo esp
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |mapiwin.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente.  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços e aplicativos cliente.  <br/> |
    
 ```cpp
 BOOL IsBadBoundedStringPtr(
@@ -46,7 +46,7 @@ BOOL IsBadBoundedStringPtr(
   
 > [in] O tamanho máximo da cadeia de caracteres, em caracteres. A função verifica para acesso de leitura em todos os caracteres até o caractere nulo de terminação da cadeia de caracteres ou até o número de caracteres especificada por esse parâmetro, o que for menor. Se esse parâmetro for zero, o valor de retorno é zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 O valor de retorno é zero quando o processo de chamada tem acesso de leitura a todos os caracteres até o caractere nulo de terminação da cadeia de caracteres ou acesso de leitura até o número de caracteres especificado pelo _cchMax_.
   
@@ -60,5 +60,5 @@ A função **IsBadBoundedStringPtr** é equivalente ao uso **IsBadStringPtr**.
 
 
 
-[IsBadStringPtr](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
+[IsBadStringPtr](https://msdn.microsoft.com/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

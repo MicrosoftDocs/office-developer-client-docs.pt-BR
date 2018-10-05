@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583383"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384630"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
@@ -73,7 +73,7 @@ FILL_ENTRY
   
 > [out] Reservado; deve ser **nula**.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -101,7 +101,7 @@ Alguns exemplos de quando um provedor de catálogo de endereços deverá impleme
     
 - Para controlar a interação entre as propriedades na entrada do provedor de host e a entrada original, como o **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) dos valores de controles de edição na exibição detalhes que contêm diferentes de computação componentes do endereço.
     
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Quando um provedor de host copia ou cria uma entrada do seu provedor e o fornecimento de uma implementação do objeto de propriedade por meio de **IABLogon:: OpenTemplateID**, você pode manipular a maioria das chamadas para manter a entrada. No entanto, porque ele é o provedor de host para encaminhar essas chamadas para você, o provedor de host pode interceptar qualquer chamada e realizar processamento personalizado antes de encaminhar a chamada.
   
@@ -117,7 +117,7 @@ Você deve usar as seguintes diretrizes em suas implementações de objeto de pr
     
 Em geral, verifique a implementação da entrada que você passa de volta para o provedor de host interceptar todos os métodos para executar a manipulação de contexto específicos das propriedades relevantes. Se o sinalizador FILL_ENTRY é passado no parâmetro _ulTemplateFlags_ , defina todas as propriedades para a entrada. 
   
-Se você retornar um novo objeto property no parâmetro _lppMAPIPropNew_ , chame o método [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) do objeto de propriedade do provedor de host para manter uma referência. Todas as chamadas através do objeto acoplado que a implementação de **IMAPIProp** retornada em _lppMAPIPropNew_ devem ser roteadas para seus métodos correspondentes do objeto de propriedade de host depois que eles são tratados pelo objeto acoplado. 
+Se você retornar um novo objeto property no parâmetro _lppMAPIPropNew_ , chame o método [AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) do objeto de propriedade do provedor de host para manter uma referência. Todas as chamadas através do objeto acoplado que a implementação de **IMAPIProp** retornada em _lppMAPIPropNew_ devem ser roteadas para seus métodos correspondentes do objeto de propriedade de host depois que eles são tratados pelo objeto acoplado. 
   
 Os identificadores de propriedade de todas as propriedades nomeadas que são passadas para seu objeto de propriedade acoplada estão no namespace de identificador do seu provedor. A implementação do método [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) deve determinar os nomes das propriedades para que ele possa realizar todas as tarefas específicas do modelo. Da mesma forma, as propriedades que seu provedor passa ao provedor de host também devem ser em seu namespace. Por exemplo, se você definir uma propriedade nomeada no **OpenTemplateID**, você deve usar um dos seus identificadores para o nome — criá-la, se necessário, chamando o método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   

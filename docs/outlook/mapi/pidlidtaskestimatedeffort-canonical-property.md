@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 987188db4a3aceb4b065f59cdf449f943f68e70d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5700ab6baaab2a5e73448582a855e6f243d5361d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565316"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382796"
 ---
 # <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propriedade canônica PidLidTaskEstimatedEffort
 
@@ -43,11 +43,11 @@ O valor deve ser maior ou igual a 0 e menor que 0x5AE980DF (1,525,252,319), onde
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas. 
     

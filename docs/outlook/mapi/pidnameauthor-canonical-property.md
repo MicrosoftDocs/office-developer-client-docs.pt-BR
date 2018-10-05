@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d45ea1e4-727e-434a-b6b7-73179baa3e5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e442d57a75fac2292bc70b287da20bdcc5100dc9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3524ac0029da2f3926f6bb25a7968af9402a8782
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570097"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390832"
 ---
 # <a name="pidnameauthor-canonical-property"></a>Propriedade canônica PidNameAuthor
 
@@ -39,11 +39,11 @@ Representa o autor do arquivo que está anexado ao documento.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em documentos.
     

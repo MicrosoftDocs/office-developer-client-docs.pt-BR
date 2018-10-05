@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 90dc35e72fc863ab12d9d6df9c54def7af788efd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b62779567a7dbd298fdd313e90b13fb223e4e47e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568886"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389922"
 ---
 # <a name="pidlidtimezone-canonical-property"></a>Propriedade canônica PidLidTimeZone
 
@@ -37,17 +37,17 @@ Especifica informações sobre o fuso horário de uma reunião recorrente.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é somente leitura se a propriedade **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) não estiver definida, mas se a propriedade **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) for TRUE e **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) propriedade for FALSE. A palavra inferior Especifica um índice em uma tabela que contém informações de fuso horário. Partir da palavra superior, somente o bit mais alto é lido. Se esse bit é definido, então o fuso horário referenciado não observará será seguido horário de verão (DST), caso contrário as datas do horário de verão detalhadas nos [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Essa propriedade é somente leitura se a propriedade **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) não estiver definida, mas se a propriedade **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) for TRUE e **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) propriedade for FALSE. A palavra inferior Especifica um índice em uma tabela que contém informações de fuso horário. Partir da palavra superior, somente o bit mais alto é lido. Se esse bit é definido, então o fuso horário referenciado não observará será seguido horário de verão (DST), caso contrário as datas do horário de verão detalhadas nos [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

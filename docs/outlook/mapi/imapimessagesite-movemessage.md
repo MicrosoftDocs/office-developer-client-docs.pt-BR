@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e12ce442540930d9fa366ced073afc4828a01244
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576110"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382369"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -47,9 +47,9 @@ HRESULT MoveMessage(
     
  _prcPosRect_
   
-> [in] Um ponteiro para uma estrutura de [Retangular](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário. A próxima forma exibida também usa esse retângulo de janela. 
+> [in] Um ponteiro para uma estrutura de [Retangular](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contém o tamanho da janela e a posição atual do formulário. A próxima forma exibida também usa esse retângulo de janela. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -63,9 +63,9 @@ MAPI_E_NO_SUPPORT
 
 Objetos de formulário chame o método **IMAPIMessageSite::MoveMessage** para mover a mensagem atual para uma nova pasta. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-A implementação do Visualizador de um formulário de **MoveMessage** deve chamar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , passando o sinalizador VCDIR_MOVE, antes de realmente mover a mensagem para uma nova pasta. Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) . 
+A implementação do Visualizador de um formulário de **MoveMessage** deve chamar o método [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , passando o sinalizador VCDIR_MOVE, antes de realmente mover a mensagem para uma nova pasta. Para obter a estrutura de **Retangular** usada pela janela de um formulário, chame a função do Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
 Para obter uma lista das interfaces relacionadas aos servidores de formulário, consulte [Interfaces de formulário de MAPI](mapi-form-interfaces.md).
   
@@ -73,11 +73,11 @@ Para obter uma lista das interfaces relacionadas aos servidores de formulário, 
 
 Após o retorno de **MoveMessage**, formulários devem verificar se há uma mensagem atual e, em seguida, descartar sozinhos, se não houver nenhum. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Não foi implementado.  <br/> |
    
@@ -90,7 +90,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulário MAPI](mapi-form-interfaces.md)
 

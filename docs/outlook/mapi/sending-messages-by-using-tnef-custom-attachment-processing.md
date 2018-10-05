@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 0c7cdf754b2a4b38516b1ac06074fdba9d2227f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d154b26319f5ed72b1abd6aeef307d07a63bda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577741"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388564"
 ---
 # <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Enviar mensagens usando o processamento de anexos personalizado com TNEF
 
@@ -41,7 +41,7 @@ Para personalizar o processamento de anexo ao enviar uma mensagem:
     
 9. Obter o texto da mensagem marcados chamando o método [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Esse texto marcado é lido usando os métodos da interface **IStream** , codificados usando o modelo de anexo do sistema de mensagens e gravado em um sistema de mensagens. 
     
-10. Chame o método [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar o objeto [ITnef](itnefiunknown.md) . 
+10. Chame o método [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar o objeto [ITnef](itnefiunknown.md) . 
     
 11. Escreva os anexos restantes para o sistema de mensagens por meio do modelo de anexo do sistema de mensagens.
     

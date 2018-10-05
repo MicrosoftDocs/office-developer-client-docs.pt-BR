@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584181"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386527"
 ---
 # <a name="about-registering-stores-for-indexing"></a>Sobre como registrar repositórios para indexação
 
@@ -38,7 +38,7 @@ Por padrão, o Windows Desktop Search adiciona os seguintes quatro tipos de prov
  Provedores de armazenamento de terceiros que devem ser indexados devem ser registrados no registro do Windows. 
   
 > [!NOTE]
-> Os administradores e usuários podem usar uma configuração de diretiva de grupo para impedir a indexação de itens do Outlook do Windows Desktop Search. Para obter mais informações, consulte [Estendendo o Windows Desktop Search](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Os administradores e usuários podem usar uma configuração de diretiva de grupo para impedir a indexação de itens do Outlook do Windows Desktop Search. Para obter mais informações, consulte [Estendendo o Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Chaves do registro
 

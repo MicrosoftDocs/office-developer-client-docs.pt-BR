@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f13c2825fc0127b95fbf5bc0b41d68c64556864
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569334"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384084"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriedade canônica PidTagMessageAttachments
 
@@ -46,15 +46,15 @@ Essa propriedade pode ser usada para restrição subobjeto especificando-o na es
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Define as estruturas de dados básicos que são usadas em operações remotas.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Define as estruturas de dados básicos que são usadas em operações remotas.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
     

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 9e95423a1aa9a04247a70592a797d2395cafecc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595367"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382586"
 ---
 # <a name="starting-a-mapi-session"></a>Iniciar sessão MAPI
 
@@ -27,7 +27,7 @@ Embora não haja uma quantidade significativa de trabalho executado durante a se
   
 1. Chame **MAPIInitialize** para inicializar o conjunto padrão de bibliotecas MAPI. 
     
-2. Se você precisa usar as bibliotecas OLE, chamar a função OLE [OleInitialize](http://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. Se você precisa usar as bibliotecas OLE, chamar a função OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
 3. Se você precisar usar a biblioteca do utilitário MAPI, chame [ScInitMapiUtil](scinitmapiutil.md).
     

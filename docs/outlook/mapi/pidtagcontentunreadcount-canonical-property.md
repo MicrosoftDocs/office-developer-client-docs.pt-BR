@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b15dd467b7418ea10d384183dc32284924a90212
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9572a053182aaa59020a6816736b8a4b92e778b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581073"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383826"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propriedade canônica PidTagContentUnreadCount
 
@@ -46,15 +46,15 @@ Alguns aplicativos cliente exibem a linha do cabeçalho de uma categoria de form
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Microsoft Exchange Server.
     
-[[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Trata as operações de pasta.
     
-[[MS-OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > Inclui as operações permitidas para os objetos de tabela principal.
     

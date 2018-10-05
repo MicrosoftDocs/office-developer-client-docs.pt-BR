@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 100d59a0fd95fcad1976e82aebf6892227c08ec9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 75d390edd06aaf826f6b8c2d996e4e08bf6a7334
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384210"
 ---
 # <a name="pidtagdepth-canonical-property"></a>Propriedade canônica PidTagDepth
 
@@ -42,15 +42,15 @@ Essa propriedade também pode especificar o nível de categorização de uma lin
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > Inclui as operações permitidas para os objetos de tabela principal.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     

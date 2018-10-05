@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c7f62c69c7a06f7ca0e4bfddcf789cddc536ea6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567633"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386562"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
@@ -118,7 +118,7 @@ MDB_WRITE
   
 > [out] Um ponteiro para o ponteiro para a mensagem armazenar o objeto para o spooler MAPI e os aplicativos de cliente para fazer logon.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -158,7 +158,7 @@ MAPI chama o método **IMSProvider::Logon** para fazer a maior parte do processa
   
 Além do objeto de repositório de mensagem retornada para o cliente e o uso de spooler MAPI, o provedor também retorna um objeto de logon do repositório de mensagem para MAPI usar em controlar o repositório aberto. O objeto de logon do repositório de mensagem e o objeto de repositório de mensagem devem ser estreitamente vinculadas dentro do provedor de armazenamento de mensagem para que cada uma pode afetar o outro. O uso do objeto store e o objeto de logon deve ser idêntico; deve haver uma correspondência direta entre o objeto de logon e o objeto de armazenamento, de forma que os objetos agir como se fossem um objeto que expõe duas interfaces. Os dois objetos também é preciso criar juntas e liberação juntos. 
   
-O objeto de suporte MAPI, criado pelo MAPI e passadas para o provedor no parâmetro _lpMAPISup_ , fornece acesso às funções no MAPI que requer que o provedor. Eles incluem funções que salvar e recuperar informações de perfil, acessar os catálogos de endereços e assim por diante. O ponteiro _lpMAPISup_ pode ser diferente para cada repositório que é aberto. Enquanto o processamento de chamadas para um armazenamento de mensagens após o logon, o provedor de armazenamento deve usar a variável de _lpMAPISup_ que é específica para esse repositório. Qualquer chamada de **Logon** que abre um armazenamento de mensagens e tiver êxito na criação de um objeto de logon do repositório de mensagem, o provedor deve salvar um ponteiro para o objeto de suporte MAPI no objeto de logon repositório e deve chamar o método [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para adicionar uma referência para o objeto de suporte. 
+O objeto de suporte MAPI, criado pelo MAPI e passadas para o provedor no parâmetro _lpMAPISup_ , fornece acesso às funções no MAPI que requer que o provedor. Eles incluem funções que salvar e recuperar informações de perfil, acessar os catálogos de endereços e assim por diante. O ponteiro _lpMAPISup_ pode ser diferente para cada repositório que é aberto. Enquanto o processamento de chamadas para um armazenamento de mensagens após o logon, o provedor de armazenamento deve usar a variável de _lpMAPISup_ que é específica para esse repositório. Qualquer chamada de **Logon** que abre um armazenamento de mensagens e tiver êxito na criação de um objeto de logon do repositório de mensagem, o provedor deve salvar um ponteiro para o objeto de suporte MAPI no objeto de logon repositório e deve chamar o método [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para adicionar uma referência para o objeto de suporte. 
   
 O parâmetro _ulUIParam_ deve ser usado se o provedor apresenta caixas de diálogo durante a chamada de **Logon** . No entanto, as caixas de diálogo não devem ser apresentadas se _ulFlags_ contiver o sinalizador MDB_NO_DIALOG. Se uma interface de usuário precisa ser chamado, mas não é permitir que _ulFlags_ , ou se por algum outro motivo uma interface de usuário não pode ser exibida, o provedor deve retornar MAPI_E_LOGON_FAILED. Se o **Logon** exibe uma caixa de diálogo e o usuário cancela o logon, geralmente clicando o botão **Cancelar** da caixa de diálogo, o provedor deve retornar MAPI_E_USER_CANCEL. 
   
@@ -178,7 +178,7 @@ Quando _lpEntryID_ é **Nulo**, o armazenamento de mensagens para usar ainda nã
   
 Se um provedor localiza que todas as informações necessárias não estão no perfil, ele deverá retornar MAPI_E_UNCONFIGURED. MAPI chamará função do ponto de entrada do provedor a mensagem service para permitir que o usuário para selecionar um repositório, ou até mesmo para criar um e inserir um nome de conta e senha, como necessária. MAPI cria automaticamente uma nova seção de perfil para um novo repositório; Essa nova seção perfil pode ser temporário ou permanente, dependendo de como ela foi adicionada. Se o provedor de armazenamento chama o método **IMAPISupport::ModifyProfile** , nova seção perfil se torna permanente e o repositório for adicionado à lista de armazenamentos de mensagens retornadas pelo método [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
   
-O parâmetro _lpInterface_ Especifica o IID da interface necessária para o objeto store recém-aberta. Passando **Nulo** _lpInterface_ Especifica que a interface de repositório de mensagem MAPI, **IMsgStore**, é necessária. Passar o objeto de repositório de mensagem, IID_IMsgStore, também especifica que **IMsgStore** é necessária. Se IID_IUnknown é transmitido em _lpInterface_, o provedor deve abrir o repositório usando qualquer interface derivada de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) é mais adequado para o provedor (novamente, isso é geralmente **IMsgStore**). Quando IID_IUnknown é passado, a implementação chamando usa o método de [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) para selecionar uma interface após a operação de abertura do repositório for bem-sucedido. 
+O parâmetro _lpInterface_ Especifica o IID da interface necessária para o objeto store recém-aberta. Passando **Nulo** _lpInterface_ Especifica que a interface de repositório de mensagem MAPI, **IMsgStore**, é necessária. Passar o objeto de repositório de mensagem, IID_IMsgStore, também especifica que **IMsgStore** é necessária. Se IID_IUnknown é transmitido em _lpInterface_, o provedor deve abrir o repositório usando qualquer interface derivada de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) é mais adequado para o provedor (novamente, isso é geralmente **IMsgStore**). Quando IID_IUnknown é passado, a implementação chamando usa o método de [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) para selecionar uma interface após a operação de abertura do repositório for bem-sucedido. 
   
 A chamada **IMSProvider::Logon** deve retornar informações suficientes, por exemplo, um caminho para o repositório e as credenciais para acessar o repositório, para permitir que o spooler MAPI fazer logon no repositório mesmo que o provedor de armazenamento faz sem apresentar uma caixa de diálogo. Os parâmetros _lpcbSpoolSecurity_ e _lppbSpoolSecurity_ são usados para retornar essas informações. O provedor aloca a memória para esses dados ao passar um ponteiro para um buffer no parâmetro de _lpfAllocateBuffer_ da função [MSProviderInit](msproviderinit.md) ; o provedor coloca o tamanho desse buffer na _lpcbSpoolSecurity_. 
   

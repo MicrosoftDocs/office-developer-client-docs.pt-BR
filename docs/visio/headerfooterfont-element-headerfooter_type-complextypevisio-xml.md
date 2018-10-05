@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Especifica a fonte usada para o texto de cabeçalho e rodapé.
-ms.openlocfilehash: 249040702b1594cc650ccf1304ed7c1c79581ea3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f14d973caddc77394881d1b1dfd62a43f10cd7bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771999"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385967"
 ---
 # <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Elemento HeaderFooterFont (HeaderFooter_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica a fonte usada para o texto de cabeçalho e rodapé.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

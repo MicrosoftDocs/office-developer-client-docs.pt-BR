@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 22f9b845-719c-25e1-1ef2-af84b1b2ad82
-ms.openlocfilehash: d1febf28a4ee18116ff825634f94c9902f6a3fd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57a485aa1c1d63bd5289e0e4ae932c14d539285d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773050"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391343"
 ---
 # <a name="stencilgrouptype-complextype-visio-xml"></a>StencilGroup_Type complexType ('Visio XML')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19773050"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extensão de base** <br/> |XSD:int  <br/> |
    

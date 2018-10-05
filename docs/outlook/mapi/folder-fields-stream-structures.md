@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567157"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385085"
 ---
 # <a name="folder-fields-stream-structures"></a>Estruturas de fluxo do campo de pastas
 
@@ -66,7 +66,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     
 - **FieldNameLength**: WORD (2 bytes), o número de elementos na matriz **FieldName** .
     
-- **FieldName**: uma matriz de CHAR. Esta é a representação de página de código ANSI CP_ACP do nome do campo. A contagem dessa matriz é igual a **FieldNameLength**. O nome do campo deve satisfazer as restrições no parâmetro nome conforme especificado no método [UserProperties](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: uma matriz de CHAR. Esta é a representação de página de código ANSI CP_ACP do nome do campo. A contagem dessa matriz é igual a **FieldNameLength**. O nome do campo deve satisfazer as restrições no parâmetro nome conforme especificado no método [UserProperties](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Por motivos de compatibilidade herdado, Outlook pode ser capaz de manipular alguns valores de **FieldName** não atendem a essas restrições, porém nesses casos não são cobertos neste tópico. 
@@ -83,7 +83,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     
 - **FieldNameLength**: WORD (2 bytes), o número de elementos na matriz **FieldName** .
     
-- **FieldName**: uma matriz de WCHAR. Esta é a representação Unicode (UTF-16) do nome do campo. A contagem dessa matriz é igual a **FieldNameLength**. O nome do campo deve satisfazer as restrições no parâmetro nome conforme especificado no método [UserProperties](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: uma matriz de WCHAR. Esta é a representação Unicode (UTF-16) do nome do campo. A contagem dessa matriz é igual a **FieldNameLength**. O nome do campo deve satisfazer as restrições no parâmetro nome conforme especificado no método [UserProperties](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Por motivos de compatibilidade herdado, Outlook pode ser capaz de manipular alguns valores **FieldName** não atendem a essas restrições, mas nesses casos não são cobertos neste tópico. 

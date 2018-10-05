@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 71e75e9a-1392-b40b-1d51-167cd28b2c53
 description: Especifica informações sobre as formas em um mestre em um desenho.
-ms.openlocfilehash: d1ba67a414ac80be9da2beebb93acc89faf71172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 381afe288864553dc56bdf8bb6dc19861abdcc8f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772318"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385463"
 ---
 # <a name="mastercontents-element-visio-xml"></a>Elemento MasterContents ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica informações sobre as formas em um mestre em um desenho.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |. XML de # mestre  <br/> |
    

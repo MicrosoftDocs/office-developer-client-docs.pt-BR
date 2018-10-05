@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e691f428-fdb2-4ec5-b6e6-33fe01725c5c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 176c42f26a8c318c05d82c6fa8a81c794b23628a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db199961692b6c0953d21a43c0902ceb391dcd3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590901"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389579"
 ---
 # <a name="pidtagbusinesstelephonenumber-canonical-property"></a>Propriedade canônica PidTagBusinessTelephoneNumber
 
@@ -42,15 +42,15 @@ Essas propriedades são exemplos das propriedades que fornece acesso a informaç
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contato e objetos de lista de distribuição pessoal.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: af2f776c-1b77-4942-827a-4363eda3924f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1d654c2a14728979146ef09618bfc4e9e618f9d8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f279d8ea305c0b1e609881b15e39653c41d5828e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594765"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390132"
 ---
 # <a name="pidtagattachcontentlocation-canonical-property"></a>Propriedade canônica PidTagAttachContentLocation
 
@@ -42,7 +42,7 @@ Essas propriedades são usadas para suporte MHTML. Eles representam o cabeçalho
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

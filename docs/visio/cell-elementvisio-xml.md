@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Especifica os elementos de célula podem estar contidos em um DocumentSheet, StyleSheet, PageSheet ou ShapeSheet.
-ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575627"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391469"
 ---
 # <a name="cell-element-visio-xml"></a>Elemento de célula ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica os elementos de célula podem estar contidos em um DocumentSheet, Sty
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document, pages.xml, masters.xml,. XML de # mestre, página # XML  <br/> |
    
@@ -59,7 +59,7 @@ Especifica os elementos de célula podem estar contidos em um DocumentSheet, Sty
 |E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
 |S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
 |N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula **ShapeSheet** .  <br/> |O nome da célula **ShapeSheet** .  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|S  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
 |V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula **ShapeSheet** .  <br/> |
    
 ## <a name="remarks"></a>Comentários
@@ -109,8 +109,8 @@ O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de 
 |CenterY  <br/> |Determina se a página de desenho ficará centralizada verticalmente na página impressa.  <br/> |[Célula CenterY (Seção Print Properties)](centery-cell-print-properties-section.md) <br/> |
 |ClippingPath  <br/> |Contém uma referência para a geometria do caminho que uma imagem limitada por.  <br/> |[Célula ClippingPath (Seção Foreign Image Info)](clippingpath-cell-foreign-image-info-section.md) <br/> |
 |ColorSchemeIndex  <br/> |Determina o esquema de cores de um tema aplicado à forma, como um número inteiro.  <br/> |[Célula ColorSchemeIndex (Seção Theme Properties)](colorschemeindex-cell-theme-properties-section.md) <br/> |
-|Comment  <br/> |Contém o texto exibido em um comentário.  <br/> |[Célula Comment (Seção Annotation)](comment-cell-annotation-section.md) <br/> |
-|Comment  <br/> |Contém o texto de comentário em formato de sequência de caracteres de uma forma.  <br/> |[Célula Comment (Seção Miscellaneous)](comment-cell-miscellaneous-section.md) <br/> |
+|Comentário  <br/> |Contém o texto exibido em um comentário.  <br/> |[Célula Comment (Seção Annotation)](comment-cell-annotation-section.md) <br/> |
+|Comentário  <br/> |Contém o texto de comentário em formato de sequência de caracteres de uma forma.  <br/> |[Célula Comment (Seção Miscellaneous)](comment-cell-miscellaneous-section.md) <br/> |
 |CompoundType  <br/> |Determina o tipo de compostos da linha de uma forma.  <br/> |[Célula CompoundType (Seção Line Format)](compoundtype-cell-line-format-section.md) <br/> |
 |ConFixedCode  <br/> |Determina quando um conector é redirecionado.  <br/> |[Célula ConFixedCode (Seção Shape Layout)](confixedcode-cell-shape-layout-section.md) <br/> |
 |ConLineJumpCode  <br/> |Determina quando um conector salta.  <br/> |[Célula ConLineJumpCode (Seção Shape Layout)](conlinejumpcode-cell-shape-layout-section.md) <br/> |

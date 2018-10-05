@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
-ms.openlocfilehash: 15500f9ffa8375a8b34a09cd9bd72efa7ad82768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ae61b730a59c5f8e6acae3b7a4c5cb8e0298f91
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771858"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388739"
 ---
 # <a name="fillgradienttype-complextype-visio-xml"></a>FillGradient_Type complexType ('Visio XML')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19771858"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extensão de base** <br/> |Section_Type  <br/> |
    

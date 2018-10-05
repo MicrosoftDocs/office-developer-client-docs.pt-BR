@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 004dc563-d089-230f-0055-038b72eebbed
-ms.openlocfilehash: 5dec2bde6b2ac704d9107bf195282bb3f53e61e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ec426ef2c7afd913d904c8ceba938549727c799
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389446"
 ---
 # <a name="relcubbeztotype-complextype-visio-xml"></a>RelCubBezTo_Type complexType ('Visio XML')
 
@@ -19,7 +19,7 @@ ms.locfileid: "19772697"
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extensão de base** <br/> |GeometryRow_Type  <br/> |
    

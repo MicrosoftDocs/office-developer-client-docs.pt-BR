@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 629746cedf8c6f4a8c960912a9ab1bcdc7a09e9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574143"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390923"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Propriedade canônica PidTagAttachDataBinary
 
@@ -44,13 +44,13 @@ Para um anexo de arquivo de documento OLE, o provedor de armazenamento de mensag
   
 Para um objeto de armazenamento, como um arquivo composto no formato de arquivo de documento OLE 2.0, alguns provedores de serviços permitem que ele seja aberto com a interface do MAPI **IStreamDocfile** para melhorar o desempenho. Um provedor que ofereça suporte a **IStreamDocfile** deve expor no **PR_ATTACH_DATA_OBJ** e, opcionalmente, pode expor-lo em **PR_ATTACH_DATA_BIN**. 
   
-Para obter mais informações sobre formatos e interfaces OLE, consulte [OLE e transferência de dados](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Para obter mais informações sobre formatos e interfaces OLE, consulte [OLE e transferência de dados](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: eab72c5b49ba501d8ab5516bf5a5eae9ea82abe0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f3f4f42d91c4091943d6183508e2bc76c17197fa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588703"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391029"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>Propriedade canônica PidTagOriginalEntryId
 
@@ -44,15 +44,15 @@ Para um relatório nonread, essa propriedade contém uma cópia do identificador
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Trata-se de sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     

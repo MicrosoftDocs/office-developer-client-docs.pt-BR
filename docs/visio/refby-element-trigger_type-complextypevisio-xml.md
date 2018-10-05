@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: Especifica uma referência a uma página de desenho.
-ms.openlocfilehash: e4726a8fe49a7492cd2f7833bbcf5e6810bae18d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d987825345b64bd6e202970fc786aedaf49c6a94
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383314"
 ---
 # <a name="refby-element-triggertype-complextype-visio-xml"></a>Elemento RefBy (Trigger_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica uma referência a uma página de desenho.
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> ||
    
@@ -47,7 +47,7 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="child-elements"></a>Elementos filho
 
-Nenhum
+Nenhum.
   
 ### <a name="attributes"></a>Atributos
 

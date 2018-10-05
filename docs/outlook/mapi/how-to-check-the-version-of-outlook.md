@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
-ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574689"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388214"
 ---
 # <a name="check-the-version-of-outlook"></a>Verificar a versão do Outlook
 
@@ -19,7 +19,7 @@ ms.locfileid: "22574689"
   
 Este t�pico fornece um exemplo de c�digo que verifica se a vers�o instalada � Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ou Microsoft Outlook 2003 as informa��es de vers�o de vers�es instaladas do Microsoft Outlook. Verificar a vers�o do Outlook em alguns casos, � necess�rio garantir que um elementos de API de chamadas de aplicativos MAPI que s�o compat�veis com a vers�o em execu��o no momento do Outlook.
 
-O seguinte exemplo de c�digo,  `PrintOutlookVersionString`, obt�m as cadeias de caracteres da vers�o completa usando as fun��es **MsiProvideQualifiedComponent** e **MsiGetFileVersion**, conforme declarado no arquivo h no Kit de desenvolvimento de Software (SDK) do Microsoft Windows.  `PrintOutlookVersionString` tamb�m retorna um ponteiro para uma vari�vel Boolean que indica se uma vers�o de 64 bits do Outlook est� instalada. Para obter informa��es sobre os valores esperados para as diferentes partes de uma cadeia de caracteres de vers�o para algumas vers�es lan�adas do Outlook, consulte [como determinar as informa��es de vers�o do Outlook](http://support.microsoft.com/kb/870929).
+O seguinte exemplo de c�digo,  `PrintOutlookVersionString`, obt�m as cadeias de caracteres da vers�o completa usando as fun��es **MsiProvideQualifiedComponent** e **MsiGetFileVersion**, conforme declarado no arquivo h no Kit de desenvolvimento de Software (SDK) do Microsoft Windows.  `PrintOutlookVersionString` tamb�m retorna um ponteiro para uma vari�vel Boolean que indica se uma vers�o de 64 bits do Outlook est� instalada. Para obter informa��es sobre os valores esperados para as diferentes partes de uma cadeia de caracteres de vers�o para algumas vers�es lan�adas do Outlook, consulte [como determinar as informa��es de vers�o do Outlook](https://support.microsoft.com/kb/870929).
   
 ```cpp
 void PrintOutlookVersionString()

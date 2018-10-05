@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 863e401f66a8012b3bd9954ed56c02382f1bd4e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2aeca1a65a859ac9502995a463bc4869609bcd15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565932"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383811"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
@@ -28,8 +28,8 @@ Faz uma cópia de backup da cópia atual do MAPI32 no cliente, computador e rest
 |||
 |:-----|:-----|
 |Exportá-los por:  <br/> |Mapistub  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
-|Implementada por:  <br/> |Windows  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
+|Implementado por:  <br/> |Windows  <br/> |
    
 ```cpp
 DWORD STDAPICALLTYPE FixMAPI(void); 
@@ -39,7 +39,7 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 Se a função tiver êxito, o valor de retorno é um valor diferente de zero.
   
-Se a função falhar, o valor de retorno é zero. Para obter informações de erro estendidas, chame a função de Software Development Kit (SDK) do Microsoft Windows, **[GetLastError](http://msdn.microsoft.com/en-us/library/ms679360.aspx)**. 
+Se a função falhar, o valor de retorno é zero. Para obter informações de erro estendidas, chame a função de Software Development Kit (SDK) do Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -53,7 +53,7 @@ Quando **FixMAPI** faz uma cópia de backup da cópia atual do MAPI32 no computa
 
 
 
-[KB 256946: Você recebe uma mensagem de erro de conflito do programa quando você inicia o Outlook 2000](http://support.microsoft.com/kb/256946)
+[KB 256946: Você recebe uma mensagem de erro de conflito do programa quando você inicia o Outlook 2000](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Descrição da ferramenta Fixmapi.exe incluída com o Internet Explorer 5](http://support.microsoft.com/kb/228457)
+[KB 228457: Descrição da ferramenta Fixmapi.exe incluída com o Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

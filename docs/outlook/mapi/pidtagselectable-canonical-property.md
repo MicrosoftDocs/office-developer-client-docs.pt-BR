@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d376a5219125866f467be01709a6a611ed8d47f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17343a721cbcc642c8cffe95112f25710c0c130c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576418"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383454"
 ---
 # <a name="pidtagselectable-canonical-property"></a>Propriedade canônica PidTagSelectable
 
@@ -52,11 +52,11 @@ Modelos de FAX (profundidade 0, não selecionável)
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOABKT]](http://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
+[[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para modelos de catálogo de endereços.
     

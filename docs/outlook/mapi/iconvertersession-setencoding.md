@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3edcb422eb0e3dd415d49c5e014c8b69095e7ec1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577202"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382418"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Um valor [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) . Apenas os valores a seguir são suportados: 
+> Um valor [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Apenas os valores a seguir são suportados: 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -43,7 +43,7 @@ _et_
    - IET_7BIT
    - IET_8BIT
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 E_INVALIDARG
   
@@ -55,11 +55,11 @@ Chame **SetEncoding** antes de usar [IConverterSession::MAPIToMIMEStm](iconverte
   
 Use **SetEncoding** para definir a codificação para apenas o corpo da mensagem mais externo de um item de email. Microsoft Outlook 2010 e o Microsoft Outlook 2013 escolha a codificação para todos os anexos individuais. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |

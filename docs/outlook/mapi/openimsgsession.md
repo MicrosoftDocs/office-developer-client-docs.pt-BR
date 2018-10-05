@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 607105bd58a14a3510f1ae71246069440a4f05cb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564952"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389621"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
@@ -30,8 +30,8 @@ Cria e abre uma sessão de mensagem que agrupa as mensagens criadas com ela.
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |IMessage.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
    
 ```cpp
 SCODE OpenIMsgSession(
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI deve usar esse método de alocação ao trabalhar com a interface OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) . 
+> [in] Ponteiro para um objeto de alocador de memória expondo a interface OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI deve usar esse método de alocação ao trabalhar com a interface OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) . 
     
  _ulFlags_
   
@@ -55,7 +55,7 @@ SCODE OpenIMsgSession(
   
 > [out] Ponteiro para um ponteiro para o objeto de sessão de mensagem retornada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -81,6 +81,6 @@ Uma sessão de mensagens rastreia de todos os **IMessage**- on - objetos **IStor
   
  **OpenIMsgSession** é usado por clientes e provedores que requerem a capacidade de lidar com várias mensagens relacionadas como objetos OLE **IStorage** . Se houver apenas uma dessas mensagens para ser aberto por vez, não há nenhuma necessidade para controlar várias mensagens e não há motivo para criar uma sessão de mensagem com **OpenIMsgSession**. 
   
-Porque ele está lidando com um objeto OLE subjacente, MAPI deve usar a alocação de memória do OLE. Para obter mais informações sobre objetos de armazenamento estruturado OLE e alocação de memória do OLE, consulte [OLE e transferência de dados](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Porque ele está lidando com um objeto OLE subjacente, MAPI deve usar a alocação de memória do OLE. Para obter mais informações sobre objetos de armazenamento estruturado OLE e alocação de memória do OLE, consulte [OLE e transferência de dados](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

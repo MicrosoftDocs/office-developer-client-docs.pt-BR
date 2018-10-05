@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576250"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390958"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Configurando um suplemento no estado offline
 
@@ -23,7 +23,7 @@ Depois de configurar um suplemento no estado offline, você deve implementar fun
   
 ## <a name="on-connection-routine"></a>Na rotina de Conexão
 
-O **[Método IDTExtensibility2.OnConnection](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** é chamado sempre que um suplemento for carregado. É o ponto de entrada para o suplemento, portanto, o código que você colocar no `OnConnection` função será chamada quando o suplemento for iniciado. No exemplo a seguir, o `OnConnection` chamadas de função do `HrInitAddin` função. 
+O **[Método IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** é chamado sempre que um suplemento for carregado. É o ponto de entrada para o suplemento, portanto, o código que você colocar no `OnConnection` função será chamada quando o suplemento for iniciado. No exemplo a seguir, o `OnConnection` chamadas de função do `HrInitAddin` função. 
   
 ### <a name="cmyaddinonconnection-example"></a>Exemplo de CMyAddin::OnConnection()
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 25368f6c-4fba-4381-840c-ca122bd31b5f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 121bba82a9ccd40a435769b5eb2d966ed60575f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e61e98d1db1ab3acb958da353d8d22870937632
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586967"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387017"
 ---
 # <a name="pidtagjunkincludecontacts-canonical-property"></a>Propriedade canônica PidTagJunkIncludeContacts
 
@@ -44,11 +44,11 @@ Se essa propriedade estiver presente com um valor de "0x00000001" e se o contato
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
     

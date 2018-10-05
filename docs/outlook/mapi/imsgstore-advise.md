@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4abef731541e308b2c2ebc6f4aaddf4458e257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593715"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388242"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
@@ -103,7 +103,7 @@ HRESULT Advise(
   
 > [out] Um ponteiro para um número diferente de zero de conexão que representa a conexão entre o chamador avise o objeto coletor de eventos e o armazenamento de mensagens.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -119,11 +119,11 @@ O método **IMsgStore::Advise** estabelece uma conexão entre o chamador do avis
   
 Para enviar uma notificação, o provedor de armazenamento de mensagem ou MAPI chama o método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do coletor de eventos registrados advise. Um dos parâmetros para **OnNotify**, uma estrutura de notificação, contém informações que descrevem o evento específico.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você pode oferecer suporte a notificação com ou sem a Ajuda de MAPI. MAPI possui três métodos de objeto de suporte para ajudar os provedores de serviço a implementar notificação: [IMAPISupport::Subscribe](imapisupport-subscribe.md), [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)e [IMAPISupport::Notify](imapisupport-notify.md). Se você optar por usar os métodos de suporte MAPI, ligue para **inscrever-se** ao seu método **Advise** é chamado e liberar o ponteiro _lpAdviseSink_ . 
   
-Se você optar por suporte a notificação, chame o método de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) do coletor advise representado pelo parâmetro _lpAdviseSink_ para manter uma cópia deste ponteiro. Manter essa cópia até seu método [IMsgStore::Unadvise](imsgstore-unadvise.md) é chamado para cancelar o registro. 
+Se você optar por suporte a notificação, chame o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) do coletor advise representado pelo parâmetro _lpAdviseSink_ para manter uma cópia deste ponteiro. Manter essa cópia até seu método [IMsgStore::Unadvise](imsgstore-unadvise.md) é chamado para cancelar o registro. 
   
 Independentemente de como você oferecer suporte à notificação, atribua um número diferente de zero de conexão para o registro de notificação e retorná-lo no parâmetro _lpulConnection_ . Não libere esse número de conexão até **Unadvise** foi chamado e foi concluída. 
   
@@ -137,11 +137,11 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 Para obter mais informações sobre como manipular notificações, consulte [Manipulação de notificações](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI usa o método **IMsgStore::Advise** para registrar para notificações no repositório de toda a mensagem.  <br/> |
    
@@ -155,10 +155,10 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
   
 [IMsgStore::Unadvise](imsgstore-unadvise.md)
   
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

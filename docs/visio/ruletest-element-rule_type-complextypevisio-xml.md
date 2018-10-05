@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: Especifica a expressão lógica que determina se o objeto de destino satisfaz a regra de validação.
-ms.openlocfilehash: 25569530af5bc6f4b00e8600d1e25d968a01f246
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772826"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384847"
 ---
 # <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Elemento RuleTest (Rule_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica a expressão lógica que determina se o objeto de destino satisfaz a 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Validation.XML  <br/> |
    

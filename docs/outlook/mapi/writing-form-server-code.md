@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 463193b55dab0839c756367db16d02aae5980a77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a93e53261d56e452f38e38da427585cecccba405
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578119"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384077"
 ---
 # <a name="writing-form-server-code"></a>Gravar um código de servidor de formulário
 
@@ -33,7 +33,7 @@ Você pode pensar em um servidor de formulário como o seguinte:
   
 Consulte a seção Serviços de objetos ActiveX e COM no SDK do Windows para obter detalhes sobre como registrar o alocador de classe do seu servidor de formulário. Manipulação de mensagens do windows e exibindo uma interface são standard técnicas de programação de Windows que não tenham requisitos especiais com relação a formulários MAPI. Novamente, o SDK do Windows mostra detalhes sobre a programação do Windows. Este documento contém o que você precisa saber para implementar as interfaces de formulário MAPI obrigatórios e opcionais de modo que eles seguem as regras MAPI para interações com outros componentes MAPI — principalmente MAPI formar manager e aplicativos cliente de mensagens.
   
-Todas as interfaces que podem ser usados quando você implementa servidores de formulário são derivadas — direta ou indiretamente — da OLE [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)de classe de base. Isso significa que todas as suas implementações dessas interfaces precisará ter os métodos de **QueryInterface**, **AddRef**e **Release** . Você pode economizar muito trabalho se você usar vários herança para implementar todas as interfaces necessárias em uma nova classe de sua preferência, para que todas as interfaces que você use podem compartilhar uma única implementação dos métodos **IUnknown** necessários. Para obter mais informações, consulte os métodos [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx), [AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)e [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) . Não há nenhuma consideração especial em relação aos servidores de formulário MAPI para esses métodos. 
+Todas as interfaces que podem ser usados quando você implementa servidores de formulário são derivadas — direta ou indiretamente — da OLE [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)de classe de base. Isso significa que todas as suas implementações dessas interfaces precisará ter os métodos de **QueryInterface**, **AddRef**e **Release** . Você pode economizar muito trabalho se você usar vários herança para implementar todas as interfaces necessárias em uma nova classe de sua preferência, para que todas as interfaces que você use podem compartilhar uma única implementação dos métodos **IUnknown** necessários. Para obter mais informações, consulte os métodos [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx), [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) . Não há nenhuma consideração especial em relação aos servidores de formulário MAPI para esses métodos. 
   
 Enquanto não todas as interfaces de formulário MAPI são obrigatórias para todos os servidores de formulário, os métodos em uma determinada interface são obrigatórios. Ou seja, se você optar por implementar uma interface particular, você deve implementar todos os métodos na interface do. Isso é diferente da situação com alguns outros componentes MAPI, como transportes de mensagem. Felizmente, os métodos as interfaces de formulário MAPI são relativamente simples, portanto implementar todos eles não coloca uma grande carga nos desenvolvedores.
   
@@ -46,7 +46,7 @@ Nem todas as interfaces MAPI que se relacionam com formulários são necessária
 |[IMAPIForm : IUnknown](imapiformiunknown.md) <br/> |A interface principal que são usadas pelos clientes para carregar os servidores do formulário, execute os verbos de formulário e desligar servidores do formulário. Isso também é a interface derivada do OLE **IUnknown** que é usado para informar aos outros componentes do OLE sobre quais interfaces implementa um objeto form.  <br/> |Obrigatório  <br/> |
 |[IPersistMessage : IUnknown](ipersistmessageiunknown.md) <br/> |Usado quando o carregamento de mensagens em e poupa mensagens de objetos de formulário.  <br/> |Obrigatório  <br/> |
 |[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) <br/> |Usado pelos objetos de formulário para manter o controle de status do cliente de mensagens e para descobrir se o objeto de formulário é capaz de exibir a mensagem anterior ou seguinte em uma pasta.  <br/> |Opcional  <br/> |
-|[IClassFactory](http://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |A interface de fábrica de classe OLE utilizada pelos objetos de formulário para fins de conformidade com o mecanismo de fábrica de classe OLE.  <br/> |Obrigatório  <br/> |
+|[IClassFactory](https://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |A interface de fábrica de classe OLE utilizada pelos objetos de formulário para fins de conformidade com o mecanismo de fábrica de classe OLE.  <br/> |Obrigatório  <br/> |
 |[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md) <br/> |Usado se o seu servidor de formulário oferece suporte a mais de um tipo de formulário. Nesse caso, a interface de **IMAPIFormFactory** permite que os aplicativos clientes para acessar as várias interfaces **IClassFactory** (um por tipo de formulário que ofereça suporte a seu servidor de formulário) que seu servidor de formulário também deve implementar.  <br/> |Opcional  <br/> |
    
 ## <a name="see-also"></a>Confira também

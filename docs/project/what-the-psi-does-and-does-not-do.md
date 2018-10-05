@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: O Project Server Interface (PSI) pode ajudar a automatizar muitos processos do servidor em instalações de local do Project Server 2013. Porém, várias funções exigem o uso do Microsoft Project Professional 2013.
-ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b93c3535ca6693a84d11370de17bc18375f168ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588108"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386338"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>O que o PSI faz e não faz
 
@@ -49,12 +49,12 @@ A seguir estão exemplos de alguns aplicativos que ofereça suporte a PSI, para 
     
 - **Criar atividades de fluxo de trabalho personalizado para gerenciamento de demanda** Use a PSI em atividades de fluxo de trabalho local, confiança total para modificar e atualizar propostas de projeto com base em modelos de projeto corporativo. Use os campos personalizados do projeto para marcar o projeto com as informações necessárias para que o processo de inicialização e aprovação. Adicione tarefas para identificar as fases de projeto para principais marcos ou resultados finais. Quando são aprovadas propostas de projeto, um fluxo de trabalho pode alterar as propostas em projetos de larga escala que são gerenciados com o Project Professional. 
     
-- **Extensões de criar PSI** (**Preteridos.** Extensões são reduzidas no Project Server 2013 e não serão suportadas em versões futuras.) A PSI pode ser estendida com serviços personalizados usando a interface do Windows Communication Foundation (WCF). Extensões PSI executado no computador do Project Server e podem usar a mesma infraestrutura de segurança que usam os serviços PSI internos. Extensões podem consultar as tabelas de relatório, use as tabelas de banco de dados separado, consolidar chamadas PSI para salvar a largura de banda e integração com aplicativos de terceiros e outros componentes do lado do servidor. Para obter mais informações, consulte [Desenvolvendo extensões de PSI](http://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
+- **Extensões de criar PSI** (**Preteridos.** Extensões são reduzidas no Project Server 2013 e não serão suportadas em versões futuras.) A PSI pode ser estendida com serviços personalizados usando a interface do Windows Communication Foundation (WCF). Extensões PSI executado no computador do Project Server e podem usar a mesma infraestrutura de segurança que usam os serviços PSI internos. Extensões podem consultar as tabelas de relatório, use as tabelas de banco de dados separado, consolidar chamadas PSI para salvar a largura de banda e integração com aplicativos de terceiros e outros componentes do lado do servidor. Para obter mais informações, consulte [Desenvolvendo extensões de PSI](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
     
-- **Representação de uso no locais, confiança total de aplicativos** Chamadas para a interface WCF de PSI podem ser representadas, para que as permissões de segurança do usuário representado supõe que um aplicativo. Representação deve ser usada com moderação e cuidadosamente. Lendo e atualizando as informações de status para outros usuários não exigem representação. Novos aplicativos que exigem a representação devem usar o protocolo de OAuth e CSOM do, em vez da PSI. Para obter mais informações sobre representação com a PSI, consulte [Usar representação com WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
+- **Representação de uso no locais, confiança total de aplicativos** Chamadas para a interface WCF de PSI podem ser representadas, para que as permissões de segurança do usuário representado supõe que um aplicativo. Representação deve ser usada com moderação e cuidadosamente. Lendo e atualizando as informações de status para outros usuários não exigem representação. Novos aplicativos que exigem a representação devem usar o protocolo de OAuth e CSOM do, em vez da PSI. Para obter mais informações sobre representação com a PSI, consulte [Usar representação com WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
     
 > [!NOTE]
-> Em alguns casos, a PSI pode ser utilizada nos aplicativos de cliente com o CSOM e o Project Online. Se você usar um serviço da web com base em ASMX PSI, o aplicativo deve incluir um método para autenticar o objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) em CSOM do e um método para autenticar o ** System.Web.Services.Protocols.SoapHttpClientProtocol** o objeto de cliente. Para obter um exemplo que usa um serviço web com o CSOM do SharePoint, consulte [Autenticação remota no SharePoint Online Using Claims-Based autenticação](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Causa de permissões restritas em nível de aplicativo, a PSI não pode ser usada nos aplicativos que foram projetados para distribuição no Office Store pública. Nesse caso, você pode usar somente o CSOM. 
+> Em alguns casos, a PSI pode ser utilizada nos aplicativos de cliente com o CSOM e o Project Online. Se você usar um serviço da web com base em ASMX PSI, o aplicativo deve incluir um método para autenticar o objeto [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) em CSOM do e um método para autenticar o ** System.Web.Services.Protocols.SoapHttpClientProtocol** o objeto de cliente. Para obter um exemplo que usa um serviço web com o CSOM do SharePoint, consulte [Autenticação remota no SharePoint Online Using Claims-Based autenticação](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Causa de permissões restritas em nível de aplicativo, a PSI não pode ser usada nos aplicativos que foram projetados para distribuição no Office Store pública. Nesse caso, você pode usar somente o CSOM. 
   
 ## <a name="what-the-psi-does-not-do"></a>O que a PSI não faz
 <a name="pj14_WhatPSIDoes_DoesNotDo"> </a>
@@ -234,7 +234,7 @@ Para a tarefa de resumo do projeto, as limitações de PSI são iguais do Projec
 
 - [O que o CSOM faz e não faz](what-the-csom-does-and-does-not-do.md)  
 - [Programabilidade do Project Server](project-server-programmability.md)   
-- [Autenticação remota no SharePoint Online usando autenticação baseada em declarações](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Autenticação remota no SharePoint Online usando autenticação baseada em declarações](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
 - [Suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

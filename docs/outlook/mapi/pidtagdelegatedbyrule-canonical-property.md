@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e9337a49067e9789ece40ed932dbaae133aac0f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 47458e2468215c6539ad07533c36564d37da8b96
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568179"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382600"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Propriedade canônica PidTagDelegatedByRule
 
@@ -38,11 +38,11 @@ Indica se a mensagem de uma pasta é delegada por uma regra.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Especifica os métodos para conexão e a configuração de caixas de correio conforme representantes e as interações com objetos de mensagem e o calendário quando eles ajam em nome de outro usuário.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     

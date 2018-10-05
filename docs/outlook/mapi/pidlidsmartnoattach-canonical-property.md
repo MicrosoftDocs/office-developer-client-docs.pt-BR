@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e4a0e87b24789e3ee4cb5ed6684d508b62e65b30
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7dddca6a17b07047d1447a57347fbe47a04471e0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575969"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384147"
 ---
 # <a name="pidlidsmartnoattach-canonical-property"></a>Propriedade canônica PidLidSmartNoAttach
 
@@ -45,11 +45,11 @@ Indica se o objeto de mensagem não tem nenhum anexo visível do usuário final.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
 description: Contém as informações de um hiperlink único associado a uma forma. Uma forma conterá uma linha Hyperlink para cada hiperlink.
-ms.openlocfilehash: 99295838f5d1860e3c34cf4e37866eb477fe81ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36b9b62f248e4f5b9407156a79fa674dc2e8f14d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772042"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390251"
 ---
 # <a name="hyperlink-row-hyperlinks-section"></a>Linha Hyperlink (Seção Hyperlinks)
 
@@ -30,7 +30,7 @@ Linhas hyperlink são denominadas Hyperlink. *nome* e contém as células a segu
 |[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |Uma sequência de caracteres que passa informações a serem usadas na resolução de um URL.  <br/> |
 |[Quadro](frame-cell-hyperlinks-section.md) <br/> |O nome de uma moldura para servir de destino quando o Microsoft Office Visio estiver aberto como um documento ativo em um contêiner ActiveX. O padrão é uma cadeia de caracteres vazia.  <br/> |
 |[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |Determina a ordem dos hiperlinks à medida que são exibidos no menu de atalho.  <br/> |
-|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica quando abrir o hiperlink em uma nova janela. Se VERDADEIRO, abre a página vinculada, o documento ou o site na Web em uma nova janela. O padrão é FALSO.  <br/> |
+|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica quando abrir o hiperlink em uma nova janela. Se verdadeiro, abre a página vinculada, documento ou site em uma nova janela. O padrão é FALSE.  <br/> |
 |[Padrão](default-cell-hyperlinks-section.md) <br/> |O hiperlink padrão para uma forma ou página.  <br/> |
 |[Invisível](invisible-cell-hyperlinks-section.md) <br/> |Indica se o hiperlink é exibido no menu de atalho.  <br/> |
    

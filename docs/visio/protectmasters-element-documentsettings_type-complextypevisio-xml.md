@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
 description: Especifica se o usuário é impedido de criar, editar ou excluir formas do mestre. O usuário ainda pode criar novas formas de uma forma mestra, independentemente dessa configuração.
-ms.openlocfilehash: cb576f267e076b06f2088ce53a18e9af36a46b0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2730fa3aa3f9f4f7529d6b939e48d3533e31e1f3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772603"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386443"
 ---
 # <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectMasters (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -25,7 +25,7 @@ O intervalo de valores possíveis para esse elemento é '0' ou '1'. Um valor de 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

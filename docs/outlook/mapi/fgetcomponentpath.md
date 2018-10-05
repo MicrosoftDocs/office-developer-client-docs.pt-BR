@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566345"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384497"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
@@ -41,7 +41,7 @@ BOOL FGetComponentPath(
 
  _szComponent_
   
-> [in] A chave do registro MSIComponentID descrito nas [Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/dd162409.aspx).
+> [in] A chave do registro MSIComponentID descrito nas [Configurações de registro de Stub Mapi32](https://msdn.microsoft.com/library/dd162409.aspx).
     
  _szQualifier_
   
@@ -59,7 +59,7 @@ BOOL FGetComponentPath(
   
 > [in] Informa MAPI para instalar o componente de Mapi32 privado se ele está ausente.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
  **True**
   
@@ -80,5 +80,5 @@ Use a função de **FGetComponentPath** quando precisar fazer o caminho para o M
 [Escolher uma versão MAPI específica para carregar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Configurações de registro de Stub Mapi32](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
+[Configurações de registro de Stub Mapi32](https://msdn.microsoft.com/library/dd162409.aspx)
 

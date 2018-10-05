@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 15feea923c31bd7f88fcb3b346905e37af106d84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fe724d70ac86b1c51e72f243ef9255dd452be9c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564070"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386884"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propriedade canônica PidTagScheduleInfoAutoAcceptAppointments
 
@@ -42,15 +42,15 @@ Ao responder, a resposta deve ser aceitação, a menos que uma restrição adici
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     

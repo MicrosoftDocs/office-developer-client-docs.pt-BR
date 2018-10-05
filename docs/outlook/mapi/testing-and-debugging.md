@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: ae9b49717fd7981d653e9852ed02d50bef7c7846
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8e1f15ae354894aede4e8418e6428d0524ccb70d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590684"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383657"
 ---
 # <a name="testing-and-debugging"></a>Teste e depuração
 
@@ -23,7 +23,7 @@ ms.locfileid: "22590684"
   
 Estratégias de teste diferem, dependendo se você estiver desenvolvendo um provedor de cliente ou serviço. Como um aplicativo cliente requer um ou mais provedores de serviço operar, os clientes devem ser testados em um ambiente com diferentes conjuntos de provedores de serviço.
   
-Provedores de serviço, no entanto, devem ser testadas isoladamente antes sendo integrado com outros provedores. MAPI fornece ferramentas que servem para testar os recursos de um provedor de serviço de um determinado tipo. O aplicativo de exemplo [MFCMAPI](http://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de catálogo de endereços e o provedor de armazenamento funciona com uma mensagem. 
+Provedores de serviço, no entanto, devem ser testadas isoladamente antes sendo integrado com outros provedores. MAPI fornece ferramentas que servem para testar os recursos de um provedor de serviço de um determinado tipo. O aplicativo de exemplo [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) mostra como testar os recursos de um provedor de catálogo de endereços e o provedor de armazenamento funciona com uma mensagem. 
   
 ## <a name="see-also"></a>Confira também
 
@@ -31,5 +31,5 @@ Provedores de serviço, no entanto, devem ser testadas isoladamente antes sendo 
 
 [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
   
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

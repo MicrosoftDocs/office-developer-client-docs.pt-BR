@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2c9598b583ba62adc42d6fb2b904dfe4981286ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f009d7ce5cd1856ccff1e00953188c8edde7a6bc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578105"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385330"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>Propriedade canônica PidTagContainerHierarchy
 
@@ -54,15 +54,15 @@ Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o métod
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Trata da ordem e o fluxo para transferências de dados entre um cliente e servidor.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
     

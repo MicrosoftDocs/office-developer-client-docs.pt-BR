@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 05df7fe04f511de9310edc7a8ef09130e6354ad2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578406"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389166"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Propriedade canônica PidTagAttachPathname
 
@@ -48,11 +48,11 @@ MAPI funciona somente com caminhos e nomes de arquivo ANSI do conjunto de caract
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Especifica as propriedades das mensagens codificadas direitos gerenciados.
     

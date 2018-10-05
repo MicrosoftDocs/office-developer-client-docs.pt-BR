@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59c6d4a05c91511ad8c481fd4ddbe42396442190
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582459"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384105"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
@@ -86,7 +86,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para o objeto de logon do provedor.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -118,7 +118,7 @@ Conexões estabelecidas com cada provedor de catálogo de endereços no perfil d
   
 O nome do perfil apontado pelo parâmetro _lpszProfileName_ é exibido no conjunto de caracteres do cliente do usuário conforme indicado pela presença ou ausência do sinalizador MAPI_UNICODE no parâmetro _ulFlags_ . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Em sua implementação do método **Logon** , chame o método de [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar um identificador exclusivo, ou uma estrutura [MAPIUID](mapiuid.md) . Cada um dos seus objetos terão um identificador de entrada que inclua este **MAPIUID**. O MAPI usa o **MAPIUID** para corresponder a um objeto com seu provedor. Por exemplo, quando um cliente chama o método [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir um usuário de mensagens, **OpenEntry** examina a parte **MAPIUID** do identificador de entrada que foi passado e faz a correspondência com um **MAPIUID** registrados por um provedor de catálogo de endereços. 
   
@@ -126,7 +126,7 @@ Se um cliente fizer logon ao seu provedor de mais de uma vez, convém registrar 
   
 O objeto de suporte a MAPI passa para seu método de **Logon** no parâmetro _lpMAPISup_ fornece acesso a muitos dos métodos incluídos no [IMAPISupport: IUnknown](imapisupportiunknown.md) interface. MAPI cria um objeto de suporte que é personalizado para seu tipo de provedor. Por exemplo, se você precisa fazer logon um sistema de mensagens subjacente ou o serviço de diretório ao estabelecer sua conexão, você pode chamar o método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para recuperar as credenciais de segurança para esta sessão de logon específica. 
   
-Se o **Logon** for bem-sucedido, certifique-se de que você chamar o suporte ao método do objeto [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) para incrementar sua contagem de referência. Isso permite que o seu provedor mantenha o ponteiro de objeto de suporte para o restante da sessão. Se você não chamar esse método **AddRef** , MAPI descarregará o seu provedor. 
+Se o **Logon** for bem-sucedido, certifique-se de que você chamar o suporte ao método do objeto [AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para incrementar sua contagem de referência. Isso permite que o seu provedor mantenha o ponteiro de objeto de suporte para o restante da sessão. Se você não chamar esse método **AddRef** , MAPI descarregará o seu provedor. 
   
 Você pode incluir o nome do perfil passado no parâmetro _lpszProfileName_ em caixas de diálogo de erro, telas de logon ou outras interfaces de usuário. Para usar o nome do perfil, copie-o para armazenamento que você tiver alocado. 
   

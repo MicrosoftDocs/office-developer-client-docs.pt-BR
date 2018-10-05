@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 45846fe3-7ab3-4019-98bb-fe615889c31c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 639d5e96eb56fb543d6a6026b1c9400631cee819
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 561008782e7c1ffb8bc71cf4e3bc17befe69bbca
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593337"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387843"
 ---
 # <a name="pidlidspamoriginalfolder-canonical-property"></a>Propriedade canônica PidLidSpamOriginalFolder
 
@@ -43,11 +43,11 @@ O valor dessa propriedade é a **EntryID** da pasta que continha a mensagem ante
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
     

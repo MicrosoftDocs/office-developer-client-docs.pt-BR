@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1992e34a684a6b5894963eae0c299b21c064578c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581605"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390272"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Obtém o caminho de uma versão específica de MAPI para o cliente de email padrão
 
@@ -36,7 +36,7 @@ As seguintes etapas descrevem como `GetMAPISVCPath` faz isso.
     
 5. Chama **FGetComponentPath**, especificando o valor, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, para obter o caminho para a versão do MAPI que o Outlook 2007 usa.
     
-Observe que, para oferecer suporte a cópias localizadas de MAPI para inglês e idiomas diferentes do inglês, o código de exemplo lê os valores para as subchaves **MSIApplicationLCID** e **MSIOfficeLCID** e chama **FGetComponentPath**, especificando primeiro ** MSIApplicationLCID** como *szQualifier* e, em seguida, novamente especificação **MSIOfficeLCID** como *szQualifier* . Para obter mais informações sobre as chaves do registro para clientes de email que oferecem suporte a idiomas diferentes do inglês, consulte [Configuração de backup das MSI chaves para sua DLL de MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).
+Observe que, para oferecer suporte a cópias localizadas de MAPI para inglês e idiomas diferentes do inglês, o código de exemplo lê os valores para as subchaves **MSIApplicationLCID** e **MSIOfficeLCID** e chama **FGetComponentPath**, especificando primeiro ** MSIApplicationLCID** como *szQualifier* e, em seguida, novamente especificação **MSIOfficeLCID** como *szQualifier* . Para obter mais informações sobre as chaves do registro para clientes de email que oferecem suporte a idiomas diferentes do inglês, consulte [Configuração de backup das MSI chaves para sua DLL de MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).
   
 ```cpp
 // HrGetRegMultiSZValueA 

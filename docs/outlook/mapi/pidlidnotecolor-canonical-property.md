@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7fd41f46adf9b7d9aa3b48779b03cd6936a5fb5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09d0ee3be704dc55452b615a23ac9cf20d9254d8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583131"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389586"
 ---
 # <a name="pidlidnotecolor-canonical-property"></a>Propriedade canônica PidLidNoteColor
 
@@ -51,11 +51,11 @@ Esta propriedade deve ser uma das entradas na tabela a seguir:
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXONOTE]](http://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em notas.
     

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
 description: 'Modificado pela última vez: 18 de junho de 2012'
-ms.openlocfilehash: 36e22c60b32242425335b122b66c2c77e376848b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03b0eb794b07bc56ec6dce4a567d89294b2c908a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580114"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386345"
 ---
 # <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
 
@@ -39,7 +39,7 @@ int MNLS_lstrcmpW(
   
 > [in] Ponteiro para a segunda cadeia de caracteres Unicode para comparar.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 Retorna os valores descritos para uma chamada para **MNLS_CompareStringW** , exceto CSTR_EQUAL um equivalente. 
   
@@ -51,5 +51,5 @@ Retorna os valores descritos para uma chamada para **MNLS_CompareStringW** , exc
 
 
 
-[GetUserDefaultLCID](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
+[GetUserDefaultLCID](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

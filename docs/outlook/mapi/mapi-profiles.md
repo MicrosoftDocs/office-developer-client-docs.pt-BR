@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579855"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391427"
 ---
 # <a name="mapi-profiles"></a>Perfis MAPI
 
@@ -29,7 +29,7 @@ Também nestes tópicos, você encontrará uma discussão sobre o cache de apeli
     
 - [Fluxo de preenchimento automático](autocomplete-stream.md)
     
-- [Análise de arquivo binário](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [Análise de arquivo binário](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>Seções de perfil
 

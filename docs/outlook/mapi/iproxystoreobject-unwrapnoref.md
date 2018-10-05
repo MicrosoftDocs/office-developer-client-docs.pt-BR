@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 8539f81ed1741063d878da492d925b63c488d1a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ef9f506c1a95fec86c7f092b0299198e6149d3ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382929"
 ---
 # <a name="iproxystoreobjectunwrapnoref"></a>IProxyStoreObject::UnwrapNoRef
 
@@ -47,7 +47,7 @@ S_OK
 
 Sem primeiro desempacotamento um repositório IMAP, acessar uma mensagem no repositório de pode forçar uma sincronização que tenta fazer o download de toda a mensagem. Usando o repositório desfeito permite o acesso à mensagem em seu estado atual sem disparar um download.
   
-Porque **UnwrapNoRef** não incrementa a contagem de referência para este novo ponteiro para o objeto de repositório desfeita, após chamar o **UnwrapNoRef**com êxito, você deve chamar [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
+Porque **UnwrapNoRef** não incrementa a contagem de referência para este novo ponteiro para o objeto de repositório desfeita, após chamar o **UnwrapNoRef**com êxito, você deve chamar [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para manter a contagem de referência. 
   
 ## <a name="see-also"></a>Confira também
 

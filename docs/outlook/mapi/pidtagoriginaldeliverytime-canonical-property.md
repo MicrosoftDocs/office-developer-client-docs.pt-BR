@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0fee808a02262ef47bff0279c929824becc23912
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bbe277092b450a4254e02d00d2cf54e35ec6be44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589396"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391369"
 ---
 # <a name="pidtagoriginaldeliverytime-canonical-property"></a>Propriedade canônica PidTagOriginalDeliveryTime
 
@@ -42,11 +42,11 @@ Essa propriedade é copiada da propriedade **PR_MESSAGE_DELIVERY_TIME** ([PidTag
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
     

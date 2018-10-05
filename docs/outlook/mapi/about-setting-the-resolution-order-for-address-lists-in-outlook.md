@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578651"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391406"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Sobre como definir a ordem de resolu��o de listas de endere�os no Outlook
 
@@ -27,6 +27,6 @@ A seguir est�o exemplos de c�digo de como especificar um caminho de pesquisa
   
 - [Definir a ordem de resolução de listas de endereços via programação](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [KB 292590: como alterar a ordem de classifica��o do cat�logo de endere�os com SetSearchPath](http://support.microsoft.com/kb/292590)
+- [KB 292590: como alterar a ordem de classifica��o do cat�logo de endere�os com SetSearchPath](https://support.microsoft.com/kb/292590)
     
 

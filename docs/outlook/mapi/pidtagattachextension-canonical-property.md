@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388415"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Propriedade canônica PidTagAttachExtension
 
@@ -44,7 +44,7 @@ As mensagens **PR_ATTACH_EXTENSION** do sistema usa ao converter os anexos de me
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

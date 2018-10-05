@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 33287d8ac6b1faeba8b8746a95850f6fd1c37462
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 770ceb7af98f5271baad65043e013feb353d231a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579484"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390468"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] Um número de conexão que identifica o registro de notificação para ser cancelado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -53,9 +53,9 @@ E_INVALIDARG
 
 Visualizadores de formulário chame o método de **IMAPIForm::Unadvise** para cancelar um registro de notificação de que eles estabelecerem primeiramente chamando o método **IMAPIForm::Advise** . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
-Descartar o ponteiro que você está mantendo ao modo de exibição do visualizador formulário aconselhe coletor de eventos chamando o método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . Geralmente, a **versão** é chamado durante a chamada **Unadvise** . No entanto, se outro thread está em processo de chamar um dos métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) coletor de eventos de aviso para o modo de exibição, atrasar a chamada de **liberação** até que o método **IMAPIViewAdviseSink** retorna. 
+Descartar o ponteiro que você está mantendo ao modo de exibição do visualizador formulário aconselhe coletor de eventos chamando o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Geralmente, a **versão** é chamado durante a chamada **Unadvise** . No entanto, se outro thread está em processo de chamar um dos métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) coletor de eventos de aviso para o modo de exibição, atrasar a chamada de **liberação** até que o método **IMAPIViewAdviseSink** retorna. 
   
 ## <a name="see-also"></a>Confira também
 

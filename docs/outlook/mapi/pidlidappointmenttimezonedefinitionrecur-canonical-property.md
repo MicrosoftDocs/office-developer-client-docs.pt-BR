@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 52fd57a0-9e34-4452-9ecd-2acb454446c9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 06f086b84650c6719c49cabda418f4e2553e4e43
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5e9b06178a1517fc1c8652b0d667faf1afc77cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589599"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389299"
 ---
 # <a name="pidlidappointmenttimezonedefinitionrecur-canonical-property"></a>Propriedade canônica PidLidAppointmentTimeZoneDefinitionRecur
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589599"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que armazena a descrição para o fuso horário que é usado quando uma solicitação de reunião ou um compromisso recorrente é criada. 
+Contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , que armazena a descrição para o fuso horário que é usado quando uma solicitação de reunião ou um compromisso recorrente é criada. 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Versões do Microsoft Outlook desde o Microsoft Office Outlook 2007 e soluções
   
 Quando você escreve **dispidApptTZDefRecur** tanto o **dispidTimeZoneStruct** propriedades para uma nova reunião recorrente ou, quando você faz uma opção arbitrária para usar a propriedade **dispidTimeZoneStruct** , a definição atual para o (de fuso horário de acordo com o registro do Windows) deve ser usado. 
   
-Um analisador deve tomar cuidado quando ele lê um fluxo que for obtido de **dispidApptTZDefRecur**ou quando ele persiste **TZDEFINITION** a um fluxo de compromisso em uma propriedade binária como **dispidApptTZDefRecur**. Para obter mais informações, consulte [About TZDEFINITION mantendo a um fluxo de confirmar uma propriedade binária](http://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
+Um analisador deve tomar cuidado quando ele lê um fluxo que for obtido de **dispidApptTZDefRecur**ou quando ele persiste **TZDEFINITION** a um fluxo de compromisso em uma propriedade binária como **dispidApptTZDefRecur**. Para obter mais informações, consulte [About TZDEFINITION mantendo a um fluxo de confirmar uma propriedade binária](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
   
  **dispidApptTZDefRecur** Especifica as informações de fuso horário que descrevem como converter a data da reunião e a hora em uma série recorrente para e do tempo Universal Coordenado (UTC). Se essa propriedade estiver definida, mas ela tem dados inconsistente com os dados representados pela **dispidTimeZoneStruct**, o cliente deve usar **dispidTimeZoneStruct** em vez de **dispidApptTZDefRecur**. Se **dispidApptTZDefRecur** não estiver definida, a propriedade **PidLidTimeZoneStruct** será usada. Os campos neste BLOB são codificados em ordem de bytes endian pouco. 
   
@@ -49,11 +49,11 @@ Um analisador deve tomar cuidado quando ele lê um fluxo que for obtido de **dis
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57b65f8423cbbc48e3eac066c45cab0fcc90fe18
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564735"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389012"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propriedade canônica PidTagFreeBusyEntryIds Canonical Property
 
@@ -38,19 +38,19 @@ Contém as **EntryIDs** para a mensagem de informação de representante, a mens
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publica a disponibilidade de um usuário ou recurso.
     
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Especifica os métodos para conexão e configuração de caixas de correio conforme representantes e interações com itens de mensagem e o calendário quando eles ajam em nome de outro usuário.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para a criação e a localização de pastas especiais em uma caixa de correio.
     

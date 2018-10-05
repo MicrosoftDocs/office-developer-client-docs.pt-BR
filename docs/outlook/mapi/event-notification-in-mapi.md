@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594541"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389971"
 ---
 # <a name="event-notification-in-mapi"></a>Notificação de evento em MAPI
 
@@ -59,6 +59,6 @@ A ilustração a seguir mostra a comunicação entre os objetos de coletor de ev
   
 ![Chamadas de notificação de evento] (media/amapi_51.gif "Chamadas de notificação de evento")
   
-A classe MFCMAPI **CAdviseSink** (usando os arquivos AdviseSink.h e AdviseSink.cpp) implementa o objeto coletor de eventos de advise para todas as chamadas para **Advise**. Para obter mais informações sobre MFCMAPI, consulte [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md) e [MFCMAPI](http://go.microsoft.com/fwlink/?LinkId=124154).
+A classe MFCMAPI **CAdviseSink** (usando os arquivos AdviseSink.h e AdviseSink.cpp) implementa o objeto coletor de eventos de advise para todas as chamadas para **Advise**. Para obter mais informações sobre MFCMAPI, consulte [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md) e [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154).
   
 

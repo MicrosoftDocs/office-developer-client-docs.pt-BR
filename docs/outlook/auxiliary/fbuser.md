@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
 description: Identifica um usuário que pode ou não ter livre/ocupado dados disponíveis.
-ms.openlocfilehash: edfc9980445fcc2e111045650667d93bffa94153
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387899"
 ---
 # <a name="fbuser"></a>FBUser
 
@@ -35,7 +35,7 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> O comprimento da identificação de entrada do usuário de email como representado pela interface [IMailUser](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
+> O comprimento da identificação de entrada do usuário de email como representado pela interface [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
     
 _m_lpEid_
   

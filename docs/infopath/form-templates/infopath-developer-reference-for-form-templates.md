@@ -12,12 +12,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
 description: Bem-vindo à referência do desenvolvedor do InfoPath 2013 para modelos de formulário. Esta documentação fornece visões gerais, tarefas de programação e informações de referência da biblioteca de classes que foram concebidas para ajudar você a compilar modelos de formulários do InfoPath que contêm lógica corporativa escrita em Visual Basic ou Visual C#.
-ms.openlocfilehash: e9e1d023cf7c910c070269a7e46b26c53948fd16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c399623dea14903325dc1720b0642040febc15e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588059"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384455"
 ---
 # <a name="infopath-developer-reference-for-form-templates"></a>Referência de desenvolvimento do InfoPath para modelos de formulário
 
@@ -27,13 +27,13 @@ Data de publicação desta referência: Outubro 2012
   
 ## <a name="related-links"></a>Links relacionados
 
-[Centro do desenvolvedor do InfoPath](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
+[Centro do desenvolvedor do InfoPath](https://msdn.microsoft.com/office/aa905434.aspx)
   
-[Centro de Desenvolvimento do Microsoft Office](http://msdn.microsoft.com/en-us/office/default.aspx)
+[Centro de Desenvolvimento do Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
   
-[Convenções de Documentos na Documentação dos Desenvolvedores do Office](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+[Convenções de Documentos na Documentação dos Desenvolvedores do Office](https://msdn.microsoft.com/office/aa905365.aspx)
   
-[Acessibilidade da Microsoft](http://www.microsoft.com/ENABLE/)
+[Acessibilidade da Microsoft](https://www.microsoft.com/ENABLE/)
 
   
 

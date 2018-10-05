@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 54b1f0f3bf837ad21e1b271111d4be2ad2c2b3f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f6707c49c70804aeb757119aa411ca4059e378eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387976"
 ---
 # <a name="pidlidappointmentreplyname-canonical-property"></a>Propriedade canônica PidLidAppointmentReplyName
 
@@ -37,21 +37,21 @@ Especifica o usuário quem última respondeu à solicitação de reunião ou reu
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade só é definida para um delegator quando um delegado respondido. O valor é igual à propriedade **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o repositório do representante. Essa propriedade não tem significado para o organizador. Para obter detalhes sobre **PR_MAILBOX_OWNER_NAME**, consulte protocolo do objeto especificado em [[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)de armazenamento.
+Essa propriedade só é definida para um delegator quando um delegado respondido. O valor é igual à propriedade **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) para o repositório do representante. Essa propriedade não tem significado para o organizador. Para obter detalhes sobre **PR_MAILBOX_OWNER_NAME**, consulte protocolo do objeto especificado em [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)de armazenamento.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Fornece definições de tipo de dados.
     
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

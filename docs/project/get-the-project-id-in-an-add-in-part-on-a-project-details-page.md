@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Suplemento partes são hospedados nos elementos iframe que estejam totalmente isolados da página de hospedagem. Para obter informações sobre o projeto atual de uma parte suplemento na página de detalhes do projeto (PDP), você pode usar o método window.postMessage, um ouvinte de eventos e um manipulador de eventos que analisa os a ID do projeto da mensagem.
-ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffaf9cb7dac783a754b2d56b5ece4d5a7a0319be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594422"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389880"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obter a ID do projeto em uma parte do suplemento em uma página de Detalhes do Projeto
 
@@ -38,7 +38,7 @@ Para usar o exemplo de código neste artigo, você precisará um destes procedim
             
         - Você deve estar conectado como alguém que não seja a conta do sistema. A conta do sistema não tem permissão para instalar um suplemento.
     
-Consulte [pré-requisitos para a criação de um suplemento do Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) para obter mais informações sobre suplementos para o projeto. Consulte [Configurar um ambiente de desenvolvimento para o SharePoint Add-ins do local](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) para obter orientação sobre a instalação local (incluindo como desabilitar a verificação de loopback, se necessário). Se você estiver desenvolvendo remotamente, consulte [Developing apps for SharePoint em um sistema remoto](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
+Consulte [pré-requisitos para a criação de um suplemento do Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) para obter mais informações sobre suplementos para o projeto. Consulte [Configurar um ambiente de desenvolvimento para o SharePoint Add-ins do local](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) para obter orientação sobre a instalação local (incluindo como desabilitar a verificação de loopback, se necessário). Se você estiver desenvolvendo remotamente, consulte [Developing apps for SharePoint em um sistema remoto](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Criar hospedado no SharePoint add-in e o cliente web part
 <a name="CreateApp"> </a>
@@ -157,7 +157,7 @@ A parte de suplemento neste exemplo não acessar dados do Project Server ou dado
   
 No arquivo AppManifest.xml, especifique as permissões que seu suplemento precisa acessar dados do Project Server ou os dados do SharePoint. 
   
-Consulte [Criar Suplemento partes para instalar com o suplemento do SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) para aprender a definir propriedades personalizadas de uma parte do suplemento. 
+Consulte [Criar Suplemento partes para instalar com o suplemento do SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) para aprender a definir propriedades personalizadas de uma parte do suplemento. 
   
 ## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>Exemplo: Obtendo a ID do projeto em uma parte add-in em uma página PDP
 <a name="CodeExample"> </a>
@@ -252,6 +252,6 @@ O exemplo a seguir é o código completo em página de GetProjectID.aspx do clie
 
 - [Tarefas de programação do Project](project-programming-tasks.md)
 - [Criar um suplemento do Project Server hospedado pelo SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
-- [Criar partes de suplementos para instalação com o seu Suplemento do SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
+- [Criar partes de suplementos para instalação com o seu Suplemento do SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

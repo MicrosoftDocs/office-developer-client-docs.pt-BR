@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578112"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391653"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI como um exemplo de código
  
@@ -27,7 +27,7 @@ O exemplo MFCMAPI usa a API do serviço de mensagens para fornecer acesso a repo
    
 ### <a name="to-download-mfcmapi"></a>Para baixar MFCMAPI
   
-1. Na página [MFCMAPI](http://codeplex.com/MFCMAPI) , clique na guia do **Código-fonte** . 
+1. Na página [MFCMAPI](https://codeplex.com/MFCMAPI) , clique na guia do **Código-fonte** . 
     
 2. Em **Recentes Check-Ins**, clique em **Download** para a compilação mais recente. 
     

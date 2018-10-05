@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Este tópico contém definições constantes para APIs que exporta do Outlook.
-ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564462"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386072"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (Outlook exportados APIs)
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificadores de expedição Miscellaneous
 
-Outlook expõe os seguintes identificadores de expedição (dispids) para que os desenvolvedores podem usar [IDispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para acessar o método ou a propriedade correspondente ou ouvir o evento correspondente. 
+Outlook expõe os seguintes identificadores de expedição (dispids) para que os desenvolvedores podem usar [IDispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) para acessar o método ou a propriedade correspondente ou ouvir o evento correspondente. 
   
 |**Constante associada**|**Valor DISPID**|**Descrição**|**Interface aplicável**|
 |:-----|:-----|:-----|:-----|
@@ -51,6 +51,6 @@ Outlook expõe os seguintes identificadores de expedição (dispids) para que os
 - [APIs exportadas do Outlook](outlook-exported-apis.md)
 - [Sobre APIs exportadas pelo Outlook](about-apis-exported-by-outlook.md)
 - [Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
 - [Eventos disponíveis e os dispids (Outlook exportados APIs)](available-events-and-their-dispids-outlook-exported-apis.md)
 

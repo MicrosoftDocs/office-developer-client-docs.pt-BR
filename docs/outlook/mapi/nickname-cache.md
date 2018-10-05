@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Modificado pela última vez: 30 de janeiro de 2013'
-ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574528"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389256"
 ---
 # <a name="nickname-cache"></a>Cache de apelidos
 
@@ -37,7 +37,7 @@ Os meios de armazenar os dados de AutoCompletar difere entre o Outlook 2007 e Ou
   
  **Outlook 2007**
   
-Para o Outlook 2007, o fluxo de AutoCompletar é armazenado em um arquivo com o mesmo nome que o perfil e uma extensão de. nk2. Por exemplo, se o perfil padrão do "outlook" for usado, o arquivo será chamado "outlook.nk2". O arquivo. nk2 é armazenado na pasta % APPDATA%\Microsoft\Outlook. Para obter mais informações sobre o formato de arquivo binário do cache de apelidos, consulte o [formato de arquivo do Outlook 2003/2007 NK2 e diretrizes de desenvolvedor](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+Para o Outlook 2007, o fluxo de AutoCompletar é armazenado em um arquivo com o mesmo nome que o perfil e uma extensão de. nk2. Por exemplo, se o perfil padrão do "outlook" for usado, o arquivo será chamado "outlook.nk2". O arquivo. nk2 é armazenado na pasta % APPDATA%\Microsoft\Outlook. Para obter mais informações sobre o formato de arquivo binário do cache de apelidos, consulte o [formato de arquivo do Outlook 2003/2007 NK2 e diretrizes de desenvolvedor](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
  **Outlook 2010 e o Outlook 2013**
   
@@ -84,5 +84,5 @@ Salvar as alterações nos dados de AutoCompletar envolve a gravação da estrut
 [Perfis MAPI](mapi-profiles.md)
 
 
-[Formato de arquivo do Outlook 2003/2007 NK2 e diretrizes de desenvolvedor](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Formato de arquivo do Outlook 2003/2007 NK2 e diretrizes de desenvolvedor](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

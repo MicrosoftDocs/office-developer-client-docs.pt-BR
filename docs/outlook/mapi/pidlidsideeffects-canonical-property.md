@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fa29a55a5fc2ce89e125909d13a2c14a347ef831
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d57e6a195036ead9eb42666876e91a72f65eb8b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385694"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Propriedade canônica PidLidSideEffects
 
@@ -57,15 +57,15 @@ Deve ser definido como um bit a bit ou zero ou mais dos seguintes sinalizadores.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece a definição de propriedade do conjunto e referências para relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7077210504614d7d95a7f545ea6f37ce02c92fdf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bee22a7a435b99f4b94473a3f6eb4b7f32517128
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563244"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387199"
 ---
 # <a name="pidtagsearchfoldertemplateid-canonical-property"></a>Propriedade canônica PidTagSearchFolderTemplateId
 
@@ -38,17 +38,17 @@ Contém a ID do modelo que está sendo usada para a pesquisa.
 
 Critérios de pasta de pesquisa é especificado por um modelo. Esta propriedade na mensagem que define a pasta de pesquisa identifica o modelo correspondente. Além de definir os critérios de pesquisa, um modelo também define pastas a serem excluídas da pesquisa, define os itens a serem excluídas da pesquisa e especifica o valor do **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
   
-Para obter mais informações sobre modelos de pasta de pesquisa, consulte [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
+Para obter mais informações sobre modelos de pasta de pesquisa, consulte [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
     

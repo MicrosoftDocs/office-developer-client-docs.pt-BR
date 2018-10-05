@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dea709b457e28efef62718fc388621e01c4eb5bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387325"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>Propriedade canônica PidTagLastModificationTime
 
@@ -42,15 +42,15 @@ Essa propriedade é definida inicialmente para o mesmo valor que a propriedade *
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Trata-se de sincronização de dados de objeto de mensagens entre um servidor e um cliente.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     

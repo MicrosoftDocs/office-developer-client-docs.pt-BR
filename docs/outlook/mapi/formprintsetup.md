@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 83194b47faf7892d5da568a354921511eb097210
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c2b9176e21341ef28e6f0bc007757b097a05daee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582949"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386569"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
@@ -75,7 +75,7 @@ A estrutura **FORMPRINTSETUP** é usada para descrever as informações de confi
   
 Se o sinalizador MAPI_UNICODE é passado no parâmetro _ulFlags_ do **GetPrintSetup**, as cadeias de caracteres referenciadas pelos membros **hDevmode** e **hDevnames** devem estar no formato Unicode. Caso contrário, as cadeias de caracteres devem estar no formato ANSI. 
   
-Visualizadores de formulário implementando **IMAPIViewContext** devem alocar a estrutura **FORMPRINTSETUP** usando a função de alocador MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), mas alocar os membros individuais, **hDevMode** e **hDevNames**, com a função do Windows [GlobalAlloc](http://go.microsoft.com/fwlink/?LinkId=132110). A versão de memória é tratada da mesma forma. Os membros **hDevMode** e **hDevNames** devem ser liberados usando a função [GlobalFree](http://go.microsoft.com/fwlink/?LinkId=132108) do Windows enquanto a estrutura **FORMPRINTSETUP** deve ser liberada com a função [MAPIFreeBuffer](mapifreebuffer.md) . 
+Visualizadores de formulário implementando **IMAPIViewContext** devem alocar a estrutura **FORMPRINTSETUP** usando a função de alocador MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), mas alocar os membros individuais, **hDevMode** e **hDevNames**, com a função do Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). A versão de memória é tratada da mesma forma. Os membros **hDevMode** e **hDevNames** devem ser liberados usando a função [GlobalFree](https://go.microsoft.com/fwlink/?LinkId=132108) do Windows enquanto a estrutura **FORMPRINTSETUP** deve ser liberada com a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="see-also"></a>Confira também
 

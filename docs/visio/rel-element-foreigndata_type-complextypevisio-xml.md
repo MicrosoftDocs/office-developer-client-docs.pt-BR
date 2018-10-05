@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: Especifica uma relação entre uma forma e uma parte do documento que contém os dados de imagem associados à forma.
-ms.openlocfilehash: f54cd76788d6f5d916b9ed181f309687109dd589
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2667d5b0b940384f10df62dfc0fbf6acfa7d4ba6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772674"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383440"
 ---
 # <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Elemento REL (ForeignData_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica uma relação entre uma forma e uma parte do documento que contém os
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Pages.XML, masters.xml, recordsets.xml,. XML n º de página, mestre. XML de #  <br/> |
    
@@ -58,6 +58,6 @@ Nenhum.
 
 O valor do atributo **id de r:** deve ser um tipo de **ST_RelationshipID** . O tipo de **ST_RelationshipID** é uma cadeia de caracteres que deve estar no formato 'eliminar #', onde o caractere final deve ser um número. O número deve ser exclusivo entre todos os elementos filho do elemento **Rel** . 
   
-Para obter mais informações sobre o tipo de ST_RelationshipID, consulte a [especificação de ISO/IEC 29500 parte 1](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obter mais informações sobre o tipo de ST_RelationshipID, consulte a [especificação de ISO/IEC 29500 parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f9c334bc86bdff4abb2762642a37e3f0933a0b29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45535eef75c6fc091c02ec35b669675a51e4cf48
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589025"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384854"
 ---
 # <a name="download-hierarchy-state"></a>Baixar estado da hierarquia
 
@@ -37,7 +37,7 @@ ms.locfileid: "22589025"
 
 Nesse estado inicia o download de uma hierarquia de árvore de pastas de um servidor no repositório local. 
   
-Outlook inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente downloads da hierarquia e insere novas pastas ou modificações em pastas no armazenamento local. O processo de download adota sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Outlook inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente downloads da hierarquia e insere novas pastas ou modificações em pastas no armazenamento local. O processo de download adota sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Quando for encerrada nesse estado, o armazenamento local retorna para o estado de sincronização.
   
@@ -49,5 +49,5 @@ Quando for encerrada nesse estado, o armazenamento local retorna para o estado d
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

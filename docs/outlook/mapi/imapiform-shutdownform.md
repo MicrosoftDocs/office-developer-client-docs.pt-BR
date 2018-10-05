@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 49ed8669a5496524917c15ac86e4a13060931057
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 073a76766a296d86e7a23809921b832d494a8f1b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578567"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384833"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
@@ -51,7 +51,7 @@ SAVEOPTS_SAVEIFDIRTY
   
 > Dados do formulário devem ser salvo se tiver sido alterado desde a última salvar. Se nenhuma interface de usuário que está sendo exibido, o formulário opcionalmente pode alternar para usar a funcionalidade para a opção SAVEOPTS_NOSAVE.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -65,19 +65,19 @@ E_UNEXPECTED
 
 Visualizadores de formulário chame o método **IMAPIForm::ShutdownForm** para fechar um formulário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Execute as seguintes tarefas na sua implementação de **ShutdownForm**:
   
 1. Verifique se um visualizador já não chamado **ShutdownForm**e retornar E_UNEXPECTED se ele tiver sido definido. Embora esta seja improvável, você deve verificar.
     
-2. Chame o método de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) do seu formulário para que o armazenamento para o formulário e qualquer estruturas de dados internos permaneça disponível até que o processamento está concluído. 
+2. Chame o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) do seu formulário para que o armazenamento para o formulário e qualquer estruturas de dados internos permaneça disponível até que o processamento está concluído. 
     
 3. Determine se há quaisquer alterações não salvas os dados do formulário. Salve os dados de acordo com como o parâmetro _ulSaveOptions_ é definido chamando o método de [IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md) do seu visualizador. 
     
 4. Destrua a janela de interface de usuário do seu formulário.
     
-5. Libere mensagem e os objetos de site de seu formulário chamando os métodos [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . 
+5. Libere mensagem e os objetos de site de seu formulário chamando os métodos [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . 
     
 6. Notifica registrados todos os visualizadores do desligamento pendente chamando os métodos [IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md) . 
     
@@ -90,7 +90,7 @@ Execute as seguintes tarefas na sua implementação de **ShutdownForm**:
 10. Retorne S_OK.
     
 > [!NOTE]
-> Depois que essas ações tenham sido concluídas, os métodos só é válidos no objeto de formulário que podem ser chamadas são aqueles da interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) . 
+> Depois que essas ações tenham sido concluídas, os métodos só é válidos no objeto de formulário que podem ser chamadas são aqueles da interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) . 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 

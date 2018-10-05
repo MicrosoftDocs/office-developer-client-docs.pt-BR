@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af176c0ce327e6498a5d07f6d902c50f7323f813
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572715"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391728"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
@@ -26,8 +26,8 @@ Descompacta o corpo de uma mensagem de email que está no compactado Rich Text F
 |||
 |:-----|:-----|
 |Exportá-los por:  <br/> |Msmapi32  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT __stdcall WrapCompressedRTFStreamEx( 
@@ -72,7 +72,7 @@ MAPI_E_INVALID_PARAMETER
 
 **WrapCompressedRTFStreamEx** permite que você acesse o corpo de uma mensagem de email encapsulado em RTF compactado, descompactando o fluxo, retorna stream descompactado e seu formato e, opcionalmente, o fluxo de corpo nativo. O fluxo de corpo nativo pode estar em RTF, HTML ou texto sem formatação. 
   
-O modelo de objeto do Microsoft Office Outlook fornece uma propriedade de **corpo** de uma [Propriedade MailItem BodyFormat (Outlook)](http://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) que indica o formato do corpo de texto e objetos de **MailItem** . Por design, uma solução que não é confiável pelo Outlook invoca caixas de diálogo de segurança geradas pelo protetor de segurança do Outlook. Usando a função MAPI exportada **WrapCompressedRTFStreamEx** permite que uma solução para usar MAPI em vez de modelo de objeto do Outlook e evitar essas caixas de diálogo de segurança. 
+O modelo de objeto do Microsoft Office Outlook fornece uma propriedade de **corpo** de uma [Propriedade MailItem BodyFormat (Outlook)](https://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) que indica o formato do corpo de texto e objetos de **MailItem** . Por design, uma solução que não é confiável pelo Outlook invoca caixas de diálogo de segurança geradas pelo protetor de segurança do Outlook. Usando a função MAPI exportada **WrapCompressedRTFStreamEx** permite que uma solução para usar MAPI em vez de modelo de objeto do Outlook e evitar essas caixas de diálogo de segurança. 
   
 Porque o **MAPI\_NATIVE_BODY** sinalizador não pode ser combinado com o **MAPI\_modificar** sinalizador no campo **ulFlags** do **RTF\_WCSINFO** estrutura apontado pela *pWCSInfo*, você só poderá acessar o nativo fluxo do corpo em modo somente leitura. Para acessar o fluxo de corpo nativos no modo leitura/gravação, você deve usar a função **WrapCompressedRTFStream** . 
   

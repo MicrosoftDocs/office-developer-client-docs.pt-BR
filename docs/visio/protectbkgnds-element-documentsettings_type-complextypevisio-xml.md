@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
 description: Especifica se o usuário é impedido de exclusão ou a edição de páginas do plano de fundo.
-ms.openlocfilehash: 42f3f997a6190062a2b59a470ad1f34ab6f70fb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a6dae9e84b717146c28bd3466169092254d3341
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772609"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387647"
 ---
 # <a name="protectbkgnds-element-documentsettingstype-complextype-visio-xml"></a>Elemento ProtectBkgnds (DocumentSettings_Type complexType) ('Visio XML')
 
@@ -23,7 +23,7 @@ Especifica se o usuário é impedido de exclusão ou a edição de páginas do p
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
 |**Partes do documento** <br/> |Document  <br/> |
    

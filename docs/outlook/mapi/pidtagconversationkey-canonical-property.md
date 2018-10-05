@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 52c97d6c-7f4b-4522-aeac-0c1ed8475952
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b4c8c6cf3bee0575a42bc42a1ebf5e185ef78ab4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00c65dae9bc29fe9cdb310b819ba99d6d46ebfe3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591629"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389761"
 ---
 # <a name="pidtagconversationkey-canonical-property"></a>Propriedade canônica PidTagConversationKey
 
@@ -38,15 +38,15 @@ Ao acessar mensagens de email como conversas e converter propriedades da mensage
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Microsoft Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
     
-[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Codifica e decodifica objetos de mensagem e o anexo em uma representação de fluxo eficiente.
     

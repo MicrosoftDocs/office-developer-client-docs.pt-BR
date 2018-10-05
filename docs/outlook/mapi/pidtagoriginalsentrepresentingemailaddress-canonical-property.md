@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 79ddbe322534a3e98b6b2cea37f86bc25b7f5f2f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579085"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385351"
 ---
 # <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a>Propriedade canônica PidTagOriginalSentRepresentingEmailAddress
 
@@ -42,11 +42,11 @@ Um aplicativo cliente enviar uma mensagem em nome de outro cliente deve definir 
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
     

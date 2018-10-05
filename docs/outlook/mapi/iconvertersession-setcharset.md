@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 69023d2c13037fb52a4d1dc4f7376efbd839aebc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385722"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
@@ -42,23 +42,23 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in] Um identificador para um caractere definido como definido no mimeole.h do Windows Mail. Especifique **Nulo** para especificar que você não deseja aplicar qualquer conjunto de caracteres específico. Para valores não - **Nulo** , use uma função como [MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx) para obter um identificador para o conjunto de caracteres. 
+> [in] Um identificador para um caractere definido como definido no mimeole.h do Windows Mail. Especifique **Nulo** para especificar que você não deseja aplicar qualquer conjunto de caracteres específico. Para valores não - **Nulo** , use uma função como [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) para obter um identificador para o conjunto de caracteres. 
     
  _csetapplytype_
   
 > [in] Indica como aplicar um conjunto de caracteres para converter uma mensagem, conforme definido na mimeole.h do Windows Mail.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
 > A chamada de função é bem-sucedida.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |

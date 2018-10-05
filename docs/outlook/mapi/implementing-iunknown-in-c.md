@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: bdc81d78927e530037c65ca7fd61d722cd96bab7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581437"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391441"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implementar interface IUnknown em C
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Implementações do método [IUnknown:: QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) na C serão bastante similares às implementações de C++. Há duas etapas básicas para a implementação: 
+Implementações do método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) na C serão bastante similares às implementações de C++. Há duas etapas básicas para a implementação: 
   
 1. Validando parâmetros.
     
-2. O identificador da interface solicitada em relação à lista de interfaces suportadas pelo objeto de verificação e retornar o valor E_NO_INTERFACE ou um ponteiro de interface válido. Se um ponteiro de interface for retornado, a implementação também deve chamar o método [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para incrementar a contagem de referência. 
+2. O identificador da interface solicitada em relação à lista de interfaces suportadas pelo objeto de verificação e retornar o valor E_NO_INTERFACE ou um ponteiro de interface válido. Se um ponteiro de interface for retornado, a implementação também deve chamar o método [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar a contagem de referência. 
     
 A principal diferença entre uma implementação de **QueryInterface** em C e C++ é o primeiro parâmetro adicional na versão C. Como o ponteiro de objeto é adicionado à lista de parâmetros, uma implementação do C de **QueryInterface** deve ter mais de validação de parâmetro que uma implementação do C++. A lógica para o identificador de interface de verificação, incrementar a contagem de referência e retornando um ponteiro de objeto deve ser idêntica em ambos os idiomas. 
   
@@ -64,7 +64,7 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Enquanto a implementação do método **AddRef** em C é semelhante a uma implementação do C++, uma implementação do C do método [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) pode obter mais elaborada do que uma versão do C++. Isso ocorre porque muitas das funcionalidades envolvidas com dispensando a um objeto pode ser incorporada no construtor de C++ e destrutor e C tem esse mecanismo não. Toda essa funcionalidade deve ser incluída no método **Release** . Além disso, devido ao parâmetro adicional e seu vtable explícita, mais de validação é necessária. 
+Enquanto a implementação do método **AddRef** em C é semelhante a uma implementação do C++, uma implementação do C do método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) pode obter mais elaborada do que uma versão do C++. Isso ocorre porque muitas das funcionalidades envolvidas com dispensando a um objeto pode ser incorporada no construtor de C++ e destrutor e C tem esse mecanismo não. Toda essa funcionalidade deve ser incluída no método **Release** . Além disso, devido ao parâmetro adicional e seu vtable explícita, mais de validação é necessária. 
   
 A chamada de método **AddRef** a seguir ilustra uma implementação C típica para um objeto de status. 
   

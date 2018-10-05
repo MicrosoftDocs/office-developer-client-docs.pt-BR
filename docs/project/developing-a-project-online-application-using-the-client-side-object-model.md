@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: Este artigo descreve o Microsoft Project Online desenvolvimento de aplicativos para aplicativos de área de trabalho usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem.
-ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b6e7260fd2337d2b156f97605fdd201f5e0d4edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572876"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385260"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desenvolvendo um aplicativo do Project Online usando o modelo de objeto do cliente
 
@@ -43,7 +43,7 @@ Este artigo concentra-se em um aplicativo que usa a interface CSOM do .NET.
 
 Comece com um sistema de base executando Windows 10 e, em seguida, adicione os seguintes itens:
   
-- .NET framework 4.0 ou posterior – usam o framework completo. O site de download está https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- .NET framework 4.0 ou posterior – usam o framework completo. O site de download está https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - Visual Studio 2013 ou posterior – qualquer edição é aceitável. A edição de comunidade do Visual Studio de 2015 foi usada para desenvolver o aplicativo de amostra. A edição de comunidade está disponível em https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
     

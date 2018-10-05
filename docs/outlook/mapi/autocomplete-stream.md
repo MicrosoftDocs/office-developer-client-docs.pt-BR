@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591076"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384644"
 ---
 # <a name="autocomplete-stream"></a>Fluxo de preenchimento automático
 
@@ -71,7 +71,7 @@ Informações extras (bytes EI)
   
 Metadados (8 bytes)
   
-Para ver um exemplo de estrutura binária, confira o Exemplo Binário nas [Diretrizes para Desenvolvedor e Formato de Arquivo do Outlook 2003/2007 NK2.](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+Para ver um exemplo de estrutura binária, confira o Exemplo Binário nas [Diretrizes para Desenvolvedor e Formato de Arquivo do Outlook 2003/2007 NK2.](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
   
 ## <a name="high-level-layout"></a>Layout de Alto Nível
 
@@ -198,7 +198,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## <a name="significant-properties"></a>Propriedades significativas
 
-Como mencionado anteriormente neste tópico, os blocos binários que representam propriedades têm marcas de propriedade que correspondem às propriedades nos destinatários de catálogo de endereços. Para as propriedades que não estão listadas aqui, você pode pesquisar a descrição da propriedade na http://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx.
+Como mencionado anteriormente neste tópico, os blocos binários que representam propriedades têm marcas de propriedade que correspondem às propriedades nos destinatários de catálogo de endereços. Para as propriedades que não estão listadas aqui, você pode pesquisar a descrição da propriedade na https://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx.
   
 |**Nome da propriedade**|**Marca de Propriedade**|**Descrição (confira MSDN para saber mais)**|
 |:-----|:-----|:-----|

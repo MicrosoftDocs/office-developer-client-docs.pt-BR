@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594506"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383272"
 ---
 # <a name="fielddefinition-stream-structure"></a>Estrutura de fluxo de FieldDefinition
 
@@ -40,7 +40,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
     |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |Este campo é do tipo **combinação** e selecionou a opção **mostrando apenas o primeiro campo não vazio, ignorando os demais** na caixa de diálogo **Campo de fórmula de combinação** .  <br/> |
     |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |Esse sinalizador não é usado pelo Outlook, mas é incluído para todas as definições de campo definido pelo usuário.  <br/> |
    
-- VT: WORD (2 bytes), o tipo de dados do campo, que é uma constante da enumeração [VARENUM](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum.aspx) . 
+- VT: WORD (2 bytes), o tipo de dados do campo, que é uma constante da enumeração [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) . 
     
 - DispId: DWORD (4 bytes), o identificador de distribuição do campo. Para um campo definido pelo usuário, o valor é 0.
     

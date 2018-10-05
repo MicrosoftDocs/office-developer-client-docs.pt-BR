@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ede62c792b1241a150c9d0a05adbe47fe0b6c0e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab246414f7caaf76f462d9b80e762fe614c77c21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567458"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390006"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriedade canônica PidTagRuleActions
 
@@ -36,13 +36,13 @@ Contém o conjunto de ações associadas à regra.
    
 ## <a name="remarks"></a>Comentários
 
-As ações são expressas como uma ação de regra e o buffer de valor de propriedade contém a estrutura do buffer de dados de ação regra empacotada conforme especificado na [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+As ações são expressas como uma ação de regra e o buffer de valor de propriedade contém a estrutura do buffer de dados de ação regra empacotada conforme especificado na [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Essas funções demonstram como analisar uma propriedade PT_ACTIONS para fins de cópia para outra propriedade.  <br/> |
    
@@ -50,11 +50,11 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula mensagens de email de entrada em um servidor.
     

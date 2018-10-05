@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8b7263fc408bd2c3f6838e571407ed8984c61427
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2dec706252eb6aa1b28f68f6f46473df04f3fbe7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582760"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382789"
 ---
 # <a name="pidtagrecipienttrackstatustime-canonical-property"></a>Propriedade canônica PidTagRecipientTrackStatusTime
 
@@ -42,11 +42,11 @@ O valor deve ser especificado no tempo Universal Coordenado (UTC).
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para o compromisso, solicitação de reunião e mensagens de resposta.
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 227ceb468c54cea98519057b2f837a4aee84820c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569061"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387213"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propriedade canônica PidTagOriginatorNonDeliveryReportRequested
 
@@ -42,7 +42,7 @@ Essa propriedade é usada para direcionar o sistema de mensagens no tratamento d
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para objetos de mensagem de email.
     

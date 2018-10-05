@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: c9d769e6a32fad22750a965debbbdce83e4de539
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f0d98b8ffa13fe238fc0fcf8ff0ec76a3a284eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586450"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390454"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
@@ -39,7 +39,7 @@ HRESULT GetClassID(
   
 > [além, out] Um ponteiro para o identificador de classe (CLSID) do formulário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 O método **IPersistMessge::GetClassID** define o conteúdo do parâmetro _lpClassID_ como identificador de classe do servidor formulário e retorna S_OK. Quando um visualizador de formulário chama **GetClassID** e ela retorna com êxito, o formulário é colocado no estado [não inicializado](uninitialized-state.md) . 
   
-Para obter mais informações sobre como os identificadores de classe são usados com os objetos de armazenamento estruturado, consulte a documentação para o método [IPersist::GetClassID](http://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
+Para obter mais informações sobre como os identificadores de classe são usados com os objetos de armazenamento estruturado, consulte a documentação para o método [IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) . 
   
 ## <a name="see-also"></a>Confira também
 

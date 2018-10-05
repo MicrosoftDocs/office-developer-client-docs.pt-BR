@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bc61fb1ac3fce317be283b7f05813ad485791cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563531"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389096"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Propriedade canônica PidTagAttachMimeTag
 
@@ -44,11 +44,11 @@ Essas propriedades são copiadas no parâmetro tipo de conteúdo do cabeçalho d
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Especifica as propriedades das mensagens codificadas direitos gerenciados.
     

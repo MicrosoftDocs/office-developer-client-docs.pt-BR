@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 558a2235f7cb617bf37ccff77ebeec6e4ba77604
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4432650d5c9fc77c4db0bc9aed4234d85e7fdf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582613"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387038"
 ---
 # <a name="pidtagreportentryid-canonical-property"></a>Propriedade canônica PidTagReportEntryId
 
@@ -44,11 +44,11 @@ Um aplicativo cliente que deve rotear relatórios para outro usuário deverá de
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em mensagens de email.
     

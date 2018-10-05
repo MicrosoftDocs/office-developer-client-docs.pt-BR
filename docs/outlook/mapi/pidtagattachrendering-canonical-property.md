@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22d3e649641dbe688912ecece7fde73a555f4a88
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588941"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383188"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Propriedade canônica PidTagAttachRendering
 
@@ -52,7 +52,7 @@ Em todos os casos, o aplicativo cliente deve estar ciente que essa propriedade n
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Trata objetos de mensagem e o anexo.
     

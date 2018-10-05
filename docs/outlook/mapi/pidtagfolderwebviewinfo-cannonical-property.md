@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70932e703511235e9f5e32efd95b18d1b66494e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389957"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriedade canônica PidTagFolderWebViewInfo
 
@@ -91,7 +91,7 @@ cbData diferente
     
 ### <a name="webviewpersistenceobject-stream-sample"></a>Exemplo de fluxo de WebViewPersistenceObject
 
-Esta seção descreve um exemplo de um fluxo de **WebViewPersistenceObject** . O fluxo Especifica a URL da home page "http://www.microsoft.com". 
+Esta seção descreve um exemplo de um fluxo de **WebViewPersistenceObject** . O fluxo Especifica a URL da home page "https://www.microsoft.com". 
   
  **Despejo de dados**
   
@@ -130,6 +130,6 @@ A seguir está uma análise dos dados de amostra para o fluxo de **WebViewPersis
     
  _wzURL_
   
-> Deslocamento 0x2C, 0x32 bytes: matriz de 25 WCHARs. Um valor de cadeia de caracteres terminada em zero Unicode: "http://www.microsoft.com".
+> Deslocamento 0x2C, 0x32 bytes: matriz de 25 WCHARs. Um valor de cadeia de caracteres terminada em zero Unicode: "https://www.microsoft.com".
     
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566156"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388067"
 ---
 # <a name="managing-memory-in-mapi"></a>Gerenciando memória nos MAPI
 
@@ -43,6 +43,6 @@ As macros de memória são usadas para alocar estruturas ou matrizes de estrutur
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-MAPI também suporta o uso da interface COM [IMalloc](http://msdn.microsoft.com/en-us/library/ms678425%28VS.85%29.aspx) para gerenciamento de memória. Provedores de serviço recebem um ponteiro de interface **IMalloc** por MAPI em tempo de inicialização e também podem recuperar um por meio da função [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . A principal vantagem de usar os métodos **IMalloc** para gerenciar memória sobre as funções MAPI é que com os métodos COM é possível realocar um buffer existente. As funções de memória MAPI não dão suporte a realocação. 
+MAPI também suporta o uso da interface COM [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) para gerenciamento de memória. Provedores de serviço recebem um ponteiro de interface **IMalloc** por MAPI em tempo de inicialização e também podem recuperar um por meio da função [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) . A principal vantagem de usar os métodos **IMalloc** para gerenciar memória sobre as funções MAPI é que com os métodos COM é possível realocar um buffer existente. As funções de memória MAPI não dão suporte a realocação. 
   
 

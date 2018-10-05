@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 14964f367e3dbca484c4e1612b374a6a72ddf17b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383737"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
@@ -55,9 +55,9 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] Um ponteiro para um ponteiro para um objeto stream que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de passados-in encapsulado mensagem e que dá suporte à interface [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [out] Um ponteiro para um ponteiro para um objeto stream que contém o texto da propriedade **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) de passados-in encapsulado mensagem e que dá suporte à interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

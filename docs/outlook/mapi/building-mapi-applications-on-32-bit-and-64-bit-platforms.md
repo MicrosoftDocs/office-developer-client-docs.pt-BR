@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc98b201b31048e22e093d92c9cf2d5ff1fb0257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563573"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383146"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Compilando aplicativos MAPI em plataformas de 32 bits e 64 bits
 
@@ -53,7 +53,7 @@ Aplicativos MAPI compilados por um subsistema MAPI de 32 bits que está disponí
   
 ### <a name="32-bit-mapi-application-and-64-bit-outlook"></a>aplicativo de MAPI de 32 bits e 64 bits Outlook
 
-aplicativos MAPI de 32 bits não são suportados para executar em um computador instalado com o Outlook de 64 bits e Windows de 64 bits. O desenvolvedor do aplicativo deve atualizar e recriar o aplicativo como um aplicativo de 64 bits para a plataforma de 64 bits. Isso acontece porque um aplicativo de 32 bits não é possível carregar um arquivo de Msmapi32 de 64 bits. Há um pequeno número de alterações de API que os desenvolvedores de aplicativos devem incorporar para criar seu código com êxito para um ambiente de 64 bits. Arquivos de cabeçalho MAPI foram atualizados com essas alterações para oferecer suporte a plataforma de 64 bits. Você pode baixar esses arquivos de cabeçalho em [Outlook 2010: arquivos de cabeçalho de MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Os desenvolvedores podem usar esse mesmo conjunto de arquivos de cabeçalho MAPI para criar aplicativos de MAPI de 32 bits e 64 bits.
+aplicativos MAPI de 32 bits não são suportados para executar em um computador instalado com o Outlook de 64 bits e Windows de 64 bits. O desenvolvedor do aplicativo deve atualizar e recriar o aplicativo como um aplicativo de 64 bits para a plataforma de 64 bits. Isso acontece porque um aplicativo de 32 bits não é possível carregar um arquivo de Msmapi32 de 64 bits. Há um pequeno número de alterações de API que os desenvolvedores de aplicativos devem incorporar para criar seu código com êxito para um ambiente de 64 bits. Arquivos de cabeçalho MAPI foram atualizados com essas alterações para oferecer suporte a plataforma de 64 bits. Você pode baixar esses arquivos de cabeçalho em [Outlook 2010: arquivos de cabeçalho de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Os desenvolvedores podem usar esse mesmo conjunto de arquivos de cabeçalho MAPI para criar aplicativos de MAPI de 32 bits e 64 bits.
   
 ### <a name="64-bit-mapi-application-and-64-bit-outlook"></a>aplicativo de MAPI de 64 bits e 64 bits Outlook
 
@@ -61,7 +61,7 @@ aplicativos MAPI de 64 bits são suportados em computadores instalados com o Out
   
 ### <a name="64-bit-mapi-application-and-32-bit-outlook"></a>Outlook de 32 bits e de aplicativo de MAPI de 64 bits
 
-aplicativos MAPI de 64 bits não são suportados para executar em um computador instalado com o Outlook de 32 bits e Windows de 32 bits ou 64 bits. O desenvolvedor do aplicativo deve atualizar e recriar o aplicativo como um aplicativo de 32 bits para funcionar com o Outlook de 32 bits. Use os arquivos de cabeçalho MAPI atualizados, o que pode ser baixado em [Outlook 2010: arquivos de cabeçalho de MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Os desenvolvedores podem usar esse mesmo conjunto de arquivos de cabeçalho MAPI para criar aplicativos de MAPI de 32 bits e 64 bits.
+aplicativos MAPI de 64 bits não são suportados para executar em um computador instalado com o Outlook de 32 bits e Windows de 32 bits ou 64 bits. O desenvolvedor do aplicativo deve atualizar e recriar o aplicativo como um aplicativo de 32 bits para funcionar com o Outlook de 32 bits. Use os arquivos de cabeçalho MAPI atualizados, o que pode ser baixado em [Outlook 2010: arquivos de cabeçalho de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Os desenvolvedores podem usar esse mesmo conjunto de arquivos de cabeçalho MAPI para criar aplicativos de MAPI de 32 bits e 64 bits.
   
 ### <a name="exception-mapisendmail"></a>Exceção: MAPISendMail
 

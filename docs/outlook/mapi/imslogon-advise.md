@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587856"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382754"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
@@ -71,7 +71,7 @@ HRESULT Advise(
   
 > [out] Um ponteiro para uma variável que contém o número de conexão para o registro de notificação após um retorno bem-sucedido. O número de conexão deve ser diferente de zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -87,7 +87,7 @@ Provedores de armazenamento de mensagem implementam o método **IMSLogon::Advise
   
 A chamada para **OnNotify** pode ocorrer durante a chamada que altera o objeto ou a qualquer momento posterior. Nos sistemas que oferecem suporte a vários threads de execução, a chamada para **OnNotify** pode ocorrer em qualquer segmento. Para manipular com segurança uma chamada para **OnNotify** que pode acontecer momento inoportunos, um aplicativo cliente deve usar a função [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Para fornecer notificações, o provedor de armazenamento de mensagem que implementa as necessidades de **Advise** manter uma cópia do ponteiro para o _lpAdviseSink_ avise o objeto coletor de eventos; Para fazer isso, o provedor chama o método de [AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) para o coletor de eventos advise manter seu indicador de objeto até que o registro de notificação será cancelado com uma chamada ao método [IMSLogon::Unadvise](imslogon-unadvise.md) . A implementação de **Advise** deve atribuir um número de conexão para o registro de notificação e chamar **AddRef** este número de conexão antes de retorná-lo no parâmetro _lpulConnection_ . Provedores de serviços podem liberar o objeto coletor de eventos advise antes que o registro será cancelado, mas eles não devem liberar o número de conexão até que tenha sido chamado **Unadvise** . 
+Para fornecer notificações, o provedor de armazenamento de mensagem que implementa as necessidades de **Advise** manter uma cópia do ponteiro para o _lpAdviseSink_ avise o objeto coletor de eventos; Para fazer isso, o provedor chama o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para o coletor de eventos advise manter seu indicador de objeto até que o registro de notificação será cancelado com uma chamada ao método [IMSLogon::Unadvise](imslogon-unadvise.md) . A implementação de **Advise** deve atribuir um número de conexão para o registro de notificação e chamar **AddRef** este número de conexão antes de retorná-lo no parâmetro _lpulConnection_ . Provedores de serviços podem liberar o objeto coletor de eventos advise antes que o registro será cancelado, mas eles não devem liberar o número de conexão até que tenha sido chamado **Unadvise** . 
   
 Depois que uma chamada para **Advise** teve sucesso e antes de **Unadvise** tiver sido chamado, provedores devem ser preparados para o objeto coletor de eventos de advise ser liberada. Portanto, um provedor deve liberar seu objeto de coletor advise depois **Advise** retorna, a menos que ele tem um uso específico de longo prazo para que ele. 
   
@@ -103,7 +103,7 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
   
 [IMSLogon::Unadvise](imslogon-unadvise.md)
   
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [IMSLogon : IUnknown](imslogoniunknown.md)
 

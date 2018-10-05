@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9bfb94b2929f780a428fb932efb3538f94f5aaea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f04d1593e2a13a2bfc23412340d7eb9f38f5d9ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591461"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389964"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propriedade canônica PidLidDistributionListMembers
 
@@ -37,7 +37,7 @@ Especifica a lista de EntryIds dos objetos que correspondem aos membros da lista
    
 ## <a name="remarks"></a>Comentários
 
-Membros da lista de distribuição pessoal podem ser outras listas de distribuição pessoal, endereços eletrônicos contidos em um contato, os usuários da lista de endereços Global ou listas de distribuição ou endereços de email únicos. O formato de cada EntryId deve ser uma EntryId único, conforme especificado na [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou uma EntryId com quebra. 
+Membros da lista de distribuição pessoal podem ser outras listas de distribuição pessoal, endereços eletrônicos contidos em um contato, os usuários da lista de endereços Global ou listas de distribuição ou endereços de email únicos. O formato de cada EntryId deve ser uma EntryId único, conforme especificado na [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou uma EntryId com quebra. 
   
 Ao definir essa propriedade, o cliente ou o servidor deve assegurar que seu tamanho total for menor que 15.000 bytes.
   
@@ -49,11 +49,11 @@ Se o cliente ou o servidor definir essa propriedade, ele deve ser sincronizado c
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas para contatos e listas de distribuição pessoal.
     

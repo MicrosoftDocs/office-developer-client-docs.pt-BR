@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584762"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391602"
 ---
 # <a name="writing-a-remote-viewer"></a>Como escrever um visualizador remoto
 
@@ -37,7 +37,7 @@ Um visualizador remoto é uma janela em um aplicativo cliente que fornece acesso
     
 5. Passe o identificador de entrada para cada linha na tabela em uma chamada para [IMAPISession::OpenEntry](imapisession-openentry.md). Porque esta interface é enfileirada do contexto de processo do spooler MAPI para o contexto de processo do cliente — ao contrário de interfaces normalmente obtidos do catálogo de endereços ou mensagem provedores de armazenamento — problemas sobre multithreading são mais importância. 
     
-6. Chame o status método do objeto [IUnknown:: QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) , passando IID_IMAPIFolder como o identificador de interface, para recuperar a pasta remota. A pasta remota não é uma implementação de pasta completa; suporte a apenas um subconjunto das propriedades e métodos de pasta. Um dos métodos necessários, [IMAPIProp::GetProps](imapiprop-getprops.md), suporta a recuperação das seguintes propriedades:
+6. Chame o status método do objeto [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) , passando IID_IMAPIFolder como o identificador de interface, para recuperar a pasta remota. A pasta remota não é uma implementação de pasta completa; suporte a apenas um subconjunto das propriedades e métodos de pasta. Um dos métodos necessários, [IMAPIProp::GetProps](imapiprop-getprops.md), suporta a recuperação das seguintes propriedades:
     
     |||
     |:-----|:-----|

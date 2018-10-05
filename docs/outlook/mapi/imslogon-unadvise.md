@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 4ee17799fc42faf383461af7eed9d700d17b868e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9172d4956e78ac31cd15d69e70d05c127a474ca5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582382"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387629"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] O número da conexão de registro retornado por uma chamada para **IMSLogon::Advise**.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Mensagem armazenar provedores implementar o método **IMSLogon::Unadvise** para liberar o ponteiro para o objeto de coletor de eventos de advise passado no parâmetro _lpAdviseSink_ na chamada anterior a **IMSLogon::Advise**, cancelando, portanto, uma notificação Registro. Como parte do descartar o ponteiro para o objeto coletor de eventos advise, o método do objeto [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) é chamado. Geralmente, a **versão** é chamado durante a chamada **Unadvise** . However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns. 
+Mensagem armazenar provedores implementar o método **IMSLogon::Unadvise** para liberar o ponteiro para o objeto de coletor de eventos de advise passado no parâmetro _lpAdviseSink_ na chamada anterior a **IMSLogon::Advise**, cancelando, portanto, uma notificação Registro. Como parte do descartar o ponteiro para o objeto coletor de eventos advise, o método do objeto [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é chamado. Geralmente, a **versão** é chamado durante a chamada **Unadvise** . However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns. 
   
 ## <a name="see-also"></a>Ver tamb�m
 

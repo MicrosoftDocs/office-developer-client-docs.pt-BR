@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Modificado pela última vez: 06 de julho de 2012'
-ms.openlocfilehash: 7616c3a6077b9354cda7046c0949e7c5553f6551
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586834"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389194"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Instalar o exemplo de suplemento de estado offline
 
@@ -23,7 +23,7 @@ Este tópico leva as etapas para baixar e instalar o suplemento de amostra Offli
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Instalar o amostra Offline State suplemento
 
-1. Baixar o Add-in amostra Offline estado aqui: [amostras de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Baixar o Add-in amostra Offline estado aqui: [amostras de código de referência de auxiliar do Outlook 2007 e instalador redistribuível](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Execute o Visual Studio 2005 como administrador.
     

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
-ms.openlocfilehash: fbf064201bf8d2733c3eea1e1a24f77b146a23c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06f30b4856fc10127aec99975652e28a5e8dda30
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564567"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389082"
 ---
 # <a name="dnhier"></a>DNHIER
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para download de uma hierarquia do servidor durante o [estado de hierarquia de download](download-hierarchy-state.md), que é parte de uma sincronização de hierarquia completa. Este processo de download usa a sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Informações para download de uma hierarquia do servidor durante o [estado de hierarquia de download](download-hierarchy-state.md), que é parte de uma sincronização de hierarquia completa. Este processo de download usa a sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -51,7 +51,7 @@ _pstmReserved_
     
 _pxihc_
   
->  [out] Ponteiro para a interface de hierarquia de **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para obter mais informações sobre **IExchangeImportHierarchyChanges**, consulte [ICS critérios de avaliação](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Ponteiro para a interface de hierarquia de **IExchangeImportHierarchyChanges** que suporta o download de alterações incrementais de hierarquia. Para obter mais informações sobre **IExchangeImportHierarchyChanges**, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _cEntNew_
   

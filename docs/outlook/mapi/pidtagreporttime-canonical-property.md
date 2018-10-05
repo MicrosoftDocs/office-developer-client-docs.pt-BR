@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4efe68745c10521de243677c10a9ca32debd7122
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 298c53e537819f800a3acc5cf07c01a7b9f978ec
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387598"
 ---
 # <a name="pidtagreporttime-canonical-property"></a>Propriedade canônica PidTagReportTime
 
@@ -42,15 +42,15 @@ Essa propriedade representa uma propriedade por destinatário nos relatórios de
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações que são permitidas em mensagens de email.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
     

@@ -6,25 +6,25 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
-ms.openlocfilehash: 19ec67bf033859073e7685912196369b664f4a36
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59f43e8b3b0819b0178d60fa357e01937ae19d81
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592686"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389733"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Suporta enumerando contas como objetos [IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Suporta enumerando contas como objetos [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Herda de:  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Implementada por:  <br/> |Outlook  <br/> |
+|Herda de:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Implementado por:  <br/> |Outlook  <br/> |
 |Provided by:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IOlkEnum  <br/> |
    
 ## <a name="vtable-order"></a>Ordem vtable

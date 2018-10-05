@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b62fc62bb9232b7106019fca82f502221e50bad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c9c446097213e5b743a47ec32db17ec0afe63b78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583558"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389180"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriedade canônica PidTagContainerFlags
 
@@ -68,15 +68,15 @@ O sinalizador AB_MODIFIABLE não indica quais tipos de entradas podem ser adicio
 
 ### <a name="protocol-specifications"></a>Especificações de protocolo
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fornece referências a relacionados especificações de protocolo do Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Especifica as propriedades e operações para obter listas de usuários, contatos, grupos e recursos.
     
-[[MS-NSPI]](http://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
 > Trata a comunicação do cliente com um servidor de nome serviço provedor NSPI (Interface).
     

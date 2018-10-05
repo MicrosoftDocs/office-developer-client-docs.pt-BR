@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 1c7ae4ab6de20d69581a98323c14a2c15f436cad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8e4712572eaff465bb23b55eccc3670f637c0f9c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572820"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386048"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>Desligar um provedor do repositório de mensagens
 
@@ -27,7 +27,7 @@ Se seu provedor for um provedor de armazenamento de mensagem, ele pode ser desli
     
 - Quando um cliente chama [IMAPISession::Logoff](imapisession-logoff.md). 
     
-A implementação dos **IMsgStore::StoreLogoff** deve começar chamando [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) para informar MAPI que está sendo desligado, indicando que qualquer provedor de transporte relacionados deve ser desconectado. Quando **IMsgStore::StoreLogoff** retorna, seu chamador chama o método de [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) do seu armazenamento de mensagens. Implemente esse método **versão** chamando-se o suporte ao método do objeto **IUnknown:: Release** . 
+A implementação dos **IMsgStore::StoreLogoff** deve começar chamando [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) para informar MAPI que está sendo desligado, indicando que qualquer provedor de transporte relacionados deve ser desconectado. Quando **IMsgStore::StoreLogoff** retorna, seu chamador chama o método de [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) do seu armazenamento de mensagens. Implemente esse método **versão** chamando-se o suporte ao método do objeto **IUnknown:: Release** . 
   
 MAPI executa as seguintes tarefas em sua implementação do **IUnknown:: Release** para repositórios de mensagem: 
   
@@ -37,7 +37,7 @@ MAPI executa as seguintes tarefas em sua implementação do **IUnknown:: Release
     
 3. Chama [IMSLogon::Logoff](imslogon-logoff.md) para liberar todos os objetos abertos, subobjetos e objetos de status. 
     
-4. Chama [IUnknown:: Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar o objeto de logon do provedor de repositório a mensagem. 
+4. Chama [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) para liberar o objeto de logon do provedor de repositório a mensagem. 
     
 Alguns clientes podem omitir a chamada para **IMsgStore::StoreLogoff**, iniciando o desligamento do seu provedor de armazenamento de mensagem com a chamada ao método de **IUnknown:: Release** do armazenamento de mensagens. Um desligamento seguintes circunstâncias sem a chamada para **StoreLogoff** é menos ordenado e controlada. Escreva o método de **lançamento** do armazenamento de suas mensagens para lidar com essa possibilidade e ficar atento se ou não uma chamada para **IMAPISupport::StoreLogoffTransports** ocorreu. **StoreLogoffTransports** deve ser chamada uma vez durante o processo de desligamento. Se você detectar no seu método de **versão** que **StoreLogoffTransports** ainda não foi chamado, chamá-la com o sinalizador LOGOFF_ABORT. 
   
