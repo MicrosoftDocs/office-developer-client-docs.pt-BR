@@ -12,72 +12,72 @@ api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 79f6c90d1ebd2257cc428e88dfce3d9ee9dfeccf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6ddc7231afef0a224b92be7fe86216e56200ab70
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573464"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400276"
 ---
-# <a name="pidtagtodoitemflags-canonical-property"></a><span data-ttu-id="04bfb-103">Propriedade canônica PidTagToDoItemFlags</span><span class="sxs-lookup"><span data-stu-id="04bfb-103">PidTagToDoItemFlags Canonical Property</span></span>
+# <a name="pidtagtodoitemflags-canonical-property"></a><span data-ttu-id="d5c4b-103">Propriedade canônica PidTagToDoItemFlags</span><span class="sxs-lookup"><span data-stu-id="d5c4b-103">PidTagToDoItemFlags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="04bfb-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="04bfb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d5c4b-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d5c4b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="04bfb-105">Representa a condição de um item de tarefas pendentes sinalizadas.</span><span class="sxs-lookup"><span data-stu-id="04bfb-105">Represents a To-Do item's flagged condition.</span></span>
+<span data-ttu-id="d5c4b-105">Representa a condição de um item de tarefas pendentes sinalizadas.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-105">Represents a To-Do item's flagged condition.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="04bfb-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="04bfb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="04bfb-107">PR_TODO_ITEM_FLAGS</span><span class="sxs-lookup"><span data-stu-id="04bfb-107">PR_TODO_ITEM_FLAGS</span></span>  <br/> |
-|<span data-ttu-id="04bfb-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="04bfb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="04bfb-109">0x0E2B</span><span class="sxs-lookup"><span data-stu-id="04bfb-109">0x0E2B</span></span>  <br/> |
-|<span data-ttu-id="04bfb-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="04bfb-110">Data type:</span></span>  <br/> |<span data-ttu-id="04bfb-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="04bfb-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="04bfb-112">Área:</span><span class="sxs-lookup"><span data-stu-id="04bfb-112">Area:</span></span>  <br/> |<span data-ttu-id="04bfb-113">MAPI não transmittable</span><span class="sxs-lookup"><span data-stu-id="04bfb-113">MAPI non-transmittable</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="d5c4b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d5c4b-107">PR_TODO_ITEM_FLAGS</span><span class="sxs-lookup"><span data-stu-id="d5c4b-107">PR_TODO_ITEM_FLAGS</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="d5c4b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="d5c4b-109">0x0E2B</span><span class="sxs-lookup"><span data-stu-id="d5c4b-109">0x0E2B</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-110">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="d5c4b-110">Data type:</span></span>  <br/> |<span data-ttu-id="d5c4b-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="d5c4b-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-112">Área:</span><span class="sxs-lookup"><span data-stu-id="d5c4b-112">Area:</span></span>  <br/> |<span data-ttu-id="d5c4b-113">MAPI não transmittable</span><span class="sxs-lookup"><span data-stu-id="d5c4b-113">MAPI non-transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="04bfb-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="04bfb-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d5c4b-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="d5c4b-114">Remarks</span></span>
 
-<span data-ttu-id="04bfb-115">Essa propriedade é um campo de bit no qual cada bit deve ser definido como 1 se se aplica a condição associada na tabela a seguir, caso contrário 0.</span><span class="sxs-lookup"><span data-stu-id="04bfb-115">This property is a bit field in which each bit should be set to 1 if the associated condition in the following table applies, otherwise 0.</span></span>
+<span data-ttu-id="d5c4b-115">Essa propriedade é um campo de bit no qual cada bit deve ser definido como 1 se se aplica a condição associada na tabela a seguir, caso contrário 0.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-115">This property is a bit field in which each bit should be set to 1 if the associated condition in the following table applies, otherwise 0.</span></span>
   
 ||||
 |:-----|:-----|:-----|
-|<span data-ttu-id="04bfb-116">Valor numérico</span><span class="sxs-lookup"><span data-stu-id="04bfb-116">Numeric value</span></span>  <br/> |<span data-ttu-id="04bfb-117">Nome</span><span class="sxs-lookup"><span data-stu-id="04bfb-117">Name</span></span>  <br/> |<span data-ttu-id="04bfb-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="04bfb-118">Description</span></span>  <br/> |
-|<span data-ttu-id="04bfb-119">Não estiver presente</span><span class="sxs-lookup"><span data-stu-id="04bfb-119">Not present</span></span>  <br/> |<span data-ttu-id="04bfb-120">N/A</span><span class="sxs-lookup"><span data-stu-id="04bfb-120">N/A</span></span>  <br/> |<span data-ttu-id="04bfb-121">Sem sinalizador</span><span class="sxs-lookup"><span data-stu-id="04bfb-121">Unflagged</span></span>  <br/> |
-|<span data-ttu-id="04bfb-122">1</span><span class="sxs-lookup"><span data-stu-id="04bfb-122">1</span></span>  <br/> |<span data-ttu-id="04bfb-123">todoTimeFlagged</span><span class="sxs-lookup"><span data-stu-id="04bfb-123">todoTimeFlagged</span></span>  <br/> |<span data-ttu-id="04bfb-124">Objeto é o tempo sinalizado</span><span class="sxs-lookup"><span data-stu-id="04bfb-124">Object is time flagged</span></span>  <br/> |
-|<span data-ttu-id="04bfb-125">8</span><span class="sxs-lookup"><span data-stu-id="04bfb-125">8</span></span>  <br/> |<span data-ttu-id="04bfb-126">todoRecipientFlagged</span><span class="sxs-lookup"><span data-stu-id="04bfb-126">todoRecipientFlagged</span></span>  <br/> |<span data-ttu-id="04bfb-127">Só deve ser definido em um objeto de mensagem de rascunho e significa que o objeto foi sinalizado para destinatários.</span><span class="sxs-lookup"><span data-stu-id="04bfb-127">Should only be set on a draft message object, and it means that the object is flagged for recipients.</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-116">Valor numérico</span><span class="sxs-lookup"><span data-stu-id="d5c4b-116">Numeric value</span></span>  <br/> |<span data-ttu-id="d5c4b-117">Nome</span><span class="sxs-lookup"><span data-stu-id="d5c4b-117">Name</span></span>  <br/> |<span data-ttu-id="d5c4b-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="d5c4b-118">Description</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-119">Não estiver presente</span><span class="sxs-lookup"><span data-stu-id="d5c4b-119">Not present</span></span>  <br/> |<span data-ttu-id="d5c4b-120">N/A</span><span class="sxs-lookup"><span data-stu-id="d5c4b-120">N/A</span></span>  <br/> |<span data-ttu-id="d5c4b-121">Sem sinalizador</span><span class="sxs-lookup"><span data-stu-id="d5c4b-121">Unflagged</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-122">1</span><span class="sxs-lookup"><span data-stu-id="d5c4b-122">1</span></span>  <br/> |<span data-ttu-id="d5c4b-123">todoTimeFlagged</span><span class="sxs-lookup"><span data-stu-id="d5c4b-123">todoTimeFlagged</span></span>  <br/> |<span data-ttu-id="d5c4b-124">Objeto é o tempo sinalizado</span><span class="sxs-lookup"><span data-stu-id="d5c4b-124">Object is time flagged</span></span>  <br/> |
+|<span data-ttu-id="d5c4b-125">8</span><span class="sxs-lookup"><span data-stu-id="d5c4b-125">8</span></span>  <br/> |<span data-ttu-id="d5c4b-126">todoRecipientFlagged</span><span class="sxs-lookup"><span data-stu-id="d5c4b-126">todoRecipientFlagged</span></span>  <br/> |<span data-ttu-id="d5c4b-127">Só deve ser definido em um objeto de mensagem de rascunho e significa que o objeto foi sinalizado para destinatários.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-127">Should only be set on a draft message object, and it means that the object is flagged for recipients.</span></span>  <br/> |
    
-<span data-ttu-id="04bfb-128">Todos os bits que não forem especificados na tabela são reservados.</span><span class="sxs-lookup"><span data-stu-id="04bfb-128">All bits that are not specified in the table are reserved.</span></span> <span data-ttu-id="04bfb-129">Eles devem ser ignorados, mas devem ser preservados se eles estiverem definidos.</span><span class="sxs-lookup"><span data-stu-id="04bfb-129">They must be ignored, but should be preserved if they are set.</span></span>
+<span data-ttu-id="d5c4b-128">Todos os bits que não forem especificados na tabela são reservados.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-128">All bits that are not specified in the table are reserved.</span></span> <span data-ttu-id="d5c4b-129">Eles devem ser ignorados, mas devem ser preservados se eles estiverem definidos.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-129">They must be ignored, but should be preserved if they are set.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="04bfb-130">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="04bfb-130">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="d5c4b-130">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="d5c4b-130">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="04bfb-131">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="04bfb-131">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="d5c4b-131">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="d5c4b-131">Protocol specifications</span></span>
 
-<span data-ttu-id="04bfb-132">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="04bfb-132">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d5c4b-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d5c4b-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="04bfb-133">Fornece referências a relacionados especificações de protocolo do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="04bfb-133">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="d5c4b-133">Fornece referências a relacionados especificações de protocolo do Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-133">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="04bfb-134">[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="04bfb-134">[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d5c4b-134">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d5c4b-134">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="04bfb-135">Especifica as propriedades e operações relacionadas a sinalização.</span><span class="sxs-lookup"><span data-stu-id="04bfb-135">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="d5c4b-135">Especifica as propriedades e operações relacionadas a sinalização.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-135">Specifies the properties and operations related to flagging.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="04bfb-136">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="04bfb-136">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="d5c4b-136">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="d5c4b-136">Header files</span></span>
 
-<span data-ttu-id="04bfb-137">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="04bfb-137">Mapidefs.h</span></span>
+<span data-ttu-id="d5c4b-137">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d5c4b-137">Mapidefs.h</span></span>
   
-> <span data-ttu-id="04bfb-138">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="04bfb-138">Provides data type definitions.</span></span>
+> <span data-ttu-id="d5c4b-138">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-138">Provides data type definitions.</span></span>
     
-<span data-ttu-id="04bfb-139">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="04bfb-139">Mapitags.h</span></span>
+<span data-ttu-id="d5c4b-139">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="d5c4b-139">Mapitags.h</span></span>
   
-> <span data-ttu-id="04bfb-140">Contém definições das propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="04bfb-140">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="d5c4b-140">Contém definições das propriedades listadas como nomes alternativos.</span><span class="sxs-lookup"><span data-stu-id="d5c4b-140">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="04bfb-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="04bfb-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5c4b-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="d5c4b-141">See also</span></span>
 
 
 
-[<span data-ttu-id="04bfb-142">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="04bfb-142">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="d5c4b-142">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="d5c4b-142">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="04bfb-143">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="04bfb-143">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="d5c4b-143">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="d5c4b-143">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="04bfb-144">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="04bfb-144">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="d5c4b-144">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="d5c4b-144">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="04bfb-145">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="04bfb-145">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="d5c4b-145">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="d5c4b-145">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
