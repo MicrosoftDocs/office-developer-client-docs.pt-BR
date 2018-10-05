@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 0902aeb71ed66381772a808d21d77edb7e0e2da8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51bf5f8455d4cb790d0c955e96249b0f9deef1af
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589872"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396971"
 ---
-# <a name="imapisessionopenaddressbook"></a><span data-ttu-id="31bff-103">IMAPISession::OpenAddressBook</span><span class="sxs-lookup"><span data-stu-id="31bff-103">IMAPISession::OpenAddressBook</span></span>
+# <a name="imapisessionopenaddressbook"></a><span data-ttu-id="3877f-103">IMAPISession::OpenAddressBook</span><span class="sxs-lookup"><span data-stu-id="3877f-103">IMAPISession::OpenAddressBook</span></span>
 
   
   
-<span data-ttu-id="31bff-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="31bff-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3877f-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3877f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="31bff-105">Abre o catálogo de endereços integrada de MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para obter mais acesso.</span><span class="sxs-lookup"><span data-stu-id="31bff-105">Opens the MAPI integrated address book, returning an [IAddrBook](iaddrbookimapiprop.md) pointer for further access.</span></span> 
+<span data-ttu-id="3877f-105">Abre o catálogo de endereços integrada de MAPI, retornando um ponteiro [IAddrBook](iaddrbookimapiprop.md) para obter mais acesso.</span><span class="sxs-lookup"><span data-stu-id="3877f-105">Opens the MAPI integrated address book, returning an [IAddrBook](iaddrbookimapiprop.md) pointer for further access.</span></span> 
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -36,68 +36,68 @@ HRESULT OpenAddressBook(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="31bff-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="31bff-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3877f-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="3877f-106">Parameters</span></span>
 
- <span data-ttu-id="31bff-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="31bff-107">_ulUIParam_</span></span>
+ <span data-ttu-id="3877f-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="3877f-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="31bff-108">[in] Um identificador para a janela do pai da caixa de diálogo endereço comuns e outros relacionados a exibe.</span><span class="sxs-lookup"><span data-stu-id="31bff-108">[in] A handle to the parent window of the common address dialog box and other related displays.</span></span>
+> <span data-ttu-id="3877f-108">[in] Um identificador para a janela do pai da caixa de diálogo endereço comuns e outros relacionados a exibe.</span><span class="sxs-lookup"><span data-stu-id="3877f-108">[in] A handle to the parent window of the common address dialog box and other related displays.</span></span>
     
- <span data-ttu-id="31bff-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="31bff-109">_lpInterface_</span></span>
+ <span data-ttu-id="3877f-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="3877f-109">_lpInterface_</span></span>
   
-> <span data-ttu-id="31bff-110">[in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="31bff-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the address book.</span></span> <span data-ttu-id="31bff-111">Passar **Nulo** retorna um ponteiro para a interface de padrão do catálogo de endereços, [IAddrBook: IMAPIProp](iaddrbookimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="31bff-111">Passing **null** returns a pointer to the address book's standard interface, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md).</span></span> 
+> <span data-ttu-id="3877f-110">[in] Um ponteiro para o identificador de interface (IID) que representa a interface para ser usado para acessar o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="3877f-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the address book.</span></span> <span data-ttu-id="3877f-111">Passar **Nulo** retorna um ponteiro para a interface de padrão do catálogo de endereços, [IAddrBook: IMAPIProp](iaddrbookimapiprop.md).</span><span class="sxs-lookup"><span data-stu-id="3877f-111">Passing **null** returns a pointer to the address book's standard interface, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md).</span></span> 
     
- <span data-ttu-id="31bff-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="31bff-112">_ulFlags_</span></span>
+ <span data-ttu-id="3877f-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3877f-112">_ulFlags_</span></span>
   
-> <span data-ttu-id="31bff-113">[in] Uma bitmask dos sinalizadores que controla a abertura do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="31bff-113">[in] A bitmask of flags that controls the opening of the address book.</span></span> <span data-ttu-id="31bff-114">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="31bff-114">The following flag can be set:</span></span>
+> <span data-ttu-id="3877f-113">[in] Uma bitmask dos sinalizadores que controla a abertura do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="3877f-113">[in] A bitmask of flags that controls the opening of the address book.</span></span> <span data-ttu-id="3877f-114">O seguinte sinalizador pode ser definido:</span><span class="sxs-lookup"><span data-stu-id="3877f-114">The following flag can be set:</span></span>
     
-<span data-ttu-id="31bff-115">AB_NO_DIALOG</span><span class="sxs-lookup"><span data-stu-id="31bff-115">AB_NO_DIALOG</span></span> 
+<span data-ttu-id="3877f-115">AB_NO_DIALOG</span><span class="sxs-lookup"><span data-stu-id="3877f-115">AB_NO_DIALOG</span></span> 
   
-> <span data-ttu-id="31bff-116">Suprime a exibição das caixas de diálogo.</span><span class="sxs-lookup"><span data-stu-id="31bff-116">Suppresses the display of dialog boxes.</span></span> <span data-ttu-id="31bff-117">Se o sinalizador AB_NO_DIALOG não estiver definido, os provedores de catálogo de endereços que contribuem para o catálogo de endereços integrada podem solicitar ao usuário de qualquer informação necessária.</span><span class="sxs-lookup"><span data-stu-id="31bff-117">If the AB_NO_DIALOG flag is not set, the address book providers that contribute to the integrated address book can prompt the user for any necessary information.</span></span> 
+> <span data-ttu-id="3877f-116">Suprime a exibição das caixas de diálogo.</span><span class="sxs-lookup"><span data-stu-id="3877f-116">Suppresses the display of dialog boxes.</span></span> <span data-ttu-id="3877f-117">Se o sinalizador AB_NO_DIALOG não estiver definido, os provedores de catálogo de endereços que contribuem para o catálogo de endereços integrada podem solicitar ao usuário de qualquer informação necessária.</span><span class="sxs-lookup"><span data-stu-id="3877f-117">If the AB_NO_DIALOG flag is not set, the address book providers that contribute to the integrated address book can prompt the user for any necessary information.</span></span> 
     
- <span data-ttu-id="31bff-118">_lppAdrBook_</span><span class="sxs-lookup"><span data-stu-id="31bff-118">_lppAdrBook_</span></span>
+ <span data-ttu-id="3877f-118">_lppAdrBook_</span><span class="sxs-lookup"><span data-stu-id="3877f-118">_lppAdrBook_</span></span>
   
-> <span data-ttu-id="31bff-119">[out] Um ponteiro para um ponteiro para o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="31bff-119">[out] A pointer to a pointer to the address book.</span></span>
+> <span data-ttu-id="3877f-119">[out] Um ponteiro para um ponteiro para o catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="3877f-119">[out] A pointer to a pointer to the address book.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="31bff-120">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="31bff-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3877f-120">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3877f-120">Return value</span></span>
 
-<span data-ttu-id="31bff-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="31bff-121">S_OK</span></span> 
+<span data-ttu-id="3877f-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="3877f-121">S_OK</span></span> 
   
-> <span data-ttu-id="31bff-122">O catálogo de endereços foi aberto com êxito.</span><span class="sxs-lookup"><span data-stu-id="31bff-122">The address book was successfully opened.</span></span>
+> <span data-ttu-id="3877f-122">O catálogo de endereços foi aberto com êxito.</span><span class="sxs-lookup"><span data-stu-id="3877f-122">The address book was successfully opened.</span></span>
     
-<span data-ttu-id="31bff-123">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="31bff-123">MAPI_W_ERRORS_RETURNED</span></span> 
+<span data-ttu-id="3877f-123">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="3877f-123">MAPI_W_ERRORS_RETURNED</span></span> 
   
-> <span data-ttu-id="31bff-124">A chamada foi bem-sucedida, mas os contêineres de um ou mais provedores de catálogo de endereços não pôde ser abertos.</span><span class="sxs-lookup"><span data-stu-id="31bff-124">The call succeeded, but the containers of one or more address book providers could not be opened.</span></span> <span data-ttu-id="31bff-125">Quando esse aviso é retornado, a chamada deve ser manipulada com êxito.</span><span class="sxs-lookup"><span data-stu-id="31bff-125">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="31bff-126">Para testar esse aviso, use a macro **HR_FAILED** .</span><span class="sxs-lookup"><span data-stu-id="31bff-126">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="31bff-127">Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="31bff-127">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="3877f-124">A chamada foi bem-sucedida, mas os contêineres de um ou mais provedores de catálogo de endereços não pôde ser abertos.</span><span class="sxs-lookup"><span data-stu-id="3877f-124">The call succeeded, but the containers of one or more address book providers could not be opened.</span></span> <span data-ttu-id="3877f-125">Quando esse aviso é retornado, a chamada deve ser manipulada com êxito.</span><span class="sxs-lookup"><span data-stu-id="3877f-125">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="3877f-126">Para testar esse aviso, use a macro **HR_FAILED** .</span><span class="sxs-lookup"><span data-stu-id="3877f-126">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="3877f-127">Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="3877f-127">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="31bff-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="31bff-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3877f-128">Comentários</span><span class="sxs-lookup"><span data-stu-id="3877f-128">Remarks</span></span>
 
-<span data-ttu-id="31bff-129">O método **IMAPISession::OpenAddressBook** abre o catálogo de endereços integrada de MAPI, uma coleção dos contêineres de todos os provedores de catálogo de endereços no perfil de nível superior.</span><span class="sxs-lookup"><span data-stu-id="31bff-129">The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile.</span></span> <span data-ttu-id="31bff-130">O ponteiro retornado no parâmetro _lppAdrBook_ fornece mais acesso ao conteúdo do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="31bff-130">The pointer that is returned in the  _lppAdrBook_ parameter provides further access to the contents of the address book.</span></span> <span data-ttu-id="31bff-131">Isso permite que o chamador realizar tarefas como contêineres individuais de abertura, os usuários de mensagens de localização e exibindo caixas de diálogo comuns do endereço.</span><span class="sxs-lookup"><span data-stu-id="31bff-131">This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes.</span></span> 
+<span data-ttu-id="3877f-129">O método **IMAPISession::OpenAddressBook** abre o catálogo de endereços integrada de MAPI, uma coleção dos contêineres de todos os provedores de catálogo de endereços no perfil de nível superior.</span><span class="sxs-lookup"><span data-stu-id="3877f-129">The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile.</span></span> <span data-ttu-id="3877f-130">O ponteiro retornado no parâmetro _lppAdrBook_ fornece mais acesso ao conteúdo do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="3877f-130">The pointer that is returned in the  _lppAdrBook_ parameter provides further access to the contents of the address book.</span></span> <span data-ttu-id="3877f-131">Isso permite que o chamador realizar tarefas como contêineres individuais de abertura, os usuários de mensagens de localização e exibindo caixas de diálogo comuns do endereço.</span><span class="sxs-lookup"><span data-stu-id="3877f-131">This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="31bff-132">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="31bff-132">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="3877f-132">Notas para chamadores</span><span class="sxs-lookup"><span data-stu-id="3877f-132">Notes to callers</span></span>
 
- <span data-ttu-id="31bff-133">**OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED se ele não é possível carregar um ou mais dos provedores de catálogo de endereços no perfil.</span><span class="sxs-lookup"><span data-stu-id="31bff-133">**OpenAddressBook** returns MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the profile.</span></span> <span data-ttu-id="31bff-134">Esse valor é um aviso, não é um valor de erro; lidar com ele como faria S_OK.</span><span class="sxs-lookup"><span data-stu-id="31bff-134">This value is a warning, not an error value; handle it as you would S_OK.</span></span> <span data-ttu-id="31bff-135">**OpenAddressBook** sempre retorna um ponteiro válido no parâmetro _lppAdrBook_ , independentemente de quantos dos provedores de catálogo de endereços a falha ao carregar.</span><span class="sxs-lookup"><span data-stu-id="31bff-135">**OpenAddressBook** always returns a valid pointer in the  _lppAdrBook_ parameter, regardless of how many of the address book providers failed to load.</span></span> <span data-ttu-id="31bff-136">Portanto, você sempre deve chamar método de [IUnknown:: Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) do catálogo de endereços em algum momento antes de fazer logoff.</span><span class="sxs-lookup"><span data-stu-id="31bff-136">Therefore, you must always call the address book's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method at some point before logging off.</span></span> 
+ <span data-ttu-id="3877f-133">**OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED se ele não é possível carregar um ou mais dos provedores de catálogo de endereços no perfil.</span><span class="sxs-lookup"><span data-stu-id="3877f-133">**OpenAddressBook** returns MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the profile.</span></span> <span data-ttu-id="3877f-134">Esse valor é um aviso, não é um valor de erro; lidar com ele como faria S_OK.</span><span class="sxs-lookup"><span data-stu-id="3877f-134">This value is a warning, not an error value; handle it as you would S_OK.</span></span> <span data-ttu-id="3877f-135">**OpenAddressBook** sempre retorna um ponteiro válido no parâmetro _lppAdrBook_ , independentemente de quantos dos provedores de catálogo de endereços a falha ao carregar.</span><span class="sxs-lookup"><span data-stu-id="3877f-135">**OpenAddressBook** always returns a valid pointer in the  _lppAdrBook_ parameter, regardless of how many of the address book providers failed to load.</span></span> <span data-ttu-id="3877f-136">Portanto, você sempre deve chamar método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do catálogo de endereços em algum momento antes de fazer logoff.</span><span class="sxs-lookup"><span data-stu-id="3877f-136">Therefore, you must always call the address book's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method at some point before logging off.</span></span> 
   
-<span data-ttu-id="31bff-137">Quando **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED, chame [IMAPISession::GetLastError](imapisession-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores de falha.</span><span class="sxs-lookup"><span data-stu-id="31bff-137">When **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED, call [IMAPISession::GetLastError](imapisession-getlasterror.md) to obtain a [MAPIERROR](mapierror.md) structure that contains information about the failing providers.</span></span> <span data-ttu-id="31bff-138">Uma estrutura **MAPIERROR** única é retornada que contém as informações fornecidas pelo todos os provedores.</span><span class="sxs-lookup"><span data-stu-id="31bff-138">A single **MAPIERROR** structure is returned that contains information supplied by all of the providers.</span></span> 
+<span data-ttu-id="3877f-137">Quando **OpenAddressBook** retorna MAPI_W_ERRORS_RETURNED, chame [IMAPISession::GetLastError](imapisession-getlasterror.md) para obter uma estrutura [MAPIERROR](mapierror.md) que contém informações sobre os provedores de falha.</span><span class="sxs-lookup"><span data-stu-id="3877f-137">When **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED, call [IMAPISession::GetLastError](imapisession-getlasterror.md) to obtain a [MAPIERROR](mapierror.md) structure that contains information about the failing providers.</span></span> <span data-ttu-id="3877f-138">Uma estrutura **MAPIERROR** única é retornada que contém as informações fornecidas pelo todos os provedores.</span><span class="sxs-lookup"><span data-stu-id="3877f-138">A single **MAPIERROR** structure is returned that contains information supplied by all of the providers.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="31bff-139">Referência MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="31bff-139">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="3877f-139">Referência do MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="3877f-139">MFCMAPI reference</span></span>
 
-<span data-ttu-id="31bff-140">Para exemplos de código MFCMAPI, consulte a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="31bff-140">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="3877f-140">Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="3877f-140">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="31bff-141">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="31bff-141">**File**</span></span>|<span data-ttu-id="31bff-142">**Function**</span><span class="sxs-lookup"><span data-stu-id="31bff-142">**Function**</span></span>|<span data-ttu-id="31bff-143">**Comment**</span><span class="sxs-lookup"><span data-stu-id="31bff-143">**Comment**</span></span>|
+|<span data-ttu-id="3877f-141">**Arquivo**</span><span class="sxs-lookup"><span data-stu-id="3877f-141">**File**</span></span>|<span data-ttu-id="3877f-142">**Função**</span><span class="sxs-lookup"><span data-stu-id="3877f-142">**Function**</span></span>|<span data-ttu-id="3877f-143">**Comentário**</span><span class="sxs-lookup"><span data-stu-id="3877f-143">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="31bff-144">MAPIObjects.cpp</span><span class="sxs-lookup"><span data-stu-id="31bff-144">MAPIObjects.cpp</span></span>  <br/> |<span data-ttu-id="31bff-145">CMapiObjects::GetAddrBook</span><span class="sxs-lookup"><span data-stu-id="31bff-145">CMapiObjects::GetAddrBook</span></span>  <br/> |<span data-ttu-id="31bff-146">MFCMAPI usa o método **IMAPISession::OpenAddressBook** para obter o catálogo de endereços integrada.</span><span class="sxs-lookup"><span data-stu-id="31bff-146">MFCMAPI uses the **IMAPISession::OpenAddressBook** method to obtain the integrated address book.</span></span>  <br/> |
+|<span data-ttu-id="3877f-144">MAPIObjects.cpp</span><span class="sxs-lookup"><span data-stu-id="3877f-144">MAPIObjects.cpp</span></span>  <br/> |<span data-ttu-id="3877f-145">CMapiObjects::GetAddrBook</span><span class="sxs-lookup"><span data-stu-id="3877f-145">CMapiObjects::GetAddrBook</span></span>  <br/> |<span data-ttu-id="3877f-146">MFCMAPI usa o método **IMAPISession::OpenAddressBook** para obter o catálogo de endereços integrada.</span><span class="sxs-lookup"><span data-stu-id="3877f-146">MFCMAPI uses the **IMAPISession::OpenAddressBook** method to obtain the integrated address book.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="31bff-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="31bff-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3877f-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="3877f-147">See also</span></span>
 
 
 
-[<span data-ttu-id="31bff-148">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="31bff-148">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
+[<span data-ttu-id="3877f-148">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="3877f-148">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
   
-[<span data-ttu-id="31bff-149">IMAPISession::GetLastError</span><span class="sxs-lookup"><span data-stu-id="31bff-149">IMAPISession::GetLastError</span></span>](imapisession-getlasterror.md)
+[<span data-ttu-id="3877f-149">IMAPISession::GetLastError</span><span class="sxs-lookup"><span data-stu-id="3877f-149">IMAPISession::GetLastError</span></span>](imapisession-getlasterror.md)
   
-[<span data-ttu-id="31bff-150">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="31bff-150">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="3877f-150">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="3877f-150">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="31bff-151">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="31bff-151">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="3877f-151">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3877f-151">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="31bff-152">MFCMAPI como um exemplo de código</span><span class="sxs-lookup"><span data-stu-id="31bff-152">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="3877f-152">MFCMAPI como exemplo de código</span><span class="sxs-lookup"><span data-stu-id="3877f-152">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

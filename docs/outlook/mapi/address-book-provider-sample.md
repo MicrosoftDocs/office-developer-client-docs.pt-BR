@@ -8,87 +8,87 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa2a447d0757e75c95d7dc3d9b1dd16b8c7a8084
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566856"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394717"
 ---
-# <a name="address-book-provider-sample"></a><span data-ttu-id="38068-103">Exemplo de provedor de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="38068-103">Address Book Provider Sample</span></span>
+# <a name="address-book-provider-sample"></a><span data-ttu-id="65cd9-103">Exemplo de provedor de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="65cd9-103">Address Book Provider Sample</span></span>
 
   
   
-<span data-ttu-id="38068-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="38068-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="65cd9-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="65cd9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="38068-105">Esta amostra oferece suporte a um único contêiner somente leitura para nomes para exibição e endereços de email, o qual serão lidas a partir de um arquivo binário plano.</span><span class="sxs-lookup"><span data-stu-id="38068-105">This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file.</span></span> <span data-ttu-id="38068-106">O exemplo suporta modelos únicos e todas as opções de configuração, exceto o Assistente de perfil.</span><span class="sxs-lookup"><span data-stu-id="38068-106">The sample supports one-off templates and all configuration options except the Profile Wizard.</span></span>
+<span data-ttu-id="65cd9-105">Esta amostra oferece suporte a um único contêiner somente leitura para nomes para exibição e endereços de email, o qual serão lidas a partir de um arquivo binário plano.</span><span class="sxs-lookup"><span data-stu-id="65cd9-105">This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file.</span></span> <span data-ttu-id="65cd9-106">O exemplo suporta modelos únicos e todas as opções de configuração, exceto o Assistente de perfil.</span><span class="sxs-lookup"><span data-stu-id="65cd9-106">The sample supports one-off templates and all configuration options except the Profile Wizard.</span></span>
   
-<span data-ttu-id="38068-107">Você pode baixar esse exemplo de [Amostras de código do Outlook Messaging API (MAPI)](http://go.microsoft.com/fwlink/?LinkId=129740
-).</span><span class="sxs-lookup"><span data-stu-id="38068-107">You can download this sample from [Outlook Messaging API (MAPI) Code Samples](http://go.microsoft.com/fwlink/?LinkId=129740
+<span data-ttu-id="65cd9-107">Você pode baixar esse exemplo de [Amostras de código do Outlook Messaging API (MAPI)](https://go.microsoft.com/fwlink/?LinkId=129740
+).</span><span class="sxs-lookup"><span data-stu-id="65cd9-107">You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740
 ).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="38068-108">Executável:</span><span class="sxs-lookup"><span data-stu-id="38068-108">Executable:</span></span>  <br/> |<span data-ttu-id="38068-109">SABP32.dll</span><span class="sxs-lookup"><span data-stu-id="38068-109">SABP32.dll</span></span>  <br/> |
-| <span data-ttu-id="38068-110">Diretório de origem do código:</span><span class="sxs-lookup"><span data-stu-id="38068-110">Source code directory:</span></span>  <br/> |<span data-ttu-id="38068-111">SampleAddressBookProvider\SABP</span><span class="sxs-lookup"><span data-stu-id="38068-111">SampleAddressBookProvider\SABP</span></span>  <br/> |
-|<span data-ttu-id="38068-112">Idioma:</span><span class="sxs-lookup"><span data-stu-id="38068-112">Language:</span></span>  <br/> |<span data-ttu-id="38068-113">C++</span><span class="sxs-lookup"><span data-stu-id="38068-113">C++</span></span>  <br/> |
-|<span data-ttu-id="38068-114">Plataformas:</span><span class="sxs-lookup"><span data-stu-id="38068-114">Platforms:</span></span>  <br/> |<span data-ttu-id="38068-115">Microsoft Visual Studio 2008 para compilar para Windows Vista, Windows Server 2008, Windows XP SP2 e Windows Server 2003 SP1</span><span class="sxs-lookup"><span data-stu-id="38068-115">Microsoft Visual Studio 2008 to compile for Windows Vista, Windows Server 2008, Windows XP SP2, and Windows Server 2003 SP1</span></span>  <br/> |
+|<span data-ttu-id="65cd9-108">Executável:</span><span class="sxs-lookup"><span data-stu-id="65cd9-108">Executable:</span></span>  <br/> |<span data-ttu-id="65cd9-109">SABP32.dll</span><span class="sxs-lookup"><span data-stu-id="65cd9-109">SABP32.dll</span></span>  <br/> |
+| <span data-ttu-id="65cd9-110">Diretório de origem do código:</span><span class="sxs-lookup"><span data-stu-id="65cd9-110">Source code directory:</span></span>  <br/> |<span data-ttu-id="65cd9-111">SampleAddressBookProvider\SABP</span><span class="sxs-lookup"><span data-stu-id="65cd9-111">SampleAddressBookProvider\SABP</span></span>  <br/> |
+|<span data-ttu-id="65cd9-112">Idioma:</span><span class="sxs-lookup"><span data-stu-id="65cd9-112">Language:</span></span>  <br/> |<span data-ttu-id="65cd9-113">C++</span><span class="sxs-lookup"><span data-stu-id="65cd9-113">C++</span></span>  <br/> |
+|<span data-ttu-id="65cd9-114">Plataformas:</span><span class="sxs-lookup"><span data-stu-id="65cd9-114">Platforms:</span></span>  <br/> |<span data-ttu-id="65cd9-115">Microsoft Visual Studio 2008 para compilar para Windows Vista, Windows Server 2008, Windows XP SP2 e Windows Server 2003 SP1</span><span class="sxs-lookup"><span data-stu-id="65cd9-115">Microsoft Visual Studio 2008 to compile for Windows Vista, Windows Server 2008, Windows XP SP2, and Windows Server 2003 SP1</span></span>  <br/> |
    
-## <a name="supported-features"></a><span data-ttu-id="38068-116">Recursos compatíveis</span><span class="sxs-lookup"><span data-stu-id="38068-116">Supported Features</span></span>
+## <a name="supported-features"></a><span data-ttu-id="65cd9-116">Recursos compatíveis</span><span class="sxs-lookup"><span data-stu-id="65cd9-116">Supported Features</span></span>
 
-<span data-ttu-id="38068-117">Este exemplo aceita os seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="38068-117">This sample supports the following features:</span></span>
+<span data-ttu-id="65cd9-117">Este exemplo aceita os seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="65cd9-117">This sample supports the following features:</span></span>
   
-- <span data-ttu-id="38068-118">Restrições de tabela.</span><span class="sxs-lookup"><span data-stu-id="38068-118">Table restrictions.</span></span> <span data-ttu-id="38068-119">O exemplo implementa a resolução de nome ambígua e de correspondência de prefixo.</span><span class="sxs-lookup"><span data-stu-id="38068-119">The sample implements prefix-match and ambiguous-name resolution.</span></span> <span data-ttu-id="38068-120">Ele não implementa o idioma de restrição de MAPI completo e restrições são compatíveis apenas com o nome para exibição.</span><span class="sxs-lookup"><span data-stu-id="38068-120">It does not implement the full MAPI restriction language, and restrictions are supported only on the display name.</span></span>
+- <span data-ttu-id="65cd9-118">Restrições de tabela.</span><span class="sxs-lookup"><span data-stu-id="65cd9-118">Table restrictions.</span></span> <span data-ttu-id="65cd9-119">O exemplo implementa a resolução de nome ambígua e de correspondência de prefixo.</span><span class="sxs-lookup"><span data-stu-id="65cd9-119">The sample implements prefix-match and ambiguous-name resolution.</span></span> <span data-ttu-id="65cd9-120">Ele não implementa o idioma de restrição de MAPI completo e restrições são compatíveis apenas com o nome para exibição.</span><span class="sxs-lookup"><span data-stu-id="65cd9-120">It does not implement the full MAPI restriction language, and restrictions are supported only on the display name.</span></span>
     
-- <span data-ttu-id="38068-121">Uma tabela de exibição de detalhes para os usuários de mensagens.</span><span class="sxs-lookup"><span data-stu-id="38068-121">A details display table for messaging users.</span></span> 
+- <span data-ttu-id="65cd9-121">Uma tabela de exibição de detalhes para os usuários de mensagens.</span><span class="sxs-lookup"><span data-stu-id="65cd9-121">A details display table for messaging users.</span></span> 
     
-- <span data-ttu-id="38068-122">Endereços únicos.</span><span class="sxs-lookup"><span data-stu-id="38068-122">One-off addresses.</span></span>
+- <span data-ttu-id="65cd9-122">Endereços únicos.</span><span class="sxs-lookup"><span data-stu-id="65cd9-122">One-off addresses.</span></span>
     
-- <span data-ttu-id="38068-123">Uma caixa de diálogo de pesquisa avançada.</span><span class="sxs-lookup"><span data-stu-id="38068-123">An advanced search dialog box.</span></span>
+- <span data-ttu-id="65cd9-123">Uma caixa de diálogo de pesquisa avançada.</span><span class="sxs-lookup"><span data-stu-id="65cd9-123">An advanced search dialog box.</span></span>
     
-- <span data-ttu-id="38068-124">Um [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface.</span><span class="sxs-lookup"><span data-stu-id="38068-124">An [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="38068-125">Esta interface é suportada parcialmente; seus métodos **IMAPIProp** delegados para a interface **IPropData** .</span><span class="sxs-lookup"><span data-stu-id="38068-125">This interface is partially supported; its **IMAPIProp** methods are delegated to the **IPropData** interface.</span></span> <span data-ttu-id="38068-126">Para obter mais informações, consulte o [IPropData: IMAPIProp](ipropdataimapiprop.md) interface.</span><span class="sxs-lookup"><span data-stu-id="38068-126">For more information, see the [IPropData : IMAPIProp](ipropdataimapiprop.md) interface.</span></span> 
+- <span data-ttu-id="65cd9-124">Um [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) interface.</span><span class="sxs-lookup"><span data-stu-id="65cd9-124">An [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface.</span></span> <span data-ttu-id="65cd9-125">Esta interface é suportada parcialmente; seus métodos **IMAPIProp** delegados para a interface **IPropData** .</span><span class="sxs-lookup"><span data-stu-id="65cd9-125">This interface is partially supported; its **IMAPIProp** methods are delegated to the **IPropData** interface.</span></span> <span data-ttu-id="65cd9-126">Para obter mais informações, consulte o [IPropData: IMAPIProp](ipropdataimapiprop.md) interface.</span><span class="sxs-lookup"><span data-stu-id="65cd9-126">For more information, see the [IPropData : IMAPIProp](ipropdataimapiprop.md) interface.</span></span> 
     
-- <span data-ttu-id="38068-127">Configuração interativa e programática.</span><span class="sxs-lookup"><span data-stu-id="38068-127">Interactive and programmatic configuration.</span></span>
+- <span data-ttu-id="65cd9-127">Configuração interativa e programática.</span><span class="sxs-lookup"><span data-stu-id="65cd9-127">Interactive and programmatic configuration.</span></span>
     
-## <a name="unsupported-features"></a><span data-ttu-id="38068-128">Recursos sem suporte</span><span class="sxs-lookup"><span data-stu-id="38068-128">Unsupported Features</span></span>
+## <a name="unsupported-features"></a><span data-ttu-id="65cd9-128">Recursos sem suporte</span><span class="sxs-lookup"><span data-stu-id="65cd9-128">Unsupported Features</span></span>
 
-<span data-ttu-id="38068-129">Este exemplo não suporta os seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="38068-129">This sample does not support the following features:</span></span>
+<span data-ttu-id="65cd9-129">Este exemplo não suporta os seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="65cd9-129">This sample does not support the following features:</span></span>
   
-- <span data-ttu-id="38068-130">Classificando.</span><span class="sxs-lookup"><span data-stu-id="38068-130">Sorting.</span></span>
+- <span data-ttu-id="65cd9-130">Classificando.</span><span class="sxs-lookup"><span data-stu-id="65cd9-130">Sorting.</span></span>
     
-- <span data-ttu-id="38068-131">Listas de distribuição.</span><span class="sxs-lookup"><span data-stu-id="38068-131">Distribution lists.</span></span>
+- <span data-ttu-id="65cd9-131">Listas de distribuição.</span><span class="sxs-lookup"><span data-stu-id="65cd9-131">Distribution lists.</span></span>
     
-- <span data-ttu-id="38068-132">Criar, excluir e modificar entradas.</span><span class="sxs-lookup"><span data-stu-id="38068-132">Creating, deleting, and modifying entries.</span></span>
+- <span data-ttu-id="65cd9-132">Criar, excluir e modificar entradas.</span><span class="sxs-lookup"><span data-stu-id="65cd9-132">Creating, deleting, and modifying entries.</span></span>
     
-- <span data-ttu-id="38068-133">Propriedades com vários valores.</span><span class="sxs-lookup"><span data-stu-id="38068-133">Properties with multiple values.</span></span>
+- <span data-ttu-id="65cd9-133">Propriedades com vários valores.</span><span class="sxs-lookup"><span data-stu-id="65cd9-133">Properties with multiple values.</span></span>
     
-- <span data-ttu-id="38068-134">Propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="38068-134">Named properties.</span></span>
+- <span data-ttu-id="65cd9-134">Propriedades nomeadas.</span><span class="sxs-lookup"><span data-stu-id="65cd9-134">Named properties.</span></span>
     
-- <span data-ttu-id="38068-135">Fazer a distinção entre os nomes e o sobrenome em nomes de exibição.</span><span class="sxs-lookup"><span data-stu-id="38068-135">Distinguishing between first and last names in display names.</span></span>
+- <span data-ttu-id="65cd9-135">Fazer a distinção entre os nomes e o sobrenome em nomes de exibição.</span><span class="sxs-lookup"><span data-stu-id="65cd9-135">Distinguishing between first and last names in display names.</span></span>
     
- <span data-ttu-id="38068-136">**Para instalar o provedor de catálogo de endereços de amostra**</span><span class="sxs-lookup"><span data-stu-id="38068-136">**To install the Sample Address Book Provider**</span></span>
+ <span data-ttu-id="65cd9-136">**Para instalar o provedor de catálogo de endereços de amostra**</span><span class="sxs-lookup"><span data-stu-id="65cd9-136">**To install the Sample Address Book Provider**</span></span>
   
-1. <span data-ttu-id="38068-137">Para baixar o provedor de catálogo de endereços de amostra, consulte [Baixando as amostras de MAPI do Outlook](downloading-the-outlook-mapi-samples.md).</span><span class="sxs-lookup"><span data-stu-id="38068-137">To download the Sample Address Book Provider, see [Downloading the Outlook MAPI Samples](downloading-the-outlook-mapi-samples.md).</span></span>
+1. <span data-ttu-id="65cd9-137">Para baixar o provedor de catálogo de endereços de amostra, consulte [Baixando as amostras de MAPI do Outlook](downloading-the-outlook-mapi-samples.md).</span><span class="sxs-lookup"><span data-stu-id="65cd9-137">To download the Sample Address Book Provider, see [Downloading the Outlook MAPI Samples](downloading-the-outlook-mapi-samples.md).</span></span>
     
-2. <span data-ttu-id="38068-138">Localize a pasta onde você salvou as amostras de MAPI do Outlook.</span><span class="sxs-lookup"><span data-stu-id="38068-138">Locate the folder where you saved the Outlook MAPI Samples.</span></span> <span data-ttu-id="38068-139">Com o botão direito do **OutlookMAPISamples -\<o número de versão\> ** zip pasta e clique em **Extrair tudo**.</span><span class="sxs-lookup"><span data-stu-id="38068-139">Right-click the **OutlookMAPISamples-\<version number\>** zip folder and click **Extract All**.</span></span>
+2. <span data-ttu-id="65cd9-138">Localize a pasta onde você salvou as amostras de MAPI do Outlook.</span><span class="sxs-lookup"><span data-stu-id="65cd9-138">Locate the folder where you saved the Outlook MAPI Samples.</span></span> <span data-ttu-id="65cd9-139">Com o botão direito do \*\*OutlookMAPISamples -\<o número de versão\> \*\* zip pasta e clique em **Extrair tudo**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-139">Right-click the **OutlookMAPISamples-\<version number\>** zip folder and click **Extract All**.</span></span>
     
-3. <span data-ttu-id="38068-140">Clique em **Procurar**, selecione o local onde deseja salvar a amostra e clique em **extrair**.</span><span class="sxs-lookup"><span data-stu-id="38068-140">Click **Browse**, select the location where you want to save the sample, and click **Extract**.</span></span>
+3. <span data-ttu-id="65cd9-140">Clique em **Procurar**, selecione o local onde deseja salvar a amostra e clique em **extrair**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-140">Click **Browse**, select the location where you want to save the sample, and click **Extract**.</span></span>
     
-4. <span data-ttu-id="38068-141">Execute o Visual Studio 2008.</span><span class="sxs-lookup"><span data-stu-id="38068-141">Run Visual Studio 2008.</span></span>
+4. <span data-ttu-id="65cd9-141">Execute o Visual Studio 2008.</span><span class="sxs-lookup"><span data-stu-id="65cd9-141">Run Visual Studio 2008.</span></span>
     
-5. <span data-ttu-id="38068-142">No Visual Studio 2008, clique em **arquivo**, selecione **Abrir**e, em seguida, clique em **Project/Solution**.</span><span class="sxs-lookup"><span data-stu-id="38068-142">In Visual Studio 2008, click **File**, select **Open**, and then click **Project/Solution**.</span></span>
+5. <span data-ttu-id="65cd9-142">No Visual Studio 2008, clique em **arquivo**, selecione **Abrir**e, em seguida, clique em **Project/Solution**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-142">In Visual Studio 2008, click **File**, select **Open**, and then click **Project/Solution**.</span></span>
     
-6. <span data-ttu-id="38068-143">Navegue até o local onde você salvou a amostra, clique em **SABP.vcproj**e, em seguida, clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="38068-143">Browse to the location where you saved the sample, click **SABP.vcproj**, and then click **Open**.</span></span>
+6. <span data-ttu-id="65cd9-143">Navegue até o local onde você salvou a amostra, clique em **SABP.vcproj**e, em seguida, clique em **Abrir**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-143">Browse to the location where you saved the sample, click **SABP.vcproj**, and then click **Open**.</span></span>
     
-7. <span data-ttu-id="38068-144">On the **Build** menu, click **Build Solution**.</span><span class="sxs-lookup"><span data-stu-id="38068-144">On the **Build** menu, click **Build Solution**.</span></span>
+7. <span data-ttu-id="65cd9-144">On the **Build** menu, click **Build Solution**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-144">On the **Build** menu, click **Build Solution**.</span></span>
     
-8. <span data-ttu-id="38068-145">Na caixa de diálogo **Salvar arquivo como** , clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="38068-145">In the **Save File As** dialog box, click **Save**.</span></span>
+8. <span data-ttu-id="65cd9-145">Na caixa de diálogo **Salvar arquivo como** , clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-145">In the **Save File As** dialog box, click **Save**.</span></span>
     
-9. <span data-ttu-id="38068-146">Na pasta onde você salvou a amostra, com o botão direito do arquivo **Install. bat** e clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="38068-146">In the folder where you saved the sample, right-click the **install.bat** file and click **Run as administrator**.</span></span>
+9. <span data-ttu-id="65cd9-146">Na pasta onde você salvou a amostra, com o botão direito do arquivo **Install. bat** e clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-146">In the folder where you saved the sample, right-click the **install.bat** file and click **Run as administrator**.</span></span>
     
-10. <span data-ttu-id="38068-147">Na caixa de diálogo **Controle de conta de usuário** , clique em **continuar**.</span><span class="sxs-lookup"><span data-stu-id="38068-147">In the **User Account Control** dialog box, click **Continue**.</span></span>
+10. <span data-ttu-id="65cd9-147">Na caixa de diálogo **Controle de conta de usuário** , clique em **continuar**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-147">In the **User Account Control** dialog box, click **Continue**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="38068-148">**Install. bat** copia o arquivo. dll na pasta de instalação do Microsoft Office padrão, C:\Program Files\Microsoft Office\Office12\.</span><span class="sxs-lookup"><span data-stu-id="38068-148">**Install.bat** copies the .dll to the default Microsoft Office installation folder, C:\Program Files\Microsoft Office\Office12\.</span></span> <span data-ttu-id="38068-149">Se você tiver instalado os produtos do Office em um local diferente, clique com o botão **Install. bat** e clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="38068-149">If you have installed Office products in a different location, right-click **Install.bat** and click **Edit**.</span></span> <span data-ttu-id="38068-150">O arquivo será aberto no bloco de notas.</span><span class="sxs-lookup"><span data-stu-id="38068-150">The file opens in Notepad.</span></span> <span data-ttu-id="38068-151">Substitua o caminho de instalação padrão do caminho de instalação usado no seu computador.</span><span class="sxs-lookup"><span data-stu-id="38068-151">Replace the default installation path with the installation path used on your computer.</span></span> 
+    > <span data-ttu-id="65cd9-148">**Install. bat** copia o arquivo. dll na pasta de instalação do Microsoft Office padrão, C:\Program Files\Microsoft Office\Office12\.</span><span class="sxs-lookup"><span data-stu-id="65cd9-148">**Install.bat** copies the .dll to the default Microsoft Office installation folder, C:\Program Files\Microsoft Office\Office12\.</span></span> <span data-ttu-id="65cd9-149">Se você tiver instalado os produtos do Office em um local diferente, clique com o botão **Install. bat** e clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="65cd9-149">If you have installed Office products in a different location, right-click **Install.bat** and click **Edit**.</span></span> <span data-ttu-id="65cd9-150">O arquivo será aberto no bloco de notas.</span><span class="sxs-lookup"><span data-stu-id="65cd9-150">The file opens in Notepad.</span></span> <span data-ttu-id="65cd9-151">Substitua o caminho de instalação padrão do caminho de instalação usado no seu computador.</span><span class="sxs-lookup"><span data-stu-id="65cd9-151">Replace the default installation path with the installation path used on your computer.</span></span> 
   
 

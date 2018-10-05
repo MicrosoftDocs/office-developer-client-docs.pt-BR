@@ -12,71 +12,71 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ed69d9bab84a5c572026bb9480249c1212e3376
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570412"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397580"
 ---
-# <a name="pidlidtodotitle-canonical-property"></a><span data-ttu-id="bfeec-103">Propriedade canônica PidLidToDoTitle</span><span class="sxs-lookup"><span data-stu-id="bfeec-103">PidLidToDoTitle Canonical Property</span></span>
+# <a name="pidlidtodotitle-canonical-property"></a><span data-ttu-id="2e78d-103">Propriedade canônica PidLidToDoTitle</span><span class="sxs-lookup"><span data-stu-id="2e78d-103">PidLidToDoTitle Canonical Property</span></span>
 
   
   
-<span data-ttu-id="bfeec-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bfeec-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2e78d-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2e78d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bfeec-105">Contém o texto especificáveis de usuário para identificar este objeto de mensagem em uma lista de tarefas pendentes consolidada.</span><span class="sxs-lookup"><span data-stu-id="bfeec-105">Contains user-specifiable text to identify this message object in a consolidated to-do list.</span></span>
+<span data-ttu-id="2e78d-105">Contém o texto especificáveis de usuário para identificar este objeto de mensagem em uma lista de tarefas pendentes consolidada.</span><span class="sxs-lookup"><span data-stu-id="2e78d-105">Contains user-specifiable text to identify this message object in a consolidated to-do list.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bfeec-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="bfeec-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bfeec-107">dispidToDoTitle</span><span class="sxs-lookup"><span data-stu-id="bfeec-107">dispidToDoTitle</span></span>  <br/> |
-|<span data-ttu-id="bfeec-108">Propriedade definida:</span><span class="sxs-lookup"><span data-stu-id="bfeec-108">Property set:</span></span>  <br/> |<span data-ttu-id="bfeec-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="bfeec-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="bfeec-110">ID de longo (LID):</span><span class="sxs-lookup"><span data-stu-id="bfeec-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bfeec-111">0x000085A4</span><span class="sxs-lookup"><span data-stu-id="bfeec-111">0x000085A4</span></span>  <br/> |
-|<span data-ttu-id="bfeec-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="bfeec-112">Data type:</span></span>  <br/> |<span data-ttu-id="bfeec-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="bfeec-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="bfeec-114">Área:</span><span class="sxs-lookup"><span data-stu-id="bfeec-114">Area:</span></span>  <br/> |<span data-ttu-id="bfeec-115">Task</span><span class="sxs-lookup"><span data-stu-id="bfeec-115">Task</span></span>  <br/> |
+|<span data-ttu-id="2e78d-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="2e78d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2e78d-107">dispidToDoTitle</span><span class="sxs-lookup"><span data-stu-id="2e78d-107">dispidToDoTitle</span></span>  <br/> |
+|<span data-ttu-id="2e78d-108">Propriedade definida:</span><span class="sxs-lookup"><span data-stu-id="2e78d-108">Property set:</span></span>  <br/> |<span data-ttu-id="2e78d-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="2e78d-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="2e78d-110">ID de longo (LID):</span><span class="sxs-lookup"><span data-stu-id="2e78d-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="2e78d-111">0x000085A4</span><span class="sxs-lookup"><span data-stu-id="2e78d-111">0x000085A4</span></span>  <br/> |
+|<span data-ttu-id="2e78d-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="2e78d-112">Data type:</span></span>  <br/> |<span data-ttu-id="2e78d-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="2e78d-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="2e78d-114">Área:</span><span class="sxs-lookup"><span data-stu-id="2e78d-114">Area:</span></span>  <br/> |<span data-ttu-id="2e78d-115">Task</span><span class="sxs-lookup"><span data-stu-id="2e78d-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bfeec-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="bfeec-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2e78d-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="2e78d-116">Remarks</span></span>
 
-<span data-ttu-id="bfeec-117">Essa propriedade não deve ser definida em uma tarefa.</span><span class="sxs-lookup"><span data-stu-id="bfeec-117">This property must not be set on a task.</span></span> <span data-ttu-id="bfeec-118">Para indicar uma propriedade vazia, não definir essa propriedade para a cadeia de caracteres de comprimento zero, mas, em vez disso, excluí-la.</span><span class="sxs-lookup"><span data-stu-id="bfeec-118">To indicate an empty property, do not set this property to the zero-length string, but instead delete it.</span></span> 
+<span data-ttu-id="2e78d-117">Essa propriedade não deve ser definida em uma tarefa.</span><span class="sxs-lookup"><span data-stu-id="2e78d-117">This property must not be set on a task.</span></span> <span data-ttu-id="2e78d-118">Para indicar uma propriedade vazia, não definir essa propriedade para a cadeia de caracteres de comprimento zero, mas, em vez disso, excluí-la.</span><span class="sxs-lookup"><span data-stu-id="2e78d-118">To indicate an empty property, do not set this property to the zero-length string, but instead delete it.</span></span> 
   
-<span data-ttu-id="bfeec-119">Quando um objeto de mensagem e a propriedade de sinalização não existe, um cliente deve gravar o valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) essa propriedade.</span><span class="sxs-lookup"><span data-stu-id="bfeec-119">When flagging a message object, and the property does not exist, a client should write the value of **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) to this property.</span></span>
+<span data-ttu-id="2e78d-119">Quando um objeto de mensagem e a propriedade de sinalização não existe, um cliente deve gravar o valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) essa propriedade.</span><span class="sxs-lookup"><span data-stu-id="2e78d-119">When flagging a message object, and the property does not exist, a client should write the value of **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) to this property.</span></span>
   
-<span data-ttu-id="bfeec-120">Em uma lista de tarefas pendentes consolidada, se essa propriedade não existir, um cliente deve substituir o valor da propriedade **PR_NORMALIZED_SUBJECT** ao exibir essa propriedade na lista de tarefas pendentes.</span><span class="sxs-lookup"><span data-stu-id="bfeec-120">In a consolidated to-do list, if this property does not exist, a client should substitute the value of the **PR_NORMALIZED_SUBJECT** property when displaying this property in the to-do list.</span></span> 
+<span data-ttu-id="2e78d-120">Em uma lista de tarefas pendentes consolidada, se essa propriedade não existir, um cliente deve substituir o valor da propriedade **PR_NORMALIZED_SUBJECT** ao exibir essa propriedade na lista de tarefas pendentes.</span><span class="sxs-lookup"><span data-stu-id="2e78d-120">In a consolidated to-do list, if this property does not exist, a client should substitute the value of the **PR_NORMALIZED_SUBJECT** property when displaying this property in the to-do list.</span></span> 
   
-<span data-ttu-id="bfeec-121">Em um objeto de mensagem de rascunho, se o cliente implementa sinalizadores de remetente, essa propriedade deve ser definida com o mesmo valor **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="bfeec-121">On a draft message object, if the client implements sender flags, this property should be set to the same value as **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).</span></span>
+<span data-ttu-id="2e78d-121">Em um objeto de mensagem de rascunho, se o cliente implementa sinalizadores de remetente, essa propriedade deve ser definida com o mesmo valor **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="2e78d-121">On a draft message object, if the client implements sender flags, this property should be set to the same value as **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="bfeec-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="bfeec-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2e78d-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="2e78d-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="bfeec-123">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="bfeec-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="2e78d-123">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="2e78d-123">Protocol specifications</span></span>
 
-<span data-ttu-id="bfeec-124">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bfeec-124">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2e78d-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2e78d-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bfeec-125">Fornece as definições do conjunto de propriedades e referências para relacionados especificações de protocolo do Exchange Server</span><span class="sxs-lookup"><span data-stu-id="bfeec-125">Provides property set definitions and references to related Exchange Server protocol specifications</span></span>
+> <span data-ttu-id="2e78d-125">Fornece as definições do conjunto de propriedades e referências para relacionados especificações de protocolo do Exchange Server</span><span class="sxs-lookup"><span data-stu-id="2e78d-125">Provides property set definitions and references to related Exchange Server protocol specifications</span></span>
     
-<span data-ttu-id="bfeec-126">[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bfeec-126">[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2e78d-126">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2e78d-126">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bfeec-127">Especifica as propriedades e operações relacionadas a sinalização.</span><span class="sxs-lookup"><span data-stu-id="bfeec-127">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="2e78d-127">Especifica as propriedades e operações relacionadas a sinalização.</span><span class="sxs-lookup"><span data-stu-id="2e78d-127">Specifies the properties and operations related to flagging.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="bfeec-128">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="bfeec-128">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="2e78d-128">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="2e78d-128">Header files</span></span>
 
-<span data-ttu-id="bfeec-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bfeec-129">Mapidefs.h</span></span>
+<span data-ttu-id="2e78d-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2e78d-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="bfeec-130">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="bfeec-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="2e78d-130">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="2e78d-130">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="bfeec-131">Confira também</span><span class="sxs-lookup"><span data-stu-id="bfeec-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e78d-131">Confira também</span><span class="sxs-lookup"><span data-stu-id="2e78d-131">See also</span></span>
 
 
 
-[<span data-ttu-id="bfeec-132">Propriedade canônica PidTagNormalizedSubject</span><span class="sxs-lookup"><span data-stu-id="bfeec-132">PidTagNormalizedSubject Canonical Property</span></span>](pidtagnormalizedsubject-canonical-property.md)
+[<span data-ttu-id="2e78d-132">Propriedade canônica PidTagNormalizedSubject</span><span class="sxs-lookup"><span data-stu-id="2e78d-132">PidTagNormalizedSubject Canonical Property</span></span>](pidtagnormalizedsubject-canonical-property.md)
   
-[<span data-ttu-id="bfeec-133">Propriedade can�nico de PidLidFlagRequest</span><span class="sxs-lookup"><span data-stu-id="bfeec-133">PidLidFlagRequest Canonical Property</span></span>](pidlidflagrequest-canonical-property.md)
+[<span data-ttu-id="2e78d-133">Propriedade can�nico de PidLidFlagRequest</span><span class="sxs-lookup"><span data-stu-id="2e78d-133">PidLidFlagRequest Canonical Property</span></span>](pidlidflagrequest-canonical-property.md)
 
 
-[<span data-ttu-id="bfeec-134">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="bfeec-134">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="2e78d-134">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="2e78d-134">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="bfeec-135">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="bfeec-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="2e78d-135">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="2e78d-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="bfeec-136">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="bfeec-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="2e78d-136">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="2e78d-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="bfeec-137">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="bfeec-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="2e78d-137">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="2e78d-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
