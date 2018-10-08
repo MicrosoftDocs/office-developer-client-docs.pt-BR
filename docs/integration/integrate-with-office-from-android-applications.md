@@ -5,25 +5,25 @@ ms.date: 06/18/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
-description: Office para Android fornece uma solução extensível que permite a integração com aplicativos de terceiros. É possível integrar com o Office a partir de seu aplicativo Android passando-se os usuários de seu aplicativo para o Office.
-ms.openlocfilehash: 2fd60c7e86d3390bc5343f3e09fb2235f97e0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Office para Android oferece uma solução extensiva que permite a integração com aplicativos de terceiros. É possível integrar com o Office a partir do seu aplicativo de Android passando usuários de seu aplicativo do Office.
+ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765722"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393023"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>Integração com o Office em aplicativos do Android
 
-Office para Android fornece uma solução extensível que permite a integração com aplicativos de terceiros. É possível integrar com o Office a partir de seu aplicativo Android passando-se os usuários de seu aplicativo para o Office.
+Office para Android oferece uma solução extensiva que permite a integração com aplicativos de terceiros. É possível integrar com o Office a partir do seu aplicativo de Android passando usuários de seu aplicativo do Office.
   
-Você pode permitir que os usuários que estiverem executando o Office em um dispositivo Android para abrir e editar arquivos armazenados no SharePoint ou OneDrive de qualquer aplicativo. Para fazer isso, você passa arquivos para o Office via manipuladores de protocolo e você se certificar de que o Office é invocado de forma que o Office pode entender.
+Você pode habilitar os usuários que estão executando o Office em um dispositivo Android para abrir e editar arquivos armazenados no SharePoint ou no OneDrive de qualquer aplicativo. Para fazer isso, você passa arquivos para o Office por meio de identificadores de protocolo e garante que o Office será invocado de uma maneira que Office possa entender.
   
-Quando um usuário é feito editando um arquivo, eles podem escolher a chave voltar no dispositivo para voltar para o aplicativo de armazenamento original.
+Quando um usuário concluir a edição de um arquivo, ele pode  escolher a tecla voltar no dispositivo para retornar ao aplicativo de armazenamento original.
   
-## <a name="verify-that-office-has-been-installed"></a>Verificar se o Office foi instalado
+## <a name="verify-that-office-has-been-installed"></a>Verifique se o Office foi instalado
 
-Seu aplicativo referência primeiro precisará verificar se um aplicativo específico do Office está instalado. Os seguintes aplicativos do Office podem ser instalados em dispositivos Android para exibição e edição de documentos: 
+O aplicativo de referência primeiramente precisará verificar se um aplicativo específico do Office está instalado. Os seguintes aplicativos do Office podem ser instalados em dispositivos Android para documento visualização e edição: 
   
 - Excel
     
@@ -31,27 +31,27 @@ Seu aplicativo referência primeiro precisará verificar se um aplicativo espec�
     
 - Word
     
-Use o Android PackageManager para determinar se um aplicativo específico do Office está instalado no dispositivo. A tabela a seguir lista os nomes de pacote para os aplicativos do Office que você pode usar nesse processo.
+Use o PackageManager Android para determinar se um aplicativo específico do Office está instalado no dispositivo. A tabela a seguir lista os nomes de pacote para os aplicativos do Office que você pode usar no processo.
   
-|**Application**|**Nome do pacote**|
+|**Aplicativo**|**Nome do pacote**|
 |:-----|:-----|
 |Excel  <br/> |com.microsoft.Office.Excel  <br/> |
 |PowerPoint  <br/> |com.microsoft.Office.PowerPoint  <br/> |
 |Word  <br/> |com.microsoft.Office.Word  <br/> |
    
-### <a name="prompt-the-user-to-install-office"></a>Solicita ao usuário para instalar o Office
+### <a name="prompt-the-user-to-install-office"></a>Solicitar que o usuário instale o Office
 
-Se um aplicativo específico do Office não estiver instalado, você pode solicitar o usuário para instalar o aplicativo. A tabela a seguir lista os locais de instalação disponíveis para aplicativos do Office.
+Se um aplicativo específico do Office não estiver instalado, poderá solicitar ao usuário que instale o aplicativo. A tabela a seguir lista os locais disponíveis para instalação de aplicativos do Office.
   
-|**Application**|**Repositório de tocar do Google**|
+|**Aplicativo**|**Google Play Store**|
 |:-----|:-----|
 |Excel  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.excel](https://play.google.com/store/apps/details?id=com.microsoft.office.excel) <br/> |
 |PowerPoint  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint](https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint) <br/> |
 |Word  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.word](https://play.google.com/store/apps/details?id=com.microsoft.office.word) <br/> |
    
-## <a name="invoke-office"></a>Invocar o Office
+## <a name="invoke-office"></a>Usar o Office
 
-Quando o aplicativo do Office for instalado, o seu aplicativo referência pode chamar Office passando-se os seguintes detalhes:
+Quando o aplicativo do Office estiver instalado, o aplicativo de referência poderá invocar Office passando os seguintes detalhes:
   
 - Protocolo do Office
     
@@ -63,15 +63,15 @@ Formato de esquema:
   
  `<Office protocol><open mode>|u|<URL>`
   
-O exemplo a seguir mostra uma solicitação para chamar um arquivo do Word para edição.
+O exemplo a seguir mostra uma solicitação para invocar um arquivo do Word para edição.
   
  `ms-word:ofe|u|https://contoso/Q4/budget.docx`
   
 ### <a name="office-protocols"></a>Protocolos do Office
 
-A tabela a seguir lista os protocolos para cada aplicativo do Office.
+A tabela a seguir lista os protocolos de cada aplicativo do Office.
   
-|**Application**|**Protocolo**|
+|**Aplicativo**|**Protocolo**|
 |:-----|:-----|
 |Excel  <br/> |ms-excel:  <br/> |
 |PowerPoint  <br/> |ms-powerpoint:  <br/> |
@@ -79,7 +79,7 @@ A tabela a seguir lista os protocolos para cada aplicativo do Office.
    
 ### <a name="open-mode"></a>Modo de abertura
 
-Aplicativos do Office podem abrir arquivos diretamente no modo de exibição (ofv) ou Editar modo (ofe). Modo de edição é o padrão.
+Aplicativos do Office podem abrir arquivos diretamente no modo de exibição (ofv) ou editar o modo (ofe). O modo de edição é o padrão.
   
 Formato de esquema:
   
@@ -91,11 +91,11 @@ A URL inclui três partes:
   
 - A declaração de que o arquivo será aberto para edição (ofe)
     
-- O descritor de URL (| u |)
+- Descritor URL (| u |)
     
 - A URL
     
-A URL tem que ser codificada e deve ser um link direto para o arquivo (não um redirecionamento). Se a URL estiver em um formato Office não dá suporte ou o download simplesmente falhar, o Office não retornará o usuário ao aplicativo de chamada.
+A URL deve ser codificadt e deve ser um link direto para o arquivo (não um redirecionamento). Se a URL está em um formato que não dá suporte a Office ou o download falhar o Office não vai retornar o usuário aplicativo solicitado.
   
 Formato de esquema:
   
@@ -106,8 +106,8 @@ Formato de esquema:
 
 - [Integração com o Office](integrate-with-office.md)
     
-- [PackageManager](http://developer.android.com/reference/android/content/pm/PackageManager.html)
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
     
-- [GetPackageManager()](http://developer.android.com/reference/android/content/Context.html)
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
     
 
