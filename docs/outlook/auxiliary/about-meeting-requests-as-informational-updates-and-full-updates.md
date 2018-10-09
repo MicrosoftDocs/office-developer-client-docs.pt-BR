@@ -6,46 +6,46 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
-description: Uma solicitação de reunião é um email que tenha IPM. Schedule.Meeting.Request como a classe de mensagem. Por padrão, um participante receber uma solicitação de reunião responde a ele diretamente.
-ms.openlocfilehash: 3565b2af03ef79d70fc9f2817c64a788f031c416
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Uma solicitação de reunião é um email com IPM. Schedule.Meeting.Request como classe da mensagem. Por padrão, um participante recebe uma solicitação de reunião e responde a ela diretamente.
+ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400128"
 ---
 # <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>Sobre solicitações de reunião como atualizações informativas e atualizações completas
 
-Uma solicitação de reunião é um email que tenha **IPM. Schedule.Meeting.Request** como a classe de mensagem. Por padrão, um participante receber uma solicitação de reunião responde a ele diretamente. O Outlook suporta configurar representantes que podem responder às solicitações de reunião em nome do destinatário principal. Programaticamente, Outlook define a propriedade nomeada [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de uma solicitação de reunião para identificar o status atual da atualização. 
+Uma solicitação de reunião é um email com **IPM. Schedule.Meeting.Request** como classe da mensagem. Por padrão, um participante recebe uma solicitação de reunião e responde a ela diretamente. O Outlook dá suporte a configuração de representantes que podem responder a solicitações de reunião em nome do destinatário principal. De maneira programática, o Outlook configura a propriedade nomeada [PidLidMeetingType](https://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) de uma solicitação de reunião para identificar o status de atualização atual. 
   
 ## <a name="recipients-without-delegates"></a>Destinatários sem representantes
 
-Quando o Outlook recebe uma nova solicitação de reunião, conjuntos de Outlook item da propriedade **PidLidMeetingType** da solicitação de reunião a **mtgRequest**. Qualquer atualização subsequente essa reunião é **mtgFullUpdate** (uma atualização completa) ou **mtgInfoUpdate** (uma atualização informativa), dependendo da causa da atualização, com o Outlook definindo **PidLidMeetingType** adequadamente. Uma atualização completa exige um participante à explicitamente responder à solicitação de reunião e não uma atualização informativa. 
+Quando o Outlook recebe uma nova solicitação de reunião, o Outlook configura a propriedade **PidLidMeetingType** da solicitação de reunião para **mtgRequest**. Qualquer atualização subsequente dessa reunião está em **mtgFullUpdate** (atualização completa) ou **mtgInfoUpdate** (atualização informativa) dependendo causa da atualização, com a configuração do Outlook ** PidLidMeetingType** adequadamente. Uma atualização completa requer que um participante explicitamente responda à solicitação de reunião e uma atualização informativa não. 
   
 ## <a name="full-updates"></a>Atualizações completas
 
 Há dois cenários que resultam em uma atualização completa:
   
-- Quando um organizador altera a data, hora, fusos horários ou recorrência de uma solicitação de reunião anteriores, o organizador deve enviar uma atualização para todos os participantes. Essa atualização é uma atualização completa para o qual um participante explicitamente deve responder para notificar o organizador de presença, pois o Outlook ignora quaisquer respostas anteriores.
+- Quando um organizador muda a data, hora, fuso horário ou recorrência de uma solicitação de reunião anteriores, o organizador deve enviar uma atualização para os participantes. Essa atualização é uma atualização completa na qual um participante explicitamente deve responder para notificar ao organizador de participação, porque o Outlook ignora as respostas anterior.
     
-- Se um participante não respondeu a uma solicitação de reunião inicial e recebe uma atualização subsequente, a solicitação de reunião inicial fica desatualizada e a atualização é uma atualização completa, independentemente da causa da atualização.
+- Se um participante não respondeu a uma solicitação inicial de reunião e receber uma atualização subsequente, a solicitação inicial de reunião é desatualizada e a atualização é uma atualização completa, independentemente da causa da atualização.
     
 ## <a name="informational-updates"></a>Atualizações informativas
 
-Existem quatro cenários nos quais o Outlook gera uma atualização informativa. Nesses cenários, responder a atualização informativos é opcional.
+Há quatro cenários em que o Outlook cria uma atualização informativa. Esses cenários, responder à atualização informativa é opcional.
   
-- Se um organizador altera o local de uma solicitação de reunião anteriores, o organizador deve enviar uma atualização para todos os participantes. Se um participante já aceita a solicitação de reunião inicial, o participante recebe a atualização como uma atualização informativa.
+- Se um organizador mudar o local de uma solicitação anterior de reunião, o organizador deve enviar uma atualização para os participantes. Se um participante já aceitou a solicitação inicial de reunião, o participante receberá a atualização como uma atualização informativa.
     
-- Se um organizador adiciona um participante a uma solicitação de reunião anteriores, o organizador deve enviar a solicitação de reunião ao participante recém-adicionado e tem a opção para incluir participantes existentes na atualização. O nome do participante recém-adicionado recebe a solicitação de reunião como uma nova solicitação. Se o organizador optar por enviar uma atualização aos participantes existentes, os participantes recebem a atualização como uma atualização informativa.
+- Se um organizador adicionar um participante à solicitação de reunião anteriores, o organizador precisa enviar a solicitação de reunião para os participantes recém-adicionados e tem a opção de incluir os participantes existentes sobre a atualização. O participante recém-adicionado receberá a solicitação de reunião como uma nova solicitação. Se o organizador optar por enviar uma atualização aos participantes existentes, os participantes receberão a atualização como uma atualização informativa.
     
-- Se um organizador remove um participante de uma solicitação de reunião anteriores, o organizador deve enviar uma atualização para o participante que foi removido da solicitação de reunião e tem uma opção para incluir participantes existentes na atualização. Os participantes recebem a atualização como uma atualização informativa.
+- Se um organizador remove um participante de uma solicitação de reunião anterior, o organizador deve enviar uma atualização para o participante que foi removido da solicitação de reunião e tem uma opção para incluir os participantes existentes na atualização. Os participantes receberão a atualização como uma atualização informativa.
     
-- Se um organizador mudar o assunto ou corpo de uma solicitação de reunião anteriores, o organizador tem a opção para enviar uma atualização para os participantes ou apenas salvar as alterações para a cópia do organizador da solicitação de reunião. Se o organizador optar por enviar uma atualização, os participantes recebem a atualização como uma atualização informativa.
+- Se um organizador altera o assunto ou corpo de uma solicitação de reunião anterior, o organizador tem a opção de enviar uma atualização aos participantes ou salvar as alterações na cópia do organizador de solicitação de reunião. Se o organizador optar por enviar uma atualização, os participantes receberão a atualização como uma atualização informativa.
     
-## <a name="recipients-set-up-with-delegates"></a>Configurar destinatários com delegados
+## <a name="recipients-set-up-with-delegates"></a>Configurar com representantes de destinatários
 
-Destinatários que optar por configurar seus representantes podem ter representantes responder às solicitações de reunião que não são marcadas como particulares. Por padrão, a entidade recebe apenas uma cópia de uma solicitação de reunião ou uma cópia de uma atualização para uma solicitação de reunião anteriores e os representantes sempre recebem a solicitação de reunião original ou atualização completa ou informativa original. Nesta configuração padrão, a entidade sempre recebe solicitações de reunião delegada e atualizações; os representantes da entidade de segurança recebem solicitações de reunião como novas solicitações de reunião, atualizações completas ou informativas atualizações, conforme descrito para destinatários sem representantes na seção "Destinatários sem representantes".
+Destinatários que optam por configurar representantes podem ter representantes para responder às solicitações de reunião que não são marcadas como particular. Por padrão, a entidade de segurança recebe apenas uma cópia da solicitação de reunião ou uma cópia de uma atualização para uma solicitação de reunião anterior e os representantes sempre recebem a solicitação de reunião original ou atualização completa ou informativa original. Nessa configuração padrão, a entidade de segurança sempre recebe atualizações solicitações de reunião delegadas e atualizações; os representantes da entidade recebem solicitações de reunião como novas solicitações de reunião, atualizações completas ou atualizações informativas, conforme é descrito para os destinatários sem representantes na seção "Os destinatários sem representantes."
   
-Por padrão, o entidades podem optar por responder às solicitações de reunião não-particular e atualizações, mesmo que os delegados forem configurados para fazer isso em nome deles. No entanto, como alternativa, os administradores podem definir uma política para impedir que os destinatários principais respondendo.
+Por padrão, as entidades podem escolher responder a solicitações de reunião não particulares e atualizações, mesmo que os representantes estejam configurados para fazer isso em nome delas. No entanto, como alternativa, os administradores podem configurar uma política para impedir que os destinatários da entidade respondam.
   
 

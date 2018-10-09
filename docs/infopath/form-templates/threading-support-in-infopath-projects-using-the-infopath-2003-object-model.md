@@ -4,30 +4,30 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- Multithreading modelos de formulário compatíveis 2003 infopath [infopath 2007], threading [InfoPath 2007], suportam para projetos usando o modelo de objeto do InfoPath 2003, modelos de formulário compatíveis com o InfoPath 2003, suporte a segmentação
+- multithread modelos de formulário compatível com o 2003 infopath [infopath 2007], threading [InfoPath 2007] suportam projetos usando modelos de formulário do InfoPath 2003 compatível, suporte a segmentação de modelo de objeto do InfoPath 2003
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
-description: Os objetos COM acessada por meio de assemblies de interoperabilidade Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll instalados pelo Microsoft InfoPath não oferecem suporte a chamadas feita em vários threads. Isso inclui as interfaces para objetos do Microsoft XML Core Services (MSXML) que devem ser quebradas por namespace SemiTrust (a maioria dos quais têm nomes que são prefixados com IXMLDOM) e todas as interfaces expostas pela Namespace Microsoft.Office.Interop.InfoPath.Xml, sendo que nenhum deles são thread-safe.
-ms.openlocfilehash: 314ef57e11295c0b2dbc9866c5faa392aab055ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Os objetos COM são acessados por meio de montagens com interoperabilidade instaladas Microsoft.Office.Interop.InfoPath.dll Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll. O Microsoft InfoPath não dá suporte a chamadas feitas em vários threads. Isso inclui interfaces para objetos para Microsoft XML Core Services (MSXML) que são envoltas pelo namespace Microsoft.Office.Interop.InfoPath.SemiTrust (a maioria deles possui o prefixo IXMLDOM) e todas as interfaces são expostas pelo namespace Microsoft.Office.Interop.InfoPath.Xml, nenhum deles são threads seguros.
+ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395557"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Suporte a threading em projetos do InfoPath usando o modelo de objeto do InfoPath 2003
 
-Os objetos COM acessada por meio de assemblies de interoperabilidade Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll instalados pelo Microsoft InfoPath não oferecem suporte a chamadas feita em vários threads. Isso inclui as interfaces para objetos do Microsoft XML Core Services (MSXML) que devem ser quebradas por namespace **SemiTrust** (a maioria dos quais têm nomes que são prefixados com IXMLDOM) e todas as interfaces expostas pelo o namespace [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) , sendo que nenhum deles são thread-safe. 
+Os objetos COM são acessados por meio de montagens com interoperabilidade instaladas Microsoft.Office.Interop.InfoPath.dll Microsoft.Office.Interop.InfoPath.SemiTrust.dll e Microsoft.Office.Interop.InfoPath.Xml.dll. O Microsoft InfoPath não dá suporte a chamadas feitas em vários threads. Isso inclui interfaces para objetos de serviços de básicos de Isso inclui interfaces para objetos para Microsoft XML Core Services (MSXML) que são envoltas pelo namespace **Microsoft.Office.Interop.InfoPath.SemiTrust** (a maioria deles possui o prefixo IXMLDOM) e todas as interfaces são expostas pelo namespace [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) nenhum deles são threads seguros. 
   
-Todas as chamadas feitas para esses objetos COM devem ser emitidas em um único segmento. Código gerenciado em um InfoPath projeto pode criar outros segmentos para executar o trabalho de plano de fundo, mas o código em execução em segmentos que não seja o segmento principal não é possível chamar em modelos de objeto do InfoPath.
+Todas as chamadas realizadas para esses objetos COM devem ser emitidas em uma única conversa. O código gerenciado em um projeto InfoPath pode criar outros threads para realizar o trabalho de tela de fundo, mas códigos rodando em threads diferentes de conversa principal não podem acionar os modelos de objeto do InfoPath.
   
-Se seu projeto de código gerenciado do InfoPath usa vários threads, você deve tomar cuidado sobre o compartilhamento de objetos entre threads. Nenhuma referência para o XML DOM Document Object Model () ou referências aos objetos do InfoPath devem ser compartilhadas entre os threads. 
+Se seu projeto de código gerenciado InfoPath usa vários threads, tenha cuidado ao compartilhar objetos entre threads.  Nenuma referências ao Modelo de Objeto do Documento XML (DOM Document) ou referências a InfoPath objetos deverão ser compartilhadas entre threads. 
   
-## <a name="making-asynchronous-calls-to-the-infopath-object-model"></a>Fazendo chamadas assíncronas ao modelo de objeto do InfoPath
+## <a name="making-asynchronous-calls-to-the-infopath-object-model"></a>Fazendo chamadas assíncronas para o modelo de objeto do InfoPath
 
-Para situações em que é necessário ligar para um processo como um cronômetro em execução em um segmento separado, é possível contornar o fato de que o modelo de objeto do InfoPath não oferece suporte a essas chamadas. 
+Para situações em que é necessário ligar para um processo como um temporizador em execução em um thread separado, é possível contornar o fato de que o modelo de objeto do InfoPath não dá suporte a esses chamadas. 
   
-O exemplo a seguir cria uma instância de **System.Timers.Timer** no método Startup do formulário e conecta um retorno de chamada assíncrono para o timer. Além disso, uma instância invisível do formulário janela (**Form**) é criada. Quando o cronômetro decorrido a função de retorno de chamada executa uma vez por segundo, ela chama a função Win32 **PostMessage** postar uma mensagem na janela invisível. A janela invisível tem uma função de **WndProc** que processa a mensagem, ele recebe a partir da função de retorno de chamada de timer e atualiza o modelo de objeto de documento (DOM) XML do formulário. Este formulário deve ser instalado como um formulário totalmente confiável seja executado. Para obter informações sobre a depuração de um modelo de formulário totalmente confiável, consulte [Visualizar e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). Para obter informações sobre como implantar um modelo de formulário totalmente confiável, consulte [Implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md).
+O exemplo a seguir cria uma instância **System.Timers.Timer** no método Startup de formulário e fixa um retorno de chamada assíncrono para o cronômetro. Além disso, uma instância do formulário de janela invisível (**Form**) é criado. Quando o tempo decorrido da função retorno executa um por segundo, chamadas na Win32 função**PostMessage** para postar uma mensagem para a janela invisível. A janela invisível tem a função **WndProc** que processa a mensagem, ela recebe essa mensagem da função de retorno de chamada de temporizador e atualiza o modelo de objeto de documento (DOM) XML do formulário. Instale este formulário como um formulário confiável para executar. Confira informações sobre depuração de um modelo de formulário totalmente confiáveis [visualização e depurar modelos de formulário que exigem confiança total](how-to-preview-and-debug-form-templates-that-require-full-trust.md). Confira informações sobre a implantação de um modelo de formulário totalmente confiáveis [implantar modelos de formulário do InfoPath com código](how-to-deploy-infopath-form-templates-with-code.md).
   
 ```cs
 using System;
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;
