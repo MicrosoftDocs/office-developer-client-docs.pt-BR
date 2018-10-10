@@ -1,0 +1,70 @@
+---
+title: Métodos de Recordset2 (DAO)
+TOCTitle: Methods
+ms:assetid: 58d1d78a-3e00-456a-970c-87c61bd05faa
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn124920(v=office.15)
+ms:contentKeyID: 52072540
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b18fa19839aaa3d9c0eee8baf725a83e9b18a223
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25465254"
+---
+# <a name="recordset2-methods-dao"></a>Métodos de Recordset2 (DAO)
+
+
+**Aplica-se a**: Access 2013 | Office 2013
+
+
+
+  - [Método Recordset2.AddNew (DAO)](recordset2-addnew-method-dao.md)
+
+  - [Método Recordset2.Cancel (DAO)](recordset2-cancel-method-dao.md)
+
+  - [Método Recordset2.CancelUpdate (DAO)](recordset2-cancelupdate-method-dao.md)
+
+  - [Método Recordset2.Clone (DAO)](recordset2-clone-method-dao.md)
+
+  - [Método Recordset2.Close (DAO)](recordset2-close-method-dao.md)
+
+  - [Método Recordset2.CopyQueryDef (DAO)](recordset2-copyquerydef-method-dao.md)
+
+  - [Método Recordset2.Delete (DAO)](recordset2-delete-method-dao.md)
+
+  - [Método Recordset2.Edit (DAO)](recordset2-edit-method-dao.md)
+
+  - [Método Recordset2.FillCache (DAO)](recordset2-fillcache-method-dao.md)
+
+  - [Método Recordset2.FindFirst (DAO)](recordset2-findfirst-method-dao.md)
+
+  - [Método Recordset2.FindLast (DAO)](recordset2-findlast-method-dao.md)
+
+  - [Método Recordset2.FindNext (DAO)](recordset2-findnext-method-dao.md)
+
+  - [Método Recordset2.FindPrevious (DAO)](recordset2-findprevious-method-dao.md)
+
+  - [Método Recordset2.GetRows (DAO)](recordset2-getrows-method-dao.md)
+
+  - [Método Recordset2.move (DAO)](recordset2-move-method-dao.md)
+
+  - [Método Recordset2.MoveFirst (DAO)](recordset2-movefirst-method-dao.md)
+
+  - [Método Recordset2.MoveLast (DAO)](recordset2-movelast-method-dao.md)
+
+  - [Método Recordset2.MoveNext (DAO)](recordset2-movenext-method-dao.md)
+
+  - [Método Recordset2.MovePrevious (DAO)](recordset2-moveprevious-method-dao.md)
+
+  - [Método Recordset2.NextRecordset (DAO)](recordset2-nextrecordset-method-dao.md)
+
+  - [Método Recordset2.OpenRecordset (DAO)](recordset2-openrecordset-method-dao.md)
+
+  - [Método Recordset2.Requery (DAO)](recordset2-requery-method-dao.md)
+
+  - [Método Recordset2.Seek (DAO)](recordset2-seek-method-dao.md)
+
+  - [Método Recordset2.Update (DAO)](recordset2-update-method-dao.md)
+

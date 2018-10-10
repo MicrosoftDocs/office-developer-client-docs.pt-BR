@@ -1,0 +1,55 @@
+---
+title: Propriedade ParentURL (ADO)
+TOCTitle: ParentURL Property (ADO)
+ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
+ms:contentKeyID: 48548517
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0fb5e8683bcf7ebe0905b21f169f71834ed424e4
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25465355"
+---
+# <a name="parenturl-property-ado"></a>Propriedade ParentURL (ADO)
+
+**Aplica-se a**: Access 2013 | Office 2013
+
+Indica uma sequência de URL absoluta que aponta para o [Record](record-object-ado.md) pai do objeto **Record** atual.
+
+## <a name="return-value"></a>Valor de retorno
+
+Retorna um valor **String** que indica a URL do **Record** pai.
+
+## <a name="remarks"></a>Comentários
+
+A propriedade **ParentURL** depende da origem utilizada para abrir o objeto **Record**. Por exemplo, o **Record** pode ser aberto com uma origem contendo um nome de caminho relativo de um diretório referido pela propriedade [ActiveConnection](activeconnection-property-ado.md).
+
+Suponha que "second" seja uma pasta contida em "first". Abra o objeto **Record** da seguinte maneira:
+
+```vb
+    record.ActiveConnection = "https://first"
+    record.Open "second"
+```
+
+Agora, o valor da propriedade **ParentURL** é a propriedade **ParentURL** é "https://first", igual da **ActiveConnection**.
+
+A origem também pode ser uma URL absoluta, como "https://first/second". A propriedade **ParentURL** é então "https://first", o nível acima. A propriedade **ParentURL** é então "https://first", o nível acima "segundo".
+
+Essa propriedade poderá ser um valor nulo se:
+
+- Não houver pai para o objeto atual; por exemplo, se o objeto **Record** representar a raiz de um diretório.
+
+- O objeto **Record** representar uma entidade que não possa ser especificada com uma URL.
+
+Esta propriedade é somente leitura.
+
+
+> [!NOTE]
+> - [!OBSERVAçãO] Esta propriedade conta com suporte somente de provedores de origem de documento, como [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [Registros e campos fornecidos pelo provedor](records-and-provider-supplied-fields.md).
+> - [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o Microsoft OLE DB Provider for Internet Publishing. Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md). 
+> - [!OBSERVAçãO] Se o registro atual contiver um registro de dados do **Recordset** de um ADO, acessar a propriedade **ParentURL** causará um erro de tempo de execução, indicando que nenhuma URL é possível.
+
+
