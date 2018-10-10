@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 71d3ae83-3b5d-47c1-b618-4acf13470afb
 description: Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Project.
-ms.openlocfilehash: b47ee8ed5bea5e0569f3c0684defb20ce7e6229d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 7ad5e31f60565bdba5ba391c43e4428fd28fdd02
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395109"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454492"
 ---
 # <a name="project"></a>Project 
 
@@ -22,24 +22,24 @@ Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, refer
   
 ### <a name="viewed-most"></a>Mais vistos
   
-- [Referência do VBA do Project](https://msdn.microsoft.com/library/dn175495.aspx)
+- [Referência do VBA do Project](https://docs.microsoft.com/office/vba/api/overview/project)
   
-- [Project 2010](https://msdn.microsoft.com/EN-US/library/ee861523.aspx)
+- [Project 2010](https://docs.microsoft.com/previous-versions/office/project-server-2010/cc303399(v=office.14))
   
 ### <a name="office-add-ins"></a>Suplementos do Office
   
-- [Introdução aos suplementos do Project](https://docs.microsoft.com/office/dev/add-ins/quickstarts/project-quickstart )
+- [Introdução aos suplementos do Project](https://docs.microsoft.com/office/dev/add-ins/quickstarts/project-quickstart)
   
-- [Visão geral da plataforma](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [Visão geral da plataforma](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="other-resources"></a>Outros recursos
   
-- [Referência da biblioteca de Objetos do VBA do Office](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Referência da biblioteca de Objetos do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Referência de linguagem do VBA do Office](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Referência de linguagem do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [SDK do Open XML](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [SDK do Open XML](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Suplementos do VSTO para Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [Suplementos do VSTO para Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 

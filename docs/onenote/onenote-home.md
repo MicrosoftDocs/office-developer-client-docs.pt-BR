@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: Encontre conteúdo de instruções, artigos técnicos, referências e postagens de blogs para soluções de desenvolvimento e personalização dos aplicativos de cliente de área de trabalho do OneNote.
-ms.openlocfilehash: 7d3380e2792c292e281a98c377bb73350040d177
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: db81109cd4d56bddb90ce70467070a94e12c9029
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391455"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454478"
 ---
 # <a name="onenote"></a>OneNote
 
@@ -35,12 +35,12 @@ Encontre conteúdo de instruções, artigos técnicos, referências e postagens 
   
 ### <a name="other-resources"></a>Outros recursos
   
-- [Referência da biblioteca de Objetos do VBA do Office](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Referência da biblioteca de Objetos do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Referência de linguagem do VBA do Office](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Referência de linguagem do VBA do Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [SDK do Open XML](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [SDK do Open XML](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Suplementos do VSTO para Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [Suplementos do VSTO para Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 
