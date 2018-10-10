@@ -1,0 +1,82 @@
+---
+title: Exemplos de códigos do ADOX no Microsoft Visual C++
+TOCTitle: ADOX Code Examples in Microsoft Visual C++
+ms:assetid: cf95d93d-c14d-5dcd-4b3a-f872d91a322f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250033(v=office.15)
+ms:contentKeyID: 48547814
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d75e60ec4dff90767a28a71da8f9e75af2344de3
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25462887"
+---
+# <a name="adox-code-examples-in-microsoft-visual-c"></a>Exemplos de códigos do ADOX no Microsoft Visual C++
+
+
+**Aplica-se a**: Access 2013 | Office 2013
+
+Estes tópicos fornecem código de exemplo para ajudá-lo a compreender como usar o ADOX. Todos os exemplos de códigos são escritos com o Microsoft Visual C++.
+
+
+> [!NOTE]
+> [!OBSERVAçãO] Cole o exemplo de código inteiro, de Sub até End Sub, no editor de código. Os exemplos podem não ser executados corretamente se forem usados parcialmente ou se a formatação de parágrafo for perdida.
+
+
+
+**Métodos**
+
+  - [Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
+
+  - [Método Close de conexão, exemplo da propriedade Type de tabela (VC++)](connection-close-method-table-type-property-example-vc.md)
+
+  - [Exemplo do método Create (VC++)](create-method-example-vc.md)
+
+  - [Exemplo dos métodos GetObjectOwner e SetObjectOwner (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
+
+  - [Exemplo dos métodos GetPermissions e SetPermissions (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
+
+  - [Exemplo dos métodos Append e ChangePassword de grupos e usuários (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
+
+  - [Exemplo do método Append de índices (VC++)](indexes-append-method-example-vc.md)
+
+  - [Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+
+**Propriedades**
+
+  - [Exemplo da propriedade Attributes (VC++)](attributes-property-example-vc.md)
+
+  - [Exemplo da propriedade ActiveConnection de catálogo (VC++)](catalog-activeconnection-property-example-vc.md)
+
+  - [Exemplo da propriedade Clustered (VC++)](clustered-property-example-vc.md)
+
+  - [Exemplo das propriedades Command e CommandText (VC++)](command-and-commandtext-properties-example-vc.md)
+
+  - [Propriedade Command, exemplo da coleção Parameters (VC++)](parameters-collection-command-property-example-vc.md)
+
+  - [Exemplo das propriedades DateCreated e DateModified (VC++)](datecreated-and-datemodified-properties-example-vc.md)
+
+  - [Exemplo da propriedade DefinedSize (VC++)](definedsize-property-example-vc.md)
+
+  - [Exemplo da propriedade DeleteRule (VC++)](deleterule-property-example-vc.md)
+
+  - [Exemplo da propriedade IndexNulls (VC++)](indexnulls-property-example-vc.md)
+
+  - [Tipo de chave, propriedades RelatedColumn, RelatedTable e UpdateRule, exemplo do método Append de chaves (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+
+  - [Propriedade Name, exemplo dos métodos Append de colunas e tabelas (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
+
+  - [Exemplo das propriedades NumericScale e Precision (V++)](numericscale-and-precision-properties-example-vc.md)
+
+  - [Exemplo da propriedade ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
+
+  - [Exemplo das propriedades PrimaryKey e Unique (VC++)](primarykey-and-unique-properties-example-vc.md)
+
+  - [Propriedade Type de tabela, exemplo do método Close de conexão (VC++)](connection-close-method-table-type-property-example-vc.md)
+
+**Coleções**
+
+  - [Coleção Parameters, exemplo da propriedade Command (VC++)](parameters-collection-command-property-example-vc.md)
+
