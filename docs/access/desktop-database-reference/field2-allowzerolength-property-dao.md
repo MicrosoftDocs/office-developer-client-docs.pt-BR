@@ -1,0 +1,145 @@
+---
+title: Propriedade Field2.AllowZeroLength (DAO)
+TOCTitle: AllowZeroLength Property
+ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
+ms:contentKeyID: 48547908
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b64a7312c2c7ce336e877823f6dedd76fccd4017
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25464860"
+---
+# <a name="field2allowzerolength-property-dao"></a><span data-ttu-id="6a707-102">Propriedade Field2.AllowZeroLength (DAO)</span><span class="sxs-lookup"><span data-stu-id="6a707-102">Field2.AllowZeroLength Property (DAO)</span></span>
+
+
+<span data-ttu-id="6a707-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a707-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+
+<span data-ttu-id="6a707-104">Define ou retorna um valor que indica que a sequência de comprimento zero ("") é uma configuração válida para a propriedade **[Value](field-value-property-dao.md)** do objeto **Field2** com um tipo de dados Texto ou Memorando (apenas espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="6a707-104">Sets or returns a value that indicates whether a zero-length string ("") is a valid setting for the **[Value](field-value-property-dao.md)** property of the **Field2** object with a Text or Memo data type (Microsoft Access workspaces only).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="6a707-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="6a707-105">Syntax</span></span>
+
+<span data-ttu-id="6a707-106">*expressão* . AllowZeroLength</span><span class="sxs-lookup"><span data-stu-id="6a707-106">*expression* .AllowZeroLength</span></span>
+
+<span data-ttu-id="6a707-107">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="6a707-107">*expression* A variable that represents a **Field2** object.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="6a707-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="6a707-108">Remarks</span></span>
+
+<span data-ttu-id="6a707-109">Para um objeto ainda não acrescentado à coleção **Fields**, essa propriedade é de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="6a707-109">For an object not yet appended to the **Fields** collection, this property is read/write.</span></span>
+
+<span data-ttu-id="6a707-110">Depois de acrescentado a uma coleção **Fields**, a disponibilidade da propriedade **AllowZeroLength** depende do objeto que contém a coleção **Fields**, como mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="6a707-110">Once appended to a **Fields** collection, the availability of the **AllowZeroLength** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="6a707-111">Se a coleção Fields pertencer a</span><span class="sxs-lookup"><span data-stu-id="6a707-111">If the Fields collection belongs to an</span></span></p></th>
+<th><p><span data-ttu-id="6a707-112">AllowZeroLength será</span><span class="sxs-lookup"><span data-stu-id="6a707-112">Then AllowZeroLength is</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="6a707-113">							Objeto <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="6a707-113"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="6a707-114">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="6a707-114">Not supported</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6a707-115">							Objeto <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="6a707-115"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="6a707-116">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="6a707-116">Read-only</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6a707-117">							Objeto <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="6a707-117"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="6a707-118">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="6a707-118">Read-only</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6a707-119">							Objeto <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="6a707-119"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="6a707-120">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="6a707-120">Not supported</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6a707-121">							Objeto <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="6a707-121"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="6a707-122">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="6a707-122">Read/write</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="6a707-123">Você pode usar essa propriedade junto com a propriedade **[Required](field-required-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)** ou **[ValidationRule](field-validationrule-property-dao.md)** para validar um valor em um campo.</span><span class="sxs-lookup"><span data-stu-id="6a707-123">You can use this property along with the **[Required](field-required-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)**, or **[ValidationRule](field-validationrule-property-dao.md)** property to validate a value in a field.</span></span>
+
+## <a name="example"></a><span data-ttu-id="6a707-124">Exemplo</span><span class="sxs-lookup"><span data-stu-id="6a707-124">Example</span></span>
+
+<span data-ttu-id="6a707-p101">Neste exemplo, a propriedade **AllowZeroLength** permite que o usuário defina o valor de um **Field2** para uma sequência vazia. Nessa situação, o usuário pode distinguir entre um registro em que os dados são desconhecidos e um registro em que dos dados não se aplicam.</span><span class="sxs-lookup"><span data-stu-id="6a707-p101">In this example, the **AllowZeroLength** property allows the user to set the value of a **Field2** to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+
+```vb
+    Sub AllowZeroLengthX() 
+     
+     Dim dbsNorthwind As Database 
+     Dim tdfEmployees As TableDef 
+     Dim fldTemp As Field 
+     Dim rstEmployees As Recordset 
+     Dim strMessage As String 
+     Dim strInput As String 
+     
+     Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
+     Set tdfEmployees = dbsNorthwind.TableDefs("Employees") 
+     ' Create a new Field object and append it to the Fields 
+     ' collection of the Employees table. 
+     Set fldTemp = tdfEmployees.CreateField("FaxPhone", _ 
+     dbText, 24) 
+     fldTemp.AllowZeroLength = True 
+     tdfEmployees.Fields.Append fldTemp 
+     
+     Set rstEmployees = _ 
+     dbsNorthwind.OpenRecordset("Employees") 
+     
+     With rstEmployees 
+     ' Get user input. 
+     .Edit 
+     strMessage = "Enter fax number for " & _ 
+     !FirstName & " " & !LastName & "." & vbCr & _ 
+     "[? - unknown, X - has no fax]" 
+     strInput = UCase(InputBox(strMessage)) 
+     If strInput <> "" Then 
+     Select Case strInput 
+     Case "?" 
+     !FaxPhone = Null 
+     Case "X" 
+     !FaxPhone = "" 
+     Case Else 
+     !FaxPhone = strInput 
+     End Select 
+     
+     .Update 
+     
+     ' Print report. 
+     Debug.Print "Name - Fax number" 
+     Debug.Print !FirstName & " " & !LastName & " - "; 
+     
+     If IsNull(!FaxPhone) Then 
+     Debug.Print "[Unknown]" 
+     Else 
+     If !FaxPhone = "" Then 
+     Debug.Print "[Has no fax]" 
+     Else 
+     Debug.Print !FaxPhone 
+     End If 
+     End If 
+     
+     Else 
+     .CancelUpdate 
+     End If 
+     
+     .Close 
+     End With 
+     
+     ' Delete new field because this is a demonstration. 
+     tdfEmployees.Fields.Delete fldTemp.Name 
+     dbsNorthwind.Close 
+     
+    End Sub
+```

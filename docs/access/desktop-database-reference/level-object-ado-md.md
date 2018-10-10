@@ -1,0 +1,107 @@
+---
+title: Objeto Level (ADO MD)
+TOCTitle: Level Object (ADO MD)
+ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
+ms:contentKeyID: 48548160
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 13fce901860768064d450a64c44545f3c3244453
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25462321"
+---
+# <a name="level-object-ado-md"></a><span data-ttu-id="e45cc-102">Objeto Level (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e45cc-102">Level Object (ADO MD)</span></span>
+
+
+<span data-ttu-id="e45cc-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e45cc-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="e45cc-104">Contém um conjunto de membros, sendo que cada um tem a mesma ordem em uma hierarquia.</span><span class="sxs-lookup"><span data-stu-id="e45cc-104">Contains a set of members, each of which has the same rank within a hierarchy.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="e45cc-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="e45cc-105">Remarks</span></span>
+
+<span data-ttu-id="e45cc-106">Com as coleções e propriedades de um objeto **Level**, você pode fazer o que segue:</span><span class="sxs-lookup"><span data-stu-id="e45cc-106">With the collections and properties of a **Level** object, you can do the following:</span></span>
+
+  - <span data-ttu-id="e45cc-107">Identificar o **Level** com as propriedades [Name](name-property-ado-md.md) e [UniqueName](uniquename-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="e45cc-107">Identify the **Level** with the [Name](name-property-ado-md.md) and [UniqueName](uniquename-property-ado-md.md) properties.</span></span>
+
+  - <span data-ttu-id="e45cc-108">Retornar uma cadeia de caracteres para ser usada ao exibir o **Level** com a propriedade [Caption](caption-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="e45cc-108">Return a string to use when displaying the **Level** with the [Caption](caption-property-ado-md.md) property.</span></span>
+
+  - <span data-ttu-id="e45cc-109">Retornar uma cadeia de caracteres consistente que descreva o **Level** com a propriedade [Description](description-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="e45cc-109">Return a meaningful string that describes the **Level** with the [Description](description-property-ado-md.md) property.</span></span>
+
+  - <span data-ttu-id="e45cc-110">Retornar os objetos [Member](member-object-ado-md.md) que compõem o **Level** com a coleção [Members](members-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="e45cc-110">Return the [Member](member-object-ado-md.md) objects that make up the **Level** with the [Members](members-collection-ado-md.md) collection.</span></span>
+
+  - <span data-ttu-id="e45cc-111">Retornar o número de níveis a partir da raiz do **Level** com a propriedade [Depth](depth-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="e45cc-111">Return the number of levels from the root of the **Level** with the [Depth](depth-property-ado-md.md) property.</span></span>
+
+  - <span data-ttu-id="e45cc-112">Usar a coleção [Properties](properties-collection-ado.md) do ADO padrão para obter informações adicionais sobre o objeto **Level**.</span><span class="sxs-lookup"><span data-stu-id="e45cc-112">Use the standard ADO [Properties](properties-collection-ado.md) collection to obtain additional information about the **Level** object.</span></span>
+
+<span data-ttu-id="e45cc-p101">A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabela a seguir lista propriedades que talvez estejam disponíveis. A lista de propriedades verdadeira pode diferir, de acordo com a implementação do provedor. Consulte a documentação do seu provedor para obter uma lista mais completa de propriedades disponíveis.</span><span class="sxs-lookup"><span data-stu-id="e45cc-p101">The **Properties** collection contains provider-supplied properties. The following table lists properties that might be available. The actual property list may differ depending upon the implementation of the provider. See the documentation for your provider for a more complete list of available properties.</span></span>
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="e45cc-117">Nome</span><span class="sxs-lookup"><span data-stu-id="e45cc-117">Name</span></span></p></th>
+<th><p><span data-ttu-id="e45cc-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="e45cc-118">Description</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-119">Nome_do_catálogo</span><span class="sxs-lookup"><span data-stu-id="e45cc-119">CatalogName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-120">O nome do catálogo ao qual o cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="e45cc-120">The name of the catalog to which this cube belongs.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-121">Nome do cubo</span><span class="sxs-lookup"><span data-stu-id="e45cc-121">CubeName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-122">O nome do cubo.</span><span class="sxs-lookup"><span data-stu-id="e45cc-122">The name of the cube.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-123">Description</span><span class="sxs-lookup"><span data-stu-id="e45cc-123">Description</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-124">Uma descrição consistente do nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-124">A meaningful description of the level.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-125">DimensionUniqueName</span><span class="sxs-lookup"><span data-stu-id="e45cc-125">DimensionUniqueName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-126">O nome inequívoco da <a href="dimension-object-ado-md.md">dimensão</a>.</span><span class="sxs-lookup"><span data-stu-id="e45cc-126">The unambiguous name of the <a href="dimension-object-ado-md.md">dimension</a>.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-127">HierarchyUniqueName</span><span class="sxs-lookup"><span data-stu-id="e45cc-127">HierarchyUniqueName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-128">O nome inequívoco da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="e45cc-128">The unambiguous name of the hierarchy.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-129">LevelCaption</span><span class="sxs-lookup"><span data-stu-id="e45cc-129">LevelCaption</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-130">Um rótulo ou uma legenda associada ao nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-130">A label or caption associated with the level.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-131">LevelCardinality</span><span class="sxs-lookup"><span data-stu-id="e45cc-131">LevelCardinality</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-132">O número de membros no nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-132">The number of members in the level.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-133">LevelGUID</span><span class="sxs-lookup"><span data-stu-id="e45cc-133">LevelGUID</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-134">O GUID do nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-134">The GUID of the level.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-135">LevelName</span><span class="sxs-lookup"><span data-stu-id="e45cc-135">LevelName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-136">Nome do nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-136">Name of the level.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-137">LevelNumber</span><span class="sxs-lookup"><span data-stu-id="e45cc-137">LevelNumber</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-138">A distância entre o nível e a raiz da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="e45cc-138">The distance between the level and the root of the hierarchy.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-139">LevelType</span><span class="sxs-lookup"><span data-stu-id="e45cc-139">LevelType</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-140">O tipo do nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-140">The type of level.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e45cc-141">LevelUniqueName não</span><span class="sxs-lookup"><span data-stu-id="e45cc-141">LevelUniqueName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-142">O nome inequívoco do nível.</span><span class="sxs-lookup"><span data-stu-id="e45cc-142">The unambiguous name of the level.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e45cc-143">SchemaName</span><span class="sxs-lookup"><span data-stu-id="e45cc-143">SchemaName</span></span></p></td>
+<td><p><span data-ttu-id="e45cc-144">O nome do esquema ao qual este cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="e45cc-144">The name of the schema to which this cube belongs.</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
