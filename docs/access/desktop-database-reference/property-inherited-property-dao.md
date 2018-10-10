@@ -1,0 +1,82 @@
+---
+title: Propriedade Property.Inherited (DAO)
+TOCTitle: Inherited Property
+ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
+ms:contentKeyID: 48543304
+ms.date: 09/18/2015
+mtps_version: v=office.15
+f1_keywords:
+- dao360.chm1052991
+f1_categories:
+- Office.Version=v15
+ms.openlocfilehash: b89b751f96b78cf972d6461ce646498d82bc9169
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25463810"
+---
+# <a name="propertyinherited-property-dao"></a><span data-ttu-id="55bc0-102">Propriedade Property.Inherited (DAO)</span><span class="sxs-lookup"><span data-stu-id="55bc0-102">Property.Inherited Property (DAO)</span></span>
+
+
+<span data-ttu-id="55bc0-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="55bc0-103">**Applies to**: Access 2013 | Office 2013</span></span> 
+
+<span data-ttu-id="55bc0-104">Retorna um valor que indica se um objeto **[Property](property-object-dao.md)** foi herdado de um objeto base.</span><span class="sxs-lookup"><span data-stu-id="55bc0-104">Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="55bc0-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="55bc0-105">Syntax</span></span>
+
+<span data-ttu-id="55bc0-106">*expressão* . Herdado</span><span class="sxs-lookup"><span data-stu-id="55bc0-106">*expression* .Inherited</span></span>
+
+<span data-ttu-id="55bc0-107">*expressão* Uma variável que representa um objeto **Property** .</span><span class="sxs-lookup"><span data-stu-id="55bc0-107">*expression* A variable that represents a **Property** object.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="55bc0-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="55bc0-108">Remarks</span></span>
+
+<span data-ttu-id="55bc0-109">Para objetos **Property** internos que representam propriedades predefinidas, o único valor de retorno possível é **False**.</span><span class="sxs-lookup"><span data-stu-id="55bc0-109">For built-in **Property** objects that represent predefined properties, the only possible return value is **False**.</span></span>
+
+<span data-ttu-id="55bc0-p101">Use a propriedade **Inherited** para determinar se **Property** definido pelo usuário foi criado para o objeto ao qual se aplica ou se **Property** foi herdado de outro objeto. Por exemplo, suponha que você criou um novo **Property** para o objeto **[QueryDef](querydef-object-dao.md)** e depois abriu um objeto **[Recordset](recordset-object-dao.md)** a partir de um objeto **QueryDef**. Esse novo **Property** fará parte da coleção [**Properties**](properties-collection-dao.md) do objeto **Recordset** e sua propriedade **Inherited** será definida como **True** porque a propriedade foi criada a partir do objeto **QueryDef** e não do objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="55bc0-p101">You can use the **Inherited** property to determine whether a user-defined **Property** was created for the object it applies to, or whether the **Property** was inherited from another object. For example, suppose you create a new **Property** for a **[QueryDef](querydef-object-dao.md)** object and then open a **[Recordset](recordset-object-dao.md)** object from the **QueryDef** object. This new **Property** will be part of the **Recordset** object's **[Properties](properties-collection-dao.md)** collection, and its **Inherited** property will be set to **True** because the property was created for the **QueryDef** object, not the **Recordset** object.</span></span>
+
+## <a name="example"></a><span data-ttu-id="55bc0-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="55bc0-113">Example</span></span>
+
+<span data-ttu-id="55bc0-114">Este exemplo usa a propriedade **Inherited** para determinar se um objeto **Property** definido pelo usuário foi criado para um **Recordset** ou para algum objeto base.</span><span class="sxs-lookup"><span data-stu-id="55bc0-114">This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.</span></span>
+
+```vb 
+Sub InheritedX() 
+ 
+ Dim dbsNorthwind As Database 
+ Dim tdfTest As TableDef 
+ Dim rstTest As Recordset 
+ Dim prpNew As Property 
+ Dim prpLoop As Property 
+ 
+ ' Create a new property for a saved TableDef object, then 
+ ' open a recordset from that TableDef object. 
+ Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
+ Set tdfTest = dbsNorthwind.TableDefs(0) 
+ Set prpNew = tdfTest.CreateProperty("NewProperty", _ 
+ dbBoolean, True) 
+ tdfTest.Properties.Append prpNew 
+ Set rstTest = tdfTest.OpenRecordset(dbOpenForwardOnly) 
+ 
+ ' Show Name and Inherited property of the new Property 
+ ' object in the TableDef. 
+ Debug.Print "NewProperty of " & tdfTest.Name & _ 
+ " TableDef:" 
+ Debug.Print " Inherited = " & _ 
+ tdfTest.Properties("NewProperty").Inherited 
+ 
+ ' Show Name and Inherited property of the new Property 
+ ' object in the Recordset. 
+ Debug.Print "NewProperty of " & rstTest.Name & _ 
+ " Recordset:" 
+ Debug.Print " Inherited = " & _ 
+ rstTest.Properties("NewProperty").Inherited 
+ 
+ ' Delete new TableDef because this is a demonstration. 
+ tdfTest.Properties.Delete prpNew.Name 
+ dbsNorthwind.Close 
+ 
+End Sub 
+ 
+```
+
