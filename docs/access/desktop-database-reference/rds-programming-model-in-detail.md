@@ -1,0 +1,75 @@
+---
+title: Modelo detalhado de programação RDS
+TOCTitle: RDS Programming Model in Detail
+ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
+ms:contentKeyID: 48543364
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 123a50a48407f82d11e704ce611896875d0017e4
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25462623"
+---
+# <a name="rds-programming-model-in-detail"></a><span data-ttu-id="367e1-102">Modelo detalhado de programação RDS</span><span class="sxs-lookup"><span data-stu-id="367e1-102">RDS Programming Model in Detail</span></span>
+
+
+<span data-ttu-id="367e1-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="367e1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+
+
+<span data-ttu-id="367e1-104">O modelo de programação RDS é formado por estes elementos-chave:</span><span class="sxs-lookup"><span data-stu-id="367e1-104">The following are key elements of the RDS programming model:</span></span>
+
+  - <span data-ttu-id="367e1-105">RDS. DataSpace</span><span class="sxs-lookup"><span data-stu-id="367e1-105">RDS.DataSpace</span></span>
+
+  - <span data-ttu-id="367e1-106">Rdsserver</span><span class="sxs-lookup"><span data-stu-id="367e1-106">RDSServer.DataFactory</span></span>
+
+  - <span data-ttu-id="367e1-107">RDS. DataControl</span><span class="sxs-lookup"><span data-stu-id="367e1-107">RDS.DataControl</span></span>
+
+  - <span data-ttu-id="367e1-108">Evento</span><span class="sxs-lookup"><span data-stu-id="367e1-108">Event</span></span>
+
+## <a name="rdsdataspace"></a><span data-ttu-id="367e1-109">RDS. DataSpace</span><span class="sxs-lookup"><span data-stu-id="367e1-109">RDS.DataSpace</span></span>
+
+<span data-ttu-id="367e1-p101">Seu aplicativo cliente deve especificar o servidor e o programa de servidor a ser chamado. Em troca, ele recebe uma referência ao programa de servidor, podendo tratá-la como se ela fosse o próprio programa de servidor.</span><span class="sxs-lookup"><span data-stu-id="367e1-p101">Your client application must specify the server and the server program to invoke. In return, your application receives a reference to the server program and can treat the reference as if it were the server program itself.</span></span>
+
+<span data-ttu-id="367e1-112">O modelo de objeto RDS incorpora essa funcionalidade com o objeto [RDS.DataSpace](dataspace-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="367e1-112">The RDS object model embodies this functionality with the [RDS.DataSpace](dataspace-object-rds.md) object.</span></span>
+
+<span data-ttu-id="367e1-p102">O programa de servidor é especificado com um identificador de programa, ou *ProgID*. O servidor usa o *ProgID* e o registro da máquina para localizar informações sobre o programa real a ser iniciado.</span><span class="sxs-lookup"><span data-stu-id="367e1-p102">The server program is specified with a program identifier, or *ProgID*. The server uses the *ProgID* and the server machine's registry to locate information about the actual program to initiate.</span></span>
+
+<span data-ttu-id="367e1-p103">O RDS faz uma distinção interna, dependendo de o programa de servidor estar em um servidor remoto na Internet ou em uma intranet; em um servidor em uma rede local; ou em nenhum servidor, mas, em uma biblioteca de vínculo dinâmico local (DLL). Essa distinção determina como as informações são trocadas entre o cliente e o servidor e faz uma diferença real no tipo de referência retornado ao aplicativo cliente. Entretanto, do seu ponto de vista, essa distinção não possui significado especial; o que importa é que você receberá uma referência de programa que pode ser usada.</span><span class="sxs-lookup"><span data-stu-id="367e1-p103">RDS makes a distinction internally depending on whether the server program is on a remote server across the Internet or an intranet; a server on a local area network; or not on a server at all, but instead on a local dynamic-link library (DLL). This distinction determines how information is exchanged between the client and the server, and makes a tangible difference in the type of reference returned to your client application. However, from your point of view, this distinction has no special meaning. All that matters is that you receive a usable program reference.</span></span>
+
+## <a name="rdsserverdatafactory"></a><span data-ttu-id="367e1-119">Rdsserver</span><span class="sxs-lookup"><span data-stu-id="367e1-119">RDSServer.DataFactory</span></span>
+
+<span data-ttu-id="367e1-120">O RDS fornece um programa de servidor padrão que pode executar uma consulta SQL na fonte de dados e retornar um objeto [Recordset](recordset-object-ado.md) ou usar um objeto **Recordset** e atualizar a fonte de dados.</span><span class="sxs-lookup"><span data-stu-id="367e1-120">RDS provides a default server program that can either perform a SQL query against the data source and return a [Recordset](recordset-object-ado.md) object or take a **Recordset** object and update the data source.</span></span>
+
+<span data-ttu-id="367e1-121">O modelo de objeto RDS incorpora essa funcionalidade com o objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).</span><span class="sxs-lookup"><span data-stu-id="367e1-121">The RDS object model embodies this functionality with the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span>
+
+<span data-ttu-id="367e1-122">Além disso, esse objeto possui um método para a criação de um objeto **Recordset** vazio que pode ser preenchido por programação ([CreateRecordset](createrecordset-method-rds.md)), e outro método para a conversão de um objeto **Recordset** em uma cadeia de caracteres de texto para a criação de uma página da Web ([ConvertToString](converttostring-method-rds.md)).</span><span class="sxs-lookup"><span data-stu-id="367e1-122">In addition, this object has a method for creating an empty **Recordset** object that you can fill programmatically ([CreateRecordset](createrecordset-method-rds.md)), and another method for converting a **Recordset** object into a text string to build a Web page ([ConvertToString](converttostring-method-rds.md)).</span></span>
+
+<span data-ttu-id="367e1-123">Com o ADO, você pode substituir parte do comportamento de comando e da conexão padrão de **RDSServer.DataFactory** com um manipulador **DataFactory** e um arquivo de personalização contendo parâmetros de conexão, comando e segurança.</span><span class="sxs-lookup"><span data-stu-id="367e1-123">With ADO, you can override some of the standard connection and command behavior of the **RDSServer.DataFactory** with a **DataFactory** handler and a customization file that contains connection, command, and security parameters.</span></span>
+
+<span data-ttu-id="367e1-p104">O programa de servidor algumas vezes é chamado de *objeto corporativo*. Você pode criar o seu próprio objeto corporativo para executar um acesso a dados complicados, verificações de validade etc. Até mesmo ao escrever um objeto corporativo personalizado, você poderá criar uma instância de um objeto **RDSServer.DataFactory** e usar alguns de seus métodos para executar suas próprias tarefas.</span><span class="sxs-lookup"><span data-stu-id="367e1-p104">The server program is sometimes called a *business object*. You can write your own custom business object that can perform complicated data access, validity checks, and so on. Even when writing a custom business object, you can create an instance of an **RDSServer.DataFactory** object and use some of its methods to accomplish your own tasks.</span></span>
+
+## <a name="rdsdatacontrol"></a><span data-ttu-id="367e1-127">RDS. DataControl</span><span class="sxs-lookup"><span data-stu-id="367e1-127">RDS.DataControl</span></span>
+
+<span data-ttu-id="367e1-p105">O RDS permite combinar a funcionalidade de **RDS.DataSpace** e **RDSServer.DataFactory**, e também permite que os controles visuais utilizem facilmente o objeto **Recordset** retornado por uma consulta de uma fonte de dados. Para o caso mais comum, o RDS tenta ao máximo obter acesso automaticamente às informações em um servidor e exibi-las em um controle visual.</span><span class="sxs-lookup"><span data-stu-id="367e1-p105">RDS provides a means to combine the functionality of the **RDS.DataSpace** and **RDSServer.DataFactory**, and also enable visual controls to easily use the **Recordset** object returned by a query from a data source. RDS attempts, for the most common case, to do as much as possible to automatically gain access to information on a server and display it in a visual control.</span></span>
+
+<span data-ttu-id="367e1-130">O modelo de objeto RDS incorpora essa funcionalidade com o objeto [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="367e1-130">The RDS object model embodies this functionality with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
+
+<span data-ttu-id="367e1-p106">O **RDS.DataControl** possui dois aspectos. Um deles refere-se à fonte de dados. Se você definir as informações de comando e de conexão usando as propriedades **Connect** e **SQL** de **RDS.DataControl**, elas utilizarão o **RDS.DataSpace** automaticamente para criar uma referência ao objeto **RDSServer.DataFactory** padrão. Em seguida, **RDSServer.DataFactory** utilizará o valor da propriedade **Connect** para se conectar à fonte de dados, utilizará o valor da propriedade **SQL** para obter um **Recordset** da fonte de dados e retornará o objeto **Recordset** a **RDS.DataControl**.</span><span class="sxs-lookup"><span data-stu-id="367e1-p106">The **RDS.DataControl** has two aspects. One aspect pertains to the data source. If you set the command and connection information using the **Connect** and **SQL** properties of the **RDS.DataControl**, it will automatically use the **RDS.DataSpace** to create a reference to the default **RDSServer.DataFactory** object. Then the **RDSServer.DataFactory** will use the **Connect** property value to connect to the data source, use the **SQL** property value to obtain a **Recordset** from the data source, and return the **Recordset** object to the **RDS.DataControl**.</span></span>
+
+<span data-ttu-id="367e1-p107">O segundo aspecto refere-se à exibição das informações retornadas de **Recordset** em um controle visual. Você pode associar um controle visual a **RDS.DataControl** (em um processo chamado ligação) e obter acesso às informações do objeto **Recordset** associado, exibindo os resultados da consulta em uma página da Web no Microsoft® Internet Explorer. Cada objeto **RDS.DataControl** acopla um objeto **Recordset**, que representa os resultados de uma única consulta, a um ou mais controles visuais (por exemplo, uma caixa de texto, uma caixa de combinação, um controle de grade etc.). É possível haver mais de um objeto **RDS.DataControl** em cada página. Cada objeto **RDS.DataControl** pode ser conectado a uma fonte de dados diferente e conter os resultados de uma consulta separada.</span><span class="sxs-lookup"><span data-stu-id="367e1-p107">The second aspect pertains to the display of returned **Recordset** information in a visual control. You can associate a visual control with the **RDS.DataControl** (in a process called binding) and gain access to the information in the associated **Recordset** object, displaying query results on a Web page in Microsoft® Internet Explorer. Each **RDS.DataControl** object binds one **Recordset** object, representing the results of a single query, to one or more visual controls (for example, a text box, combo box, grid control, and so forth). There may be more than one **RDS.DataControl** object on each page. Each **RDS.DataControl** object can be connected to a different data source and contain the results of a separate query.</span></span>
+
+<span data-ttu-id="367e1-p108">O objeto **RDS.DataControl** também possui seus próprios métodos de navegação, classificação e filtragem das linhas do objeto **Recordset** associado. Esses métodos são semelhantes, mas diferentes dos métodos no objeto ADO **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="367e1-p108">The **RDS.DataControl** object also has its own methods for navigating, sorting, and filtering the rows of the associated **Recordset** object. These methods are similar, but not the same as the methods on the ADO **Recordset** object.</span></span>
+
+## <a name="events"></a><span data-ttu-id="367e1-142">Eventos</span><span class="sxs-lookup"><span data-stu-id="367e1-142">Events</span></span>
+
+<span data-ttu-id="367e1-143">O RDS oferece suporte a dois de seus próprios eventos, que são independentes do modelo de evento ADO.</span><span class="sxs-lookup"><span data-stu-id="367e1-143">RDS supports two of its own events, which are independent of the ADO event model.</span></span> <span data-ttu-id="367e1-144">O evento [onReadyStateChange](onreadystatechange-event-rds.md) é chamado sempre que o **RDS. DataControl** propriedade [ReadyState](readystate-property-rds.md) será alterada, notificando você quando uma operação assíncrona for concluído com êxito, encerrada ou houve um erro.</span><span class="sxs-lookup"><span data-stu-id="367e1-144">The [onReadyStateChange](onreadystatechange-event-rds.md) event is called whenever the **RDS.DataControl** [ReadyState](readystate-property-rds.md) property changes, thus notifying you when an asynchronous operation has successfully completed, terminated, or experienced an error.</span></span> <span data-ttu-id="367e1-145">O evento [onError](onerror-event-rds.md) é chamado sempre que ocorre um erro, mesmo que ele ocorra durante uma operação assíncrona.</span><span class="sxs-lookup"><span data-stu-id="367e1-145">The [onError](onerror-event-rds.md) event is called whenever an error occurs, even if the error occurs during an asynchronous operation.</span></span>
+
+
+> [!NOTE]
+> <P><span data-ttu-id="367e1-146">[!OBSERVAçãO] O Microsoft Internet Explorer oferece dois eventos adicionais aos do RDS  <STRONG>onDataSetChanged</STRONG> (o <STRONG>Recordset</STRONG> está funcional, mas ainda recupera linhas) e <STRONG>onDataSetComplete</STRONG> (o <STRONG>Recordset</STRONG> concluiu a recuperação de linhas).</span><span class="sxs-lookup"><span data-stu-id="367e1-146">Microsoft Internet Explorer provides two additional events to RDS — <STRONG>onDataSetChanged</STRONG> (the <STRONG>Recordset</STRONG> is functional but still retrieving rows) and <STRONG>onDataSetComplete</STRONG> (the <STRONG>Recordset</STRONG> has finished retrieving rows).</span></span></P>
+
+
