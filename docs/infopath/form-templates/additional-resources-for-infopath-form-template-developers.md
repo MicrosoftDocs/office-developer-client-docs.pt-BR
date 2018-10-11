@@ -7,50 +7,34 @@ keywords:
 - InfoPath 2007, recursos adicionais
 localization_priority: Normal
 ms.assetid: 6d29e3ed-80a2-4879-a2a5-3855992bec1d
-description: Os desenvolvedores que trabalham em projetos de código gerenciado do Microsoft InfoPath poderá encontrar mais informações de que os recursos a seguir.
-ms.openlocfilehash: 8f7f8e70af48fce56329c0e4787893765d2ad154
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Desenvolvedores trabalhando em projetos de código gerenciado do Microsoft InfoPath podem encontrar mais detalhes nos recursos a seguir.
+ms.openlocfilehash: 3f46ac3754a3cc09d1c6cabbbc6e2fec8d391701
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765585"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399806"
 ---
-# <a name="additional-resources-for-infopath-form-template-developers"></a><span data-ttu-id="c0417-104">Recursos adicionais para desenvolvedores de modelos de formulário do InfoPath</span><span class="sxs-lookup"><span data-stu-id="c0417-104">Additional Resources for InfoPath Form Template Developers</span></span>
+# <a name="additional-resources-for-infopath-form-template-developers"></a><span data-ttu-id="90f5d-104">Recursos adicionais para desenvolvedores de modelos de formulário do InfoPath</span><span class="sxs-lookup"><span data-stu-id="90f5d-104">Additional Resources for InfoPath Form Template Developers</span></span>
 
-<span data-ttu-id="c0417-105">Os desenvolvedores que trabalham em projetos de código gerenciado do Microsoft InfoPath poderá encontrar mais informações de que os recursos a seguir.</span><span class="sxs-lookup"><span data-stu-id="c0417-105">Developers working on Microsoft InfoPath managed-code projects can find more information from the following resources.</span></span>
+<span data-ttu-id="90f5d-105">Desenvolvedores trabalhando em projetos de código gerenciado do Microsoft InfoPath podem encontrar mais detalhes nos recursos a seguir.</span><span class="sxs-lookup"><span data-stu-id="90f5d-105">Developers working on Microsoft InfoPath managed-code projects can find more information from the following resources.</span></span>
   
-## <a name="developer-resources"></a><span data-ttu-id="c0417-106">Recursos para desenvolvedores</span><span class="sxs-lookup"><span data-stu-id="c0417-106">Developer Resources</span></span>
+## <a name="developer-resources"></a><span data-ttu-id="90f5d-106">Recursos de desenvolvedor</span><span class="sxs-lookup"><span data-stu-id="90f5d-106">Developer resources</span></span>
 
- <span data-ttu-id="c0417-107">**Ajuda do Microsoft Office InfoPath**</span><span class="sxs-lookup"><span data-stu-id="c0417-107">**Microsoft Office InfoPath Help**</span></span>
-  
-> <span data-ttu-id="c0417-108">Informações conceituais e de procedimentos sobre como projetar modelos de formulário do InfoPath.</span><span class="sxs-lookup"><span data-stu-id="c0417-108">Conceptual and procedural information on designing form templates with InfoPath.</span></span> <span data-ttu-id="c0417-109">Para acessar a Ajuda do Microsoft Office InfoPath, clique no botão **Ajuda** no Microsoft InfoPath.</span><span class="sxs-lookup"><span data-stu-id="c0417-109">To access Microsoft Office InfoPath Help, click the **Help** button in Microsoft InfoPath.</span></span> <span data-ttu-id="c0417-110">Quando você está conectado à Internet, conteúdo adicional e tópicos de Ajuda atualizados são integrados em Ajuda do site do Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="c0417-110">When you are connected to the Internet, additional content and updated help topics are integrated into Help from the Microsoft Office Online Web site.</span></span> 
+- <span data-ttu-id="90f5d-107">**Ajuda do Microsoft Office InfoPath**: informações conceituais e de procedimentos para criar modelos de formulário do InfoPath.</span><span class="sxs-lookup"><span data-stu-id="90f5d-107">**Microsoft Office InfoPath Help**: Conceptual and procedural information on designing form templates with InfoPath.</span></span> <span data-ttu-id="90f5d-108">Para acessar a Ajuda do Microsoft Office InfoPath, selecione o botão **Ajuda** no Microsoft InfoPath.</span><span class="sxs-lookup"><span data-stu-id="90f5d-108">To access Microsoft Office InfoPath Help, select the **Help** button in Microsoft InfoPath.</span></span> <span data-ttu-id="90f5d-109">Quando você estiver conectado à Internet, conteúdo adicional e tópicos da Ajuda atualizados serão integrados na Ajuda do site do Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="90f5d-109">When you are connected to the Internet, additional content and updated help topics are integrated into Help from the Microsoft Office Online website.</span></span> 
     
-[<span data-ttu-id="c0417-111">Centro do desenvolvedor do InfoPath</span><span class="sxs-lookup"><span data-stu-id="c0417-111">InfoPath Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
-  
-> <span data-ttu-id="c0417-112">Este site contém informações sobre o desenvolvimento de modelos de formulário do InfoPath, formulários de exemplo, ferramentas, artigos e white papers.</span><span class="sxs-lookup"><span data-stu-id="c0417-112">This Web site contains white papers, sample forms, tools, articles, and information about developing InfoPath form templates.</span></span>
+- <span data-ttu-id="90f5d-110">[Centro de Desenvolvimento do InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): este site contém white papers, formulários de amostra, ferramentas, artigos e informações sobre o desenvolvimento de modelos de formulário do InfoPath.</span><span class="sxs-lookup"><span data-stu-id="90f5d-110">[InfoPath Developer Center](https://go.microsoft.com/fwlink?LinkID=11689): This website contains white papers, sample forms, tools, articles, and information about developing InfoPath form templates.</span></span>
     
- <span data-ttu-id="c0417-113">**Microsoft SharePoint Server 2010 Software Developers Kit (SDK)**</span><span class="sxs-lookup"><span data-stu-id="c0417-113">**Microsoft SharePoint Server 2010 Software Developers Kit (SDK)**</span></span>
-  
-> <span data-ttu-id="c0417-114">Informações conceituais, de procedimentos e programação para desenvolvedores que trabalham com o InfoPath Forms Services que será incluída como parte do Microsoft SharePoint Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c0417-114">Conceptual, procedural, and programming information for developers working with InfoPath Forms Services that is included as part of Microsoft SharePoint Server 2010.</span></span> <span data-ttu-id="c0417-115">Para obter mais informações, consulte o [Centro de desenvolvedores do SharePoint](http://msdn.microsoft.com/en-us/sharepoint/default.aspx).</span><span class="sxs-lookup"><span data-stu-id="c0417-115">For more information, see the [SharePoint Developer Center](http://msdn.microsoft.com/en-us/sharepoint/default.aspx).</span></span>
+- <span data-ttu-id="90f5d-111">**Software Developers Kit (SDK) do Microsoft SharePoint Server 2010**: informações conceituais, procedurais e de programação para desenvolvedores que trabalham com o InfoPath Forms Services incluídas como parte do Microsoft SharePoint Server 2010.</span><span class="sxs-lookup"><span data-stu-id="90f5d-111">**Microsoft SharePoint Server 2010 Software Developers Kit (SDK)**: Conceptual, procedural, and programming information for developers working with InfoPath Forms Services that is included as part of Microsoft SharePoint Server 2010.</span></span> <span data-ttu-id="90f5d-112">Para saber mais, confira a [Central de desenvolvedores do SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx).</span><span class="sxs-lookup"><span data-stu-id="90f5d-112">For more information, see the [SharePoint Developer Center](https://msdn.microsoft.com/sharepoint/default.aspx).</span></span>
     
-[<span data-ttu-id="c0417-116">Central de Desenvolvedores do Office</span><span class="sxs-lookup"><span data-stu-id="c0417-116">Office Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=27128)
-  
-> <span data-ttu-id="c0417-117">Este site contém informações sobre como usar os programas do Microsoft Office System como uma plataforma de desenvolvimento.</span><span class="sxs-lookup"><span data-stu-id="c0417-117">This Web site contains information about using programs in the Microsoft Office System as a development platform.</span></span> 
+- <span data-ttu-id="90f5d-113">[Central de desenvolvedores do Office](https://go.microsoft.com/fwlink?LinkID=27128): informações sobre como usar os programas do Microsoft Office System como uma plataforma de desenvolvimento.</span><span class="sxs-lookup"><span data-stu-id="90f5d-113">[Office Developer Center](https://go.microsoft.com/fwlink?LinkID=27128): Information about using programs in the Microsoft Office System as a development platform.</span></span> 
     
-[<span data-ttu-id="c0417-118">Microsoft Developer Network (MSDN)</span><span class="sxs-lookup"><span data-stu-id="c0417-118">Microsoft Developer Network (MSDN)</span></span>](http://go.microsoft.com/fwlink?LinkId=61826)
-  
-> <span data-ttu-id="c0417-119">Este site contém informações sobre uma variedade de plataformas de desenvolvimento da Microsoft e ferramentas.</span><span class="sxs-lookup"><span data-stu-id="c0417-119">This Web site contains information about a variety of Microsoft development platforms and tools.</span></span>
+- <span data-ttu-id="90f5d-114">[Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): informações sobre uma variedade de plataformas e ferramentas de desenvolvimento da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="90f5d-114">[Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): Information about a variety of Microsoft development platforms and tools.</span></span>
     
-[<span data-ttu-id="c0417-120">Central de desenvolvedores de XML</span><span class="sxs-lookup"><span data-stu-id="c0417-120">XML Developer Center</span></span>](http://go.microsoft.com/fwlink/?LinkId=61827)
-  
-> <span data-ttu-id="c0417-121">Este site contém informações sobre como desenvolver programas e serviços que usam XML.</span><span class="sxs-lookup"><span data-stu-id="c0417-121">This Web site contains information about developing programs and services that use XML.</span></span>
+- <span data-ttu-id="90f5d-115">[Centro de Desenvolvimento XML](https://go.microsoft.com/fwlink/?LinkId=61827): informações sobre o desenvolvimento de programas e serviços que usam XML.</span><span class="sxs-lookup"><span data-stu-id="90f5d-115">[XML Developer Center](https://go.microsoft.com/fwlink/?LinkId=61827): Information about developing programs and services that use XML.</span></span>
     
-[<span data-ttu-id="c0417-122">Centro do desenvolvedor do .NET framework</span><span class="sxs-lookup"><span data-stu-id="c0417-122">.NET Framework Developer Center</span></span>](http://go.microsoft.com/fwlink/?LinkId=61829)
-  
-> <span data-ttu-id="c0417-123">Este site contém informações sobre como desenvolver programas e serviços que usam o .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="c0417-123">This Web site contains information about developing programs and services that use the .NET Framework.</span></span>
+- <span data-ttu-id="90f5d-116">[Centro de Desenvolvimento do .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): informações sobre como desenvolver programas e serviços que usam o .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="90f5d-116">[.NET Framework Developer Center](https://go.microsoft.com/fwlink/?LinkId=61829): Information about developing programs and services that use the .NET Framework.</span></span>
     
-[<span data-ttu-id="c0417-124">Centro de soluções do InfoPath</span><span class="sxs-lookup"><span data-stu-id="c0417-124">InfoPath Solution Center</span></span>](http://support.microsoft.com/ph/11303)
-  
-> <span data-ttu-id="c0417-125">Este site contém informações sobre o InfoPath, como artigos da Base de Conhecimento, fornecido pelo Microsoft Support Services.</span><span class="sxs-lookup"><span data-stu-id="c0417-125">This Web site contains information about InfoPath, such as Knowledge Base articles, provided by Microsoft Support Services.</span></span>
+- <span data-ttu-id="90f5d-117">[Central de soluções do InfoPath](https://support.microsoft.com/ph/11303): informações sobre o InfoPath, como artigos da Base de Conhecimento, fornecidas pelos Serviços de Suporte da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="90f5d-117">[InfoPath Solution Center](https://support.microsoft.com/ph/11303): Information about InfoPath, such as Knowledge Base articles, provided by Microsoft Support Services.</span></span>
     
 
