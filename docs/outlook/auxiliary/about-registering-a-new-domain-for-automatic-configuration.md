@@ -6,38 +6,38 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
-description: O Outlook oferece uma maneira para especificar um novo domínio de serviço de mensagem para a configuração automática e permitir que o provedor de serviços de mensagem configurar a conta.
-ms.openlocfilehash: c1daea81fe18e5d1088a233a3fcdff076419d6bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O Outlook fornece uma maneira de especificar um novo domínio de serviço de mensagem para configuração automática e permite que o provedor de serviços de mensagem configure a conta.
+ms.openlocfilehash: bf06ff8d145ed6173e3545f784f8b5b7b5f433be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765793"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388599"
 ---
 # <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Sobre como registrar um novo domínio para configuração automática
 
-O Outlook oferece uma maneira para especificar um novo domínio de serviço de mensagem para a configuração automática e permitir que o provedor de serviços de mensagem configurar a conta.
+O Outlook fornece uma maneira de especificar um novo domínio de serviço de mensagem para configuração automática e permite que o provedor de serviços de mensagem configure a conta.
   
-Quando estiver criando um provedor de serviços de mensagem, você pode usar a seguinte chave no registro do Windows para especificar um novo domínio a ser configurado automaticamente pelo provedor de serviços de mensagem correspondente: 
+Durante a criação de um provedor de serviços de mensagem, você pode usar a seguinte chave do registro do Windows para especificar um novo domínio a ser configurado automaticamente pelo provedor de serviços de mensagem correspondente: 
   
 `HKLM\Software\Microsoft\Office\Outlook\AutoConfigDomains\<domain name>\`
   
-Na chave, `<domain name>` é o domínio para configuração automática. Este nome de domínio oferece suporte a um caractere curinga \* no início somente. A tabela a seguir mostra os valores que oferece suporte a essa chave. 
+A chave, `<domain name>` é o domínio para a configuração automática. Um caractere curinga dá suporte a esse nome de domínio \* apenas no início. A tabela a seguir mostra os valores que tem suporte para essa tecla. 
   
-| Value | Tipo | Descrição |
+| Valor | Tipo | Descrição |
 |:-----|:-----|:-----|
-|Nome amigável  <br/> |REG_SZ  <br/> |O nome de domínio que é exibido ao usuário durante a configuração automática.  <br/> |
-|Nome do serviço  <br/> |REG_SZ  <br/> |O serviço de mensagem registrados no Mapisvc que ofereça suporte a esse domínio.  <br/> |
-|Local de instalação  <br/> |REG_SZ  <br/> |A URL do local para instalar o provedor de serviços de mensagem, caso ele não ainda esteja instalado.  <br/> |
-|Versão mínima  <br/> |REG_DWORD  <br/> |A versão mínima do arquivo. dll do provedor de serviços de mensagem que é necessário. Esse valor é opcional.  <br/> |
+|Nome Amigável  <br/> |REG_SZ  <br/> |O nome de domínio é exibido para o usuário durante a configuração automática.  <br/> |
+|Nome do Serviço  <br/> |REG_SZ  <br/> |A mensagem de serviço registrada no Mapisvc que ofereça suporte a esse domínio.  <br/> |
+|Local de instalação  <br/> |REG_SZ  <br/> |A URL do local para instalar o provedor de serviços de mensagem se ele ainda não estiver instalado.  <br/> |
+|Versão mínima  <br/> |REG_DWORD  <br/> |A versão mínima. dll do provedor de serviços de mensagem é necessária. Esse valor é opcional.  <br/> |
    
-Quando o Outlook começa a configuração automática para uma conta de email, ele verifica o registro do Windows para o registro de domínio especificado pelo endereço de email. Se o domínio já está especificado no registro do Windows, o Outlook verifica se o serviço de mensagem está registrado no Mapisvc. O Outlook não poderá continuar com a configuração automática do domínio, a menos que tiver sido especificado no registro do Windows.
+Quando o Outlook começa a configuração automática de uma conta de email, ele verifica o registro do Windows para o registro de domínio especificado pelo endereço de email. Se o domínio já estiver especificado no registro do Windows, o Outlook verifica se o serviço está registrado no Mapisvc.inf. O Outlook não consegue prosseguir com a configuração automática do domínio, a não ser que ela tenha sido especificada no registro do Windows.
   
-Se o serviço de mensagem especificado não está atualmente registrado no Mapisvc, ou o provedor de serviço de mensagem está instalado, mas o arquivo. dll tem uma versão anterior ao mínimo especificado, o Outlook usa o nome amigável especificado e solicita que o usuário instale o provedor. Se o usuário aceitar, o Outlook redireciona o usuário para o local de instalação especificado para que o usuário possa instalar o provedor. Instalar o provedor registra o serviço de mensagem no Mapisvc.
+Se o serviço de mensagem especificado no momento não estiver registrado no Mapisvc.inf., ou se o provedor de serviços de mensagem estiver instalado, mas com uma versão do .dll anterior ao mínimo especificado, o Outlook usará o nome amigável especificado e solicitará ao usuário para que instale o provedor. Se o usuário aceitar, o Outlook irá redirecionar o usuário para o local de instalação especificado para que o usuário possa instalar o provedor. Instalar o provedor registra o serviço de mensagem no Mapisvc.
   
-Se o serviço de mensagem está atualmente registrado no Mapisvc e o provedor de serviço. dll é uma versão apropriada, Outlook cria o serviço de mensagem usando [IMsgServiceAdmin:: CreateMsgService](http://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)e, em seguida, ele configura usando [ IMsgServiceAdmin::ConfigureMsgService](http://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx). Configuração automática do Outlook utiliza as seguintes propriedades de três para permitir que o provedor configurar a conta: [PidTagAutoConfigurationUserName](http://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](http://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)e [PidTagAutoConfigurationUserPassword ](http://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).
+Se o serviço já estiver registrado no Mapisvc.inf e a versão do provedor de serviço. dll for apropriada, o Outlook criará o serviço[IMsgServiceAdmin::CreateMsgService](https://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)e irá confirmar usando [IMsgServiceAdmin::ConfigureMsgService](https://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx). A configuração automática do Outlook usa as três seguintes propriedades para permitir que o provedor de configure a conta: [PidTagAutoConfigurationUserName](https://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](https://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)e [ PidTagAutoConfigurationUserPassword](https://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).
   
 ## <a name="see-also"></a>Confira também
 
-- [Formato de arquivo de MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
+- [Formato de arquivo de MapiSvc.inf](https://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 
