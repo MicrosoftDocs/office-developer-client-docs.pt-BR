@@ -1,5 +1,5 @@
 ---
-title: Exemplo de XML de Feed de atividade
+title: Exemplo de XML do feed de atividades
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,47 +7,47 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
-description: O exemplo de XML neste tópico é a que cadeia de caracteres XML retornada para o Outlook Social Connector (OSC) depois de chamar o método ISocialSession2::GetActivitiesEx para uma rede social de feed de uma atividade.
-ms.openlocfilehash: ab27ddfad5044994a19bb32759994a0e98c39ae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O exemplo XML neste tópico é uma feed de atividades de cadeia XML retornada para o Outlook Social Connector (OSC) depois de chamar o método ISocialSession2::GetActivitiesEx para uma rede social.
+ms.openlocfilehash: 6370b559c5160bfa48d32afa77715e9a7c126aab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770816"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390461"
 ---
-# <a name="activity-feed-xml-example"></a><span data-ttu-id="6d698-103">Exemplo de XML de Feed de atividade</span><span class="sxs-lookup"><span data-stu-id="6d698-103">Activity Feed XML Example</span></span>
+# <a name="activity-feed-xml-example"></a><span data-ttu-id="637a9-103">Exemplo de XML do feed de atividades</span><span class="sxs-lookup"><span data-stu-id="637a9-103">Activity feed XML example</span></span>
 
-<span data-ttu-id="6d698-104">O exemplo de XML deste tópico é uma cadeia de caracteres XML retornada para o Outlook Social Connector (OSC) depois de chamar o método [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) para uma rede social de feed de atividade.</span><span class="sxs-lookup"><span data-stu-id="6d698-104">The XML example in this topic is an activity feed XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method for a social network.</span></span> 
+<span data-ttu-id="637a9-104">O exemplo XML neste tópico é uma feed de atividades de cadeia XML retornada para o Outlook Social Connector (OSC) depois de chamar o método [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) para uma rede social.</span><span class="sxs-lookup"><span data-stu-id="637a9-104">The XML example in this topic is an activity feed XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method for a social network.</span></span> 
   
-<span data-ttu-id="6d698-105">O exemplo mostra o **feed de atividades** XML que contém as seguintes atividades de quatro, cada delimitados por elemento **activityDetails** e correspondência de um modelo para fins de exibição:</span><span class="sxs-lookup"><span data-stu-id="6d698-105">The example shows the **activityFeed** XML that contains the following four activities, each delimited by the **activityDetails** element and matching a template for display purposes:</span></span> 
+<span data-ttu-id="637a9-105">O exemplo mostra o**feed de atividades**XML que contém as seguintes quatro atividades, sendo cada uma delas  delimitadas pelo elemento**activityDetails**e correspondendo a um modelo para fins de exibição:</span><span class="sxs-lookup"><span data-stu-id="637a9-105">The example shows the **activityFeed** XML that contains the following four activities, each delimited by the **activityDetails** element and matching a template for display purposes:</span></span> 
   
-- <span data-ttu-id="6d698-106">Atualizar uma imagem de perfil Melissa Macbeth, cujo **ownerID** na rede social é 4667647.</span><span class="sxs-lookup"><span data-stu-id="6d698-106">A profile picture update by Melissa Macbeth, whose **ownerID** on the social network is 4667647.</span></span> <span data-ttu-id="6d698-107">Esta atividade especifica três variáveis do modelo de tipo **publisherVariable**, **listVariable**e **pictureVariable** (que está contido em **listVariable**).</span><span class="sxs-lookup"><span data-stu-id="6d698-107">This activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable** (which is enclosed in **listVariable**).</span></span> <span data-ttu-id="6d698-108">Especificam a pessoa que publicado a informações de imagem para serem atualizadas (usando os elementos de filho **href** , **valor**, **altText**e **nome**de **pictureVariable**) e item de feed de atividade.</span><span class="sxs-lookup"><span data-stu-id="6d698-108">These variables specify the person who published the activity feed item, and information for the picture to be updated (by using the **name**, **value**, **altText**, and **href** child elements of **pictureVariable**).</span></span>
+- <span data-ttu-id="637a9-106">Uma imagem de perfil atualizada por Melissa Mello cujo **ownerID** na rede social é 4667647.</span><span class="sxs-lookup"><span data-stu-id="637a9-106">A profile picture update by Melissa Macbeth, whose **ownerID** on the social network is 4667647.</span></span> <span data-ttu-id="637a9-107">Essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable** (delimitado no \*\* listVariable\*\*).</span><span class="sxs-lookup"><span data-stu-id="637a9-107">This activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable** (which is enclosed in **listVariable**).</span></span> <span data-ttu-id="637a9-108">Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades (usando o **nome**, **valor**, **altText**e os elemento filhos**href** de **pictureVariable**).</span><span class="sxs-lookup"><span data-stu-id="637a9-108">These variables specify the person who published the activity feed item, and information for the picture to be updated (by using the **name**, **value**, **altText**, and **href** child elements of **pictureVariable**).</span></span>
     
-- <span data-ttu-id="6d698-109">Atualizar uma imagem de perfil Michael Affronti cujo **ownerID** na rede social é 5015012.</span><span class="sxs-lookup"><span data-stu-id="6d698-109">A profile picture update by Michael Affronti whose **ownerID** on the social network is 5015012.</span></span> <span data-ttu-id="6d698-110">Semelhante à última atividade, essa atividade especifica três variáveis do modelo de tipo **publisherVariable**, **listVariable**e **pictureVariable**.</span><span class="sxs-lookup"><span data-stu-id="6d698-110">Similar to the last activity, this activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable**.</span></span> <span data-ttu-id="6d698-111">Especificam a pessoa que publicado a informações da imagem a ser atualizado e o item de feed de atividade.</span><span class="sxs-lookup"><span data-stu-id="6d698-111">These variables specify the person who published the activity feed item and information for the picture to be updated.</span></span>
+- <span data-ttu-id="637a9-109">Uma imagem de perfil é atualizada por Mateus Vaz cujo**ownerID** na rede social é 5015012.</span><span class="sxs-lookup"><span data-stu-id="637a9-109">A profile picture update by Michael Affronti whose **ownerID** on the social network is 5015012.</span></span> <span data-ttu-id="637a9-110">Assim como a última atividade, essa atividade especifica três variáveis de modelo do tipo **publisherVariable**, **listVariable**, e **pictureVariable**.</span><span class="sxs-lookup"><span data-stu-id="637a9-110">Similar to the last activity, this activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable**.</span></span> <span data-ttu-id="637a9-111">Essa variáveis especificam a pessoa que publicou o item e as informações para a imagem que será atualizada no feed de atividades.</span><span class="sxs-lookup"><span data-stu-id="637a9-111">These variables specify the person who published the activity feed item and information for the picture to be updated.</span></span>
     
-- <span data-ttu-id="6d698-112">Uma atualização de status por Michael Affronti, mostrando o mesmo **ownerID** de 5015012 como a última atividade.</span><span class="sxs-lookup"><span data-stu-id="6d698-112">A status update by Michael Affronti, showing the same **ownerID** of 5015012 as the last activity.</span></span> <span data-ttu-id="6d698-113">Esta atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **textVariable**.</span><span class="sxs-lookup"><span data-stu-id="6d698-113">This activity specifies two template variables of type **publisherVariable** and **textVariable**.</span></span> <span data-ttu-id="6d698-114">**publisherVariable** Especifica a pessoa que publicado a item de feed de atividade e **textVariable** inclui um **valor** de linha de status`is hiking on Mount Rainier this weekend!`</span><span class="sxs-lookup"><span data-stu-id="6d698-114">**publisherVariable** specifies the person who published the activity feed item, and **textVariable** includes a **value** of the status line  `is hiking on Mount Rainier this weekend!`</span></span>
+- <span data-ttu-id="637a9-112">Uma atualização de status Mateus Vaz mostrando o mesmo **ownerID** de 5015012, como na última atividade.</span><span class="sxs-lookup"><span data-stu-id="637a9-112">A status update by Michael Affronti, showing the same **ownerID** of 5015012 as the last activity.</span></span> <span data-ttu-id="637a9-113">Essa atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **textVariable**.</span><span class="sxs-lookup"><span data-stu-id="637a9-113">This activity specifies two template variables of type **publisherVariable** and **textVariable**.</span></span> <span data-ttu-id="637a9-114">**publisherVariable** Especifica a pessoa que publicou o item, feed de atividades e **textVariable** inclui um **valor** da linha de status  `is hiking on Mount Rainier this weekend!`</span><span class="sxs-lookup"><span data-stu-id="637a9-114">**publisherVariable** specifies the person who published the activity feed item, and **textVariable** includes a **value** of the status line  `is hiking on Mount Rainier this weekend!`</span></span>
     
-- <span data-ttu-id="6d698-115">Uma postagem de blog por Michael Affronti, mostrando o mesmo **ownerID** de 5015012 como as duas últimas atividades.</span><span class="sxs-lookup"><span data-stu-id="6d698-115">A blog post by Michael Affronti, showing the same **ownerID** of 5015012 as the last two activities.</span></span> <span data-ttu-id="6d698-116">Esta atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **linkVariable**.</span><span class="sxs-lookup"><span data-stu-id="6d698-116">This activity specifies two template variables of type **publisherVariable** and **linkVariable**.</span></span> <span data-ttu-id="6d698-117">**publisherVariable** Especifica a pessoa que publicou a atividade de item de feed e **linkVariable** inclui ainda mais informações (especificadas pelos elementos filho de **nome**, o **texto**e o **valor** de **linkVariable**) sobre a postagem do blog.</span><span class="sxs-lookup"><span data-stu-id="6d698-117">**publisherVariable** specifies the person who published the activity feed item, and **linkVariable** includes further information (specified by the **name**, **text**, and **value** child elements of **linkVariable**) about the blog post.</span></span>
+- <span data-ttu-id="637a9-115">Uma postagem no blog por Mateus Vaz mostrando o mesmo **ownerID** 5015012 como nas duas últimas atividades.</span><span class="sxs-lookup"><span data-stu-id="637a9-115">A blog post by Michael Affronti, showing the same **ownerID** of 5015012 as the last two activities.</span></span> <span data-ttu-id="637a9-116">Essa atividade especifica duas variáveis de modelo do tipo **publisherVariable** e **linkVariable**.</span><span class="sxs-lookup"><span data-stu-id="637a9-116">This activity specifies two template variables of type **publisherVariable** and **linkVariable**.</span></span> <span data-ttu-id="637a9-117">**publisherVariable** Especifica a pessoa que publicou o item no feed de atividades e **linkVariable** inclui mais informações (especificado, o **nome**, **texto**, e **valor** dos elementos filhos de **linkVariable**) sobre a postagem do blog.</span><span class="sxs-lookup"><span data-stu-id="637a9-117">**publisherVariable** specifies the person who published the activity feed item, and **linkVariable** includes further information (specified by the **name**, **text**, and **value** child elements of **linkVariable**) about the blog post.</span></span>
     
-<span data-ttu-id="6d698-118">Cada uma das quatro atividades Especifica um valor de **templateID** , que corresponde a um dos três modelos especificados pelo elemento **modelos** .</span><span class="sxs-lookup"><span data-stu-id="6d698-118">Each of the four activities specifies a **templateID** value, which matches one of the three templates specified by the **templates** element.</span></span> <span data-ttu-id="6d698-119">Cada modelo está em seu próprio elemento **activityTemplateContainer** , identificado por um valor **templateID** que também é usado para exibir uma atividade que tem o mesmo valor de **templateID** .</span><span class="sxs-lookup"><span data-stu-id="6d698-119">Each template is in its own **activityTemplateContainer** element, identified by a **templateID** value that is also used to display an activity that has the same **templateID** value.</span></span> 
+<span data-ttu-id="637a9-118">Cada uma das quatro atividades especifica um valor **TemplateId do**que corresponde a um dos três modelos especificados no elemento **modelos**.</span><span class="sxs-lookup"><span data-stu-id="637a9-118">Each of the four activities specifies a **templateID** value, which matches one of the three templates specified by the **templates** element.</span></span> <span data-ttu-id="637a9-119">Cada modelo está no seu próprio elemento**activityTemplateContainer**identificado por um  valor**TemplateId**que também é usado para exibir uma atividade com o mesmo valor**TemplateId**.</span><span class="sxs-lookup"><span data-stu-id="637a9-119">Each template is in its own **activityTemplateContainer** element, identified by a **templateID** value that is also used to display an activity that has the same **templateID** value.</span></span> 
   
-<span data-ttu-id="6d698-120">Para obter uma descrição detalhada dos elementos XML usados no exemplo, consulte os tópicos a seguir:</span><span class="sxs-lookup"><span data-stu-id="6d698-120">For a detailed description of the XML elements used in the example, see the following topics:</span></span> 
+<span data-ttu-id="637a9-120">Para obter uma descrição detalhada dos elementos XML usados no exemplo, confira os tópicos a seguir:</span><span class="sxs-lookup"><span data-stu-id="637a9-120">For a detailed description of the XML elements used in the example, see the following topics:</span></span> 
   
-- [<span data-ttu-id="6d698-121">Visão geral de XML para uma atividade Feed Item</span><span class="sxs-lookup"><span data-stu-id="6d698-121">Overview of XML for an Activity Feed Item</span></span>](overview-of-xml-for-an-activity-feed-item.md)
+- [<span data-ttu-id="637a9-121">Visão geral do XML para um item do feed de atividades</span><span class="sxs-lookup"><span data-stu-id="637a9-121">Overview of XML for an activity feed item</span></span>](overview-of-xml-for-an-activity-feed-item.md)
     
-- [<span data-ttu-id="6d698-122">activityDetails elemento</span><span class="sxs-lookup"><span data-stu-id="6d698-122">activityDetails Element</span></span>](activitydetails-element.md)
+- [<span data-ttu-id="637a9-122">Elemento activityDetails</span><span class="sxs-lookup"><span data-stu-id="637a9-122">activityDetails element</span></span>](activitydetails-element.md)
     
-- [<span data-ttu-id="6d698-123">activityTemplateContainer elemento</span><span class="sxs-lookup"><span data-stu-id="6d698-123">activityTemplateContainer Element</span></span>](activitytemplatecontainer-element.md)
+- [<span data-ttu-id="637a9-123">Elemento activityTemplateContainer</span><span class="sxs-lookup"><span data-stu-id="637a9-123">activityTemplateContainer element</span></span>](activitytemplatecontainer-element.md)
     
-- [<span data-ttu-id="6d698-124">Variáveis do modelo</span><span class="sxs-lookup"><span data-stu-id="6d698-124">Template Variables</span></span>](template-variables.md)
+- [<span data-ttu-id="637a9-124">Variáveis do modelo</span><span class="sxs-lookup"><span data-stu-id="637a9-124">Template variables</span></span>](template-variables.md)
     
-## <a name="xml-example"></a><span data-ttu-id="6d698-125">Exemplo XML</span><span class="sxs-lookup"><span data-stu-id="6d698-125">XML example</span></span>
+## <a name="xml-example"></a><span data-ttu-id="637a9-125">Exemplos de XML</span><span class="sxs-lookup"><span data-stu-id="637a9-125">Friends XML example</span></span>
 
-<span data-ttu-id="6d698-126">O exemplo a seguir mostra o **feed de atividades** XML de quatro atividades: dois perfis atualizações de imagem, uma atualização de status e uma postagem de blog.</span><span class="sxs-lookup"><span data-stu-id="6d698-126">The following example shows the **activityFeed** XML of four activities: two profile picture updates, a status update, and a blog post.</span></span> <span data-ttu-id="6d698-127">O XML também especifica os três modelos de exibição de atividades para exibir as atividades correspondentes.</span><span class="sxs-lookup"><span data-stu-id="6d698-127">The XML also specifies three activity display templates for displaying the corresponding activities.</span></span> 
+<span data-ttu-id="637a9-126">O exemplo a seguir mostra o XML**feed de atividades** de quatro atividades: duas atualizações de imagem de perfil, uma atualização de status e uma postagem de blog.</span><span class="sxs-lookup"><span data-stu-id="637a9-126">The following example shows the **activityFeed** XML of four activities: two profile picture updates, a status update, and a blog post.</span></span> <span data-ttu-id="637a9-127">O XML também especifica três modelos de exibição de atividade para exibir as atividades correspondentes.</span><span class="sxs-lookup"><span data-stu-id="637a9-127">The XML also specifies three activity display templates for displaying the corresponding activities.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<activityFeed xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<activityFeed xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <network>Contoso</network>
   <activities>
     <activityDetails>
@@ -61,16 +61,16 @@ ms.locfileid: "19770816"
           <name>Publisher</name>
           <id>4667647</id>
           <nameHint>Melissa Macbeth</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
               <altText>Melissa Macbeth</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -87,16 +87,16 @@ ms.locfileid: "19770816"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
               <altText>Michael Affronti</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -113,7 +113,7 @@ ms.locfileid: "19770816"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com</profileUrl>
+          <profileUrl>https://www.contoso.com</profileUrl>
         </templateVariable>
         <templateVariable type="textVariable">
           <name>statusText</name>
@@ -132,12 +132,12 @@ ms.locfileid: "19770816"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="linkVariable">
           <name>blogPost</name>
           <text>Connect your Inbox to Facebook and Windows Live with the Outlook Social Connector</text>
-          <value>http://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
+          <value>https://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
         </templateVariable>
       </templateVariables>
     </activityDetails>
@@ -150,7 +150,7 @@ ms.locfileid: "19770816"
         <type>Photo</type>
         <title>{publisher:Publisher} has a new profile photo: </title>
         <data>{list:ProfilePhoto({picture:Photo})}</data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -160,7 +160,7 @@ ms.locfileid: "19770816"
         <type>Status Update</type>
         <title>{publisher:Publisher}: {text:statusText}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -170,7 +170,7 @@ ms.locfileid: "19770816"
         <type>Other</type>
         <title>{publisher:Publisher} wrote a new blog post {link:blogPost}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
   </templates>
@@ -178,11 +178,11 @@ ms.locfileid: "19770816"
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6d698-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="6d698-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="637a9-128">Confira também</span><span class="sxs-lookup"><span data-stu-id="637a9-128">See also</span></span>
 
-- [<span data-ttu-id="6d698-129">Exemplos XML de provedor do OSC</span><span class="sxs-lookup"><span data-stu-id="6d698-129">OSC Provider XML Examples</span></span>](osc-provider-xml-examples.md)  
-- [<span data-ttu-id="6d698-130">XML para atividades</span><span class="sxs-lookup"><span data-stu-id="6d698-130">XML for Activities</span></span>](xml-for-activities.md) 
-- [<span data-ttu-id="6d698-131">Exemplo de XML de recursos</span><span class="sxs-lookup"><span data-stu-id="6d698-131">Capabilities XML Example</span></span>](capabilities-xml-example.md)  
-- [<span data-ttu-id="6d698-132">Exemplo de XML de amigos</span><span class="sxs-lookup"><span data-stu-id="6d698-132">Friends XML Example</span></span>](friends-xml-example.md)
-- [<span data-ttu-id="6d698-133">Esquema XML do Outlook Social Connector Provider</span><span class="sxs-lookup"><span data-stu-id="6d698-133">Outlook Social Connector Provider XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
+- [<span data-ttu-id="637a9-129">Exemplos de XML de provedor OSC</span><span class="sxs-lookup"><span data-stu-id="637a9-129">OSC Provider XML Examples</span></span>](osc-provider-xml-examples.md)  
+- [<span data-ttu-id="637a9-130">XML para atividades</span><span class="sxs-lookup"><span data-stu-id="637a9-130">XML for activities</span></span>](xml-for-activities.md) 
+- [<span data-ttu-id="637a9-131">Exemplo de XML de recursos</span><span class="sxs-lookup"><span data-stu-id="637a9-131">Capabilities XML example</span></span>](capabilities-xml-example.md)  
+- [<span data-ttu-id="637a9-132">Exemplo de XML de amigos</span><span class="sxs-lookup"><span data-stu-id="637a9-132">Friends XML example</span></span>](friends-xml-example.md)
+- [<span data-ttu-id="637a9-133">Esquema XML do provedor Outlook Social Connector</span><span class="sxs-lookup"><span data-stu-id="637a9-133">Outlook Social Connector Provider XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
 
