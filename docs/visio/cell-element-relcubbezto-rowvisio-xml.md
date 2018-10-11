@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (RelCubBezTo linha) ('Visio XML')
+title: Elemento Cell (Linha RelCubBezTo) ("XML do Visio")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
-description: Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier cúbica em relação à largura da forma e a altura, as coordenadas x ou y do ponto de controle de início da largura da forma relativa curva e a altura ou as coordenadas x ou y do ponto de controle do final da largura e a altura da forma relativa curva.
-ms.openlocfilehash: e4a5353f3ecfb514b61ee893905e54c8951a2be5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier relativa à altura e largura da forma, as coordenadas x ou y do ponto de controle do início da largura e altura da forma relativa da curva, ou das coordenadas x ou y do ponto de controle do fim da largura e altura da forma relativa da curva.
+ms.openlocfilehash: 15cfbbfd9b773169e338d7d364540582229a4ac7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771456"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398609"
 ---
-# <a name="cell-element-relcubbezto-row-visio-xml"></a>Elemento de célula (RelCubBezTo linha) ('Visio XML')
+# <a name="cell-element-relcubbezto-row-visio-xml"></a>Elemento Cell (Linha RelCubBezTo) ("XML do Visio")
 
-Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier cúbica em relação à largura da forma e a altura, as coordenadas x ou y do ponto de controle de início da largura da forma relativa curva e a altura ou as coordenadas x ou y do ponto de controle do final da largura e a altura da forma relativa curva.
+Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier relativa à altura e largura da forma, as coordenadas x ou y do ponto de controle do início da largura e altura da forma relativa da curva, ou das coordenadas x ou y do ponto de controle do fim da largura e altura da forma relativa da curva.
   
 ## <a name="element-information"></a>Elemento de informações
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier c�
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, consulte a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento de linha (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelCubBezTo_Type](relcubbezto_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier cúbica em relação à largura da forma e a altura, as coordenadas x ou y do ponto de controle de início da largura da forma relativa curva e a altura ou as coordenadas x ou y do ponto de controle do final da largura e a altura da forma relativa curva.  <br/> |
+|[Elemento Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelCubBezTo_Type](relcubbezto_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y do ponto de extremidade de uma curva de Bézier relativa à altura e largura da forma, as coordenadas x ou y do ponto de controle do início da largura e altura da forma relativa da curva, ou das coordenadas x ou y do ponto de controle do fim da largura e altura da forma relativa da curva.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,25 +52,25 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  '(alguma fórmula)' se a fórmula existir localmente  <br/>  `No Formula` se a fórmula estiver excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondam às células ShapeSheet. Consulte a tabela a seguir para determinar os valores do atributo **N** com permissão para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
 |X  <br/> |A coordenada x do vértice final de uma curva de Bézier cúbica relativa à largura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
 |Y  <br/> |A coordenada y do vértice final de uma curva de Bézier cúbica relativa à altura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
-|A  <br/> |A coordenada x do controle de início da curva aponte em relação à largura da forma; um ponto do arco. O ponto de controle é melhor localizado entre o início e fim vértices do arco.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
-|B  <br/> |A coordenada y do controle de início da curva aponte em relação à altura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
-|C  <br/> |A coordenada x do ponto final de controle da curva em relação à largura da forma; um ponto do arco. O ponto de controle é melhor localizado entre os vértices início de ponto de e terminando de controle do arco.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
-|D  <br/> |A coordenada y do ponto final de controle da curva em relação à altura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
+|A  <br/> |Aponte a coordenada x do ponto de controle do início de curva em relação à largura da forma; um ponto do arco. O ponto de controle fica melhor localizado entre os vértices de início e fim do arco.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
+|B  <br/> |A coordenada y do ponto de controle de início de uma curva em relação à altura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
+|C  <br/> |A coordenada x do ponto de controle final de curva relativo à largura da forma; um ponto do arco. O ponto de controle fica melhor localizado entre o ponto de controle de início e vértices de fim do arco.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
+|D  <br/> |A coordenada y do ponto de controle final de curva relativo à altura da forma.  <br/> |[Linha RelCubBezTo (Seção Geometry)](relcubbezto-row-geometry-section.md) <br/> |
    
 
