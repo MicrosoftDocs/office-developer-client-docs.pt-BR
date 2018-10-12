@@ -6,29 +6,29 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
-description: Referência auxiliar do Outlook contém conteúdo conceitual e documentação de referência para quatro conjuntos de APIs, exemplos de códigos e um instalador redistribuível que permitem aos desenvolvedores estender e integração com o Outlook. APIs nesta referência são expostos pelo Outlook para extensibilidade, fora do modelo de objeto do Outlook.
-ms.openlocfilehash: 5f289a1be8fe5d10ddac37394c940f2627415136
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: A referência auxiliar do Outlook contém conteúdo conceitual e documentação de referência de quatro conjuntos de APIs, amostras de código e uma instalação redistribuível que permite aos desenvolvedores de a extensão e integração com o Outlook. APIs nesta referência são expostas pelo Outlook para extensibilidade, fora do modelo de objeto do Outlook.
+ms.openlocfilehash: 445d35c12e4c8984d47adcef3ecf50ebd881875b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766083"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384553"
 ---
 # <a name="welcome-to-the-outlook-auxiliary-reference"></a>Bem-vindo à referência auxiliar do Outlook
 
-Referência auxiliar do Outlook contém conteúdo conceitual e documentação de referência para quatro conjuntos de APIs, exemplos de códigos e um instalador redistribuível que permitem aos desenvolvedores estender e integração com o Outlook. APIs nesta referência são expostos pelo Outlook para extensibilidade, fora do modelo de objeto do Outlook. 
+A referência auxiliar do Outlook contém conteúdo conceitual e documentação de referência de quatro conjuntos de APIs, amostras de código e uma instalação redistribuível que permite aos desenvolvedores de a extensão e integração com o Outlook. APIs nesta referência são expostas pelo Outlook para extensibilidade, fora do modelo de objeto do Outlook. 
   
-Se você é novo no desenvolvimento de soluções para o Outlook, consulte [selecionando um API ou tecnologia para desenvolver soluções do Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) para identificar as APIs e tecnologias que são mais apropriadas para suas necessidades. 
+Se você está começando a desenvolver soluções para o Outlook, confira [Selecionando uma API e tecnologia para desenvolver soluções para o Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) para identificar as APIs e tecnologias mais adequadas às suas necessidades. 
 
-Para obter informações específicas sobre o modelo de objeto do Outlook, consulte a [referência VBA do Outlook](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). 
+Para obter informações específicas sobre o modelo de objeto do Outlook, confira a [referência do Outlook VBA](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). 
 
-Para obter informações específicas sobre Messaging API (MAPI) suportados pelo Outlook, consulte a [Referência MAPI do Outlook](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
+Para obter informações específicas sobre a API de MAPI (Messaging) com suporte no Outlook, confira a [referência MAPI do Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx).
 
-## <a name="conceptual"></a>Conceituais 
+## <a name="conceptual"></a>Conceitual 
 
-A abordagem conceitual inclui os seguintes assuntos:
+A discussão conceitual inclui os assuntos a seguir:
   
-- [Sobre as configurações do anti-spams](about-anti-spam-settings.md)
+- [Sobre as configurações antispam](about-anti-spam-settings.md)
     
 - [Gerenciar o download de mensagens de contas POP3](managing-message-downloads-for-pop3-accounts.md)
     
@@ -44,27 +44,27 @@ A abordagem conceitual inclui os seguintes assuntos:
     
 - [Sobre solicitações de reunião como atualizações informativas e atualizações completas](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- [Sobre REBASE de calendários programaticamente para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (Também há um instalador redistribuível para ferramentas de REBASE de calendário de terceiros, que funciona para versões anteriores do Outlook também desde o Outlook 2010. Para baixar o instalador, consulte [Outlook 2010: instalador redistribuível de referência auxiliar e o arquivo de cabeçalho para a alteração da Base de calendários](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
+- [Sobre a alteração da base de calendários programaticamente para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (há também um instalador redistribuível de ferramentas de base de calendários de terceiros, que funciona para as versões anteriores do Outlook, como o Outlook 2010. Para baixar o instalador, confira [Outlook 2010: instalador redistribuível de referência auxiliar e arquivo de cabeçalho de calendários base](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
 - [Sobre TZDEFINITION persistente em um fluxo para confirmar uma propriedade binária](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 
-## <a name="reference"></a>Referência
+## <a name="reference"></a>Referências
 
 O conteúdo de referência inclui o seguinte:
   
-- As [APIs exportada pelo Outlook](about-apis-exported-by-outlook.md) incluem funções e estruturas de dados que foram implementadas originalmente para uso interno e agora são expostas para uso público. 
+- As [APIs exportadas pelo Outlook](about-apis-exported-by-outlook.md) incluem funções e estruturas de dados que foram originalmente implementadas para uso interno e agora exibidas para uso público. 
     
-- A [API de gerenciamento de conta](about-the-account-management-api.md) fornece acesso a informações de conta de usuário e notificações de alterações de conta. 
+- As [API de gerenciamento de conta](about-the-account-management-api.md) fornecem acesso às informações da conta de usuário e as notificações de alterações de conta. 
     
-- A [API de camada de degradação dados](about-the-data-degradation-layer-api.md) oferece suporte a clientes que acessam um item do Outlook em um formato de caracteres preferencial em vez de formato de caractere nativo do objeto. 
+- As [API de camada de degradação de dados](about-the-data-degradation-layer-api.md)dão suporte aos clientes para acessar um item do Outlook em um formato de caractere preferencial em vez do formato de caractere nativo do objeto. 
     
-- A [API de Free/Busy](about-the-free-busy-api.md) fornece informações de status livre/ocupado sobre contas de usuários específicos dentro de um intervalo de tempo específico. 
+- As [disponibilidade API](about-the-free-busy-api.md) fornece informações de status de disponibilidade sobre contas de usuários específicos em um intervalo de tempo específico. 
 
 ## <a name="sample-tasks"></a>Tarefas de exemplo
 
-Tarefas de amostra instruções na referência auxiliar do Outlook incluem o seguinte:
+Tarefas de instruções de exemplo na referência auxiliar do Outlook incluem o seguinte:
     
-- [Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Determinar se um item do Outlook foi modificado mas não salvo (referência do Outlook auxiliar)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
@@ -72,13 +72,13 @@ Tarefas de amostra instruções na referência auxiliar do Outlook incluem o seg
     
 - [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Especificar se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Usar o tempo relativo para acessar dados de disponibilidade](how-to-use-relative-time-to-access-free-busy-data.md)
     
-A referência para a API de cada lista de constantes, definições de tipo e interfaces que um desenvolvedor deve implementar para usar a funcionalidade adicional.
+A referência para cada API lista as constantes, definições de tipo e interfaces que o desenvolvedor deve implementar para usar a funcionalidade adicional.
   
 > [!NOTE]
-> Os desenvolvedores devem implementar essas APIs apenas conforme documentado nesta referência. Determinados membros de interface e os parâmetros de método são nomeados como marcadores porque eles são reservados para uso interno do Outlook e estão sujeitos a alteração sem aviso prévio. 
+> Os desenvolvedores devem implementar essas APIs somente como é documentados nessa referência. Determinados membros de interface e parâmetros de método são designados como espaços reservados porque eles são reservados para uso interno do Outlook e estão sujeitos a alterações sem aviso prévio. 
   
 

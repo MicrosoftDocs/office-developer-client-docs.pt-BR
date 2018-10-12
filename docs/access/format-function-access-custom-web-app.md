@@ -6,50 +6,50 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
-description: Retorna um valor formatado de acordo com um padrão especificado.
-ms.openlocfilehash: 974b56ab8e6bc3f97c1931ba67ca9cd08c3511c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Retorna um valor formatado de acordo com um padrão específico.
+ms.openlocfilehash: 1739f87fd6e77c91aa66a64c0b7520fa6a641e95
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765091"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387794"
 ---
 # <a name="format-function-access-custom-web-app"></a>Função Format (aplicativo Web personalizado do Access)
 
-Retorna um valor formatado de acordo com um padrão especificado.
+Retorna um valor formatado de acordo com um padrão específico.
   
 > [!NOTE]
-> O recurso de armazenamento de nuvem descrito neste artigo não é mais suportado no Office 2013 e Office 2016 e pode resultar no seguinte erro: > *Sorry, vamos ter problemas no servidor, portanto não podemos adicionar \<service\> conveniente. Tente novamente mais tarde.* > Para armazenamento em nuvem para o Office Online, o Office para iOS e do Office para Android, você pode pesquisar em nosso [Programa de parceria de armazenamento de nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
+> O recurso de armazenamento em nuvem descrito neste artigo não tem mais suporte no Office 2013 e Office 2016, e pode resultar no seguinte erro: > *Estamos com problemas de servidor, portanto, não podemos adicionar \<serviço\> agora. Tente novamente mais tarde.* > Para armazenamento em nuvem do Office Online, Office para iOS e Office para Android, você poderá pesquisar no nosso [Programa de Parceiros de Armazenamento de Nuvem do Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Sintaxe
 
- **Formato** (*Expressão*, *formato*) 
+ **Formato** (*Expressão*, *Formato*) 
   
-A função **Format** contém os seguintes argumentos. 
+A função **Formato** contém os seguintes argumentos. 
   
 |**Nome do argumento**|**Descrição**|
 |:-----|:-----|
-| *Expressão*  <br/> |Expressão de um tipo de dados com suporte para formatar.  <br/> |
-| *Format*  <br/> | Um formato padrão. O argumento format deve conter uma cadeia de caracteres de formato válido, como uma cadeia de caracteres de formato padrão (por exemplo, "C" ou "D"), ou como um padrão de caracteres personalizados para datas e os valores numéricos (por exemplo, "MMMM dd, yyyy (dddd)"). Para obter mais informações, consulte comentários.  <br/> |
+| *Expressão*.  <br/> |Expressão de um tipo de dados com suporte para formatar.  <br/> |
+| *Formato*  <br/> | Um padrão de formatação. O argumento de formato deve conter uma cadeia de caracteres de formato válida, como uma cadeia de caracteres de formato padrão (por exemplo, "C" ou "D") ou como um padrão de caracteres personalizados para datas e valores numéricos (por exemplo, "MMMM dd, (dddd) aaaa"). Para saber mais, consulte Comentários.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para o parâmetro *Format* , você pode passar cadeias de caracteres que correspondam a qualquer um dos seguintes padrões: 
+Para o parâmetro *Formato*, você pode passar cadeias de caracteres que correspondam a qualquer um dos seguintes padrões: 
   
-- [Cadeias de caracteres de formato numérico padrão](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [Cadeias de caracteres de formato numérico padrão](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [Cadeias de caracteres de formato numérico personalizado](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [Cadeias de caracteres de formato numérico personalizado](https://msdn.microsoft.com/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [As cadeias de caracteres de formato padrão de data e hora](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [Cadeias de caracteres padrão de formato de data e hora](https://msdn.microsoft.com/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [As cadeias de caracteres de formato de data e hora personalizado](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [Cadeias de caracteres de formato de data e hora](https://msdn.microsoft.com/library/8kb3ddd4%28v=vs.110%29.aspx)
     
-Você não pode usar a função **Format** nas seguintes áreas do Access 2013 web apps: 
+Não é possível usar a função **Format** nas seguintes áreas de aplicativos Web do Access 2013: 
   
-- Colunas calculadas no nível de tabela
+- Colunas calculadas ao nível da tabela
     
 - Macros de interface do usuário
     
-- Expressões em modos de exibição (por exemplo, em formulários)
+- Expressões nos modos de exibição (por exemplo, em formulários)
     
 
