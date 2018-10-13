@@ -7,54 +7,54 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
-description: 'Há várias maneiras que você pode depurar um provedor do Outlook Social Connector (OSC):'
-ms.openlocfilehash: ada439ca3b038ca9a0e849b47ff6a5f54e5016f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'Há várias maneiras de depurar um provedor de serviços do Outlook Social Connector (OSC):'
+ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770829"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386849"
 ---
 # <a name="debugging-a-provider"></a>Depurar um provedor
 
-Há várias maneiras que você pode depurar um provedor do Outlook Social Connector (OSC): 
+Há várias maneiras de depurar um provedor de serviços do Outlook Social Connector (OSC): 
   
-- Usando os comandos debug no componente da faixa de opções da interface de usuário Office Fluent no Outlook ou no aplicativo cliente do Office de suporte para fazer com que o OSC levar a várias ações.
+- Usando os comandos de depuração no componente da faixa de opções da interface de usuário do Office Fluent no Outlook ou o aplicativo de suporte ao do Office você pode fazer com que o OSC execute várias ações.
     
-- Usando o Fiddler para chamadas de API de rastreamento e XML enviadas entre uma rede social e seu provedor OSC
+- Usando Fiddler para rastrear chamadas de API de e XML enviadas entre o seu provedor OSC e uma rede social
     
-## <a name="debug-buttons"></a>Botões de depuração
+## <a name="debug-buttons"></a>Botões de depurar
 
-A extensibilidade do provedor OSC oferece a capacidade de um provedor OSC de depuração. Para depurar um provedor, crie um `DebugProviders` valor do tipo DWORD no registro do Windows sob o `SocialConnector` principais (conforme mostrado na seguinte linha) e defina o `DebugProviders` valor como 1. 
+A extensibilidade do provedor OSC fornece a capacidade de depuração de um provedor do OSC. Para depurar um provedor, crie um chave `DebugProviders` com o valor DWORD no registro do Windows na `SocialConnector` (como mostrado na linha seguinte) e configure o `DebugProviders` valor 1. 
   
 `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`
   
-Por padrão, o provedor de depuração está desativada. Se o `DebugProviders` valor não estiver presente, ou ele está presente e definido com um valor 0, o provedor de depuração está desativado. 
+Por padrão, o provedor de depuração de bugs está desativado. Se o valor `DebugProviders` não estiver presente, ou estiver presente e definir o valor de 0, a depuração do provedor estará desativada. 
   
-Se o provedor de depuração está ativado, o OSC exibe uma caixa de diálogo alerta com informações de erro verbose quando ocorre um erro e valida qualquer provedor OSC XML em relação ao esquema XML de provedor do OSC. Um provedor OSC desenvolvido usando OSC 1.0 com base no namespace especificado para uma sequência de caracteres XML, é validado contra o arquivo de esquema OSC 1.0, OutlookSocialProvider.xsd. Um provedor OSC desenvolvidos usando OSC 1.1 ou posterior é validado contra o arquivo de esquema, OutlookSocialProvider_1.1.xsd. Quando você usa o `DebugProviders` valor, o alerta de depuração aparece para todos carregados provedores em vez de um provedor específico. 
+Se o provedor de depuração de bugs estiver ativado, o OSC exibirá uma caixa de diálogo de alerta com informações detalhadas sobre erros, quando ocorrer um erro e validará qualquer XML de provedor OSC contra o esquema XML do provedor OSC. Com base no namespace especificado por uma cadeia de XML, um provedor de OSC que foi desenvolvido usando o OSC 1.0 é validado contra o esquema de arquivo OSC 1.0, OutlookSocialProvider.xsd. Um provedor de OSC desenvolvido usando OSC 1.1 ou posterior valida o arquivo de esquema OutlookSocialProvider_1.1.xsd. Quando você usa o valor`DebugProviders` o alerta de depuração é exibido para todos os provedores carregados em vez de um provedor específico. 
   
-Para exibir os botões de depuração que podem ajudá-lo um provedor de depuração, crie um `ShowDebugButtons` valor do tipo DWORD no registro do Windows sob o `SocialConnector` principais e definir o `ShowDebugButtons` valor como 1. Para ocultar os botões de barra de comandos de depuração, defina o `ShowDebugButtons` valor como 0. 
+Para exibir os botões de depuração que podem te ajudar a deputar um provedor, crie um`ShowDebugButtons` com o valor DWORD no registro do Windows dentro da `SocialConnector` chave e configure o `ShowDebugButtons` valor 1. Para ocultar os botões da barra de comando depuração, defina o `ShowDebugButtons` valor como 0. 
   
-Para o Outlook 2010 e aplicativos de cliente desde o Office 2013, os botões de depuração aparecem na guia **suplementos** da faixa de opções do explorer. Para o Outlook 2007 e Outlook 2003, os botões de depuração aparecem na barra de comandos padrão da janela do explorer do Outlook. 
+Para aplicativos de clientes como o Office 2013 e Outlook 2010, os botões de depuração aparecem na guia **suplementos da faixa explorar de opções. Para o Outlook 2007 e o Outlook 2003, os botões de depuração aparecem na barra de comandos padrão da janela no Explorador do Outlook. 
   
-A tabela a seguir descreve os botões de depuração.
+A tabela a seguir descreve os botões de depurar.
   
-|**Botão de depuração**|**Function**|
+|**Botões de depurar**|**Função**|
 |:-----|:-----|
-|Sincronizar contatos  <br/> |Faz com que o OSC pedir o provedor do OSC apenas os contatos em cache.  <br/> |
-|Sincronização da GAL  <br/> |Faz com que o OSC preencher dados da lista de endereços Global do Exchange para contatos do Outlook.  <br/> |
-|Invalidar o Cache de categoria  <br/> |Faz com que o OSC recarregar a lista de categorias para cada repositório quando o feed de atividade for atualizado.  <br/> |
+|Sincronizar contatos  <br/> |Faz com que o OSC peça ao provedor OSC somente contatos armazenados em cache.  <br/> |
+|Sincronização do GAL  <br/> |Faz com que o OSC preencha dados da lista de endereços Global do Exchange para contatos do Outlook.  <br/> |
+|Invalidar o Cache de categoria  <br/> |Faz com que o OSC recarregue a lista de categorias para cada loja quando o feed de atividades for atualizado.  <br/> |
    
 ## <a name="fiddler"></a>Fiddler
 
-Fiddler é uma ferramenta de depuração do over-durante a transmissão para verificar a chamadas à API enviadas do seu provedor para a rede social e XML enviadas pela rede social para seu provedor. Fiddler está disponível para download no [Proxy de depuração da Web Fiddler](http://www.fiddler2.com/fiddler2/version.asp).
+Fiddler é uma ferramenta de depuração acima do fio para verificar chamadas de API enviadas para o seu provedor de rede social e XML enviados pela rede social para o seu provedor. Fiddler está disponível para download em[Fiddler Web Proxy de depuração](https://www.fiddler2.com/fiddler2/version.asp).
   
 ## <a name="see-also"></a>Confira também
 
-- [Etapas rápidas de aprendizado para desenvolver um provedor](quick-steps-for-learning-to-develop-a-provider.md)  
-- [Sincronização de amigos e atividades](synchronizing-friends-and-activities.md) 
+- [Etapas rápidas para aprender a desenvolver um provedor](quick-steps-for-learning-to-develop-a-provider.md)  
+- [Sincronizar amigos e atividades](synchronizing-friends-and-activities.md) 
 - [Práticas recomendadas para o desenvolvimento de um provedor](best-practices-for-developing-a-provider.md)
-- [Sequências de chamadas comuns do OSC](osc-typical-calling-sequences.md)  
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md)  
-- [Preparando-se para o lançamento de um provedor OSC](getting-ready-to-release-an-osc-provider.md)
+- [Sequências de chamadas típicas de OSC](osc-typical-calling-sequences.md)  
+- [Desenvolver um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)  
+- [Preparando um provedor de OSC para lançamento](getting-ready-to-release-an-osc-provider.md)
 
