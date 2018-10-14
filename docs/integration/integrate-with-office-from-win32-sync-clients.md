@@ -1,37 +1,37 @@
 ---
-title: Integração com o Office em clientes de sincronização do Win32
+title: Integração com o Office de clientes de sincronização do Win32
 manager: soliver
 ms.date: 07/29/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 348555d3-3cd4-4e4a-b5ad-436571c25251
-description: Integre seus clientes de sincronização do Win32 de terceiros aplicativos móveis do Excel, PowerPoint Mobile e Word Mobile Office.
-ms.openlocfilehash: 9f520ad36583a9aa7cd73638fe92158f70d13daf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Integre seus clientes de sincronização Win32 de terceiros com aplicativos do Office como Word Mobile, Excel Mobile e PowerPoint Mobile.
+ms.openlocfilehash: 83bc6e4cddc17e539b371999fff620c72c595534
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401164"
 ---
-# <a name="integrate-with-office-from-win32-sync-clients"></a>Integração com o Office em clientes de sincronização do Win32
+# <a name="integrate-with-office-from-win32-sync-clients"></a>Integração com o Office de clientes de sincronização do Win32
 
-Integre seus clientes de sincronização do Win32 de terceiros aplicativos móveis do Excel, PowerPoint Mobile e Word Mobile Office. 
+Integre seus clientes de sincronização Win32 de terceiros com aplicativos do Office como Word Mobile, Excel Mobile e PowerPoint Mobile. 
   
-É possível integrar seu aplicativo universal do Windows com clientes móveis do Excel, PowerPoint Mobile e Word Mobile registrando-se como um provedor de raiz de sincronização. Este artigo descreve as práticas recomendadas para aplicar para garantir que seus clientes de sincronização do Win32 funcionam bem com aplicativos do Office.
+Você pode integrar seu aplicativo universal do Windows com os clientes do Word Mobile, Excel Mobile e PowerPoint Mobile registrando-o como provedor de raiz de sincronização. Este artigo descreve as práticas recomendadas a aplicar para garantir que seus clientes de sincronização Win32 funcionam bem com os aplicativos do Office.
   
-Essa integração requer que o seu cliente de sincronização do Win32 tem um mecanismo de sincronização.
+Esta integração requer que o cliente de sincronização Win32 tenha um mecanismo de sincronização.
   
-## <a name="register-as-a-sync-root-provider"></a>Registrar como um provedor de sincronização de raiz
+## <a name="register-as-a-sync-root-provider"></a>Registrar como um provedor de raiz de sincronização
 
-A menos que seu cliente de sincronização está registrado como um provedor de sincronização de raiz, Office tratará arquivos em sua pasta de sincronização a maneira que ele trata regulares arquivos locais. Isso significa que o Office fornecerá opções "Mover para o OneDrive" para os usuários quando eles tentam compartilhar o documento. Para evitar isso para sincronização de arquivos, você deve registrar como um provedor de raiz de sincronização. Para obter informações sobre como registrar, consulte [integra-se um provedor de armazenamento de nuvem](https://msdn.microsoft.com/en-us/library/windows/desktop/dn889934%28v=vs.85%29.aspx).
+A menos que o cliente de sincronização esteja registrado como um provedor de raiz de sincronização, o Office tratará arquivos na pasta de sincronização da forma que trata arquivos locais regulares. Isso significa que o Office fornecerá opções "Mover para o OneDrive" para usuários quando eles tentarem compartilhar o documento. Para evitar isso nos arquivos que você sincroniza, você deverá se registrar como provedor de raiz de sincronização. Para informações sobre como registrar, confira [Integrar um provedor de armazenamento em nuvem](https://msdn.microsoft.com/library/windows/desktop/dn889934%28v=vs.85%29.aspx).
   
 ## <a name="integrate-your-app-into-the-root-node-of-the-navigation-pane"></a>Integrar seu aplicativo no nó raiz do painel de navegação
 
-Para seu cliente de sincronização do Win32 apareça como um nó raiz no painel de navegação no selecionador de arquivo do Gerenciador de arquivos e o Windows, é necessário integrar o seu aplicativo no nível raiz. Para obter informações sobre como fazer isso, consulte [integra-se um provedor de armazenamento de nuvem](https://msdn.microsoft.com/en-us/library/windows/desktop/dn889934%28v=vs.85%29.aspx). 
+Para que seu cliente de sincronização Win32 apareça como um nó raiz no painel de navegação no Explorador de Arquivos e no seletor de arquivos do Windows, você precisa integrar seu aplicativo ao nível raiz. Para saber mais sobre como fazer isso, confira [Integrar um provedor de armazenamento em nuvem](https://msdn.microsoft.com/library/windows/desktop/dn889934%28v=vs.85%29.aspx). 
   
-## <a name="add-your-sync-folder-as-a-document-library-optional"></a>Adicione sua pasta de sincronização como uma biblioteca de documentos (opcional)
+## <a name="add-your-sync-folder-as-a-document-library-optional"></a>Adicionar a sua pasta de sincronização como uma biblioteca de documentos (opcional)
 
-No Office, os usuários podem criar documentos em suas bibliotecas de documentos com uma única ação. Para adicionar o seu local de sincronização para a biblioteca de documentos, use a [função SHAddFolderPathToLibrary](https://msdn.microsoft.com/en-us/library/windows/desktop/dd378432%28v=vs.85%29.aspx). 
+No Office, os usuários podem criar documentos em suas bibliotecas de documentos com uma única ação. Para adicionar seu local de sincronização à biblioteca de documentos, use a função [SHAddFolderPathToLibrary](https://msdn.microsoft.com/library/windows/desktop/dd378432%28v=vs.85%29.aspx). 
   
 ## <a name="see-also"></a>Confira também
 <a name="bk_addresources"> </a>
