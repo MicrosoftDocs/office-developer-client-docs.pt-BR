@@ -7,49 +7,49 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
-description: O Outlook Social Connector 2013 fornece um hub de comunicação para comunicações de pessoais e profissionais.
-ms.openlocfilehash: 32a9eb88b7724f8735d0eb8623bb3716ad836a7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O Outlook Social Connector 2013 oferece um hub de comunicação para comunicação pessoal e profissional.
+ms.openlocfilehash: e570fe69cbbe0e8d472e712fb3b8592c97fe43c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770946"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396691"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Referência do provedor do Outlook Social Connector
 
-O Outlook Social Connector 2013 fornece um hub de comunicação para comunicações de pessoais e profissionais. Outlook Social Connector (OSC) funciona com o SharePoint Server, SharePoint Workspace, cliente do Lync, e o OSC de suporte de todos os aplicativos cliente do Office que oferecem suporte a informações de presença e o cartão de visita. 
+O Outlook Social Connector 2013 oferece um hub de comunicação para comunicação pessoal e profissional. O Outlook Social Connector (OSC) funciona com o SharePoint Server, com o SharePoint Workspace, com o cliente do Lync e todos os aplicativos de cliente do Office que oferecem suporte de informações de presença e o cartão de visita suportam a OSC. 
 
-No Outlook em particular, basta selecionar um item do Outlook, como um email ou solicitação de reunião e clicando no remetente ou destinatário no que o item, sem sair do Outlook, os usuários podem ver nas atividades de painel pessoas, fotos e atualizações de status dessa pessoa em seus redes sociais favoritas. Usuários podem ver convenientemente todos o Outlook emails, anexos e reuniões recebidas dessa pessoa. Em um ambiente organizacional, os usuários em um site do SharePoint também podem ver nas atualizações de documento do painel de pessoas e outras atividades de site desta pessoa no site do SharePoint.
+No Outlook em particular, basta selecionar um item do Outlook como um email ou solicitação de reunião e clicar em um remetente ou destinatário no item, sem sair do Outlook para que os usuários possam ver nas atividades do painel de pessoas, fotos e atualizações de status dessa pessoa em sua redes sociais favoritas. Os usuários podem ver convenientemente todos o emails do Outlook, anexos e reuniões recebidos dessa pessoa. Em um ambiente organizacional, os usuários em um site do SharePoint também podem ver as atualizações de documento do painel de pessoas e outras atividades de site dessa pessoa no site do SharePoint.
   
-Uma rede social pode desenvolver um provedor para que o OSC sincronize e mostre atualizações de redes sociais em aplicativos e servidores com suporte. Populares redes sociais, como Windows Live, Facebook e LinkedIn estão oferecendo provedores para que o OSC. 
+Uma rede social pode desenvolver um provedor OSC para sincronizar e exibir as atualizações de rede social no suporte servidores e aplicativos. Redes sociais como o LinkedIn, Facebook e o Windows Live oferecem provedores para o OSC. 
   
-Referência do provedor do Outlook Social Connector 2013 descreve como desenvolver um provedor OSC usando estensibilidade do provedor do OSC. 
+A Referência para Provedores do Outlook Social Connector 2013 (OSC) descreve como desenvolver um provedor OSC usando a extensibilidade de provedores OSC. 
   
-Se você é novo no desenvolvimento de soluções para o Outlook, consulte [selecionando um API ou tecnologia para desenvolver soluções do Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) para identificar as APIs e tecnologias que são mais apropriadas para suas necessidades. 
+Se você está começando a desenvolver soluções para o Outlook, confira [Selecionando uma API e tecnologia para desenvolver soluções para o Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) para identificar as APIs e tecnologias mais adequadas às suas necessidades. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Introdução ao desenvolvimento de um Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md): fornece uma visão geral do OSC, incluindo o seguinte: como um provedor OSC pode ser útil, etapas rápidas de aprendizado para desenvolver um provedor, requisitos técnicos, as práticas recomendadas de desenvolvendo um provedor, e o que há de novo nesta versão.
+- [Introdução ao desenvolvimento de um provedor do Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): fornece uma visão geral do OSC, incluindo o seguinte: como um provedor de OSC pode ser útil, passos rápidos para saber desenvolver um provedor, requisitos técnicos, melhores práticas para desenvolver um provedor e quais são as novidades nesta versão.
     
-- [Modelos de amostra OSC](osc-sample-templates.md): descreve vários modelos do Visual Studio para o desenvolvimento de um provedor.
+- [Modelos de exemplo OSC](osc-sample-templates.md): descreve vários modelos do Visual Studio para desenvolver um provedor.
     
-- [Sequências de chamar típica OSC](osc-typical-calling-sequences.md): descreve alguns típicas sequências de chamada pelo OSC de membros nas interfaces de extensibilidade do provedor OSC. Isso deve habilitar compreender melhor como implementar as interfaces.
+- [Sequências de chamadas típicas do OSC](osc-typical-calling-sequences.md): descreve algumas sequências de chamadas típicas para o OSC dos membros nas interfaces de extensibilidade do provedor OSC. Isso deve permitir que você entenda melhor como implementar esses interfaces.
     
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md): descreve como o esquema OSC XML e interfaces de extensibilidade do provedor OSC foram projetados para oferecer suporte a um provedor OSC.
+- [Desenvolvimento de um provedor de esquema XML OSC](developing-a-provider-with-the-osc-xml-schema.md):descreve como a interface de extensibilidade do provedor OSC e o esquema XML OSC são projetados para dar suporte a um provedor do OSC.
     
-- [Depurando um provedor](debugging-a-provider.md): sugere algumas maneiras para ajudar a depurar um provedor OSC.
+- [Depuração de provedor](debugging-a-provider.md): sugere várias maneiras de ajudar a depurar um provedor do OSC.
     
-- [Implantando um provedor](deploying-a-provider.md): descreve os requisitos de registro para um provedor OSC e fornece uma lista de verificação para instalar um provedor.
+- [Implantação de provedor](deploying-a-provider.md): descreve os requisitos de registro para um provedor de OSC e fornece uma lista de verificação para instalar um provedor.
     
-- [Obtendo pronto para lançamento de um provedor OSC](getting-ready-to-release-an-osc-provider.md): sugere os testes, você pode fazer antes de liberar um provedor OSC.
+- [Preparando-se para lançar um provedor de OSC](getting-ready-to-release-an-osc-provider.md): sugere teste que você pode fazer antes de lançar um provedor do OSC.
     
-- [Referência do provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md): referência de fornece informações para as interfaces de extensibilidade do provedor OSC e esquema OSC XML e códigos de erro possíveis de listas.
+- [Referência de provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md): fornece informações de referência para as interfaces de extensibilidade do provedor OSC, para o esquema XML OSC e lista os possíveis códigos de erro.
     
 ## <a name="see-also"></a>Confira também
 
-- [Aviso de direitos autoral da referência Outlook 2013 do conector Social provedor](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
-- [Convenções de Documentos](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
-- [Accessibility in Microsoft Products](http://www.microsoft.com/enable/products/default.aspx)  
-- [Aviso de Privacidade do Microsoft Online](https://privacy.microsoft.com/en-us/privacystatement)
+- [Aviso de direitos autorais da referência do provedor do Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
+- [Convenções de Documentos](https://msdn.microsoft.com/office/aa905365.aspx)   
+- [Acessibilidade em produtos Microsoft](https://www.microsoft.com/enable/products/default.aspx)  
+- [Aviso de Privacidade do Microsoft Online](https://privacy.microsoft.com/pt-BR/privacystatement)
     
 
