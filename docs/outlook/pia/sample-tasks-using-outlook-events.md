@@ -1,0 +1,29 @@
+---
+title: Exemplos de tarefas usando eventos do Outlook
+TOCTitle: Sample tasks using Outlook events
+ms:assetid: efa18d44-43f3-4dd2-8390-fe228ed88971
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184651(v=office.15)
+ms:contentKeyID: 55119848
+ms.date: 07/24/2014
+mtps_version: v=office.15
+ms.openlocfilehash: d08ce1baf4f9b40bce6d3b547f8df2a98bef6ad6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405879"
+---
+# <a name="sample-tasks-using-outlook-events"></a><span data-ttu-id="81a7f-102">Exemplos de tarefas usando eventos do Outlook</span><span class="sxs-lookup"><span data-stu-id="81a7f-102">Sample tasks using Outlook events</span></span>
+
+<span data-ttu-id="81a7f-103">Esta seção fornece exemplos de tarefas que envolvem eventos do PIA do Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="81a7f-103">This section provides sample tasks that involve Microsoft Outlook PIA events.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="81a7f-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="81a7f-104">In this section</span></span>
+
+|<span data-ttu-id="81a7f-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="81a7f-105">Topic</span></span>|<span data-ttu-id="81a7f-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="81a7f-106">Description</span></span>|
+|:----|:----------|
+|[<span data-ttu-id="81a7f-107">Implementar um invólucro para inspetores e rastrear eventos em nível de item em cada inspetor</span><span class="sxs-lookup"><span data-stu-id="81a7f-107">Implement a wrapper for inspectors and track item-level events in each inspector</span></span>](how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md)  |<span data-ttu-id="81a7f-108">Implementa um invólucro para uma coleção [Inspectors](https://msdn.microsoft.com/library/bb623458\(v=office.15\)) e usa esse invólucro para rastrear eventos em nível de item em cada objeto [Inspector](https://msdn.microsoft.com/library/bb647744\(v=office.15\)) na coleção.</span><span class="sxs-lookup"><span data-stu-id="81a7f-108">Implements a wrapper for an [Inspectors](https://msdn.microsoft.com/library/bb623458\(v=office.15\)) collection, and uses that wrapper to track item-level events in each [Inspector](https://msdn.microsoft.com/library/bb647744\(v=office.15\)) object in the collection.</span></span>|
+
+## <a name="see-also"></a><span data-ttu-id="81a7f-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="81a7f-109">See also</span></span>
+
+- [<span data-ttu-id="81a7f-110">Como faço para... (Referência do PIA do Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="81a7f-110">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+

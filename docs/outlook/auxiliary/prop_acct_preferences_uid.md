@@ -6,35 +6,35 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
-description: Recupera o identificador exclusivo (UID) para a seção de perfil que armazena as preferências de conta.
-ms.openlocfilehash: 70e61264e5525f26e9f52e402bc785b544a0b90e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta.
+ms.openlocfilehash: 97f1a858c8f58e13b72b8d5f052b35359581b718
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766064"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395285"
 ---
-# <a name="propacctpreferencesuid"></a><span data-ttu-id="1d5da-103">PROP_ACCT_PREFERENCES_UID</span><span class="sxs-lookup"><span data-stu-id="1d5da-103">PROP_ACCT_PREFERENCES_UID</span></span>
+# <a name="propacctpreferencesuid"></a><span data-ttu-id="1f976-103">PROP_ACCT_PREFERENCES_UID</span><span class="sxs-lookup"><span data-stu-id="1f976-103">PROP_ACCT_PREFERENCES_UID</span></span>
 
-<span data-ttu-id="1d5da-104">Recupera o identificador exclusivo (UID) para a seção de perfil que armazena as preferências de conta.</span><span class="sxs-lookup"><span data-stu-id="1d5da-104">Retrieves the unique identifier (UID) for the profile section that stores the account preferences.</span></span> 
+<span data-ttu-id="1f976-104">Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta.</span><span class="sxs-lookup"><span data-stu-id="1f976-104">Retrieves the unique identifier (UID) for the profile section that stores the account preferences.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="1d5da-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="1d5da-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="1f976-105">Informações rápidas</span><span class="sxs-lookup"><span data-stu-id="1f976-105">Quick info</span></span>
 
-<span data-ttu-id="1d5da-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="1d5da-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="1f976-106">Confira [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="1f976-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1d5da-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="1d5da-107">Identifier:</span></span>  <br/> |<span data-ttu-id="1d5da-108">0x0022</span><span class="sxs-lookup"><span data-stu-id="1d5da-108">0x0022</span></span>  <br/> |
-|<span data-ttu-id="1d5da-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="1d5da-109">Property type:</span></span>  <br/> |<span data-ttu-id="1d5da-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1d5da-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="1d5da-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="1d5da-111">Property tag:</span></span>  <br/> |<span data-ttu-id="1d5da-112">0x00220102</span><span class="sxs-lookup"><span data-stu-id="1d5da-112">0x00220102</span></span>  <br/> |
-|<span data-ttu-id="1d5da-113">Access:</span><span class="sxs-lookup"><span data-stu-id="1d5da-113">Access:</span></span>  <br/> |<span data-ttu-id="1d5da-114">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="1d5da-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="1f976-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="1f976-107">Identifier:</span></span>  <br/> |<span data-ttu-id="1f976-108">0x0022</span><span class="sxs-lookup"><span data-stu-id="1f976-108">0x0022</span></span>  <br/> |
+|<span data-ttu-id="1f976-109">Tipo de propriedade:</span><span class="sxs-lookup"><span data-stu-id="1f976-109">Property type</span></span>  <br/> |<span data-ttu-id="1f976-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1f976-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1f976-111">Marca de propriedade:</span><span class="sxs-lookup"><span data-stu-id="1f976-111">Property Tag</span></span>  <br/> |<span data-ttu-id="1f976-112">0x00220102</span><span class="sxs-lookup"><span data-stu-id="1f976-112">0x00220102</span></span>  <br/> |
+|<span data-ttu-id="1f976-113">Acesso:</span><span class="sxs-lookup"><span data-stu-id="1f976-113">Access</span></span>  <br/> |<span data-ttu-id="1f976-114">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="1f976-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="1d5da-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="1d5da-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f976-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="1f976-115">Remarks</span></span>
 
-<span data-ttu-id="1d5da-116">Use o **PROP_ACCT_PREFERENCES_UID** em chamadas para [IMAPISupport::OpenProfileSection](http://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) para recuperar a seção de perfil que contém as preferências de conta.</span><span class="sxs-lookup"><span data-stu-id="1d5da-116">Use **PROP_ACCT_PREFERENCES_UID** in calls to [IMAPISupport::OpenProfileSection](http://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) to retrieve the profile section that contains account preferences.</span></span> 
+<span data-ttu-id="1f976-116">Use **PROP_ACCT_PREFERENCES_UID** em chamadas para [IMAPISupport::OpenProfileSection](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) para recuperar a seção do perfil que contém as preferências de conta.</span><span class="sxs-lookup"><span data-stu-id="1f976-116">Use **PROP_ACCT_PREFERENCES_UID** in calls to [IMAPISupport::OpenProfileSection](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) to retrieve the profile section that contains account preferences.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="1d5da-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="1d5da-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1f976-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="1f976-117">See also</span></span>
 
-- [<span data-ttu-id="1d5da-118">Sobre a API de gerenciamento de conta</span><span class="sxs-lookup"><span data-stu-id="1d5da-118">About the Account Management API</span></span>](about-the-account-management-api.md)
-- [<span data-ttu-id="1d5da-119">Sobre as configurações do anti-spams</span><span class="sxs-lookup"><span data-stu-id="1d5da-119">About anti-spam settings</span></span>](about-anti-spam-settings.md)
+- [<span data-ttu-id="1f976-118">Sobre a API de gerenciamento de contas</span><span class="sxs-lookup"><span data-stu-id="1f976-118">About the Account Management API</span></span>](about-the-account-management-api.md)
+- [<span data-ttu-id="1f976-119">Sobre as configurações antispam</span><span class="sxs-lookup"><span data-stu-id="1f976-119">About anti-spam settings</span></span>](about-anti-spam-settings.md)
 
