@@ -7,25 +7,25 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
 description: Contém todos os elementos de DataColumn em um conjunto de registros de dados.
-ms.openlocfilehash: b90b6cb18fc2bd1edc393d58a9d761cfb36ea220
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: a7a0a8faefdb965384e435ee3a9b059a3acbc3f0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771652"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382516"
 ---
 # <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>Elemento DataColumns (DataRecordSet_Type complexType) ('Visio XML')
 
 Contém todos os elementos de **DataColumn** em um conjunto de registros de dados. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Recordsets.XML  <br/> |
+|**Partes do documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,25 +36,25 @@ Contém todos os elementos de **DataColumn** em um conjunto de registros de dado
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Armazena, formata, atualiza e expõe os dados consultados de um banco de dados no Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Armazena, formata, atualiza e expõe dados consultados de um banco de dados no Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Define como uma coluna de dados aparece na janela **Dados externos** na interface do usuário do Visio e qualifica os dados na coluna definindo seu tipo de dados e formatação.  <br/> |
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Define a aparência de uma coluna de dados na janela **Dados Externos** na interface de usuário do Visio e qualifica os dados na coluna definindo o tipo de dados e formatação.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |XSD:Boolean  <br/> |opcional  <br/> |A coluna no qual você deseja classificar os dados.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|SortColumn  <br/> |XSD: String  <br/> |opcional  <br/> |Se deseja classificar a coluna **SortColumn** em crescente (1) ou em ordem decrescente de (0).  <br/> |Valores do tipo xsd: String.  <br/> |
+|SortAsc  <br/> |xsd:boolean  <br/> |opcional  <br/> |A coluna na qual classificar os dados.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|SortColumn  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica se a coluna **SortColumn** será classificada em ordem decrescente (0) ou crescente (1).  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

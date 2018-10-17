@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
-description: Abre uma sessão MAPI e mantém uma referência para a sessão para o gerente de conta.
-ms.openlocfilehash: 50809a00d13fd9f2a93bebc2961a134b3625e82c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Abre uma sessão MAPI e mantém uma referência à sessão para o gerente de conta.
+ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765975"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392596"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
-Abre uma sessão MAPI e mantém uma referência para a sessão para o gerente de conta.
+Abre uma sessão MAPI e mantém uma referência à sessão para o gerente de conta.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountHelper](iolkaccounthelper.md).
+Confira [IOlkAccountHelper](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::GetMapiSession(  
@@ -32,18 +32,18 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 
 _ppmsess_
   
-> [out] Sessão MAPI atual.
+> [out] A sessão MAPI atual.
     
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Devido a problemas de referência circular, o próprio Gerenciador de conta não pode manter a referência para a sessão MAPI.
+Devido a problemas de referência circular, o gerente de conta em si não pode manter a referência para a sessão MAPI.
   
 ## <a name="see-also"></a>Confira também
 
 - [IOlkAccountHelper::HandsOffSession](iolkaccounthelper-handsoffsession.md)
-- [IMAPISession : IUnknown](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
+- [IMAPISession : IUnknown](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
 

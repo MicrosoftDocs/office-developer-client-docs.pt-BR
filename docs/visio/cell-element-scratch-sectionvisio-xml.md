@@ -1,5 +1,5 @@
 ---
-title: Elemento de célula (Scratch seção) ('Visio XML')
+title: Elemento Cell (Seção Scratch) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Especifica uma área de trabalho para inserir e testar fórmulas que podem ser referenciadas por outras células.
-ms.openlocfilehash: c8917a8d4bcf26789f631238e6a9547e9ca2d59c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 147cc152ec20e3e2b032b91f6387ec06a3cb1d6f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771478"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384217"
 ---
-# <a name="cell-element-scratch-section-visio-xml"></a>Elemento de célula (Scratch seção) ('Visio XML')
+# <a name="cell-element-scratch-section-visio-xml"></a>Elemento Cell (Seção Scratch) ('Visio XML')
 
 Especifica uma área de trabalho para inserir e testar fórmulas que podem ser referenciadas por outras células.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document, masters.xml,. XML de # mestre, pages.xml,. XML n º de página  <br/> |
+|**Partes do documento** <br/> |document.xml, masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Especifica uma área de trabalho para inserir e testar fórmulas que podem ser r
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,25 +52,25 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  '(alguma fórmula)' se a fórmula existir localmente  <br/>  `No Formula` se a fórmula estiver excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|S  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|S  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ### <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondam às células ShapeSheet. Consulte a tabela a seguir para determinar os valores do atributo **N** com permissão para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|A  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
-|B  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
-|C  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
-|D  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
-|X  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
-|Y  <br/> |Uma célula de rascunho que pode ser utilizada para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|A  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|B  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|C  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|D  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|X  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
+|S  <br/> |Uma célula rascunho que você pode usar para inserir ou testar fórmulas.  <br/> |[Seção Scratch](scratch-section.md) <br/> |
    
 

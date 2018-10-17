@@ -1,5 +1,5 @@
 ---
-title: Elemento de EventList (VisioDocument_Type complexType) ('Visio XML')
+title: Elemento EventList (VisioDocument_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: Contém um elemento EventItem para cada evento ao qual um objeto deve responder.
-ms.openlocfilehash: e1033ae93ca272b8ea1d9855d08ad13a444612db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771814"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383972"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento de EventList (VisioDocument_Type complexType) ('Visio XML')
+# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Elemento EventList (VisioDocument_Type complexType) ('Visio XML')
 
 Contém um elemento **EventItem** para cada evento ao qual um objeto deve responder. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Contém um elemento **EventItem** para cada evento ao qual um objeto deve respon
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -52,6 +52,6 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: Especifica o accountsendstamp principal de uma mensagem.
-ms.openlocfilehash: f94ac104a77e8400909dc06db44ce8ca03e4653f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 902c71bd4a1bd5a25ab50c4b26bcfa6d5e8489e6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766046"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394080"
 ---
 # <a name="pidtagprimarysendaccount"></a>PidTagPrimarySendAccount
 
-Especifica o carimbo de "Enviar" da conta principal para uma mensagem.
+Especifica o carimbo “send” de conta principal de uma mensagem.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -29,11 +29,11 @@ Especifica o carimbo de "Enviar" da conta principal para uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem recebida, o carimbo de "Enviar" da conta principal indica qual conta um encaminhamento ou uma resposta deve ser enviada com. Para uma mensagem de saída, ele determina qual conta para enviar a mensagem com. Seu valor é o valor [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) da interface de [IOlkAccount](iolkaccount.md) da conta com a qual a mensagem está sendo enviada. 
+Essa propriedade se aplica a um objeto de mensagem MAPI. Para uma mensagem recebida, o carimbo “send” de conta principal indica com qual conta um encaminhamento ou uma resposta deve ser enviada. Para uma mensagem de saída, ele determina com qual conta enviar a mensagem. Seu valor é o valor de [PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) da interface [IOlkAccount](iolkaccount.md) da conta com a qual a mensagem está sendo enviada. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
-- [Propriedades MAPI](http://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
-- [Propriedade canônica PidTagPrimarySendAccount](http://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
+- [Propriedades MAPI](https://msdn.microsoft.com/library/3b980217-b65b-442b-8c18-b8b9f3ff487a%28Office.15%29.aspx)
+- [Propriedade canônica PidTagPrimarySendAccount](https://msdn.microsoft.com/library/2f268b3b-2e4c-4aea-8879-bdd0ac1df35c%28Office.15%29.aspx)
 

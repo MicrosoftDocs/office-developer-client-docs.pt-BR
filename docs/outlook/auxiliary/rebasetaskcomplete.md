@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
-description: Conclusão de relatórios para a alteração da Base de compromissos.
-ms.openlocfilehash: 735d875b4151c86103a1ac0378bd33b84de64997
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Relata a conclusão da alteração programática de compromissos.
+ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388914"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
-Conclusão de relatórios para a alteração da Base de compromissos.
+Relata a conclusão da alteração programática de compromissos.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |tzmovelib.h  <br/> |
-|Implementada por:  <br/> |Aplicativos de cliente MAPI  <br/> |
-|Chamado pelo:  <br/> |REBASE de objeto do Outlook  <br/> |
-|Tipo de ponteiro:  <br/> |**PFNREBASETASKCOMPLETE** conforme definido em tzmovelib.h  <br/> |
+|Implementado por:  <br/> |Aplicativos clientes MAPI  <br/> |
+|Chamado por:  <br/> |Objeto rebasing do Outlook  <br/> |
+|Tipo de ponteiro:  <br/> |**PFNREBASETASKCOMPLETE**, conforme definido em tzmovelib.h  <br/> |
    
 ```cpp
 void STDAPICALLTYPE RebaseTaskComplete(  
@@ -42,15 +42,15 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 _ulRowIndex_
   
-> [in] Na linha que foi processada. Esse índice refere-se à estrutura **[SRowSet](http://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** passada para [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
+> [in] A linha que foi processada. Este índice refere-se à estrutura **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** passada para [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     
 _pRowCur_
   
-> in] um ponteiro para uma estrutura **[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** descrevendo o item que foi processado. 
+> in] Um ponteiro para uma estrutura **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** que descreve o item processado. 
     
 _hrResult_
   
-> [in] Um **HRESULT** indicando o resultado da operação REBASE. 
+> [in] Um **HRESULT** que indica o resultado da operação de alteração programática. 
     
 _fModified_
   
@@ -58,21 +58,21 @@ _fModified_
     
 _fSentUpdate_
   
-> [in] Especifica se uma reunião atualizar a mensagem foi enviada. 
+> [em] Especifica se uma mensagem de atualização da reunião foi enviada. 
     
 _pError_
   
-> [in] Um ponteiro para uma estrutura **MAPIERROR** com informações de erro estendidas. 
+> [in] Um ponteiro para uma estrutura **MAPIERROR** com informações sobre erros estendidas. 
     
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Aplicativos de cliente MAPI que usam a interface [IOlkApptRebaser](iolkapptrebaser.md) implementam esta função para controlar a conclusão das atualizações de item. 
+Aplicativos cliente MAPI que usam a interface [IOlkApptRebaser](iolkapptrebaser.md) implementam essa função para controlar a conclusão de atualizações do item. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

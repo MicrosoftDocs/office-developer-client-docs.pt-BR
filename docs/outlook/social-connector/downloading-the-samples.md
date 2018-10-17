@@ -7,34 +7,34 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
-description: Este tópico descreve como baixar as amostras de código que acompanham desta documentação.
-ms.openlocfilehash: d21e65c5a223b93bb8237c7ee85ed0131273887a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Este tópico descreve como baixar os exemplos de código que acompanham esta documentação.
+ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770836"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382488"
 ---
 # <a name="downloading-the-samples"></a>Baixar exemplos
 
-Este tópico descreve como baixar as amostras de código que acompanham desta documentação.
+Este tópico descreve como baixar os exemplos de código que acompanham esta documentação.
   
-### <a name="to-download-the-sample-code-installation-package"></a>Para baixar o pacote de instalação de código de amostra
+### <a name="to-download-the-sample-code-installation-package"></a>Para baixar o pacote de instalação de exemplos de código
 
-1. Baixe o arquivo OSCProviderSamples.zip do [Outlook Social Connector 2013: modelos de provedor](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Baixe o arquivo OSCProviderSamples.zip em [Outlook Social Connector 2013: modelos de provedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
     
-2. Extraia o arquivo. zip para a pasta de sua escolha. No Windows 7, o caminho padrão para o Visual Studio 2010 é C:\Users\ _usuário_\Documents\Visual 2010\Projects Studio.
+2. Extraia o arquivo .zip para a pasta de sua escolha. No Windows 7, o caminho padrão para o Visual Studio 2010 é C:\Users\ _usuário_\Documents\Visual Studio 2010\Projects.
     
-3. Depois de extrair o arquivo. zip, você encontrará os seguintes projetos em sua pasta de projetos:
+3. Depois de extrair o arquivo .zip, você encontrará os seguintes projetos em sua pasta de projetos:
     
-   - OSCProvider_CPP — contém o modelo de provedor do C++.
+   - OSCProvider_CPP: contém o modelo de provedor C++.
     
-   - OSCProvider_CS — contém o modelo de provedor do c#.
+   - OSCProvider_CS: contém o modelo de provedor C#.
     
-   - OSCProvider_VB — contém o modelo de provedor do Visual Basic.
+   - OSCProvider_VB: contém o modelo de provedor Visual Basic.
     
 ## <a name="see-also"></a>Confira também
 
-- [Aplicando um modelo de provedor de amostra](applying-a-sample-provider-template.md)
-- [Modelos de amostra do OSC](osc-sample-templates.md)
+- [Aplicar um exemplo de modelo do provedor](applying-a-sample-provider-template.md)
+- [Modelos de exemplo do OSC](osc-sample-templates.md)
 

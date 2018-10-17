@@ -1,24 +1,24 @@
 ---
-title: Tarefas de exemplo
+title: Exemplos de tarefas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
-description: Esta seção contém as tarefas de amostra que usam as APIs disponíveis na referência auxiliar do Outlook 2013.
-ms.openlocfilehash: 79971b64892c83e97f10b55eae236bc8f18ee1f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Esta seção contém exemplos de tarefas que usam as APIs disponíveis na Referência auxiliar do Outlook 2013.
+ms.openlocfilehash: 790b6ca3f1432b801044176acd9cebebfcb1dcee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766090"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391196"
 ---
-# <a name="sample-tasks"></a>Tarefas de exemplo
+# <a name="sample-tasks"></a>Exemplos de tarefas
 
-Esta seção contém as tarefas de amostra que usam as APIs disponíveis na referência auxiliar do Outlook 2013.
+Esta seção contém exemplos de tarefas que usam as APIs disponíveis na Referência auxiliar do Outlook 2013.
 
-- [Determinar se um item do Outlook foi modificado, mas não salvo (referência auxiliar do Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Determinar se um item do Outlook foi modificado, mas não salvo (referência do Outlook auxiliar)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
 - [Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
@@ -26,7 +26,7 @@ Esta seção contém as tarefas de amostra que usam as APIs disponíveis na refe
     
 - [Ler propriedades de fuso horário de um compromisso](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Especifique se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Especificar se deseja exibir a imagem de um contato no Outlook (referência auxiliar do Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Usar o tempo relativo para acessar dados de disponibilidade](how-to-use-relative-time-to-access-free-busy-data.md)
     

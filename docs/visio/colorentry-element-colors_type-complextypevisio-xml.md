@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f325ad8-bbc7-28bf-9e48-1fde4fbdbdc0
-description: Contém uma entrada da tabela de cores.
-ms.openlocfilehash: 934680b36428dd272d383ce421e86ae6d5c707cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém uma entrada de tabela de cor.
+ms.openlocfilehash: 14ef92069ce8d963ce4a0770324843321804c5cd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385337"
 ---
 # <a name="colorentry-element-colorstype-complextype-visio-xml"></a>Elemento ColorEntry (Colors_Type complexType) ('Visio XML')
 
-Contém uma entrada da tabela de cores.
+Contém uma entrada de tabela de cor.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ColorEntry_Type](colorentry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Contém uma entrada da tabela de cores.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Cores](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Contém a tabela de cores do documento.  <br/> |
+|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Contém a tabela de cor do documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,9 +50,9 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |O índice baseado em zero do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|RGB  <br/> |XSD: String  <br/> |obrigatório  <br/> |O valor hexadecimal da entrada da tabela de cores.  <br/> |Valores do tipo xsd: String.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O índices baseado em zero do elemento no seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|RGB  <br/> |xsd:string  <br/> |obrigatório  <br/> |O valor hexadecimal da entrada da tabela de cor.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

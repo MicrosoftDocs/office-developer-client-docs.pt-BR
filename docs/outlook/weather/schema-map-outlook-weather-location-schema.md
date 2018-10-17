@@ -1,5 +1,5 @@
 ---
-title: Mapa de esquema (esquema de local de clima do Outlook)
+title: Mapa de esquema (Esquema de localização do clima do Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: Este tópico mostra a definição de esquema para o esquema XML do Outlook clima local.
-ms.openlocfilehash: e3938385402d79d0ca2efbbd383a0726d1cf801f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Este tópico mostra a definição do esquema XML de localização do clima do Outlook.
+ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771030"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386856"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a>Mapa de esquema (esquema de local de clima do Outlook)
+# <a name="schema-map-outlook-weather-location-schema"></a>Mapa de esquema (Esquema de localização do clima do Outlook)
 
-Este tópico mostra a definição de esquema para o esquema XML do Outlook clima local.
+Este tópico mostra a definição do esquema XML de localização do clima do Outlook.
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns:xs="https://www.w3.org/2001/XMLSchema"
+targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
-  <!-- example query: http://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
+  <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
   
   <xs:element name="weatherdata">
     <xs:annotation>

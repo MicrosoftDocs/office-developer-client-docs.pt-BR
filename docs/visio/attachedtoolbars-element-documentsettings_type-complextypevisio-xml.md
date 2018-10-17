@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: Uma MIME (Multipurpose Internet Mail Extensions) codificado arquivo de (VSU) de interface do usuário do Microsoft Visio que representa as barras de ferramentas personalizadas.
-ms.openlocfilehash: c62cc334d8a0c4142c8a47d5dc8aab16a755ceb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Uma interface do usuário do Microsoft Visio (VSU) codificada por MIME (Multipurpose Internet Mail Extensions) representando barras de ferramentas personalizadas.
+ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771309"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388459"
 ---
 # <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Elemento AttachedToolbars (DocumentSettings_Type complexType) ('Visio XML')
 
-Uma MIME (Multipurpose Internet Mail Extensions) codificado arquivo de (VSU) de interface do usuário do Microsoft Visio que representa as barras de ferramentas personalizadas.
+Uma interface do usuário do Microsoft Visio (VSU) codificada por MIME (Multipurpose Internet Mail Extensions) representando barras de ferramentas personalizadas.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Uma MIME (Multipurpose Internet Mail Extensions) codificado arquivo de (VSU) de 
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém os elementos que especificam as configurações do documento.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém elementos que especificam configurações de documentos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

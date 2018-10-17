@@ -1,28 +1,28 @@
 ---
-title: Funções (Outlook exportadas APIs)
+title: Funções (APIs exportadas pelo Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1ce650d4-7aa5-45c9-9507-41eb8830d2f0
-description: Esta seção descreve as funções que exporta do Outlook.
-ms.openlocfilehash: c00ef755db02b1c6810219079f6a7528c2f6688c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Esta seção descreve as funções que o Outlook exporta.
+ms.openlocfilehash: 2777fdcc17ab2e374025064e42d8155ebbbfbdc2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765802"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385995"
 ---
-# <a name="functions-outlook-exported-apis"></a>Funções (Outlook exportadas APIs)
+# <a name="functions-outlook-exported-apis"></a>Funções (APIs exportadas pelo Outlook)
 
-Esta seção descreve as funções que exporta do Outlook.
+Esta seção descreve as funções que o Outlook exporta.
   
 |**Função**|**Descrição**|
 |:-----|:-----|
-|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Inicializa um objeto [IOlkApptRebaser](iolkapptrebaser.md) para uso na alteração da base compromissos no calendário do Outlook.  <br/> |
-|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Executa pós-enviar categorização em um item de email com base em suas [PidTagConversationId](http://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
-|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Conclusão de relatórios para a alteração da Base de compromissos.  <br/> |
-|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Relatórios de progresso para enumeração e a alteração da Base de compromissos.  <br/> |
+|[HrCreateApptRebaser](hrcreateapptrebaser.md) <br/> |Inicializa um objeto [IOlkApptRebaser](iolkapptrebaser.md) para uso em alteração programática de compromissos em calendários do Outlook.  <br/> |
+|[HrProcessConvActionForSentItem](hrprocessconvactionforsentitem.md) <br/> |Executa a categorização pós-envio em um item de email com base na sua [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).  <br/> |
+|[RebaseTaskComplete](rebasetaskcomplete.md) <br/> |Relata a conclusão da alteração programática de compromissos.  <br/> |
+|[RebaseTaskProgress](rebasetaskprogress.md) <br/> |Relata o andamento da enumeração e alteração programática de compromissos.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: elemento WeatherData (esquema de informações de clima do Outlook)
+title: Elemento weatherdata (Esquema de informações meteorológicas do Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
-description: Define o elemento de clima.
-ms.openlocfilehash: 689c390f621d18f680de9635c3d82711300f8030
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Define o elemento do clima.
+ms.openlocfilehash: 2273f7ce6c6a04464ea3da430661c3d6f410cc9f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771068"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388438"
 ---
-# <a name="weatherdata-element-outlook-weather-information-schema"></a>elemento WeatherData (esquema de informações de clima do Outlook)
+# <a name="weatherdata-element-outlook-weather-information-schema"></a>Elemento weatherdata (Esquema de informações meteorológicas do Outlook)
 
-Define o elemento de clima.
+Define o elemento do clima.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> ||
-|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Arquivo de esquema** <br/> |GetWeatherInfo.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -46,20 +46,20 @@ Define o elemento de clima.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[clima](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições de clima de um local.  <br/> |
+|[clima](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições meteorológicas de um local.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

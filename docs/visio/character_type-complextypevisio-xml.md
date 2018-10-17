@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 94a2aab3-6220-0cc5-ddc8-77a785821985
-ms.openlocfilehash: 0605298eadf57492b4af4ce1c987f01a9130281b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: d4145bf92c053f67ed11e827b528e05fd4ffc7f5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771492"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386597"
 ---
 # <a name="charactertype-complextype-visio-xml"></a>Character_Type complexType ('Visio XML')
 
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Extensão de base** <br/> |Section_Type  <br/> |
+|**Base da extensão** <br/> |Section_Type  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -44,16 +44,16 @@ ms.locfileid: "19771492"
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Row](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> ||
+|[Linha](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhum
   
 

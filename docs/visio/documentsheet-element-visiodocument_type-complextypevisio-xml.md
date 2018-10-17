@@ -7,25 +7,25 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: Especifica uma estrutura DocumentSheet.
-ms.openlocfilehash: 50332759ff3bbe94887371d48c4a2e729243fb32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: a2594e0325cc2743036a03998eb7ac71ed2183c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383461"
 ---
 # <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) ('Visio XML')
 
 Especifica uma estrutura DocumentSheet.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Especifica uma estrutura DocumentSheet.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -48,16 +48,16 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Célula](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica uma célula em um DocumentSheet.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica uma célula em uma DocumentSheet.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|IsCustomName  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Descreve como se o nome tiver sido personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
-|IsCustomNameU  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Descreve como se o nome universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
-|Nome  <br/> |XSD: String  <br/> |opcional  <br/> |Especifica o nome de dependente de idioma do DocumentSheet.  <br/> |Valores do tipo xsd: String.  <br/> |
-|NameU  <br/> |XSD: String  <br/> |opcional  <br/> |Especifica o nome de independente de idioma do DocumentSheet.  <br/> |Valores do tipo xsd: String.  <br/> |
-|UniqueID  <br/> |XSD: String  <br/> |opcional  <br/> |Cadeia de caracteres opcional. Um GUID (identificador global exclusivo) que identifica a forma.  <br/> |Valores do tipo xsd: String.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> |Descreve se o nome foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Descreve se o nome universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome dependente de idioma da DocumentSheet.  <br/> |Valores do tipo xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica o nome independente de idioma da DocumentSheet.  <br/> |Valores do tipo xsd:string.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |opcional  <br/> |Cadeia de caracteres opcional. Um GUID (identificador global exclusivo) que identifica a forma.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

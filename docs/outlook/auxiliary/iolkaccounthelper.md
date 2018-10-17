@@ -6,40 +6,40 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
-ms.openlocfilehash: 3c28b1e8ab7e2d72d27cc6545b6ef57834ef5b6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 241babe45b543fb00c0d2756a2e846303a1717b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765949"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386408"
 ---
 # <a name="iolkaccounthelper"></a>IOlkAccountHelper
 
-Fornece a funcionalidade de auxiliar na sessão MAPI atual para gerenciar contas.
+Fornece funcionalidade de ajuda na sessão MAPI atual para gerenciar contas.
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Herda de:  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
-|Provided by:  <br/> |Cliente  <br/> |
+|Herda de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Fornecido por:  <br/> |Cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IOlkAccountHelper  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Este membro é um espaço reservado e não é suportado.*  <br/> |
-|[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Obtém o nome do perfil de uma conta.  <br/> |
-|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Abre uma sessão MAPI e mantém uma referência para a sessão para o gerente de conta.  <br/> |
-|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Libera o objeto de sessão MAPI que foi retornado por [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
+|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Esse membro é um espaço reservado e não tem suporte.*  <br/> |
+|[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Obtém o nome de um perfil de conta.  <br/> |
+|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Abre uma sessão MAPI e mantém uma referência à sessão para o gerente de conta.  <br/> |
+|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Lança o objeto de sessão MAPI retornado por [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta interface é passado para [IOlkAccountManager::Init](iolkaccountmanager-init.md) ao inicializar o Gerenciador de conta. 
+Essa interface é passada para [IOlkAccountManager::Init](iolkaccountmanager-init.md) ao inicializar o gerente de contas. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md) 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 

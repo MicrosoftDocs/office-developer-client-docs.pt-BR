@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
-description: Obtém uma interface que enumera blocos de informações de disponibilidade de dados de um usuário em um intervalo de tempo especificado.
-ms.openlocfilehash: ab377b1029296b6b4bac68d7169dcf7b8dcd8b87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: É uma interface que enumera blocos de disponibilidade de dados de um usuário em um intervalo de tempo específico.
+ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765834"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394535"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
-Obtém uma interface que enumera blocos de informações de disponibilidade de dados de um usuário em um intervalo de tempo especificado.
+É uma interface que enumera blocos de disponibilidade de dados de um usuário em um intervalo de tempo específico.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IFreeBusyData](ifreebusydata.md).
+Confira [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT EnumBlocks( 
@@ -35,25 +35,25 @@ HRESULT EnumBlocks(
 
 _ppenumfb_
   
-> [out] Uma interface para enumerar os blocos de livre/ocupado.
+> [out] Uma interface para enumerar blocos de disponibilidade.
     
 _ftmStart_
   
-> [in] A hora de início para a enumeração. Ele é expresso em [FILETIME](http://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
+> [in] A hora de início da enumeração. É expressa em [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
     
 _ftmEnd_
   
-> [in] A hora de término para a enumeração. Ele é expresso em **FILETIME**. 
+> [in] A hora de término da enumeração. É expressa em **FILETIME**. 
     
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
-S_OK se a chamada foi bem-sucedida; Caso contrário, um código de erro.
+S_OK se a chamada foi bem-sucedida. Caso contrário, um código de erro.
   
 ## <a name="remarks"></a>Comentários
 
-Este método é usado para indicar o intervalo de tempo de itens de calendário para o qual recuperar detalhes. Os valores de *ftmStart* e *ftmEnd* são armazenados em cache e retornados em uma chamada subsequente de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Esse método é usado para indicar o intervalo de tempo de itens de calendário para os quais recuperar detalhes. Os valores de *ftmStart* e *ftmEnd* são armazenados em cache e retornados em uma chamada subsequente de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
-Um provedor de livre/ocupado também subsequentemente pode usar a interface de [IEnumFBBlock](ienumfbblock.md) retornada para acessar a enumeração. 
+Um provedor de disponibilidade posteriormente também pode usar a interface [IEnumFBBlock](ienumfbblock.md) retornada para acessar a enumeração. 
   
 ## <a name="see-also"></a>Confira também
 

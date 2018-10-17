@@ -1,31 +1,31 @@
 ---
-title: elemento CP (Text_Type complexType) ('Visio XML')
+title: Elemento cp (Text_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
-description: Marca o início das propriedades de um caractere ou seja executado formatado de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até que a próxima marca.
-ms.openlocfilehash: 16e5bb94afeb860220c6cb49a9b98e36e45d76cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até a próxima marcação.
+ms.openlocfilehash: eb7fd30c2314e159dc3649e87cd63bd4090ba283
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771630"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388193"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>elemento CP (Text_Type complexType) ('Visio XML')
+# <a name="cp-element-texttype-complextype-visio-xml"></a>Elemento cp (Text_Type complexType) ('Visio XML')
 
-Marca o início das propriedades de um caractere ou seja executado formatado de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até que a próxima marca.
+Marca o início de uma execução de propriedades de caracteres que é formatada de acordo com o elemento Char correspondente. A execução é definida para o final do texto ou até a próxima marcação.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |página # XML, master. XML de #  <br/> |
+|**Partes do documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Marca o início das propriedades de um caractere ou seja executado formatado de 
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,8 +50,8 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |O índice do elemento de Char que representa essa propriedade executar.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |O índice do elemento Char que essa execução de propriedade representa.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

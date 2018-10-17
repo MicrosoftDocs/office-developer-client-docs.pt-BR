@@ -1,5 +1,5 @@
 ---
-title: elemento de clima (weatherdata elemento) (esquema de local de clima do Outlook)
+title: Elemento weather (elemento weatherdata) (Esquema de localização do clima do Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
-description: Especifica o local de clima de relatório no.
-ms.openlocfilehash: a95e207845a9e54f5cac58b64ce85ec17b59fa22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Especifica o local para o qual informar o clima.
+ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771041"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398294"
 ---
-# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>elemento de clima (weatherdata elemento) (esquema de local de clima do Outlook)
+# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>Elemento weather (elemento weatherdata) (Esquema de localização do clima do Outlook)
 
-Especifica o local de clima de relatório no.
+Especifica o local para o qual informar o clima.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Arquivo de esquema** <br/> |getweatherlocation.xsd  <br/> |
    
 ## <a name="definition"></a>Definição
@@ -37,13 +37,13 @@ Especifica o local de clima de relatório no.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[WeatherData](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Define o elemento de clima.  <br/> |
+|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Define o elemento do clima.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -51,9 +51,9 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica um código que está associado ao local para distinguir vários locais com o mesmo nome.  <br/> |Um valor do xs: string tipo  <br/> |
-|weatherlocationname  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica o nome do local.  <br/> |Um valor do xs: string tipo  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica um código associado ao local para distinguir vários locais com o mesmo nome.  <br/> |Um valor do tipo xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica o nome do local.  <br/> |Um valor do tipo xs:string  <br/> |
    
 

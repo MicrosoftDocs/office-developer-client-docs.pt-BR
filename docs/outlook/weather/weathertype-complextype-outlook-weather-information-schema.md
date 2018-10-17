@@ -1,5 +1,5 @@
 ---
-title: weatherType complexType (esquema de informações de clima do Outlook)
+title: weatherType complexType (Esquema de informações sobre o clima do Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b94d848e-868a-5d5e-ad82-39ed9bd5b357
-description: Especifica as condições de clima de um local.
-ms.openlocfilehash: b333bb6ce60dd1613bceda0a57e7e34c9819bd84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Especifica as condições meteorológicas de um local.
+ms.openlocfilehash: ffa91c4982b5703041c79b47eb15a3a2b845b429
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771036"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398763"
 ---
-# <a name="weathertype-complextype-outlook-weather-information-schema"></a>weatherType complexType (esquema de informações de clima do Outlook)
+# <a name="weathertype-complextype-outlook-weather-information-schema"></a>weatherType complexType (Esquema de informações sobre o clima do Outlook)
 
-Especifica as condições de clima de um local.
+Especifica as condições meteorológicas de um local.
   
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Arquivo de esquema** <br/> |GetWeatherInfo.xsd  <br/> |
-|**Extensão de base** <br/> |Nenhum  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Arquivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
+|**Base da extensão** <br/> |Nenhum  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -50,25 +50,25 @@ Especifica as condições de clima de um local.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[atual](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições de clima atual.  <br/> |
-|[previsão](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições de clima futuras de pelo menos três dias com antecedência incluindo hoje: hoje, amanhã, de depois de amanhã.  <br/> |
+|[current](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições meteorológicas atuais.  <br/> |
+|[forecast](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições meteorológicas futuras para pelo menos três dias, incluindo hoje, amanhã, depois de amanhã.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|atribuição  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica a fonte das informações de clima.  <br/> |Um valor do xs: string tipo  <br/> |
-|degreetype  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica a unidade para a temperatura da localidade, por exemplo, Celsius.  <br/> |C, F  <br/> |
-|imagerelativeurl  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica a URL da imagem para o local.  <br/> |Um valor do xs: string tipo  <br/> |
-|fuso horário  <br/> |xs:Integer  <br/> |obrigatório  <br/> |Especifica o deslocamento de GMT.  <br/> |Um valor entre -11 e 12 inclusive  <br/> |
-|url  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica a URL da página da web do serviço clima que contém informações de clima para o local especificado.  <br/> |Um valor do xs: string tipo  <br/> |
-|weatherlocationcode  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica o código que está associado com o local usado para distinguir vários local que tiverem o mesmo nome.  <br/> |Um valor do xs: string tipo  <br/> |
-|weatherlocationname  <br/> |xs: String  <br/> |obrigatório  <br/> |Especifica o nome do local que aparece no controle de lista suspensa.  <br/> |Um valor do xs: string tipo  <br/> |
+|attribution  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica a origem das informações meteorológicas.  <br/> |Um valor do tipo xs:string  <br/> |
+|degreetype  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica a unidade de temperatura local, como Celsius.  <br/> |C, F  <br/> |
+|imagerelativeurl  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica a URL da imagem para o local.  <br/> |Um valor do tipo xs:string  <br/> |
+|timezone  <br/> |xs:integer  <br/> |obrigatório  <br/> |Especifica o deslocamento GMT.  <br/> |Um valor entre -11 e 12, inclusive  <br/> |
+|url  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica a URL para a página da Web do serviço meteorológico que contém informações sobre o clima para o local especificado.  <br/> |Um valor do tipo xs:string  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica o código associado ao local usado para distinguir vários locais que tenham o mesmo nome.  <br/> |Um valor do tipo xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |obrigatório  <br/> |Especifica o nome do local exibido no controle suspenso.  <br/> |Um valor do tipo xs:string  <br/> |
    
 

@@ -6,35 +6,35 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
-description: Recupera o identificador exclusivo (UID) para a seção de perfil que armazena as preferências de conta.
-ms.openlocfilehash: 70e61264e5525f26e9f52e402bc785b544a0b90e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta.
+ms.openlocfilehash: 97f1a858c8f58e13b72b8d5f052b35359581b718
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766064"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395285"
 ---
 # <a name="propacctpreferencesuid"></a>PROP_ACCT_PREFERENCES_UID
 
-Recupera o identificador exclusivo (UID) para a seção de perfil que armazena as preferências de conta. 
+Recupera o identificador exclusivo (UID) para a seção do perfil que armazena as preferências de conta. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0022  <br/> |
 |Tipo de propriedade:  <br/> |PT_BINARY  <br/> |
 |Marca de propriedade:  <br/> |0x00220102  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Use o **PROP_ACCT_PREFERENCES_UID** em chamadas para [IMAPISupport::OpenProfileSection](http://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) para recuperar a seção de perfil que contém as preferências de conta. 
+Use **PROP_ACCT_PREFERENCES_UID** em chamadas para [IMAPISupport::OpenProfileSection](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) para recuperar a seção do perfil que contém as preferências de conta. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md)
-- [Sobre as configurações do anti-spams](about-anti-spam-settings.md)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md)
+- [Sobre as configurações antispam](about-anti-spam-settings.md)
 

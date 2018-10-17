@@ -1,46 +1,46 @@
 ---
-title: Constantes MAPI
+title: Constantes de MAPI
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 10/02/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
-description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4f84ed318fa53877acd9d4759b81c140d2b32e6b
-ms.sourcegitcommit: 6a8c758e690c4b7f3ab6d40635606efd31a3cc07
-ms.translationtype: MT
+description: Definições constantes declarações de interface MAPI e identificadores de classe e interface usados pelo APIs MAPI.
+ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25361482"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393730"
 ---
-# <a name="mapi-constants"></a>Constantes MAPI
+# <a name="mapi-constants"></a>Constantes de MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico contém as definições de constantes, declarações de interface MAPI e identificadores de classe e de interface usados pelas APIs de MAPI.
+Esse tópico contém constantes declarações de interface MAPI e identificadores de classe e interface usados pelo APIs MAPI.
   
 ## <a name="class-and-interface-identifiers"></a>Identificadores de classe e interface
 
-Use a macro DEFINE_GUID definida no guiddef.h de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows para associar nomes simbólicos de identificador globalmente exclusivo (GUID) com seus valores, a menos que indicado de outra forma.
+Use a macro DEFINE_GUID estipulada no Microsoft Windows Software Development Kit (SDK do Windows) no arquivo cabeçalho guiddef.h para associar os nomes dos simbólico de identificador global exclusivo (GUID) com seus valores, a menos que indicado de outra forma.
   
-## <a name="attachment-security-conversion-api"></a>API de conversão de segurança de anexo
+## <a name="attachment-security-conversion-api"></a>API de conversão de segurança de anexos
 
-Esta seção contém as definições de constantes e os identificadores de interface para a API de segurança de anexo.
+Esta seção contém definições constantes e identificadores interface para a API de segurança de anexos.
   
 ```cpp
 // {b2533636-c3f3-416f-bf04-aefe41abaae2}
 DEFINE_GUID(IID_IAttachmentSecurity, 0xb2533636, 0xc3f3, 0x416f, 0xbf, 0x04, 0xae, 0xfe, 0x41, 0xab, 0xaa, 0xe2);
 ```
 
-Use a macro MAPIMETHOD definida no mapidefs.h de arquivo de cabeçalho do SDK do Windows para definir a função virtual pura **[IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
+Use a macro MAPIMETHOD estipulada no arquivo cabeçalho mapidefs.h do SDK do Windows* para definir a função virtual pura ** [IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
   
 ```cpp
 #define MAPI_IATTACHMENTSECURITY_METHODS(IPURE)         MAPIMETHOD(IsAttachmentBlocked)         (LPCWSTR pwszFileName, BOOL *pfBlocked) IPURE;
 ```
 
-Use a macro DECLARE_MAPI_INTERFACE_ definida no mapidefs.h de arquivo de cabeçalho do SDK do Windows para definir a tabela de método virtual para **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
+Usar a macro DECLARE_MAPI_INTERFACE_ estipulada a no arquivo cabeçalho mapidefs.h do SDK do Windows* para definir a tabela virtual método ** [IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
   
 ```cpp
 DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown) 
@@ -51,9 +51,9 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 };
 ```
 
-## <a name="mapi-mime-conversion-api"></a>API de conversão de MIME MAPI
+## <a name="mapi-mime-conversion-api"></a>Sobre a API de conversão MAPI-MIME
 
-Esta seção contém definições de constantes e os identificadores de classe e a interface para a API de conversão de MIME de MAPI.
+Esta seção contém definições constantes e identificadores de classe e interface para a API de conversão de MAPI MIME.
   
 ### <a name="constants"></a>Constantes
 
@@ -68,7 +68,7 @@ Esta seção contém definições de constantes e os identificadores de classe e
 |CCSF_PLAIN_TEXT_ONLY  <br/> |0x1000  <br/> |
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
 |CCSF_GLOBAL_MESSAGE  <br/> |0x00200000  <br/> |
-|E_INVALIDARG  <br/> | *Conforme definido em Winerror de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows*  <br/> |
+|E_INVALIDARG  <br/> | *Conforme definido no arquivo cabeçalho winerror.h* do Microsoft Software Development Kit do Windows (SDK do Windows)  <br/> |
    
 ### <a name="class-identifiers"></a>Identificadores de classe
 
@@ -86,16 +86,16 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 
 ## <a name="offline-state-api"></a>API de estado offline
 
-Esta seção contém definições de constantes e os identificadores de classe e a interface para a API de estado Offline.
+Esta seção contém definições constantes e identificadores de classe e interface para o API de estado offline.
   
 ### <a name="constants"></a>Constantes
 
 |||
 |:-----|:-----|
-|E_INVALIDARG  <br/> | *Conforme definido em Winerror de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows*  <br/> |
-|E_NOINTERFACE  <br/> | *Conforme definido em Winerror de arquivo de cabeçalho do Windows (SDK)*  <br/> |
-|MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
-|MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
+|E_INVALIDARG  <br/> | *Conforme definido no arquivo cabeçalho winerror.h* do Microsoft Software Development Kit do Windows (SDK do Windows)  <br/> |
+|E_NOINTERFACE  <br/> | *Conforme definido na Winerror de arquivo do cabeçalho (SDK) do Windows*  <br/> |
+|MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
+|MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG)0  <br/> |
 |MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1  <br/> |
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |0x1  <br/> |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |0x2  <br/> |
@@ -131,11 +131,11 @@ DEFINE_GUID(IID_IMAPIOfflineNotify, 0x0317bde5, 0xfc29, 0x44cd, 0x8d, 0xcd, 0x36
 DEFINE_GUID(IID_IMAPIOfflineMgr, 0x42175607, 0xFF3E, 0x4790, 0xbc, 0x18, 0x66, 0xc8, 0x64, 0x3e, 0x64, 0x24);
 ```
 
-## <a name="outlook-named-properties"></a>Propriedades nomeado do Outlook
+## <a name="outlook-named-properties"></a>Propriedades denominadas do Outlook
 
-Esta seção contém as definições de constantes para propriedades nomeadas e seus namespaces e outras constantes relacionadas.
+Esta seção contém definições constantes para propriedades nomeadas e suas namespaces e outras constantes relacionadas.
   
-### <a name="definitions-for-named-properties"></a>Definições de propriedades nomeadas
+### <a name="definitions-for-named-properties"></a>Definições para propriedades nomeadas:
 
 ```cpp
 #define dispidMeetingType0x0026 
@@ -212,7 +212,7 @@ Esta seção contém as definições de constantes para propriedades nomeadas e 
 
 ### <a name="definitions-for-namespaces"></a>Definições de namespaces
 
-Os seguintes identificadores identificador global exclusivos (GUIDs) representam os namespaces das propriedades nomeadas.
+Os seguintes identificadores globais exclusivos (GUIDs) representam os namespaces de propriedades nomeadas.
   
 ```cpp
 const GUID PS_INTERNET_HEADERS  = {0x00020386, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
@@ -225,7 +225,7 @@ const GUID PSETID_Meeting = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00, 0xAA
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-Consulte a seção repositório MAPI para as definições de PSETID.
+Confira a seção MAPI Store para as definições de PSETID.
   
 ### <a name="other-constants"></a>Outras constantes
 
@@ -233,8 +233,8 @@ Consulte a seção repositório MAPI para as definições de PSETID.
 |:-----|:-----|
 |INSP_ONEOFFFLAGS  <br/> |0xD000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x2000000  <br/> |
-|MNID_ID  <br/> | *Conforme definido em mapidefs.h de arquivo de cabeçalho.*  <br/> |
-|MNID_STRING  <br/> | *Conforme definido em mapidefs.h de arquivo de cabeçalho.*  <br/> |
+|MNID_ID  <br/> | *Conforme definido em mapidefs.h de arquivo o cabeçalho.*  <br/> |
+|MNID_STRING  <br/> | *Conforme definido em mapidefs.h de arquivo o cabeçalho.*  <br/> |
 |mtgNone  <br/> |0x0  <br/> |
 |mtgRequest  <br/> |0x00000001  <br/> |
 |mtgFullUpdate  <br/> |0x00010000  <br/> |
@@ -242,13 +242,13 @@ Consulte a seção repositório MAPI para as definições de PSETID.
 |mtgOutofDate  <br/> |0x00080000  <br/> |
 |mtgDelegated  <br/> |0x00100000  <br/> |
    
-## <a name="replication-api"></a>API de replicação
+## <a name="replication-api"></a>Replicação API
 
-Esta seção contém as definições de constantes, declarações de interface MAPI e identificadores de classe e a interface para a API de replicação.
+Esse tópico contém constantes declarações de interface MAPI e identificadores de classe e interface usados para a replicação do API.
   
 ### <a name="constants"></a>Constantes
 
-A seguir está uma estrutura [MAPIUID](mapiuid.md) que identifica um provedor de serviços MAPI: 
+A seguir uma [MAPIUID](mapiuid.md) estrutura para identificar um provedor de serviços MAPI: 
   
 ```cpp
 const MAPIUID g_muidProvPrvNST = 
@@ -314,7 +314,7 @@ const MAPIUID g_muidProvPrvNST =
 |UPV_DIRTY  <br/> |0x00020000  <br/> |
 |UPV_COMMIT  <br/> |0x00040000  <br/> |
    
-### <a name="interface-declarations"></a>Declarações de interface
+### <a name="interface-declarations"></a>Declaração de interfaces
 
 ```cpp
 DECLARE_MAPI_INTERFACE_PTR(IExchangeImportHierarchyChanges,PXIHC);
@@ -363,7 +363,7 @@ DEFINE_GUID (IID_IOSTX, 0xd2d85db4,  0x840f, 0x49b8, 0x99, 0x82, 0x07, 0xd2, 0x4
 
 <br/>
 
-Use os dois seguintes identificadores de interface com [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md)ou [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir e ignorar qualquer seleção provedor em um objeto folder e um objeto de mensagem, respectivamente. 
+Use os seguintes identificadores de interface com [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), ou [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir e ignorar qualquer verificação de provedor em objeto de pasta e objeto uma mensagem, respectivamente. 
   
 ```cpp
 //{57D333A0-F589-4b23-A3F9-85F82FEC153C}
@@ -375,30 +375,30 @@ DEFINE_GUID (IID_IMAPIFolderNoProvChk, 0x57D333A0, 0xF589, 0x4b23, 0xA3, 0xF9, 0
 DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D, 0xD9, 0x49, 0xBB, 0x97, 0xA1)
 ```
 
-## <a name="mapi-store"></a>Repositório MAPI
+## <a name="mapi-store"></a>Armazenamento de MAPI
 
-Esta seção contém as definições de constantes e identificadores de interface usado pela APIs essa interface com um repositório MAPI.
+Esta seção contém definições constantes e identificadores interface usadas por APIs essa interface com o armazenamento de MAPI.
   
 ### <a name="constants"></a>Constantes
 
 ||||
 |:-----|:-----|:-----|
-|fnevIndexing  <br/> |((ULONG) 0X00010000)  <br/> |Um provedor de armazenamento pode especificar **fnevIndexing** no membro **ulEventType** da estrutura de **[notificação](notification.md)** para notificar o indexador que um objeto está pronto para indexação. O membro **info** da estrutura de **notificação** contém uma estrutura **[EXTENDED_NOTIFICATION](extended_notification.md)** .  <br/> |
-|FS_NONE  <br/> |0x00  <br/> |Um cliente pode chamar **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** e a seleção para o bitmask retornado. **FS_NONE** indica que a pasta não oferece suporte a compartilhamento.  <br/> |
-|FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |Um cliente pode chamar **IFolderSupport::GetSupportMask** e a seleção para o bitmask retornado. **FS_SUPPORTS_SHARING** indica que a pasta oferece suporte a compartilhamento.  <br/> |
-|INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0X00000001)  <br/> |Identifica o processo que está fazendo com que uma notificação para um indexador que um objeto está pronto para indexação.  <br/> |
-|MNID_ID  <br/> |Conforme definido em mapidefs.h de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows  <br/> |Um valor para o campo **ulKind** da estrutura **[MAPINAMEID](mapinameid.md)** .  <br/> |
-|MNID_STRING  <br/> |Conforme definido em mapidefs.h de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows.  <br/> |Um valor para o campo **ulKind** da estrutura **[MAPINAMEID](mapinameid.md)** .  <br/> |
-|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0X00000001)  <br/> |Se um cliente especifica **MSCAP_SEL_RESTRICTION** em *mscapSelector* para **[IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** pode retornar esse valor se o repositório ignora os parâmetros inválidos em uma restrição.  <br/> |
-|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0X00000020)  <br/> |Se um cliente especifica **MSCAP_SEL_FOLDER** em *mscapSelector* para **IMSCapabilities::GetCapabilities**, **GetCapabilities** pode retornar esse valor se o repositório for um repositório não padrão que ofereça suporte a home pages da pasta.  <br/> |
-|STORE_PUSHER_OK  <br/> |((ULONG) 0X00800000)  <br/> |Um cliente pode obter a propriedade **[PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** para determinar as características de um armazenamento de mensagens. Se o provedor de armazenamento define o sinalizador **STORE_PUSHER_OK** no bitmask, isso significa que o manipulador de protocolo MAPI não irá rastrear o repositório e o armazenamento é responsável por push quaisquer alterações por meio de notificações para o indexador para ter mensagens indexadas.  <br/> |
+|fnevIndexing  <br/> |((ULONG) 0X00010000)  <br/> |Um provedor de armazenamento pode especificar**fnevIndexing** no **ulEventType** parte da ** [notificação](notification.md) ** estrutura para notificar indexador Se um objeto está pronto para indexação. A **estrutura** do membro de informações da **estrutura de **NOTIFICAÇÃO contém **[uma estrutura de ](extended_notification.md)** EXTENDED_NOTIFICATION.  <br/> |
+|FS_NONE  <br/> |0x00  <br/> |Um cliente pode chamar ** [IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md) ** e verificar se há uma retornada máscara de bits. **FS_NONE** indica que a pasta não suporta o compartilhamento.  <br/> |
+|FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |Um cliente pode chamar ** **IFolderSupport::GetSupportMask e verificar se há uma retornada máscara de bits. **FS_SUPPORTS_SHARING** indica se a pasta é compatível com compartilhamento.  <br/> |
+|INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0X00000001)  <br/> |Identifica o processo que está fazendo com que uma notificação para um indexador um objeto esteja pronta para indexação.  <br/> |
+|MNID_ID  <br/> |Conforme definido no arquivo cabeçalho mapidefs.h Kit de desenvolvimento em Microsoft Software Development Kit do Windows (SDK do Windows)*.  <br/> |Um valor para o **campo** uIKIND** [da estrutura](mapinameid.md) ** MAPINAMEID.  <br/> |
+|MNID_STRING  <br/> |Conforme definido no arquivo cabeçalho mapidefs.h do Microsoft Software Development Kit do Windows (SDK do Windows).  <br/> |Um valor para o **campo** uIKIND** [da estrutura](mapinameid.md) ** MAPINAMEID.  <br/> |
+|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0X00000001)  <br/> |Se um cliente especificar **MSCAP_SEL_RESTRICTION** no *mscapSelector* para ** [IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** esse valor pode retornar se o repositório ignorar parâmetros inválidos em uma restrição.  <br/> |
+|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0X00000020)  <br/> |Se um cliente especificar **MSCAP_SEL_RESTRICTION** no *mscapSelector* para ** IMSCapabilities::GetCapabilities**, **GetCapabilities** esse valor pode retornar se o repositório for um repositório não padrão que suporta pasta de home pages.  <br/> |
+|STORE_PUSHER_OK  <br/> |((ULONG) 0X00800000)  <br/> |Um cliente pode chegar à propriedade ** [PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md) ** para determinar as características de um repositório de mensagem. Se o provedor de armazenamento definir **STORE_PUSHER_OK** como sinalizador em máscara de bit, significa que o identificador de protocolo MAPI não irá rastrear o armazenamento e o armazenamento é responsável por enviar quaisquer alterações através das notificações para o indexador e enviar mensagens indexadas.  <br/> |
    
 ### <a name="definitions-for-namespaces"></a>Definições de namespaces
 
-Os seguintes identificadores identificador global exclusivos (GUIDs) representam os namespaces propriedades nomeadas. Eles são indexados pelo manipulador de protocolo MAPI (PH) e são documentados como somente leitura.
+Os seguintes identificadores globais exclusivos (GUIDs) representam os namespaces das propriedades nomeadas. Eles são indexados pelo protocolo identificador MAPI (PH) e documentados como somente leitura.
   
 > [!CAUTION]
-> As propriedades nomeadas não devem ser usadas para criar ou modificar os itens. 
+> As propriedades nomeadas não devem ser usadas para criar ou modificar itens. 
   
 ```cpp
 const GUID PS_INTERNET_HEADERS  = {0x00020386, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
@@ -411,7 +411,7 @@ const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-#### <a name="mnidid-properties"></a>Propriedades MNID_ID
+#### <a name="mnidid-properties"></a>Propriedades do MNID_ID 
   
 ```cpp
 // In PSETID_Address
@@ -465,7 +465,7 @@ const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 #define dispidTaskFRecur 0x8126
 ```
 
-#### <a name="mnidstring-properties"></a>Propriedades MNID_STRING
+#### <a name="mnidstring-properties"></a>Propriedades do MNID_STRING 
   
 ```cpp
 // In PS_PUBLIC_STRINGS 
@@ -491,7 +491,7 @@ DEFINE_GUID(IID_IFolderSupport, 0x00375ac3, 0xecaf, 0x4ef8, 0xa5, 0x27, 0x34, 0x
 DEFINE_PRXGUID(IID_IProxyStoreObject, 0x00000000L);
 ```
 
-Use o `DEFINE_OLEGUID` macro definida em guiddef.h de arquivo de cabeçalho do SDK do Windows para associar o seguinte nome simbólico GUID seu valor. 
+Use o `DEFINE_OLEGUID` macro definido no cabeçalho guiddef do SDK do Windows para associar o seguinte nome simbólico GUID ao seu valor. 
   
 ```cpp
 //{00020393-0000-0000-C000-000000000046}
@@ -499,42 +499,42 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 ```
 
-## <a name="mapi-address-book-constants"></a>Constantes de catálogo de endereços de MAPI
+## <a name="mapi-address-book-constants"></a>Constantes de catálogo de endereços MAPI
 
-Esta seção contém as definições de constantes para o catálogo de endereços de MAPI.
+Esta seção contém definições constantes para o catálogo de endereços MAPI.
   
 ### <a name="constants"></a>Constantes
 
 ||||
 |:-----|:-----|:-----|
-|CONTAB_ROOT  <br/> |((ULONG) 0X00000001)  <br/> |A pasta raiz para um objeto de catálogo de endereços MAPI.  <br/> |
-|CONTAB_SUBROOT  <br/> |((ULONG) 0X00000002)  <br/> |Uma subpasta contida na pasta raiz do objeto de catálogo de endereços MAPI.  <br/> |
-|CONTAB_CONTAINER  <br/> |((ULONG) 0X00000003)  <br/> |Um objeto de contêiner de catálogo de endereços.  <br/> |
+|CONTAB_ROOT  <br/> |((ULONG) 0X00000001)  <br/> |Pasta raiz para um objeto de catálogos de endereços MAPI.  <br/> |
+|CONTAB_SUBROOT  <br/> |((ULONG) 0X00000002)  <br/> |Uma subpasta contida na pasta raiz do objeto de catálogos de endereços MAPI.  <br/> |
+|CONTAB_CONTAINER  <br/> |((ULONG) 0X00000003)  <br/> |Abrir o contêiner de um objeto do catálogo de endereços.  <br/> |
 |CONTAB_USER  <br/> |((ULONG) 0X00000004)  <br/> |Um objeto de usuário de mensagens.  <br/> |
-|CONTAB_DISTLIST  <br/> |((ULONG) 0X00000005)  <br/> |Um objeto de lista de distribuição.  <br/> |
+|CONTAB_DISTLIST  <br/> |((ULONG) 0X00000005)  <br/> |0" não é um objeto de lista de distribuição.  <br/> |
    
-## <a name="additional-mapi-constants"></a>Constantes MAPI adicionais
+## <a name="additional-mapi-constants"></a>Constantes de MAPI adicionais
 
-Esta seção contém definições constantes, incluindo códigos de erro e os identificadores de interface usados pelo APIs de MAPI não anteriormente expostos e documentadas.
+Esta seção contém constantes definições, como códigos de erro e identificadores de interface usados pelo APIs MAPI não expostos e documentados anteriormente.
   
 ||||
 |:-----|:-----|:-----|
-|DIALOG_MODAL  <br/> |((ULONG) 0X00000001)  <br/> |Quando um cliente chama o método [IAddrBook::Details](iaddrbook-details.md) , o cliente deve definir o sinalizador **DIALOG_MODAL** no parâmetro _ulFlags_ para exibir a caixa de diálogo modal mostrando os detalhes sobre uma entrada de catálogo de endereço específica. Essa constante é definido em mapidefs.h.  <br/> |
-|ITEMPROC_FORCE  <br/> |0x00000800  <br/> |No Outlook 2007, repositórios de PST com quebra têm regras e filtragem de spam processado em novas mensagens, antes de clientes MAPI são notificados das novas mensagens. Um cliente usando o método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para criar uma nova mensagem em repositórios de PST ou o provedor deve definir o sinalizador **ITEMPROC_FORCE** no parâmetro _ulFlags_ do método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para indicar ao arquivo PST as regras de repositório que a mensagem é qualificada para processamento antes que o repositório notificará qualquer cliente escuta a partir da chegada da nova mensagem. Observe que tais regras processamento só se aplica às novas mensagens criadas em um servidor que não seja um Microsoft Exchange Server, pois o Exchange Server processa as regras para mensagens no servidor. Daí o provedor ou criar a mensagem de cliente deve passar por esse sinalizador em combinação com **NON_EMS_XP_SAVE**, indicando que o servidor não é um servidor Exchange.  <br/> |
-| MAPI_BG_SESSION  <br/> |0x00200000  <br/> |Um cliente pode chamar a função [MAPILogonEx](mapilogonex.md) , definindo o sinalizador **MAPI_BG_SESSION** no parâmetro _flFlags_ para efetuar logon em uma sessão e realizar qualquer operação em segundo plano. Em geral, se um cliente pretende fazer processamento em um segmento de plano de fundo ou em um processo separado no modo não invasiva para o segmento de primeiro plano, ele deve chamar [MAPILogonEx](mapilogonex.md) com o sinalizador **MAPI_BG_SESSION** . Um exemplo em que esse recurso é usado é um aplicativo de cliente, como um mecanismo de indexação, abrindo um arquivo de pastas particulares (PST) para acesso de tipo de plano de fundo.  <br/> |
-|MAPI_CACHE_ONLY  <br/> |0x00004000  <br/> |Um cliente pode chamar o método [IAddrBook::OpenEntry](iaddrbook-openentry.md) , definindo o sinalizador **MAPI_CACHE_ONLY** no parâmetro _ulFlags_ para abrir uma entrada do catálogo de endereços e para acessá-lo subsequentemente apenas do cache. Um exemplo em que esse recurso é usado é um aplicativo cliente que deseja abrir a lista de endereços Global no modo cache do Exchange e acessar uma entrada no catálogo de endereços do cache sem criar o tráfego entre o cliente e o servidor.  <br/> |
-|MAPI_DIALOG_MODELESS  <br/> |0x0000000c  <br/> |Esse valor pode ser passado para a função de MAPISendMail de MAPI simples no parâmetro _ulFlags_ para especificar que uma caixa de diálogo sem janela restrita é exibida, o aplicativo de email padrão. Se nem esse sinalizador nem MAPI_DIALOG (0x00000008) estiver definida, nenhuma caixa de diálogo é exibida.  <br/> |
-|MAPI_NO_CACHE  <br/> |0x00000200  <br/> |Se o Microsoft Office Outlook está no modo cache do Exchange e um repositório foi aberto em modo de cache, um provedor de cliente ou serviço pode chamar [IMsgStore::OpenEntry](imsgstore-openentry.md), definindo o sinalizador **MAPI_NO_CACHE** no parâmetro _ulFlags_ para abrir um item ou um pasta em que o armazenamento remoto. Observe que, se você abrir o armazenamento de mensagens com o sinalizador **MDB_ONLINE** no servidor remoto, você não precisará usar o sinalizador **MAPI_NO_CACHE** .  <br/> |
-|MAPI_UNICODE  <br/> |0x80000000  <br/> |Um provedor de cliente ou serviço pode chamar a função [OpenIMsgOnIStg](openimsgonistg.md) , definindo o sinalizador **MAPI_UNICODE** no parâmetro _ulFlags_ para criar os arquivos do. msg Unicode. O resultante [IMessage: IMAPIProp](imessageimapiprop.md) arquivo mostra **STORE_UNICODE_OK** em sua [Propriedade canônico de PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md) e oferece suporte a Unicode propriedades. Essa constante é definido em mapidefs.h.  <br/> |
-|MDB_ONLINE  <br/> |0x00000100  <br/> |Se o Outlook está no modo cache do Exchange, um provedor de cliente ou serviço pode chamar o método [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) , definindo o sinalizador **MDB_ONLINE** no parâmetro _ulFlags_ para substituir a conexão ao repositório de mensagem local e abrir repositório de servidor remoto. Observe que você não pode abrir um repositório do Exchange no modo de cache e no modo em cache não ao mesmo tempo na mesma sessão MAPI. Se você já abriu o armazenamento de mensagens em cache, você deve fechar ou o repositório antes de abri-lo com esse sinalizador ou abra uma nova sessão MAPI, onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.  <br/> |
-|NON_EMS_XP_SAVE  <br/> |0x00001000  <br/> |Um cliente pode chamar o método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) , definindo o sinalizador **NON_EMS_XP_SAVE** no parâmetro _ulFlags_ para indicar que a mensagem não foi entregue a partir de um servidor Exchange. Esse sinalizador deve ser usado em conjunto com o sinalizador **ITEMPROC_FORCE** no parâmetro _ulFlags_ para indicar um repositório PST que a mensagem é qualificada para regras de processamento antes do PST repositório notifica qualquer cliente escuta de chegada do Mensagem. Isso as regras de processamento só se aplica às novas mensagens que são criadas com [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) em um servidor que não seja um servidor do Exchange (nesse caso o servidor do Exchange seria já processados regras na mensagem).  <br/> |
-|SPAMFILTER_ONSAVE  <br/> |0x00000080  <br/> |Um cliente pode chamar [IMAPIProp::SaveChanges](imapiprop-savechanges.md), definindo o sinalizador **SPAMFILTER_ONSAVE** no parâmetro _ulFlags_ para habilitar uma mensagem que está sendo salvo de filtragem de spam. Suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente é Simple Mail Transfer Protocol (SMTP) e a mensagem está sendo salva um repositório para um arquivo de pastas particulares (. PST).  <br/> |
-|STORE_ITEMPROC  <br/> |0x00200000  <br/> |Se esse sinalizador é definido na [Propriedade canônico de PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md) de um repositório PST encapsulado, indica que, quando uma nova mensagem chega na loja, o repositório tiver regras e filtragem de spam processadas na mensagem separadamente. O repositório chama [IMAPISupport::Notify](imapisupport-notify.md), a definição de **fnevNewMail** na estrutura de [notificação](notification.md) que é passada como um parâmetro e passar os detalhes da nova mensagem para um cliente de escutando. Subsequentemente, quando o cliente escutando recebe a notificação, ele não processar regras na mensagem.  <br/> |
-|STORE_UNICODE_OK  <br/> |0x00040000  <br/> |Se esse sinalizador é incluído na [Propriedade canônico de PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md), indica que o repositório suporta o armazenamento de Unicode. Um cliente pode consultar a presença do sinalizador para decidir se deseja solicitar ou salvar a informação de Unicode para o repositório.  <br/> |
+|DIALOG_MODAL  <br/> |((ULONG) 0X00000001)  <br/> |Quando um cliente pede o [método](iaddrbook-details.md)IAddrBook::Details, o cliente deve definir o parâmetro**DIALOG_MODAL** sinalizado na _ulFlags_ para exibir a caixa de diálogo modal, mostrando detalhes sobre uma entrada de catálogo de endereços específico. Essa constante é definida em mapidefs.h.  <br/> |
+|ITEMPROC_FORCE  <br/> |0x00000800  <br/> |No Outlook 2007, repositório Wrapped PST ajustados tem regras e filtragem de spam processadas em novas mensagens antes de serem notificados clientes MAPI de novas mensagens. Um provedor ou cliente usando o método[IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para criar uma nova mensagem em repositórios de PST deve-se configurar a sinalização**ITEMPROC_FORCE** no parâmetro _ulFlags_ do método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para indicar para a loja PST que a mensagem está disponível para as regras de processamento antes que a loja notifique qualquer cliente sobre a chegada de uma mensagem nova. Observe que essas regras de processamento só se aplicam às novas mensagens criadas em um servidor Microsoft Exchange Server, porque o servidor Exchange processa as regras para mensagens no servidor. Longo o provedor ou cliente que criar a mensagem deve passar esse sinalizador em combinação com **NON_EMS_XP_SAVE**, que indica que o servidor não é um servidor do Exchange.  <br/> |
+| MAPI_BG_SESSION  <br/> |0x00200000  <br/> |Um cliente pode acionar a função[MAPILogonEx](mapilogonex.md) e configurar o **MAPI_BG_SESSION** sinalizado no parâmetro_flFlags_ para fazer logon em uma sessão e executar as operações na tela de fundo. Em geral, se um cliente pretende fazer o processamento em uma conversa de tela de fundo ou em um processo separado em uma forma que seja a conversa do primeiro plano seja discreta, ele deve acionar [MAPILogonEx](mapilogonex.md) com o sinalizador**MAPI_BG_SESSION**. Um exemplo em que isso é usado é um aplicativo do cliente, assim como um mecanismo de indexação, abrindo um arquivo de pastas particulares (PST) para o acesso de tipo plano de fundo.  <br/> |
+|MAPI_CACHE_ONLY  <br/> |0x00004000  <br/> |Um cliente pode ligar para o método [IAddrBook::OpenEntry](iaddrbook-openentry.md) Configurando o **MAPI_CACHE_ONLY** sinalizado no parâmetro _ulFlags_ para abrir uma entrada do catálogo de endereços e acessá-los posteriormente apenas a partir do cache. Um exemplo em que isso é usado é um aplicativo do cliente, que deseja abrir a lista de endereços Global no modo cache do Exchange, acessar uma entrada de catálogo de endereços do cache sem criar tráfego entre o cliente e servidor.  <br/> |
+|MAPI_DIALOG_MODELESS  <br/> |0x0000000C  <br/> |Esse valor pode ser passado para a função MAPISendMail MAPI simples no parâmetro _ulFlags_ para especificar que uma caixa de diálogo sem janela restrita é exibida no aplicativo de email padrão. Se nem esse sinalizador nem o MAPI_DIALOG (0x00000008) estiverem definidos, a caixa de diálogo não é exibida.  <br/> |
+|MAPI_NO_CACHE  <br/> |0x00000200  <br/> |Se o Microsoft Office Outlook estiver no modo cache do Exchange e um repositório estiver aberto no modo de cache, um cliente ou provedores de serviços podem acionar [IMsgStore::OpenEntry](imsgstore-openentry.md), configurando o sinalizador**MAPI_NO_CACHE** no parâmetro _ulFlags_ para abrir um item ou uma pasta no repositório de dados remoto. Observe que, se você abrir o armazenamento de mensagens com o sinalizador **MDB_ONLINE** no servidor remoto não será necessário usar o sinalizador**MAPI_NO_CACHE**.  <br/> |
+|MAPI_UNICODE  <br/> |0x80000000  <br/> |Um cliente ou provedores de serviços podem acionar a função [OpenIMsgOnIStg](openimsgonistg.md) definindo a sinalização **MAPI_UNICODE** no parâmetro_ulFlags_ para criar arquivos Unicode. msg. O arquivo resultante [IMessage: IMAPIProp](imessageimapiprop.md) mostra **STORE_UNICODE_OK** na sua [propriedade Canonical PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md) e é compatível com propriedades Unicode. Essa constante é definida em mapidefs.h.  <br/> |
+|MDB_ONLINE  <br/> |0x00000100  <br/> |Se o Outlook estiver no modo cache do Exchange, um cliente ou serviço pode acionar o método[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) configurando o **MDB_ONLINE** sinalizado no parâmetro_ulFlags_ para substituir a conexão do armazenamento de mensagem local e abrir o repositório no servidor remoto. Observe que você não pode abrir um repositório do Exchange no modo de cache e no modo em não-cache ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.  <br/> |
+|NON_EMS_XP_SAVE  <br/> |0x00001000  <br/> |Um cliente pode acionar o [IMAPIProp::SaveChanges](imapiprop-savechanges.md)  Configurando o **NON_EMS_XP_SAVE** sinalizado no parâmetro_ulFlags_ para indicar que a mensagem não foi enviada do Exchange server. Esse sinalizador deve ser usado em combinação com o **ITEMPROC_FORCE** sinalizado no parâmetro _ulFlags_ para indicar em um repsitório de PST que a mensagem está qualificada para processar antes do repositório de PST notificar qualquer cliente sobre a chegada de mensagem. Essas regras de processamento só se aplicam às novas mensagens que são criadas com [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) em um servidor que não é um servidor do Exchange (nesse caso o servidor Exchange já teria regras processadas na mensagem).  <br/> |
+|SPAMFILTER_ONSAVE  <br/> |0x00000080  <br/> |Um cliente pode acionar [IMAPIProp::SaveChanges](imapiprop-savechanges.md), para configurar o **SPAMFILTER_ONSAVE** sinalizado no parâmetro _ulFlags_ para habilitar o filtro de spam em uma mensagem que está sendo salva. O suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente for SMTP(Simple Mail Transfer Protocol) e a mensagem estiver sendo salva em um repositório de um arquivo de pastas particulares (PST).  <br/> |
+|STORE_ITEMPROC  <br/> |0x00200000  <br/> |Se esse sinalizador estiver definido na [propriedade Canonical PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md) de um repositório de PST isso indica que, quando chegar uma nova mensagem no repositório, repositório tem regras e filtragem de spam processadas na mensagem separadamente. O repositório chama a configuração [IMAPISupport::Notify](imapisupport-notify.md)em**fnevNewMail** na [notificação](notification.md)estrutura que é autenticada como um  parâmetro e passando os detalhes do novo mensagem para o cliente de escuta. Posteriormente, quando o cliente de escutará recebe a notificação, ele não processará regras na mensagem.  <br/> |
+|STORE_UNICODE_OK  <br/> |0x00040000  <br/> |Se esse sinalizador estiver incluído na [propriedade Canonical PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md), isso indica o repositório compatível com o armazenamento Unicode. Um cliente pode pesquisar a presença de sinalizador para decidir se vai solicitar ou salvar informações do Unicode no repositório.  <br/> |
    
-### <a name="definitions-for-archiving-items-in-a-folder"></a>Definições de itens em uma pasta de arquivamento
+### <a name="definitions-for-archiving-items-in-a-folder"></a>Definições para arquivar itens em uma pasta
 
-As seguintes definições constantes são valores usados para definir a [Propriedade canônico de PidTagAgingGranularity](pidtagaginggranularity-canonical-property.md).
+As seguintes definições constantes são valores usados para configurar a [propriedade Canonical PidTagAgingGranularity](pidtagaginggranularity-canonical-property.md).
   
 ```cpp
 #define AG_MONTHS 0 
@@ -543,9 +543,9 @@ As seguintes definições constantes são valores usados para definir a [Proprie
 
 ```
 
-### <a name="definitions-for-displaying-remote-objects"></a>Definições de exibição de objetos remotos
+### <a name="definitions-for-displaying-remote-objects"></a>Definições para exibir objetos remotos
 
-As definições de constante e a macro a seguir são para a exibição de objetos remotos. Para obter mais informações, consulte a [Propriedade canônico de PidTagDisplayTypeEx](pidtagdisplaytypeex-canonical-property.md).
+As seguintes definições de constante e macro são para exibir objetos remotos. Para saber mais, confira a [propriedade Canonical PidTagDisplayTypeEx](pidtagdisplaytypeex-canonical-property.md).
   
 ```cpp
 #define DTE_FLAG_REMOTE_VALID0x80000000 
@@ -563,23 +563,23 @@ As definições de constante e a macro a seguir são para a exibição de objeto
 #define DT_SEC_DISTLIST((ULONG) 0x00000009)
 ```
 
-### <a name="definitions-for-exchange-address-book-and-message-store-error-codes"></a>Definições de catálogo de endereços do Exchange e mensagem armazenam os códigos de erro
+### <a name="definitions-for-exchange-address-book-and-message-store-error-codes"></a>As definições de catálogo de endereços do Exchange e mensagem armazenam códigos de erro
 
-O exemplo a seguir contém definições de códigos de erro para o catálogo de endereços do Exchange e o armazenamento de mensagens que têm a capacidade de reconexão. A última chamada para um Catálogo Global desconectados (GC) pode resultar em erro **MAPI_E_END_OF_SESSION** , que precisa ser repetidos. 
+Estas são as definições de código de erro para o catálogo de endereços do Exchange e o Message Store, que possui o recurso reconexão. Última chamada para um catálogo global desconectado pode resultar no erro **MAPI_E_END_OF_SESSION** e precisará ser repetida. 
   
-MAPI suporta reconexão do Outlook para um servidor GC sem reconfiguração especial, mas algum outro erro códigos podem ser retornados ao cliente.
+O MAPI do Outlook aceita reconexão em um servidor GC sem uma reconfiguração especial, mas alguns códigos de erro podem ser retornados para o cliente.
   
 ||||
 |:-----|:-----|:-----|
-|MAPI_E_END_OF_SESSION  <br/> |0x80040200  <br/> |Retornados quando uma conexão foi desconectada.  <br/> |
-|MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Retornados quando o token de conexão de chamada de procedimento remoto (RPC) está desatualizado. Se o token da transação atual for diferente do token de conexão o que significa que ele tem reconectados, portanto **MAPI_E_RECONNECTED** é retornado e pode ser tratada da mesma forma **MAPI_E_END_OF_SESSION**. A chamada deve ser repetida.  <br/> |
-|MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Retornado quando a conexão estiver offline. Normalmente, isso significa que algo ocorreu no ambiente, como falha do servidor ou perda de conectividade de rede. Esse erro é mais provável ocorrer ao usar o modo cache perfil e tentar ignorar o cache para se comunicar com o servidor. Se o cache nunca conseguiu inicialmente estabelecer uma conexão ao servidor, talvez seja no estado em que **MAPI_E_OFFLINE** poderia representar offline.  <br/> |
+|MAPI_E_END_OF_SESSION  <br/> |0x80040200  <br/> |Retornado quando uma conexão tiver sido desconectada.  <br/> |
+|MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Retornado quando o token de conexão do procedimento remoto (RPC) estiver desatualizado. Se o token da transação é diferente do token de conexão que significa que se reconectou, isso é retornado**MAPI_E_RECONNECTED** e pode ser tratado na mesma **MAPI_E_END_OF_SESSION**. A chamada deve ser repetida.  <br/> |
+|MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Retornado quando a conexão está offline. Normalmente, isso significa que algo ocorreu no ambiente, como falha no servidor ou perda de conectividade de rede. Esse erro é mais provável que ocorra ao usar um modo cache do perfil tentando ignorar o cache de se comunicar com o servidor. Se o cache não conseguir estabelecer uma conexão com o servidor, o estado offline**MAPI_E_OFFLINE** pode surgir.  <br/> |
    
-Nenhum dos dois erros anteriores serão retornados em todos os cenários em que eles provavelmente seriam exibidos aplicar. Na maioria dos casos, **MAPI\_E_NETWORK_ERROR** ou **MAPI_E_CALL_FAILED** serão retornados. Nenhuma serão exibidas usando o download de [cliente MAPI do Microsoft Exchange Server e Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440) . 
+Nenhuma dos dois erros anteriores será retornado em todos os cenários onde eles poderiam ser usados. Na maioria dos casos **MAPI\_E_NETWORK_ERROR** ou **MAPI_E_CALL_FAILED** será retornado. Nem irá aparecer usando o download do [MAPI do cliente Microsoft Exchange Server e Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440). 
   
-### <a name="definitions-for-exchange-server-mailbox-cached-mode-quotas"></a>Cotas do modo de cache de definições de caixa de correio do Exchange Server
+### <a name="definitions-for-exchange-server-mailbox-cached-mode-quotas"></a>Definições para cotas de modo em cache para o Exchange Server Mailbox.
 
-As seguintes definições constantes são usadas pelo Microsoft Outlook 2010 e Microsoft Outlook 2013 para definir a troca de cache cotas de perfil de modo que são equivalentes para as cotas de caixa de correio do Exchange caso contrário, disponíveis apenas com um perfil online.
+As seguintes definições constantes são usadas pelo Microsoft Outlook 2010 e Microsoft Outlook 2013 para configurar as cotas de perfil do Exchange de modo que são equivalentes às cotas da caixa de correio Exchange em outros casos disponíveis somente com um perfil online.
   
 ```cpp
 #define PR_QUOTA_WARNING PROP_TAG( PT_LONG, 0x341A)
@@ -587,11 +587,11 @@ As seguintes definições constantes são usadas pelo Microsoft Outlook 2010 e M
 #define PR_QUOTA_RECEIVE PROP_TAG( PT_LONG, 0x341C)
 ```
 
-Essas propriedades mapeiam a suas propriedades online correspondentes e contêm os mesmos valores em quilobytes. PR_QUOTA_WARNING mapeia para PR_STORAGE_QUOTA_LIMIT, PR_QUOTA_SEND para PR_QUOTA_PROHIBIT_SEND_QUOTA e PR_QUOTA_RECEIVE para PR_PROHIBIT_RECEIVE_QUOTA.
+Essas propriedades mapeiam suas propriedades online correspondentes e contêm os mesmos valores em quilobytes. Mapear PR_QUOTA_WARNING para PR_STORAGE_QUOTA_LIMIT PR_QUOTA_SEND para PR_QUOTA_PROHIBIT_SEND_QUOTA e PR_QUOTA_RECEIVE para PR_PROHIBIT_RECEIVE_QUOTA.
   
-### <a name="definitions-for-message-format"></a>Definições para o formato da mensagem
+### <a name="definitions-for-message-format"></a>Definições para formato da mensagem
 
-As seguintes definições constantes são valores que são usados para definir a [Propriedade canônico de PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md).
+As seguintes definições constantes são valores usados para configurar a [propriedade Canonical PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md).
   
 ```cpp
 #define EDITOR_FORMAT_DONTKNOW  ((ULONG) 0) 
@@ -600,15 +600,15 @@ As seguintes definições constantes são valores que são usados para definir a
 #define EDITOR_FORMAT_RTF       ((ULONG) 3)
 ```
 
-### <a name="definitions-for-using-rpc-over-http"></a>Definições para usando RPC sobre HTTP
+### <a name="definitions-for-using-rpc-over-http"></a>Definições para usar RPC sobre HTTP*
 
-Consulte o tópico da [Propriedade canônico de PidTagRpcOverHttpFlags](pidtagrpcoverhttpflags-canonical-property.md) para definições de constantes usada como sinalizadores para definir a propriedade. 
+Confira as [propriedades Canonical das definições de tópico constante PidTagRpcOverHttpFlags](pidtagrpcoverhttpflags-canonical-property.md) usadas como sinalizadores para definir a propriedade. 
   
-Consulte o tópico da [Propriedade canônico de PidTagRpcOverHttpProxyAuthScheme](pidtagrpcoverhttpproxyauthscheme-canonical-property.md) para definições de constantes usada para definir a propriedade. 
+Confira as [propriedades Canonical das definições de tópico constante PidTagRpcOverHttpProxyAuthScheme](pidtagrpcoverhttpproxyauthscheme-canonical-property.md) usadas para definir a propriedade. 
   
 ### <a name="identifiers"></a>Identificadores
 
-Use o `DEFINE_OLEGUID` macro definida em guiddef.h de arquivo de cabeçalho do Software Development Kit (SDK) do Microsoft Windows para associar os seguintes nomes simbólicos de GUID com seus valores. 
+Use a `DEFINE_OLEGUID` macro estipulada no arquivo cabeçalho guiddef.h do Microsoft Software Development Kit do Windows (SDK do Windows) para associar os seguintes nomes simbólicos GUID e seus valores. 
   
 ```cpp
 //{0002038A-0000-0000-C000-000000000046}
@@ -617,7 +617,7 @@ DEFINE_OLEGUID(IID_IMessageRaw,0x0002038A, 0, 0);
 #endif
 ```
 
-O identificador a seguir se destina a seção de perfil de Capone de um catálogo de endereços, que contém uma propriedade [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) que desativa efetivamente o padrão para oferecer suporte a várias caixas de correio do Exchange ([MultiEx](using-multiple-exchange-accounts.md)) contêiner especificado pelo [SetDefaultDir](iaddrbook-setdefaultdir.md).
+O seguinte identificador é para o perfil Capone de um catálogo de endereços, que em suporte com multiplas caixas de correio Exchange ([MultiEx](using-multiple-exchange-accounts.md)) contendo a propriedade[PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) que efetivamente desativa o contêiner padrão especificado pelo [SetDefaultDir](iaddrbook-setdefaultdir.md).
   
 ```cpp
 // {00020D0A-0000-0000-C000-000000000046}
@@ -661,7 +661,7 @@ DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0
 
 ```
 
-### <a name="pst-override-handler-interface-identifiers"></a>Identificadores de interface do manipulador de substituição de PST
+### <a name="pst-override-handler-interface-identifiers"></a>Identificadores de interface de substituição do PST
 
 #### <a name="iidipstoverridereq"></a>IID_IPSTOVERRIDEREQ
   
@@ -681,7 +681,7 @@ DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x3
 
 - [Sobre as adições de MAPI](about-mapi-additions.md) 
 - [Sobre as propriedades nomeadas usadas pelo Outlook](about-named-properties-used-by-outlook.md)
-- [Acessar um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
-- [Abrir um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Acessar o Store em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Abrir o Store em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Gerenciar mensagens em um OST sem solicitar uma sincronização do modo cache do Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

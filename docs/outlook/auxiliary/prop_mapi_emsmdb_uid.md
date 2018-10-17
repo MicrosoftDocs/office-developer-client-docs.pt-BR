@@ -6,39 +6,39 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
-description: Representa uma estrutura ACCT_BIN que contém o UID de uma conta do Exchange.
-ms.openlocfilehash: 05e2e61601a08e0cb6f6dc99d265f12a10b19d3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Representa uma estrutura ACCT_BIN que contém a UID de uma conta do Exchange.
+ms.openlocfilehash: 6bb529da82cc24e41ddc70c5031f84050a2ece25
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766080"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395277"
 ---
 # <a name="propmapiemsmdbuid"></a>PROP_MAPI_EMSMDB_UID
 
-Representa uma estrutura [ACCT_BIN](acct_bin.md) que contém o UID de uma conta do Exchange. 
+Representa uma estrutura [ACCT_BIN](acct_bin.md) que contém a UID de uma conta do Exchange. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccount](iolkaccount.md).
+Confira [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x2009  <br/> |
 |Tipo de propriedade:  <br/> |PT_BINARY  <br/> |
 |Marca de propriedade:  <br/> |0x20090102  <br/> |
-|Access:  <br/> |Somente leitura  <br/> |
+|Acesso:  <br/> |Somente leitura  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Obtenha essa propriedade usando [IOlkAccount::GetProp](iolkaccount-getprop.md).
+Use essa propriedade por meio [IOlkAccount::GetProp](iolkaccount-getprop.md).
   
-Use [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) para verificar se a conta é uma conta do Exchange. Se estiver, **PROP\_MAPI_EMSMDB_UID** é um **ACCT_BIN** que contém o **emsmdbUID**, que é a ID exclusiva, para a conta do Exchange. Se a conta não for uma conta do Exchange, essa propriedade é indefinida.
+Use [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) para verificar se a conta é uma conta do Exchange. Se for, **PROP\_MAPI_EMSMDB_UID** será um **ACCT_BIN** que contém a **emsmdbUID**, que é a ID exclusiva da conta do Exchange. Se a conta não for do Exchange, essa propriedade ficará indefinida.
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a API de gerenciamento de conta](about-the-account-management-api.md) 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
-- [Usar várias contas do Exchange](http://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
-- [Propriedade canônica PidTagExchangeProfileSectionId](http://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
+- [Sobre a API de gerenciamento de contas](about-the-account-management-api.md) 
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
+- [Usar várias contas do Exchange](https://msdn.microsoft.com/library/4e1804bf-4c50-4942-a7ab-9a8caf1be7e5%28Office.15%29.aspx)  
+- [Propriedade canônica PidTagExchangeProfileSectionId](https://msdn.microsoft.com/library/4ad2f417-be8f-4fc8-9321-82097289074b%28Office.15%29.aspx)
 

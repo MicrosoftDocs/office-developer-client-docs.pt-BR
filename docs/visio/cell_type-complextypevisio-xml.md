@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38519bac-ce3e-9ded-d024-93dd7f34b107
-ms.openlocfilehash: b17a251844a00ce01ad572dc63d971329214a23f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: ae5f481d787ae5d07968df8cd0ef0eba6af26f9c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771472"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389460"
 ---
 # <a name="celltype-complextype-visio-xml"></a>Cell_Type complexType ('Visio XML')
 
-## <a name="type-information"></a>Informações de tipo
+## <a name="type-information"></a>Informação de tipo
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Extensão de base** <br/> |Nenhum  <br/> |
+|**Base da extensão** <br/> |Nenhum  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -58,7 +58,7 @@ ms.locfileid: "19771472"
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="child-elements"></a>Elementos filho
 
@@ -68,12 +68,12 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> ||Valores do tipo xsd: String.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> ||Valores do tipo xsd: String.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> ||Valores do tipo xsd: String.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> ||Valores do tipo xsd: String.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> ||Valores do tipo xsd: String.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> ||Valores do tipo xsd:string.  <br/> |
+|S  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
+|S  <br/> |xsd:string  <br/> |opcional  <br/> ||Valores do tipo xsd:string.  <br/> |
    
 

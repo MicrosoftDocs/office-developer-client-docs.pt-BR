@@ -1,5 +1,5 @@
 ---
-title: Esquema XML do Outlook Social Connector provider
+title: Esquema XML do provedor do Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: Todos os XML que é retornado por provedores OSC nos métodos de extensibilidade do provedor OSC deve estar em conformidade com o seguinte esquema XML de provedor OSC. O esquema OSC é reproduzido aqui mudada.
-ms.openlocfilehash: 0cf46d2a995fe9362777e853b0f13a9aceacfb99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Todos os XML retornados por provedores do OSC em métodos de extensibilidade de provedores do OSC devem ser compatíveis com o esquema XML a seguir. O Esquema OSC é reproduzido aqui por completo.
+ms.openlocfilehash: b1ec7888f5b6d9a7264f597e0c1ef3855d27b011
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770955"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394101"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML do Outlook Social Connector provider
+# <a name="outlook-social-connector-provider-xml-schema"></a>Esquema XML do provedor do Outlook Social Connector
 
-Todos os XML que é retornado por provedores OSC nos métodos de extensibilidade do provedor OSC deve estar em conformidade com o seguinte esquema XML de provedor OSC. O esquema OSC é reproduzido aqui mudada. O arquivo de definição de esquema atual, OutlookSocialProvider1_1.xsd, também é fornecido no download para os modelos de provedor que acompanham este artigo. Para obter mais informações, consulte [Outlook Social Connector 2013: modelos de provedor](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+Todos os XML retornados por provedores do OSC em métodos de extensibilidade de provedores do OSC devem ser compatíveis com o esquema XML a seguir. O Esquema OSC é reproduzido aqui por completo. O arquivo de definição de esquema atual, OutlookSocialProvider1_1.xsd, também é fornecido no download dos modelos de provedor que acompanham este artigo. Para obter mais informações, confira [Outlook Social Connector 2013: modelos de provedor](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,9 +27,9 @@ Todos os XML que é retornado por provedores OSC nos métodos de extensibilidade
     All Rights Reserved
 -->
 <xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />
@@ -462,7 +462,7 @@ Todos os XML que é retornado por provedores OSC nos métodos de extensibilidade
 
 - [Exemplo de XML de recursos](capabilities-xml-example.md)  
 - [Exemplo de XML de amigos](friends-xml-example.md) 
-- [Exemplo de XML de Feed de atividade](activity-feed-xml-example.md)  
+- [Exemplo de XML de feed de atividades](activity-feed-xml-example.md)  
 - [XML para recursos](xml-for-capabilities.md)  
 - [XML para amigos](xml-for-friends.md)  
 - [XML para atividades](xml-for-activities.md)  

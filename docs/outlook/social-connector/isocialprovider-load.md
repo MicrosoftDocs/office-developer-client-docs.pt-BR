@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
 description: Inicializa o provedor do Outlook Social Connector (OSC).
-ms.openlocfilehash: 172595db8d9467f22a80c8caf0e3444250826aaf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 73d14f66785417e80448f622256d0b9cb059b83c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770846"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385827"
 ---
 # <a name="isocialproviderload"></a>ISocialProvider::Load
 
@@ -27,15 +27,15 @@ HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR langua
 
 _socialProviderInterfaceVersion_
   
-> [in] A versão das interfaces do provedor do OSC esperado pelo OSC.
+> [in] A versão das interfaces do provedor do OSC esperada pelo OSC.
     
 _languageTag_
   
-> [in] A Internet Engineering Task Force (IETF) marca de idioma, definida por [[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt) e [[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt), que representa o idioma de interface do usuário atual do Outlook.
+> [in] A marcação de idioma da Internet Engineering Task Force (IETF), definida por [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) e [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), que representa o idioma atual da interface de usuário do Outlook.
     
 ## <a name="remarks"></a>Comentários
 
-O formato de versão para o parâmetro _socialProviderInterfaceVersion_ é _X_. _xxxx_, onde _X_ é a versão principal e _xxxx_ é a versão secundária do OSC. Para o Office 2013, verifique a versão principal sendo 15. 
+O formato de versão para o parâmetro _socialProviderInterfaceVersion_ é _X_. _xxxx_, em que _X_ é a versão principal e _xxxx_ é a versão secundária do OSC. No Office 2013, confira se a versão principal é a 15. 
   
 ## <a name="see-also"></a>Confira também
 

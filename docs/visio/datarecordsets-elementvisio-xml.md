@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
-description: Contém todos os elementos de DataRecordset no documento.
-ms.openlocfilehash: 205c4d963f111490698627040c190f322f2f36a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém todos os elementos DataRecordset do documento.
+ms.openlocfilehash: 7730e55f0025181db193a1e64226e879f9072e90
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771661"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401486"
 ---
 # <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets ('Visio XML')
 
-Contém todos os elementos de **DataRecordset** no documento. 
+Contém todos os elementos **DataRecordset** do documento. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Recordsets.XML  <br/> |
+|**Partes do documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,24 +36,24 @@ Contém todos os elementos de **DataRecordset** no documento.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
-Nenhum.
+Nenhum
   
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contém todos os elementos de **DataRecordset** no documento.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contém todos os elementos **DataRecordset** do documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |A identificação do conjunto de registros de dados ativo na janela **Dados externos** quando a janela fecha, para que ele possa ser restaurado na próxima vez que a janela é aberta.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |XSD: String  <br/> |opcional  <br/> |A ordem dos conjuntos de registros de dados exibidos nas guias da janela **Dados externos** . Uma lista ordenada de IDs de registros de dados, separados por ponto e vírgula.  <br/> |Valores do tipo xsd: String.  <br/> |
-|NextID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A identificação disponível próxima para um novo conjunto de registros de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do conjunto de registro de dados ativo na janela **Dados Externos** quando a janela é fechada, para que ele possa ser restaurado da próxima vez que a janela for aberta.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd:string  <br/> |opcional  <br/> |A ordem dos conjuntos de registros de dados exibidos nas guias da janela **Dados Externos**. Uma lista ordenada de IDs de conjunto de registros de dados, separados por ponto e vírgula.  <br/> |Valores do tipo xsd:string.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A próxima ID disponível para um novo conjunto de registros de dados.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

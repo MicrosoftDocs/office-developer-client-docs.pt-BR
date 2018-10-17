@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
-description: Especifica as propriedades usadas para identificar o autor de um comentário em um desenho.
-ms.openlocfilehash: 905dbc5d08cfb2010c9d749e59584cc294e54e86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Especifica propriedades usadas para identificar o autor de um comentário em um desenho.
+ms.openlocfilehash: 81e5121a953102c7d2e3a5383ae9bc775af4ba41
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771281"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386325"
 ---
 # <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) ('Visio XML')
 
-Especifica as propriedades usadas para identificar o autor de um comentário em um desenho.
+Especifica propriedades usadas para identificar o autor de um comentário em um desenho.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Comments.XML  <br/> |
+|**Partes do documento** <br/> |comments.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Especifica as propriedades usadas para identificar o autor de um comentário em 
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -50,11 +50,11 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Um valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Initials  <br/> |XSD: String  <br/> |opcional  <br/> |As iniciais do autor.  <br/> |Valores do tipo xsd: String.  <br/> |
-|Nome  <br/> |XSD: String  <br/> |opcional  <br/> |O nome do autor.  <br/> |Valores do tipo xsd: String.  <br/> |
-|ResolutionID  <br/> |XSD: String  <br/> |opcional  <br/> |Um identificador exclusivo para o autor.  <br/> |Valores do tipo xsd: String.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Valor baseado em um que identifica o autor.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|Initials  <br/> |xsd:string  <br/> |opcional  <br/> |As iniciais do autor.  <br/> |Valores do tipo xsd:string.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |opcional  <br/> |O nome do autor.  <br/> |Valores do tipo xsd:string.  <br/> |
+|ResolutionID  <br/> |xsd:string  <br/> |opcional  <br/> |Um identificador exclusivo do usuário.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 
