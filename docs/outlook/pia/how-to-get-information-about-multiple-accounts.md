@@ -1,0 +1,123 @@
+---
+title: Obter informações sobre várias contas
+TOCTitle: Get information about multiple accounts
+ms:assetid: 363f4058-3069-4ddc-b3ff-113a4dfd58c4
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184599(v=office.15)
+ms:contentKeyID: 55119794
+ms.date: 07/24/2014
+mtps_version: v=office.15
+ms.openlocfilehash: 42d0d8439473e9404cb2e94ed9e7e83d59b4c95c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25406684"
+---
+# <a name="get-information-about-multiple-accounts"></a><span data-ttu-id="024e9-102">Obter informações sobre várias contas</span><span class="sxs-lookup"><span data-stu-id="024e9-102">Get information about multiple accounts</span></span>
+
+<span data-ttu-id="024e9-103">O Outlook dá suporte a um perfil que contém uma ou mais contas conectadas a um Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="024e9-103">Outlook supports a profile that contains one or more accounts that are connected to an Exchange Server.</span></span> <span data-ttu-id="024e9-104">Este exemplo mostra como obter e exibir diversas informações sobre cada conta no perfil atual.</span><span class="sxs-lookup"><span data-stu-id="024e9-104">outlooknv1 supports a profile that contains one or more accounts that are connected to a Microsoft Exchange Server. This topic  shows how to obtain and display miscellaneous information about each account in the current profile.</span></span>
+
+## <a name="example"></a><span data-ttu-id="024e9-105">Exemplo</span><span class="sxs-lookup"><span data-stu-id="024e9-105">Example</span></span>
+
+<span data-ttu-id="024e9-p102">O método a seguir, EnumerateAccounts, exibe o nome da conta, o nome de usuário e o endereço SMTP (Simple Mail Transfer Protocol) de cada conta definida no perfil atual. Se a conta estiver conectada a um servidor do Exchange, EnumerateAccounts exibirá informações sobre a versão e o nome do servidor do Exchange. Se a conta residir em um repositório de entrega, EnumerateAccounts exibirá o nome do repositório de entrega padrão da conta.</span><span class="sxs-lookup"><span data-stu-id="024e9-p102">The following method, EnumerateAccounts, displays the account name, user name, and Simple Mail Transfer Protocol (SMTP) address for each account that is defined in the current profile. If the account is connected to an Exchange server, EnumerateAccounts displays the Exchange server name and version information. And if the account resides on a delivery store, EnumerateAccounts displays the name of the default delivery store for the account.</span></span>
+
+<span data-ttu-id="024e9-109">EnumerateAccounts acessa a maioria dessas informações do objeto [Account](https://msdn.microsoft.com/library/bb645103\(v=office.15\)), exceto quando o objeto **Account** não contém informações sobre o nome de usuário e endereço SMTP.</span><span class="sxs-lookup"><span data-stu-id="024e9-109">EnumerateAccounts accesses most of this information from the [Account](https://msdn.microsoft.com/library/bb645103\(v=office.15\)) object, except when the **Account** object does not contain information about the user name and SMTP address.</span></span> <span data-ttu-id="024e9-110">Nesse caso, EnumerateAccounts usa os objetos [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) e [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="024e9-110">In that case, EnumerateAccounts uses the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) and [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) objects.</span></span> 
+
+<span data-ttu-id="024e9-111">EnumerateAccounts obtém o objeto **AddressEntry** usando a propriedade [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) do objeto [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) obtido da propriedade [CurrentUser ](https://msdn.microsoft.com/library/ff184864\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="024e9-111">EnumerateAccounts obtains the **AddressEntry** object by using the [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) property of the [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) object obtained from the [CurrentUser](https://msdn.microsoft.com/library/ff184864\(v=office.15\)) property.</span></span> <span data-ttu-id="024e9-112">EnumerateAccounts obtém o objeto **ExchangeUser** usando o método [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) do objeto **AddressEntry**.</span><span class="sxs-lookup"><span data-stu-id="024e9-112">EnumerateAccounts obtains the **ExchangeUser** object by using the [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the **AddressEntry** object.</span></span> 
+
+<span data-ttu-id="024e9-113">Este é o algoritmo para obter várias informações usando os objetos Account, AddressEntry e ExchangeUser:</span><span class="sxs-lookup"><span data-stu-id="024e9-113">The following is the algorithm to obtain various information by using the Account, AddressEntry, and ExchangeUser objects:</span></span>
+
+- <span data-ttu-id="024e9-114">Se o objeto **Account** contiver informações sobre o nome de usuário e o endereço SMTP, use o objeto **Account** para exibir o nome da conta, o nome de usuário e o endereço SMTP, além de informações sobre a versão e o nome do servidor do Exchange, caso se trate de uma conta do Exchange.</span><span class="sxs-lookup"><span data-stu-id="024e9-114">If the **Account** object contains information about the user name and SMTP address, use the **Account** object to display the account name, user name, SMTP address, and Exchange server name and version information if the account is an Exchange account.</span></span>
+
+- <span data-ttu-id="024e9-115">Se o objeto **Account** não contiver informações sobre o nome de usuário e endereço SMTP; continue da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="024e9-115">Otherwise, the **Account** object does not contain information about the user name and SMTP address, and proceed as follows:</span></span>
+    
+  - <span data-ttu-id="024e9-116">Se a conta não for uma conta do Exchange, use o objeto **AddressEntry** para exibir o nome de usuário e endereço SMTP.</span><span class="sxs-lookup"><span data-stu-id="024e9-116">If the account is not an Exchange account, use the **AddressEntry** object to display the user name and SMTP address.</span></span>
+    
+  - <span data-ttu-id="024e9-117">Se a conta for uma conta do Exchange; continue da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="024e9-117">Otherwise, the account is an Exchange account, and proceed as follows:</span></span>
+        
+    1.  <span data-ttu-id="024e9-118">Use o objeto **Account** para exibir o nome da conta, o nome do servidor Exchange e as informações de versão do Exchange.</span><span class="sxs-lookup"><span data-stu-id="024e9-118">Use the **Account** object to display the account name, Exchange server name, and Exchange version information.</span></span>
+        
+    2.  <span data-ttu-id="024e9-119">Use o objeto **ExchangeUser** para exibir o nome de usuário e endereço SMTP.</span><span class="sxs-lookup"><span data-stu-id="024e9-119">Use the **ExchangeUser** object to display the user name and SMTP address.</span></span>
+
+<span data-ttu-id="024e9-120">Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="024e9-120">
+    If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the \*\*Microsoft.Office.Interop.Outlook\*\* namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C#.
+</span></span> <span data-ttu-id="024e9-121">O \*\* que usa a instrução\*\* não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública.</span><span class="sxs-lookup"><span data-stu-id="024e9-121">The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="024e9-122">A linha de código seguinte mostra como fazer a importação e atribuição em C\#.</span><span class="sxs-lookup"><span data-stu-id="024e9-122">The following line of code shows how to do the import and assignment in C\#.</span></span>
+
+```csharp
+using Outlook = Microsoft.Office.Interop.Outlook;
+```
+
+```csharp
+private void EnumerateAccounts()
+{
+    Outlook.Accounts accounts =
+        Application.Session.Accounts;
+    foreach (Outlook.Account account in accounts)
+    {
+        try
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Account: " + account.DisplayName);
+            if (string.IsNullOrEmpty(account.SmtpAddress)
+                || string.IsNullOrEmpty(account.UserName))
+            {
+                Outlook.AddressEntry oAE =
+                    account.CurrentUser.AddressEntry
+                    as Outlook.AddressEntry;
+                if (oAE.Type == "EX")
+                {
+                    Outlook.ExchangeUser oEU =
+                        oAE.GetExchangeUser()
+                        as Outlook.ExchangeUser;
+                    sb.AppendLine("UserName: " +
+                        oEU.Name);
+                    sb.AppendLine("SMTP: " +
+                        oEU.PrimarySmtpAddress);
+                    sb.AppendLine("Exchange Server: " +
+                        account.ExchangeMailboxServerName);
+                    sb.AppendLine("Exchange Server Version: " +
+                        account.ExchangeMailboxServerVersion); 
+                }
+                else
+                {
+                    sb.AppendLine("UserName: " +
+                        oAE.Name);
+                    sb.AppendLine("SMTP: " +
+                        oAE.Address);
+                }
+            }
+            else
+            {
+                sb.AppendLine("UserName: " +
+                    account.UserName);
+                sb.AppendLine("SMTP: " +
+                    account.SmtpAddress);
+                if(account.AccountType == 
+                    Outlook.OlAccountType.olExchange)
+                {
+                    sb.AppendLine("Exchange Server: " +
+                        account.ExchangeMailboxServerName);
+                    sb.AppendLine("Exchange Server Version: " +
+                        account.ExchangeMailboxServerVersion); 
+                }
+            }
+            if(account.DeliveryStore !=null)
+            {
+                sb.AppendLine("Delivery Store: " +
+                    account.DeliveryStore.DisplayName);
+            }
+            sb.AppendLine("---------------------------------");
+            Debug.Write(sb.ToString());
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
+        }
+    }
+}
+```
+
+## <a name="see-also"></a><span data-ttu-id="024e9-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="024e9-123">See also</span></span>
+
+- [<span data-ttu-id="024e9-124">Contas</span><span class="sxs-lookup"><span data-stu-id="024e9-124">Accounts</span></span>](accounts.md)
+
