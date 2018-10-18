@@ -1,26 +1,20 @@
 ---
-title: Exemplo da Propriedade Item (VB)
-TOCTitle: Item Property Example (VB)
-ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
-ms:contentKeyID: 48548430
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 93c0780ba601516f975d51aca89265c4d2a648e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464226"
+<span data-ttu-id="f565d-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade de Item (VB): exemplo de propriedade de Item (VB) === título: exemplo da propriedade Item (VB) TOCTitle: exemplo da propriedade Item (VB)</span><span class="sxs-lookup"><span data-stu-id="f565d-101"><<<<<<< HEAD title: Item Property Example (VB) TOCTitle: Item Property Example (VB) ======= title: Item property example (VB) TOCTitle: Item property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="f565d-102">ms:assetid de mestre: e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID: ms.date 48548430: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="f565d-102">master ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID: 48548430 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="item-property-example-vb"></a><span data-ttu-id="accde-102">Exemplo da Propriedade Item (VB)</span><span class="sxs-lookup"><span data-stu-id="accde-102">Item Property Example (VB)</span></span>
+
+<span data-ttu-id="f565d-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="f565d-103"><<<<<<< HEAD</span></span>
+# <a name="item-property-example-vb"></a><span data-ttu-id="f565d-104">Exemplo da Propriedade Item (VB)</span><span class="sxs-lookup"><span data-stu-id="f565d-104">Item Property Example (VB)</span></span>
+=======
+# <a name="item-property-example-vb"></a><span data-ttu-id="f565d-105">Exemplo da propriedade item (VB)</span><span class="sxs-lookup"><span data-stu-id="f565d-105">Item property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="f565d-106">mestre</span><span class="sxs-lookup"><span data-stu-id="f565d-106">master</span></span>
 
 
-<span data-ttu-id="accde-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="accde-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f565d-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f565d-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="accde-p101">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção. O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="accde-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="f565d-p101">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção. O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="f565d-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="accde-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Os campos do [Recordset](recordset-object-ado.md) retornado são então acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="accde-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="f565d-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Os campos do [Recordset](recordset-object-ado.md) retornado são então acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="f565d-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Exemplo da propriedade Prepared (VJ++)
-TOCTitle: Prepared Property Example (VJ++)
-ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
-ms:contentKeyID: 48544693
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: acad8c3f345c303dd212be019ff89b062e3d2f74
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463315"
+<span data-ttu-id="8cdbd-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade preparado (VJ + +): exemplo da propriedade preparado (VJ + +) === título: exemplo da propriedade Prepared (VJ + +) TOCTitle: exemplo da propriedade Prepared (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="8cdbd-101"><<<<<<< HEAD title: Prepared Property Example (VJ++) TOCTitle: Prepared Property Example (VJ++) ======= title: Prepared property example (VJ++) TOCTitle: Prepared property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8cdbd-102">ms:assetid de mestre: 4b8402c2-9604-aaba-ba75-43161a8df9c8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15) ms:contentKeyID: ms.date 48544693: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="8cdbd-102">master ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15) ms:contentKeyID: 48544693 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="prepared-property-example-vj"></a><span data-ttu-id="46440-102">Exemplo da propriedade Prepared (VJ++)</span><span class="sxs-lookup"><span data-stu-id="46440-102">Prepared Property Example (VJ++)</span></span>
+
+<span data-ttu-id="8cdbd-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="8cdbd-103"><<<<<<< HEAD</span></span>
+# <a name="prepared-property-example-vj"></a><span data-ttu-id="8cdbd-104">Exemplo da propriedade Prepared (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8cdbd-104">Prepared Property Example (VJ++)</span></span>
+=======
+# <a name="prepared-property-example-vj"></a><span data-ttu-id="8cdbd-105">Exemplo da propriedade PREPARED (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="8cdbd-105">Prepared property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8cdbd-106">mestre</span><span class="sxs-lookup"><span data-stu-id="8cdbd-106">master</span></span>
 
 
-<span data-ttu-id="46440-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="46440-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8cdbd-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8cdbd-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="46440-104">Este exemplo demonstra a propriedade [Prepared](prepared-property-ado.md) ao abrir dois objetos [Command](command-object-ado.md)  um preparado e um não preparado.</span><span class="sxs-lookup"><span data-stu-id="46440-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="8cdbd-108">Este exemplo demonstra a propriedade [Prepared](prepared-property-ado.md) ao abrir dois objetos [Command](command-object-ado.md)  um preparado e um não preparado.</span><span class="sxs-lookup"><span data-stu-id="8cdbd-108">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```java 
  

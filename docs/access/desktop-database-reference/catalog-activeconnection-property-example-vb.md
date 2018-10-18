@@ -1,23 +1,17 @@
 ---
-title: Exemplo da propriedade ActiveConnection de catálogo (VB)
-TOCTitle: Catalog ActiveConnection Property Example (VB)
-ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
-ms:contentKeyID: 48543348
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3615932258524aedc2b81dbb5a7c88d71eff727e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463447"
+<span data-ttu-id="7f967-101"><<<<<<< Título cabeça: exemplo de propriedade de ActiveConnection de catálogo (VB) TOCTitle: exemplo de propriedade de ActiveConnection de catálogo (VB) === título: exemplo da propriedade ActiveConnection de catálogo (VB) TOCTitle: ActiveConnection de catálogo exemplo da propriedade (VB)</span><span class="sxs-lookup"><span data-stu-id="7f967-101"><<<<<<< HEAD title: Catalog ActiveConnection Property Example (VB) TOCTitle: Catalog ActiveConnection Property Example (VB) ======= title: Catalog ActiveConnection property example (VB) TOCTitle: Catalog ActiveConnection property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="7f967-102">ms:assetid de mestre: 12a34091-e451-dbd1-e7f3-f794b84ee5b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15) ms:contentKeyID: ms.date 48543348: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="7f967-102">master ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15) ms:contentKeyID: 48543348 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="catalog-activeconnection-property-example-vb"></a><span data-ttu-id="b7ad7-102">Exemplo da propriedade ActiveConnection de catálogo (VB)</span><span class="sxs-lookup"><span data-stu-id="b7ad7-102">Catalog ActiveConnection Property Example (VB)</span></span>
 
-<span data-ttu-id="b7ad7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7ad7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7f967-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="7f967-103"><<<<<<< HEAD</span></span>
+# <a name="catalog-activeconnection-property-example-vb"></a><span data-ttu-id="7f967-104">Exemplo da propriedade ActiveConnection de catálogo (VB)</span><span class="sxs-lookup"><span data-stu-id="7f967-104">Catalog ActiveConnection Property Example (VB)</span></span>
+=======
+# <a name="catalog-activeconnection-property-example-vb"></a><span data-ttu-id="7f967-105">Exemplo da propriedade ActiveConnection catálogo (VB)</span><span class="sxs-lookup"><span data-stu-id="7f967-105">Catalog ActiveConnection property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="7f967-106">mestre</span><span class="sxs-lookup"><span data-stu-id="7f967-106">master</span></span>
 
-<span data-ttu-id="b7ad7-p101">Configurar a propriedade [ActiveConnection](activeconnection-property-adox.md) como uma conexão válida e aberta "abre" o catálogo. É possível acessar os objetos de esquema contidos em um catálogo aberto.</span><span class="sxs-lookup"><span data-stu-id="b7ad7-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="7f967-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f967-107">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="7f967-p101">Configurar a propriedade [ActiveConnection](activeconnection-property-adox.md) como uma conexão válida e aberta "abre" o catálogo. É possível acessar os objetos de esquema contidos em um catálogo aberto.</span><span class="sxs-lookup"><span data-stu-id="7f967-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```vb 
  
@@ -56,7 +50,7 @@ ms.locfileid: "25463447"
     ' EndOpenConnectionVB 
 ```
 
-<span data-ttu-id="b7ad7-106">Configurar a propriedade **ActiveConnection** como uma sequência de conexão válida também "abre" o catálogo.</span><span class="sxs-lookup"><span data-stu-id="b7ad7-106">Setting the **ActiveConnection** property to a valid connection string also "opens" the catalog.</span></span>
+<span data-ttu-id="7f967-110">Configurar a propriedade **ActiveConnection** como uma sequência de conexão válida também "abre" o catálogo.</span><span class="sxs-lookup"><span data-stu-id="7f967-110">Setting the **ActiveConnection** property to a valid connection string also "opens" the catalog.</span></span>
 
 ```vb
     ' BeginOpenConnection2VB 

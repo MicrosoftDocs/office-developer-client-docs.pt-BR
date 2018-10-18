@@ -1,24 +1,18 @@
 ---
-title: Exemplo das propriedades Provider e DefaultDatabase (VB)
-TOCTitle: Provider and DefaultDatabase Properties Example (VB)
-ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
-ms:contentKeyID: 48544107
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 445315a3d5271d5566667916180a05de74d44980
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462626"
+<span data-ttu-id="82f4a-101"><<<<<<< Título cabeça: Provider e DefaultDatabase propriedades exemplo (VB) TOCTitle: Provider e DefaultDatabase propriedades exemplo (VB) === título: exemplo das propriedades Provider e DefaultDatabase (VB) TOCTitle: provedor e Exemplo das propriedades DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="82f4a-101"><<<<<<< HEAD title: Provider and DefaultDatabase Properties Example (VB) TOCTitle: Provider and DefaultDatabase Properties Example (VB) ======= title: Provider and DefaultDatabase properties example (VB) TOCTitle: Provider and DefaultDatabase properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="82f4a-102">ms:assetid de mestre: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: ms.date 48544107: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="82f4a-102">master ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="54b5b-102">Exemplo das propriedades Provider e DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="54b5b-102">Provider and DefaultDatabase Properties Example (VB)</span></span>
+
+<span data-ttu-id="82f4a-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="82f4a-103"><<<<<<< HEAD</span></span>
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="82f4a-104">Exemplo das propriedades Provider e DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="82f4a-104">Provider and DefaultDatabase Properties Example (VB)</span></span>
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="82f4a-105">Exemplo das propriedades Provider e DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="82f4a-105">Provider and DefaultDatabase properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="82f4a-106">mestre</span><span class="sxs-lookup"><span data-stu-id="82f4a-106">master</span></span>
 
 
-<span data-ttu-id="54b5b-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="54b5b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="82f4a-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="82f4a-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="54b5b-p101">Este exemplo demonstra a propriedade [Provider](provider-property-ado.md) ao abrir três objetos [Connection](connection-object-ado.md) utilizando provedores diferentes. Ele também utiliza a propriedade [DefaultDatabase](defaultdatabase-property-ado.md) para definir o banco de dados padrão para o Microsoft ODBC Provider.</span><span class="sxs-lookup"><span data-stu-id="54b5b-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
+<span data-ttu-id="82f4a-p101">Este exemplo demonstra a propriedade [Provider](provider-property-ado.md) ao abrir três objetos [Connection](connection-object-ado.md) utilizando provedores diferentes. Ele também utiliza a propriedade [DefaultDatabase](defaultdatabase-property-ado.md) para definir o banco de dados padrão para o Microsoft ODBC Provider.</span><span class="sxs-lookup"><span data-stu-id="82f4a-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
 
 ```vb 
  

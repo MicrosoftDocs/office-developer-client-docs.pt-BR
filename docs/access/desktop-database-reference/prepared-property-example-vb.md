@@ -1,24 +1,18 @@
 ---
-title: Exemplo da propriedade Prepared (VB)
-TOCTitle: Prepared Property Example (VB)
-ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
-ms:contentKeyID: 48548000
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6e4048a21b8d4815dda3bc7a4f9377b24e8fac02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463229"
+<span data-ttu-id="4c221-101"><<<<<<< Título cabeça: exemplo de propriedade preparado (VB) TOCTitle: exemplo de propriedade preparado (VB) === título: exemplo da propriedade Prepared (VB) TOCTitle: exemplo da propriedade Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="4c221-101"><<<<<<< HEAD title: Prepared Property Example (VB) TOCTitle: Prepared Property Example (VB) ======= title: Prepared property example (VB) TOCTitle: Prepared property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="4c221-102">ms:assetid de mestre: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: ms.date 48548000: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="4c221-102">master ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: 48548000 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="prepared-property-example-vb"></a><span data-ttu-id="5f30c-102">Exemplo da propriedade Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="5f30c-102">Prepared Property Example (VB)</span></span>
+
+<span data-ttu-id="4c221-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="4c221-103"><<<<<<< HEAD</span></span>
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="4c221-104">Exemplo da propriedade Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="4c221-104">Prepared Property Example (VB)</span></span>
+=======
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="4c221-105">Exemplo da propriedade PREPARED (VB)</span><span class="sxs-lookup"><span data-stu-id="4c221-105">Prepared property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="4c221-106">mestre</span><span class="sxs-lookup"><span data-stu-id="4c221-106">master</span></span>
 
 
-<span data-ttu-id="5f30c-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f30c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4c221-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c221-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="5f30c-104">Este exemplo demonstra a propriedade [Prepared](prepared-property-ado.md) ao abrir dois objetos [Command](command-object-ado.md)  um preparado e um não preparado.</span><span class="sxs-lookup"><span data-stu-id="5f30c-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="4c221-108">Este exemplo demonstra a propriedade [Prepared](prepared-property-ado.md) ao abrir dois objetos [Command](command-object-ado.md)  um preparado e um não preparado.</span><span class="sxs-lookup"><span data-stu-id="4c221-108">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```vb 
  

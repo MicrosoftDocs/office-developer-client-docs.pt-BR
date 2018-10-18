@@ -1,24 +1,18 @@
 ---
-title: Exemplo das propriedades AbsolutePosition e CursorLocation (VB)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VB)
-ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
-ms:contentKeyID: 48544966
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d32d302e1e20534e40d6d3f4c12e3fcbce78816a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463997"
+<span data-ttu-id="7d1c0-101"><<<<<<< Título cabeça: AbsolutePosition e CursorLocation propriedades exemplo (VB) TOCTitle: ms:assetid AbsolutePosition e CursorLocation propriedades exemplo (VB): 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms: contentKeyID: ms.date 48544966: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="7d1c0-101"><<<<<<< HEAD title: AbsolutePosition and CursorLocation Properties Example (VB) TOCTitle: AbsolutePosition and CursorLocation Properties Example (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a><span data-ttu-id="998d1-102">Exemplo das propriedades AbsolutePosition e CursorLocation (VB)</span><span class="sxs-lookup"><span data-stu-id="998d1-102">AbsolutePosition and CursorLocation Properties Example (VB)</span></span>
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a><span data-ttu-id="7d1c0-102">Exemplo das propriedades AbsolutePosition e CursorLocation (VB)</span><span class="sxs-lookup"><span data-stu-id="7d1c0-102">AbsolutePosition and CursorLocation Properties Example (VB)</span></span>
+<span data-ttu-id="7d1c0-103">=== título: exemplo das propriedades AbsolutePosition e CursorLocation (VB) TOCTitle: ms:assetid de exemplo (VB) propriedades AbsolutePosition e CursorLocation: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 MS.Date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="7d1c0-103">======= title: AbsolutePosition and CursorLocation properties example (VB) TOCTitle: AbsolutePosition and CursorLocation properties example (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a><span data-ttu-id="7d1c0-104">Exemplo das propriedades AbsolutePosition e CursorLocation (VB)</span><span class="sxs-lookup"><span data-stu-id="7d1c0-104">AbsolutePosition and CursorLocation properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="7d1c0-105">mestre</span><span class="sxs-lookup"><span data-stu-id="7d1c0-105">master</span></span>
 
 
-<span data-ttu-id="998d1-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="998d1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7d1c0-106">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d1c0-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="998d1-p101">Este exemplo demonstra como a propriedade [AbsolutePosition](absoluteposition-property-ado.md) pode rastrear o progresso de um loop que enumera todos os registros de um [Recordset](recordset-object-ado.md). A propriedade [CursorLocation](cursorlocation-property-ado.md) é utilizada para habilitar a propriedade **AbsolutePosition**, definindo o cursor como um cliente.</span><span class="sxs-lookup"><span data-stu-id="998d1-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
+<span data-ttu-id="7d1c0-p101">Este exemplo demonstra como a propriedade [AbsolutePosition](absoluteposition-property-ado.md) pode rastrear o progresso de um loop que enumera todos os registros de um [Recordset](recordset-object-ado.md). A propriedade [CursorLocation](cursorlocation-property-ado.md) é utilizada para habilitar a propriedade **AbsolutePosition**, definindo o cursor como um cliente.</span><span class="sxs-lookup"><span data-stu-id="7d1c0-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
 
 ```vb 
  

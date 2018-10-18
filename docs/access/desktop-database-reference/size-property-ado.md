@@ -1,38 +1,36 @@
 ---
-title: Propriedade Size (ADO)
-TOCTitle: Size Property (ADO)
-ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
-ms:contentKeyID: 48543753
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6b690bd735f01e077b52c13c6c6e9b478234c1e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464760"
+<span data-ttu-id="3adda-101"><<<<<<< Título cabeça: TOCTitle de propriedade de tamanho (ADO): propriedade de tamanho (ADO) === título: tamanho da propriedade (ADO) TOCTitle: tamanho da propriedade (ADO)</span><span class="sxs-lookup"><span data-stu-id="3adda-101"><<<<<<< HEAD title: Size Property (ADO) TOCTitle: Size Property (ADO) ======= title: Size property (ADO) TOCTitle: Size property (ADO)</span></span>
+>>>>>>> <span data-ttu-id="3adda-102">ms:assetid de mestre: 24596b5c-b1cc-e97e-68b6-8ff53baf150b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15) ms:contentKeyID: ms.date 48543753: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="3adda-102">master ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15) ms:contentKeyID: 48543753 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="size-property-ado"></a><span data-ttu-id="3b280-102">Propriedade Size (ADO)</span><span class="sxs-lookup"><span data-stu-id="3b280-102">Size Property (ADO)</span></span>
+
+<span data-ttu-id="3adda-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="3adda-103"><<<<<<< HEAD</span></span>
+# <a name="size-property-ado"></a><span data-ttu-id="3adda-104">Propriedade Size (ADO)</span><span class="sxs-lookup"><span data-stu-id="3adda-104">Size Property (ADO)</span></span>
+=======
+# <a name="size-property-ado"></a><span data-ttu-id="3adda-105">Propriedade Size (ADO)</span><span class="sxs-lookup"><span data-stu-id="3adda-105">Size property (ADO)</span></span>
+>>>>>>> <span data-ttu-id="3adda-106">mestre</span><span class="sxs-lookup"><span data-stu-id="3adda-106">master</span></span>
 
 
-<span data-ttu-id="3b280-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b280-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3adda-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3adda-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="3b280-104">Indica o tamanho máximo, em bytes ou caracteres, de um objeto [Parameter](parameter-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3b280-104">Indicates the maximum size, in bytes or characters, of a [Parameter](parameter-object-ado.md) object.</span></span>
+<span data-ttu-id="3adda-108">Indica o tamanho máximo, em bytes ou caracteres, de um objeto [Parameter](parameter-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3adda-108">Indicates the maximum size, in bytes or characters, of a [Parameter](parameter-object-ado.md) object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="3b280-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="3b280-105">Settings and Return Values</span></span>
+<span data-ttu-id="3adda-109"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="3adda-109"><<<<<<< HEAD</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="3adda-110">Configurações e valor de retorno</span><span class="sxs-lookup"><span data-stu-id="3adda-110">Settings and Return Values</span></span>
+=======
+## <a name="settings-and-return-values"></a><span data-ttu-id="3adda-111">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="3adda-111">Settings and return values</span></span>
+>>>>>>> <span data-ttu-id="3adda-112">mestre</span><span class="sxs-lookup"><span data-stu-id="3adda-112">master</span></span>
 
-<span data-ttu-id="3b280-106">Define ou retorna um valor **Long** que indica o tamanho máximo em bytes ou caracteres de um valor em um objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="3b280-106">Sets or returns a **Long** value that indicates the maximum size in bytes or characters of a value in a **Parameter** object.</span></span>
+<span data-ttu-id="3adda-113">Define ou retorna um valor **Long** que indica o tamanho máximo em bytes ou caracteres de um valor em um objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="3adda-113">Sets or returns a **Long** value that indicates the maximum size in bytes or characters of a value in a **Parameter** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3b280-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="3b280-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3adda-114">Comentários</span><span class="sxs-lookup"><span data-stu-id="3adda-114">Remarks</span></span>
 
-<span data-ttu-id="3b280-108">Utilize a propriedade **Size** para determinar o tamanho máximo dos valores gravados em ou lidos a partir da propriedade [Value](value-property-ado.md) de um objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="3b280-108">Use the **Size** property to determine the maximum size for values written to or read from the [Value](value-property-ado.md) property of a **Parameter** object.</span></span>
+<span data-ttu-id="3adda-115">Utilize a propriedade **Size** para determinar o tamanho máximo dos valores gravados em ou lidos a partir da propriedade [Value](value-property-ado.md) de um objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="3adda-115">Use the **Size** property to determine the maximum size for values written to or read from the [Value](value-property-ado.md) property of a **Parameter** object.</span></span>
 
-<span data-ttu-id="3b280-109">Se você especificar um tipo de dados de tamanho variável para um objeto **Parameter** (por exemplo, qualquer tipo **String**, como **adVarChar**), será preciso definir a propriedade **Size** do objeto antes de acrescentá-lo à coleção [Parameters](parameters-collection-ado.md); caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="3b280-109">If you specify a variable-length data type for a **Parameter** object (for example, any **String** type, such as **adVarChar**), you must set the object's **Size** property before appending it to the [Parameters](parameters-collection-ado.md) collection; otherwise, an error occurs.</span></span>
+<span data-ttu-id="3adda-116">Se você especificar um tipo de dados de tamanho variável para um objeto **Parameter** (por exemplo, qualquer tipo **String**, como **adVarChar**), será preciso definir a propriedade **Size** do objeto antes de acrescentá-lo à coleção [Parameters](parameters-collection-ado.md); caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="3adda-116">If you specify a variable-length data type for a **Parameter** object (for example, any **String** type, such as **adVarChar**), you must set the object's **Size** property before appending it to the [Parameters](parameters-collection-ado.md) collection; otherwise, an error occurs.</span></span>
 
-<span data-ttu-id="3b280-110">Se você já tiver acrescentado o objeto **Parameter** à coleção **Parameters** de um objeto [Command](command-object-ado.md) e você alterar seu tipo para um tipo de dados de tamanho variável, será preciso definir a propriedade **Size** do objeto **Parameter** antes de executar o objeto **Command**; caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="3b280-110">If you have already appended the **Parameter** object to the **Parameters** collection of a [Command](command-object-ado.md) object and you change its type to a variable-length data type, you must set the **Parameter** object's **Size** property before executing the **Command** object; otherwise, an error occurs.</span></span>
+<span data-ttu-id="3adda-117">Se você já tiver acrescentado o objeto **Parameter** à coleção **Parameters** de um objeto [Command](command-object-ado.md) e você alterar seu tipo para um tipo de dados de tamanho variável, será preciso definir a propriedade **Size** do objeto **Parameter** antes de executar o objeto **Command**; caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="3adda-117">If you have already appended the **Parameter** object to the **Parameters** collection of a [Command](command-object-ado.md) object and you change its type to a variable-length data type, you must set the **Parameter** object's **Size** property before executing the **Command** object; otherwise, an error occurs.</span></span>
 
-<span data-ttu-id="3b280-p101">Se você utilizar o método [Refresh](refresh-method-ado.md) para obter as informações de parâmetro a partir de um provedor e ele retornar um ou mais objetos **Parameter** de tipo de dados de tamanho variável, o ADO poderá alocar memória para os parâmetros com base em seu potencial máximo de tamanho, o que poderia causar um erro durante a execução. Para evitar um erro, você deve definir explicitamente a propriedade **Size** para esses parâmetros antes de executar o comando.</span><span class="sxs-lookup"><span data-stu-id="3b280-p101">If you use the [Refresh](refresh-method-ado.md) method to obtain parameter information from the provider and it returns one or more variable-length data type **Parameter** objects, ADO may allocate memory for the parameters based on their maximum potential size, which could cause an error during execution. To prevent an error, you should explicitly set the **Size** property for these parameters before executing the command.</span></span>
+<span data-ttu-id="3adda-p101">Se você utilizar o método [Refresh](refresh-method-ado.md) para obter as informações de parâmetro a partir de um provedor e ele retornar um ou mais objetos **Parameter** de tipo de dados de tamanho variável, o ADO poderá alocar memória para os parâmetros com base em seu potencial máximo de tamanho, o que poderia causar um erro durante a execução. Para evitar um erro, você deve definir explicitamente a propriedade **Size** para esses parâmetros antes de executar o comando.</span><span class="sxs-lookup"><span data-stu-id="3adda-p101">If you use the [Refresh](refresh-method-ado.md) method to obtain parameter information from the provider and it returns one or more variable-length data type **Parameter** objects, ADO may allocate memory for the parameters based on their maximum potential size, which could cause an error during execution. To prevent an error, you should explicitly set the **Size** property for these parameters before executing the command.</span></span>
 
-<span data-ttu-id="3b280-113">A propriedade **Size** é leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="3b280-113">The **Size** property is read/write.</span></span>
+<span data-ttu-id="3adda-120">A propriedade **Size** é leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="3adda-120">The **Size** property is read/write.</span></span>
 

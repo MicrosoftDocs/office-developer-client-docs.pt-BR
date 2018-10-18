@@ -1,24 +1,18 @@
 ---
-title: Exemplo das propriedades AbsolutePosition e CursorLocation (VC++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++)
-ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
-ms:contentKeyID: 48546739
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 47525373d5034da4b6b2c88a2b96b050f1c6c496
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464655"
+<span data-ttu-id="965af-101"><<<<<<< Título cabeça: AbsolutePosition e CursorLocation exemplo das propriedades (VC + +) TOCTitle: AbsolutePosition e CursorLocation exemplo das propriedades (VC + +) ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) MS:contentKeyID: ms.date 48546739: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="965af-101"><<<<<<< HEAD title: AbsolutePosition and CursorLocation Properties Example (VC++) TOCTitle: AbsolutePosition and CursorLocation Properties Example (VC++) ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) ms:contentKeyID: 48546739 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a><span data-ttu-id="c0138-102">Exemplo das propriedades AbsolutePosition e CursorLocation (VC++)</span><span class="sxs-lookup"><span data-stu-id="c0138-102">AbsolutePosition and CursorLocation Properties Example (VC++)</span></span>
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a><span data-ttu-id="965af-102">Exemplo das propriedades AbsolutePosition e CursorLocation (VC++)</span><span class="sxs-lookup"><span data-stu-id="965af-102">AbsolutePosition and CursorLocation Properties Example (VC++)</span></span>
+<span data-ttu-id="965af-103">=== título: exemplo das propriedades AbsolutePosition e CursorLocation (VC + +) TOCTitle: ms:assetid de exemplo (VC + +) de propriedades AbsolutePosition e CursorLocation: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) ms:contentKeyID: 48546739 MS.Date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="965af-103">======= title: AbsolutePosition and CursorLocation properties example (VC++) TOCTitle: AbsolutePosition and CursorLocation properties example (VC++) ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15) ms:contentKeyID: 48546739 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a><span data-ttu-id="965af-104">Exemplo das propriedades AbsolutePosition e CursorLocation (VC + +)</span><span class="sxs-lookup"><span data-stu-id="965af-104">AbsolutePosition and CursorLocation properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="965af-105">mestre</span><span class="sxs-lookup"><span data-stu-id="965af-105">master</span></span>
 
 
-<span data-ttu-id="c0138-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0138-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="965af-106">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="965af-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c0138-p101">Este exemplo demonstra como a propriedade [AbsolutePosition](absoluteposition-property-ado.md) pode rastrear o progresso de um loop que enumera todos os registros de um [Recordset](recordset-object-ado.md). A propriedade [CursorLocation](cursorlocation-property-ado.md) é utilizada para habilitar a propriedade **AbsolutePosition**, definindo o cursor como um cliente.</span><span class="sxs-lookup"><span data-stu-id="c0138-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
+<span data-ttu-id="965af-p101">Este exemplo demonstra como a propriedade [AbsolutePosition](absoluteposition-property-ado.md) pode rastrear o progresso de um loop que enumera todos os registros de um [Recordset](recordset-object-ado.md). A propriedade [CursorLocation](cursorlocation-property-ado.md) é utilizada para habilitar a propriedade **AbsolutePosition**, definindo o cursor como um cliente.</span><span class="sxs-lookup"><span data-stu-id="965af-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
 
 ```cpp 
  
@@ -302,7 +296,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="c0138-106">**AbsolutePositionX.h**</span><span class="sxs-lookup"><span data-stu-id="c0138-106">**AbsolutePositionX.h**</span></span>
+<span data-ttu-id="965af-109">**AbsolutePositionX.h**</span><span class="sxs-lookup"><span data-stu-id="965af-109">**AbsolutePositionX.h**</span></span>
 
 ```cpp 
  

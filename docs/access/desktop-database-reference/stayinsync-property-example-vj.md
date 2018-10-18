@@ -1,26 +1,20 @@
 ---
-title: Exemplo da propriedade StayInSync (VJ++)
-TOCTitle: StayInSync Property Example (VJ++)
-ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
-ms:contentKeyID: 48548448
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8e4c5c7e342aaba0ba980250db3e97bcb5a8fa0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462417"
+<span data-ttu-id="87393-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade StayInSync (VJ + +): exemplo da propriedade StayInSync (VJ + +) === título: exemplo da propriedade StayInSync (VJ + +) TOCTitle: exemplo da propriedade StayInSync (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="87393-101"><<<<<<< HEAD title: StayInSync Property Example (VJ++) TOCTitle: StayInSync Property Example (VJ++) ======= title: StayInSync property example (VJ++) TOCTitle: StayInSync property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="87393-102">ms:assetid de mestre: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: ms.date 48548448: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="87393-102">master ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="45abd-102">Exemplo da propriedade StayInSync (VJ++)</span><span class="sxs-lookup"><span data-stu-id="45abd-102">StayInSync Property Example (VJ++)</span></span>
+
+<span data-ttu-id="87393-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="87393-103"><<<<<<< HEAD</span></span>
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="87393-104">Exemplo da propriedade StayInSync (VJ++)</span><span class="sxs-lookup"><span data-stu-id="87393-104">StayInSync Property Example (VJ++)</span></span>
+=======
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="87393-105">Exemplo da propriedade StayInSync (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="87393-105">StayInSync property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="87393-106">mestre</span><span class="sxs-lookup"><span data-stu-id="87393-106">master</span></span>
 
 
-<span data-ttu-id="45abd-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="45abd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="87393-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="87393-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="45abd-104">Este exemplo demonstra como a propriedade [StayInSync](stayinsync-property-ado.md) facilita o acesso às linhas em um [Recordset](recordset-object-ado.md) hierárquico.</span><span class="sxs-lookup"><span data-stu-id="45abd-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="87393-108">Este exemplo demonstra como a propriedade [StayInSync](stayinsync-property-ado.md) facilita o acesso às linhas em um [Recordset](recordset-object-ado.md) hierárquico.</span><span class="sxs-lookup"><span data-stu-id="87393-108">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="45abd-p101">O loop externo exibe o nome e o sobrenome, o estado e a identificação de cada autor. O **Recordset** acrescentado em cada linha é recuperado da coleção [Fields](fields-collection-ado.md) e atribuído automaticamente a **rstTitleAuthor** pela propriedade **StayInSync** sempre que o **Recordset** pai se move para uma nova linha. O loop interno exibe quatro campos a partir de cada linha no conjunto de registros acrescentado.</span><span class="sxs-lookup"><span data-stu-id="45abd-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="87393-p101">O loop externo exibe o nome e o sobrenome, o estado e a identificação de cada autor. O **Recordset** acrescentado em cada linha é recuperado da coleção [Fields](fields-collection-ado.md) e atribuído automaticamente a **rstTitleAuthor** pela propriedade **StayInSync** sempre que o **Recordset** pai se move para uma nova linha. O loop interno exibe quatro campos a partir de cada linha no conjunto de registros acrescentado.</span><span class="sxs-lookup"><span data-stu-id="87393-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```java 
  

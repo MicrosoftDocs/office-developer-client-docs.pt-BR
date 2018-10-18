@@ -1,26 +1,20 @@
 ---
-title: Exemplo da propriedade ActiveCommand (VB)
-TOCTitle: ActiveCommand Property Example (VB)
-ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
-ms:contentKeyID: 48545999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f0636141505599464c95af0b9a7df704f9e21dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464578"
+<span data-ttu-id="28adc-101"><<<<<<< Título cabeça: TOCTitle de exemplo de propriedade ActiveCommand (VB): ms:assetid de exemplo de propriedade ActiveCommand (VB): 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 18/09/2015 mtps_ versão: v=office.15</span><span class="sxs-lookup"><span data-stu-id="28adc-101"><<<<<<< HEAD title: ActiveCommand Property Example (VB) TOCTitle: ActiveCommand Property Example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="2e50c-102">Exemplo da propriedade ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="2e50c-102">ActiveCommand Property Example (VB)</span></span>
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="28adc-102">Exemplo da propriedade ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="28adc-102">ActiveCommand Property Example (VB)</span></span>
+<span data-ttu-id="28adc-103">=== título: exemplo da propriedade ActiveCommand (VB) TOCTitle: ms:assetid de exemplo (VB) de propriedade ActiveCommand: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="28adc-103">======= title: ActiveCommand property example (VB) TOCTitle: ActiveCommand property example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="28adc-104">Exemplo da propriedade ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="28adc-104">ActiveCommand property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="28adc-105">mestre</span><span class="sxs-lookup"><span data-stu-id="28adc-105">master</span></span>
 
 
-<span data-ttu-id="2e50c-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e50c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="28adc-106">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="28adc-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="2e50c-104">Este exemplo demonstra a propriedade [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2e50c-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="28adc-107">Este exemplo demonstra a propriedade [ActiveCommand](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="28adc-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="2e50c-105">Uma sub-rotina recebe um objeto [Recordset](recordset-object-ado.md) cuja propriedade **ActiveCommand** é utilizada para exibir o texto do comando e o parâmetro que criaram o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="2e50c-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="28adc-108">Uma sub-rotina recebe um objeto [Recordset](recordset-object-ado.md) cuja propriedade **ActiveCommand** é utilizada para exibir o texto do comando e o parâmetro que criaram o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="28adc-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -87,11 +81,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="2e50c-p101">A rotina **ActiveCommandXprint** recebe apenas um objeto **Recordset**, ainda assim ela deve imprimir o texto do comando e o parâmetro que criaram o **Recordset**. Isso pode ser feito porque a propriedade **ActiveCommand** do objeto **Recordset** produz o objeto [Command](command-object-ado.md) associado.</span><span class="sxs-lookup"><span data-stu-id="2e50c-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="28adc-p101">A rotina **ActiveCommandXprint** recebe apenas um objeto **Recordset**, ainda assim ela deve imprimir o texto do comando e o parâmetro que criaram o **Recordset**. Isso pode ser feito porque a propriedade **ActiveCommand** do objeto **Recordset** produz o objeto [Command](command-object-ado.md) associado.</span><span class="sxs-lookup"><span data-stu-id="28adc-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="2e50c-p102">A propriedade [CommandText](commandtext-property-ado.md) do objeto **Command** produz o comando com parâmetros que criou o **Recorset**. A coleção [Parameters](parameters-collection-ado.md) do objeto **Command** produz o valor que foi substituído pelo espaço reservado do parâmetro do comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="2e50c-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="28adc-p102">A propriedade [CommandText](commandtext-property-ado.md) do objeto **Command** produz o comando com parâmetros que criou o **Recorset**. A coleção [Parameters](parameters-collection-ado.md) do objeto **Command** produz o valor que foi substituído pelo espaço reservado do parâmetro do comando ("**?**").</span><span class="sxs-lookup"><span data-stu-id="28adc-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="2e50c-110">Finalmente, uma mensagem de erro ou o nome e a ID do autor são impressos.</span><span class="sxs-lookup"><span data-stu-id="2e50c-110">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="28adc-113">Finalmente, uma mensagem de erro ou o nome e a ID do autor são impressos.</span><span class="sxs-lookup"><span data-stu-id="28adc-113">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  

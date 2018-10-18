@@ -1,24 +1,18 @@
 ---
-title: Exemplo da propriedade ParentCatalog (VB)
-TOCTitle: ParentCatalog Property Example (VB)
-ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
-ms:contentKeyID: 48544295
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d8ea3b28b6b6d6dff7de630beeb8929b050a7609
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463967"
+<span data-ttu-id="86e5f-101"><<<<<<< Título cabeça: exemplo de propriedade ParentCatalog (VB) TOCTitle: exemplo de propriedade ParentCatalog (VB) === título: exemplo da propriedade ParentCatalog (VB) TOCTitle: exemplo da propriedade ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="86e5f-101"><<<<<<< HEAD title: ParentCatalog Property Example (VB) TOCTitle: ParentCatalog Property Example (VB) ======= title: ParentCatalog property example (VB) TOCTitle: ParentCatalog property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="86e5f-102">ms:assetid de mestre: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: ms.date 48544295: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="86e5f-102">master ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: 48544295 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="parentcatalog-property-example-vb"></a><span data-ttu-id="72a0a-102">Exemplo da propriedade ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="72a0a-102">ParentCatalog Property Example (VB)</span></span>
+
+<span data-ttu-id="86e5f-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="86e5f-103"><<<<<<< HEAD</span></span>
+# <a name="parentcatalog-property-example-vb"></a><span data-ttu-id="86e5f-104">Exemplo da propriedade ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="86e5f-104">ParentCatalog Property Example (VB)</span></span>
+=======
+# <a name="parentcatalog-property-example-vb"></a><span data-ttu-id="86e5f-105">Exemplo da propriedade ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="86e5f-105">ParentCatalog property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="86e5f-106">mestre</span><span class="sxs-lookup"><span data-stu-id="86e5f-106">master</span></span>
 
 
-<span data-ttu-id="72a0a-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="72a0a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="86e5f-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="86e5f-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="72a0a-p101">O código a seguir demonstra como usar a propriedade [ParentCatalog](parentcatalog-property-adox.md) para acessar uma propriedade específica do provedor-antes de acrescentar uma tabela a um catálogo. A propriedade é AutoIncrement, que cria um campo AutoIncrement em um banco de dados Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="72a0a-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
+<span data-ttu-id="86e5f-p101">O código a seguir demonstra como usar a propriedade [ParentCatalog](parentcatalog-property-adox.md) para acessar uma propriedade específica do provedor-antes de acrescentar uma tabela a um catálogo. A propriedade é AutoIncrement, que cria um campo AutoIncrement em um banco de dados Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="86e5f-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
 
 ```vb 
  
