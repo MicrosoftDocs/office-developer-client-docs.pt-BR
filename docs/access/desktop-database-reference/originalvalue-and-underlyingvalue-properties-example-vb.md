@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades OriginalValue e UnderlyingValue (VB)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VB)
-ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15)
-ms:contentKeyID: 48548189
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ab68cf5d1c398503b9d261bfb7a7b2e49a89a3d0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463515"
+<<<<<<< Título cabeça: OriginalValue e UnderlyingValue propriedades exemplo (VB) TOCTitle: OriginalValue e UnderlyingValue propriedades exemplo (VB) === título: exemplo das propriedades OriginalValue e UnderlyingValue (VB) TOCTitle: Exemplo das propriedades OriginalValue e UnderlyingValue (VB)
+>>>>>>> ms:assetid de mestre: de88d99d-7f2e-8418-b40f-0375b1d90a8e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15) ms:contentKeyID: ms.date 48548189: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>Exemplo das propriedades OriginalValue e UnderlyingValue (VB)
+=======
+# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>Exemplo das propriedades OriginalValue e UnderlyingValue (VB)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 

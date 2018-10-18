@@ -1,19 +1,13 @@
 ---
-title: Propriedades BOF, EOF (ADO)
-TOCTitle: BOF, EOF Properties (ADO)
-ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
-ms:contentKeyID: 48548768
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 14cd61f6bd2985d71321d848a6426c06c4c7a94d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462678"
+<<<<<<< Título cabeça: BOF e EOF propriedades (ADO) TOCTitle: BOF e EOF propriedades (ADO) === título: BOF, propriedades EOF (ADO) TOCTitle: BOF, propriedades EOF (ADO)
+>>>>>>> ms:assetid de mestre: f797e140-5572-1a4d-9afc-285f6a3868a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15) ms:contentKeyID: ms.date 48548768: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="bof-eof-properties-ado"></a>Propriedades BOF, EOF (ADO)
+=======
+# <a name="bof-eof-properties-ado"></a>BOF, propriedades EOF (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -22,7 +16,11 @@ ms.locfileid: "25462678"
 
   - **EOF**  Indica que a posição do registro atual é após o último registro em um objeto **Recordset**.
 
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
 ## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 As propriedades **BOF** e **EOF** retornam valores **booleanos**.
 

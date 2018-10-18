@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade StayInSync (VB)
-TOCTitle: StayInSync Property Example (VB)
-ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
-ms:contentKeyID: 48543535
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0c12ca42ec30ef40c6ef1f7c943079b4db58307a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464929"
+<<<<<<< Título cabeça: exemplo de propriedade StayInSync (VB) TOCTitle: exemplo de propriedade StayInSync (VB) === título: exemplo da propriedade StayInSync (VB) TOCTitle: exemplo da propriedade StayInSync (VB)
+>>>>>>> ms:assetid de mestre: 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID: ms.date 48543535: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="stayinsync-property-example-vb"></a>Exemplo da propriedade StayInSync (VB)
+=======
+# <a name="stayinsync-property-example-vb"></a>Exemplo da propriedade StayInSync (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

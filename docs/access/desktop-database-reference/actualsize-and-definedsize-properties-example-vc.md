@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades ActualSize e DefinedSize (VC++)
-TOCTitle: ActualSize and DefinedSize Properties Example (VC++)
-ms:assetid: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15)
-ms:contentKeyID: 48546328
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7470f734bc5ae18089ccb58e386a6879bc90fe75
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462650"
+<<<<<<< Título cabeça: ActualSize e DefinedSize exemplo das propriedades (VC + +) TOCTitle: ActualSize e DefinedSize exemplo das propriedades (VC + +) ms:assetid: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15) ms:contentKeyID: ms.date 48546328: 18/09/2015 mtps_version: v=office.15
 ---
+
 # <a name="actualsize-and-definedsize-properties-example-vc"></a>Exemplo das propriedades ActualSize e DefinedSize (VC++)
+=== título: exemplo das propriedades ActualSize e DefinedSize (VC + +) TOCTitle: ms:assetid de exemplo (VC + +) de propriedades ActualSize e DefinedSize: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15) ms:contentKeyID: ms.date 48546328: 10/16/2018 mtps_version: v=office.15
+---
+
+# <a name="actualsize-and-definedsize-properties-example-vc"></a>Exemplo das propriedades ActualSize e DefinedSize (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6999c003883675837ad333b6488820f3bb3a9f2e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465102"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606154"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Método DBEngine.OpenDatabase (DAO)
 
@@ -55,7 +55,7 @@ Abre um banco de dados especificado e retorna uma referência ao objeto **[Datab
 <td><p>o nome de um arquivo de banco de dados existente do Microsoft Access ou o DSN (nome da fonte de dados) de uma fonte de dados ODBC. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter mais informações sobre como configurar esse valor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para o banco de dados, como especificado em Comentários.</p></td>
@@ -76,7 +76,11 @@ Abre um banco de dados especificado e retorna uma referência ao objeto **[Datab
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Banco de dados
 

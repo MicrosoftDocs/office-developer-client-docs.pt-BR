@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade StayInSync (VJ++)
-TOCTitle: StayInSync Property Example (VJ++)
-ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
-ms:contentKeyID: 48548448
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8e4c5c7e342aaba0ba980250db3e97bcb5a8fa0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462417"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade StayInSync (VJ + +): exemplo da propriedade StayInSync (VJ + +) === título: exemplo da propriedade StayInSync (VJ + +) TOCTitle: exemplo da propriedade StayInSync (VJ + +)
+>>>>>>> ms:assetid de mestre: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: ms.date 48548448: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="stayinsync-property-example-vj"></a>Exemplo da propriedade StayInSync (VJ++)
+=======
+# <a name="stayinsync-property-example-vj"></a>Exemplo da propriedade StayInSync (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

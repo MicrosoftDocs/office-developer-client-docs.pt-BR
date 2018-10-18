@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d689e853f1104305a08c1193b098d99935035092
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0a5ad4b50ed0548bad1f9a5482ee6755ecc9e2c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464287"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603592"
 ---
 # <a name="stream-object-ado"></a>Objeto Stream (ADO)
 
@@ -64,8 +64,13 @@ Com os métodos e as propriedades e um objeto **Stream**, você pode fazer o seg
 
   - Especificar o modo de acesso para o **Stream** com a propriedade [Mode](mode-property-ado.md).
 
+<<<<<<< Cabeça
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs absolutas e relativas</A>.</P>
+> <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
+=======
+> [!NOTE]
+> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+>>>>>>> mestre
 
 

@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade DefinedSize (VB)
-TOCTitle: DefinedSize Property Example (VB)
-ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
-ms:contentKeyID: 48543551
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 97676573e430c390344492480e84c6690f45ac95
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462371"
+<<<<<<< Título cabeça: exemplo de propriedade DefinedSize (VB) TOCTitle: exemplo de propriedade DefinedSize (VB) === título: exemplo da propriedade DefinedSize (VB) TOCTitle: exemplo da propriedade DefinedSize (VB)
+>>>>>>> ms:assetid de mestre: 1bad5efa-dd23-b70d-c078-85a3be0729f1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15) ms:contentKeyID: ms.date 48543551: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="definedsize-property-example-vb"></a>Exemplo da propriedade DefinedSize (VB)
+=======
+# <a name="definedsize-property-example-vb"></a>Exemplo da propriedade DefinedSize (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

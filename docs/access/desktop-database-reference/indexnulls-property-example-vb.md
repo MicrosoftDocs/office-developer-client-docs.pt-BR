@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade IndexNulls (VB)
-TOCTitle: IndexNulls Property Example (VB)
-ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
-ms:contentKeyID: 48545417
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f35220f3c9426686a452e184330b8704fabb961a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465157"
+<<<<<<< Título cabeça: exemplo de propriedade IndexNulls (VB) TOCTitle: exemplo de propriedade IndexNulls (VB) === título: exemplo da propriedade IndexNulls (VB) TOCTitle: exemplo da propriedade IndexNulls (VB)
+>>>>>>> ms:assetid de mestre: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: ms.date 48545417: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="indexnulls-property-example-vb"></a>Exemplo da propriedade IndexNulls (VB)
+=======
+# <a name="indexnulls-property-example-vb"></a>Exemplo da propriedade IndexNulls (VB)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 

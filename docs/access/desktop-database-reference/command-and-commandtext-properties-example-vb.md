@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades Command e CommandText (VB)
-TOCTitle: Command and CommandText Properties Example (VB)
-ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
-ms:contentKeyID: 48545462
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0614e0bdd539abf237b78cae42386a3cb070ca41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464502"
+<<<<<<< Título cabeça: comando e exemplo de propriedades de CommandText (VB) TOCTitle: comando e exemplo de propriedades de CommandText (VB) === título: exemplo das propriedades Command e CommandText (VB) TOCTitle: Command e CommandText exemplo das propriedades (VB)
+>>>>>>> ms:assetid de mestre: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: ms.date 48545462: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="command-and-commandtext-properties-example-vb"></a>Exemplo das propriedades Command e CommandText (VB)
+=======
+# <a name="command-and-commandtext-properties-example-vb"></a>Exemplo das propriedades Command e CommandText (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades Filter e RecordCount (VC++)
-TOCTitle: Filter and RecordCount Properties Example (VC++)
-ms:assetid: 361499c3-cfb4-a26b-5ed7-5c880ae7d631
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15)
-ms:contentKeyID: 48544161
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4c927b2978aa48fc26b7e4bc34cb8dc8e9e965bd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462003"
+<<<<<<< Título cabeça: Filter e RecordCount exemplo das propriedades (VC + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VC + +) === título: exemplo das propriedades Filter e RecordCount (VC + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VC + +)
+>>>>>>> ms:assetid de mestre: 361499c3-cfb4-a26b-5ed7-5c880ae7d631 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15) ms:contentKeyID: ms.date 48544161: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="filter-and-recordcount-properties-example-vc"></a>Exemplo das propriedades Filter e RecordCount (VC++)
+=======
+# <a name="filter-and-recordcount-properties-example-vc"></a>Exemplo das propriedades Filter e RecordCount (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

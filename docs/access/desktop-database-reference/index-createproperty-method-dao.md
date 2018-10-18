@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47b7619123e9fd0761ff14f7938ae2bfe99f9b8a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 37fd3745966c9267006e6f67c85406d54b350dad
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463486"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606924"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Método Index.CreateProperty (DAO)
 
@@ -51,7 +51,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Property</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p>Type</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante que define o tipo de dados do novo objeto <strong>Property</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para obter tipos de dados válidos.</p></td>
@@ -72,7 +72,11 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Propriedade
 

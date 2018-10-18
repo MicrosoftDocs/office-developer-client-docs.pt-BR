@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5426dd17e174c0aa95517885fd43e7d00f21342b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a774dc4ee20e1f97e2b77d8835abb0524881e465
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463669"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606756"
 ---
 # <a name="microsoft-activex-data-objects-reference"></a>Referência do Microsoft ActiveX Data Objects
 
@@ -23,7 +23,9 @@ O Microsoft ActiveX Data Objects (ADO) permite que aplicativos clientes acessem 
 
 ## <a name="rds"></a>RDS
 
-O ADO também apresenta o RDS (serviço de dados remotos), com o qual você pode mover dados de um servidor para um aplicativo cliente ou uma página da Web, manipular os dados no cliente e retornar atualizações ao servidor em um única viagem de ida e volta.
+<<<<<<< Cabeça ADO também Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e dos recursos.
+=== ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
+>>>>>>> mestre
 
 ## <a name="ado-md"></a>ADO MD
 

@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Optimize (VB)
-TOCTitle: Optimize Property Example (VB)
-ms:assetid: f4576247-6057-c1fe-013d-74feaab33174
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
-ms:contentKeyID: 48548686
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8ace24040fa5820f43462819b4c45617d61b0a5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463964"
+<<<<<<< Título cabeça: TOCTitle de exemplo de propriedade otimizar (VB): exemplo de propriedade otimizar (VB) === título: (VB) de exemplo da propriedade Optimize TOCTitle: otimizar um exemplo da propriedade (VB)
+>>>>>>> ms:assetid de mestre: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: ms.date 48548686: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="optimize-property-example-vb"></a>Exemplo da propriedade Optimize (VB)
+=======
+# <a name="optimize-property-example-vb"></a>Exemplo da propriedade (VB) Optimize
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

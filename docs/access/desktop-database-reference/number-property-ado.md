@@ -1,26 +1,24 @@
 ---
-title: Propriedade Number (ADO)
-TOCTitle: Number Property (ADO)
-ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
-ms:contentKeyID: 48547243
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4e9b048643b1892197f610ef6d53e6ba46b170d8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461960"
+<<<<<<< Título cabeça: TOCTitle número Property (ADO): número Property (ADO) === título: propriedade (ADO) número TOCTitle: número de propriedade (ADO)
+>>>>>>> ms:assetid de mestre: b5103af5-356b-ec74-cd62-86e59467d491 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15) ms:contentKeyID: ms.date 48547243: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="number-property-ado"></a>Propriedade Number (ADO)
+=======
+# <a name="number-property-ado"></a>Propriedade Number (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o número que identifica exclusivamente um objeto [Error](error-object-ado.md).
 
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
 ## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Retorna um valor **Long** que pode corresponder a uma das constantes [ErrorValueEnum](errorvalueenum.md).
 

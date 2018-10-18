@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Count (VB)
-TOCTitle: Count Property Example (VB)
-ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
-ms:contentKeyID: 48546695
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c8d74444a5d25e20fdfe1d6f3c938788b7025199
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463057"
+<<<<<<< Título cabeça: exemplo de propriedade Count (VB) TOCTitle: exemplo de propriedade Count (VB) === título: exemplo da propriedade Count (VB) TOCTitle: exemplo da propriedade Count (VB)
+>>>>>>> ms:assetid de mestre: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: ms.date 48546695: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="count-property-example-vb"></a>Exemplo da propriedade Count (VB)
+=======
+# <a name="count-property-example-vb"></a>Exemplo da propriedade Count (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

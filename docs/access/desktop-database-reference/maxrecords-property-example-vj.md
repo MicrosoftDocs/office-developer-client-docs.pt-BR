@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade MaxRecords (VJ++)
-TOCTitle: MaxRecords Property Example (VJ++)
-ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
-ms:contentKeyID: 48548106
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7571950094da5c09df360e0cb80a4c056b252960
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463169"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade MaxRecords (VJ + +): exemplo da propriedade MaxRecords (VJ + +) === título: exemplo da propriedade MaxRecords (VJ + +) TOCTitle: exemplo da propriedade MaxRecords (VJ + +)
+>>>>>>> ms:assetid de mestre: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: ms.date 48548106: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="maxrecords-property-example-vj"></a>Exemplo da propriedade MaxRecords (VJ++)
+=======
+# <a name="maxrecords-property-example-vj"></a>Exemplo da propriedade MaxRecords (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249683(v=office.15)
 ms:contentKeyID: 48546496
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b7e6603d8da5bafc7a479cb8bfe94577a0679bd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 388cbc5a69f57778d8a9a46db8d1dbec5ddf09d6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464421"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604957"
 ---
 # <a name="getpermissions-method-adox"></a>Método GetPermissions (ADOX)
 
@@ -25,7 +25,11 @@ Retorna as permissões de um grupo ou usuário em um objeto ou contêiner de obj
 
 *ReturnValue* = *GrupoOuUsuário*. GetPermissions (*nome*, *ObjectType* \[,*ObjectTypeId*\])
 
-## <a name="return-value"></a>Return Value
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
+## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Retorna um valor **Long** que especifica um bitmask que contém as permissões do grupo ou usuário no objeto. Este valor pode ser uma ou mais das constantes [RightsEnum](rightsenum.md).
 

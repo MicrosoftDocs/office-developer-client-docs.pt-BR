@@ -1,19 +1,13 @@
 ---
-title: Propriedade Rowset (ADO)
-TOCTitle: Rowset Property (ADO)
-ms:assetid: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15)
-ms:contentKeyID: 48543515
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 95a33fb3d24e5cdbf608d268781be0dd536fa315
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463676"
+<<<<<<< Título cabeça: propriedade Rowset (ADO) TOCTitle: propriedade Rowset (ADO) === título: propriedade Rowset (ADO) TOCTitle: propriedade Rowset (ADO)
+>>>>>>> ms:assetid de mestre: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15) ms:contentKeyID: ms.date 48543515: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="rowset-property-ado"></a>Propriedade Rowset (ADO)
+=======
+# <a name="rowset-property-ado"></a>Propriedade RowSet (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -40,7 +34,11 @@ Colocar HRESULT\_Rowset (\[na\] IUnknown\* pRowset);
 
   - Um objeto **Rowset** do OLE DB.
 
+<<<<<<< Cabeça
 ## <a name="return-values"></a>Valores de retorno
+=======
+## <a name="return-values"></a>Valor de retorno
+>>>>>>> mestre
 
 Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
 

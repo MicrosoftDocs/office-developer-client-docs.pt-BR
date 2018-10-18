@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Type (Field) (VC++)
-TOCTitle: Type Property Example (Field) (VC++)
-ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
-ms:contentKeyID: 48547858
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 13bd264e4b48ed13cc1d9cd9f48281042c66f4f9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462420"
+<<<<<<< Título cabeça: exemplo da propriedade Type (Field) (VC + +) TOCTitle: exemplo da propriedade Type (Field) (VC + +) === título: exemplo da propriedade Type (Field) (VC + +) TOCTitle: exemplo da propriedade Type (Field) (VC + +)
+>>>>>>> ms:assetid de mestre: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: ms.date 48547858: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="type-property-example-field-vc"></a>Exemplo da propriedade Type (Field) (VC++)
+=======
+# <a name="type-property-example-field-vc"></a>Exemplo da propriedade Type (Field) (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc92153df224f9779097590308bb387c7ea74ecb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ffa0f2ee4f1b4c1e02f5d8a94e98f9da09c1cc6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464120"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603669"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Método Workspace.OpenConnection (DAO)
 
@@ -49,7 +49,7 @@ ms.locfileid: "25464120"
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para a conexão, como especificado em Comentários. Com base nessa valor, o gerenciador do driver ODBC solicita ao usuário informações de conexão, como o DSN (Nome da fonte de dados), o nome do usuário e a senha.</p></td>
@@ -70,7 +70,11 @@ ms.locfileid: "25464120"
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Connection
 

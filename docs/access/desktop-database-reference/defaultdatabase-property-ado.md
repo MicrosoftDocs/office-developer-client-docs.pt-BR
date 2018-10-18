@@ -1,26 +1,24 @@
 ---
-title: Propriedade DefaultDatabase (ADO)
-TOCTitle: DefaultDatabase Property (ADO)
-ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
-ms:contentKeyID: 48546784
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 136e6bc0d68aac987a331ce20b8fca36a72afa73
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463971"
+<<<<<<< Título cabeça: propriedade DefaultDatabase (ADO) TOCTitle: propriedade DefaultDatabase (ADO) === título: a propriedade DefaultDatabase (ADO) TOCTitle: a propriedade DefaultDatabase (ADO)
+>>>>>>> ms:assetid de mestre: a35c5631-f9d9-e51f-950b-e52169830d94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15) ms:contentKeyID: ms.date 48546784: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="defaultdatabase-property-ado"></a>Propriedade DefaultDatabase (ADO)
+=======
+# <a name="defaultdatabase-property-ado"></a>Propriedade DefaultDatabase (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o banco de dados padrão para um objeto [Connection](connection-object-ado.md).
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor **String** que avalia o nome de um banco de dados disponível no provedor.
 

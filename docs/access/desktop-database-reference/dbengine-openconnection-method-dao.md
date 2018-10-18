@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b2c43983937ece0d24146416af354968ae2bc7f2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3110bd89b0dc56b13a42c7152465c0f9b39e3175
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464077"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607043"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
 
@@ -53,7 +53,7 @@ ms.locfileid: "25464077"
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para a conexão, como especificado em Comentários. Com base nessa valor, o gerenciador do driver ODBC solicita ao usuário informações de conexão, como o DSN (Nome da fonte de dados), o nome do usuário e a senha.</p></td>
@@ -74,7 +74,11 @@ ms.locfileid: "25464077"
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Connection
 

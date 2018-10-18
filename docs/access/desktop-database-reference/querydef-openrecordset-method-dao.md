@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822070(v=office.15)
 ms:contentKeyID: 48547232
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50d31adf61df0848a22c9c22f229b22c7992d913
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 368c59f0ea207862c5b7ac5ea7f664295adb5188
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462504"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606833"
 ---
 # <a name="querydefopenrecordset-method-dao"></a>Método QueryDef.OpenRecordset (DAO)
 
@@ -57,7 +57,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p>
@@ -84,7 +84,11 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </table>
 
 
-### <a name="return-value"></a>Valor de Retorno
+<<<<<<< Cabeça
+### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Recordset
 

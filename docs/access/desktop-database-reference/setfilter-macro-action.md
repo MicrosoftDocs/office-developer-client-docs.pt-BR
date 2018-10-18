@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fad18c6e7a9ca185e15598b532bbc6de4e5b4f9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464765"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606392"
 ---
 # <a name="setfilter-macro-action"></a>Ação de macro DefinirFiltro
 
@@ -41,11 +41,19 @@ A ação **DefinirFiltro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do Filtro</p></td>
+<<<<<<< Cabeça
 <td><p>Se for fornecido, o nome de uma consulta ou de um filtro salvo como consulta. Este argumento ou o argumento WhereCondition é necessário em um banco de dados do cliente. Um banco de dados da Web, esse argumento não está disponível.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>
 <td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, no formulário, no relatório ou na tabela. Em um banco de dados da Web, esse argumento é obrigatório.</p></td>
+=======
+<td><p>Se for fornecido, o nome de uma consulta ou de um filtro salvo como consulta. Este argumento ou o argumento WhereCondition é necessário em um banco de dados do cliente. Um banco de dados da web, esse argumento não está disponível.</p></td>
+</tr>
+<tr class="even">
+<td><p>Condição Where</p></td>
+<td><p>Se for fornecido, uma cláusula SQL WHERE que restringe os registros na folha de dados, formulário, relatório ou tabela. Um banco de dados da web, este argumento será necessário.</p></td>
+>>>>>>>mestre
 </tr>
 <tr class="odd">
 <td><p>Nome do Controle</p></td>

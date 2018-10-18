@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33570bec65de4ff88667ad90b591c4f288c86d96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463824"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603949"
 ---
 # <a name="shape-commands-in-general"></a>Comandos shape em geral
 
@@ -62,7 +62,9 @@ Um comando shape pode conter uma cláusula especificando um comando de consulta 
 
 É possível usar uma cláusula SQL JOIN para relacionar duas tabelas; entretanto, um **Recordset** hierárquico pode representar as informações com mais eficiência. Cada linha de um **Recordset** criada por um JOIN repete as informações de uma das tabelas de forma redundante. Um **Recordset** hierárquico possui apenas um **Recordset** pai para cada um dos diversos objetos **Recordset** filho.
 
-Os comandos shape podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)).
+<<<<<<< Comandos Shape com os diretores podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+=== Comandos shape podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
+>>>>>>> mestre
 
 Comandos Shape podem ser aninhados. Ou seja, o *parent-command* *filho-command* próprio poderá ou um outro comando shape.
 

@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Version (VJ++)
-TOCTitle: Version Property Example (VJ++)
-ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
-ms:contentKeyID: 48547600
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d0f96081b484094837ee9cc2e472db55fb5d9144
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464250"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Version (VJ + +): exemplo da propriedade Version (VJ + +) === título: exemplo da propriedade Version (VJ + +) TOCTitle: exemplo da propriedade Version (VJ + +)
+>>>>>>> ms:assetid de mestre: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: ms.date 48547600: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="version-property-example-vj"></a>Exemplo da propriedade Version (VJ++)
+=======
+# <a name="version-property-example-vj"></a>Exemplo da propriedade Version (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

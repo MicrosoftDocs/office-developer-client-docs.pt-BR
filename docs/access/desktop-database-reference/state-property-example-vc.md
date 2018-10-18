@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade State (VC++)
-TOCTitle: State Property Example (VC++)
-ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
-ms:contentKeyID: 48547085
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8c5690ce0f5a0e4f00d00731c41ea32e5c5ea741
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464558"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade de estado (VC + +): exemplo da propriedade de estado (VC + +) === título: exemplo da propriedade de estado (VC + +) TOCTitle: exemplo da propriedade de estado (VC + +)
+>>>>>>> ms:assetid de mestre: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: ms.date 48547085: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="state-property-example-vc"></a>Exemplo da propriedade State (VC++)
+=======
+# <a name="state-property-example-vc"></a>Exemplo da propriedade State (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

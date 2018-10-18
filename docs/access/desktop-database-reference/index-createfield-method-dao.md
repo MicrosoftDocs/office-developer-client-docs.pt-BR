@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3723beee3907cc209951c3494a2bde2a4c17bfa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c4c8c4d897e58655aa986ba2a0c28b7eece235a7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463038"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605895"
 ---
 # <a name="indexcreatefield-method-dao"></a>Método Index.CreateField (DAO)
 
@@ -51,7 +51,7 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 <td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p>Type</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>O argumento não tem suporte neste objeto.</p></td>
@@ -66,7 +66,11 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Field
 

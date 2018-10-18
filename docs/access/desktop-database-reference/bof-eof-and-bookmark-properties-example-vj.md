@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades BOF, EOF e Bookmark (VJ++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++)
-ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
-ms:contentKeyID: 48545400
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0a0ac5777dc60f0d35169cf92504d09606b262f0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464446"
+<<<<<<< Título cabeça: BOF, EOF e Bookmark exemplo das propriedades (VJ + +) TOCTitle: BOF, EOF e Bookmark exemplo das propriedades (VJ + +) === título: exemplo das propriedades BOF, EOF e Bookmark (VJ + +) TOCTitle: propriedades BOF, EOF e Bookmark exemplo (VJ + +)
+>>>>>>> ms:assetid de mestre: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: ms.date 48545400: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="bof-eof-and-bookmark-properties-example-vj"></a>Exemplo das propriedades BOF, EOF e Bookmark (VJ++)
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a>Exemplo das propriedades BOF, EOF e Bookmark (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

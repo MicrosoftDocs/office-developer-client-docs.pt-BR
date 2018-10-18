@@ -1,25 +1,23 @@
 ---
-title: Propriedade DataMember (ADO)
-TOCTitle: DataMember Property (ADO)
-ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
-ms:contentKeyID: 48548787
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3a67864ab135c59f146a27f997d4b0df63865a50
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465351"
+<<<<<<< Título cabeça: propriedade DataMember (ADO) TOCTitle: propriedade DataMember (ADO) === título: propriedade DataMember (ADO) TOCTitle: propriedade DataMember (ADO)
+>>>>>>> ms:assetid de mestre: f89e1d42-7993-764b-4e8a-2f449903f792 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15) ms:contentKeyID: ms.date 48548787: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="datamember-property-ado"></a>Propriedade DataMember (ADO)
+=======
+# <a name="datamember-property-ado"></a>Propriedade DataMember (ADO)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o nome do membro de dados que será recuperado do objeto referido pela propriedade [DataSource](datasource-property-ado.md).
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor **String**. O nome não diferencia maiúsculas e minúsculas.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a7eaf97e61ffb1abfed3104644936867c325641
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2fdf3f40565f41a3d34b2202c4e079839af1f1ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463063"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602738"
 ---
 # <a name="type-property-ado-stream"></a>Propriedade Type (Stream do ADO)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25463063"
 
 Indica o tipo de dados contido no [Stream](stream-object-ado.md) (binário ou texto).
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor [StreamTypeEnum](streamtypeenum.md) que especifica o tipo de dados contido no objeto **Stream**. O valor padrão é **adTypeText**. Entretanto, se os dados binários forem inicialmente gravados em um **Stream** novo e vazio, a propriedade **Type** será alterada para **adTypeBinary**.
 

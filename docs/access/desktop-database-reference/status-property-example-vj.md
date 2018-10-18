@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Status (VJ++)
-TOCTitle: Status Property Example (VJ++)
-ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
-ms:contentKeyID: 48547452
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7e596c350165159c4cc813e3b958598534d07a53
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463695"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Status (VJ + +): exemplo da propriedade Status (VJ + +) === título: exemplo da propriedade Status (VJ + +) TOCTitle: exemplo da propriedade Status (VJ + +)
+>>>>>>> ms:assetid de mestre: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: ms.date 48547452: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="status-property-example-vj"></a>Exemplo da propriedade Status (VJ++)
+=======
+# <a name="status-property-example-vj"></a>Exemplo da propriedade status (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

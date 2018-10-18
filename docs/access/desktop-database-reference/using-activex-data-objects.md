@@ -1,40 +1,47 @@
 ---
-title: Usando objetos de dados ActiveX
-TOCTitle: Using ActiveX Data Objects
-ms:assetid: 64055c45-7a27-2296-468a-015362898329
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff194969(v=office.15)
-ms:contentKeyID: 48545279
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- vbaac10.chm5285627
-f1_categories:
+<<<<<<< Título cabeça: usando TOCTitle de objetos de dados ActiveX: usando o ActiveX Data Objects ms:assetid: 64055c45-7a27-2296-468a-015362898329 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194969(v=office.15) ms:contentKeyID: ms.date 48545279: 18/09/2015 === título: usar o ActiveX TOCTitle de objetos de dados: Descrição uso ActiveX Data Objects: o Microsoft Access oferece três objetos modelos para uso em criação, manutenção e gerenciamento de seus bancos de dados do Access e seus dados relacionados usando o Visual Basic.
+MS:AssetID: 64055c45-7a27-2296-468a-015362898329 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194969(v=office.15) ms:contentKeyID: ms.date 48545279: 10/16/2018
+>>>>>>> mtps_version mestre: v=office.15 f1_keywords:
+- vbaac10.chm5285627 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1f7c57ca785e115e9278145921bf50e8afe870ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463091"
 ---
+
+<<<<<<< Cabeça
 # <a name="using-activex-data-objects"></a>Usando objetos de dados ActiveX
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-O Microsoft Access oferece três modelos de objetos para uso em criação, manutenção e gerenciamento de bancos de dados do Access e seus dados relacionados através do Visual Basic.
+<a name="microsoft-access-provides-three-object-models-to-use-in-the-creation-maintaining-and-managing-of-your-access-databases-and-their-related-data-by-using-visual-basic"></a>O Microsoft Access oferece três modelos de objetos para uso em criação, manutenção e gerenciamento de bancos de dados do Access e seus dados relacionados através do Visual Basic.
+=======
+# <a name="use-activex-data-objects"></a>Use o ActiveX Data Objects
+
+**Aplica-se a**: Access 2013 | Office 2013
+
+O Microsoft Access oferece três modelos de objetos para uso em criação, manutenção e gerenciamento de seus bancos de dados do Access e seus dados relacionados usando o Visual Basic.
+>>>>>>> mestre
 
 ## <a name="microsoft-activex-data-objects-ado"></a>Microsoft ActiveX Data Objects (ADO)
 
 O ADO contém os objetos necessários para criar, atualizar e excluir registros em uma determinada fonte de dados.
 
+<<<<<<< Cabeça
 ## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>O Microsoft ADO Ext. for DDL and Security (ADOX)
 
 O ADOX fornece os objetos da Data Definition Language (DDL) necessários para a criação de novos bancos de dados e seus objetos contidos além dos objetos necessários para o gerenciamento da segurança.
 
 **O Microsoft Jet and Replication Objects 2.5 Library (JRO)**
 
-Como os objetos do ADO foram estruturados para funcionar com muitos bancos de dados além dos bancos de dados do Microsoft Jet, a funcionalidade específica do Jet foi segmentada na biblioteca JRO.
+<a name="since-ado-objects-were-designed-to-work-with-many-databases-in-addition-to-microsoft-jet-databases-functionality-specific-to-jet-was-broken-out-into-the-jro-library"></a>Como os objetos do ADO foram estruturados para funcionar com muitos bancos de dados além dos bancos de dados do Microsoft Jet, a funcionalidade específica do Jet foi segmentada na biblioteca JRO.
+=======
+## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>Microsoft ADO Ext. DDL e segurança (ADOX)
+
+O ADOX fornece os objetos da Data Definition Language (DDL) necessários para criar um novo banco de dados e seus objetos contidos além dos objetos necessários para gerenciar a segurança.
+
+### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a>O Microsoft Jet and Replication objetos 2.5 library (JRO)
+
+Porque os objetos ADO foram estruturados para funcionar com muitos bancos de dados, além dos bancos de dados do Microsoft Jet, a funcionalidade específica do Jet foi segmentada na biblioteca JRO.
+>>>>>>> mestre
 
 A tabela a seguir lista a funcionalidade fornecida por cada um deles em relação ao DAO.
 
@@ -53,75 +60,117 @@ A tabela a seguir lista a funcionalidade fornecida por cada um deles em relaçã
 <th><p>ADO1</p></th>
 <th><p>ADOX2</p></th>
 <th><p>JRO<br />
-(MDB do somente)</p></th>
+<<<<<<< Cabeça (MDB do somente)</p></th>
+=== (MDBs)</p></th>
+>>>>>>> master
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Criar conjuntos de registros</p></td>
+=======
+<td><p>Crie conjuntos de registros.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Propriedades Edit Startup</p></td>
+=======
+<td><p>Edite propriedades de inicialização.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p>X**</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Suporte a SQL ANSI92 ***</p></td>
+=======
+<td><p>Suporte ANSI92 SQL.* * *</p></td>
+>>>>>>>mestre
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Criar tabelas</p></td>
+=======
+<td><p>Crie tabelas.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Criar novo banco de dados</p></td>
+=======
+<td><p>Crie um novo banco de dados.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Propriedades Edit Existing Table</p></td>
+=======
+<td><p>Edite propriedades da tabela existente.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Criar relações entre tabelas</p></td>
+=======
+<td><p>Crie relações entre tabelas.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Editar configurações de segurança</p></td>
+=======
+<td><p>Edite configurações de segurança.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Suporte para o atributo Compactação dos dados da coluna</p></td>
+=======
+<td><p>Suporte para o atributo compactação dos dados da coluna.</p></td>
+>>>>>>>mestre
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Editar modos de exibição ou consultas SQL básicas armazenadas</p></td>
+=======
+<td><p>Edite armazenado, básica modos de exibição ou consultas SQL.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
@@ -142,56 +191,88 @@ A tabela a seguir lista a funcionalidade fornecida por cada um deles em relaçã
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Compactar/Codificar banco de dados</p></td>
+=======
+<td><p>Compactar/codifica banco de dados.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X4</p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Atualizar cache</p></td>
+=======
+<td><p>Atualize o cache.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Criar banco de dados replicável</p></td>
+=======
+<td><p>Torne o banco de dados replicável.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X3</p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Criar réplicas de banco de dados</p></td>
+=======
+<td><p>Criar réplicas de banco de dados.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X3</p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Sincronizar réplicas</p></td>
+=======
+<td><p>Sincronize as réplicas.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p>X3</p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Propriedades Edit Database</p></td>
+=======
+<td><p>Edite propriedades de banco de dados.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
+<<<<<<< Cabeça
 <td><p>Criar propriedades de banco de dados personalizadas</p></td>
+=======
+<td><p>Crie propriedades de banco de dados personalizado.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
+<<<<<<< Cabeça
 <td><p>Editar propriedades da coluna da tabela</p></td>
+=======
+<td><p>Edite propriedades de coluna da tabela.</p></td>
+>>>>>>>mestre
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -205,7 +286,7 @@ A tabela a seguir lista a funcionalidade fornecida por cada um deles em relaçã
 
 \*\* Disponível somente quando estiver trabalhando com projetos do Access.
 
-\*\*\* Embora o mecanismo do banco de dados do Access ofereça suporte parcial a SQL ANSI92, ele ainda não é totalmente compatível.
+<<<<<<< Cabeça \* \* \* Embora o mecanismo de banco de dados do Access dá suporte algum ANSI 92 SQL ele ainda não está totalmente compatível com ANSI92.
 
 1Usa o objeto **Connection** para fazer referência ao banco de dados.
 
@@ -217,6 +298,21 @@ A tabela a seguir lista a funcionalidade fornecida por cada um deles em relaçã
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Ao contrário do DAO, os objetos do ADO e ADOX podem executar as ações marcadas em bancos de dados que não sejam Jet desde que o provedor desses bancos de dados ofereça suporte a essa ação.</P>
+> <a name="punlike-dao-ado-and-adox-objects-can-perform-the-marked-actions-in-databases-other-then-jet-as-long-as-the-provider-for-those-databases-supports-that-actionp"></a><P>[!OBSERVAçãO] Ao contrário do DAO, os objetos do ADO e ADOX podem executar as ações marcadas em bancos de dados que não sejam Jet desde que o provedor desses bancos de dados ofereça suporte a essa ação.</P>
+=======
+\*\*\*Embora o mecanismo de banco de dados do Access oferece suporte algum ANSI 92 SQL, ele ainda não está totalmente compatível com ANSI92.
+
+1 objeto usa **Conexão** ao banco de dados de referência.
+
+Objeto de usos **catálogo** 2 ao banco de dados de referência.
+
+Objeto de usos **réplica** 3 ao banco de dados de referência.
+
+Objeto de usos **JetEngine** 4 ao banco de dados de referência.
+
+
+> [!NOTE]
+> Ao contrário do DAO, objetos ADO e ADOX podem executar as ações marcadas em bancos de dados que não sejam Jet desde que o provedor desses bancos de dados oferece suporte a essa ação.
+>>>>>>> mestre
 
 

@@ -1,22 +1,11 @@
 ---
-title: Usar o Microsoft Access como um servidor DDE
-TOCTitle: Use Microsoft Access as a DDE Server
-ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
-ms:contentKeyID: 48546801
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- vbaac10.chm5186349
-f1_categories:
+título: usar o Microsoft Access como um servidor DDE TOCTitle: usar o Microsoft Access como um servidor DDE <<<<<<< ms:assetid cabeça: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: ms.date 48546801: 18/09/2015 === Descrição: Microsoft Access oferece suporte a intercâmbio dinâmico de dados (DDE) como um aplicativo de destino (cliente) ou um aplicativo de origem (servidor).  
+MS:AssetID: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: ms.date 48546801: 10/16/2018
+>>>>>>> mtps_version mestre: v=office.15 f1_keywords:
+- vbaac10.chm5186349 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84b4e30877488d84e03839764c1996053e76a2e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464501"
 ---
+
 # <a name="use-microsoft-access-as-a-dde-server"></a>Usar o Microsoft Access como um servidor DDE
 
 **Aplica-se a**: Access 2013 | Office 2013 
@@ -26,12 +15,15 @@ O Microsoft Access dá suporte à DDE (troca dinâmica de dados) como um aplicat
 > [!TIP]
 > [!DICA] Caso você precise manipular objetos do Microsoft Access a partir de outro aplicativo, convém considerar o uso da Automação.
 
-Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Uma vez iniciada uma conversação sobre um tópico específico, somente um item de dado associado àquele tópico pode ser transferido.
+<<<<<<< Conversação DDE de uma de cabeça entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Uma vez iniciada uma conversação sobre um tópico específico, somente um item de dado associado àquele tópico pode ser transferido.
+=== Uma conversação DDE entre um cliente e servidor é estabelecida em um tópico específico. Um tópico pode ser um arquivo de dados em um formato com suporte do aplicativo servidor ou o tópico System, que fornece informações sobre o próprio aplicativo servidor. Depois de uma conversação iniciada em um tópico específico, somente um item de dados associado àquele tópico pode ser transferido.
+>>>>>>> mestre
 
 Por exemplo, suponha que você esteja executando o Microsoft Word e queira inserir dados de um banco de dados específico do Microsoft Access em um documento. Comece uma conversação DDE com o Microsoft Access abrindo um canal DDE com a função **DDEInitiate** e especificando o nome do arquivo de banco de dados como o tópico. Em seguida, será transferir os dados daquele banco de dados para o Microsoft Word por meio desse canal.
 
 Como um servidor DDE, o Microsoft Access dá suporte a estes tópicos:
 
+<<<<<<< Cabeça
   - O tópico System
 
   - O nome de um banco de dados (tópico *database*)
@@ -63,6 +55,33 @@ O aplicativo cliente pode usar a função **DDERequest** para solicitar dados de
 > <P>[!OBSERVAçãO] Quando o aplicativo cliente termina de receber dados através de um canal DDE, deve fechar aquele canal para poupar recursos de memória.</P>
 
 
+=======
+- O tópico System
+
+- O nome de um banco de dados (tópico *database*)
+
+- O nome de uma tabela (tópico *tablename*)
+
+- O nome de uma consulta (tópico *queryname*)
+
+- Uma cadeia SQL do Microsoft Access (tópico *sqlstring*)
+
+Depois que você estabelecer uma conversação DDE, você pode usar a instrução **DDEExecute** para enviar um comando do cliente para o aplicativo de servidor. Quando usado como um servidor DDE, o Microsoft Access reconhece qualquer um destes como comandos válidos:
+
+- O nome de uma macro no banco de dados atual.
+
+- Qualquer ação executável no Visual Basic através de um dos métodos do objeto **DoCmd**.
+
+- As ações AbrirBancoDeDados e FecharBancoDeDados, usadas somente para operações DDE. (Um exemplo de como usar essas ações encontra-se adiante neste tópico).
+
+> [!NOTE]
+> [!OBSERVAçãO] Quando você especifica uma ação de macro como uma instrução **DDEExecute**, a ação e quaisquer argumentos seguem a sintaxe do objeto **DoCmd** e precisam vir entre colchetes ([ ]). No entanto, aplicativos que dão suporte à DDE não reconhecem constantes intrínsecas em operações DDE. Além disso, argumentos de cadeias de caracteres precisam vir entre aspas (" ") se a cadeia contiver uma vírgula. Senão, as aspas são desnecessárias.
+
+O aplicativo cliente pode usar a função **DDERequest** para solicitar dados de texto do aplicativo servidor através de um canal DDE aberto. Outra alternativa é o cliente usar a instrução **DDEPoke** para enviar dados ao aplicativo servidor. Quando a transferência de dados for concluída, o cliente pode usar a instrução **DDETerminate** para fechar o canal DDE ou a instrução **DDETerminateAll** para fechar todos os canais abertos.
+
+> [!NOTE]
+> [!OBSERVAçãO] Quando o aplicativo cliente termina de receber dados através de um canal DDE, deve fechar aquele canal para poupar recursos de memória.
+>>>>>>> mestre
 
 O exemplo a seguir demonstra como criar um procedimento do Microsoft Word com Visual Basic que usa o Microsoft Access como um servidor DDE. (Para este exemplo funcionar, o Microsoft Access deve estar sendo executado).
 
@@ -93,11 +112,17 @@ O exemplo a seguir demonstra como criar um procedimento do Microsoft Word com Vi
     End Sub
 ```
 
-As seções a seguir fornecem informações sobre os tópicos DDE válidos com suporte do Microsoft Access.
+<a name="-head"></a><<<<<<< Cabeça
+=======
+<br/>
+
+>>>>>>> As seções a seguir fornecem informações sobre os tópicos DDE válidos com suporte pelo Microsoft Access de mestre.
 
 ## <a name="the-system-topic"></a>O tópico System
 
-O tópico System é um tópico padrão para todos os aplicativos Microsoft baseada no Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essa informação, seu código deve primeiro chamar a função **DDEInitiate** com como o argumento *topic* e executar a instrução **DDERequest** com um dos seguintes fornecidos para o argumento *item* .
+<<<<<<< Tópico cabeça o sistema é um tópico padrão para todos os aplicativos Microsoft baseada no Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essa informação, seu código deve primeiro chamar a função **DDEInitiate** com como o argumento *topic* e executar a instrução **DDERequest** com um dos seguintes fornecidos para o argumento *item* .
+=== O tópico System é um tópico padrão para todos os aplicativos Microsoft baseada no Windows. Ele fornece informações sobre os outros tópicos com suporte do aplicativo. Para acessar essa informação, seu código deve primeiro chamar a função **DDEInitiate** com o argumento *topic* e executar a instrução **DDERequest** com um dos seguintes fornecidos para o argumento *item* .
+>>>>>>> mestre
 
 <table>
 <colgroup>
@@ -130,6 +155,10 @@ O tópico System é um tópico padrão para todos os aplicativos Microsoft basea
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< Cabeça
+=======
+<br/>
+>>>>>>> mestre
 
 O exemplo a seguir demonstra o uso das funções **DDEInitiate** e **DDERequest** com o tópico System:
 
@@ -149,11 +178,16 @@ O exemplo a seguir demonstra o uso das funções **DDEInitiate** e **DDERequest*
 
 O tópico de *banco de dados* é o nome de arquivo do banco de dados existente. É possível digitar apenas o nome básico (Northwind) ou seu caminho e extensão. mdb (c:\\acesso\\amostras\\Northwind. mdb). Após iniciar uma conversação DDE com o banco de dados, você pode solicitar uma lista dos objetos naquele banco de dados.
 
+<<<<<<< Cabeça
 
 > [!NOTE]
 > <P>[!OBSERVAçãO] Não é possível usar a DDE para consultar o arquivo de informações do grupo de trabalho do Microsoft Access.</P>
 
 
+=======
+> [!NOTE]
+> [!OBSERVAçãO] Não é possível usar a DDE para consultar o arquivo de informações do grupo de trabalho do Microsoft Access.
+>>>>>>> mestre
 
 O tópico *database* oferece suporte aos seguintes itens.
 
@@ -171,6 +205,7 @@ O tópico *database* oferece suporte aos seguintes itens.
 <tbody>
 <tr class="odd">
 <td><p>TableList</p></td>
+<<<<<<< Cabeça
 <td><p>Uma lista de tabelas.</p></td>
 </tr>
 <tr class="even">
@@ -192,6 +227,29 @@ O tópico *database* oferece suporte aos seguintes itens.
 <tr class="even">
 <td><p>ModuleList</p></td>
 <td><p>Uma lista de módulos.</p></td>
+=======
+<td><p>Uma lista de tabelas</p></td>
+</tr>
+<tr class="even">
+<td><p>QueryList</p></td>
+<td><p>Uma lista de consultas</p></td>
+</tr>
+<tr class="odd">
+<td><p>FormList</p></td>
+<td><p>Uma lista de formulários</p></td>
+</tr>
+<tr class="even">
+<td><p>ReportList</p></td>
+<td><p>Uma lista de relatórios</p></td>
+</tr>
+<tr class="odd">
+<td><p>MacroList</p></td>
+<td><p>Uma lista de macros</p></td>
+</tr>
+<tr class="even">
+<td><p>ModuleList</p></td>
+<td><p>Uma lista dos módulos</p></td>
+>>>>>>>mestre
 </tr>
 <tr class="odd">
 <td><p>ViewList</p></td>
@@ -208,6 +266,10 @@ O tópico *database* oferece suporte aos seguintes itens.
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< Cabeça
+=======
+<br/>
+>>>>>>> mestre
 
 O exemplo a seguir mostra como abrir o formulário Employees no exemplo de banco de dados Northwind a partir de um procedimento do Visual Basic:
 
@@ -295,6 +357,7 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 </tr>
 <tr class="even">
 <td><p>FieldNames; T</p></td>
+<<<<<<< Cabeça
 <td><p>Uma lista de duas linhas de nomes de campos (primeira linha) e seus tipos de dados (segunda linha).</p></td>
 </tr>
 <tr class="odd">
@@ -356,6 +419,28 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 <tr class="odd">
 <td><p></p></td>
 <td><p>12</p></td>
+=======
+<td><p>Uma lista de duas linhas de nomes de campos (primeira linha) e seus tipos de dados (segunda linha).</p>
+<p>Estes são os valores retornados:</p>
+<p>Valor</p>
+<p><ul>
+<li>0</li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+<li>12</li>
+</ul>
+</p>
+</td>
+>>>>>>>mestre
 </tr>
 <tr class="even">
 <td><p>NextRow</p></td>
@@ -388,6 +473,10 @@ A tabela a seguir lista os itens válidos para os tópicos TABELA *tablename*, C
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< Cabeça
+=======
+<br/>
+>>>>>>> mestre
 
 O exemplo a seguir mostra como usar DDE em um procedimento do Visual Basic para solicitar dados de uma tabela no exemplo de banco de dados Northwind e inserir os dados em um arquivo de texto:
 

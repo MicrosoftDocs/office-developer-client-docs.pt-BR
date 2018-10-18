@@ -1,20 +1,14 @@
 ---
-title: Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout (VC + +)
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)
-ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
-ms:contentKeyID: 48543780
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3a1017428f473ee48882ba808c0905c6874d2d4d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462735"
+<<<<<<< Título cabeça: ActiveConnection, CommandText, CommandTimeout exemplo das propriedades (VC + +) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e direção exemplo das propriedades (VC + +) ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: ms.date 48543780: 18/09/2015 mtps_version: v=office.15
 ---
+
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a>Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction (VC++)
 
+=== título: ActiveConnection, CommandText, CommandTimeout exemplo das propriedades (VC + +) TOCTitle: ms:assetid de exemplo (VC + +) de propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e direção: 254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: ms.date 48543780: 10/17/2018 mtps_version: v=office.15
+---
+
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a>Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e Direction (VC + +)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 

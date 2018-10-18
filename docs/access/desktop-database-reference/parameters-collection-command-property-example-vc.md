@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Command, coleção Parameters (VC++)
-TOCTitle: Parameters Collection, Command Property Example (VC++)
-ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
-ms:contentKeyID: 48545237
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b6fd25d09338e15086fc520c1d4b3a83b859d9a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462301"
+<<<<<<< Título cabeça: coleção Parameters, exemplo da propriedade Command (VC + +) TOCTitle: coleção Parameters, exemplo da propriedade Command (VC + +) === título: coleção Parameters, exemplo da propriedade Command (VC + +) TOCTitle: Coleção Parameters, exemplo da propriedade Command (VC + +)
+>>>>>>> ms:assetid de mestre: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: ms.date 48545237: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="parameters-collection-command-property-example-vc"></a>Exemplo da propriedade Command, coleção Parameters (VC++)
+=======
+# <a name="parameters-collection-command-property-example-vc"></a>Coleção Parameters, exemplo da propriedade Command (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41a934dc5ec30afe69fabdcf5d426f9a97c4a318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58a4064f5d35726b30ec544232d1214a51739f60
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464653"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604986"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Exemplos de código ADO no Microsoft JScript
 
@@ -36,6 +36,7 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
 
 **Propriedades**
 
+<<<<<<< Cabeça
   - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -48,5 +49,20 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
 
   - [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
 
+  - [Exemplo das propriedades RecordCount e filtro](filter-and-recordcount-properties-example-jscript.md)
+=======
+  - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+
+  - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+
+  - [Exemplo da propriedade ActiveCommand](activecommand-property-example-jscript.md)
+
+  - [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e direção](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+
+  - [Exemplo das propriedades ActualSize e DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
+
+  - [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
+
   - [Exemplo das propriedades Filter e RecordCount](filter-and-recordcount-properties-example-jscript.md)
+>>>>>>> mestre
 

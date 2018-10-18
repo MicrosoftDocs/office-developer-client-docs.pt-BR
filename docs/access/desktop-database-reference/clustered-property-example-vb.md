@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Clustered (VB)
-TOCTitle: Clustered Property Example (VB)
-ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
-ms:contentKeyID: 48543293
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f4cf09b0e8393eca74b1ed8fbaca8591a99103b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464313"
+<<<<<<< Título cabeça: exemplo de propriedade Clustered (VB) TOCTitle: exemplo de propriedade Clustered (VB) === título: exemplo da propriedade Clustered (VB) TOCTitle: exemplo da propriedade Clustered (VB)
+>>>>>>> ms:assetid de mestre: 1065622d-9473-209a-95be-c4b0ab5b687a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15) ms:contentKeyID: ms.date 48543293: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="clustered-property-example-vb"></a>Exemplo da propriedade Clustered (VB)
+=======
+# <a name="clustered-property-example-vb"></a>Exemplo da propriedade Clustered (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

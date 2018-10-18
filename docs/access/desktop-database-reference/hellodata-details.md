@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6de174362e014af3e90686e53a563a10e04ec665
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c25197f0a8a45487f93f56543f73a2beeea062ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463384"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603151"
 ---
 # <a name="hellodata-details"></a>Detalhes do HelloData
 
@@ -28,7 +28,9 @@ Use uma instrução **OnError** do Visual Basic para atribuir um manipular de er
 
 Depois que a conexão for aberta, atribua uma cadeia de caracteres SQL a uma variável (sSQL). Em seguida, criar uma instância de um novo objeto **Recordset** , m\_oRecordset1. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando sSQL como a origem do **Recordset**. Para ajudar o ADO a determinar que a cadeia de caracteres SQL que você passou como fonte de **Recordset** é uma definição textual de um comando, você passará **adCmdText** no argumento final do método **Open** de **Recordset**. Essa linha também define o **LockType** e o **CursorType** associados ao **Recordset**.
 
-A próxima linha do código iguala as propriedades **MarshalOptions** e **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados para a camada intermediária (ou servidor Web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
+<<<<<<< Cabeça a próxima linha de código define a propriedade **MarshalOptions** igual a **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados para a camada intermediária (ou servidor Web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
+=== A próxima linha de código define a propriedade **MarshalOptions** igual a **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados à camada intermediária (ou servidor web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
+>>>>>>> mestre
 
 Em seguida, desconecte o **Recordset** igualando as propriedades **ActiveConnection** e **Nothing**. Para obter mais informações, consulte [Desconectando e reconectando o Recordset](disconnecting-and-reconnecting-the-recordset.md) no Capítulo 5: atualizando e mantendo a persistência de dados.
 

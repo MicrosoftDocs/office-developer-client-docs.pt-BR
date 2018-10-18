@@ -1,22 +1,14 @@
 ---
-title: ActionEnum (referência de banco de dados da área de trabalho do Access)
-TOCTitle: ActionEnum
-ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
-ms:contentKeyID: 48543704
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: af0e5fd734c03b88990383b99815d6e35f2c1290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462405"
+título: TOCTitle ActionEnum (referência de banco de dados da área de trabalho do Access): ActionEnum ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15) ms:contentKeyID: 48543704 <<<<<<< ms.date cabeça: 18/09/2015 === ms.date: 10 / 17/2018
+>>>>>>> mtps_version mestre: v=office.15
 ---
+
 # <a name="actionenum"></a>ActionEnum
 
+<<<<<<< Cabeça
 
-**Aplica-se a**: Access 2013 | Office 2013
+=======
+>>>>>>> **aplica-se**de mestre: Access 2013 | Office 2013
 
 Especifica o tipo de ação a ser executada quando [SetPermissions](setpermissions-method-adox.md) é chamado.
 

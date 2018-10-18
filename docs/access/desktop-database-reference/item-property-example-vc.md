@@ -1,19 +1,13 @@
 ---
-title: Exemplo da Propriedade Item (VC++)
-TOCTitle: Item Property Example (VC++)
-ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
-ms:contentKeyID: 48543452
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a32f81dc29441cb413c07c3a9e1cdde710d2a959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463128"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Item (VC + +): exemplo da propriedade Item (VC + +) === título: exemplo da propriedade Item (VC + +) TOCTitle: exemplo da propriedade Item (VC + +)
+>>>>>>> ms:assetid de mestre: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: ms.date 48543452: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="item-property-example-vc"></a>Exemplo da Propriedade Item (VC++)
+=======
+# <a name="item-property-example-vc"></a>Exemplo da propriedade item (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

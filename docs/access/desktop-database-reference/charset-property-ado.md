@@ -1,26 +1,24 @@
 ---
-title: Propriedade Charset (ADO)
-TOCTitle: Charset Property (ADO)
-ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
-ms:contentKeyID: 48544551
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 84436f814bbc2a503e843d4e9832fa2bab612b58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464710"
+<<<<<<< Título cabeça: propriedade Charset (ADO) TOCTitle: propriedade Charset (ADO) === título: propriedade Charset (ADO) TOCTitle: propriedade Charset (ADO)
+>>>>>>> ms:assetid de mestre: 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID: ms.date 48544551: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="charset-property-ado"></a>Propriedade Charset (ADO)
+=======
+# <a name="charset-property-ado"></a>Propriedade charset (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o conjunto de caracteres no qual o conteúdo de um texto [Stream](stream-object-ado.md) deve ser traduzido para armazenamento no buffer interno dos objetos Stream.
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para obter uma lista das sequências de conjunto de caracteres que é conhecida por um sistema, consulte as subchaves da HKEY\_CLASSES\_raiz\\MIME\\banco de dados\\Charset no registro do Windows.
 

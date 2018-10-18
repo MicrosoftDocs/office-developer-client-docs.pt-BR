@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Version (VC++)
-TOCTitle: Version Property Example (VC++)
-ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
-ms:contentKeyID: 48548201
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6723d43965975f8ad83f60937e7226cd269b688d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465017"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Version (VC + +): exemplo da propriedade Version (VC + +) === título: exemplo da propriedade Version (VC + +) TOCTitle: exemplo da propriedade Version (VC + +)
+>>>>>>> ms:assetid de mestre: deda3998-52cd-0068-7f8c-e58c71802226 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15) ms:contentKeyID: ms.date 48548201: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="version-property-example-vc"></a>Exemplo da propriedade Version (VC++)
+=======
+# <a name="version-property-example-vc"></a>Exemplo da propriedade Version (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

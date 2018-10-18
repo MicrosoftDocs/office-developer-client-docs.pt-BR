@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6887770c8e0c3b98b6ff990c884c5325d6ce6d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dd5a956d5a978a374e10c85e7803715f81d48f2a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464830"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603068"
 ---
 # <a name="open-method-ado-recordset"></a>Método Open (Recordset do ADO)
 
@@ -63,7 +63,9 @@ A utilização do método **Open** em um objeto **Recordset** abre um cursor que
 
 Use o argumento opcional de *origem* para especificar uma fonte de dados usando um dos seguintes: uma variável de objeto de **comando** , uma instrução SQL, um procedimento armazenado, um nome de tabela, uma URL ou um nome de caminho completo do arquivo. Se a *fonte* é um nome de caminho do arquivo, ele pode ser um caminho completo ("c:\\dir\\file.rst"), um caminho relativo ("… \\file.rst "), ou uma URL ("https://files/file.rst").
 
-Não é recomendável usar o argumento *Source* do método **Open** para executar uma consulta ação que não retorna registros porque não há nenhuma maneira fácil de determinar se a chamada foi bem-sucedida. O **Recordset** retornado por tal consulta será fechado. Chame o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) de um objeto **Command** ou o método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de um objeto **Connection** em vez de executar uma consulta que, tal como uma instrução SQL INSERT, não retorna registros.
+<<<<<<< Cabeça ele não é recomendável usar o argumento *Source* do método **Open** para executar uma consulta ação que não retorna registros porque não há nenhuma maneira fácil de determinar se a chamada foi bem-sucedida. O **Recordset** retornado por tal consulta será fechado. Chame o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) de um objeto **Command** ou o método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de um objeto **Connection** em vez de executar uma consulta que, tal como uma instrução SQL INSERT, não retorna registros.
+=== Ele não é uma boa ideia usar o argumento *Source* do método **Open** para executar uma consulta ação que não retorna registros porque não há nenhuma maneira fácil de determinar se a chamada foi bem-sucedida. O **Recordset** retornado por tal consulta será fechado. Chame o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) de um objeto **Command** ou o método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) de um objeto **Connection** em vez de executar uma consulta que, tal como uma instrução SQL INSERT, não retorna registros.
+>>>>>>> mestre
 
 O argumento *ActiveConnection* corresponde à propriedade [ActiveConnection](activeconnection-property-ado.md) e especifica em qual conexão para abrir o **Recordset** do objeto. Se você passar uma definição de conexão para esse argumento, o ADO abrirá uma nova conexão utilizando os parâmetros especificados. Depois de abrir o **Recordset** com um cursor do cliente (**CursorLocation** = **adUseClient**), você pode alterar o valor dessa propriedade para enviar atualizações para outro provedor. Ou ainda, poderá definir essa propriedade como **Nothing** (no Microsoft Visual Basic) ou NULL para desconectar o **Recordset** de qualquer provedor. No entanto, alterar **ActiveConnection** para um cursor do servidor gera um erro.
 
@@ -102,9 +104,14 @@ Se você definiu a propriedade [CursorLocation](cursorlocation-property-ado.md) 
 > <P>Plano de fundo busca no provedor MS Remote é suportada apenas por meio do parâmetro de <EM>Options</EM> do método <STRONG>Open</STRONG> .</P>
 
 
+<<<<<<< Cabeça
 
 
 > [!NOTE]
 > <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
+=======
+> [!NOTE]
+> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+>>>>>>> mestre
 
 

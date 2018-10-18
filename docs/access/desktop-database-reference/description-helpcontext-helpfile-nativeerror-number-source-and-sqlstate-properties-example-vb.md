@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades Description, HelpContext, HelpFile (VB)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
-ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
-ms:contentKeyID: 48544304
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c8c15c60e5465e5bb0dae551e3234616e2da11ee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463202"
+<<<<<<< Título cabeça: Description, HelpContext, HelpFile propriedades exemplo (VB) TOCTitle: Description, HelpContext, HelpFile, NativeError, número, fonte e exemplo de propriedades SQLState (VB) === título: descrição, HelpContext, HelpFile exemplo das propriedades (VB) TOCTitle: exemplo das propriedades Description, HelpContext, HelpFile, NativeError, número, Source e SQLState (VB)
+>>>>>>> ms:assetid de mestre: 3c129aec-cd69-5822-4dad-ebef226538e1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15) ms:contentKeyID: ms.date 48544304: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, Number, Source e SQLState (VB)
+=======
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, número, Source e SQLState (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

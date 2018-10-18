@@ -1,26 +1,24 @@
 ---
-title: Propriedade EditMode (ADO)
-TOCTitle: EditMode Property (ADO)
-ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
-ms:contentKeyID: 48543867
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a6c8377e0fa0fc2db1ec2d376ee3c8b9f16e8c99
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462671"
+<<<<<<< Título cabeça: propriedade EditMode (ADO) TOCTitle: propriedade EditMode (ADO) === título: propriedade EditMode (ADO) TOCTitle: propriedade EditMode (ADO)
+>>>>>>> ms:assetid de mestre: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: ms.date 48543867: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="editmode-property-ado"></a>Propriedade EditMode (ADO)
+=======
+# <a name="editmode-property-ado"></a>Propriedade EditMode (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o status de edição do registro atual.
 
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
 ## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Retorna um valor [EditModeEnum](editmodeenum.md).
 

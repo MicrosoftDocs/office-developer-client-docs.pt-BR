@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade Clustered (VC++)
-TOCTitle: Clustered Property Example (VC++)
-ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
-ms:contentKeyID: 48546761
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5be7f193c339c2c002e5b1806103fbcca5306666
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465171"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Clustered (VC + +): exemplo da propriedade Clustered (VC + +) === título: exemplo da propriedade Clustered (VC + +) TOCTitle: exemplo da propriedade Clustered (VC + +)
+>>>>>>> ms:assetid de mestre: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: ms.date 48546761: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="clustered-property-example-vc"></a>Exemplo da propriedade Clustered (VC++)
+=======
+# <a name="clustered-property-example-vc"></a>Exemplo da propriedade Clustered (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

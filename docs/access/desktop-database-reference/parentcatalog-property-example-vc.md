@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade ParentCatalog (VC++)
-TOCTitle: ParentCatalog Property Example (VC++)
-ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15)
-ms:contentKeyID: 48548855
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 59bf9d8f32b0e1a3069eaeecaf2a106285c0724f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462293"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade ParentCatalog (VC + +): exemplo da propriedade ParentCatalog (VC + +) === título: exemplo da propriedade ParentCatalog (VC + +) TOCTitle: exemplo da propriedade ParentCatalog (VC + +)
+>>>>>>> ms:assetid de mestre: fad6574f-698f-f48a-ba0b-59f048ae012c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15) ms:contentKeyID: ms.date 48548855: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="parentcatalog-property-example-vc"></a>Exemplo da propriedade ParentCatalog (VC++)
+=======
+# <a name="parentcatalog-property-example-vc"></a>Exemplo da propriedade ParentCatalog (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

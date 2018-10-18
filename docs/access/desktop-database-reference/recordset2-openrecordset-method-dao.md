@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835325(v=office.15)
 ms:contentKeyID: 48548082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb435d47a0851bef59bcb600886fcb22b5605f6e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 936e36e7b7de20264e54ed205ddd12b723573b42
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462711"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606875"
 ---
 # <a name="recordset2openrecordset-method-dao"></a>Método Recordset2.OpenRecordset (DAO)
 
@@ -51,7 +51,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 <td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p>Type</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p>
@@ -63,7 +63,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p>
@@ -90,7 +90,11 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </table>
 
 
-### <a name="return-value"></a>Valor de Retorno
+<<<<<<< Cabeça
+### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Recordset
 

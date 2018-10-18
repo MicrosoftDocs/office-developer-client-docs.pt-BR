@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cbc650b6797383e6f1f1e5d457266832ae75ba33
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e70093a6678a61874462ec3517f6424e5da79f71
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463471"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605580"
 ---
 # <a name="recordset2copyquerydef-method-dao"></a>Método Recordset2.CopyQueryDef (DAO)
 
@@ -30,7 +30,11 @@ Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 QueryDef
 

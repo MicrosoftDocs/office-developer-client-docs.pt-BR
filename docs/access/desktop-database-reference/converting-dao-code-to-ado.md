@@ -1,23 +1,15 @@
 ---
-title: Converter o código DAO em ADO
-TOCTitle: Converting DAO Code to ADO
-ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15)
-ms:contentKeyID: 48544585
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- vbaac10.chm5267115
-f1_categories:
+<<<<<<< Título cabeça: conversão de código DAO para ADO TOCTitle: conversão de código DAO para ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: ms.date 48544585: 18/09/2015 === título: converter DAO código ADO TOCTitle: código DAO converter ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: ms.date 48544585: 10/16/2018
+>>>>>>> mtps_version mestre: v=office.15 f1_keywords:
+- vbaac10.chm5267115 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7039d9322956e4fcbca4081eff75868ccf306e25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461975"
 ---
+
+<<<<<<< Cabeça
 # <a name="converting-dao-code-to-ado"></a>Converter o código DAO em ADO
+=======
+# <a name="convert-dao-code-to-ado"></a>Converter o código DAO em ADO
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 
@@ -35,7 +27,11 @@ ms.locfileid: "25461975"
 <thead>
 <tr class="header">
 <th><p><strong>DAO</strong></p></th>
+<<<<<<< Cabeça
 <th><p><strong>ADO(ADODB)</strong></p></th>
+=======
+<th><p><strong>O ADO (ADODB)</strong></p></th>
+>>>>>>>mestre
 <th><p><strong>Observação</strong></p></th>
 </tr>
 </thead>
@@ -63,22 +59,38 @@ ms.locfileid: "25461975"
 <tr class="odd">
 <td><p>Dynaset-Type</p></td>
 <td><p>Keyset</p></td>
+<<<<<<< Cabeça
 <td><p>Recupera um conjunto de ponteiros para os registros no conjunto de registros</p></td>
+=======
+<td><p>Recupera um conjunto de ponteiros para os registros no recordset.</p></td>
+>>>>>>>mestre
 </tr>
 <tr class="even">
 <td><p>Snapshot-Type</p></td>
 <td><p>Static</p></td>
+<<<<<<< Cabeça
 <td><p>Recupera registros completos mas um conjunto de registros Static não pode ser atualizado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Table-Type</p></td>
 <td><p>Keyset com opção adCmdTableDirect</p></td>
+=======
+<td><p>Recupera registros completos mas um recordset estático pode ser atualizado.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Table-Type</p></td>
+<td><p>Keyset com opção adCmdTableDirect.</p></td>
+>>>>>>>mestre
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Field</p></td>
 <td><p>Field</p></td>
+<<<<<<< Cabeça
 <td><p>Quando mencionado em um conjunto de registros</p></td>
+=======
+<td><p>Quando mencionado em um conjunto de registros.</p></td>
+>>>>>>>mestre
 </tr>
 </tbody>
 </table>
@@ -124,7 +136,9 @@ ms.locfileid: "25461975"
 
 
 > [!NOTE]
-> O deslocamento do foco do registro atual por meio de **MoveNext, MoveLast, MoveFirst, MovePrevious** sem usar primeiro o método **CancelUpdate** executará implicitamente o método **Update**.
+<<<<<<< Cabeça movendo foco do registro atual por meio de **MoveNext, MoveLast, MoveFirst, MovePrevious** sem primeiro usando o método **CancelUpdate** executará implicitamente o método **Update** .
+> === Deslocamento do foco do registro atual por meio de **MoveNext, MoveLast, MoveFirst, MovePrevious** sem usar primeiro o método **CancelUpdate** implicitamente executa o método **Update** .
+>>>>>>> mestre
 
 ### <a name="about-the-contributors"></a>Sobre os colaboradores
 
@@ -132,5 +146,9 @@ ms.locfileid: "25461975"
 
 - [Escolhendo entre o DAO e ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
+<<<<<<< Cabeça
 
+=======
+<br/>
+>>>>>>> mestre
 

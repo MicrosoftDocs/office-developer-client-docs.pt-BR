@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades Filter e RecordCount (VJ++)
-TOCTitle: Filter and RecordCount Properties Example (VJ++)
-ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
-ms:contentKeyID: 48547798
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 34b80e88d933f4c2d2461ebb0b707ff1caf5ed5e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464207"
+<<<<<<< Título cabeça: Filter e RecordCount exemplo das propriedades (VJ + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VJ + +) === título: exemplo das propriedades Filter e RecordCount (VJ + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VJ + +)
+>>>>>>> ms:assetid de mestre: cf062f99-f935-6bf3-a245-fa345ead78db ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15) ms:contentKeyID: ms.date 48547798: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="filter-and-recordcount-properties-example-vj"></a>Exemplo das propriedades Filter e RecordCount (VJ++)
+=======
+# <a name="filter-and-recordcount-properties-example-vj"></a>Exemplo das propriedades Filter e RecordCount (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

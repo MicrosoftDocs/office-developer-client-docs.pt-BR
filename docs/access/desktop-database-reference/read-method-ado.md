@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4fcc4c3039e1e55bb6bd33078542faa880d27ded
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e32de818dc88c2bca14a4fefb5eac59abcc91caf
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463132"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604698"
 ---
 # <a name="read-method-ado"></a>Método Read (ADO)
 
@@ -30,7 +30,11 @@ Lê um número de bytes especificado de um objeto [Stream](stream-object-ado.md)
 
   - Opcional. Um valor **Long** que especifica o número de bytes a serem lidos do arquivo ou o valor [adReadAll](streamreadenum.md) de **StreamReadEnum**, que é o padrão.
 
-## <a name="return-value"></a>Valor de Retorno
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
+## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 O método **Read** lê um número de bytes especificado ou o fluxo inteiro de um objeto **Stream** e retorna os dados resultantes como uma **Variant**.
 

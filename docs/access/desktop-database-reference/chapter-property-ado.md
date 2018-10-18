@@ -1,19 +1,13 @@
 ---
-title: Propriedade Chapter (ADO)
-TOCTitle: Chapter Property (ADO)
-ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
-ms:contentKeyID: 48548014
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f02b20aef2b76ff00ce23b8597132dc22b414993
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464538"
+<<<<<<< Título cabeça: TOCTitle capítulo Property (ADO): capítulo Property (ADO) === título: propriedade Chapter (ADO) TOCTitle: propriedade Chapter (ADO)
+>>>>>>> ms:assetid de mestre: d7c9478e-487f-7023-1dd8-5313433dbc5e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15) ms:contentKeyID: ms.date 48548014: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="chapter-property-ado"></a>Propriedade Chapter (ADO)
+=======
+# <a name="chapter-property-ado"></a>Propriedade Chapter (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -37,7 +31,11 @@ Colocar HRESULT\_capítulo (\[na\] lChapter longo);
 
   - Identificador de um capítulo.
 
+<<<<<<< Cabeça
 ## <a name="return-values"></a>Valores de retorno
+=======
+## <a name="return-values"></a>Valor de retorno
+>>>>>>> mestre
 
 Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
 

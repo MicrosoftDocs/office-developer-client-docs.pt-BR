@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a44a3a002d390879e5d56d9c6931a91cba40271
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5083dccd2c1d328e825a198008fd773bc3a592f6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461986"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605209"
 ---
 # <a name="readtext-method-ado"></a>Método ReadText (ADO)
 
@@ -30,7 +30,11 @@ Lê o número de caracteres especificado de um objeto [Stream](stream-object-ado
 
   - Opcional. Um valor **Long** que especifica o número de caracteres a serem lidos do arquivo ou um valor [StreamReadEnum](streamreadenum.md). O valor padrão é **adReadAll**.
 
-## <a name="return-value"></a>Valor de Retorno
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
+## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 O método **ReadText** lê um número de caracteres especificado, uma linha inteira ou o fluxo inteiro a partir de um objeto **Stream** e retorna a sequência resultante.
 

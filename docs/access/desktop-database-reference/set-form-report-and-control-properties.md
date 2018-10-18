@@ -1,22 +1,11 @@
 ---
-title: Conjunto de formulário, relatório e propriedades de controle
-TOCTitle: Set form, report, and control properties
-ms:assetid: 03349d86-f107-9e49-89df-62f55f3a0735
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff844789(v=office.15)
-ms:contentKeyID: 48542977
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- vbaac10.chm12286
-f1_categories:
+título: definir o formulário, relatório e controle propriedades TOCTitle: definir o formulário, relatório e propriedades de controle <<<<<<< cabeça ms:assetid: 03349d86-f107-9e49-89df-62f55f3a0735 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844789(v=office.15) ms:contentKeyID: ms.date 48542977: 09/18 / 2015 === Descrição: cada formulário, relatório, seção e controle tem configurações de propriedade que você pode alterar para modificar a aparência ou o comportamento de um item específico no Access 2013.
+MS:AssetID: 03349d86-f107-9e49-89df-62f55f3a0735 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844789(v=office.15) ms:contentKeyID: ms.date 48542977: 10/16/2018
+>>>>>>> mtps_version mestre: v=office.15 f1_keywords:
+- vbaac10.chm12286 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f839ab2e2c6dfab32c49248f1be1878bf289eb6b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463142"
 ---
+
 # <a name="set-form-report-and-control-properties"></a>Conjunto de formulário, relatório e propriedades de controle
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -27,6 +16,7 @@ Cada formulário, relatório, seção e controle tem definições de propriedade
 
 1. No modo de design do formulário ou no modo de design do relatório, selecione o controle, seção, formulário ou relatório para o qual você deseja definir a propriedade. Você pode selecionar:
     
+<<<<<<< Cabeça
    - Um ou mais controles. Para selecionar vários controles, mantenha pressionada a tecla SHIFT e clique nos controles ou arraste o ponteiro do mouse sobre os controles que você deseja selecionar. Se você selecionar vários controles, a folha de propriedades exibirá somente aquelas propriedades que os controles selecionados têm em comum.
     
    - Uma seção. Clique no seletor de seção da seção que você deseja selecionar.
@@ -46,10 +36,35 @@ Cada formulário, relatório, seção e controle tem definições de propriedade
 ## <a name="tips"></a>Dicas
 
 - O Microsoft Access oferece uma caixa **Zoom** para a digitação e visualização de expressões ou outras configurações longas de propriedades. Para exibir a caixa **Zoom**, clique em uma caixa de propriedades na folha de propriedades. A seguir, pressione SHIFT+F2 ou clique o botão direito do mouse e, então, clique em **Zoom** no menu de atalho.
+=======
+   - Um ou mais controles. Para selecionar vários controles, mantenha pressionada a tecla SHIFT e escolha os controles ou arraste o ponteiro do mouse sobre os controles que você deseja selecionar. Se você selecionar vários controles, a folha de propriedades exibirá somente aquelas propriedades que os controles selecionados têm em comum.
+    
+   - Uma seção. Escolha o seletor de seção da seção que você deseja selecionar.
+    
+   - O formulário ou relatório inteiro. Escolha o seletor de formulário ou relatório no canto superior esquerdo do formulário ou relatório.
+
+2. Exiba a folha de propriedade clicando no objeto ou seção e escolhendo **Propriedades** no menu de atalho ou escolhendo **Propriedades** na barra de ferramentas.
+
+3. Escolha a propriedade para o qual você deseja definir o valor e, em seguida, siga um destes procedimentos:
+    
+   - Na caixa de propriedades, digite a definição ou expressão apropriada.
+    
+   - Se a caixa de propriedades contiver uma seta, escolha a seta e, em seguida, escolha um valor na lista.
+    
+   - Se um botão **Construir** aparece à direita da caixa de propriedades, escolha-para exibir um construtor ou para exibir uma caixa de diálogo com opções de construtores. Por exemplo, você pode utilizar o Construtor de código, o Construtor de macros ou o Construtor de consultas para definir algumas propriedades.
+
+## <a name="tips"></a>Dicas
+
+- O Microsoft Access oferece uma caixa **Zoom** para a digitação e visualização de expressões ou outras configurações longas de propriedades. Para exibir a caixa **Zoom** , escolha uma caixa de propriedade na folha de propriedades. Pressione SHIFT + F2 ou o botão direito do mouse e escolha o **Zoom** no menu de atalho.
+>>>>>>> mestre
 
 - Você pode definir a propriedade **ControlSource** de alguns controles digitando a definição da propriedade no próprio controle.
 
 - Você pode alterar as configurações de propriedade padrão de um tipo de controle para que os controles criados tenham as novas configurações padrão.
 
+<<<<<<< Cabeça
 - As configurações de propriedade de um controle acoplado podem não corresponder às configurações semelhantes no campo da tabela ou consulta de base ao qual o controle está acoplado. Se as configurações forem diferentes, as configurações do formulário ou relatório substituirão normalmente as da tabela ou consulta. Para obter mais informações sobre como as propriedades são herdadas, consulte Como as propriedades de controle se relacionam com as propriedades em seus campos base.
+=======
+- As configurações de propriedade de um controle acoplado podem não corresponder às configurações semelhantes no campo da tabela ou consulta de base ao qual o controle está acoplado. Se as configurações forem diferentes, as configurações do formulário ou relatório substituirão normalmente as da tabela ou consulta.
+>>>>>>> mestre
 

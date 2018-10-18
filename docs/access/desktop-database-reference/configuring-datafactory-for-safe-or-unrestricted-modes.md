@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: abb461473d15f163fac6ea00f2af5d39f7b40d0a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465029"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606399"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configurando o DataFactory para modos Safe ou Unrestricted
 
@@ -30,7 +30,9 @@ Opcionalmente, você pode configurar uma instalação **DataFactory** não restr
 
 O arquivo de registro handsafe.reg foi fornecido para configurar as entradas de registro do manipulador para configuração segura. Para executar no modo seguro, execute o handsafe.reg. O arquivo de registro handunsf.reg foi fornecido para configurar as entradas de registro do manipulador para a configuração irrestrita. Para executar no modo irrestrito, execute handunsf.reg.
 
-Depois de executar o handsafe.reg ou o handunsf.reg, você deve parar e reiniciar o World Wide Web Publishing Service no servidor da Web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET START W3SVC".
+<<<<<<< Cabeça após a execução Handsafe ou handunsf.reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor Web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET iniciar W3SVC".
+=== Após a execução Handsafe ou handunsf.reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET iniciar W3SVC".
+>>>>>>> mestre
 
 Para obter mais informações sobre o uso do recurso do manipulador de personalização do RDS, consulte o artigo técnico Usando o recurso do manipulador de personalização no RDS 2.1.
 

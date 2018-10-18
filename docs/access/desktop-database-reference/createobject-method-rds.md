@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2d1e3cc0128f4490105b24d7181119f6fece9b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d2ff2381626e8cf81aa95ee9d49f9396bd4b0316
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462882"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602717"
 ---
 # <a name="createobject-method-rds"></a>Método CreateObject (RDS)
 
@@ -73,9 +73,17 @@ O Remote Data Service suporta os seguintes protocolos: HTTP, HTTPS (HTTP sobre S
 
   - *awebsrvr* ou *computername*
 
+<<<<<<< Cabeça
   - Um valor **String** que representa uma URL que identifica o servidor Web do Internet Information Services (IIS) em que uma instância do objeto corporativo do servidor é criada.
 
 ## <a name="remarks"></a>Comentários
 
-O *protocolo HTTP* é o protocolo padrão da Web; *HTTPS* é um protocolo da Web seguro. Use o *protocolo DCOM* durante a execução de uma rede de área local sem HTTP. O protocolo de *em processo* é uma biblioteca de vínculo dinâmico (DLL); local ele não usa uma rede.
+<a name="the-http-protocol-is-the-standard-web-protocol-https-is-a-secure-web-protocol-use-the-dcom-protocol-when-running-a-local-area-network-without-http-the-in-process-protocol-is-a-local-dynamic-link-library-dll-it-does-not-use-a-network"></a>O *protocolo HTTP* é o protocolo padrão da Web; *HTTPS* é um protocolo da Web seguro. Use o *protocolo DCOM* durante a execução de uma rede de área local sem HTTP. O protocolo de *em processo* é uma biblioteca de vínculo dinâmico (DLL); local ele não usa uma rede.
+=======
+  - Um valor **String** que representa uma URL que identifica o servidor de web de serviços de informações da Internet (IIS) em que uma instância do objeto de negócios do servidor é criado.
+
+## <a name="remarks"></a>Comentários
+
+O *protocolo HTTP* é o protocolo padrão da web; *HTTPS* é um protocolo da web seguro. Use o *protocolo DCOM* durante a execução de uma rede de área local sem HTTP. O protocolo de *em processo* é uma biblioteca de vínculo dinâmico (DLL); local ele não usa uma rede.
+>>>>>>> mestre
 

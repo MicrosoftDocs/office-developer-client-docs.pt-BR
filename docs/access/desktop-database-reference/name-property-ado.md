@@ -1,26 +1,24 @@
 ---
-title: Propriedade Name (ADO)
-TOCTitle: Name Property (ADO)
-ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
-ms:contentKeyID: 48544683
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 132d00af1aecf7ec1ae8fbdb7855a10dd99c7f4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464783"
+<<<<<<< Título cabeça: TOCTitle nome Property (ADO): nome Property (ADO) === título: nome de propriedade (ADO) TOCTitle: nome de propriedade (ADO)
+>>>>>>> ms:assetid de mestre: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15) ms:contentKeyID: ms.date 48544683: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="name-property-ado"></a>Propriedade Name (ADO)
+=======
+# <a name="name-property-ado"></a>Propriedade Name (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o nome de um objeto
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor **String** que indica o nome de um objeto.
 

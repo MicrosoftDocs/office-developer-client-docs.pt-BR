@@ -1,23 +1,15 @@
 ---
-title: Propriedade State (ADO)
-TOCTitle: State Property (ADO)
-ms:assetid: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249819(v=office.15)
-ms:contentKeyID: 48547053
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- ado210.chm1231176
-f1_categories:
+<<<<<<< Título cabeça: estado Property (ADO) TOCTitle: estado Property (ADO) === título: (ADO) da propriedade State TOCTitle: estado de propriedade (ADO)
+>>>>>>> ms:assetid de mestre: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db ms:mtpsurl: https://msdn.microsoft.com/library/JJ249819(v=office.15) ms:contentKeyID: ms.date 48547053: 18/09/2015 mtps_version: v=office.15 f1_keywords:
+- ado210.chm1231176 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2bde03f1d6c7619e8140248b2551002f0453fc9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465225"
 ---
+
+<<<<<<< Cabeça
 # <a name="state-property-ado"></a>Propriedade State (ADO)
+=======
+# <a name="state-property-ado"></a>Propriedade State (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -26,7 +18,11 @@ Indica todos os objetos aplicáveis, independentemente de seu estado: aberto ou 
 
 Indica todos os objetos aplicáveis que executam um método assíncrono, independentemente de seu estado atual: conexão, execução ou recuperação.
 
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
 ## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Retorna um valor **Long** que pode ser um valor [ObjectStateEnum](objectstateenum.md). O valor padrão é **adStateClosed**.
 

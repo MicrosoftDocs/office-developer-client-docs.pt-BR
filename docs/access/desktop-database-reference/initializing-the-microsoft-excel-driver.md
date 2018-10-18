@@ -10,21 +10,25 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c79d859b122eb3595c31b2ffcec192e2d69ed7b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7c9a3282f3bb508a4c68ecbd3f2c0465cfee9bac
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465036"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603095"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicializando o driver do Microsoft Excel
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-Quando você instala o driver do Microsoft® Excel, o programa de instalação grava um conjunto de valores padrão no Registro do Microsoft Windows®, nas subchaves Engines e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
+<<<<<<< Cabeça quando você instalar o driver do Microsoft® Excel, o programa de instalação grava um conjunto de valores padrão para o registro do Microsoft Windows® nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
 
 ## <a name="microsoft-excel-initialization-settings"></a>Configurações de inicialização do Microsoft Excel
+=== Quando você instala o driver do Excel, o programa de instalação grava um conjunto de valores padrão no registro do Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
+
+## <a name="excel-initialization-settings"></a>Configurações de inicialização do Excel
+>>>>>>> mestre
 
 O **mecanismo de conectividade do Access\\mecanismos\\Excel** pasta inclui configurações de inicialização para o driver Aceexcl.dll, usada para acesso externo às planilhas do Microsoft Excel. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
 
@@ -147,4 +151,10 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 > [!NOTE]
 > Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
+<<<<<<< Cabeça
 
+=======
+## <a name="see-also"></a>Confira também
+
+[Usando a configuração de registo TypeGuessRows para o Driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+>>>>>>> mestre

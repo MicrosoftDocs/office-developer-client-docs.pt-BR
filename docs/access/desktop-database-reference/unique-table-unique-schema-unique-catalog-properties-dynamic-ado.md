@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
 ms:contentKeyID: 48548374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd21c8b7c71f5fe1c95d347758e486f3854efab0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 71701d605a9a9b156de7b2c6a23100e30932aaea
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462670"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602087"
 ---
 # <a name="unique-table-unique-schema-unique-catalog-properties--dynamic-ado"></a>Propriedades Unique Table, Unique Schema, Unique Catalog -- Dinâmicas (ADO)
 
@@ -26,7 +26,11 @@ Permite que você controle de perto as modificações em um determinada tabela b
 
   - **Unique Catalog** especifica o *catálogo* ou o nome do banco de dados que contém a tabela.
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor **String** que é o nome de uma tabela, um esquema ou um catálogo.
 

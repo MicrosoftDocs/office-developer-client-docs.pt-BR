@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89b42c1afe60add3b1eab33c13dd215b572e3ef5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1fd66910a3630d8968f75c5a59bb535520419994
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465421"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606980"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Método TableDef.CreateField (DAO)
 
@@ -54,7 +54,7 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 <td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p>Type</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante que determina o tipo de dados do novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para obter os tipos de dados válidos.</p></td>
@@ -69,7 +69,11 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 </table>
 
 
+<<<<<<< Cabeça
 ### <a name="return-value"></a>Valor retornado
+=======
+### <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Field
 

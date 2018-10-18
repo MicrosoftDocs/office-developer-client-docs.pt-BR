@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93f60d38ba68e18b427af3d907a3a41e655c7a32
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d991da62a8820db3506059e81d136208cca73db3
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462281"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607057"
 ---
 # <a name="ado-glossary"></a>Glossário do ADO
 
@@ -259,13 +259,17 @@ O processo de compactação, envio e descompactação parâmetros de método de 
 
 **camada intermediária**
 
-A camada lógica em um sistema distribuído entre uma interface do usuário ou cliente da Web e o banco de dados. Esse é normalmente onde os objetos comerciais são criados. A camada intermediária é uma coleção de regras comerciais e funções que geram e operam ao receber informações. Realiza isso por meio de regras de negócios, que podem mudar com frequência e, portanto, são encapsuladas em vários componentes que são fisicamente separados da própria lógica do aplicativo. Também conhecido como *camada do servidor de aplicativo*. Consulte também **application distribuído**, a **camada do cliente**, a **camada de fonte de dados**.
+<<<<<<< A camada de lógica de cabeçalho em um sistema distribuído entre uma interface do usuário ou cliente da Web e o banco de dados. Esse é normalmente onde os objetos comerciais são criados. A camada intermediária é uma coleção de regras comerciais e funções que geram e operam ao receber informações. Realiza isso por meio de regras de negócios, que podem mudar com frequência e, portanto, são encapsuladas em vários componentes que são fisicamente separados da própria lógica do aplicativo. Também conhecido como *camada do servidor de aplicativo*. Consulte também **application distribuído**, a **camada do cliente**, a **camada de fonte de dados**.
+=== A camada lógica em um sistema distribuído entre um cliente de web ou de interface do usuário e o banco de dados. Esse é normalmente onde os objetos comerciais são criados. A camada intermediária é uma coleção de regras comerciais e funções que geram e operam ao receber informações. Realiza isso por meio de regras de negócios, que podem mudar com frequência e, portanto, são encapsuladas em vários componentes que são fisicamente separados da própria lógica do aplicativo. Também conhecido como *camada do servidor de aplicativo*. Consulte também **application distribuído**, a **camada do cliente**, a **camada de fonte de dados**.
+>>>>>>> mestre
 
 **MIME (várias finalidades Internet Mail Extension)**
 
 Um protocolo Internet originalmente desenvolvido para permitir a troca de mensagens de email com conteúdo de rich em rede heterogêneo, máquina e ambientes de email. Na prática, MIME também foi adotado e estendido por aplicativos não sejam de email.
 
-MIME é um padrão que permite que os dados binários ser publicado e ler na Internet. O cabeçalho de um arquivo com dados binários contém o tipo MIME dos dados; Isso informa programas cliente (Web navegadores e pacotes de email, por exemplo) que eles precisam lidar com os dados de forma diferente que eles manipulam texto reto. Por exemplo, o cabeçalho de um documento da Web que contém uma imagem JPEG contém o tipo MIME específico para o formato de arquivo JPEG. Isso permite que um navegador exibir o arquivo com seu visualizador JPEG, caso haja algum.
+<<<<<<< Cabeça MIME é um padrão que permite que os dados binários ser publicado e ler na Internet. O cabeçalho de um arquivo com dados binários contém o tipo MIME dos dados; Isso informa programas cliente (Web navegadores e pacotes de email, por exemplo) que eles precisam lidar com os dados de forma diferente que eles manipulam texto reto. Por exemplo, o cabeçalho de um documento da Web que contém uma imagem JPEG contém o tipo MIME específico para o formato de arquivo JPEG. Isso permite que um navegador exibir o arquivo com seu visualizador JPEG, caso haja algum.
+=== MIME é um padrão que permite que os dados binários ser publicado e ler na Internet. O cabeçalho de um arquivo com dados binários contém o tipo MIME dos dados; Isso informa programas cliente (web navegadores e pacotes de email, por exemplo) que eles precisam lidar com os dados de forma diferente que eles manipulam texto reto. Por exemplo, o cabeçalho de um documento da web que contém uma imagem JPEG contém o tipo MIME específico para o formato de arquivo JPEG. Isso permite que um navegador exibir o arquivo com seu visualizador JPEG, caso haja algum.
+>>>>>>> mestre
 
 Retornar ao início
 
@@ -427,9 +431,14 @@ file://Server/Share/File.doc
 
 Consulte também **URL absoluta** e a **URL relativa**.
 
-**Servidor Web**
+<<<<<<< Cabeça **servidor Web**
 
-Um computador que fornece serviços da Web e páginas para os usuários da Internet e intranet.
+<a name="a-computer-that-provides-web-services-and-pages-to-intranet-and-internet-users"></a>Um computador que fornece serviços da Web e páginas para os usuários da Internet e intranet.
+=======
+**servidor Web**
+
+Um computador que fornece serviços da web e páginas para os usuários da Internet e intranet.
+>>>>>>> mestre
 
 Retornar ao início
 

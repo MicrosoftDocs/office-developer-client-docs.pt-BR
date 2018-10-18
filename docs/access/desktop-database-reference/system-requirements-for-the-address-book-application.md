@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8890e9dba072e2c35d9773ea389701bb7d631ee7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1536b1a03ed0e7c873b2db06e76ee9b505ee00c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464930"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604425"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Requisitos do sistema para o aplicativo Catálogo de Endereços
 
@@ -22,13 +22,15 @@ Para configurar o aplicativo de exemplo Catálogo de Endereços, é necessário 
 
 **Requisitos de software**
 
-Os requisitos do software do computador servidor para executar este aplicativo Web incluem:
+<<<<<<< Cabeça os requisitos de software do computador servidor para executar este aplicativo Web incluem: === os requisitos de software do computador servidor para executar este aplicativo web incluem:
+>>>>>>> mestre
 
   - Microsoft Windows NT® Server 4.0, com Service Pack 3 ou posterior, ou Microsoft Windows® 2000 Server.
 
   - Microsoft Internet Information Services (IIS) versão 3.0 ou posterior com Active Server Pages.
 
-Os requisitos do software do computador cliente para executar este aplicativo Web incluem:
+<<<<<<< Cabeça incluem os requisitos de software do computador cliente para executar este aplicativo Web: === os requisitos de software do computador cliente para executar este aplicativo web incluem:
+>>>>>>> mestre
 
   - Microsoft Internet Explorer 4.0 ou posterior.
 

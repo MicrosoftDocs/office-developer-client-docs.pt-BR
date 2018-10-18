@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d56fbf28cd878a8a8fd803bf550d81bc9ac2c96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f29f707f02ed8adbf2b1881b0721ce912b278353
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462478"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605825"
 ---
 # <a name="open-method-ado-record"></a>Método Open (Record do ADO)
 
@@ -73,6 +73,10 @@ Se o objeto **Record** representar uma entidade que não pode ser acessada com u
 
 
 > [!NOTE]
+<<<<<<< Cabeça
 > <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
+=======
+> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+>>>>>>> mestre
 
 

@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades CursorType, LockType e EditMode (VB)
-TOCTitle: CursorType, LockType, and EditMode Properties Example (VB)
-ms:assetid: efe3f976-b095-c0ce-376a-693b07ec8e9d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250221(v=office.15)
-ms:contentKeyID: 48548595
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aba88fbbf73801b99dcb7adb20639d8c1ae06641
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465093"
+<<<<<<< Título cabeça: CursorType, LockType e EditMode propriedades exemplo (VB) TOCTitle: CursorType, LockType e EditMode propriedades exemplo (VB) === título: exemplo das Propriedades CursorType, LockType e EditMode (VB) TOCTitle: Exemplo das Propriedades CursorType, LockType e EditMode (VB)
+>>>>>>> ms:assetid de mestre: efe3f976-b095-c0ce-376a-693b07ec8e9d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250221(v=office.15) ms:contentKeyID: ms.date 48548595: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="cursortype-locktype-and-editmode-properties-example-vb"></a>Exemplo das propriedades CursorType, LockType e EditMode (VB)
+=======
+# <a name="cursortype-locktype-and-editmode-properties-example-vb"></a>Exemplo das Propriedades CursorType, LockType e EditMode (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

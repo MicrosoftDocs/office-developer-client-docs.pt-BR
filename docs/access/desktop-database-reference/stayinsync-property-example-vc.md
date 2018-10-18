@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade StayInSync (VC++)
-TOCTitle: StayInSync Property Example (VC++)
-ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
-ms:contentKeyID: 48544485
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 42203001135e65056ff5370637d4b5bea3f7a515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463072"
+<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade StayInSync (VC + +): exemplo da propriedade StayInSync (VC + +) === título: exemplo da propriedade StayInSync (VC + +) TOCTitle: exemplo da propriedade StayInSync (VC + +)
+>>>>>>> ms:assetid de mestre: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: ms.date 48544485: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="stayinsync-property-example-vc"></a>Exemplo da propriedade StayInSync (VC++)
+=======
+# <a name="stayinsync-property-example-vc"></a>Exemplo da propriedade StayInSync (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

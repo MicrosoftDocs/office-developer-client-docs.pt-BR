@@ -1,26 +1,24 @@
 ---
-title: Propriedade Direction (ADO)
-TOCTitle: Direction Property (ADO)
-ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15)
-ms:contentKeyID: 48544823
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 611e5efbe53964c5ba255380e2659f024bd6be9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463939"
+<<<<<<< Título cabeça: propriedade Direction (ADO) TOCTitle: propriedade Direction (ADO) === título: propriedade Direction (ADO) TOCTitle: a propriedade Direction (ADO)
+>>>>>>> ms:assetid de mestre: 51a94abb-7ce9-9adb-2b76-5391eb9f6863 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15) ms:contentKeyID: ms.date 48544823: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="direction-property-ado"></a>Propriedade Direction (ADO)
+=======
+# <a name="direction-property-ado"></a>Propriedade Direction (ADO)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica se o [Parameter](parameter-object-ado.md) representa um parâmetro de entrada, um parâmetro de saída, um parâmetro de entrada e saída ou se o parâmetro é o valor de retorno de um procedimento armazenado.
 
+<<<<<<< Cabeça
+## <a name="settings-and-return-values"></a>Configurações e valor de retorno
+=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
+>>>>>>> mestre
 
 Define ou retorna um valor [ParameterDirectionEnum](parameterdirectionenum.md).
 

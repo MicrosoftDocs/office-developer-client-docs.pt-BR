@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades PrimaryKey e Unique (VC++)
-TOCTitle: PrimaryKey and Unique Properties Example (VC++)
-ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
-ms:contentKeyID: 48543158
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9cb0cdfa68ac3437e368e245a70a7743ac0b7724
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463402"
+<<<<<<< Título cabeça: PrimaryKey e exclusivo exemplo das propriedades (VC + +) TOCTitle: PrimaryKey e exclusivo exemplo das propriedades (VC + +) === título: exemplo das propriedades PrimaryKey e Unique (VC + +) TOCTitle: propriedades PrimaryKey e Unique exemplo (VC + +)
+>>>>>>> ms:assetid de mestre: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: ms.date 48543158: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="primarykey-and-unique-properties-example-vc"></a>Exemplo das propriedades PrimaryKey e Unique (VC++)
+=======
+# <a name="primarykey-and-unique-properties-example-vc"></a>Exemplo das propriedades PrimaryKey e Unique (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

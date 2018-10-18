@@ -1,19 +1,13 @@
 ---
-title: Exemplo das propriedades ConnectionString, ConnectionTimeout e State Properties (VJ++)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)
-ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
-ms:contentKeyID: 48546141
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7de2b464889a51229f308f8cdf9a8b3b9ec8e0c0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464855"
+<<<<<<< Título cabeça: propriedades ConnectionString, ConnectionTimeout e TOCTitle estado exemplo das propriedades (VJ + +): propriedades ConnectionString, ConnectionTimeout e State Properties Example (VJ + +) === título: ConnectionString, ConnectionTimeout, exemplo das propriedades estado (VJ + +) e TOCTitle: exemplo das propriedades ConnectionString, ConnectionTimeout e estado (VJ + +)
+>>>>>>> ms:assetid de mestre: 88b3f95e-0e46-7cbb-8086-d583319a6628 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15) ms:contentKeyID: ms.date 48546141: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>Exemplo das propriedades ConnectionString, ConnectionTimeout e State Properties (VJ++)
+=======
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>Exemplo das propriedades ConnectionString, ConnectionTimeout e estado (VJ + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

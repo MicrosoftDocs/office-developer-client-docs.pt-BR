@@ -1,20 +1,14 @@
 ---
-title: Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ++)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
-ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15)
-ms:contentKeyID: 48545480
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 776129bcd3adfedbe25aa6df6a30a5c0d8339263
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464331"
+<<<<<<< Título cabeça: AbsolutePage, PageCount e PageSize exemplo das propriedades (VJ + +) TOCTitle: AbsolutePage, PageCount e PageSize exemplo das propriedades (VJ + +) ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) MS:contentKeyID: ms.date 48545480: 18/09/2015 mtps_version: v=office.15
 ---
+
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a>Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ++)
 
+=== título: exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ + +) TOCTitle: ms:assetid de exemplo (VJ + +) de propriedades AbsolutePage, PageCount e PageSize: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) ms:contentKeyID: ms.date 48545480: 10/17/2018 mtps_version: v=office.15
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a>Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ + +)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 

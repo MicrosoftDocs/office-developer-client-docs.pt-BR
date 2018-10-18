@@ -6,18 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca699fcfb850f00789fab632a9cae28a5e1e5a98
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3382b86ad14b484cb0fb9a8f6ecbd95018c25835
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464361"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607008"
 ---
 # <a name="datacontrol-object-rds"></a>Objeto DataControl (RDS)
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-Vincula uma consulta de dados do [Recordset](recordset-object-ado.md) a um ou vários controles (por exemplo, uma caixa de texto, um controle de grade ou uma caixa de combinação) para exibir os dados do **Recordset** em uma página da Web.
+<<<<<<< Cabeça vincula a dados [Recordset](recordset-object-ado.md) de consulta a um ou mais controles (por exemplo, uma caixa de texto, o controle de grade ou uma caixa de combinação) para exibir os dados do **Recordset** em uma página da Web.
+=== Vincula uma consulta de dados do [Recordset](recordset-object-ado.md) a um ou mais controles (por exemplo, uma caixa de texto, o controle de grade ou uma caixa de combinação) para exibir os dados do **Recordset** em uma página da Web.
+>>>>>>> mestre
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -80,15 +82,24 @@ Use um objeto **RDS.DataControl** para vincular os resultados de uma única cons
 
 Use objetos **RDS.DataControl** diferentes para vincular resultados de várias consultas a controles visuais diferentes. Por exemplo, suponha que você está usando uma consulta para obter informações sobre um cliente e uma segunda consulta para obter informações da mercadoria comprada pelo cliente. Você deseja exibir resultados da primeira consulta em três caixas de texto e uma caixa de seleção e os resultados da segunda consulta em um controle de grade. Se você usar o objeto corporativo padrão (**RDSServer.DataFactory**), será necessário fazer o seguinte:
 
+<<<<<<< Cabeça
   - Adicionar dois objetos **RDS.DataControl** à página da Web.
+=======
+  - Adicionar dois **RDS. DataControl** objetos para sua página da Web.
+>>>>>>> mestre
 
   - Gravar duas consultas, uma para cada propriedade **SQL** de dois objetos **RDS.DataControl**. O primeiro objeto **RDS.DataControl** conterá uma consulta SQL solicitando informações do cliente; o segundo conterá uma consulta solicitando uma lista de mercadorias compradas pelo cliente.
 
   - Em cada uma das marcas OBJECT dos controles vinculados, especifique o valor DATAFLD para definir os valores dos dados que você deseja exibir em cada controle visual.
 
-Não há restrição de contagem no número de objetos **RDS.DataControl** que você pode inserir por meio de marcas OBJECT em uma única página da Web.
+<<<<<<< Cabeça não há nenhuma restrição de contagem no número de **RDS. DataControl** objetos que você pode inserir por meio de marcas OBJECT em uma única página da Web.
 
-Quando você definir o objeto **RDS.DataControl** em uma página da Web, use os valores **Height** e **Width** diferentes de zero como 1 (para evitar a inclusão de espaços adicionais).
+<a name="when-you-define-the-rdsdatacontrol-object-on-a-web-page-use-nonzero-height-and-width-values-such-as-1-to-avoid-the-inclusion-of-extra-space"></a>Quando você definir o objeto **RDS.DataControl** em uma página da Web, use os valores **Height** e **Width** diferentes de zero como 1 (para evitar a inclusão de espaços adicionais).
+=======
+Não há nenhuma restrição de contagem no número de **RDS. DataControl** objetos que você pode inserir por meio de marcas OBJECT em uma única página da Web.
+
+Quando você define o **RDS. DataControl** do objeto em uma página da Web, use valores **Height** e **Width** diferentes de zero como 1 (para evitar a inclusão de espaços adicionais).
+>>>>>>> mestre
 
 Os componentes do cliente RDS já foram incluídos como parte do Internet Explorer 4.0; por esse motivo, não é necessário incluir um parâmetro CODEBASE na marca de objeto **RDS.DataControl**.
 

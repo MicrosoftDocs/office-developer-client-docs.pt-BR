@@ -1,25 +1,23 @@
 ---
-title: Propriedade OriginalValue (ADO)
-TOCTitle: OriginalValue Property (ADO)
-ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
-ms:contentKeyID: 48542974
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 40c93066de525eaafa9c1c40a7d7c5d543d42f2d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464512"
+<<<<<<< Título cabeça: propriedade OriginalValue (ADO) TOCTitle: propriedade OriginalValue (ADO) === título: a propriedade OriginalValue (ADO) TOCTitle: a propriedade OriginalValue (ADO)
+>>>>>>> ms:assetid de mestre: 02ffc728-4692-d439-e2a6-2f02cca53a71 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15) ms:contentKeyID: ms.date 48542974: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="originalvalue-property-ado"></a>Propriedade OriginalValue (ADO)
+=======
+# <a name="originalvalue-property-ado"></a>Propriedade OriginalValue (ADO)
+>>>>>>> mestre
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Indica o valor de um [Field](field-object-ado.md) que existia no registro antes de as alterações serem efetuadas.
 
+<<<<<<< Cabeça
+## <a name="return-value"></a>Valor retornado
+=======
 ## <a name="return-value"></a>Valor de retorno
+>>>>>>> mestre
 
 Retorna um valor **Variant** que representa o valor de um campo antes de qualquer alteração.
 

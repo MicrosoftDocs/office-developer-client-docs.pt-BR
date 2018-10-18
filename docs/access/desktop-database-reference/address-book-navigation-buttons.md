@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d68a15873bc5030fd51e54c2219a0ffd91f080f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464117"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603942"
 ---
 # <a name="address-book-navigation-buttons"></a>Botões de navegação do Catálogo de Endereços
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-O aplicativo de Catálogo de Endereço exibe os botões de navegação no fim da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
+<<<<<<< Aplicativo cabeça o catálogo de endereços exibe os botões de navegação na parte inferior da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
+=== O aplicativo de catálogo de endereços exibe os botões de navegação na parte inferior da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
+>>>>>>> mestre
 
 ## <a name="navigation-sub-procedures"></a>Subprocedimentos de navegação
 

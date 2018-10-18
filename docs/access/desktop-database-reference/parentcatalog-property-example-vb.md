@@ -1,19 +1,13 @@
 ---
-title: Exemplo da propriedade ParentCatalog (VB)
-TOCTitle: ParentCatalog Property Example (VB)
-ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
-ms:contentKeyID: 48544295
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d8ea3b28b6b6d6dff7de630beeb8929b050a7609
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463967"
+<<<<<<< Título cabeça: exemplo de propriedade ParentCatalog (VB) TOCTitle: exemplo de propriedade ParentCatalog (VB) === título: exemplo da propriedade ParentCatalog (VB) TOCTitle: exemplo da propriedade ParentCatalog (VB)
+>>>>>>> ms:assetid de mestre: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: ms.date 48544295: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="parentcatalog-property-example-vb"></a>Exemplo da propriedade ParentCatalog (VB)
+=======
+# <a name="parentcatalog-property-example-vb"></a>Exemplo da propriedade ParentCatalog (VB)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013

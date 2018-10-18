@@ -1,19 +1,13 @@
 ---
-title: Exemplo do Método Seek e da Propriedade Index (VC++)
-TOCTitle: Seek Method and Index Property Example (VC++)
-ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15)
-ms:contentKeyID: 48548820
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1abd8ece2e9e8057a9f886f892bc6b5fdf2a828f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464300"
+<<<<<<< Título cabeça: método Seek e TOCTitle de exemplo da propriedade Index (VC + +): método Seek e exemplo da propriedade Index (VC + +) === título: método Seek e índice de exemplo da propriedade (VC + +) TOCTitle: método Seek e índice de exemplo da propriedade (VC + +)
+>>>>>>> ms:assetid de mestre: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15) ms:contentKeyID: ms.date 48548820: 18/09/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< Cabeça
 # <a name="seek-method-and-index-property-example-vc"></a>Exemplo do Método Seek e da Propriedade Index (VC++)
+=======
+# <a name="seek-method-and-index-property-example-vc"></a>Método Seek e Index exemplo da propriedade (VC + +)
+>>>>>>> mestre
 
 
 **Aplica-se a**: Access 2013 | Office 2013
