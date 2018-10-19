@@ -5,10 +5,10 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
+description: 'Última modificação: 07 de dezembro de 2015'
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564133"
@@ -17,13 +17,13 @@ ms.locfileid: "22564133"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Quando o suplemento de estado offline estiver desconectado, você deve implementar funções para encerrar e limpar o suplemento corretamente. Para obter mais informações sobre como configurar e usar o offline estado suplemento para monitorar as alterações de estado de conexão, consulte [Add-in de configuração de backup de um estado Offline](setting-up-an-offline-state-add-in.md) e [Monitoramento Conexão estado alterações usando um suplemento do estado Offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Quando o suplemento de estado offline está desconectado, você precisa implementar funções para encerrar corretamente e limpar o suplemento. Para saber mais sobre como configurar e usar o suplemento de estado offline para monitorar as alterações de estado da conexão, confira [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md) e [Monitorar alterações de estado de conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-Neste tópico, esses desconexão, encerrar e funções de limpeza são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e usa a API de estado Offline. Através do menu de estado Offline, você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para obter mais informações sobre como baixar e instalar o suplemento de amostra Offline estado, consulte [Instalando o suplemento de amostra Offline estado](installing-the-sample-offline-state-add-in.md). Para obter mais informações sobre a API de estado Offline, consulte [Sobre o Offline estado API](about-the-offline-state-api.md).
+Neste tópico, essas funções de desconexão, encerramento e limpeza são demonstradas pelo uso de exemplos de código da Amostra de Suplemento de Estado Offline. O suplemento do estado de Offline de amostra é um suplemento COM que adiciona uma **estado Offline** menu ao Outlook e usa a API de estado Offline. Pelo menu Estado Offline, você pode habilitar ou desabilitar o monitoramento do estado e verificar e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
   
-## <a name="on-disconnection-routine"></a>Na rotina de desconexão
+## <a name="on-disconnection-routine"></a>Sobre a Rotina de Desconexão
 
-O método **IDTExtensibility2.OnDisconnection** é chamado quando o suplemento de estado Offline seja descarregado. Você deve implementar a limpeza do código nessa função. No exemplo a seguir, a função de **IDTExtensibility2.OnDisconnection** chama o `HrTermAddin` função. 
+O método **IDTExtensibility2.OnDisconnection** é chamado quando o suplemento de estado offline é descarregado. Você deve implementar um código de limpeza nesta função. No exemplo a seguir, a função **IDTExtensibility2.OnDisconnection** chama a função `HrTermAddin`. 
   
 ### <a name="cmyaddinondisconnection-example"></a>Exemplo de CMyAddin::OnDisconnection()
 
@@ -39,7 +39,7 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 
 ## <a name="terminate-add-in-function"></a>Encerrar a função de suplemento
 
-O `HrTermAddin` chamadas de função a `inDeInitMonitor`, `HrRemoveMenuItems`, e `UnloadLibraries` funções para finalizar limpando o suplemento do estado Offline. 
+A função `HrTermAddin` chama as funções `inDeInitMonitor`, `HrRemoveMenuItems` e `UnloadLibraries` para terminar a limpeza do suplemento de estado offline. 
   
 ### <a name="cmyaddinhrtermaddin-example"></a>Exemplo de CMyAddin::HrTermAddin()
 
@@ -54,9 +54,9 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a>Deinitialize rotina de Monitor
+## <a name="deinitialize-monitor-routine"></a>Desinicializar rotina de monitor
 
-O `inDeInitMonitor` função chama a função [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar os retornos de chamada para o objeto offline. 
+A função `inDeInitMonitor` chama a função [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) para cancelar os retornos de chamada do objeto offline. 
   
 ### <a name="deinitmonitor-example"></a>Exemplo de DeInitMonitor()
 
@@ -75,9 +75,9 @@ g_ulAdviseToken = NULL;
 }
 ```
 
-## <a name="remove-menu-items-routine"></a>Remover a rotina de itens de Menu
+## <a name="remove-menu-items-routine"></a>Remover rotina de itens do menu
 
-O `HrRemoveMenuItems` chamadas de função `DispEventUnadvise` para cada item de menu no menu **Estado Offline** e exclui o menu do **Estado Offline** . 
+A função `HrRemoveMenuItems` chama `DispEventUnadvise` para cada item do menu do menu **Estado Offline**, e depois exclui o menu **Estado Offline**. 
   
 ### <a name="cmyaddinhrremovemenuitems-example"></a>Exemplo de CMyAddin::HrRemoveMenuItems()
 
@@ -122,9 +122,9 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 }
 ```
 
-## <a name="unload-libraries-routine"></a>Descarregar a rotina de bibliotecas
+## <a name="unload-libraries-routine"></a>Descarregar rotinas de bibliotecas
 
-Quando o suplemento seja descarregado do Outlook, o `UnloadLibraries` função descarrega as bibliotecas de vínculos dinâmicos (DLLs) que o suplemento necessários. 
+Quando o suplemento for descarregado do Outlook, a função `UnloadLibraries` descarrega as bibliotecas de vínculo dinâmico (DLLs) que o suplemento exigiu. 
   
 ### <a name="unloadlibraries-example"></a>Exemplo de UnloadLibraries()
 
@@ -146,8 +146,8 @@ void UnloadLibraries()
 ## <a name="see-also"></a>Confira também
 
 - [Sobre a API de estado offline](about-the-offline-state-api.md)
-- [Instalar o exemplo de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
-- [Sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
+- [Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
+- [Sobre a amostra de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
 - [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
 - [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 
