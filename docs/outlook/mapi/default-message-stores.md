@@ -7,10 +7,10 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: efa178eb-feb2-443f-8f6b-2ea53a456bf2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3f7bf720f9105f6a81b832233cc648bc1d9ac91d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22576908"
@@ -21,27 +21,27 @@ ms.locfileid: "22576908"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um armazenamento de mensagens padrão é aquela que aplicativos cliente podem usar para tarefas de mensagens de finalidade geral. Há um número de recursos opcionais para provedores de armazenamento de mensagem que se tornam necessários se o provedor de armazenamento de mensagem deve ser usado como o armazenamento de mensagens padrão. Eles são os seguintes:
+Um repositório de mensagens padrão é aquele que os aplicativos de clientes podem usar para tarefas de mensagens de finalidade geral. Há vários recursos opcionais de provedores de repositórios de mensagens que se tornam necessários se o provedor do repositório de mensagens precisar ser usado como repositório de mensagens padrão. São eles:
   
-- Implementando pastas especiais: as pastas de caixa de entrada, caixa de saída e os resultados da pesquisa.
+- Implementar as pastas especiais: as pastas de caixa de entrada e saída e de resultados de pesquisa.
     
-- Fornecimento de relatórios de leitura e nonread.
+- Fornecer relatórios de leitura e não leitura.
     
-- Permitindo que envios de mensagem de entrada e saída.
+- Permitir envios de mensagens de entrada e saída.
     
-- Permitindo a criação de mensagens com classes de mensagens arbitrário.
+- Permitir a criação de mensagens com classes de mensagem arbitrárias.
     
-- Dando suporte a propriedades nomeadas e de valores múltiplos.
+- Suportar propriedades nomeadas e de múltiplos valores.
     
-- Suporte ao método [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md) , mesmo se o provedor de armazenamento de mensagem está firmemente combinado com um provedor de transporte. 
+- Suportar o método [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md), mesmo que o provedor do repositório de mensagens esteja fortemente acoplado a um provedor de transporte. 
     
-- Tabelas de conteúdo associado de suporte. Para obter mais informações, consulte [As tabelas de conteúdo](contents-tables.md).
+- Suportar tabelas de conteúdo associados. Para mais informações, confira [Tabelas de Conteúdo](contents-tables.md).
     
-- Dando suporte a notificação do spooler MAPI quando há mensagens na fila de mensagens de saída.
+- Suporte à notificação do spooler MAPI quando há mensagens na fila de mensagens de saída.
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

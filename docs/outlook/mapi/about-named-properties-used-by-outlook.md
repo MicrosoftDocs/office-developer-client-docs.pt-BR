@@ -1,193 +1,193 @@
 ---
-title: Sobre propriedades nomeadas usadas pelo Outlook
+title: Sobre as propriedades nomeadas usadas pelo Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22566226"
 ---
-# <a name="about-named-properties-used-by-outlook"></a>Sobre propriedades nomeadas usadas pelo Outlook
+# <a name="about-named-properties-used-by-outlook"></a>Sobre as propriedades nomeadas usadas pelo Outlook
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI fornece uma facilidade para atribuir nomes para determinadas propriedades para mapear esses nomes para identificadores exclusivos e para tornar os esse nome-para-identificador mapeamento persistente entre sess�es. Propriedades nomeadas s�o identificadas por um nome e um identificador global exclusivo (GUID) para um conjunto de propriedades. O nome pode ser um n�mero ou uma cadeia de caracteres. Para Microsoft Outlook 2013 ou Microsoft Outlook 2010, o conjunto de propriedades � geralmente um namespace definido por Outlook�2013 ou Outlook�2010, como **PSETID_Appointment**. 
+O MAPI fornece um recurso para atribuir nomes a certas propriedades, para mapear esses nomes para identificadores exclusivos e para fazer esse mapeamento nome-para-identificador persistente nas sessões. As propriedades nomeadas são identificadas por um nome e um identificador global exclusivo (GUID) para um conjunto de propriedades. O nome pode ser um número ou uma cadeia de caracteres. No Microsoft Outlook 2013 ou no Microsoft Outlook 2010, o conjunto de propriedades geralmente é um namespace definido pelo Outlook 2013 ou 2010, como **PSETID_Appointment**. 
   
-Named properties are manipulated by using the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) function and the [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) function. The name and the property set GUID are passed to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) function to obtain a property identifier that is valid for the current MAPI session. Because this property identifier can vary from computer to computer, the only consistent way to access a named property is to know its name and property set GUID. The range for identifiers is always in the 0x8000 and 0xFFFE range. 
+Propriedades nomeadas são manipuladas usando a função [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e a função [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). O nome e o GUID do conjunto de propriedades são passados para a função [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obter um identificador de propriedade que seja válido para a sessão MAPI atual. Como esse identificador de propriedade pode variar entre computadores, a única maneira consistente de acessar uma propriedade nomeada é saber seu nome e GUID do conjunto de propriedades. O intervalo de identificadores está sempre entre 0x8000 e 0xFFFE. 
   
-Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Specifically, a MAPI service provider or a MAPI client must implement [IMAPIProp::GetProps](imapiprop-getprops.md) to get values of named properties. Setting named properties used by Outlook�2013 or Outlook�2010 is not supported because of the risk of corrupting data that is shared with other MAPI providers or clients. 
+Qualquer objeto que implementa a interface [IMAPIProp: IUnknown](imapipropiunknown.md) pode suportar propriedades nomeadas. Especificamente, um provedor de serviços MAPI ou um cliente MAPI precisa implementar [IMAPIProp::GetProps](imapiprop-getprops.md) para obter valores de propriedades nomeadas. A configuração de propriedades usada pelo Outlook 2013 ou Outlook 2010 não é suportada por causa do risco de corrompimento de dados que é compartilhado com outros provedores ou clientes MAPI. 
   
-Outlook�2013 and Outlook�2010 use MAPI named properties to implement many of their features, for example, attachment security and meeting counter-proposals. Above this underlying data, Outlook�2013 and Outlook�2010 expose some of these properties as item properties in their Outlook�2013 and Outlook�2010 object models. For example, the **Email1Address** property of the **ContactItem** object in the object model corresponds to the named [Propriedade can�nico de PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md) in the **PSETID_Address** namespace. But in general, due to concerns for compatibility and data integrity, many of the MAPI properties that are used by Outlook�2013 and Outlook�2010 are not exposed in the object model. 
+O Outlook 2013 e o Outlook 2010 usam propriedades nomeadas MAPI para implementar muitos de seus recursos; por exemplo, segurança de anexos e contrapropostas de reuniões. Acima desses dados subjacentes, o Outlook 2013 e o Outlook 2010 expõem algumas dessas propriedades como propriedades de itens em seus modelos de objeto do Outlook 2013 e do Outlook 2010. Por exemplo, a propriedade **Email1Address** do objeto **ContactItem** no modelo de objeto corresponde à nomeada [PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md) no namespace **PSETID_Address**. Em geral, porém, em razão de preocupações com compatibilidade e integridade de dados, muitas das propriedades MAPI usadas pelo Outlook 2013 e Outlook 2010 não são expostas no modelo de objeto. 
   
-Esta refer�ncia descreve um n�mero de propriedades nomeadas listadas abaixo.
+Esta referência descreve diversas propriedades nomeadas que estão listadas abaixo.
   
-Propriedades nomeadas no namespace **PSETID_Address** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Address** são as seguintes: 
   
-- [Propriedade can�nico de PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)
+- [Propriedade canônica PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)
+- [Propriedade canônica PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail1OriginalEntryId](pidlidemail1originalentryid-canonical-property.md)
+- [Propriedade canônica PidLidEmail1OriginalEntryId](pidlidemail1originalentryid-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)
+- [Propriedade canônica PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)
+- [Propriedade canônica PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail2OriginalDisplayName](pidlidemail2originaldisplayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail2OriginalDisplayName](pidlidemail2originaldisplayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail2OriginalEntryId](pidlidemail2originalentryid-canonical-property.md)
+- [Propriedade canônica PidLidEmail2OriginalEntryId](pidlidemail2originalentryid-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)
+- [Propriedade canônica PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)
+- [Propriedade canônica PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail3OriginalEntryId](pidlidemail3originalentryid-canonical-property.md)
+- [Propriedade canônica PidLidEmail3OriginalEntryId](pidlidemail3originalentryid-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail1DisplayName](pidlidemail1displayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail1DisplayName](pidlidemail1displayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md)
+- [Propriedade canônica PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidFileUnder](pidlidfileunder-canonical-property.md)
+- [Propriedade canônica PidLidFileUnder](pidlidfileunder-canonical-property.md)
     
-- [Propriedade can�nico de PidLidInstantMessagingAddress](pidlidinstantmessagingaddress-canonical-property.md)
+- [Propriedade canônica PidLidInstantMessagingAddress](pidlidinstantmessagingaddress-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md)
     
-- [Propriedade can�nico de PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md)
+- [Propriedade canônica PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md)
     
-- [Propriedade can�nico de PidLidYomiCompanyName](pidlidyomicompanyname-canonical-property.md)
+- [Propriedade canônica PidLidYomiCompanyName](pidlidyomicompanyname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidYomiFirstName](pidlidyomifirstname-canonical-property.md)
+- [Propriedade canônica PidLidYomiFirstName](pidlidyomifirstname-canonical-property.md)
     
-- [Propriedade can�nico de PidLidYomiLastName](pidlidyomilastname-canonical-property.md)
+- [Propriedade canônica PidLidYomiLastName](pidlidyomilastname-canonical-property.md)
     
-Propriedades nomeadas no namespace **PSETID_Appointment** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Appointment** são as seguintes: 
   
-- [Propriedade can�nico de PidLidAllAttendeesString](pidlidallattendeesstring-canonical-property.md)
+- [Propriedade canônica PidLidAllAttendeesString](pidlidallattendeesstring-canonical-property.md)
     
-- [Propriedade can�nico de PidLidAppointmentCounterProposal](pidlidappointmentcounterproposal-canonical-property.md)
+- [Propriedade canônica PidLidAppointmentCounterProposal](pidlidappointmentcounterproposal-canonical-property.md)
     
-- [Propriedade can�nico de PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)
+- [Propriedade canônica PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)
     
-- [Propriedade can�nico de PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)
+- [Propriedade canônica PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)
     
-- [Propriedade can�nico de PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)
+- [Propriedade canônica PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)
     
-- [Propriedade can�nico de PidLidBusyStatus](pidlidbusystatus-canonical-property.md)
+- [Propriedade canônica PidLidBusyStatus](pidlidbusystatus-canonical-property.md)
     
-- [Propriedade can�nico de PidLidCcAttendeesString](pidlidccattendeesstring-canonical-property.md)
+- [Propriedade canônica PidLidCcAttendeesString](pidlidccattendeesstring-canonical-property.md)
     
-- [Propriedade can�nico de PidLidLocation](pidlidlocation-canonical-property.md)
+- [Propriedade canônica PidLidLocation](pidlidlocation-canonical-property.md)
     
-- [Propriedade can�nico de PidLidRecurring](pidlidrecurring-canonical-property.md)
+- [Propriedade canônica PidLidRecurring](pidlidrecurring-canonical-property.md)
     
-- [Propriedade can�nico de PidLidToAttendeesString](pidlidtoattendeesstring-canonical-property.md)
+- [Propriedade canônica PidLidToAttendeesString](pidlidtoattendeesstring-canonical-property.md)
     
-Propriedades nomeadas no namespace **PSETID_Common** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Common** são as seguintes: 
   
-- [Propriedade can�nico de PidLidCommonEnd](pidlidcommonend-canonical-property.md)
+- [Propriedade canônica PidLidCommonEnd](pidlidcommonend-canonical-property.md)
     
-- [Propriedade can�nico de PidLidCommonStart](pidlidcommonstart-canonical-property.md)
+- [Propriedade canônica PidLidCommonStart](pidlidcommonstart-canonical-property.md)
     
-- [Propriedade can�nico de PidLidCompanies](pidlidcompanies-canonical-property.md)
+- [Propriedade canônica PidLidCompanies](pidlidcompanies-canonical-property.md)
     
-- [Propriedade can�nico de PidLidContacts](pidlidcontacts-canonical-property.md)
+- [Propriedade canônica PidLidContacts](pidlidcontacts-canonical-property.md)
     
-- [Propriedade can�nico de PidLidCustomFlag](pidlidcustomflag-canonical-property.md)
+- [Propriedade canônica PidLidCustomFlag](pidlidcustomflag-canonical-property.md)
     
-- [Propriedade can�nico de PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Propriedade canônica PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Propriedade canônica PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [Propriedade can�nico de PidLidHeaderItem](pidlidheaderitem-canonical-property.md)
+- [Propriedade canônica PidLidHeaderItem](pidlidheaderitem-canonical-property.md)
     
-- [Propriedade can�nico de PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Propriedade canônica PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)
+- [Propriedade canônica PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidReminderSet](pidlidreminderset-canonical-property.md)
+- [Propriedade canônica PidLidReminderSet](pidlidreminderset-canonical-property.md)
     
-- [Propriedade can�nico de PidLidReminderTime](pidlidremindertime-canonical-property.md)
+- [Propriedade canônica PidLidReminderTime](pidlidremindertime-canonical-property.md)
     
-- [Propriedade can�nico de PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
+- [Propriedade canônica PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
     
-- [Propriedade can�nico de PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Propriedade canônica PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidSmartNoAttach](pidlidsmartnoattach-canonical-property.md)
+- [Propriedade canônica PidLidSmartNoAttach](pidlidsmartnoattach-canonical-property.md)
     
-- [Propriedade can�nico de PidLidToDoTitle](pidlidtodotitle-canonical-property.md)
+- [Propriedade canônica PidLidToDoTitle](pidlidtodotitle-canonical-property.md)
     
-- [Propriedade can�nico de PidLidUseTnef](pidlidusetnef-canonical-property.md)
+- [Propriedade canônica PidLidUseTnef](pidlidusetnef-canonical-property.md)
     
-Propriedades nomeadas no namespace **PSETID_Meeting** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Meeting** são as seguintes: 
   
-- [Propriedade can�nico de PidLidMeetingType](pidlidmeetingtype-canonical-property.md)
+- [Propriedade canônica PidLidMeetingType](pidlidmeetingtype-canonical-property.md)
     
-Propriedades nomeadas no namespace **PSETID_Task** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Task** são as seguintes: 
   
-- [Propriedade can�nico de PidLidTaskActualEffort](pidlidtaskactualeffort-canonical-property.md)
+- [Propriedade canônica PidLidTaskActualEffort](pidlidtaskactualeffort-canonical-property.md)
     
-- [Propriedade can�nico de PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
+- [Propriedade canônica PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
     
-- [Propriedade can�nico de PidLidTaskEstimatedEffort](pidlidtaskestimatedeffort-canonical-property.md)
+- [Propriedade canônica PidLidTaskEstimatedEffort](pidlidtaskestimatedeffort-canonical-property.md)
     
-- [Propriedade can�nico de PidLidTaskFRecurring](pidlidtaskfrecurring-canonical-property.md)
+- [Propriedade canônica PidLidTaskFRecurring](pidlidtaskfrecurring-canonical-property.md)
     
-- [Propriedade can�nico de PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)
+- [Propriedade canônica PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)
     
-- [Propriedade can�nico de PidLidTaskStatus](pidlidtaskstatus-canonical-property.md)
+- [Propriedade canônica PidLidTaskStatus](pidlidtaskstatus-canonical-property.md)
     
-Propriedades nomeadas no namespace **PS_INTERNET_HEADERS** s�o as seguintes: 
+As propriedades nomeadas no namespace **PS_INTERNET_HEADERS** são as seguintes: 
   
-- [Propriedade can�nico de PidTagInternetReturnPath](pidtaginternetreturnpath-canonical-property.md)
+- [Propriedade canônica PidTagInternetReturnPath](pidtaginternetreturnpath-canonical-property.md)
     
-Propriedades nomeadas no namespace **PSETID_Log** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_Log** são as seguintes: 
   
-- [Propriedade can�nico de PidLidLogDuration](pidlidlogduration-canonical-property.md)
+- [Propriedade canônica PidLidLogDuration](pidlidlogduration-canonical-property.md)
     
-- [Propriedade can�nico de PidLidLogEnd](pidlidlogend-canonical-property.md)
+- [Propriedade canônica PidLidLogEnd](pidlidlogend-canonical-property.md)
     
-- [Propriedade can�nico de PidLidLogStart](pidlidlogstart-canonical-property.md)
+- [Propriedade canônica PidLidLogStart](pidlidlogstart-canonical-property.md)
     
-- [Propriedade can�nico de PidLidLogType](pidlidlogtype-canonical-property.md)
+- [Propriedade canônica PidLidLogType](pidlidlogtype-canonical-property.md)
     
-Propriedades nomeadas no namespace **PS_PUBLIC_STRINGS** s�o as seguintes: 
+As propriedades nomeadas no namespace **PSETID_PUBLIC_STRINGS** são as seguintes: 
   
-- [Propriedade can�nico de PidNameKeywords](pidnamekeywords-canonical-property.md)
+- [Propriedade canônica PidNameKeywords](pidnamekeywords-canonical-property.md)
     
-- [Propriedade can�nico de PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md)
+- [Propriedade canônica PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md)
     
-## <a name="see-also"></a>Ver tamb�m
+## <a name="see-also"></a>Confira também
 
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [Determinar se o Outlook baixou somente o cabeçalho de uma mensagem](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   
-[Obter o endereço de Email de um item de contato](how-to-get-the-email-address-of-a-contact-item.md)
+[Obter o endereço de email de um item de contato](how-to-get-the-email-address-of-a-contact-item.md)
   
 [Remover a definição de formulário personalizada salva com uma mensagem](how-to-remove-custom-form-definition-saved-with-a-message.md)
 
