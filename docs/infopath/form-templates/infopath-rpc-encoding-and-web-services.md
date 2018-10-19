@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
-description: 'Serviços Web podem expor um dos dois estilos de associação para seus métodos Web no contrato da Linguagem de descrição de serviços Web(WSDL) que descreve: RPC ou documento.'
+description: 'Serviços Web podem expor um dos dois estilos de associação para seus métodos Web no contrato da Linguagem de Descrição de Serviço Web (WSDL) que os descreve: RPC ou documento.'
 ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
@@ -15,35 +15,35 @@ ms.locfileid: "25387675"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, codificação RPC e serviços Web
 
-Serviços Web podem expor um dos dois estilos de associação para seus métodos Web no contrato da Linguagem de descrição de serviços Web(WSDL) que descreve: RPC ou documento. Além disso, cada um desses dois estilos de encadernação pode ser especificado como o literal ou codificado. Implementações mais comuns para cada tipo são: documento/caracteres literais e RPC/codificado. No entanto, o Microsoft InfoPath apenas dá suporte à conexão de serviços Web com o estilo de documento/literal.
+Serviços Web podem expor um dos dois estilos de associação para seus métodos Web no contrato da Linguagem de Descrição de Serviço Web (WSDL) que os descreve: RPC ou documento. Além disso, cada um desses dois estilos de associação pode ser especificado como literal ou codificado. Implementações mais comuns para cada tipo são: documento/literal e RPC/codificado. No entanto, o Microsoft InfoPath apenas dá suporte à conexão de serviços Web com o estilo de documento/literal.
   
-A maioria das ferramentas de desenvolvimento do serviço Web fornecem uma opção para especificar o tipo de serviço Web que você deseja criar. Se você estiver desenvolvendo um serviço Web que se conectará ao InfoPath, você deve especificar e estilo do seu serviço Web como documento/literal como e a fazer a codificação.
+A maioria das ferramentas de desenvolvimento do serviço Web fornecem uma opção para especificar o tipo de serviço Web que você deseja criar. Se estiver desenvolvendo um serviço Web que se conectará ao InfoPath, você deverá especificar o estilo e a codificação do seu serviço Web como documento/literal.
   
-No entanto, se você não domina o serviço Web que você deseja usar e precisa se conectar a um serviço Web, usando o estilo RPC/codificados, você pode usar o serviço de proxy do .NET para se conectar a um serviço Web RPC/codificado.
+No entanto, se você não controla o serviço Web que deseja usar e precisa se conectar a um serviço Web, usando o estilo RPC/codificado, use o serviço proxy do .NET para se conectar a um serviço Web RPC/codificado.
   
-## <a name="using-a-net-proxy-service-to-connect-to-a-web-service"></a>Usar um serviço de Proxy .NET para se conectar a um serviço Web
+## <a name="using-a-net-proxy-service-to-connect-to-a-web-service"></a>Usar um serviço proxy do .NET para se conectar a um serviço Web
 
-Se você não domina o serviço Web RPC/codificação que você deseja usar, você pode criar um proxy de documento/literal de serviço Web do Microsoft .NET que fornece funções de conteúdo adicional para cada um dos métodos Web que você deseja invocar do serviço Web RPC/codificado. Você pode trabalhar com documentos proxy/literal de serviço Web do InfoPath.
+Caso não controle o serviço Web RPC/codificado que deseja usar, você poderá criar um proxy de documento/literal de serviço Web do Microsoft .NET que forneça funções de conteúdo adicional para cada um dos métodos Web que você deseja invocar do serviço Web RPC/codificado. Você pode trabalhar com o serviço Web documento/literal do proxy no InfoPath.
   
-O código .NET framework pode trabalhar com qualquer tipo de serviço Web (RPC/encoded e documento/literal) e todos os serviços Web do .NET usam o estilo e a codificação documento/literal. Como o .NET Framework pode se comunicar com qualquer tipo de serviço da Web, você pode criar um serviço Web com métodos para fazer o serviço Web RPC/codificado. O serviço Web .NET atuará como um tradutor que permite que o InfoPath faça chamadas do estilo documento/literal para o serviço da Web .NET, que por sua vez pode fazer chamadas com o estilo RPC/encoded estilo para o serviço Web original.
+O código do .NET Framework pode trabalhar com qualquer tipo de serviço Web (RPC/codificado e documento/literal), e todos os serviços Web do .NET usam o estilo e a codificação documento/literal. Como o .NET Framework pode se comunicar com qualquer tipo de serviço Web, você pode criar um serviço Web com métodos para fazer chamadas ao serviço Web RPC/codificado. O serviço Web .NET atuará como um tradutor que permite que o InfoPath faça chamadas do estilo documento/literal para o serviço Web do .NET, que por sua vez pode fazer chamadas com o estilo RPC/codificado para o serviço Web original.
   
-Os pré-requisitos para criar um proxy de serviço Web do Microsoft .NET são um computador Windows da Microsoft ou do Microsoft Windows Server com serviços de informações de Internet (IIS) instalado, onde será possível implantar o proxy de serviço Web do ASP.NET. Quando você cria uma solução do InfoPath, você apontará para o serviço Web proxy em vez do serviço Web RPC/encoded proxy. O proxy serviço da Web fará chamadas para o serviço RPC/encoded.
+Os pré-requisitos para criar um serviço Web proxy do Microsoft .NET são um computador Microsoft Windows ou Microsoft Windows Server com o IIS (Serviços de Informações de Internet) instalado, onde será possível implantar o proxy de serviço Web do ASP.NET. Ao criar uma solução do InfoPath, você apontará para o serviço Web proxy em vez do serviço Web RPC/codificado. O serviço Web proxy fará chamadas ao serviço RPC/codifificado.
   
-## <a name="creating-a-proxy-web-service-using-visual-studio"></a>Criar um serviço Web do Proxy usando o Visual Studio
+## <a name="creating-a-proxy-web-service-using-visual-studio"></a>Criar um serviço Web proxy usando o Visual Studio
 
-1. Criar um novo projeto no **aplicativo de serviços Web ASP.NET**. 
+1. Crie um novo projeto de **aplicativo de serviços Web do ASP.NET**. 
     
-2. No **Explorador de soluções**, clique com o botão direito em**referências** na pasta de novo projeto e clique em **adicionar referência Web**. 
+2. No **Explorador de Soluções**, clique com o botão direito do mouse na pasta **Referências** de seu novo projeto e clique em **Adicionar Referência da Web**. 
     
-3. Na caixa de diálogo**adicionar Web referência**, digite a URL do serviço Web RPC/codificação que você deseja usar e clique em **Ir**.
+3. Na caixa de diálogo **Adicionar Referência da Web**, digite a URL do serviço Web RPC/codificado que você deseja usar e clique em **Ir**.
     
-4. Clique em **adicionar referência**. 
+4. Clique em **Adicionar Referência**. 
     
-5. Abra o arquivo. asmx para o seu serviço da Web e adicione um método de serviço Web para solicitar cada método de serviço Web usando o referenciado serviço Web RPC/encoded.
+5. Abra o arquivo. asmx do seu serviço Web e adicione um método de serviço Web para chamar cada método de serviço Web que usa o serviço Web RPC/codificado referenciado.
     
-6. Para exibir uma lista dos métodos na referência do servidor Web RPC/codificados, exiba a janela **modo de exibição classe**. Para cada método de serviço Web, você verá três métodos. Por exemplo, se o método de serviço Web for acionado `doSearch`, em seguida, você verá três métodos chamados `doSearch`, `BegindoSearch`, e `EnddoSearch`. Você precisa criar um método de serviço Web de conteúdo adicional para o `doSearch` método. Certifique-se de combinar o método exato de assinatura com o tipo de retorno. 
+6. Para exibir uma lista dos métodos no servidor Web RPC/codificado de referência, exiba a janela **Modo de Exibição de Classe**. Para cada método de serviço Web, você verá três métodos. Por exemplo, se o método de serviço Web for acionado `doSearch`, você verá três métodos chamados `doSearch`, `BegindoSearch` e `EnddoSearch`. Você só precisa criar um método de serviço Web de conteúdo adicional para o método `doSearch`. Certifique-se de combinar o método exato de assinatura com o tipo de retorno. 
     
-7. Em cada método de conteúdo adicional, você precisa escrever o código para fazer uma chamada ao referenciado serviço Web RPC/encoded, conforme mostrado no exemplo a seguir. 
+7. Em cada método de conteúdo adicional, você precisa escrever o código para fazer uma chamada ao serviço Web RPC/codificado referenciado, conforme mostrado no exemplo a seguir. 
     
    ```cs
     [WebMethod] 
@@ -55,26 +55,26 @@ Os pré-requisitos para criar um proxy de serviço Web do Microsoft .NET são um
     
    ```
 
-8. Se o serviço Web RPC/encoded requerer autenticação, codifique as credenciais necessárias para conectar o serviço Web RPC/encoded ao código fonte para o serviço Web .NET, ou então você pode usar um código como o do exemplo a seguir. 
+8. Se o serviço Web RPC/codificado requerer autenticação, codifique as credenciais necessárias para conectar o serviço Web RPC/codificado ao código fonte do serviço Web proxy do .NET, ou você pode usar um código como o do exemplo a seguir. 
     
    ```cs
     myProxy.Credentials = System.Net.CredentialCache.DefaultCredentials; 
     
    ```
 
-Para saber mais, pesquise o artigo "Como: passar as credenciais atuais para um serviço da Web ASP.NET" na https://support.microsoft.com/.na Base de Dados de Conhecimento Microsoft
+Para saber mais, procure o artigo da Base de Conhecimento Microsoft "Como: passar as credenciais atuais para um serviço Web ASP.NET" em https://support.microsoft.com/.
     
-## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Criar um serviço Web do Proxy sem usar o Visual Studio .NET
+## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Criar um serviço Web proxy sem usar o Visual Studio .NET
 
-Como alternativa, você pode criar um proxy de serviço Web usando as ferramentas que são fornecidas com o .NET Framework SDK, que pode ser baixado no MSDN.
+Como alternativa, você pode criar um serviço Web proxy usando as ferramentas que são fornecidas com o .NET Framework SDK, que pode ser baixado no MSDN.
   
-Use a ferramenta de idioma de descrição de serviços Web (Wsdl.exe) para criar o arquivo de código para o serviço Web proxy. Esse arquivo de código pode ser compilado usando a linha de comando compilador C# (csc.exe) ou o compilador de linha de comando .NET do Visual Basic (vbc.exe), que também está incluído no SDK do .NET Framework. Depois que a ferramenta de WSDL tiver gerado o arquivo de código, renomeie a extensão de nome de arquivo para. asmx e abra o arquivo em um editor de texto. Na primeira linha do documento, adicione a diretiva de página a seguir:
+Use a Ferramenta de Linguagem de Descrição de Serviços Web (Wsdl.exe) para criar o arquivo de código do serviço Web proxy. Esse arquivo de código pode ser compilado usando a linha de comando do compilador C# (csc.exe) ou o compilador de linha de comando .NET do Visual Basic (vbc.exe), que também está incluído no SDK do .NET Framework. Depois que a ferramenta WSDL tiver gerado o arquivo de código, renomeie a extensão de nome de arquivo para. asmx e abra o arquivo em um editor de texto. Na primeira linha do documento, adicione a diretiva de página a seguir:
   
 ```cs
 <%@ WebService Language="C#" class="GoogleSearchServiceWrapper" %> 
 ```
 
-Vá até o final do arquivo de código para criar uma ligação para cada método de serviço Web no serviço Web RPC/codificado. O exemplo a seguir mostra o código de um serviço da Web que se conecta ao serviço Web do Google, que usa o estilo RPC/encoded de desenvolvimento. Há um espaço reservado para onde o código gerado wsdl.exe deve ir.
+Vá até o final do arquivo de código para criar uma chamada para cada método de serviço Web no serviço Web RPC/codificado. O exemplo a seguir mostra o código de um serviço Web que se conecta ao serviço Web do Google, que usa o estilo RPC/codificado de desenvolvimento. Há um espaço reservado para onde o código gerado wsdl.exe deve ir.
   
 ```cs
 <%@ WebService Language="C#" class="GoogleSearchServiceWrapper" %> 

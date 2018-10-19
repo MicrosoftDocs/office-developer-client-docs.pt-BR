@@ -1,32 +1,32 @@
 ---
-title: Sobre como definir a ordem de resolu��o de listas de endere�os no Outlook
+title: Sobre como definir a ordem de resolução de listas de endereços no Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
-description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
+description: 'Última modificação: 05 de julho de 2012'
 ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25391406"
 ---
-# <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Sobre como definir a ordem de resolu��o de listas de endere�os no Outlook
+# <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Sobre como definir a ordem de resolução de listas de endereços no Outlook
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para cada perfil, Microsoft Office Outlook oferece suporte a várias listas de endereços e os usuários podem especificar manualmente a ordem das listas de endereços pelos quais destinatários em email participantes em solicitações de reunião e mensagens forem resolvidos. Por exemplo, voc� pode definir a ordem de resolu��o para que os nomes ser�o resolvidos primeiro contra seu cat�logo de endere�os do Outlook e, em seguida, a lista de endere�os Global. Em um computador, um usu�rio pode abrir o cat�logo de endere�os, clique em **Ferramentas** e em seguida **Op��es** para especificar nesta ordem de resolu��o. No entanto, em um ambiente corporativo, � mais eficiente para administradores de TI definir programaticamente a ordem das listas de endere�os pelo qual nomes forem resolvidos. Esse tipo de c�digo pode ser usado como parte de um script de automa��o de inicializa��o que um administrador implanta dentro da corpora��o. 
+Para cada perfil, o Microsoft Office Outlook suporta várias listas de endereços e os usuários podem especificar manualmente a ordem das lista de endereços pelas quais são resolvidos os recebedores de mensagens de email e os participantes de solicitações de reunião. Por exemplo, você pode definir a ordem de resolução para que os nomes sejam resolvidos primeiro de acordo com seu Catálogo de Endereços do Outlook, e depois de acordo com a Lista de Endereços Global. Em um computador, um usuário pode abrir o catálogo de endereços, clicar em **Ferramentas** e, em seguida, em **Opções** para especificar esta ordem de resolução. No entanto, em um ambiente corporativo, é mais eficiente para os administradores de TI definir programaticamente a ordem das listas de endereços segundo a qual os nomes são resolvidos. Este código pode ser usado como parte de um script de automação de inicialização que um administrador implanta dentro da corporação. 
   
-MAPI oferece suporte ao m�todo **[SetSearchPath](iaddrbook-getsearchpath.md)** na interface do **[IAddrBook](iaddrbookimapiprop.md)**, que permite que voc� defina um novo caminho de pesquisa no perfil que ser� usado para resolu��o de nome. Para usar o m�todo **IAddrBook::SetSearchPath**, voc� deve especificar a ordem de resolu��o desejada usando uma matriz que cont�m os cont�ineres do endere�o relevante manuais online na ordem que eles devem ser resolvidos. Cada entrada nessa matriz tamb�m deve conter a identifica��o de entrada do cat�logo de endere�os correspondente. 
+A MAPI suporta o método **[SetSearchPath](iaddrbook-getsearchpath.md)** na interface **[IAddrBook](iaddrbookimapiprop.md)**, o que permite que você defina um novo caminho de pesquisa no perfil usado para a resolução dos nomes. Para usar o método **IAddrBook::SetSearchPath**, você precisa especificar a ordem de resolução desejada usando uma matriz com contêineres dos catálogos de endereços relevantes na ordem em que eles devem ser resolvidos. Cada entrada nessa matriz também deve conter a ID de entrada do catálogo de endereços correspondente. 
   
-A seguir est�o exemplos de c�digo de como especificar um caminho de pesquisa personalizada para listas de endere�os.
+A seguir estão exemplos de código de como especificar um caminho de pesquisa personalizado para catálogos de endereços.
   
-- [Definir a ordem de resolução de listas de endereços via programação](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
+- [Definir programaticamente a ordem de resolução para catálogos de endereços](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [KB 292590: como alterar a ordem de classifica��o do cat�logo de endere�os com SetSearchPath](https://support.microsoft.com/kb/292590)
+- [KB 292590: Como alterar a ordem de classificação do catálogo de endereços com SetSearchPath](https://support.microsoft.com/kb/292590)
     
 
