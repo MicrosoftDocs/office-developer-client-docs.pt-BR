@@ -8,39 +8,40 @@ f1_keywords:
 - Vis_DSS.chm60026
 localization_priority: Normal
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
-description: Contém a identificação da imagem da face do botão exibido no botão de marca de ação.
-ms.openlocfilehash: ca6be0a95b33e173219f4bdc1ba042c7162941b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém a ID da imagem de face do botão que é exibida no botão de marca de ação.
+ms.openlocfilehash: e74b3281d894cebd8491112181198d427f0d337f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771430"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385477"
 ---
-# <a name="buttonface-cell-action-tags-section"></a><span data-ttu-id="00b9c-103">Célula ButtonFace (Seção Action Tags)</span><span class="sxs-lookup"><span data-stu-id="00b9c-103">ButtonFace Cell (Action Tags Section)</span></span>
+# <a name="buttonface-cell-action-tags-section"></a><span data-ttu-id="e5918-103">Célula ButtonFace (Seção Action Tags)</span><span class="sxs-lookup"><span data-stu-id="e5918-103">ButtonFace Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="00b9c-104">Contém a identificação da imagem da face do botão exibido no botão de marca de ação.</span><span class="sxs-lookup"><span data-stu-id="00b9c-104">Contains the ID of the button face image that appears on the action tag button.</span></span> 
+<span data-ttu-id="e5918-104">Contém a ID da imagem de face do botão que é exibida no botão de marca de ação.</span><span class="sxs-lookup"><span data-stu-id="e5918-104">Contains the ID of the button face image that appears on the action tag button.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="00b9c-105">Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="00b9c-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="e5918-105">Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="e5918-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="00b9c-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="00b9c-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5918-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="e5918-106">Remarks</span></span>
 
-<span data-ttu-id="00b9c-107">A cadeia de caracteres contida na célula ButtonFace representa a identificação de uma imagem de face de botão do Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="00b9c-107">The string contained in the ButtonFace cell represents the ID of a Microsoft Office button face image.</span></span> <span data-ttu-id="00b9c-108">Um valor 0 (zero) ou deixe em branco, por padrão, o botão de informações de "i" de marca de ação padrão ![](media/InfoPS_ZA10180114.gif).</span><span class="sxs-lookup"><span data-stu-id="00b9c-108">A value of 0 (zero) or blank defaults to the standard action tag "i" info button ![](media/InfoPS_ZA10180114.gif).</span></span>
+<span data-ttu-id="e5918-p101">.A cadeia de caracteres contida na célula ButtonFace representa a identificação de uma imagem de face do botão do Microsoft Office. Um valor 0 (zero) ou em branco assume como padrão o botão de informação "i" da marca de ação</span><span class="sxs-lookup"><span data-stu-id="e5918-p101">The string contained in the ButtonFace cell represents the ID of a Microsoft Office button face image. A value of 0 (zero) or blank defaults to the standard action tag "i" info button</span></span> ![Botão de informação"i" da marca de ação padrão](media/InfoPS_ZA10180114.gif)<span data-ttu-id="e5918-110">.</span><span class="sxs-lookup"><span data-stu-id="e5918-110"></span></span>
   
-<span data-ttu-id="00b9c-109">As IDs que podem ser usadas na célula ButtonFace são os mesmos as IDs usadas com a propriedade **FaceID** de um objeto **CommandBarButton** .</span><span class="sxs-lookup"><span data-stu-id="00b9c-109">The IDs that can be used in the ButtonFace cell are the same as the IDs used with the **FaceID** property of a **CommandBarButton** object.</span></span> <span data-ttu-id="00b9c-110">Para obter mais detalhes sobre essas IDs, procure "Trabalhando com imagens de botão de barra de comandos" no MSDN.</span><span class="sxs-lookup"><span data-stu-id="00b9c-110">For more details about these IDs, search for "working with command bar button images" on MSDN.</span></span> 
+<span data-ttu-id="e5918-111">As identificações que podem ser usadas na célula ButtonFace são as mesmas que as utilizadas com a propriedade **FaceID** de um objeto **CommandBarButton**.</span><span class="sxs-lookup"><span data-stu-id="e5918-111">The IDs that can be used in the ButtonFace cell are the same as the IDs used with the **FaceID** property of a **CommandBarButton** object. For more details about these IDs, search for "working with command bar button  images" on MSDN.</span></span> <span data-ttu-id="e5918-112">Para obter mais detalhes sobre essas identificações, procure "trabalhando com imagens de botão da barra de comandos" na MSDN.</span><span class="sxs-lookup"><span data-stu-id="e5918-112">For more details about these IDs, search for "working with command bar button images" on MSDN.</span></span> 
   
-<span data-ttu-id="00b9c-111">Para fazer referência à célula ButtonFace pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize:</span><span class="sxs-lookup"><span data-stu-id="00b9c-111">To get a reference to the ButtonFace cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e5918-113">Para obter uma referência à célula ButtonFace pelo nome de outra fórmula ou por um programa que utiliza a propriedade **CellsU**, use:</span><span class="sxs-lookup"><span data-stu-id="e5918-113">To get a reference to the ButtonFace cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="00b9c-112">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="00b9c-112">Cell name:</span></span>  <br/> | <span data-ttu-id="00b9c-113">Marcas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="00b9c-113">SmartTags.</span></span>  <span data-ttu-id="00b9c-114">*nome* . ButtonFace onde SmartTags.</span><span class="sxs-lookup"><span data-stu-id="00b9c-114">*name*  .ButtonFace           where SmartTags.</span></span> <span data-ttu-id="00b9c-115">*nome* é o nome da linha de marca de ação</span><span class="sxs-lookup"><span data-stu-id="00b9c-115">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="e5918-114">Nome da célula:</span><span class="sxs-lookup"><span data-stu-id="e5918-114">Cell name:</span></span>  <br/> | <span data-ttu-id="e5918-115">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="e5918-115">SmartTags</span></span>  <span data-ttu-id="e5918-116">*name*  .ButtonFace           em que SmartTags.</span><span class="sxs-lookup"><span data-stu-id="e5918-116">*name*  .ButtonFace           where SmartTags.</span></span> <span data-ttu-id="e5918-117">*name*  é o nome da linha da marca de ação</span><span class="sxs-lookup"><span data-stu-id="e5918-117">SmartTags.*name*.Xwhere SmartTags.name is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="00b9c-116">Para fazer referência à célula ButtonFace pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="00b9c-116">To get a reference to the ButtonFace cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e5918-118">Para obter uma referência à célula ButtonFace pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos:</span><span class="sxs-lookup"><span data-stu-id="e5918-118">To get a reference to the ButtonFace cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="00b9c-117">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="00b9c-117">Section index:</span></span>  <br/> |<span data-ttu-id="00b9c-118">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="00b9c-118">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="00b9c-119">Índice da linha:</span><span class="sxs-lookup"><span data-stu-id="00b9c-119">Row index:</span></span>  <br/> |<span data-ttu-id="00b9c-120">**visRowSmartTag** +  *i* onde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="00b9c-120">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="00b9c-121">Índice da célula:</span><span class="sxs-lookup"><span data-stu-id="00b9c-121">Cell index:</span></span>  <br/> |<span data-ttu-id="00b9c-122">**visSmartTagButtonFace**</span><span class="sxs-lookup"><span data-stu-id="00b9c-122">**visSmartTagButtonFace**</span></span> <br/> |
+| <span data-ttu-id="e5918-119">Índice da seção:</span><span class="sxs-lookup"><span data-stu-id="e5918-119">Section index:</span></span>  <br/> |<span data-ttu-id="e5918-120">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="e5918-120">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="e5918-121">Índice de linha:</span><span class="sxs-lookup"><span data-stu-id="e5918-121">Row index:</span></span>  <br/> |<span data-ttu-id="e5918-122">**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="e5918-122">visRowSmartTag + i   
+          where i = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="e5918-123">Índice de célula:</span><span class="sxs-lookup"><span data-stu-id="e5918-123">Cell index:</span></span>  <br/> |<span data-ttu-id="e5918-124">**visSmartTagButtonFace**</span><span class="sxs-lookup"><span data-stu-id="e5918-124">**visSmartTagButtonFace**</span></span> <br/> |
    
 

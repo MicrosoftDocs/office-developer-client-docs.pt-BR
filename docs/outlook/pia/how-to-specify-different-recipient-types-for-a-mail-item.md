@@ -1,0 +1,63 @@
+---
+title: Especificar tipos diferentes de destinatários para um item de email
+TOCTitle: Specify different recipient types for a mail item
+ms:assetid: 2a3ace9f-627c-4fdd-b182-afc1b53af85b
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184598(v=office.15)
+ms:contentKeyID: 55119871
+ms.date: 07/24/2014
+mtps_version: v=office.15
+ms.openlocfilehash: 9eca70f9c1b77e8430625fb49e3ae9787d337ba7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405529"
+---
+# <a name="specify-different-recipient-types-for-a-mail-item"></a><span data-ttu-id="300e8-102">Especificar tipos diferentes de destinatários para um item de email</span><span class="sxs-lookup"><span data-stu-id="300e8-102">Specify different recipient types for a mail item</span></span>
+
+<span data-ttu-id="300e8-103">Este exemplo mostra como definir programaticamente diferentes tipos de destinatários (Para, Cc ou Cco) para um item de email.</span><span class="sxs-lookup"><span data-stu-id="300e8-103">This example shows how to programmatically set different recipient types (To, Cc, or Bcc) for a mail item.</span></span>
+
+## <a name="example"></a><span data-ttu-id="300e8-104">Exemplo</span><span class="sxs-lookup"><span data-stu-id="300e8-104">Example</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="300e8-105">O exemplo de código a seguir foi tirado do artigo [Programação de aplicativos do Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).</span><span class="sxs-lookup"><span data-stu-id="300e8-105">The following code example is an excerpt from Programming Applications for Microsoft Office Outlook 2007, from  Microsoft Press http://www.microsoft.com/learning/books/default.mspx  (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</span></span>
+
+<span data-ttu-id="300e8-106">O exemplo de código a seguir ilustra como especificar se um destinatário de um objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) é um destinatário de Para, Cc ou Cco.</span><span class="sxs-lookup"><span data-stu-id="300e8-106">The following code example illustrates how to specify whether a recipient of a [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) object is a To, Cc, or Bcc recipient.</span></span> <span data-ttu-id="300e8-107">SetRecipientTypeForMail cria um objeto **MailItem**, adiciona três objetos [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) ao conjunto [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) do **MailItem** e, em seguida, define a propriedade [Type](https://msdn.microsoft.com/library/bb611841\(v=office.15\)) de cada objeto **Recipient** como um valor da enumeração [OlMailRecipientType](https://msdn.microsoft.com/library/bb647641\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="300e8-107">SetRecipientTypeForMail creates a **MailItem** object, adds three [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) objects to the [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) collection of the **MailItem**, and then sets the [Type](https://msdn.microsoft.com/library/bb611841\(v=office.15\)) property of each **Recipient** object to a value from the [OlMailRecipientType](https://msdn.microsoft.com/library/bb647641\(v=office.15\)) enumeration.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="300e8-108">A propriedade **Type** do objeto **Recipient** é um tipo int e não está correlacionada a uma enumeração de tipo de destinatário específica.</span><span class="sxs-lookup"><span data-stu-id="300e8-108">The **Type** property of the **Recipient** object is an int type and does not correlate to a specific recipient type enumeration.</span></span>
+
+<span data-ttu-id="300e8-109">Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="300e8-109">
+    If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the \*\*Microsoft.Office.Interop.Outlook\*\* namespace. The using statement must not occur directly before the functions in the code example but must be added before the public Class declaration. The following line of code shows how to do the import and assignment in C#.
+</span></span> <span data-ttu-id="300e8-110">A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública.</span><span class="sxs-lookup"><span data-stu-id="300e8-110">The **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="300e8-111">A linha de código seguinte mostra como fazer a importação e atribuição em C\#.</span><span class="sxs-lookup"><span data-stu-id="300e8-111">The following line of code shows how to do the import and assignment in C\#.</span></span>
+
+```csharp
+using Outlook = Microsoft.Office.Interop.Outlook;
+```
+
+
+```csharp
+private void SetRecipientTypeForMail()
+{
+    Outlook.MailItem mail = Application.CreateItem(
+        Outlook.OlItemType.olMailItem) as Outlook.MailItem;
+    mail.Subject = "Sample Message";
+    Outlook.Recipient recipTo =
+        mail.Recipients.Add("someone@example.com");
+    recipTo.Type = (int)Outlook.OlMailRecipientType.olTo;
+    Outlook.Recipient recipCc =
+        mail.Recipients.Add("someonecc@example.com");
+    recipCc.Type = (int)Outlook.OlMailRecipientType.olCC;
+    Outlook.Recipient recipBcc =
+        mail.Recipients.Add("someonebcc@example.com");
+    recipBcc.Type = (int)Outlook.OlMailRecipientType.olBCC;
+    mail.Recipients.ResolveAll();
+    mail.Display(false);
+}
+```
+
+## <a name="see-also"></a><span data-ttu-id="300e8-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="300e8-112">See also</span></span>
+
+- [<span data-ttu-id="300e8-113">Email</span><span class="sxs-lookup"><span data-stu-id="300e8-113">mail</span></span>](mail.md)
+
