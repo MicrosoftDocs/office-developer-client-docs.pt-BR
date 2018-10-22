@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (seção Paragraph) ('Visio XML')
+title: Elemento Cell (Seção Paragraph) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
-description: Especifica um atributo de texto da forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos de formatação de parágrafo.
-ms.openlocfilehash: 38309d3d1158b02084af6686c483547b28b8995f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.
+ms.openlocfilehash: 2647ce92b38234e4d6fc4d6bc59188d468332ca8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771464"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383469"
 ---
-# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento de célula (seção Paragraph) ('Visio XML')
+# <a name="cell-element-paragraph-section-visio-xml"></a>Elemento Cell (Seção Paragraph) ('Visio XML')
 
-Especifica um atributo de texto da forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos de formatação de parágrafo.
+Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document,. XML de n º de mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Especifica um atributo de texto da forma, como recuos, espaçamento de linha, ma
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento Row (Seção Paragraph)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Especifica um atributo de texto da forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos de formatação de parágrafo.  <br/> |
+|[Elemento Row (Seção Paragraph)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Especifica um atributo de formatação de parágrafo do texto de uma forma, como recuos, espaçamento de linha, marcadores ou alinhamento horizontal de parágrafos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,25 +52,25 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|Bullet  <br/> |Determina o estilo com marcadores.  <br/> |[Célula Bullet (seção Paragraph)](bullet-cell-paragraph-section.md) <br/> |
+|Bullet  <br/> |Determina o estilo de marcador.  <br/> |[Célula Bullet (Seção Paragraph)](bullet-cell-paragraph-section.md) <br/> |
 |BulletFont  <br/> |Representa o número da fonte usada para formatar o texto quando uma sequência de caracteres com marcadores personalizada for especificada e o valor da célula Bullet for diferente de zero.  <br/> |[Célula BulletFont (Seção Paragraph)](bulletfont-cell-paragraph-section.md) <br/> |
 |BulletFontSize  <br/> |Especifica o tamanho de um marcador.  <br/> |[Célula BulletSize (Seção Paragraph)](bulletsize-cell-paragraph-section.md) <br/> |
-|BulletStr  <br/> |Permite criar um estilo com marcadores personalizados.  <br/> |[Célula BulletString (Seção Paragraph)](bulletstring-cell-paragraph-section.md) <br/> |
-|Sinalizadores  <br/> |Indica a direção do texto: da esquerda para a direita ou vice-versa.  <br/> |[Célula Flags (Seção Paragraph)](flags-cell-paragraph-section.md) <br/> |
+|BulletStr  <br/> |Permite criar um estilo de marcador personalizado.  <br/> |[Célula BulletString (Seção Paragraph)](bulletstring-cell-paragraph-section.md) <br/> |
+|Flags  <br/> |Indica se a direção do texto é da esquerda para a direita ou da direita para a esquerda.  <br/> |[Célula Flags (Seção Paragraph)](flags-cell-paragraph-section.md) <br/> |
 |HorzAlign  <br/> |Determina o alinhamento horizontal do texto no bloco de texto da forma.  <br/> |[Célula HAlign (Seção Paragraph)](halign-cell-paragraph-section.md) <br/> |
 |IndFirst  <br/> |Representa a distância do recuo da primeira linha de cada parágrafo no bloco de texto da forma em relação ao recuo esquerdo do parágrafo. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, o recuo da primeira linha será o mesmo.  <br/> |[Célula IndFirst (Seção Paragraph)](indfirst-cell-paragraph-section.md) <br/> |
 |IndLeft  <br/> |Representa a distância do recuo de todas as linhas do texto em um parágrafo em relação à margem esquerda do bloco de texto. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, o recuo esquerdo será o mesmo.  <br/> |[Célula IndLeft (Seção Paragraph)](indleft-cell-paragraph-section.md) <br/> |

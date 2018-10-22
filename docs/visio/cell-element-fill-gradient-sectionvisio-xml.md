@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (preenchimento gradiente seção) ('Visio XML')
+title: Elemento Cell (Seção Fill Gradient) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
-description: Contém a cor, transparência e posição de uma parada de gradiente para um gradiente do preenchimento.
-ms.openlocfilehash: c5366d1d3fcf5a4cd453bc62467353b940e89792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém a cor, transparência e posição de uma marca de gradiente para um gradiente de preenchimento.
+ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771449"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386352"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento de célula (preenchimento gradiente seção) ('Visio XML')
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Elemento Cell (Seção Fill Gradient) ('Visio XML')
 
-Contém a cor, transparência e posição de uma parada de gradiente para um gradiente do preenchimento.
+Contém a cor, transparência e posição de uma marca de gradiente para um gradiente de preenchimento.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document,. XML de n º de mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Contém a cor, transparência e posição de uma parada de gradiente para um gra
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento de linha (seção FillGradient)](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> |Contém a cor, transparência e posição de uma parada de gradiente para um gradiente do preenchimento.  <br/> |
+|[Elemento Row (Seção FillGradient)](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> |Contém a cor, transparência e posição de uma marca de gradiente para um gradiente de preenchimento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,22 +52,22 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|GradientStopColor  <br/> |O valor de cor da parada de gradiente. Esse valor pode ser expresso como o número de índice de uma cor na paleta de documento ou usando as funções **RGB**, **THEMEVAL**ou **HSL** .  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |A quantidade de transparência da parada de gradiente de cores, como um percentual.  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |A posição da parada de gradiente ao longo da direção do gradiente linha, como um percentual do ponto de origem do gradiente para a borda externa do gradiente.  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColor  <br/> |O valor de cor da marca de gradiente. Esse valor pode ser expresso como o número de índice de uma cor na paleta de documentos ou usando as funções **RGB**, **THEMEVAL**, ou **HSL**.  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |A quantidade de transparência da cor da marca de gradiente, em porcentagem.  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |A posição da marca de gradiente na direção da linha de gradiente, em porcentagem, do ponto de origem do gradiente até a borda externa do gradiente.  <br/> |[Linha Gradient Stop (Seção Fill Gradient)](gradient-stop-row-fill-gradient-section.md) <br/> |
    
 

@@ -5,41 +5,41 @@ ms.date: 02/06/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
-description: É possível integrar seus aplicativos de terceiros plataforma Windows app universal com Excel Mobile, Mobile do PowerPoint e Word Mobile. Aplicativos universais integram-se com aplicativos do Office por meio de contratos de selecionador de arquivo do Windows, propriedades expandido e contratos de cache atualizador de arquivo.
-ms.openlocfilehash: 2c170fd55c9c6f10d348610ffbc75ffa86447529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Você pode integrar seu aplicativos de terceiros da plataforma de aplicativos universais do Windows com o Word Mobile, Excel Mobile e PowerPoint Mobile. Os aplicativos universais são integrados com os aplicativos do Office por meio de contratos do seletor de arquivos do Windows, propriedades expando e contratos do Atualizador de Arquivos em Cache.
+ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388221"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Integração com o Office em aplicativos universais do Windows
 
-É possível integrar seus aplicativos de terceiros plataforma Windows app universal com Excel Mobile, Mobile do PowerPoint e Word Mobile. Aplicativos universais integram com o Office apps via Windows [contratos de selecionador de arquivo](https://msdn.microsoft.com/en-us/library/windows/apps/hh465174.aspx), [Propriedades expandido](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh770655.aspx)e [contratos de cache atualizador de arquivo](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
+Você pode integrar seu aplicativos de terceiros da plataforma de aplicativos universais do Windows com o Word Mobile, Excel Mobile e PowerPoint Mobile. Os aplicativos universais são integrados com os aplicativos do Office por meio de [contratos do seletor de arquivos do Windows](https://msdn.microsoft.com/library/windows/apps/hh465174.aspx), [propriedades expando](https://msdn.microsoft.com/library/windows/apps/xaml/hh770655.aspx) e [contratos do Atualizador de Arquivos em Cache](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
   
-Ao integrar seu aplicativo universal com Excel, PowerPoint ou Word Mobile, os usuários podem abrir documentos do Office que seu aplicativo fornece, ou quando eles pesquisam de dentro do Office ou quando usar o Windows para abrir arquivos a partir do seu aplicativo. Os usuários também podem salvar o arquivo de volta para seu aplicativo universal, que carrega o arquivo de volta para seu serviço.
+Quando você integra seu aplicativo universal ao Excel, PowerPoint ou Word Mobile, os usuários podem abrir documentos do Office fornecidos pelo seu aplicativo quando navegam no Office ou quando usam o Windows para abrir arquivos no seu aplicativo. Os usuários também podem salvar o arquivo novamente no seu aplicativo universal, que carrega o arquivo de volta ao seu serviço.
   
-Arquivos abertos dessa maneira aparecem na lista recente no escritório, para que seus usuários possam facilmente encontrar e reabri-los.
+Os arquivos abertos dessa maneira aparecem na lista Recentes no Office, para que seus usuários possam encontrá-los e reabri-los com facilidade.
   
-Essa integração requer que seu aplicativo universal:
+Essa integração requer que o aplicativo universal:
     
-- Implementa os [contratos de selecionador de arquivo](https://msdn.microsoft.com/en-us/library/windows/apps/hh465174.aspx)do Windows.
+- Implemente os [contratos do seletor de arquivos](https://msdn.microsoft.com/library/windows/apps/hh465174.aspx) do Windows.
     
-- Representa um repositório de arquivos (por exemplo, um aplicativo que permite acesso ao armazenamento em nuvem).
+- Represente um repositório de arquivos (por exemplo, um aplicativo que permite o acesso ao armazenamento em nuvem).
     
-## <a name="expando-properties"></a>Propriedades expandido
+## <a name="expando-properties"></a>Propriedades expando
 
-Aplicativos universais do Windows podem usar propriedades expandido para se comunicar informações adicionais que é associadas a arquivos. Para obter informações sobre como isso funciona no Windows, consulte "System.ExpandoProperties" em [StorageItemContentProperties.SavePropertiesAsync](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh770655.aspx).
+Os aplicativos universais do Windows podem usar propriedades Expando para comunicar informações adicionais associadas a arquivos. Para saber mais sobre como isso funciona no Windows, confira "System.ExpandoProperties" em [StorageItemContentProperties.SavePropertiesAsync](https://msdn.microsoft.com/library/windows/apps/xaml/hh770655.aspx).
   
-A tabela a seguir descreve as propriedades de seu aplicativo para fornecer ao escritório para habilitar cenários de arquivos abertos. Se essas informações não for fornecidas, todos os arquivos do seu aplicativo são abertos como somente leitura. Se os usuários podem abrir arquivos para edição depende do tipo de licença do Office têm e o tipo de documento que está tentando abrir.
+A tabela a seguir descreve as propriedades que seu aplicativo precisa fornecer ao Office para habilitar cenários de abertura de arquivos. Se essas informações não forem fornecidas, todos os arquivos do seu aplicativo serão abertos como somente leitura. A possibilidade de que os usuários abram arquivos para edição dependerá do tipo de licença do Office que eles possuem e do tipo de documento que estão tentando abrir.
   
-Defina essas propriedades no conjunto de propriedades **System.ExpandoProperties** . 
+Configure essas propriedades no conjunto de propriedades **System.ExpandoProperties**. 
   
-|**Propriedade**|**Descrição**|**Type**|**Exemplo**|
+|**Propriedade**|**Descrição**|**Tipo**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|**AppDisplayName** <br/> |Nome do provedor para exibir ao usuário. Aparece em vários locais no Office, como a lista de documentos recentes.  <br/> |String  <br/> |Contoso  <br/> |
-|**MicrosoftOfficeOwnershipType** <br/> |Para licenciamento, indique se o local do documento/é trabalho/comercial ou pessoal/consumidor. Os valores permitidos são 1 (pessoais) e 2 (comercial). Por exemplo, se o arquivo do seu usuário é armazenado em negócios da Contoso, use o valor "2" para a empresa.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Por exemplo, se o arquivo do seu usuário é armazenado em negócios da Contoso, esse arquivo deve marcado 2 para negócios.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Texto legal para declarar que as informações fornecidas são precisas por nossos termos de uso. Esse texto não é exibido ao usuário. É um contrato entre você, o provedor de aplicativo e da Microsoft.  <br/> Veja o seguinte para ver um exemplo.  <br/> | String  <br/> | Eu concordar com os termos localizados em[https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**AppDisplayName** <br/> |Nome do provedor a ser exibido para o usuário. Aparece em vários locais no Office, como na lista de documentos recentes.  <br/> |String  <br/> |Contoso  <br/> |
+|**MicrosoftOfficeOwnershipType** <br/> |Para licenciamento, indique se o documento/local é Pessoal/Consumidor ou Trabalho/Negócios. Os valores permitidos são (pessoal) 1 e 2 (comercial). Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, use o valor "2" para comercial.  <br/> |Unit32  <br/> | 1 ou 2  <br/> Por exemplo, se o arquivo do usuário for armazenado na empresa Contoso, o arquivo deverá ser marcado como 2, para comercial.  <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |Texto jurídico para declarar que as informações fornecidas são corretas de acordo com nossos termos de uso. Esse texto não é exibido para o usuário. Trata-se de um contrato entre você, o provedor do aplicativo, e a Microsoft.  <br/> Confira o exemplo a seguir.  <br/> | String  <br/> | Eu concordo com os termos localizados em [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 O exemplo de código a seguir mostra como definir essas propriedades.
   
@@ -61,51 +61,51 @@ public static async Task SetExpandoProperties(StorageFile file,... other params 
 
 ```
 
-## <a name="cached-file-updater-contracts"></a>Contratos de atualizador do arquivo armazenado em cache
+## <a name="cached-file-updater-contracts"></a>Contratos do Atualizador de Arquivos em Cache
 
-Se seu aplicativo universal participa de contratos de cache atualizador de arquivo, ele será notificado se altera torna de outro aplicativo universal (por exemplo, o Office) para o arquivo. Para obter informações sobre como isso funciona no Windows, consulte [classe de CachedFileUpdater](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
+Se o seu aplicativo universal participar dos contratos do Atualizador de Arquivos em Cache, ele será notificado sobre alterações que outro aplicativo universal (como o Office) fizer no arquivo. Para saber mais sobre como isso funciona no Windows, confira [classe CachedFileUpdater](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileupdater.aspx).
   
-Office usa a opção **AllowOnlyReaders** para abrir os arquivos de leitura-gravação que seu aplicativo universal fornece via os contratos de selecionador de arquivo. Isto significa que o arquivo não pode ser movido, excluídos, renomeados ou gravadas por outro aplicativo, incluindo o seu próprio, enquanto ela está aberta no Office. Office serão salvamento automático o arquivo, mas conjuntos CachedFileManager.DeferUpdates para evitar ativando seu aplicativo até Office fecha o documento ou Office é suspenso pelo Windows (quando o usuário alterna para outro aplicativo). Quando o Office fecha o arquivo, seu aplicativo pode gravar nele. 
+O Office usa a opção **AllowOnlyReaders** para abrir os arquivos de leitura-gravação que seu aplicativo universal fornece por meio de contratos do seletor de arquivos. Isso significa que o arquivo não pode ser movido, excluído, renomeado ou gravado por outro aplicativo, como o seu, enquanto ele está aberto no Office. O Office salvará automaticamente o arquivo, mas definirá CachedFileManager.DeferUpdates para impedir a ativação do seu aplicativo até que o Office feche o documento ou até que o Office seja suspenso pelo Windows (quando o usuário alternar para outro aplicativo). Quando o Office fechar o arquivo, seu aplicativo poderá gravar nele. 
   
-Seu aplicativo deve lidar com toda a comunicação com o seu serviço, incluindo carregamento, refresh e download.
+Seu aplicativo deve lidar com todas as comunicações do seu serviço, incluindo download, atualização e carregamento.
   
-As tabelas a seguir lista os parâmetros para definir como lidar com as interações entre o aplicativo e o Office.
+As tabelas a seguir listam os parâmetros a serem definidos para lidar com as interações entre seu aplicativo e o Office.
   
 |**Parâmetro**|**Descrição**|
 |:-----|:-----|
-|[ReadActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Defina **BeforeAccess** para permitir que o seu aplicativo atualizar o arquivo antes de enviá-lo ao escritório.  <br/> |
-|[WriteActivationMode](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Defina **ReadOnly** para tornar o arquivo somente leitura. Defina **AfterWrite** para garantir que seu aplicativo será acionado pelo CacheFileUpdater quando o Office for concluído com o arquivo.<br/><br/>**Observação**: se você não definir **AfterWrite**, seu aplicativo não será notificado para carregar as alterações, que significa que as alterações do usuário só será locais.           |
-|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Defina essa propriedade para garantir que o seu aplicativo pode atualizar o arquivo quando um usuário acessa-lo da lista recente.  <br/> |
+|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Defina **BeforeAccess** para permitir que seu aplicativo atualize o arquivo antes de enviá-lo ao Office.  <br/> |
+|[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Defina **ReadOnly** para tornar o arquivo somente leitura. Defina **AfterWrite** para garantir que o aplicativo será acionado por CacheFileUpdater quando o Office concluir o arquivo.<br/><br/>**OBSERVAÇÃO**: se você não definir **AfterWrite**, seu aplicativo não será notificado para carregar as alterações, ou seja, as alterações do usuário serão apenas locais.           |
+|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Defina esta propriedade para garantir que o aplicativo possa atualizar o arquivo quando um usuário acessá-lo na lista Recentes.  <br/> |
    
-## <a name="invoking-office-from-your-app"></a>Office de invocação do seu aplicativo
+## <a name="invoking-office-from-your-app"></a>Invocar o Office pelo seu aplicativo
 
-Quando um usuário abre um documento do Office a partir de seu aplicativo, o documento pode abrir no Excel Mobile, Mobile do PowerPoint e Word Mobile. Por exemplo, quando um usuário seleciona um \*arquivo. docx no seu aplicativo, o Word Mobile inicia com o \*arquivo. docx aberto. O aplicativo do Office que abre se baseia em qual aplicativo usuário associado com o tipo de arquivo.
+Quando o usuário abre um documento do Office pelo seu aplicativo, o documento pode ser aberto no Word Mobile, Excel Mobile e PowerPoint Mobile. Por exemplo, quando um usuário seleciona um arquivo \*.docx no seu aplicativo, o Word Mobile é iniciado com o arquivo \*.docx aberto. O aplicativo do Office que é aberto se baseia no aplicativo que o usuário associou ao tipo de arquivo.
   
-Para abrir um arquivo do seu aplicativo no escritório, é recomendável que você use **LaunchFileAsync()** para iniciar o arquivo. Não recomendamos que você use **LaunchUriAsync()** para iniciar o arquivo, pois isso fará com que o aplicativo registrado para o esquema de URI para início (o navegador), em vez do Office. Embora **LaunchUriAsync()** com a opção **LauncherOptions.ContentType()** pode chamar Office, neste caso o arquivo aberto está marcado como temporário e é somente leitura no Office. 
+Para abrir um arquivo pelo seu aplicativo no Office, recomendamos que você utilize **LaunchFileAsync()**. Não é recomendável usar **LaunchUriAsync()** para abrir o arquivo porque isso fará com que o aplicativo registrado no esquema URI seja iniciado (o navegador) em vez do Office. Embora **LaunchUriAsync()** com a opção **LauncherOptions.ContentType()** possa invocar o Office, nesse caso o arquivo aberto será marcado como temporário e será somente leitura no Office. 
   
-Para obter mais informações, consulte [classe de iniciador](https://msdn.microsoft.com/en-us/library/windows/apps/windows.system.launcher.aspx).
+Para saber mais, confira [Classe Launcher](https://msdn.microsoft.com/library/windows/apps/windows.system.launcher.aspx).
   
 ## <a name="temporary-and-read-only-files"></a>Arquivos temporários e somente leitura
 
-Defina o atributo **FILE_ATTRIBUTE_TEMPORARY** arquivos temporários e o atributo **FILE_ATTRIBUTE_READONLY** em arquivos somente leitura em seu aplicativo. 
+Defina o atributo **FILE_ATTRIBUTE_TEMPORARY** em arquivos temporários e o atributo **FILE_ATTRIBUTE_READONLY** em arquivos somente leitura em seu aplicativo. 
   
-Arquivos com os atributos **FILE_ATTRIBUTE_TEMPORARY** ou **FILE_ATTRIBUTE_READONLY** definir abertos como somente leitura no Office. O **FILE_ATTRIBUTE_TEMPORARY** também impede que o arquivo que aparecem na lista recente. 
+Arquivos com os atributos **FILE_ATTRIBUTE_TEMPORARY** ou **FILE_ATTRIBUTE_READONLY** definidos são abertos como somente leitura no Office. O **FILE_ATTRIBUTE_TEMPORARY** também impede que o arquivo apareça na lista Recentes. 
   
-Para obter mais informações sobre os atributos de arquivo, consulte a [função de SetFileAttributes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365535%28v=vs.85%29.aspx).
+Para saber mais sobre atributos de arquivos, confira a [função SetFileAttributes](https://msdn.microsoft.com/library/windows/desktop/aa365535%28v=vs.85%29.aspx).
   
 ## <a name="other-best-practices"></a>Outras práticas recomendadas
 
-Para otimizar a consistência de arquivo, por exemplo quando edições conflitantes ou erros ocorrem, aplique as seguintes práticas recomendadas:
+Para otimizar a consistência do arquivo, por exemplo, quando ocorrerem erros ou conflitos em edições, aplique as seguintes práticas recomendadas:
   
-- Evitar conflitos de salvamento.
+- Impeça que os conflitos sejam salvos.
     
-  - Pausar carrega quando ocorrem de conflitos de servidor para evitar a bifurcação (somente bifurcação quando o Office não tem mais um arquivo de gravação abrir). Normalmente, se um arquivo do seu aplicativo estiver aberto no Office, seu aplicativo será ativado somente quando o escritório fecha ou está suspenso pelo Windows.
+  - Pause os carregamentos quando ocorrerem conflitos de servidor para evitar bifurcação (permita bifurcação somente quando o Office não tiver mais um arquivo de gravação aberto). Normalmente, se um arquivo do seu aplicativo for aberto do Office, o aplicativo será ativado apenas quando o Office for fechado ou suspenso pelo Windows.
     
-  - Se você precisar de UI para lidar com conflitos, implemente notificações da proposta. UI completa não está disponível quando o Office é suspenso.
+  - Se você precisar de interface do usuário para resolver conflitos, implemente as notificações do sistema. A interface do usuário completa não está disponível quando o Office é suspenso.
     
-- Lidar com erros.
+- Lide com erros.
     
-  - Quando um bloqueio for liberado, notificar os usuários sobre o conflito e fornecer um caminho para resolvê-lo no seu aplicativo.
+  - Quando um bloqueio for liberado, notifique os usuários sobre o conflito e forneça um caminho para resolvê-lo no seu aplicativo.
     
 ## <a name="see-also"></a>Confira também
 

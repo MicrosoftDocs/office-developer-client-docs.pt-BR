@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
-description: Este tópico mostra uma função, ReadTimeZones, que chama duas funções, BinToTZDEFINITION e BinToTZREG, para ler as propriedades de fuso horário, PidLidAppointmentTimeZoneDefinitionStartDisplay e PidLidTimeZoneStruct, de um compromisso.
-ms.openlocfilehash: a344f44a1f195ec6dc5f80677f08f52be490e6b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Este tópico mostra uma função, ReadTimeZones, que chama as duas funções, BinToTZDEFINITION e BinToTZREG, para ler as propriedades de fuso horário, PidLidAppointmentTimeZoneDefinitionStartDisplay e PidLidTimeZoneStruct, de um compromisso.
+ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765809"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396033"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Ler propriedades de fuso horário de um compromisso
 
-Este tópico mostra uma função, `ReadTimeZones`, que chama duas funções, `BinToTZDEFINITION` e `BinToTZREG`, para ler as propriedades de fuso horário, [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) e [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), a partir de um compromisso.
+Este tópico mostra uma função, `ReadTimeZones`, que chama as duas funções, `BinToTZDEFINITION` e `BinToTZREG`, para ler as propriedades de fuso horário, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) e [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), de um compromisso.
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay** contém um stream que mapeie para o formato persistente de uma estrutura [TZDEFINITION](tzdefinition.md) e **PidLidTimeZoneStruct** contém um stream que mapeie para o formato persistente de um [TZREG](tzreg.md) estrutura. Para obter as estruturas exatas **TZDEFINITION** e **TZREG** , `BinToTZDEFINITION` e `BinToTZREG` são usadas para analisar os valores de stream dessas propriedades apropriadamente. Essas duas funções são definidas em [analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) e [analisar um fluxo de uma propriedade binária para ler a estrutura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** contém um fluxo que faz o mapeamento para o formato persistente de uma estrutura [TZDEFINITION](tzdefinition.md), e **PidLidTimeZoneStruct** contém um fluxo que faz o mapeamento para o formato persistente de uma estrutura [TZREG](tzreg.md). Para obter as estruturas **TZDEFINITION** e **TZREG** exatas, `BinToTZDEFINITION` e `BinToTZREG` são usadas para analisar os valores de fluxo dessas propriedades adequadamente. Essas duas funções estão definidas em [Analisar um fluxo de uma propriedade binária para ler a estrutura TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) e [Analisar um fluxo de uma propriedade binária para ler a estrutura TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 
@@ -76,5 +76,5 @@ void ReadTimeZones(LPMAPIPROP lpAppointment)
 
 ## <a name="see-also"></a>Confira também
 
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

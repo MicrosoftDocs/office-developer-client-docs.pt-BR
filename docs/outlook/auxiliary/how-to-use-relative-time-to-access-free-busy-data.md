@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 13aa6ae2-47b9-2cf4-a6ef-651f1338dd49
-description: A interface de IFreeBusyData na API Free/Busy usa um conceito de tempo relativo, que é o número de minutos desde 1 de janeiro de 1601, expressado em UTC (Tempo Universal), e é um valor do tipo LONG.
-ms.openlocfilehash: b83cd46cfcc4d84d4fc3bf000dd8b0acdda545dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: A interface IFreeBusyData na API de Disponibilidade usa um conceito de tempo relativo, que é o número de minutos desde 1º de janeiro de 1601, que é expresso em Tempo Universal (UTC) e é um valor do tipo LONG.
+ms.openlocfilehash: 1b977fc3aebd1f2b20e51f24caa36d6bbf2862ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765815"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386933"
 ---
 # <a name="use-relative-time-to-access-freebusy-data"></a>Usar o tempo relativo para acessar dados de disponibilidade
 
-A interface de [IFreeBusyData](ifreebusydata.md) na API Free/Busy usa um conceito de tempo relativo, que é o número de minutos desde 1 de janeiro de 1601, expressado em UTC (Tempo Universal) e é um valor de tipo **LONG**. 
+A interface [IFreeBusyData](ifreebusydata.md) na API de Disponibilidade usa um conceito de tempo relativo, que é o número de minutos desde 1º de janeiro de 1601, que é expresso em Tempo Universal (UTC) e é um valor do tipo **LONG**. 
   
-Estes são alguns valores de tempo relativo comumente usadas:
+Estes são alguns valores de tempo relativo usados com frequência:
   
 - `ULONG ulrtmMax = 1525252319L`
     
 - `ULONG ulrtmMin = 0L`
     
-Use os valores máximo e mínimo de tempo relativo anterior para ajudar a verificar se os seus valores de tempo relativo são válidos.
+Use os valores de tempo relativo máximo e mínimo acima para verificar se os valores de tempo relativo são válidos.
   
-Porque NTFS registra os tempos de arquivo nativamente no formato [FILETIME](http://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) , talvez seja conveniente usar o exemplo de código a seguir para converter o tempo relativo de e **FILETIME**. 
+Como o NTFS registra tempos de arquivo nativamente no formato [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx), pode ser útil usar o exemplo de código a seguir para converter o tempo relativo de e para **FILETIME**. 
   
 ```cpp
 static const LONGLONG UnitsPerMinute = 600000000; 

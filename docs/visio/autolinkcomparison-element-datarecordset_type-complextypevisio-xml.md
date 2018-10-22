@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
-description: Define uma regra que compara uma coluna no elemento pai DataRecordset com um item de dados da forma da última bem-sucedida automática vinculação ação executada na interface do usuário.
-ms.openlocfilehash: 38970a84676f769c36c9bdc3f8334652f7d9ec21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Define uma regra que compara uma coluna pai do elemento DataRecordset com um item de dados de forma na última ação de vinculação automática bem-sucedida, executadas na interface do usuário.
+ms.openlocfilehash: 474acc4c1d259621881ea498decfeaf18b69809e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771292"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385715"
 ---
 # <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Elemento AutoLinkComparison (DataRecordSet_Type complexType) ('Visio XML')
 
-Define uma regra que compara uma coluna no elemento pai **DataRecordset** com um item de dados da forma da última bem-sucedida automática vinculação ação executada na interface do usuário. 
+Define uma regra que compara uma coluna pai do elemento **DataRecordset** com um item de dados de forma na última ação de vinculação automática bem-sucedida, executadas na interface do usuário. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Recordsets.XML  <br/> |
+|**Partes do documento** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Define uma regra que compara uma coluna no elemento pai **DataRecordset** com um
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Especifica um conjunto de registros e a vinculação de dados entre esse recordset e as formas em páginas de desenho.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Especifica um conjunto de registros e a vinculação de dados entre esse conjunto e as formas em páginas de desenho.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,10 +50,10 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |XSD: String  <br/> |obrigatório  <br/> |Corresponde a um nome de coluna no conjunto de registros ADO.  <br/> |Valores do tipo xsd: String.  <br/> |
-|ContextType  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Especifica as propriedades do grupo ou forma a ser usada para comparação. Valores possíveis são mostrados na tabela a seguir.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ContextTypeLabel  <br/> |XSD: String  <br/> |opcional  <br/> |Se o valor de ContextType for 2 ou 3, este atributo é necessário para definir uma comparação. Para ContextType = 2, ContextTypeLabel deve ser o rótulo de item de dados de forma e se **ContextType** = 3, ContextTypeLabel deve ser o nome de linha local.  <br/> |Valores do tipo xsd: String.  <br/> |
+|ColumnName  <br/> |xsd:string  <br/> |obrigatório  <br/> |Corresponde a um nome de coluna do conjunto de registros ADO.  <br/> |Valores do tipo xsd:string.  <br/> |
+|ContextType  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica as propriedades do grupo ou da forma a serem usadas para a comparação. Os valores possíveis são mostrados na tabela a seguir.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ContextTypeLabel  <br/> |xsd:string  <br/> |opcional  <br/> |Se o valor de ContextType for 2 ou 3, esse atributo será obrigatório para definir uma comparação. Se ContextType = 2, ContextTypeLabel deverá ser o rótulo do item de dados da forma. Se **ContextType** = 3, ContextTypeLabel deverá ser o nome da linha local.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

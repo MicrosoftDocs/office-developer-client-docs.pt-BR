@@ -1,5 +1,5 @@
 ---
-title: Extending the Weather Bar in Outlook
+title: Estender a barra do tempo no Outlook
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
-ms.openlocfilehash: 6b2462615813b056ec09168ab512d456e1a7bdd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770969"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386576"
 ---
-# <a name="extending-the-weather-bar-in-outlook"></a>Extending the Weather Bar in Outlook
+# <a name="extending-the-weather-bar-in-outlook"></a>Estender a barra do tempo no Outlook
 
 Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
   
-## <a name="weather-bar-overview"></a>Weather Bar overview
+## <a name="weather-bar-overview"></a>Visão geral sobre a Barra do Tempo
 <a name="ol15_weatherbar_overview"> </a>
 
 The Weather Bar in Outlook displays weather conditions and forecast for a geographic location. A user can choose one or multiple locations, and conveniently see weather data in the Weather Bar in the calendar module. Figure 1 shows the Weather Bar displaying a three-day forecast for New York, NY. 
@@ -37,17 +37,17 @@ By default, Outlook uses weather data provided by MSN Weather. The Weather Bar s
 
 A user can specify a different weather data service for the Weather Bar, as long as that weather data service implements a web service that supports the following protocol to communicate with Outlook:
   
-1. The weather data service supports a base URL to a web service. For example, a Contoso Weather web service can have a base URL of http://service.contoso.com/data.aspx.
+1. The weather data service supports a base URL to a web service. For example, a Contoso Weather web service can have a base URL of https://service.contoso.com/data.aspx.
     
-2. The web service allows Outlook to append the following parameters to the base URL, to request a location code: 
+2. O serviço Web permite que o Outlook acrescente os seguintes parâmetros ao URL de base, para solicitar um código de local: 
     
-   - outputview = search: este parâmetro indica que a solicitação é uma pesquisa local.
+   - outputview=search: esse parâmetro indica que a solicitação é uma pesquisa de local.
     
-   - weasearchstr = _Cidade_: esse parâmetro indica a localização, _cidade_, para o qual o usuário deseja que uma previsão do tempo (por exemplo, London).
+   - weasearchstr= _city_: esse parâmetro indica o local, _city_, para o qual o usuário deseja uma previsão do tempo (por exemplo, Londres).
     
-   - Culture = _LCID_: este parâmetro indica a cultura da versão do Office instalado para o usuário no computador. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID_: esse parâmetro indica a cultura da versão do Office instalado para o usuário no computador. O valor de LCID é definido em [[RFC4646] Marcas para identificar linguagens](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: esse parâmetro indica que o Outlook é o aplicativo cliente que está solicitando o serviço.
+   - src=outlook: esse parâmetro indica que o Outlook é o aplicativo cliente que está solicitando o serviço.
     
    These parameters allow Outlook to take the location that the user is interested in and search for the associated location code as supported by the weather data service. The web service should respond to Outlook with a location code in XML that follows the [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). Figure 2 summarizes the web service request and response for a location code.
     
@@ -55,15 +55,15 @@ A user can specify a different weather data service for the Weather Bar, as long
 
    ![Weather location request and response](media/ol15_WeatherBar_Fig02.gif)
   
-3. The web service also allows Outlook to append the following parameters, to request forecast information for a location code:
+3. O serviço Web também permite que o Outlook acrescente os seguintes parâmetros, para solicitar informações de previsão para um código de local:
     
-   - wealocations = _código_: o _código_ neste parâmetro é um código de local que obtém do Outlook da etapa 2 e que é mapeado para o local que o usuário está interessado em. 
+   - wealocations= _code_: _code_ nesse parâmetro é um código de local que o Outlook obtém da Etapa 2 e que mapeia para o local em que o usuário está interessado. 
     
-   - weadegreetype = _degreetype_: este parâmetro especifica se deve usar métrico ou imperiais unidades de medida para temperatura. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
+   - weadegreetype= _degreetype_: esse parâmetro especifica se serão usadas unidades de medida métricas ou imperiais para a temperatura. Especifique c para métricas e f para imperiais em _degreetype_. Esse parâmetro é opcional e não está sempre presente na solicitação de serviço Web.
     
-   - Culture = _LCID_: este parâmetro indica a cultura da versão do Office instalado para o usuário no computador. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID_: esse parâmetro indica a cultura da versão do Office instalado para o usuário no computador. O valor de LCID é definido em [[RFC4646] Marcas para identificar linguagens](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: esse parâmetro indica que o Outlook é o aplicativo cliente que está solicitando o serviço.
+   - src=outlook: esse parâmetro indica que o Outlook é o aplicativo cliente que está solicitando o serviço.
     
    These parameters allow Outlook to take the location code returned from Step 2 and request the weather data service for the forecast. The web service should respond to Outlook with the corresponding weather data in XML that follows the [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). Figure 3 summarizes the web service request and response for weather data given a location code.
     
@@ -74,17 +74,17 @@ A user can specify a different weather data service for the Weather Bar, as long
 ## <a name="setting-the-weather-bar-to-use-a-weather-service"></a>Setting the Weather Bar to use a weather service
 <a name="ol15_weatherbar_setting"> </a>
 
-The administrator or power user can use the **WeatherServiceUrl** registry key to customize the Weather Bar to use a specific weather service. For example, if the base URL for a Contoso weather service is http://service.contoso.com/data.aspx, you can set the **WeatherServiceUrl** key to that URL. 
+The administrator or power user can use the **WeatherServiceUrl** registry key to customize the Weather Bar to use a specific weather service. For example, if the base URL for a Contoso weather service is https://service.contoso.com/data.aspx, you can set the **WeatherServiceUrl** key to that URL. 
   
 The following table describes the **WeatherServiceUrl** key. 
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**WeatherServiceUrl** <br/> |
 |**Value type** <br/> |REG_SZ  <br/> |
-|**Default value** <br/> |EMPTY_STRING  <br/> |
-|**Description** <br/> |URL to a weather data service.  <br/> |
+|**Valor padrão** <br/> |EMPTY_STRING  <br/> |
+|**Descrição** <br/> |URL to a weather data service.  <br/> |
    
 ## <a name="dependent-conditions"></a>Dependent conditions
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -99,17 +99,17 @@ Note that an administrator can also use Group Policy to disable the Weather Bar 
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**DisableWeather** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Default value** <br/> |0  <br/> |
-|**Description** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
+|**Valor padrão** <br/> |0  <br/> |
+|**Descrição** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
 ### <a name="office-is-disconnected-from-the-internet"></a>Office is disconnected from the Internet
 
-Verify that Office is enabled to connect to the Internetgo to the **Privacy options** tab of the **Trust Center** in the Backstage view, and ensure that **Allow Office to connect to the Internet** is selected. 
+Verify that Office is enabled to connect to the Internetgo to the **Privacy options** tab of the **Trust Center** in the Backstage view, and ensure that **Allow Office to connect to the Internet** is selected. 
   
 If the user has chosen to not receive updates for Office, the Weather Bar is also disabled.
   
@@ -117,11 +117,11 @@ An administrator can also use Group Policy to disable all online content, includ
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
+|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Value name** <br/> |**UseOnlineContent** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Default value** <br/> |2  <br/> |
-|**Description** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
+|**Valor padrão** <br/> |2  <br/> |
+|**Descrição** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
@@ -134,17 +134,17 @@ This section shows an example of a Contoso Weather service that follows the prec
 
 Contoso Weather provides the following base URL for their weather data service:
   
-http://service.contoso.com/data.aspx
+https://service.contoso.com/data.aspx
   
 ### <a name="getting-a-location-code"></a>Getting a location code
 
 Outlook appends the parameters described in Step 2 above to the base URL to obtain the location code for a geographic location  _city_:
   
-http://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
+https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   
 As an example, if the user has selected Tokyo in the Weather Bar, Outlook uses the following URL to obtain the location code for Tokyo from Contoso Weather: 
   
-http://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
+https://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
   
 Contoso Weather responds with the following XML to provide the location code for Tokyo. The XML conforms to the Outlook Weather Location XML Schema. Note that it is common for weather services to return data for more than one location (for example, if the selected location is a greater metropolitan area). In this example, the response for Tokyo includes two locations, each enclosed in a [weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md) element. The corresponding location codes are as follows: 
   
@@ -169,11 +169,11 @@ Contoso Weather responds with the following XML to provide the location code for
 
 After obtaining the location code for a location, Outlook appends the parameters described in Step 3 above to the base URL to obtain weather information for that location code.
   
-http://service.contoso.com/data.aspx?wealocations= _code_
+https://service.contoso.com/data.aspx?wealocations= _code_
   
 As an example, if Outlook has obtained the location code wc:JAXX0085 from Contoso Weather for Tokyo, Outlook uses this location code in the following URL to get the weather information.
   
-http://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
+https://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
   
 Contoso Weather responds with the following XML to provide the weather information for the location code for Tokyo. The XML conforms to the Outlook Weather Information XML Schema.
   
@@ -181,8 +181,8 @@ Contoso Weather responds with the following XML to provide the weather informati
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="http://contoso.com/images/en-us/" 
-    url="http://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">
       <current winddisplay="9 mph NNW" windspeed="9" humidity="90" feelslike="44" 
@@ -208,14 +208,14 @@ Contoso Weather responds with the following XML to provide the weather informati
 
 Even though Outlook uses MSN Weather by default, if a user has customized the Weather Bar to use a different weather service and subsequently wants to use MSN Weather again, the user can simply delete the **WeatherServiceUrl** key in the Windows Registry. Deleting that registry key resets Outlook to use MSN Weather. 
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Conclusão
 <a name="ol15_weatherbar_conclusion"> </a>
 
 The Weather Bar in the Outlook calendar uses MSN Weather by default to provide the weather forecast for a specified location. Users can conveniently see weather information for the locations they care about. Third-party weather data services can also integrate with the Weather Bar by supporting the Outlook Weather Location XML Schema and Outlook Weather Information XML Schema and following a simple web service protocol with Outlook.
   
 ## <a name="see-also"></a>Confira também
 
-- [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)   
+- [Esquema XML de localização do clima do Outlook](outlook-weather-location-xml-schema.md)   
 - [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)
     
 

@@ -7,43 +7,43 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
-description: O método recomendado de Implantando um provedor do Outlook Social Connector (OSC) é usar um pacote do Windows Installer (. msi).
-ms.openlocfilehash: 6641b63ce96abb1b9db0571c92180f873c73da78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O método recomendado de implantação de um provedor do Outlook Social Connector (OSC) é usar um pacote do Windows Installer (.msi).
+ms.openlocfilehash: f606d39bd368609464cdd0ea5b9a56243ec4e27d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770855"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392491"
 ---
 # <a name="deploying-a-provider"></a>Implantar um provedor
 
-O método recomendado de Implantando um provedor do Outlook Social Connector (OSC) é usar um pacote do Windows Installer (. msi). Depois de baixar o pacote de instalação para um disco rígido local, o usuário final Office instala o provedor do OSC. Depois que o provedor de instalação for concluída, o usuário pode conectar ao provedor de OSC e forneça as credenciais de logon para a conta de redes sociais. Se o usuário decidir desinstalar o provedor do OSC, o usuário pode usar **programas e recursos** no painel de controle para desinstalar. 
+O método recomendado de implantação de um provedor do Outlook Social Connector (OSC) é usar um pacote do Windows Installer (.msi). Depois de baixar o pacote de instalação para um disco rígido local, os usuários finais do Office instalam o provedor do OSC. Após a conclusão da instalação do provedor, o usuário pode se conectar ao provedor do OSC e fornecer as credenciais de logon para a conta de rede social. Se o usuário decidir desinstalar o provedor do OSC, poderá usar o opção **Programas e Recursos** no Painel de Controle para isso. 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Registrando um provedor](registering-a-provider.md): descreve os requisitos de registro para um provedor OSC.
+- [Registrar um provedor](registering-a-provider.md): descreve os requisitos de registro para um provedor do OSC.
     
-- [Lista de verificação de instalação](installation-checklist.md): fornece uma lista de verificação para garantir que um provedor OSC é instalado com êxito.
+- [Lista de verificação de instalação](installation-checklist.md): oferece uma lista de verificação para garantir que é um provedor do OSC seja instalado com sucesso.
     
-## <a name="reference"></a>Referência
+## <a name="reference"></a>Referências
 
 - [Referência do provedor do Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
-- [Introdução ao desenvolvimento de um Outlook Social Connector Provider](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [Introdução ao desenvolvimento de um provedor do Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
-- [Modelos de amostra do OSC](osc-sample-templates.md)
+- [Modelos de exemplo do OSC](osc-sample-templates.md)
   
-- [Sequências de chamadas comuns do OSC](osc-typical-calling-sequences.md)
+- [Sequências de chamada típicas do OSC](osc-typical-calling-sequences.md)
   
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
+- [Desenvolver um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)
   
-- [Depurando um provedor](debugging-a-provider.md)
+- [Depurar um provedor](debugging-a-provider.md)
   
 - [Práticas recomendadas para o desenvolvimento de um provedor](best-practices-for-developing-a-provider.md)
   
 ## <a name="see-also"></a>Confira também
 
-- [Como gerenciar o conector Social do Outlook usando a diretiva de grupo](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Como gerenciar o Outlook Social Connector usando a Política de Grupo](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

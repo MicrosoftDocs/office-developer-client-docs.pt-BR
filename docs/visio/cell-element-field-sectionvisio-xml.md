@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (seção de campo) ('Visio XML')
+title: Elemento Cell (Seção Field) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
-description: Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
-ms.openlocfilehash: 94c9807984ef0e327c1cc9f8449d1ea065fdd717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
+ms.openlocfilehash: f6c3c724b210ad579012ff58b93333e28c2a8cf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771445"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383335"
 ---
-# <a name="cell-element-field-section-visio-xml"></a>Elemento de célula (seção de campo) ('Visio XML')
+# <a name="cell-element-field-section-visio-xml"></a>Elemento Cell (Seção Field) ('Visio XML')
 
-Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
+Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de 
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento Row (Seção Field)](row-element-field-sectionvisio-xml.md) <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |Exibe as funções e as fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.  <br/> |
+|[Elemento Row (Seção Field)](row-element-field-sectionvisio-xml.md) <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |Exibe as funções e fórmulas inseridas no texto da forma usando a caixa de diálogo Campo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,27 +52,27 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|Calendário  <br/> |Determina o calendário que é usado para um campo de texto quando o tipo de dado for Data.  <br/> |[Célula Calendar (Seção Text Fields)](calendar-cell-text-fields-section.md) <br/> |
-|Formatar  <br/> |Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou uma hora, uma duração ou uma moeda.  <br/> |[Célula Format (Seção Text Fields)](format-cell-text-fields-section.md) <br/> |
+|Calendário  <br/> |Determina o calendário a ser usado para um campo de texto quando o tipo de dado for Data.  <br/> |[Célula Calendar (Seção Text Fields)](calendar-cell-text-fields-section.md) <br/> |
+|Format  <br/> |Especifica a formatação de um campo de texto que pode ser uma sequência de caracteres, um número, uma data ou hora, uma duração ou uma moeda.  <br/> |[Célula Format (Seção Text Fields)](format-cell-text-fields-section.md) <br/> |
 |ObjectKind  <br/> |Indica o tipo de campo de texto.  <br/> |[Célula ObjectKind (Seção Text Fields)](objectkind-cell-text-fields-section.md) <br/> |
-|Tipo  <br/> |Especifica um tipo de dado para o valor do campo de texto.  <br/> |[Célula Type (Seção Text Fields)](type-cell-text-fields-section.md) <br/> |
-|UICat  <br/> |Determina a categoria de um campo inserido. Esta célula é usada pelas caixas de diálogo de formato de campo e dados para determinar as informações de campo e categoria.  <br/> |[Célula UICategory (Seção Text Fields)](uicategory-cell-text-fields-section.md) <br/> |
-|UICod  <br/> |Determina o código de um campo inserido. Esta célula é usada pelas caixas de diálogo de formato de campo e dados para determinar as informações de campo e categoria.  <br/> |[Célula UICode (Seção Text Fields)](uicode-cell-text-fields-section.md) <br/> |
-|UIFmt  <br/> |Determina o formato de um campo inserido. Esta célula é utilizada pelas caixas de diálogo de formato de campo e dados para determinar o campo e  <br/> |[Célula UIFormat (Seção Text Fields)](uiformat-cell-text-fields-section.md) <br/> |
-|Value  <br/> |Contém a função para um campo.  <br/> |[Célula Value (Seção Text Fields)](value-cell-text-fields-section.md) <br/> |
+|Tipo  <br/> |Especifica um tipo de dados para o campo de texto.  <br/> |[Célula Type (Seção Text Fields)](type-cell-text-fields-section.md) <br/> |
+|UICat  <br/> |Determina a categoria de um campo inserido. Esta célula é usada pelas caixas de diálogo Campo e Formato de dados para determinar as informações de campo e categoria.  <br/> |[Célula UICategory (Seção Text Fields)](uicategory-cell-text-fields-section.md) <br/> |
+|UICod  <br/> |Determina o código de um campo inserido. Esta célula é usada pelas caixas de diálogo Campo e Formato de dados para determinar as informações de campo e categoria.  <br/> |[Célula UICode (Seção Text Fields)](uicode-cell-text-fields-section.md) <br/> |
+|UIFmt  <br/> |Determina o formato de um campo inserido. Esta célula é usada pelas caixas de diálogo Campo e Formato de dados para determinar as informações  <br/> |[Célula UIFormat (Seção Text Fields)](uiformat-cell-text-fields-section.md) <br/> |
+|Value  <br/> |Contém a função de um campo.  <br/> |[Célula Value (Seção Text Fields)](value-cell-text-fields-section.md) <br/> |
    
 

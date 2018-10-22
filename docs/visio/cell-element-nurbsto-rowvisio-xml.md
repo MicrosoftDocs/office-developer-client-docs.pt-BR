@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (linha NURBSTo) ('Visio XML')
+title: Elemento Cell (Linha NURBSTo) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e76bae8f-b9de-39ef-1f56-b00a6cd2ba6c
-description: Contém a posição x ou y-coordenadas, do segundo ao último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline racional não-uniforme (NURBS).
-ms.openlocfilehash: acdc61235fde88a0f5b03eb6e83f54092b4f1fd3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém as coordenadas x ou y, a posição do penúltimo nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline não-racional uniforme (NURBS).
+ms.openlocfilehash: f23f73d67d72f9536dc7ffe9e083058ea9306217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771468"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392799"
 ---
-# <a name="cell-element-nurbsto-row-visio-xml"></a>Elemento de célula (linha NURBSTo) ('Visio XML')
+# <a name="cell-element-nurbsto-row-visio-xml"></a>Elemento Cell (Linha NURBSTo) ('Visio XML')
 
-Contém a posição x ou y-coordenadas, do segundo ao último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline racional não-uniforme (NURBS).
+Contém as coordenadas x ou y, a posição do penúltimo nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline não-racional uniforme (NURBS).
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Contém a posição x ou y-coordenadas, do segundo ao último nó, a posição d
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento de linha (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[NURBSTo_Type](nurbsto_type-complextypevisio-xml.md) <br/> |Contém a posição x ou y-coordenadas, do segundo ao último nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline racional não-uniforme (NURBS).  <br/> |
+|[Elemento Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[NURBSTo_Type](nurbsto_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y, a posição do penúltimo nó, a posição da última espessura, a posição do primeiro nó, a posição da primeira espessura ou a fórmula para uma B-spline não-racional uniforme (NURBS).  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,26 +52,26 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|X  <br/> |A coordenada xdo último ponto de controle de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|Y  <br/> |A coordenada ydo último ponto de controle de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|A  <br/> |O penúltimo nó de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|B  <br/> |A última espessura de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|C  <br/> |O primeiro nó de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|D  <br/> |A primeira espessura de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|E  <br/> |Uma fórmula NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|X  <br/> |A coordenada x do último ponto de controle de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|Y  <br/> |A coordenada y do último ponto de controle de uma NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|A  <br/> |Do segundo ao último nó da NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|B  <br/> |A última largura da NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|C  <br/> |O primeiro nó da NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|D  <br/> |A primeira largura da NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|E  <br/> |A fórmula NURBS.  <br/> |[Linha NURBSTo (Seção Geometry)](nurbsto-row-geometry-section.md) <br/> |
    
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
-description: Especifica as informações de uma regra de fuso horário sobre quando inicia o horário de verão e o ano em que essa regra de fuso horário primeiro entrará em vigor.
-ms.openlocfilehash: 77d56d238d959992bfadd2d8c143391ca6fa4d5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Especifica as informações de uma regra de fuso horário sobre quando começa o horário de verão e o ano em que essa regra de fuso horário entrou em vigor.
+ms.openlocfilehash: 71ede7c0061a058c2dd85c7b9b36c42583a6bb84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19766084"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392694"
 ---
 # <a name="tzrule"></a>TZRULE
 
-Especifica as informações de uma regra de fuso horário sobre quando inicia o horário de verão e o ano em que essa regra de fuso horário primeiro entrará em vigor. 
+Especifica as informações de uma regra de fuso horário sobre quando começa o horário de verão e o ano em que essa regra de fuso horário entrou em vigor. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -32,15 +32,15 @@ typedef struct {
 
 _wFlags_
   
-> Os sinalizadores definidos para este membro identificam detalhes específicos para essa regra de fuso horário. Os sinalizadores possíveis são:
+> Os sinalizadores definidos para esse membro identificam os detalhes específicos da regra de fuso horário. Os sinalizadores possíveis são os seguintes:
     
-   - **TZRULE_FLAG_EFFECTIVE_TZREG** — identifica a regra como aquele que deve ser usada no momento. Somente uma regra pode ser marcada como a regra efetiva. Todas as outras regras são apenas para fins de comparação. 
+   - **TZRULE_FLAG_EFFECTIVE_TZREG**: identifica a regra que deve ser usada no momento. Somente uma regra pode ser marcada como a regra efetiva. Todas as regras são apenas para fins de comparação. 
     
-   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** — em reuniões recorrentes, identifica a regra como correspondência da regra na [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx). Isso pode ser usado para detectar se **PidLidTimeZoneStruct** tiver sido modificada significativamente por um cliente herdado, qual seria caso contrário, não sabem da propriedade nova e mais completa. 
+   - **TZRULE_FLAG_RECUR_CURRENT_TZREG**: em reuniões recorrentes, identifica a regra como correspondente à regra em [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx). Pode ser usado para detectar se **PidLidTimeZoneStruct** foi modificado significativamente por um cliente herdado, o que, caso contrário, passaria despercebido pelo nova propriedade mais completa. 
     
 _stStart_
   
-> A hora no tempo Universal Coordenado (UTC) que a regra de fuso horário é iniciada.
+> A hora em UTC (Tempo Universal Coordenado) que a regra de fuso horário iniciou.
     
 _TZReg_
   
@@ -48,12 +48,12 @@ _TZReg_
     
 ## <a name="remarks"></a>Comentários
 
-Essa estrutura aumenta [TZREG](tzreg.md) fornecendo informações adicionais indicando quando as regras de fuso horário entrem em vigor. 
+Essa estrutura aumenta [TZREG](tzreg.md) fornecendo informações adicionais que indicam quando as regras de fuso horário entram em vigor. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre alteração de calendários por meio de programação para horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) 
-- [Constantes (Outlook exportados APIs)](constants-outlook-exported-apis.md)
+- [Sobre a alteração programática da base de calendários para o horário de verão](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) 
+- [Constantes (APIs exportadas pelo Outlook)](constants-outlook-exported-apis.md)
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
 - [TZDEFINITION](tzdefinition.md)
 

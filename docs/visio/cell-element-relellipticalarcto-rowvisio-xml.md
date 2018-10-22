@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (RelEllipticalArcTo linha) ('Visio XML')
+title: Elemento Cell (Linha RelEllipticalArcTo) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
-description: Contém ou y coordenadas x do ponto de extremidade do arco elíptico em relação à largura e a altura da forma ou y coordenadas x do controle aponta do arco em relação à largura e a altura, o ângulo do eixo x para o eixo principal da elipse ou taxa entre a forma a eixos principal e secundária da elipse.
-ms.openlocfilehash: 661f6971ca4c03c68950ead45065bd12160918d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico relativas à largura e altura da forma, as coordenadas x ou y dos pontos de controle no arco relativas à largura e altura da forma, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.
+ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771477"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383153"
 ---
-# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento de célula (RelEllipticalArcTo linha) ('Visio XML')
+# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Elemento Cell (Linha RelEllipticalArcTo) ('Visio XML')
 
-Contém ou y coordenadas x do ponto de extremidade do arco elíptico em relação à largura e a altura da forma ou y coordenadas x do controle aponta do arco em relação à largura e a altura, o ângulo do eixo x para o eixo principal da elipse ou taxa entre a forma a eixos principal e secundária da elipse.
+Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico relativas à largura e altura da forma, as coordenadas x ou y dos pontos de controle no arco relativas à largura e altura da forma, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Contém ou y coordenadas x do ponto de extremidade do arco elíptico em relaçã
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento de linha (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelEllipticalArcTo_Type](relellipticalarcto_type-complextypevisio-xml.md) <br/> |Contém ou y coordenadas x do ponto de extremidade do arco elíptico em relação à largura e a altura da forma ou y coordenadas x do controle aponta do arco em relação à largura e a altura, o ângulo do eixo x para o eixo principal da elipse ou taxa entre a forma a eixos principal e secundária da elipse.  <br/> |
+|[Elemento Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelEllipticalArcTo_Type](relellipticalarcto_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y do ponto de extremidade de um arco elíptico relativas à largura e altura da forma, as coordenadas x ou y dos pontos de controle no arco relativas à largura e altura da forma, o ângulo do eixo x para o eixo principal da elipse ou a proporção entre os eixos principal e secundário da elipse.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -52,25 +52,25 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|X  <br/> |A coordenada x do vértice final em um arco relativa à largura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|Y  <br/> |A coordenada y do vértice final em um arco em relação a altura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|A  <br/> |A coordenada x do controle do arco aponte em relação à largura da forma; um ponto do arco.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|B  <br/> |A coordenada y do controle do arco aponte em relação à largura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|X  <br/> |A coordenada x do vértice final de um arco relativa à largura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|Y  <br/> |A coordenada y do vértice final de um arco relativa à altura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|A  <br/> |A coordenada x do ponto de controle do arco relativa à largura da forma; um ponto no arco.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|B  <br/> |A coordenada y do ponto de controle do arco relativa à largura da forma.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
 |C  <br/> |O ângulo do eixo principal do arco em relação ao eixo x de seu pai.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|D  <br/> |A taxa de eixos principal do arco e seu eixo secundário.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|D  <br/> |A proporção entre o eixo principal de um arco e seu eixo secundário.  <br/> |[Linha RelEllipticalArcTo (Seção Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
    
 

@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm230
 localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
-description: Representa uma cadeia de caracteres de texto descritivo para um hiperlink.
-ms.openlocfilehash: 567a90b3162c109582c3149c156a994392980577
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Representa uma cadeia de texto descritiva de um hiperlink.
+ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771728"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396621"
 ---
 # <a name="description-cell-hyperlinks-section"></a>Célula Description (Seção Hyperlinks)
 
-Representa uma cadeia de caracteres de texto descritivo para um hiperlink. 
+Representa uma cadeia de texto descritiva de um hiperlink. 
   
 ## <a name="remarks"></a>Comentários
 
-Utilize esta célula para armazenar comentários sobre o hiperlink; por exemplo, "Link para nosso site de preços na Web".
+Utilize esta célula para armazenar comentários sobre o hiperlink; por exemplo, "Link para nosso site de preços".
   
-Você pode também definir o valor dessa célula na caixa de diálogo **Hiperlinks** (clique em **Hiperlinks** na guia **Inserir**). 
+Você também pode definir o valor dessa célula na caixa de diálogo **Hiperlinks** (clique em **Hiperlink** na guia **Inserir**). 
   
-Para fazer referência à célula Description pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
+Para obter uma referência à célula Descrição pelo nome de outra fórmula ou por um programa que utiliza a propriedade **CellsU**, use: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Hiperlink.  *Nome* . Descrição onde Hyperlink.  *Nome* é o nome da linha do hiperlink  <br/> |
+| Nome da célula:  <br/> | Hiperlink.  *Name*. Descrição em que Hiperlink.  *Name* é o nome da linha de hiperlink  <br/> |
    
-Para fazer referência à célula Description pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência à célula Description pelo índice de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionHyperlink** <br/> |
-| Índice da linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visHLinkDescription** <br/> |
+| Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visHLinkDescription** <br/> |
    
 

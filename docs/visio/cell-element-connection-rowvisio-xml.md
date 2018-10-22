@@ -1,31 +1,31 @@
 ---
-title: Elemento de célula (linha de Conexão) ('Visio XML')
+title: Elemento Cell (Linha Connection) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
-description: Contém as coordenadas x ou y, direção horizontal ou vertical ou tipo de um ponto de conexão único em uma forma.
-ms.openlocfilehash: 52328e50b185a96ebb06634248b93a4332ac35c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Contém as coordenadas x ou y, a direção horizontal ou vertical ou o tipo do ponto de conexão único em uma forma.
+ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771443"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388956"
 ---
-# <a name="cell-element-connection-row-visio-xml"></a>Elemento de célula (linha de Conexão) ('Visio XML')
+# <a name="cell-element-connection-row-visio-xml"></a>Elemento Cell (Linha Connection) ('Visio XML')
 
-Contém as coordenadas x ou y, direção horizontal ou vertical ou tipo de um ponto de conexão único em uma forma.
+Contém as coordenadas x ou y, a direção horizontal ou vertical ou o tipo do ponto de conexão único em uma forma.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações do elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |# XML do mestre, página # XML  <br/> |
+|**Partes do documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,42 +36,42 @@ Contém as coordenadas x ou y, direção horizontal ou vertical ou tipo de um po
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Elemento Row (Seção Connection)](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x e y, direção horizontal e vertical e tipo para um ponto de conexão único em uma forma.  <br/> |
+|[Elemento Row (Seção Connection)](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x e y, a direção horizontal e vertical e o tipo do ponto de conexão único em uma forma.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y, direção horizontal e vertical e tipo para um ponto de conexão único em uma forma.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contém as coordenadas x ou y, a direção horizontal e vertical e o tipo do ponto de conexão único em uma forma.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: String  <br/> |opcional  <br/> |Indica que a fórmula é avaliada como um erro. O valor de **f** é o valor atual (uma sequência de mensagem de erro;) o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
-|S  <br/> |XSD: String  <br/> |opcional  <br/> | Representa a fórmula do elemento. Este atributo pode conter uma das cadeias de caracteres seguintes:  <br/>  '(alguns formula)' se a fórmula existe localmente  <br/>  `No Formula`Se a fórmula localmente é excluída ou bloqueada  <br/>  `Inh`Se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
-|N  <br/> |XSD: String  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Consulte a seção comentários abaixo.  <br/> |
-|U  <br/> |XSD: String  <br/> |opcional  <br/> |Representa uma unidade de medida padrão é DL.  <br/> |As unidades da célula.  <br/> |
-|V  <br/> |XSD: String  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que a fórmula gera um erro. O valor de **E** é atual (uma cadeia de mensagem de erro); o valor do atributo **V** é o último valor válido.  <br/> |Uma cadeia de caracteres de mensagem de erro.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa a fórmula do elemento. Esse atributo pode conter uma das seguintes cadeias de caracteres:  <br/>  "(alguma fórmula)" se a fórmula existir localmente  <br/>  `No Formula` se a fórmula for excluída ou bloqueada localmente  <br/>  `Inh` se a fórmula for herdada.  <br/> |Uma fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |obrigatório  <br/> |Representa o nome da célula ShapeSheet.  <br/> |O nome da célula ShapeSheet.  <br/> Confira a seção Comentários abaixo.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa uma unidade de medida. O padrão é DL.  <br/> |As unidades da célula.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa o valor da célula.  <br/> |O valor da célula ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O atributo **N** deste elemento de **célula** deve ser um conjunto limitado de valores que corresponde às células da ShapeSheet. Consulte a tabela abaixo para determinar os valores do atributo **N** que são permitidos para esse elemento de **célula** . 
+O atributo **N** deste elemento **Cell** deve incluir um conjunto limitado de valores que correspondem às células ShapeSheet. Confira a tabela a seguir para determinar os valores do atributo **N** permitidos para este elemento **Cell**. 
   
 |**Valor**|**Descrição**|**Mais informações**|
 |:-----|:-----|:-----|
-|AutoGen  <br/> |Especifica se o ponto de conexão é gerado automaticamente. Um valor de 1 indica que o ponto de conexão é gerado automaticamente.  <br/> |Nenhum.  <br/> |
-|DirX  <br/> |Determina o componente x para o vetor de alinhamento necessário de um ponto de conexão coincidente.  <br/> |[Célula DirX / A (Seção Connection Points)](dirxa-cell-connection-points-section.md) <br/> |
-|DirY  <br/> |Determina o componente de y para o vetor de alinhamento necessário de um ponto de conexão coincidente.  <br/> |[Célula DirY / B (Seção Connection Points)](diryb-cell-connection-points-section.md) <br/> |
-|Prompt  <br/> |Este atributo é reservado para uso futuro.  <br/> |Nenhum.  <br/> |
-|Tipo  <br/> |Especifica o tipo de ponto de conexão.  <br/> |[Célula Type / C (Seção Connection Points)](typec-cell-connection-points-section.md) <br/> |
-|X  <br/> |Representa a coordenada x de um ponto de conexão em coordenadas locais.  <br/> |[Célula X (Seção Connection Points)](x-cell-connection-points-section.md) <br/> |
+|AutoGen  <br/> |Especifica se o ponto de conexão é gerado automaticamente. O valor 1 indica que o ponto de conexão é gerado automaticamente.  <br/> |Nenhum.  <br/> |
+|DirX  <br/> |Determina o componente x do vetor de alinhamento obrigatório de um ponto de conexão correspondente.  <br/> |[Célula DirX/A (Seção Connection Points)](dirxa-cell-connection-points-section.md) <br/> |
+|DirY  <br/> |Determina o componente y do vetor de alinhamento obrigatório de um ponto de conexão correspondente.  <br/> |[Célula DirY/B (Seção Connection Points)](diryb-cell-connection-points-section.md) <br/> |
+|Aviso  <br/> |Esse atributo é reservado para uso futuro.  <br/> |Nenhum.  <br/> |
+|Tipo  <br/> |Determina o tipo de ponto de conexão.  <br/> |[Célula Type/C (Seção Connection Points)](typec-cell-connection-points-section.md) <br/> |
+|X  <br/> |Representa a coordenada x de um ponto de conexão em coordenadas locais.  <br/> |[Célula X Cell (Seção Connection Points)](x-cell-connection-points-section.md) <br/> |
 |Y  <br/> |Determina a coordenada y de um ponto de conexão em coordenadas locais.  <br/> |[Célula Y (Seção Connection Points)](y-cell-connection-points-section.md) <br/> |
    
 
