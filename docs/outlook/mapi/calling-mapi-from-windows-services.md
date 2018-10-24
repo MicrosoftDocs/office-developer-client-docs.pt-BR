@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: debf7ec3-e9f9-4912-b9a2-fc0953a56a01
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a606b8bf82ce4c06c8e55f6e4df94220bc67501d
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -50,5 +50,5 @@ Para processar mensagens em um segmento de inicialização, um cliente MAPI que 
 [MAPILogonEx](mapilogonex.md)
 
 
-[Problemas do ambiente de operação](operating-environment-issues.md)
+[Problemas operacionais no ambiente](operating-environment-issues.md)
 

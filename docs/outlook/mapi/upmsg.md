@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -38,7 +38,7 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  _ulFlags_
   
@@ -120,7 +120,7 @@ _skeySrc_
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 - [FEID](feid.md)
 - [MEID](meid.md)
 - [SKEY](skey.md)

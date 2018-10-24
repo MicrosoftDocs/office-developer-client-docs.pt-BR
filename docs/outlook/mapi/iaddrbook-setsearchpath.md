@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT SetSearchPath(
   
 > [in] Um ponteiro para a estrutura de [SRowSet](srowset.md) usada para armazenar o caminho de pesquisa. A primeira propriedade para cada membro **aRow** em **SRowSet** deve ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -70,7 +70,7 @@ Clientes e provedores não precisará chamar o método [IMAPIProp::SaveChanges](
   
 [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
   
-[Propriedade canônica PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
+[Propriedade canônico de PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

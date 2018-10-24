@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f49ea23ed7fef91bcb360483611af2ee60429934
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT OnShutdown( void );
 
 Nenhum
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

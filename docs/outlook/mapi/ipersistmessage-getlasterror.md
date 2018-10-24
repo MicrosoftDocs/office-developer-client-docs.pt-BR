@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a39deb57a24b3a89ee10020a6442bcb1bca612a3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se o formulário será possível fornecer informações apropriadas para uma estrutura **MAPIERROR** . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

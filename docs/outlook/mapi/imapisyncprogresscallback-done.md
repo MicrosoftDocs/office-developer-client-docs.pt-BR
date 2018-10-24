@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT Done(
   
 > Um HRESULT indicando o status final do andamento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

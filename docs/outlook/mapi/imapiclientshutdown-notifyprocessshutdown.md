@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42dd7889-5e00-419a-91e7-8350be4efd35
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1c66032788758b04558a37a4c35ff4dd6c702fa2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Indica a intenção do cliente MAPI para prosseguir com desligado.
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f76b44b3718f08eb68fc956ad4480d4327cb0656
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -66,7 +66,7 @@ HRESULT CreateProvider(
   
 > [out] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo que representa o provedor para adicionar. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

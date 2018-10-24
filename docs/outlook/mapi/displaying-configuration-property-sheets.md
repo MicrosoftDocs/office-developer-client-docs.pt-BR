@@ -1,5 +1,5 @@
 ---
-title: Exibindo as folhas de propriedades de configuração
+title: Exibir a configuração das folhas de propriedades
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fa48e97ed25fe1175ffd3a92ac961dcf5bde50b4
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22588353"
 ---
-# <a name="displaying-configuration-property-sheets"></a>Exibindo as folhas de propriedades de configuração
+# <a name="displaying-configuration-property-sheets"></a>Exibir a configuração das folhas de propriedades
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

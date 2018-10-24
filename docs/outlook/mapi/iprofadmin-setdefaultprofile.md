@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: af695d55cdd5f8d7e24d7e60e6eebaf03868b03f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > O nome do perfil está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o nome de perfil é no formato ANSI.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -74,7 +74,7 @@ Para iniciar uma sessão com o perfil padrão, passe o sinalizador MAPI_USE_DEFA
   
 [MAPILogonEx](mapilogonex.md)
   
-[Propriedade canônica PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
+[Propriedade canônico de PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
   
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
 

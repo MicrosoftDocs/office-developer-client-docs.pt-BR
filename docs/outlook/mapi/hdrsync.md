@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 261a59e628320f384deeb760ba71c9c0386cfde6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ struct HDRSYNC
     
  _pstmReserved_
   
-- [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+- [uto] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
  _ulFlags_
   
@@ -64,7 +64,7 @@ struct HDRSYNC
     
 - HSF_OK
     
-  - [in] Sincronização de cabeçalho foi bem-sucedida. O cliente define esta após fazer o download de informações do servidor.
+  - [in] Sincronização de cabeçalho foi bem-sucedida. O cliente define isso depois de baixar informações do servidor.
     
      _pmsgFull_
     
@@ -78,7 +78,7 @@ struct HDRSYNC
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [FEID](feid.md)
 

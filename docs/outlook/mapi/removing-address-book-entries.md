@@ -1,5 +1,5 @@
 ---
-title: Removendo entradas do catálogo de endereços
+title: Remover entradas do catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2c5d7a2114f4a85b9f63cd778e899a83d335ff45
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22581276"
 ---
-# <a name="removing-address-book-entries"></a>Removendo entradas do catálogo de endereços
+# <a name="removing-address-book-entries"></a>Remover entradas do catálogo de endereços
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a30a323874c847d9a08b00512cfd30ff3cf5c5ff
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -91,7 +91,7 @@ MAPI_NOREPLACE
   
 > [além, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; Caso contrário, NULL, que indica que não há necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DoCopyProps** retorna informações detalhadas sobre erros no copiando uma ou mais propriedades. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -165,15 +165,15 @@ Se **DoCopyProps** Retorna S_OK, livre a estrutura de **SPropProblemArray** reto
   
 [IMAPISupport::GetLastError](imapisupport-getlasterror.md)
   
-[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônica PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
+[Propriedade canônico de PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)
   
-[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   

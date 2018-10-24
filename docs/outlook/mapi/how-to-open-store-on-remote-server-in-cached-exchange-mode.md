@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ Modo cache do Exchange permite que o Outlook 2010 e o Outlook 2013 para usar uma
   
 Um provedor de cliente ou serviço pode substituir a conexão ao repositório de mensagem local e abra o repositório no servidor remoto, definindo o bit para **MDB_ONLINE** no parâmetro *ulFlags* ao chamar [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md). Depois que o repositório tiver sido aberto com êxito no servidor remoto para a sessão, você pode usar [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir itens ou pastas no repositório remoto. 
   
-Você não pode abrir um repositório do Exchange no modo de cache e no modo em cache não ao mesmo tempo na mesma sessão MAPI. Se você já abriu o armazenamento de mensagens em cache, você deve fechar ou o repositório antes de abri-lo com esse sinalizador ou abra uma nova sessão MAPI, onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
+Você não pode abrir um repositório do Exchange no modo de cache e no modo em cache não ao mesmo tempo na mesma sessão MAPI. Se você já tiver aberto o arquivo de cache mensagens, você deve fechar o repositório antes de abri-lo com esse sinalizador ou abrir uma nova sessão MAPI onde você pode abrir o armazenamento do Exchange no servidor remoto usando esse sinalizador.
   
 O exemplo de código a seguir mostra como chamar **IMAPISession::OpenMsgStore** com o sinalizador **MDB_ONLINE** definido no parâmetro *ulFlags* para abrir o repositório padrão no servidor remoto. 
   
@@ -91,6 +91,6 @@ HRESULT HrRemoteMessageStore(
 ## <a name="see-also"></a>Confira também
 
 - [Sobre as adições de MAPI](about-mapi-additions.md) 
-- [Constantes MAPI](mapi-constants.md)
-- [Acessar um repositório em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Constantes de MAPI](mapi-constants.md)
+- [Acessar o Store em um servidor remoto quando o Outlook estiver no modo cache do Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

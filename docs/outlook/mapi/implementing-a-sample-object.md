@@ -1,5 +1,5 @@
 ---
-title: Implementação de um objeto de amostra
+title: Implementar um objeto de exemplo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25396789"
 ---
-# <a name="implementing-a-sample-object"></a>Implementação de um objeto de amostra
+# <a name="implementing-a-sample-object"></a>Implementar um objeto de exemplo
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -116,5 +116,5 @@ lpMyObj->lpVtbl = &vtblADVISE;
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral da propriedade MAPI](mapi-property-overview.md)
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementar objetos de MAPI](implementing-mapi-objects.md)
 

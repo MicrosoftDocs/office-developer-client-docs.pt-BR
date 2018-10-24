@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b3850da2917dbf463590643b9e7ba8420f4ea219
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -54,7 +54,7 @@ LPENTRYID FAR * lppWrappedEntry
   
 > [out] Um ponteiro para um ponteiro para o identificador de entrada com quebra.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

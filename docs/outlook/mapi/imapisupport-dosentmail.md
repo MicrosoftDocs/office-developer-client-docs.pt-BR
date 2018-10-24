@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT DoSentMail(
   
 > [in] Um ponteiro para a mensagem de aberta para o qual uma mensagem deve ser gerada na pasta designada para armazenar itens enviados.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -72,7 +72,7 @@ O método **IMAPISupport::DoSentMail** é implementado para objetos de suporte d
 
 [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)
   
-[Propriedade canônica PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
+[Propriedade canônico de PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

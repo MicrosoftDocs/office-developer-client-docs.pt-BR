@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b1ab1bd4eb6badc75065ce54d009e034f0fc2b29
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ struct SYNCCONT
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -69,5 +69,5 @@ _psosReserved_
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 

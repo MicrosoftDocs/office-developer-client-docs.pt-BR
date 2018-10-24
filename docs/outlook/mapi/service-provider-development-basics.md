@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0f53c0b758db69e798b9f15c7749f12dcf3b17e1
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -27,11 +27,11 @@ Esta seção contém informações de visão geral que você deve analisar antes
 
 
 
-[Desenvolver um provedor do catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
+[Desenvolvendo um provedor de catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
   
-[Desenvolver um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
+[Desenvolvendo um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
   
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
   
 [Provedores de serviços MAPI](mapi-service-providers.md)
   

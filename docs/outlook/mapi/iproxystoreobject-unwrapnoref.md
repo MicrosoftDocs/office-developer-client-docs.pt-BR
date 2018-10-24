@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ef9f506c1a95fec86c7f092b0299198e6149d3ba
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -37,7 +37,7 @@ HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject );
   
 > [out] Ponteiro para uma [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) objeto store que será desfeito. 
     
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
 S_OK
   

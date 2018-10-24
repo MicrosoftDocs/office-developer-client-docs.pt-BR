@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5c6a16b62987a5338e1f14d362ba9d0ba9836e8e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -25,11 +25,11 @@ Um cliente pode criar um perfil de uma das duas maneiras, usando o Assistente de
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criar um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
+[Criação de um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
   
 > Descreve como chamar o Assistente de perfil, um aplicativo que cria um perfil, permitindo que o usuário escolha provedores de serviço e serviços de mensagem interativamente.
     
-[Criar um perfil usando um código personalizado](creating-a-profile-by-using-custom-code.md)
+[Criando um perfil usando o código personalizado](creating-a-profile-by-using-custom-code.md)
   
 > Descreve como escrever código C ou C++, muitas vezes a melhor escolha para aplicativos de cliente não-interativo que requerem um conjunto específico de serviços de mensagem.
     

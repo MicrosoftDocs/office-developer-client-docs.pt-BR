@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT GetProviderTable(
   
 > [out] Um ponteiro para um ponteiro para a tabela de provedor.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

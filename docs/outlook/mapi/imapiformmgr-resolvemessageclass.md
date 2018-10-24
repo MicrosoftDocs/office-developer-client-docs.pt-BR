@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3cd84e4ddb6d722d9f3de11d65b100d86e69ecae
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,7 +58,7 @@ MAPIFORM_EXACTMATCH
   
 > [out] Um ponteiro para um ponteiro para um objeto de informações do formulário retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4daeddd7-3f0c-4178-ae8d-f74814090d40
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 30f55044327eecee3ab0d8ee2509d7132ab6e8ee
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT MakeIconFromBinary(
   
 > [out] Um ponteiro para o ícone retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 057a1ff38ed3809ce03bce8f820f1d16eea7fb46
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -51,5 +51,5 @@ struct UPDEL
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

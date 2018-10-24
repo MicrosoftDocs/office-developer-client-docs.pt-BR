@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e6803c54ddd60c1bcebbe7a139c2edf2e7f4449d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ ULONG ulDenominator
   
 > [in] Ponteiro para o denominador da fração que representa a posição da tabela. O parâmetro _ulDenominator_ não pode ser zero. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -1,5 +1,5 @@
 ---
-title: Criando tabelas de exibição e estruturas relacionadas
+title: Criar tabelas de exibição e estruturas relacionadas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e17306e2b90f26dcef0a0214e78080fe78752e5f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22568564"
 ---
-# <a name="creating-display-tables-and-related-structures"></a>Criando tabelas de exibição e estruturas relacionadas
+# <a name="creating-display-tables-and-related-structures"></a>Criar tabelas de exibição e estruturas relacionadas
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

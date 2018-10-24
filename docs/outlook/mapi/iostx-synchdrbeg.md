@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2d05592d1fdcdcd53c8b7879f9cdcd432df1a3f7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -72,5 +72,5 @@ Após a **IOSTX::SyncHdrBeg**, o local armazenar transições a [baixar o estado
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

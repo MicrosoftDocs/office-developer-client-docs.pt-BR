@@ -1,5 +1,5 @@
 ---
-title: Responsabilidades do mapeamento de gateway
+title: Responsabilidades de mapeamento do gateway
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 91c1d9293108b96fde43b769c97ec673f82a8cb7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563027"
 ---
-# <a name="gateway-mapping-responsibilities"></a>Responsabilidades do mapeamento de gateway
+# <a name="gateway-mapping-responsibilities"></a>Responsabilidades de mapeamento do gateway
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

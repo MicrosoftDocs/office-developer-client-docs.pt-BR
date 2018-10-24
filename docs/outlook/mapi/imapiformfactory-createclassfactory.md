@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cb5cb5a0169e716f7fcc7f596660bc0222c51c84
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT CreateClassFactory(
   
 > [out] Um ponteiro para o objeto de classe de fábrica.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -61,7 +61,7 @@ Visualizadores de formulário chame o método de **IMAPIFormFactory::CreateClass
   
 O método **CreateClassFactory** é chamado pelo visualizadores de formulário para obter um objeto de fábrica de classe para servidores de formulário que implementar várias classes de mensagem. Esse método recebe um identificador de classe (CLSID) como um parâmetro. Com base no parâmetro, esse método pode determinar o tipo específico de objeto de fábrica de classe para retornar. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você pode retornar da sua implementação **CreateClassFactory** o mesmo objeto de fábrica de classe em várias chamadas para o mesmo identificador de classe. Criando uma nova instância de fábrica de classe não é necessária. 
   

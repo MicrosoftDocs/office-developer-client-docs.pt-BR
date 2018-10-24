@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -52,7 +52,7 @@ MSG_UNLOCKED
   
 > A mensagem deve ser desbloqueada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -64,7 +64,7 @@ O método **IMsgStore::SetLockState** bloqueia ou desbloqueia uma mensagem. **Se
   
 Normalmente, quando o MAPI spooler chama **SetLockState** para bloquear uma mensagem, ele bloqueia somente a mensagem mais antiga (ou seja, a próxima mensagem na fila para o spooler MAPI enviar). Se a mensagem mais antiga na fila está aguardando para um provedor de transporte temporariamente indisponível e a próxima mensagem na fila usa um provedor de transporte diferentes, o MAPI spooler pode começar a processar a mensagem posterior. Ele começará processamento bloqueando mensagem usando **SetLockState**.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Depois que o MAPI spooler tiver chamado **SetLockState** com o parâmetro _ulLockState_ definido como MSG_LOCKED, chamadas ao método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para cancelar a transmissão da mensagem devem falhar. 
   

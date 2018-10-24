@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0765e46a6f0545682b16e484d08d296ea13e2136
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -57,7 +57,7 @@ TNEF_PROP_INCLUDE
   
 > [out] Um ponteiro para um ponteiro para uma estrutura de [STnefProblemArray](stnefproblemarray.md) retornado. A estrutura **STnefProblemArray** indica quais propriedades, se houver, não foram codificadas adequadamente. Se NULL é passada no parâmetro _lpProblems_ , nenhuma matriz de problema da propriedade será retornado. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -73,7 +73,7 @@ LOGOFF_OUTBOUND_QUEUE
   
 > Mensagens de saída estão pendentes (ou seja, eles são na caixa de saída).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -83,7 +83,7 @@ S_OK
 
 O método **IMsgStore::StoreLogoff** exerce controle sobre a interação da mensagem armazenar e provedores de transporte durante o processo de logoff. Chamar **StoreLogoff** é válida apenas para repositórios de mensagem que estão sendo usados somente pelo chamador. Por exemplo, quando dois clientes estão usando o mesmo armazenamento de mensagens e um deles chama **StoreLogoff**, o armazenamento de mensagens é liberado imediatamente e o controle é retornado para o cliente da chamada.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Salve os sinalizadores que são passados para **StoreLogoff** e passá-las quando você chama o método [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) . Não chame **StoreLogoffTransports** até que a contagem de referência da loja mensagem cai para zero. Várias chamadas para **StoreLogoffTransports** simplesmente substituem os sinalizadores salvos. 
   

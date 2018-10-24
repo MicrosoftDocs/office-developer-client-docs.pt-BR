@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Desbloqueia o arquivo de pastas particulares (. pst) para uma sessão, substitui
 HRESULT OverridePSTDisableGrow();
 ```
 
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   

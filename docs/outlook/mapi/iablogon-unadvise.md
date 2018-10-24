@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] O número de conexão associado a um registro de notificação ativo. Uma chamada anterior a **Advise** deve ter retornado o valor de _ulConnection_.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 MAPI chama o método **Unadvise** para cancelar um registro de notificação para um contêiner, usuário ou objeto de lista de distribuição de mensagens. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 A implementação dos **Unadvise** dependerá se você oferecer suporte a notificação com a Ajuda do MAPI ou manualmente. Se MAPI fornece seu suporte, chame o método de [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) para cancelar o registro. Se outro thread no processo de chamar o método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do coletor de eventos advise, ela pode ser atrasada até **OnNotify** ter retornado. 
   

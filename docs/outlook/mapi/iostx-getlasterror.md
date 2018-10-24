@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25c9288-b391-6303-3643-5a5b66b75c48
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 78ae0f78e154c17f774817238b2083d98a8fb809
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -68,5 +68,5 @@ HRESULT GetLastError(
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

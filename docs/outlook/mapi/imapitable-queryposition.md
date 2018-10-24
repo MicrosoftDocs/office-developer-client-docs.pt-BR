@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ ULONG FAR * lpulDenominator
   
 > [out] Ponteiro para o denominador da fração identifica a posição da tabela. O parâmetro _lpulDenominator_ não pode ser zero. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -59,7 +59,7 @@ S_OK
 
 O método **IMAPITable::QueryPosition** determina a posição da linha atual e retorna o número de linha atual e um valor fracionário indicando sua posição relativa ao final da tabela. MAPI define a linha atual como a próxima linha a ser lido. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Não é necessário retornar o número exato de linhas na tabela para o parâmetro _lpulDenominator_ ; pode ser uma aproximação. 
   

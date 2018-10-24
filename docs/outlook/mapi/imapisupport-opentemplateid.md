@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 855810f7ac3bc1bd433ddd56aba3fe1f938b9559
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -73,7 +73,7 @@ FILL_ENTRY
   
 > Reservado; deve ser NULL.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -103,7 +103,7 @@ Se **OpenTemplateID** falhar com MAPI_E_UNKNOWN_ENTRYID, tente continuar tratand
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
   
-[Propriedade canônica PidTagTemplateid](pidtagtemplateid-canonical-property.md)
+[Propriedade canônico de PidTagTemplateid](pidtagtemplateid-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

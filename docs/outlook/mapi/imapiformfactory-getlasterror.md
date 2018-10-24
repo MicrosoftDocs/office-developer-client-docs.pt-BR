@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1d85f6-7996-4839-b985-abf83e305651
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b4d9838846a124b1c81ec9f9fc6309dcd37c7f2d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** retornado que contém informações de versão, componente e contexto para o erro. Este parâmetro pode ser definido como NULL se não houver nenhuma estrutura **MAPIERROR** para retornar. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

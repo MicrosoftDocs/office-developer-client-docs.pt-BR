@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a5c9f70831b7d3f5bcbaf9d74f5526b110375ff0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ typedef enum
 
 [Sobre a API de estado offline](about-the-offline-state-api.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)
 

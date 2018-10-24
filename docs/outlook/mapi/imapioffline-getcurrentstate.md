@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -56,5 +56,5 @@ MAPIOFFLINE_STATE_OFFLINE
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

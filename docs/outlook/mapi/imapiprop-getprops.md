@@ -58,7 +58,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para os valores de propriedade recuperadas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -100,7 +100,7 @@ Se o parâmetro _lpPropTagArray_ é definido como NULL para recuperar todas as p
     
  **GetProps** não deve retornar as propriedades de valores múltiplos com **cValues** definido como 0. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Chamar a função de [MAPIAllocateBuffer](mapiallocatebuffer.md) para alocar memória inicialmente para a estrutura de [SPropValue](spropvalue.md) apontada pela _lpPropTagArray_; Chame [MAPIAllocateMore](mapiallocatemore.md) para alocar toda a memória adicional necessária para que os membros da estrutura. 
   
@@ -164,11 +164,11 @@ Para verificar se um PST é um PST do SharePoint, monte o PST usando [IMAPISessi
   
 Para obter mais informações sobre como usar o **GetProps** para acessar as propriedades, consulte [Recuperando propriedades de MAPI](retrieving-mapi-properties.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa o método **IMAPIProp::GetProps** para obter todas as propriedades de um objeto passando a matriz retornada pelo método [IMAPIProp::GetPropList](imapiprop-getproplist.md) no parâmetro _lpPropTagArray_ ou nulo.  <br/> |
    
@@ -193,9 +193,9 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Recuperar as propriedades MAPI](retrieving-mapi-properties.md)
   
-[Usar macros para lidar com erros](using-macros-for-error-handling.md)
+[Usando Macros para tratamento de erros](using-macros-for-error-handling.md)
 

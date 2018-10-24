@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -66,7 +66,7 @@ Observe também que, enquanto um objeto offline pode suportar retornos de chamad
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
 

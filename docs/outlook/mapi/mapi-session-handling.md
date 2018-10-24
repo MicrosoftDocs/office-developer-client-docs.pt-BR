@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 8c82ff28dca4fc50c7801a533f7ad757b839cddf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -25,23 +25,23 @@ Antes de você poderá se comunicar com provedores de serviço e um sistema de m
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Iniciar sessão MAPI](starting-a-mapi-session.md)
+[Iniciando uma sessão MAPI](starting-a-mapi-session.md)
   
 > Descreve como iniciar uma sessão MAPI e inclui links para tópicos com informações mais detalhadas.
     
-[Finalizar uma sessão MAPI](ending-a-mapi-session.md)
+[Encerrar uma sessão MAPI](ending-a-mapi-session.md)
   
 > Descreve como encerrar uma sessão MAPI.
     
-[Acessar objetos usando a sessão](accessing-objects-by-using-the-session.md)
+[Acessando objetos usando a sessão](accessing-objects-by-using-the-session.md)
   
 > Descreve como usar um ponteiro de sessão para acessar objetos de sessão.
     
-[Recuperar identidade principal e do provedor](retrieving-primary-and-provider-identity.md)
+[Recuperando principal e o provedor de identidade](retrieving-primary-and-provider-identity.md)
   
 > Descreve as propriedades usadas para recuperar primário e a identidade do provedor.
     
-[Tabela de status e objetos de status](status-table-and-status-objects.md)
+[Tabela de status e objetos de Status](status-table-and-status-objects.md)
   
 > Descreve como acessar as informações da tabela de status.
     

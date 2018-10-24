@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 63c47e94-f603-aef9-afed-e3819bd79408
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a27f38e759862c7091205a6f9a8aa1cde90c38e3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -45,5 +45,5 @@ typedef enum {
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 

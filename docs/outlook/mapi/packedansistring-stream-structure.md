@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ A estrutura de fluxo de PackedAnsiString contém uma representação de ANSI de 
 
 
 
-[Campos e itens do Outlook](outlook-items-and-fields.md)
+[Campos e itens do outlook](outlook-items-and-fields.md)
   
 [Estruturas de fluxo](stream-structures.md)
   

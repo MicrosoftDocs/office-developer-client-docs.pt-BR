@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f67dbb4d883f2f66099f2e2b9bc06b6c35b98236
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para a estrutura **MAPIERROR** que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se não houver nenhuma informação de erro para retornar. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -69,7 +69,7 @@ O método **IMAPIProp::GetLastError** fornece informações sobre uma chamada de
   
 Todas as implementações de **GetLastError** fornecido pelo MAPI são implementações ANSI, exceto para a implementação de [IAddrBook](iaddrbookimapiprop.md) . O método **GetLastError** incluído **IAddrBook** oferece suporte a Unicode. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Os detalhes de um controle remoto de transporte do provedor de implementação deste método e Cite mensagens que esse método retorna o provedor de transporte, porque as condições de erro específicas que levam a vários valores de HRESULT será diferentes para transporte diferentes provedores.
   

@@ -1,5 +1,5 @@
 ---
-title: Tabelas e uso de memória
+title: Tabelas e o uso da memória
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563013"
 ---
-# <a name="tables-and-memory-usage"></a>Tabelas e uso de memória
+# <a name="tables-and-memory-usage"></a>Tabelas e o uso da memória
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

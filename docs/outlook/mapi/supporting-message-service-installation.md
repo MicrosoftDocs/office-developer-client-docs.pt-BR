@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,5 +44,5 @@ Coloque o programa de instalação em uma pasta pública designada. Isso é impo
 
 
 
-[Implementação do serviço de mensagens](message-service-implementation.md)
+[Implementação do serviço de mensagem](message-service-implementation.md)
 

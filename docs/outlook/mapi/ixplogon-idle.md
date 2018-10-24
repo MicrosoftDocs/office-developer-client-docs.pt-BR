@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f600db6-f6a6-44f9-aef7-c1309f61eb12
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 12aa8b79e38320d9767a6c333cb0197ea5669862
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Idle(
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

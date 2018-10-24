@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,5 +35,5 @@ Em geral, não existem procedimentos bem especificados para hermeticamente acopl
 
 
 
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

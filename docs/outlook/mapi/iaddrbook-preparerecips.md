@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 004498ac94aadaa075d87d4dd3c675c8cd5f4feb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_CACHE_ONLY
   
 > [in] Um ponteiro para uma estrutura [ADRLIST](adrlist.md) que contém a lista de destinatários. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -83,7 +83,7 @@ Para obter informações sobre PT_ERROR, consulte [Tipos de propriedade](propert
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

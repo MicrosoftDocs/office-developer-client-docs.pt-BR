@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f79e5eaa3155bbe3373f5ad9c5182a4a65c62648
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -62,7 +62,7 @@ _lpulFlags_
     
     > Uma função de retorno de chamada foi cancelada uma notificação síncrona.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -93,8 +93,8 @@ Para obter mais informações sobre o processo de notificação, consulte [Notif
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  
 - [NOTIFCALLBACK](notifcallback.md) 
-- [NOTIFICAÇÃO](notification.md)  
+- [NOTIFICATION](notification.md)  
 - [NOTIFKEY](notifkey.md)  
-- [Propriedade canônica PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
+- [Propriedade canônico de PidTagRecordKey](pidtagrecordkey-canonical-property.md)  
 - [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

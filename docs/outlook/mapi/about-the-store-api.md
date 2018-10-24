@@ -1,11 +1,11 @@
 ---
-title: Sobre a API de armazenamento
+title: Sobre a API de Armazenamento
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22579372"
 ---
-# <a name="about-the-store-api"></a>Sobre a API de armazenamento
+# <a name="about-the-store-api"></a>Sobre a API de Armazenamento
 
   
   

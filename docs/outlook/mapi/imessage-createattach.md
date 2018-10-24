@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,7 +58,7 @@ MAPI_DEFERRED_ERRORS
   
 > [out] Ponteiro para um ponteiro para o objeto de abrir anexo.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

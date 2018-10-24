@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -37,43 +37,43 @@ Tenha cuidado no seu suporte da administração do serviço de perfil e mensagem
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criar um perfil](creating-a-profile.md)
+[Criação de um perfil](creating-a-profile.md)
   
 > Descreve como criar um perfil.
     
-[Copiar um perfil](copying-a-profile.md)
+[Copiando um perfil](copying-a-profile.md)
   
 > Descreve como copiar um perfil.
     
-[Excluir um perfil](deleting-a-profile.md)
+[Exclusão de um perfil](deleting-a-profile.md)
   
 > Descreve como excluir um perfil.
     
-[Configurar um perfil padrão](setting-a-default-profile.md)
+[Definir um perfil padrão](setting-a-default-profile.md)
   
 > Descreve como definir um perfil padrão.
     
-[Localizar o nome de um perfil](finding-a-profile-name.md)
+[Localizando um nome de perfil](finding-a-profile-name.md)
   
 > Descreve como localizar um nome de um perfil.
     
-[Adicionar um serviço de mensagens](adding-a-message-service.md)
+[Adição de um serviço de mensagem](adding-a-message-service.md)
   
 > Descreve como adicionar um serviço de mensagem.
     
-[Configurar um serviço de mensagens](configuring-a-message-service.md)
+[Configurando um serviço de mensagem](configuring-a-message-service.md)
   
 > Descreve como configurar um serviço de mensagem.
     
-[Copiar um serviço de mensagens](copying-a-message-service.md)
+[Copiar um serviço de mensagem](copying-a-message-service.md)
   
 > Descreve como copiar um serviço de mensagem para um perfil.
     
-[Excluir um serviço de mensagens](deleting-a-message-service.md)
+[Excluindo um serviço de mensagem](deleting-a-message-service.md)
   
 > Descreve como excluir um serviço de mensagem.
     
-[Adicionar ou excluir provedores em um serviço de mensagens](adding-or-deleting-providers-in-a-message-service.md)
+[Adicionando ou excluindo provedores em um serviço de mensagem](adding-or-deleting-providers-in-a-message-service.md)
   
 > Descreve como adicionar ou excluir provedores em um serviço de mensagem.
     

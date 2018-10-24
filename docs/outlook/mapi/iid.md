@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT

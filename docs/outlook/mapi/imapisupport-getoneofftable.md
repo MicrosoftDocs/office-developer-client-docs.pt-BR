@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para a tabela único.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -84,7 +84,7 @@ Se você estiver registrado para receber notificações de alterações para est
   
 [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
   
-[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

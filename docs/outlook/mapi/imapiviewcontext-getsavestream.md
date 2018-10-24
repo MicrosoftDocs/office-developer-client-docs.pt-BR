@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 47ea122fce7969b326dbd48f875696b91de464f5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -61,7 +61,7 @@ SAVE_FORMAT_TEXT
   
 > [out] Ponteiro para um ponteiro para o fluxo que conterá a mensagem salva.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

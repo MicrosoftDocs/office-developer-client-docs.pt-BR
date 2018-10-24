@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
+description: 'Última modificação: 07 de dezembro de 2015'
 ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT

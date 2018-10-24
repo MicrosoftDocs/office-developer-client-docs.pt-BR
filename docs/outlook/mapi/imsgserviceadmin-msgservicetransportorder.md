@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT MsgServiceTransportOrder(
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

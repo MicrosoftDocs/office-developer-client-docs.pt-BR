@@ -1,5 +1,5 @@
 ---
-title: Exemplos de código de restrição
+title: Exemplo de código de restrição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22570258"
 ---
-# <a name="sample-restriction-code"></a>Exemplos de código de restrição
+# <a name="sample-restriction-code"></a>Exemplo de código de restrição
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

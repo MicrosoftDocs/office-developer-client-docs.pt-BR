@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 75771670f58f4cd65e15a02d08e6f78ab9d71755
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -54,7 +54,7 @@ ULONG cMethods
   
 > [in] A contagem de métodos em vtable do objeto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

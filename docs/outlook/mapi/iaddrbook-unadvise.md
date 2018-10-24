@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] Um número de conexão que representa o registro a ser cancelada. O parâmetro _ulConnection_ deve conter um valor retornado por uma chamada anterior para o método [IAddrBook::Advise](iaddrbook-advise.md) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

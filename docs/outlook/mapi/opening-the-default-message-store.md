@@ -1,5 +1,5 @@
 ---
-title: Abrindo o armazenamento de mensagens padrão
+title: Abrir um repositório de mensagens padrão
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0366e889f1c63e5fe40760ca80cec701cd6b3713
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22573534"
 ---
-# <a name="opening-the-default-message-store"></a>Abrindo o armazenamento de mensagens padrão
+# <a name="opening-the-default-message-store"></a>Abrir um repositório de mensagens padrão
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

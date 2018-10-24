@@ -1,5 +1,5 @@
 ---
-title: Gerando e uso de identificadores de entrada na mensagem de provedores de armazenamento
+title: Gerar e usar identificadores de entradas em provedores do repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 10634305130b0f465482cce025018d4929350513
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22565449"
 ---
-# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Gerando e uso de identificadores de entrada na mensagem de provedores de armazenamento
+# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Gerar e usar identificadores de entradas em provedores do repositório de mensagens
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -27,5 +27,5 @@ Da mesma forma, os provedores de armazenamento de mensagem devem tentar preserva
   
 ## <a name="see-also"></a>Confira também
 
-- [Recursos do repositório de mensagens](message-store-features.md)
+- [Recursos de armazenamento de mensagens](message-store-features.md)
 

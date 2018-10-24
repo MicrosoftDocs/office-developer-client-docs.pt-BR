@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -61,6 +61,6 @@ _skey_
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 - [UPREAD](upread.md)
 

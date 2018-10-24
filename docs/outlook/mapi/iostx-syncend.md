@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fd5b2ed23eba30cbe861a20c4fd100cb8ea1aeb0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -54,5 +54,5 @@ O cliente deve chamar **IOSTX::SyncEnd** para cada chamada ao [IOSTX::SyncBeg](i
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

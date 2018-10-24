@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT COfflineObj::Unadvise(
   
 > [in] Um token de advise que identifica o registro de retorno de chamada que deve ser cancelado. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -61,5 +61,5 @@ Remove o registro para o retorno de chamada que estava associado com *ulAdviseTo
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

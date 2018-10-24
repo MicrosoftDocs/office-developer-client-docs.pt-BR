@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
+[Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
   
 [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 

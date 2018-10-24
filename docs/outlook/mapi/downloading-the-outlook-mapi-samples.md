@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6b41d9cbd6ec74167dce74e97bb0923817dc6f84
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -41,7 +41,7 @@ As amostras de MAPI do Microsoft Outlook incluem um fornecedor de catálogo de e
 
 [Exemplo de provedor de catálogo de endereços](address-book-provider-sample.md)
   
-[Exemplo de provedor de repositório de mensagens](message-store-provider-sample.md)
+[Exemplo de provedor de armazenamento de mensagens](message-store-provider-sample.md)
   
 [Exemplo de provedor de transporte](transport-provider-sample.md)
 

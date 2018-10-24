@@ -46,7 +46,7 @@ As entradas em ordem alfabética a seguir descrevem as estruturas MAPI. Para obt
 |[MAPIERROR](mapierror.md) <br/> |[MAPIINIT_0](mapiinit_0.md) <br/> |
 |[MAPINAMEID](mapinameid.md) <br/> |[MAPIUID](mapiuid.md) <br/> |
 |[MTSID](mtsid.md) <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
-|[NOTIFICAÇÃO](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
+|[NOTIFICATION](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
 |[OBJECT_NOTIFICATION](object_notification.md) <br/> |[ROWENTRY](rowentry.md) <br/> |
 |[ROWLIST](rowlist.md) <br/> |[SAndRestriction](sandrestriction.md) <br/> |
 |[SAppTimeArray](sapptimearray.md) <br/> |[SBinary](sbinary.md) <br/> |

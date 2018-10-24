@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e22244a2-ac5f-910a-501f-4483ea0667c2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5a0632ffd892c08fdf19de2c9b34607c27534f19
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,5 +58,5 @@ HRESULT InitSync(
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

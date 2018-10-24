@@ -1,5 +1,5 @@
 ---
-title: Formulários e aplicativos de cliente MAPI
+title: Formulários e aplicativos cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1357482b372e83be4aab1f77037908cafc0b3f05
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22569208"
 ---
-# <a name="forms-and-mapi-client-applications"></a>Formulários e aplicativos de cliente MAPI
+# <a name="forms-and-mapi-client-applications"></a>Formulários e aplicativos cliente MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

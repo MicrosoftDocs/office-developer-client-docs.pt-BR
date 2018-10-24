@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -63,7 +63,7 @@ MAPI_DIALOG
   
 > Exibe uma caixa de diálogo que solicita ao usuário a senha correta do perfil para copiar. Se esse sinalizador não estiver definida, nenhuma caixa de diálogo é exibida.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

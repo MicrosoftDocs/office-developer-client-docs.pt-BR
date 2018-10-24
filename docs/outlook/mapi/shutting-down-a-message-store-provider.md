@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 8e4712572eaff465bb23b55eccc3670f637c0f9c
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -45,5 +45,5 @@ Alguns clientes podem omitir a chamada para **IMsgStore::StoreLogoff**, iniciand
 
 
 
-[Desligar a um provedor de serviços](shutting-down-a-service-provider.md)
+[Encerrando um provedor de serviços](shutting-down-a-service-provider.md)
 

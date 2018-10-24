@@ -1,11 +1,11 @@
 ---
-title: Determinar se o Outlook download somente do cabeçalho de uma mensagem
+title: Determinar se o Outlook baixou somente o cabeçalho de uma mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: 1240faddf2ebc8b645b6c6bde6aba243e9019507
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563559"
 ---
-# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Determinar se o Outlook download somente do cabeçalho de uma mensagem
+# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Determinar se o Outlook baixou somente o cabeçalho de uma mensagem
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

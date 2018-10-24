@@ -1,11 +1,11 @@
 ---
-title: Acessar uma mensagem em um repositório IMAP sem fazer o download de toda a mensagem
+title: Acessar uma mensagem em um repositório IMAP sem baixar a mensagem completa
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 194131148cc36dfff791b4cfae01862e8bbef5cb
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25398441"
 ---
-# <a name="access-a-message-on-an-imap-store-without-downloading-the-entire-message"></a>Acessar uma mensagem em um repositório IMAP sem fazer o download de toda a mensagem
+# <a name="access-a-message-on-an-imap-store-without-downloading-the-entire-message"></a>Acessar uma mensagem em um repositório IMAP sem baixar a mensagem completa
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

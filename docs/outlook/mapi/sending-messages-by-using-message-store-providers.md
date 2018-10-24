@@ -1,5 +1,5 @@
 ---
-title: Provedores de armazenamento de envio de mensagens por meio de mensagem
+title: Enviar mensagens usando provedores do repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22569796"
 ---
-# <a name="sending-messages-by-using-message-store-providers"></a>Provedores de armazenamento de envio de mensagens por meio de mensagem
+# <a name="sending-messages-by-using-message-store-providers"></a>Enviar mensagens usando provedores do repositório de mensagens
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -119,5 +119,5 @@ Não se houve nenhum pré-processamento ou houve pré-processamento e o spooler 
     
 ## <a name="see-also"></a>Confira também
 
-- [Recursos do repositório de mensagens](message-store-features.md)
+- [Recursos de armazenamento de mensagens](message-store-features.md)
 

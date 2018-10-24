@@ -1,5 +1,5 @@
 ---
-title: Função do provedor de transporte no subsistema de MAPI
+title: Função do provedor de transporte no subsistema MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 263370590a35f19482cc5ad7e56c65f6df0087fa
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22581297"
 ---
-# <a name="transport-provider-role-in-the-mapi-subsystem"></a>Função do provedor de transporte no subsistema de MAPI
+# <a name="transport-provider-role-in-the-mapi-subsystem"></a>Função do provedor de transporte no subsistema MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

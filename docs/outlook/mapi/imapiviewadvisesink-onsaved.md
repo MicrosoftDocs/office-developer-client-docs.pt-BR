@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT OnSaved( void );
 
 Nenhum
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

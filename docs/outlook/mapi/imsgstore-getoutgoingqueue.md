@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fe722e8723fdc3868cbbc3188f03e13ef3f466f3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT GetOutgoingQueue(
   
 > [out] Um ponteiro para um ponteiro para a tabela de fila de saída.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -54,7 +54,7 @@ S_OK
 
 O método **IMsgStore::GetOutgoingQueue** fornece o MAPI spooler com acesso à tabela que mostra a fila do armazenamento de mensagens de mensagens de saída. Normalmente, as mensagens são colocadas na tabela de fila de saída depois seu método [IMessage::SubmitMessage](imessage-submitmessage.md) é chamado. No entanto, como a ordem de envio afeta a ordem de pré-processamento e o envio para o provedor de transporte, algumas mensagens que foram marcadas para enviar talvez não apareçam na tabela de fila de saída imediatamente. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Para obter uma lista das propriedades que devem ser incluídos como colunas em sua tabela de fila de saída, consulte as [Tabelas de fila de saída](outgoing-queue-tables.md). 
   

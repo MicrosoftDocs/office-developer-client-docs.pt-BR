@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 41066d4418760a676fbc02241bfc12d83275da9d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,7 +58,7 @@ MAPI_UNICODE
   
 > O nome do perfil e senhas estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, essas cadeias de caracteres estão no formato ANSI.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

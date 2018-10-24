@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > As senhas são no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as senhas são no formato ANSI.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -73,7 +73,7 @@ Nem todos os objetos de status suportam ao método **IMAPIStatus:: ChangePasswor
   
  **ChangePassword** modifica uma senha programaticamente, sem interação do usuário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Provedores de transporte remoto implementam **ChangePassword** conforme especificado aqui. Não há nenhuma considerações especiais. 
   
@@ -81,7 +81,7 @@ Provedores de transporte remoto implementam **ChangePassword** conforme especifi
 
 
 
-[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

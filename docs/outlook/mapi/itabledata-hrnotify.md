@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 20831901567f177ada70a6cea94db0537786db94
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT HrNotify(
   
 > [in] Um ponteiro para uma estrutura **SPropValue** que descreve os valores das colunas na linha destino. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
