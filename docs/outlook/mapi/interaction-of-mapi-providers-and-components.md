@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2c0e010b-0432-4ef7-a243-3a4b46f0a19d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c81da7673d6c0c59de6992bc46362069daf71b42
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,32 +15,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22592623"
 ---
-# <a name="interaction-of-mapi-providers-and-components"></a><span data-ttu-id="9fdd3-103">Interação de provedores e componentes MAPI</span><span class="sxs-lookup"><span data-stu-id="9fdd3-103">Interaction of MAPI Providers and Components</span></span>
+# <a name="interaction-of-mapi-providers-and-components"></a><span data-ttu-id="a215a-103">Interação de provedores e componentes MAPI</span><span class="sxs-lookup"><span data-stu-id="a215a-103">Interaction of MAPI Providers and Components</span></span>
 
   
   
-<span data-ttu-id="9fdd3-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9fdd3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a215a-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a215a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9fdd3-105">Provedores de serviço MAPI de qualquer tipo devem seguir determinadas diretrizes para trabalhar com outros componentes MAPI.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-105">MAPI service providers of any kind must follow certain guidelines to work with other MAPI components.</span></span> <span data-ttu-id="9fdd3-106">Cada provedor de serviços deve:</span><span class="sxs-lookup"><span data-stu-id="9fdd3-106">Each service provider must:</span></span>
+<span data-ttu-id="a215a-105">Provedores de serviço MAPI de qualquer tipo devem seguir determinadas diretrizes para trabalhar com outros componentes MAPI.</span><span class="sxs-lookup"><span data-stu-id="a215a-105">MAPI service providers of any kind must follow certain guidelines to work with other MAPI components.</span></span> <span data-ttu-id="a215a-106">Cada provedor de serviços deve:</span><span class="sxs-lookup"><span data-stu-id="a215a-106">Each service provider must:</span></span>
   
-- <span data-ttu-id="9fdd3-107">Use os objetos de logon e o provedor adequados para inicialização.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-107">Use the proper provider and logon objects for initialization.</span></span>
+- <span data-ttu-id="a215a-107">Use os objetos de logon e o provedor adequados para inicialização.</span><span class="sxs-lookup"><span data-stu-id="a215a-107">Use the proper provider and logon objects for initialization.</span></span>
     
-- <span data-ttu-id="9fdd3-108">Retorne uma tabela de expedição de pontos de entrada do provedor para o sistema de mensagens na inicialização.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-108">Return a dispatch table of provider entry points to the messaging system upon initialization.</span></span>
+- <span data-ttu-id="a215a-108">Retorne uma tabela de expedição de pontos de entrada do provedor para o sistema de mensagens na inicialização.</span><span class="sxs-lookup"><span data-stu-id="a215a-108">Return a dispatch table of provider entry points to the messaging system upon initialization.</span></span>
     
-- <span data-ttu-id="9fdd3-109">Registrar uma linha de tabela de status MAPI para cada recurso pertencente ao provedor e chamar o método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) em momentos apropriados.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-109">Register a MAPI status table row for each resource owned by the provider and call the [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) method at appropriate times.</span></span> 
+- <span data-ttu-id="a215a-109">Registrar uma linha de tabela de status MAPI para cada recurso pertencente ao provedor e chamar o método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) em momentos apropriados.</span><span class="sxs-lookup"><span data-stu-id="a215a-109">Register a MAPI status table row for each resource owned by the provider and call the [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) method at appropriate times.</span></span> 
     
-- <span data-ttu-id="9fdd3-110">Use o método [IMAPISupport::NewUID](imapisupport-newuid.md) para obter identificadores exclusivos válidos (UIDs).</span><span class="sxs-lookup"><span data-stu-id="9fdd3-110">Use the [IMAPISupport::NewUID](imapisupport-newuid.md) method to obtain valid unique identifiers (UIDs).</span></span> 
+- <span data-ttu-id="a215a-110">Use o método [IMAPISupport::NewUID](imapisupport-newuid.md) para obter identificadores exclusivos válidos (UIDs).</span><span class="sxs-lookup"><span data-stu-id="a215a-110">Use the [IMAPISupport::NewUID](imapisupport-newuid.md) method to obtain valid unique identifiers (UIDs).</span></span> 
     
-- <span data-ttu-id="9fdd3-111">Suporte para as interfaces MAPI comuns em objetos que ela retorna.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-111">Support the common MAPI interfaces on objects it returns.</span></span>
+- <span data-ttu-id="a215a-111">Suporte para as interfaces MAPI comuns em objetos que ela retorna.</span><span class="sxs-lookup"><span data-stu-id="a215a-111">Support the common MAPI interfaces on objects it returns.</span></span>
     
-- <span data-ttu-id="9fdd3-112">Use as funções de alocação de memória MAPI para alocar memória retornada para aplicativos cliente e para liberar memória alocada por outras partes do subsistema de MAPI.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-112">Use the MAPI memory allocation functions to allocate memory returned to client applications and to release memory allocated by other parts of the MAPI subsystem.</span></span>
+- <span data-ttu-id="a215a-112">Use as funções de alocação de memória MAPI para alocar memória retornada para aplicativos cliente e para liberar memória alocada por outras partes do subsistema de MAPI.</span><span class="sxs-lookup"><span data-stu-id="a215a-112">Use the MAPI memory allocation functions to allocate memory returned to client applications and to release memory allocated by other parts of the MAPI subsystem.</span></span>
     
-- <span data-ttu-id="9fdd3-113">Manter uma seção de perfil, se necessário, para armazenar credenciais para o sistema de mensagens subjacente.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-113">Maintain a profile section, if necessary, to store credentials to the underlying messaging system.</span></span>
+- <span data-ttu-id="a215a-113">Manter uma seção de perfil, se necessário, para armazenar credenciais para o sistema de mensagens subjacente.</span><span class="sxs-lookup"><span data-stu-id="a215a-113">Maintain a profile section, if necessary, to store credentials to the underlying messaging system.</span></span>
     
-- <span data-ttu-id="9fdd3-114">Use o método [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar qualquer mensagem de pré-processamento funções.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-114">Use the [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) method to register any message preprocessing functions.</span></span> 
+- <span data-ttu-id="a215a-114">Use o método [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar qualquer mensagem de pré-processamento funções.</span><span class="sxs-lookup"><span data-stu-id="a215a-114">Use the [IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) method to register any message preprocessing functions.</span></span> 
     
-- <span data-ttu-id="9fdd3-115">Inclua os arquivos de cabeçalho adequadas (incluindo mapispi.h) que definem as constantes comuns, estruturas, interfaces e valores de retorno.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-115">Include the proper header files (including mapispi.h) that define common constants, structures, interfaces, and return values.</span></span>
+- <span data-ttu-id="a215a-115">Inclua os arquivos de cabeçalho adequadas (incluindo mapispi.h) que definem as constantes comuns, estruturas, interfaces e valores de retorno.</span><span class="sxs-lookup"><span data-stu-id="a215a-115">Include the proper header files (including mapispi.h) that define common constants, structures, interfaces, and return values.</span></span>
     
-- <span data-ttu-id="9fdd3-116">Siga as convenções de formato de endereço para tipos de endereço comuns.</span><span class="sxs-lookup"><span data-stu-id="9fdd3-116">Follow address format conventions for common address types.</span></span>
+- <span data-ttu-id="a215a-116">Siga as convenções de formato de endereço para tipos de endereço comuns.</span><span class="sxs-lookup"><span data-stu-id="a215a-116">Follow address format conventions for common address types.</span></span>
     
 

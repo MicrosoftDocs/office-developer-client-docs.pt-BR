@@ -19,62 +19,62 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25384952"
 ---
-# <a name="pidlidtaskresetreminder-canonical-property"></a><span data-ttu-id="0bbfd-103">Propriedade canônica PidLidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="0bbfd-103">PidLidTaskResetReminder Canonical Property</span></span>
+# <a name="pidlidtaskresetreminder-canonical-property"></a><span data-ttu-id="02cb0-103">Propriedade canônica PidLidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="02cb0-103">PidLidTaskResetReminder Canonical Property</span></span>
 
   
   
-<span data-ttu-id="0bbfd-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0bbfd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="02cb0-104">**Aplica-se a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02cb0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0bbfd-105">Indica se a instâncias futuras do tarefas recorrentes precisam lembretes, embora **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) é FALSE.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-105">Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.</span></span>
+<span data-ttu-id="02cb0-105">Indica se a instâncias futuras do tarefas recorrentes precisam lembretes, embora **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) é FALSE.</span><span class="sxs-lookup"><span data-stu-id="02cb0-105">Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0bbfd-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="0bbfd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0bbfd-107">dispidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="0bbfd-107">dispidTaskResetReminder</span></span>  <br/> |
-|<span data-ttu-id="0bbfd-108">Propriedade definida:</span><span class="sxs-lookup"><span data-stu-id="0bbfd-108">Property set:</span></span>  <br/> |<span data-ttu-id="0bbfd-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="0bbfd-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="0bbfd-110">ID de longo (LID):</span><span class="sxs-lookup"><span data-stu-id="0bbfd-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="0bbfd-111">0x00008107</span><span class="sxs-lookup"><span data-stu-id="0bbfd-111">0x00008107</span></span>  <br/> |
-|<span data-ttu-id="0bbfd-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="0bbfd-112">Data type:</span></span>  <br/> |<span data-ttu-id="0bbfd-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="0bbfd-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="0bbfd-114">Área:</span><span class="sxs-lookup"><span data-stu-id="0bbfd-114">Area:</span></span>  <br/> |<span data-ttu-id="0bbfd-115">Task</span><span class="sxs-lookup"><span data-stu-id="0bbfd-115">Task</span></span>  <br/> |
+|<span data-ttu-id="02cb0-106">Propriedades associadas:</span><span class="sxs-lookup"><span data-stu-id="02cb0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="02cb0-107">dispidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="02cb0-107">dispidTaskResetReminder</span></span>  <br/> |
+|<span data-ttu-id="02cb0-108">Conjunto de propriedades:</span><span class="sxs-lookup"><span data-stu-id="02cb0-108">Property set:</span></span>  <br/> |<span data-ttu-id="02cb0-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="02cb0-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="02cb0-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="02cb0-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="02cb0-111">0x00008107</span><span class="sxs-lookup"><span data-stu-id="02cb0-111">0x00008107</span></span>  <br/> |
+|<span data-ttu-id="02cb0-112">Tipo de dados:</span><span class="sxs-lookup"><span data-stu-id="02cb0-112">Data type:</span></span>  <br/> |<span data-ttu-id="02cb0-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="02cb0-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="02cb0-114">Área:</span><span class="sxs-lookup"><span data-stu-id="02cb0-114">Area:</span></span>  <br/> |<span data-ttu-id="02cb0-115">Task</span><span class="sxs-lookup"><span data-stu-id="02cb0-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0bbfd-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="0bbfd-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="02cb0-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="02cb0-116">Remarks</span></span>
 
-<span data-ttu-id="0bbfd-117">Este valor é definido como TRUE quando o lembrete da tarefa é descartado pelo e definida como FALSE caso contrário.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-117">This value is set to TRUE when the task's reminder is dismissed, and set to FALSE otherwise.</span></span> <span data-ttu-id="0bbfd-118">Se for deixado não definidas, um padrão de falso é assumido.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-118">If left unset, a default of FALSE is assumed.</span></span>
+<span data-ttu-id="02cb0-117">Este valor é definido como TRUE quando o lembrete da tarefa é descartado pelo e definida como FALSE caso contrário.</span><span class="sxs-lookup"><span data-stu-id="02cb0-117">This value is set to TRUE when the task's reminder is dismissed, and set to FALSE otherwise.</span></span> <span data-ttu-id="02cb0-118">Se for deixado não definidas, um padrão de falso é assumido.</span><span class="sxs-lookup"><span data-stu-id="02cb0-118">If left unset, a default of FALSE is assumed.</span></span>
   
-<span data-ttu-id="0bbfd-119">Conforme especificado na [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), a propriedade **dispidReminderSet** indica se um lembrete está definido na tarefa.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-119">As specified in [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task.</span></span> <span data-ttu-id="0bbfd-120">No entanto, essa propriedade somente indica a presença de um lembrete em uma única tarefa.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-120">However, this property only indicates the presence of a reminder on a single task.</span></span> <span data-ttu-id="0bbfd-121">Ele não pode ser usado sozinho para determinar se uma instância futura de uma tarefa recorrente precisa de um lembrete.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-121">It cannot be used alone to determine whether a future instance of a recurring task needs a reminder.</span></span> 
+<span data-ttu-id="02cb0-119">Conforme especificado na [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), a propriedade **dispidReminderSet** indica se um lembrete está definido na tarefa.</span><span class="sxs-lookup"><span data-stu-id="02cb0-119">As specified in [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task.</span></span> <span data-ttu-id="02cb0-120">No entanto, essa propriedade somente indica a presença de um lembrete em uma única tarefa.</span><span class="sxs-lookup"><span data-stu-id="02cb0-120">However, this property only indicates the presence of a reminder on a single task.</span></span> <span data-ttu-id="02cb0-121">Ele não pode ser usado sozinho para determinar se uma instância futura de uma tarefa recorrente precisa de um lembrete.</span><span class="sxs-lookup"><span data-stu-id="02cb0-121">It cannot be used alone to determine whether a future instance of a recurring task needs a reminder.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="0bbfd-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="0bbfd-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="02cb0-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="02cb0-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="0bbfd-123">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="0bbfd-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="02cb0-123">Especificações de protocolo</span><span class="sxs-lookup"><span data-stu-id="02cb0-123">Protocol specifications</span></span>
 
-<span data-ttu-id="0bbfd-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0bbfd-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="02cb0-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="02cb0-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0bbfd-125">Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="02cb0-125">Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.</span><span class="sxs-lookup"><span data-stu-id="02cb0-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="0bbfd-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0bbfd-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="02cb0-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="02cb0-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0bbfd-127">Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-127">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="02cb0-127">Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.</span><span class="sxs-lookup"><span data-stu-id="02cb0-127">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-<span data-ttu-id="0bbfd-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0bbfd-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="02cb0-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="02cb0-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0bbfd-129">Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-129">Specifies the properties and the interaction model for email and other object reminders.</span></span>
+> <span data-ttu-id="02cb0-129">Especifica as propriedades e o modelo de interação para email e lembretes de outro objeto.</span><span class="sxs-lookup"><span data-stu-id="02cb0-129">Specifies the properties and the interaction model for email and other object reminders.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="0bbfd-130">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="0bbfd-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="02cb0-130">Arquivos de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="02cb0-130">Header files</span></span>
 
-<span data-ttu-id="0bbfd-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0bbfd-131">Mapidefs.h</span></span>
+<span data-ttu-id="02cb0-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="02cb0-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="0bbfd-132">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="0bbfd-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="02cb0-132">Fornece definições de tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="02cb0-132">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0bbfd-133">Confira também</span><span class="sxs-lookup"><span data-stu-id="0bbfd-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02cb0-133">Confira também</span><span class="sxs-lookup"><span data-stu-id="02cb0-133">See also</span></span>
 
 
 
-[<span data-ttu-id="0bbfd-134">Propriedade can�nico de PidLidReminderSet</span><span class="sxs-lookup"><span data-stu-id="0bbfd-134">PidLidReminderSet Canonical Property</span></span>](pidlidreminderset-canonical-property.md)
+[<span data-ttu-id="02cb0-134">Propriedade canônica PidLidReminderSet</span><span class="sxs-lookup"><span data-stu-id="02cb0-134">PidLidReminderSet Canonical Property</span></span>](pidlidreminderset-canonical-property.md)
 
 
-[<span data-ttu-id="0bbfd-135">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="0bbfd-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="02cb0-135">Propriedades MAPI</span><span class="sxs-lookup"><span data-stu-id="02cb0-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="0bbfd-136">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="0bbfd-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="02cb0-136">Propriedades MAPI canônicas</span><span class="sxs-lookup"><span data-stu-id="02cb0-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="0bbfd-137">Mapear nomes de propriedades canônicas para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="0bbfd-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="02cb0-137">Mapear nomes de propriedade canônico para nomes MAPI</span><span class="sxs-lookup"><span data-stu-id="02cb0-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="0bbfd-138">Mapear nomes MAPI para nomes de propriedades canônicas</span><span class="sxs-lookup"><span data-stu-id="0bbfd-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="02cb0-138">Mapear nomes de MAPI para nomes de propriedade canônico</span><span class="sxs-lookup"><span data-stu-id="02cb0-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
