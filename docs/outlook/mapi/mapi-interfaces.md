@@ -29,8 +29,8 @@ A documentação para cada interface consiste em uma seção introdutória que i
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |O arquivo de cabeçalho onde a interface é definida e que deve ser incluído quando você compila seu código-fonte.  <br/> |
 |Expostos pelo:  <br/> |O objeto que expõe a interface.  <br/> |
-|Implementada por:  <br/> |Uma lista dos componentes que oferecem uma implementação da interface.  <br/> |
-|Chamado pelo:  <br/> |Uma lista dos componentes que geralmente chame os métodos da interface.  <br/> |
+|Implementado por:  <br/> |Uma lista dos componentes que oferecem uma implementação da interface.  <br/> |
+|Chamado por:  <br/> |Uma lista dos componentes que geralmente chame os métodos da interface.  <br/> |
 |Identificador de interface:  <br/> |O identificador de interface GUID.  <br/> |
 |Tipo de ponteiro:  <br/> |O tipo de ponteiro para o objeto que expõe a interface.  <br/> |
 |Modelo de transação:  <br/> |Para interfaces derivado do [IMAPIProp](imapipropiunknown.md). Se nontransacted, as alterações entrem em vigor imediatamente; Se transacionadas, as alterações não entrarão em vigor até que [IMAPIProp::SaveChanges](imapiprop-savechanges.md) seja chamado.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Formato de arquivo do Mapisvc
+title: Formato de arquivo de MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22567171"
 ---
-# <a name="file-format-of-mapisvcinf"></a>Formato de arquivo do Mapisvc
+# <a name="file-format-of-mapisvcinf"></a>Formato de arquivo de MapiSvc.inf
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

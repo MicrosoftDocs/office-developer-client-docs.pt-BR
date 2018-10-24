@@ -1,5 +1,5 @@
 ---
-title: Identificadores de entrada de curto prazo
+title: Identificadores de entradas de curto prazo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 03352b55589138d406ad3e4ee0756fc44bca8c78
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22580611"
 ---
-# <a name="short-term-entry-identifiers"></a>Identificadores de entrada de curto prazo
+# <a name="short-term-entry-identifiers"></a>Identificadores de entradas de curto prazo
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

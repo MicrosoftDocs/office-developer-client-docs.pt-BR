@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
+description: 'Última modificação: 07 de dezembro de 2015'
 ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -47,11 +47,11 @@ Conteúdo foi adicionado para os seguintes recursos:
     
 - **Propriedades**— **PR_CONVERSATION_KEY** denominado tópico property ([Propriedade de PidTagConversationKey canônico](pidtagconversationkey-canonical-property.md)) foi adicionado e se relaciona com **IPM. MessageManager** mensagens no Outlook MAPI. Os seguintes tópicos relativos a ela e a documentação do stream Transport-Neutral Encapsulation Format (TNEF) foram revisados: 
     
-  - [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+  - [Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [Mapeamento dos atributos de TNEF para propriedades MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [Mapeamento dos atributos TNEF para propriedades MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID e attParentID](attconversationid-and-attparentid.md)
     

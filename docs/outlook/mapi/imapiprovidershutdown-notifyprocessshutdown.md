@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 251359a98f89c88e707e4f705bd94b1f30b32cbd
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Indica o provedor MAPI que um cliente MAPI irá fazer um rápido desligamento, p
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ struct UPTBL
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -51,7 +51,7 @@ _ulFlags_
     
 _pstmReserved_
   
-> [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+> [uto] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _pszName_
   
@@ -59,11 +59,11 @@ _pszName_
     
 _feid_
   
-> [out] Identificação de entrada da pasta.
+> [out] ID da entrada da pasta.
     
 _uintReserved_
   
-> [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+> [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _rgte_
   
@@ -87,12 +87,12 @@ _pupmovHead_
     
 _Preservadas_
   
-> [out] Este membro é reservado para uso interno do Outlook e não é suportado.
+> [out] Esse membro é reservado para uso interno do Outlook e não tem suporte.
     
 ## <a name="see-also"></a>Confira também
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 - [UPTBLE](uptble.md)
 

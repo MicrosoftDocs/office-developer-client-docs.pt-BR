@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b16730681b5414f28ae45be7195b4fa551bf0e82
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -43,7 +43,7 @@ MDB_TEMPORARY
   
 > O armazenamento de mensagens é temporário e não deve ser adicionado à tabela de repositório de mensagem. Quando MDB_TEMPORARY estiver definido, o **ModifyProfile** Retorna S_OK imediatamente. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

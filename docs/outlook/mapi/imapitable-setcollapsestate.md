@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 51c239897e5e225a0765f78404526e2836371f30
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -54,7 +54,7 @@ BOOKMARK FAR * lpbkLocation
   
 > [out] Ponteiro para um indicador que identifica a linha da tabela na qual o estado recolhido ou expandido deve ser recriado. Este indicador e a chave de instância passada no parâmetro _lpbInstanceKey_ na chamada a [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identificam a mesma linha. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -80,7 +80,7 @@ O método **IMAPITable::SetCollapseState** restabelece o estado expandido ou rec
     
 Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md). 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você é responsável por verificar que a ordem de classificação e restrições forem exatamente iguais como estavam no momento da chamada **GetCollapseState** . Se uma alteração foi feita, **SetCollapseState** não deve ser chamado porque os resultados podem ser imprevisíveis. Isso pode acontecer se, por exemplo, um cliente chama **GetCollapseState** e **SortTable** para alterar a chave de classificação antes de chamar **SetCollapseState**. Para estar seguro, verifique se os dados salvos ainda são válidos antes de prosseguir com a restauração. 
   

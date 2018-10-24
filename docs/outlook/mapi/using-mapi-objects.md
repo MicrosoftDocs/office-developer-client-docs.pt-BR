@@ -1,5 +1,5 @@
 ---
-title: Como usar objetos MAPI
+title: Usar objetos MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d732efe5276f4756f43b4aca46e1c33d6f103844
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25392841"
 ---
-# <a name="using-mapi-objects"></a>Como usar objetos MAPI
+# <a name="using-mapi-objects"></a>Usar objetos MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

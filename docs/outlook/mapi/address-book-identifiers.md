@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -25,7 +25,7 @@ Todos os provedores de catálogo de endereços atribuem identificadores de entra
   
 O catálogo de endereços usa três outros tipos de identificadores para representar objetos:
   
-- Identificadores de entrada únicos
+- Identificadores de entradas únicas
     
 - Identificadores de entrada do modelo únicos
     

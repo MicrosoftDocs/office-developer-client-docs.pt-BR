@@ -44,7 +44,7 @@ HRESULT DeleteProps(
   
 > [além, out] Na entrada, um ponteiro para um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) ; Caso contrário, NULL, que indica que não há nenhuma necessidade de informações de erro. Se _lppProblems_ for um ponteiro válido na entrada, **DeleteProps** retorna informações detalhadas sobre erros ao excluir uma ou mais propriedades. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -58,7 +58,7 @@ MAPI_E_NO_ACCESS
 
 O método **IMAPIProp::DeleteProps** remove uma ou mais propriedades do objeto atual. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você não precisará permitir propriedades a ser excluído de todos os objetos. Se o objeto não é modificável, retorne MAPI_E_NO_ACCESS do método **DeleteProps** . 
   
@@ -72,11 +72,11 @@ A estrutura apontada pela _lppProblems_ só será válida se **DeleteProps** Ret
   
 Libere a estrutura de **SPropProblemArray** retornada ao chamar a função [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI usa o método **IMAPIProp::DeleteProps** para excluir uma propriedade de um objeto.  <br/> |
    
@@ -99,5 +99,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

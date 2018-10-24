@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79283301-e544-4a4d-96c2-3f81dc5b3731
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4687b07c89d866acbe3b6a8f4cde3262657a06b5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -45,5 +45,5 @@ public:
 
 
 
-[Gravar um código de servidor de formulário](writing-form-server-code.md)
+[Escrevendo códigos de servidor do formulário](writing-form-server-code.md)
 

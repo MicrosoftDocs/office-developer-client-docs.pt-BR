@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT HrQueryRow(
   
 > [além, out] Na entrada, um ponteiro válido ou NULL, que indica que nenhuma informação precisa ser retornado. Na saída, um ponteiro válido que aponta para o número da linha da linha, um número sequencial que identifica a posição da linha na tabela.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

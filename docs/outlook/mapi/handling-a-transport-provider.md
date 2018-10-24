@@ -1,5 +1,5 @@
 ---
-title: Manipulação de um provedor de transporte
+title: Manipular um provedor de transporte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 00ae0f4be9818e0e9e4562784b4d5bf44eefe308
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22567948"
 ---
-# <a name="handling-a-transport-provider"></a>Manipulação de um provedor de transporte
+# <a name="handling-a-transport-provider"></a>Manipular um provedor de transporte
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

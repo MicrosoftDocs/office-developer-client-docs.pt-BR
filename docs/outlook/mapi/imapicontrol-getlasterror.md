@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ef5fee7a2e84133f88a00703f7602831d26e3d3d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se o provedor não pode fornecer uma estrutura **MAPIERROR** com as informações apropriadas. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -67,7 +67,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Provedores de serviços de implementam o método **IMAPIControl::GetLastError** para fornecer informações sobre uma chamada de método anterior que falharam. MAPI pode dar obter informações detalhadas sobre o erro usuários exibindo os dados da estrutura de **MAPIERROR** em uma caixa de diálogo ou de mensagem. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você não precisará ter informações a serem incluídas na estrutura de **MAPIERROR** para cada erro. Não é possível determinar qual foi o erro anterior. Se você tiver informações, retorne S_OK e os dados apropriados na estrutura **MAPIERROR** . Se nenhuma informação estiver disponível, retornam S_OK e um ponteiro como NULL para o parâmetro _lppMAPIError_ . 
   

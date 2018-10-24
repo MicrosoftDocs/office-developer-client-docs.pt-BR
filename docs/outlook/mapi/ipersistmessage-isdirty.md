@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT IsDirty( void );
 
 Nenhum
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

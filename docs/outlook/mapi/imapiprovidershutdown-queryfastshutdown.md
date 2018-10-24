@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4301fb504439cf0ebd70b5ece589c812cb74844e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Suporte a consultas o provedor MAPI para o desligamento rápido.
 HRESULT QueryFastShutdown ();
 ```
 
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   

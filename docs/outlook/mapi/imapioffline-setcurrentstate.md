@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 13a4cf401cf51241a52401668eef008d65aa5459
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -70,7 +70,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > Este parâmetro é reservado para uso interno do Outlook e não é suportado. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -89,5 +89,5 @@ E_PENDING
 [IMAPIOffline::GetCurrentState](imapioffline-getcurrentstate.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 
