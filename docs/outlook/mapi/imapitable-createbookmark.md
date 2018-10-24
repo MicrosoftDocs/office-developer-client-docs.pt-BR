@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ BOOKMARK FAR * lpbkPosition
   
 > [out] Ponteiro para o valor retornado indicador de 32 bits. Este indicador posteriormente pode ser passado em uma chamada ao método [IMAPITable::SeekRow](imapitable-seekrow.md) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -55,7 +55,7 @@ O método **IMAPITable::CreateBookmark** marca uma posição tabela criando um v
   
 Indicadores não são suportados em tabelas de anexo e implementações de tabela de anexo do **CreateBookmark** retornam MAPI_E_NO_SUPPORT. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Devido a despesa com a memória de manter as posições de cursor com marcadores, limite o número de indicadores que você pode criar. Quando você chegar a esse número, retorne MAPI_E_UNABLE_TO_COMPLETE de todas as chamadas subsequentes aos **CreateBookmark**.
   

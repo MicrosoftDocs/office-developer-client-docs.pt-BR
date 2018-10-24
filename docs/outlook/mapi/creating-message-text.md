@@ -1,5 +1,5 @@
 ---
-title: Criando o texto da mensagem
+title: Criar texto da mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bd840c7bef0607db37c6477bd8f4a7320a8188c6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22574752"
 ---
-# <a name="creating-message-text"></a>Criando o texto da mensagem
+# <a name="creating-message-text"></a>Criar texto da mensagem
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

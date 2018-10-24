@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7d601cee-ffc4-4c7c-8006-40b717dee247
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2346ec8541e1a8b7f5ea198722833447f9f5a289
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -29,5 +29,5 @@ A invalidação de um objeto dá MAPI a responsabilidade ultimate para liberar a
 
 
 
-[Desligar a um provedor de serviços](shutting-down-a-service-provider.md)
+[Encerrando um provedor de serviços](shutting-down-a-service-provider.md)
 

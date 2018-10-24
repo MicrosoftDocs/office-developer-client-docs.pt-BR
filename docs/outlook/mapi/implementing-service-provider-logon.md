@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -67,5 +67,5 @@ A lista anterior de tarefas descreve uma implementação mínima para um método
   
 ## <a name="see-also"></a>Confira também
 
-- [Iniciar um provedor de serviços](starting-a-service-provider.md)
+- [Iniciando um provedor de serviços](starting-a-service-provider.md)
 

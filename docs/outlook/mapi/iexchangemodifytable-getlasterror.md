@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f0d2ad118346dd06788af972b64b10d6f6f6d0fc
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,5 +58,5 @@ HRESULT GetLastError(
 [MAPIERROR](mapierror.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 36d1518764985c4783d967e263ca5c05d63f935f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ BOOKMARK bkPosition
   
 > [in] O indicador para ser liberada, criados chamando o método [IMAPITable::CreateBookmark](imapitable-createbookmark.md) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -53,7 +53,7 @@ MAPI_E_INVALID_BOOKMARK
 
 O método **IMAPITable::FreeBookmark** libera um indicador que não é mais necessária. O indicador não é mais válido após essa chamada. Sempre que uma tabela é liberada da memória, todos seus indicadores associadas também sejam liberados. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Se o chamador passa uma dos três indicadores predefinidos no parâmetro _bkPosition_ , ignore a solicitação e retornar S_OK. 
   

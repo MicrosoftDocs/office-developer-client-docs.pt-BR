@@ -1,11 +1,11 @@
 ---
-title: Remova a definição de formulário personalizado salva com uma mensagem
+title: Remover a definição de formulário personalizada salva com uma mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594450"
 ---
-# <a name="remove-custom-form-definition-saved-with-a-message"></a>Remova a definição de formulário personalizado salva com uma mensagem
+# <a name="remove-custom-form-definition-saved-with-a-message"></a>Remover a definição de formulário personalizada salva com uma mensagem
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -25,13 +25,13 @@ Formulários que contém as páginas de formulário podem ser personalizados com
   
 Para converter uma mensagem que é salvo com uma definição de formulário personalizado para aquele sem, você deve remover quatro propriedades nomeadas:
   
-- [Propriedade can�nico de PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Propriedade canônica PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [Propriedade can�nico de PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Propriedade canônica PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Propriedade canônica PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [Propriedade can�nico de PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Propriedade canônica PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
 Além disso, você também deve remover a [Propriedade canônico de PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) que contém as definições das propriedades personalizadas salvas com a mensagem. Um efeito de remover essa propriedade é que os modelos de objeto do Outlook 2010 ou Outlook 2013 e a interface de usuário do Outlook 2010 ou Outlook 2013 não será possível acessar propriedades de usuário que foram definidas na mensagem. Você está ainda poderão acessar essas propriedades e seus valores por meio de MAPI. Observe que, se você não remover essa propriedade e a mensagem será salva com outra definição de formulário, a [Propriedade canônico de PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) parcialmente será substituído com novos dados e não há garantia de integridade dos dados. 
   
@@ -134,5 +134,5 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
 
 ## <a name="see-also"></a>Confira também
 
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2361d225c07d60fab40465b27ad393ca10f6d8eb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -36,7 +36,7 @@ struct UPDELE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -72,7 +72,7 @@ _skey_
     
 _dwReserved_
   
-> [out] Este membro é reservado para uso interno do Outlook e não é suportado.
+> [out] Esse membro é reservado para uso interno do Outlook e não tem suporte.
     
 _binChg_
   
@@ -94,7 +94,7 @@ _pupmov_
 
 - [Sobre a API de replicação](about-the-replication-api.md) 
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 - [SKEY](skey.md)
 - [UPDEL](updel.md)
 - [UPMOV](upmov.md)

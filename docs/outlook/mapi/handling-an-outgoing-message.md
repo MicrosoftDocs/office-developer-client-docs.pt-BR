@@ -1,5 +1,5 @@
 ---
-title: Manipulação de uma mensagem de saída
+title: Manipular uma mensagem de saída
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3f3330c132abdf35d0e4f67775c03f7d2e9fcc76
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563986"
 ---
-# <a name="handling-an-outgoing-message"></a>Manipulação de uma mensagem de saída
+# <a name="handling-an-outgoing-message"></a>Manipular uma mensagem de saída
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

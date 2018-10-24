@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT HrDeleteRow(
   
 > [in] Um ponteiro para uma estrutura de valor de propriedade que descreve a coluna de índice da linha a ser excluído. O membro **ulPropTag** da estrutura de valor de propriedade deve conter a mesma marca de propriedade, como o parâmetro _ulPropTagIndexColumn_ da chamada para a função [CreateTable](createtable.md) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

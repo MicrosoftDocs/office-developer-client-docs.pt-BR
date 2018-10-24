@@ -1,5 +1,5 @@
 ---
-title: Entradas do catálogo de endereços de abertura
+title: Abrir entradas do catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cd86b9cc86f30aac75b732b97208933de4d336e9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22566423"
 ---
-# <a name="opening-address-book-entries"></a>Entradas do catálogo de endereços de abertura
+# <a name="opening-address-book-entries"></a>Abrir entradas do catálogo de endereços
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

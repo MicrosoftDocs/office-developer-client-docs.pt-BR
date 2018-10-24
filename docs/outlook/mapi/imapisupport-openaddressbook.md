@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ LPADRBOOK FAR * lppAdrBook
   
 > [out] Um ponteiro para um ponteiro para o catálogo de endereços.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3c1bfccf635b96dd0744d888e69b4af5b8df0fa2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -91,7 +91,7 @@ MAPI_UNICODE
   
 > As cadeias de caracteres passada na estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

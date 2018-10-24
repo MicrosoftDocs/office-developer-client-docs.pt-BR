@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -33,5 +33,5 @@ Esse requisito que as tabelas de conteúdo associado deve ser criadas e preenchi
 
 
 
-[Repositórios de mensagens somente leitura](read-only-message-stores.md)
+[Repositórios de mensagem de somente leitura](read-only-message-stores.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Abrindo um armazenamento de mensagens
+title: Abrir um repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4bab31dbcd1f7139980d7df5559c1ee52a6f167f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563643"
 ---
-# <a name="opening-a-message-store"></a>Abrindo um armazenamento de mensagens
+# <a name="opening-a-message-store"></a>Abrir um repositório de mensagens
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
