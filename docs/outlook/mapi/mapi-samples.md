@@ -27,7 +27,7 @@ Esta seção contém exemplos de código que mostram como obter certas tarefas o
     
 - [Criando itens do Outlook usando MAPI](creating-outlook-items-by-using-mapi.md): mostra o exemplo de código de como criar itens do Outlook usando MAPI.
     
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
 - [Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Conceitos MAPI (em ingl�s)](mapi-concepts.md)

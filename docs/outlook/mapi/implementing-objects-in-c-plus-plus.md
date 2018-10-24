@@ -1,5 +1,5 @@
 ---
-title: Implementando objetos em C++
+title: Implementar objetos em C++
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4c233f9855674080496b2e54ba9548a53738ead8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22574724"
 ---
-# <a name="implementing-objects-in-c"></a>Implementando objetos em C++
+# <a name="implementing-objects-in-c"></a>Implementar objetos em C++
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -57,5 +57,5 @@ lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementar objetos de MAPI](implementing-mapi-objects.md)
 

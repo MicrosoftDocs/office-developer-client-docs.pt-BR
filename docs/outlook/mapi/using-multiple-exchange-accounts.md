@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: 3c0392cd6a885900c1a305cd1cd816a5925745a7
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT

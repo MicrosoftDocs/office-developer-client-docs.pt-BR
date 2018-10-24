@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 619357a608dd160cbe4811cc7db7ae3b392db858
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -76,7 +76,7 @@ MAPI_MODIFY
   
 > [out] Um ponteiro para o ponteiro para o objeto aberto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

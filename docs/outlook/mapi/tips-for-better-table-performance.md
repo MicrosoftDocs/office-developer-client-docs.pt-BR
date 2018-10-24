@@ -1,5 +1,5 @@
 ---
-title: Dicas para melhorar o desempenho de tabela
+title: Dicas para melhorar o desempenho de tabelas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: da49b4d8251f6b0b69d2ffbf80194943215675e2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564161"
 ---
-# <a name="tips-for-better-table-performance"></a>Dicas para melhorar o desempenho de tabela
+# <a name="tips-for-better-table-performance"></a>Dicas para melhorar o desempenho de tabelas
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

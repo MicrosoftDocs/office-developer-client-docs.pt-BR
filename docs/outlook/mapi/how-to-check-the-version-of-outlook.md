@@ -5,7 +5,7 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
-description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
+description: 'Última modificação: 07 de dezembro de 2015'
 ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT

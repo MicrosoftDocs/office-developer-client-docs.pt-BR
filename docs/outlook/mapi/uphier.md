@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a1ec71d7120eab220ee3b11d2a751fba51cee48e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -33,7 +33,7 @@ struct UPHIER
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -61,5 +61,5 @@ _cEnt_
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 

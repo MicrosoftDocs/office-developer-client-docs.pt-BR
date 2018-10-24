@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT HrModifyRow(
   
 > [in] Um ponteiro para uma estrutura de [SRow](srow.md) que descreve a linha a ser adicionado ou substituir uma linha existente. Uma das estruturas de valor de propriedade apontadas pelo membro **lpProps** da estrutura **SRow** deve conter uma coluna de índice, o mesmo valor que foi especificado no parâmetro _ulPropTagIndexColumn_ na chamada para o [CreateTable ](createtable.md)função. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

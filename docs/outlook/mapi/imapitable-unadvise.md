@@ -39,7 +39,7 @@ ULONG_PTR ulConnection
   
 > [in] O número da conexão de registro retornado por uma chamada para [IMAPITable::Advise](imapitable-advise.md).
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -51,11 +51,11 @@ Use o método **IMAPITable::Unadvise** para liberar o ponteiro para o objeto de 
   
 Para obter mais informações sobre o processo de notificação, consulte [Notificação de evento em MAPI](event-notification-in-mapi.md). Para obter informações específicas sobre a notificação de tabela, consulte [Sobre notificações de tabela](about-table-notifications.md). Para obter informações sobre como usar os métodos **IMAPISupport** para suportar a notificação, consulte [Suporte a notificação de evento](supporting-event-notification.md).
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI usa o método **IMAPITable::Unadvise** para cancelar as notificações para a tabela.  <br/> |
    
@@ -70,5 +70,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

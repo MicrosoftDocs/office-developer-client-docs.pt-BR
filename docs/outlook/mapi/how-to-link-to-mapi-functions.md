@@ -128,7 +128,7 @@ Para acessar os arquivos da biblioteca de Stub MAPI e para obter informações s
 - [Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
 - [Instalar o subsistema MAPI](installing-the-mapi-subsystem.md)
 - [Instalar arquivos de cabeçalho MAPI](how-to-install-mapi-header-files.md)
-- [Escolher uma versão MAPI específica para carregar](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Escolher uma versão específica de MAPI para carga](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Determinando qual método vinculação de uso](https://msdn.microsoft.com/library/253b8k2c.aspx)
 - [Vinculando um arquivo executável para uma DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
 - [Configurando as chaves MSI para sua DLL MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)

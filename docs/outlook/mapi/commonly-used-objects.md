@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -61,7 +61,7 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
   - Objetos de serviço de perfil e mensagem
     
-- [Desenvolver aplicativos cliente MAPI](developing-a-mapi-client-application.md)
+- [Desenvolvendo um aplicativo de cliente MAPI](developing-a-mapi-client-application.md)
     
     Descreve como usar objetos para implementar um aplicativo de cliente MAPI.
     
@@ -69,19 +69,19 @@ Você pode encontrar informações sobre objetos e interfaces nas seções a seg
     
     Descreve como usar objetos de suporte e o progresso e como implementar um objeto de status e exibe a tabela.
     
-- [Desenvolver um provedor do catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
+- [Desenvolvendo um provedor de catálogo de endereços MAPI](developing-a-mapi-address-book-provider.md)
     
     Descreve como implementar os objetos de logon e o provedor de catálogo do endereço, recipientes do catálogo, usuários, listas de distribuição e tabelas relacionadas de mensagens de endereços.
     
-- [Desenvolver um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
+- [Desenvolvendo um provedor de transporte MAPI](developing-a-mapi-transport-provider.md)
     
     Descreve como implementar o logon de transporte e objetos do provedor, o objeto de status, objeto TNEF Transport Neutral Encapsulation Format () e pastas.
     
-- [Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+- [Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
     
     Descreve como implementar a objetos de logon e o provedor de armazenamento de mensagem, repositórios de mensagem, pastas, mensagens, anexos, destinatários e tabelas relacionadas.
     
-- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
     
     Descreve como implementar objetos de formulário.
     

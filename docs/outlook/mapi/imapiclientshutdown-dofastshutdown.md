@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 41c4ee65ce6ae8f2e0d978f1e2bd95adb4f5872a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Indica a intenção do cliente MAPI para sair do processo de cliente imediatamen
 HRESULT DoFastShutdown ();
 ```
 
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   

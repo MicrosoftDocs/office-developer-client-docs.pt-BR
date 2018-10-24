@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 329771bf79e30f07c9de0a311aa2a836ca507c38
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ HRESULT IsInConflict(
   
 > [in] Um ponteiro para a pasta que contém a mensagem. O parâmetro _pFolderFocus_ pode ser NULL se tal uma pasta não existir (por exemplo, se a mensagem é incorporada em outra mensagem). 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -79,9 +79,9 @@ Aplicativos clientes geralmente têm que lidar com conflitos quando os aplicativ
 
 [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)
   
-[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

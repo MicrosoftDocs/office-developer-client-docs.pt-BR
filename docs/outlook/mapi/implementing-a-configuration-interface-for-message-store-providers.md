@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 15833768fbd148ae4e689b5a80ed3479823864cb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -29,5 +29,5 @@ Você implementar a interface de configuração é acessada através de pontos d
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

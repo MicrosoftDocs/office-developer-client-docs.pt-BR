@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5908069f5fa887fd9d2e3f8c0df75f2e3d69515c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -52,7 +52,7 @@ MAPI_UNICODE
   
 > [out] Ponteiro para um ponteiro para a tabela de destinatários.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

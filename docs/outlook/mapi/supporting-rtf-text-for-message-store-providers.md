@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3e65ebd3ea485ca54978d622e8aaf093dc5eff74
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,5 +31,5 @@ Provedores de armazenamento de mensagem que não têm suporte para texto RTF nec
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

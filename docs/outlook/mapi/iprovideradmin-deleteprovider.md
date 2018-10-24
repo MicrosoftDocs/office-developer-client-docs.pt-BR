@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: db09b44bd8eeeb3ab56513b1b9c2cab69f776002
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT DeleteProvider(
   
 > [além, out] Um ponteiro para a estrutura [MAPIUID](mapiuid.md) que contém o identificador exclusivo que representa o provedor a ser excluído. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

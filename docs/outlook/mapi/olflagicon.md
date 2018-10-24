@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -72,5 +72,5 @@ enum OlFlagIcon {
 
 
 
-[Propriedade canônica PidTagFollowupIcon](pidtagfollowupicon-canonical-property.md)
+[Propriedade canônico de PidTagFollowupIcon](pidtagfollowupicon-canonical-property.md)
 

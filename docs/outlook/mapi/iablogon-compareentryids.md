@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -64,7 +64,7 @@ HRESULT CompareEntryIDs(
   
 > [out] Um ponteiro para o resultado da comparação. TRUE para indicar que os identificadores de dois entrada se referir ao mesmo objeto; Caso contrário, FALSE.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

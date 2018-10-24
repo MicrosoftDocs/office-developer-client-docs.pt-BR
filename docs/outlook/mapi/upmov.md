@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
+description: 'Última modificação: 05 de julho de 2012'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -59,11 +59,11 @@ _ulFlags_
     
 _Preservadas_
   
->  [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+>  [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _pstmReserved_
   
->  [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+>  [uto] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _pszName_
   
@@ -86,7 +86,7 @@ _pxicc_
     
 _dwReserved_
   
->  [out] Este membro é reservado para uso interno do Outlook e não é suportado. 
+>  [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _pupmovNext_
   
@@ -100,6 +100,6 @@ _cEntMov_
 
 - [Sobre a API de replicação](about-the-replication-api.md)
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 - [FEID](feid.md)
 

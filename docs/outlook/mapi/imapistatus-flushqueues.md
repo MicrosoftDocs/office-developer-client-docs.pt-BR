@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -74,7 +74,7 @@ FLUSH_UPLOAD
   
 > As filas de mensagens de saída devem ser liberadas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -96,7 +96,7 @@ MAPI_E_BUSY devem ser retornadas para solicitações assíncronas, para que os c
   
 Por padrão, **FlushQueues** é uma operação síncrona; controle não retorna ao chamador até que a liberação foi concluída. Somente a liberação operação executada pelo spooler MAPI pode ser assíncrona; os clientes solicitam esse comportamento, definindo o sinalizador FLUSH_ASYNC_OK. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Implementação do provedor de um transporte remoto **FlushQueues** define bits na propriedade **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) na linha de status do objeto logon para controlar como as filas são liberadas. Se um visualizador remoto passa na sinalizar FLUSH_UPLOAD, o método **FlushQueues** deve definir os bits STATUS_INBOUND_ENABLED e STATUS_INBOUND_ACTIVE. Se um visualizador remoto passa na sinalizar FLUSH_DOWNLOAD, o método **FlushQueues** deve definir os bits STATUS_OUTBOUND_ENABLED e STATUS_OUTBOUND_ACTIVE. **FlushQueues** , em seguida, deve retornar S_OK. O MAPI spooler então iniciarão as ações apropriadas para carregar e baixar mensagens. 
   
@@ -108,9 +108,9 @@ Uma chamada para o objeto de status do MAPI spooler é uma diretiva para transfe
 
 
 
-[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
-[Propriedade canônica PidTagStatusCode](pidtagstatuscode-canonical-property.md)
+[Propriedade canônico de PidTagStatusCode](pidtagstatuscode-canonical-property.md)
   
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Identificadores de entrada únicos
+title: Identificadores de entradas únicas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3a086d1b9bcc1eae620b2f0a5ce96a545ce68342
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22585532"
 ---
-# <a name="one-off-entry-identifiers"></a>Identificadores de entrada únicos
+# <a name="one-off-entry-identifiers"></a>Identificadores de entradas únicas
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

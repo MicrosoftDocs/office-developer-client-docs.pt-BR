@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e0a66443194a3f89b47218ed9dc0ed9ad9c2df83
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,5 +53,5 @@ O fato de que o seu provedor de armazenamento de mensagens é somente leitura é
 
 
 
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

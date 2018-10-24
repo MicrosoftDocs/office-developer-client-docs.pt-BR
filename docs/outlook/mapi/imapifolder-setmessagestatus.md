@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d06523625a20760faec7a6c73a6beaef757818b3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -83,7 +83,7 @@ MSGSTATUS_TAGGED
   
 > [out] Um ponteiro para o status anterior da mensagem.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -93,7 +93,7 @@ S_OK
 
 O método **IMAPIFolder::SetMessageStatus** define o status da mensagem com o valor armazenado na sua propriedade **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Como os bits de status da mensagem estiver definidos, desmarcados e usados dependem completamente a implementação, exceto que os bits de 0 a 15 são reservados e devem ser zero. 
   
@@ -109,7 +109,7 @@ Você pode usar a propriedade **PR_MSG_STATUS** de uma mensagem para negociar um
 
 [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md)
   
-[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

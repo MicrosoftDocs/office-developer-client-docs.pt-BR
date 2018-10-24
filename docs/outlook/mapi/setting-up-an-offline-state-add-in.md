@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
+description: 'Última modificação: 05 de julho de 2012'
 ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25390958"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para implementar um suplemento do estado offline, você deve implementar a conexão, inicialização e outras funções de instalação. Este tópico, esses conexão, a inicialização e a configuração funções são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e usa a API de estado Offline. Através do menu de **Estado Offline** , você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para obter mais informações sobre como baixar e instalar o suplemento de amostra Offline estado, consulte [Instalando o suplemento de amostra Offline estado](installing-the-sample-offline-state-add-in.md). Para obter mais informações sobre a API de estado Offline, consulte [Sobre o Offline estado API](about-the-offline-state-api.md).
+Para implementar um suplemento do estado offline, você deve implementar a conexão, inicialização e outras funções de instalação. Este tópico, esses conexão, a inicialização e a configuração funções são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento do estado de Offline de amostra é um suplemento COM que adiciona uma **estado Offline** menu ao Outlook e usa a API de estado Offline. Através do menu de **Estado Offline** , você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
   
 Depois de configurar um suplemento no estado offline, você deve implementar funções para monitorar e modifique as alterações de estado de conexão. Para obter mais informações, consulte [Monitoring Conexão estado alterações usando um suplemento do estado Offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -290,8 +290,8 @@ HRESULT CMyAddin::HrAddMenuItems()
 ## <a name="see-also"></a>Confira também
 
 - [Sobre a API de estado offline](about-the-offline-state-api.md) 
-- [Instalar o exemplo de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
-- [Sobre o exemplo de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
+- [Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
+- [Sobre a amostra de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
 - [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Desconectar-se de um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
+- [Desconectando um Offline suplemento State](disconnecting-an-offline-state-add-in.md)
 

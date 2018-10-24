@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_TOP_LEVEL
   
 > [out] Um ponteiro para um ponteiro para o objeto de andamento.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

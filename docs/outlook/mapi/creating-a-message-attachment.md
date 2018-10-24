@@ -1,5 +1,5 @@
 ---
-title: Criando um anexo de mensagem
+title: Criar um anexo de mensagem
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22577097"
 ---
-# <a name="creating-a-message-attachment"></a>Criando um anexo de mensagem
+# <a name="creating-a-message-attachment"></a>Criar um anexo de mensagem
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

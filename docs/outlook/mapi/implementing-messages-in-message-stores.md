@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df5003d5-cbfe-40b2-a481-e2e11dce4b3e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1d68a5258739a8952df97ddceb07ebe6d9c8d2d7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -27,5 +27,5 @@ O [IMessage: IMAPIProp](imessageimapiprop.md) interface é semelhante do [IMAPIF
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

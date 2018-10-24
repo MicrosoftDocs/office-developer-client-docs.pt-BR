@@ -1,5 +1,5 @@
 ---
-title: Exibindo uma tabela de conteúdo de pasta
+title: Exibir uma tabela de conteúdo da pasta
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22580793"
 ---
-# <a name="displaying-a-folder-contents-table"></a>Exibindo uma tabela de conteúdo de pasta
+# <a name="displaying-a-folder-contents-table"></a>Exibir uma tabela de conteúdo da pasta
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3722893ae57a108b338725e46c975e92c0f8ff72
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -31,5 +31,5 @@ Mesmo que sua mensagem armazenar o provedor notifica nunca outros componentes MA
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

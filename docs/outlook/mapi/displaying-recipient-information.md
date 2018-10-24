@@ -1,5 +1,5 @@
 ---
-title: Exibindo informações do destinatário
+title: Exibir informações do destinatário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22591286"
 ---
-# <a name="displaying-recipient-information"></a>Exibindo informações do destinatário
+# <a name="displaying-recipient-information"></a>Exibir informações do destinatário
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 140efe0b2d1b428a94b5bb2919d461779613932a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT HrEnumRow(
   
 > [out] Um ponteiro para um ponteiro para uma estrutura de [SRow](srow.md) que descreve a linha de destino. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

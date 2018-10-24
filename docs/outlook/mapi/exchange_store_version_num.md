@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88950eda-85ae-ad7a-46c6-0e1933d35e04
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 152afd68bea44f3485b2cc566f3f0d2768590704
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -59,5 +59,5 @@ typedef struct {
 
 [Sobre as adições de MAPI](about-mapi-additions.md)
   
-[Propriedade canônica PidTagProfileServerFullVersion](pidtagprofileserverfullversion-canonical-property.md)
+[Propriedade canônico de PidTagProfileServerFullVersion](pidtagprofileserverfullversion-canonical-property.md)
 

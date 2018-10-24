@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -51,5 +51,5 @@ Quando houver vários objetos de logon que estão ativos simultaneamente, faz se
 
 
 
-[Implementar o logon do provedor de serviços](implementing-service-provider-logon.md)
+[Implementação de Logon do provedor de serviço](implementing-service-provider-logon.md)
 

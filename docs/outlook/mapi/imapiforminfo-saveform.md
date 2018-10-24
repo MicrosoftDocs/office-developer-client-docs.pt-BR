@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7fec6b6236d26789a3ec9abee7d2ae1c620f89b4
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT SaveForm(
   
 > [in] Uma cadeia de caracteres que nomeia o arquivo de mensagem de descrição do formulário onde a respectiva descrição é salva. Este nome de arquivo deve ter a extensão .fdm.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0211a326e94c5847c040040e0e0e4e9ddd1d760d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ MSCAP_SELECTOR mscapSelector
   
 > [in] Seletor indicando quais recursos para retornar.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   

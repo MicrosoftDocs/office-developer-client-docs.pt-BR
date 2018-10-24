@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b18a4ae4ee25898d1100d9763714e5be21c69fd8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -95,6 +95,6 @@ A API de estado Offline suporta somente notificações para alterações online 
 ## <a name="see-also"></a>Confira também
 
 - [Sobre a API de estado offline](about-the-offline-state-api.md)  
-- [Constantes MAPI](mapi-constants.md)  
+- [Constantes de MAPI](mapi-constants.md)  
 - [MAPIOFFLINE_NOTIFY_TYPE](mapioffline_notify_type.md)
 

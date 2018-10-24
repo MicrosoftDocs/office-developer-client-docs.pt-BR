@@ -30,8 +30,8 @@ Indica se a instâncias futuras do tarefas recorrentes precisam lembretes, embor
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskResetReminder  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008107  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008107  <br/> |
 |Tipo de dados:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Task  <br/> |
    
@@ -67,14 +67,14 @@ Mapidefs.h
 
 
 
-[Propriedade can�nico de PidLidReminderSet](pidlidreminderset-canonical-property.md)
+[Propriedade canônica PidLidReminderSet](pidlidreminderset-canonical-property.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
 

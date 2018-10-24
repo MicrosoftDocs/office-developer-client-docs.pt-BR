@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,5 +49,5 @@ A sequência de chamadas de método que ocorre quando uma mensagem de entrada é
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

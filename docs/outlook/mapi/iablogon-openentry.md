@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bf6386ae3a7d835c8748e332235d8737c7a502e8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -98,7 +98,7 @@ MAPI_E_UNKNOWN_ENTRYID
 
 MAPI chama o método de **OpenEntry** para abrir um contêiner, o usuário ou lista de distribuição de mensagens. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Antes de MAPI chama seu método de **OpenEntry** , ele determina que o identificador de entrada no parâmetro _lpEntryID_ pertence a você e não a outro provedor. MAPI realiza isso mediante correspondentes a estrutura [MAPIUID](mapiuid.md) do identificador de entrada com o **MAPIUID** que você registrou chamando o método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) na inicialização. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 73a4c07c69fb10044cba6e9368cd4bc86c11ad54
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT NotifyNewMail(
   
 > [in] Um ponteiro para uma estrutura de [notificação](notification.md) que descreve a notificação de mensagem nova. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 O método **IMsgStore::NotifyNewMail** é chamado pelo spooler MAPI para informar o armazenamento de mensagens que uma mensagem está pronta para entrega. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Quando **NotifyNewMail** é chamado, envie uma notificação de novo email para todos os clientes registrados. Você pode enviar a notificação chamando [IMAPISupport::Notify](imapisupport-notify.md), se você optar por usar os métodos do objeto de suporte ou usando sua própria implementação. Um cliente registrado é aquele que tem chamado [IMsgStore::Advise](imsgstore-advise.md) e defina o parâmetro _lpEntryID_ como nulo e o parâmetro _ulEventMask_ para _fnevNewMail_. 
   
@@ -63,7 +63,7 @@ Não modifique ou liberar a memória para a estrutura de [notificação](notific
   
 [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)
   
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [ScCopyNotifications](sccopynotifications.md)
   

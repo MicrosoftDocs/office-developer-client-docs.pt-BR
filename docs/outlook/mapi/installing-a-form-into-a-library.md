@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d3b20c9fb4b4f1a26eb4ed1a9a498bd56a915a70
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -46,5 +46,5 @@ Se você implementar um aplicativo de instalação, a série de ações ele deve
 
 
 
-[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
 

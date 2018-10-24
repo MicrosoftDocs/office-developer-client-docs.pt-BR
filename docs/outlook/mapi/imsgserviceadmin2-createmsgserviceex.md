@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f700389315ca7bd184a9d6defb0b44eaec99a38e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -75,7 +75,7 @@ SERVICE_UI_ALWAYS
   
 > [out] O ponteiro para o UID do serviço de mensagem adicionado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -112,5 +112,5 @@ Passe o valor da propriedade **PR_SERVICE_UID** no parâmetro _lpuidService_ par
 [IMsgServiceAdmin2 : IMsgServiceAdmin](imsgserviceadmin2imsgserviceadmin.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

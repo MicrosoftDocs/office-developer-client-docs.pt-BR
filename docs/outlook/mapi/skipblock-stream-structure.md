@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -33,7 +33,7 @@ Elementos este fluxo de dados são armazenados na ordem de bytes pouca-endian, i
 
 
 
-[Campos e itens do Outlook](outlook-items-and-fields.md)
+[Campos e itens do outlook](outlook-items-and-fields.md)
   
 [Estruturas de fluxo](stream-structures.md)
   

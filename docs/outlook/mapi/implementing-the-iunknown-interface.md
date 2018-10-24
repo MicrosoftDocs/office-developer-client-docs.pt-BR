@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5165476ea131e40153191e8625af5ea3c49f47b1
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -36,5 +36,5 @@ Os outros dois **IUnknown** métodos, **AddRef** e **Release**, gerenciam a cont
 
 
 
-[Implementar objetos MAPI](implementing-mapi-objects.md)
+[Implementar objetos de MAPI](implementing-mapi-objects.md)
 

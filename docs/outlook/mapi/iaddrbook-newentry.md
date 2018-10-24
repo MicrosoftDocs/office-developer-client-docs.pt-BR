@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: eaf472a380acd62cddb2c20c35335ccb1e2ce07f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -78,7 +78,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para o identificador de entrada do novo destinatário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -116,7 +116,7 @@ Para usar um modelo específico para adicionar uma nova entrada de um contêiner
   
 [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
   
-[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Abertura de um anexo
+title: Abrir um anexo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 768528c59d7aa5888c0d0427f86b8be8e1d33669
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22579974"
 ---
-# <a name="opening-an-attachment"></a>Abertura de um anexo
+# <a name="opening-an-attachment"></a>Abrir um anexo
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

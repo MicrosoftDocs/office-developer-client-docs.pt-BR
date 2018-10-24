@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7f330ef3099175dde88bec2de3512a3c4af1db49
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT Activate(
   
 > [in] Uma alça para a janela pai da caixa de diálogo na qual o controle de botão aparece.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

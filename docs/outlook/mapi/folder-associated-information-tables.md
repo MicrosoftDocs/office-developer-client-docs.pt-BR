@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9c9c75d0ae4b9fe060d6717dfa11ad418cbb715b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -45,5 +45,5 @@ Não há nenhum bit na propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSuppor
 
 
 
-[Recursos do repositório de mensagens](message-store-features.md)
+[Recursos de armazenamento de mensagens](message-store-features.md)
 

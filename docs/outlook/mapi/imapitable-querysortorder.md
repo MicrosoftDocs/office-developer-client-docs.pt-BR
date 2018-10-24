@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ LPSSortOrderSet FAR * lppSortCriteria
   
 > [out] Ponteiro para um ponteiro para a estrutura de [SSortOrderSet](ssortorderset.md) mantendo a ordem de classificação atual. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -61,7 +61,7 @@ O método **IMAPITable::QuerySortOrder** recupera a ordem de classificação atu
     
 - A estrutura de **SSortOrderSet** não é apropriada para descrever a ordem de classificação. 
     
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Se uma chamada for feita para o seu método [IMAPITable:: SortTable](imapitable-sorttable.md) com uma estrutura **SSortOrderSet** contendo zero colunas na chave de classificação, remova a ordem de classificação atual e aplicar a ordem padrão, se houver uma. Em chamadas subsequentes para **QuerySortOrder**, você pode escolher se deseja retornar zero ou mais colunas para a chave de classificação. Você pode retornar mais colunas que estão no modo de exibição presente.
   

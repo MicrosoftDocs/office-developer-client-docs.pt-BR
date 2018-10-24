@@ -1,5 +1,5 @@
 ---
-title: Formato de arquivo dos arquivos de configuração de formulário
+title: Formato de arquivo dos arquivos de configuração de formulários
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 95add2ca747a267b825648f0de82e8c8a83d3eb7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22592252"
 ---
-# <a name="file-format-of-form-configuration-files"></a>Formato de arquivo dos arquivos de configuração de formulário
+# <a name="file-format-of-form-configuration-files"></a>Formato de arquivo dos arquivos de configuração de formulários
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

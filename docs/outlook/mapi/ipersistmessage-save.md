@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -75,5 +75,5 @@ Para obter mais informações sobre como salvar objetos de armazenamento, consul
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulários](form-states.md)
+[Estados de formulário](form-states.md)
 

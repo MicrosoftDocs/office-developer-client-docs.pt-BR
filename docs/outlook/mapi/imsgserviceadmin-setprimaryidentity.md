@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 92807cb216e8a7f4eef6b4d95a8d12826b176e6e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT SetPrimaryIdentity(
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

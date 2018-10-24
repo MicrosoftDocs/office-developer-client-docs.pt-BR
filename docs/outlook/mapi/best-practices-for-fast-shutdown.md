@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c92347ab1a786196e7f0d99b286e8f4134ce7c24
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -41,7 +41,7 @@ Este tópico fornece práticas recomendadas para os administradores, os clientes
 
 [Desligamento do cliente em MAPI](client-shutdown-in-mapi.md)
   
-[Visão geral do desligamento rápido](fast-shutdown-overview.md)
+[Visão geral de desligamento rápido](fast-shutdown-overview.md)
   
-[Opções de usuário do desligamento rápido](fast-shutdown-user-options.md)
+[Opções de desligamento rápido do usuário](fast-shutdown-user-options.md)
 

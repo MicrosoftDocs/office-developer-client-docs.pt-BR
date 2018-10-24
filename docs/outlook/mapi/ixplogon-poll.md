@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3426854e727ebce7a2ac2243491994ce0e066ac6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Poll(
   
 > [out] Um valor que indica a existência de mensagens de entrada. Um valor diferente de zero indica que não existem mensagens de entrada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -85,7 +85,7 @@ Quando uma mensagem que tenha marcas é passada para um stream, as marcas serão
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propriedade canônica PidTagBody](pidtagbody-canonical-property.md)
+[Propriedade canônico de PidTagBody](pidtagbody-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

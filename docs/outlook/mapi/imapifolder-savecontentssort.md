@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1f79265c4356747e64aa8102dd4486db229baf5a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ RECURSIVE_SORT
   
 > O conjunto de ordem de classificação padrão se aplica à pasta indicada e todas as suas subpastas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

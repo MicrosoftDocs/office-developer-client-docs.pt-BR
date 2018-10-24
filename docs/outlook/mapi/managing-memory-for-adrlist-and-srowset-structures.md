@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de memória para as estruturas ADRLIST e SRowSet
+title: Gerenciar memória das estruturas ADRLIST e SRowSet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT

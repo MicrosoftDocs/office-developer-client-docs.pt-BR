@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 82869fa479ebe8a4d7b1881cec5d5c243b7d7957
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -59,6 +59,6 @@ _ulStateMask_: O único estado com suporte é MAPIOFFLINE_STATE_ALL.
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 - [Sobre a API de estado offline](about-the-offline-state-api.md) 
-- [Constantes MAPI](mapi-constants.md) 
+- [Constantes de MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

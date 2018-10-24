@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: de0d2d7c0b03f7002d07e6703d2f7854b5c6b64c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22564994"
   
 Esta seção contém exemplos de código dos três provedores de serviços MAPI:
   
-- [Baixar exemplos de MAPI do Outlook](downloading-the-outlook-mapi-samples.md)
+- [Baixando as amostras MAPI do Outlook](downloading-the-outlook-mapi-samples.md)
     
     Este tópico descreve como baixar os exemplos.
     
@@ -31,7 +31,7 @@ Esta seção contém exemplos de código dos três provedores de serviços MAPI:
     
     Esta amostra oferece suporte a um único contêiner somente leitura para nomes para exibição e endereços de email, o qual serão lidas a partir de um arquivo binário plano.
     
-- [Exemplo de provedor de repositório de mensagens](message-store-provider-sample.md)
+- [Exemplo de provedor de armazenamento de mensagens](message-store-provider-sample.md)
     
     Este exemplo usa diretórios, como pastas e arquivos de documento OLE 2.0 como mensagens. A amostra suporta recursos necessários para um armazenamento de mensagens padrão.
     

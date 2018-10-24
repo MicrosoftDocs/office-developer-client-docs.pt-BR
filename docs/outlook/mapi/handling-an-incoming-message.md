@@ -1,5 +1,5 @@
 ---
-title: Manipulação de uma mensagem de entrada
+title: Manipular uma mensagem de entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d6ec40005683cc67c51a63d6b186c042c8e170d7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22568172"
 ---
-# <a name="handling-an-incoming-message"></a>Manipulação de uma mensagem de entrada
+# <a name="handling-an-incoming-message"></a>Manipular uma mensagem de entrada
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -1,5 +1,5 @@
 ---
-title: Abrindo um descritor de modo de exibição
+title: Abrir um descritor de modo de exibição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 680d80c0827399f3b7a0ea5819e51be654a05810
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22592476"
 ---
-# <a name="opening-a-view-descriptor"></a>Abrindo um descritor de modo de exibição
+# <a name="opening-a-view-descriptor"></a>Abrir um descritor de modo de exibição
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

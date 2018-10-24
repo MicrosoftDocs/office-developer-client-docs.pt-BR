@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 81f35f659342d6258d60f40b12bd0a3ac2dc20b2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -78,7 +78,7 @@ MAPI_UNRESOLVED
   
 > A entrada correspondente não foi resolvida. Outros contêineres devem tentar resolver o destinatário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -104,7 +104,7 @@ Afinal dos contêineres na pesquisa caminho tentaram o processo de resolução d
   
 Os clientes também podem usar a estrutura **ADRLIST** retornada em chamadas para o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Você não é necessárias para dar suporte a resolução de nomes com o método **ResolveNames** . Em vez disso, ou Além disso, você pode oferecer suporte com a restrição de propriedade **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Se você decidir contam com a restrição de **PR_ANR** para resolução de nome, você pode retornar MAPI_E_NO_SUPPORT. Para obter mais informações, consulte [Implementando a resolução de nome](implementing-name-resolution.md).
   
@@ -150,7 +150,7 @@ Se você deve substituir em vez de modificar uma estrutura **ADRENTRY** , livre 
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônica PidTagAnr](pidtaganr-canonical-property.md)
+[Propriedade canônico de PidTagAnr](pidtaganr-canonical-property.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   

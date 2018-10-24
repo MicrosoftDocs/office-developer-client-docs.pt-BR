@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: beeca6ba958c38e12fba7dbc2884c81e58bdf3c4
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -99,7 +99,7 @@ NOTIFY_SYNC
   
 > [out] Um ponteiro para um número diferente de zero de conexão que representa o registro.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -127,7 +127,7 @@ O sinalizador NOTIFY_SYNC afeta a operação de chamadas subsequentes para **Not
   
 [IMAPISupport::Notify](imapisupport-notify.md)
   
-[NOTIFICAÇÃO](notification.md)
+[NOTIFICATION](notification.md)
   
 [NOTIFKEY](notifkey.md)
   

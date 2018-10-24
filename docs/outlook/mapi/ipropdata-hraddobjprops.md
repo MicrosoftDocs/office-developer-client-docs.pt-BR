@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ae0d6d58f96738a9686dbdda86336c040c2e2f68
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT HrAddObjProps(
   
 > [além, out] Na entrada, um ponteiro para uma estrutura [SPropProblemArray](spropproblemarray.md) , válido ou nulo. Na saída, um ponteiro para um ponteiro para uma estrutura que contém informações sobre propriedades não puderam ser adicionados ou nulo. Um ponteiro para uma estrutura de matriz de problema de propriedade será retornado somente se um ponteiro válido é transmitido em. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

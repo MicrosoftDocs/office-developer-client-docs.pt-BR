@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -61,7 +61,7 @@ MAPI_DEFERRED_ERRORS
     
 SPAMFILTER_ONSAVE
   
-> Permite que o spam filtrados em uma mensagem que está sendo salva. Suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente é Simple Mail Transfer Protocol (SMTP) e a mensagem está sendo salva um repositório para um arquivo de pastas particulares (. PST).
+> Permite que o spam filtrados em uma mensagem que está sendo salva. O suporte à filtragem de spam está disponível somente se o tipo de endereço de email do remetente for SMTP(Simple Mail Transfer Protocol) e a mensagem estiver sendo salva em um repositório de um arquivo de pastas particulares (PST).
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -130,7 +130,7 @@ Para obter mais informações, consulte [Salvar Propriedades de MAPI](saving-map
 
 [IMAPIProp::SetProps](imapiprop-setprops.md)
   
-[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 

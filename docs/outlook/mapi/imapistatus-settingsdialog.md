@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a21feb474ef69da9ec8e36e06c8649b9d0f93981
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ UI_READONLY
   
 > Sugere que o provedor não deve habilitar os usuários alterem as propriedades de configuração. Esse sinalizador é apenas uma sugestão; pode ser ignorado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
 
 O método **IMAPIStatus:: SettingsDialog** exibe uma folha de propriedades de configuração. Todos os provedores de serviço devem oferecer suporte para o método **SettingsDialog** , mas ela não é necessária. Provedores de serviço podem implementar suas próprias folhas de propriedade ou use a implementação fornecida no método de [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) de suporte do objeto. **DoConfigPropsheet** constrói uma folha de propriedades de leitura/gravação. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Se um provedor de transporte remoto tiver quaisquer configurações, ele deve fazer o seguinte:
   
@@ -100,7 +100,7 @@ Como uma interface de usuário é sempre envolvida nesta operação, somente cli
 
 [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)
   
-[Propriedade canônica PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
+[Propriedade canônico de PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)
   
 [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6e8ea7230ae86dee99cc4413715055fc53afa900
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_DIALOG
   
 > [in] Um ponteiro para um objeto de informações de formulário para o formulário sejam baixados.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

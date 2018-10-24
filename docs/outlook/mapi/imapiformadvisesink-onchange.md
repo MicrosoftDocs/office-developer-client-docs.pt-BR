@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e32157f41632b782fbacf87e0411c18d167b4279
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -67,7 +67,7 @@ VCSTATUS_UNREAD
   
 > Há uma mensagem não lida seguinte ou anterior no Visualizador do formulário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -79,7 +79,7 @@ Visualizadores de formulário chame o método **IMAPIFormAdviseSink::OnChange** 
   
 As configurações de VCSTATUS_MODAL e VCSTATUS_INTERACTIVE não é possível alterar em um contexto de modo de exibição após ele ter sido criado.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 A implementação específica desse método depende completamente as especificações do formulário. A maioria dos objetos de formulário usar esse método para alterar sua interface do usuário (por exemplo, para habilitar ou desabilitar comandos de menu ou botões para coincidir com o parâmetro de sinalizadores de status do visualizador).
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c42077528a4f7227321d8f987cc5dd0ccd4c966c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ _lpRecipList_
   
 > [in] Um ponteiro para uma estrutura [ADRLIST](adrlist.md) que contém a lista de destinatários. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -59,7 +59,7 @@ E_NOT_FOUND
   
 > Um ou mais dos destinatários no parâmetro _lpRecipList_ não existem. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 Um cliente chama o método MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) para modificar ou reorganizar um conjunto de propriedades para um ou mais destinatários. Os destinatários podem ou não podem ser a parte da lista de destinatários de uma mensagem de saída. MAPI transfere essa chamada para o método de **IABLogon::PrepareRecips** de um provedor catálogo de endereços. 
   
@@ -75,7 +75,7 @@ Um cliente chama o método MAPI [IAddrBook::PrepareRecips](iaddrbook-preparereci
     
 A estrutura **ADRENTRY** no parâmetro _lpRecipList_ contém uma estrutura **ADRENTRY** para cada destinatário. Cada estrutura **ADRENTRY** contém uma matriz de estruturas [SPropValue](spropvalue.md) para descrever as propriedades do destinatário. Quando **IABLogon::PrepareRecips** retorna, a matriz de estrutura de **SPropValue** para cada destinatário inclui as propriedades de _lpPropTagArray_ seguido as outras propriedades para o destinatário. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Implementar **IABLogon::PrepareRecips** envolve a colocação de propriedades em uma ordem específica, recuperando valores de propriedade e conversão de curto prazo identificadores de entrada aos identificadores de entrada de longo prazo. As propriedades que são solicitadas no parâmetro _lpPropTagArray_ devem ser no início da matriz de valores de propriedade associado a estrutura **ADRENTRY** de cada destinatário no parâmetro _lpRecipList_ . Se os valores dessas propriedades não existirem, abra a lista de distribuição ou usuário mensagens associada usando seu identificador de entrada e recuperar os valores de propriedade ausente. 
   
@@ -106,7 +106,7 @@ Para implementar **IABLogon::PrepareRecips**, use o procedimento a seguir:
 
 - [ADRLIST](adrlist.md)
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
-- [Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
+- [Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
 - [SPropValue](spropvalue.md)
 - [IABLogon : IUnknown](iablogoniunknown.md)
 

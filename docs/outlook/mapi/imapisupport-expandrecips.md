@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -52,7 +52,7 @@ NEEDS_SPOOLER
   
 > O MAPI spooler (ao invés do provedor de transporte para o qual o chamador está intimamente ligado) deve enviar a mensagem.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

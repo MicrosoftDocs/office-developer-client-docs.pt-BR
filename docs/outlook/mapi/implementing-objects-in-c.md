@@ -1,5 +1,5 @@
 ---
-title: Implementando objetos em C
+title: Implementar objetos em C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d07d756abded137d3268daf7dd0998f0c953cb1d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563944"
 ---
-# <a name="implementing-objects-in-c"></a>Implementando objetos em C
+# <a name="implementing-objects-in-c"></a>Implementar objetos em C
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -81,5 +81,5 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
+- [Implementar objetos de MAPI](implementing-mapi-objects.md)
 

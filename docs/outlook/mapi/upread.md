@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 887c66277b54e2e14c7f67c76b8e9dd4fa8bc719
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -51,7 +51,7 @@ struct UPREAD
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [UPREADE](upreade.md)
 

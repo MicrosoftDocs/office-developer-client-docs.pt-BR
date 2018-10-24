@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 37d37d6402b165ea57626fe4791cfb1a4bcf76cc
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -173,5 +173,5 @@ A maioria dessas estruturas contém [out] / [in] informações, permitindo que o
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

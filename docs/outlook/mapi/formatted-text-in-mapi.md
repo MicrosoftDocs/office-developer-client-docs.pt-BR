@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -29,27 +29,27 @@ MAPI define essas duas propriedades de texto de mensagem e mecanismos para conve
   
 ### 
 
-[Sincronizar texto e formatação](synchronizing-text-and-formatting.md)
+[Sincronizar o texto e a formatação](synchronizing-text-and-formatting.md)
   
 > Descreve como manter o texto da mensagem RTF sincronizado com a formatação.
     
-[Suporte a texto formatado em mensagens de saída: responsabilidades do cliente](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
+[Suporte formatado Text em mensagens de saída: responsabilidades do cliente](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
   
 > Descreve as responsabilidades do aplicativo cliente para dar suporte a texto formatado em mensagens de saída.
     
-[Suporte a texto formatado em mensagens de entrada: responsabilidades do cliente](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
+[Suporte formatado Text em mensagens de entrada: responsabilidades do cliente](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
   
 > Descreve as responsabilidades do aplicativo cliente para dar suporte a texto formatado em mensagens de entrada.
     
-[Suporte a texto formatado: responsabilidades do repositório de mensagens](supporting-formatted-text-message-store-responsibilities.md)
+[Suporte de texto formatado: Responsabilidades do armazenamento de mensagens](supporting-formatted-text-message-store-responsibilities.md)
   
 > Descreve as responsabilidades do repositório de mensagem para dar suporte a texto formatado.
     
-[Suporte a texto formatado: anexos de renderização](supporting-formatted-text-rendering-attachments.md)
+[Suporte de texto formatado: Processamento de anexos](supporting-formatted-text-rendering-attachments.md)
   
 > Descreve como escolher onde os anexos são processados.
     
-[Suporte a texto formatado: responsabilidades do gateway](supporting-formatted-text-gateway-responsibilities.md)
+[Suporte de texto formatado: Responsabilidades do Gateway](supporting-formatted-text-gateway-responsibilities.md)
   
 > Descreve as responsabilidades do gateway para mensagens de texto formatado de entrada e saída.
     

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -132,6 +132,6 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
-- [Implementar interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementando a Interface IUnknown](implementing-the-iunknown-interface.md)
 

@@ -30,8 +30,8 @@ Contém o texto especificáveis de usuário para identificar este objeto de mens
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidToDoTitle  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x000085A4  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x000085A4  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Task  <br/> |
    
@@ -67,16 +67,16 @@ Mapidefs.h
 
 
 
-[Propriedade canônica PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
+[Propriedade canônico de PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
   
-[Propriedade can�nico de PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
+[Propriedade canônica PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
 
 
 [Propriedades MAPI](mapi-properties.md)
   
 [Propriedades MAPI canônicas](mapi-canonical-properties.md)
   
-[Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mapear nomes de propriedade canônico para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mapear nomes MAPI para nomes de propriedades canônicas](mapping-mapi-names-to-canonical-property-names.md)
+[Mapear nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Perfis e serviços de mensagem
+title: Perfis e serviços de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22581430"
 ---
-# <a name="message-services-and-profiles"></a>Perfis e serviços de mensagem
+# <a name="message-services-and-profiles"></a>Perfis e serviços de mensagens
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

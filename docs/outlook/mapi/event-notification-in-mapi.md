@@ -1,5 +1,5 @@
 ---
-title: Notificação de evento em MAPI
+title: Notificações de eventos no MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25389971"
 ---
-# <a name="event-notification-in-mapi"></a>Notificação de evento em MAPI
+# <a name="event-notification-in-mapi"></a>Notificações de eventos no MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

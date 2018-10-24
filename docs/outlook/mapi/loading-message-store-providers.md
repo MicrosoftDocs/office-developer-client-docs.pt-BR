@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: fe3a76fa246cba9447db2f99562670973af183ab
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -50,5 +50,5 @@ A sequência de chamadas quando um provedor de mensagem que dll é carregada é 
 
 
 
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

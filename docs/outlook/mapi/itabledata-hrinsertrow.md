@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT HrInsertRow(
   
 > [in] Um ponteiro para uma estrutura de [SRow](srow.md) que descreve a linha a ser inserido. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

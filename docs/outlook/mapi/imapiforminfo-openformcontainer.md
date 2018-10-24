@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT OpenFormContainer(
   
 > [out] Um ponteiro para um ponteiro para o objeto de contêiner do formulário retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 63e3eca4e91e560a28d57f05250264d7e0592142
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Ponteiro para um ponteiro para uma estrutura que mantém as informações de impressão.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -58,7 +58,7 @@ S_OK
 
 Objetos de formulário chame o método **IMAPIViewContext::GetPrintSetup** para recuperar informações sobre a configuração da impressora antes de tentar imprimir a mensagem atual. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Aloca os membros **hDevMode** e **hDevName** da estrutura [FORMPRINTSETUP](formprintsetup.md) usando a função Win32 **GlobalAlloc**.
   

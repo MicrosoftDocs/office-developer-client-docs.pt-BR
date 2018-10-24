@@ -1,5 +1,5 @@
 ---
-title: Desenvolvendo um provedor de armazenamento de mensagem MAPI
+title: Desenvolver um provedor do repositório de mensagens MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 36233d51f47c53d6a69494c0fcd799a7c83add29
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22567871"
 ---
-# <a name="developing-a-mapi-message-store-provider"></a>Desenvolvendo um provedor de armazenamento de mensagem MAPI
+# <a name="developing-a-mapi-message-store-provider"></a>Desenvolver um provedor do repositório de mensagens MAPI
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -1,5 +1,5 @@
 ---
-title: Notificação de catálogo de endereços de manusear
+title: Manipula notificações do catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22582914"
 ---
-# <a name="handing-address-book-notification"></a>Notificação de catálogo de endereços de manusear
+# <a name="handing-address-book-notification"></a>Manipula notificações do catálogo de endereços
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

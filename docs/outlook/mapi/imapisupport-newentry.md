@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -74,7 +74,7 @@ HRESULT NewEntry(
   
 > [out] Um ponteiro para um ponteiro para o identificador de entrada da entrada recém-criado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -112,7 +112,7 @@ Para usar um modelo específico para adicionar uma nova entrada de um contêiner
   
 [IMAPISupport::OpenEntry](imapisupport-openentry.md)
   
-[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

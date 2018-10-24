@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: caa231842c5fd51deb80144f12fdf53e51ccc980
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ Cada campo definido pelo usuário de um item tem um valor que é armazenado em u
 
 
 
-[Adicionar uma definição de um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemplo de fluxo de PropertyDefinition](propertydefinition-stream-sample.md)
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -55,5 +55,5 @@ Para obter mais informações, consulte [Instalando um formulário em uma biblio
 
 
 
-[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
 

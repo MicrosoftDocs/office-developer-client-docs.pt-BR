@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Logoff(
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

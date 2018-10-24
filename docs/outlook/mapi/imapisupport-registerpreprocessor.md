@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 87f5e3f159542359f614a6ab698e6f06a2faf41a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -64,7 +64,7 @@ ULONG ulFlags
   
 > Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

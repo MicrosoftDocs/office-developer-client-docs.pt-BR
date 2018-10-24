@@ -1,5 +1,5 @@
 ---
-title: Escolhendo o conjunto de propriedades de um formulário
+title: Escolher um conjunto de propriedades do formulário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22586148"
 ---
-# <a name="choosing-a-forms-property-set"></a>Escolhendo o conjunto de propriedades de um formulário
+# <a name="choosing-a-forms-property-set"></a>Escolher um conjunto de propriedades do formulário
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -38,5 +38,5 @@ Para obter mais informações sobre como definir propriedades personalizadas, co
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+- [Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
 

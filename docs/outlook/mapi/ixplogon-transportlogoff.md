@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 761228a01e0dc778b962c62436e872ff20d72088
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT TransportLogoff(
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 O MAPI spooler chama o método **IXPLogon::TransportLogoff** para encerrar uma sessão do provedor de transporte para um usuário específico. Antes de chamar **TransportLogoff**, o MAPI spooler descarta quaisquer dados sobre tipos de endereço de mensagens com suporte para esta sessão passada no método [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 O provedor de transporte deve estar preparado para aceitar uma chamada para **TransportLogoff** a qualquer momento. Se uma mensagem estiver em processo, o provedor deve parar o processo de envio. 
   

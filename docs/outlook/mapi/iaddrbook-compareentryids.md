@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -64,7 +64,7 @@ HRESULT CompareEntryIDs(
   
 > [out] Um ponteiro para o resultado da comparação. O conteúdo de _lpulResult_ estiverem definido como TRUE se os identificadores de dois entrada se referir ao mesmo objeto; Caso contrário, o conteúdo estiver definido como FALSE. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

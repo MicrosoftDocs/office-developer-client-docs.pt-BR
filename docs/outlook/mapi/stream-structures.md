@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5f372e93457f2b7ef8830ae6bd0363f6b3a7bd60
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -40,9 +40,9 @@ Definições de campos definida pelo usuário de um item do Microsoft Outlook s�
 
 
 
-[Campos e itens do Outlook](outlook-items-and-fields.md)
+[Campos e itens do outlook](outlook-items-and-fields.md)
   
-[Adicionar uma definição de um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Adicionar uma definição para um novo campo definido pelo usuário](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Exemplo de fluxo de PropertyDefinition](propertydefinition-stream-sample.md)
 

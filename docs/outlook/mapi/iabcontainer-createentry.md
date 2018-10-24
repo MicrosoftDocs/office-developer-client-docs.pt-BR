@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2f8a6baa9a910b91e633084f1d9cd8ac52b24d5b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -66,7 +66,7 @@ CREATE_REPLACE
   
 > [out] Um ponteiro para um ponteiro para a entrada recém-criado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -76,7 +76,7 @@ S_OK
 
 O método **IABContainer::CreateEntry** cria uma nova entrada de um determinado tipo no contêiner especificado, retornando um ponteiro para uma implementação de interface para acesso à entrada. A nova entrada é criada usando um modelo que foi selecionado na lista do contêiner dos modelos disponíveis publicado em sua tabela único. Os chamadores acessar a tabela de únicos de um contêiner chamando seu método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) e solicitar a propriedade **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Todos os contêineres que suportam o método **IABContainer::CreateEntry** devem ser pode ser modificados. Defina sinalizador AB_MODIFIABLE do seu contêiner na sua propriedade **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) para indicar que ela é modificável. 
   
@@ -114,7 +114,7 @@ Embora os sinalizadores de verificação duplicados são passados como parâmetr
   
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   
-[Propriedade canônica PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
+[Propriedade canônico de PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)
   
 [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -50,7 +50,7 @@ TBL_BATCH
   
 > Submete-se a conclusão da classificação até que os dados na tabela são necessários.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

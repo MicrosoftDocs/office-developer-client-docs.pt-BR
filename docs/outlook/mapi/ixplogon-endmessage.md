@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -56,7 +56,7 @@ END_RESEND_NOW
   
 > O provedor de transporte precisa reiniciar a mensagem passada em uma chamada de método [IMessage::SubmitMessage](imessage-submitmessage.md) . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

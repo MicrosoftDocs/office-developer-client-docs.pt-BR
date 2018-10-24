@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -64,7 +64,7 @@ HRESULT DoConfigPropsheet(
   
 > [in] Um índice baseado em zero à página padrão superior da folha de propriedades.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

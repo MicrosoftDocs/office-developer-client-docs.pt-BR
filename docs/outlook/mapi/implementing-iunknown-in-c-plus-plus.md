@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -67,6 +67,6 @@ ULONG CMyMAPIObject::Release()
 
 ## <a name="see-also"></a>Confira também
 
-- [Implementar objetos MAPI](implementing-mapi-objects.md)
-- [Implementar interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementando a Interface IUnknown](implementing-the-iunknown-interface.md)
 

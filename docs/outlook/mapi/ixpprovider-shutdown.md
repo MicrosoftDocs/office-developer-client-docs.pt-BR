@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2d9a58ff05bb0da07762b9eafddef7303e8b9bc5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -39,7 +39,7 @@ HRESULT Shutdown (
   
 > [in] Reservado; deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

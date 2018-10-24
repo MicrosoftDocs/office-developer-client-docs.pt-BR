@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 65d633f0c2b0ce56793eaa55a417b5d6a816d449
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -63,13 +63,13 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para uma matriz de ponteiros para estruturas [MAPIUID](mapiuid.md) que identificam os tipos de destinatário. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
 > O provedor de transporte com êxito indicado os tipos de destinatários que pode manipular.
     
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 O MAPI spooler chama o método de **IXPLogon::AddressTypes** imediatamente depois que um provedor de transporte retorna de uma chamada para o método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) para que o provedor de transporte pode indicar quais tipos de destinatários que ele manipula. Para indicar que isso, o provedor de transporte deve passar novamente no parâmetro _lpppszAdrTypeArray_ um ponteiro para uma matriz de ponteiros para as cadeias de caracteres ou passar novamente no parâmetro _lpppUIDArray_ um ponteiro para uma matriz de ponteiros para **MAPIUID** estruturas ou valores de passagem em ambos os parâmetros. 
   

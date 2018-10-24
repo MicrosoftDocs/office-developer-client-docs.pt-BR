@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d9235da7e7ec6ec244ee1a75f4795e9c77ec28bf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT StartMessage(
   
 > [out] Um ponteiro para um valor de referência atribuído à mensagem. O MAPI spooler inicializa esse valor como 1 antes que ele retorna o ponteiro para o provedor de transporte.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

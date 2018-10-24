@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 0d3f540a14c833e0ee0ed212f6f3b3b709d72ec0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -82,7 +82,7 @@ MESSAGE_MOVE
   
 > As mensagens devem ser movidas, em vez de copiados. Se MESSAGE_MOVE não estiver definida, as mensagens serão copiadas.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

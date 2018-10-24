@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 33b205c0ac5caf5fc049a0732cd219aa2c321326
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -49,5 +49,5 @@ Quando seu servidor de formulário é encerrado, ele deve executar as seguintes 
 
 
 
-[Gravar um código de servidor de formulário](writing-form-server-code.md)
+[Escrevendo códigos de servidor do formulário](writing-form-server-code.md)
 

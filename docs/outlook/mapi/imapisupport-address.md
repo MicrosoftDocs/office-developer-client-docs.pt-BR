@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 524bbfe5f40a66585fb4ed4463b057ca6a0c881a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT Address(
   
 > [além, out] Um ponteiro para um ponteiro para uma lista de endereços. Na entrada, esta lista é a lista atual de destinatários em uma mensagem ou NULL, se existir lista desse tipo. Na saída, _lppAdrList_ aponta para uma lista atualizada de destinatários da mensagem. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -113,15 +113,15 @@ Se o **endereço** deve retornar uma estrutura de **ADRLIST** maior, ou se você
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônica PidTagAddressType](pidtagaddresstype-canonical-property.md)
+[Propriedade canônico de PidTagAddressType](pidtagaddresstype-canonical-property.md)
   
-[Propriedade canônica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propriedade canônico de PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propriedade canônica PidTagDisplayType](pidtagdisplaytype-canonical-property.md)
+[Propriedade canônico de PidTagDisplayType](pidtagdisplaytype-canonical-property.md)
   
-[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
   
-[Propriedade canônica PidTagRecipientType](pidtagrecipienttype-canonical-property.md)
+[Propriedade canônico de PidTagRecipientType](pidtagrecipienttype-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   
@@ -130,5 +130,5 @@ Se o **endereço** deve retornar uma estrutura de **ADRLIST** maior, ou se você
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Gerenciar memória das estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+[Gerenciando memória para ADRLIST e estruturas de SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -133,7 +133,7 @@ Para obter mais informações sobre como trabalhar com identificadores de modelo
   
 [IPropData: IMAPIProp](ipropdataimapiprop.md)
   
-[Propriedade canônica PidTagTemplateid](pidtagtemplateid-canonical-property.md)
+[Propriedade canônico de PidTagTemplateid](pidtagtemplateid-canonical-property.md)
   
 [IABLogon : IUnknown](iablogoniunknown.md)
 

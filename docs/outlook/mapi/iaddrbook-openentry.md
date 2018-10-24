@@ -89,7 +89,7 @@ _lppUnk_
   
 > [out] Um ponteiro para um ponteiro para a entrada aberta.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -72,7 +72,7 @@ SUPPRESS_UI
   
 > Impede que o provedor de transporte exiba uma interface do usuário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

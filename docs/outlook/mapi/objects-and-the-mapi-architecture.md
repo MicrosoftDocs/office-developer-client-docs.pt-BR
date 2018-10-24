@@ -1,5 +1,5 @@
 ---
-title: Objetos e a arquitetura do MAPI
+title: Objetos e a arquitetura MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 4f8bc2a5268d220c17a59148f8b8ba1d320d225b
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25391030"
 ---
-# <a name="objects-and-the-mapi-architecture"></a>Objetos e a arquitetura do MAPI
+# <a name="objects-and-the-mapi-architecture"></a>Objetos e a arquitetura MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

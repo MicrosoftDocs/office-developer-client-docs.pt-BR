@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -35,7 +35,7 @@ HRESULT OnNewMessage( void );
 
 Nenhum
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -45,7 +45,7 @@ S_OK
 
 Objetos de formulário chame o método de **IMAPIViewAdviseSink::OnNewMessage** sempre que uma mensagem é carregada em um formulário usando o método o [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Libere o ponteiro ativo ao objeto form porque não há mais aponta para o visualizador anteriormente era visualização da mensagem. 
   

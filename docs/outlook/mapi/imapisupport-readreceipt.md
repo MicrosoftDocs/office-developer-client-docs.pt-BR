@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e785d42639d51dab154a0bde239f858a92ddd143
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_NON_READ
   
 > [além, out] Na entrada, _lppEmptyMessage_ aponta para um ponteiro para uma mensagem vazia. Na saída, _lppEmptyMessage_ aponta para um ponteiro para a mensagem de relatório. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -93,7 +93,7 @@ Você pode ocultar ou exibir relatórios de leitura e nonread gerados pelo repos
   
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[Propriedade canônica PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
+[Propriedade canônico de PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

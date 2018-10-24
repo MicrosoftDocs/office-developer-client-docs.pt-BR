@@ -87,7 +87,7 @@ CCSF_USE_TNEF
   
 > O conversor deve usar o formato TNEF Transport Neutral Encapsulation Format () na mensagem MIME.
     
-## <a name="return-values"></a>Valores de retorno
+## <a name="return-values"></a>Valor de retorno
 
 E_INVALIDARG
   
@@ -126,10 +126,10 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
   
-[Propriedade canônica PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
+[Propriedade canônico de PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[Propriedade can�nico de PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Propriedade canônica PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

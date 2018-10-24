@@ -31,13 +31,13 @@ Fornece a capacidade de recuperar e alterar o acesso para propriedades de um obj
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
 |Expostos pelo:  <br/> |Objeto de dados de propriedade  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPIPropData  <br/> |
 |Tipo de ponteiro:  <br/> |LPPROPDATA  <br/> |
 |Modelo de transação:  <br/> |Nontransacted  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|

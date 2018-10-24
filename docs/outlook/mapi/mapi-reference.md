@@ -33,11 +33,11 @@ Esta seção documenta o elementos de programação de MAPI.
     
 - [Estruturas MAPI](mapi-structures.md)
     
-- [Macros relacionadas a estruturas](macros-related-to-structures.md)
+- [Macros de estruturas](macros-related-to-structures.md)
     
 - [Tipos de dados MAPI](mapi-data-types.md)
     
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
 - [Referência de MAPI do Outlook](outlook-mapi-reference.md) 
 - [Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)

@@ -1,5 +1,5 @@
 ---
-title: Obtendo e configurando propriedades com GetProps e SetProps
+title: Obter e definir propriedades com GetProps e SetProps
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 309d2b3d-dc71-4222-b293-4bfc467b5429
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7d11f69c6da8560f5879ebc38498d852486bed8b
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25395004"
 ---
-# <a name="getting-and-setting-properties-with-getprops-and-setprops"></a>Obtendo e configurando propriedades com GetProps e SetProps
+# <a name="getting-and-setting-properties-with-getprops-and-setprops"></a>Obter e definir propriedades com GetProps e SetProps
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

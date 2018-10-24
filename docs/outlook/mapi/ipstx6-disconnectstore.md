@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d840aac9-f572-958b-2e1c-aea5c01c42b2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 120df88231c6eed9aa6c3fbef2ea367e94dbd504
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -45,5 +45,5 @@ HRESULT DisconnectStore(
 
 [Sobre a API de replicação](about-the-replication-api.md)
   
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

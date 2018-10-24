@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 06a5c9de5c0ce4c0f936791086a731a55510a124
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ STATUSROW_UPDATE
   
 > Direciona o MAPI para mesclar as propriedades incluídas na matriz apontado pela _lpColumnVals_ com uma linha de tabela de status existente, em vez de uma nova linha. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

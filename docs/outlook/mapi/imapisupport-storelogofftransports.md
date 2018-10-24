@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b77a58b04e5cdeee7a9e84051a6ed287c1a20115
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -77,7 +77,7 @@ LOGOFF_OUTBOUND_QUEUE
   
 > Atualmente existem mensagens na fila de saída para o repositório.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

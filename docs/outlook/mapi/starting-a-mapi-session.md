@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -43,7 +43,7 @@ Embora não haja uma quantidade significativa de trabalho executado durante a se
   
 > Descreve as chamadas para fazer para inicializar o OLE para uso com MAPI.
     
-[Iniciar utilitários MAPI](initializing-the-mapi-utilities.md)
+[Inicializar os utilitários MAPI](initializing-the-mapi-utilities.md)
   
 > Descreve como inicializar utilitários MAPI.
     

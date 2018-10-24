@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d8159d93aef020d7c9c1b56be4cf6256f80b8aa3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -25,7 +25,7 @@ Um arquivo de configuração de formulário fornece informações sobre um formu
   
 Um arquivo de configuração do formulário é um arquivo com uma extensão. cfg e tem um formato semelhante a um arquivo de inicialização do Windows. É um arquivo de texto sem formatação com um número de seções. Cada seção começa com um nome de seção, colocado entre colchetes. Cada seção contém uma ou mais linhas que definem os valores e configurações relevantes dessa seção. Valores tem um dos seguintes tipos:
   
-- Cadeia de caracteres
+- String
     
 - Cadeia de caracteres exibida
     
@@ -43,5 +43,5 @@ Para obter mais informações sobre as seções de um arquivo. cfg, consulte o [
 
 
 
-[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
 

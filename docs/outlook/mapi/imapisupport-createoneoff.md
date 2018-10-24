@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 1526ed54fd3773856b009c7c3570064f5a66df28
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -72,7 +72,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para o identificador de entrada para o destinatário único.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -96,9 +96,9 @@ Suportar o TNEF Transport Neutral Encapsulation Format () e use o valor da propr
 
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[Propriedade canônica PidTagDisplayName](pidtagdisplayname-canonical-property.md)
+[Propriedade canônico de PidTagDisplayName](pidtagdisplayname-canonical-property.md)
   
-[Propriedade canônica PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)
+[Propriedade canônico de PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)
   
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 

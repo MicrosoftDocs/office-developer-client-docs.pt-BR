@@ -1,5 +1,5 @@
 ---
-title: Criando uma restrição
+title: Criar uma restrição
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22590096"
 ---
-# <a name="building-a-restriction"></a>Criando uma restrição
+# <a name="building-a-restriction"></a>Criar uma restrição
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: '�ltima altera��o: segunda-feira, 25 de junho de 2012'
+description: 'Última modificação: 25 de julho de 2012'
 ms.openlocfilehash: ff13866139bf422f071eaba2c146aa1140ccd1ab
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
-[Verificar se um anexo foi bloqueado](how-to-verify-an-attachment-is-blocked.md)
+[Verifique se que um anexo estiver bloqueado](how-to-verify-an-attachment-is-blocked.md)
 

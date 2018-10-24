@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -68,7 +68,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para a matriz retornada dos objetos de informações do formulário.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -86,7 +86,7 @@ MAPI_E_USER_CANCEL
 
 Visualizadores de formulário chame o método de **IMAPIFormMgr::SelectMultipleForms** para apresentado antes de uma caixa de diálogo que permite ao usuário selecionar vários formulários e, em seguida, para recuperar uma matriz de formulário informações objetos que descrevem os formulários selecionados. A caixa de diálogo **SelectMultipleForms** exibe todos os formulários, se ou não estão ocultos (ou seja, se ou não suas propriedades ocultas são criptografadas). 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Se um visualizador de formulário passa o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ , todas as cadeias de caracteres são Unicode. Provedores de biblioteca de formulário que não oferecem suporte a cadeias de caracteres Unicode devem retornar MAPI_E_BAD_CHARWIDTH se MAPI_UNICODE é passado. 
   

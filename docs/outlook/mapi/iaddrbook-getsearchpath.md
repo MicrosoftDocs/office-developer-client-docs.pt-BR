@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7bf69e560142ab282d6545389e02766389e4d018
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para um ponteiro para uma lista ordenada de identificadores de entrada do contêiner. **GetSearchPath** armazena a lista ordenada em uma estrutura [SRowSet](srowset.md) . Se não houver nenhuma contêineres na hierarquia de catálogo de endereços, será retornado zero na estrutura **SRowSet** . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

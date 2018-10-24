@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -80,7 +80,7 @@ SHOW_SOFT_DELETES
   
 > [out] Um ponteiro para um ponteiro para a implementação de interface usar para acessar o objeto aberto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

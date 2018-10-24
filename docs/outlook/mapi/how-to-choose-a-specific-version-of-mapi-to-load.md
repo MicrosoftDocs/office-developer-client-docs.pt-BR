@@ -1,5 +1,5 @@
 ---
-title: Escolher uma versão específica de MAPI para carregar
+title: Escolher uma versão MAPI específica para carregar
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25399729"
 ---
-# <a name="choose-a-specific-version-of-mapi-to-load"></a>Escolher uma versão específica de MAPI para carregar
+# <a name="choose-a-specific-version-of-mapi-to-load"></a>Escolher uma versão MAPI específica para carregar
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -37,7 +37,7 @@ Como você pode alterar as [Configurações de registro de Stub Mapi32](https://
     
    A tabela a seguir descreve essas chaves:
     
-   |**Key**|**Descrição**|
+   |**Chave**|**Descrição**|
    |:-----|:-----|
    |MSIComponentID  <br/> |Chama a uma categoria do Windows Installer PublishComponent ID (GUID) que identifica a DLL que exporta o simple MAPI ou MAPI. Se definido, esta tecla tem precedência sobre a tecla **DLLPath** ou **DLLPathEx** .  <br/> |
    |MSIApplicationLCID  <br/> |Identificador de localidade (LCID) para o seu aplicativo. A primeira sequência de valor identifica uma chave sub-recurso de `HKLM\Software` e valores de cadeia de caracteres subsequentes identificam os valores do registro sob essa chave que contêm informações de localidade.  <br/> |

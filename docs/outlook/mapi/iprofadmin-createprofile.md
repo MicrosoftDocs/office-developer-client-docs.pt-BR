@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 92d5dcdf3e5e3fbdb7490d777a24976c9ae4af1a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -62,7 +62,7 @@ MAPI_DIALOG
   
 > Podem ser exibidas as folhas de propriedades de configuração de cada um dos provedores nos serviços de mensagem a ser adicionado. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

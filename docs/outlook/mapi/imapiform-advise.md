@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -79,7 +79,7 @@ Para obter mais informações sobre a notificação e formulários, consulte [de
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Notificações de eventos no MAPI](event-notification-in-mapi.md)
+[Notificação de evento em MAPI](event-notification-in-mapi.md)
   
-[Enviar e receber notificações de formulários](sending-and-receiving-form-notifications.md)
+[Enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md)
 

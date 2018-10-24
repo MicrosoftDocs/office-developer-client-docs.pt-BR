@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a3e46732f9b74b9cdf2dc4c961e7b6b66e3d91d4
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT

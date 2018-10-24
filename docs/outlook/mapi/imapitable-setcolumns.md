@@ -52,7 +52,7 @@ TBL_BATCH
   
 > Permite que a tabela para adiar a operação de configuração de coluna até que os dados são realmente necessários.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -68,7 +68,7 @@ O conjunto de colunas de uma tabela é o grupo de propriedades que compõem as c
   
 O êxito da operação **SetColumns** seja aparente somente depois que uma chamada subsequente foi feita para recuperar os dados da tabela. Em seguida, é que quaisquer erros informados. 
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Alguns provedores de permitir que uma chamada **SetColumns** somente as colunas de tabela que fazem parte das colunas disponíveis para um modo de exibição de tabela de pedidos. Outros provedores de permitir que uma chamada **SetColumns** solicitar todas as colunas de tabela, inclusive aquelas que contém as propriedades não no conjunto de coluna original. 
   
@@ -107,11 +107,11 @@ Se uma chamada para **SetColumns** retornará MAPI_E_BUSY, indicando que a outra
   
 Você também pode chamar [HrAddColumnsEx](hraddcolumnsex.md) para alterar um conjunto de colunas. A diferença entre **HrAddColumnsEx** e **IMAPITable::SetColumns** é que **HrAddColumnsEx** menos flexíveis; ele só poderá adicionar colunas. As colunas adicionais são colocadas no início do conjunto de colunas; todas as colunas existentes aparecem seguindo essas colunas. 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI usa o método **IMAPITable::SetColumns** para definir as colunas desejadas para a tabela.  <br/> |
    
@@ -144,5 +144,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

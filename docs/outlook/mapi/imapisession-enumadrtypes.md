@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 050068b542616d1ad4d133b289aba46db2888519
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Um ponteiro para uma matriz de ponteiros para tipos de endereço.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

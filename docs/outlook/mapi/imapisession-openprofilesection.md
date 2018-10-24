@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: feb12be5cc836a0c7ff90dd5054a34d9df4b6622
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -66,7 +66,7 @@ MAPI_MODIFY
   
 > [out] Um ponteiro para um ponteiro para a seção de perfil.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

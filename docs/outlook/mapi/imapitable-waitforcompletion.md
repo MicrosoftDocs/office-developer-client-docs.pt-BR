@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a3343381709b7ce3370ba481ad8dbb935c7d4165
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ ULONG FAR * lpulTableStatus
   
 > [além, out] Na entrada, um ponteiro válido ou nulo. Na saída, se _lpulTableStatus_ for um ponteiro válido, ela aponta para o status mais recente da tabela. Se _lpulTableStatus_ for NULL, nenhuma informação de status será retornada. Se **WaitForCompletion** retorna um valor HRESULT bem sucedido, o conteúdo de _lpulTableStatus_ é indefinido. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

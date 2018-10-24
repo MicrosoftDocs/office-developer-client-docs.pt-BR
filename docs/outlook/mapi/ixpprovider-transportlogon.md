@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 96e81442125ae49e0c2856a1cf3a97a16d3453cf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -70,7 +70,7 @@ _lppMAPIError_: [out] ponteiro para um ponteiro para a estrutura **MAPIERROR** r
     
 _lppXPLogon_: [out] ponteiro para o ponteiro para o objeto de logon do provedor de transporte retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK: A chamada foi bem-sucedida e retornou o valor esperado ou os valores.
     

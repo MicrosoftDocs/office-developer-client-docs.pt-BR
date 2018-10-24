@@ -1,5 +1,5 @@
 ---
-title: Obter e definir várias propriedades
+title: Obter e configurar várias propriedades
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 88c3e0bdb3cc6660e35faf62c5bb63ec2f6352bc
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22590369"
 ---
-# <a name="getting-and-setting-multiple-properties"></a>Obter e definir várias propriedades
+# <a name="getting-and-setting-multiple-properties"></a>Obter e configurar várias propriedades
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

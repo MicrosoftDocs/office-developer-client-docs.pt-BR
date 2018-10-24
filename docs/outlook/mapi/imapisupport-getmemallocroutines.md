@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: c3ec99e4e284ca2cdc4fba8fcf53a6c5741594cb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT GetMemAllocRoutines(
   
 > [out] Um ponteiro para um ponteiro para a função **MAPIFreeBuffer** . **MAPIFreeBuffer** libera a memória. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

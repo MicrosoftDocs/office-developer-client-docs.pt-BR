@@ -1,5 +1,5 @@
 ---
-title: Criar um item de compromisso recorrente complexa
+title: Criar um item de compromisso complexo de recorrência
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25393359"
 ---
-# <a name="create-a-complex-recurrent-appointment-item"></a>Criar um item de compromisso recorrente complexa
+# <a name="create-a-complex-recurrent-appointment-item"></a>Criar um item de compromisso complexo de recorrência
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

@@ -1,5 +1,5 @@
 ---
-title: Manipulação de catálogo de endereços
+title: Manipular um catálogo de endereços
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 7a72d0e90e6c28874f341fc9ba7af843a44c5da8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22583320"
 ---
-# <a name="handling-the-address-book"></a>Manipulação de catálogo de endereços
+# <a name="handling-the-address-book"></a>Manipular um catálogo de endereços
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

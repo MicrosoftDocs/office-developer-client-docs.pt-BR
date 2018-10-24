@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 81f9388b67d3194fe1442091b9f4f75a7671cb6d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -58,7 +58,7 @@ TNEF_PROP_CONTAINED
   
 > [in] Um ponteiro para uma estrutura **SPropValue** que contém os valores de propriedade para definir as propriedades. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -83,7 +83,7 @@ Provedores, provedores de armazenamento de mensagem e o método **ITnef::SetProp
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propriedade canônica PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
+[Propriedade canônico de PidTagAttachNumber](pidtagattachnumber-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

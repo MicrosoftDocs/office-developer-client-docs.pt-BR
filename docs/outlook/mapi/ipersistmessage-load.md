@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -86,20 +86,20 @@ Se nenhum erro ocorrer, retorne S_OK.
 
 
 
-[Propriedade canônica PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
+[Propriedade canônico de PidTagMessageFlags](pidtagmessageflags-canonical-property.md)
   
-[Propriedade canônica PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
+[Propriedade canônico de PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)
   
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estado Uninitialized](uninitialized-state.md)
+[Estado não inicializado](uninitialized-state.md)
   
-[Estado HandsOffAfterSave](handsoffaftersave-state.md)
+[Estado de HandsOffAfterSave](handsoffaftersave-state.md)
   
-[Estado HandsOffFromNormal](handsofffromnormal-state.md)
+[Estado de HandsOffFromNormal](handsofffromnormal-state.md)
   
-[Estados de formulários](form-states.md)
+[Estados de formulário](form-states.md)
 
 
 [IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)

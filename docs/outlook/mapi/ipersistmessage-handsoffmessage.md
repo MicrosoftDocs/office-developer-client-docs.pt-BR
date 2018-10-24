@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -66,5 +66,5 @@ Para obter mais informações sobre os diferentes estados de um formulário, con
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Estados de formulários](form-states.md)
+[Estados de formulário](form-states.md)
 

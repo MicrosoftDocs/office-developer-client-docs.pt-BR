@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -242,6 +242,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>Confira também
 
-- [Sobre a indexação de repositórios baseados em notificação](about-notification-based-store-indexing.md)
+- [Sobre a indexação do repositório baseada em notificação](about-notification-based-store-indexing.md)
 - [Sobre URLs MAPI para indexação baseada em notificação](about-mapi-urls-for-notification-based-indexing.md)
 
