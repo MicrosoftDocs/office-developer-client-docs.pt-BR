@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6324dcc567aee48f190f8568c6c94b5ee87c731f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ HRESULT EncodeRecips(
   
 > [in] Um ponteiro para a tabela de destinatários para os quais o modo de exibição é codificado. O parâmetro _lpRecipientTable_ pode ser NULL. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -68,7 +68,7 @@ Observe que é raramente necessário chamar **EncodeRecips** , a menos que haja 
   
 [ITnef::AddProps](itnef-addprops.md)
   
-[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

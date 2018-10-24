@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 46d993060d03b8c22c2d6c083c05f023648e6642
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -59,7 +59,7 @@ LPBYTE FAR * lppbCollapseState
   
 > [out] Um ponteiro para um ponteiro para estruturas que contenham dados que descreve o modo de exibição de tabela atual.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -85,7 +85,7 @@ O método **IMAPITable::GetCollapseState** funciona com o método [IMAPITable::S
     
 Para obter mais informações sobre tabelas categorizadas, consulte [classificação e categorização](sorting-and-categorization.md).
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 Armazene o estado atual de todos os nós de uma tabela no parâmetro _lppbCollapseState_ . 
   

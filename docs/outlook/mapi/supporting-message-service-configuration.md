@@ -1,5 +1,5 @@
 ---
-title: Configuração do serviço de mensagens de suporte
+title: Suporte à configuração do serviço de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6f9ac5d9cef09ce6d4f3006ecc804db6291cae77
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22579337"
 ---
-# <a name="supporting-message-service-configuration"></a>Configuração do serviço de mensagens de suporte
+# <a name="supporting-message-service-configuration"></a>Suporte à configuração do serviço de mensagens
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -53,5 +53,5 @@ Para suportar a configuração do serviço de mensagens, use o procedimento a se
     
 ## <a name="see-also"></a>Confira também
 
-- [Implementação do serviço de mensagens](message-service-implementation.md)
+- [Implementação do serviço de mensagem](message-service-implementation.md)
 

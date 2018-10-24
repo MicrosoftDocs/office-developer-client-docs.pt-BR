@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ LPADRLIST lpRecipList
   
 > [in] Um ponteiro para uma estrutura [ADRLIST](adrlist.md) que descreve os destinatários da mensagem apontado pela _lpMessage_.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

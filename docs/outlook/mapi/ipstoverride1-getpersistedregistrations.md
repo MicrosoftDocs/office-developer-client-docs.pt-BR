@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -40,7 +40,7 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 > [!NOTE]
 > suporte. pst para ANSI não está implementado. 
   
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

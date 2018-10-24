@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -193,15 +193,15 @@ Se ocorrer um erro de global na chamada **DoCopyTo** , não use ou livre a estru
   
 [IMAPISupport::GetLastError](imapisupport-getlasterror.md)
   
-[Propriedade canônica PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
+[Propriedade canônico de PidTagContainerContents](pidtagcontainercontents-canonical-property.md)
   
-[Propriedade canônica PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
+[Propriedade canônico de PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)
   
-[Propriedade canônica PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
+[Propriedade canônico de PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)
   
-[Propriedade canônica PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
+[Propriedade canônico de PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)
   
-[Propriedade canônica PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
+[Propriedade canônico de PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)
   
 [SPropProblemArray](spropproblemarray.md)
   

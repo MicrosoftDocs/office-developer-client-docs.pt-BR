@@ -50,7 +50,7 @@ As entradas a seguir em ordem alfabética contém documentação para os tipos d
 |[SKEY](skey.md) <br/> |
 |[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
-|[ESTADO DE SINCRONIZAÇÃO](syncstate.md) <br/> |
+|[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
 |[UPDEL](updel.md) <br/> |
 |[UPDELE](updele.md) <br/> |

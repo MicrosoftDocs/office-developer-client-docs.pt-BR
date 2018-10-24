@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e0c8c4c6251581506c7bdd78c009bb12e8291c81
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -49,7 +49,7 @@ HRESULT COfflineObj::Advise(
   
 > [out] Um token de advise retornado para o chamador do cliente para subsequentemente cancelamento de retorno de chamada para o objeto.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
@@ -76,7 +76,7 @@ Ao abrir um objeto offline usando **[HrOpenOfflineObj](hropenofflineobj.md)**, u
 [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
 

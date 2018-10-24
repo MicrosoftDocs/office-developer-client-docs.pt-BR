@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
-description: '�ltima altera��o: segunda-feira, 7 de dezembro de 2015'
+description: 'Última modificação: 07 de dezembro de 2015'
 ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -43,5 +43,5 @@ Os tópicos de referência para essas interfaces documentadas as informações b
 
 
 
-[Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+[Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 

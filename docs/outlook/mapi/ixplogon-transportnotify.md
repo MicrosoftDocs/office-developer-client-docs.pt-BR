@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f0c5cd70595ea43a0957e764150ee4d5153e32c6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -82,7 +82,7 @@ NOTIFY_END_OUTBOUND_FLUSH
   
 > [out] Um ponteiro para um ponteiro para dados de eventos específicos. Para obter mais informações sobre quais _lppvData_ Especifica, consulte a descrição para o parâmetro _lpulFlags_ . 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -94,7 +94,7 @@ O MAPI spooler chama o método de **IXPLogon::TransportNotify** para sinalizar o
   
 Quando o usuário tenta cancelar uma mensagem que o provedor de transporte foi adiada anteriormente, o MAPI spooler chama **TransportNotify**, passando sinalizadores NOTIFY_ABORT_DEFERRED tanto o NOTIFY_CANCEL_MESSAGE em _ulFlags_. Se o MAPI spooler é fazer logoff e ainda tem mensagens na fila, ele passa apenas NOTIFY_ABORT_DEFERRED em _ulFlags_ quando ele chama **TransportNotify**.
   
-## <a name="notes-to-implementers"></a>Notas para implementadores
+## <a name="notes-to-implementers"></a>Observações para implementadores
 
 O provedor deve sincronizar o acesso aos seus dados nessa chamada, pois o MAPI spooler pode chamar esse método a partir de outro thread de execução ou um procedimento para uma janela diferente. Isso provavelmente ocorrerá quando o MAPI spooler sinaliza o cancelamento de uma mensagem que o provedor de transporte foi iniciado enviando.
   

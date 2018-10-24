@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -33,7 +33,7 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
 _ulFlags_
   
@@ -65,11 +65,11 @@ _pfld_
     
 _feid_
   
-> [out] Identificação de entrada da pasta.
+> [out] ID da entrada da pasta.
     
 ## <a name="see-also"></a>Confira também
 
 - [Sobre a API de replicação](about-the-replication-api.md) 
 - [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
-- [Constantes MAPI](mapi-constants.md)
+- [Constantes de MAPI](mapi-constants.md)
 

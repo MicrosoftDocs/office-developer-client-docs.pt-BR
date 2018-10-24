@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: f8982bafc0678378ae46dc31a9417cc11bb695a7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -60,5 +60,5 @@ Chame **IOSTX::SetSyncResult** antes de chamar **IOSTX::SyncEnd** para informar 
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

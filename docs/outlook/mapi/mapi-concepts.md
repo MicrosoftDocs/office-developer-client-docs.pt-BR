@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: e5b3b7ac38e4e6b217779190fd652c7a223792b8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -29,7 +29,7 @@ Esta seção fornece um guia para compreender e programando com MAPI.
     
 - [Provedores de serviço MAPI](mapi-service-providers.md): fornece informações básicas sobre os provedores de serviços MAPI.
     
-## <a name="related-sections"></a>Se��es relacionadas
+## <a name="related-sections"></a>Seções relacionadas
 
 - [Introdução à referência do MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Amostras MAPI](mapi-samples.md)

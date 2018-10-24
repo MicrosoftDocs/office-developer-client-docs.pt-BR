@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -44,7 +44,7 @@ ULONG FAR * lpulFlags
   
 > [além, out] Na entrada, o parâmetro _lpulFlags_ é reservado e deve ser zero. Na saída, _lpulFlags_ deve ser NULL. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   

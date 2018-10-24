@@ -1,5 +1,5 @@
 ---
-title: Manipulação de notificação de tabela
+title: Manipular notificações de tabela
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22595129"
 ---
-# <a name="handling-table-notification"></a>Manipulação de notificação de tabela
+# <a name="handling-table-notification"></a>Manipular notificações de tabela
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   

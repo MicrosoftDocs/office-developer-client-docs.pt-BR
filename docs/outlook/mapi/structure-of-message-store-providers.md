@@ -1,5 +1,5 @@
 ---
-title: Estrutura de provedores de armazenamento de mensagem
+title: Estrutura de provedores do armazenamento de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
-description: '�ltima altera��o: s�bado, 23 de julho de 2011'
+description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 58b6771c6bdae91ad0e496189258e4745de5bc84
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22584286"
 ---
-# <a name="structure-of-message-store-providers"></a>Estrutura de provedores de armazenamento de mensagem
+# <a name="structure-of-message-store-providers"></a>Estrutura de provedores do armazenamento de mensagens
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
@@ -31,5 +31,5 @@ A ilustração a seguir mostra uma estrutura de tópicos de alto nível da hiera
   
 ## <a name="see-also"></a>Confira também
 
-- [Desenvolver um provedor do repositório de mensagens MAPI](developing-a-mapi-message-store-provider.md)
+- [Desenvolver um provedor de repositórios de mensagens MAPI](developing-a-mapi-message-store-provider.md)
 
