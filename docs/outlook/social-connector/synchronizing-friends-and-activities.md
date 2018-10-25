@@ -7,48 +7,48 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
-description: Outlook Social Connector (OSC) oferece suporte a exibindo informações de uma rede social sobre uma pessoa no cartão de visita ou no painel de pessoas do Outlook. SharePoint Server, SharePoint Workspace, cliente do Lync e todos os aplicativos cliente do Office que dão suporte ao suporte de informações de presença cartão de visita.
-ms.openlocfilehash: 9e843d8013b329a88de88232f16740edae77c1d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O Outlook Connector Social (OSC) dá suporte à exibição de informações de uma rede social sobre uma pessoa no Cartão de Visita ou no Painel de Pessoas do Outlook. O SharePoint Server, o SharePoint Workspace, o cliente Lync e todos os aplicativos cliente do Office com suporte para informações de presença também incluem suporte ao Cartão de Visita.
+ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19770957"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399155"
 ---
 # <a name="synchronizing-friends-and-activities"></a>Sincronizar amigos e atividades
 
-Outlook Social Connector (OSC) oferece suporte a exibindo informações de uma rede social sobre uma pessoa no cartão de visita ou no painel de pessoas do Outlook. SharePoint Server, SharePoint Workspace, cliente do Lync e todos os aplicativos cliente do Office que dão suporte ao suporte de informações de presença cartão de visita.
+O Outlook Connector Social (OSC) dá suporte à exibição de informações de uma rede social sobre uma pessoa no Cartão de Visita ou no Painel de Pessoas do Outlook. O SharePoint Server, o SharePoint Workspace, o cliente Lync e todos os aplicativos cliente do Office com suporte para informações de presença também incluem suporte ao Cartão de Visita.
   
-Você pode usar o cartão de visita em cenários de colaboração nos aplicativos do Office para obter mais informações sobre as pessoas que você está colaborando com. Exemplos desses cenários incluem mensagens no Outlook e coautoria em um documento do Word. Quando você clica na guia **What's new** de um cartão de contato, o exibe informações sobre essa pessoa. 
+Você pode usar o Cartão de Visita em cenários de colaboração de aplicativos do Office para saber mais sobre as pessoas com as quais está colaborando. Exemplos desses cenários incluem mensagens no Outlook e coautoria de um documento no Word. Quando você clica na guia **Novidades** de um Cartão de Visita, ela exibe informações sobre essa pessoa. 
   
-O painel de pessoas do Outlook exibe informações sobre uma pessoa que pode ser um remetente ou destinatário de um item do Outlook que você selecionou. Sempre que você selecione outra pessoa no painel de pessoas ou outro item do Explorer do Outlook ou abre um item do Outlook em um Inspetor, o Outlook Social Connector (OSC) atualiza o painel de pessoas. 
+O Painel de Pessoas do Outlook exibe informações sobre uma pessoa, que pode ser um remetente ou destinatário de um item do Outlook que você selecionou. Sempre que você selecionar outra pessoa no Painel de Pessoas ou outro item no explorador do Outlook, ou abrir um item do Outlook em um inspetor, o Outlook Social Connector (OSC) atualizará o Painel de Pessoas. 
   
-No cartão de visita ou painel de pessoas exibir informações atuais para a pessoa selecionada, o OSC sincroniza tais informações por meio dos provedores OSC e alguma forma de cache. Esta sincronização depende os provedores OSC que estão instalados no computador cliente, o social redes que você fez logon através de seus provedores OSC e o modo de sincronização que cada um dos provedores OSC para esses social redes suporta.
+Para que o Cartão de Visita ou o Painel de Pessoas mostre informações atuais da pessoa selecionada, o OSC sincroniza essas informações por meio dos provedores OSC e de uma determinada forma de armazenamento em cache. Essa sincronização depende dos provedores OSC instalados no computador cliente, das redes sociais nas quais você fez logon por meio de seus provedores OSC e do modo de sincronização com suporte por cada um dos provedores OSC para essas redes sociais.
   
-O OSC suporta sincronização amigos, não-amigos e atividades de amigos e não-amigos de maneiras diferentes: cache de sincronização, sincronização sob demanda e sincronização híbrida. A principal diferença entre esses modos de sincronização é onde o OSC armazena os dados — se ele está em uma pasta no repositório de Outlook padrão do usuário ou na memória no computador do usuário. Em cada caso conforme observado neste tópico, há um tempo mínimo padrão que os dados permanecerão na pasta ou memória antes que os dados são atualizados. Em alguns casos, a quantidade mínima de tempo pode ser personalizada pela diretiva de grupo. Para obter mais informações sobre diretivas de grupo que controlam o comportamento do OSC, consulte [como gerenciar o conector Social do Outlook usando a diretiva de grupo](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
+O OSC dá suporte à sincronização de amigos, não amigos e atividades de amigos e não amigos de diferentes maneiras: sincronização em cache, sincronização sob demanda e sincronização híbrida. A principal diferença entre esses modos de sincronização é o local em que o OSC armazena os dados: em uma pasta no repositório padrão do Outlook do usuário ou na memória do computador do usuário. Em cada caso, conforme observado neste tópico, há um tempo mínimo padrão em que os dados permanecem na pasta ou na memória antes de serem atualizados. Em alguns casos, o tempo mínimo pode ser personalizado por uma política de grupo. Para saber mais sobre políticas de grupo que controlam o comportamento do OSC, consulte [Como gerenciar o Outlook Social Connector usando uma política de grupo](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
   
-Observe que se a pessoa selecionada não for um membro da rede social, o OSC não exibir qualquer informação pessoa ou atividade dessa pessoa no cartão de visita ou painel pessoas.
+Observe que, se a pessoa selecionada não for membro da rede social, o OSC não exibirá informações pessoais ou de atividades para essa pessoa no Cartão de Visita ou no Painel de Pessoas.
   
-## <a name="cached-synchronization"></a>Sincronização de cache
+## <a name="cached-synchronization"></a>Sincronização em cache
 
-Um provedor OSC pode armazenar informações de amigos na rede social em uma pasta específica no repositório de Outlook padrão do usuário e atualizar periodicamente nesse cache após um período de tempo especificado tiver expirado. Cache de informações em uma pasta tem a vantagem de reduzir o tráfego na rede social.
+Um provedor OSC pode armazenar informações de amigos na rede social em uma pasta específica do repositório padrão do usuário no Outlook e atualizar periodicamente esse cache após um período de tempo especificado. O armazenamento de informações em cache em uma pasta tem a vantagem de reduzir o tráfego para a rede social.
   
 > [!NOTE]
-> Iniciando no Outlook Social Connector 2013, o OSC não suporta mais cache sincronização de atividades. 
+> Começando com o Outlook Social Connector 2013, o OSC não tem mais suporte para a sincronização de atividades em cache. 
   
-### <a name="cached-synchronization-of-friends"></a>Sincronização de cache de amigos
+### <a name="cached-synchronization-of-friends"></a>Sincronização em cache de amigos
 
-Se um provedor OSC oferece suporte à sincronização de cache para amigos, o OSC caches de informações de amigos do usuário conectado na rede social. As informações são armazenadas em cache em uma pasta de contatos do Outlook que é específica para a rede social no armazenamento do Outlook do usuário padrão. O nome da pasta Contatos baseia-se no nome da rede social, o que o OSC obtém usando a propriedade [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md) . 
+Se um provedor OSC oferecer suporte à sincronização em cache para amigos, o OSC armazenará em cache as informações dos amigos do usuário conectado na rede social. As informações são armazenadas em cache em uma pasta de contatos do Outlook específica dessa rede social no repositório padrão do usuário no Outlook. O nome da pasta de contatos se baseia no nome da rede social, que o OSC obtém usando a propriedade [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md). 
   
-Na sincronização do cache, o OSC armazena informações de amigos do usuário conectado somente na rede social. O OSC não acessar informações de não-amigos.
+Na sincronização em cache, o OSC armazena informações apenas para os amigos do usuário conectado na rede social. O OSC não acessa informações de não amigos.
   
-O intervalo padrão para que o OSC atualizar a pasta de contatos para obter informações de amigos da rede social é uma vez por dia (ou uma vez por 1440 minutos). Este intervalo de atualização também pode ser definido pela diretiva de grupo, conforme descrito no início deste tópico.
+O intervalo padrão para o OSC atualizar a pasta de contatos de informações dos amigos na rede social é uma vez por dia (ou uma vez a cada 1440 minutos). Esse intervalo de atualização também pode ser definido por uma política de grupo, conforme discutido no início desse tópico.
   
-Se ocorrer um erro durante uma atualização, o OSC repete em um intervalo especificado pelo elemento **contactSyncRestartInterval** em **recursos** XML. Este intervalo de repetição tem um valor padrão de 30 minutos e também pode ser definido pela diretiva de grupo. 
+Se ocorrer um erro durante uma atualização, o OSC tentará novamente em um intervalo especificado pelo elemento **contactSyncRestartInterval** no XML de **capabilities**. Esse intervalo de repetição tem um valor padrão de 30 minutos e também pode ser definido por uma política de grupo. 
   
-Quando um usuário abre um cartão de visita e seleciona a guia **What's new** , atualiza a guia **What's new** . Da mesma forma, quando um usuário do Outlook reselects um item do Outlook ou reselects uma pessoa no painel de pessoas, atualiza o painel de pessoas. Se o intervalo de atualização de cache não tiver expirado, o OSC vai para o cache para obter todas as informações para o usuário selecionado. Isso evita a sobrecarga de uso estensibilidade do provedor do OSC para acessar a rede social. Se o intervalo de atualização tiver expirado, o OSC chama o método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para obter informações dos amigos atual para o usuário conectado e atualiza o cache da pasta Contatos. 
+Quando um usuário abre um Cartão de Visita e seleciona a guia **Novidades**, essa guia**** é atualizada. Da mesma forma, quando um usuário do Outlook seleciona novamente um item no Outlook ou seleciona novamente uma pessoa no Painel de Pessoas, esse painel é atualizado. Se o intervalo de atualização de cache não tiver expirado, o OSC acessará o cache para saber mais sobre o usuário selecionado. Isso evita a sobrecarga de usar a extensibilidade do provedor OSC para acessar a rede social. Se o intervalo de atualização tiver expirado, o OSC chamará o método [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) para saber mais sobre os amigos atuais para o usuário conectado e atualizará o cache na pasta de contatos. 
   
-O provedor do OSC informa o OSC que suporta a sincronização em cache de amigos, especificando os seguintes elementos nas **capacidades** XML: 
+O provedor OSC informa ao OSC que aceita a sincronização em cache de amigos, especificando os seguintes elementos no XML de **recursos**: 
   
 - **getFriends** = **true**
     
@@ -58,23 +58,23 @@ O provedor do OSC informa o OSC que suporta a sincronização em cache de amigos
     
 ## <a name="on-demand-synchronization"></a>Sincronização sob demanda
 
-Quando um usuário seleciona a guia **What's new** em um cartão de contato, ou seleciona um item do Outlook diferente ou uma pessoa diferente no painel de pessoas no Outlook, o OSC atualiza o painel de pessoas ou um cartão de visita respectivamente. Se um provedor OSC suporta a sincronização sob demanda de pessoas ou atividades, o OSC sincroniza com um cache na memória e atualiza os detalhes, como nome, título, imagens e fluxos de atividade, no painel pessoas ou cartão de visita. Para a sincronização sob demanda, ao contrário de sincronização de cache, o OSC tenta atualizar as informações para a pessoa independentemente se essa pessoa é um amigo ou amigo do usuário conectado na rede social. 
+Quando um usuário seleciona a guia **Novidades** em um Cartão de Visita ou seleciona um item diferente do Outlook ou uma pessoa diferente no Painel de Pessoas no Outlook, o OSC atualiza o Cartão de Visita ou o Painel de Pessoas, respectivamente. Se um provedor OSC oferecer suporte à sincronização sob demanda de pessoas ou atividades, o OSC será sincronizado com um cache na memória e atualizará os detalhes, como nome, título, imagem e fluxos de atividades, no Cartão de Visita ou no Painel de Pessoas. Para sincronização sob demanda, diferentemente da sincronização em cache, o OSC tenta atualizar as informações da pessoa, independentemente de essa pessoa ser ou não um amigo do usuário conectado na rede social. 
   
-Dados de pessoa (ou atividade) sob demanda são armazenados na memória apenas. Os dados na memória estão desmarcados, quando o aplicativo cliente do Office desligado, ou o usuário faz uma atualização do cartão de visita ou painel de pessoas e os dados permaneceu na memória por mais de um intervalo de atualização. Observe que a atualização da rede social é sempre iniciada por um usuário atualizar o cartão de visita ou o painel de pessoas, (por exemplo, por selecionando um usuário diferente no painel de pessoas, ou selecionar um item diferente na janela do explorer do Outlook). 
+Os dados sob demanda de pessoas (ou atividades) são armazenados apenas na memória. Os dados na memória são limpos quando o aplicativo cliente do Office é desligado ou quando o usuário gera uma atualização do Cartão de Visita ou do Painel de Pessoas e os dados permanecem na memória por mais tempo que o intervalo de atualização. Observe que a atualização da rede social é sempre iniciada por um usuário que atualiza o Cartão de Visita ou o Painel de Pessoas (por exemplo, selecionando um usuário diferente no Painel de Pessoas ou selecionando um item diferente na janela do explorador do Outlook). 
 
-No entanto, o inverso não é sempre true — não cada atualização do cartão de visita ou painel pessoas necessariamente provoca uma atualização da rede social. Se o usuário atualiza o cartão de visita ou dados do painel de pessoas e a pessoa (ou atividade) permaneceu na memória por mais de um intervalo de atualização, o OSC chama [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) (ou [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)) para Atualize as informações na memória da rede social. O período permitido para obter informações de amigo e não-amigo na memória é 24 horas e para atividades, 30 minutos. 
+No entanto, o inverso nem sempre é verdade: nem todas as atualizações do Cartão de Visita ou do Painel de Pessoas implicam necessariamente uma atualização da rede social. Se o usuário atualizar o Cartão de Visita ou o Painel de Pessoas e os dados da pessoa (ou da atividade) permanecerem na memória por mais tempo que o intervalo de atualização, o OSC chamará [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md) (ou [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)) para atualizar as informações na memória da rede social. O período permitido para informações de amigos e não amigos na memória é de 24 horas e, para atividades, 30 minutos. 
   
-Uma das diferenças importante entre a sincronização de cache e sob demanda é que sincronização sob demanda pode buscar informações de pessoa e a atividade de amigos e não-amigos na rede. Se a pessoa selecionada é um não-amigo, o OSC atualiza informações e atividades dessa pessoa se qualquer um dos seguintes requisitos for atingido: 
+Uma diferença importante entre a sincronização em cache e sob demanda é que a sincronização sob demanda pode buscar informações de pessoas e atividades para amigos e não amigos na rede. Se a pessoa selecionada não for um amigo, o OSC atualizará informações e atividades para essa pessoa se um dos seguintes requisitos for atendido: 
   
-- A pessoa é um usuário na rede social e permite a exibição pública de informações de perfil e atividade.
+- A pessoa é um usuário na rede social e permite a visualização pública de informações de perfil e atividades.
     
-- A pessoa estiver na mesma rede que o usuário conectado em rede social (por exemplo, na mesma rede para alunos university).
+- A pessoa está na mesma rede que o usuário conectado naquela rede social (por exemplo, na mesma rede de ex-alunos da universidade).
     
-A sincronização sob demanda de pessoas e atividades resulta em mais chamadas para o provedor de mecanismo OSC central. Redes sociais devem ser capazes de lidar com os requisitos de largura de banda maior de sincronização sob demanda.
+A sincronização sob demanda de pessoas e atividades resulta em mais chamadas para o provedor do provenientes do mecanismo principal do OSC. Redes sociais devem ser capazes de lidar com os requisitos de maior largura de banda da sincronização sob demanda.
   
-### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>Especificando os elementos XML para a sincronização sob demanda
+### <a name="specifying-xml-elements-for-on-demand-synchronization"></a>Especificação de elementos XML para sincronização sob demanda
 
-O provedor do OSC informa o OSC que ele oferece suporte a sincronização sob demanda de amigos e não-amigos, especificando os seguintes elementos nas **capacidades** XML: 
+O provedor OSC informa ao OSC que aceita a sincronização sob demanda de amigos e não amigos, especificando os seguintes elementos no XML de **recursos**: 
   
 - **getFriends** = **true**
     
@@ -82,7 +82,7 @@ O provedor do OSC informa o OSC que ele oferece suporte a sincronização sob de
     
 - **dynamicContactsLookup** = **true**
     
-O provedor do OSC informa o OSC que ele oferece suporte a sincronização sob demanda de atividades, especificando os seguintes elementos nas **capacidades** XML: 
+O provedor OSC informa ao OSC que aceita a sincronização sob demanda de atividades, especificando os seguintes elementos no XML de **recursos**: 
   
 - **getActivities** = **true**
     
@@ -90,22 +90,22 @@ O provedor do OSC informa o OSC que ele oferece suporte a sincronização sob de
     
 - **dynamicActivitiesLookupEx** = **true**
     
-## <a name="hybrid-synchronization"></a>Sincronização de híbrido
+## <a name="hybrid-synchronization"></a>Sincronização híbrida
 
-Um provedor OSC pode oferecer suporte à sincronização de híbrido de amigos e não-amigos. Isso pode otimizar as chamadas entre o mecanismo de núcleo do OSC e o provedor do OSC, as chamadas para a rede social para a sincronização sob demanda de amigos e a moeda de dados dos amigos. O tempo mínimo que de dados podem permanecer em uma pasta ou a memória, onde aplicável, é o mesmo que os limites nos modos de sincronização do armazenamento em cache ou sob demanda.
+Um provedor OSC pode oferecer suporte à sincronização híbrida de amigos e não amigos. Isso pode otimizar as chamadas entre o mecanismo principal do OSC e o provedor OSC, as chamadas para a rede social para sincronização sob demanda de amigos e a moeda dos dados dos amigos. O tempo mínimo que os dados podem permanecer em uma pasta ou na memória, quando aplicável, é o mesmo que os limites nos modos de sincronização em cache ou sob demanda.
   
 > [!NOTE]
-> Iniciando no Outlook Social Connector 2013, o OSC suporta apenas a sincronização de atividades sob demanda e não oferece suporte para sincronização de híbrido das atividades. 
+> Começando com o Outlook Social Connector 2013, o OSC oferece suporte apenas à sincronização sob demanda de atividades e não inclui mais suporte para a sincronização híbrida de atividades. 
   
-### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>Sincronização de híbrido de amigos e não-amigos
+### <a name="hybrid-synchronization-of-friends-and-non-friends"></a>Sincronização híbrida de amigos e não amigos
 
-Se um provedor OSC oferece suporte à sincronização de híbrido de amigos e não-amigos, o OSC faz o seguinte: 
+Se um provedor OSC oferecer suporte à sincronização híbrida de amigos e não amigos, o OSC fará o seguinte: 
   
-- O OSC armazena informações de amigos do usuário registrado na pasta contato específicos de rede social.
+- O OSC armazenará informações de amigos do usuário conectado na pasta de contatos específica da rede social.
     
-- O OSC armazena informações de não-amigos do usuário registrado na memória.
+- O OSC armazenará informações de não amigos do usuário conectado na memória.
     
-O provedor do OSC informa o OSC que ele oferece suporte a sincronização híbrido de amigos e não-amigos, especificando os seguintes elementos nas **capacidades** XML: 
+O provedor OSC informa ao OSC que aceita a sincronização híbrida de amigos e não amigos, especificando os seguintes elementos no XML de **recursos**: 
   
 - **getFriends** = **true**
     
@@ -115,30 +115,30 @@ O provedor do OSC informa o OSC que ele oferece suporte a sincronização híbri
     
 ## <a name="synchronization-intervals"></a>Intervalos de sincronização
 
-A tabela a seguir resume os intervalos de sincronização de amigos e informações de não-amigos entre o cache correspondente (pasta ou memória) e a rede social, dependendo do modo de sincronização com suporte. Para o modo de sincronização de híbrido, consulte as linhas para o modo em cache para amigos e na linha para o modo de não-amigos sob demanda.
+A tabela a seguir resume os intervalos de sincronização para informações de amigos e não amigos entre o cache correspondente (pasta ou memória) e a rede social, dependendo do modo de sincronização com suporte. Para o modo de sincronização híbrida, consulte as linhas do modo em cache para amigos e a linha do modo sob demanda para pessoas que não são amigos.
   
-|**Modo de sincronização para as pessoas**|**Onde o intervalo de atualização está definido**|**Padrão de tempo mínimo antes da atualização**|**Substituição de diretiva de grupo**|
+|**Modo de sincronização para pessoas**|**Onde o intervalo de atualização é definido**|**Tempo mínimo padrão antes da atualização**|**Substituição da política de grupo**|
 |:-----|:-----|:-----|:-----|
-|Cache  <br/> |Definir dentro OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor de registro do Windows **NetContactSyncInterval** <br/> |
-|Cache  <br/> |elemento de **contactSyncRestartInterval** em **recursos** XML  <br/> |30 minutos se **contactSyncRestartInterval** não estiver definida.  <br/> |De valor do registro do Windows **contactSyncRestartInterval** <br/> |
-|Sob demanda  <br/> |Definir dentro OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor de registro do Windows **OnlineSearchExpiryTime** <br/> |
+|Em cache  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **NetContactSyncInterval** <br/> |
+|Em cache  <br/> |Elemento **contactSyncRestartInterval** no XML de **recursos**  <br/> |30 minutos se **contactSyncRestartInterval** não estiver definido  <br/> |Valor do Registro do Windows **contactSyncRestartInterval** <br/> |
+|Sob demanda  <br/> |Definido no OSC  <br/> |1440 minutos (24 horas)  <br/> |Valor do Registro do Windows **OnlineSearchExpiryTime** <br/> |
    
-A tabela a seguir resume os intervalos de sincronização para atividades de amigos e amigos entre o cache correspondente (pasta ou memória) e a rede social, dependendo os modos de sincronização com suporte. 
+A tabela a seguir resume os intervalos de sincronização para atividades de amigos e de não amigos entre o cache correspondente (pasta ou memória) e a rede social, dependendo dos modos de sincronização compatíveis. 
   
-|**Modo de sincronização de atividades**|**Onde o intervalo de atualização está definido**|**Padrão de tempo mínimo antes da atualização**|**Substituição de diretiva de grupo**|
+|**Modo de sincronização para atividades**|**Onde o intervalo de atualização é definido**|**Tempo mínimo padrão antes da atualização**|**Substituição da política de grupo**|
 |:-----|:-----|:-----|:-----|
-|Sob demanda  <br/> |Definir dentro OSC  <br/> |30 minutos  <br/> |Valor de registro do Windows **OnlineSearchExpiryTime** <br/> |
+|Sob demanda  <br/> |Definido no OSC  <br/> |30 minutos  <br/> |Valor do Registro do Windows **OnlineSearchExpiryTime** <br/> |
    
-As informações a seguir aplica-se para os valores do registro do Windows listados nas duas tabelas:
+As informações a seguir aplicam-se aos valores de Registro do Windows listados nas duas tabelas:
   
-- Chave:`HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
+- Chave: `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Outlook\SocialConnector`
     
-- Valor: O valor DWORD entre 1 e 10080
+- Valor: valor DWORD entre 1 e 10080
     
 ## <a name="see-also"></a>Confira também
 
-- [Exemplo de XML de recursos](capabilities-xml-example.md)  
+- [Exemplo do XML de recursos](capabilities-xml-example.md)  
 - [XML para recursos](xml-for-capabilities.md)
-- [Desenvolvendo um provedor com o esquema OSC XML](developing-a-provider-with-the-osc-xml-schema.md)  
-- [Como gerenciar o conector Social do Outlook usando a diretiva de grupo](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Desenvolvimento de um provedor com o esquema XML do OSC](developing-a-provider-with-the-osc-xml-schema.md)  
+- [Como gerenciar o Outlook Social Connector usando uma política de grupo](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

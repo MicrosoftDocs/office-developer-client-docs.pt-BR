@@ -4,94 +4,94 @@ manager: soliver
 ms.date: 01/20/2015
 ms.audience: Developer
 keywords:
-- evento OnAfterImport [infopath 2007], evento OnAfterChange [InfoPath 2007], evento OnBeforeChange [InfoPath 2007], evento OnSubmitRequest [InfoPath 2007], evento OnVersionUpgrade [InfoPath 2007], modelos de formulário compatíveis com o InfoPath 2003, manipuladores de eventos Evento onLoad [InfoPath 2007], [InfoPath 2007], manipuladores de eventos adicionando usando o modelo de objeto do InfoPath 2003, evento OnValidate [InfoPath 2007], o evento OnContextChange [InfoPath 2007], o evento OnSaveRequest [InfoPath 2007], o evento OnClick [InfoPath 2007] Evento de OnSwitchView [InfoPath 2007], evento OnSign [InfoPath 2007], evento OnMergeRequest [InfoPath 2007]
+- evento onafterimport [infopath 2007],evento OnAfterChange [InfoPath 2007],evento OnBeforeChange [InfoPath 2007],evento OnSubmitRequest [InfoPath 2007],evento OnVersionUpgrade [InfoPath 2007],modelos de formulário compatíveis com InfoPath 2003, manipulador de eventos,evento OnLoad [InfoPath 2007],manipuladores de eventos [InfoPath 2007], adicionar usando o modelo de objeto do InfoPath 2003,evento OnValidate [InfoPath 2007],evento OnContextChange [InfoPath 2007],evento OnSaveRequest [InfoPath 2007],evento OnClick [InfoPath 2007],evento OnSwitchView [InfoPath 2007],evento OnSign [InfoPath 2007],evento OnMergeRequest [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
-description: Os comandos de menu para adicionar funções do manipulador de evento em um projeto de modelo de formulário que seja compatível com o modelo de objeto do InfoPath 2003 são essencialmente os mesmos para outros tipos de modelos de formulário.
-ms.openlocfilehash: 9f037c59180b9c8d858ec73d79ef892974efe483
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Os comandos de menu para adicionar funções de manipulador de eventos em um projeto de modelo de formulário compatível com o modelo de objeto do InfoPath 2003 são essencialmente os mesmos que os dos outros tipos de modelos de formulário.
+ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765618"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386702"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Adicionar um manipulador de eventos usando o modelo de objeto do InfoPath
 
-Os comandos de menu para adicionar funções do manipulador de evento em um projeto de modelo de formulário que seja compatível com o modelo de objeto do InfoPath 2003 são essencialmente os mesmos para outros tipos de modelos de formulário. Por exemplo, para adicionar um manipulador de eventos **OnLoad** , com o modelo de formulário aberto no InfoPath designer, clique no comando de **Em evento OnLoad** na guia **desenvolvedor** . O foco alterna automaticamente para o código de formulário para o manipulador de evento **OnLoad** no editor de código do Visual Studio 2012. 
+Os comandos de menu para adicionar funções de manipulador de eventos em um projeto de modelo de formulário compatível com o modelo de objeto do InfoPath 2003 são essencialmente os mesmos que os dos outros tipos de modelos de formulário. Por exemplo, para adicionar um manipulador de eventos **OnLoad**, com o modelo de formulário aberto no InfoPath Designer, clique no comando **Evento OnLoad** na guia **Desenvolvedor**. O foco alterna automaticamente para o código de formulário do manipulador de eventos **OnLoad** no editor de código do Visual Studio 2012. 
   
-Em projetos de modelo de formulário de código gerenciado compatíveis com o InfoPath 2003, a classe que contém funções de manipulador de eventos e os manipuladores de eventos sozinhos são identificadas por atributos específicos do InfoPath no módulo de código.
+Em projetos de modelo de formulário de código gerenciado compatíveis com o InfoPath 2003, a classe que contém funções de manipulador de eventos e os manipuladores de eventos propriamente ditos são identificados por atributos específicos do InfoPath no módulo de código.
 
-## <a name="adding-event-handlers"></a>Adicionando manipuladores de eventos
+## <a name="adding-event-handlers"></a>Adicionar manipuladores de eventos
 
-Todos os procedimentos a seguintes pressupõem que você tenha um projeto de modelo de formulário aberto no Microsoft InfoPath com o Visual Studio 2012.
+Todos os procedimentos a seguir pressupõem que você tenha um projeto de modelo de formulário aberto no Microsoft InfoPath com o Visual Studio 2012.
   
 ### <a name="add-an-event-handler-for-the-onclick-event-of-a-command-button"></a>Adicionar um manipulador de eventos para o evento OnClick de um botão de comando
 
-1. No painel de **controles** , clique no **botão** para adicionar um botão ao formulário. 
+1. No painel **Controles**, clique em **Botão** para adicionar um botão ao formulário. 
     
-2. Na guia **Propriedades** , clique em **Código personalizado**.
+2. Na guia **Propriedades**, clique em **Código personalizado**.
     
-   O foco alterna para o fragmento de código para o manipulador de eventos para o evento [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) no editor de código. 
+   O foco muda para o stub do manipulador de eventos para o evento [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) no editor de código. 
     
 ### <a name="add-an-event-handler-for-the-onbeforechange-onvalidate-or-onafterchange-event-of-a-field-or-group"></a>Adicionar um manipulador de eventos para o evento OnBeforeChange, OnValidate ou OnAfterChange de um campo ou grupo
 
-1. Clique com o botão um controle de entrada de dados vinculado ao campo ou grupo, como um controle de **Caixa de texto** . 
+1. Clique com o botão direito do mouse em um controle de inserção de dados associado ao campo ou grupo, como um controle **Caixa de Texto**. 
     
-2. Aponte para **programação**e clique em um dos comandos, como **No evento validar**.
+2. Aponte para **Programação** e clique em um dos comandos, como **Evento OnValidate**.
     
-   O foco alterna para o fragmento de código para o manipulador de eventos para um dos seguintes eventos no editor de código: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx), [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)ou [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
+   O foco alterna para o stub do manipulador de eventos referente a um dos seguintes eventos no editor de código: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx), [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) ou [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>Adicionar um manipulador de eventos para o evento OnLoad, OnSwitchView, OnContextChange ou OnSign de um formulário
 
-- No menu **Ferramentas** , aponte para **programação**e clique no evento de formulário que você deseja gravar um manipulador de eventos.
+- No menu **Ferramentas**, aponte para **Programação** e, em seguida, clique no evento de formulário para o qual você deseja criar um manipulador de eventos.
     
-    O foco alterna para o fragmento de código para o manipulador de eventos para um dos seguintes no editor de código: [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx), [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx), [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)ou [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
+    O foco alterna para o stub do manipulador de eventos referente a um dos seguintes eventos no editor de código: [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx), [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx), [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) ou [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>Adicionar um manipulador de eventos para o evento OnSubmitRequest de um formulário
 
-1. Na guia **dados** , clique em **Opções de envio**.
+1. Na guia **Dados**, clique em **Opções de Envio**.
     
-2. Marque a caixa de seleção **Permitir que os usuários enviem este formulário** e clique em **Executar ação personalizada usando o código**.
+2. Marque a caixa de seleção **Permitir que os usuários enviem este formulário** e clique em **Executar ação personalizada usando Código**.
     
-3. Clique em **Editar código**e clique em **Okey**.
+3. Clique em **Editar Código** e, em seguida, clique em **OK**.
     
-   O foco alterna para o fragmento de código para o manipulador de eventos para o evento [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) no editor de código. 
+   O foco muda para o stub do manipulador de eventos do evento [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) no editor de código. 
     
 ### <a name="add-an-event-handler-for-the-onsaverequest-event-of-a-form"></a>Adicionar um manipulador de eventos para o evento OnSaveRequest de um formulário
 
-1. Clique na guia **arquivo** e, em seguida, clique em **Opções de formulário**.
+1. Clique na guia **Arquivo** e depois em **Opções de Formulário**.
     
-2. Na categoria **Salvar** , clique em **Salvar usando código personalizado**, clique em **Editar**e, em seguida, clique em **Okey**.
+2. Na categoria **Salvar**, clique em **Salvar usando código personalizado**, clique em **Editar** e depois em **OK**.
     
-   O foco alterna para o fragmento de código para o manipulador de eventos para o evento [OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) no editor de código. 
+   O foco muda para o stub do manipulador de eventos do evento [OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) no editor de código. 
     
 ### <a name="add-an-event-handler-for-the-onversionupgrade-event-of-a-form"></a>Adicionar um manipulador de eventos para o evento OnVersionUpgrade de um formulário
 
-1. Clique na guia **arquivo** e, em seguida, clique em **Opções de formulário**.
+1. Clique na guia **Arquivo** e depois em **Opções de Formulário**.
     
-2. Na categoria **controle de versão** , selecione o **evento de uso personalizado** na lista **Atualizar formulários existentes** , clique em **Editar**e, em seguida, clique em **Okey**.
+2. Na categoria **Controle de Versão**, selecione **Usar evento personalizado** na lista **Atualizar formulários existentes**, clique em **Editar** e, em seguida, clique em **OK**.
     
-    O foco alterna para o fragmento de código para o manipulador de eventos para o evento [OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) no editor de código. 
+    O foco muda para o stub do manipulador de eventos do evento [OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) no editor de código. 
     
 ### <a name="add-an-event-handler-for-the-onmergerequest-event-of-a-form"></a>Adicionar um manipulador de eventos para o evento OnMergeRequest de um formulário
 
-1. Clique na guia **arquivo** e, em seguida, clique em **Opções de formulário**.
+1. Clique na guia **Arquivo** e depois em **Opções de Formulário**.
     
-2. Na categoria **Avançado** , selecione a **mesclagem de formulários habilitar** e as caixas de seleção **Mesclar usando código personalizado** , clique em **Editar**e, em seguida, clique em **Okey**.
+2. Na categoria **Avançado**, marque as caixas de seleção **Habilitar mesclagem de formulários** e **Mesclar usando código personalizado**, clique em **Editar** e depois em **OK**.
     
-    O foco alterna para o fragmento de código para o manipulador de eventos para o evento [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) no editor de código. 
+    O foco muda para o stub do manipulador de eventos do evento [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) no editor de código. 
     
-## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Adicionando um manipulador de eventos para o evento OnAfterImport
+## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Adicionar um manipulador de eventos para o evento OnAfterImport
 
-Para adicionar manipuladores de eventos para o evento [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) , você deve abrir o código de formulário para o seu modelo de formulário de código gerenciado e adicionar a função do manipulador de eventos manualmente. Para obter informações sobre como escrever um manipulador de eventos para este evento, clique no link para o evento **OnAfterImport** . 
+Para adicionar manipuladores de eventos para o evento [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx), você deve abrir o código de formulário para o modelo de formulário de código gerenciado e adicionar a função de manipulador de eventos manualmente. Para saber mais sobre como criar um manipulador de eventos para esse evento, clique no link do evento **OnAfterImport**. 
   
-## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Adicionando um manipulador de eventos para uma fonte de dados secundário
+## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Adicionar um manipulador de eventos a uma fonte de dados secundária
 
-O exemplo a seguir mostra como adicionar um manipulador de eventos para uma fonte de dados secundário. O exemplo supõe que uma fonte de dados secundário de um arquivo de recurso chamado Books. XML, que tem o esquema a seguir:
+O exemplo a seguir mostra como adicionar um manipulador de eventos a uma fonte de dados secundária. O exemplo supõe que existe uma fonte de dados secundária em um arquivo de recursos denominado books.xml, que possui o seguinte esquema:
   
 ```xml
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema">
     <xsd:element name="catalog">
         <xsd:complexType>
             <xsd:sequence>
@@ -125,7 +125,7 @@ O exemplo a seguir mostra como adicionar um manipulador de eventos para uma font
 
 <br/>
 
-Modo de exibição do formulário é construído a partir dessa fonte de dados. O código do formulário cria uma tabela de hash com base nos autores e o número de livros que ele tenham escrito. Você pode atualizar uma entrada da tabela mostrada no modo de exibição e o manipulador de eventos **OnAfterChange** atualiza a tabela de hash. Observe que a propriedade [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.DataObject.aspx) do atributo **InfoPathEventHandler** (que é implementado pela classe [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) é usada para fazer referência a fonte de dados secundário. 
+A exibição do formulário é criada a partir dessa fonte de dados. O código do formulário cria uma tabela de hash com base nos autores e na quantidade de livros que eles escreveram. Você pode atualizar uma entrada da tabela mostrada na exibição, e o manipulador de eventos **OnAfterChange** atualiza a tabela de hash. Observe que a propriedade [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.DataObject.aspx) do atributo **InfoPathEventHandler** (que é implementado pela classe [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx)) é usada para fazer referência à fonte de dados secundária. 
   
 ```cs
 namespace AuxDom
@@ -220,12 +220,12 @@ namespace AuxDom
 
 ```
 
-## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Como a classe que contém manipuladores de eventos é identificada
+## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Como identificar a classe que contém manipuladores de eventos
 
-Quando você cria um novo projeto de modelo de formulário do InfoPath que seja compatível com o modelo de objeto de código gerenciado do InfoPath 2003, um atributo de **System.ComponentModel.Description** de nível de assembly é aplicado à classe no início do módulo de código do formulário para identifica a classe que contém todos os manipuladores de eventos para o modelo de formulário. 
+Ao criar um novo projeto de modelo de formulário do InfoPath compatível com o modelo de objeto de código gerenciado do InfoPath 2003, um atributo **System.ComponentModel.Description** em nível de assembly é aplicado à classe no início do módulo de código de formulário para identificar a classe que contém todos os manipuladores de eventos do modelo de formulário. 
   
 > [!IMPORTANT]
-> Não modifique o atributo **System.ComponentModel.Description** nesta classe. Se fizer isso, o seu modelo de formulário não será capaz de identificar onde manipuladores de eventos estão localizados e os manipuladores de eventos não funcionará. 
+> Não modifique o atributo **System.ComponentModel.Description** nessa classe. Se fizer isso, seu modelo de formulário não poderá identificar onde os manipuladores de eventos estão localizados, e estes não serão executados. 
   
 ```cs
 using System;
@@ -241,9 +241,9 @@ Imports Microsoft.Office.Interop.InfoPath.SemiTrust
 <Assembly: System.ComponentModel.DescriptionAttribute( _    "InfoPathStartupClass, Version=1.0, Class=Template1.FormCode")>
 ```
 
-## <a name="how-event-handlers-are-identified"></a>Como os manipuladores de eventos são identificados
+## <a name="how-event-handlers-are-identified"></a>Como identificar manipuladores de eventos
 
-Quando você adiciona um novo manipulador de eventos usando comandos de menu ou botões na interface de usuário do modo de design do InfoPath, o fragmento de código para a função do manipulador de eventos é gravado no formulário. O exemplo a seguir mostra o manipulador de eventos stub criado para um [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) adicionados para um campo denominado 'total'. 
+Ao adicionar um novo manipulador de eventos usando comandos de menu ou botões na interface do usuário do modo de design do InfoPath, o stub para a função do manipulador de eventos é gravado no formulário. O exemplo a seguir mostra o manipulador de eventos do stub criado para um evento [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) adicionado para um campo denominado "Total". 
   
 ```cs
 [InfoPathEventHandler(MatchPath="/invoice/total", EventType=InfoPathEventType.OnValidate)]
@@ -261,7 +261,7 @@ End Sub
 
 ```
 
-Você pode adicionar código que invoca membros do modelo de objeto do InfoPath usando os membros de cache privados do `thisXDocument` ou `thisApplication` variáveis, ou usando os membros acessados a partir o `e` objeto **EventArgs** recebido pelo manipulador de eventos: 
+Em seguida, você pode adicionar um código que chame membros do modelo de objeto do InfoPath usando os membros em cache particulares das variáveis `thisXDocument` ou `thisApplication`, ou usando os membros acessados ​do objeto `e` **EventArgs** recebidos pelo manipulador de eventos: 
   
 ```cs
 thisXDocument.UI.Alert.(e.Site.text);
@@ -273,15 +273,15 @@ thisXDocument.UI.Alert.(e.Site.text)
 
 ```
 
-O atributo **InfoPathEventHandler** (conforme definido pela classe [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) é o atributo personalizado para funções que será usado como manipuladores de eventos. 
+O atributo **InfoPathEventHandler** (conforme definido pela classe [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx)) é o atributo personalizado para funções que serão usadas como manipuladores de eventos. 
   
-Quando solicitado pelo evento, o parâmetro **MatchPath** (conforme definido pela propriedade [MatchPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) da classe **InfoPathEventHandlerAttribute** ) especifica uma expressão XPath que identifica a origem do evento. O parâmetro **EventType** (conforme definido pela propriedade [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) da classe **InfoPathEventHandlerAttribute** ) Especifica o tipo de evento. Você não deve alterar os valores desses parâmetros. Se os valores desses parâmetros forem alterados, o manipulador de eventos não pode compilar corretamente ou notificação de evento não ocorrerá conforme o esperado. 
+Quando exigido pelo evento, o parâmetro **MatchPath** (conforme definido pela propriedade [MatchPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) da classe **InfoPathEventHandlerAttribute**) especifica uma expressão XPath que identifica a origem do evento. O parâmetro **EventType** (conforme definido pela propriedade [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) da classe **InfoPathEventHandlerAttribute**) especifica o tipo de evento. Você não deve alterar os valores desses parâmetros. Se os valores desses parâmetros forem alterados, o manipulador de eventos pode não ser compilado corretamente, ou a notificação de eventos não ocorrerá conforme esperado. 
   
-## <a name="obfuscating-code-in-event-handlers"></a>Código de ofuscação nos manipuladores de eventos
+## <a name="obfuscating-code-in-event-handlers"></a>Ofuscar o código em manipuladores de eventos
 
-Se você executar um utilitário ofuscador no assembly gerado quando um modelo de formulário de código gerenciado é compilado ( *NomeDoProjeto* . dll), o InfoPath não será possível carregar o assembly quando um usuário abre o formulário. Se você quiser obscurecer o código para os manipuladores de eventos ou outro código de formulário, você deve colocar o código que você deseja obscurecer em um assembly separado e referência de assembly em seu projeto e, em seguida, chamam membros do assembly referenciado de FormCode.cs ou FormCode.vb. É importante que você execute o utilitário ofuscador apenas no assembly referenciado. 
+Se você executar um utilitário ofuscador no assembly que é gerado ao compilar um modelo de formulário de código gerenciado (*projectname*.dll), o InfoPath não poderá carregar esse assembly quando um usuário abrir o formulário. Se quiser ofuscar o código dos seus manipuladores de eventos ou outro código de formulário, você deverá colocar o código que deseja ofuscar em um assembly separado, fazer referência a esse assembly no seu projeto e, em seguida, chamar membros do assembly mencionado a partir de FormCode.cs ou de FormCode.vb. É importante que você execute o utilitário ofuscador somente no assembly mencionado. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Responder eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Responder a eventos de formulário usando o modelo de objeto do InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

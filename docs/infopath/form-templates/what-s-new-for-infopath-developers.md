@@ -4,74 +4,74 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- o que há de novo para desenvolvedores de [infopath 2007], [InfoPath 2007], o InfoPath 2007, o que há de novo de recursos, novos recursos [InfoPath 2007]
+- novidades [infopath 2007],recursos para desenvolvedores [InfoPath 2007],InfoPath 2007,novidades,novos recursos [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
-description: InfoPath foi projetado para facilitar a criação de aplicativos sofisticados baseada em formulários, na plataforma do Microsoft SharePoint Server. Microsoft InfoPath 2013 junto com o InfoPath Forms Services e o Microsoft SharePoint Server 2013 possuem muitos recursos para desenvolvedores. InfoPath Forms Services, que está disponível no SharePoint Server 2013, permite que você implante um modelo de formulário do InfoPath em um SharePoint Server, para que usuários sem o cliente avançado do InfoPath podem abrir e preencher formulários do InfoPath em um navegador da Web.
-ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O InfoPath foi projetado para facilitar a criação de aplicativos avançados baseados em formulários na plataforma do Microsoft SharePoint Server. O Microsoft InfoPath 2013 em conjunto com o Microsoft SharePoint Server 2013 e o InfoPath Forms Services têm muitos recursos para desenvolvedores. O InfoPath Forms Services, disponível no SharePoint Server 2013, permite implantar um modelo de formulário do InfoPath em um SharePoint Server para que usuários sem o cliente avançado do InfoPath possam abrir e preencher formulários do InfoPath em um navegador da Web.
+ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765715"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385148"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Novidades para desenvolvedores do InfoPath
 
-InfoPath foi projetado para facilitar a criação de aplicativos sofisticados baseada em formulários, na plataforma do Microsoft SharePoint Server. Microsoft InfoPath 2013 junto com o InfoPath Forms Services e o Microsoft SharePoint Server 2013 possuem muitos recursos para desenvolvedores. InfoPath Forms Services, que está disponível no SharePoint Server 2013, permite que você implante um modelo de formulário do InfoPath em um SharePoint Server, para que usuários sem o cliente avançado do InfoPath podem abrir e preencher formulários do InfoPath em um navegador da Web.
+O InfoPath foi projetado para facilitar a criação de aplicativos avançados baseados em formulários na plataforma do Microsoft SharePoint Server. O Microsoft InfoPath 2013 em conjunto com o Microsoft SharePoint Server 2013 e o InfoPath Forms Services têm muitos recursos para desenvolvedores. O InfoPath Forms Services, disponível no SharePoint Server 2013, permite implantar um modelo de formulário do InfoPath em um SharePoint Server para que usuários sem o cliente avançado do InfoPath possam abrir e preencher formulários do InfoPath em um navegador da Web.
   
-Modelos de formulários criados usando o InfoPath 2013 continuam a oferecer suporte a lógica de negócios gravadas contra as classes e os membros do namespace **Microsoft.Office.InfoPath** , que funciona da mesma maneira para um formulário do InfoPath Filler e em um formulário aberto em uma Web aberto Navegador. Usando a lógica de negócios gravada esse modelo de objeto gerenciado e trabalhando com recursos do InfoPath Designer de verificação de design, você pode criar um modelo de formulário simples que poderá ser implantado em uma biblioteca de documentos devidamente configurado no SharePoint Server 2013, qual será executado no InfoPath filler e em um navegador da Web. 
+Os modelos de formulário criados com o InfoPath 2013 continuam a oferecer suporte à lógica de negócios escrita com base nas classes e nos membros do namespace **Microsoft.Office.InfoPath**, que funciona da mesma maneira para um formulário aberto no InfoPath Filler e em um formulário aberto em um navegador da Web. Usando a lógica de negócios escrita nesse modelo de objeto gerenciado e trabalhando com recursos de verificação de design no InfoPath Designer, você pode criar um único modelo de formulário que pode ser implantado em uma biblioteca de documentos devidamente configurada no SharePoint Server 2013, que será executada tanto no InfoPath Filler quanto em um navegador da Web. 
   
-## <a name="new-features-and-improvements"></a>Melhorias e novos recursos
+## <a name="new-features-and-improvements"></a>Novos recursos e aprimoramentos
 
-As seções a seguir descrevem brevemente esses recursos e aperfeiçoamentos que são interessantes para desenvolvedores do InfoPath:
+As seções a seguir descrevem brevemente os recursos e aprimoramentos que podem interessar a desenvolvedores do InfoPath:
   
-- Nova maneira de gravar e editar código
+- Nova maneira de escrever e editar código
     
-- Soluções em área restrita do SharePoint
+- Soluções de área restrita do SharePoint
     
-- Publicar formulários com um clique
+- Publicar formulários com um único clique
     
-- Aprimorar a formulários de lista do SharePoint
+- Aprimorar formulários de lista do SharePoint
     
-- Formulários de host em páginas do Portal usando a web part de formulário do InfoPath
+- Hospedar formulários em páginas de portal usando a Web Part de formulário do InfoPath
     
-- Rica e formulários da Web
+- Formulários da Web mais avançados
     
-- Formulários de navegador compatível com padrões
+- Formulários de navegador compatíveis com padrões
     
-- Fornecer aperfeiçoado das informações de segurança e de integridade com assinaturas digitais
+- Forneça segurança e integridade avançadas de informações com assinaturas digitais
     
 - Novos controles
     
-## <a name="new-way-to-write-and-edit-code"></a>Nova maneira de gravar e editar código
+## <a name="new-way-to-write-and-edit-code"></a>Nova maneira de escrever e editar código
 
-O Microsoft Visual Studio Tools for Applications IDE que foi integrado com o InfoPath 2010 foi removido do InfoPath 2013. Para escrever ou editar formulário código no InfoPath 2013 agora requer o Visual Studio 2012 com o complemento do [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) instalado. A experiência de programação não mudou radicalmente, mas agora você pode usar a experiência de desenvolvimento do Visual Studio completa ao escrever código gerenciado para formulários do InfoPath. 
+O IDE do Microsoft Visual Studio Tools for Applications que estava integrado ao InfoPath 2010 foi removido no InfoPath 2013. Para escrever ou editar código de formulário no InfoPath 2013, agora é necessário que o Visual Studio 2012 com o complemento [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) esteja instalado. A experiência de programação propriamente dita não mudou muito, mas agora você pode usar toda a experiência de desenvolvimento do Visual Studio ao escrever código gerenciado em seus formulários do InfoPath. 
   
-As seções a seguir descrevem os recursos que foram adicionados pela primeira vez no InfoPath 2010 e o SharePoint Server 2010 e continuam a adicionar um valor para desenvolvedores usando o InfoPath 2013 e SharePoint Server 2013.
+As seções a seguir descrevem os recursos que foram adicionados pela primeira vez no InfoPath 2010 e no SharePoint Server 2010 e que continuam a agregar valor para os desenvolvedores que usam o InfoPath 2013 e o SharePoint Server 2013.
   
-## <a name="sharepoint-server-sandboxed-solutions"></a>Soluções em área restrita do SharePoint Server
+## <a name="sharepoint-server-sandboxed-solutions"></a>Soluções de área restrita do SharePoint Server
 
-Com o InfoPath, é mais fácil do que nunca para implantar os formulários com código no SharePoint Server 2013. No Office InfoPath 2007, todos os formulários com código tinham a ser aprovado e carregados por um administrador de farm do SharePoint. Com suporte para soluções em área restrita no SharePoint Server 2013, os designers de formulário que possuem permissões de administração do conjunto de sites podem publicar agora a maioria dos formulários com código, diretamente aos seus sites do SharePoint. Uso de recurso excessivo de limites de uma configuração de cota de recurso no servidor. O administrador do conjunto de sites permanece no controle e faz com que as decisões de confiança sobre a solução. O administrador de farm pode ser participação ativa. Para obter mais informações sobre modelos de formulário InfoPath publicação como soluções em área restrita, consulte [Publicando formulários com código](publishing-forms-with-code.md).
+Com o InfoPath, está mais fácil do que nunca implantar formulários com código no SharePoint Server 2013. No Office InfoPath 2007, todos os formulários com código precisavam ser aprovados e carregados por um administrador de farm do SharePoint. Com o suporte para soluções de área restrita no SharePoint Server 2013, os designers de formulários com permissões de administração de conjuntos de sites agora podem publicar a maioria dos formulários com código diretamente em seus sites do SharePoint. Uma configuração de cota de recursos no servidor limita o uso excessivo de recursos. O administrador do conjunto de sites permanece no controle e toma decisões de confiança sobre a solução. O administrador do farm pode ser dispensado. Para saber mais sobre como publicar modelos de formulário do InfoPath como soluções de área restrita, consulte [Publicação de formulários com código](publishing-forms-with-code.md).
   
-## <a name="publish-forms-with-one-click"></a>Publicar formulários com um clique
+## <a name="publish-forms-with-one-click"></a>Publicar formulários com um único clique
 
-InfoPath é projetado para tornar mais fácil do que nunca para publicar atualizações aos seus formulários.. Após a primeira vez que você publicar um modelo de formulário, em vez de clicar em várias caixas de diálogo, você pode concluir essa tarefa com um clique no botão novo **Publicar rápida** , que está disponível na barra de **Ferramentas de acesso rápido**e na nova Microsoft Office Backstage, que está disponível, clicando na guia **arquivo** . 
+O InfoPath foi projetado para facilitar ainda mais o processo de publicação de atualizações nos seus formulários. Após publicar um modelo de formulário pela primeira vez, ao invés de clicar em várias caixas de diálogo, você pode concluir essa tarefa com um único clique no novo botão **Publicação Rápida**, disponível na **Barra de Ferramentas de Acesso Rápido** e no novo Microsoft Office Backstage, disponível na guia **Arquivo**. 
   
-## <a name="enhance-sharepoint-list-forms"></a>Aprimorar a formulários de lista do SharePoint
+## <a name="enhance-sharepoint-list-forms"></a>Aprimorar formulários de lista do SharePoint
 
-Usando o InfoPath, agora você pode estender e aprimorar os formulários usados para criação, edição e exibição de itens em uma lista do SharePoint. Abrindo uma lista, clicando na guia **lista** , em **Ferramentas de lista**e, em seguida, clicando em **Personalizar formulário**, você pode automático gerar um formulário do InfoPath que se parece com o padrão, o formulário de lista do SharePoint-de-imediata. Em seguida, você pode personalizar e melhore a este formulário modificando o layout, criar exibições adicionais e adicionando regras e validação de dados no InfoPath. Quando tiver terminado de modificar seu formulário de lista aprimorada, você pode publicá-lo no SharePoint usando o novo um clique publicar o recurso no InfoPath.
+Usando o InfoPath, agora você pode estender e aprimorar os formulários usados para criar, editar e exibir itens em uma lista do SharePoint. Ao abrir uma lista clicando na guia **Lista** em **Ferramentas de Lista** e, em seguida, clicando em **Personalizar Formulário**, você pode gerar automaticamente um formulário do InfoPath que se parece com o formulário de lista padrão do SharePoint, que está pronto para uso. Em seguida, é possível personalizar e aprimorar esse formulário modificando o layout, criando exibições adicionais e adicionando regras e validação de dados no InfoPath. Quando terminar de modificar o formulário de lista aprimorado, você pode publicá-lo no SharePoint usando o novo recurso de publicação com um clique no InfoPath.
   
-## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Formulários de host em páginas do Portal usando a web part de formulário do InfoPath
+## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Hospedar formulários em páginas de portal usando a Web Part de formulário do InfoPath
 
-No SharePoint Server 2013, é mais fácil do que nunca para hospedar seus formulários em páginas da Web usando a nova **web part de formulário do InfoPath**. No Microsoft Office SharePoint Server 2007, os usuários que desejam hospedar seus formulários do InfoPath em páginas da Web tem de escrever o código no Visual Studio. Agora, sem escrever uma única linha de código, você pode adicionar a **web part de formulário do InfoPath** a uma página de Web Parts e apontá-lo para seu formulário publicado. Você pode usar a **web part de formulário do InfoPath** para hospedar qualquer formulários de navegador do InfoPath que é publicado em uma biblioteca de formulário de lista ou do SharePoint. Também é possível conectá-la a outras Web Parts na página enviar ou receber dados. Para obter mais informações sobre como usar a **web part de formulário do InfoPath**, consulte [Trabalhando com a web part de formulário do InfoPath](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) no SDK do SharePoint 2010. 
+No SharePoint Server 2013, está mais fácil do que nunca hospedar seus formulários em páginas da Web usando a nova **Web Part de Formulário do InfoPath**. No Microsoft Office SharePoint Server 2007, os usuários que desejam hospedar seus formulários do InfoPath em páginas da Web precisam escrever código no Visual Studio. Agora, sem escrever uma única linha de código, você pode adicionar a **Web Part de Formulário do InfoPath** a uma página de Web Parts e fazer com que ela aponte para o formulário publicado. Você pode usar a **Web Part de Formulário do InfoPath** para hospedar qualquer formulário de navegador do InfoPath que esteja publicado em um lista ou biblioteca de formulários do SharePoint. Você também pode conectá-la a outras Web Parts na página para enviar ou receber dados. Para saber mais sobre como usar a **Web Part de Formulário do InfoPath**, consulte [Trabalhar com a Web Part de Formulário do InfoPath](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) no SDK do SharePoint 2010. 
   
-## <a name="richer-web-forms"></a>Rica e formulários da Web
+## <a name="richer-web-forms"></a>Formulários da Web mais avançados
 
-A diferença entre os formulários de navegador e cliente os recurso foi reduzida, criando um experiência de todos os usuários de preenchimento de formulário mais consistente. Controles e a funcionalidade que agora são suportadas nos formulários de navegador incluem o seguinte:
+A falta de recursos entre formulários de cliente e de navegador foi reduzida, criando uma experiência de preenchimento de formulários mais consistente para todos os usuários. Os controles e as funcionalidades agora disponíveis em formulários de navegador incluem:
   
-- Com marcadores, numerada e listas sem formatação
+- Listas com marcadores, numeradas e simples
     
-- Várias caixas de listagem de seleção
+- Caixas de listagem de seleção múltipla
     
 - Caixas de combinação
     
@@ -79,41 +79,41 @@ A diferença entre os formulários de navegador e cliente os recurso foi reduzid
     
 - Recursos de hiperlink
     
-- Seção e o grupo de opção 
+- Grupo e seção de escolha 
     
 - Controles de data e hora
     
-- Escolha de pessoa/grupo
+- Seletores de pessoas/grupos
     
 - Funcionalidade de filtragem
     
-## <a name="standards-compliant-browser-forms"></a>Formulários de navegador compatível com padrões
+## <a name="standards-compliant-browser-forms"></a>Formulários de navegador compatíveis com padrões
 
-Formulários de navegador do InfoPath agora são compatíveis com o conteúdo da Web acessibilidade diretrizes 2.0 (WCAG 2.0) AA, que permite que os designers de formulário Criar formulários que estão disponíveis para usuários com deficiências.
+Os formulários de navegador do InfoPath agora estão em conformidade com o padrão WCAG 2.0 (Web Content Accessibility Guidelines 2.0) AA, que permite aos designers de formulários criar formulários disponíveis para usuários com deficiências.
   
-## <a name="provide-enhanced-information-security-and-integrity-with-digital-signatures"></a>Fornecer aperfeiçoado das informações de segurança e de integridade com assinaturas digitais
+## <a name="provide-enhanced-information-security-and-integrity-with-digital-signatures"></a>Forneça segurança e integridade avançadas de informações com assinaturas digitais
 
-InfoPath suporta CNG Cryptography Next Generation () assinado digitalmente o conteúdo. Para ajudar a garantir a integridade das informações que estão contidas em formulários, o cliente do InfoPath e o SharePoint Server 2013 fornecem os controles necessários para habilitar o único, co entrar e entrar no cenários para o formulário completo ou seções do formulário. Formulários podem ser assinados no Internet Explorer usando o controle de linha de assinatura do ActiveX. Formulários assinados podem ser exibidos em qualquer navegador compatíveis com o SharePoint Server 2013.
+O InfoPath oferece suporte para conteúdo assinado digitalmente pela CNG (Cryptography Next Generation). Para ajudá-lo a garantir a integridade das informações contidas nos seus formulários, o cliente do InfoPath e o SharePoint Server 2013 fornecem os controles necessários para permitir cenários de assinatura única, coassinatura e contra-assinatura para todo o formulário ou seções dele. Os formulários podem ser assinados no Internet Explorer usando o controle de linha de assinatura do ActiveX. Os formulários assinados podem ser exibidos em qualquer navegador compatível com o SharePoint Server 2013.
   
 ## <a name="new-controls"></a>Novos controles
 
-InfoPath fornece um conjunto rico de controles que podem ser adicionados aos seus formulários. A lista a seguir descreve brevemente alguns dos novos controles:
+O InfoPath fornece um conjunto mais avançado de controles que podem ser adicionados aos seus formulários. A lista a seguir descreve brevemente alguns dos novos controles:
   
-- **Botão de imagem** — em vez de um retângulo cinza; Use qualquer imagem como um botão em seu formulário. 
+- **Botão de imagem**: ao invés de um retângulo cinza, é possível usar qualquer imagem como um botão no seu formulário. 
     
-- **Hiperlink** — permitem que os usuários insiram seus próprios hiperlinks ao preencher formulários. 
+- **Hiperlink**: deixe que os usuários insiram seus próprios hiperlinks ao preencherem formulários. 
     
-- **Seletor de pessoas/grupos** — permitem que os usuários verificar e nomes de contas e grupos de consulta ao preencher formulários. 
+- **Seletor de pessoas/grupos**: deixe que os usuários verifiquem e consultem nomes de contas e grupos ao preencherem formulários. 
     
-- **Seletor de entidade** — permitem que os usuários selecionem valores de listas externas em um servidor que está executando o SharePoint Server 2013 quando formulários. 
+- **Seletor de entidades**: deixe que os usuários selecionem valores de listas externas em um servidor que esteja executando o SharePoint Server 2013. 
     
-- **Linha de assinatura** — fornecer aos usuários uma linha ou da carimbo de imagem da assinatura, como um lacre inkan ou hanko, ao assinar digitalmente formulários. 
+- **Linha de assinatura**: forneça aos usuários uma linha de assinatura ou imagem de carimbo, como um selo inkan ou hanko, ao assinar formulários digitalmente. 
     
 ## <a name="see-also"></a>Confira também
 
 
 
-[Desenvolvimento de modelos de formulário do InfoPath com código](developing-infopath-form-templates-with-code.md)
+[Desenvolver modelos de formulário do InfoPath com código](developing-infopath-form-templates-with-code.md)
   
 [Desenvolver modelos de formulário usando o modelo de objeto do InfoPath 2003](developing-form-templates-using-the-infopath-2003-object-model.md)
 
