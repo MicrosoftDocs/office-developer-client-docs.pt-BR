@@ -5,84 +5,84 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
-description: Dos três tipos de aplicativos que você pode criar para o Project Online (auto-hospedado, hospedado em provedor e hospedado no SharePoint), o aplicativo hospedado no SharePoint é o mais simples criar e implantar.
-ms.openlocfilehash: 135a6cd330224041db213e0408735209056d34af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Dos três tipos de aplicativo que você pode criar para o Project Online (hospedado automaticamente, hospedado pelo provedor e hospedado pelo SharePoint), o aplicativo hospedado pelo SharePoint é o mais simples de criar e implantar.
+ms.openlocfilehash: 7a74f5b3b848f3fa238051f5b9f9f563c38417b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771071"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399582"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Criar um suplemento do Project Server hospedado pelo SharePoint
 
-Dos três tipos de aplicativos que você pode criar para o Project Online (auto-hospedado, hospedado em provedor e hospedado no SharePoint), o aplicativo hospedado no SharePoint é o mais simples criar e implantar. Um aplicativo hospedado no SharePoint não exige a autenticação OAuth e não usar o Azure ou necessitam de manutenção de um site local para os recursos hospedados pelo provedor. O modelo de **aplicativo para o SharePoint 2013** no Visual Studio é uma estrutura conveniente para desenvolver aplicativos que podem ser publicados e vendidos no Office Store ou implantados em um catálogo de aplicativos privado no SharePoint. 
+Dos três tipos de aplicativo que você pode criar para o Project Online (hospedado automaticamente, hospedado pelo provedor e hospedado pelo SharePoint), o aplicativo hospedado pelo SharePoint é o mais simples de criar e implantar. Um aplicativo hospedado pelo SharePoint não requer autenticação OAuth, não usa o Azure nem exige a manutenção de um site local para os recursos hospedados pelo provedor. O modelo **Aplicativo do SharePoint 2013** no Visual Studio é uma estrutura prática para o desenvolvimento de aplicativos que podem ser publicados e vendidos na Office Store ou implantados em um catálogo de aplicativos privado no SharePoint. 
   
-No Project, o status é um processo em que um membro da equipe pode usar a página de tarefas no Project Web App para enviar o status de uma tarefa atribuída, como o número de horas trabalhadas cada dia da semana gasto trabalhando na tarefa. O proprietário da atribuição (geralmente, o gerente de projeto) pode aprovar ou rejeitar o status. Quando o status for aprovado, o Project recalcula o agendamento. O aplicativo **QuickStatus** exibe as tarefas atribuídas, onde o usuário pode rapidamente Atualizar porcentagem concluída e enviar o status das atribuições selecionadas para aprovação. Embora a página de tarefas no Project Web App tem muito mais funcionalidade, o aplicativo **QuickStatus** é um exemplo que fornece uma interface simplificada. 
+No Project, o status é um processo em que um membro da equipe pode usar a página Tarefas no Project Web App para enviar o status de uma tarefa atribuída, como o número de horas trabalhadas diariamente na tarefa. O proprietário da atribuição (geralmente o gerente de projeto) pode aprovar ou rejeitar o status. Quando o status é aprovado, o Project recalcula o cronograma. O aplicativo **QuickStatus** exibe tarefas atribuídas, em que o usuário pode atualizar rapidamente a porcentagem concluída e enviar o status das atribuições selecionadas para aprovação. Embora a página Tarefas no Project Web App tenha muito mais funcionalidade, o aplicativo **QuickStatus** é um exemplo que fornece uma interface simplificada. 
   
-O aplicativo **QuickStatus** é um exemplo para desenvolvedores; ele não é projetado para uso em um ambiente de produção. O objetivo principal é mostrar um exemplo de desenvolvimento de aplicativos para o Project Online, não para criar um aplicativo do status totalmente funcional. Para uma melhor abordagem status, consulte a recomendação da [próximas etapas](#pj15_StatusingApp_NextSteps).
+O aplicativo **QuickStatus** é uma amostra para desenvolvedores, ele não se destina ao uso em um ambiente de produção. O objetivo principal é mostrar um exemplo de desenvolvimento de aplicativo para o Project Online, não criar um aplicativo de status totalmente funcional. Para uma melhor abordagem ao status, confira a recomendação em [Próximas etapas](#pj15_StatusingApp_NextSteps).
   
-Para obter informações gerais sobre o status, consulte o [andamento da tarefa](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Para obter mais informações sobre como desenvolver suplementos para o SharePoint e do Project Server, consulte [Add-ins do SharePoint](http://msdn.microsoft.com/en-us/library/jj163230.aspx).
+Para informações gerais sobre o status, confira [Progresso da tarefa](https://support.office.com/article/Find-information-about-Project-Server-2013-8b08a414-15a7-4076-b2db-c90d0214ea7f?ui=en-US&rs=en-US&ad=US#BKMK_TaskProgress). Confira mais informações sobre o desenvolvimento de suplementos para o SharePoint e o Project Server em [Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163230.aspx).
 
 <a name="pj15_StatusingApp_Prerequisites"> </a>
 
 ## <a name="prerequisites-for-creating-an-app-for-project-server-2013"></a>Pré-requisitos para a criação de um aplicativo para o Project Server 2013
 
-Para desenvolver aplicativos relativamente simples que podem ser implantados com o Project Online ou em uma instalação local do Project Server 2013, você pode usar o Napa, que fornecem um ambiente de desenvolvimento on-line. Para aplicativos mais complexos, modificando a faixa de opções do Project Web App e facilitar a depuração durante o desenvolvimento, você pode usar o Visual Studio 2012 ou Visual Studio 2013. Por exemplo, com uma instalação local, você pode verificar manualmente as tabelas de dados de rascunhos para que as alterações do banco de dados do Project Server. Este artigo mostra como fazer o desenvolvimento de aplicativos com o Visual Studio.
+Para desenvolver aplicativos relativamente simples que possam ser implantados no Project Online ou em uma instalação local do Project Server 2013, você pode usar o Napa, que fornece um ambiente de desenvolvimento online. Para aplicativos mais complexos, modificar a faixa de opções do Project Web App e uma depuração mais fácil durante o desenvolvimento, você pode usar o Visual Studio 2012 ou o Visual Studio 2013. Por exemplo, com uma instalação local, você pode verificar manualmente as tabelas de dados de Rascunhos em busca de alterações no banco de dados do Project Server. Este artigo mostra como fazer o desenvolvimento de aplicativos com o Visual Studio.
   
 O desenvolvimento de aplicativos do Project Server com o Visual Studio exige o seguinte:
   
 - Verifique se você instalou os service packs e as atualizações mais recentes do Windows em seu computador de desenvolvimento local. O sistema operacional pode ser Windows 7, Windows 8, Windows Server 2008 ou Windows Server 2012.
     
-- Você deve ter um computador que tenha o SharePoint Server 2013 e Project Server 2013 estiver instalado, onde o computador está configurado para o isolamento de aplicativo e sideloading de aplicativos. Sideloading permite que o Visual Studio para instalar temporariamente o aplicativo para depuração. Você pode usar uma instalação local do SharePoint e do Project Server. Para obter mais informações, consulte [Configurar um ambiente de desenvolvimento locais para aplicativos do SharePoint](http://msdn.microsoft.com/en-us/library/fp179923%28Office.15%29.aspx).
+- É preciso ter um computador com o SharePoint Server 2013 e o Project Server 2013 instalados, configurado para o isolamento de aplicativos e o sideloading de aplicativos. O sideloading permite que o Visual Studio instale temporariamente o aplicativo para depuração. Você pode usar uma instalação local do SharePoint e do Project Server. Confira mais informações em [Configurar um ambiente de desenvolvimento local para aplicativos do SharePoint ](https://msdn.microsoft.com/library/fp179923%28Office.15%29.aspx).
     
    > [!NOTE]
-   > Para uma instalação local, configure um aplicativo isolado domínio *antes de* criar um catálogo de aplicativos corporativos. 
+   > Para uma instalação local, configure um domínio de aplicativos isolado *antes* de criar um catálogo de aplicativos corporativos. 
   
-- O computador de desenvolvimento pode ser um computador remoto que tenha o Office Developer Tools para Visual Studio 2012 instalado. Certifique-se de que você tenha instalado a versão mais recente; Consulte a seção de *Ferramentas* dos [downloads de aplicativos para Office e SharePoint](http://msdn.microsoft.com/en-us/office/apps/fp123627.aspx).
+- O computador de desenvolvimento pode ser um computador remoto com o Office Developer Tools para Visual Studio 2012 instalado. Verifique se você instalou a versão mais recente. Confira a seção *Ferramentas* de [Download de aplicativos do Office e do SharePoint](https://msdn.microsoft.com/office/apps/fp123627.aspx).
     
-- Verifique se a instância do Project Web App será utilizada para o desenvolvimento e teste pode ser acessado no navegador.
+- Verifique se a instância do Project Web App usada para desenvolvimento e testes pode ser acessada no navegador.
     
-Para obter informações sobre como usar as ferramentas online, consulte [Configurar um ambiente de desenvolvimento de aplicativos para SharePoint no Office 365](http://msdn.microsoft.com/en-us/library/fp161179.aspx). Um passo a passo da criação de um aplicativo simple para o Project Server que usa as ferramentas online, consulte a série de blogs EPMSource, [Criando seu primeiro aplicativo do Project Server](http://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
+Confira informações sobre como usar as ferramentas online em [Configurar um ambiente para desenvolver aplicativos para o SharePoint no Office 365](https://msdn.microsoft.com/library/fp161179.aspx). Para um passo a passo da criação de um aplicativo simples para o Project Server que usa as ferramentas online, confira a série de blog do EPMSource, [Como criar seu primeiro aplicativo do Project Server](https://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
 
 <a name="pj15_StatusingApp_UsingVisualStudio"> </a>
 
-## <a name="using-visual-studio-to-create-a-project-server-app"></a>Usando o Visual Studio para criar um aplicativo do Project Server
+## <a name="using-visual-studio-to-create-a-project-server-app"></a>Usar o Visual Studio para criar um aplicativo do Project Server
 
-Office Developer Tools para Visual Studio 2012 inclui um modelo para aplicativos do SharePoint que pode ser usado com o Project Server 2013. Quando você cria uma solução de aplicativo, a solução inclui os seguintes arquivos para o seu código personalizado:
+O Office Developer Tools para Visual Studio 2012 inclui um modelo para aplicativos do SharePoint que podem ser usados ​​com o Project Server 2013. Quando você criar uma solução de aplicativo, a solução incluirá os arquivos a seguir para seu código personalizado:
   
 - **AppManifest.xml** inclui configurações para o título do aplicativo, o escopo da solicitação de permissão e outras propriedades. O Procedimento 1 inclui etapas para a definição das propriedades usando o Designer de Manifesto. 
     
 - **Default.aspx** na pasta Páginas é a página principal do aplicativo. O Procedimento 2 mostra como adicionar conteúdo HTML5 para o aplicativo **QuickStatus**. 
     
-- **App.js** na pasta Scripts é o arquivo principal para o código JavaScript personalizado. 3 do procedimento explica o código JavaScript para o aplicativo **QuickStatus** . 
+- **App.js** na pasta Scripts é o arquivo principal do código JavaScript personalizado. O Procedimento 3 explica o código JavaScript para o aplicativo **QuickStatus**. 
     
-   Se você adicionar controles comerciais como uma grade baseado em jQuery ou selecionador de data, você pode adicionar referências a arquivos JavaScript adicionais no arquivo default. aspx.
+   Se você adicionar controles comerciais como uma grade baseada em jQuery ou o seletor de datas, poderá adicionar referências a arquivos JavaScript adicionais no arquivo Default.aspx.
     
 - **App.css** na pasta Conteúdo é o arquivo principal para estilos CSS3 personalizados. O Procedimento 2 e o Procedimento 3 incluem informações sobre CSS (folhas de estilo em cascata) para o aplicativo **QuickStatus**. Você pode adicionar referências a arquivos CSS adicionais no arquivo Default.aspx. 
     
-- **AppIcon.png** na pasta de imagens é o ícone de 96 x 96 que o aplicativo exibe no Office Store ou o catálogo de aplicativos. 
+- **AppIcon.png** na pasta Imagens é o ícone 96 x 96 que o aplicativo exibe na Office Store ou no catálogo de aplicativos. 
     
-Para modificar a faixa de opções do Project Web App, você pode adicionar uma ação personalizada da faixa de opções. A seção de [exemplo de código para o aplicativo QuickStatus](#pj15_StatusingApp_Example) inclui o código completo para os arquivos default. aspx, App.js, App.css, Elements. XML e AppManifest.xml modificados. 
+Para modificar a faixa de opções do Project Web App, você pode adicionar uma ação personalizada da faixa de opções. A seção [Código de exemplo para o aplicativo QuickStatus](#pj15_StatusingApp_Example) inclui o código completo para os arquivos modificados Default.aspx, App.js, App.css, Elements.xml e AppManifest.xml. 
   
 ### <a name="procedure-1-to-create-an-app-project-in-visual-studio"></a>Procedimento 1. Para criar um projeto de aplicativo no Visual Studio
 
-1. Execute o Visual Studio 2012 como administrador e, em seguida, selecione **Novo projeto** na página inicial. 
+1. Execute o Visual Studio 2012 como administrador e selecione **Novo Projeto** na página Iniciar. 
     
 2. Na caixa de diálogo **Novo Projeto**, expanda os nós **Modelos**, **Visual C#** e **Office/SharePoint** e então selecione **Aplicativos**. Use o **.NET Framework 4.5** padrão na lista suspensa da estrutura de destino na parte superior do painel central e então selecione **Aplicativo para o SharePoint 2013** (consulte a Figura 1). 
     
-3. No campo **nome** , digite QuickStatus, navegue até o local onde deseja salvar o aplicativo e escolha **Okey**.
+3. No campo **Nome**, digite QuickStatus, navegue até o local onde deseja salvar o aplicativo e então escolha **OK**.
     
-   **Figura 1. Criando um aplicativo do Project Server no Visual Studio**
+   **Figura 1. Criar um aplicativo do Project Server no Visual Studio**
 
-   ![Criando um projeto de aplicativo de servidor no Visual Studio] (media/pj15_CreateStatusingApp_NewProject.gif "Criando um projeto de aplicativo de servidor no Visual Studio")
+   ![Criar um aplicativo do Project Server no Visual Studio](media/pj15_CreateStatusingApp_NewProject.gif "Criar um aplicativo do Project Server no Visual Studio")
   
 4. Na caixa de diálogo **Novo aplicativo para o SharePoint**, preencha estes três campos: 
     
-   - Na caixa de texto superior, digite o nome que você deseja que o aplicativo para exibir no Project Web App. Por exemplo, digite rápida de atualização de Status.
+   - Na caixa de texto superior, digite o nome que você deseja que o aplicativo exiba no Project Web App. Por exemplo, digite Atualização do QuickStatus.
     
-   - Para o site a ser usado para depuração, digite a URL da instância do Project Web App. Por exemplo, digite `https://ServerName/ProjectServerName` (substituindo _ServerName_ e _ProjectServerName_ com seus próprios valores) e clique em **Validar**. Se tudo correr bem, o Visual Studio mostra **Conexão bem-sucedida**. Se você receber uma mensagem de erro, certifique-se de que a URL do Project Web App está correta e se o computador do Project Server está configurado para isolamento de aplicativo e sideloading de aplicativos. Para obter mais informações, consulte a seção de [pré-requisitos para a criação de um aplicativo do Project Server 2013](#pj15_StatusingApp_Prerequisites) . 
+   - Para o site usar para depuração, digite a URL da instância do Project Web App. Por exemplo, digite `https://ServerName/ProjectServerName` (substituindo o _ServerName_ e o _ProjectServerName_ por seus próprios valores) e, em seguida, escolha **Validar**. Se tudo correr bem, o Visual Studio mostrará **Conexão bem-sucedida**. Se você receber uma mensagem de erro, verifique se a URL do Project Web App está correta e se o computador do Project Server está configurado para isolamento de aplicativos e sideloading de aplicativos. Confira mais informações na seção [Pré-requisitos para a criação de um aplicativo para o Project Server 2013](#pj15_StatusingApp_Prerequisites). 
     
-   - Na lista suspensa **Como você deseja hospedar seu aplicativo para o SharePoint**, escolha **Hospedado pelo SharePoint**.
+   - Na lista suspensa **Como você deseja hospedar seu aplicativo do SharePoint**, escolha **Hospedado pelo SharePoint**.
     
    > [!CAUTION]
    > Se você escolher o tipo de projeto **Hospedado pelo provedor** padrão por engano, o Visual Studio criará dois projetos na solução: um projeto **QuickStatus** e um projeto **QuickStatusWeb**. Se forem exibidos dois projetos, exclua essa solução e comece novamente. 
@@ -93,21 +93,21 @@ Para modificar a faixa de opções do Project Web App, você pode adicionar uma 
     
    - Na primeira linha da lista **Solicitações de permissão**, na coluna **Escopo**, escolha **Status** na lista suspensa. Na coluna **Permissão**, escolha **SubmitStatus**.
     
-   - Adicione uma linha onde o **Escopo** for **Vários Projetos** e a **Permissão** for **Leitura**.
+   - Adicione uma linha onde o **Escopo** é **Vários Projetos** e a **Permissão** é **Leitura**.
     
-   **Figura 2. Configurando o escopo da permissão para um aplicativo de status**
+   **Figura 2. Configurar o escopo da permissão para um aplicativo de status**
 
-   ![Configurando o escopo de permissão para um aplicativo de status] (media/pj15_CreateStatusingApp_PermissionScope.gif "Configurando o escopo de permissão para um aplicativo de status")
+   ![Configurar o escopo da permissão para um aplicativo de status](media/pj15_CreateStatusingApp_PermissionScope.gif "Configurar o escopo da permissão para um aplicativo de status")
   
-O aplicativo **QuickStatus** permite que um usuário do Project Web App ler atribuições para que o usuário de vários projetos, alterar a porcentagem de atribuição concluída e envia a atualização. Os outros escopos de solicitação permissão mostrados na lista suspensa na Figura 2 não são necessários para esse aplicativo. Os escopos de solicitação de permissão são as permissões que o aplicativo as solicitações em nome do usuário. Se o usuário não tiver essas permissões no Project Web App, o aplicativo não é executado. Um aplicativo pode ter vários escopos de solicitação de permissão, incluindo aqueles para outras permissões do SharePoint, mas deve ter apenas o mínimo necessário para a funcionalidade do aplicativo. Estes são os escopos de solicitação de permissão que estão relacionados ao Project Server: 
+O aplicativo **QuickStatus** permite que um usuário do Project Web App leia atribuições para esse usuário de vários projetos, altere a porcentagem concluída de atribuição e envie a atualização. Os outros escopos de solicitação de permissão mostrados na lista suspensa da Figura 2 não são necessários para este aplicativo. Os escopos de solicitação de permissão são as permissões que o aplicativo solicita em nome do usuário. Se o usuário não tiver essas permissões no Project Web App, o aplicativo não será executado. Um aplicativo pode ter vários escopos de solicitação de permissão, incluindo aqueles para outras permissões do SharePoint, mas deve ter apenas o mínimo necessário para a funcionalidade do aplicativo. A seguir estão os escopos de solicitação de permissão relacionados ao Project Server: 
 
-- **Recursos da empresa**: permissões de gerente de recursos, ler ou gravar informações sobre outros usuários do Project Web App.
+- **Recursos da Empresa**: permissões do gerente de recursos para ler ou escrever informações sobre outros usuários do Project Web App.
     
 - **Vários Projetos**: leitura ou gravação para mais de um projeto, onde o usuário tem as permissões exigidas.
     
-- **Project Server**: requer que o usuário do aplicativo ter permissões de administrador para o Project Web App.
+- **Project Server**: exige o usuário do aplicativo para ter permissões do administrador para o Project Web App.
     
-- **Relatórios**: ler o serviço **ProjectData** OData para o Project Web App (requer o logon apenas a permissão para o Project Web App). 
+- **Relatório**: leitura do serviço OData do **ProjectData** para o Project Web App (requer apenas permissão de logon para o Project Web App). 
     
 - **Projeto Único**: leitura ou gravação para um projeto onde o usuário tem as permissões exigidas.
     
@@ -115,18 +115,18 @@ O aplicativo **QuickStatus** permite que um usuário do Project Web App ler atri
     
 - **Fluxo de Trabalho**: se o usuário tiver permissão para executar fluxos de trabalho do Project Server, o aplicativo então será executado com permissões elevadas para o fluxo de trabalho.
     
-Para obter mais informações sobre escopos de solicitação de permissão do Project Server 2013, consulte a seção de *aplicativos do projeto* em [atualizações para desenvolvedores no Project 2013](updates-for-developers-in-project-2013.md) e [permissões de aplicativo no SharePoint 2013](http://msdn.microsoft.com/library/fp142383.aspx).
+Confira mais informações sobre os escopos da solicitação de permissão do Project Server 2013 na seção *Aplicativos do Project* em [Atualizações para desenvolvedores no Project 2013](updates-for-developers-in-project-2013.md) e [Permissões de aplicativo no SharePoint 2013](https://msdn.microsoft.com/library/fp142383.aspx).
 
 
 <a name="pj15_StatusingApp_HTML"> </a>
 
-### <a name="creating-the-html-content-for-the-quickstatus-app"></a>Criando o conteúdo HTML para o aplicativo QuickStatus
+### <a name="creating-the-html-content-for-the-quickstatus-app"></a>Criar o conteúdo HTML para o aplicativo QuickStatus
 
-Antes de começar a codificação do conteúdo HTML, projete a interface do usuário e a experiência do usuário para o aplicativo QuickStatus (Figura 3 mostra um exemplo da página concluída). Um design também pode incluir uma estrutura de tópicos das funções JavaScript que interagem com o código HTML. Para obter informações gerais, consulte [design de eu para aplicativos no SharePoint 2013](http://msdn.microsoft.com/library/fp179934.aspx).
+Antes de começar a codificar o conteúdo HTML, projete a interface do usuário e a experiência do usuário para o aplicativo QuickStatus (a Figura 3 mostra um exemplo da página concluída). Um design também pode incluir uma estrutura de tópico das funções JavaScript que interagem com o código HTML. Confira informações gerais em [Design de experiência do usuário para aplicativos no SharePoint 2013](https://msdn.microsoft.com/library/fp179934.aspx).
   
 **Figura 3. Página Design do aplicativo QuickStatus**
 
-![Design da página QuickStatus app] (media/pj15_CreateStatusingApp_AfterRefresh.gif "Design da página QuickStatus app")
+![Página Design do aplicativo QuickStatus](media/pj15_CreateStatusingApp_AfterRefresh.gif "Página Design do aplicativo QuickStatus")
   
 O aplicativo mostra o nome de exibição na parte superior, que é o valor do elemento **Title** no AppManifest.xml. 
   
@@ -136,41 +136,41 @@ Por padrão, a página usa HTML5. A seguir, os elementos HTML padrão para os ob
     
 - Um elemento **fieldset** cria um contêiner e uma borda para a tabela de atribuições; o elemento **legend** secundário oferece um rótulo para o contêiner. 
     
-- Um elemento de **tabela** inclui uma legenda e apenas um cabeçalho da tabela. Funções JavaScript alterar a legenda de tabela e adicionar linhas para as atribuições. 
+- Um elemento **table** inclui uma legenda e apenas um cabeçalho de tabela. As funções JavaScript alteram a legenda da tabela e adicionam linhas para as atribuições. 
     
    > [!NOTE]
    > Para adicionar paginação e classificação com facilidade, um aplicativo de produção provavelmente usaria um controle de grade baseado em jQuery comercial em vez de uma tabela. 
   
-   A tabela inclui colunas para o nome do projeto, o nome da tarefa com uma caixa de seleção, o trabalho real, a porcentagem do trabalho concluída, restante e a atribuição de data de término. Funções JavaScript criar a caixa de seleção e o campo de entrada de texto para a porcentagem concluída de cada tarefa.
+   A tabela inclui colunas para o nome do projeto, o nome da tarefa com uma caixa de seleção, o trabalho real, a porcentagem concluída, o trabalho restante e a data de término da atribuição. As funções JavaScript criam a caixa de seleção e o campo de entrada de texto para a porcentagem concluída de cada tarefa.
     
-- Um elemento **input** para uma caixa de texto define a porcentagem concluída para todas as atribuições concluídas. 
+- Um elemento **input** para uma caixa de texto define a porcentagem concluída para todas as atribuições selecionadas. 
     
 - Um elemento **button** envia as alterações de status. 
     
 - Um elemento **button** atualiza a página. 
     
-- Um elemento de **botão** sai do aplicativo e retorna para a página de tarefas no Project Web App. 
+- Um elemento **button** sai do aplicativo e retorna para a página Tarefas no Project Web App. 
     
-Os elementos de botão e de caixa de texto inferior estão dentro dos elementos **div** , para que CSS pode gerenciar facilmente a posição e a aparência dos objetos de interface do usuário. Uma função JavaScript adiciona um parágrafo na parte inferior da página que contém os resultados para o sucesso ou falha da atualização de status. 
+A caixa de texto inferior e os elementos button estão dentro dos elementos **div**, para que o CSS possa gerenciar facilmente a posição e a aparência dos objetos da interface do usuário. Uma função JavaScript adiciona um parágrafo na parte inferior da página que contém os resultados para o sucesso ou fracasso da atualização de status. 
   
 ### <a name="procedure-2-to-create-the-html-content"></a>Procedimento 2. Para criar o conteúdo HTML
 
-1. No Visual Studio, abra o arquivo default. aspx.
+1. No Visual Studio, abra o arquivo Default.aspx.
     
-   O arquivo inclui dois elementos **Asp: conteúdo** : O elemento com o `ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` atributo é adicionado no cabeçalho da página e o elemento com o `ContentPlaceHolderID="PlaceHolderMain"` atributo é colocado dentro do elemento de **corpo** da página. 
+   O arquivo inclui dois elementos **asp:Content**: o elemento com o atributo `ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` é adicionado ao cabeçalho da página, e o elemento com o atributo `ContentPlaceHolderID="PlaceHolderMain"` é posicionado no elemento **body** da página. 
     
-2. No `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` controle para o cabeçalho de página, adicione uma referência ao arquivo PS.js no computador do Project Server. Para testar e depurar, você pode usar PS.debug.js. 
+2. No controle `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` para o cabeçalho da página, adicione uma referência ao arquivo PS.js no computador do Project Server. Para testar e depurar, você pode usar o PS.debug.js. 
     
    ```HTML
      <script type="text/javascript" src="/_layouts/15/ps.debug.js"></script>
    ```
 
-   A infraestrutura de app usa o `/_layouts/15/` diretório virtual para o site do SharePoint no IIS. O arquivo físico é `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.debug.js`.
+   A infraestrutura do aplicativo usa o diretório virtual `/_layouts/15/` para o site do SharePoint no IIS. O arquivo físico é `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.debug.js`.
     
    > [!NOTE]
-   > Antes de implantar o aplicativo para uso em produção, remover `.debug` das referências de script para melhorar o desempenho. 
+   > Antes de implantar o aplicativo para uso em produção, remova `.debug` das referências do script para melhorar o desempenho. 
   
-3. No `<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">` controlar o corpo da página, exclua o elemento **div** de gerado e adicione o código HTML para os objetos de interface do usuário. O elemento de **tabela** contém somente uma linha de cabeçalho. Coluna **nome da tarefa** inclui um controle de caixa de seleção de entrada. Texto para o elemento de **legenda** é substituído pelo retorno de chamada para a função **getUserInfo** no arquivo App.js **onGetUserNameSuccess** . 
+3. No controle `<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">` para o corpo da página, exclua o elemento **div** gerado e, em seguida, adicione o código HTML para os objetos da interface de usuário. O elemento **table** contém apenas uma linha de cabeçalho. A coluna **Task name** inclui um controle de entrada da caixa de seleção. O texto do elemento **caption** é substituído pelo retorno de chamada **onGetUserNameSuccess** para a função **getUserInfo** no arquivo App.js. 
     
     ```HTML
     <form>
@@ -210,17 +210,17 @@ Os elementos de botão e de caixa de texto inferior estão dentro dos elementos 
 
 4. No arquivo App.css, adicione código CSS para a posição e a aparência dos elementos da interface do usuário. Para obter o código CSS completo do aplicativo **QuickStatus**, consulte a seção [Código de exemplo para o aplicativo QuickStatus](#pj15_StatusingApp_Example). 
     
-3 do procedimento adiciona as funções do JavaScript para ler as atribuições e criar as linhas de tabela, para alterar e atualizar a porcentagem de atribuição concluída. As etapas reais são mais repetitivo no desenvolvimento de um aplicativo, onde você Alternativamente cria alguns dos códigos HTML, adicionar e testar estilos relacionados e funções do JavaScript, modificar ou adicionar mais um código HTML e, em seguida, repita o processo.
+O Procedimento 3 inclui as funções JavaScript para ler as atribuições e criar as linhas da tabela, e para alterar e atualizar a porcentagem concluída da atribuição. As etapas reais são mais interativas no desenvolvimento de um aplicativo, em que você cria, alternadamente, parte do código HTML, adiciona e testa estilos relacionados e funções JavaScript, modifica ou adiciona mais código HTML e, em seguida, repete o processo.
 
 <a name="pj15_StatusingApp_JavaScript"> </a>
 
-### <a name="creating-the-javascript-functions-for-the-quickstatus-app"></a>Criando as funções JavaScript para o aplicativo QuickStatus
+### <a name="creating-the-javascript-functions-for-the-quickstatus-app"></a>Criar as funções JavaScript para o aplicativo QuickStatus
 
-O modelo do Visual Studio para um aplicativo do SharePoint inclui o App.js arquivo, que contém o código de inicialização padrão que obtém o contexto de cliente do SharePoint e demonstra básica obter e definir ações para a página do aplicativo. O namespace do JavaScript para a biblioteca do SharePoint do cliente SP.js é **SP**. Como um aplicativo do Project Server usa a biblioteca de PS.js, o aplicativo usa o namespace **PS** para obter o contexto de cliente e acessar o JSOM para o Project Server. 
+O modelo do Visual Studio para um aplicativo do SharePoint inclui o arquivo App.js, que contém o código de inicialização padrão que obtém o contexto do cliente do SharePoint e demonstra as ações básicas de get e set para a página do aplicativo. O namespace JavaScript para a biblioteca SP.js do lado do cliente do SharePoint é **SP**. Como um aplicativo do Project Server usa a biblioteca PS.js, o aplicativo usa o namespace **PS** para obter o contexto do cliente e acessar o JSOM para o Project Server. 
   
-Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte: 
+As funções JavaScript do aplicativo **QuickStatus** incluem o seguinte: 
   
-- O manipulador de eventos **ready** do documento é executado quando o modelo de objeto do documento (DOM) é instanciado. O manipulador de eventos do **ready** executa estas quatro etapas: 
+- O manipulador de eventos **ready** do documento é executado quando o modelo de objeto do documento (DOM) é instanciado. O manipulador de eventos **ready** executa estas quatro etapas: 
     
     1. Inicializa a variável global **projContext** com o contexto de cliente para o JSOM do Project Server e a variável global **pwaWeb**. 
         
@@ -314,7 +314,7 @@ Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte:
 5. Adicione a função **onGetAssignmentsSuccess**, que adiciona uma linha para cada atribuição à tabela. A variável **prevProjName** é usada para determinar se uma linha é para um projeto diferente. Nesse caso, o nome do projeto é mostrado em uma fonte em negrito; caso contrário, o nome do projeto é definido como uma cadeia de caracteres vazia. 
     
    > [!NOTE]
-   > O JSOM não inclui propriedades **TimeSpan** que inclui o CSOM, como **ActualWorkTimeSpan**. Em vez disso, o JSOM usa propriedades para o número de milissegundos, como o [PS. StatusAssignment.actualWorkMilliseconds](http://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx) propriedade. O método obter essa propriedade é **obter\_actualWorkMilliseconds**, que retorna um valor inteiro. > O método **get_actualWork** retorna uma cadeia de caracteres, como "3 h". Você poderia usar qualquer um desses valores no aplicativo **QuickStatus** , mas exibi-la de forma diferente. A consulta de atribuições inclui ambas as propriedades, para que você possa testar o valor durante a depuração. Se você remover a variável **actualWork** , você também pode remover a propriedade **ActualWork** na consulta atribuições. 
+   > O JSOM não inclui as propriedades **TimeSpan** que o CSOM inclui, como **ActualWorkTimeSpan**. Em vez disso, o JSOM usa propriedades para o número de milissegundos, como a propriedade [PS.StatusAssignment.actualWorkMilliseconds](https://msdn.microsoft.com/library/736bce1e-f734-0efe-6c5f-e0e891ab00ef%28Office.15%29.aspx). O método para obter essa propriedade é **get\_actualWorkMilliseconds**, que retorna um valor inteiro. > O método **get_actualWork** retorna uma cadeia de caracteres como "3h". Você pode usar qualquer valor no aplicativo **QuickStatus**, mas exibi-lo de forma diferente. A consulta de atribuições inclui ambas as propriedades, para que você possa testar o valor durante a depuração. Se você remover a variável **actualWork**, também poderá remover a propriedade **ActualWork** na consulta de atribuições. 
   
    Por fim, a função **onGetAssignmentsSuccess** inicializa o botão **Atualização** e o botão **Atualizar** com manipuladores de eventos de clique. O valor do texto do botão **Atualização** também poderia ser definido no código HTML. 
     
@@ -378,11 +378,11 @@ Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte:
 6. Adicione o manipulador de eventos de clique **updateAssignments** para o botão **Atualização**. Quando o usuário altera um valor para a porcentagem concluída de uma tarefa ou adiciona um valor à caixa de texto **percentComplete**, o valor poderia ser inserido em diversos formatos, como "60", "60%" ou "60 %". O método **getNumericValue** retorna o valor numérico do texto de entrada. 
     
    > [!NOTE]
-   > Em um aplicativo projetado para o uso em produção, os valores de entrada para informações numéricas devem incluir validação de campo e verificação de erro adicional. 
+   > Em um aplicativo projetado para o uso em produção, os valores de entrada para informações numéricas devem incluir validação de campo e verificação de erros adicional. 
   
    O exemplo **updateAssignments** inclui alguma verificação básica de erro e exiba informações no parágrafo **message** na parte inferior da página — verde se a consulta de atualização obtiver êxito e vermelho se houver um erro de entrada ou se a consulta de atualização não obtiver êxito. 
     
-   Antes de usar o método **submitAllStatusUpdates**, o aplicativo deverá salvar as atualizações para o servidor usando o método **PS.StatusAssignmentCollection.update**. 
+   Antes de usar o método **submitAllStatusUpdates**, o aplicativo deve salvar as atualizações no servidor usando o método **PS.StatusAssignmentCollection.update**. 
     
    ```js
         // Update all checked assignments. If the bottom percent complete field is blank,
@@ -444,7 +444,7 @@ Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte:
         }
    ```
 
-7. Adicione a função **exitToPwa** , que usa o parâmetro de cadeia de caracteres de consulta de **SPHostUrl** para a URL do site do Project Web App do host. Para navegar voltar para a página de tarefas, append `"/Tasks.aspx"` para a URL. Por exemplo, a variável **spHostUrl** deve ser definida como `https://ServerName/ProjectServerName/Tasks.aspx`.
+7. Adicione a função **exitToPwa**, que usa o parâmetro de cadeia de caracteres de consulta **SPHostUrl ** para a URL do site do Project Web App host. Para navegar de volta para a página Tarefas, acrescente `"/Tasks.aspx"` à URL. Por exemplo, a variável **spHostUrl** seria definida como `https://ServerName/ProjectServerName/Tasks.aspx`.
     
    A função  **getQueryStringParameter** divide a URL da página **QuickStatus** para extrair e retornar o parâmetro especificado nas opções da URL. A seguir, um exemplo do valor **document.URL** para o documento **QuickStatus** (tudo em uma linha): 
     
@@ -459,7 +459,7 @@ Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte:
             %2Eofficeapps%2Eselfhost%2Ecorp%2Emicrosoft%2Ecom%2Fpwa%2FQuickStatus
    ```
 
-   Para a URL anterior, a função de **getQueryStringParameter** retornará o valor de cadeia de caracteres de consulta **SPHostUrl** , `https://ServerName/pwa`. 
+   Para a URL anterior, a função **getQueryStringParameter** retorna o valor de cadeia de caracteres de consulta **SPHostUrl**, `https://ServerName/pwa`. 
     
    ```js
         // Exit the QuickStatus page and go back to the Tasks page in Project Web App.
@@ -482,17 +482,17 @@ Funções de JavaScript no aplicativo **QuickStatus** incluem o seguinte:
         }
    ```
 
-Se você publica o aplicativo **QuickStatus** nesse momento e adicioná-lo ao Project Web App, o aplicativo pode ser executado de página conteúdo do Site, mas não é facilmente disponível aos usuários. Para ajudar os usuários a encontrar e executar o aplicativo, você pode adicionar um botão para que ele à faixa de opções na página tarefas. 4 do procedimento mostra como adicionar uma ação personalizada da faixa de opções. 
+Se você publicar o aplicativo **QuickStatus** neste ponto e adicioná-lo ao Project Web App, o aplicativo poderá ser executado na página Conteúdo do Site, mas não estará facilmente disponível para os usuários. Para ajudar os usuários a encontrar e executar o aplicativo, você pode adicionar um botão para ele na faixa de opções na página Tarefas. O Procedimento 4 mostra como adicionar uma ação personalizada da faixa de opções. 
 
 <a name="pj15_StatusingApp_ribbon"> </a>
 
-### <a name="adding-a-ribbon-custom-action"></a>Adding a ribbon custom action
+### <a name="adding-a-ribbon-custom-action"></a>Adicionar uma ação personalizada da faixa de opções
 
-Guias da faixa de opções, grupos e controles do Project Web App são especificados no arquivo pwaribbon.xml, que é instalado no `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` diretório no computador executando o Project Server. Para ajudar a ações personalizadas de design para a faixa de opções do Project Web App, o download do SDK do Project 2013 inclui uma cópia de pwaribbon.xml. 
+Guias, grupos e controles da faixa de opções do Project Web App são especificados no arquivo pwaribbon.xml, que é instalado no diretório `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` no computador que está executando o Project Server. Para ajudar a criar ações personalizadas para a faixa de opções do Project Web App, o download do SDK do Project 2013 inclui uma cópia do pwaribbon.xml. 
   
-Project Web App utiliza as definições de faixa diferentes para a página de tarefas, dependendo se a instância do Project Web App usa o modo de entrada única que permite aos usuários inserir valores para o quadro de horários e a tarefa de status. Se você tiver permissões administrativas para o Project Web App, para determinar o modo de entrada, escolha **Configurações do PWA** no menu de configurações de lista suspensa no canto superior direito da página. Na página Configurações do PWA, escolha **Timesheet Settings and Defaults**e, em seguida, examine a caixa de seleção **Modo de entrada única** na parte inferior da página. 
+O Project Web App usa diferentes definições de faixa de opções para a página Tarefas, dependendo se a instância do Project Web App usa o modo de entrada única que permite aos usuários inserir valores para o quadro de horários e o status da tarefa. Se você tiver permissões administrativas para o Project Web App, para determinar o modo de entrada, escolha **Configurações do PWA** no menu de configurações suspensas, no canto superior direito da página. Na página Configurações do PWA, escolha **Configurações e Padrões do Quadro de Horários** e, em seguida, examine a caixa de seleção **Modo de Entrada Única** na parte inferior da página. 
   
-Quando o modo de entrada única estiver desativado, a faixa de opções na página Tarefas é definida pela região Meu Trabalho em pwaribbon.xml: 
+Quando o modo de entrada única estiver desativado, a faixa de opções na página Tarefas será definida pela região Meu Trabalho em pwaribbon.xml: 
   
 ```XML
    <!-- REGION My Work Ribbon-->
@@ -513,35 +513,35 @@ Quando o modo de entrada única estiver ativado, a faixa de opções da página 
 Embora os grupos e controles em cada região pareçam semelhantes, um controle para o modo vinculado pode chamar uma função diferente do mesmo controle para o modo não vinculado. O Procedimento 4 mostra como adicionar um controle de botão para o aplicativo **QuickStatus** quando o modo de entrada única estiver desativado (a caixa de seleção **Modo de Entrada Única** está desmarcada). 
   
 > [!NOTE]
-> Para obter informações gerais sobre como adicionar ações personalizadas com uma faixa de opções ou como um menu em um aplicativo do SharePoint, consulte [criar ações personalizadas para implantação com aplicativos do SharePoint](http://msdn.microsoft.com/en-us/library/jj163954.aspx). 
+> Confira informações gerais sobre a adição de ações personalizadas a uma faixa de opções ou a um menu em um aplicativo do SharePoint em [Criar ações personalizadas para implantação com aplicativos do SharePoint](https://msdn.microsoft.com/library/jj163954.aspx). 
   
 ### <a name="procedure-4-to-add-a-ribbon-custom-action-to-the-tasks-page"></a>Procedimento 4. Para adicionar uma ação personalizada da faixa de opções à página Tarefas
 
-1. Examine a faixa de opções na página tarefas no Project Web App. Selecione a guia **tarefas** na faixa de opções e planejar como modificá-lo. Há sete grupos, como **Enviar**, **tarefas**e **período**. O grupo de **envio** tem dois controles, um botão **Salvar** e um menu suspenso de **Status de envio** . Você pode adicionar um controle em qualquer local em um grupo, adicione um grupo com um novo controle em qualquer local na guia **tarefas** ou adicionar outra guia faixa de opções com controles e grupos personalizados. Neste exemplo, adicionamos um terceiro botão para o grupo de **envio** , onde o botão invoca a URL do aplicativo **QuickStatus** . 
+1. Examine a faixa de opções na página Tarefas no Project Web App. Selecione a guia **TAREFAS** na faixa de opções e planeje como modificá-la. Existem sete grupos, como **Enviar**, **Tarefas** e **Período**. O grupo **Enviar** tem dois controles, um botão **Salvar** e um menu suspenso **Enviar Status**. Você pode adicionar um controle em qualquer local de um grupo, adicionar um grupo com um novo controle em qualquer local na guia **TAREFAS** ou adicionar outra guia da faixa de opções com grupos e controles personalizados. Neste exemplo, adicionamos um terceiro botão ao grupo **Enviar**, em que o botão invoca o URL do aplicativo **QuickStatus**. 
     
-2. No painel **Gerenciador de soluções** no Visual Studio, clique com botão direito no projeto **QuickStatus** e, em seguida, adicionar um novo item. Na caixa de diálogo **Adicionar Novo Item** , escolha **A ação personalizada da faixa de opções** (consulte a Figura 4). Por exemplo, nomeie a ação personalizada RibbonQuickStatusAction e escolha **Adicionar**.
+2. No painel **Gerenciador de Soluções ** do Visual Studio, clique com o botão direito do mouse no projeto **QuickStatus** e adicione um novo item. Na caixa de diálogo **Adicionar Novo Item**, escolha **Ação Personalizada da Faixa de Opções** (confira a Figura 4). Por exemplo, nomeie a ação personalizada RibbonQuickStatusAction e escolha **Adicionar**.
     
-   **Figura 4. Adicionando uma ação personalizada da faixa de opções**
+   **Figura 4. Adicionar uma ação personalizada da faixa de opções**
 
-   ![Adicionando uma ação personalizada da faixa de opções] (media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adicionando uma ação personalizada da faixa de opções")
+   ![Adicionar uma ação personalizada da faixa de opções](media/pj15_CreateStatusingApp_AddRibbonCustomAction.gif "Adicionar uma ação personalizada da faixa de opções")
   
 3. Na primeira página do assistente **Criar Ação Personalizada para a Faixa de Opções**, deixe a opção **Host da Web** selecionada, escolha **Nenhum** na lista suspensa para o escopo da ação personalizada e então escolha **Avançar** (consulte a Figura 5). Os itens das listas suspensas são relevantes para o SharePoint e não para o Project Server. Substituiremos a maioria dos XMLs gerados para a ação personalizada e, portanto, ela se aplicará ao Project Server. 
     
-   **Figura 5. Especificando propriedades para a ação personalizada da faixa de opções**
+   **Figura 5. Especificar propriedades para a ação personalizada da faixa de opções**
 
-   ![Especificando propriedades para a ação personalizada da faixa de opções] (media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Especificando propriedades para a ação personalizada da faixa de opções")
+   ![Especificar propriedades para a ação personalizada da faixa de opções](media/pj15_CreateStatusingApp_RibbonCustomAction2.gif "Especificar propriedades para a ação personalizada da faixa de opções")
   
 4. Na próxima página do assistente **Criar Ação Personalizada para a Faixa de Opções**, deixe todos os valores padrão para as configurações e então escolha **Concluir** (consulte a Figura 6). O Visual Studio cria a pasta **RibbonQuickStatusAction**, que contém um arquivo Elements.xml. 
     
-   **Figura 6. Especificando as configurações para um controle de botão**
+   **Figura 6. Especificar as configurações para um controle de botão**
 
-   ![Especificando as configurações para um controle de botão] (media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Especificando as configurações para um controle de botão")
+   ![Especificar as configurações para um controle de botão](media/pj15_CreateStatusingApp_RibbonCustomAction3.gif "Especificar as configurações para um controle de botão")
   
 5. Modifique o código padrão gerado no arquivo Elements.xml para a ação personalizada da faixa de opções. A seguir, o código XML padrão:
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -574,7 +574,7 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
 
    1. No elemento **CustomAction**, exclua o atributo **Sequence** e o atributo **Title**. 
     
-   2. Para adicionar um controle para o grupo de **envio** , localize o primeiro grupo de `Ribbon.ContextualTabs.MyWork.Home.Groups` conjunto no arquivo pwaribbon.xml, que é o elemento que começa, `<Group Id="Ribbon.ContextualTabs.MyWork.Home.Page" Command="PageGroup" Sequence="10" Title="$Resources:pwafeatures,PAGE_PDP_CM_SUBMIT"`. Para adicionar um controle filho ao grupo de **envio** , o código a seguir mostra o atributo **Location** correto do elemento **CommandUIDefinition** no arquivo Elements XML: 
+   2. Para adicionar um controle ao grupo **Enviar**, encontre o primeiro grupo na coleção `Ribbon.ContextualTabs.MyWork.Home.Groups` no arquivo pwaribbon.xml, que é o elemento que inicia, `<Group Id="Ribbon.ContextualTabs.MyWork.Home.Page" Command="PageGroup" Sequence="10" Title="$Resources:pwafeatures,PAGE_PDP_CM_SUBMIT"`. Para adicionar um controle filho ao grupo **Enviar**, o código a seguir mostra o atributo **Location** correto do elemento **CommandUIDefinition** no arquivo Elements.xml: 
     
       ```XML
         <CommandUIDefinitions>
@@ -603,15 +603,15 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
                     ToolTipDescription="Run the QuickStatus app" />
        ```
 
-       - Para tornar o botão o terceiro controle no grupo, o atributo de **sequência** pode ser qualquer número maior do que o `Sequence="20"` valor do controle **Enviar Status** existente (que é um elemento de **FlyoutAnchor** em pwaribbon.xml). Por convenção, os números de sequência de grupos e controles são `10, 20, 30, …`, que permite que os elementos a ser inserido no posições intermediárias.
+       - Para tornar o botão o terceiro controle no grupo, o atributo **Sequence** pode ser qualquer número maior que o valor `Sequence="20"` do controle **Send Status** existente (que é um elemento **FlyoutAnchor** de pwaribbon.xml). Por convenção, os números de sequência dos grupos e controles são `10, 20, 30, …`, o que permite que os elementos sejam inseridos em posições intermediárias.
     
-       - O atributo do **comando** Especifica o comando para executar no elemento **CommandUIHandler** (consulte o seguinte etapa 5.d). Você pode simplificar o nome do comando para tornar mais fácil para o desenvolvedor próximo. Por exemplo `Command="Invoke_QuickStatus"` é mais fácil leitura que `Command="Invoke_RibbonQuickStatusActionButtonRequest"`.
+       - O atributo **Command** especifica o comando a ser executado no elemento **CommandUIHandler** (confira a seguinte etapa 5.d). Você pode simplificar o nome do comando para tornar mais fácil para o próximo desenvolvedor. Por exemplo, `Command="Invoke_QuickStatus"` é mais fácil de ler que `Command="Invoke_RibbonQuickStatusActionButtonRequest"`.
     
-       - Os atributos de imagem especificam o ícone de 16 x 16 pixels e o ícone de 32 x 32 pixels para o controle de botão. No arquivo Elements. XML padrão, `Image32by32="_layouts/15/images/placeholder32x32.png"` Especifica um ponto laranja. Você pode extrair ícones dos arquivos de mapa de imagem (ps16x16.png e ps32x32.png) que são instalados no `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033\IMAGES` diretório no computador executando o Project Server. Por exemplo, o ícone de 32 x 32 pixels está na segunda coluna dos ícones da esquerda e a linha décima inoperante da parte superior do mapa de imagem do ps32x32.png (a parte superior do ícone é após o término do nono linha; 9 linhas x 32 pixels/linha = 288 pixels). 
+       - Os atributos de imagem especificam o ícone de 16 x 16 pixels e o ícone de 32 x 32 pixels para o controle de botão. No arquivo padrão Elements.xml, `Image32by32="_layouts/15/images/placeholder32x32.png"` especifica um ponto laranja. Você pode extrair ícones dos arquivos de mapa de imagem (ps16x16.png e ps32x32.png) que estão instalados no diretório `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033\IMAGES` no computador que está executando o Project Server. Por exemplo, o ícone de 32 x 32 pixels está na segunda coluna de ícones da esquerda e na décima linha abaixo da parte superior do mapa de imagem ps32x32.png (a parte superior do ícone é após o final da nona linha; 9 linhas x 32 pixels/linha = 288 pixels). 
     
        - Para mostrar uma dica de ferramenta para o controle de botão, adicione o atributo **ToolTipTitle** e o atributo **ToolTipDescription**. 
     
-    4. Altere os atributos do elemento **CommandUIHandler** . Por exemplo, certifique-se de que o atributo do **comando** coincide com o valor do atributo de **comando** para o elemento de **botão** . Para o atributo **CommandAction** , `~appWebUrl` é um espaço reservado para a URL da página da Web **QuickStatus** . Quando o botão da faixa de opções invoca o aplicativo **QuickStatus** , o token de **{StandardTokens}** é substituído pelas opções de URL que incluem **SPHostUrl**, **SPLanguage**, **SPClientTag**, **SPProductNumber**e **SPAppWebUrl **.
+    4. Altere os atributos do elemento **CommandUIHandler**. Por exemplo, assegure-se de que o atributo **Command** corresponda ao valor do atributo **Command** para o elemento **Button**. Para o atributo **CommandAction**, `~appWebUrl` é um espaço reservado para a URL da página da Web do **QuickStatus**. Quando o botão da faixa de opções invoca o aplicativo **QuickStatus**, o token **{StandardTokens}** é substituído por opções de URL que incluem **SPHostUrl**, **SPLanguage**, **SPClientTag**, **SPProductNumber** e **SPAppWebUrl**.
     
         ```XML
             <CommandUIHandlers>
@@ -622,122 +622,122 @@ Embora os grupos e controles em cada região pareçam semelhantes, um controle p
 
 6. No **Gerenciador de Soluções**, abra o designer **Feature1.feature** e mova o item **RibbonQuickStatusAction** do painel **Itens na Solução** para o painel **Itens no Recurso**. Então, se você abrir o designer **Package.package**, o item **RibbonQuickStatusAction** estará no painel **Itens no Pacote**. 
     
-Ao desenvolver o aplicativo e adicionar um botão da faixa de opções, você normalmente o aplicativo de teste e definir pontos de interrupção no código JavaScript para depuração. Quando você pressiona **F5** para iniciar a depuração, o Visual Studio compila o aplicativo, implanta para o site que é especificado na propriedade **URL do Site** do projeto **QuickStatus** e exibe uma página que pergunta se você confiar no aplicativo. Quando você continuar e saia do aplicativo **QuickStatus** , ele retorna para a página de tarefas no Project Web App. 
+Conforme você desenvolve o aplicativo e adiciona um botão da faixa de opções, normalmente testa o aplicativo e define pontos de interrupção no código JavaScript para depuração. Quando você pressiona **F5** para iniciar a depuração, o Visual Studio compila o aplicativo, implanta-o no site especificado na propriedade **URL do site** do projeto **QuickStatus** e exibe uma página que pergunta se você confia no aplicativo. Quando você prossegue e sai do aplicativo **QuickStatus**, ele retorna à página Tarefas no Project Web App. 
 
 > [!NOTE]
-> Figura 7 mostra que o botão de **Status rápido** na guia **tarefas** da faixa de opções é desabilitado. Depois que muitas depurar implantações com o Visual Studio, os controles de faixa de opções personalizada poderão ser bloqueados quando você continuar a depuração ou implantar o aplicativo publicado no mesmo servidor de teste. Para habilitar o botão, exclua o item de **RibbonQuickStatusAction** no Visual Studio e, em seguida, criar uma nova ação de faixa de opções que tem um nome diferente e ID. Se isso não resolver o problema, tente remover o aplicativo da instância de teste do Project Web App e, em seguida, recrie o aplicativo com uma ID de aplicativo diferentes. 
+> A Figura 7 mostra que o botão **Quick Status** na guia **TAREFAS** da faixa de opções está desativado. Depois de muitas implantações de depuração com o Visual Studio, os controles de faixa de opções personalizados podem ser bloqueados quando você continua a depurar ou implantar o aplicativo publicado no mesmo servidor de teste. Para habilitar o botão, exclua o item **RibbonQuickStatusAction** no Visual Studio e crie uma nova ação de faixa de opções que tenha um nome e uma ID diferente. Se isso não resolver o problema, tente remover o aplicativo da instância de teste do Project Web App e recrie o aplicativo com uma ID de aplicativo diferente. 
   
-**Figura 7. Exibindo a dica de ferramenta do botão Status Rápido desabilitado**
+**Figura 7. Visualizar a dica de ferramenta do botão QuickStatus desabilitado**
 
-![Exibindo a dica de tela do botão desabilitado] (media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Exibindo a dica de tela do botão desabilitado")
+![Visualizar a dica de ferramenta do botão QuickStatus desabilitado](media/pj15_CreateStatusingApp_ButtonToolTipDisabled.gif "Visualizar a dica de ferramenta do botão QuickStatus desabilitado")
   
 O Procedimento 5 mostra como implantar e instalar o aplicativo **QuickStatus**. O Procedimento 6 mostra algumas etapas adicionais para testar o aplicativo depois de instalá-lo. 
 
 <a name="pj15_StatusingApp_Deploying"> </a>
 
-## <a name="deploying-the-quickstatus-app"></a>Implantando o aplicativo QuickStatus
+## <a name="deploying-the-quickstatus-app"></a>Implantar o aplicativo QuickStatus
 
-Há várias maneiras de implantar um aplicativo para um aplicativo web do SharePoint, como o Project Web App. Qual implantação que você use dependem se você deseja publicar o aplicativo para um catálogo particular do SharePoint ou para a Office Store pública e se SharePoint está instalado no local ou é um inquilino online. Procedimento 5 mostra como implantar o aplicativo **QuickStatus** em uma instalação local em um catálogo de aplicativos privado. Para obter mais informações, consulte [instalar e gerenciar aplicativos do SharePoint 2013](http://technet.microsoft.com/library/fp161232.aspx) e [publicar aplicativos para SharePoint](http://msdn.microsoft.com/library/jj164070.aspx)
+Há várias maneiras de implantar um aplicativo para um aplicativo da Web do SharePoint, como o Project Web App. Qual implantação você usará dependerá se você deseja publicar o aplicativo em um catálogo particular do SharePoint ou no Public Office Store e se o SharePoint está instalado no local ou é uma locação online. O procedimento 5 mostra como implantar o aplicativo **QuickStatus** em uma instalação local em um catálogo particular de aplicativos. Confira mais informações em [Instalar e gerenciar aplicativos do SharePoint 2013](https://technet.microsoft.com/library/fp161232.aspx) e [Publicar aplicativos para do SharePoint](https://msdn.microsoft.com/library/jj164070.aspx).
   
 > [!NOTE]
 > A adição de um aplicativo em um catálogo do SharePoint exige permissões de administrador do SharePoint. 
   
-### <a name="procedure-5-to-deploy-the-quickstatus-app"></a>Procedimento 5. para implantar o aplicativo QuickStatus
+### <a name="procedure-5-to-deploy-the-quickstatus-app"></a>Procedimento 5. Para implantar o aplicativo QuickStatus
 
 1. No Visual Studio, salve todos os arquivos e então clique com o botão direito do mouse no projeto **QuickStatus** no **Gerenciador de Soluções** e escolha **Publicar**.
     
 2. Como o aplicativo **QuickStatus** é hospedado pelo SharePoint, existem algumas poucas opções para publicação (consulte a Figura 8). Na caixa de diálogo **Publicar aplicativos para o Office e o SharePoint**, escolha **Concluir**.
     
-   **Figura 8. Publicando o aplicativo QuickStatus**
+   **Figura 8. Publicar o aplicativo QuickStatus**
 
-   ![Usando o Assistente de publicação] (media/pj15_CreateStatusingApp_PublishWizard.gif "Usando o Assistente de publicação")
+   ![Usar o Assistente para Publicação](media/pj15_CreateStatusingApp_PublishWizard.gif "Usar o Assistente para Publicação")
   
-3. Copie o arquivo QuickStatus.app a partir do `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` diretório para um diretório conveniente no computador local (ou para o computador do SharePoint para uma instalação local). 
+3. Copie o arquivo QuickStatus.app do diretório `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` para um diretório conveniente no computador local (ou para o computador do SharePoint para uma instalação local). 
     
 4. Na Administração Central do SharePoint, escolha **Aplicativos** no Início Rápido e então escolha **Gerenciar o Catálogo de Aplicativos**.
     
-5. Se um catálogo de aplicativos não existir, crie um conjunto de sites para o catálogo de aplicativos, seguindo a seção de *Configurar o site de catálogo de aplicativos para um aplicativo web* em [Gerenciar o catálogo de aplicativos no SharePoint 2013](http://technet.microsoft.com/library/fp161234.aspx).
+5. Se o catálogo de aplicativos não existir, crie um conjunto de sites para o catálogo de aplicativos seguindo a seção *Configurar o site Catálogo de Aplicativos para um aplicativo Web* em [Gerenciar o Catálogo de Aplicativos no SharePoint 2013](https://technet.microsoft.com/library/fp161234.aspx).
     
-   Se existir em um catálogo de aplicativos, navegue até a URL do site na página Gerenciar o catálogo de aplicativos. Por exemplo, nas etapas a seguir, o site de catálogo de app é `http://ServerName/sites/TestApps`.
+   Se houver um catálogo de aplicativos, navegue até a URL do site na página Gerenciar Catálogo de Aplicativos. Por exemplo, nas etapas a seguir, o site do catálogo de aplicativos é  `https://ServerName/sites/TestApps`.
     
 6. Na página do catálogo de aplicativos, escolha **Aplicativos para o SharePoint** no Início Rápido. Na página Aplicativos para o SharePoint, na guia **ARQUIVOS** da faixa de opções, escolha **Carregar Documento**.
     
 7. Na caixa de diálogo **Adicionar um documento**, procure o arquivo QuickStatus.app, adicione comentários à versão e então escolha **OK**.
     
-8. Quando você adiciona um aplicativo, você também pode adicionar informações de locais para a descrição do aplicativo, ícone e outras informações. Na caixa de diálogo de **aplicativos do SharePoint - QuickStatus.app** , adicione as informações que você deseja mostrar para o app no conjunto de sites do SharePoint. Por exemplo, adicione as seguintes informações: 
+8. Ao adicionar um aplicativo, você também pode adicionar informações locais para a descrição, o ícone e outras informações do aplicativo. Na caixa de diálogo **Aplicativos para SharePoint – QuickStatus.app**, adicione as informações que você deseja mostrar para o aplicativo no conjunto de sites do SharePoint. Por exemplo, adicione as seguintes informações: 
     
-   1. Campo de **Descrição curta** : aplicativo de teste do tipo rapidamente o Status.
+   1. Campo **Descrição Curta**: digite Aplicativo de Teste de QuickStatus.
     
-   2. Campo **Descrição** : tipo de teste aplicativo para atualizar a porcentagem concluída para tarefas em vários projetos.
+   2. Campo **Descrição**: digite Testar aplicativo para atualizar porcentagem concluída para tarefas em vários projetos.
     
-   3. **URL do ícone** campos: adicionar uma imagem de 96 x 96 pixels para o ícone de aplicativo para os ativos de site para o catálogo de aplicativos. Por exemplo, navegue até `http://ServerName/sites/TestApps`, escolha o **conteúdo do Site** no menu suspenso de **configurações** , escolha **Ativos do Site**e, em seguida, adicione a imagem de quickStatusApp.png. Com o botão direito no item **quickStatusApp** , escolha **Propriedades**e, em seguida, copie o valor de **Endereço (URL)** na caixa de diálogo **Propriedades** . Por exemplo, copie `http://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png`e cole o valor no campo de endereço da web de **URL do ícone** . Digite uma descrição para o ícone, por exemplo (como na Figura 9), digite QuickStatus ícone de aplicativo. Teste se a URL é válida.
+   3. Campos **URL do Ícone**: adicione uma imagem de 96 x 96 pixels para o ícone do aplicativo aos recursos do site para o catálogo de aplicativos. Por exemplo, navegue para `https://ServerName/sites/TestApps`, escolha **Conteúdo do Site** no menu suspenso **Configurações**, escolha **Ativos do Site** e, em seguida, adicione a imagem quickStatusApp. Clique com o botão direito no item **quickStatusApp**, escolha **Propriedades** e copie o valor **Endereço (URL)** na caixa de diálogo **Propriedades**. Por exemplo, copie `https://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png` e cole o valor no campo de endereço da Web **URL do Ícone**. Digite uma descrição para o ícone, por exemplo (como na Figura 9), digite o ícone do aplicativo QuickStatus. Teste se a URL é válida.
     
-      **Figura 9. Adicione a URL de um ícone para o aplicativo QuickStatus**
+      **Figura 9. Adicionar uma URL de ícone para o aplicativo QuickStatus**
 
-      ![Definindo propriedades do SharePoint para o aplicativo] (media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Definindo propriedades do SharePoint para o aplicativo")
+      ![Definir propriedades no SharePoint para o aplicativo](media/pj15_CreateStatusingApp_AddAppToSharePointSettings.gif "Definir propriedades no SharePoint para o aplicativo")
   
-   4. Campo de **categoria** : escolher uma categoria existente ou especificar seu próprio valor. Por exemplo, digite status.
+   4. Campo **Categoria**: escolha uma categoria existente ou especifique seu próprio valor. Por exemplo, digite Status.
     
       > [!NOTE]
       > Uma categoria chamada **Status** destina-se apenas para fins de teste. Uma categoria típica para aplicativos do Project Server é **Gerenciamento de Projetos**. 
   
-   5. Campo **nome do Publisher** : digite o nome do Editor. Neste exemplo, digite o SDK do Project.
+   5. Campo **Nome do editor**: digite o nome do editor. Neste exemplo, digite SDK do Project.
     
-   6. Campo **habilitado** : para tornar o aplicativo visíveis aos administradores de sites do Project Web App para instalação, marque a caixa de seleção **habilitado** . 
+   6. **Campo Habilitado**: para tornar o aplicativo visível para os administradores de site do Project Web App para instalação, selecione a caixa de seleção **Habilitado**. 
     
    7. Os campos adicionais são opcionais. Por exemplo, você pode adicionar uma URL de suporte e várias imagens de ajuda à página de detalhes do aplicativo. Na Figura 9, os campos **URL da Imagem 1** incluem a URL para uma captura de tela do aplicativo e uma descrição da captura de tela. 
     
-   8. Na caixa de diálogo de **aplicativos do SharePoint - QuickStatus.app** , escolha **Salvar**. Na Figura 9, o item **Rápida de atualização de Status** de aplicativos para a biblioteca do SharePoint está com check-out para edição, assim por diante na guia **Editar** da faixa de opções de caixa de diálogo, você escolheria **Check-In** para concluir o processo (veja a Figura 10). 
+   8. Na caixa de diálogo **Aplicativos para SharePoint - QuickStatus.app**, escolha **Salvar**. Na Figura 9, o item **Atualização do QuickStatus** na biblioteca Aplicativos do SharePoint está marcado para edição e, portanto, na guia **EDITAR** da faixa de opções da caixa de diálogo, você deveria escolher **Check-in** para concluir o processo (confira a Figura 10). 
     
-      **Figura 10. O aplicativo QuickStatus é adicionado à biblioteca Aplicativos para o SharePoint.**
+      **Figura 10. O aplicativo QuickStatus é adicionado à biblioteca Aplicativos do SharePoint.**
 
-      ![QuickStatus o aplicativo é adicionado ao SharePoint] (media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "QuickStatus o aplicativo é adicionado ao SharePoint")
+      ![O aplicativo QuickStatus é adicionado ao SharePoint](media/pj15_CreateStatusingApp_AddAppToSharePoint.gif "O aplicativo QuickStatus é adicionado ao SharePoint")
   
-9. No Project Web App, no menu suspenso **configurações** , escolha **Adicionar um aplicativo**. Na página de seus aplicativos, na inicialização rápida, escolha **Da sua organização**e escolha **Detalhes do aplicativo** para o aplicativo de **Atualização de Status rápido** . Figura 11 mostra a página de detalhes com o ícone do aplicativo, captura de tela e outras informações que você adicionou na etapa anterior. 
+9. No Project Web App, no menu suspenso **Configurações**, escolha **Adicionar um aplicativo**. Na página Seus aplicativos, no Início Rápido, escolha **Da sua organização** e, em seguida, escolha **Detalhes do Aplicativo** para o aplicativo **Atualização do QuickStatus**. A Figura 11 mostra a página de detalhes com o ícone do aplicativo, captura de tela e outras informações adicionadas na etapa anterior. 
     
-   **Figura 11. Usando a página de detalhes de Atualização do Status Rápido no Project Web App**
+   **Figura 11. Usar a página de detalhes de Atualização do QuickStatus no Project Web App**
 
-   ![Adicionando o aplicativo QuickStatus para o Project Web App] (media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adicionando o aplicativo QuickStatus para o Project Web App")
+   ![Adicionar o aplicativo QuickStatus ao Project Web App](media/pj15_CreateStatusingApp_AddAppToPWA.gif "Adicionar o aplicativo QuickStatus ao Project Web App")
   
-10. Na página de detalhes da atualização de Status rápida, escolha **Adicionar TI**. Project Web App exibe uma caixa de diálogo que lista as operações que o aplicativo QuickStatus pode realizar (veja a Figura 12). A lista de operações é derivada dos elementos **AppPermissionRequest** no arquivo AppManifest.xml. 
+10. Na página de detalhes da Atualização do QuickStatus, escolha **ADICIONAR**. O Project Web App exibe uma caixa de diálogo que lista as operações que o aplicativo QuickStatus pode executar (confira a Figura 12). A lista de operações é derivada dos elementos **AppPermissionRequest** no arquivo AppManifest.xml. 
     
-    **Figura 12. Verificando se você confia no aplicativo Status Rápido**
+    **Figura 12. Verificar se você confia no aplicativo QuickStatus**
 
-    ![Verificando a relação de confiança para o aplicativo QuickStatus] (media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Verificando a relação de confiança para o aplicativo QuickStatus")
+    ![Verificar a confiabilidade do aplicativo QuickStatus](media/pj15_CreateStatusingApp_AddAppToPWA2Trust.gif "Verificar a confiabilidade do aplicativo QuickStatus")
   
-11. Na caixa de diálogo **você confia rápida de atualização de Status** , escolha **Confiança**. O aplicativo é adicionado à página conteúdo do Site do Project Web App (consulte a Figura 13).
+11. Na caixa de diálogo **Você confia na Atualização do QuickStatus**, escolha **Confiar**. O aplicativo é adicionado à página Conteúdo do Site do Project Web App (confira a Figura 13).
     
-    **Figura 13. Exibindo o aplicativo QuickStatus na página Conteúdo do Site**
+    **Figura 13. Exibir o aplicativo QuickStatus na página Conteúdo do Site**
 
-    ![Exibindo o aplicativo QuickStatus no conteúdo do Site] (media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Exibindo o aplicativo QuickStatus no conteúdo do Site")
+    ![Exibir o aplicativo QuickStatus em Conteúdo do Site](media/pj15_CreateStatusingApp_AddAppToPWA3.gif "Exibir o aplicativo QuickStatus em Conteúdo do Site")
   
-Na página Conteúdo do Site, você pode selecionar o ícone **Atualização do Status Rápido** para executar o aplicativo.
+Na página Conteúdo do Site, você pode selecionar o ícone **Atualização do QuickStatus** para executar o aplicativo.
 
 > [!NOTE]
-> Para os comandos adicionais que fornecem informações sobre o aplicativo, na página conteúdo do Site, escolha na região que contém o nome de **Atualização de Status rápida** e reticências (…). Você pode examinar a página sobre para o aplicativo, exibir a página de detalhes do aplicativo que contém informações sobre erros do aplicativo, revise a página de permissões de aplicativo ou remover o aplicativo do Project Web App. 
+> Para comandos adicionais que oferecem informações sobre o aplicativo, na página Conteúdo do Site, escolha a região que contém o nome **Atualização do QuickStatus** e as reticências (...). Você pode examinar a página Sobre para o aplicativo, exiba a página Detalhes do Aplicativo que contém informações sobre erros do aplicativo, examine a página de permissões do aplicativo ou remova o aplicativo do Project Web App. 
   
-Na página tarefas no Project Web App (consulte a Figura 14), o botão **QuickStatus** deve ser habilitado na faixa de opções. Se o botão **Status rápida** estiver desabilitado, tente as ações descritas na Observação para Figura 7. 
+Na página Tarefas no Project Web App (confira a Figura 14), o botão **QuickStatus** deve estar ativado na faixa de opções. Se o botão **QuickStatus** estiver desativado, tente as ações descritas na observação da Figura 7. 
 
-**Figura 14. Iniciando o aplicativo QuickStatus na guia TAREFAS**
+**Figura 14. Iniciar o aplicativo QuickStatus na guia TAREFAS**
 
-![Iniciando o aplicativo QuickStatus a partir da guia de tarefas] (media/pj15_CreateStatusingApp_TasksRibbon.gif "Iniciando o aplicativo QuickStatus a partir da guia de tarefas")
+![Iniciar o aplicativo QuickStatus na guia TAREFAS](media/pj15_CreateStatusingApp_TasksRibbon.gif "Iniciar o aplicativo QuickStatus na guia TAREFAS")
   
 O Procedimento 6 mostra alguns testes a serem feitos com o aplicativo QuickStatus.
 
 <a name="pj15_StatusingApp_Testing"> </a>
 
-## <a name="testing-the-quickstatus-app"></a>Testando o aplicativo QuickStatus
+## <a name="testing-the-quickstatus-app"></a>Testar o aplicativo QuickStatus
 
-Cada operação que um usuário pode tentar no aplicativo **QuickStatus** deve ser testada em uma instalação de teste do Project Server antes de implantar o aplicativo para um servidor de produção ou para um locatário de produção do Project Online. Uma instalação de teste permite alterar e excluir atribuições para os usuários sem afetar projetos reais. Teste também deve envolve a vários usuários que possuem diferentes conjuntos de permissões, como membro da equipe, gerente de projeto e administrador. Um teste completo poderá revelar alterações que devem ser feitas no aplicativo, que não foram aparentes nos testes durante o desenvolvimento. Procedimento 6 lista vários testes para o aplicativo **QuickStatus** , mas não inclui uma série de exaustiva de testes. 
+Todas as operações que um usuário pode tentar no aplicativo **QuickStatus** devem ser testadas em uma instalação de teste do Project Server antes de implantar o aplicativo em um servidor de produção ou em um locatário de produção do Project Online. Uma instalação de teste permite alterar e excluir atribuições para usuários sem afetar projetos reais. O teste também deve envolver vários usuários com diferentes conjuntos de permissões, como administrador, gerente de projeto e membro da equipe. Testes completos podem revelar alterações que devem ser feitas no aplicativo, que não eram aparentes nos testes durante o desenvolvimento. O Procedimento 6 lista vários testes para o aplicativo **QuickStatus**, mas não inclui uma série exaustiva de testes. 
   
 ### <a name="procedure-6-to-test-the-quickstatus-app"></a>Procedimento 6. Para testar o aplicativo QuickStatus
 
 1. Execute o aplicativo **QuickStatus** onde o usuário não tem atribuições. O aplicativo deve mostrar uma mensagem azul na parte inferior da página, por exemplo, **Nome de Usuário não tem atribuições**.
     
-   Escolha **Atualização** e a mensagem será alterada para um **Atribuições foram atualizadas** verde.
+   Escolha **Atualização**, e a mensagem muda para **As atribuições foram atualizadas** em verde.
     
    > [!NOTE]
-   > O comportamento do aplicativo deve ser alterado de forma que o botão **Atualização** seja desatualizado quando não houver atribuições. 
+   > O comportamento do aplicativo deve ser alterado para que o botão **Atualização** seja desativado quando não houver atribuições. 
   
 2. Execute o aplicativo onde o usuário tiver várias atribuições em diversos projetos diferentes e algumas atribuições não estejam concluídas. Observe a aparência do aplicativo e execute as ações como a seguir (consulte a Figura 15):
     
@@ -749,31 +749,31 @@ Cada operação que um usuário pode tentar no aplicativo **QuickStatus** deve s
     
    4. Desmarque todas as caixas de seleção novamente e então selecione uma atribuição com algum trabalho restante. Por exemplo, a Figura 15 mostra a principal tarefa T1 tem 20% de trabalho restantes para concluir.
     
-   5. Na caixa de texto **Definir porcentagem concluída** , digite 80 e, em seguida, escolha a **atualização**. Parte inferior da página deve mostrar uma mensagem de verde, **atribuições foram atualizadas**.
+   5. Na caixa de texto **Definir Porcentagem Concluída**, digite 80 e escolha **Atualizar**. A parte inferior da página deve exibir uma mensagem em verde, **As atribuições foram atualizadas**.
     
-      **Figura 15. Atualizando uma atribuição no aplicativo QuickStatus**
+      **Figura 15. Atualizar uma atribuição no aplicativo QuickStatus**
 
-      ![Atualizando uma atribuição no aplicativo QuickStatus] (media/pj15_CreateStatusingApp_Testing1Update.gif "Atualizando uma atribuição no aplicativo QuickStatus")
+      ![Atualizar uma atribuição no aplicativo QuickStatus](media/pj15_CreateStatusingApp_Testing1Update.gif "Atualizar uma atribuição no aplicativo QuickStatus")
   
-3. Escolha **Atualizar** (consulte a Figura 16). Todas as tarefas são selecionadas novamente e a tarefa superior mostra 80% concluídos. 
+3. Escolha **Atualizar** (confira a Figura 16). Todas as tarefas são selecionadas novamente e a tarefa principal mostra uma porcentagem de conclusão de 80%. 
     
-      **Figura 16. Atualizando a página Atualização do Status Rápido**
+      **Figura 16. Atualizar a página Atualização do QuickStatus**
 
-      ![Atualizar a página QuickStatus] (media/pj15_CreateStatusingApp_Testing2Refresh.gif "Atualizar a página QuickStatus")
+      ![Atualizar a página QuickStatus](media/pj15_CreateStatusingApp_Testing2Refresh.gif "Atualizar a página QuickStatus")
   
 4. Desmarque todas as caixas de seleção e então selecione outra tarefa. Por exemplo, selecione **Nova tarefa do PWA**. Deixe a caixa de texto **Definir porcentagem concluída** vazia, exclua todo o texto da coluna **% concluídos** para a tarefa selecionada e então escolha **Atualização**. Como ambas as caixas de texto estão vazias, o aplicativo mostra uma mensagem de erro vermelha (consulte a Figura 17).
     
-      **Figura 17. Testando a mensagem de erro**
+      **Figura 17. Testar a mensagem de erro**
 
-      ![Teste a mensagem de erro] (media/pj15_CreateStatusingApp_Testing3Error.gif "Teste a mensagem de erro")
+      ![Testar a mensagem de erro](media/pj15_CreateStatusingApp_Testing3Error.gif "Testar a mensagem de erro")
   
-5. Atualize a tarefa anterior para 80% concluída e, em seguida, clique em **Sair**. A função **exitToPwa** altera o local da janela de navegador para a página de tarefas no aplicativo host do SharePoint (ou seja, a URL se altera para https://ServerName/pwa/Tasks.aspx). Figura 18 mostra que a tarefa de **T1** e a tarefa de **nova tarefa a partir do PWA** mostram 80% concluída. 
+5. Atualize a tarefa anterior para 80% concluída e, em seguida, escolha **Sair**. A função **exitToPwa** altera o local da janela do navegador para a página Tarefas no aplicativo host do SharePoint (ou seja, a URL é alterada para https://ServerName/pwa/Tasks.aspx)). A Figura 18 mostra que a tarefa **T1** e a tarefa **Nova tarefa do PWA**, cada uma, mostram 80% de conclusão. 
     
-      **Figura 18. Verificando se as tarefas são atualizadas no Project Web App**
+      **Figura 18. Verificar se as tarefas estão atualizadas no Project Web App**
 
-      ![Verificando as tarefas atualizadas no Project Web App] (media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Verificando as tarefas atualizadas no Project Web App")
+      ![Verificar as tarefas atualizadas no Project Web App](media/pj15_CreateStatusingApp_TasksUpdatedInPWA.gif "Verificar as tarefas atualizadas no Project Web App")
   
-6. Antes que o status atualizado é mostrado no Project Professional 2013, as alterações devem ser enviadas para aprovação e, em seguida, aprovadas pelo gerente de projeto.
+6. Antes que o status atualizado seja mostrado no Project Professional 2013, as alterações deverão ser enviadas para aprovação e então aprovadas pelo gerente de projetos.
     
 Os testes revelam outras alterações que devem ser feitas no aplicativo **QuickStatus** para usabilidade aprimorada. Por exemplo:
 
@@ -795,9 +795,9 @@ Mais importante, a abordagem que o aplicativo **QuickStatus** usa, em que ele al
 
 ## <a name="example-code-for-the-quickstatus-app"></a>Código de exemplo para o aplicativo QuickStatus
 
-### <a name="defaultaspx-file"></a>Arquivo default. aspx
+### <a name="defaultaspx-file"></a>Arquivo Default.aspx
 
-O código a seguir está no `Pages\Default.aspx` arquivo do projeto **QuickStatus** : 
+O código a seguir está no arquivo `Pages\Default.aspx` do projeto **QuickStatus**: 
   
 ```HTML
     <%-- The following lines are ASP.NET directives needed when using SharePoint components --%>
@@ -863,7 +863,7 @@ O código a seguir está no `Pages\Default.aspx` arquivo do projeto **QuickStatu
 
 ### <a name="appjs-file"></a>Arquivo App.js
 
-O código a seguir está no `Scripts\App.js` arquivo do projeto **QuickStatus** : 
+O código a seguir está no arquivo `Scripts\App.js` do projeto **QuickStatus**: 
   
 ```js
     var projContext;
@@ -1058,9 +1058,9 @@ O código a seguir está no `Scripts\App.js` arquivo do projeto **QuickStatus** 
 
 <br/>
 
-### <a name="appcss-file"></a>Arquivo App.CSS
+### <a name="appcss-file"></a>Arquivo App.css
 
-O código a seguir CSS está no `Content\App.css` arquivo do projeto **QuickStatus** : 
+O código CSS a seguir está no arquivo `Content\App.css` do projeto **QuickStatus**: 
   
 ```css
     /* Custom styles for the QuickStatus app. */
@@ -1135,13 +1135,13 @@ O código a seguir CSS está no `Content\App.css` arquivo do projeto **QuickStat
 
 <br/>
 
-### <a name="elementsxml-file-for-the-ribbon"></a>Arquivo Elements XML para a faixa de opções
+### <a name="elementsxml-file-for-the-ribbon"></a>Arquivo Elements.xml para a faixa de opções
 
-A seguinte definição de XML para o botão adicionado na guia **tarefas** na faixa de opções, que se situa a `RibbonQuickStatusAction\Elements.xml` arquivo do projeto **QuickStatus** : 
+A definição XML a seguir, para o botão adicionado à guia **TAREFAS** na faixa de opções, está no arquivo `RibbonQuickStatusAction\Elements.xml` do projeto **QuickStatus**: 
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1180,12 +1180,12 @@ A seguinte definição de XML para o botão adicionado na guia **tarefas** na fa
 
 ### <a name="appmanifestxml-file"></a>Arquivo AppManifest.xml
 
-A seguir é o XML para o manifesto do aplicativo do projeto **QuickStatus** , que inclui os dois escopos de solicitação de permissão que são necessários para atualizar o status de atribuição de aplicativo do usuário em vários projetos: 
+A seguir, o XML para o manifesto do aplicativo do projeto **QuickStatus**, que inclui os dois escopos de solicitação de permissão necessários para a atualização do status de atribuição do usuário do aplicativo em vários projetos: 
   
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"
@@ -1199,8 +1199,8 @@ A seguir é o XML para o manifesto do aplicativo do projeto **QuickStatus** , qu
         <Internal />
     </AppPrincipal>
     <AppPermissionRequests>
-        <AppPermissionRequest Scope="http://sharepoint/projectserver/statusing" Right="SubmitStatus" />
-        <AppPermissionRequest Scope="http://sharepoint/projectserver/projects" Right="Read" />
+        <AppPermissionRequest Scope="https://sharepoint/projectserver/statusing" Right="SubmitStatus" />
+        <AppPermissionRequest Scope="https://sharepoint/projectserver/projects" Right="Read" />
     </AppPermissionRequests>
     </App>
 ```
@@ -1215,15 +1215,15 @@ A solução completa do Visual Studio para o aplicativo **QuickStatus** inclui u
 
 ## <a name="next-steps"></a>Próximas etapas
 
-O aplicativo **QuickStatus** é um exemplo relativamente simples de como escrever aplicativos que podem ser instalados no Project Server 2013 e Project Online. A seção de [testes do aplicativo QuickStatus](#pj15_StatusingApp_Testing) lista diversos aperfeiçoamentos que podem ser feitos para melhor usabilidade. O aplicativo **QuickStatus** usa funções JavaScript para atualizar o status da atribuição do Project Web App. Mas, alterando a porcentagem de atribuição concluída não é uma prática de gerenciamento de projeto recomendado. Outra abordagem seria atualizar a data de início real e a duração restante das tarefas atribuídas. Para uma discussão dos problemas, consulte [Atualização melhor](http://www.mpug.com/articles/update-better) no boletim informativo MPUG. 
+O aplicativo **QuickStatus** é um exemplo relativamente simples de como gravar aplicativos que podem ser instalados no Project Server 2013 e no Project Online. A seção [Testar o aplicativo QuickStatus](#pj15_StatusingApp_Testing) lista várias melhorias que podem ser feitas para melhor usabilidade. O aplicativo **QuickStatus** usa funções JavaScript para atualizar o status da atribuição do Project Web App. Porém, alterar a porcentagem concluída da atribuição não é uma prática recomendada de gerenciamento de projetos. Outra abordagem seria atualizar a data de início real e a duração restante das tarefas atribuídas. Para uma discussão dos problemas, confira [Atualizar Melhor](https://www.mpug.com/articles/update-better) no boletim informativo MPUG. 
 
 <a name="pj15_StatusingApp_AdditionalResources"> </a>
 
 ## <a name="see-also"></a>Confira também
 
 - [Tarefas de programação do Project Server](project-programming-tasks.md)
-- [Suplementos do SharePoint](http://msdn.microsoft.com/library/jj163230.aspx)
-- [Gerenciando atualizações de tarefas no Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
-- [Criar ações personalizadas para implantar com os suplementos do SharePoint](http://msdn.microsoft.com/library/jj163954.aspx)
+- [Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163230.aspx)
+- [Gerenciar atualizações de tarefas no Project Web App](https://technet.microsoft.com/pt-BR/library/hh767481%28v=office.14%29.aspx)
+- [Criar ações personalizadas para implantação com Suplementos do SharePoint](https://msdn.microsoft.com/library/jj163954.aspx)
     
 

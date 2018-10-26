@@ -5,48 +5,48 @@ ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
-description: Project Server 2013 se integra a funcionalidade de gerenciamento de projeto em todo um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do cliente (CSOM) e uma interface de OData para os dados de relatórios.
-ms.openlocfilehash: 992fae3790b8bdb6ab55f41d42ef0229a75e255c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: O Project Server 2013 integra funcionalidade de gerenciamento de projetos em um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do lado cliente (CSOM) e uma interface OData para os dados de Relatórios.
+ms.openlocfilehash: 633532d85b4d910c11a284231cb9a4c3e5a549cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771187"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394091"
 ---
 # <a name="project-server-architecture"></a>Arquitetura do Project Server
 
-Project Server 2013 se integra a funcionalidade de gerenciamento de projeto em todo um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do cliente (CSOM) e uma interface de OData para os dados de relatórios.
+O Project Server 2013 integra funcionalidade de gerenciamento de projetos em um farm do SharePoint e habilita o uso do Project Online com um modelo de objeto do lado cliente (CSOM) e uma interface OData para os dados de Relatórios.
    
-Project Server 2013 é um sistema de várias camadas que amplia a arquitetura introduzida no Office Project Server 2007. Mudanças de arquitetura incluem a associação entre o serviço de aplicativo do Project e conjuntos de sites do SharePoint, a adição de alguns objetos corporativos na web front-end (WFE), o modelo de objeto do cliente (CSOM) para acesso remoto, um único banco de dados de projeto, um Interface de OData para relatórios de tabelas e modos de exibição, a integração do Windows Workflow Foundation versão 4 (WF4) por meio do cliente de Gerenciador de fluxo de trabalho 1.0 na nuvem ou em um servidor local e receptores de evento remoto que estão acessíveis por vários Project Server instalações. Além das soluções personalizadas do local, você pode criar aplicativos que incluem os receptores de evento remoto e componentes que acessam as interfaces CSOM e OData.
+O Project Server 2013 é um sistema multicamadas que estende a arquitetura introduzida no Office Project Server 2007. As alterações de arquitetura incluem a associação do Serviço do Aplicativo do Project com conjuntos de sites do SharePoint, a adição de alguns objetos comerciais ao front-end da Web (WFE), o modelo do objeto do lado cliente (CSOM) para acesso remoto, um único banco de dados do Project, uma interface OData para as tabelas e exibições de Relatórios, integração do Windows Workflow Foundation versão 4 (WF4) por meio do Workflow Manager Client 1.0 na nuvem ou em um servidor local e receptores de eventos remotos acessíveis por várias instalações do Project Server. Além de soluções personalizadas locais, você pode criar aplicativos que incluam receptores de eventos remotos e componentes que acessem as interfaces do CSOM e OData.
   
-A camada de front-end inclui o Project Professional 2013, Project Web App e os aplicativos de terceiros. Aplicativos cliente se comunicar com a camada intermediária por meio do Project Server Interface (PSI) ou por meio de pontos de extremidade do CSOM, que por sua vez, se comunicam com a PSI e a camada de objetos comerciais. Acesso de banco de dados está integrado nos objetos de negócios. O sistema de eventos do Project Server pode acessar os manipuladores de evento local e receptores de evento remoto. O serviço de cálculo do projeto implementa o mecanismo de agendamento do Project Professional dentro do Project Server. Aplicativos cliente não (ou não deveriam) acessar diretamente o banco de dados do projeto; Project Server oculta os objetos de negócios de clientes.
+A camada de front-end inclui o Project Professional 2013, o Project Web App e aplicativos de terceiros. Os aplicativos clientes podem se comunicar com a camada do meio através da Project Server Interface (PSI) ou através dos pontos de extremidade do CSOM que, por sua vez, se comunicam com o PSI e a camada do objeto de negócios. O acesso ao banco de dados é integrado nos objetos de negócios. O Project Server Eventing System pode acessar os manipuladores de eventos locais e os receptores de eventos remotos. O Serviço de Cálculo do Project implementa o mecanismo de agendamento do Project Professional no Project Server. Os aplicativos clientes não têm (ou não devem ter) acesso direto ao banco de dados do Project. O Project Server oculta objetos de negócios dos clientes.
   
 > [!NOTE]
-> Project Server é baseado na arquitetura do SharePoint. Para obter informações sobre a arquitetura do SharePoint Server 2013 e o modelo de aplicativo do SharePoint, consulte a seção *guia de Introdução ao desenvolvimento no SharePoint* na documentação do desenvolvedor do Office 2013. 
+> O Project Server é criado na arquitetura do SharePoint. Para saber mais sobre a arquitetura do SharePoint Server 2013 e o modelo do aplicativo do SharePoint, confira a seção *Introdução ao desenvolvimento do SharePoint* na documentação do desenvolvedor do Office 2013. 
 
 <a name="pj15_Architecture_SharePoint"> </a>
 
 ## <a name="integrating-with-sharepoint-site-collections"></a>Integrando com conjuntos de sites do SharePoint
 
-O serviço de aplicativo do projeto no Project Server 2013 pode ser associado um conjunto de sites do SharePoint para uso com listas de tarefas do SharePoint, o serviço de aplicativo do Project também pode importar uma lista de tarefas do SharePoint como um projeto da empresa para o Project Server completo controle. Com uma lista de tarefas do SharePoint, o SharePoint mantém o site de projeto em um conjunto de sites; Project Professional pode sincronizar com e atualizar a lista de tarefas. Um site de projeto pode ser uma lista de tarefas do SharePoint independente ou uma lista de tarefas que está sincronizada com um arquivo. mpp; o arquivo. mpp pode ser armazenado localmente ou em uma biblioteca do SharePoint. 
+O Serviço do Aplicativo do Project no Project Server 2013 pode ser associado a um conjunto de sites do SharePoint para ser usado com listas de tarefas do SharePoint. O Serviço do Aplicativo do Project também pode importar uma lista de tarefas do SharePoint como um projeto corporativo para controle total do Project Server. Através de uma lista de tarefas do SharePoint, o SharePoint mantém o site do projeto em um conjunto de sites. O Project Professional pode sincronizar e atualizar a lista de tarefas. Um site de projeto pode ser uma lista de tarefas do SharePoint independente sincronizada com um arquivo .mpp. Esse arquivo pode ser armazenado localmente ou em uma biblioteca do SharePoint. 
   
-Project Server mantém os projetos quando ele tem controle total; Project Professional salva os dados diretamente para o Project Server. Tabela 1 compara o comportamento de uma lista de tarefas, a web part de agenda e outras funcionalidades para SharePoint controle das listas de tarefas e projetos importados ao Project Server tem controle total. A web part de agenda contém a grade na página do Project Web App, onde você pode editar uma agenda de projeto. O modo de associado é onde os dados de status são inseridos uma vez para tarefas e quadros de horários; no modo de entrada única, os dados de status de tarefa são inseridos separadamente dos quadros de horários.
+O Project Server mantém os projetos quando tem controle total. O Project Professional salva dados diretamente no Project Server. A Tabela 1 compara o comportamento de uma lista de tarefas, o Schedule Web Part e outras funcionalidades para o controle de listas de tarefas do SharePoint e para projetos importados quando o Project Server tem controle total. O Schedule Web Part contém a grade na página do Project Web App onde é possível editar uma programação de projeto. O modo associado é onde os dados de status são inseridos uma vez para as tarefas e quadros de horários. No modo de entrada única, os dados de status das tarefas são inseridos separadamente dos quadros de horários.
   
 **Tabela 1. Comparação de listas de tarefas do SharePoint e controle total**
 
 | Recurso | Lista de tarefas | Controle total |
 |:-----|:-----|:-----|
 |**Lista de tarefas no SharePoint** <br/> |Leitura/gravação  <br/> |Somente leitura  <br/> |
-|**Web part de agendamento** <br/> |Somente leitura  <br/> |Leitura/gravação  <br/> |
-|**Emissão de relatórios** <br/> |Relatórios valiosos por meio do Project Server  <br/> |Relatórios valiosos por meio do Project Server  <br/> |
-|**Outra funcionalidade do Project Server** <br/> | Funcionalidade bloqueada:  <br/>-Edições de projeto server-side, com o Project Web App ou os aplicativos cliente personalizados  <br/>-Status  <br/>-Tarefas não são visíveis no modo associado  <br/> |A funcionalidade completa está habilitada  <br/> |
+|**Schedule Web Part** <br/> |Somente leitura  <br/> |Leitura/gravação  <br/> |
+|**Relatórios** <br/> |Relatórios avançados pelo Project Server  <br/> |Relatórios avançados pelo Project Server  <br/> |
+|**Outra funcionalidade do Project Server** <br/> | Funcionalidade bloqueada:  <br/>- Edições do projeto no lado do servidor, com o Project Web App ou aplicativos cliente personalizados  <br/>- Status  <br/>- As tarefas não ficam visíveis no modo de ligação  <br/> |A funcionalidade completa está habilitada  <br/> |
    
-### <a name="managing-projects-as-sharepoint-task-lists"></a>Gerenciando projetos como listas de tarefas do SharePoint
+### <a name="managing-projects-as-sharepoint-task-lists"></a>Como gerenciar projetos como listas de tarefas do SharePoint
 <a name="pj15_Architecture_VisibilityMode"> </a>
 
-Quando o Project Server é associado a um conjunto de sites do SharePoint onde SharePoint mantém o controle, listas de tarefas e o Project Professional 2013 (. mpp) arquivos em bibliotecas de documentos são visíveis para o serviço de aplicativo do Project, mas mantém o SharePoint o mestre de dados de sincronização (consulte a Figura 1). Agendamento no servidor com a web part de agendamento não pode ser feito. Você pode usar o Project Professional para sincronizar com e edite a lista de tarefa em um site de projeto. Iniciando com listas de tarefas do SharePoint, as organizações podem evoluir gradualmente para usar a funcionalidade completa do Project Server.
+Quando o Project Server está associado a um conjunto de sites do SharePoint do qual o SharePoint mantém o controle, as listas de tarefas e arquivos do Project Professional 2013 (.mpp) em bibliotecas de documentos ficam visíveis para o Serviço do Aplicativo do Project. No entanto, o SharePoint mantém os dados mestres para sincronização (veja a Figura 1). Não é possível realizar o agendamento do lado do servidor com o Schedule Web Part. Você pode usar o Project Professional para sincronizar e editar a lista de tarefas em um site de projeto. Tendo as listas de tarefas do SharePoint como ponto de partida, as organizações podem evoluir gradualmente para usar a funcionalidade completa do Project Server.
   
-A Figura 1 mostrará os processos a seguir quando projetos forem mantidos em listas de tarefas do SharePoint: 
+A Figura 1 mostra os seguintes processos quando os projetos são mantidos nas listas de tarefas do SharePoint: 
   
 - (A) O Project Professional pode sincronizar com listas de tarefas e criar novos sites do projeto no conjunto de sites antes ou depois da associação ao Serviço do Aplicativo do Project.
     
@@ -54,18 +54,18 @@ A Figura 1 mostrará os processos a seguir quando projetos forem mantidos em lis
     
 - (C) Após a associação, o Project Professional pode criar novos projetos e salvá-lo ou publicá-lo no Project Server. O Cache Ativo no Project Professional mantém a sincronização de dados com o Project Server.
     
-- (D) quando um novo projeto é publicado no Project Professional, o usuário tem a opção de criar um site de projeto para o projeto. Um projeto também pode ser criado no Project Web App como um tipo de projeto de lista de tarefas do SharePoint ou como um tipo de projeto da empresa de controle total (EPT). Etapa (D) mostra o EPT de controle total.
+- (D) Quando um novo projeto é publicado no Project Professional, o usuário tem a opção de criar um site de projeto para o projeto. Um projeto também pode ser criado no Project Web App como um tipo de projeto de lista de tarefas do SharePoint ou como um tipo de projeto corporativo (EPT) de controle total. A Etapa (D) mostra o EPT de controle total.
     
-**Figura 1. Usando sites do projeto como listas de tarefas do SharePoint**
+**Figura 1. Como usar sites do projeto como listas de tarefas do SharePoint**
 
-![Usando sites de projeto no modo de visibilidade] (media/pj15_Architecture_VisibilityMode.gif "Usando sites de projeto no modo de visibilidade")
+![Como usar sites do projeto no modo de visibilidade](media/pj15_Architecture_VisibilityMode.gif "Como usar sites do projeto no modo de visibilidade")
 
 <br/>
 
-### <a name="managing-projects-with-full-control"></a>Gerenciando projetos com controle total
+### <a name="managing-projects-with-full-control"></a>Como gerenciar projetos com controle total
 <a name="pj15_Architecture_ManagedMode"> </a>
 
-Quando o Project Server está associado um conjunto de sites e tem controle total, Project Server importa como projetos da empresa de listas de tarefas do SharePoint e podem excluir quaisquer arquivos. mpp relacionados. Project Server mantém os dados mestres para sincronização de lista de tarefas; listas de tarefas no conjunto de sites se tornam somente leitura (consulte a Figura 2). Projetos importados podem ser editados usando o Project Professional, ou usando o Project Web App.
+Quando o Project Server está associado a um conjunto de sites e tem controle total, ele importa as listas de tarefas do SharePoint como projetos corporativos e pode excluir todos os arquivos .mpp relacionados. O Project Server mantém os dados mestres para a sincronização da lista de tarefas. As listas de tarefas no conjunto de sites tornam-se somente leitura (veja a Figura 2). Os projetos importados podem ser editados usando o Project Professional ou o Project Web App.
   
 > [!NOTE]
 > Depois que o Project Server importar um projeto, o usuário escolherá excluir o projeto do site ou interromper a conexão antes da edição do projeto. Você pode fazer a escolha no Project Professional. 
@@ -74,115 +74,115 @@ A Figura 2 mostra os processos a seguir quando o Project Server mantém projetos
   
 - (A) O usuário pode escolher quais sites do projeto serão importados. O Project Server importa os sites do projeto e, opcionalmente, exclui os arquivos .mpp associados. A lista de tarefas do SharePoint de um projeto importado se torna somente leitura.
     
-- (B) após a associação, o Project Professional cria novos projetos e salva ou publica ao Project Server. O Cache ativo no Project Professional mantém a sincronização de dados com o Project Server. A web part de agendamento no Project Web App pode fazer o agendamento no servidor.
+- (B) Após a associação, o Project Professional cria novos projetos e salva ou publica no Project Server. O Cache Ativo no Project Professional mantém a sincronização de dados com o Project Server. A Schedule Web Part no Project Web App pode fazer o agendamento no lado do servidor.
     
-- (C) quando um novo projeto é publicado no Project Professional, o usuário tem a opção de criar um site de projeto para o projeto. Um projeto também pode ser criado no Project Web App com um EPT de controle total e publicado com uma lista de tarefas de somente leitura para um site de projeto no conjunto de sites.
+- (C) Quando um novo projeto é publicado no Project Professional, o usuário tem a opção de criar um site de projeto para o projeto. Também é possível criar um projeto no Project Web App com o EPT de controle total e publicá-lo com uma lista de tarefas somente leitura em um site do projeto no conjunto de sites.
     
-**Figura 2. Usando sites do projeto com controle total**
+**Figura 2. Como usar sites do projeto com controle total**
 
-![Usando sites de projeto no modo gerenciado] (media/pj15_Architecture_ManagedMode.gif "Usando sites de projeto no modo gerenciado")
+![Como usar sites do projeto no modo gerenciado](media/pj15_Architecture_ManagedMode.gif "Como usar sites do projeto no modo gerenciado")
   
 ## <a name="general-architecture"></a>Arquitetura geral
 <a name="pj15_Architecture_General"> </a>
 
-A Figura 3 mostra um modo de exibição generalizado da arquitetura do Project Server 2013, incluindo o aplicativo de serviço do projeto, uma instância do Project Web App em um WFE e vários outros aplicativos de cliente, incluindo o Project Professional 2013.
+A Figura 3 mostra uma exibição generalizada da arquitetura do Project Server 2013, incluindo o Aplicativo do Serviço do Project, uma instância do Project Web App em um WFE e vários outros aplicativos clientes, incluindo o Project Professional 2013.
   
-Pode haver várias instâncias do Project Web App que se comunicam com o aplicativo de serviço do projeto de back-end. Para uma instalação local, o WFE pode ser em um servidor separado em um farm do SharePoint, ou pode ser no mesmo servidor do SharePoint com o aplicativo de serviço do projeto. Project Online inclui um WFE, o aplicativo de serviço do projeto e um servidor local ou remoto do cliente do Gerenciador de fluxo de trabalho 1.0. 
+Pode haver várias instâncias do Project Web App que se comunicam com o Aplicativo do Serviço do Project de back-end. Para uma instalação local, o WFE pode estar em um servidor separado em um farm do SharePoint ou pode estar no mesmo servidor do SharePoint com o Aplicativo do Serviço do Project. O Project Online inclui um WFE, o Aplicativo do Serviço do Project e um servidor local ou remoto do Workflow Manager Client 1.0. 
   
 **Figura 3. Arquitetura geral do Project Server 2013**
 
-![Arquitetura do Project Server] (media/pj15_Architecture_ProjectServiceApp_WFE.gif "Arquitetura do Project Server")
+![Arquitetura do Project Server](media/pj15_Architecture_ProjectServiceApp_WFE.gif "Arquitetura do Project Server")
 
 <br/>
 
-Os comentários gerais a seguir se aplicam à Figura 3:
+Os comentários gerais à seguir aplicam-se à Figura 3:
   
-- **Project Online:** Você pode criar aplicativos que usam as interfaces CSOM, REST e OData. Um pacote de aplicativos também poderá instalar receptores de evento remoto em um serviço web personalizado em um servidor local, em um servidor do Windows Azure ou no Microsoft Azure. Project Online não oferece suporte a soluções de terceiros no local, a interface WCF, a interface ASMX ou manipuladores de eventos local. 
+- **Project Online:** você pode criar aplicativos que usam as interfaces CSOM, REST e OData. Um pacote de aplicativos também pode instalar receptores de eventos remotos em um serviço da Web personalizado em um servidor local, em um servidor do Azure ou no Microsoft Azure. O Project Online não oferece suporte a soluções locais de terceiros, à interface do WCF, à interface ASMX ou a manipuladores de eventos locais. 
     
-- **Receptores de evento:** Receptores de evento também podem ser chamados manipuladores de eventos. Project Online suporta o registro de receptores de eventos do Project Server remotos, que pode ser usado por uma instância do Project Web App na nuvem ou por uma instalação do Project Server no local. Uma instalação do Project Server no local suporta receptores de evento remoto e manipuladores de evento de confiança total local. 
+- **Receptores de eventos:** os receptores de evento também podem ser chamados de manipuladores de eventos. O Project Online oferece suporte ao registro de receptores de eventos remotos do Project Server que podem ser usados por uma instância do Project Web App na nuvem ou por uma instalação do Project Server no local. Uma instalação do Project Server local oferece suporte a receptores de eventos remotos e manipuladores de eventos de confiança total locais. 
     
-- **Navegadores:** Não há nenhuma limitação de vários navegadores na exibição de algumas páginas do Project Web App, que hajam no Project Server 2010. Os seguintes navegadores são compatíveis para uso completo ao Project Web App: 
+- **Navegadores:** não há limitações entre navegadores para visualizar algumas páginas do Project Web App como há no Project Server 2010. Os navegadores da Web a seguir têm suporte para uso completo com o Project Web App: 
     
-  - Internet Explorer 8. x (no Windows 7 e versões anteriores do Microsoft Windows), Internet Explorer 9. x e o Internet Explorer 10. x 
-  - Firefox 4.x (no Windows, no Mac OS-X e no Linux/Unix)
+  - Internet Explorer 8.x (no Windows 7 e em versões anteriores do Microsoft Windows), Internet Explorer 9.x e Internet Explorer 10.x 
+  - Firefox 4.x (no Windows, Mac OS-X e Linux/Unix)
   - Safari 5.x (no Windows e no Mac OS-X)
   - Chrome
     
-- **Interfaces programáticas:** Para aplicativos de terceiros, Project Online expõe a interface HTTP/HTTPS (incluindo REST), a interface CSOM, um serviço OData para o CSOM e um serviço OData para geração de relatórios. Para aplicativos de cliente de terceiros que estão no local (na Intranet), você pode usar a interface WCF para a PSI ou você pode usar as interfaces CSOM, OData e REST via HTTP. Os clientes do Project Web App e do Project Professional 2013 usam a interface WCF. Em uma instalação de servidor único, o front-end ASMX serviços web CSOM e REST internamente chame os serviços do WCF back-end. 
+- **Interfaces programáticas:** para aplicativos de terceiros, o Project Online expõe a interface HTTP/HTTPS (incluindo REST), a interface CSOM, um serviço OData para o CSOM e um serviço OData para relatórios. Para aplicativos cliente de terceiros que estão no local (na Intranet), você pode usar a interface do WCF para PSI ou usar as interfaces CSOM, OData e REST por meio de HTTP. Os clientes do Project Web App e do Project Professional 2013 usam a interface do WCF. Em uma instalação de servidor único, os serviços Web de front-end ASMX, CSOM e REST chamam internamente os serviços do WCF de back-end. 
     
     > [!NOTE]
-    > A interface ASMX baseados em SOAP para serviços web na PSI ainda está disponível no Project Server 2013, mas foi preterida. 
+    > A interface do ASMX baseada em SOAP para serviços Web na PSI ainda está disponível no Project Server 2013, mas foi preterida. 
   
-    O serviço OData para geração de relatórios é implementado pelo serviço WCF OData.svc interno. Você pode obter o documento de metadados do serviço para os dados de relatórios usando `http://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    O serviço OData para relatórios é implementado pelo serviço interno OData.svc do WCF. Você pode obter o Documento de metadados do serviço dos dados de relatório usando `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
-    O serviço OData para o CSOM destina-se a plataformas como Windows RT, iOS e Android, onde você pode usar a interface REST com JavaScript em páginas HTML. 
+    O serviço OData para o CSOM destina-se a plataformas como o Windows RT, o iOS e o Android, onde você pode usar a interface REST com o JavaScript em páginas HTML. 
     
     > [!NOTE]
-    > Embora o `$metadata` opção para **ProjectData** reporting service é válida, o `$metadata` opção para o serviço de **ProjectServer** do CSOM do é removido na versão lançada do Project Server 2013. Para obter mais informações sobre consultas REST para o CSOM, consulte [o modelo de objeto do lado do cliente (CSOM) para o Project Server](client-side-object-model-csom-for-project-2013.md). 
+    > Embora a opção `$metadata` para o serviço de relatório **ProjectData** seja válido, a opção`$metadata` para o serviço **ProjectServer** do CSOM é removida na versão do Project Server 2013. Para saber mais sobre as consultas REST, confira [Modelo de objeto do cliente (CSOM) para o Project Server](client-side-object-model-csom-for-project-2013.md). 
   
-- **PSI encaminhador:** Acesso programático para o PSI feitas em um WFE separado passa o encaminhador PSI, que inclui um encaminhador do WCF e um encaminhador de serviço Web. Clientes que usam a interface ASMX acessam a PSI através do encaminhador do serviço Web. Clientes que usam a interface WCF acessam a PSI por meio de encaminhador WCF. Acesso programático através do CSOM, OData e REST é direcionado por meio de encaminhador WCF. 
+- **Encaminhador PSI:** o acesso programático à PSI em um WFE separado passa pelo Encaminhador PSI, que inclui um Encaminhador WCF e um Encaminhador Serviço Web. Clientes que usam a interface ASMX acessam a PSI pelo Encaminhador Serviço Web. Clientes que usam a interface WCF acessam a PSI pelo Encaminhador WCF. O acesso programático pelo CSOM, OData e REST é canalizado pelo Encaminhador WCF. 
     
-- **Fluxos de trabalho:** Fluxos de trabalho declarativos (fluxos de trabalho que são definidos no SharePoint Designer 2013) são liberados para o cliente do Gerenciador de fluxo de trabalho 1.0 para processamento. Cliente do Gerenciador de fluxo de trabalho 1.0 pode ser executado em um servidor separado no farm do SharePoint, no Microsoft Azure na nuvem ou em um único computador do Project Server para testes ou demonstrações. Fluxos de trabalho codificados que são desenvolvidos com o Visual Studio 2012 são processados no tempo de execução do fluxo de trabalho no SharePoint, como no Project Server 2010. Para obter mais informações, consulte [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md).
+- **Fluxos de trabalho:** fluxos de trabalho declarativos (fluxos de trabalho definidos no SharePoint Designer 2013) são descarregados para o Workflow Manager Client 1.0 para processamento. O Workflow Manager Client 1.0 pode ser executado em um servidor separado no farm do SharePoint, no Microsoft Azure em nuvem ou em um computador exclusivo do Project Server para teste e demonstrações. Os fluxos de trabalho codificados desenvolvidos com o Visual Studio 2012 são processados no tempo de execução do fluxo de trabalho dentro do SharePoint Server, como no Project Server 2010. Para saber mais confira [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md).
     
-- **a rede de perímetro (DMZ):** Figura 3 não mostrar que um servidor WFE no local pode ser isolado por um firewall adicional em uma rede de perímetro (também conhecido como uma "zona desmilitarizada" ou DMZ). Uma rede de perímetro pode permitir que os clientes da Internet acessar o SharePoint e do Project Server em um firewall. 
+- **Rede de perímetro (DMZ):**  a Figura 3 não mostra que um servidor WFE local pode ser isolado por um firewall adicional em uma rede de perímetro (também conhecida como "zona desmilitarizada" ou DMZ). Uma rede de perímetro pode permitir que clientes da Internet acessem o SharePoint e o Project Server passando por um firewall. 
     
-- **Serviços Web do SharePoint:** Figura 3 não mostra a infraestrutura do SharePoint, como o aplicativo de serviços Web do SharePoint de back-end, que é parte do SharePoint Server 2013. Quando você instala o Project Server, o aplicativo de serviço do projeto é adicionado aos serviços Web do SharePoint. 
+- **SharePoint Web Services:**  a Figura 3 não mostra a infraestrutura do SharePoint, como o aplicativo de back-end SharePoint Web Services, que faz parte do SharePoint Server 2013. Quando você instala o Project Server, o Aplicativo do Serviço do Project é adicionado ao SharePoint Web Services. 
     
-A camada de front-end inclui aplicativos de terceiros, Project Professional e do Project Web App. Um navegador exibe páginas ASP.NET 4.0 (páginas. aspx) no Project Web App. As páginas do Project Web App usam o Project Server Web Parts que se comunicar com a PSI e também usar Web Parts padrão do SharePoint. 
+A camada de front-end inclui aplicativos de terceiros, o Project Professional e o Project Web App. O navegador exibe páginas do ASP.NET 4.0 (páginas .aspx) no Project Web App. As páginas do Project Web App usam Web Parts do Project Server que se comunicam com a PSI e também usam Web Parts do SharePoint padrão. 
   
-A camada intermediária inclui a PSI e a camada de objeto de negócios, que consiste em objetos lógicos que representam as entidades de negócios do Project Server. Entidades de negócios incluem projeto, recurso, tarefa, atribuição e assim por diante. A PSI e a camada de objeto de negócios estão intimamente ligadas e estão localizados no mesmo servidor. Um aplicativo cliente chama a PSI por meio de uma das interfaces disponíveis e a PSI invoca objetos comerciais. Para melhorar o desempenho do WFE do Project Server 2013 inclui alguns objetos comerciais de solicitações que não usam o sistema de enfileiramento do Project Server ou exigem o serviço de cálculo do projeto. Os objetos de negócios WFE se comunicar diretamente com o banco de dados do projeto.
+A camada intermediária inclui a PSI e a camada de objeto de negócios, que consiste em objetos lógicos que representam entidades comerciais do Project Server. As entidades de negócios incluem Projeto, Tarefa, Recurso, Atribuição e assim por diante. A PSI e o nível do objeto de negócios estão fortemente acoplados e estão localizados no mesmo servidor. Um aplicativo cliente chama a PSI por meio de uma das interfaces disponíveis e a PSI invoca objetos de negócios. Para melhorar o desempenho, o WFE do Project Server 2013 inclui alguns objetos de negócios para solicitações que não usam o Sistema de Enfileiramento do Project Server ou exigem o Serviço de Cálculo do Project. Os objetos de negócios do WFE se comunicam diretamente com o banco de dados do Project.
   
-Os componentes do Project Web App do Project Server, usam o banco de dados de configuração do SharePoint 2013 para configuração de site de projeto e o banco de dados de conteúdo para conteúdo de site de projeto, como listas de tarefas, as páginas personalizadas, fluxos de trabalho, as configurações de gerenciamento, documentos e listas de problemas, riscos e comprometimentos. A configuração do SharePoint e recursos adicionais de suporte de bancos de dados de conteúdo para gerenciamento de projetos, modelos de projeto e espaços de trabalho, listas personalizadas para colaboração de equipe e relatórios.
+Os componentes Project Web App do Project Server usam o banco de dados de configuração do SharePoint 2013 para configuração do site do projeto e o banco de dados de conteúdo para conteúdo do site do projeto, como listas de tarefas, páginas personalizadas, fluxos de trabalho, configurações de gerenciamento, documentos e listas de problemas, riscos e compromissos. Os bancos de dados de configuração e de conteúdo do SharePoint dão suporte a recursos adicionais para gerenciamento de projetos, como modelos e espaços de trabalho de projeto, listas personalizadas para colaboração em equipe e relatórios.
   
 ### <a name="project-web-app-and-the-wfe"></a>Project Web App e o WFE
 <a name="pj15_Architecture_PWAServer"> </a>
 
-Você pode configurar várias instâncias do Project Web App em um WFE e vários servidores WFE dentro de uma intranet corporativa para habilitar a distribuição de carga para clientes de intranet. Quando um aplicativo cliente usa uma instância do Project Web App em um servidor WFE separado, chamadas PSI são roteadas através do encaminhador PSI. O encaminhador PSI (o encaminhador WCF ou o encaminhador de serviço Web) executa as seguintes funções:
+Você pode configurar várias instâncias do Project Web App em um WFE e vários servidores WFE em uma intranet corporativa para permitir a distribuição de carga para clientes de intranet. Quando um aplicativo cliente usa uma instância do Project Web App em um servidor WFE separado, as chamadas PSI são roteadas pelo Encaminhador PSI. O Encaminhador PSI (o Encaminhador WCF ou o Encaminhador Serviço Web) executa as seguintes funções:
   
-- Otimiza chamadas à PSI de clientes remotos.
+- Otimiza as chamadas de clientes remotos para a PSI.
     
 - Distingue entre chamadas PSI que exigem o Serviço de Fila do Project Server e aquelas que não. Os nomes de método de PSI assíncrona começam com Queue, como **QueueCreateProject**.
     
-- Identifica chamadas à PSI que invocam manipuladores de evento locais.
+- Identifica chamadas PSI que invocam manipuladores de eventos locais registrados.
     
 - Identifica chamadas à PSI que exigem o Serviço de Cálculo do Project.
     
-- Usa um cache baseado em servidor que funciona com o Cache Ativo no lado cliente no Project Professional para reduzir chamadas de viagens de ida e volta para o Project Server.
+- Usa um cache baseado em servidor que funciona com o Cache Ativo do lado do cliente no Project Professional para reduzir as chamadas de ida e volta para o Project Server.
     
-Depois que o SharePoint Server autentica um usuário do Project Server, o encaminhador PSI transparente envia solicitações que usam o serviços de back-end para os serviços PSI no computador executando o Project Server. Solicitações que não exigem serviços back-end são enviadas para os objetos de negócios na instância do Project Web App local. O encaminhador PSI melhora a escalabilidade, desempenho e confiabilidade para o Project Server processamento através da LAN, uma WAN e no Project Online.
+Depois que o SharePoint Server autentica um usuário do Project Server, o Encaminhador PSI envia, de forma transparente, solicitações que usam serviços de back-end para os serviços PSI no computador que executa o Project Server. As solicitações que não exigem serviços de back-end são enviadas para os objetos de negócios na instância local do Project Web App. O Encaminhador PSI melhora a escalabilidade, o desempenho e a confiabilidade do processamento do Project Server na LAN, em uma WAN e no Project Online.
   
-Project Web App foi desenvolvido com ASP.NET 4.0. Os elementos visuais nos arquivos. aspx (HTML, controles de servidor e texto estático) são separados da lógica de programação em classes code-behind que estão em assemblies compilados (arquivos. dll). Páginas de site no Project Web App, como a página de nível superior, Central de projetos e Central de relatórios podem ser personalizadas usando Web Parts. Páginas de aplicativo que não tenham uma opção de **Editar página** no menu **Ações** do Site não podem ser editadas, como a página Configurações do servidor e a página de quadro de horários de revisão. 
+O Project Web App é desenvolvido com o ASP.NET 4.0. Os elementos visuais em arquivos .aspx (HTML, controles de servidor e texto estático) são separados da lógica de programação em classes de código subjacente que estão em assemblies compilados (arquivos .dll). As páginas do site no Project Web App, como a página de nível superior, o Centro de Projeto e a Central de Relatórios, podem ser personalizadas com Web Parts. As páginas do aplicativo que não têm uma opção **Editar Página** no menu **Ações do Site** não podem ser editadas, como a página Configurações do Servidor e a página Revisar Quadro de Horários. 
   
 ### <a name="the-csom-and-the-project-server-interface"></a>O CSOM e a Interface do Project Server
 <a name="pj15_Architecture_PSI"> </a>
 
-A PSI é acrescentada em 22 de serviços públicos, como o **projeto**, **recurso**, **CustomField**e **status**. A PSI também contém sete serviços privados para uso interno. A PSI é fundamental API do Project Server; ele expõe a funcionalidade do Project Server para o CSOM e aplicativos externos. O CSOM inclui classes que acessam as classes PSI e os membros que são usados para aplicativos de terceiros a mais comumente usadas. No Project Server 2013, algumas funcionalidades do Project Server não estão disponível no CSOM, como os serviços de **Administração**, **calendário**, **PortfolioAnalyses**e **segurança** . 
+A PSI é fatorada em 22 serviços públicos, como **Project**, **Resource**, **CustomField** e **Statusing**. A PSI também contém sete serviços particulares para uso interno. A PSI é a API fundamental do Project Server. Ela expõe a funcionalidade do Project Server ao CSOM e a aplicativos externos. O CSOM inclui classes que acessam as classes e os membros da PSI mais usados, utilizados para aplicativos de terceiros. No Project Server 2013, algumas funcionalidades do Project Server não estão disponíveis no CSOM, como os serviços **Admin**, **Calendar**, **PortfolioAnalyses** e **Security**. 
   
-Project Professional 2013 e o uso do Project Web App a PSI para acessar dados do Project Server no rascunho, publicado e arquivar tabelas e modos de exibição do banco de dados do projeto. Você pode acessar um serviço PSI por meio de um arquivo de proxy ou um assembly de proxy, para os serviços WCF ou serviços da web ASMX.
+O Project Professional 2013 e o Project Web App usam o PSI para acessar os dados do Project Server nas tabelas e exibições de rascunho, publicadas e arquivadas do banco de dados do Project. Você pode acessar um serviço do PSI através de um arquivo de proxy ou de um assembly de proxy, tanto para os serviços do WCF ou para os serviços Web do ASMX.
   
 > [!NOTE]
-> O CSOM é a interface preferida para desenvolvedores do Project Server de terceiros; ele pode ser usado para aplicativos que acessam a uma instalação do local do Project Server e Project Online. Recomendamos que você use o CSOM para o desenvolvimento de novos aplicativos, se o CSOM inclui a funcionalidade que requer o seu aplicativo. 
+> O CSOM é a interface preferencial para desenvolvedores do Project Server terceirizados; pode ser usado para aplicativos que acessam uma instalação local do Project Server e o Project Online. Recomendamos que você use o CSOM para o desenvolvimento de novos aplicativos, caso o CSOM inclua a funcionalidade exigida por seu aplicativo. 
   
-Alguns aplicativos de linha de negócios (LOB) e outros aplicativos de terceiros que foram desenvolvidos para o Project Server 2010 exigem serviços PSI que ainda não são representados no CSOM. Se eles alvo apenas uma instalação local do Project Server, aplicativos podem continuar a usar a interface WCF ou a interface ASMX de PSI.
+Alguns aplicativos de linha de negócios (LOB) e outros aplicativos de terceiros desenvolvidos para o Project Server 2010 exigem serviços do PSI que ainda estejam representados no CSOM. Se eles se destinarem somente a uma instalação local do Project Server, os aplicativos poderão continuar a usar a interface do WCF ou a interface do ASMX da PSI.
   
-Os aplicativos de cliente chamar a PSI por meio de proxies de serviço. Os clientes que usam a interface WCF acessar todos os serviços PSI por meio de `http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Clientes que usam uma interface de serviço web ASMX usam a URL do Project Web App para o serviço específico. Por exemplo, o serviço de **recursos** está em `http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Se aplicativos não têm acesso à intranet para o Project Server, eles podem usar um servidor do Project Web App em uma rede de perímetro (não é mostrada na Figura 3).
+Os aplicativos cliente chamam o PSI por meio de proxies de serviço. Os clientes que usam a interface do WCF acessam todos os serviços do PSI pelo `https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Os clientes que usam uma interface de serviço Web ASMX usam a URL do Project Web App para o serviço específico. Por exemplo, o serviço **Resource** está em `https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Se os aplicativos não tiverem acesso à intranet no Project Server, eles poderão usar um servidor do Project Web App em uma rede de perímetro (não mostrada na Figura 3).
   
-Figura 4 mostra o painel de **conexões** no **Gerenciador de serviços de informações da Internet (IIS)** para uma instalação de servidor único do SharePoint Server 2013, Project Server 2013 e um site de gerenciamento de fluxo de trabalho local para o cliente do Gerenciador de fluxo de trabalho 1.0. O conjunto de sites do SharePoint (A) inclui os serviços PSI front-end no `_vti_bin\PSI` subdiretório virtual. O aplicativo de serviços Web do SharePoint (B) inclui o aplicativo de serviço do Project, com os serviços PSI back-end do `508c23fb7dfd4c83a8919fae24bc68c5/PSI` subdiretório virtual. O GUID é o nome da instância do aplicativo de serviço do projeto para essa instalação do Project Server. 
+A Figura 4 exibe o painel **Conexões** no **Gerenciador dos Serviços de Informações da Internet (IIS)** para uma instalação de servidor único do SharePoint Server 2013, Project Server 2013 e um site local de Gerenciamento de Fluxo de Trabalho para o Workflow Manager Client 1.0. O conjunto de sites do SharePoint (A) inclui os serviços do PSI de front-end no subdiretório virtual `_vti_bin\PSI`. O aplicativo SharePoint Web Services (B) inclui o Aplicativo do Serviço do Project, com os serviços de back-end do PSI no subdiretório virtual `508c23fb7dfd4c83a8919fae24bc68c5/PSI`. O GUID é o nome da instância do Aplicativo do Serviço do Project para essa instalação do Project Server. 
   
-**Figura 4. Gerenciador do IIS mostrando a PSI de front-end (A) e a PSI de back-end (B)**
+**Figura 4. Gerenciador do IIS mostrando o PSI de front-end (A) e o PSI de back-end (B)**
 
-![A PSI front-end e back-end PSI] (media/pj15_Architecture_PSI_IIS.gif "A PSI front-end e back-end PSI")
+![O PSI de front-end e o PSI de back-end](media/pj15_Architecture_PSI_IIS.gif "O PSI de front-end e o PSI de back-end")
   
-Aplicativos cliente não podem acessar diretamente os serviços WCF para a PSI no aplicativo de serviço de projeto de back-end. Se eles não exigem acesso ao Project Online, os aplicativos cliente e componentes de aplicativos LOB usam proxies para a PSI. Uma URL de back-end para a interface WCF do **recurso** serviço na Figura 4, por exemplo, seria `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Porta 32843 é a porta HTTP padrão para o aplicativo de serviços Web do SharePoint (32844 é a porta de comunicações HTTPS). No entanto, o arquivo Web. config para blocos do Project Web App acesso direto aos serviços PSI back-end.
+Os aplicativos cliente não podem acessar diretamente os serviços do WCF para o PSI no Aplicativo do Serviço do Project de back-end. Se eles não exigirem acesso ao Project Online, os aplicativos cliente e os componentes dos aplicativos LOB usarão proxies para o PSI. Uma URL de back-end para a interface do WCF do serviço **Resource** na Figura 4, por exemplo, seria `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. A porta 32843 é a porta HTTP padrão para o aplicativo SharePoint Web Services (32844 é a porta para comunicações HTTPS). No entanto, o arquivo web.config do Project Web App bloqueia o acesso direto aos serviços de back-end do PSI.
   
 > [!NOTE]
-> O download do SDK do Project 2013 inclui arquivos de PSI de proxy para os serviços do WCF e os serviços ASMX e obter instruções sobre como compilá-los em assemblies de proxy. > Para criar arquivos atualizados do proxy PSI que usam a interface WCF, você precisará usar o utilitário de svcutil.exe ou o Visual Studio diretamente no computador do Project Server. 
+> O download do SDK do Project 2013 inclui arquivos de proxy do PSI para os serviços do WCF e para os serviços do ASMX, além de instruções sobre como compilá-los para assemblies de proxy. > Para criar arquivos de proxy da PSI atualizados que usam o interface do WCF, você terá de usar o utilitário svcutil.exe ou o Visual Studio diretamente no computador do Project Server. 
   
-Normalmente, os membros dos serviços PSI produzem ou consumam tipos de objetos de **conjunto de dados** como os meios para trocar informações com os objetos de negócios. Há também vários modelos para desenvolvimento de PSI. Por exemplo, os serviços PSI **LookupTable** , **CustomFields**e **recursos**usam objetos de filtro XML para manipulação do **conjunto de dados** , e outros serviços não; alguns métodos no serviço de **status** usam um parâmetro _changeXml_ , enquanto outros métodos e os serviços não. O CSOM não usa conjuntos de dados. Embora o CSOM tem um modelo de programação diferente que a PSI, e você pode usar os assemblies .NET ou JavaScript, desenvolvimento com o CSOM é geralmente mais simples e mais consistente do que o desenvolvimento com a PSI. 
+Membros dos serviços PSI normalmente produzir ou consumir objetos **conjunto de dados** tipados como meio de troca de informações de objetos comerciais. Existem também vários modelos diferentes para o desenvolvimento da PSI. Por exemplo, os serviços PSI **Resource**, **CustomFields** e **LookupTable** PSI usam objetos de filtro XML para manipulação **DataSet** e outros serviços não. Alguns métodos no serviço **Statusing** usam um parâmetro _changeXml_, enquanto outros métodos e serviços não. O CSOM não utiliza conjuntos de dados. Embora o CSOM tenha um modelo de programação diferente da PSI, e você possa usar assemblies do .NET ou JavaScript, o desenvolvimento com o CSOM é geralmente mais simples e mais consistente se comparado com o desenvolvimento com a PSI. 
   
-Para obter mais informações sobre a PSI, consulte [Visão geral da referência do Project PSI](project-psi-reference-overview.md). Para obter mais informações sobre o CSOM, consulte [o modelo de objeto do lado do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md).
+Para obter mais informações sobre a PSI, confira [Visão geral da referência de PSI do Project](project-psi-reference-overview.md). Para saber mais sobre o CSOM, confira [Modelo de objeto do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md).
   
-### <a name="business-objects-in-the-wfe-and-the-project-service-application"></a>Objetos de negócios no WFE e o Aplicativo do Serviço do Project
+### <a name="business-objects-in-the-wfe-and-the-project-service-application"></a>Objetos de negócios no WFE e no Aplicativo do Serviço do Project
 <a name="pj15_Architecture_BusinessObjects"> </a>
 
 O modelo de objeto interno do Project Server inclui os objetos de negócios, que representam entidades lógicas, como Projeto e Recurso. Os aplicativos cliente só acessam objetos de negócios por meio do CSOM ou da PSI. Os objetos de negócios, por sua vez, acessam as tabelas e as exibições de rascunho, de publicação e de arquivo morto do banco de dados do Project.
@@ -193,59 +193,59 @@ Os objetos de negócios não são expostos a desenvolvedores terceirizados. A PS
     
 - **Entidades comerciais** são objetos como quadros de horários, portfólios de projeto e modelos. As entidades comerciais incluem lógica comercial adicional e normalmente são criadas de uma combinação das entidades fundamentais. 
     
-- **Entidades de suporte** são objetos como segurança e validação. 
+- As **entidades de suporte** são objetos como segurança e validação. 
     
-No Project Server 2010, todos os objetos de negócios são implementados no aplicativo de serviço do projeto. No Project Server 2013, o WFE hospeda muitos dos objetos corporativos que processam métodos síncronos e não exigem o serviço de cálculo do projeto. Métodos PSI síncronos como **DeleteProject** e **ReadAssignments** não use o serviço de fila do Project Server. Os métodos assíncronos na PSI têm nomes que começam com `Queue`, como **QueueCreateProject** e **QueueUpdateTimesheet**. Um método assíncrono envia uma mensagem para o serviço de fila do Project Server, que agenda o processamento do método enquanto o controle é retornado para o usuário.
+No Project Server 2010, todos os objetos de negócios são implementados no Aplicativo do Serviço do Project. No Project Server 2013, o WFE hospeda muitos dos objetos de negócios que processam métodos síncronos e não exigem o Serviço de Cálculo do Project. Os métodos de PSI síncrona, como **DeleteProject** e **ReadAssignments**, não usam o Serviço de Fila do Project Server. Os métodos assíncronos na PSI têm nomes que começam com `Queue`, como **QueueCreateProject** e **QueueUpdateTimesheet**. Um método assíncrono envia uma mensagem ao Serviço de Fila do Project Server que agenda o processamento do método enquanto o controle é retornado ao usuário.
   
 O Encaminhador PSI determina quais solicitações são encaminhadas para o Aplicativo do Serviço do Project e quais podem ser processadas pelos objetos de negócios no WFE. Os objetos de negócios no WFE ignoram o Aplicativo do Serviço do Project e têm acesso direto ao banco de dados do Project, semelhante à maneira que outros processos do SharePoint em um WFE acessam diretamente os bancos de dados de Configuração e de Conteúdo. A execução de vários dos objetos de negócios no WFE aumenta a eficiência do Project Server, reduz a carga na camada do aplicativo e permite que o Project Server seja melhor dimensionado para cargas de trabalho maiores.
   
 > [!NOTE]
-> No Project Server 2013, manipuladores de evento local devem ser implantados para o WFE e o computador do Project Server de back-end. 
+> No Project Server 2013, os manipuladores de eventos locais devem ser implantados no WFE e no computador de back-end do Project Server. 
   
 ### <a name="project-server-database"></a>Banco de dados do Project Server
 <a name="pj15_Architecture_DAL"> </a>
 
-No Project Server 2013, os quatro bancos de dados do Project Server de versões anteriores são combinados em um banco de dados de projeto no SQL Server. O nome do banco de dados de projeto padrão é ProjectService. As tabelas e modos de exibição de relatórios continuarão com seus nomes anteriores com o `dbo` prefixo, como dbo. MSP_EpmProject e dbo. MSP_EpmProject_UserView. Tabelas e modos de exibição que estavam anteriormente no banco de dados de rascunho têm o `draft` prefixo. Tabelas e modos de exibição do banco de dados publicado têm o `pub` prefixo. Tabelas e modos de exibição do banco de dados de arquivo morto tem o `ver` prefixo. 
+No Project Server 2013, os quatro bancos de dados do Project Server de versões anteriores são combinados em um banco de dados do Project no SQL Server. O nome do banco de dados padrão do Project é ProjectService. As tabelas e exibições de relatório mantêm seus nomes anteriores com o prefixo `dbo`, como dbo.MSP_EpmProject e dbo.MSP_EpmProject_UserView. As tabelas e as exibições que anteriormente estavam no banco de dados Rascunho têm o prefixo `draft`. As tabelas e as exibições do banco de dados Publicado têm o prefixo `pub`. As tabelas e as exibições do banco de dados Arquivo morto têm o prefixo `ver`. 
   
 > [!IMPORTANT]
-> Direcionar o access não é suportado para o rascunho ( `draft` prefixo), publicados ( `pub` prefixo) e o arquivo morto ( `ver` prefixo) tabelas e exibições. Relatórios devem usar somente as tabelas e modos de exibição, que possuem relatórios a `dbo` prefixo. 
+> O acesso direto não é suportado pelas tabelas e visualizações de rascunho (prefixo `draft`), publicado (prefixo `pub`) e arquivo (prefixo `ver`). Os relatórios devem usar apenas as tabelas e exibições de relatório que têm o prefixo `dbo`. 
   
-Os dados do Project Server são particionados no banco de dados do Project desta forma:
+Os dados do Project Server são particionados no banco de dados do Project da seguinte maneira:
   
-- As tabelas de rascunho e visualizações contêm dados de projetos que foram criados pelo Project Professional e outros aplicativos não publicados. Não exibe dados de projetos de rascunho tabelas e modos de exibição do Project Web App.
+- As tabelas e exibições de rascunho contêm dados de projetos não publicados criados pelo Project Professional e outros aplicativos. O Project Web App não exibe dados de projeto das tabelas e exibições de rascunho.
     
-- As exibições e tabelas publicadas contenham todos os projetos publicados e recursos da empresa, dados globais para tipos de projeto corporativo (EPTs) e outros modelos de projeto. Projetos publicados são visíveis no Project Web App. Os dados publicados também incluem tabelas que são específicas para o Project Web App (quadros de horários, modelos, modos de exibição e assim por diante) e tabelas de dados globais (campos personalizados, tabelas de pesquisa, permissões de autorização do Project Server e metadados).
+- As tabelas e exibições publicadas contêm todos os projetos e recursos publicados da empresa, dados globais para tipos de projeto corporativo (EPTs) e outros modelos de projeto. Projetos publicados são visíveis no Project Web App. Os dados publicados também incluem tabelas específicas do Project Web App (quadros de horários, modelos, visualizações e assim por diante) e tabelas de dados globais (campos personalizados, tabelas de consulta, permissões de autorização do Project Server e metadados).
     
-- Os dados de arquivo morto salvam versões de backup de projetos, de recursos, de campos personalizados e de outros dados.
+- Os dados de arquivamento salvam versões de backup de projetos, recursos, campos personalizados e outros dados.
     
-- Os dados de relatórios podem ser usados para acesso somente leitura em aplicativos de terceiros e para relatórios. Cubos do Project Server OLAP usam os modos de exibição de relatórios que têm o `_OlapView` sufixo. Cubos OLAP estão disponíveis em uma instalação do Project Server no local, mas não estão disponíveis no Project Online. 
+- Os dados de relatório podem ser usados para acesso somente leitura em aplicativos de terceiros e para relatórios. Os cubos OLAP do Project Server usam as exibições de relatório que possuem o sufixo `_OlapView`. Os cubos OLAP estão disponíveis em uma instalação local do Project Server, mas não estão disponíveis no Project Online. 
     
     Os dados de relatórios são abrangentes e são atualizados quase em tempo real. As tabelas e exibições de relatórios são otimizadas para geração de relatório somente leitura; por exemplo, as tabelas de relatórios são desordenados para oferecerem dados redundantes e reduzirem o número de tabelas relacionais.
     
 As entidades lógicas, como Recurso ou Projeto, podem se estender por várias tabelas, e todas as tabelas para uma entidade em particular têm a mesma chave primária. A chave primária é o GUID em uma única coluna que identifica exclusivamente uma instância de uma entidade em particular.
   
-Dados do Project Server para cada instância do Project Web App são armazenados em um banco de dados separado do projeto com um nome diferente. Aplicativos cliente que têm acesso direto ao Project Server diretamente podem ler as tabelas e modos de exibição de relatórios. Para acesso remoto, os aplicativos cliente podem usar a interface de OData e a interface REST para obter dados para relatórios. Os clientes devem usar somente o CSOM ou a PSI para acessar o rascunho, publicado e arquivar tabelas e exibições. O serviço de dados de relatório (RDS, que não é mostrado na Figura 3) atualiza os dados de relatórios de dados publicados em praticamente em tempo real. O banco de dados de projeto pode estar localizado em um servidor separado.
+Os dados do Project Server para cada instância do Project Web App são armazenados em um banco de dados separado do Project com um nome diferente. Aplicativos cliente que possuem acesso direto ao Project Server podem ler diretamente as tabelas e exibições de relatórios. Para acesso remoto, os aplicativos cliente podem usar a interface OData e a interface REST para obter dados para relatórios. Os clientes devem usar apenas o CSOM ou a PSI para acessar as tabelas e exibições de rascunho, publicadas e arquivadas. O serviço de dados de relatório (RDS, que não é mostrado na Figura 3) atualiza os dados de relatório de dados publicados praticamente em tempo real. O banco de dados do Project pode estar localizado em um servidor separado.
   
-Esquemas são documentadas apenas para as tabelas e modos de exibição de relatórios. Para uma instalação do Project Server no local, você pode adicionar o relatório de tabelas e modos de exibição para entidades que não são definidos no esquema de banco de dados do Project. Você também pode criar bancos de dados separados para aplicativos personalizados no local. Modificação não é suportada para o rascunho, publicado e arquiva tabelas e exibições. Como o banco de dados do projeto não está acessível diretamente no Project Online, relatórios de tabelas e modos de exibição não podem ser modificado. No entanto, se você tiver uma conta do SQL Azure, você pode criar bancos de dados separados para uso personalizado ao Project Online.
+Os esquemas são documentados apenas para as tabelas e exibições de relatórios. Para uma instalação local do Project Server, você pode adicionar tabelas e exibições de relatórios para entidades que não estão definidas no esquema de banco de dados do Project. Você também pode criar bancos de dados separados para aplicativos locais personalizados. A modificação não é suportada pelas tabelas e exibições Rascunho, Publicado e Arquivo. Como o banco de dados do Project não está diretamente acessível no Project Online, as tabelas e exibições de relatório não podem ser modificadas. No entanto, se você tiver uma conta do SQL Azure, poderá criar bancos de dados separados para uso personalizado com o Project Online.
   
 ### <a name="event-receivers"></a>Receptores de eventos
 <a name="pj15_Architecture_EventHandlers"> </a>
 
-Manipuladores de evento local e receptores de evento remoto para o Project Server permitem extensibilidade de terceiros em resposta a eventos do Project Server, como criar ou publicação de um projeto. No Project Server 2010, todos os manipuladores de eventos são locais em são gravados no código de confiança total, implantado diretamente no computador que executa o Project Server e para os WFEs e executados dentro do sistema de eventos do Project Server. Porque o Project Online não é possível usar manipuladores de eventos de confiança total, o Project Server 2013 implementa receptores de evento remoto que são semelhantes aos receptores de evento remoto no SharePoint Server 2013. Uma instalação local do Project Server 2013 pode usar os manipuladores de evento tradicionais de confiança total e receptores de evento remoto.
+Os manipuladores de eventos locais e receptores de eventos remotos do Project Server permitem extensibilidade de terceiros em resposta a eventos do Project Server, como criar ou publicar um projeto. No Project Server 2010, todos os manipuladores de eventos são locais e são gravados em código de confiança total, implantados diretamente no computador que está executando o Project Server e nos WFEs e executados dentro do Project Server Eventing System. Como o Project Online não pode usar manipuladores de eventos de confiança total, o Project Server 2013 implementa receptores de eventos remotos que são semelhantes aos receptores de eventos remotos no SharePoint Server 2013. Uma instalação local do Project Server 2013 pode usar manipuladores de eventos de confiança total tradicionais e receptores de eventos remotos.
   
-Um receptor de evento remoto do Project Server pode ser implementado em um serviço web personalizado com um ponto de extremidade SOAP que executa o Microsoft Azure ou em outros ambientes que oferecem suporte a serviços web SOAP. Um pacote de aplicativos do Project Server pode incluir os receptores de evento remoto que são instalados com o aplicativo.
+Um receptor de eventos remotos do Project Server pode ser implementado em um serviço Web personalizado com um ponto de extremidade SOAP executado no Microsoft Azure ou em outros ambientes que deem suporte a serviços Web SOAP. Um pacote de aplicativos do Project Server pode incluir receptores de eventos remotos instalados com o aplicativo.
   
-Receptores de evento remoto podem ligar novamente para o Project Server usando os pontos de extremidade do CSOM (não é mostrados na Figura 3). A chamada para um receptor de evento remoto inclui informações do sistema de eventos do Project Server e a instância do Project Web App (ou Locatário do Project Web App no Project Online) que emite a chamada. Receptores de evento remoto permitem que você crie e hospede um serviço web único que pode ser usado por várias instalações do Project Server. Por outro lado, os manipuladores de evento de confiança total local devem ser implantados em cada instalação do Project Server.
+Os receptores de eventos remotos podem retornar a chamada para o Project Server usando os terminais CSOM (não mostrados na Figura 3). A chamada para um receptor de eventos remoto inclui informações do Project Server Eventing System e da instância do Project Web App (ou o locatário do Project Web App no Project Online) que emite a chamada. Os receptores de eventos remotos permitem criar e hospedar um único serviço Web que pode ser usado por várias instalações do Project Server. Por outro lado, os manipuladores de eventos de confiança total locais devem ser implantados para cada instalação do Project Server.
   
-### <a name="publishing-and-server-side-scheduling"></a>Publicação e agendamento no lado do servidor
+### <a name="publishing-and-server-side-scheduling"></a>Publicação e agendamento do servidor
 <a name="pj15_Architecture_PublishingScheduling"> </a>
 
-Project Server 2013 suporta ambas as atualizações de agenda de projeto manuais e automatizadas. O processo de padrão é uma atualização de agendamento manual. Ou seja, o gerente de projeto faz check-out e abre um projeto no Project Professional ou no Project Web App, aplica as alterações e, em seguida, salva e publica o projeto para disponibilizar as alterações para todos. Project Professional tem um mecanismo de agendamento que calcula as alterações e, em seguida, salva as alterações no Project Server. No Project Server 2010, o mecanismo de agendamento do lado do servidor é uma implementação diferente do mecanismo de agendamento no Project Professional.
+O Project Server 2013 suporta atualizações manuais e automatizadas do cronograma do projeto. O processo padrão é uma atualização de programação manual. Ou seja, o gerente de projeto faz check-out e abre um projeto no Project Professional ou no Project Web App, aplica as alterações e, em seguida, salva e publica o projeto para disponibilizar as alterações para todas as pessoas. O Project Professional possui um mecanismo de agendamento que calcula as alterações e salva as alterações no Project Server. No Project Server 2010, o mecanismo de agendamento do lado do servidor é uma implementação diferente do mecanismo de agendamento no Project Professional.
   
-No Project Server 2013, o serviço de cálculo do projeto implementa o mesmo mecanismo de agendamento que esteja no Project Professional 2013. O serviço de cálculo do projeto é executado em um serviço do Windows chamado de **Serviço de cálculo do Microsoft Project Server**. Editando uma agenda de projeto no Project Web App ou com aplicativos de terceiros que usam os resultados CSOM em exatamente as mesmas alterações de agendamento que tornaria Project Professional.
+No Project Server 2013, o Serviço de Cálculo do Project implementa o mecanismo de agendamento do Project Professional 2013. O Serviço de Cálculo do Project é executado em um serviço do Windows chamado **Serviço de Cálculo do Microsoft Project Server**. A edição de um agendamento de projeto no Project Web App ou com aplicativos de terceiros que usam o CSOM resulta exatamente nas mesmas alterações de agendamento que o Project Professional faria.
   
 > [!NOTE]
-> Aplicativos de terceiros que usam a PSI podem mostrar algumas diferenças de agendamento de uma agenda que calcula do Project Web App. Para compatibilidade, os métodos PSI públicos que faça ainda de agendamento do lado servidor usam o mecanismo de agendamento que foi introduzido no Project Server 2010. Uma exceção é **QueueUpdateProject2**, que é um novo método de PSI no Project Server 2013. Por exemplo, o mecanismo de agendamento mais antigo não agendar subprojetos ou links para outros projetos e não calcula campos de valor acumulado. Para evitar possíveis de agendamento diferenças entre os aplicativos de terceiros e Project Professional ou no Project Web App, você deve desenvolver aplicativos com o CSOM onde for possível. 
+> Os aplicativos de terceiros que usam a PSI podem apresentar algumas diferenças de agendamento de um agendamento calculado pelo Project Web App. Para compatibilidade com versões anteriores, os métodos PSI públicos que fazem o agendamento no servidor ainda usam o mecanismo de agendamento que foi introduzido no Project Server 2010. **QueueUpdateProject2** é uma exceção já que é um novo método PSI no Project Server 2013. Por exemplo, o mecanismo de agendamento mais antigo não agenda subprojetos ou links para outros projetos e não calcula campos de valor agregado. Para evitar possíveis diferenças de agendamento entre aplicativos de terceiros e o Project Professional ou o Project Web App, você deve desenvolver aplicativos com o CSOM sempre que possível. 
   
 O Project Server permite que a versão publicada de um projeto seja atualizada enquanto um gerente de projeto estiver usando a versão de rascunho, por meio destas etapas:
   
@@ -257,16 +257,16 @@ O Project Server permite que a versão publicada de um projeto seja atualizada e
     
    - O Project Professional tenta publicar o projeto.
     
-3. Se houver um conflito, o gerente do projeto será notificado e deverá resolver o conflito antes da publicação da versão de rascunho.
+3. Se houver um conflito, o gerente de projeto será notificado e deverá resolver o conflito antes que a versão de rascunho seja publicada.
     
 ## <a name="see-also"></a>Confira também
 
-- [Visão geral do Project 2013 para desenvolvedores](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Visão geral do Project 2013 para desenvolvedores](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Programabilidade do Project Server](project-server-programmability.md)  
 - [Modelo de objeto do cliente (CSOM) para o Project 2013](client-side-object-model-csom-for-project-2013.md)  
-- [O que o PSI faz e não faz](what-the-psi-does-and-does-not-do.md)  
-- [Introdução ao desenvolvimento de fluxos de trabalho do Project](getting-started-developing-project-server-workflows.md)   
-- [Visão geral da referência PSI do Project](project-psi-reference-overview.md)   
-- [Protocolo do Open Data](http://www.odata.org/)
+- [O que a PSI faz e não faz](what-the-psi-does-and-does-not-do.md)  
+- [Introdução ao desenvolvimento de fluxos de trabalho do Project Server](getting-started-developing-project-server-workflows.md)   
+- [Visão geral da referência da PSI do Project](project-psi-reference-overview.md)   
+- [Protocolo Open Data](https://www.odata.org/)
     
 
