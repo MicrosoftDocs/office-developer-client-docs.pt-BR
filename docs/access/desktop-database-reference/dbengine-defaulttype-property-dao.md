@@ -10,35 +10,33 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d32c0860f76aeeaa64a060a55579d05c1eb571ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2c8a4844d02c55db6cea80e0767b4b7f75d114
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463938"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861443"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="0226f-102">Propriedade DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="0226f-102">DBEngine.DefaultType Property (DAO)</span></span>
+# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="2a33b-102">Propriedade DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="2a33b-102">DBEngine.DefaultType Property (DAO)</span></span>
 
 
-<span data-ttu-id="0226f-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0226f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2a33b-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a33b-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="0226f-104">Define ou retorna um valor que indica o tipo de espaço de trabalho que será utilizado pelo próximo objeto **[Workspace](workspace-object-dao.md)** criado.</span><span class="sxs-lookup"><span data-stu-id="0226f-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
+<span data-ttu-id="2a33b-104">Define ou retorna um valor que indica o tipo de espaço de trabalho que será utilizado pelo próximo objeto **[Workspace](workspace-object-dao.md)** criado.</span><span class="sxs-lookup"><span data-stu-id="2a33b-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0226f-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0226f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2a33b-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="2a33b-105">Syntax</span></span>
 
-<span data-ttu-id="0226f-106">*expressão* . DefaultType</span><span class="sxs-lookup"><span data-stu-id="0226f-106">*expression* .DefaultType</span></span>
+<span data-ttu-id="2a33b-106">*expressão* . DefaultType</span><span class="sxs-lookup"><span data-stu-id="2a33b-106">*expression* .DefaultType</span></span>
 
-<span data-ttu-id="0226f-107">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="0226f-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="2a33b-107">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="2a33b-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0226f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="0226f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2a33b-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="2a33b-108">Remarks</span></span>
 
-<span data-ttu-id="0226f-109">A configuração ou o valor de retorno pode ser uma das constantes **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="0226f-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="2a33b-109">A configuração ou o valor de retorno pode ser uma das constantes **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2a33b-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="0226f-p101">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="0226f-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <span data-ttu-id="2a33b-p101">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="2a33b-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
-
-
-<span data-ttu-id="0226f-112">A configuração pode ser substituída por um único **Workspace** , definindo o argumento type para o método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="0226f-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
+<span data-ttu-id="2a33b-112">A configuração pode ser substituída por um único **Workspace** , definindo o argumento type para o método **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="2a33b-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
 

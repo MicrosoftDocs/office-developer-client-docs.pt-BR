@@ -1,24 +1,24 @@
 ---
-title: Exemplo dos Métodos Execute, Requery e Clear (VC++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VC++)
+title: Exemplo dos métodos Execute, Requery e Clear (VC++)
+TOCTitle: Execute, Requery, and Clear methods example (VC++)
 ms:assetid: ac65f1d8-e185-c00a-9ad6-8b6a22529238
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249803(v=office.15)
 ms:contentKeyID: 48547008
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d2a973ac975b1835273ac098959097175d50a1c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 037e6f8754d9ff133f55361273089f09c971b4b2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463196"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860186"
 ---
-# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="71618-102">Exemplo dos Métodos Execute, Requery e Clear (VC++)</span><span class="sxs-lookup"><span data-stu-id="71618-102">Execute, Requery, and Clear Methods Example (VC++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="d2dc1-102">Exemplo dos métodos Execute, Requery e Clear (VC++)</span><span class="sxs-lookup"><span data-stu-id="d2dc1-102">Execute, Requery, and Clear methods example (VC++)</span></span>
 
 
-<span data-ttu-id="71618-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="71618-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d2dc1-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2dc1-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="71618-p101">Este exemplo demonstra o método **Execute** ao ser executado a partir de um objeto [Command](command-object-ado.md) e de um objeto [Connection](connection-object-ado.md). Ele também utiliza o método [Requery](requery-method-ado.md) para recuperar dados atuais em um [recordset](recordset-object-ado.md) e o método [Clear](clear-method-ado.md) para limpar o conteúdo da coleção [Errors](errors-collection-ado.md). As funções ExecuteCommand e PrintOutput são necessárias para a execução desse exemplo.</span><span class="sxs-lookup"><span data-stu-id="71618-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
+<span data-ttu-id="d2dc1-p101">Este exemplo demonstra o método **Execute** ao ser executado a partir de um objeto [Command](command-object-ado.md) e de um objeto [Connection](connection-object-ado.md). Ele também utiliza o método [Requery](requery-method-ado.md) para recuperar dados atuais em um [recordset](recordset-object-ado.md) e o método [Clear](clear-method-ado.md) para limpar o conteúdo da coleção [Errors](errors-collection-ado.md). As funções ExecuteCommand e PrintOutput são necessárias para a execução desse exemplo.</span><span class="sxs-lookup"><span data-stu-id="d2dc1-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
 
 ```cpp 
  

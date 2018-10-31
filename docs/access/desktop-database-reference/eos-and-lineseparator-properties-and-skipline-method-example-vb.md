@@ -1,24 +1,24 @@
 ---
-title: Exemplo das propriedades EOS e LineSeparator e do método SkipLine (VB)
-TOCTitle: EOS and LineSeparator Properties and SkipLine Method Example (VB)
+title: Exemplo do método EOS e LineSeparator propriedades e SkipLine (VB)
+TOCTitle: EOS and LineSeparator Properties and SkipLine method example (VB)
 ms:assetid: 66508541-cc65-e16a-0f8d-2c0b20342b05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc2a46342b78bdf71b57830e5db92bf265640c2e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf46c6aa2adcf49fa1e51580c83a92611b25111e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465466"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862174"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="d2f7e-102">Exemplo das propriedades EOS e LineSeparator e do método SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="d2f7e-102">EOS and LineSeparator Properties and SkipLine Method Example (VB)</span></span>
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="1d2dd-102">Exemplo do método EOS e LineSeparator propriedades e SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="1d2dd-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
 
 
-<span data-ttu-id="d2f7e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2f7e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1d2dd-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d2dd-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d2f7e-p101">Este exemplo demonstra como manipular uma linha dos fluxos de texto por vez. É mostrado o efeito da alteração do separador de linha do retorno de carro/alimentação de linha padrão (**adCRLF**) simplesmente para alimentação de linha (**adLF**) ou retorno de carro (**adCR**).</span><span class="sxs-lookup"><span data-stu-id="d2f7e-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
+<span data-ttu-id="1d2dd-p101">Este exemplo demonstra como manipular uma linha dos fluxos de texto por vez. É mostrado o efeito da alteração do separador de linha do retorno de carro/alimentação de linha padrão (**adCRLF**) simplesmente para alimentação de linha (**adLF**) ou retorno de carro (**adCR**).</span><span class="sxs-lookup"><span data-stu-id="1d2dd-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
 
 ```vb 
  

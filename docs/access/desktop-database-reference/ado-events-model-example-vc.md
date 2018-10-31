@@ -1,48 +1,48 @@
 ---
-title: Exemplo de modelo de eventos do ADO (VC++)
-TOCTitle: ADO Events Model Example (VC++)
+title: Exemplo de modelo de eventos do ADO (VC + +)
+TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 395fa07c75b61214cf01950262fc85f191e8dc2c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1794e3e13bc2c8fe7c3acc9bbd1413daf4938d2c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464229"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859990"
 ---
-# <a name="ado-events-model-example-vc"></a><span data-ttu-id="d5e75-102">Exemplo de modelo de eventos do ADO (VC++)</span><span class="sxs-lookup"><span data-stu-id="d5e75-102">ADO Events Model Example (VC++)</span></span>
+# <a name="ado-events-model-example-vc"></a><span data-ttu-id="bb0a2-102">Exemplo de modelo de eventos do ADO (VC + +)</span><span class="sxs-lookup"><span data-stu-id="bb0a2-102">ADO Events Model example (VC++)</span></span>
 
 
-<span data-ttu-id="d5e75-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5e75-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bb0a2-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb0a2-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d5e75-104">A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) fornece uma descrição geral de como instanciar o modelo de eventos do ADO.</span><span class="sxs-lookup"><span data-stu-id="d5e75-104">The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="d5e75-105">A seguir está um exemplo específico de instanciando o modelo de evento dentro do ambiente criado pelo \*\* \#importar\*\* diretiva.</span><span class="sxs-lookup"><span data-stu-id="d5e75-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
+<span data-ttu-id="bb0a2-104">A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) fornece uma descrição geral de como instanciar o modelo de eventos do ADO.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-104">The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="bb0a2-105">A seguir está um exemplo específico de instanciando o modelo de evento dentro do ambiente criado pelo \*\* \#importar\*\* diretiva.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
 
-<span data-ttu-id="d5e75-106">A descrição geral utiliza **adoint.h** como uma referência para assinaturas de métodos.</span><span class="sxs-lookup"><span data-stu-id="d5e75-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="d5e75-107">No entanto, alguns detalhes na descrição geral ligeiramente alteram como resultado do uso do \*\* \#importar\*\* diretiva:</span><span class="sxs-lookup"><span data-stu-id="d5e75-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
+<span data-ttu-id="bb0a2-106">A descrição geral utiliza **adoint.h** como uma referência para assinaturas de métodos.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="bb0a2-107">No entanto, alguns detalhes na descrição geral ligeiramente alteram como resultado do uso do \*\* \#importar\*\* diretiva:</span><span class="sxs-lookup"><span data-stu-id="bb0a2-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
 
-  - <span data-ttu-id="d5e75-108">O \*\* \#importar\*\* diretiva resolve **typedef**e tipos de dados de assinatura do método e modificadores para seus formatos fundamentais.</span><span class="sxs-lookup"><span data-stu-id="d5e75-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
+  - <span data-ttu-id="bb0a2-108">O \*\* \#importar\*\* diretiva resolve **typedef**e tipos de dados de assinatura do método e modificadores para seus formatos fundamentais.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
 
-  - <span data-ttu-id="d5e75-109">Os métodos virtuais puros que devem ser sobregravados são todos prefixados por "**brutos\_**".</span><span class="sxs-lookup"><span data-stu-id="d5e75-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
+  - <span data-ttu-id="bb0a2-109">Os métodos virtuais puros que devem ser sobregravados são todos prefixados por "**brutos\_**".</span><span class="sxs-lookup"><span data-stu-id="bb0a2-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
 
-<span data-ttu-id="d5e75-110">Alguns dos códigos simplesmente refletem o estilo de codificação.</span><span class="sxs-lookup"><span data-stu-id="d5e75-110">Some of the code simply reflects coding style.</span></span>
+<span data-ttu-id="bb0a2-110">Alguns dos códigos simplesmente refletem o estilo de codificação.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-110">Some of the code simply reflects coding style.</span></span>
 
-  - <span data-ttu-id="d5e75-111">O ponteiro para **IUnknown** utilizado pelo método **Advise** é obtido explicitamente com uma chamada de **QueryInterface**.</span><span class="sxs-lookup"><span data-stu-id="d5e75-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
+  - <span data-ttu-id="bb0a2-111">O ponteiro para **IUnknown** utilizado pelo método **Advise** é obtido explicitamente com uma chamada de **QueryInterface**.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
 
-  - <span data-ttu-id="d5e75-112">Você não precisa codificar explicitamente um destrutor nas definições de classe.</span><span class="sxs-lookup"><span data-stu-id="d5e75-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
+  - <span data-ttu-id="bb0a2-112">Você não precisa codificar explicitamente um destrutor nas definições de classe.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
 
-  - <span data-ttu-id="d5e75-113">Talvez queira codificar implementações mais robustas de QueryInterface, AddRef e Release.</span><span class="sxs-lookup"><span data-stu-id="d5e75-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
+  - <span data-ttu-id="bb0a2-113">Talvez queira codificar implementações mais robustas de QueryInterface, AddRef e Release.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
 
-  - <span data-ttu-id="d5e75-114">O \*\* \_ \_uuidof()\*\* diretiva é utilizada extensivamente para obter as IDs de interface.</span><span class="sxs-lookup"><span data-stu-id="d5e75-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
+  - <span data-ttu-id="bb0a2-114">O \*\* \_ \_uuidof()\*\* diretiva é utilizada extensivamente para obter as IDs de interface.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
 
-<span data-ttu-id="d5e75-115">Por fim, o exemplo contém alguns códigos em funcionamento.</span><span class="sxs-lookup"><span data-stu-id="d5e75-115">Finally, the example contains some working code.</span></span>
+<span data-ttu-id="bb0a2-115">Por fim, o exemplo contém alguns códigos em funcionamento.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-115">Finally, the example contains some working code.</span></span>
 
-  - <span data-ttu-id="d5e75-116">O exemplo está escrito como um aplicativo de console.</span><span class="sxs-lookup"><span data-stu-id="d5e75-116">The example is written as a console application.</span></span>
+  - <span data-ttu-id="bb0a2-116">O exemplo está escrito como um aplicativo de console.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-116">The example is written as a console application.</span></span>
 
-  - <span data-ttu-id="d5e75-117">Você deve inserir seu próprio código no comentário, "/ / algum trabalho".</span><span class="sxs-lookup"><span data-stu-id="d5e75-117">You should insert your own code under the comment, "// Do some work ".</span></span>
+  - <span data-ttu-id="bb0a2-117">Você deve inserir seu próprio código no comentário, "/ / algum trabalho".</span><span class="sxs-lookup"><span data-stu-id="bb0a2-117">You should insert your own code under the comment, "// Do some work ".</span></span>
 
-  - <span data-ttu-id="d5e75-p103">Todos os manipuladores de evento são padronizados para não fazer nada e cancelar notificações adicionais. Insira o código apropriado para seu aplicativo e permita notificações, se forem exigidas.</span><span class="sxs-lookup"><span data-stu-id="d5e75-p103">All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.</span></span>
+  - <span data-ttu-id="bb0a2-p103">Todos os manipuladores de evento são padronizados para não fazer nada e cancelar notificações adicionais. Insira o código apropriado para seu aplicativo e permita notificações, se forem exigidas.</span><span class="sxs-lookup"><span data-stu-id="bb0a2-p103">All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.</span></span>
 
 <!-- end list -->
 

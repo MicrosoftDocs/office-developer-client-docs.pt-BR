@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b361291914b952b458fc4fc587b5b0461464c1fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 85af8f8840cdc74494f29d169cbccb3ce38cc6b4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463284"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862202"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="e218a-102">Tratando erros no VBScript</span><span class="sxs-lookup"><span data-stu-id="e218a-102">Handling Errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="f7676-102">Tratando erros no VBScript</span><span class="sxs-lookup"><span data-stu-id="f7676-102">Handling Errors in VBScript</span></span>
 
 
-<span data-ttu-id="e218a-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e218a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f7676-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7676-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e218a-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="e218a-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="e218a-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="e218a-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="e218a-106">Em outras palavras, é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="e218a-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="e218a-107">Em vez disso, use em VBScript.</span><span class="sxs-lookup"><span data-stu-id="e218a-107">Instead, use in VBScript.</span></span> <span data-ttu-id="e218a-108">Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="e218a-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="f7676-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="f7676-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="f7676-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="f7676-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="f7676-106">Em outras palavras, é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="f7676-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="f7676-107">Em vez disso, use em VBScript.</span><span class="sxs-lookup"><span data-stu-id="f7676-107">Instead, use in VBScript.</span></span> <span data-ttu-id="f7676-108">Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="f7676-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  
@@ -26,11 +26,11 @@ ms.locfileid: "25463284"
 <HTML> 
 <HEAD> 
 <META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0"> 
-<TITLE>Error Handling Example (VBScript)</TITLE> 
+<TITLE>Error Handling example (VBScript)</TITLE> 
 </HEAD> 
 <BODY> 
  
-<h1>Error Handling Example (VBScript)</h1> 
+<h1>Error Handling example (VBScript)</h1> 
  
 <% 
  Dim errLoop 

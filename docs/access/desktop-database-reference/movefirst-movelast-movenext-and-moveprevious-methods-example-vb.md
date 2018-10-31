@@ -1,24 +1,24 @@
 ---
-title: Exemplo dos Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VB)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)
+title: Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VB)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)
 ms:assetid: 61f82932-2ce9-341f-b120-168f786a9040
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be045c10fff0a6229b492017486f514f13b60592
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78525612215c4959cf77cc5e986c5724f7e26310
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463189"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862679"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="5e4dc-102">Exemplo dos Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VB)</span><span class="sxs-lookup"><span data-stu-id="5e4dc-102">MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="dc65d-102">Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VB)</span><span class="sxs-lookup"><span data-stu-id="dc65d-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)</span></span>
 
 
-<span data-ttu-id="5e4dc-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e4dc-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dc65d-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc65d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="5e4dc-p101">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido. O procedimento MoveAny é necessário para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="5e4dc-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="dc65d-p101">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido. O procedimento MoveAny é necessário para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="dc65d-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

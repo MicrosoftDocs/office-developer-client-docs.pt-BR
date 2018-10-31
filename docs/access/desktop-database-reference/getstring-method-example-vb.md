@@ -1,26 +1,26 @@
 ---
-title: Exemplo do Método GetString (VB)
-TOCTitle: GetString Method Example (VB)
+title: Exemplo do método GetString (VB)
+TOCTitle: GetString method example (VB)
 ms:assetid: fa954e48-0810-9d71-4e24-f3ae2839105a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250280(v=office.15)
 ms:contentKeyID: 48548849
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 64fff0857754fc1a249a1d823a0c827e393d329a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9431711e3a3e2b39d6d59165650bb32e85e84f4a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464632"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861859"
 ---
-# <a name="getstring-method-example-vb"></a><span data-ttu-id="9695e-102">Exemplo do Método GetString (VB)</span><span class="sxs-lookup"><span data-stu-id="9695e-102">GetString Method Example (VB)</span></span>
+# <a name="getstring-method-example-vb"></a><span data-ttu-id="a909b-102">Exemplo do método GetString (VB)</span><span class="sxs-lookup"><span data-stu-id="a909b-102">GetString method example (VB)</span></span>
 
 
-<span data-ttu-id="9695e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9695e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a909b-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a909b-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="9695e-104">Este exemplo demonstra o método [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="9695e-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="a909b-104">Este exemplo demonstra o método [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a909b-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="9695e-105">Suponha que você esteja depurando um problema de acesso a dados e deseja uma forma simples e rápida de imprimir o conteúdo atual de um pequeno [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="9695e-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="a909b-105">Suponha que você esteja depurando um problema de acesso a dados e deseja uma forma simples e rápida de imprimir o conteúdo atual de um pequeno [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a909b-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

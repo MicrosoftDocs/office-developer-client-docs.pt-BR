@@ -1,24 +1,24 @@
 ---
 title: Exemplo do método Append de índices (VB)
-TOCTitle: Indexes Append Method Example (VB)
+TOCTitle: Indexes Append method example (VB)
 ms:assetid: 71b18a5b-d000-5184-afac-c5d26b7f17e8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffe5f156fba719cec07a9aec74a1c6639fe4a900
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e546445c6959ab1e9f9d6eb53fd28e02d47b40
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462737"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862146"
 ---
-# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="fb58e-102">Exemplo do método Append de índices (VB)</span><span class="sxs-lookup"><span data-stu-id="fb58e-102">Indexes Append Method Example (VB)</span></span>
+# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="f465d-102">Exemplo do método Append de índices (VB)</span><span class="sxs-lookup"><span data-stu-id="f465d-102">Indexes Append method example (VB)</span></span>
 
 
-<span data-ttu-id="fb58e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb58e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f465d-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f465d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="fb58e-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="fb58e-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="f465d-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="f465d-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```vb 
  

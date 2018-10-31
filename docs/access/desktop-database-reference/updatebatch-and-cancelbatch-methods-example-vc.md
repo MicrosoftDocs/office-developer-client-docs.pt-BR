@@ -1,24 +1,24 @@
 ---
-title: Exemplo dos Métodos UpdateBatch e CancelBatch (VC++)
-TOCTitle: UpdateBatch and CancelBatch Methods Example (VC++)
+title: Exemplo dos métodos UpdateBatch e CancelBatch (VC++)
+TOCTitle: UpdateBatch and CancelBatch methods example (VC++)
 ms:assetid: 49eb3cc7-16af-6e2b-911f-ddcf643cf699
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249227(v=office.15)
 ms:contentKeyID: 48544651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e17f2e8b8aae50b49b884a0db52bf8531d5faa21
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4ea8a1cee322798545e9727f61dc4426186e0e3c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463877"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861921"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vc"></a><span data-ttu-id="d7edf-102">Exemplo dos Métodos UpdateBatch e CancelBatch (VC++)</span><span class="sxs-lookup"><span data-stu-id="d7edf-102">UpdateBatch and CancelBatch Methods Example (VC++)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vc"></a><span data-ttu-id="53e87-102">Exemplo dos métodos UpdateBatch e CancelBatch (VC++)</span><span class="sxs-lookup"><span data-stu-id="53e87-102">UpdateBatch and CancelBatch methods example (VC++)</span></span>
 
 
-<span data-ttu-id="d7edf-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7edf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="53e87-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="53e87-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d7edf-104">Este exemplo demonstra o método [UpdateBatch](updatebatch-method-ado.md) em conjunto com o método [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d7edf-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="53e87-104">Este exemplo demonstra o método [UpdateBatch](updatebatch-method-ado.md) em conjunto com o método [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="53e87-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -243,7 +243,7 @@ void PrintComError(_com_error &e)
 // EndUpdateBatchCpp 
 ```
 
-<span data-ttu-id="d7edf-105">**UpdateBatchX.h**</span><span class="sxs-lookup"><span data-stu-id="d7edf-105">**UpdateBatchX.h**</span></span>
+<span data-ttu-id="53e87-105">**UpdateBatchX.h**</span><span class="sxs-lookup"><span data-stu-id="53e87-105">**UpdateBatchX.h**</span></span>
 
 ```cpp 
  

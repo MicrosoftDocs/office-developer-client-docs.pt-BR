@@ -1,24 +1,24 @@
 ---
-title: Exemplo do Método Find (VB)
-TOCTitle: Find Method Example (VB)
+title: Exemplo do método Find (VB)
+TOCTitle: Find method example (VB)
 ms:assetid: 93fa7cab-e66d-7d9c-22bb-d73b44982649
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249657(v=office.15)
 ms:contentKeyID: 48546408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89f6654f2749aab2f30e55c3543763da76e53a52
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f1c72931381839f7a8340d1d212b2afaa6fc3e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464626"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860928"
 ---
-# <a name="find-method-example-vb"></a><span data-ttu-id="47702-102">Exemplo do Método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="47702-102">Find Method Example (VB)</span></span>
+# <a name="find-method-example-vb"></a><span data-ttu-id="c23e2-102">Exemplo do método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="c23e2-102">Find method example (VB)</span></span>
 
 
-<span data-ttu-id="47702-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="47702-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c23e2-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c23e2-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="47702-104">Este exemplo usa o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e contar o número de títulos de negócios no banco de dados ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="47702-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="47702-105">O exemplo supõe que o provedor base não suporta funcionalidade semelhante.</span><span class="sxs-lookup"><span data-stu-id="47702-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="c23e2-104">Este exemplo usa o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e contar o número de títulos de negócios no banco de dados ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="c23e2-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="c23e2-105">O exemplo supõe que o provedor base não suporta funcionalidade semelhante.</span><span class="sxs-lookup"><span data-stu-id="c23e2-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```vb 
  

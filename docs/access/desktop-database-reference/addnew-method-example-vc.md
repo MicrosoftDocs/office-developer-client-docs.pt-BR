@@ -1,24 +1,24 @@
 ---
 title: Exemplo do método AddNew (VC++)
-TOCTitle: AddNew Method Example (VC++)
+TOCTitle: AddNew method example (VC++)
 ms:assetid: 137cdc3e-2def-36e4-b71d-625fdf0147c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248909(v=office.15)
 ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0330ad0fa1c11cd6118956435b3c104997d13b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 15fe1071771c0eccbbf16eb2e186e323bd0255eb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463383"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862489"
 ---
-# <a name="addnew-method-example-vc"></a><span data-ttu-id="009d8-102">Exemplo do método AddNew (VC++)</span><span class="sxs-lookup"><span data-stu-id="009d8-102">AddNew Method Example (VC++)</span></span>
+# <a name="addnew-method-example-vc"></a><span data-ttu-id="4a4f1-102">Exemplo do método AddNew (VC++)</span><span class="sxs-lookup"><span data-stu-id="4a4f1-102">AddNew method example (VC++)</span></span>
 
 
-<span data-ttu-id="009d8-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="009d8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4a4f1-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a4f1-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="009d8-104">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado.</span><span class="sxs-lookup"><span data-stu-id="009d8-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="4a4f1-104">Este exemplo utiliza o método [AddNew](addnew-method-ado.md) para criar um novo registro com o nome especificado.</span><span class="sxs-lookup"><span data-stu-id="4a4f1-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```cpp 
  
@@ -237,7 +237,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="009d8-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="009d8-105">**AddNewX.h**</span></span>
+<span data-ttu-id="4a4f1-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="4a4f1-105">**AddNewX.h**</span></span>
 
 ```cpp 
  

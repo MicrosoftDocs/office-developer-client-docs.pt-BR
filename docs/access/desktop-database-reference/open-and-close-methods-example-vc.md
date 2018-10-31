@@ -1,24 +1,24 @@
 ---
-title: Exemplo dos Métodos Open e Close (VC++)
-TOCTitle: Open and Close Methods Example (VC++)
+title: Exemplo dos métodos Open e Close (VC++)
+TOCTitle: Open and Close methods example (VC++)
 ms:assetid: 34493c4d-a60a-96b3-b94b-f93e306a66a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249112(v=office.15)
 ms:contentKeyID: 48544132
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 741af18a187b5a77268e376fb339394e065c28b0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c6f4d156b8b0f818fea98646e6fe88eff5292d38
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462237"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863007"
 ---
-# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="7a7e9-102">Exemplo dos Métodos Open e Close (VC++)</span><span class="sxs-lookup"><span data-stu-id="7a7e9-102">Open and Close Methods Example (VC++)</span></span>
+# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="ad358-102">Exemplo dos métodos Open e Close (VC++)</span><span class="sxs-lookup"><span data-stu-id="ad358-102">Open and Close methods example (VC++)</span></span>
 
 
-<span data-ttu-id="7a7e9-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a7e9-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ad358-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad358-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7a7e9-104">Este exemplo utiliza os métodos **Open** e [Close](close-method-ado.md) nos objetos [Recordset](recordset-object-ado.md) e [Connection](connection-object-ado.md) que foram abertos.</span><span class="sxs-lookup"><span data-stu-id="7a7e9-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="ad358-104">Este exemplo utiliza os métodos **Open** e [Close](close-method-ado.md) nos objetos [Recordset](recordset-object-ado.md) e [Connection](connection-object-ado.md) que foram abertos.</span><span class="sxs-lookup"><span data-stu-id="ad358-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
 ```cpp 
  
@@ -218,7 +218,7 @@ void PrintComError(_com_error &e)
 // EndOpenCpp 
 ```
 
-<span data-ttu-id="7a7e9-105">**OpenX.h**</span><span class="sxs-lookup"><span data-stu-id="7a7e9-105">**OpenX.h**</span></span>
+<span data-ttu-id="ad358-105">**OpenX.h**</span><span class="sxs-lookup"><span data-stu-id="ad358-105">**OpenX.h**</span></span>
 
 ```cpp 
  

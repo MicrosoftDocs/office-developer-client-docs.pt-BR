@@ -1,24 +1,24 @@
 ---
-title: Exemplo do Método OpenSchema (VB)
-TOCTitle: OpenSchema Method Example (VB)
+title: Exemplo do método OpenSchema (VB)
+TOCTitle: OpenSchema method example (VB)
 ms:assetid: 02fe101a-c2df-6454-2cca-f5833e60fc03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88711f64be99900369f79cc0787d3db973e32104
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d9aeb21136a704bc327c9f82dd07fc310b8705e1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464602"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862699"
 ---
-# <a name="openschema-method-example-vb"></a><span data-ttu-id="e0130-102">Exemplo do Método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="e0130-102">OpenSchema Method Example (VB)</span></span>
+# <a name="openschema-method-example-vb"></a><span data-ttu-id="ebb63-102">Exemplo do método OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="ebb63-102">OpenSchema method example (VB)</span></span>
 
 
-<span data-ttu-id="e0130-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0130-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ebb63-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ebb63-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e0130-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="e0130-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="ebb63-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="ebb63-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```vb 
  
@@ -75,7 +75,7 @@ End Sub
 'EndOpenSchemaVB 
 ```
 
-<span data-ttu-id="e0130-105">Este exemplo especifica uma tabela\_restrição de tipo de consulta no método **OpenSchema** argumento ***Criteria*** .</span><span class="sxs-lookup"><span data-stu-id="e0130-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="e0130-106">Como resultado, somente as informações de esquema para os modos de exibição especificado no banco de dados ***Pubs*** são retornadas.</span><span class="sxs-lookup"><span data-stu-id="e0130-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="e0130-107">Em seguida, o exemplo exibe o(s) nome(s) e o(s) tipo(s) de cada tabela.</span><span class="sxs-lookup"><span data-stu-id="e0130-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
+<span data-ttu-id="ebb63-105">Este exemplo especifica uma tabela\_restrição de tipo de consulta no método **OpenSchema** argumento ***Criteria*** .</span><span class="sxs-lookup"><span data-stu-id="ebb63-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="ebb63-106">Como resultado, somente as informações de esquema para os modos de exibição especificado no banco de dados ***Pubs*** são retornadas.</span><span class="sxs-lookup"><span data-stu-id="ebb63-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="ebb63-107">Em seguida, o exemplo exibe o(s) nome(s) e o(s) tipo(s) de cada tabela.</span><span class="sxs-lookup"><span data-stu-id="ebb63-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
 
 ```vb 
  

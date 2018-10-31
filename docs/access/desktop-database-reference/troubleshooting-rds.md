@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d95af128b9b0d44c69399fd8b15180b70207c6bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1767f3569cb9b58936e01bcd8b0350f374899f2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463701"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862272"
 ---
-# <a name="troubleshooting-rds"></a><span data-ttu-id="0030f-102">Solucionando problemas do RDS</span><span class="sxs-lookup"><span data-stu-id="0030f-102">Troubleshooting RDS</span></span>
+# <a name="troubleshooting-rds"></a><span data-ttu-id="89e2e-102">Solução de problemas do RDS</span><span class="sxs-lookup"><span data-stu-id="89e2e-102">Troubleshooting RDS</span></span>
 
 
-<span data-ttu-id="0030f-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0030f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="89e2e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="89e2e-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="0030f-p101">Consulte esta seção para obter soluções para erros ou problemas específicos com o RDS. Os problemas abordados nesta seção são:</span><span class="sxs-lookup"><span data-stu-id="0030f-p101">Refer to this section for solutions to specific errors or issues with RDS. The issues discussed in this section are:</span></span>
+<span data-ttu-id="89e2e-104">Consulte esta seção para obter soluções para problemas com o RDS ou erros específicos:</span><span class="sxs-lookup"><span data-stu-id="89e2e-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
 
-  - [<span data-ttu-id="0030f-106">Configurando o RDS no Windows 2000</span><span class="sxs-lookup"><span data-stu-id="0030f-106">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
+- [<span data-ttu-id="89e2e-105">Configurando o RDS no Windows 2000</span><span class="sxs-lookup"><span data-stu-id="89e2e-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
 
-  - [<span data-ttu-id="0030f-107">"Erro no servidor da Internet: acesso negado"</span><span class="sxs-lookup"><span data-stu-id="0030f-107">"Internet Server Error: Access Denied"</span></span>](internet-server-error-access-denied.md)
+- [<span data-ttu-id="89e2e-106">Erro do servidor de Internet: Acesso negado</span><span class="sxs-lookup"><span data-stu-id="89e2e-106">Internet Server Error: Access Denied</span></span>](internet-server-error-access-denied.md)
 
-  - [<span data-ttu-id="0030f-108">O RDS retorna o erro "Stream não lido"</span><span class="sxs-lookup"><span data-stu-id="0030f-108">RDS Returns "Stream Not Read" Error</span></span>](rds-returns-stream-not-read-error.md)
+- [<span data-ttu-id="89e2e-107">O RDS retorna o erro "Stream não lido"</span><span class="sxs-lookup"><span data-stu-id="89e2e-107">RDS Returns "Stream Not Read" Error</span></span>](rds-returns-stream-not-read-error.md)
 
-  - [<span data-ttu-id="0030f-109">Conflitos com a leitura do nível de isolamento repetido</span><span class="sxs-lookup"><span data-stu-id="0030f-109">Deadlocks With Read Repeatable Isolation Level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
+- [<span data-ttu-id="89e2e-108">Conflitos com a leitura do nível de isolamento repetido</span><span class="sxs-lookup"><span data-stu-id="89e2e-108">Deadlocks With Read Repeatable Isolation Level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
 
-  - [<span data-ttu-id="0030f-110">Garantindo espaço suficiente em TempDB</span><span class="sxs-lookup"><span data-stu-id="0030f-110">Ensuring Sufficient TempDB Space</span></span>](ensuring-sufficient-tempdb-space.md)
+- [<span data-ttu-id="89e2e-109">Garantindo espaço suficiente em TempDB</span><span class="sxs-lookup"><span data-stu-id="89e2e-109">Ensuring Sufficient TempDB Space</span></span>](ensuring-sufficient-tempdb-space.md)
 
-  - [<span data-ttu-id="0030f-111">Minimizando o uso do espaço do arquivo de log</span><span class="sxs-lookup"><span data-stu-id="0030f-111">Minimizing Log File Space Usage</span></span>](minimizing-log-file-space-usage.md)
+- [<span data-ttu-id="89e2e-110">Minimizando o uso do espaço do arquivo de log</span><span class="sxs-lookup"><span data-stu-id="89e2e-110">Minimizing Log File Space Usage</span></span>](minimizing-log-file-space-usage.md)
 
