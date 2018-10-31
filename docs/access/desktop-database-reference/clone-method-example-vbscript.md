@@ -1,19 +1,19 @@
 ---
-title: Exemplo do Método Clone (VBScript)
-TOCTitle: Clone Method Example (VBScript)
+title: Exemplo do método Clone (VBScript)
+TOCTitle: Clone method example (VBScript)
 ms:assetid: b9d49eb9-8da8-dfd2-1c59-35ac70969850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce2d2445b6d958f993c419ac9296192bb9dcc0aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 503e73f2b40450ff230a0888352ac203fc79eabd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464825"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864050"
 ---
-# <a name="clone-method-example-vbscript"></a>Exemplo do Método Clone (VBScript)
+# <a name="clone-method-example-vbscript"></a>Exemplo do método Clone (VBScript)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

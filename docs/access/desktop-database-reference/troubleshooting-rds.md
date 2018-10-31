@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d95af128b9b0d44c69399fd8b15180b70207c6bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1767f3569cb9b58936e01bcd8b0350f374899f2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463701"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862272"
 ---
-# <a name="troubleshooting-rds"></a>Solucionando problemas do RDS
+# <a name="troubleshooting-rds"></a>Solução de problemas do RDS
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-Consulte esta seção para obter soluções para erros ou problemas específicos com o RDS. Os problemas abordados nesta seção são:
+Consulte esta seção para obter soluções para problemas com o RDS ou erros específicos:
 
-  - [Configurando o RDS no Windows 2000](configuring-rds-on-windows-2000.md)
+- [Configurando o RDS no Windows 2000](configuring-rds-on-windows-2000.md)
 
-  - ["Erro no servidor da Internet: acesso negado"](internet-server-error-access-denied.md)
+- [Erro do servidor de Internet: Acesso negado](internet-server-error-access-denied.md)
 
-  - [O RDS retorna o erro "Stream não lido"](rds-returns-stream-not-read-error.md)
+- [O RDS retorna o erro "Stream não lido"](rds-returns-stream-not-read-error.md)
 
-  - [Conflitos com a leitura do nível de isolamento repetido](deadlocks-with-read-repeatable-isolation-level.md)
+- [Conflitos com a leitura do nível de isolamento repetido](deadlocks-with-read-repeatable-isolation-level.md)
 
-  - [Garantindo espaço suficiente em TempDB](ensuring-sufficient-tempdb-space.md)
+- [Garantindo espaço suficiente em TempDB](ensuring-sufficient-tempdb-space.md)
 
-  - [Minimizando o uso do espaço do arquivo de log](minimizing-log-file-space-usage.md)
+- [Minimizando o uso do espaço do arquivo de log](minimizing-log-file-space-usage.md)
 

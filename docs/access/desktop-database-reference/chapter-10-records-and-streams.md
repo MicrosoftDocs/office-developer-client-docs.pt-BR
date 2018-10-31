@@ -1,19 +1,19 @@
 ---
-title: 'Capítulo 10: Records e Streams'
+title: 'Capítulo 10: Registros e fluxos'
 TOCTitle: 'Chapter 10: Records and Streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4cdc7bbbaad7242ddbe2c4992395e6c4e0477504
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 92d0eafcb1930e7aa7014e3b120b34e2a8d64231
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463585"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864079"
 ---
-# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Records e Streams
+# <a name="chapter-10-records-and-streams"></a>Capítulo 10: Registros e fluxos
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -52,3 +52,12 @@ Um objeto **Stream** pode ser aberto em:
 
   - Um campo BLOB em um **Recordset**.
 
+Este capítulo aborda os seguintes tópicos:
+
+- [Fluxos e persistência](streams-and-persistence.md)
+
+- [Campos fornecidos pelo provedor e registros](records-and-provider-supplied-fields.md)
+
+- [URLs absolutas e relativas](absolute-and-relative-urls.md)
+
+- [Usando o ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)

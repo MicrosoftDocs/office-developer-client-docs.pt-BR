@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d896036bfcf1fcf8c9f152924dfeb0c61621daa9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 691b4d0b18b31c4c4a40f73e232a1829101913f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603067"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863273"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Método Field.GetChunk (DAO)
 
@@ -64,7 +64,7 @@ Retorna o conteúdo no todo ou em parte de um objeto ****Field**** [Memo](field-
 </table>
 
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ### <a name="return-value"></a>Valor retornado
 =======
 ### <a name="return-value"></a>Valor de retorno
@@ -82,7 +82,7 @@ Se numbytes for maior que o número de bytes em um campo, **GetChunk** retornar�
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Use um campo <STRONG>Memo</STRONG> para texto e coloque apenas dados binários em campos <STRONG>Long Binary</STRONG>. De outra forma, serão gerados resultados indesejados.</P>
+> [!OBSERVAçãO] Use um campo **Memo** para texto e coloque apenas dados binários em campos **Long Binary**. De outra forma, serão gerados resultados indesejados.
 
 
 

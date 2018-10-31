@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36d7bf1b39186eca841e417473e31e2bfd3a2dfc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1779f2c7e16e2f39a3912f271296c6a7bd0fd550
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462427"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861943"
 ---
 # <a name="using-the-command-object-access"></a>Usando o objeto Command (Access)
 
@@ -24,8 +24,17 @@ Você pode usar o objeto **Command** para solicitar qualquer tipo de operação 
 
 Nem sempre é necessário criar um objeto **Command** para executar um comando em uma fonte de dados. Você pode usar o método **Execute** no objeto **Connection** ou o método **Open** no objeto **Recordset**. Contudo, você deveria usar um objeto **Command** se precisar usar novamente um comando em seu código ou se precisar transmitir informações detalhadas sobre o parâmetro com seu comando. Esses cenários são abordados em detalhes posteriormente neste capítulo.
 
-
 > [!NOTE]
-> <P>Determinados <STRONG>Command</STRONG>s podem retornar um resultado como um fluxo binário ou como um único <STRONG>Record</STRONG> em vez de um <STRONG>Recordset</STRONG> se houver suporte para isso pelo provedor. Além disso, alguns <STRONG>Command</STRONG>s não são destinados a retornar qualquer conjunto de resultados (por exemplo, uma consulta SQL Update). Este capítulo abordará o cenário mais comum, contudo executando <STRONG>Command</STRONG>s que retornam resultados em um objeto <STRONG>Recordset</STRONG>. Para obter mais informações sobre o retorno de resultados em  <STRONG>Record</STRONG>s ou <STRONG>Stream</STRONG>s, consulte <A href="chapter-10-records-and-streams.md">Capítulo 10: Records e Streams</A>.</P>
+> Determinados comandos podem retornar um resultado definido como um fluxo binário ou como um único registro e não como um Recordset, se isso for suportado pelo provedor. Além disso, alguns comandos não visam retornar qualquer resultado definido em todos os (por exemplo, uma consulta SQL Update). Este capítulo abordará o cenário mais comum, no entanto: executar comandos que retornam resultados em um objeto Recordset. Para obter mais informações sobre como retornar resultados em registros ou fluxos, consulte [Capítulo 10: Records e Streams](chapter-10-records-and-streams.md).
 
+Esta seção inclui os seguintes tópicos:
 
+- [Visão geral do objeto Command](command-object-overview.md)
+
+- [Criação e execução de um comando simples](creating-and-executing-a-simple-command.md)
+
+- [Parâmetros do objeto Command](command-object-parameters.md)
+
+- [Chamada de um procedimento armazenado com um comando](calling-a-stored-procedure-with-a-command.md)
+
+- [Comandos nomeados](named-commands.md)

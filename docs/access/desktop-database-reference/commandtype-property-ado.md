@@ -5,7 +5,7 @@
 - Office.Version=v15
 ---
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 # <a name="commandtype-property-ado"></a>Propriedade CommandType (ADO)
 =======
 # <a name="commandtype-property-ado"></a>Propriedade CommandType (ADO)
@@ -16,7 +16,7 @@
 
 Indica o tipo de um objeto [Command](command-object-ado.md).
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configurações e valor de retorno
 =======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
@@ -24,10 +24,8 @@ Indica o tipo de um objeto [Command](command-object-ado.md).
 
 Define ou retorna um ou mais valores [CommandTypeEnum](commandtypeenum.md).
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Não use valores <STRONG>CommandTypeEnum</STRONG> de <STRONG>adCmdFile</STRONG> ou <STRONG>adCmdTableDirect</STRONG> com <STRONG>CommandType</STRONG>. Esses valores podem ser usados somente como opções com os métodos <A href="open-method-ado-recordset.md">Open</A> e <A href="requery-method-ado.md">Requery</A> de um <A href="recordset-object-ado.md">Recordset</A>.</P>
-
+> [!OBSERVAçãO] Não use valores **CommandTypeEnum** de **adCmdFile** ou **adCmdTableDirect** com **CommandType**. Esses valores podem ser usados somente como opções com os métodos [Open](open-method-ado-recordset.md) e [Requery](requery-method-ado.md) de um [Recordset](recordset-object-ado.md).
 
 
 ## <a name="remarks"></a>Comentários

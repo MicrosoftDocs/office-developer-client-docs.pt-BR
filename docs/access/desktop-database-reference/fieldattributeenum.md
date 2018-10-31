@@ -4,21 +4,22 @@ TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
 ms:contentKeyID: 48543967
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 75644308b1af0dd4c6e3b40b2bd6b1c7461f928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbfc4a45b3a85704fe8c9e6a7b984456ac783b35
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464809"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864078"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -119,7 +120,7 @@ Especifica um ou mais atributos de um objeto [Field](field-object-ado.md).
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

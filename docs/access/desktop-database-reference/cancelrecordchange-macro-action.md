@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195846(v=office.15)
 ms:contentKeyID: 48545626
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8fe474f9ba7250e3225bc73460c6d192800c861b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ddf6a6eb71d60fb98d92a9ce18bfd871f298f702
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463491"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864204"
 ---
 # <a name="cancelrecordchange-macro-action"></a>Ação de macro CancelarAlteraçãodeRegistro
 
@@ -22,7 +22,7 @@ Você pode usar a ação **CancelarAlteraçãodeRegistro** para cancelar altera�
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] A ação <STRONG>CancelarAlteraçãodeRegistro</STRONG> está disponível somente em Macros de Dados.</P>
+> [!OBSERVAçãO] A ação **CancelarAlteraçãodeRegistro** está disponível somente em Macros de Dados.
 
 
 

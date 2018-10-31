@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 301fce8bcdeff45135c305054da72f4c75f503eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462564"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862888"
 ---
 # <a name="transfersqldatabase-macro-action"></a>Ação da macro TransferirBancoDeDadosSQL
 
@@ -26,7 +26,7 @@ Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** 
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 
 

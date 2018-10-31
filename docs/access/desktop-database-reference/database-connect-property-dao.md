@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823048(v=office.15)
 ms:contentKeyID: 48547578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ccc238940ec75b04cf900fbc6604df7b41d2ca4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b497e2859b265f5bb939fdd2b4913a54fdf2d170
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864196"
 ---
 # <a name="databaseconnect-property-dao"></a>Propriedade Database.Connect (DAO)
 
@@ -159,10 +159,7 @@ Você pode definir a propriedade **Connect** para um objeto de **banco de dados*
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Você deve definir a propriedade <STRONG>Connect</STRONG> antes de definir a propriedade <STRONG>ReturnsRecords</STRONG>.</P>
-> <LI>
-> <P>Você deve ter permissão de acesso ao computador que contém o servidor de banco de dados que está tentando acessar.</P></LI></UL>
+> - Você deve definir a propriedade **Connect** antes de definir a propriedade **ReturnsRecords**.
+> - Você deve ter permissão de acesso ao computador que contém o servidor de banco de dados que está tentando acessar.
 
 

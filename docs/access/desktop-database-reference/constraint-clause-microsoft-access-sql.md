@@ -1,10 +1,10 @@
 ---
 title: Cláusula CONSTRAINT (Microsoft Access SQL)
-TOCTitle: CONSTRAINT Clause (Microsoft Access SQL)
+TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
 ms:contentKeyID: 48548797
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277561
@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7b26033c8026591c87e4d0f9e077380862e39f16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 87870d824f9e26f601529bc60b737f1e46b12960
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462203"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863000"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>Cláusula CONSTRAINT (Microsoft Access SQL)
 
@@ -27,17 +27,16 @@ Uma restrição é semelhante a um índice, embora possa ser usada para estabele
 
 Use a cláusula CONSTRAINT em instruções [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) e [CREATE TABLE](create-table-statement-microsoft-access-sql.md) para criar ou excluir restrições. Existem dois tipos de cláusula CONSTRAINT: uma para criação de uma restrição em um campo único e outra para criação de mais de um campo.
 
-
 > [!NOTE]
-> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não suporta o uso de CONSTRAINT ou de nenhuma das instruções DDL (Data Definition Language) com bancos de dados do mecanismo de bancos de dados de terceiros. Em vez disso, use os métodos Criar do DAO.
+> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não suporta o uso de CONSTRAINT ou de nenhuma das instruções DDL (Data Definition Language) com bancos de dados do mecanismo de bancos de dados de terceiros. Use os métodos DAO **criar** .
 
 ## <a name="syntax"></a>Sintaxe
 
-Restrição de campo único:
+**Restrição de campo único**:
 
 O *nome* da restrição {chave primária | EXCLUSIVO | NOT NULL | REFERENCES *foreigntable* \[(*foreignfield1, foreignfield2*)\] \[ON UPDATE CASCADE | Definir NULL\] \[ON DELETE CASCADE | Definir NULL\]}
 
-Restrição de vários campos:
+**Restrição de vários campos**:
 
 O *nome* da restrição {chave primária (*primary1*\[, *primary2* \[,... \]\]) | EXCLUSIVO (*unique1*\[, *unique2* \[,... \]\]) | NOT NULL (*notnull1*\[, *notnull2* \[,... \]\]) | CHAVE estrangeira \[nenhum índice\] (*ref1*\[, *ref2* \[,... \] \]) REFERENCES *foreigntable* \[(*foreignfield1* \[, *foreignfield2* \[,... \] \])\] \[ON UPDATE CASCADE | Definir NULL\] \[ON DELETE CASCADE | Definir NULL\]}
 

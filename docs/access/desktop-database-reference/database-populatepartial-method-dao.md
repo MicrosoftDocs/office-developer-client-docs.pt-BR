@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11c999fcac3b77ddc4eeb9ef8f4414a5f8aa1559
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fa52050e91c1a291dd59f9cde1ea36c320406dd6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462892"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860263"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Método Database.PopulatePartial (DAO)
 
@@ -52,7 +52,7 @@ Sincroniza as alterações em uma réplica parcial com a réplica completa, limp
 <tr class="odd">
 <td><p>DbPathName</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho e o nome da réplica completa a partir da qual os registros serão preenchidos.</p></td>
 </tr>
 </tbody>
@@ -79,7 +79,7 @@ O método **PopulatePartial** pode ser invocado apenas em uma réplica parcial q
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Embora <STRONG>PopulatePartial</STRONG> execute uma sincronização de mão única antes de limpar e preencher novamente a réplica parcial, ainda é uma boa ideia chamar <STRONG>Synchronize</STRONG> antes de chamar <STRONG>PopulatePartial</STRONG>. Isso ocorre porque se a chamada de <STRONG>Synchronize</STRONG> falhar, ocorrerá um erro interceptável. Você pode usar esse erro para decidir prosseguir ou não com o método <STRONG>PopulatePartial</STRONG> (o que remove todos os registros da réplica parcial). Se <STRONG>PopulatePartial</STRONG> for chamado por si mesmo e ocorrer um erro enquanto os registros estiverem sendo sincronizados, os registros da réplica parcial ainda serão limpos, o que pode não ser o resultado desejado.</P>
+> [!OBSERVAçãO] Embora **PopulatePartial** execute uma sincronização de mão única antes de limpar e preencher novamente a réplica parcial, ainda é uma boa ideia chamar **Synchronize** antes de chamar **PopulatePartial**. Isso ocorre porque se a chamada de **Synchronize** falhar, ocorrerá um erro interceptável. Você pode usar esse erro para decidir prosseguir ou não com o método **PopulatePartial** (o que remove todos os registros da réplica parcial). Se **PopulatePartial** for chamado por si mesmo e ocorrer um erro enquanto os registros estiverem sendo sincronizados, os registros da réplica parcial ainda serão limpos, o que pode não ser o resultado desejado.
 
 
 

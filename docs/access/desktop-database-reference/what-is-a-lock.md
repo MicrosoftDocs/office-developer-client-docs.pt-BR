@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f852901be41060568bdbad539906e9166d080fad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d37d5b618db5e2de698fc4250afde7c4ca5fb5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862181"
 ---
-# <a name="what-is-a-lock"></a>O que é um bloqueio?
+# <a name="what-is-a-lock"></a>O que é um Bloqueio?
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -31,4 +31,8 @@ Os provedores não podem oferecer suporte a todos os tipos de bloqueio. Se um pr
 Não há suporte para a configuração **adLockPessimistic** se a propriedade [CursorLocation](cursorlocation-property-ado.md) for definida como **adUseClient**. Se um valor sem suporte for definido, nenhum erro ocorrerá; o **LockType** suportado mais próximo será usado.
 
 A propriedade **LockType** é de leitura/gravação quando o **Recordset** está fechado e somente leitura quando está aberto.
+
+Esta seção inclui o seguinte tópico:
+
+- [Tipos de bloqueios](types-of-locks.md)
 

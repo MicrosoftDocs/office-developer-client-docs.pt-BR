@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d01ba185112bc396181dfe7f5e45df2f082d191
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b534d4595bd003c76e756c44d6e88f53a725cc8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464172"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861782"
 ---
 # <a name="dbengine-members-dao"></a>Membros de DBEngine (DAO)
 
@@ -63,7 +63,7 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 <p>Abre um objeto <strong><a href="connection-object-dao.md">Connection</a></strong> em uma fonte de dados ODBC (apenas espaços de trabalho ODBCDirect).</p></td>

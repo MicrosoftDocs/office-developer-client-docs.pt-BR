@@ -1,10 +1,10 @@
 ---
 title: Instrução UPDATE (Microsoft Access SQL)
-TOCTitle: UPDATE Statement (Microsoft Access SQL)
+TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
 ms:contentKeyID: 48543111
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277583
@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3affce9346e9e322bc588ca1c3be24867a1469d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7a761fbc6404cf72818271b956bfc63516942d25
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463192"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863280"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>Instrução UPDATE (Microsoft Access SQL)
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
@@ -75,12 +74,9 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>UPDATE não gerar um conjunto de resultados. Além disso, depois de atualizar registros utilizando uma consulta de atualização, você não poderá desfazer a operação. Se você quiser saber quais registros foram atualizados, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de atualização.</P>
-> <LI>
-> <P>Sempre faça cópias de backup dos dados. Se você atualizar registros erroneamente, será possível recuperá-los das cópias de backup.
-</P></LI></UL>
+- UPDATE não gerar um conjunto de resultados. Além disso, depois de atualizar registros utilizando uma consulta de atualização, você não poderá desfazer a operação. Se você quiser saber quais registros foram atualizados, primeiro examine os resultados de uma consulta de seleção que use os mesmos critérios e, em seguida, execute a consulta de atualização.
+- Sempre faça cópias de backup dos dados. Se você atualizar registros erroneamente, será possível recuperá-los das cópias de backup.
+
 
 
 

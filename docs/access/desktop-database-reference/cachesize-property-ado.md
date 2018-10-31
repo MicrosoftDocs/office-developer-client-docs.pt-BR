@@ -3,7 +3,7 @@
 >>>>>>> ms:assetid de mestre: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15) ms:contentKeyID: ms.date 48544491: 18/09/2015 mtps_version: v=office.15
 ---
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 # <a name="cachesize-property-ado"></a>Propriedade CacheSize (ADO)
 =======
 # <a name="cachesize-property-ado"></a>Propriedade CacheSize (ADO)
@@ -14,7 +14,7 @@
 
 Indica o número de registros de um objeto [Recordset](recordset-object-ado.md) que ficam armazenados em cache localmente na memória.
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configurações e valor de retorno
 =======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
@@ -26,11 +26,8 @@ Define ou retorna um valor **Long** que deve ser maior do que 0. O padrão é 1.
 
 Use a propriedade **CacheSize** para controlar a quantidade de registros a serem recuperados de uma vez, do provedor para a memória local. Por exemplo, se **CacheSize** for 10, após a abertura inicial do objeto **Recordset**, o provedor irá recuperar os 10 primeiros registros para a memória local. À medida que você se movimentar pelo objeto **Recordset**, o provedor retornará os dados do buffer de memória local. Assim que você passar pelo último registro armazenado em cache, o provedor irá recuperar os 10 registros seguintes da fonte de dados para o cache.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] <STRONG>CacheSize</STRONG> baseia-se na propriedade <STRONG>Maximum Open Rows</STRONG> específica do provedor (na coleção <STRONG>Properties</STRONG> do objeto <STRONG>Recordset</STRONG> ). Não é possível definir <STRONG>CacheSize</STRONG> para um valor maior do que <STRONG>Maximum Open Rows</STRONG>. Para modificar o número de linhas que podem ser abertas pelo provedor, defina <STRONG>Maximum Open Rows</STRONG>.</P>
-
-
+> [!OBSERVAçãO] **CacheSize** baseia-se na propriedade **Maximum Open Rows** específica do provedor (na coleção **Properties** do objeto **Recordset** ). Não é possível definir **CacheSize** para um valor maior do que **Maximum Open Rows**. Para modificar o número de linhas que podem ser abertas pelo provedor, defina **Maximum Open Rows**.
 
 O valor de **CacheSize** pode ser ajustado enquanto o objeto **Recordset** durar, mas a alteração desse valor afetará apenas o número de registros no cache após recuperações subsequentes da fonte de dados. A alteração do valor da propriedade apenas não alterará o conteúdo atual do cache.
 

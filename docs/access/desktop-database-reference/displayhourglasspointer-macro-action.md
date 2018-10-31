@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003fb36fc876aa573419b963a9eca6f54332190a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 725bb4530bffe9aeead327caa74cdba0798c181d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463644"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862650"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>Ação de macro ExibirPonteirodeAmpulheta
 
@@ -54,15 +54,9 @@ Normalmente você usa esta ação se desativou o eco usando a ação **Eco**. Qu
 
 O Access redefine automaticamente o argumento **Ampulheta Ativa** como **Não** quando a execução da macro é concluída.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>No Microsoft Windows, este é o ícone definido para <STRONG>Ocupado</STRONG> na caixa de diálogo <STRONG>Propriedades do Mouse</STRONG> do Painel de Controle do Windows. O padrão para todos os sistemas operacionais Windows é um ícone de ampulheta animado.</P>
-> <LI>
-> <P>É possível escolher outro ícone.</P></LI></UL>
-
-
+> - No Microsoft Windows, este é o ícone definido para **Ocupado** na caixa de diálogo **Propriedades do Mouse** do Painel de Controle do Windows. O padrão para todos os sistemas operacionais Windows é um ícone de ampulheta animado.
+> - É possível escolher outro ícone.
 
 Para executar a ação **ExibirPonteirodeAmpulheta** em um módulo do VBA (Visual Basic for Applications), use o método **Ampulheta** do objeto **DoCmd**.
 

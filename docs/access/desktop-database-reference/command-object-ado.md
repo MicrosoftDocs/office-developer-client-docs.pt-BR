@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605741"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864071"
 ---
 # <a name="command-object-ado"></a>Objeto Command (ADO)
 
@@ -34,7 +34,7 @@ Com as coleções, os métodos e as propriedades de um objeto **Command**, você
 
   - Definir consultas com parâmetros ou argumentos de procedimentos armazenados usando objetos [Parameter](parameter-object-ado.md) e a coleção [Parameters](parameters-collection-ado.md).
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - Executar um comando e retornar um objeto **Recordset**, se for adequado, com o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)).
 =======
   - Executar um comando e retornar um objeto **Recordset**, se for adequado, com o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
@@ -54,11 +54,8 @@ Com as coleções, os métodos e as propriedades de um objeto **Command**, você
 
   - Acessar os atributos específicos do provedor com a coleção [Properties](properties-collection-ado.md).
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para executar uma consulta sem usar um objeto <STRONG>Command</STRONG>, passe uma sequência de consulta para o método <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</A> de um objeto <STRONG>Connection</STRONG> ou para o método <A href="open-method-ado-recordset.md">Open</A> de um objeto <STRONG>Recordset</STRONG>. No entanto, um objeto <STRONG>Command</STRONG> será necessário quando você quiser insistircom o texto de comando e reexecutá-lo ou usar os parâmetros de consulta.</P>
-
-
+> [!OBSERVAçãO] Para executar uma consulta sem usar um objeto **Command**, passe uma sequência de consulta para o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) de um objeto **Connection** ou para o método [Open](open-method-ado-recordset.md) de um objeto **Recordset**. No entanto, um objeto **Command** será necessário quando você quiser insistircom o texto de comando e reexecutá-lo ou usar os parâmetros de consulta.
 
 Para criar um objeto **Command**, de forma independente, de um objeto **Connection** definido anteriormente, defina a propriedade **ActiveConnection** como uma sequência de conexão válida. O ADO ainda criará um objeto **Connection**, mas não atribuirá esse objeto a uma variável de objeto. No entanto, se você estiver associando vários objetos **Command** com a mesma conexão, deverá criar e abrir, de forma explícita, um objeto **Connection**; isso atribui o objeto **Connection** a uma variável de objeto. Se você não definir a propriedade **ActiveConnection** do objeto **Command** para esta variável de objeto, o ADO criará um novo objeto **Connection** para cada objeto **Command**, mesmo se você usar a mesma sequência de conexão.
 

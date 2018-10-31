@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f64f3b04df989348173ad2fc975dcefbd1114b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 727634356a08646b1e2757996cc6bf071de07353
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462431"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861572"
 ---
 # <a name="append-method-adox-columns"></a>Método Append (Colunas do ADOX)
 
@@ -40,6 +40,6 @@ Adiciona um novo objeto [Column](column-object-adox.md) à coleção [Columns](c
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Ocorrerá um erro ao anexar uma <STRONG>Coluna</STRONG> à coleção <STRONG>Columns</STRONG> de um <A href="index-object-adox.md">Índice</A>, se a <STRONG>Coluna</STRONG> não existir em uma <A href="table-object-adox.md">Tabela</A> que já esteja anexada à coleção <A href="tables-collection-adox.md">Tables</A>.</P>
+> [!OBSERVAçãO] Ocorrerá um erro ao anexar uma **Coluna** à coleção **Columns** de um [Índice](index-object-adox.md), se a **Coluna** não existir em uma [Tabela](table-object-adox.md) que já esteja anexada à coleção [Tables](tables-collection-adox.md).
 
 

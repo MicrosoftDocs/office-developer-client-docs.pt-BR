@@ -6,22 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4442d63dc0e99585966a104ce280bdb0ea836699
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 137f36285a79b45294d680fb31f6e928ee5e68fc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462357"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860557"
 ---
-# <a name="using-related-technologies-with-rds"></a>Usando tecnologias relacionadas com o RDS
+# <a name="using-related-technologies-with-rds"></a>Uso de tecnologias relacionadas com o RDS
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Esta seção contém informações específicas sobre o uso do RDS com aspectos das seguintes tecnologias:
 
-  - [Usando o RDS com o ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
+- [Usando o RDS com o ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
 
-  - [Executar objetos corporativos nos serviços de componente](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Executar objetos corporativos nos serviços de componente](running-business-objects-in-component-services.md)
 
 **Serviços de informações da Internet** Para obter mais informações sobre os serviços de informações da Internet (IIS) da Microsoft, consulte o site do Microsoft Internet Information Services.
 

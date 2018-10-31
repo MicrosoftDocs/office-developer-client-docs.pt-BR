@@ -4,21 +4,22 @@ TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3ffb2ab2abbd24a19ddc433b5fd315dd535fd2a0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e1bd4d86e6e269c9363daca0ffa7b8df6303326
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463197"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863665"
 ---
 # <a name="affectenum"></a>AffectEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica quais registros foram afetados por uma operação.
+
+<br/>
 
 <table>
 <colgroup>
@@ -38,12 +39,8 @@ Especifica quais registros foram afetados por uma operação.
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
 <td><p>Se não houver um <a href="filter-property-ado.md">Filter</a> aplicado ao <strong>Recordset</strong>, afeta todos os registros.
- Se a propriedade <strong>Filter</strong> estiver definida como um critério de sequência (como &quot;Author = 'Smith'&quot;), a operação afetará os registros visíveis no capítulo atual. Se a propriedade <strong>Filter</strong> estiver definida como um membro do <a href="filtergroupenum.md">FilterGroupEnum</a> ou uma matriz de Indicadores, a operação afetará todas as linhas do <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> <P>adAffectAll está oculto no Visual Basic Object Browser.</P>
-
-
+ Se a propriedade <strong>Filter</strong> estiver definida como um critério de sequência (como &quot;Author = 'Smith'&quot;), a operação afetará os registros visíveis no capítulo atual. Se a propriedade <strong>Filter</strong> estiver definida como membro do <a href="filtergroupenum.md">FilterGroupEnum</a> ou uma matriz de indicadores, a operação afetará todas as linhas do <strong>Recordset</strong>.</p>
+<p><strong>Observação</strong>: adAffectAll está oculto no Visual Basic Object Browser.</p>
 </td>
 </tr>
 <tr class="even">
@@ -65,7 +62,7 @@ Especifica quais registros foram afetados por uma operação.
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

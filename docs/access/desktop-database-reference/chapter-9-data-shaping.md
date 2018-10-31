@@ -1,19 +1,19 @@
 ---
-title: 'Capítulo 9: Data shaping'
+title: 'Capítulo 9: Data Shaping'
 TOCTitle: 'Chapter 9: Data Shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8217be1004ea8304501e7d32908b8af269873b7a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4636c853f58557b30474b78d902131329084a1a2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464485"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863882"
 ---
-# <a name="chapter-9-data-shaping"></a>Capítulo 9: Data shaping
+# <a name="chapter-9-data-shaping"></a>Capítulo 9: Data Shaping
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -24,21 +24,21 @@ A sintaxe do data shaping também permite outras possibilidades. Os desenvolvedo
 
 Consulte os tópicos a seguir para saber mais sobre o data shaping:
 
-  - [Resumo do data shaping](data-shaping-summary.md)
+- [Provedores necessários para o data shaping](required-providers-for-data-shaping.md)
 
-  - [Provedores necessários para o data shaping](required-providers-for-data-shaping.md)
+- [Cláusula Compute de forma](shape-compute-clause.md)
 
-  - [Comandos shape em geral](shape-commands-in-general.md)
+- [Criando conjuntos de registros hierárquicos](fabricating-hierarchical-recordsets.md)
 
-  - [Cláusula Shape APPEND](shape-append-clause.md)
+- [Acessando linhas em um conjunto de registros hierárquico](accessing-rows-in-a-hierarchical-recordset.md)
 
-  - [Cláusula COMPUTE de forma](shape-compute-clause.md)
+- [Gramática formal de shape](formal-shape-grammar.md)
 
-  - [Criando conjuntos de registros hierárquicos](fabricating-hierarchical-recordsets.md)
+- [Visual Basic para funções de aplicativos](visual-basic-for-applications-functions.md)
 
-  - [Acessando linhas em um conjunto de registros hierárquico](accessing-rows-in-a-hierarchical-recordset.md)
+- [(ADO) da cláusula Shape Append](shape-append-clause.md)
 
-  - [Gramática formal de shape](formal-shape-grammar.md)
+- [Data Shaping (ADO)](data-shaping.md)
 
-  - [Funções do Visual Basic for Applications](visual-basic-for-applications-functions.md)
+- [Comandos Shape em geral (ADO)](shape-commands-in-general.md)
 

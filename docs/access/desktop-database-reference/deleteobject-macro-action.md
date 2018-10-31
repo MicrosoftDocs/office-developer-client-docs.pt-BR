@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85e9fc888e06a69be6f458ed03ad92b8253b30a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463465"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860935"
 ---
 # <a name="deleteobject-macro-action"></a>Ação de macro ExcluirObjeto
 
@@ -26,9 +26,7 @@ Você pode usar a ação **ExcluirObjeto** para excluir um objeto de banco de da
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 ## <a name="setting"></a>Configuração
 
@@ -60,7 +58,7 @@ A ação **ExcluirObjeto** tem os seguintes argumentos.
 
 
 > [!WARNING]
-> <P>[!CUIDADO] Se você deixar as caixas <STRONG>Tipo de Objeto</STRONG> e <STRONG>Nome do Objeto</STRONG> em branco, o Access excluirá o objeto selecionado no Painel de Navegação sem exibir uma mensagem de aviso ao encontrar a ação <STRONG>ExcluirObjeto</STRONG>.</P>
+> [!CUIDADO] Se você deixar as caixas **Tipo de Objeto** e **Nome do Objeto** em branco, o Access excluirá o objeto selecionado no Painel de Navegação sem exibir uma mensagem de aviso ao encontrar a ação **ExcluirObjeto**.
 
 
 

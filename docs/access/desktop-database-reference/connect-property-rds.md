@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
 ms:contentKeyID: 48543324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb628356e4d93201c38cf84a9c3245b13e044ee3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 191ef13d4d3c73bfbee50d72720d7e450376dd23
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464706"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862916"
 ---
 # <a name="connect-property-rds"></a>Propriedade Connect (RDS)
 
@@ -30,17 +30,14 @@ Tempo de execução: DataControl.Connect = "ConnectionString"
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *ConnectionString*
+- *ConnectionString*
 
   - Uma sequência de conexão válida. Para obter mais informações gerais sobre sequências de conexão, consulte a propriedade [ConnectionString](connectionstring-property-ado.md) ou a documentação de seu provedor.
     
-
     > [!NOTE]
-    > <P>[!OBSERVAçãO] A especificação do MS Remote como o provedor para o <STRONG>RDS.DataControl</STRONG> criaria um cenário de quatro camadas. Cenários com mais de três camadas não foram testados e não devem ser necessários.</P>
+    > [!OBSERVAçãO] A especificação do MS Remote como o provedor para o **RDS.DataControl** criaria um cenário de quatro camadas. Cenários com mais de três camadas não foram testados e não devem ser necessários.
 
-
-
-  - *DataControl*
+- *DataControl*
 
   - Uma variável de objeto que representa um objeto **RDS.DataControl**.
 

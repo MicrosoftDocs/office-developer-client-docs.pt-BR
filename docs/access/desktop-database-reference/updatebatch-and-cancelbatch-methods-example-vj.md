@@ -1,19 +1,19 @@
 ---
-title: Exemplo dos Métodos UpdateBatch e CancelBatch (VJ++)
-TOCTitle: UpdateBatch and CancelBatch Methods Example (VJ++)
+title: Exemplo dos métodos UpdateBatch e CancelBatch (VJ++)
+TOCTitle: UpdateBatch and CancelBatch methods example (VJ++)
 ms:assetid: d016c328-e0e2-9b5b-0ac2-e8a00c2c7b1d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250037(v=office.15)
 ms:contentKeyID: 48547829
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11f85c59cd65c1127ca60b720b33752603623950
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5fe142e8898417e9f1ca7604c030e26942e7cb72
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465164"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861866"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a>Exemplo dos Métodos UpdateBatch e CancelBatch (VJ++)
+# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a>Exemplo dos métodos UpdateBatch e CancelBatch (VJ++)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

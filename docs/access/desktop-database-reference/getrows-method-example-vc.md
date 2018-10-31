@@ -1,19 +1,19 @@
 ---
-title: Exemplo do Método GetRows (VC++)
-TOCTitle: GetRows Method Example (VC++)
+title: Exemplo do método GetRows (VC++)
+TOCTitle: GetRows method example (VC++)
 ms:assetid: cfb28f6c-b2f0-2afb-f9ce-336f5a99104c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ac21076c9a6e3dc2a578e6790be051f2ffd9bcc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9d28202ce20b68171f3de93078fd818007028a9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462822"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860487"
 ---
-# <a name="getrows-method-example-vc"></a>Exemplo do Método GetRows (VC++)
+# <a name="getrows-method-example-vc"></a>Exemplo do método GetRows (VC++)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

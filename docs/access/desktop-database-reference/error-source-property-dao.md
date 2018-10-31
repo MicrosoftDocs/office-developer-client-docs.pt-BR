@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b9aafe1b16b3d989a81ff21f97bd4b6d10f79de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51acfc5f349d6096028ef86aac480ce81c9b26bf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464231"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860494"
 ---
 # <a name="errorsource-property-dao"></a>Propriedade Error (DAO)
 
@@ -41,9 +41,7 @@ Com base em toda a documentação de erros, é possível gravar um código que t
 
 
 > [!NOTE]
-> <P>A construção <STRONG>On Error Resume Next</STRONG> poderá ser preferível a <STRONG>On Error GoTo</STRONG> durante a manipulação de erros gerados durante o acesso a outros objetos. A verificação da propriedade do objeto <STRONG>Error</STRONG> depois de cada interação com um objeto remove a ambiguidade do objeto que o código estava acessando durante a ocorrência do erro. Assim, você pode ter certeza de que o objeto colocou o código de erro em <STRONG>Error.Number</STRONG>, assim como aquele objeto que gerou originalmente o erro (<STRONG>Error.Source</STRONG>).</P>
-
-
+> A construção **On Error Resume Next** poderá ser preferível a **On Error GoTo** durante a manipulação de erros gerados durante o acesso a outros objetos. A verificação da propriedade do objeto **Error** depois de cada interação com um objeto remove a ambiguidade do objeto que o código estava acessando durante a ocorrência do erro. Assim, você pode ter certeza de que o objeto colocou o código de erro em **Error.Number**, assim como aquele objeto que gerou originalmente o erro (**Error.Source**).
 
 ## <a name="example"></a>Exemplo
 

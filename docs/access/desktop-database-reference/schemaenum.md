@@ -4,31 +4,32 @@ TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e928271d61cf38232014db1c67482ca6d47fd863
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6f1e174253904adf7392aa7ae19786103e55843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465008"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863350"
 ---
 # <a name="schemaenum"></a>SchemaEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica o tipo de esquema do **Recordset** que o método [OpenSchema](openschema-method-ado.md) recupera.
 
-**Comentários**
+## <a name="remarks"></a>Comentários
 
-Informações adicionais sobre a função e as colunas retornadas para cada constante do ADO podem ser encontradas nos tópicos do Apêndice B do manual *OLE DB Programmers Reference (Referência para programadores do OLE DB)*. O nome de cada tópico está listado entre parênteses na seção Descrição da tabela abaixo.
+Informações adicionais sobre a função e colunas retornadas para cada constante ADO pode ser encontrado nos tópicos do Apêndice B do *OLE DB programadores referência*. O nome de cada tópico é listado entre parênteses na seção descrição da tabela a seguir.
 
 Informações adicionais sobre a função e colunas retornadas para cada constante do ADO MD podem ser encontradas nos tópicos de 23 de capítulo da documentação do *OLE DB para OLAP* . O nome de cada tópico é listado entre parênteses e marcado com um asterisco (\*) na coluna Descrição da tabela a seguir.
 
 Converta os tipos de dados das colunas na documentação OLE DB para tipos de dados do ADO, consultando a coluna Descrição do tópico ADO [DataTypeEnum](datatypeenum.md). Por exemplo, um tipo de dados OLE DB do **DBTYPE\_WSTR** é equivalente a um tipo de dados de ADO do **adWChar**.
 
-O ADO gera resultados como esquema para as constantes **adSchemaDBInfoKeywords** e **adSchemaDBInfoLiterals**. O ADO cria um **Recordset**, preenche cada linha com os valores retornados respectivamente pelos métodos **IDBInfo::GetKeywords** e **IDBInfo::GetLiteralInfo**. Informações adicionais sobre esses métodos podem ser localizadas na seção IDBInfo do manual *OLE DB Programmer's Reference (Referência para programador do OLE DB).*
+O ADO gera resultados como esquema para as constantes **adSchemaDBInfoKeywords** e **adSchemaDBInfoLiterals**. ADO cria um **Recordset**e, em seguida, preenche cada linha com os valores retornados respectivamente pelos métodos **IDBInfo::GetKeywords** e **IDBInfo::GetLiteralInfo** . Informações adicionais sobre esses métodos podem ser encontradas na seção da *referência do programador do OLE DB do*IDBInfo.
+
+<br/>
 
 <table>
 <colgroup>
@@ -42,7 +43,7 @@ O ADO gera resultados como esquema para as constantes **adSchemaDBInfoKeywords**
 <th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
-<th><p>Colunas de restrições</p></th>
+<th><p>Colunas de restrição</p></th>
 </tr>
 </thead>
 <tbody>
@@ -458,7 +459,7 @@ VIEW_NAME</p></td>
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

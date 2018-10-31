@@ -3,7 +3,7 @@
 >>>>>>> ms:assetid de mestre: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: ms.date 48543867: 18/09/2015 mtps_version: v=office.15
 ---
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 # <a name="editmode-property-ado"></a>Propriedade EditMode (ADO)
 =======
 # <a name="editmode-property-ado"></a>Propriedade EditMode (ADO)
@@ -14,7 +14,7 @@
 
 Indica o status de edição do registro atual.
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor retornado
 =======
 ## <a name="return-value"></a>Valor de retorno
@@ -32,6 +32,6 @@ Quando uma chamada para [Excluir](delete-method-ado-recordset.md) não exclui o 
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] <STRONG>EditMode</STRONG> pode retornar um valor válido apenas se existir um registro atual. O <STRONG>EditMode</STRONG> retornará um erro se <A href="bof-eof-properties-ado.md">BOF ou EOF</A> for verdadeiro ou se o registro atual tiver sido excluído.</P>
+> [!OBSERVAçãO] **EditMode** pode retornar um valor válido apenas se existir um registro atual. O **EditMode** retornará um erro se [BOF ou EOF](bof-eof-properties-ado.md) for verdadeiro ou se o registro atual tiver sido excluído.
 
 

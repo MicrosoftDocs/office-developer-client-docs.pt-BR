@@ -1,23 +1,23 @@
 ---
-title: Instrução TRANSFORM (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+title: TRANSFORMAR instrução (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d05f278e38cc8cf132cf06605703dfa99eb8728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464394"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861215"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a>Instrução TRANSFORM (Microsoft Access SQL)
+# <a name="transform-statement-microsoft-access-sql"></a>TRANSFORMAR instrução (Microsoft Access SQL)
 
 **Aplica-se a**: Access 2013 | Office 2013
 
@@ -64,7 +64,7 @@ A instrução TRANSFORM contém estas partes:
 
 Ao resumir dados utilizando uma consulta de tabela de referência cruzada, você seleciona valores de campos ou expressões especificados como títulos de colunas para que seja possível exibir dados em um formato mais compacto do que o formato da consulta de seleção.
 
-TRANSFORM é opcional, mas, quando incluso, é a primeira instrução em uma sequência SQL. Ela precede uma instrução SELECT que especifica os campos utilizados como títulos de linha e uma cláusula [GROUP BY](https://msdn.microsoft.com/library/ff837271\(v=office.15\)) que especifica o agrupamento de linhas. Opcionalmente, você pode incluir outras cláusulas, como [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)), que especifica critérios adicionais de seleção ou classificação. Você também pode usar subconsultas como predicados  especificamente, aqueles na cláusula WHERE  em uma consulta de tabela de referência cruzada.
+TRANSFORM é opcional, mas, quando incluso, é a primeira instrução em uma sequência SQL. Ela precede uma instrução SELECT que especifica os campos utilizados como títulos de linha e uma cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) que especifica o agrupamento de linhas. Opcionalmente, você pode incluir outras cláusulas, como [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), que especifica critérios adicionais de seleção ou classificação. Você também pode usar subconsultas como predicados  especificamente, aqueles na cláusula WHERE  em uma consulta de tabela de referência cruzada.
 
 Os valores retornados em *pivotfield* são utilizados como títulos de colunas no conjunto de resultados da consulta. Por exemplo, dinamizar as figuras de vendas no mês de vendas, em um consulta de tabela de referência cruzada cria 12 colunas. Você pode restringir *pivotfield* para criar títulos de valores fixos (*value1*, *value2* ) listados na cláusula IN opcional. Também é possível incluir valores fixos que não têm nenhum dado para criar colunas adicionais.
 

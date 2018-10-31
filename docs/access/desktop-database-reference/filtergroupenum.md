@@ -4,21 +4,22 @@ TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
 ms:contentKeyID: 48543381
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cd89cd0b261d8573dfd7c0047cca7890235ffb2b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fc2c41ddd672ff303584762f6091bab4c128de99
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462002"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862692"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica o grupo de registros a serem filtrados a partir de um [Recordset](recordset-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,7 +64,7 @@ Especifica o grupo de registros a serem filtrados a partir de um [Recordset](rec
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

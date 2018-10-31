@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76c602896a629881d06a3f3cf80326e02340186e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be31cc01122aa24eff2acb8396be2caab33c7dd4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465011"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863056"
 ---
 # <a name="append-method-adox-groups"></a>Método Append (Grupos do ADOX)
 
@@ -40,6 +40,6 @@ Ocorrerá um erro se o provedor não oferecer suporte para a criação de grupos
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Antes de um objeto <STRONG>Group</STRONG> ser anexado à coleção <STRONG>Groups</STRONG> de um objeto <STRONG>User</STRONG>, na coleção <STRONG>Groups</STRONG> do <A href="name-property-adox.md">Catálogo</A> já deve existir um objeto <STRONG>Group</STRONG> com o mesmo <STRONG>Nome</STRONG> daquele a ser anexado.</P>
+> [!OBSERVAçãO] Antes de um objeto **Group** ser anexado à coleção **Groups** de um objeto **User**, na coleção **Groups** do [Catálogo](name-property-adox.md) já deve existir um objeto **Group** com o mesmo **Nome** daquele a ser anexado.
 
 

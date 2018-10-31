@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c1afc7aeea90fc152df7d8f7b1601bf3753b3a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 195cb08fb0b195b63cdddaa848554f24d028b498
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462319"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861873"
 ---
 # <a name="append-method-adox-procedures"></a>Método Append (Procedimentos do ADOX)
 
@@ -43,6 +43,6 @@ Se o texto do comando que o usuário especificar representar um modo de exibiç�
 
 
 > [!NOTE]
-> <P>Ao usar o OLE DB Provider for Microsoft Jet, o método <STRONG>Append</STRONG> da coleção <STRONG>Procedures</STRONG> permitirá que você especifique um <STRONG>modo de exibição</STRONG> em vez de um <STRONG>procedimento</STRONG> no parâmetro <EM>comando</EM> . O <STRONG>Modo de exibição</STRONG> será adicionado à fonte de dados e será adicionado à coleção <STRONG>Procedures</STRONG>. Após o comando <STRONG>Append</STRONG>, se as coleções <STRONG>Procedures</STRONG> e <STRONG>Views</STRONG> forem atualizadas, o <STRONG>Modo de exibição</STRONG> não estará mais na coleção <STRONG>Procedures</STRONG> e será exibido na coleção <STRONG>Views</STRONG>.</P>
+> Ao usar o OLE DB Provider for Microsoft Jet, o método **Append** da coleção **Procedures** permitirá que você especifique um **modo de exibição** em vez de um **procedimento** no parâmetro *comando* . O **Modo de exibição** será adicionado à fonte de dados e será adicionado à coleção **Procedures**. Após o comando **Append**, se as coleções **Procedures** e **Views** forem atualizadas, o **Modo de exibição** não estará mais na coleção **Procedures** e será exibido na coleção **Views**.
 
 

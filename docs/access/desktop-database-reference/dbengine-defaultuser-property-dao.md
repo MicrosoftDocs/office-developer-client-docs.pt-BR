@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15fc13b27b30c87bd3993b12303cc59b8a0115bf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3926caa69e6a4e67bf66f2fdecde1db5fd79e2f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462878"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863084"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>Propriedade DBEngine.DefaultUser (DAO)
 
@@ -36,9 +36,7 @@ A configuração para **DefaultUser** é um tipo de dados de cadeia de caractere
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</P>
-
-
+> [!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.
 
 Por padrão, a propriedade **DefaultUser** é definida como "admin" e a propriedade **DefaultPassword** é definida como uma sequência de comprimento zero ("").
 

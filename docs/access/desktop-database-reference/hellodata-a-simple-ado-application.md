@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7a3ef1f8b1a183bcef760af28d6eb8a849b17aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e70d611f351cf3ff073a1ad91e359a08e026295
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462251"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863294"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData: um aplicativo ADO simples
 
@@ -32,7 +32,7 @@ O aplicativo consulta o banco de dados de exemplo Northwind, incluído no Micros
 
 4.  Crie uma **TextBox** no formulário abaixo da grade e defina as propriedades como mostra a tabela. O formulário deverá ter uma aparência semelhante à figura a seguir, quando você tiver finalizado.
 
-5.  Finalmente, copie o código listado em "[Código do HelloData](hellodata-code.md)" e cole-o na janela do editor de códigos do formulário. Pressione **F5** para executar o código.
+5.  Finalmente, copie o código listado no [Código de HelloData](hellodata-code.md) e colá-lo na janela do editor de código do formulário. Pressione **F5** para executar o código.
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ O aplicativo consulta o banco de dados de exemplo Northwind, incluído no Micros
 
 
 
-Para obter uma descrição detalhada do código, consulte "[Detalhes do HelloData](hellodata-details.md)."
+Para obter uma descrição detalhada do código, consulte [Detalhes do HelloData](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -135,4 +135,6 @@ Para obter uma descrição detalhada do código, consulte "[Detalhes do HelloDat
 </tr>
 </tbody>
 </table>
+
+
 

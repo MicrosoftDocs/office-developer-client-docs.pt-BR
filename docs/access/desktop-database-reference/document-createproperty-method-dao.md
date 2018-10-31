@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb0f40ed8dcffc4af54d7cba68cf5ddd62ed8b96
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4bcd98c41fe6961112758a284aadb3806754bb77
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602528"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863322"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Método Document.CreateProperty (DAO)
 
@@ -55,7 +55,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Property</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p>Tipo</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante que define o tipo de dados do novo objeto <strong>Property</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para obter tipos de dados válidos.</p></td>
@@ -76,7 +76,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 </table>
 
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ### <a name="return-value"></a>Valor retornado
 =======
 ### <a name="return-value"></a>Valor de retorno
@@ -96,6 +96,6 @@ Para remover um objeto **Property** definido pelo usuário da coleção, use o m
 
 
 > [!NOTE]
-> <P>Se você omitir o argumento DDL, o padrão é False (não-DDL). Como nenhuma propriedade DDL correspondente está exposta, você deve excluir e recriar um objeto <STRONG>Property</STRONG> que deseja alterar de DDL para não-DDL.</P>
+> Se você omitir o argumento DDL, o padrão é False (não-DDL). Como nenhuma propriedade DDL correspondente está exposta, você deve excluir e recriar um objeto **Property** que deseja alterar de DDL para não-DDL.
 
 

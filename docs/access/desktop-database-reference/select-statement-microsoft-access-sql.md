@@ -1,21 +1,21 @@
 ---
-title: Declaração SELECT (SQL do Microsoft Access)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+title: Instrução SELECT (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: ae7a63a3fe7647dde117db80a52e2322b9af75b9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462669"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860578"
 ---
-# <a name="select-statement-microsoft-access-sql"></a>Declaração SELECT (SQL do Microsoft Access)
+# <a name="select-statement-microsoft-access-sql"></a>Instrução SELECT (Microsoft Access SQL)
 
 **Aplica-se a:** Access 2013 | Office 2013
 
@@ -41,7 +41,7 @@ A declaração SELECT tem as seguintes partes:
 <tbody>
 <tr class="odd">
 <td><p><em>predicate</em></p></td>
-<td><p>Um dos seguintes predicados: <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW ou TOP</a>. O predicado é usado para restringir o número de registros retornados. Se nenhum for especificado, o padrão é ALL.  </p></td>
+<td><p>Um dos seguintes predicados: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. O predicado é usado para restringir o número de registros retornados. Se nenhum for especificado, o padrão é ALL.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -73,7 +73,7 @@ A declaração SELECT tem as seguintes partes:
 
 ## <a name="remarks"></a>Comentários
 
-Para executar esta operação, o mecanismo do banco de dados do Microsoft® Jet pesquisa na tabela ou tabelas especificadas, extrai as colunas escolhidas, seleciona linhas que correspondam ao critério e classifica ou agrupa as linhas resultantes na ordem especificada.
+Para executar essa operação, o mecanismo de banco de dados Microsoft Jet procura a tabela ou tabelas especificadas, extrai as colunas escolhidas, seleciona linhas que atendam a critério e classifica ou agrupa as linhas resultantes na ordem especificada.
 
 Declarações SELECT não alteram os dados no banco de dados.
 
@@ -151,6 +151,8 @@ Este exemplo cria um **Recordset** do tipo dynaset com base em uma declaração 
     End Sub
 ```
 
+<br/>
+
 Este exemplo conta o número de registros que têm uma entrada no campo PostalCode e nomeia o campo retornado como Registro.
 
 ```sql
@@ -178,6 +180,8 @@ Este exemplo conta o número de registros que têm uma entrada no campo PostalCo
      
     End Sub 
 ```
+
+<br/>
 
 Este exemplo mostra o número de funcionários e os salários médio e máximo.
 
@@ -209,6 +213,8 @@ Este exemplo mostra o número de funcionários e os salários médio e máximo.
      
     End Sub 
 ```
+
+<br/>
 
 O procedimento **Sub** EnumFields recebe um objeto **Recordset** do procedimento de chamada. Em seguida, o procedimento formata e imprime os campos do **Recordset** na janela **Depurar**. A variável é o comprimento desejado do campo impresso. Alguns campos podem ser truncados.
 

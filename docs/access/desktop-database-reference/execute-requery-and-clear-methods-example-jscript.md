@@ -1,19 +1,19 @@
 ---
-title: Exemplo dos Métodos Execute, Requery e Clear (JScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (JScript)
+title: Exemplo dos métodos Execute, Requery e Clear (JScript)
+TOCTitle: Execute, Requery, and Clear methods example (JScript)
 ms:assetid: 3c1f1913-f168-b8a9-8791-f4a0b1aa8273
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03462ce181dd3dadade6dc63a6a0d4cc2c06e08c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1eec2b3da623f983f8e16e41c32b0a219ddd7931
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463615"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862147"
 ---
-# <a name="execute-requery-and-clear-methods-example-jscript"></a>Exemplo dos Métodos Execute, Requery e Clear (JScript)
+# <a name="execute-requery-and-clear-methods-example-jscript"></a>Exemplo dos métodos Execute, Requery e Clear (JScript)
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -37,7 +37,7 @@ Este exemplo demonstra o método **Execute** ao ser executado a partir de um obj
 <html> 
  
 <head> 
-<title>Execute, Requery and Clear Methods Example (JScript)</title> 
+<title>Execute, Requery and Clear methods example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -50,7 +50,7 @@ BODY {
 </head> 
  
 <body bgcolor="White"> 
-<h1>Execute, Requery and Clear Methods Example (JScript)</h1> 
+<h1>Execute, Requery and Clear methods example (JScript)</h1> 
 <% 
  if (strLastName.length > 0) 
  { 

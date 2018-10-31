@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d61d298da0e3b44895c8fce3ee1adc3b55d9a491
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464983"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860844"
 ---
 # <a name="importexportdata-macro-action"></a>Ação de macro ImportExportData
 
@@ -66,7 +66,7 @@ A ação **ImportExportData** tem os argumentos a seguir.
 <li><p>Selecione uma tabela na caixa de diálogo <strong>Vincular Tabelas</strong> e clique em <strong>OK</strong>.</p></li>
 </ol>
 <p>Abra a tabela recentemente vinculada no modo Design e exiba as propriedades da tabela clicando em <strong>Folha de Propriedades</strong> na guia <strong>Design</strong>, em <strong>Ferramentas</strong>. O texto na configuração de propriedade <strong>Descrição</strong> é a cadeia de conexão para esta tabela.  </p>
-<p>Para saber mais sobre as cadeias de conexão ODBC, consulte o arquivo da Ajuda ou outra documentação para o driver ODBC deste tipo de banco de dados ODBC.</p></td>
+<p>Para obter mais informações sobre cadeias de caracteres de conexão ODBC, consulte o arquivo de Ajuda ou outra documentação para o driver ODBC desse tipo de banco de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de Objeto</strong></p></td>

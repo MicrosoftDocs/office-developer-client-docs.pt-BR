@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13f9a17d7dfcd9e621e4f4b1f1fcc03e88b4d832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d49fa1bf77a66dbab829aff20ee666ae1a5082cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464778"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862207"
 ---
 # <a name="columns-collection-adox"></a>Coleção Columns (ADOX)
 
@@ -38,6 +38,6 @@ As propriedades e métodos restantes são padrão das coleções do ADO. Você p
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Ocorrerá um erro ao anexar uma <STRONG>Coluna</STRONG> à coleção <STRONG>Columns</STRONG> de um <A href="index-object-adox.md">Índice</A>, se a <STRONG>Coluna</STRONG> não existir em uma <A href="table-object-adox.md">Tabela</A> que já esteja anexada à coleção <A href="tables-collection-adox.md">Tables</A>.</P>
+> [!OBSERVAçãO] Ocorrerá um erro ao anexar uma **Coluna** à coleção **Columns** de um [Índice](index-object-adox.md), se a **Coluna** não existir em uma [Tabela](table-object-adox.md) que já esteja anexada à coleção [Tables](tables-collection-adox.md).
 
 

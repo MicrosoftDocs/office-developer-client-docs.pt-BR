@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5fbefa5d857e7c239cbbcfc4502d60aabce347e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38fa73120ed868c7b7a0e086cdcbe822e4c16730
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464526"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860984"
 ---
 # <a name="error-object-ado"></a>Objeto Error (ADO)
 
@@ -24,21 +24,18 @@ Contém os detalhes sobre os erros de acesso aos dados que pertencem à uma úni
 
 Qualquer operação envolvendo os objetos ADO pode gerar um ou vários erros de provedor. À medida que cada erro ocorrer, um ou vários objetos **Error** serão colocados na coleção [Errors](errors-collection-ado.md) do objeto [Connection](connection-object-ado.md). Quando a operação do ADO gerar um erro, a coleção **Errors** será limpa e o novo conjunto de objetos **Error** será colocado na coleção **Errors**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Cada objeto <STRONG>Error</STRONG> representa um erro de provedor específico e não um erro do ADO. Os erros do ADO são apresentados no mecanismo de tratamento de exceções do tempo de execução. Por exemplo, no Microsoft Visual Basic, a ocorrência de um erro específico de ADO disparará um evento <STRONG>On Error</STRONG> e aparecerá no objeto <STRONG>Error</STRONG>. Para obter uma lista completa dos erros do ADO, consulte o tópico <A href="errorvalueenum.md">ErrorValueEnum</A>.</P>
-
-
+> [!OBSERVAçãO] Cada objeto **Error** representa um erro de provedor específico e não um erro do ADO. Os erros do ADO são apresentados no mecanismo de tratamento de exceções do tempo de execução. Por exemplo, no Microsoft Visual Basic, a ocorrência de um erro específico de ADO disparará um evento **On Error** e aparecerá no objeto **Error**. Para obter uma lista completa dos erros do ADO, consulte o tópico [ErrorValueEnum](errorvalueenum.md).
 
 Leia as propriedades do objeto **Error** para obter os detalhes específicos sobre cada erro, incluindo o seguinte:
 
-  - A propriedade [Description](description-property-ado.md), que contém o texto do erro. Esta é a propriedade padrão.
+- A propriedade [Description](description-property-ado.md), que contém o texto do erro. Esta é a propriedade padrão.
 
-  - A propriedade [Number](number-property-ado.md), que contém o valor inteiro **Long** da constante de erro.
+- A propriedade [Number](number-property-ado.md), que contém o valor inteiro **Long** da constante de erro.
 
-  - A propriedade [Source](source-property-ado-error.md), que identifica o objeto que causou o erro. Isso será particularmente útil quando você tiver vários objetos **Error** na coleção **Errors** depois de uma solicitação de uma fonte de dados.
+- A propriedade [Source](source-property-ado-error.md), que identifica o objeto que causou o erro. Isso será particularmente útil quando você tiver vários objetos **Error** na coleção **Errors** depois de uma solicitação de uma fonte de dados.
 
-  - As propriedades [SQLState](sqlstate-property-ado.md) e [NativeError](nativeerror-property-ado.md) que fornecem informações a partir das fontes de dados SQL.
+- As propriedades [SQLState](sqlstate-property-ado.md) e [NativeError](nativeerror-property-ado.md) que fornecem informações a partir das fontes de dados SQL.
 
 Quando ocorrer um erro de provedor, este será colocado na coleção **Errors** do objeto **Connection**. O ADO suporta o retorno de vários erros ocasionados uma única operação do ADO para levar em conta as informações específicas do erro para o provedor. Para obter essas valiosas informações do erro em um manipulador de erros, use os recursos adequados para a interceptação de erros do idioma ou do ambiente no qual você estiver trabalhando e depois use os loops aninhados para enumerar as propriedades de cada objeto **Error** na coleção **Errors**.
 

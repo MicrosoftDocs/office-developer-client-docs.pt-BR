@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 446b4b4c22aad7288744730978c99f8322a55316
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b893ca7d380525cfab8a467f2032e254633268f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464543"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861523"
 ---
 # <a name="dbenginerollback-method-dao"></a>Método DBEngine.Rollback (DAO)
 
@@ -36,11 +36,8 @@ Os métodos de transação **BeginTrans**, **CommitTrans** e **Rollback** gerenc
 
 Normalmente, você usa as transações para manter a integridade dos dados quando precisa atualizar os registros em duas ou mais tabelas e garantir que as alterações estejam concluídas (confirmadas) em todas as tabelas ou em nenhuma (revertidas). Por exemplo, se você transferir dinheiro de uma conta para outra, poderá subtrair o valor de uma e incluí-lo na outra. Se a atualização falhar, as contas não apresentaram mais esse equilíbrio. Use o método **BeginTrans** antes de atualizar o primeiro registro e, em seguida, se qualquer atualização subsequente falhar, use o método **Rollback** para desfazer todas as atualizações. Use o método **CommitTrans** depois de atualizar com sucesso o último registro.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Dentro de um objeto <STRONG>Workspace</STRONG>, as transações são sempre globais para o <STRONG>Workspace</STRONG> e não são limitadas a apenas um objeto <STRONG>Connection</STRONG> ou <STRONG>Database</STRONG>. Se você executar as operações em mais de uma conexão ou banco de dados dentro de uma transação <STRONG>Workspace</STRONG>, resolver a transação (isto é, utilizar os métodos <STRONG>CommitTrans</STRONG> ou <STRONG>Rollback</STRONG>) afetará todas as operações em todas as conexões e bancos de dados dentro daquele espaço de trabalho.</P>
-
-
+> [!OBSERVAçãO] Dentro de um objeto **Workspace**, as transações são sempre globais para o **Workspace** e não são limitadas a apenas um objeto **Connection** ou **Database**. Se você executar as operações em mais de uma conexão ou banco de dados dentro de uma transação **Workspace**, resolver a transação (isto é, utilizar os métodos **CommitTrans** ou **Rollback**) afetará todas as operações em todas as conexões e bancos de dados dentro daquele espaço de trabalho.
 
 Depois de usar **CommitTrans**, não é possível desfazer as alterações feitas durante a transação a menos que a transação esteja aninhada dentro de outra transação que foi revertida. Se você aninhar transações, deverá resolver a transação atual antes de resolver uma transação em um nível superior de aninhamento.
 

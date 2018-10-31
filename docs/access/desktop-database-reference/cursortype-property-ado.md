@@ -3,7 +3,7 @@
 >>>>>>> ms:assetid de mestre: f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID: ms.date 48548682: 18/09/2015 mtps_version: v=office.15
 ---
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 # <a name="cursortype-property-ado"></a>Propriedade CursorType (ADO)
 =======
 # <a name="cursortype-property-ado"></a>Propriedade CursorType (ADO)
@@ -14,7 +14,7 @@
 
 Indica o tipo do cursor utilizado em um objeto [Recordset](recordset-object-ado.md).
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configurações e valor de retorno
 =======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
@@ -64,11 +64,8 @@ A planilha a seguir mostra as funcionalidades do provedor (identificadas por con
 </table>
 
 
-
 > [!NOTE]
-> <P>Embora <STRONG>Supports</STRONG> (<STRONG>adUpdateBatch</STRONG>) possa ser verdadeiro para cursores dinâmicos e somente de encaminhamento, para atualizações em lote você deve usar um cursor estático ou de conjunto de chaves. Defina a propriedade <A href="locktype-property-ado.md">LockType</A> como <STRONG>adLockBatchOptimistic</STRONG> e a propriedade <STRONG>CursorLocation</STRONG> como <STRONG>adUseClient</STRONG> para habilitar o Cursor Service para OLE DB, necessário para as atualizações em lote.</P>
-
-
+> Embora **Supports** (**adUpdateBatch**) possa ser verdadeiro para cursores dinâmicos e somente de encaminhamento, para atualizações em lote você deve usar um cursor estático ou de conjunto de chaves. Defina a propriedade [LockType](locktype-property-ado.md) como **adLockBatchOptimistic** e a propriedade **CursorLocation** como **adUseClient** para habilitar o Cursor Service para OLE DB, necessário para as atualizações em lote.
 
 A propriedade **CursorType** será leitura/gravação quando o **Recordset** estiver fechado e somente leitura quando ele estiver aberto.
 

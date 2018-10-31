@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c55eab611cae8431a3ff3f2220cdfa8b1923d891
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b25536c158c248695c9e537a0153922b2518058a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463652"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863287"
 ---
 # <a name="databasesynchronize-method-dao"></a>Método Database.Synchronize (DAO)
 
@@ -51,7 +51,7 @@ Sincroniza duas réplicas. (apenas espaços de trabalho do Microsoft Access).
 <tr class="odd">
 <td><p>DbPathName</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho para a réplica de destino com a qual o banco de dados será sincronizado.</p></td>
 </tr>
 <tr class="even">
@@ -74,6 +74,6 @@ Ao sincronizar duas réplicas na Internet, você deve usar a constante **dbRepSy
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Não é possível sincronizar réplicas parciais com outras réplicas parciais. Consulte o método <STRONG><A href="database-populatepartial-method-dao.md">PopulatePartial</A></STRONG> para obter mais informações.</P>
+> [!OBSERVAçãO] Não é possível sincronizar réplicas parciais com outras réplicas parciais. Consulte o método [PopulatePartial](database-populatepartial-method-dao.md) para obter mais informações.
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602584"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862559"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine.CreateWorkspace (DAO)
 
@@ -52,23 +52,23 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Workspace</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Workspace</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserName</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Um <strong>String</strong> que identifica o proprietário do novo objeto <strong>Workspace</strong>. Consulte a propriedade <strong>UserName</strong> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Senha</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>cadeia de caracteres</strong> contendo a senha para o novo objeto <strong>Workspace</strong> . A senha pode ter até 20 caracteres e pode incluir qualquer caractere exceto o caractere ASCII 0 (nulo).</p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</P>
+> [!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.
 
 
 </td>
@@ -80,7 +80,7 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Definindo o argumento type como <STRONG>dbUseODBC</STRONG> resultará em um erro em tempo de execução. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Definindo o argumento type como **dbUseODBC** resultará em um erro em tempo de execução. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 </td>
@@ -89,7 +89,7 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 </table>
 
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ### <a name="return-value"></a>Valor retornado
 =======
 ### <a name="return-value"></a>Valor de retorno

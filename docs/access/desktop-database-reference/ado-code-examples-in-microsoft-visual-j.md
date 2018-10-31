@@ -1,19 +1,19 @@
 ---
-title: Exemplos de código do ADO no Microsoft Visual J++
-TOCTitle: ADO Code Examples in Microsoft Visual J++
+title: Exemplos de código ADO no Microsoft Visual J++
+TOCTitle: ADO code examples in Microsoft Visual J++
 ms:assetid: c924a813-0375-3e8e-f9e3-ff5ca51db218
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bcea4236021668a05779cb82a59baf287a7a9db
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 928fea9635fee037f5c160419a778f1437e57673
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604831"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860571"
 ---
-# <a name="ado-code-examples-in-microsoft-visual-j"></a>Exemplos de código do ADO no Microsoft Visual J++
+# <a name="ado-code-examples-in-microsoft-visual-j"></a>Exemplos de código ADO no Microsoft Visual J++
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -74,7 +74,7 @@ Use os exemplos de código para saber como utilizar os métodos e as propriedade
 
 **Propriedades**
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)

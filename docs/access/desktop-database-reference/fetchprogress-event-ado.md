@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72a860ecd52e0481b55423f88e537eab3c8de2ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a898ad02d551e0c4de02597761ccd3076fc5eb77
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463703"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862273"
 ---
 # <a name="fetchprogress-event-ado"></a>Evento FetchProgress (ADO)
 
@@ -49,6 +49,6 @@ Ao utilizar o **FetchProgress** com um **Recordset**filho, lembre-se de que os v
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para utilizar o <STRONG>FetchProgress</STRONG> com o Microsoft Visual Basic, é necessário o Visual Basic 6.0 ou posterior.</P>
+> [!OBSERVAçãO] Para utilizar o **FetchProgress** com o Microsoft Visual Basic, é necessário o Visual Basic 6.0 ou posterior.
 
 

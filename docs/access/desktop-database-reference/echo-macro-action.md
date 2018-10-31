@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 81fdb71631b4ba5afd8e22ca7640e6a98ff5c78f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 39471ea4bab2ec1bbeb8cd22ecb00aa5df3bc411
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462213"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863966"
 ---
 # <a name="echo-macro-action"></a>Ação de Macro eco
 
@@ -24,7 +24,7 @@ Você pode usar a ação **eco** para especificar se o eco está ativado. Por ex
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
 
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee87da91086a010066ba94b294955eebdff7b636
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462383"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861229"
 ---
 # <a name="ado-errors"></a>Erros do ADO
 
@@ -89,9 +89,7 @@ A mensagem de erro inclui cada informação fornecida pelo objeto **Err** do Vis
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O objeto <STRONG>Err</STRONG> do Visual Basic contém apenas informações sobre o erro mais recente. A coleção <STRONG>Errors</STRONG> do objeto <STRONG>Connection</STRONG> do ADO contém um objeto <STRONG>Error</STRONG> para cada erro provocado pela operação mais recente do ADO. Use a coleção <STRONG>Errors</STRONG> em vez do objeto <STRONG>Err</STRONG> para identificar vários erros. Para obter mais informações sobre a coleção <STRONG>Errors</STRONG>, consulte <A href="provider-errors.md">Erros do provedor</A>. No entanto, se não houver nenhum objeto <STRONG>Connection</STRONG> válido, o objeto <STRONG>Err</STRONG> será a única fonte de informações sobre os erros do ADO.</P>
-
-
+> [!OBSERVAçãO] O objeto **Err** do Visual Basic contém apenas informações sobre o erro mais recente. A coleção **Errors** do objeto **Connection** do ADO contém um objeto **Error** para cada erro provocado pela operação mais recente do ADO. Use a coleção **Errors** em vez do objeto **Err** para identificar vários erros. Para obter mais informações sobre a coleção **Errors**, consulte <A href="provider-errors.md">Erros do provedor</A>. No entanto, se não houver nenhum objeto **Connection** válido, o objeto **Err** será a única fonte de informações sobre os erros do ADO.
 
 Que tipos de operações provavelmente causam erros do ADO? Os erros comuns do ADO podem envolver a abertura de um objeto como **Connection** ou **Recordset**, a tentativa de atualizar dados, ou a chamada de um método ou propriedade para o qual o provedor não ofereça suporte.
 

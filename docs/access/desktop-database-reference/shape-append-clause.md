@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6460572f44e79fe4bdb30d1ca33810d610da9721
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8e60c52ded359350adff737807c3e0f92cb7c4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462474"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862119"
 ---
 # <a name="shape-append-clause"></a>Cláusula Shape Append
 
@@ -122,3 +122,12 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 Executa de forma selecionar \* de t1; Descartar tabela t1 e (selecione \* do t2 relacionar k1 para k2), não percebendo que t1 da tabela de recebimento é uma separado e neste comando perigoso, caso, o provedor. Os aplicativos devem sempre validar a entrada do usuário para impedir possíveis ataques de hacker como esse.
 
+Esta seção inclui os seguintes tópicos:
+
+- [Operação de comandos não parametrizados](operation-of-non-parameterized-commands.md)
+
+- [Operação de comandos parametrizados](operation-of-parameterized-commands.md)
+
+- [Comandos híbridos](hybrid-commands.md)
+
+- [Cláusulas COMPUTE de intervenção de forma](intervening-shape-compute-clauses.md)

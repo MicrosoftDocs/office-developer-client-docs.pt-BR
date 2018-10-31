@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8420beb2c6136123c334a55b68bd6601f214faa5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6d4c869d6021c807e27fb7970ef6ea91f91bd4de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465209"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860452"
 ---
 # <a name="creating-the-connection-string"></a>Criando a sequência de conexão
 
@@ -58,9 +58,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 
 
 > [!NOTE]
-> <P>Nos exemplos a seguir e em todo o Guia do programador do ADO, a identificação de usuário "MyId" com a senha "123aBc" é usada para realizar a autenticação no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.</P>
-
-
+> Nos exemplos a seguir e em todo o Guia do programador do ADO, a identificação de usuário "MyId" com a senha "123aBc" é usada para realizar a autenticação no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
 
 O aplicativo HelloData no Capítulo 1 usava a seguinte sequência de conexão:
 

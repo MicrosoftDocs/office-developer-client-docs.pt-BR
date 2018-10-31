@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 727b6df3907354d681312637b3a02d242db69528
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 892dc16d0422572e83f92316ce2c1c67f9ce5cc0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464222"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860641"
 ---
 # <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 
@@ -51,17 +51,17 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 <tr class="odd">
 <td><p>bstrOld</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A configuração atual da propriedade <strong>Password</strong> do objeto <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p>bstrNew</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A nova configuração da propriedade <strong>Password</strong> do objeto <strong>Database</strong> .</p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</P>
+> [!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.
 
 
 </td>
@@ -80,6 +80,6 @@ Se um banco de dados não tiver senha, o mecanismo de banco de dados do Microsof
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Se perder a sua senha, você nunca mais poderá abrir o seu banco de dados.</P>
+> [!IMPORTANTE] Se perder a sua senha, você nunca mais poderá abrir o seu banco de dados.
 
 

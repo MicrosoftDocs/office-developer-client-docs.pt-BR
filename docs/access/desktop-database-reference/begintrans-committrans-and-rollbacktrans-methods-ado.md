@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 719c495e18fb769a2d3f994542ab8d9e93a469f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605755"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860375"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)
 
@@ -37,7 +37,7 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 
 *objeto*. RollbackTrans
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor retornado
 =======
 ## <a name="return-value"></a>Valor de retorno
@@ -57,9 +57,7 @@ Use esses métodos com um objeto **Connection** quando desejar salvar ou cancela
 
 
 > [!NOTE]
-> <P>Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "<STRONG>Transaction DDL</STRONG>" definida pelo provedor aparece na coleção <A href="properties-collection-ado.md">Properties</A> do objeto <STRONG>Connection</STRONG>, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.</P>
-
-
+> Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "**Transaction DDL**" definida pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection**, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
 
 Depois que você chamar o método **BeginTrans**, o provedor não confirmará mais instantaneamente as alterações feitas até que **CommitTrans** ou **RollbackTrans** seja chamado para finalizar a transação.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73940108f96cf46cb15d646936039c0329373899
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606903"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860340"
 ---
 # <a name="copyrecord-method-ado"></a>Método CopyRecord (ADO)
 
@@ -50,7 +50,7 @@ Copia uma entidade representada por um **Record** para outro local.
 
   - Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="return-value"></a>Valor retornado
 =======
 ## <a name="return-value"></a>Valor de retorno
@@ -68,13 +68,13 @@ Este método falha se *Destination* identificar uma entidade existente (por exem
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Utilize a opção <STRONG>adCopyOverWrite</STRONG> criteriosamente. Por exemplo, se você especificar essa opção ao copiar um arquivo em um diretório irá <EM>Excluir</EM> o diretório e substituí-lo com o arquivo.</P>
+> [!IMPORTANTE] Utilize a opção **adCopyOverWrite** criteriosamente. Por exemplo, se você especificar essa opção ao copiar um arquivo em um diretório irá *Excluir* o diretório e substituí-lo com o arquivo.
 
 
 
 
 > [!NOTE]
-<<<<<<< Cabeça
+<<<<<<< HEAD
 > <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
 =======
 > [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).

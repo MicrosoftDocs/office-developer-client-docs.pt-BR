@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5a91d3941db0b7daa61b506c136dab59f24ed0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8b91fc64a05ebdd947274cc4a119344ec2a6e284
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603585"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863952"
 ---
 # <a name="executeoptions-property-rds"></a>Propriedade ExecuteOptions (RDS)
 
@@ -20,7 +20,7 @@ ms.locfileid: "25603585"
 
 Indica se a execução assíncrona está habilitada.
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Configurações e valor de retorno
 =======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
@@ -54,7 +54,7 @@ Define ou retorna um dos valores a seguir.
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Cada arquivo executável do lado do cliente que usa essas constantes deve fornecer declarações para elas. Você pode recortar e colar as declarações de constantes desejadas do arquivo Adcvbs.inc, localizado na pasta C:\Arquivos de Programas\Arquivos Comuns\System\MSADC.</P>
+> [!OBSERVAçãO] Cada arquivo executável do lado do cliente que usa essas constantes deve fornecer declarações para elas. Você pode recortar e colar as declarações de constantes desejadas do arquivo Adcvbs.inc, localizado na pasta C:\Arquivos de Programas\Arquivos Comuns\System\MSADC.
 
 
 

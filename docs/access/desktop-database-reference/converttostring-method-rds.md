@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa1a4326cf318a9cbcddf8ebcdf584543ac8ebfb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464722"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860508"
 ---
 # <a name="converttostring-method-rds"></a>Método ConvertToString (RDS)
 
@@ -44,6 +44,6 @@ No cliente, o Remote Data Service pode converter a sequência MIME de volta em u
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se estiver utilizando Active Server Pages para inserir a sequência MIME resultante em uma página HTML cliente, esteja ciente de que as versões do VBScript anteriores à versão 2.0 limitam o tamanho da sequência a 32K. Se esse limite for excedido, será retornado um erro. Mantenha o escopo da consulta relativamente pequeno ao utilizar inserção de MIME utilizando arquivos .asp. Para corrigir isso, baixe a versão mais recente do VBScript na <A href="https://www.microsoft.com/downloads/en/default.aspx">Centro de Download da Microsoft</A>.</P>
+> [!OBSERVAçãO] Se estiver utilizando Active Server Pages para inserir a sequência MIME resultante em uma página HTML cliente, esteja ciente de que as versões do VBScript anteriores à versão 2.0 limitam o tamanho da sequência a 32K. Se esse limite for excedido, será retornado um erro. Mantenha o escopo da consulta relativamente pequeno ao utilizar inserção de MIME utilizando arquivos .asp. Para corrigir isso, baixe a versão mais recente do VBScript na [Centro de Download da Microsoft](https://www.microsoft.com/downloads/en/default.aspx).
 
 

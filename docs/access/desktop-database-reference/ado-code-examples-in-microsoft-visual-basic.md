@@ -1,17 +1,17 @@
 ---
 title: Exemplos de código do ADO no Microsoft Visual Basic
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604607"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862111"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Exemplos de código do ADO no Microsoft Visual Basic
 
@@ -20,9 +20,8 @@ ms.locfileid: "25604607"
 
 Use os exemplos de código para saber como utilizar os métodos, as propriedades e os eventos do ADO no Visual Basic.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Cole o exemplo de código inteiro, do Sub ao End Sub, em seu editor de códigos. O exemplo pode não ser executado corretamente se os exemplos parciais forem usados ou se a formatação do parágrafo for perdida.</P>
+> [!OBSERVAçãO] Cole o exemplo de código inteiro, do início ao fim, em seu editor de códigos. O exemplo pode não ser executado corretamente se os exemplos parciais forem usados ou se a formatação do parágrafo for perdida.
 
 
 
@@ -60,7 +59,7 @@ Use os exemplos de código para saber como utilizar os métodos, as propriedades
 
   - [Exemplo do método GetString](getstring-method-example-vb.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Método SkipLine, EOS e LineSeparator exemplo das propriedades](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 =======
   - [Exemplo das propriedades método SkipLine, EOS e LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
@@ -84,7 +83,7 @@ Use os exemplos de código para saber como utilizar os métodos, as propriedades
 
   - [Exemplo dos métodos Save e Open](save-and-open-methods-example-vb.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Método Seek e exemplo da propriedade Index](seek-method-and-index-property-example-vb.md)
 =======
   - [Método Seek e Index exemplo da propriedade](seek-method-and-index-property-example-vb.md)
@@ -98,7 +97,7 @@ Use os exemplos de código para saber como utilizar os métodos, as propriedades
 
 **Propriedades**
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-vb.md)

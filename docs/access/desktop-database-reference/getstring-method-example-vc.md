@@ -1,19 +1,19 @@
 ---
-title: Exemplo do Método GetString (VC++)
-TOCTitle: GetString Method Example (VC++)
+title: Exemplo do método GetString (VC++)
+TOCTitle: GetString method example (VC++)
 ms:assetid: 2f82bfcb-5bb1-275f-e53b-155a8a155980
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249078(v=office.15)
 ms:contentKeyID: 48544007
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe0902433f51b8b795f220f6dc234191f5777a43
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 272bd716cddf32403f2757fbe5c4ad371b1c1688
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463393"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860515"
 ---
-# <a name="getstring-method-example-vc"></a>Exemplo do Método GetString (VC++)
+# <a name="getstring-method-example-vc"></a>Exemplo do método GetString (VC++)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

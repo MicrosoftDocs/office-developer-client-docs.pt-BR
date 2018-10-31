@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e2d939f8583fdfd98ed1ae8e51a5bbfe792e486
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f8266d2b632b27ee4fafbb4ed0634def544c17a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464941"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860256"
 ---
-# <a name="using-ado-for-internet-publishing"></a>Usando o ADO for Internet Publishing
+# <a name="using-ado-for-internet-publishing"></a>Uso do ADO para Publicação de Internet
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -42,3 +42,6 @@ Vários objetos ADO foram aprimorados para funcionar junto com objetos **Record*
 
   - Como atalho e alternativa ao método **Append**, você pode criar campos simplesmente atribuindo um valor a um campo indefinido ou excluído anteriormente.
 
+## <a name="see-also"></a>Confira também
+
+- [Tópicos de cenário de publicação na Internet](internet-publishing-scenario.md)

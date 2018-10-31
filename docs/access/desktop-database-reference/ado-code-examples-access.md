@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248795(v=office.15)
 ms:contentKeyID: 48542971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61fda4052cbe74ffbb232c66b2eed1ad1457770c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1799eb9c6936773738a1144eea59da9a3eedcc90
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464399"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860214"
 ---
 # <a name="ado-code-examples-access"></a>Exemplos de código ADO (Access)
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-  - [Exemplos de código ADO](ado-code-examples.md)
+  - [Exemplos de código do ADO](ado-code-examples.md)
 
   - [Exemplos de código ADO no Microsoft Visual Basic (Access)](ado-code-examples-in-microsoft-visual-basic-access.md)
 

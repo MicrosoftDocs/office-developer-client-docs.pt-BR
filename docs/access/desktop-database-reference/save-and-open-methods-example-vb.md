@@ -1,19 +1,19 @@
 ---
-title: Exemplo dos Métodos Save e Open (VB)
-TOCTitle: Save and Open Methods Example (VB)
+title: Exemplo dos métodos Save e Open (VB)
+TOCTitle: Save and Open methods example (VB)
 ms:assetid: aecb56b4-3ccd-d8f1-84a9-fd5a40aeca5f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249828(v=office.15)
 ms:contentKeyID: 48547081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d293cf67d328beb2e380e484a595eaa09bd6f970
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9665badec6782729c55448096ab78ba6d5389aa2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462991"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864036"
 ---
-# <a name="save-and-open-methods-example-vb"></a>Exemplo dos Métodos Save e Open (VB)
+# <a name="save-and-open-methods-example-vb"></a>Exemplo dos métodos Save e Open (VB)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

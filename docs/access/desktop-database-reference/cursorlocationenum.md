@@ -4,21 +4,22 @@ TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 90226413579a8fac7586cbd5ef08510a36a42959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7f8eedd1245be16d87a2d3b2cd2b9121853529c5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463329"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863623"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica o local do serviço do cursor.
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,13 +48,13 @@ Especifica o local do serviço do cursor.
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>Padrão. Usa os cursores de provedores de dados ou fornecidos pelo driver. Esses cursores são, algumas vezes, muito flexíveis e permitem sensibilidade adicional para alterações que os outros fazem na fonte de dados. Contudo, alguns recursos do <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> (como os objetos <a href="recordset-object-ado.md">Recordset</a> desassociados) não podem ser simulados com os cursores do lado do servidor e esses recursos não estarão disponíveis com esta configuração.</p></td>
+<td><p>Padrão. Usa o provedor de dados ou cursores fornecidos pelo driver. Esses cursores às vezes são muito flexíveis e permitem a sensibilidade adicional sobre as alterações que outras pessoas fazem à fonte de dados. No entanto, alguns recursos do <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service para OLE DB</a> (por exemplo, os objetos <a href="recordset-object-ado.md">Recordset</a> desassociados) não podem ser simulados com cursores do servidor e esses recursos estarão indisponíveis com essa configuração.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7eae567d2787e60f84c8020d80e1c15c9b02928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e44ae29014870dcd4fc95629081d50191d6ff184
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463947"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863974"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Tipos de dados ANSI SQL equivalentes
 
@@ -143,20 +143,12 @@ Sinônimo</p></th>
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>O tipo de dados ANSI SQL BIT não corresponde ao tipo de dados do Microsoft Access SQL BIT. Ele corresponde ao tipo de dados BINARY. Não há nenhum ANSI SQL equivalente para o tipo de dados do Microsoft Access SQL BIT.</P>
-> <LI>
-> <P>TIMESTAMP não é mais aceito como um sinônimo de DATETIME.</P>
-> <LI>
-> <P>NUMERIC não é mais aceito como um sinônimo de FLOAT ou DOUBLE. NUMERIC é agora utilizado como um sinônimo de DECIMAL.</P>
-> <LI>
-> <P>Um campo LONGTEXT é sempre armazenado no formato de representação Unicode.</P>
-> <LI>
-> <P>Se o nome do tempo de dados TEXT for usado sem especificar o tamanho original, por exemplo, TEXT(25), um campo LONGTEXT será criado. Isso permite que as <A href="create-table-statement-microsoft-access-sql.md">instruções CREATE TABLE</A> sejam gravadas para que os tipos de dados sejam processados de forma consistente com o Microsoft SQL Server.</P>
-> <LI>
-> <P>Um campo CHAR sempre será armazenado no formato de representação Unicode, o que equivale ao tipo de dados ANSI SQL NATIONAL CHAR.</P>
-> <LI>
-> <P>Se o nome do tipo de dados TEXT for usado e o tamanho opcional for especificado, por exemplo TEXT(25), o tipo de dados do campo será equivalente ao tipo de dados CHAR. Isso preserva a compatibilidade com versões anteriores para a maioria dos aplicativos Microsoft Jet, permitindo, ao mesmo tempo, que o tipo de dados TEXT (sem uma especificação de tamanho) seja alinhado ao Microsoft SQL Server.</P></LI></UL>
+> - O tipo de dados ANSI SQL BIT não corresponde ao tipo de dados do Microsoft Access SQL BIT. Ele corresponde ao tipo de dados BINARY. Não há nenhum ANSI SQL equivalente para o tipo de dados do Microsoft Access SQL BIT.
+> - TIMESTAMP não é mais aceito como um sinônimo de DATETIME.
+> - NUMERIC não é mais aceito como um sinônimo de FLOAT ou DOUBLE. NUMERIC é agora utilizado como um sinônimo de DECIMAL.
+> - Um campo LONGTEXT é sempre armazenado no formato de representação Unicode.
+> - Se o nome do tempo de dados TEXT for usado sem especificar o tamanho original, por exemplo, TEXT(25), um campo LONGTEXT será criado. Isso permite que as [instruções CREATE TABLE](create-table-statement-microsoft-access-sql.md) sejam gravadas para que os tipos de dados sejam processados de forma consistente com o Microsoft SQL Server.
+> - Um campo CHAR sempre será armazenado no formato de representação Unicode, o que equivale ao tipo de dados ANSI SQL NATIONAL CHAR.
+> - Se o nome do tipo de dados TEXT for usado e o tamanho opcional for especificado, por exemplo TEXT(25), o tipo de dados do campo será equivalente ao tipo de dados CHAR. Isso preserva a compatibilidade com versões anteriores para a maioria dos aplicativos Microsoft Jet, permitindo, ao mesmo tempo, que o tipo de dados TEXT (sem uma especificação de tamanho) seja alinhado ao Microsoft SQL Server.
 
 

@@ -6,24 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b1e22c3f85c4289520326c34c6d0c218a442a3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463818"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860991"
 ---
-# <a name="persisting-records-in-xml-format"></a>Mantendo registros em formato XML
+# <a name="persisting-records-in-xml-format"></a>Registros persistentes no formato XML
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Como no formato ADTG, a manutenção de **Recordset** no formato XML é implementada com o Microsoft OLE DB Persistence Provider. Esse provedor gera um conjunto de linhas somente leitura, somente de encaminhamento a partir de um fluxo ou arquivo XML salvo que contém as informações de esquema geradas pelo ADO. Da mesma maneira, ele pode pegar um **Recordset** do ADO, gerar o XML e salvá-lo em um arquivo ou em qualquer objeto que implemente a interface **IStream** do COM. (Na verdade, um arquivo é apenas outro exemplo de um objeto que oferece suporte ao **IStream**.) Para as versões 2.5 e posteriores, o ADO se baseia no Microsoft XML Parser (MSXML) para carregar o XML no **Recordset**; portanto, o msxml.dll é necessário. Para a versão 2.5, o MSXML foi fornecido com o Internet Explorer 5. Para a versão 2.6, o MSXML foi fornecido com o SQL Server 2000.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Algumas limitações de aplicam ao salvar <STRONG>Recordsets</STRONG> hierárquicos (formas de dados) em formato XML. Não será possível salvar em XML se o <STRONG>Recordset</STRONG> hierárquico contiver atualizações pendentes e não será possível salvar um <STRONG>Recordset</STRONG> hierárquico com parâmetros. Para obter mais informações, consulte <A href="hierarchical-recordsets-in-xml.md">Recordsets hierárquicos em XML</A>.</P>
-
+> [!OBSERVAçãO] Algumas limitações de aplicam ao salvar **Recordsets** hierárquicos (formas de dados) em formato XML. Não será possível salvar em XML se o **Recordset** hierárquico contiver atualizações pendentes e não será possível salvar um **Recordset** hierárquico com parâmetros. Para obter mais informações, consulte [Recordsets hierárquicos em XML](hierarchical-recordsets-in-xml.md).
 
 
 A maneira mais fácil de manter dados em XML e carregá-los novamente através do ADO é com os métodos **Save** e **Open**, respectivamente. O exemplo de código do ADO a seguir demonstra como salvar os dados da tabela Titles em um arquivo nomeado titles.sav.
@@ -67,3 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 O ADO sempre usa o conjunto de linhas do Mecanismo de cursor do cliente para produzir um objeto **Recordset** que pode ser rolado e indicado sobre os dados somente de encaminhamento gerados pelo Persistence Provider.
 
+Esta seção inclui os seguintes tópicos:
+
+- [Formato de persistência de XML](xml-persistence-format.md)
+
+- [Namespaces](namespaces.md)
+
+- [Seção de esquema](schema-section.md)
+
+- [Seção de dados](data-section.md)
+
+- [Conjuntos de registros hierárquicos em XML](hierarchical-recordsets-in-xml.md)
+
+- [Propriedades dinâmicas do Recordset em XML](recordset-dynamic-properties-in-xml.md)
+
+- [Transformações de XSLT](xslt-transformations.md)
+
+- [Salvar no objeto XML DOM](saving-to-the-xml-dom-object.md)
+
+- [Considerações sobre segurança XML](xml-security-considerations.md)
+
+- [Tópicos de cenário de persistência de Recordset XML](xml-recordset-persistence-scenario.md)

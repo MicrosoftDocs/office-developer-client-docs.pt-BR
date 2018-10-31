@@ -1,32 +1,31 @@
 ---
 title: Instrução DROP USER ou GROUP (Microsoft Access SQL)
-TOCTitle: DROP USER or GROUP Statement (Microsoft Access SQL)
+TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3a5cf75de06c13e2452e5f33b8355b7fb480d8a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a7988a2124af13dc84cefe678342da969e349a06
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462482"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864016"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Instrução DROP USER ou GROUP (Microsoft Access SQL)
 
-
 **Aplica-se a**: Access 2013 | Office 2013
 
-Exclui um ou mais *usuários* ou *grupos* ou remove um ou mais *usuários* existentes de um *grupo* existente.
+Exclui um ou mais existentes *usuários* ou *grupos*ou remove um ou mais *usuários* existentes de um *grupo*de existente.
 
 ## <a name="syntax"></a>Sintaxe
 
-Excluir um ou mais *usuários* ou remover um ou mais *usuários* de um *grupo*:
+**Excluir um ou mais _usuários_ ou remover um ou mais _usuários_ de um _grupo_**:
 
 DROP USER *usuário*\[, *usuário*,... \] \[De *grupo*\]
 
-Excluir um ou mais *grupos*:
+**Excluir um ou mais _grupos_**:
 
 DROP GROUP *grupo*\[, *grupo*,...\]
 
@@ -58,7 +57,7 @@ A instrução DROP USER ou GROUP tem estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-Se a palavra-chave FROM for utilizada na instrução DROP USER, cada um dos *usuários* listados na instrução será removido do *grupo* especificado, seguinte à palavra-chave FROM. Entretanto, os próprios *usuários* não serão excluídos.
+Se a palavra-chave FROM for usada na instrução DROP USER, cada um dos *usuários* listados na instrução será removido do *grupo* especificado após a palavra-chave FROM. No entanto, os *usuários* sozinhos não serão excluídos.
 
-A instrução DROP GROUP excluirá o(s) *grupo*(s) especificado(s). Os *usuários* que são membros do(s) *grupo*(s) não serão afetados, mas eles não serão mais membros do(s) *grupo*(s) excluídos.
+A instrução DROP GROUP excluirá o *grupo*especificado (s). Os *usuários* que são membros do *grupo*(s) não serão afetados, mas eles deixará de ser membros do *grupo*excluído (s).
 

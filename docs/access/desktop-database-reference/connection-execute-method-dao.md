@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3171ec1d35f08a5bc9d6a02a9a50ca80e11413de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464355"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862588"
 ---
 # <a name="connectionexecute-method-dao"></a>Método Execute (DAO)
 
@@ -47,11 +47,11 @@ Executa uma consulta de ação ou executa uma instrução SQL no objeto especifi
 <tr class="odd">
 <td><p>Query</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>String</strong> que é uma instrução SQL ou o valor da propriedade <strong>Name</strong> de um objeto <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que determina as características de integridade dos dados da consulta, conforme especificado em Configurações.</p></td>
@@ -111,18 +111,11 @@ Você pode usar as seguintes constantes **[RecordsetOptionEnum](recordsetoptione
 </tbody>
 </table>
 
-
+> [!NOTE]
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!OBSERVAçãO] As constantes <STRONG>dbConsistent</STRONG> e <STRONG>dbInconsistent</STRONG> são mutuamente exclusivas. Você pode usar uma ou outra, as não ambas em uma determinada instância de <STRONG>OpenRecordset</STRONG>. Usar <STRONG>dbConsistent</STRONG> e <STRONG>dbInconsistent</STRONG> causará um erro.</P>
-
-
+> [!OBSERVAçãO] As constantes **dbConsistent** e **dbInconsistent** são mutuamente exclusivas. Você pode usar uma ou outra, as não ambas em uma determinada instância de **OpenRecordset**. Usar **dbConsistent** e **dbInconsistent** causará um erro.
 
 O método **Execute** só será válido para consultas de ação. Se você usar **Execute** com outro tipo de consulta, ocorrerá um erro. Como uma consulta de ação não retorna registros, **Execute** não retorna um **Recordset** (a execução de uma consulta de passagem SQL em um espaço de trabalho ODBCDirect não retornará um erro se um **Recordset** não for retornado).
 

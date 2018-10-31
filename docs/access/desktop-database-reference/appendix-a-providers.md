@@ -1,19 +1,19 @@
 ---
-title: 'Apêndice A: provedores'
+title: 'Apêndice A: Provedores'
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: b3f92279-8d66-ad59-71c4-c0448168125a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbd9536edd15f923af85f2fadad8b696077af4a4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464489"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861439"
 ---
-# <a name="appendix-a-providers"></a>Apêndice A: provedores
+# <a name="appendix-a-providers"></a>Apêndice A: Provedores
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -49,31 +49,31 @@ Os detalhes de cada um dos provedores de dados atualmente disponíveis na Micros
 <tbody>
 <tr class="odd">
 <td><p>Bancos de dados ODBC</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Provedor Microsoft OLE DB para ODBC</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Serviço de Indexação da Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Provedor Microsoft OLE DB para Serviço de Indexação Microsoft</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Serviço do Active Directory da Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Provedor Microsoft OLE DB para Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bancos de dados do Microsoft Jet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">OLE DB Provider for Microsoft Jet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Provedor Microsoft OLE DB para Microsoft Jet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Provedor Microsoft OLE DB para SQL Server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bancos de dados Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Microsoft OLE DB Provider for Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Provedor Microsoft OLE DB para Oracle</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Publicação na Internet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider para Publicação de Internet</a></p></td>
 </tr>
 </tbody>
 </table>

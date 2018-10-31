@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 422d33e65f2ca3148276759a8c973295db8bc447
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464458"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861565"
 ---
 # <a name="ado-task-table"></a>Tabela de tarefas do ADO
 
@@ -34,7 +34,7 @@ A tabela a seguir lista tarefas de programação contidas no *Guia do programado
 <tbody>
 <tr class="odd">
 <td><p>Conectar um provedor de dados</p></td>
-<td><p><a href="making-a-connection.md">Fazendo uma conexão</a></p></td>
+<td><p><a href="making-a-connection.md">Criação de uma conexão</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Executar comandos ou chamar procedimentos armazenados</p></td>
@@ -50,7 +50,7 @@ A tabela a seguir lista tarefas de programação contidas no *Guia do programado
 </tr>
 <tr class="odd">
 <td><p>Mover para um registro específico</p></td>
-<td><p><a href="navigating-through-the-data.md">Navegando nos dados</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Navegação pelos dados</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Acessar valores das coluna</p></td>
@@ -62,11 +62,11 @@ A tabela a seguir lista tarefas de programação contidas no *Guia do programado
 </tr>
 <tr class="even">
 <td><p>Modificar dados e alterar valores</p></td>
-<td><p><a href="editing-existing-records.md">Editando registros existentes</a></p></td>
+<td><p><a href="editing-existing-records.md">Edição de registros existentes</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Adicionar novos dados</p></td>
-<td><p><a href="adding-records.md">Adicionando registros</a></p></td>
+<td><p><a href="adding-records.md">Adição de registros</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Excluir ou remover dados</p></td>
@@ -74,15 +74,15 @@ A tabela a seguir lista tarefas de programação contidas no *Guia do programado
 </tr>
 <tr class="odd">
 <td><p>Enviar alterações para a fonte de dados</p></td>
-<td><p><a href="updating-data.md">Atualizando os dados</a></p></td>
+<td><p><a href="updating-data.md">Atualização de dados</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Começar, confirmar e retomar transações</p></td>
-<td><p><a href="transaction-processing.md">Processamento de transação</a></p></td>
+<td><p><a href="transaction-processing.md">Processamento de transações</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Salvar registros em um arquivo (XML ou binário)</p></td>
-<td><p><a href="persisting-data.md">Mantendo dados</a></p></td>
+<td><p><a href="persisting-data.md">Dados persistentes</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Lidar com erros</p></td>
@@ -98,11 +98,11 @@ A tabela a seguir lista tarefas de programação contidas no *Guia do programado
 </tr>
 <tr class="odd">
 <td><p>Selecionar tipos de bloqueio</p></td>
-<td><p><a href="types-of-locks.md">Tipos de bloqueios</a></p></td>
+<td><p><a href="types-of-locks.md">Tipos de bloqueio</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Retornar registros relacionados em um <strong>Conjunto de registros</strong></p></td>
-<td><p><a href="data-shaping-summary.md">Resumo do data shaping</a></p></td>
+<td><p><a href="data-shaping.md">Data Shaping</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acessar dados semi-estruturados</p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462136"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862223"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Propriedade Field.DefaultValue (DAO)
 
@@ -33,8 +33,7 @@ A configuração ou o valor de retorno é um tipo de dados **String** que pode c
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você também pode definir a propriedade <STRONG>DefaultValue</STRONG> de um objeto <STRONG>Field</STRONG> em um objeto <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> para um valor especial chamado "GenUniqueID( )". Isso faz com que um número aleatório seja atribuído a esse campo sempre que um novo registro é adicionado ou criado, fornecendo a cada registro um identificador exclusivo. A propriedade <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> do campo de ver <STRONG>Long</STRONG>.</P>
-
+> [!OBSERVAçãO] Você também pode definir a propriedade **DefaultValue** de um objeto **Field** em um objeto [TableDef](tabledef-object-dao.md) para um valor especial chamado "GenUniqueID( )". Isso faz com que um número aleatório seja atribuído a esse campo sempre que um novo registro é adicionado ou criado, fornecendo a cada registro um identificador exclusivo. A propriedade [Type](field-type-property-dao.md) do campo de ver **Long**.
 
 
 A disponibilidade da propriedade **DefaultValue** depende do objeto que contém a coleção **Fields**, conforme mostrado na tabela a seguir.

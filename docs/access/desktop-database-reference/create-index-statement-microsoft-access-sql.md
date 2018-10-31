@@ -1,21 +1,21 @@
 ---
 title: Instrução CREATE INDEX (Microsoft Access SQL)
-TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
+TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab501348d19ad8577bf1a55a3f37c6c3923381b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7710dd89a645b10d20044e2eeaeb26986730c843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462352"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861551"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrução CREATE INDEX (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25462352"
 Cria um novo índice em uma tabela existente.
 
 > [!NOTE]
-> [!OBSERVAçãO] Para bancos de dados de mecanismo de banco de dados diferentes do Microsoft Access, o mecanismo de banco de dados Microsoft Access não fornece suporte ao uso de CREATE INDEX (exceto para criar um pseudo índice em uma tabela ODBC vinculada) nem de nenhuma instrução DDL (Data Definition Language). Use os métodos Create do DAO no lugar. Para obter mais informações, consulte a seção Comentários.
+> Para diferentes do Microsoft Access em bancos de dados, o mecanismo de banco de dados do Microsoft Access não suporta o uso de CREATE INDEX (exceto para criar um índice de falsos em uma tabela vinculada ODBC) ou qualquer uma das instruções data definition language (DDL). Use os métodos **Create DAO** . Confira mais informações na seção Comentários.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -64,7 +64,7 @@ A instrução CREATE INDEX contém estas partes:
 
 Para proibir valores duplicados no campo ou nos campos indexados de diferentes registros, use a palavra reservada UNIQUE.
 
-Na cláusula opcional WITH, você pode aplicar as regras de validação de dados. É possível:
+Na cláusula opcional WITH, você pode impor regras de validação de dados. É possível:
 
 - Proibir entradas nulas no campo ou nos campos indexados de novos registros, utilizando a opção DISALLOW NULL.
 
@@ -72,7 +72,7 @@ Na cláusula opcional WITH, você pode aplicar as regras de validação de dados
 
 - Designar o campo ou os campos indexados como a chave primária, utilizando a palavra reservada PRIMARY. Isso implica que a chave seja exclusiva, para que você possa omitir a palavra reservada UNIQUE.
 
-Você pode usar CREATE INDEX para criar um pseudo índice em uma tabela vinculada, em uma fonte de dados ODBC, como o Microsoft® SQL Server, que ainda não tem um índice. Você não precisa ter permissão nem acessar o servidor remoto para criar um pseudo índice, e o banco de dados remoto não está ciente de e não foi afetado pelo pseudo índice. Você utiliza a mesma sintaxe para ambas as tabelas vinculadas e nativas. A criação de um pseudo índice em uma tabela, que pode ser somente leitura, pode ser especialmente útil.
+Você pode usar CREATE INDEX para criar um índice de falsos em uma tabela vinculada em uma fonte de dados ODBC, como o Microsoft SQL Server, que ainda não tiver um índice. Você não precisa ter permissão nem acessar o servidor remoto para criar um pseudo índice, e o banco de dados remoto não está ciente de e não foi afetado pelo pseudo índice. Você utiliza a mesma sintaxe para ambas as tabelas vinculadas e nativas. A criação de um pseudo índice em uma tabela, que pode ser somente leitura, pode ser especialmente útil.
 
 Também é possível usar a instrução [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) para adicionar um índice de único arquivo ou de vários arquivos a uma tabela, e a instrução ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) para remover um índice criado com ALTER TABLE ou CREATE INDEX.
 

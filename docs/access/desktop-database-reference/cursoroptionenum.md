@@ -4,21 +4,22 @@ TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a6d6f66e3bdee06611faafef5d32a2a486fc2028
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 211ab4fc9bf4cab6302c8f2bd5f236aecdd0b078
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462886"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863634"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
-
 
 **Aplica-se a**: Access 2013 | Office 2013
 
 Especifica a funcionalidade para a qual o método [Supports](supports-method-ado.md) deve ser testado.
+
+<br/>
 
 <table>
 <colgroup>
@@ -103,7 +104,7 @@ Especifica a funcionalidade para a qual o método [Supports](supports-method-ado
 </table>
 
 
-**ADO/WFC Equivalente**
+### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 

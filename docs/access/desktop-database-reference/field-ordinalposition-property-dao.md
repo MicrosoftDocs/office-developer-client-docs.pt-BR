@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7151ed1a03c0ce0cf0204716d19bb7cfd2b4f607
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1218dd1cc6b1b309c5513a9b0f67a66d06d9c499
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462211"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863624"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Propriedade Field.OrdinalPosition (DAO)
 
@@ -48,23 +48,23 @@ OrdinalPosition será</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>Objeto <strong>index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
+<td><p>Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>
@@ -81,11 +81,8 @@ Dois ou mais objetos **Field** na mesma coleção podem ter o mesmo valor da pro
 
 Especifique um número maior que o número de campos menos 1. O campo será retornado em uma ordem relativa ao maior número. Por exemplo, se você definir a propriedade **OrdinalPosition** do campo como 20 (e existirem somente cinco campos) e já tiver definido a propriedade **OrdinalPosition** para outros dois campos como 10 e 30, respectivamente, o campo definido como 20 será retornado entre os campos definidos como 10 e 30.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Mesmo se a coleção <STRONG>Fields</STRONG> de um <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> não tiver sido atualizado, a ordem do campo em um <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> aberto a partir de <STRONG>TableDef</STRONG> refletirá os dados de <STRONG>OrdinalPosition</STRONG> do objeto <STRONG>TableDef</STRONG>. Um <STRONG>Recordset</STRONG> tipo tabela terá os mesmos dados de <STRONG>OrdinalPosition</STRONG> que a tabela base, mas nenhum outro tipo de <STRONG>Recordset</STRONG> terá novos dados <STRONG>OrdinalPosition</STRONG> (começando com 0) que seguirão a ordem determinada pelos dados <STRONG>OrdinalPosition</STRONG> de <STRONG>TableDef</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Mesmo se a coleção **Fields** de um [TableDef](tabledef-object-dao.md) não tiver sido atualizado, a ordem do campo em um [Recordset](recordset-object-dao.md) aberto a partir de **TableDef** refletirá os dados de **OrdinalPosition** do objeto **TableDef**. Um **Recordset** tipo tabela terá os mesmos dados de **OrdinalPosition** que a tabela base, mas nenhum outro tipo de **Recordset** terá novos dados **OrdinalPosition** (começando com 0) que seguirão a ordem determinada pelos dados **OrdinalPosition** de **TableDef**.
 
 ## <a name="example"></a>Exemplo
 

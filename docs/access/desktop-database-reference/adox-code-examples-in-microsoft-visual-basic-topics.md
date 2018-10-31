@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250246(v=office.15)
 ms:contentKeyID: 48548700
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 551ee657018cb10bffa714ffe388849bbbf6bbe1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: cc3f68fe2c47599a0b56d597927c7094231c35c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603154"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860425"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic-topics"></a>Exemplos de código do ADOX no Microsoft Visual Basic tópicos
 
@@ -21,7 +21,7 @@ ms.locfileid: "25603154"
 
   - [Exemplos de código do ADOX no Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Exemplo da propriedade Attributes (VB)](attributes-property-example-vb.md)
 
   - [Exemplo da propriedade ActiveConnection de catálogo (VB)](catalog-activeconnection-property-example-vb.md)
@@ -44,7 +44,7 @@ ms.locfileid: "25603154"
 =======
   - [Exemplo da propriedade Attributes (VB)](attributes-property-example-vb.md)
 
-  - [Exemplo da propriedade ActiveConnection catálogo (VB)](catalog-activeconnection-property-example-vb.md)
+  - [Exemplo da propriedade ActiveConnection de catálogo (VB)](catalog-activeconnection-property-example-vb.md)
 
   - [Exemplo da propriedade Clustered (VB)](clustered-property-example-vb.md)
 
@@ -71,7 +71,7 @@ ms.locfileid: "25603154"
 
   - [Exemplo do método Append de índices (VB)](indexes-append-method-example-vb.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Exemplo da propriedade IndexNulls (VB)](indexnulls-property-example-vb.md)
 
   - [Exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule, de tipo de chave e do método Append de chaves (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
@@ -103,23 +103,23 @@ ms.locfileid: "25603154"
 
   - [Exemplo do método Refresh de procedimentos (VB)](procedures-refresh-method-example-vb.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Exemplo da propriedade SortOrder (VB)](sortorder-property-example-vb.md)
 =======
   - [Exemplo da propriedade SortOrder (VB)](sortorder-property-example-vb.md)
 >>>>>>> mestre
 
-  - [Exemplo das coleções Views e Fields (VB)](views-and-fields-collections-example-vb.md)
+  - [Exemplo de modos de exibição e coleções Fields (VB)](views-and-fields-collections-example-vb.md)
 
-  - [Exemplo do método Append de modos de exibição (VB)](views-append-method-example-vb.md)
+  - [Exemplo do método Append de Views (VB)](views-append-method-example-vb.md)
 
-<<<<<<< Cabeça
+<<<<<<< HEAD
   - [Coleção Views, exemplo da propriedade CommandText (VB)](views-collection-commandtext-property-example-vb.md)
 =======
   - [Coleção Views, exemplo da propriedade CommandText (VB)](views-collection-commandtext-property-example-vb.md)
 >>>>>>> mestre
 
-  - [Exemplo do método Delete de modos de exibição (VB)](views-delete-method-example-vb.md)
+  - [Exemplo do método Delete de Views (VB)](views-delete-method-example-vb.md)
 
-  - [Exemplo do método Refresh de modos de exibição (VB)](views-refresh-method-example-vb.md)
+  - [Exemplo de exibições do método Refresh (VB)](views-refresh-method-example-vb.md)
 

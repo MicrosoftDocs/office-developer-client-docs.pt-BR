@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52822d45b30c631dcabe3c38b6722398e96f489f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464519"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862958"
 ---
 # <a name="cancelevent-macro-action"></a>Ação de macro CancelarEvento
 
@@ -56,12 +56,12 @@ Os eventos a seguir podem ser cancelados pala ação **CancelarEvento**.
 </tr>
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
-<td><p><strong>Filter</strong></p></td>
+<td><p><strong>Filtrar</strong></p></td>
 <td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BeforeUpdate</strong></p></td>
-<td><p><strong>Format</strong></p></td>
+<td><p><strong>Formato</strong></p></td>
 <td><p><strong>Imprimir</strong></p></td>
 </tr>
 <tr class="odd">
@@ -80,19 +80,14 @@ Os eventos a seguir podem ser cancelados pala ação **CancelarEvento**.
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você pode usar a ação <STRONG>CancelarEvento</STRONG> com o evento <STRONG>PressionarMouse</STRONG> somente para cancelar o evento que ocorre ao clicar com o botão direito do mouse em um objeto.</P>
-
-
+> [!OBSERVAçãO] Você pode usar a ação **CancelarEvento** com o evento **PressionarMouse** somente para cancelar o evento que ocorre ao clicar com o botão direito do mouse em um objeto.
 
 Se a configuração da propriedade de evento **OnDblClick** de um controle especificar uma macro que contém a ação **CancelarEvento**, esta cancelará o evento **ClicarDuasVezes**.
 
 Para eventos que podem ser cancelados, o comportamento padrão do evento (ou seja, o que o Access normalmente faz na ocorrência do evento) ocorre após a execução da macro do evento. Isso permite cancelar o comportamento padrão. Por exemplo, quando você clica duas vezes em uma palavra sobre a qual está o ponto de inserção em uma caixa de texto, o Access normalmente seleciona a palavra. É possível cancelar esse comportamento padrão na macro do evento **ClicarDuasVezes** e executar alguma outra ação, como abrir um formulário que contém informações sobre os dados na caixa de texto. Para eventos que não podem ser cancelados, o comportamento padrão ocorre antes de a macro ser executada.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se a propriedade de evento <STRONG>OnUnload</STRONG> de um formulário especificar uma macro que executa uma ação <STRONG>CancelarEvento</STRONG>, você não conseguirá fechar o formulário. Será necessário corrigir a condição que causou a execução da ação <STRONG>CancelarEvento</STRONG> ou abrir a macro e excluir a ação <STRONG>CancelarEvento</STRONG>. Se o formulário for restrito, você não conseguirá abrir a macro.</P>
-
-
+> [!OBSERVAçãO] Se a propriedade de evento **OnUnload** de um formulário especificar uma macro que executa uma ação **CancelarEvento**, você não conseguirá fechar o formulário. Será necessário corrigir a condição que causou a execução da ação **CancelarEvento** ou abrir a macro e excluir a ação **CancelarEvento**. Se o formulário for restrito, você não conseguirá abrir a macro.
 
 Para executar a ação **CancelarEvento** em um módulo do VBA (Visual Basic for Applications), use o método **CancelEvent** do objeto **DoCmd**.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d80ac5b545f07d3bd39f69f16c4578e49439cdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462018"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861852"
 ---
 # <a name="closewindow-macro-action"></a>Ação de macro FecharJanela
 
@@ -47,7 +47,7 @@ A ação **FecharJanela** tem os seguintes argumentos.
 </p>
 
 > [!NOTE]
-> <P>Se você estiver fechando um módulo no Editor do Visual Basic, use <STRONG>Módulo</STRONG> no argumento <STRONG>Tipo de Objeto</STRONG>.</P>
+> Se você estiver fechando um módulo no Editor do Visual Basic, use **Módulo** no argumento **Tipo de Objeto**.
 
 
 <p></p></td>

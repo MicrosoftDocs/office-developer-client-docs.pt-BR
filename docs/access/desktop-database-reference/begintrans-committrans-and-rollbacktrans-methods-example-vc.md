@@ -1,19 +1,19 @@
 ---
 title: Exemplo dos métodos BeginTrans, CommitTrans e RollbackTrans (VC + +)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VC++)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
 ms:contentKeyID: 48547182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b9d003ff76295a88c26e29138af4ce2219db755
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 29c0a3fe2f39b6ab3d384f05a52e99e6c1d520d1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464114"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862986"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a>Exemplos dos métodos BeginTrans, CommitTrans e RollbackTrans (VC++)
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a>Exemplo dos métodos BeginTrans, CommitTrans e RollbackTrans (VC++)
 
 
 **Aplica-se a**: Access 2013 | Office 2013

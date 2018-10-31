@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e498bc461c2c267dee741a2bd9a4a83eacaca935
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 686c860ef9d8975b02391fedcea8f4b6f4e0b9bb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465237"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862293"
 ---
-# <a name="data-shaping"></a>Forma dos dados
+# <a name="data-shaping"></a>Data Shaping
 
 
 **Aplica-se a**: Access 2013 | Office 2013
@@ -38,3 +38,12 @@ Você pode acessar os componentes **Recordset** do **Recordset** formado de form
 
 Para obter exemplos de comandos shape e suas hierarquias resultantes, consulte Usando o serviço de forma de dados para OLE DB: Uma visão geral melhor.
 
+Esta seção inclui os seguintes tópicos:
+
+- [Reformatação](reshaping.md)
+
+- [Agregados neto](grandchild-aggregates.md)
+
+- [Comandos com parâmetros e comandos COMPUTE de intervenção](parameterized-commands-with-intervening-compute-commands.md)
+
+- [Mantendo conjuntos de registros hierárquicos](persisting-hierarchical-recordsets.md)

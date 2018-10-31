@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5270acfe22d4b19447290be7f626185b5375cdbf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ccfb0239cda03ec8a89722d0669cd66acfa74922
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465063"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860893"
 ---
 # <a name="field-members-dao"></a>Membros do campo (DAO)
 
@@ -105,7 +105,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 <td><p></p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 <p>Retorna o valor de um <strong>Field</strong> no banco de dados existente quando começou a última atualização em lotes (somente nos espaços de trabalho ODBCDirect).</p></td>
@@ -155,7 +155,7 @@ Um objeto Field representa uma coluna de dados com um tipo de dados comum e um c
 <td><p></p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 <p>Retorna um valor atualmente no banco de dados mais recente que a propriedade <strong>OriginalValue</strong> como determinado pelo conflito de atualização em lotes (somente nos espaços de trabalho do ODBCDirect).</p></td>

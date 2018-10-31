@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191716(v=office.15)
 ms:contentKeyID: 48543712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9790a25e38c237c151f3679712b1c6975c3d6f7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 221e14668d87b5aa342dfa007220d7a5e1b755f5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462929"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860368"
 ---
 # <a name="exitforeachrecord-macro-action"></a>Ação de macro SairparaCadaRegistro
 
@@ -22,6 +22,6 @@ Use a ação **SairparaCadaRegistro** para sair imediatamente de um bloco de dad
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] A ação <STRONG>SairparaCadaRegistro</STRONG> está disponível somente em Macros de Dados.</P>
+> [!OBSERVAçãO] A ação **SairparaCadaRegistro** está disponível somente em Macros de Dados.
 
 

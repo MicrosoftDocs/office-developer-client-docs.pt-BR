@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15f868867466bdbce6f15b326a88b7a9f0842015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58e36426360abf36d7fdf0cb026f6d8ff14b29b5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462187"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864004"
 ---
 # <a name="database-members-dao"></a>Membros do banco de dados (DAO)
 
@@ -109,7 +109,7 @@ Um objeto Database representa um banco de dados aberto.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 <p>Retorna o objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde ao banco de dados (apenas espaços de trabalho ODBCDirect).</p></td>

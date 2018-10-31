@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2b078f2d8f1ea6562d6f82f90943923c7d92a07
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 612a78d8ac99a070f133fd3804f5b69c8093d47c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464498"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862594"
 ---
 # <a name="axes-collection-ado-md"></a>Coleção Axes (ADO MD)
 
@@ -26,7 +26,7 @@ Um objeto [Cellset](cellset-object-ado-md.md) contém uma coleção **Axes**. Qu
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O eixo de filtro de um <STRONG>Cellset</STRONG> não está contido na coleção <STRONG>Axes</STRONG>. Consulte a propriedade <A href="filteraxis-property-ado-md.md">FilterAxis</A> para obter mais informações.</P>
+> [!OBSERVAçãO] O eixo de filtro de um **Cellset** não está contido na coleção **Axes**. Consulte a propriedade [FilterAxis](filteraxis-property-ado-md.md) para obter mais informações.
 
 
 

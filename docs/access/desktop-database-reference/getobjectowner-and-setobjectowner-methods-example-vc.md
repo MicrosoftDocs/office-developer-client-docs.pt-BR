@@ -1,24 +1,24 @@
 ---
 title: Exemplo dos métodos GetObjectOwner e SetObjectOwner (VC++)
-TOCTitle: GetObjectOwner and SetObjectOwner Methods Example (VC++)
+TOCTitle: GetObjectOwner and SetObjectOwner methods example (VC++)
 ms:assetid: af38cc5c-4475-20fa-edcd-a439e1ffbf99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1efe20d78c6be737ee32b5b8156a9d311ad654e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 488e4f966bb37dd151eca8ab7231769373cc06e8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464227"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864190"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a>Exemplo dos métodos GetObjectOwner e SetObjectOwner (VC++)
 
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Este código considera a existência do grupo Accounting (consulte [Exemplo dos métodos Append e ChangePassword de grupos e usuários (VB)](groups-and-users-append-changepassword-methods-example-vc.md) para ver como adicionar esse grupo ao sistema). O proprietário da tabela Categories é definido como Accounting.
+Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VC + +)](groups-and-users-append-changepassword-methods-example-vc.md) para ver como adicionar esse grupo para o sistema). O proprietário da tabela Categories é definido como Accounting.
 
 ```cpp 
  

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8bce151e800b58e9c99c6dd6591114c53208a5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dc8f7a2d217a25a8404765aa05bae19fdccad2c3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462764"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863861"
 ---
 # <a name="append-method-adox-users"></a>Método Append (Usuários do ADOX)
 
@@ -43,6 +43,6 @@ Ocorrerá um erro se o provedor não oferecer suporte para a criação de usuár
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Antes de um objeto <STRONG>User</STRONG> ser anexado à coleção <STRONG>Users</STRONG> de um objeto <STRONG>Group</STRONG>, na coleção <STRONG>Users</STRONG> do <A href="name-property-adox.md">Catálogo</A> já deve existir um objeto <STRONG>User</STRONG> com o mesmo <STRONG>Nome</STRONG> daquele a ser anexado.</P>
+> [!OBSERVAçãO] Antes de um objeto **User** ser anexado à coleção **Users** de um objeto **Group**, na coleção **Users** do [Catálogo](name-property-adox.md) já deve existir um objeto **User** com o mesmo **Nome** daquele a ser anexado.
 
 

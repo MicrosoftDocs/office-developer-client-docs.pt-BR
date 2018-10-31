@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62e57c91acd83291ee7390d305303521510acbd2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464384"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864134"
 ---
 # <a name="ado-technology-table"></a>Tabela de tecnologia do ADO
 
@@ -38,7 +38,7 @@ A tabela seguir lista os produtos, ferramentas e tecnologias Microsoft discutida
 </tr>
 <tr class="even">
 <td><p>Interfaces de serviço do Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Provedor Microsoft OLE DB para Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
@@ -46,11 +46,11 @@ A tabela seguir lista os produtos, ferramentas e tecnologias Microsoft discutida
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider para Publicação de Internet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Serviço de indexação</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Provedor Microsoft OLE DB para Serviço de Indexação Microsoft</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>
@@ -74,7 +74,7 @@ A tabela seguir lista os produtos, ferramentas e tecnologias Microsoft discutida
 </tr>
 <tr class="odd">
 <td><p>Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Microsoft OLE DB Provider for Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Provedor Microsoft OLE DB para Oracle</a></p></td>
 </tr>
 <tr class="even">
 <td><p>SQL Server 2000</p></td>
