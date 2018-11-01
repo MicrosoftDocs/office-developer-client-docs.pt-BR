@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="64da8-101"><<<<<<< Título cabeça: exemplo de propriedade Sort (VB) TOCTitle: exemplo de propriedade Sort (VB) === título: exemplo da propriedade Sort (VB) TOCTitle: exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="64da8-101"><<<<<<< HEAD title: Sort Property Example (VB) TOCTitle: Sort Property Example (VB) ======= title: Sort property example (VB) TOCTitle: Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="64da8-102">ms:assetid de mestre: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: ms.date 48545539: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="64da8-102">master ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade Sort (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891251"
 ---
-
-<span data-ttu-id="64da8-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="64da8-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vb"></a><span data-ttu-id="64da8-104">Exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="64da8-104">Sort Property Example (VB)</span></span>
-=======
-# <a name="sort-property-example-vb"></a><span data-ttu-id="64da8-105">Exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="64da8-105">Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="64da8-106">mestre</span><span class="sxs-lookup"><span data-stu-id="64da8-106">master</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="137ba-102">Exemplo da propriedade Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="137ba-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="64da8-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="64da8-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="137ba-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="137ba-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64da8-p101">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***. Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="64da8-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="137ba-p101">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***. Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="137ba-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -94,7 +100,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="64da8-110">Essa é a rotina secundária do utilitário que imprime o título determinado e o conteúdo do **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="64da8-110">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="137ba-106">Essa é a rotina secundária do utilitário que imprime o título determinado e o conteúdo do **Recordset** especificado.</span><span class="sxs-lookup"><span data-stu-id="137ba-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  

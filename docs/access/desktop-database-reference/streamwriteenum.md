@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
 ms:contentKeyID: 48547216
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 76286fcd09e5b92f19d8dbf0e8d0419ad4c600df
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7ba09a0b741483713dfa019062309344eecdb139
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861887"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891118"
 ---
-# <a name="streamwriteenum"></a><span data-ttu-id="2aede-102">StreamWriteEnum</span><span class="sxs-lookup"><span data-stu-id="2aede-102">StreamWriteEnum</span></span>
+# <a name="streamwriteenum"></a><span data-ttu-id="61fb6-102">StreamWriteEnum</span><span class="sxs-lookup"><span data-stu-id="61fb6-102">StreamWriteEnum</span></span>
 
-<span data-ttu-id="2aede-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2aede-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="61fb6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="61fb6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2aede-104">Especifica se um separador de linha está anexado à string gravada em um objeto [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2aede-104">Specifies whether a line separator is appended to the string written to a [Stream](stream-object-ado.md) object.</span></span>
+<span data-ttu-id="61fb6-104">Especifica se um separador de linha está anexado à string gravada em um objeto [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="61fb6-104">Specifies whether a line separator is appended to the string written to a [Stream](stream-object-ado.md) object.</span></span>
 
 <br/>
 
@@ -29,27 +29,27 @@ ms.locfileid: "25861887"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2aede-105">Constant</span><span class="sxs-lookup"><span data-stu-id="2aede-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="2aede-106">Valor</span><span class="sxs-lookup"><span data-stu-id="2aede-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="2aede-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="2aede-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="61fb6-105">Constant</span><span class="sxs-lookup"><span data-stu-id="61fb6-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="61fb6-106">Valor</span><span class="sxs-lookup"><span data-stu-id="61fb6-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="61fb6-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="61fb6-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2aede-108"><strong>adWriteChar</strong></span><span class="sxs-lookup"><span data-stu-id="2aede-108"><strong>adWriteChar</strong></span></span></p></td>
-<td><p><span data-ttu-id="2aede-109">0</span><span class="sxs-lookup"><span data-stu-id="2aede-109">0</span></span></p></td>
-<td><p><span data-ttu-id="2aede-p101">Padrão. Grava a sequência de texto especificada (especificada por parâmetro <em>Data</em>) no objeto <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2aede-p101">Default. Writes the specified text string (specified by the <em>Data</em> parameter) to the <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="61fb6-108"><strong>adWriteChar</strong></span><span class="sxs-lookup"><span data-stu-id="61fb6-108"><strong>adWriteChar</strong></span></span></p></td>
+<td><p><span data-ttu-id="61fb6-109">0</span><span class="sxs-lookup"><span data-stu-id="61fb6-109">0</span></span></p></td>
+<td><p><span data-ttu-id="61fb6-p101">Padrão. Grava a sequência de texto especificada (especificada por parâmetro <em>Data</em>) no objeto <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="61fb6-p101">Default. Writes the specified text string (specified by the <em>Data</em> parameter) to the <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2aede-112"><strong>adWriteLine</strong></span><span class="sxs-lookup"><span data-stu-id="2aede-112"><strong>adWriteLine</strong></span></span></p></td>
-<td><p><span data-ttu-id="2aede-113">1</span><span class="sxs-lookup"><span data-stu-id="2aede-113">1</span></span></p></td>
-<td><p><span data-ttu-id="2aede-p102">Grava uma sequência de texto e um caractere de separador de linha em um objeto <strong>Stream</strong>. Se a propriedade <a href="lineseparator-property-ado.md">LineSeparator</a> não for definida, retornará um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="2aede-p102">Writes a text string and a line separator character to a <strong>Stream</strong> object. If the <a href="lineseparator-property-ado.md">LineSeparator</a> property is not defined, then this returns a run-time error.</span></span></p></td>
+<td><p><span data-ttu-id="61fb6-112"><strong>adWriteLine</strong></span><span class="sxs-lookup"><span data-stu-id="61fb6-112"><strong>adWriteLine</strong></span></span></p></td>
+<td><p><span data-ttu-id="61fb6-113">1</span><span class="sxs-lookup"><span data-stu-id="61fb6-113">1</span></span></p></td>
+<td><p><span data-ttu-id="61fb6-p102">Grava uma sequência de texto e um caractere de separador de linha em um objeto <strong>Stream</strong>. Se a propriedade <a href="lineseparator-property-ado.md">LineSeparator</a> não for definida, retornará um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="61fb6-p102">Writes a text string and a line separator character to a <strong>Stream</strong> object. If the <a href="lineseparator-property-ado.md">LineSeparator</a> property is not defined, then this returns a run-time error.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="2aede-116">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="2aede-116">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="61fb6-116">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="61fb6-116">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="2aede-117">Essas constantes não têm ADO/WFC equivalentes.</span><span class="sxs-lookup"><span data-stu-id="2aede-117">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="61fb6-117">Essas constantes não têm ADO/WFC equivalentes.</span><span class="sxs-lookup"><span data-stu-id="61fb6-117">These constants do not have ADO/WFC equivalents.</span></span>
 

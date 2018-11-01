@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="03c55-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade MaxRecords (VJ + +): exemplo da propriedade MaxRecords (VJ + +) === título: exemplo da propriedade MaxRecords (VJ + +) TOCTitle: exemplo da propriedade MaxRecords (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="03c55-101"><<<<<<< HEAD title: MaxRecords Property Example (VJ++) TOCTitle: MaxRecords Property Example (VJ++) ======= title: MaxRecords property example (VJ++) TOCTitle: MaxRecords property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="03c55-102">ms:assetid de mestre: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: ms.date 48548106: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="03c55-102">master ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: 48548106 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade MaxRecords (VJ++)
+TOCTitle: MaxRecords property example (VJ++)
+ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
+ms:contentKeyID: 48548106
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 57a0aa8b065df622cfc89153c41b3ef31f08eca9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877874"
 ---
-
-<span data-ttu-id="03c55-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="03c55-103"><<<<<<< HEAD</span></span>
-# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="03c55-104">Exemplo da propriedade MaxRecords (VJ++)</span><span class="sxs-lookup"><span data-stu-id="03c55-104">MaxRecords Property Example (VJ++)</span></span>
-=======
-# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="03c55-105">Exemplo da propriedade MaxRecords (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="03c55-105">MaxRecords property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="03c55-106">mestre</span><span class="sxs-lookup"><span data-stu-id="03c55-106">master</span></span>
+# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="c013d-102">Exemplo da propriedade MaxRecords (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c013d-102">MaxRecords property example (VJ++)</span></span>
 
 
-<span data-ttu-id="03c55-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="03c55-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c013d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c013d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03c55-108">Este exemplo usa a propriedade [MaxRecords](maxrecords-property-ado.md) para abrir um [Recordset](recordset-object-ado.md) contendo os 10 títulos mais caros da tabela ***Titles***.</span><span class="sxs-lookup"><span data-stu-id="03c55-108">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="c013d-104">Este exemplo usa a propriedade [MaxRecords](maxrecords-property-ado.md) para abrir um [Recordset](recordset-object-ado.md) contendo os 10 títulos mais caros da tabela ***Titles***.</span><span class="sxs-lookup"><span data-stu-id="c013d-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```java 
  
