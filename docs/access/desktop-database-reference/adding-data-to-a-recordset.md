@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42cdf33d7b34dc4a48392d21dcdb2d9de26b4bbc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b013ab0b05242b4928f7a9b9d974ef98ca6103d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463463"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885021"
 ---
-# <a name="adding-data-to-a-recordset"></a>Adicionando dados a um Recordset
+# <a name="adding-data-to-a-recordset"></a>Adição de dados a um conjunto de registros
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 É provável que o **Recordset** seja o objeto mais utilizado do ADO. No ADO, um **Recordset** é considerado como a combinação de um conjunto de resultados de uma fonte de dados com seus comportamentos de cursor associados. Portanto, você pode incluir dados em um **Recordset** e, em seguida, usar os métodos e as propriedades do **Recordset** para navegar pelas linhas de dados, exibir os valores das linhas e, de outro modo, manipular o conjunto de resultados.
 

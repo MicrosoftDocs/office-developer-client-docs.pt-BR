@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b30049348171fcd65bbc2edd25c18256a12c955
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d7d6c54913511ab593ee77d374ed55984ed40b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463319"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883250"
 ---
 # <a name="openstoredprocedure-macro-action"></a>Ação de macro AbrirProcedimentoArmazenado
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirProcedimentoArmazenado** para abrir um procedimento armazenado em modo Folha de Dados, em modo Design de procedimento armazenado ou Visualizar Impressão. Esta ação executa o procedimento armazenado nomeado quando aberta em modo Folha de Dados. Você pode selecionar o modo de entrada de dados do procedimento armazenado e restringir os registros exibidos pelo procedimento armazenado.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
 ms:contentKeyID: 48548935
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3c5d05c958a30f1ec5782a5dce0dd66ccd5dad4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c362e87f3e962586c2bd821bd6facb35966a77f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462307"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886834"
 ---
-# <a name="using-bookmarks"></a>Usando indicadores
+# <a name="using-bookmarks"></a>Uso de marcadores
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Frequentemente é útil retornar diretamente a um registro específico depois de ter percorrido o **Recordset** sem precisar rolar por cada registro e comparar valores. Por exemplo, se você tentar pesquisar um registro usando o método **Find** mas a pesquisa não retornar nenhum registro, você será colocado automaticamente em alguma extremidade do **Recordset**. Se o provedor oferecer suporte, poderão ser usados indicadores para marcar seu lugar antes de usar o método **Find**, de forma que você pode retornar ao local. Um indicador é um valor do tipo **Variant** que identifica de maneira exclusiva um registro em um objeto **Recordset**.
 

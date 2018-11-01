@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb9321434dc039527daa99f2b24abf83a4c3383e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6dc2e38c7459fea46c33373447276d8643b4b0de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463073"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887373"
 ---
-# <a name="what-is-a-cursor"></a>O que é um Cursor?
+# <a name="what-is-a-cursor"></a>O que é um cursor?
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 As operações em um banco de dados relacional agem em um conjunto completo de linhas. O conjunto de linha retornado por uma instrução SELECT é composto por todas as linhas que atendem às condições na cláusula WHERE da instrução. Esse conjunto completo de linhas retornado pela instrução é conhecido como o conjunto de resultados. Os aplicativos, especialmente aqueles que são interativos e estão online, nem sempre podem trabalhar de forma eficiente com um conjunto inteiro de resultados como uma unidade. Esses aplicativos precisam de um mecanismo para trabalharem com uma linha ou um pequeno bloco de linhas por vez. Os cursores são uma extensão dos conjuntos de resultados que fornecem esse mecanismo.
 

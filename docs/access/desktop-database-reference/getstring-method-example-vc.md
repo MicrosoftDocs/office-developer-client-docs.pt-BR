@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249078(v=office.15)
 ms:contentKeyID: 48544007
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 272bd716cddf32403f2757fbe5c4ad371b1c1688
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5bb6fb87a1c3c965593285fe49a68691be2d1734
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860515"
+ms.locfileid: "25888080"
 ---
 # <a name="getstring-method-example-vc"></a>Exemplo do método GetString (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra o método [GetString](getstring-method-ado.md).
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ab6b3a265b6e63680add41ec051ba61a262819bd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861852"
+ms.locfileid: "25876838"
 ---
 # <a name="closewindow-macro-action"></a>Ação de macro FecharJanela
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **fecharJanela** para fechar uma guia de documento especificada do Access ou a guia do documento ativo se nenhuma estiver especificada.
 

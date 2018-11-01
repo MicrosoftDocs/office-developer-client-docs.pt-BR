@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249952(v=office.15)
 ms:contentKeyID: 48547562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4e815f7bb6d1c93e5d2d61275eefa15c962a70de
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fbe2a3e16fc162fb02613e0df4db7cc52dd60882
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863784"
+ms.locfileid: "25880730"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vj"></a>Exemplo dos métodos AppendChunk e GetChunk (VJ++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa os métodos [AppendChunk](appendchunk-method-ado.md) e [GetChunk](getchunk-method-ado.md) para preencher um campo de imagem com dados de outro registro.
 

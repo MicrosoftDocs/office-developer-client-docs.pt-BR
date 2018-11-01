@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250264(v=office.15)
 ms:contentKeyID: 48548794
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15441f3cb2c9e7d612a48a576bcfa73bd7ea680d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 97b0b423886430cbf7d299339417d0e33042a704
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464109"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882529"
 ---
 # <a name="position-object-ado-md"></a>Objeto Position (ADO MD)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Representa um conjunto de um ou mais membros de diferentes dimensões que define um ponto em um eixo.
 

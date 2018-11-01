@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec001c57f72582dcdaabdfd6e76069582468b54c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487b6e676816ab571cb08f6cfe7870362c7a8c84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462007"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868431"
 ---
 # <a name="server-property-rds"></a>Propriedade Server (RDS)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o nome do IIS (Serviços de Informações da Internet) e o protocolo de comunicação.
 

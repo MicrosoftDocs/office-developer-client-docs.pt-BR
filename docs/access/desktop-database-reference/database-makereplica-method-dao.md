@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8596548389b066b6ff11e7103090ef50906d79a9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8274d441c246d7363ec5d5c603c3079da732c84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464789"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880800"
 ---
 # <a name="databasemakereplica-method-dao"></a>Método Database.MakeReplica (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente espaços de trabalho do Microsoft Access).
 
@@ -50,17 +50,17 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 <tr class="odd">
 <td><p>Nome do caminho</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho e o nome de arquivo da nova réplica. Se réplica for um nome de arquivo existente, ocorrerá um erro.</p></td>
 </tr>
 <tr class="even">
 <td><p>Descrição</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A <strong>String</strong> que descreve a réplica que está sendo criada</p></td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> que especifica as características da réplica que você está criando.</p></td>

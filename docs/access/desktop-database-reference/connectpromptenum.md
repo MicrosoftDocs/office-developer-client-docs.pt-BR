@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
 ms:contentKeyID: 48545965
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f10fd9fada954bb5e3a356961636b2022c73bae3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 387e9a853a306b2375034359ce26db50685afcc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862166"
+ms.locfileid: "25887905"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica se uma caixa de diálogo deve ser exibida para avisar sobre parâmetros ausentes ao abrir uma conexão para uma fonte de dados.
 

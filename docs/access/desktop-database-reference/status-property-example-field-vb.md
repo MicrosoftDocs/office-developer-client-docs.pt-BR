@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo da propriedade Status (Field) (VB) TOCTitle: exemplo da propriedade Status (Field) (VB) === título: exemplo da propriedade Status (Field) (VB) TOCTitle: exemplo da propriedade Status (Field) (VB)
->>>>>>> ms:assetid de mestre: 1dc2807f-f469-de97-1280-4b1984b271b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15) ms:contentKeyID: ms.date 48543601: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Status (Field) (VB)
+TOCTitle: Status property example (Field) (VB)
+ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
+ms:contentKeyID: 48543601
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 680df8832bea713155435b6a315a008dae7e3309
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873471"
 ---
-
-<<<<<<< Cabeça
 # <a name="status-property-example-field-vb"></a>Exemplo da propriedade Status (Field) (VB)
-=======
-# <a name="status-property-example-field-vb"></a>Exemplo da propriedade status (Field) (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O exemplo a seguir abre um documento a partir de uma pasta leitura/gravação utilizando o [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). A propriedade [Status](status-property-ado-field.md) de um objeto [Field](field-object-ado.md) do [Record](record-object-ado.md) será definida primeiramente como **adFieldPendingInsert** e, em seguida, atualizada como **adFieldOk**.
 

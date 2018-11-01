@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249473(v=office.15)
 ms:contentKeyID: 48545643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ae3f65b42032e9a5d8f905516de080a9c575e5b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6a570171386a1ff00e1740e42cf914683ad5eb03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863625"
+ms.locfileid: "25871525"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica se [Parameter](parameter-object-ado.md) representa um parâmetro de entrada, de saída, ou ambos, ou o valor de retorno de um procedimento armazenado.
 

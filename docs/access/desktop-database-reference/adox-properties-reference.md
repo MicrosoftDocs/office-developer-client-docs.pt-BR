@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249682(v=office.15)
 ms:contentKeyID: 48546486
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5902dfe68b7b1302d31ace384a0504ee4d4dd38e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c38743305bb5439fcd3761ca7b770b9a64a6e8a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464335"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869572"
 ---
 # <a name="adox-properties-reference"></a>Referência de propriedades do ADOX
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
   - [Propriedades do ADOX](adox-properties.md)

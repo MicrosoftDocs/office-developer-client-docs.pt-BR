@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7a761fbc6404cf72818271b956bfc63516942d25
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4e7f27cb696b085b5c4536477ee3454df09cfabe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863280"
+ms.locfileid: "25881283"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>Instrução UPDATE (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria uma consulta de atualização que altera os valores nos campos em uma tabela especificada com base em critérios específicos.
 

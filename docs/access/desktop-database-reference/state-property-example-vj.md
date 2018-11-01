@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade de estado (VJ + +): exemplo da propriedade de estado (VJ + +) === título: exemplo da propriedade de estado (VJ + +) TOCTitle: exemplo da propriedade de estado (VJ + +)
->>>>>>> ms:assetid de mestre: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: ms.date 48545869: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade State (VJ++)
+TOCTitle: State property example (VJ++)
+ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
+ms:contentKeyID: 48545869
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881682"
 ---
-
-<<<<<<< Cabeça
 # <a name="state-property-example-vj"></a>Exemplo da propriedade State (VJ++)
-=======
-# <a name="state-property-example-vj"></a>Exemplo da propriedade State (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [State](state-property-ado.md) para exibir uma mensagem enquanto conexões assíncronas estiverem sendo abertas e comandos assíncronos estiverem sendo executados.
 

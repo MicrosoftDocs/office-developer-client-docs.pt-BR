@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cba5790ae557f7e5b29e8068d09d6fa7451cfb27
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d5e6ecf7683a41ddb057467f892155143c33144
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463634"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882431"
 ---
 # <a name="fieldallowzerolength-property-dao"></a>Propriedade Field.AllowZeroLength (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que indica que a sequência de comprimento zero ("") é uma configuração válida para a propriedade **[Value](field-value-property-dao.md)** do objeto **[Field](field-object-dao.md)** com um tipo de dados Texto ou Memorando (apenas espaços de trabalho do Microsoft Access).
 
@@ -52,19 +52,19 @@ Depois de acrescentado a uma coleção **Fields**, a disponibilidade da propried
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
+<td><p>Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

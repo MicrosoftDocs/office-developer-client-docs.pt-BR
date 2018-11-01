@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: Filter e RecordCount exemplo das propriedades (VJ + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VJ + +) === título: exemplo das propriedades Filter e RecordCount (VJ + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VJ + +)
->>>>>>> ms:assetid de mestre: cf062f99-f935-6bf3-a245-fa345ead78db ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15) ms:contentKeyID: ms.date 48547798: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades Filter e RecordCount (VJ++)
+TOCTitle: Filter and RecordCount properties example (VJ++)
+ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
+ms:contentKeyID: 48547798
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 13d0173886b2b75d6e416d242eb6f437c97418ec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884720"
 ---
-
-<<<<<<< Cabeça
 # <a name="filter-and-recordcount-properties-example-vj"></a>Exemplo das propriedades Filter e RecordCount (VJ++)
-=======
-# <a name="filter-and-recordcount-properties-example-vj"></a>Exemplo das propriedades Filter e RecordCount (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.
 

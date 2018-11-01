@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5a578d0a3e17bfa04c18ea4b2c69c43c22ffc5d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d175308d634734b9c06a37617a16d0dfc54a3973
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606070"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875564"
 ---
 # <a name="the-ado-family-of-libraries"></a>Família de bibliotecas do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 
@@ -26,9 +26,7 @@ Três bibliotecas principais compõem a família ADO: ADO (incluindo RDS), ADO M
 
 O ADO permite que os aplicativos clientes acessem e manipulem dados de um servidor de banco de dados através de um provedor OLE DB. Os principais benefícios do ADO são a facilidade de uso, a alta velocidade, baixa sobrecarga de memória e uma pequena superfície do disco. O ADO oferece suporte para os principais recursos de criação de aplicativos cliente/servidor e baseados na Web.
 
-<<<<<<< Cabeça ADO também Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e dos recursos.
-=== ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
->>>>>>> mestre
+ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
 
 ## <a name="ado-md"></a>ADO MD
 

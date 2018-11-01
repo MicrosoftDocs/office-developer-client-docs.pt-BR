@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
 ms:contentKeyID: 48546174
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be9e0f8e017e91152ed876b933e0c0c01a7f355e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a051c62d73a36fed0832f17b1cb53b1641d4a152
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465454"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889277"
 ---
-# <a name="reshaping"></a>Alterando a forma
+# <a name="reshaping"></a>Remodelagem
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A um **Recordset** criado por uma cláusula de um comando shape pode ser atribuído um nome de *alias* (geralmente com a palavra-chave AS). O alias de um **Recordset** com forma pode ser mencionado em um comando totalmente diferente. Ou seja, você pode usar novamente ou *alterar a forma* de um **Recordset** com formato anterior em um novo comando shape. Para oferecer suporte a este recurso, o ADO fornece uma propriedade, [Reshape Name](reshape-name-property-dynamic-ado.md).
 

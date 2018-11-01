@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c25197f0a8a45487f93f56543f73a2beeea062ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2fb5171e8b0a0b23f46ff5b4667b4c2b0ff4df34
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603151"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889837"
 ---
 # <a name="hellodata-details"></a>Detalhes do HelloData
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O aplicativo HelloData passa por todas as operações básicas de um aplicativo típico do ADO: obter, examinar, editar e atualizar dados. Ao iniciar o aplicativo, clique no primeiro botão, **Get Data**. Isso executará a sub-rotina GetData().
 
@@ -28,9 +28,7 @@ Use uma instrução **OnError** do Visual Basic para atribuir um manipular de er
 
 Depois que a conexão for aberta, atribua uma cadeia de caracteres SQL a uma variável (sSQL). Em seguida, criar uma instância de um novo objeto **Recordset** , m\_oRecordset1. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando. Na próxima linha de código, abra o **Recordset** através da existente **Conexão**, passando sSQL como a origem do **Recordset**. Para ajudar o ADO a determinar que a cadeia de caracteres SQL que você passou como fonte de **Recordset** é uma definição textual de um comando, você passará **adCmdText** no argumento final do método **Open** de **Recordset**. Essa linha também define o **LockType** e o **CursorType** associados ao **Recordset**.
 
-<<<<<<< Cabeça a próxima linha de código define a propriedade **MarshalOptions** igual a **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados para a camada intermediária (ou servidor Web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
-=== A próxima linha de código define a propriedade **MarshalOptions** igual a **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados à camada intermediária (ou servidor web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
->>>>>>> mestre
+A próxima linha do código iguala as propriedades **MarshalOptions** e **adMarshalModifiedOnly**. **MarshalOptions** indica quais registros devem ser empacotados à camada intermediária (ou servidor web). Para obter mais informações sobre o empacotamento, consulte a documentação do COM. Ao usar **adMarshalModifiedOnly** com um cursor do cliente ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), somente os registros que foram modificados no cliente são gravados de volta para a camada intermediária. Definir **MarshalOptions** como **adMarshalModifiedOnly** pode melhorar o desempenho, pois menos linhas são empacotadas.
 
 Em seguida, desconecte o **Recordset** igualando as propriedades **ActiveConnection** e **Nothing**. Para obter mais informações, consulte [Desconectando e reconectando o Recordset](disconnecting-and-reconnecting-the-recordset.md) no Capítulo 5: atualizando e mantendo a persistência de dados.
 

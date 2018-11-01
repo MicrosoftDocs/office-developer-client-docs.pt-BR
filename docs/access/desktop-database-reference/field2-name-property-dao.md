@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
 ms:contentKeyID: 48545536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65467b657746b2882ae8706ccc638033f9bd863c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09e4f1ab1741f791d8ebd38be9e331d96f4776b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464030"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871399"
 ---
 # <a name="field2name-property-dao"></a>Propriedade Field2.Name (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna ou define o nome do objeto especificado. **String** de leitura/gravação se o objeto não foi acrescentado a uma coleção. **String** somente leitura se o objeto foi acrescentado a uma coleção.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c671946dbd8a7be83c9d2a3c651e614b1fa90bfc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 14b2cfdce80371aac923b46d59a8dfc149263e57
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863994"
+ms.locfileid: "25889809"
 ---
 # <a name="save-and-open-methods-example-vj"></a>Exemplo dos métodos Save e Open (VJ++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Estes três exemplos demonstram como os métodos [Save](save-method-ado.md) e **Open** podem ser utilizados em conjunto.
 

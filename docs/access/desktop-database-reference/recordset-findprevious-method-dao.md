@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7f264695830d33dfebccf0324f50515d9da30a7e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f55cacf0c22130ede5025fcbd1bc55c76150bc95
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462590"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867955"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Método Recordset.FindPrevious (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access ).
 
@@ -51,7 +51,7 @@ Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)
 <tr class="odd">
 <td><p>Criteria</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

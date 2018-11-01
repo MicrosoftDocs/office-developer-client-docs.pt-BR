@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc2e2bee3a459c2f2b25b26bba4ca2fadd7fb945
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 006c9ce982aa98f28187d04fced12992d61548d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463083"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880051"
 ---
 # <a name="field2validationrule-property-dao"></a>Propriedade Field2.ValidationRule (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que valida os dados em um campo à medida que estes são alterados ou adicionados a uma tabela (somente em espaços de trabalho do Microsoft Access). **String** de leitura/gravação.
 
@@ -47,7 +47,7 @@ Para um objeto **Field2**, a utilização da propriedade **ValidationRule** depe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Índice</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">

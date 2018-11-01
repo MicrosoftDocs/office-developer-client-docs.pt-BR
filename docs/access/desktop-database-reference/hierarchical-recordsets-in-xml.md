@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249351(v=office.15)
 ms:contentKeyID: 48545181
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f608cd8ed36b621847c58dd523cfa052c5f501a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5276dd011ec8b7c6190ab35f5417009510875e15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464351"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877167"
 ---
 # <a name="hierarchical-recordsets-in-xml"></a>Objetos Recordset hierárquicos em XML
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="hierarchical-recordsets-in-xml"></a>Objetos Recordset hierárquicos em XML
+## <a name="hierarchical-recordsets-in-xml"></a>Conjuntos de registros hierárquicos em XML
 
 O ADO permite a persistência de objetos **Recordset** hierárquicos em XML. Com objetos **Recordset** hierárquicos, o valor de um campo no **Recordset** pai é outro **Recordset**. Tais campos são representados como elementos filho no fluxo XML, e não como um atributo. O exemplo a seguir demonstra esse caso:
 

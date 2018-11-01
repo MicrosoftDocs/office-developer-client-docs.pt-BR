@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5ac9c60be702841a4e45628ba609bdc63e14477
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862132"
+ms.locfileid: "25882732"
 ---
 # <a name="absolute-and-relative-urls"></a>URLs absolutas e relativas
 
-**Aplica-se a**: Access 2013 | Office 2013 
+**Aplica-se a**: Access 2013, o Office 2013    
 
 A URL especifica o local de um destino armazenado em um computador local ou em rede, como um arquivo, um diretório, uma página HTML, uma imagem, um programa etc. Nesta discussão, uma *URL absoluta* de tem este formato:
 
@@ -81,5 +81,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 A parte principal de uma URL totalmente qualificada é o *esquema* usado para acessar o recurso identificado pelo restante da URL. Exemplos são HTTP (HyperText Transfer Protocol) e FTP (File Transfer Protocol).
 
 O ADO oferece suporte aos provedores OLE DB que reconhecem seus próprios esquemas URL. Por exemplo, o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), quais acessos "publicado" arquivos do Windows 2000, reconhece o esquema HTTP existente.
-
 

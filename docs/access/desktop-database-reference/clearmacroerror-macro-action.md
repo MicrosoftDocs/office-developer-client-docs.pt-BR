@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8e5cf0b8cb7ac5b9c49e86ae3a0399d0222b3b04
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e9b8232f24a837466529f8ce04f9f830af72e7a7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463064"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870188"
 ---
 # <a name="clearmacroerror-macro-action"></a>Ação de macro LimparErrodeMacro
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Você pode usar a ação **LimparErrodeMacro** para limpar as informações sobre um erro armazenado no objeto **MacroError**.

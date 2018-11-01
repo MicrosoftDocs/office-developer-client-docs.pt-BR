@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 387ab87bb21d9c49c58a72bb4958426367493c11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4571f250891d02f8053e63aae7b94d674f61ca71
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462577"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876397"
 ---
 # <a name="ado-properties"></a>Propriedades do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ ms.locfileid: "25462577"
 <td><p>Indica quanto tempo esperar ao estabelecer uma conexão antes de abortar a tentativa e gerar um erro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Count</a></p></td>
+<td><p><a href="count-property-ado.md">Contagem</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -105,7 +105,7 @@ ms.locfileid: "25462577"
 <td><p>Indica o nome do membro de dados que será recuperado do objeto referido pela propriedade <strong>DataSource</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="datasource-property-ado.md">Fonte de dados</a></p></td>
+<td><p><a href="datasource-property-ado.md">DataSource</a></p></td>
 <td><p>Indica um objeto que contém dados a serem representados como um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -133,7 +133,7 @@ ms.locfileid: "25462577"
 <td><p>Indica se a posição atual está no final do fluxo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtrar</a></p></td>
 <td><p>Indica um filtro para os dados em um <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -141,7 +141,7 @@ ms.locfileid: "25462577"
 <td><p>Indica o arquivo de ajuda e o tópico associado a um objeto <strong>Error</strong>. <strong>HelpContextID</strong>  retorna uma ID de contexto, como um valor <strong>Long</strong>, para um tópico em um arquivo de Ajuda. <strong>HelpFile</strong>  retorna um valor <strong>String</strong> que avalia um caminho completamente resolvido para um arquivo de Ajuda.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-property-ado.md">Index</a></p></td>
+<td><p><a href="index-property-ado.md">Índice</a></p></td>
 <td><p>Indica o nome do índice que está atualmente em vigor para um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -173,7 +173,7 @@ ms.locfileid: "25462577"
 <td><p>Indica as permissões disponíveis para modificar os dados em um objeto <strong>Connection</strong>, <strong>Record</strong> ou <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Name</a></p></td>
+<td><p><a href="name-property-ado.md">Nome</a></p></td>
 <td><p>Indica o nome de um objeto</p></td>
 </tr>
 <tr class="odd">
@@ -233,7 +233,7 @@ ms.locfileid: "25462577"
 <td><p>Indica o tipo de objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p><a href="row-property-ado.md">Linha</a></p></td>
 <td><p>Obtém ou define um objeto <strong>Row</strong> do OLE DB a partir de/em um objeto <strong>ADORecordConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -245,7 +245,7 @@ ms.locfileid: "25462577"
 <td><p>Obtém ou define um objeto <strong>Rowset</strong> do OLE DB a partir de/em um objeto <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Size</a></p></td>
+<td><p><a href="size-property-ado.md">Tamanho</a></p></td>
 <td><p>Indica o tamanho máximo, em bytes ou caracteres, de um objeto <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -273,7 +273,7 @@ ms.locfileid: "25462577"
 <td><p>Indica o estado do SQL de um determinado objeto <strong>Error</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">Estado</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>Indica todos os objetos aplicáveis, independentemente de seu estado: aberto ou fechado. Indica para todos os objetos aplicáveis que estiverem executando um método assíncrono, se o estado atual do objeto é conectando-se, executando ou recuperando.</p></td>
 </tr>
 <tr class="even">

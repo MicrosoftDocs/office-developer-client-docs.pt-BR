@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0bc9f38e1f91a58fcfc7cedfdfb740a22477f649
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862958"
+ms.locfileid: "25880667"
 ---
 # <a name="cancelevent-macro-action"></a>Ação de macro CancelarEvento
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Você pode usar a ação **CancelarEvento** para cancelar o evento que ativou o acesso ao executar a macro que contém essa ação. O nome da macro é a configuração de uma propriedade de evento como **AntesDeAtualizar**, **AoAbrir**, **OnUnload** ou **OnPrint**.

@@ -10,17 +10,17 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fe2bc84b7d65f49ce742985dab8e1bbe760ecbc5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 018c09919aa09864d0b9027c6309b3b61212cf8b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463821"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875851"
 ---
 # <a name="properties-collection-ado"></a>Coleção Properties (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Contém todos os objetos [Property](property-object-ado.md) para uma instância específica de um objeto.
 

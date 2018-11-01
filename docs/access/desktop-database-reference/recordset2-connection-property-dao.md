@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822709(v=office.15)
 ms:contentKeyID: 48547400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e7e9a40c6f26628b6d36669347206dcdddfe9b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f3c0de7a48af166c1fd12cc93b471da4129e51a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462703"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888990"
 ---
 # <a name="recordset2connection-property-dao"></a>Propriedade Recordset2.Connection (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna o objeto **[Connection](connection-object-dao.md)** que corresponde ao banco de dados.
 

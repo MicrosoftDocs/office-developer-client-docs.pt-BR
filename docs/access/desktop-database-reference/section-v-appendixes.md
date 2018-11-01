@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249829(v=office.15)
 ms:contentKeyID: 48547082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16169424b1e802bb8061867faac80cd274b8be59
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c72e6b441375067cf9a1534c1414dd4e273f0d7b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463415"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885344"
 ---
 # <a name="section-v-appendixes"></a>Seção V: Apêndices
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O Guia do Programador do ADO contém os seguintes apêndices:
 

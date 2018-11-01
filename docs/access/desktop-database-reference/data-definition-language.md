@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125729(v=office.15)
 ms:contentKeyID: 52074602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ea03bba082e7c19e66de58d8839e1c88ab80f2f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b7d1e9501731db35a42888d7e94704e5ec41aad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464268"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886085"
 ---
 # <a name="data-definition-language--microsoft-access-sql"></a>Data Definition Language (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
   - [Instrução ADD USER](add-user-statement-microsoft-access-sql.md)
 

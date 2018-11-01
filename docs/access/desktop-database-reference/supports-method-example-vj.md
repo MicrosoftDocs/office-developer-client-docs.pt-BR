@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249764(v=office.15)
 ms:contentKeyID: 48546811
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05d931f0254ef897e16b2a5c5bcafe00d9edf4cb
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: acae55997d5bc8a94cb3a62f51b8afb01b19b4e7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860955"
+ms.locfileid: "25885406"
 ---
 # <a name="supports-method-example-vj"></a>Exemplo do método Supports (VJ++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza o método [Supports](supports-method-ado.md) para exibir as opções suportadas por um recordset aberto com tipos de cursor diferentes. A função DisplaySupport é necessária para a execução deste exemplo.
 

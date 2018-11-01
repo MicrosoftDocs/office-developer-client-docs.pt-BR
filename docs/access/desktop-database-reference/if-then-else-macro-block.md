@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79e5379ad2c50eff3ddf12b597defc7b85cefb39
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c7c6842e8463250f6575cfc85364ec3bff7aba1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465374"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876040"
 ---
 # <a name="ifthenelse-macro-block"></a>Bloco de macro Se...Então...Senão
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar o bloco de macro **Se** para executar condicionalmente um grupo de ações, dependendo do valor de uma expressão.
 
@@ -47,7 +47,7 @@ Para **se** e **Senão se**, os argumentos a seguir são necessários.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Expression</strong></p></td>
+<td><p><strong>Expressão</strong>.</p></td>
 <td><p>A condição que você deseja testar. Ela deve ser uma expressão que é avaliada como True ou False.</p></td>
 </tr>
 </tbody>

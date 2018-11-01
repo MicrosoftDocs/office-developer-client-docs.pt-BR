@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0446654a6ad39246289690c95f160bd77dcde19d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860347"
+ms.locfileid: "25886260"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Criando e executando um comando simples
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Apesar de não ser uma utilização comum do objeto **Command**, o código a seguir mostra o método básico de utilização do objeto **Command** para executar um comando junto a uma fonte de dados. Nesse caso, trata-se de um comando de retorno de linha, então ele retorna os resultados da execução do comando em um objeto **Recordset**.
 

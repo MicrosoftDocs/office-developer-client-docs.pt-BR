@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d6e010ce8db93baaf8faddaeff5ab4dabda6a84
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5e0157bc81e3f7efdb2227b5c5a9e2bc3642a7d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603382"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883950"
 ---
 # <a name="source-property-ado-record"></a>Propriedade Source (Record do ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica a fonte de dados ou o objeto representado pelo [Record](record-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor **Variant** que indica a entidade representada pelo **Record**.
 
@@ -40,13 +36,7 @@ Se a propriedade **ActiveConnection** também for definida, então a propriedade
 
 A propriedade **Source** será leitura/gravação enquanto o objeto **Record** estiver fechado e somente leitura enquanto o objeto **Record** estiver aberto.
 
-<<<<<<< Cabeça
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
-=======
-> [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
->>>>>>> mestre
+> [!OBSERVAçãO] As URLs que estiverem utilizando o esquema http invocarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
 
 

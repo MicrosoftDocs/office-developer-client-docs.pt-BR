@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Value (VC + +): exemplo da propriedade Value (VC + +) === título: exemplo da propriedade Value (VC + +) TOCTitle: exemplo da propriedade Value (VC + +)
->>>>>>> ms:assetid de mestre: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15) ms:contentKeyID: ms.date 48548040: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Value (VC++)
+TOCTitle: Value property example (VC++)
+ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
+ms:contentKeyID: 48548040
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: cd9d674db1763ca5cd78310e8ce593ba81ad3146
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868963"
 ---
-
-<<<<<<< Cabeça
 # <a name="value-property-example-vc"></a>Exemplo da propriedade Value (VC++)
-=======
-# <a name="value-property-example-vc"></a>Exemplo da propriedade Value (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Value](value-property-ado.md) com os objetos [Field](field-object-ado.md) e [Property](property-object-ado.md) exibindo os valores de campo e propriedade para a tabela ***Employees***.
 

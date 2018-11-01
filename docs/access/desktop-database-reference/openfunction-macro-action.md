@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a64d7c44afd1531e0abf90a0372d39c742cff946
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d7d6c719c535dabbf4fea1267d8ce7cf9ced9326
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464158"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882095"
 ---
 # <a name="openfunction-macro-action"></a>Ação de macro AbrirFunção
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirFunção** para abrir uma função definida pelo usuário no modo Folha de Dados, uma função in-line no modo Design, o modo Editor de Texto do SQL (para uma função definida pelo usuário escalar ou de tabela) ou Visualizar Impressão. Esta ação executa a função definida pelo usuário quando aberta em modo Folha de Dados. Você também pode selecionar o modo de entrada de dados para a função definida pelo usuário e restringir os registros exibidos pela função definida pelo usuário.
 

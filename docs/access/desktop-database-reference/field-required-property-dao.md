@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa474a1fd8b592f8ad8d309526c8b94cb1fba25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 77214fcad0f5b2cafe794282782df4446d37fcf6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464529"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887156"
 ---
 # <a name="fieldrequired-property-dao"></a>Propriedade Field.Required (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que indica se um objeto **[Field](field-object-dao.md)** requer um valor não Null.
 
@@ -49,19 +49,19 @@ A disponibilidade da propriedade **Required** depende do objeto que contém a co
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
+<td><p>Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

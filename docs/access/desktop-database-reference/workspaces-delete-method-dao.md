@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7f443d11929dc100d623903a3829c2befb90c52
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 30084bf8fa913169f78337266c09daae94305178
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462983"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867248"
 ---
 # <a name="workspacesdelete-method-dao"></a>Método Workspaces.Delete (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Exclui o formulário **Workspace** especificado da coleção **Workspaces**.
 
@@ -47,7 +47,7 @@ Exclui o formulário **Workspace** especificado da coleção **Workspaces**.
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O nome do espaço de trabalho a ser excluído.</p></td>
 </tr>
 </tbody>

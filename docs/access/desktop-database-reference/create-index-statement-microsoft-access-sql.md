@@ -10,16 +10,16 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7710dd89a645b10d20044e2eeaeb26986730c843
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 90dbaae5ab803173493e5348b77b124d83f8f9d6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861551"
+ms.locfileid: "25873030"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Instrução CREATE INDEX (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria um novo índice em uma tabela existente.
 

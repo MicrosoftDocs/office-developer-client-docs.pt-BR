@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248898(v=office.15)
 ms:contentKeyID: 48543344
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5041eb32397fc9a234d0e4a0fff622f31b56a0a5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4212b1c2bcf89badedbc7a3b7d4dc72a879a95c7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603354"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871980"
 ---
 # <a name="specifying-threads-per-processor-on-iis"></a>Especificando encadeamentos por processador no IIS
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-<<<<<<< Cabeça quando usando o RDS com o Internet Information Services 4.0 ou posterior, o número de threads criados por processador pode ser controlado por manipulando o registro no servidor Web. O número de encadeamentos por processador pode afetar o desempenho em uma situação de alto tráfego ou em situações de baixo tráfego em consultas de maior tamanho. O usuário deve experimentar para melhores resultados.
-=== Ao usar o RDS com o Internet Information Services 4.0 ou posterior, o número de threads criados por processador pode ser controlado por manipulando o registro no servidor web. O número de encadeamentos por processador pode afetar o desempenho em uma situação de alto tráfego ou em situações de baixo tráfego em consultas de maior tamanho. O usuário deve experimentar para melhores resultados.
->>>>>>> mestre
+Ao usar o RDS com o Internet Information Services 4.0 ou posterior, o número de threads criados por processador pode ser controlado por manipulando o registro no servidor web. O número de encadeamentos por processador pode afetar o desempenho em uma situação de alto tráfego ou em situações de baixo tráfego em consultas de maior tamanho. O usuário deve experimentar para melhores resultados.
 
 O método usado para determinar e alterar o valor padrão para essa definição depende da configuração do servidor IIS 4.0.
 

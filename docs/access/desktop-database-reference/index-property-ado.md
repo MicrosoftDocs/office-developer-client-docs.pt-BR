@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: TOCTitle da propriedade Index (ADO): propriedade Index (ADO) === título: propriedade (ADO) Index TOCTitle: índice de propriedade (ADO)
->>>>>>> ms:assetid de mestre: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15) ms:contentKeyID: ms.date 48544715: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Index (ADO)
+TOCTitle: Index property (ADO)
+ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
+ms:contentKeyID: 48544715
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9f2eabf7d75ea6567ea7ca788e5a3c7451d0b75b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876978"
 ---
-
-<<<<<<< Cabeça
 # <a name="index-property-ado"></a>Propriedade Index (ADO)
-=======
-# <a name="index-property-ado"></a>Propriedade Index (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o nome do índice que está atualmente em vigor para um objeto [Recordset](recordset-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor **String**, que é o nome do índice.
 

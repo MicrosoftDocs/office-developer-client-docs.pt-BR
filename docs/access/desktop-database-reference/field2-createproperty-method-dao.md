@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
 ms:contentKeyID: 48547446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fc3e48b30317ffa2eac21c9c9764759c192090d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2e0bbf9117e4ad3e06d1ffe5778de2e7ff0c2116
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606336"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868123"
 ---
 # <a name="field2createproperty-method-dao"></a>Método Field2.CreateProperty (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuário (somente espaços de trabalho do Microsoft Access).
 
@@ -51,7 +51,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Property</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p>Tipo</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante que define o tipo de dados do novo objeto <strong>Property</strong>. Consulte a propriedade <strong><a href="field-type-property-dao.md">Type</a></strong> para obter tipos de dados válidos.</p></td>
@@ -72,11 +72,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Propriedade
 

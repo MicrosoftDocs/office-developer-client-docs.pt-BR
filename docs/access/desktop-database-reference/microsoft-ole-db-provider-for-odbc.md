@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606932"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883180"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Para um programador de ADO ou RDS, o mundo ideal seria aquele em que todas as fontes de dados apresentassem uma interface OLE DB, de modo que as chamadas do ADO pudessem ser feitas diretamente na fonte de dados. Embora cada vez mais fornecedores de bancos de dados venham implementando interfaces OLE DB, algumas fontes de dados ainda não são expostas dessa maneira. Por outro lado, praticamente todos os sistemas DBMS em uso hoje em dia podem ser acessados por ODBC.
 
@@ -79,11 +79,7 @@ A cadeia de caracteres consiste nas seguintes palavras-chave:
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<<<<<<< Cabeça
-<td><p>Especifica a URL de um arquivo ou diretório publicado em uma pasta da Web.</p></td>
-=======
 <td><p>Especifica a URL de um arquivo ou diretório publicado em uma pasta da web.</p></td>
->>>>>>>mestre
 </tr>
 </tbody>
 </table>
@@ -468,7 +464,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">Estado</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>somente leitura</p></td>
 <td><p>somente leitura</p></td>
 <td><p>somente leitura</p></td>

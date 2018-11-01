@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn126013(v=office.15)
 ms:contentKeyID: 52074882
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06127fbaf278dd4057cfe086c9411172cf8780ac
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 313c16fae1018a0e776b089f5f43c0ec6097dfd7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464708"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872946"
 ---
 # <a name="workspaces-object-reference-dao"></a>Referência de objeto de espaços de trabalho (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 

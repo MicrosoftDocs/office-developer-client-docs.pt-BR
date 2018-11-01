@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
 ms:contentKeyID: 48547182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29c0a3fe2f39b6ab3d384f05a52e99e6c1d520d1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 26af6aecc64f1f716b49631b50e0c89ce400b0db
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862986"
+ms.locfileid: "25879484"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a>Exemplo dos métodos BeginTrans, CommitTrans e RollbackTrans (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo altera o tipo de todos os livros de psicologia na tabela ***Titles*** do banco de dados. Depois que o método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) iniciar uma transação que isola todas as alterações feitas na tabela ***Titles***, o método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) salvará as alterações. Você pode usar o método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para desfazer as alterações salvas com o método [Update](update-method-ado.md).
 

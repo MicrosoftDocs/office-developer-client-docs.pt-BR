@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a389ad273c2d47405ff6dcec6f5b5c42fa0662b8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4bc1efc33aa263275ba50526ff682b64a229293f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602437"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885462"
 ---
 # <a name="state-property-ado-md"></a>Propriedade State (ADO MD)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o estado atual do conjunto de células.
 
-<<<<<<< Cabeça
-## <a name="return-values"></a>Valores de retorno
-=======
 ## <a name="return-values"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um inteiro **Long** que indica a condição atual do objeto [Cellset](cellset-object-ado-md.md) e é somente leitura. Os seguintes valores são válidos: **adStateClosed** (0) e **adStateOpen** (1).
 

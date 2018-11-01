@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e803ccc915a939878cf758698a98661c2a3f5283
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b180acb99ab2ac406a7b60fdecf8aff5d63eb71f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463206"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869110"
 ---
 # <a name="after-delete-macro-event"></a>Evento de macro Após Exclusão
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O evento **Após Exclusão** ocorre após a exclusão de cada evento.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6492a9fb3693d7d8cdfd2f3701d3360a55dfb063
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0bd08cea4c79fb9bf25c9bca4364accf617e6962
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462054"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873912"
 ---
 # <a name="ado-md-properties"></a>Propriedades do ADO MD
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "25462054"
 <td><p>Retorna uma coleção de <strong>Members</strong> dos quais o <strong>Member</strong> atual é o pai na hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Count</a></p></td>
+<td><p><a href="count-property-ado.md">Contagem</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -85,7 +85,7 @@ ms.locfileid: "25462054"
 <td><p>Indica o nome do nível de um membro.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Name</a></p></td>
+<td><p><a href="name-property-ado-md.md">Nome</a></p></td>
 <td><p>Indica o nome de um objeto</p></td>
 </tr>
 <tr class="odd">
@@ -97,7 +97,7 @@ ms.locfileid: "25462054"
 <td><p>Identifica exclusivamente uma posição em um eixo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parent-property-ado-md.md">Pai</a></p></td>
+<td><p><a href="parent-property-ado-md.md">Responsável</a></p></td>
 <td><p>Indica o membro que é o pai do membro atual em uma hierarquia.</p></td>
 </tr>
 <tr class="even">
@@ -109,7 +109,7 @@ ms.locfileid: "25462054"
 <td><p>Indica a fonte dos dados no conjunto de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado-md.md">Estado</a></p></td>
+<td><p><a href="state-property-ado-md.md">State</a></p></td>
 <td><p>Indica o estado atual do conjunto de células.</p></td>
 </tr>
 <tr class="odd">

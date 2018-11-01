@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5104aa452dfc8bc73c378c30a454f676d455c9f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5cc7394b01dcd79d17e3fcc7568bb8081ee12ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464725"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872638"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>Propriedade TableDef.ReplicaFilter (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor em um objeto **[TableDef](tabledef-object-dao.md)** em uma réplica parcial que indica qual subconjunto de registros foi replicado nessa tabela a partir de uma réplica completa. (Somente em espaços de trabalho do Microsoft Access).
 

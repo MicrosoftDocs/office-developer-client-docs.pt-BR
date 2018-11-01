@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb2b3aabb4736c0deee57dafb36e32730fb95f4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 299227553481c4f149827c31078111db7b427f7f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465461"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886638"
 ---
 # <a name="setlocalvar-macro-action"></a>Ação de macro DefinirVarLocal
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Use a ação **DefinirVarLocal** para criar uma variável temporária e defini-la com um valor específico.
 
@@ -48,7 +48,7 @@ A ação **DefinirVarLocal** tem os seguintes argumentos.
 <td><p>Uma cadeia de caracteres que especifica o nome da variável.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Expression</strong></p></td>
+<td><p><strong>Expressão</strong>.</p></td>
 <td><p>Sim</p></td>
 <td><p>Uma expressão que será usada para definir o valor dessa variável temporária. Não preceda a expressão com o sinal de igual (=). Você pode clicar no botão <strong>Construir</strong> para usar o <strong>Construtor de expressões</strong> para definir este argumento.</p></td>
 </tr>

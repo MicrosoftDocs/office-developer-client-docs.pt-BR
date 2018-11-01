@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58e9029e7c78a6cbde97973ee7fc482fb116c3f2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6f385f3637f9a64ff94d571345d88fbaa088d126
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462331"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876061"
 ---
 # <a name="ado-dynamic-property-index"></a>Índice da propriedade dinâmica do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Os provedores de dados, provedores de serviços e componentes de serviço podem adicionar propriedades dinâmicas às coleções **Properties** dos objetos [ Connection ](connection-object-ado.md) e [Recordset](recordset-object-ado.md) não abertos. Um determinado provedor também pode inserir propriedades adicionais quando esses objetos estão abertos. Algumas dessas propriedades estão listadas na seção [Propriedades dinâmicas do ADO](ado-dynamic-properties.md). Mais propriedades estão relacionadas nos provedores específicos da seção [Apêndice A: provedores](appendix-a-providers.md).
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053174
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11de92519cd3d2ff917a28ffef40236e0c252fc3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 082c482cca32fa8d861a686b3120409f5e547977
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463154"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883446"
 ---
 # <a name="workspacedatabases-property-dao"></a>Propriedade Workspace.Databases (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna uma coleção **Databases** que representa os banco de dados abertos em um **Workspace** especificado. Somente leitura.
 

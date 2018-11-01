@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d423668f5ef53abf4216fa8f976c674474a752ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ab2998140f46fd3275f564684995d9a4d8d56968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463925"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882536"
 ---
 # <a name="moveandsizewindow-macro-action"></a>Ação de Macro Moveredimensionarjanela
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Se você tiver configurado as opções de janela para usar janelas sobrepostas, em vez de documentos com guias para seu documento, você pode usar a ação **Moveredimensionarjanela** para mover ou redimensionar a janela ativa. Para obter informações sobre como configurar opções da janela de documento, consulte a seção comentários.

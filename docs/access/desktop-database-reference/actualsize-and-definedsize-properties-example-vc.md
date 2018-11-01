@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: ActualSize e DefinedSize exemplo das propriedades (VC + +) TOCTitle: ActualSize e DefinedSize exemplo das propriedades (VC + +) ms:assetid: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15) ms:contentKeyID: ms.date 48546328: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades ActualSize e DefinedSize (VC++)
+TOCTitle: ActualSize and DefinedSize properties example (VC++)
+ms:assetid: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15)
+ms:contentKeyID: 48546328
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 795d07827be74a5eff335483550d22bf3e9bd899
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870615"
 ---
-
 # <a name="actualsize-and-definedsize-properties-example-vc"></a>Exemplo das propriedades ActualSize e DefinedSize (VC++)
-=== título: exemplo das propriedades ActualSize e DefinedSize (VC + +) TOCTitle: ms:assetid de exemplo (VC + +) de propriedades ActualSize e DefinedSize: 90b7a53f-c9b1-f3c1-f769-e6a340c90eba ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15) ms:contentKeyID: ms.date 48546328: 10/16/2018 mtps_version: v=office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-vc"></a>Exemplo das propriedades ActualSize e DefinedSize (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo.
 

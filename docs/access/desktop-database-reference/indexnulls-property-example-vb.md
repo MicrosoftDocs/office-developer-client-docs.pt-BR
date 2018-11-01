@@ -1,15 +1,21 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade IndexNulls (VB) TOCTitle: exemplo de propriedade IndexNulls (VB) === título: exemplo da propriedade IndexNulls (VB) TOCTitle: exemplo da propriedade IndexNulls (VB)
->>>>>>> ms:assetid de mestre: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: ms.date 48545417: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade IndexNulls (VB)
+TOCTitle: IndexNulls property example (VB)
+ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
+ms:contentKeyID: 48545417
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c1baa2169b2d953f7a390dee44f9841a4c7ecfa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869845"
 ---
-
-<<<<<<< Cabeça
 # <a name="indexnulls-property-example-vb"></a>Exemplo da propriedade IndexNulls (VB)
-=======
-# <a name="indexnulls-property-example-vb"></a>Exemplo da propriedade IndexNulls (VB)
->>>>>>> mestre
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um [Índice](index-object-adox.md). O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário (em uma caixa de listagem chamada List1). Em seguida, o **índice** é acrescentada à [tabela](table-object-adox.md) de **funcionários** no [catálogo](catalog-object-adox.md) *Northwind* . O novo **Index** é aplicado a um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**, e o **Recordset** é aberto. Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado. A exibição desse novo registro depende da definição da propriedade **IndexNulls**.
 

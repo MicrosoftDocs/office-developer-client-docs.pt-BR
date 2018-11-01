@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d62be19cb472673a4bdafd3574bbe1fcb7b876c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7890bdbd38b790d846b195570a05b55846cdcda9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462178"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879939"
 ---
 # <a name="internet-information-services-error-codes"></a>Códigos de erro dos Serviços de Informações da Internet
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A tabela a seguir lista os códigos de erro do Microsoft IIS (Serviços de Informações da Internet) relacionados à utilização do Remote Data Service, mostrando a conversão decimal positiva dos dois bytes inferiores, a conversão decimal negativa do código de erro inteiro e os valores hexadecimais.
 

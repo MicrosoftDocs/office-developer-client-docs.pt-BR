@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: método Append de chaves, tipo de chave, exemplo de propriedades RelatedColumn (VB) TOCTitle: método Append de chaves, tipo de chave, RelatedColumn, RelatedTable e UpdateRule propriedades exemplo (VB) === título: método Append de chaves, chave Exemplo das propriedades RelatedColumn, de tipo TOCTitle (VB): exemplo de propriedades do método Append de chaves, tipo de chave, RelatedColumn, RelatedTable e UpdateRule (VB)
->>>>>>> ms:assetid de mestre: d1b0508d-ab2c-eece-061c-09c67ea9ecae ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15) ms:contentKeyID: ms.date 48547871: 18/09/2015 mtps_version: v=office.15
+title: Chaves de método de anexar, tipo de chave, exemplo das propriedades RelatedColumn (VB)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
+ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
+ms:contentKeyID: 48547871
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7cec32ff7229540344d471e6c66b96270bb5a197
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878028"
 ---
-
-<<<<<<< Cabeça
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule (VB)
-=======
 # <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Exemplo das propriedades RelatedColumn do método Append, tipo de chave, chaves, RelatedTable e UpdateRule (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O código a seguir demonstra como criar uma nova chave estrangeira. Supõe que existem duas tabelas (**clientes** e **pedidos**).
 

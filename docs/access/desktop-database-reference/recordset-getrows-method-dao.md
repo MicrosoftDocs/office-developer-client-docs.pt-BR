@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1ec084dce260d3371df9928c8cb65f1e8f6027e1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8f048ec72abb0037e04dd65cd85c8a1219530297
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602703"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889753"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Método Recordset.GetRows (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 
@@ -58,11 +58,7 @@ Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Variant
 

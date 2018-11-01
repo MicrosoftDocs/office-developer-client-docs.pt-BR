@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c05e1a8b31523b9dd225c062caf2b602df1b222e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c44afce969af77696e52cea3bc194d73eb2ddd25
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461966"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877251"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>Comandos parametrizados com os comandos COMPUTE intermediários
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Um comando APPEND de forma parametrizada comum tem uma cláusula que cria um **Recordset** pai com um comando query e outra cláusula que cria um **Recordset** filho com um comando query parametrizado  ou seja, um comando que contém um marcador de parâmetro (um ponto de interrogação, "?"). A forma resultante do **Recordset** tem dois níveis, nos quais o pai ocupa o nível superior e o filho ocupa o nível inferior.
 

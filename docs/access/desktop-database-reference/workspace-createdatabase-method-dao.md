@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f246ce2cb29ce3933d8102ce51733652709579e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2ad3d44d67efb240cb97a5b4716e9e00a6951045
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462144"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875620"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Método Workspace.CreateDatabase (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dados no disco e retorna um objeto **Database** aberto (apenas espaços de trabalho do Microsoft Access).
 
@@ -47,13 +47,13 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando. Pode ser o nome de arquivo e caminho completo. Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;. Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</p></td>
 </tr>
 <tr class="even">
 <td><p>Connect</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><ul>
 <li><p>Uma expressão de cadeia de caracteres que especifica uma ordem de agrupamento para criar o banco de dados, conforme especificado em Configurações. Você deve fornecer esse argumento ou um erro ocorrerá.</p></li>
 <li><p>Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres de senha (começando com &quot;; pwd =&quot;) com uma constante no argumento <em>locale</em> , semelhante a esta:</p></li>

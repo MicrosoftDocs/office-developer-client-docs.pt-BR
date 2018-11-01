@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
 ms:contentKeyID: 48545515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ae14ee13c0b94a477550b0f20cec2e1fc31fdd6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6646a961950249c4f06d8cd91b57cbce4746fb1f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463858"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874290"
 ---
 # <a name="field2value-property-dao"></a>Propriedade Field2.Value (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna o valor de um objeto. **Variant** de leitura/gravação.
 

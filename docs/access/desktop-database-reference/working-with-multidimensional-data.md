@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 426a317f378862bd780abe8bce75bb7ff62bedad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7aba6eda9abc84c6f34442f828fe802c4b016653
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464464"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871987"
 ---
 # <a name="working-with-multidimensional-data"></a>Trabalhando com dados multidimensionais
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Um *conjunto de células* é o resultado de uma consulta de dados multidimensionais. Ele consiste de uma coleção de eixos, em geral não mais do que quatro eixos e usualmente dois ou três. Um *eixo* é uma coleção de membros de uma ou mais dimensões, que é usada para localizar ou filtrar valores específicos em um cubo.
 

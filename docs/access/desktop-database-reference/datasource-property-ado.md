@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: propriedade DataSource (ADO) TOCTitle: propriedade DataSource (ADO) === título: propriedade DataSource (ADO) TOCTitle: propriedade DataSource (ADO)
->>>>>>> ms:assetid de mestre: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15) ms:contentKeyID: ms.date 48545087: 18/09/2015 mtps_version: v=office.15
+title: Propriedade DataSource (ADO)
+TOCTitle: DataSource property (ADO)
+ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15)
+ms:contentKeyID: 48545087
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6a6b889deb9ccf713c2313b207387be8f6b1681b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868158"
 ---
-
-<<<<<<< Cabeça
 # <a name="datasource-property-ado"></a>Propriedade DataSource (ADO)
-=======
-# <a name="datasource-property-ado"></a>Propriedade DataSource (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica um objeto que contém dados a serem representados como um objeto [Recordset](recordset-object-ado.md).
 

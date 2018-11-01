@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e412fbcb083e4cf5acae363ef05ce11ad9754215
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ec6b6677e0de89b22f3c35009edcbc05684d10ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872596"
 ---
 # <a name="nextrecordset-method-ado"></a>Método NextRecordset (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
  
 
 Limpa o objeto [Recordset](recordset-object-ado.md) atual e retorna o próximo **Recordset** avançando por uma série de comandos.
@@ -25,11 +25,7 @@ Limpa o objeto [Recordset](recordset-object-ado.md) atual e retorna o próximo *
 
 Definir *recordset2* = *recordset1*. NextRecordset (*RecordsAffected* )
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um objeto **Recordset**. No modelo de sintaxe, *recordset1* e *recordset2* podem ser o mesmo objeto **Recordset** ou você pode utilizar objetos separados. Ao utilizar objetos **Recordset** separados, redefinir a propriedade **ActiveConnection** no **Recordset** original (*recordset1*) depois que **NextRecordset** for chamado gerará um erro.
 
@@ -47,9 +43,7 @@ Retorna um objeto **Recordset**. No modelo de sintaxe, *recordset1* e *recordset
 
 ## <a name="remarks"></a>Comentários
 
-<<<<<<< Cabeça Use o método **NextRecordset** para apresentar os resultados do próximo comando em uma instrução de comando compostos ou de um procedimento armazenado que retorna vários resultados. Se você abrir um objeto **Recordset** baseado em uma instrução de comando compostos (por exemplo, "Selecione \* da tabela 1; Selecione \* de tabela2 ") usando o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) em um [comando](command-object-ado.md) ou o método [Open](open-method-ado-recordset.md) em um **Recordset**, o ADO apenas o primeiro comando é executado e retorna os resultados para o *conjunto de registros*. Para acessar os resultados dos comandos subsequentes na instrução, chame o método **NextRecordset**.
-=== Use o método **NextRecordset** para apresentar os resultados do próximo comando em uma instrução de comando compostos ou de um procedimento armazenado que retorna vários resultados. Se você abrir um objeto **Recordset** baseado em uma instrução de comando compostos (por exemplo, "Selecione \* da tabela 1; Selecione \* de tabela2 ") usando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) em um [comando](command-object-ado.md) ou o método [Open](open-method-ado-recordset.md) em um **Recordset**, o ADO apenas o primeiro comando é executado e retorna os resultados para o *conjunto de registros*. Para acessar os resultados dos comandos subsequentes na instrução, chame o método **NextRecordset**.
->>>>>>> mestre
+Utilize o método **NextRecordset** para retornar os resultados do próximo comando em uma instrução de comando composta ou de um procedimento armazenado que retorna vários resultados. Se você abrir um objeto **Recordset** baseado em uma instrução de comando compostos (por exemplo, "Selecione \* da tabela 1; Selecione \* de tabela2 ") usando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) em um [comando](command-object-ado.md) ou o método [Open](open-method-ado-recordset.md) em um **Recordset**, o ADO apenas o primeiro comando é executado e retorna os resultados para o *conjunto de registros*. Para acessar os resultados dos comandos subsequentes na instrução, chame o método **NextRecordset**.
 
 Desde que existam resultados adicionais e que o **Recordset** que contém as instruções compostas não esteja desconectado ou conduzido pelos limites do processo, o método **NextRecordset** continuará a retornar objetos **Recordset**. Se um comando que retorne linhas for executado com êxito mas não retornar registros, o objeto **Recordset** retornado estará aberto mas vazio. Teste esse caso verificando se as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) são ambas **True**. Se um comando que não retorne linhas é executado com êxito, o objeto **Recordset** retornado será fechado, que você pode verificar Testando a propriedade [State](state-property-ado.md) no **Recordset**. Quando não houver nenhum resultado mais, *recordset* será definido como *Nothing*.
 

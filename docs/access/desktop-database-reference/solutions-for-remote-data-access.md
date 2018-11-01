@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45164401bbab5cc9134fa7a354fde54bbb02fa37
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 59a7a43e6e3f19bae687eb181bc290883c4915e6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604777"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887758"
 ---
 # <a name="solutions-for-remote-data-access"></a>Soluções para o acesso remoto a dados
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="the-issue"></a>O problema
 
@@ -24,9 +24,7 @@ O ADO permite que seu aplicativo obtenha acesso direto às fontes de dados (algu
 
 Entretanto, é possível que você deseje acessar as fontes de dados indiretamente, através de um intermediário, como o Microsoft® Internet Information Services (IIS). Essa organização algumas vezes é chamada de sistema de três camadas. O IIS é um sistema cliente/servidor que oferece uma forma eficiente de um aplicativo local, ou cliente, chamar um programa remoto, ou de servidor, pela Internet ou por uma intranet. O programa de servidor obtém acesso à fonte de dados e, opcionalmente, processa os dados adquiridos.
 
-<<<<<<< Cabeça por exemplo, sua página da Web de intranet contém um aplicativo escrito no Microsoft® Visual Basic Scripting Edition (VBScript), que se conecta ao IIS. O IIS, por sua vez, conecta-se à fonte de dados real, recupera os dados, processa-os de alguma maneira e retorna as informações processadas ao aplicativo.
-=== Por exemplo, sua página da Web de intranet contém um aplicativo escrito no Microsoft® Visual Basic Scripting Edition (VBScript), que se conecta ao IIS. O IIS, por sua vez, conecta-se à fonte de dados real, recupera os dados, processa-os de alguma maneira e retorna as informações processadas ao aplicativo.
->>>>>>> mestre
+Por exemplo, sua página da Web de intranet contém um aplicativo escrito no Microsoft® Visual Basic Scripting Edition (VBScript), que se conecta ao IIS. O IIS, por sua vez, conecta-se à fonte de dados real, recupera os dados, processa-os de alguma maneira e retorna as informações processadas ao aplicativo.
 
 Neste exemplo, seu aplicativo nunca esteve diretamente conectado à fonte de dados, ao contrário do IIS. Além disso, o IIS acessou os dados através do ADO.
 

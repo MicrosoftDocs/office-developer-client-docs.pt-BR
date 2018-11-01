@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10e97e145a84a1224ac2837e807b90d412248f9d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9d9e4651b2fb5fa9f0ef8569b9f4b28d4c031e87
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463109"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885294"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Método Recordset.FindNext (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access ).
 
@@ -46,7 +46,7 @@ Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)
 <tr class="odd">
 <td><p>Criteria</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

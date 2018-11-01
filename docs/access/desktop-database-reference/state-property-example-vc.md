@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade de estado (VC + +): exemplo da propriedade de estado (VC + +) === título: exemplo da propriedade de estado (VC + +) TOCTitle: exemplo da propriedade de estado (VC + +)
->>>>>>> ms:assetid de mestre: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: ms.date 48547085: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade State (VC++)
+TOCTitle: State property example (VC++)
+ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
+ms:contentKeyID: 48547085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886911"
 ---
-
-<<<<<<< Cabeça
 # <a name="state-property-example-vc"></a>Exemplo da propriedade State (VC++)
-=======
-# <a name="state-property-example-vc"></a>Exemplo da propriedade State (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [State](state-property-ado.md) para exibir uma mensagem enquanto conexões assíncronas estiverem sendo abertas e comandos assíncronos estiverem sendo executados.
 

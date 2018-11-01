@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5cf2dc58ee3fa9205b9657366d8706b64b0aa58a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 340cdd4f9901b3b58b702284cf50b7485e99f769
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861026"
+ms.locfileid: "25887891"
 ---
 # <a name="shape-commands-in-general"></a>Comandos de forma em geral
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O data shaping define as colunas de um **Recordset** com formato, as relações entre as entidades representadas pelas colunas e o modo de preenchimento de **Recordset** com dados.
 
@@ -62,9 +62,7 @@ Um comando shape pode conter uma cláusula especificando um comando de consulta 
 
 É possível usar uma cláusula SQL JOIN para relacionar duas tabelas; entretanto, um **Recordset** hierárquico pode representar as informações com mais eficiência. Cada linha de um **Recordset** criada por um JOIN repete as informações de uma das tabelas de forma redundante. Um **Recordset** hierárquico possui apenas um **Recordset** pai para cada um dos diversos objetos **Recordset** filho.
 
-<<<<<<< Comandos Shape com os diretores podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
-=== Comandos shape podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
->>>>>>> mestre
+Os comandos shape podem ser emitidos por objetos **Recordset** ou definindo a propriedade [CommandText](commandtext-property-ado.md) do objeto [Command](command-object-ado.md) e, em seguida, chamando o método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
 Comandos Shape podem ser aninhados. Ou seja, o *parent-command* *filho-command* próprio poderá ou um outro comando shape.
 

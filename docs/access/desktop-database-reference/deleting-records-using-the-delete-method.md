@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249003(v=office.15)
 ms:contentKeyID: 48543708
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22ed36c0015df458b9f0577350f5f05a03561515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca39f78a69c31d45ecab57b297d8b6eaf9031d92
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464812"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875361"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>Excluindo registros com o método Delete
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O uso do método **Delete** marca o registro atual ou um grupo de registros em um objeto **Recordset**, para exclusão. Se o objeto **Recordset** não permitir a exclusão de registros, ocorrerá um erro. Se você estiver no modo de atualização imediata, as exclusões ocorrerão imediatamente no banco de dados. Se um registro não puder ser excluído com êxito (devido a violações de integridade do banco de dados, por exemplo), ele permanecerá no modo de edição após a chamada para **Update**. Isso significa que você deve cancelar a atualização usando [CancelUpdate](cancelupdate-method-ado.md) antes de mover o registro atual (por exemplo, usando [Close](close-method-ado.md), [Move](move-method-ado.md) ou [NextRecordset](nextrecordset-method-ado.md)).
 

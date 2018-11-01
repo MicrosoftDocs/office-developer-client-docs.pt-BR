@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa95c05ac87648c4d69e3d781614d9cd553bc02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7852a929f08c46feea002913a1f64d8144572080
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464151"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877552"
 ---
 # <a name="address-book-data-binding-object"></a>Objeto de vinculação de dados do catálogo de endereços
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O aplicativo do catálogo de endereços usa o objeto [RDS.DataControl](datacontrol-object-rds.md) para vincular os dados do banco de dados SQL Server para um objeto visual (nesse caso, uma tabela DHTML) na página HTML do cliente de aplicativos. A lógica do programa VBScript controlada por eventos usa o [RDS.DataControl](datacontrol-object-rds.md) para:
 

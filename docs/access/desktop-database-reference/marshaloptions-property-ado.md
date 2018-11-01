@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: propriedade MarshalOptions (ADO) TOCTitle: propriedade MarshalOptions (ADO) === título: propriedade MarshalOptions (ADO) TOCTitle: propriedade MarshalOptions (ADO)
->>>>>>> ms:assetid de mestre: dc9c4e94-0725-210d-8251-079054541142 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15) ms:contentKeyID: ms.date 48548143: 18/09/2015 mtps_version: v=office.15
+title: Propriedade MarshalOptions (ADO)
+TOCTitle: MarshalOptions property (ADO)
+ms:assetid: dc9c4e94-0725-210d-8251-079054541142
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
+ms:contentKeyID: 48548143
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f5983b7794677b5cc584c541289069acf282d9f9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883208"
 ---
-
-<<<<<<< Cabeça
 # <a name="marshaloptions-property-ado"></a>Propriedade MarshalOptions (ADO)
-=======
-# <a name="marshaloptions-property-ado"></a>Propriedade MarshalOptions (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica quais registros serão empacotados de volta para o servidor.
 
@@ -20,9 +26,7 @@ Define ou retorna um valor [MarshalOptionsEnum](marshaloptionsenum.md). O valor 
 
 ## <a name="remarks"></a>Comentários
 
-<<<<<<< Cabeça ao usar um [Recordset](recordset-object-ado.md)do lado do cliente, os registros que foram modificados no cliente são gravados na camada intermediária ou o servidor Web por meio de uma técnica chamada marshaling, o processo de empacotamento e envio de interface parâmetros de método entre limites de thread ou processo. Definir a propriedade **MarshalOptions** pode melhorar o desempenho quando dados remotos modificados são empacotados para atualização de volta à camada intermediária ou ao servidor Web.
-=== Quando estiver usando um [Recordset](recordset-object-ado.md)do lado do cliente, os registros que foram modificados no cliente são gravados na camada intermediária ou um servidor web por meio de uma técnica chamada marshaling, o processo de empacotamento e envio de parâmetros de método de interface entre limites do processo ou segmento. A configuração da propriedade **MarshalOptions** pode melhorar o desempenho quando é empacotados de dados remotos modificados para a atualização de volta para o servidor web ou camada intermediária.
->>>>>>> mestre
+Ao usar um [Recordset](recordset-object-ado.md)do lado do cliente, os registros que foram modificados no cliente são gravados na camada intermediária ou um servidor web por meio de uma técnica chamada marshaling, o processo de empacotamento e enviar os parâmetros de método de interface através de thread ou limites de processo. A configuração da propriedade **MarshalOptions** pode melhorar o desempenho quando é empacotados de dados remotos modificados para a atualização de volta para o servidor web ou camada intermediária.
 
 **Uso de serviço de dados remotos** Essa propriedade é usada somente em um **Recordset**do lado do cliente.
 

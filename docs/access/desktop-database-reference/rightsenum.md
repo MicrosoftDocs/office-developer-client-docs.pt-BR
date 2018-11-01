@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249485(v=office.15)
 ms:contentKeyID: 48545693
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 40cd7f789461e5b354186c2d5b8f81ec18344435
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 535c80bf5cd3dbfecae0e004082ce20d01c31fde
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861978"
+ms.locfileid: "25877384"
 ---
 # <a name="rightsenum"></a>RightsEnum
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica os direitos ou permissões de um grupo ou usuário em um objeto.
 

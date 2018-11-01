@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ad607f852f5af21bc2979bd635286b86d18489a5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ee0a46e909c86534693638de98f42980bccfebba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463223"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870167"
 ---
 # <a name="openview-macro-action"></a>Ação de macro AbrirModoDeExibição
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirModoDeExibição** para abrir um modo de exibição em modo Folha de Dados, modo Design ou Visualizar Impressão. Esta ação executa o modo de exibição nomeado quando aberta em modo Folha de Dados. É possível selecionar a entrada de dados do modo de exibição e restringir os registros exibidos pelo modo de exibição.
 

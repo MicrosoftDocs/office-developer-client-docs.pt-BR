@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 488e4f966bb37dd151eca8ab7231769373cc06e8
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 991d4957b803ff0fe55ab54c4a00b9a0409b94f0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864190"
+ms.locfileid: "25877363"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a>Exemplo dos métodos GetObjectOwner e SetObjectOwner (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VC + +)](groups-and-users-append-changepassword-methods-example-vc.md) para ver como adicionar esse grupo para o sistema). O proprietário da tabela Categories é definido como Accounting.
 

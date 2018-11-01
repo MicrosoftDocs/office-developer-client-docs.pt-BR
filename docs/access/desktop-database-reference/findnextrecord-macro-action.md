@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b58478a67468fa7d00c348066459672bc31c52a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464551"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883649"
 ---
 # <a name="findnextrecord-macro-action"></a>Ação de macro LocalizarPróximoRegistro
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **LocalizarPróximoRegistro** para localizar o próximo registro que atende aos critérios especificados pela ação **EncontrarRegistro** anterior ou o valor na caixa de diálogo **Localizar e Substituir** (na guia **Página Inicial**, clique em **Localizar**). Use a ação **LocalizarPróximoRegistro** para pesquisar registros várias vezes. Por exemplo, você pode se mover sucessivamente por todos os registros para buscar um cliente específico.
 

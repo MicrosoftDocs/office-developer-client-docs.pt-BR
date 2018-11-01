@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ecefa3973d2995a69feb9abe82355aae7df63d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464605"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882305"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes enumeradas do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Para ajudar na depuração, as enumerações do ADO listam um valor para cada constante. Contudo, esse valor é temporário e pode ser alterado de uma versão do ADO para outra. Seu código deve depender somente do nome, não do valor real, de cada constante enumerada.
 

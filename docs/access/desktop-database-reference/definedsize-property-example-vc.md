@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade DefinedSize (VC + +): exemplo da propriedade DefinedSize (VC + +) === título: exemplo da propriedade DefinedSize (VC + +) TOCTitle: exemplo da propriedade DefinedSize (VC + +)
->>>>>>> ms:assetid de mestre: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: ms.date 48548474: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade DefinedSize (VC++)
+TOCTitle: DefinedSize property example (VC++)
+ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
+ms:contentKeyID: 48548474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867360"
 ---
-
-<<<<<<< Cabeça
 # <a name="definedsize-property-example-vc"></a>Exemplo da propriedade DefinedSize (VC++)
-=======
-# <a name="definedsize-property-example-vc"></a>Exemplo da propriedade DefinedSize (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [DefinedSize](definedsize-property-adox.md) de uma [Coluna](column-object-adox.md). O código irá redefinir o tamanho da coluna FirstName da tabela **Employees** do banco de dados *Northwind* . Em seguida, será exibida a alteração nos valores do [Campo](field-object-ado.md) FirstName de um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**. Observe que, por padrão, o campo FirstName será preenchido com espaços depois que você redefinir a propriedade **DefinedSize**.
 

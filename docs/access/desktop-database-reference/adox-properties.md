@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b02410f6e1960e790faf67c882aaa655fcdd5b0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 512ae9aef050b7cc9b3737977912db10a3f0dc97
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463944"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873856"
 ---
 # <a name="adox-properties"></a>Propriedades do ADOX
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "25463944"
 <td><p>Especifica um objeto <strong>Command</strong> do ADO que pode ser usado para criar ou executar o procedimento.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Count</a></p></td>
+<td><p><a href="count-property-ado.md">Contagem</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -69,7 +69,7 @@ ms.locfileid: "25463944"
 <td><p>Indica um membro específico de uma coleção, por nome ou número ordinal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Name</a></p></td>
+<td><p><a href="name-property-adox.md">Nome</a></p></td>
 <td><p>Indica o nome do objeto.</p></td>
 </tr>
 <tr class="odd">
