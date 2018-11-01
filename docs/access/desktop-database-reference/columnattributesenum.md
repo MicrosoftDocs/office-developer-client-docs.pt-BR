@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250198(v=office.15)
 ms:contentKeyID: 48548504
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09d574f76b22a624087dc67421aa8b1ed51d21ec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a14f622f8503922fcb0f58a5c190af252d9d39d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463661"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890908"
 ---
 # <a name="columnattributesenum"></a>ColumnAttributesEnum
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica as características de uma [Coluna](column-object-adox.md).
 
