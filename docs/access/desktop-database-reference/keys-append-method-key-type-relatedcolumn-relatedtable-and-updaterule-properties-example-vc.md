@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="883e4-101"><<<<<<< Título cabeça: método Append de chaves, tipo de chave, exemplo das propriedades RelatedColumn (VC + +) TOCTitle: método Append de chaves, tipo de chave, RelatedColumn, RelatedTable e UpdateRule exemplo das propriedades (VC + +) === título: método Append de chaves, Tipo de chave, exemplo das propriedades RelatedColumn (VC + +) TOCTitle: método Append de chaves, tipo de chave, RelatedColumn, RelatedTable e UpdateRule exemplo das propriedades (VC + +)</span><span class="sxs-lookup"><span data-stu-id="883e4-101"><<<<<<< HEAD title: Keys Append Method, Key Type, RelatedColumn Properties Example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++) ======= title: Keys Append Method, Key Type, RelatedColumn properties example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="883e4-102">ms:assetid de mestre: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: ms.date 48547840: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="883e4-102">master ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Chaves de método de anexar, tipo de chave, exemplo das propriedades RelatedColumn (VC + +)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
+ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
+ms:contentKeyID: 48547840
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890978"
 ---
-
-<span data-ttu-id="883e4-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="883e4-103"><<<<<<< HEAD</span></span>
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="883e4-104">Exemplo das propriedades RelatedColumn, RelatedTable e UpdateRule, de tipo de chave e do método Append de chaves (VC++)</span><span class="sxs-lookup"><span data-stu-id="883e4-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)</span></span>
-=======
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="883e4-105">Exemplo das propriedades RelatedColumn do método Append, tipo de chave, chaves, RelatedTable e UpdateRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="883e4-105">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="883e4-106">mestre</span><span class="sxs-lookup"><span data-stu-id="883e4-106">master</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="467ec-102">Exemplo das propriedades RelatedColumn do método Append, tipo de chave, chaves, RelatedTable e UpdateRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="467ec-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="883e4-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="883e4-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="467ec-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="467ec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="883e4-p101">O código a seguir demonstra como criar uma nova chave estrangeira. Ele pressupõe a existência de duas tabelas (Clientes e Pedidos).</span><span class="sxs-lookup"><span data-stu-id="883e4-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="467ec-p101">O código a seguir demonstra como criar uma nova chave estrangeira. Ele pressupõe a existência de duas tabelas (Clientes e Pedidos).</span><span class="sxs-lookup"><span data-stu-id="467ec-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  
