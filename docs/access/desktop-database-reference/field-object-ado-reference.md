@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249970(v=office.15)
 ms:contentKeyID: 48547634
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05a7179dfc3fc6fafd24a0fed03c994a2ff9d51e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2aab1e304d12a122c3485bfa2f8cc2ac1ad89412
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463237"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882844"
 ---
-# <a name="field-object-ado-reference"></a><span data-ttu-id="dadc0-102">Referência de objeto (ADO) do campo</span><span class="sxs-lookup"><span data-stu-id="dadc0-102">Field Object (ADO) Reference</span></span>
+# <a name="field-object-ado-reference"></a><span data-ttu-id="cf246-102">Referência de objeto (ADO) do campo</span><span class="sxs-lookup"><span data-stu-id="cf246-102">Field Object (ADO) Reference</span></span>
 
 
-<span data-ttu-id="dadc0-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dadc0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cf246-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf246-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="dadc0-104">Objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="dadc0-104">Field Object (ADO)</span></span>](field-object-ado.md)
+  - [<span data-ttu-id="cf246-104">Objeto Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="cf246-104">Field Object (ADO)</span></span>](field-object-ado.md)
 
-  - [<span data-ttu-id="dadc0-105">Campo propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="dadc0-105">Field Properties, Methods, and Events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
+  - [<span data-ttu-id="cf246-105">Campo propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="cf246-105">Field Properties, Methods, and Events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
 
