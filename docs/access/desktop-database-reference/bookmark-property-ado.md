@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: propriedade Bookmark (ADO) TOCTitle: propriedade Bookmark (ADO) === título: propriedade Bookmark (ADO) TOCTitle: propriedade Bookmark (ADO)
->>>>>>> ms:assetid de mestre: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15) ms:contentKeyID: ms.date 48543287: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Bookmark (ADO)
+TOCTitle: Bookmark property (ADO)
+ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
+ms:contentKeyID: 48543287
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5052b25325007a5daca76baccf7414e0c7a43cd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889116"
 ---
-
-<<<<<<< Cabeça
 # <a name="bookmark-property-ado"></a>Propriedade Bookmark (ADO)
-=======
-# <a name="bookmark-property-ado"></a>Propriedade Bookmark (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Aponta um indicador que identifica com exclusividade o registro atual em um objeto [Recordset](recordset-object-ado.md) ou define o registro atual em um objeto **Recordset** para o registro identificado por um indicador válido.
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Configura ou retorna uma expressão **Variant** que avalia um indicador válido.
 

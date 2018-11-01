@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0dd33e24914d7e45d8678379df5825a42ef0b6fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 0bc6cc78d932b6735b231d86347512d1c0a4b25d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605832"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868284"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Método Database.OpenRecordset (DAO)
 
@@ -54,7 +54,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 <td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p>Tipo</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p>
@@ -93,11 +93,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Recordset
 

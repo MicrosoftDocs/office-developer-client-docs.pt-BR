@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: Filter e RecordCount exemplo das propriedades (VC + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VC + +) === título: exemplo das propriedades Filter e RecordCount (VC + +) TOCTitle: Filter e RecordCount exemplo das propriedades (VC + +)
->>>>>>> ms:assetid de mestre: 361499c3-cfb4-a26b-5ed7-5c880ae7d631 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15) ms:contentKeyID: ms.date 48544161: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades Filter e RecordCount (VC++)
+TOCTitle: Filter and RecordCount properties example (VC++)
+ms:assetid: 361499c3-cfb4-a26b-5ed7-5c880ae7d631
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15)
+ms:contentKeyID: 48544161
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ca6e56110110086f9b608eb87228ebf17462bce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889816"
 ---
-
-<<<<<<< Cabeça
 # <a name="filter-and-recordcount-properties-example-vc"></a>Exemplo das propriedades Filter e RecordCount (VC++)
-=======
-# <a name="filter-and-recordcount-properties-example-vc"></a>Exemplo das propriedades Filter e RecordCount (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.
 

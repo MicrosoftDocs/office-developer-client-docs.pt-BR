@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: propriedade Descrição (ADO) TOCTitle: propriedade Descrição (ADO) === título: a propriedade Description (ADO) TOCTitle: a propriedade Description (ADO)
->>>>>>> ms:assetid de mestre: 31df5e36-641c-d213-31fc-6244e2983327 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15) ms:contentKeyID: ms.date 48544064: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Description (ADO)
+TOCTitle: Description property (ADO)
+ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
+ms:contentKeyID: 48544064
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc2a7706afbf69d9949e8b04122b144c6826ec40
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882935"
 ---
-
-<<<<<<< Cabeça
 # <a name="description-property-ado"></a>Propriedade Description (ADO)
-=======
-# <a name="description-property-ado"></a>Propriedade Description (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Descreve um objeto [Error](error-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um valor **String** contendo uma descrição do erro.
 

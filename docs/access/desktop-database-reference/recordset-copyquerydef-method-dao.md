@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
 ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8c9342a58e70587e60236d8cb5410d9eb2709f0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 73bc9bb5063068dc3f29345b3828db4f7729110f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606168"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885322"
 ---
 # <a name="recordsetcopyquerydef-method-dao"></a>Método Recordset.CopyQueryDef (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **QueryDef** usado para criar o objeto **[Recordset](recordset-object-dao.md)** representado por um espaço reservado recordset (somente espaços de trabalho do Microsoft Access). .
 
@@ -26,11 +26,7 @@ Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 QueryDef
 

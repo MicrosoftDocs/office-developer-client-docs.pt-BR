@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d9daa27f5a5e31aac295babf6f40b32f89a9df5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860340"
+ms.locfileid: "25874962"
 ---
 # <a name="copyrecord-method-ado"></a>Método CopyRecord (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Copia uma entidade representada por um **Record** para outro local.
 
@@ -50,11 +50,7 @@ Copia uma entidade representada por um **Record** para outro local.
 
   - Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.
 
-<<<<<<< HEAD
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Um valor **String** que normalmente retorna o valor de *Destination*. No entanto, o valor exato retornado depende do provedor.
 
@@ -74,10 +70,6 @@ Este método falha se *Destination* identificar uma entidade existente (por exem
 
 
 > [!NOTE]
-<<<<<<< HEAD
-> <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
-=======
 > [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
->>>>>>> mestre
 
 

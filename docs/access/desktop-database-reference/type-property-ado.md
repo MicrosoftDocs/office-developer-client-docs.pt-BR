@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: TOCTitle propriedade tipo (ADO): tipo de propriedade (ADO) === título: (ADO) a propriedade Type TOCTitle: digite propriedade (ADO)
->>>>>>> ms:assetid de mestre: 14d99172-2145-05ae-620b-459ba097f05c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15) ms:contentKeyID: ms.date 48543397: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Type (ADO)
+TOCTitle: Type property (ADO)
+ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
+ms:contentKeyID: 48543397
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 646284877722baf9aec6bb591b071667fdf9cc1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867724"
 ---
-
-<<<<<<< Cabeça
 # <a name="type-property-ado"></a>Propriedade Type (ADO)
-=======
-# <a name="type-property-ado"></a>Propriedade Type (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o tipo operacional ou o tipo de dados de um objeto [Parameter](parameter-object-ado.md), [Field](field-object-ado.md) ou [Property](property-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor [DataTypeEnum](datatypeenum.md).
 

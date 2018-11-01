@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821459(v=office.15)
 ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e800ce42b5ada2380dcb895814787ab4a9db6573
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f2e8a7c3dfb3f531fa20ee9a52a1d83e5e8c7a3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463328"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884048"
 ---
 # <a name="recordseteof-property-dao"></a>Propriedade Recordset.EOF (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna um valor que indica se a posição atual do registro é após o último registro em um objeto **Recordset**. **Boolean** somente leitura.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931434288cbc14da5d3d9d9d53cd250555c7a767
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 233e1a9e6237500b3d13e3234e7c6ddf4d556abc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465099"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884132"
 ---
 # <a name="using-the-java-type-library-wizard"></a>Usando o Java Type Library Wizard
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O Java Type Library Wizard é um recurso do Visual J++ 1.x, integrado ao menu **Ferramentas** do ambiente de desenvolvimento. Sua função é pesquisar uma biblioteca de tipos e criar uma interface Java que permita acessar objetos COM. No Visual J++ 6.0, esse recurso foi substituído pelo [ADO for Windows Foundation Classes](ado-wfc-programming.md).
 

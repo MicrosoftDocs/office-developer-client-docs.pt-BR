@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)
 ms:contentKeyID: 48546349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 328804dc8186c082cf22d409b4071368af8873e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c42bd49e25ad15a46955e46d60684836e52a9f32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461982"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873261"
 ---
 # <a name="sql-expressions"></a>Expressões SQL
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma expressão SQL é uma sequência que compõe toda ou parte de uma instrução SQL. Por exemplo, o método **FindFirst** em um objeto **Recordset** usa uma expressão SQL que consiste nos critérios de seleção localizados em uma [cláusula WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) do SQL.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: coleção Parameters, exemplo da propriedade Command (VC + +) TOCTitle: coleção Parameters, exemplo da propriedade Command (VC + +) === título: coleção Parameters, exemplo da propriedade Command (VC + +) TOCTitle: Coleção Parameters, exemplo da propriedade Command (VC + +)
->>>>>>> ms:assetid de mestre: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: ms.date 48545237: 18/09/2015 mtps_version: v=office.15
+title: Coleção Parameters, exemplo da propriedade Command (VC + +)
+TOCTitle: Parameters Collection, Command property example (VC++)
+ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
+ms:contentKeyID: 48545237
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 302f329e09123a92fa008f031fde713393ad7a77
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888297"
 ---
-
-<<<<<<< Cabeça
-# <a name="parameters-collection-command-property-example-vc"></a>Exemplo da propriedade Command, coleção Parameters (VC++)
-=======
 # <a name="parameters-collection-command-property-example-vc"></a>Coleção Parameters, exemplo da propriedade Command (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) com o objeto [Command](command-object-ado.md) para recuperar informações de parâmetro referentes ao procedimento.
 

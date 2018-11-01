@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249139(v=office.15)
 ms:contentKeyID: 48544237
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1cb650c8748b6f7e8a6d81d5e5efde9877a412f7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b4601f80c3d91884256445da83f432dcc4e2e137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887485"
 ---
 # <a name="index-properties-methods-and-events-adox"></a>Índice de propriedades, métodos e eventos (ADOX)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 

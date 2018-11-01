@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9377f61ec334f41b7f8ccba61b87a9d5953b4429
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63762814d0eb90cccb86402dbd6284fd873aef73
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464275"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887800"
 ---
 # <a name="querydefrecordsaffected-property-dao"></a>Propriedade QueryDef.RecordsAffected (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna o número de registros afetados pelo método **[Execute](querydef-execute-method-dao.md)** chamado mais recentemente.
 

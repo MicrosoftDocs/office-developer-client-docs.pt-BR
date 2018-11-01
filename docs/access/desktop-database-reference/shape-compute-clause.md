@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 634a0ea648646d95995054ce7458cea492c40e47
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8e35cfc7bc5df144fa1938f794cb705bf2f1448c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465137"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889928"
 ---
 # <a name="shape-compute-clause"></a>Cláusula Compute de forma
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma cláusula COMPUTE de forma gera um **Recordset** pai, cujas colunas consistem em uma referência ao **Recordset** filho; colunas opcionais cujo conteúdo são colunas de capítulo, colunas novas ou colunas calculadas, ou o resultado da execução de funções agregadas no **Recordset** filho ou em um **Recordset** com formato anterior; e todas as colunas do **Recordset** filho listado na cláusula BY opcional.
 

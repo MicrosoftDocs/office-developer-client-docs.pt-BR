@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Mt346017(v=office.15)
 ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 782440478c7fd9c3e38890fafadc6a51bb0f116f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e75bdf0528c371e0e036fcabf8fb4b4cd1f25dbf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464211"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883502"
 ---
 # <a name="concepts"></a>Conceitos
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Esta seção oferece conceitos importantes para o desenvolvimento de soluções personalizadas do Access.
 
@@ -23,9 +23,9 @@ Se você estiver exibindo o conteúdo no docs.microsoft.com, você pode usar o s
 
 - [Controles ActiveX](activex-controls-access.md)
 - [Conversão](conversion.md)
-- [Faixa de opções](ribbon.md)
-- [Trabalhando com outros aplicativos](working-with-other-applications-access.md)
-- [Conjunto de formulário, relatório e propriedades de controle](set-form-report-and-control-properties.md)
+- [Faixa de Opções](ribbon.md)
+- [Como trabalhar com outros aplicativos](working-with-other-applications-access.md)
+- [Definir propriedades de formulário, relatório e controle](set-form-report-and-control-properties.md)
 
 ## <a name="see-also"></a>Confira também
 

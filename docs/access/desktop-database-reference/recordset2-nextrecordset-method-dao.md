@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f445014de9e2e1675d8667b33a0926529308995
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 55f85466a3717a3e3212b0458b3fbed78eb99c0a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605272"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888934"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Método Recordset2.NextRecordset (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -28,11 +28,7 @@ ms.locfileid: "25605272"
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Boolean
 

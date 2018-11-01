@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c13f6fed20bebb40f4a8cacc3deedd7467ff55e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e06d3ebb014cc38b19e37098b217bd072af4434a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462022"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870958"
 ---
 # <a name="runcode-macro-action"></a>Ação da macro ExecutarCódigo
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Use a ação **ExecutarCódigo** para chamar um procedimento Function do VBA(Visual Basic for Applications).
 

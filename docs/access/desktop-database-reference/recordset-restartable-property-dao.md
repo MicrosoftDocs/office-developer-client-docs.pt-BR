@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052926
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2b36a2dd7400b2d3376149a4d012c8fa79242021
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 782008e1fcad427a8d47a143dab0a54bc3b9e041
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463557"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874640"
 ---
 # <a name="recordsetrestartable-property-dao"></a>Propriedade Recordset.Restartable (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna um valor que indica se um objeto **[Recordset](recordset-object-dao.md)** oferece suporte ao método **[Requery](recordset-requery-method-dao.md)**, que reexecuta a consulta na qual está baseado o objeto **Recordset**.
 

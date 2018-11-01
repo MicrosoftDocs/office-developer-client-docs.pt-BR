@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: CursorType, LockType e EditMode exemplo das propriedades (VJ + +) TOCTitle: CursorType, LockType e EditMode exemplo das propriedades (VJ + +) === título: exemplo das Propriedades CursorType, LockType e EditMode (VJ + +) TOCTitle: CursorType, LockType e EditMode exemplo das propriedades (VJ + +)
->>>>>>> ms:assetid de mestre: bfe87584-4909-8974-b207-4a0c363c5155 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15) ms:contentKeyID: ms.date 48547497: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades CursorType, LockType e EditMode (VJ++)
+TOCTitle: CursorType, LockType, and EditMode properties example (VJ++)
+ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
+ms:contentKeyID: 48547497
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 126d52af8a83e23b3298b8f0fb4600e603832a15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873947"
 ---
-
-<<<<<<< Cabeça
 # <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>Exemplo das propriedades CursorType, LockType e EditMode (VJ++)
-=======
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>Exemplo das Propriedades CursorType, LockType e EditMode (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a definição das propriedades [CursorType](cursortype-property-ado.md) e [LockType](locktype-property-ado.md) antes de abrir um [Recordset](recordset-object-ado.md). Ele também mostra o valor da propriedade [EditMode](editmode-property-ado.md) em diversas condições. A função EditModeOutput é necessária para que esse procedimento seja executado.
 

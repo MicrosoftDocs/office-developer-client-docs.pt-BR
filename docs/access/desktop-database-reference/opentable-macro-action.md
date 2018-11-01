@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 729c1f14d49b3f80ec6307ce775066d3291b96de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0390b81fdf4362372dd6142b09071c8eb1e773e1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463822"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889634"
 ---
 # <a name="opentable-macro-action"></a>Ação de macro AbrirTabela
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **AbrirTabela** para abrir uma tabela em modo Folha de Dados, modo Design ou Visualizar Impressão. Também pode selecionar um modo de entrada de dados para a tabela.
 

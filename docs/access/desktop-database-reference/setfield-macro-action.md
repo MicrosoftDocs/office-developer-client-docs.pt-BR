@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7050065ccb42d5e6cc9347f32df056891f4ed078
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1be405402c5f410c892c2dd8904133e09039351a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464272"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869498"
 ---
 # <a name="setfield-macro-action"></a>Ação de macro DefinirCampo
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A ação **DefinirCampo** pode ser usada para atribuir um valor a um campo.
 

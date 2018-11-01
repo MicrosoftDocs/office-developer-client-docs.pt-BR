@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1794e3e13bc2c8fe7c3acc9bbd1413daf4938d2c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859990"
+ms.locfileid: "25887429"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemplo de modelo de eventos do ADO (VC + +)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) fornece uma descrição geral de como instanciar o modelo de eventos do ADO. A seguir está um exemplo específico de instanciando o modelo de evento dentro do ambiente criado pelo ** \#importar** diretiva.
 

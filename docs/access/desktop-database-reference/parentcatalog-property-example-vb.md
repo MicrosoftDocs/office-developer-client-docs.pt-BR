@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade ParentCatalog (VB) TOCTitle: exemplo de propriedade ParentCatalog (VB) === título: exemplo da propriedade ParentCatalog (VB) TOCTitle: exemplo da propriedade ParentCatalog (VB)
->>>>>>> ms:assetid de mestre: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: ms.date 48544295: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade ParentCatalog (VB)
+TOCTitle: ParentCatalog property example (VB)
+ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
+ms:contentKeyID: 48544295
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6e76d40a02aa70bcf977a34f1db378e8d83e5d1e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867759"
 ---
-
-<<<<<<< Cabeça
 # <a name="parentcatalog-property-example-vb"></a>Exemplo da propriedade ParentCatalog (VB)
-=======
-# <a name="parentcatalog-property-example-vb"></a>Exemplo da propriedade ParentCatalog (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O código a seguir demonstra como usar a propriedade [ParentCatalog](parentcatalog-property-adox.md) para acessar uma propriedade específica do provedor-antes de acrescentar uma tabela a um catálogo. A propriedade é AutoIncrement, que cria um campo AutoIncrement em um banco de dados Microsoft Jet.
 

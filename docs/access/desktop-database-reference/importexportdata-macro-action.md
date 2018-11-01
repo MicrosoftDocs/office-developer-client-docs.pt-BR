@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860844"
+ms.locfileid: "25887779"
 ---
 # <a name="importexportdata-macro-action"></a>Ação de macro ImportExportData
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ImportExportData** para importar ou exportar dados entre o banco de dados atual do Access (.mdb ou .accdb) ou o projeto do Access (.adp) e outro banco de dados. Para bancos de dados do Microsoft Access, você também pode vincular uma tabela ao banco de dados atual do Access de outro banco de dados. Com uma tabela vinculada, você tem acesso aos dados da tabela enquanto a própria tabela permanece em outro banco de dados.
 

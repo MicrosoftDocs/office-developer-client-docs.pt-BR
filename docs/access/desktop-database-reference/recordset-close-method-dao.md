@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
 ms:contentKeyID: 48548404
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d19cc340079c94d2e5c6bf271fdee20d9a5c017
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b4b008676e9c2836238d146a55a472b8ee0590c3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464651"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884265"
 ---
 # <a name="recordsetclose-method-dao"></a>Método Recordset.Close (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Fecha um **Recordset** aberto.
 

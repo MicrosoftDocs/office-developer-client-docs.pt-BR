@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9d28202ce20b68171f3de93078fd818007028a9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 341158e15ec06525fa88eddecf778bb0bb78c3f0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860487"
+ms.locfileid: "25884770"
 ---
 # <a name="getrows-method-example-vc"></a>Exemplo do método GetRows (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza o método [GetRows](getrows-method-ado.md) para recuperar um número especificado de linhas a partir de um [Recordset](recordset-object-ado.md) e preencher uma matriz com os dados resultantes. O método **GetRows** retornará menos que o número desejado de linhas em dois casos: se o [EOF](bof-eof-properties-ado.md) for alcançado ou se **GetRows** tentou recuperar um registro que foi excluído por outro usuário. A função retorna **False** apenas se o segundo caso ocorrer. A função GetRowsOK é necessária para a execução deste procedimento.
 

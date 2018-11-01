@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: IsolationLevel e Mode exemplo das propriedades (VJ + +) TOCTitle: exemplo IsolationLevel e Mode Properties (VJ + +) === título: exemplo das propriedades IsolationLevel e Mode (VJ + +) TOCTitle: IsolationLevel e Mode exemplo das propriedades (VJ + +)
->>>>>>> ms:assetid de mestre: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: ms.date 48547711: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades IsolationLevel e Mode (VJ++)
+TOCTitle: IsolationLevel and Mode properties example (VJ++)
+ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
+ms:contentKeyID: 48547711
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 85a43312db4861cd4c39742eff2cc39be6f1950f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886687"
 ---
-
-<<<<<<< Cabeça
-# <a name="isolationlevel-and-mode-properties-example-vj"></a>Exemplo das propriedades IsolationLevel e Mode Properties (VJ++)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vj"></a>Exemplo das propriedades IsolationLevel e Mode (VJ + +)
->>>>>>> mestre
+# <a name="isolationlevel-and-mode-properties-example-vj"></a>Exemplo das propriedades IsolationLevel e Mode (VJ++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.
 

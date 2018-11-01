@@ -1,23 +1,25 @@
 ---
-<<<<<<< Título cabeça: propriedade ParentURL (ADO) TOCTitle: propriedade ParentURL (ADO) === título: a propriedade ParentURL (ADO) TOCTitle: a propriedade ParentURL (ADO)
->>>>>>> ms:assetid de mestre: ec7ec476-6f9e-8486-fe02-74995975df5c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15) ms:contentKeyID: ms.date 48548517: 18/09/2015 mtps_version: v=office.15
+title: Propriedade ParentURL (ADO)
+TOCTitle: ParentURL property (ADO)
+ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
+ms:contentKeyID: 48548517
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 29245960ad845587ac8f31931bdd5ce1e39a63c9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885882"
 ---
-
-<<<<<<< Cabeça
 # <a name="parenturl-property-ado"></a>Propriedade ParentURL (ADO)
-=======
-# <a name="parenturl-property-ado"></a>Propriedade ParentURL (ADO)
->>>>>>> mestre
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica uma sequência de URL absoluta que aponta para o [Record](record-object-ado.md) pai do objeto **Record** atual.
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um valor **String** que indica a URL do **Record** pai.
 

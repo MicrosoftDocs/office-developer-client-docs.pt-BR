@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
 ms:contentKeyID: 48548183
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa3a4d1d2a917997b9e7ed5407d4f2ce8d1d0361
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 602d3407d78843331fdb78ef728cebbc69bace14
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464110"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889459"
 ---
 # <a name="ado-java-class-wrappers"></a>Wrappers da classe Java do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este código declara uma instância do wrapper da classe [Recordset](recordset-object-ado.md) do ADO e a inicializa, tudo na mesma linha de código. Além disso, ele declara variáveis para cada um dos argumentos no método [Open](open-method-ado-recordset.md), especialmente para [LockType](locktype-property-ado.md) e [CursorType](cursortype-property-ado.md) (pois o Java não oferece suporte a tipos enumerados). Ele abre e fecha o objeto **Recordset**. Definir Rs1 como NULL apenas faz com que esta variável seja lançada quando o Java executar o lançamento sistemático e intermitente de objetos não utilizados.
 

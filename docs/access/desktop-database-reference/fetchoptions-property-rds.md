@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3e7251ba50b003b37cdeb0dd70fe4a98821d4c9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b018fda52ba7dd311cda9b7b23ce10d5e47c4828
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861929"
+ms.locfileid: "25868922"
 ---
 # <a name="fetchoptions-property-rds"></a>Propriedade FetchOptions (RDS)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o tipo de busca assíncrona.
 
@@ -60,7 +60,5 @@ Define ou retorna um dos valores a seguir.
 
 ## <a name="remarks"></a>Comentários
 
-<<<<<<< Cabeça em um aplicativo Web, você geralmente desejará usar **adcFetchAsync** (o valor padrão), porque ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
-=== Em um aplicativo web, você geralmente desejará usar **adcFetchAsync** (o valor padrão), porque ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
->>>>>>> mestre
+Em um aplicativo web, você geralmente desejará usar **adcFetchAsync** (o valor padrão), porque ele fornece um melhor desempenho. Em um aplicativo cliente compilado, você geralmente usará **adcFetchBackground**.
 

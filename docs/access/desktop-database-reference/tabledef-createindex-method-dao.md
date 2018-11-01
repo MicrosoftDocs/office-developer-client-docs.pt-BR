@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1c0dd3a48274c7a0affae9caa87ec762bea498ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 017fbbe543540d45a7b05dec7ca992614bda40ad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606371"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868088"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Método TableDef.CreateIndex (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013 
+**Aplica-se a**: Access 2013, o Office 2013 
 
 Cria um novo objeto **[Index](index-object-dao.md)** (apenas espaços de trabalho do Microsoft Access). .
 
@@ -58,11 +58,7 @@ Cria um novo objeto **[Index](index-object-dao.md)** (apenas espaços de trabalh
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Index
 

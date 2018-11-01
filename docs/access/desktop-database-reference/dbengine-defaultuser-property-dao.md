@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3926caa69e6a4e67bf66f2fdecde1db5fd79e2f1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4f7179b6cb6dc442775082474039ab61831cb627
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863084"
+ms.locfileid: "25867689"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>Propriedade DBEngine.DefaultUser (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define o nome de usuário utilizado para criar o **Workspace** padrão quando ele é inicializado. **String** de leitura/gravação.
 

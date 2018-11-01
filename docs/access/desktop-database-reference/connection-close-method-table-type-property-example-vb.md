@@ -1,15 +1,21 @@
 ---
-<<<<<<< Título cabeça: método Close de Conexão, exemplo de propriedade de tipo de tabela (VB) TOCTitle: método Close de Conexão, exemplo de propriedade de tipo de tabela (VB) === título: método Close de Conexão, exemplo da propriedade Type de tabela (VB) TOCTitle: Método Close de Conexão, exemplo da propriedade Type de tabela (VB)
->>>>>>> ms:assetid de mestre: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: ms.date 48547754: 18/09/2015 mtps_version: v=office.15
+title: Método Close de Conexão, exemplo da propriedade Type de tabela (VB)
+TOCTitle: Connection Close Method, Table Type property example (VB)
+ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
+ms:contentKeyID: 48547754
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868307"
 ---
-
-<<<<<<< Cabeça
-# <a name="connection-close-method-table-type-property-example-vb"></a>Método Close de conexão, exemplo da propriedade Type de tabela (VB)
-=======
 # <a name="connection-close-method-table-type-property-example-vb"></a>Método Close de Conexão, exemplo da propriedade Type de tabela (VB)
->>>>>>> mestre
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A configuração da propriedade [ActiveConnection](activeconnection-property-adox.md) como **Nothing** deve "fechar" o catálogo. As coleções associadas estarão vazias. Todos os objetos que foram criados com os objetos de esquema no catálogo ficarão órfãos. Todas as propriedades desses objetos que tenham sido armazenadas em cache ainda estarão disponíveis, mas a tentativa de ler propriedades que requeiram uma chamada para o provedor falharão.
 

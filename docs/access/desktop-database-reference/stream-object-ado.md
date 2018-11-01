@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0a5ad4b50ed0548bad1f9a5482ee6755ecc9e2c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 6820d09c952f85c06637639c62f1423012e14f5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603592"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872512"
 ---
 # <a name="stream-object-ado"></a>Objeto Stream (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Representa um fluxo de dados ou texto binário.
 
@@ -64,13 +64,7 @@ Com os métodos e as propriedades e um objeto **Stream**, você pode fazer o seg
 
   - Especificar o modo de acesso para o **Stream** com a propriedade [Mode](mode-property-ado.md).
 
-<<<<<<< Cabeça
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</P>
-=======
-> [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
->>>>>>> mestre
+> [!OBSERVAçãO] As URLs que usam o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
 
 

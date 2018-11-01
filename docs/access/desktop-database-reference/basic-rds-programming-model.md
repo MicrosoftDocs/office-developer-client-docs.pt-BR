@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249781(v=office.15)
 ms:contentKeyID: 48546911
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a90423f6bd05ae3d721faf97291ea6d21aa4393
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a666b12a3359c8212afaed66155d8cf8578f6a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463878"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886820"
 ---
 # <a name="basic-rds-programming-model"></a>Modelo de programação do RDS básico
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O RDS lida com aplicativos existentes no seguinte ambiente: um aplicativo cliente especifica um programa a ser executado em um servidor e os parâmetros necessários para retornar as informações desejadas. O programa invocado no servidor obtém acesso à fonte de dados especificada, recupera as informações, talvez processe os dados e retorna as informações resultantes para o aplicativo cliente de modo que elas possam ser facilmente utilizadas. O RDS fornece os meios para realizar a seguinte sequência de ações:
 
