@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="b954e-101"><<<<<<< Título cabeça: TOCTitle de exemplo de propriedade otimizar (VB): exemplo de propriedade otimizar (VB) === título: (VB) de exemplo da propriedade Optimize TOCTitle: otimizar um exemplo da propriedade (VB)</span><span class="sxs-lookup"><span data-stu-id="b954e-101"><<<<<<< HEAD title: Optimize Property Example (VB) TOCTitle: Optimize Property Example (VB) ======= title: Optimize property example (VB) TOCTitle: Optimize property example (VB)</span></span>
->>>>>>> <span data-ttu-id="b954e-102">ms:assetid de mestre: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: ms.date 48548686: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="b954e-102">master ms:assetid: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: 48548686 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade Optimize (VB)
+TOCTitle: Optimize property example (VB)
+ms:assetid: f4576247-6057-c1fe-013d-74feaab33174
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
+ms:contentKeyID: 48548686
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a52eae197f2be1f6ed6825dc5c6c9fd3a785451c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871448"
 ---
-
-<span data-ttu-id="b954e-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="b954e-103"><<<<<<< HEAD</span></span>
-# <a name="optimize-property-example-vb"></a><span data-ttu-id="b954e-104">Exemplo da propriedade Optimize (VB)</span><span class="sxs-lookup"><span data-stu-id="b954e-104">Optimize Property Example (VB)</span></span>
-=======
-# <a name="optimize-property-example-vb"></a><span data-ttu-id="b954e-105">Exemplo da propriedade (VB) Optimize</span><span class="sxs-lookup"><span data-stu-id="b954e-105">Optimize property example (VB)</span></span>
->>>>>>> <span data-ttu-id="b954e-106">mestre</span><span class="sxs-lookup"><span data-stu-id="b954e-106">master</span></span>
+# <a name="optimize-property-example-vb"></a><span data-ttu-id="57ddc-102">Exemplo da propriedade Optimize (VB)</span><span class="sxs-lookup"><span data-stu-id="57ddc-102">Optimize property example (VB)</span></span>
 
 
-<span data-ttu-id="b954e-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b954e-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="57ddc-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="57ddc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b954e-108">Este exemplo demonstra a propriedade Optimize dinâmica dos objetos [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="b954e-108">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="b954e-109">O campo ***zip*** da tabela dos ***autores*** do banco de dados ***Pubs*** não é indexado.</span><span class="sxs-lookup"><span data-stu-id="b954e-109">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="b954e-110">A propriedade [Optimize](optimize-property-dynamic-ado.md) a definição como **True** no campo ***zip*** autoriza ADO para criar um índice que melhora o desempenho dos métodos [Find](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b954e-110">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="57ddc-104">Este exemplo demonstra a propriedade Optimize dinâmica dos objetos [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="57ddc-104">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="57ddc-105">O campo ***zip*** da tabela dos ***autores*** do banco de dados ***Pubs*** não é indexado.</span><span class="sxs-lookup"><span data-stu-id="57ddc-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="57ddc-106">A propriedade [Optimize](optimize-property-dynamic-ado.md) a definição como **True** no campo ***zip*** autoriza ADO para criar um índice que melhora o desempenho dos métodos [Find](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="57ddc-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```vb 
  

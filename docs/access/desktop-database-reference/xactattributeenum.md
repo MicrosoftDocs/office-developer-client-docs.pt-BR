@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2d39cc24feb377cf61e7c2d0a39e11513f4c0616
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 28b81c45921120b8a3cd8768d22559355d8ff623
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864057"
+ms.locfileid: "25870489"
 ---
-# <a name="xactattributeenum"></a><span data-ttu-id="beed7-102">XactAttributeEnum</span><span class="sxs-lookup"><span data-stu-id="beed7-102">XactAttributeEnum</span></span>
+# <a name="xactattributeenum"></a><span data-ttu-id="8c338-102">XactAttributeEnum</span><span class="sxs-lookup"><span data-stu-id="8c338-102">XactAttributeEnum</span></span>
 
-<span data-ttu-id="beed7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="beed7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8c338-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c338-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="beed7-104">Especifica os atributos de transação de um objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="beed7-104">Specifies the transaction attributes of a [Connection](connection-object-ado.md) object.</span></span>
+<span data-ttu-id="8c338-104">Especifica os atributos de transação de um objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8c338-104">Specifies the transaction attributes of a [Connection](connection-object-ado.md) object.</span></span>
 
 <br/>
 
@@ -29,29 +29,29 @@ ms.locfileid: "25864057"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="beed7-105">Constant</span><span class="sxs-lookup"><span data-stu-id="beed7-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="beed7-106">Valor</span><span class="sxs-lookup"><span data-stu-id="beed7-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="beed7-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="beed7-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="8c338-105">Constant</span><span class="sxs-lookup"><span data-stu-id="8c338-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8c338-106">Valor</span><span class="sxs-lookup"><span data-stu-id="8c338-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="8c338-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="8c338-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="beed7-108"><strong>adXactAbortRetaining</strong></span><span class="sxs-lookup"><span data-stu-id="beed7-108"><strong>adXactAbortRetaining</strong></span></span></p></td>
-<td><p><span data-ttu-id="beed7-109">262144</span><span class="sxs-lookup"><span data-stu-id="beed7-109">262144</span></span></p></td>
-<td><p><span data-ttu-id="beed7-110">Realiza anulações reter; ou seja, chamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> automaticamente inicia uma nova transação.</span><span class="sxs-lookup"><span data-stu-id="beed7-110">Performs retaining aborts; that is, calling <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> automatically starts a new transaction.</span></span> <span data-ttu-id="beed7-111">Nem todos os provedores dar suporte a isso.</span><span class="sxs-lookup"><span data-stu-id="beed7-111">Not all providers support this.</span></span></p></td>
+<td><p><span data-ttu-id="8c338-108"><strong>adXactAbortRetaining</strong></span><span class="sxs-lookup"><span data-stu-id="8c338-108"><strong>adXactAbortRetaining</strong></span></span></p></td>
+<td><p><span data-ttu-id="8c338-109">262144</span><span class="sxs-lookup"><span data-stu-id="8c338-109">262144</span></span></p></td>
+<td><p><span data-ttu-id="8c338-110">Realiza anulações reter; ou seja, chamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> automaticamente inicia uma nova transação.</span><span class="sxs-lookup"><span data-stu-id="8c338-110">Performs retaining aborts; that is, calling <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> automatically starts a new transaction.</span></span> <span data-ttu-id="8c338-111">Nem todos os provedores dar suporte a isso.</span><span class="sxs-lookup"><span data-stu-id="8c338-111">Not all providers support this.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beed7-112"><strong>adXactCommitRetaining</strong></span><span class="sxs-lookup"><span data-stu-id="beed7-112"><strong>adXactCommitRetaining</strong></span></span></p></td>
-<td><p><span data-ttu-id="beed7-113">131072</span><span class="sxs-lookup"><span data-stu-id="beed7-113">131072</span></span></p></td>
-<td><p><span data-ttu-id="beed7-114">Realiza confirmações reter; ou seja, chamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> automaticamente inicia uma nova transação.</span><span class="sxs-lookup"><span data-stu-id="beed7-114">Performs retaining commits; that is, calling <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> automatically starts a new transaction.</span></span> <span data-ttu-id="beed7-115">Nem todos os provedores dar suporte a isso.</span><span class="sxs-lookup"><span data-stu-id="beed7-115">Not all providers support this.</span></span></p></td>
+<td><p><span data-ttu-id="8c338-112"><strong>adXactCommitRetaining</strong></span><span class="sxs-lookup"><span data-stu-id="8c338-112"><strong>adXactCommitRetaining</strong></span></span></p></td>
+<td><p><span data-ttu-id="8c338-113">131072</span><span class="sxs-lookup"><span data-stu-id="8c338-113">131072</span></span></p></td>
+<td><p><span data-ttu-id="8c338-114">Realiza confirmações reter; ou seja, chamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> automaticamente inicia uma nova transação.</span><span class="sxs-lookup"><span data-stu-id="8c338-114">Performs retaining commits; that is, calling <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> automatically starts a new transaction.</span></span> <span data-ttu-id="8c338-115">Nem todos os provedores dar suporte a isso.</span><span class="sxs-lookup"><span data-stu-id="8c338-115">Not all providers support this.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="beed7-116">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="beed7-116">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="8c338-116">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="8c338-116">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="beed7-117">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="beed7-117">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="8c338-117">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="8c338-117">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -59,15 +59,15 @@ ms.locfileid: "25864057"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="beed7-118">Constante</span><span class="sxs-lookup"><span data-stu-id="beed7-118">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8c338-118">Constante</span><span class="sxs-lookup"><span data-stu-id="8c338-118">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="beed7-119">AdoEnums.XactAttribute.ABORTRETAINING</span><span class="sxs-lookup"><span data-stu-id="beed7-119">AdoEnums.XactAttribute.ABORTRETAINING</span></span></p></td>
+<td><p><span data-ttu-id="8c338-119">AdoEnums.XactAttribute.ABORTRETAINING</span><span class="sxs-lookup"><span data-stu-id="8c338-119">AdoEnums.XactAttribute.ABORTRETAINING</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="beed7-120">AdoEnums.XactAttribute.COMMITRETAINING</span><span class="sxs-lookup"><span data-stu-id="beed7-120">AdoEnums.XactAttribute.COMMITRETAINING</span></span></p></td>
+<td><p><span data-ttu-id="8c338-120">AdoEnums.XactAttribute.COMMITRETAINING</span><span class="sxs-lookup"><span data-stu-id="8c338-120">AdoEnums.XactAttribute.COMMITRETAINING</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -6,35 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
 ms:contentKeyID: 48545257
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42c7b8a95eecd055e6a4581bd8d8f3a6c4693168
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8eca86433098256128dc78cb1c2cf6fd8b87ec6c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464252"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889193"
 ---
-# <a name="recordsetbookmarkable-property-dao"></a><span data-ttu-id="1d0f7-102">Propriedade Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="1d0f7-102">Recordset.Bookmarkable Property (DAO)</span></span>
+# <a name="recordsetbookmarkable-property-dao"></a><span data-ttu-id="d8494-102">Propriedade Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="d8494-102">Recordset.Bookmarkable Property (DAO)</span></span>
 
 
-<span data-ttu-id="1d0f7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d0f7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d8494-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8494-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1d0f7-104">Retorna um valor que indica se um objeto **Recordset** oferece suporte a indicadores, que você pode definir utilizando a propriedade **[Bookmark](recordset-bookmark-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset-bookmark-property-dao.md)** property.</span></span>
+<span data-ttu-id="d8494-104">Retorna um valor que indica se um objeto **Recordset** oferece suporte a indicadores, que você pode definir utilizando a propriedade **[Bookmark](recordset-bookmark-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="d8494-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset-bookmark-property-dao.md)** property.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1d0f7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1d0f7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d8494-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d8494-105">Syntax</span></span>
 
-<span data-ttu-id="1d0f7-106">*expressão* . Bookmarkable</span><span class="sxs-lookup"><span data-stu-id="1d0f7-106">*expression* .Bookmarkable</span></span>
+<span data-ttu-id="d8494-106">*expressão* . Bookmarkable</span><span class="sxs-lookup"><span data-stu-id="d8494-106">*expression* .Bookmarkable</span></span>
 
-<span data-ttu-id="1d0f7-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="1d0f7-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="d8494-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="d8494-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1d0f7-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="1d0f7-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d8494-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="d8494-108">Remarks</span></span>
 
-<span data-ttu-id="1d0f7-109">Verifique a configuração da propriedade **Bookmarkable** de um objeto **Recordset** antes de tentar definir ou verificar a propriedade **Bookmark**.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
+<span data-ttu-id="d8494-109">Verifique a configuração da propriedade **Bookmarkable** de um objeto **Recordset** antes de tentar definir ou verificar a propriedade **Bookmark**.</span><span class="sxs-lookup"><span data-stu-id="d8494-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
 
-<span data-ttu-id="1d0f7-110">Em objetos **Recordset** inteiramente baseado em tabelas de mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é True e você pode usar indicadores.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="1d0f7-111">Entretanto, outros produtos de banco de dados podem não aceitar indicadores.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="1d0f7-112">Por exemplo, você não pode usar indicadores em nenhum objeto **Recordset** com base em uma tabela vinculada Paradox que não tenha nenhuma chave primária.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
+<span data-ttu-id="d8494-110">Em objetos **Recordset** inteiramente baseado em tabelas de mecanismo de banco de dados do Microsoft Access, o valor da propriedade **Bookmarkable** é True e você pode usar indicadores.</span><span class="sxs-lookup"><span data-stu-id="d8494-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="d8494-111">Entretanto, outros produtos de banco de dados podem não aceitar indicadores.</span><span class="sxs-lookup"><span data-stu-id="d8494-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="d8494-112">Por exemplo, você não pode usar indicadores em nenhum objeto **Recordset** com base em uma tabela vinculada Paradox que não tenha nenhuma chave primária.</span><span class="sxs-lookup"><span data-stu-id="d8494-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1d0f7-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1d0f7-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d8494-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d8494-113">Example</span></span>
 
-<span data-ttu-id="1d0f7-114">Este exemplo utiliza as propriedades **Bookmark** e **Bookmarkable** para permitir que o usuário sinalize um registro no **Recordset** e volte a ele posteriormente.</span><span class="sxs-lookup"><span data-stu-id="1d0f7-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="d8494-114">Este exemplo utiliza as propriedades **Bookmark** e **Bookmarkable** para permitir que o usuário sinalize um registro no **Recordset** e volte a ele posteriormente.</span><span class="sxs-lookup"><span data-stu-id="d8494-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb
     Sub BookmarkX() 

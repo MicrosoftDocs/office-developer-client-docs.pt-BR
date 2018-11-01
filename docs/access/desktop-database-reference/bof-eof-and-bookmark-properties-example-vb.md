@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d8324-101"><<<<<<< Título cabeça: BOF, EOF e exemplo de propriedades Bookmark (VB) TOCTitle: BOF, EOF e exemplo de propriedades Bookmark (VB) === título: exemplo das propriedades BOF, EOF e Bookmark (VB) TOCTitle: exemplo das propriedades BOF, EOF e Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="d8324-101"><<<<<<< HEAD title: BOF, EOF, and Bookmark Properties Example (VB) TOCTitle: BOF, EOF, and Bookmark Properties Example (VB) ======= title: BOF, EOF, and Bookmark properties example (VB) TOCTitle: BOF, EOF, and Bookmark properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="d8324-102">ms:assetid de mestre: 30d4b424-b3d8-292f-7553-bb15b094eef8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15) ms:contentKeyID: ms.date 48544037: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="d8324-102">master ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15) ms:contentKeyID: 48544037 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo das propriedades BOF, EOF e Bookmark (VB)
+TOCTitle: BOF, EOF, and Bookmark properties example (VB)
+ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
+ms:contentKeyID: 48544037
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5a2841a8f13d053e41c7a15a37b40dd3513238fc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888500"
 ---
-
-<span data-ttu-id="d8324-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="d8324-103"><<<<<<< HEAD</span></span>
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="d8324-104">Exemplo das propriedades BOF, EOF e Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="d8324-104">BOF, EOF, and Bookmark Properties Example (VB)</span></span>
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="d8324-105">Exemplo das propriedades BOF, EOF e Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="d8324-105">BOF, EOF, and Bookmark properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="d8324-106">mestre</span><span class="sxs-lookup"><span data-stu-id="d8324-106">master</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="0f4b9-102">Exemplo das propriedades BOF, EOF e Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="0f4b9-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
 
 
-<span data-ttu-id="d8324-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8324-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0f4b9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="0f4b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d8324-p101">Este exemplo usa as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) para exibir uma mensagem caso um usuário tente se mover para além do primeiro ou último registro de um [Recordset](recordset-object-ado.md). Ele usa a propriedade [Bookmark](bookmark-property-ado.md) para permitir que o usuário sinalize um registro em um **Recordset** e retorne a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="d8324-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="0f4b9-p101">Este exemplo usa as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) para exibir uma mensagem caso um usuário tente se mover para além do primeiro ou último registro de um [Recordset](recordset-object-ado.md). Ele usa a propriedade [Bookmark](bookmark-property-ado.md) para permitir que o usuário sinalize um registro em um **Recordset** e retorne a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="0f4b9-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb 
  
@@ -118,7 +124,7 @@ End Sub
 'EndBOFVB 
 ```
 
-<span data-ttu-id="d8324-p102">Este exemplo usa as propriedades **Bookmark** e [Filter](filter-property-ado.md) para criar uma exibição limitada do **Recordset**. Apenas os registros referenciados pela matriz de indicadores ficam acessíveis.</span><span class="sxs-lookup"><span data-stu-id="d8324-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
+<span data-ttu-id="0f4b9-p102">Este exemplo usa as propriedades **Bookmark** e [Filter](filter-property-ado.md) para criar uma exibição limitada do **Recordset**. Apenas os registros referenciados pela matriz de indicadores ficam acessíveis.</span><span class="sxs-lookup"><span data-stu-id="0f4b9-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
 
 ```vb 
  

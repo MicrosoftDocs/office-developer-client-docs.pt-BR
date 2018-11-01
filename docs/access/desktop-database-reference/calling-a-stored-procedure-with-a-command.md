@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248944(v=office.15)
 ms:contentKeyID: 48543509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 573b847f53d3fc7ca07691e9a92d152598531bce
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05e68a18ccd97e33416c4603f033fb91acaf0210
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463645"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875998"
 ---
-# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="6e98c-102">Chamando um procedimento armazenado com um comando</span><span class="sxs-lookup"><span data-stu-id="6e98c-102">Calling a Stored Procedure with a Command</span></span>
+# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="fa88d-102">Chamando um procedimento armazenado com um comando</span><span class="sxs-lookup"><span data-stu-id="fa88d-102">Calling a Stored Procedure with a Command</span></span>
 
 
-<span data-ttu-id="6e98c-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6e98c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fa88d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa88d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6e98c-p101">Você também pode usar um comando ao chamar um procedimento armazenado. O código a seguir chama um procedimento armazenado no banco de dados de exemplo Northwind, chamado CustOrdersOrders, definido como segue:</span><span class="sxs-lookup"><span data-stu-id="6e98c-p101">You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
+<span data-ttu-id="fa88d-p101">Você também pode usar um comando ao chamar um procedimento armazenado. O código a seguir chama um procedimento armazenado no banco de dados de exemplo Northwind, chamado CustOrdersOrders, definido como segue:</span><span class="sxs-lookup"><span data-stu-id="fa88d-p101">You can also use a command when calling a stored procedure. The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
 
 ```vb 
  
@@ -29,11 +29,11 @@ WHERE CustomerID = @CustomerID
 ORDER BY OrderID 
 ```
 
-<span data-ttu-id="6e98c-p102">Esse procedimento armazenado é semelhante ao comando usado em [Parâmetros do objeto Command](command-object-parameters.md), por usar um parâmetro de identificação do cliente e retornar informações sobre os pedidos desse cliente. O código a seguir usa esse procedimento armazenado como a fonte de um **Recordset** do ADO.</span><span class="sxs-lookup"><span data-stu-id="6e98c-p102">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders. The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
+<span data-ttu-id="fa88d-p102">Esse procedimento armazenado é semelhante ao comando usado em [Parâmetros do objeto Command](command-object-parameters.md), por usar um parâmetro de identificação do cliente e retornar informações sobre os pedidos desse cliente. O código a seguir usa esse procedimento armazenado como a fonte de um **Recordset** do ADO.</span><span class="sxs-lookup"><span data-stu-id="fa88d-p102">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders. The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
 
-<span data-ttu-id="6e98c-p103">O uso do procedimento armazenado permite acessar outro recurso do ADO: o método **Refresh** da coleção **Parameters**. Usando esse método, o ADO pode preencher automaticamente todas as informações sobre os parâmetros necessários para o comando em tempo de execução. O desempenho é penalizado quando essa técnica é usada, pois o ADO precisa consultar a fonte de dados para obter as informações sobre os parâmetros.</span><span class="sxs-lookup"><span data-stu-id="6e98c-p103">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method. By using this method, ADO can automatically fill in all information about the parameters required by the command at run time. There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
+<span data-ttu-id="fa88d-p103">O uso do procedimento armazenado permite acessar outro recurso do ADO: o método **Refresh** da coleção **Parameters**. Usando esse método, o ADO pode preencher automaticamente todas as informações sobre os parâmetros necessários para o comando em tempo de execução. O desempenho é penalizado quando essa técnica é usada, pois o ADO precisa consultar a fonte de dados para obter as informações sobre os parâmetros.</span><span class="sxs-lookup"><span data-stu-id="fa88d-p103">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method. By using this method, ADO can automatically fill in all information about the parameters required by the command at run time. There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
 
-<span data-ttu-id="6e98c-p104">Existem outras diferenças importantes entre o código a seguir e o código de [Parâmetros do objeto Command](command-object-parameters.md), onde os parâmetros foram inseridos manualmente. Em primeiro lugar, este código não define a propriedade **Prepared** como **True**, pois é um procedimento armazenado do SQL Server e é compilado previamente por definição. Em segundo lugar, a propriedade **CommandType** do objeto **Command** mudou para **adCmdStoredProc**, no segundo exemplo, para informar ao ADO que o comando era um procedimento armazenado.</span><span class="sxs-lookup"><span data-stu-id="6e98c-p104">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually. First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition. Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
+<span data-ttu-id="fa88d-p104">Existem outras diferenças importantes entre o código a seguir e o código de [Parâmetros do objeto Command](command-object-parameters.md), onde os parâmetros foram inseridos manualmente. Em primeiro lugar, este código não define a propriedade **Prepared** como **True**, pois é um procedimento armazenado do SQL Server e é compilado previamente por definição. Em segundo lugar, a propriedade **CommandType** do objeto **Command** mudou para **adCmdStoredProc**, no segundo exemplo, para informar ao ADO que o comando era um procedimento armazenado.</span><span class="sxs-lookup"><span data-stu-id="fa88d-p104">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually. First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition. Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
 
 ```vb 
  

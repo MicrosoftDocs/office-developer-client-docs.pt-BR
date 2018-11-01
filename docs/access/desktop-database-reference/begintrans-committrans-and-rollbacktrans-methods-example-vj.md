@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
 ms:contentKeyID: 48546229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d78d18bcda7e83d10586f8ec94ff07ec49058adb
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 07bd4d524b5039598fac53c0f2588963f2b5eaf3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861950"
+ms.locfileid: "25884657"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="f32d4-102">Exemplos dos métodos BeginTrans, CommitTrans e RollbackTrans (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f32d4-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="1afde-102">Exemplos dos métodos BeginTrans, CommitTrans e RollbackTrans (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1afde-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="f32d4-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f32d4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1afde-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1afde-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f32d4-p101">Este exemplo altera o tipo de todos os livros de psicologia na tabela ***Titles*** do banco de dados. Depois que o método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) iniciar uma transação que isola todas as alterações feitas na tabela ***Titles***, o método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) salvará as alterações. Você pode usar o método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para desfazer as alterações salvas com o método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="f32d4-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="1afde-p101">Este exemplo altera o tipo de todos os livros de psicologia na tabela ***Titles*** do banco de dados. Depois que o método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) iniciar uma transação que isola todas as alterações feitas na tabela ***Titles***, o método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) salvará as alterações. Você pode usar o método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para desfazer as alterações salvas com o método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1afde-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```java 
  

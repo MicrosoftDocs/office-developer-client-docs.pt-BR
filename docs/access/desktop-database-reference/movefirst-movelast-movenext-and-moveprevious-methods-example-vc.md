@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249962(v=office.15)
 ms:contentKeyID: 48547596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fb858e7e763cb5118e8e64af87f98fc66c6b13e
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c54052c6d7f92fa70fcbe332d9896720da748544
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862134"
+ms.locfileid: "25882557"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="8b3e7-102">Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="8b3e7-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="a9600-102">Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="a9600-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)</span></span>
 
 
-<span data-ttu-id="8b3e7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b3e7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a9600-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9600-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8b3e7-p101">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido. A função MoveAny é necessária para a execução deste exemplo.</span><span class="sxs-lookup"><span data-stu-id="8b3e7-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny function is required for this example to run.</span></span>
+<span data-ttu-id="a9600-p101">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido. A função MoveAny é necessária para a execução deste exemplo.</span><span class="sxs-lookup"><span data-stu-id="a9600-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny function is required for this example to run.</span></span>
 
 ```cpp 
  

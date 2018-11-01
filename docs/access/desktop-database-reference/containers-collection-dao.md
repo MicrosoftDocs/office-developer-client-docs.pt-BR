@@ -6,26 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
 ms:contentKeyID: 48544642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b87aaf5eec856b17372627b0b298e36fa322ea5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 728d7f22e1da744d70a3c16025530c7cf81dcd84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465294"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889067"
 ---
-# <a name="containers-collection-dao"></a><span data-ttu-id="24edd-102">Coleção Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="24edd-102">Containers Collection (DAO)</span></span>
+# <a name="containers-collection-dao"></a><span data-ttu-id="120e7-102">Coleção Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="120e7-102">Containers Collection (DAO)</span></span>
 
-<span data-ttu-id="24edd-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="24edd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="120e7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="120e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="24edd-104">Uma coleção **Containers** contém todos os objetos de **contêiner** que são definidos em um banco de dados.</span><span class="sxs-lookup"><span data-stu-id="24edd-104">A **Containers** collection contains all of the **Container** objects that are defined in a database.</span></span>
+<span data-ttu-id="120e7-104">Uma coleção **Containers** contém todos os objetos de **contêiner** que são definidos em um banco de dados.</span><span class="sxs-lookup"><span data-stu-id="120e7-104">A **Containers** collection contains all of the **Container** objects that are defined in a database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="24edd-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="24edd-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="120e7-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="120e7-105">Remarks</span></span>
 
-<span data-ttu-id="24edd-106">Cada objeto **Database** tem uma coleção **Containers** que consiste em objetos **Container** incorporados.</span><span class="sxs-lookup"><span data-stu-id="24edd-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="24edd-107">Alguns desses objetos **Container** são definidos pelo mecanismo de banco de dados do Microsoft Access enquanto outros podem ser definidos por outros aplicativos.</span><span class="sxs-lookup"><span data-stu-id="24edd-107">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span>
+<span data-ttu-id="120e7-106">Cada objeto **Database** tem uma coleção **Containers** que consiste em objetos **Container** incorporados.</span><span class="sxs-lookup"><span data-stu-id="120e7-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="120e7-107">Alguns desses objetos **Container** são definidos pelo mecanismo de banco de dados do Microsoft Access enquanto outros podem ser definidos por outros aplicativos.</span><span class="sxs-lookup"><span data-stu-id="120e7-107">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span>
 
-## <a name="example"></a><span data-ttu-id="24edd-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="24edd-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="120e7-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="120e7-108">Example</span></span>
 
-<span data-ttu-id="24edd-109">Este exemplo enumera a coleção **Containers** do banco de dados Northwind e a coleção **Properties** de cada objeto **Container** na coleção.</span><span class="sxs-lookup"><span data-stu-id="24edd-109">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
+<span data-ttu-id="120e7-109">Este exemplo enumera a coleção **Containers** do banco de dados Northwind e a coleção **Properties** de cada objeto **Container** na coleção.</span><span class="sxs-lookup"><span data-stu-id="120e7-109">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
 
 ```vb
     Sub ContainerObjectX()
@@ -46,7 +46,7 @@ ms.locfileid: "25465294"
              ' Enumerate Properties collection of each
              ' Container object.
              For Each prpLoop In ctrLoop.Properties
-                Debug.Print "  " & prpLoop.Name _
+                Debug.Print "  " & prpLoop.Name _
                    & " = " prpLoop
              Next prpLoop
     

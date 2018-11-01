@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250148(v=office.15)
 ms:contentKeyID: 48548261
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e54c7d13a34cf8577fcfa601a39c4332a8002442
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 641413b850662e10d8dfc5179eadcf8573a83c77
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860501"
+ms.locfileid: "25886183"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="b3c7a-102">Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VBScript)</span><span class="sxs-lookup"><span data-stu-id="b3c7a-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="270bf-102">Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious (VBScript)</span><span class="sxs-lookup"><span data-stu-id="270bf-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="b3c7a-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3c7a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="270bf-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="270bf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3c7a-104">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido.</span><span class="sxs-lookup"><span data-stu-id="b3c7a-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
+<span data-ttu-id="270bf-104">Este exemplo utiliza os métodos [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) e [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) para mover o ponteiro do registro de um [Recordset](recordset-object-ado.md) com base no comando fornecido.</span><span class="sxs-lookup"><span data-stu-id="270bf-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
 
-<span data-ttu-id="b3c7a-p101">Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **MoveFirstVBS.asp**. É possível ver o resultado em qualquer navegador.</span><span class="sxs-lookup"><span data-stu-id="b3c7a-p101">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="270bf-p101">Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **MoveFirstVBS.asp**. É possível ver o resultado em qualquer navegador.</span><span class="sxs-lookup"><span data-stu-id="270bf-p101">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. You can view the result in any browser.</span></span>
 
 ```vb 
  

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="42cab-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade DefinedSize (VC + +): exemplo da propriedade DefinedSize (VC + +) === título: exemplo da propriedade DefinedSize (VC + +) TOCTitle: exemplo da propriedade DefinedSize (VC + +)</span><span class="sxs-lookup"><span data-stu-id="42cab-101"><<<<<<< HEAD title: DefinedSize Property Example (VC++) TOCTitle: DefinedSize Property Example (VC++) ======= title: DefinedSize property example (VC++) TOCTitle: DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="42cab-102">ms:assetid de mestre: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: ms.date 48548474: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="42cab-102">master ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade DefinedSize (VC++)
+TOCTitle: DefinedSize property example (VC++)
+ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
+ms:contentKeyID: 48548474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867360"
 ---
-
-<span data-ttu-id="42cab-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="42cab-103"><<<<<<< HEAD</span></span>
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="42cab-104">Exemplo da propriedade DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="42cab-104">DefinedSize Property Example (VC++)</span></span>
-=======
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="42cab-105">Exemplo da propriedade DefinedSize (VC + +)</span><span class="sxs-lookup"><span data-stu-id="42cab-105">DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="42cab-106">mestre</span><span class="sxs-lookup"><span data-stu-id="42cab-106">master</span></span>
+# <a name="definedsize-property-example-vc"></a><span data-ttu-id="064ac-102">Exemplo da propriedade DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="064ac-102">DefinedSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="42cab-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="42cab-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="064ac-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="064ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="42cab-108">Este exemplo demonstra a propriedade [DefinedSize](definedsize-property-adox.md) de uma [Coluna](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="42cab-108">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="42cab-109">O código irá redefinir o tamanho da coluna FirstName da tabela **Employees** do banco de dados *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="42cab-109">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="42cab-110">Em seguida, será exibida a alteração nos valores do [Campo](field-object-ado.md) FirstName de um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**.</span><span class="sxs-lookup"><span data-stu-id="42cab-110">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="42cab-111">Observe que, por padrão, o campo FirstName será preenchido com espaços depois que você redefinir a propriedade **DefinedSize**.</span><span class="sxs-lookup"><span data-stu-id="42cab-111">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
+<span data-ttu-id="064ac-104">Este exemplo demonstra a propriedade [DefinedSize](definedsize-property-adox.md) de uma [Coluna](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="064ac-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="064ac-105">O código irá redefinir o tamanho da coluna FirstName da tabela **Employees** do banco de dados *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="064ac-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="064ac-106">Em seguida, será exibida a alteração nos valores do [Campo](field-object-ado.md) FirstName de um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**.</span><span class="sxs-lookup"><span data-stu-id="064ac-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="064ac-107">Observe que, por padrão, o campo FirstName será preenchido com espaços depois que você redefinir a propriedade **DefinedSize**.</span><span class="sxs-lookup"><span data-stu-id="064ac-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
 
 ```cpp 
  

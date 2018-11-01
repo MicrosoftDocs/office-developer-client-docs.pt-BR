@@ -10,26 +10,26 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60ba53f7e1c0756c47c9b59140f41e62aae175dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465492"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888710"
 ---
-# <a name="sql-reserved-words"></a><span data-ttu-id="431cd-102">Palavras reservadas SQL</span><span class="sxs-lookup"><span data-stu-id="431cd-102">SQL Reserved Words</span></span>
+# <a name="sql-reserved-words"></a><span data-ttu-id="a1b77-102">Palavras reservadas SQL</span><span class="sxs-lookup"><span data-stu-id="a1b77-102">SQL Reserved Words</span></span>
 
 
-<span data-ttu-id="431cd-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="431cd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a1b77-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1b77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="431cd-p101">A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de dados Microsoft Access para uso em instruções SQL. As palavras na lista que não estiverem em letra maiúscula também são palavras reservadas por outros aplicativos. Consequentemente, os tópicos de Ajuda individuais para essas palavras fornecem descrições gerais que não se concentram no uso do SQL.</span><span class="sxs-lookup"><span data-stu-id="431cd-p101">The following list includes all words reserved by the Microsoft Access database engine for use in SQL statements. The words in the list that are not in all uppercase letters are also reserved by other applications. Consequently, the individual Help topics for these words provide general descriptions that do not focus on SQL usage.</span></span>
+<span data-ttu-id="a1b77-p101">A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de dados Microsoft Access para uso em instruções SQL. As palavras na lista que não estiverem em letra maiúscula também são palavras reservadas por outros aplicativos. Consequentemente, os tópicos de Ajuda individuais para essas palavras fornecem descrições gerais que não se concentram no uso do SQL.</span><span class="sxs-lookup"><span data-stu-id="a1b77-p101">The following list includes all words reserved by the Microsoft Access database engine for use in SQL statements. The words in the list that are not in all uppercase letters are also reserved by other applications. Consequently, the individual Help topics for these words provide general descriptions that do not focus on SQL usage.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="431cd-p102">As palavras seguidas por um asterisco (\*) são reservadas, mas atualmente não têm nenhum significado no contexto de uma instrução SQL do Microsoft® Access (por exemplo, <STRONG>Level</STRONG> e <STRONG>TableID</STRONG>). As palavras que não estão sublinhadas não têm explicações vinculadas.</span><span class="sxs-lookup"><span data-stu-id="431cd-p102">Words followed by an asterisk (\*) are reserved but currently have no meaning in the context of a Microsoft® Access SQL statement (for example, <STRONG>Level</STRONG> and <STRONG>TableID</STRONG>). Words that are not underlined do not have linked explanations.</span></span></P>
+> <P><span data-ttu-id="a1b77-p102">As palavras seguidas por um asterisco (\*) são reservadas, mas atualmente não têm nenhum significado no contexto de uma instrução SQL do Microsoft® Access (por exemplo, <STRONG>Level</STRONG> e <STRONG>TableID</STRONG>). As palavras que não estão sublinhadas não têm explicações vinculadas.</span><span class="sxs-lookup"><span data-stu-id="a1b77-p102">Words followed by an asterisk (\*) are reserved but currently have no meaning in the context of a Microsoft® Access SQL statement (for example, <STRONG>Level</STRONG> and <STRONG>TableID</STRONG>). Words that are not underlined do not have linked explanations.</span></span></P>
 
 
 
-## <a name="a"></a><span data-ttu-id="431cd-109">A</span><span class="sxs-lookup"><span data-stu-id="431cd-109">A</span></span>
+## <a name="a"></a><span data-ttu-id="a1b77-109">A</span><span class="sxs-lookup"><span data-stu-id="a1b77-109">A</span></span>
 
 <table>
 <colgroup>
@@ -38,46 +38,46 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-110">ABSOLUTE</span><span class="sxs-lookup"><span data-stu-id="431cd-110">ABSOLUTE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-111"><a href="sql-subqueries-microsoft-access-sql.md">QUALQUER</a></span><span class="sxs-lookup"><span data-stu-id="431cd-111"><a href="sql-subqueries-microsoft-access-sql.md">ANY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-110">ABSOLUTE</span><span class="sxs-lookup"><span data-stu-id="a1b77-110">ABSOLUTE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-111"><a href="sql-subqueries-microsoft-access-sql.md">QUALQUER</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-111"><a href="sql-subqueries-microsoft-access-sql.md">ANY</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-112"><a href="alter-table-statement-microsoft-access-sql.md">ADICIONAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-112"><a href="alter-table-statement-microsoft-access-sql.md">ADD</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-113">ARE</span><span class="sxs-lookup"><span data-stu-id="431cd-113">ARE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-112"><a href="alter-table-statement-microsoft-access-sql.md">ADICIONAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-112"><a href="alter-table-statement-microsoft-access-sql.md">ADD</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-113">ARE</span><span class="sxs-lookup"><span data-stu-id="a1b77-113">ARE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-114">ADMINDB</span><span class="sxs-lookup"><span data-stu-id="431cd-114">ADMINDB</span></span></p></td>
-<td><p><span data-ttu-id="431cd-115"><a href="select-statement-microsoft-access-sql.md">COMO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-115"><a href="select-statement-microsoft-access-sql.md">AS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-114">ADMINDB</span><span class="sxs-lookup"><span data-stu-id="a1b77-114">ADMINDB</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-115"><a href="select-statement-microsoft-access-sql.md">COMO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-115"><a href="select-statement-microsoft-access-sql.md">AS</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-116"><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">TODOS OS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-116"><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-117"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></span><span class="sxs-lookup"><span data-stu-id="431cd-117"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-116"><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">TODOS OS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-116"><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-117"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-117"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-118"><strong><a href="equivalent-ansi-sql-data-types.md">Alphanumeric</a></strong> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="431cd-118"><strong><a href="equivalent-ansi-sql-data-types.md">Alphanumeric</a></strong> — See TEXT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-119">ASSERTION</span><span class="sxs-lookup"><span data-stu-id="431cd-119">ASSERTION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-118"><strong><a href="equivalent-ansi-sql-data-types.md">Alphanumeric</a></strong> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="a1b77-118"><strong><a href="equivalent-ansi-sql-data-types.md">Alphanumeric</a></strong> — See TEXT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-119">ASSERTION</span><span class="sxs-lookup"><span data-stu-id="a1b77-119">ASSERTION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-120"><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></span><span class="sxs-lookup"><span data-stu-id="431cd-120"><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-121">AUTHORIZATION</span><span class="sxs-lookup"><span data-stu-id="431cd-121">AUTHORIZATION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-120"><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-120"><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-121">AUTHORIZATION</span><span class="sxs-lookup"><span data-stu-id="a1b77-121">AUTHORIZATION</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-122"><a href="alter-table-statement-microsoft-access-sql.md">ALTER TABLE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-122"><a href="alter-table-statement-microsoft-access-sql.md">ALTER TABLE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-123"><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a> — Consulte COUNTER</span><span class="sxs-lookup"><span data-stu-id="431cd-123"><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a> — See COUNTER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-122"><a href="alter-table-statement-microsoft-access-sql.md">ALTER TABLE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-122"><a href="alter-table-statement-microsoft-access-sql.md">ALTER TABLE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-123"><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a> — Consulte COUNTER</span><span class="sxs-lookup"><span data-stu-id="a1b77-123"><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a> — See COUNTER</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-124"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">E</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-124"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-125"><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Méd</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-125"><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-124"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">E</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-124"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-125"><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Méd</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-125"><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-126"><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">COMO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-126"><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-126"><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">COMO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-126"><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="b-c"></a><span data-ttu-id="431cd-127">B-C</span><span class="sxs-lookup"><span data-stu-id="431cd-127">B-C</span></span>
+## <a name="b-c"></a><span data-ttu-id="a1b77-127">B-C</span><span class="sxs-lookup"><span data-stu-id="a1b77-127">B-C</span></span>
 
 <table>
 <colgroup>
@@ -86,86 +86,86 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-128"><a href="transaction-statement-microsoft-access-sql.md">COMEÇAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-128"><a href="transaction-statement-microsoft-access-sql.md">BEGIN</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-129">COLLATION</span><span class="sxs-lookup"><span data-stu-id="431cd-129">COLLATION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-128"><a href="transaction-statement-microsoft-access-sql.md">COMEÇAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-128"><a href="transaction-statement-microsoft-access-sql.md">BEGIN</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-129">COLLATION</span><span class="sxs-lookup"><span data-stu-id="a1b77-129">COLLATION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-130"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Entre</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-130"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Between</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-131"><a href="alter-table-statement-microsoft-access-sql.md">COLUNA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-131"><a href="alter-table-statement-microsoft-access-sql.md">COLUMN</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-130"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Entre</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-130"><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">Between</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-131"><a href="alter-table-statement-microsoft-access-sql.md">COLUNA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-131"><a href="alter-table-statement-microsoft-access-sql.md">COLUMN</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-132"><a href="sql-data-types.md">BINÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-132"><a href="sql-data-types.md">BINARY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-133"><a href="transaction-statement-microsoft-access-sql.md">CONFIRMAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-133"><a href="transaction-statement-microsoft-access-sql.md">COMMIT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-132"><a href="sql-data-types.md">BINÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-132"><a href="sql-data-types.md">BINARY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-133"><a href="transaction-statement-microsoft-access-sql.md">CONFIRMAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-133"><a href="transaction-statement-microsoft-access-sql.md">COMMIT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-134"><a href="sql-data-types.md">BIT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-134"><a href="sql-data-types.md">BIT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-135"><a href="create-table-statement-microsoft-access-sql.md">COMPOSIÇÃO DE COMPACTAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-135"><a href="create-table-statement-microsoft-access-sql.md">COMP, COMPRESSION</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-134"><a href="sql-data-types.md">BIT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-134"><a href="sql-data-types.md">BIT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-135"><a href="create-table-statement-microsoft-access-sql.md">COMPOSIÇÃO DE COMPACTAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-135"><a href="create-table-statement-microsoft-access-sql.md">COMP, COMPRESSION</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-136">BIT_LENGTH</span><span class="sxs-lookup"><span data-stu-id="431cd-136">BIT_LENGTH</span></span></p></td>
-<td><p><span data-ttu-id="431cd-137">CONNECT</span><span class="sxs-lookup"><span data-stu-id="431cd-137">CONNECT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-136">BIT_LENGTH</span><span class="sxs-lookup"><span data-stu-id="a1b77-136">BIT_LENGTH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-137">CONNECT</span><span class="sxs-lookup"><span data-stu-id="a1b77-137">CONNECT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-138"><a href="equivalent-ansi-sql-data-types.md">BOOLEAN</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="431cd-138"><a href="equivalent-ansi-sql-data-types.md">BOOLEAN</a> — See BIT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-139">CONNECTION</span><span class="sxs-lookup"><span data-stu-id="431cd-139">CONNECTION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-138"><a href="equivalent-ansi-sql-data-types.md">BOOLEAN</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="a1b77-138"><a href="equivalent-ansi-sql-data-types.md">BOOLEAN</a> — See BIT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-139">CONNECTION</span><span class="sxs-lookup"><span data-stu-id="a1b77-139">CONNECTION</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-140">BOTH</span><span class="sxs-lookup"><span data-stu-id="431cd-140">BOTH</span></span></p></td>
-<td><p><span data-ttu-id="431cd-141"><a href="constraint-clause-microsoft-access-sql.md">RESTRIÇÃO, RESTRIÇÕES</a></span><span class="sxs-lookup"><span data-stu-id="431cd-141"><a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, CONSTRAINTS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-140">BOTH</span><span class="sxs-lookup"><span data-stu-id="a1b77-140">BOTH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-141"><a href="constraint-clause-microsoft-access-sql.md">RESTRIÇÃO, RESTRIÇÕES</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-141"><a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, CONSTRAINTS</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-142"><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">POR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-142"><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-143"><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTÊINER</a></span><span class="sxs-lookup"><span data-stu-id="431cd-143"><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-142"><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">POR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-142"><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-143"><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTÊINER</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-143"><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-144"><a href="sql-data-types.md">BYTE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-144"><a href="sql-data-types.md">BYTE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-145">CONTAINS</span><span class="sxs-lookup"><span data-stu-id="431cd-145">CONTAINS</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-144"><a href="sql-data-types.md">BYTE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-144"><a href="sql-data-types.md">BYTE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-145">CONTAINS</span><span class="sxs-lookup"><span data-stu-id="a1b77-145">CONTAINS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-146"><a href="constraint-clause-microsoft-access-sql.md">EM CASCATA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-146"><a href="constraint-clause-microsoft-access-sql.md">CASCADE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-147">CONVERT</span><span class="sxs-lookup"><span data-stu-id="431cd-147">CONVERT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-146"><a href="constraint-clause-microsoft-access-sql.md">EM CASCATA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-146"><a href="constraint-clause-microsoft-access-sql.md">CASCADE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-147">CONVERT</span><span class="sxs-lookup"><span data-stu-id="a1b77-147">CONVERT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-148">CATALOG</span><span class="sxs-lookup"><span data-stu-id="431cd-148">CATALOG</span></span></p></td>
-<td><p><span data-ttu-id="431cd-149"><strong><a href="https://msdn.microsoft.com/library/ff844748(v=office.15)">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-149"><strong><a href="https://msdn.microsoft.com/library/ff844748(v=office.15)">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-148">CATALOG</span><span class="sxs-lookup"><span data-stu-id="a1b77-148">CATALOG</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-149"><strong><a href="https://msdn.microsoft.com/library/ff844748(v=office.15)">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-149"><strong><a href="https://msdn.microsoft.com/library/ff844748(v=office.15)">Count</a></strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-150"><a href="equivalent-ansi-sql-data-types.md">CHAR, CHARACTER</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="431cd-150"><a href="equivalent-ansi-sql-data-types.md">CHAR, CHARACTER</a> — See TEXT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-151"><a href="sql-data-types.md">CONTADOR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-151"><a href="sql-data-types.md">COUNTER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-150"><a href="equivalent-ansi-sql-data-types.md">CHAR, CHARACTER</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="a1b77-150"><a href="equivalent-ansi-sql-data-types.md">CHAR, CHARACTER</a> — See TEXT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-151"><a href="sql-data-types.md">CONTADOR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-151"><a href="sql-data-types.md">COUNTER</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-152"><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></span><span class="sxs-lookup"><span data-stu-id="431cd-152"><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-153"><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CRIAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-153"><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-152"><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-152"><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-153"><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CRIAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-153"><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-154"><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></span><span class="sxs-lookup"><span data-stu-id="431cd-154"><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-155"><a href="sql-data-types.md">CURRENCY</a></span><span class="sxs-lookup"><span data-stu-id="431cd-155"><a href="sql-data-types.md">CURRENCY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-154"><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-154"><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-155"><a href="sql-data-types.md">CURRENCY</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-155"><a href="sql-data-types.md">CURRENCY</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-156">CHECK</span><span class="sxs-lookup"><span data-stu-id="431cd-156">CHECK</span></span></p></td>
-<td><p><span data-ttu-id="431cd-157">CURRENT_DATE</span><span class="sxs-lookup"><span data-stu-id="431cd-157">CURRENT_DATE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-156">CHECK</span><span class="sxs-lookup"><span data-stu-id="a1b77-156">CHECK</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-157">CURRENT_DATE</span><span class="sxs-lookup"><span data-stu-id="a1b77-157">CURRENT_DATE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-158">CLOSE</span><span class="sxs-lookup"><span data-stu-id="431cd-158">CLOSE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-159">CURRENT_TIME</span><span class="sxs-lookup"><span data-stu-id="431cd-159">CURRENT_TIME</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-158">CLOSE</span><span class="sxs-lookup"><span data-stu-id="a1b77-158">CLOSE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-159">CURRENT_TIME</span><span class="sxs-lookup"><span data-stu-id="a1b77-159">CURRENT_TIME</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-160">CLUSTERED</span><span class="sxs-lookup"><span data-stu-id="431cd-160">CLUSTERED</span></span></p></td>
-<td><p><span data-ttu-id="431cd-161">CURRENT_TIMESTAMP</span><span class="sxs-lookup"><span data-stu-id="431cd-161">CURRENT_TIMESTAMP</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-160">CLUSTERED</span><span class="sxs-lookup"><span data-stu-id="a1b77-160">CLUSTERED</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-161">CURRENT_TIMESTAMP</span><span class="sxs-lookup"><span data-stu-id="a1b77-161">CURRENT_TIMESTAMP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-162">COALESCE</span><span class="sxs-lookup"><span data-stu-id="431cd-162">COALESCE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-163">CURRENT_USER</span><span class="sxs-lookup"><span data-stu-id="431cd-163">CURRENT_USER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-162">COALESCE</span><span class="sxs-lookup"><span data-stu-id="a1b77-162">COALESCE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-163">CURRENT_USER</span><span class="sxs-lookup"><span data-stu-id="a1b77-163">CURRENT_USER</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-164">COLLATE</span><span class="sxs-lookup"><span data-stu-id="431cd-164">COLLATE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-165">CURSOR</span><span class="sxs-lookup"><span data-stu-id="431cd-165">CURSOR</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-164">COLLATE</span><span class="sxs-lookup"><span data-stu-id="a1b77-164">COLLATE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-165">CURSOR</span><span class="sxs-lookup"><span data-stu-id="a1b77-165">CURSOR</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="d"></a><span data-ttu-id="431cd-166">D</span><span class="sxs-lookup"><span data-stu-id="431cd-166">D</span></span>
+## <a name="d"></a><span data-ttu-id="a1b77-166">D</span><span class="sxs-lookup"><span data-stu-id="a1b77-166">D</span></span>
 
 <table>
 <colgroup>
@@ -174,42 +174,42 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-167"><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">BANCO DE DADOS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-167"><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">DATABASE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-168"><a href="create-index-statement-microsoft-access-sql.md">NÃO PERMITIR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-168"><a href="create-index-statement-microsoft-access-sql.md">DISALLOW</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-167"><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">BANCO DE DADOS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-167"><a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">DATABASE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-168"><a href="create-index-statement-microsoft-access-sql.md">NÃO PERMITIR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-168"><a href="create-index-statement-microsoft-access-sql.md">DISALLOW</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-169"><a href="equivalent-ansi-sql-data-types.md">DATE</a> — Consulte DATETIME</span><span class="sxs-lookup"><span data-stu-id="431cd-169"><a href="equivalent-ansi-sql-data-types.md">DATE</a> — See DATETIME</span></span></p></td>
-<td><p><span data-ttu-id="431cd-170">DISCONNECT</span><span class="sxs-lookup"><span data-stu-id="431cd-170">DISCONNECT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-169"><a href="equivalent-ansi-sql-data-types.md">DATE</a> — Consulte DATETIME</span><span class="sxs-lookup"><span data-stu-id="a1b77-169"><a href="equivalent-ansi-sql-data-types.md">DATE</a> — See DATETIME</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-170">DISCONNECT</span><span class="sxs-lookup"><span data-stu-id="a1b77-170">DISCONNECT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-171"><a href="sql-data-types.md">DATETIME</a></span><span class="sxs-lookup"><span data-stu-id="431cd-171"><a href="sql-data-types.md">DATETIME</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-172"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-172"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-171"><a href="sql-data-types.md">DATETIME</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-171"><a href="sql-data-types.md">DATETIME</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-172"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-172"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-173">DAY</span><span class="sxs-lookup"><span data-stu-id="431cd-173">DAY</span></span></p></td>
-<td><p><span data-ttu-id="431cd-174"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCTROW</a></span><span class="sxs-lookup"><span data-stu-id="431cd-174"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCTROW</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-173">DAY</span><span class="sxs-lookup"><span data-stu-id="a1b77-173">DAY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-174"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCTROW</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-174"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">DISTINCTROW</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-175"><a href="sql-data-types.md">DEC, DECIMAL</a></span><span class="sxs-lookup"><span data-stu-id="431cd-175"><a href="sql-data-types.md">DEC, DECIMAL</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-176">DOMAIN</span><span class="sxs-lookup"><span data-stu-id="431cd-176">DOMAIN</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-175"><a href="sql-data-types.md">DEC, DECIMAL</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-175"><a href="sql-data-types.md">DEC, DECIMAL</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-176">DOMAIN</span><span class="sxs-lookup"><span data-stu-id="a1b77-176">DOMAIN</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-177">DECLARE</span><span class="sxs-lookup"><span data-stu-id="431cd-177">DECLARE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-178"><a href="sql-data-types.md">DOUBLE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-178"><a href="sql-data-types.md">DOUBLE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-177">DECLARE</span><span class="sxs-lookup"><span data-stu-id="a1b77-177">DECLARE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-178"><a href="sql-data-types.md">DOUBLE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-178"><a href="sql-data-types.md">DOUBLE</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-179"><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-179"><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-180"><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></span><span class="sxs-lookup"><span data-stu-id="431cd-180"><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-179"><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-179"><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-180"><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-180"><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-181"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></span><span class="sxs-lookup"><span data-stu-id="431cd-181"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-181"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-181"><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="e-h"></a><span data-ttu-id="431cd-182">E-H</span><span class="sxs-lookup"><span data-stu-id="431cd-182">E-H</span></span>
+## <a name="e-h"></a><span data-ttu-id="a1b77-182">E-H</span><span class="sxs-lookup"><span data-stu-id="a1b77-182">E-H</span></span>
 
 <table>
 <colgroup>
@@ -218,50 +218,50 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-183"><strong>Eqv</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-183"><strong>Eqv</strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-184"><a href="constraint-clause-microsoft-access-sql.md">EXTERNA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-184"><a href="constraint-clause-microsoft-access-sql.md">FOREIGN</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-183"><strong>Eqv</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-183"><strong>Eqv</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-184"><a href="constraint-clause-microsoft-access-sql.md">EXTERNA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-184"><a href="constraint-clause-microsoft-access-sql.md">FOREIGN</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-185">EXCLUSIVECONNECT</span><span class="sxs-lookup"><span data-stu-id="431cd-185">EXCLUSIVECONNECT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-186"><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">De</a></span><span class="sxs-lookup"><span data-stu-id="431cd-186"><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-185">EXCLUSIVECONNECT</span><span class="sxs-lookup"><span data-stu-id="a1b77-185">EXCLUSIVECONNECT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-186"><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">De</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-186"><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-187">EXEC, EXECUTE</span><span class="sxs-lookup"><span data-stu-id="431cd-187">EXEC, EXECUTE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-188"><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">Cláusula FROM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-188"><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">FROM Clause</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-187">EXEC, EXECUTE</span><span class="sxs-lookup"><span data-stu-id="a1b77-187">EXEC, EXECUTE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-188"><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">Cláusula FROM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-188"><a href="https://msdn.microsoft.com/library/ff836674(v=office.15)">FROM Clause</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-189"><a href="sql-subqueries-microsoft-access-sql.md">EXISTE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-189"><a href="sql-subqueries-microsoft-access-sql.md">EXISTS</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-190"><a href="equivalent-ansi-sql-data-types.md">GENERAL</a> — Consulte LONGBINARY</span><span class="sxs-lookup"><span data-stu-id="431cd-190"><a href="equivalent-ansi-sql-data-types.md">GENERAL</a> — See LONGBINARY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-189"><a href="sql-subqueries-microsoft-access-sql.md">EXISTE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-189"><a href="sql-subqueries-microsoft-access-sql.md">EXISTS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-190"><a href="equivalent-ansi-sql-data-types.md">GENERAL</a> — Consulte LONGBINARY</span><span class="sxs-lookup"><span data-stu-id="a1b77-190"><a href="equivalent-ansi-sql-data-types.md">GENERAL</a> — See LONGBINARY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-191">EXTRACT</span><span class="sxs-lookup"><span data-stu-id="431cd-191">EXTRACT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-192"><a href="grant-statement-microsoft-access-sql.md">GRANT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-192"><a href="grant-statement-microsoft-access-sql.md">GRANT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-191">EXTRACT</span><span class="sxs-lookup"><span data-stu-id="a1b77-191">EXTRACT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-192"><a href="grant-statement-microsoft-access-sql.md">GRANT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-192"><a href="grant-statement-microsoft-access-sql.md">GRANT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-193">FALSE</span><span class="sxs-lookup"><span data-stu-id="431cd-193">FALSE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-194"><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GRUPO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-194"><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-193">FALSE</span><span class="sxs-lookup"><span data-stu-id="a1b77-193">FALSE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-194"><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GRUPO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-194"><a href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-195">FETCH</span><span class="sxs-lookup"><span data-stu-id="431cd-195">FETCH</span></span></p></td>
-<td><p><span data-ttu-id="431cd-196"><a href="sql-data-types.md">GUID</a></span><span class="sxs-lookup"><span data-stu-id="431cd-196"><a href="sql-data-types.md">GUID</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-195">FETCH</span><span class="sxs-lookup"><span data-stu-id="a1b77-195">FETCH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-196"><a href="sql-data-types.md">GUID</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-196"><a href="sql-data-types.md">GUID</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-197"><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">PRIMEIRO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-197"><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-198"><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">TENDO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-198"><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-197"><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">PRIMEIRO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-197"><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-198"><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">TENDO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-198"><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-199"><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="431cd-199"><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> — See DOUBLE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-200">HOUR</span><span class="sxs-lookup"><span data-stu-id="431cd-200">HOUR</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-199"><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-199"><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> — See DOUBLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-200">HOUR</span><span class="sxs-lookup"><span data-stu-id="a1b77-200">HOUR</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-201"><a href="equivalent-ansi-sql-data-types.md">FLOAT4</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="431cd-201"><a href="equivalent-ansi-sql-data-types.md">FLOAT4</a> — See SINGLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-201"><a href="equivalent-ansi-sql-data-types.md">FLOAT4</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-201"><a href="equivalent-ansi-sql-data-types.md">FLOAT4</a> — See SINGLE</span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="i"></a><span data-ttu-id="431cd-202">I</span><span class="sxs-lookup"><span data-stu-id="431cd-202">I</span></span>
+## <a name="i"></a><span data-ttu-id="a1b77-202">I</span><span class="sxs-lookup"><span data-stu-id="a1b77-202">I</span></span>
 
 <table>
 <colgroup>
@@ -270,54 +270,54 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-203"><a href="sql-data-types.md">IDENTIDADE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-203"><a href="sql-data-types.md">IDENTITY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-204">INPUT</span><span class="sxs-lookup"><span data-stu-id="431cd-204">INPUT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-203"><a href="sql-data-types.md">IDENTIDADE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-203"><a href="sql-data-types.md">IDENTITY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-204">INPUT</span><span class="sxs-lookup"><span data-stu-id="a1b77-204">INPUT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-205"><a href="equivalent-ansi-sql-data-types.md">IEEEDOUBLE</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="431cd-205"><a href="equivalent-ansi-sql-data-types.md">IEEEDOUBLE</a> — See DOUBLE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-206">INSENSITIVE</span><span class="sxs-lookup"><span data-stu-id="431cd-206">INSENSITIVE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-205"><a href="equivalent-ansi-sql-data-types.md">IEEEDOUBLE</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-205"><a href="equivalent-ansi-sql-data-types.md">IEEEDOUBLE</a> — See DOUBLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-206">INSENSITIVE</span><span class="sxs-lookup"><span data-stu-id="a1b77-206">INSENSITIVE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-207"><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="431cd-207"><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — See SINGLE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-208"><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERIR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-208"><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-207"><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-207"><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — See SINGLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-208"><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERIR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-208"><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-209"><a href="create-index-statement-microsoft-access-sql.md">IGNORAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-209"><a href="create-index-statement-microsoft-access-sql.md">IGNORE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-210"><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-210"><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-209"><a href="create-index-statement-microsoft-access-sql.md">IGNORAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-209"><a href="create-index-statement-microsoft-access-sql.md">IGNORE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-210"><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-210"><a href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-211"><a href="sql-data-types.md">IMAGEM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-211"><a href="sql-data-types.md">IMAGE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-212"><a href="equivalent-ansi-sql-data-types.md">INT, INTEGER, INTEGER4</a> — Consulte LONG</span><span class="sxs-lookup"><span data-stu-id="431cd-212"><a href="equivalent-ansi-sql-data-types.md">INT, INTEGER, INTEGER4</a> — See LONG</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-211"><a href="sql-data-types.md">IMAGEM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-211"><a href="sql-data-types.md">IMAGE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-212"><a href="equivalent-ansi-sql-data-types.md">INT, INTEGER, INTEGER4</a> — Consulte LONG</span><span class="sxs-lookup"><span data-stu-id="a1b77-212"><a href="equivalent-ansi-sql-data-types.md">INT, INTEGER, INTEGER4</a> — See LONG</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-213"><strong>Imp</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-213"><strong>Imp</strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-214"><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a> — Consulte BYTE</span><span class="sxs-lookup"><span data-stu-id="431cd-214"><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a> — See BYTE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-213"><strong>Imp</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-213"><strong>Imp</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-214"><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a> — Consulte BYTE</span><span class="sxs-lookup"><span data-stu-id="a1b77-214"><a href="equivalent-ansi-sql-data-types.md">INTEGER1</a> — See BYTE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-215"><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">Em</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-215"><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">In</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-216"><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — Consulte SHORT</span><span class="sxs-lookup"><span data-stu-id="431cd-216"><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — See SHORT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-215"><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">Em</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-215"><strong><a href="https://msdn.microsoft.com/library/ff836369(v=office.15)">In</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-216"><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — Consulte SHORT</span><span class="sxs-lookup"><span data-stu-id="a1b77-216"><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — See SHORT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-217"><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">EM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-217"><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-218"><a href="equivalent-ansi-sql-data-types.md">INTERVALO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-218"><a href="equivalent-ansi-sql-data-types.md">INTERVAL</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-217"><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">EM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-217"><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-218"><a href="equivalent-ansi-sql-data-types.md">INTERVALO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-218"><a href="equivalent-ansi-sql-data-types.md">INTERVAL</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-219"><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">ÍNDICE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-219"><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-220"><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">EM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-220"><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-219"><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">ÍNDICE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-219"><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-220"><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">EM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-220"><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-221">INDEXCREATEDB</span><span class="sxs-lookup"><span data-stu-id="431cd-221">INDEXCREATEDB</span></span></p></td>
-<td><p><span data-ttu-id="431cd-222"><strong>Is</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-222"><strong>Is</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-221">INDEXCREATEDB</span><span class="sxs-lookup"><span data-stu-id="a1b77-221">INDEXCREATEDB</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-222"><strong>Is</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-222"><strong>Is</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-223"><a href="inner-join-operation-microsoft-access-sql.md">INTERNA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-223"><a href="inner-join-operation-microsoft-access-sql.md">INNER</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-224">ISOLATION</span><span class="sxs-lookup"><span data-stu-id="431cd-224">ISOLATION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-223"><a href="inner-join-operation-microsoft-access-sql.md">INTERNA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-223"><a href="inner-join-operation-microsoft-access-sql.md">INNER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-224">ISOLATION</span><span class="sxs-lookup"><span data-stu-id="a1b77-224">ISOLATION</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="j-m"></a><span data-ttu-id="431cd-225">J-M</span><span class="sxs-lookup"><span data-stu-id="431cd-225">J-M</span></span>
+## <a name="j-m"></a><span data-ttu-id="a1b77-225">J-M</span><span class="sxs-lookup"><span data-stu-id="a1b77-225">J-M</span></span>
 
 <table>
 <colgroup>
@@ -326,54 +326,54 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-226"><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">INGRESSAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-226"><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-227"><a href="sql-data-types.md">LONGTEXT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-227"><a href="sql-data-types.md">LONGTEXT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-226"><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">INGRESSAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-226"><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-227"><a href="sql-data-types.md">LONGTEXT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-227"><a href="sql-data-types.md">LONGTEXT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-228"><a href="constraint-clause-microsoft-access-sql.md">CHAVE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-228"><a href="constraint-clause-microsoft-access-sql.md">KEY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-229">LOWER</span><span class="sxs-lookup"><span data-stu-id="431cd-229">LOWER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-228"><a href="constraint-clause-microsoft-access-sql.md">CHAVE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-228"><a href="constraint-clause-microsoft-access-sql.md">KEY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-229">LOWER</span><span class="sxs-lookup"><span data-stu-id="a1b77-229">LOWER</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-230">LANGUAGE</span><span class="sxs-lookup"><span data-stu-id="431cd-230">LANGUAGE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-231">MATCH</span><span class="sxs-lookup"><span data-stu-id="431cd-231">MATCH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-230">LANGUAGE</span><span class="sxs-lookup"><span data-stu-id="a1b77-230">LANGUAGE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-231">MATCH</span><span class="sxs-lookup"><span data-stu-id="a1b77-231">MATCH</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-232"><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">ÚLTIMA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-232"><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-233"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Máx.</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-233"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-232"><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">ÚLTIMA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-232"><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-233"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Máx.</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-233"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-234"><a href="left-join-right-join-operations-microsoft-access-sql.md">À ESQUERDA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-234"><a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-235"><a href="equivalent-ansi-sql-data-types.md">MEMO</a> — Consulte LONGTEXT</span><span class="sxs-lookup"><span data-stu-id="431cd-235"><a href="equivalent-ansi-sql-data-types.md">MEMO</a> — See LONGTEXT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-234"><a href="left-join-right-join-operations-microsoft-access-sql.md">À ESQUERDA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-234"><a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-235"><a href="equivalent-ansi-sql-data-types.md">MEMO</a> — Consulte LONGTEXT</span><span class="sxs-lookup"><span data-stu-id="a1b77-235"><a href="equivalent-ansi-sql-data-types.md">MEMO</a> — See LONGTEXT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-236"><strong>Nível</strong>\*</span><span class="sxs-lookup"><span data-stu-id="431cd-236"><strong>Level</strong>\*</span></span></p></td>
-<td><p><span data-ttu-id="431cd-237"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Mín.</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-237"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Min</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-236"><strong>Nível</strong>\*</span><span class="sxs-lookup"><span data-stu-id="a1b77-236"><strong>Level</strong>\*</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-237"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Mín.</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-237"><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Min</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-238"><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Como</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-238"><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Like</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-239">MINUTE</span><span class="sxs-lookup"><span data-stu-id="431cd-239">MINUTE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-238"><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Como</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-238"><strong><a href="https://msdn.microsoft.com/library/ff195752(v=office.15)">Like</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-239">MINUTE</span><span class="sxs-lookup"><span data-stu-id="a1b77-239">MINUTE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-240"><a href="equivalent-ansi-sql-data-types.md">LOGICAL, LOGICAL1</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="431cd-240"><a href="equivalent-ansi-sql-data-types.md">LOGICAL, LOGICAL1</a> — See BIT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-241"><strong>Mod</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-241"><strong>Mod</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-240"><a href="equivalent-ansi-sql-data-types.md">LOGICAL, LOGICAL1</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="a1b77-240"><a href="equivalent-ansi-sql-data-types.md">LOGICAL, LOGICAL1</a> — See BIT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-241"><strong>Mod</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-241"><strong>Mod</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-242"><a href="sql-data-types.md">Longas</a></span><span class="sxs-lookup"><span data-stu-id="431cd-242"><a href="sql-data-types.md">LONG</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-243"><a href="equivalent-ansi-sql-data-types.md">MONEY</a> — Consulte CURRENCY</span><span class="sxs-lookup"><span data-stu-id="431cd-243"><a href="equivalent-ansi-sql-data-types.md">MONEY</a> — See CURRENCY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-242"><a href="sql-data-types.md">Longas</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-242"><a href="sql-data-types.md">LONG</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-243"><a href="equivalent-ansi-sql-data-types.md">MONEY</a> — Consulte CURRENCY</span><span class="sxs-lookup"><span data-stu-id="a1b77-243"><a href="equivalent-ansi-sql-data-types.md">MONEY</a> — See CURRENCY</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-244"><a href="sql-data-types.md">LONGBINARY</a></span><span class="sxs-lookup"><span data-stu-id="431cd-244"><a href="sql-data-types.md">LONGBINARY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-245">MONTH</span><span class="sxs-lookup"><span data-stu-id="431cd-245">MONTH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-244"><a href="sql-data-types.md">LONGBINARY</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-244"><a href="sql-data-types.md">LONGBINARY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-245">MONTH</span><span class="sxs-lookup"><span data-stu-id="a1b77-245">MONTH</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-246"><a href="equivalent-ansi-sql-data-types.md">LONGCHAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-246"><a href="equivalent-ansi-sql-data-types.md">LONGCHAR</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-246"><a href="equivalent-ansi-sql-data-types.md">LONGCHAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-246"><a href="equivalent-ansi-sql-data-types.md">LONGCHAR</a></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="n-p"></a><span data-ttu-id="431cd-247">N-P</span><span class="sxs-lookup"><span data-stu-id="431cd-247">N-P</span></span>
+## <a name="n-p"></a><span data-ttu-id="a1b77-247">N-P</span><span class="sxs-lookup"><span data-stu-id="a1b77-247">N-P</span></span>
 
 <table>
 <colgroup>
@@ -382,74 +382,74 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-248"><a href="equivalent-ansi-sql-data-types.md">NACIONAL</a></span><span class="sxs-lookup"><span data-stu-id="431cd-248"><a href="equivalent-ansi-sql-data-types.md">NATIONAL</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-249"><strong>Externa</strong>\*</span><span class="sxs-lookup"><span data-stu-id="431cd-249"><strong>Outer</strong>\*</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-248"><a href="equivalent-ansi-sql-data-types.md">NACIONAL</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-248"><a href="equivalent-ansi-sql-data-types.md">NATIONAL</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-249"><strong>Externa</strong>\*</span><span class="sxs-lookup"><span data-stu-id="a1b77-249"><strong>Outer</strong>\*</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-250"><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-250"><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-251">OUTPUT</span><span class="sxs-lookup"><span data-stu-id="431cd-251">OUTPUT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-250"><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-250"><a href="constraint-clause-microsoft-access-sql.md">NCHAR</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-251">OUTPUT</span><span class="sxs-lookup"><span data-stu-id="a1b77-251">OUTPUT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-252">NONCLUSTERED</span><span class="sxs-lookup"><span data-stu-id="431cd-252">NONCLUSTERED</span></span></p></td>
-<td><p><span data-ttu-id="431cd-253"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OWNERACCESS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-253"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OWNERACCESS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-252">NONCLUSTERED</span><span class="sxs-lookup"><span data-stu-id="a1b77-252">NONCLUSTERED</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-253"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OWNERACCESS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-253"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OWNERACCESS</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-254"><strong>Not</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-254"><strong>Not</strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-255">PAD</span><span class="sxs-lookup"><span data-stu-id="431cd-255">PAD</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-254"><strong>Not</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-254"><strong>Not</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-255">PAD</span><span class="sxs-lookup"><span data-stu-id="a1b77-255">PAD</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-256"><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-256"><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-257"><a href="parameters-declaration-microsoft-access-sql.md">PARÂMETROS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-257"><a href="parameters-declaration-microsoft-access-sql.md">PARAMETERS</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-256"><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-256"><a href="equivalent-ansi-sql-data-types.md">NTEXT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-257"><a href="parameters-declaration-microsoft-access-sql.md">PARÂMETROS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-257"><a href="parameters-declaration-microsoft-access-sql.md">PARAMETERS</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-258"><a href="create-index-statement-microsoft-access-sql.md">NULL</a></span><span class="sxs-lookup"><span data-stu-id="431cd-258"><a href="create-index-statement-microsoft-access-sql.md">NULL</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-259">PARTIAL</span><span class="sxs-lookup"><span data-stu-id="431cd-259">PARTIAL</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-258"><a href="create-index-statement-microsoft-access-sql.md">NULL</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-258"><a href="create-index-statement-microsoft-access-sql.md">NULL</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-259">PARTIAL</span><span class="sxs-lookup"><span data-stu-id="a1b77-259">PARTIAL</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-260"><a href="equivalent-ansi-sql-data-types.md">NUMBER</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="431cd-260"><a href="equivalent-ansi-sql-data-types.md">NUMBER</a> — See DOUBLE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-261">PASSWORD</span><span class="sxs-lookup"><span data-stu-id="431cd-261">PASSWORD</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-260"><a href="equivalent-ansi-sql-data-types.md">NUMBER</a> — Consulte DOUBLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-260"><a href="equivalent-ansi-sql-data-types.md">NUMBER</a> — See DOUBLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-261">PASSWORD</span><span class="sxs-lookup"><span data-stu-id="a1b77-261">PASSWORD</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-262"><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a> — Consulte DECIMAL</span><span class="sxs-lookup"><span data-stu-id="431cd-262"><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a> — See DECIMAL</span></span></p></td>
-<td><p><span data-ttu-id="431cd-263"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">%</a></span><span class="sxs-lookup"><span data-stu-id="431cd-263"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">PERCENT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-262"><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a> — Consulte DECIMAL</span><span class="sxs-lookup"><span data-stu-id="a1b77-262"><a href="equivalent-ansi-sql-data-types.md">NUMERIC</a> — See DECIMAL</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-263"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">%</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-263"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">PERCENT</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-264"><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-264"><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-265"><a href="transform-statement-microsoft-access-sql.md">PIVOT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-265"><a href="transform-statement-microsoft-access-sql.md">PIVOT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-264"><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-264"><a href="equivalent-ansi-sql-data-types.md">NVARCHAR</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-265"><a href="transform-statement-microsoft-access-sql.md">PIVOT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-265"><a href="transform-statement-microsoft-access-sql.md">PIVOT</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-266">OCTET_LENGTH</span><span class="sxs-lookup"><span data-stu-id="431cd-266">OCTET_LENGTH</span></span></p></td>
-<td><p><span data-ttu-id="431cd-267">POSITION</span><span class="sxs-lookup"><span data-stu-id="431cd-267">POSITION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-266">OCTET_LENGTH</span><span class="sxs-lookup"><span data-stu-id="a1b77-266">OCTET_LENGTH</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-267">POSITION</span><span class="sxs-lookup"><span data-stu-id="a1b77-267">POSITION</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-268"><a href="equivalent-ansi-sql-data-types.md">OLEOBJECT</a> — Consulte LONGBINARY</span><span class="sxs-lookup"><span data-stu-id="431cd-268"><a href="equivalent-ansi-sql-data-types.md">OLEOBJECT</a> — See LONGBINARY</span></span></p></td>
-<td><p><span data-ttu-id="431cd-269">PRECISION</span><span class="sxs-lookup"><span data-stu-id="431cd-269">PRECISION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-268"><a href="equivalent-ansi-sql-data-types.md">OLEOBJECT</a> — Consulte LONGBINARY</span><span class="sxs-lookup"><span data-stu-id="a1b77-268"><a href="equivalent-ansi-sql-data-types.md">OLEOBJECT</a> — See LONGBINARY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-269">PRECISION</span><span class="sxs-lookup"><span data-stu-id="a1b77-269">PRECISION</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-270"><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">DIANTE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-270"><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">ON</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-271">PREPARE</span><span class="sxs-lookup"><span data-stu-id="431cd-271">PREPARE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-270"><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">DIANTE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-270"><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">ON</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-271">PREPARE</span><span class="sxs-lookup"><span data-stu-id="a1b77-271">PREPARE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-272">OPEN</span><span class="sxs-lookup"><span data-stu-id="431cd-272">OPEN</span></span></p></td>
-<td><p><span data-ttu-id="431cd-273"><a href="constraint-clause-microsoft-access-sql.md">PRINCIPAL</a></span><span class="sxs-lookup"><span data-stu-id="431cd-273"><a href="constraint-clause-microsoft-access-sql.md">PRIMARY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-272">OPEN</span><span class="sxs-lookup"><span data-stu-id="a1b77-272">OPEN</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-273"><a href="constraint-clause-microsoft-access-sql.md">PRINCIPAL</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-273"><a href="constraint-clause-microsoft-access-sql.md">PRIMARY</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-274"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-274"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPTION</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-275">PRIVILEGES</span><span class="sxs-lookup"><span data-stu-id="431cd-275">PRIVILEGES</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-274"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-274"><a href="with-owneraccess-option-declaration-microsoft-access-sql.md">OPTION</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-275">PRIVILEGES</span><span class="sxs-lookup"><span data-stu-id="a1b77-275">PRIVILEGES</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-276"><strong>Or</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-276"><strong>Or</strong></span></span></p></td>
-<td><p><span data-ttu-id="431cd-277"><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDIMENTO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-277"><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDURE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-276"><strong>Or</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-276"><strong>Or</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-277"><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDIMENTO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-277"><a href="procedure-clause-microsoft-access-sql.md">PROC, PROCEDURE</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-278"><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDEM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-278"><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-279">PUBLIC</span><span class="sxs-lookup"><span data-stu-id="431cd-279">PUBLIC</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-278"><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDEM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-278"><a href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-279">PUBLIC</span><span class="sxs-lookup"><span data-stu-id="a1b77-279">PUBLIC</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="q-s"></a><span data-ttu-id="431cd-280">Q-S</span><span class="sxs-lookup"><span data-stu-id="431cd-280">Q-S</span></span>
+## <a name="q-s"></a><span data-ttu-id="a1b77-280">Q-S</span><span class="sxs-lookup"><span data-stu-id="a1b77-280">Q-S</span></span>
 
 <table>
 <colgroup>
@@ -458,70 +458,70 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-281"><a href="equivalent-ansi-sql-data-types.md">REAL</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="431cd-281"><a href="equivalent-ansi-sql-data-types.md">REAL</a> — See SINGLE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-282">SMALLDATETIME</span><span class="sxs-lookup"><span data-stu-id="431cd-282">SMALLDATETIME</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-281"><a href="equivalent-ansi-sql-data-types.md">REAL</a> — Consulte SINGLE</span><span class="sxs-lookup"><span data-stu-id="a1b77-281"><a href="equivalent-ansi-sql-data-types.md">REAL</a> — See SINGLE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-282">SMALLDATETIME</span><span class="sxs-lookup"><span data-stu-id="a1b77-282">SMALLDATETIME</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-283"><a href="constraint-clause-microsoft-access-sql.md">REFERÊNCIAS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-283"><a href="constraint-clause-microsoft-access-sql.md">REFERENCES</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-284"><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a> — Consulte SHORT</span><span class="sxs-lookup"><span data-stu-id="431cd-284"><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a> — See SHORT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-283"><a href="constraint-clause-microsoft-access-sql.md">REFERÊNCIAS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-283"><a href="constraint-clause-microsoft-access-sql.md">REFERENCES</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-284"><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a> — Consulte SHORT</span><span class="sxs-lookup"><span data-stu-id="a1b77-284"><a href="equivalent-ansi-sql-data-types.md">SMALLINT</a> — See SHORT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-285">RESTRICT</span><span class="sxs-lookup"><span data-stu-id="431cd-285">RESTRICT</span></span></p></td>
-<td><p><span data-ttu-id="431cd-286">SMALLMONEY</span><span class="sxs-lookup"><span data-stu-id="431cd-286">SMALLMONEY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-285">RESTRICT</span><span class="sxs-lookup"><span data-stu-id="a1b77-285">RESTRICT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-286">SMALLMONEY</span><span class="sxs-lookup"><span data-stu-id="a1b77-286">SMALLMONEY</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-287"><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-287"><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-288"><a href="sql-subqueries-microsoft-access-sql.md">ALGUNS</a></span><span class="sxs-lookup"><span data-stu-id="431cd-288"><a href="sql-subqueries-microsoft-access-sql.md">SOME</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-287"><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-287"><a href="revoke-statement-microsoft-access-sql.md">REVOKE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-288"><a href="sql-subqueries-microsoft-access-sql.md">ALGUNS</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-288"><a href="sql-subqueries-microsoft-access-sql.md">SOME</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-289"><a href="left-join-right-join-operations-microsoft-access-sql.md">Certo</a></span><span class="sxs-lookup"><span data-stu-id="431cd-289"><a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-290">ESPAÇO</span><span class="sxs-lookup"><span data-stu-id="431cd-290">SPACE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-289"><a href="left-join-right-join-operations-microsoft-access-sql.md">Certo</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-289"><a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-290">ESPAÇO</span><span class="sxs-lookup"><span data-stu-id="a1b77-290">SPACE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-291"><a href="transaction-statement-microsoft-access-sql.md">REVERSÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-291"><a href="transaction-statement-microsoft-access-sql.md">ROLLBACK</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-292">SQL</span><span class="sxs-lookup"><span data-stu-id="431cd-292">SQL</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-291"><a href="transaction-statement-microsoft-access-sql.md">REVERSÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-291"><a href="transaction-statement-microsoft-access-sql.md">ROLLBACK</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-292">SQL</span><span class="sxs-lookup"><span data-stu-id="a1b77-292">SQL</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-293"><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">ESQUEMA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-293"><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-294">SQLCODE, SQLERROR, SQLSTATE</span><span class="sxs-lookup"><span data-stu-id="431cd-294">SQLCODE, SQLERROR, SQLSTATE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-293"><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">ESQUEMA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-293"><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-294">SQLCODE, SQLERROR, SQLSTATE</span><span class="sxs-lookup"><span data-stu-id="a1b77-294">SQLCODE, SQLERROR, SQLSTATE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-295">SECOND</span><span class="sxs-lookup"><span data-stu-id="431cd-295">SECOND</span></span></p></td>
-<td><p><span data-ttu-id="431cd-296"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">DesvPad</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-296"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-295">SECOND</span><span class="sxs-lookup"><span data-stu-id="a1b77-295">SECOND</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-296"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">DesvPad</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-296"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-297"><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECIONE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-297"><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-298"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-298"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-297"><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECIONE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-297"><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-298"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-298"><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-299"><a href="https://msdn.microsoft.com/library/ff192275(v=office.15)">SELECTSCHEMA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-299"><a href="https://msdn.microsoft.com/library/ff192275(v=office.15)">SELECTSCHEMA</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-300"><a href="equivalent-ansi-sql-data-types.md">STRING</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="431cd-300"><a href="equivalent-ansi-sql-data-types.md">STRING</a> — See TEXT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-299"><a href="https://msdn.microsoft.com/library/ff192275(v=office.15)">SELECTSCHEMA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-299"><a href="https://msdn.microsoft.com/library/ff192275(v=office.15)">SELECTSCHEMA</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-300"><a href="equivalent-ansi-sql-data-types.md">STRING</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="a1b77-300"><a href="equivalent-ansi-sql-data-types.md">STRING</a> — See TEXT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-301"><a href="https://msdn.microsoft.com/library/ff192055(v=office.15)">SELECTSECURITY</a></span><span class="sxs-lookup"><span data-stu-id="431cd-301"><a href="https://msdn.microsoft.com/library/ff192055(v=office.15)">SELECTSECURITY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-302">SUBSTRING</span><span class="sxs-lookup"><span data-stu-id="431cd-302">SUBSTRING</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-301"><a href="https://msdn.microsoft.com/library/ff192055(v=office.15)">SELECTSECURITY</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-301"><a href="https://msdn.microsoft.com/library/ff192055(v=office.15)">SELECTSECURITY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-302">SUBSTRING</span><span class="sxs-lookup"><span data-stu-id="a1b77-302">SUBSTRING</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-303"><a href="update-statement-microsoft-access-sql.md">DEFINIR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-303"><a href="update-statement-microsoft-access-sql.md">SET</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-304"><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Soma</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-304"><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Sum</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-303"><a href="update-statement-microsoft-access-sql.md">DEFINIR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-303"><a href="update-statement-microsoft-access-sql.md">SET</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-304"><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Soma</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-304"><strong><a href="https://msdn.microsoft.com/library/ff844764(v=office.15)">Sum</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-305"><a href="sql-data-types.md">CURTO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-305"><a href="sql-data-types.md">SHORT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-306">SYSNAME</span><span class="sxs-lookup"><span data-stu-id="431cd-306">SYSNAME</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-305"><a href="sql-data-types.md">CURTO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-305"><a href="sql-data-types.md">SHORT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-306">SYSNAME</span><span class="sxs-lookup"><span data-stu-id="a1b77-306">SYSNAME</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-307"><a href="sql-data-types.md">ÚNICO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-307"><a href="sql-data-types.md">SINGLE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-308">SYSTEM_USER</span><span class="sxs-lookup"><span data-stu-id="431cd-308">SYSTEM_USER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-307"><a href="sql-data-types.md">ÚNICO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-307"><a href="sql-data-types.md">SINGLE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-308">SYSTEM_USER</span><span class="sxs-lookup"><span data-stu-id="a1b77-308">SYSTEM_USER</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-309">SIZE</span><span class="sxs-lookup"><span data-stu-id="431cd-309">SIZE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-309">SIZE</span><span class="sxs-lookup"><span data-stu-id="a1b77-309">SIZE</span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="t-z"></a><span data-ttu-id="431cd-310">T-Z</span><span class="sxs-lookup"><span data-stu-id="431cd-310">T-Z</span></span>
+## <a name="t-z"></a><span data-ttu-id="a1b77-310">T-Z</span><span class="sxs-lookup"><span data-stu-id="a1b77-310">T-Z</span></span>
 
 <table>
 <colgroup>
@@ -530,99 +530,99 @@ ms.locfileid: "25465492"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-311"><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABELA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-311"><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-312"><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></span><span class="sxs-lookup"><span data-stu-id="431cd-312"><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-311"><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABELA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-311"><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-312"><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-312"><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-313"><strong>TableID</strong>\*</span><span class="sxs-lookup"><span data-stu-id="431cd-313"><strong>TableID</strong>\*</span></span></p></td>
-<td><p><span data-ttu-id="431cd-314"><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></span><span class="sxs-lookup"><span data-stu-id="431cd-314"><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-313"><strong>TableID</strong>\*</span><span class="sxs-lookup"><span data-stu-id="a1b77-313"><strong>TableID</strong>\*</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-314"><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-314"><a href="https://msdn.microsoft.com/library/ff198241(v=office.15)">UPDATESECURITY</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-315"><a href="create-table-statement-microsoft-access-sql.md">TEMPORÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-315"><a href="create-table-statement-microsoft-access-sql.md">TEMPORARY</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-316">UPPER</span><span class="sxs-lookup"><span data-stu-id="431cd-316">UPPER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-315"><a href="create-table-statement-microsoft-access-sql.md">TEMPORÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-315"><a href="create-table-statement-microsoft-access-sql.md">TEMPORARY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-316">UPPER</span><span class="sxs-lookup"><span data-stu-id="a1b77-316">UPPER</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-317"><a href="sql-data-types.md">TEXTO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-317"><a href="sql-data-types.md">TEXT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-318">USAGE</span><span class="sxs-lookup"><span data-stu-id="431cd-318">USAGE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-317"><a href="sql-data-types.md">TEXTO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-317"><a href="sql-data-types.md">TEXT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-318">USAGE</span><span class="sxs-lookup"><span data-stu-id="a1b77-318">USAGE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-319"><a href="equivalent-ansi-sql-data-types.md">TIME</a> — Consulte DATETIME</span><span class="sxs-lookup"><span data-stu-id="431cd-319"><a href="equivalent-ansi-sql-data-types.md">TIME</a> — See DATETIME</span></span></p></td>
-<td><p><span data-ttu-id="431cd-320"><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USUÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-320"><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-319"><a href="equivalent-ansi-sql-data-types.md">TIME</a> — Consulte DATETIME</span><span class="sxs-lookup"><span data-stu-id="a1b77-319"><a href="equivalent-ansi-sql-data-types.md">TIME</a> — See DATETIME</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-320"><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USUÁRIO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-320"><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-321"><a href="equivalent-ansi-sql-data-types.md">CARIMBO DE HORA</a></span><span class="sxs-lookup"><span data-stu-id="431cd-321"><a href="equivalent-ansi-sql-data-types.md">TIMESTAMP</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-322">USING</span><span class="sxs-lookup"><span data-stu-id="431cd-322">USING</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-321"><a href="equivalent-ansi-sql-data-types.md">CARIMBO DE HORA</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-321"><a href="equivalent-ansi-sql-data-types.md">TIMESTAMP</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-322">USING</span><span class="sxs-lookup"><span data-stu-id="a1b77-322">USING</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-323">TIMEZONE_HOUR</span><span class="sxs-lookup"><span data-stu-id="431cd-323">TIMEZONE_HOUR</span></span></p></td>
-<td><p><span data-ttu-id="431cd-324"><a href="sql-data-types.md">VALOR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-324"><a href="sql-data-types.md">VALUE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-323">TIMEZONE_HOUR</span><span class="sxs-lookup"><span data-stu-id="a1b77-323">TIMEZONE_HOUR</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-324"><a href="sql-data-types.md">VALOR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-324"><a href="sql-data-types.md">VALUE</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-325">TIMEZONE_MINUTE</span><span class="sxs-lookup"><span data-stu-id="431cd-325">TIMEZONE_MINUTE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-326"><a href="insert-into-statement-microsoft-access-sql.md">VALORES</a></span><span class="sxs-lookup"><span data-stu-id="431cd-326"><a href="insert-into-statement-microsoft-access-sql.md">VALUES</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-325">TIMEZONE_MINUTE</span><span class="sxs-lookup"><span data-stu-id="a1b77-325">TIMEZONE_MINUTE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-326"><a href="insert-into-statement-microsoft-access-sql.md">VALORES</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-326"><a href="insert-into-statement-microsoft-access-sql.md">VALUES</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-327"><a href="sql-data-types.md">TINYINT</a></span><span class="sxs-lookup"><span data-stu-id="431cd-327"><a href="sql-data-types.md">TINYINT</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-328"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-328"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-327"><a href="sql-data-types.md">TINYINT</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-327"><a href="sql-data-types.md">TINYINT</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-328"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-328"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-329"><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">Para</a></span><span class="sxs-lookup"><span data-stu-id="431cd-329"><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-330"><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — Consulte BINARY</span><span class="sxs-lookup"><span data-stu-id="431cd-330"><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — See BINARY</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-329"><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">Para</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-329"><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-330"><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — Consulte BINARY</span><span class="sxs-lookup"><span data-stu-id="a1b77-330"><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — See BINARY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-331"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">Início</a></span><span class="sxs-lookup"><span data-stu-id="431cd-331"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">TOP</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-332"><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="431cd-332"><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a> — See TEXT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-331"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">Início</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-331"><a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">TOP</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-332"><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a> — Consulte TEXT</span><span class="sxs-lookup"><span data-stu-id="a1b77-332"><a href="equivalent-ansi-sql-data-types.md">VARCHAR</a> — See TEXT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-333">TRAILING</span><span class="sxs-lookup"><span data-stu-id="431cd-333">TRAILING</span></span></p></td>
-<td><p><span data-ttu-id="431cd-334"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></span><span class="sxs-lookup"><span data-stu-id="431cd-334"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-333">TRAILING</span><span class="sxs-lookup"><span data-stu-id="a1b77-333">TRAILING</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-334"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-334"><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">VarP</a></strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-335"><a href="transaction-statement-microsoft-access-sql.md">TRANSAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-335"><a href="transaction-statement-microsoft-access-sql.md">TRANSACTION</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-336"><a href="constraint-clause-microsoft-access-sql.md">VARIANTE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-336"><a href="constraint-clause-microsoft-access-sql.md">VARYING</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-335"><a href="transaction-statement-microsoft-access-sql.md">TRANSAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-335"><a href="transaction-statement-microsoft-access-sql.md">TRANSACTION</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-336"><a href="constraint-clause-microsoft-access-sql.md">VARIANTE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-336"><a href="constraint-clause-microsoft-access-sql.md">VARYING</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-337"><a href="transform-statement-microsoft-access-sql.md">TRANSFORMAR</a></span><span class="sxs-lookup"><span data-stu-id="431cd-337"><a href="transform-statement-microsoft-access-sql.md">TRANSFORM</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-338"><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">MODO DE EXIBIÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-338"><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-337"><a href="transform-statement-microsoft-access-sql.md">TRANSFORMAR</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-337"><a href="transform-statement-microsoft-access-sql.md">TRANSFORM</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-338"><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">MODO DE EXIBIÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-338"><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-339">TRANSLATE</span><span class="sxs-lookup"><span data-stu-id="431cd-339">TRANSLATE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-340">WHEN</span><span class="sxs-lookup"><span data-stu-id="431cd-340">WHEN</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-339">TRANSLATE</span><span class="sxs-lookup"><span data-stu-id="a1b77-339">TRANSLATE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-340">WHEN</span><span class="sxs-lookup"><span data-stu-id="a1b77-340">WHEN</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-341">TRANSLATION</span><span class="sxs-lookup"><span data-stu-id="431cd-341">TRANSLATION</span></span></p></td>
-<td><p><span data-ttu-id="431cd-342">WHENEVER</span><span class="sxs-lookup"><span data-stu-id="431cd-342">WHENEVER</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-341">TRANSLATION</span><span class="sxs-lookup"><span data-stu-id="a1b77-341">TRANSLATION</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-342">WHENEVER</span><span class="sxs-lookup"><span data-stu-id="a1b77-342">WHENEVER</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-343">TRIM</span><span class="sxs-lookup"><span data-stu-id="431cd-343">TRIM</span></span></p></td>
-<td><p><span data-ttu-id="431cd-344"><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">ONDE</a></span><span class="sxs-lookup"><span data-stu-id="431cd-344"><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-343">TRIM</span><span class="sxs-lookup"><span data-stu-id="a1b77-343">TRIM</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-344"><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">ONDE</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-344"><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-345">TRUE</span><span class="sxs-lookup"><span data-stu-id="431cd-345">TRUE</span></span></p></td>
-<td><p><span data-ttu-id="431cd-346"><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">COM</a></span><span class="sxs-lookup"><span data-stu-id="431cd-346"><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-345">TRUE</span><span class="sxs-lookup"><span data-stu-id="a1b77-345">TRUE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-346"><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">COM</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-346"><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-347"><a href="union-operation-microsoft-access-sql.md">UNIÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-347"><a href="union-operation-microsoft-access-sql.md">UNION</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-348"><a href="transaction-statement-microsoft-access-sql.md">TRABALHO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-348"><a href="transaction-statement-microsoft-access-sql.md">WORK</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-347"><a href="union-operation-microsoft-access-sql.md">UNIÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-347"><a href="union-operation-microsoft-access-sql.md">UNION</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-348"><a href="transaction-statement-microsoft-access-sql.md">TRABALHO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-348"><a href="transaction-statement-microsoft-access-sql.md">WORK</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-349"><a href="constraint-clause-microsoft-access-sql.md">EXCLUSIVO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-349"><a href="constraint-clause-microsoft-access-sql.md">UNIQUE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-350"><strong>Xor</strong></span><span class="sxs-lookup"><span data-stu-id="431cd-350"><strong>Xor</strong></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-349"><a href="constraint-clause-microsoft-access-sql.md">EXCLUSIVO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-349"><a href="constraint-clause-microsoft-access-sql.md">UNIQUE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-350"><strong>Xor</strong></span><span class="sxs-lookup"><span data-stu-id="a1b77-350"><strong>Xor</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-351"><a href="sql-data-types.md">UNIQUEIDENTIFIER</a></span><span class="sxs-lookup"><span data-stu-id="431cd-351"><a href="sql-data-types.md">UNIQUEIDENTIFIER</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-352">YEAR</span><span class="sxs-lookup"><span data-stu-id="431cd-352">YEAR</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-351"><a href="sql-data-types.md">UNIQUEIDENTIFIER</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-351"><a href="sql-data-types.md">UNIQUEIDENTIFIER</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-352">YEAR</span><span class="sxs-lookup"><span data-stu-id="a1b77-352">YEAR</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-353">UNKNOWN</span><span class="sxs-lookup"><span data-stu-id="431cd-353">UNKNOWN</span></span></p></td>
-<td><p><span data-ttu-id="431cd-354"><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="431cd-354"><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — See BIT</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-353">UNKNOWN</span><span class="sxs-lookup"><span data-stu-id="a1b77-353">UNKNOWN</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-354"><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — Consulte BIT</span><span class="sxs-lookup"><span data-stu-id="a1b77-354"><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — See BIT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="431cd-355"><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">ATUALIZAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="431cd-355"><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></span></span></p></td>
-<td><p><span data-ttu-id="431cd-356">ZONE</span><span class="sxs-lookup"><span data-stu-id="431cd-356">ZONE</span></span></p></td>
+<td><p><span data-ttu-id="a1b77-355"><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">ATUALIZAÇÃO</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-355"><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-356">ZONE</span><span class="sxs-lookup"><span data-stu-id="a1b77-356">ZONE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="431cd-357"><a href="https://msdn.microsoft.com/library/ff836615(v=office.15)">UPDATEIDENTITY</a></span><span class="sxs-lookup"><span data-stu-id="431cd-357"><a href="https://msdn.microsoft.com/library/ff836615(v=office.15)">UPDATEIDENTITY</a></span></span></p></td>
+<td><p><span data-ttu-id="a1b77-357"><a href="https://msdn.microsoft.com/library/ff836615(v=office.15)">UPDATEIDENTITY</a></span><span class="sxs-lookup"><span data-stu-id="a1b77-357"><a href="https://msdn.microsoft.com/library/ff836615(v=office.15)">UPDATEIDENTITY</a></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
