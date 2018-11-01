@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250077(v=office.15)
 ms:contentKeyID: 48547975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 90435606bb0b3059f5769c12fe7cf3cac0c8f9f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 094c68fbf5b62a7a1b3af16b826bf9c2c26a2af4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465274"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882417"
 ---
 # <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconectando e reconectando o Recordset
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconectando e reconectando o Recordset
+## <a name="disconnecting-and-reconnecting-the-recordset"></a>Desconexão e reconexão do conjunto de registros
 
 Um dos recursos mais eficientes encontrados no ADO é a capacidade de abrir um **Recordset** no cliente a partir de uma fonte de dados e, em seguida, *desconectar* o **Recordset** dessa fonte. Uma vez desconectado o **Recordset**, a conexão com a fonte de dados poderá ser fechada, liberando assim os recursos no servidor usado para mantê-lo. Você pode continuar a exibir e editar os dados no **Recordset** enquanto ele estiver desconectado e reconectar-se posteriormente à fonte de dados para enviar suas atualizações no modo em lotes.
 

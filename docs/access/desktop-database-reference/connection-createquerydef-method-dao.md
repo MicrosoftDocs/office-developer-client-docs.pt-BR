@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 35bf71742133b65c2e55583e1c62922cb5bc91e8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5ea0e06d133c95506a68e947254bfcd0ea8a2dc6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606035"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880303"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Método Connection.CreateQueryDef (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 
@@ -64,11 +64,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 QueryDef
 

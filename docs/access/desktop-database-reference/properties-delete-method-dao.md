@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16846f6922638279b47135a4b0ca16ce7a845b2c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 31c43d079eb91be33df94745b65431ed6fd975cb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464713"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875319"
 ---
 # <a name="propertiesdelete-method-dao"></a>Método Properties.Delete (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Exclui o objeto **Property** especificado da coleção **Properties**.
 
@@ -47,7 +47,7 @@ Exclui o objeto **Property** especificado da coleção **Properties**.
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O nome da propriedade a ser excluída.</p></td>
 </tr>
 </tbody>

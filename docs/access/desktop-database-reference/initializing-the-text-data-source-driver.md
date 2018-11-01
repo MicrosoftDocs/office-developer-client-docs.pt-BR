@@ -10,17 +10,17 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb897c4e057b767c98676bc14c9f1e70c22095ee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464176"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875158"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver da fonte de dados de texto
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 O mesmo driver de banco de dados é usado para fontes de dados HTML e de texto.

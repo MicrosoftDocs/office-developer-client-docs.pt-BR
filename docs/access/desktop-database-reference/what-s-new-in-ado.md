@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 86d3c151ac77ab4138afcd84ee2a14d94dd07aef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5f374abd42659708ddb1e9fcd131faaac94f05cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462937"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891111"
 ---
 # <a name="whats-new-in-ado"></a>O que há de novo no ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013 
+**Aplica-se a**: Access 2013, o Office 2013 
  
 
 Os novos recursos a seguir e a documentação aperfeiçoada foram incluídos no ADO versão 2.5. A lista abrange o ADO, o ADO MD e o ADOX.
@@ -84,7 +84,7 @@ As novas propriedades a seguir foram incluídas nesta versão.
 <td><p>Indica o tipo de objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Size</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Tamanho</a></p></td>
 <td><p>Indica o tamanho do fluxo em número de bytes.</p></td>
 </tr>
 <tr class="odd">
@@ -92,7 +92,7 @@ As novas propriedades a seguir foram incluídas nesta versão.
 <td><p>Indica a entidade representada pelo objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">Estado</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>Indica todos os objetos aplicáveis, independentemente de seu estado: aberto ou fechado. Indica todos os objetos aplicáveis que executam um método assíncrono, independentemente de seu estado atual: conexão, execução ou recuperação.</p></td>
 </tr>
 <tr class="odd">
@@ -174,7 +174,7 @@ Os novos métodos a seguir foram incluídos nesta versão.
 <td><p>Ignora uma linha inteira na leitura de um objeto <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">Gravação</a></p></td>
+<td><p><a href="write-method-ado.md">Escrever</a></p></td>
 <td><p>Grava dados binários em um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo da propriedade Type (Field) (VB) TOCTitle: exemplo da propriedade Type (Field) (VB) === título: exemplo da propriedade Type (Field) (VB) TOCTitle: exemplo da propriedade Type (Field) (VB)
->>>>>>> ms:assetid de mestre: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: ms.date 48548966: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Type (Field) (VB)
+TOCTitle: Type property example (Field) (VB)
+ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
+ms:contentKeyID: 48548966
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b7478dd3ab4574b3315f5d57bf2f3680b8777e22
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889435"
 ---
-
-<<<<<<< Cabeça
 # <a name="type-property-example-field-vb"></a>Exemplo da propriedade Type (Field) (VB)
-=======
-# <a name="type-property-example-field-vb"></a>Exemplo da propriedade Type (Field) (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Type](type-property-ado.md) exibindo o nome da constante que corresponde ao valor da propriedade [Type](type-property-ado.md) de todos os objetos [Field](field-object-ado.md) na tabela ***Employees***. A função FieldType é necessária para a execução deste procedimento.
 

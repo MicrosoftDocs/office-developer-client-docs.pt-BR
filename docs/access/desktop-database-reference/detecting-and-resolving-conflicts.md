@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4468887c0ef187e6dd955c20db91050415ec68ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76bfc8f81b7f9df3d1b0e759620952f92bb5c8f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462386"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875291"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Detectando e resolvendo conflitos
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="detecting-and-resolving-conflicts"></a>Detectando e resolvendo conflitos
+## <a name="detecting-and-resolving-conflicts"></a>Detecção e solução de conflitos
 
 Se você estiver lidando com o **Recordset** no modo imediato, a probabilidade de ocorrerem problemas de simultaneidade é bem menor. Por outro lado, se o aplicativo usar atualização no modo em lotes, é bem provável que um usuário altere um registro antes que as alterações feitas por outro usuário que está editando o mesmo registro sejam salvas. Nesse caso, você desejará que o aplicativo trate o conflito habilmente. Talvez você queira que a última pessoa a enviar uma atualização para o servidor "ganhe". Ou talvez queira permitir que o usuário mais recente decida qual atualização deve prevalecer, permitindo que ele escolha entre os dois valores conflitantes.
 

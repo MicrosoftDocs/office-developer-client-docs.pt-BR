@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15577750d7c6a2373178bce9fefff16fef512023
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 24cb363d253e9abd18d251299c36edbdb371d56d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602668"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880779"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Método Database.CreateQueryDef (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 
@@ -59,11 +59,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 QueryDef
 

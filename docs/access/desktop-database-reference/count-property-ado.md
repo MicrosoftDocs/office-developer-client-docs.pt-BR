@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: propriedade Count (ADO) TOCTitle: propriedade Count (ADO) === título: (ADO) a propriedade Count TOCTitle: (ADO) a propriedade Count
->>>>>>> ms:assetid de mestre: b59f9581-ffd1-471d-44fa-3c1bb812e140 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15) ms:contentKeyID: ms.date 48547253: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Count (ADO)
+TOCTitle: Count property (ADO)
+ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
+ms:contentKeyID: 48547253
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c710b02678940d898f910ef5215d879cd6ded163
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880856"
 ---
-
-<<<<<<< Cabeça
 # <a name="count-property-ado"></a>Propriedade Count (ADO)
-=======
-# <a name="count-property-ado"></a>Propriedade Count (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica a quantidade de objetos em uma coleção.
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um valor **Long**.
 

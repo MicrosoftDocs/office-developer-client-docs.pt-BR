@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3b9da4d42b1b2cece2c829988d3d8906b9f1383b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bdcd5f0d4d131533846eb4c05d2579f0703d408d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463191"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875705"
 ---
 # <a name="field2savetofile-method-dao"></a>Método Field2.SaveToFile (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Salva um anexo no disco.
 
@@ -54,7 +54,7 @@ Version Added: Access 2007
 <tr class="odd">
 <td><p>FileName</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho totalmente qualificado do arquivo no qual deseja salvar o anexo.</p></td>
 </tr>
 </tbody>

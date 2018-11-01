@@ -1,16 +1,21 @@
 ---
-<<<<<<< Título cabeça: ActualSize e DefinedSize exemplo das propriedades (JScript) TOCTitle: ActualSize e DefinedSize exemplo das propriedades (JScript) ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms: contentKeyID: ms.date 48547811: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades ActualSize e DefinedSize (JScript)
+TOCTitle: ActualSize and DefinedSize properties example (JScript)
+ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
+ms:contentKeyID: 48547811
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: ce9c50039566511a4f22f3ab613e5dce36c3931d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878693"
 ---
-
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>Exemplo das propriedades ActualSize e DefinedSize (JScript)
 
-=== título: exemplo das propriedades ActualSize e DefinedSize (JScript) TOCTitle: ms:assetid de exemplo (JScript) propriedades ActualSize e DefinedSize: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: ms.date 48547811: 10 / 16/2018 mtps_version: v=office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a>Exemplo das propriedades ActualSize e DefinedSize (JScript)
->>>>>>> mestre
-
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [DefinedSize](definedsize-property-ado.md) para exibir o tamanho definido e o tamanho real de um campo. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **ActualSizeJS.asp**.
 
@@ -22,11 +27,7 @@ Este exemplo usa as propriedades [ActualSize](actualsize-property-ado.md) e [Def
 <html> 
  
 <head> 
-<<<<<<< HEAD
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
-=======
  <title>ActualSize and DefinedSize properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 137f36285a79b45294d680fb31f6e928ee5e68fc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c99fd426473cf331c5b43b93c9c1bb285b6a5b43
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860557"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890999"
 ---
 # <a name="using-related-technologies-with-rds"></a>Uso de tecnologias relacionadas com o RDS
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Esta seção contém informações específicas sobre o uso do RDS com aspectos das seguintes tecnologias:
 

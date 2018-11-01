@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade Sort (VB) TOCTitle: exemplo de propriedade Sort (VB) === título: exemplo da propriedade Sort (VB) TOCTitle: exemplo da propriedade Sort (VB)
->>>>>>> ms:assetid de mestre: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: ms.date 48545539: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Sort (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891251"
 ---
-
-<<<<<<< Cabeça
 # <a name="sort-property-example-vb"></a>Exemplo da propriedade Sort (VB)
-=======
-# <a name="sort-property-example-vb"></a>Exemplo da propriedade Sort (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***. Uma rotina secundária do utilitário imprimirá cada linha.
 
