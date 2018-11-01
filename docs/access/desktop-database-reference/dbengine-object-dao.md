@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834506(v=office.15)
 ms:contentKeyID: 48547792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dc2889ad38bdc95316735901b25314f26d8df754
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 86c14ef0e9443965b2e80af329d4cca6023d1467
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464861"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873625"
 ---
 # <a name="dbengine-object-dao"></a>Objeto DBEngine (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O objeto **DBEngine** é de nível superior no modelo de objeto DAO.
 

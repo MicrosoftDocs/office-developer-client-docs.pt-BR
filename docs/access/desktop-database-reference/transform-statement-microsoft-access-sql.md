@@ -10,16 +10,16 @@ f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c0552d7b98fd0862b3d6b5130d9ad56886402d67
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861215"
+ms.locfileid: "25872652"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORMAR instrução (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria uma consulta de tabela de referência cruzada.
 

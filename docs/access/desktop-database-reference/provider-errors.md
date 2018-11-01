@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74d5381298f58c00c66ee4fb72504ce44f5dd7b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18d226ff8ff270705d8e30425f83eabc289383b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464658"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883243"
 ---
 # <a name="provider-errors"></a>Erros do provedor
 
 
-**Aplica-se a**: Access 2013 | Office 2013 
+**Aplica-se a**: Access 2013, o Office 2013 
 
 Quando ocorre um erro do provedor, é retornado um erro em tempo de execução de -2147467259. Quando você receber esse erro, verifique a coleção **Errors** do objeto **Connection** ativo, que conterá um ou mais erros descrevendo o que aconteceu.
 

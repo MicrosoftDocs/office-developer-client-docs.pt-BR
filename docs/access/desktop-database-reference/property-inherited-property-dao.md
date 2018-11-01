@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052991
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b89b751f96b78cf972d6461ce646498d82bc9169
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7768ec3048c14962154fa8ba54f391a9a8a10e66
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463810"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887975"
 ---
 # <a name="propertyinherited-property-dao"></a>Propriedade Property.Inherited (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013 
+**Aplica-se a**: Access 2013, o Office 2013 
 
 Retorna um valor que indica se um objeto **[Property](property-object-dao.md)** foi herdado de um objeto base.
 

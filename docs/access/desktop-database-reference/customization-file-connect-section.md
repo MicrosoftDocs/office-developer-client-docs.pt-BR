@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd4b7eed3cb5d8192866127322c00e7ecd5a15b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f160fe06167cde6527b08c23ab3de69731f56dde
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463819"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867515"
 ---
 # <a name="customization-file-connect-section"></a>Seção connect do arquivo de personalização
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O comportamento padrão do manipulador é negar todas as conexões. A seção **connect** especifica exceções a esse comportamento. Por exemplo, se todas as seções **connect** estivessem ausentes ou vazias, nenhuma conexão seria estabelecida por padrão.
 

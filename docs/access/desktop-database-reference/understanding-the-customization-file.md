@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5bd19a1cec1e9618586b25b0b5cdf654cd1a5fdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5c764c543c3d8734a47927d702daca1552e497b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462947"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879470"
 ---
 # <a name="understanding-the-customization-file"></a>Noções básicas sobre o arquivo de personalização
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cada cabeçalho de seção no arquivo de personalização consiste em colchetes (**\[**) que contém um tipo e o parâmetro. Os quatro tipos de seção são indicados pela sequência de caracteres literal **connect**, **sql**, **userlist** ou **logs**. O parâmetro pode ser a sequência de caracteres literal, o padrão, um identificador especificado pelo usuário ou nada.
 

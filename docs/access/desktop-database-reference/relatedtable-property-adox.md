@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250185(v=office.15)
 ms:contentKeyID: 48548450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93c8f8fd4342db5d8cadb84337546147bf754cc3
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e90fbde305630971cb10ee6f284aeebc7385bd47
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602885"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874374"
 ---
 # <a name="relatedtable-property-adox"></a>Propriedade RelatedTable (ADOX)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o nome da tabela relacionada.
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define e retorna um valor **String**.
 

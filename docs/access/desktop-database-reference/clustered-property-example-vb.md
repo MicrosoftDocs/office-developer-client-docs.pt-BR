@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade Clustered (VB) TOCTitle: exemplo de propriedade Clustered (VB) === título: exemplo da propriedade Clustered (VB) TOCTitle: exemplo da propriedade Clustered (VB)
->>>>>>> ms:assetid de mestre: 1065622d-9473-209a-95be-c4b0ab5b687a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15) ms:contentKeyID: ms.date 48543293: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Clustered (VB)
+TOCTitle: Clustered property example (VB)
+ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
+ms:contentKeyID: 48543293
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3f1ebd893418cde5b499be9d34c7d50aadff78f3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872757"
 ---
-
-<<<<<<< Cabeça
 # <a name="clustered-property-example-vb"></a>Exemplo da propriedade Clustered (VB)
-=======
-# <a name="clustered-property-example-vb"></a>Exemplo da propriedade Clustered (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Clustered](clustered-property-adox.md) de um [índice](index-object-adox.md). Observe que os bancos de dados Microsoft Jet não aceita índices agrupados, portanto, este exemplo retornará **False** para a propriedade **Clustered** de todos os índices no banco de dados *Northwind* .
 

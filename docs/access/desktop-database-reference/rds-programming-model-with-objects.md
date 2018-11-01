@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248987(v=office.15)
 ms:contentKeyID: 48543663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 833d3676c8fa3fac1e5cb8e16477073cde611199
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f6d28373e5d241ae9e87357187894924f27ba78c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462928"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873800"
 ---
 # <a name="rds-programming-model-with-objects"></a>Modelo de programação RDS com objetos
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A meta do RDS é obter acesso a fontes de dados e atualizá-las através de um intermediário, como o IIS. O modelo de programação especifica a sequência de atividades necessárias para atingir essa meta. O modelo de objeto especifica os objetos cujos métodos e propriedades afetam o modelo de programação.
 

@@ -6,42 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250301(v=office.15)
 ms:contentKeyID: 48548917
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3e98a3fcb434fc97ee9c1173c3232c605805bf7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 49fd0a754221f7eb6661c777effa7f75a70c4672
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863996"
+ms.locfileid: "25882291"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c-topics"></a>Exemplos de código do ADOX no Microsoft Visual C++ tópicos
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
   - [Exemplos de código do ADOX no Microsoft Visual C++](adox-code-examples-in-microsoft-visual-c.md)
 
-<<<<<<< HEAD
-  - [Exemplo da propriedade Attributes (VC++)](attributes-property-example-vc.md)
-
-  - [Exemplo da propriedade ActiveConnection de catálogo (VC++)](catalog-activeconnection-property-example-vc.md)
-
-  - [Exemplo da propriedade Clustered (VC++)](clustered-property-example-vc.md)
-
-  - [Métodos Append de colunas e tabelas, exemplo da propriedade Name (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
-
-  - [Exemplo das propriedades Command e CommandText (VC++)](command-and-commandtext-properties-example-vc.md)
-
-  - [Método Close de conexão, exemplo da propriedade Type de tabela (VC++)](connection-close-method-table-type-property-example-vc.md)
-
-  - [Exemplo do método Create (VC++)](create-method-example-vc.md)
-
-  - [Exemplo das propriedades DateCreated e DateModified (VC++)](datecreated-and-datemodified-properties-example-vc.md)
-
-  - [Exemplo da propriedade DefinedSize (VC++)](definedsize-property-example-vc.md)
-
-  - [Exemplo da propriedade DeleteRule (VC + +)](deleterule-property-example-vc.md)
-=======
   - [Exemplo da propriedade Attributes (VC++)](attributes-property-example-vc.md)
 
   - [Exemplo da propriedade ActiveConnection de Catalog (VC++)](catalog-activeconnection-property-example-vc.md)
@@ -61,7 +40,6 @@ ms.locfileid: "25863996"
   - [Exemplo da propriedade DefinedSize (VC++)](definedsize-property-example-vc.md)
 
   - [Exemplo da propriedade DeleteRule (VC++)](deleterule-property-example-vc.md)
->>>>>>> mestre
 
   - [Exemplo dos métodos GetObjectOwner e SetObjectOwner (VC++)](getobjectowner-and-setobjectowner-methods-example-vc.md)
 
@@ -73,19 +51,6 @@ ms.locfileid: "25863996"
 
   - [Exemplo do método Append de Indexes (VC++)](indexes-append-method-example-vc.md)
 
-<<<<<<< HEAD
-  - [Exemplo da propriedade IndexNulls (VC++)](indexnulls-property-example-vc.md)
-
-  - [Append de chaves, método, tipo de chave, RelatedColumn, RelatedTable e UpdateRule exemplo das propriedades (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-
-  - [Exemplo das propriedades NumericScale e Precision (V++)](numericscale-and-precision-properties-example-vc.md)
-
-  - [Coleção Parameters, exemplo da propriedade Command (VC++)](parameters-collection-command-property-example-vc.md)
-
-  - [Exemplo da propriedade ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
-
-  - [Exemplo das propriedades exclusivas (VC + +) e PrimaryKey](primarykey-and-unique-properties-example-vc.md)
-=======
   - [Exemplo da propriedade IndexNulls (VC++)](indexnulls-property-example-vc.md)
 
   - [Exemplo das propriedades RelatedColumn do método Append, tipo de chave, chaves, RelatedTable e UpdateRule (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
@@ -96,6 +61,5 @@ ms.locfileid: "25863996"
 
   - [Exemplo da propriedade ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
 
-  - [Exemplo das propriedades PrimaryKey e Unique (VC++)](primarykey-and-unique-properties-example-vc.md)
->>>>>>> mestre
+  - [Exemplo das propriedades PrimaryKey e Unique (VC + +)](primarykey-and-unique-properties-example-vc.md)
 
