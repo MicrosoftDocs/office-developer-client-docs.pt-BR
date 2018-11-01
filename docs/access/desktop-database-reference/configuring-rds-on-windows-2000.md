@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ce29ed129035dcb6799844a4b78509b976f0ee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2a02db4af012bb7eb0b297d93ef35ba3fc0bd90c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862937"
+ms.locfileid: "25883593"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>Configurando o RDS no Windows 2000
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Se tiver dificuldades para fazer com que o RDS funcione corretamente depois de fazer a atualização para o Windows 2000, siga as etapas a seguir para solucionar o problema.
 
@@ -31,11 +31,7 @@ Se tiver dificuldades para fazer com que o RDS funcione corretamente depois de f
 
 4.  Usando o utilitário RegEdit, navegue no registro para "HKEY\_LOCAL\_máquina\\sistema\\CurrentControlSet\\serviços\\W3SVC\\parâmetros\\ADCLaunch" e verifique se há uma chave **chamado Rdsserver**. Se não houver, crie-a.
 
-<<<<<<< HEAD
-5.  Usando o Gerenciador de Serviços de Internet, vá para o Site Padrão e visualize as propriedades da raiz virtual MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
-=======
 5.  Usando o Gerenciador de serviços de Internet, vá para o site padrão e exibir as propriedades da raiz virtual MSADC. Inspecione a Segurança do Diretório/Endereço IP e as Restrições de Nome de Domínio. Se "Acesso Negado" estiver marcado, selecione "Concedido".
->>>>>>> mestre
 
 Certifique-se de tentar reiniciar o servidor se as alterações não parecerem solucionar o problema em um primeiro momento.
 

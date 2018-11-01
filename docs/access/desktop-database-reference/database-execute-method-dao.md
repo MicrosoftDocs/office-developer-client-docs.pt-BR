@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c66e6d3297359b3f3584932d8a1faa5dbee0fd7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e72de1f266b1dc24267b1c7f3c43be489d92fb5e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462451"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889592"
 ---
 # <a name="databaseexecute-method-dao"></a>Método Database.Execute (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Executa uma consulta de ação ou executa uma instrução SQL no objeto especificado.
 
@@ -46,11 +46,11 @@ Executa uma consulta de ação ou executa uma instrução SQL no objeto especifi
 <tr class="odd">
 <td><p>Query</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p>Opções</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>

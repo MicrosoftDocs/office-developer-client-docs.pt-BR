@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
 ms:contentKeyID: 48545676
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7667828d2ebfdc554a7120bf495374bc50e51cfc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 382945e1f2ff37eb2155b2bc0db9f521ca85d2de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462784"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878273"
 ---
 # <a name="parameter-object-ado"></a>Objeto Parameter (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Representa um parâmetro ou argumento associado ao objeto [Command](command-object-ado.md) com base em uma consulta parametrizada ou em um procedimento armazenado.
 

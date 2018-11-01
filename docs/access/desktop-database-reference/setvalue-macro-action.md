@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f845dc5512611aa948991ad2099169a25bbcb113
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36dd3e511a3ff252ca44aa6d10fd1be4acd5c5fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462188"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878686"
 ---
 # <a name="setvalue-macro-action"></a>Ação de Macro SetValue
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Você pode usar a ação **DefinirValor** para definir o valor de um campo do Microsoft Access, o controle ou a propriedade em um formulário, uma folha de dados do formulário ou um relatório.
@@ -54,7 +54,7 @@ A ação **DefinirValor** tem os seguintes argumentos.
 <td><p>O nome do campo, controle ou a propriedade cujo valor você deseja definir. Insira o nome de campo, controle ou propriedade na caixa de <strong>Item</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Você deve usar a sintaxe completa para se referir a este item, como <em>controlname</em> (para um controle no formulário ou relatório do qual a macro foi chamada) ou <strong>formulários</strong>! <em>formname</em>! <em>controlname</em>. Este é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Expression</strong></p></td>
+<td><p><strong>Expressão</strong>.</p></td>
 <td><p>A expressão que Access usa para definir o valor deste item. Você sempre deve usar a sintaxe completa para se referir a quaisquer objetos na expressão. Por exemplo, para aumentar o valor em um controle salário em um formulário Employees em 10 por cento, use Forms! Funcionários! Salário * 1.1. Este é um argumento obrigatório.</p>
 
 > [!NOTE]

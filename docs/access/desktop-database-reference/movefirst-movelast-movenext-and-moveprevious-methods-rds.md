@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
 ms:contentKeyID: 48544092
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02c6bc5ab4cc8357d7f349eb1698c2e6a026e173
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fcef91204fd2390696911cd8a81e7fb232af2ae2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602850"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871434"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (RDS)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Move para o primeiro, o último, o próximo ou o registro anterior em um objeto [Recordset](recordset-object-ado.md) especificado.
 
@@ -32,7 +32,5 @@ Move para o primeiro, o último, o próximo ou o registro anterior em um objeto 
 
 ## <a name="remarks"></a>Comentários
 
-<<<<<<< Cabeça você pode usar os métodos **Move** com o **RDS. DataControl** objeto para navegar pelos registros de dados nos controles ligados a dados em uma página da Web. Por exemplo, suponha que você exiba um **Recordset** em uma grade ligando a um objeto **RDS.DataControl**. Em seguida, é possível incluir botões Primeiro, Último, Próximo e Anterior que os usuários podem clicar para mover-se para o primeiro, o último, o próximo ou o registro anterior no **Recordset** exibido. Isso é feito chamando-se os métodos **MoveFirst**, **MoveLast**, **MoveNext** e **MovePrevious** do objeto **RDS.DataControl** nos procedimentos onClick dos botões Primeiro, Último, Próximo e Anterior, respectivamente. O [Exemplo de Catálogo de Endereços](address-book-navigation-buttons.md) mostra como fazer isso.
-=== Você pode usar os métodos **Move** com o **RDS. DataControl** objeto para navegar pelos registros de dados nos controles ligados a dados em uma página da Web. Por exemplo, suponha que você exiba um **Recordset** em uma grade ligando a um objeto **RDS.DataControl**. Em seguida, é possível incluir botões Primeiro, Último, Próximo e Anterior que os usuários podem clicar para mover-se para o primeiro, o último, o próximo ou o registro anterior no **Recordset** exibido. Isso é feito chamando-se os métodos **MoveFirst**, **MoveLast**, **MoveNext** e **MovePrevious** do objeto **RDS.DataControl** nos procedimentos onClick dos botões Primeiro, Último, Próximo e Anterior, respectivamente. O [Exemplo de Catálogo de Endereços](address-book-navigation-buttons.md) mostra como fazer isso.
->>>>>>> mestre
+Você pode usar os métodos **Move** com o **RDS. DataControl** objeto para navegar pelos registros de dados nos controles ligados a dados em uma página da Web. Por exemplo, suponha que você exiba um **Recordset** em uma grade ligando a um objeto **RDS.DataControl**. Em seguida, é possível incluir botões Primeiro, Último, Próximo e Anterior que os usuários podem clicar para mover-se para o primeiro, o último, o próximo ou o registro anterior no **Recordset** exibido. Isso é feito chamando-se os métodos **MoveFirst**, **MoveLast**, **MoveNext** e **MovePrevious** do objeto **RDS.DataControl** nos procedimentos onClick dos botões Primeiro, Último, Próximo e Anterior, respectivamente. O [Exemplo de Catálogo de Endereços](address-book-navigation-buttons.md) mostra como fazer isso.
 

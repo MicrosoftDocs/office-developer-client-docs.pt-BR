@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade MarshalOptions (VC + +): exemplo da propriedade MarshalOptions (VC + +) === título: exemplo da propriedade MarshalOptions (VC + +) TOCTitle: exemplo da propriedade MarshalOptions (VC + +)
->>>>>>> ms:assetid de mestre: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID: ms.date 48546236: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade MarshalOptions (VC++)
+TOCTitle: MarshalOptions property example (VC++)
+ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
+ms:contentKeyID: 48546236
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3d5043e104b9fd424cd1c13b641dc69cc32b6c91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881521"
 ---
-
-<<<<<<< Cabeça
 # <a name="marshaloptions-property-example-vc"></a>Exemplo da propriedade MarshalOptions (VC++)
-=======
-# <a name="marshaloptions-property-example-vc"></a>Exemplo da propriedade MarshalOptions (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [MarshalOptions](marshaloptions-property-ado.md) para especificar as linhas que serão enviadas de volta ao servidor  Todas as Linhas ou apenas Linhas Modificadas.
 

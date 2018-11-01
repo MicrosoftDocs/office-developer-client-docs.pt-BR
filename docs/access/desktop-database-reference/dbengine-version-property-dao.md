@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3516a25623b6838286969c51f2d9346321f3326e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 865942cdf4cca81cb0d5348725164a4a75a845fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462173"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870909"
 ---
 # <a name="dbengineversion-property-dao"></a>Propriedade DBEngine (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna a versão do DAO atualmente em uso. **String** somente leitura.
 

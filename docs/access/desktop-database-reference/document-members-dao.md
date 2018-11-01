@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
 ms:contentKeyID: 48546270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: acbae7603615af8d0171715799963ad4d54e6342
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2ae19e30aa2a2f60f606f2380712815732eac932
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464520"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871364"
 ---
 # <a name="document-members-dao"></a>Membros do documento (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O objeto Document inclui informações sobre uma instância de um objeto. O objeto pode ser um banco de dados, uma tabela, uma consulta ou uma relação salva (apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).
 

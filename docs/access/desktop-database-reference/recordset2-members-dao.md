@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fd3d9ad8dd8dc16587a59a0a24b57543c92288
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463209"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878420"
 ---
 # <a name="recordset2-members-dao"></a>Membros do Recordset2 (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Um objeto Recordset2 representa os registros em uma tabela de base ou os registros resultantes da execução de uma consulta.
 
@@ -241,7 +241,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Retorna uma coleção <strong>Fields</strong> que representa todos os objetos <strong>Field</strong> armazenados para o objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filtro</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filtrar</a></strong></p></td>
 <td><p>Define ou retornar um valor que determina os registros incluídos em um objeto <strong>Recordset</strong> aberto subsequentemente (somente espaços de trabalho do Microsoft Access). <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">

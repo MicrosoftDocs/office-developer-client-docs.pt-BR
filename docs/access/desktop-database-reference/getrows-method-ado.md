@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0f7f38e44e26238e5a55feaaad302bbf427d678
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 99988383c40b84e1993582ad0d1c07491de82933
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606147"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879876"
 ---
 # <a name="getrows-method-ado"></a>Método GetRows (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Recupera vários registros de um objeto [Recordset](recordset-object-ado.md) para dentro de uma matriz.
@@ -25,11 +25,7 @@ Recupera vários registros de um objeto [Recordset](recordset-object-ado.md) par
 
 *matriz* = *recordset*. GetRows (*linhas*, *Iniciar*, *campos* )
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna uma **Variant** cujo valor é uma matriz bidimensional.
 

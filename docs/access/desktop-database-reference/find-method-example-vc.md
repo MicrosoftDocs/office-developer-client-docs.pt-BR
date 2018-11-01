@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250114(v=office.15)
 ms:contentKeyID: 48548137
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09c7ad1a5fc78f1e41767a6bded2d05de94319a0
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 67bc5d598352f1b56e7290b1f72d113fcf8de748
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861844"
+ms.locfileid: "25871343"
 ---
 # <a name="find-method-example-vc"></a>Exemplo do método Find (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa o método [Find](find-method-ado.md) do objeto [Recordset](recordset-object-ado.md) para localizar e contar o número de títulos de negócios no banco de dados ***Pubs*** . O exemplo supõe que o provedor base não suporta funcionalidade semelhante.
 

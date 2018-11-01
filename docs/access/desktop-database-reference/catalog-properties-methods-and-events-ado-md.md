@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249265(v=office.15)
 ms:contentKeyID: 48544831
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e08f2b692d0d06bc5ff898d29ca05faba95b044
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b3eb77a7f6cabd2e2e49af81225c7828abe002fa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465118"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869159"
 ---
 # <a name="catalog-properties-methods-and-events-ado-md"></a>Catálogo propriedades, métodos e eventos (ADO MD)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 

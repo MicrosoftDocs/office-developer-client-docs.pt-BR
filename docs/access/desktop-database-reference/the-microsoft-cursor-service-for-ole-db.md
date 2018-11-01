@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249088(v=office.15)
 ms:contentKeyID: 48544057
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b84899cc4dd8a85cc48ab26057935c9ab150361
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9db5617eecff862ad941a4160c4b92bfa09d4c2d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464657"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885917"
 ---
 # <a name="the-microsoft-cursor-service-for-ole-db"></a>Microsoft Cursor Service for OLE DB
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Ao selecionar um cursor do cliente ou definir a propriedade **CursorLocation** como **adUseClient**, você está chamando o Microsoft Cursor Service for OLE DB. Também é possível ver referências ao "Mecanismo de cursor do cliente", que é essencialmente a mesma coisa no contexto do ADO. Esse serviço suplementa as funções de suporte ao cursor dos provedores de dados. Como resultado, pode-se observar uma funcionalidade relativamente uniforme de todos os provedores de dados.
 

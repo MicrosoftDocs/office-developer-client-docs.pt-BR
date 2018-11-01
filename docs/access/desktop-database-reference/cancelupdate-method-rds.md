@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249130(v=office.15)
 ms:contentKeyID: 48544188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea646f2412ec078f3a45334ec2b1cdbe449285b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 28216cbeb98a0ebc7dfbc6115ea8bc05fadc057f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463233"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887744"
 ---
 # <a name="cancelupdate-method-rds"></a>Método CancelUpdate (RDS)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 

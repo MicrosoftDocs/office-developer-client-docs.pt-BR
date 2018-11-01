@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5c086263ffe2267a8f01cfae2e67db125313c0b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 451f2d1045b900460a24533ca49579bd9252f456
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462644"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881507"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Propriedade Field2.OrdinalPosition (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Define ou retorna a posição relativa de um objeto **Field2** dentro de uma coleção **[Fields](fields-collection-dao.md)**.
@@ -53,23 +53,23 @@ OrdinalPosition será</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>							Objeto <strong>Index</strong></p></td>
+<td><p>Objeto <strong>index</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
+<td><p>Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

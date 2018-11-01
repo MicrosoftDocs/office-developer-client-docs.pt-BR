@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8576d2a1d579de306b438f7b0fb04a1eb2d46cc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e9e89673dcb5cce124747d914f63d1a38353aebe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863627"
+ms.locfileid: "25885742"
 ---
 # <a name="chapter-14-ado-md-fundamentals"></a>Capítulo 14: Conceitos básicos do ADO MD
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O Microsoft ActiveX Data Objects (Multidimensional) (ADO MD) oferece acesso fácil a dados multidimensionais de linguagens como Microsoft Visual Basic, Microsoft Visual C++ e Microsoft Visual J++. O ADO MD amplia o Microsoft ActiveX Data Objects (ADO) para incluir objetos específicos de dados multidimensionais, como os objetos [CubeDef](cubedef-object-ado-md.md) e [Cellset](cellset-object-ado-md.md). Com o ADO MD, você pode procurar esquemas multidimensionais, consultar um cubo e recuperar os resultados.
 

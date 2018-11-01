@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: NumericScale e Precision propriedades exemplo (VB) TOCTitle: NumericScale e Precision propriedades exemplo (VB) === título: exemplo das propriedades NumericScale e Precision (VB) TOCTitle: NumericScale e Exemplo das propriedades Precision (VB)
->>>>>>> ms:assetid de mestre: 728a76a3-1f80-935b-b6c7-94255ffe0160 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15) ms:contentKeyID: ms.date 48545610: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades NumericScale e Precision (VB)
+TOCTitle: NumericScale and Precision properties example (VB)
+ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
+ms:contentKeyID: 48545610
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc1dd570a1b2fbb3b178216e6b1742aaeb682947
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882074"
 ---
-
-<<<<<<< Cabeça
 # <a name="numericscale-and-precision-properties-example-vb"></a>Exemplo das propriedades NumericScale e Precision (VB)
-=======
-# <a name="numericscale-and-precision-properties-example-vb"></a>Exemplo das propriedades NumericScale e Precision (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra as propriedades [NumericScale](numericscale-property-adox.md) e [Precision](precision-property-adox.md) do objeto [Column](column-object-adox.md). Este código exibe seu valor para a tabela **Detalhes do pedido** do banco de dados *Northwind* .
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
 ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37fd4ce04dbd35fccb2356b8088450d07af203d4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4108be7d6c1b2ee66ec5cddf4d26599796bf844c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463175"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870265"
 ---
 # <a name="workspaces-collection-dao"></a>Coleção Workspaces (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma coleção **Workspaces** contém todos os objetos **Workspace** ativos e não-ocultos do objeto **DBEngine**. (Objetos **Workspace** ocultos não são acrescentados à coleção e referenciados pela variável à qual são atribuídos.)
 

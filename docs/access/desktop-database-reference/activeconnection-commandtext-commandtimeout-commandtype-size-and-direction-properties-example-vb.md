@@ -1,16 +1,21 @@
 ---
-<<<<<<< Título cabeça: ActiveConnection, CommandText, CommandTimeout propriedades exemplo (VB) TOCTitle: ms:assetid ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e exemplo de propriedades de direção (VB): dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: ms.date 48548140: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout (VB)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)
+ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
+ms:contentKeyID: 48548140
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 2cbe807dd3488a461c6288b9ec98c92ceb88b11a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871504"
 ---
-
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a>Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction (VB)
 
-=== título: ActiveConnection, CommandText, CommandTimeout exemplo das propriedades (VB) TOCTitle: ms:assetid de exemplo (VB) propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e direção: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: ms.date 48548140: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a>Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e Direction (VB)
->>>>>>> mestre
-
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa as propriedades [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) e [Direction](direction-property-ado.md) para executar um procedimento armazenado.
 

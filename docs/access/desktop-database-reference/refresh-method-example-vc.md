@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250298(v=office.15)
 ms:contentKeyID: 48548906
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8a1be8cc8745f3fcff4186a0f66693dcc668b50
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 361315803452777c83739fc4abf08ef5a6532240
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860634"
+ms.locfileid: "25888129"
 ---
 # <a name="refresh-method-example-vc"></a>Exemplo do método Refresh (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a utilização do método [Refresh](refresh-method-ado.md) para atualizar a coleção [Parameters](parameters-collection-ado.md) para o objeto [Command](command-object-ado.md) de um procedimento armazenado.
 

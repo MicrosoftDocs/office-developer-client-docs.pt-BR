@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Status (VJ + +): exemplo da propriedade Status (VJ + +) === título: exemplo da propriedade Status (VJ + +) TOCTitle: exemplo da propriedade Status (VJ + +)
->>>>>>> ms:assetid de mestre: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: ms.date 48547452: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Status (VJ++)
+TOCTitle: Status property example (VJ++)
+ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
+ms:contentKeyID: 48547452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f903da131d94c72656a2b8d80febb20e01854b49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872225"
 ---
-
-<<<<<<< Cabeça
 # <a name="status-property-example-vj"></a>Exemplo da propriedade Status (VJ++)
-=======
-# <a name="status-property-example-vj"></a>Exemplo da propriedade status (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [Status](status-property-ado-recordset.md) para exibir quais registros foram modificados em uma operação em lote antes da ocorrência de uma atualização em lote.
 

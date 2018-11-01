@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0bde8dfebd4351275ede6e08cbeec7d8e3d710c3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e09676b222e7199b7f2f9f7520ebf3d5436f9a3c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463998"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875130"
 ---
 # <a name="ado-md-objects"></a>Objetos do ADO MD
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 <table>
 <colgroup>
@@ -33,7 +33,7 @@ ms.locfileid: "25463998"
 <td><p>Contém informações de esquema multidimensionais (isto é, cubos e dimensões subjacentes, hierarquias, níveis e membros) específicos de um MDP (provedor de dados multidimensionais).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cell-object-ado-md.md">Célula</a></p></td>
+<td><p><a href="cell-object-ado-md.md">Cell</a></p></td>
 <td><p>Representa os dados na interseção de coordenadas de eixo, contidos em um conjunto de células.</p></td>
 </tr>
 <tr class="even">

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248857(v=office.15)
 ms:contentKeyID: 48543229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f95c38da17ded3cc09c4fd8be0ad30342024093
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54183ddff6cfb3f3648bc367588aa49dc17a13fe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464455"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867752"
 ---
 # <a name="filtering-for-updated-records"></a>Filtrando registros atualizados
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="filtering-for-updated-records"></a>Filtrando registros atualizados
+## <a name="filtering-for-updated-records"></a>Filtragem de registros atualizados
 
 Antes de chamar **UpdateBatch**, você pode usar a propriedade **Filter** de **Recordset** para exibir somente os registros que foram alterados desde a abertura de **Recordset** ou da última chamada de **UpdateBatch**. Para isso, defina **Filter** como **adFilterPendingRecords** para determinar quantos registros serão atualizados, como mostrado abaixo.
 

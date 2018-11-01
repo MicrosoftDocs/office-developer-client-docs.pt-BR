@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03d3b7ac215c8b5328148b33e2e966c4e574c98e
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e564edccf35822b94c84a931ffff5d3092875e4a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863995"
+ms.locfileid: "25879379"
 ---
 # <a name="append-method-ado"></a>Método Append (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 

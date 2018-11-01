@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41534132fd4f199294e317310215d4f6e8ac5426
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f6be229e2dfd0cc8dd25fd217bdd6cb50f65cb32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603263"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872365"
 ---
 # <a name="status-property-ado-field"></a>Propriedade Status (Field do ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o status de um objeto [Field](field-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um valor [FieldStatusEnum](fieldstatusenum.md). O valor padrão é **adFieldOK**.
 

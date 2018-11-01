@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249215(v=office.15)
 ms:contentKeyID: 48544563
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53167d7438ecce673fed64f3c7b8d53fbbfbaa5d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: facad27e4579a28f45d88bfd4e440e420e70d913
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465273"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867934"
 ---
 # <a name="determining-edit-mode"></a>Determinando o modo de edição
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O ADO mantém um buffer de edição associado ao registro atual. A propriedade **EditMode** indica se foram feitas alterações nesse buffer ou se um novo registro foi criado. Use **EditMode** para determinar o status de edição do registro atual. Você pode fazer um teste para saber se há alterações pendentes, caso um processo de edição tenha sido interrompido, e determinar se é necessário usar o método **Update** ou **CancelUpdate**.
 

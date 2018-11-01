@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250071(v=office.15)
 ms:contentKeyID: 48547958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fe6b05fb2cacafdb1844e3a3be9bdffce8a4737
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 97a83a25376dbeb58cf212fdaa3ec8025ab0df46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861222"
+ms.locfileid: "25884328"
 ---
 # <a name="refresh-method-example-vb"></a>Exemplo do método Refresh (VB)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a utilização do método [Refresh](refresh-method-ado.md) para atualizar a coleção [Parameters](parameters-collection-ado.md) para o objeto [Command](command-object-ado.md) de um procedimento armazenado.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1eec2b3da623f983f8e16e41c32b0a219ddd7931
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: a291badb3f0f0ccfd13779613ccc65f2b03c2645
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862147"
+ms.locfileid: "25869152"
 ---
 # <a name="execute-requery-and-clear-methods-example-jscript"></a>Exemplo dos métodos Execute, Requery e Clear (JScript)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra o método **Execute** ao ser executado a partir de um objeto [Command](command-object-ado.md) e de um objeto [Connection](connection-object-ado.md). Ele também utiliza o método [Requery](requery-method-ado.md) para recuperar dados atuais em um [Recordset](recordset-object-ado.md) e o método [Clear](clear-method-ado.md) para limpar o conteúdo da coleção [Errors](errors-collection-ado.md). (A coleção **Errors** é acessada por meio do objeto **Connection** da propriedade [ActiveConnection](activeconnection-property-ado.md) do [Recordset](recordset-object-ado.md).) Nomeie o arquivo como **ExecuteJS.asp**.
 

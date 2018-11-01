@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
 ms:contentKeyID: 48543017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08995df69f49ba2f1f097ec93a7202f821681a3b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8bac777a3a93ad2243b86569261cecc96da53ae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462539"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871539"
 ---
 # <a name="properties-members-dao"></a>Membros Properties (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma coleção Properties contém todos os objetos **[Property](property-object-dao.md)** para uma instância específica de um objeto.
 
@@ -65,7 +65,7 @@ Uma coleção Properties contém todos os objetos **[Property](property-object-d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Count</strong></p></td>
+<td><p><strong>Contagem</strong></p></td>
 <td><p>A descrição deste membro aparecerá na versão final do Office 14.</p></td>
 </tr>
 </tbody>

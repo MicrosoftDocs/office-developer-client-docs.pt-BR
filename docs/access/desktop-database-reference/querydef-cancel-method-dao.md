@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 17e6c98851aa20a6a094223eeabb68fe40e719d5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8e121457f7084b4d13e89c43a30a7632a3cd7377
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462728"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873975"
 ---
 # <a name="querydefcancel-method-dao"></a>Método QueryDef.Cancel (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 

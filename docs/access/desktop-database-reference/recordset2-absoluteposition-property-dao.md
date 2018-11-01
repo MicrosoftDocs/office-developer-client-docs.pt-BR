@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f521daab352e090c52fd7a94bdd28abb0e34291
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5eb8c80743b5fac17f7a3c8d11080863e511eb8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464349"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888598"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Propriedade Recordset2.AbsolutePosition (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna o número de registros relativos de um registro atual do objeto **Recordset2**.
 

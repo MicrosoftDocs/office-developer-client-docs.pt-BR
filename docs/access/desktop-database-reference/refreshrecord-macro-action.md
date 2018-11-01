@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91c49ca4d453418a02d55163a023e853fadd5773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65f972f2ec50212685897d496fd072c7d3f57968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463442"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876019"
 ---
 # <a name="refreshrecord-macro-action"></a>Ação de macro AtualizarRegistro
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **AtualizarRegistro** para atualizar a fonte do registro subjacente do formulário ou da folha de dados ativa para refletir alterações feitas nos registros no conjunto atual.
 

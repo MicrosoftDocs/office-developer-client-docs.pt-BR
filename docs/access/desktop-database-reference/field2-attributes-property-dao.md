@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6742e8b97e3444df38a7c52d048aaa6a2f023cb0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca1e0be9c5957e11c66487e913693bb16644211b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464731"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877153"
 ---
 # <a name="field2attributes-property-dao"></a>Propriedade Field2.Attributes (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Define ou retorna um valor que indica uma ou mais características de um objeto **Field2**. **Long** de leitura/gravação.
@@ -98,19 +98,19 @@ Para um objeto que não está acrescentado a uma coleção, essa propriedade é 
 <td><p>Leitura/gravação até que o objeto <strong>TableDef</strong>, que contém o objeto <strong>Index</strong>, esteja acrescentando ao objeto <strong>Database</strong>; a propriedade é somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>QueryDef</strong></p></td>
+<td><p>Objeto <strong>QueryDef</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>Recordset</strong></p></td>
+<td><p>Objeto <strong>Recordset</strong></p></td>
 <td><p>Somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p>							Objeto <strong>Relation</strong></p></td>
+<td><p>Objeto <strong>Relation</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="odd">
-<td><p>							Objeto <strong>TableDef</strong></p></td>
+<td><p>Objeto <strong>TableDef</strong></p></td>
 <td><p>Leitura/gravação</p></td>
 </tr>
 </tbody>

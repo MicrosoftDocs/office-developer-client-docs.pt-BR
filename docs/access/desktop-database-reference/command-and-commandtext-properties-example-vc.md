@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: Command e CommandText exemplo das propriedades (VC + +) TOCTitle: exemplo das propriedades CommandText (VC + +) e comando === título: exemplo das propriedades Command e CommandText (VC + +) TOCTitle: Command e CommandText exemplo das propriedades (VC + +)
->>>>>>> ms:assetid de mestre: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: ms.date 48546525: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades Command e CommandText (VC++)
+TOCTitle: Command and CommandText properties example (VC++)
+ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
+ms:contentKeyID: 48546525
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0d329fb08604f0b3f9cf9336108696778ff26df0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879246"
 ---
-
-<<<<<<< Cabeça
 # <a name="command-and-commandtext-properties-example-vc"></a>Exemplo das propriedades Command e CommandText (VC++)
-=======
-# <a name="command-and-commandtext-properties-example-vc"></a>Exemplo das propriedades Command e CommandText (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) para atualizar o texto de um procedimento.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6b7255fb97798a8c074dc650cc4c61e17c22dd9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d9202a81617f253477c9788055738eaa64e73322
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863798"
+ms.locfileid: "25880478"
 ---
 # <a name="updating-data"></a>Atualização de dados
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A atualização do comportamento e do recurso depende amplamente do modo Atualização (tipo de bloqueio), tipo de cursor e local do cursor.
 

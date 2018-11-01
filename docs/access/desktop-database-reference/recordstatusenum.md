@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
 ms:contentKeyID: 48544022
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 06c7674734a044bdc242ec7548685a5faf915be2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fbff4e9ac28b1c5831131183203dd0d975bfb525
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860592"
+ms.locfileid: "25868970"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica o status de um registro com relação a atualizações de batch e outras operações em massa.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053582
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fa2e25228d5536e13a4fcff8af329708fd9a90e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ce246b7693bdbb0dedc86dcad44dc6c0f6e15638
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463934"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872981"
 ---
 # <a name="workspacedefaultcursordriver-property-dao"></a>Propriedade Workspace.DefaultCursorDriver (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 ## <a name="syntax"></a>Sintaxe

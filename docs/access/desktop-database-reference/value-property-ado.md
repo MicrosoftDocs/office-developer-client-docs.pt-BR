@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: valor Property (ADO) TOCTitle: valor de propriedade (ADO) === título: valor de propriedade (ADO) TOCTitle: valor de propriedade (ADO)
->>>>>>> ms:assetid de mestre: ff21d122-98e3-2b48-d92f-e696b8079fc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15) ms:contentKeyID: ms.date 48548958: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Value (ADO)
+TOCTitle: Value property (ADO)
+ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
+ms:contentKeyID: 48548958
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 856f145c195c189775355fef662ea082ec629fd0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883936"
 ---
-
-<<<<<<< Cabeça
 # <a name="value-property-ado"></a>Propriedade Value (ADO)
-=======
-# <a name="value-property-ado"></a>Propriedade Value (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o valor atribuído a um objeto [Field](field-object-ado.md), [Parameter](parameter-object-ado.md) ou [Property](property-object-ado.md).
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor **Variant** que indica o valor do objeto. O valor padrão depende da propriedade [Type](type-property-ado.md).
 

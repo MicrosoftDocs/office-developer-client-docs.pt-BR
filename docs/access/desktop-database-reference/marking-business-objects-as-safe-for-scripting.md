@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ac928f7e61cf633aac6963565cf3aae441a2ac6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464770"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878308"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>Marcando os objetos de negócios como seguros para o script
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Para ajudar a assegurar um ambiente seguro de Internet, você precisa marcar todos os objetos de negócios instanciados com o método [CreateObject](dataspace-object-rds.md) do objeto [RDS.DataSpace](createobject-method-rds.md) como "seguro para script". Você precisa se assegurar de que estejam marcados dessa forma na área de Licença no Registro do sistema antes que possam ser utilizados no DCOM.
 

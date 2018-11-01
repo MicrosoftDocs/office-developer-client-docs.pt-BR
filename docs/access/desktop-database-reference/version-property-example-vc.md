@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Version (VC + +): exemplo da propriedade Version (VC + +) === título: exemplo da propriedade Version (VC + +) TOCTitle: exemplo da propriedade Version (VC + +)
->>>>>>> ms:assetid de mestre: deda3998-52cd-0068-7f8c-e58c71802226 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15) ms:contentKeyID: ms.date 48548201: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Version (VC++)
+TOCTitle: Version property example (VC++)
+ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
+ms:contentKeyID: 48548201
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9711382ae0816749accd60f2d00d4f14bbee6553
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882130"
 ---
-
-<<<<<<< Cabeça
 # <a name="version-property-example-vc"></a>Exemplo da propriedade Version (VC++)
-=======
-# <a name="version-property-example-vc"></a>Exemplo da propriedade Version (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [Version](version-property-ado.md) de um objeto [Connection](connection-object-ado.md) para exibir a versão atual do ADO. Ele também utiliza várias propriedades dinâmicas para mostrar:
 

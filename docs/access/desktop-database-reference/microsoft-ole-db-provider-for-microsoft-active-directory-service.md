@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ad3b3163a2169d90072335d5bc827700b99c73f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1555883ef8305225d6ddd1969d98de082288a6b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462855"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887534"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Microsoft OLE DB Provider for Microsoft Active Directory Service
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O provedor ADSI (Interfaces de Serviços do Active Directory) da Microsoft permite que o ADO conecte-se a serviços de diretório heterogêneos por meio de ADSI. Isso fornece aos aplicativos do ADO acesso somente leitura aos serviços de diretório do Microsoft Windows NT 4.0 e Microsoft Windows 2000, além de qualquer serviço de diretório compatível com o LDAP e os Serviços de Diretório da Novell. O ADSI em si é baseado em um modelo de provedor, portanto, se houver um novo provedor fornecendo acesso a outro diretório, o aplicativo do ADO poderá acessá-lo sem qualquer problema. O provedor ADSI é de encadeamento livre e habilitado para unicode.
 
@@ -92,7 +92,7 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 <td><p>Indica o objeto <strong>ADsPath</strong> a partir do qual iniciar a pesquisa (isto é, a raiz para a pesquisa).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Filtrar</em></p></td>
 <td><p>Indica o filtro da pesquisa no formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -187,7 +187,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtrar</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -219,7 +219,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">Estado</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="even">

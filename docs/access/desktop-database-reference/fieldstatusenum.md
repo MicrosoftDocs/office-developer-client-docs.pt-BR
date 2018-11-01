@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 22c5d53427d1380273ea82b3a28ae044e103b179
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 007daa84e15b79d6aa82e4e1e75b1c3d2b0901ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860606"
+ms.locfileid: "25867920"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Especifica o status de um objeto **Field**.
 

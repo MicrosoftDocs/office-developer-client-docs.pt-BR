@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Clustered (VC + +): exemplo da propriedade Clustered (VC + +) === título: exemplo da propriedade Clustered (VC + +) TOCTitle: exemplo da propriedade Clustered (VC + +)
->>>>>>> ms:assetid de mestre: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: ms.date 48546761: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Clustered (VC++)
+TOCTitle: Clustered property example (VC++)
+ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
+ms:contentKeyID: 48546761
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f7a57ee235f2bcf91c75abb99fa044d7e21a6c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874479"
 ---
-
-<<<<<<< Cabeça
 # <a name="clustered-property-example-vc"></a>Exemplo da propriedade Clustered (VC++)
-=======
-# <a name="clustered-property-example-vc"></a>Exemplo da propriedade Clustered (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Clustered](clustered-property-adox.md) de um [índice](index-object-adox.md). Observe que os bancos de dados Microsoft Jet não aceita índices agrupados, portanto, este exemplo retornará **False** para a propriedade **Clustered** de todos os índices no banco de dados *Northwind* .
 

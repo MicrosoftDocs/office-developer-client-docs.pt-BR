@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ee9afcd5367135da2d39fe889d17d089ae6f4c25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d35f4acb97871f9d7499b67817c6c88ae56f441
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462300"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871896"
 ---
 # <a name="recordset2type-property-dao"></a>Propriedade Recordset2.Type (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.
 

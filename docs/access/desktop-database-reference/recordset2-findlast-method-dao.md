@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195400(v=office.15)
 ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41ebfc954d15cfb5410cad344d6f12d3714c575a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2cf726af8a9177a0e01c00bed00cde9f30306a57
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872995"
 ---
 # <a name="recordset2findlast-method-dao"></a>Método Recordset2.FindLast (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Localiza o último registro em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (Apenas Espaços de trabalho do Microsoft Access).
 
@@ -47,7 +47,7 @@ Localiza o último registro em um objeto **[Recordset](recordset-object-dao.md)*
 <tr class="odd">
 <td><p>Criteria</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

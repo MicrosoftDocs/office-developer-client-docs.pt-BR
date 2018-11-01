@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249655(v=office.15)
 ms:contentKeyID: 48546405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 492efdcef5f71daf50ac84eec5e61ef4ed07fd5a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 469480b0735c6cfbc6bf43e54c529f3e40f6818d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463820"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880541"
 ---
 # <a name="using-ado-with-ado-md"></a>Usando o ADO com o ADO MD
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O ADO e o ADO MD são modelos de objeto relacionados, porém, separados. O ADO oferece objetos para conexão a fontes de dados, execução de comandos, recuperação de dados tabulares e metadados de esquema em um formato tabular e exibição de informações de erro do provedor. O ADO MD fornece objetos para recuperação de dados multidimensionais e exibição de metadados de esquemas multidimensionais.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e8da60617e3076d5670218ca3a1cbe6df13ddbb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dbc35b696f74aa0da64ec24ce38c2f8ad8cfab4d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464019"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879085"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2.NoMatch (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica se um registro específico foi encontrado usando o método **[Seek](recordset2-seek-method-dao.md)** ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** (somente em espaços de trabalho do Microsoft Access).
 

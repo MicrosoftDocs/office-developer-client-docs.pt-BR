@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm172454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e18b17c5d00095b61323511c20b95a355819eab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2db34ee9ea56c5fcb4c5aff6afa57c3f59d1f17c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464581"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870328"
 ---
 # <a name="locknavigationpane-macro-action"></a>Ação de macro BloquearPainelDeNavegação
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **BloquearPainelDeNavegação** para impedir que os usuários excluam objetos de banco de dados exibidos no Painel de Navegação.
 

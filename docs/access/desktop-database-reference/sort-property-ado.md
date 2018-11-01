@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: propriedade Sort (ADO) TOCTitle: propriedade Sort (ADO) === título: Classificar propriedade (ADO) TOCTitle: Classificar propriedade (ADO)
->>>>>>> ms:assetid de mestre: f2a39b7f-8b96-cd1a-8248-71f8b867454a ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15) ms:contentKeyID: ms.date 48548652: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Sort (ADO)
+TOCTitle: Sort property (ADO)
+ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
+ms:contentKeyID: 48548652
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ebd515d2812ce453711c2b6519b1875250911d1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886603"
 ---
-
-<<<<<<< Cabeça
 # <a name="sort-property-ado"></a>Propriedade Sort (ADO)
-=======
-# <a name="sort-property-ado"></a>Propriedade Sort (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica um ou mais nomes de campo nos quais o [Recordset](recordset-object-ado.md) é classificado e se cada campo é classificado na ordem crescente ou decrescente.
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor **String** que indica os nomes dos campos do **Recordset** no qual classificá-los. Cada nome é separado por uma vírgula e é, opcionalmente, seguido por um espaço em branco e pela palavra-chave, **ASC**, que classifica o campo na ordem crescente ou **DESC**, que classifica o campo na ordem decrescente. Por padrão, se nenhuma palavra-chave for especificada, o campo será classificado na ordem crescente.
 

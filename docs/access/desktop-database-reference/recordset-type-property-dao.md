@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
 ms:contentKeyID: 48548030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f56af1af04ea2cbd603a2f4a0c71bc8e67e5be51
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bf4d06ad1785c829291fb907585a8784d6b0b75
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461947"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888003"
 ---
 # <a name="recordsettype-property-dao"></a>Propriedade Recordset.Type (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.
 

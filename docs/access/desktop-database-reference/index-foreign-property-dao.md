@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052974
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 410629c3e5ebec47dd8acefd852379ee74568832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9eaf15cda7819ec6b98608cdad052a112229906b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463694"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881556"
 ---
 # <a name="indexforeign-property-dao"></a>Propriedade Index.Foreign (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna um valor que indica se um objeto **[Index](index-object-dao.md)** representa uma chave estrangeira em uma tabela (apenas espaços de trabalho Microsoft Access). .
 

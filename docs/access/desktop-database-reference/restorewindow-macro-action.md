@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1dc6776310b0544b8bb807327612637a5fbcff67
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2e250bb94f77dd8cfc31c667e9562861b549c23c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464924"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875628"
 ---
 # <a name="restorewindow-macro-action"></a>Ação da macro RestaurarJanela
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **RestaurarJanela** para restaurar uma janela maximizada ou minimizada ao seu tamanho anterior.
 

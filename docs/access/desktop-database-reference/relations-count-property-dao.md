@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
 ms:contentKeyID: 48545843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7cb1a798bc9d998799d953aa434c7f577d43bcd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1be0766c1f1a2057e5cb7137d2e9131a2505f75
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463016"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876005"
 ---
 # <a name="relationscount-property-dao"></a>Propriedade Relations.Count (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Retorna o número de objetos na coleção especificada. Somente leitura.
 

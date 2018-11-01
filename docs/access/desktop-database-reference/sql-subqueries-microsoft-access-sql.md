@@ -12,17 +12,17 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 091dc4aa26d653c6e556fc7540e4b65f29d501ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 460d37d2849703829892d5493dd5cc1580930ef8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465223"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880387"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Subconsultas SQL (SQL do Microsoft Access)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma subconsulta é uma instrução [SELECT](select-statement-microsoft-access-sql.md) aninhada dentro de uma instrução SELECT, [SELECT…INTO](select-into-statement-microsoft-access-sql.md), [INSERT…INTO](insert-into-statement-microsoft-access-sql.md), [DELETE](delete-statement-microsoft-access-sql.md) ou [UPDATE](update-statement-microsoft-access-sql.md) ou dentro de outra subconsulta.
 

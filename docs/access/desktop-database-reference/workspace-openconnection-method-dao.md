@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ffa0f2ee4f1b4c1e02f5d8a94e98f9da09c1cc6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 3fb625208e5d47f4107adac5c429257ae58e2eab
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603669"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882172"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Método Workspace.OpenConnection (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -45,7 +45,7 @@ ms.locfileid: "25603669"
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
@@ -70,11 +70,7 @@ ms.locfileid: "25603669"
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Connection
 

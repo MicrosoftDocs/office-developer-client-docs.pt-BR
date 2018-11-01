@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0fe82d2fe434032165a39c95f05d426b8a7342bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861971"
+ms.locfileid: "25874892"
 ---
 # <a name="chapter-5-updating-and-persisting-data"></a>Capítulo 5: Atualização e dados persistentes
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Os capítulos anteriores abordavam como usar o ADO para obter dados em uma fonte de dados, como mover-se nos dados e até mesmo como editá-los. Obviamente, se o objetivo do aplicativo for permitir que os usuários façam alterações nos dados, você precisará entender como salvar essas alterações. Você pode manter as alterações do **Recordset** em um arquivo usando o método **Save** ou enviar as alterações de volta para a fonte de dados para armazenamento, usando os métodos **Update** ou **UpdateBatch**.
 

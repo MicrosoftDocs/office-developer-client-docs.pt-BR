@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5793d2b73e424726e91cf3bbb54b09db59123b92
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e319cea6e33f2f40490d5236746337040bf16dae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463534"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888689"
 ---
 # <a name="recordsetpercentposition-property-dao"></a>Propriedade Recordset.PercentPosition (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna um valor que indica o local aproximado do registro atual no objeto **[Recordset](recordset-object-dao.md)** com base em uma porcentagem de registros no **Recordset**.
 

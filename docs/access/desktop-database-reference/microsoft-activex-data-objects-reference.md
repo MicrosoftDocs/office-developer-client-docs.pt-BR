@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a774dc4ee20e1f97e2b77d8835abb0524881e465
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606756"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871427"
 ---
 # <a name="microsoft-activex-data-objects-reference"></a>Referência do Microsoft ActiveX Data Objects
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="purpose"></a>Finalidade
 
@@ -23,9 +23,7 @@ O Microsoft ActiveX Data Objects (ADO) permite que aplicativos clientes acessem 
 
 ## <a name="rds"></a>RDS
 
-<<<<<<< Cabeça ADO também Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e dos recursos.
-=== ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
->>>>>>> mestre
+ADO também recursos Remote Data Service (RDS), ao qual você pode mover dados de um servidor a um aplicativo cliente ou página da Web, manipular os dados no cliente e retornar as atualizações para o servidor em uma única viagem de ida e.
 
 ## <a name="ado-md"></a>ADO MD
 

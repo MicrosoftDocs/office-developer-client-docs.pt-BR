@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ff4a363f6fbb05af582767f4b664f71f34d23357
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5fd5bea659b3df368f6e352d0ae233b5e066113
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462014"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875592"
 ---
 # <a name="runsql-macro-action"></a>Ação da macro ExecutarSQL
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ExecutarSQL** para executar uma consulta ação Access usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
 
@@ -79,7 +79,7 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Action</strong></p></td>
+<td><p><strong>Ação</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

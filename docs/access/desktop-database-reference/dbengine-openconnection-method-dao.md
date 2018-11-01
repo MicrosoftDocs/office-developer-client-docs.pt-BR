@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3110bd89b0dc56b13a42c7152465c0f9b39e3175
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 959291193b8606ce223e6ad1a20c17895b136a13
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607043"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876789"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -49,7 +49,7 @@ ms.locfileid: "25607043"
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
@@ -74,11 +74,7 @@ ms.locfileid: "25607043"
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Connection
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Título cabeça: propriedade Charset (ADO) TOCTitle: propriedade Charset (ADO) === título: propriedade Charset (ADO) TOCTitle: propriedade Charset (ADO)
->>>>>>> ms:assetid de mestre: 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID: ms.date 48544551: 18/09/2015 mtps_version: v=office.15
+title: Propriedade Charset (ADO)
+TOCTitle: Charset property (ADO)
+ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
+ms:contentKeyID: 48544551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 46d9016e84b507526fa36202169f532e9ee7d738
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887786"
 ---
-
-<<<<<<< Cabeça
 # <a name="charset-property-ado"></a>Propriedade Charset (ADO)
-=======
-# <a name="charset-property-ado"></a>Propriedade charset (ADO)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica o conjunto de caracteres no qual o conteúdo de um texto [Stream](stream-object-ado.md) deve ser traduzido para armazenamento no buffer interno dos objetos Stream.
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define ou retorna um valor **String** que especifica o conjunto de caracteres no qual o conteúdo do **Stream** será traduzido. O valor padrão é "Unicode". Os valores permitidos são sequências típicas passadas pela interface como sequências de conjuntos de caracteres para a Internet (por exemplo, "iso-8859-1", "Windows-1252" etc.). Para obter uma lista das sequências de conjunto de caracteres que é conhecida por um sistema, consulte as subchaves da HKEY\_CLASSES\_raiz\\MIME\\banco de dados\\Charset no registro do Windows.
 

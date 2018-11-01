@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef416e62d17b5b4821b5051ecc59cc6e0dfb5739
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464811"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887163"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Visão geral de esquemas e dados multidimensionais
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>Noções básicas sobre esquemas multidimensionais
 

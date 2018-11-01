@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Count (VJ + +): exemplo da propriedade Count (VJ + +) === título: exemplo da propriedade Count (VJ + +) TOCTitle: exemplo da propriedade Count (VJ + +)
->>>>>>> ms:assetid de mestre: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: ms.date 48545666: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Count (VJ++)
+TOCTitle: Count property example (VJ++)
+ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
+ms:contentKeyID: 48545666
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6ec8469015f0ba53d277dcdd592d3befdc4e0d0b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870244"
 ---
-
-<<<<<<< Cabeça
 # <a name="count-property-example-vj"></a>Exemplo da propriedade Count (VJ++)
-=======
-# <a name="count-property-example-vj"></a>Exemplo da propriedade Count (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções do banco de dados de ***funcionários*** . A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira para enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.
 

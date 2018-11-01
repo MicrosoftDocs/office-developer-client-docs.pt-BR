@@ -1,35 +1,35 @@
 ---
-title: Visão geral da referência do SQL do Access
+title: Visão geral sobre a referência do SQL Access
 TOCTitle: Overview of the Access SQL reference
 ms:assetid: cbe45ec3-0f13-43cb-b18a-90481d89078f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161402(v=office.15)
 ms:contentKeyID: 52074368
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88444bd34a9baba433fd47685db435b332379e4a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fc568e7cf6f277a0928dc9d29913f18785562044
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463929"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872260"
 ---
-# <a name="overview-of-the-access-sql-reference"></a>Visão geral da referência do SQL do Access
+# <a name="overview-of-the-access-sql-reference"></a>Visão geral sobre a referência do SQL Access
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-- [Funções agregadas do SQL](sql-aggregate-functions-sql.md)
+- [Funções de agregação SQL](sql-aggregate-functions-sql.md)
 
 - [Expressões SQL](sql-expressions.md)
 
-- [Palavras reservadas de SQL](sql-reserved-words.md)
+- [Palavras reservadas SQL](sql-reserved-words.md)
 
 - [Tipos de dados SQL](sql-data-types.md)
 
 - [Funções escalares ODBC](odbc-scalar-functions.md)
 
-- [Comparação entre Microsoft Access SQL e ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
+- [Comparação entre o Microsoft Access SQL e o ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
 
-- [Tipos de dados ANSI SQL equivalentes](equivalent-ansi-sql-data-types.md)
+- [Tipo de dados ANSI SQL equivalentes](equivalent-ansi-sql-data-types.md)
 
 - [Usando caracteres curinga em comparações de sequência](using-wildcard-characters-in-string-comparisons.md)
 

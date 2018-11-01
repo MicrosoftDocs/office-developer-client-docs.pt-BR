@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
 ms:contentKeyID: 48545192
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31ab063c46e016207600bf1b3b0a9834b12f7eac
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a012b751164b16ff5bb8f48f5d106ec4befad09e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605405"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870132"
 ---
 # <a name="clustered-property-adox"></a>Propriedade Clustered (ADOX)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Indica se o índice está agrupado.
 
-<<<<<<< Cabeça
-## <a name="settings-and-return-values"></a>Configurações e valor de retorno
-=======
 ## <a name="settings-and-return-values"></a>Configurações e valores de retorno
->>>>>>> mestre
 
 Define e retorna um valor **Boolean**.
 

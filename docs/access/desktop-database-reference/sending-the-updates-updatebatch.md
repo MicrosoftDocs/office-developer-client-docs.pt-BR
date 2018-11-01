@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df52f5bf2dbada1176a76cda3b77dcbc9966b313
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 432c54c16984135bb5492854e2a9e9ac1ca94336
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462705"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883362"
 ---
-# <a name="sending-the-updates-updatebatch"></a>Enviando atualizações: UpdateBatch
+# <a name="sending-the-updates-updatebatch"></a>Envio de atualizações: UpdateBatch
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 ## <a name="sending-the-updates-updatebatch-method"></a>Enviando as atualizações: método UpdateBatch
 

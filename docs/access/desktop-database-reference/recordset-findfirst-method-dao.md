@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b98fcc1ce31bd854d1e74f4f650ba5b453b8f39a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80d642bf408e4234ff38ec70641a5c9b69db0e9a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464911"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887737"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Recordset.FindFirst Method (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Localiza o primeiro registro em um dynaset ou objeto de tipo instantâneo do **Conjunto de registros**, que atende aos critérios específicos e torna esse registro atual (somente para espaços de trabalho do Microsoft Access).
 
@@ -46,7 +46,7 @@ Localiza o primeiro registro em um dynaset ou objeto de tipo instantâneo do **C
 <tr class="odd">
 <td><p>Criteria</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

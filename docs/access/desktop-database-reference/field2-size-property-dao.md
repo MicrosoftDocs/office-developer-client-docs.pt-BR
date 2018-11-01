@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
 ms:contentKeyID: 48548282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffca40d22d77a604e4c0b794a8070fb444d44a32
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3783ed413d57eb3bb9a41fa1880485aa5d3ad281
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464472"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882445"
 ---
 # <a name="field2size-property-dao"></a>Propriedade Field2.Size (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Define ou retorna um valor que indica o tamanho máximo, em bytes, de um objeto **Field2**.
@@ -48,7 +48,7 @@ O uso da propriedade **Size** depende do objeto que contém a coleção **Fields
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Índice</strong></p></td>
 <td><p>Sem suporte</p></td>
 </tr>
 <tr class="even">

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Sort (VJ + +): exemplo da propriedade Sort (VJ + +) === título: exemplo da propriedade Sort (VJ + +) TOCTitle: exemplo da propriedade Sort (VJ + +)
->>>>>>> ms:assetid de mestre: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: ms.date 48543896: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Sort (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872078"
 ---
-
-<<<<<<< Cabeça
 # <a name="sort-property-example-vj"></a>Exemplo da propriedade Sort (VJ++)
-=======
-# <a name="sort-property-example-vj"></a>Exemplo da propriedade Sort (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados ***Pubs***. Uma rotina secundária do utilitário imprimirá cada linha.
 

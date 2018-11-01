@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04964b085d6ece60bbdb30e4561e6e02de76268d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4f3658f3fdefeb87813319e4ed0313fe5c6032cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863931"
+ms.locfileid: "25882263"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configurando o DataFactory para modos Safe ou Unrestricted
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Por padrão, o ADO é instalado com uma configuração [RDSServer.DataFactory](datafactory-object-rdsserver.md) "segura". O modo seguro para os componentes do Servidor RDS indica que o seguinte seja verdadeiro:
 
@@ -30,9 +30,7 @@ Opcionalmente, você pode configurar uma instalação **DataFactory** não restr
 
 O arquivo de registro handsafe.reg foi fornecido para configurar as entradas de registro do manipulador para configuração segura. Para executar no modo seguro, execute o handsafe.reg. O arquivo de registro handunsf.reg foi fornecido para configurar as entradas de registro do manipulador para a configuração irrestrita. Para executar no modo irrestrito, execute handunsf.reg.
 
-<<<<<<< Cabeça após a execução Handsafe ou handunsf.reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor Web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET iniciar W3SVC".
-=== Após a execução Handsafe ou handunsf.reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET iniciar W3SVC".
->>>>>>> mestre
+Após a execução Handsafe ou handunsf.reg, você deve parar e reiniciar o serviço de publicação na World Wide Web no servidor web, digitando os seguintes comandos em uma janela de comando: "NET STOP W3SVC" e "NET iniciar W3SVC".
 
 Para obter mais informações sobre o uso do recurso do manipulador de personalização do RDS, consulte o artigo técnico Usando o recurso do manipulador de personalização no RDS 2.1.
 

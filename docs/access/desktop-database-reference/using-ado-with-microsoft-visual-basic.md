@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e209c00742772d8d3294be4a74772526c3c29c2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 8644bd4f5b1a19848689adf92dca91ba30f324c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861019"
+ms.locfileid: "25889844"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>Usando o ADO com o Microsoft Visual Basic
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A configuração de um projeto ADO e a criação de um código ADO é semelhante quando você usa o Visual Basic ou o Visual Basic for Applications. Este tópico aborda o uso do ADO com o Visual Basic e o Visual Basic for Applications e indica as diferenças.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835325(v=office.15)
 ms:contentKeyID: 48548082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 936e36e7b7de20264e54ed205ddd12b723573b42
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b63fa7186b817ac7b256897a5e61ad95c7ffd035
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606875"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888969"
 ---
 # <a name="recordset2openrecordset-method-dao"></a>Método Recordset2.OpenRecordset (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleção **Recordsets**.
 
@@ -51,7 +51,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 <td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p>Tipo</p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p>
@@ -90,11 +90,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </table>
 
 
-<<<<<<< Cabeça
-### <a name="return-value"></a>Valor retornado
-=======
 ### <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Recordset
 

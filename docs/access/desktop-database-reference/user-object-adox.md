@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
 ms:contentKeyID: 48548426
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab5d92a67737774d817046538200d0ebd4337e74
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0c37e43f09fb4187de246e687d81dbd72463d390
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464004"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889312"
 ---
 # <a name="user-object-adox"></a>Objeto User (ADOX)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Representa uma conta de usuário que tem permissões de acesso em um banco de dados protegido.
 

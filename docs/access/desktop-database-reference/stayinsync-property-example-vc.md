@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade StayInSync (VC + +): exemplo da propriedade StayInSync (VC + +) === título: exemplo da propriedade StayInSync (VC + +) TOCTitle: exemplo da propriedade StayInSync (VC + +)
->>>>>>> ms:assetid de mestre: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: ms.date 48544485: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade StayInSync (VC++)
+TOCTitle: StayInSync property example (VC++)
+ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
+ms:contentKeyID: 48544485
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1c8816e7883cbccb23425ddb057e0c811338b2bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867416"
 ---
-
-<<<<<<< Cabeça
 # <a name="stayinsync-property-example-vc"></a>Exemplo da propriedade StayInSync (VC++)
-=======
-# <a name="stayinsync-property-example-vc"></a>Exemplo da propriedade StayInSync (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra como a propriedade [StayInSync](stayinsync-property-ado.md) facilita o acesso às linhas em um [Recordset](recordset-object-ado.md) hierárquico.
 

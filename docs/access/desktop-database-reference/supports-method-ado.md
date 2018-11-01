@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
 ms:contentKeyID: 48543924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ceeab22cda05738fdcec090acb5b4a2d6fc88a5b
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b94c19e41031b94f75d3dd8bb58f95eab416fb48
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604257"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872589"
 ---
 # <a name="supports-method-ado"></a>Método Supports (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Determina se um objeto [Recordset](recordset-object-ado.md) especificado suporta um tipo de funcionalidade específico.
 
@@ -24,11 +24,7 @@ Determina se um objeto [Recordset](recordset-object-ado.md) especificado suporta
 
 *Boolean* = *recordset*. Suporta (*CursorOptions*)
 
-<<<<<<< Cabeça
-## <a name="return-value"></a>Valor retornado
-=======
 ## <a name="return-value"></a>Valor de retorno
->>>>>>> mestre
 
 Retorna um valor **Boolean** que indica se todos os recursos identificados pelo argumento *CursorOptions* são suportados pelo provedor.
 

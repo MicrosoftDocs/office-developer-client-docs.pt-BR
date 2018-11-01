@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
 ms:contentKeyID: 48546493
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23096391566f9d3f7649ef09839900e9ca009af6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f5eb99d19efb14ae78f3623efaf6dd5b2e3d751
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464481"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878322"
 ---
 # <a name="databases-collection-dao"></a>Coleção Databases (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma coleção **Databases** contém todos os objetos **Database** abertos que foram abertos ou criados em um objeto **Workspace**.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249542(v=office.15)
 ms:contentKeyID: 48545907
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8163f4de9a59b2d27b2de3596669f6572529a5f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: abb5c233dbd178a8a9e44fec15bf5d9bd6b0eaf4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462742"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870643"
 ---
 # <a name="views-collection-adox-reference"></a>Referência de coleção (ADOX) de modos de exibição
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 

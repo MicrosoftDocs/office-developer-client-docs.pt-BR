@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade ActiveConnection catálogo (VC + +): catálogo de exemplo da propriedade ActiveConnection (VC + +) === título: exemplo da propriedade ActiveConnection de catálogo (VC + +) TOCTitle: ActiveConnection de catálogo exemplo da propriedade (VC + +)
->>>>>>> ms:assetid de mestre: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: ms.date 48543246: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade ActiveConnection de Catalog (VC++)
+TOCTitle: Catalog ActiveConnection property example (VC++)
+ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
+ms:contentKeyID: 48543246
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 55faf280d56b90f6033aaba700d3b9fa7a7e2724
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869187"
 ---
-
-<<<<<<< Cabeça
-# <a name="catalog-activeconnection-property-example-vc"></a>Exemplo da propriedade ActiveConnection de catálogo (VC++)
-=======
-# <a name="catalog-activeconnection-property-example-vc"></a>Exemplo da propriedade ActiveConnection catálogo (VC + +)
->>>>>>> mestre
+# <a name="catalog-activeconnection-property-example-vc"></a>Exemplo da propriedade ActiveConnection de Catalog (VC++)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A definição da propriedade [ActiveConnection](activeconnection-property-adox.md) para uma conexão aberta e válida "abre" o catálogo. Em um catálogo aberto, você pode acessar os objetos de esquema contidos nesse catálogo.
 

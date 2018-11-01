@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle exemplo das propriedades nome (VJ + +) e atributos: exemplo Attributes e Name Properties (VJ + +) === título: atributos exemplo das propriedades nome (VJ + +) e TOCTitle: atributos e nome (de exemplo de propriedades VJ++)
->>>>>>> ms:assetid de mestre: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: ms.date 48547035: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades Attributes e Name (VJ++)
+TOCTitle: Attributes and Name properties example (VJ++)
+ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
+ms:contentKeyID: 48547035
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 68690d89e6b747c38647a3c8b49318aa577838fd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878742"
 ---
-
-<<<<<<< Cabeça
 # <a name="attributes-and-name-properties-example-vj"></a>Exemplo das propriedades Attributes e Name (VJ++)
-=======
-# <a name="attributes-and-name-properties-example-vj"></a>Exemplo Attributes e Name properties (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo exibe o valor da propriedade [Attributes](attributes-property-ado.md) para os objetos [Connection](connection-object-ado.md), [Field](field-object-ado.md) e [Property](property-object-ado.md). Ele usa a propriedade [Name](name-property-ado.md) para exibir o nome de cada objeto **Field** e **Property**.
 

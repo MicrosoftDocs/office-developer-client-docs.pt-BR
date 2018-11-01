@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
 ms:contentKeyID: 48548690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a8f324d7216eff2aeeb9045f5c506cdf37170f6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7170a28cb1d3ec9c8cdeca9229c255f264b9422e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863728"
+ms.locfileid: "25883425"
 ---
 # <a name="connection-object-dao"></a>Objeto de Conexão (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 > [!NOTE]
 > [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.

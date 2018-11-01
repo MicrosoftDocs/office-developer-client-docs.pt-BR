@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade IndexNulls (VC + +): exemplo da propriedade IndexNulls (VC + +) === título: exemplo da propriedade IndexNulls (VC + +) TOCTitle: exemplo da propriedade IndexNulls (VC + +)
->>>>>>> ms:assetid de mestre: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15) ms:contentKeyID: ms.date 48543039: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade IndexNulls (VC++)
+TOCTitle: IndexNulls property example (VC++)
+ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
+ms:contentKeyID: 48543039
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f91883349a39a5674459328d5335cc892e0bb79
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877237"
 ---
-
-<<<<<<< Cabeça
 # <a name="indexnulls-property-example-vc"></a>Exemplo da propriedade IndexNulls (VC++)
-=======
-# <a name="indexnulls-property-example-vc"></a>Exemplo da propriedade IndexNulls (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [IndexNulls](indexnulls-property-adox.md) de um objeto [Index](index-object-adox.md). O código cria um novo índice e define o valor de **IndexNulls** com base na entrada do usuário. Em seguida, o **índice** é acrescentada à [tabela](table-object-adox.md) de **funcionários** no [catálogo](catalog-object-adox.md) *Northwind* . O novo **Index** é aplicado a um [Conjunto de registros](recordset-object-ado.md) com base na tabela **Employees**, e o **Recordset** é aberto. Um novo registro é adicionado à tabela **Employees**, com um valor **Null** no campo indexado. A exibição desse novo registro depende da definição da propriedade **IndexNulls**.
 

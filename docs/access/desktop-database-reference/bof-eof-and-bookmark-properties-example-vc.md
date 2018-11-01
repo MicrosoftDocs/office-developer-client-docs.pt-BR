@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: BOF, EOF e Bookmark exemplo das propriedades (VC + +) TOCTitle: BOF, EOF e Bookmark exemplo das propriedades (VC + +) === título: exemplo das propriedades BOF, EOF e Bookmark (VC + +) TOCTitle: propriedades BOF, EOF e Bookmark exemplo (VC + +)
->>>>>>> ms:assetid de mestre: d3cf9ace-07d7-6f92-983c-49c8d4216e20 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15) ms:contentKeyID: ms.date 48547914: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades BOF, EOF e Bookmark (VC++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VC++)
+ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
+ms:contentKeyID: 48547914
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0465c14c8dc95becd7ddf7a28eae9db811d51e32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886981"
 ---
-
-<<<<<<< Cabeça
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>Exemplo das propriedades BOF, EOF e Bookmark (VC++)
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a>Exemplo das propriedades BOF, EOF e Bookmark (VC + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A primeira função neste exemplo usa as propriedades [BOF](bof-eof-properties-ado.md) e [EOF](bof-eof-properties-ado.md) para exibir uma mensagem caso um usuário tente se mover para além do primeiro ou último registro de um [Recordset](recordset-object-ado.md). Ele usa a propriedade [Bookmark](bookmark-property-ado.md) para permitir que o usuário sinalize um registro em um **Recordset** e retorne a ele mais tarde.
 

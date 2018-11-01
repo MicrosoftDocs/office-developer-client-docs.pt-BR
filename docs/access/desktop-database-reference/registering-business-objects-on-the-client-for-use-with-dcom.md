@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250269(v=office.15)
 ms:contentKeyID: 48548818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f3d29d20200b6e435ffafaaa35c7f507b88b939
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a9b106fa88df8205595312aaebdabf82cf12d57c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463589"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887807"
 ---
 # <a name="registering-business-objects-on-the-client-for-use-with-dcom"></a>Registrando objetos de negócios no cliente para uso com o DCOM
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Os objetos de negócios personalizados precisam garantir que o lado clientepode mapear seu nome de programa (ProgId) para um identificador (CLSID) que pode ser usado por DCOM. Por esse motivo, o ProgID do objeto DCOM deve estar no registro do lado cliente e mapeado para o ID de classe do objeto de negócios do lado servidor. Para os outros protocolos com suporte (HTTP, HTTPS e em andamento), isso não é necessário.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9a6a59b6c84e9814aeb9b4709d27955f29fd9e1e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6cb9505eaf4a2002b0a4ae73ce4917ac250cda12
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463630"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876054"
 ---
 # <a name="navigateto-macro-action"></a>Ação de macro NavegarPara
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **NavegarPara** para controlar a exibição de objetos de banco de dados no Painel de Navegação. Por exemplo, é possível alterar a maneira como os objetos de banco de dados são categorizados, além de filtrá-los para que somente alguns sejam exibidos.
 

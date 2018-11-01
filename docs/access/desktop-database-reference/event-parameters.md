@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
 ms:contentKeyID: 48545239
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00258406ec48b6a4d2a3cf2691e7d54776d30fc9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 023109586d13dc25846c8c145746aaf97fc22c15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462051"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888367"
 ---
-# <a name="event-parameters"></a>Parâmetros de evento
+# <a name="event-parameters"></a>Parâmetros de eventos
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Cada manipulador de eventos possui um parâmetro de status que o controla. No caso dos eventos Complete, esse parâmetro também é usado para indicar o êxito ou a falha da operação que gerou o evento. A maioria desses eventos também possui um parâmetro de erro que fornece informações sobre qualquer erro que possa ter ocorrido, bem como um ou mais parâmetros de objeto que fazem referência aos objetos ADO usados para executar a operação. Por exemplo o evento [ExecuteComplete](executecomplete-event-ado.md) inclui parâmetros para os objetos **Command**, **Recordset** e **Connection** associados ao evento. Neste exemplo do Microsoft Visual Basic, você poderá ver os objetos pCommand, pRecordset e pConnection que representam os objetos **Command**, **Recordset** e **Connection** usados pelo método **Execute**.

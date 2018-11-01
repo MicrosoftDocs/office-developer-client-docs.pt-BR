@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9eea9445912b1a784d9926b2c044c4385a17ee69
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885938"
 ---
 # <a name="requery-macro-action"></a>Ação da macro RepetirConsulta
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **RepetirConsulta** para atualizar os dados de um controle especificado no objeto ativo, repetindo a consulta da origem do controle. Se nenhum controle estiver especificado, a ação consultará outra vez a origem do próprio objeto. Use essa ação para verificar se o objeto ativo ou um de seus controles exibe a maioria dos dados atuais.
 

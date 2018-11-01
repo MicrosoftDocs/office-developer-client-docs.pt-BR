@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250124(v=office.15)
 ms:contentKeyID: 48548178
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 479bac0c61718f12af8fcb1b176b91d3fc57841b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 28132ee681d941eda3f7c1a9b072135a2d47b12b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464747"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882830"
 ---
 # <a name="customization-file-logs-section"></a>Seção logs do arquivo de personalização
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A seção **logs** contém uma entrada de arquivo de log que especifica o nome de um arquivo responsável pelo registro de erros durante a operação do **DataFactory**.
 

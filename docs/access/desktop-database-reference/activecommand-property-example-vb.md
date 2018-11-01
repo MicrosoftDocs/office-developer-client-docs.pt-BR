@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo de propriedade ActiveCommand (VB): ms:assetid de exemplo de propriedade ActiveCommand (VB): 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 18/09/2015 mtps_ versão: v=office.15
+title: Exemplo da propriedade ActiveCommand (VB)
+TOCTitle: ActiveCommand property example (VB)
+ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
+ms:contentKeyID: 48545999
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 46338c801bbdf1e4faaef5a3f6ff1c10d28ab544
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869999"
 ---
-
 # <a name="activecommand-property-example-vb"></a>Exemplo da propriedade ActiveCommand (VB)
-=== título: exemplo da propriedade ActiveCommand (VB) TOCTitle: ms:assetid de exemplo (VB) de propriedade ActiveCommand: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: ms.date 48545999: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="activecommand-property-example-vb"></a>Exemplo da propriedade ActiveCommand (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [ActiveCommand](activecommand-property-ado.md).
 

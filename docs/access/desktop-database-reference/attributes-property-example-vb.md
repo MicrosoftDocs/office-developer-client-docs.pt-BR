@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade Attributes (VB) TOCTitle: exemplo de propriedade Attributes (VB) === título: exemplo da propriedade Attributes (VB) TOCTitle: exemplo da propriedade Attributes (VB)
->>>>>>> ms:assetid de mestre: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: ms.date 48547442: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Attributes (VB)
+TOCTitle: Attributes property example (VB)
+ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
+ms:contentKeyID: 48547442
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879253"
 ---
-
-<<<<<<< Cabeça
 # <a name="attributes-property-example-vb"></a>Exemplo da propriedade Attributes (VB)
-=======
-# <a name="attributes-property-example-vb"></a>Exemplo da propriedade Attributes (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Attributes](attributes-property-adox.md) de uma [Coluna](column-object-adox.md). Sua definição como **adColNullable** permite que o usuário defina o valor de um [Conjunto de registros](recordset-object-ado.md)[Field](field-object-ado.md) como uma sequência de caracteres vazia. Nessa situação, o usuário pode distinguir entre um registro em que os dados não são conhecidos e um registro em que os dados não se aplicam.
 

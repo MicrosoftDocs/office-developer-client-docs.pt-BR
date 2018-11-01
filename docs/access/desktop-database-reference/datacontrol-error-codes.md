@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250089(v=office.15)
 ms:contentKeyID: 48548027
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef139e545fafedd67ca788ebfdc8a8ae86c659e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38e9f726b596e9e523b759b639cd6b96055fd1d8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462861"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876348"
 ---
 # <a name="datacontrol-error-codes"></a>Códigos de erro do DataControl
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A tabela abaixo lista os códigos de erro do objeto [RDS.DataControl](datacontrol-object-rds.md), mostrando a conversão decimal positiva dos dois bytes inferiores, a conversão decimal negativa do código de erro completo e os valores hexadecimais.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Source (VJ + +): exemplo da propriedade Source (VJ + +) === título: exemplo da propriedade Source (VJ + +) TOCTitle: exemplo da propriedade Source (VJ + +)
->>>>>>> ms:assetid de mestre: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: ms.date 48547821: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Source (VJ++)
+TOCTitle: Source property example (VJ++)
+ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
+ms:contentKeyID: 48547821
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 032a6804d2976ac6eca1c4fc24cff0555aa949cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875704"
 ---
-
-<<<<<<< Cabeça
 # <a name="source-property-example-vj"></a>Exemplo da propriedade Source (VJ++)
-=======
-# <a name="source-property-example-vj"></a>Exemplo da propriedade Source (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.
 

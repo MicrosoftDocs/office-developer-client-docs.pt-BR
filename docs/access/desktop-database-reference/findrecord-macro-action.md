@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d62c80c18ffd091d71c88fc64c9bd5c60c580101
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60f0b30574bd97572739664ca37c44e69258d544
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465415"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881346"
 ---
 # <a name="findrecord-macro-action"></a>Ação de macro EncontrarRegistro
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **EncontrarRegistro** para localizar a primeira instância de dados que atende aos critérios especificados pelos argumentos **EncontrarRegistro**. Esses dados podem estar no registro atual, em um registro sucessivo ou anterior, ou no primeiro registro. Você pode localizar registros na folha de dados da tabela ativa, na folha de dados de consulta ou no formulário.
 

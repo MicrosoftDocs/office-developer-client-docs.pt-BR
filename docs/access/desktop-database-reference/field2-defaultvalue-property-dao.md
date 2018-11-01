@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cff7a319130786cfdab26546d49f83da5769c5f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a70e5d1c19f4d92c4494071f78192ffb4e543ad7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464204"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882382"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Propriedade Field2.DefaultValue (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Field2** ainda não acrescentado à coleção **[Fields](fields-collection-dao.md)**, essa propriedade é de leitura/gravação (apenas espaços de trabalho do Microsoft Access).

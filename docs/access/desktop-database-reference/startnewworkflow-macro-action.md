@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c4c6d237ef24bea0c8509ac4ae0df00c4f30cec2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6ba9d38caaa85ab9dd582abdbeb37aff5c7b340e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462936"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886491"
 ---
 # <a name="startnewworkflow-macro-action"></a>Ação da macro IniciarNovoFluxoDeTrabalho
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **IniciarNovoFluxoDeTrabalho** para iniciar um novo fluxo de trabalho para um item em uma lista vinculada do Microsoft SharePoint Foundation.
 

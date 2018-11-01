@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 77a8f14cf76e87060d73d0b3a6a6939c292c422e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860991"
+ms.locfileid: "25868053"
 ---
 # <a name="persisting-records-in-xml-format"></a>Registros persistentes no formato XML
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Como no formato ADTG, a manutenção de **Recordset** no formato XML é implementada com o Microsoft OLE DB Persistence Provider. Esse provedor gera um conjunto de linhas somente leitura, somente de encaminhamento a partir de um fluxo ou arquivo XML salvo que contém as informações de esquema geradas pelo ADO. Da mesma maneira, ele pode pegar um **Recordset** do ADO, gerar o XML e salvá-lo em um arquivo ou em qualquer objeto que implemente a interface **IStream** do COM. (Na verdade, um arquivo é apenas outro exemplo de um objeto que oferece suporte ao **IStream**.) Para as versões 2.5 e posteriores, o ADO se baseia no Microsoft XML Parser (MSXML) para carregar o XML no **Recordset**; portanto, o msxml.dll é necessário. Para a versão 2.5, o MSXML foi fornecido com o Internet Explorer 5. Para a versão 2.6, o MSXML foi fornecido com o SQL Server 2000.
 

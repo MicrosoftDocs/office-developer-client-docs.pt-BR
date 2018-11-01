@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e13e907c27fa6f764aae6ee499f0bd2854f9640b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 953e6c030c8ca4155b17603c03921e97fe3748e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462245"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887282"
 ---
 # <a name="the-limits-of-a-recordset"></a>Os limites de um Recordset
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Use as propriedades **BOF** e **EOF** para determinar se um objeto **Recordset** contém registros ou se você ultrapassou os limites de um objeto **Recordset** ao se mover de um registro para outro. Pense nas propriedades **BOF** e **EOF** como registros "fantasmas" que são posicionados no início e no final de cada **Recordset**. Desenvolver o **Recordset** a partir de [Examinando dados](chapter-3-examining-data.md) daria a seguinte aparência ao objeto:
 

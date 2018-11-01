@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3fde13d923a67ca995cdb3e7f59a327e82a9688
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be8cbda9e185b3e0b28717e7216f3ff6bea5238c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464000"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876124"
 ---
 # <a name="requery-method-ado"></a>Método Requery (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 

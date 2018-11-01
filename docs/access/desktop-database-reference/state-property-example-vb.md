@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: TOCTitle de exemplo da propriedade de estado (VB): exemplo de propriedade de estado (VB) === título: exemplo da propriedade estado (VB) TOCTitle: exemplo da propriedade estado (VB)
->>>>>>> ms:assetid de mestre: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: ms.date 48548366: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade State (VB)
+TOCTitle: State property example (VB)
+ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
+ms:contentKeyID: 48548366
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6d4aed1d2cbefaa8a43017b7a8ae216ddc0610d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871266"
 ---
-
-<<<<<<< Cabeça
 # <a name="state-property-example-vb"></a>Exemplo da propriedade State (VB)
-=======
-# <a name="state-property-example-vb"></a>Exemplo da propriedade State (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo utiliza a propriedade [State](state-property-ado.md) para exibir uma mensagem enquanto conexões assíncronas estiverem sendo abertas e comandos assíncronos estiverem sendo executados.
 

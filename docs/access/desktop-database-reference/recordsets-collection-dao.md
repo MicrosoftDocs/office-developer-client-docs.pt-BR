@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
 ms:contentKeyID: 48543756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8779a0a7ff8b298c8773d661deb525ab5aa3c04
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1a32c52f60ed8c7bd68f32ed9986638bffcdec84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464606"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868998"
 ---
 # <a name="recordsets-collection-dao"></a>Coleção Recordsets (DAO)
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Uma coleção **Recordsets** contém todos os objetos **Recordset** abertos em um objeto **Connection** ou **Database**.
 

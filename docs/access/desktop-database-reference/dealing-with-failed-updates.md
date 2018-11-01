@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d3af3026052954ec74b10026e0cf288a6aa5249
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca4d8d2fd8797ffb5ae0861e86dfa02faf7bb62c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462349"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875774"
 ---
 # <a name="dealing-with-failed-updates"></a>Lidando com falhas de atualização
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="dealing-with-failed-updates"></a>Lidando com falhas de atualização
+## <a name="dealing-with-failed-updates"></a>Como lidar com atualizações com falhas
 
 Quando uma atualização é concluída com erros, a maneira como você resolve os erros depende da natureza e da gravidade deles, bem como da lógica do seu aplicativo. Contudo, se o banco de dados for compartilhado com outros usuários, um erro típico seria outra pessoa modificar o campo antes de você. Esse tipo de erro é chamado de *conflito.* O ADO detecta essa situação e relata um erro.
 

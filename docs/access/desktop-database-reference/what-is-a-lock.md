@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52d37d5b618db5e2de698fc4250afde7c4ca5fb5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 48ecb0ca75a7cd8094e55fd82d153b2d941ceeeb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862181"
+ms.locfileid: "25886120"
 ---
 # <a name="what-is-a-lock"></a>O que é um Bloqueio?
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Bloqueio é o processo pelo qual um DBMS restringe o acesso a uma linha em um ambiente com vários usuários. Quando uma linha ou coluna é bloqueada exclusivamente, outros usuários não têm permissão para acessar os dados bloqueados até que o bloqueio seja liberado. Isso garante que dois usuários não possam atualizar a mesma coluna simultaneamente em uma linha.
 

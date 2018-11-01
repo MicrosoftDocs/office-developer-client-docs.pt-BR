@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm196948
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b612d050d6c523ae836b21aa27826ff180e8f977
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 110262c9aee48fc24858150714194953136fa835
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463444"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867269"
 ---
 # <a name="maximizewindow-macro-action"></a>Ação de macro MaximizarJanela
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você pode usar a ação **Maximizarjanela** para aumentar a janela ativa de modo que ele preencha a janela do Access. Esta ação permitirá ver o máximo possível do objeto na janela ativa.
 

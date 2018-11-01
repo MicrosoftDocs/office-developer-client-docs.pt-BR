@@ -6,28 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249497(v=office.15)
 ms:contentKeyID: 48545759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 828ff68f8515239d36c3e6a47f418a41c12fd508
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f67482304d7971f9397ad2550ced601f3c3d6158
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465373"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886666"
 ---
 # <a name="ado-methods-reference"></a>Referência de métodos do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
   - [Métodos ADO](ado-methods.md)
 
   - [Método AddNew (ADO)](addnew-method-ado.md)
 
-  - [Método Append (ADO)](append-method-ado.md)
+  - [Método append (ADO)](append-method-ado.md)
 
   - [Método AppendChunk (ADO)](appendchunk-method-ado.md)
 
-  - [Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
+  - [BeginTrans, CommitTrans e RollbackTrans métodos (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
   - [Método Cancel (ADO)](cancel-method-ado.md)
 
@@ -37,7 +37,7 @@ ms.locfileid: "25465373"
 
   - [Método Clear (ADO)](clear-method-ado.md)
 
-  - [Método Clone (ADO)](clone-method-ado.md)
+  - [Método clone (ADO)](clone-method-ado.md)
 
   - [Método Close (ADO)](close-method-ado.md)
 
@@ -59,7 +59,7 @@ ms.locfileid: "25465373"
 
   - [Método Find (ADO)](find-method-ado.md)
 
-  - [Método Flush (ADO)](flush-method-ado.md)
+  - [Método flush (ADO)](flush-method-ado.md)
 
   - [Método GetChildren (ADO)](getchildren-method-ado.md)
 
@@ -73,7 +73,7 @@ ms.locfileid: "25465373"
 
   - [Método Move (ADO)](move-method-ado.md)
 
-  - [Métodos MoveFirst, MoveLast, MoveNext e MovePrevious (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+  - [Métodos MoveFirst, MoveLast, MoveNext e MovePrevious métodos (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 
   - [Método MoveRecord (ADO)](moverecord-method-ado.md)
 
@@ -109,11 +109,11 @@ ms.locfileid: "25465373"
 
   - [Método SkipLine (ADO)](skipline-method-ado.md)
 
-  - [Método Stat (ADO)](stat-method-ado.md)
+  - [Método stat (ADO)](stat-method-ado.md)
 
   - [Método Supports (ADO)](supports-method-ado.md)
 
-  - [Método Update (ADO)](update-method-ado.md)
+  - [Método de atualização (ADO)](update-method-ado.md)
 
   - [Método UpdateBatch (ADO)](updatebatch-method-ado.md)
 

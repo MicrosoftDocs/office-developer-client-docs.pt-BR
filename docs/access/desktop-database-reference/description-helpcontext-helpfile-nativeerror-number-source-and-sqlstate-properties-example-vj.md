@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: Description, HelpContext, HelpFile exemplo das propriedades (VJ + +) TOCTitle: Description, HelpContext, HelpFile, NativeError, número, fonte e exemplo das propriedades SQLState (VJ + +) === título: descrição, HelpContext, HelpFile exemplo das propriedades (VJ + +) TOCTitle: exemplo das propriedades Description, HelpContext, HelpFile, NativeError, número, Source e SQLState (VJ + +)
->>>>>>> ms:assetid de mestre: daa3ff89-9f7f-f832-479e-bbb51c918ae8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15) ms:contentKeyID: ms.date 48548085: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades Description, HelpContext, HelpFile (VJ + +)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
+ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
+ms:contentKeyID: 48548085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 75ba9554b4c4d6e2da82a0fe13437a3bebea3d07
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880912"
 ---
-
-<<<<<<< Cabeça
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, Number, Source e SQLState (VJ++)
-=======
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, número, Source e SQLState (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo dispara um erro, intercepta-o e exibe as propriedades [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) e [SQLState](sqlstate-property-ado.md) do objeto [Error](error-object-ado.md) resultante.
 

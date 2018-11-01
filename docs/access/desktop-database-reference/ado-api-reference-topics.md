@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249967(v=office.15)
 ms:contentKeyID: 48547622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8caeea740bae09e502e500d5368475d416cf1db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60ba79c800eaf6454ec6dcfa72ea8f68f219246f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465009"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875067"
 ---
 # <a name="ado-api-reference-topics"></a>Tópicos de referência de API do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-  - [Referência ADO API](ado-api-reference.md)
+  - [Referência de API do ADO](ado-api-reference.md)
 
   - [Referência de Interfaces e objetos ADO](ado-objects-and-interfaces-reference.md)
 

@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 242041627a909b1c16d956dbbb94a3bf173d544a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603760"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878931"
 ---
 # <a name="browseto-macro-action"></a>Ação de macro ProcurarEm
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ProcurarEm** para navegar entre objetos no local. Também é possível alterar o objeto de origem em um controle de subformulário, especificando o argumento Caminho para Controle de Subformulário. Use **ProcurarEm** para navegar do formulário1 para o formulário1 sem precisar abrir uma nova janela.
 
@@ -57,11 +57,7 @@ A ação **ProcurarEm** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<<<<<<< Cabeça
-<td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Esse argumento é somente da Web.</p></td>
-=======
 <td><p>Se estiver especificado, define a página do formulário contínuo que se tornará a página atual. Esse argumento será apenas web.</p></td>
->>>>>>>mestre
 </tr>
 <tr class="even">
 <td><p>Modo de Dados</p></td>

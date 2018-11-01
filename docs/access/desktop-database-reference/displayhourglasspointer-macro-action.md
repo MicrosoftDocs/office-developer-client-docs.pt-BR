@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 725bb4530bffe9aeead327caa74cdba0798c181d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4d9f370fdc1ea2100178a489ad1c81225cd05199
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862650"
+ms.locfileid: "25874612"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>Ação de macro ExibirPonteirodeAmpulheta
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ExibirPonteirodeAmpulheta** para alterar o ponteiro do mouse para uma imagem de ampulheta (ou outro ícone escolhido) enquanto uma macro está em execução. Esta ação pode fornecer uma indicação visual de que a macro está em execução. Isso é especialmente útil quando uma ação de macro ou a própria macro leva muito tempo para ser executada.
 

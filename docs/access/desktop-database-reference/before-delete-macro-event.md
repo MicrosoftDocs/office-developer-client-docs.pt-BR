@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7863f8500a81014f3c70b5547fb363c46803f4f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ee4878a742454eb1b02f4b9a45c14ad79097c46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464214"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876257"
 ---
 # <a name="before-delete-macro-event"></a>Evento de macro Antes de Excluir
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O evento **Antes de Excluir** ocorre quando um registro é excluído, mas antes da alteração ser submetida.
 

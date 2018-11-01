@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249562(v=office.15)
 ms:contentKeyID: 48545967
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2b6b4d79262796aa8e9090d673a439a550f042c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3505c2726da3f2f2f01d179c97cde5a1d7b635ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464388"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869894"
 ---
 # <a name="step-2-initialize-the-main-list-box"></a>Etapa 2: Inicializar a caixa de listagem Principal
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="step-2-initialize-the-main-list-box"></a>Etapa 2: Inicializar a caixa de listagem Principal
+## <a name="step-2-initialize-the-main-list-box"></a>Etapa 2: Inicializar a caixa de listagem principal
 
 **Para declarar os objetos Record e Recordset globais**
 

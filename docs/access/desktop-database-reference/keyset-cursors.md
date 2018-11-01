@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bdb03b4a205e1b4954e86368c3af4aa62f773b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 66e6b5ff69d22fa50d9765eb2087c373613bdb7d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25461936"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886939"
 ---
-# <a name="keyset-cursors"></a>Cursores controlados por conjuntos de chaves
+# <a name="keyset-cursors"></a>Cursores de conjuntos de chaves
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O cursor controlado por conjunto de chaves fornece uma funcionalidade entre o cursor estático e o dinâmico com sua capacidade de detectar alterações. Assim como um cursor estático, esse cursor nem sempre detecta as alterações da associação e a ordem do conjunto de resultados. Como o cursor dinâmico, esse cursor detecta os valores das linhas no conjunto de resultados.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6b2766fbdc7976e917b203943b70aae953a5edbc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861565"
+ms.locfileid: "25877587"
 ---
 # <a name="ado-task-table"></a>Tabela de tarefas do ADO
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A tabela a seguir lista tarefas de programação contidas no *Guia do programador do ADO* e fornece referências para cada tarefa. Essas referências podem ser descrições textuais ou exemplos de código nos quais é possível encontrar informações sobre o recurso do ADO que realiza a tarefa.
 

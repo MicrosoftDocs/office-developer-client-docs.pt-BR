@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 930516aa9ffc3c12c6df96dda2cb8cf4a47b5f99
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 166cdc22c7448851605789f04f590ca9fff04758
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863734"
+ms.locfileid: "25873745"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Exemplos de código ADO no Microsoft JScript
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Utilize os seguintes exemplos de código para aprender a utilizar os métodos, propriedades e eventos do ADO ao escrever em JScript.
 
@@ -36,21 +36,6 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
 
 **Propriedades**
 
-<<<<<<< HEAD
-  - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [Exemplo da propriedade ActiveCommand](activecommand-property-example-jscript.md)
-
-  - [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size e Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [Exemplo das propriedades ActualSize e DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
-
-  - [Exemplo das propriedades RecordCount e filtro](filter-and-recordcount-properties-example-jscript.md)
-=======
   - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -64,5 +49,4 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
   - [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
 
   - [Exemplo das propriedades Filter e RecordCount](filter-and-recordcount-properties-example-jscript.md)
->>>>>>> mestre
 

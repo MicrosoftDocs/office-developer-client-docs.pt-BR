@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f978c5e6304e33ac67dfd4a669fe9155afb0b64d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76fe2e0aa90397b32d95172318f3657741e1b1ec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462821"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875018"
 ---
 # <a name="axis-object-ado-md"></a>Objeto Axis (ADO MD)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Representa um eixo de posição ou de filtro de um conjunto de células, contendo membros selecionados de uma ou mais dimensões.
 

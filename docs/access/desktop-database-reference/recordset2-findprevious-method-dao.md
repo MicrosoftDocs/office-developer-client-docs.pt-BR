@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836294(v=office.15)
 ms:contentKeyID: 48548509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f607025463545d31a49ce116a7e9ddf0cb90270
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2495f81cc1d8353daaa0e3b99ee2a9ff8c04f85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463212"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884034"
 ---
 # <a name="recordset2findprevious-method-dao"></a>Método Recordset2.FindPrevious (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (apenas espaços de trabalho do Microsoft Access ).
 
@@ -47,7 +47,7 @@ Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)
 <tr class="odd">
 <td><p>Criteria</p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

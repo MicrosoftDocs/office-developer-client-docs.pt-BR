@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)
 ms:contentKeyID: 48545628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd5b54160bfa6c692bfcd6489646021dcce34631
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: da01d44e1e681a2de41741b11a9c412181c2fd9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463770"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885077"
 ---
 # <a name="adowfc"></a>ADO/WFC
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O ADO for Windows Foundation Classes (ADO/WFC) é criado com base no modelo de evento do ADO e apresenta uma interface de programação de aplicativo simplificada. O ADO/WFC intercepta eventos do ADO, consolida os parâmetros de evento em uma única classe de evento e, em seguida, chama o manipulador de eventos.
 

@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ac8225430d35d18df224dcfe42e59181a76407cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607050"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871532"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
-<<<<<<< Cabeça o Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático de somente leitura para o sistema de arquivos e dados da Web indexados pela Microsoft Indexing Service. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
-=== O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático de somente leitura aos dados de sistema e da web de arquivo indexados pela Microsoft Indexing Service. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
->>>>>>> mestre
+O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático de somente leitura aos dados de sistema e da web de arquivo indexados pela Microsoft Indexing Service. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
 
 O provedor é de encadeamento livre e habilitado para unicode.
 
@@ -175,7 +173,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">Estado</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="even">

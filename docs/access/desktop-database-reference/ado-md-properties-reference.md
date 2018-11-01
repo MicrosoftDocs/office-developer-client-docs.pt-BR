@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248925(v=office.15)
 ms:contentKeyID: 48543441
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0e0ff4a28e6789460a62dcea15a522092a244e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f48aa4b86dec4908c68d341996330deb41e0d82
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464263"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876460"
 ---
 # <a name="ado-md-properties-reference"></a>Referência de propriedades do ADO MD
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
   - [Propriedades do ADO MD](ado-md-properties.md)
@@ -41,7 +41,7 @@ ms.locfileid: "25464263"
 
   - [Propriedade FormattedValue (ADO MD)](formattedvalue-property-ado-md.md)
 
-  - [Propriedade Item (ADO MD Cellset)](item-property-ado-md-cellset.md)
+  - [Propriedade item (ADO MD Cellset)](item-property-ado-md-cellset.md)
 
   - [Propriedade LevelDepth (ADO MD)](leveldepth-property-ado-md.md)
 
@@ -49,9 +49,9 @@ ms.locfileid: "25464263"
 
   - [Propriedade Name (ADO MD)](name-property-ado-md.md)
 
-  - [Propriedade Ordinal (Cell do ADO MD)](ordinal-property-ado-md-cell.md)
+  - [Propriedade ordinal (Cell do ADO MD)](ordinal-property-ado-md-cell.md)
 
-  - [Propriedade Ordinal (Position do ADO MD)](ordinal-property-ado-md-position.md)
+  - [Propriedade ordinal (Position do ADO MD)](ordinal-property-ado-md-position.md)
 
   - [Propriedade Parent (ADO MD)](parent-property-ado-md.md)
 

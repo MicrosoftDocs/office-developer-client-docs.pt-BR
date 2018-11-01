@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade MaxRecords (VB) TOCTitle: exemplo de propriedade MaxRecords (VB) === título: exemplo da propriedade MaxRecords (VB) TOCTitle: exemplo da propriedade MaxRecords (VB)
->>>>>>> ms:assetid de mestre: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: ms.date 48548241: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade MaxRecords (VB)
+TOCTitle: MaxRecords property example (VB)
+ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
+ms:contentKeyID: 48548241
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ad7dc4370419c46a1f4d7a4b2511dd86795c323
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876515"
 ---
-
-<<<<<<< Cabeça
 # <a name="maxrecords-property-example-vb"></a>Exemplo da propriedade MaxRecords (VB)
-=======
-# <a name="maxrecords-property-example-vb"></a>Exemplo da propriedade MaxRecords (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [MaxRecords](maxrecords-property-ado.md) para abrir um [Recordset](recordset-object-ado.md) contendo os 10 títulos mais caros da tabela ***Titles***.
 

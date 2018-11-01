@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7fd97104be4563b0245aac97f37aa1158d0463fa
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ec3a8972f8ca46754971eee7e8aa4a70c367a349
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860410"
+ms.locfileid: "25868326"
 ---
 # <a name="chapter-6-error-handling"></a>Capítulo 6: Tratamento de erros
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O ADO usa vários métodos para notificar um aplicativo sobre os erros ocorridos. Este capítulo aborda os tipos de erros que podem ocorrer quando você usa o ADO e como seu aplicativo é notificado. No final, ele apresenta sugestões sobre como tratar esses erros.
 

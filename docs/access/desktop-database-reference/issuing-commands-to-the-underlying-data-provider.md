@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249716(v=office.15)
 ms:contentKeyID: 48546626
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5083f339860e0b28b43e2ceefeaf2cdd1de4b660
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0379d38b6c38145a72d5ab41b7ee0e7ec45531b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463045"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889074"
 ---
 # <a name="issuing-commands-to-the-underlying-data-provider"></a>Emitindo comandos para o provedor de dados adjacente
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Qualquer comando que não comece com SHAPE passou pelo provedor de dados. Isso equivale à emissão de um comando shape no formulário "SHAPE {provider command}". Execute estes comandos *não* têm que produzir um **Recordset**. Por exemplo, "SHAPE {DROP TABLE MyTable} é um comando shape perfeitamente válido, desde que o provedor de dados ofereça suporte para DROP TABLE.
 

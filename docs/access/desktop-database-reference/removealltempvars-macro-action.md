@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 42217fea05b29fdf127945d1547adbac28346cc9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 49b92f90fb26ea1f7ad5f0878a7479267b35bdaf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463456"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870790"
 ---
 # <a name="removealltempvars-macro-action"></a>Ação de macro RemoverTodasVariáveisTemporárias
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 Você pode usar a ação **RemoverTodasVariáveisTemporárias** para remover todas as variáveis temporárias criadas usando a ação **DefinirVariávelTemporária**.

@@ -10,17 +10,17 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb3ce5e0f9c2f89b31a7b7c74fe8eab807116368
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fd49861af896ae1c2d55a80665f119662c0baf53
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462161"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880394"
 ---
 # <a name="sql-data-types"></a>Tipos de dados SQL
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Os tipos de dados SQL do mecanismo de banco de dados Microsoft Access consistem em 13 tipos de dados principais definidos pelo mecanismo de banco de dados Microsoft® Jet e vários sinônimos válidos, reconhecidos para esses tipos de dados.
 

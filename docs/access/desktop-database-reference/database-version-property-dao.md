@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
 ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bcb360caa71131f4892409805c7afe3ceb2dcce
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8ce28decf2d20c608067a2fa3791d8dce0ce61f8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465304"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876264"
 ---
 # <a name="databaseversion-property-dao"></a>Propriedade Database.Version (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Em um espaço de trabalho do Microsoft Access , retorna a versão do mecanismo de banco de dados do Microsoft Jet ou do Microsoft Access que criou o banco de dados. **String** de somente leitura.
 
@@ -59,7 +59,7 @@ A tabela a seguir mostra qual versão do mecanismo do banco de dados foi incluí
 <td><p>1.0 (1992)</p></td>
 <td><p>1.0</p></td>
 <td><p>N/D</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 <td><p>N/D</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +75,7 @@ A tabela a seguir mostra qual versão do mecanismo do banco de dados foi incluí
 <td><p>2.0 (1994)</p></td>
 <td><p>2.0</p></td>
 <td><p>N/D</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 <td><p>N/D</p></td>
 </tr>
 <tr class="even">

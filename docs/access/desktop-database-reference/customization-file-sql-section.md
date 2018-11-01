@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248776(v=office.15)
 ms:contentKeyID: 48542901
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09be671ba15727e3612ade78c5b54af12b1d1c57
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 391d87d23f50fb2b25e5fb8033da95f44eeeb09c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462309"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868613"
 ---
 # <a name="customization-file-sql-section"></a>Seção SQL do arquivo de personalização
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 A seção **sql** pode conter uma nova sequência de caracteres SQL que substitui a sequência de comando do cliente. Se a seção não tiver nenhuma sequência de caracteres SQL, ela será ignorada.
 

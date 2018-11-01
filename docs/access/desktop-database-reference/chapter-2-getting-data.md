@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 601d18373f5bcd0a9ed6777fa50c2a3ed631594a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860886"
+ms.locfileid: "25888073"
 ---
 # <a name="chapter-2-getting-data"></a>Capítulo 2: Obtenção de dados
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O capítulo anterior apresentou quatro operações principais envolvidas na criação de um aplicativo ADO: obtenção de dados, exame de dados, edição de dados e atualização de dados. Este capítulo se concentrará nos detalhes dos conceitos relevantes à primeira operação: obtenção de dados.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60c0204bd374feaa950d3158873f68127debaf0f
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 09edfd37edb5a0cb237bd94f7f13449690cf18bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862545"
+ms.locfileid: "25868221"
 ---
 # <a name="copyobject-macro-action"></a>Ação de macro CopiarObjeto
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **CopiarObjeto** para copiar o objeto de banco de dados especificado para um banco de dados do Access diferente ou para o mesmo banco de dados ou o projeto do Access com um novo nome. Por exemplo, é possível executar cópia ou backup de um objeto existente em outro banco de dados ou rapidamente criar um objeto semelhante com algumas alterações.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
 ms:contentKeyID: 48544621
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 299fec4a831bbde5d3fd2d58e0f76edb2acea0f8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e4b72bb3e05b4ef05358a80faffaa0ee4ce08a80
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464037"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882396"
 ---
 # <a name="fetchcomplete-event-ado"></a>Evento FetchComplete (ADO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 
 O evento **FetchComplete** é chamado depois de todos os registros em uma operação assíncrona prolongada terem sido recuperados no [Recordset](recordset-object-ado.md).

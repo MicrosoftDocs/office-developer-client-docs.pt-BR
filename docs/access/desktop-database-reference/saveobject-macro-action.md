@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 107b9b97b22f01b1caaf09ae10936abd8484684f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5cbb47c8c4b1ecc4990ca53835f8ae9f7ed4d1b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886568"
 ---
 # <a name="saveobject-macro-action"></a>Ação da macro SalvarObjeto
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especificado ou, se nenhum estiver especificado, o objeto ativo. Em alguns casos, pode também salvar o objeto ativo com um novo nome (tem o mesmo efeito do comando **Salvar como** na **Barra de Ferramentas de Acesso Rápido**).
 

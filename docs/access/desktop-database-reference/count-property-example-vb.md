@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade Count (VB) TOCTitle: exemplo de propriedade Count (VB) === título: exemplo da propriedade Count (VB) TOCTitle: exemplo da propriedade Count (VB)
->>>>>>> ms:assetid de mestre: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: ms.date 48546695: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade Count (VB)
+TOCTitle: Count property example (VB)
+ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
+ms:contentKeyID: 48546695
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c47436a5c701abb9bff29fea718fa7119594cd1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873618"
 ---
-
-<<<<<<< Cabeça
 # <a name="count-property-example-vb"></a>Exemplo da propriedade Count (VB)
-=======
-# <a name="count-property-example-vb"></a>Exemplo da propriedade Count (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções do banco de dados do ***funcionário*** . A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções. Outra maneira para enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.
 

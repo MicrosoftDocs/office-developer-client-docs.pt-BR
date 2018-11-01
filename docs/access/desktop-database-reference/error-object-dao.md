@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 526498ee22bc82735eb3b98e633aa3d1b4cfb610
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f4a42fdf47b736b13cea53122431606224d2f9da
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864099"
+ms.locfileid: "25889557"
 ---
 # <a name="error-object-dao"></a>Objeto Error (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O objeto **Error** contém detalhes sobre os erros de acesso aos dados, que pertencem a uma única operação envolvendo DAO.
 

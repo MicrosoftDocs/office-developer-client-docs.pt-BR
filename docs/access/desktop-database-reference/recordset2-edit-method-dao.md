@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1255bd4aca0660cb6cb7baece5c569baa5bc1371
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f55107988002cf5718eac5eb445529f5c4e3e98
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465117"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867773"
 ---
 # <a name="recordset2edit-method-dao"></a>Método Recordset2.Edit (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Copia o registro atual de um objeto **[Recordset](recordset-object-dao.md)** atualizável para o buffer de cópia para edição subsequente.
 

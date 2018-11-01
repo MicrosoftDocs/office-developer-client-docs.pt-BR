@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a318b3f363d28dedbae177607e381ca2f8104bf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cac6d4d1715599a71c082ebc988d3f07d76da2b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463862"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888046"
 ---
 # <a name="propertyvalue-property-dao"></a>Propriedade Property.Value (DAO)
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Define ou retorna o valor de um objeto. **Variant** de leitura/gravação.
 

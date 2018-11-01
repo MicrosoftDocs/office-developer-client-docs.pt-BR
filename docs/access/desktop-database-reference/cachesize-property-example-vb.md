@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: exemplo de propriedade CacheSize (VB) TOCTitle: exemplo de propriedade CacheSize (VB) === título: exemplo da propriedade CacheSize (VB) TOCTitle: exemplo da propriedade CacheSize (VB)
->>>>>>> ms:assetid de mestre: 558b7718-d32d-45ea-554d-fce0e27d9504 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15) ms:contentKeyID: ms.date 48544934: 18/09/2015 mtps_version: v=office.15
+title: Exemplo da propriedade CacheSize (VB)
+TOCTitle: CacheSize property example (VB)
+ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
+ms:contentKeyID: 48544934
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d39a46edd737317fa4478c546b6e895a0b6d8683
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877226"
 ---
-
-<<<<<<< Cabeça
 # <a name="cachesize-property-example-vb"></a>Exemplo da propriedade CacheSize (VB)
-=======
-# <a name="cachesize-property-example-vb"></a>Exemplo da propriedade CacheSize (VB)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa a propriedade [CacheSize](cachesize-property-ado.md) para mostrar a diferença no desempenho de uma operação realizada com e sem um cache de 30 registros.
 

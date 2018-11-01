@@ -1,30 +1,24 @@
 ---
-<<<<<<< Título cabeça: acessando linhas em uma TOCTitle de Recordset hierárquico: acessando linhas em um Recordset hierárquico de ms:assetid: db59b152-b780-539c-17ef-462e8adfb26e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15) ms:contentKeyID: ms.date 48548104: 09/18 / mtps_version 2015: v=office.15
+title: Acessando as linhas em um Recordset hierárquico
+TOCTitle: Accessing rows in a hierarchical Recordset
+ms:assetid: db59b152-b780-539c-17ef-462e8adfb26e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15)
+ms:contentKeyID: 48548104
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 3041aa1486f9630a36383dde4ad675c50c799339
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870027"
 ---
-
-# <a name="accessing-rows-in-a-hierarchical-recordset"></a>Acessando as linhas em um conjunto de registros hierárquico
-
-=== título: acessando as linhas em um hierárquico Recordset TOCTitle: acessando as linhas em uma ms:assetid de Recordset hierárquico: db59b152-b780-539c-17ef-462e8adfb26e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15) ms:contentKeyID: ms.date 48548104: 10/17/2018 mtps_version: v = Office.15
----
-
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Acessando as linhas em um Recordset hierárquico
->>>>>>> mestre
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 O exemplo a seguir mostra as etapas necessárias para acessar as linhas em um [Recordset](recordset-object-ado.md) hierárquico:
 
-<<<<<<< Cabeça
-1.  Os objetos **Recordset** dos autores e as tabelas do autor de títulos são relacionados pelo ID do autor.
-
-2.  O loop externo exibe o nome e sobrenome de cada autor, o estado e a identificação.
-
-3.  O **Recordset** anexado para cada linha é recuperado da coleção **Fields** e designado ao *rstTitleAuthor*.
-
-4.  O loop interno exibe quatro campos de cada linha no **Recordset** anexado.
-
-<a name="the-stayinsyncstayinsync-property-adomd-property-is-set-to-false-for-purposes-of-illustration--so-you-can-see-the-chapter-change-explicitly-in-each-iteration-of-the-outer-loop-however-the-example-will-be-more-efficient-if-the-assignment-in-step-3-is-moved-before-the-first-line-in-step-2-so-that-the-assignment-is-performed-only-once-then-set-the-stayinsync-property-to-true-so-that-rsttitleauthor-will-implicitly-and-automatically-change-to-the-corresponding-chapter-whenever-rst-moves-to-a-new-row"></a>(A propriedade [StayInSync](stayinsync-property-ado.md) é definida como FALSE para propósitos de ilustração  portanto, você pode consultar a alteração de capítulo explicitamente em cada iteração para o loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Em seguida, defina a propriedade **StayInSync** como TRUE, para que *rstTitleAuthor* automaticamente e implicitamente alterará o capítulo correspondente sempre que *rst* move para uma nova linha.)
-=======
 1. Os objetos **Recordset** dos autores e as tabelas do autor de títulos são relacionados pelo ID do autor.
 
 2. O loop externo exibe o nome e sobrenome de cada autor, o estado e a identificação.
@@ -35,7 +29,6 @@ O exemplo a seguir mostra as etapas necessárias para acessar as linhas em um [R
 
 > [!NOTE] 
 > A propriedade [StayInSync](stayinsync-property-ado.md) é definida como FALSE para fins de ilustração, para que você possa ver o capítulo alterar explicitamente cada iteração do loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Defina a propriedade **StayInSync** como TRUE, para que *rstTitleAuthor* automaticamente e implicitamente alterará o capítulo correspondente sempre que *rst* move para uma nova linha.
->>>>>>> mestre
 
 **Exemplo**
 

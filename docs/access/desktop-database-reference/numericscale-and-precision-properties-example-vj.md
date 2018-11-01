@@ -1,16 +1,22 @@
 ---
-<<<<<<< Título cabeça: NumericScale e Precision exemplo das propriedades (VJ + +) TOCTitle: NumericScale e Precision exemplo das propriedades (VJ + +) === título: exemplo das propriedades NumericScale e Precision (VJ + +) TOCTitle: NumericScale e Exemplo das propriedades Precision (VJ + +)
->>>>>>> ms:assetid de mestre: 9b6fc40c-b740-ede0-d69d-546eb5d40c95 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15) ms:contentKeyID: ms.date 48546574: 18/09/2015 mtps_version: v=office.15
+title: Exemplo das propriedades NumericScale e Precision (VJ++)
+TOCTitle: NumericScale and Precision properties example (VJ++)
+ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15)
+ms:contentKeyID: 48546574
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc77017b4e52c9a0e9ef519f9cfa0a6169b4895f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883215"
 ---
-
-<<<<<<< Cabeça
 # <a name="numericscale-and-precision-properties-example-vj"></a>Exemplo das propriedades NumericScale e Precision (VJ++)
-=======
-# <a name="numericscale-and-precision-properties-example-vj"></a>Exemplo das propriedades NumericScale e Precision (VJ + +)
->>>>>>> mestre
 
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Access 2013, o Office 2013
 
 Este exemplo usa as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md) para exibir a escala numérica e a precisão de campos na tabela ***Discounts*** do banco de dados ***Pubs***.
 
