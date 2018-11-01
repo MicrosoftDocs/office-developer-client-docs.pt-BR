@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249650(v=office.15)
 ms:contentKeyID: 48546393
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9524620278f0def3a1704e7ffad7d7059b735bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a17b52a2b15aee5bae82e86944a0cf6d64d7f2a9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464095"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885112"
 ---
-# <a name="member-object-ado-md-reference"></a><span data-ttu-id="1fd1d-102">Objeto Member (ADO MD referência)</span><span class="sxs-lookup"><span data-stu-id="1fd1d-102">Member Object (ADO MD Reference)</span></span>
+# <a name="member-object-ado-md-reference"></a><span data-ttu-id="a1f5e-102">Objeto Member (ADO MD referência)</span><span class="sxs-lookup"><span data-stu-id="a1f5e-102">Member Object (ADO MD Reference)</span></span>
 
 
-<span data-ttu-id="1fd1d-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fd1d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a1f5e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1f5e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="1fd1d-104">Objeto Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1fd1d-104">Member Object (ADO MD)</span></span>](member-object-ado-md.md)
+  - [<span data-ttu-id="a1f5e-104">Objeto Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a1f5e-104">Member Object (ADO MD)</span></span>](member-object-ado-md.md)
 
-  - [<span data-ttu-id="1fd1d-105">Membro propriedades, métodos e eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1fd1d-105">Member Properties, Methods, and Events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
+  - [<span data-ttu-id="a1f5e-105">Membro propriedades, métodos e eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a1f5e-105">Member Properties, Methods, and Events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
 

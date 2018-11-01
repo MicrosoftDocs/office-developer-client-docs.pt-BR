@@ -6,35 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
 ms:contentKeyID: 52071290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b1567e15798dde4766929995b9702d4928fe91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b7fe71e792da4a8ddbf0082add1431e9d9592c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463692"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882949"
 ---
-# <a name="dbengine-properties-dao"></a><span data-ttu-id="e0101-102">Propriedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-102">DBEngine Properties (DAO)</span></span>
+# <a name="dbengine-properties-dao"></a><span data-ttu-id="ee30a-102">Propriedades DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-102">DBEngine Properties (DAO)</span></span>
 
 
-<span data-ttu-id="e0101-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0101-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ee30a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee30a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="e0101-104">Propriedade DBEngine.DefaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-104">DBEngine.DefaultPassword Property (DAO)</span></span>](dbengine-defaultpassword-property-dao.md)
+  - [<span data-ttu-id="ee30a-104">Propriedade DBEngine.DefaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-104">DBEngine.DefaultPassword Property (DAO)</span></span>](dbengine-defaultpassword-property-dao.md)
 
-  - [<span data-ttu-id="e0101-105">Propriedade DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-105">DBEngine.DefaultType Property (DAO)</span></span>](dbengine-defaulttype-property-dao.md)
+  - [<span data-ttu-id="ee30a-105">Propriedade DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-105">DBEngine.DefaultType Property (DAO)</span></span>](dbengine-defaulttype-property-dao.md)
 
-  - [<span data-ttu-id="e0101-106">Propriedade DBEngine.DefaultUser (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-106">DBEngine.DefaultUser Property (DAO)</span></span>](dbengine-defaultuser-property-dao.md)
+  - [<span data-ttu-id="ee30a-106">Propriedade DBEngine.DefaultUser (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-106">DBEngine.DefaultUser Property (DAO)</span></span>](dbengine-defaultuser-property-dao.md)
 
-  - [<span data-ttu-id="e0101-107">Propriedade DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-107">DBEngine.Errors Property (DAO)</span></span>](dbengine-errors-property-dao.md)
+  - [<span data-ttu-id="ee30a-107">Propriedade DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-107">DBEngine.Errors Property (DAO)</span></span>](dbengine-errors-property-dao.md)
 
-  - [<span data-ttu-id="e0101-108">Propriedade DBEngine.IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-108">DBEngine.IniPath Property (DAO)</span></span>](dbengine-inipath-property-dao.md)
+  - [<span data-ttu-id="ee30a-108">Propriedade DBEngine.IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-108">DBEngine.IniPath Property (DAO)</span></span>](dbengine-inipath-property-dao.md)
 
-  - [<span data-ttu-id="e0101-109">Propriedade LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-109">DBEngine.LoginTimeout Property (DAO)</span></span>](dbengine-logintimeout-property-dao.md)
+  - [<span data-ttu-id="ee30a-109">Propriedade LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-109">DBEngine.LoginTimeout Property (DAO)</span></span>](dbengine-logintimeout-property-dao.md)
 
-  - [<span data-ttu-id="e0101-110">Propriedade DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-110">DBEngine.Version Property (DAO)</span></span>](dbengine-version-property-dao.md)
+  - [<span data-ttu-id="ee30a-110">Propriedade DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-110">DBEngine.Version Property (DAO)</span></span>](dbengine-version-property-dao.md)
 
-  - [<span data-ttu-id="e0101-111">Propriedade DBEngine.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-111">DBEngine.Properties Property (DAO)</span></span>](dbengine-properties-property-dao.md)
+  - [<span data-ttu-id="ee30a-111">Propriedade DBEngine.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-111">DBEngine.Properties Property (DAO)</span></span>](dbengine-properties-property-dao.md)
 
-  - [<span data-ttu-id="e0101-112">Propriedade DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0101-112">DBEngine.Workspaces Property (DAO)</span></span>](dbengine-workspaces-property-dao.md)
+  - [<span data-ttu-id="ee30a-112">Propriedade DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee30a-112">DBEngine.Workspaces Property (DAO)</span></span>](dbengine-workspaces-property-dao.md)
 

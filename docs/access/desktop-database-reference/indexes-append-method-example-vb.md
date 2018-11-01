@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8e546445c6959ab1e9f9d6eb53fd28e02d47b40
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3158cf55291876048fc0e75de5f8b702a275a593
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862146"
+ms.locfileid: "25879750"
 ---
-# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="f465d-102">Exemplo do método Append de índices (VB)</span><span class="sxs-lookup"><span data-stu-id="f465d-102">Indexes Append method example (VB)</span></span>
+# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="8614d-102">Exemplo do método Append de índices (VB)</span><span class="sxs-lookup"><span data-stu-id="8614d-102">Indexes Append method example (VB)</span></span>
 
 
-<span data-ttu-id="f465d-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f465d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8614d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="8614d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f465d-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="f465d-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="8614d-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="8614d-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```vb 
  

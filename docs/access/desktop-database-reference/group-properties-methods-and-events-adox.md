@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
 ms:contentKeyID: 48547526
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4153a5fa07de749a5fb30dffed552f87b69196b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 787d9aa64fbb1e446bad9abdde4dd1d49cac3463
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464164"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886561"
 ---
-# <a name="group-properties-methods-and-events-adox"></a><span data-ttu-id="b68c7-102">Grupo Propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b68c7-102">Group Properties, Methods, and Events (ADOX)</span></span>
+# <a name="group-properties-methods-and-events-adox"></a><span data-ttu-id="f51aa-102">Grupo Propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f51aa-102">Group Properties, Methods, and Events (ADOX)</span></span>
 
 
-<span data-ttu-id="b68c7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b68c7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f51aa-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f51aa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="b68c7-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="b68c7-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="f51aa-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="f51aa-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="b68c7-105">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="b68c7-105">Name Property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="f51aa-105">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="f51aa-105">Name Property</span></span>](name-property-adox.md)
 
-- [<span data-ttu-id="b68c7-106">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="b68c7-106">Properties Collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="f51aa-106">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="f51aa-106">Properties Collection</span></span>](properties-collection-ado.md)
 
-- [<span data-ttu-id="b68c7-107">Coleção Users</span><span class="sxs-lookup"><span data-stu-id="b68c7-107">Users Collection</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="f51aa-107">Coleção Users</span><span class="sxs-lookup"><span data-stu-id="f51aa-107">Users Collection</span></span>](users-collection-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="b68c7-108">Métodos</span><span class="sxs-lookup"><span data-stu-id="b68c7-108">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="f51aa-108">Métodos</span><span class="sxs-lookup"><span data-stu-id="f51aa-108">Methods</span></span>
 
-- [<span data-ttu-id="b68c7-109">Método GetPermissions</span><span class="sxs-lookup"><span data-stu-id="b68c7-109">GetPermissions Method</span></span>](getpermissions-method-adox.md)
+- [<span data-ttu-id="f51aa-109">Método GetPermissions</span><span class="sxs-lookup"><span data-stu-id="f51aa-109">GetPermissions Method</span></span>](getpermissions-method-adox.md)
 
-- [<span data-ttu-id="b68c7-110">Método SetPermissions</span><span class="sxs-lookup"><span data-stu-id="b68c7-110">SetPermissions Method</span></span>](setpermissions-method-adox.md)
+- [<span data-ttu-id="f51aa-110">Método SetPermissions</span><span class="sxs-lookup"><span data-stu-id="f51aa-110">SetPermissions Method</span></span>](setpermissions-method-adox.md)
 
-## <a name="events"></a><span data-ttu-id="b68c7-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="b68c7-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="f51aa-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="f51aa-111">Events</span></span>
 
-<span data-ttu-id="b68c7-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="b68c7-112">None.</span></span>
+<span data-ttu-id="f51aa-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="f51aa-112">None.</span></span>
 

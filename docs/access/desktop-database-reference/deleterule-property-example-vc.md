@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="e9253-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade DeleteRule (VC + +): exemplo da propriedade DeleteRule (VC + +) === título: exemplo da propriedade DeleteRule (VC + +) TOCTitle: exemplo da propriedade DeleteRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="e9253-101"><<<<<<< HEAD title: DeleteRule Property Example (VC++) TOCTitle: DeleteRule Property Example (VC++) ======= title: DeleteRule property example (VC++) TOCTitle: DeleteRule property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="e9253-102">ms:assetid de mestre: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: ms.date 48544164: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="e9253-102">master ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: 48544164 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade DeleteRule (VC++)
+TOCTitle: DeleteRule property example (VC++)
+ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
+ms:contentKeyID: 48544164
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 97e2e1d9a9c801fc7982ec9bdd84e060a03ceccf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875480"
 ---
-
-<span data-ttu-id="e9253-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="e9253-103"><<<<<<< HEAD</span></span>
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="e9253-104">Exemplo da propriedade DeleteRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="e9253-104">DeleteRule Property Example (VC++)</span></span>
-=======
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="e9253-105">Exemplo da propriedade DeleteRule (VC + +)</span><span class="sxs-lookup"><span data-stu-id="e9253-105">DeleteRule property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="e9253-106">mestre</span><span class="sxs-lookup"><span data-stu-id="e9253-106">master</span></span>
+# <a name="deleterule-property-example-vc"></a><span data-ttu-id="cf825-102">Exemplo da propriedade DeleteRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="cf825-102">DeleteRule property example (VC++)</span></span>
 
 
-<span data-ttu-id="e9253-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9253-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cf825-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf825-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e9253-p101">Este exemplo demonstra a propriedade [DeleteRule](deleterule-property-adox.md) de um objeto [Key](key-object-adox.md). O código acrescenta uma nova [Tabela](table-object-adox.md) e, em seguida, define uma nova chave primária, definindo **DeleteRule** como **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="e9253-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="cf825-p101">Este exemplo demonstra a propriedade [DeleteRule](deleterule-property-adox.md) de um objeto [Key](key-object-adox.md). O código acrescenta uma nova [Tabela](table-object-adox.md) e, em seguida, define uma nova chave primária, definindo **DeleteRule** como **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="cf825-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```cpp 
  

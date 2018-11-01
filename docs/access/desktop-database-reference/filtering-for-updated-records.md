@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248857(v=office.15)
 ms:contentKeyID: 48543229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f95c38da17ded3cc09c4fd8be0ad30342024093
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54183ddff6cfb3f3648bc367588aa49dc17a13fe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464455"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867752"
 ---
-# <a name="filtering-for-updated-records"></a><span data-ttu-id="75234-102">Filtrando registros atualizados</span><span class="sxs-lookup"><span data-stu-id="75234-102">Filtering for Updated Records</span></span>
+# <a name="filtering-for-updated-records"></a><span data-ttu-id="a5379-102">Filtrando registros atualizados</span><span class="sxs-lookup"><span data-stu-id="a5379-102">Filtering for Updated Records</span></span>
 
 
-<span data-ttu-id="75234-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="75234-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a5379-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5379-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="filtering-for-updated-records"></a><span data-ttu-id="75234-104">Filtrando registros atualizados</span><span class="sxs-lookup"><span data-stu-id="75234-104">Filtering for Updated Records</span></span>
+## <a name="filtering-for-updated-records"></a><span data-ttu-id="a5379-104">Filtragem de registros atualizados</span><span class="sxs-lookup"><span data-stu-id="a5379-104">Filtering for Updated Records</span></span>
 
-<span data-ttu-id="75234-p101">Antes de chamar **UpdateBatch**, você pode usar a propriedade **Filter** de **Recordset** para exibir somente os registros que foram alterados desde a abertura de **Recordset** ou da última chamada de **UpdateBatch**. Para isso, defina **Filter** como **adFilterPendingRecords** para determinar quantos registros serão atualizados, como mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="75234-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
+<span data-ttu-id="a5379-p101">Antes de chamar **UpdateBatch**, você pode usar a propriedade **Filter** de **Recordset** para exibir somente os registros que foram alterados desde a abertura de **Recordset** ou da última chamada de **UpdateBatch**. Para isso, defina **Filter** como **adFilterPendingRecords** para determinar quantos registros serão atualizados, como mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="a5379-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
 
-<span data-ttu-id="75234-107">Este exemplo amplia o exemplo anterior de **UpdateBatch** filtrando o **Recordset** antes de chamar o **UpdateBatch**, mostrando ao usuário os registros que serão alterados e permitindo que ele cancele a atualização (usando o método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="75234-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
+<span data-ttu-id="a5379-107">Este exemplo amplia o exemplo anterior de **UpdateBatch** filtrando o **Recordset** antes de chamar o **UpdateBatch**, mostrando ao usuário os registros que serão alterados e permitindo que ele cancele a atualização (usando o método **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="a5379-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
 
 ```vb 
  

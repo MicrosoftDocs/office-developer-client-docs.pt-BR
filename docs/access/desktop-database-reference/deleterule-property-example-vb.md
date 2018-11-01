@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="85396-101"><<<<<<< Título cabeça: exemplo de propriedade DeleteRule (VB) TOCTitle: exemplo de propriedade DeleteRule (VB) === título: exemplo da propriedade DeleteRule (VB) TOCTitle: exemplo da propriedade DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="85396-101"><<<<<<< HEAD title: DeleteRule Property Example (VB) TOCTitle: DeleteRule Property Example (VB) ======= title: DeleteRule property example (VB) TOCTitle: DeleteRule property example (VB)</span></span>
->>>>>>> <span data-ttu-id="85396-102">ms:assetid de mestre: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: ms.date 48544142: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="85396-102">master ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: 48544142 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade DeleteRule (VB)
+TOCTitle: DeleteRule property example (VB)
+ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
+ms:contentKeyID: 48544142
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 43177dd707f47106d8be14e174d840b9815f8155
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886127"
 ---
-
-<span data-ttu-id="85396-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="85396-103"><<<<<<< HEAD</span></span>
-# <a name="deleterule-property-example-vb"></a><span data-ttu-id="85396-104">Exemplo da propriedade DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="85396-104">DeleteRule Property Example (VB)</span></span>
-=======
-# <a name="deleterule-property-example-vb"></a><span data-ttu-id="85396-105">Exemplo da propriedade DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="85396-105">DeleteRule property example (VB)</span></span>
->>>>>>> <span data-ttu-id="85396-106">mestre</span><span class="sxs-lookup"><span data-stu-id="85396-106">master</span></span>
+# <a name="deleterule-property-example-vb"></a><span data-ttu-id="6f50b-102">Exemplo da propriedade DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="6f50b-102">DeleteRule property example (VB)</span></span>
 
 
-<span data-ttu-id="85396-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="85396-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6f50b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f50b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="85396-p101">Este exemplo demonstra a propriedade [DeleteRule](deleterule-property-adox.md) de um objeto [Key](key-object-adox.md). O código acrescenta uma nova [Tabela](table-object-adox.md) e, em seguida, define uma nova chave primária, definindo **DeleteRule** como **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="85396-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="6f50b-p101">Este exemplo demonstra a propriedade [DeleteRule](deleterule-property-adox.md) de um objeto [Key](key-object-adox.md). O código acrescenta uma nova [Tabela](table-object-adox.md) e, em seguida, define uma nova chave primária, definindo **DeleteRule** como **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="6f50b-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```vb 
  

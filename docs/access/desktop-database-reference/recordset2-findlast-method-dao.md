@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195400(v=office.15)
 ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41ebfc954d15cfb5410cad344d6f12d3714c575a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2cf726af8a9177a0e01c00bed00cde9f30306a57
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872995"
 ---
-# <a name="recordset2findlast-method-dao"></a><span data-ttu-id="e4b94-102">Método Recordset2.FindLast (DAO)</span><span class="sxs-lookup"><span data-stu-id="e4b94-102">Recordset2.FindLast Method (DAO)</span></span>
+# <a name="recordset2findlast-method-dao"></a><span data-ttu-id="fe7f2-102">Método Recordset2.FindLast (DAO)</span><span class="sxs-lookup"><span data-stu-id="fe7f2-102">Recordset2.FindLast Method (DAO)</span></span>
 
 
-<span data-ttu-id="e4b94-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4b94-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fe7f2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe7f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4b94-104">Localiza o último registro em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (Apenas Espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e4b94-104">Locates the last record in a dynaset- or snapshot-type **[Recordset](recordset-object-dao.md)** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="fe7f2-104">Localiza o último registro em um objeto **[Recordset](recordset-object-dao.md)** tipo dynaset ou instantâneo que atenda a critérios específicos e torne esse registro o registro atual (Apenas Espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="fe7f2-104">Locates the last record in a dynaset- or snapshot-type **[Recordset](recordset-object-dao.md)** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e4b94-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e4b94-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fe7f2-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fe7f2-105">Syntax</span></span>
 
-<span data-ttu-id="e4b94-106">*expressão* . FindLast (***critérios***)</span><span class="sxs-lookup"><span data-stu-id="e4b94-106">*expression* .FindLast(***Criteria***)</span></span>
+<span data-ttu-id="fe7f2-106">*expressão* . FindLast (***critérios***)</span><span class="sxs-lookup"><span data-stu-id="fe7f2-106">*expression* .FindLast(***Criteria***)</span></span>
 
-<span data-ttu-id="e4b94-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="e4b94-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="fe7f2-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="fe7f2-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="e4b94-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="e4b94-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="fe7f2-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,30 +37,30 @@ ms.locfileid: "25463396"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e4b94-109">Nome</span><span class="sxs-lookup"><span data-stu-id="e4b94-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="e4b94-110">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="e4b94-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="e4b94-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="e4b94-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="e4b94-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="e4b94-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-109">Nome</span><span class="sxs-lookup"><span data-stu-id="fe7f2-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-110">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="fe7f2-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="fe7f2-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="fe7f2-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e4b94-113">Criteria</span><span class="sxs-lookup"><span data-stu-id="e4b94-113">Criteria</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e4b94-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="e4b94-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4b94-p101">Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p101">A String used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-113">Criteria</span><span class="sxs-lookup"><span data-stu-id="fe7f2-113">Criteria</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="fe7f2-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-115"><strong>Cadeia de caracteres</strong></span><span class="sxs-lookup"><span data-stu-id="fe7f2-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-p101">Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p101">A String used to locate the record. It is like the WHERE clause in an SQL statement, but without the word WHERE.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="e4b94-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="e4b94-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fe7f2-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="fe7f2-118">Remarks</span></span>
 
-<span data-ttu-id="e4b94-p102">Se desejar incluir todos os registros em sua pesquisa, além dos que atendem às condições específicas, use os métodos **Move** para se mover entre registros. Para localizar um registro em um **Conjunto de registros** de tipo tabela, use o método **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p102">If you want to include all the records in your search — not just those that meet a specific condition — use the **Move** methods to move from record to record. To locate a record in a table-type **Recordset**, use the **Seek** method.</span></span>
+<span data-ttu-id="fe7f2-p102">Se desejar incluir todos os registros em sua pesquisa, além dos que atendem às condições específicas, use os métodos **Move** para se mover entre registros. Para localizar um registro em um **Conjunto de registros** de tipo tabela, use o método **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p102">If you want to include all the records in your search — not just those that meet a specific condition — use the **Move** methods to move from record to record. To locate a record in a table-type **Recordset**, use the **Seek** method.</span></span>
 
-<span data-ttu-id="e4b94-p103">Se a correspondência de critérios do registro não for localizada, o indicador do registro atual será desconhecido e a propriedade **Nenhuma correspondência** será definida como **Verdadeiro**. Se o conjunto de registros incluir mais de um registro que satisfaça os critérios, o **FindFirst** vai localizar a primeira ocorrência, o **FindNext** vai localizar a próxima ocorrência, e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p103">If a record matching the criteria isn't located, the current record pointer is unknown, and the **NoMatch** property is set to **True**. If recordset contains more than one record that satisfies the criteria, **FindFirst** locates the first occurrence, **FindNext** locates the next occurrence, and so on.</span></span>
+<span data-ttu-id="fe7f2-p103">Se a correspondência de critérios do registro não for localizada, o indicador do registro atual será desconhecido e a propriedade **Nenhuma correspondência** será definida como **Verdadeiro**. Se o conjunto de registros incluir mais de um registro que satisfaça os critérios, o **FindFirst** vai localizar a primeira ocorrência, o **FindNext** vai localizar a próxima ocorrência, e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p103">If a record matching the criteria isn't located, the current record pointer is unknown, and the **NoMatch** property is set to **True**. If recordset contains more than one record that satisfies the criteria, **FindFirst** locates the first occurrence, **FindNext** locates the next occurrence, and so on.</span></span>
 
-<span data-ttu-id="e4b94-123">Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direção especificada na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="e4b94-123">Each of the **Find** methods begins its search from the location and in the direction specified in the following table.</span></span>
+<span data-ttu-id="fe7f2-123">Todos os métodos **Find** iniciam suas pesquisas a partir do local e na direção especificada na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-123">Each of the **Find** methods begins its search from the location and in the direction specified in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -70,61 +70,61 @@ ms.locfileid: "25463396"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e4b94-124">Método Find</span><span class="sxs-lookup"><span data-stu-id="e4b94-124">Find method</span></span></p></th>
-<th><p><span data-ttu-id="e4b94-125">Inicia pesquisa em</span><span class="sxs-lookup"><span data-stu-id="e4b94-125">Begins searching at</span></span></p></th>
-<th><p><span data-ttu-id="e4b94-126">Direção da pesquisa</span><span class="sxs-lookup"><span data-stu-id="e4b94-126">Search direction</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-124">Método Find</span><span class="sxs-lookup"><span data-stu-id="fe7f2-124">Find method</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-125">Inicia pesquisa em</span><span class="sxs-lookup"><span data-stu-id="fe7f2-125">Begins searching at</span></span></p></th>
+<th><p><span data-ttu-id="fe7f2-126">Direção da pesquisa</span><span class="sxs-lookup"><span data-stu-id="fe7f2-126">Search direction</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e4b94-127"><strong>FindFirst</strong></span><span class="sxs-lookup"><span data-stu-id="e4b94-127"><strong>FindFirst</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4b94-128">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-128">Beginning of recordset</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-129">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-129">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-127"><strong>FindFirst</strong></span><span class="sxs-lookup"><span data-stu-id="fe7f2-127"><strong>FindFirst</strong></span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-128">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-128">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-129">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-129">End of recordset</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e4b94-130"><strong>FindLast</strong></span><span class="sxs-lookup"><span data-stu-id="e4b94-130"><strong>FindLast</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4b94-131">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-131">End of recordset</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-132">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-132">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-130"><strong>FindLast</strong></span><span class="sxs-lookup"><span data-stu-id="fe7f2-130"><strong>FindLast</strong></span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-131">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-131">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-132">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-132">Beginning of recordset</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e4b94-133"><strong>FindNext</strong></span><span class="sxs-lookup"><span data-stu-id="e4b94-133"><strong>FindNext</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4b94-134">Registro atual</span><span class="sxs-lookup"><span data-stu-id="e4b94-134">Current record</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-135">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-135">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-133"><strong>FindNext</strong></span><span class="sxs-lookup"><span data-stu-id="fe7f2-133"><strong>FindNext</strong></span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-134">Registro atual</span><span class="sxs-lookup"><span data-stu-id="fe7f2-134">Current record</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-135">Fim do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-135">End of recordset</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e4b94-136"><strong>FindPrevious</strong></span><span class="sxs-lookup"><span data-stu-id="e4b94-136"><strong>FindPrevious</strong></span></span></p></td>
-<td><p><span data-ttu-id="e4b94-137">Registro atual</span><span class="sxs-lookup"><span data-stu-id="e4b94-137">Current record</span></span></p></td>
-<td><p><span data-ttu-id="e4b94-138">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="e4b94-138">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-136"><strong>FindPrevious</strong></span><span class="sxs-lookup"><span data-stu-id="fe7f2-136"><strong>FindPrevious</strong></span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-137">Registro atual</span><span class="sxs-lookup"><span data-stu-id="fe7f2-137">Current record</span></span></p></td>
+<td><p><span data-ttu-id="fe7f2-138">Início do conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="fe7f2-138">Beginning of recordset</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e4b94-139">Quando você usa o método **FindLast**, o mecanismo de banco de dados do Microsoft Access preenche totalmente seu **Recordset** antes do início da pesquisa, se isso ainda não aconteceu.</span><span class="sxs-lookup"><span data-stu-id="e4b94-139">When you use the **FindLast** method, the Microsoft Access database engine fully populates your **Recordset** before beginning the search, if this hasn't already happened.</span></span>
+<span data-ttu-id="fe7f2-139">Quando você usa o método **FindLast**, o mecanismo de banco de dados do Microsoft Access preenche totalmente seu **Recordset** antes do início da pesquisa, se isso ainda não aconteceu.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-139">When you use the **FindLast** method, the Microsoft Access database engine fully populates your **Recordset** before beginning the search, if this hasn't already happened.</span></span>
 
-<span data-ttu-id="e4b94-p104">No entanto, utilizar um dos métodos **Find** não é o mesmo que utilizar um método **Move**, que simplesmente torna atual o primeiro, o último, o anterior ou o próximo registro sem especificar uma condição. A operação Find pode ser seguida pela operação Move.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p104">Using one of the **Find** methods isn't the same as using a **Move** method, however, which simply makes the first, last, next, or previous record current without specifying a condition. You can follow a Find operation with a Move operation.</span></span>
+<span data-ttu-id="fe7f2-p104">No entanto, utilizar um dos métodos **Find** não é o mesmo que utilizar um método **Move**, que simplesmente torna atual o primeiro, o último, o anterior ou o próximo registro sem especificar uma condição. A operação Find pode ser seguida pela operação Move.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p104">Using one of the **Find** methods isn't the same as using a **Move** method, however, which simply makes the first, last, next, or previous record current without specifying a condition. You can follow a Find operation with a Move operation.</span></span>
 
-<span data-ttu-id="e4b94-p105">Sempre verifique o valor da propriedade **NoMatch** para determinar se a operação Find foi bem-sucedida. Se a pesquisa for bem-sucedida, **NoMatch** será **False**. Se ela falhar, **NoMatch** será **True**, e o registro atual não será definido. Nesse caso, você deve posicionar o ponteiro atual do registro de volta em um registro válido.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p105">Always check the value of the **NoMatch** property to determine whether the Find operation has succeeded. If the search succeeds, **NoMatch** is **False**. If it fails, **NoMatch** is **True** and the current record isn't defined. In this case, you must position the current record pointer back to a valid record.</span></span>
+<span data-ttu-id="fe7f2-p105">Sempre verifique o valor da propriedade **NoMatch** para determinar se a operação Find foi bem-sucedida. Se a pesquisa for bem-sucedida, **NoMatch** será **False**. Se ela falhar, **NoMatch** será **True**, e o registro atual não será definido. Nesse caso, você deve posicionar o ponteiro atual do registro de volta em um registro válido.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p105">Always check the value of the **NoMatch** property to determine whether the Find operation has succeeded. If the search succeeds, **NoMatch** is **False**. If it fails, **NoMatch** is **True** and the current record isn't defined. In this case, you must position the current record pointer back to a valid record.</span></span>
 
-<span data-ttu-id="e4b94-p106">Utilizar o método **Find** com os conjuntos de registros com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access pode não ser eficaz. Você poderá constatar que reformular os critérios para localizar um registro específico seja mais rápido, especialmente quando se trabalha com grandes conjuntos de registros.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p106">Using the **Find** methods with Microsoft Access database engine-connected ODBC-accessed recordsets can be inefficient. You may find that rephrasing your criteria to locate a specific record is faster, especially when working with large recordsets.</span></span>
+<span data-ttu-id="fe7f2-p106">Utilizar o método **Find** com os conjuntos de registros com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access pode não ser eficaz. Você poderá constatar que reformular os critérios para localizar um registro específico seja mais rápido, especialmente quando se trabalha com grandes conjuntos de registros.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p106">Using the **Find** methods with Microsoft Access database engine-connected ODBC-accessed recordsets can be inefficient. You may find that rephrasing your criteria to locate a specific record is faster, especially when working with large recordsets.</span></span>
 
-<span data-ttu-id="e4b94-p107">Ao trabalhar com os bancos de dados com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access e por grande objetos tipo dynaset do **Conjunto de registros**, você poderá descobrir que usar os métodos **Find** ou as propriedades **Classificar** ou **Filtrar** é mais lento. Para melhorar o desempenho, use as consultas SQL cláusulas ORDER BY ou WHERE, consultas de parâmetro ou objetos **QueryDef** personalizados, que recuperam registros específicos indexados.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p107">When working with Microsoft Access database engine-connected ODBC databases and large dynaset-type **Recordset** objects, you might discover that using the **Find** methods or using the **Sort** or **Filter** property is slow. To improve performance, use SQL queries with customized ORDER BY or WHERE clauses, parameter queries, or **QueryDef** objects that retrieve specific indexed records.</span></span>
+<span data-ttu-id="fe7f2-p107">Ao trabalhar com os bancos de dados com acesso ODBC conectados por mecanismo do banco de dados do Microsoft Access e por grande objetos tipo dynaset do **Conjunto de registros**, você poderá descobrir que usar os métodos **Find** ou as propriedades **Classificar** ou **Filtrar** é mais lento. Para melhorar o desempenho, use as consultas SQL cláusulas ORDER BY ou WHERE, consultas de parâmetro ou objetos **QueryDef** personalizados, que recuperam registros específicos indexados.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p107">When working with Microsoft Access database engine-connected ODBC databases and large dynaset-type **Recordset** objects, you might discover that using the **Find** methods or using the **Sort** or **Filter** property is slow. To improve performance, use SQL queries with customized ORDER BY or WHERE clauses, parameter queries, or **QueryDef** objects that retrieve specific indexed records.</span></span>
 
-<span data-ttu-id="e4b94-p108">Você deve usar o formato de data americano (mês-dia-ano) ao pesquisar campos contendo datas, mesmo que não esteja utilizando uma versão em inglês do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados não poderão ser localizado. Use a função **Format** do Visual Basic para converter a data. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="e4b94-p108">You should use the U.S. date format (month-day-year) when you search for fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine; otherwise, the data may not be found. Use the Visual Basic **Format** function to convert the date. For example:</span></span>
+<span data-ttu-id="fe7f2-p108">Você deve usar o formato de data americano (mês-dia-ano) ao pesquisar campos contendo datas, mesmo que não esteja utilizando uma versão em inglês do mecanismo de banco de dados do Microsoft Access; caso contrário, os dados não poderão ser localizado. Use a função **Format** do Visual Basic para converter a data. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p108">You should use the U.S. date format (month-day-year) when you search for fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine; otherwise, the data may not be found. Use the Visual Basic **Format** function to convert the date. For example:</span></span>
 
 ```vb
 rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-<span data-ttu-id="e4b94-153">Se os critérios é composta por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço \> " & lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar Chame o método.</span><span class="sxs-lookup"><span data-stu-id="e4b94-153">If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method.</span></span> <span data-ttu-id="e4b94-154">Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.</span><span class="sxs-lookup"><span data-stu-id="e4b94-154">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</span></span>
+<span data-ttu-id="fe7f2-153">Se os critérios é composta por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço \> " & lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar Chame o método.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-153">If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method.</span></span> <span data-ttu-id="fe7f2-154">Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-154">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="e4b94-155">Para melhor desempenho, os <EM>critérios</EM> devem estar em um formato "<EM>campo</EM> = <EM>valor</EM>" onde o <EM>campo</EM> é um campo indexado na tabela base ou "<EM>campo</EM> como <EM>prefixo</EM>" onde o <EM>campo</EM> é um campo indexado na tabela base e <EM>prefixo</EM> é uma cadeia de caracteres de pesquisa do prefixo (por exemplo, "ART \*").</span><span class="sxs-lookup"><span data-stu-id="e4b94-155">For best performance, the <EM>criteria</EM> should be in either the form "<EM>field</EM> = <EM>value</EM>" where <EM>field</EM> is an indexed field in the underlying base table, or "<EM>field</EM> LIKE <EM>prefix</EM>" where <EM>field</EM> is an indexed field in the underlying base table and <EM>prefix</EM> is a prefix search string (for example, "ART\*" ).</span></span></P>
+> <P><span data-ttu-id="fe7f2-155">Para melhor desempenho, os <EM>critérios</EM> devem estar em um formato "<EM>campo</EM> = <EM>valor</EM>" onde o <EM>campo</EM> é um campo indexado na tabela base ou "<EM>campo</EM> como <EM>prefixo</EM>" onde o <EM>campo</EM> é um campo indexado na tabela base e <EM>prefixo</EM> é uma cadeia de caracteres de pesquisa do prefixo (por exemplo, "ART \*").</span><span class="sxs-lookup"><span data-stu-id="fe7f2-155">For best performance, the <EM>criteria</EM> should be in either the form "<EM>field</EM> = <EM>value</EM>" where <EM>field</EM> is an indexed field in the underlying base table, or "<EM>field</EM> LIKE <EM>prefix</EM>" where <EM>field</EM> is an indexed field in the underlying base table and <EM>prefix</EM> is a prefix search string (for example, "ART\*" ).</span></span></P>
 > <LI>
-> <P><span data-ttu-id="e4b94-p110">Em geral, para tipos equivalentes de pesquisa, o método <STRONG>Seek</STRONG> fornece melhor desempenho que os métodos <STRONG>Find</STRONG>. Isso significa que os objetos <STRONG>Recordset</STRONG> tipo tabela sozinhos podem atender às suas necessidades.</span><span class="sxs-lookup"><span data-stu-id="e4b94-p110">In general, for equivalent types of searches, the <STRONG>Seek</STRONG> method provides better performance than the <STRONG>Find</STRONG> methods. This assumes that table-type <STRONG>Recordset</STRONG> objects alone can satisfy your needs.</span></span></P></LI></UL>
+> <P><span data-ttu-id="fe7f2-p110">Em geral, para tipos equivalentes de pesquisa, o método <STRONG>Seek</STRONG> fornece melhor desempenho que os métodos <STRONG>Find</STRONG>. Isso significa que os objetos <STRONG>Recordset</STRONG> tipo tabela sozinhos podem atender às suas necessidades.</span><span class="sxs-lookup"><span data-stu-id="fe7f2-p110">In general, for equivalent types of searches, the <STRONG>Seek</STRONG> method provides better performance than the <STRONG>Find</STRONG> methods. This assumes that table-type <STRONG>Recordset</STRONG> objects alone can satisfy your needs.</span></span></P></LI></UL>
 
 

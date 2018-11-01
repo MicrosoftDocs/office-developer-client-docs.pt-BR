@@ -10,29 +10,29 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ee9afcd5367135da2d39fe889d17d089ae6f4c25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d35f4acb97871f9d7499b67817c6c88ae56f441
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462300"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871896"
 ---
-# <a name="recordset2type-property-dao"></a><span data-ttu-id="4511f-102">Propriedade Recordset2.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="4511f-102">Recordset2.Type Property (DAO)</span></span>
+# <a name="recordset2type-property-dao"></a><span data-ttu-id="2288c-102">Propriedade Recordset2.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="2288c-102">Recordset2.Type Property (DAO)</span></span>
 
 
-<span data-ttu-id="4511f-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4511f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2288c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="2288c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4511f-p101">Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="4511f-p101">Sets or returns a value that indicates the operational type or data type of an object. Read-only **Integer**.</span></span>
+<span data-ttu-id="2288c-p101">Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="2288c-p101">Sets or returns a value that indicates the operational type or data type of an object. Read-only **Integer**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4511f-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4511f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2288c-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="2288c-106">Syntax</span></span>
 
-<span data-ttu-id="4511f-107">*expressão* . Tipo</span><span class="sxs-lookup"><span data-stu-id="4511f-107">*expression* .Type</span></span>
+<span data-ttu-id="2288c-107">*expressão* . Tipo</span><span class="sxs-lookup"><span data-stu-id="2288c-107">*expression* .Type</span></span>
 
-<span data-ttu-id="4511f-108">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="4511f-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="2288c-108">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="2288c-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4511f-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="4511f-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2288c-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="2288c-109">Remarks</span></span>
 
-<span data-ttu-id="4511f-110">Para um objeto **Recordset**, as configurações e os valores de retorno possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="4511f-110">For a **Recordset** object, the possible settings and return values are as follows.</span></span>
+<span data-ttu-id="2288c-110">Para um objeto **Recordset**, as configurações e os valores de retorno possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="2288c-110">For a **Recordset** object, the possible settings and return values are as follows.</span></span>
 
 <table>
 <colgroup>
@@ -41,36 +41,36 @@ ms.locfileid: "25462300"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4511f-111">Constante</span><span class="sxs-lookup"><span data-stu-id="4511f-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="4511f-112">Tipo de Recordset</span><span class="sxs-lookup"><span data-stu-id="4511f-112">Recordset type</span></span></p></th>
+<th><p><span data-ttu-id="2288c-111">Constante</span><span class="sxs-lookup"><span data-stu-id="2288c-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2288c-112">Tipo de Recordset</span><span class="sxs-lookup"><span data-stu-id="2288c-112">Recordset type</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4511f-113"><strong>dbOpenTable</strong></span><span class="sxs-lookup"><span data-stu-id="4511f-113"><strong>dbOpenTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="4511f-114">Tabela (somente em espaços de trabalho do Microsoft Access)</span><span class="sxs-lookup"><span data-stu-id="4511f-114">Table (Microsoft Access workspaces only)</span></span></p></td>
+<td><p><span data-ttu-id="2288c-113"><strong>dbOpenTable</strong></span><span class="sxs-lookup"><span data-stu-id="2288c-113"><strong>dbOpenTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="2288c-114">Tabela (somente em espaços de trabalho do Microsoft Access)</span><span class="sxs-lookup"><span data-stu-id="2288c-114">Table (Microsoft Access workspaces only)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4511f-115"><strong>dbOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="4511f-115"><strong>dbOpenDynamic</strong></span></span></p></td>
-<td><p><span data-ttu-id="4511f-116">Dinâmico (somente em espaços de trabalho ODBCDirect)</span><span class="sxs-lookup"><span data-stu-id="4511f-116">Dynamic (ODBCDirect workspaces only)</span></span></p>
+<td><p><span data-ttu-id="2288c-115"><strong>dbOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="2288c-115"><strong>dbOpenDynamic</strong></span></span></p></td>
+<td><p><span data-ttu-id="2288c-116">Dinâmico (somente em espaços de trabalho ODBCDirect)</span><span class="sxs-lookup"><span data-stu-id="2288c-116">Dynamic (ODBCDirect workspaces only)</span></span></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="4511f-p102">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4511f-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="2288c-p102">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="2288c-p102">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4511f-119"><strong>dbOpenDynaset</strong></span><span class="sxs-lookup"><span data-stu-id="4511f-119"><strong>dbOpenDynaset</strong></span></span></p></td>
-<td><p><span data-ttu-id="4511f-120">Dynaset</span><span class="sxs-lookup"><span data-stu-id="4511f-120">Dynaset</span></span></p></td>
+<td><p><span data-ttu-id="2288c-119"><strong>dbOpenDynaset</strong></span><span class="sxs-lookup"><span data-stu-id="2288c-119"><strong>dbOpenDynaset</strong></span></span></p></td>
+<td><p><span data-ttu-id="2288c-120">Dynaset</span><span class="sxs-lookup"><span data-stu-id="2288c-120">Dynaset</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4511f-121"><strong>dbOpenSnapshot</strong></span><span class="sxs-lookup"><span data-stu-id="4511f-121"><strong>dbOpenSnapshot</strong></span></span></p></td>
-<td><p><span data-ttu-id="4511f-122">Instantâneo</span><span class="sxs-lookup"><span data-stu-id="4511f-122">Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="2288c-121"><strong>dbOpenSnapshot</strong></span><span class="sxs-lookup"><span data-stu-id="2288c-121"><strong>dbOpenSnapshot</strong></span></span></p></td>
+<td><p><span data-ttu-id="2288c-122">Instantâneo</span><span class="sxs-lookup"><span data-stu-id="2288c-122">Snapshot</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4511f-123"><strong>dbOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="4511f-123"><strong>dbOpenForwardOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="4511f-124">Somente de Encaminhamento</span><span class="sxs-lookup"><span data-stu-id="4511f-124">Forward-only</span></span></p></td>
+<td><p><span data-ttu-id="2288c-123"><strong>dbOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="2288c-123"><strong>dbOpenForwardOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="2288c-124">Somente de Encaminhamento</span><span class="sxs-lookup"><span data-stu-id="2288c-124">Forward-only</span></span></p></td>
 </tr>
 </tbody>
 </table>

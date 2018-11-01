@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="67ea1-101"><<<<<<< Título cabeça: IsolationLevel e exemplo de propriedades de modo (VB) TOCTitle: IsolationLevel e Mode Properties exemplo (VB) === título: exemplo das propriedades IsolationLevel e Mode (VB) TOCTitle: IsolationLevel e Mode exemplo das propriedades (VB)</span><span class="sxs-lookup"><span data-stu-id="67ea1-101"><<<<<<< HEAD title: IsolationLevel and Mode Properties Example (VB) TOCTitle: IsolationLevel and Mode Properties Example (VB) ======= title: IsolationLevel and Mode properties example (VB) TOCTitle: IsolationLevel and Mode properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="67ea1-102">ms:assetid de mestre: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID: ms.date 48546999: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="67ea1-102">master ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID: 48546999 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo das propriedades IsolationLevel e Mode (VB)
+TOCTitle: IsolationLevel and Mode properties example (VB)
+ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
+ms:contentKeyID: 48546999
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bda6536d76e488c4ede8aff20610bf3eca84210a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877713"
 ---
-
-<span data-ttu-id="67ea1-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="67ea1-103"><<<<<<< HEAD</span></span>
-# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="67ea1-104">Exemplo das propriedades IsolationLevel e Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="67ea1-104">IsolationLevel and Mode Properties Example (VB)</span></span>
-=======
-# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="67ea1-105">Exemplo das propriedades IsolationLevel e Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="67ea1-105">IsolationLevel and Mode properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="67ea1-106">mestre</span><span class="sxs-lookup"><span data-stu-id="67ea1-106">master</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="6eb88-102">Exemplo das propriedades IsolationLevel e Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="6eb88-102">IsolationLevel and Mode properties example (VB)</span></span>
 
 
-<span data-ttu-id="67ea1-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="67ea1-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6eb88-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6eb88-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="67ea1-108">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="67ea1-108">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="6eb88-104">Este exemplo usa a propriedade [Mode](mode-property-ado.md) para abrir uma conexão exclusiva e a propriedade [IsolationLevel](isolationlevel-property-ado.md) para abrir uma transação conduzida isoladamente de outras transações.</span><span class="sxs-lookup"><span data-stu-id="6eb88-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```vb 
  

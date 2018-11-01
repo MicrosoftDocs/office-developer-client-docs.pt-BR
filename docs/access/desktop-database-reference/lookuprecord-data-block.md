@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd0db6e818ab79fc124760509d07d60b954d49e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3bd9a687d7f74b99dc20ee079f970c37ba627f31
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464047"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877685"
 ---
-# <a name="lookuprecord-data-block"></a><span data-ttu-id="e0e6d-102">Bloco de dados PesquisarRegistro</span><span class="sxs-lookup"><span data-stu-id="e0e6d-102">LookupRecord Data Block</span></span>
+# <a name="lookuprecord-data-block"></a><span data-ttu-id="669e7-102">Bloco de dados PesquisarRegistro</span><span class="sxs-lookup"><span data-stu-id="669e7-102">LookupRecord Data Block</span></span>
 
-<span data-ttu-id="e0e6d-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0e6d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="669e7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="669e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e0e6d-104">Um bloco de dados **PesquisarRegistro** executa um conjunto de ações em um registro específico.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-104">A **LookupRecord** data block performs a set of actions on a specific record.</span></span>
+<span data-ttu-id="669e7-104">Um bloco de dados **PesquisarRegistro** executa um conjunto de ações em um registro específico.</span><span class="sxs-lookup"><span data-stu-id="669e7-104">A **LookupRecord** data block performs a set of actions on a specific record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e0e6d-105">[!OBSERVAçãO] O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-105">The **LookupRecord** data block is available only in Data Macros.</span></span>
+> <span data-ttu-id="669e7-105">[!OBSERVAçãO] O bloco de dados **PesquisarRegistro** está disponível somente em Macros de Dados.</span><span class="sxs-lookup"><span data-stu-id="669e7-105">The **LookupRecord** data block is available only in Data Macros.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="e0e6d-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="e0e6d-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="669e7-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="669e7-106">Setting</span></span>
 
-<span data-ttu-id="e0e6d-107">A ação **PesquisarRegistro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-107">The **SetField** action has the following arguments.</span></span>
+<span data-ttu-id="669e7-107">A ação **PesquisarRegistro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="669e7-107">The **SetField** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -34,46 +34,46 @@ ms.locfileid: "25464047"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e0e6d-108">Argumento</span><span class="sxs-lookup"><span data-stu-id="e0e6d-108">Argument</span></span></p></th>
-<th><p><span data-ttu-id="e0e6d-109">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="e0e6d-109">Required</span></span></p></th>
-<th><p><span data-ttu-id="e0e6d-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="e0e6d-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="669e7-108">Argumento</span><span class="sxs-lookup"><span data-stu-id="669e7-108">Argument</span></span></p></th>
+<th><p><span data-ttu-id="669e7-109">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="669e7-109">Required</span></span></p></th>
+<th><p><span data-ttu-id="669e7-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="669e7-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e0e6d-111">Em</span><span class="sxs-lookup"><span data-stu-id="e0e6d-111">In</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-112">Sim</span><span class="sxs-lookup"><span data-stu-id="e0e6d-112">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-113">Uma cadeia de caracteres que identifica o registro para operar em.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-113">A string that identifies the record to operate on.</span></span> <span data-ttu-id="e0e6d-114">O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-114">The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</span></span></p>
+<td><p><span data-ttu-id="669e7-111">Em</span><span class="sxs-lookup"><span data-stu-id="669e7-111">In</span></span></p></td>
+<td><p><span data-ttu-id="669e7-112">Sim</span><span class="sxs-lookup"><span data-stu-id="669e7-112">Yes</span></span></p></td>
+<td><p><span data-ttu-id="669e7-113">Uma cadeia de caracteres que identifica o registro para operar em.</span><span class="sxs-lookup"><span data-stu-id="669e7-113">A string that identifies the record to operate on.</span></span> <span data-ttu-id="669e7-114">O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</span><span class="sxs-lookup"><span data-stu-id="669e7-114">The <em>In</em> argument can contain the name of the table, a select query, or a SQL statement.</span></span></p>
 
 > [!NOTE]
-> <span data-ttu-id="e0e6d-115">O registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-115">The specified record cannot include data stored in a linked table or ODBC data source.</span></span>
+> <span data-ttu-id="669e7-115">O registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="669e7-115">The specified record cannot include data stored in a linked table or ODBC data source.</span></span>
 
 
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e0e6d-116">Condição Where</span><span class="sxs-lookup"><span data-stu-id="e0e6d-116">Where Condition</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-117">Não</span><span class="sxs-lookup"><span data-stu-id="e0e6d-117">No</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-118">Uma expressão de cadeia de caracteres usada para restringir o intervalo de dados no qual o bloco de dados <strong>Pesquisarregistro</strong> é executada.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-118">A string expression used to restrict the range of data on which the <strong>LookupRecord</strong> data block is performed.</span></span> <span data-ttu-id="e0e6d-119">Por exemplo, critérios costumam ser equivalentes à cláusula WHERE em uma expressão SQL, sem a palavra onde.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-119">For example, criteria are often equivalent to the WHERE clause in an SQL expression, without the word WHERE.</span></span> <span data-ttu-id="e0e6d-120">Se os critérios forem omitidos, o bloco de dados <strong>Pesquisarregistro</strong> opera em todo o domínio especificado pelo argumento <em>em</em> .</span><span class="sxs-lookup"><span data-stu-id="e0e6d-120">If criteria are omitted, the <strong>LookupRecord</strong> data block operates on the entire domain specified by the <em>In</em> argument.</span></span> <span data-ttu-id="e0e6d-121">Qualquer campo que está incluído nos critérios também deve ser um campo no <em>In</em>.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-121">Any field that is included in criteria must also be a field in <em>In</em>.</span></span></p></td>
+<td><p><span data-ttu-id="669e7-116">Condição Where</span><span class="sxs-lookup"><span data-stu-id="669e7-116">Where Condition</span></span></p></td>
+<td><p><span data-ttu-id="669e7-117">Não</span><span class="sxs-lookup"><span data-stu-id="669e7-117">No</span></span></p></td>
+<td><p><span data-ttu-id="669e7-118">Uma expressão de cadeia de caracteres usada para restringir o intervalo de dados no qual o bloco de dados <strong>Pesquisarregistro</strong> é executada.</span><span class="sxs-lookup"><span data-stu-id="669e7-118">A string expression used to restrict the range of data on which the <strong>LookupRecord</strong> data block is performed.</span></span> <span data-ttu-id="669e7-119">Por exemplo, critérios costumam ser equivalentes à cláusula WHERE em uma expressão SQL, sem a palavra onde.</span><span class="sxs-lookup"><span data-stu-id="669e7-119">For example, criteria are often equivalent to the WHERE clause in an SQL expression, without the word WHERE.</span></span> <span data-ttu-id="669e7-120">Se os critérios forem omitidos, o bloco de dados <strong>Pesquisarregistro</strong> opera em todo o domínio especificado pelo argumento <em>em</em> .</span><span class="sxs-lookup"><span data-stu-id="669e7-120">If criteria are omitted, the <strong>LookupRecord</strong> data block operates on the entire domain specified by the <em>In</em> argument.</span></span> <span data-ttu-id="669e7-121">Qualquer campo que está incluído nos critérios também deve ser um campo no <em>In</em>.</span><span class="sxs-lookup"><span data-stu-id="669e7-121">Any field that is included in criteria must also be a field in <em>In</em>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e0e6d-122">Alias</span><span class="sxs-lookup"><span data-stu-id="e0e6d-122">Alias</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-123">Não</span><span class="sxs-lookup"><span data-stu-id="e0e6d-123">No</span></span></p></td>
-<td><p><span data-ttu-id="e0e6d-124">Uma cadeia de caracteres que fornece um nome alternativo para o registro especificado pelo argumento <em>em</em> .</span><span class="sxs-lookup"><span data-stu-id="e0e6d-124">A string that provides an alternative name for the record specified by the <em>In</em> argument.</span></span> <span data-ttu-id="e0e6d-125">Frequentemente usado para reduzir o nome da tabela referências posteriores evitar possíveis referências ambíguas.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-125">Often used to shorten the table name for subsequent references to prevent possible ambiguous references.</span></span> <span data-ttu-id="e0e6d-126">Se o <em>Alias</em> não for especificado, o nome da tabela ou da consulta será usado como o alias.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-126">If <em>Alias</em> is not specified, the table or query name will be used as the alias.</span></span></p></td>
+<td><p><span data-ttu-id="669e7-122">Alias</span><span class="sxs-lookup"><span data-stu-id="669e7-122">Alias</span></span></p></td>
+<td><p><span data-ttu-id="669e7-123">Não</span><span class="sxs-lookup"><span data-stu-id="669e7-123">No</span></span></p></td>
+<td><p><span data-ttu-id="669e7-124">Uma cadeia de caracteres que fornece um nome alternativo para o registro especificado pelo argumento <em>em</em> .</span><span class="sxs-lookup"><span data-stu-id="669e7-124">A string that provides an alternative name for the record specified by the <em>In</em> argument.</span></span> <span data-ttu-id="669e7-125">Frequentemente usado para reduzir o nome da tabela referências posteriores evitar possíveis referências ambíguas.</span><span class="sxs-lookup"><span data-stu-id="669e7-125">Often used to shorten the table name for subsequent references to prevent possible ambiguous references.</span></span> <span data-ttu-id="669e7-126">Se o <em>Alias</em> não for especificado, o nome da tabela ou da consulta será usado como o alias.</span><span class="sxs-lookup"><span data-stu-id="669e7-126">If <em>Alias</em> is not specified, the table or query name will be used as the alias.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="e0e6d-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="e0e6d-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="669e7-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="669e7-127">Remarks</span></span>
 
-<span data-ttu-id="e0e6d-128">Se os critérios especificados pelos argumentos *no* e a *Condição Where* especifica mais de um registro, o bloco de dados **Pesquisarregistro** funcionará apenas no primeiro registro.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-128">If the criteria specified by the *In* and *Where Condition* arguments specifies more than one record, the **LookupRecord** data block will operate only on the first record.</span></span>
+<span data-ttu-id="669e7-128">Se os critérios especificados pelos argumentos *no* e a *Condição Where* especifica mais de um registro, o bloco de dados **Pesquisarregistro** funcionará apenas no primeiro registro.</span><span class="sxs-lookup"><span data-stu-id="669e7-128">If the criteria specified by the *In* and *Where Condition* arguments specifies more than one record, the **LookupRecord** data block will operate only on the first record.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e0e6d-129">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e0e6d-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="669e7-129">Exemplo</span><span class="sxs-lookup"><span data-stu-id="669e7-129">Example</span></span>
 
-<span data-ttu-id="e0e6d-130">O exemplo a seguir mostra como usar a ação de SetReturnVar para retornar um valor de uma macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-130">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="e0e6d-131">Um ReturnVar chamado **CurrentServiceRequest** é retornada para a macro ou o Visual Basic para a sub-rotina Applications (VBA) que chamou a macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-131">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
+<span data-ttu-id="669e7-130">O exemplo a seguir mostra como usar a ação de SetReturnVar para retornar um valor de uma macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="669e7-130">The following example shows how to use the SetReturnVar action to return a value from a named data macro.</span></span> <span data-ttu-id="669e7-131">Um ReturnVar chamado **CurrentServiceRequest** é retornada para a macro ou o Visual Basic para a sub-rotina Applications (VBA) que chamou a macro de dados nomeada.</span><span class="sxs-lookup"><span data-stu-id="669e7-131">A ReturnVar named **CurrentServiceRequest** is returned to the macro or Visual Basic for Applications (VBA) subroutine that called the named data macro.</span></span>
 
-<span data-ttu-id="e0e6d-132">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="e0e6d-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="669e7-132">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="669e7-132">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     RunDataMacro
@@ -90,7 +90,7 @@ ms.locfileid: "25464047"
 
 <br/>
 
-<span data-ttu-id="e0e6d-133">O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento de macro de dados antes de alterar.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-133">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="e0e6d-134">Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído atualmente atribuído a uma solicitação de serviço em aberto.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-134">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="e0e6d-135">Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.</span><span class="sxs-lookup"><span data-stu-id="e0e6d-135">If this is true, the Before Change event is cancelled and the record is not updated.</span></span>
+<span data-ttu-id="669e7-133">O exemplo a seguir mostra como usar a ação Gerarerro para cancelar o evento de macro de dados antes de alterar.</span><span class="sxs-lookup"><span data-stu-id="669e7-133">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="669e7-134">Quando o campo AssignedTo é atualizado, um bloco de dados Pesquisarregistro é usado para determinar se o técnico atribuído atualmente atribuído a uma solicitação de serviço em aberto.</span><span class="sxs-lookup"><span data-stu-id="669e7-134">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="669e7-135">Se isso for verdadeiro, o evento antes de alterar será cancelado e o registro não será atualizado.</span><span class="sxs-lookup"><span data-stu-id="669e7-135">If this is true, the Before Change event is cancelled and the record is not updated.</span></span>
 
 ```vb
     /* Get the name of the technician  */

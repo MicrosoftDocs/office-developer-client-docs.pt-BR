@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50fb678cb9346641b38acc3ca4f3a9553fd2a1c2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 205c727b140ac8d9bd5b0aa096b7650e12e78e2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862930"
+ms.locfileid: "25873415"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="a3877-102">Exemplo do método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="a3877-102">Create method example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="c4af2-102">Exemplo do método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="c4af2-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="a3877-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3877-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c4af2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4af2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a3877-104">O código a seguir mostra como criar um novo banco de dados do Microsoft Jet com o método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a3877-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="c4af2-104">O código a seguir mostra como criar um novo banco de dados do Microsoft Jet com o método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="c4af2-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

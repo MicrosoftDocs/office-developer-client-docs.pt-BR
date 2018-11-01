@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835932(v=office.15)
 ms:contentKeyID: 48548337
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5fd79cb49e35ce9623575580fb681d06b9004bd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4affa13e32ee677d3de898efb41e9639a47a12d5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464453"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882760"
 ---
-# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="30f2e-102">Método Connections.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="30f2e-102">Connections.Refresh Method (DAO)</span></span>
+# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="9fbed-102">Método Connections.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="9fbed-102">Connections.Refresh Method (DAO)</span></span>
 
 
-<span data-ttu-id="30f2e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="30f2e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9fbed-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9fbed-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="30f2e-104">Não aceito para a coleção **[Connections](connections-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="30f2e-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="9fbed-104">Não aceito para a coleção **[Connections](connections-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="9fbed-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="30f2e-105">Você não pode usar o método **Refresh** com as coleções que não são persistentes, como as coleções **Connections**, **Databases**, **Recordsets**, **Workspaces** ou **QueryDefs** de um objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="30f2e-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="9fbed-105">Você não pode usar o método **Refresh** com as coleções que não são persistentes, como as coleções **Connections**, **Databases**, **Recordsets**, **Workspaces** ou **QueryDefs** de um objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="9fbed-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

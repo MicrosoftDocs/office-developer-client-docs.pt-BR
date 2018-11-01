@@ -10,25 +10,25 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 32bf1ff8f660bbc9f38c9764f560c0897041ab45
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 103be9b9587c2171d3414665a67ec36629df8ce2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464493"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874619"
 ---
-# <a name="settempvar-macro-action"></a><span data-ttu-id="427bf-102">Ação da macro DefinirVariávelTemporária</span><span class="sxs-lookup"><span data-stu-id="427bf-102">SetTempVar Macro Action</span></span>
+# <a name="settempvar-macro-action"></a><span data-ttu-id="9b8b9-102">Ação da macro DefinirVariávelTemporária</span><span class="sxs-lookup"><span data-stu-id="9b8b9-102">SetTempVar Macro Action</span></span>
 
 
-<span data-ttu-id="427bf-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="427bf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9b8b9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b8b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-<span data-ttu-id="427bf-p101">Use a ação **DefinirVariávelTemporária** para criar uma variável temporária e defini-la com um valor específico. A variável poderá ser usada como condição ou argumento em ações subsequentes, ou em outra macro, em um procedimento de evento, ou ainda em um formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="427bf-p101">You can use the **SetTempVar** action to create a temporary variable and set it to a specific value. The variable can then be used as a condition or argument in subsequent actions, or you can use the variable in another macro, in an event procedure, or on a form or report.</span></span>
+<span data-ttu-id="9b8b9-p101">Use a ação **DefinirVariávelTemporária** para criar uma variável temporária e defini-la com um valor específico. A variável poderá ser usada como condição ou argumento em ações subsequentes, ou em outra macro, em um procedimento de evento, ou ainda em um formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-p101">You can use the **SetTempVar** action to create a temporary variable and set it to a specific value. The variable can then be used as a condition or argument in subsequent actions, or you can use the variable in another macro, in an event procedure, or on a form or report.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="427bf-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="427bf-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="9b8b9-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="9b8b9-106">Setting</span></span>
 
-<span data-ttu-id="427bf-107">A ação **DefinirVariávelTemporária** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="427bf-107">The **SetTempVar** action has the following arguments.</span></span>
+<span data-ttu-id="9b8b9-107">A ação **DefinirVariávelTemporária** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-107">The **SetTempVar** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -37,41 +37,41 @@ ms.locfileid: "25464493"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="427bf-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="427bf-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="427bf-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="427bf-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="9b8b9-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="9b8b9-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="9b8b9-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="9b8b9-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="427bf-110"><strong>Nome</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-110"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="427bf-111">Digite o nome da variável temporária.</span><span class="sxs-lookup"><span data-stu-id="427bf-111">Enter the name of the temporary variable.</span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-110"><strong>Nome</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-110"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-111">Digite o nome da variável temporária.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-111">Enter the name of the temporary variable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="427bf-112"><strong>Expression</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-112"><strong>Expression</strong></span></span></p></td>
-<td><p><span data-ttu-id="427bf-113">Insira uma expressão que será usada para definir o valor dessa variável temporária.</span><span class="sxs-lookup"><span data-stu-id="427bf-113">Enter an expression that will be used to set the value for this temporary variable.</span></span> <span data-ttu-id="427bf-114">Não preceda a expressão com igual (<strong>=</strong>) entrada.</span><span class="sxs-lookup"><span data-stu-id="427bf-114">Do not precede the expression with the equal (<strong>=</strong>) sign.</span></span> <span data-ttu-id="427bf-115">Você pode clicar no botão <strong>Construir</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-115">You can click the <strong>Build</strong> button</span></span> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> <span data-ttu-id="427bf-117">para usar o Construtor de Expressões para definir este argumento.</span><span class="sxs-lookup"><span data-stu-id="427bf-117">to use the Expression Builder to set this argument.</span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-112"><strong>Expressão</strong>.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-112"><strong>Expression</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-113">Insira uma expressão que será usada para definir o valor dessa variável temporária.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-113">Enter an expression that will be used to set the value for this temporary variable.</span></span> <span data-ttu-id="9b8b9-114">Não preceda a expressão com igual (<strong>=</strong>) entrada.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-114">Do not precede the expression with the equal (<strong>=</strong>) sign.</span></span> <span data-ttu-id="9b8b9-115">Você pode clicar no botão <strong>Construir</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-115">You can click the <strong>Build</strong> button</span></span> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> <span data-ttu-id="9b8b9-117">para usar o Construtor de Expressões para definir este argumento.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-117">to use the Expression Builder to set this argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="427bf-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="427bf-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9b8b9-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="9b8b9-118">Remarks</span></span>
 
-- <span data-ttu-id="427bf-p103">É possível definir até 255 variáveis temporárias de uma só vez. Se você não remover uma variável temporária, ela permanecerá na memória até você fechar o banco de dados. É recomendável remover variáveis temporárias após a conclusão do trabalho. Para remover uma única variável temporária, use a ação **[RemoverVariávelTemporária](removetempvar-macro-action.md)** e defina o respectivo argumento com o nome da variável temporária a ser removida. Se for necessário remover mais de uma variável temporária e você quiser removê-las todas de uma só vez, use a ação **RemoverTodasVariáveisTemporárias**.</span><span class="sxs-lookup"><span data-stu-id="427bf-p103">You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them. To remove a single temporary variable, use the **[RemoveTempVar](removetempvar-macro-action.md)** action and set its argument to the name of the temporary variable that you want to remove. If you have more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.</span></span>
+- <span data-ttu-id="9b8b9-p103">É possível definir até 255 variáveis temporárias de uma só vez. Se você não remover uma variável temporária, ela permanecerá na memória até você fechar o banco de dados. É recomendável remover variáveis temporárias após a conclusão do trabalho. Para remover uma única variável temporária, use a ação **[RemoverVariávelTemporária](removetempvar-macro-action.md)** e defina o respectivo argumento com o nome da variável temporária a ser removida. Se for necessário remover mais de uma variável temporária e você quiser removê-las todas de uma só vez, use a ação **RemoverTodasVariáveisTemporárias**.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-p103">You can have up to 255 temporary variables defined at one time. If you do not remove a temporary variable, it will remain in memory until you close the database. It is a good practice to remove temporary variables when you are finished using them. To remove a single temporary variable, use the **[RemoveTempVar](removetempvar-macro-action.md)** action and set its argument to the name of the temporary variable that you want to remove. If you have more than one temporary variable and you want to remove them all at once, use the **RemoveAllTempVars** action.</span></span>
 
-- <span data-ttu-id="427bf-124">Variáveis temporária são globais.</span><span class="sxs-lookup"><span data-stu-id="427bf-124">Temporary variables are global.</span></span> <span data-ttu-id="427bf-125">Após a criação de uma variável temporária, você pode referenciá-la em um procedimento de evento, um módulo do VBA (Visual Basic for Applications), uma consulta ou em uma expressão.</span><span class="sxs-lookup"><span data-stu-id="427bf-125">Once a temporary variable has been created, you can refer to it in an event procedure, a Visual Basic for Applications (VBA) module, a query, or an expression.</span></span> <span data-ttu-id="427bf-126">Por exemplo, se você criou uma variável temporária chamada *MINHAVARIÁVEL*, você poderia usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="427bf-126">For example, if you created a temporary variable named *MyVar*, you could use the variable as the control source for a text box by using the following syntax:</span></span>
+- <span data-ttu-id="9b8b9-124">Variáveis temporária são globais.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-124">Temporary variables are global.</span></span> <span data-ttu-id="9b8b9-125">Após a criação de uma variável temporária, você pode referenciá-la em um procedimento de evento, um módulo do VBA (Visual Basic for Applications), uma consulta ou em uma expressão.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-125">Once a temporary variable has been created, you can refer to it in an event procedure, a Visual Basic for Applications (VBA) module, a query, or an expression.</span></span> <span data-ttu-id="9b8b9-126">Por exemplo, se você criou uma variável temporária chamada *MINHAVARIÁVEL*, você poderia usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="9b8b9-126">For example, if you created a temporary variable named *MyVar*, you could use the variable as the control source for a text box by using the following syntax:</span></span>
     
   `=[TempVars]![MyVar]`
     
   > [!NOTE]
-  > <span data-ttu-id="427bf-127">[!OBSERVAçãO] Em macros, consultas e procedimentos de evento, não é preciso preceder a expressão com um sinal de igualdade.</span><span class="sxs-lookup"><span data-stu-id="427bf-127">In macros, queries and event procedures, you do not need to precede the expression with an equal sign.</span></span>
+  > <span data-ttu-id="9b8b9-127">[!OBSERVAçãO] Em macros, consultas e procedimentos de evento, não é preciso preceder a expressão com um sinal de igualdade.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-127">In macros, queries and event procedures, you do not need to precede the expression with an equal sign.</span></span>
  
-  <span data-ttu-id="427bf-128">Também é possível referenciar variáveis temporárias em qualquer suplemento ou bancos de dados especificado.</span><span class="sxs-lookup"><span data-stu-id="427bf-128">You can also refer to temporary variables in any add-ins or referenced databases.</span></span>
+  <span data-ttu-id="9b8b9-128">Também é possível referenciar variáveis temporárias em qualquer suplemento ou bancos de dados especificado.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-128">You can also refer to temporary variables in any add-ins or referenced databases.</span></span>
 
-- <span data-ttu-id="427bf-129">Para executar a ação **DefinirVariávelTemporária** em um módulo do VBA, use o método **Add** do objeto **TempVars**.</span><span class="sxs-lookup"><span data-stu-id="427bf-129">To run the **SetTempVar** action in a VBA module, use the **Add** method of the **TempVars** object.</span></span>
+- <span data-ttu-id="9b8b9-129">Para executar a ação **DefinirVariávelTemporária** em um módulo do VBA, use o método **Add** do objeto **TempVars**.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-129">To run the **SetTempVar** action in a VBA module, use the **Add** method of the **TempVars** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="427bf-130">Exemplo</span><span class="sxs-lookup"><span data-stu-id="427bf-130">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9b8b9-130">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9b8b9-130">Example</span></span>
 
-<span data-ttu-id="427bf-131">A macro a seguir demonstra como criar uma variável temporária usando a ação **DefinirVariávelTemporária** e, depois, utilizando-a em uma condição e em uma caixa de mensagem, e finalmente removendo-a.</span><span class="sxs-lookup"><span data-stu-id="427bf-131">The following macro demonstrates how to create a temporary variable by using the **SetTempVar** action, then using the temporary variable in a condition and a message box, and then removing the temporary variable.</span></span>
+<span data-ttu-id="9b8b9-131">A macro a seguir demonstra como criar uma variável temporária usando a ação **DefinirVariávelTemporária** e, depois, utilizando-a em uma condição e em uma caixa de mensagem, e finalmente removendo-a.</span><span class="sxs-lookup"><span data-stu-id="9b8b9-131">The following macro demonstrates how to create a temporary variable by using the **SetTempVar** action, then using the temporary variable in a condition and a message box, and then removing the temporary variable.</span></span>
 
 <table>
 <colgroup>
@@ -81,26 +81,26 @@ ms.locfileid: "25464493"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="427bf-132">Condição</span><span class="sxs-lookup"><span data-stu-id="427bf-132">Condition</span></span></p></th>
-<th><p><span data-ttu-id="427bf-133">Ação</span><span class="sxs-lookup"><span data-stu-id="427bf-133">Action</span></span></p></th>
-<th><p><span data-ttu-id="427bf-134">Argumentos</span><span class="sxs-lookup"><span data-stu-id="427bf-134">Arguments</span></span></p></th>
+<th><p><span data-ttu-id="9b8b9-132">Condição</span><span class="sxs-lookup"><span data-stu-id="9b8b9-132">Condition</span></span></p></th>
+<th><p><span data-ttu-id="9b8b9-133">Ação</span><span class="sxs-lookup"><span data-stu-id="9b8b9-133">Action</span></span></p></th>
+<th><p><span data-ttu-id="9b8b9-134">Argumentos</span><span class="sxs-lookup"><span data-stu-id="9b8b9-134">Arguments</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="427bf-135"><strong>Definirvariáveltemporária</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-135"><strong>SetTempVar</strong></span></span></p></td>
-<td><p><span data-ttu-id="427bf-136"><strong>Nome</strong>: MINHAVARIÁVEL<strong>expressão</strong>: CaixaDeEntrada (&quot;Insira um número diferente de zero.&quot;)</span><span class="sxs-lookup"><span data-stu-id="427bf-136"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-135"><strong>Definirvariáveltemporária</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-135"><strong>SetTempVar</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-136"><strong>Nome</strong>: MINHAVARIÁVEL<strong>expressão</strong>: CaixaDeEntrada (&quot;Insira um número diferente de zero.&quot;)</span><span class="sxs-lookup"><span data-stu-id="9b8b9-136"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="427bf-137">[Varstemp]! [MINHAVARIÁVEL] &lt; &gt;0</span><span class="sxs-lookup"><span data-stu-id="427bf-137">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
-<td><p><span data-ttu-id="427bf-138"><strong>CaixaDeMensagem</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-138"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="427bf-139"><strong>Mensagem</strong>: =&quot;você digitou &quot; &amp; [Varstemp]! [MINHAVARIÁVEL] &amp; &quot;. &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-139"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-137">[Varstemp]! [MINHAVARIÁVEL] &lt; &gt;0</span><span class="sxs-lookup"><span data-stu-id="9b8b9-137">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-138"><strong>CaixaDeMensagem</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-138"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-139"><strong>Mensagem</strong>: =&quot;você digitou &quot; &amp; [Varstemp]! [MINHAVARIÁVEL] &amp; &quot;. &quot; <strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>informações</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-139"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="427bf-140"><strong>Removervariáveltemporária</strong></span><span class="sxs-lookup"><span data-stu-id="427bf-140"><strong>RemoveTempVar</strong></span></span></p></td>
-<td><p><span data-ttu-id="427bf-141"><strong>Nome</strong>: MinhaVar</span><span class="sxs-lookup"><span data-stu-id="427bf-141"><strong>Name</strong>: MyVar</span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-140"><strong>Removervariáveltemporária</strong></span><span class="sxs-lookup"><span data-stu-id="9b8b9-140"><strong>RemoveTempVar</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b8b9-141"><strong>Nome</strong>: MinhaVar</span><span class="sxs-lookup"><span data-stu-id="9b8b9-141"><strong>Name</strong>: MyVar</span></span></p></td>
 </tr>
 </tbody>
 </table>

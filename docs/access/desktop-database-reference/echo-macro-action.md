@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39471ea4bab2ec1bbeb8cd22ecb00aa5df3bc411
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 34d157398d3e288f96b550a152bb78c12f255573
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863966"
+ms.locfileid: "25868389"
 ---
-# <a name="echo-macro-action"></a><span data-ttu-id="0954e-102">Ação de Macro eco</span><span class="sxs-lookup"><span data-stu-id="0954e-102">Echo Macro Action</span></span>
+# <a name="echo-macro-action"></a><span data-ttu-id="9bde6-102">Ação de Macro eco</span><span class="sxs-lookup"><span data-stu-id="9bde6-102">Echo Macro Action</span></span>
 
 
-<span data-ttu-id="0954e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0954e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9bde6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bde6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0954e-104">Você pode usar a ação **eco** para especificar se o eco está ativado.</span><span class="sxs-lookup"><span data-stu-id="0954e-104">You can use the **Echo** action to specify whether echo is turned on.</span></span> <span data-ttu-id="0954e-105">Por exemplo, você pode usar essa ação para ocultar ou mostrar os resultados de uma macro enquanto ele é executado.</span><span class="sxs-lookup"><span data-stu-id="0954e-105">For example, you can use this action to hide or show the results of a macro while it runs.</span></span>
+<span data-ttu-id="9bde6-104">Você pode usar a ação **eco** para especificar se o eco está ativado.</span><span class="sxs-lookup"><span data-stu-id="9bde6-104">You can use the **Echo** action to specify whether echo is turned on.</span></span> <span data-ttu-id="9bde6-105">Por exemplo, você pode usar essa ação para ocultar ou mostrar os resultados de uma macro enquanto ele é executado.</span><span class="sxs-lookup"><span data-stu-id="9bde6-105">For example, you can use this action to hide or show the results of a macro while it runs.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="0954e-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="0954e-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="9bde6-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="9bde6-106">Setting</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="0954e-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="0954e-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
+> <span data-ttu-id="9bde6-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="9bde6-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
 
 
 
-<span data-ttu-id="0954e-109">A ação **eco** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="0954e-109">The **Echo** action has the following arguments.</span></span>
+<span data-ttu-id="9bde6-109">A ação **eco** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="9bde6-109">The **Echo** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -37,38 +37,38 @@ ms.locfileid: "25863966"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0954e-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="0954e-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="0954e-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="0954e-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="9bde6-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="9bde6-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0954e-112"><strong>Eco ativo</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-112"><strong>Echo On</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-113">Clique em <strong>Sim</strong> (ativar o eco) ou <strong>não</strong> (desativar o eco) na caixa <strong>Eco na</strong> seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros.</span><span class="sxs-lookup"><span data-stu-id="0954e-113">Click <strong>Yes</strong> (turn echo on) or <strong>No</strong> (turn echo off) in the <strong>Echo On</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="0954e-114">O padrão é <strong>Sim</strong>.</span><span class="sxs-lookup"><span data-stu-id="0954e-114">The default is <strong>Yes</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-112"><strong>Eco ativo</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-112"><strong>Echo On</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-113">Clique em <strong>Sim</strong> (ativar o eco) ou <strong>não</strong> (desativar o eco) na caixa <strong>Eco na</strong> seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros.</span><span class="sxs-lookup"><span data-stu-id="9bde6-113">Click <strong>Yes</strong> (turn echo on) or <strong>No</strong> (turn echo off) in the <strong>Echo On</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="9bde6-114">O padrão é <strong>Sim</strong>.</span><span class="sxs-lookup"><span data-stu-id="9bde6-114">The default is <strong>Yes</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0954e-115"><strong>Texto da Barra de Status</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-115"><strong>Status Bar Text</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-116">O texto a ser exibido na barra quando o eco está desativado de status.</span><span class="sxs-lookup"><span data-stu-id="0954e-116">The text to display in the status bar when echo is turned off.</span></span> <span data-ttu-id="0954e-117">Por exemplo, quando o eco está desativado, a barra de status pode exibir &quot;a macro está sendo executada.&quot;</span><span class="sxs-lookup"><span data-stu-id="0954e-117">For example, when echo is turned off, the status bar can display &quot;The macro is running.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-115"><strong>Texto da Barra de Status</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-115"><strong>Status Bar Text</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-116">O texto a ser exibido na barra quando o eco está desativado de status.</span><span class="sxs-lookup"><span data-stu-id="9bde6-116">The text to display in the status bar when echo is turned off.</span></span> <span data-ttu-id="9bde6-117">Por exemplo, quando o eco está desativado, a barra de status pode exibir &quot;a macro está sendo executada.&quot;</span><span class="sxs-lookup"><span data-stu-id="9bde6-117">For example, when echo is turned off, the status bar can display &quot;The macro is running.&quot;</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="0954e-118">Quando executa uma macro, muitas vezes mostra informações não essenciais ao funcionamento da macro de atualização de tela.</span><span class="sxs-lookup"><span data-stu-id="0954e-118">When runs a macro, screen updating often shows information not essential to the functioning of the macro.</span></span> <span data-ttu-id="0954e-119">Quando você define o argumento **Echo ativo** como **não**, a macro será executada sem atualizar a tela.</span><span class="sxs-lookup"><span data-stu-id="0954e-119">When you set the **Echo On** argument to **No**, the macro runs without updating the screen.</span></span> <span data-ttu-id="0954e-120">Quando a macro é concluída, o Access automaticamente ativa eco e redesenha a janela.</span><span class="sxs-lookup"><span data-stu-id="0954e-120">When the macro finishes, Access automatically turns echo back on and repaints the window.</span></span> <span data-ttu-id="0954e-121">A configuração **não** para o argumento **Eco ativo** não afeta a funcionalidade da macro ou seus resultados.</span><span class="sxs-lookup"><span data-stu-id="0954e-121">The **No** setting for the **Echo On** argument doesn't affect the functionality of the macro or its results.</span></span>
+<span data-ttu-id="9bde6-118">Quando executa uma macro, muitas vezes mostra informações não essenciais ao funcionamento da macro de atualização de tela.</span><span class="sxs-lookup"><span data-stu-id="9bde6-118">When runs a macro, screen updating often shows information not essential to the functioning of the macro.</span></span> <span data-ttu-id="9bde6-119">Quando você define o argumento **Echo ativo** como **não**, a macro será executada sem atualizar a tela.</span><span class="sxs-lookup"><span data-stu-id="9bde6-119">When you set the **Echo On** argument to **No**, the macro runs without updating the screen.</span></span> <span data-ttu-id="9bde6-120">Quando a macro é concluída, o Access automaticamente ativa eco e redesenha a janela.</span><span class="sxs-lookup"><span data-stu-id="9bde6-120">When the macro finishes, Access automatically turns echo back on and repaints the window.</span></span> <span data-ttu-id="9bde6-121">A configuração **não** para o argumento **Eco ativo** não afeta a funcionalidade da macro ou seus resultados.</span><span class="sxs-lookup"><span data-stu-id="9bde6-121">The **No** setting for the **Echo On** argument doesn't affect the functionality of the macro or its results.</span></span>
 
-<span data-ttu-id="0954e-122">A ação **Echo** não suprime a exibição de caixas de diálogo modal, mensagens de erro ou formulários pop-up, como folhas de propriedades.</span><span class="sxs-lookup"><span data-stu-id="0954e-122">The **Echo** action doesn't suppress the display of modal dialog boxes, such as error messages, or pop-up forms, such as property sheets.</span></span> <span data-ttu-id="0954e-123">Você pode usar caixas de diálogo e formulários pop-up para coletar ou exibir informações, mesmo se o eco está desativado.</span><span class="sxs-lookup"><span data-stu-id="0954e-123">You can use dialog boxes and pop-up forms to gather or display information, even if echo is turned off.</span></span> <span data-ttu-id="0954e-124">Para suprimir todas as caixas de diálogo ou de mensagem, exceto as caixas de mensagem de erro e caixas de diálogo que exigem que o usuário insira informações, use a ação **DefinirAvisos** .</span><span class="sxs-lookup"><span data-stu-id="0954e-124">To suppress all message or dialog boxes except error message boxes and dialog boxes that require the user to enter information, use the **SetWarnings** action.</span></span>
+<span data-ttu-id="9bde6-122">A ação **Echo** não suprime a exibição de caixas de diálogo modal, mensagens de erro ou formulários pop-up, como folhas de propriedades.</span><span class="sxs-lookup"><span data-stu-id="9bde6-122">The **Echo** action doesn't suppress the display of modal dialog boxes, such as error messages, or pop-up forms, such as property sheets.</span></span> <span data-ttu-id="9bde6-123">Você pode usar caixas de diálogo e formulários pop-up para coletar ou exibir informações, mesmo se o eco está desativado.</span><span class="sxs-lookup"><span data-stu-id="9bde6-123">You can use dialog boxes and pop-up forms to gather or display information, even if echo is turned off.</span></span> <span data-ttu-id="9bde6-124">Para suprimir todas as caixas de diálogo ou de mensagem, exceto as caixas de mensagem de erro e caixas de diálogo que exigem que o usuário insira informações, use a ação **DefinirAvisos** .</span><span class="sxs-lookup"><span data-stu-id="9bde6-124">To suppress all message or dialog boxes except error message boxes and dialog boxes that require the user to enter information, use the **SetWarnings** action.</span></span>
 
-<span data-ttu-id="0954e-125">Você pode executar a ação **eco** mais de uma vez em uma macro.</span><span class="sxs-lookup"><span data-stu-id="0954e-125">You can run the **Echo** action more than once in a macro.</span></span> <span data-ttu-id="0954e-126">Isso permite que você altere o texto da barra de status enquanto a macro será executada.</span><span class="sxs-lookup"><span data-stu-id="0954e-126">This allows you to change the status bar text while the macro runs.</span></span>
+<span data-ttu-id="9bde6-125">Você pode executar a ação **eco** mais de uma vez em uma macro.</span><span class="sxs-lookup"><span data-stu-id="9bde6-125">You can run the **Echo** action more than once in a macro.</span></span> <span data-ttu-id="9bde6-126">Isso permite que você altere o texto da barra de status enquanto a macro será executada.</span><span class="sxs-lookup"><span data-stu-id="9bde6-126">This allows you to change the status bar text while the macro runs.</span></span>
 
-<span data-ttu-id="0954e-127">Se você desativar o eco, você pode usar a ação **Exibirponteirodeampulheta** para alterar o ponteiro do mouse em um ícone de ampulheta (ou qualquer outro ícone de ponteiro do mouse definido para "Ocupado") para fornecer uma indicação visual que a macro está sendo executada.</span><span class="sxs-lookup"><span data-stu-id="0954e-127">If you turn echo off, you can use the **DisplayHourglassPointer** action to change the mouse pointer into an hourglass icon (or whatever mouse pointer icon you've set for "Busy") to provide a visual indication that the macro is running.</span></span>
+<span data-ttu-id="9bde6-127">Se você desativar o eco, você pode usar a ação **Exibirponteirodeampulheta** para alterar o ponteiro do mouse em um ícone de ampulheta (ou qualquer outro ícone de ponteiro do mouse definido para "Ocupado") para fornecer uma indicação visual que a macro está sendo executada.</span><span class="sxs-lookup"><span data-stu-id="9bde6-127">If you turn echo off, you can use the **DisplayHourglassPointer** action to change the mouse pointer into an hourglass icon (or whatever mouse pointer icon you've set for "Busy") to provide a visual indication that the macro is running.</span></span>
 
-<span data-ttu-id="0954e-128">Para executar a ação **eco** em um módulo Visual Basic for Applications (VBA), use o método **Echo** do objeto **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="0954e-128">To run the **Echo** action in a Visual Basic for Applications (VBA) module, use the **Echo** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="9bde6-128">Para executar a ação **eco** em um módulo Visual Basic for Applications (VBA), use o método **Echo** do objeto **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="9bde6-128">To run the **Echo** action in a Visual Basic for Applications (VBA) module, use the **Echo** method of the **DoCmd** object.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="0954e-129">Exemplos</span><span class="sxs-lookup"><span data-stu-id="0954e-129">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="9bde6-129">Exemplos</span><span class="sxs-lookup"><span data-stu-id="9bde6-129">Examples</span></span>
 
-<span data-ttu-id="0954e-130">**Definir o valor de um controle usando uma macro**</span><span class="sxs-lookup"><span data-stu-id="0954e-130">**Set the value of a control by using a macro**</span></span>
+<span data-ttu-id="9bde6-130">**Definir o valor de um controle usando uma macro**</span><span class="sxs-lookup"><span data-stu-id="9bde6-130">**Set the value of a control by using a macro**</span></span>
 
-<span data-ttu-id="0954e-131">A macro a seguir abre o formulário Adicionar produtos com um botão no formulário Suppliers.</span><span class="sxs-lookup"><span data-stu-id="0954e-131">The following macro opens the Add Products form from a button on the Suppliers form.</span></span> <span data-ttu-id="0954e-132">Ela mostra o uso do **eco**, **fecharJanela**, **AbrirFormulário**, **DefinirValor**e **GoToControl** ações.</span><span class="sxs-lookup"><span data-stu-id="0954e-132">It shows the use of the **Echo**, **CloseWindow**, **OpenForm**, **SetValue**, and **GoToControl** actions.</span></span> <span data-ttu-id="0954e-133">A ação **DefinirValor** define o controle de código do fornecedor no formulário produtos como o fornecedor atual no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0954e-133">The **SetValue** action sets the Supplier ID control on the Products form to the current supplier on the Suppliers form.</span></span> <span data-ttu-id="0954e-134">A ação **GoToControl** , em seguida, move o foco para o campo ID da categoria, onde você pode começar a inserir dados para o novo produto.</span><span class="sxs-lookup"><span data-stu-id="0954e-134">The **GoToControl** action then moves the focus to the Category ID field, where you can begin to enter data for the new product.</span></span> <span data-ttu-id="0954e-135">Essa macro deve ser anexada ao botão Adicionar produtos no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0954e-135">This macro should be attached to the Add Products button on the Suppliers form.</span></span>
+<span data-ttu-id="9bde6-131">A macro a seguir abre o formulário Adicionar produtos com um botão no formulário Suppliers.</span><span class="sxs-lookup"><span data-stu-id="9bde6-131">The following macro opens the Add Products form from a button on the Suppliers form.</span></span> <span data-ttu-id="9bde6-132">Ela mostra o uso do **eco**, **fecharJanela**, **AbrirFormulário**, **DefinirValor**e **GoToControl** ações.</span><span class="sxs-lookup"><span data-stu-id="9bde6-132">It shows the use of the **Echo**, **CloseWindow**, **OpenForm**, **SetValue**, and **GoToControl** actions.</span></span> <span data-ttu-id="9bde6-133">A ação **DefinirValor** define o controle de código do fornecedor no formulário produtos como o fornecedor atual no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="9bde6-133">The **SetValue** action sets the Supplier ID control on the Products form to the current supplier on the Suppliers form.</span></span> <span data-ttu-id="9bde6-134">A ação **GoToControl** , em seguida, move o foco para o campo ID da categoria, onde você pode começar a inserir dados para o novo produto.</span><span class="sxs-lookup"><span data-stu-id="9bde6-134">The **GoToControl** action then moves the focus to the Category ID field, where you can begin to enter data for the new product.</span></span> <span data-ttu-id="9bde6-135">Essa macro deve ser anexada ao botão Adicionar produtos no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="9bde6-135">This macro should be attached to the Add Products button on the Suppliers form.</span></span>
 
 <table>
 <colgroup>
@@ -78,44 +78,44 @@ ms.locfileid: "25863966"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0954e-136">Ação</span><span class="sxs-lookup"><span data-stu-id="0954e-136">Action</span></span></p></th>
-<th><p><span data-ttu-id="0954e-137">Argumentos: Configuração</span><span class="sxs-lookup"><span data-stu-id="0954e-137">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="0954e-138">Comentário</span><span class="sxs-lookup"><span data-stu-id="0954e-138">Comment</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-136">Ação</span><span class="sxs-lookup"><span data-stu-id="9bde6-136">Action</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-137">Argumentos: Configuração</span><span class="sxs-lookup"><span data-stu-id="9bde6-137">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-138">Comentário</span><span class="sxs-lookup"><span data-stu-id="9bde6-138">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0954e-139"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-139"><strong>Echo</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-140"><strong>Eco no</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-140"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-141">Pare a atualização da tela enquanto a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="0954e-141">Stop screen updating while the macro is running.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-139"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-139"><strong>Echo</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-140"><strong>Eco no</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-140"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-141">Pare a atualização da tela enquanto a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="9bde6-141">Stop screen updating while the macro is running.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0954e-142"><strong>FecharJanela</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-142"><strong>CloseWindow</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-143"><strong>Tipo de objeto</strong>: <strong>Nome FormObject</strong>: lista de produto para <strong>Salvar</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-143"><strong>Object Type</strong>: <strong>FormObject Name</strong>: Product List <strong>Save</strong>: <strong>No</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-144">Feche o formulário de lista de produtos.</span><span class="sxs-lookup"><span data-stu-id="0954e-144">Close the Product List form.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-142"><strong>FecharJanela</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-142"><strong>CloseWindow</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-143"><strong>Tipo de objeto</strong>: <strong>Nome FormObject</strong>: lista de produto para <strong>Salvar</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-143"><strong>Object Type</strong>: <strong>FormObject Name</strong>: Product List <strong>Save</strong>: <strong>No</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-144">Feche o formulário de lista de produtos.</span><span class="sxs-lookup"><span data-stu-id="9bde6-144">Close the Product List form.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0954e-145"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-145"><strong>OpenForm</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-146"><strong>Nome do formulário</strong>: produtos <strong>modo de exibição</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-146"><strong>Form Name</strong>: Products <strong>View</strong>: <strong>FormData Mode</strong>: <strong>AddWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-147">Abra o formulário Products.</span><span class="sxs-lookup"><span data-stu-id="0954e-147">Open the Products form.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-145"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-145"><strong>OpenForm</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-146"><strong>Nome do formulário</strong>: produtos <strong>modo de exibição</strong>: <strong>Modo FormData</strong>: <strong>Modo AddWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-146"><strong>Form Name</strong>: Products <strong>View</strong>: <strong>FormData Mode</strong>: <strong>AddWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-147">Abra o formulário Products.</span><span class="sxs-lookup"><span data-stu-id="9bde6-147">Open the Products form.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0954e-148"><strong>SetValue</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-148"><strong>SetValue</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-149"><strong>Item</strong>: [formulários]! [Produtos]! [SupplierID] <strong>Expressão</strong>: SupplierID</span><span class="sxs-lookup"><span data-stu-id="0954e-149"><strong>Item</strong>: [Forms]![Products]![SupplierID] <strong>Expression</strong>: SupplierID</span></span></p></td>
-<td><p><span data-ttu-id="0954e-150">Defina o controle de código do fornecedor como o fornecedor atual no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0954e-150">Set the Supplier ID control to the current supplier on the Suppliers form.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-148"><strong>SetValue</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-148"><strong>SetValue</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-149"><strong>Item</strong>: [formulários]! [Produtos]! [SupplierID] <strong>Expressão</strong>: SupplierID</span><span class="sxs-lookup"><span data-stu-id="9bde6-149"><strong>Item</strong>: [Forms]![Products]![SupplierID] <strong>Expression</strong>: SupplierID</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-150">Defina o controle de código do fornecedor como o fornecedor atual no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="9bde6-150">Set the Supplier ID control to the current supplier on the Suppliers form.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0954e-151"><strong>IrParaControle</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-151"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-152"><strong>Nome do controle</strong>: CategoryID</span><span class="sxs-lookup"><span data-stu-id="0954e-152"><strong>Control Name</strong>: CategoryID</span></span></p></td>
-<td><p><span data-ttu-id="0954e-153">Vá para o controle de ID da categoria.</span><span class="sxs-lookup"><span data-stu-id="0954e-153">Go to the Category ID control.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-151"><strong>IrParaControle</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-151"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-152"><strong>Nome do controle</strong>: CategoryID</span><span class="sxs-lookup"><span data-stu-id="9bde6-152"><strong>Control Name</strong>: CategoryID</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-153">Vá para o controle de ID da categoria.</span><span class="sxs-lookup"><span data-stu-id="9bde6-153">Go to the Category ID control.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="0954e-154">**Sincronizar formulários usando uma macro**</span><span class="sxs-lookup"><span data-stu-id="0954e-154">**Synchronize forms by using a macro**</span></span>
+<span data-ttu-id="9bde6-154">**Sincronizar formulários usando uma macro**</span><span class="sxs-lookup"><span data-stu-id="9bde6-154">**Synchronize forms by using a macro**</span></span>
 
-<span data-ttu-id="0954e-155">A macro a seguir abre o formulário de lista de produtos no canto inferior direito do formulário fornecedores, exibindo os produtos do fornecedor atual.</span><span class="sxs-lookup"><span data-stu-id="0954e-155">The following macro opens the Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products.</span></span> <span data-ttu-id="0954e-156">Ela mostra o uso do **eco**, **MessageBox**, **GoToControl**, **PararMacro**, **AbrirFormulário**e **Moveredimensionarjanela** ações.</span><span class="sxs-lookup"><span data-stu-id="0954e-156">It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions.</span></span> <span data-ttu-id="0954e-157">Ele também mostra o uso de uma expressão condicional com as ações **MessageBox**, **GoToControl**e **PararMacro** .</span><span class="sxs-lookup"><span data-stu-id="0954e-157">It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions.</span></span> <span data-ttu-id="0954e-158">Essa macro deve ser anexada ao botão Revisar produtos no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0954e-158">This macro should be attached to the Review Products button on the Suppliers form.</span></span>
+<span data-ttu-id="9bde6-155">A macro a seguir abre o formulário de lista de produtos no canto inferior direito do formulário fornecedores, exibindo os produtos do fornecedor atual.</span><span class="sxs-lookup"><span data-stu-id="9bde6-155">The following macro opens the Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products.</span></span> <span data-ttu-id="9bde6-156">Ela mostra o uso do **eco**, **MessageBox**, **GoToControl**, **PararMacro**, **AbrirFormulário**e **Moveredimensionarjanela** ações.</span><span class="sxs-lookup"><span data-stu-id="9bde6-156">It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions.</span></span> <span data-ttu-id="9bde6-157">Ele também mostra o uso de uma expressão condicional com as ações **MessageBox**, **GoToControl**e **PararMacro** .</span><span class="sxs-lookup"><span data-stu-id="9bde6-157">It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions.</span></span> <span data-ttu-id="9bde6-158">Essa macro deve ser anexada ao botão Revisar produtos no formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="9bde6-158">This macro should be attached to the Review Products button on the Suppliers form.</span></span>
 
 <table>
 <colgroup>
@@ -126,48 +126,48 @@ ms.locfileid: "25863966"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0954e-159">Condição</span><span class="sxs-lookup"><span data-stu-id="0954e-159">Condition</span></span></p></th>
-<th><p><span data-ttu-id="0954e-160">Ação</span><span class="sxs-lookup"><span data-stu-id="0954e-160">Action</span></span></p></th>
-<th><p><span data-ttu-id="0954e-161">Argumentos: Configuração</span><span class="sxs-lookup"><span data-stu-id="0954e-161">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="0954e-162">Comentário</span><span class="sxs-lookup"><span data-stu-id="0954e-162">Comment</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-159">Condição</span><span class="sxs-lookup"><span data-stu-id="9bde6-159">Condition</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-160">Ação</span><span class="sxs-lookup"><span data-stu-id="9bde6-160">Action</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-161">Argumentos: Configuração</span><span class="sxs-lookup"><span data-stu-id="9bde6-161">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="9bde6-162">Comentário</span><span class="sxs-lookup"><span data-stu-id="9bde6-162">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="0954e-163"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-163"><strong>Echo</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-164"><strong>Eco no</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-164"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-165">Pare a atualização da tela enquanto a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="0954e-165">Stop screen updating while the macro is running.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-163"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-163"><strong>Echo</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-164"><strong>Eco no</strong>: <strong>não</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-164"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-165">Pare a atualização da tela enquanto a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="9bde6-165">Stop screen updating while the macro is running.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0954e-166">ÉNulo ([ID do fornecedor])</span><span class="sxs-lookup"><span data-stu-id="0954e-166">IsNull([Supplier ID])</span></span></p></td>
-<td><p><span data-ttu-id="0954e-167"><strong>CaixaDeMensagem</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-167"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-168"><strong>Mensagem</strong>: mover para o registro do fornecedor cujos produtos você deseja ver, em seguida, clique no botão Revisar produtos novamente.</span><span class="sxs-lookup"><span data-stu-id="0954e-168"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="0954e-169"><strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: selecione um fornecedor</span><span class="sxs-lookup"><span data-stu-id="0954e-169"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
-<td><p><span data-ttu-id="0954e-170">Se não houver nenhum fornecedor atual no formulário fornecedores, exiba uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="0954e-170">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-166">ÉNulo ([ID do fornecedor])</span><span class="sxs-lookup"><span data-stu-id="9bde6-166">IsNull([Supplier ID])</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-167"><strong>CaixaDeMensagem</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-167"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-168"><strong>Mensagem</strong>: mover para o registro do fornecedor cujos produtos você deseja ver, em seguida, clique no botão Revisar produtos novamente.</span><span class="sxs-lookup"><span data-stu-id="9bde6-168"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="9bde6-169"><strong>Alarme sonoro</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: selecione um fornecedor</span><span class="sxs-lookup"><span data-stu-id="9bde6-169"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-170">Se não houver nenhum fornecedor atual no formulário fornecedores, exiba uma mensagem.</span><span class="sxs-lookup"><span data-stu-id="9bde6-170">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0954e-171">...</span><span class="sxs-lookup"><span data-stu-id="0954e-171"></span></span></p></td>
-<td><p><span data-ttu-id="0954e-172"><strong>IrParaControle</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-172"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-173"><strong>Nome do controle</strong>: NomeDaEmpresa</span><span class="sxs-lookup"><span data-stu-id="0954e-173"><strong>Control Name</strong>: CompanyName</span></span></p></td>
-<td><p><span data-ttu-id="0954e-174">Mova o foco para o controle NomeDaEmpresa.</span><span class="sxs-lookup"><span data-stu-id="0954e-174">Move focus to the CompanyName control.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-171">...</span><span class="sxs-lookup"><span data-stu-id="9bde6-171"></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-172"><strong>IrParaControle</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-172"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-173"><strong>Nome do controle</strong>: NomeDaEmpresa</span><span class="sxs-lookup"><span data-stu-id="9bde6-173"><strong>Control Name</strong>: CompanyName</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-174">Mova o foco para o controle NomeDaEmpresa.</span><span class="sxs-lookup"><span data-stu-id="9bde6-174">Move focus to the CompanyName control.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0954e-175">...</span><span class="sxs-lookup"><span data-stu-id="0954e-175"></span></span></p></td>
-<td><p><span data-ttu-id="0954e-176"><strong>PararMacro</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-176"><strong>StopMacro</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-175">...</span><span class="sxs-lookup"><span data-stu-id="9bde6-175"></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-176"><strong>PararMacro</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-176"><strong>StopMacro</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="0954e-177">Interrompa a macro.</span><span class="sxs-lookup"><span data-stu-id="0954e-177">Stop the macro.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-177">Interrompa a macro.</span><span class="sxs-lookup"><span data-stu-id="9bde6-177">Stop the macro.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="0954e-178"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-178"><strong>OpenForm</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-179"><strong>Nome do formulário</strong>: <strong>modo de exibição</strong>da lista de produto: <strong>DatasheetFilter nome</strong>: <strong>condição onde</strong>: [código do fornecedor] = [formulários]! Fornecedores! [SupplierID] <strong>Modo de dados</strong>: <strong>Modo de OnlyWindow de leitura</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-179"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [Supplier ID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-180">Abra o formulário de lista de produtos e mostram os produtos do fornecedor atual.</span><span class="sxs-lookup"><span data-stu-id="0954e-180">Open the Product List form and show the current supplier's products.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-178"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-178"><strong>OpenForm</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-179"><strong>Nome do formulário</strong>: <strong>modo de exibição</strong>da lista de produto: <strong>DatasheetFilter nome</strong>: <strong>condição onde</strong>: [código do fornecedor] = [formulários]! Fornecedores! [SupplierID] <strong>Modo de dados</strong>: <strong>Modo de OnlyWindow de leitura</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-179"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [Supplier ID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-180">Abra o formulário de lista de produtos e mostram os produtos do fornecedor atual.</span><span class="sxs-lookup"><span data-stu-id="9bde6-180">Open the Product List form and show the current supplier's products.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="0954e-181"><strong>Moveredimensionarjanela</strong></span><span class="sxs-lookup"><span data-stu-id="0954e-181"><strong>MoveAndSizeWindow</strong></span></span></p></td>
-<td><p><span data-ttu-id="0954e-182"><strong>Direita</strong>: 0.7799&quot; <strong>para baixo</strong>: 1,8&quot;</span><span class="sxs-lookup"><span data-stu-id="0954e-182"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
-<td><p><span data-ttu-id="0954e-183">Posiciona o formulário de lista de produtos no canto inferior direito do formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0954e-183">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-181"><strong>Moveredimensionarjanela</strong></span><span class="sxs-lookup"><span data-stu-id="9bde6-181"><strong>MoveAndSizeWindow</strong></span></span></p></td>
+<td><p><span data-ttu-id="9bde6-182"><strong>Direita</strong>: 0.7799&quot; <strong>para baixo</strong>: 1,8&quot;</span><span class="sxs-lookup"><span data-stu-id="9bde6-182"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
+<td><p><span data-ttu-id="9bde6-183">Posiciona o formulário de lista de produtos no canto inferior direito do formulário fornecedores.</span><span class="sxs-lookup"><span data-stu-id="9bde6-183">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
 </tr>
 </tbody>
 </table>

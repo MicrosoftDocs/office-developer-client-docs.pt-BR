@@ -6,39 +6,39 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
 ms:contentKeyID: 48546493
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23096391566f9d3f7649ef09839900e9ca009af6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f5eb99d19efb14ae78f3623efaf6dd5b2e3d751
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464481"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878322"
 ---
-# <a name="databases-collection-dao"></a><span data-ttu-id="c4b4b-102">Coleção Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="c4b4b-102">Databases Collection (DAO)</span></span>
+# <a name="databases-collection-dao"></a><span data-ttu-id="5504c-102">Coleção Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="5504c-102">Databases Collection (DAO)</span></span>
 
-<span data-ttu-id="c4b4b-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4b4b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5504c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5504c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4b4b-104">Uma coleção **Databases** contém todos os objetos **Database** abertos que foram abertos ou criados em um objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-104">A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.</span></span>
+<span data-ttu-id="5504c-104">Uma coleção **Databases** contém todos os objetos **Database** abertos que foram abertos ou criados em um objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="5504c-104">A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c4b4b-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="c4b4b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5504c-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="5504c-105">Remarks</span></span>
 
-<span data-ttu-id="c4b4b-p101">Quando você abre um objeto **Database** existente ou cria um novo a partir de um **Workspace**, ele é automaticamente acrescentado à coleção **Databases**. Quando você fecha um objeto **Database** com o método **[Close](connection-close-method-dao.md)**, ele é removido da coleção **Databases** mas não excluído do disco. Você deve fechar todos os objetos **Recordset** antes de fechar um objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-p101">When you open an existing **Database** object or create a new one from a **Workspace**, it is automatically appended to the **Databases** collection. When you close a **Database** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Databases** collection but not deleted from disk. You should close all open **Recordset** objects before closing a **Database** object.</span></span>
+<span data-ttu-id="5504c-p101">Quando você abre um objeto **Database** existente ou cria um novo a partir de um **Workspace**, ele é automaticamente acrescentado à coleção **Databases**. Quando você fecha um objeto **Database** com o método **[Close](connection-close-method-dao.md)**, ele é removido da coleção **Databases** mas não excluído do disco. Você deve fechar todos os objetos **Recordset** antes de fechar um objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="5504c-p101">When you open an existing **Database** object or create a new one from a **Workspace**, it is automatically appended to the **Databases** collection. When you close a **Database** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Databases** collection but not deleted from disk. You should close all open **Recordset** objects before closing a **Database** object.</span></span>
 
-<span data-ttu-id="c4b4b-109">Em um espaço de trabalho do Microsoft Access, a configuração da propriedade **Name** de um banco de dados é uma sequência de caracteres que especifica o caminho do arquivo de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-109">In a Microsoft Access workspace, the **Name** property setting of a database is a string that specifies the path of the database file.</span></span>
+<span data-ttu-id="5504c-109">Em um espaço de trabalho do Microsoft Access, a configuração da propriedade **Name** de um banco de dados é uma sequência de caracteres que especifica o caminho do arquivo de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="5504c-109">In a Microsoft Access workspace, the **Name** property setting of a database is a string that specifies the path of the database file.</span></span>
 
-<span data-ttu-id="c4b4b-110">Para fazer referência a um objeto **Database** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c4b4b-110">To refer to a **Database** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="5504c-110">Para fazer referência a um objeto **Database** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="5504c-110">To refer to a **Database** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-- <span data-ttu-id="c4b4b-111">**Databases**(0)</span><span class="sxs-lookup"><span data-stu-id="c4b4b-111">**Databases**(0)</span></span>
+- <span data-ttu-id="5504c-111">**Databases**(0)</span><span class="sxs-lookup"><span data-stu-id="5504c-111">**Databases**(0)</span></span>
 
-- <span data-ttu-id="c4b4b-112">**Bancos de dados** ("*nome*")</span><span class="sxs-lookup"><span data-stu-id="c4b4b-112">**Databases**("*name*")</span></span>
+- <span data-ttu-id="5504c-112">**Bancos de dados** ("*nome*")</span><span class="sxs-lookup"><span data-stu-id="5504c-112">**Databases**("*name*")</span></span>
 
-- <span data-ttu-id="c4b4b-113">**Bancos de dados**\!\[*nome*\]</span><span class="sxs-lookup"><span data-stu-id="c4b4b-113">**Databases**\!\[*name*\]</span></span>
+- <span data-ttu-id="5504c-113">**Bancos de dados**\!\[*nome*\]</span><span class="sxs-lookup"><span data-stu-id="5504c-113">**Databases**\!\[*name*\]</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c4b4b-p102">[!OBSERVAçãO] Você pode abrir a mesma fonte de dados ou banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e referir-se a eles pelo nome da variável.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-p102">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="5504c-p102">[!OBSERVAçãO] Você pode abrir a mesma fonte de dados ou banco de dados mais de uma vez, criando nomes duplicados na coleção **Databases**. Você deve atribuir objetos **Database** a variáveis de objeto e referir-se a eles pelo nome da variável.</span><span class="sxs-lookup"><span data-stu-id="5504c-p102">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection. You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c4b4b-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c4b4b-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5504c-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="5504c-116">Example</span></span>
 
-<span data-ttu-id="c4b4b-p103">Este exemplo cria um novo objeto **Database** e abre um objeto **Database** existente no objeto **Workspace** padrão. Em seguida, ele enumera a coleção **Database** e a coleção **Properties** de cada objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-p103">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object. Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
+<span data-ttu-id="5504c-p103">Este exemplo cria um novo objeto **Database** e abre um objeto **Database** existente no objeto **Workspace** padrão. Em seguida, ele enumera a coleção **Database** e a coleção **Properties** de cada objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="5504c-p103">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object. Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
 
 ```vb 
 Sub DatabaseObjectX() 
@@ -85,7 +85,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="c4b4b-119">Este exemplo usa o **CreateDatabase** para criar um objeto **Database** novo e criptografado.</span><span class="sxs-lookup"><span data-stu-id="c4b4b-119">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
+<span data-ttu-id="5504c-119">Este exemplo usa o **CreateDatabase** para criar um objeto **Database** novo e criptografado.</span><span class="sxs-lookup"><span data-stu-id="5504c-119">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
 
 ```vb
     Sub CreateDatabaseX() 

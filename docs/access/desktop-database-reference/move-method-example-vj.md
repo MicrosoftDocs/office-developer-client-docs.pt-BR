@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249558(v=office.15)
 ms:contentKeyID: 48545956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 246f346ffedfed6213d6df0fa7829447d2dbb631
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 778f942098d97d1e8e4c8e75f2511af06191ac30
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861496"
+ms.locfileid: "25877244"
 ---
-# <a name="move-method-example-vj"></a><span data-ttu-id="ec0da-102">Exemplo do método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ec0da-102">Move method example (VJ++)</span></span>
+# <a name="move-method-example-vj"></a><span data-ttu-id="9e84e-102">Exemplo do método Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9e84e-102">Move method example (VJ++)</span></span>
 
 
-<span data-ttu-id="ec0da-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec0da-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9e84e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e84e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ec0da-104">Este exemplo usa o método [Move](move-method-ado.md) para posicionar o ponteiro do registro com base na entrada do usuário.</span><span class="sxs-lookup"><span data-stu-id="ec0da-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="9e84e-104">Este exemplo usa o método [Move](move-method-ado.md) para posicionar o ponteiro do registro com base na entrada do usuário.</span><span class="sxs-lookup"><span data-stu-id="9e84e-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```java 
  

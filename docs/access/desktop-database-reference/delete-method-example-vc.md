@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9bf844c4290750bacf860bf407f3feee18ae0d9a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 98fe1602be906c35f46db30c7d2a19723f981e1f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863707"
+ms.locfileid: "25879841"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="4ad95-102">Exemplo do método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="4ad95-102">Delete method example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="479aa-102">Exemplo do método Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="479aa-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="4ad95-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ad95-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="479aa-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="479aa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4ad95-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="4ad95-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="479aa-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="479aa-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -293,7 +293,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="4ad95-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="4ad95-105">**DeleteX.h**</span></span>
+<span data-ttu-id="479aa-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="479aa-105">**DeleteX.h**</span></span>
 
 ```cpp 
  

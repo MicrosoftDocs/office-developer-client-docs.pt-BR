@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="cf7e2-101"><<<<<<< Título cabeça: TOCTitle de exemplo da propriedade Source (VJ + +): exemplo da propriedade Source (VJ + +) === título: exemplo da propriedade Source (VJ + +) TOCTitle: exemplo da propriedade Source (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="cf7e2-101"><<<<<<< HEAD title: Source Property Example (VJ++) TOCTitle: Source Property Example (VJ++) ======= title: Source property example (VJ++) TOCTitle: Source property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="cf7e2-102">ms:assetid de mestre: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: ms.date 48547821: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="cf7e2-102">master ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: 48547821 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo da propriedade Source (VJ++)
+TOCTitle: Source property example (VJ++)
+ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
+ms:contentKeyID: 48547821
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 032a6804d2976ac6eca1c4fc24cff0555aa949cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875704"
 ---
-
-<span data-ttu-id="cf7e2-103"><<<<<<< Cabeça</span><span class="sxs-lookup"><span data-stu-id="cf7e2-103"><<<<<<< HEAD</span></span>
-# <a name="source-property-example-vj"></a><span data-ttu-id="cf7e2-104">Exemplo da propriedade Source (VJ++)</span><span class="sxs-lookup"><span data-stu-id="cf7e2-104">Source Property Example (VJ++)</span></span>
-=======
-# <a name="source-property-example-vj"></a><span data-ttu-id="cf7e2-105">Exemplo da propriedade Source (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="cf7e2-105">Source property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="cf7e2-106">mestre</span><span class="sxs-lookup"><span data-stu-id="cf7e2-106">master</span></span>
+# <a name="source-property-example-vj"></a><span data-ttu-id="23c6c-102">Exemplo da propriedade Source (VJ++)</span><span class="sxs-lookup"><span data-stu-id="23c6c-102">Source property example (VJ++)</span></span>
 
 
-<span data-ttu-id="cf7e2-107">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf7e2-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="23c6c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="23c6c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cf7e2-108">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="cf7e2-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="23c6c-104">Este exemplo demonstra a propriedade [Source](source-property-ado-recordset.md) ao abrir três objetos [Recordset](recordset-object-ado.md) com base em diferentes fontes de dados.</span><span class="sxs-lookup"><span data-stu-id="23c6c-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```java 
  

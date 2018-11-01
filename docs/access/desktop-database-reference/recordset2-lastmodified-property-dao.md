@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
 ms:contentKeyID: 48543557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09562d9bcdffb85d3e97a6aca72fa3b34411e5a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b6c3427f22e3f92082f1aa61dfbda17bb21a4209
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25463853"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877853"
 ---
-# <a name="recordset2lastmodified-property-dao"></a><span data-ttu-id="e0da7-102">Propriedade Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0da7-102">Recordset2.LastModified Property (DAO)</span></span>
+# <a name="recordset2lastmodified-property-dao"></a><span data-ttu-id="42b7b-102">Propriedade Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="42b7b-102">Recordset2.LastModified Property (DAO)</span></span>
 
 
-<span data-ttu-id="e0da7-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0da7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="42b7b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="42b7b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e0da7-104">Retorna um bookmark que indica o registro adicionado ou alterado mais recentemente.</span><span class="sxs-lookup"><span data-stu-id="e0da7-104">Returns a ookmark indicating the most recently added or changed record.</span></span>
+<span data-ttu-id="42b7b-104">Retorna um bookmark que indica o registro adicionado ou alterado mais recentemente.</span><span class="sxs-lookup"><span data-stu-id="42b7b-104">Returns a ookmark indicating the most recently added or changed record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0da7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e0da7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="42b7b-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="42b7b-105">Syntax</span></span>
 
-<span data-ttu-id="e0da7-106">*expressão* . LastModified</span><span class="sxs-lookup"><span data-stu-id="e0da7-106">*expression* .LastModified</span></span>
+<span data-ttu-id="42b7b-106">*expressão* . LastModified</span><span class="sxs-lookup"><span data-stu-id="42b7b-106">*expression* .LastModified</span></span>
 
-<span data-ttu-id="e0da7-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="e0da7-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="42b7b-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="42b7b-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e0da7-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="e0da7-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42b7b-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="42b7b-108">Remarks</span></span>
 
-<span data-ttu-id="e0da7-p101">Use a propriedade **LastModified** para se mover até o registro adicionado ou atualizado mais recentemente. Use a propriedade **LastModified** com objetos **[Recordset](recordset-object-dao.md)** do tipo tabela e dynaset. Um registro deve ser adicionado ou modificado no próprio objeto **Recordset** para a propriedade **LastModified** ter um valor.</span><span class="sxs-lookup"><span data-stu-id="e0da7-p101">You can use the **LastModified** property to move to the most recently added or updated record. Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects. A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
+<span data-ttu-id="42b7b-p101">Use a propriedade **LastModified** para se mover até o registro adicionado ou atualizado mais recentemente. Use a propriedade **LastModified** com objetos **[Recordset](recordset-object-dao.md)** do tipo tabela e dynaset. Um registro deve ser adicionado ou modificado no próprio objeto **Recordset** para a propriedade **LastModified** ter um valor.</span><span class="sxs-lookup"><span data-stu-id="42b7b-p101">You can use the **LastModified** property to move to the most recently added or updated record. Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects. A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e0da7-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e0da7-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="42b7b-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="42b7b-112">Example</span></span>
 
-<span data-ttu-id="e0da7-113">Este exemplo usa a propriedade **LastModified** para mover o ponteiro do registro atual para o registro modificado e para o registro recentemente criado.</span><span class="sxs-lookup"><span data-stu-id="e0da7-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
+<span data-ttu-id="42b7b-113">Este exemplo usa a propriedade **LastModified** para mover o ponteiro do registro atual para o registro modificado e para o registro recentemente criado.</span><span class="sxs-lookup"><span data-stu-id="42b7b-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
 
 ```vb
     Sub LastModifiedX() 
@@ -93,7 +93,7 @@ ms.locfileid: "25463853"
 
 <br/>
 
-<span data-ttu-id="e0da7-p102">Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="e0da7-p102">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
+<span data-ttu-id="42b7b-p102">Este exemplo usa o método **AddNew** para criar um novo registro com o nome especificado. A função AddName é necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="42b7b-p102">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
 
 ```vb
     Sub AddNewX() 

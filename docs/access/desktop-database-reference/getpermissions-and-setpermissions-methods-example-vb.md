@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249649(v=office.15)
 ms:contentKeyID: 48546390
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fed0f589379f86f6e3018a1f6c6c84c0fea29813
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 953b4de8233b4c6b6271b69eed797422fe8b1505
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863924"
+ms.locfileid: "25888087"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="f3945-102">Exemplo dos métodos GetPermissions e SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="f3945-102">GetPermissions and SetPermissions methods example (VB)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="b31f6-102">Exemplo dos métodos GetPermissions e SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="b31f6-102">GetPermissions and SetPermissions methods example (VB)</span></span>
 
 
-<span data-ttu-id="f3945-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3945-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b31f6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b31f6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f3945-p101">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md). O código a seguir dá ao usuário Admin acesso total à tabela Orders.</span><span class="sxs-lookup"><span data-stu-id="f3945-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access for the Orders table to the Admin user.</span></span>
+<span data-ttu-id="b31f6-p101">Este exemplo demonstra os métodos [GetPermissions](getpermissions-method-adox.md) e [SetPermissions](setpermissions-method-adox.md). O código a seguir dá ao usuário Admin acesso total à tabela Orders.</span><span class="sxs-lookup"><span data-stu-id="b31f6-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access for the Orders table to the Admin user.</span></span>
 
 ```vb 
  

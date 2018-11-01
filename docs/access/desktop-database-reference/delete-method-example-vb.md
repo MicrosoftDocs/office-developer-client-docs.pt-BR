@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250023(v=office.15)
 ms:contentKeyID: 48547791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d798a991638bfe3bb960dc731a2da4f70f04bee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2ed9872c7eec702527b4aedb63169a4b9ee14c95
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860242"
+ms.locfileid: "25879029"
 ---
-# <a name="delete-method-example-vb"></a><span data-ttu-id="8b700-102">Exemplo do método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="8b700-102">Delete method example (VB)</span></span>
+# <a name="delete-method-example-vb"></a><span data-ttu-id="5a4b3-102">Exemplo do método Delete (VB)</span><span class="sxs-lookup"><span data-stu-id="5a4b3-102">Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="8b700-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b700-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5a4b3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a4b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8b700-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8b700-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="5a4b3-104">Este exemplo utiliza o método [Delete](delete-method-ado-recordset.md) para remover um registro especificado de um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="5a4b3-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

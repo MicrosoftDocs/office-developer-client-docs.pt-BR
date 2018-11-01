@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249744(v=office.15)
 ms:contentKeyID: 48546732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 987c9ac2f07daf24e224e384f3f85db08eace17d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 58f66bb9c03dce1e762aa2310b527c11fd1fe408
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863788"
+ms.locfileid: "25868585"
 ---
-# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="c7297-102">Exemplo dos métodos Update e CancelUpdate (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c7297-102">Update and CancelUpdate methods example (VJ++)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="6d8d7-102">Exemplo dos métodos Update e CancelUpdate (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6d8d7-102">Update and CancelUpdate methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="c7297-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7297-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6d8d7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d8d7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c7297-104">Este exemplo demonstra o método [Update](update-method-ado.md) em conjunto com o método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c7297-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="6d8d7-104">Este exemplo demonstra o método [Update](update-method-ado.md) em conjunto com o método [CancelUpdate](cancelupdate-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6d8d7-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```java 
  

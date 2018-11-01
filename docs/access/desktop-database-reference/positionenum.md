@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
 ms:contentKeyID: 48543907
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ba1756b6335b8b290fb4ff0942426c50cb08e87c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: aff2956659d71606b8da7fc206bf91501f091d2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861481"
+ms.locfileid: "25867958"
 ---
-# <a name="positionenum"></a><span data-ttu-id="37105-102">PositionEnum</span><span class="sxs-lookup"><span data-stu-id="37105-102">PositionEnum</span></span>
+# <a name="positionenum"></a><span data-ttu-id="309f3-102">PositionEnum</span><span class="sxs-lookup"><span data-stu-id="309f3-102">PositionEnum</span></span>
 
-<span data-ttu-id="37105-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="37105-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="309f3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="309f3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="37105-104">Especifica a posição atual do ponteiro do registro em um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="37105-104">Specifies the current position of the record pointer within a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="309f3-104">Especifica a posição atual do ponteiro do registro em um [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="309f3-104">Specifies the current position of the record pointer within a [Recordset](recordset-object-ado.md).</span></span>
 
 <br/>
 
@@ -29,34 +29,34 @@ ms.locfileid: "25861481"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="37105-105">Constant</span><span class="sxs-lookup"><span data-stu-id="37105-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="37105-106">Valor</span><span class="sxs-lookup"><span data-stu-id="37105-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="37105-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="37105-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="309f3-105">Constant</span><span class="sxs-lookup"><span data-stu-id="309f3-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="309f3-106">Valor</span><span class="sxs-lookup"><span data-stu-id="309f3-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="309f3-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="309f3-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37105-108"><strong>adPosBOF</strong></span><span class="sxs-lookup"><span data-stu-id="37105-108"><strong>adPosBOF</strong></span></span></p></td>
-<td><p><span data-ttu-id="37105-109">-2</span><span class="sxs-lookup"><span data-stu-id="37105-109">-2</span></span></p></td>
-<td><p><span data-ttu-id="37105-110">Indica que o ponteiro de registro atual está em BOF (ou seja, a propriedade <a href="bof-eof-properties-ado.md">BOF</a> é <strong>Verdadeira</strong>).</span><span class="sxs-lookup"><span data-stu-id="37105-110">Indicates that the current record pointer is at BOF (that is, the <a href="bof-eof-properties-ado.md">BOF</a> property is <strong>True</strong>).</span></span></p></td>
+<td><p><span data-ttu-id="309f3-108"><strong>adPosBOF</strong></span><span class="sxs-lookup"><span data-stu-id="309f3-108"><strong>adPosBOF</strong></span></span></p></td>
+<td><p><span data-ttu-id="309f3-109">-2</span><span class="sxs-lookup"><span data-stu-id="309f3-109">-2</span></span></p></td>
+<td><p><span data-ttu-id="309f3-110">Indica que o ponteiro de registro atual está em BOF (ou seja, a propriedade <a href="bof-eof-properties-ado.md">BOF</a> é <strong>Verdadeira</strong>).</span><span class="sxs-lookup"><span data-stu-id="309f3-110">Indicates that the current record pointer is at BOF (that is, the <a href="bof-eof-properties-ado.md">BOF</a> property is <strong>True</strong>).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37105-111"><strong>adPosEOF</strong></span><span class="sxs-lookup"><span data-stu-id="37105-111"><strong>adPosEOF</strong></span></span></p></td>
-<td><p><span data-ttu-id="37105-112">-3</span><span class="sxs-lookup"><span data-stu-id="37105-112">-3</span></span></p></td>
-<td><p><span data-ttu-id="37105-113">Indica que o ponteiro de registro atual está em EOF (ou seja, a propriedade <a href="bof-eof-properties-ado.md">EOF</a> é <strong>Verdadeira</strong>).</span><span class="sxs-lookup"><span data-stu-id="37105-113">Indicates that the current record pointer is at EOF (that is, the <a href="bof-eof-properties-ado.md">EOF</a> property is <strong>True</strong>).</span></span></p></td>
+<td><p><span data-ttu-id="309f3-111"><strong>adPosEOF</strong></span><span class="sxs-lookup"><span data-stu-id="309f3-111"><strong>adPosEOF</strong></span></span></p></td>
+<td><p><span data-ttu-id="309f3-112">-3</span><span class="sxs-lookup"><span data-stu-id="309f3-112">-3</span></span></p></td>
+<td><p><span data-ttu-id="309f3-113">Indica que o ponteiro de registro atual está em EOF (ou seja, a propriedade <a href="bof-eof-properties-ado.md">EOF</a> é <strong>Verdadeira</strong>).</span><span class="sxs-lookup"><span data-stu-id="309f3-113">Indicates that the current record pointer is at EOF (that is, the <a href="bof-eof-properties-ado.md">EOF</a> property is <strong>True</strong>).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37105-114"><strong>adPosUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="37105-114"><strong>adPosUnknown</strong></span></span></p></td>
-<td><p><span data-ttu-id="37105-115">-1</span><span class="sxs-lookup"><span data-stu-id="37105-115">-1</span></span></p></td>
-<td><p><span data-ttu-id="37105-116">Indica que o <strong>Recordset</strong> está vazio, a posição atual é desconhecida ou o provedor não oferece suporte à propriedade <a href="absolutepage-property-ado.md">AbsolutePage</a> ou <a href="absoluteposition-property-ado.md">AbsolutePosition</a>.</span><span class="sxs-lookup"><span data-stu-id="37105-116">Indicates that the <strong>Recordset</strong> is empty, the current position is unknown, or the provider does not support the <a href="absolutepage-property-ado.md">AbsolutePage</a> or <a href="absoluteposition-property-ado.md">AbsolutePosition</a> property.</span></span></p></td>
+<td><p><span data-ttu-id="309f3-114"><strong>adPosUnknown</strong></span><span class="sxs-lookup"><span data-stu-id="309f3-114"><strong>adPosUnknown</strong></span></span></p></td>
+<td><p><span data-ttu-id="309f3-115">-1</span><span class="sxs-lookup"><span data-stu-id="309f3-115">-1</span></span></p></td>
+<td><p><span data-ttu-id="309f3-116">Indica que o <strong>Recordset</strong> está vazio, a posição atual é desconhecida ou o provedor não oferece suporte à propriedade <a href="absolutepage-property-ado.md">AbsolutePage</a> ou <a href="absoluteposition-property-ado.md">AbsolutePosition</a>.</span><span class="sxs-lookup"><span data-stu-id="309f3-116">Indicates that the <strong>Recordset</strong> is empty, the current position is unknown, or the provider does not support the <a href="absolutepage-property-ado.md">AbsolutePage</a> or <a href="absoluteposition-property-ado.md">AbsolutePosition</a> property.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="37105-117">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="37105-117">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="309f3-117">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="309f3-117">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="37105-118">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="37105-118">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="309f3-118">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="309f3-118">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -64,18 +64,18 @@ ms.locfileid: "25861481"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="37105-119">Constante</span><span class="sxs-lookup"><span data-stu-id="37105-119">Constant</span></span></p></th>
+<th><p><span data-ttu-id="309f3-119">Constante</span><span class="sxs-lookup"><span data-stu-id="309f3-119">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37105-120">AdoEnums.Position.BOF</span><span class="sxs-lookup"><span data-stu-id="37105-120">AdoEnums.Position.BOF</span></span></p></td>
+<td><p><span data-ttu-id="309f3-120">AdoEnums.Position.BOF</span><span class="sxs-lookup"><span data-stu-id="309f3-120">AdoEnums.Position.BOF</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37105-121">AdoEnums.Position.EOF</span><span class="sxs-lookup"><span data-stu-id="37105-121">AdoEnums.Position.EOF</span></span></p></td>
+<td><p><span data-ttu-id="309f3-121">AdoEnums.Position.EOF</span><span class="sxs-lookup"><span data-stu-id="309f3-121">AdoEnums.Position.EOF</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37105-122">AdoEnums.Position.UNKNOWN</span><span class="sxs-lookup"><span data-stu-id="37105-122">AdoEnums.Position.UNKNOWN</span></span></p></td>
+<td><p><span data-ttu-id="309f3-122">AdoEnums.Position.UNKNOWN</span><span class="sxs-lookup"><span data-stu-id="309f3-122">AdoEnums.Position.UNKNOWN</span></span></p></td>
 </tr>
 </tbody>
 </table>

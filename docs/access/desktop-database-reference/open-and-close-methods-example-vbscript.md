@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249513(v=office.15)
 ms:contentKeyID: 48545816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffcf71925b98fc1c78ea56fd0d342a650ccbfb01
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ca3bb9d5cf5286abdabe6448b1f839b8c391564d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863028"
+ms.locfileid: "25876222"
 ---
-# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="8498e-102">Exemplo dos métodos Open e Close (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8498e-102">Open and Close methods example (VBScript)</span></span>
+# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="84202-102">Exemplo dos métodos Open e Close (VBScript)</span><span class="sxs-lookup"><span data-stu-id="84202-102">Open and Close methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="8498e-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8498e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="84202-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="84202-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8498e-104">Este exemplo utiliza os métodos [Open](open-method-ado-recordset.md) e [Close](close-method-ado.md) nos objetos [Recordset](recordset-object-ado.md) e [Connection](connection-object-ado.md) que foram abertos.</span><span class="sxs-lookup"><span data-stu-id="8498e-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="84202-104">Este exemplo utiliza os métodos [Open](open-method-ado-recordset.md) e [Close](close-method-ado.md) nos objetos [Recordset](recordset-object-ado.md) e [Connection](connection-object-ado.md) que foram abertos.</span><span class="sxs-lookup"><span data-stu-id="84202-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
-<span data-ttu-id="8498e-p101">Utilize o exemplo a seguir em um Active Server Page (ASP). Utilize **Find** para localizar o arquivo Adovbs.inc e coloque-o no diretório que planeja utilizar. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **OpenVBS.asp**. É possível ver o resultado em qualquer navegador.</span><span class="sxs-lookup"><span data-stu-id="8498e-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="84202-p101">Utilize o exemplo a seguir em um Active Server Page (ASP). Utilize **Find** para localizar o arquivo Adovbs.inc e coloque-o no diretório que planeja utilizar. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **OpenVBS.asp**. É possível ver o resultado em qualquer navegador.</span><span class="sxs-lookup"><span data-stu-id="84202-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
 
 ```vb 
  
