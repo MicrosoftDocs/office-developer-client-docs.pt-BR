@@ -6,103 +6,103 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0076eae8a930688219da413a31d73a376bc53a39
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25464835"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868781"
 ---
-# <a name="using-visual-c-extensions"></a><span data-ttu-id="3a01c-102">Usando as extensões do Visual C++</span><span class="sxs-lookup"><span data-stu-id="3a01c-102">Using Visual C++ Extensions</span></span>
+# <a name="using-visual-c-extensions"></a><span data-ttu-id="c8065-102">Usando as extensões do Visual C++</span><span class="sxs-lookup"><span data-stu-id="c8065-102">Using Visual C++ Extensions</span></span>
 
 
-<span data-ttu-id="3a01c-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a01c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c8065-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8065-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="the-iadorecordbinding-interface"></a><span data-ttu-id="3a01c-104">A interface IADORecordBinding</span><span class="sxs-lookup"><span data-stu-id="3a01c-104">The IADORecordBinding Interface</span></span>
+## <a name="the-iadorecordbinding-interface"></a><span data-ttu-id="c8065-104">A interface IADORecordBinding</span><span class="sxs-lookup"><span data-stu-id="c8065-104">The IADORecordBinding Interface</span></span>
 
-<span data-ttu-id="3a01c-p101">As extensões do Microsoft Visual C++ para ADO associam, ou acoplam, os campos de um objeto [Recordset](recordset-object-ado.md) às variáveis C/C++. Sempre que a linha atual do **Recordset** acoplado é alterada, todos os campos acoplados no **Recordset** são copiados para essas variáveis. Se necessário, os dados copiados são convertidos no tipo de dados declarado da variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p101">The Microsoft Visual C++ Extensions for ADO associate, or bind, fields of a [Recordset](recordset-object-ado.md) object to C/C++ variables. Whenever the current row of the bound **Recordset** changes, all the bound fields in the **Recordset** are copied to the C/C++ variables. If necessary, the copied data is converted to the declared data type of the C/C++ variable.</span></span>
+<span data-ttu-id="c8065-p101">As extensões do Microsoft Visual C++ para ADO associam, ou acoplam, os campos de um objeto [Recordset](recordset-object-ado.md) às variáveis C/C++. Sempre que a linha atual do **Recordset** acoplado é alterada, todos os campos acoplados no **Recordset** são copiados para essas variáveis. Se necessário, os dados copiados são convertidos no tipo de dados declarado da variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-p101">The Microsoft Visual C++ Extensions for ADO associate, or bind, fields of a [Recordset](recordset-object-ado.md) object to C/C++ variables. Whenever the current row of the bound **Recordset** changes, all the bound fields in the **Recordset** are copied to the C/C++ variables. If necessary, the copied data is converted to the declared data type of the C/C++ variable.</span></span>
 
-<span data-ttu-id="3a01c-p102">O método **BindToRecordset** da interface **IADORecordBinding** acopla campos às variáveis C/C++. O método **AddNew** adiciona uma nova linha ao **Recordset** acoplado. O método **Update** preenche os campos nas novas linhas de **Recordset** ou atualiza os campos nas linhas existentes, com o valor das variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p102">The **BindToRecordset** method of the **IADORecordBinding** interface binds fields to C/C++ variables. The **AddNew** method adds a new row to the bound **Recordset**. The **Update** method populates fields in new rows of the **Recordset**, or updates fields in existing rows, with the value of the C/C++ variables.</span></span>
+<span data-ttu-id="c8065-p102">O método **BindToRecordset** da interface **IADORecordBinding** acopla campos às variáveis C/C++. O método **AddNew** adiciona uma nova linha ao **Recordset** acoplado. O método **Update** preenche os campos nas novas linhas de **Recordset** ou atualiza os campos nas linhas existentes, com o valor das variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-p102">The **BindToRecordset** method of the **IADORecordBinding** interface binds fields to C/C++ variables. The **AddNew** method adds a new row to the bound **Recordset**. The **Update** method populates fields in new rows of the **Recordset**, or updates fields in existing rows, with the value of the C/C++ variables.</span></span>
 
-<span data-ttu-id="3a01c-p103">A interface **IADORecordBinding** é implementada pelo objeto **Recordset**. Não é possível codificar a implementação sozinho.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p103">The **IADORecordBinding** interface is implemented by the **Recordset** object. You do not code the implementation yourself.</span></span>
+<span data-ttu-id="c8065-p103">A interface **IADORecordBinding** é implementada pelo objeto **Recordset**. Não é possível codificar a implementação sozinho.</span><span class="sxs-lookup"><span data-stu-id="c8065-p103">The **IADORecordBinding** interface is implemented by the **Recordset** object. You do not code the implementation yourself.</span></span>
 
-## <a name="binding-entries"></a><span data-ttu-id="3a01c-113">Entradas de ligação</span><span class="sxs-lookup"><span data-stu-id="3a01c-113">Binding Entries</span></span>
+## <a name="binding-entries"></a><span data-ttu-id="c8065-113">Entradas de ligação</span><span class="sxs-lookup"><span data-stu-id="c8065-113">Binding Entries</span></span>
 
-<span data-ttu-id="3a01c-p104">As extensões do Visual C++ para ADO mapeiam os campos de um objeto [Recordset](recordset-object-ado.md) para as variáveis C/C++. A definição de um mapeamento entre um campo e uma variável é chamada *entrada de ligação*. As macros fornecem entradas de ligação para dados numéricos de tamanhos fixo e variável. As entradas de ligação e as variáveis C/C++ são declaradas em uma classe derivada da classe **CADORecordBinding** de extensões do Visual C++. A classe **CADORecordBinding** é definida internamente pelas macros de entrada de ligação.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p104">The Visual C++ Extensions for ADO map fields of a [Recordset](recordset-object-ado.md) object to C/C++ variables. The definition of a mapping between a field and a variable is called a *binding entry*. Macros provide binding entries for numeric, fixed-length, and variable-length data. The binding entries and C/C++ variables are declared in a class derived from the Visual C++ Extensions class, **CADORecordBinding**. The **CADORecordBinding** class is defined internally by the binding entry macros.</span></span>
+<span data-ttu-id="c8065-p104">As extensões do Visual C++ para ADO mapeiam os campos de um objeto [Recordset](recordset-object-ado.md) para as variáveis C/C++. A definição de um mapeamento entre um campo e uma variável é chamada *entrada de ligação*. As macros fornecem entradas de ligação para dados numéricos de tamanhos fixo e variável. As entradas de ligação e as variáveis C/C++ são declaradas em uma classe derivada da classe **CADORecordBinding** de extensões do Visual C++. A classe **CADORecordBinding** é definida internamente pelas macros de entrada de ligação.</span><span class="sxs-lookup"><span data-stu-id="c8065-p104">The Visual C++ Extensions for ADO map fields of a [Recordset](recordset-object-ado.md) object to C/C++ variables. The definition of a mapping between a field and a variable is called a *binding entry*. Macros provide binding entries for numeric, fixed-length, and variable-length data. The binding entries and C/C++ variables are declared in a class derived from the Visual C++ Extensions class, **CADORecordBinding**. The **CADORecordBinding** class is defined internally by the binding entry macros.</span></span>
 
-<span data-ttu-id="3a01c-p105">O ADO mapeia internamente os parâmetros nessas macros para uma estrutura **DBBINDING** do OLE DB e cria um objeto **Accessor** do OLE DB para gerenciar o movimento e a conversão de dados entre campos e variáveis. O OLE DB define os dados em três partes: um *buffer* para repositório dos dados; um *status* que indica se um campo foi armazenado com êxito no buffer, ou como a variável deve ser restaurada para o campo; e o *comprimento* dos dados. (Para obter mais informações, consulte *OLE DB Programmer's Reference*, capítulo 6: Getting and Setting Data [em inglês].)</span><span class="sxs-lookup"><span data-stu-id="3a01c-p105">ADO internally maps the parameters in these macros to an OLE DB **DBBINDING** structure and creates an OLE DB **Accessor** object to manage the movement and conversion of data between fields and variables. OLE DB defines data as consisting of three parts: A *buffer* where the data is stored; a *status* that indicates whether a field was successfully stored in the buffer, or how the variable should be restored to the field; and the *length* of the data. (See the *OLE DB Programmer's Reference*, Chapter 6: Getting and Setting Data for more information.)</span></span>
+<span data-ttu-id="c8065-p105">O ADO mapeia internamente os parâmetros nessas macros para uma estrutura **DBBINDING** do OLE DB e cria um objeto **Accessor** do OLE DB para gerenciar o movimento e a conversão de dados entre campos e variáveis. O OLE DB define os dados em três partes: um *buffer* para repositório dos dados; um *status* que indica se um campo foi armazenado com êxito no buffer, ou como a variável deve ser restaurada para o campo; e o *comprimento* dos dados. (Para obter mais informações, consulte *OLE DB Programmer's Reference*, capítulo 6: Getting and Setting Data [em inglês].)</span><span class="sxs-lookup"><span data-stu-id="c8065-p105">ADO internally maps the parameters in these macros to an OLE DB **DBBINDING** structure and creates an OLE DB **Accessor** object to manage the movement and conversion of data between fields and variables. OLE DB defines data as consisting of three parts: A *buffer* where the data is stored; a *status* that indicates whether a field was successfully stored in the buffer, or how the variable should be restored to the field; and the *length* of the data. (See the *OLE DB Programmer's Reference*, Chapter 6: Getting and Setting Data for more information.)</span></span>
 
-## <a name="header-file"></a><span data-ttu-id="3a01c-122">Arquivo de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="3a01c-122">Header File</span></span>
+## <a name="header-file"></a><span data-ttu-id="c8065-122">Arquivo de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="c8065-122">Header File</span></span>
 
-<span data-ttu-id="3a01c-123">Inclua o arquivo a seguir em seu aplicativo para usar as extensões do Visual C++ para ADO:</span><span class="sxs-lookup"><span data-stu-id="3a01c-123">Include the following file in your application in order to use the Visual C++ Extensions for ADO:</span></span>
+<span data-ttu-id="c8065-123">Inclua o arquivo a seguir em seu aplicativo para usar as extensões do Visual C++ para ADO:</span><span class="sxs-lookup"><span data-stu-id="c8065-123">Include the following file in your application in order to use the Visual C++ Extensions for ADO:</span></span>
 
 ```cpp 
  
 #include <icrsint.h> 
 ```
 
-## <a name="binding-recordset-fields"></a><span data-ttu-id="3a01c-124">Acoplando campos de Recordset</span><span class="sxs-lookup"><span data-stu-id="3a01c-124">Binding Recordset Fields</span></span>
+## <a name="binding-recordset-fields"></a><span data-ttu-id="c8065-124">Acoplando campos de Recordset</span><span class="sxs-lookup"><span data-stu-id="c8065-124">Binding Recordset Fields</span></span>
 
-<span data-ttu-id="3a01c-125">**Para acoplar campos de Recordset às variáveis C/C++**</span><span class="sxs-lookup"><span data-stu-id="3a01c-125">**To Bind Recordset Fields to C/C++ Variables**</span></span>
+<span data-ttu-id="c8065-125">**Para acoplar campos de Recordset às variáveis C/C++**</span><span class="sxs-lookup"><span data-stu-id="c8065-125">**To Bind Recordset Fields to C/C++ Variables**</span></span>
 
-1.  <span data-ttu-id="3a01c-126">Crie uma classe derivada da classe **CADORecordBinding**.</span><span class="sxs-lookup"><span data-stu-id="3a01c-126">Create a class derived from the **CADORecordBinding** class.</span></span>
+1.  <span data-ttu-id="c8065-126">Crie uma classe derivada da classe **CADORecordBinding**.</span><span class="sxs-lookup"><span data-stu-id="c8065-126">Create a class derived from the **CADORecordBinding** class.</span></span>
 
-2.  <span data-ttu-id="3a01c-127">Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada.</span><span class="sxs-lookup"><span data-stu-id="3a01c-127">Specify binding entries and corresponding C/C++ variables in the derived class.</span></span> <span data-ttu-id="3a01c-128">Colchete as entradas de ligação entre **começar\_ADO\_VINCULAÇÃO** e **END\_ADO\_VINCULAÇÃO** macros.</span><span class="sxs-lookup"><span data-stu-id="3a01c-128">Bracket the binding entries between **BEGIN\_ADO\_BINDING** and **END\_ADO\_BINDING** macros.</span></span> <span data-ttu-id="3a01c-129">Não termine as macros com vírgula ou ponto-e-vírgula.</span><span class="sxs-lookup"><span data-stu-id="3a01c-129">Do not terminate the macros with commas or semicolons.</span></span> <span data-ttu-id="3a01c-130">Delimitadores apropriados são especificados automaticamente por cada macro.</span><span class="sxs-lookup"><span data-stu-id="3a01c-130">Appropriate delimiters are specified automatically by each macro.</span></span> <span data-ttu-id="3a01c-131">Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-131">Specify one binding entry for each field to be mapped to a C/C++ variable.</span></span> <span data-ttu-id="3a01c-132">Use um membro apropriado do **ADO\_def\_comprimento\_entrada**, **ADO\_numéricos\_entrada**, ou **ADO\_VARIÁVEL\_comprimento\_entrada** família de macros.</span><span class="sxs-lookup"><span data-stu-id="3a01c-132">Use an appropriate member from the **ADO\_FIXED\_LENGTH\_ENTRY**, **ADO\_NUMERIC\_ENTRY**, or **ADO\_VARIABLE\_LENGTH\_ENTRY** family of macros.</span></span>
+2.  <span data-ttu-id="c8065-127">Especifique as entradas de ligação e as variáveis C/C++ correspondentes na classe derivada.</span><span class="sxs-lookup"><span data-stu-id="c8065-127">Specify binding entries and corresponding C/C++ variables in the derived class.</span></span> <span data-ttu-id="c8065-128">Colchete as entradas de ligação entre **começar\_ADO\_VINCULAÇÃO** e **END\_ADO\_VINCULAÇÃO** macros.</span><span class="sxs-lookup"><span data-stu-id="c8065-128">Bracket the binding entries between **BEGIN\_ADO\_BINDING** and **END\_ADO\_BINDING** macros.</span></span> <span data-ttu-id="c8065-129">Não termine as macros com vírgula ou ponto-e-vírgula.</span><span class="sxs-lookup"><span data-stu-id="c8065-129">Do not terminate the macros with commas or semicolons.</span></span> <span data-ttu-id="c8065-130">Delimitadores apropriados são especificados automaticamente por cada macro.</span><span class="sxs-lookup"><span data-stu-id="c8065-130">Appropriate delimiters are specified automatically by each macro.</span></span> <span data-ttu-id="c8065-131">Especifique uma entrada de ligação para cada campo a ser mapeado para uma variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-131">Specify one binding entry for each field to be mapped to a C/C++ variable.</span></span> <span data-ttu-id="c8065-132">Use um membro apropriado do **ADO\_def\_comprimento\_entrada**, **ADO\_numéricos\_entrada**, ou **ADO\_VARIÁVEL\_comprimento\_entrada** família de macros.</span><span class="sxs-lookup"><span data-stu-id="c8065-132">Use an appropriate member from the **ADO\_FIXED\_LENGTH\_ENTRY**, **ADO\_NUMERIC\_ENTRY**, or **ADO\_VARIABLE\_LENGTH\_ENTRY** family of macros.</span></span>
 
-3.  <span data-ttu-id="3a01c-p107">No seu aplicativo, crie uma instância da classe derivada de **CADORecordBinding**. Obtenha a interface **IADORecordBinding** de **Recordset**. Em seguida, chame o método **BindToRecordset** para acoplar os campos **Recordset** às variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p107">In your application, create an instance of the class derived from **CADORecordBinding**. Get the **IADORecordBinding** interface from the **Recordset**. Then call the **BindToRecordset** method to bind the **Recordset** fields to the C/C++ variables.</span></span>
+3.  <span data-ttu-id="c8065-p107">No seu aplicativo, crie uma instância da classe derivada de **CADORecordBinding**. Obtenha a interface **IADORecordBinding** de **Recordset**. Em seguida, chame o método **BindToRecordset** para acoplar os campos **Recordset** às variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-p107">In your application, create an instance of the class derived from **CADORecordBinding**. Get the **IADORecordBinding** interface from the **Recordset**. Then call the **BindToRecordset** method to bind the **Recordset** fields to the C/C++ variables.</span></span>
 
-<span data-ttu-id="3a01c-136">Consulte o [Exemplo de extensões do Visual C++](visual-c-extensions-example.md) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="3a01c-136">See the [Visual C++ Extensions Example](visual-c-extensions-example.md) for more information.</span></span>
+<span data-ttu-id="c8065-136">Consulte o [Exemplo de extensões do Visual C++](visual-c-extensions-example.md) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="c8065-136">See the [Visual C++ Extensions Example](visual-c-extensions-example.md) for more information.</span></span>
 
-## <a name="interface-methods"></a><span data-ttu-id="3a01c-137">Métodos de interface</span><span class="sxs-lookup"><span data-stu-id="3a01c-137">Interface Methods</span></span>
+## <a name="interface-methods"></a><span data-ttu-id="c8065-137">Métodos de interface</span><span class="sxs-lookup"><span data-stu-id="c8065-137">Interface Methods</span></span>
 
-<span data-ttu-id="3a01c-p108">A interface **IADORecordBinding** possui três métodos: **BindToRecordset**, **AddNew** e **Update**. O único argumento de cada método é um ponteiro para uma instância da classe derivada de **CADORecordBinding**. Portanto, os métodos **AddNew** e **Update** não podem especificar nenhum parâmetro de seus homônimos de método ADO.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p108">The **IADORecordBinding** interface has three methods: **BindToRecordset**, **AddNew**, and **Update**. The sole argument to each method is a pointer to an instance of the class derived from **CADORecordBinding**. Therefore, the **AddNew** and **Update** methods cannot specify any of the parameters of their ADO method namesakes.</span></span>
+<span data-ttu-id="c8065-p108">A interface **IADORecordBinding** possui três métodos: **BindToRecordset**, **AddNew** e **Update**. O único argumento de cada método é um ponteiro para uma instância da classe derivada de **CADORecordBinding**. Portanto, os métodos **AddNew** e **Update** não podem especificar nenhum parâmetro de seus homônimos de método ADO.</span><span class="sxs-lookup"><span data-stu-id="c8065-p108">The **IADORecordBinding** interface has three methods: **BindToRecordset**, **AddNew**, and **Update**. The sole argument to each method is a pointer to an instance of the class derived from **CADORecordBinding**. Therefore, the **AddNew** and **Update** methods cannot specify any of the parameters of their ADO method namesakes.</span></span>
 
-<span data-ttu-id="3a01c-141">**Sintaxe**</span><span class="sxs-lookup"><span data-stu-id="3a01c-141">**Syntax**</span></span>
+<span data-ttu-id="c8065-141">**Sintaxe**</span><span class="sxs-lookup"><span data-stu-id="c8065-141">**Syntax**</span></span>
 
-<span data-ttu-id="3a01c-142">O método **BindToRecordset** associa os campos **Recordset** às variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-142">The **BindToRecordset** method associates the **Recordset** fields with C/C++ variables.</span></span>
+<span data-ttu-id="c8065-142">O método **BindToRecordset** associa os campos **Recordset** às variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-142">The **BindToRecordset** method associates the **Recordset** fields with C/C++ variables.</span></span>
 
 `BindToRecordset(CADORecordBinding *binding)` 
 
-<span data-ttu-id="3a01c-143">O método **AddNew** chama seu homônimo, o método ADO [AddNew](addnew-method-ado.md), para adicionar uma nova linha a **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="3a01c-143">The **AddNew** method invokes its namesake, the ADO [AddNew](addnew-method-ado.md) method, to add a new row to the **Recordset**.</span></span>
+<span data-ttu-id="c8065-143">O método **AddNew** chama seu homônimo, o método ADO [AddNew](addnew-method-ado.md), para adicionar uma nova linha a **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c8065-143">The **AddNew** method invokes its namesake, the ADO [AddNew](addnew-method-ado.md) method, to add a new row to the **Recordset**.</span></span>
 
 `AddNew(CADORecordBinding *binding)` 
 
-<span data-ttu-id="3a01c-144">O método **Update** chama seu homônimo, o método ADO [Update](update-method-ado.md), para atualizar o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="3a01c-144">The **Update** method invokes its namesake, the ADO [Update](update-method-ado.md) method, to update the **Recordset**.</span></span>
+<span data-ttu-id="c8065-144">O método **Update** chama seu homônimo, o método ADO [Update](update-method-ado.md), para atualizar o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c8065-144">The **Update** method invokes its namesake, the ADO [Update](update-method-ado.md) method, to update the **Recordset**.</span></span>
 
 `Update(CADORecordBinding *binding)` 
 
-## <a name="binding-entry-macros"></a><span data-ttu-id="3a01c-145">Macros de entrada de ligação</span><span class="sxs-lookup"><span data-stu-id="3a01c-145">Binding Entry Macros</span></span>
+## <a name="binding-entry-macros"></a><span data-ttu-id="c8065-145">Macros de entrada de ligação</span><span class="sxs-lookup"><span data-stu-id="c8065-145">Binding Entry Macros</span></span>
 
-<span data-ttu-id="3a01c-p109">As macros de entrada de ligação definem a associação de um campo **Recordset** e uma variável. Uma macro inicial e uma macro final delimitam o conjunto de entradas de ligação.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p109">Binding entry macros define the association of a **Recordset** field and a variable. A beginning and ending macro delimits the set of binding entries.</span></span>
+<span data-ttu-id="c8065-p109">As macros de entrada de ligação definem a associação de um campo **Recordset** e uma variável. Uma macro inicial e uma macro final delimitam o conjunto de entradas de ligação.</span><span class="sxs-lookup"><span data-stu-id="c8065-p109">Binding entry macros define the association of a **Recordset** field and a variable. A beginning and ending macro delimits the set of binding entries.</span></span>
 
-<span data-ttu-id="3a01c-p110">As famílias de macros são fornecidas para dados de comprimento fixo, como **adDate** ou **adBoolean**; dados numéricos, como **adTinyInt**, **adInteger** ou **adDouble**; e dados de comprimento variável, como **adChar**, **adVarChar** ou **adVarBinary**. Todos os tipos numéricos, exceto **adVarNumeric**, também são tipos de comprimento fixo. Cada família possui conjuntos de parâmetros diferentes, o que permite excluir as informações de ligação que não sejam de seu interesse.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p110">Families of macros are provided for fixed-length data, such as **adDate** or **adBoolean**; numeric data, such as **adTinyInt**, **adInteger**, or **adDouble**; and variable-length data, such as **adChar**, **adVarChar** or **adVarBinary**. All numeric types, except for **adVarNumeric**, are also fixed-length types. Each family has differing sets of parameters so that you can exclude binding information that is of no interest.</span></span>
+<span data-ttu-id="c8065-p110">As famílias de macros são fornecidas para dados de comprimento fixo, como **adDate** ou **adBoolean**; dados numéricos, como **adTinyInt**, **adInteger** ou **adDouble**; e dados de comprimento variável, como **adChar**, **adVarChar** ou **adVarBinary**. Todos os tipos numéricos, exceto **adVarNumeric**, também são tipos de comprimento fixo. Cada família possui conjuntos de parâmetros diferentes, o que permite excluir as informações de ligação que não sejam de seu interesse.</span><span class="sxs-lookup"><span data-stu-id="c8065-p110">Families of macros are provided for fixed-length data, such as **adDate** or **adBoolean**; numeric data, such as **adTinyInt**, **adInteger**, or **adDouble**; and variable-length data, such as **adChar**, **adVarChar** or **adVarBinary**. All numeric types, except for **adVarNumeric**, are also fixed-length types. Each family has differing sets of parameters so that you can exclude binding information that is of no interest.</span></span>
 
-<span data-ttu-id="3a01c-151">Consulte os tipos de dados *OLE DB referência do programador,* apêndice a: para obter informações adicionais.</span><span class="sxs-lookup"><span data-stu-id="3a01c-151">See the *OLE DB Programmer's Reference,* Appendix A: Data Types for additional information.</span></span>
+<span data-ttu-id="c8065-151">Consulte os tipos de dados *OLE DB referência do programador,* apêndice a: para obter informações adicionais.</span><span class="sxs-lookup"><span data-stu-id="c8065-151">See the *OLE DB Programmer's Reference,* Appendix A: Data Types for additional information.</span></span>
 
-<span data-ttu-id="3a01c-152">_**Início das entradas de ligação**_</span><span class="sxs-lookup"><span data-stu-id="3a01c-152">_**Begin Binding Entries**_</span></span>
+<span data-ttu-id="c8065-152">_**Início das entradas de ligação**_</span><span class="sxs-lookup"><span data-stu-id="c8065-152">_**Begin Binding Entries**_</span></span>
 
-<span data-ttu-id="3a01c-153">**COMEÇAR\_ADO\_ASSOCIANDO**(*classe*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-153">**BEGIN\_ADO\_BINDING**(*Class*)</span></span>
+<span data-ttu-id="c8065-153">**COMEÇAR\_ADO\_ASSOCIANDO**(*classe*)</span><span class="sxs-lookup"><span data-stu-id="c8065-153">**BEGIN\_ADO\_BINDING**(*Class*)</span></span>
 
-<span data-ttu-id="3a01c-154">_**Dados de comprimento fixo**_</span><span class="sxs-lookup"><span data-stu-id="3a01c-154">_**Fixed-Length Data**_</span></span>
+<span data-ttu-id="c8065-154">_**Dados de comprimento fixo**_</span><span class="sxs-lookup"><span data-stu-id="c8065-154">_**Fixed-Length Data**_</span></span>
 
-<span data-ttu-id="3a01c-155">**ADO\_def\_comprimento\_entrada**(*Ordinal, DataType, Buffer, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-155">**ADO\_FIXED\_LENGTH\_ENTRY**(*Ordinal, DataType, Buffer, Status, Modify*)</span></span>  
-<span data-ttu-id="3a01c-156">**ADO\_def\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-156">**ADO\_FIXED\_LENGTH\_ENTRY2**(*Ordinal, DataType, Buffer, Modify*)</span></span>
+<span data-ttu-id="c8065-155">**ADO\_def\_comprimento\_entrada**(*Ordinal, DataType, Buffer, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-155">**ADO\_FIXED\_LENGTH\_ENTRY**(*Ordinal, DataType, Buffer, Status, Modify*)</span></span>  
+<span data-ttu-id="c8065-156">**ADO\_def\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-156">**ADO\_FIXED\_LENGTH\_ENTRY2**(*Ordinal, DataType, Buffer, Modify*)</span></span>
 
-<span data-ttu-id="3a01c-157">_**Dados numéricos**_</span><span class="sxs-lookup"><span data-stu-id="3a01c-157">_**Numeric Data**_</span></span>
+<span data-ttu-id="c8065-157">_**Dados numéricos**_</span><span class="sxs-lookup"><span data-stu-id="c8065-157">_**Numeric Data**_</span></span>
 
-<span data-ttu-id="3a01c-158">**ADO\_numéricos\_entrada**(*Ordinal, DataType, Buffer, precisão, escala, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-158">**ADO\_NUMERIC\_ENTRY**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)</span></span>  
-<span data-ttu-id="3a01c-159">**ADO\_numéricos\_Entrada2**(*Ordinal, DataType, Buffer, precisão, escala, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-159">**ADO\_NUMERIC\_ENTRY2**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)</span></span>
+<span data-ttu-id="c8065-158">**ADO\_numéricos\_entrada**(*Ordinal, DataType, Buffer, precisão, escala, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-158">**ADO\_NUMERIC\_ENTRY**(*Ordinal, DataType, Buffer, Precision, Scale, Status, Modify*)</span></span>  
+<span data-ttu-id="c8065-159">**ADO\_numéricos\_Entrada2**(*Ordinal, DataType, Buffer, precisão, escala, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-159">**ADO\_NUMERIC\_ENTRY2**(*Ordinal, DataType, Buffer, Precision, Scale, Modify*)</span></span>
 
-<span data-ttu-id="3a01c-160">_**Dados de comprimento variável**_</span><span class="sxs-lookup"><span data-stu-id="3a01c-160">_**Variable-Length Data**_</span></span>
+<span data-ttu-id="c8065-160">_**Dados de comprimento variável**_</span><span class="sxs-lookup"><span data-stu-id="c8065-160">_**Variable-Length Data**_</span></span>
 
-<span data-ttu-id="3a01c-161">**ADO\_VARIÁVEL\_comprimento\_entrada**(*Ordinal, DataType, Buffer, tamanho, Status, comprimento, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-161">**ADO\_VARIABLE\_LENGTH\_ENTRY**(*Ordinal, DataType, Buffer, Size, Status, Length, Modify*)</span></span>  
-<span data-ttu-id="3a01c-162">**ADO\_VARIÁVEL\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, tamanho, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-162">**ADO\_VARIABLE\_LENGTH\_ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)</span></span>  
-<span data-ttu-id="3a01c-163">**ADO\_VARIÁVEL\_comprimento\_Entrada3**(*Ordinal, DataType, Buffer, tamanho, comprimento, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-163">**ADO\_VARIABLE\_LENGTH\_ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)</span></span>  
-<span data-ttu-id="3a01c-164">**ADO\_VARIÁVEL\_comprimento\_Entrada4**(*Ordinal, DataType, Buffer, tamanho, modificar*)</span><span class="sxs-lookup"><span data-stu-id="3a01c-164">**ADO\_VARIABLE\_LENGTH\_ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)</span></span>
+<span data-ttu-id="c8065-161">**ADO\_VARIÁVEL\_comprimento\_entrada**(*Ordinal, DataType, Buffer, tamanho, Status, comprimento, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-161">**ADO\_VARIABLE\_LENGTH\_ENTRY**(*Ordinal, DataType, Buffer, Size, Status, Length, Modify*)</span></span>  
+<span data-ttu-id="c8065-162">**ADO\_VARIÁVEL\_comprimento\_Entrada2**(*Ordinal, DataType, Buffer, tamanho, Status, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-162">**ADO\_VARIABLE\_LENGTH\_ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)</span></span>  
+<span data-ttu-id="c8065-163">**ADO\_VARIÁVEL\_comprimento\_Entrada3**(*Ordinal, DataType, Buffer, tamanho, comprimento, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-163">**ADO\_VARIABLE\_LENGTH\_ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)</span></span>  
+<span data-ttu-id="c8065-164">**ADO\_VARIÁVEL\_comprimento\_Entrada4**(*Ordinal, DataType, Buffer, tamanho, modificar*)</span><span class="sxs-lookup"><span data-stu-id="c8065-164">**ADO\_VARIABLE\_LENGTH\_ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)</span></span>
 
-<span data-ttu-id="3a01c-165">_**Final das entradas de ligação**_</span><span class="sxs-lookup"><span data-stu-id="3a01c-165">_**End Binding Entries**_</span></span>
+<span data-ttu-id="c8065-165">_**Final das entradas de ligação**_</span><span class="sxs-lookup"><span data-stu-id="c8065-165">_**End Binding Entries**_</span></span>
 
-<span data-ttu-id="3a01c-166">**END\_ADO\_ASSOCIANDO** ()</span><span class="sxs-lookup"><span data-stu-id="3a01c-166">**END\_ADO\_BINDING**()</span></span>
+<span data-ttu-id="c8065-166">**END\_ADO\_ASSOCIANDO** ()</span><span class="sxs-lookup"><span data-stu-id="c8065-166">**END\_ADO\_BINDING**()</span></span>
 
 <table>
 <colgroup>
@@ -111,62 +111,62 @@ ms.locfileid: "25464835"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3a01c-167">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="3a01c-167">Parameter</span></span></p></th>
-<th><p><span data-ttu-id="3a01c-168">Descrição</span><span class="sxs-lookup"><span data-stu-id="3a01c-168">Description</span></span></p></th>
+<th><p><span data-ttu-id="c8065-167">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="c8065-167">Parameter</span></span></p></th>
+<th><p><span data-ttu-id="c8065-168">Descrição</span><span class="sxs-lookup"><span data-stu-id="c8065-168">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-169"><em>Classe</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-169"><em>Class</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-170">Classe na qual são definidas as entradas de ligação e as variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-170">Class in which the binding entries and C/C++ variables are defined.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-169"><em>Classe</em></span><span class="sxs-lookup"><span data-stu-id="c8065-169"><em>Class</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-170">Classe na qual são definidas as entradas de ligação e as variáveis C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-170">Class in which the binding entries and C/C++ variables are defined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-171"><em>Ordinal</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-171"><em>Ordinal</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-172">Número ordinal, contado a partir de um, do campo <strong>Recordset</strong> correspondente a sua variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="3a01c-172">Ordinal number, counting from one, of the <strong>Recordset</strong> field corresponding to your C/C++ variable.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-171"><em>Ordinal</em></span><span class="sxs-lookup"><span data-stu-id="c8065-171"><em>Ordinal</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-172">Número ordinal, contado a partir de um, do campo <strong>Recordset</strong> correspondente a sua variável C/C++.</span><span class="sxs-lookup"><span data-stu-id="c8065-172">Ordinal number, counting from one, of the <strong>Recordset</strong> field corresponding to your C/C++ variable.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-173"><em>DataType</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-173"><em>DataType</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-p111">Tipo de dados ADO equivalente da variável C/C++ (consulte <a href="datatypeenum.md">DataTypeEnum</a> para obter uma lista de tipos de dados válidos). Se necessário, o valor do campo <strong>Recordset</strong> será convertido nesse tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p111">Equivalent ADO data type of the C/C++ variable (see <a href="datatypeenum.md">DataTypeEnum</a> for a list of valid data types). The value of the <strong>Recordset</strong> field will be converted to this data type if necessary.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-173"><em>DataType</em></span><span class="sxs-lookup"><span data-stu-id="c8065-173"><em>DataType</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-p111">Tipo de dados ADO equivalente da variável C/C++ (consulte <a href="datatypeenum.md">DataTypeEnum</a> para obter uma lista de tipos de dados válidos). Se necessário, o valor do campo <strong>Recordset</strong> será convertido nesse tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="c8065-p111">Equivalent ADO data type of the C/C++ variable (see <a href="datatypeenum.md">DataTypeEnum</a> for a list of valid data types). The value of the <strong>Recordset</strong> field will be converted to this data type if necessary.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-176"><em>Buffer</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-176"><em>Buffer</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-177">Nome da variável C/C++ de repositório do campo <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="3a01c-177">Name of the C/C++ variable where the <strong>Recordset</strong> field will be stored.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-176"><em>Buffer</em></span><span class="sxs-lookup"><span data-stu-id="c8065-176"><em>Buffer</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-177">Nome da variável C/C++ de repositório do campo <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="c8065-177">Name of the C/C++ variable where the <strong>Recordset</strong> field will be stored.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-178"><em>Size</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-178"><em>Size</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-p112">Tamanho máximo, em bytes, de <em>Buffer</em>. Se <em>Buffer</em> contiver uma sequência de caracteres de comprimento variável, deixe espaço para um zero de terminação.</span><span class="sxs-lookup"><span data-stu-id="3a01c-p112">Maximum size in bytes of <em>Buffer</em>. If <em>Buffer</em> will contain a variable-length string, allow room for a terminating zero.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-178"><em>Tamanho</em></span><span class="sxs-lookup"><span data-stu-id="c8065-178"><em>Size</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-p112">Tamanho máximo, em bytes, de <em>Buffer</em>. Se <em>Buffer</em> contiver uma sequência de caracteres de comprimento variável, deixe espaço para um zero de terminação.</span><span class="sxs-lookup"><span data-stu-id="c8065-p112">Maximum size in bytes of <em>Buffer</em>. If <em>Buffer</em> will contain a variable-length string, allow room for a terminating zero.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-181"><em>Status</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-181"><em>Status</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-182">Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida.
-</span><span class="sxs-lookup"><span data-stu-id="3a01c-182">Name of a variable that will indicate whether the contents of <em>Buffer</em> are valid, and whether the conversion of the field to <em>DataType</em> was successful.</span></span> <span data-ttu-id="3a01c-183">Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio.</span><span class="sxs-lookup"><span data-stu-id="3a01c-183">The two most important values for this variable are <strong>adFldOK</strong>, which means the conversion was successful; and <strong>adFldNull</strong>, which means the value of the field would be a VARIANT of type VT_NULL and not merely empty.</span></span> <span data-ttu-id="3a01c-184">Os valores possíveis para <em>Status</em> estão listados na tabela a seguir, &quot;valores de Status.&quot;</span><span class="sxs-lookup"><span data-stu-id="3a01c-184">Possible values for <em>Status</em> are listed in the next table, &quot;Status Values.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="c8065-181"><em>Status</em></span><span class="sxs-lookup"><span data-stu-id="c8065-181"><em>Status</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-182">Nome de uma variável que indicará se o conteúdo de <em>Buffer</em> é válido e se a conversão do campo em <em>DataType</em> foi bem-sucedida.
+</span><span class="sxs-lookup"><span data-stu-id="c8065-182">Name of a variable that will indicate whether the contents of <em>Buffer</em> are valid, and whether the conversion of the field to <em>DataType</em> was successful.</span></span> <span data-ttu-id="c8065-183">Os dois valores mais importantes dessa variável são <strong>adFldOK</strong>, indicando que a conversão foi bem-sucedida; e <strong>adFldNull</strong>, indicando que o valor do campo será um VARIANT de tipo VT_NULL, e não simplesmente vazio.</span><span class="sxs-lookup"><span data-stu-id="c8065-183">The two most important values for this variable are <strong>adFldOK</strong>, which means the conversion was successful; and <strong>adFldNull</strong>, which means the value of the field would be a VARIANT of type VT_NULL and not merely empty.</span></span> <span data-ttu-id="c8065-184">Os valores possíveis para <em>Status</em> estão listados na tabela a seguir, &quot;valores de Status.&quot;</span><span class="sxs-lookup"><span data-stu-id="c8065-184">Possible values for <em>Status</em> are listed in the next table, &quot;Status Values.&quot;</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-185"><em>Modificar</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-185"><em>Modify</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-186">Sinalizador booleano; se for TRUE, indicará que o ADO tem permissão para atualizar o campo <strong>Recordset</strong> correspondente com o valor contido em <em>Buffer</em>.
-</span><span class="sxs-lookup"><span data-stu-id="3a01c-186">Boolean flag; if TRUE, indicates ADO is allowed to update the corresponding <strong>Recordset</strong> field with the value contained in <em>Buffer</em>.</span></span> <span data-ttu-id="3a01c-187">Defina o parâmetro booleano <em>modify</em> como TRUE para permitir que o ADO atualize o campo acoplado e como FALSE se desejar examinar o campo, mas sem alterá-lo.</span><span class="sxs-lookup"><span data-stu-id="3a01c-187">Set the Boolean <em>modify</em> parameter to TRUE to enable ADO to update the bound field, and FALSE if you want to examine the field but not change it.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-185"><em>Modificar</em></span><span class="sxs-lookup"><span data-stu-id="c8065-185"><em>Modify</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-186">Sinalizador booleano; se for TRUE, indicará que o ADO tem permissão para atualizar o campo <strong>Recordset</strong> correspondente com o valor contido em <em>Buffer</em>.
+</span><span class="sxs-lookup"><span data-stu-id="c8065-186">Boolean flag; if TRUE, indicates ADO is allowed to update the corresponding <strong>Recordset</strong> field with the value contained in <em>Buffer</em>.</span></span> <span data-ttu-id="c8065-187">Defina o parâmetro booleano <em>modify</em> como TRUE para permitir que o ADO atualize o campo acoplado e como FALSE se desejar examinar o campo, mas sem alterá-lo.</span><span class="sxs-lookup"><span data-stu-id="c8065-187">Set the Boolean <em>modify</em> parameter to TRUE to enable ADO to update the bound field, and FALSE if you want to examine the field but not change it.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-188"><em>Precisão</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-188"><em>Precision</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-189">Número de dígitos que podem ser representados em uma variável numérica.</span><span class="sxs-lookup"><span data-stu-id="3a01c-189">Number of digits that can be represented in a numeric variable.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-188"><em>Precisão</em></span><span class="sxs-lookup"><span data-stu-id="c8065-188"><em>Precision</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-189">Número de dígitos que podem ser representados em uma variável numérica.</span><span class="sxs-lookup"><span data-stu-id="c8065-189">Number of digits that can be represented in a numeric variable.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-190"><em>Escala</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-190"><em>Scale</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-191">Número de casas decimais em uma variável numérica.</span><span class="sxs-lookup"><span data-stu-id="3a01c-191">Number of decimal places in a numeric variable.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-190"><em>Escala</em></span><span class="sxs-lookup"><span data-stu-id="c8065-190"><em>Scale</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-191">Número de casas decimais em uma variável numérica.</span><span class="sxs-lookup"><span data-stu-id="c8065-191">Number of decimal places in a numeric variable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-192"><em>Length</em></span><span class="sxs-lookup"><span data-stu-id="3a01c-192"><em>Length</em></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-193">Nome de uma variável de quatro bytes que conterá o comprimento real dos dados em <em>Buffer</em>.</span><span class="sxs-lookup"><span data-stu-id="3a01c-193">Name of a four-byte variable that will contain the actual length of the data in <em>Buffer</em>.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-192"><em>Length</em></span><span class="sxs-lookup"><span data-stu-id="c8065-192"><em>Length</em></span></span></p></td>
+<td><p><span data-ttu-id="c8065-193">Nome de uma variável de quatro bytes que conterá o comprimento real dos dados em <em>Buffer</em>.</span><span class="sxs-lookup"><span data-stu-id="c8065-193">Name of a four-byte variable that will contain the actual length of the data in <em>Buffer</em>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="status-values"></a><span data-ttu-id="3a01c-194">Valores de status</span><span class="sxs-lookup"><span data-stu-id="3a01c-194">Status Values</span></span>
+## <a name="status-values"></a><span data-ttu-id="c8065-194">Valores de status</span><span class="sxs-lookup"><span data-stu-id="c8065-194">Status Values</span></span>
 
-<span data-ttu-id="3a01c-195">O valor da variável *Status* indica se um campo foi copiado com êxito a uma variável.</span><span class="sxs-lookup"><span data-stu-id="3a01c-195">The value of the *Status* variable indicates whether a field was successfully copied to a variable.</span></span>
+<span data-ttu-id="c8065-195">O valor da variável *Status* indica se um campo foi copiado com êxito a uma variável.</span><span class="sxs-lookup"><span data-stu-id="c8065-195">The value of the *Status* variable indicates whether a field was successfully copied to a variable.</span></span>
 
-<span data-ttu-id="3a01c-196">Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o campo **Recordset** seja definido como nulo.</span><span class="sxs-lookup"><span data-stu-id="3a01c-196">When setting data, *Status* may be set to **adFldNull** to indicate the **Recordset** field should be set to null.</span></span>
+<span data-ttu-id="c8065-196">Ao configurar os dados, defina *Status* como **adFldNull** para indicar que o campo **Recordset** seja definido como nulo.</span><span class="sxs-lookup"><span data-stu-id="c8065-196">When setting data, *Status* may be set to **adFldNull** to indicate the **Recordset** field should be set to null.</span></span>
 
 <table>
 <colgroup>
@@ -176,82 +176,82 @@ ms.locfileid: "25464835"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3a01c-197">Constant</span><span class="sxs-lookup"><span data-stu-id="3a01c-197">Constant</span></span></p></th>
-<th><p><span data-ttu-id="3a01c-198">Valor</span><span class="sxs-lookup"><span data-stu-id="3a01c-198">Value</span></span></p></th>
-<th><p><span data-ttu-id="3a01c-199">Descrição</span><span class="sxs-lookup"><span data-stu-id="3a01c-199">Description</span></span></p></th>
+<th><p><span data-ttu-id="c8065-197">Constant</span><span class="sxs-lookup"><span data-stu-id="c8065-197">Constant</span></span></p></th>
+<th><p><span data-ttu-id="c8065-198">Valor</span><span class="sxs-lookup"><span data-stu-id="c8065-198">Value</span></span></p></th>
+<th><p><span data-ttu-id="c8065-199">Descrição</span><span class="sxs-lookup"><span data-stu-id="c8065-199">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-200"><strong>adFldOK</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-200"><strong>adFldOK</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-201">0</span><span class="sxs-lookup"><span data-stu-id="3a01c-201">0</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-202">Um valor de campo não-nulo foi retornado.</span><span class="sxs-lookup"><span data-stu-id="3a01c-202">A non-null field value was returned.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-200"><strong>adFldOK</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-200"><strong>adFldOK</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-201">0</span><span class="sxs-lookup"><span data-stu-id="c8065-201">0</span></span></p></td>
+<td><p><span data-ttu-id="c8065-202">Um valor de campo não-nulo foi retornado.</span><span class="sxs-lookup"><span data-stu-id="c8065-202">A non-null field value was returned.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-203"><strong>adFldBadAccessor</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-203"><strong>adFldBadAccessor</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-204">1</span><span class="sxs-lookup"><span data-stu-id="3a01c-204">1</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-205">A ligação era inválida.</span><span class="sxs-lookup"><span data-stu-id="3a01c-205">Binding was invalid.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-203"><strong>adFldBadAccessor</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-203"><strong>adFldBadAccessor</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-204">1</span><span class="sxs-lookup"><span data-stu-id="c8065-204">1</span></span></p></td>
+<td><p><span data-ttu-id="c8065-205">A ligação era inválida.</span><span class="sxs-lookup"><span data-stu-id="c8065-205">Binding was invalid.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-206"><strong>adFldCantConvertValue</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-206"><strong>adFldCantConvertValue</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-207">2</span><span class="sxs-lookup"><span data-stu-id="3a01c-207">2</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-208">O valor não pôde ser convertido devido a razões diferentes de incompatibilidade de sinal ou estouro de dados.</span><span class="sxs-lookup"><span data-stu-id="3a01c-208">Value couldn't be converted for reasons other than sign mismatch or data overflow.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-206"><strong>adFldCantConvertValue</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-206"><strong>adFldCantConvertValue</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-207">2</span><span class="sxs-lookup"><span data-stu-id="c8065-207">2</span></span></p></td>
+<td><p><span data-ttu-id="c8065-208">O valor não pôde ser convertido devido a razões diferentes de incompatibilidade de sinal ou estouro de dados.</span><span class="sxs-lookup"><span data-stu-id="c8065-208">Value couldn't be converted for reasons other than sign mismatch or data overflow.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-209"><strong>adFldNull</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-209"><strong>adFldNull</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-210">3</span><span class="sxs-lookup"><span data-stu-id="3a01c-210">3</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-211">Quando um campo é obtido, indica que um valor nulo foi retornado.
-</span><span class="sxs-lookup"><span data-stu-id="3a01c-211">When getting a field, indicates a null value was returned.</span></span> <span data-ttu-id="3a01c-212">Na configuração de um campo, indica que o campo deve ser definido como <strong>NULL</strong> quando ele não puder codificar o próprio <strong>NULL</strong> (por exemplo, uma matriz de caracteres ou um número inteiro).</span><span class="sxs-lookup"><span data-stu-id="3a01c-212">When setting a field, indicates the field should be set to <strong>NULL</strong> when the field cannot encode <strong>NULL</strong> itself (for example, a character array or an integer).</span></span></p></td>
+<td><p><span data-ttu-id="c8065-209"><strong>adFldNull</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-209"><strong>adFldNull</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-210">3</span><span class="sxs-lookup"><span data-stu-id="c8065-210">3</span></span></p></td>
+<td><p><span data-ttu-id="c8065-211">Quando um campo é obtido, indica que um valor nulo foi retornado.
+</span><span class="sxs-lookup"><span data-stu-id="c8065-211">When getting a field, indicates a null value was returned.</span></span> <span data-ttu-id="c8065-212">Na configuração de um campo, indica que o campo deve ser definido como <strong>NULL</strong> quando ele não puder codificar o próprio <strong>NULL</strong> (por exemplo, uma matriz de caracteres ou um número inteiro).</span><span class="sxs-lookup"><span data-stu-id="c8065-212">When setting a field, indicates the field should be set to <strong>NULL</strong> when the field cannot encode <strong>NULL</strong> itself (for example, a character array or an integer).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-213"><strong>adFldTruncated</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-213"><strong>adFldTruncated</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-214">4</span><span class="sxs-lookup"><span data-stu-id="3a01c-214">4</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-215">Os dados de comprimento variável ou os dígitos numéricos foram truncados.</span><span class="sxs-lookup"><span data-stu-id="3a01c-215">Variable-length data or numeric digits were truncated.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-213"><strong>adFldTruncated</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-213"><strong>adFldTruncated</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-214">4</span><span class="sxs-lookup"><span data-stu-id="c8065-214">4</span></span></p></td>
+<td><p><span data-ttu-id="c8065-215">Os dados de comprimento variável ou os dígitos numéricos foram truncados.</span><span class="sxs-lookup"><span data-stu-id="c8065-215">Variable-length data or numeric digits were truncated.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-216"><strong>adFldSignMismatch</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-216"><strong>adFldSignMismatch</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-217">5</span><span class="sxs-lookup"><span data-stu-id="3a01c-217">5</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-218">O valor tem sinal e o tipo de dados variáveis não.</span><span class="sxs-lookup"><span data-stu-id="3a01c-218">Value is signed and variable data type is unsigned.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-216"><strong>adFldSignMismatch</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-216"><strong>adFldSignMismatch</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-217">5</span><span class="sxs-lookup"><span data-stu-id="c8065-217">5</span></span></p></td>
+<td><p><span data-ttu-id="c8065-218">O valor tem sinal e o tipo de dados variáveis não.</span><span class="sxs-lookup"><span data-stu-id="c8065-218">Value is signed and variable data type is unsigned.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-219"><strong>adFldDataOverFlow</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-219"><strong>adFldDataOverFlow</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-220">6</span><span class="sxs-lookup"><span data-stu-id="3a01c-220">6</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-221">O valor é maior do que pôde ser armazenado no tipo de dados variáveis.</span><span class="sxs-lookup"><span data-stu-id="3a01c-221">Value is larger than could be stored in the variable data type.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-219"><strong>adFldDataOverFlow</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-219"><strong>adFldDataOverFlow</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-220">6</span><span class="sxs-lookup"><span data-stu-id="c8065-220">6</span></span></p></td>
+<td><p><span data-ttu-id="c8065-221">O valor é maior do que pôde ser armazenado no tipo de dados variáveis.</span><span class="sxs-lookup"><span data-stu-id="c8065-221">Value is larger than could be stored in the variable data type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-222"><strong>adFldCantCreate</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-222"><strong>adFldCantCreate</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-223">7</span><span class="sxs-lookup"><span data-stu-id="3a01c-223">7</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-224">Tipo de coluna desconhecida e campo já aberto.</span><span class="sxs-lookup"><span data-stu-id="3a01c-224">Unknown column type and field already open.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-222"><strong>adFldCantCreate</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-222"><strong>adFldCantCreate</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-223">7</span><span class="sxs-lookup"><span data-stu-id="c8065-223">7</span></span></p></td>
+<td><p><span data-ttu-id="c8065-224">Tipo de coluna desconhecida e campo já aberto.</span><span class="sxs-lookup"><span data-stu-id="c8065-224">Unknown column type and field already open.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-225"><strong>adFldUnavailable</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-225"><strong>adFldUnavailable</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-226">8</span><span class="sxs-lookup"><span data-stu-id="3a01c-226">8</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-227">Não foi possível determinar o valor de campo — por exemplo, em um novo campo sem alocação sem nenhum valor padrão.</span><span class="sxs-lookup"><span data-stu-id="3a01c-227">Field value could not be determined — for example, on a new, unassigned field with no default value.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-225"><strong>adFldUnavailable</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-225"><strong>adFldUnavailable</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-226">8</span><span class="sxs-lookup"><span data-stu-id="c8065-226">8</span></span></p></td>
+<td><p><span data-ttu-id="c8065-227">Não foi possível determinar o valor de campo — por exemplo, em um novo campo sem alocação sem nenhum valor padrão.</span><span class="sxs-lookup"><span data-stu-id="c8065-227">Field value could not be determined — for example, on a new, unassigned field with no default value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-228"><strong>adFldPermissionDenied</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-228"><strong>adFldPermissionDenied</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-229">9</span><span class="sxs-lookup"><span data-stu-id="3a01c-229">9</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-230">Durante uma atualização, não houve permissão para gravar dados.</span><span class="sxs-lookup"><span data-stu-id="3a01c-230">When updating, no permission to write data.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-228"><strong>adFldPermissionDenied</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-228"><strong>adFldPermissionDenied</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-229">9</span><span class="sxs-lookup"><span data-stu-id="c8065-229">9</span></span></p></td>
+<td><p><span data-ttu-id="c8065-230">Durante uma atualização, não houve permissão para gravar dados.</span><span class="sxs-lookup"><span data-stu-id="c8065-230">When updating, no permission to write data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-231"><strong>adFldIntegrityViolation</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-231"><strong>adFldIntegrityViolation</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-232">10</span><span class="sxs-lookup"><span data-stu-id="3a01c-232">10</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-233">Durante uma atualização, o valor de campo violaria a integridade da coluna.</span><span class="sxs-lookup"><span data-stu-id="3a01c-233">When updating, field value would violate column integrity.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-231"><strong>adFldIntegrityViolation</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-231"><strong>adFldIntegrityViolation</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-232">10</span><span class="sxs-lookup"><span data-stu-id="c8065-232">10</span></span></p></td>
+<td><p><span data-ttu-id="c8065-233">Durante uma atualização, o valor de campo violaria a integridade da coluna.</span><span class="sxs-lookup"><span data-stu-id="c8065-233">When updating, field value would violate column integrity.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-234"><strong>adFldSchemaViolation</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-234"><strong>adFldSchemaViolation</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-235">11</span><span class="sxs-lookup"><span data-stu-id="3a01c-235">11</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-236">Durante uma atualização, o valor de campo violaria o esquema de coluna.</span><span class="sxs-lookup"><span data-stu-id="3a01c-236">When updating, field value would violate column schema.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-234"><strong>adFldSchemaViolation</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-234"><strong>adFldSchemaViolation</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-235">11</span><span class="sxs-lookup"><span data-stu-id="c8065-235">11</span></span></p></td>
+<td><p><span data-ttu-id="c8065-236">Durante uma atualização, o valor de campo violaria o esquema de coluna.</span><span class="sxs-lookup"><span data-stu-id="c8065-236">When updating, field value would violate column schema.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3a01c-237"><strong>adFldBadStatus</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-237"><strong>adFldBadStatus</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-238">12</span><span class="sxs-lookup"><span data-stu-id="3a01c-238">12</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-239">Durante uma atualização, um parâmetro de status inválido foi retornado.</span><span class="sxs-lookup"><span data-stu-id="3a01c-239">When updating, invalid status parameter.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-237"><strong>adFldBadStatus</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-237"><strong>adFldBadStatus</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-238">12</span><span class="sxs-lookup"><span data-stu-id="c8065-238">12</span></span></p></td>
+<td><p><span data-ttu-id="c8065-239">Durante uma atualização, um parâmetro de status inválido foi retornado.</span><span class="sxs-lookup"><span data-stu-id="c8065-239">When updating, invalid status parameter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3a01c-240"><strong>adFldDefault</strong></span><span class="sxs-lookup"><span data-stu-id="3a01c-240"><strong>adFldDefault</strong></span></span></p></td>
-<td><p><span data-ttu-id="3a01c-241">13</span><span class="sxs-lookup"><span data-stu-id="3a01c-241">13</span></span></p></td>
-<td><p><span data-ttu-id="3a01c-242">Durante uma atualização, um valor padrão foi utilizado.</span><span class="sxs-lookup"><span data-stu-id="3a01c-242">When updating, a default value was used.</span></span></p></td>
+<td><p><span data-ttu-id="c8065-240"><strong>adFldDefault</strong></span><span class="sxs-lookup"><span data-stu-id="c8065-240"><strong>adFldDefault</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8065-241">13</span><span class="sxs-lookup"><span data-stu-id="c8065-241">13</span></span></p></td>
+<td><p><span data-ttu-id="c8065-242">Durante uma atualização, um valor padrão foi utilizado.</span><span class="sxs-lookup"><span data-stu-id="c8065-242">When updating, a default value was used.</span></span></p></td>
 </tr>
 </tbody>
 </table>

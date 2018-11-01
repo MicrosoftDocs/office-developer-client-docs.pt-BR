@@ -6,78 +6,70 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d9daa27f5a5e31aac295babf6f40b32f89a9df5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860340"
+ms.locfileid: "25874962"
 ---
-# <a name="copyrecord-method-ado"></a><span data-ttu-id="878b3-102">Método CopyRecord (ADO)</span><span class="sxs-lookup"><span data-stu-id="878b3-102">CopyRecord Method (ADO)</span></span>
+# <a name="copyrecord-method-ado"></a><span data-ttu-id="d1bf7-102">Método CopyRecord (ADO)</span><span class="sxs-lookup"><span data-stu-id="d1bf7-102">CopyRecord Method (ADO)</span></span>
 
 
-<span data-ttu-id="878b3-103">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="878b3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d1bf7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1bf7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="878b3-104">Copia uma entidade representada por um **Record** para outro local.</span><span class="sxs-lookup"><span data-stu-id="878b3-104">Copies a entity represented by a **Record** to another location.</span></span>
+<span data-ttu-id="d1bf7-104">Copia uma entidade representada por um **Record** para outro local.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-104">Copies a entity represented by a **Record** to another location.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="878b3-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="878b3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d1bf7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d1bf7-105">Syntax</span></span>
 
-<span data-ttu-id="878b3-106">*Registro*. CopyRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)</span><span class="sxs-lookup"><span data-stu-id="878b3-106">*Record*.CopyRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)</span></span>
+<span data-ttu-id="d1bf7-106">*Registro*. CopyRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)</span><span class="sxs-lookup"><span data-stu-id="d1bf7-106">*Record*.CopyRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="878b3-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="878b3-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d1bf7-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="d1bf7-107">Parameters</span></span>
 
-  - <span data-ttu-id="878b3-108">*Source*</span><span class="sxs-lookup"><span data-stu-id="878b3-108">*Source*</span></span>
+  - <span data-ttu-id="d1bf7-108">*Source*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-108">*Source*</span></span>
 
-  - <span data-ttu-id="878b3-109">Opcional.</span><span class="sxs-lookup"><span data-stu-id="878b3-109">Optional.</span></span> <span data-ttu-id="878b3-110">Um valor **String** que contém uma URL que especifica a entidade a ser copiada (por exemplo, um arquivo ou diretório).</span><span class="sxs-lookup"><span data-stu-id="878b3-110">A **String** value that contains a URL specifying the entity to be copied (for example, a file or directory).</span></span> <span data-ttu-id="878b3-111">Se a *fonte* for omitido ou especifica uma sequência vazia, o arquivo ou diretório representado pelo [registro](record-object-ado.md) atual será copiado.</span><span class="sxs-lookup"><span data-stu-id="878b3-111">If *Source* is omitted or specifies an empty string, the file or directory represented by the current [Record](record-object-ado.md) will be copied.</span></span>
+  - <span data-ttu-id="d1bf7-109">Opcional.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-109">Optional.</span></span> <span data-ttu-id="d1bf7-110">Um valor **String** que contém uma URL que especifica a entidade a ser copiada (por exemplo, um arquivo ou diretório).</span><span class="sxs-lookup"><span data-stu-id="d1bf7-110">A **String** value that contains a URL specifying the entity to be copied (for example, a file or directory).</span></span> <span data-ttu-id="d1bf7-111">Se a *fonte* for omitido ou especifica uma sequência vazia, o arquivo ou diretório representado pelo [registro](record-object-ado.md) atual será copiado.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-111">If *Source* is omitted or specifies an empty string, the file or directory represented by the current [Record](record-object-ado.md) will be copied.</span></span>
 
-  - <span data-ttu-id="878b3-112">*Destination*</span><span class="sxs-lookup"><span data-stu-id="878b3-112">*Destination*</span></span>
+  - <span data-ttu-id="d1bf7-112">*Destination*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-112">*Destination*</span></span>
 
-  - <span data-ttu-id="878b3-113">Opcional.</span><span class="sxs-lookup"><span data-stu-id="878b3-113">Optional.</span></span> <span data-ttu-id="878b3-114">Um valor **String** que contém uma URL, especificando o local onde *fonte* serão copiados.</span><span class="sxs-lookup"><span data-stu-id="878b3-114">A **String** value that contains a URL specifying the location where *Source* will be copied.</span></span>
+  - <span data-ttu-id="d1bf7-113">Opcional.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-113">Optional.</span></span> <span data-ttu-id="d1bf7-114">Um valor **String** que contém uma URL, especificando o local onde *fonte* serão copiados.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-114">A **String** value that contains a URL specifying the location where *Source* will be copied.</span></span>
 
-  - <span data-ttu-id="878b3-115">*UserName*</span><span class="sxs-lookup"><span data-stu-id="878b3-115">*UserName*</span></span>
+  - <span data-ttu-id="d1bf7-115">*UserName*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-115">*UserName*</span></span>
 
-  - <span data-ttu-id="878b3-p103">Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.</span><span class="sxs-lookup"><span data-stu-id="878b3-p103">Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.</span></span>
+  - <span data-ttu-id="d1bf7-p103">Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p103">Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.</span></span>
 
-  - <span data-ttu-id="878b3-118">*Password*</span><span class="sxs-lookup"><span data-stu-id="878b3-118">*Password*</span></span>
+  - <span data-ttu-id="d1bf7-118">*Password*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-118">*Password*</span></span>
 
-  - <span data-ttu-id="878b3-p104">Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.</span><span class="sxs-lookup"><span data-stu-id="878b3-p104">Optional. A **String** value that contains the password that, if needed, verifies *UserName*.</span></span>
+  - <span data-ttu-id="d1bf7-p104">Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p104">Optional. A **String** value that contains the password that, if needed, verifies *UserName*.</span></span>
 
-  - <span data-ttu-id="878b3-121">*Options*</span><span class="sxs-lookup"><span data-stu-id="878b3-121">*Options*</span></span>
+  - <span data-ttu-id="d1bf7-121">*Options*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-121">*Options*</span></span>
 
-  - <span data-ttu-id="878b3-p105">Opcional. Um valor [CopyRecordOptionsEnum](copyrecordoptionsenum.md) que tem o valor padrão **adCopyUnspecified**. Especifica o comportamento deste método.</span><span class="sxs-lookup"><span data-stu-id="878b3-p105">Optional. A [CopyRecordOptionsEnum](copyrecordoptionsenum.md) value that has a default value of **adCopyUnspecified**. Specifies the behavior of this method.</span></span>
+  - <span data-ttu-id="d1bf7-p105">Opcional. Um valor [CopyRecordOptionsEnum](copyrecordoptionsenum.md) que tem o valor padrão **adCopyUnspecified**. Especifica o comportamento deste método.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p105">Optional. A [CopyRecordOptionsEnum](copyrecordoptionsenum.md) value that has a default value of **adCopyUnspecified**. Specifies the behavior of this method.</span></span>
 
-  - <span data-ttu-id="878b3-125">*Async*</span><span class="sxs-lookup"><span data-stu-id="878b3-125">*Async*</span></span>
+  - <span data-ttu-id="d1bf7-125">*Async*</span><span class="sxs-lookup"><span data-stu-id="d1bf7-125">*Async*</span></span>
 
-  - <span data-ttu-id="878b3-p106">Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.</span><span class="sxs-lookup"><span data-stu-id="878b3-p106">Optional. A **Boolean** value that, when **True**, specifies that this operation should be asynchronous.</span></span>
+  - <span data-ttu-id="d1bf7-p106">Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p106">Optional. A **Boolean** value that, when **True**, specifies that this operation should be asynchronous.</span></span>
 
-<span data-ttu-id="878b3-128"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="878b3-128"><<<<<<< HEAD</span></span>
-## <a name="return-value"></a><span data-ttu-id="878b3-129">Valor retornado</span><span class="sxs-lookup"><span data-stu-id="878b3-129">Return Value</span></span>
-=======
-## <a name="return-value"></a><span data-ttu-id="878b3-130">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="878b3-130">Return value</span></span>
->>>>>>> <span data-ttu-id="878b3-131">mestre</span><span class="sxs-lookup"><span data-stu-id="878b3-131">master</span></span>
+## <a name="return-value"></a><span data-ttu-id="d1bf7-128">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="d1bf7-128">Return value</span></span>
 
-<span data-ttu-id="878b3-p107">Um valor **String** que normalmente retorna o valor de *Destination*. No entanto, o valor exato retornado depende do provedor.</span><span class="sxs-lookup"><span data-stu-id="878b3-p107">A **String** value that typically returns the value of *Destination*. However, the exact value returned is provider-dependent.</span></span>
+<span data-ttu-id="d1bf7-p107">Um valor **String** que normalmente retorna o valor de *Destination*. No entanto, o valor exato retornado depende do provedor.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p107">A **String** value that typically returns the value of *Destination*. However, the exact value returned is provider-dependent.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="878b3-134">Comentários</span><span class="sxs-lookup"><span data-stu-id="878b3-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d1bf7-131">Comentários</span><span class="sxs-lookup"><span data-stu-id="d1bf7-131">Remarks</span></span>
 
-<span data-ttu-id="878b3-135">Os valores de *origem* e de *destino* não devem ser idênticos; Caso contrário, ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="878b3-135">The values of *Source* and *Destination* must not be identical; otherwise, a run-time error occurs.</span></span> <span data-ttu-id="878b3-136">Pelo menos um dos nomes de servidor, caminho ou recurso deve ser diferente.</span><span class="sxs-lookup"><span data-stu-id="878b3-136">At least one of the server, path, or resource names must differ.</span></span>
+<span data-ttu-id="d1bf7-132">Os valores de *origem* e de *destino* não devem ser idênticos; Caso contrário, ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-132">The values of *Source* and *Destination* must not be identical; otherwise, a run-time error occurs.</span></span> <span data-ttu-id="d1bf7-133">Pelo menos um dos nomes de servidor, caminho ou recurso deve ser diferente.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-133">At least one of the server, path, or resource names must differ.</span></span>
 
-<span data-ttu-id="878b3-p109">Todos os filhos (por exemplo, subdiretórios) de *Source* são copiados recursivamente, a menos que **adCopyNonRecursive** seja especificado. Em uma operação recursiva, *Destination* não deve ser um subdiretório de *Source*; caso contrário, a operação não será concluída.</span><span class="sxs-lookup"><span data-stu-id="878b3-p109">All children (for example, subdirectories) of *Source* are copied recursively, unless **adCopyNonRecursive** is specified. In a recursive operation, *Destination* must not be a subdirectory of *Source*; otherwise, the operation will not complete.</span></span>
+<span data-ttu-id="d1bf7-p109">Todos os filhos (por exemplo, subdiretórios) de *Source* são copiados recursivamente, a menos que **adCopyNonRecursive** seja especificado. Em uma operação recursiva, *Destination* não deve ser um subdiretório de *Source*; caso contrário, a operação não será concluída.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-p109">All children (for example, subdirectories) of *Source* are copied recursively, unless **adCopyNonRecursive** is specified. In a recursive operation, *Destination* must not be a subdirectory of *Source*; otherwise, the operation will not complete.</span></span>
 
-<span data-ttu-id="878b3-139">Este método falha se *Destination* identificar uma entidade existente (por exemplo, um arquivo ou diretório), a menos que **adCopyOverWrite** seja especificado.</span><span class="sxs-lookup"><span data-stu-id="878b3-139">This method fails if *Destination* identifies an existing entity (for example, a file or directory), unless **adCopyOverWrite** is specified.</span></span>
+<span data-ttu-id="d1bf7-136">Este método falha se *Destination* identificar uma entidade existente (por exemplo, um arquivo ou diretório), a menos que **adCopyOverWrite** seja especificado.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-136">This method fails if *Destination* identifies an existing entity (for example, a file or directory), unless **adCopyOverWrite** is specified.</span></span>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="878b3-140">[!IMPORTANTE] Utilize a opção **adCopyOverWrite** criteriosamente.</span><span class="sxs-lookup"><span data-stu-id="878b3-140">Use the **adCopyOverWrite** option judiciously.</span></span> <span data-ttu-id="878b3-141">Por exemplo, se você especificar essa opção ao copiar um arquivo em um diretório irá *Excluir* o diretório e substituí-lo com o arquivo.</span><span class="sxs-lookup"><span data-stu-id="878b3-141">For example, specifying this option when copying a file to a directory will *delete* the directory and replace it with the file.</span></span>
+> <span data-ttu-id="d1bf7-137">[!IMPORTANTE] Utilize a opção **adCopyOverWrite** criteriosamente.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-137">Use the **adCopyOverWrite** option judiciously.</span></span> <span data-ttu-id="d1bf7-138">Por exemplo, se você especificar essa opção ao copiar um arquivo em um diretório irá *Excluir* o diretório e substituí-lo com o arquivo.</span><span class="sxs-lookup"><span data-stu-id="d1bf7-138">For example, specifying this option when copying a file to a directory will *delete* the directory and replace it with the file.</span></span>
 
 
 
 
 > [!NOTE]
-<span data-ttu-id="878b3-142"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="878b3-142"><<<<<<< HEAD</span></span>
-> <P><span data-ttu-id="878b3-p111">[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. Para obter mais informações, consulte <A href="absolute-and-relative-urls.md">URLs Absolutas e Relativas</A>.</span><span class="sxs-lookup"><span data-stu-id="878b3-p111">URLs using the http scheme will automatically invoke the <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>. For more information, see <A href="absolute-and-relative-urls.md">Absolute and Relative URLs</A>.</span></span></P>
-=======
-> <span data-ttu-id="878b3-145">[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="878b3-145">URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="878b3-146">Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).</span><span class="sxs-lookup"><span data-stu-id="878b3-146">For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).</span></span>
->>>>>>> <span data-ttu-id="878b3-147">mestre</span><span class="sxs-lookup"><span data-stu-id="878b3-147">master</span></span>
+> <span data-ttu-id="d1bf7-139">[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="d1bf7-139">URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="d1bf7-140">Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).</span><span class="sxs-lookup"><span data-stu-id="d1bf7-140">For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).</span></span>
 
 

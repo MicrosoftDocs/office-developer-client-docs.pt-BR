@@ -1,18 +1,23 @@
 ---
-<span data-ttu-id="b8ec2-101"><<<<<<< Título cabeça: AbsolutePage, PageCount e PageSize exemplo das propriedades (VJ + +) TOCTitle: AbsolutePage, PageCount e PageSize exemplo das propriedades (VJ + +) ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) MS:contentKeyID: ms.date 48545480: 18/09/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="b8ec2-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (VJ++) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VJ++) ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) ms:contentKeyID: 48545480 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VJ++)
+ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15)
+ms:contentKeyID: 48545480
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 6de53b8f0fc44b4aaf85f84f0a646e1eb80539f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882144"
 ---
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a><span data-ttu-id="38ccd-102">Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="38ccd-102">AbsolutePage, PageCount, and PageSize properties example (VJ++)</span></span>
 
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a><span data-ttu-id="b8ec2-102">Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b8ec2-102">AbsolutePage, PageCount, and PageSize Properties Example (VJ++)</span></span>
+<span data-ttu-id="38ccd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="38ccd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8ec2-103">=== título: exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ + +) TOCTitle: ms:assetid de exemplo (VJ + +) de propriedades AbsolutePage, PageCount e PageSize: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) ms:contentKeyID: ms.date 48545480: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="b8ec2-103">======= title: AbsolutePage, PageCount, and PageSize properties example (VJ++) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VJ++) ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) ms:contentKeyID: 48545480 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a><span data-ttu-id="b8ec2-104">Exemplo das propriedades AbsolutePage, PageCount e PageSize (VJ + +)</span><span class="sxs-lookup"><span data-stu-id="b8ec2-104">AbsolutePage, PageCount, and PageSize properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="b8ec2-105">mestre</span><span class="sxs-lookup"><span data-stu-id="b8ec2-105">master</span></span>
-
-<span data-ttu-id="b8ec2-106">**Aplica-se a**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8ec2-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="b8ec2-107">Este exemplo usa as propriedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) e [PageSize](pagesize-property-ado.md) para exibir nomes e datas de contratação da tabela ***Funcionários***; cinco registros por vez.</span><span class="sxs-lookup"><span data-stu-id="b8ec2-107">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span>
+<span data-ttu-id="38ccd-104">Este exemplo usa as propriedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) e [PageSize](pagesize-property-ado.md) para exibir nomes e datas de contratação da tabela ***Funcionários***; cinco registros por vez.</span><span class="sxs-lookup"><span data-stu-id="38ccd-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span>
 
 ```java 
  
