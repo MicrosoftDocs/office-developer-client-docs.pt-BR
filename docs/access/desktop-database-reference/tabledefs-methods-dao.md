@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125507(v=office.15)
 ms:contentKeyID: 52073629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61bc62eabdae0665c9328071fba26519b589ef77
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cd9d715019f763b4cbc6ffd92e3eb012e40739b9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930165"
 ---
-# <a name="tabledefs-methods-dao"></a><span data-ttu-id="a051d-102">Métodos de TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a051d-102">TableDefs Methods (DAO)</span></span>
+# <a name="tabledefs-methods-dao"></a><span data-ttu-id="d1841-102">Métodos de TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1841-102">TableDefs methods (DAO)</span></span>
 
 
-<span data-ttu-id="a051d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a051d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1841-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1841-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="a051d-104">Método TableDefs.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="a051d-104">TableDefs.Append Method (DAO)</span></span>](tabledefs-append-method-dao.md)
+  - [<span data-ttu-id="d1841-104">Método TableDefs.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1841-104">TableDefs.Append method (DAO)</span></span>](tabledefs-append-method-dao.md)
 
-  - [<span data-ttu-id="a051d-105">Método TableDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="a051d-105">TableDefs.Delete Method (DAO)</span></span>](tabledefs-delete-method-dao.md)
+  - [<span data-ttu-id="d1841-105">Método TableDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1841-105">TableDefs.Delete method (DAO)</span></span>](tabledefs-delete-method-dao.md)
 
-  - [<span data-ttu-id="a051d-106">Método TableDefs.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="a051d-106">TableDefs.Refresh Method (DAO)</span></span>](tabledefs-refresh-method-dao.md)
+  - [<span data-ttu-id="d1841-106">Método TableDefs.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1841-106">TableDefs.Refresh method (DAO)</span></span>](tabledefs-refresh-method-dao.md)
 

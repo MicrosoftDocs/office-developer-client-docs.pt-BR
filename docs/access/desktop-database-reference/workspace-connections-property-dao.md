@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1053556
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 56410c2f86338f7b763028260e86a15dffc50810
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2c632fa6a9026475c5f3dedc559a6c1c3dd84362
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874577"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930389"
 ---
-# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="807c9-102">Propriedade Workspace.Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="807c9-102">Workspace.Connections Property (DAO)</span></span>
+# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="360ca-102">Propriedade Workspace.Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="360ca-102">Workspace.Connections property (DAO)</span></span>
 
 
-<span data-ttu-id="807c9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="807c9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="360ca-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="360ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="807c9-p101">Retorna uma coleção **Connections** que representa as conexões atuais do **Workspace** especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="807c9-p101">Returns a **Connections** collection that represents the current connections in the specified **Workspace**. Read-only.</span></span>
+<span data-ttu-id="360ca-p101">Retorna uma coleção **Connections** que representa as conexões atuais do **Workspace** especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="360ca-p101">Returns a **Connections** collection that represents the current connections in the specified **Workspace**. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="807c9-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="807c9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="360ca-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="360ca-106">Syntax</span></span>
 
-<span data-ttu-id="807c9-107">*expressão* . Conexões</span><span class="sxs-lookup"><span data-stu-id="807c9-107">*expression* .Connections</span></span>
+<span data-ttu-id="360ca-107">*expressão* . Conexões</span><span class="sxs-lookup"><span data-stu-id="360ca-107">*expression* .Connections</span></span>
 
-<span data-ttu-id="807c9-108">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="807c9-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="360ca-108">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="360ca-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

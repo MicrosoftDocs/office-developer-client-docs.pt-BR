@@ -1,6 +1,6 @@
 ---
 title: Ação da macro SalvarObjeto
-TOCTitle: SaveObject Macro Action
+TOCTitle: SaveObject macro action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196789(v=office.15)
 ms:contentKeyID: 48546060
@@ -10,29 +10,29 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f5cbb47c8c4b1ecc4990ca53835f8ae9f7ed4d1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 77fc87ac989d34f5a4e774555c54955cf0bd805e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886568"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931348"
 ---
-# <a name="saveobject-macro-action"></a><span data-ttu-id="372b3-102">Ação da macro SalvarObjeto</span><span class="sxs-lookup"><span data-stu-id="372b3-102">SaveObject Macro Action</span></span>
+# <a name="saveobject-macro-action"></a><span data-ttu-id="b4f52-102">Ação da macro SalvarObjeto</span><span class="sxs-lookup"><span data-stu-id="b4f52-102">SaveObject macro action</span></span>
 
 
-<span data-ttu-id="372b3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="372b3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b4f52-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4f52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="372b3-p101">Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especificado ou, se nenhum estiver especificado, o objeto ativo. Em alguns casos, pode também salvar o objeto ativo com um novo nome (tem o mesmo efeito do comando **Salvar como** na **Barra de Ferramentas de Acesso Rápido**).</span><span class="sxs-lookup"><span data-stu-id="372b3-p101">You can use the **SaveObject** action to save either a specified Access object or the active object if none is specified. You can also save the active object with a new name in some cases (this functions the same as the **Save As** command on the **Quick Access Toolbar**).</span></span>
+<span data-ttu-id="b4f52-p101">Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especificado ou, se nenhum estiver especificado, o objeto ativo. Em alguns casos, pode também salvar o objeto ativo com um novo nome (tem o mesmo efeito do comando **Salvar como** na **Barra de Ferramentas de Acesso Rápido**).</span><span class="sxs-lookup"><span data-stu-id="b4f52-p101">You can use the **SaveObject** action to save either a specified Access object or the active object if none is specified. You can also save the active object with a new name in some cases (this functions the same as the **Save As** command on the **Quick Access Toolbar**).</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="372b3-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="372b3-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
+> <P><span data-ttu-id="b4f52-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="b4f52-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
 
 
 
-## <a name="setting"></a><span data-ttu-id="372b3-108">Configuração</span><span class="sxs-lookup"><span data-stu-id="372b3-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="b4f52-108">Configuração</span><span class="sxs-lookup"><span data-stu-id="b4f52-108">Setting</span></span>
 
-<span data-ttu-id="372b3-109">A ação **SalvarObjeto** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="372b3-109">The **SaveObject** action has the following arguments.</span></span>
+<span data-ttu-id="b4f52-109">A ação **SalvarObjeto** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="b4f52-109">The **SaveObject** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -41,52 +41,52 @@ ms.locfileid: "25886568"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="372b3-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="372b3-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="372b3-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="372b3-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="b4f52-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="b4f52-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="b4f52-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="b4f52-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="372b3-112"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="372b3-112"><strong>Object Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="372b3-p103">O tipo de objeto que você deseja salvar. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Para selecionar o objeto ativo, deixe este argumento em branco. Se você selecionar um tipo de objeto no argumento, selecione um nome de objeto existente no argumento <strong>Nome do Objeto</strong>.</span><span class="sxs-lookup"><span data-stu-id="372b3-p103">The type of object you want to save. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. To select the active object, leave this argument blank. If you select an object type in this argument, you must select an existing object's name in the <strong>Object Name</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="b4f52-112"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="b4f52-112"><strong>Object Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="b4f52-p103">O tipo de objeto que você deseja salvar. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Para selecionar o objeto ativo, deixe este argumento em branco. Se você selecionar um tipo de objeto no argumento, selecione um nome de objeto existente no argumento <strong>Nome do Objeto</strong>.</span><span class="sxs-lookup"><span data-stu-id="b4f52-p103">The type of object you want to save. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. To select the active object, leave this argument blank. If you select an object type in this argument, you must select an existing object's name in the <strong>Object Name</strong> argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="372b3-117"><strong>Nome do Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="372b3-117"><strong>Object Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="372b3-118">O nome do objeto a ser salvo.</span><span class="sxs-lookup"><span data-stu-id="372b3-118">The name of the object to be saved.</span></span> <span data-ttu-id="372b3-119">A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Object Type</strong>.</span><span class="sxs-lookup"><span data-stu-id="372b3-119">The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument.</span></span> <span data-ttu-id="372b3-120">Se você deixar vazio o argumento de <strong>Tipo de objeto</strong> , você pode deixar este argumento em branco para salvar o objeto ativo ou, em alguns casos, insira um novo nome neste argumento para salvar o objeto ativo com esse nome.</span><span class="sxs-lookup"><span data-stu-id="372b3-120">If you leave the <strong>Object Type</strong> argument blank, you can leave this argument blank to save the active object, or, in some cases, enter a new name in this argument to save the active object with this name.</span></span> <span data-ttu-id="372b3-121">Se digitar um novo nome, você deverá cumprir as convenções de nomeação padrão para objetos do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="372b3-121">If you enter a new name, the name must follow the standard naming conventions for Microsoft Access objects.</span></span></p></td>
+<td><p><span data-ttu-id="b4f52-117"><strong>Nome do Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="b4f52-117"><strong>Object Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="b4f52-118">O nome do objeto a ser salvo.</span><span class="sxs-lookup"><span data-stu-id="b4f52-118">The name of the object to be saved.</span></span> <span data-ttu-id="b4f52-119">A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados do tipo selecionado pelo argumento <strong>Object Type</strong>.</span><span class="sxs-lookup"><span data-stu-id="b4f52-119">The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument.</span></span> <span data-ttu-id="b4f52-120">Se você deixar vazio o argumento de <strong>Tipo de objeto</strong> , você pode deixar este argumento em branco para salvar o objeto ativo ou, em alguns casos, insira um novo nome neste argumento para salvar o objeto ativo com esse nome.</span><span class="sxs-lookup"><span data-stu-id="b4f52-120">If you leave the <strong>Object Type</strong> argument blank, you can leave this argument blank to save the active object, or, in some cases, enter a new name in this argument to save the active object with this name.</span></span> <span data-ttu-id="b4f52-121">Se digitar um novo nome, você deverá cumprir as convenções de nomeação padrão para objetos do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="b4f52-121">If you enter a new name, the name must follow the standard naming conventions for Microsoft Access objects.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="372b3-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="372b3-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4f52-122">Comentários</span><span class="sxs-lookup"><span data-stu-id="b4f52-122">Remarks</span></span>
 
-<span data-ttu-id="372b3-p105">A ação **SalvarObjeto** funciona em todos os objetos de banco de dados que o usuário possa explicitamente abrir e salvar. O objeto especificado deve estar aberto para que a ação **SalvarObjeto** tenha qualquer efeito no objeto. Essa ação é semelhante à ação de selecionar um objeto e salvá-lo clicando em **Salvar** na **Barra de Ferramentas de Acesso Rápido**. Deixar em branco o argumento **Tipo de Objeto** e inserir um novo nome no argumento **Nome do Objeto** tem o mesmo efeito de clicar em **Salvar Como** na **Barra de Ferramentas de Acesso Rápido** e digitar um novo nome para o objeto ativo. O uso da ação **SalvarObjeto** permite que você especifique um objeto a ser salvo e execute um comando **Salvar Como** em uma macro.</span><span class="sxs-lookup"><span data-stu-id="372b3-p105">The **SaveObject** action works on all database objects that the user can explicitly open and save. The specified object must be open for the **SaveObject** action to have any effect on the object. This action has the same effect as selecting an object and then saving it by clicking **Save** on the **Quick Access Toolbar**. Leaving the **Object Type** argument blank and entering a new name in the **Object Name** argument has the same effect as clicking **Save As** on the **Quick Access Toolbar**, and entering a new name for the active object. Using the **SaveObject** action enables you to specify an object to save and to perform a **Save As** command from a macro.</span></span>
+<span data-ttu-id="b4f52-p105">A ação **SalvarObjeto** funciona em todos os objetos de banco de dados que o usuário possa explicitamente abrir e salvar. O objeto especificado deve estar aberto para que a ação **SalvarObjeto** tenha qualquer efeito no objeto. Essa ação é semelhante à ação de selecionar um objeto e salvá-lo clicando em **Salvar** na **Barra de Ferramentas de Acesso Rápido**. Deixar em branco o argumento **Tipo de Objeto** e inserir um novo nome no argumento **Nome do Objeto** tem o mesmo efeito de clicar em **Salvar Como** na **Barra de Ferramentas de Acesso Rápido** e digitar um novo nome para o objeto ativo. O uso da ação **SalvarObjeto** permite que você especifique um objeto a ser salvo e execute um comando **Salvar Como** em uma macro.</span><span class="sxs-lookup"><span data-stu-id="b4f52-p105">The **SaveObject** action works on all database objects that the user can explicitly open and save. The specified object must be open for the **SaveObject** action to have any effect on the object. This action has the same effect as selecting an object and then saving it by clicking **Save** on the **Quick Access Toolbar**. Leaving the **Object Type** argument blank and entering a new name in the **Object Name** argument has the same effect as clicking **Save As** on the **Quick Access Toolbar**, and entering a new name for the active object. Using the **SaveObject** action enables you to specify an object to save and to perform a **Save As** command from a macro.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="372b3-128">[!OBSERVAçãO] A ação <STRONG>SalvarObjeto</STRONG> não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:</span><span class="sxs-lookup"><span data-stu-id="372b3-128">You can't use the <STRONG>SaveObject</STRONG> action to save any of the following with a new name:</span></span></P>
+> <P><span data-ttu-id="b4f52-128">[!OBSERVAçãO] A ação <STRONG>SalvarObjeto</STRONG> não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:</span><span class="sxs-lookup"><span data-stu-id="b4f52-128">You can't use the <STRONG>SaveObject</STRONG> action to save any of the following with a new name:</span></span></P>
 
 
 
-  - <span data-ttu-id="372b3-129">Um formulário no modo Formulário ou no modo Folha de Dados.</span><span class="sxs-lookup"><span data-stu-id="372b3-129">A form in Form view or Datasheet view.</span></span>
+  - <span data-ttu-id="b4f52-129">Um formulário no modo Formulário ou no modo Folha de Dados.</span><span class="sxs-lookup"><span data-stu-id="b4f52-129">A form in Form view or Datasheet view.</span></span>
 
-  - <span data-ttu-id="372b3-130">Um relatório no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="372b3-130">A report in Print Preview.</span></span>
+  - <span data-ttu-id="b4f52-130">Um relatório no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="b4f52-130">A report in Print Preview.</span></span>
 
-  - <span data-ttu-id="372b3-131">Um módulo.</span><span class="sxs-lookup"><span data-stu-id="372b3-131">A module.</span></span>
+  - <span data-ttu-id="b4f52-131">Um módulo.</span><span class="sxs-lookup"><span data-stu-id="b4f52-131">A module.</span></span>
 
-  - <span data-ttu-id="372b3-132">Uma exibição de servidor no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="372b3-132">A server view in Datasheet view or Print Preview.</span></span>
+  - <span data-ttu-id="b4f52-132">Uma exibição de servidor no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="b4f52-132">A server view in Datasheet view or Print Preview.</span></span>
 
-  - <span data-ttu-id="372b3-133">Uma página de acessos a dados no Modo de Página.</span><span class="sxs-lookup"><span data-stu-id="372b3-133">A data access page in Page view.</span></span>
+  - <span data-ttu-id="b4f52-133">Uma página de acessos a dados no Modo de Página.</span><span class="sxs-lookup"><span data-stu-id="b4f52-133">A data access page in Page view.</span></span>
 
-  - <span data-ttu-id="372b3-134">Uma tabela no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="372b3-134">A table in Datasheet view or Print Preview.</span></span>
+  - <span data-ttu-id="b4f52-134">Uma tabela no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="b4f52-134">A table in Datasheet view or Print Preview.</span></span>
 
-  - <span data-ttu-id="372b3-135">Uma consulta no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="372b3-135">A query in Datasheet view or Print Preview.</span></span>
+  - <span data-ttu-id="b4f52-135">Uma consulta no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="b4f52-135">A query in Datasheet view or Print Preview.</span></span>
 
-  - <span data-ttu-id="372b3-136">Um procedimento armazenado no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="372b3-136">A stored procedure in Datasheet view or Print Preview.</span></span>
+  - <span data-ttu-id="b4f52-136">Um procedimento armazenado no modo Folha de Dados ou no modo Visualização de Impressão.</span><span class="sxs-lookup"><span data-stu-id="b4f52-136">A stored procedure in Datasheet view or Print Preview.</span></span>
 
-<span data-ttu-id="372b3-137">A ação **SalvarObjeto**, esteja ela carregada em uma macro em execução no banco de dados atual ou em um banco de dados biblioteca, sempre salva o objeto especificado ou o objeto ativo do banco de dados em que o objeto foi criado.</span><span class="sxs-lookup"><span data-stu-id="372b3-137">The **SaveObject** action, whether it's carried out in a macro run in the current database or in a library database, always saves the specified object or the active object in the database in which the object was created.</span></span>
+<span data-ttu-id="b4f52-137">A ação **SalvarObjeto**, esteja ela carregada em uma macro em execução no banco de dados atual ou em um banco de dados biblioteca, sempre salva o objeto especificado ou o objeto ativo do banco de dados em que o objeto foi criado.</span><span class="sxs-lookup"><span data-stu-id="b4f52-137">The **SaveObject** action, whether it's carried out in a macro run in the current database or in a library database, always saves the specified object or the active object in the database in which the object was created.</span></span>
 
-<span data-ttu-id="372b3-p106">Se você salvar o objeto com um novo nome, mas o nome for o mesmo de um objeto existente desse tipo, uma caixa de diálogo perguntará se você deseja substituir o objeto existente. Se tiver definido o argumento **Avisos ativos** da ação **DefinirAvisos** como **Não**, a caixa de diálogo não será exibida e o objeto antigo será automaticamente substituído.</span><span class="sxs-lookup"><span data-stu-id="372b3-p106">If you save the active object with a new name, but the name is the same as the name of an existing object of this type, a dialog box asks if you want to overwrite the existing object. If you've set the **Warnings On** argument of the **SetWarnings** action to **No**, the dialog box isn't displayed and the old object is automatically overwritten.</span></span>
+<span data-ttu-id="b4f52-p106">Se você salvar o objeto com um novo nome, mas o nome for o mesmo de um objeto existente desse tipo, uma caixa de diálogo perguntará se você deseja substituir o objeto existente. Se tiver definido o argumento **Avisos ativos** da ação **DefinirAvisos** como **Não**, a caixa de diálogo não será exibida e o objeto antigo será automaticamente substituído.</span><span class="sxs-lookup"><span data-stu-id="b4f52-p106">If you save the active object with a new name, but the name is the same as the name of an existing object of this type, a dialog box asks if you want to overwrite the existing object. If you've set the **Warnings On** argument of the **SetWarnings** action to **No**, the dialog box isn't displayed and the old object is automatically overwritten.</span></span>
 
-<span data-ttu-id="372b3-140">Para executar a ação **SalvarObjeto** em um módulo do VBA (Visual Basic for Applications), use o método **Salvar** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="372b3-140">To run the **SaveObject** action in a Visual Basic for Applications (VBA) module, use the **Save** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="b4f52-140">Para executar a ação **SalvarObjeto** em um módulo do VBA (Visual Basic for Applications), use o método **Salvar** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="b4f52-140">To run the **SaveObject** action in a Visual Basic for Applications (VBA) module, use the **Save** method of the **DoCmd** object.</span></span>
 

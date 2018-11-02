@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn160984(v=office.15)
 ms:contentKeyID: 52072948
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c01b78519dcec0245eb45ec0254adc41bab03c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5ed50d4e119fb4c4a790415b83da3bb016a81b0a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880807"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929220"
 ---
-# <a name="databases-properties-dao"></a><span data-ttu-id="6d54f-102">Propriedades de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="6d54f-102">Databases Properties (DAO)</span></span>
+# <a name="databases-properties-dao"></a><span data-ttu-id="634fd-102">Propriedades de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="634fd-102">Databases properties (DAO)</span></span>
 
 
-<span data-ttu-id="6d54f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d54f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="634fd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="634fd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="6d54f-104">Propriedade Databases.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="6d54f-104">Databases.Count Property (DAO)</span></span>](databases-count-property-dao.md)
+  - [<span data-ttu-id="634fd-104">Propriedade Databases.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="634fd-104">Databases.Count property (DAO)</span></span>](databases-count-property-dao.md)
 

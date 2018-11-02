@@ -1,6 +1,6 @@
 ---
 title: Ação da macro ExecutarMacro
-TOCTitle: RunMacro Macro Action
+TOCTitle: RunMacro macro action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191868(v=office.15)
 ms:contentKeyID: 48543787
@@ -10,31 +10,31 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18e31837027f9c861480b738de5e77a0b5e2d13b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7aace8618e9ca5cdd540c15d04869dbce8c3a891
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867536"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926112"
 ---
-# <a name="runmacro-macro-action"></a><span data-ttu-id="d5ada-102">Ação da macro ExecutarMacro</span><span class="sxs-lookup"><span data-stu-id="d5ada-102">RunMacro Macro Action</span></span>
+# <a name="runmacro-macro-action"></a><span data-ttu-id="70f52-102">Ação da macro ExecutarMacro</span><span class="sxs-lookup"><span data-stu-id="70f52-102">RunMacro macro action</span></span>
 
 
-<span data-ttu-id="d5ada-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5ada-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="70f52-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="70f52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5ada-p101">Você pode usar a ação **ExecutarMacro** para executar uma macro. A macro pode estar em um grupo de macros.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p101">You can use the **RunMacro** action to run a macro. The macro can be in a macro group.</span></span>
+<span data-ttu-id="70f52-p101">Você pode usar a ação **ExecutarMacro** para executar uma macro. A macro pode estar em um grupo de macros.</span><span class="sxs-lookup"><span data-stu-id="70f52-p101">You can use the **RunMacro** action to run a macro. The macro can be in a macro group.</span></span>
 
-<span data-ttu-id="d5ada-106">Você pode usar a ação:</span><span class="sxs-lookup"><span data-stu-id="d5ada-106">You can use this action:</span></span>
+<span data-ttu-id="70f52-106">Você pode usar a ação:</span><span class="sxs-lookup"><span data-stu-id="70f52-106">You can use this action:</span></span>
 
-  - <span data-ttu-id="d5ada-107">Para executar uma macro em outra macro.</span><span class="sxs-lookup"><span data-stu-id="d5ada-107">To run a macro from within another macro.</span></span>
+  - <span data-ttu-id="70f52-107">Para executar uma macro em outra macro.</span><span class="sxs-lookup"><span data-stu-id="70f52-107">To run a macro from within another macro.</span></span>
 
-  - <span data-ttu-id="d5ada-108">Executar uma macro baseada em uma determinada condição.</span><span class="sxs-lookup"><span data-stu-id="d5ada-108">To run a macro based on a certain condition.</span></span>
+  - <span data-ttu-id="70f52-108">Executar uma macro baseada em uma determinada condição.</span><span class="sxs-lookup"><span data-stu-id="70f52-108">To run a macro based on a certain condition.</span></span>
 
-  - <span data-ttu-id="d5ada-109">Anexar uma macro a um comando de menu personalizado.</span><span class="sxs-lookup"><span data-stu-id="d5ada-109">To attach a macro to a custom menu command.</span></span>
+  - <span data-ttu-id="70f52-109">Anexar uma macro a um comando de menu personalizado.</span><span class="sxs-lookup"><span data-stu-id="70f52-109">To attach a macro to a custom menu command.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="d5ada-110">Configuração</span><span class="sxs-lookup"><span data-stu-id="d5ada-110">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="70f52-110">Configuração</span><span class="sxs-lookup"><span data-stu-id="70f52-110">Setting</span></span>
 
-<span data-ttu-id="d5ada-111">A ação **ExecutarMacro** tem os argumentos a seguir.</span><span class="sxs-lookup"><span data-stu-id="d5ada-111">The **RunMacro** action has the following arguments.</span></span>
+<span data-ttu-id="70f52-111">A ação **ExecutarMacro** tem os argumentos a seguir.</span><span class="sxs-lookup"><span data-stu-id="70f52-111">The **RunMacro** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -43,58 +43,58 @@ ms.locfileid: "25867536"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d5ada-112">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="d5ada-112">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="d5ada-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="d5ada-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="70f52-112">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="70f52-112">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="70f52-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="70f52-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d5ada-114"><strong>Nome da Macro</strong></span><span class="sxs-lookup"><span data-stu-id="d5ada-114"><strong>Macro Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5ada-115">O nome da macro a ser executada.</span><span class="sxs-lookup"><span data-stu-id="d5ada-115">The name of the macro to run.</span></span> <span data-ttu-id="d5ada-116">Caixa <strong>Nome da Macro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as macros (e grupos de macro) no banco de dados atual.</span><span class="sxs-lookup"><span data-stu-id="d5ada-116">The <strong>Macro Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all macros (and macro groups) in the current database.</span></span> <span data-ttu-id="d5ada-117">Se a macro estiver em um grupo de macros, ela é listada sob o nome do grupo de macros na lista como <em>nomedogrupodemacros</em>. <em>macroname</em>.</span><span class="sxs-lookup"><span data-stu-id="d5ada-117">If the macro is in a macro group, it's listed under the macro group name in the list as <em>macrogroupname</em>.<em>macroname</em>.</span></span> <span data-ttu-id="d5ada-118">Este é um argumento obrigatório.</span><span class="sxs-lookup"><span data-stu-id="d5ada-118">This is a required argument.</span></span> <span data-ttu-id="d5ada-119">Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</span><span class="sxs-lookup"><span data-stu-id="d5ada-119">If you run a macro containing the <strong>RunMacro</strong> action in a library database, Microsoft Access looks for the macro with this name in the library database and doesn't look for it in the current database.</span></span></p></td>
+<td><p><span data-ttu-id="70f52-114"><strong>Nome da Macro</strong></span><span class="sxs-lookup"><span data-stu-id="70f52-114"><strong>Macro Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="70f52-115">O nome da macro a ser executada.</span><span class="sxs-lookup"><span data-stu-id="70f52-115">The name of the macro to run.</span></span> <span data-ttu-id="70f52-116">Caixa <strong>Nome da Macro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as macros (e grupos de macro) no banco de dados atual.</span><span class="sxs-lookup"><span data-stu-id="70f52-116">The <strong>Macro Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all macros (and macro groups) in the current database.</span></span> <span data-ttu-id="70f52-117">Se a macro estiver em um grupo de macros, ela é listada sob o nome do grupo de macros na lista como <em>nomedogrupodemacros</em>. <em>macroname</em>.</span><span class="sxs-lookup"><span data-stu-id="70f52-117">If the macro is in a macro group, it's listed under the macro group name in the list as <em>macrogroupname</em>.<em>macroname</em>.</span></span> <span data-ttu-id="70f52-118">Este é um argumento obrigatório.</span><span class="sxs-lookup"><span data-stu-id="70f52-118">This is a required argument.</span></span> <span data-ttu-id="70f52-119">Se você executar uma macro contendo a ação <strong>ExecutarMacro</strong> em um banco de dados biblioteca, o Microsoft Access pesquisará a macro com esse nome no banco de dados biblioteca, e não no banco de dados atual.</span><span class="sxs-lookup"><span data-stu-id="70f52-119">If you run a macro containing the <strong>RunMacro</strong> action in a library database, Microsoft Access looks for the macro with this name in the library database and doesn't look for it in the current database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d5ada-120"><strong>Contagem de repetição</strong></span><span class="sxs-lookup"><span data-stu-id="d5ada-120"><strong>Repeat Count</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5ada-p103">O número máximo de vezes que a macro será executada. Se você deixar este argumento em branco (e o argumento <strong>Expressão de repetição</strong> também estiver em branco), a macro será executada uma única vez.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p103">The maximum number of times the macro will run. If you leave this argument blank (and the <strong>Repeat Expression</strong> argument is also blank), the macro runs once.</span></span></p></td>
+<td><p><span data-ttu-id="70f52-120"><strong>Contagem de repetição</strong></span><span class="sxs-lookup"><span data-stu-id="70f52-120"><strong>Repeat Count</strong></span></span></p></td>
+<td><p><span data-ttu-id="70f52-p103">O número máximo de vezes que a macro será executada. Se você deixar este argumento em branco (e o argumento <strong>Expressão de repetição</strong> também estiver em branco), a macro será executada uma única vez.</span><span class="sxs-lookup"><span data-stu-id="70f52-p103">The maximum number of times the macro will run. If you leave this argument blank (and the <strong>Repeat Expression</strong> argument is also blank), the macro runs once.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d5ada-123"><strong>Expressão de repetição</strong></span><span class="sxs-lookup"><span data-stu-id="d5ada-123"><strong>Repeat Expression</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5ada-p104">Uma expressão que avalia se <strong>True</strong> (–1) ou <strong>False</strong> (0). A execução da macro será interrompida se a expressão avaliar como <strong>False</strong>. A expressão é avaliada sempre que a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p104">An expression that evaluates to <strong>True</strong> (–1) or <strong>False</strong> (0). The macro stops running if the expression evaluates to <strong>False</strong>. The expression is evaluated each time the macro runs.</span></span></p></td>
+<td><p><span data-ttu-id="70f52-123"><strong>Expressão de repetição</strong></span><span class="sxs-lookup"><span data-stu-id="70f52-123"><strong>Repeat Expression</strong></span></span></p></td>
+<td><p><span data-ttu-id="70f52-p104">Uma expressão que avalia se <strong>True</strong> (–1) ou <strong>False</strong> (0). A execução da macro será interrompida se a expressão avaliar como <strong>False</strong>. A expressão é avaliada sempre que a macro é executada.</span><span class="sxs-lookup"><span data-stu-id="70f52-p104">An expression that evaluates to <strong>True</strong> (–1) or <strong>False</strong> (0). The macro stops running if the expression evaluates to <strong>False</strong>. The expression is evaluated each time the macro runs.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d5ada-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="d5ada-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="70f52-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="70f52-127">Remarks</span></span>
 
-<span data-ttu-id="d5ada-128">Se você inserir um nome de grupo de macros para o argumento **Nome da macro**, o Access executará a primeira macro do grupo.</span><span class="sxs-lookup"><span data-stu-id="d5ada-128">If you enter a macro group name for the **Macro Name** argument, Access runs the first macro in the macro group.</span></span>
+<span data-ttu-id="70f52-128">Se você inserir um nome de grupo de macros para o argumento **Nome da macro**, o Access executará a primeira macro do grupo.</span><span class="sxs-lookup"><span data-stu-id="70f52-128">If you enter a macro group name for the **Macro Name** argument, Access runs the first macro in the macro group.</span></span>
 
-<span data-ttu-id="d5ada-p105">Esta ação é semelhante a clicar em **Executar Macro** na guia **Ferramentas de Banco de Dados**, selecionar uma macro e clicar em **OK**. Entretanto, esse comando executa a macro uma única vez, ao passo que a ação **ExecutarMacro** pode executar uma macro quantas vezes você quiser.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p105">This action is similar to clicking **Run Macro** on the **Database Tools** tab, selecting a macro, and clicking **OK**. However, this command runs the macro only once, whereas the **RunMacro** action can run a macro as many times as you want.</span></span>
+<span data-ttu-id="70f52-p105">Esta ação é semelhante a clicar em **Executar Macro** na guia **Ferramentas de Banco de Dados**, selecionar uma macro e clicar em **OK**. Entretanto, esse comando executa a macro uma única vez, ao passo que a ação **ExecutarMacro** pode executar uma macro quantas vezes você quiser.</span><span class="sxs-lookup"><span data-stu-id="70f52-p105">This action is similar to clicking **Run Macro** on the **Database Tools** tab, selecting a macro, and clicking **OK**. However, this command runs the macro only once, whereas the **RunMacro** action can run a macro as many times as you want.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="d5ada-131">[!DICA] Use os argumentos <STRONG>Contagem de repetição</STRONG> e <STRONG>Expressão de repetição</STRONG> para determinar quantas vezes a macro deve ser executada:</span><span class="sxs-lookup"><span data-stu-id="d5ada-131">You can use the <STRONG>Repeat Count</STRONG> and <STRONG>Repeat Expression</STRONG> arguments to determine how many times the macro runs:</span></span></P>
+> <P><span data-ttu-id="70f52-131">[!DICA] Use os argumentos <STRONG>Contagem de repetição</STRONG> e <STRONG>Expressão de repetição</STRONG> para determinar quantas vezes a macro deve ser executada:</span><span class="sxs-lookup"><span data-stu-id="70f52-131">You can use the <STRONG>Repeat Count</STRONG> and <STRONG>Repeat Expression</STRONG> arguments to determine how many times the macro runs:</span></span></P>
 
 
 
-  - <span data-ttu-id="d5ada-132">Se você deixar os dois argumentos em branco, a macro será executada uma única vez.</span><span class="sxs-lookup"><span data-stu-id="d5ada-132">If you leave both arguments blank, the macro runs once.</span></span>
+  - <span data-ttu-id="70f52-132">Se você deixar os dois argumentos em branco, a macro será executada uma única vez.</span><span class="sxs-lookup"><span data-stu-id="70f52-132">If you leave both arguments blank, the macro runs once.</span></span>
 
-  - <span data-ttu-id="d5ada-133">Se você inserir um número em **Contagem de repetição**, mas deixar **Expressão de repetição** em branco, a macro será executada pelo número de vezes especificado.</span><span class="sxs-lookup"><span data-stu-id="d5ada-133">If you enter a number for **Repeat Count** but leave **Repeat Expression** blank, the macro runs the specified number of times.</span></span>
+  - <span data-ttu-id="70f52-133">Se você inserir um número em **Contagem de repetição**, mas deixar **Expressão de repetição** em branco, a macro será executada pelo número de vezes especificado.</span><span class="sxs-lookup"><span data-stu-id="70f52-133">If you enter a number for **Repeat Count** but leave **Repeat Expression** blank, the macro runs the specified number of times.</span></span>
 
-  - <span data-ttu-id="d5ada-134">Se você deixar **Contagem de repetição** em branco, mas inserir uma expressão em **Expressão de repetição**, a macro será executada até que a expressão avalie como **False**.</span><span class="sxs-lookup"><span data-stu-id="d5ada-134">If you leave **Repeat Count** blank but enter an expression for **Repeat Expression**, the macro runs until the expression evaluates to **False**.</span></span>
+  - <span data-ttu-id="70f52-134">Se você deixar **Contagem de repetição** em branco, mas inserir uma expressão em **Expressão de repetição**, a macro será executada até que a expressão avalie como **False**.</span><span class="sxs-lookup"><span data-stu-id="70f52-134">If you leave **Repeat Count** blank but enter an expression for **Repeat Expression**, the macro runs until the expression evaluates to **False**.</span></span>
 
-  - <span data-ttu-id="d5ada-135">Se você inserir valores para os dois argumentos, a macro será executada pelo número de vezes especificado em **Contagem de repetição** ou até que **Expressão de repetição** avalie como **False**, o que ocorrer primeiro.</span><span class="sxs-lookup"><span data-stu-id="d5ada-135">If you enter values for both arguments, the macro runs the number of times specified in **Repeat Count** or until **Repeat Expression** evaluates to **False**, whichever occurs first.</span></span>
+  - <span data-ttu-id="70f52-135">Se você inserir valores para os dois argumentos, a macro será executada pelo número de vezes especificado em **Contagem de repetição** ou até que **Expressão de repetição** avalie como **False**, o que ocorrer primeiro.</span><span class="sxs-lookup"><span data-stu-id="70f52-135">If you enter values for both arguments, the macro runs the number of times specified in **Repeat Count** or until **Repeat Expression** evaluates to **False**, whichever occurs first.</span></span>
 
-<span data-ttu-id="d5ada-p106">Se uma macro contendo a ação **ExecutarMacro** for executada e ela alcançar a ação **ExecutarMacro**, o Access executará a macro chamada. Após a conclusão da macro chamada, o Access retornará à macro original e executará a próxima ação.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p106">When you run a macro containing the **RunMacro** action, and it reaches the **RunMacro** action, Access runs the called macro. When the called macro has finished, Access returns to the original macro and runs the next action.</span></span>
+<span data-ttu-id="70f52-p106">Se uma macro contendo a ação **ExecutarMacro** for executada e ela alcançar a ação **ExecutarMacro**, o Access executará a macro chamada. Após a conclusão da macro chamada, o Access retornará à macro original e executará a próxima ação.</span><span class="sxs-lookup"><span data-stu-id="70f52-p106">When you run a macro containing the **RunMacro** action, and it reaches the **RunMacro** action, Access runs the called macro. When the called macro has finished, Access returns to the original macro and runs the next action.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="d5ada-138">É possível chamar uma macro do mesmo grupo de macros ou de outro grupo.</span><span class="sxs-lookup"><span data-stu-id="d5ada-138">You can call a macro in the same macro group or in another macro group.</span></span></P>
+> <P><span data-ttu-id="70f52-138">É possível chamar uma macro do mesmo grupo de macros ou de outro grupo.</span><span class="sxs-lookup"><span data-stu-id="70f52-138">You can call a macro in the same macro group or in another macro group.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="d5ada-p107">Você pode aninhar macros. Ou seja, você pode executar a macro A que, por sua vez, chama a macro B etc. Em cada caso, quando a macro chamada é concluída, o Access retorna à macro que a chamou e executa a próxima ação dessa macro.</span><span class="sxs-lookup"><span data-stu-id="d5ada-p107">You can nest macros. That is, you can run macro A, which in turn calls macro B, and so on. In each case, when the called macro has finished, Access returns to the macro that called it and runs the next action in that macro.</span></span></P></LI></UL>
+> <P><span data-ttu-id="70f52-p107">Você pode aninhar macros. Ou seja, você pode executar a macro A que, por sua vez, chama a macro B etc. Em cada caso, quando a macro chamada é concluída, o Access retorna à macro que a chamou e executa a próxima ação dessa macro.</span><span class="sxs-lookup"><span data-stu-id="70f52-p107">You can nest macros. That is, you can run macro A, which in turn calls macro B, and so on. In each case, when the called macro has finished, Access returns to the macro that called it and runs the next action in that macro.</span></span></P></LI></UL>
 
 
 
-<span data-ttu-id="d5ada-142">Para executar a ação **ExecutarMacro** em um módulo do VBA(Visual Basic for Applications), use o método **RunMacro** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="d5ada-142">To run the **RunMacro** action in a Visual Basic for Applications (VBA) module, use the **RunMacro** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="70f52-142">Para executar a ação **ExecutarMacro** em um módulo do VBA(Visual Basic for Applications), use o método **RunMacro** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="70f52-142">To run the **RunMacro** action in a Visual Basic for Applications (VBA) module, use the **RunMacro** method of the **DoCmd** object.</span></span>
 

@@ -6,57 +6,57 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f30ccd48ee5e4f4815be4d7e1ec6d94f237bc16
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874283"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926938"
 ---
-# <a name="properties-collection-dao"></a><span data-ttu-id="bdd4a-102">Coleção Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdd4a-102">Properties Collection (DAO)</span></span>
+# <a name="properties-collection-dao"></a><span data-ttu-id="d9cd5-102">Coleção Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="d9cd5-102">Properties collection (DAO)</span></span>
 
 
-<span data-ttu-id="bdd4a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdd4a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d9cd5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9cd5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bdd4a-104">Uma coleção **Properties** contém todos os objetos **[Property](property-object-dao.md)** de uma instância específica de um objeto.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-104">A **Properties** collection contains all the **[Property](property-object-dao.md)** objects for a specific instance of an object.</span></span>
+<span data-ttu-id="d9cd5-104">Uma coleção **Properties** contém todos os objetos **[Property](property-object-dao.md)** de uma instância específica de um objeto.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-104">A **Properties** collection contains all the **[Property](property-object-dao.md)** objects for a specific instance of an object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bdd4a-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="bdd4a-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d9cd5-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="d9cd5-105">Remarks</span></span>
 
-<span data-ttu-id="bdd4a-p101">Todo objeto DAO, com exceção dos objetos **Connection** e **Error** contém uma coleção **Properties**, que tem certos objetos **Property** internos. Esses objetos **Property** (que geralmente são denominados apenas propriedades) caracterizam exclusivamente essa instância do objeto.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p101">Every DAO object except the **Connection** and **Error** objects contains a **Properties** collection, which has certain built-in **Property** objects. These **Property** objects (which are often just called properties) uniquely characterize that instance of the object.</span></span>
+<span data-ttu-id="d9cd5-p101">Todo objeto DAO, com exceção dos objetos **Connection** e **Error** contém uma coleção **Properties**, que tem certos objetos **Property** internos. Esses objetos **Property** (que geralmente são denominados apenas propriedades) caracterizam exclusivamente essa instância do objeto.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p101">Every DAO object except the **Connection** and **Error** objects contains a **Properties** collection, which has certain built-in **Property** objects. These **Property** objects (which are often just called properties) uniquely characterize that instance of the object.</span></span>
 
-<span data-ttu-id="bdd4a-p102">Além das propriedades internas, você também poderá criar e adicionar suas próprias propriedades definidas pelo usuário. Para adicionar uma propriedade definida pelo usuário a uma instância existente de um objeto, defina primeiramente suas características com o método **CreateProperty**, em seguida adicione-a à coleção com o método **Append**. Uma referência a um objeto **Property** definido pelo usuário que não tenha sido acrescentado ainda a uma coleção **Properties** causará um erro, bem como o acréscimo de um objeto **Property** definido pelo usuário a uma coleção **Properties** que contenha um objeto **Property** de mesmo nome.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p102">In addition to the built-in properties, you can also create and add your own user-defined properties. To add a user-defined property to an existing instance of an object, first define its characteristics with the **CreateProperty** method, then add it to the collection with the **Append** method. Referencing a user-defined **Property** object that has not yet been appended to a **Properties** collection will cause an error, as will appending a user-defined **Property** object to a **Properties** collection containing a **Property** object of the same name.</span></span>
+<span data-ttu-id="d9cd5-p102">Além das propriedades internas, você também poderá criar e adicionar suas próprias propriedades definidas pelo usuário. Para adicionar uma propriedade definida pelo usuário a uma instância existente de um objeto, defina primeiramente suas características com o método **CreateProperty**, em seguida adicione-a à coleção com o método **Append**. Uma referência a um objeto **Property** definido pelo usuário que não tenha sido acrescentado ainda a uma coleção **Properties** causará um erro, bem como o acréscimo de um objeto **Property** definido pelo usuário a uma coleção **Properties** que contenha um objeto **Property** de mesmo nome.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p102">In addition to the built-in properties, you can also create and add your own user-defined properties. To add a user-defined property to an existing instance of an object, first define its characteristics with the **CreateProperty** method, then add it to the collection with the **Append** method. Referencing a user-defined **Property** object that has not yet been appended to a **Properties** collection will cause an error, as will appending a user-defined **Property** object to a **Properties** collection containing a **Property** object of the same name.</span></span>
 
-<span data-ttu-id="bdd4a-111">É possível usar o método **Delete** para remover propriedades definidas pelo usuário da coleção **Properties**, mas não é possível remover propriedades internas.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-111">You can use the **Delete** method to remove user-defined properties from the **Properties** collection, but you can't remove built-in properties.</span></span>
-
-
-> [!NOTE]
-> <P><span data-ttu-id="bdd4a-p103">[!OBSERVAçãO] Um objeto <STRONG>Property</STRONG> definido pelo usuário está associado apenas à instância específica de um objeto. A propriedade não é definida para todas as instâncias de objetos do tipo selecionado.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p103">A user-defined <STRONG>Property</STRONG> object is associated only with the specific instance of an object. The property isn't defined for all instances of objects of the selected type.</span></span></P>
-
-
-
-<span data-ttu-id="bdd4a-114">Para fazer referência a um objeto **Property** interno em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="bdd4a-114">To refer to a built-in **Property** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-<span data-ttu-id="bdd4a-115">objeto. **Propriedades** (0)</span><span class="sxs-lookup"><span data-stu-id="bdd4a-115">object.**Properties**(0)</span></span>
-
-<span data-ttu-id="bdd4a-116">objeto. **Propriedades** ("nome")</span><span class="sxs-lookup"><span data-stu-id="bdd4a-116">object.**Properties**("name")</span></span>
-
-<span data-ttu-id="bdd4a-117">objeto. **Propriedades** \! \[nome\]</span><span class="sxs-lookup"><span data-stu-id="bdd4a-117">object.**Properties**\!\[name\]</span></span>
-
-<span data-ttu-id="bdd4a-118">Para uma propriedade incorporada, você também pode usar esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="bdd4a-118">For a built-in property, you can also use this syntax:</span></span>
-
-<span data-ttu-id="bdd4a-119">Object.Name</span><span class="sxs-lookup"><span data-stu-id="bdd4a-119">object.name</span></span>
+<span data-ttu-id="d9cd5-111">É possível usar o método **Delete** para remover propriedades definidas pelo usuário da coleção **Properties**, mas não é possível remover propriedades internas.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-111">You can use the **Delete** method to remove user-defined properties from the **Properties** collection, but you can't remove built-in properties.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="bdd4a-120">Para uma propriedade definida pelo usuário, você deve usar o objeto completo. <STRONG>Propriedades</STRONG> sintaxe ("nome").</span><span class="sxs-lookup"><span data-stu-id="bdd4a-120">For a user-defined property, you must use the full object.<STRONG>Properties</STRONG>("name") syntax.</span></span></P>
+> <P><span data-ttu-id="d9cd5-p103">[!OBSERVAçãO] Um objeto <STRONG>Property</STRONG> definido pelo usuário está associado apenas à instância específica de um objeto. A propriedade não é definida para todas as instâncias de objetos do tipo selecionado.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p103">A user-defined <STRONG>Property</STRONG> object is associated only with the specific instance of an object. The property isn't defined for all instances of objects of the selected type.</span></span></P>
 
 
 
-<span data-ttu-id="bdd4a-p104">Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p104">With the same syntax forms, you can also refer to the **Value** property of a **Property** object. The context of the reference will determine whether you are referring to the **Property** object itself or the **Value** property of the **Property** object.</span></span>
+<span data-ttu-id="d9cd5-114">Para fazer referência a um objeto **Property** interno em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="d9cd5-114">To refer to a built-in **Property** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-## <a name="example"></a><span data-ttu-id="bdd4a-123">Exemplo</span><span class="sxs-lookup"><span data-stu-id="bdd4a-123">Example</span></span>
+<span data-ttu-id="d9cd5-115">objeto. **Propriedades** (0)</span><span class="sxs-lookup"><span data-stu-id="d9cd5-115">object.**Properties**(0)</span></span>
 
-<span data-ttu-id="bdd4a-p105">Este exemplo cria uma propriedade definida pelo usuário para o banco de dados atual, define suas propriedades **Type** e **Value** e acrescenta-o à coleção **Properties** do banco de dados. Em seguida, são enumeradas no exemplo todas as propriedades do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p105">This example creates a user-defined property for the current database, sets its **Type** and **Value** properties, and appends it to the **Properties** collection of the database. Then the example enumerates all properties in the database.</span></span>
+<span data-ttu-id="d9cd5-116">objeto. **Propriedades** ("nome")</span><span class="sxs-lookup"><span data-stu-id="d9cd5-116">object.**Properties**("name")</span></span>
+
+<span data-ttu-id="d9cd5-117">objeto. **Propriedades** \! \[nome\]</span><span class="sxs-lookup"><span data-stu-id="d9cd5-117">object.**Properties**\!\[name\]</span></span>
+
+<span data-ttu-id="d9cd5-118">Para uma propriedade incorporada, você também pode usar esta sintaxe:</span><span class="sxs-lookup"><span data-stu-id="d9cd5-118">For a built-in property, you can also use this syntax:</span></span>
+
+<span data-ttu-id="d9cd5-119">Object.Name</span><span class="sxs-lookup"><span data-stu-id="d9cd5-119">object.name</span></span>
+
+
+> [!NOTE]
+> <P><span data-ttu-id="d9cd5-120">Para uma propriedade definida pelo usuário, você deve usar o objeto completo. <STRONG>Propriedades</STRONG> sintaxe ("nome").</span><span class="sxs-lookup"><span data-stu-id="d9cd5-120">For a user-defined property, you must use the full object.<STRONG>Properties</STRONG>("name") syntax.</span></span></P>
+
+
+
+<span data-ttu-id="d9cd5-p104">Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p104">With the same syntax forms, you can also refer to the **Value** property of a **Property** object. The context of the reference will determine whether you are referring to the **Property** object itself or the **Value** property of the **Property** object.</span></span>
+
+## <a name="example"></a><span data-ttu-id="d9cd5-123">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d9cd5-123">Example</span></span>
+
+<span data-ttu-id="d9cd5-p105">Este exemplo cria uma propriedade definida pelo usuário para o banco de dados atual, define suas propriedades **Type** e **Value** e acrescenta-o à coleção **Properties** do banco de dados. Em seguida, são enumeradas no exemplo todas as propriedades do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p105">This example creates a user-defined property for the current database, sets its **Type** and **Value** properties, and appends it to the **Properties** collection of the database. Then the example enumerates all properties in the database.</span></span>
 
 ```vb
     Sub PropertyX() 
@@ -97,7 +97,7 @@ ms.locfileid: "25874283"
 
 <br/>
 
-<span data-ttu-id="bdd4a-p106">Este exemplo tenta definir o valor de uma propriedade definida pelo usuário. Se a propriedade não existir, ele usará o método **CreateProperty** para criar e definir o valor da nova propriedade. O procedimento SetProperty é exigido para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="bdd4a-p106">This example tries to set the value of a user-defined property. If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property. The SetProperty procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="d9cd5-p106">Este exemplo tenta definir o valor de uma propriedade definida pelo usuário. Se a propriedade não existir, ele usará o método **CreateProperty** para criar e definir o valor da nova propriedade. O procedimento SetProperty é exigido para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="d9cd5-p106">This example tries to set the value of a user-defined property. If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property. The SetProperty procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreatePropertyX() 

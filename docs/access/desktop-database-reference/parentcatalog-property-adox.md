@@ -1,32 +1,32 @@
 ---
 title: Propriedade ParentCatalog (ADOX)
-TOCTitle: ParentCatalog Property (ADOX)
+TOCTitle: ParentCatalog property (ADOX)
 ms:assetid: 7eef4ef5-1fa4-73ea-a710-fc8767c9ea21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249535(v=office.15)
 ms:contentKeyID: 48545891
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e316beebd45b39d7cbbb0714499ec7156a4bb270
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bbeed0283eaf7982d037cfe7bf4773db9a8c03b5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883719"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928450"
 ---
-# <a name="parentcatalog-property-adox"></a><span data-ttu-id="7de4f-102">Propriedade ParentCatalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="7de4f-102">ParentCatalog Property (ADOX)</span></span>
+# <a name="parentcatalog-property-adox"></a><span data-ttu-id="03dff-102">Propriedade ParentCatalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="03dff-102">ParentCatalog property (ADOX)</span></span>
 
 
-<span data-ttu-id="7de4f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7de4f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="03dff-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="03dff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7de4f-104">Especifica o catálogo pai de um tabela ou coluna para conceder acesso a propriedades específicas do provedor.</span><span class="sxs-lookup"><span data-stu-id="7de4f-104">Specifies the parent catalog of a table or column to provide access to provider-specific properties.</span></span>
+<span data-ttu-id="03dff-104">Especifica o catálogo pai de um tabela ou coluna para conceder acesso a propriedades específicas do provedor.</span><span class="sxs-lookup"><span data-stu-id="03dff-104">Specifies the parent catalog of a table or column to provide access to provider-specific properties.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="7de4f-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="7de4f-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="03dff-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="03dff-105">Settings and return values</span></span>
 
-<span data-ttu-id="7de4f-p101">Define e retorna um objeto [Catalog](catalog-object-adox.md). A definição de **ParentCatalog** como um objeto **Catalog** aberto permite acessar propriedades específicas do provedor antes de acrescentar uma tabela ou coluna a uma coleção **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="7de4f-p101">Sets and returns a [Catalog](catalog-object-adox.md) object. Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.</span></span>
+<span data-ttu-id="03dff-p101">Define e retorna um objeto [Catalog](catalog-object-adox.md). A definição de **ParentCatalog** como um objeto **Catalog** aberto permite acessar propriedades específicas do provedor antes de acrescentar uma tabela ou coluna a uma coleção **Catalog**.</span><span class="sxs-lookup"><span data-stu-id="03dff-p101">Sets and returns a [Catalog](catalog-object-adox.md) object. Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7de4f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="7de4f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="03dff-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="03dff-108">Remarks</span></span>
 
-<span data-ttu-id="7de4f-p102">Alguns provedores de dados permitem que valores de propriedade específicos do provedor sejam gravados somente na fase de criação (quando uma tabela ou coluna é acrescentada à sua coleção **Catalog** ). Para acessar essas propriedades antes de acrescentar esses objetos a um **Catalog**, especifique primeiro o objeto **Catalog** na propriedade **ParentCatalog**.</span><span class="sxs-lookup"><span data-stu-id="7de4f-p102">Some data providers allow provider-specific property values to be written only at creation (when a table or column is appended to its **Catalog** collection). To access these properties before appending these objects to a **Catalog**, specify the **Catalog** in the **ParentCatalog** property first.</span></span>
+<span data-ttu-id="03dff-p102">Alguns provedores de dados permitem que valores de propriedade específicos do provedor sejam gravados somente na fase de criação (quando uma tabela ou coluna é acrescentada à sua coleção **Catalog** ). Para acessar essas propriedades antes de acrescentar esses objetos a um **Catalog**, especifique primeiro o objeto **Catalog** na propriedade **ParentCatalog**.</span><span class="sxs-lookup"><span data-stu-id="03dff-p102">Some data providers allow provider-specific property values to be written only at creation (when a table or column is appended to its **Catalog** collection). To access these properties before appending these objects to a **Catalog**, specify the **Catalog** in the **ParentCatalog** property first.</span></span>
 
-<span data-ttu-id="7de4f-111">Ocorre um erro quando a tabela ou coluna é acrescentada a um objeto **Catalog** que não seja **ParentCatalog**.</span><span class="sxs-lookup"><span data-stu-id="7de4f-111">An error occurs when the table or column is appended to a different **Catalog** than the **ParentCatalog**.</span></span>
+<span data-ttu-id="03dff-111">Ocorre um erro quando a tabela ou coluna é acrescentada a um objeto **Catalog** que não seja **ParentCatalog**.</span><span class="sxs-lookup"><span data-stu-id="03dff-111">An error occurs when the table or column is appended to a different **Catalog** than the **ParentCatalog**.</span></span>
 

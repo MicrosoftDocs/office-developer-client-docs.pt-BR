@@ -6,51 +6,51 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95d02f56a7c1e916bd0b6181a7a22b3cebb9d9b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 666e27b176fb973298c791f7473dbda6fe37c7b0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875025"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928828"
 ---
-# <a name="recordset2clone-method-dao"></a><span data-ttu-id="b4abf-102">Método Recordset2.Clone (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4abf-102">Recordset2.Clone Method (DAO)</span></span>
+# <a name="recordset2clone-method-dao"></a><span data-ttu-id="bf554-102">Método Recordset2.Clone (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf554-102">Recordset2.Clone method (DAO)</span></span>
 
 
-<span data-ttu-id="b4abf-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4abf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bf554-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf554-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b4abf-104">Cria um objeto **[Recordset](recordset-object-dao.md)** duplicado que faz referência ao objeto **Recordset2** original.</span><span class="sxs-lookup"><span data-stu-id="b4abf-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset2** object.</span></span>
+<span data-ttu-id="bf554-104">Cria um objeto **[Recordset](recordset-object-dao.md)** duplicado que faz referência ao objeto **Recordset2** original.</span><span class="sxs-lookup"><span data-stu-id="bf554-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset2** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b4abf-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="b4abf-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bf554-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="bf554-105">Syntax</span></span>
 
-<span data-ttu-id="b4abf-106">*expressão* . Clone</span><span class="sxs-lookup"><span data-stu-id="b4abf-106">*expression* .Clone</span></span>
+<span data-ttu-id="bf554-106">*expressão* . Clone</span><span class="sxs-lookup"><span data-stu-id="bf554-106">*expression* .Clone</span></span>
 
-<span data-ttu-id="b4abf-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="b4abf-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="bf554-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="bf554-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="return-value"></a><span data-ttu-id="b4abf-108">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="b4abf-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bf554-108">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="bf554-108">Return value</span></span>
 
-<span data-ttu-id="b4abf-109">Recordset</span><span class="sxs-lookup"><span data-stu-id="b4abf-109">Recordset</span></span>
+<span data-ttu-id="bf554-109">Recordset</span><span class="sxs-lookup"><span data-stu-id="bf554-109">Recordset</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b4abf-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="b4abf-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bf554-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="bf554-110">Remarks</span></span>
 
-<span data-ttu-id="b4abf-p101">Use o método **Clone** para criar vários objetos **Recordset** duplicados. Cada conjunto de registros pode ter seu próprio registro atual. Usar **Clone** sozinho não altera os dados nos objetos ou em suas estruturas subjacentes. Quando você usa o método **Clone**, é possível compartilhar indicadores entre dois ou mais objetos **Recordset2** porque seus indicadores são intercambiáveis.</span><span class="sxs-lookup"><span data-stu-id="b4abf-p101">Use the **Clone** method to create multiple, duplicate **Recordset** objects. Each recordset can have its own current record. Using **Clone** by itself doesn't change the data in the objects or in their underlying structures. When you use the **Clone** method, you can share bookmarks between two or more **Recordset2** objects because their bookmarks are interchangeable.</span></span>
+<span data-ttu-id="bf554-p101">Use o método **Clone** para criar vários objetos **Recordset** duplicados. Cada conjunto de registros pode ter seu próprio registro atual. Usar **Clone** sozinho não altera os dados nos objetos ou em suas estruturas subjacentes. Quando você usa o método **Clone**, é possível compartilhar indicadores entre dois ou mais objetos **Recordset2** porque seus indicadores são intercambiáveis.</span><span class="sxs-lookup"><span data-stu-id="bf554-p101">Use the **Clone** method to create multiple, duplicate **Recordset** objects. Each recordset can have its own current record. Using **Clone** by itself doesn't change the data in the objects or in their underlying structures. When you use the **Clone** method, you can share bookmarks between two or more **Recordset2** objects because their bookmarks are interchangeable.</span></span>
 
-<span data-ttu-id="b4abf-p102">Você pode usar o método **Clone** quando desejar executar uma operação em um conjunto de registros que exige vários registros atuais. Isso é mais rápido e mais eficiente do que abrir um segundo conjunto de registros. Quando você cria um conjunto de registros com o método **Clone**, ele inicialmente não tem um registro atual. Para tornar um registro atual antes de usar o clone de conjunto de registros, você deve definir a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)** ou usar um dos métodos **[Move](recordset-movefirst-method-dao.md)**, ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** ou o método **[Seek](recordset2-seek-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="b4abf-p102">You can use the **Clone** method when you want to perform an operation on a recordset that requires multiple current records. This is faster and more efficient than opening a second recordset. When you create a recordset with the **Clone** method, it initially lacks a current record. To make a record current before you use the recordset clone, you must set the **[Bookmark](recordset2-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset2-findfirst-method-dao.md)** methods, or the **[Seek](recordset2-seek-method-dao.md)** method.</span></span>
+<span data-ttu-id="bf554-p102">Você pode usar o método **Clone** quando desejar executar uma operação em um conjunto de registros que exige vários registros atuais. Isso é mais rápido e mais eficiente do que abrir um segundo conjunto de registros. Quando você cria um conjunto de registros com o método **Clone**, ele inicialmente não tem um registro atual. Para tornar um registro atual antes de usar o clone de conjunto de registros, você deve definir a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)** ou usar um dos métodos **[Move](recordset-movefirst-method-dao.md)**, ou um dos métodos **[Find](recordset2-findfirst-method-dao.md)** ou o método **[Seek](recordset2-seek-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="bf554-p102">You can use the **Clone** method when you want to perform an operation on a recordset that requires multiple current records. This is faster and more efficient than opening a second recordset. When you create a recordset with the **Clone** method, it initially lacks a current record. To make a record current before you use the recordset clone, you must set the **[Bookmark](recordset2-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset2-findfirst-method-dao.md)** methods, or the **[Seek](recordset2-seek-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="b4abf-p103">Usar o método **[Close](connection-close-method-dao.md)** no objeto original ou duplicado não afeta o outro objeto. Por exemplo, usar **Close** no conjunto de registros original não fecha o clone.</span><span class="sxs-lookup"><span data-stu-id="b4abf-p103">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original recordset doesn't close the clone.</span></span>
+<span data-ttu-id="bf554-p103">Usar o método **[Close](connection-close-method-dao.md)** no objeto original ou duplicado não afeta o outro objeto. Por exemplo, usar **Close** no conjunto de registros original não fecha o clone.</span><span class="sxs-lookup"><span data-stu-id="bf554-p103">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original recordset doesn't close the clone.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="b4abf-121">Fechar um conjunto de registros clonado dentro de uma transação pendente provocará uma operação <STRONG>Rollback</STRONG> implícita.</span><span class="sxs-lookup"><span data-stu-id="b4abf-121">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
+> <P><span data-ttu-id="bf554-121">Fechar um conjunto de registros clonado dentro de uma transação pendente provocará uma operação <STRONG>Rollback</STRONG> implícita.</span><span class="sxs-lookup"><span data-stu-id="bf554-121">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="b4abf-p104">Quando você clona um objeto <STRONG>Recordset</STRONG> do tipo tabela em um espaço de trabalho do Microsoft Access, a configuração da propriedade <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> não é clonada na nova cópia do conjunto de registros. Você deve copiar a configuração da propriedade <STRONG>Index</STRONG> manualmente.</span><span class="sxs-lookup"><span data-stu-id="b4abf-p104">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset. You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
+> <P><span data-ttu-id="bf554-p104">Quando você clona um objeto <STRONG>Recordset</STRONG> do tipo tabela em um espaço de trabalho do Microsoft Access, a configuração da propriedade <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> não é clonada na nova cópia do conjunto de registros. Você deve copiar a configuração da propriedade <STRONG>Index</STRONG> manualmente.</span><span class="sxs-lookup"><span data-stu-id="bf554-p104">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset. You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
 
 
 
-## <a name="example"></a><span data-ttu-id="b4abf-124">Exemplo</span><span class="sxs-lookup"><span data-stu-id="b4abf-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bf554-124">Exemplo</span><span class="sxs-lookup"><span data-stu-id="bf554-124">Example</span></span>
 
-<span data-ttu-id="b4abf-125">Este exemplo usa o método **Clone** para criar cópias de um conjunto de registros e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.</span><span class="sxs-lookup"><span data-stu-id="b4abf-125">This example uses the **Clone** method to create copies of a recordset and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="bf554-125">Este exemplo usa o método **Clone** para criar cópias de um conjunto de registros e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de maneira independente.</span><span class="sxs-lookup"><span data-stu-id="bf554-125">This example uses the **Clone** method to create copies of a recordset and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb
     Sub CloneX() 

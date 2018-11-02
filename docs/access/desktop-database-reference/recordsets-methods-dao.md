@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
 ms:contentKeyID: 52074551
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fbeb8a5e68d6f2207f97d55dbda785588461e860
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7f73deb714e9e38f207d0fec5a64dd650bfa51c3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875571"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921982"
 ---
-# <a name="recordsets-methods-dao"></a><span data-ttu-id="822fa-102">Métodos de Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="822fa-102">Recordsets Methods (DAO)</span></span>
+# <a name="recordsets-methods-dao"></a><span data-ttu-id="a0d10-102">Métodos de Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="a0d10-102">Recordsets methods (DAO)</span></span>
 
 
-<span data-ttu-id="822fa-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="822fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0d10-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0d10-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="822fa-104">Método Recordsets.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="822fa-104">Recordsets.Refresh Method (DAO)</span></span>](recordsets-refresh-method-dao.md)
+  - [<span data-ttu-id="a0d10-104">Método Recordsets.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="a0d10-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
 

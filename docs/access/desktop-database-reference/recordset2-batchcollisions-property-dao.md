@@ -10,31 +10,31 @@ f1_keywords:
 - dao360.chm1101180
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ee26b84237b1bf4a8603295a6e6d66e6f30303e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5fd6cd83de01f0135aa30c2bc37ce6bdfca90ea3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885887"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928177"
 ---
-# <a name="recordset2batchcollisions-property-dao"></a><span data-ttu-id="d41af-102">Propriedade Recordset2.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="d41af-102">Recordset2.BatchCollisions Property (DAO)</span></span>
+# <a name="recordset2batchcollisions-property-dao"></a><span data-ttu-id="92e57-102">Propriedade Recordset2.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="92e57-102">Recordset2.BatchCollisions property (DAO)</span></span>
 
 
-<span data-ttu-id="d41af-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d41af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="92e57-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="92e57-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d41af-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d41af-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="92e57-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="92e57-104">Syntax</span></span>
 
-<span data-ttu-id="d41af-105">*expressão* . BatchCollisions</span><span class="sxs-lookup"><span data-stu-id="d41af-105">*expression* .BatchCollisions</span></span>
+<span data-ttu-id="92e57-105">*expressão* . BatchCollisions</span><span class="sxs-lookup"><span data-stu-id="92e57-105">*expression* .BatchCollisions</span></span>
 
-<span data-ttu-id="d41af-106">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="d41af-106">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="92e57-106">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="92e57-106">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d41af-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="d41af-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="92e57-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="92e57-107">Remarks</span></span>
 
-<span data-ttu-id="d41af-p101">Essa propriedade contém uma matriz de indicadores para as linhas que se encontram em colisão durante a última tentativa de chamada **[Update](recordset2-update-method-dao.md)** em lotes. A propriedade **[BatchCollisionCount](recordset2-batchcollisioncount-property-dao.md)** indica o número dos elementos na matriz.</span><span class="sxs-lookup"><span data-stu-id="d41af-p101">This property contains an array of bookmarks to rows that encountered a collision during the last attempted batch **[Update](recordset2-update-method-dao.md)** call. The **[BatchCollisionCount](recordset2-batchcollisioncount-property-dao.md)** property indicates the number of elements in the array.</span></span>
+<span data-ttu-id="92e57-p101">Essa propriedade contém uma matriz de indicadores para as linhas que se encontram em colisão durante a última tentativa de chamada **[Update](recordset2-update-method-dao.md)** em lotes. A propriedade **[BatchCollisionCount](recordset2-batchcollisioncount-property-dao.md)** indica o número dos elementos na matriz.</span><span class="sxs-lookup"><span data-stu-id="92e57-p101">This property contains an array of bookmarks to rows that encountered a collision during the last attempted batch **[Update](recordset2-update-method-dao.md)** call. The **[BatchCollisionCount](recordset2-batchcollisioncount-property-dao.md)** property indicates the number of elements in the array.</span></span>
 
-<span data-ttu-id="d41af-110">Se você definir a propriedade [**Bookmark**](recordset2-bookmark-property-dao.md) do objeto **Recordset** em funcionamento como valores de indicador na matriz **BatchCollisions**, poderá mover cada registro com falha para concluir a operação de Atualização no modo de lotes mais recente.</span><span class="sxs-lookup"><span data-stu-id="d41af-110">If you set the working **Recordset** object's **[Bookmark](recordset2-bookmark-property-dao.md)** property to bookmark values in the **BatchCollisions** array, you can move to each record that failed to complete the most recent batch-mode Update operation.</span></span>
+<span data-ttu-id="92e57-110">Se você definir a propriedade [**Bookmark**](recordset2-bookmark-property-dao.md) do objeto **Recordset** em funcionamento como valores de indicador na matriz **BatchCollisions**, poderá mover cada registro com falha para concluir a operação de Atualização no modo de lotes mais recente.</span><span class="sxs-lookup"><span data-stu-id="92e57-110">If you set the working **Recordset** object's **[Bookmark](recordset2-bookmark-property-dao.md)** property to bookmark values in the **BatchCollisions** array, you can move to each record that failed to complete the most recent batch-mode Update operation.</span></span>
 
-<span data-ttu-id="d41af-p102">Depois que os registros de colisão forem corrigidos, você poderá chamar o método **Update** do modo de lotes novamente. Nesse ponto, o DAO tentará outra atualização em lotes e a propriedade **BatchCollisions** refletirá novamente o conjunto de registros que falharam na segunda tentativa. Qualquer registro que foi bem-sucedido na tentativa anterior não será enviado para a tentativa atual porque agora possui a propriedade **[RecordStatus](recordset2-recordstatus-property-dao.md)** de dbRecordUnmodified. Esse processo poderá continuar enquanto ocorrem colisões ou até que você desista das atualizações e feche o conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="d41af-p102">After the collision records are corrected, you can call the batch mode **Update** method again. At this point DAO attempts another batch update, and the **BatchCollisions** property again reflects the set of records that failed the second attempt. Any records that succeeded in the previous attempt are not sent in the current attempt, as they now have a **[RecordStatus](recordset2-recordstatus-property-dao.md)** property of dbRecordUnmodified. This process can continue as long as collisions occur, or until you abandon the updates and close the result set.</span></span>
+<span data-ttu-id="92e57-p102">Depois que os registros de colisão forem corrigidos, você poderá chamar o método **Update** do modo de lotes novamente. Nesse ponto, o DAO tentará outra atualização em lotes e a propriedade **BatchCollisions** refletirá novamente o conjunto de registros que falharam na segunda tentativa. Qualquer registro que foi bem-sucedido na tentativa anterior não será enviado para a tentativa atual porque agora possui a propriedade **[RecordStatus](recordset2-recordstatus-property-dao.md)** de dbRecordUnmodified. Esse processo poderá continuar enquanto ocorrem colisões ou até que você desista das atualizações e feche o conjunto de resultados.</span><span class="sxs-lookup"><span data-stu-id="92e57-p102">After the collision records are corrected, you can call the batch mode **Update** method again. At this point DAO attempts another batch update, and the **BatchCollisions** property again reflects the set of records that failed the second attempt. Any records that succeeded in the previous attempt are not sent in the current attempt, as they now have a **[RecordStatus](recordset2-recordstatus-property-dao.md)** property of dbRecordUnmodified. This process can continue as long as collisions occur, or until you abandon the updates and close the result set.</span></span>
 
-<span data-ttu-id="d41af-115">Essa matriz é recriada sempre que você executar um método **Update** no modo em lote.</span><span class="sxs-lookup"><span data-stu-id="d41af-115">This array is re-created each time you execute a batch-mode **Update** method.</span></span>
+<span data-ttu-id="92e57-115">Essa matriz é recriada sempre que você executar um método **Update** no modo em lote.</span><span class="sxs-lookup"><span data-stu-id="92e57-115">This array is re-created each time you execute a batch-mode **Update** method.</span></span>
 

@@ -6,25 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142315(v=office.15)
 ms:contentKeyID: 52072793
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 46d7a87279237f07a043d85d927627251aa87df3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2646d6a9587640c26f4eaf3aefa1e9f108402e0c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885343"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919168"
 ---
-# <a name="relation-object-reference-dao"></a><span data-ttu-id="09a3e-102">Referência de objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="09a3e-102">Relation Object Reference (DAO)</span></span>
+# <a name="relation-object-reference-dao"></a><span data-ttu-id="7da19-102">Referência de objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="7da19-102">Relation object reference (DAO)</span></span>
 
+<span data-ttu-id="7da19-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7da19-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="09a3e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="09a3e-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="09a3e-104">Objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="09a3e-104">Relation Object (DAO)</span></span>](relation-object-dao.md)
-
-  - [<span data-ttu-id="09a3e-105">Membros de Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="09a3e-105">Relation Members (DAO)</span></span>](relation-members-dao.md)
-
-  - [<span data-ttu-id="09a3e-106">Propriedades Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="09a3e-106">Relation Properties (DAO)</span></span>](relation-properties-dao.md)
-
-  - [<span data-ttu-id="09a3e-107">Métodos de Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="09a3e-107">Relation Methods (DAO)</span></span>](relation-methods-dao.md)
+- [<span data-ttu-id="7da19-104">Objeto Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="7da19-104">Relation object (DAO)</span></span>](relation-object-dao.md)
+- [<span data-ttu-id="7da19-105">Membros de Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="7da19-105">Relation members (DAO)</span></span>](relation-members-dao.md)
+- [<span data-ttu-id="7da19-106">Propriedades Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="7da19-106">Relation properties (DAO)</span></span>](relation-properties-dao.md)
+- [<span data-ttu-id="7da19-107">Métodos de Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="7da19-107">Relation methods (DAO)</span></span>](relation-methods-dao.md)
 

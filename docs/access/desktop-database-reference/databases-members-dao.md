@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
 ms:contentKeyID: 48543805
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae9def4b04e02c13164c9fcd1ac870a1043cf2ad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efcc6095d25920287820925eed29be7444e993fb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889683"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923088"
 ---
-# <a name="databases-members-dao"></a><span data-ttu-id="d45ee-102">Membros de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="d45ee-102">Databases Members (DAO)</span></span>
+# <a name="databases-members-dao"></a><span data-ttu-id="310d9-102">Membros de bancos de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="310d9-102">Databases members (DAO)</span></span>
 
 
-<span data-ttu-id="d45ee-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d45ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="310d9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="310d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d45ee-104">Uma coleção Databases contém todos os objetos Database abertos que foram abertos ou criados em um objeto Workspace.</span><span class="sxs-lookup"><span data-stu-id="d45ee-104">A Databases collection contains all open Database objects opened or created in a Workspace object.</span></span>
+<span data-ttu-id="310d9-104">Uma coleção Databases contém todos os objetos Database abertos que foram abertos ou criados em um objeto Workspace.</span><span class="sxs-lookup"><span data-stu-id="310d9-104">A Databases collection contains all open Database objects opened or created in a Workspace object.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="d45ee-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="d45ee-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="310d9-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="310d9-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,20 +29,20 @@ ms.locfileid: "25889683"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d45ee-106">Nome</span><span class="sxs-lookup"><span data-stu-id="d45ee-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="d45ee-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="d45ee-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="310d9-106">Nome</span><span class="sxs-lookup"><span data-stu-id="310d9-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="310d9-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="310d9-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d45ee-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="d45ee-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="d45ee-109">Não aceito para este objeto.</span><span class="sxs-lookup"><span data-stu-id="d45ee-109">Not supported for this object.</span></span></p></td>
+<td><p><span data-ttu-id="310d9-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="310d9-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="310d9-109">Não aceito para este objeto.</span><span class="sxs-lookup"><span data-stu-id="310d9-109">Not supported for this object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="d45ee-110">Propriedades</span><span class="sxs-lookup"><span data-stu-id="d45ee-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="310d9-110">Propriedades</span><span class="sxs-lookup"><span data-stu-id="310d9-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -51,14 +51,14 @@ ms.locfileid: "25889683"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d45ee-111">Nome</span><span class="sxs-lookup"><span data-stu-id="d45ee-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="d45ee-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="d45ee-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="310d9-111">Nome</span><span class="sxs-lookup"><span data-stu-id="310d9-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="310d9-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="310d9-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d45ee-113"><strong><a href="databases-count-property-dao.md">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="d45ee-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="d45ee-p101">Retorna o número de objetos na coleção especificada. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="d45ee-p101">Returns the number of objects in the specified collection. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="310d9-113"><strong><a href="databases-count-property-dao.md">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="310d9-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="310d9-p101">Retorna o número de objetos na coleção especificada. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="310d9-p101">Returns the number of objects in the specified collection. Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

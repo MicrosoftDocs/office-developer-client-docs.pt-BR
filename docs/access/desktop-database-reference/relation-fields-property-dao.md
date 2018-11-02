@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195574(v=office.15)
 ms:contentKeyID: 48545525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a91af08b9200d4e44bfbbeea8d888dce1f854d48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c85ebcf9b8535014d815b21b96eec79758eebb7d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885931"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923053"
 ---
-# <a name="relationfields-property-dao"></a><span data-ttu-id="c8e83-102">Propriedade Relation.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="c8e83-102">Relation.Fields Property (DAO)</span></span>
+# <a name="relationfields-property-dao"></a><span data-ttu-id="81d7e-102">Propriedade Relation.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="81d7e-102">Relation.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="c8e83-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8e83-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="81d7e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="81d7e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c8e83-p101">Retorna uma coleção **Fields** que representa todos os objetos **Field** armazenados para o objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="c8e83-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
+<span data-ttu-id="81d7e-p101">Retorna uma coleção **Fields** que representa todos os objetos **Field** armazenados para o objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="81d7e-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c8e83-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c8e83-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="81d7e-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="81d7e-106">Syntax</span></span>
 
-<span data-ttu-id="c8e83-107">*expressão* . Campos</span><span class="sxs-lookup"><span data-stu-id="c8e83-107">*expression* .Fields</span></span>
+<span data-ttu-id="81d7e-107">*expressão* . Campos</span><span class="sxs-lookup"><span data-stu-id="81d7e-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="c8e83-108">*expressão* Uma variável que representa um objeto **Relation** .</span><span class="sxs-lookup"><span data-stu-id="c8e83-108">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="81d7e-108">*expressão* Uma variável que representa um objeto **Relation** .</span><span class="sxs-lookup"><span data-stu-id="81d7e-108">*expression* A variable that represents a **Relation** object.</span></span>
 
