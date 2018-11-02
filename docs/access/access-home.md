@@ -5,12 +5,12 @@ ms.date: 10/16/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
-ms.openlocfilehash: e754a4e706bd85ac55f8e2540cd337c5ffc64f9a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ff4b96b06b57de1fdf394e93d213a4262dcafc0e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606476"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861537"
 ---
 # <a name="access"></a>Access
 
@@ -37,15 +37,8 @@ Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, refer
   
 ### <a name="support"></a>Suporte
   
-<<<<<<< HEAD
-- [Centro de Desenvolvimento do Office](https://developer.microsoft.com/office)
-  
-- [Suporte do Office](https://support.office.com/)
-  
-=======
-- [Centro de Desenvolvimento do Office](https://developer.microsoft.com/office) 
+- [Centro de Desenvolvedores do Office](https://developer.microsoft.com/office) 
 - [Suporte do Office](https://support.office.com/) 
->>>>>>> mestre
 - [Fórum do Access no Centro de Desenvolvimento do Office](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
   
 
