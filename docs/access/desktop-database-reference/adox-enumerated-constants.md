@@ -1,26 +1,27 @@
 ---
-title: Constantes enumeradas do ADOX
-TOCTitle: ADOX Enumerated Constants
+title: Constantes enumerado do ADOX
+TOCTitle: ADOX enumerated constants
 ms:assetid: 0ad716a0-8801-50cb-024a-85c308c65c78
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f8be72ea28d9814890bcaf193c1175725fcfe1d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5ee99f8795dce4587d795b2cea4ac70a74c5eaa7
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869495"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910807"
 ---
-# <a name="adox-enumerated-constants"></a>Constantes enumeradas do ADO
-
+# <a name="adox-enumerated-constants"></a>Constantes enumerado do ADOX
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Para ajudar na depuração, as constantes enumeradas do ADOX listam um valor para cada constante. Porém, esse valor é meramente consultivo, e pode ser alterado de uma versão do ADOX para outra. O código deve depender apenas do nome e não do valor real das constantes enumeradas.
 
 São definidas as constantes enumeradas a seguir.
+
+<br/>
 
 <table>
 <colgroup>

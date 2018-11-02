@@ -1,22 +1,23 @@
 ---
 title: Objetos do ADO MD (referência de banco de dados da área de trabalho do Access)
-TOCTitle: ADO MD Objects
+TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e09676b222e7199b7f2f9f7520ebf3d5436f9a3c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875130"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910835"
 ---
 # <a name="ado-md-objects"></a>Objetos do ADO MD
 
-
 **Aplica-se a**: Access 2013, o Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25875130"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Objeto</th>
+<th>Descrição</th>
+</tr>
 <tr class="odd">
 <td><p><a href="axis-object-ado-md.md">Eixo</a></p></td>
 <td><p>Representa um eixo de posição ou de filtro de um conjunto de células, contendo membros selecionados de uma ou mais dimensões.</p></td>
@@ -67,8 +72,11 @@ ms.locfileid: "25875130"
 </tbody>
 </table>
 
+<br/>
 
 Além disso, o objeto **Catalog** está conectado a um objeto **Connection** do ADO, que está incluído na biblioteca padrão do ADO:
+
+<br/>
 
 <table>
 <colgroup>
@@ -89,6 +97,7 @@ Além disso, o objeto **Catalog** está conectado a um objeto **Connection** do 
 </tbody>
 </table>
 
+<br/>
 
 Muitos objetos do ADO MD pode estar contidos em uma coleção correspondente. Por exemplo, um objeto [CubeDef](cubedef-object-ado-md.md) pode estar contido em uma coleção [CubeDefs](cubedefs-collection-ado-md.md) de um **Catalog**. Para obter mais informações, consulte [Coleções do ADO MD](ado-md-collections.md).
 

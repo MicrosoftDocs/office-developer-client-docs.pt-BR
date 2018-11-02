@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de0d7066927e3a3cf034197c15f4330302801c0a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 379680fc527b3c5165ae5df99dd354b37dfb9322
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885924"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910793"
 ---
 # <a name="submacro-macro-statement"></a>Instrução de macro Submacro
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-A instrução **Submacro** define uma macro separada na janela do Designer de Macros.
+A instrução **Submacro** define uma macro separada na janela do Designer de macros.
 
 ## <a name="setting"></a>Configuração
 

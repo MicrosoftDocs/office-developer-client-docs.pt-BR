@@ -1,17 +1,17 @@
 ---
 title: Objeto DataFactory (RDSServer)
-TOCTitle: DataFactory Object (RDSServer)
+TOCTitle: DataFactory object (RDSServer)
 ms:assetid: 1de76cdd-34dc-8547-29aa-48ad6067bdea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248971(v=office.15)
 ms:contentKeyID: 48543605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8069ebf92f4603e5fe254a5b4c95e9c6f997a56f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4090b517dfdbe6d6870c04bf4118addad861ad95
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870629"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910632"
 ---
 # <a name="datafactory-object-rdsserver"></a>Objeto DataFactory (RDSServer)
 

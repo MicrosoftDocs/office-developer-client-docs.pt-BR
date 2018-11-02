@@ -1,22 +1,23 @@
 ---
-title: Eventos do ActiveX Data Objects (ADO)
-TOCTitle: ADO Events
+title: Eventos de ActiveX Data Objects (ADO)
+TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
 ms:contentKeyID: 48546041
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7a885d5fdd7736a37c2f195c3bf14b4af8a70d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3cc8ac02e2410a2f7bfe1038851e16f50c1ea2ee
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876229"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910940"
 ---
 # <a name="ado-events"></a>Eventos do ADO
 
-
 **Aplica-se a**: Access 2013, o Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25876229"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Evento</th>
+<th>Descrição</th>
+</tr>
 <tr class="odd">
 <td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos BeginTransComplete</a></p></td>
 <td><p>Chamado após a operação <strong>BeginTrans</strong>.</p></td>
@@ -107,3 +112,4 @@ ms.locfileid: "25876229"
 </tbody>
 </table>
 
+<br/>

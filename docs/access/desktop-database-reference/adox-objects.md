@@ -1,24 +1,25 @@
 ---
 title: Objetos do ADOX (referência de banco de dados da área de trabalho do Access)
-TOCTitle: ADOX Objects
+TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60dc15ecb7b13619b71078d8e2f0cb7f14e8cd7d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879365"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910891"
 ---
 # <a name="adox-objects"></a>Objetos do ADOX
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-**Resumo de objetos do ADOX**
+Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto **Table** pode estar contido em uma coleção [Tables](tables-collection-adox.md). Para obter mais informações, consulte [coleções do ADOX](adox-collections.md) ou um tópico da coleção específica.
+
+<br/>
 
 <table>
 <colgroup>
@@ -71,6 +72,7 @@ ms.locfileid: "25879365"
 </tbody>
 </table>
 
+<br/>
 
-Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um objeto **Table** pode estar contido em uma coleção [Tables](tables-collection-adox.md). Para obter mais informações, consulte [Coleções do ADOX](adox-collections.md) ou um tópico de coleção específico.
+
 

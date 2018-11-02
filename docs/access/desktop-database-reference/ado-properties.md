@@ -1,22 +1,23 @@
 ---
-title: Propriedades do ActiveX Data Objects (ADO)
-TOCTitle: ADO Properties
+title: Propriedades de ActiveX Data Objects (ADO)
+TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4571f250891d02f8053e63aae7b94d674f61ca71
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876397"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910905"
 ---
 # <a name="ado-properties"></a>Propriedades do ADO
 
-
 **Aplica-se a**: Access 2013, o Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25876397"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Propriedade</th>
+<th>Descrição</th>
+</tr>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
 <td><p>Indica a página na qual está o registro atual.</p></td>
@@ -249,7 +254,7 @@ ms.locfileid: "25876397"
 <td><p>Indica o tamanho máximo, em bytes ou caracteres, de um objeto <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Tamanho (Stream do ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Tamanho (Stream do ADO)</a></p></td>
 <td><p>Indica o tamanho total do fluxo em número de bytes.</p></td>
 </tr>
 <tr class="even">
@@ -311,3 +316,4 @@ ms.locfileid: "25876397"
 </tbody>
 </table>
 
+<br/>

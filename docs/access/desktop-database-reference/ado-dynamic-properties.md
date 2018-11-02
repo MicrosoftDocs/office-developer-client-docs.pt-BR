@@ -1,20 +1,19 @@
 ---
 title: Propriedades dinâmicas do ADO
-TOCTitle: ADO Dynamic Properties
+TOCTitle: ADO dynamic properties
 ms:assetid: a908bc52-2cb0-89c7-a997-2cde93477e4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab0d84931389aecb5bd495c884baa9163c52d4a6
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877545"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910919"
 ---
 # <a name="ado-dynamic-properties"></a>Propriedades dinâmicas do ADO
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -24,12 +23,18 @@ O [Índice de propriedade dinâmica do ADO](ado-dynamic-property-index.md) forne
 
 As seguintes propriedades dinâmicas são importantes e estão documentadas nas fontes mencionadas acima. A funcionalidade especial com ADO está documentada nos tópicos de ajuda do ADO listados abaixo.
 
+<br/>
+
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Propriedade dinâmica</th>
+<th>Descrição</th>
+</tr>
 <tr class="odd">
 <td><p><a href="optimize-property-dynamic-ado.md">Otimizar</a></p></td>
 <td><p>Especifica se um índice deve ser criado nesse campo.</p></td>
@@ -48,7 +53,7 @@ As seguintes propriedades dinâmicas são importantes e estão documentadas nas 
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table, Unique Schema, Unique Catalog</a></p></td>
-<td><p><strong>Tabela exclusiva</strong> — Especifica o nome da tabela base sobre a qual atualizações, inserções e exclusões são permitidas. <strong>Esquema exclusivo</strong> — Especifica o esquema ou o nome do proprietário da tabela. <strong>Catálogo exclusivo</strong> — Especifica o catálogo ou o nome do banco de dados que contém a tabela.</p></td>
+<td><p><strong>Tabela exclusiva</strong> — Especifica o nome da tabela base sobre a qual atualizações, inserções e exclusões são permitidas.<br/><br/><strong>Esquema exclusivo</strong> — Especifica o esquema ou o nome do proprietário da tabela.<br/><br/><strong>Catálogo exclusivo</strong> — Especifica o catálogo ou o nome do banco de dados que contém a tabela.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>
@@ -56,4 +61,6 @@ As seguintes propriedades dinâmicas são importantes e estão documentadas nas 
 </tr>
 </tbody>
 </table>
+
+<br/>
 

@@ -1,28 +1,35 @@
 ---
 title: Métodos do ADOX (referência de banco de dados da área de trabalho do Access)
-TOCTitle: ADOX Methods
+TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a237dbb08f5a3df1c6a29b29e1f2b884ed928d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4c456c3b03766fee3b24acdfbb3345a950fbb746
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886071"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910821"
 ---
 # <a name="adox-methods"></a>Métodos do ADOX
 
-
 **Aplica-se a**: Access 2013, o Office 2013
+
+<br/>
 
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th><p>Método</p></th>
+<th><p>Descrição</p></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="append-method-adox-columns.md">Append (colunas)</a></p></td>
@@ -87,3 +94,4 @@ ms.locfileid: "25886071"
 </tbody>
 </table>
 
+<br/>

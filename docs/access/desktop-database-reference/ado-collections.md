@@ -1,24 +1,25 @@
 ---
-title: Coleções do ActiveX Data Objects (ADO)
-TOCTitle: ADO Collections
+title: Conjuntos de ActiveX Data Objects (ADO)
+TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cbddefcdfa17326f922cad49c774e8ade06e5137
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9a9510ce1e8c9dcb1e46f7cfdc4e45e71f779910
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873674"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910856"
 ---
 # <a name="ado-collections"></a>Coleções ADO
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre os objetos, consulte [Objetos ADO](ado-objects-and-interfaces.md) ou um tópico de objeto específico.
+Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre objetos, consulte [objetos ADO](ado-objects-and-interfaces.md) ou um tópico do objeto específico.
+
+<br/>
 
 <table>
 <colgroup>
@@ -26,6 +27,10 @@ Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Er
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Coleção</th>
+<th>Descrição</th>
+</tr>
 <tr class="odd">
 <td><p><a href="errors-collection-ado.md">Erros</a></p></td>
 <td><p>Contém todos os objetos <strong>Error</strong> criados em resposta à falha relacionada a um único provedor.</p></td>
@@ -44,4 +49,6 @@ Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Er
 </tr>
 </tbody>
 </table>
+
+<br/>
 
