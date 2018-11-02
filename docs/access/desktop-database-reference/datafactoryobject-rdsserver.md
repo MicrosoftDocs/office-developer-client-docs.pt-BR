@@ -1,26 +1,22 @@
 ---
-title: DataFactoryObject (RDSServer)
-TOCTitle: DataFactoryObject (RDSServer)
+title: DataFactory (RDSServer)
+TOCTitle: DataFactory (RDSServer)
 ms:assetid: d4c9b495-e438-480e-851f-4592260eceeb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250070(v=office.15)
 ms:contentKeyID: 48547954
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd199f8c96ffc452e18106109aa6b2bb0d98ecff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 85152fe8ca05cadbcd61237fdd06fcde00cc2fe1
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882977"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910738"
 ---
-# <a name="datafactoryobject-rdsserver"></a><span data-ttu-id="9c823-102">DataFactoryObject (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="9c823-102">DataFactoryObject (RDSServer)</span></span>
+# <a name="datafactory-rdsserver"></a><span data-ttu-id="ca583-102">DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="ca583-102">DataFactory (RDSServer)</span></span>
 
+<span data-ttu-id="ca583-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca583-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c823-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c823-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="9c823-104">Objeto DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="9c823-104">DataFactory Object (RDSServer)</span></span>](datafactory-object-rdsserver.md)
-
-  - [<span data-ttu-id="9c823-105">DataFactoryObject propriedades, métodos e eventos (RDS)</span><span class="sxs-lookup"><span data-stu-id="9c823-105">DataFactoryObject Properties, Methods, and Events (RDS)</span></span>](datafactoryobject-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="ca583-104">Objeto DataFactory (RDSServer)</span><span class="sxs-lookup"><span data-stu-id="ca583-104">DataFactory object (RDSServer)</span></span>](datafactory-object-rdsserver.md)
+- [<span data-ttu-id="ca583-105">DataFactory propriedades, métodos e eventos (RDS)</span><span class="sxs-lookup"><span data-stu-id="ca583-105">DataFactory properties, methods, and events (RDS)</span></span>](datafactoryobject-properties-methods-and-events-rds.md)
 
