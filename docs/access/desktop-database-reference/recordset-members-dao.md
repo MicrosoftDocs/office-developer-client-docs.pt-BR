@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0bf59a8be000d01dc6f514112265b640384e549
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 73c83f4bba44ed7e30a45a02b1b273beb85a2851
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869376"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928289"
 ---
 # <a name="recordset-members-dao"></a>Membros do conjunto de registros (DAO)
 

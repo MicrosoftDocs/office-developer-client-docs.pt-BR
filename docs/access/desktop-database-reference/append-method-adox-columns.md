@@ -1,17 +1,17 @@
 ---
 title: Método Append (Colunas do ADOX)
-TOCTitle: Append Method (ADOX Columns)
+TOCTitle: Append method (ADOX Columns)
 ms:assetid: e256a478-abc0-f15b-fc29-1b52e354144a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec64241bf63719fe4f5c547d60a93f7804f181ca
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aa7042f34f4b125c9cd34d31baae538ea3637801
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877657"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928534"
 ---
 # <a name="append-method-adox-columns"></a>Método Append (Colunas do ADOX)
 

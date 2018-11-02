@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3f55107988002cf5718eac5eb445529f5c4e3e98
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbbbe147c4c943044123b711ffb3361af5284cf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867773"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928233"
 ---
 # <a name="recordset2edit-method-dao"></a>Método Recordset2.Edit (DAO)
 

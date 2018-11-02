@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
 ms:contentKeyID: 48544609
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e85ab0bb12f9016f103187aa4c16fd7bf0d2dcba
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3cc60a1f3a3b7114b3996f70c5bfe4541d60bb7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883222"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928520"
 ---
 # <a name="propertiesappend-method-dao"></a>Método Properties.Append (DAO)
 

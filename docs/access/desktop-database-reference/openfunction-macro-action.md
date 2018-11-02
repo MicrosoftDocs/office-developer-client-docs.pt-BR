@@ -1,6 +1,6 @@
 ---
-title: Ação de macro AbrirFunção
-TOCTitle: OpenFunction Macro Action
+title: Ação da macro AbrirFunção
+TOCTitle: OpenFunction macro action
 ms:assetid: 0446dbb9-c342-9225-27ba-b8a6892030e1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844833(v=office.15)
 ms:contentKeyID: 48543005
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d7d6c719c535dabbf4fea1267d8ce7cf9ced9326
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2a9a96b22669889cf4dc51984fc3d3c9f7623428
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882095"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930221"
 ---
-# <a name="openfunction-macro-action"></a>Ação de macro AbrirFunção
+# <a name="openfunction-macro-action"></a>Ação da macro AbrirFunção
 
 
 **Aplica-se a**: Access 2013, o Office 2013

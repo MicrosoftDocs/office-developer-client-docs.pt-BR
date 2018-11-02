@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a051d0a6f580f661b8f16489b66cede064523e44
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 07b2945f2e9a59cc8a7db4a6f5a44cfaf9b35043
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868991"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928282"
 ---
 # <a name="workspacelogintimeout-property-dao"></a>Propriedade Workspace.LoginTimeout (DAO)
 

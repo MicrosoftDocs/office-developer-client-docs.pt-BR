@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
 ms:contentKeyID: 48548973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e97a886f966ded295e36f76c07d649dfc057a191
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6188eff2bda5f2810684016787b088e2078f8f5f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872134"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927918"
 ---
 # <a name="indexesrefresh-method-dao"></a>Método Indexes.Refresh (DAO)
 

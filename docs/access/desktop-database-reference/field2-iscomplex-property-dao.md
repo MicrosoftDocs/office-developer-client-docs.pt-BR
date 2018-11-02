@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
 ms:contentKeyID: 48548970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5109b7f512782a8038cd197b74cc669dc5256569
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 83fe55421bb5d45e53280c7ac323f571e1f4d88e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871392"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930032"
 ---
 # <a name="field2iscomplex-property-dao"></a>Propriedade Field2.IsComplex (DAO)
 

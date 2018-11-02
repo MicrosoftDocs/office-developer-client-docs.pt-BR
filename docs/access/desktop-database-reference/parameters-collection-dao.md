@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f1741bc56fd1b81d056b5b408c4a2869ee15136
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0263c87ea12384fb3e1fe722c00cd58f4d7f45e0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877223"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924473"
 ---
 # <a name="parameters-collection-dao"></a>Coleção Parameters (DAO)
 

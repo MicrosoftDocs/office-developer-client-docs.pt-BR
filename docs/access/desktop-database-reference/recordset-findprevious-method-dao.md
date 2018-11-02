@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f55cacf0c22130ede5025fcbd1bc55c76150bc95
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 80760d817b55b885ea9db8124f247e1c58787264
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867955"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920589"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Método Recordset.FindPrevious (DAO)
 

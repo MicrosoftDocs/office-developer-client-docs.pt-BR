@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142365(v=office.15)
 ms:contentKeyID: 52072842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 030ad80589d9141082758a3dae390822b77a0de6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 127746d036dc7b590b589310cad8bbdc12ed9c1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880289"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931292"
 ---
 # <a name="querydef-properties-dao"></a>Propriedades de QueryDef (DAO)
 

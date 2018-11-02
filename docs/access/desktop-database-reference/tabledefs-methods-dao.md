@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125507(v=office.15)
 ms:contentKeyID: 52073629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61bc62eabdae0665c9328071fba26519b589ef77
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cd9d715019f763b4cbc6ffd92e3eb012e40739b9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930165"
 ---
 # <a name="tabledefs-methods-dao"></a>Métodos de TableDefs (DAO)
 

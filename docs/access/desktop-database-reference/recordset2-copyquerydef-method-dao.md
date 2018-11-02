@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d65f46433aa3071ce9709f1c3841dda45e02a5b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ea2bd660679b093ad031b6ce4d5f3c64b335893
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870384"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929787"
 ---
 # <a name="recordset2copyquerydef-method-dao"></a>Método Recordset2.CopyQueryDef (DAO)
 

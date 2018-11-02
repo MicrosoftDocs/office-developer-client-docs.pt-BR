@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821742(v=office.15)
 ms:contentKeyID: 48547063
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ed91166c8a244c20848069ecfd936a25c10accd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 602060ef3e62da12baa2d5847106504cc54eb9f9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878161"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925727"
 ---
 # <a name="documents-collection-dao"></a>Coleção Documents (DAO)
 

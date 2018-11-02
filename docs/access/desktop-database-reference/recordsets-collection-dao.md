@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
 ms:contentKeyID: 48543756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a32c52f60ed8c7bd68f32ed9986638bffcdec84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b32ef33205e23656e7bcb86d7384876e4c404c1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868998"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924523"
 ---
 # <a name="recordsets-collection-dao"></a>Coleção Recordsets (DAO)
 

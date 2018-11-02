@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
 ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df0ab6516fbe2115abecf5105bde4ff0f790087b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3697aeef91f4662c9d6edc7b2d7b3d77472d7a11
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873679"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930074"
 ---
 # <a name="connection-properties-methods-and-events-ado"></a>Propriedades de Conexão, métodos e eventos (ADO)
 

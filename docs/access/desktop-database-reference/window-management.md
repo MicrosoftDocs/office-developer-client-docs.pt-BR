@@ -1,32 +1,26 @@
 ---
 title: Gerenciamento de janela (referência de banco de dados da área de trabalho do Access)
-TOCTitle: Window Management
+TOCTitle: Window management
 ms:assetid: 3efd1e2a-8bc9-4d8b-b4b4-039fc2d7689e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124489(v=office.15)
 ms:contentKeyID: 52072113
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44d12efee957fe6b89c0f34ab558db11e79c77f2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 82a6303f28b42448ee80a54203382a2a814a9aa5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886302"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929080"
 ---
-# <a name="window-management"></a>Gerenciamento de janela
-
+# <a name="window-management"></a>Gerenciamento de janelas
 
 **Aplica-se a**: Access 2013, o Office 2013
 
+- [Ação da macro FecharJanela](closewindow-macro-action.md)
+- [Ação da macro MaximizarJanela](maximizewindow-macro-action.md)
+- [Ação da macro MinimizarJanela](minimizewindow-macro-action.md)
+- [Ação da macro MovereDimensionarJanela](moveandsizewindow-macro-action.md)
+- [Ação de macro Restaurarjanela](restorewindow-macro-action.md)
 
-
-  - [Ação de Macro fecharJanela](closewindow-macro-action.md)
-
-  - [Ação de Macro Maximizarjanela](maximizewindow-macro-action.md)
-
-  - [Ação de Macro Moveredimensionarjanela](moveandsizewindow-macro-action.md)
-
-  - [Ação de Macro Minimizarjanela](minimizewindow-macro-action.md)
-
-  - [Ação da macro RestaurarJanela](restorewindow-macro-action.md)
 

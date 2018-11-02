@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f048ec72abb0037e04dd65cd85c8a1219530297
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889753"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931236"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Método Recordset.GetRows (DAO)
 

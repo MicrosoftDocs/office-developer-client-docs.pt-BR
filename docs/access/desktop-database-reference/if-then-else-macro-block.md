@@ -1,19 +1,19 @@
 ---
-title: Bloco de macro Se...Então...Senão
-TOCTitle: If...Then...Else Macro Block
+title: Bloco de macro If...Then...Else
+TOCTitle: If...Then...Else macro block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7c6842e8463250f6575cfc85364ec3bff7aba1a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c671ced7d3de2ce461af3bcf0a5d832e092bbf17
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876040"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922934"
 ---
-# <a name="ifthenelse-macro-block"></a>Bloco de macro Se...Então...Senão
+# <a name="ifthenelse-macro-block"></a>Bloco de macro If...Then...Else
 
 
 **Aplica-se a**: Access 2013, o Office 2013

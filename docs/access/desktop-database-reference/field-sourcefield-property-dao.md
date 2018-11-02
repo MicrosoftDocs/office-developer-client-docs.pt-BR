@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
 ms:contentKeyID: 48548360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a769cd242064ae9f1fef91c787e614610aab48a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ee43d82b269d472ac850f53d865a5b4bbfb954de
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869369"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929241"
 ---
 # <a name="fieldsourcefield-property-dao"></a>Propriedade Field.SourceField (DAO)
 

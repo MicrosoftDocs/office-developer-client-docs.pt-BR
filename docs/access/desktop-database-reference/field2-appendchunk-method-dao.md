@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2c21ea4943531f7b4ae32d49a2cb223802c68fb0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f999a0519fccb8f896ed07963db621065530c1a3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867381"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929766"
 ---
 # <a name="field2appendchunk-method-dao"></a>Método Field2.AppendChunk (DAO)
 

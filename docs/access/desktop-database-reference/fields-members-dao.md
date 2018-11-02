@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
 ms:contentKeyID: 48547307
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b03af279c108e78dff5556cf1c78d45496329119
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b78db90a588f3b23ce2d0341f9eb1ac44eabd540
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889879"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931159"
 ---
 # <a name="fields-members-dao"></a>Membros de campos (DAO)
 

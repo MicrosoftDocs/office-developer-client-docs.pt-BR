@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
 ms:contentKeyID: 52071290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b7fe71e792da4a8ddbf0082add1431e9d9592c0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3a57b630a1e1c18200f13f63cb8cf2ae6cf4f07
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882949"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928982"
 ---
 # <a name="dbengine-properties-dao"></a>Propriedades DBEngine (DAO)
 

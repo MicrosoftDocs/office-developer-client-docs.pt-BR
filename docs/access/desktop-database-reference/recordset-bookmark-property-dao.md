@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 644eb2e1a8f979451d233bcc5a48f723c25739b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8b45d0bdf605f77084353da065c2cc8c674bd24e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888472"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922878"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Propriedade Recordset.Bookmark (DAO)
 

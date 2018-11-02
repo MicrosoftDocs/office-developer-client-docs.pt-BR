@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
 ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10b30fc2e47ca2811bdd0eaad9c18c6e9bfca342
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 756d3ede6fe6fe99c34f9ba2cd156d779a3970ab
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875662"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928716"
 ---
 # <a name="recordsetfindlast-method-dao"></a>Método Recordset.FindLast (DAO)
 

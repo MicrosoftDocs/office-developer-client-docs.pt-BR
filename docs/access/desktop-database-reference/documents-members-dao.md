@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
 ms:contentKeyID: 48546255
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f3b20a91516919a81e50600b7c937e94fe2392f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a1adfee77ade66d931ea52c4a12c30a4bc024e2b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870230"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930928"
 ---
 # <a name="documents-members-dao"></a>Membros de documentos (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a5cc7394b01dcd79d17e3fcc7568bb8081ee12ce
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dbd8ecc670742d6b9f88dd9c608d2304e26a8d09
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872638"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929661"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>Propriedade TableDef.ReplicaFilter (DAO)
 

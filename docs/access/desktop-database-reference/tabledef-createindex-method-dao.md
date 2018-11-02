@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 017fbbe543540d45a7b05dec7ca992614bda40ad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 73b6fb5c5a4b0b91904c92a1b445ddc41cb7c73e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868088"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931341"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Método TableDef.CreateIndex (DAO)
 

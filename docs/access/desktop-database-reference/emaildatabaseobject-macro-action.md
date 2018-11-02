@@ -1,6 +1,6 @@
 ---
 title: Ação da macro EnviarObjetodeBancodeDadosporEMail
-TOCTitle: EMailDatabaseObject Macro Action
+TOCTitle: EMailDatabaseObject macro action
 ms:assetid: 7fd80596-5c08-dab9-5343-c0edc38a1af9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196469(v=office.15)
 ms:contentKeyID: 48545915
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 79b903f63ba0a9b8e6fd1adf9e5a29dab9de9edb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25462327"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922913"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>Ação da macro EnviarObjetodeBancodeDadosporEMail
 

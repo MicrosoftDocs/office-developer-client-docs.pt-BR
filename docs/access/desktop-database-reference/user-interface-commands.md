@@ -1,38 +1,28 @@
 ---
-title: Comandos da Interface do usuário
-TOCTitle: User Interface Commands
+title: Comandos de interface do usuário
+TOCTitle: User interface commands
 ms:assetid: e52bac01-4784-4c20-b387-d18228008104
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125921(v=office.15)
 ms:contentKeyID: 52074792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588409ff32369a9733bb35ce3800461d116ba764
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 728f1b27632908006d7492f946b3172612dbc55c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867395"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927638"
 ---
-# <a name="user-interface-commands"></a>Comandos da Interface do usuário
-
+# <a name="user-interface-commands"></a>Comandos de interface do usuário
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Ação de Macro AdicionarMenu](addmenu-macro-action.md)
-
-  - [Ação de Macro procurarem](browseto-macro-action.md)
-
-  - [Ação de Macro Bloquearpaineldenavegação](locknavigationpane-macro-action.md)
-
-  - [Ação de Macro MessageBox](messagebox-macro-action.md)
-
-  - [Ação de Macro Navegarpara](navigateto-macro-action.md)
-
-  - [Ação da Macro Definircategoriasexibidas](setdisplayedcategories-macro-action.md)
-
-  - [Ação da Macro DefinirItemDoMenu](setmenuitem-macro-action.md)
-
-  - [Ação da macro MostrarBarraDeFerramentas](showtoolbar-macro-action.md)
+- [Ação da macro AdicionarMenu](addmenu-macro-action.md)
+- [Ação da macro ProcurarEm](browseto-macro-action.md)
+- [Ação da macro BloquearPainelDeNavegação](locknavigationpane-macro-action.md)
+- [Ação da macro CaixaDeMensagem](messagebox-macro-action.md)
+- [Ação da macro NavegarPara](navigateto-macro-action.md)
+- [Ação da macro DefinirCategoriasExibidas](setdisplayedcategories-macro-action.md)
+- [Ação da macro DefinirItemDoMenu](setmenuitem-macro-action.md)
+- [Ação de macro MostrarBarraDeFerramentas](showtoolbar-macro-action.md)
 

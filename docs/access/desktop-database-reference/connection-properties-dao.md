@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124934(v=office.15)
 ms:contentKeyID: 52072554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c783ac6e424b6e17f24120c101f4903a082f180
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 381d4d1238390d628c16b775766130d854f8cf9c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869125"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929486"
 ---
 # <a name="connection-properties-dao"></a>Propriedades de Conexão (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d4ed801dfa746af3ad649738e32cec58afe17f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc849e22da654bd384065e4c169b3fd5540c6061
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877076"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928961"
 ---
 # <a name="index-object-dao"></a>Objeto Index (DAO)
 

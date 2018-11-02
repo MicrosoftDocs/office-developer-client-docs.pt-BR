@@ -1,17 +1,17 @@
 ---
 title: Método DeleteRecord (ADO)
-TOCTitle: DeleteRecord Method (ADO)
+TOCTitle: DeleteRecord method (ADO)
 ms:assetid: ba71187f-e580-bba8-f41b-bedfa0bc2b04
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249895(v=office.15)
 ms:contentKeyID: 48547370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9dd9c5b6681732ec50442f7a4bcd9874ecf4e493
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 69cd8a265688db56d3685c1b2e03bc1c1db6a785
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878987"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922794"
 ---
 # <a name="deleterecord-method-ado"></a>Método DeleteRecord (ADO)
 

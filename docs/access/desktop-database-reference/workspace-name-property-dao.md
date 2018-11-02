@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195490(v=office.15)
 ms:contentKeyID: 48545464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cda13f1a377a7e730839df854124d05a4d93ea92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 18dd31dd6cf932a7837dbaadd35582824988b67b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881157"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930382"
 ---
 # <a name="workspacename-property-dao"></a>Propriedade Workspace.Name (DAO)
 

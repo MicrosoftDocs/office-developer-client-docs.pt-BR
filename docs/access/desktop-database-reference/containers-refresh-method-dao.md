@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
 ms:contentKeyID: 48546821
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d8fd20ea57a7e75d425b10b8ded7f5f8ab47086
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd21ce3cc63aaa7bdfb4f58d911350100dbb5069
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889865"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928191"
 ---
 # <a name="containersrefresh-method-dao"></a>Método Containers.Refresh (DAO)
 

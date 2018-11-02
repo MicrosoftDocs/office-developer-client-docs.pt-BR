@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d73fbdaa119238ad1a9b70b7f2446be21e525452
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 789c6070dbf62ba4f8ccf10ab3728010f6bcd401
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871854"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929619"
 ---
 # <a name="indexcreatefield-method-dao"></a>Método Index.CreateField (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ee1bf654df8cebbb936111d633262fd7418f58a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8ed9eb021df9d4c82473f1924a539787680f76a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875340"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928800"
 ---
 # <a name="recordset2move-method-dao"></a>Método Recordset2.move (DAO)
 

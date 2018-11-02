@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d2c2af4dcf1cf8661d7cac170e8aa5b679ab083
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f8127109834a617e86116a81731d964181c1bdf2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886916"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930592"
 ---
 # <a name="connection-members-dao"></a>Membros de Conexão (DAO)
 

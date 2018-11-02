@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
 ms:contentKeyID: 48543017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8bac777a3a93ad2243b86569261cecc96da53ae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1127e46c442f703785494e67f4cef19b2b6a1ca0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871539"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927946"
 ---
 # <a name="properties-members-dao"></a>Membros Properties (DAO)
 

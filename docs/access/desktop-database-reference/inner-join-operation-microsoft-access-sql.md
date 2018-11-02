@@ -1,6 +1,6 @@
 ---
 title: Operação INNER JOIN (Microsoft Access SQL)
-TOCTitle: INNER JOIN Operation (Microsoft Access SQL)
+TOCTitle: INNER JOIN operation (Microsoft Access SQL)
 ms:assetid: 8d16c74c-02c6-12b7-b180-3e7744ef65f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197346(v=office.15)
 ms:contentKeyID: 48546247
@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 874f685a1db38c4a381f08289cb0c612e7e2eb4c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4f9593e8bf0175ee6a25bd53d886c291eed6f75c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888892"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929431"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Operação INNER JOIN (Microsoft Access SQL)
 

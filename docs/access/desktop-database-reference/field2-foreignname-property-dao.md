@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eff81bf8d2e7f7f040611ffc1aafdedff1e35ddf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f95839ac7b8832e22f69b31914f42de4f4adad06
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874045"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929230"
 ---
 # <a name="field2foreignname-property-dao"></a>Propriedade Field2.ForeignName (DAO)
 

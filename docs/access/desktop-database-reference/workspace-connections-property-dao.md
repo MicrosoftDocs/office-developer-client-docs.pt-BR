@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053556
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 56410c2f86338f7b763028260e86a15dffc50810
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2c632fa6a9026475c5f3dedc559a6c1c3dd84362
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874577"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930389"
 ---
 # <a name="workspaceconnections-property-dao"></a>Propriedade Workspace.Connections (DAO)
 

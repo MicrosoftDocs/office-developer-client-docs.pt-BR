@@ -1,17 +1,17 @@
 ---
 title: Instrução de macro Submacro
-TOCTitle: Submacro Macro Statement
+TOCTitle: Submacro macro statement
 ms:assetid: fb580c19-52cd-c0bd-9117-4fa721eead6b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 379680fc527b3c5165ae5df99dd354b37dfb9322
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: b514d0896be25e11436cd7d7ac9f924fdf7eb3f1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910793"
+ms.locfileid: "25924978"
 ---
 # <a name="submacro-macro-statement"></a>Instrução de macro Submacro
 

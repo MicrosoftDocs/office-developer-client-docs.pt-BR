@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52ad71b0b9410a20fe848fb1428f3cdc83a966a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 30b23b424b8c76f0681d0128348590c1558e81ec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870818"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929381"
 ---
 # <a name="relationpartialreplica-property-dao"></a>Propriedade Relation.PartialReplica (DAO)
 

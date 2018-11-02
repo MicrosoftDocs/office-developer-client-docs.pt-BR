@@ -1,19 +1,19 @@
 ---
-title: Nível de propriedades, métodos e eventos (ADO MD)
+title: Níveis propriedades, métodos e eventos (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 68fd04d9-f0e7-4425-7388-802337a6c1da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249413(v=office.15)
 ms:contentKeyID: 48545401
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fa68fed7ffad181dcd29e7d498bc3de27add744
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c985ca827f4b8c2c151627b26994af382ae3dff4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882025"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928072"
 ---
-# <a name="level-properties-methods-and-events-ado-md"></a>Nível de propriedades, métodos e eventos (ADO MD)
+# <a name="level-properties-methods-and-events-ado-md"></a>Níveis propriedades, métodos e eventos (ADO MD)
 
 
 **Aplica-se a**: Access 2013, o Office 2013

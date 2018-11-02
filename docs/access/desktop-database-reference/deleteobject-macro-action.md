@@ -1,6 +1,6 @@
 ---
-title: Ação de macro ExcluirObjeto
-TOCTitle: DeleteObject Macro Action
+title: Ação da macro ExcluirObjeto
+TOCTitle: DeleteObject macro action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821415(v=office.15)
 ms:contentKeyID: 48546912
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91a6943267ebcd5445c338f12cc9f892ead0e316
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879421"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921940"
 ---
-# <a name="deleteobject-macro-action"></a>Ação de macro ExcluirObjeto
+# <a name="deleteobject-macro-action"></a>Ação da macro ExcluirObjeto
 
 
 **Aplica-se a**: Access 2013, o Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
 ms:contentKeyID: 48543863
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ee5425a98a5a66840c280ebfe568d64efdf08a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f8ba3824364152378f0fb55b18ddfba07228aaeb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878399"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931355"
 ---
 # <a name="parameters-members-dao"></a>Membros de parâmetros (DAO)
 

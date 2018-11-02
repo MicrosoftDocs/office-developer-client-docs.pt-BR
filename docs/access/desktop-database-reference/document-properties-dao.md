@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124584(v=office.15)
 ms:contentKeyID: 52072207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: acc66a65143cf7cd7fb90bd3935bdce3c0ea13e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 034a21e44a4ca020f894878c3717c539d1d72eac
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882354"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928401"
 ---
 # <a name="document-properties-dao"></a>Propriedades do documento (DAO)
 

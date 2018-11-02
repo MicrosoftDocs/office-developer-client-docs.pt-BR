@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ea0e06d133c95506a68e947254bfcd0ea8a2dc6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 191cd2b1bdd1f1c625743d5e50037bc944b4ef23
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880303"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928436"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Método Connection.CreateQueryDef (DAO)
 

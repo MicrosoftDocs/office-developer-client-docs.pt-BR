@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
 ms:contentKeyID: 48548367
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df28aaba3c10104f0b0f03970e9c414ba401e02b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d0489361a3c739527fb44db0c566986dc2a40a0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890992"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921394"
 ---
 # <a name="recordset2getrows-method-dao"></a>Método Recordset2.GetRows (DAO)
 

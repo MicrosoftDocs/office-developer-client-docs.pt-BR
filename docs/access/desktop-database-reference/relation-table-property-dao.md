@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053068
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bdc58837cea3f54e46a3e805523e77c27cb21e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd6f1ef3ea1d955f3b17d4cafb7e521c54191d27
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870825"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929577"
 ---
 # <a name="relationtable-property-dao"></a>Propriedade Relation.Table (DAO)
 

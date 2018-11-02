@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
 ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0c6df32c37f73dadf1df43201090d44d81a6a01
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 107841ac3f67507adbf1f8aa722dce163b821d1e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890943"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931320"
 ---
 # <a name="recordset2validationrule-property-dao"></a>Propriedade Recordset2.ValidationRule (DAO)
 

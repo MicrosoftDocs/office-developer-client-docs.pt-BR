@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053119
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e609090e66a9bfd5b4b37d8e8e8a5546cc8469a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 62c8681baebf0c1959fcb86df91d61387070adc8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876886"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923641"
 ---
 # <a name="indexdistinctcount-property-dao"></a>Propriedade Index.DistinctCount (DAO)
 

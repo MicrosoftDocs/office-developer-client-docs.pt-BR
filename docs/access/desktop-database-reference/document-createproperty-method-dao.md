@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca31f8cc192065abd09957e2585fdfaabe39ff49
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 50d19b2341a709425a5cf974d8f947126ab4c717
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878189"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929983"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Método Document.CreateProperty (DAO)
 

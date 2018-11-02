@@ -6,25 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142315(v=office.15)
 ms:contentKeyID: 52072793
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 46d7a87279237f07a043d85d927627251aa87df3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2646d6a9587640c26f4eaf3aefa1e9f108402e0c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885343"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919168"
 ---
 # <a name="relation-object-reference-dao"></a>Referência de objeto Relation (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Objeto Relation (DAO)](relation-object-dao.md)
-
-  - [Membros de Relation (DAO)](relation-members-dao.md)
-
-  - [Propriedades Relation (DAO)](relation-properties-dao.md)
-
-  - [Métodos de Relation (DAO)](relation-methods-dao.md)
+- [Objeto Relation (DAO)](relation-object-dao.md)
+- [Membros de Relation (DAO)](relation-members-dao.md)
+- [Propriedades Relation (DAO)](relation-properties-dao.md)
+- [Métodos de Relation (DAO)](relation-methods-dao.md)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 915a733d59d938e77f32a051b267b5e26bddf6a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf4fb6b98782b3a3f5951a6f0aa42e300f0c2620
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877118"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931334"
 ---
 # <a name="field2-members-dao"></a>Membros de Field2 (DAO)
 

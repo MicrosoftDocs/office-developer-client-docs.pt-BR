@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 16d043f1906744988af35708a954e9224256f8f7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae372fd0b819d493da6b811def467eb8400b01c9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867990"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924635"
 ---
 # <a name="errorsource-property-dao"></a>Propriedade Error (DAO)
 

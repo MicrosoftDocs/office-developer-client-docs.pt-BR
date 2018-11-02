@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: debc3554fb63ab379bbc94bc8d44e2239eb32dd4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: db6796d5777af12d1cd0a3e65647d7223f4423ba
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885749"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928919"
 ---
 # <a name="errors-collection-dao"></a>Coleção Errors (DAO)
 

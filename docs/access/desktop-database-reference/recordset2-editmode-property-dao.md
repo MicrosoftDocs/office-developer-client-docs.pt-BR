@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053080
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e6169169b5152e47063e2f679f2494c87581eb02
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0279ce7e55ad560225b99ac3c6f81d89d75ca635
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889347"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930410"
 ---
 # <a name="recordset2editmode-property-dao"></a>Propriedade Recordset2.EditMode (DAO)
 

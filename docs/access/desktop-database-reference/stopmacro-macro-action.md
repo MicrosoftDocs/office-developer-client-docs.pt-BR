@@ -1,19 +1,19 @@
 ---
-title: Ação de Macro PararMacro
-TOCTitle: StopMacro Macro Action
+title: Ação da macro PararMacro
+TOCTitle: StopMacro macro action
 ms:assetid: 6bbf9026-4536-43f2-aa43-3f2ecea01005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3880b57e235520e3351ef16282fb8883d93b11e3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b6a050a57afa1e579fba7a3c9185d69cbf27e63
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873709"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929556"
 ---
-# <a name="stopmacro-macro-action"></a>Ação de Macro PararMacro
+# <a name="stopmacro-macro-action"></a>Ação da macro PararMacro
 
 **Aplica-se a**: Access 2013, o Office 2013
 

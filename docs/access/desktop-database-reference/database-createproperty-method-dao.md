@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
 ms:contentKeyID: 48548638
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1444ebaa29b704df82ed036e755b12690105485f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b0b9403c485df44935c7db5b8464d26424cf3993
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868263"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920652"
 ---
 # <a name="databasecreateproperty-method-dao"></a>Método Database.CreateProperty (DAO)
 

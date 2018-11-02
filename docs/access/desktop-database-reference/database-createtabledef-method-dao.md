@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c5da4e34697599852283dbde51bb4bdc8ace96a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872806"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927889"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Método Database.CreateTableDef (DAO)
 

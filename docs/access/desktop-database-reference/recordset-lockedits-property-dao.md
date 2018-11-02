@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 73b3bfd0a0f2d329b98d52456e8e71f4f8efdf30
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1f539659ef81ebb484c4a116176974491b0a480
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884426"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931061"
 ---
 # <a name="recordsetlockedits-property-dao"></a>Propriedade Recordset.LockEdits (DAO)
 

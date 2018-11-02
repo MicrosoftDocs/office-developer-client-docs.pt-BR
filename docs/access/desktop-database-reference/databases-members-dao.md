@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
 ms:contentKeyID: 48543805
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae9def4b04e02c13164c9fcd1ac870a1043cf2ad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efcc6095d25920287820925eed29be7444e993fb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889683"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923088"
 ---
 # <a name="databases-members-dao"></a>Membros de bancos de dados (DAO)
 

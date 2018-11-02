@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
 ms:contentKeyID: 48546559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4cc4230c7d647d58c0f30bd8351118e6c44198a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6f84b9580fbd6256069de57b2295cf3460edaf8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879694"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928975"
 ---
 # <a name="connectionclose-method-dao"></a>Método Close (DAO)
 

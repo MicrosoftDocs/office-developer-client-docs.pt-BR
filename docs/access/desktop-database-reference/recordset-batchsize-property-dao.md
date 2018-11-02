@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e07a948a22a8101db2b2bffce3e6cde94c852668
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1801d03eb874f5d3dec16e2adcc8595c0a88eb84
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891230"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928933"
 ---
 # <a name="recordsetbatchsize-property-dao"></a>Propriedade Recordset.BatchSize (DAO)
 

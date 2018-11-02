@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4a2710c714f22ad7ec1a27dc3e4750f56d6fac5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 38ce5fe4287b298ddf48e4c6c60556ace2d567cb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891090"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928247"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Propriedade Field.DefaultValue (DAO)
 

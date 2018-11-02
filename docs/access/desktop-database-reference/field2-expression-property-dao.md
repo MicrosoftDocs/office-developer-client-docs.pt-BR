@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92d3cd9e9ed50503b4816cae03e2a69c790706ff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5869c381c7b449502cc2d28de8eeb214bbfb03d0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878357"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928653"
 ---
 # <a name="field2expression-property-dao"></a>Propriedade Field2.Expression (DAO)
 

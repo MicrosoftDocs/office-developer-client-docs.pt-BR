@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fcb8e675f488c0d69f4c0d0b6329c47085d51e26
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888619"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923508"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine.RegisterDatabase (DAO)
 

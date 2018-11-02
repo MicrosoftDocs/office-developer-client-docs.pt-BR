@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
 ms:contentKeyID: 48543499
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47c42a1275b4d19f79cb73599fc2ef376e0ca25d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae6a8098e51f271080924a8569d31e5bc268dc1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884174"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927015"
 ---
 # <a name="indexescount-property-dao"></a>Propriedade Indexes.Count (DAO)
 

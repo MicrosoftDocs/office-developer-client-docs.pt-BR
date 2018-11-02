@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30084bf8fa913169f78337266c09daae94305178
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8e6edefa53c64fd71652adae0123396d21455cf1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867248"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930095"
 ---
 # <a name="workspacesdelete-method-dao"></a>Método Workspaces.Delete (DAO)
 
