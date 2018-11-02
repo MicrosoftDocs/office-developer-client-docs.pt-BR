@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
 ms:contentKeyID: 52071970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8bfdfa2894620cd4ee0281776dd426ef0a086a2a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23e83019a51b73f67b983b9c84672d2d9321539d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871910"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925020"
 ---
 # <a name="recordset-properties-dao"></a>Propriedades de Recordset (DAO)
 
@@ -66,7 +66,7 @@ ms.locfileid: "25871910"
 
   - [Propriedade Recordset.Properties (DAO)](recordset-properties-property-dao.md)
 
-  - [Propriedade Recorset.RecordCount (DAO)](recordset-recordcount-property-dao.md)
+  - [Propriedade RecordCount (DAO)](recordset-recordcount-property-dao.md)
 
   - [Propriedade Recordset.RecordStatus (DAO)](recordset-recordstatus-property-dao.md)
 

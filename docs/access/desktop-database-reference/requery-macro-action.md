@@ -1,6 +1,6 @@
 ---
 title: Ação da macro RepetirConsulta
-TOCTitle: Requery Macro Action
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885938"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920029"
 ---
 # <a name="requery-macro-action"></a>Ação da macro RepetirConsulta
 
@@ -82,5 +82,5 @@ Se você deixar em branco o argumento **Nome do Controle**, a ação **RepetirCo
 
 
 
-Se você quiser repetir a consulta de um controle que não esteja no objeto ativo, use o método **Requery** em um módulo do VBA (Visual Basic for Applications), e não a ação **Requery** ou seu respectivo método **Requery** do objeto **DoCmd**. O método **Requery** do VBA é mais rápido do que a ação **Requery** ou o método **DoCmd.Requery**. Além disso, quando você usa a ação **Requery** ou o método **DoCmd.Requery** o Microsoft Access fecha a consulta e a recarrega do banco de dados, mas quando você usa o método **Requery**, o Access reexecuta a consulta, mas sem fechá-la e recarregá-la. Observe que o método **Requery** do ActiveX Data Object (ADO) funciona do mesmo modo que o método **RepetirConsulta** do Access.
+Se você quiser repetir a consulta de um controle que não esteja no objeto ativo, use o método **Requery** em um módulo do VBA (Visual Basic for Applications), e não a ação **Requery** ou seu respectivo método **Requery** do objeto **DoCmd**. O método **Requery** do VBA é mais rápido do que a ação **Requery** ou o método **DoCmd.Requery**. Além disso, quando você usa a ação **Requery** ou o método **DoCmd.Requery** o Microsoft Access fecha a consulta e a recarrega do banco de dados, mas quando você usa o método **Requery**, o Access reexecuta a consulta, mas sem fechá-la e recarregá-la. Observe que o objeto de dados do ActiveX (ADO) **RepetirConsulta** método funciona da mesma maneira que o método **Requery** do Access.
 

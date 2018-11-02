@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822070(v=office.15)
 ms:contentKeyID: 48547232
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: afea074d034f1778dbf7d456a2b0bb427c107aab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f18982c733d6fcbf150e31dfccab630529135722
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875053"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924348"
 ---
 # <a name="querydefopenrecordset-method-dao"></a>Método QueryDef.OpenRecordset (DAO)
 

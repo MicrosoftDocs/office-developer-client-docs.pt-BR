@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e1e03cfcd1aeebc8fdfaf4287e53020a0bc8688
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881269"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927365"
 ---
 # <a name="tabledef-object-dao"></a>Objeto TableDef (DAO)
 

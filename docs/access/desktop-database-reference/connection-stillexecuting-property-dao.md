@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
 ms:contentKeyID: 48542927
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ba2444146a0174e643c7ba98cbfd46225c5a491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efcac1b95fe4f58a6ebef39a51c57dda4f9866a3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874262"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921065"
 ---
 # <a name="connectionstillexecuting-property-dao"></a>Propriedade Connection.StillExecuting (DAO)
 

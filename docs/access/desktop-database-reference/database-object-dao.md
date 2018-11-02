@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm0
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca0538f07f25ffe41288d15fd3737e08eb58f491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 265edf6b5d426b87d718c66e9886b7a4877120de
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886750"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918846"
 ---
 # <a name="database-object-dao"></a>Objeto de banco de dados (DAO)
 

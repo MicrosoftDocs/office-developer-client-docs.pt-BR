@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
 ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73bc9bb5063068dc3f29345b3828db4f7729110f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45856ba6563924d0a918cf89dd95a86287d68acf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885322"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921772"
 ---
 # <a name="recordsetcopyquerydef-method-dao"></a>Método Recordset.CopyQueryDef (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec5e11a8bdc33923ca92f96833605338e9f19566
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f3deb259e5058fe595099e5fa556ff5fca8e4baf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889991"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923886"
 ---
 # <a name="workspace-members-dao"></a>Membros do espaço de trabalho (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
 ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17e8bd561858c8cb1eeb9bf84f6fc636a37f812b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f658822255e090594bdb43cd1b5e9ec1f30199cc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875060"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925741"
 ---
 # <a name="workspace-object-dao"></a>Objeto Workspace (DAO)
 

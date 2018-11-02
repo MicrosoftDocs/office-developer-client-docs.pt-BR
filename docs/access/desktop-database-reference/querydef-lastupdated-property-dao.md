@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
 ms:contentKeyID: 48544287
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 370f8a9a1e503240f3764a18350a0d491af471f3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 98bb600e6f3f1c9587eca110269e8b6b3765e40f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877895"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921268"
 ---
 # <a name="querydeflastupdated-property-dao"></a>Propriedade QueryDef.LastUpdated (DAO)
 

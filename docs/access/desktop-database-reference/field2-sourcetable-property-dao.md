@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb0c7b57b8ad5c0a1c202197e14fdaefd9a1103f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fbde7aa9785e4e875f96569884e7f6e45743f2bb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881017"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925580"
 ---
 # <a name="field2sourcetable-property-dao"></a>Propriedade Field2.SourceTable (DAO)
 

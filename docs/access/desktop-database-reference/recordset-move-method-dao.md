@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2caa468f189e30373e2818b090688ca6f239258d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1bb39565e087a5c679e87e0e40dccb3eb4446511
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870587"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926084"
 ---
 # <a name="recordsetmove-method-dao"></a>Método Recordset.Move (DAO)
 

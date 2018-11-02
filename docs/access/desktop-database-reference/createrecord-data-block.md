@@ -1,17 +1,17 @@
 ---
 title: Bloco de dados CriarRegistro
-TOCTitle: CreateRecord Data Block
+TOCTitle: CreateRecord data block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bda30265cbcf2377114734d03b16f889b0d165b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 69656b6ab65cef0e2dfec01a338dfc5a70752de3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880814"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922094"
 ---
 # <a name="createrecord-data-block"></a>Bloco de dados CriarRegistro
 
@@ -67,22 +67,22 @@ Após a instrução **CriarRegistro** , você pode inserir um bloco de comandos 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">Ação de macro CancelRecordChange</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Ação da macro CancelarAlteraçãodeRegistro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Instrução de macro de comentário</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instrução de macro Comentário</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Instrução de macro de grupo</a></p></td>
+<td><p><a href="group-macro-statement.md">Instrução de macro Grupo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">Se... Então... Instrução de Macro Else</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Se... Então... Instrução de macro Else</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">Ação de macro SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">Ação da macro DefinirCampo</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">Ação de macro SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Ação da macro DefinirVarLocal</a></p></td>
 </tr>
 </tbody>
 </table>

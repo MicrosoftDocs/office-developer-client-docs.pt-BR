@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101188
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4f5c92e0ae1ec4cc5d22aa6a2bc406b46a76c02
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 31f5e0b4dbb924c57c6a94e80cfb98e119292bd7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889907"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922486"
 ---
 # <a name="recordset2parentrecordset-property-dao"></a>Propriedade Recordset2.ParentRecordset (DAO)
 

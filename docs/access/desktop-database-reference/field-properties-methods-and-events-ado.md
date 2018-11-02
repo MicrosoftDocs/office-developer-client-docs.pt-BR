@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
 ms:contentKeyID: 48544444
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28438df3349dbd4f0bd4586974b2ccc9d7dfe0d6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 83777609718e4859f45d54d3af83901f5393840a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883621"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919301"
 ---
 # <a name="field-properties-methods-and-events-ado"></a>Campo propriedades, métodos e eventos (ADO)
 

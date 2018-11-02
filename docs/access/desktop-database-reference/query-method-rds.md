@@ -1,17 +1,17 @@
 ---
 title: Método Query (RDS - referência de banco de dados da área de trabalho do Access)
-TOCTitle: Query Method (RDS)
+TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70f4a1c7a16a97710ef2b0c04bbc0a3924864231
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876026"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923998"
 ---
 # <a name="query-method-rds"></a>Método Query (RDS)
 

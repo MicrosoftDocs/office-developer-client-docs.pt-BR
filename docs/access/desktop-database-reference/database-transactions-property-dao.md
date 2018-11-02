@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f05e4b9fe7dfeff687e7709462efbe37f10be42
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 515bde2cf4c25aff7c0e6ee709b8a7795e217488
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889872"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925986"
 ---
 # <a name="databasetransactions-property-dao"></a>Propriedade Database.Transactions (DAO)
 

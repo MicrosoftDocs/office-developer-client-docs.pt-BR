@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 87f193be1f7261a4aecbfe1cceb4fe5a55038702
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882102"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927113"
 ---
 # <a name="querydefmaxrecords-property-dao"></a>Propriedade QueryDef.MaxRecords (DAO)
 

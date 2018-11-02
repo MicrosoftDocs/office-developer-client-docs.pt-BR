@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249419(v=office.15)
 ms:contentKeyID: 48545435
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4e38adc7d9d49fef3b0540d313389ff30876683b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c88f8d69a0503b1dd54057438e457dc195c5b0e9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867136"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925839"
 ---
 # <a name="dimension-properties-methods-and-events-ado-md"></a>Dimensão propriedades, métodos e eventos (ADO MD)
 

@@ -1,6 +1,6 @@
 ---
-title: Ação de Macro ImportExportText
-TOCTitle: ImportExportText Macro Action
+title: Ação da macro ImportarExportarTexto
+TOCTitle: ImportExportText macro action
 ms:assetid: 366fa095-6f09-7c22-e734-bfa585cfe79e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192475(v=office.15)
 ms:contentKeyID: 48544171
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ded11512def101bc27dfb843d2315f9f4105fb5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: be5497b7f1dbed4d32f25f2a675c3f996ed47c9f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891223"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925447"
 ---
-# <a name="importexporttext-macro-action"></a>Ação de Macro ImportExportText
+# <a name="importexporttext-macro-action"></a>Ação da macro ImportarExportarTexto
 
 **Aplica-se a**: Access 2013, o Office 2013
 

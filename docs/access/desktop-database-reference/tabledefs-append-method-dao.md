@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
 ms:contentKeyID: 48548811
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 016b31f4c6c6648cfa853e3f5087451485c7d65f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afe0301153ae5f9e1e0e4fa499c2b27dc7e1c724
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884454"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920127"
 ---
 # <a name="tabledefsappend-method-dao"></a>Método TableDefs.Append (DAO)
 

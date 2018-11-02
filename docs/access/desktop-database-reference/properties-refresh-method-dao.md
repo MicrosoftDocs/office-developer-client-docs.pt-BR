@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
 ms:contentKeyID: 48545593
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a10f4404ff3ee94e85baed36eb9ce9869754a69
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf799da67768659772faad01baed898263dfc0e8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883852"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925636"
 ---
 # <a name="propertiesrefresh-method-dao"></a>Método Properties.Refresh (DAO)
 

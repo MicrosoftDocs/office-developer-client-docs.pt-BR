@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192509(v=office.15)
 ms:contentKeyID: 48544216
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3632e7546244180b666fbaeebe9a3538410d1bdb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4e3d93a77b7c0d4415c2204bf03789202733a5f9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884160"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918986"
 ---
 # <a name="documentproperties-property-dao"></a>Propriedade Document.Properties (DAO)
 

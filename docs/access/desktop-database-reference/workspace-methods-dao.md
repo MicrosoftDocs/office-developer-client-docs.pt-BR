@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123992(v=office.15)
 ms:contentKeyID: 52071631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc7d1d9d5b2c93904319473acf82b0b5995c715e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d49fb425d30966144f08fcac01b5aae04f976833
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878133"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926168"
 ---
 # <a name="workspace-methods-dao"></a>Métodos de espaço de trabalho (DAO)
 

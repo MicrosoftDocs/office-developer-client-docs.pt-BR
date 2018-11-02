@@ -1,6 +1,6 @@
 ---
-title: Ação de macro LocalizarPróximoRegistro
-TOCTitle: FindNextRecord Macro Action
+title: Ação da macro LocalizarPróximoRegistro
+TOCTitle: FindNextRecord macro action
 ms:assetid: 57fb6457-9098-4e81-c693-78ccd262ce0b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194307(v=office.15)
 ms:contentKeyID: 48544985
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0309a72040751aaab994225159fdca6698a189cc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883649"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920729"
 ---
-# <a name="findnextrecord-macro-action"></a>Ação de macro LocalizarPróximoRegistro
+# <a name="findnextrecord-macro-action"></a>Ação da macro LocalizarPróximoRegistro
 
 
 **Aplica-se a**: Access 2013, o Office 2013

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052897
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3258e19c7e167927cf341089ed99e5525ebb0f8d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d64620ccf1c0d011c060ac829223041f49bde9d1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868130"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925286"
 ---
 # <a name="fieldcollatingorder-property-dao"></a>Propriedade Field.CollatingOrder (DAO)
 

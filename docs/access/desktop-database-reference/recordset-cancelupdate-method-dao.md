@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053072
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0112d094829753f5b012de80245f93fef3a2a472
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c75b98de62738e479b0bbb1608097f0f920cf60c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880352"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926483"
 ---
 # <a name="recordsetcancelupdate-method-dao"></a>Método Recordset.CancelUpdate (DAO)
 

@@ -1,17 +1,17 @@
 ---
 title: Propriedade FilterColumn (RDS)
-TOCTitle: FilterColumn Property (RDS)
+TOCTitle: FilterColumn property (RDS)
 ms:assetid: fb5d9f23-b62a-8131-d6ff-8b7ed8bb825c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250287(v=office.15)
 ms:contentKeyID: 48548868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9cf03a2cbff06919981ac940f5b2962062a850c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3c9f20b26ff184bcd3f1a24f7f1523acdc5f184
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877797"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927386"
 ---
 # <a name="filtercolumn-property-rds"></a>Propriedade FilterColumn (RDS)
 

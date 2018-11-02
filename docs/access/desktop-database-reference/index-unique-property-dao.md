@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 877be95d2cd65b020946f125714e0229650d5ec5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871882"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926105"
 ---
 # <a name="indexunique-property-dao"></a>Propriedade Index.Unique (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb530cc31756205e736422f28e7ece3f4cd79440
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885784"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927001"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Método Database.CreateRelation (DAO)
 

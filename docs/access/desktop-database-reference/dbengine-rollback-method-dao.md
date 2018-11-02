@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b4d7e8496aefc40047c813c844a989580f8202e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 74676272d9ee69555762a6eb4343f1733be401e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880954"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925511"
 ---
 # <a name="dbenginerollback-method-dao"></a>Método DBEngine.Rollback (DAO)
 

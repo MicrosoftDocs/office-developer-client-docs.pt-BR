@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca1e0be9c5957e11c66487e913693bb16644211b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2456fb3741cfe5871b46e7937619b060fd350b09
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877153"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922395"
 ---
 # <a name="field2attributes-property-dao"></a>Propriedade Field2.Attributes (DAO)
 

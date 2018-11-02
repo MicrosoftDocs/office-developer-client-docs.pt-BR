@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052976
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 874e4148bc23130a7b7cd952f8ea008c41f26ca5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0fbc93ab07df4f21c9b4df13454455ed3c48a82
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868571"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925188"
 ---
 # <a name="querydefclose-method-dao"></a>Método QueryDef.Close (DAO)
 

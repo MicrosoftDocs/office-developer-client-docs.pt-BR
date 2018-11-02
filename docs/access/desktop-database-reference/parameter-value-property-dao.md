@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195733(v=office.15)
 ms:contentKeyID: 48545556
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21aef110b73b851c83af95fbc7cbf1de47d10747
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7c7eda7c438658022e0330c606169a1ed5bb2b3b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870006"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919252"
 ---
 # <a name="parametervalue-property-dao"></a>Propriedade Parameter.Value (DAO)
 

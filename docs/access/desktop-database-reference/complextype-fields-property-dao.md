@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836981(v=office.15)
 ms:contentKeyID: 48548803
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e5f8f28ebb987f51a7f88aa2f5dbe4556299bbb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 33fab87a6650b42c3b41937826410ce601b36639
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884671"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921296"
 ---
 # <a name="complextypefields-property-dao"></a>Propriedade ComplexType.Fields (DAO)
 

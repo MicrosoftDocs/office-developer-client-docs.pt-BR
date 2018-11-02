@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124680(v=office.15)
 ms:contentKeyID: 52072302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b919ded6e39b711e4783be9954515063b16ccef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4750d4e97d7f8fdf12fc84ec1c1fff4ce762a924
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868445"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923431"
 ---
 # <a name="error-properties-dao"></a>Propriedades de erro (DAO)
 

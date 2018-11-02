@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5ebd9a4d3ca8951a837432b7a9bd1731dadc926
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5d9deafaf70ac230b2c3a93a1e8100a6300a5cc6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867801"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920925"
 ---
 # <a name="parametersrefresh-method-dao"></a>Método parâmetros. (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08dfdda497311c70920dba3f082180503077d09d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 78fdc7fc236a3e366cc97d466deb1e31cc030ac7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873744"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919469"
 ---
 # <a name="relations-collection-dao"></a>Coleção Relations (DAO)
 

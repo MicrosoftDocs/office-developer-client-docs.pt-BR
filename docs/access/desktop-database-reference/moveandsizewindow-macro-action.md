@@ -1,19 +1,19 @@
 ---
-title: Ação de Macro Moveredimensionarjanela
-TOCTitle: MoveAndSizeWindow Macro Action
+title: Ação da macro MovereDimensionarJanela
+TOCTitle: MoveAndSizeWindow macro action
 ms:assetid: 86bcf45f-90ce-4ca2-a7fb-efbe5347d137
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab2998140f46fd3275f564684995d9a4d8d56968
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882536"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925265"
 ---
-# <a name="moveandsizewindow-macro-action"></a>Ação de Macro Moveredimensionarjanela
+# <a name="moveandsizewindow-macro-action"></a>Ação da macro MovereDimensionarJanela
 
 
 **Aplica-se a**: Access 2013, o Office 2013

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052906
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a1799a87ba640ec90253bd262972b068fc01e03
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b5f568889d020676be420186b49c9c50c444ee54
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891209"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926133"
 ---
 # <a name="recordsetindex-property-dao"></a>Propriedade Recordset.Index (DAO)
 

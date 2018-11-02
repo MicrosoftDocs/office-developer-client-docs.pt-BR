@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8e121457f7084b4d13e89c43a30a7632a3cd7377
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab28f1b976144c40eb8be639bb7c7a1adc3e4450
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873975"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920225"
 ---
 # <a name="querydefcancel-method-dao"></a>Método QueryDef.Cancel (DAO)
 

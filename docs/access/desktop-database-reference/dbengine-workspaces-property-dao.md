@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 93288a7b3ab204023d252bed82461d11bab25d5c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efc40e60a2a155e64c4721e9f8262a5d74c15806
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867535"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925160"
 ---
 # <a name="dbengineworkspaces-property-dao"></a>Propriedade DBEngine.Workspaces (DAO)
 

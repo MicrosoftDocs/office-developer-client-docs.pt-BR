@@ -1,6 +1,6 @@
 ---
-title: Ação de macro DefinirVarLocal
-TOCTitle: SetLocalVar Macro Action
+title: Ação da macro DefinirVarLocal
+TOCTitle: SetLocalVar macro action
 ms:assetid: 8a6af395-0f76-72e2-37f3-2cff22a38b3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197097(v=office.15)
 ms:contentKeyID: 48546190
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 299227553481c4f149827c31078111db7b427f7f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6db77a3cd712717e5aa2eb22e89f90557a1dabf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886638"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926014"
 ---
-# <a name="setlocalvar-macro-action"></a>Ação de macro DefinirVarLocal
+# <a name="setlocalvar-macro-action"></a>Ação da macro DefinirVarLocal
 
 
 **Aplica-se a**: Access 2013, o Office 2013

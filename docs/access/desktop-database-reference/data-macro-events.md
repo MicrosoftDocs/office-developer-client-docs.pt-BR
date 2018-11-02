@@ -1,32 +1,25 @@
 ---
-title: Eventos de Macro de dados (referência de banco de dados da área de trabalho do Access)
-TOCTitle: Data Macro Events
+title: Eventos de macro de dados (referência de banco de dados da área de trabalho do Access)
+TOCTitle: Data macro events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)
 ms:contentKeyID: 52072314
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a98218bb80bb413411feaaf3b0d63483aea4e686
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f7a68e0351b632a99f057c6972d43551f0e3b3f0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879705"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921702"
 ---
-# <a name="data-macro-events"></a>Eventos de Macro de dados
-
+# <a name="data-macro-events"></a>Eventos de macro de dados
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Após o evento de exclusão de Macro](after-delete-macro-event.md)
-
-  - [Evento de Macro Inserir após](after-insert-macro-event.md)
-
-  - [Após o evento de Macro de atualização](after-update-macro-event.md)
-
-  - [Antes do evento de Macro de alteração](before-change-macro-event.md)
-
-  - [Evento de macro Antes de Excluir](before-delete-macro-event.md)
+- [Evento da macro Após Exclusão](after-delete-macro-event.md)
+- [Evento da macro Após Inserção](after-insert-macro-event.md)
+- [Evento da macro Após Atualização](after-update-macro-event.md)
+- [Evento da macro Antes da Alteração](before-change-macro-event.md)
+- [Antes de excluir o evento de macro](before-delete-macro-event.md)
 

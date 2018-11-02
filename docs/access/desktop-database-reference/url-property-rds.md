@@ -1,17 +1,17 @@
 ---
 title: Propriedade URL (RDS - referência de banco de dados da área de trabalho do Access)
-TOCTitle: URL Property (RDS)
+TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f179eb2c251ca96943a5f924b0ca51881aa371b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca1fdba5e5fd9b16b66fd71f2841890870de4d65
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874157"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925979"
 ---
 # <a name="url-property-rds"></a>Propriedade URL (RDS)
 

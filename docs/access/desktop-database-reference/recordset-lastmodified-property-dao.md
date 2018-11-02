@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052898
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6b8b6b58f330807047b7fc58ff49ee154371d4b2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: be2e066801754c419b3c3b74e673af8f8034f2e7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869740"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920974"
 ---
 # <a name="recordsetlastmodified-property-dao"></a>Propriedade Recordset.LastModified (DAO)
 

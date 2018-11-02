@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193483(v=office.15)
 ms:contentKeyID: 48544664
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 75dd4059aa9d06e2e6552b0ab7945373add55c76
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e4a6cf889e7676895534b053e8aacd4bb0eada89
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872358"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919350"
 ---
 # <a name="recordsetnextrecordset-method-dao"></a>Método NextRecordset (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
 ms:contentKeyID: 48548438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a7ad2345e547232b79085ec5942ce5ca7d8b5c8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 462581e5b1ab3f09b697ee7f4b763a889d8119fd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870020"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925524"
 ---
 # <a name="relationsdelete-method-dao"></a>Método Relations.Delete (DAO)
 

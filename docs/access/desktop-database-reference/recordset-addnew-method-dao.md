@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ce7d907db9d16ead7cfa355ecf4f9e87e04f8095
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b07717a209fdb0152964bcd33d228d17cecd4eec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891293"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922346"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Método Recordset.AddNew (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 71ea383cbf1c55fb15b484fea039c71c44a4e470
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 44fa827be7359c598ff610313be4c2acf30d5e50
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881409"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920561"
 ---
 # <a name="indexrequired-property-dao"></a>Propriedade Index.Required (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2748be69677cacee246864303d2ff57dad9235b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875585"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921297"
 ---
 # <a name="indexclustered-property-dao"></a>Propriedade Index.Clustered (DAO)
 

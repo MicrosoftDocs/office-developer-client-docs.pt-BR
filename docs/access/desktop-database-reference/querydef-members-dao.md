@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34a6086fb7ae5f84e4360ab47f330fd884b061d1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f73e01c11f62b8c9eaff874dc315be083474532a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887296"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919735"
 ---
 # <a name="querydef-members-dao"></a>Membros de QueryDef (DAO)
 

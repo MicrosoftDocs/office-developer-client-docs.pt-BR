@@ -1,17 +1,17 @@
 ---
 title: Método GetPermissions (ADOX)
-TOCTitle: GetPermissions Method (ADOX)
+TOCTitle: GetPermissions method (ADOX)
 ms:assetid: 98a2b2b6-a8af-15ee-b052-622a6f0661b9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249683(v=office.15)
 ms:contentKeyID: 48546496
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f53298d56f09b3df94c1b9e20158b3549317af6b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 14cba54742a71a8b319f80b6fd1a910a85debcec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886533"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926721"
 ---
 # <a name="getpermissions-method-adox"></a>Método GetPermissions (ADOX)
 

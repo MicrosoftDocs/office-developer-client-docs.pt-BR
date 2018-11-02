@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 959291193b8606ce223e6ad1a20c17895b136a13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f958081ee73e64ca6c895217c8aa3e821617b283
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876789"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927190"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
 

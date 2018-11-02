@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cdf82bac92b06d0dc4fb251278e3d6226405439b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873205"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926259"
 ---
 # <a name="recordsetsort-property-dao"></a>Propriedade Recordset.Sort (DAO)
 

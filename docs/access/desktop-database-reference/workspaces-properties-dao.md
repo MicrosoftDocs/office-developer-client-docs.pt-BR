@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142617(v=office.15)
 ms:contentKeyID: 52073854
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bb87efd46d3835e22bf465d0f36f7eea01d10ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 510ab3326859fabcdb861351a6a844dde3a9ce1d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867353"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927470"
 ---
 # <a name="workspaces-properties-dao"></a>Propriedades de espaços de trabalho (DAO)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
 ms:contentKeyID: 48548127
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55a87b30a30342a586cc3a5284d51035be5b910f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c01dc4400593853daa4f2f82597d20032c3517dc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869747"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924572"
 ---
 # <a name="errorsrefresh-method-dao"></a>Método Errors.Refresh (DAO)
 

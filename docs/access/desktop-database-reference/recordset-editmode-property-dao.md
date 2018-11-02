@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192697(v=office.15)
 ms:contentKeyID: 48544329
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7445538d1e9aaa27f9cefcd17f085e2e0f26ec23
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c111193f7cfb90eb593788381e839839f29ba784
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871350"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926441"
 ---
 # <a name="recordseteditmode-property-dao"></a>Propriedade Recordset.EditMode (DAO)
 

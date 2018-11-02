@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125212(v=office.15)
 ms:contentKeyID: 52073337
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f2fc45d2b62de4f0220a10c6eb720973d077fb5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ce4170c6acd39072db0b6ae6e63ee57fb0be782
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878707"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922661"
 ---
 # <a name="dbengine-methods-dao"></a>Métodos de DBEngine (DAO)
 

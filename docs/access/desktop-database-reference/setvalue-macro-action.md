@@ -1,19 +1,19 @@
 ---
-title: Ação de Macro SetValue
-TOCTitle: SetValue Macro Action
+title: Ação da macro DefinirValor
+TOCTitle: SetValue macro action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36dd3e511a3ff252ca44aa6d10fd1be4acd5c5fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6f407c5da2ca669025d5aec47685e6eb9732c72c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878686"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927099"
 ---
-# <a name="setvalue-macro-action"></a>Ação de Macro SetValue
+# <a name="setvalue-macro-action"></a>Ação da macro DefinirValor
 
 
 **Aplica-se a**: Access 2013, o Office 2013

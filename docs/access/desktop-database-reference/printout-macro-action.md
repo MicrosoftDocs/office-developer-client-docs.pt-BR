@@ -1,6 +1,6 @@
 ---
-title: Ação de macro Imprimir
-TOCTitle: PrintOut Macro Action
+title: Ação da macro Imprimir
+TOCTitle: PrintOut macro action
 ms:assetid: 13688158-1cf1-4b2e-d90a-271c8890e413
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845432(v=office.15)
 ms:contentKeyID: 48543368
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6a0aa0ae6d992410d5bed6126bfe49d7e84e9135
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878728"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926749"
 ---
-# <a name="printout-macro-action"></a>Ação de macro Imprimir
+# <a name="printout-macro-action"></a>Ação da macro Imprimir
 
 
 **Aplica-se a**: Access 2013, o Office 2013

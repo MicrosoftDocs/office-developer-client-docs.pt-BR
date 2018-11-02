@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836946(v=office.15)
 ms:contentKeyID: 48548783
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ef77f5882f4b215764a82d343d59f1f31487e58
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b24aaa5aec9b17adc169c67733a19a9077a4930
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886113"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920918"
 ---
 # <a name="tabledefrecordcount-property-dao"></a>Propriedade TableDef.RecordCount (DAO)
 

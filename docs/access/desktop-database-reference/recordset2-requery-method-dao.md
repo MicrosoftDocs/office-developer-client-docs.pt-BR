@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4646003bb7911fc18840d75addf459935ebb1fbd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878630"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925482"
 ---
 # <a name="recordset2requery-method-dao"></a>Método Recordset2.Requery (DAO)
 

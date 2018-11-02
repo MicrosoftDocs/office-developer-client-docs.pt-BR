@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
 ms:contentKeyID: 48547828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7dd2acd9675821dfb2b742a6cc344b34833c61ac
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d6a9047ac95e377863c2f8d0f7024ca3ff199a06
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881780"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921016"
 ---
 # <a name="tabledefattributes-property-dao"></a>Propriedade TableDef.Attributes (DAO)
 

@@ -1,19 +1,19 @@
 ---
-title: Ação de Macro SetReturnVar
-TOCTitle: SetReturnVar Macro Action
+title: Ação da macro DefinirVardeRetorno
+TOCTitle: SetReturnVar macro action
 ms:assetid: 53719857-00bb-4f33-b5d2-93aff92d736e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193989(v=office.15)
 ms:contentKeyID: 48544870
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a0c4d47283b059a32fa4df3ba8e1278c1fdcd17a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f73ba90b4eae9f5da17e27d466044d97fb815d74
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873982"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923788"
 ---
-# <a name="setreturnvar-macro-action"></a>Ação de Macro SetReturnVar
+# <a name="setreturnvar-macro-action"></a>Ação da macro DefinirVardeRetorno
 
 **Aplica-se a**: Access 2013, o Office 2013
 

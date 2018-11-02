@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101184
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 896cc3866b52aeb8bbd2956ea84f9470671a407a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9b33fe61eaeb7d1a6006ffaf4566b65be9f68243
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873254"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926063"
 ---
 # <a name="field2visiblevalue-property-dao"></a>Propriedade Field2.VisibleValue (DAO)
 

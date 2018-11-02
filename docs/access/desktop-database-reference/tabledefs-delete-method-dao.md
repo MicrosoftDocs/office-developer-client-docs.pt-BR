@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
 ms:contentKeyID: 48543358
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc4d0c467d80c0eb78ea75f36b87e97ce3551631
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 122f30e5f6310bc180dd43582a6e1e05cc970d4b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887184"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926490"
 ---
 # <a name="tabledefsdelete-method-dao"></a>Método TableDefs.Delete (DAO)
 

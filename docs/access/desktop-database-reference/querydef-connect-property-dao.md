@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1aef24850a2dfa9eeb801708ea773087b9d1ff40
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1208ac064c92e2e3793e8f2e3ceb4502cbfa4d6c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871441"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922003"
 ---
 # <a name="querydefconnect-property-dao"></a>Propriedade QueryDef.Connect (DAO)
 

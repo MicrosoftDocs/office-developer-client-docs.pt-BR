@@ -1,6 +1,6 @@
 ---
-title: Ação de macro ApplyFilter
-TOCTitle: ApplyFilter Macro Action
+title: Ação da macro AplicarFiltro
+TOCTitle: ApplyFilter macro action
 ms:assetid: c63988c4-4506-cc51-98f7-478d1f3fe668
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823130(v=office.15)
 ms:contentKeyID: 48547623
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c5d75ee8e4d9fdbd2ab922bd2ed7a8c0dc5fa846
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 782445e9d0bb12054d41ac780c86d5d6f1a32972
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874499"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926658"
 ---
-# <a name="applyfilter-macro-action"></a>Ação de macro ApplyFilter
+# <a name="applyfilter-macro-action"></a>Ação da macro AplicarFiltro
 
 **Aplica-se a**: Access 2013, o Office 2013
 

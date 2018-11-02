@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836614(v=office.15)
 ms:contentKeyID: 48548642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6999a4b95ea18065ed1ad15f336d005a2838a6b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 85d6f1af274c342270660143d18f4706d74fcd66
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875578"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919784"
 ---
 # <a name="recordset2transactions-property-dao"></a>Propriedade Recordset2.Transactions (DAO)
 

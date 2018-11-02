@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
 ms:contentKeyID: 48545536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09e4f1ab1741f791d8ebd38be9e331d96f4776b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cd2c3747d888f724d0167a9a3ead2af2a6a87399
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871399"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920022"
 ---
 # <a name="field2name-property-dao"></a>Propriedade Field2.Name (DAO)
 

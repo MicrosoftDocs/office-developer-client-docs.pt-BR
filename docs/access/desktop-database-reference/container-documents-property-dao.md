@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053175
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 17654da8666fee669356fcc37bbc546c0c35cef0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 51ded1704d8d2ff49921149337cf772132d1243f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886736"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920764"
 ---
 # <a name="containerdocuments-property-dao"></a>Propriedade Container.Documents (DAO)
 
@@ -26,7 +26,7 @@ Retorna uma coleção **Documents** que contém todos os documentos armazenados 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Documentos
+*expressão* . Documents
 
 *expressão* Uma variável que representa um objeto **Container** .
 

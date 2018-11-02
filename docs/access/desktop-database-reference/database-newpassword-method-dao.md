@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b3d4d26a194e2790bf03fcdc5d1911c1e69bbf8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4dca778da3c364d9e9b5a5eaf8ebbc32501853f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882865"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919357"
 ---
 # <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 

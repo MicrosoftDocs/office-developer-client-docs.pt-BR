@@ -1,17 +1,17 @@
 ---
 title: Coleção Connections (DAO)
-TOCTitle: Connections Collection
+TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2f7fba059ba277de0fe494c845bbdbfcd27affa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a536c0dc870d4dd8c0efa940918032d98bd6813
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882781"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922507"
 ---
 # <a name="connections-collection-dao"></a>Coleção Connections (DAO)
 

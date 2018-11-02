@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142529(v=office.15)
 ms:contentKeyID: 52073767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65d181af867a49602e629bc4ad88e02d0d417868
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5cb62ab97e71c97e521d7ca4711801f1a13d5011
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879176"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922332"
 ---
 # <a name="tabledefs-properties-dao"></a>Propriedades TableDefs (DAO)
 

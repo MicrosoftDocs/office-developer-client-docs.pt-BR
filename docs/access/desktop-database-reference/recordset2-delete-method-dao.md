@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
 ms:contentKeyID: 48542947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b5a00c7bd170c6c7c4b054bc795385baeadca64
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5e1bfddde74c0bd9c3cd4a7839a66350ed33d9b1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887527"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927421"
 ---
 # <a name="recordset2delete-method-dao"></a>Método Recordset2.Delete (DAO)
 

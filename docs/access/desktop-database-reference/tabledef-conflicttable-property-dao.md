@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053356
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 81b7793291575ca86b5eec628ac9472a20d90ce4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e99fcc052ebef8af5d76490625f86f1e6dd45e16
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870657"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923830"
 ---
 # <a name="tabledefconflicttable-property-dao"></a>Propriedade TableDef.ConflictTable (DAO)
 

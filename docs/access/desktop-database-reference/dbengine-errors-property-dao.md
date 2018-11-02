@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053176
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ea36947b9c3c85f2b82f5a9831f62248b3e75fda
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd2ce678c6ca4b419ab3391c2d820304d0b72bcd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889620"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921170"
 ---
 # <a name="dbengineerrors-property-dao"></a>Propriedade DBEngine.Errors (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b9d25b9ccb0c6d3a167e33768d893abdaa8d41a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4faa23fa2b7bdedc85bba5151c04a804a560155e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874647"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923669"
 ---
 # <a name="fieldsdelete-method-dao"></a>Método Fields. (DAO)
 

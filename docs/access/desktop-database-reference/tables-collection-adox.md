@@ -1,17 +1,17 @@
 ---
 title: Coleção Tables (ADOX)
-TOCTitle: Tables Collection (ADOX)
+TOCTitle: Tables collection (ADOX)
 ms:assetid: 07bc0541-c528-1c25-c8c4-05736836eda3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e59de5fc777d08f12b1030812a6260378924f286
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f87863579588b586e851cd175548d62ea7a0b920
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869264"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919483"
 ---
 # <a name="tables-collection-adox"></a>Coleção Tables (ADOX)
 

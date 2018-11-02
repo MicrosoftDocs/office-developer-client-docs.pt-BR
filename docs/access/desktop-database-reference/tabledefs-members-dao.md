@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
 ms:contentKeyID: 48545784
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 651e725cb322c3bbed09e8e2256a7700560a0047
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1270a775318111b6e7a4b70fbe1151dae84040d6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889998"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927491"
 ---
 # <a name="tabledefs-members-dao"></a>Membros de TableDefs (DAO)
 

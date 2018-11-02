@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
 ms:contentKeyID: 48546850
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8cb85f8a2932499d5e0a9d832ad0962beeaf4c07
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1221129ee7aaa7d53ada51f7a92dc5e91bc4afee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873191"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925321"
 ---
 # <a name="recordsetedit-method-dao"></a>Método Recordset.Edit (DAO)
 

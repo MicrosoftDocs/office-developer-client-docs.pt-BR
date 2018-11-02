@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052931
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e7fd7b98b246f4fda24426d9376cc5edc2553b8e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4fd7d7e1335e7acd5bc9733d8c13f690be68d82b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870307"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926448"
 ---
 # <a name="indexignorenulls-property-dao"></a>Propriedade Index.IgnoreNulls (DAO)
 

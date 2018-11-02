@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33f5c3a88cb604236be64dc0771b4d1e78b7eb37
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880947"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926644"
 ---
 # <a name="field2getchunk-method-dao"></a>Método Field2.GetChunk (DAO)
 

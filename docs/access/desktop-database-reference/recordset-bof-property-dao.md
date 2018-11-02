@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
 ms:contentKeyID: 48547603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc34e1f94fc94c58a897abcc435f064f1bd87320
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0b46dc21b8453101299caf3f8a0fffde5f9b99c8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870440"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919595"
 ---
 # <a name="recordsetbof-property-dao"></a>Propriedade Recordset.BOF (DAO)
 

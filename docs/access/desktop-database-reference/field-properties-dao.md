@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123487(v=office.15)
 ms:contentKeyID: 52071130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ab3464a72f41e7d774c9a1d1b6904885ff65a09
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aa0a1cc7b3e1d7a1b7cbc04f14d7cf8fc2692918
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874038"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922472"
 ---
 # <a name="field-properties-dao"></a>Propriedades do campo (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6b8803b4169b4cbb9eead3ee1ce1437aabbb905
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 57d28675bf3a7533d9e2dde223e46864f9179f0b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889599"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922045"
 ---
 # <a name="databasequerydefs-property-dao"></a>Propriedade Database.QueryDefs (DAO)
 
