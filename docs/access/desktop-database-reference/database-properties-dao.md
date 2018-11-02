@@ -6,51 +6,51 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179959(v=office.15)
 ms:contentKeyID: 52074929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85d3ddc20fb239298bc4806cdf0d4bc7bd855872
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0918f299da98a85701030e5145ddb7deb4b05cec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880793"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923963"
 ---
-# <a name="database-properties-dao"></a><span data-ttu-id="7e178-102">Propriedades do banco de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-102">Database Properties (DAO)</span></span>
+# <a name="database-properties-dao"></a><span data-ttu-id="a4e1a-102">Propriedades do banco de dados (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-102">Database properties (DAO)</span></span>
 
 
-<span data-ttu-id="7e178-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e178-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4e1a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4e1a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="7e178-104">Propriedade Database.CollatingOrder (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-104">Database.CollatingOrder Property (DAO)</span></span>](database-collatingorder-property-dao.md)
+  - [<span data-ttu-id="a4e1a-104">Propriedade Database.CollatingOrder (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-104">Database.CollatingOrder property (DAO)</span></span>](database-collatingorder-property-dao.md)
 
-  - [<span data-ttu-id="7e178-105">Propriedade Database.Connect (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-105">Database.Connect Property (DAO)</span></span>](database-connect-property-dao.md)
+  - [<span data-ttu-id="a4e1a-105">Propriedade Database.Connect (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-105">Database.Connect property (DAO)</span></span>](database-connect-property-dao.md)
 
-  - [<span data-ttu-id="7e178-106">Propriedade Database.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-106">Database.Connection Property (DAO)</span></span>](database-connection-property-dao.md)
+  - [<span data-ttu-id="a4e1a-106">Propriedade Database.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-106">Database.Connection property (DAO)</span></span>](database-connection-property-dao.md)
 
-  - [<span data-ttu-id="7e178-107">Propriedade Database.Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-107">Database.Containers Property (DAO)</span></span>](database-containers-property-dao.md)
+  - [<span data-ttu-id="a4e1a-107">Propriedade Database.Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-107">Database.Containers property (DAO)</span></span>](database-containers-property-dao.md)
 
-  - [<span data-ttu-id="7e178-108">Propriedade Database.DesignMasterID (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-108">Database.DesignMasterID Property (DAO)</span></span>](database-designmasterid-property-dao.md)
+  - [<span data-ttu-id="a4e1a-108">Propriedade Database.DesignMasterID (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-108">Database.DesignMasterID property (DAO)</span></span>](database-designmasterid-property-dao.md)
 
-  - [<span data-ttu-id="7e178-109">Propriedade Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-109">Database.Name Property (DAO)</span></span>](database-name-property-dao.md)
+  - [<span data-ttu-id="a4e1a-109">Propriedade Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-109">Database.Name property (DAO)</span></span>](database-name-property-dao.md)
 
-  - [<span data-ttu-id="7e178-110">Propriedade Database.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-110">Database.Properties Property (DAO)</span></span>](database-properties-property-dao.md)
+  - [<span data-ttu-id="a4e1a-110">Propriedade Database.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-110">Database.Properties property (DAO)</span></span>](database-properties-property-dao.md)
 
-  - [<span data-ttu-id="7e178-111">Propriedade Database.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-111">Database.QueryDefs Property (DAO)</span></span>](database-querydefs-property-dao.md)
+  - [<span data-ttu-id="a4e1a-111">Propriedade Database.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-111">Database.QueryDefs property (DAO)</span></span>](database-querydefs-property-dao.md)
 
-  - [<span data-ttu-id="7e178-112">Propriedade Database.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-112">Database.QueryTimeout Property (DAO)</span></span>](database-querytimeout-property-dao.md)
+  - [<span data-ttu-id="a4e1a-112">Propriedade Database.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-112">Database.QueryTimeout property (DAO)</span></span>](database-querytimeout-property-dao.md)
 
-  - [<span data-ttu-id="7e178-113">Propriedade Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-113">Database.RecordsAffected Property (DAO)</span></span>](database-recordsaffected-property-dao.md)
+  - [<span data-ttu-id="a4e1a-113">Propriedade Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-113">Database.RecordsAffected property (DAO)</span></span>](database-recordsaffected-property-dao.md)
 
-  - [<span data-ttu-id="7e178-114">Propriedade Database.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-114">Database.Recordsets Property (DAO)</span></span>](database-recordsets-property-dao.md)
+  - [<span data-ttu-id="a4e1a-114">Propriedade Database.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-114">Database.Recordsets property (DAO)</span></span>](database-recordsets-property-dao.md)
 
-  - [<span data-ttu-id="7e178-115">Propriedade Database.Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-115">Database.Relations Property (DAO)</span></span>](database-relations-property-dao.md)
+  - [<span data-ttu-id="a4e1a-115">Propriedade Database.Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-115">Database.Relations property (DAO)</span></span>](database-relations-property-dao.md)
 
-  - [<span data-ttu-id="7e178-116">Propriedade Database.ReplicaID (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-116">Database.ReplicaID Property (DAO)</span></span>](database-replicaid-property-dao.md)
+  - [<span data-ttu-id="a4e1a-116">Propriedade Database.ReplicaID (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-116">Database.ReplicaID property (DAO)</span></span>](database-replicaid-property-dao.md)
 
-  - [<span data-ttu-id="7e178-117">Propriedade Database.TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-117">Database.TableDefs Property (DAO)</span></span>](database-tabledefs-property-dao.md)
+  - [<span data-ttu-id="a4e1a-117">Propriedade Database.TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-117">Database.TableDefs property (DAO)</span></span>](database-tabledefs-property-dao.md)
 
-  - [<span data-ttu-id="7e178-118">Propriedade Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-118">Database.Transactions Property (DAO)</span></span>](database-transactions-property-dao.md)
+  - [<span data-ttu-id="a4e1a-118">Propriedade Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-118">Database.Transactions property (DAO)</span></span>](database-transactions-property-dao.md)
 
-  - [<span data-ttu-id="7e178-119">Propriedade Database.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-119">Database.Updatable Property (DAO)</span></span>](database-updatable-property-dao.md)
+  - [<span data-ttu-id="a4e1a-119">Propriedade Database.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-119">Database.Updatable property (DAO)</span></span>](database-updatable-property-dao.md)
 
-  - [<span data-ttu-id="7e178-120">Propriedade Database.Version (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e178-120">Database.Version Property (DAO)</span></span>](database-version-property-dao.md)
+  - [<span data-ttu-id="a4e1a-120">Propriedade Database.Version (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4e1a-120">Database.Version property (DAO)</span></span>](database-version-property-dao.md)
 

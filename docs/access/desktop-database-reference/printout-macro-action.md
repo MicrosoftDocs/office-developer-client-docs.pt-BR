@@ -1,6 +1,6 @@
 ---
-title: Ação de macro Imprimir
-TOCTitle: PrintOut Macro Action
+title: Ação da macro Imprimir
+TOCTitle: PrintOut macro action
 ms:assetid: 13688158-1cf1-4b2e-d90a-271c8890e413
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845432(v=office.15)
 ms:contentKeyID: 48543368
@@ -10,29 +10,29 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6a0aa0ae6d992410d5bed6126bfe49d7e84e9135
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878728"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926749"
 ---
-# <a name="printout-macro-action"></a><span data-ttu-id="64872-102">Ação de macro Imprimir</span><span class="sxs-lookup"><span data-stu-id="64872-102">PrintOut Macro Action</span></span>
+# <a name="printout-macro-action"></a><span data-ttu-id="449e0-102">Ação da macro Imprimir</span><span class="sxs-lookup"><span data-stu-id="449e0-102">PrintOut macro action</span></span>
 
 
-<span data-ttu-id="64872-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="64872-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="449e0-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="449e0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64872-p101">Você pode usar a ação **Imprimir** para imprimir o objeto ativo no banco de dados aberto. Pode imprimir folhas de dados, relatórios, formulários, páginas de acesso a dados e módulos.</span><span class="sxs-lookup"><span data-stu-id="64872-p101">You can use the **PrintOut** action to print the active object in the open database. You can print datasheets, reports, forms, data access pages, and modules.</span></span>
+<span data-ttu-id="449e0-p101">Você pode usar a ação **Imprimir** para imprimir o objeto ativo no banco de dados aberto. Pode imprimir folhas de dados, relatórios, formulários, páginas de acesso a dados e módulos.</span><span class="sxs-lookup"><span data-stu-id="449e0-p101">You can use the **PrintOut** action to print the active object in the open database. You can print datasheets, reports, forms, data access pages, and modules.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="64872-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="64872-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
+> <P><span data-ttu-id="449e0-p102">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="449e0-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
 
 
 
-## <a name="setting"></a><span data-ttu-id="64872-108">Configuração</span><span class="sxs-lookup"><span data-stu-id="64872-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="449e0-108">Configuração</span><span class="sxs-lookup"><span data-stu-id="449e0-108">Setting</span></span>
 
-<span data-ttu-id="64872-109">A ação **Imprimir** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="64872-109">The **PrintOut** action has the following arguments.</span></span>
+<span data-ttu-id="449e0-109">A ação **Imprimir** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="449e0-109">The **PrintOut** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -41,50 +41,50 @@ ms.locfileid: "25878728"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="64872-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="64872-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="64872-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="64872-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="449e0-110">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="449e0-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="449e0-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="449e0-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="64872-112"><strong>Intervalo de Impressão</strong></span><span class="sxs-lookup"><span data-stu-id="64872-112"><strong>Print Range</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p103">O intervalo da impressão. Clique em <strong>Tudo</strong> (o usuário pode imprimir todo o objeto), <strong>Seleção</strong> (o usuário pode imprimir parte do objeto selecionado) ou <strong>Páginas</strong> (o usuário pode especificar um intervalo de páginas nos argumentos <strong>Da Página</strong> e <strong>À Página</strong>) na caixa <strong>Intervalo de Impressão</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Tudo</strong>.</span><span class="sxs-lookup"><span data-stu-id="64872-p103">The range to print. Click <strong>All</strong> (the user can print all of the object), <strong>Selection</strong> (the user can print the part of the object that's selected), or <strong>Pages</strong> (the user can specify a range of pages in the <strong>Page From</strong> and <strong>Page To</strong> arguments) in the <strong>Print Range</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>All</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-112"><strong>Intervalo de Impressão</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-112"><strong>Print Range</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p103">O intervalo da impressão. Clique em <strong>Tudo</strong> (o usuário pode imprimir todo o objeto), <strong>Seleção</strong> (o usuário pode imprimir parte do objeto selecionado) ou <strong>Páginas</strong> (o usuário pode especificar um intervalo de páginas nos argumentos <strong>Da Página</strong> e <strong>À Página</strong>) na caixa <strong>Intervalo de Impressão</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Tudo</strong>.</span><span class="sxs-lookup"><span data-stu-id="449e0-p103">The range to print. Click <strong>All</strong> (the user can print all of the object), <strong>Selection</strong> (the user can print the part of the object that's selected), or <strong>Pages</strong> (the user can specify a range of pages in the <strong>Page From</strong> and <strong>Page To</strong> arguments) in the <strong>Print Range</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>All</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64872-116"><strong>Da Página</strong></span><span class="sxs-lookup"><span data-stu-id="64872-116"><strong>Page From</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p104">A primeira página que será impressa. A impressão começa na parte superior dessa página. Este argumento é obrigatório para selecionar <strong>Páginas</strong> na caixa <strong>Intervalo de Impressão</strong>.</span><span class="sxs-lookup"><span data-stu-id="64872-p104">The first page to print. Printing starts at the top of this page. This argument is required if you select <strong>Pages</strong> in the <strong>Print Range</strong> box.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-116"><strong>Da Página</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-116"><strong>Page From</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p104">A primeira página que será impressa. A impressão começa na parte superior dessa página. Este argumento é obrigatório para selecionar <strong>Páginas</strong> na caixa <strong>Intervalo de Impressão</strong>.</span><span class="sxs-lookup"><span data-stu-id="449e0-p104">The first page to print. Printing starts at the top of this page. This argument is required if you select <strong>Pages</strong> in the <strong>Print Range</strong> box.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64872-120"><strong>À Página</strong></span><span class="sxs-lookup"><span data-stu-id="64872-120"><strong>Page To</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p105">A última página que será impressa. A impressão para na parte inferior dessa página. Este argumento é obrigatório para selecionar <strong>Páginas</strong> na caixa <strong>Intervalo de Impressão</strong>.</span><span class="sxs-lookup"><span data-stu-id="64872-p105">The last page to print. Printing stops at the bottom of this page. This argument is required if you select <strong>Pages</strong> in the <strong>Print Range</strong> box.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-120"><strong>À Página</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-120"><strong>Page To</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p105">A última página que será impressa. A impressão para na parte inferior dessa página. Este argumento é obrigatório para selecionar <strong>Páginas</strong> na caixa <strong>Intervalo de Impressão</strong>.</span><span class="sxs-lookup"><span data-stu-id="449e0-p105">The last page to print. Printing stops at the bottom of this page. This argument is required if you select <strong>Pages</strong> in the <strong>Print Range</strong> box.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64872-124"><strong>Qualidade de Impressão</strong></span><span class="sxs-lookup"><span data-stu-id="64872-124"><strong>Print Quality</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p106">A qualidade de impressão. Clique em <strong>Alta</strong>, <strong>Média</strong>, <strong>Baixa</strong> ou <strong>Rascunho</strong>. Quanto menor for a qualidade, mais rapidamente o objeto será impresso. O padrão é <strong>Alta</strong>.</span><span class="sxs-lookup"><span data-stu-id="64872-p106">The print quality. Click <strong>High</strong>, <strong>Medium</strong>, <strong>Low</strong>, or <strong>Draft</strong>. The lower the quality, the faster the object prints. The default is <strong>High</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-124"><strong>Qualidade de Impressão</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-124"><strong>Print Quality</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p106">A qualidade de impressão. Clique em <strong>Alta</strong>, <strong>Média</strong>, <strong>Baixa</strong> ou <strong>Rascunho</strong>. Quanto menor for a qualidade, mais rapidamente o objeto será impresso. O padrão é <strong>Alta</strong>.</span><span class="sxs-lookup"><span data-stu-id="449e0-p106">The print quality. Click <strong>High</strong>, <strong>Medium</strong>, <strong>Low</strong>, or <strong>Draft</strong>. The lower the quality, the faster the object prints. The default is <strong>High</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64872-129"><strong>Copies</strong></span><span class="sxs-lookup"><span data-stu-id="64872-129"><strong>Copies</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p107">O número de cópias que serão impressas. O padrão é 1.</span><span class="sxs-lookup"><span data-stu-id="64872-p107">The number of copies to print. The default is 1.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-129"><strong>Copies</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-129"><strong>Copies</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p107">O número de cópias que serão impressas. O padrão é 1.</span><span class="sxs-lookup"><span data-stu-id="449e0-p107">The number of copies to print. The default is 1.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64872-132"><strong>Agrupar Cópias</strong></span><span class="sxs-lookup"><span data-stu-id="64872-132"><strong>Collate Copies</strong></span></span></p></td>
-<td><p><span data-ttu-id="64872-p108">Clique em <strong>Sim</strong> (agrupar as cópias impressas) ou <strong>Não</strong> (não agrupar as cópias). O objeto poderá ser impresso com mais rapidez se este argumento for definido como <strong>Não</strong>. O padrão é <strong>Sim</strong>.</span><span class="sxs-lookup"><span data-stu-id="64872-p108">Click <strong>Yes</strong> (collate the printed copies) or <strong>No</strong> (do not collate copies). The object may print faster if this argument is set to <strong>No</strong>. The default is <strong>Yes</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="449e0-132"><strong>Agrupar Cópias</strong></span><span class="sxs-lookup"><span data-stu-id="449e0-132"><strong>Collate Copies</strong></span></span></p></td>
+<td><p><span data-ttu-id="449e0-p108">Clique em <strong>Sim</strong> (agrupar as cópias impressas) ou <strong>Não</strong> (não agrupar as cópias). O objeto poderá ser impresso com mais rapidez se este argumento for definido como <strong>Não</strong>. O padrão é <strong>Sim</strong>.</span><span class="sxs-lookup"><span data-stu-id="449e0-p108">Click <strong>Yes</strong> (collate the printed copies) or <strong>No</strong> (do not collate copies). The object may print faster if this argument is set to <strong>No</strong>. The default is <strong>Yes</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="64872-136">Comentários</span><span class="sxs-lookup"><span data-stu-id="64872-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="449e0-136">Comentários</span><span class="sxs-lookup"><span data-stu-id="449e0-136">Remarks</span></span>
 
-<span data-ttu-id="64872-p109">Esta ação é semelhante a selecionar um objeto, clicar na guia **Arquivo** e clicar em **Imprimir**. Com esta ação, porém, não é exibida nenhuma caixa de diálogo **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="64872-p109">This action is similar to selecting an object, clicking the **File** tab and then clicking **Print**. With this action, however, no **Print** dialog box appears.</span></span>
+<span data-ttu-id="449e0-p109">Esta ação é semelhante a selecionar um objeto, clicar na guia **Arquivo** e clicar em **Imprimir**. Com esta ação, porém, não é exibida nenhuma caixa de diálogo **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="449e0-p109">This action is similar to selecting an object, clicking the **File** tab and then clicking **Print**. With this action, however, no **Print** dialog box appears.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="64872-139">[!DICA] Se houver configurações de impressão específicas usadas com frequência, crie uma macro que contém a ação <STRONG>Imprimir</STRONG> com essas configurações nos argumentos.</span><span class="sxs-lookup"><span data-stu-id="64872-139">If you have particular print settings you use frequently, create a macro containing a <STRONG>PrintOut</STRONG> action with these settings in its arguments.</span></span></P>
+> <P><span data-ttu-id="449e0-139">[!DICA] Se houver configurações de impressão específicas usadas com frequência, crie uma macro que contém a ação <STRONG>Imprimir</STRONG> com essas configurações nos argumentos.</span><span class="sxs-lookup"><span data-stu-id="449e0-139">If you have particular print settings you use frequently, create a macro containing a <STRONG>PrintOut</STRONG> action with these settings in its arguments.</span></span></P>
 
 
 
-<span data-ttu-id="64872-p110">Os argumentos desta ação correspondem às opções da caixa de diálogo **Imprimir**. Entretanto, diferentemente da ação **EncontrarRegistro** e **Localizar e Substituir**, as configurações do argumento não são compartilhadas com as opções da caixa de diálogo **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="64872-p110">The arguments for this action correspond to options in the **Print** dialog box. However, unlike the **FindRecord** action and **Find and Replace** dialog box, the argument settings aren't shared with the **Print** dialog box options.</span></span>
+<span data-ttu-id="449e0-p110">Os argumentos desta ação correspondem às opções da caixa de diálogo **Imprimir**. Entretanto, diferentemente da ação **EncontrarRegistro** e **Localizar e Substituir**, as configurações do argumento não são compartilhadas com as opções da caixa de diálogo **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="449e0-p110">The arguments for this action correspond to options in the **Print** dialog box. However, unlike the **FindRecord** action and **Find and Replace** dialog box, the argument settings aren't shared with the **Print** dialog box options.</span></span>
 
-<span data-ttu-id="64872-142">Para executar a ação **Imprimir** em um módulo do VBA (Visual Basic for Applications), use o método **PrintOut** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="64872-142">To run the **PrintOut** action in a Visual Basic for Applications (VBA) module, use the **PrintOut** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="449e0-142">Para executar a ação **Imprimir** em um módulo do VBA (Visual Basic for Applications), use o método **PrintOut** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="449e0-142">To run the **PrintOut** action in a Visual Basic for Applications (VBA) module, use the **PrintOut** method of the **DoCmd** object.</span></span>
 

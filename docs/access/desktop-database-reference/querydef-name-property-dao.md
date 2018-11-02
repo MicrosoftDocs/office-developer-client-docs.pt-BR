@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
 ms:contentKeyID: 48548776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3ba50936229c2d59a1fdfa7a6fafe34fd5ca6ff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: df91100f38d575bcd7edd7232852e85669f8440c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886225"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919056"
 ---
-# <a name="querydefname-property-dao"></a><span data-ttu-id="396a7-102">Propriedade QueryDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="396a7-102">QueryDef.Name Property (DAO)</span></span>
+# <a name="querydefname-property-dao"></a><span data-ttu-id="3dabe-102">Propriedade QueryDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="3dabe-102">QueryDef.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="396a7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="396a7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3dabe-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3dabe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="396a7-p101">Retorna ou define o nome do objeto especificado. **String** de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="396a7-p101">Returns or sets the name of the specified object. Read/write **String**.</span></span>
+<span data-ttu-id="3dabe-p101">Retorna ou define o nome do objeto especificado. **String** de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="3dabe-p101">Returns or sets the name of the specified object. Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="396a7-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="396a7-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3dabe-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3dabe-106">Syntax</span></span>
 
-<span data-ttu-id="396a7-107">*expressão* . Nome</span><span class="sxs-lookup"><span data-stu-id="396a7-107">*expression* .Name</span></span>
+<span data-ttu-id="3dabe-107">*expressão* . Nome</span><span class="sxs-lookup"><span data-stu-id="3dabe-107">*expression* .Name</span></span>
 
-<span data-ttu-id="396a7-108">*expressão* Uma variável que representa um objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="396a7-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="3dabe-108">*expressão* Uma variável que representa um objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="3dabe-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="396a7-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="396a7-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3dabe-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="3dabe-109">Remarks</span></span>
 
-<span data-ttu-id="396a7-110">O comprimento máximo do nome de um objeto **QueryDef** é de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="396a7-110">The maximum length for the name of a **QueryDef** object is 64 characters.</span></span>
+<span data-ttu-id="3dabe-110">O comprimento máximo do nome de um objeto **QueryDef** é de 64 caracteres.</span><span class="sxs-lookup"><span data-stu-id="3dabe-110">The maximum length for the name of a **QueryDef** object is 64 characters.</span></span>
 

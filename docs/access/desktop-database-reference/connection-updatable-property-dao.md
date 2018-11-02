@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55b1ee667347766b927636f877821f29e9455345
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ab619dbed75bbbea74732977b8f5c670df56d29
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869600"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921030"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="52382-102">Propriedade Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="52382-102">Connection.Updatable Property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="a1730-102">Propriedade Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a1730-102">Connection.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="52382-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="52382-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a1730-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1730-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="52382-p101">Retorna um valor que indica se você pode alterar o objeto DAO. **Boolean** somente leitura. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="52382-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="a1730-p101">Retorna um valor que indica se você pode alterar o objeto DAO. **Boolean** somente leitura. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a1730-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="52382-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="52382-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a1730-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a1730-106">Syntax</span></span>
 
-<span data-ttu-id="52382-107">*expressão* . Atualizável</span><span class="sxs-lookup"><span data-stu-id="52382-107">*expression* .Updatable</span></span>
+<span data-ttu-id="a1730-107">*expressão* . Atualizável</span><span class="sxs-lookup"><span data-stu-id="a1730-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="52382-108">*expressão* Uma expressão que retorna um objeto de **Conexão** .</span><span class="sxs-lookup"><span data-stu-id="52382-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="a1730-108">*expressão* Uma expressão que retorna um objeto de **Conexão** .</span><span class="sxs-lookup"><span data-stu-id="a1730-108">*expression* An expression that returns a **Connection** object.</span></span>
 

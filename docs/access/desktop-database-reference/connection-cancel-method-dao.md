@@ -6,32 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
 ms:contentKeyID: 48544509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e81c73b7dd42d437eecdc3bd8e2ef36f0ef49489
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4810bd1804433be091fc9a4b30aa9ba62f057965
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882746"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922542"
 ---
-# <a name="connectioncancel-method-dao"></a><span data-ttu-id="f0526-102">Método Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0526-102">Connection.Cancel Method (DAO)</span></span>
+# <a name="connectioncancel-method-dao"></a><span data-ttu-id="870fb-102">Método Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="870fb-102">Connection.Cancel method (DAO)</span></span>
 
-<span data-ttu-id="f0526-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0526-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="870fb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="870fb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0526-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f0526-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="870fb-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="870fb-104">Syntax</span></span>
 
-<span data-ttu-id="f0526-105">*expressão* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="f0526-105">*expression* .Cancel</span></span>
+<span data-ttu-id="870fb-105">*expressão* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="870fb-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="f0526-106">*expressão* Uma variável que representa um objeto de **Conexão** .</span><span class="sxs-lookup"><span data-stu-id="f0526-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="870fb-106">*expressão* Uma variável que representa um objeto de **Conexão** .</span><span class="sxs-lookup"><span data-stu-id="870fb-106">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f0526-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="f0526-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="870fb-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="870fb-107">Remarks</span></span>
 
-<span data-ttu-id="f0526-108">Use o método **Cancel** para terminar a execução de uma chamada de método assíncrona **Execute** ou **OpenConnection** (ou seja, o método foi chamado com a opção dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="f0526-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="f0526-109">**Cancelar** retornará um erro em tempo de execução se dbRunAsync não foi usada no método que você está tentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="f0526-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="870fb-108">Use o método **Cancel** para terminar a execução de uma chamada de método assíncrona **Execute** ou **OpenConnection** (ou seja, o método foi chamado com a opção dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="870fb-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="870fb-109">**Cancelar** retornará um erro em tempo de execução se dbRunAsync não foi usada no método que você está tentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="870fb-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 
-<span data-ttu-id="f0526-110">Ocorrerá um erro se, após uma chamada do método **Cancel**, você tentar fazer referência ao objeto que tiver sido criado por uma chamada assíncrona de **OpenConnection** (ou seja, o objeto **Connection** a partir do qual você chamou o método **Cancel**).</span><span class="sxs-lookup"><span data-stu-id="f0526-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
+<span data-ttu-id="870fb-110">Ocorrerá um erro se, após uma chamada do método **Cancel**, você tentar fazer referência ao objeto que tiver sido criado por uma chamada assíncrona de **OpenConnection** (ou seja, o objeto **Connection** a partir do qual você chamou o método **Cancel**).</span><span class="sxs-lookup"><span data-stu-id="870fb-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
 
-## <a name="example"></a><span data-ttu-id="f0526-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f0526-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="870fb-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="870fb-111">Example</span></span>
 
-<span data-ttu-id="f0526-112">Este exemplo usa o método **StillExecuting** e o método **Cancel** para abrir, de forma assíncrona, um objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="f0526-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
+<span data-ttu-id="870fb-112">Este exemplo usa o método **StillExecuting** e o método **Cancel** para abrir, de forma assíncrona, um objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="870fb-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
 
 ```vb
     Sub CancelConnectionX() 

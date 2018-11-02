@@ -10,35 +10,35 @@ f1_keywords:
 - dao360.chm1052991
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7768ec3048c14962154fa8ba54f391a9a8a10e66
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 56f0153748a6d5cc7dd8e6b15dbae93fb638a381
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887975"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927155"
 ---
-# <a name="propertyinherited-property-dao"></a><span data-ttu-id="1addf-102">Propriedade Property.Inherited (DAO)</span><span class="sxs-lookup"><span data-stu-id="1addf-102">Property.Inherited Property (DAO)</span></span>
+# <a name="propertyinherited-property-dao"></a><span data-ttu-id="7eda1-102">Propriedade Property.Inherited (DAO)</span><span class="sxs-lookup"><span data-stu-id="7eda1-102">Property.Inherited property (DAO)</span></span>
 
 
-<span data-ttu-id="1addf-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1addf-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="7eda1-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7eda1-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="1addf-104">Retorna um valor que indica se um objeto **[Property](property-object-dao.md)** foi herdado de um objeto base.</span><span class="sxs-lookup"><span data-stu-id="1addf-104">Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.</span></span>
+<span data-ttu-id="7eda1-104">Retorna um valor que indica se um objeto **[Property](property-object-dao.md)** foi herdado de um objeto base.</span><span class="sxs-lookup"><span data-stu-id="7eda1-104">Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1addf-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1addf-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7eda1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="7eda1-105">Syntax</span></span>
 
-<span data-ttu-id="1addf-106">*expressão* . Herdado</span><span class="sxs-lookup"><span data-stu-id="1addf-106">*expression* .Inherited</span></span>
+<span data-ttu-id="7eda1-106">*expressão* . Herdado</span><span class="sxs-lookup"><span data-stu-id="7eda1-106">*expression* .Inherited</span></span>
 
-<span data-ttu-id="1addf-107">*expressão* Uma variável que representa um objeto **Property** .</span><span class="sxs-lookup"><span data-stu-id="1addf-107">*expression* A variable that represents a **Property** object.</span></span>
+<span data-ttu-id="7eda1-107">*expressão* Uma variável que representa um objeto **Property** .</span><span class="sxs-lookup"><span data-stu-id="7eda1-107">*expression* A variable that represents a **Property** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1addf-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="1addf-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7eda1-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="7eda1-108">Remarks</span></span>
 
-<span data-ttu-id="1addf-109">Para objetos **Property** internos que representam propriedades predefinidas, o único valor de retorno possível é **False**.</span><span class="sxs-lookup"><span data-stu-id="1addf-109">For built-in **Property** objects that represent predefined properties, the only possible return value is **False**.</span></span>
+<span data-ttu-id="7eda1-109">Para objetos **Property** internos que representam propriedades predefinidas, o único valor de retorno possível é **False**.</span><span class="sxs-lookup"><span data-stu-id="7eda1-109">For built-in **Property** objects that represent predefined properties, the only possible return value is **False**.</span></span>
 
-<span data-ttu-id="1addf-p101">Use a propriedade **Inherited** para determinar se **Property** definido pelo usuário foi criado para o objeto ao qual se aplica ou se **Property** foi herdado de outro objeto. Por exemplo, suponha que você criou um novo **Property** para o objeto **[QueryDef](querydef-object-dao.md)** e depois abriu um objeto **[Recordset](recordset-object-dao.md)** a partir de um objeto **QueryDef**. Esse novo **Property** fará parte da coleção [**Properties**](properties-collection-dao.md) do objeto **Recordset** e sua propriedade **Inherited** será definida como **True** porque a propriedade foi criada a partir do objeto **QueryDef** e não do objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="1addf-p101">You can use the **Inherited** property to determine whether a user-defined **Property** was created for the object it applies to, or whether the **Property** was inherited from another object. For example, suppose you create a new **Property** for a **[QueryDef](querydef-object-dao.md)** object and then open a **[Recordset](recordset-object-dao.md)** object from the **QueryDef** object. This new **Property** will be part of the **Recordset** object's **[Properties](properties-collection-dao.md)** collection, and its **Inherited** property will be set to **True** because the property was created for the **QueryDef** object, not the **Recordset** object.</span></span>
+<span data-ttu-id="7eda1-p101">Use a propriedade **Inherited** para determinar se **Property** definido pelo usuário foi criado para o objeto ao qual se aplica ou se **Property** foi herdado de outro objeto. Por exemplo, suponha que você criou um novo **Property** para o objeto **[QueryDef](querydef-object-dao.md)** e depois abriu um objeto **[Recordset](recordset-object-dao.md)** a partir de um objeto **QueryDef**. Esse novo **Property** fará parte da coleção [**Properties**](properties-collection-dao.md) do objeto **Recordset** e sua propriedade **Inherited** será definida como **True** porque a propriedade foi criada a partir do objeto **QueryDef** e não do objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="7eda1-p101">You can use the **Inherited** property to determine whether a user-defined **Property** was created for the object it applies to, or whether the **Property** was inherited from another object. For example, suppose you create a new **Property** for a **[QueryDef](querydef-object-dao.md)** object and then open a **[Recordset](recordset-object-dao.md)** object from the **QueryDef** object. This new **Property** will be part of the **Recordset** object's **[Properties](properties-collection-dao.md)** collection, and its **Inherited** property will be set to **True** because the property was created for the **QueryDef** object, not the **Recordset** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1addf-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1addf-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7eda1-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7eda1-113">Example</span></span>
 
-<span data-ttu-id="1addf-114">Este exemplo usa a propriedade **Inherited** para determinar se um objeto **Property** definido pelo usuário foi criado para um **Recordset** ou para algum objeto base.</span><span class="sxs-lookup"><span data-stu-id="1addf-114">This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.</span></span>
+<span data-ttu-id="7eda1-114">Este exemplo usa a propriedade **Inherited** para determinar se um objeto **Property** definido pelo usuário foi criado para um **Recordset** ou para algum objeto base.</span><span class="sxs-lookup"><span data-stu-id="7eda1-114">This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.</span></span>
 
 ```vb 
 Sub InheritedX() 

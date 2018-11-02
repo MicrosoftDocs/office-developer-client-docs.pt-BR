@@ -6,37 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
 ms:contentKeyID: 48543478
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78610a929bd9a02c679f8e38a20f5dfcdb34ba9c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 705bd14208b3a6b07b7d5adddfc4f1fdf36928c5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882900"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924600"
 ---
-# <a name="dbenginedefaultpassword-property-dao"></a><span data-ttu-id="f11cb-102">Propriedade DBEngine.DefaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="f11cb-102">DBEngine.DefaultPassword Property (DAO)</span></span>
+# <a name="dbenginedefaultpassword-property-dao"></a><span data-ttu-id="e754c-102">Propriedade DBEngine.DefaultPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="e754c-102">DBEngine.DefaultPassword property (DAO)</span></span>
 
 
-<span data-ttu-id="f11cb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f11cb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e754c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e754c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f11cb-p101">Define a senha utilizada para criar o **Workspace** padrão quando ele é inicializado. **String** de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="f11cb-p101">Sets the password used to create the default **Workspace** when it is initialized. Read/write **String**.</span></span>
+<span data-ttu-id="e754c-p101">Define a senha utilizada para criar o **Workspace** padrão quando ele é inicializado. **String** de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e754c-p101">Sets the password used to create the default **Workspace** when it is initialized. Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f11cb-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f11cb-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e754c-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e754c-106">Syntax</span></span>
 
-<span data-ttu-id="f11cb-107">*expressão* . DefaultPassword</span><span class="sxs-lookup"><span data-stu-id="f11cb-107">*expression* .DefaultPassword</span></span>
+<span data-ttu-id="e754c-107">*expressão* . DefaultPassword</span><span class="sxs-lookup"><span data-stu-id="e754c-107">*expression* .DefaultPassword</span></span>
 
-<span data-ttu-id="f11cb-108">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="f11cb-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="e754c-108">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="e754c-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f11cb-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="f11cb-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e754c-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="e754c-109">Remarks</span></span>
 
-<span data-ttu-id="f11cb-p102">A configuração para **DefaultPassword** é um tipo de dados de cadeia de caracteres que pode conter até 20 caracteres. Ele pode conter qualquer caractere exceto ASCII 0.</span><span class="sxs-lookup"><span data-stu-id="f11cb-p102">The setting for **DefaultPassword** is a String data type that can be up to 20 characters long. It can contain any character except ASCII 0.</span></span>
+<span data-ttu-id="e754c-p102">A configuração para **DefaultPassword** é um tipo de dados de cadeia de caracteres que pode conter até 20 caracteres. Ele pode conter qualquer caractere exceto ASCII 0.</span><span class="sxs-lookup"><span data-stu-id="e754c-p102">The setting for **DefaultPassword** is a String data type that can be up to 20 characters long. It can contain any character except ASCII 0.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="f11cb-p103">[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</span><span class="sxs-lookup"><span data-stu-id="f11cb-p103">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span>
+> <span data-ttu-id="e754c-p103">[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</span><span class="sxs-lookup"><span data-stu-id="e754c-p103">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span>
 
-<span data-ttu-id="f11cb-117">Por padrão, a propriedade **DefaultUser** é definida como "admin" e a propriedade **DefaultPassword** é definida como uma sequência de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="f11cb-117">By default, the **DefaultUser** property is set to "admin" and the **DefaultPassword** property is set to a zero-length string ("").</span></span>
+<span data-ttu-id="e754c-117">Por padrão, a propriedade **DefaultUser** é definida como "admin" e a propriedade **DefaultPassword** é definida como uma sequência de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="e754c-117">By default, the **DefaultUser** property is set to "admin" and the **DefaultPassword** property is set to a zero-length string ("").</span></span>
 
-<span data-ttu-id="f11cb-p104">Normalmente, use o método **CreateWorkspace** para criar um objeto **Workspace** com um determinado nome de usuário e senha. Entretanto, para compatibilidade com versões anteriores e para sua conveniência, quando você não implementa um banco de dados seguro, o mecanismo de banco de dados do Microsoft Access cria automaticamente um objeto **Workspace** padrão se um ainda não foi aberto. Nesse caso, os valores das propriedades **DefaultUser** e **DefaultPassword** definem o usuário e a senha para o objeto **Workspace** padrão.</span><span class="sxs-lookup"><span data-stu-id="f11cb-p104">Typically, you use the **CreateWorkspace** method to create a **Workspace** object with a given user name and password. However, for backward compatibility with earlier versions and for convenience when you don't implement a secured database, the Microsoft Access database engine automatically creates a default **Workspace** object when needed if one isn't already open. In this case, the **DefaultUser** and **DefaultPassword** property values define the user and password for the default **Workspace** object.</span></span>
+<span data-ttu-id="e754c-p104">Normalmente, use o método **CreateWorkspace** para criar um objeto **Workspace** com um determinado nome de usuário e senha. Entretanto, para compatibilidade com versões anteriores e para sua conveniência, quando você não implementa um banco de dados seguro, o mecanismo de banco de dados do Microsoft Access cria automaticamente um objeto **Workspace** padrão se um ainda não foi aberto. Nesse caso, os valores das propriedades **DefaultUser** e **DefaultPassword** definem o usuário e a senha para o objeto **Workspace** padrão.</span><span class="sxs-lookup"><span data-stu-id="e754c-p104">Typically, you use the **CreateWorkspace** method to create a **Workspace** object with a given user name and password. However, for backward compatibility with earlier versions and for convenience when you don't implement a secured database, the Microsoft Access database engine automatically creates a default **Workspace** object when needed if one isn't already open. In this case, the **DefaultUser** and **DefaultPassword** property values define the user and password for the default **Workspace** object.</span></span>
 
-<span data-ttu-id="f11cb-121">Para essa propriedade ser efetivada, você deve defini-la antes de chamar quaisquer métodos DAO.</span><span class="sxs-lookup"><span data-stu-id="f11cb-121">For this property to take effect, you should set it before calling any DAO methods.</span></span>
+<span data-ttu-id="e754c-121">Para essa propriedade ser efetivada, você deve defini-la antes de chamar quaisquer métodos DAO.</span><span class="sxs-lookup"><span data-stu-id="e754c-121">For this property to take effect, you should set it before calling any DAO methods.</span></span>
 

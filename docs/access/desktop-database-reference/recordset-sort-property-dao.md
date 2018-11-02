@@ -10,45 +10,45 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cdf82bac92b06d0dc4fb251278e3d6226405439b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873205"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926259"
 ---
-# <a name="recordsetsort-property-dao"></a><span data-ttu-id="aaf9b-102">Propriedade Recordset.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="aaf9b-102">Recordset.Sort Property (DAO)</span></span>
+# <a name="recordsetsort-property-dao"></a><span data-ttu-id="c0a32-102">Propriedade Recordset.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0a32-102">Recordset.Sort property (DAO)</span></span>
 
 
-<span data-ttu-id="aaf9b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="aaf9b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c0a32-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0a32-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aaf9b-104">Define ou retorna a ordem de classificação para registros em um objeto **[Recordset](recordset-object-dao.md)** (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="aaf9b-104">Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="c0a32-104">Define ou retorna a ordem de classificação para registros em um objeto **[Recordset](recordset-object-dao.md)** (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c0a32-104">Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aaf9b-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="aaf9b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c0a32-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c0a32-105">Syntax</span></span>
 
-<span data-ttu-id="aaf9b-106">*expressão* . Classificar</span><span class="sxs-lookup"><span data-stu-id="aaf9b-106">*expression* .Sort</span></span>
+<span data-ttu-id="c0a32-106">*expressão* . Classificar</span><span class="sxs-lookup"><span data-stu-id="c0a32-106">*expression* .Sort</span></span>
 
-<span data-ttu-id="aaf9b-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="aaf9b-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="c0a32-107">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="c0a32-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="aaf9b-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="aaf9b-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c0a32-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="c0a32-108">Remarks</span></span>
 
-<span data-ttu-id="aaf9b-109">Você pode usar a propriedade **Sort** com dynaset e instantâneo – objetos **Recordset** do tipo.</span><span class="sxs-lookup"><span data-stu-id="aaf9b-109">You can use the **Sort** property with dynaset– and snapshot–type **Recordset** objects.</span></span>
+<span data-ttu-id="c0a32-109">Você pode usar a propriedade **Sort** com dynaset e instantâneo – objetos **Recordset** do tipo.</span><span class="sxs-lookup"><span data-stu-id="c0a32-109">You can use the **Sort** property with dynaset– and snapshot–type **Recordset** objects.</span></span>
 
-<span data-ttu-id="aaf9b-p101">Quando você definir essa propriedade para um objeto, ocorrerá a classificação durante a criação de um objeto **Recordset** subsequente para esse objeto. A definição da propriedade **Sort** substituirá qualquer ordem de classificação especificada para um objeto **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="aaf9b-p101">When you set this property for an object, sorting occurs when a subsequent **Recordset** object is created from that object. The **Sort** property setting overrides any sort order specified for a **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="c0a32-p101">Quando você definir essa propriedade para um objeto, ocorrerá a classificação durante a criação de um objeto **Recordset** subsequente para esse objeto. A definição da propriedade **Sort** substituirá qualquer ordem de classificação especificada para um objeto **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="c0a32-p101">When you set this property for an object, sorting occurs when a subsequent **Recordset** object is created from that object. The **Sort** property setting overrides any sort order specified for a **[QueryDef](querydef-object-dao.md)** object.</span></span>
 
-<span data-ttu-id="aaf9b-112">A ordem de classificação padrão é a ascendente (A a Z ou 0 a 100).</span><span class="sxs-lookup"><span data-stu-id="aaf9b-112">The default sort order is ascending (A to Z or 0 to 100).</span></span>
+<span data-ttu-id="c0a32-112">A ordem de classificação padrão é a ascendente (A a Z ou 0 a 100).</span><span class="sxs-lookup"><span data-stu-id="c0a32-112">The default sort order is ascending (A to Z or 0 to 100).</span></span>
 
-<span data-ttu-id="aaf9b-113">A propriedade **Sort** não se aplica à tabela – ou – tipo forward only objetos **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="aaf9b-113">The **Sort** property doesn't apply to table– or forward–only–type **Recordset** objects.</span></span> <span data-ttu-id="aaf9b-114">Para classificar um objeto **Recordset** do tipo tabela, use a propriedade **[Index](recordset-index-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="aaf9b-114">To sort a table–type **Recordset** object, use the **[Index](recordset-index-property-dao.md)** property.</span></span>
+<span data-ttu-id="c0a32-113">A propriedade **Sort** não se aplica à tabela – ou – tipo forward only objetos **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="c0a32-113">The **Sort** property doesn't apply to table– or forward–only–type **Recordset** objects.</span></span> <span data-ttu-id="c0a32-114">Para classificar um objeto **Recordset** do tipo tabela, use a propriedade **[Index](recordset-index-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="c0a32-114">To sort a table–type **Recordset** object, use the **[Index](recordset-index-property-dao.md)** property.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="aaf9b-115">[!OBSERVAçãO] Em muitos casos, é mais rápido abrir um novo objeto <STRONG>Recordset</STRONG> usando uma instrução SQL que inclui os critérios de classificação.</span><span class="sxs-lookup"><span data-stu-id="aaf9b-115">In many cases, it's faster to open a new <STRONG>Recordset</STRONG> object by using an SQL statement that includes the sorting criteria.</span></span></P>
+> <P><span data-ttu-id="c0a32-115">[!OBSERVAçãO] Em muitos casos, é mais rápido abrir um novo objeto <STRONG>Recordset</STRONG> usando uma instrução SQL que inclui os critérios de classificação.</span><span class="sxs-lookup"><span data-stu-id="c0a32-115">In many cases, it's faster to open a new <STRONG>Recordset</STRONG> object by using an SQL statement that includes the sorting criteria.</span></span></P>
 
 
 
-## <a name="example"></a><span data-ttu-id="aaf9b-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="aaf9b-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c0a32-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c0a32-116">Example</span></span>
 
-<span data-ttu-id="aaf9b-p103">Este exemplo demonstra a propriedade **Sort** pela alteração do seu valor e a criação de um novo **Recordset**. A função SortOutput será necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="aaf9b-p103">This example demonstrates the **Sort** property by changing its value and creating a new **Recordset**. The SortOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="c0a32-p103">Este exemplo demonstra a propriedade **Sort** pela alteração do seu valor e a criação de um novo **Recordset**. A função SortOutput será necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="c0a32-p103">This example demonstrates the **Sort** property by changing its value and creating a new **Recordset**. The SortOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub SortX() 
@@ -104,7 +104,7 @@ ms.locfileid: "25873205"
 
 <br/>
 
-<span data-ttu-id="aaf9b-p104">Quando você conhecer os dados a serem selecionados, geralmente, será mais eficiente criar um **Recordset** com uma instrução SQL. Este exemplo mostra como você pode criar apenas um **Recordset** e obter os mesmos resultados de um exemplo anterior.</span><span class="sxs-lookup"><span data-stu-id="aaf9b-p104">When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.</span></span>
+<span data-ttu-id="c0a32-p104">Quando você conhecer os dados a serem selecionados, geralmente, será mais eficiente criar um **Recordset** com uma instrução SQL. Este exemplo mostra como você pode criar apenas um **Recordset** e obter os mesmos resultados de um exemplo anterior.</span><span class="sxs-lookup"><span data-stu-id="c0a32-p104">When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.</span></span>
 
 ```vb
     Sub SortX2() 

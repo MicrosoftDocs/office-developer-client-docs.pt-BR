@@ -1,26 +1,22 @@
 ---
 title: Referência de objeto (ADOX) da coluna
-TOCTitle: Column Object (ADOX)
+TOCTitle: Column object (ADOX)
 ms:assetid: f35e1307-6424-414c-a170-d389b5e4dc89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250234(v=office.15)
 ms:contentKeyID: 48548669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c9dbcd19735e2494217991040b715efe8765887
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67c979bfc2aac280f4ec8738ef343abfa6c95f9a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881941"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925811"
 ---
-# <a name="column-object-adox-reference"></a><span data-ttu-id="6cbd2-102">Referência de objeto (ADOX) da coluna</span><span class="sxs-lookup"><span data-stu-id="6cbd2-102">Column Object (ADOX) Reference</span></span>
+# <a name="column-object-adox-reference"></a><span data-ttu-id="d436a-102">Referência de objeto (ADOX) da coluna</span><span class="sxs-lookup"><span data-stu-id="d436a-102">Column object (ADOX) reference</span></span>
 
+<span data-ttu-id="d436a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d436a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6cbd2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6cbd2-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="6cbd2-104">Objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6cbd2-104">Column Object (ADOX)</span></span>](column-object-adox.md)
-
-  - [<span data-ttu-id="6cbd2-105">Coluna propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6cbd2-105">Column Properties, Methods, and Events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="d436a-104">Objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d436a-104">Column object (ADOX)</span></span>](column-object-adox.md)
+- [<span data-ttu-id="d436a-105">Coluna propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d436a-105">Column properties, methods, and events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
 
