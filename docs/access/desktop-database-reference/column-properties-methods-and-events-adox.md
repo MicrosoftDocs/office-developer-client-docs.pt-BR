@@ -6,45 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
 ms:contentKeyID: 48544330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc43f9cd31890f39ac072c520f84a036c8ed431a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3fab3160ad863f83b9dadba5bce04a28abe2cf2b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919126"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945464"
 ---
-# <a name="column-properties-methods-and-events-adox"></a><span data-ttu-id="65f53-102">Coluna propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="65f53-102">Column properties, methods, and events (ADOX)</span></span>
+# <a name="column-properties-methods-and-events-adox"></a><span data-ttu-id="da467-102">Coluna propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="da467-102">Column properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="65f53-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="65f53-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="da467-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="da467-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="propertiescollections"></a><span data-ttu-id="65f53-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="65f53-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="da467-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="da467-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="65f53-105">Propriedade Attributes</span><span class="sxs-lookup"><span data-stu-id="65f53-105">Attributes Property</span></span>](attributes-property-adox.md)
+- [<span data-ttu-id="da467-105">Propriedade Attributes</span><span class="sxs-lookup"><span data-stu-id="da467-105">Attributes property</span></span>](attributes-property-adox.md)
+- [<span data-ttu-id="da467-106">Propriedade DefinedSize</span><span class="sxs-lookup"><span data-stu-id="da467-106">DefinedSize property</span></span>](definedsize-property-adox.md)
+- [<span data-ttu-id="da467-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="da467-107">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="da467-108">Propriedade NumericScale</span><span class="sxs-lookup"><span data-stu-id="da467-108">NumericScale property</span></span>](numericscale-property-adox.md)
+- [<span data-ttu-id="da467-109">Propriedade ParentCatalog</span><span class="sxs-lookup"><span data-stu-id="da467-109">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
+- [<span data-ttu-id="da467-110">Propriedade Precision</span><span class="sxs-lookup"><span data-stu-id="da467-110">Precision property</span></span>](precision-property-adox.md)
+- [<span data-ttu-id="da467-111">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="da467-111">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="da467-112">Propriedade RelatedColumn</span><span class="sxs-lookup"><span data-stu-id="da467-112">RelatedColumn property</span></span>](relatedcolumn-property-adox.md)
+- [<span data-ttu-id="da467-113">Propriedade SortOrder</span><span class="sxs-lookup"><span data-stu-id="da467-113">SortOrder property</span></span>](sortorder-property-adox.md)
+- <span data-ttu-id="da467-114">[Propriedade Type (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="da467-114">[Type property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))</span></span>
 
-- [<span data-ttu-id="65f53-106">Propriedade DefinedSize</span><span class="sxs-lookup"><span data-stu-id="65f53-106">DefinedSize Property</span></span>](definedsize-property-adox.md)
+## <a name="methods"></a><span data-ttu-id="da467-115">Métodos</span><span class="sxs-lookup"><span data-stu-id="da467-115">Methods</span></span>
 
-- [<span data-ttu-id="65f53-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="65f53-107">Name Property</span></span>](name-property-adox.md)
+<span data-ttu-id="da467-116">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="da467-116">None.</span></span>
 
-- [<span data-ttu-id="65f53-108">Propriedade NumericScale</span><span class="sxs-lookup"><span data-stu-id="65f53-108">NumericScale Property</span></span>](numericscale-property-adox.md)
+## <a name="events"></a><span data-ttu-id="da467-117">Eventos</span><span class="sxs-lookup"><span data-stu-id="da467-117">Events</span></span>
 
-- [<span data-ttu-id="65f53-109">Propriedade ParentCatalog</span><span class="sxs-lookup"><span data-stu-id="65f53-109">ParentCatalog Property</span></span>](parentcatalog-property-adox.md)
-
-- [<span data-ttu-id="65f53-110">Propriedade Precision</span><span class="sxs-lookup"><span data-stu-id="65f53-110">Precision Property</span></span>](precision-property-adox.md)
-
-- [<span data-ttu-id="65f53-111">Coleção Properties</span><span class="sxs-lookup"><span data-stu-id="65f53-111">Properties Collection</span></span>](properties-collection-ado.md)
-
-- [<span data-ttu-id="65f53-112">Propriedade RelatedColumn</span><span class="sxs-lookup"><span data-stu-id="65f53-112">RelatedColumn Property</span></span>](relatedcolumn-property-adox.md)
-
-- [<span data-ttu-id="65f53-113">Propriedade SortOrder</span><span class="sxs-lookup"><span data-stu-id="65f53-113">SortOrder Property</span></span>](sortorder-property-adox.md)
-
-- <span data-ttu-id="65f53-114">[Propriedade Type (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="65f53-114">[Type Property (Column)](https://msdn.microsoft.com/library/jj249169\(v=office.15\))</span></span>
-
-## <a name="methods"></a><span data-ttu-id="65f53-115">Métodos</span><span class="sxs-lookup"><span data-stu-id="65f53-115">Methods</span></span>
-
-<span data-ttu-id="65f53-116">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="65f53-116">None.</span></span>
-
-## <a name="events"></a><span data-ttu-id="65f53-117">Eventos</span><span class="sxs-lookup"><span data-stu-id="65f53-117">Events</span></span>
-
-<span data-ttu-id="65f53-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="65f53-118">None.</span></span>
+<span data-ttu-id="da467-118">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="da467-118">None.</span></span>
 

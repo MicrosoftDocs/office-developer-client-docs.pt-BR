@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5d22d4d5be88063524b2a55bb1703deeb173018
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13b81a2bc6b40ae8ad8904b53095164749e49847
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884622"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944785"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="bee75-102">Exemplo de modos de exibição e coleções Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="bee75-102">Views and Fields Collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="dca52-102">Exemplo das coleções Views e Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="dca52-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="bee75-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bee75-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dca52-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="dca52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bee75-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) e o objeto [Recordset](recordset-object-ado.md) para recuperar informações de campo para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bee75-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="dca52-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) e o objeto [Recordset](recordset-object-ado.md) para recuperar informações de campo para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="dca52-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

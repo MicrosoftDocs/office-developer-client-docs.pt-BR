@@ -6,34 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249218(v=office.15)
 ms:contentKeyID: 48544581
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d6e2683365af109326566acaa83a104679093d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e5e723b7a0f0659ed1ae31524f797d097db014eb
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922465"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946864"
 ---
-# <a name="indexes-collection-properties-methods-and-events-adox"></a><span data-ttu-id="f5cf0-102">Propriedades, métodos e eventos da coleção Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5cf0-102">Indexes collection properties, methods, and events (ADOX)</span></span>
+# <a name="indexes-collection-properties-methods-and-events-adox"></a><span data-ttu-id="efd14-102">Propriedades, métodos e eventos da coleção Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="efd14-102">Indexes collection properties, methods, and events (ADOX)</span></span>
 
+<span data-ttu-id="efd14-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="efd14-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f5cf0-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5cf0-103">**Applies to**: Access 2013, Office 2013</span></span>
+## <a name="properties"></a><span data-ttu-id="efd14-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="efd14-104">Properties</span></span>
 
+- [<span data-ttu-id="efd14-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="efd14-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="efd14-106">Propriedade item</span><span class="sxs-lookup"><span data-stu-id="efd14-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="properties"></a><span data-ttu-id="f5cf0-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="f5cf0-104">Properties</span></span>
+## <a name="methods"></a><span data-ttu-id="efd14-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="efd14-107">Methods</span></span>
 
-- [<span data-ttu-id="f5cf0-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="f5cf0-105">Count Property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="efd14-108">Método (índices) append</span><span class="sxs-lookup"><span data-stu-id="efd14-108">Append method (Indexes)</span></span>](append-method-adox-indexes.md)
+- [<span data-ttu-id="efd14-109">Excluir método (coleções)</span><span class="sxs-lookup"><span data-stu-id="efd14-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
+- [<span data-ttu-id="efd14-110">O método Refresh</span><span class="sxs-lookup"><span data-stu-id="efd14-110">Refresh method</span></span>](refresh-method-ado.md)
 
-- [<span data-ttu-id="f5cf0-106">Propriedade Item</span><span class="sxs-lookup"><span data-stu-id="f5cf0-106">Item Property</span></span>](item-property-ado.md)
+## <a name="events"></a><span data-ttu-id="efd14-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="efd14-111">Events</span></span>
 
-## <a name="methods"></a><span data-ttu-id="f5cf0-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="f5cf0-107">Methods</span></span>
-
-- [<span data-ttu-id="f5cf0-108">Método Append (Índices)</span><span class="sxs-lookup"><span data-stu-id="f5cf0-108">Append Method (Indexes)</span></span>](append-method-adox-indexes.md)
-
-- [<span data-ttu-id="f5cf0-109">Método Delete (Coleções)</span><span class="sxs-lookup"><span data-stu-id="f5cf0-109">Delete Method (Collections)</span></span>](delete-method-adox-collections.md)
-
-- [<span data-ttu-id="f5cf0-110">Método Refresh</span><span class="sxs-lookup"><span data-stu-id="f5cf0-110">Refresh Method</span></span>](refresh-method-ado.md)
-
-## <a name="events"></a><span data-ttu-id="f5cf0-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="f5cf0-111">Events</span></span>
-
-<span data-ttu-id="f5cf0-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="f5cf0-112">None.</span></span>
+<span data-ttu-id="efd14-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="efd14-112">None.</span></span>
 

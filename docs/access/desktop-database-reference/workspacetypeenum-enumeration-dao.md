@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
 ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a562f7ab82c3349a4a397ecb72861eed30cb20d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 65024e67110608d75012ec01382af92937451669
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870321"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947157"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="feab0-102">Enumeração WorkspaceTypeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="feab0-102">WorkspaceTypeEnum Enumeration (DAO)</span></span>
+# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="3cb66-102">Enumeração WorkspaceTypeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cb66-102">WorkspaceTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="feab0-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="feab0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cb66-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cb66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="feab0-104">Usada com o método **CreateWorkspace** para especificar o tipo de espaço de trabalho a ser criado.</span><span class="sxs-lookup"><span data-stu-id="feab0-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
+<span data-ttu-id="3cb66-104">Usada com o método **CreateWorkspace** para especificar o tipo de espaço de trabalho a ser criado.</span><span class="sxs-lookup"><span data-stu-id="3cb66-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
 
 <table>
 <colgroup>
@@ -28,16 +28,16 @@ ms.locfileid: "25870321"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="feab0-105">Nome</span><span class="sxs-lookup"><span data-stu-id="feab0-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="feab0-106">Valor</span><span class="sxs-lookup"><span data-stu-id="feab0-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="feab0-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="feab0-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="3cb66-105">Nome</span><span class="sxs-lookup"><span data-stu-id="3cb66-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="3cb66-106">Valor</span><span class="sxs-lookup"><span data-stu-id="3cb66-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="3cb66-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="3cb66-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="feab0-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="feab0-108">dbUseJet</span></span></p></td>
-<td><p><span data-ttu-id="feab0-109">2</span><span class="sxs-lookup"><span data-stu-id="feab0-109">2</span></span></p></td>
-<td><p><span data-ttu-id="feab0-110">Cria um espaço de trabalho do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="feab0-110">Create a Microsoft Access workspace.</span></span></p></td>
+<td><p><span data-ttu-id="3cb66-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="3cb66-108">dbUseJet</span></span></p></td>
+<td><p><span data-ttu-id="3cb66-109">2</span><span class="sxs-lookup"><span data-stu-id="3cb66-109">2</span></span></p></td>
+<td><p><span data-ttu-id="3cb66-110">Cria um espaço de trabalho do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="3cb66-110">Create a Microsoft Access workspace.</span></span></p></td>
 </tr>
 </tbody>
 </table>

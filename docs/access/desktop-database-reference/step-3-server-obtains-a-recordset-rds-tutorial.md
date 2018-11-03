@@ -6,21 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250282(v=office.15)
 ms:contentKeyID: 48548856
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9f3299892118d044bfcc36f3fa28e4e25eaed9b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ddd306e95ccf9ed68848b516c6d23d45286edf63
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881129"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943833"
 ---
-# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a><span data-ttu-id="1ac88-102">Etapa 3: O servidor obtém um conjunto de registros (Tutorial do RDS)</span><span class="sxs-lookup"><span data-stu-id="1ac88-102">Step 3: Server Obtains a Recordset (RDS Tutorial)</span></span>
+# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a><span data-ttu-id="75ce3-102">Etapa 3: O servidor obtém um Recordset (Tutorial RDS)</span><span class="sxs-lookup"><span data-stu-id="75ce3-102">Step 3: Server obtains a Recordset (RDS Tutorial)</span></span>
 
+<span data-ttu-id="75ce3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="75ce3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1ac88-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ac88-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="75ce3-p101">O programa do servidor usa a sequência de conexão e o texto de comando para consultar a fonte de dados para as linhas desejadas. O ADO geralmente é usado para recuperar esse **Recordset**, embora outras interfaces de acesso a dados da Microsoft, como o OLE DB, podem ser usadas.</span><span class="sxs-lookup"><span data-stu-id="75ce3-p101">The server program uses the connect string and command text to query the data source for the desired rows. ADO is typically used to retrieve this **Recordset**, although other Microsoft data access interfaces, such as OLE DB, could be used.</span></span>
 
-<span data-ttu-id="1ac88-p101">O programa do servidor usa a sequência de conexão e o texto de comando para consultar a fonte de dados para as linhas desejadas. O ADO geralmente é usado para recuperar esse **Recordset**, embora outras interfaces de acesso a dados da Microsoft, como o OLE DB, podem ser usadas.</span><span class="sxs-lookup"><span data-stu-id="1ac88-p101">The server program uses the connect string and command text to query the data source for the desired rows. ADO is typically used to retrieve this **Recordset**, although other Microsoft data access interfaces, such as OLE DB, could be used.</span></span>
-
-<span data-ttu-id="1ac88-106">Um programa de servidor personalizado pode parecer com:</span><span class="sxs-lookup"><span data-stu-id="1ac88-106">A custom server program might look like this:</span></span>
+<span data-ttu-id="75ce3-106">Um programa de servidor personalizado pode parecer com:</span><span class="sxs-lookup"><span data-stu-id="75ce3-106">A custom server program might look like this:</span></span>
 
 ```vb 
  
