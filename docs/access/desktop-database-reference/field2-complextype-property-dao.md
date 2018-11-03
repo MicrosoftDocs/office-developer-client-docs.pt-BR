@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd1d48926440ac47a204becfbb4c68c5a827d74f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 588019a058f44c53967370f609ae10dda5737d59
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927561"
+ms.locfileid: "25936242"
 ---
-# <a name="field2complextype-property-dao"></a><span data-ttu-id="ceb3d-102">Propriedade Field2.complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="ceb3d-102">Field2.ComplexType property (DAO)</span></span>
+# <a name="field2complextype-property-dao"></a><span data-ttu-id="d87ce-102">Propriedade Field2.complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="d87ce-102">Field2.ComplexType property (DAO)</span></span>
 
 
-<span data-ttu-id="ceb3d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ceb3d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d87ce-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d87ce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ceb3d-p101">Retorna um objeto **[ComplexType](complextype-object-dao.md)** que representa um campo de vários valores. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="ceb3d-p101">Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field. Read-only.</span></span>
+<span data-ttu-id="d87ce-p101">Retorna um objeto **[ComplexType](complextype-object-dao.md)** que representa um campo de vários valores. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="d87ce-p101">Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field. Read-only.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="ceb3d-106">Informações da versão</span><span class="sxs-lookup"><span data-stu-id="ceb3d-106">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="d87ce-106">Version information</span><span class="sxs-lookup"><span data-stu-id="d87ce-106">Version information</span></span>
 
-<span data-ttu-id="ceb3d-107">Version Added: Access 2007</span><span class="sxs-lookup"><span data-stu-id="ceb3d-107">Version Added: Access 2007</span></span>
+<span data-ttu-id="d87ce-107">Versão adicionada: Access 2007</span><span class="sxs-lookup"><span data-stu-id="d87ce-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ceb3d-108">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ceb3d-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d87ce-108">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d87ce-108">Syntax</span></span>
 
-<span data-ttu-id="ceb3d-109">*expressão* . ComplexType</span><span class="sxs-lookup"><span data-stu-id="ceb3d-109">*expression* .ComplexType</span></span>
+<span data-ttu-id="d87ce-109">*expressão* . ComplexType</span><span class="sxs-lookup"><span data-stu-id="d87ce-109">*expression* .ComplexType</span></span>
 
-<span data-ttu-id="ceb3d-110">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="ceb3d-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="d87ce-110">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="d87ce-110">*expression* A variable that represents a **Field2** object.</span></span>
 

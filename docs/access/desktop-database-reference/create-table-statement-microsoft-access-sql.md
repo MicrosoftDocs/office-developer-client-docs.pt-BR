@@ -10,27 +10,27 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c143e9121bd86b17856fd0e0998d2af0adf9dec6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4beb013b09ce136d6ffa7558225e01fae80da645
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880905"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937089"
 ---
-# <a name="create-table-statement-microsoft-access-sql"></a><span data-ttu-id="9356d-102">Instrução CREATE TABLE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="9356d-102">CREATE TABLE statement (Microsoft Access SQL)</span></span>
+# <a name="create-table-statement-microsoft-access-sql"></a><span data-ttu-id="ffac3-102">Instrução CREATE TABLE (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ffac3-102">CREATE TABLE statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="9356d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9356d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffac3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffac3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9356d-104">Cria uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="9356d-104">Creates a new table.</span></span>
+<span data-ttu-id="ffac3-104">Cria uma nova tabela.</span><span class="sxs-lookup"><span data-stu-id="ffac3-104">Creates a new table.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="9356d-105">[!OBSERVAçãO] O mecanismo do banco de dados do Microsoft Access não suporta o uso da instrução CREATE TABLE ou de quaisquer das instruções DDL com mecanismos de bancos de dados que não sejam do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9356d-105">The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases.</span></span> <span data-ttu-id="9356d-106">Use os métodos **Create DAO** .</span><span class="sxs-lookup"><span data-stu-id="9356d-106">Use the **DAO Create** methods instead.</span></span>
+> <span data-ttu-id="ffac3-105">[!OBSERVAçãO] O mecanismo do banco de dados do Microsoft Access não suporta o uso da instrução CREATE TABLE ou de quaisquer das instruções DDL com mecanismos de bancos de dados que não sejam do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="ffac3-105">The Microsoft Access database engine does not support the use of CREATE TABLE, or any of the DDL statements, with non-Microsoft Access database engine databases.</span></span> <span data-ttu-id="ffac3-106">Use os métodos DAO **criar** .</span><span class="sxs-lookup"><span data-stu-id="ffac3-106">Use the DAO **Create** methods instead.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9356d-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="9356d-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ffac3-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ffac3-107">Syntax</span></span>
 
-<span data-ttu-id="9356d-108">CRIAR \[temporário\] tabela *tabela* (*tipo field1* \[(*tamanho*)\] \[NOT NULL\] \[WITH COMPRESSION | COM COMPOSIÇÃO\] \[ *index1* \] \[, *field2* *tipo* \[(*tamanho*)\] \[NOT NULL\] \[ *índice 2* \] \[,... \] \] \[, Restrição *multifieldindex* \[,... \]\])</span><span class="sxs-lookup"><span data-stu-id="9356d-108">CREATE \[TEMPORARY\] TABLE *table* (*field1 type* \[(*size*)\] \[NOT NULL\] \[WITH COMPRESSION | WITH COMP\] \[*index1*\] \[, *field2* *type* \[(*size*)\] \[NOT NULL\] \[*index2*\] \[, …\]\] \[, CONSTRAINT *multifieldindex* \[, …\]\])</span></span>
+<span data-ttu-id="ffac3-108">CRIAR \[temporário\] tabela *tabela* (*tipo field1* \[(*tamanho*)\] \[NOT NULL\] \[WITH COMPRESSION | COM COMPOSIÇÃO\] \[ *index1* \] \[, *field2* *tipo* \[(*tamanho*)\] \[NOT NULL\] \[ *índice 2* \] \[,... \] \] \[, Restrição *multifieldindex* \[,... \]\])</span><span class="sxs-lookup"><span data-stu-id="ffac3-108">CREATE \[TEMPORARY\] TABLE *table* (*field1 type* \[(*size*)\] \[NOT NULL\] \[WITH COMPRESSION | WITH COMP\] \[*index1*\] \[, *field2* *type* \[(*size*)\] \[NOT NULL\] \[*index2*\] \[, …\]\] \[, CONSTRAINT *multifieldindex* \[, …\]\])</span></span>
 
-<span data-ttu-id="9356d-109">A instrução CREATE TABLE contém as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="9356d-109">The CREATE TABLE statement has these parts:</span></span>
+<span data-ttu-id="ffac3-109">A instrução CREATE TABLE contém as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="ffac3-109">The CREATE TABLE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,58 +39,58 @@ ms.locfileid: "25880905"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9356d-110">Parte</span><span class="sxs-lookup"><span data-stu-id="9356d-110">Part</span></span></p></th>
-<th><p><span data-ttu-id="9356d-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="9356d-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="ffac3-110">Parte</span><span class="sxs-lookup"><span data-stu-id="ffac3-110">Part</span></span></p></th>
+<th><p><span data-ttu-id="ffac3-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="ffac3-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9356d-112"><em>tabela</em></span><span class="sxs-lookup"><span data-stu-id="9356d-112"><em>table</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-113">O nome da tabela a ser criado.</span><span class="sxs-lookup"><span data-stu-id="9356d-113">The name of the table to be created.</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-112"><em>tabela</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-112"><em>table</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-113">O nome da tabela a ser criado.</span><span class="sxs-lookup"><span data-stu-id="ffac3-113">The name of the table to be created.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9356d-114"><em>campo1</em>, <em>campo2</em></span><span class="sxs-lookup"><span data-stu-id="9356d-114"><em>field1</em>, <em>field2</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-p102">O nome do campo ou dos campos a serem criados na nova tabela. É necessário criar pelo menos um campo.</span><span class="sxs-lookup"><span data-stu-id="9356d-p102">The name of field or fields to be created in the new table. You must create at least one field.</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-114"><em>campo1</em>, <em>campo2</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-114"><em>field1</em>, <em>field2</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-p102">O nome do campo ou dos campos a serem criados na nova tabela. É necessário criar pelo menos um campo.</span><span class="sxs-lookup"><span data-stu-id="ffac3-p102">The name of field or fields to be created in the new table. You must create at least one field.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9356d-117"><em>tipo</em></span><span class="sxs-lookup"><span data-stu-id="9356d-117"><em>type</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-118">O tipo de dados do <em>campo</em> na nova tabela.</span><span class="sxs-lookup"><span data-stu-id="9356d-118">The data type of <em>field</em> in the new table.</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-117"><em>tipo</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-117"><em>type</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-118">O tipo de dados do <em>campo</em> na nova tabela.</span><span class="sxs-lookup"><span data-stu-id="ffac3-118">The data type of <em>field</em> in the new table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9356d-119"><em>tamanho</em></span><span class="sxs-lookup"><span data-stu-id="9356d-119"><em>size</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-120">O tamanho do campo em caracteres (somente campos de texto e campos binários).</span><span class="sxs-lookup"><span data-stu-id="9356d-120">The field size in characters (Text and Binary fields only).</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-119"><em>tamanho</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-119"><em>size</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-120">O tamanho do campo em caracteres (somente campos de texto e campos binários).</span><span class="sxs-lookup"><span data-stu-id="ffac3-120">The field size in characters (Text and Binary fields only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9356d-121"><em>índice1</em>, <em>índice2</em></span><span class="sxs-lookup"><span data-stu-id="9356d-121"><em>index1</em>, <em>index2</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-122">Uma cláusula CONSTRAINT definindo um índice de campo único.</span><span class="sxs-lookup"><span data-stu-id="9356d-122">A CONSTRAINT clause defining a single-field index.</span></span> <span data-ttu-id="9356d-123">Para obter mais informações sobre como criar este índice, consulte <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</span><span class="sxs-lookup"><span data-stu-id="9356d-123">For more information about how to create this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-121"><em>índice1</em>, <em>índice2</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-121"><em>index1</em>, <em>index2</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-122">Uma cláusula CONSTRAINT definindo um índice de campo único.</span><span class="sxs-lookup"><span data-stu-id="ffac3-122">A CONSTRAINT clause defining a single-field index.</span></span> <span data-ttu-id="ffac3-123">Para obter mais informações sobre como criar este índice, consulte <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</span><span class="sxs-lookup"><span data-stu-id="ffac3-123">For more information about how to create this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9356d-124"><em>índicecomváriasids</em></span><span class="sxs-lookup"><span data-stu-id="9356d-124"><em>multifieldindex</em></span></span></p></td>
-<td><p><span data-ttu-id="9356d-125">Uma cláusula CONSTRAINT definindo um índice de campos múltiplos.</span><span class="sxs-lookup"><span data-stu-id="9356d-125">A CONSTRAINT clause defining a multiple-field index.</span></span> <span data-ttu-id="9356d-126">Para obter mais informações sobre como criar este índice, consulte <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</span><span class="sxs-lookup"><span data-stu-id="9356d-126">For more information about how to create this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</span></span></p></td>
+<td><p><span data-ttu-id="ffac3-124"><em>índicecomváriasids</em></span><span class="sxs-lookup"><span data-stu-id="ffac3-124"><em>multifieldindex</em></span></span></p></td>
+<td><p><span data-ttu-id="ffac3-125">Uma cláusula CONSTRAINT definindo um índice de campos múltiplos.</span><span class="sxs-lookup"><span data-stu-id="ffac3-125">A CONSTRAINT clause defining a multiple-field index.</span></span> <span data-ttu-id="ffac3-126">Para obter mais informações sobre como criar este índice, consulte <a href="constraint-clause-microsoft-access-sql.md">cláusula CONSTRAINT</a>.</span><span class="sxs-lookup"><span data-stu-id="ffac3-126">For more information about how to create this index, see <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT clause</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="9356d-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="9356d-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ffac3-127">Comentários</span><span class="sxs-lookup"><span data-stu-id="ffac3-127">Remarks</span></span>
 
-<span data-ttu-id="9356d-128">Utilize a instrução CREATE TABLE para definir uma nova tabela e seus campos, além das restrições de campo.</span><span class="sxs-lookup"><span data-stu-id="9356d-128">Use the CREATE TABLE statement to define a new table and its fields and field constraints.</span></span> <span data-ttu-id="9356d-129">Se não NULL for especificado para um campo, novos registros deverão ter dados válidos nesse campo.</span><span class="sxs-lookup"><span data-stu-id="9356d-129">If NOT NULL is specified for a field, new records are required to have valid data in that field.</span></span>
+<span data-ttu-id="ffac3-128">Utilize a instrução CREATE TABLE para definir uma nova tabela e seus campos, além das restrições de campo.</span><span class="sxs-lookup"><span data-stu-id="ffac3-128">Use the CREATE TABLE statement to define a new table and its fields and field constraints.</span></span> <span data-ttu-id="ffac3-129">Se não NULL for especificado para um campo, novos registros deverão ter dados válidos nesse campo.</span><span class="sxs-lookup"><span data-stu-id="ffac3-129">If NOT NULL is specified for a field, new records are required to have valid data in that field.</span></span>
 
-<span data-ttu-id="9356d-p106">Uma cláusula CONSTRAINT estabelece várias restrições sobre um campo e pode ser usada para estabelecer a chave primária. É possível também utilizar a instrução [CREATE INDEX](create-index-statement-microsoft-access-sql.md) para criar uma chave primária ou índices extras em tabelas existentes.</span><span class="sxs-lookup"><span data-stu-id="9356d-p106">A CONSTRAINT clause establishes various restrictions on a field, and can be used to establish the primary key. You can also use the [CREATE INDEX](create-index-statement-microsoft-access-sql.md) statement to create a primary key or additional indexes on existing tables.</span></span>
+<span data-ttu-id="ffac3-p106">Uma cláusula CONSTRAINT estabelece várias restrições sobre um campo e pode ser usada para estabelecer a chave primária. É possível também utilizar a instrução [CREATE INDEX](create-index-statement-microsoft-access-sql.md) para criar uma chave primária ou índices extras em tabelas existentes.</span><span class="sxs-lookup"><span data-stu-id="ffac3-p106">A CONSTRAINT clause establishes various restrictions on a field, and can be used to establish the primary key. You can also use the [CREATE INDEX](create-index-statement-microsoft-access-sql.md) statement to create a primary key or additional indexes on existing tables.</span></span>
 
-<span data-ttu-id="9356d-p107">Você poderá usar NOT NULL em um campo único ou dentro de uma cláusula CONSTRAINT nomeada, que se aplica a um campo único ou a um campo múltiplo. No entanto, é possível aplicar a restrição NOT NULL a um campo somente uma vez. A tentativa de aplicar esta restrição mais de uma vez resultará em um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="9356d-p107">You can use NOT NULL on a single field or within a named CONSTRAINT clause that applies to either a single field or to a multiple-field named CONSTRAINT. However, you can apply the NOT NULL restriction only once to a field. Attempting to apply this restriction more than once results in a run-time error.</span></span>
+<span data-ttu-id="ffac3-p107">Você poderá usar NOT NULL em um campo único ou dentro de uma cláusula CONSTRAINT nomeada, que se aplica a um campo único ou a um campo múltiplo. No entanto, é possível aplicar a restrição NOT NULL a um campo somente uma vez. A tentativa de aplicar esta restrição mais de uma vez resultará em um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="ffac3-p107">You can use NOT NULL on a single field or within a named CONSTRAINT clause that applies to either a single field or to a multiple-field named CONSTRAINT. However, you can apply the NOT NULL restriction only once to a field. Attempting to apply this restriction more than once results in a run-time error.</span></span>
 
-<span data-ttu-id="9356d-135">Quando uma tabela temporária é criada, ele fica visível somente dentro da sessão no qual ele foi criado.</span><span class="sxs-lookup"><span data-stu-id="9356d-135">When a TEMPORARY table is created, it is visible only within the session in which it was created.</span></span> <span data-ttu-id="9356d-136">Ela será excluída automaticamente, ao encerrar a sessão.</span><span class="sxs-lookup"><span data-stu-id="9356d-136">It is automatically deleted when the session is terminated.</span></span> <span data-ttu-id="9356d-137">Essas tabelas podem ser acessadas por mais de um usuário.</span><span class="sxs-lookup"><span data-stu-id="9356d-137">Temporary tables can be accessed by more than one user.</span></span>
+<span data-ttu-id="ffac3-135">Quando uma tabela temporária é criada, ele fica visível somente dentro da sessão no qual ele foi criado.</span><span class="sxs-lookup"><span data-stu-id="ffac3-135">When a TEMPORARY table is created, it is visible only within the session in which it was created.</span></span> <span data-ttu-id="ffac3-136">Ela será excluída automaticamente, ao encerrar a sessão.</span><span class="sxs-lookup"><span data-stu-id="ffac3-136">It is automatically deleted when the session is terminated.</span></span> <span data-ttu-id="ffac3-137">Essas tabelas podem ser acessadas por mais de um usuário.</span><span class="sxs-lookup"><span data-stu-id="ffac3-137">Temporary tables can be accessed by more than one user.</span></span>
 
-<span data-ttu-id="9356d-138">O atributo WITH COMPRESSION pode ser utilizado com os tipos de dados Caractere e Memorando (também conhecido como Texto) e seus sinônimos.</span><span class="sxs-lookup"><span data-stu-id="9356d-138">The WITH COMPRESSION attribute can be used only with the CHARACTER and MEMO (also known as TEXT) data types and their synonyms.</span></span>
+<span data-ttu-id="ffac3-138">O atributo WITH COMPRESSION pode ser utilizado com os tipos de dados Caractere e Memorando (também conhecido como Texto) e seus sinônimos.</span><span class="sxs-lookup"><span data-stu-id="ffac3-138">The WITH COMPRESSION attribute can be used only with the CHARACTER and MEMO (also known as TEXT) data types and their synonyms.</span></span>
 
-<span data-ttu-id="9356d-139">O atributo WITH COMPRESSION foi adicionado às colunas Caracteres por causa da alteração para o formato de representação de caracteres Unicode.</span><span class="sxs-lookup"><span data-stu-id="9356d-139">The WITH COMPRESSION attribute was added for CHARACTER columns because of the change to the Unicode character representation format.</span></span> <span data-ttu-id="9356d-140">Os caracteres Unicode exigem dois bytes uniformemente para cada caractere.</span><span class="sxs-lookup"><span data-stu-id="9356d-140">Unicode characters uniformly require two bytes for each character.</span></span> <span data-ttu-id="9356d-141">Bancos de dados Microsoft Jet existentes que contêm predominantemente dados de caracteres, isso pode significar que o arquivo de banco de dados quase dupla de tamanho ao ser convertido para o formato de mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9356d-141">For existing Microsoft Jet databases that contain predominately character data, this could mean that the database file would nearly double in size when converted to the Microsoft Access database engine format.</span></span> <span data-ttu-id="9356d-142">No entanto, representação Unicode de muitos conjuntos de caracteres, aqueles anteriormente definidos como Byte único caractere define (SBCS), pode facilmente ser compactada para um único byte.</span><span class="sxs-lookup"><span data-stu-id="9356d-142">However, Unicode representation of many character sets, those formerly denoted as Single-Byte Character Sets (SBCS), can easily be compressed to a single byte.</span></span> <span data-ttu-id="9356d-143">Se definir uma coluna Caractere com esse atributo, os dados serão automaticamente compactados, à medida que forem armazenados e descompactados, ao serem resgatados de uma coluna.</span><span class="sxs-lookup"><span data-stu-id="9356d-143">If you define a CHARACTER column with this attribute, data will automatically be compressed as it is stored and uncompressed when retrieved from the column.</span></span>
+<span data-ttu-id="ffac3-139">O atributo WITH COMPRESSION foi adicionado às colunas Caracteres por causa da alteração para o formato de representação de caracteres Unicode.</span><span class="sxs-lookup"><span data-stu-id="ffac3-139">The WITH COMPRESSION attribute was added for CHARACTER columns because of the change to the Unicode character representation format.</span></span> <span data-ttu-id="ffac3-140">Os caracteres Unicode exigem dois bytes uniformemente para cada caractere.</span><span class="sxs-lookup"><span data-stu-id="ffac3-140">Unicode characters uniformly require two bytes for each character.</span></span> <span data-ttu-id="ffac3-141">Bancos de dados Microsoft Jet existentes que contêm predominantemente dados de caracteres, isso pode significar que o arquivo de banco de dados quase dupla de tamanho ao ser convertido para o formato de mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="ffac3-141">For existing Microsoft Jet databases that contain predominately character data, this could mean that the database file would nearly double in size when converted to the Microsoft Access database engine format.</span></span> <span data-ttu-id="ffac3-142">No entanto, representação Unicode de muitos conjuntos de caracteres, aqueles anteriormente definidos como Byte único caractere define (SBCS), pode facilmente ser compactada para um único byte.</span><span class="sxs-lookup"><span data-stu-id="ffac3-142">However, Unicode representation of many character sets, those formerly denoted as Single-Byte Character Sets (SBCS), can easily be compressed to a single byte.</span></span> <span data-ttu-id="ffac3-143">Se definir uma coluna Caractere com esse atributo, os dados serão automaticamente compactados, à medida que forem armazenados e descompactados, ao serem resgatados de uma coluna.</span><span class="sxs-lookup"><span data-stu-id="ffac3-143">If you define a CHARACTER column with this attribute, data will automatically be compressed as it is stored and uncompressed when retrieved from the column.</span></span>
 
-<span data-ttu-id="9356d-p110">As colunas Memorando também podem ser definidas para armazenar dados em formato compactado. No entanto, existe uma limitação. Somente as instâncias de colunas Memorando que tiverem 4096 bytes ou menos serão compactadas. Todas as outras instâncias de colunas Memorando permanecerão descompactadas. Isso significa que, dentro de uma determinada tabela, para uma determinada coluna Memorando, alguns dados podem ser compactados e outros não.</span><span class="sxs-lookup"><span data-stu-id="9356d-p110">MEMO columns can also be defined to store data in a compressed format. However, there is a limitation. Only instances of MEMO columns that, when compressed, will fit within 4096 bytes or less, will be compressed. All other instances of MEMO columns will remain uncompressed. This means that within a given table, for a given MEMO column, some data may be compressed and some data may not be compressed.</span></span>
+<span data-ttu-id="ffac3-p110">As colunas Memorando também podem ser definidas para armazenar dados em formato compactado. No entanto, existe uma limitação. Somente as instâncias de colunas Memorando que tiverem 4096 bytes ou menos serão compactadas. Todas as outras instâncias de colunas Memorando permanecerão descompactadas. Isso significa que, dentro de uma determinada tabela, para uma determinada coluna Memorando, alguns dados podem ser compactados e outros não.</span><span class="sxs-lookup"><span data-stu-id="ffac3-p110">MEMO columns can also be defined to store data in a compressed format. However, there is a limitation. Only instances of MEMO columns that, when compressed, will fit within 4096 bytes or less, will be compressed. All other instances of MEMO columns will remain uncompressed. This means that within a given table, for a given MEMO column, some data may be compressed and some data may not be compressed.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9356d-149">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9356d-149">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ffac3-149">Exemplo</span><span class="sxs-lookup"><span data-stu-id="ffac3-149">Example</span></span>
 
-<span data-ttu-id="9356d-150">Este exemplo cria uma nova tabela chamada ThisTable com dois campos de texto.</span><span class="sxs-lookup"><span data-stu-id="9356d-150">This example creates a new table called ThisTable with two text fields.</span></span>
+<span data-ttu-id="ffac3-150">Este exemplo cria uma nova tabela chamada ThisTable com dois campos de texto.</span><span class="sxs-lookup"><span data-stu-id="ffac3-150">This example creates a new table called ThisTable with two text fields.</span></span>
 
 ```vb
     Sub CreateTableX1() 
@@ -112,7 +112,7 @@ ms.locfileid: "25880905"
 
 <br/>
 
-<span data-ttu-id="9356d-151">Este exemplo cria uma nova tabela chamada Mytable com dois campos de texto, um campo Data/Hora e um índice exclusivo composto por todos os três campos.</span><span class="sxs-lookup"><span data-stu-id="9356d-151">This example creates a new table called MyTable with two text fields, a Date/Time field, and a unique index made up of all three fields.</span></span>
+<span data-ttu-id="ffac3-151">Este exemplo cria uma nova tabela chamada Mytable com dois campos de texto, um campo Data/Hora e um índice exclusivo composto por todos os três campos.</span><span class="sxs-lookup"><span data-stu-id="ffac3-151">This example creates a new table called MyTable with two text fields, a Date/Time field, and a unique index made up of all three fields.</span></span>
 
 ```vb
     Sub CreateTableX2() 
@@ -139,7 +139,7 @@ ms.locfileid: "25880905"
 
 <br/>
 
-<span data-ttu-id="9356d-p111">Este exemplo cria uma nova tabela com dois campos de texto e um campo **Inteiro**.O campo CPF é a chave primária.</span><span class="sxs-lookup"><span data-stu-id="9356d-p111">This example creates a new table with two text fields and an **Integer** field. The SSN field is the primary key.</span></span>
+<span data-ttu-id="ffac3-p111">Este exemplo cria uma nova tabela com dois campos de texto e um campo **Inteiro**.O campo CPF é a chave primária.</span><span class="sxs-lookup"><span data-stu-id="ffac3-p111">This example creates a new table with two text fields and an **Integer** field. The SSN field is the primary key.</span></span>
 
 ```vb
     Sub CreateTableX3() 

@@ -6,49 +6,49 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a536c0dc870d4dd8c0efa940918032d98bd6813
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f47b3ca15e51211a8593c5e177f53507128b2f76
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922507"
+ms.locfileid: "25936578"
 ---
-# <a name="connections-collection-dao"></a><span data-ttu-id="8576f-102">Coleção Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="8576f-102">Connections collection (DAO)</span></span>
+# <a name="connections-collection-dao"></a><span data-ttu-id="1daf5-102">Coleção Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="1daf5-102">Connections collection (DAO)</span></span>
 
 
-<span data-ttu-id="8576f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="8576f-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-> [!NOTE]
-> <span data-ttu-id="8576f-p101">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="8576f-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-
-
-<span data-ttu-id="8576f-p102">Uma coleção **Connections** contém os objetos **Connection** atuais de um objeto **Workspace**. (espaços de trabalho do ODBCDirect apenas).</span><span class="sxs-lookup"><span data-stu-id="8576f-p102">A **Connections** collection contains the current **Connection** objects of a **Workspace** object. (ODBCDirect workspaces only).</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="8576f-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="8576f-108">Remarks</span></span>
-
-<span data-ttu-id="8576f-p103">Quando você abre um objeto **Connection**, ele é automaticamente acrescentado à coleção **Connections** do **Workspace**. Quando você fecha um objeto **Connection** com o método **[Close](connection-close-method-dao.md)**, ele é removido da coleção **Connections**. Você deve fechar todos os objetos **[Recordset](recordset-object-dao.md)** abertos no objeto **Connection** antes de fechá-lo.</span><span class="sxs-lookup"><span data-stu-id="8576f-p103">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**. When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection. You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
-
-<span data-ttu-id="8576f-p104">Quando você abre um objeto **Connection**, um objeto **[Database](database-object-dao.md)** correspondente é criado e acrescentado à coleção **[Databases](databases-collection-dao.md)** no mesmo **Workspace** e vice-versa. Da mesma forma, quando você fecha o objeto **Connection**, o **Database** correspondente é excluído da coleção **Databases** e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="8576f-p104">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa. Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
-
-<span data-ttu-id="8576f-p105">A configuração da propriedade **Name** de um objeto **Connection** é uma sequência de caracteres que especifica o caminho do arquivo do banco de dados. Para fazer referência a um objeto **Connection** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="8576f-p105">The **Name** property setting of a **Connection** is a string that specifies the path of the database file. To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-  - <span data-ttu-id="8576f-116">**Connections**(0)</span><span class="sxs-lookup"><span data-stu-id="8576f-116">**Connections**(0)</span></span>
-
-  - <span data-ttu-id="8576f-117">**Conexões** ("*nome*")</span><span class="sxs-lookup"><span data-stu-id="8576f-117">**Connections**("*name*")</span></span>
-
-  - <span data-ttu-id="8576f-118">**Conexões**\!\[*nome*\]</span><span class="sxs-lookup"><span data-stu-id="8576f-118">**Connections**\!\[*name*\]</span></span>
+<span data-ttu-id="1daf5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1daf5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="8576f-p106">[!OBSERVAçãO] Você pode abrir a mesma fonte de dados mais de uma vez, criando nomes duplicados na coleção **Connections**. Você deve atribuir objetos **Connection** a variáveis de objeto e fazer referência a eles por nome de variável.</span><span class="sxs-lookup"><span data-stu-id="8576f-p106">You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="1daf5-p101">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="1daf5-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="8576f-121">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8576f-121">Example</span></span>
+<span data-ttu-id="1daf5-p102">Uma coleção **Connections** contém os objetos **Connection** atuais de um objeto **Workspace**. (espaços de trabalho do ODBCDirect apenas).</span><span class="sxs-lookup"><span data-stu-id="1daf5-p102">A **Connections** collection contains the current **Connection** objects of a **Workspace** object. (ODBCDirect workspaces only).</span></span>
 
-<span data-ttu-id="8576f-122">Este exemplo demonstra o objeto **Connection** e a coleção **Connections** por meio da abertura de um objeto **Database** e dois objetos **Connection** do ODBCDirect e da listagem das propriedades disponíveis para cada objeto.</span><span class="sxs-lookup"><span data-stu-id="8576f-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
+## <a name="remarks"></a><span data-ttu-id="1daf5-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="1daf5-108">Remarks</span></span>
+
+<span data-ttu-id="1daf5-p103">Quando você abre um objeto **Connection**, ele é automaticamente acrescentado à coleção **Connections** do **Workspace**. Quando você fecha um objeto **Connection** com o método **[Close](connection-close-method-dao.md)**, ele é removido da coleção **Connections**. Você deve fechar todos os objetos **[Recordset](recordset-object-dao.md)** abertos no objeto **Connection** antes de fechá-lo.</span><span class="sxs-lookup"><span data-stu-id="1daf5-p103">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**. When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection. You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
+
+<span data-ttu-id="1daf5-p104">Quando você abre um objeto **Connection**, um objeto **[Database](database-object-dao.md)** correspondente é criado e acrescentado à coleção **[Databases](databases-collection-dao.md)** no mesmo **Workspace** e vice-versa. Da mesma forma, quando você fecha o objeto **Connection**, o **Database** correspondente é excluído da coleção **Databases** e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="1daf5-p104">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa. Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
+
+<span data-ttu-id="1daf5-p105">A configuração da propriedade **Name** de um objeto **Connection** é uma sequência de caracteres que especifica o caminho do arquivo do banco de dados. Para fazer referência a um objeto **Connection** em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:</span><span class="sxs-lookup"><span data-stu-id="1daf5-p105">The **Name** property setting of a **Connection** is a string that specifies the path of the database file. To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+
+  - <span data-ttu-id="1daf5-116">**Connections**(0)</span><span class="sxs-lookup"><span data-stu-id="1daf5-116">**Connections**(0)</span></span>
+
+  - <span data-ttu-id="1daf5-117">**Conexões** ("*nome*")</span><span class="sxs-lookup"><span data-stu-id="1daf5-117">**Connections**("*name*")</span></span>
+
+  - <span data-ttu-id="1daf5-118">**Conexões**\!\[*nome*\]</span><span class="sxs-lookup"><span data-stu-id="1daf5-118">**Connections**\!\[*name*\]</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="1daf5-p106">[!OBSERVAçãO] Você pode abrir a mesma fonte de dados mais de uma vez, criando nomes duplicados na coleção **Connections**. Você deve atribuir objetos **Connection** a variáveis de objeto e fazer referência a eles por nome de variável.</span><span class="sxs-lookup"><span data-stu-id="1daf5-p106">You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
+
+
+
+## <a name="example"></a><span data-ttu-id="1daf5-121">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1daf5-121">Example</span></span>
+
+<span data-ttu-id="1daf5-122">Este exemplo demonstra o objeto **Connection** e a coleção **Connections** por meio da abertura de um objeto **Database** e dois objetos **Connection** do ODBCDirect e da listagem das propriedades disponíveis para cada objeto.</span><span class="sxs-lookup"><span data-stu-id="1daf5-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
 
 ```vb 
 Sub ConnectionObjectX() 
@@ -127,7 +127,9 @@ End Sub
  
 ```
 
-<span data-ttu-id="8576f-123">Este exemplo usa o método **OpenConnection** com diferentes parâmetros para abrir três objetos **Connection** diferentes.</span><span class="sxs-lookup"><span data-stu-id="8576f-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
+<br/>
+
+<span data-ttu-id="1daf5-123">Este exemplo usa o método **OpenConnection** com diferentes parâmetros para abrir três objetos **Connection** diferentes.</span><span class="sxs-lookup"><span data-stu-id="1daf5-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
 
 ```vb 
 Sub OpenConnectionX() 

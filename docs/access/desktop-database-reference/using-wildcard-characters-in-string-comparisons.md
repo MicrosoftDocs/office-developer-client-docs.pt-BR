@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869621"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936963"
 ---
-# <a name="using-wildcard-characters-in-string-comparisons"></a><span data-ttu-id="2e625-102">Utilizando caracteres curinga em comparações de sequência</span><span class="sxs-lookup"><span data-stu-id="2e625-102">Using Wildcard Characters in String Comparisons</span></span>
+# <a name="using-wildcard-characters-in-string-comparisons"></a><span data-ttu-id="1eb7d-102">Utilizando caracteres curinga em comparações de sequência</span><span class="sxs-lookup"><span data-stu-id="1eb7d-102">Using Wildcard Characters in String Comparisons</span></span>
 
 
-<span data-ttu-id="2e625-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e625-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1eb7d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1eb7d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e625-p101">A correspondência de padrões internos fornece uma ferramenta versátil para fazer comparações de sequência. A tabela a seguir mostra os caracteres curinga que você pode usar com o operador **Like** e o número de dígitos ou sequências correspondentes.</span><span class="sxs-lookup"><span data-stu-id="2e625-p101">Built-in pattern matching provides a versatile tool for making string comparisons. The following table shows the wildcard characters you can use with the **Like** operator and the number of digits or strings they match.</span></span>
+<span data-ttu-id="1eb7d-p101">A correspondência de padrões internos fornece uma ferramenta versátil para fazer comparações de sequência. A tabela a seguir mostra os caracteres curinga que você pode usar com o operador **Like** e o número de dígitos ou sequências correspondentes.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-p101">Built-in pattern matching provides a versatile tool for making string comparisons. The following table shows the wildcard characters you can use with the **Like** operator and the number of digits or strings they match.</span></span>
 
 <table>
 <colgroup>
@@ -27,48 +27,48 @@ ms.locfileid: "25869621"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2e625-106">Caractere (s) em <em>pattern</em></span><span class="sxs-lookup"><span data-stu-id="2e625-106">Character(s) in <em>pattern</em></span></span></p></th>
-<th><p><span data-ttu-id="2e625-107">Correspondências em <em>expression</em></span><span class="sxs-lookup"><span data-stu-id="2e625-107">Matches in <em>expression</em></span></span></p></th>
+<th><p><span data-ttu-id="1eb7d-106">Caractere (s) em <em>pattern</em></span><span class="sxs-lookup"><span data-stu-id="1eb7d-106">Character(s) in <em>pattern</em></span></span></p></th>
+<th><p><span data-ttu-id="1eb7d-107">Correspondências em <em>expression</em></span><span class="sxs-lookup"><span data-stu-id="1eb7d-107">Matches in <em>expression</em></span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2e625-p102">? ou _ (sublinhado)</span><span class="sxs-lookup"><span data-stu-id="2e625-p102">? or _ (underscore)</span></span></p></td>
-<td><p><span data-ttu-id="2e625-110">Qualquer caractere simples</span><span class="sxs-lookup"><span data-stu-id="2e625-110">Any single character</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-p102">? ou _ (sublinhado)</span><span class="sxs-lookup"><span data-stu-id="1eb7d-p102">? or _ (underscore)</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-110">Qualquer caractere simples</span><span class="sxs-lookup"><span data-stu-id="1eb7d-110">Any single character</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2e625-111">\*ou %</span><span class="sxs-lookup"><span data-stu-id="2e625-111">\* or %</span></span></p></td>
-<td><p><span data-ttu-id="2e625-112">Zero ou mais caracteres</span><span class="sxs-lookup"><span data-stu-id="2e625-112">Zero or more characters</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-111">\*ou %</span><span class="sxs-lookup"><span data-stu-id="1eb7d-111">\* or %</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-112">Zero ou mais caracteres</span><span class="sxs-lookup"><span data-stu-id="1eb7d-112">Zero or more characters</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p>#</p></td>
-<td><p><span data-ttu-id="2e625-113">Qualquer dígito único (0 – 9)</span><span class="sxs-lookup"><span data-stu-id="2e625-113">Any single digit (0 – 9)</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-113">Qualquer dígito único (0 – 9)</span><span class="sxs-lookup"><span data-stu-id="1eb7d-113">Any single digit (0 – 9)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2e625-114">[<em>charlist</em>]</span><span class="sxs-lookup"><span data-stu-id="2e625-114">[<em>charlist</em>]</span></span></p></td>
-<td><p><span data-ttu-id="2e625-115">Qualquer caractere único em <em>charlist</em></span><span class="sxs-lookup"><span data-stu-id="2e625-115">Any single character in <em>charlist</em></span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-114">[<em>charlist</em>]</span><span class="sxs-lookup"><span data-stu-id="1eb7d-114">[<em>charlist</em>]</span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-115">Qualquer caractere único em <em>charlist</em></span><span class="sxs-lookup"><span data-stu-id="1eb7d-115">Any single character in <em>charlist</em></span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p>[!<em>charlist</em>]</p></td>
-<td><p><span data-ttu-id="2e625-117">Qualquer caractere único não em <em>charlist</em></span><span class="sxs-lookup"><span data-stu-id="2e625-117">Any single character not in <em>charlist</em></span></span></p></td>
+<td><p><span data-ttu-id="1eb7d-117">Qualquer caractere único não em <em>charlist</em></span><span class="sxs-lookup"><span data-stu-id="1eb7d-117">Any single character not in <em>charlist</em></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="2e625-118">Você pode usar um grupo de um ou mais caracteres (*charlist*) entre colchetes (\[ \]) corresponder a qualquer caractere único em *charlist* e de *expressão,* pode incluir quase todos os caracteres no caractere ANSI definido, incluindo dígitos.</span><span class="sxs-lookup"><span data-stu-id="2e625-118">You can use a group of one or more characters (*charlist*) enclosed in brackets (\[ \]) to match any single character in *expression,* and *charlist* can include almost any characters in the ANSI character set, including digits.</span></span> <span data-ttu-id="2e625-119">Você pode usar os caracteres especiais colchete de abertura (\[ ), ponto de interrogação (?), sinal numérico (\#) e o asterisco (\*) para corresponder a próprios diretamente apenas se entre colchetes.</span><span class="sxs-lookup"><span data-stu-id="2e625-119">You can use the special characters opening bracket (\[ ), question mark (?), number sign (\#), and asterisk (\*) to match themselves directly only if enclosed in brackets.</span></span> <span data-ttu-id="2e625-120">Não é possível usar o colchete de fechamento ( \]) dentro de um grupo para corresponder em si, mas você pode usá-lo fora de um grupo como um caractere individual.</span><span class="sxs-lookup"><span data-stu-id="2e625-120">You cannot use the closing bracket ( \]) within a group to match itself, but you can use it outside a group as an individual character.</span></span>
+<span data-ttu-id="1eb7d-118">Você pode usar um grupo de um ou mais caracteres (*charlist*) entre colchetes (\[ \]) corresponder a qualquer caractere único em *charlist* e de *expressão,* pode incluir quase todos os caracteres no caractere ANSI definido, incluindo dígitos.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-118">You can use a group of one or more characters (*charlist*) enclosed in brackets (\[ \]) to match any single character in *expression,* and *charlist* can include almost any characters in the ANSI character set, including digits.</span></span> <span data-ttu-id="1eb7d-119">Você pode usar os caracteres especiais colchete de abertura (\[ ), ponto de interrogação (?), sinal numérico (\#) e o asterisco (\*) para corresponder a próprios diretamente apenas se entre colchetes.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-119">You can use the special characters opening bracket (\[ ), question mark (?), number sign (\#), and asterisk (\*) to match themselves directly only if enclosed in brackets.</span></span> <span data-ttu-id="1eb7d-120">Não é possível usar o colchete de fechamento ( \]) dentro de um grupo para corresponder em si, mas você pode usá-lo fora de um grupo como um caractere individual.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-120">You cannot use the closing bracket ( \]) within a group to match itself, but you can use it outside a group as an individual character.</span></span>
 
-<span data-ttu-id="2e625-121">Além de uma lista simple de caracteres entre colchetes, *charlist* pode especificar um intervalo de caracteres usando um hífen (-) para separar superior e limites inferiores do intervalo.</span><span class="sxs-lookup"><span data-stu-id="2e625-121">In addition to a simple list of characters enclosed in brackets, *charlist* can specify a range of characters by using a hyphen (-) to separate the upper and lower bounds of the range.</span></span> <span data-ttu-id="2e625-122">Por exemplo, usando \[A-Z\] em *padrão* resultará em uma coincidência se a posição do caractere correspondente na *expressão* contém qualquer uma das letras maiusculas no intervalo à Z. Você pode incluir vários intervalos entre colchetes sem delimitar os intervalos.</span><span class="sxs-lookup"><span data-stu-id="2e625-122">For example, using \[A-Z\] in *pattern* results in a match if the corresponding character position in *expression* contains any of the uppercase letters in the range A through Z. You can include multiple ranges within the brackets without delimiting the ranges.</span></span> <span data-ttu-id="2e625-123">Por exemplo, \[a-zA-Z0-9\] corresponde a qualquer caractere alfanumérico.</span><span class="sxs-lookup"><span data-stu-id="2e625-123">For example, \[a-zA-Z0-9\] matches any alphanumeric character.</span></span>
+<span data-ttu-id="1eb7d-121">Além de uma lista simple de caracteres entre colchetes, *charlist* pode especificar um intervalo de caracteres usando um hífen (-) para separar superior e limites inferiores do intervalo.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-121">In addition to a simple list of characters enclosed in brackets, *charlist* can specify a range of characters by using a hyphen (-) to separate the upper and lower bounds of the range.</span></span> <span data-ttu-id="1eb7d-122">Por exemplo, usando \[A-Z\] em *padrão* resultará em uma coincidência se a posição do caractere correspondente na *expressão* contém qualquer uma das letras maiusculas no intervalo à Z. Você pode incluir vários intervalos entre colchetes sem delimitar os intervalos.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-122">For example, using \[A-Z\] in *pattern* results in a match if the corresponding character position in *expression* contains any of the uppercase letters in the range A through Z. You can include multiple ranges within the brackets without delimiting the ranges.</span></span> <span data-ttu-id="1eb7d-123">Por exemplo, \[a-zA-Z0-9\] corresponde a qualquer caractere alfanumérico.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-123">For example, \[a-zA-Z0-9\] matches any alphanumeric character.</span></span>
 
-<span data-ttu-id="2e625-124">É importante observar que os curingas ANSI SQL (%) e (\_) só estão disponíveis com o Microsoft® Jet versão 4. x e o Microsoft OLE DB Provider for Jet.</span><span class="sxs-lookup"><span data-stu-id="2e625-124">It is important to note that the ANSI SQL wildcards (%) and (\_) are only available with Microsoft® Jet version 4.X and the Microsoft OLE DB Provider for Jet.</span></span> <span data-ttu-id="2e625-125">Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.</span><span class="sxs-lookup"><span data-stu-id="2e625-125">They will be treated as literals if used through Microsoft Access or DAO.</span></span>
+<span data-ttu-id="1eb7d-124">É importante observar que os curingas ANSI SQL (%) e (\_) só estão disponíveis com o Microsoft Jet versão 4. x e o Microsoft OLE DB Provider for Jet.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-124">It is important to note that the ANSI SQL wildcards (%) and (\_) are only available with Microsoft Jet version 4.X and the Microsoft OLE DB Provider for Jet.</span></span> <span data-ttu-id="1eb7d-125">Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-125">They will be treated as literals if used through Microsoft Access or DAO.</span></span>
 
-<span data-ttu-id="2e625-126">A seguir estão outras regras importantes para correspondência de padrões:</span><span class="sxs-lookup"><span data-stu-id="2e625-126">Other important rules for pattern matching include the following:</span></span>
+<span data-ttu-id="1eb7d-126">A seguir estão outras regras importantes para correspondência de padrões:</span><span class="sxs-lookup"><span data-stu-id="1eb7d-126">Other important rules for pattern matching include the following:</span></span>
 
-  - <span data-ttu-id="2e625-127">Um ponto de exclamação (\!) no início do *charlist* significa que uma coincidência é feita se qualquer caractere, exceto aqueles em *charlist* forem encontradas na *expressão*.</span><span class="sxs-lookup"><span data-stu-id="2e625-127">An exclamation mark (\!) at the beginning of *charlist* means that a match is made if any character except those in *charlist* are found in *expression*.</span></span> <span data-ttu-id="2e625-128">Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.</span><span class="sxs-lookup"><span data-stu-id="2e625-128">When used outside brackets, the exclamation mark matches itself.</span></span>
+  - <span data-ttu-id="1eb7d-127">Um ponto de exclamação (\!) no início do *charlist* significa que uma coincidência é feita se qualquer caractere, exceto aqueles em *charlist* forem encontradas na *expressão*.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-127">An exclamation mark (\!) at the beginning of *charlist* means that a match is made if any character except those in *charlist* are found in *expression*.</span></span> <span data-ttu-id="1eb7d-128">Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-128">When used outside brackets, the exclamation mark matches itself.</span></span>
 
-  - <span data-ttu-id="2e625-129">Você pode usar o hífen (-) no início (após um ponto de exclamação se for usado) ou no final da *charlist* para corresponder ao próprio.</span><span class="sxs-lookup"><span data-stu-id="2e625-129">You can use the hyphen (-) either at the beginning (after an exclamation mark if one is used) or at the end of *charlist* to match itself.</span></span> <span data-ttu-id="2e625-130">Em outro local, o hífen identifica um intervalo de caracteres ANSI.</span><span class="sxs-lookup"><span data-stu-id="2e625-130">In any other location, the hyphen identifies a range of ANSI characters.</span></span>
+  - <span data-ttu-id="1eb7d-129">Você pode usar o hífen (-) no início (após um ponto de exclamação se for usado) ou no final da *charlist* para corresponder ao próprio.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-129">You can use the hyphen (-) either at the beginning (after an exclamation mark if one is used) or at the end of *charlist* to match itself.</span></span> <span data-ttu-id="1eb7d-130">Em outro local, o hífen identifica um intervalo de caracteres ANSI.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-130">In any other location, the hyphen identifies a range of ANSI characters.</span></span>
 
-  - <span data-ttu-id="2e625-131">Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100).</span><span class="sxs-lookup"><span data-stu-id="2e625-131">When you specify a range of characters, the characters must appear in ascending sort order (A-Z or 0-100).</span></span> <span data-ttu-id="2e625-132">\[A-Z\] é um padrão válido, mas \[Z-A\] não é.</span><span class="sxs-lookup"><span data-stu-id="2e625-132">\[A-Z\] is a valid pattern, but \[Z-A\] is not.</span></span>
+  - <span data-ttu-id="1eb7d-131">Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100).</span><span class="sxs-lookup"><span data-stu-id="1eb7d-131">When you specify a range of characters, the characters must appear in ascending sort order (A-Z or 0-100).</span></span> <span data-ttu-id="1eb7d-132">\[A-Z\] é um padrão válido, mas \[Z-A\] não é.</span><span class="sxs-lookup"><span data-stu-id="1eb7d-132">\[A-Z\] is a valid pattern, but \[Z-A\] is not.</span></span>
 
-  - <span data-ttu-id="2e625-133">A sequência de caracteres \[ \] será ignorada; ele é considerado como uma cadeia de caracteres de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="2e625-133">The character sequence \[ \] is ignored; it is considered to be a zero-length string ("").</span></span>
+  - <span data-ttu-id="1eb7d-133">A sequência de caracteres \[ \] será ignorada; ele é considerado como uma cadeia de caracteres de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="1eb7d-133">The character sequence \[ \] is ignored; it is considered to be a zero-length string ("").</span></span>
 

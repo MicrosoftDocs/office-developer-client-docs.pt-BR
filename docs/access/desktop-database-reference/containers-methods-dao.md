@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179826(v=office.15)
 ms:contentKeyID: 52074035
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 899e8a029ad7573366db0c7590c3b0ac081a9a7e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0de629e575f43b36d26a3130b1c147a0294e8dd7
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921408"
+ms.locfileid: "25936473"
 ---
-# <a name="containers-methods-dao"></a><span data-ttu-id="cec42-102">Métodos de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="cec42-102">Containers methods (DAO)</span></span>
+# <a name="containers-methods-dao"></a><span data-ttu-id="81b29-102">Métodos de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="81b29-102">Containers methods (DAO)</span></span>
 
+<span data-ttu-id="81b29-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="81b29-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cec42-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cec42-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="cec42-104">Método Containers.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="cec42-104">Containers.Refresh method (DAO)</span></span>](containers-refresh-method-dao.md)
+- [<span data-ttu-id="81b29-104">Método Containers.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="81b29-104">Containers.Refresh method (DAO)</span></span>](containers-refresh-method-dao.md)
 
