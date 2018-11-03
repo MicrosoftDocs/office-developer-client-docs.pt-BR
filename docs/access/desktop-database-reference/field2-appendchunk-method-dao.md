@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f999a0519fccb8f896ed07963db621065530c1a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929766"
+ms.locfileid: "25937043"
 ---
 # <a name="field2appendchunk-method-dao"></a>Método Field2.AppendChunk (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Acrescenta dados de uma expressão de cadeia de caracteres em um objeto **Field2** Memo ou Long Binary em um **[Recordset](recordset-object-dao.md)**.
 
@@ -67,11 +65,8 @@ Você também pode usar esses métodos para poupar espaço de cadeia de caracter
 
 Se não houver um registro atual quando você usar **AppendChunk**, ocorrerá um erro.
 
-
 > [!NOTE]
-> <P>A operação inicial <STRONG>AppendChunk</STRONG> (após uma chamada <STRONG><A href="recordset-edit-method-dao.md">Edit</A></STRONG> ou <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> ) simplesmente colocará os dados no campo, sobrescrevendo quaisquer dados existentes. Chamadas subsequentes <STRONG>AppendChunk</STRONG> na mesma sessão <STRONG>Edit</STRONG> ou <STRONG>AddNew</STRONG> adicionarão dados aos já existentes.</P>
-
-
+> A operação inicial **AppendChunk** (após uma chamada **[Edit](recordset-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)** ) simplesmente colocará os dados no campo, sobrescrevendo quaisquer dados existentes. Chamadas subsequentes **AppendChunk** na mesma sessão **Edit** ou **AddNew** adicionarão dados aos já existentes.
 
 ## <a name="example"></a>Exemplo
 

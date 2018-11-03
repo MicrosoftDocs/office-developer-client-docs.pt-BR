@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0e12f8d60ee3147eb456df302122a5b7eac684d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 771ce7a5a7f0a6721703953029b7bc8de9f0f251
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879925"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936571"
 ---
 # <a name="locktypeenum-enumeration-dao"></a>Enumeração LockTypeEnum (DAO)
 
@@ -50,7 +50,7 @@ Especifica o tipo de bloqueio de registro usado ao abrir um conjunto de registro
 <td><p>Concorrência otimista baseada nos valores dos registros. O cursor compara os valores de dados de registros antigos e novos, para determinar se foram feitas alterações desde que o registro foi acessado pela última vez (somente espaços de trabalho de ODBCDirect).</p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 </td>

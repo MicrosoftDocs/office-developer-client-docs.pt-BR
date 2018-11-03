@@ -10,19 +10,18 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a44226e8ea90a8be96de35cdc923349eded17cb4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4127178f0158e2ab6deb177402f13d3edc6ac9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886995"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937719"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Personalizando as configurações do Registro do Windows para o mecanismo de banco de dados do Microsoft Access
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-Se o seu aplicativo não funcionar corretamente com a funcionalidade padrão do mecanismo de banco de dados do Microsoft Access, talvez você tenha que alterar as configurações no Registro do Microsoft® Windows® de acordo com suas necessidades. O Registro do Windows também pode ser usado para ajustar a operação do driver ISAM e ODBC instalável.
+Se seu aplicativo não pode funcionar corretamente com a funcionalidade padrão do mecanismo de banco de dados do Microsoft Access, você pode precisar alterar as configurações no registro do Microsoft Windows para atender às suas necessidades. O Registro do Windows também pode ser usado para ajustar a operação do driver ISAM e ODBC instalável.
 
 Você pode personalizar as configurações do Registro do Windows de quatro maneiras diferentes:
 

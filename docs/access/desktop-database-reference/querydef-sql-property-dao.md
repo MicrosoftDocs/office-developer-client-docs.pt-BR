@@ -1,6 +1,6 @@
 ---
 title: Propriedade QueryDef.SQL (DAO)
-TOCTitle: SQL Property
+TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 25921f9bcd320c2ccc5d703b95e3ac818125d300
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 43acce256d3a46fd7b01122a8502e0af502eb3e9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920743"
+ms.locfileid: "25937677"
 ---
 # <a name="querydefsql-property-dao"></a>Propriedade QueryDef.SQL (DAO)
 
@@ -40,7 +40,7 @@ Se a instrução SQL incluir os parâmetros da consulta, defina-os antes da exec
 Em um espaço de trabalho do Microsoft Access, o uso de um objeto **QueryDef** é a forma preferencial de executar as operações passagem SQL no mecanismo do banco de dados do Microsoft Access conectado às fontes de dados ODBC. Definindo a propriedade **[Connect](querydef-connect-property-dao.md)** do objeto de **QueryDef** para uma fonte de dados ODBC, você pode usar o SQL não – – – database do Microsoft Access na consulta a serem passados para o servidor externo. Por exemplo, use as instruções TRANSACT SQL (com os bancos de dados do Microsoft SQL Server ou do Sybase SQL Server), que o mecanismo do banco de dados do Microsoft Access poderia, de outra forma, não processar.
 
 > [!NOTE]
-> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal de fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro quando você Tente executar o objeto **QueryDef** em um banco de dados do mecanismo de banco de dados do Microsoft Access. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
+> Se você definir a propriedade como uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal de fora dos EUA, como uma vírgula (por exemplo, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), ocorrerá um erro quando você tentar executar o objeto **QueryDef** na Microsoft Mecanismo de banco Access. Isso acontecerá porque durante a concatenação, o número será convertido em uma sequência que usa o caractere decimal padrão do sistema e o Microsoft Access SQL aceita somente os caracteres decimais do padrão dos EUA.
 
 ## <a name="example"></a>Exemplo
 
@@ -121,9 +121,13 @@ Este exemplo usa o método **CopyQueryDef** para criar uma cópia de um **QueryD
        End With 
      
     End Function 
+```
+
+<br/>
+
+Este exemplo mostra um possível uso do CopyQueryNew(). 
      
-    This example shows a possible use of CopyQueryNew(). 
-     
+```vb
     Sub CopyQueryDefX() 
      
        Dim dbsNorthwind As Database 

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124273(v=office.15)
 ms:contentKeyID: 52071908
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 19393b6934d5111cdf61a82dd331dccaa5cd740b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6c5ea2cba5776e2171ab30f2366fff06f10f0b24
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922696"
+ms.locfileid: "25937467"
 ---
 # <a name="databases-methods-dao"></a>Métodos de bancos de dados (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Método Databases.Refresh (DAO)](databases-refresh-method-dao.md)
+- [Método Databases.Refresh (DAO)](databases-refresh-method-dao.md)
 

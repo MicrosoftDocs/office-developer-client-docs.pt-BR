@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249551(v=office.15)
 ms:contentKeyID: 48545940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9360b2b1126856ea92bbada183ffc67b16b2554e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b3656764b1183efc53375665d570e1f1bb8958b1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884020"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936641"
 ---
 # <a name="updating-joined-results-unique-table"></a>Atualizando os resultados JOINed: Unique Table
 
@@ -20,5 +20,5 @@ ms.locfileid: "25884020"
 
 ## <a name="updating-joined-results-unique-table"></a>Atualização de resultados JOINed: tabela exclusiva
 
-O ADO permite que você controle rigorosamente as modificações em uma determinada tabela base em um **Recordset** formado por uma operação JOIN em várias tabelas base, usando a propriedade dinâmica **Unique Table**. Para obter os detalhes sobre o uso de **Unique Table**, consulte os tópicos de Referência do Programador ADO nas propriedades dinâmicas **Unique Table** e **Update Resynch**.
+O ADO permite que você controle rigorosamente as modificações em uma determinada tabela base em um **Recordset** formado por uma operação JOIN em várias tabelas base, usando a propriedade dinâmica **Unique Table**. Para obter detalhes sobre como usar o **Unique Table**, consulte os tópicos de referência do programador do ADO nas propriedades dinâmicas **Unique Table** e **Ressincronização de atualização** .
 

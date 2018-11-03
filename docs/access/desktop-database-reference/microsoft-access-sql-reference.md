@@ -6,22 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123881(v=office.15)
 ms:contentKeyID: 52071521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0238526bdec83edbcc4d818c90727f23bb55c08f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5b38b0ff8e2d0ca7e02304ad76bf7a575be9837f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883194"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936235"
 ---
 # <a name="microsoft-access-sql-reference"></a>Referência do Microsoft Access SQL
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-- [Visão geral da referência do SQL do Access](overview-of-the-access-sql-reference.md)
-
-- [Linguagem de definição de dados](data-definition-language.md)
-
+- [Visão geral sobre a referência do SQL Access](overview-of-the-access-sql-reference.md)
+- [Idioma de definição de dados (DDL)](data-definition-language.md)
 - [Linguagem de manipulação de dados](data-manipulation-language.md)
-
 - [Configurações de registro do Windows para fontes de dados externas](windows-registry-settings-for-external-data-sources.md)
 

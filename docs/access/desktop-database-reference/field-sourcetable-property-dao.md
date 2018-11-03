@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052900
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6bd096b8989cefe48df882d447aab0d4f3d0a6ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1236b606f81533922844026d87644b7724e68977
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925195"
+ms.locfileid: "25937565"
 ---
 # <a name="fieldsourcetable-property-dao"></a>Propriedade Field.SourceTable (DAO)
 
@@ -74,6 +74,6 @@ Essas propriedades indicam o campo original e os nomes das tabelas associados ao
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] A propriedade <STRONG>SourceTable</STRONG> não retornará um nome de tabela significativo se for usado em um objeto <STRONG>Field</STRONG> na coleção <STRONG>Fields</STRONG> de um objeto <STRONG>Recordset</STRONG> do tipo tabela.</P>
+> [!OBSERVAçãO] A propriedade **SourceTable** não retornará um nome de tabela significativo se for usado em um objeto **Field** na coleção **Fields** de um objeto **Recordset** do tipo tabela.
 
 

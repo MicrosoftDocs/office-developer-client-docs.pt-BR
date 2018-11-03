@@ -6,29 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fafa3ea40b492baf8b49dd240c6f7767ffad655
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926651"
+ms.locfileid: "25937628"
 ---
 # <a name="gotocontrol-macro-action"></a>Ação da macro IrParaControle
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Você pode usar a ação **GoToControl** para mover o foco para o campo ou controle especificado no registro atual do formulário aberto, folha de dados de formulário, folha de dados da tabela ou consulta a folha de dados. Use esta ação quando quiser que um campo ou controle específico tenha o foco. Esse campo ou controle pode ser usado para comparações ou ações **EncontrarRegistro** . Você também pode usar esta ação para navegar em um formulário de acordo com certas condições. Por exemplo, se o usuário inserir Não em um controle Casado de um formulário de seguro de saúde, o foco automaticamente poderá ignorar o controle Nome do cônjuge/parceiro e passar para o próximo controle.
 
 ## <a name="setting"></a>Configuração
 
-
 > [!NOTE]
-> <P>Essa ação não está disponível para uso com páginas de acesso a dados.</P>
-
-
+> Essa ação não está disponível para uso com páginas de acesso a dados.
 
 A ação **IrParaControle** tem os argumentos a seguir.
 
@@ -49,7 +43,7 @@ A ação **IrParaControle** tem os argumentos a seguir.
 <td><p>O nome do campo ou do controle em que você deseja focar. Insira o nome do campo ou controle na caixa <strong>Nome do controle</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Este é um argumento obrigatório.</p>
 
 > [!NOTE]
-> <P>Insira apenas o nome do campo ou controle no argumento <STRONG>Nome do controle</STRONG> , não o identificador totalmente qualificado, como formulários! Produtos! [Product ID].</P>
+> Insira apenas o nome do campo ou controle no argumento **Nome do controle** , não o identificador totalmente qualificado, como formulários! Produtos! [Product ID].
 
 
 <p></p></td>
@@ -62,11 +56,8 @@ A ação **IrParaControle** tem os argumentos a seguir.
 
 Você não pode usar a ação **GoToControl** para mover o foco para um controle em um formulário oculto.
 
-
 > [!TIP]
-> <P>Você pode usar a ação <STRONG>GoToControl</STRONG> para mover para o subformulário, que é um tipo de controle. Em seguida, você pode usar a ação <STRONG>IrParaRegistro</STRONG> para mover para um determinado registro no subformulário. Você também pode mover para um controle em um subformulário, usando a ação <STRONG>GoToControl</STRONG> para mover-se primeiro para o subformulário e, em seguida, para o controle no subformulário.</P>
-
-
+> Você pode usar a ação **GoToControl** para mover para o subformulário, que é um tipo de controle. Em seguida, você pode usar a ação **IrParaRegistro** para mover para um determinado registro no subformulário. Você também pode mover para um controle em um subformulário, usando a ação **GoToControl** para mover-se primeiro para o subformulário e, em seguida, para o controle no subformulário.
 
 Para executar a ação **GoToControl** em um módulo Visual Basic for Applications (VBA), use o método **GoToControl** do objeto **DoCmd** . Você também pode usar o método **SetFocus** para mover o foco para um controle em um formulário ou qualquer um dos seus subformulários ou para um campo em uma tabela aberta, consulta ou folha de dados do formulário.
 

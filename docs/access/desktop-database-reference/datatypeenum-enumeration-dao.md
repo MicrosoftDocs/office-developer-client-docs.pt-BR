@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02bd6b3b4d112f731fd060742f1f5b9500058dc9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0a1c576d44a0c91c92072ddf5c61a11e7cd38457
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888101"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937551"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>Enumeração DataTypeEnum (DAO)
 
@@ -117,12 +117,7 @@ Especifica o tipo de dados operacionais de um objeto.
 <tr class="odd">
 <td><p>dbDecimal</p></td>
 <td><p>20</p></td>
-<td><p>Dados decimais (somente ODBCDirect)</p>
-
-> [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
-
-
+<td><p>Dados decimais (somente ODBCDirect)</p><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 </td>
 </tr>
 <tr class="even">

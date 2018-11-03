@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc70603c9b3dc48090558662b775725017062411
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9b359e75d67a4ed9e3ad4ef1df23a1adc1279751
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880219"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936319"
 ---
 # <a name="ole-db-providers"></a>Provedores OLE DB
 
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-A [Introdução](introduction-to-ado-programming.md) do Guia do programador aborda a relação entre o ADO e o restante da arquitetura do Microsoft Data Access. O OLE DB define um conjunto de interfaces COM para fornecer aos aplicativos acesso uniforme aos dados armazenados em diversas fontes de informação. Essa abordagem permite que uma fonte de dados compartilhe seus dados por meio de interfaces que suportam o número de funcionalidades DBMS apropriado para a fonte de dados. De acordo com o design, a arquitetura de alto desempenho do OLE DB é baseada no uso de um modelo de serviços flexível e baseado em componentes. Em vez de ter um número prescrito de camadas intermediárias entre o aplicativo e os dados, o OLE DB requer somente os componentes necessários para realizar uma tarefa específica.
+Guia do programador do ADO [Introdução](introduction-to-ado-programming.md) discute o relacionamento entre ADO e o restante da arquitetura do Microsoft Data Access. O OLE DB define um conjunto de interfaces COM para fornecer aos aplicativos acesso uniforme aos dados armazenados em diversas fontes de informação. Essa abordagem permite que uma fonte de dados compartilhe seus dados por meio de interfaces que suportam o número de funcionalidades DBMS apropriado para a fonte de dados. De acordo com o design, a arquitetura de alto desempenho do OLE DB é baseada no uso de um modelo de serviços flexível e baseado em componentes. Em vez de ter um número prescrito de camadas intermediárias entre o aplicativo e os dados, o OLE DB requer somente os componentes necessários para realizar uma tarefa específica.
 
 Por exemplo, suponha que um usuário deseje realizar uma consulta. Considere as seguintes situações:
 

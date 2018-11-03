@@ -1,20 +1,19 @@
 ---
 title: 'Capítulo 8: Noções básicas sobre cursores e bloqueios'
-TOCTitle: 'Chapter 8: Understanding Cursors and Locks'
+TOCTitle: 'Chapter 8: Understanding cursors and locks'
 ms:assetid: 889356f9-53ca-3c46-6781-b37e1f065717
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249598(v=office.15)
 ms:contentKeyID: 48546139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b98952e64eac3c35ed67f50e50776c08e594474
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3ca76b5635e057251aff845ecf45146e6e0d89a6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869082"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936935"
 ---
 # <a name="chapter-8-understanding-cursors-and-locks"></a>Capítulo 8: Noções básicas sobre cursores e bloqueios
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -25,16 +24,10 @@ Muitos recursos do objeto **Recordset** do ADO são determinados pelo tipo e loc
 Este capítulo aborda os seguintes tópicos:
 
 - [O que é um cursor?](what-is-a-cursor.md)
-
 - [Significado do local do cursor](the-significance-of-cursor-location.md)
-
 - [Microsoft Cursor Service for OLE DB](the-microsoft-cursor-service-for-ole-db.md)
-
 - [Usando CacheSize](using-cachesize.md)
-
-- [Características do cursor e do bloqueio](cursor-and-lock-characteristics.md)
-
+- [Características de bloqueio e cursor](cursor-and-lock-characteristics.md)
 - [Tipos de cursores (ADO)](types-of-cursors.md)
-
 - [O que é um bloqueio? (ADO)](what-is-a-lock.md)
 

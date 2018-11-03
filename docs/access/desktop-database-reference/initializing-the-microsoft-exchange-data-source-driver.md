@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c1ba74f754ef0c998a14f7421914bd4bcd7c9cf9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6e1d61d2f61050118745347441cba1f27c35c41f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870195"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937740"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Inicializando o driver de fonte de dados do Microsoft Exchange
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-Quando você instala o driver de fonte de dados do Microsoft® Exchange, o programa de instalação grava um conjunto de valores padrão no Registro do Microsoft Windows®, nas subchaves Engines e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de fonte de dados do Microsoft Exchange.
+Quando você instala o driver de fonte de dados do Microsoft Exchange, o programa de instalação grava um conjunto de valores padrão para o registro do Microsoft Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de fonte de dados do Microsoft Exchange.
 
 ## <a name="microsoft-exchange-data-source-initialization-settings"></a>Configurações de inicialização da fonte de dados do Microsoft Exchange
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
 ms:contentKeyID: 48545465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fafe0212fb0051d780c3a8f12dbc0d5fe319dc1f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b7ed259b1af80f4bd5c51b833462318b6e4696ae
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928240"
+ms.locfileid: "25936186"
 ---
 # <a name="fieldvalue-property-dao"></a>Propriedade Field.Value (DAO)
 
@@ -38,6 +38,6 @@ A tentativa de definição ou de retorno da propriedade **Value** em um contexto
 
 
 > [!NOTE]
-> <P>Durante a leitura de valores decimais de um banco de dados do Microsoft SQL Server, esse valores serão formatados pela notação científica em um espaço de trabalho do Microsoft Access, mas aparecerão como valores decimais normais em um espaço de trabalho do ODBCDirect.</P>
+> Durante a leitura de valores decimais de um banco de dados do Microsoft SQL Server, esse valores serão formatados pela notação científica em um espaço de trabalho do Microsoft Access, mas aparecerão como valores decimais normais em um espaço de trabalho do ODBCDirect.
 
 

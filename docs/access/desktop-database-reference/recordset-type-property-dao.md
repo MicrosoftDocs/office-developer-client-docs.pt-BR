@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
 ms:contentKeyID: 48548030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85e518dc5d13a6e8e70c449fb35158395b7a13aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 540e5b8226907dc580d34ab3215d3c0dca67e3f6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920722"
+ms.locfileid: "25936879"
 ---
 # <a name="recordsettype-property-dao"></a>Propriedade Recordset.Type (DAO)
 
@@ -51,7 +51,7 @@ Para um objeto **Recordset**, as configurações e os valores de retorno possív
 <td><p>Dinâmico (somente em espaços de trabalho ODBCDirect)</p>
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</P>
+> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
 
 
 <p></p></td>

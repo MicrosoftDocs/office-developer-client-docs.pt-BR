@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed450913c7512e8ef20983484ca4b874878fd791
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 213e405718d50369367d439457e8026d4ef71242
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937502"
 ---
 # <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>Concedendo privilégios de convidados a um computador do servidor Web; Privilégios de convidados RDS 
 
@@ -22,7 +22,7 @@ Conta do servidor web anônima (IUSR\_*ComputerName*) devem ser adicionados para
 
 **Para conceder privilégios de convidados a um computador servidor web**
 
-1.  No computador do servidor Microsoft Windows® 2000, clique em **Iniciar**, aponte para **Programas**, para **Ferramentas Administrativas** e, em seguida, clique em **Gerenciamento do Computador**.
+1.  No computador do Microsoft Windows 2000 Server, clique em **Iniciar**, aponte para **programas**, aponte para **Ferramentas administrativas**e, em seguida, clique em **Gerenciamento do computador**.
 
 2.  Na árvore do console, em **Grupos e Usuários Locais**, clique em **Grupos**.
 

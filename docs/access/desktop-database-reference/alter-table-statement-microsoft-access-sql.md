@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889627"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937334"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instrução ALTER TABLE (Microsoft Access SQL)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25889627"
 Modifica o design de uma tabela depois de ter sido criada com a instrução [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
 > [!NOTE]
-> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não oferece suporte para o uso da instrução ALTER TABLE, ou para quaisquer instruções da linguagem de definição de dados (DDL), com bancos de dados que não sejam do Microsoft Access. Use os métodos **Create DAO** .
+> [!OBSERVAçãO] O mecanismo de banco de dados do Microsoft Access não oferece suporte para o uso da instrução ALTER TABLE, ou para quaisquer instruções da linguagem de definição de dados (DDL), com bancos de dados que não sejam do Microsoft Access. Use os métodos DAO **criar** .
 
 ## <a name="syntax"></a>Sintaxe
 

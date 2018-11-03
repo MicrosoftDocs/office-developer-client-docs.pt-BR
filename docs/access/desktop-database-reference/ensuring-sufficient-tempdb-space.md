@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b08980b7bb852a497ea339f4c43d439ac16a7e5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fe8d0c2513a723a9be51823866ed896976e79dd9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885763"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936200"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>Assegurando espaço suficiente do TempDBS
 
@@ -30,7 +30,7 @@ Se ocorrerem erros ao manipular os objetos [Recordset](recordset-object-ado.md) 
 
 **Para aumentar o espaço do TempDB no SQL Server 6.5**
 
-1.  Inicie o Microsoft® SQL Server Enterprise Manager, abra a árvore para o Server e, em seguida, abra a árvore Database Devices.
+1.  Inicie o Microsoft SQL Server Enterprise Manager, abra a árvore do Server e, em seguida, abra a árvore Dispositivos do Banco de Dados.
 
 2.  Selecione um dispositivo (físico) a ser expandido, como Master, e dê um clique duplo no dispositivo para abrir a caixa de diálogo **Editar dispositivo do banco de dados**. Essa caixa de diálogo mostra quanto espaço os bancos de dados atuais estão usando.
 

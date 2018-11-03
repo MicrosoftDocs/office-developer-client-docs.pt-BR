@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd16b91bb3d6ca0d206be0a63bb73e6f9176da8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921023"
+ms.locfileid: "25937523"
 ---
 # <a name="foreachrecord-data-block"></a>Bloco de dados ParaCadaRegistro
 
@@ -20,11 +20,8 @@ ms.locfileid: "25921023"
 
 Um bloco de dados **ParaCadaRegistro** repete um conjunto de instruções para cada registro em um domínio.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O bloco de dados <STRONG>ParaCadaRegistro</STRONG> está disponível somente em Macros de Dados.</P>
-
-
+> [!OBSERVAçãO] O bloco de dados **ParaCadaRegistro** está disponível somente em Macros de Dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -50,7 +47,7 @@ A ação **ParaCadaRegistro** tem os seguintes argumentos.
 <td><p>Uma cadeia de caracteres que identifica o domínio de registros para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p>
 
 > [!NOTE]
-> <P>O domínio especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</P>
+> O domínio especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.
 
 
 <p></p></td>

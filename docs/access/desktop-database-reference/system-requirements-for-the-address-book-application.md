@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edfdd66ea1651f71e74e5f98c6f2a3ac2bf36207
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fc1e9c951ea87869d2e3e2fb047793a06778f249
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885959"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937460"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Requisitos do sistema para o aplicativo Catálogo de Endereços
 
@@ -24,7 +24,7 @@ Para configurar o aplicativo de exemplo Catálogo de Endereços, é necessário 
 
 Os requisitos de software do computador servidor para executar este aplicativo web incluem:
 
-  - Microsoft Windows NT® Server 4.0, com Service Pack 3 ou posterior, ou Microsoft Windows® 2000 Server.
+  - Microsoft Windows NT Server 4.0, com Service Pack 3 ou posterior, ou Microsoft Windows 2000 Server.
 
   - Microsoft Internet Information Services (IIS) versão 3.0 ou posterior com Active Server Pages.
 
@@ -38,7 +38,7 @@ Os requisitos de software do computador cliente para executar este aplicativo we
 
 Para usar este exemplo, você deve ter:
 
-  - Um servidor de banco de dados operacional com Microsoft® SQL Server versão 6.5 ou posterior.
+  - Um Microsoft SQL Server versão 6.5 ou posterior operacionais database server.
 
   - Privilégios para criar o banco de dados e preenchê-lo com os dados de exemplo.
 

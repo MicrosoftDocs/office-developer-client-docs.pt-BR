@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5869c381c7b449502cc2d28de8eeb214bbfb03d0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c03310159915fd7bbb0804582d8f3967d40fb9b2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928653"
+ms.locfileid: "25937649"
 ---
 # <a name="field2expression-property-dao"></a>Propriedade Field2.Expression (DAO)
 
@@ -19,10 +19,9 @@ ms.locfileid: "25928653"
 
 Obtém ou define uma expressão que representa a fórmula de um campo calculado. **String** de leitura/gravação.
 
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Version information
 
-Version Added: Access 2010
-
+Versão adicionada: Access 2010
 
 ## <a name="syntax"></a>Sintaxe
 

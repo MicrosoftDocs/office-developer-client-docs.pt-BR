@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c73aa8f4023ea5d3a192608fad88bf336e6e858f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 571698567816b34071e99c7dc46af11274a54c80
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924796"
+ms.locfileid: "25937138"
 ---
 # <a name="field2savetofile-method-dao"></a>Método Field2.SaveToFile (DAO)
 
@@ -23,9 +23,9 @@ ms.locfileid: "25924796"
 
 Salva um anexo no disco.
 
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Version information
 
-Version Added: Access 2007
+Versão adicionada: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 

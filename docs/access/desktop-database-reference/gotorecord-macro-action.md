@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90d50ce1f1435d38fdfe1ed11e76b49c212b87b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922451"
+ms.locfileid: "25937726"
 ---
 # <a name="gotorecord-macro-action"></a>Ação da macro IrParaRegistro
 
@@ -61,7 +61,7 @@ A ação **IrParaRegistro** tem os seguintes argumentos.
 </ul>
 
 > [!NOTE]
-> <P>Se você usar a configuração <STRONG>Primeiro</STRONG>, <STRONG>Último</STRONG> ou <STRONG>Novo</STRONG> para o argumento <STRONG>Registro</STRONG>, o Access ignorará o argumento <STRONG>Deslocamento</STRONG>. Se você inserir um argumento <STRONG>Deslocamento</STRONG> excessivamente grande, o Access exibirá uma mensagem de erro. Você não pode digitar números negativos para o argumento <STRONG>Deslocamento</STRONG>.</P>
+> Se você usar a configuração **Primeiro**, **Último** ou **Novo** para o argumento **Registro**, o Access ignorará o argumento **Deslocamento**. Se você inserir um argumento **Deslocamento** excessivamente grande, o Access exibirá uma mensagem de erro. Você não pode digitar números negativos para o argumento **Deslocamento**.
 
 
 <p></p>

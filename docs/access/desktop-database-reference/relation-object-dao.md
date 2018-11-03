@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
 ms:contentKeyID: 48544578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cfabb36e539aaff1f6e12d431d2cfcfe79ff5d04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 49e8cdb7586af93ca17782ba0cb1071036c38eeb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928080"
+ms.locfileid: "25936949"
 ---
 # <a name="relation-object-dao"></a>Objeto Relation (DAO)
 
@@ -117,7 +117,7 @@ Este exemplo mostra como um objeto **Relation** existente pode controlar a entra
 
 <br/>
 
-Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre **TableDef** de Funcionários e um novo **TableDef** chamado Departamentos. Este exemplo também demonstra como criar um novo objeto **Relation** também cria qualquer objeto **Indexes** necessários na tabela externa (o Índice DepartmentsEmployees na tabela Funcionários).
+Este exemplo usa o método **CreateRelation** para criar um objeto **Relation** entre **TableDef** de Funcionários e um novo **TableDef** chamado Departamentos. Ele também demonstra como criar um novo **Relation** também criará qualquer necessário **índices** da tabela externa (o índice DepartmentsEmployees na tabela Funcionários).
 
 ```vb
     Sub CreateRelationX() 

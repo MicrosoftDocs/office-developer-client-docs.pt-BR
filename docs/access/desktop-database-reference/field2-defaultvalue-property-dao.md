@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 683255f8bc425ba5d8d2cdf4c66bc2ff16eec43c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928472"
+ms.locfileid: "25937670"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Propriedade Field2.DefaultValue (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Field2** ainda não acrescentado à coleção **[Fields](fields-collection-dao.md)**, essa propriedade é de leitura/gravação (apenas espaços de trabalho do Microsoft Access).
 
@@ -35,11 +33,8 @@ Define ou retorna o valor padrão de um objeto **Field2**. Para um objeto **Fiel
 
 A configuração ou o valor de retorno é um tipo de dados **String** que pode conter no máximo 255 caracteres. Ele pode conter texto ou uma expressão. Se a configuração da propriedade for uma expressão, ela não poderá conter funções definidas pelo usuário, funções agregadas do mecanismo de banco de dados do Microsoft Access SQL ou referência a consultas, formulários ou outros objetos **Field2**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você também pode definir a propriedade <STRONG>DefaultValue</STRONG> de um objeto <STRONG>Field2</STRONG> em um objeto <STRONG>TableDef</STRONG> para um valor especial chamado "GenUniqueID( )". Isso faz com que um número aleatório seja atribuído a esse campo sempre que um novo registro é adicionado ou criado, fornecendo a cada registro um identificador exclusivo. A propriedade <STRONG>Type</STRONG> do campo de ver <STRONG>Long</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Você também pode definir a propriedade **DefaultValue** de um objeto **Field2** em um objeto **TableDef** para um valor especial chamado "GenUniqueID( )". Isso faz com que um número aleatório seja atribuído a esse campo sempre que um novo registro é adicionado ou criado, fornecendo a cada registro um identificador exclusivo. A propriedade **Type** do campo de ver **Long**.
 
 A disponibilidade da propriedade **DefaultValue** depende do objeto que contém a coleção **Fields**, conforme mostrado na tabela a seguir.
 

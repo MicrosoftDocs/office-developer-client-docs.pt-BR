@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
 ms:contentKeyID: 48546553
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b75f6277695c00c251352e0ae2bdcc44f2c86d34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b7bd2519af3ea3c35d8cc32ef1ec31ea4f9efa1e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929150"
+ms.locfileid: "25936669"
 ---
 # <a name="groups-collection-adox"></a>Coleção Groups (ADOX)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,20 +25,19 @@ A coleção **Groups** de um [Catálogo](catalog-object-adox.md) representa toda
 
 O método [Append](append-method-adox-groups.md) de uma coleção **Groups** é exclusivo de ADOX. Você pode:
 
-  - Adicionar um novo grupo de segurança à coleção com o método **Append**.
+- Adicionar um novo grupo de segurança à coleção com o método **Append**.
 
 As propriedades e métodos restantes são padrão das coleções do ADO. Você pode:
 
-  - Acessar um grupo na coleção com a propriedade [Item](item-property-ado.md).
+- Acessar um grupo na coleção com a propriedade [Item](item-property-ado.md).
 
-  - Retornar o número de grupos contidos na coleção com a propriedade [Count](count-property-ado.md).
+- Retornar o número de grupos contidos na coleção com a propriedade [Count](count-property-ado.md).
 
-  - Remover um grupo da coleção com o método [Delete](delete-method-adox-collections.md).
+- Remover um grupo da coleção com o método [Delete](delete-method-adox-collections.md).
 
-  - Atualizar os objetos da coleção para refletir o atual esquema do banco de dados com o método [Refresh](refresh-method-ado.md).
-
+- Atualizar os objetos da coleção para refletir o atual esquema do banco de dados com o método [Refresh](refresh-method-ado.md).
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Antes de um objeto <STRONG>Group</STRONG> ser anexado à coleção <STRONG>Groups</STRONG> de um objeto <STRONG>User</STRONG>, na coleção <STRONG>Groups</STRONG> do <A href="name-property-adox.md">Catálogo</A> já deve existir um objeto <STRONG>Group</STRONG> com o mesmo <STRONG>Nome</STRONG> daquele a ser anexado.</P>
+> [!OBSERVAçãO] Antes de um objeto **Group** ser anexado à coleção **Groups** de um objeto **User**, na coleção **Groups** do [Catálogo](name-property-adox.md) já deve existir um objeto **Group** com o mesmo **Nome** daquele a ser anexado.
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888661"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937131"
 ---
 # <a name="filter-property-ado"></a>Propriedade Filter (ADO)
 
@@ -44,7 +44,7 @@ A sequência de critérios é formada por cláusulas no formulário *FieldName-O
     
 
     > [!NOTE]
-    > <P>[!OBSERVAçãO] Para incluir aspas simples (') no filtro Value, use duas aspas simples para representar uma. Por exemplo, para filtrar em O'Malley, a sequência de critérios deve ser "col1 = 'O''Malley'". Para incluir aspas simples no início e no final do valor de filtragem, coloque a sequência entre símbolos de libra (#). Por exemplo, para filtrar em '1', a sequência de critérios deve ser "col1 = #'1'#".</P>
+    > [!OBSERVAçãO] Para incluir aspas simples (') no filtro Value, use duas aspas simples para representar uma. Por exemplo, para filtrar em O'Malley, a sequência de critérios deve ser "col1 = 'O''Malley'". Para incluir aspas simples no início e no final do valor de filtragem, coloque a sequência entre símbolos de libra (#). Por exemplo, para filtrar em '1', a sequência de critérios deve ser "col1 = #'1'#".
 
 
 
@@ -66,19 +66,12 @@ Consulte a propriedade [Bookmark](bookmark-property-ado.md) para obter uma expli
 
 Somente os **filtros** no formato de cadeias de caracteres de critérios (ex.: DataDoPedido \> ' 12/31/1999 ') afetam o conteúdo de um **Recordset**de persistido. **Filters** criados com uma Matriz de **Bookmarks** ou usando um valor de **FilterGroupEnum** não afetarão o conteúdo de um Recordset persistente. Essas regras aplicam-se a **Recordsets** criados com cursores do lado do cliente e do servidor.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Quando você aplica o sinalizador <STRONG>adFilterPendingRecords</STRONG> a um <STRONG>Recordset</STRONG> filtrado e modificado no modo de atualização em lote, o <STRONG>Recordset</STRONG> resultante será vazio se a filtragem tiver sido baseada no campo de chave de uma tabela de chave única e a modificação tiver sido feita nos valores do campo de chave. O <STRONG>Recordset</STRONG> resultante não será vazio se uma das afirmações a seguir for verdadeira:</P>
-
-
-
-  - A filtragem foi baseada em campos sem chave, em uma tabela de chave única.
-
-  - A filtragem foi baseada em qualquer campo, em uma tabela de várias chaves.
-
-  - As modificações foram feitas em campos sem chave, em uma tabela de chave única.
-
-  - As modificações foram feitas em qualquer campo, em uma tabela de várias chaves.
+> [!OBSERVAçãO] Quando você aplica o sinalizador **adFilterPendingRecords** a um **Recordset** filtrado e modificado no modo de atualização em lote, o **Recordset** resultante será vazio se a filtragem tiver sido baseada no campo de chave de uma tabela de chave única e a modificação tiver sido feita nos valores do campo de chave. O **Recordset** resultante não será vazio se uma das afirmações a seguir for verdadeira:
+> - A filtragem foi baseada em campos sem chave, em uma tabela de chave única.
+> - A filtragem foi baseada em qualquer campo, em uma tabela de várias chaves.
+> - As modificações foram feitas em campos sem chave, em uma tabela de chave única.
+> - As modificações foram feitas em qualquer campo, em uma tabela de várias chaves.
 
 A tabela a seguir resume os efeitos de **adFilterPendingRecords** em diferentes combinações de filtragem e modificações. A coluna da esquerda mostra as possíveis modificações; as modificações podem ser feitas em qualquer campo sem chave, no campo de chave em uma tabela de chave única ou em qualquer campo de chave em uma tabela de várias chaves. A linha superior mostra o critério de filtragem; a filtragem pode se basear em qualquer campo sem chaves, no campo de chave em uma tabela de chave única ou em qualquer campo de chave em uma tabela de várias chaves. As células de interseção mostram os resultados: + significa que aplicar **adFilterPendingRecords** resulta em um **Recordset** não vazio; **-** significa um **Recordset** vazio.
 

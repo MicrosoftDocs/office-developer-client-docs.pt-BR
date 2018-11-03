@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd4bafd29195e2ff9898973351cd7d13262c3cec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b346cd5c53ee101809237896acc0806bbf4e4624
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869677"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936928"
 ---
 # <a name="creating-the-connection-string"></a>Criando a sequência de conexão
 
@@ -50,7 +50,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 </tr>
 <tr class="odd">
 <td><p><em>Remote Server</em></p></td>
-<td><p>Especifica o nome do caminho do servidor a ser usado durante a abertura de uma conexão no cliente. (somente Remote Data Service.)</p></td>
+<td><p>Especifica o nome do caminho do servidor a ser usado ao abrir uma conexão do lado do cliente. (Apenas para o Remote Data Service.)</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ O ADO oferece suporte direto a cinco argumentos em uma sequência de conexão. O
 
 
 > [!NOTE]
-> Nos exemplos a seguir e em todo o Guia do programador do ADO, a identificação de usuário "MyId" com a senha "123aBc" é usada para realizar a autenticação no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
+> Nos exemplos a seguir e em todo o guia do programador do ADO, a id de usuário "MyId" com uma senha de "123aBc" é usada para autenticar com base no servidor. Você deve substituir esses valores pelas credenciais de logon válidas no seu servidor. Além disso, substitua "MySqlServer" pelo nome do seu servidor.
 
 O aplicativo HelloData no Capítulo 1 usava a seguinte sequência de conexão:
 

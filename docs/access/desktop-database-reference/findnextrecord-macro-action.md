@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0309a72040751aaab994225159fdca6698a189cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 426bf296345c47abe58e3e6e5057a43a0d43aa21
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920729"
+ms.locfileid: "25936627"
 ---
 # <a name="findnextrecord-macro-action"></a>Ação da macro LocalizarPróximoRegistro
 
@@ -34,17 +34,11 @@ Para definir os critérios de pesquisa, use a ação **EncontrarRegistro**. Norm
 
 Esta ação equivale a usar o botão **Localizar Próximo** da caixa de diálogo **Localizar e Substituir**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Apesar de a ação <STRONG>EncontrarRegistro</STRONG> corresponder ao comando <STRONG>Localizar</STRONG> da guia <STRONG>Página Inicial</STRONG> para tabelas, consultas e formulários, ela não corresponde ao comando <STRONG>Localizar</STRONG> no menu <STRONG>Editar</STRONG> da janela Código. Você não pode usar a ação <STRONG>EncontrarRegistro</STRONG> ou a ação <STRONG>LocalizarPróximoRegistro</STRONG> para pesquisar texto em módulos.</P>
-
-
-
+> [!OBSERVAçãO] Apesar de a ação **EncontrarRegistro** corresponder ao comando **Localizar** da guia **Página Inicial** para tabelas, consultas e formulários, ela não corresponde ao comando **Localizar** no menu **Editar** da janela Código. Você não pode usar a ação **EncontrarRegistro** ou a ação **LocalizarPróximoRegistro** para pesquisar texto em módulos.
 
 > [!TIP]
-> <P>[!DICA] Se você definiu o argumento <STRONG>Somente Campo Atual</STRONG> da ação <STRONG>EncontrarRegistro</STRONG> como <STRONG>Sim</STRONG>, talvez precise usar a ação <STRONG>IrParaControle</STRONG> para mover o foco para o controle que contém os dados que está pesquisando antes de usar a ação <STRONG>LocalizarPróximoRegistro</STRONG>.</P>
-
-
+> [!DICA] Se você definiu o argumento **Somente Campo Atual** da ação **EncontrarRegistro** como **Sim**, talvez precise usar a ação **IrParaControle** para mover o foco para o controle que contém os dados que está pesquisando antes de usar a ação **LocalizarPróximoRegistro**.
 
 Se o texto selecionado no momento for o mesmo do texto de pesquisa quando a ação de macro **LocalizarPróximoRegistro** for executada, a pesquisa começará imediatamente após a seleção, no mesmo campo da seleção e no mesmo registro. Caso contrário, começará no início do registro atual. Isso permite localizar várias instâncias dos mesmos critérios de pesquisa que podem aparecer em um único registro.
 

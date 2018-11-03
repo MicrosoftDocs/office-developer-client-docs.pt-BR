@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 5: Atualização e dados persistentes'
-TOCTitle: 'Chapter 5: Updating and Persisting Data'
+title: 'Capítulo 5: Atualizando e mantendo os dados'
+TOCTitle: 'Chapter 5: Updating and persisting data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fe82d2fe434032165a39c95f05d426b8a7342bf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: decb4eefa7c1215d8889fec85c22296d33eff40c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874892"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937306"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>Capítulo 5: Atualização e dados persistentes
-
+# <a name="chapter-5-updating-and-persisting-data"></a>Capítulo 5: Atualizando e mantendo os dados
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -31,5 +30,4 @@ No modo imediato, cada invocação do método **Update** propaga as alterações
 Este capítulo aborda os seguintes tópicos:
 
 - [Atualizando dados (ADO)](updating-data.md)
-
 - [Mantendo dados (ADO)](persisting-data.md)

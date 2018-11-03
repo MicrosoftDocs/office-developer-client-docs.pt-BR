@@ -1,20 +1,19 @@
 ---
-title: 'Capítulo 13: Uso e segurança do RDS'
-TOCTitle: 'Chapter 13: RDS Usage and Security'
+title: 'Capítulo 13: Segurança e o uso do RDS'
+TOCTitle: 'Chapter 13: RDS usage and security'
 ms:assetid: 78add8bb-f01a-2efb-33f0-430deebefe8f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4250235d433572944d311611c909c060d2e69da9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 21f1484850a91d1fbdbe687f171e8ae9dfe4a5cd
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876103"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936466"
 ---
-# <a name="chapter-13-rds-usage-and-security"></a>Capítulo 13: Uso e segurança do RDS
-
+# <a name="chapter-13-rds-usage-and-security"></a>Capítulo 13: Segurança e o uso do RDS
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -22,29 +21,30 @@ Use as informações deste capítulo para configurar seu servidor e usar o RDS r
 
 Esta seção contém informações sobre:
 
+- [Configurando o DataFactory para modos safe ou unrestricted](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Configurando o RDS](configuring-rds.md)
-
-- [Concedendo privilégios de convidados a um computador do servidor Web; Privilégios de convidados RDS \[ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
-
-- [Marcando os objetos de negócios como seguros para scripts](marking-business-objects-as-safe-for-scripting.md)
-
-- [Registrando objetos de negócios no cliente para uso com o DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
-
-- [Configurando o DCOM Stream Marshaling Format](setting-dcom-stream-marshaling-format.md)
-
+- [Configurando servidores virtuais no IIS](configuring-virtual-servers-on-iis.md)
+- [Personalização de DataFactory (ADO)](datafactory-customization.md)
 - [Permitindo que uma DLL seja executada no DCOM](enabling-a-dll-to-run-on-dcom.md)
-
-- [Configurando os servidores virtuais no IIS](configuring-virtual-servers-on-iis.md)
-
+- [Concedendo privilégios de convidados a um computador do servidor web; Privilégios de convidados RDS \[ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Marcando os objetos de negócios como seguros para script](marking-business-objects-as-safe-for-scripting.md)
+- [Registrar objetos de negócios no cliente para usam com o DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
+- [Protegendo aplicativos RDS](securing-rds-applications.md)
+- [Configurando o DCOM stream marshaling format](setting-dcom-stream-marshaling-format.md)
 - [Especificando encadeamentos por processador no IIS](specifying-threads-per-processor-on-iis.md)
-
-- [Protegendo os aplicativos RDS](securing-rds-applications.md)
-
-- [Configurando o DataFactory para os modos Seguro e Irrestrito](configuring-datafactory-for-safe-or-unrestricted-modes.md)
-
+- [Solucionando problemas do RDS (ADO)](troubleshooting-rds.md)
 - [Usando tecnologias relacionadas com o RDS (ADO)](using-related-technologies-with-rds.md)
 
-- [Personalização de DataFactory (ADO)](datafactory-customization.md)
 
-- [Solucionando problemas do RDS (ADO)](troubleshooting-rds.md)
+
+
+
+
+
+
+
+
+
+
+
 

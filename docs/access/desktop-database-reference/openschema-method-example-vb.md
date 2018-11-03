@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fccddd2f9566e0cb864a7a1cb4ccddb340fd0c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d5de504f851bfa228bfaddad8923d7365e25492b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873457"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936529"
 ---
 # <a name="openschema-method-example-vb"></a>Exemplo do método OpenSchema (VB)
 
@@ -74,6 +74,8 @@ ErrorHandler:
 End Sub 
 'EndOpenSchemaVB 
 ```
+
+<br/>
 
 Este exemplo especifica uma tabela\_restrição de tipo de consulta no método **OpenSchema** argumento ***Criteria*** . Como resultado, somente as informações de esquema para os modos de exibição especificado no banco de dados ***Pubs*** são retornadas. Em seguida, o exemplo exibe o(s) nome(s) e o(s) tipo(s) de cada tabela.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d2bd8981ec05758b89b461fc2c82080780d6b067
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ba28bc092a09bc4a2899923957a54670abf30d58
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926714"
+ms.locfileid: "25936607"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Método Field2.LoadFromFile (DAO)
 
@@ -23,9 +23,9 @@ ms.locfileid: "25926714"
 
 Carrega o arquivo especificado do disco.
 
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Version information
 
-Version Added: Access 2007
+Versão adicionada: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 

@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 72d9d9d27ac128ec587621231b5c899bc89c2752
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925944"
+ms.locfileid: "25937348"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Subconsultas SQL (Microsoft Access SQL)
 
@@ -111,9 +111,7 @@ Algumas subconsultas são permitidas em consultas de de tabela de referência cr
 
 ## <a name="example"></a>Exemplo
 
-This example lists the name and contact of every customer who placed an order in the second quarter of 1995.
-
-Este exemplo chama o procedimento EnumFields, que pode ser localizado no exemplo da instrução SELECT.
+This example lists the name and contact of every customer who placed an order in the second quarter of 1995. Ele chama o procedimento EnumFields, que pode ser encontrado no exemplo da instrução SELECT.
 
 ```vb
     Sub SubQueryX() 

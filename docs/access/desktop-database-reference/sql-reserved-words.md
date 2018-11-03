@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ade0aa43f84bfb8088281a2d5458b157ea7658a9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888710"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937187"
 ---
 # <a name="sql-reserved-words"></a>Palavras reservadas SQL
 
@@ -25,7 +25,7 @@ ms.locfileid: "25888710"
 A lista a seguir inclui todas as palavras reservadas pelo mecanismo de banco de dados Microsoft Access para uso em instruções SQL. As palavras na lista que não estiverem em letra maiúscula também são palavras reservadas por outros aplicativos. Consequentemente, os tópicos de Ajuda individuais para essas palavras fornecem descrições gerais que não se concentram no uso do SQL.
 
 > [!NOTE]
-> <P>As palavras seguidas por um asterisco (*) são reservadas, mas atualmente não têm nenhum significado no contexto de uma instrução SQL do Microsoft® Access (por exemplo, <STRONG>Level</STRONG> e <STRONG>TableID</STRONG>). As palavras que não estão sublinhadas não têm explicações vinculadas.</P>
+> <P>Palavras seguidas por um asterisco (*) são reservadas, mas possuem atualmente não faz sentido no contexto de uma instrução SQL do Microsoft Access (por exemplo, o <STRONG>nível</STRONG> e <STRONG>TableID</STRONG>). As palavras que não estão sublinhadas não têm explicações vinculadas.</P>
 
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d52020deecce9235db12f749b9d6913653157034
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875158"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937768"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver da fonte de dados de texto
 
@@ -25,7 +25,7 @@ ms.locfileid: "25875158"
 
 O mesmo driver de banco de dados é usado para fontes de dados HTML e de texto.
 
-Quando você instala o driver de banco de dados da fonte de dados de texto, o programa de instalação grava um conjunto de valores padrão no Registro do Microsoft® Windows®, nas subchaves Engines e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
+Quando você instala o driver de banco de dados da fonte de dados de texto, o programa de instalação grava um conjunto de valores padrão para o registro do Microsoft Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
 
 ## <a name="text-data-source-initialization-settings"></a>Configurações de inicialização da fonte de dados de texto
 

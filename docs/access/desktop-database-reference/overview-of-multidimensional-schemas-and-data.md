@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887163"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937026"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Visão geral de esquemas e dados multidimensionais
 
@@ -80,17 +80,14 @@ Cada nível tem um conjunto de membros, conforme mostrado a seguir:
 
 Os membros do nível folha de uma hierarquia não têm filhos e os membros do nível raiz não têm pais. Todos os outros membros têm pelo menos um pai e um filho. Por exemplo, uma transversal parcial da árvore da hierarquia na dimensão Geografia resulta nas seguintes relações pai-filho:
 
-  - {All} (pai) {Europa, América do Norte}
-
-  - {North America} (pai) {Canadá, EUA}
-
-  - {EUA} (pai) {USA-NE, USA-NW, USA-SE, USA-SW}
-
-  - {USA-NW} (pai) {Seattle, Boise}
+- {All} (pai) {Europa, América do Norte}
+- {North America} (pai) {Canadá, EUA}
+- {EUA} (pai) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (pai) {Seattle, Boise}
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Esse exemplo também ilustra outra característica: alguns membros do nível Semana da hierarquia Ano-Semana não aparecem em qualquer nível da hierarquia Ano-Trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível da hierarquia da semana do ano semana não aparecem em qualquer nível da hierarquia trimestre do ano. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 
 ## <a name="understanding-multidimensional-schemas"></a>Noções básicas sobre esquemas multidimensionais
 
@@ -164,5 +161,5 @@ Os membros do nível folha de uma hierarquia não têm filhos e os membros do n�
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Esse exemplo também ilustra outra característica: alguns membros do nível Semana da hierarquia Ano-Semana não aparecem em qualquer nível da hierarquia Ano-Trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível da hierarquia da semana do ano semana não aparecem em qualquer nível da hierarquia trimestre do ano. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 

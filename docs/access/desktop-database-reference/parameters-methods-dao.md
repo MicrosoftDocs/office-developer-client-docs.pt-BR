@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123876(v=office.15)
 ms:contentKeyID: 52071516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ba89e4168596e9c6c1cda6a107ac9cc55a90ec0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d6be101c82bc590768e31bdeba0bced5d5f41ee7
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925713"
+ms.locfileid: "25936445"
 ---
 # <a name="parameters-methods-dao"></a>Métodos de parâmetros (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Método parâmetros. (DAO)](parameters-refresh-method-dao.md)
+- [Método parâmetros. (DAO)](parameters-refresh-method-dao.md)
 

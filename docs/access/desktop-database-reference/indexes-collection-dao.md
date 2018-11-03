@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c6f610c329057156875065e149db1e914a282e4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3e38df07831e21a92afdf8106b6d8eb3844396cc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920449"
+ms.locfileid: "25936753"
 ---
 # <a name="indexes-collection-dao"></a>Coleção Indexes (DAO)
 
@@ -34,7 +34,7 @@ Depois de criar um novo objeto **Index**, você deverá usar o método **Append*
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Verifique se seus dados são adequados aos atributos de seu novo índice. Se o seu índice exigir valores únicos, assegure que não existam duplicatas nos registros de dados existentes. Se existirem duplicatas, o mecanismo do banco de dados do Microsoft Access não poderá criar o índice; ocorrerá um erro interceptável se você tentar usar o método Append no novo índice.</P>
+> [!IMPORTANTE] Verifique se seus dados são adequados aos atributos de seu novo índice. Se o seu índice exigir valores únicos, assegure que não existam duplicatas nos registros de dados existentes. Se existirem duplicatas, o mecanismo do banco de dados do Microsoft Access não poderá criar o índice; ocorrerá um erro interceptável se você tentar usar o método Append no novo índice.
 
 
 

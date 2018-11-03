@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd1d48926440ac47a204becfbb4c68c5a827d74f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 588019a058f44c53967370f609ae10dda5737d59
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927561"
+ms.locfileid: "25936242"
 ---
 # <a name="field2complextype-property-dao"></a>Propriedade Field2.complexType (DAO)
 
@@ -24,9 +24,9 @@ ms.locfileid: "25927561"
 
 Retorna um objeto **[ComplexType](complextype-object-dao.md)** que representa um campo de vários valores. Somente leitura.
 
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Version information
 
-Version Added: Access 2007
+Versão adicionada: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 

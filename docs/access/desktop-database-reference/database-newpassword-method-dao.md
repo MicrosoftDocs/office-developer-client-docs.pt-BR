@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f4dca778da3c364d9e9b5a5eaf8ebbc32501853f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919357"
+ms.locfileid: "25936851"
 ---
 # <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 
@@ -59,11 +59,7 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A nova configuração da propriedade <strong>Password</strong> do objeto <strong>Database</strong> .</p>
-
-> [!NOTE]
-> [!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.
-
-
+<p><strong>Observação</strong> Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 </tbody>

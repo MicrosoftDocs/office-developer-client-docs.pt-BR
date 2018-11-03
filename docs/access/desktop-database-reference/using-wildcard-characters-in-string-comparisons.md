@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869621"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936963"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Utilizando caracteres curinga em comparações de sequência
 
@@ -60,7 +60,7 @@ Você pode usar um grupo de um ou mais caracteres (*charlist*) entre colchetes (
 
 Além de uma lista simple de caracteres entre colchetes, *charlist* pode especificar um intervalo de caracteres usando um hífen (-) para separar superior e limites inferiores do intervalo. Por exemplo, usando \[A-Z\] em *padrão* resultará em uma coincidência se a posição do caractere correspondente na *expressão* contém qualquer uma das letras maiusculas no intervalo à Z. Você pode incluir vários intervalos entre colchetes sem delimitar os intervalos. Por exemplo, \[a-zA-Z0-9\] corresponde a qualquer caractere alfanumérico.
 
-É importante observar que os curingas ANSI SQL (%) e (\_) só estão disponíveis com o Microsoft® Jet versão 4. x e o Microsoft OLE DB Provider for Jet. Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.
+É importante observar que os curingas ANSI SQL (%) e (\_) só estão disponíveis com o Microsoft Jet versão 4. x e o Microsoft OLE DB Provider for Jet. Eles serão tratados como literais se utilizados no Microsoft Access ou no DAO.
 
 A seguir estão outras regras importantes para correspondência de padrões:
 

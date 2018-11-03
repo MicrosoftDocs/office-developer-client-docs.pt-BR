@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
 ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d39dc351eee86ec409f85b602dfa46099c0381b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 611fed16c9020b0a6499427af0788bf9ff050c28
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923613"
+ms.locfileid: "25936557"
 ---
 # <a name="databaseversion-property-dao"></a>Propriedade Database.Version (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Em um espaço de trabalho do Microsoft Access , retorna a versão do mecanismo d
 
 O valor de retorno é uma cadeia de caracteres que avalia o número da versão, formatado como se segue.
 
-  - O espaço de trabalho do Microsoft Access representa o número da versão na fórmula "*maior.menor*". Por exemplo, "3.0". O número da versão do produto é composto do número da versão (3), de um ponto e do número do lançamento (0).
+- O espaço de trabalho do Microsoft Access representa o número da versão na fórmula "*maior.menor*". Por exemplo, "3.0". O número da versão do produto é composto do número da versão (3), de um ponto e do número do lançamento (0).
 
 A tabela a seguir mostra qual versão do mecanismo do banco de dados foi incluída nas várias versões dos produtos Microsoft.
 

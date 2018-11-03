@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
 ms:contentKeyID: 48544524
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96603acb4f3cbb8a15a8449323407e2c609bebea
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 26ddcae48125dcb9be5ec34bf9e53bc5701f970e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930865"
+ms.locfileid: "25936767"
 ---
 # <a name="field2appendonly-property-dao"></a>Propriedade Field2.AppendOnly (DAO)
 
@@ -20,9 +20,9 @@ ms.locfileid: "25930865"
 
 Obtém ou define um **Boolean** que indica se o campo especificado está configurado para acrescentar novos valores ao conteúdo existente do campo à medida que forem adicionados. Leitura/gravação.
 
-## <a name="version-information"></a>Informações da versão
+## <a name="version-information"></a>Version information
 
-Version Added: Access 2007
+Versão adicionada: Access 2007
 
 ## <a name="syntax"></a>Sintaxe
 

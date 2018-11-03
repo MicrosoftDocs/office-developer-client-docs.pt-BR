@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fbde7aa9785e4e875f96569884e7f6e45743f2bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 253be078fa6a8f5fdd4cb0c6c67fc6d5385e554c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925580"
+ms.locfileid: "25936536"
 ---
 # <a name="field2sourcetable-property-dao"></a>Propriedade Field2.SourceTable (DAO)
 
@@ -70,6 +70,6 @@ Estas propriedades indicam os nomes originais de campos e tabelas associados ao 
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] A propriedade <STRONG>SourceTable</STRONG> não retornará um nome de tabela significativo se utilizada em um objeto <STRONG>Field2</STRONG> na coleção <STRONG>Fields</STRONG> de um objeto <STRONG>Recordset</STRONG> de tipo tabela.</P>
+> [!OBSERVAçãO] A propriedade **SourceTable** não retornará um nome de tabela significativo se utilizada em um objeto **Field2** na coleção **Fields** de um objeto **Recordset** de tipo tabela.
 
 

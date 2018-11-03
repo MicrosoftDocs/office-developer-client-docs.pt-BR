@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922031"
+ms.locfileid: "25936606"
 ---
 # <a name="find-method-ado"></a>Método Find (ADO)
 
@@ -57,12 +57,9 @@ Os asteriscos podem ser utilizados apenas no final de uma sequência de critéri
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Ocorrerá um erro se uma posição de linha atual não for definida antes de chamar <STRONG>Find</STRONG>. Qualquer método que defina posição de linha, tal como <A href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</A>, deve ser chamado antes de chamar <STRONG>Find</STRONG>.</P>
-
-
-
+> [!OBSERVAçãO] Ocorrerá um erro se uma posição de linha atual não for definida antes de chamar **Find**. Qualquer método que defina posição de linha, tal como [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), deve ser chamado antes de chamar **Find**.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você chamar o método <STRONG>Find</STRONG> em um recordset e a posição atual no recordset estiver no último registro ou no final do arquivo (EOF), nada será encontrado. É necessário chamar o método <STRONG>MoveFirst</STRONG> para definir a posição atual/cursor para o início do recordset.</P>
+> [!OBSERVAçãO] Se você chamar o método **Find** em um recordset e a posição atual no recordset estiver no último registro ou no final do arquivo (EOF), nada será encontrado. É necessário chamar o método **MoveFirst** para definir a posição atual/cursor para o início do recordset.
 
 

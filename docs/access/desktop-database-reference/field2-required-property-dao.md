@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
 ms:contentKeyID: 48545848
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb7735bf2c19da3cf82ffcb10d3d5b99b1a01c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cf5e459773cd0fa0976704834b1b73467fc75294
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928786"
+ms.locfileid: "25937404"
 ---
 # <a name="field2required-property-dao"></a>Propriedade Field2.Required (DAO)
 
@@ -73,7 +73,7 @@ Você pode usar a propriedade **Required** junto com as propriedades **AllowZero
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Quando for possível definir essa propriedade para um objeto <STRONG>Index</STRONG> ou para um objeto <STRONG>Field2</STRONG>, defina-a para o objeto <STRONG>Field2</STRONG>. A validade da configuração da propriedade para um objeto <STRONG>Field2</STRONG> é verificada antes da configuração para um objeto <STRONG>Index</STRONG>.</P>
+> [!OBSERVAçãO] Quando for possível definir essa propriedade para um objeto **Index** ou para um objeto **Field2**, defina-a para o objeto **Field2**. A validade da configuração da propriedade para um objeto **Field2** é verificada antes da configuração para um objeto **Index**.
 
 
 
