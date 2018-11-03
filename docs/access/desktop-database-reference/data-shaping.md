@@ -1,20 +1,19 @@
 ---
-title: Data Shaping (referência de banco de dados da área de trabalho do Access)
-TOCTitle: Data Shaping
+title: Data shaping (referência de banco de dados da área de trabalho do Access)
+TOCTitle: Data shaping
 ms:assetid: 650571cc-6874-2cdb-dd76-0804d1cc4e38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8fc2e8ec2ceeefc670681a5aec43f03c86fd73d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 96a5d7ad82c7cb9182f95b428ff17c9df60c47b3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868872"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947095"
 ---
-# <a name="data-shaping"></a>Data Shaping
-
+# <a name="data-shaping"></a>Data shaping
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -41,9 +40,6 @@ Para obter exemplos de comandos shape e suas hierarquias resultantes, consulte U
 Esta seção inclui os seguintes tópicos:
 
 - [Reformatação](reshaping.md)
-
-- [Agregados neto](grandchild-aggregates.md)
-
-- [Comandos com parâmetros e comandos COMPUTE de intervenção](parameterized-commands-with-intervening-compute-commands.md)
-
-- [Mantendo conjuntos de registros hierárquicos](persisting-hierarchical-recordsets.md)
+- [Agregados netos](grandchild-aggregates.md)
+- [Comandos parametrizados com comandos COMPUTE intermediários](parameterized-commands-with-intervening-compute-commands.md)
+- [Mantendo Recordsets hierárquicos](persisting-hierarchical-recordsets.md)

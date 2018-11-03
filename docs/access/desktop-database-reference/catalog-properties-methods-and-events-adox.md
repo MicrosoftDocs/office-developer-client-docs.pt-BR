@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1162b844ab31faa7fa529e87acf092464e3930a2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 52c1d64d6c6e9c2e7413f7e31dde73ebdf306ae1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930235"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946563"
 ---
 # <a name="catalog-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos de Catalog (ADOX)
 
@@ -20,23 +20,16 @@ ms.locfileid: "25930235"
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
 - [Propriedade ActiveConnection](activeconnection-property-adox.md)
-
 - [Coleção Groups](groups-collection-adox.md)
-
 - [Coleção Procedures](procedures-collection-adox.md)
-
 - [Coleção Tables](tables-collection-adox.md)
-
 - [Coleção Users](users-collection-adox.md)
-
 - [Coleção Views](views-collection-adox.md)
 
 ## <a name="methods"></a>Métodos
 
 - [Método Create](create-method-adox.md)
-
 - [Método GetObjectOwner](getobjectowner-method-adox.md)
-
 - [Método SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
 
 ## <a name="events"></a>Eventos

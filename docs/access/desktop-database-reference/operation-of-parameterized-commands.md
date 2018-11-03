@@ -1,20 +1,19 @@
 ---
-title: Operação dos comandos com parâmetros
-TOCTitle: Operation of Parameterized Commands
+title: Operação dos comandos parametrizados
+TOCTitle: Operation of parameterized commands
 ms:assetid: 71edbd16-21db-7afa-356b-d8e7afb92b3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ae1b0545ac647b0034b0d24cac1a653cfeb4b7e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883845"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946144"
 ---
-# <a name="operation-of-parameterized-commands"></a>Operação dos comandos com parâmetros
-
+# <a name="operation-of-parameterized-commands"></a>Operação dos comandos parametrizados
 
 **Aplica-se a**: Access 2013, o Office 2013
 

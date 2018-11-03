@@ -1,34 +1,28 @@
 ---
-title: Modelo detalhado de programação RDS
-TOCTitle: RDS Programming Model in Detail
+title: Modelo de programação RDS detalhadamente
+TOCTitle: RDS programming model in detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a34321df27b5270bd35844eaf28b0b335b0294e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: b152715c104c9c3a4d503254d0dc36622e29006c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937474"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943826"
 ---
-# <a name="rds-programming-model-in-detail"></a>Modelo detalhado de programação RDS
-
+# <a name="rds-programming-model-in-detail"></a>Modelo de programação RDS detalhadamente
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
 O modelo de programação RDS é formado por estes elementos-chave:
 
-  - RDS. DataSpace
-
-  - Rdsserver
-
-  - RDS. DataControl
-
-  - Evento
+- RDS. DataSpace
+- Rdsserver
+- RDS. DataControl
+- Evento
 
 ## <a name="rdsdataspace"></a>RDS. DataSpace
 

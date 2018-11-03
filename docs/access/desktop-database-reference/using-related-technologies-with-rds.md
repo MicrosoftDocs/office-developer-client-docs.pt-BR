@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c99fd426473cf331c5b43b93c9c1bb285b6a5b43
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a1fc46e1a5b8f320810f2e0e5ea891e3a6cb85a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890999"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947865"
 ---
-# <a name="using-related-technologies-with-rds"></a>Uso de tecnologias relacionadas com o RDS
+# <a name="using-related-technologies-with-rds"></a>Usando tecnologias relacionadas com o RDS
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Esta seção contém informações específicas sobre o uso do RDS com aspectos das seguintes tecnologias:
 
-- [Usando o RDS com o ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
+- [Uso do RDS com pooling de conexão ODBC](using-rds-with-odbc-connection-pooling.md)
 
 - [Executar objetos corporativos nos serviços de componente](running-business-objects-in-component-services.md)
 

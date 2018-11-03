@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125779(v=office.15)
 ms:contentKeyID: 52074651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3400b391e07eef387e04e731baac2f481df81609
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c7f0585630dbabaefa43bffb889c88852351cc35
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924509"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947844"
 ---
 # <a name="containers-properties-dao"></a>Propriedades de contêineres (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-
-
-  - [Propriedade Containers.Count (DAO)](containers-count-property-dao.md)
+- [Propriedade Containers.Count (DAO)](containers-count-property-dao.md)
 

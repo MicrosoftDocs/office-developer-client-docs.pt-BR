@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
 ms:contentKeyID: 48543245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b9ff92582399697deb46674bfb17ce43bf9d9cde
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 783573573c83b8edd15aceb060a0e535e38a1b13
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923571"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947214"
 ---
 # <a name="recordsetstillexecuting-property-dao"></a>Propriedade Recordset.StillExecuting (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 

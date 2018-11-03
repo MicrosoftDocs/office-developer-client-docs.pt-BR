@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ab98e270fd52d656bf722c7f666afbe22d5ea44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2799feebc3d2c2c4599249f0af310cf4020dcb49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926301"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945506"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>Eventos ConnectComplete e Disconnect (ADO)
 
@@ -28,11 +28,11 @@ Desconectar*adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *pError*
+- *pError*
 
   - Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
@@ -40,7 +40,7 @@ Desconectar*adStatus*, *pConnection*
     
     Antes do evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes. Contudo, o fechamento e a reabertura de [Connection](connection-object-ado.md) faz com que esses eventos ocorram novamente.
 
-  - *pConnection*
+- *pConnection*
 
   - O objeto **Connection** ao qual este evento se aplica.
 

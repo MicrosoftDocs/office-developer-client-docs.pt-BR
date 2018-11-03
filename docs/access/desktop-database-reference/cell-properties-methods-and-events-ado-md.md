@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
 ms:contentKeyID: 48545691
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17da3304dd6737712b1bd79dc4c9088bcdc2bc2a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6ba082ab64a7f2a3f4d5d5a4246e0a31c34fc075
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924537"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944568"
 ---
 # <a name="cell-properties-methods-and-events-ado-md"></a>Célula propriedades, métodos e eventos (ADO MD)
 
@@ -20,13 +20,9 @@ ms.locfileid: "25924537"
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
 - [Propriedade FormattedValue](formattedvalue-property-ado-md.md)
-
-- [Propriedade Ordinal (Cell)](ordinal-property-ado-md-cell.md)
-
+- [Propriedade ordinal (célula)](ordinal-property-ado-md-cell.md)
 - [Coleção Positions](positions-collection-ado-md.md)
-
 - [Coleção Properties](properties-collection-ado.md)
-
 - [Propriedade Value](value-property-ado-md.md)
 
 ## <a name="methods"></a>Métodos

@@ -1,20 +1,19 @@
 ---
 title: Adicionando registros (referência de banco de dados da área de trabalho do Access)
-TOCTitle: Adding Records
+TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 760c9b2915b84457d64325c97c5118fb5debc925
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 177eeb0499f3ba3376237c4773e776f8c7c7583f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880590"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946507"
 ---
-# <a name="adding-records"></a>Adição de registros
-
+# <a name="adding-records"></a>Adicionando registros
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,9 +25,7 @@ Se você chamar **AddNew** durante a edição do registro atual ou a adição de
 
 Esta seção inclui os seguintes tópicos:
 
-- [Adição de vários campos](adding-multiple-fields.md)
-
-- [Determinação do modo de edição](determining-edit-mode.md)
-
-- [Usando AddNew nos Modos de atualização imediata e em lotes](using-addnew-in-immediate-and-batch-modes.md)
+- [Adicionando vários campos](adding-multiple-fields.md)
+- [Determinando o modo de edição](determining-edit-mode.md)
+- [Usando AddNew nos modos Immediate e em lotes](using-addnew-in-immediate-and-batch-modes.md)
 

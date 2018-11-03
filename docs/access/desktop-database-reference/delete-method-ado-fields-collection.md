@@ -1,19 +1,19 @@
 ---
-title: Método Delete (Coleção Fields do ADO)
-TOCTitle: Delete Method (ADO Fields Collection)
+title: Excluir método (coleção Fields do ADO)
+TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
 ms:contentKeyID: 48547047
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fc2e614916026effe6ee0a9766e0b23db200574
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afeec4007b9bd44a9575217e1fb6380a50d699c3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886393"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945310"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Método Delete (Coleção Fields do ADO)
+# <a name="delete-method-ado-fields-collection"></a>Excluir método (coleção Fields do ADO)
 
 
 **Aplica-se a**: Access 2013, o Office 2013
@@ -28,7 +28,7 @@ Exclui um objeto da coleção [Fields](fields-collection-ado.md).
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Field*
+- *Field*
 
   - Um **Variant** que designa o objeto [Field](field-object-ado.md) a ser excluído. Este parâmetro pode ser o nome do objeto **Field** ou a posição ordinal do próprio objeto **Field**.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887429"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945747"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemplo de modelo de eventos do ADO (VC + +)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -22,27 +21,27 @@ A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https:/
 
 A descrição geral utiliza **adoint.h** como uma referência para assinaturas de métodos. No entanto, alguns detalhes na descrição geral ligeiramente alteram como resultado do uso do ** \#importar** diretiva:
 
-  - O ** \#importar** diretiva resolve **typedef**e tipos de dados de assinatura do método e modificadores para seus formatos fundamentais.
+- O ** \#importar** diretiva resolve **typedef**e tipos de dados de assinatura do método e modificadores para seus formatos fundamentais.
 
-  - Os métodos virtuais puros que devem ser sobregravados são todos prefixados por "**brutos\_**".
+- Os métodos virtuais puros que devem ser sobregravados são todos prefixados por "**brutos\_**".
 
 Alguns dos códigos simplesmente refletem o estilo de codificação.
 
-  - O ponteiro para **IUnknown** utilizado pelo método **Advise** é obtido explicitamente com uma chamada de **QueryInterface**.
+- O ponteiro para **IUnknown** utilizado pelo método **Advise** é obtido explicitamente com uma chamada de **QueryInterface**.
 
-  - Você não precisa codificar explicitamente um destrutor nas definições de classe.
+- Você não precisa codificar explicitamente um destrutor nas definições de classe.
 
-  - Talvez queira codificar implementações mais robustas de QueryInterface, AddRef e Release.
+- Talvez queira codificar implementações mais robustas de QueryInterface, AddRef e Release.
 
-  - O ** \_ \_uuidof()** diretiva é utilizada extensivamente para obter as IDs de interface.
+- O ** \_ \_uuidof()** diretiva é utilizada extensivamente para obter as IDs de interface.
 
 Por fim, o exemplo contém alguns códigos em funcionamento.
 
-  - O exemplo está escrito como um aplicativo de console.
+- O exemplo está escrito como um aplicativo de console.
 
-  - Você deve inserir seu próprio código no comentário, "/ / algum trabalho".
+- Você deve inserir seu próprio código no comentário, "/ / algum trabalho".
 
-  - Todos os manipuladores de evento são padronizados para não fazer nada e cancelar notificações adicionais. Insira o código apropriado para seu aplicativo e permita notificações, se forem exigidas.
+- Todos os manipuladores de evento são padronizados para não fazer nada e cancelar notificações adicionais. Insira o código apropriado para seu aplicativo e permita notificações, se forem exigidas.
 
 <!-- end list -->
 

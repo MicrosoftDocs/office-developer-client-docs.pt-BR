@@ -1,20 +1,19 @@
 ---
-title: Executando objetos de negócios em serviços de componente
-TOCTitle: Running Business Objects in Component Services
+title: Executar objetos corporativos nos serviços de componente
+TOCTitle: Running business objects in component services
 ms:assetid: 12103458-b1dd-10fc-37e8-883fd6c6b9d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c398dc0733b58c72fb021c104eaf1a546fd9c66a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3dbf3c88f140210228a1bb3d6d0341d6bde42aa2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881675"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944113"
 ---
-# <a name="running-business-objects-in-component-services"></a>Executando objetos de negócios em serviços de componente
-
+# <a name="running-business-objects-in-component-services"></a>Executar objetos corporativos nos serviços de componente
 
 **Aplica-se a**: Access 2013, o Office 2013
 

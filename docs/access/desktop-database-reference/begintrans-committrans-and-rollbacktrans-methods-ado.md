@@ -1,31 +1,29 @@
 ---
 title: Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68e827f6177c0ea90d4dd8d74c9782d552b3fdd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884664"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945919"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Estes métodos de transação gerenciam o processamento das transações em um objeto [Connection](connection-object-ado.md) da seguinte forma:
 
-  - **BeginTrans**  inicia uma nova transação.
+- **BeginTrans**  inicia uma nova transação.
 
-  - **CommitTrans**  salva as alterações e finaliza a transação atual. Também pode iniciar uma nova transação.
+- **CommitTrans**  salva as alterações e finaliza a transação atual. Também pode iniciar uma nova transação.
 
-  - **RollbackTrans**  cancela qualquer alteração feita durante a transação atual e finaliza a transação. Também pode iniciar uma nova transação.
+- **RollbackTrans**  cancela qualquer alteração feita durante a transação atual e finaliza a transação. Também pode iniciar uma nova transação.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -43,14 +41,13 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *object*
+- *object*
 
   - Um objeto **Connection**.
 
-**Objeto Connection**
+### <a name="connection"></a>Connection
 
 Use esses métodos com um objeto **Connection** quando desejar salvar ou cancelar uma série de alterações feitas na fonte de dados como uma única unidade. Por exemplo, para transferir dinheiro entre contas, subtraia um valor de uma conta e acrescente o mesmo valor à outra. Se uma das duas atualizações falhar, as contas ficarão desequilibradas. A realização dessas alterações em uma transação aberta garante que todas as alterações, ou nenhuma delas, ocorram.
-
 
 > [!NOTE]
 > Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "**Transaction DDL**" definida pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection**, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
@@ -63,7 +60,7 @@ A chamada do método **CommitTrans** salva as alterações feitas em uma transa�
 
 Dependendo da propriedade **Attributes** do objeto [Connection](attributes-property-ado.md), a chamada do método **CommitTrans** ou **RollbackTrans** poderá iniciar automaticamente uma nova transação. Se a propriedade **Attributes** for definida como **adXactCommitRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **CommitTrans**. Se a propriedade **Attributes** for definida como **adXactAbortRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **RollbackTrans**.
 
-**Remote Data Service**
+### <a name="remote-data-service"></a>Remote Data Service
 
 Os métodos **BeginTrans**, **CommitTrans** e **RollbackTrans** não estão disponíveis em um objeto **Connection** do cliente.
 

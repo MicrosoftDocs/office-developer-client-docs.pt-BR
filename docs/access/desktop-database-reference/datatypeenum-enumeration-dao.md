@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a1c576d44a0c91c92072ddf5c61a11e7cd38457
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a5c4486ab78efa386b2d5f1c2ca63f464823eb23
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937551"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947669"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>Enumeração DataTypeEnum (DAO)
 

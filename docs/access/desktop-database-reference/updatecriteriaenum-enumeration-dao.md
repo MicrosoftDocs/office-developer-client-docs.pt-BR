@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
 ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8035d90da62f83c930a208cac73f1fe45d61340
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d6160c53dd1cab26b2b92ec023f28158635d7081
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880492"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944463"
 ---
 # <a name="updatecriteriaenum-enumeration-dao"></a>Enumeração UpdateCriteriaEnum (DAO)
 

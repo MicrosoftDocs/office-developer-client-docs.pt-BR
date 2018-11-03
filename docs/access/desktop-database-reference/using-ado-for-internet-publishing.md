@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3a9c6b8dc7a6dc88ac6baf8d05e1baf4a0e048b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 22f89b4fb22e7625f73eb938aa011beb42c6b99c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868550"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944344"
 ---
-# <a name="using-ado-for-internet-publishing"></a>Uso do ADO para Publicação de Internet
+# <a name="using-ado-for-internet-publishing"></a>Usando o ADO for Internet publishing
 
 
 **Aplica-se a**: Access 2013, o Office 2013

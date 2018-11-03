@@ -1,6 +1,6 @@
 ---
-title: Inicializando o driver da fonte de dados de texto
-TOCTitle: Initializing the Text Data Source Driver
+title: Inicializando o driver de fonte de dados de texto
+TOCTitle: Initializing the Text Data Source driver
 ms:assetid: cba0864e-5f94-bf43-4708-b1981e3acaff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834391(v=office.15)
 ms:contentKeyID: 48547718
@@ -10,14 +10,14 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d52020deecce9235db12f749b9d6913653157034
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: f87c8e45cbc719ee50c017abd45a8950dc6ec7ed
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937768"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945443"
 ---
-# <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver da fonte de dados de texto
+# <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver de fonte de dados de texto
 
 
 **Aplica-se a**: Access 2013, o Office 2013

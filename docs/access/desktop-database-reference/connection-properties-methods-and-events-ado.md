@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
 ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3697aeef91f4662c9d6edc7b2d7b3d77472d7a11
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ffc8f1aa1097319929059ec21651e651184050d4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930074"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944239"
 ---
 # <a name="connection-properties-methods-and-events-ado"></a>Propriedades de Conexão, métodos e eventos (ADO)
 
@@ -20,56 +20,37 @@ ms.locfileid: "25930074"
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
 - [Propriedade Attributes](attributes-property-ado.md)
-
 - [Propriedade CommandTimeout](commandtimeout-property-ado.md)
-
 - [Propriedade ConnectionString](connectionstring-property-ado.md)
-
 - [Propriedade ConnectionTimeout](connectiontimeout-property-ado.md)
-
 - [Propriedade CursorLocation](cursorlocation-property-ado.md)
-
 - [Propriedade DefaultDatabase](defaultdatabase-property-ado.md)
-
 - [Coleção Errors](errors-collection-ado.md)
-
 - [Propriedade IsolationLevel](isolationlevel-property-ado.md)
-
 - [Propriedade Mode](mode-property-ado.md)
-
 - [Coleção Properties](properties-collection-ado.md)
-
 - [Propriedade Provider](provider-property-ado.md)
-
 - [Propriedade State](state-property-ado.md)
-
 - [Propriedade Version](version-property-ado.md)
+
 
 ## <a name="methods"></a>Métodos
 
 - [Métodos BeginTrans, CommitTrans e RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
-
 - [Método Cancel](cancel-method-ado.md)
-
 - [Método Close](close-method-ado.md)
-
-- [Método Execute (Connection do ADO)](https://msdn.microsoft.com/library/jj249832\(v=office.15\))
-
+- [Executar o método (Conexão ADO)](https://msdn.microsoft.com/library/jj249832\(v=office.15\))
 - [Método Open (Connection do ADO)](open-method-ado-connection.md)
-
 - [Método OpenSchema](openschema-method-ado.md)
+
 
 ## <a name="events"></a>Eventos
 
-- [Eventos BeginTransComplete, CommitTransComplete e RollbackTransComplete](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
-
+- [Eventos eventos BeginTransComplete, CommitTransComplete e RollbackTransComplete](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
 - [Eventos ConnectComplete e Disconnect](connectcomplete-and-disconnect-events-ado.md)
-
 - [Evento ExecuteComplete](executecomplete-event-ado.md)
-
 - [Evento InfoMessage](infomessage-event-ado.md)
-
 - [Evento WillConnect](willconnect-event-ado.md)
-
 - [Evento WillExecute](willexecute-event-ado.md)
+
 

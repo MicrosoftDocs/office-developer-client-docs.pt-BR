@@ -1,24 +1,21 @@
 ---
-title: Como os manipuladores de eventos trabalham em conjunto
-TOCTitle: How Event Handlers Work Together
+title: Como os manipuladores de eventos trabalham juntos
+TOCTitle: How event handlers work together
 ms:assetid: 02122824-881e-0bb8-cba1-c963024790ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 19f60c196c110787eb7baf57646a9d5d4996fdf0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7a926bed97cf3f21e81fbf01eae554aaec45406a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877825"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947781"
 ---
-# <a name="how-event-handlers-work-together"></a>Como os manipuladores de eventos trabalham em conjunto
-
+# <a name="how-event-handlers-work-together"></a>Como os manipuladores de eventos trabalham juntos
 
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 A menos que esteja fazendo uma programação em Visual Basic, todos os manipuladores de eventos **Connection** e **Recordset** deverão ser implementados, independentemente do processamento ou não de todos os eventos. O volume de implementação a ser executado dependerá da linguagem de programação. Para obter mais informações, consulte [Instanciação de eventos ADO por linguagem](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
 

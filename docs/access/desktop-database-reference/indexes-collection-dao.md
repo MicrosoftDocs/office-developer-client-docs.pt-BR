@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e38df07831e21a92afdf8106b6d8eb3844396cc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936753"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946689"
 ---
 # <a name="indexes-collection-dao"></a>Coleção Indexes (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,9 +25,7 @@ Quando acessar um objeto Recordset do tipo tabela, use a propriedade **Index** d
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] É possível usar o método <STRONG>Append</STRONG> ou <STRONG>Delete</STRONG> numa coleção <STRONG>Indexes</STRONG> apenas se a configuração da propriedade <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> do objeto contentor <STRONG>TableDef</STRONG> for <STRONG>True</STRONG>.</P>
-
-
+> [!OBSERVAçãO] É possível usar o método **Append** ou **Delete** numa coleção **Indexes** apenas se a configuração da propriedade **[Updatable](connection-updatable-property-dao.md)** do objeto contentor **TableDef** for **True**.
 
 Depois de criar um novo objeto **Index**, você deverá usar o método **Append** para adicioná-lo à coleção **Indexes** do objeto **TableDef**.
 

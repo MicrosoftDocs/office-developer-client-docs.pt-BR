@@ -1,20 +1,19 @@
 ---
-title: Mais informações sobre a persistência do conjunto de registros
-TOCTitle: More About Recordset Persistence
+title: Mais informações sobre a persistência de Recordset
+TOCTitle: More about Recordset persistence
 ms:assetid: f3248de7-6eef-1dd0-ff96-557b411789e7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250232(v=office.15)
 ms:contentKeyID: 48548666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: baf1e4976b9669deed0a80f6405127afc88d521e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed9d6e264c6bdaedcc0b921b6eed66bf1ff6afa4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878287"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946696"
 ---
-# <a name="more-about-recordset-persistence"></a>Mais informações sobre a persistência do conjunto de registros
-
+# <a name="more-about-recordset-persistence"></a>Mais informações sobre a persistência de Recordset
 
 **Aplica-se a**: Access 2013, o Office 2013
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
 ms:contentKeyID: 48544389
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3e6cbf486dff87cb8b81b9a593dd3dedcc52a1e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bca1a7cc2d01c6664a5200325a93dd242deb6eff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886323"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944841"
 ---
 # <a name="parameterdirectionenum-enumeration-dao"></a>Enumeração ParameterDirectionEnum (DAO)
 

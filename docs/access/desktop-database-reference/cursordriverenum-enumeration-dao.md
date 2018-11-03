@@ -1,20 +1,19 @@
 ---
 title: Enumeração CursorDriverEnum (DAO)
-TOCTitle: CursorDriverEnum Enumeration
+TOCTitle: CursorDriverEnum enumeration
 ms:assetid: d0312ece-c30a-7d61-d5f3-75edf0d0afc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834707(v=office.15)
 ms:contentKeyID: 48547832
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 25d264c1e91982231e025f17c00db79e47a1d5c6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8fac1dbf3da20e3af476ec4bcaac6046d834881
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880737"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944099"
 ---
 # <a name="cursordriverenum-enumeration-dao"></a>Enumeração CursorDriverEnum (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 

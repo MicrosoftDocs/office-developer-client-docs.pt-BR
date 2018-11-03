@@ -6,20 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f501b5884a8149850df7c1d16a141f345da90e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925426"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944512"
 ---
 # <a name="messagebox-macro-action"></a>Ação da macro CaixaDeMensagem
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
-
 
 Você pode usar a ação **MessageBox** para exibir uma caixa de mensagem contendo um aviso ou uma mensagem informativa. Por exemplo, você pode usar a ação **MessageBox** com macros de validação. Quando um controle ou registro falha uma condição de validação na macro, uma caixa de mensagem pode exibir uma mensagem de erro e forneça instruções sobre o tipo de dados que devem ser inseridos.
 

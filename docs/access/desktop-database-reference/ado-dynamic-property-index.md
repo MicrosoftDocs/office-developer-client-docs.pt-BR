@@ -1,20 +1,19 @@
 ---
-title: Índice da propriedade dinâmica do ADO
-TOCTitle: ADO Dynamic Property Index
+title: Índice de propriedades dinâmicas do ADO
+TOCTitle: ADO dynamic property index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f385f3637f9a64ff94d571345d88fbaa088d126
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19b7ddca0395869b5a1dba4182a123d33e54e66d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876061"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947599"
 ---
-# <a name="ado-dynamic-property-index"></a>Índice da propriedade dinâmica do ADO
-
+# <a name="ado-dynamic-property-index"></a>Índice de propriedades dinâmicas do ADO
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -24,13 +23,13 @@ A tabela abaixo é um índice cruzado dos nomes do ADO e do OLE DB para cada pro
 
 A Referência do programador do OLE DB diz respeito a um nome de propriedade do ADO de acordo com o termo, "Descrição." Você pode encontrar mais informações sobre essas propriedades padrão na Referência do programador do OLE DB. Procure o nome da propriedade do OLE DB no índice ou consulte os seguintes tópicos:
 
-  - Apêndice C: propriedades do OLE DB
+- Apêndice C: propriedades do OLE DB
 
-  - Propriedades que contam com suporte do Cursor Service
+- Propriedades que contam com suporte do Cursor Service
 
-  - Propriedades que contam com suporte do Persistence Provider
+- Propriedades que contam com suporte do Persistence Provider
 
-  - Propriedades do OLE DB que contam com suporte do Remoting Provider
+- Propriedades do OLE DB que contam com suporte do Remoting Provider
 
 ## <a name="remarks"></a>Comentários
 

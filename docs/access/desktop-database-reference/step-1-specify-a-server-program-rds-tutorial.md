@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250172(v=office.15)
 ms:contentKeyID: 48548389
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe85853b013caf8610e7706f3d836551ce8801c7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b5bd5e8edc17eb482177d97cb82611a8b6b12d0a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871875"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946052"
 ---
-# <a name="step-1-specify-a-server-program-rds-tutorial"></a>Etapa 1: Especificar um programa do servidor (Tutorial do RDS)
-
+# <a name="step-1-specify-a-server-program-rds-tutorial"></a>Etapa 1: Especificar um programa de servidor (Tutorial RDS)
 
 **Aplica-se a**: Access 2013, o Office 2013
 

@@ -1,20 +1,19 @@
 ---
-title: Salvando no objeto XML DOM
-TOCTitle: Saving to the XML DOM Object
+title: Como salvar o objeto DOM XML
+TOCTitle: Saving to the XML DOM object
 ms:assetid: 3c61fc30-9862-347b-c215-08597eccfead
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249160(v=office.15)
 ms:contentKeyID: 48544318
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0118eb277f8f1cc3332aeff1880b161d62f36cb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 072e673f18a790304d7922375296d3385e4ac0dc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885392"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944071"
 ---
-# <a name="saving-to-the-xml-dom-object"></a>Salvando no objeto XML DOM
-
+# <a name="saving-to-the-xml-dom-object"></a>Como salvar o objeto DOM XML
 
 **Aplica-se a**: Access 2013, o Office 2013
 

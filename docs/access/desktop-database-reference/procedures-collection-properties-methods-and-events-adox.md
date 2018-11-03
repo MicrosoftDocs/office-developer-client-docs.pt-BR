@@ -6,32 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249387(v=office.15)
 ms:contentKeyID: 48545292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b11c6fc198bd088b49cf96892f28ba353d94090
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3c7483bd0352810ab50d203008d154ef3993026a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921492"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945765"
 ---
 # <a name="procedures-collection-properties-methods-and-events-adox"></a>Propriedades, métodos e eventos da coleção Procedures (ADOX)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 ## <a name="properties"></a>Propriedades
 
 - [Propriedade Count](count-property-ado.md)
-
-- [Propriedade Item](item-property-ado.md)
+- [Propriedade item](item-property-ado.md)
 
 ## <a name="methods"></a>Métodos
 
-- [Método Append (Procedimentos)](append-method-adox-procedures.md)
-
-- [Método Delete (Coleções)](delete-method-adox-collections.md)
-
-- [Método Refresh](refresh-method-ado.md)
+- [Método (procedimentos) append](append-method-adox-procedures.md)
+- [Excluir método (coleções)](delete-method-adox-collections.md)
+- [O método Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos
 

@@ -1,19 +1,19 @@
 ---
-title: Mantendo recordsets hierárquicos e filtrados
-TOCTitle: Persisting Filtered and Hierarchical Recordsets
+title: Mantendo Recordsets hierárquicos e filtrados
+TOCTitle: Persisting filtered and hierarchical Recordsets
 ms:assetid: 3648a997-dac7-d8a3-3cca-a6827f26a4f0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249120(v=office.15)
 ms:contentKeyID: 48544162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931345aff0cd3d8c9b10c53073e640b3cfdd5de5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13255bcd5cd40745a767b8aff9f49449b0127294
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889711"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946115"
 ---
-# <a name="persisting-filtered-and-hierarchical-recordsets"></a>Mantendo recordsets hierárquicos e filtrados
+# <a name="persisting-filtered-and-hierarchical-recordsets"></a>Mantendo Recordsets hierárquicos e filtrados
 
 
 **Aplica-se a**: Access 2013, o Office 2013
@@ -22,6 +22,6 @@ Se a propriedade [Filter](filter-property-ado.md) estiver em vigor para o **Reco
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Algumas limitações se aplicam ao salvar <STRONG>Recordsets</STRONG> hierárquicos (formas de dados) em formato XML. Para obter mais informações, consulte <A href="hierarchical-recordsets-in-xml.md">Recordsets hierárquicos em XML</A>.</P>
+> [!OBSERVAçãO] Algumas limitações se aplicam ao salvar **Recordsets** hierárquicos (formas de dados) em formato XML. Para obter mais informações, consulte [Recordsets hierárquicos em XML](hierarchical-recordsets-in-xml.md).
 
 

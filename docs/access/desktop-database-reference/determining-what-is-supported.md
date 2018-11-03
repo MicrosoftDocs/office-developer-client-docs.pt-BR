@@ -1,20 +1,19 @@
 ---
-title: Determinando os itens que têm suporte
-TOCTitle: Determining What is Supported
+title: Determinando o que é suportado
+TOCTitle: Determining what is supported
 ms:assetid: 47b44dc9-e0fd-f204-0c68-e0de9247ee2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249221(v=office.15)
 ms:contentKeyID: 48544602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6114dd0fa56a87b6c2e07770795ea5889ae3c44
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3b2db5fbdf0d85ee48b9dbc494ccce6022bfb165
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883628"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946584"
 ---
-# <a name="determining-what-is-supported"></a>Determinando os itens que têm suporte
-
+# <a name="determining-what-is-supported"></a>Determinando o que é suportado
 
 **Aplica-se a**: Access 2013, o Office 2013
 

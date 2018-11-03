@@ -1,17 +1,17 @@
 ---
-title: Resumo do manipulador de eventos do ADO
-TOCTitle: ADO Event Handler Summary
+title: Manipulador de eventos do ADO resumo
+TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e47cf076c213707857285757d936d58bd153e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880597"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945359"
 ---
 # <a name="ado-event-handler-summary"></a>Resumo do manipulador de eventos do ADO
 
@@ -20,9 +20,9 @@ ms.locfileid: "25880597"
 
 Dois objetos do ADO podem gerar eventos: o objeto [Connection](connection-object-ado.md) e o objeto [Recordset](recordset-object-ado.md). A família **ConnectionEvent** pertence às operações no objeto **Connection**, e a família **RecordsetEvent** pertence às operações no objeto **Recordset**.
 
-  - **Eventos Connection**: os eventos são emitidos quando uma transação é iniciada em uma conexão, é confirmada ou revertida; quando um [Comando](command-object-ado.md) é executado; quando ocorre um aviso durante uma operação **Connection Event**; ou quando uma **Conexão** é iniciada ou finalizada.
+- **Eventos Connection**: os eventos são emitidos quando uma transação é iniciada em uma conexão, é confirmada ou revertida; quando um [Comando](command-object-ado.md) é executado; quando ocorre um aviso durante uma operação **Connection Event**; ou quando uma **Conexão** é iniciada ou finalizada.
 
-  - **Eventos Recordset**: os eventos são emitidos em operações de busca assíncrona e quando você navega pelas linhas de um objeto **Recordset**, altera um campo em uma linha de um **Recordset**, altera uma linha em um **Recordset**, abre um **Recordset** com um cursor de servidor, fecha um **Recordset** ou faz uma alteração no **Recordset**.
+- **Eventos Recordset**: os eventos são emitidos em operações de busca assíncrona e quando você navega pelas linhas de um objeto **Recordset**, altera um campo em uma linha de um **Recordset**, altera uma linha em um **Recordset**, abre um **Recordset** com um cursor de servidor, fecha um **Recordset** ou faz uma alteração no **Recordset**.
 
 As seguintes tabelas resumem os eventos e suas descrições.
 

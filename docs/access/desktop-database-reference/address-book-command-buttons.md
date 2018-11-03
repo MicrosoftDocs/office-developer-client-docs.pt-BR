@@ -1,19 +1,19 @@
 ---
-title: Botões de comando do Catálogo de endereços
-TOCTitle: Address Book Command Buttons
+title: Botões de comando do catálogo de endereços
+TOCTitle: Address Book command buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e445414ead78bb5e1b05b3f3812e86f1d6c119ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f586b92f309ffd330230bf732d0e477acf0a8ba9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869509"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946921"
 ---
-# <a name="address-book-command-buttons"></a>Botões de comando do Catálogo de endereços
+# <a name="address-book-command-buttons"></a>Botões de comando do catálogo de endereços
 
 
 **Aplica-se a**: Access 2013, o Office 2013
@@ -21,13 +21,13 @@ ms.locfileid: "25869509"
 
 O aplicativo de Catálogo de endereços inclui os seguintes botões de comando:
 
-  - Um botão Localizar para enviar uma consulta ao banco de dados.
+- Um botão **Localizar** para enviar uma consulta ao banco de dados.
 
-  - Um botão **Desmarcar** para desmarcar as caixas de texto antes de iniciar uma nova pesquisa.
+- Um botão **Desmarcar** para desmarcar as caixas de texto antes de iniciar uma nova pesquisa.
 
-  - Um botão Atualizar perfil para salvar as alterações em um registro de funcionário.
+- Um botão **Atualizar perfil** para salvar as alterações em um registro de funcionário.
 
-  - Um botão Cancelar alterações para descartar as alterações.
+- Um botão **Cancelar alterações** para descartar as alterações.
 
 ## <a name="find-button"></a>Botão Localizar
 

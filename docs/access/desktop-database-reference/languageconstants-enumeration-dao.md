@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821047(v=office.15)
 ms:contentKeyID: 48546794
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 590c3de7382f315eba819f1f8ca135e3a30d5d1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 209b80e4d0b8c3b5701859e8a2ec7f98385121d4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874219"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945905"
 ---
 # <a name="languageconstants-enumeration-dao"></a>Enumeração LanguageConstants (DAO)
 

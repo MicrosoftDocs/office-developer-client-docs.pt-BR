@@ -1,17 +1,17 @@
 ---
 title: Personalização de DataFactory
-TOCTitle: DataFactory Customization
+TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ddd728908212716256eaa65adc925548e739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9de748b85e4bf6076c37f49e9d9bc7ff3b0bfe62
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879699"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947565"
 ---
 # <a name="datafactory-customization"></a>Personalização de DataFactory
 
@@ -30,16 +30,10 @@ Os parâmetros usados pelo manipulador para modificar parâmetros de cliente e d
 
 Consulte os tópicos a seguir para obter mais informações sobre como personalizar o objeto **DataFactory**:
 
-  - [Noções básicas sobre o arquivo de personalização](understanding-the-customization-file.md)
-
-  - [Seção connect do arquivo de personalização](customization-file-connect-section.md)
-
-  - [Seção SQL do arquivo de personalização](customization-file-sql-section.md)
-
-  - [Seção userlist do arquivo de personalização](customization-file-userlist-section.md)
-
-  - [Seção logs do arquivo de personalização](customization-file-logs-section.md)
-
-  - [Configurações necessárias do cliente](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-
-  - [Criando seu próprio manipulador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Noções básicas sobre o arquivo de personalização](understanding-the-customization-file.md)
+- [Seção Connect do arquivo de personalização](customization-file-connect-section.md)
+- [Seção SQL do arquivo de personalização](customization-file-sql-section.md)
+- [Seção UserList do arquivo de personalização](customization-file-userlist-section.md)
+- [Seção de Logs do arquivo de personalização](customization-file-logs-section.md)
+- [Configurações necessárias do cliente](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Como escrever o seu próprio manipulador personalizado](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

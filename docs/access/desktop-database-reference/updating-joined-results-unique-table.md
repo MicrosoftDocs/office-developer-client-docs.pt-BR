@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249551(v=office.15)
 ms:contentKeyID: 48545940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3656764b1183efc53375665d570e1f1bb8958b1
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 2fec73de005bf6ce5825fd4063e86814b7f360eb
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936641"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945030"
 ---
 # <a name="updating-joined-results-unique-table"></a>Atualizando os resultados JOINed: Unique Table
 
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-## <a name="updating-joined-results-unique-table"></a>Atualização de resultados JOINed: tabela exclusiva
+## <a name="updating-joined-results-unique-table"></a>Atualizando ingressado for resultados: Unique Table
 
 O ADO permite que você controle rigorosamente as modificações em uma determinada tabela base em um **Recordset** formado por uma operação JOIN em várias tabelas base, usando a propriedade dinâmica **Unique Table**. Para obter detalhes sobre como usar o **Unique Table**, consulte os tópicos de referência do programador do ADO nas propriedades dinâmicas **Unique Table** e **Ressincronização de atualização** .
 

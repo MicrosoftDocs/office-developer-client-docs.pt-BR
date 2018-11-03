@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b4762e8cda4dc0fee0cf1aa60a9a3cafee998e9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7422b7b4805bf09cdbf0b37ecf9ae025c3267fff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922304"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944827"
 ---
 # <a name="propertiescount-property-dao"></a>Propriedade Properties.Count (DAO)
 
@@ -32,9 +32,6 @@ Você pode usar a propriedade **Count** para determinar o número de itens em um
 
 ## <a name="see-also"></a>Confira também
 
-#### <a name="other-resources"></a>Outros recursos
-
-[Coleção Properties](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
-
-[Membros Properties](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
+- [Coleção Properties](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
+- [Membros Properties](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
 

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 953e6c030c8ca4155b17603c03921e97fe3748e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c5b0f03e135f4e00b3ca9d6be7417bfe0e5047e6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887282"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946577"
 ---
-# <a name="the-limits-of-a-recordset"></a>Os limites de um Recordset
+# <a name="limits-of-a-recordset"></a>Limites de um conjunto de registros
 
 
 **Aplica-se a**: Access 2013, o Office 2013

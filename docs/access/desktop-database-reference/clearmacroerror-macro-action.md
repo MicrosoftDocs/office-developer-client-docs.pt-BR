@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f27e195181e6035c133c1f52c1dadc329496614b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925251"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945380"
 ---
 # <a name="clearmacroerror-macro-action"></a>Ação da macro LimparErrodeMacro
 
@@ -31,15 +31,15 @@ A ação **LimparErrodeMacro** não tem nenhum argumento.
 
 ## <a name="remarks"></a>Comentários
 
-  - Quando ocorre um erro em uma macro, informações sobre o erro são armazenadas no objeto **MacroError**. Se você não tiver usado a ação **[AoOcorrerErro](onerror-macro-action.md)** para suprimir as mensagens de erro, a macro é interrompida e as informações de erro será exibido em uma mensagem de erro padrão. No entanto, se você tiver usado a ação **AoOcorrerErro** para suprimir as mensagens de erro, você talvez queira usar as informações armazenadas no objeto **MacroError** em uma condição ou em uma mensagem de erro personalizada.
+- Quando ocorre um erro em uma macro, informações sobre o erro são armazenadas no objeto **MacroError**. Se você não tiver usado a ação **[AoOcorrerErro](onerror-macro-action.md)** para suprimir as mensagens de erro, a macro é interrompida e as informações de erro será exibido em uma mensagem de erro padrão. No entanto, se você tiver usado a ação **AoOcorrerErro** para suprimir as mensagens de erro, você talvez queira usar as informações armazenadas no objeto **MacroError** em uma condição ou em uma mensagem de erro personalizada.
     
-    Depois que um erro for manipulado, as informações do objeto **MacroError** estarão desatualizadas, portanto é uma ótima ideia limpar o objeto usando a ação **LimparErrodeMacro**. Esse procedimento redefinirá o número de erro no objeto **MacroError** como 0 e limpará todas as outras informações sobre o erro armazenado no objeto, como descrição do erro, nome da macro, nome da ação, condição e argumentos. Dessa maneira, você poderá inspecionar o objeto **MacroError** outra vez mais tarde para saber se ocorreu outro erro.
+  Depois que um erro for manipulado, as informações do objeto **MacroError** estarão desatualizadas, portanto é uma ótima ideia limpar o objeto usando a ação **LimparErrodeMacro**. Esse procedimento redefinirá o número de erro no objeto **MacroError** como 0 e limpará todas as outras informações sobre o erro armazenado no objeto, como descrição do erro, nome da macro, nome da ação, condição e argumentos. Dessa maneira, você poderá inspecionar o objeto **MacroError** outra vez mais tarde para saber se ocorreu outro erro.
 
-  - O objeto **MacroError** é limpo automaticamente quando qualquer macro chega ao fim, por isso não é necessário usar a ação **LimparErrodeMacro** no fim de uma macro.
+- O objeto **MacroError** é limpo automaticamente quando qualquer macro chega ao fim, por isso não é necessário usar a ação **LimparErrodeMacro** no fim de uma macro.
 
-  - O objeto **MacroError** contém informações somente sobre um erro de cada vez. Se ocorrer mais de um erro em uma macro, o objeto **MacroError** conterá informações somente sobre o último erro.
+- O objeto **MacroError** contém informações somente sobre um erro de cada vez. Se ocorrer mais de um erro em uma macro, o objeto **MacroError** conterá informações somente sobre o último erro.
 
-  - Para executar a ação **LimparErrodeMacro** em um módulo do VBA, use o método **ClearMacroError** do objeto **DoCmd**.
+- Para executar a ação **LimparErrodeMacro** em um módulo do VBA, use o método **ClearMacroError** do objeto **DoCmd**.
 
 ## <a name="example"></a>Exemplo
 

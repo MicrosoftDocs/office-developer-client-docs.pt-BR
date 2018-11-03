@@ -1,17 +1,17 @@
 ---
 title: Método Delete (Recordset do ADO)
-TOCTitle: Delete Method (ADO Recordset)
+TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ae4b3bac6ed07aa7779009dc029737f5c7e0505
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885735"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947277"
 ---
 # <a name="delete-method-ado-recordset"></a>Método Delete (Recordset do ADO)
 
@@ -28,7 +28,7 @@ Exclui o registro atual ou um grupo de registros.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *AffectRecords*
+- *AffectRecords*
 
   - Um valor [AffectEnum](affectenum.md) que determina quantos registros o método **Delete** afetará. O valor padrão é **adAffectCurrent**.
 
