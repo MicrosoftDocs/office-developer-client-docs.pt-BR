@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4025645e5f8b12325ba20497ca6ef2b70175df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2ea43f565199f346287abf8fd134dec494d37cf5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919447"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949968"
 ---
 # <a name="willexecute-event-ado"></a>Evento WillExecute (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 O evento **WillExecute** é chamado um pouco antes da execução de um comando pendente, em uma conexão.
 
@@ -27,39 +25,16 @@ WillExecute*Source*, *CursorType*, *LockType*, *Opções*, *adStatus*, *pCommand
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Source*
-
-  - Uma **sequência de caracteres** que contém um comando SQL ou um nome de procedimento armazenado.
-
-  - *CursorType*
-
-  - Um [CursorTypeEnum](cursortypeenum.md) que contém o tipo de cursor para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o cursor para qualquer tipo durante uma operação de [abertura](open-method-ado-recordset.md) do **Recordset** . Para qualquer outra operação *CursorType* será ignorada.
-
-  - *LockType*
-
-  - Um [LockTypeEnum](locktypeenum.md) que contém o tipo de bloqueio para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o bloqueio para qualquer tipo, durante a operação **Open** do **Recordset**. Para qualquer outra operação *LockType* será ignorada.
-
-  - *Options*
-
-  - Um valor **Long** que indica as opções que podem ser usadas para executar o comando ou abrir o **Recordset**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Antes que esse evento retorne, defina esse parâmetro como **adStatusUnwantedEvent**, para evitar notificações subsequentes, ou como **adStatusCancel** para solicitar o cancelamento da operação que gerou esse evento.
-
-  - *pCommand*
-
-  - O objeto [Command](command-object-ado.md) ao qual essa notificação de evento se aplica.
-
-  - *pRecordset*
-
-  - O objeto [Recordset](recordset-object-ado.md) ao qual essa notificação de evento se aplica.
-
-  - *pConnection*
-
-  - O objeto [Connection](connection-object-ado.md) ao qual essa notificação de evento se aplica.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Source* |Uma **sequência de caracteres** que contém um comando SQL ou um nome de procedimento armazenado.|
+|*CursorType* |Um [CursorTypeEnum](cursortypeenum.md) que contém o tipo de cursor para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o cursor para qualquer tipo durante uma operação de [abertura](open-method-ado-recordset.md) do **Recordset** . Para qualquer outra operação *CursorType* será ignorada.|
+|*LockType* |Um [LockTypeEnum](locktypeenum.md) que contém o tipo de bloqueio para o **Recordset** que será aberto. Com esse parâmetro, você pode alterar o bloqueio para qualquer tipo, durante a operação **Open** do **Recordset**. Para qualquer outra operação *LockType* será ignorada.|
+|*Options* |Um valor **Long** que indica as opções que podem ser usadas para executar o comando ou abrir o **Recordset**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes que esse evento retorne, defina esse parâmetro como **adStatusUnwantedEvent**, para evitar notificações subsequentes, ou como **adStatusCancel** para solicitar o cancelamento da operação que gerou esse evento.|
+|*pCommand* |O objeto [Command](command-object-ado.md) ao qual essa notificação de evento se aplica.|
+|*pRecordset* |O objeto [Recordset](recordset-object-ado.md) ao qual essa notificação de evento se aplica.|
+|*pConnection* |O objeto [Connection](connection-object-ado.md) ao qual essa notificação de evento se aplica.|
 
 ## <a name="remarks"></a>Comentários
 

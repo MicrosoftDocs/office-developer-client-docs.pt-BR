@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5388601f1ac88e281a6abc5cfe1e644bdeebef28
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 79809f9c802a5e5312b3adf3e64ecaa32a443a04
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923564"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949639"
 ---
 # <a name="willmove-and-movecomplete-events-ado"></a>Eventos WillMove e MoveComplete (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,33 +27,35 @@ MoveComplete*adReason*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *adReason*
-
-  - Um valor [EventReasonEnum](eventreasonenum.md) que especifica a razão para esse evento. Seu valor pode ser **adRsnMoveFirst**, **adRsnMoveLast**, **adRsnMoveNext**, **adRsnMovePrevious**, **adRsnMove** ou **adRsnRequery**.
-
-  - *pError*
-
-  - Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Quando **WillMove** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida. Ele será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente.
-    
-    Quando **MoveComplete** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida, ou como **adStatusErrorsOccurred** se a operação falhar.
-    
-    Antes do retorno de **WillMove**, defina esse parâmetro como **adStatusCancel**, para solicitar o cancelamento da operação pendente, ou como adStatusUnwantedEvent para evitar notificações subsequentes.
-    
-    Antes do retorno de **MoveComplete**, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.
-
-  - *pRecordset*
-
-  - Um objeto [Recordset](recordset-object-ado.md). O **Recordset** para o qual esse evento ocorreu.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*adReason* |Um valor [EventReasonEnum](eventreasonenum.md) que especifica a razão para esse evento. Seu valor pode ser **adRsnMoveFirst**, **adRsnMoveLast**, **adRsnMoveNext**, **adRsnMovePrevious**, **adRsnMove** ou **adRsnRequery**.|
+|*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **WillMove** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida. Ele será definido como **adStatusCantDeny** se esse evento não puder solicitar o cancelamento da operação pendente. <br/><br/>Quando **MoveComplete** é chamado, esse parâmetro é definido como **adStatusOK** se a operação que gerou o evento foi bem-sucedida, ou como **adStatusErrorsOccurred** se a operação falhar. <br/><br/>Antes do retorno de **WillMove**, defina esse parâmetro como **adStatusCancel**, para solicitar o cancelamento da operação pendente, ou como adStatusUnwantedEvent para evitar notificações subsequentes. <br/><br/>Antes do retorno de **MoveComplete**, defina esse parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
+|*pRecordset* |Um objeto [Recordset](recordset-object-ado.md). O **Recordset** para o qual esse evento ocorreu.|
 
 ## <a name="remarks"></a>Comentários
 
-Um evento **WillMove** ou **MoveComplete** pode ocorrer devido às seguintes operações de **Recordset**: [Open](open-method-ado-recordset.md), [Move](move-method-ado.md), [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [AddNew](addnew-method-ado.md) e [Requery](requery-method-ado.md). Esses eventos podem ocorrer devido às seguintes propriedades: [Filter](filter-property-ado.md), [Index](index-property-ado.md), [Bookmark](bookmark-property-ado.md), [AbsolutePage](absolutepage-property-ado.md) e [AbsolutePosition](absoluteposition-property-ado.md). Esses eventos também ocorrerão se um **Recordset** filho tiver eventos **Recordset** conectados e se o **Recordset** pai for movido.
+Um evento **WillMove** ou **MoveComplete** pode ocorrer devido aos seguintes operações de **Recordset** :
 
-Você deve definir o parâmetro **adStatus** como **adStatusUnwantedEvent** para cada valor adReason possível, a fim de interromper totalmente as notificações de qualquer evento que inclua o parâmetro adReason.
+- [Open](open-method-ado-recordset.md)
+- [Mover](move-method-ado.md)
+- [Métodos MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 
+- [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [AddNew](addnew-method-ado.md)
+- [Requery](requery-method-ado.md)
+
+Esses eventos podem ocorrer devido às seguintes propriedades:
+
+- [Filtrar](filter-property-ado.md)
+- [Índice](index-property-ado.md)
+- [Bookmark](bookmark-property-ado.md)
+- [AbsolutePage](absolutepage-property-ado.md)
+- [AbsolutePosition](absoluteposition-property-ado.md)
+
+Esses eventos também ocorrerão se um **Recordset** filho tiver eventos **Recordset** conectados e se o **Recordset** pai for movido.
+
+Você deve definir o parâmetro *adStatus* como **adStatusUnwantedEvent** para cada valor *adReason* possível para parar completamente a notificação de evento para qualquer evento que inclua um parâmetro *adReason*.
 

@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01f45adaf5bdd15841be86bfea62cca58e21a9d9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 866faae5d8c99258075a81f504fa9ce069f4690a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925510"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949373"
 ---
 # <a name="create-method-adox"></a>Método Create (ADOX)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Cria um novo catálogo.
 
@@ -27,9 +25,9 @@ Cria um novo catálogo.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *ConnectString*
-
-  - Um valor **String** usado para estabelecer conexão com a fonte de dados.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*ConnectString* |Um valor **String** usado para estabelecer conexão com a fonte de dados.|
 
 ## <a name="remarks"></a>Comentários
 

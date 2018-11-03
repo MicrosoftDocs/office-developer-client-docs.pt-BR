@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92634f2c0d95fbe9022934d22340f768b5614a58
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ba6b6ff2d373a8b05d0839d4cc113f48b47d8cad
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923368"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949583"
 ---
 # <a name="submitchanges-method-rds"></a>Método SubmitChanges (RDS)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,21 +27,12 @@ Submete as alterações pendentes do [Recordset](recordset-object-ado.md) atuali
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *DataControl*
-
-  - Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *DataFactory*
-
-  - Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).
-
-  - *Connection*
-
-  - Um valor **String** que representa a conexão criada com a propriedade **Connect** do objeto **RDS.DataControl**.
-
-  - *Recordset*
-
-  - Uma variável de objeto que representa um objeto **Recordset**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*DataFactory* |Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
+|*Connection* |Um valor **String** que representa a conexão criada com a propriedade **Connect** do objeto **RDS.DataControl**.|
+|*Recordset* |Uma variável de objeto que representa um objeto **Recordset**.|
 
 ## <a name="remarks"></a>Comentários
 

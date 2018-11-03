@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc089ded79e9a25da566f44b668bf788d97fc4be
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919485"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949975"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Método Database.PopulatePartial (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Sincroniza as alterações em uma réplica parcial com a réplica completa, limpa todos os registros na réplica parcial e preenche novamente a réplica parcial com base nos filtros da réplica atual. (Apenas bancos de dados do mecanismo de banco de dados do Microsoft Access).
 
@@ -31,7 +29,7 @@ Sincroniza as alterações em uma réplica parcial com a réplica completa, limp
 
 *expressão* Uma variável que representa um objeto de **banco de dados** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ Sincroniza as alterações em uma réplica parcial com a réplica completa, limp
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho e o nome da réplica completa a partir da qual os registros serão preenchidos.</p></td>

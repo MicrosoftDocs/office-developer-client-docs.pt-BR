@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3850d57bfcbf61cd5e17456f86dd30812dfde4e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1db793ec99dd0248eacc527bd76068ceec025a58
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921751"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949429"
 ---
 # <a name="infomessage-event-ado"></a>Evento InfoMessage (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,17 +25,9 @@ InfoMessage*pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *pError*
-
-  - Um objeto [Error](error-object-ado.md). Este parâmetro contém quaisquer erros que são retornados. Se vários erros forem retornados, enumere a coleção de **Erros** para localizá-los.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Antes de este evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.
-
-  - *pConnection*
-
-  - Um objeto [Connection](connection-object-ado.md). A conexão para a qual o aviso ocorreu. Por exemplo, os avisos podem ocorrer ao abrir um objeto **Connection** ou ao executar um [Comando](command-object-ado.md) em uma **Conexão**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*pError* |Um objeto [Error](error-object-ado.md). Este parâmetro contém quaisquer erros que são retornados. Se vários erros forem retornados, enumere a coleção de **Erros** para localizá-los.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de este evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
+|*pConnection* |Um objeto [Connection](connection-object-ado.md). A conexão para a qual o aviso ocorreu. Por exemplo, os avisos podem ocorrer ao abrir um objeto **Connection** ou ao executar um [Comando](command-object-ado.md) em uma **Conexão**.|
 

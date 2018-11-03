@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8310f695bdcf229e61e09bce6c0846f9520c0fc6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923508"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949862"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>Método DBEngine.RegisterDatabase (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Insere as informações de conexão para uma fonte de dados ODBC no Registro do Windows. O driver ODBC precisa das informações de conexão quando a fonte de dados ODBC é aberta durante uma sessão.
 
@@ -31,7 +29,7 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -50,25 +48,25 @@ Insere as informações de conexão para uma fonte de dados ODBC no Registro do 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DSN</p></td>
+<td><p><em>DSN</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O nome usado no método <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Ele se refere a um bloco de informações descritivas sobre a fonte de dados. Por exemplo, se a fonte de dados for um banco de dados remoto ODBC, ele poderá ser o nome do servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Driver</p></td>
+<td><p><em>Driver</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O nome do driver ODBC. Esse não é o nome do arquivo DLL do driver ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Silenciosa</p></td>
+<td><p><em>Silenciosa</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>True</strong> se você não quiser exibir as caixas de diálogo de driver ODBC que solicita informações específicas do driver; ou <strong>False</strong> se você deseja exibir as caixas de diálogo do driver ODBC. Se silenciosa for <strong>True</strong>, atributos devem conter todas as informações necessárias específicas do driver ou as caixas de diálogo serão exibidas mesmo assim.</p></td>
 </tr>
 <tr class="even">
-<td><p>Atributos</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma lista de palavras-chave a serem adicionadas ao Registro do Windows. As palavras-chave estão em uma sequência delimitada por retorno de carro.</p></td>

@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923998"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949422"
 ---
 # <a name="query-method-rds"></a>Método Query (RDS)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Utiliza uma sequência de consulta SQL válida para retornar um [Recordset](recordset-object-ado.md).
 
@@ -27,21 +25,12 @@ Definir o*Recordset* = *DataFactory*. Consulta (*Conexão*, *consulta*)
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Recordset*
-
-  - Uma variável de objeto que representa um objeto **Recordset**.
-
-  - *DataFactory*
-
-  - Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).
-
-  - *Connection*
-
-  - Um valor **String** que contém as informações de conexão do servidor. Isso é semelhante à propriedade [Connect](connect-property-rds.md).
-
-  - *Query*
-
-  - Uma **String** que contém a consulta SQL.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Recordset* |Uma variável de objeto que representa um objeto **Recordset**.|
+|*DataFactory* |Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
+|*Connection* |Um valor **String** que contém as informações de conexão do servidor. Isso é semelhante à propriedade [Connect](connect-property-rds.md).|
+|*Query* |Uma **String** que contém a consulta SQL.|
 
 ## <a name="remarks"></a>Comentários
 

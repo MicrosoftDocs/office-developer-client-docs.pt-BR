@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da7e23974b9541a29aa78ba9d7de22e76102971b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6ca95e311f6040d5834fa24ce24d392375953990
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929549"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949933"
 ---
 # <a name="nextrecordset-method-ado"></a>Método NextRecordset (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
  
-
 Limpa o objeto [Recordset](recordset-object-ado.md) atual e retorna o próximo **Recordset** avançando por uma série de comandos.
 
 ## <a name="syntax"></a>Sintaxe
@@ -31,15 +29,12 @@ Retorna um objeto **Recordset**. No modelo de sintaxe, *recordset1* e *recordset
 
 ## <a name="parameters"></a>Parâmetros
 
-- *RecordsAffected*
-
-- Opcional. Uma variável **Long** para a qual o provedor retorna o número de registros que a operação atual afetou.
-
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*RecordsAffected* |Opcional. Uma variável **Long** para a qual o provedor retorna o número de registros que a operação atual afetou.|
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Este parâmetro retorna apenas o número de registros afetados por uma operação; ele não retorna uma contagem dos registros de uma instrução select utilizada para gerar o <STRONG>Recordset</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Este parâmetro retorna apenas o número de registros afetados por uma operação; ele não retorna uma contagem dos registros de uma instrução select utilizada para gerar o **Recordset**.
 
 ## <a name="remarks"></a>Comentários
 

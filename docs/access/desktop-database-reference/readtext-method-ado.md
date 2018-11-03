@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97ef84cbacc02da0a3150cf0efcb3a24e548f2d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 66db24f95e3f6338174be3a70ca75dbb3332adeb
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929308"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949387"
 ---
 # <a name="readtext-method-ado"></a>Método ReadText (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,9 +25,9 @@ Lê o número de caracteres especificado de um objeto [Stream](stream-object-ado
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *NumChars*
-
-  - Opcional. Um valor **Long** que especifica o número de caracteres a serem lidos do arquivo ou um valor [StreamReadEnum](streamreadenum.md). O valor padrão é **adReadAll**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*NumChars* |Opcional. Um valor **Long** que especifica o número de caracteres a serem lidos do arquivo ou um valor [StreamReadEnum](streamreadenum.md). O valor padrão é **adReadAll**.|
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -38,8 +37,6 @@ O método **ReadText** lê um número de caracteres especificado, uma linha inte
 
 Se *NumChar* for maior que o número de caracteres restantes no fluxo, apenas os caracteres remanescentes serão retornados. A sequência lida não será enchida para corresponder ao comprimento especificado por *NumChar*. Se não houver caracteres restantes a ler, uma variante cujo valor é nulo será retornada. **ReadText** não pode ser utilizado para ler de trás para frente.
 
-
 > [!NOTE]
-> <P>O método <STRONG>ReadText</STRONG> é utilizado com fluxos de texto (<A href="type-property-ado-stream.md">Type</A> é <STRONG>adTypeText</STRONG>). Para fluxos binários (<STRONG>Type</STRONG> é <STRONG>adTypeBinary</STRONG>), utilize <A href="read-method-ado.md">Read</A>.</P>
-
+> O método **ReadText** é utilizado com fluxos de texto ([Type](type-property-ado-stream.md) é **adTypeText**). Para fluxos binários (**Type** é **adTypeBinary**), utilize [Read](read-method-ado.md).
 

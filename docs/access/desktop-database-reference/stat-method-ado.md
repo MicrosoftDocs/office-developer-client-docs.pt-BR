@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8e1193257710eb2a0a23436cfc1a36424025136
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3853c42fab9de9e06691ae0e8efe20e23c410121
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922829"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949289"
 ---
 # <a name="stat-method-ado"></a>Método Stat (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,63 +29,23 @@ Um valor long que indica o status da operação.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *StatStg*
-
-  - Uma estrutura STATSTG que será preenchida com informações sobre o fluxo. A implementação do método Stat utilizada pelo objeto Stream do ADO não preenche todos os campos da estrutura.
-
-  - *StatFlag*
-
-  - Especifica que este método não retorna alguns dos membros na estrutura STATSTG, economizando dessa forma uma operação de alocação de memória. Os valores são obtidos da enumeração STATFLAG.  
-      
-    A enumeração STATFLAG tem dois valores
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Constant</p></th>
-    <th><p>Value</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>STATFLAG_DEFAULT</p></td>
-    <td><p>0</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>STATFLAG_NONAME</p></td>
-    <td><p>1</p></td>
-    </tr>
-    </tbody>
-    </table>
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*StatStg* |Uma estrutura STATSTG que será preenchida com informações sobre o fluxo. A implementação do método Stat utilizada pelo objeto Stream do ADO não preenche todos os campos da estrutura.|
+|*StatFlag* |Especifica que este método não retorna alguns dos membros na estrutura STATSTG, economizando dessa forma uma operação de alocação de memória. Os valores são obtidos da enumeração STATFLAG.<br/><br/>A enumeração STATFLAG tem dois valores:<br/>-STATFLAG_DEFAULT: 0<br/>-STATFLAG_NONAME: 1 |
 
 
 ## <a name="remarks"></a>Comentários
 
 A versão do método Stat implementada para o objeto Stream do ADO preenche os seguintes campos da estrutura STATSTG:
 
-  - *pwcsName*
-
-  - Valor de uma cadeia de caracteres contendo o nome do fluxo, caso alguma esteja disponível e o StatFlag STATFLAG\_sem nome não foi especificado.
-
-  - *cbSize*
-
-  - Especifica o tamanho em bytes do fluxo ou matriz de bytes.
-
-  - *mtime*
-
-  - Indica a hora da última modificação para esse repositório, fluxo ou matriz de bytes.
-
-  - *ctime*
-
-  - Indica a hora da criação para esse repositório, fluxo ou matriz de bytes.
-
-  - *atime*
-
-  - Indica a hora do último acesso para esse repositório, fluxo ou matriz de bytes.
+|Campo|Descrição|
+|:--------|:----------|
+|*pwcsName* |Valor de uma cadeia de caracteres contendo o nome do fluxo, caso alguma esteja disponível e o StatFlag STATFLAG\_sem nome não foi especificado.|
+|*cbSize* |Especifica o tamanho em bytes do fluxo ou matriz de bytes.|
+|*mtime* |Indica a hora da última modificação para esse repositório, fluxo ou matriz de bytes.|
+|*ctime* |Indica a hora da criação para esse repositório, fluxo ou matriz de bytes.|
+|*atime* |Indica a hora do último acesso para esse repositório, fluxo ou matriz de bytes.|
 
 Se STATFLAG\_sem nome for especificado no parâmetro StatFlag, o nome do fluxo não será retornado.
 

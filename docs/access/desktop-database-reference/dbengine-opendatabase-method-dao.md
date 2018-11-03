@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 23357443eeb479a6bdba2a3cc994de226290118a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: eb3f6795ba2e64ebd6be1b04d6aa6aecccef781b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922619"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950087"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Método DBEngine.OpenDatabase (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Abre um banco de dados especificado e retorna uma referência ao objeto **[Datab
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -49,25 +48,25 @@ Abre um banco de dados especificado e retorna uma referência ao objeto **[Datab
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>o nome de um arquivo de banco de dados existente do Microsoft Access ou o DSN (nome da fonte de dados) de uma fonte de dados ODBC. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter mais informações sobre como configurar esse valor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para o banco de dados, como especificado em Comentários.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> se você quiser abrir o banco de dados com acesso somente leitura, ou <strong>False</strong> (padrão) se você quiser abrir o banco de dados com acesso de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Especifica várias informações de conexão, incluindo senhas.</p></td>
@@ -76,7 +75,7 @@ Abre um banco de dados especificado e retorna uma referência ao objeto **[Datab
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Banco de dados
 
@@ -112,14 +111,13 @@ Quando você abre um banco de dados, ele é automaticamente adicionado à coleç
 
 Algumas considerações se aplicam quando se usa dbname:
 
-  - Se ela se referir a um banco de dados que já foi aberto para acesso por outro usuário, ocorrerá um erro.
+- Se ela se referir a um banco de dados que já foi aberto para acesso por outro usuário, ocorrerá um erro.
 
-  - Se ela não se referir a um banco de dados existente ou validar o nome da fonte de dados ODBC, ocorrerá um erro.
+- Se ela não se referir a um banco de dados existente ou validar o nome da fonte de dados ODBC, ocorrerá um erro.
 
-  - Se for uma cadeia de caracteres de comprimento zero ("") e *Conecte-se* for "ODBC;", uma caixa de diálogo listando todos os registrados nomes de fonte de dados ODBC é exibida para que o usuário possa selecionar um banco de dados.
+- Se for uma cadeia de caracteres de comprimento zero ("") e *Conecte-se* for "ODBC;", uma caixa de diálogo listando todos os registrados nomes de fonte de dados ODBC é exibida para que o usuário possa selecionar um banco de dados.
 
 Para fechar um banco de dados e, desse modo, remover o objeto **Database** da coleção **Databases**, use o método **[Close](connection-close-method-dao.md)** no objeto.
-
 
 > [!NOTE]
 > [!OBSERVAçãO] Ao acessar uma fonte de dados ODBC conectada a um mecanismo de banco de dados do Microsoft Access, você pode aprimorar o desempenho do seu aplicativo abrindo um objeto **Database** conectado à fonte de dados ODBC, em vez de vincular objetos [TableDef](tabledef-object-dao.md) individuais a tabelas específicas na fonte de dados ODBC.

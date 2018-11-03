@@ -1,24 +1,21 @@
 ---
-title: Método - de clone ActiveX Data Objects (ADO)
+title: Método - ActiveX Data Objects (ADO) clone
 TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944435"
+ms.locfileid: "25950255"
 ---
 # <a name="clone-method-ado"></a>Método Clone (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Cria um objeto [Recordset](recordset-object-ado.md) duplicado a partir de um objeto **Recordset** existente. Opcionalmente, especifica que o clone seja somente leitura.
 
@@ -32,17 +29,11 @@ Retorna uma referência do objeto **Recordset**.
 
 ## <a name="parameters"></a>Parâmetros
 
-- *rstDuplicate*
-
-  - Uma variável de objeto que identifica o objeto **Recordset** duplicado a ser criado.
-
-- *rstOriginal*
-
-  - Uma variável de objeto que identifica o objeto **Recordset** a ser duplicado.
-
-- *LockType*
-
-  - Opcional. Um valor [LockTypeEnum](locktypeenum.md) que especifica o tipo de bloqueio do **Recordset** original ou um **Recordset** somente leitura. Os valores válidos são **adLockUnspecified** ou **adLockReadOnly**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*rstDuplicate* |Uma variável de objeto que identifica o objeto **Recordset** duplicado a ser criado.|
+|*rstOriginal* |Uma variável de objeto que identifica o objeto **Recordset** a ser duplicado.|
+|*LockType* |Opcional. Um valor [LockTypeEnum](locktypeenum.md) que especifica o tipo de bloqueio do **Recordset** original ou um **Recordset** somente leitura. Os valores válidos são **adLockUnspecified** ou **adLockReadOnly**.|
 
 ## <a name="remarks"></a>Comentários
 

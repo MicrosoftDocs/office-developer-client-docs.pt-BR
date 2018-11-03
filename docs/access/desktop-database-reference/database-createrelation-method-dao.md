@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2a1ad7798fc6236f95d31c18cd864fe64e7a3fd8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927001"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949920"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Método Database.CreateRelation (DAO)
 
@@ -29,7 +29,7 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 
 *expressão* Uma variável que representa um objeto de **banco de dados** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Relation</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Table</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina a tabela primária na relação. Se a tabela não existir antes de você acrescentar o objeto <strong>Relation</strong>, ocorrerá um erro em tempo de execução.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ForeignTable</p></td>
+<td><p><em>ForeignTable</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina a tabela externa na relação. Se a tabela não existir antes de você acrescentar o objeto <strong>Relation</strong>, ocorrerá um erro em tempo de execução.</p></td>
 </tr>
 <tr class="even">
-<td><p>Atributos</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a propriedade <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> para obter detalhes.</p></td>
@@ -75,7 +75,7 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Relation
 

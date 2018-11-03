@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42a5bf11e2ed287ac683f634d3953739b2501f60
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0b4d68ac2dfca344cb98885846f2cd09fafd0ea0
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922801"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950234"
 ---
 # <a name="createrecordset-method-rds"></a>Método CreateRecordset (RDS)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Cria um [Recordset](recordset-object-ado.md) vazio e desconectado.
 
@@ -27,50 +25,20 @@ Cria um [Recordset](recordset-object-ado.md) vazio e desconectado.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Object*
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Object* |Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).|
+|*ColumnsInfos* |Uma matriz de atributos **Variant** que define cada coluna no **Recordset** criado. Cada definição de coluna contém uma matriz de quatro atributos obrigatórios e um atributo opcional. Em seguida, o conjunto de matrizes de coluna é agrupado em uma matriz, que define o **Recordset**. Para obter uma lista de atributos, consulte a tabela a seguir.|
 
-  - Uma variável de objeto que representa um objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).
+### <a name="variant-array-attributes"></a>Atributos de matriz Variant
 
-  - *ColumnsInfos*
-
-  - Uma matriz de atributos **Variant** que define cada coluna no **Recordset** criado. Cada definição de coluna contém uma matriz de quatro atributos obrigatórios e um atributo opcional. Em seguida, o conjunto de matrizes de coluna é agrupado em uma matriz, que define o **Recordset**.
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Atributo</p></th>
-    <th><p>Descrição</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Name</p></td>
-    <td><p>Nome do cabeçalho da coluna.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Type</p></td>
-    <td><p>Inteiro do tipo de dados.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Size</p></td>
-    <td><p>Inteiro da largura em caracteres, independentemente do tipo de dados.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Nullability</p></td>
-    <td><p>Valor booliano.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Scale<br />
-(Opcional)</p></td>
-    <td><p>Este atributo opcional define a escala para campos numéricos. Se esse valor não for especificado, os valores numéricos serão truncados para uma escala de três. A precisão não é afetada, mas o número de dígitos que seguem a vírgula decimal será truncado para três.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
+|Atributo|Descrição|
+|:--------|:----------|
+|Name |Nome do cabeçalho da coluna.|
+|Type |Inteiro do tipo de dados.|
+|Size |Inteiro da largura em caracteres, independentemente do tipo de dados.|
+|Nullability |Valor booliano.|
+|Scale (opcional) |Este atributo opcional define a escala para campos numéricos. Se esse valor não for especificado, os valores numéricos serão truncados para uma escala de três. A precisão não é afetada, mas o número de dígitos que seguem a vírgula decimal será truncado para três.|
 
 ## <a name="remarks"></a>Comentários
 

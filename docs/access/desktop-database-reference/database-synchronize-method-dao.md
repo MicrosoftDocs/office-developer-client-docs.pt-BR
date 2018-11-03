@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 19c9935b92e1b7f0b60efb3e00df22133c4d7658
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 65611960044ea62e42be1ea9d6c6a54d5d42d5a8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927302"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949765"
 ---
 # <a name="databasesynchronize-method-dao"></a>Método Database.Synchronize (DAO)
 
@@ -30,7 +30,7 @@ Sincroniza duas réplicas. (apenas espaços de trabalho do Microsoft Access).
 
 *expressão* Uma variável que representa um objeto de **banco de dados** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -49,13 +49,13 @@ Sincroniza duas réplicas. (apenas espaços de trabalho do Microsoft Access).
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho para a réplica de destino com a qual o banco de dados será sincronizado.</p></td>
 </tr>
 <tr class="even">
-<td><p>ExchangeType</p></td>
+<td><p><em>ExchangeType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indicando a direção para sincronização das alterações entre os dois bancos de dados.</p></td>

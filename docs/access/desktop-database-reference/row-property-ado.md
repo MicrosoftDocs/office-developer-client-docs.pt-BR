@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
 ms:contentKeyID: 48543562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7578a00719946450e840080c21284784a27be170
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1882486de2a2dfe61b98d4461abeea9cbcc23363
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870944"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949310"
 ---
 # <a name="row-property-ado"></a>Propriedade Row (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Obtém ou define um objeto **Row** do OLE DB a partir de/em um objeto **ADORecordConstruction**. Quando você usa **colocar\_linha** para definir um objeto **Row** , uma linha seja transformada em um objeto **Record** do ADO. Leitura/gravação.
 
@@ -30,13 +27,10 @@ Colocar HRESULT\_linha (\[na\] IUnknown\* pRow);
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *ppRow*
-
-  - Ponteiro para um objeto **Row** do OLE DB.
-
-  - *PRow*
-
-  - Um objeto **Row** do OLE DB.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*ppRow* |Ponteiro para um objeto **Row** do OLE DB.|
+|*PRow* |Um objeto **Row** do OLE DB.|
 
 ## <a name="return-values"></a>Valor de retorno
 

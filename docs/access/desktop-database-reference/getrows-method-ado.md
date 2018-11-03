@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 853f971f68bb0ec4069ba58e04b7cf9d231c6467
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920274"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949856"
 ---
 # <a name="getrows-method-ado"></a>Método GetRows (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Recupera vários registros de um objeto [Recordset](recordset-object-ado.md) para dentro de uma matriz.
 
@@ -31,17 +29,11 @@ Retorna uma **Variant** cujo valor é uma matriz bidimensional.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Rows*
-
-  - Opcional. Um valor [GetRowsOptionEnum](getrowsoptionenum.md) que indica o número de registros a serem recuperados. O padrão é **adGetRowsRest**.
-
-  - *Start*
-
-  - Opcional. Um valor **String** ou **Variant** que é avaliado para o indicador de um registro a partir do qual a operação **GetRows** deve começar. Também é possível utilizar um valor [BookmarkEnum](bookmarkenum.md).
-
-  - *Fields*
-
-  - Opcional. Uma **Variant** que representa um único nome de campo ou posição ordinal, ou uma matriz de nomes de campos ou números de posição ordinal. O ADO retorna apenas os dados nesses campos.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Rows* |Opcional. Um valor [GetRowsOptionEnum](getrowsoptionenum.md) que indica o número de registros a serem recuperados. O padrão é **adGetRowsRest**.|
+|*Start* |Opcional. Um valor **String** ou **Variant** que é avaliado para o indicador de um registro a partir do qual a operação **GetRows** deve começar. Também é possível utilizar um valor [BookmarkEnum](bookmarkenum.md).|
+|*Fields* |Opcional. Uma **Variant** que representa um único nome de campo ou posição ordinal, ou uma matriz de nomes de campos ou números de posição ordinal. O ADO retorna apenas os dados nesses campos.|
 
 ## <a name="remarks"></a>Comentários
 

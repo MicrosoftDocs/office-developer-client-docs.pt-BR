@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f75e5e1a6d4df21970eea387ecd85ac8ef346a70
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: efba5d3703f41c54a03202dde2c3f30ffa17005a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943770"
+ms.locfileid: "25949462"
 ---
 # <a name="url-property-rds"></a>Propriedade URL (RDS)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Indica um cadeia de caracteres que contém uma URL relativa ou absoluta.
 
@@ -32,13 +29,10 @@ Tempo de execução: DataControl.URL="Server"
 
 ## <a name="parameters"></a>Parâmetros
 
-- *Server*
-
-  - Um valor **String** que contém uma URL válida.
-
-- *DataControl*
-
-  - Uma variável de objeto que representa um objeto **DataControl**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Server* |Um valor **String** que contém uma URL válida.|
+|*DataControl* |Uma variável de objeto que representa um objeto **DataControl**.|
 
 ## <a name="remarks"></a>Comentários
 

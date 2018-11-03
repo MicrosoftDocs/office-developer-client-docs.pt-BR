@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
 ms:contentKeyID: 48545767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73e6240b92a34a6ff1d215cd3211a844f10fe766
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e4afbb31fb95aeea66d9cf93624b95c8796e2d25
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868305"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949359"
 ---
 # <a name="item-property-ado"></a>Propriedade Item (ADO)
 
@@ -29,9 +29,9 @@ Retorna uma referência de objeto.
 
 ## <a name="parameters"></a>Parâmetros
 
-- *Index*
-
-- Uma expressão **Variant** avaliada para o nome ou para o número ordinal de um objeto em uma coleção.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Index* |Uma expressão **Variant** avaliada para o nome ou para o número ordinal de um objeto em uma coleção.|
 
 ## <a name="remarks"></a>Comentários
 

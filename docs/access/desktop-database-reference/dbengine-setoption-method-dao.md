@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e0282d95a77f302103414df1ee904d300a0330e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2d6d40d88051e708944dadfabb984d44cc8c5cbc
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922948"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949884"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Método DBEngine (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 
 *expressão* Uma expressão que retorna um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Opção</p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Uma constante como descrita em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p>Valor</p></td>
+<td><p><em>Valor</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>O valor que você deseja definir para option.</p></td>

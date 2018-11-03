@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 310f6e8961faed0a60b686bc9aeb9e7f8bcf5deb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1c71d92af9c833fd532aed2d436cb186412fe0e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926889"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950017"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Método Connection.OpenRecordset (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,7 +25,7 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 
 *expressão* Uma variável que representa um objeto de **Conexão** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -45,52 +44,37 @@ Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleçã
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Tipo</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p>
-
-> [!NOTE]
-> Se você abrir um **Recordset** em um espaço de trabalho do Microsoft Access se especificar um tipo, o método **OpenRecordset** criará um **Recordset** do tipo tabela, se possível. Se você especificar uma consulta ou tabela vinculada, o método **OpenRecordset** criará um **Recordset** do tipo dynaset.
-
-
+<td><p>Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</p><p><strong>Observação</strong>: se você abrir um <strong>Recordset</strong> em um espaço de trabalho do Microsoft Access e você não especificar um tipo, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo tabela, se possível. Se você especificar uma consulta ou tabela vinculada, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo dynaset.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> As constantes **dbConsistent** e **dbInconsistent** são mutuamente exclusivos e usando os dois causará um erro. Também fornecer um argumento lockedits quando opções usam ou não a constante **dbReadOnly** causará um erro.
-
-
+<td><p>Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</p><p><strong>Observação</strong>: as constantes <strong>dbConsistent</strong> e <strong>dbInconsistent</strong> são mutuamente exclusivos e usando os dois causará um erro. Também fornecer um argumento lockedits quando opções usam ou não a constante <strong>dbReadOnly</strong> causará um erro.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>LockEdit</p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> Você pode usar **dbReadOnly** no argumento options ou o argumento lockedits, mas não ambos. Se você usá-lo para ambos os argumentos, ocorrerá um erro em tempo de execução.
-
-
+<td><p>Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</p><p><strong>Observação</strong>: você pode usar <strong>dbReadOnly</strong> no argumento options ou o argumento lockedits, mas não ambos. Se você usá-lo para ambos os argumentos, ocorrerá um erro em tempo de execução.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Recordset
 
@@ -103,7 +87,6 @@ Você também deverá usar a constante **dbSeeChanges** se abrir um **Recordset*
 Abrir mais de um **Recordset** em uma fonte de dados ODBC pode falhar porque a conexão está ocupada com uma chamada **OpenRecordset** anterior. Uma forma de contornar essa situação é preencher totalmente o **Recordset** usando o método **MoveLast** assim que o **Recordset** for aberto.
 
 Fechar um **Recordset** com o método **[Close](connection-close-method-dao.md)** o exclui automaticamente da coleção **Recordsets**.
-
 
 > [!NOTE]
 > Se a *fonte* refere-se a uma instrução SQL composto por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar abrir o **Recordset**. Isso ocorre porque durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o SQL aceita apenas caracteres decimais EUA.

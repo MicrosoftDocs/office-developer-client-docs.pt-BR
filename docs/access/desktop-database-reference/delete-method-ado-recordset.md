@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3a7ab998052cc08aa57320d05e46542b84282e6c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947277"
+ms.locfileid: "25949505"
 ---
 # <a name="delete-method-ado-recordset"></a>Método Delete (Recordset do ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Exclui o registro atual ou um grupo de registros.
 
@@ -28,10 +25,9 @@ Exclui o registro atual ou um grupo de registros.
 
 ## <a name="parameters"></a>Parâmetros
 
-- *AffectRecords*
-
-  - Um valor [AffectEnum](affectenum.md) que determina quantos registros o método **Delete** afetará. O valor padrão é **adAffectCurrent**.
-
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*AffectRecords* |Um valor [AffectEnum](affectenum.md) que determina quantos registros o método **Delete** afetará. O valor padrão é **adAffectCurrent**.|
 
 > [!NOTE]
 > [!OBSERVAçãO] **adAffectAll** e **adAffectAllChapters** não são argumentos válidos para **Delete**.

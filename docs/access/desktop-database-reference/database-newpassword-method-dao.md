@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936851"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949513"
 ---
 # <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 
 *expressão* Uma expressão que retorna um objeto de **banco de dados** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -49,17 +48,17 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>bstrOld</p></td>
+<td><p><em>bstrOld</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A configuração atual da propriedade <strong>Password</strong> do objeto <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>bstrNew</p></td>
+<td><p><em>bstrNew</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A nova configuração da propriedade <strong>Password</strong> do objeto <strong>Database</strong> .</p>
-<p><strong>Observação</strong> Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<p><strong>Observação</strong>: Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 </tbody>

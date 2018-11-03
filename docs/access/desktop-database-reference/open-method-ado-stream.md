@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc0f12e05e65dd24b73dfcf5702fbe09169ba397
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944829"
+ms.locfileid: "25949821"
 ---
 # <a name="open-method-ado-stream"></a>Método Open (Stream do ADO)
 
@@ -27,25 +27,13 @@ Abre um objeto [Stream](stream-object-ado.md) para manipular fluxos de dados de 
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Source*
-
-  - Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Fonte* pode conter uma sequência de URL absoluta que aponta para um nó existente em uma estrutura de árvore conhecida, como um sistema de email ou o arquivo. Uma URL deve ser especificada usando a palavra-chave URL ("URL =*esquema*://*server*/*pasta*"). Como alternativa, a *fonte* pode conter uma referência a um objeto [Record](record-object-ado.md) já aberto, que abre um fluxo padrão associado ao **registro**. Se a *fonte* não for especificado, um **fluxo** é instanciado e aberto, associados a nenhuma fonte subjacente por padrão. Para obter mais informações sobre esquemas de URL e seus provedores associados, consulte [URLs Absolutas e Relativas](absolute-and-relative-urls.md).
-
-  - *Mode*
-
-  - Opcional. Um valor [ConnectModeEnum](connectmodeenum.md) que especifica o modo de acesso para o **Stream** resultante (por exemplo, leitura/gravação ou somente leitura). O valor padrão é **adModeUnknown**. Consulte a propriedade [Mode](mode-property-ado.md) para obter mais informações sobre modos de acesso. Se o *modo* não for especificado, ele é herdado pelo objeto de origem. Por exemplo, se o **Record** de origem for aberto no modo somente leitura, o **Stream** também será aberto no modo somente leitura por padrão.
-
-  - *OpenOptions*
-
-  - Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.
-
-  - *UserName*
-
-  - Opcional. Um valor **String** que contém a identificação do usuário que, se necessária, acessa o objeto **Stream**.
-
-  - *Password*
-
-  - Opcional. Um valor **String** que contém a senha que, se necessária, acessa o objeto **Stream**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Source* |Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Fonte* pode conter uma sequência de URL absoluta que aponta para um nó existente em uma estrutura de árvore conhecida, como um sistema de email ou o arquivo. Uma URL deve ser especificada usando a palavra-chave URL ("URL =*esquema*://*server*/*pasta*"). Como alternativa, a *fonte* pode conter uma referência a um objeto [Record](record-object-ado.md) já aberto, que abre um fluxo padrão associado ao **registro**. Se a *fonte* não for especificado, um **fluxo** é instanciado e aberto, associados a nenhuma fonte subjacente por padrão. Para obter mais informações sobre esquemas URL e seus provedores associados, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).|
+|*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md) que especifica o modo de acesso para o **Stream** resultante (por exemplo, leitura/gravação ou somente leitura). O valor padrão é **adModeUnknown**. Consulte a propriedade [Mode](mode-property-ado.md) para obter mais informações sobre modos de acesso. Se o *modo* não for especificado, ele é herdado pelo objeto de origem. Por exemplo, se o **Record** de origem for aberto no modo somente leitura, o **Stream** também será aberto no modo somente leitura por padrão.|
+|*OpenOptions* |Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.|
+|*UserName* |Opcional. Um valor **String** que contém a identificação do usuário que, se necessária, acessa o objeto **Stream**.|
+|*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, acessa o objeto **Stream**.|
 
 ## <a name="remarks"></a>Comentários
 

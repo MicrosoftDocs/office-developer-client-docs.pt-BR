@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: df63dfb8351da910a6f735722ef33e8ddc347150
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: af7cc3d629447bae25362b908beb1c74fd3e6b10
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937810"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950094"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>Método DBEngine.CreateWorkspace (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 
@@ -31,7 +29,7 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -50,38 +48,38 @@ Cria um novo objeto **[Workspace](workspace-object-dao.md)**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Workspace</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Workspace</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>UserName</p></td>
+<td><p><em>UserName</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Um <strong>String</strong> que identifica o proprietário do novo objeto <strong>Workspace</strong>. Consulte a propriedade <strong>UserName</strong> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Senha</p></td>
+<td><p><em>Password</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>cadeia de caracteres</strong> contendo a senha para o novo objeto <strong>Workspace</strong> . A senha pode ter até 20 caracteres e pode incluir qualquer caractere exceto o caractere ASCII 0 (nulo).</p>
-<td><p><strong>Observação</strong>: Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<p><strong>Observação</strong>: Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>UseType</p></td>
+<td><p><em>UseType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um dos valores <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
+<p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Workspace
 

@@ -1,17 +1,17 @@
 ---
 title: Propriedade Item (ADO MD Cellset)
-TOCTitle: Item Property (ADO MD Cellset)
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946612"
+ms.locfileid: "25949604"
 ---
 # <a name="item-property-ado-md-cellset"></a>Propriedade Item (ADO MD Cellset)
 
@@ -25,15 +25,9 @@ Definir*célula* = *Cellset*. Item (*posições*)
 
 ## <a name="parameters"></a>Parâmetros
 
-- *Positions*
-
-- Um **Variant** **Array** de valores que especificam unicamente uma célula. *Posições* pode ser um destes procedimentos:
-    
-  - Uma matriz de números de posição
-    
-  - Uma matriz de nomes de membros
-    
-  - A posição ordinal
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Positions* |Uma **matriz Variant** dos valores que especificar uma célula de forma exclusiva. *Posições* pode ser um destes procedimentos:<br/><br/>-Uma matriz de números de posição<br/>-Uma matriz de nomes de membro<br/>-A posição ordinal |
 
 ## <a name="remarks"></a>Comentários
 

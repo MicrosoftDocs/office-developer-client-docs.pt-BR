@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bccd0eb536ec67937e8c3659b2ac62ef49a0bb3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 61d31ba6044448d2b2534d6affa6157765e9cbc7
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924061"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949632"
 ---
 # <a name="sortcolumn-property-rds"></a>Propriedade SortColumn (RDS)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,13 +25,10 @@ Indica por qual coluna os registros serão classificados.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *DataControl*
-
-  - Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *String*
-
-  - Um valor **String** que representa o nome ou o alias da coluna pela qual os registros serão classificados.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*String* |Um valor **String** que representa o nome ou o alias da coluna pela qual os registros serão classificados.|
 
 ## <a name="remarks"></a>Comentários
 

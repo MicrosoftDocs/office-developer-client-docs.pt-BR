@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d08b596afb24fff430c6c662a557da1880addefa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921177"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950074"
 ---
 # <a name="createobject-method-rds"></a>Método CreateObject (RDS)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Cria o proxy para o objeto corporativo de destino e retorna um ponteiro para ele. O proxy empacota e conduz dados para o stub no servidor para comunicação com o objeto corporativo a fim de enviar solicitações e dados pela Internet. Para objetos de componente dentro do processo, nenhum proxy é utilizado, apenas é fornecido um ponteiro para o objeto.
 
@@ -59,21 +57,12 @@ O Remote Data Service suporta os seguintes protocolos: HTTP, HTTPS (HTTP sobre S
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Object*
-
-  - Uma variável de objeto que é avaliada para um objeto que é o tipo especificado em *ProgID*.
-
-  - *DataSpace*
-
-  - Uma variável de objeto que representa um objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para criar uma instância do novo objeto.
-
-  - *ProgID*
-
-  - Um valor **String** que contém o identificador programático que especifica um objeto corporativo no servidor que implementa as regras comerciais de seu aplicativo.
-
-  - *awebsrvr* ou *computername*
-
-  - Um valor **String** que representa uma URL que identifica o servidor de web de serviços de informações da Internet (IIS) em que uma instância do objeto de negócios do servidor é criado.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Object* |Uma variável de objeto que é avaliada para um objeto que é o tipo especificado em *ProgID*.|
+|*DataSpace* |Uma variável de objeto que representa um objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para criar uma instância do novo objeto.|
+|*ProgID* |Um valor **String** que contém o identificador programático que especifica um objeto corporativo no servidor que implementa as regras comerciais de seu aplicativo.|
+|*awebsrvr* ou *computername* |Um valor **String** que representa uma URL que identifica o servidor de web de serviços de informações da Internet (IIS) em que uma instância do objeto de negócios do servidor é criado.|
 
 ## <a name="remarks"></a>Comentários
 

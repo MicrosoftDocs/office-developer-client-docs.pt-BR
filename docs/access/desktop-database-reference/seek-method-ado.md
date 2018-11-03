@@ -1,24 +1,21 @@
 ---
-title: Método - de Seek ActiveX Data Objects (ADO)
+title: Método - ActiveX Data Objects (ADO) Seek
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923375"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949709"
 ---
 # <a name="seek-method-ado"></a>Método Seek (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Pesquisa o índice de um [Recordset](recordset-object-ado.md) para localizar rapidamente a linha que corresponde aos valores especificados e altera a posição de linha atual para essa linha.
 
@@ -28,13 +25,10 @@ Pesquisa o índice de um [Recordset](recordset-object-ado.md) para localizar rap
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *KeyValues*
-
-  - Uma matriz de valores **Variant**. Um índice consiste em uma ou mais colunas e a matriz contém um valor a ser comparado em relação a cada coluna correspondente.
-
-  - *SeekOption*
-
-  - Um valor [SeekEnum](seekenum.md) que especifica o tipo de comparação a ser feita entre as colunas do índice e os *KeyValues* correspondentes.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*KeyValues* |Uma matriz de valores **Variant**. Um índice consiste em uma ou mais colunas e a matriz contém um valor a ser comparado em relação a cada coluna correspondente.|
+|*SeekOption* |Um valor [SeekEnum](seekenum.md) que especifica o tipo de comparação a ser feita entre as colunas do índice e os *KeyValues* correspondentes.|
 
 ## <a name="remarks"></a>Comentários
 

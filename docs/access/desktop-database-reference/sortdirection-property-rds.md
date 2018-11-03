@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aef8b658bbe16c7b56c97900edb5a9c6bf1e8a0c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0db4bd5661bc32cb6f9ce8191dd4ac5bad7eff4c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929640"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950108"
 ---
 # <a name="sortdirection-property-rds"></a>Propriedade SortDirection (RDS)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Indica se uma ordem de classificação é crescente ou decrescente.
 
@@ -27,13 +25,10 @@ Indica se uma ordem de classificação é crescente ou decrescente.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *DataControl*
-
-  - Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *Valor*
-
-  - Um valor **Boolean** que, quando definido como **True**, indica a direção da classificação como crescente. **False** indica a ordem decrescente.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*Valor* |Um valor **Boolean** que, quando definido como **True**, indica a direção da classificação como crescente. **False** indica a ordem decrescente.|
 
 ## <a name="remarks"></a>Comentários
 

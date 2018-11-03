@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
 ms:contentKeyID: 48548717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73633c38bb21a794bc2137554f0341f93d9f265d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bfcb392fc9b89f614a8372b888db794ee4a1eb06
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931040"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950173"
 ---
 # <a name="resync-method-ado"></a>Método Resync (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Atualiza os dados no objeto [Recordset](recordset-object-ado.md) atual, ou a coleção [Fields](fields-collection-ado.md) de um objeto [Record](record-object-ado.md), a partir do banco de dados subjacente.
 
@@ -30,17 +27,14 @@ Atualiza os dados no objeto [Recordset](recordset-object-ado.md) atual, ou a col
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *AffectRecords*
-
-  - Opcional. Um valor [AffectEnum](affectenum.md) que determina a quantidade de registros que serão afetados pelo método **Resync**. O valor padrão é **adAffectAll**. Esse valor não está disponível com o método **Resync** da coleção **Fields** de um objeto **Record**.
-
-  - *ResyncValues*
-
-  - Opcional. Um valor [ResyncEnum](resyncenum.md) que especifica se os valores subjacentes serão substituídos. O valor padrão é **adResyncAllValues**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*AffectRecords* |Opcional. Um valor [AffectEnum](affectenum.md) que determina a quantidade de registros que serão afetados pelo método **Resync**. O valor padrão é **adAffectAll**. Esse valor não está disponível com o método **Resync** da coleção **Fields** de um objeto **Record**.|
+|*ResyncValues* |Opcional. Um valor [ResyncEnum](resyncenum.md) que especifica se os valores subjacentes serão substituídos. O valor padrão é **adResyncAllValues**.|
 
 ## <a name="remarks"></a>Comentários
 
-**Objeto Recordset**
+### <a name="recordset"></a>Recordset
 
 Use o método **Resync** para sincronizar novamente os registros do **Recordset** atual com o banco de dados subjacente. Esse procedimento será útil se você estiver usando um cursor estático ou somente de encaminhamento e desejar ver as alterações no banco de dados subjacente.
 
@@ -52,7 +46,7 @@ Se a tentativa de nova sincronização falhar devido a um conflito com os dados 
 
 Se as propriedades dinâmicas [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) e [Resync Command](resync-command-property-dynamic-ado.md) forem definidas e **Recordset** resultar da execução de uma operação JOIN em várias tabelas, o método **Resync** executará o comando fornecido na propriedade **Resync Command** somente na tabela nomeada na propriedade **Unique Table**.
 
-**Coleção Fields**
+### <a name="fields"></a>Fields
 
 Use o método **Resync** para sincronizar novamente os valores da coleção **Fields** de um objeto **Record** com a fonte de dados subjacente. A propriedade [Count](count-property-ado.md) não é afetada por esse método.
 

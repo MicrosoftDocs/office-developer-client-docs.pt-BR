@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a753ea57fba54f2e3b1a08c93f1309259f712446
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 21798f476e0d67b7b23ef38c6e2b268893173ac6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947704"
+ms.locfileid: "25950059"
 ---
 # <a name="open-method-ado-recordset"></a>Método Open (Recordset do ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Abre um cursor.
 
@@ -27,31 +25,16 @@ Abre um cursor.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Source*
-
-  - Opcional. Uma **Variant** que é avaliada para um objeto [Command](command-object-ado.md) válido, uma instrução SQL, um nome de tabela, uma chamada a procedimento armazenado, uma URL ou o nome de um arquivo ou objeto [Stream](stream-object-ado.md) que contém um [Recordset](recordset-object-ado.md) armazenado persistentemente.
-
-  - *ActiveConnection*
-
-  - Opcional. Uma **Variant** que é avaliada para um nome de variável de objeto [Connection](connection-object-ado.md) válido ou uma **String** que contém parâmetros [ConnectionString](connectionstring-property-ado.md).
-
-  - *CursorType*
-
-  - Opcional. Um valor [CursorTypeEnum](cursortypeenum.md) que determina o tipo de cursor que o provedordeve utilizar ao abrir o **Recordset**. O valor padrão é **adOpenForwardOnly**.
-
-  - *LockType*
-
-  - Opcional. Um valor [LockTypeEnum](locktypeenum.md) que determina qual tipo de bloqueio (simultaneidade) o provedor deve utilizar ao abrir o **Recordset**. O valor padrão é **adLockReadOnly**.
-
-  - *Options*
-
-  - Opcional. Um valor **Long** que indica como o provedor deverá avaliar o argumento *Source* se ele representar algo diferente de um objeto **Command** ou **Recordset** deve ser restaurado a partir de um arquivo onde ele foi salvo anteriormente. Pode ser um ou mais valores [CommandTypeEnum](commandtypeenum.md) ou [ExecuteOptionEnum](executeoptionenum.md), que podem ser combinados com um operador AND ciente de bit.
-
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Source* |Opcional. Uma **Variant** que é avaliada para um objeto [Command](command-object-ado.md) válido, uma instrução SQL, um nome de tabela, uma chamada a procedimento armazenado, uma URL ou o nome de um arquivo ou objeto [Stream](stream-object-ado.md) que contém um [Recordset](recordset-object-ado.md) armazenado persistentemente.|
+|*ActiveConnection* |Opcional. Uma **Variant** que é avaliada para um nome de variável de objeto [Connection](connection-object-ado.md) válido ou uma **String** que contém parâmetros [ConnectionString](connectionstring-property-ado.md).|
+|*CursorType* |Opcional. Um valor [CursorTypeEnum](cursortypeenum.md) que determina o tipo de cursor que o provedordeve utilizar ao abrir o **Recordset**. O valor padrão é **adOpenForwardOnly**.|
+|*LockType* |Opcional. Um valor [LockTypeEnum](locktypeenum.md) que determina qual tipo de bloqueio (simultaneidade) o provedor deve utilizar ao abrir o **Recordset**. O valor padrão é **adLockReadOnly**.|
+|*Options* |Opcional. Um valor **Long** que indica como o provedor deverá avaliar o argumento *Source* se ele representar algo diferente de um objeto **Command** ou **Recordset** deve ser restaurado a partir de um arquivo onde ele foi salvo anteriormente. Pode ser um ou mais valores [CommandTypeEnum](commandtypeenum.md) ou [ExecuteOptionEnum](executeoptionenum.md), que podem ser combinados com um operador AND ciente de bit.|
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você abrir um <STRONG>Recordset</STRONG> a partir de um <STRONG>Stream</STRONG> que contém um <STRONG>Recordset</STRONG> persistido, a utilização de um valor <STRONG>adAsyncFetchNonBlocking</STRONG> de <STRONG>ExecuteOptionEnum</STRONG> não terá efeito algum; a busca será síncrona e bloqueada.</P>
-
-
+> [!OBSERVAçãO] Se você abrir um **Recordset** a partir de um **Stream** que contém um **Recordset** persistido, a utilização de um valor **adAsyncFetchNonBlocking** de **ExecuteOptionEnum** não terá efeito algum; a busca será síncrona e bloqueada.
 
 Os valores **adExecuteNoRecords** ou **adExecuteStream** de **ExecuteOpenEnum** não devem ser utilizados com **Open**.
 
@@ -69,17 +52,14 @@ O argumento *ActiveConnection* corresponde à propriedade [ActiveConnection](act
 
 Para os demais argumentos que correspondem diretamente às propriedades de um objeto **Recordset** (*Source*, *CursorType* e *LockType*), a relação dos argumentos com as propriedades é a seguinte:
 
-  - A propriedade é de leitura/gravação antes do objeto **Recordset** ser aberto.
+- A propriedade é de leitura/gravação antes do objeto **Recordset** ser aberto.
 
-  - As definições da propriedade são utilizadas, a menos que você passe os argumentos correspondentes ao executar o método **Open**. Se você passar um argumento, ele sobrescreverá a definição de propriedade correspondente, que será atualizada com o valor do argumento.
+- As definições da propriedade são utilizadas, a menos que você passe os argumentos correspondentes ao executar o método **Open**. Se você passar um argumento, ele sobrescreverá a definição de propriedade correspondente, que será atualizada com o valor do argumento.
 
-  - Depois de abrir o objeto **Recordset**, essas propriedades serão somente leitura.
-
+- Depois de abrir o objeto **Recordset**, essas propriedades serão somente leitura.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] A propriedade <STRONG>ActiveConnection</STRONG> é apenas leitura para objetos <STRONG>Recordset</STRONG> cuja propriedade <A href="source-property-ado-recordset.md">Source</A> esteja definida para um objeto <STRONG>Command</STRONG> válido, mesmo se o objeto <STRONG>Recordset</STRONG> não estiver aberto.</P>
-
-
+> [!OBSERVAçãO] A propriedade **ActiveConnection** é apenas leitura para objetos **Recordset** cuja propriedade [Source](source-property-ado-recordset.md) esteja definida para um objeto **Command** válido, mesmo se o objeto **Recordset** não estiver aberto.
 
 Se você passa um objeto **Command** do argumento de *origem* e também passa um argumento *ActiveConnection* , ocorrerá um erro. A propriedade **ActiveConnection** do objeto **Command** já deve estar definida para um objeto **Connection** válido ou uma sequência de conexão.
 
@@ -97,10 +77,8 @@ Antes que a propriedade **ActiveConnection** seja definida, chame **Open** sem o
 
 Se você definiu a propriedade [CursorLocation](cursorlocation-property-ado.md) como **adUseClient**, poderá recuperar linhas assincronamente em uma das duas formas a seguir. O método recomendado é definir *Opções* para **adAsyncFetch**. De modo alternativo, é possível utilizar a propriedade dinâmica "Asynchronous Rowset Processing" na coleção [Properties](properties-collection-ado.md), mas os eventos relacionados recuperados poderão ser perdidos se você não definir o parâmetro **Options** como **adAsyncFetch**.
 
-
 > [!NOTE]
-> <P>Plano de fundo busca no provedor MS Remote é suportada apenas por meio do parâmetro de <EM>Options</EM> do método <STRONG>Open</STRONG> .</P>
-
+> Plano de fundo busca no provedor MS Remote é suportada apenas por meio do parâmetro de *Options* do método **Open** .
 
 > [!NOTE]
 > [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).

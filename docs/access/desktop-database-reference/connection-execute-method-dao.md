@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a06837ec98d96cc4c6ae75a19dd953ca4dc59dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d95b33531f32ebc3524737c3322c92838518b97f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920078"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949534"
 ---
 # <a name="connectionexecute-method-dao"></a>Método Execute (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,7 +25,7 @@ Executa uma consulta de ação ou executa uma instrução SQL no objeto especifi
 
 *expressão* Uma variável que representa um objeto de **Conexão** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ Executa uma consulta de ação ou executa uma instrução SQL no objeto especifi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma <strong>String</strong> que é uma instrução SQL ou o valor da propriedade <strong>Name</strong> de um objeto <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que determina as características de integridade dos dados da consulta, conforme especificado em Configurações.</p></td>

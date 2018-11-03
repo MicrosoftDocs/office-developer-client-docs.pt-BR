@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa7042f34f4b125c9cd34d31baae538ea3637801
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7a6f7ac26c3089a973a68e07acbe0f6f3e4029df
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928534"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949436"
 ---
 # <a name="append-method-adox-columns"></a>Método Append (Colunas do ADOX)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,17 +25,11 @@ Adiciona um novo objeto [Column](column-object-adox.md) à coleção [Columns](c
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Column*
-
-  - O objeto **Column** a ser anexado ou o nome da coluna a ser criada e anexada.
-
-  - *Type*
-
-  - Opcional. Um valor **Long** que especifica o tipo de dados da coluna. O parâmetro *Type* corresponde à propriedade [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) de um objeto **Column** .
-
-  - *DefinedSize*
-
-  - Opcional. Um valor **Long** que especifica o tamanho da coluna. O parâmetro *DefinedSize* corresponde à propriedade [DefinedSize](definedsize-property-adox.md) de um objeto **Column** .
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Column* |O objeto **Column** a ser anexado ou o nome da coluna a ser criada e anexada.|
+|*Type* |Opcional. Um valor **Long** que especifica o tipo de dados da coluna. O parâmetro *Type* corresponde à propriedade [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) de um objeto **Column** .|
+|*DefinedSize* |Opcional. Um valor **Long** que especifica o tamanho da coluna. O parâmetro *DefinedSize* corresponde à propriedade [DefinedSize](definedsize-property-adox.md) de um objeto **Column** .|
 
 
 > [!NOTE]

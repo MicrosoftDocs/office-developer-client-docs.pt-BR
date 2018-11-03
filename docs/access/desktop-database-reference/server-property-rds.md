@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 492602d7150f3080df329d30a38e3af51755cf0f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925227"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949497"
 ---
 # <a name="server-property-rds"></a>Propriedade Server (RDS)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -42,17 +41,11 @@ Você pode definir a propriedade **Server** no tempo de design nas marcas OBJECT
 
 ## <a name="parameters"></a>Parâmetros
 
-*awebsrvr* ou *computername*
-
-- Um valor **String** que contém um caminho de Internet ou intranet, ou nome do computador, se o servidor estiver em um computador remoto; ou, uma cadeia de caracteres em branco, se o servidor estiver no computador local.
-
-*porta*
-
-- Opcional. Uma porta que é utilizada para conexão com um servidor IIS. O número da porta é definido no Internet Explorer (no menu **Exibir**, clique em **Opções** e selecione a guia **Conexões** ) ou no IIS.
-
-*DataControl*
-
-- Uma variável de objeto que representa um objeto **RDS.DataControl**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*awebsrvr* ou *computername* |Um valor **String** que contém um caminho de Internet ou intranet, ou nome do computador, se o servidor estiver em um computador remoto; ou, uma cadeia de caracteres em branco, se o servidor estiver no computador local.|
+|*porta* |Opcional. Uma porta que é utilizada para conexão com um servidor IIS. O número da porta é definido no Internet Explorer (no menu **Exibir**, clique em **Opções** e selecione a guia **Conexões** ) ou no IIS.|
+|*DataControl* |Uma variável de objeto que representa um objeto **RDS.DataControl**.|
 
 ## <a name="remarks"></a>Comentários
 

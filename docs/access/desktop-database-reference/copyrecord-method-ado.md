@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f25d3f7cb576a9fb8ddf79a887bb3c795144682
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 161cfec0e8450ef7e80c47bc8fb1b8304790e7c5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919028"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949905"
 ---
 # <a name="copyrecord-method-ado"></a>Método CopyRecord (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,29 +25,14 @@ Copia uma entidade representada por um **Record** para outro local.
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Source*
-
-  - Opcional. Um valor **String** que contém uma URL que especifica a entidade a ser copiada (por exemplo, um arquivo ou diretório). Se a *fonte* for omitido ou especifica uma sequência vazia, o arquivo ou diretório representado pelo [registro](record-object-ado.md) atual será copiado.
-
-  - *Destination*
-
-  - Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* serão copiados.
-
-  - *UserName*
-
-  - Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.
-
-  - *Password*
-
-  - Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.
-
-  - *Options*
-
-  - Opcional. Um valor [CopyRecordOptionsEnum](copyrecordoptionsenum.md) que tem o valor padrão **adCopyUnspecified**. Especifica o comportamento deste método.
-
-  - *Async*
-
-  - Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Source* |Opcional. Um valor **String** que contém uma URL que especifica a entidade a ser copiada (por exemplo, um arquivo ou diretório). Se a *fonte* for omitido ou especifica uma sequência vazia, o arquivo ou diretório representado pelo [registro](record-object-ado.md) atual será copiado.|
+|*Destination* |Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* serão copiados.|
+|*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.|
+|*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.|
+|*Options* |Opcional. Um valor [CopyRecordOptionsEnum](copyrecordoptionsenum.md) que tem o valor padrão **adCopyUnspecified**. Especifica o comportamento deste método.|
+|*Async* |Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.|
 
 ## <a name="return-value"></a>Valor de retorno
 
@@ -62,11 +46,8 @@ Todos os filhos (por exemplo, subdiretórios) de *Source* são copiados recursiv
 
 Este método falha se *Destination* identificar uma entidade existente (por exemplo, um arquivo ou diretório), a menos que **adCopyOverWrite** seja especificado.
 
-
 > [!IMPORTANT]
 > [!IMPORTANTE] Utilize a opção **adCopyOverWrite** criteriosamente. Por exemplo, se você especificar essa opção ao copiar um arquivo em um diretório irá *Excluir* o diretório e substituí-lo com o arquivo.
-
-
 
 
 > [!NOTE]

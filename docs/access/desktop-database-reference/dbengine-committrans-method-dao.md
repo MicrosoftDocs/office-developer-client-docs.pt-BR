@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
 ms:contentKeyID: 48543197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564f1852fac571bdf1459c98620f31e2419b2cf3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: de57bfff5b47e3c4202a17910db2413686f73d9b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925706"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950262"
 ---
 # <a name="dbenginecommittrans-method-dao"></a>Método DBEngine.CommitTrans (DAO)
 
@@ -26,7 +26,7 @@ Encerra a transação atual e salva as alterações.
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ Encerra a transação atual e salva as alterações.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Opção</p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Em um espaço de trabalho do Microsoft Access, você pode incluir a constante <strong>dbForceOSFlush</strong> com <strong>CommitTrans</strong>. Isso força o mecanismo de banco de dados para retirar imediatamente todas as atualizações do disco, em vez de armazená-las em cache temporariamente. Sem utilizar essa opção, um usuário pode obter de volta o controle logo depois de o programa de aplicativo chamar <strong>CommitTrans</strong>, desligar o computador e não ter os dados gravados no disco. Utilizar essa opção pode afetar o desempenho do aplicativo; ela é útil em situações na qual o computador pode ser desligado antes de as atualizações no cache serem salvas no disco.</p></td>

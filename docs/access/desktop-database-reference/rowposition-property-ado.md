@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
 ms:contentKeyID: 48547325
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f83d1b113b29be06ffded5263791d3db3068f7f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0adb1cdf9ce7b096d7b80b86a89a819d5789b60b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869068"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949380"
 ---
 # <a name="rowposition-property-ado"></a>Propriedade RowPosition (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Obtém ou define um objeto **RowPosition** do OLE DB a partir de/em um objeto **ADORecordsetConstruction**. Quando você usa **colocar\_RowPosition** para definir o objeto **RowPosition** , o objeto **Recordset** resultante usa o objeto **RowPosition** para determinar a linha atual.
 
@@ -32,13 +29,10 @@ Colocar HRESULT\_RowPosition (\[na\] IUnknown\* pRowPos);
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *ppRowPos*
-
-  - Ponteiro para um objeto **RowPosition** do OLE DB.
-
-  - *PRowPos*
-
-  - Um objeto **RowPosition** do OLE DB.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*ppRowPos* |Ponteiro para um objeto **RowPosition** do OLE DB.|
+|*PRowPos* |Um objeto **RowPosition** do OLE DB.|
 
 ## <a name="return-values"></a>Valor de retorno
 

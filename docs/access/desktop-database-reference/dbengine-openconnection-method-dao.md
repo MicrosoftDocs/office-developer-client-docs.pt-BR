@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f958081ee73e64ca6c895217c8aa3e821617b283
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 08e26c4a32e8648eb1833dc493b4e121030d1f1a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927190"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950031"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Método DBEngine.OpenConnection (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,7 +27,7 @@ ms.locfileid: "25927190"
 
 *expressão* Uma variável que representa um objeto **DBEngine** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -47,25 +46,25 @@ ms.locfileid: "25927190"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma expressão em sequência. Consulte a discussão em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para a conexão, como especificado em Comentários. Com base nessa valor, o gerenciador do driver ODBC solicita ao usuário informações de conexão, como o DSN (Nome da fonte de dados), o nome do usuário e a senha.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> se a conexão tiver que ser aberta para acesso somente leitura, e <strong>False</strong> se a conexão tiver que ser aberta para acesso de leitura/gravação (padrão).</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma cadeia de caracteres de conexão ODBC. Consulte a propriedade <strong><a href="connection-connect-property-dao.md">Connect</a></strong> para os elementos específicos e a sintaxe dessa cadeia de caracteres. Um antecedendo &quot;ODBC; &quot; é necessário.</p></td>
@@ -74,7 +73,7 @@ ms.locfileid: "25927190"
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Connection
 

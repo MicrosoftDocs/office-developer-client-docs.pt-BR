@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5aab77571b0b12c6b26cd15af386c9ee89162681
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 296232b05041c1e059b5134fdde11fceac4e3d43
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930011"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949891"
 ---
 # <a name="moverecord-method-ado"></a>Método MoveRecord (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
  
-
 Move a entidade representada por um [Record](record-object-ado.md) para outro local.
 
 ## <a name="syntax"></a>Sintaxe
@@ -27,29 +25,14 @@ Move a entidade representada por um [Record](record-object-ado.md) para outro lo
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Source*
-
-  - Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.
-
-  - *Destination*
-
-  - Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.
-
-  - *UserName*
-
-  - Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.
-
-  - *Password*
-
-  - Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.
-
-  - *Options*
-
-  - Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.
-
-  - *Async*
-
-  - Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Origem* |Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.|
+|*Destination* |Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.|
+|*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.|
+|*Password* |Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.|
+|*Options* |Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.|
+|*Async* |Opcional. **Boolean** valor que, quando especifica **True**, esta operação deve ser assíncrona.|
 
 ## <a name="return-value"></a>Valor de retorno
 

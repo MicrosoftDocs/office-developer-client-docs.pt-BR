@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
 ms:contentKeyID: 48545160
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f842ad1498e0f6752299cd3d16d8c558042a850e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 21176e050c77b0f14fcb03b054e8a1ab692df7d5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945779"
+ms.locfileid: "25949254"
 ---
 # <a name="recordset-sourcerecordset-properties-rds"></a>Propriedades Recordset, SourceRecordset (RDS)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,13 +27,10 @@ Indica o objeto **Recordset** retornado de um objeto corporativo personalizado.
 
 ## <a name="parameters"></a>Parâmetros
 
-- *DataControl*
-
-  - Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).
-
-- *Recordset*
-
-  - Uma variável de objeto que representa um objeto **Recordset**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*DataControl* |Uma variável de objeto que representa um objeto [RDS.DataControl](datacontrol-object-rds.md).|
+|*Recordset* |Uma variável de objeto que representa um objeto **Recordset**.|
 
 ## <a name="remarks"></a>Comentários
 

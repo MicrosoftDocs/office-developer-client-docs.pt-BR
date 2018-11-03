@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 191cd2b1bdd1f1c625743d5e50037bc944b4ef23
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a03f486d29aa70c7d4901372f81609e378ffae07
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928436"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950052"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Método Connection.CreateQueryDef (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 
 *expressão* Uma variável que representa um objeto de **Conexão** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>SQLText</p></td>
+<td><p><em>SQLText</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que é uma instrução SQL definindo o <strong>QueryDef</strong>. Se você omitir esse argumento, será possível definir o <strong>QueryDef</strong> configurando sua propriedade <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> antes ou depois de acrescentá-lo a uma coleção.</p></td>
@@ -64,7 +63,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 QueryDef
 

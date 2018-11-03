@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
 ms:contentKeyID: 48544621
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edb2eefd36aea9f037ea4ad6afc51e0da18b76db
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ed0f93fc8b58d94675377b3263ba60fb692a9a4e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945632"
+ms.locfileid: "25949485"
 ---
 # <a name="fetchcomplete-event-ado"></a>Evento FetchComplete (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 O evento **FetchComplete** é chamado depois de todos os registros em uma operação assíncrona prolongada terem sido recuperados no [Recordset](recordset-object-ado.md).
 
@@ -27,19 +25,11 @@ FetchComplete*pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Parâmetros
 
-- *pError*
-
-  - Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de **adStatus** for **adStatusErrorsOccurred**; caso contrário, não será definido.
-
-- *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Antes de este evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.
-
-- *pRecordset*
-
-  - Um objeto **Recordset**. O objeto para o qual os registros foram recuperados.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de **adStatus** for **adStatusErrorsOccurred**; caso contrário, não será definido.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de este evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes.|
+|*pRecordset* |Um objeto **Recordset**. O objeto para o qual os registros foram recuperados.|
 
 ## <a name="remarks"></a>Comentários
 

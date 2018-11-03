@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2799feebc3d2c2c4599249f0af310cf4020dcb49
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f49bbffc2cfbaec77bf1b0d6aa692412c45254ae
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945506"
+ms.locfileid: "25949678"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>Eventos ConnectComplete e Disconnect (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,19 +27,9 @@ Desconectar*adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parâmetros
 
-- *pError*
-
-  - Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.
-
-- *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Quando **ConnectComplete** é chamado, este parâmetro é definido como **adStatusCancel** se um evento **WillConnect** solicitou o cancelamento da conexão pendente.
-    
-    Antes do evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes. Contudo, o fechamento e a reabertura de [Connection](connection-object-ado.md) faz com que esses eventos ocorram novamente.
-
-- *pConnection*
-
-  - O objeto **Connection** ao qual este evento se aplica.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*pError* |Um objeto [Error](error-object-ado.md). Descreve o erro ocorrido se o valor de *adStatus* for **adStatusErrorsOccurred**; caso contrário, não será definido.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Quando **ConnectComplete** é chamado, este parâmetro é definido como **adStatusCancel** se um evento **WillConnect** solicitou o cancelamento da conexão pendente.<br/><br/>Antes do evento retornar, defina este parâmetro como **adStatusUnwantedEvent** para evitar notificações subsequentes. Contudo, o fechamento e a reabertura de [Connection](connection-object-ado.md) faz com que esses eventos ocorram novamente.|
+|*pConnection* |O objeto **Connection** ao qual este evento se aplica.|
 

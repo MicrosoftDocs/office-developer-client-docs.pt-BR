@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f6e797865889bcf52c6f13e4411e945a72b978e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945919"
+ms.locfileid: "25949989"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Métodos BeginTrans, CommitTrans e RollbackTrans (ADO)
 
@@ -41,16 +41,16 @@ Estes métodos de transação gerenciam o processamento das transações em um o
 
 ## <a name="parameters"></a>Parâmetros
 
-- *object*
-
-  - Um objeto **Connection**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*object* |Um objeto **Connection**.|
 
 ### <a name="connection"></a>Connection
 
 Use esses métodos com um objeto **Connection** quando desejar salvar ou cancelar uma série de alterações feitas na fonte de dados como uma única unidade. Por exemplo, para transferir dinheiro entre contas, subtraia um valor de uma conta e acrescente o mesmo valor à outra. Se uma das duas atualizações falhar, as contas ficarão desequilibradas. A realização dessas alterações em uma transação aberta garante que todas as alterações, ou nenhuma delas, ocorram.
 
 > [!NOTE]
-> Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "**Transaction DDL**" definida pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection**, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
+> [!OBSERVAçãO] Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade definido pelo provedor **Transação DDL** aparece no conjunto de [Propriedades](properties-collection-ado.md) do objeto de **Conexão** , indicando que o provedor oferece suporte às transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
 
 Depois que você chamar o método **BeginTrans**, o provedor não confirmará mais instantaneamente as alterações feitas até que **CommitTrans** ou **RollbackTrans** seja chamado para finalizar a transação.
 

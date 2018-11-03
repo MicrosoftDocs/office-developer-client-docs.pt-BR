@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a47709d1be3eab66f849e076c5756d5081d28fc8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 632bf0af35dd49951d58ba126b6e03678a1a12db
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930228"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950248"
 ---
 # <a name="databasemakereplica-method-dao"></a>Método Database.MakeReplica (DAO)
 
@@ -29,7 +29,7 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 
 *expressão* Uma variável que representa um objeto de **banco de dados** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -48,19 +48,19 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome do caminho</p></td>
+<td><p><em>Nome do caminho</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho e o nome de arquivo da nova réplica. Se réplica for um nome de arquivo existente, ocorrerá um erro.</p></td>
 </tr>
 <tr class="even">
-<td><p>Descrição</p></td>
+<td><p><em>Descrição</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>A <strong>String</strong> que descreve a réplica que está sendo criada</p></td>
 </tr>
 <tr class="odd">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> que especifica as características da réplica que você está criando.</p></td>

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86d164a133538379a15c80f7fb5f2f4ba71267bf
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919679"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950206"
 ---
 # <a name="save-method-ado"></a>Método Save (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,13 +25,10 @@ Salva o [Recordset](recordset-object-ado.md) em um arquivo ou objeto [Stream](st
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Destination*
-
-  - Opcional. Uma **Variant** que representa o nome de caminho completo do arquivo em que o **Recordset** deve ser salvo, ou uma referência a um objeto **Stream**.
-
-  - *PersistFormat*
-
-  - Opcional. Um valor [PersistFormatEnum](persistformatenum.md) que especifica o formato no qual o **Recordset** deve ser salvo (XML ou ADTG). O valor padrão é **adPersistADTG**.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Destination* |Opcional. Uma **Variant** que representa o nome de caminho completo do arquivo em que o **Recordset** deve ser salvo, ou uma referência a um objeto **Stream**.|
+|*PersistFormat* |Opcional. Um valor [PersistFormatEnum](persistformatenum.md) que especifica o formato no qual o **Recordset** deve ser salvo (XML ou ADTG). O valor padrão é **adPersistADTG**.|
 
 ## <a name="remarks"></a>Comentários
 
@@ -56,11 +52,8 @@ Para obter melhores resultados, defina a propriedade [CursorLocation](cursorloca
 
 Quando um **Recordset** for persistido com a propriedade **CursorLocation** definida como **adUseServer**, a capacidade de atualização do **Recordset** será limitada. Normalmente, apenas atualizações, inserções e exclusões de tabela única são permitidas (dependendo da funcionalidade do provedor). O método [Resync](resync-method-ado.md) também está indisponível nessa configuração.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O salvamento de um <STRONG>Recordset</STRONG> com <STRONG>Fields</STRONG> do tipo <STRONG>adVariant</STRONG>, <STRONG>adIDispatch</STRONG> ou <STRONG>adIUnknown</STRONG> não é suportado pelo ADO e pode causar resultados imprevisíveis.</P>
-
-
+> [!OBSERVAçãO] O salvamento de um **Recordset** com **Fields** do tipo **adVariant**, **adIDispatch** ou **adIUnknown** não é suportado pelo ADO e pode causar resultados imprevisíveis.
 
 Somente os **filtros** no formato de cadeias de caracteres de critérios (ex.: DataDoPedido \> ' 12/31/1999 ') afetam o conteúdo de um **Recordset**de persistido. Os filtros criados com uma Matriz de **Bookmarks** ou utilizado um valor de **FilterGroupEnum** não afetarão o conteúdo do **Recordset** persistido. Essas regras são aplicadas a **Recordsets** criados com cursores do cliente ou do servidor.
 
@@ -68,11 +61,8 @@ Porque o parâmetro *Destination* pode aceitar qualquer objeto que dá suporte �
 
 Também e possível salvar um **Recordset** em formato XML para uma instância de um objeto MSXML DOM, conforme mostrado no seguinte código Visual Basic:
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Duas limitações são aplicadas ao salvar <STRONG>Recordsets</STRONG> hierárquicos (formas de dados) em formato XML. Não é possível salvar em XML se o <STRONG>Recordset</STRONG> hierárquico contiver atualizações pendentes e não é possível salvar um <STRONG>Recordset</STRONG> hierárquico parametrizado.</P>
-
-
+> [!OBSERVAçãO] Duas limitações são aplicadas ao salvar **Recordsets** hierárquicos (formas de dados) em formato XML. Não é possível salvar em XML se o **Recordset** hierárquico contiver atualizações pendentes e não é possível salvar um **Recordset** hierárquico parametrizado.
 
 Um Recordset salvo em formato XML é salvo utilizando-se o formato UTF-8. Quando um arquivo desse tipo for carregado em um Stream do ADO, o objeto Stream não tentará abrir um Recordset a partir do fluxo a menos que a propriedade Charset do fluxo esteja definida para o valor apropriado do formato UTF-8.
 

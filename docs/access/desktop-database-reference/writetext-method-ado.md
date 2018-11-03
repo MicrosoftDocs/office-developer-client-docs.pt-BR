@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c0c4668141c0da6e5faddee009d2548f1ee2c53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6aecdbee544d3b30a6f6386c98d3083bb1167539
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926994"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949800"
 ---
 # <a name="writetext-method-ado"></a>Método WriteText (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,13 +25,10 @@ Grava uma sequência de texto especificada em um objeto [Stream](stream-object-a
 
 ## <a name="parameters"></a>Parâmetros
 
-  - *Data*
-
-  - Um valor **String** que contém o texto em caracteres a ser gravado.
-
-  - *Options*
-
-  - Opcional. Um valor [StreamWriteEnum](streamwriteenum.md) que especifica se um caractere separador de linha deve ser gravado no final da sequência especificada.
+|Parâmetro|Descrição|
+|:--------|:----------|
+|*Data* |Um valor **String** que contém o texto em caracteres a ser gravado.|
+|*Options* |Opcional. Um valor [StreamWriteEnum](streamwriteenum.md) que especifica se um caractere separador de linha deve ser gravado no final da sequência especificada.|
 
 ## <a name="remarks"></a>Comentários
 
@@ -42,8 +38,7 @@ A [Position](position-property-ado.md) atual será definida para o caractere que
 
 Se você gravar após a posição [EOS](eos-property-ado.md) atual, o [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) de **Stream** será incrementado para conter quaisquer caracteres novos e **EOS** será movido para o último novo byte em **Stream**.
 
-
 > [!NOTE]
-> <P>O método <STRONG>WriteText</STRONG> é utilizado com fluxos de texto (<A href="type-property-ado-stream.md">Type</A> é <STRONG>adTypeText</STRONG>). Para fluxos binários (<STRONG>Type</STRONG> é <STRONG>adTypeBinary</STRONG>), utilize <A href="write-method-ado.md">Write</A>.</P>
+> O método **WriteText** é utilizado com fluxos de texto ([Type](type-property-ado-stream.md) é **adTypeText**). Para fluxos binários (**Type** é **adTypeBinary**), utilize [Write](write-method-ado.md).
 
 
