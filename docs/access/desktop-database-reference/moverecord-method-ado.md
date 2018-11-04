@@ -6,73 +6,56 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5aab77571b0b12c6b26cd15af386c9ee89162681
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 296232b05041c1e059b5134fdde11fceac4e3d43
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930011"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949891"
 ---
-# <a name="moverecord-method-ado"></a><span data-ttu-id="4ad1d-102">Método MoveRecord (ADO)</span><span class="sxs-lookup"><span data-stu-id="4ad1d-102">MoveRecord method (ADO)</span></span>
+# <a name="moverecord-method-ado"></a><span data-ttu-id="d91ba-102">Método MoveRecord (ADO)</span><span class="sxs-lookup"><span data-stu-id="d91ba-102">MoveRecord method (ADO)</span></span>
 
-
-<span data-ttu-id="4ad1d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ad1d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d91ba-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d91ba-103">**Applies to**: Access 2013, Office 2013</span></span>
  
+<span data-ttu-id="d91ba-104">Move a entidade representada por um [Record](record-object-ado.md) para outro local.</span><span class="sxs-lookup"><span data-stu-id="d91ba-104">Moves the entity represent by a [Record](record-object-ado.md) to another location.</span></span>
 
-<span data-ttu-id="4ad1d-104">Move a entidade representada por um [Record](record-object-ado.md) para outro local.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-104">Moves the entity represent by a [Record](record-object-ado.md) to another location.</span></span>
+## <a name="syntax"></a><span data-ttu-id="d91ba-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d91ba-105">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4ad1d-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4ad1d-105">Syntax</span></span>
+<span data-ttu-id="d91ba-106">*Registro*. MoveRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)</span><span class="sxs-lookup"><span data-stu-id="d91ba-106">*Record*.MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)</span></span>
 
-<span data-ttu-id="4ad1d-106">*Registro*. MoveRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)</span><span class="sxs-lookup"><span data-stu-id="4ad1d-106">*Record*.MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)</span></span>
+## <a name="parameters"></a><span data-ttu-id="d91ba-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="d91ba-107">Parameters</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="4ad1d-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="4ad1d-107">Parameters</span></span>
+|<span data-ttu-id="d91ba-108">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="d91ba-108">Parameter</span></span>|<span data-ttu-id="d91ba-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="d91ba-109">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="d91ba-110">*Origem*</span><span class="sxs-lookup"><span data-stu-id="d91ba-110">*Source*</span></span> |<span data-ttu-id="d91ba-p101">Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p101">Optional. A **String** value that contains a URL identifying the **Record** to be moved. If *Source* is omitted or specifies an empty string, the object represented by this **Record** is moved. For example, if the **Record** represents a file, the contents of the file are moved to the location specified by *Destination*.</span></span>|
+|<span data-ttu-id="d91ba-115">*Destination*</span><span class="sxs-lookup"><span data-stu-id="d91ba-115">*Destination*</span></span> |<span data-ttu-id="d91ba-116">Opcional.</span><span class="sxs-lookup"><span data-stu-id="d91ba-116">Optional.</span></span> <span data-ttu-id="d91ba-117">Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.</span><span class="sxs-lookup"><span data-stu-id="d91ba-117">A **String** value that contains a URL specifying the location where *Source* will be moved.</span></span>|
+|<span data-ttu-id="d91ba-118">*UserName*</span><span class="sxs-lookup"><span data-stu-id="d91ba-118">*UserName*</span></span> |<span data-ttu-id="d91ba-p103">Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p103">Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.</span></span>|
+|<span data-ttu-id="d91ba-121">*Password*</span><span class="sxs-lookup"><span data-stu-id="d91ba-121">*Password*</span></span> |<span data-ttu-id="d91ba-p104">Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p104">Optional. A **String** that contains the password that, if needed, verifies *UserName*.</span></span>|
+|<span data-ttu-id="d91ba-124">*Options*</span><span class="sxs-lookup"><span data-stu-id="d91ba-124">*Options*</span></span> |<span data-ttu-id="d91ba-p105">Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p105">Optional. A [MoveRecordOptionsEnum](moverecordoptionsenum.md) value whose default value is **adMoveUnspecified**. Specifies the behavior of this method.</span></span>|
+|<span data-ttu-id="d91ba-128">*Async*</span><span class="sxs-lookup"><span data-stu-id="d91ba-128">*Async*</span></span> |<span data-ttu-id="d91ba-129">Opcional.</span><span class="sxs-lookup"><span data-stu-id="d91ba-129">Optional.</span></span> <span data-ttu-id="d91ba-130">**Boolean** valor que, quando especifica **True**, esta operação deve ser assíncrona.</span><span class="sxs-lookup"><span data-stu-id="d91ba-130">A **Boolean** value that, when **True**, specifies this operation should be asynchronous.</span></span>|
 
-  - <span data-ttu-id="4ad1d-108">*Source*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-108">*Source*</span></span>
+## <a name="return-value"></a><span data-ttu-id="d91ba-131">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="d91ba-131">Return value</span></span>
 
-  - <span data-ttu-id="4ad1d-p101">Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p101">Optional. A **String** value that contains a URL identifying the **Record** to be moved. If *Source* is omitted or specifies an empty string, the object represented by this **Record** is moved. For example, if the **Record** represents a file, the contents of the file are moved to the location specified by *Destination*.</span></span>
+<span data-ttu-id="d91ba-132">Um valor **String**.</span><span class="sxs-lookup"><span data-stu-id="d91ba-132">A **String** value.</span></span> <span data-ttu-id="d91ba-133">Geralmente, é retornado o valor de *destino* .</span><span class="sxs-lookup"><span data-stu-id="d91ba-133">Typically, the value of *Destination* is returned.</span></span> <span data-ttu-id="d91ba-134">No entanto, o valor exato retornado depende do provedor.</span><span class="sxs-lookup"><span data-stu-id="d91ba-134">However, the exact value returned is provider-dependent.</span></span>
 
-  - <span data-ttu-id="4ad1d-113">*Destination*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-113">*Destination*</span></span>
+## <a name="remarks"></a><span data-ttu-id="d91ba-135">Comentários</span><span class="sxs-lookup"><span data-stu-id="d91ba-135">Remarks</span></span>
 
-  - <span data-ttu-id="4ad1d-114">Opcional.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-114">Optional.</span></span> <span data-ttu-id="4ad1d-115">Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-115">A **String** value that contains a URL specifying the location where *Source* will be moved.</span></span>
+<span data-ttu-id="d91ba-136">Os valores de *origem* e de *destino* não devem ser idênticos; Caso contrário, ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="d91ba-136">The values of *Source* and *Destination* must not be identical; otherwise, a run-time error occurs.</span></span> <span data-ttu-id="d91ba-137">Pelo menos os nomes de servidor, caminho e recurso devem ser diferentes.</span><span class="sxs-lookup"><span data-stu-id="d91ba-137">At least the server, path, and resource names must differ.</span></span>
 
-  - <span data-ttu-id="4ad1d-116">*UserName*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-116">*UserName*</span></span>
-
-  - <span data-ttu-id="4ad1d-p103">Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p103">Optional. A **String** value that contains the user ID that, if needed, authorizes access to *Destination*.</span></span>
-
-  - <span data-ttu-id="4ad1d-119">*Password*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-119">*Password*</span></span>
-
-  - <span data-ttu-id="4ad1d-p104">Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p104">Optional. A **String** that contains the password that, if needed, verifies *UserName*.</span></span>
-
-  - <span data-ttu-id="4ad1d-122">*Options*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-122">*Options*</span></span>
-
-  - <span data-ttu-id="4ad1d-p105">Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p105">Optional. A [MoveRecordOptionsEnum](moverecordoptionsenum.md) value whose default value is **adMoveUnspecified**. Specifies the behavior of this method.</span></span>
-
-  - <span data-ttu-id="4ad1d-126">*Async*</span><span class="sxs-lookup"><span data-stu-id="4ad1d-126">*Async*</span></span>
-
-  - <span data-ttu-id="4ad1d-p106">Opcional. Um valor **Boolean** que, quando é **True**, especifica que esta operação deve ser assíncrona.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p106">Optional. A **Boolean** value that, when **True**, specifies this operation should be asynchronous .</span></span>
-
-## <a name="return-value"></a><span data-ttu-id="4ad1d-129">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="4ad1d-129">Return value</span></span>
-
-<span data-ttu-id="4ad1d-130">Um valor **String**.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-130">A **String** value.</span></span> <span data-ttu-id="4ad1d-131">Geralmente, é retornado o valor de *destino* .</span><span class="sxs-lookup"><span data-stu-id="4ad1d-131">Typically, the value of *Destination* is returned.</span></span> <span data-ttu-id="4ad1d-132">No entanto, o valor exato retornado depende do provedor.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-132">However, the exact value returned is provider-dependent.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="4ad1d-133">Comentários</span><span class="sxs-lookup"><span data-stu-id="4ad1d-133">Remarks</span></span>
-
-<span data-ttu-id="4ad1d-134">Os valores de *origem* e de *destino* não devem ser idênticos; Caso contrário, ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-134">The values of *Source* and *Destination* must not be identical; otherwise, a run-time error occurs.</span></span> <span data-ttu-id="4ad1d-135">Pelo menos os nomes de servidor, caminho e recurso devem ser diferentes.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-135">At least the server, path, and resource names must differ.</span></span>
-
-<span data-ttu-id="4ad1d-p109">Para arquivos movidos utilizando-se o Internet Publishing Provider, este método atualiza todos os links de hipertexto nos arquivos que estão sendo movidos, a menos que especificado o contrário por *Options*. Este método falha se *Destination* identificar um objeto existente (por exemplo, um arquivo ou diretório), a menos que **adMoveOverWrite** seja especificado.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p109">For files moved using the Internet Publishing Provider, this method updates all hypertext links in files being moved unless otherwise specified by *Options*. This method fails if *Destination* identifies an existing object (for example, a file or directory), unless **adMoveOverWrite** is specified.</span></span>
+<span data-ttu-id="d91ba-p109">Para arquivos movidos utilizando-se o Internet Publishing Provider, este método atualiza todos os links de hipertexto nos arquivos que estão sendo movidos, a menos que especificado o contrário por *Options*. Este método falha se *Destination* identificar um objeto existente (por exemplo, um arquivo ou diretório), a menos que **adMoveOverWrite** seja especificado.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p109">For files moved using the Internet Publishing Provider, this method updates all hypertext links in files being moved unless otherwise specified by *Options*. This method fails if *Destination* identifies an existing object (for example, a file or directory), unless **adMoveOverWrite** is specified.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="4ad1d-p110">[!OBSERVAçãO] Utilize a opção <STRONG>adMoveOverWrite</STRONG> criteriosamente. Por exemplo, especificar essa opção ao mover um arquivo para um diretório irá excluir o diretório e substituí-lo pelo arquivo.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p110">Use the <STRONG>adMoveOverWrite</STRONG> option judiciously. For example, specifying this option when moving a file to a directory will delete the directory and replace it with the file.</span></span></P>
+> <P><span data-ttu-id="d91ba-p110">[!OBSERVAçãO] Utilize a opção <STRONG>adMoveOverWrite</STRONG> criteriosamente. Por exemplo, especificar essa opção ao mover um arquivo para um diretório irá excluir o diretório e substituí-lo pelo arquivo.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p110">Use the <STRONG>adMoveOverWrite</STRONG> option judiciously. For example, specifying this option when moving a file to a directory will delete the directory and replace it with the file.</span></span></P>
 
 
 
-<span data-ttu-id="4ad1d-p111">Alguns atributos do objeto **Record**, tal como a propriedade [ParentURL](parenturl-property-ado.md), não serão atualizados após a conclusão dessa operação. Atualize as propriedades do objeto **Record** fechando o **Record** e, em seguida, reabrindo-o com a URL do local em que o arquivo ou diretório foi movido.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p111">Certain attributes of the **Record** object, such as the [ParentURL](parenturl-property-ado.md) property, will not be updated after this operation completes. Refresh the **Record** object's properties by closing the **Record**, then re-opening it with the URL of the location where the file or directory was moved.</span></span>
+<span data-ttu-id="d91ba-p111">Alguns atributos do objeto **Record**, tal como a propriedade [ParentURL](parenturl-property-ado.md), não serão atualizados após a conclusão dessa operação. Atualize as propriedades do objeto **Record** fechando o **Record** e, em seguida, reabrindo-o com a URL do local em que o arquivo ou diretório foi movido.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p111">Certain attributes of the **Record** object, such as the [ParentURL](parenturl-property-ado.md) property, will not be updated after this operation completes. Refresh the **Record** object's properties by closing the **Record**, then re-opening it with the URL of the location where the file or directory was moved.</span></span>
 
-<span data-ttu-id="4ad1d-p112">Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), o novo local do arquivo ou diretório movido não será refletido imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo o mesmo.</span><span class="sxs-lookup"><span data-stu-id="4ad1d-p112">If this **Record** was obtained from a [Recordset](recordset-object-ado.md), the new location of the moved file or directory will not be reflected immediately in the **Recordset**. Refresh the **Recordset** by closing and re-opening it.</span></span>
+<span data-ttu-id="d91ba-p112">Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), o novo local do arquivo ou diretório movido não será refletido imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo o mesmo.</span><span class="sxs-lookup"><span data-stu-id="d91ba-p112">If this **Record** was obtained from a [Recordset](recordset-object-ado.md), the new location of the moved file or directory will not be reflected immediately in the **Recordset**. Refresh the **Recordset** by closing and re-opening it.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="4ad1d-144">[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="4ad1d-144">URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="4ad1d-145">Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).</span><span class="sxs-lookup"><span data-stu-id="4ad1d-145">For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).</span></span>
+> <span data-ttu-id="d91ba-146">[!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="d91ba-146">URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="d91ba-147">Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).</span><span class="sxs-lookup"><span data-stu-id="d91ba-147">For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).</span></span>
 
 

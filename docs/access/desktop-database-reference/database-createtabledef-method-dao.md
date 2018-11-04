@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927889"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950038"
 ---
-# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="c1979-102">Método Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1979-102">Database.CreateTableDef method (DAO)</span></span>
+# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="caacb-102">Método Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="caacb-102">Database.CreateTableDef method (DAO)</span></span>
 
-<span data-ttu-id="c1979-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1979-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="caacb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="caacb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1979-p101">Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de trabalho do Microsoft Access). .</span><span class="sxs-lookup"><span data-stu-id="c1979-p101">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="caacb-p101">Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de trabalho do Microsoft Access). .</span><span class="sxs-lookup"><span data-stu-id="caacb-p101">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c1979-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c1979-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="caacb-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="caacb-106">Syntax</span></span>
 
-<span data-ttu-id="c1979-107">*expressão* . CreateTableDef (***nome***, ***atributos***, ***SourceTableName***, ***Conecte-se***)</span><span class="sxs-lookup"><span data-stu-id="c1979-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
+<span data-ttu-id="caacb-107">*expressão* . CreateTableDef (***nome***, ***atributos***, ***SourceTableName***, ***Conecte-se***)</span><span class="sxs-lookup"><span data-stu-id="caacb-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
 
-<span data-ttu-id="c1979-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="c1979-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="caacb-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="caacb-108">*expression* A variable that represents a **Database** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="c1979-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c1979-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="caacb-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="caacb-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,56 +40,56 @@ ms.locfileid: "25927889"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c1979-110">Nome</span><span class="sxs-lookup"><span data-stu-id="c1979-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="c1979-111">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="c1979-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="c1979-112">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="c1979-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="c1979-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="c1979-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="caacb-110">Nome</span><span class="sxs-lookup"><span data-stu-id="caacb-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="caacb-111">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="caacb-111">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="caacb-112">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="caacb-112">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="caacb-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="caacb-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c1979-114">Name</span><span class="sxs-lookup"><span data-stu-id="c1979-114">Name</span></span></p></td>
-<td><p><span data-ttu-id="c1979-115">Opcional</span><span class="sxs-lookup"><span data-stu-id="c1979-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c1979-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c1979-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c1979-p102">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1979-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="caacb-114"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="caacb-114"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="caacb-115">Opcional</span><span class="sxs-lookup"><span data-stu-id="caacb-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="caacb-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="caacb-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="caacb-p102">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="caacb-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c1979-119">Atributos</span><span class="sxs-lookup"><span data-stu-id="c1979-119">Attributes</span></span></p></td>
-<td><p><span data-ttu-id="c1979-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="c1979-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c1979-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c1979-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c1979-p103">Uma constante ou combinação de constantes que indica uma ou mais características do novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="c1979-p103">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="caacb-119"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="caacb-119"><em>Attributes</em></span></span></p></td>
+<td><p><span data-ttu-id="caacb-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="caacb-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="caacb-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="caacb-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="caacb-p103">Uma constante ou combinação de constantes que indica uma ou mais características do novo objeto <strong>TableDef</strong>. Consulte a propriedade <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="caacb-p103">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c1979-124">SourceTableName</span><span class="sxs-lookup"><span data-stu-id="c1979-124">SourceTableName</span></span></p></td>
-<td><p><span data-ttu-id="c1979-125">Opcional</span><span class="sxs-lookup"><span data-stu-id="c1979-125">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c1979-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c1979-126"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c1979-p104">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém o nome de uma tabela em um banco de dados externo, que é a fonte original dos dados. A cadeia de caracteres source torna-se a configuração de propriedade <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> do novo objeto <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="c1979-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data. The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="caacb-124"><em>SourceTableName</em></span><span class="sxs-lookup"><span data-stu-id="caacb-124"><em>SourceTableName</em></span></span></p></td>
+<td><p><span data-ttu-id="caacb-125">Opcional</span><span class="sxs-lookup"><span data-stu-id="caacb-125">Optional</span></span></p></td>
+<td><p><span data-ttu-id="caacb-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="caacb-126"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="caacb-p104">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém o nome de uma tabela em um banco de dados externo, que é a fonte original dos dados. A cadeia de caracteres source torna-se a configuração de propriedade <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> do novo objeto <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="caacb-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data. The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c1979-129">Connect</span><span class="sxs-lookup"><span data-stu-id="c1979-129">Connect</span></span></p></td>
-<td><p><span data-ttu-id="c1979-130">Opcional</span><span class="sxs-lookup"><span data-stu-id="c1979-130">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c1979-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c1979-131"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c1979-p105">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém informações sobre a fonte de um banco de dados aberto, um banco de dados usando em uma consulta passagem ou uma tabela vinculada. Consulte a propriedade <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> para obter mais informações sobre cadeias de caracteres de conexão válidas.</span><span class="sxs-lookup"><span data-stu-id="c1979-p105">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table. See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
+<td><p><span data-ttu-id="caacb-129"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="caacb-129"><em>Connect</em></span></span></p></td>
+<td><p><span data-ttu-id="caacb-130">Opcional</span><span class="sxs-lookup"><span data-stu-id="caacb-130">Optional</span></span></p></td>
+<td><p><span data-ttu-id="caacb-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="caacb-131"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="caacb-p105">Um <strong>Variant</strong> (subtipo <strong>String</strong>) que contém informações sobre a fonte de um banco de dados aberto, um banco de dados usando em uma consulta passagem ou uma tabela vinculada. Consulte a propriedade <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> para obter mais informações sobre cadeias de caracteres de conexão válidas.</span><span class="sxs-lookup"><span data-stu-id="caacb-p105">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table. See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="c1979-134">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c1979-134">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="caacb-134">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="caacb-134">Return value</span></span>
 
-<span data-ttu-id="c1979-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="c1979-135">TableDef</span></span>
+<span data-ttu-id="caacb-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="caacb-135">TableDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c1979-136">Comentários</span><span class="sxs-lookup"><span data-stu-id="c1979-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="caacb-136">Comentários</span><span class="sxs-lookup"><span data-stu-id="caacb-136">Remarks</span></span>
 
-<span data-ttu-id="c1979-p106">Se omitir uma ou mais dessas partes opcionais quando usar o método **CreateTableDef**, você poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto à coleção. Depois de acrescentar o objeto, você poderá alterar algumas, mas não todas as suas propriedades. Consulte os tópicos de propriedade individuais para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="c1979-p106">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its properties. See the individual property topics for more details.</span></span>
+<span data-ttu-id="caacb-p106">Se omitir uma ou mais dessas partes opcionais quando usar o método **CreateTableDef**, você poderá usar uma instrução de atribuição apropriada para definir ou redefinir a propriedade correspondente antes de acrescentar o novo objeto à coleção. Depois de acrescentar o objeto, você poderá alterar algumas, mas não todas as suas propriedades. Consulte os tópicos de propriedade individuais para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="caacb-p106">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its properties. See the individual property topics for more details.</span></span>
 
-<span data-ttu-id="c1979-140">Se name fizer referência a um objeto que já é um membro da coleção ou se você especificar uma propriedade inválida no objeto **TableDef** ou **[campo](field-object-dao.md)** que você está anexando, ocorrerá um erro de tempo de execução quando você usa o método **[Append](tabledefs-append-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="c1979-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="c1979-141">Além disso, não é possível acrescentar um objeto **TableDef** à coleção **TableDefs** até que se defina ao menos um **Field** para o objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c1979-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
+<span data-ttu-id="caacb-140">Se name fizer referência a um objeto que já é um membro da coleção ou se você especificar uma propriedade inválida no objeto **TableDef** ou **[campo](field-object-dao.md)** que você está anexando, ocorrerá um erro de tempo de execução quando você usa o método **[Append](tabledefs-append-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="caacb-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="caacb-141">Além disso, não é possível acrescentar um objeto **TableDef** à coleção **TableDefs** até que se defina ao menos um **Field** para o objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="caacb-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
 
-<span data-ttu-id="c1979-142">Para remover um objeto **TableDef** da coleção **[TableDefs](tabledefs-collection-dao.md)**, use o método **[Delete](tabledefs-delete-method-dao.md)** na coleção.</span><span class="sxs-lookup"><span data-stu-id="c1979-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="caacb-142">Para remover um objeto **TableDef** da coleção **[TableDefs](tabledefs-collection-dao.md)**, use o método **[Delete](tabledefs-delete-method-dao.md)** na coleção.</span><span class="sxs-lookup"><span data-stu-id="caacb-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c1979-143">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c1979-143">Example</span></span>
+## <a name="example"></a><span data-ttu-id="caacb-143">Exemplo</span><span class="sxs-lookup"><span data-stu-id="caacb-143">Example</span></span>
 
-<span data-ttu-id="c1979-144">Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.</span><span class="sxs-lookup"><span data-stu-id="c1979-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="caacb-144">Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.</span><span class="sxs-lookup"><span data-stu-id="caacb-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb
     Sub CreateTableDefX() 
@@ -154,7 +154,7 @@ ms.locfileid: "25927889"
 
 <br/>
 
-<span data-ttu-id="c1979-p108">Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros em uma tabela vinculada duas vezes. Em seguida, enumeram-se os registros duas vezes com um cache de 50 registros. O exemplo exibe então as estatísticas de desempenho das execuções sem cache e com cache por meio da tabela vinculada.</span><span class="sxs-lookup"><span data-stu-id="c1979-p108">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
+<span data-ttu-id="caacb-p108">Este exemplo usa os métodos **CreateTableDef** e **FillCache** e as propriedades **CacheSize**, **CacheStart** e **SourceTableName** para enumerar os registros em uma tabela vinculada duas vezes. Em seguida, enumeram-se os registros duas vezes com um cache de 50 registros. O exemplo exibe então as estatísticas de desempenho das execuções sem cache e com cache por meio da tabela vinculada.</span><span class="sxs-lookup"><span data-stu-id="caacb-p108">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
 
 ```vb
     Sub ClientServerX3() 

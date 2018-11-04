@@ -6,40 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfc2da5490cf5c148d39670dedfb2551cedd31f2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d552539b84972b4a20fe0bff39b6c8570719bcf7
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923585"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950157"
 ---
-# <a name="append-method-adox-groups"></a><span data-ttu-id="1d252-102">Método Append (Grupos do ADOX)</span><span class="sxs-lookup"><span data-stu-id="1d252-102">Append method (ADOX Groups)</span></span>
+# <a name="append-method-adox-groups"></a><span data-ttu-id="35cb9-102">Método Append (Grupos do ADOX)</span><span class="sxs-lookup"><span data-stu-id="35cb9-102">Append method (ADOX Groups)</span></span>
 
+<span data-ttu-id="35cb9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="35cb9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1d252-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d252-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35cb9-104">Adiciona um novo objeto [Group](group-object-adox.md) à coleção [Groups](groups-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="35cb9-104">Adds a new [Group](group-object-adox.md) object to the [Groups](groups-collection-adox.md) collection.</span></span>
 
+## <a name="syntax"></a><span data-ttu-id="35cb9-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="35cb9-105">Syntax</span></span>
 
+<span data-ttu-id="35cb9-106">*Grupos*. Acrescentar um*grupo*</span><span class="sxs-lookup"><span data-stu-id="35cb9-106">*Groups*.Append*Group*</span></span>
 
-<span data-ttu-id="1d252-104">Adiciona um novo objeto [Group](group-object-adox.md) à coleção [Groups](groups-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="1d252-104">Adds a new [Group](group-object-adox.md) object to the [Groups](groups-collection-adox.md) collection.</span></span>
+## <a name="parameters"></a><span data-ttu-id="35cb9-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="35cb9-107">Parameters</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1d252-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1d252-105">Syntax</span></span>
+|<span data-ttu-id="35cb9-108">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="35cb9-108">Parameter</span></span>|<span data-ttu-id="35cb9-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="35cb9-109">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="35cb9-110">*Group*</span><span class="sxs-lookup"><span data-stu-id="35cb9-110">*Group*</span></span> |<span data-ttu-id="35cb9-111">O objeto **Group** a ser anexado ou o nome do grupo a ser criado e anexado.</span><span class="sxs-lookup"><span data-stu-id="35cb9-111">The **Group** object to append or the name of the group to create and append.</span></span>|
 
-<span data-ttu-id="1d252-106">*Grupos*. Acrescentar um*grupo*</span><span class="sxs-lookup"><span data-stu-id="1d252-106">*Groups*.Append*Group*</span></span>
+## <a name="remarks"></a><span data-ttu-id="35cb9-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="35cb9-112">Remarks</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1d252-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="1d252-107">Parameters</span></span>
+<span data-ttu-id="35cb9-p101">A coleção **Groups** de um [Catálogo](catalog-object-adox.md) representa todas as contas de grupo do catálogo. A coleção **Groups** de um [Usuário](user-object-adox.md) representa apenas o grupo ao qual o usuário pertence.</span><span class="sxs-lookup"><span data-stu-id="35cb9-p101">The **Groups** collection of a [Catalog](catalog-object-adox.md) represents all of the catalog's group accounts. The **Groups** collection for a [User](user-object-adox.md) represents only the group to which the user belongs.</span></span>
 
-  - <span data-ttu-id="1d252-108">*Group*</span><span class="sxs-lookup"><span data-stu-id="1d252-108">*Group*</span></span>
-
-  - <span data-ttu-id="1d252-109">O objeto **Group** a ser anexado ou o nome do grupo a ser criado e anexado.</span><span class="sxs-lookup"><span data-stu-id="1d252-109">The **Group** object to append or the name of the group to create and append.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="1d252-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="1d252-110">Remarks</span></span>
-
-<span data-ttu-id="1d252-p101">A coleção **Groups** de um [Catálogo](catalog-object-adox.md) representa todas as contas de grupo do catálogo. A coleção **Groups** de um [Usuário](user-object-adox.md) representa apenas o grupo ao qual o usuário pertence.</span><span class="sxs-lookup"><span data-stu-id="1d252-p101">The **Groups** collection of a [Catalog](catalog-object-adox.md) represents all of the catalog's group accounts. The **Groups** collection for a [User](user-object-adox.md) represents only the group to which the user belongs.</span></span>
-
-<span data-ttu-id="1d252-113">Ocorrerá um erro se o provedor não oferecer suporte para a criação de grupos.</span><span class="sxs-lookup"><span data-stu-id="1d252-113">An error will occur if the provider does not support creating groups.</span></span>
-
+<span data-ttu-id="35cb9-115">Ocorrerá um erro se o provedor não oferecer suporte para a criação de grupos.</span><span class="sxs-lookup"><span data-stu-id="35cb9-115">An error will occur if the provider does not support creating groups.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1d252-114">[!OBSERVAçãO] Antes de um objeto **Group** ser anexado à coleção **Groups** de um objeto **User**, na coleção **Groups** do [Catálogo](name-property-adox.md) já deve existir um objeto **Group** com o mesmo **Nome** daquele a ser anexado.</span><span class="sxs-lookup"><span data-stu-id="1d252-114">Before appending a **Group** object to the **Groups** collection of a **User** object, a **Group** object with the same [Name](name-property-adox.md) as the one to be appended must already exist in the **Groups** collection of the **Catalog**.</span></span>
+> <span data-ttu-id="35cb9-116">[!OBSERVAçãO] Antes de um objeto **Group** ser anexado à coleção **Groups** de um objeto **User**, na coleção **Groups** do [Catálogo](name-property-adox.md) já deve existir um objeto **Group** com o mesmo **Nome** daquele a ser anexado.</span><span class="sxs-lookup"><span data-stu-id="35cb9-116">Before appending a **Group** object to the **Groups** collection of a **User** object, a **Group** object with the same [Name](name-property-adox.md) as the one to be appended must already exist in the **Groups** collection of the **Catalog**.</span></span>
 
 

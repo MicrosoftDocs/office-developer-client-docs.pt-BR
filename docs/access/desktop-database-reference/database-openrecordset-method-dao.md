@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab969f2e26751a70a0f9ac9daf2ca17bcaa103c5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f241d8b6a5b13d68ed58b984ef84bfdd942a3891
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925972"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949960"
 ---
-# <a name="databaseopenrecordset-method-dao"></a><span data-ttu-id="c8a87-102">Método Database.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="c8a87-102">Database.OpenRecordset method (DAO)</span></span>
+# <a name="databaseopenrecordset-method-dao"></a><span data-ttu-id="bb71e-102">Método Database.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb71e-102">Database.OpenRecordset method (DAO)</span></span>
 
-<span data-ttu-id="c8a87-103">**Aplica-se a:** Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8a87-103">**Applies to:** Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bb71e-103">**Aplica-se a:** Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb71e-103">**Applies to:** Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c8a87-104">Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleção **Recordsets**.</span><span class="sxs-lookup"><span data-stu-id="c8a87-104">Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.</span></span>
+<span data-ttu-id="bb71e-104">Cria e anexa um novo objeto **[Recordset](recordset-object-dao.md)** à coleção **Recordsets**.</span><span class="sxs-lookup"><span data-stu-id="bb71e-104">Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to the **Recordsets** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c8a87-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c8a87-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb71e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="bb71e-105">Syntax</span></span>
 
-<span data-ttu-id="c8a87-106">*expressão* . OpenRecordset (_**nome**_, _**tipo**_, _**Opções**_, _**LockEdit**_)</span><span class="sxs-lookup"><span data-stu-id="c8a87-106">*expression* .OpenRecordset(_**Name**_, _**Type**_, _**Options**_, _**LockEdit**_)</span></span>
+<span data-ttu-id="bb71e-106">*expressão* . OpenRecordset (_**nome**_, _**tipo**_, _**Opções**_, _**LockEdit**_)</span><span class="sxs-lookup"><span data-stu-id="bb71e-106">*expression* .OpenRecordset(_**Name**_, _**Type**_, _**Options**_, _**LockEdit**_)</span></span>
 
-<span data-ttu-id="c8a87-107">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="c8a87-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="bb71e-107">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="bb71e-107">*expression* A variable that represents a **Database** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="c8a87-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c8a87-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb71e-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bb71e-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,86 +40,71 @@ ms.locfileid: "25925972"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c8a87-109">Nome</span><span class="sxs-lookup"><span data-stu-id="c8a87-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="c8a87-110">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="c8a87-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="c8a87-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="c8a87-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="c8a87-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="c8a87-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="bb71e-109">Nome</span><span class="sxs-lookup"><span data-stu-id="bb71e-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="bb71e-110">Obrigatório/Opcional</span><span class="sxs-lookup"><span data-stu-id="bb71e-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="bb71e-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="bb71e-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="bb71e-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="bb71e-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c8a87-113">Name</span><span class="sxs-lookup"><span data-stu-id="c8a87-113">Name</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="c8a87-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="c8a87-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8a87-p101">A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </span><span class="sxs-lookup"><span data-stu-id="c8a87-p101">The source of the records for the new <strong>Recordset</strong>. The source can be a table name, a query name, or an SQL statement that returns records. For table-type <strong>Recordset</strong> objects in Microsoft Access database engine databases, the source can only be a table name.</span></span></p></td>
+<td><p><span data-ttu-id="bb71e-113"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="bb71e-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="bb71e-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="bb71e-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="bb71e-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-p101">A origem dos registros para o novo <strong>Recordset</strong>. A origem pode ser um nome de tabela, um nome de consulta ou uma instrução SQL que retorna registros. Para objetos de <strong>Recordset</strong> do tipo tabela nos mecanismos de banco de dados do Microsoft Access, a origem pode ser apenas um nome de tabela.  </span><span class="sxs-lookup"><span data-stu-id="bb71e-p101">The source of the records for the new <strong>Recordset</strong>. The source can be a table name, a query name, or an SQL statement that returns records. For table-type <strong>Recordset</strong> objects in Microsoft Access database engine databases, the source can only be a table name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c8a87-119">Tipo</span><span class="sxs-lookup"><span data-stu-id="c8a87-119">Type</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="c8a87-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c8a87-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8a87-122">Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</span><span class="sxs-lookup"><span data-stu-id="c8a87-122">A <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> constant that indicates the type of <strong>Recordset</strong> to open.</span></span></p>
-
-> [!NOTE]
-> <span data-ttu-id="c8a87-p102">Se você abrir um **Recordset** em um espaço de trabalho do Microsoft Access se especificar um tipo, o método **OpenRecordset** criará um **Recordset** do tipo tabela, se possível. Se você especificar uma consulta ou tabela vinculada, o método **OpenRecordset** criará um **Recordset** do tipo dynaset.</span><span class="sxs-lookup"><span data-stu-id="c8a87-p102">If you open a **Recordset** in a Microsoft Access workspace and you don't specify a type, **OpenRecordset** creates a table-type **Recordset**, if possible. If you specify a linked table or query, **OpenRecordset** creates a dynaset-type **Recordset**.</span></span>
-
-
+<td><p><span data-ttu-id="bb71e-119"><em>Type</em></span><span class="sxs-lookup"><span data-stu-id="bb71e-119"><em>Type</em></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="bb71e-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bb71e-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bb71e-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-122">Uma constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> que indica que tipo de <strong>Recordset</strong> abrir.</span><span class="sxs-lookup"><span data-stu-id="bb71e-122">A <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> constant that indicates the type of <strong>Recordset</strong> to open.</span></span></p><p><span data-ttu-id="bb71e-123"><strong>Observação</strong>: se você abrir um <strong>Recordset</strong> em um espaço de trabalho do Microsoft Access e você não especificar um tipo, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo tabela, se possível.</span><span class="sxs-lookup"><span data-stu-id="bb71e-123"><strong>NOTE</strong>: If you open a <strong>Recordset</strong> in a Microsoft Access workspace and you don't specify a type, <strong>OpenRecordset</strong> creates a table-type <strong>Recordset</strong>, if possible.</span></span> <span data-ttu-id="bb71e-124">Se você especificar uma consulta ou tabela vinculada, <strong>OpenRecordset</strong> cria um <strong>Recordset</strong>do tipo dynaset.</span><span class="sxs-lookup"><span data-stu-id="bb71e-124">If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</span></span></p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c8a87-125">Opções</span><span class="sxs-lookup"><span data-stu-id="c8a87-125">Options</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-126">Opcional</span><span class="sxs-lookup"><span data-stu-id="c8a87-126">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-127"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c8a87-127"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8a87-128">Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="c8a87-128">A combination of <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> constants that specify characteristics of the new <strong>Recordset</strong>.</span></span></p>
-
-> [!NOTE]
-> <span data-ttu-id="c8a87-p103">As constantes **dbConsistent** e **dbInconsistent** são mutuamente exclusivos, e o uso de ambos pode causar erros. Fornecer um argumento.LockEdit quando Options usa o a constante **dbReadOnly** também causa erros.</span><span class="sxs-lookup"><span data-stu-id="c8a87-p103">The constants **dbConsistent** and **dbInconsistent** are mutually exclusive, and using both causes an error. Supplying a LockEdit argument when Options uses the **dbReadOnly** constant also causes an error.</span></span>
-
-
+<td><p><span data-ttu-id="bb71e-125"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="bb71e-125"><em>Options</em></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-126">Opcional</span><span class="sxs-lookup"><span data-stu-id="bb71e-126">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bb71e-127"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bb71e-127"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-128">Uma combinação de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> que especifica as características do novo <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="bb71e-128">A combination of <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> constants that specify characteristics of the new <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="bb71e-129"><strong>Observação</strong>: as constantes <strong>dbConsistent</strong> e <strong>dbInconsistent</strong> são mutuamente exclusivos e usando os dois causará um erro.</span><span class="sxs-lookup"><span data-stu-id="bb71e-129"><strong>NOTE</strong>: The constants <strong>dbConsistent</strong> and <strong>dbInconsistent</strong> are mutually exclusive, and using both causes an error.</span></span> <span data-ttu-id="bb71e-130">Também fornecer um argumento LockEdit quando opções usa a constante <strong>dbReadOnly</strong> causará um erro.</span><span class="sxs-lookup"><span data-stu-id="bb71e-130">Supplying a LockEdit argument when Options uses the <strong>dbReadOnly</strong> constant also causes an error.</span></span></p>
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c8a87-131">LockEdit</span><span class="sxs-lookup"><span data-stu-id="c8a87-131">LockEdit</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-132">Opcional</span><span class="sxs-lookup"><span data-stu-id="c8a87-132">Optional</span></span></p></td>
-<td><p><span data-ttu-id="c8a87-133"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c8a87-133"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8a87-134">Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="c8a87-134">A <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> constant that determines the locking for the <strong>Recordset</strong>.</span></span></p>
-
-> [!NOTE]
-> <span data-ttu-id="c8a87-p104">Você pode usar a constante **dbReadOnly** tanto no argumento Options quanto no LockedEdit, mas não em ambos. Se você usá-lo em ambos os argumentos, ocorrerá um erro de tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="c8a87-p104">You can use **dbReadOnly** in either the Options argument or the LockedEdit argument, but not both. If you use it for both arguments, a run-time error occurs.</span></span>
-
-
+<td><p><span data-ttu-id="bb71e-131"><em>LockEdit</em></span><span class="sxs-lookup"><span data-stu-id="bb71e-131"><em>LockEdit</em></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-132">Opcional</span><span class="sxs-lookup"><span data-stu-id="bb71e-132">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bb71e-133"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bb71e-133"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb71e-134">Uma constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> que determina o bloqueio do <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="bb71e-134">A <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> constant that determines the locking for the <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="bb71e-135"><strong>Observação</strong>: você pode usar <strong>dbReadOnly</strong> no argumento Options ou o argumento LockedEdit, mas não ambos.</span><span class="sxs-lookup"><span data-stu-id="bb71e-135"><strong>NOTE</strong>: You can use <strong>dbReadOnly</strong> in either the Options argument or the LockedEdit argument, but not both.</span></span> <span data-ttu-id="bb71e-136">Se você usá-lo para ambos os argumentos, ocorrerá um erro em tempo de execução.</span><span class="sxs-lookup"><span data-stu-id="bb71e-136">If you use it for both arguments, a run-time error occurs.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="c8a87-137">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="c8a87-137">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bb71e-137">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="bb71e-137">Return value</span></span>
 
-<span data-ttu-id="c8a87-138">Recordset</span><span class="sxs-lookup"><span data-stu-id="c8a87-138">Recordset</span></span>
+<span data-ttu-id="bb71e-138">Recordset</span><span class="sxs-lookup"><span data-stu-id="bb71e-138">Recordset</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c8a87-139">Comentários</span><span class="sxs-lookup"><span data-stu-id="c8a87-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb71e-139">Comentários</span><span class="sxs-lookup"><span data-stu-id="bb71e-139">Remarks</span></span>
 
-<span data-ttu-id="c8a87-p105">Normalmente, se o usuário obtém esse erro ao atualizar um registro, seu código deve atualizar o conteúdo dos campos e recuperar os valores modificados recentemente. Se o erro ocorrer ao excluir um registro, seu código poderá exibir os dados do novo registro para o usuário e uma mensagem indicando que os dados foram alterados recentemente. Nesse momento, seu código pode solicitar uma confirmação de que o usuário ainda deseja excluir o registro.</span><span class="sxs-lookup"><span data-stu-id="c8a87-p105">Typically, if the user gets this error while updating a record, your code should refresh the contents of the fields and retrieve the newly modified values. If the error occurs while deleting a record, your code could display the new record data to the user and a message indicating that the data has recently changed. At this point, your code can request a confirmation that the user still wants to delete the record.</span></span>
+<span data-ttu-id="bb71e-p105">Normalmente, se o usuário obtém esse erro ao atualizar um registro, seu código deve atualizar o conteúdo dos campos e recuperar os valores modificados recentemente. Se o erro ocorrer ao excluir um registro, seu código poderá exibir os dados do novo registro para o usuário e uma mensagem indicando que os dados foram alterados recentemente. Nesse momento, seu código pode solicitar uma confirmação de que o usuário ainda deseja excluir o registro.</span><span class="sxs-lookup"><span data-stu-id="bb71e-p105">Typically, if the user gets this error while updating a record, your code should refresh the contents of the fields and retrieve the newly modified values. If the error occurs while deleting a record, your code could display the new record data to the user and a message indicating that the data has recently changed. At this point, your code can request a confirmation that the user still wants to delete the record.</span></span>
 
-<span data-ttu-id="c8a87-143">Você também deverá usar a constante **dbSeeChanges** se abrir um **Recordset** em um espaço de trabalho ODBC conectado ao mecanismo de banco de dados do Microsoft Access em uma tabela do Microsoft SQL Server 6.0 (ou posterior), que tenha uma coluna IDENTITY; caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="c8a87-143">You should also use the **dbSeeChanges** constant if you open a **Recordset** in a Microsoft Access database engine-connected ODBC workspace against a Microsoft SQL Server 6.0 (or later) table that has an IDENTITY column, otherwise an error may result.</span></span>
+<span data-ttu-id="bb71e-143">Você também deverá usar a constante **dbSeeChanges** se abrir um **Recordset** em um espaço de trabalho ODBC conectado ao mecanismo de banco de dados do Microsoft Access em uma tabela do Microsoft SQL Server 6.0 (ou posterior), que tenha uma coluna IDENTITY; caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="bb71e-143">You should also use the **dbSeeChanges** constant if you open a **Recordset** in a Microsoft Access database engine-connected ODBC workspace against a Microsoft SQL Server 6.0 (or later) table that has an IDENTITY column, otherwise an error may result.</span></span>
 
-<span data-ttu-id="c8a87-p106">Abrir mais de um **Recordset** em uma fonte de dados ODBC pode falhar porque a conexão está ocupada com uma chamada **OpenRecordset** anterior. Uma forma de contornar essa situação é preencher totalmente o **Recordset** usando o método **MoveLast** assim que o **Recordset** for aberto.</span><span class="sxs-lookup"><span data-stu-id="c8a87-p106">Opening more than one **Recordset** on an ODBC data source may fail because the connection is busy with a prior **OpenRecordset** call. One way around this is to fully populate the **Recordset** by using the **MoveLast** method as soon as the **Recordset** is opened.</span></span>
+<span data-ttu-id="bb71e-p106">Abrir mais de um **Recordset** em uma fonte de dados ODBC pode falhar porque a conexão está ocupada com uma chamada **OpenRecordset** anterior. Uma forma de contornar essa situação é preencher totalmente o **Recordset** usando o método **MoveLast** assim que o **Recordset** for aberto.</span><span class="sxs-lookup"><span data-stu-id="bb71e-p106">Opening more than one **Recordset** on an ODBC data source may fail because the connection is busy with a prior **OpenRecordset** call. One way around this is to fully populate the **Recordset** by using the **MoveLast** method as soon as the **Recordset** is opened.</span></span>
 
-<span data-ttu-id="c8a87-146">Fechar um **Recordset** com o método **[Close](connection-close-method-dao.md)** o exclui automaticamente da coleção **Recordsets**.</span><span class="sxs-lookup"><span data-stu-id="c8a87-146">Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** method automatically deletes it from the **Recordsets** collection.</span></span>
+<span data-ttu-id="bb71e-146">Fechar um **Recordset** com o método **[Close](connection-close-method-dao.md)** o exclui automaticamente da coleção **Recordsets**.</span><span class="sxs-lookup"><span data-stu-id="bb71e-146">Closing a **Recordset** with the **[Close](connection-close-method-dao.md)** method automatically deletes it from the **Recordsets** collection.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="c8a87-147">Se a *fonte* refere-se a uma instrução SQL composto por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar abrir o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c8a87-147">If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**.</span></span> <span data-ttu-id="c8a87-148">Isso ocorre porque durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o SQL aceita apenas caracteres decimais EUA.</span><span class="sxs-lookup"><span data-stu-id="c8a87-148">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</span></span>
+> <span data-ttu-id="bb71e-147">Se a *fonte* refere-se a uma instrução SQL composto por uma cadeia de caracteres concatenada com um valor não inteiro e os parâmetros do sistema especificarem um caractere decimal que fora dos EUA, como uma vírgula (por exemplo, strSQL = "preço &gt; " &amp; lngPrice e lngPrice = 125,50), ocorrerá um erro ao tentar abrir o **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="bb71e-147">If *source* refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), an error occurs when you try to open the **Recordset**.</span></span> <span data-ttu-id="bb71e-148">Isso ocorre porque durante a concatenação, o número é convertido para uma sequência utilizando o caractere decimal padrão do seu sistema, e o SQL aceita apenas caracteres decimais EUA.</span><span class="sxs-lookup"><span data-stu-id="bb71e-148">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</span></span>
 
-<span data-ttu-id="c8a87-149">**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) .</span><span class="sxs-lookup"><span data-stu-id="c8a87-149">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="c8a87-150">UtterAccess é o fórum principal de wiki e a Ajuda do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="c8a87-150">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="bb71e-149">**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) .</span><span class="sxs-lookup"><span data-stu-id="bb71e-149">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="bb71e-150">UtterAccess é o fórum principal de wiki e a Ajuda do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="bb71e-150">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
 
-- [<span data-ttu-id="c8a87-151">Transferência de dados do Access para o Excel</span><span class="sxs-lookup"><span data-stu-id="c8a87-151">Transfer data from Access to Excel</span></span>](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
+- [<span data-ttu-id="bb71e-151">Transferência de dados do Access para o Excel</span><span class="sxs-lookup"><span data-stu-id="bb71e-151">Transfer data from Access to Excel</span></span>](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 
-## <a name="example"></a><span data-ttu-id="c8a87-152">Exemplo</span><span class="sxs-lookup"><span data-stu-id="c8a87-152">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bb71e-152">Exemplo</span><span class="sxs-lookup"><span data-stu-id="bb71e-152">Example</span></span>
 
-<span data-ttu-id="c8a87-153">O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.</span><span class="sxs-lookup"><span data-stu-id="c8a87-153">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="bb71e-153">O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.</span><span class="sxs-lookup"><span data-stu-id="bb71e-153">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
-<span data-ttu-id="c8a87-154">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="c8a87-154">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="bb71e-154">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="bb71e-154">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -141,7 +126,7 @@ ms.locfileid: "25925972"
 
 <br/>
 
-<span data-ttu-id="c8a87-155">O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma consulta.</span><span class="sxs-lookup"><span data-stu-id="c8a87-155">The following example shows how to open a Recordset based on a table or a query.</span></span>
+<span data-ttu-id="bb71e-155">O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma consulta.</span><span class="sxs-lookup"><span data-stu-id="bb71e-155">The following example shows how to open a Recordset based on a table or a query.</span></span>
 
 ```vb 
     Dim dbs As DAO.Database
@@ -159,7 +144,7 @@ ms.locfileid: "25925972"
 
 <br/>
 
-<span data-ttu-id="c8a87-156">O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL (Structured Query Language).</span><span class="sxs-lookup"><span data-stu-id="c8a87-156">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
+<span data-ttu-id="bb71e-156">O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL (Structured Query Language).</span><span class="sxs-lookup"><span data-stu-id="bb71e-156">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -175,7 +160,7 @@ ms.locfileid: "25925972"
 
 <br/>
 
-<span data-ttu-id="c8a87-157">O exemplo a seguir mostra como abrir uma propriedade Filter para determinar que registros incluir em um Recordset aberto subsequentemente.</span><span class="sxs-lookup"><span data-stu-id="c8a87-157">The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.</span></span>
+<span data-ttu-id="bb71e-157">O exemplo a seguir mostra como abrir uma propriedade Filter para determinar que registros incluir em um Recordset aberto subsequentemente.</span><span class="sxs-lookup"><span data-stu-id="bb71e-157">The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
