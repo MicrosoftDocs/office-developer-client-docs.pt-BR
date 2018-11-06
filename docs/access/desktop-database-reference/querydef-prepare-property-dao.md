@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1d587501cb9a3279db055b9eee27d765e002a03
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a30c9d12de32f4137e3bb365254445f96e8b03c6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925935"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998781"
 ---
 # <a name="querydefprepare-property-dao"></a>Propriedade QueryDef.Prepare (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -36,11 +35,8 @@ A criação de um procedimento armazenado pode reduzir a velocidade da operaçã
 
 Se **Prepare** estiver definida como **dbQPrepare**, isso pode ser substituído quando a consulta é executada, definindo o argumento de options do método **[Execute](querydef-execute-method-dao.md)** como **dbExecDirect**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A API <STRONG>SQLPrepare</STRONG> do ODBC será chamada assim que a propriedade <STRONG><A href="querydef-sql-property-dao.md">SQL</A></STRONG> do DAO for definida. Por esse motivo, se você deseja melhorar o desempenho usando a opção <STRONG>dbQUnprepare</STRONG>, deverá definir a propriedade <STRONG>Prepare</STRONG> antes de definir a propriedade <STRONG>SQL</STRONG>.</P>
-
-
+> [!OBSERVAçãO] A API **SQLPrepare** do ODBC será chamada assim que a propriedade **[SQL](querydef-sql-property-dao.md)** do DAO for definida. Por esse motivo, se você deseja melhorar o desempenho usando a opção **dbQUnprepare**, deverá definir a propriedade **Prepare** antes de definir a propriedade **SQL**.
 
 ## <a name="example"></a>Exemplo
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bde47da0bea38ac6ce71ae88a95b756fce6aa2f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 75e0422b6c6fcd2f893777884d35bade81a793f6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929374"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997039"
 ---
 # <a name="stream-object-ado"></a>Objeto Stream (ADO)
 
@@ -22,7 +22,7 @@ Representa um fluxo de dados ou texto binário.
 
 ## <a name="remarks"></a>Comentários
 
-Em hierarquias estruturadas em árvore, como o sistema de arquivos ou um sistema de email, um [Record](record-object-ado.md) pode ter um fluxo binário padrão dos bits associados com esse objeto que inclua o conteúdo do arquivo ou do email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
+Em hierarquias estruturada em árvore como um sistema de arquivos ou um sistema de email, um [registro](record-object-ado.md) pode ter um fluxo de binário padrão de bits associados a ele que contém o conteúdo do arquivo ou email. Um objeto **Stream** pode ser usado para manipular campos ou registros que contenham esses fluxos de dados. Um objeto **Stream** pode ser obtido dessas formas:
 
   - A partir de uma URL que aponta para um objeto (geralmente um arquivo) que contenha dados binários ou de texto. Esse objeto pode ser um documento simples, um objeto **Record** que representa um documento estruturado ou uma pasta.
 

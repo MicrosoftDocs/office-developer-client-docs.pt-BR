@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1bb39565e087a5c679e87e0e40dccb3eb4446511
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 02eb8d5e85356cd8a2f7744c057371f0ec901a20
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926084"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997501"
 ---
 # <a name="recordsetmove-method-dao"></a>Método Recordset.Move (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Move a posição do registro atual em um objeto **[Recordset](recordset-object-d
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -42,20 +41,20 @@ Move a posição do registro atual em um objeto **[Recordset](recordset-object-d
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Linhas</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>O número de linhas que a posição será movida. Se rows for maior que 0, a posição será movida para frente (em direção ao final do arquivo). Se rows for menor que 0, a posição será movida para trás (em direção ao início do arquivo).</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um valor identificando um indicador. Se você especificar startbookmark, Move começará relativo a esse indicador. Caso contrário, Move começará a partir do registro atual.</p></td>
@@ -72,16 +71,10 @@ Se você usar **Move** para posicionar o ponteiro do registro atual depois do ú
 
 Se a propriedade **BOF** ou **EOF** for **True** e você tentar usar o método **Move** sem um indicador válido, ocorrerá um erro em tempo de execução.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Quando você usa <STRONG>Move</STRONG> em um objeto <STRONG>Recordset</STRONG> do tipo somente para encaminhamento, o argumento rows deve ser um inteiro positivo e não são permitidos indicadores. Isso significa que você pode mover apenas para a frente.</P>
-> <LI>
-> <P>Para definir o primeiro registro, o último, o próximo ou o anterior como o registro atual em um <STRONG>Recordset</STRONG>, use o método <STRONG>MoveFirst</STRONG>, <STRONG>MoveLast</STRONG>, <STRONG>MoveNext</STRONG> ou <STRONG>MovePrevious</STRONG>.</P>
-> <LI>
-> <P>Usar <STRONG>Move</STRONG> com rows igual a 0 é uma maneira fácil de recuperar os dados subjacentes do registro atual. Isso será útil se você desejar se certificar de que o registro atual tem os dados mais recentes das tabelas base. Também cancelará quaisquer chamadas pendentes de <STRONG><A href="recordset2-edit-method-dao.md">Edit</A></STRONG> ou <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG>.</P></LI></UL>
-
+> - Quando você usa **Move** em um objeto **Recordset** do tipo somente para encaminhamento, o argumento rows deve ser um inteiro positivo e não são permitidos indicadores. Isso significa que você pode mover apenas para a frente.
+> - Para definir o primeiro registro, o último, o próximo ou o anterior como o registro atual em um **Recordset**, use o método **MoveFirst**, **MoveLast**, **MoveNext** ou **MovePrevious**.
+> - Usar **Move** com rows igual a 0 é uma maneira fácil de recuperar os dados subjacentes do registro atual. Isso será útil se você desejar se certificar de que o registro atual tem os dados mais recentes das tabelas base. Também cancelará quaisquer chamadas pendentes de **[Edit](recordset2-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)**.
 
 
 ## <a name="example"></a>Exemplo

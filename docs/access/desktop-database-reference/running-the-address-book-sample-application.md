@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249260(v=office.15)
 ms:contentKeyID: 48544798
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1cbebeab95f862cfab6b8e40d9dc5dfde7c65bee
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fe02965bbfe0905a7bb29d5c268e6f1323c4801b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945478"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998207"
 ---
 # <a name="running-the-address-book-sample-application"></a>Executando o aplicativo de amostra do catálogo de endereços
 
@@ -25,5 +25,5 @@ Para executar o aplicativo Catálogo de Endereços, siga este procedimento.
 
 2.  No Microsoft Internet Explorer 4.0 ou posterior, digite o seguinte endereço: **https://***webserver***/RDS/AddressBook/AddrBook.asp** onde *webserver* é o nome do servidor web onde os componentes de servidor RDS estão instalados.
 
-3.  Em seguida, você pode tentar vários cenários no aplicativo de exemplo do Catálogo de Endereços, como pesquisando uma pessoa com base em seu nome de email, listando todas as pessoas com o cargo "Gerente de Programa" ou editando os registros existentes. Clique em **Localizar** para preencher a grade de dados com todos os nomes disponíveis.
+3.  Então, você pode tentar vários cenários no aplicativo de amostra do catálogo de endereços, como procurar uma pessoa com base no seu nome de email, listando todas as pessoas com o título "Gerente de programa", ou edição existente de registros. Clique em **Localizar** para preencher a grade de dados com todos os nomes disponíveis.
 

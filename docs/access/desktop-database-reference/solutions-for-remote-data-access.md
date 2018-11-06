@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03a6495b6d95723469d14dc1c3d9d2972760865
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ef617f91aa6f36969932a4d8f2914df2de935787
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937166"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998158"
 ---
 # <a name="solutions-for-remote-data-access"></a>Soluções para o acesso remoto a dados
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,11 +27,8 @@ Por exemplo, sua página da Web de intranet contém um aplicativo escrito em Mic
 
 Neste exemplo, seu aplicativo nunca esteve diretamente conectado à fonte de dados, ao contrário do IIS. Além disso, o IIS acessou os dados através do ADO.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O aplicativo cliente/servidor não precisa se basear na Internet ou em uma intranet (ou seja, basear-se na Web)  ele pode conter apenas programas compilados em uma rede local. Entretanto, o caso típico é um aplicativo baseado na Web.</P>
-
-
+> O aplicativo cliente/servidor não precisa ser baseado em Internet ou intranet (ou seja, baseado na web) — ele pode consistir somente compilados programas em uma rede local. No entanto, o caso típico é um aplicativo baseado na web.
 
 Como alguns controles visuais, como grade, caixa de seleção ou lista, podem usar as informações retornadas, essas informações devem ser facilmente usadas por esses controles.
 
@@ -40,5 +36,5 @@ Você deseja uma interface de programação de aplicativo simples e eficiente qu
 
 ## <a name="the-solution"></a>A solução
 
-O RDS define um modelo de programação  a sequência de atividades necessárias para obter acesso a uma fonte de dados e atualizá-la  para obter acesso aos dados por meio de um intermediário, por exemplo, o Internet Information Services (IIS). O modelo de programação resume toda a funcionalidade do RDS.
+RDS define um modelo de programação — a sequência de atividades necessárias para acessar e atualizar uma fonte de dados — para obter acesso a dados por meio de um intermediário, como serviços de informações da Internet (IIS). O modelo de programação resume toda a funcionalidade do RDS.
 

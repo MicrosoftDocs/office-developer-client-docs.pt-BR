@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ecdfcb638a471a91cc6249636748c02b341151b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 342b4c38b6a48ad36dc6d62ee34900e6f2057d42
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922549"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996864"
 ---
 # <a name="setmenuitem-macro-action"></a>Ação da macro DefinirItemDoMenu
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Use a ação **DefinirItemDoMenu** para definir o estado de itens de menu (habilitado ou desabilitado, selecionado ou não selecionado) em menus personalizados ou globais, na guia **Suplementos**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A ação <STRONG>DefinirItemDoMenu</STRONG> funciona somente com menus personalizados e globais criados por macros de menu. A ação <STRONG>DefinirItemDoMenu</STRONG> está incluída no Microsoft Access somente para fins de compatibilidade com versões anteriores. Ela não funciona com a funcionalidade da barra de comandos, No entanto, você pode usar as propriedades <STRONG>Habilitado</STRONG> e <STRONG>Estado</STRONG> em um módulo do VBA (Visual Basic for Applications) para habilitar ou desabilitar e selecionar ou cancelar a seleção de itens em menus de atalho ou em menus personalizados ou globais.</P>
-
-
+> [!OBSERVAçãO] A ação **DefinirItemDoMenu** funciona somente com menus personalizados e globais criados por macros de menu. A ação **DefinirItemDoMenu** está incluída no Microsoft Access somente para fins de compatibilidade com versões anteriores. Ela não funciona com a funcionalidade da barra de comandos, No entanto, você pode usar as propriedades **Habilitado** e **Estado** em um módulo do VBA (Visual Basic for Applications) para habilitar ou desabilitar e selecionar ou cancelar a seleção de itens em menus de atalho ou em menus personalizados ou globais.
 
 ## <a name="setting"></a>Configuração
 

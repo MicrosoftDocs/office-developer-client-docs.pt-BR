@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68f1651dd2f96f660d60e037eddbca4226e0420e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927855"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998970"
 ---
 # <a name="openform-macro-action"></a>Ação da macro AbrirFormulário
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Você pode usar a ação **AbrirFormulário** para abrir um formulário no modo formulário, modo de Design, modo Visualizar impressão ou modo folha de dados. Você pode selecionar a entrada de dados e os modos de janela para o formulário e restringir os registros que o formulário exibe.
 
@@ -43,13 +41,7 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
-<td><p>O modo de exibição no qual o formulário será aberto. Clique em <strong>formulário</strong>, <strong>Design</strong>, <strong>Modo Visualizar impressão</strong>, <strong>folha de dados</strong>, <strong>tabela dinâmica</strong>ou <strong>gráfico dinâmico</strong> , na caixa <strong>Exibir</strong> . O padrão é <strong>formulário</strong>.</p>
-
-> [!NOTE]
-> <P>A definição do argumento <STRONG>Exibir</STRONG> substitui as configurações das propriedades de <STRONG>ModoPadrão</STRONG> e <STRONG>ViewsAllowed</STRONG> do formulário. Por exemplo, se a propriedade <STRONG>ViewsAllowed</STRONG> de um formulário é definida como <STRONG>folha de dados</STRONG>, você ainda pode usar a ação <STRONG>AbrirFormulário</STRONG> para abrir o formulário no modo formulário.</P>
-
-
-<p></p></td>
+<td><p>O modo de exibição no qual o formulário será aberto. Clique em <strong>formulário</strong>, <strong>Design</strong>, <strong>Modo Visualizar impressão</strong>, <strong>folha de dados</strong>, <strong>tabela dinâmica</strong>ou <strong>gráfico dinâmico</strong> , na caixa <strong>Exibir</strong> . O padrão é <strong>formulário</strong>.</p><p><strong>Observação</strong>: A configuração do argumento <STRONG>modo de exibição</STRONG> substitui as configurações das propriedades de <STRONG>ModoPadrão</STRONG> e <STRONG>ViewsAllowed</STRONG> do formulário. Por exemplo, se a propriedade <STRONG>ViewsAllowed</STRONG> de um formulário é definida como <STRONG>folha de dados</STRONG>, você ainda pode usar a ação <STRONG>AbrirFormulário</STRONG> para abrir o formulário no modo formulário.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nome do Filtro</strong></p></td>
@@ -57,13 +49,7 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Condição Where</strong></p></td>
-<td><p>Uma cláusula SQL WHERE válida (sem a palavra onde) ou expressão que o Access utiliza para selecionar registros do formulário da tabela ou consulta base. Se você selecionar um filtro com o argumento <strong>Nome do filtro</strong> , o Access aplica essa cláusula WHERE aos resultados do filtro. Para abrir um formulário e restringir seus registros àqueles especificados pelo valor de um controle em outro formulário, use a seguinte expressão: <strong>[</strong><em>fieldname</em><strong>] = formulários! [</strong> <em>formname</em> <strong>]! [</strong><em>controlname em outro formulário</em><strong>]</strong> substitua <em>fieldname</em> pelo nome de um campo na tabela ou consulta do formulário que você deseja abrir subjacente. Substitua o nome de outro formulário e o controle no outro formulário que contém o valor que você deseja que os registros no primeiro formulário devem corresponder <em>formname</em> e <em>controlname em outro formulário</em> .</p>
-
-> [!NOTE]
-> <P>O comprimento máximo do argumento <STRONG>Condição Where</STRONG> é 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE complexa mais, maior que isso, use o método <STRONG>OpenForm</STRONG> do objeto <STRONG>DoCmd</STRONG> no Visual Basic para módulo Applications (VBA) em vez disso. Você pode inserir instruções cláusula SQL WHERE de até 32.768 caracteres no VBA.</P>
-
-
-<p></p></td>
+<td><p>Uma cláusula SQL WHERE válida (sem a palavra onde) ou expressão que o Access utiliza para selecionar registros do formulário da tabela ou consulta base. Se você selecionar um filtro com o argumento <strong>Nome do filtro</strong> , o Access aplica essa cláusula WHERE aos resultados do filtro. Para abrir um formulário e restringir seus registros àqueles especificados pelo valor de um controle em outro formulário, use a seguinte expressão: <strong>[</strong><em>fieldname</em><strong>] = formulários! [</strong> <em>formname</em> <strong>]! [</strong><em>controlname em outro formulário</em><strong>]</strong> substitua <em>fieldname</em> pelo nome de um campo na tabela ou consulta do formulário que você deseja abrir subjacente. Substitua o nome de outro formulário e o controle no outro formulário que contém o valor que você deseja que os registros no primeiro formulário devem corresponder <em>formname</em> e <em>controlname em outro formulário</em> .</p><p><strong>Observação</strong>: O comprimento máximo do argumento <STRONG>Condição Where</STRONG> é 255 caracteres. Se você precisar inserir uma cláusula SQL WHERE complexa mais, maior que isso, use o método <STRONG>OpenForm</STRONG> do objeto <STRONG>DoCmd</STRONG> no Visual Basic para módulo Applications (VBA) em vez disso. Você pode inserir instruções cláusula SQL WHERE de até 32.768 caracteres no VBA.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Modo de Dados</strong></p></td>
@@ -76,13 +62,7 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Modo Janela</strong></p></td>
-<td><p>O modo de janela na qual o formulário é aberto. Clique em <strong>Normal</strong> (o formulário é aberto no modo definido pelas suas propriedades), <strong>oculto</strong> (o formulário é oculto), o <strong>ícone</strong> (o formulário é aberto minimizado como uma pequena barra de título na parte inferior da tela), ou <strong>diálogo</strong> (do formulário <strong>Modal</strong> e PopUp do <strong> </strong>propriedades são definidas como <strong>Sim</strong>). O padrão é <strong>Normal</strong>.</p>
-
-> [!NOTE]
-> <P>Algumas configurações do argumento <STRONG>Modo Janela</STRONG> não se aplicam ao usar documentos com guias. Para alternar para janelas sobrepostas:</P>
-
-
-<p></p>
+<td><p>O modo de janela na qual o formulário é aberto. Clique em <strong>Normal</strong> (o formulário é aberto no modo definido pelas suas propriedades), <strong>oculto</strong> (o formulário é oculto), o <strong>ícone</strong> (o formulário é aberto minimizado como uma pequena barra de título na parte inferior da tela), ou <strong>diálogo</strong> (do formulário <strong>Modal</strong> e PopUp do <strong> </strong>propriedades são definidas como <strong>Sim</strong>). O padrão é <strong>Normal</strong>.</p><p><strong>Observação</strong>: algumas configurações do argumento <STRONG>Modo janela</STRONG> não se aplicam ao uso de documentos com abas. Para alternar para janelas sobrepostas:</p>
 <ol>
 <li><p>Clique na guia arquivo e clique em <strong>Opções</strong>.</p></li>
 <li><p>Na caixa de diálogo <strong>Opções do Access</strong> , clique em <strong>Banco de dados atual</strong>.</p></li>
@@ -102,11 +82,8 @@ Um formulário pode ser modal (deve ser fechado ou oculto para que o usuário po
 
 Quando você abre um formulário com o argumento **Modo janela** definido como **diálogo**, o Access suspende a macro até que o formulário é fechado ou oculto. Você pode ocultar um formulário definindo sua propriedade **Visible** como **não** usando a ação **DefinirValor** .
 
-
 > [!TIP]
-> <P>Você pode selecionar um formulário no painel de navegação e arraste-o para uma linha de ação de macro. Isso cria automaticamente uma ação <STRONG>AbrirFormulário</STRONG> que abre o formulário no modo formulário.</P>
-
-
+> Você pode selecionar um formulário no painel de navegação e arraste-o para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirFormulário** que abre o formulário no modo formulário.
 
 O filtro e a condição WHERE aplicados se tornam a configuração da propriedade **Filter** do formulário.
 

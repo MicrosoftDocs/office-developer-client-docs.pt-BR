@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919287"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997410"
 ---
 # <a name="selectobject-macro-action"></a>Ação da macro SelecionarObjeto
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -46,13 +45,7 @@ A ação **SelecionarObjeto** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Objeto</strong></p></td>
-<td><p>O nome do objeto a ser selecionado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos do banco de dados, do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>. Este é um argumento obrigatório, a menos que, no Painel de Navegação, você defina o argumento como <strong>Sim</strong>.</p>
-
-> [!NOTE]
-> <P>Os nomes de objeto para <STRONG>Modo Exibição do Servidor</STRONG>, <STRONG>Diagrama</STRONG> ou <STRONG>Procedimento Armazenado</STRONG> não são exibidos na caixa <STRONG>Nome do Objeto</STRONG> de um projeto do Access (.adp).</P>
-
-
-<p></p></td>
+<td><p>O nome do objeto a ser selecionado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos do banco de dados, do tipo selecionado pelo argumento <strong>Tipo de objeto</strong>. Este é um argumento obrigatório, a menos que, no Painel de Navegação, você defina o argumento como <strong>Sim</strong>.</p><p><strong>Observação</strong>: os nomes de objeto para objetos de <STRONG>Exibição do servidor</STRONG>, <STRONG>diagrama</STRONG>ou <STRONG>Procedimento armazenado</STRONG> não são exibidos na caixa <STRONG>Nome do objeto</STRONG> de um projeto do Access (. adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>No Painel de Navegação</strong></p></td>

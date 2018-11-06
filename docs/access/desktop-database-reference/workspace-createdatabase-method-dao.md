@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923410"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996892"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Método Workspace.CreateDatabase (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,7 +25,7 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 
 *expressão* Uma variável que representa um objeto **Workspace** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando. Pode ser o nome de arquivo e caminho completo. Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;. Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><ul>
@@ -64,7 +63,7 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Opção</p></td>
+<td><p><em>Opção</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que indica uma ou mais opções, conforme especificado em Configurações. Você pode combinar opções associando as constantes correspondentes.</p></td>
@@ -176,6 +175,7 @@ Você pode usar uma das seguintes constantes para o argumento locale a fim de es
 </tbody>
 </table>
 
+<br/>
 
 Você pode usar uma ou mais das seguintes constantes no argumento options para especificar que versão o formato dos dados deve ter e se o banco de dados deve ser criptografado ou não.
 
@@ -222,6 +222,7 @@ Você pode usar uma ou mais das seguintes constantes no argumento options para e
 </tbody>
 </table>
 
+<br/>
 
 Se você omitir a constante de criptografia, **CreateDatabase** criará um banco de dados não criptografado.
 

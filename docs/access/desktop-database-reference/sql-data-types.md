@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd5deb6d14aaf5911cd87c4d562dbec74e7ad1f2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ef5a794014f1397202483e008d164cb5de0b5179
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944484"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997809"
 ---
 # <a name="sql-data-types"></a>Tipos de dados SQL
 
@@ -112,13 +112,6 @@ A tabela a seguir lista os principais tipos de dados. Os sinônimos são identif
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>A propagação e o incremento podem ser modificados utilizando uma <A href="alter-table-statement-microsoft-access-sql.md">instrução ALTER TABLE</A>. Novas linhas inseridas na tabela terão valores baseados nos novos valores de propagação e incremento, que são automaticamente gerados para a coluna. Se a nova propagação e o novo incremento puderem processar valores que correspondem a valores gerados com base na propagação e no incremento anteriores, duplicações serão geradas. Se a coluna for uma chave primária, a inserção de novas linhas poderá resultar em erros quando valores duplicados forem gerados.</P>
-> <LI>
-> <P>Para localizar o último valor que foi utilizado para uma coluna de incremento automático, você pode usar a seguinte instrução: SELECT @@IDENTITY. Você não pode especificar um nome de tabela. O valor retornado é da última tabela atualizada que contém uma coluna de incremento automático.</P></LI></UL>
-
-
+> - A propagação e o incremento podem ser modificados utilizando uma [instrução ALTER TABLE](alter-table-statement-microsoft-access-sql.md). Novas linhas inseridas na tabela terão valores baseados nos novos valores de propagação e incremento, que são automaticamente gerados para a coluna. Se a nova propagação e o novo incremento puderem processar valores que correspondem a valores gerados com base na propagação e no incremento anteriores, duplicações serão geradas. Se a coluna for uma chave primária, a inserção de novas linhas poderá resultar em erros quando valores duplicados forem gerados.
+> - Para localizar o último valor que foi utilizado para uma coluna de incremento automático, você pode usar a seguinte instrução: SELECT @@IDENTITY. Você não pode especificar um nome de tabela. O valor retornado é da última tabela atualizada que contém uma coluna de incremento automático.

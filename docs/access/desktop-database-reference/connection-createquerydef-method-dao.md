@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a03f486d29aa70c7d4901372f81609e378ffae07
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 681da274ab1f709da2eb614df038e6aa492a224a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950052"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997249"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Método Connection.CreateQueryDef (DAO)
 
@@ -41,7 +41,7 @@ Cria um novo objeto **[QueryDef](querydef-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>

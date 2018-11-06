@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d0d5eec3c032780dd6065bd29f6d41c299a7379
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 96350229bce2ecc25ff035f2e5949f080f0fa10f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937691"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997725"
 ---
 # <a name="chapter-10-records-and-streams"></a>Capítulo 10: Records e streams
 
@@ -25,7 +25,7 @@ Os objetos **Record** funcionam essencialmente como um **Recordset** de uma linh
 
 Os objetos **Record** podem servir para outro propósito, particularmente com os provedores de fontes de dados diferentes de bancos de dados relacionais tradicionais, como o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Muitas das informações que devem ser processadas existem não como tabelas nos bancos de dados, mas como mensagens em sistemas de email e como arquivos em sistemas de arquivo modernos. Os objetos **Record** e **Stream** facilitam o acesso às informações armazenadas em fontes diferentes de bancos de dados relacionais.
 
-O objeto **Record** pode representar e gerenciar dados, como diretórios e arquivos, em um sistema de arquivos, ou pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
+O objeto **Record** pode representar e gerenciar dados como arquivos e diretórios em um sistema de arquivos ou pastas e mensagens em um sistema de email. Para esses propósitos, a fonte para **Record** pode ser a linha atual de um **Recordset** aberto, uma URL absoluta ou uma URL relativa em conjunto com um objeto [Connection](connection-object-ado.md) aberto.
 
 Normalmente, um **Recordset** pode ser utilizado para representar um contêiner ou um pai na hierarquia, como uma pasta ou diretório. Um **Record** pode ser usado para retornar informações específicas sobre um nó no contêiner pai, como um arquivo ou documento. A principal razão para que os **Records** sejam utilizados para representar esse tipo de informação é que essas fontes de dados são heterogêneas. Isso significa que cada **Record** pode ter um conjunto e um número diferente de campos. Os **Recordsets** tradicionais que contêm linhas de um banco de dados são homogêneos, o que significa que cada linha tem o mesmo número e tipo de campos.
 

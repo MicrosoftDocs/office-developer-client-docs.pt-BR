@@ -6,25 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8677428c32c70bc11b9eef6f168b09c72592a0b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a9f75e5215e3e3d79363ab7110f7c16bcacf3cbb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944246"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998991"
 ---
 # <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>Etapa 6: As alterações são enviadas ao servidor (Tutorial RDS)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Se o objeto **Recordset** for editado, todas as alterações (ou seja, linhas que são incluídas, alteradas ou excluídas) poderão ser enviadas de volta ao servidor.
 
-
-> [!NOTE]
-> <P>O comportamento padrão do RDS pode ser chamado implicitamente com os objetos ADO e o Microsoft OLE DB Remoting Provider. As consultas podem retornar <STRONG>Recordset</STRONG>s e os <STRONG>Recordset</STRONG>s editados podem atualizar a origem de dados. Esse tutorial não chama o RDS com objetos ADO, mas veja como seria se o fizesse:</P>
-
-
+[!OBSERVAçãO] O comportamento padrão do RDS pode ser chamado implicitamente com os objetos ADO e o Microsoft OLE DB Remoting Provider. Consultas podem retornar **Recordsets**e editado **Recordsets** pode atualizar a fonte de dados. Esse tutorial não chama o RDS com objetos ADO, mas veja como seria se o fizesse:
 
 ```vb 
  

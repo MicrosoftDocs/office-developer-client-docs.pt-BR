@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a926bed97cf3f21e81fbf01eae554aaec45406a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a397b0f88bb60552a6e53432a3c8c4d788013103
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947781"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997265"
 ---
 # <a name="how-event-handlers-work-together"></a>Como os manipuladores de eventos trabalham juntos
 
@@ -41,12 +41,11 @@ Um único manipulador de eventos Complete pode ser útil para o gerenciamento de
 
 Por exemplo, o preenchimento de um grande objeto [Recordset](recordset-object-ado.md) pode ser demorado. Se seu aplicativo está escrito corretamente, você pode iniciar uma operação e continuar com outro processamento. No final, você será notificado quando **Recordset** for preenchido por um evento **ExecuteComplete**.
 
-## <a name="single-event-handlers-and-multiple-objects"></a>Manipuladores de eventos únicos e vários objetos
+## <a name="single-event-handlers-and-multiple-objects"></a>Manipuladores de evento único e vários objetos
 
 A flexibilidade de uma linguagem de programação como o Microsoft Visual C++ permite ter eventos de processo de um único manipulador de eventos a partir de vários objetos. Por exemplo, você pode ter eventos de processo de um único manipulador de eventos **Disconnect** a partir de vários objetos **Connection**. Se uma das conexões for encerrada, o manipulador de eventos **Disconnect** será chamado. É possível saber qual conexão causou o evento, pois o parâmetro de objeto manipulador de eventos é definido para o objeto **Connection** correspondente.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Essa técnica não pode ser usada no Visual Basic, pois essa linguagem apenas pode correlacionar um objeto a um manipulador de eventos.</P>
+> [!OBSERVAçãO] Essa técnica não pode ser usada no Visual Basic, pois essa linguagem apenas pode correlacionar um objeto a um manipulador de eventos.
 
 

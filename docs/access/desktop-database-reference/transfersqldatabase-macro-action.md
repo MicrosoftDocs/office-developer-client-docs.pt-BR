@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ae05da3d07cc17f54584d11282721ac83f23ccd8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff903c459a351f69b272224ca29f9cc717498f0a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926539"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996850"
 ---
 # <a name="transfersqldatabase-macro-action"></a>Ação da macro TransferirBancoDeDadosSQL
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **TransferirBancoDeDadosSQL** para transferir um banco de dados do Microsoft SQL Server 7.0 ou posterior para outro banco de dados SQL Server 7.0 ou posterior. Para obter mais informações sobre como transferir um banco de dados, consulte a documentação do SQL Server.
 
-
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
 
 ## <a name="setting"></a>Configuração
 
@@ -82,17 +78,12 @@ A ação **TransferirBancoDeDadosSQL**, por padrão, copia dados, definições d
 
 Há requisitos para a transferência de um banco de dados:
 
-  - Você deve ser membro da função sysadmin no servidor de destino (nenhuma função especial é exigida no servidor de origem).
+- Você deve ser membro da função sysadmin no servidor de destino (nenhuma função especial é exigida no servidor de origem).
 
-<!-- end list -->
+- O servidor SQL atualmente conectado ao projeto do Access e ao servidor de destino para o qual você está transferindo o banco de dados deve ser SQL Server versão 7.0 ou posterior.
 
-  - O servidor SQL atualmente conectado ao projeto do Access e ao servidor de destino para o qual você está transferindo o banco de dados deve ser SQL Server versão 7.0 ou posterior.
-
-
-> [!NOTE]
-> <P>[!OBSERVAçãO] Servidores vinculados não são transferidos durante a operação de transferência de banco de dados.</P>
-
-
+  > [!NOTE]
+  > [!OBSERVAçãO] Servidores vinculados não são transferidos durante a operação de transferência de banco de dados.
 
 Para executar a ação **TransferirBancoDeDadosSQL** em um módulo do VBA (Visual Basic for Applications), use o método **TransferSQLDatabase** do objeto **DoCmd**.
 

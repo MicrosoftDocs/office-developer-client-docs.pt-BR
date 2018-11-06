@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8eda32f026c0fb706f15da3760c3dba879aae9d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b45e716844b3e616dfe5b8f94d69f29d6b0f1042
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928318"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997508"
 ---
 # <a name="seteos-method-ado"></a>Método SetEOS (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,8 +29,5 @@ Define a posição que é o final do fluxo.
 
 Como [Write](write-method-ado.md), [WriteText](writetext-method-ado.md) e [CopyTo](copyto-method-ado.md) não truncam nenhum valor extra nos objetos **Stream** existentes, você pode truncar esses bytes ou caracteres definindo a nova posição de final de fluxo com **SetEOS**.
 
-
 > [!WARNING]
-> <P>Se você definir <STRONG>EOS</STRONG> para uma posição antes do final real do fluxo, perderá todos os dados após a nova posição de <STRONG>EOS</STRONG>.</P>
-
-
+> Se você definir **EOS** para uma posição antes do final real do fluxo, perderá todos os dados após a nova posição de **EOS**.

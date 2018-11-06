@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 155074e95480e2de2b3efb1197814a1413b48586
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7fc8843e2d36179ec8a0168b0c44c6cdf3e866c4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930424"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998494"
 ---
 # <a name="recordsetfillcache-method-dao"></a>Método Recordset.FillCache (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,7 +25,7 @@ Preenche parcial ou totalmente um cache local de um objeto **Recordset** que con
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Preenche parcial ou totalmente um cache local de um objeto **Recordset** que con
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Linhas</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica o número de linhas a ser armazenado no cache. Se você omitir esse argumento, o valor será determinado pela configuração da propriedade <strong><a href="recordset-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que especifica um indicador. O cache é preenchido começando pelo registro indicado por esse indicador. Se você omitir esse argumento, o cache será preenchido começando do registro indicado pela propriedade <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
@@ -72,15 +71,9 @@ Se linhas e startbookmark criam um intervalo de registros que é parcialmente ou
 
 Se **FillCache** solicitar mais registros do que o número restante na fonte de dados remota, o mecanismo de banco de dados do Microsoft Access recuperará apenas os registros restantes e não ocorrerá um erro.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Registros recuperados do cache não refletem alterações concorrentes que outros usuários fazem nos dados de origem.</P>
-> <LI>
-> <P><STRONG>FillCache</STRONG> recupera apenas registros para os quais não foi feito cache. Para forçar uma atualização de todos os dados com cache, defina a propriedade <STRONG>CacheSize</STRONG> do <STRONG>Recordset</STRONG> para 0, redefina-a de acordo com o tamanho do cache que você originalmente solicitou e, em seguida, use <STRONG>FillCache</STRONG>.</P></LI></UL>
-
-
+> - Registros recuperados do cache não refletem alterações concorrentes que outros usuários fazem nos dados de origem.
+> - **FillCache** recupera apenas registros para os quais não foi feito cache. Para forçar uma atualização de todos os dados com cache, defina a propriedade **CacheSize** do **Recordset** para 0, redefina-a de acordo com o tamanho do cache que você originalmente solicitou e, em seguida, use **FillCache**.
 
 ## <a name="example"></a>Exemplo
 

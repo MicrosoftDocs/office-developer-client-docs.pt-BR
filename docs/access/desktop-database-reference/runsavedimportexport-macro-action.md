@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 70fda733ae05a94af856a76fba231e6a1da001d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7f98076c147a55561adf2baf24b55274bbea463d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928226"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998844"
 ---
 # <a name="runsavedimportexport-macro-action"></a>Ação da macro ExecutarImportaçãoOuExportaçãoSalva
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ExecutarImportaçãoOuExportaçãoSalva** para executar uma especificação de importação ou exportação salva e criada com o Assistente de Importação ou com o Assistente de Exportação.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
 
 ## <a name="setting"></a>Configuração
 
@@ -56,17 +52,17 @@ A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.
 
 ## <a name="remarks"></a>Comentários
 
-  - Esta macro tem o mesmo efeito deste procedimento quando executado no Access:
+- Esta macro tem o mesmo efeito deste procedimento quando executado no Access:
     
-    1.  Na guia **Dados Externos**, clique em **Importações Salvas** ou em **Exportações Salvas**.
+  1.  Na guia **Dados Externos**, clique em **Importações Salvas** ou em **Exportações Salvas**.
     
-    2.  Na caixa de diálogo **Gerenciar Tarefas de Dados**, na guia **Importações Salvas** ou **Exportações Salvas** (dependendo da sua escolha na etapa anterior), clique na especificação a ser executada.
+  2.  Na caixa de diálogo **Gerenciar Tarefas de Dados**, na guia **Importações Salvas** ou **Exportações Salvas** (dependendo da sua escolha na etapa anterior), clique na especificação a ser executada.
     
-    3.  Clique em **Executar**.
+  3.  Clique em **Executar**.
 
-  - Antes de executar a ação **ExecutarImportaçãoOuExportaçãoSalva**, verifique se os arquivos de origem e de destino existem, se os dados de origem estão prontos para a importação e se a operação não substituirá acidentalmente nenhum dado do arquivo de destino.
+- Antes de executar a ação **ExecutarImportaçãoOuExportaçãoSalva**, verifique se os arquivos de origem e de destino existem, se os dados de origem estão prontos para a importação e se a operação não substituirá acidentalmente nenhum dado do arquivo de destino.
 
-  - Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.
+- Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.
 
-  - Se o salva de importação ou exportação especificação que você escolher para o argumento **Salvo importar exportar nome** é excluído depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro será executada: does do **a especificação com o índice especificado não existe. Especifica um índice diferente. ' * * * especificação nome * * * '.**
+- Se o salva de importação ou exportação especificação que você escolher para o argumento **Salvo importar exportar nome** é excluído depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro será executada: does do **a especificação com o índice especificado não existe. Especifica um índice diferente. ' * * * especificação nome * * * '.**
 

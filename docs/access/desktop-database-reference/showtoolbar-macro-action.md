@@ -10,31 +10,22 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 254a54b4b672ba9e40253e3bd95283eec655d3dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ed69a84f9b1774b7c33711a0bb8e80da54e656cc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920505"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997927"
 ---
 # <a name="showtoolbar-macro-action"></a>Ação da macro MostrarBarraDeFerramentas
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **MostrarBarraDeFerramentas** para exibir ou ocultar um grupo de comandos na guia **Suplementos**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A ação <STRONG>MostrarBarraDeFerramentas</STRONG> não afeta os menus de atalho.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> - [!OBSERVAçãO] A ação **MostrarBarraDeFerramentas** não afeta os menus de atalho.
+> - [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 

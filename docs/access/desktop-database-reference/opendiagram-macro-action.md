@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c170c9d02967cb04b387d9f549ad77933d1f55b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b04870a416874e2136e21b40c62d8e64a6182efe
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925643"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998543"
 ---
 # <a name="opendiagram-macro-action"></a>Ação da macro AbrirDiagrama
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirDiagrama** para abrir um diagrama de banco de dados no modo Design.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -53,16 +49,12 @@ A ação **AbrirDiagrama** tem os argumentos a seguir.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentários
 
 Esta ação é semelhante a clicar duas vezes em um diagrama de banco de dados do Painel de Navegação ou a clicar com o botão direito do mouse no diagrama de banco de dados do Painel de Navegação e clicar em **Modo Design**.
 
-
 > [!TIP]
-> <P>[!DICA] Você pode arrastar um diagrama de banco de dados do Painel de Navegação para uma linha de ação de macro. Isso cria automaticamente uma ação <STRONG>AbrirDiagrama</STRONG> que abre o diagrama de banco de dados em modo Design.</P>
-
-
+> [!DICA] Você pode arrastar um diagrama de banco de dados do Painel de Navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirDiagrama** que abre o diagrama de banco de dados em modo Design.
 
 Para executar a ação **AbrirDiagrama** em um módulo do VBA (Visual Basic for Applications), use o método **OpenDiagram** do objeto **DoCmd**.
 

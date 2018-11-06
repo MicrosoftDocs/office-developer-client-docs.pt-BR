@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef8c2399ec8a2ddedde47197388698c2b83c57c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926665"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997284"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Método Workspace.OpenDatabase (DAO)
 
@@ -25,7 +25,7 @@ Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-
 
 *expressão* Uma variável que representa um objeto **Workspace** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -37,32 +37,32 @@ Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>CadeiaDeCaracteres</strong></p></td>
 <td><p>O nome de um arquivo de banco de dados existente no mecanismo de banco de dados do Microsoft Access ou o DSN (Nome da fonte de dados) de uma fonte de dados ODBC. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter mais informações sobre a configuração desse valor.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Opções</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Define as várias opções para o banco de dados, como especificado em Comentários.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> se você quiser abrir o banco de dados com acesso somente leitura, ou <strong>False</strong> (padrão) se você quiser abrir o banco de dados com acesso de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connect</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Especifica várias informações de conexão, incluindo senhas.</p></td>
@@ -71,7 +71,7 @@ Abre um banco de dados especificado em um objeto **[Workspace](workspace-object-
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Banco de dados
 
@@ -102,6 +102,7 @@ Você pode usar os valores a seguir para o argumento options.
 </tbody>
 </table>
 
+<br/>
 
 Quando você abre um banco de dados, ele é automaticamente adicionado à coleção **Databases**.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: aa029e3a81670746cdc467ddf7578c5900b58b29
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 206c12d324b2b9c11b22357a3262a343bba3c122
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929031"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998802"
 ---
 # <a name="sendkeys-macro-action"></a>Ação da macro EnviarSequênciaDeCaracteres
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -37,14 +36,10 @@ ms.locfileid: "25929031"
 </tbody>
 </table>
 
-
 Use a ação **EnviarSequênciadeCaracteres** para enviar pressionamentos de teclas para o Microsoft Access ou para um aplicativos ativo baseado no Windows.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -80,23 +75,14 @@ O Access processa os pressionamentos de teclas recebidos por meio da ação **En
 
 Para especificar os pressionamentos de teclas, use a mesma sintaxe que usaria para a instrução **EnviarSequênciadeCaracteres**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] É possível a ocorrência de erro quando o argumento <STRONG>Pressionamentos de teclas</STRONG> contém sintaxe incorreta, erros ortográficos ou outros valores inadequados para a janela da qual os pressionamentos de teclas são enviados.</P>
-
-
+> [!OBSERVAçãO] É possível a ocorrência de erro quando o argumento **Pressionamentos de teclas** contém sintaxe incorreta, erros ortográficos ou outros valores inadequados para a janela da qual os pressionamentos de teclas são enviados.
 
 Você pode usar esta ação para inserir informações em uma caixa de diálogo, principalmente se não quiser interromper a macro para responder manualmente à caixa de diálogo. Algumas ações do Access, como **ArquivoComCópia** e **EncontrarRegistro**, selecionam automaticamente as opções de algumas caixas de diálogo de uso frequente. Use a ação **EnviarSequênciaDeCaracteres** para selecionar opções em caixas de diálogo de uso menos frequente.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Como a caixa de diálogo suspende a macro, coloque a ação <STRONG>EnviarSequênciaDeCaracteres</STRONG> antes da ação que abre a caixa de diálogo e defina o argumento <STRONG>Aguardar</STRONG> como <STRONG>Não</STRONG>.</P>
-> <LI>
-> <P>O intervalo dos pressionamentos de teclas para alcançar o Access ou outro aplicativo pode ser complicado. Por isso, se houver outros métodos (como a ação <STRONG>EncontrarRegistro</STRONG> ) que você possa usar para obter a tarefa desejada, é recomendável usá-lo no lugar da ação <STRONG>EnviarSequênciadeCaracteres</STRONG> para preencher as opções de uma caixa de diálogo.</P></LI></UL>
-
-
+> - Como a caixa de diálogo suspende a macro, coloque a ação **EnviarSequênciaDeCaracteres** antes da ação que abre a caixa de diálogo e defina o argumento **Aguardar** como **Não**.
+> - O intervalo dos pressionamentos de teclas para alcançar o Access ou outro aplicativo pode ser complicado. Por isso, se houver outros métodos (como a ação **EncontrarRegistro** ) que você possa usar para obter a tarefa desejada, é recomendável usá-lo no lugar da ação **EnviarSequênciadeCaracteres** para preencher as opções de uma caixa de diálogo.
 
 Se quiser enviar mais de 255 caracteres para o Access ou outro aplicativo baseado no Windows, use várias ações **EnviarSequênciaDeCaracteres** em sucessão, em uma macro.
 

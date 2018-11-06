@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: f2e8eab52491eb4ff48f398848d7ffc303999bb4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950038"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998886"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Método Database.CreateTableDef (DAO)
 
@@ -41,7 +41,7 @@ Cria um novo objeto **[TableDef](tabledef-object-dao.md)** (apenas espaços de t
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>

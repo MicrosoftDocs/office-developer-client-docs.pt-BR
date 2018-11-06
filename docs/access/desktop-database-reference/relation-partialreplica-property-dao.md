@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 30b23b424b8c76f0681d0128348590c1558e81ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 11f8017c01cec9af2da26bedaf689d69554e554c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929381"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998181"
 ---
 # <a name="relationpartialreplica-property-dao"></a>Propriedade Relation.PartialReplica (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -46,6 +45,10 @@ Para replicar todos os pedidos da região da Califórnia, indique se a relação
     
 
 > [!NOTE]
-> <P>Quando você definir um filtro para réplica ou uma relação de réplicas, esteja ciente de que os registros da réplica parcial que não satisfizerem os critérios de restrição serão removidos da réplica parcial, mas não da réplica completa. Por exemplo, suponha que você tenha definido a propriedade <STRONG>ReplicaFilter</STRONG> em <STRONG>TableDef</STRONG> de Clientes na réplica parcial como "Region = 'CA'" e depois tenha preenchido novamente o banco de dados. Isso inserirá ou atualizará todos os registros dos clientes da Califórnia. Se você redefinir depois a propriedade <STRONG>ReplicaFilter</STRONG> como "Region = 'FL'" e preencher novamente o banco de dados, todos os registros da região da Califórnia na réplica parcial serão removidos e todos os registros dos clientes da Flórida serão inseridos na réplica completa. Nenhum registro será excluído da réplica completa. Antes de definir a propriedade <STRONG>ReplicaFilter</STRONG> ou a propriedade <STRONG>PartialReplica</STRONG>, é uma boa ideia sincronizar a réplica parcial na qual você está definindo essas propriedades na réplica completa. Isso garantirá que as alterações pendentes na réplica parcial serão mescladas na réplica completa antes de quaisquer registros serem removidos da réplica parcial.</P>
+> [!OBSERVAçãO] Quando você definir um filtro para réplica ou uma relação de réplicas, esteja ciente de que os registros da réplica parcial que não satisfizerem os critérios de restrição serão removidos da réplica parcial, mas não da réplica completa. Por exemplo, suponha que você definir a propriedade **ReplicaFilter** em clientes **TableDef** da réplica parcial para "região = 'CA'" e preencher o banco de dados, em seguida, novamente. Isso inserirá ou atualizará todos os registros dos clientes da Califórnia. 
+> 
+> Se você redefinir, em seguida, a propriedade **ReplicaFilter** para "região = 'FL'" e re-preencher o banco de dados, todos os registros da região da Califórnia da réplica parcial serão removidos e todos os registros de clientes baseados em Flórida serão inseridos da réplica completa. Nenhum registro será excluído da réplica completa. 
+>
+> Antes de definir a propriedade **ReplicaFilter** ou a propriedade **PartialReplica**, é uma boa ideia sincronizar a réplica parcial na qual você está definindo essas propriedades na réplica completa. Isso garantirá que as alterações pendentes na réplica parcial serão mescladas na réplica completa antes de quaisquer registros serem removidos da réplica parcial.
 
 

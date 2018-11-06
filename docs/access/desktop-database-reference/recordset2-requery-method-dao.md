@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c69c04f5ef87a487f7e14ccb6f68bb487226df96
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925482"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997893"
 ---
 # <a name="recordset2requery-method-dao"></a>Método Recordset2.Requery (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Atualiza os dados em um objeto **[Recordset](recordset-object-dao.md)** executan
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Atualiza os dados em um objeto **[Recordset](recordset-object-dao.md)** executan
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Novadefiniçãodaconsulta</p></td>
+<td><p><em>Novadefiniçãodaconsulta</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Representa o valor da propriedade <strong>Name</strong> de um objeto <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>

@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 451d27f97c0b4f5fc4707d3947e262ba84b9a40e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d80065c976a014ccf379bdc2016b0324cb02b269
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926098"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998143"
 ---
 # <a name="opentable-macro-action"></a>Ação da macro AbrirTabela
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -55,16 +54,12 @@ A ação **AbrirTabela** tem os seguintes argumentos.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentários
 
 Esta ação é semelhante a clicar duas vezes em uma tabela do Painel de Navegação ou a clicar com o botão direito do mouse na tabela do Painel de Navegação e selecionar um modo de exibição.
 
-
 > [!TIP]
-> <P>[!DICA] Você pode arrastar uma tabela do Painel de Navegação para uma linha de ação de macro. Isso cria automaticamente uma ação <STRONG>AbrirTabela</STRONG> que abre a tabela em modo Folha de Dados.</P>
-
-
+> [!DICA] Você pode arrastar uma tabela do Painel de Navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirTabela** que abre a tabela em modo Folha de Dados.
 
 Para executar a ação **AbrirTabela** em um módulo do VBA (Visual Basic for Applications), use o método **OpenTable** do objeto **DoCmd**.
 

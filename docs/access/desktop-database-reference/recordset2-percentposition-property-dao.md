@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052973
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 316dd9e8b430ba0dbb741bc1af81517749d84f77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7cf5a0e0a9d0cf3d3cd5ce2b89dc287b41c72f74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921884"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998792"
 ---
 # <a name="recordset2percentposition-property-dao"></a>Propriedade Recordset2.PercentPosition (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -34,11 +33,8 @@ Define ou retorna um valor que indica o local aproximado do registro atual no ob
 
 Para indicar ou alterar a posição aproximada do registro atual em um objeto **Recordset**, você poderá verificar ou definir a propriedade **PercentPosition**. Quando você estiver trabalhando com um objeto **Recordset** do tipo dynaset ou instantâneo aberto diretamente a partir de uma tabela base, preencha primeiro o objeto **Recordset**, movendo-se para o último registro antes de definir ou verificar a propriedade **PercentPosition**. Se você usar a propriedade **PercentPosition** antes de preencher totalmente o objeto **Recordset**, a quantidade de movimento será relativa ao número de registros acessados, conforme indicado pela definição de propriedade **[RecordCount](recordset2-recordcount-property-dao.md)**. Você pode se mover para o último registro usando o método **[MoveLast](recordset2-movelast-method-dao.md)**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O uso da propriedade <STRONG>PercentPosition</STRONG> para mover o registro atual para um registro específico em um objeto <STRONG>Recordset</STRONG> não é recomendável? A propriedade <STRONG><A href="recordset2-bookmark-property-dao.md">Bookmark</A></STRONG> é a mais adequada para essa tarefa.</P>
-
-
+> Não é recomendável o uso da propriedade **PercentPosition** para mover o registro atual para um registro específico em um objeto **Recordset** . A propriedade **[Bookmark](recordset2-bookmark-property-dao.md)** é a mais adequada para essa tarefa.
 
 Assim que você definir a propriedade **PercentPosition** para um valor, o registro na posição aproximada que corresponder a esse valor se tornará o valor atual e a propriedade **PercentPosition** será redefinida para um valor que refletir a posição aproximada do registro atual. Por exemplo, se o objeto **Recordset** contiver somente cinco registros e você definir o valor da propriedade **PercentPosition** como 77, o valor retornado da propriedade **PercentPosition** poderá ser 80 e não 77.
 

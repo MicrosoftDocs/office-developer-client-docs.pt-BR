@@ -1,6 +1,6 @@
 ---
 title: Propriedade Index.Primary (DAO)
-TOCTitle: Primary Property
+TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2ef796ca15ea551010ebf3605a6662bf66d83131
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff99f60fce41c7fa7de604a5109e68f6f744e68a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921877"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997641"
 ---
 # <a name="indexprimary-property-dao"></a>Propriedade Index.Primary (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Define ou retorna um valor que indica se um objeto **[Index](index-object-dao.md)** representa um índice de chave primária de uma tabela (somente em espaços de trabalho do Microsoft Access).
 
@@ -37,11 +35,8 @@ A definição da propriedade **Primary** é leitura/gravação para um novo obje
 
 Um índice de chave primária é composto de um ou vários campos que identificam exclusivamente todos os registros em uma tabela na ordem predefinida. Como o campo índice deve ser exclusivo, a propriedade **[Unique](index-unique-property-dao.md)** do objeto **Index** será definida como **True**. Se o índice de chave primária for composto de mais de um campo, cada campo conterá valores duplicados, mas cada combinação de valores de todos os campos indexados deverá ser exclusiva. Um índice de chave primária é composto de uma chave para tabela e geralmente contém os mesmos campos da chave primária.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Não é necessário criar índices para tabelas mas, em tabelas grandes e não indexadas, o acesso a um registro específico pode demorar muito tempo. A propriedade <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de cada objeto <STRONG><A href="field-object-dao.md">Field</A></STRONG> no objeto <STRONG>Index</STRONG> determina a ordem dos registros e, como consequência, determina as técnicas de acesso para o uso desse índice. Quando você criar uma nova tabela no banco de dados, será uma boa ideia criar um índice em um ou vários campos que identifiquem exclusivamente cada registro e depois definir a propriedade <STRONG>Primary</STRONG> do objeto <STRONG>Index</STRONG> como <STRONG>True</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Não é necessário criar índices para tabelas mas, em tabelas grandes e não indexadas, o acesso a um registro específico pode demorar muito tempo. A propriedade **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** no objeto **Index** determina a ordem dos registros e, como consequência, determina as técnicas de acesso para o uso desse índice. Quando você criar uma nova tabela no banco de dados, será uma boa ideia criar um índice em um ou vários campos que identifiquem exclusivamente cada registro e depois definir a propriedade **Primary** do objeto **Index** como **True**.
 
 Quando você definir uma chave primária para uma tabela, a chave primária será automaticamente definida como o índice da chave primária para a tabela.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4faa23fa2b7bdedc85bba5151c04a804a560155e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ffeb9594dda7a041758659fd1a88ee6adfa02403
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923669"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997599"
 ---
 # <a name="fieldsdelete-method-dao"></a>Método Fields. (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 
 *expressão* Uma variável que representa um objeto **Fields** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Exclui um objeto **[Field](field-object-dao.md)** da coleção **[Fields](fields
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Nome</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O campo a ser excluído.</p></td>

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 083e76ea4e2a0800153d50fa0c61d5acb7a29645
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6975a438e4e724a6fc1f72be92088f0d07a5b44
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922178"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996703"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Propriedade Recordset2.NoMatch (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -34,11 +33,8 @@ Para localizar um registro, use o método **Seek** em um **Recordset** do tipo t
 
 Se o método **Seek** ou **Find** não for bem-sucedido e a propriedade **NoMatch** for **True**, o registro atual não será mais válido. Verifique se você obteve o indicador do registro atual antes de usar o método **Seek** ou o método **Find**, caso seja necessário retornar para esse registro.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O uso de qualquer um dos métodos <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> em um objeto <STRONG>Recordset</STRONG> não afetará a definição da propriedade <STRONG>NoMatch</STRONG>.</P>
-
-
+> [!OBSERVAçãO] O uso de qualquer um dos métodos **[Move](recordset-movefirst-method-dao.md)** em um objeto **Recordset** não afetará a definição da propriedade **NoMatch**.
 
 ## <a name="example"></a>Exemplo
 

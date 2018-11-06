@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0156983a455c72e4046424def188e41b94705087
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927113"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998221"
 ---
 # <a name="querydefmaxrecords-property-dao"></a>Propriedade QueryDef.MaxRecords (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Define ou retorna o número máximo de registros a serem retornados de uma consulta em relação à fonte de dados ODBC.
 
@@ -37,11 +35,8 @@ O valor padrão é 0, indicando nenhum limite no número de registros retornados
 
 Assim que o número de linhas especificado por **MaxRecords** for retornado para o aplicativo em um **[Recordset](recordset-object-dao.md)**, o processador de consultas interromperá o retorno de registros adicionais, mesmo que mais registros estejam qualificados para inclusão no **Recordset**. Essa propriedade é útil em situações nas quais os recursos limitados do cliente proíbem o gerenciamento de uma grande quantidade de registros.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A propriedade <STRONG>MaxRecords</STRONG> pode ser usada somente em uma fonte de dados ODBC.</P>
-
-
+> [!OBSERVAçãO] A propriedade **MaxRecords** pode ser usada somente em uma fonte de dados ODBC.
 
 ## <a name="example"></a>Exemplo
 

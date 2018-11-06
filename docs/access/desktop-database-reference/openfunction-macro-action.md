@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2a9a96b22669889cf4dc51984fc3d3c9f7623428
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930221"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998858"
 ---
 # <a name="openfunction-macro-action"></a>Ação da macro AbrirFunção
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirFunção** para abrir uma função definida pelo usuário no modo Folha de Dados, uma função in-line no modo Design, o modo Editor de Texto do SQL (para uma função definida pelo usuário escalar ou de tabela) ou Visualizar Impressão. Esta ação executa a função definida pelo usuário quando aberta em modo Folha de Dados. Você também pode selecionar o modo de entrada de dados para a função definida pelo usuário e restringir os registros exibidos pela função definida pelo usuário.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -68,11 +64,9 @@ Esta ação é semelhante a clicar duas vezes em uma função definida pelo usu�
 
 Alternar para o modo Design enquanto a função definida pelo usuário é aberta remove a configuração do argumento **Modo de Dados** da função definida pelo usuário. Essa configuração não entra em vigor, mesmo se o usuário retorna para o modo Folha de Dados.
 
-**Dicas**
-
-  - Você pode selecionar uma função definida pelo usuário no Painel de Navegação e arrastá-la para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirFunção** que abre a função definida pelo usuário em modo Folha de Dados.
-
-  - Se você não desejar exibir as mensagens de sistema que normalmente aparecem quando uma função definida pelo usuário é executada (indicando que é uma função definida pelo usuário e mostrando quantos registros serão afetados), poderá usar a ação **DefinirAvisos** para suprimir a exibição dessas mensagens.
+> [!TIP]
+> - Você pode selecionar uma função definida pelo usuário no Painel de Navegação e arrastá-la para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirFunção** que abre a função definida pelo usuário em modo Folha de Dados.
+> - Se você não desejar exibir as mensagens de sistema que normalmente aparecem quando uma função definida pelo usuário é executada (indicando que é uma função definida pelo usuário e mostrando quantos registros serão afetados), poderá usar a ação **DefinirAvisos** para suprimir a exibição dessas mensagens.
 
 Para executar a ação **AbrirFunção** em um módulo do VBA (Visual Basic for Applications), use o método **OpenFunction** do objeto **DoCmd**.
 

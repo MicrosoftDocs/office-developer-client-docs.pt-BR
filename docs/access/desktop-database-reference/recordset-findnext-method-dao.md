@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a458bc98ecfa2a88d1548449b9f555c3ddad3ab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3b54800ac8bd95a4bb4b93d395ddb12b51bc241a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925572"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997214"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Método Recordset.FindNext (DAO)
 
@@ -25,7 +25,7 @@ Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -37,14 +37,14 @@ Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criteria</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>

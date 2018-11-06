@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1c6b42d9560a30b45fb777bb4fd1de4351830a4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 996c0adf8c883de5c73174d726cf5bd11fc42457
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936291"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996878"
 ---
 # <a name="rds-tutorial-vbscript"></a>Tutorial do RDS (VBScript)
 
@@ -54,7 +54,7 @@ O VBScript pode descobrir o nome do servidor web IIS que está sendo executado n
 No entanto, para esse tutorial, use o servidor imaginário "yourServer".
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Preste atenção nos tipos de dados dos argumentos <STRONG>ByRef</STRONG>. O VBScript não permite que você especifique o tipo de variável, então, você deve sempre transmitir uma Variant. Quando HTTP for utilizado, o RDS permitirá a transmissão de uma Variant para um método que espera uma non-Variant, se você chamá-lo com o método <STRONG>CreateObject</STRONG> do objeto <A href="createobject-method-rds.md">RDS.DataSpace</A>. Ao utilizar DCOM ou um servidor em execução, corresponda os tipos de parâmetros no cliente e no servidor; caso contrário, receberá um erro "Incompatibilidade de tipo".</P>
+> [!OBSERVAçãO] Preste atenção nos tipos de dados dos argumentos **ByRef**. O VBScript não permite que você especifique o tipo de variável, então, você deve sempre transmitir uma Variant. Quando HTTP for utilizado, o RDS permitirá a transmissão de uma Variant para um método que espera uma non-Variant, se você chamá-lo com o método **CreateObject** do objeto [RDS.DataSpace](createobject-method-rds.md). Ao utilizar DCOM ou um servidor em execução, corresponda os tipos de parâmetros no cliente e no servidor; caso contrário, receberá um erro "Incompatibilidade de tipo".
 
 ```vb
  

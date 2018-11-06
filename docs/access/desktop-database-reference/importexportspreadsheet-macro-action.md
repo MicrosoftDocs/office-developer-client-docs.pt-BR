@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d630602d7b81fe44427d892d62275f4509dbdc2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: eaab9d43e85ee94c5e71d52399a92515cce94693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923970"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997130"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>Ação da macro ImportarExportarPlanilha
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ImportExportSpreadsheet** para importar ou exportar dados entre o banco de dados atual do Access (.mdb ou .accdb) ou um arquivo de projeto do Access (.adp) e de planilha. Também é possível vincular os dados em uma planilha do Microsoft Excel ao banco de dados atual do Microsoft Access. Com uma planilha vinculada, você pode exibir e editar os dados da planilha com o Access e ainda permitir acesso completo aos dados do seu programa de planilha Excel. Você também pode vincular a dados em um arquivo de planilha do Lotus 1-2-3, mas esses dados são somente leitura no Access.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -48,23 +44,12 @@ A ação **TransferSpreadsheet** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de transferência</strong></p></td>
-<td><p>O tipo de transferência que você deseja fazer. Selecione <strong>Importar</strong>, <strong>Exportar</strong> ou <strong>Vincular</strong> na caixa <strong>Tipo de Transferência</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Importar</strong>.  </p>
-
-> [!NOTE]
-> <P>O tipo de transferência <STRONG>Vincular</STRONG> não tem suporte para projetos do Access (.adp).</P>
-
-
-<p></p></td>
+<td><p>O tipo de transferência que você deseja fazer. Selecione <strong>Importar</strong>, <strong>Exportar</strong> ou <strong>Vincular</strong> na caixa <strong>Tipo de Transferência</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Importar</strong>.  </p><p><strong>Observação</strong>: não há suporte para o tipo de transferência de <STRONG>Link</STRONG> para projetos do Access (. adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de planilha</strong></p></td>
-<td><p>O tipo de planilha de onde importar, para onde exportar ou à qual vincular. Você pode selecionar um de vários tipos de planilha na caixa. O padrão é <strong>Pasta de Trabalho do Excel</strong>.  </p>
-
-> [!NOTE]
-> <P>Você pode importar de arquivos .WK4 do Lotus e vinculá-los (somente leitura), mas não pode exportar dados do Access para esse formato de planilha. O Access não dá mais suporte à importação, à exportação ou à vinculação de dados de dados de planilhas .WKS do Lotus ou do Excel versão 2.0 com essa ação. Se quiser importar ou vincular dados de planilha do Excel versão 2.0 ou do formato .WKS do Lotus, converta os dados da planilha em uma versão posterior do Excel ou do Lotus 1-2-3 antes de importar ou de vincular os dados para o Access.</P>
-
-
-<p></p></td>
+<td><p>O tipo de planilha de onde importar, para onde exportar ou à qual vincular. Você pode selecionar um de vários tipos de planilha na caixa. O padrão é <strong>Pasta de Trabalho do Excel</strong>.  </p><p><strong>Observação</strong>: você pode importar e vincular (somente leitura) para o Lotus. WK4, mas você não pode exportar os dados do Access para esse formato de planilha. Acesso também não oferece suporte para importação, exportação ou vinculação de dados do Lotus. WKS ou planilhas do Excel versão 2.0 com esta ação. Se você quiser importar ou vincular dados de planilha do Excel versão 2.0 ou Lotus. WKS, converta os dados da planilha em uma versão posterior do Excel ou Lotus 1-2-3 antes de importar ou vincular os dados ao Access.</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nome da Tabela</strong></p></td>
@@ -80,13 +65,7 @@ A ação **TransferSpreadsheet** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Intervalo</strong></p></td>
-<td><p>O intervalo de células a serem importadas ou vinculadas. Deixe esse argumento em branco para importar ou vincular a planilha inteira. Você pode digitar o nome de um intervalo da planilha ou especifique o intervalo de células a serem importadas ou vinculadas. Deixe esse argumento em branco para importar ou vincular a planilha inteira. Você pode digitar o nome de um intervalo na planilha ou especificar o intervalo de células a serem importadas ou vinculadas, como A1:E25 (observe que a sintaxe A1..E25 não funciona no Access 97 ou posterior). Se você estiver importando de uma planilha do Excel versão 5.0 ou posterior ou vinculando para uma, poderá usar o nome da planilha como prefixo e um ponto de exclamação; por exemplo, Orçamento!A1:C7.</p>
-
-> [!NOTE]
-> <P>Quando você exportar para uma planilha, deverá deixar esse argumento em branco. Se você inserir um intervalo, a exportação falhará.</P>
-
-
-<p></p></td>
+<td><p>O intervalo de células a serem importadas ou vinculadas. Deixe esse argumento em branco para importar ou vincular a planilha inteira. Você pode digitar o nome de um intervalo da planilha ou especifique o intervalo de células a serem importadas ou vinculadas. Deixe esse argumento em branco para importar ou vincular a planilha inteira. Você pode digitar o nome de um intervalo na planilha ou especificar o intervalo de células a serem importadas ou vinculadas, como A1:E25 (observe que a sintaxe A1..E25 não funciona no Access 97 ou posterior). Se você estiver importando de uma planilha do Excel versão 5.0 ou posterior ou vinculando para uma, poderá usar o nome da planilha como prefixo e um ponto de exclamação; por exemplo, Orçamento!A1:C7.</p><p><strong>Observação</strong>: quando você exporta para uma planilha, você deve deixar este argumento em branco. Se você inserir um intervalo, a exportação falhará.</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,17 +77,14 @@ Você pode exportar os dados em consultas seleção do Access para planilhas. O 
 
 Os dados da planilha que você anexa a uma tabela existente do Access devem ser compatíveis com a estrutura da tabela.
 
-  - Cada campo na planilha deve ser do mesmo tipo de dados que o campo correspondente na tabela.
+- Cada campo na planilha deve ser do mesmo tipo de dados que o campo correspondente na tabela.
 
-  - Os campos deverão estar na mesma ordem (a menos que você defina o argumento **Tem Nomes de Campo** como **Sim**; nesse caso, os nomes de campo da planilha deverão corresponder aos nomes de campo na tabela).
+- Os campos deverão estar na mesma ordem (a menos que você defina o argumento **Tem Nomes de Campo** como **Sim**; nesse caso, os nomes de campo da planilha deverão corresponder aos nomes de campo na tabela).
 
 Essa ação é semelhante a clicar na guia **Dados Externos** e clicar em **Excel** no grupo **Importar** ou **Exportar** ou clicar em **Mais** no grupo **Importar** ou **Exportar** e clicar em **Arquivo do Lotus 1-2-3**. Você pode usar esses comandos para selecionar uma fonte de dados, como o Access, ou digitar um banco de dados, de planilha ou de arquivo de texto. Se você selecionar uma planilha, será exibida uma série de caixas de diálogo ou um assistente do Access será executado, quando você selecionará o nome da planilha e outras opções. Os argumentos da ação **ImportExportSpreadsheet** refletem as opções nessas caixas de diálogo ou nos assistentes.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você consultar ou filtrar uma planilha vinculada, a consulta ou o filtro será sensível a maiúsculas e minúsculas.</P>
-
-
+> [!OBSERVAçãO] Se você consultar ou filtrar uma planilha vinculada, a consulta ou o filtro será sensível a maiúsculas e minúsculas.
 
 Se você vincular a uma planilha do Excel que esteja aberta em modo Editar, o Access aguardará até a planilha do Excel sair do modo Editar antes da conclusão da vinculação; não há tempo limite.
 

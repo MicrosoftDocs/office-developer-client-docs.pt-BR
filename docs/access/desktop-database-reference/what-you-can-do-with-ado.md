@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02fd4c5dc5c44e15d8318653bbef9755899d61f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 88334bc2d8d1290d21cb9bccddea0801cc51b3b3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947788"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997053"
 ---
 # <a name="what-you-can-do-with-ado"></a>O que você pode fazer com o ADO
 
@@ -20,31 +20,31 @@ ms.locfileid: "25947788"
 
 O ADO foi projetado para fornecer aos desenvolvedores um modelo de objeto lógico e poderoso para acessar, editar e atualizar, de maneira programática, uma ampla variedade de fontes de dados pelas interfaces do sistema OLE DB. O uso mais comum do ADO é consultar uma ou mais tabelas em um banco de dados relacional, recuperar e exibir os resultados em um aplicativo e, talvez, permitir que os usuários fazer e salvem as alterações nos dados. Outras coisas que podem ser feitas de maneira programática com o ADO incluem:
 
-  - Consultando um banco de dados usando o SQL e exibindo os resultados.
+- Consultando um banco de dados usando o SQL e exibindo os resultados.
 
-  - Acessando as informações em um repositório de arquivos pela Internet.
+- Acessando as informações em um repositório de arquivos pela Internet.
 
-  - Manipulando mensagens e pastas em um sistema de email.
+- Manipulando mensagens e pastas em um sistema de email.
 
-  - Salvando dados de um banco de dados em um arquivo XML.
+- Salvando dados de um banco de dados em um arquivo XML.
 
-  - Permitindo que um usuário revise e faça alterações nos dados nas tabelas do banco de dados.
+- Permitindo que um usuário revise e faça alterações nos dados nas tabelas do banco de dados.
 
-  - Criando e usando novamente comandos parametrizados do banco de dados.
+- Criando e usando novamente comandos parametrizados do banco de dados.
 
-  - Executando os procedimentos armazenados.
+- Executando os procedimentos armazenados.
 
-  - Criando dinamicamente uma estrutura flexível, chamada **Recordset**, para manter, navegar e manipular os dados.
+- Criando dinamicamente uma estrutura flexível, chamada **Recordset**, para manter, navegar e manipular os dados.
 
-  - Executando operações do banco de dados transacional.
+- Executando operações do banco de dados transacional.
 
-  - Filtrando e classificando cópias locais das informações do banco de dados com base nos critérios em tempo de execução.
+- Filtrando e classificando cópias locais das informações do banco de dados com base nos critérios em tempo de execução.
 
-  - Criando e manipulando os resultados hierárquicos a partir dos bancos de dados.
+- Criando e manipulando os resultados hierárquicos a partir dos bancos de dados.
 
-  - Vinculando os campos do banco de dados a componentes cientes de dados.
+- Vinculando os campos do banco de dados a componentes cientes de dados.
 
-  - Criando **Recordsets** remotos e desconectados.
+- Criando **Recordsets** remotos e desconectados.
 
 O ADO deve expor uma ampla variedade de opções e configurações para fornecer tal flexibilidade. Portanto, é importante fazer uma abordagem metódica para aprender a usar o ADO em um aplicativo, dividindo cada uma das suas metas em partes que podem ser gerenciadas.
 

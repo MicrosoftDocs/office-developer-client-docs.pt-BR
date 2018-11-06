@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 41260e801be8ebd43d89f9f495f236ff60582a56
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4eb1a961a91bf32a69154a1f0e7b734dd00f24b6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930060"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998893"
 ---
 # <a name="propertyvalue-property-dao"></a>Propriedade Property.Value (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -40,8 +39,7 @@ A propriedade **Value** é a propriedade padrão dos objetos **Field**, **Parame
 
 A tentativa de definição ou de retorno da propriedade **Value** em um contexto inadequado (por exemplo, a propriedade **Value** de um objeto **Field** na coleção **Fields** de um objeto **TableDef**) causará um erro interceptável.
 
-
 > [!NOTE]
-> <P>Durante a leitura de valores decimais de um banco de dados do Microsoft SQL Server, esse valores serão formatados pela notação científica em um espaço de trabalho do Microsoft Access, mas aparecerão como valores decimais normais em um espaço de trabalho do ODBCDirect.</P>
+> Durante a leitura de valores decimais de um banco de dados do Microsoft SQL Server, esse valores serão formatados pela notação científica em um espaço de trabalho do Microsoft Access, mas aparecerão como valores decimais normais em um espaço de trabalho do ODBCDirect.
 
 

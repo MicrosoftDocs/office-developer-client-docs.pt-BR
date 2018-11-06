@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925797"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998180"
 ---
 # <a name="requery-method-ado"></a>Método Requery (ADO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
-
 
 Atualiza os dados em um objeto [Recordset](recordset-object-ado.md), reexecutando a consulta que serve de base ao objeto.
 
@@ -26,17 +23,14 @@ Atualiza os dados em um objeto [Recordset](recordset-object-ado.md), reexecutand
 
 *conjunto de registros*. *Opções* de Requery
 
-## <a name="parameter"></a>Parâmetro
+## <a name="parameters"></a>Parâmetros
 
-  - *Options*
-
-  - Opcional. Um bitmask contendo os valores [ExecuteOptionEnum](executeoptionenum.md) e [CommandTypeEnum](commandtypeenum.md) que afetam esta operação.
-
+|Nome |Descrição|
+|:----|:----------|
+|*Options* |Opcional. Um bitmask contendo os valores [ExecuteOptionEnum](executeoptionenum.md) e [CommandTypeEnum](commandtypeenum.md) que afetam esta operação.|
 
 > [!NOTE]
-> <P>Se <EM>Options</EM> for definido como <STRONG>adAsyncExecute</STRONG>, esta operação será executada de forma assíncrona e um evento <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> será emitido quando ela for concluída.</P>
-
-
+> Se *Options* for definido como **adAsyncExecute**, esta operação será executada de forma assíncrona e um evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) será emitido quando ela for concluída.
 
 O valor **adExecuteNoRecords** ou **adExecuteStream** de **ExecuteOpenEnum** não deve ser usado com **Requery**.
 

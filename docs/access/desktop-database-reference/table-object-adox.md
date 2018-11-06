@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78f1248042c540df94c6f993d2498d46c8ca593f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8984c799779f0024ff50e2814a5993119eb6205f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923242"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996794"
 ---
 # <a name="table-object-adox"></a>Objeto Table (ADOX)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,27 +27,25 @@ O código a seguir criar uma nova **Tabela**:
 
 Com as propriedades e coleções de um objeto **Table**, você pode:
 
-  - Identificar a tabela com a propriedade [Name](name-property-adox.md).
+- Identificar a tabela com a propriedade [Name](name-property-adox.md).
 
-  - Determinar o tipo da tabela com a propriedade [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)).
+- Determinar o tipo da tabela com a propriedade [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)).
 
-  - Acessar as colunas do banco de dados da tabela com a coleção [Columns](columns-collection-adox.md).
+- Acessar as colunas do banco de dados da tabela com a coleção [Columns](columns-collection-adox.md).
 
-  - Acessar os índices da tabela com a coleção [Indexes](indexes-collection-adox.md).
+- Acessar os índices da tabela com a coleção [Indexes](indexes-collection-adox.md).
 
-  - Acessar as chaves da tabela com a coleção [Keys](keys-collection-adox.md).
+- Acessar as chaves da tabela com a coleção [Keys](keys-collection-adox.md).
 
-  - Especificar o [Catálogo](catalog-object-adox.md) que contém a tabela com a propriedade [ParentCatalog](parentcatalog-property-adox.md).
+- Especificar o [Catálogo](catalog-object-adox.md) que contém a tabela com a propriedade [ParentCatalog](parentcatalog-property-adox.md).
 
-  - Retornar informações de data com as propriedades [DateCreated](datecreated-property-adox.md) e [DateModified](datemodified-property-adox.md).
+- Retornar informações de data com as propriedades [DateCreated](datecreated-property-adox.md) e [DateModified](datemodified-property-adox.md).
 
-  - Acessar propriedades de tabela específicas do provedor com a coleção [Properties](properties-collection-ado.md).
+- Acessar propriedades de tabela específicas do provedor com a coleção [Properties](properties-collection-ado.md).
 
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Seu provedor de dados talvez não ofereça suporte para todas as propriedades dos objetos <STRONG>Table</STRONG>. Um erro ocorrerá se você tiver definido um valor para uma propriedade para a qual o provedor não oferece suporte. Para novos objetos <STRONG>Table</STRONG>, o erro ocorrerá quando o objeto for acrescentado à coleção. Para objetos existentes, o erro ocorrerá ao definir a propriedade.</P>
-
-
+> [!OBSERVAçãO] Seu provedor de dados talvez não ofereça suporte para todas as propriedades dos objetos **Table**. Um erro ocorrerá se você tiver definido um valor para uma propriedade para a qual o provedor não oferece suporte. Para novos objetos **Table**, o erro ocorrerá quando o objeto for acrescentado à coleção. Para objetos existentes, o erro ocorrerá ao definir a propriedade.
 
 Ao criar objetos **Table**, a existência de um valor padrão apropriado para uma propriedade opcional não garante que seu provedor de dados ofereça suporte para a propriedade. Para obter mais informações sobre quais propriedades têm suporte do seu provedor, consulte a documentação do seu provedor.
 

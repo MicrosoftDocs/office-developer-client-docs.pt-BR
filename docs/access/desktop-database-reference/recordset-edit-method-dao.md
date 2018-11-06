@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
 ms:contentKeyID: 48546850
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1221129ee7aaa7d53ada51f7a92dc5e91bc4afee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 76868140d9f6f1b16a35219864d054ed1f742e84
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925321"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996479"
 ---
 # <a name="recordsetedit-method-dao"></a>Método Recordset.Edit (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -32,31 +31,25 @@ Assim que você usar o método **Edit**, as alterações feitas nos campos do re
 
 O registro atual continua sendo atual depois do uso de **Edit**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você editar um registro e, em seguida, realizar qualquer operação que mova para outro registro, mas sem usar antes <STRONG>Update</STRONG>, suas alterações serão perdidas sem aviso. Além disso, se você fechar o recordset ou encerrar o procedimento que declara o <STRONG>Recordset</STRONG> ou o objeto de <STRONG><A href="database-object-dao.md">banco de dados</A></STRONG> ou <STRONG><A href="connection-object-dao.md">Conexão</A></STRONG> pai, o seu registro editado é desconsiderado sem aviso.</P>
-
-
+> [!OBSERVAçãO] Se você editar um registro e, em seguida, realizar qualquer operação que mova para outro registro, mas sem usar antes **Update**, suas alterações serão perdidas sem aviso. Além disso, se você fechar o recordset ou encerrar o procedimento que declara o **Recordset** ou o objeto de **[banco de dados](database-object-dao.md)** ou **[Conexão](connection-object-dao.md)** pai, o seu registro editado é desconsiderado sem aviso.
 
 O uso de **Edit** produzirá um erro se :
 
-  - Não houver registro atual.
+- Não houver registro atual.
 
-  - O objeto **Connection**, **Database** ou **Recordset** tiver sido aberto somente para leitura.
+- O objeto **Connection**, **Database** ou **Recordset** tiver sido aberto somente para leitura.
 
-  - Nenhum campo no registro for atualizável.
+- Nenhum campo no registro for atualizável.
 
-  - O **Database** ou **Recordset** tiver sido aberto para uso exclusivo por outro usuário (espaço de trabalho do Microsoft Access).
+- O **Database** ou **Recordset** tiver sido aberto para uso exclusivo por outro usuário (espaço de trabalho do Microsoft Access).
 
-  - Outro usuário tiver protegido a página que contém seu registro (espaço de trabalho do Microsoft Access).
+- Outro usuário tiver protegido a página que contém seu registro (espaço de trabalho do Microsoft Access).
 
 Em um espaço de trabalho do Microsoft Access, quando a configuração da propriedade [**LockEdits**](recordset-lockedits-property-dao.md) do objeto **Recordset** é **True** (bloqueado de forma pessimista) em um ambiente de vários usuários, o registro permanece bloqueado desde o momento em que **Edit** é usado até que a atualização seja concluída. Se a configuração da propriedade **LockEdits** for **False** (bloqueado de forma otimista), o registro será bloqueado e comparado ao registro pré-editado antes de ele ser atualizado no banco de dados. Se o registro foi alterado desde que você usou o método **Edit**, a operação **Update** falha com um erro de tempo de execução, se você usar **OpenRecordset** sem especificar **dbSeeChanges**. Por padrão, os bancos de dados ODBC e ISAM instalável conectados ao mecanismo de banco de dados do Microsoft Access sempre usam bloqueio otimista.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG>, <STRONG><A href="fields-delete-method-dao.md">Delete</A></STRONG> ou <STRONG>Edit</STRONG> em um espaço de trabalho do Microsoft Access.</P>
-
-
+> [!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método **[AddNew](recordset-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** ou **Edit** em um espaço de trabalho do Microsoft Access.
 
 ## <a name="example"></a>Exemplo
 

@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
 ms:contentKeyID: 48543792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67ddd40c6973b323820efbfa67d14c88f0c0b21a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 71390c18322b0058086bf45d94da31a6e85a6f2d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928807"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996934"
 ---
 # <a name="recordset2addnew-method-dao"></a>Método Recordset2.AddNew (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
  
-
 Cria um novo registro para um objeto **Recordset2** atualizável.
 
 ## <a name="syntax"></a>Sintaxe
@@ -33,33 +31,24 @@ Use o método **AddNew** para criar e adicionar um novo registro ao objeto **Rec
 
 Depois de modificar o novo registro, use o método **[Update](recordset2-update-method-dao.md)** para salvar as alterações e adicionar o registro ao **Recordset2**. Nenhuma alteração ocorrerá no banco de dados até você usar o método **Update**.
 
+> [!NOTE]
+> [!OBSERVAçãO] Se você emitir um **AddNew** e, em seguida, executar qualquer operação que mova para outro registro, mas sem usar **Update**, suas alterações serão perdidas sem aviso. Além disso, se você fechar o **Recordset2** ou concluir o procedimento que declara o **Recordset2** ou seu objeto **[Database](database-object-dao.md)**, o novo registro será descartado sem aviso.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você emitir um <STRONG>AddNew</STRONG> e, em seguida, executar qualquer operação que mova para outro registro, mas sem usar <STRONG>Update</STRONG>, suas alterações serão perdidas sem aviso. Além disso, se você fechar o <STRONG>Recordset2</STRONG> ou concluir o procedimento que declara o <STRONG>Recordset2</STRONG> ou seu objeto <STRONG><A href="database-object-dao.md">Database</A></STRONG>, o novo registro será descartado sem aviso.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!OBSERVAçãO] Quando você usa <STRONG>AddNew</STRONG> em um espaço de trabalho do Microsoft Access e o mecanismo de banco de dados tem que criar uma nova página para o registro atual, o bloqueio de página é pessimista. Se o novo registro couber em uma página existente, o bloqueio de página será otimista.</P>
-
-
+> [!OBSERVAçãO] Quando você usa **AddNew** em um espaço de trabalho do Microsoft Access e o mecanismo de banco de dados tem que criar uma nova página para o registro atual, o bloqueio de página é pessimista. Se o novo registro couber em uma página existente, o bloqueio de página será otimista.
 
 Se você não tiver movido para o último registro do seu **Recordset2**, os registros adicionados a tabelas base por outros processos poderão ser incluídos se estiverem posicionados além do registro atual. Se você adicionar um registro a seu próprio **Recordset2**, no entanto, o registro estará visível no **Recordset2** e incluído na tabela subjacente onde se tornará visível para quaisquer novos objetos **Recordset2**.
 
 A posição do novo registro depende do tipo do **Recordset2**:
 
-  - Em um objeto **Recordset2** do tipo dynaset, registros são inseridos no fim do **Recordset**, independentemente de qualquer regra de classificação ou ordenação aplicada quando o **Recordset** foi aberto.
+- Em um objeto **Recordset2** do tipo dynaset, registros são inseridos no fim do **Recordset**, independentemente de qualquer regra de classificação ou ordenação aplicada quando o **Recordset** foi aberto.
 
-  - Em um objeto **Recordset2** do tipo tabela cuja propriedade **[Index](recordset2-index-property-dao.md)** tiver sido definida, os registros serão retornados em seu próprio lugar na ordem de classificação. Se você não tiver definido a propriedade **Index**, novos registros serão retornados no fim do **Recordset**.
+- Em um objeto **Recordset2** do tipo tabela cuja propriedade **[Index](recordset2-index-property-dao.md)** tiver sido definida, os registros serão retornados em seu próprio lugar na ordem de classificação. Se você não tiver definido a propriedade **Index**, novos registros serão retornados no fim do **Recordset**.
 
 O registro que era o atual antes de você usar o **AddNew** continuará sendo o atual. Se desejar tornar o novo registro atual, você poderá definir a propriedade **[Bookmark](recordset2-bookmark-property-dao.md)** para o indicador identificado pela configuração da propriedade **[LastModified](recordset2-lastmodified-property-dao.md)**.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro na fonte de dados subjacente. Caso contrário, ocorrerá um erro "Permissão negada" na chamada ao método <STRONG>AddNew</STRONG>, <STRONG>Delete</STRONG> ou <STRONG>Edit</STRONG> em um espaço de trabalho do Microsoft Access.</P>
-
-
+> [!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice exclusivo no registro na fonte de dados subjacente. Caso contrário, ocorrerá um erro "Permissão negada" na chamada ao método **AddNew**, **Delete** ou **Edit** em um espaço de trabalho do Microsoft Access.
 
 ## <a name="example"></a>Exemplo
 

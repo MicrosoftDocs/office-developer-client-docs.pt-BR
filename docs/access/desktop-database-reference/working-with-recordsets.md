@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 241d9470d518893312daaa8101a5517706ea1e50
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883684"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998354"
 ---
 # <a name="working-with-recordsets"></a>Trabalhando com Recordsets
-
 
 **Aplica-se a**: Access 2013, o Office 2013 
 
@@ -48,7 +47,7 @@ O método **Find** localiza rapidamente um valor em uma coluna (campo) de um **R
 
 O método **Find** limita sua pesquisa ao conteúdo de um campo. O método **Seek** exige que você tenha um índice e tenha outras limitações também. Se você precisar pesquisar em vários campos que não sejam a base de um índice ou se seu provedor não oferecer suporte aos índices, você poderá limitar seus resultados usando a propriedade **Filter** do objeto **Recordset**.
 
-## <a name="find"></a>Find
+### <a name="find"></a>Find
 
 O método **Find** procura um **Recordset** para a linha que satisfaça um critério específico. Opcionalmente, a direção da pesquisa, linha inicial e o deslocamento da linha inicial podem ser especificados. Se os critérios forem atendidos, a posição da linha atual é definida no registro encontrado; caso contrário, a posição é definida no final (ou no início) do **Recordset**, dependendo da direção da pesquisa.
 
@@ -62,7 +61,7 @@ Se o operador de comparação for "like", o valor da sequência pode conter um a
 
 Os asteriscos só podem ser usados no final de uma sequência de critérios ou no início e no final de uma sequência de critérios, como pode ser visto no exemplo anterior. Você não pode usar o asterisco como um caractere curinga inicial ('\*str') ou um caractere curinga incorporado ('s\*r'). Isso causará um erro.
 
-## <a name="seek-and-index"></a>Seek e Index
+### <a name="seek-and-index"></a>Seek e Index
 
 Use o método **Seek** junto com a propriedade **Index** se o provedor subjacente oferecer suporte aos índices no objeto **Recordset**. Use o método [Supports](supports-method-ado.md)**(adSeek)** para determinar se o provedor subjacente oferece suporte ao método **Seek** e o método **Supports(adIndex)** para determinar se o provedor oferece suporte aos índices. (Por exemplo, o [OLE DB Provider for Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) oferece suporte a **Seek** e **Index**.)
 
@@ -80,29 +79,25 @@ Use a propriedade **Filter** para fazer a triagem seletiva dos registros em um o
 
 A propriedade **Filter** assume um argumento de variante. Este valor representa um dos três métodos para usar a propriedade **Filter**: uma sequência de critérios, uma constante **FilterGroupEnum** ou uma matriz de marcadores. Para obter mais informações, consulte Filtragem com uma sequência de critérios, Filtragem com uma constante e Filtragem com marcados posteriormente neste tópico.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Quando você conhece os dados que deseja selecionar, geralmente é mais eficiente abrir um <STRONG>Recordset</STRONG> com uma instrução SQL que filtre com eficiência o conjunto de resultados, em vez de confiar na propriedade <STRONG>Filter</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Quando você conhece os dados que deseja selecionar, geralmente é mais eficiente abrir um **Recordset** com uma instrução SQL que filtre com eficiência o conjunto de resultados, em vez de confiar na propriedade **Filter**.
 
 Para remover um filtro de um **Recordset**, use a constante **adFilterNone**. A definição da propriedade **Filter** como uma sequência com tamanho igual a zero ("") tem o mesmo efeito que usar a constante **adFilterNone**.
 
-## <a name="filtering-with-a-criteria-string"></a>Filtrando com uma sequência de critérios
+### <a name="filtering-with-a-criteria-string"></a>Filtrando com uma cadeia de caracteres de critérios
 
 A sequência de critérios é formada por cláusulas no formato *FieldName Operator Value* (por exemplo, "LastName = 'Smith'"). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = 'Smith' e FirstName = 'John'") e OR (por exemplo,). Você pode criar cláusulas compostas concatenando cláusulas individuais com AND (por exemplo, "LastName = 'Smith' e FirstName = 'John'") e ou (por exemplo, "LastName = 'Smith' ou LastName = 'Jones'"). Use as seguintes diretrizes para as sequências de critérios:
 
-  - *FieldName* deve ser um nome de campo válido do **Recordset**. Se o nome do campo contiver espaços, você deverá colocar o nome entre colchetes.
+- *FieldName* deve ser um nome de campo válido do **Recordset**. Se o nome do campo contiver espaços, você deverá colocar o nome entre colchetes.
 
-  - *Operator* deve ser um dos seguintes: \<, \>, \<=, \>=, \< \>, = ou LIKE.
+- *Operator* deve ser um dos seguintes: \<, \>, \<=, \>=, \< \>, = ou LIKE.
 
-  - *É o valor com o qual você irá comparar os valores de campo* (por exemplo, 'Smith', \#8/24/95\#, 12.345 ou US $50,00). Usar aspas simples (') com cadeias de caracteres e sinais numéricos (\#) com datas. Para os números, você pode usar casas decimais, sinais de dólar e notação científica. Se o *operador* é como o *valor* pode usar caracteres curinga. Somente o asterisco (\*) e o sinal de porcentagem (%) são permitidos caracteres curinga, e devem ser o último caractere na cadeia de caracteres. *Valor* não pode ser nulo.
+- *É o valor com o qual você irá comparar os valores de campo* (por exemplo, 'Smith', \#8/24/95\#, 12.345 ou US $50,00). Usar aspas simples (') com cadeias de caracteres e sinais numéricos (\#) com datas. Para os números, você pode usar casas decimais, sinais de dólar e notação científica. Se o *operador* é como o *valor* pode usar caracteres curinga. Somente o asterisco (\*) e o sinal de porcentagem (%) são permitidos caracteres curinga, e devem ser o último caractere na cadeia de caracteres. *Valor* não pode ser nulo.
     
-
-    > [!NOTE]
-    > <P>Para incluir aspas simples (') no filtro de <EM>valor</EM>, use aspas simples para representar um. Por exemplo, para filtrar <EM>o ' Malley</EM>, a sequência de critérios deve ser "col1 = ' O ' Malley'". Para incluir as marcas de aspas simples no início e no final do valor do filtro, coloque a sequência entre sinais de número (#). Por exemplo, para filtrar <EM>'1'</EM>, a sequência de critérios deve ser "col1 = #' 1' #".</P>
-
-
+  > [!NOTE]
+  > Para incluir aspas simples (') no filtro de *valor*, use aspas simples para representar um. Por exemplo, para filtrar *o ' Malley*, a sequência de critérios deve ser "col1 = ' O ' Malley'". 
+  > 
+  > Para incluir as marcas de aspas simples no início e no final do valor do filtro, coloque a sequência entre sinais de número (#). Por exemplo, para filtrar *'1'*, a sequência de critérios deve ser "col1 = #' 1' #".
 
 Não há precedência entre AND e OR. As cláusulas podem ser agrupadas entre parênteses. Contudo, você não pode agrupar as cláusulas unidas por um operador OR e, em seguida, unir o grupo a outra cláusula com um operador AND, como:
 
@@ -120,7 +115,7 @@ Ao contrário, você deveria construir esse filtro como:
 
 Em uma cláusula LIKE, você pode usar um curinga no início e no final do padrão (por exemplo, LastName Like '\*mit\*') ou apenas no final do padrão (por exemplo) ou apenas no final do padrão (por exemplo, LastName Like ' Smit\*').
 
-## <a name="filtering-with-a-constant"></a>Filtrando com uma constante
+### <a name="filtering-with-a-constant"></a>Filtrando com uma constante
 
 As seguintes constantes estão disponíveis para filtrar **Recordsets**.
 
@@ -159,6 +154,7 @@ As seguintes constantes estão disponíveis para filtrar **Recordsets**.
 </tbody>
 </table>
 
+<br/>
 
 As constantes do filtro se tornam mais fáceis para resolver conflitos do registro individual durante o modo de atualização de lote, permitindo que você visualize, por exemplo, apenas aqueles registros que foram afetados durante a última chamada do método **UpdateBatch**, como pode ser visto no exemplo a seguir:
 
@@ -193,7 +189,7 @@ As constantes do filtro se tornam mais fáceis para resolver conflitos do regist
 'EndDeleteGroup 
 ```
 
-## <a name="filtering-with-bookmarks"></a>Filtrando com marcadores
+### <a name="filtering-with-bookmarks"></a>Filtrando com marcadores
 
 Finalmente, você pode passar uma matriz de variante de marcadores para a propriedade **Filter**. O cursor resultante conterá apenas aqueles registros cujo marcador foi transmitido à propriedade. O exemplo de código a seguir cria uma matriz de indicadores de registros de um **conjunto de registros** que tenham um "B" no campo *ProductName* . Em seguida, transmite a matriz para a propriedade **Filter** e exibe as informações sobre o **Recordset** filtrado resultante.
 
@@ -228,7 +224,7 @@ Finalmente, você pode passar uma matriz de variante de marcadores para a propri
     'EndFilterBkmk 
 ```
 
-## <a name="creating-a-clone-of-a-recordset"></a>Criando um clone de um Recordset
+## <a name="creating-a-clone-of-a-recordset"></a>Criando um clone de um conjunto de registros
 
 Use o método **Clone** para criar vários objetos **Recordset** duplicados, especialmente se você quiser mais de um registro atual em um determinado conjunto de registros. Usar o método **Clone** é mais eficiente do que criar e abrir um novo objeto **Recordset** com a mesma definição que a original.
 

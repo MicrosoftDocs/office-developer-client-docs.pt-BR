@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2fcc3cc7bac9bcc4ab1f87c6e3da791eab06fc94
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: caa22f142062b929b2520d5a2de69f9ccddb2145
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919273"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998676"
 ---
 # <a name="runapplication-macro-action"></a>Ação da macro ExecutarAplicativo
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -35,14 +34,10 @@ ms.locfileid: "25919273"
 </tbody>
 </table>
 
-
 Você pode usar a ação **ExecutarAplicativo** para executar, no Microsoft Access, um aplicativo baseado no Microsoft Windows ou no MS-DOS, como Microsoft Excel, Microsoft Word ou Microsoft PowerPoint. Por exemplo, é possível colar os dados de uma planilha do Excel no banco de dados do Access.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9103135100c5a10931ee63bfbdeabe9d97119fd2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 260fe01066e14578655089d397b0e76a705b9802
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949261"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996843"
 ---
 # <a name="appendchunk-method-ado"></a>Método AppendChunk (ADO)
 
@@ -34,7 +34,7 @@ Acrescenta dados a um objeto [Field](field-object-ado.md) ou [Parameter](paramet
 
 Use o método **AppendChunk** em um objeto **Field** ou **Parameter** preenchê-lo com dados binários longos ou caracteres. Em situações em que a memória do sistema é limitada, você pode usar o método **AppendChunk** para manipular valores longos em partes, e não em sua totalidade.
 
-**Objeto Field**
+### <a name="field"></a>Field
 
 Se o bit **adFldLong** na propriedade [Attributes](attributes-property-ado.md) de um objeto **Field** for definido como true, você poderá usar o método **AppendChunk** para esse campo.
 
@@ -42,13 +42,10 @@ A primeira chamada de **AppendChunk** em um objeto **Field** grava dados no camp
 
 Um erro ocorrerá se não houver registro atual quando você chamar **AppendChunk** em um objeto **Field**.
 
-
 > [!NOTE]
 > [!OBSERVAçãO] O método **AppendChunk** não é operado nos objeto **Field** de um objeto [Record](record-object-ado.md). Ele não executa nenhuma operação e produzirá um erro em tempo de execução.
 
-
-
-**Objeto Parameter**
+### <a name="parameters"></a>Parâmetros
 
 Se o bit **adParamLong** na propriedade **Attributes** de um objeto **Parameter** for definido como true, você poderá usar o método **AppendChunk** para esse parâmetro.
 

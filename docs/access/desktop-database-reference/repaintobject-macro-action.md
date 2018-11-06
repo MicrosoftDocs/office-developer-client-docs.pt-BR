@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919413"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996458"
 ---
 # <a name="repaintobject-macro-action"></a>Ação da macro RedesenharObjeto
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -56,19 +55,13 @@ A ação **RedesenharObjeto** tem os argumentos a seguir.
 
 Para concluir as atualizações de tela pendentes, o Microsoft Access aguarda a finalização de outras tarefas pendentes. Com esta ação, você pode forçar o redesenho imediato dos controles do objeto especificado. Você pode usar a ação:
 
-  - Quando utilizar a ação **DefinirValor** para alterar valores em vários controles. O Access talvez não mostre as alterações de imediato, principalmente se outros controles (por exemplo, controles calculados) dependerem dos valores dos controles alterados.
+- Quando utilizar a ação **DefinirValor** para alterar valores em vários controles. O Access talvez não mostre as alterações de imediato, principalmente se outros controles (por exemplo, controles calculados) dependerem dos valores dos controles alterados.
 
-  - Quando quiser verificar se o formulário em exibição mostra os dados de todos os controles. Por exemplo, controles contendo objetos OLE não exibem os dados imediatamente após a abertura de um formulário.
-
+- Quando quiser verificar se o formulário em exibição mostra os dados de todos os controles. Por exemplo, controles contendo objetos OLE não exibem os dados imediatamente após a abertura de um formulário.
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Esta ação não ativa a repetição de consulta do banco de dados, portanto, não mostra registros novos e alterados nem remove registros excluídos da tabela ou da consulta subjacente do objeto. Use a ação <STRONG>Repetir Consulta</STRONG> para consultar outra vez a origem do objeto ou de um de seus controles. Use a ação <STRONG>MostrarTodosRegistros</STRONG> para exibir a maioria dos registros recentes e remover todos os filtros aplicados.</P>
-> <LI>
-> <P>A ação <STRONG>RedesenharObjeto</STRONG> não tem o mesmo efeito de clicar em <STRONG>Atualizar</STRONG> no grupo <STRONG>Registros</STRONG> da guia <STRONG>Página Inicial</STRONG>, que mostra todas as alterações que você ou outros usuários tenham feito nos registros exibidos no momento, em formulários e folhas de dados.</P></LI></UL>
-
-
+> - Esta ação não ativa a repetição de consulta do banco de dados, portanto, não mostra registros novos e alterados nem remove registros excluídos da tabela ou da consulta subjacente do objeto. Use a ação **Repetir Consulta** para consultar outra vez a origem do objeto ou de um de seus controles. Use a ação **MostrarTodosRegistros** para exibir a maioria dos registros recentes e remover todos os filtros aplicados.
+> - A ação **RedesenharObjeto** não tem o mesmo efeito de clicar em **Atualizar** no grupo **Registros** da guia **Página Inicial**, que mostra todas as alterações que você ou outros usuários tenham feito nos registros exibidos no momento, em formulários e folhas de dados.
 
 Para executar a ação **RedesenharObjeto** em um módulo do VBA, use o método **RepaintObject** do objeto **DoCmd**.
 

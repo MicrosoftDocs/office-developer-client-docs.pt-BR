@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6adf3e5ec2ec36163d4818411a1abc07e940b209
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 76137608ed5de0fbd2b841fba3101d70209c7a6d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922682"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998751"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Propriedade Recordset2.AbsolutePosition (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -40,15 +39,9 @@ Se não houver nenhum registro atual, como quando não há nenhum registro no ob
 
 Você não deverá usar essa propriedade como um número de registro substituto. Os indicadores ainda são a forma recomendada de retenção e de retorno de uma determinada posição e são a única forma de posicionamento do registro atual em todos os tipos de objetos **Recordset2**. Em especial, a posição de um registro será alterada quando um ou vários registros precedentes forem excluídos. Também não existirá nenhuma garantia de que um registro terá a mesma posição absoluta, se o objeto **Recordset2** recriado novamente devido à ordem dos registros individuais em um objeto **Recordset** não for garantido, a não ser que seja criada com uma instrução SQL por meio da cláusula ORDER BY.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>A definição da propriedade <STRONG>AbsolutePosition</STRONG> como um valor maior que zero em um objeto <STRONG>Recordset2</STRONG> recentemente aberto, mas não preenchido, causará um erro interceptável. Preencha primeiro o objeto <STRONG>Recordset2</STRONG> com o método <STRONG>MoveLast</STRONG>.</P>
-> <LI>
-> <P>A propriedade <STRONG>AbsolutePosition</STRONG> não está disponível nos objetos de <STRONG>Recordset2</STRONG> do tipo somente encaminhamento ou nos objetos <STRONG>Recordset2</STRONG> abertos a partir de consultas passagem nos Microsoft Access banco de dados conectados ao mecanismo bancos de dados ODBC.</P></LI></UL>
-
-
+> - A definição da propriedade **AbsolutePosition** como um valor maior que zero em um objeto **Recordset2** recentemente aberto, mas não preenchido, causará um erro interceptável. Preencha primeiro o objeto **Recordset2** com o método **MoveLast**.
+> - A propriedade **AbsolutePosition** não está disponível nos objetos de **Recordset2** do tipo somente encaminhamento ou nos objetos **Recordset2** abertos a partir de consultas passagem nos Microsoft Access banco de dados conectados ao mecanismo bancos de dados ODBC.
 
 ## <a name="example"></a>Exemplo
 

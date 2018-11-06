@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
 ms:contentKeyID: 48546174
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a051c62d73a36fed0832f17b1cb53b1641d4a152
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 49a61e72a4d9260b73275d84ce912ebc76f37652
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889277"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996451"
 ---
 # <a name="reshaping"></a>Remodelagem
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -38,8 +37,7 @@ rs2.Open "SHAPE {select * from Employees} " & _
 
 A segunda função é para permitir o acesso não dividido em objetos de **Recordset** filho existentes, usando a sintaxe `"SHAPE <recordset reshape name>"`.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você não pode anexar colunas a um <STRONG>Recordset</STRONG> existente, alterar a forma de um <STRONG>Recordset</STRONG> parametrizado nem os objetos <STRONG>Recordset</STRONG> em qualquer cláusula COMPUTE intermediária ou executar operações agregadas em qualquer <STRONG>Recordset</STRONG> descendente a partir do <STRONG>Recordset</STRONG> que está tendo sua forma alterada. O <STRONG>Recordset</STRONG> que está tendo sua forma alterada e o novo comando shape devem usar a mesma <A href="connection-object-ado.md">Conexão</A>.</P>
+> [!OBSERVAçãO] Você não pode anexar colunas a um **Recordset** existente, alterar a forma de um **Recordset** parametrizado nem os objetos **Recordset** em qualquer cláusula COMPUTE intermediária ou executar operações agregadas em qualquer **Recordset** descendente a partir do **Recordset** que está tendo sua forma alterada. O **Recordset** sendo reformatado e a nova forma command ambos devem usar os mesmos * * o objeto de[Conexão](connection-object-ado.md) .
 
 

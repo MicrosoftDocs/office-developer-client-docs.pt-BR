@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d3d2d5f76e087e428bc9211805c524ebe5247d9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 274ec88483066b4e8dd4032501ecfcc6a662b134
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930445"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998134"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>Ação da macro AbrirMódulodoVisualBasic
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **AbrirMódulodoVisualBasic** para abrir um módulo do VBA (Visual Basic for Applications) especificado em um procedimento especificado. Este pode ser um procedimento Sub, um procedimento Function ou um procedimento de evento.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -57,11 +53,8 @@ A ação **AbrirMódulodoVisualBasic** tem os seguintes argumentos.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você precisa digitar um nome válido no argumento <STRONG>Nome do Módulo</STRONG> ou <STRONG>Nome do Procedimento</STRONG>.</P>
-
+> [!OBSERVAçãO] Você precisa digitar um nome válido no argumento **Nome do Módulo** ou **Nome do Procedimento**.
 
 
 ## <a name="remarks"></a>Comentários
@@ -74,11 +67,8 @@ Para abrir um procedimento particular, o módulo que o contém precisa estar abe
 
 Esta ação equivale a clicar com o botão direito do mouse em um módulo do Painel de Navegação e clicar em **Modo Design**. Ela também permite especificar um nome de procedimento e pesquisar nos módulos padrão de um banco de dados se há procedimentos.
 
-
 > [!TIP]
-> <P>[!DICA] Você pode selecionar um módulo do Painel de Navegação e arrastá-lo para uma linha de ação de macro. Isso cria automaticamente uma ação <STRONG>AbrirMódulodoVisualBasic</STRONG> que abre o módulo na seção Declarações.</P>
-
-
+> [!DICA] Você pode selecionar um módulo do Painel de Navegação e arrastá-lo para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirMódulodoVisualBasic** que abre o módulo na seção Declarações.
 
 Para executar a ação **AbrirMódulodoVisualBasic** em um módulo do VBA, use o método **AbrirMódulo** do objeto **DoCmd**.
 

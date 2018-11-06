@@ -1,6 +1,6 @@
 ---
 title: Método Recordset.GetRows (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931236"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998382"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Método Recordset.GetRows (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>O número de linhas a serem recuperadas.</p></td>
@@ -58,29 +57,29 @@ Recupera várias linhas de um objeto **[Recordset](recordset-object-dao.md)**.
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Variant
 
 ## <a name="remarks"></a>Comentários
 
-Use o método **GetRows** para copiar registros de um **Recordset**. **GetRows** retorna uma matriz bidimensional. A primeira assinatura identifica o campo e a segunda identifica o número da linha. Por exemplo, intField representa o campo e intRecord identifica o número da linha:
+Use o método **GetRows** para copiar registros de um **Recordset**. **GetRows** retorna uma matriz bidimensional. A primeira assinatura identifica o campo e a segunda identifica o número da linha. Por exemplo, `intField` representa o campo, e `intRecord` identifica o número da linha:
 
-avarRecords (intField, intRecord)
+`avarRecords(intField, intRecord)`
 
 Para obter o valor do primeiro campo na segunda linha retornada, use código como este:
 
-Field1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 Para obter o segundo valor do campo na primeira linha, use código como este:
 
-Field2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 A variável avarRecords automaticamente se torna uma matriz bidimensional quando **GetRows** retorna dados.
 
 Se você solicitar mais linhas do que as disponíveis, então **GetRows** retornará somente o número de linhas disponíveis. Você pode usar a função **UBound** do Visual Basic for Applications para determinar quantas linhas **GetRows** realmente recuperou, já que a matriz é dimensionada para ajustar o número de linhas retornadas. Por exemplo, se você tiver retornado os resultados em uma **Variant** chamado varA, você pode usar o código a seguir para determinar quantas linhas foram realmente retornadas:
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 Você precisa usar "+ 1" por que a primeira linha retornada está no elemento 0 da matriz. O número de linhas que você pode retornar é restringido pela quantidade de memória disponível. Você não deve usar **GetRows** para recuperar a tabela inteira para uma matriz caso ela seja grande.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
 ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45856ba6563924d0a918cf89dd95a86287d68acf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ccdf338ecb0ef36d5e7e01855fe0b9ca4f49a2ba
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921772"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997102"
 ---
 # <a name="recordsetcopyquerydef-method-dao"></a>Método Recordset.CopyQueryDef (DAO)
 
@@ -26,7 +26,7 @@ Retorna um objeto **[QueryDef](querydef-object-dao.md)** que é uma cópia do **
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 QueryDef
 

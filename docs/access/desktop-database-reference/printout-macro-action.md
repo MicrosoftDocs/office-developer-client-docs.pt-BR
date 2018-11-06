@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926749"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999026"
 ---
 # <a name="printout-macro-action"></a>Ação da macro Imprimir
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **Imprimir** para imprimir o objeto ativo no banco de dados aberto. Pode imprimir folhas de dados, relatórios, formulários, páginas de acesso a dados e módulos.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -78,11 +74,8 @@ A ação **Imprimir** tem os seguintes argumentos.
 
 Esta ação é semelhante a selecionar um objeto, clicar na guia **Arquivo** e clicar em **Imprimir**. Com esta ação, porém, não é exibida nenhuma caixa de diálogo **Imprimir**.
 
-
 > [!TIP]
-> <P>[!DICA] Se houver configurações de impressão específicas usadas com frequência, crie uma macro que contém a ação <STRONG>Imprimir</STRONG> com essas configurações nos argumentos.</P>
-
-
+> [!DICA] Se houver configurações de impressão específicas usadas com frequência, crie uma macro que contém a ação **Imprimir** com essas configurações nos argumentos.
 
 Os argumentos desta ação correspondem às opções da caixa de diálogo **Imprimir**. Entretanto, diferentemente da ação **EncontrarRegistro** e **Localizar e Substituir**, as configurações do argumento não são compartilhadas com as opções da caixa de diálogo **Imprimir**.
 

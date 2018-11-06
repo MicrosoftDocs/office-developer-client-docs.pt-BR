@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 77fc87ac989d34f5a4e774555c54955cf0bd805e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 33180aa296fc40c05a3fc50da697aadbf6ada77e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931348"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997158"
 ---
 # <a name="saveobject-macro-action"></a>Ação da macro SalvarObjeto
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **SalvarObjeto** para salvar um objeto do Access especificado ou, se nenhum estiver especificado, o objeto ativo. Em alguns casos, pode também salvar o objeto ativo com um novo nome (tem o mesmo efeito do comando **Salvar como** na **Barra de Ferramentas de Acesso Rápido**).
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -62,27 +58,16 @@ A ação **SalvarObjeto** tem os seguintes argumentos.
 
 A ação **SalvarObjeto** funciona em todos os objetos de banco de dados que o usuário possa explicitamente abrir e salvar. O objeto especificado deve estar aberto para que a ação **SalvarObjeto** tenha qualquer efeito no objeto. Essa ação é semelhante à ação de selecionar um objeto e salvá-lo clicando em **Salvar** na **Barra de Ferramentas de Acesso Rápido**. Deixar em branco o argumento **Tipo de Objeto** e inserir um novo nome no argumento **Nome do Objeto** tem o mesmo efeito de clicar em **Salvar Como** na **Barra de Ferramentas de Acesso Rápido** e digitar um novo nome para o objeto ativo. O uso da ação **SalvarObjeto** permite que você especifique um objeto a ser salvo e execute um comando **Salvar Como** em uma macro.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A ação <STRONG>SalvarObjeto</STRONG> não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:</P>
-
-
-
-  - Um formulário no modo Formulário ou no modo Folha de Dados.
-
-  - Um relatório no modo Visualização de Impressão.
-
-  - Um módulo.
-
-  - Uma exibição de servidor no modo Folha de Dados ou no modo Visualização de Impressão.
-
-  - Uma página de acessos a dados no Modo de Página.
-
-  - Uma tabela no modo Folha de Dados ou no modo Visualização de Impressão.
-
-  - Uma consulta no modo Folha de Dados ou no modo Visualização de Impressão.
-
-  - Um procedimento armazenado no modo Folha de Dados ou no modo Visualização de Impressão.
+> [!OBSERVAçãO] A ação **SalvarObjeto** não pode ser utilizada para salvar nenhum dos seguintes itens com um novo nome:
+> - Um formulário no modo formulário ou modo de folha de dados
+> - Um relatório no modo Visualizar impressão
+> - Um módulo
+> - Um modo de exibição do servidor no modo de folha de dados ou no modo Visualizar impressão
+> - Página no modo de exibição de página de acesso a um dado
+> - Uma tabela no modo folha de dados ou no modo Visualizar impressão
+> - Uma consulta no modo folha de dados ou visualizar impressão
+> - Um procedimento armazenado no modo folha de dados ou no modo Visualizar impressão
 
 A ação **SalvarObjeto**, esteja ela carregada em uma macro em execução no banco de dados atual ou em um banco de dados biblioteca, sempre salva o objeto especificado ou o objeto ativo do banco de dados em que o objeto foi criado.
 

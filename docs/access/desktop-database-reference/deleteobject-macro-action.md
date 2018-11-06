@@ -10,23 +10,21 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921940"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997256"
 ---
 # <a name="deleteobject-macro-action"></a>Ação da macro ExcluirObjeto
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ExcluirObjeto** para excluir um objeto de banco de dados especificado.
 
-
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -55,12 +53,8 @@ A ação **ExcluirObjeto** tem os seguintes argumentos.
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > [!CUIDADO] Se você deixar as caixas **Tipo de Objeto** e **Nome do Objeto** em branco, o Access excluirá o objeto selecionado no Painel de Navegação sem exibir uma mensagem de aviso ao encontrar a ação **ExcluirObjeto**.
-
-
 
 ## <a name="remarks"></a>Comentários
 

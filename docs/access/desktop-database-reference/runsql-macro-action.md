@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb1bdb998373c8dba92910bd6331261514542a04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0527f5a55235fa36725152d228dfd2294c63bf53
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923718"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996871"
 ---
 # <a name="runsql-macro-action"></a>Ação da macro ExecutarSQL
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **ExecutarSQL** para executar uma consulta ação Access usando a instrução SQL correspondente. Pode também executar uma consulta de definição de dados.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -125,11 +121,7 @@ As consultas do Access, na verdade, são instruções SQL criadas durante a cria
 </tbody>
 </table>
 
-
 Você também pode usar uma cláusula IN com essas instruções para modificar dados em outro banco de dados.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para executar uma consulta seleção ou uma consulta de tabela de referência cruzada em uma macro, use o argumento Exibir da ação <STRONG>AbrirConsulta</STRONG> para abrir uma consulta seleção ou uma consulta de tabela de referência cruzada existente no modo Folha de Dados. Consultas ação e consultas específicas de SQL existentes também podem ser executadas dessa mesma forma.</P>
-
-
+> [!OBSERVAçãO] Para executar uma consulta seleção ou uma consulta de tabela de referência cruzada em uma macro, use o argumento Exibir da ação **AbrirConsulta** para abrir uma consulta seleção ou uma consulta de tabela de referência cruzada existente no modo Folha de Dados. Consultas ação e consultas específicas de SQL existentes também podem ser executadas dessa mesma forma.

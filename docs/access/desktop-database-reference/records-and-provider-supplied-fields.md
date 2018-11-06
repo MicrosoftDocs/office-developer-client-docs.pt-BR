@@ -1,20 +1,19 @@
 ---
 title: Registros e campos fornecidos pelo provedor
-TOCTitle: Records and Provider-Supplied Fields
+TOCTitle: Records and provider-supplied fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf0e13569e902cd8665cd2a023ba1707d63f51a6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3e01d9dd1dce81911b11b7de8ca8c6ad5a19eaaf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887457"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998319"
 ---
 # <a name="records-and-provider-supplied-fields"></a>Registros e campos fornecidos pelo provedor
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -24,7 +23,7 @@ Se **Record** for aberto a partir de um **Recordset**, a coleção **Fields** co
 
 O provedor pode inserir campos adicionais que funcionem como características complementares de **Record**. Como resultado, um **Record** poderá ter campos exclusivos que não façam parte de **Recordset** como um todo ou qualquer **Record** derivado de outra linha de **Recordset**.
 
-Por exemplo, todas as linhas de um **Recordset** derivado de uma fonte de dados de email poderá ter colunas, como De, Para e Assunto. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
+Por exemplo, todas as linhas de um **Recordset** derivado de uma fonte de dados de email talvez tenha colunas, tais como de fazer e da entidade. Um **Record** derivado desse **Recordset** terá os mesmos campos. Entretanto, o **Record** também pode ter outros campos exclusivos da mensagem específica representada por esse **Record**, como Anexo e Com cópia.
 
 Embora o objeto **Record** e a linha atual de **Recordset** tenham os mesmos campos, eles são diferentes, pois os objetos **Record** e **Recordset** possuem métodos e propriedades diferentes.
 

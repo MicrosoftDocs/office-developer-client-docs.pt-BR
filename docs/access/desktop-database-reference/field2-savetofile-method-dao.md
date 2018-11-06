@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 571698567816b34071e99c7dc46af11274a54c80
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 14021d3f16987b40af24491ff72abdfb95052045
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937138"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998760"
 ---
 # <a name="field2savetofile-method-dao"></a>Método Field2.SaveToFile (DAO)
 
@@ -33,7 +33,7 @@ Versão adicionada: Access 2007
 
 *expressão* Uma variável que representa um objeto **Field2** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -45,14 +45,14 @@ Versão adicionada: Access 2007
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>FileName</p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Cadeia de caracteres</strong></p></td>
 <td><p>O caminho totalmente qualificado do arquivo no qual deseja salvar o anexo.</p></td>

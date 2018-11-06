@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
 ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f93924c579dc32e0841177eeb1068df64e12ab9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dfb24f1fd183dd917b1eeb4033fe53a3310d5a12
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931082"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997011"
 ---
 # <a name="recordset2lockedits-property-dao"></a>Propriedade Recordset2.LockEdits (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -62,11 +61,8 @@ Se você definir a propriedade **LockEdits** como **False** e mais tarde usar o 
 
 Durante o trabalho com o mecanismo do banco de dados do Microsoft Access conectado a fontes de dados ODBC, a propriedade **LockEdits** será definida sempre como **False** ou bloqueio otimista. O mecanismo de dados do Microsoft Access não tem controle sobre os mecanismos de bloqueio usados nos servidores de bancos de dados externos.
 
-
 > [!NOTE]
-> <P>Você pode predefinir o valor da <STRONG>LockEdits</STRONG> quando você primeiro abre o <STRONG>Recordset</STRONG> , definindo o argumento lockedits do método <STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG> . Definir o argumento lockedits como <STRONG>dbPessimistic</STRONG> definirá a propriedade <STRONG>LockEdits</STRONG> como <STRONG>True</STRONG>e lockedits de configuração para qualquer outro valor definirá a propriedade <STRONG>LockEdits</STRONG> como <STRONG>False</STRONG>.</P>
-
-
+> Você pode predefinir o valor da **LockEdits** quando você primeiro abre o **Recordset** , definindo o argumento lockedits do método **[OpenRecordset](connection-openrecordset-method-dao.md)** . Definir o argumento lockedits como **dbPessimistic** definirá a propriedade **LockEdits** como **True**e lockedits de configuração para qualquer outro valor definirá a propriedade **LockEdits** como **False**.
 
 ## <a name="example"></a>Exemplo
 

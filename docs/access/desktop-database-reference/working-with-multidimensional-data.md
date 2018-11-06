@@ -1,20 +1,19 @@
 ---
 title: Trabalhando com dados multidimensionais
-TOCTitle: Working with Multidimensional Data
+TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2210799fe46a0993a917a85a0e06a1a806b04548
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1fc86aa61b9dda9db2246b7b5720eed31a595ea0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945821"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998690"
 ---
 # <a name="working-with-multidimensional-data"></a>Trabalhando com dados multidimensionais
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,35 +27,27 @@ Uma *célula* é um objeto posicionado na interseção de coordenadas de eixo. C
 
 Por exemplo, um cubo tem as seis dimensões a seguir (observe que esse esquema de cubo difere ligeiramente do exemplo dado em [Visão geral de esquemas e dados multidimensionais](overview-of-multidimensional-schemas-and-data.md)):
 
-  - Vendedor
-
-  - Geografia (hierarquia natural)  Continentes, Países, Estados e assim por diante
-
-  - Trimestres  Trimestres, Meses, Dias
-
-  - Anos
-
-  - Medidas  Vendas, AlteraçãoPercentual, VendasEstimadas
-
-  - Produtos
-
+- Vendedor
+- Geografia (hierarquia natural)  Continentes, Países, Estados e assim por diante
+- Trimestres  Trimestres, Meses, Dias
+- Anos
+- Medidas  Vendas, AlteraçãoPercentual, VendasEstimadas
+- Produtos
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] O valores da célula no exemplo podem ser exibidos como pares ordenados de ordinais de posição do eixo, em que o primeiro dígito representa a posição do eixo x e o segundo dígito a posição do eixo y.</P>
-
-
+> [!OBSERVAçãO] O valores da célula no exemplo podem ser exibidos como pares ordenados de ordinais de posição do eixo, em que o primeiro dígito representa a posição do eixo x e o segundo dígito a posição do eixo y.
 
 As características deste conjunto de células são as seguintes:
 
-  - Dimensões dos eixos: Trimestres, Vendedor, Geografia
+- Dimensões dos eixos: Trimestres, Vendedor, Geografia
 
-  - Dimensões de filtro: Medidas, Anos, Produtos
+- Dimensões de filtro: Medidas, Anos, Produtos
 
-  - Dois eixos: COLUNA (x ou Eixo 0) e LINHA (y ou Eixo 1)
+- Dois eixos: COLUNA (x ou Eixo 0) e LINHA (y ou Eixo 1)
 
-  - eixo x: duas dimensões aninhadas, Vendedor e Geografia
+- eixo x: duas dimensões aninhadas, Vendedor e Geografia
 
-  - eixo y: Dimensão de trimestres
+- eixo y: Dimensão de trimestres
 
 O eixo x tem duas dimensões aninhadas: Vendedor e Geografia. De Geografia, quatro membros são selecionados: Seattle, Boston, USA-South e Japan. Dois membros são selecionados de Vendedor: Valentine e Nash. Isso resulta em um total de oito posições nesse eixo (8 = 4\*2).
 

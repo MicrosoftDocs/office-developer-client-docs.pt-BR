@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88009020fb320c823f9ca4c1688a0f2bfdecbd44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7d47a59bc82cb6f603fc52d45c675eb8e2877f91
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931005"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998963"
 ---
 # <a name="renameobject-macro-action"></a>Ação da macro RenomearObjeto
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **RenomearObjeto** para renomear um objeto de banco de dados especificado.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
 
 ## <a name="setting"></a>Configuração
 
@@ -58,13 +54,7 @@ A ação **RenomearObjeto** tem os seguintes argumentos.
 <td><p><strong>Nome antigo</strong></p></td>
 <td><p>O nome do objeto a ser renomeado. A caixa <strong>Nome Antigo</strong> mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, faça o mesmo com este argumento. 
 
-</p>
-
-> [!NOTE]
-> <P>Se você executar uma macro que contenha o método <STRONG>Renomear</STRONG> em um banco de dados biblioteca, o Microsoft Access procurará o objeto com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</P>
-
-
-<p></p></td>
+</p><p><strong>Observação</strong>: se você executar uma macro que contém a ação <STRONG>Renomear</STRONG> um banco de dados biblioteca, o Microsoft Access procurará primeiro para o objeto com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
 </tr>
 </tbody>
 </table>

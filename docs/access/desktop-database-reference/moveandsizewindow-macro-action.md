@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925265"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998809"
 ---
 # <a name="moveandsizewindow-macro-action"></a>Ação da macro MovereDimensionarJanela
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Se você tiver configurado as opções de janela para usar janelas sobrepostas, em vez de documentos com guias para seu documento, você pode usar a ação **Moveredimensionarjanela** para mover ou redimensionar a janela ativa. Para obter informações sobre como configurar opções da janela de documento, consulte a seção comentários.
 
@@ -61,17 +59,14 @@ Se você deixar um argumento em branco, o Microsoft Access usa a configuração 
 
 Você deve inserir um valor para pelo menos um argumento.
 
-
 > [!NOTE]
-> <P>Cada medida está em polegadas ou centímetros, dependendo das configurações regionais no painel de controle do Windows.</P>
-
-
+> Cada medida está em polegadas ou centímetros, dependendo das configurações regionais no painel de controle do Windows.
 
 ## <a name="remarks"></a>Comentários
 
 Para configurar um aplicativo para usar janelas sobrepostas, em vez de documentos com guias, use o procedimento a seguir:
 
-1.  e, em seguida, clique em **Opções**
+1.  Clique em **Opções**
 
 2.  Clique em **banco de dados atual**.
 
@@ -83,11 +78,9 @@ Esta ação é semelhante a clicar em **Mover** ou **Dimensionar** , no menu **c
 
 Você pode usar essa ação em qualquer janela, em qualquer modo de exibição.
 
-**Dicas**
-
-  - Para mover uma janela sem redimensioná-la, insira valores para a **direita** e **para baixo** argumentos, mas deixar os argumentos **largura** e **Altura** em branco.
-
-  - Para redimensionar uma janela sem movê-lo, insira valores para a **largura** e **Altura** argumentos, mas deixar os argumentos **direita** e **para baixo** em branco.
+> [!TIP]
+> - Para mover uma janela sem redimensioná-la, insira valores para a **direita** e **para baixo** argumentos, mas deixar os argumentos **largura** e **Altura** em branco.
+> - Para redimensionar uma janela sem movê-lo, insira valores para a **largura** e **Altura** argumentos, mas deixar os argumentos **direita** e **para baixo** em branco.
 
 Para executar a ação **Moveredimensionarjanela** em um módulo Visual Basic for Applications (VBA), use o método **MoveSize** do objeto **DoCmd** .
 

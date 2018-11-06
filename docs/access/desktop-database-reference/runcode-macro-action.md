@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: acf8ed2bd10efd55436b8933a862833b8e49c5f0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bac15bed3b416d57f75dc7482b085478a27d5fa4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926686"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996696"
 ---
 # <a name="runcode-macro-action"></a>Ação da macro ExecutarCódigo
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -42,13 +41,7 @@ A ação **ExecutarCódigo** tem o argumento a seguir.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da função</strong></p></td>
-<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p>
-
-> [!NOTE]
-> <P>Em um banco de dados do Access (.mdb ou .accdb), clique no botão <STRONG>Compilar</STRONG> para usar o Construtor de Expressões para selecionar uma função para esse argumento. Na lista do Construtor de Expressões, clique na função desejada.</P>
-
-
-<p></p></td>
+<td><p>O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: banco de dados de um acesso (. mdb ou. accdb), clique no botão <strong>Construir</strong> para usar o construtor de expressões para selecionar uma função para este argumento. Clique na função desejada na lista no construtor de expressões.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,17 +59,11 @@ Ao contrário de nomes de função definida pelo usuário usados para configura�
 
 O Access ignora o valor de retorno da função.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Não será possível chamar um procedimento Function em uma macro se o nome da função for igual ao nome do módulo.</P>
-
-
-
+> [!OBSERVAçãO] Não será possível chamar um procedimento Function em uma macro se o nome da função for igual ao nome do módulo.
 
 > [!TIP]
-> <P>[!DICA] Para executar um procedimento Sub ou um procedimento de evento escrito em Visual Basic, crie um procedimento Function que possa chamar o procedimento Sub ou o procedimento de evento. Use a ação <STRONG>ExecutarCódigo</STRONG> para executar o procedimento Function.</P>
-
-
+> [!DICA] Para executar um procedimento Sub ou um procedimento de evento escrito em Visual Basic, crie um procedimento Function que possa chamar o procedimento Sub ou o procedimento de evento. Use a ação **ExecutarCódigo** para executar o procedimento Function.
 
 Se você usar a ação **ExecutarCódigo** para chamar uma função, o Access pesquisará a função com o nome especificado pelo argumento **Nome da Função** nos módulos padrão do banco de dados. Entretanto, quando essa ação for executada em resposta ao acionamento de um comando de menu em um formulário ou relatório, ou em resposta a um evento em um formulário ou relatório, o Access primeiro pesquisará a função no módulo de classe do formulário ou do relatório e depois nos módulos padrão. O Access não pesquisa os módulos de classe mostrados na área **Módulos** do Painel de Navegação para localizar a função especificada pelo argumento **Nome da Função**.
 

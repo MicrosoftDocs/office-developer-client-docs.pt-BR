@@ -10,24 +10,22 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f87c8e45cbc719ee50c017abd45a8950dc6ec7ed
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945443"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997466"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver de fonte de dados de texto
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 O mesmo driver de banco de dados é usado para fontes de dados HTML e de texto.
 
 Quando você instala o driver de banco de dados da fonte de dados de texto, o programa de instalação grava um conjunto de valores padrão para o registro do Microsoft Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
 
-## <a name="text-data-source-initialization-settings"></a>Configurações de inicialização da fonte de dados de texto
+## <a name="text-data-source-initialization-settings"></a>Configurações de inicialização de fonte de dados de texto
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\pasta texto** inclui configurações de inicialização para o driver Acetxt.dll, usadas para acesso externo para arquivos de dados de texto. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
 
@@ -102,7 +100,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta Text 
 </table>
 
 
-## <a name="text-data-source-isam-formats"></a>ISAM Formats da fonte de dados de texto
+## <a name="text-data-source-isam-formats"></a>ISAM formats da fonte de dados texto
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\texto** pasta contém as entradas a seguir.
 
@@ -184,13 +182,10 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\texto** pasta contém as
 </table>
 
 
-
 > [!NOTE]
-> <P>Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.</P>
+> Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-
-
-## <a name="html-import-isam-formats"></a>ISAM Formats para HTML Import
+## <a name="html-import-isam-formats"></a>ISAM formats para HTML import
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\HTML Import** pasta contém as entradas a seguir.
 
@@ -261,14 +256,10 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\HTML Import** pasta cont
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.</P>
+> Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-
-
-## <a name="html-export-isam-formats"></a>ISAM Formats para HTML Export
+## <a name="html-export-isam-formats"></a>ISAM formats do HTML export
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\HTML Export** pasta contém as entradas a seguir.
 
@@ -334,14 +325,10 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\HTML Export** pasta cont
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.</P>
+> Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-
-
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalizando o arquivo Schema.ini para dados HTML e de texto
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personalizando o arquivo Schema ini para dados HTML e texto
 
 Para ler, importar ou exportar dados HTML e de texto, você precisa criar um arquivo Schema.ini, bem como incluir as informações ISAM do texto no arquivo .ini. O arquivo Schema.ini contém informações específicas da fonte de dados: como o arquivo de texto está formatado, como ele é lido no momento da importação e o formato de exportação padrão dos arquivos. Os exemplos a seguir mostram o layout de um arquivo de largura fixa, Filename.txt:
 
@@ -368,6 +355,8 @@ Para ler, importar ou exportar dados HTML e de texto, você precisa criar um arq
     Col5=columnname9 LongChar Width 10
 ```
 
+<br/>
+
 Da mesma maneira, o formato de um arquivo delimitado é especificado assim:
 
 ```text
@@ -385,6 +374,8 @@ Da mesma maneira, o formato de um arquivo delimitado é especificado assim:
     
     Col2=dateofbirth Date width 9
 ```
+
+<br/>
 
 Se estiver exportando dados para um arquivo de texto delimitado, especifique o formato desse arquivo também:
 
@@ -421,6 +412,8 @@ Se estiver exportando dados para um arquivo de texto delimitado, especifique o f
     
     TextDelimeter="
 ```
+
+<br/>
 
 O exemplo My Special Export refere-se a uma opção de exportação específica; você pode determinar qualquer variação das opções de exportação no momento da conexão. Este último exemplo também corresponde ao nome da fonte de dados (DSN) que pode ser opcionalmente passado no momento da conexão. Todas as três seções de formato podem ser incluídas no arquivo .ini.
 
@@ -510,8 +503,6 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas do Schema.ini 
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!OBSERVAçãO] Ao alterar as configurações do arquivo Schema.ini, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.

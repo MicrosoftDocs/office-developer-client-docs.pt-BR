@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa624c545d17ef0d56a076b3d30326bacd2c6edf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edf413cbfac35aa20b09508c3af5069f18d5076e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871959"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997431"
 ---
 # <a name="using-cachesize"></a>Uso de CacheSize
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Use a propriedade **CacheSize** para controlar a quantidade de registros a serem recuperados de uma vez, do provedor para a memória local. Por exemplo, se **CacheSize** for 10, após a abertura inicial do objeto **Recordset**, o provedor irá recuperar os 10 primeiros registros para a memória local. À medida que você se movimentar pelo objeto **Recordset**, o provedor retornará os dados do buffer de memória local. Assim que você passar pelo último registro armazenado em cache, o provedor irá recuperar os 10 registros seguintes da fonte de dados para o cache.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A propriedade <STRONG>CacheSize</STRONG> baseia-se na propriedade <STRONG>Maximum Open Rows</STRONG> específica do provedor (na coleção <STRONG>Properties</STRONG> do objeto <STRONG>Recordset</STRONG> ). Não é possível definir <STRONG>CacheSize</STRONG> como um valor maior do que <STRONG>Maximum Open Rows</STRONG>. Para modificar o número de linhas que podem ser abertas pelo provedor, defina <STRONG>Maximum Open Rows</STRONG>.</P>
-
-
+> [!OBSERVAçãO] A propriedade **CacheSize** baseia-se na propriedade **Maximum Open Rows** específica do provedor (na coleção **Properties** do objeto **Recordset** ). Não é possível definir **CacheSize** como um valor maior do que **Maximum Open Rows**. Para modificar o número de linhas que podem ser abertas pelo provedor, defina **Maximum Open Rows**.
 
 O valor de **CacheSize** pode ser ajustado durante a vida do objeto **Recordset**, mas a alteração desse valor afeta apenas o número de registros do cache após recuperações subsequentes da fonte de dados. Alterar apenas o valor da propriedade não irá alterar o conteúdo atual do cache.
 

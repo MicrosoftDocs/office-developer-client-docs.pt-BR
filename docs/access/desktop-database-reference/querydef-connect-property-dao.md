@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1208ac064c92e2e3793e8f2e3ceb4502cbfa4d6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4956d9d2652ab8268a5f49a9b7edc63ebe2878c7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922003"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997976"
 ---
 # <a name="querydefconnect-property-dao"></a>Propriedade QueryDef.Connect (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -157,12 +156,8 @@ Para dados no Microsoft Exchange, a chave MAPILEVEL exigida deve estar definida 
 
 Em um objeto **QueryDef** em um espaço de trabalho do Microsoft Access, use a propriedade **Connect** com a propriedade ReturnsRecords para criar uma consulta SQL Passagem para ODBC. Databasetype da cadeia de caracteres de conexão for "ODBC;", e o restante da cadeia de caracteres contém informações específicas para o driver ODBC usado para acessar os dados remotos. Para obter mais informações, consulte a documentação do driver específico.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Você deve definir a propriedade <STRONG>Connect</STRONG> antes de definir a propriedade <STRONG>ReturnsRecords</STRONG>.</P>
-> <LI>
-> <P>Você deve ter permissão de acesso ao computador que contém o servidor de banco de dados que está tentando acessar.</P></LI></UL>
+> - Você deve definir a propriedade **Connect** antes de definir a propriedade **ReturnsRecords**.
+> - Você deve ter permissão de acesso ao computador que contém o servidor de banco de dados que está tentando acessar.
 
 

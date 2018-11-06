@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab1111cdbc0e5a319f1f3431477854c6d38eff20
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0d4d907cedc3490f4ca13d47a12b9719cf3e2ee1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875403"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997151"
 ---
 # <a name="position-property-ado"></a>Propriedade Position (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,13 +25,10 @@ Define ou retorna um valor **Long** que especifica o deslocamento, em número de
 
 ## <a name="remarks"></a>Comentários
 
-A posição atual pode ser movida para um ponto posterior ao final do fluxo. Se você especificar a posição atual além do final do fluxo, o [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) do objeto **Stream** aumentará de forma adequada. Os bytes novos adicionados desta forma serão nulos.
-
+A posição atual pode ser movida para um ponto posterior ao final do fluxo. Se você especificar a posição atual além do final do fluxo, o [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) do objeto **Stream** aumentará de forma adequada. Os bytes novos adicionados desta forma serão nulos.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] <STRONG>Position</STRONG> sempre mede bytes. Para fluxos de texto que utilizam conjuntos de caracteres com vários bytes, multiplique a posição pelo tamanho do caractere para determinar o número do caractere. Por exemplo, para um conjunto de caracteres de dois bytes, o primeiro caractere estará na posição 0, o segundo caractere na posição 2, o terceiro na posição 4, e assim por diante.</P>
-
-
+> [!OBSERVAçãO] **Position** sempre mede bytes. Para fluxos de texto que utilizam conjuntos de caracteres com vários bytes, multiplique a posição pelo tamanho do caractere para determinar o número do caractere. Por exemplo, para um conjunto de caracteres de dois bytes, o primeiro caractere estará na posição 0, o segundo caractere na posição 2, o terceiro na posição 4, e assim por diante.
 
 Os valores negativos não podem ser utilizados para alterar a posição atual em um **Stream**. Somente números positivos podem ser utilizados para **Position**.
 

@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d72a594a09196f5061ede52b4fbcbbc2cf96253c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7642c7a727853005cb6cf664bf44f29bcd6e14ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923158"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997969"
 ---
 # <a name="setwarnings-macro-action"></a>Ação da macro DefinirAvisos
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Use a ação **DefinirAvisos** para ativar ou desativar mensagens do sistema.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -64,11 +60,8 @@ Quando a macro é concluída, o Access reativa automaticamente a exibição de m
 
 Em geral, a ação **Eco** é utilizada, o que oculta os resultados de uma macro até que ela esteja concluída. Você também pode usar a ação **DefinirAvisos** para ocultar avisos e caixas de mensagem.
 
-
 > [!WARNING]
-> <P>[!CUIDADO] Embora a ação <STRONG>DefinirAvisos</STRONG> possa simplificar as interações com as macros, tenha muito cuidado ao desativar mensagens do sistema. Em algumas situações, a interrupção de uma macro poderá ser conveniente se uma mensagem de aviso for exibida. A menos que você confie no resultado de todas as ações de macro, evite o uso desta ação.</P>
-
-
+> [!CUIDADO] Embora a ação **DefinirAvisos** possa simplificar as interações com as macros, tenha muito cuidado ao desativar mensagens do sistema. Em algumas situações, a interrupção de uma macro poderá ser conveniente se uma mensagem de aviso for exibida. A menos que você confie no resultado de todas as ações de macro, evite o uso desta ação.
 
 Para executar a ação **DefinirAvisos** em um módulo do VBA (Visual Basic for Applications), use o método **SetWarnings** do objeto **DoCmd**.
 

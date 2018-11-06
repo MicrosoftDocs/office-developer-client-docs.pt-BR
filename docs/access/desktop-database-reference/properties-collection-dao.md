@@ -1,20 +1,19 @@
 ---
 title: Coleção Properties (DAO)
-TOCTitle: Properties Collection
+TOCTitle: Properties collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0cd2198d0578c6ec42e4bf800d95e1d7afe22786
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926938"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998340"
 ---
 # <a name="properties-collection-dao"></a>Coleção Properties (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,29 +27,23 @@ Além das propriedades internas, você também poderá criar e adicionar suas pr
 
 É possível usar o método **Delete** para remover propriedades definidas pelo usuário da coleção **Properties**, mas não é possível remover propriedades internas.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Um objeto <STRONG>Property</STRONG> definido pelo usuário está associado apenas à instância específica de um objeto. A propriedade não é definida para todas as instâncias de objetos do tipo selecionado.</P>
-
-
+> [!OBSERVAçãO] Um objeto **Property** definido pelo usuário está associado apenas à instância específica de um objeto. A propriedade não é definida para todas as instâncias de objetos do tipo selecionado.
 
 Para fazer referência a um objeto **Property** interno em uma coleção por seu número ordinal ou por sua configuração de propriedade **Name**, use uma das seguintes formas de sintaxe:
 
-objeto. **Propriedades** (0)
+- objeto. **Propriedades** (0)
 
-objeto. **Propriedades** ("nome")
+- objeto. **Propriedades** ("nome")
 
-objeto. **Propriedades** \! \[nome\]
+- objeto. **Propriedades** \! \[nome\]
 
 Para uma propriedade incorporada, você também pode usar esta sintaxe:
 
-Object.Name
-
+- Object.Name
 
 > [!NOTE]
-> <P>Para uma propriedade definida pelo usuário, você deve usar o objeto completo. <STRONG>Propriedades</STRONG> sintaxe ("nome").</P>
-
-
+> Para uma propriedade definida pelo usuário, você deve usar o objeto completo. **Propriedades** sintaxe ("nome").
 
 Com as mesmas formas de sintaxe, você também pode referir-se à propriedade **Value** de um objeto **Property**. O contexto da referência determinará se você está se referindo ao objeto **Property** propriamente dito ou à propriedade **Value** do objeto **Property**.
 

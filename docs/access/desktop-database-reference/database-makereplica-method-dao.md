@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 632bf0af35dd49951d58ba126b6e03678a1a12db
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 45aa005b7c8337a4c5541ea7217cbdb520bb1725
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950248"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997732"
 ---
 # <a name="databasemakereplica-method-dao"></a>Método Database.MakeReplica (DAO)
 
@@ -41,7 +41,7 @@ Cria uma nova réplica a partir de uma outra réplica do banco de dados (somente
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>

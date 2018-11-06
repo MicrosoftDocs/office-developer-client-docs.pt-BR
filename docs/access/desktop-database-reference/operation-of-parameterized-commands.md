@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1623b32a5ec52acd086bf028a5c1775daae989e8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946144"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997046"
 ---
 # <a name="operation-of-parameterized-commands"></a>Operação dos comandos parametrizados
 
@@ -34,11 +34,8 @@ SHAPE {SELECT * FROM customer}
 
 As tabelas pai e filho têm um nome de coluna em comum, com custo\_id *.* O *comando filho* tem um espaço reservado "?", ao qual se refere a cláusula RELATE (ou seja, "... PARÂMETRO 0").
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] A cláusula PARAMETER refere-se apenas à sintaxe do comando shape. Ela não está associada ao objeto <A href="parameter-object-ado.md">Parameter</A> do ADO ou à coleção <A href="parameters-collection-ado.md">Parameters</A>.</P>
-
-
+> [!OBSERVAçãO] A cláusula PARAMETER refere-se apenas à sintaxe do comando shape. Ela não está associada ao objeto [Parameter](parameter-object-ado.md) do ADO ou à coleção [Parameters](parameters-collection-ado.md).
 
 Quando o comando shape com parâmetros é executado, ocorre o seguinte:
 
@@ -56,8 +53,7 @@ Quando o comando shape com parâmetros é executado, ocorre o seguinte:
 
 A propriedade dinâmica **Cache Child Rows** é definida como **True** por padrão. O comportamento de cache varia dependendo dos valores de parâmetros da consulta. Em uma consulta com um único parâmetro, o **Recordset** filho de um dado valor de parâmetro será armazenado em cache entre as solicitações de um filho com esse valor. O código a seguir demonstra isso:
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 
@@ -72,7 +68,7 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 Em uma consulta com dois ou mais parâmetros, um filho armazenado em cache será usado apenas se todos os valores de parâmetros corresponderem aos valores armazenados em cache.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos com parâmetros e relações complexas entre pais e filhos
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados e relações de filho pai complexa
 
 Além de usar comandos com parâmetros para melhorar o desempenho de uma hierarquia do tipo junção de igualdade, os comandos com parâmetros podem ser usados para oferecer suporte a relações pai-filho mais complexas. Por exemplo, considere um banco de dados de pouca liga com duas tabelas: one consistindo as equipes (equipe\_id, equipe\_nome) e o outro dos jogos (data, residencial\_equipe, visitando\_equipe).
 

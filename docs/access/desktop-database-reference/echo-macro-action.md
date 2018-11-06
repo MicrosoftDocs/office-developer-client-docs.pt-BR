@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921541"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997452"
 ---
 # <a name="echo-macro-action"></a>Ação da macro Eco
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -22,11 +21,8 @@ Você pode usar a ação **eco** para especificar se o eco está ativado. Por ex
 
 ## <a name="setting"></a>Configuração
 
-
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted.
 
 A ação **eco** tem os seguintes argumentos.
 
@@ -54,7 +50,7 @@ A ação **eco** tem os seguintes argumentos.
 </table>
 
 
-Quando executa uma macro, muitas vezes mostra informações não essenciais ao funcionamento da macro de atualização de tela. Quando você define o argumento **Echo ativo** como **não**, a macro será executada sem atualizar a tela. Quando a macro é concluída, o Access automaticamente ativa eco e redesenha a janela. A configuração **não** para o argumento **Eco ativo** não afeta a funcionalidade da macro ou seus resultados.
+Quando uma macro for executada, a atualização da tela frequentemente mostra informações que não são essenciais para o funcionamento da macro. Quando você define o argumento **Echo ativo** como **não**, a macro será executada sem atualizar a tela. Quando a macro é concluída, o Access automaticamente ativa eco e redesenha a janela. A configuração **não** para o argumento **Eco ativo** não afeta a funcionalidade da macro ou seus resultados.
 
 A ação **Echo** não suprime a exibição de caixas de diálogo modal, mensagens de erro ou formulários pop-up, como folhas de propriedades. Você pode usar caixas de diálogo e formulários pop-up para coletar ou exibir informações, mesmo se o eco está desativado. Para suprimir todas as caixas de diálogo ou de mensagem, exceto as caixas de mensagem de erro e caixas de diálogo que exigem que o usuário insira informações, use a ação **DefinirAvisos** .
 
@@ -66,7 +62,7 @@ Para executar a ação **eco** em um módulo Visual Basic for Applications (VBA)
 
 ## <a name="examples"></a>Exemplos
 
-**Definir o valor de um controle usando uma macro**
+### <a name="set-the-value-of-a-control-by-using-a-macro"></a>Definir o valor de um controle usando uma macro
 
 A macro a seguir abre o formulário Adicionar produtos com um botão no formulário Suppliers. Ela mostra o uso do **eco**, **fecharJanela**, **AbrirFormulário**, **DefinirValor**e **GoToControl** ações. A ação **DefinirValor** define o controle de código do fornecedor no formulário produtos como o fornecedor atual no formulário fornecedores. A ação **GoToControl** , em seguida, move o foco para o campo ID da categoria, onde você pode começar a inserir dados para o novo produto. Essa macro deve ser anexada ao botão Adicionar produtos no formulário fornecedores.
 
@@ -113,7 +109,7 @@ A macro a seguir abre o formulário Adicionar produtos com um botão no formulá
 </table>
 
 
-**Sincronizar formulários usando uma macro**
+### <a name="synchronize-forms-by-using-a-macro"></a>Sincronizar formulários usando uma macro
 
 A macro a seguir abre o formulário de lista de produtos no canto inferior direito do formulário fornecedores, exibindo os produtos do fornecedor atual. Ela mostra o uso do **eco**, **MessageBox**, **GoToControl**, **PararMacro**, **AbrirFormulário**e **Moveredimensionarjanela** ações. Ele também mostra o uso de uma expressão condicional com as ações **MessageBox**, **GoToControl**e **PararMacro** . Essa macro deve ser anexada ao botão Revisar produtos no formulário fornecedores.
 

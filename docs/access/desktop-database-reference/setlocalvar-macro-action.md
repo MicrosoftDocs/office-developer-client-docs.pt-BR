@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6db77a3cd712717e5aa2eb22e89f90557a1dabf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b257473d2acd3d17f30a3fdd579d213dcd39487b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926014"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996899"
 ---
 # <a name="setlocalvar-macro-action"></a>Ação da macro DefinirVarLocal
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -55,7 +54,6 @@ A ação **DefinirVarLocal** tem os seguintes argumentos.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentários
 
 As variáveis criadas pela ação **DefinirVarLocal** somente podem ser usadas na macro onde foram definidas. Use a ação **[DefinirVarLocal](settempvar-macro-action.md)** para definir uma variável que pode ser usada em outra macro, em um procedimento de evento ou em um formulário ou relatório.
@@ -64,8 +62,6 @@ Após a criação de uma variável temporária, você poderá fazer referência 
 
 `=[LocalVars]![TotalAmount]`
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Em uma Macro de Dados, não é necessário usar a coleção LocalVars para fazer referência a uma variável. Por exemplo, se você criou uma variável temporária em uma Macro de dados denominado TotalAmount, você pode usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe<BR>= [TotalAmount]</P>
-
+> [!OBSERVAçãO] Em uma Macro de Dados, não é necessário usar a coleção LocalVars para fazer referência a uma variável. Por exemplo, se você criou uma variável temporária em uma Macro de dados denominado TotalAmount, você pode usar a variável como a fonte de controle para uma caixa de texto usando a seguinte sintaxe: `=[TotalAmount]`.
 

@@ -6,24 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2034bb4d8d1fbf3f1a0a37bf6adc7c8b8001bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 330ae78b86c678b675cfd44afa75f72348ac582f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925202"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998907"
 ---
 # <a name="copydatabasefile-macro-action"></a>Ação da macro CopiarArquivoDeBancodeDados
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 Você pode usar a ação **CopiarArquivoDeBancodeDados** para fazer uma cópia do banco de dados atual do Microsoft SQL Server 7.0 ou versões posteriores conectado ao projeto do Access. Access desanexa o banco de dados atual e, em seguida, anexa-o ao servidor de destino. Para obter mais informações sobre como desanexar e anexar um banco de dados, consulte a documentação do SQL Server.
 
-
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
+> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 
 ## <a name="setting"></a>Configuração
@@ -54,13 +51,7 @@ A ação **CopiarArquivoDeBancodeDados** tem os seguintes argumentos.
 <td><p><strong>Desconectar Todos os Usuários</strong></p></td>
 <td><p>Especifica se o Access deve ou não remover os usuários do banco de dados. Se estiver definido como <strong>Sim</strong>, quaisquer usuários conectados ao banco de dados atual serão desconectados para que a operação de banco de dados de cópia possa prosseguir. Se estiver definido como <strong>Não</strong> e um ou mais usuários estiverem conectados ao banco de dados, a operação de banco de dados de cópia falhará. O padrão é <strong>Não</strong>. 
 
-</p>
-
-> [!WARNING]
-> Desconectar usuários de um banco de dados sem aviso adequado pode causar perda de dados.
-
-
-<p></p></td>
+</p><p><strong>Aviso</strong>: desconectar usuários de um banco de dados, sem aviso adequado pode levar à perda de dados.</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,19 +65,17 @@ A ação **CopiarArquivoDeBancodeDados** não só copia os dados, as definiçõe
 
 Requisitos para copiar um banco de dados:
 
-  - Todos os aplicativos e usuários precisam ser desconectados antes de copiar o arquivo de banco de dados.
+- Todos os aplicativos e usuários precisam ser desconectados antes de copiar o arquivo de banco de dados.
 
-  - Todos os objetos e modos de exibição, com exceção do Painel de Navegação, precisam ser fechados.
+- Todos os objetos e modos de exibição, com exceção do Painel de Navegação, precisam ser fechados.
 
-  - O banco de dados atual não pode ser replicado.
+- O banco de dados atual não pode ser replicado.
 
-  - O banco de dados de servidor de origem precisa ser o Microsoft SQL Server 7.0 ou versão posterior, ou o SQL Server 2000 Desktop Engine executado em um computador local.
+- O banco de dados de servidor de origem precisa ser o Microsoft SQL Server 7.0 ou versão posterior, ou o SQL Server 2000 Desktop Engine executado em um computador local.
 
-<!-- end list -->
+- O banco de dados do SQL Server no servidor de origem precisa consistir em um único arquivo.
 
-  - O banco de dados do SQL Server no servidor de origem precisa consistir em um único arquivo.
-
-  - Você precisa ser membro da função sysadmin nos computadores SQL Server de origem e de destino.
+- Você precisa ser membro da função sysadmin nos computadores SQL Server de origem e de destino.
 
 Para executar a ação **CopiarArquivoDeBancodeDados** em um módulo do Visual Basic for Applications, use o método **CopyDatabaseFile** do objeto **DoCmd**.
 

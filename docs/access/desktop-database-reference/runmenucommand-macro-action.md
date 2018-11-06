@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01fc72a620e5c08a6f98b4b69a8eb8da7b98bbb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925671"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996808"
 ---
 # <a name="runmenucommand-macro-action"></a>Ação da macro ExecutarComandodeMenu
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -47,18 +46,14 @@ A ação **ExecutarComandodeMenu** tem o argumento de ação a seguir.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Comentários
 
 Você pode usar a ação **ExecutarComandodeMenu** para executar um comando do Access em uma barra de menus personalizada, na barra de menus global, em um menu de atalho personalizado ou no menu de atalho global.
 
 Use a ação **ExecutarComandodeMenu** em uma macro com expressões condicionais para executar um comando que dependa de certas condições.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Se você clicar na guia <STRONG>Arquivo</STRONG> e depois clicar em <STRONG>Recente</STRONG>, isso mostrará os bancos de dados usados mais recentemente. Você pode clicar em um desses bancos de dados em vez de clicar em <STRONG>Abrir</STRONG>. Esses itens de banco de dados não são exibidos na caixa de listagem suspensa do argumento <STRONG>Comando</STRONG> e não estão disponíveis quando a ação <STRONG>ExecutarComandodeMenu</STRONG> é usada em uma macro.</P>
-
-
+> [!OBSERVAçãO] Se você clicar na guia **Arquivo** e depois clicar em **Recente**, isso mostrará os bancos de dados usados mais recentemente. Você pode clicar em um desses bancos de dados em vez de clicar em **Abrir**. Esses itens de banco de dados não são exibidos na caixa de listagem suspensa do argumento **Comando** e não estão disponíveis quando a ação **ExecutarComandodeMenu** é usada em uma macro.
 
 Quando você converte um banco de dados do Access de uma versão anterior, alguns comandos talvez não fiquem mais disponíveis. Um comando pode ser renomeado, movido para outro menu ou deixar de estar disponível no Access. Não é possível converter as ações **ExecutarItemdoMenu** desses comandos em ações **ExecutarComandodeMenu**. Quando você abrir a macro, o Access exibirá uma ação **ExecutarComandodeMenu** com um argumento **Comando** em branco para esses argumentos. É preciso editar a macro e inserir um argumento de comando válido ou então excluir a ação **ExecutarComandodeMenu**.
 

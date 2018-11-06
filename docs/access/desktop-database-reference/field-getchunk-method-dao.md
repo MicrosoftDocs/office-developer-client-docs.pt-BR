@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921548"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996990"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Método Field.GetChunk (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,7 +29,7 @@ Retorna o conteúdo no todo ou em parte de um objeto ****Field**** [Memo](field-
 
 *expressão* Uma variável que representa um objeto **Field** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -42,20 +41,20 @@ Retorna o conteúdo no todo ou em parte de um objeto ****Field**** [Memo](field-
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>O número de bytes a serem ignorados antes da cópia começar.</p></td>
 </tr>
 <tr class="even">
-<td><p>Bytes</p></td>
+<td><p><em>Bytes</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>O número de bytes que você deseja retornar.</p></td>
@@ -64,7 +63,7 @@ Retorna o conteúdo no todo ou em parte de um objeto ****Field**** [Memo](field-
 </table>
 
 
-### <a name="return-value"></a>Valor de retorno
+## <a name="return-value"></a>Valor de retorno
 
 Variant
 
@@ -76,11 +75,8 @@ Se offset for 0, **GetChunk** começará a copiar do primeiro byte do campo.
 
 Se numbytes for maior que o número de bytes em um campo, **GetChunk** retornará o número real de bytes restantes no campo.
 
-
 > [!NOTE]
 > [!OBSERVAçãO] Use um campo **Memo** para texto e coloque apenas dados binários em campos **Long Binary**. De outra forma, serão gerados resultados indesejados.
-
-
 
 ## <a name="example"></a>Exemplo
 

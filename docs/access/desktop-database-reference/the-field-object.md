@@ -1,20 +1,19 @@
 ---
 title: O objeto Field (referência de banco de dados da área de trabalho do Access)
-TOCTitle: The Field Object
+TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf5e5de6c45cd3b8cc8827a794f5c2ce394d8f43
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d7a8dad03bee863ec53f2731f9e3c99287a70442
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947291"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997424"
 ---
 # <a name="field-object"></a>Objeto Field
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -24,21 +23,21 @@ Use a propriedade **Value** de objetos **Field** para definir ou retornar dados 
 
 Com as coleções, os métodos e as propriedades de um objeto **Field**, você pode fazer o seguinte:
 
-  - Retornar o nome de um campo usando a propriedade **Name**.
+- Retornar o nome de um campo usando a propriedade **Name**.
 
-  - Exibir ou alterar os dados do campo usando a propriedade **Value**. **Value** é a propriedade padrão do objeto **Field**.
+- Exibir ou alterar os dados do campo usando a propriedade **Value**. **Value** é a propriedade padrão do objeto **Field**.
 
-  - Retorne as características básicas de um campo usando as propriedades **Type**, **Precision** e **NumericScale**.
+- Retorne as características básicas de um campo usando as propriedades **Type**, **Precision** e **NumericScale**.
 
-  - Retorne um tamanho declarada de um campo usando a propriedade **DefinedSize**.
+- Retorne um tamanho declarada de um campo usando a propriedade **DefinedSize**.
 
-  - Retorne o tamanho real dos dados em determinado campo usando a propriedade **ActualSize**.
+- Retorne o tamanho real dos dados em determinado campo usando a propriedade **ActualSize**.
 
-  - Determine a quais tipos de funcionalidade há suporte em determinado campo, usando a propriedade **Attributes** e a coleção **Properties**.
+- Determine a quais tipos de funcionalidade há suporte em determinado campo, usando a propriedade **Attributes** e a coleção **Properties**.
 
-  - Manipule os valores dos campos que contêm dados binários longos e de caracteres longos, usando os métodos **AppendChunk** e **GetChunk**.
+- Manipule os valores dos campos que contêm dados binários longos e de caracteres longos, usando os métodos **AppendChunk** e **GetChunk**.
 
-Resolva discrepâncias nos valores dos campos durante as atualizações em lotes, usando as propriedades **OriginalValue** e **UnderlyingValue**, se o provedor oferecer suporte a essas atualizações.
+- Resolva discrepâncias nos valores dos campos durante as atualizações em lotes, usando as propriedades **OriginalValue** e **UnderlyingValue**, se o provedor oferecer suporte a essas atualizações.
 
 ## <a name="describing-a-field"></a>Descrevendo um campo
 
@@ -64,11 +63,8 @@ O identificador da coluna da fonte de dados é representado pela propriedade **N
 
 Para alterar os dados em um campo, defina a propriedade **Value** como um novo valor do tipo correto. O tipo de seu cursor deve oferecer suporte a atualizações para que o conteúdo de um campo seja alterado. A validação do banco de dados não é feita aqui no modo em lotes; portanto, você precisará verificar os erros quando chamar **UpdateBatch** nesse caso. Alguns provedores também oferecem suporte às propriedades **UnderlyingValue** e **OriginalValue** do objeto **Field** do ADO para ajudá-lo a solucionar conflitos quando você tentar realizar atualizações em lotes. Para obter detalhes sobre como solucionar esses conflitos, consulte o [Capítulo 4: Editando dados](chapter-4-editing-data.md).
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Não é possível definir os valores do campo <STRONG>Recordset</STRONG> durante o acréscimo de novos objetos <STRONG>Field</STRONG> a um <STRONG>Recordset</STRONG>. Em vez disso, é possível acrescentar novos objetos <STRONG>Field</STRONG> a um <STRONG>Recordset</STRONG> fechado. Em seguida, o <STRONG>Recordset</STRONG> deverá ser aberto, e só então valores poderão ser atribuídos a esses objetos <STRONG>Field</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Não é possível definir os valores do campo **Recordset** durante o acréscimo de novos objetos **Field** a um **Recordset**. Em vez disso, é possível acrescentar novos objetos **Field** a um **Recordset** fechado. Em seguida, o **Recordset** deverá ser aberto, e só então valores poderão ser atribuídos a esses objetos **Field**.
 
 ## <a name="getting-more-field-information"></a>Obtendo mais informações sobre campos
 
@@ -82,13 +78,13 @@ Não é possível excluir nenhum tipo de propriedade.
 
 Um objeto **Property** dinâmico tem quatro propriedades internas próprias:
 
-  - A propriedade **Name** é uma cadeia de caracteres que identifica a propriedade.
+- A propriedade **Name** é uma cadeia de caracteres que identifica a propriedade.
 
-  - A propriedade **Type** é um número inteiro que especifica o tipo de dados da propriedade.
+- A propriedade **Type** é um número inteiro que especifica o tipo de dados da propriedade.
 
-  - A propriedade **Value** é uma variante que contém a definição da propriedade. **Value** é a propriedade padrão de um objeto **Property**.
+- A propriedade **Value** é uma variante que contém a definição da propriedade. **Value** é a propriedade padrão de um objeto **Property**.
 
-  - A propriedade **Attributes** é um valor **Long** que indica características da propriedade específica do provedor.
+- A propriedade **Attributes** é um valor **Long** que indica características da propriedade específica do provedor.
 
 A coleção **Properties** do objeto **Field** contém metadados adicionais sobre o campo. O conteúdo dessa coleção varia de acordo com o provedor. O exemplo de código a seguir examina a coleção **Properties** do **Recordset** de exemplo apresentado no início deste capítulo. Primeiro, ele observa o conteúdo da coleção. Esse código usa o [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md), de modo que a coleção **Properties** contenha informações relevantes a esse provedor.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921297"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998928"
 ---
 # <a name="indexclustered-property-dao"></a>Propriedade Index.Clustered (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -38,12 +37,8 @@ Alguns formatos de banco de dados de desktop IISAM usam índices agrupados que c
 
 A propriedade **Clustered** é de leitura/gravação para um novo objeto **Index** ainda não acrescentado a uma coleção e somente leitura para um objeto **Index** existente em uma coleção **Indexes**.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Os bancos de dados do mecanismo de banco de dados do Microsoft Access ignoram a propriedade <STRONG>Clustered</STRONG> porque esse mecanismo não fornece suporte a índices agrupados.</P>
-> <LI>
-> <P>Para fontes de dados ODBC, a propriedade <STRONG>Clustered</STRONG> sempre retorna <STRONG>False</STRONG>; ele não detecta se a fonte de dados ODBC tem um índice agrupado ou não.</P></LI></UL>
+> - Os bancos de dados do mecanismo de banco de dados do Microsoft Access ignoram a propriedade **Clustered** porque esse mecanismo não fornece suporte a índices agrupados.
+> - Para fontes de dados ODBC, a propriedade **Clustered** sempre retorna **False**; ele não detecta se a fonte de dados ODBC tem um índice agrupado ou não.
 
 

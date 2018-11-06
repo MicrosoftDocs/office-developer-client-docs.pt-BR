@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f16ae14bc468ce1d96b924faa04bb9a315cab708
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c4031bd4da8d0e1e8f1501e5d3bd23c41b33ea50
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946262"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998298"
 ---
 # <a name="transaction-processing"></a>Processamento de transações
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 O ADO fornece os seguintes métodos para controlar transações: **BeginTrans**, **CommitTrans** e **RollbackTrans**. Use esses métodos com um objeto **Connection** quando desejar salvar ou cancelar uma série de alterações feitas na fonte de dados como uma única unidade. Por exemplo, para transferir dinheiro entre contas, subtraia um valor de uma conta e acrescente o mesmo valor à outra. Se uma das duas atualizações falhar, as contas ficarão desequilibradas. A realização dessas alterações em uma transação aberta garante que todas as alterações, ou nenhuma delas, ocorram.
 
-
 > [!NOTE]
-> <P>Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "<STRONG>Transaction DDL</STRONG>" definida pelo provedor aparece na coleção <A href="properties-collection-ado.md">Properties</A> do objeto <STRONG>Connection</STRONG>, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.</P>
-
-
+> Nem todos os provedores oferecem suporte a transações. Verifique se a propriedade "**Transaction DDL**" definida pelo provedor aparece na coleção [Properties](properties-collection-ado.md) do objeto **Connection**, indicando o suporte do provedor a transações. Se o provedor não oferecer esse suporte, um erro ocorrerá quando você chamar um desses métodos.
 
 Depois que você chamar o método **BeginTrans**, o provedor não confirmará mais instantaneamente as alterações feitas até que **CommitTrans** ou **RollbackTrans** seja chamado para finalizar a transação.
 
@@ -32,7 +28,7 @@ A chamada do método **CommitTrans** salva as alterações feitas em uma transa�
 
 Dependendo da propriedade **Attributes** do objeto [Connection](attributes-property-ado.md), a chamada do método **CommitTrans** ou **RollbackTrans** poderá iniciar automaticamente uma nova transação. Se a propriedade **Attributes** for definida como **adXactCommitRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **CommitTrans**. Se a propriedade **Attributes** for definida como **adXactAbortRetaining**, o provedor iniciará automaticamente uma nova transação após a chamada de **RollbackTrans**.
 
-## <a name="transaction-isolation-level"></a>Nível de isolamento de transação
+## <a name="transaction-isolation-level"></a>Nível de isolamento da transação
 
 Use a propriedade **IsolationLevel** para definir o nível de isolamento de uma transação em um objeto **Connection**. A configuração não tem efeito até a próxima vez que você chamar o método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Se o nível de isolamento solicitado estiver indisponível, o provedor poderá retornar o maior nível seguinte de isolamento. Consulte a propriedade **IsolationLevel** na referência do programador do ADO para obter mais detalhes sobre os valores válidos.
 

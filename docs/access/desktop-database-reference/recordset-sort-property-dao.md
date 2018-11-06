@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b8dc3c551c9aa75da205717fef682f0abed7a54b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926259"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998725"
 ---
 # <a name="recordsetsort-property-dao"></a>Propriedade Recordset.Sort (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -40,11 +39,8 @@ A ordem de classificação padrão é a ascendente (A a Z ou 0 a 100).
 
 A propriedade **Sort** não se aplica à tabela – ou – tipo forward only objetos **Recordset** . Para classificar um objeto **Recordset** do tipo tabela, use a propriedade **[Index](recordset-index-property-dao.md)** .
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Em muitos casos, é mais rápido abrir um novo objeto <STRONG>Recordset</STRONG> usando uma instrução SQL que inclui os critérios de classificação.</P>
-
-
+> [!OBSERVAçãO] Em muitos casos, é mais rápido abrir um novo objeto **Recordset** usando uma instrução SQL que inclui os critérios de classificação.
 
 ## <a name="example"></a>Exemplo
 

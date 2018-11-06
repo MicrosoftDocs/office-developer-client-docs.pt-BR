@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dd3bd047afed2e547be0fb7b6999c16dd0b12cc1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926105"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996472"
 ---
 # <a name="indexunique-property-dao"></a>Propriedade Index.Unique (DAO)
 
@@ -37,21 +37,12 @@ Um índice exclusivo é composto de um ou vários campos que organizam, de forma
 
 Se ambas as propriedades **Unique** e **[Primary](index-primary-property-dao.md)** de um objeto **Index** estiverem definidas como **True**, o índice será exclusivo e primário: identificará exclusivamente todos os registros da tabela em uma ordem lógica e predefinida. Se a propriedade **Primary** estiver definida como **False**, o índice será um índice secundário. Os índices secundários (ambos chave e não chave) organizam logicamente os registros em uma ordem predefinida sem servirem de identificadores para os registros de uma tabela.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Não é necessário criar índices para tabelas mas, em tabelas grandes e não indexadas, o acesso a um registro específico pode demorar muito tempo.</P>
-> <LI>
-> <P>Os registros recuperados das tabelas sem os índices não são retornados em uma sequência específica.</P>
-> <LI>
-> <P>A propriedade <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de cada objeto <STRONG><A href="field-object-dao.md">Field</A></STRONG> no objeto <STRONG>Index</STRONG> determina a ordem dos registros e, consequentemente, determina as técnicas de acesso para uso desse objeto <STRONG>Index</STRONG>.</P>
-> <LI>
-> <P>Um índice exclusivo ajuda a otimizar a localização de registros.</P>
-> <LI>
-> <P>Os índices não afetem a ordem física de uma tabela base , afetam apenas a forma como os registros serão acessados pelo objeto <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> do tipo tabela, quando um índice específico for escolhido ou quando o mecanismo de dados do Microsoft Access criar objetos <STRONG>Recordset</STRONG>.</P></LI></UL>
-
-
+> - Não é necessário criar índices para tabelas mas, em tabelas grandes e não indexadas, o acesso a um registro específico pode demorar muito tempo.
+> - Os registros recuperados das tabelas sem os índices não são retornados em uma sequência específica.
+> - A propriedade **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** no objeto **Index** determina a ordem dos registros e, consequentemente, determina as técnicas de acesso para uso desse objeto **Index**.
+> - Um índice exclusivo ajuda a otimizar a localização de registros.
+> - Os índices não afetam a ordem física de uma tabela base; os índices afetam apenas o modo como os registros são acessados pelo objeto **[Recordset](recordset-object-dao.md)** tipo tabela quando um índice específico é escolhido ou quando o mecanismo de banco de dados do Microsoft Access cria objetos **Recordset** .
 
 ## <a name="example"></a>Exemplo
 

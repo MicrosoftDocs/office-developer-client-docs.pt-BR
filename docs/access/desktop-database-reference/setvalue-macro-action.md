@@ -6,32 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f407c5da2ca669025d5aec47685e6eb9732c72c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927099"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998872"
 ---
 # <a name="setvalue-macro-action"></a>Ação da macro DefinirValor
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 Você pode usar a ação **DefinirValor** para definir o valor de um campo do Microsoft Access, o controle ou a propriedade em um formulário, uma folha de dados do formulário ou um relatório.
 
-
 > [!NOTE]
-> <P>Você não pode usar a ação <STRONG>DefinirValor</STRONG> para definir o valor de uma propriedade que retorna um objeto do Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> - Você não pode usar a ação **DefinirValor** para definir o valor de uma propriedade que retorna um objeto do Access.
+> - [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
 
 ## <a name="setting"></a>Configuração
 
@@ -55,23 +45,14 @@ A ação **DefinirValor** tem os seguintes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Expressão</strong>.</p></td>
-<td><p>A expressão que Access usa para definir o valor deste item. Você sempre deve usar a sintaxe completa para se referir a quaisquer objetos na expressão. Por exemplo, para aumentar o valor em um controle salário em um formulário Employees em 10 por cento, use Forms! Funcionários! Salário * 1.1. Este é um argumento obrigatório.</p>
-
-> [!NOTE]
-> <P>Você não deve usar um sinal de igualdade (<STRONG>=</STRONG>) antes da expressão neste argumento. Se fizer isso, o Access avalia a expressão e, em seguida, usa esse valor como a expressão neste argumento. Isso pode gerar resultados inesperados se a expressão for uma cadeia de caracteres.</P>
-
-
+<td><p>A expressão que Access usa para definir o valor deste item. Você sempre deve usar a sintaxe completa para se referir a quaisquer objetos na expressão. Por exemplo, para aumentar o valor em um controle salário em um formulário Employees em 10 por cento, use Forms! Funcionários! Salário * 1.1. Este é um argumento obrigatório.</p><p><strong>Observação</strong>: você não deve usar um sinal de igual (=) antes da expressão neste argumento. Se fizer isso, o Access avalia a expressão e, em seguida, usa esse valor como a expressão neste argumento. Isso pode gerar resultados inesperados se a expressão for uma cadeia de caracteres.</p>
 <p>Por exemplo, se você digitar <strong> = &quot;sequência1&quot; </strong> para este argumento, o Access primeiro avalia a expressão como Sequência1. Em seguida, ele usa String1 como a expressão neste argumento, esperando encontrar um controle ou a propriedade chamada String1 no formulário ou relatório que chamou a macro.</p></td>
 </tr>
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Em um banco de dados do Access (. mdb ou. accdb), clique no botão <STRONG>Construir</STRONG> para usar o construtor de expressões para criar uma expressão para um desses argumentos.</P>
-
-
+> Em um banco de dados do Access (. mdb ou. accdb), clique no botão **Construir** para usar o construtor de expressões para criar uma expressão para um desses argumentos.
 
 ## <a name="remarks"></a>Comentários
 
@@ -83,22 +64,13 @@ Se você definir o valor de um controle em um formulário, a ação **DefinirVal
 
 Para alterar o valor de um controle, você pode usar a ação **DefinirValor** em uma macro especificada pela propriedade de evento **AfterUpdate** do controle. No entanto, você não pode usar a ação **DefinirValor** em uma macro especificada pela propriedade de evento **BeforeUpdate** de um controle para alterar o valor do controle (embora você pode usar a ação **DefinirValor** para alterar o valor de outros controles). Você também pode usar a ação **DefinirValor** em uma macro especificada pela propriedade **BeforeUpdate** ou **AfterUpdate** de um formulário para alterar o valor de quaisquer controles no registro atual.
 
-
 > [!NOTE]
-> <P>Você não pode usar a ação <STRONG>DefinirValor</STRONG> para definir o valor dos controles a seguir:</P>
-> <UL>
-> <LI>
-> <P>Controles vinculados e controles calculados em relatórios.</P>
-> <LI>
-> <P>Controles calculados em formulários.</P></LI></UL>
-
-
-
+> Você não pode usar a ação **DefinirValor** para definir o valor dos controles a seguir:
+> - Controles vinculados e controles calculados em relatórios.
+> - Controles calculados em formulários.
 
 > [!TIP]
-> <P>Você pode usar a ação <STRONG>DefinirValor</STRONG> para ocultar ou mostrar um formulário no modo formulário. Insira <STRONG>Forms</STRONG>! <EM>formname</EM> <STRONG>. Visível</STRONG> na caixa de <STRONG>Item</STRONG> e <STRONG>não</STRONG> ou <STRONG>Sim</STRONG> na caixa <STRONG>expressão</STRONG> . A definição da propriedade <STRONG>visível</STRONG> do formulário uma janela restrita como <STRONG>não</STRONG> oculta o formulário e o torna sem janela restrita. Configuração da propriedade como <STRONG>Sim</STRONG> exibe o formulário e o torna restrito novamente.</P>
-
-
+> Você pode usar a ação **DefinirValor** para ocultar ou mostrar um formulário no modo formulário. Insira **Forms**! *formname * * *. Visível** na caixa de **Item** e **não** ou **Sim** na caixa **expressão** . A definição da propriedade **visível** do formulário uma janela restrita como **não** oculta o formulário e o torna sem janela restrita. Configuração da propriedade como **Sim** exibe o formulário e o torna restrito novamente.
 
 Alterando o valor da ou adicionando novos dados em um controle usando a ação **DefinirValor** em uma macro não aciona eventos como **BeforeUpdate**, **BeforeInsert**ou **Change** que ocorrem quando você altera ou insere dados nesses controles através do interface do usuário. Esses eventos também não ocorrem se você definir o valor do controle usando um Visual Basic para módulo Applications (VBA).
 

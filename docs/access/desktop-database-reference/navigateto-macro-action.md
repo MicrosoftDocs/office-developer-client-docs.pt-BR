@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920806"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998277"
 ---
 # <a name="navigateto-macro-action"></a>Ação da macro NavegarPara
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -54,50 +53,48 @@ A ação **NavegarPara** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-  - Esta ação é semelhante à seleção de categorias e grupos na barra de título do Painel de Navegação.
+- Esta ação é semelhante a selecionar categorias e grupos na barra de título do painel de navegação.
 
-  - Os argumentos **Grupo** válidos dependem do argumento **Categoria** usado. Se você digitar um argumento **Grupo** inválido, será exibida uma mensagem de erro.A tabela a seguir contém exemplos de argumentos **Grupo** válidos para cada argumento **Categoria**.
+- Os argumentos **Grupo** válidos dependem do argumento **Categoria** usado. Se você digitar um argumento **Grupo** inválido, será exibida uma mensagem de erro.A tabela a seguir contém exemplos de argumentos **Grupo** válidos para cada argumento **Categoria**.
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Argumento Categoria</p></th>
-    <th><p>Argumentos Grupo de exemplo</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Tipo de Objeto</p></td>
-    <td><p>Tabelas; Formulários; Consultas; Páginas; Macros; Módulos</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Tabelas e Exibições</p></td>
-    <td><p>Nomes de tabelas específicas do banco de dados</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Data de Modificação</p></td>
-    <td><p>Hoje; Ontem; Mês Passado; Mais Antiga</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Data de Criação</p></td>
-    <td><p>Hoje; Ontem; Mês Passado; Mais Antiga</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Categoria Personalizado</p></td>
-    <td><p>Nomes de grupos que você criou para a categoria personalizada especificada</p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p>Argumento Categoria</p></th>
+  <th><p>Argumentos Grupo de exemplo</p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p>Tipo de Objeto</p></td>
+  <td><p>Tabelas; Formulários; Consultas; Páginas; Macros; Módulos</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Tabelas e Exibições</p></td>
+  <td><p>Nomes de tabelas específicas do banco de dados</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Data de Modificação</p></td>
+  <td><p>Hoje; Ontem; Mês Passado; Mais Antiga</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Data de Criação</p></td>
+  <td><p>Hoje; Ontem; Mês Passado; Mais Antiga</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Categoria Personalizado</p></td>
+  <td><p>Nomes de grupos que você criou para a categoria personalizada especificada</p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - Para executar a ação **NavegarPara** em um módulo do VBA, use o método **NavigateTo** do objeto **DoCmd**.
-
+- Para executar a ação **NavegarPara** em um módulo do VBA, use o método **NavigateTo** do objeto **DoCmd**.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Para navegar até o nível superior de uma categoria (por exemplo, <STRONG>Todas as Tabelas</STRONG>, <STRONG>Todos os Objetos do Access</STRONG> ou <STRONG>Todas as Datas</STRONG>), é necessário deixar o argumento Grupo em branco. Por exemplo, quando o argumento <STRONG>Categoria</STRONG> é <STRONG>Tipo de Objeto</STRONG>, a inserção de <STRONG>Todos os Objetos do Access</STRONG> como um argumento <STRONG>Grupo</STRONG> resulta em erro.</P>
+> [!OBSERVAçãO] Para navegar até o nível superior de uma categoria (por exemplo, **Todas as Tabelas**, **Todos os Objetos do Access** ou **Todas as Datas**), é necessário deixar o argumento Grupo em branco. Por exemplo, quando o argumento **Categoria** é **Tipo de Objeto**, a inserção de **Todos os Objetos do Access** como um argumento **Grupo** resulta em erro.
 
 

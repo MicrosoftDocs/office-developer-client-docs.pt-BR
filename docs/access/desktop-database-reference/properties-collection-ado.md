@@ -10,15 +10,14 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 37cebaad95f1715ad53147709fb7f6a11344ef10
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a4e683781fc2c508b34717447fcac6f02f54d6ff
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922703"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997844"
 ---
 # <a name="properties-collection-ado"></a>Coleção Properties (ADO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -28,11 +27,8 @@ Contém todos os objetos [Property](property-object-ado.md) para uma instância 
 
 Alguns objetos ADO têm uma coleção **Properties** feita de objetos **Property**. Cada objeto **Property** corresponde a uma característica do objeto ADO específico do provedor.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Consulte o tópico do objeto <A href="property-object-ado.md">Property</A> para obter uma explicação mais detalhada de como usar os objetos <STRONG>Property</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Consulte o tópico do objeto [Property](property-object-ado.md) para obter uma explicação mais detalhada de como usar os objetos **Property**.
 
 As **propriedades Dynamic** do objeto **Recordset** saem do escopo (tornam-se não disponíveis), quando o **Recordset** está fechado.
 

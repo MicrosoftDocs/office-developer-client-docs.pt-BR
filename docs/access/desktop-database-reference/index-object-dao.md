@@ -1,17 +1,17 @@
 ---
-title: Objetos de objeto Index - acesso a dados (DAO)
-TOCTitle: Index Object
+title: Objeto Index - Data Access Objects (DAO)
+TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc849e22da654bd384065e4c169b3fd5540c6061
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6646a3121bc353c8e8d74e3698ae688272656769
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928961"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997396"
 ---
 # <a name="index-object-dao"></a>Objeto Index (DAO)
 
@@ -34,14 +34,14 @@ O mecanismo de banco de dados do Microsoft Access mantém todos os índices da t
 Ao acessar um objeto **Recordset** tipo tabela, especifique a ordem dos registros utilizando a propriedade **Index** do objeto. Defina essa propriedade para a configuração da propriedade **Name** de um objeto **Index** existente na coleção **Indexes**. Essa coleção está contida no objeto **[TableDef](tabledef-object-dao.md)**, base do objeto **Recordset** que você está preenchendo.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você não tem que criar índices para uma tabela, mas para tabelas grandes e não indexadas, acessar um registro específico ou processar associações pode demorar muito tempo. Por outro lado, ter muitos índices pode tornar mais lentas as atualizações para o banco de dados, pois cada índice de tabela é corrigido.</P>
+> [!OBSERVAçãO] Você não tem que criar índices para uma tabela, mas para tabelas grandes e não indexadas, acessar um registro específico ou processar associações pode demorar muito tempo. Por outro lado, ter muitos índices pode tornar mais lentas as atualizações para o banco de dados, pois cada índice de tabela é corrigido.
 
 A propriedade **[Attributes](field-attributes-property-dao.md)** de cada objeto **Field** no índice determina a ordem dos registros retornados e consequentemente determina quais técnicas de acesso serão utilizadas para aquele índice.
 
 Cada objeto **Field** na coleção **Fields** de um objeto **Index** é um componente do índice. Para definir um novo objeto **Index**, defina suas propriedades antes de acrescentá-lo a uma coleção, tornando o objeto **Index** disponível para uso subsequente.
 
 > [!NOTE]
-> <P>[!OBSERVAçãO] Você pode modificar a configuração da propriedade <STRONG>Name</STRONG> de um objeto <STRONG>Index</STRONG> existente somente se a configuração da propriedade <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> do objeto <STRONG>TableDef</STRONG> contido for <STRONG>True</STRONG>.</P>
+> [!OBSERVAçãO] Você pode modificar a configuração da propriedade **Name** de um objeto **Index** existente somente se a configuração da propriedade **[Updatable](connection-updatable-property-dao.md)** do objeto **TableDef** contido for **True**.
 
 Quando você define uma chave primária para uma tabela, o mecanismo de banco de dados do Microsoft Access define-a automaticamente como o índice principal. Este consiste em um ou mais campos que identificam todos os registros de uma tabela, de forma exclusiva, em uma ordem predefinida. Como o campo do índice principal deve ser exclusivo, o mecanismo de banco de dados do Microsoft Access define automaticamente a propriedade **Unique** do objeto **Index** principal como **True**. Se o índice principal consistir em mais de um campo, cada campo poderá conter valores duplicados, mas a combinação de valores de todos os campos indexados deve ser exclusiva. Um índice principal consiste em uma chave para a tabela e é sempre composto pelos mesmos campos que a chave primária.
 
@@ -59,12 +59,9 @@ Quando você cria uma relação que impõe a integridade referencial, o mecanism
 4.  Acrescente o objeto **Field** na coleção **Fields**.
 
 5.  Acrescente o objeto **Index** na coleção **Indexes**.
-    
 
     > [!NOTE]
-    > <P>[!OBSERVAçãO] A propriedade <STRONG>Clustered</STRONG> é ignorada para bancos de dados que usam o mecanismo de banco de dados do Microsoft Access, que não aceita índices agrupados.</P>
-
-
+    > [!OBSERVAçãO] A propriedade **Clustered** é ignorada para bancos de dados que usam o mecanismo de banco de dados do Microsoft Access, que não aceita índices agrupados.
 
 ## <a name="example"></a>Exemplo
 

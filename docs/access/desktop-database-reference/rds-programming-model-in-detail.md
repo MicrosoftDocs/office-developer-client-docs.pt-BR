@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b152715c104c9c3a4d503254d0dc36622e29006c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ea0f47e8ad86ecac4dd2423c289e3891cd7c6719
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943826"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998522"
 ---
 # <a name="rds-programming-model-in-detail"></a>Modelo de programação RDS detalhadamente
 
@@ -62,8 +62,7 @@ O objeto **RDS.DataControl** também possui seus próprios métodos de navegaç�
 
 O RDS oferece suporte a dois de seus próprios eventos, que são independentes do modelo de evento ADO. O evento [onReadyStateChange](onreadystatechange-event-rds.md) é chamado sempre que o **RDS. DataControl** propriedade [ReadyState](readystate-property-rds.md) será alterada, notificando você quando uma operação assíncrona for concluído com êxito, encerrada ou houve um erro. O evento [onError](onerror-event-rds.md) é chamado sempre que ocorre um erro, mesmo que ele ocorra durante uma operação assíncrona.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] O Microsoft Internet Explorer oferece dois eventos adicionais aos do RDS  <STRONG>onDataSetChanged</STRONG> (o <STRONG>Recordset</STRONG> está funcional, mas ainda recupera linhas) e <STRONG>onDataSetComplete</STRONG> (o <STRONG>Recordset</STRONG> concluiu a recuperação de linhas).</P>
+> [!OBSERVAçãO] O Microsoft Internet Explorer oferece dois eventos adicionais aos do RDS  **onDataSetChanged** (o **Recordset** está funcional, mas ainda recupera linhas) e **onDataSetComplete** (o **Recordset** concluiu a recuperação de linhas).
 
 

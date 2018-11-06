@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13516830ddb9cb22e8e50872b51743ea5d54ab98
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e9679a39a8509bb73e9d788e776e208f3c899d3c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921485"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998403"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Método Recordset2.CancelUpdate (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -26,7 +25,7 @@ Cancela quaisquer atualizações pendentes para um objeto **[Recordset](recordse
 
 *expressão* Uma variável que representa um objeto **Recordset2** .
 
-### <a name="parameters"></a>Parâmetros
+## <a name="parameters"></a>Parâmetros
 
 <table>
 <colgroup>
@@ -38,22 +37,17 @@ Cancela quaisquer atualizações pendentes para um objeto **[Recordset](recordse
 <thead>
 <tr class="header">
 <th><p>Nome</p></th>
-<th><p>Obrigatório/Opcional</p></th>
+<th><p>Obrigatório/opcional</p></th>
 <th><p>Tipo de dados</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Defina como um dos valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p>
-
-> [!NOTE]
-> <P>Os valores <EM>dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> são válidos somente se a atualização em lotes está habilitado.</P>
-
-
+<td><p>Defina como um dos valores <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Observação</strong>: os valores de <EM>dbUpdateRegular</EM> e <EM>dbUpdateBatch</EM> são válidos somente se a atualização em lotes está habilitado.</p>
 </td>
 </tr>
 </tbody>
@@ -66,11 +60,8 @@ Você pode usar o método **CancelUpdate** para cancelar atualizações pendente
 
 Verifique a propriedade **[EditMode](recordset2-editmode-property-dao.md)** do **Recordset** para determinar se existe uma operação pendente que possa ser cancelada.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Usar o método <STRONG>CancelUpdate</STRONG> tem o mesmo efeito de mover para outro registro sem usar o método <STRONG><A href="recordset2-update-method-dao.md">Update</A></STRONG>, exceto pelo fato de que o registro atual não muda e várias propriedades, como <STRONG><A href="recordset2-bof-property-dao.md">BOF</A></STRONG> e <STRONG><A href="recordset2-eof-property-dao.md">EOF</A></STRONG>, não são atualizadas.</P>
-
-
+> [!OBSERVAçãO] Usar o método **CancelUpdate** tem o mesmo efeito de mover para outro registro sem usar o método **[Update](recordset2-update-method-dao.md)**, exceto pelo fato de que o registro atual não muda e várias propriedades, como **[BOF](recordset2-bof-property-dao.md)** e **[EOF](recordset2-eof-property-dao.md)**, não são atualizadas.
 
 ## <a name="example"></a>Exemplo
 

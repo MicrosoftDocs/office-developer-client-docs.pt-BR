@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6eec9f6be18bbf059660c804313918c480631e0b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 50134e8271ec5bb89a35eb3114b8b8e63267450a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927809"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997522"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Propriedade RecordCount (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -30,11 +29,8 @@ Retorna o número de registros acessados em um objeto **[Recordset](recordset-ob
 
 Use a propriedade **RecordCount** para descobrir quantos registros de um objeto **Recordset** ou **TableDef** foram acessados. A propriedade **RecordCount** não indica quantos registros estão contido em um dynaset, instantâneo ou objeto **Recordset** do tipo somente encaminhamento, até que todos os registros foram acessados. Assim que o último registro tiver sido acessado, a propriedade **RecordCount** indicará o número total de registros não excluídos no objeto **Recordset** ou **TableDef**. Para impor que o último registro seja acessado, use o método **[MoveLast](recordset-movelast-method-dao.md)** no objeto **Recordset**. Você também pode usar uma função **Count** SQL para determinar o número aproximado de registros que a sua consulta retornará.
 
-
 > [!NOTE]
-> <P>[!OBSERVAçãO] Usar o método <STRONG>MoveLast</STRONG> para preencher um <STRONG>Recordset</STRONG> recém-aberto afeta negativamente o desempenho. A menos que seja necessário ter uma <STRONG>RecordCount</STRONG> precisa assim que você abrir um <STRONG>Recordset</STRONG>, será melhor aguardar até o preenchimento do <STRONG>Recordset</STRONG> com outras partes de código antes da verificação da propriedade <STRONG>RecordCount</STRONG>.</P>
-
-
+> [!OBSERVAçãO] Usar o método **MoveLast** para preencher um **Recordset** recém-aberto afeta negativamente o desempenho. A menos que seja necessário ter uma **RecordCount** precisa assim que você abrir um **Recordset**, será melhor aguardar até o preenchimento do **Recordset** com outras partes de código antes da verificação da propriedade **RecordCount**.
 
 À medida que seu aplicativo exclui registros em um objeto **Recordset** do tipo dynaset, o valor da propriedade **RecordCount** será reduzido. Entretanto, os registros excluídos por outros usuários não serão refletidos pela propriedade **RecordCount** até o registro atual ser posicionado em um registro excluído. Se você executar uma transação que afete a configuração da propriedade **RecordCount** e se depois a transação for revertida, a propriedade **RecordCount** não afetará o número real de registros restantes.
 

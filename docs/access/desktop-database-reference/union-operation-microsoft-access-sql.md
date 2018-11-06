@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937418"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998816"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Operação UNION (Microsoft Access SQL)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -69,15 +68,9 @@ Todas as consultas em uma operação UNION devem solicitar o mesmo número de ca
 
 Use aliases somente na primeira instrução SELECT, porque eles são ignorados em quaisquer outras instruções. Na cláusula ORDER BY, refira-se aos campos pelo modo como são chamados na primeira instrução SELECT.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Você pode usar uma cláusula <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> ou <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> em cada argumento <EM>query</EM> para agrupar os dados retornados.</P>
-> <LI>
-> <P>Você pode usar uma cláusula <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> no final do último argumento <EM>query</EM> para exibir os dados retornados em uma ordem específica.</P></LI></UL>
-
-
+> - Você pode usar uma cláusula [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) em cada argumento *query* para agrupar os dados retornados.
+> - Você pode usar uma cláusula [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) no final do último argumento *query* para exibir os dados retornados em uma ordem específica.
 
 ## <a name="example"></a>Exemplo
 
