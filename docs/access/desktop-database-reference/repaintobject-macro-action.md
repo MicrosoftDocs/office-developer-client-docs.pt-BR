@@ -10,23 +10,22 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919413"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996458"
 ---
-# <a name="repaintobject-macro-action"></a><span data-ttu-id="9f595-102">Ação da macro RedesenharObjeto</span><span class="sxs-lookup"><span data-stu-id="9f595-102">RepaintObject macro action</span></span>
+# <a name="repaintobject-macro-action"></a><span data-ttu-id="7786a-102">Ação da macro RedesenharObjeto</span><span class="sxs-lookup"><span data-stu-id="7786a-102">RepaintObject macro action</span></span>
 
+<span data-ttu-id="7786a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7786a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9f595-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f595-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7786a-p101">Você pode usar a ação **RedesenharObjeto** para concluir todas as atualizações de tela pendentes para um objeto de bancos de dados especificado ou para o objeto de banco de dados ativo, caso não haja nenhum especificado. Essas atualizações incluem todos os recálculos pendentes de controles do objeto.</span><span class="sxs-lookup"><span data-stu-id="7786a-p101">You can use the **RepaintObject** action to complete any pending screen updates for a specified database object or for the active database object, if none is specified. Such updates include any pending recalculations for the object's controls.</span></span>
 
-<span data-ttu-id="9f595-p101">Você pode usar a ação **RedesenharObjeto** para concluir todas as atualizações de tela pendentes para um objeto de bancos de dados especificado ou para o objeto de banco de dados ativo, caso não haja nenhum especificado. Essas atualizações incluem todos os recálculos pendentes de controles do objeto.</span><span class="sxs-lookup"><span data-stu-id="9f595-p101">You can use the **RepaintObject** action to complete any pending screen updates for a specified database object or for the active database object, if none is specified. Such updates include any pending recalculations for the object's controls.</span></span>
+## <a name="setting"></a><span data-ttu-id="7786a-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="7786a-106">Setting</span></span>
 
-## <a name="setting"></a><span data-ttu-id="9f595-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="9f595-106">Setting</span></span>
-
-<span data-ttu-id="9f595-107">A ação **RedesenharObjeto** tem os argumentos a seguir.</span><span class="sxs-lookup"><span data-stu-id="9f595-107">The **RepaintObject** action has the following arguments.</span></span>
+<span data-ttu-id="7786a-107">A ação **RedesenharObjeto** tem os argumentos a seguir.</span><span class="sxs-lookup"><span data-stu-id="7786a-107">The **RepaintObject** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,40 +34,34 @@ ms.locfileid: "25919413"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9f595-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="9f595-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="9f595-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="9f595-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="7786a-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="7786a-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="7786a-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="7786a-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9f595-110"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="9f595-110"><strong>Object Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f595-p102">O tipo de objeto a ser redesenhado. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe esse argumento em branco para selecionar o objeto ativo.</span><span class="sxs-lookup"><span data-stu-id="9f595-p102">The type of object to repaint. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. Leave this argument blank to select the active object.</span></span></p></td>
+<td><p><span data-ttu-id="7786a-110"><strong>Tipo de Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="7786a-110"><strong>Object Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="7786a-p102">O tipo de objeto a ser redesenhado. Clique em <strong>Tabela</strong>, <strong>Consulta</strong>, <strong>Formulário</strong>, <strong>Relatório</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de Acesso a Dados</strong>, <strong>Modo de Exibição do Servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimento Armazenado</strong> ou <strong>Função</strong> na caixa <strong>Tipo de Objeto</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Deixe esse argumento em branco para selecionar o objeto ativo.</span><span class="sxs-lookup"><span data-stu-id="7786a-p102">The type of object to repaint. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. Leave this argument blank to select the active object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9f595-114"><strong>Nome do Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="9f595-114"><strong>Object Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f595-p103">O nome do objeto a ser redesenhado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, faça o mesmo com este argumento.</span><span class="sxs-lookup"><span data-stu-id="9f595-p103">The name of the object to repaint. The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. If you leave the <strong>Object Type</strong> argument blank, leave this argument blank also.</span></span></p></td>
+<td><p><span data-ttu-id="7786a-114"><strong>Nome do Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="7786a-114"><strong>Object Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="7786a-p103">O nome do objeto a ser redesenhado. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos de banco de dados do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, faça o mesmo com este argumento.</span><span class="sxs-lookup"><span data-stu-id="7786a-p103">The name of the object to repaint. The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. If you leave the <strong>Object Type</strong> argument blank, leave this argument blank also.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="9f595-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="9f595-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7786a-118">Comentários</span><span class="sxs-lookup"><span data-stu-id="7786a-118">Remarks</span></span>
 
-<span data-ttu-id="9f595-p104">Para concluir as atualizações de tela pendentes, o Microsoft Access aguarda a finalização de outras tarefas pendentes. Com esta ação, você pode forçar o redesenho imediato dos controles do objeto especificado. Você pode usar a ação:</span><span class="sxs-lookup"><span data-stu-id="9f595-p104">Microsoft Access waits to complete pending screen updates until it finishes other pending tasks. With this action, you can force immediate repainting of the controls in the specified object. You can use this action:</span></span>
+<span data-ttu-id="7786a-p104">Para concluir as atualizações de tela pendentes, o Microsoft Access aguarda a finalização de outras tarefas pendentes. Com esta ação, você pode forçar o redesenho imediato dos controles do objeto especificado. Você pode usar a ação:</span><span class="sxs-lookup"><span data-stu-id="7786a-p104">Microsoft Access waits to complete pending screen updates until it finishes other pending tasks. With this action, you can force immediate repainting of the controls in the specified object. You can use this action:</span></span>
 
-  - <span data-ttu-id="9f595-p105">Quando utilizar a ação **DefinirValor** para alterar valores em vários controles. O Access talvez não mostre as alterações de imediato, principalmente se outros controles (por exemplo, controles calculados) dependerem dos valores dos controles alterados.</span><span class="sxs-lookup"><span data-stu-id="9f595-p105">When you use the **SetValue** action to change values in a number of controls. Access might not show the changes immediately, especially if other controls (such as calculated controls) depend on values in the changed controls.</span></span>
+- <span data-ttu-id="7786a-p105">Quando utilizar a ação **DefinirValor** para alterar valores em vários controles. O Access talvez não mostre as alterações de imediato, principalmente se outros controles (por exemplo, controles calculados) dependerem dos valores dos controles alterados.</span><span class="sxs-lookup"><span data-stu-id="7786a-p105">When you use the **SetValue** action to change values in a number of controls. Access might not show the changes immediately, especially if other controls (such as calculated controls) depend on values in the changed controls.</span></span>
 
-  - <span data-ttu-id="9f595-p106">Quando quiser verificar se o formulário em exibição mostra os dados de todos os controles. Por exemplo, controles contendo objetos OLE não exibem os dados imediatamente após a abertura de um formulário.</span><span class="sxs-lookup"><span data-stu-id="9f595-p106">When you want to make sure that the form you are viewing displays data in all of its controls. For example, controls containing OLE objects don't display their data immediately after you open a form.</span></span>
-
+- <span data-ttu-id="7786a-p106">Quando quiser verificar se o formulário em exibição mostra os dados de todos os controles. Por exemplo, controles contendo objetos OLE não exibem os dados imediatamente após a abertura de um formulário.</span><span class="sxs-lookup"><span data-stu-id="7786a-p106">When you want to make sure that the form you are viewing displays data in all of its controls. For example, controls containing OLE objects don't display their data immediately after you open a form.</span></span>
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P><span data-ttu-id="9f595-p107">Esta ação não ativa a repetição de consulta do banco de dados, portanto, não mostra registros novos e alterados nem remove registros excluídos da tabela ou da consulta subjacente do objeto. Use a ação <STRONG>Repetir Consulta</STRONG> para consultar outra vez a origem do objeto ou de um de seus controles. Use a ação <STRONG>MostrarTodosRegistros</STRONG> para exibir a maioria dos registros recentes e remover todos os filtros aplicados.</span><span class="sxs-lookup"><span data-stu-id="9f595-p107">This action doesn't cause a requery of the database, so it doesn't show new and changed records or remove deleted records from the object's underlying table or query. Use the <STRONG>Requery</STRONG> action to requery the source of the object or one of its controls. Use the <STRONG>ShowAllRecords</STRONG> action to display the most recent records and remove any applied filters.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="9f595-129">A ação <STRONG>RedesenharObjeto</STRONG> não tem o mesmo efeito de clicar em <STRONG>Atualizar</STRONG> no grupo <STRONG>Registros</STRONG> da guia <STRONG>Página Inicial</STRONG>, que mostra todas as alterações que você ou outros usuários tenham feito nos registros exibidos no momento, em formulários e folhas de dados.</span><span class="sxs-lookup"><span data-stu-id="9f595-129">The <STRONG>RepaintObject</STRONG> action doesn't have the same effect as clicking <STRONG>Refresh</STRONG> in the <STRONG>Records</STRONG> group on the <STRONG>Home</STRONG> tab, which shows any changes you or other users have made to the currently displayed records in forms and datasheets.</span></span></P></LI></UL>
+> - <span data-ttu-id="7786a-p107">Esta ação não ativa a repetição de consulta do banco de dados, portanto, não mostra registros novos e alterados nem remove registros excluídos da tabela ou da consulta subjacente do objeto. Use a ação **Repetir Consulta** para consultar outra vez a origem do objeto ou de um de seus controles. Use a ação **MostrarTodosRegistros** para exibir a maioria dos registros recentes e remover todos os filtros aplicados.</span><span class="sxs-lookup"><span data-stu-id="7786a-p107">This action doesn't cause a requery of the database, so it doesn't show new and changed records or remove deleted records from the object's underlying table or query. Use the **Requery** action to requery the source of the object or one of its controls. Use the **ShowAllRecords** action to display the most recent records and remove any applied filters.</span></span>
+> - <span data-ttu-id="7786a-129">A ação **RedesenharObjeto** não tem o mesmo efeito de clicar em **Atualizar** no grupo **Registros** da guia **Página Inicial**, que mostra todas as alterações que você ou outros usuários tenham feito nos registros exibidos no momento, em formulários e folhas de dados.</span><span class="sxs-lookup"><span data-stu-id="7786a-129">The **RepaintObject** action doesn't have the same effect as clicking **Refresh** in the **Records** group on the **Home** tab, which shows any changes you or other users have made to the currently displayed records in forms and datasheets.</span></span>
 
-
-
-<span data-ttu-id="9f595-130">Para executar a ação **RedesenharObjeto** em um módulo do VBA, use o método **RepaintObject** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="9f595-130">To run the **RepaintObject** action in a Visual Basic for Applications (VBA) module, use the **RepaintObject** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="7786a-130">Para executar a ação **RedesenharObjeto** em um módulo do VBA, use o método **RepaintObject** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="7786a-130">To run the **RepaintObject** action in a Visual Basic for Applications (VBA) module, use the **RepaintObject** method of the **DoCmd** object.</span></span>
 

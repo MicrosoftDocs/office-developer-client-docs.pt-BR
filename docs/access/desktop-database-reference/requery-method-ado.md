@@ -6,43 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925797"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998180"
 ---
-# <a name="requery-method-ado"></a><span data-ttu-id="1f9fa-102">Método Requery (ADO)</span><span class="sxs-lookup"><span data-stu-id="1f9fa-102">Requery method (ADO)</span></span>
+# <a name="requery-method-ado"></a><span data-ttu-id="0d151-102">Método Requery (ADO)</span><span class="sxs-lookup"><span data-stu-id="0d151-102">Requery method (ADO)</span></span>
 
+<span data-ttu-id="0d151-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d151-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1f9fa-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f9fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0d151-104">Atualiza os dados em um objeto [Recordset](recordset-object-ado.md), reexecutando a consulta que serve de base ao objeto.</span><span class="sxs-lookup"><span data-stu-id="0d151-104">Updates the data in a [Recordset](recordset-object-ado.md) object by re-executing the query on which the object is based.</span></span>
 
+## <a name="syntax"></a><span data-ttu-id="0d151-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="0d151-105">Syntax</span></span>
 
+<span data-ttu-id="0d151-106">*conjunto de registros*. *Opções* de Requery</span><span class="sxs-lookup"><span data-stu-id="0d151-106">*recordset*.Requery *Options*</span></span>
 
-<span data-ttu-id="1f9fa-104">Atualiza os dados em um objeto [Recordset](recordset-object-ado.md), reexecutando a consulta que serve de base ao objeto.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-104">Updates the data in a [Recordset](recordset-object-ado.md) object by re-executing the query on which the object is based.</span></span>
+## <a name="parameters"></a><span data-ttu-id="0d151-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="0d151-107">Parameters</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1f9fa-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1f9fa-105">Syntax</span></span>
-
-<span data-ttu-id="1f9fa-106">*conjunto de registros*. *Opções* de Requery</span><span class="sxs-lookup"><span data-stu-id="1f9fa-106">*recordset*.Requery *Options*</span></span>
-
-## <a name="parameter"></a><span data-ttu-id="1f9fa-107">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="1f9fa-107">Parameter</span></span>
-
-  - <span data-ttu-id="1f9fa-108">*Options*</span><span class="sxs-lookup"><span data-stu-id="1f9fa-108">*Options*</span></span>
-
-  - <span data-ttu-id="1f9fa-p101">Opcional. Um bitmask contendo os valores [ExecuteOptionEnum](executeoptionenum.md) e [CommandTypeEnum](commandtypeenum.md) que afetam esta operação.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-p101">Optional. A bitmask that contains [ExecuteOptionEnum](executeoptionenum.md) and [CommandTypeEnum](commandtypeenum.md) values affecting this operation.</span></span>
-
+|<span data-ttu-id="0d151-108">Nome</span><span class="sxs-lookup"><span data-stu-id="0d151-108">Name</span></span> |<span data-ttu-id="0d151-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="0d151-109">Description</span></span>|
+|:----|:----------|
+|<span data-ttu-id="0d151-110">*Options*</span><span class="sxs-lookup"><span data-stu-id="0d151-110">*Options*</span></span> |<span data-ttu-id="0d151-p101">Opcional. Um bitmask contendo os valores [ExecuteOptionEnum](executeoptionenum.md) e [CommandTypeEnum](commandtypeenum.md) que afetam esta operação.</span><span class="sxs-lookup"><span data-stu-id="0d151-p101">Optional. A bitmask that contains [ExecuteOptionEnum](executeoptionenum.md) and [CommandTypeEnum](commandtypeenum.md) values affecting this operation.</span></span>|
 
 > [!NOTE]
-> <P><span data-ttu-id="1f9fa-111">Se <EM>Options</EM> for definido como <STRONG>adAsyncExecute</STRONG>, esta operação será executada de forma assíncrona e um evento <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> será emitido quando ela for concluída.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-111">If <EM>Options</EM> is set to <STRONG>adAsyncExecute</STRONG>, this operation will execute asynchronously and a <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> event will be issued when it concludes.</span></span></P>
+> <span data-ttu-id="0d151-113">Se *Options* for definido como **adAsyncExecute**, esta operação será executada de forma assíncrona e um evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) será emitido quando ela for concluída.</span><span class="sxs-lookup"><span data-stu-id="0d151-113">If *Options* is set to **adAsyncExecute**, this operation will execute asynchronously and a [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) event will be issued when it concludes.</span></span>
 
+<span data-ttu-id="0d151-114">O valor **adExecuteNoRecords** ou **adExecuteStream** de **ExecuteOpenEnum** não deve ser usado com **Requery**.</span><span class="sxs-lookup"><span data-stu-id="0d151-114">The **ExecuteOpenEnum** values of **adExecuteNoRecords** or **adExecuteStream** should not be used with **Requery**.</span></span>
 
+## <a name="remarks"></a><span data-ttu-id="0d151-115">Comentários</span><span class="sxs-lookup"><span data-stu-id="0d151-115">Remarks</span></span>
 
-<span data-ttu-id="1f9fa-112">O valor **adExecuteNoRecords** ou **adExecuteStream** de **ExecuteOpenEnum** não deve ser usado com **Requery**.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-112">The **ExecuteOpenEnum** values of **adExecuteNoRecords** or **adExecuteStream** should not be used with **Requery**.</span></span>
+<span data-ttu-id="0d151-p102">Use o método **Requery** para atualizar todo o conteúdo de um objeto **Recordset** a partir da fonte de dados, emitindo novamente o comando original e recuperando os dados uma segunda vez. A chamada desse método equivale à chamada dos métodos [Close](close-method-ado.md) e [Open](open-method-ado-recordset.md) sucessivamente. Se você estiver editando o registro atual ou adicionando um novo registro, ocorrerá erro.</span><span class="sxs-lookup"><span data-stu-id="0d151-p102">Use the **Requery** method to refresh the entire contents of a **Recordset** object from the data source by reissuing the original command and retrieving the data a second time. Calling this method is equivalent to calling the [Close](close-method-ado.md) and [Open](open-method-ado-recordset.md) methods in succession. If you are editing the current record or adding a new record, an error occurs.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1f9fa-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="1f9fa-113">Remarks</span></span>
-
-<span data-ttu-id="1f9fa-p102">Use o método **Requery** para atualizar todo o conteúdo de um objeto **Recordset** a partir da fonte de dados, emitindo novamente o comando original e recuperando os dados uma segunda vez. A chamada desse método equivale à chamada dos métodos [Close](close-method-ado.md) e [Open](open-method-ado-recordset.md) sucessivamente. Se você estiver editando o registro atual ou adicionando um novo registro, ocorrerá erro.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-p102">Use the **Requery** method to refresh the entire contents of a **Recordset** object from the data source by reissuing the original command and retrieving the data a second time. Calling this method is equivalent to calling the [Close](close-method-ado.md) and [Open](open-method-ado-recordset.md) methods in succession. If you are editing the current record or adding a new record, an error occurs.</span></span>
-
-<span data-ttu-id="1f9fa-p103">Enquanto o objeto **Recordset** estiver aberto, as propriedades que definem a natureza do cursor ([CursorType](cursortype-property-ado.md), [LockType](locktype-property-ado.md), [MaxRecords](maxrecords-property-ado.md) etc.) serão somente leitura. Portanto, o método **Requery** somente poderá atualizar o cursor atual. Para alterar qualquer propriedade do cursor e exibir os resultados, use o método [Close](close-method-ado.md) para tornar as propriedades novamente como leitura/gravação. Em seguida, você poderá alterar as configurações de propriedade e chamar o método [Open](open-method-ado-recordset.md) para reabrir o cursor.</span><span class="sxs-lookup"><span data-stu-id="1f9fa-p103">While the **Recordset** object is open, the properties that define the nature of the cursor ([CursorType](cursortype-property-ado.md), [LockType](locktype-property-ado.md), [MaxRecords](maxrecords-property-ado.md), and so forth) are read-only. Thus, the **Requery** method can only refresh the current cursor. To change any of the cursor properties and view the results, you must use the [Close](close-method-ado.md) method so that the properties become read/write again. You can then change the property settings and call the [Open](open-method-ado-recordset.md) method to reopen the cursor.</span></span>
+<span data-ttu-id="0d151-p103">Enquanto o objeto **Recordset** estiver aberto, as propriedades que definem a natureza do cursor ([CursorType](cursortype-property-ado.md), [LockType](locktype-property-ado.md), [MaxRecords](maxrecords-property-ado.md) etc.) serão somente leitura. Portanto, o método **Requery** somente poderá atualizar o cursor atual. Para alterar qualquer propriedade do cursor e exibir os resultados, use o método [Close](close-method-ado.md) para tornar as propriedades novamente como leitura/gravação. Em seguida, você poderá alterar as configurações de propriedade e chamar o método [Open](open-method-ado-recordset.md) para reabrir o cursor.</span><span class="sxs-lookup"><span data-stu-id="0d151-p103">While the **Recordset** object is open, the properties that define the nature of the cursor ([CursorType](cursortype-property-ado.md), [LockType](locktype-property-ado.md), [MaxRecords](maxrecords-property-ado.md), and so forth) are read-only. Thus, the **Requery** method can only refresh the current cursor. To change any of the cursor properties and view the results, you must use the [Close](close-method-ado.md) method so that the properties become read/write again. You can then change the property settings and call the [Open](open-method-ado-recordset.md) method to reopen the cursor.</span></span>
 

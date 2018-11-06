@@ -10,29 +10,25 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 70fda733ae05a94af856a76fba231e6a1da001d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7f98076c147a55561adf2baf24b55274bbea463d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928226"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998844"
 ---
-# <a name="runsavedimportexport-macro-action"></a><span data-ttu-id="3918f-102">Ação da macro ExecutarImportaçãoOuExportaçãoSalva</span><span class="sxs-lookup"><span data-stu-id="3918f-102">RunSavedImportExport macro action</span></span>
+# <a name="runsavedimportexport-macro-action"></a><span data-ttu-id="c2e1e-102">Ação da macro ExecutarImportaçãoOuExportaçãoSalva</span><span class="sxs-lookup"><span data-stu-id="c2e1e-102">RunSavedImportExport macro action</span></span>
 
+<span data-ttu-id="c2e1e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2e1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3918f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3918f-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-<span data-ttu-id="3918f-104">Você pode usar a ação **ExecutarImportaçãoOuExportaçãoSalva** para executar uma especificação de importação ou exportação salva e criada com o Assistente de Importação ou com o Assistente de Exportação.</span><span class="sxs-lookup"><span data-stu-id="3918f-104">You can use the **RunSavedImportExport** action to run a saved import or export specification that you created by using the Import Wizard or the Export Wizard.</span></span>
-
+<span data-ttu-id="c2e1e-104">Você pode usar a ação **ExecutarImportaçãoOuExportaçãoSalva** para executar uma especificação de importação ou exportação salva e criada com o Assistente de Importação ou com o Assistente de Exportação.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-104">You can use the **RunSavedImportExport** action to run a saved import or export specification that you created by using the Import Wizard or the Export Wizard.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="3918f-p101">[!OBSERVAçãO] This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span><span class="sxs-lookup"><span data-stu-id="3918f-p101">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
+> <span data-ttu-id="c2e1e-105">[!OBSERVAçãO] This action will not be allowed if the database is not trusted.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-105">This action will not be allowed if the database is not trusted.</span></span>
 
+## <a name="setting"></a><span data-ttu-id="c2e1e-106">Configuração</span><span class="sxs-lookup"><span data-stu-id="c2e1e-106">Setting</span></span>
 
-
-## <a name="setting"></a><span data-ttu-id="3918f-107">Configuração</span><span class="sxs-lookup"><span data-stu-id="3918f-107">Setting</span></span>
-
-<span data-ttu-id="3918f-108">A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="3918f-108">The **RunSavedImportExport** action has the following argument.</span></span>
+<span data-ttu-id="c2e1e-107">A ação **ExecutarImportaçãoOuExportaçãoSalva** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-107">The **RunSavedImportExport** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -41,32 +37,32 @@ ms.locfileid: "25928226"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3918f-109">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="3918f-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="3918f-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="3918f-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="c2e1e-108">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="c2e1e-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="c2e1e-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="c2e1e-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3918f-111"><strong>Nome da exportação de importação salva</strong></span><span class="sxs-lookup"><span data-stu-id="3918f-111"><strong>Saved Import Export Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="3918f-112">Selecione o nome de uma especificação de importação ou exportação salva, na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="3918f-112">Select the name of a saved import or export specification from the drop-down list.</span></span></p></td>
+<td><p><span data-ttu-id="c2e1e-110"><strong>Nome da exportação de importação salva</strong></span><span class="sxs-lookup"><span data-stu-id="c2e1e-110"><strong>Saved Import Export Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2e1e-111">Selecione o nome de uma especificação de importação ou exportação salva, na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-111">Select the name of a saved import or export specification from the drop-down list.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="3918f-113">Comentários</span><span class="sxs-lookup"><span data-stu-id="3918f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c2e1e-112">Comentários</span><span class="sxs-lookup"><span data-stu-id="c2e1e-112">Remarks</span></span>
 
-  - <span data-ttu-id="3918f-114">Esta macro tem o mesmo efeito deste procedimento quando executado no Access:</span><span class="sxs-lookup"><span data-stu-id="3918f-114">This macro action has the same effect as performing the following procedure in Access:</span></span>
+- <span data-ttu-id="c2e1e-113">Esta macro tem o mesmo efeito deste procedimento quando executado no Access:</span><span class="sxs-lookup"><span data-stu-id="c2e1e-113">This macro action has the same effect as performing the following procedure in Access:</span></span>
     
-    1.  <span data-ttu-id="3918f-115">Na guia **Dados Externos**, clique em **Importações Salvas** ou em **Exportações Salvas**.</span><span class="sxs-lookup"><span data-stu-id="3918f-115">On the **External Data** tab, click either **Saved Imports** or **Saved Exports**.</span></span>
+  1.  <span data-ttu-id="c2e1e-114">Na guia **Dados Externos**, clique em **Importações Salvas** ou em **Exportações Salvas**.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-114">On the **External Data** tab, click either **Saved Imports** or **Saved Exports**.</span></span>
     
-    2.  <span data-ttu-id="3918f-116">Na caixa de diálogo **Gerenciar Tarefas de Dados**, na guia **Importações Salvas** ou **Exportações Salvas** (dependendo da sua escolha na etapa anterior), clique na especificação a ser executada.</span><span class="sxs-lookup"><span data-stu-id="3918f-116">In the **Manage Data Tasks** dialog box, on the **Saved Imports** or **Saved Exports** tab (depending on your choice in the preceding step), click the specification that you want to run.</span></span>
+  2.  <span data-ttu-id="c2e1e-115">Na caixa de diálogo **Gerenciar Tarefas de Dados**, na guia **Importações Salvas** ou **Exportações Salvas** (dependendo da sua escolha na etapa anterior), clique na especificação a ser executada.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-115">In the **Manage Data Tasks** dialog box, on the **Saved Imports** or **Saved Exports** tab (depending on your choice in the preceding step), click the specification that you want to run.</span></span>
     
-    3.  <span data-ttu-id="3918f-117">Clique em **Executar**.</span><span class="sxs-lookup"><span data-stu-id="3918f-117">Click **Run**.</span></span>
+  3.  <span data-ttu-id="c2e1e-116">Clique em **Executar**.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-116">Click **Run**.</span></span>
 
-  - <span data-ttu-id="3918f-118">Antes de executar a ação **ExecutarImportaçãoOuExportaçãoSalva**, verifique se os arquivos de origem e de destino existem, se os dados de origem estão prontos para a importação e se a operação não substituirá acidentalmente nenhum dado do arquivo de destino.</span><span class="sxs-lookup"><span data-stu-id="3918f-118">Before running the **RunSavedImportExport** action, make sure that the source and destination files exist, the source data is ready for importing, and that the operation will not accidentally overwrite any data in your destination file.</span></span>
+- <span data-ttu-id="c2e1e-117">Antes de executar a ação **ExecutarImportaçãoOuExportaçãoSalva**, verifique se os arquivos de origem e de destino existem, se os dados de origem estão prontos para a importação e se a operação não substituirá acidentalmente nenhum dado do arquivo de destino.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-117">Before running the **RunSavedImportExport** action, make sure that the source and destination files exist, the source data is ready for importing, and that the operation will not accidentally overwrite any data in your destination file.</span></span>
 
-  - <span data-ttu-id="3918f-119">Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.</span><span class="sxs-lookup"><span data-stu-id="3918f-119">Find links to more information about saving and running import and export specifications in the **See Also** section.</span></span>
+- <span data-ttu-id="c2e1e-118">Na seção **Consulte Também**, localize links para obter mais informações sobre como salvar e executar especificações de importação e exportação.</span><span class="sxs-lookup"><span data-stu-id="c2e1e-118">Find links to more information about saving and running import and export specifications in the **See Also** section.</span></span>
 
-  - <span data-ttu-id="3918f-120">Se o salva de importação ou exportação especificação que você escolher para o argumento **Salvo importar exportar nome** é excluído depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro será executada: does do **a especificação com o índice especificado não existe. Especifica um índice diferente. ' \* \* \* especificação nome \* \* \* '.**</span><span class="sxs-lookup"><span data-stu-id="3918f-120">If the saved import or export specification you choose for the **Saved Import Export Name** argument is deleted after the macro is created, Access displays the following error message when the macro is run: **The specification with the specified index does not exist. Specify a different index. '\*\*\*\*\*specification name\*\*\*\*\*'.**</span></span>
+- <span data-ttu-id="c2e1e-119">Se o salva de importação ou exportação especificação que você escolher para o argumento **Salvo importar exportar nome** é excluído depois que a macro for criada, o Access exibirá a seguinte mensagem de erro quando a macro será executada: does do **a especificação com o índice especificado não existe. Especifica um índice diferente. ' \* \* \* especificação nome \* \* \* '.**</span><span class="sxs-lookup"><span data-stu-id="c2e1e-119">If the saved import or export specification you choose for the **Saved Import Export Name** argument is deleted after the macro is created, Access displays the following error message when the macro is run: **The specification with the specified index does not exist. Specify a different index. '\*\*\*\*\*specification name\*\*\*\*\*'.**</span></span>
 

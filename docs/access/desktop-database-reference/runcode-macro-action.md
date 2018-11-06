@@ -10,23 +10,22 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: acf8ed2bd10efd55436b8933a862833b8e49c5f0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bac15bed3b416d57f75dc7482b085478a27d5fa4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926686"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996696"
 ---
-# <a name="runcode-macro-action"></a><span data-ttu-id="b3ba8-102">Ação da macro ExecutarCódigo</span><span class="sxs-lookup"><span data-stu-id="b3ba8-102">RunCode macro action</span></span>
+# <a name="runcode-macro-action"></a><span data-ttu-id="dd06b-102">Ação da macro ExecutarCódigo</span><span class="sxs-lookup"><span data-stu-id="dd06b-102">RunCode macro action</span></span>
 
+<span data-ttu-id="dd06b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd06b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3ba8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3ba8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dd06b-104">Use a ação **ExecutarCódigo** para chamar um procedimento Function do VBA(Visual Basic for Applications).</span><span class="sxs-lookup"><span data-stu-id="dd06b-104">You can use the **RunCode** action to call a Visual Basic for Applications (VBA) Function procedure.</span></span>
 
-<span data-ttu-id="b3ba8-104">Use a ação **ExecutarCódigo** para chamar um procedimento Function do VBA(Visual Basic for Applications).</span><span class="sxs-lookup"><span data-stu-id="b3ba8-104">You can use the **RunCode** action to call a Visual Basic for Applications (VBA) Function procedure.</span></span>
+## <a name="setting"></a><span data-ttu-id="dd06b-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="dd06b-105">Setting</span></span>
 
-## <a name="setting"></a><span data-ttu-id="b3ba8-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="b3ba8-105">Setting</span></span>
-
-<span data-ttu-id="b3ba8-106">A ação **ExecutarCódigo** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-106">The **RunCode** action has the following argument.</span></span>
+<span data-ttu-id="dd06b-106">A ação **ExecutarCódigo** tem o argumento a seguir.</span><span class="sxs-lookup"><span data-stu-id="dd06b-106">The **RunCode** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -35,50 +34,38 @@ ms.locfileid: "25926686"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b3ba8-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="b3ba8-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="b3ba8-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="b3ba8-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="dd06b-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="dd06b-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="dd06b-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="dd06b-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3ba8-109"><strong>Nome da função</strong></span><span class="sxs-lookup"><span data-stu-id="b3ba8-109"><strong>Function Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="b3ba8-p101">O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-p101">The name of the VBA Function procedure to call. Enclose any function arguments in parentheses. Enter the function name in the <strong>Function Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p>
-
-> [!NOTE]
-> <P><span data-ttu-id="b3ba8-p102">Em um banco de dados do Access (.mdb ou .accdb), clique no botão <STRONG>Compilar</STRONG> para usar o Construtor de Expressões para selecionar uma função para esse argumento. Na lista do Construtor de Expressões, clique na função desejada.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-p102">In an Access database (.mdb or .accdb), click the <STRONG>Build</STRONG> button to use the Expression Builder to select a function for this argument. Click the desired function in the list in the Expression Builder.</span></span></P>
-
-
-<p></p></td>
+<td><p><span data-ttu-id="dd06b-109"><strong>Nome da função</strong></span><span class="sxs-lookup"><span data-stu-id="dd06b-109"><strong>Function Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="dd06b-p101">O nome do procedimento Function do VBA a ser chamado. Coloque entre parênteses todos os argumentos da função. Digite o nome da função na caixa <strong>Nome da Função</strong>, na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. Este é um argumento obrigatório.</span><span class="sxs-lookup"><span data-stu-id="dd06b-p101">The name of the VBA Function procedure to call. Enclose any function arguments in parentheses. Enter the function name in the <strong>Function Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p><p><span data-ttu-id="dd06b-114"><strong>Observação</strong>: banco de dados de um acesso (. mdb ou. accdb), clique no botão <strong>Construir</strong> para usar o construtor de expressões para selecionar uma função para este argumento.</span><span class="sxs-lookup"><span data-stu-id="dd06b-114"><strong>NOTE</strong>: In an Access database (.mdb or .accdb), click the <strong>Build</strong> button to use the Expression Builder to select a function for this argument.</span></span> <span data-ttu-id="dd06b-115">Clique na função desejada na lista no construtor de expressões.</span><span class="sxs-lookup"><span data-stu-id="dd06b-115">Click the desired function in the list in the Expression Builder.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="b3ba8-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="b3ba8-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dd06b-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="dd06b-116">Remarks</span></span>
 
-<span data-ttu-id="b3ba8-117">Os procedimentos Function definidos pelo usuário são armazenados nos módulos do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-117">The user-defined Function procedures are stored in Microsoft Access modules.</span></span>
+<span data-ttu-id="dd06b-117">Os procedimentos Function definidos pelo usuário são armazenados nos módulos do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="dd06b-117">The user-defined Function procedures are stored in Microsoft Access modules.</span></span>
 
-<span data-ttu-id="b3ba8-118">Você deve incluí-los entre parênteses, mesmo que o procedimento Function não tenha nenhum argumento. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="b3ba8-118">You must include parentheses, even if the Function procedure doesn't have any arguments, as in the following example:</span></span>
+<span data-ttu-id="dd06b-118">Você deve incluí-los entre parênteses, mesmo que o procedimento Function não tenha nenhum argumento. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="dd06b-118">You must include parentheses, even if the Function procedure doesn't have any arguments, as in the following example:</span></span>
 
 `TestFunction()`
 
-<span data-ttu-id="b3ba8-119">Ao contrário de nomes de função definida pelo usuário usados para configurações de propriedade de evento, o nome da função no argumento **Nome da função** não começa com um sinal de igualdade (**=**).</span><span class="sxs-lookup"><span data-stu-id="b3ba8-119">Unlike user-defined function names used for event property settings, the function name in the **Function Name** argument doesn't begin with an equal sign (**=**).</span></span>
+<span data-ttu-id="dd06b-119">Ao contrário de nomes de função definida pelo usuário usados para configurações de propriedade de evento, o nome da função no argumento **Nome da função** não começa com um sinal de igualdade (**=**).</span><span class="sxs-lookup"><span data-stu-id="dd06b-119">Unlike user-defined function names used for event property settings, the function name in the **Function Name** argument doesn't begin with an equal sign (**=**).</span></span>
 
-<span data-ttu-id="b3ba8-120">O Access ignora o valor de retorno da função.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-120">Access ignores the return value of the function.</span></span>
-
+<span data-ttu-id="dd06b-120">O Access ignora o valor de retorno da função.</span><span class="sxs-lookup"><span data-stu-id="dd06b-120">Access ignores the return value of the function.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="b3ba8-121">[!OBSERVAçãO] Não será possível chamar um procedimento Function em uma macro se o nome da função for igual ao nome do módulo.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-121">You can't call a Function procedure from a macro if the function name is the same as the module name.</span></span></P>
-
-
-
+> <span data-ttu-id="dd06b-121">[!OBSERVAçãO] Não será possível chamar um procedimento Function em uma macro se o nome da função for igual ao nome do módulo.</span><span class="sxs-lookup"><span data-stu-id="dd06b-121">You can't call a Function procedure from a macro if the function name is the same as the module name.</span></span>
 
 > [!TIP]
-> <P><span data-ttu-id="b3ba8-p103">[!DICA] Para executar um procedimento Sub ou um procedimento de evento escrito em Visual Basic, crie um procedimento Function que possa chamar o procedimento Sub ou o procedimento de evento. Use a ação <STRONG>ExecutarCódigo</STRONG> para executar o procedimento Function.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-p103">To run a Sub procedure or event procedure written in Visual Basic, create a Function procedure that calls the Sub procedure or event procedure. Then use the <STRONG>RunCode</STRONG> action to run the Function procedure.</span></span></P>
+> <span data-ttu-id="dd06b-p103">[!DICA] Para executar um procedimento Sub ou um procedimento de evento escrito em Visual Basic, crie um procedimento Function que possa chamar o procedimento Sub ou o procedimento de evento. Use a ação **ExecutarCódigo** para executar o procedimento Function.</span><span class="sxs-lookup"><span data-stu-id="dd06b-p103">To run a Sub procedure or event procedure written in Visual Basic, create a Function procedure that calls the Sub procedure or event procedure. Then use the **RunCode** action to run the Function procedure.</span></span>
 
+<span data-ttu-id="dd06b-p104">Se você usar a ação **ExecutarCódigo** para chamar uma função, o Access pesquisará a função com o nome especificado pelo argumento **Nome da Função** nos módulos padrão do banco de dados. Entretanto, quando essa ação for executada em resposta ao acionamento de um comando de menu em um formulário ou relatório, ou em resposta a um evento em um formulário ou relatório, o Access primeiro pesquisará a função no módulo de classe do formulário ou do relatório e depois nos módulos padrão. O Access não pesquisa os módulos de classe mostrados na área **Módulos** do Painel de Navegação para localizar a função especificada pelo argumento **Nome da Função**.</span><span class="sxs-lookup"><span data-stu-id="dd06b-p104">If you use the **RunCode** action to call a function, Access looks for the function with the name specified by the **Function Name** argument in the standard modules for the database. However, when this action runs in response to clicking a menu command on a form or report or in response to an event on a form or report, Access first looks for the function in the form's or report's class module and then in the standard modules. Access doesn't search the class modules that appear in the **Modules** area of the Navigation Pane for the function specified by the **Function Name** argument.</span></span>
 
-
-<span data-ttu-id="b3ba8-p104">Se você usar a ação **ExecutarCódigo** para chamar uma função, o Access pesquisará a função com o nome especificado pelo argumento **Nome da Função** nos módulos padrão do banco de dados. Entretanto, quando essa ação for executada em resposta ao acionamento de um comando de menu em um formulário ou relatório, ou em resposta a um evento em um formulário ou relatório, o Access primeiro pesquisará a função no módulo de classe do formulário ou do relatório e depois nos módulos padrão. O Access não pesquisa os módulos de classe mostrados na área **Módulos** do Painel de Navegação para localizar a função especificada pelo argumento **Nome da Função**.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-p104">If you use the **RunCode** action to call a function, Access looks for the function with the name specified by the **Function Name** argument in the standard modules for the database. However, when this action runs in response to clicking a menu command on a form or report or in response to an event on a form or report, Access first looks for the function in the form's or report's class module and then in the standard modules. Access doesn't search the class modules that appear in the **Modules** area of the Navigation Pane for the function specified by the **Function Name** argument.</span></span>
-
-<span data-ttu-id="b3ba8-p105">Esta ação não está disponível em um módulo do VBA. Em vez disso, execute o procedimento Function desejado diretamente no VBA.</span><span class="sxs-lookup"><span data-stu-id="b3ba8-p105">This action isn't available in a VBA module. Instead, run the desired Function procedure directly in VBA.</span></span>
+<span data-ttu-id="dd06b-p105">Esta ação não está disponível em um módulo do VBA. Em vez disso, execute o procedimento Function desejado diretamente no VBA.</span><span class="sxs-lookup"><span data-stu-id="dd06b-p105">This action isn't available in a VBA module. Instead, run the desired Function procedure directly in VBA.</span></span>
 
