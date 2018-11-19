@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f90a0e4ff4accfd4496df46fb48faaf6f589f37c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945177"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025708"
 ---
 # <a name="address-book-data-binding-object"></a>Objeto de vinculação de dados do Catálogo de Endereços
 
@@ -95,7 +95,7 @@ A tabela a seguir descreve os parâmetros específicos ao objeto **RDS.DataContr
 <td><p>Fornece informações de conexão necessárias para que o <strong>RDS.DataControl</strong> se conecte ao SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Define ou retorna a cadeia de consulta usada para recuperar o <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 </tbody>

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7422b7b4805bf09cdbf0b37ecf9ae025c3267fff
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c02eabca35e6d6722b0b55b5f0a7bbac8a8098f6
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944827"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025921"
 ---
 # <a name="propertiescount-property-dao"></a>Propriedade Properties.Count (DAO)
 
@@ -32,6 +32,8 @@ Você pode usar a propriedade **Count** para determinar o número de itens em um
 
 ## <a name="see-also"></a>Confira também
 
-- [Coleção Properties](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
-- [Membros Properties](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
+- [Coleção Properties](properties-collection-dao.md)
+- [Membros de Properties](properties-members-dao.md)
+- [Objeto Properties (VBA do Access)](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- [Membros Properties (VBA do Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

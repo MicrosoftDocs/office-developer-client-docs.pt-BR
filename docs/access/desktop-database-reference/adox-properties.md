@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7bf5ee16987ba72c6f191b5f74390b26cf90ceb
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: bcad6b9e1c106bb365b0594e1e2cb32df33f0b23
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910898"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026089"
 ---
 # <a name="adox-properties"></a>Propriedades do ADOX
 
@@ -36,7 +36,7 @@ ms.locfileid: "25910898"
 <td><p>Indica o objeto de <strong>Conexão</strong> do ADO ao qual pertence o catalog.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-adox.md">Attributes</a></p></td>
+<td><p><a href="attributes-property-adox.md">Atributos</a></p></td>
 <td><p>Descreve características da coluna.</p></td>
 </tr>
 <tr class="odd">
@@ -48,7 +48,7 @@ ms.locfileid: "25910898"
 <td><p>Especifica um objeto <strong>Command</strong> do ADO que pode ser usado para criar ou executar o procedimento.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Contagem</a></p></td>
+<td><p><a href="count-property-ado.md">Count</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -72,11 +72,11 @@ ms.locfileid: "25910898"
 <td><p>Indica se registros com valores nulos nos respectivos campos de índice têm entradas de índice.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">1.1</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Indica um membro específico de uma coleção, por nome ou número ordinal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Nome</a></p></td>
+<td><p><a href="name-property-adox.md">Name</a></p></td>
 <td><p>Indica o nome do objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -108,15 +108,15 @@ ms.locfileid: "25910898"
 <td><p>Indica a sequência de classificação da coluna (somente colunas de índice).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">Tipo (coluna)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Tipo (coluna)</a></p></td>
 <td><p>Indica o tipo de dados de uma coluna.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">Tipo (chave)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Tipo (chave)</a></p></td>
 <td><p>Indica o tipo de dados da Chave.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">Tipo (tabela)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Tipo (tabela)</a></p></td>
 <td><p>Indica o tipo de uma tabela.</p></td>
 </tr>
 <tr class="odd">

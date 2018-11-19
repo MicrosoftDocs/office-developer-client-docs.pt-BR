@@ -1,19 +1,19 @@
 ---
-title: Cenário de publicação na Internet
+title: Cenário de Publicação de Internet
 TOCTitle: Internet publishing scenario
 ms:assetid: 25a3fa8b-86ec-9e72-5e62-bf0d849479b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d502c95b985d83f5c19f68d3477a678c5471c54
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1f481c4bc5cf11f9345458b3859c099b40a79885
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945870"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026446"
 ---
-# <a name="internet-publishing-scenario"></a>Cenário de publicação na Internet
+# <a name="internet-publishing-scenario"></a>Cenário de Publicação de Internet
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -36,7 +36,7 @@ Neste cenário, considera-se que você tem o Microsoft Visual Basic 6.0 ou poste
 
 2.  No menu **Projeto**, clique em **Referências**.
 
-3.  Selecione **"Biblioteca do Microsoft ActiveX Data Objects 2.5**" e clique em **OK**.
+3.  Selecione **Microsoft ActiveX Data Objects 2.5 Library**e, em seguida, clique em **Okey**.
 
 ### <a name="insert-controls-on-the-main-form"></a>Inserir os controles no formulário principal
 

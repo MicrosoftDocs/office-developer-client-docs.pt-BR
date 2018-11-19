@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937131"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026467"
 ---
 # <a name="filter-property-ado"></a>Propriedade Filter (ADO)
 
@@ -41,12 +41,9 @@ A sequência de critérios é formada por cláusulas no formulário *FieldName-O
   - *Operator* deve ser um dos seguintes: \<, \>, \<=, \>=, \< \>, inglês, ou **como**.
 
   - *É o valor com o qual você irá comparar os valores de campo* (por exemplo, 'Smith', \#8/24/95\#, 12.345 ou US $50,00). Usar aspas simples com cadeias de caracteres e sinais numéricos (\#) com datas. Para os números, você pode usar casas decimais, sinais de dólar e notação científica. Se o *operador* é **SEMELHANTE**, o *valor* pode usar caracteres curinga. Somente o asterisco (\*) e o sinal de porcentagem (%) caracteres curinga é permitida, e eles devem ser o último caractere na cadeia de caracteres. *Valor* não pode ser nulo.
-    
 
     > [!NOTE]
     > [!OBSERVAçãO] Para incluir aspas simples (') no filtro Value, use duas aspas simples para representar uma. Por exemplo, para filtrar em O'Malley, a sequência de critérios deve ser "col1 = 'O''Malley'". Para incluir aspas simples no início e no final do valor de filtragem, coloque a sequência entre símbolos de libra (#). Por exemplo, para filtrar em '1', a sequência de critérios deve ser "col1 = #'1'#".
-
-
 
   - Não há precedência entre **AND** e **OR**. As cláusulas podem ser agrupadas entre parênteses. No entanto, não é possível agrupar as cláusulas unidas por um **OR** e, em seguida, unir o grupo a outra cláusula com um **AND**, como neste exemplo:
 

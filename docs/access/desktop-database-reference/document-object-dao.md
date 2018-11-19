@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44dacdab7dc13855426bf366bda2801ddee8c022
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4dbd7de05a3bb2402d436e4bbac59f1ca4687317
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936690"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026327"
 ---
 # <a name="document-object-dao"></a>Objeto Document (DAO)
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -59,27 +58,25 @@ Cada objeto **Container** tem uma coleção **Documents** que contém objetos **
 > [!NOTE]
 > [!OBSERVAçãO] Não confunda os objetos **Container** listados na tabela anterior com as coleções de mesmo nome. O objeto **Container** do banco de dados se refere a todos os objetos salvos do banco de dados, mas a coleção **Databases** se refere apenas aos objetos do banco de dados que estão abertos em um determinado espaço de trabalho.
 
-
-
 Com um objeto **Document**, você pode:
 
-  - Usar a propriedade **Name** para retornar o nome que um usuário ou mecanismo de banco de dados do Microsoft Access deu ao objeto quando ele foi criado.
+- Usar a propriedade **Name** para retornar o nome que um usuário ou mecanismo de banco de dados do Microsoft Access deu ao objeto quando ele foi criado.
 
-  - Usar a propriedade **Container** para retornar o nome do objeto **Container** que contém o objeto **Document**.
+- Usar a propriedade **Container** para retornar o nome do objeto **Container** que contém o objeto **Document**.
 
-  - Usar a propriedade **Owner** para definir ou retornar o proprietário do objeto. Para definir a propriedade **Owner**, você deve ter permissão de gravação no objeto **Document** e definir a propriedade para o nome de um objeto **User** ou **Group** existente.
+- Usar a propriedade **Owner** para definir ou retornar o proprietário do objeto. Para definir a propriedade **Owner**, você deve ter permissão de gravação no objeto **Document** e definir a propriedade para o nome de um objeto **User** ou **Group** existente.
 
-  - Usar as propriedades **UserName** ou **Permissions** para definir ou retornar as permissões de acesso de um usuário ou grupo para o objeto. Para definir essas propriedades, você deve ter permissão de gravação no objeto **Document** e definir a propriedade **UserName** para o nome de um objeto **User** ou **Group** existente.
+- Usar as propriedades **UserName** ou **Permissions** para definir ou retornar as permissões de acesso de um usuário ou grupo para o objeto. Para definir essas propriedades, você deve ter permissão de gravação no objeto **Document** e definir a propriedade **UserName** para o nome de um objeto **User** ou **Group** existente.
 
-  - Usar as propriedades **DateCreated** e **LastUpdated** para retornar a data e a hora em que o objeto **Document** foi criado e modificado pela última vez.
+- Usar as propriedades **DateCreated** e **LastUpdated** para retornar a data e a hora em que o objeto **Document** foi criado e modificado pela última vez.
 
 Como um objeto **Document** corresponde a um objeto existente, você não poderá criar novos objetos **Document** nem excluir objetos existentes. Para referir-se a um objeto **Document** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-  - **Documents**(0)
+- **Documents**(0)
 
-  - **Documentos** ("*nome*")
+- **Documentos** ("*nome*")
 
-  - **Documentos**\!\[*nome*\]
+- **Documentos**\!\[*nome*\]
 
 ## <a name="example"></a>Exemplo
 

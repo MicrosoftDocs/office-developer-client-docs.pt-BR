@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910800"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026376"
 ---
 # <a name="ado-methods"></a>Métodos do ADO
 
@@ -61,7 +61,7 @@ ms.locfileid: "25910800"
 <td><p>Cancela qualquer alteração feita na linha atual ou na nova linha de um objeto <strong>Recordset</strong>, ou na coleção <strong>Fields</strong> de um objeto <strong>Record</strong>, antes da chamada do método <strong>Update</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clear-method-ado.md">Limpar</a></p></td>
+<td><p><a href="clear-method-ado.md">Clear</a></p></td>
 <td><p>Remove todos os objetos <strong>Error</strong> da coleção <strong>Errors</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -105,15 +105,15 @@ ms.locfileid: "25910800"
 <td><p>Exclui um arquivo ou um diretório e todos os respectivos subdiretórios.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute (comando ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (comando ADO)</a></p></td>
 <td><p>Executes the query, SQL statement, or stored procedure specified in the <strong>CommandText</strong> property.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute (Conexão ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (Conexão ADO)</a></p></td>
 <td><p>Executes the specified query, SQL statement, stored procedure, or provider-specific text.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Localizar</a></p></td>
+<td><p><a href="find-method-ado.md">Find</a></p></td>
 <td><p>Procura um <strong>Recordset</strong> para a linha que satisfaz os critérios especificados.</p></td>
 </tr>
 <tr class="even">
@@ -141,7 +141,7 @@ ms.locfileid: "25910800"
 <td><p>Carrega o conteúdo de um arquivo existente para dentro de um <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Mover</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Move a posição do registro atual em um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -217,7 +217,7 @@ ms.locfileid: "25910800"
 <td><p>Ignora uma linha inteira ao ler um fluxo de texto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="stat-method-ado.md">STAT</a></p></td>
+<td><p><a href="stat-method-ado.md">Stat</a></p></td>
 <td><p>Obtém informações estatísticas sobre um fluxo aberto.</p></td>
 </tr>
 <tr class="even">
@@ -233,7 +233,7 @@ ms.locfileid: "25910800"
 <td><p>Grava todas as atualizações em lote pendentes no disco.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">Escrever</a></p></td>
+<td><p><a href="write-method-ado.md">Write</a></p></td>
 <td><p>Grava dados binários em um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

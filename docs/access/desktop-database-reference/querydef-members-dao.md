@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937614"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026257"
 ---
 # <a name="querydef-members-dao"></a>Membros de QueryDef (DAO)
 
@@ -36,12 +36,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Cancelar</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
-
-
+<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Cancela a execução de uma chamada assíncrona pendente do método (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -53,7 +48,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <td><p>Cria um novo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido pelo usuário (somente espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-execute-method-dao.md">Execução</a></strong></p></td>
+<td><p><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></p></td>
 <td><p>Executa uma instrução SQL no objeto especificado.</p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +98,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <td><p>Define ou retorna o número máximo de registros a serem retornados de uma consulta em relação à fonte de dados ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
@@ -116,12 +111,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
-
-
+<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Define ou retorna um valor que indica se a consulta está preparada no servidor como um procedimento armazenado temporariamente usando a função API <strong>SQLPrepare</strong> do ODBC, antes da execução ou executar apenas usando a função API <strong>SQLExecDirect</strong> do ODBC (apenas espaços de trabalho ODBCDirect). <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> de leitura e gravação.</p></td>
 </tr>
 <tr class="odd">
@@ -142,16 +132,11 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.
-
-
+<td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Indica se uma operação assíncrona ou não (ou seja, um método chamado com a opção <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) concluiu a execução (somente em espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
 <td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. Somente leitura<strong>inteiro</strong>.</p></td>
 </tr>
 <tr class="odd">

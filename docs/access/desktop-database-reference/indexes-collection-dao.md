@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946689"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025830"
 ---
 # <a name="indexes-collection-dao"></a>Coleção Indexes (DAO)
 
@@ -23,17 +23,13 @@ Uma coleção **Indexes** contém todos os objetos **Index** armazenados de um o
 
 Quando acessar um objeto Recordset do tipo tabela, use a propriedade **Index** do objeto para especificar a ordem dos registros. Defina essa propriedade para a configuração da propriedade **Name** de um objeto **Index** existente na coleção **Indexes** do objeto **[TableDef](tabledef-object-dao.md)**, subjacente ao objeto **[Recordset](recordset-object-dao.md)**.
 
-
 > [!NOTE]
 > [!OBSERVAçãO] É possível usar o método **Append** ou **Delete** numa coleção **Indexes** apenas se a configuração da propriedade **[Updatable](connection-updatable-property-dao.md)** do objeto contentor **TableDef** for **True**.
 
 Depois de criar um novo objeto **Index**, você deverá usar o método **Append** para adicioná-lo à coleção **Indexes** do objeto **TableDef**.
 
-
 > [!IMPORTANT]
 > [!IMPORTANTE] Verifique se seus dados são adequados aos atributos de seu novo índice. Se o seu índice exigir valores únicos, assegure que não existam duplicatas nos registros de dados existentes. Se existirem duplicatas, o mecanismo do banco de dados do Microsoft Access não poderá criar o índice; ocorrerá um erro interceptável se você tentar usar o método Append no novo índice.
-
-
 
 ## <a name="example"></a>Exemplo
 

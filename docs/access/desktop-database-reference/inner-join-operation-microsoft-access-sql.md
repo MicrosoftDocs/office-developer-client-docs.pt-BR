@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f9593e8bf0175ee6a25bd53d886c291eed6f75c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4179087408a9f7a68bccc673bcd456305ba41d5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929431"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026481"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Operação INNER JOIN (Microsoft Access SQL)
 
@@ -63,7 +63,7 @@ A operação INNER JOIN contém as seguintes partes:
 
 ## <a name="remarks"></a>Comentários
 
-É possível usar uma operação INNER JOIN em qualquer cláusula [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)). Esse é o tipo de junção mais comum. As junções internas combinam registros de duas tabelas sempre que houver correspondência de valores em campos comuns nas duas tabelas.
+É possível usar uma operação INNER JOIN em qualquer cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql). Esse é o tipo de junção mais comum. As junções internas combinam registros de duas tabelas sempre que houver correspondência de valores em campos comuns nas duas tabelas.
 
 É possível usar a INNER JOIN nas tabelas Departamentos e Funcionários para selecionar todos os funcionários de um departamento. Em contrapartida, para selecionar todos os departamentos (mesmo se não houver funcionários atribuídos a eles) todos os funcionários (mesmo que alguns não estejam atribuídos ao departamento), é possível usar uma operação [LEFT JOIN ou RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) para criar uma junção externa.
 

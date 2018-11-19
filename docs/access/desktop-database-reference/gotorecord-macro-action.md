@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937726"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025998"
 ---
 # <a name="gotorecord-macro-action"></a>Ação da macro IrParaRegistro
 
@@ -49,7 +49,7 @@ A ação **IrParaRegistro** tem os seguintes argumentos.
 <td><p>O nome do objeto que contém o registro que você deseja tornar no registro atual. A caixa <strong>Nome do Objeto</strong> mostra todos os objetos no banco de dados atual do tipo selecionado pelo argumento <strong>Tipo de Objeto</strong>. Se você deixar o argumento <strong>Tipo de Objeto</strong> em branco, deixe este argumento em branco também.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Objeto Record</strong></p></td>
+<td><p><strong>Record</strong></p></td>
 <td><p>O registro que se tornará o atual. Clique em <strong>Anterior</strong>, <strong>Próximo</strong>, <strong>Primeiro</strong>, <strong>Último</strong>, <strong>Ir Para</strong> ou <strong>Novo</strong> na caixa <strong>Registro</strong>. O padrão é <strong>Não</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -57,18 +57,12 @@ A ação **IrParaRegistro** tem os seguintes argumentos.
 <td><p>Um inteiro ou uma expressão que é avaliada como um número inteiro. Uma expressão deve ser precedida por um sinal de igualdade (<strong>=</strong>). Este argumento especificará o registro para tornar o registro atual. Você pode usar o argumento <strong>deslocamento</strong> de duas maneiras:</p>
 <ul>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Próximo</strong> ou <strong>Anterior</strong>, o Microsoft Office Access 2007 move para frente ou para trás o número de registros especificado no argumento <strong>Deslocamento</strong>.</p></li>
-<li><p>Quando o argumento <strong>Registro</strong> é <strong>Ir Para</strong>, o Access se move para o registro com o número igual ao do argumento <strong>Deslocamento</strong>. O número de registros é mostrado na caixa de número de registros na parte inferior da janela.</p></li>
-</ul>
-
-> [!NOTE]
-> Se você usar a configuração **Primeiro**, **Último** ou **Novo** para o argumento **Registro**, o Access ignorará o argumento **Deslocamento**. Se você inserir um argumento **Deslocamento** excessivamente grande, o Access exibirá uma mensagem de erro. Você não pode digitar números negativos para o argumento **Deslocamento**.
-
-
-<p></p>
-<ul>
+<li><p>Quando o argumento <strong>Registro</strong> é <strong>Ir Para</strong>, o Access se move para o registro com o número igual ao do argumento <strong>Deslocamento</strong>. O número de registros é mostrado na caixa de número de registros na parte inferior da janela.</p>
+<p><strong>Observação</strong>: se você usar o <strong>primeiro</strong>, <strong>último</strong>ou <strong>novo</strong> a definição do argumento <strong>registro</strong> , o Access ignora o argumento <strong>deslocamento</strong> . Se você inserir um argumento <strong>deslocamento</strong> muito grande, o Access exibe uma mensagem de erro. Você não pode inserir números negativos para o argumento <strong>deslocamento</strong> .</p></li>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Próximo</strong> ou <strong>Anterior</strong>, o Microsoft Office Access 2007 move para frente ou para trás o número de registros especificado no argumento <strong>Deslocamento</strong>.</p></li>
 <li><p>Quando o argumento <strong>Registro</strong> é <strong>Ir Para</strong>, o Access se move para o registro com o número igual ao do argumento <strong>Deslocamento</strong>. O número de registros é mostrado na caixa de número de registros na parte inferior da janela.</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

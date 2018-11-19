@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c456c3b03766fee3b24acdfbb3345a950fbb746
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 0d7441775dd82313ac9ac9b9e87c7657673e416e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910821"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026040"
 ---
 # <a name="adox-methods"></a>Métodos do ADOX
 
@@ -84,7 +84,7 @@ ms.locfileid: "25910821"
 <td><p>Retorna as permissões de um grupo ou usuário em um objeto.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249006(v=office.15)">SetObjectOwner</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
 <td><p>Especifica o proprietário de um objeto em um catálogo.</p></td>
 </tr>
 <tr class="odd">

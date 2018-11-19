@@ -1,20 +1,19 @@
 ---
-title: Utilizando caracteres curinga em comparações de sequência
-TOCTitle: Using Wildcard Characters in String Comparisons
+title: Uso de caracteres curinga em comparações de sequência
+TOCTitle: Using wildcard characters in string comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc45b71f1b70f1a36a9456f3ab83612933af11f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 9fb6c63d5d2db1db54d52a03fef41e44a29f42c9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946703"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026159"
 ---
-# <a name="using-wildcard-characters-in-string-comparisons"></a>Usando caracteres curinga em comparações de sequência
-
+# <a name="using-wildcard-characters-in-string-comparisons"></a>Uso de caracteres curinga em comparações de sequência
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -64,11 +63,11 @@ Além de uma lista simple de caracteres entre colchetes, *charlist* pode especif
 
 A seguir estão outras regras importantes para correspondência de padrões:
 
-  - Um ponto de exclamação (\!) no início do *charlist* significa que uma coincidência é feita se qualquer caractere, exceto aqueles em *charlist* forem encontradas na *expressão*. Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.
+- Um ponto de exclamação (\!) no início do *charlist* significa que uma coincidência é feita se qualquer caractere, exceto aqueles em *charlist* forem encontradas na *expressão*. Quando utilizado fora dos colchetes, o ponto de exclamação faz sua própria correspondência.
 
-  - Você pode usar o hífen (-) no início (após um ponto de exclamação se for usado) ou no final da *charlist* para corresponder ao próprio. Em outro local, o hífen identifica um intervalo de caracteres ANSI.
+- Você pode usar o hífen (-) no início (após um ponto de exclamação se for usado) ou no final da *charlist* para corresponder ao próprio. Em outro local, o hífen identifica um intervalo de caracteres ANSI.
 
-  - Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100). \[A-Z\] é um padrão válido, mas \[Z-A\] não é.
+- Quando você especifica um intervalo de caracteres, os caracteres devem ser exibidos em ordem de classificação crescente (A-Z ou 0-100). \[A-Z\] é um padrão válido, mas \[Z-A\] não é.
 
-  - A sequência de caracteres \[ \] será ignorada; ele é considerado como uma cadeia de caracteres de comprimento zero ("").
+- A sequência de caracteres \[ \] será ignorada; ele é considerado como uma cadeia de caracteres de comprimento zero ("").
 

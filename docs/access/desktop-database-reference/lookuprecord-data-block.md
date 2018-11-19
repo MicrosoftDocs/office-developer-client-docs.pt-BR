@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c93f312dd9b43a3235f049b9e6d3f95d08eba87f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928590"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025592"
 ---
 # <a name="lookuprecord-data-block"></a>Bloco de dados Pesquisarregistro
 
@@ -43,13 +43,7 @@ A ação **PesquisarRegistro** tem os seguintes argumentos.
 <tr class="odd">
 <td><p>Em</p></td>
 <td><p>Sim</p></td>
-<td><p>Uma cadeia de caracteres que identifica o registro para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p>
-
-> [!NOTE]
-> O registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.
-
-
-<p></p></td>
+<td><p>Uma cadeia de caracteres que identifica o registro para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p><p><strong>Observação</strong>: O registro especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>

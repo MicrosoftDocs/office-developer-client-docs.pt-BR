@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947851"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026047"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Inicializando o driver de fonte de dados do Microsoft Exchange
 
@@ -33,7 +33,7 @@ O mecanismo de banco de dados do Microsoft Access usa esta configuração para i
 
 Os resultados de usar o formato ISAM do Outlook e do cliente Exchange são iguais. A única diferença é que os dois clientes diferentes usam nomes diferentes para as mesmas colunas. Os dois formatos ISAM foram criados para que o mecanismo de banco de dados do Microsoft Access possa retornar os nomes de coluna no estilo específico que o usuário deseja.
 
-## <a name="microsoft-outlook-client-isam-formats"></a>ISAM Formats para o cliente Microsoft Outlook
+## <a name="microsoft-outlook-client-isam-formats"></a>ISAM formats do cliente do Microsoft Outlook
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\Outlook 9.0** pasta contém as entradas a seguir.
 
@@ -101,7 +101,7 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\Outlook 9.0** pasta cont
 
 
 
-## <a name="microsoft-exchange-client-isam-formats"></a>ISAM Formats para cliente Microsoft Exchange
+## <a name="microsoft-exchange-client-isam-formats"></a>ISAM formats do cliente do Microsoft Exchange
 
 O **mecanismo de conectividade do Access\\ISAM Formats\\Exchange 4.0** pasta contém as entradas a seguir.
 
@@ -169,7 +169,7 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\Exchange 4.0** pasta con
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalizando o arquivo Schema.ini para dados do Outlook e do Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personalizando o arquivo Schema ini para dados do Outlook e do Exchange
 
 O arquivo Schema.ini é usado pelo ISAM do Outlook e do Exchange praticamente da mesma maneira que é usado pelo ISAM de texto. O Schema.ini contém informações específicas da fonte de dados: como os dados são formatados e os nomes das colunas que devem ser acessadas.
 

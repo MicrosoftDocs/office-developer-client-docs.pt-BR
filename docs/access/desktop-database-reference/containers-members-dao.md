@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
 ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 486bbbdc8612c5a32610e6b1eaa016d5dd2ee319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 9f0a990f94f13cddf80f3d0c1b5057c5887d5fd1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927680"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026131"
 ---
 # <a name="containers-members-dao"></a>Membros de contêineres (DAO)
 
-
 **Aplica-se a**: Access 2013, o Office 2013
-
 
 > [!NOTE]
 > [!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access. Uma coleção de conexões contém os objetos de Conexão atuais de um objeto Workspace (somente espaços de trabalho ODBCDirect).
-
-
 
 ## <a name="methods"></a>Métodos
 

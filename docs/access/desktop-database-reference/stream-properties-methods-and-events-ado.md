@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a66e7f62f47e4237d827d5799bf864132321531
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4d846f1dff8002dd00735e6c77205b458ccea9b0
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943546"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026033"
 ---
 # <a name="stream-properties-methods-and-events-ado"></a>Stream propriedades, métodos e eventos (ADO)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25943546"
 - [Propriedade LineSeparator](lineseparator-property-ado.md)
 - [Propriedade Mode](mode-property-ado.md)
 - [Propriedade Position](position-property-ado.md)
-- [Propriedade Size (Stream do ADO)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
+- [Propriedade Size (Stream do ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [Propriedade State](state-property-ado.md)
 - [Propriedade Type (Stream do ADO)](type-property-ado-stream.md)
 
@@ -34,7 +34,7 @@ ms.locfileid: "25943546"
 - [Método Cancel](cancel-method-ado.md)
 - [Método Close](close-method-ado.md)
 - [Método CopyTo](copyto-method-ado.md)
-- [Método flush](flush-method-ado.md)
+- [Método Flush](flush-method-ado.md)
 - [Método LoadFromFile](loadfromfile-method-ado.md)
 - [Método Open (Stream do ADO)](open-method-ado-stream.md)
 - [Método Read](read-method-ado.md)
@@ -42,7 +42,7 @@ ms.locfileid: "25943546"
 - [Método SaveToFile](savetofile-method-ado.md)
 - [Método SetEOS](seteos-method-ado.md)
 - [Método SkipLine](skipline-method-ado.md)
-- [Método STAT](stat-method-ado.md)
+- [Método Stat](stat-method-ado.md)
 - [Método Write](write-method-ado.md)
 - [Método WriteText](writetext-method-ado.md)
 

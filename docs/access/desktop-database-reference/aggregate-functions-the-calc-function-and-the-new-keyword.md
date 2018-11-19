@@ -1,26 +1,26 @@
 ---
-title: Funções agregadas, a função CALC e a palavra-chave NEW
+title: Funções de agregação, a função CALC e a palavra-chave NEW
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947886"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025984"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Funções agregadas, a função CALC e a palavra-chave NEW
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Funções de agregação, a função CALC e a palavra-chave NEW
 
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 A técnica data shaping oferece suporte para as funções a seguir. O nome atribuído ao capítulo que contém a coluna a ser operada é o *chapter-alias*.
 
-Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna de cada capítulo, levando ao capítulo que contém o *column-name*, todos separados por pontos. Por exemplo, se o capítulo pai, chap1, contiver um capítulo filho, chap2, que tenha uma coluna de quantidade, amt, então o nome qualificado será chap1.chap2.amt.
+Um alias de capítulo pode ser totalmente qualificado, consistindo em cada nome de coluna de capítulo levando o capítulo contendo o *nome da coluna,* todos separados por pontos. Por exemplo, se o capítulo pai, chap1, contiver um capítulo filho, chap2, que tenha uma coluna de quantidade, amt, então o nome qualificado será chap1.chap2.amt.
 
 <table>
 <colgroup>
@@ -61,17 +61,12 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 <tr class="odd">
 <td><p>QUALQUER (<em>capítulo-alias</em>.<em> nome da coluna</em>)</p></td>
 <td><p>Um valor da coluna especificada. ANY possui um valor previsível apenas quando o valor da coluna é igual para todas as linhas do capítulo.
-</p>
-
-> [!NOTE]
-> Se a coluna não contiver o mesmo valor para todas as linhas do capítulo, o comando SHAPE retornará arbitrariamente um dos valores para ser o valor da função ANY.
-
-
-<p></p></td>
+</p><p><strong>Observação</strong>: se a coluna não contiver o mesmo valor para todas as linhas no capítulo, o comando de forma arbitrariamente retorna um dos valores como o valor da qualquer função.</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -92,6 +87,7 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -112,6 +108,7 @@ Um chapter-alias pode ser totalmente qualificado, consistindo no nome de coluna 
 </tbody>
 </table>
 
+<br/>
 
 O *field-type* passado com a palavra-chave NEW pode ser qualquer um dos tipos de dados a seguir.
 

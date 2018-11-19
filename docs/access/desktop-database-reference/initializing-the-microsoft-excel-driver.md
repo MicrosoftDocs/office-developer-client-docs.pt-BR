@@ -1,6 +1,6 @@
 ---
-title: Inicializando o driver do Microsoft Excel
-TOCTitle: Initializing the Microsoft Excel Driver
+title: Inicialização do driver do Microsoft Excel
+TOCTitle: Initializing the Microsoft Excel driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844939(v=office.15)
 ms:contentKeyID: 48543054
@@ -10,15 +10,14 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f039378c619cb5c9ebe6a70ccae718f5abfdd306
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 87f2b5667c1406caec3e750c1ee256606851fe96
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873898"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026334"
 ---
-# <a name="initializing-the-microsoft-excel-driver"></a>Inicializando o driver do Microsoft Excel
-
+# <a name="initializing-the-microsoft-excel-driver"></a>Inicialização do driver do Microsoft Excel
 
 **Aplica-se a**: Access 2013 | Office 2013
 
@@ -77,6 +76,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta do Ex
 </tbody>
 </table>
 
+<br/>
 
 O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém as entradas a seguir, que se aplicam ao Microsoft Excel 97.
 
@@ -149,4 +149,4 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 
 ## <a name="see-also"></a>Confira também
 
-[Usando a configuração de registo TypeGuessRows para o Driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Usando a configuração de registo TypeGuessRows para o Driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)

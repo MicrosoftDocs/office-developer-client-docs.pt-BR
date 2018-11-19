@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8984c799779f0024ff50e2814a5993119eb6205f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 19f30bec624a43bc1b821d8bef01afa166b0c544
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996794"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026425"
 ---
 # <a name="table-object-adox"></a>Objeto Table (ADOX)
 
@@ -29,7 +29,7 @@ Com as propriedades e coleções de um objeto **Table**, você pode:
 
 - Identificar a tabela com a propriedade [Name](name-property-adox.md).
 
-- Determinar o tipo da tabela com a propriedade [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)).
+- Determinar o tipo da tabela com a propriedade [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox).
 
 - Acessar as colunas do banco de dados da tabela com a coleção [Columns](columns-collection-adox.md).
 

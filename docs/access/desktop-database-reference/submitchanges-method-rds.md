@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba6b6ff2d373a8b05d0839d4cc113f48b47d8cad
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 4b5c18aa12519e9206702eb2a152e6f0d084edc9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949583"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026341"
 ---
 # <a name="submitchanges-method-rds"></a>Método SubmitChanges (RDS)
 
@@ -36,7 +36,7 @@ Submete as alterações pendentes do [Recordset](recordset-object-ado.md) atuali
 
 ## <a name="remarks"></a>Comentários
 
-As propriedades [Connect](connect-property-rds.md), [Server](server-property-rds.md) e [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) devem ser definidas antes de utilizar o método **SubmitChanges** com o objeto **RDS.DataControl**.
+As propriedades [Connect](connect-property-rds.md), [Server](server-property-rds.md) e [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) devem ser definidas antes de utilizar o método **SubmitChanges** com o objeto **RDS.DataControl**.
 
 Se você chamar o método [CancelUpdate](cancelupdate-method-rds.md) depois de chamar **SubmitChanges** para o mesmo objeto **Recordset**, a chamada a **CancelUpdate** falhará porque as alterações já foram confirmadas.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a627804676ad4e61c5eef050c5bc12c36b9e6d1a
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937523"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026229"
 ---
 # <a name="foreachrecord-data-block"></a>Bloco de dados ParaCadaRegistro
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -44,13 +43,7 @@ A ação **ParaCadaRegistro** tem os seguintes argumentos.
 <tr class="odd">
 <td><p><strong>Em</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Uma cadeia de caracteres que identifica o domínio de registros para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p>
-
-> [!NOTE]
-> O domínio especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.
-
-
-<p></p></td>
+<td><p>Uma cadeia de caracteres que identifica o domínio de registros para operar em. O argumento <em>em</em> pode conter o nome da tabela, uma consulta seleção ou uma instrução SQL.</p><p><strong>Observação</strong>: O domínio especificado não pode incluir dados armazenados em uma tabela vinculada ou fonte de dados ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Condição Where</strong></p></td>

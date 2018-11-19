@@ -10,29 +10,26 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6e312bf0b6092df88f86f4bbf843d7951f3c86cc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4e841da9d401558311682f0abcbefde9161b71b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947872"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025991"
 ---
 # <a name="odbc-scalar-functions"></a>Funções escalares ODBC
 
-
 **Aplica-se a**: Access 2013, o Office 2013
 
-O Microsoft Access SQL suporta o uso da sintaxe ODBC definidas para funções escalares. Por exemplo, a consulta:
+O Microsoft Access SQL suporta o uso da sintaxe ODBC definidas para funções escalares. 
 
-SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} \> 5
-
-retorna todas as linhas em que o valor absoluto da alteração no preço de uma ação foi maior que cinco.
+Por exemplo, a consulta `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` retornaria todas as linhas em que o valor absoluto da alteração no preço de uma ação foi maior que cinco.
 
 Um subconjunto de funções escalares definidas por ODBC é aceito. A tabela a seguir lista as funções aceitas.
 
 Para obter uma descrição dos argumentos e uma explicação completa da sintaxe de eliminação para a inclusão de funções em uma instrução SQL, consulte a documentação do ODBC.
 
-## <a name="string-functions"></a>Funções de sequência
+## <a name="string-functions"></a>Funções de cadeia de caracteres
 
 <table>
 <colgroup>
@@ -108,7 +105,7 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 </table>
 
 
-## <a name="time--date-functions"></a>Funções de hora e data
+## <a name="time--date-functions"></a>Funções de data e hora
 
 <table>
 <colgroup>

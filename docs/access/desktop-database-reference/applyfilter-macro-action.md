@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 782445e9d0bb12054d41ac780c86d5d6f1a32972
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926658"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025963"
 ---
 # <a name="applyfilter-macro-action"></a>Ação da macro AplicarFiltro
 
@@ -44,13 +44,7 @@ A ação **AplicarFiltro** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nome do Filtro</p></td>
-<td><p>O nome de um filtro ou uma consulta que restringe ou classifica os registros da tabela, formulário ou relatório. Você pode inserir o nome de uma consulta existente ou um filtro que foi salvo como uma consulta na caixa <strong>Nome do filtro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do <strong>Construtor de macros</strong> .</p>
-
-> [!NOTE]
-> Ao usar esta ação para aplicar um filtro de servidor, o argumento Nome do Filtro precisa estar em branco.
-
-
-<p></p></td>
+<td><p>O nome de um filtro ou uma consulta que restringe ou classifica os registros da tabela, formulário ou relatório. Você pode inserir o nome de uma consulta existente ou um filtro que foi salvo como uma consulta na caixa <strong>Nome do filtro</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do <strong>Construtor de macros</strong> .</p><p><strong>Observação</strong>: quando você estiver usando essa ação para aplicar um filtro de servidor, o argumento Nome do filtro deve estar em branco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condição Where</p></td>

@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997466"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026460"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Inicializando o driver de fonte de dados de texto
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-O mesmo driver de banco de dados é usado para fontes de dados HTML e de texto.
+O mesmo driver de banco de dados é usado para ambas as fontes de dados de texto e para fontes de dados HTML.
 
 Quando você instala o driver de banco de dados da fonte de dados de texto, o programa de instalação grava um conjunto de valores padrão para o registro do Microsoft Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados da fonte de dados de texto.
 
@@ -44,6 +44,8 @@ O **mecanismo de conectividade do Access\\ISAM Formats\\pasta texto** inclui con
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta Text da seguinte maneira:
 

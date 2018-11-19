@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 64e40da96dc6d82c0f682cba5a3ebc7cfb82bb50
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937335"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026404"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>Declaração PARAMETERS (Microsoft Access SQL)
 
@@ -68,7 +68,7 @@ Se a declaração incluir mais de um parâmetro, separe-os com vírgulas. O exem
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-Você pode usar o *nome* , mas não *datatype* em uma cláusula [onde](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) ou [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) . O exemplo a seguir espera que dois parâmetros sejam fornecidos e, em seguida, aplicar os critérios na tabela Pedidos:
+Você pode usar o *nome* , mas não *datatype* em uma cláusula [onde](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) . O exemplo a seguir espera que dois parâmetros sejam fornecidos e, em seguida, aplicar os critérios na tabela Pedidos:
 
 ```sql
 PARAMETERS [Low price] Currency, 

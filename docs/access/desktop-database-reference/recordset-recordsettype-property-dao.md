@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e521c4de48f45d080a3b201ac431b2d7da14bc22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923221"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026208"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Propriedade Recordset.RecordsetType (DAO)
 
@@ -65,12 +65,8 @@ A propriedade **RecordsetType** utiliza as configurações a seguir em um banco 
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!OBSERVAçãO] Se não desejar que dados em controles ligados sejam editados quando um formulário estiver no modo Formulário ou no modo Folha de Dados, você poderá definir a propriedade **RecordsetType** como 2.
-
-
 
 A propriedade **RecordsetType** utiliza as configurações a seguir em um projeto do Microsoft Access (.adp).
 
@@ -101,12 +97,8 @@ A propriedade **RecordsetType** utiliza as configurações a seguir em um projet
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!OBSERVAçãO] Alterar a propriedade **RecordsetType** de um formulário ou de um relatório aberto resulta na recriação automática do conjunto de registros.
-
-
 
 Você pode criar formulários com base em várias tabelas base com campos ligados a controles nos formulários. Dependendo da configuração da propriedade **RecordsetType**, você poderá limitar os controles ligados a serem editados.
 

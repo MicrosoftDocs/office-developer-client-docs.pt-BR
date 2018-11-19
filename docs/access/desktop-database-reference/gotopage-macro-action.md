@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 179ee840370cef98c70e947cef555401408bbe12
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936676"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026217"
 ---
 # <a name="gotopage-macro-action"></a>Ação da macro IrParaPágina
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -56,7 +55,7 @@ A ação **IrParaPágina** tem os seguintes argumentos.
 </table>
 
 > [!NOTE]
-> >[!OBSERVAçãO] Os argumentos **À Direita** e **Abaixo** são medidos em polegadas ou centímetros, dependendo das configurações regionais do Painel de Controle do Windows.
+> [!OBSERVAçãO] Os argumentos **À Direita** e **Abaixo** são medidos em polegadas ou centímetros, dependendo das configurações regionais do Painel de Controle do Windows.
 
 ## <a name="remarks"></a>Comentários
 
@@ -66,9 +65,9 @@ Você pode usar os argumentos **direita** e **para baixo** para formulários com
 
 Não use a ação **IrParaPágina** nos seguintes casos:
 
-  - Para mover o foco para uma página em um formulário oculto.
+- Para mover o foco para uma página em um formulário oculto.
 
-  - Para mover o foco de uma página para outra em um controle guia.
+- Para mover o foco de uma página para outra em um controle guia.
 
 Para executar a ação **IrParaPágina** em um módulo do VBA (Visual Basic for Applications), use o método **GoToPage** do objeto **DoCmd**.
 

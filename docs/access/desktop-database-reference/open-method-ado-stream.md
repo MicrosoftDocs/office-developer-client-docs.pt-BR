@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: b20a68f1707e496b92ba8acbf8bc7ed8d8a2b058
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949821"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026411"
 ---
 # <a name="open-method-ado-stream"></a>Método Open (Stream do ADO)
 
@@ -37,7 +37,7 @@ Abre um objeto [Stream](stream-object-ado.md) para manipular fluxos de dados de 
 
 ## <a name="remarks"></a>Comentários
 
-Quando um objeto **Record** é passado como o parâmetro source, a *ID de usuário* e os parâmetros de *senha* não são usados como acesso ao objeto **registro** já está disponível. Da mesma forma, o [modo](mode-property-ado.md) do objeto **Record** é transferida para o objeto **Stream** . Quando o *código-fonte* não for especificado, o **fluxo** aberto não contém dados e tem um [tamanho](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) zero (0). Para evitar a perda de todos os dados que são gravados este **fluxo** quando o **fluxo** é fechado, salve o **Stream** com os métodos [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) ou salvá-lo para outro local de memória.
+Quando um objeto **Record** é passado como o parâmetro source, a *ID de usuário* e os parâmetros de *senha* não são usados como acesso ao objeto **registro** já está disponível. Da mesma forma, o [modo](mode-property-ado.md) do objeto **Record** é transferida para o objeto **Stream** . Quando o *código-fonte* não for especificado, o **fluxo** aberto não contém dados e tem um [tamanho](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) zero (0). Para evitar a perda de todos os dados que são gravados este **fluxo** quando o **fluxo** é fechado, salve o **Stream** com os métodos [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) ou salvá-lo para outro local de memória.
 
 Um valor de *OpenOptions* de **adOpenStreamFromRecord** identifica o conteúdo do parâmetro *fonte* a ser um objeto de **registro** já aberto. O comportamento padrão é tratar a *fonte* como uma URL que aponta diretamente para um nó em uma estrutura de árvore, como um arquivo. O fluxo padrão associado a esse nó será aberto.
 

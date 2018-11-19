@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
 ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffc8f1aa1097319929059ec21651e651184050d4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ebc91213d3ac7c638a56965ec54ddfb973eb667f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944239"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026320"
 ---
 # <a name="connection-properties-methods-and-events-ado"></a>Propriedades de Conexão, métodos e eventos (ADO)
 
@@ -39,7 +39,7 @@ ms.locfileid: "25944239"
 - [Métodos BeginTrans, CommitTrans e RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Método Cancel](cancel-method-ado.md)
 - [Método Close](close-method-ado.md)
-- [Executar o método (Conexão ADO)](https://msdn.microsoft.com/library/jj249832\(v=office.15\))
+- [Executar o método (Conexão ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Método Open (Connection do ADO)](open-method-ado-connection.md)
 - [Método OpenSchema](openschema-method-ado.md)
 

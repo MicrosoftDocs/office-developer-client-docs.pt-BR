@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927267"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026194"
 ---
 # <a name="refreshrecord-macro-action"></a>Ação da macro AtualizarRegistro
 
@@ -32,7 +32,7 @@ O comportamento desta ação de macro depende do fato de estar sendo chamada em 
 
 ## <a name="client-database"></a>Banco de dados cliente
 
-Em um banco de dados cliente, você pode usar a ação **AtualizarRegistro** para atualizar a fonte do registro subjacente do formulário ou da folha de dados ativa para refletir alterações feitas nos dados no conjunto atual. É equivalente ao método **[Atualizar](https://msdn.microsoft.com/library/ff836021\(v=office.15\))**.
+Em um banco de dados cliente, você pode usar a ação **AtualizarRegistro** para atualizar a fonte do registro subjacente do formulário ou da folha de dados ativa para refletir alterações feitas nos dados no conjunto atual. É equivalente ao método **[Atualizar](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)**.
 
 A ação de macro **AtualizarRegistro** executa as seguintes ações em um banco de dados cliente:
 

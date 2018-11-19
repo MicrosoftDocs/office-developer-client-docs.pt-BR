@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937628"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026243"
 ---
 # <a name="gotocontrol-macro-action"></a>Ação da macro IrParaControle
 
@@ -41,12 +41,7 @@ A ação **IrParaControle** tem os argumentos a seguir.
 <tr class="odd">
 <td><p><strong>Nome do Controle</strong></p></td>
 <td><p>O nome do campo ou do controle em que você deseja focar. Insira o nome do campo ou controle na caixa <strong>Nome do controle</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Este é um argumento obrigatório.</p>
-
-> [!NOTE]
-> Insira apenas o nome do campo ou controle no argumento **Nome do controle** , não o identificador totalmente qualificado, como formulários! Produtos! [Product ID].
-
-
-<p></p></td>
+<p><strong>Observação</strong>: insira apenas o nome do campo ou controle no argumento <strong>Nome do controle</strong> , não o identificador totalmente qualificado, como formulários! Produtos! [Product ID].</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +97,7 @@ A macro a seguir abre o formulário Adicionar produtos com um botão no formulá
 <td><p>Defina o controle de código do fornecedor como o fornecedor atual no formulário fornecedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CategoryID</p></td>
 <td><p>Vá para o controle de ID da categoria.</p></td>
 </tr>
@@ -150,7 +145,7 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CEP</p></td>
 <td><p></p></td>
 </tr>
@@ -170,7 +165,7 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CEP</p></td>
 <td><p></p></td>
 </tr>

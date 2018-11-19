@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: a16df1e26e4ab5617e6bf76aa93a11a936ccb49b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 050226506b3dc1d00f4323ae727763f7ba6bdc66
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925895"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026110"
 ---
 # <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN, RIGHT JOIN operações (Microsoft Access SQL)
 
 **Aplica-se a**: Access 2013, o Office 2013
 
-Combina registros da tabela de origem quando usados em qualquer cláusula [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)).
+Combina registros da tabela de origem quando usados em qualquer cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql).
 
 ## <a name="syntax"></a>Sintaxe
 

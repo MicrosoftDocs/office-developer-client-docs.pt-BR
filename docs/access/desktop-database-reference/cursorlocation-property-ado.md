@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 874662585292b9d9a9b2bc53f5b6fe5178e3517b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870160"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025844"
 ---
 # <a name="cursorlocation-property-ado"></a>Propriedade CursorLocation (ADO)
 
@@ -30,7 +30,7 @@ Essa propriedade permite que você escolha entre diversas bibliotecas de cursore
 
 A definição dessa propriedade afeta as conexões estabelecidas apenas depois que a propriedade tiver sido configurada. A alteração da propriedade **CursorLocation** não afeta as conexões existentes.
 
-Os cursores retornados pelo método [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) herdam essa definição. Os objetos **Recordset** herdarão automaticamente essa definição de suas conexões associadas.
+Os cursores retornados pelo método [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) herdam essa definição. Os objetos **Recordset** herdarão automaticamente essa definição de suas conexões associadas.
 
 Essa propriedade é leitura/gravação em um [Connection](connection-object-ado.md) ou um [Recordset](recordset-object-ado.md) fechado e somente leitura em um **Recordset** aberto.
 

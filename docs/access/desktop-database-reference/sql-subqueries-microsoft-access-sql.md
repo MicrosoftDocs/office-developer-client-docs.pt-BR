@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4efa4e92d7fab2dc8a4aae932ccb1ffe69c7c6c8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937348"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026096"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Subconsultas SQL (Microsoft Access SQL)
 
@@ -68,7 +68,7 @@ Uma subconsulta contém estas partes:
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar uma subconsulta em vez de uma expressão na lista de campos de uma instrução SELECT ou em uma cláusula [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) ou [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)). Em uma subconsulta, use uma instrução SELECT para fornecer um conjunto de um ou mais valores específicos para serem avaliados na expressão da cláusula WHERE ou HAVING.
+Você pode usar uma subconsulta em vez de uma expressão na lista de campos de uma instrução SELECT ou em uma cláusula [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql). Em uma subconsulta, use uma instrução SELECT para fornecer um conjunto de um ou mais valores específicos para serem avaliados na expressão da cláusula WHERE ou HAVING.
 
 Use o predicado ANY ou SOME, que são sinônimos, para recuperar registros na consulta principal que atenda à comparação com qualquer registro recuperado na subconsulta. O exemplo a seguir retorna todos os produtos cujo preço de unidade é maior que o preço de qualquer outro produto vendido com um desconto de 25% ou mais:
 
@@ -79,7 +79,7 @@ WHERE UnitPrice > ANY
 WHERE Discount >= .25);
 ```
 
-Use o predicado [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) para recuperar somente aqueles registros na consulta principal que atendam à comparação com todos os registros recuperados na subconsulta. Se você mudar de ANY para ALL no exemplo anterior, a consulta retornará somente aqueles produtos cujo preço da unidade for maior que o preço de todos os produtos vendidos com um desconto de 25% ou mais. Isso é muito mais restritivo.
+Use o predicado [ALL](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) para recuperar somente aqueles registros na consulta principal que atendam à comparação com todos os registros recuperados na subconsulta. Se você mudar de ANY para ALL no exemplo anterior, a consulta retornará somente aqueles produtos cujo preço da unidade for maior que o preço de todos os produtos vendidos com um desconto de 25% ou mais. Isso é muito mais restritivo.
 
 Use o predicado IN para recuperar somente aqueles registros na consulta principal para os quais algum registro na subconsulta contém um valor igual. O exemplo a seguir retorna todos os produtos com um desconto de 25% ou mais:
 
@@ -94,7 +94,7 @@ De modo oposto, você NÃO pode usar IN para recuperar somente aqueles registros
 
 Use o predicado EXISTS (com a palavra reservada opcional NOT) em comparações true/false para determinar se a subconsulta retorna algum registro.
 
-Você também pode usar os aliases do nome da tabela em um subconsulta para se referir a tabelas listadas em uma cláusula [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) fora da subconsulta. O exemplo a seguir retorna os nomes de funcionários cujos salários são iguais ou maiores que o salário médio de todos os funcionários que têm o mesmo cargo. A tabela Funcionários recebe o alias "T1":
+Você também pode usar os aliases do nome da tabela em um subconsulta para se referir a tabelas listadas em uma cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) fora da subconsulta. O exemplo a seguir retorna os nomes de funcionários cujos salários são iguais ou maiores que o salário médio de todos os funcionários que têm o mesmo cargo. A tabela Funcionários recebe o alias "T1":
 
 ```sql
 SELECT LastName,

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: badfb4468c8f485d52535b33c644b88b5fae531d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d04c98da0ecef1c2323930c74588b7a6a07c2e29
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923165"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026264"
 ---
 # <a name="addmenu-macro-action"></a>Ação da macro AdicionarMenu
 
@@ -57,12 +57,7 @@ A ação **AdicionarMenu** tem os seguintes argumentos.
 <td><p>O nome do grupo de macros que contém as macros dos comandos do menu. Esse é um argumento obrigatório. 
 
 </p>
-
-> [!NOTE]
-> Se você executar uma macro que contenha a ação **AdicionarMenu** em um banco de dados biblioteca, o Microsoft Office Access 2007 procurará o grupo de macros com esse nome somente no banco de dados atual.
-
-
-<p></p></td>
+<p><strong>Observação</strong>: se você executar uma macro que contém a ação <strong>AdicionarMenu</strong> em um banco de dados biblioteca, Microsoft Office Access 2007 procurará o grupo de macros com esse nome de banco de dados atual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texto da Barra de Status</strong></p></td>

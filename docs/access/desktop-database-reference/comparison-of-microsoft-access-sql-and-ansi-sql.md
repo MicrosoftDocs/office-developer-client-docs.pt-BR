@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd5350248c33b344695a02020b4b91bdbb1bb984
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 8ce6b1ae1ab15a25eca61a22049d538736c3672d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937173"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026180"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparação entre Microsoft Access SQL e ANSI SQL
-
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -22,15 +21,15 @@ O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível co
 
 ## <a name="major-differences"></a>Principais diferenças
 
-  - O Microsoft Access SQL e o ANSI SQL têm diferentes palavras reservadas e tipos de dados. Para obter mais informações, consulte [Palavras reservadas SQL do mecanismo de banco de dados do Microsoft Access](sql-reserved-words.md) e [Tipos de dados ANSI SQL equivalentes](equivalent-ansi-sql-data-types.md). Utilizando o Provedor do OLE DB do mecanismo de banco de dados do Microsoft Access, há outras palavras reservadas.
+- O Microsoft Access SQL e o ANSI SQL têm diferentes palavras reservadas e tipos de dados. Para obter mais informações, consulte [Palavras reservadas SQL do mecanismo de banco de dados do Microsoft Access](sql-reserved-words.md) e [Tipos de dados ANSI SQL equivalentes](equivalent-ansi-sql-data-types.md). Utilizando o Provedor do OLE DB do mecanismo de banco de dados do Microsoft Access, há outras palavras reservadas.
 
-  - **[Between…And](https://msdn.microsoft.com/library/ff192436\(v=office.15\))**
+- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-    *expr1* \[Não\] **entre** *valor1* **e** *valor2*
+  *expr1* \[Não\] **entre** *valor1* **e** *valor2*
     
-    No Microsoft Access SQL, *value1* pode ser maior que *value2*; no ANSI SQL, *value1* deve ser igual ou menor que *value2.*
+  No Microsoft Access SQL, *value1* pode ser maior que *value2*; no ANSI SQL, *value1* deve ser igual ou menor que *value2.*
 
-  - O Microsoft Access SQL fornece suporte a caracteres curinga do ANSI SQL e a [caracteres curinga](using-wildcard-characters-in-string-comparisons.md) específicos do mecanismo de banco de dados do Microsoft Access para serem usados com o operador **[Like](https://msdn.microsoft.com/library/ff195752\(v=office.15\))**. O uso dos caracteres curinga do ANSI e do mecanismo de banco de dados do Microsoft Access é mutuamente exclusivo. Você deve usar um conjunto ou o outro e não é possível misturá-los. Os caracteres curinga do ANSI SQL estarão disponíveis somente ao utilizar o mecanismo de banco de dados do Microsoft Access e o Provedor OLE DB do mecanismo de banco de dados do Microsoft Access. Se você tentar usar os caracteres curinga do ANSI SQL no Microsoft Access ou no DAO, eles serão interpretados como literais. O oposto é verdadeiro, ao usar o Provedor OLE DB do mecanismo de banco de dados do Microsoft Access.
+- O Microsoft Access SQL fornece suporte a caracteres curinga do ANSI SQL e a [caracteres curinga](using-wildcard-characters-in-string-comparisons.md) específicos do mecanismo de banco de dados do Microsoft Access para serem usados com o operador **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)**. O uso dos caracteres curinga do ANSI e do mecanismo de banco de dados do Microsoft Access é mutuamente exclusivo. Você deve usar um conjunto ou o outro e não é possível misturá-los. Os caracteres curinga do ANSI SQL estarão disponíveis somente ao utilizar o mecanismo de banco de dados do Microsoft Access e o Provedor OLE DB do mecanismo de banco de dados do Microsoft Access. Se você tentar usar os caracteres curinga do ANSI SQL no Microsoft Access ou no DAO, eles serão interpretados como literais. O oposto é verdadeiro, ao usar o Provedor OLE DB do mecanismo de banco de dados do Microsoft Access.
     
     <table>
     <colgroup>
@@ -60,25 +59,25 @@ O mecanismo de banco de dados Microsoft Access SQL é normalmente compatível co
     </table>
 
 
-  - O Microsoft Access SQL é geralmente menos restritivo. Por exemplo, ele permite agrupar e ordenar caracteres em expressões.
+- O Microsoft Access SQL é geralmente menos restritivo. Por exemplo, ele permite agrupar e ordenar caracteres em expressões.
 
-  - O Microsoft Access SQL fornece suporte a expressões mais poderosas.
+- O Microsoft Access SQL fornece suporte a expressões mais poderosas.
 
 ## <a name="enhanced-features-of-microsoft-access-sql"></a>Recursos avançados do Microsoft Access SQL
 
 O Microsoft Access SQL fornece os seguintes recursos avançados:
 
-  - A instrução [TRANSFORM](transform-statement-microsoft-access-sql.md), que fornece suporte para consultas de tabela de referência cruzada.
+- A instrução [TRANSFORM](transform-statement-microsoft-access-sql.md), que fornece suporte para consultas de tabela de referência cruzada.
 
-  - [Funções agregadas](sql-aggregate-functions-sql.md) adicionais, como **StDev** e **VarP**.
+- [Funções agregadas](sql-aggregate-functions-sql.md) adicionais, como **StDev** e **VarP**.
 
-  - A declaração [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definição de consulta de parâmetro.
+- A declaração [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definição de consulta de parâmetro.
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Recursos do ANSI SQL não aceitos no Microsoft Access SQL
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Recursos do ANSI SQL não são suportados no Microsoft Access SQL
 
 O Microsoft Access SQL não fornece suporte ao seguintes recursos do ANSI SQL:
 
-  - Referências à função de agregação DISTINCT. Por exemplo, o Microsoft Access SQL não permite SUM(DISTINCT *nome_da_coluna*).
+- Referências à função de agregação DISTINCT. Por exemplo, o Microsoft Access SQL não permite SUM(DISTINCT *nome_da_coluna*).
 
-  - A cláusula LIMIT TO *nn* ROWS usada para limitar o número de linhas retornadas por uma consulta. Você pode usar apenas a [cláusula WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) para limitar o escopo de uma consulta.
+- A cláusula LIMIT TO *nn* ROWS usada para limitar o número de linhas retornadas por uma consulta. Você pode usar apenas a [cláusula WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) para limitar o escopo de uma consulta.
 

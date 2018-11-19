@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888031"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026201"
 ---
 # <a name="appendix-a-providers"></a>Apêndice A: Provedores
 
@@ -27,11 +27,11 @@ O ADO é poderoso e flexível, pois pode conectar-se a qualquer um dos vários p
 
 Entretanto, pelo fato de cada provedor de dados ser exclusivo, a forma de seu aplicativo interagir com o ADO variará ligeiramente de acordo com o provedor de dados. As diferenças geralmente enquadram-se em três categorias:
 
-  - Parâmetros de conexão na propriedade [ConnectionString](connectionstring-property-ado.md).
+- Parâmetros de conexão na propriedade [ConnectionString](connectionstring-property-ado.md).
 
-  - Uso do objeto [Command](command-object-ado.md).
+- Uso do objeto [Command](command-object-ado.md).
 
-  - Comportamento específico do provedor [Recordset](recordset-object-ado.md).
+- Comportamento específico do provedor [Recordset](recordset-object-ado.md).
 
 Os detalhes de cada um dos provedores de dados atualmente disponíveis na Microsoft estão relacionados a seguir.
 
@@ -79,7 +79,7 @@ Os detalhes de cada um dos provedores de dados atualmente disponíveis na Micros
 </table>
 
 
-## <a name="provider-specific-dynamic-properties"></a>Propriedades dinâmicas específicas para o provedor
+## <a name="provider-specific-dynamic-properties"></a>Propriedades dinâmicas específicas do provedor
 
 A coleção [Properties](properties-collection-ado.md) dos objetos [Connection](connection-object-ado.md), [Command](command-object-ado.md) e [Recordset](recordset-object-ado.md) incluem propriedades dinâmicasespecíficas para o provedor. Essas propriedades fornecem informações sobre a funcionalidade específica do provedor, além das propriedades internas que têm suporte do ADO.
 
@@ -89,17 +89,17 @@ Depois de estabelecer a conexão e criar esses objetos, utilize o método [Refre
 
 Para utilizar um provedor de serviços, você deverá fornecer uma palavra-chave. Também deverá conhecer as propriedades dinâmicas específicas para o provedor associadas a cada provedor de serviços. Os detalhes específicos para provedor são relacionados para cada um dos provedores de serviços atualmente disponíveis na Microsoft:
 
-  - [Microsoft Data Shaping Service para OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+- [Microsoft Data Shaping Service para OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
-  - [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
+- [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
 
-  - [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
+- [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
 ## <a name="service-components"></a>Componentes de serviço
 
 O componente de serviço [Cursor Service para OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) complementa as funções de suporte do cursor dos provedores de dados. Também exige uma palavra-chave e tem propriedades dinâmicas.
 
-Para obter mais informações sobre provedores, consulte a documentação do Microsoft OLE DB no Microsoft Data Access Components SDK ou visite o site [Centro do Desenvolverdo da Plataforma de Dados](https://msdn.microsoft.com/data/default.aspx).
+Para obter mais informações sobre provedores, consulte a documentação do Microsoft OLE DB no Microsoft Data Access Components SDK ou visite o site [Centro do Desenvolverdo da Plataforma de Dados](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 
 ## <a name="provider-commands"></a>Comandos do provedor
 
