@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248833(v=office.15)
 ms:contentKeyID: 48543146
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67b970f50ab6928e94741cf70be30aa88fddfdae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ec71ee93a0c513b9a613c9f1c1a8a6b7d39a6d4e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887450"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025886"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="03a5e-102">Exemplo dos métodos GetObjectOwner e SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="03a5e-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a><span data-ttu-id="c66ee-102">Exemplo dos métodos GetObjectOwner e SetObjectOwner (VB)</span><span class="sxs-lookup"><span data-stu-id="c66ee-102">GetObjectOwner and SetObjectOwner methods example (VB)</span></span>
 
 
-<span data-ttu-id="03a5e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="03a5e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c66ee-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c66ee-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03a5e-104">Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="03a5e-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.</span></span> <span data-ttu-id="03a5e-105">Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo para o sistema).</span><span class="sxs-lookup"><span data-stu-id="03a5e-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="03a5e-106">O proprietário da tabela Categories é definido como Accounting.</span><span class="sxs-lookup"><span data-stu-id="03a5e-106">The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="c66ee-104">Este exemplo demonstra os métodos [GetObjectOwner](getobjectowner-method-adox.md) e [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox).</span><span class="sxs-lookup"><span data-stu-id="c66ee-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods.</span></span> <span data-ttu-id="c66ee-105">Este código supõe a existência do grupo de contabilidade (consulte a [grupos e usuários, ChangePassword exemplo dos métodos Append (VB)](groups-and-users-append-changepassword-methods-example-vb.md) para ver como adicionar esse grupo para o sistema).</span><span class="sxs-lookup"><span data-stu-id="c66ee-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system).</span></span> <span data-ttu-id="c66ee-106">O proprietário da tabela Categories é definido como Accounting.</span><span class="sxs-lookup"><span data-stu-id="c66ee-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```vb 
  

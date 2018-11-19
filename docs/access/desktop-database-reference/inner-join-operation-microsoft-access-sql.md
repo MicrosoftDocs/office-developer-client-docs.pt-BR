@@ -12,26 +12,26 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f9593e8bf0175ee6a25bd53d886c291eed6f75c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4179087408a9f7a68bccc673bcd456305ba41d5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929431"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026481"
 ---
-# <a name="inner-join-operation-microsoft-access-sql"></a><span data-ttu-id="fec29-102">Operação INNER JOIN (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="fec29-102">INNER JOIN operation (Microsoft Access SQL)</span></span>
+# <a name="inner-join-operation-microsoft-access-sql"></a><span data-ttu-id="52dd7-102">Operação INNER JOIN (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="52dd7-102">INNER JOIN operation (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="fec29-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fec29-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52dd7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="52dd7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="fec29-104">Combina registros de duas tabelas, sempre que houver valores correspondentes em um campo comum.</span><span class="sxs-lookup"><span data-stu-id="fec29-104">Combines records from two tables whenever there are matching values in a common field.</span></span>
+<span data-ttu-id="52dd7-104">Combina registros de duas tabelas, sempre que houver valores correspondentes em um campo comum.</span><span class="sxs-lookup"><span data-stu-id="52dd7-104">Combines records from two tables whenever there are matching values in a common field.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fec29-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fec29-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="52dd7-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="52dd7-105">Syntax</span></span>
 
-<span data-ttu-id="fec29-106">DA *tabela 1* INNER JOIN *Tabela2* na *tabela 1*. *field1* *compopr Tabela2*. *Field2*</span><span class="sxs-lookup"><span data-stu-id="fec29-106">FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*</span></span>
+<span data-ttu-id="52dd7-106">DA *tabela 1* INNER JOIN *Tabela2* na *tabela 1*. *field1* *compopr Tabela2*. *Field2*</span><span class="sxs-lookup"><span data-stu-id="52dd7-106">FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*</span></span>
 
-<span data-ttu-id="fec29-107">A operação INNER JOIN contém as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="fec29-107">The INNER JOIN operation has these parts:</span></span>
+<span data-ttu-id="52dd7-107">A operação INNER JOIN contém as seguintes partes:</span><span class="sxs-lookup"><span data-stu-id="52dd7-107">The INNER JOIN operation has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -40,38 +40,38 @@ ms.locfileid: "25929431"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="fec29-108">Parte</span><span class="sxs-lookup"><span data-stu-id="fec29-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="fec29-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="fec29-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="52dd7-108">Parte</span><span class="sxs-lookup"><span data-stu-id="52dd7-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="52dd7-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="52dd7-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fec29-110"><em>tabela1</em>, <em>compopr2</em></span><span class="sxs-lookup"><span data-stu-id="fec29-110"><em>table1</em>, <em>table2</em></span></span></p></td>
-<td><p><span data-ttu-id="fec29-111">Os nomes das tabelas nas quais os registros são combinados.</span><span class="sxs-lookup"><span data-stu-id="fec29-111">The names of the tables from which records are combined.</span></span></p></td>
+<td><p><span data-ttu-id="52dd7-110"><em>tabela1</em>, <em>compopr2</em></span><span class="sxs-lookup"><span data-stu-id="52dd7-110"><em>table1</em>, <em>table2</em></span></span></p></td>
+<td><p><span data-ttu-id="52dd7-111">Os nomes das tabelas nas quais os registros são combinados.</span><span class="sxs-lookup"><span data-stu-id="52dd7-111">The names of the tables from which records are combined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fec29-112"><em>campo1</em>, <em>campo2</em></span><span class="sxs-lookup"><span data-stu-id="fec29-112"><em>field1</em>, <em>field2</em></span></span></p></td>
-<td><p><span data-ttu-id="fec29-p101">Os nomes dos campos unidos. Caso não sejam numéricos, os campos deverão ser do mesmo tipo e conter o mesmo tipo de dados, mas não é necessário que tenham o mesmo nome.</span><span class="sxs-lookup"><span data-stu-id="fec29-p101">The names of the fields that are joined. If they are not numeric, the fields must be of the same data type and contain the same kind of data, but they do not have to have the same name.</span></span></p></td>
+<td><p><span data-ttu-id="52dd7-112"><em>campo1</em>, <em>campo2</em></span><span class="sxs-lookup"><span data-stu-id="52dd7-112"><em>field1</em>, <em>field2</em></span></span></p></td>
+<td><p><span data-ttu-id="52dd7-p101">Os nomes dos campos unidos. Caso não sejam numéricos, os campos deverão ser do mesmo tipo e conter o mesmo tipo de dados, mas não é necessário que tenham o mesmo nome.</span><span class="sxs-lookup"><span data-stu-id="52dd7-p101">The names of the fields that are joined. If they are not numeric, the fields must be of the same data type and contain the same kind of data, but they do not have to have the same name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fec29-115"><em>compopr</em></span><span class="sxs-lookup"><span data-stu-id="fec29-115"><em>compopr</em></span></span></p></td>
-<td><p><span data-ttu-id="fec29-116">Qualquer operador de comparação relacional: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; ou &quot; &lt; &gt;.&quot;</span><span class="sxs-lookup"><span data-stu-id="fec29-116">Any relational comparison operator: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; or &quot;&lt;&gt;.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="52dd7-115"><em>compopr</em></span><span class="sxs-lookup"><span data-stu-id="52dd7-115"><em>compopr</em></span></span></p></td>
+<td><p><span data-ttu-id="52dd7-116">Qualquer operador de comparação relacional: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; ou &quot; &lt; &gt;.&quot;</span><span class="sxs-lookup"><span data-stu-id="52dd7-116">Any relational comparison operator: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; or &quot;&lt;&gt;.&quot;</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="fec29-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="fec29-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="52dd7-117">Comentários</span><span class="sxs-lookup"><span data-stu-id="52dd7-117">Remarks</span></span>
 
-<span data-ttu-id="fec29-p102">É possível usar uma operação INNER JOIN em qualquer cláusula [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)). Esse é o tipo de junção mais comum. As junções internas combinam registros de duas tabelas sempre que houver correspondência de valores em campos comuns nas duas tabelas.</span><span class="sxs-lookup"><span data-stu-id="fec29-p102">You can use an INNER JOIN operation in any [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) clause. This is the most common type of join. Inner joins combine records from two tables whenever there are matching values in a field common to both tables.</span></span>
+<span data-ttu-id="52dd7-p102">É possível usar uma operação INNER JOIN em qualquer cláusula [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql). Esse é o tipo de junção mais comum. As junções internas combinam registros de duas tabelas sempre que houver correspondência de valores em campos comuns nas duas tabelas.</span><span class="sxs-lookup"><span data-stu-id="52dd7-p102">You can use an INNER JOIN operation in any [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause. This is the most common type of join. Inner joins combine records from two tables whenever there are matching values in a field common to both tables.</span></span>
 
-<span data-ttu-id="fec29-p103">É possível usar a INNER JOIN nas tabelas Departamentos e Funcionários para selecionar todos os funcionários de um departamento. Em contrapartida, para selecionar todos os departamentos (mesmo se não houver funcionários atribuídos a eles) todos os funcionários (mesmo que alguns não estejam atribuídos ao departamento), é possível usar uma operação [LEFT JOIN ou RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) para criar uma junção externa.</span><span class="sxs-lookup"><span data-stu-id="fec29-p103">You can use INNER JOIN with the Departments and Employees tables to select all the employees in each department. In contrast, to select all departments (even if some have no employees assigned to them) or all employees (even if some are not assigned to a department), you can use a [LEFT JOIN or RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) operation to create an outer join.</span></span>
+<span data-ttu-id="52dd7-p103">É possível usar a INNER JOIN nas tabelas Departamentos e Funcionários para selecionar todos os funcionários de um departamento. Em contrapartida, para selecionar todos os departamentos (mesmo se não houver funcionários atribuídos a eles) todos os funcionários (mesmo que alguns não estejam atribuídos ao departamento), é possível usar uma operação [LEFT JOIN ou RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) para criar uma junção externa.</span><span class="sxs-lookup"><span data-stu-id="52dd7-p103">You can use INNER JOIN with the Departments and Employees tables to select all the employees in each department. In contrast, to select all departments (even if some have no employees assigned to them) or all employees (even if some are not assigned to a department), you can use a [LEFT JOIN or RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) operation to create an outer join.</span></span>
 
-<span data-ttu-id="fec29-123">Se você tentar juntar campos contendo dados de objeto OLE ou Memorando, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="fec29-123">If you try to join fields containing Memo or OLE Object data, an error occurs.</span></span>
+<span data-ttu-id="52dd7-123">Se você tentar juntar campos contendo dados de objeto OLE ou Memorando, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="52dd7-123">If you try to join fields containing Memo or OLE Object data, an error occurs.</span></span>
 
-<span data-ttu-id="fec29-p104">É possível juntar pares de campos numéricos ou de tipos semelhantes. Por exemplo, você poderá juntar os campos Numeração Automática e Longo, pois eles são de tipos semelhantes. No entanto, não é possível juntar campos de tipo simples com duplos.</span><span class="sxs-lookup"><span data-stu-id="fec29-p104">You can join any two numeric fields of like types. For example, you can join on AutoNumber and Long fields because they are like types. However, you cannot join Single and Double types of fields.</span></span>
+<span data-ttu-id="52dd7-p104">É possível juntar pares de campos numéricos ou de tipos semelhantes. Por exemplo, você poderá juntar os campos Numeração Automática e Longo, pois eles são de tipos semelhantes. No entanto, não é possível juntar campos de tipo simples com duplos.</span><span class="sxs-lookup"><span data-stu-id="52dd7-p104">You can join any two numeric fields of like types. For example, you can join on AutoNumber and Long fields because they are like types. However, you cannot join Single and Double types of fields.</span></span>
 
-<span data-ttu-id="fec29-127">O seguinte exemplo mostra como você poderá unir as tabelas Categorias e Produtos no campo CategoryID:</span><span class="sxs-lookup"><span data-stu-id="fec29-127">The following example shows how you could join the Categories and Products tables on the CategoryID field:</span></span>
+<span data-ttu-id="52dd7-127">O seguinte exemplo mostra como você poderá unir as tabelas Categorias e Produtos no campo CategoryID:</span><span class="sxs-lookup"><span data-stu-id="52dd7-127">The following example shows how you could join the Categories and Products tables on the CategoryID field:</span></span>
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -79,23 +79,23 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-<span data-ttu-id="fec29-128">No exemplo anterior, CategoryID é o campo associado, mas não está incluído na saída da consulta porque ele não está incluído na instrução [SELECT](select-statement-microsoft-access-sql.md) .</span><span class="sxs-lookup"><span data-stu-id="fec29-128">In the preceding example, CategoryID is the joined field, but it is not included in the query output because it is not included in the [SELECT](select-statement-microsoft-access-sql.md) statement.</span></span> <span data-ttu-id="fec29-129">Para incluir o campo associado, inclua o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.</span><span class="sxs-lookup"><span data-stu-id="fec29-129">To include the joined field, include the field name in the SELECT statement — in this case, Categories.CategoryID.</span></span>
+<span data-ttu-id="52dd7-128">No exemplo anterior, CategoryID é o campo associado, mas não está incluído na saída da consulta porque ele não está incluído na instrução [SELECT](select-statement-microsoft-access-sql.md) .</span><span class="sxs-lookup"><span data-stu-id="52dd7-128">In the preceding example, CategoryID is the joined field, but it is not included in the query output because it is not included in the [SELECT](select-statement-microsoft-access-sql.md) statement.</span></span> <span data-ttu-id="52dd7-129">Para incluir o campo associado, inclua o nome do campo na instrução SELECT — neste caso, Categories.CategoryID.</span><span class="sxs-lookup"><span data-stu-id="52dd7-129">To include the joined field, include the field name in the SELECT statement — in this case, Categories.CategoryID.</span></span>
 
-<span data-ttu-id="fec29-130">é possível juntar também diversas cláusulas ON em uma instrução de JUNÇÃO, usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="fec29-130">You can also link several ON clauses in a JOIN statement, using the following syntax:</span></span>
+<span data-ttu-id="52dd7-130">é possível juntar também diversas cláusulas ON em uma instrução de JUNÇÃO, usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="52dd7-130">You can also link several ON clauses in a JOIN statement, using the following syntax:</span></span>
 
-<span data-ttu-id="fec29-131">Selecione os *campos* da *tabela 1* INNER JOIN de Diante *Tabela2* *tabela 1*. *field1* *compopr* *Tabela2*. *field1* E, na *tabela 1*. *Field2* *compopr* *Tabela2*. *field2*) OU, na *tabela 1*. *Field3* *compopr* *Tabela2*. *field3*) \];</span><span class="sxs-lookup"><span data-stu-id="fec29-131">SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];</span></span>
+<span data-ttu-id="52dd7-131">Selecione os *campos* da *tabela 1* INNER JOIN de Diante *Tabela2* *tabela 1*. *field1* *compopr* *Tabela2*. *field1* E, na *tabela 1*. *Field2* *compopr* *Tabela2*. *field2*) OU, na *tabela 1*. *Field3* *compopr* *Tabela2*. *field3*) \];</span><span class="sxs-lookup"><span data-stu-id="52dd7-131">SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];</span></span>
 
-<span data-ttu-id="fec29-132">É possível também aninhar instruções JOIN utilizando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="fec29-132">You can also nest JOIN statements using the following syntax:</span></span>
+<span data-ttu-id="52dd7-132">É possível também aninhar instruções JOIN utilizando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="52dd7-132">You can also nest JOIN statements using the following syntax:</span></span>
 
-<span data-ttu-id="fec29-133">Selecione os *campos* da *tabela 1* INNER JOIN (*Tabela2* INNER JOIN \[( \] *Tabela3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN...) \] Em *Tabela3*. *Field3* *compopr* *tablex*. *fieldx*) \] Em *Tabela2*. *Field2* *compopr* *Tabela3*. *field3*) NA *tabela 1*. *field1* *compopr* *Tabela2*. *field2*;</span><span class="sxs-lookup"><span data-stu-id="fec29-133">SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;</span></span>
+<span data-ttu-id="52dd7-133">Selecione os *campos* da *tabela 1* INNER JOIN (*Tabela2* INNER JOIN \[( \] *Tabela3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN...) \] Em *Tabela3*. *Field3* *compopr* *tablex*. *fieldx*) \] Em *Tabela2*. *Field2* *compopr* *Tabela3*. *field3*) NA *tabela 1*. *field1* *compopr* *Tabela2*. *field2*;</span><span class="sxs-lookup"><span data-stu-id="52dd7-133">SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;</span></span>
 
-<span data-ttu-id="fec29-134">Uma LEFT JOIN ou uma RIGHT JOIN poderá ser aninhada dentro de uma INNER JOIN, mas a INNER JOIN não poderá ser aninhada dentro de uma LEFT JOIN ou de uma RIGHT JOIN.</span><span class="sxs-lookup"><span data-stu-id="fec29-134">A LEFT JOIN or a RIGHT JOIN may be nested inside an INNER JOIN, but an INNER JOIN may not be nested inside a LEFT JOIN or a RIGHT JOIN.</span></span>
+<span data-ttu-id="52dd7-134">Uma LEFT JOIN ou uma RIGHT JOIN poderá ser aninhada dentro de uma INNER JOIN, mas a INNER JOIN não poderá ser aninhada dentro de uma LEFT JOIN ou de uma RIGHT JOIN.</span><span class="sxs-lookup"><span data-stu-id="52dd7-134">A LEFT JOIN or a RIGHT JOIN may be nested inside an INNER JOIN, but an INNER JOIN may not be nested inside a LEFT JOIN or a RIGHT JOIN.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fec29-135">Exemplo</span><span class="sxs-lookup"><span data-stu-id="fec29-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="52dd7-135">Exemplo</span><span class="sxs-lookup"><span data-stu-id="52dd7-135">Example</span></span>
 
-<span data-ttu-id="fec29-p106">Esse exemplo cria duas equijunções: uma entre as tabelas Pedidos e Detalhes do Pedido, e outra entre as tabelas Pedidos e Funcionários. Isso é necessário, pois a tabela Funcionários não inclui os dados de vendas e a tabela Detalhes do Pedido não inclui dados de funcionários. A consulta vai criar uma lista de funcionários e o total de suas vendas.</span><span class="sxs-lookup"><span data-stu-id="fec29-p106">This example creates two equi-joins: one between the Order Details and Orders tables and another between the Orders and Employees tables. This is necessary because the Employees table does not contain sales data, and the Order Details table does not contain employee data. The query produces a list of employees and their total sales.</span></span>
+<span data-ttu-id="52dd7-p106">Esse exemplo cria duas equijunções: uma entre as tabelas Pedidos e Detalhes do Pedido, e outra entre as tabelas Pedidos e Funcionários. Isso é necessário, pois a tabela Funcionários não inclui os dados de vendas e a tabela Detalhes do Pedido não inclui dados de funcionários. A consulta vai criar uma lista de funcionários e o total de suas vendas.</span><span class="sxs-lookup"><span data-stu-id="52dd7-p106">This example creates two equi-joins: one between the Order Details and Orders tables and another between the Orders and Employees tables. This is necessary because the Employees table does not contain sales data, and the Order Details table does not contain employee data. The query produces a list of employees and their total sales.</span></span>
 
-<span data-ttu-id="fec29-139">Este exemplo chama o procedimento EnumFields, que pode ser localizado no exemplo da instrução SELECT.</span><span class="sxs-lookup"><span data-stu-id="fec29-139">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="52dd7-139">Este exemplo chama o procedimento EnumFields, que pode ser localizado no exemplo da instrução SELECT.</span><span class="sxs-lookup"><span data-stu-id="52dd7-139">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub InnerJoinX() 

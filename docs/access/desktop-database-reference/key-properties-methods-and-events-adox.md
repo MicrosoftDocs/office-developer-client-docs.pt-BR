@@ -6,31 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e604983e6b83f3b51d0b8da7f6d4223d4402c67
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 242bcb429a01fcdcb5caeac328c7b89d844208a7
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946472"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026390"
 ---
-# <a name="key-properties-methods-and-events-adox"></a><span data-ttu-id="1af2e-102">Principais propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="1af2e-102">Key properties, methods, and events (ADOX)</span></span>
+# <a name="key-properties-methods-and-events-adox"></a><span data-ttu-id="141ba-102">Principais propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="141ba-102">Key properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="1af2e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1af2e-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="141ba-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="141ba-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-## <a name="propertiescollections"></a><span data-ttu-id="1af2e-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="1af2e-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="141ba-104">Propriedades/coleções</span><span class="sxs-lookup"><span data-stu-id="141ba-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="1af2e-105">Coleção Columns</span><span class="sxs-lookup"><span data-stu-id="1af2e-105">Columns collection</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="1af2e-106">Propriedade DeleteRule</span><span class="sxs-lookup"><span data-stu-id="1af2e-106">DeleteRule property</span></span>](deleterule-property-adox.md)
-- [<span data-ttu-id="1af2e-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="1af2e-107">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="1af2e-108">Propriedade RelatedTable</span><span class="sxs-lookup"><span data-stu-id="1af2e-108">RelatedTable property</span></span>](relatedtable-property-adox.md)
-- <span data-ttu-id="1af2e-109">[Propriedade Type (chave)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="1af2e-109">[Type property (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))</span></span>
-- [<span data-ttu-id="1af2e-110">Propriedade UpdateRule</span><span class="sxs-lookup"><span data-stu-id="1af2e-110">UpdateRule property</span></span>](updaterule-property-adox.md)
+- [<span data-ttu-id="141ba-105">Coleção Columns</span><span class="sxs-lookup"><span data-stu-id="141ba-105">Columns collection</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="141ba-106">Propriedade DeleteRule</span><span class="sxs-lookup"><span data-stu-id="141ba-106">DeleteRule property</span></span>](deleterule-property-adox.md)
+- [<span data-ttu-id="141ba-107">Propriedade Name</span><span class="sxs-lookup"><span data-stu-id="141ba-107">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="141ba-108">Propriedade RelatedTable</span><span class="sxs-lookup"><span data-stu-id="141ba-108">RelatedTable property</span></span>](relatedtable-property-adox.md)
+- [<span data-ttu-id="141ba-109">Propriedade Type (chave)</span><span class="sxs-lookup"><span data-stu-id="141ba-109">Type property (Key)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [<span data-ttu-id="141ba-110">Propriedade UpdateRule</span><span class="sxs-lookup"><span data-stu-id="141ba-110">UpdateRule property</span></span>](updaterule-property-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="1af2e-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="1af2e-111">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="141ba-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="141ba-111">Methods</span></span>
 
-<span data-ttu-id="1af2e-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="1af2e-112">None.</span></span>
+<span data-ttu-id="141ba-112">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="141ba-112">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="1af2e-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="1af2e-113">Events</span></span>
+## <a name="events"></a><span data-ttu-id="141ba-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="141ba-113">Events</span></span>
 
-<span data-ttu-id="1af2e-114">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="1af2e-114">None.</span></span>
+<span data-ttu-id="141ba-114">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="141ba-114">None.</span></span>
 

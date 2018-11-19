@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
 ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 486bbbdc8612c5a32610e6b1eaa016d5dd2ee319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 9f0a990f94f13cddf80f3d0c1b5057c5887d5fd1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927680"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026131"
 ---
-# <a name="containers-members-dao"></a><span data-ttu-id="9bc8b-102">Membros de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="9bc8b-102">Containers members (DAO)</span></span>
+# <a name="containers-members-dao"></a><span data-ttu-id="96192-102">Membros de contêineres (DAO)</span><span class="sxs-lookup"><span data-stu-id="96192-102">Containers members (DAO)</span></span>
 
-
-<span data-ttu-id="9bc8b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bc8b-103">**Applies to**: Access 2013, Office 2013</span></span>
-
+<span data-ttu-id="96192-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="96192-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="9bc8b-104">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="9bc8b-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9bc8b-105">Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9bc8b-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="9bc8b-106">Uma coleção de conexões contém os objetos de Conexão atuais de um objeto Workspace (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="9bc8b-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
+> <span data-ttu-id="96192-104">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="96192-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="96192-105">Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="96192-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="96192-106">Uma coleção de conexões contém os objetos de Conexão atuais de um objeto Workspace (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="96192-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
 
-
-
-## <a name="methods"></a><span data-ttu-id="9bc8b-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="9bc8b-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="96192-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="96192-107">Methods</span></span>
 
 <table>
 <colgroup>
@@ -33,20 +29,20 @@ ms.locfileid: "25927680"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9bc8b-108">Nome</span><span class="sxs-lookup"><span data-stu-id="9bc8b-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="9bc8b-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="9bc8b-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="96192-108">Nome</span><span class="sxs-lookup"><span data-stu-id="96192-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="96192-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="96192-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9bc8b-110"><strong><a href="containers-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="9bc8b-110"><strong><a href="containers-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9bc8b-111">Não aceito para a coleção <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="9bc8b-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="96192-110"><strong><a href="containers-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="96192-110"><strong><a href="containers-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="96192-111">Não aceito para a coleção <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="96192-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="9bc8b-112">Propriedades</span><span class="sxs-lookup"><span data-stu-id="9bc8b-112">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="96192-112">Propriedades</span><span class="sxs-lookup"><span data-stu-id="96192-112">Properties</span></span>
 
 <table>
 <colgroup>
@@ -55,14 +51,14 @@ ms.locfileid: "25927680"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9bc8b-113">Nome</span><span class="sxs-lookup"><span data-stu-id="9bc8b-113">Name</span></span></p></th>
-<th><p><span data-ttu-id="9bc8b-114">Descrição</span><span class="sxs-lookup"><span data-stu-id="9bc8b-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="96192-113">Nome</span><span class="sxs-lookup"><span data-stu-id="96192-113">Name</span></span></p></th>
+<th><p><span data-ttu-id="96192-114">Descrição</span><span class="sxs-lookup"><span data-stu-id="96192-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9bc8b-115"><strong><a href="containers-count-property-dao.md">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="9bc8b-115"><strong><a href="containers-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9bc8b-116">Retorna o número de objetos <strong><a href="connection-object-dao.md">Connection</a></strong> na coleção <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="9bc8b-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="96192-115"><strong><a href="containers-count-property-dao.md">Contagem</a></strong></span><span class="sxs-lookup"><span data-stu-id="96192-115"><strong><a href="containers-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="96192-116">Retorna o número de objetos <strong><a href="connection-object-dao.md">Connection</a></strong> na coleção <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="96192-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
