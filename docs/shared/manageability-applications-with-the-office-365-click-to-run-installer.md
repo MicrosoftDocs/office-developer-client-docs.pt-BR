@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Aprenda a integrar o instalador Clique para Executar do Office 365 a uma solução de gerenciamento de software.
-ms.openlocfilehash: 0e9e82fbf86b81ad35928277ff11fe9b86d91964
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401735"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643217"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Como integrar aplicativos de capacidade de gerenciamento ao instalador clique para executar do Office 365
 
@@ -300,7 +300,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 - Se o último comando resultou em um erro, o campo de erro de `UPDATE_STATUS_REPORT` conterá informações detalhadas sobre o erro. Dois tipos de código de erro são retornados do método **Status**. 
     
-- Se o erro for inferior a `UDPATE_ERROR_CODE::eUNKNOWN`, o erro será um dos seguintes códigos de erro predefinidos:
+- Se o erro for inferior a `UPDATE_ERROR_CODE::eUNKNOWN`, o erro será um dos seguintes códigos de erro predefinidos:
     
   ```cpp
   typedef enum _UPDATE_ERROR_CODE
@@ -324,7 +324,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-  Se um código de erro de retorno for superior a `UDPATE_ERROR_CODE::eUNKNOWN`, trata-se do **HRESULT** de uma chamada de função com falha. Para extrair o HRESULT, subtraia `UDPATE_ERROR_CODE::eUNKNOWN` do valor retornado no campo de erro de `UPDATE_STATUS_REPORT`.
+  Se um código de erro de retorno for superior a `UPDATE_ERROR_CODE::eUNKNOWN`, trata-se do **HRESULT** de uma chamada de função com falha. Para extrair o HRESULT, subtraia `UPDATE_ERROR_CODE::eUNKNOWN` do valor retornado no campo de erro de `UPDATE_STATUS_REPORT`.
     
   A lista completa de valores de status e erro pode ser exibida inspecionando a biblioteca de tipos **IUpdateNotify** inserida em OfficeC2RCom.dll. 
     
@@ -349,7 +349,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 ### <a name="summary-of-iupdatenotify2-interface"></a>Resumo da interface IUpdateNotify2
 
 > [!NOTE]
-> Esse resumo é fornecido como informações complementares de [Integrando aplicativos de capacidade de gerenciamento ao instalador Clique para Executar do Office 365](https://msdn.microsoft.com/pt-BR/library/office/mt608768.aspx). Assim que o documento público for atualizado, esse documento poderá ser considerado obsoleto. 
+> Esse resumo é fornecido como informações complementares de [Integrando aplicativos de capacidade de gerenciamento ao instalador Clique para Executar do Office 365](https://msdn.microsoft.com/EN-US/library/office/mt608768.aspx). Assim que o documento público for atualizado, esse documento poderá ser considerado obsoleto. 
   
 No C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (Primeiro build publicamente disponível deve ser o build fork de junho-- 8326.*), adicionamos uma nova interface **IUpdateNotify2**. Veja algumas informações básicas sobre essa interface: 
   
