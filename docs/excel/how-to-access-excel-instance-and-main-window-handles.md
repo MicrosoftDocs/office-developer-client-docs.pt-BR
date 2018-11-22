@@ -5,32 +5,32 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- acessando alças, alças [Excel 2007], acessando, instâncias de Excel, acessando, identificadores de janela [Excel 2007], acesso do excel
+- acessar as alças do Excel, alças [Excel 2007], acessar, instâncias do Excel, acessar, alças da janela [Excel 2007], acessar
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765389"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643175"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Acessar a instância do Excel e as alças da janela principal
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Para programar no ambiente do Windows, em alguns casos, você deve saber o identificador da instância do Microsoft Excel ou a janela principal manipular. Por exemplo, essas alças são úteis quando você estiver criando e exibindo caixas de diálogo personalizadas do Windows.
+Para o programa no ambiente do Windows, às vezes é preciso conhecer a alça da instância do Microsoft Excel ou a alça da janela principal.  Por exemplo, essas alças são úteis quando você está criando e exibindo as caixas de diálogo personalizadas do Windows.
   
-Há duas funções somente XLL C API que fornecem acesso a essas alças: a função de [xlGetInst](xlgetinst.md) e o [xlGetHwnd](xlgethwnd.md) funcionam respectivamente. No Win32, todas as manipulações são números inteiros de 32 bits. No entanto, quando **XLOPER** foi criado, o Windows era um sistema de 16 bits. Portanto, a estrutura permitida apenas para as alças de 16 bits. No Win32, quando chamado com **Excel4** ou **Excel4v**, a função **xlGetInst** e a função **xlGetHwnd** retornam apenas a parte inferior da alça de 32 bits completa. 
+Há duas funções de API de C somente XLL que fornecem acesso a essas alças; a função [xlGetInst](xlgetinst.md) e a função [xlGetHwnd](xlgethwnd.md), respectivamente. No Win32, todas as alças são números inteiros de 32 bits. No entanto, quando o **XLOPER** foi criado, o Windows era um sistema de 16 bits. Portanto, a estrutura só permitia alças de 16 bits. No Win32, quando chamada com o **Excel4** ou o **Excel4v**, a função **xlGetInst** e a função **xlGetHwnd** retornavam apenas a parte inferior da alça completa de 32 bits. 
   
-No Excel 2007 e versões posteriores, quando essas funções são chamadas com [Excel12](excel4-excel12.md) ou [Excel12v](excel4v-excel12v.md), **XLOPER12** retornado contém um manipulador de 32 bits completa. 
+No Excel 2007 e nas versões posteriores, quando essas funções são chamadas com [Excel12](excel4-excel12.md) ou [Excel12v](excel4v-excel12v.md), o **XLOPER12** retornado contém alça completa de 32 bits. 
   
-Obter o identificador de instância completa é simple em qualquer versão do Excel, conforme ele é passado para o retorno de chamada do Windows **DllMain**, que é chamado quando a DLL é carregada. Se registrar este identificador da instância em uma variável global, você nunca precisará chamar a função **xlGetInst** . 
+Obter a alça de instância completa é um processo simples em qualquer versão do Excel, e ela é passada para o retorno do Windows **DllMain**, que é chamado quando a DLL é carregada. Se você gravar esta alça de instância em uma variável global, nunca vai precisar chamar a função **xlGetInst**. 
   
-## <a name="obtaining-the-main-excel-handle-in-excel-2003-and-earlier"></a>Obtendo a alça de Excel principal no Excel 2003 e versões anteriores
+## <a name="obtaining-the-main-excel-handle-in-excel-2003-and-earlier"></a>Obtenção da Alça Principal do Excel no Excel 2003 e versões anteriores
 
-Para obter a alça principal do Excel no Excel 2003 e versões anteriores de 32 bits, você deve primeiro chamar a função de **xlGetHwnd** para obter a palavra baixa da alça de real. Em seguida, você deve iterar a lista de janelas de nível superior para pesquisar uma correspondência com a palavra baixa retornada. O código a seguir ilustra a técnica. 
+Para obter a alça principal do Excel no Excel 2003 e nas versões anteriores de 32 bits, você precisa primeiro chamar a função **xlGetHwnd** para obter a palavra inferior da alça real. Em seguida, você deve iterar lista de janelas de nível superior para procurar uma correspondência com a palavra inferior retornada. O código a seguir ilustra a técnica. 
   
 ```cs
 typedef struct _EnumStruct
@@ -63,7 +63,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
@@ -85,7 +85,7 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[Exibir as caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[Exibir caixas de diálogo de dentro de uma DLL ou XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 [Funções da API de C que podem ser chamadas apenas de uma DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
