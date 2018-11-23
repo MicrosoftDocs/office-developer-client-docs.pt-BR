@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: Substitui parte de uma cadeia de caracteres de texto com uma cadeia de caracteres de texto diferente.
-ms.openlocfilehash: 2c33d8aafbd68054ac39d14bb4fb3cf857fb367e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773085"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643210"
 ---
 # <a name="substitute-function"></a>Função SUBSTITUTE
 
@@ -32,10 +32,10 @@ Substitui parte de uma cadeia de caracteres de texto com uma cadeia de caractere
 | _Texto_antigo_ <br/> |Obrigatório  <br/> |**String** <br/> | O texto a ser substituído.
   <br/> |
 | _Novo_texto_ <br/> |Obrigatório  <br/> |**String** <br/> | O texto que você deseja usar para substituir _old_text_.  <br/> |
-| _start_num_opt_ <br/> |Opcional  <br/> |**Numérico** <br/> |Especifica quais ocorrências de old_text serão substituídas.  <br/> |
+| _start_num_opt_ <br/> |Opcional  <br/> |**Numeric** <br/> |Especifica quais ocorrências de old_text serão substituídas.  <br/> |
 | _ignore_case_opt_ <br/> |Opcional  <br/> |**Boolean** <br/> |FALSE se diferenciar maiúscula e minúscula; caso contrário, TRUE. O padrão é FALSE.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
