@@ -10,34 +10,35 @@ f1_keywords:
 - dao360.chm1053363
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 95d814bb613b848f65b61cd342d2918fbbd2fea2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 257c403951eff5bbb2f37de8b38a1c63a3445285
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928338"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699853"
 ---
-# <a name="errornumber-property-dao"></a><span data-ttu-id="7c82e-102">Propriedade Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="7c82e-102">Error.Number property (DAO)</span></span>
+# <a name="errornumber-property-dao"></a><span data-ttu-id="1d056-102">Propriedade Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="1d056-102">Error.Number property (DAO)</span></span>
 
 
-<span data-ttu-id="7c82e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c82e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1d056-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d056-103">**Applies to**: Access 2013, Office 2013</span></span>
  
 
-<span data-ttu-id="7c82e-104">Retorna um valor numérico especificando um erro.</span><span class="sxs-lookup"><span data-stu-id="7c82e-104">Returns a numeric value specifying an error.</span></span>
+<span data-ttu-id="1d056-104">Retorna um valor numérico especificando um erro.</span><span class="sxs-lookup"><span data-stu-id="1d056-104">Returns a numeric value specifying an error.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7c82e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="7c82e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1d056-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1d056-105">Syntax</span></span>
 
-<span data-ttu-id="7c82e-106">*expressão* . Número</span><span class="sxs-lookup"><span data-stu-id="7c82e-106">*expression* .Number</span></span>
+<span data-ttu-id="1d056-106">*expressão* . Número</span><span class="sxs-lookup"><span data-stu-id="1d056-106">*expression* .Number</span></span>
 
-<span data-ttu-id="7c82e-107">*expressão* Uma variável que representa um objeto **Error** .</span><span class="sxs-lookup"><span data-stu-id="7c82e-107">*expression* A variable that represents an **Error** object.</span></span>
+<span data-ttu-id="1d056-107">*expressão* Uma variável que representa um objeto **Error** .</span><span class="sxs-lookup"><span data-stu-id="1d056-107">*expression* A variable that represents an **Error** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7c82e-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="7c82e-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d056-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="1d056-108">Remarks</span></span>
 
-<span data-ttu-id="7c82e-p101">Use a propriedade **Number** para determinar o erro. O valor da propriedade corresponde a um número de interceptação exclusivo que equivale a uma condição de erro.</span><span class="sxs-lookup"><span data-stu-id="7c82e-p101">Use the **Number** property to determine the error that occurred. The value of the property corresponds to a unique trap number that corresponds to an error condition.</span></span>
+<span data-ttu-id="1d056-p101">Use a propriedade **Number** para determinar o erro. O valor da propriedade corresponde a um número de interceptação exclusivo que equivale a uma condição de erro.</span><span class="sxs-lookup"><span data-stu-id="1d056-p101">Use the **Number** property to determine the error that occurred. The value of the property corresponds to a unique trap number that corresponds to an error condition.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7c82e-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7c82e-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1d056-111">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1d056-111">Example</span></span>
 
-<span data-ttu-id="7c82e-112">Este exemplo força um erro, captura-o e exibe as propriedades **Description**, **Number**, **Source**, **HelpContext** e **HelpFile** do objeto **Error** resultante.</span><span class="sxs-lookup"><span data-stu-id="7c82e-112">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.</span></span>
+<span data-ttu-id="1d056-112">Este exemplo força um erro, captura-o e exibe as propriedades **Description**, **Number**, **Source**, **HelpContext** e **HelpFile** do objeto **Error** resultante.</span><span class="sxs-lookup"><span data-stu-id="1d056-112">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.</span></span>
 
 ```vb 
 Sub DescriptionX() 

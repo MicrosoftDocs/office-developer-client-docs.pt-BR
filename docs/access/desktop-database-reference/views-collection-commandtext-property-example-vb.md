@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
 ms:contentKeyID: 48545120
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1cec0b42dd6708e15ac20300850dd03d162683c6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 01bd560e28be09e6a8c67b3d9a10c1c88f85e214
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946353"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721245"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="e5d5a-102">Coleção Views, exemplo da propriedade CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="e5d5a-102">Views collection, CommandText property example (VB)</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="5c2dd-102">Coleção Views, exemplo da propriedade CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="5c2dd-102">Views collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="e5d5a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5d5a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5c2dd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c2dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e5d5a-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) para atualizar o texto de um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="e5d5a-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="5c2dd-104">O código a seguir demonstra como usar a propriedade [Command](command-property-adox.md) para atualizar o texto de um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

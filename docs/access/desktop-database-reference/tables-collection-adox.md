@@ -6,35 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f87863579588b586e851cd175548d62ea7a0b920
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e53cd4b6d4a61a226103eb443bac7f3b4f92d908
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919483"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716165"
 ---
-# <a name="tables-collection-adox"></a><span data-ttu-id="c1c17-102">Coleção Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c1c17-102">Tables collection (ADOX)</span></span>
+# <a name="tables-collection-adox"></a><span data-ttu-id="988a3-102">Coleção Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="988a3-102">Tables collection (ADOX)</span></span>
 
 
-<span data-ttu-id="c1c17-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1c17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="988a3-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="988a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1c17-104">Contém todos os objetos [Tabela](table-object-adox.md) de um catálogo.</span><span class="sxs-lookup"><span data-stu-id="c1c17-104">Contains all [Table](table-object-adox.md) objects of a catalog.</span></span>
+<span data-ttu-id="988a3-104">Contém todos os objetos [Tabela](table-object-adox.md) de um catálogo.</span><span class="sxs-lookup"><span data-stu-id="988a3-104">Contains all [Table](table-object-adox.md) objects of a catalog.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c1c17-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="c1c17-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="988a3-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="988a3-105">Remarks</span></span>
 
-<span data-ttu-id="c1c17-p101">O método [Append](append-method-adox-tables.md) de uma coleção **Tables** é exclusivo de ADOX. Você pode:</span><span class="sxs-lookup"><span data-stu-id="c1c17-p101">The [Append](append-method-adox-tables.md) method for a **Tables** collection is unique for ADOX. You can:</span></span>
+<span data-ttu-id="988a3-p101">O método [Append](append-method-adox-tables.md) de uma coleção **Tables** é exclusivo de ADOX. Você pode:</span><span class="sxs-lookup"><span data-stu-id="988a3-p101">The [Append](append-method-adox-tables.md) method for a **Tables** collection is unique for ADOX. You can:</span></span>
 
-  - <span data-ttu-id="c1c17-108">Adicionar uma nova tabela à coleção com o método **Append**.</span><span class="sxs-lookup"><span data-stu-id="c1c17-108">Add a new table to the collection with the **Append** method.</span></span>
+  - <span data-ttu-id="988a3-108">Adicionar uma nova tabela à coleção com o método **Append**.</span><span class="sxs-lookup"><span data-stu-id="988a3-108">Add a new table to the collection with the **Append** method.</span></span>
 
-<span data-ttu-id="c1c17-p102">As propriedades e os métodos restantes são padrão das coleções do ADO. Você pode:</span><span class="sxs-lookup"><span data-stu-id="c1c17-p102">The remaining properties and methods are standard to ADO collections. You can:</span></span>
+<span data-ttu-id="988a3-p102">As propriedades e os métodos restantes são padrão das coleções do ADO. Você pode:</span><span class="sxs-lookup"><span data-stu-id="988a3-p102">The remaining properties and methods are standard to ADO collections. You can:</span></span>
 
-  - <span data-ttu-id="c1c17-111">Acessar uma tabela na coleção com a propriedade [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c1c17-111">Access a table in the collection with the [Item](item-property-ado.md) property.</span></span>
+  - <span data-ttu-id="988a3-111">Acessar uma tabela na coleção com a propriedade [Item](item-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="988a3-111">Access a table in the collection with the [Item](item-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="c1c17-112">Retornar o número de tabelas contidas na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c1c17-112">Return the number of tables contained in the collection with the [Count](count-property-ado.md) property.</span></span>
+  - <span data-ttu-id="988a3-112">Retornar o número de tabelas contidas na coleção com a propriedade [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="988a3-112">Return the number of tables contained in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-  - <span data-ttu-id="c1c17-113">Remover uma tabela da coleção com o método [Delete](delete-method-adox-collections.md).</span><span class="sxs-lookup"><span data-stu-id="c1c17-113">Remove a table from the collection with the [Delete](delete-method-adox-collections.md) method.</span></span>
+  - <span data-ttu-id="988a3-113">Remover uma tabela da coleção com o método [Delete](delete-method-adox-collections.md).</span><span class="sxs-lookup"><span data-stu-id="988a3-113">Remove a table from the collection with the [Delete](delete-method-adox-collections.md) method.</span></span>
 
-  - <span data-ttu-id="c1c17-114">Atualizar os objetos da coleção para refletir o atual esquema do banco de dados com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c1c17-114">Update the objects in the collection to reflect the current database's schema with the [Refresh](refresh-method-ado.md) method.</span></span>
+  - <span data-ttu-id="988a3-114">Atualizar os objetos da coleção para refletir o atual esquema do banco de dados com o método [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="988a3-114">Update the objects in the collection to reflect the current database's schema with the [Refresh](refresh-method-ado.md) method.</span></span>
 
-<span data-ttu-id="c1c17-p103">Alguns provedores podem retornar outros objetos de esquema, como modos de exibição, na coleção Tables. Portanto, algumas coleções ADOX podem conter referências ao mesmo objeto. Se você excluir o objeto de uma coleção, a alteração não será visível em outra coleção que faça referência ao objeto excluído até que o método Refresh seja acionado na coleção. Por exemplo, com o OLE DB Provider for Microsoft Jet, modos de exibição são retornados com a coleção Tables. Se cancelar um modo de exibição, você deverá atualizar a coleção Tables para que ela possa refletir a alteração.</span><span class="sxs-lookup"><span data-stu-id="c1c17-p103">Some providers may return other schema objects, such as a View, in the Tables collection. Therefore, some ADOX collections may contain references to the same object. Should you delete the object from one collection, the change will not be visible in another collection that references the deleted object until the Refresh method is called on the collection. For example, with the OLE DB Provider for Microsoft Jet, Views are returned with the Tables collection. If you drop a View, you must Refresh the Tables collection before the collection will reflect the change.</span></span>
+<span data-ttu-id="988a3-p103">Alguns provedores podem retornar outros objetos de esquema, como modos de exibição, na coleção Tables. Portanto, algumas coleções ADOX podem conter referências ao mesmo objeto. Se você excluir o objeto de uma coleção, a alteração não será visível em outra coleção que faça referência ao objeto excluído até que o método Refresh seja acionado na coleção. Por exemplo, com o OLE DB Provider for Microsoft Jet, modos de exibição são retornados com a coleção Tables. Se cancelar um modo de exibição, você deverá atualizar a coleção Tables para que ela possa refletir a alteração.</span><span class="sxs-lookup"><span data-stu-id="988a3-p103">Some providers may return other schema objects, such as a View, in the Tables collection. Therefore, some ADOX collections may contain references to the same object. Should you delete the object from one collection, the change will not be visible in another collection that references the deleted object until the Refresh method is called on the collection. For example, with the OLE DB Provider for Microsoft Jet, Views are returned with the Tables collection. If you drop a View, you must Refresh the Tables collection before the collection will reflect the change.</span></span>
 

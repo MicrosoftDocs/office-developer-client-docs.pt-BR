@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
 ms:contentKeyID: 48548127
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c01dc4400593853daa4f2f82597d20032c3517dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0fcc87659fcc69f6e7b9affe27dad6f901f4bc88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924572"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721434"
 ---
-# <a name="errorsrefresh-method-dao"></a><span data-ttu-id="f0631-102">Método Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0631-102">Errors.Refresh method (DAO)</span></span>
+# <a name="errorsrefresh-method-dao"></a><span data-ttu-id="f38a8-102">Método Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f38a8-102">Errors.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="f0631-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0631-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f38a8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f38a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f0631-104">Atualiza os objetos na coleção especificada para refletir o esquema atual do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="f0631-104">Updates the objects in the specified colletion to reflect the database's current schema.</span></span>
+<span data-ttu-id="f38a8-104">Atualiza os objetos na coleção especificada para refletir o esquema atual do banco de dados.</span><span class="sxs-lookup"><span data-stu-id="f38a8-104">Updates the objects in the specified colletion to reflect the database's current schema.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0631-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f0631-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f38a8-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f38a8-105">Syntax</span></span>
 
-<span data-ttu-id="f0631-106">*expressão* . Atualizar</span><span class="sxs-lookup"><span data-stu-id="f0631-106">*expression* .Refresh</span></span>
+<span data-ttu-id="f38a8-106">*expressão* . Atualizar</span><span class="sxs-lookup"><span data-stu-id="f38a8-106">*expression* .Refresh</span></span>
 
-<span data-ttu-id="f0631-107">*expressão* Uma variável que representa um objeto **Errors** .</span><span class="sxs-lookup"><span data-stu-id="f0631-107">*expression* A variable that represents an **Errors** object.</span></span>
+<span data-ttu-id="f38a8-107">*expressão* Uma variável que representa um objeto **Errors** .</span><span class="sxs-lookup"><span data-stu-id="f38a8-107">*expression* A variable that represents an **Errors** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f0631-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="f0631-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f38a8-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="f38a8-108">Remarks</span></span>
 
-<span data-ttu-id="f0631-p101">Use o método **Refresh** em ambientes multiusuários nos quais outros usuários podem alterar o banco de dados. Talvez seja necessário usá-lo em coleções indiretamente afetadas por alterações no banco de dados. Por exemplo, se você alterar uma coleção **Users**, talvez seja necessário atualizar uma coleção **Groups** antes de usar a coleção **Groups**.</span><span class="sxs-lookup"><span data-stu-id="f0631-p101">Use the **Refresh** method in multiuser environments in which other users may change the database. You may also need to use it on any collections that are indirectly affected by changes to the database. For example, if you change a **Users** collection, you may need to refresh a **Groups** collection before using the **Groups** collection.</span></span>
+<span data-ttu-id="f38a8-p101">Use o método **Refresh** em ambientes multiusuários nos quais outros usuários podem alterar o banco de dados. Talvez seja necessário usá-lo em coleções indiretamente afetadas por alterações no banco de dados. Por exemplo, se você alterar uma coleção **Users**, talvez seja necessário atualizar uma coleção **Groups** antes de usar a coleção **Groups**.</span><span class="sxs-lookup"><span data-stu-id="f38a8-p101">Use the **Refresh** method in multiuser environments in which other users may change the database. You may also need to use it on any collections that are indirectly affected by changes to the database. For example, if you change a **Users** collection, you may need to refresh a **Groups** collection before using the **Groups** collection.</span></span>
 
-<span data-ttu-id="f0631-p102">Uma coleção é preenchida por objetos na primeira vez que se faz referência a ela e não refletirá automaticamente as alterações subsequentes que outros usuários fizerem. Se é provável que outro usuário tenha alterado a coleção, use o método Refresh na coleção imediatamente antes de realizar qualquer tarefa em seu aplicativo que pressuponha a presença ou a ausência de um objeto específico na coleção. Isso vai assegurar que a coleção esteja o mais atualizada possível. Paralelamente, o uso do Refresh pode reduzir o desempenho desnecessariamente.</span><span class="sxs-lookup"><span data-stu-id="f0631-p102">A collection is filled with objects the first time it's referred to and won't automatically reflect subsequent changes other users make. If it's likely that another user has changed a collection, use the Refresh method on the collection immediately before carrying out any task in your application that assumes the presence or absence of a particular object in the collection. This will ensure that the collection is as up-to-date as possible. On the other hand, using Refresh can unnecessarily slow performance.</span></span>
+<span data-ttu-id="f38a8-p102">Uma coleção é preenchida por objetos na primeira vez que se faz referência a ela e não refletirá automaticamente as alterações subsequentes que outros usuários fizerem. Se é provável que outro usuário tenha alterado a coleção, use o método Refresh na coleção imediatamente antes de realizar qualquer tarefa em seu aplicativo que pressuponha a presença ou a ausência de um objeto específico na coleção. Isso vai assegurar que a coleção esteja o mais atualizada possível. Paralelamente, o uso do Refresh pode reduzir o desempenho desnecessariamente.</span><span class="sxs-lookup"><span data-stu-id="f38a8-p102">A collection is filled with objects the first time it's referred to and won't automatically reflect subsequent changes other users make. If it's likely that another user has changed a collection, use the Refresh method on the collection immediately before carrying out any task in your application that assumes the presence or absence of a particular object in the collection. This will ensure that the collection is as up-to-date as possible. On the other hand, using Refresh can unnecessarily slow performance.</span></span>
 

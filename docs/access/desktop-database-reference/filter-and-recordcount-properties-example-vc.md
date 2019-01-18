@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15)
 ms:contentKeyID: 48544161
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ca6e56110110086f9b608eb87228ebf17462bce
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d97c653f1bbcdc648de4641f7faf3b9e8fcb2d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889816"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720923"
 ---
-# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="f9fba-102">Exemplo das propriedades Filter e RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="f9fba-102">Filter and RecordCount properties example (VC++)</span></span>
+# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="5e483-102">Exemplo das propriedades Filter e RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="5e483-102">Filter and RecordCount properties example (VC++)</span></span>
 
 
-<span data-ttu-id="f9fba-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9fba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5e483-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e483-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f9fba-p101">Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="f9fba-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
+<span data-ttu-id="5e483-p101">Este exemplo usa a propriedade [Filter](filter-property-ado.md) para abrir um novo [Recordset](recordset-object-ado.md) com base em uma condição especificada aplicada em um **Recordset** existente. Ele usa a propriedade [RecordCount](recordcount-property-ado.md) para mostrar o número de registros nos dois **Recordsets**. A função FilterField é necessária para que este procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="5e483-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
 
 ```cpp 
  
@@ -319,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-<span data-ttu-id="f9fba-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="f9fba-107">**FilterX.h**</span></span>
+<span data-ttu-id="5e483-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="5e483-107">**FilterX.h**</span></span>
 
 ```cpp 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249773(v=office.15)
 ms:contentKeyID: 48546877
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b82c01ef5084bf9d40b03279640693490f4eb652
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8c66c16e8e110fd9565b9417c70e98247f2abc24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887408"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720146"
 ---
-# <a name="openschema-method-example-vj"></a><span data-ttu-id="3fa3a-102">Exemplo do método OpenSchema (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3fa3a-102">OpenSchema method example (VJ++)</span></span>
+# <a name="openschema-method-example-vj"></a><span data-ttu-id="46da5-102">Exemplo do método OpenSchema (VJ++)</span><span class="sxs-lookup"><span data-stu-id="46da5-102">OpenSchema method example (VJ++)</span></span>
 
 
-<span data-ttu-id="3fa3a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fa3a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="46da5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="46da5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3fa3a-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="3fa3a-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="46da5-104">Este exemplo utiliza o método [OpenSchema](openschema-method-ado.md) para exibir o nome e o tipo de cada tabela no banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="46da5-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```java 
  

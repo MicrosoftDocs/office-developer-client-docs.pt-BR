@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57d28675bf3a7533d9e2dde223e46864f9179f0b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d1a16f2ee39233dc42af0afeb3c07d8c4294ac14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922045"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720167"
 ---
-# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="1fc17-102">Propriedade Database.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fc17-102">Database.QueryDefs property (DAO)</span></span>
+# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="5a22b-102">Propriedade Database.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="5a22b-102">Database.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="1fc17-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fc17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5a22b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a22b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1fc17-p101">Retorna uma coleção **QueryDefs** que contém todos os objetos **QueryDef** do banco de dados especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1fc17-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database. Read-only.</span></span>
+<span data-ttu-id="5a22b-p101">Retorna uma coleção **QueryDefs** que contém todos os objetos **QueryDef** do banco de dados especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5a22b-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1fc17-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1fc17-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5a22b-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5a22b-106">Syntax</span></span>
 
-<span data-ttu-id="1fc17-107">*expressão* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="1fc17-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="5a22b-107">*expressão* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="5a22b-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="1fc17-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="1fc17-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="5a22b-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="5a22b-108">*expression* A variable that represents a **Database** object.</span></span>
 

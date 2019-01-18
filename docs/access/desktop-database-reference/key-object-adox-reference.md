@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249514(v=office.15)
 ms:contentKeyID: 48545818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe4b4ec0df664d28335e53efd52b6a6a0411fbbf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 93d5eebf5dde57159a74b8cee79e038da23afd57
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926217"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718284"
 ---
-# <a name="key-object-adox-reference"></a><span data-ttu-id="2255a-102">Referência de objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2255a-102">Key object (ADOX) reference</span></span>
+# <a name="key-object-adox-reference"></a><span data-ttu-id="cd3e2-102">Referência de objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cd3e2-102">Key object (ADOX) reference</span></span>
 
-<span data-ttu-id="2255a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="2255a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cd3e2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd3e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2255a-104">Objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2255a-104">Key object (ADOX)</span></span>](key-object-adox.md)
-- [<span data-ttu-id="2255a-105">Principais propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2255a-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="cd3e2-104">Objeto Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cd3e2-104">Key object (ADOX)</span></span>](key-object-adox.md)
+- [<span data-ttu-id="cd3e2-105">Principais propriedades, métodos e eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cd3e2-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
 

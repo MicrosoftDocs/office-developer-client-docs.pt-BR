@@ -6,26 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
 ms:contentKeyID: 48546194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a9ad8c700b0b0ae293683f7b79062a0edf7775f9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c90fee6b8525ab13c8a294f9b39c52c20f580a62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881367"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722512"
 ---
-# <a name="helpcontext-helpfile-properties-ado"></a><span data-ttu-id="29a18-102">Propriedades HelpContext, HelpFile (ADO)</span><span class="sxs-lookup"><span data-stu-id="29a18-102">HelpContext, HelpFile properties (ADO)</span></span>
+# <a name="helpcontext-helpfile-properties-ado"></a><span data-ttu-id="3cb55-102">Propriedades HelpContext, HelpFile (ADO)</span><span class="sxs-lookup"><span data-stu-id="3cb55-102">HelpContext, HelpFile properties (ADO)</span></span>
 
-<span data-ttu-id="29a18-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="29a18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3cb55-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cb55-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="29a18-104">Indica o arquivo de ajuda e o tópico associado a um objeto [Error](error-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="29a18-104">Indicates the help file and topic associated with an [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="3cb55-104">Indica o arquivo de ajuda e o tópico associado a um objeto [Error](error-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3cb55-104">Indicates the help file and topic associated with an [Error](error-object-ado.md) object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="29a18-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="29a18-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="3cb55-105">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="3cb55-105">Return values</span></span>
 
-- <span data-ttu-id="29a18-106">**HelpContextID**  retorna uma ID de contexto, como um valor **Long**, para um tópico em um arquivo de Ajuda.</span><span class="sxs-lookup"><span data-stu-id="29a18-106">**HelpContextID** — returns a context ID, as a **Long** value, for a topic in a Help file.</span></span>
+- <span data-ttu-id="3cb55-106">**HelpContextID**  retorna uma ID de contexto, como um valor **Long**, para um tópico em um arquivo de Ajuda.</span><span class="sxs-lookup"><span data-stu-id="3cb55-106">**HelpContextID** — returns a context ID, as a **Long** value, for a topic in a Help file.</span></span>
 
-- <span data-ttu-id="29a18-107">**HelpFile**  retorna um valor **String** que avalia um caminho completamente resolvido para um arquivo de Ajuda.</span><span class="sxs-lookup"><span data-stu-id="29a18-107">**HelpFile** — returns a **String** value that evaluates to a fully resolved path to a Help file.</span></span>
+- <span data-ttu-id="3cb55-107">**HelpFile**  retorna um valor **String** que avalia um caminho completamente resolvido para um arquivo de Ajuda.</span><span class="sxs-lookup"><span data-stu-id="3cb55-107">**HelpFile** — returns a **String** value that evaluates to a fully resolved path to a Help file.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="29a18-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="29a18-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3cb55-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="3cb55-108">Remarks</span></span>
 
-<span data-ttu-id="29a18-p101">Se um arquivo de Ajuda for especificado na propriedade **HelpFile**, a propriedade **HelpContext** será usada para exibir automaticamente o tópico de Ajuda que ela identificar. Se não houver um tópico de ajuda relevante disponível, a propriedade **HelpContext** retornará zero e a propriedade **HelpFile** retornará uma sequência de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="29a18-p101">If a Help file is specified in the **HelpFile** property, the **HelpContext** property is used to automatically display the Help topic it identifies. If there is no relevant help topic available, the **HelpContext** property returns zero and the **HelpFile** property returns a zero-length string ("").</span></span>
+<span data-ttu-id="3cb55-p101">Se um arquivo de Ajuda for especificado na propriedade **HelpFile**, a propriedade **HelpContext** será usada para exibir automaticamente o tópico de Ajuda que ela identificar. Se não houver um tópico de ajuda relevante disponível, a propriedade **HelpContext** retornará zero e a propriedade **HelpFile** retornará uma sequência de comprimento zero ("").</span><span class="sxs-lookup"><span data-stu-id="3cb55-p101">If a Help file is specified in the **HelpFile** property, the **HelpContext** property is used to automatically display the Help topic it identifies. If there is no relevant help topic available, the **HelpContext** property returns zero and the **HelpFile** property returns a zero-length string ("").</span></span>
 

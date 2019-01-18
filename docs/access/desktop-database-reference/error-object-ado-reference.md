@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248942(v=office.15)
 ms:contentKeyID: 48543506
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e6f4c9035041280b0cf2122ca99b1f6a08305012
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 590bc9c22dbc62b30ed3db329ef1e744434ca2ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931026"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703448"
 ---
-# <a name="error-object-ado-reference"></a><span data-ttu-id="6f31c-102">Referência de objeto (ADO) de erro</span><span class="sxs-lookup"><span data-stu-id="6f31c-102">Error object (ADO) reference</span></span>
+# <a name="error-object-ado-reference"></a><span data-ttu-id="52a5c-102">Referência de objeto (ADO) de erro</span><span class="sxs-lookup"><span data-stu-id="52a5c-102">Error object (ADO) reference</span></span>
 
-<span data-ttu-id="6f31c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f31c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52a5c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="52a5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6f31c-104">Objeto Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="6f31c-104">Error object (ADO)</span></span>](error-object-ado.md)
-- [<span data-ttu-id="6f31c-105">Erro propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="6f31c-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="52a5c-104">Objeto Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="52a5c-104">Error object (ADO)</span></span>](error-object-ado.md)
+- [<span data-ttu-id="52a5c-105">Erro propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="52a5c-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
 

@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14b2cfdce80371aac923b46d59a8dfc149263e57
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2536dd76c6080590852cba00eef9adca0e18d2cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889809"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718326"
 ---
-# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="e29a7-102">Exemplo dos métodos Save e Open (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e29a7-102">Save and Open methods example (VJ++)</span></span>
+# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="1fb87-102">Exemplo dos métodos Save e Open (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1fb87-102">Save and Open methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="e29a7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e29a7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1fb87-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fb87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e29a7-104">Estes três exemplos demonstram como os métodos [Save](save-method-ado.md) e **Open** podem ser utilizados em conjunto.</span><span class="sxs-lookup"><span data-stu-id="e29a7-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
+<span data-ttu-id="1fb87-104">Estes três exemplos demonstram como os métodos [Save](save-method-ado.md) e **Open** podem ser utilizados em conjunto.</span><span class="sxs-lookup"><span data-stu-id="1fb87-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
 
-<span data-ttu-id="e29a7-p101">Suponha que você esteja saindo em uma viagem de negócios e deseja levar uma tabela de um banco de dados. Antes de sair, você acessa os dados como um [Recordset](recordset-object-ado.md) e os salva em um formato transportável. Quando chegar em seu destino, você acessa o **Recordset** como um **Recordset** local e desconectado. Faz alterações no **Recordset** e, em seguida, salva-o novamente, juntamente com as alterações. Finalmente, quando voltar para casa, conecta novamente o banco de dados e o atualiza com as alterações feitas durante a viagem.</span><span class="sxs-lookup"><span data-stu-id="e29a7-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again, along with your changes. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="1fb87-p101">Suponha que você esteja saindo em uma viagem de negócios e deseja levar uma tabela de um banco de dados. Antes de sair, você acessa os dados como um [Recordset](recordset-object-ado.md) e os salva em um formato transportável. Quando chegar em seu destino, você acessa o **Recordset** como um **Recordset** local e desconectado. Faz alterações no **Recordset** e, em seguida, salva-o novamente, juntamente com as alterações. Finalmente, quando voltar para casa, conecta novamente o banco de dados e o atualiza com as alterações feitas durante a viagem.</span><span class="sxs-lookup"><span data-stu-id="1fb87-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again, along with your changes. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
 ```java 
  

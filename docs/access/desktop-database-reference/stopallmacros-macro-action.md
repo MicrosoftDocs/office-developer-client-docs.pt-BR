@@ -10,31 +10,32 @@ f1_keywords:
 - vbaac10.chm104968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 34dbfc3504744dd446a018e797ebacfb79066d96
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4e44182dd4290b05a2cfc8fabdf9240819f4b7aa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923347"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698124"
 ---
-# <a name="stopallmacros-macro-action"></a><span data-ttu-id="3d61e-102">Ação da macro PararTodasMacros</span><span class="sxs-lookup"><span data-stu-id="3d61e-102">StopAllMacros macro action</span></span>
+# <a name="stopallmacros-macro-action"></a><span data-ttu-id="d34ec-102">Ação da macro PararTodasMacros</span><span class="sxs-lookup"><span data-stu-id="d34ec-102">StopAllMacros macro action</span></span>
 
 
-<span data-ttu-id="3d61e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d61e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d34ec-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d34ec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3d61e-104">Você pode usar a ação **PararTodasMacros** para interromper todas as macros em execução no momento.</span><span class="sxs-lookup"><span data-stu-id="3d61e-104">You can use the **StopAllMacros** action to stop all macros that are currently running.</span></span>
+<span data-ttu-id="d34ec-104">Você pode usar a ação **PararTodasMacros** para interromper todas as macros em execução no momento.</span><span class="sxs-lookup"><span data-stu-id="d34ec-104">You can use the **StopAllMacros** action to stop all macros that are currently running.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="3d61e-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="3d61e-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="d34ec-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="d34ec-105">Setting</span></span>
 
-<span data-ttu-id="3d61e-106">A ação **PararTodasMacros** não tem argumentos.</span><span class="sxs-lookup"><span data-stu-id="3d61e-106">The **StopAllMacros** action doesn't have any arguments.</span></span>
+<span data-ttu-id="d34ec-106">A ação **PararTodasMacros** não tem argumentos.</span><span class="sxs-lookup"><span data-stu-id="d34ec-106">The **StopAllMacros** action doesn't have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3d61e-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="3d61e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d34ec-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="d34ec-107">Remarks</span></span>
 
-<span data-ttu-id="3d61e-108">Esta ação geralmente é usada quando uma condição de erro torna necessário parar todas as macros.</span><span class="sxs-lookup"><span data-stu-id="3d61e-108">You typically use this action when an error condition makes it necessary to stop all macros.</span></span> <span data-ttu-id="3d61e-109">Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação.</span><span class="sxs-lookup"><span data-stu-id="3d61e-109">You can use a conditional expression in the macro's action row that contains this action.</span></span> <span data-ttu-id="3d61e-110">Quando a expressão for avaliada como **True** (– 1), o Microsoft Access para todas as macros.</span><span class="sxs-lookup"><span data-stu-id="3d61e-110">When the expression evaluates to **True** (–1), Microsoft Access stops all macros.</span></span>
+<span data-ttu-id="d34ec-108">Esta ação geralmente é usada quando uma condição de erro torna necessário parar todas as macros.</span><span class="sxs-lookup"><span data-stu-id="d34ec-108">You typically use this action when an error condition makes it necessary to stop all macros.</span></span> <span data-ttu-id="d34ec-109">Você pode usar uma expressão condicional na linha de ação da macro, contendo essa ação.</span><span class="sxs-lookup"><span data-stu-id="d34ec-109">You can use a conditional expression in the macro's action row that contains this action.</span></span> <span data-ttu-id="d34ec-110">Quando a expressão for avaliada como **True** (– 1), o Microsoft Access para todas as macros.</span><span class="sxs-lookup"><span data-stu-id="d34ec-110">When the expression evaluates to **True** (–1), Microsoft Access stops all macros.</span></span>
 
-<span data-ttu-id="3d61e-p102">Por exemplo, você pode ter uma macro que exiba uma caixa de mensagem como uma de muitas ações complexas, incluindo a execução de outras macros. Se o usuário clicar em **Cancelar** nessa caixa de mensagem, a ação **PararTodasMacros** poderá interromper todas as macros em execução.</span><span class="sxs-lookup"><span data-stu-id="3d61e-p102">For example, you might have a macro that displays a message box as one of a number of complex actions, including running other macros. If the user clicks **Cancel** in this message box, the **StopAllMacros** action can stop all the macros that are running.</span></span>
+<span data-ttu-id="d34ec-p102">Por exemplo, você pode ter uma macro que exiba uma caixa de mensagem como uma de muitas ações complexas, incluindo a execução de outras macros. Se o usuário clicar em **Cancelar** nessa caixa de mensagem, a ação **PararTodasMacros** poderá interromper todas as macros em execução.</span><span class="sxs-lookup"><span data-stu-id="d34ec-p102">For example, you might have a macro that displays a message box as one of a number of complex actions, including running other macros. If the user clicks **Cancel** in this message box, the **StopAllMacros** action can stop all the macros that are running.</span></span>
 
-<span data-ttu-id="3d61e-113">Se uma macro tiver usado as ações **Eco** ou **DefinirAvisos** para desativar o eco ou a exibição de mensagens do sistema, a ação **PararTodasMacros** fará a reativação automaticamente.</span><span class="sxs-lookup"><span data-stu-id="3d61e-113">If a macro has used the **Echo** or **SetWarnings** actions to turn echo or the display of system messages off, the **StopAllMacros** action automatically turns them back on.</span></span>
+<span data-ttu-id="d34ec-113">Se uma macro tiver usado as ações **Eco** ou **DefinirAvisos** para desativar o eco ou a exibição de mensagens do sistema, a ação **PararTodasMacros** fará a reativação automaticamente.</span><span class="sxs-lookup"><span data-stu-id="d34ec-113">If a macro has used the **Echo** or **SetWarnings** actions to turn echo or the display of system messages off, the **StopAllMacros** action automatically turns them back on.</span></span>
 
-<span data-ttu-id="3d61e-114">Esta ação não está disponível em um módulo VBA (Visual Basic for Applications).</span><span class="sxs-lookup"><span data-stu-id="3d61e-114">This action isn't available in a Visual Basic for Applications (VBA) module.</span></span>
+<span data-ttu-id="d34ec-114">Esta ação não está disponível em um módulo VBA (Visual Basic for Applications).</span><span class="sxs-lookup"><span data-stu-id="d34ec-114">This action isn't available in a Visual Basic for Applications (VBA) module.</span></span>
 

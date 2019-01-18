@@ -10,26 +10,27 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c3a7a64eee4617c07c1a655e34223f0531e16b18
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890894"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698446"
 ---
-# <a name="revoke-statement-microsoft-access-sql"></a><span data-ttu-id="ea2f6-102">REVOGAR instrução (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ea2f6-102">REVOKE statement (Microsoft Access SQL)</span></span>
+# <a name="revoke-statement-microsoft-access-sql"></a><span data-ttu-id="f44e1-102">REVOGAR instrução (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="f44e1-102">REVOKE statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="ea2f6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea2f6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f44e1-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f44e1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ea2f6-104">Revoga privilégios específicos de um usuário ou grupo existente.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-104">Revokes specific privileges from an existing user or group.</span></span>
+<span data-ttu-id="f44e1-104">Revoga privilégios específicos de um usuário ou grupo existente.</span><span class="sxs-lookup"><span data-stu-id="f44e1-104">Revokes specific privileges from an existing user or group.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ea2f6-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="ea2f6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f44e1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="f44e1-105">Syntax</span></span>
 
-<span data-ttu-id="ea2f6-106">REVOGAR {*privilégio*\[, *privilégios*,... \]} Diante {tabela *tabela* | OBJETO *objeto*|</span><span class="sxs-lookup"><span data-stu-id="ea2f6-106">REVOKE {*privilege*\[, *privilege*, …\]} ON {TABLE *table* | OBJECT *object*|</span></span>
+<span data-ttu-id="f44e1-106">REVOGAR {*privilégio*\[, *privilégios*,... \]} Diante {tabela *tabela* | OBJETO *objeto*|</span><span class="sxs-lookup"><span data-stu-id="f44e1-106">REVOKE {*privilege*\[, *privilege*, …\]} ON {TABLE *table* | OBJECT *object*|</span></span>
 
-<span data-ttu-id="ea2f6-107">*Contêiner*do CONTÊINER} FROM {*authorizationname*\[, *authorizationname*, … \]}</span><span class="sxs-lookup"><span data-stu-id="ea2f6-107">CONTAINTER *container*} FROM {*authorizationname*\[, *authorizationname*, …\]}</span></span>
+<span data-ttu-id="f44e1-107">*Contêiner*do CONTÊINER} FROM {*authorizationname*\[, *authorizationname*, … \]}</span><span class="sxs-lookup"><span data-stu-id="f44e1-107">CONTAINTER *container*} FROM {*authorizationname*\[, *authorizationname*, …\]}</span></span>
 
-<span data-ttu-id="ea2f6-108">A instrução REVOKE contém estas partes:</span><span class="sxs-lookup"><span data-stu-id="ea2f6-108">The REVOKE statement has these parts:</span></span>
+<span data-ttu-id="f44e1-108">A instrução REVOKE contém estas partes:</span><span class="sxs-lookup"><span data-stu-id="f44e1-108">The REVOKE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -38,30 +39,30 @@ ms.locfileid: "25890894"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ea2f6-109">Parte</span><span class="sxs-lookup"><span data-stu-id="ea2f6-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="ea2f6-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="ea2f6-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="f44e1-109">Parte</span><span class="sxs-lookup"><span data-stu-id="f44e1-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="f44e1-110">Descrição</span><span class="sxs-lookup"><span data-stu-id="f44e1-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ea2f6-111"><em>privilege</em></span><span class="sxs-lookup"><span data-stu-id="ea2f6-111"><em>privilege</em></span></span></p></td>
-<td><p><span data-ttu-id="ea2f6-112">O privilégio ou privilégios a serem revogados.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-112">The privilege or privileges to be revoked.</span></span> <span data-ttu-id="ea2f6-113">Privilégios são especificados com as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
+<td><p><span data-ttu-id="f44e1-111"><em>privilege</em></span><span class="sxs-lookup"><span data-stu-id="f44e1-111"><em>privilege</em></span></span></p></td>
+<td><p><span data-ttu-id="f44e1-112">O privilégio ou privilégios a serem revogados.</span><span class="sxs-lookup"><span data-stu-id="f44e1-112">The privilege or privileges to be revoked.</span></span> <span data-ttu-id="f44e1-113">Privilégios são especificados com as seguintes palavras-chave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA e UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="f44e1-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ea2f6-114"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="ea2f6-114"><em>table</em></span></span></p></td>
-<td><p><span data-ttu-id="ea2f6-115">Nenhum nome de tabela válido.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-115">Any valid table name.</span></span></p></td>
+<td><p><span data-ttu-id="f44e1-114"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="f44e1-114"><em>table</em></span></span></p></td>
+<td><p><span data-ttu-id="f44e1-115">Nenhum nome de tabela válido.</span><span class="sxs-lookup"><span data-stu-id="f44e1-115">Any valid table name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ea2f6-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="ea2f6-116"><em>object</em></span></span></p></td>
-<td><p><span data-ttu-id="ea2f6-p102">Isso pode incluir qualquer objeto não-tabela. Uma consulta armazenada (visualização ou procedimento) é um exemplo.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-p102">This can encompass any non-table object. A stored query (view or procedure) is one example.</span></span></p></td>
+<td><p><span data-ttu-id="f44e1-116"><em>objeto</em></span><span class="sxs-lookup"><span data-stu-id="f44e1-116"><em>object</em></span></span></p></td>
+<td><p><span data-ttu-id="f44e1-p102">Isso pode incluir qualquer objeto não-tabela. Uma consulta armazenada (visualização ou procedimento) é um exemplo.</span><span class="sxs-lookup"><span data-stu-id="f44e1-p102">This can encompass any non-table object. A stored query (view or procedure) is one example.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ea2f6-119"><em>container</em></span><span class="sxs-lookup"><span data-stu-id="ea2f6-119"><em>container</em></span></span></p></td>
-<td><p><span data-ttu-id="ea2f6-120">O nome de um contêiner válido.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-120">The name of a valid container.</span></span></p></td>
+<td><p><span data-ttu-id="f44e1-119"><em>container</em></span><span class="sxs-lookup"><span data-stu-id="f44e1-119"><em>container</em></span></span></p></td>
+<td><p><span data-ttu-id="f44e1-120">O nome de um contêiner válido.</span><span class="sxs-lookup"><span data-stu-id="f44e1-120">The name of a valid container.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ea2f6-121"><em>authorizationname</em></span><span class="sxs-lookup"><span data-stu-id="ea2f6-121"><em>authorizationname</em></span></span></p></td>
-<td><p><span data-ttu-id="ea2f6-122">Um nome de usuário ou grupo.</span><span class="sxs-lookup"><span data-stu-id="ea2f6-122">A user or group name.</span></span></p></td>
+<td><p><span data-ttu-id="f44e1-121"><em>authorizationname</em></span><span class="sxs-lookup"><span data-stu-id="f44e1-121"><em>authorizationname</em></span></span></p></td>
+<td><p><span data-ttu-id="f44e1-122">Um nome de usuário ou grupo.</span><span class="sxs-lookup"><span data-stu-id="f44e1-122">A user or group name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
