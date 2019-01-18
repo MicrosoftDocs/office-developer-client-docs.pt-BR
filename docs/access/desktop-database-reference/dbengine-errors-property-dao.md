@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053176
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd2ce678c6ca4b419ab3391c2d820304d0b72bcd
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ba143109746b8457be679800dcca13d4efabf8c4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921170"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702149"
 ---
-# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="a8f43-102">Propriedade DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8f43-102">DBEngine.Errors property (DAO)</span></span>
+# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="14cc8-102">Propriedade DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="14cc8-102">DBEngine.Errors property (DAO)</span></span>
 
 
-<span data-ttu-id="a8f43-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8f43-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="14cc8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="14cc8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a8f43-p101">Retorna uma coleção **Errors** que contém todos os objetos **Error** armazenados para o objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a8f43-p101">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object. Read-only.</span></span>
+<span data-ttu-id="14cc8-p101">Retorna uma coleção **Errors** que contém todos os objetos **Error** armazenados para o objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="14cc8-p101">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a8f43-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="a8f43-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="14cc8-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="14cc8-106">Syntax</span></span>
 
-<span data-ttu-id="a8f43-107">*expressão* . Erros</span><span class="sxs-lookup"><span data-stu-id="a8f43-107">*expression* .Errors</span></span>
+<span data-ttu-id="14cc8-107">*expressão* . Erros</span><span class="sxs-lookup"><span data-stu-id="14cc8-107">*expression* .Errors</span></span>
 
-<span data-ttu-id="a8f43-108">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="a8f43-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="14cc8-108">*expressão* Uma variável que representa um objeto **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="14cc8-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 
