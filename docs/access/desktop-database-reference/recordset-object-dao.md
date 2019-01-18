@@ -6,79 +6,80 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
 ms:contentKeyID: 48546469
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a4ce9b3480cfa2a8eb074065016131e2c82752c3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 19999159f7987be87031f88d1eec87980585f369
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921123"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699741"
 ---
-# <a name="recordset-object-dao"></a><span data-ttu-id="58fb2-102">Objeto Recordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="58fb2-102">Recordset object (DAO)</span></span>
+# <a name="recordset-object-dao"></a><span data-ttu-id="4bb89-102">Objeto Recordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="4bb89-102">Recordset object (DAO)</span></span>
 
-<span data-ttu-id="58fb2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="58fb2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4bb89-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4bb89-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58fb2-104">Um objeto **Recordset** representa os registros em uma tabela base ou os registros resultantes da execução de uma consulta.</span><span class="sxs-lookup"><span data-stu-id="58fb2-104">A **Recordset** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="4bb89-104">Um objeto **Recordset** representa os registros em uma tabela base ou os registros resultantes da execução de uma consulta.</span><span class="sxs-lookup"><span data-stu-id="4bb89-104">A **Recordset** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="58fb2-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="58fb2-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4bb89-105">Comentários</span><span class="sxs-lookup"><span data-stu-id="4bb89-105">Remarks</span></span>
 
-<span data-ttu-id="58fb2-p101">Os objetos **Recordset** são usados para manipular dados em um banco de dados no nível do registro. Ao usar objetos de acesso a dados, manipula-se dados quase completamente usando os objetos **Recordset**. Todos os objetos **Recordset** são criados com registros (linhas) e campos (colunas). Há cinco tipos de objetos **Recordset**:</span><span class="sxs-lookup"><span data-stu-id="58fb2-p101">You use **Recordset** objects to manipulate data in a database at the record level. When you use DAO objects, you manipulate data almost entirely using **Recordset** objects. All **Recordset** objects are constructed using records (rows) and fields (columns). There are five types of **Recordset** objects:</span></span>
+<span data-ttu-id="4bb89-p101">Os objetos **Recordset** são usados para manipular dados em um banco de dados no nível do registro. Ao usar objetos de acesso a dados, manipula-se dados quase completamente usando os objetos **Recordset**. Todos os objetos **Recordset** são criados com registros (linhas) e campos (colunas). Há cinco tipos de objetos **Recordset**:</span><span class="sxs-lookup"><span data-stu-id="4bb89-p101">You use **Recordset** objects to manipulate data in a database at the record level. When you use DAO objects, you manipulate data almost entirely using **Recordset** objects. All **Recordset** objects are constructed using records (rows) and fields (columns). There are five types of **Recordset** objects:</span></span>
 
-- <span data-ttu-id="58fb2-110">Recordset do tipo Tabela  representação em código de uma tabela base que pode ser usada para adicionar, alterar ou excluir registros de uma única tabela de banco de dados (somente espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="58fb2-110">Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).</span></span>
+- <span data-ttu-id="4bb89-110">Recordset do tipo Tabela  representação em código de uma tabela base que pode ser usada para adicionar, alterar ou excluir registros de uma única tabela de banco de dados (somente espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="4bb89-110">Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).</span></span>
 
-- <span data-ttu-id="58fb2-p102">Recordset do tipo Dynaset  o resultado de uma consulta que pode ter registros atualizáveis. Um objeto **Recordset** do tipo dynaset é um Recordset dinâmico que pode ser usado para adicionar, alterar ou excluir registros de uma tabela ou de tabelas de banco de dados subjacentes. Um objeto **Recordset** do tipo dynaset pode conter campos de uma ou mais tabelas em um banco de dados. Esse tipo corresponde a um cursor de conjunto de chaves ODBC.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p102">Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.</span></span>
+- <span data-ttu-id="4bb89-p102">Recordset do tipo Dynaset  o resultado de uma consulta que pode ter registros atualizáveis. Um objeto **Recordset** do tipo dynaset é um Recordset dinâmico que pode ser usado para adicionar, alterar ou excluir registros de uma tabela ou de tabelas de banco de dados subjacentes. Um objeto **Recordset** do tipo dynaset pode conter campos de uma ou mais tabelas em um banco de dados. Esse tipo corresponde a um cursor de conjunto de chaves ODBC.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p102">Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.</span></span>
 
-- <span data-ttu-id="58fb2-p103">Recordset do tipo Instantâneo  uma cópia estática de um Recordset que pode ser usada para localizar dados ou gerar relatórios. Um objeto **Recordset** do tipo instantâneo pode conter campos de uma ou mais tabelas em um banco de dados, mas não pode ser atualizado. Esse tipo corresponde a um cursor estático ODBC.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p103">Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.</span></span>
+- <span data-ttu-id="4bb89-p103">Recordset do tipo Instantâneo  uma cópia estática de um Recordset que pode ser usada para localizar dados ou gerar relatórios. Um objeto **Recordset** do tipo instantâneo pode conter campos de uma ou mais tabelas em um banco de dados, mas não pode ser atualizado. Esse tipo corresponde a um cursor estático ODBC.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p103">Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.</span></span>
 
-- <span data-ttu-id="58fb2-p104">Recordset do tipo Somente Encaminhamento  idêntico a um instantâneo, exceto pelo fato de não fornecer cursor. Você pode simplesmente rolar para frente por meio dos registros. Isso melhora o desempenho em situações em que é preciso fazer uma única passagem por um conjunto de resultados. Esse tipo corresponde a um cursor somente encaminhamento ODBC.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p104">Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.</span></span>
+- <span data-ttu-id="4bb89-p104">Recordset do tipo Somente Encaminhamento  idêntico a um instantâneo, exceto pelo fato de não fornecer cursor. Você pode simplesmente rolar para frente por meio dos registros. Isso melhora o desempenho em situações em que é preciso fazer uma única passagem por um conjunto de resultados. Esse tipo corresponde a um cursor somente encaminhamento ODBC.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p104">Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.</span></span>
 
-- <span data-ttu-id="58fb2-p105">Recordset do tipo Dynamic  um conjunto de resultados de consulta de uma ou mais tabelas base nas quais você pode adicionar, alterar ou excluir registros de uma consulta de retorno de linha. Além disso, registros adicionados, alterados e editados por outros usuários nas tabelas base também aparecem no seu **Recordset**. Esse tipo corresponde a um cursor dinâmico ODBC (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="58fb2-p105">Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="58fb2-p106">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p106">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-<span data-ttu-id="58fb2-127">Você pode escolher o tipo de objeto **Recordset** que você deseja criar usando o argumento type do método **OpenRecordset** .</span><span class="sxs-lookup"><span data-stu-id="58fb2-127">You can choose the type of **Recordset** object you want to create using the type argument of the **OpenRecordset** method.</span></span>
-
-<span data-ttu-id="58fb2-128">Em um espaço de trabalho do Microsoft Access, se você não especificar um tipo de tentativas DAO para criar o tipo de **Recordset** com a maior funcionalidade disponível, iniciando com a tabela.</span><span class="sxs-lookup"><span data-stu-id="58fb2-128">In a Microsoft Access workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the most functionality available, starting with table.</span></span> <span data-ttu-id="58fb2-129">Se esse tipo não estiver disponível, o DAO tentará um dynaset, um instantâneo e, finalmente, um objeto **Recordset** de tipo somente encaminhamento.</span><span class="sxs-lookup"><span data-stu-id="58fb2-129">If this type isn't available, DAO attempts a dynaset, then a snapshot, and finally a forward-only type **Recordset** object.</span></span>
-
-<span data-ttu-id="58fb2-130">Em um espaço de trabalho do ODBCDirect, se você não especificar um tipo de DAO tenta criar o tipo de **Recordset** com a resposta mais rápida de consulta, começando com somente de encaminhamento.</span><span class="sxs-lookup"><span data-stu-id="58fb2-130">In an ODBCDirect workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the fastest query response, starting with forward-only.</span></span> <span data-ttu-id="58fb2-131">Se esse tipo não estiver disponível, o DAO tentará um instantâneo, um dynaset e, finalmente, um objeto **Recordset** do tipo Dynamic.</span><span class="sxs-lookup"><span data-stu-id="58fb2-131">If this type isn't available, DAO attempts a snapshot, then a dynaset, and finally a dynamic- type **Recordset** object.</span></span>
-
-<span data-ttu-id="58fb2-p109">Ao criar um objeto **Recordset** usando um objeto **[TableDef](tabledef-object-dao.md)** não vinculado em um espaço de trabalho do Microsoft Access, objetos **Recordset** do tipo tabela serão criados. Somente objetos **Recordset** do tipo dynaset ou instantâneo podem ser criados com uma tabela ou tabelas vinculadas ao mecanismo de conexão do banco de dados ODBC ao banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p109">When creating a **Recordset** object using a non-linked **[TableDef](tabledef-object-dao.md)** object in a Microsoft Access workspace, table-type **Recordset** objects are created. Only dynaset-type or snapshot-type **Recordset** objects can be created with linked tables or tables in Microsoft Access database engine-connected ODBC databases.</span></span>
-
-<span data-ttu-id="58fb2-134">Um novo objeto **Recordset** é automaticamente adicionado à coleção **Recordsets** quando o objeto é aberto, e é automaticamente removido quando este é fechado.</span><span class="sxs-lookup"><span data-stu-id="58fb2-134">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the object, and is automatically removed when you close it.</span></span>
+- <span data-ttu-id="4bb89-p105">Recordset do tipo Dynamic  um conjunto de resultados de consulta de uma ou mais tabelas base nas quais você pode adicionar, alterar ou excluir registros de uma consulta de retorno de linha. Além disso, registros adicionados, alterados e editados por outros usuários nas tabelas base também aparecem no seu **Recordset**. Esse tipo corresponde a um cursor dinâmico ODBC (somente espaços de trabalho ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="4bb89-p105">Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="58fb2-p110">[!OBSERVAçãO] Se você usar variáveis para representar um objeto **Recordset** e um objeto **Database** contendo um **Recordset**, verifique se as variáveis têm o mesmo escopo, ou tempo de vida. Por exemplo, se você declarar uma variável pública que representa um objeto **Recordset**, certifique-se de que a variável que representa o **Database** que contém o **Recordset** também é pública, ou declarada em um procedimento **Sub** ou **Function** usando a palavra-chave **Static**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p110">If you use variables to represent a **Recordset** object and the **Database** object that contains the **Recordset**, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a **Recordset** object, make sure the variable that represents the **Database** containing the **Recordset** is also public, or is declared in a **Sub** or **Function** procedure using the **Static** keyword.</span></span>
+> <span data-ttu-id="4bb89-p106">[!OBSERVAçãO] O Microsoft Access 2013 não oferece suporte para espaços de trabalho ODBCDirect. Use ADO para acessar fontes de dados externas sem usar o mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p106">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
-<span data-ttu-id="58fb2-p111">Você pode criar quantas variáveis de objeto **Recordset** precisar. Diferentes objetos **Recordset** podem acessar as mesmas tabelas, consultas e campos sem entrar em conflito.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p111">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
+<span data-ttu-id="4bb89-127">Você pode escolher o tipo de objeto **Recordset** que você deseja criar usando o argumento type do método **OpenRecordset** .</span><span class="sxs-lookup"><span data-stu-id="4bb89-127">You can choose the type of **Recordset** object you want to create using the type argument of the **OpenRecordset** method.</span></span>
 
-<span data-ttu-id="58fb2-139">Dynaset, instantâneo e objetos **Recordset** do tipo somente encaminhamento são armazenados na memória local.</span><span class="sxs-lookup"><span data-stu-id="58fb2-139">Dynaset–, snapshot–, and forward–only–type **Recordset** objects are stored in local memory.</span></span> <span data-ttu-id="58fb2-140">Se não houver espaço suficiente na memória local para armazenar os dados, o mecanismo de banco de dados do Microsoft Access salvará os dados adicionais no espaço de disco Temporário.</span><span class="sxs-lookup"><span data-stu-id="58fb2-140">If there isn't enough space in local memory to store the data, the Microsoft Access database engine saves the additional data to TEMP disk space.</span></span> <span data-ttu-id="58fb2-141">Se esse espaço estiver esgotado, ocorrerá um erro interceptável.</span><span class="sxs-lookup"><span data-stu-id="58fb2-141">If this space is exhausted, a trappable error occurs.</span></span>
+<span data-ttu-id="4bb89-128">Em um espaço de trabalho do Microsoft Access, se você não especificar um tipo de tentativas DAO para criar o tipo de **Recordset** com a maior funcionalidade disponível, iniciando com a tabela.</span><span class="sxs-lookup"><span data-stu-id="4bb89-128">In a Microsoft Access workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the most functionality available, starting with table.</span></span> <span data-ttu-id="4bb89-129">Se esse tipo não estiver disponível, o DAO tentará um dynaset, um instantâneo e, finalmente, um objeto **Recordset** de tipo somente encaminhamento.</span><span class="sxs-lookup"><span data-stu-id="4bb89-129">If this type isn't available, DAO attempts a dynaset, then a snapshot, and finally a forward-only type **Recordset** object.</span></span>
 
-<span data-ttu-id="58fb2-p113">A coleção padrão de um objeto **Recordset** é a coleção **Fields**, e a propriedade padrão de um objeto **[Field](field-object-dao.md)** é a propriedade **[Value](field-value-property-dao.md)**. Use os valores padrão para simplificar seu código.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p113">The default collection of a **Recordset** object is the **Fields** collection, and the default property of a **[Field](field-object-dao.md)** object is the **[Value](field-value-property-dao.md)** property. Use these defaults to simplify your code.</span></span>
+<span data-ttu-id="4bb89-130">Em um espaço de trabalho do ODBCDirect, se você não especificar um tipo de DAO tenta criar o tipo de **Recordset** com a resposta mais rápida de consulta, começando com somente de encaminhamento.</span><span class="sxs-lookup"><span data-stu-id="4bb89-130">In an ODBCDirect workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the fastest query response, starting with forward-only.</span></span> <span data-ttu-id="4bb89-131">Se esse tipo não estiver disponível, o DAO tentará um instantâneo, um dynaset e, finalmente, um objeto **Recordset** do tipo Dynamic.</span><span class="sxs-lookup"><span data-stu-id="4bb89-131">If this type isn't available, DAO attempts a snapshot, then a dynaset, and finally a dynamic- type **Recordset** object.</span></span>
 
-<span data-ttu-id="58fb2-p114">Ao criar um objeto **Recordset**, o registro atual é posicionado no primeiro registro, se houver algum registro. Se não houver registros, a configuração da propriedade **RecordCount** será 0 e as configurações das propriedades **BOF** e **EOF** serão **True**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p114">When you create a **Recordset** object, the current record is positioned to the first record if there are any records. If there are no records, the **RecordCount** property setting is 0, and the **BOF** and **EOF** property settings are **True**.</span></span>
+<span data-ttu-id="4bb89-p109">Ao criar um objeto **Recordset** usando um objeto **[TableDef](tabledef-object-dao.md)** não vinculado em um espaço de trabalho do Microsoft Access, objetos **Recordset** do tipo tabela serão criados. Somente objetos **Recordset** do tipo dynaset ou instantâneo podem ser criados com uma tabela ou tabelas vinculadas ao mecanismo de conexão do banco de dados ODBC ao banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p109">When creating a **Recordset** object using a non-linked **[TableDef](tabledef-object-dao.md)** object in a Microsoft Access workspace, table-type **Recordset** objects are created. Only dynaset-type or snapshot-type **Recordset** objects can be created with linked tables or tables in Microsoft Access database engine-connected ODBC databases.</span></span>
 
-<span data-ttu-id="58fb2-p115">É possível usar os métodos **MoveNext**, **MovePrevious**, **MoveFirst** e **MoveLast** para reposicionar o registro atual. objetos **Recordset** oferecem suporte somente para o método **MoveNext**. Ao usar o método Move para visitar cada registro (ou "percorrer" o **Recordset**), é possível usar as propriedades **BOF** e **EOF** para consultar o começo ou o fim de um objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p115">You can use the **MoveNext**, **MovePrevious**, **MoveFirst**, and **MoveLast** methods to reposition the current record. Forward–only–type **Recordset** objects support only the **MoveNext** method. When using the Move methods to visit each record (or "walk" through the **Recordset**), you can use the **BOF** and **EOF** properties to check for the beginning or end of the **Recordset** object.</span></span>
-
-<span data-ttu-id="58fb2-p116">Com os objetos **Recordset** do tipo dynaset e instantâneo em um espaço de trabalho do Microsoft Access, é possível usar os métodos Find, como **FindFirst**, para localizar um registro específico com base em um critério. Se o registro não for localizado, a propriedade **NoMatch** é definida como **True**. Para objetos **Recordset** do tipo tabela, é possível examinar os registros usando o método **Seek**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p116">With dynaset- and snapshot-type **Recordset** objects in a Microsoft Access workspace, you can also use the Find methods, such as **FindFirst**, to locate a specific record based on criteria. If the record isn't found, the **NoMatch** property is set to **True**. For table-type **Recordset** objects, you can scan records using the **Seek** method.</span></span>
-
-<span data-ttu-id="58fb2-152">A propriedade **Type** indica o tipo de objeto **Recordset** criado, e a propriedade **Updatable** indica se os registros do objeto podem ser alterados.</span><span class="sxs-lookup"><span data-stu-id="58fb2-152">The **Type** property indicates the type of **Recordset** object created, and the **Updatable** property indicates whether you can change the object's records.</span></span>
-
-<span data-ttu-id="58fb2-153">As informações sobre a estrutura de uma tabela base, como os nomes e tipos de dados de cada objeto **Field** e quaisquer objetos **Index**, estão armazenadas em um objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-153">Information about the structure of a base table, such as the names and data types of each **Field** object and any **Index** objects, is stored in a **TableDef** object.</span></span>
-
-<span data-ttu-id="58fb2-154">Para consultar um objeto **Recordset** em uma coleção de acordo com seu número ordinal ou sua configuração de propriedade **Name**, use qualquer um dos formulários de sintaxe a seguir:</span><span class="sxs-lookup"><span data-stu-id="58fb2-154">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-- <span data-ttu-id="58fb2-155">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="58fb2-155">**Recordsets**(0)</span></span>
-
-- <span data-ttu-id="58fb2-156">**Conjuntos de registros** ("nome")</span><span class="sxs-lookup"><span data-stu-id="58fb2-156">**Recordsets**("name")</span></span>
-
-- <span data-ttu-id="58fb2-157">**Conjuntos de registros**\!\[nome\]</span><span class="sxs-lookup"><span data-stu-id="58fb2-157">**Recordsets**\!\[name\]</span></span>
+<span data-ttu-id="4bb89-134">Um novo objeto **Recordset** é automaticamente adicionado à coleção **Recordsets** quando o objeto é aberto, e é automaticamente removido quando este é fechado.</span><span class="sxs-lookup"><span data-stu-id="4bb89-134">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the object, and is automatically removed when you close it.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="58fb2-p117">[!OBSERVAçãO] É possível abrir um objeto **Recordset** a partir do mesmo banco de dados ou fonte de dados mais de uma vez criando nomes duplicados na coleção **Recordsets**. Você deve atribuir objetos **Recordsets** para variáveis de objetos e referenciá-los por nome de variável.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p117">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="4bb89-p110">[!OBSERVAçãO] Se você usar variáveis para representar um objeto **Recordset** e um objeto **Database** contendo um **Recordset**, verifique se as variáveis têm o mesmo escopo, ou tempo de vida. Por exemplo, se você declarar uma variável pública que representa um objeto **Recordset**, certifique-se de que a variável que representa o **Database** que contém o **Recordset** também é pública, ou declarada em um procedimento **Sub** ou **Function** usando a palavra-chave **Static**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p110">If you use variables to represent a **Recordset** object and the **Database** object that contains the **Recordset**, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a **Recordset** object, make sure the variable that represents the **Database** containing the **Recordset** is also public, or is declared in a **Sub** or **Function** procedure using the **Static** keyword.</span></span>
 
-## <a name="example"></a><span data-ttu-id="58fb2-160">Exemplo</span><span class="sxs-lookup"><span data-stu-id="58fb2-160">Example</span></span>
+<span data-ttu-id="4bb89-p111">Você pode criar quantas variáveis de objeto **Recordset** precisar. Diferentes objetos **Recordset** podem acessar as mesmas tabelas, consultas e campos sem entrar em conflito.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p111">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
 
-<span data-ttu-id="58fb2-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
+<span data-ttu-id="4bb89-139">Dynaset, instantâneo e objetos **Recordset** do tipo somente encaminhamento são armazenados na memória local.</span><span class="sxs-lookup"><span data-stu-id="4bb89-139">Dynaset–, snapshot–, and forward–only–type **Recordset** objects are stored in local memory.</span></span> <span data-ttu-id="4bb89-140">Se não houver espaço suficiente na memória local para armazenar os dados, o mecanismo de banco de dados do Microsoft Access salvará os dados adicionais no espaço de disco Temporário.</span><span class="sxs-lookup"><span data-stu-id="4bb89-140">If there isn't enough space in local memory to store the data, the Microsoft Access database engine saves the additional data to TEMP disk space.</span></span> <span data-ttu-id="4bb89-141">Se esse espaço estiver esgotado, ocorrerá um erro interceptável.</span><span class="sxs-lookup"><span data-stu-id="4bb89-141">If this space is exhausted, a trappable error occurs.</span></span>
+
+<span data-ttu-id="4bb89-p113">A coleção padrão de um objeto **Recordset** é a coleção **Fields**, e a propriedade padrão de um objeto **[Field](field-object-dao.md)** é a propriedade **[Value](field-value-property-dao.md)**. Use os valores padrão para simplificar seu código.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p113">The default collection of a **Recordset** object is the **Fields** collection, and the default property of a **[Field](field-object-dao.md)** object is the **[Value](field-value-property-dao.md)** property. Use these defaults to simplify your code.</span></span>
+
+<span data-ttu-id="4bb89-p114">Ao criar um objeto **Recordset**, o registro atual é posicionado no primeiro registro, se houver algum registro. Se não houver registros, a configuração da propriedade **RecordCount** será 0 e as configurações das propriedades **BOF** e **EOF** serão **True**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p114">When you create a **Recordset** object, the current record is positioned to the first record if there are any records. If there are no records, the **RecordCount** property setting is 0, and the **BOF** and **EOF** property settings are **True**.</span></span>
+
+<span data-ttu-id="4bb89-p115">É possível usar os métodos **MoveNext**, **MovePrevious**, **MoveFirst** e **MoveLast** para reposicionar o registro atual. objetos **Recordset** oferecem suporte somente para o método **MoveNext**. Ao usar o método Move para visitar cada registro (ou "percorrer" o **Recordset**), é possível usar as propriedades **BOF** e **EOF** para consultar o começo ou o fim de um objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p115">You can use the **MoveNext**, **MovePrevious**, **MoveFirst**, and **MoveLast** methods to reposition the current record. Forward–only–type **Recordset** objects support only the **MoveNext** method. When using the Move methods to visit each record (or "walk" through the **Recordset**), you can use the **BOF** and **EOF** properties to check for the beginning or end of the **Recordset** object.</span></span>
+
+<span data-ttu-id="4bb89-p116">Com os objetos **Recordset** do tipo dynaset e instantâneo em um espaço de trabalho do Microsoft Access, é possível usar os métodos Find, como **FindFirst**, para localizar um registro específico com base em um critério. Se o registro não for localizado, a propriedade **NoMatch** é definida como **True**. Para objetos **Recordset** do tipo tabela, é possível examinar os registros usando o método **Seek**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p116">With dynaset- and snapshot-type **Recordset** objects in a Microsoft Access workspace, you can also use the Find methods, such as **FindFirst**, to locate a specific record based on criteria. If the record isn't found, the **NoMatch** property is set to **True**. For table-type **Recordset** objects, you can scan records using the **Seek** method.</span></span>
+
+<span data-ttu-id="4bb89-152">A propriedade **Type** indica o tipo de objeto **Recordset** criado, e a propriedade **Updatable** indica se os registros do objeto podem ser alterados.</span><span class="sxs-lookup"><span data-stu-id="4bb89-152">The **Type** property indicates the type of **Recordset** object created, and the **Updatable** property indicates whether you can change the object's records.</span></span>
+
+<span data-ttu-id="4bb89-153">As informações sobre a estrutura de uma tabela base, como os nomes e tipos de dados de cada objeto **Field** e quaisquer objetos **Index**, estão armazenadas em um objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-153">Information about the structure of a base table, such as the names and data types of each **Field** object and any **Index** objects, is stored in a **TableDef** object.</span></span>
+
+<span data-ttu-id="4bb89-154">Para consultar um objeto **Recordset** em uma coleção de acordo com seu número ordinal ou sua configuração de propriedade **Name**, use qualquer um dos formulários de sintaxe a seguir:</span><span class="sxs-lookup"><span data-stu-id="4bb89-154">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+
+- <span data-ttu-id="4bb89-155">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="4bb89-155">**Recordsets**(0)</span></span>
+
+- <span data-ttu-id="4bb89-156">**Conjuntos de registros** ("nome")</span><span class="sxs-lookup"><span data-stu-id="4bb89-156">**Recordsets**("name")</span></span>
+
+- <span data-ttu-id="4bb89-157">**Conjuntos de registros**\!\[nome\]</span><span class="sxs-lookup"><span data-stu-id="4bb89-157">**Recordsets**\!\[name\]</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4bb89-p117">[!OBSERVAçãO] É possível abrir um objeto **Recordset** a partir do mesmo banco de dados ou fonte de dados mais de uma vez criando nomes duplicados na coleção **Recordsets**. Você deve atribuir objetos **Recordsets** para variáveis de objetos e referenciá-los por nome de variável.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p117">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
+
+## <a name="example"></a><span data-ttu-id="4bb89-160">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4bb89-160">Example</span></span>
+
+<span data-ttu-id="4bb89-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
 
 ```vb
     Sub RecordsetX() 
@@ -143,7 +144,7 @@ ms.locfileid: "25921123"
 
 <br/>
 
-<span data-ttu-id="58fb2-p118">Esse exemplo usa o método **OpenRecordset** para abrir cinco diferentes tipos de objetos **Recordset** e exibir seus conteúdos. O procedimento OpenRecordsetOutput é necessário para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="58fb2-p118">This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="4bb89-p118">Esse exemplo usa o método **OpenRecordset** para abrir cinco diferentes tipos de objetos **Recordset** e exibir seus conteúdos. O procedimento OpenRecordsetOutput é necessário para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="4bb89-p118">This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub OpenRecordsetX() 
@@ -230,7 +231,7 @@ ms.locfileid: "25921123"
 
 <br/>
 
-<span data-ttu-id="58fb2-164">Este exemplo abre um objeto **Recordset** do tipo dynamic e enumera seus registros.</span><span class="sxs-lookup"><span data-stu-id="58fb2-164">This example opens a dynamic-type **Recordset** object and enumerates its records.</span></span>
+<span data-ttu-id="4bb89-164">Este exemplo abre um objeto **Recordset** do tipo dynamic e enumera seus registros.</span><span class="sxs-lookup"><span data-stu-id="4bb89-164">This example opens a dynamic-type **Recordset** object and enumerates its records.</span></span>
 
 ```vb
     Sub dbOpenDynamicX() 
@@ -280,7 +281,7 @@ ms.locfileid: "25921123"
 
 <br/>
 
-<span data-ttu-id="58fb2-165">Este exemplo abre um objeto **Recordset** do tipo dynaset e mostra a extensão para a qual seus campos são atualizáveis.</span><span class="sxs-lookup"><span data-stu-id="58fb2-165">This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.</span></span>
+<span data-ttu-id="4bb89-165">Este exemplo abre um objeto **Recordset** do tipo dynaset e mostra a extensão para a qual seus campos são atualizáveis.</span><span class="sxs-lookup"><span data-stu-id="4bb89-165">This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.</span></span>
 
 ```vb
     Sub dbOpenDynasetX() 
@@ -320,7 +321,7 @@ ms.locfileid: "25921123"
 
 <br/>
 
-<span data-ttu-id="58fb2-166">Este exemplo abre um objeto **Recordset** do tipo somente encaminhamento, demonstra suas características somente leitura e percorre o **Recordset** com o método **MoveNext**.</span><span class="sxs-lookup"><span data-stu-id="58fb2-166">This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.</span></span>
+<span data-ttu-id="4bb89-166">Este exemplo abre um objeto **Recordset** do tipo somente encaminhamento, demonstra suas características somente leitura e percorre o **Recordset** com o método **MoveNext**.</span><span class="sxs-lookup"><span data-stu-id="4bb89-166">This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.</span></span>
 
 ```vb 
 Sub dbOpenForwardOnlyX() 
@@ -367,7 +368,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-167">Este exemplo abre um objeto **Recordset** do tipo instantâneo e demonstra suas características somente leitura.</span><span class="sxs-lookup"><span data-stu-id="58fb2-167">This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.</span></span>
+<span data-ttu-id="4bb89-167">Este exemplo abre um objeto **Recordset** do tipo instantâneo e demonstra suas características somente leitura.</span><span class="sxs-lookup"><span data-stu-id="4bb89-167">This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.</span></span>
 
 ```vb
     Sub dbOpenSnapshotX() 
@@ -406,7 +407,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-168">Este exemplo abre um objeto **Recordset**, define sua propriedade **Index** e enumera seus registros.</span><span class="sxs-lookup"><span data-stu-id="58fb2-168">This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.</span></span>
+<span data-ttu-id="4bb89-168">Este exemplo abre um objeto **Recordset**, define sua propriedade **Index** e enumera seus registros.</span><span class="sxs-lookup"><span data-stu-id="4bb89-168">This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.</span></span>
 
 ```vb
     Sub dbOpenTableX() 
@@ -443,9 +444,9 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-169">O exemplo a seguir mostra como usar o método Seek para localizar um registro em uma tabela vinculada.</span><span class="sxs-lookup"><span data-stu-id="58fb2-169">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
+<span data-ttu-id="4bb89-169">O exemplo a seguir mostra como usar o método Seek para localizar um registro em uma tabela vinculada.</span><span class="sxs-lookup"><span data-stu-id="4bb89-169">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
 
-<span data-ttu-id="58fb2-170">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="58fb2-170">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="4bb89-170">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="4bb89-170">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 
 ```vb
@@ -494,7 +495,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-171">O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.</span><span class="sxs-lookup"><span data-stu-id="58fb2-171">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="4bb89-171">O exemplo a seguir mostra como abrir um Recordset baseado em uma consulta de parâmetro.</span><span class="sxs-lookup"><span data-stu-id="4bb89-171">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -516,7 +517,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-172">O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma consulta.</span><span class="sxs-lookup"><span data-stu-id="58fb2-172">The following example shows how to open a Recordset based on a table or a query.</span></span>
+<span data-ttu-id="4bb89-172">O exemplo a seguir mostra como abrir um Recordset baseado em uma tabela ou uma consulta.</span><span class="sxs-lookup"><span data-stu-id="4bb89-172">The following example shows how to open a Recordset based on a table or a query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -534,7 +535,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-173">O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL (Structured Query Language).</span><span class="sxs-lookup"><span data-stu-id="58fb2-173">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
+<span data-ttu-id="4bb89-173">O exemplo a seguir mostra como abrir um Recordset baseado em uma instrução SQL (Structured Query Language).</span><span class="sxs-lookup"><span data-stu-id="4bb89-173">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -550,7 +551,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-174">O exemplo a seguir mostra como usar os métodos FindFirst e FindNext para localizar um registro em um Recordset.</span><span class="sxs-lookup"><span data-stu-id="58fb2-174">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
+<span data-ttu-id="4bb89-174">O exemplo a seguir mostra como usar os métodos FindFirst e FindNext para localizar um registro em um Recordset.</span><span class="sxs-lookup"><span data-stu-id="4bb89-174">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
 
 ```vb
     Sub FindOrgName()
@@ -589,7 +590,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="58fb2-175">O exemplo a seguir mostra como copiar os resultados de uma consulta para uma planilha em uma nova pasta de trabalho do Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="58fb2-175">The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.</span></span>
+<span data-ttu-id="4bb89-175">O exemplo a seguir mostra como copiar os resultados de uma consulta para uma planilha em uma nova pasta de trabalho do Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="4bb89-175">The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.</span></span>
 
 ```vb
     Public Sub CopyDataFromQuery( _
