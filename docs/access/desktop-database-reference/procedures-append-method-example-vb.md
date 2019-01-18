@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250279(v=office.15)
 ms:contentKeyID: 48548843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 906369f3c31a16eb513cdedd909e2ae16b034dc4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 0e1df7d4914a247dac6f96a3709f0930bceea0ea
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867192"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726138"
 ---
-# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="599dc-102">Exemplo do método Append de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="599dc-102">Procedures Append method example (VB)</span></span>
+# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="4a3c7-102">Exemplo do método Append de procedimentos (VB)</span><span class="sxs-lookup"><span data-stu-id="4a3c7-102">Procedures Append method example (VB)</span></span>
 
 
-<span data-ttu-id="599dc-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="599dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4a3c7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a3c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="599dc-104">O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](procedures-collection-adox.md) da coleção [Procedures](append-method-adox-procedures.md) para criar um novo procedimento na fonte de dados subjacente.</span><span class="sxs-lookup"><span data-stu-id="599dc-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
+<span data-ttu-id="4a3c7-104">O código a seguir demonstra como usar um objeto [Command](command-object-ado.md) e o método [Append](procedures-collection-adox.md) da coleção [Procedures](append-method-adox-procedures.md) para criar um novo procedimento na fonte de dados subjacente.</span><span class="sxs-lookup"><span data-stu-id="4a3c7-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
 
 ```vb 
  

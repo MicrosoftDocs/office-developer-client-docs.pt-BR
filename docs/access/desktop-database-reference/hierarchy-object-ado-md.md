@@ -6,33 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249031(v=office.15)
 ms:contentKeyID: 48543825
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5005ffec000c8fecc1188f37fad75227385f9ee2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c6668dfd40f7d0d26bcfa2ca4149acdc713e14c6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928184"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726040"
 ---
-# <a name="hierarchy-object-ado-md"></a><span data-ttu-id="cbee0-102">Objeto Hierarchy (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="cbee0-102">Hierarchy object (ADO MD)</span></span>
+# <a name="hierarchy-object-ado-md"></a><span data-ttu-id="4d23e-102">Objeto Hierarchy (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4d23e-102">Hierarchy object (ADO MD)</span></span>
 
 
-<span data-ttu-id="cbee0-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cbee0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4d23e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d23e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cbee0-p101">Representa uma maneira como os membros de uma [dimensão](dimension-object-ado-md.md) podem ser agregados. É possível agregar uma dimensão juntamente com uma ou mais hierarquias.</span><span class="sxs-lookup"><span data-stu-id="cbee0-p101">Represents one way in which the members of a [dimension](dimension-object-ado-md.md) can be aggregated or "rolled up." A dimension can be aggregated along one or more hierarchies.</span></span>
+<span data-ttu-id="4d23e-p101">Representa uma maneira como os membros de uma [dimensão](dimension-object-ado-md.md) podem ser agregados. É possível agregar uma dimensão juntamente com uma ou mais hierarquias.</span><span class="sxs-lookup"><span data-stu-id="4d23e-p101">Represents one way in which the members of a [dimension](dimension-object-ado-md.md) can be aggregated or "rolled up." A dimension can be aggregated along one or more hierarchies.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cbee0-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="cbee0-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d23e-106">Comentários</span><span class="sxs-lookup"><span data-stu-id="4d23e-106">Remarks</span></span>
 
-<span data-ttu-id="cbee0-107">Com as coleções e as propriedades de um objeto **Hierarchy**, você pode fazer o que segue:</span><span class="sxs-lookup"><span data-stu-id="cbee0-107">With the collections and properties of a **Hierarchy** object, you can do the following:</span></span>
+<span data-ttu-id="4d23e-107">Com as coleções e as propriedades de um objeto **Hierarchy**, você pode fazer o que segue:</span><span class="sxs-lookup"><span data-stu-id="4d23e-107">With the collections and properties of a **Hierarchy** object, you can do the following:</span></span>
 
-  - <span data-ttu-id="cbee0-108">Identificar **Hierarchy** com as propriedades [Name](name-property-ado-md.md) e [UniqueName](uniquename-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="cbee0-108">Identify the **Hierarchy** with the [Name](name-property-ado-md.md) and [UniqueName](uniquename-property-ado-md.md) properties.</span></span>
+  - <span data-ttu-id="4d23e-108">Identificar **Hierarchy** com as propriedades [Name](name-property-ado-md.md) e [UniqueName](uniquename-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="4d23e-108">Identify the **Hierarchy** with the [Name](name-property-ado-md.md) and [UniqueName](uniquename-property-ado-md.md) properties.</span></span>
 
-  - <span data-ttu-id="cbee0-109">Retornar uma cadeia de caracteres consistente que descreva **Hierarchy** com a propriedade [Description](description-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="cbee0-109">Return a meaningful string that describes the **Hierarchy** with the [Description](description-property-ado-md.md) property.</span></span>
+  - <span data-ttu-id="4d23e-109">Retornar uma cadeia de caracteres consistente que descreva **Hierarchy** com a propriedade [Description](description-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="4d23e-109">Return a meaningful string that describes the **Hierarchy** with the [Description](description-property-ado-md.md) property.</span></span>
 
-  - <span data-ttu-id="cbee0-110">Retornar os objetos [Level](level-object-ado-md.md) que compõem a **Hierarchy** com a coleção [Levels](levels-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="cbee0-110">Return the [Level](level-object-ado-md.md) objects that make up the **Hierarchy** with the [Levels](levels-collection-ado-md.md) collection.</span></span>
+  - <span data-ttu-id="4d23e-110">Retornar os objetos [Level](level-object-ado-md.md) que compõem a **Hierarchy** com a coleção [Levels](levels-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="4d23e-110">Return the [Level](level-object-ado-md.md) objects that make up the **Hierarchy** with the [Levels](levels-collection-ado-md.md) collection.</span></span>
 
-  - <span data-ttu-id="cbee0-111">Usar a coleção [Properties](properties-collection-ado.md) do ADO padrão para obter informações adicionais sobre o objeto **Hierarchy**.</span><span class="sxs-lookup"><span data-stu-id="cbee0-111">Use the standard ADO [Properties](properties-collection-ado.md) collection to obtain additional information about the **Hierarchy** object.</span></span>
+  - <span data-ttu-id="4d23e-111">Usar a coleção [Properties](properties-collection-ado.md) do ADO padrão para obter informações adicionais sobre o objeto **Hierarchy**.</span><span class="sxs-lookup"><span data-stu-id="4d23e-111">Use the standard ADO [Properties](properties-collection-ado.md) collection to obtain additional information about the **Hierarchy** object.</span></span>
 
-<span data-ttu-id="cbee0-p102">A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabela a seguir lista propriedades que talvez estejam disponíveis. A lista de propriedades verdadeira pode diferir, de acordo com a implementação do provedor. Consulte a documentação do seu provedor para obter uma lista mais completa de propriedades disponíveis.</span><span class="sxs-lookup"><span data-stu-id="cbee0-p102">The **Properties** collection contains provider-supplied properties. The following table lists properties that might be available. The actual property list may differ depending upon the implementation of the provider. See the documentation for your provider for a more complete list of available properties.</span></span>
+<span data-ttu-id="4d23e-p102">A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabela a seguir lista propriedades que talvez estejam disponíveis. A lista de propriedades verdadeira pode diferir, de acordo com a implementação do provedor. Consulte a documentação do seu provedor para obter uma lista mais completa de propriedades disponíveis.</span><span class="sxs-lookup"><span data-stu-id="4d23e-p102">The **Properties** collection contains provider-supplied properties. The following table lists properties that might be available. The actual property list may differ depending upon the implementation of the provider. See the documentation for your provider for a more complete list of available properties.</span></span>
 
 <table>
 <colgroup>
@@ -41,62 +42,62 @@ ms.locfileid: "25928184"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cbee0-116">Nome</span><span class="sxs-lookup"><span data-stu-id="cbee0-116">Name</span></span></p></th>
-<th><p><span data-ttu-id="cbee0-117">Descrição</span><span class="sxs-lookup"><span data-stu-id="cbee0-117">Description</span></span></p></th>
+<th><p><span data-ttu-id="4d23e-116">Nome</span><span class="sxs-lookup"><span data-stu-id="4d23e-116">Name</span></span></p></th>
+<th><p><span data-ttu-id="4d23e-117">Descrição</span><span class="sxs-lookup"><span data-stu-id="4d23e-117">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-118">AllMember</span><span class="sxs-lookup"><span data-stu-id="cbee0-118">AllMember</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-119">O membro de nível mais alto de acúmulo na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-119">The member at the highest level of rollup in the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-118">AllMember</span><span class="sxs-lookup"><span data-stu-id="4d23e-118">AllMember</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-119">O membro de nível mais alto de acúmulo na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-119">The member at the highest level of rollup in the hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-120">Nome_do_catálogo</span><span class="sxs-lookup"><span data-stu-id="cbee0-120">CatalogName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-121">O nome do catálogo ao qual o cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="cbee0-121">The name of the catalog to which this cube belongs.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-120">Nome_do_catálogo</span><span class="sxs-lookup"><span data-stu-id="4d23e-120">CatalogName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-121">O nome do catálogo ao qual o cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="4d23e-121">The name of the catalog to which this cube belongs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-122">Nome do cubo</span><span class="sxs-lookup"><span data-stu-id="cbee0-122">CubeName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-123">O nome do cubo.</span><span class="sxs-lookup"><span data-stu-id="cbee0-123">The name of the cube.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-122">Nome do cubo</span><span class="sxs-lookup"><span data-stu-id="4d23e-122">CubeName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-123">O nome do cubo.</span><span class="sxs-lookup"><span data-stu-id="4d23e-123">The name of the cube.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-124">DefaultMember</span><span class="sxs-lookup"><span data-stu-id="cbee0-124">DefaultMember</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-125">O nome exclusivo do membro padrão desta hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-125">The unique name of the default member for this hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-124">DefaultMember</span><span class="sxs-lookup"><span data-stu-id="4d23e-124">DefaultMember</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-125">O nome exclusivo do membro padrão desta hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-125">The unique name of the default member for this hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-126">Description</span><span class="sxs-lookup"><span data-stu-id="cbee0-126">Description</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-127">Uma descrição consistente da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-127">A meaningful description of the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-126">Description</span><span class="sxs-lookup"><span data-stu-id="4d23e-126">Description</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-127">Uma descrição consistente da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-127">A meaningful description of the hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-128">DimensionType</span><span class="sxs-lookup"><span data-stu-id="cbee0-128">DimensionType</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-129">O tipo da dimensão ao qual esta hierarquia pertence.</span><span class="sxs-lookup"><span data-stu-id="cbee0-129">The type of dimension to which this hierarchy belongs.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-128">DimensionType</span><span class="sxs-lookup"><span data-stu-id="4d23e-128">DimensionType</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-129">O tipo da dimensão ao qual esta hierarquia pertence.</span><span class="sxs-lookup"><span data-stu-id="4d23e-129">The type of dimension to which this hierarchy belongs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-130">DimensionUniqueName</span><span class="sxs-lookup"><span data-stu-id="cbee0-130">DimensionUniqueName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-131">O nome inequívoco da dimensão.</span><span class="sxs-lookup"><span data-stu-id="cbee0-131">The unambiguous name of the dimension.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-130">DimensionUniqueName</span><span class="sxs-lookup"><span data-stu-id="4d23e-130">DimensionUniqueName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-131">O nome inequívoco da dimensão.</span><span class="sxs-lookup"><span data-stu-id="4d23e-131">The unambiguous name of the dimension.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-132">HierarchyCaption</span><span class="sxs-lookup"><span data-stu-id="cbee0-132">HierarchyCaption</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-133">Um rótulo ou uma legenda associada à hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-133">A label or caption associated with the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-132">HierarchyCaption</span><span class="sxs-lookup"><span data-stu-id="4d23e-132">HierarchyCaption</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-133">Um rótulo ou uma legenda associada à hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-133">A label or caption associated with the hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-134">HierarchyCardinality</span><span class="sxs-lookup"><span data-stu-id="cbee0-134">HierarchyCardinality</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-135">O número de membros na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-135">The number of members in the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-134">HierarchyCardinality</span><span class="sxs-lookup"><span data-stu-id="4d23e-134">HierarchyCardinality</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-135">O número de membros na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-135">The number of members in the hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-136">HierarchyGUID</span><span class="sxs-lookup"><span data-stu-id="cbee0-136">HierarchyGUID</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-137">O GUID da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-137">The GUID of the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-136">HierarchyGUID</span><span class="sxs-lookup"><span data-stu-id="4d23e-136">HierarchyGUID</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-137">O GUID da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-137">The GUID of the hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-138">HierarchyName</span><span class="sxs-lookup"><span data-stu-id="cbee0-138">HierarchyName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-139">O nome da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-139">The name of the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-138">HierarchyName</span><span class="sxs-lookup"><span data-stu-id="4d23e-138">HierarchyName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-139">O nome da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-139">The name of the hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cbee0-140">HierarchyUniqueName</span><span class="sxs-lookup"><span data-stu-id="cbee0-140">HierarchyUniqueName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-141">O nome inequívoco da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="cbee0-141">The unambiguous name of the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-140">HierarchyUniqueName</span><span class="sxs-lookup"><span data-stu-id="4d23e-140">HierarchyUniqueName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-141">O nome inequívoco da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4d23e-141">The unambiguous name of the hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cbee0-142">SchemaName</span><span class="sxs-lookup"><span data-stu-id="cbee0-142">SchemaName</span></span></p></td>
-<td><p><span data-ttu-id="cbee0-143">O nome do esquema ao qual este cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="cbee0-143">The name of the schema to which this cube belongs.</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-142">SchemaName</span><span class="sxs-lookup"><span data-stu-id="4d23e-142">SchemaName</span></span></p></td>
+<td><p><span data-ttu-id="4d23e-143">O nome do esquema ao qual este cubo pertence.</span><span class="sxs-lookup"><span data-stu-id="4d23e-143">The name of the schema to which this cube belongs.</span></span></p></td>
 </tr>
 </tbody>
 </table>
