@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa301974b4b417d09b0439b3970ee366eeb5d06e
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910724"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718858"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objetos e interfaces do ADO
 
@@ -50,7 +51,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa uma conexão aberta com uma fonte de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Erro</a></p></td>
+<td><p><a href="error-object-ado.md">Error</a></p></td>
 <td><p>Contém os detalhes sobre os erros de acesso aos dados que pertencem à uma única operação que envolve o provedor.</p></td>
 </tr>
 <tr class="even">
@@ -62,11 +63,11 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa um parâmetro ou argumento associado ao objeto <strong>Command</strong> com base em uma consulta parametrizada ou em um procedimento armazenado.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Propriedade</a></p></td>
+<td><p><a href="property-object-ado.md">Property</a></p></td>
 <td><p>Representa uma característica dinâmica de um objeto ADO definido pelo provedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="record-object-ado.md">Objeto Record</a></p></td>
+<td><p><a href="record-object-ado.md">Record</a></p></td>
 <td><p>Representa uma linha de um <strong>Recordset</strong>, ou um diretório ou arquivo em um sistema de arquivos.</p></td>
 </tr>
 <tr class="even">

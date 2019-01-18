@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
 ms:contentKeyID: 48548014
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d7523a930feed7431bf8be0bbb7222a4b305483
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b4f4efc2ffab9f7996b2d805658b985badbaf87e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949394"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717934"
 ---
 # <a name="chapter-property-ado"></a>Propriedade Chapter (ADO)
 
@@ -32,7 +33,7 @@ Colocar HRESULT\_capítulo (\[na\] lChapter longo);
 |*plChapter* |Ponteiro para o identificador de um capítulo.|
 |*LChapter* |Identificador de um capítulo.|
 
-## <a name="return-values"></a>Valor de retorno
+## <a name="return-values"></a>Valores de retorno
 
 Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
 

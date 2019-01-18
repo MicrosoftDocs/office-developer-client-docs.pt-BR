@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ac5f14d035a4e11cce67f01ca6636f3ebd39963e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717808"
 ---
-# <a name="batch-mode"></a>Modo de lotes
+# <a name="batch-mode"></a>Modo em Lote
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -23,10 +24,10 @@ O método **UpdateBatch** é usado para enviar ao servidor as alterações de **
 
 Esta seção inclui os seguintes tópicos:
 
-- [Enviando atualizações: UpdateBatch](sending-the-updates-updatebatch.md)
-- [Filtrando registros atualizados](filtering-for-updated-records.md)
-- [Lidando com falhas de atualização](dealing-with-failed-updates.md)
-- [Detectando e resolvendo conflitos](detecting-and-resolving-conflicts.md)
-- [Desconectando e reconectando o Recordset](disconnecting-and-reconnecting-the-recordset.md)
+- [Envio de atualizações: UpdateBatch](sending-the-updates-updatebatch.md)
+- [Filtragem de registros atualizados](filtering-for-updated-records.md)
+- [Como lidar com atualizações com falhas](dealing-with-failed-updates.md)
+- [Detecção e solução de conflitos](detecting-and-resolving-conflicts.md)
+- [Desconexão e reconexão do conjunto de registros](disconnecting-and-reconnecting-the-recordset.md)
 - [Atualizando ingressado for resultados: Unique Table](updating-joined-results-unique-table.md)
 

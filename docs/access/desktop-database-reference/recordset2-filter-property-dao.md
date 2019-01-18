@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053062
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: afa9bf22db7ec29399cef99e697a616369c9db21
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 19f3c017aa5d4a353f3e832a3678d921565ea822
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929143"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720349"
 ---
 # <a name="recordset2filter-property-dao"></a>Propriedade Recordset2.Filter (DAO)
 
@@ -38,7 +39,7 @@ Use a propriedade **Filter** para aplicar um filtro a um dynaset, instantâneo o
 
 Você pode usar a propriedade **Filter** para restringir os registros retornados de um objeto existente quando um novo objeto **Recordset** for aberto com base em um objeto **Recordset** existente.
 
-Utilize o formato de data dos EUA (mês-dia-ano) quando filtrar campos que contenham datas, mesmo se você não estiver usando a versão EUA do mecanismo de banco de dados do Microsoft Access (nesse caso, você deve montar quaisquer datas concatenando cadeias de caracteres, por exemplo, strMonth & "-" & strDay & "-" & strYear). Caso contrário, é possível que os dados não sejam filtrados como esperado.
+Utilize o formato de data dos EUA (mês-dia-ano) quando filtrar campos que contenham datas, mesmo se você não estiver usando a versão EUA do mecanismo de banco de dados do Microsoft Access (nesse caso, você deve montar quaisquer datas concatenando cadeias de caracteres, por exemplo, o strMonth & "-" _ aMP_ strDay & "-" & strYear). Caso contrário, é possível que os dados não sejam filtrados como esperado.
 
 Em vários casos, é mais rápido abrir um novo objeto **Recordset** usando uma instrução SQL que inclua uma cláusula WHERE.
 

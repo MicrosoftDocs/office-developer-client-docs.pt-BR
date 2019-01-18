@@ -1,19 +1,20 @@
 ---
-title: Marcando os objetos de negócios como seguros para script
+title: Marcação de objetos Business como confiáveis para script
 TOCTitle: Marking business objects as safe for scripting
 ms:assetid: 8ee49aec-672d-96f7-baa6-9261317a4d90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfd2a93b4a228186629d0c08e26cf2b0b7b32804
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe5d331b7f3ab4685cb930323076d111a25ec68e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944253"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720545"
 ---
-# <a name="marking-business-objects-as-safe-for-scripting"></a>Marcando os objetos de negócios como seguros para script
+# <a name="marking-business-objects-as-safe-for-scripting"></a>Marcação de objetos Business como confiáveis para script
 
 **Aplica-se a**: Access 2013, o Office 2013
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
 ms:contentKeyID: 48547325
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0adb1cdf9ce7b096d7b80b86a89a819d5789b60b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84d3ad7cc5b3d43b15ac1113f6fa00932678ebc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949380"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720958"
 ---
 # <a name="rowposition-property-ado"></a>Propriedade RowPosition (ADO)
 
@@ -34,7 +35,7 @@ Colocar HRESULT\_RowPosition (\[na\] IUnknown\* pRowPos);
 |*ppRowPos* |Ponteiro para um objeto **RowPosition** do OLE DB.|
 |*PRowPos* |Um objeto **RowPosition** do OLE DB.|
 
-## <a name="return-values"></a>Valor de retorno
+## <a name="return-values"></a>Valores de retorno
 
 Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm147125
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e43181626b885664eaf370decb7d471082c7a263
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5051cfd74f2a745ee430f2ed8a20445d2f9965f3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928114"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716303"
 ---
 # <a name="removetempvar-macro-action"></a>Ação da macro RemoverVariávelTemporária
 
@@ -43,7 +44,7 @@ A ação **RemoverVariávelTemporária** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nome</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>Insira o nome da variável temporária que deseja remover.</p></td>
 </tr>
 </tbody>

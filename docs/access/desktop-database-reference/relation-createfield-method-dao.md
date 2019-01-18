@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8de2072e96ec00cab96dac19bd1af5889acd883a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ae322277dd1d357aceb3f9129110dded705f9eca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999033"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716282"
 ---
 # <a name="relationcreatefield-method-dao"></a>Método Relation.CreateField (DAO)
 
@@ -44,7 +45,7 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>

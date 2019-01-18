@@ -1,19 +1,20 @@
 ---
-title: Criando a cadeia de caracteres de conexão
+title: Criação da cadeia de conexão
 TOCTitle: Creating the connection string
 ms:assetid: 0d34b1c6-bf2e-1299-9778-573ccd2da1c7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2db1ae3266df3a84cbcac70a86cf5fca302b16d0
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f43207edec0c0acb58c66318e5dc7668a28ea595
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719915"
 ---
-# <a name="creating-the-connection-string"></a>Criando a cadeia de caracteres de conexão
+# <a name="creating-the-connection-string"></a>Criação da cadeia de conexão
 
 **Aplica-se a**: Access 2013, o Office 2013
 

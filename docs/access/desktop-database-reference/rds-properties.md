@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 35d3552705ff358f34a40aa51a2ec13b4b80f6d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026250"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716046"
 ---
 # <a name="rds-properties"></a>Propriedades RDS
 
@@ -70,7 +71,7 @@ ms.locfileid: "26026250"
 <td><p>Indica o objeto <strong>Recordset</strong> retornado de um objeto corporativo personalizado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Servidor</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Indica o nome do IIS (Serviços de Informações da Internet) e o protocolo de comunicação.</p></td>
 </tr>
 <tr class="even">

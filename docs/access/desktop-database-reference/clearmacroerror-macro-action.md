@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945380"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721630"
 ---
 # <a name="clearmacroerror-macro-action"></a>Ação da macro LimparErrodeMacro
 
@@ -71,7 +72,7 @@ A macro a seguir usa a ação **AoOcorrerErro** com o argumento **Próximo** par
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>IrParaRegistro</strong></p></td>
+<td><p><strong>GoToRecord</strong></p></td>
 <td><p><strong>Tipo de objeto</strong>: <strong>Nome FormObject</strong>: Formuláriodacategoria<strong>registro</strong>: anterior</p></td>
 </tr>
 <tr class="even">

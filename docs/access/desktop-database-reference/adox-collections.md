@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa9cf4128f8c5ae37281cd8b996b9bf59094ba70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9728c8a736e2639816f65b006394e513ea5a5d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910696"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718921"
 ---
 # <a name="adox-collections"></a>Coleções do ADOX
 
@@ -40,11 +41,11 @@ ms.locfileid: "25910696"
 <td><p>Contém todos os objetos <strong>Group</strong> de um catálogo ou usuário.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="indexes-collection-adox.md">Indexes</a></p></td>
+<td><p><a href="indexes-collection-adox.md">Índices</a></p></td>
 <td><p>Contém todos os objetos <strong>Index</strong> de uma tabela.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="keys-collection-adox.md">Keys</a></p></td>
+<td><p><a href="keys-collection-adox.md">Teclas</a></p></td>
 <td><p>Contém todos os objetos <strong>Key</strong> de uma tabela.</p></td>
 </tr>
 <tr class="odd">
