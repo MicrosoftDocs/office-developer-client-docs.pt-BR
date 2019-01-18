@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
 ms:contentKeyID: 48546570
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84c7756515343d4a8d3493ac8b5949557785210f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b4183a7b438d3f55d73eb63adb2d124da7eeecc1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998683"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699965"
 ---
 # <a name="querydefsappend-method-dao"></a>Método QueryDefs.Append (DAO)
 

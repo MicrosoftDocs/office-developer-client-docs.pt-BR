@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937334"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701596"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instrução ALTER TABLE (Microsoft Access SQL)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 342a4db4e2ed6e06dca917beb96b4562f1fc65da
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919441"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705223"
 ---
 # <a name="settempvar-macro-action"></a>Ação da macro DefinirVariávelTemporária
 
@@ -43,7 +44,7 @@ A ação **DefinirVariávelTemporária** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nome</strong></p></td>
+<td><p><strong>Name</strong></p></td>
 <td><p>Digite o nome da variável temporária.</p></td>
 </tr>
 <tr class="even">

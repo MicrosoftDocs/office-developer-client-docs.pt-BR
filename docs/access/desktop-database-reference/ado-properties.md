@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910905"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704256"
 ---
 # <a name="ado-properties"></a>Propriedades do ADO
 
@@ -50,7 +51,7 @@ ms.locfileid: "25910905"
 <td><p>Indica o tamanho real do valor de um campo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-ado.md">Attributes</a></p></td>
+<td><p><a href="attributes-property-ado.md">Atributos</a></p></td>
 <td><p>Indica uma ou mais características de um objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -94,7 +95,7 @@ ms.locfileid: "25910905"
 <td><p>Indica quanto tempo esperar ao estabelecer uma conexão antes de abortar a tentativa e gerar um erro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Contagem</a></p></td>
+<td><p><a href="count-property-ado.md">Count</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -138,7 +139,7 @@ ms.locfileid: "25910905"
 <td><p>Indica se a posição atual está no final do fluxo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtrar</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>Indica um filtro para os dados em um <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -154,7 +155,7 @@ ms.locfileid: "25910905"
 <td><p>Indica o nível de isolamento de um objeto <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">1.1</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Indica um membro específico de uma coleção, por nome ou número ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -178,7 +179,7 @@ ms.locfileid: "25910905"
 <td><p>Indica as permissões disponíveis para modificar os dados em um objeto <strong>Connection</strong>, <strong>Record</strong> ou <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Nome</a></p></td>
+<td><p><a href="name-property-ado.md">Name</a></p></td>
 <td><p>Indica o nome de um objeto</p></td>
 </tr>
 <tr class="odd">
@@ -214,7 +215,7 @@ ms.locfileid: "25910905"
 <td><p>Indica uma sequência de URL absoluta que aponta para o <strong>Record</strong> pai do objeto <strong>Record</strong> atual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="position-property-ado.md">Position</a></p></td>
+<td><p><a href="position-property-ado.md">Posição</a></p></td>
 <td><p>Indica a posição atual em um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -294,7 +295,7 @@ ms.locfileid: "25910905"
 <td><p>Indica, em um objeto <strong>Recordset</strong> hierárquico, se a referência a registros filhos de base (isto é, o <em>capítulo</em>) é alterada quando a posição da linha pai é alterada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Tipo</a></p></td>
+<td><p><a href="type-property-ado.md">Type</a></p></td>
 <td><p>Indica o tipo operacional ou o tipo de dados de um objeto <strong>Parameter</strong>, <strong>Field</strong> ou <strong>Property</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -306,7 +307,7 @@ ms.locfileid: "25910905"
 <td><p>Indica um valor atual do objeto <strong>Field</strong> no banco de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">Valor</a></p></td>
+<td><p><a href="value-property-ado.md">Value</a></p></td>
 <td><p>Indica o valor atribuído a um objeto <strong>Field</strong>, <strong>Parameter</strong> ou <strong>Property</strong>.</p></td>
 </tr>
 <tr class="odd">

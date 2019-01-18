@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 511933ddf0d4eca9755788608800e0421de4116d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aedda14273446ff6823776e535eb7995aa127fa5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997137"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703024"
 ---
 # <a name="indexcreatefield-method-dao"></a>Método Index.CreateField (DAO)
 
@@ -44,7 +45,7 @@ Cria um novo objeto **[Field](field-object-dao.md)** (espaços de trabalho do Mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma string que denomina exclusivamente o novo objeto <strong>Field</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Field</strong>.</p></td>
