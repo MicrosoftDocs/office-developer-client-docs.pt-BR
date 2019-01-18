@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998718"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714056"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Método DBEngine.CompactDatabase (DAO)
 
@@ -53,13 +54,13 @@ Copia e compacta um banco de dados fechado e oferece a opção de alterar sua ve
 <tr class="odd">
 <td><p><em>SrcName</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Identifica um banco de dados existente, fechado. Ele pode ser um caminho completo e nome de arquivo, como &quot;C:\db1.mdb&quot;. Se o nome do arquivo tiver uma extensão, você deve especificá-lo. Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>o nome do arquivo (e caminho) do banco de dados compactado que você está criando. Você também pode especificar um caminho de rede. Você não pode usar esse argumento para especificar o mesmo arquivo de banco de dados srcname.</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +84,7 @@ Copia e compacta um banco de dados fechado e oferece a opção de alterar sua ve
 <td><p><em>senha</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uma expressão de cadeia de caracteres que contém uma chave de criptografia, se o banco de dados é criptografado. A cadeia de caracteres &quot;; pwd =&quot; devem preceder a senha real. Se você incluir uma configuração de senha em DstLocale, essa configuração será ignorada.</p><p><strong>Observação</strong>: Este é o parâmetro preterido e não é suportado no. Formato ACCDB. Para criptografar uma. Arquivo ACCDB, use o "pwd =" cadeia de caracteres de opção. [!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<td><p>Uma expressão de cadeia de caracteres que contém uma chave de criptografia, se o banco de dados é criptografado. A cadeia de caracteres &quot;; pwd =&quot; devem preceder a senha real. Se você incluir uma configuração de senha em DstLocale, essa configuração será ignorada.</p><p><strong>Observação</strong>: Este é o parâmetro preterido e não é suportado no. Formato ACCDB. Para criptografar uma. Arquivo ACCDB, use o "pwd =" cadeia de caracteres de opção. Use senhas fortes que combinam letras maiúsculas e minúsculas, números e símbolos. As enhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 </tbody>

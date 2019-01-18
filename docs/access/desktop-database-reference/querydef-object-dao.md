@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 18889846b2f55fa13f9fa5fe002f233c955d9866
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929948"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713552"
 ---
 # <a name="querydef-object-dao"></a>Objeto QueryDef (DAO)
 
@@ -55,7 +56,7 @@ QueryDefs\! \[ nome\]
 
 Você pode se referir a objetos **QueryDef** temporários somente pelas variáveis de objeto que foram atribuídas a eles.
 
-**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) . UtterAccess é o fórum principal de wiki e a Ajuda do Microsoft Access.
+**Link fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) . UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
 
 - [Consultas: Documento SQL para o Word](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 

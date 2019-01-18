@@ -1,19 +1,20 @@
 ---
-title: Tratando erros no Visual C++
+title: Tratamento de erros em Visual C++
 TOCTitle: Handling errors in Visual C++
 ms:assetid: 75e15699-0c84-1dca-654e-f9ac465c2a30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249483(v=office.15)
 ms:contentKeyID: 48545684
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 99f8a0f8c7b79769fba62b38ef5517781aea4600
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d0e76dc3cc9634a1531a34058bf7a1baf636c94c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945604"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709471"
 ---
-# <a name="handling-errors-in-visual-c"></a>Tratando erros no Visual C++
+# <a name="handling-errors-in-visual-c"></a>Tratamento de erros em Visual C++
 
 
 **Aplica-se a**: Access 2013, o Office 2013

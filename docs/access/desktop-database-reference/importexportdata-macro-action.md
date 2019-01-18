@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e0cdf85461276d26005bc3066a387031a1086691
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997613"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714742"
 ---
 # <a name="importexportdata-macro-action"></a>Ação da macro ImportarExportarDados
 

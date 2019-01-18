@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
 ms:contentKeyID: 48548717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfcb392fc9b89f614a8372b888db794ee4a1eb06
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fa483d86dc345968607a0752f0552ddccfe7fef5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950173"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709870"
 ---
 # <a name="resync-method-ado"></a>Método Resync (ADO)
 
@@ -46,7 +47,7 @@ Se a tentativa de nova sincronização falhar devido a um conflito com os dados 
 
 Se as propriedades dinâmicas [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) e [Resync Command](resync-command-property-dynamic-ado.md) forem definidas e **Recordset** resultar da execução de uma operação JOIN em várias tabelas, o método **Resync** executará o comando fornecido na propriedade **Resync Command** somente na tabela nomeada na propriedade **Unique Table**.
 
-### <a name="fields"></a>Fields
+### <a name="fields"></a>Campos
 
 Use o método **Resync** para sincronizar novamente os valores da coleção **Fields** de um objeto **Record** com a fonte de dados subjacente. A propriedade [Count](count-property-ado.md) não é afetada por esse método.
 

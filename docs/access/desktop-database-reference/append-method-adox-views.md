@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cade1b4f95cfb20d517dea1e5129c208abea5960
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9e1a6e14542f267af6a9f5bc58bb2d75a11aac77
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950164"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716149"
 ---
 # <a name="append-method-adox-views"></a>Método Append (Modos de exibição do ADOX)
 
@@ -27,7 +28,7 @@ Cria e anexa um novo objeto [View](view-object-adox.md) à coleção [Views](vie
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Nome* |Um valor **String** que especifica o nome do modo de exibição a ser criado.|
+|*Name* |Um valor **String** que especifica o nome do modo de exibição a ser criado.|
 |*Command* |Um objeto [Command](command-object-ado.md) do ADO que representa o modo de exibição a ser criado.|
 
 ## <a name="remarks"></a>Comentários

@@ -1,19 +1,20 @@
 ---
-title: Mantendo registros em formato XML
+title: Registros persistentes no formato XML
 TOCTitle: Persisting records in XML format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d859835ec0f80d2a1d908eb40ec7cffaa1effb2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946304"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714721"
 ---
-# <a name="persisting-records-in-xml-format"></a>Mantendo registros em formato XML
+# <a name="persisting-records-in-xml-format"></a>Registros persistentes no formato XML
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -66,11 +67,11 @@ O ADO sempre usa o conjunto de linhas do Mecanismo de cursor do cliente para pro
 
 Esta seção inclui os seguintes tópicos:
 
-- [Formato de persistência de XML](xml-persistence-format.md)
+- [Formato de persistência XML](xml-persistence-format.md)
 
 - [Namespaces](namespaces.md)
 
-- [Seção de esquema](schema-section.md)
+- [Seção Schema](schema-section.md)
 
 - [Seção de dados](data-section.md)
 
@@ -78,10 +79,10 @@ Esta seção inclui os seguintes tópicos:
 
 - [Propriedades dinâmicas do Recordset em XML](recordset-dynamic-properties-in-xml.md)
 
-- [Transformações de XSLT](xslt-transformations.md)
+- [Transformações XSLT](xslt-transformations.md)
 
 - [Salvar no objeto XML DOM](saving-to-the-xml-dom-object.md)
 
-- [Considerações sobre segurança XML](xml-security-considerations.md)
+- [Considerações de segurança XML](xml-security-considerations.md)
 
 - [Tópicos de cenário de persistência de Recordset XML](xml-recordset-persistence-scenario.md)

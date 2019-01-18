@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a1fc46e1a5b8f320810f2e0e5ea891e3a6cb85a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3e58978145a59a0057f5c7218afe417f8455fcb3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947865"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710032"
 ---
-# <a name="using-related-technologies-with-rds"></a>Usando tecnologias relacionadas com o RDS
+# <a name="using-related-technologies-with-rds"></a>Uso de tecnologias relacionadas com o RDS
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -21,7 +22,7 @@ Esta seção contém informações específicas sobre o uso do RDS com aspectos 
 
 - [Uso do RDS com pooling de conexão ODBC](using-rds-with-odbc-connection-pooling.md)
 
-- [Executar objetos corporativos nos serviços de componente](running-business-objects-in-component-services.md)
+- [Execução de objetos Business em serviços de componente](running-business-objects-in-component-services.md)
 
 **Serviços de informações da Internet** Para obter mais informações sobre os serviços de informações da Internet (IIS) da Microsoft, consulte o site do Microsoft Internet Information Services.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a36695e0d858a630ba91b954bfc9a46136e26403
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 593daf08da1b4ce435d17f2a6deedfa3e89dbd32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025965"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713629"
 ---
 # <a name="whats-new-in-ado"></a>Novidades do ADO
 
@@ -88,7 +89,7 @@ As novas propriedades a seguir foram incluídas nesta versão.
 <td><p>Indica o tamanho do fluxo em número de bytes.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-record.md">Source</a></p></td>
+<td><p><a href="source-property-ado-record.md">Fonte</a></p></td>
 <td><p>Indica a entidade representada pelo objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -155,7 +156,7 @@ Os novos métodos a seguir foram incluídos nesta versão.
 <td><p>Abre um objeto <strong>Stream</strong> para manipular fluxos de dados de texto ou binários.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Leitura</a></p></td>
 <td><p>Lê um número de bytes especificado de um objeto <strong>Stream</strong> binário.</p></td>
 </tr>
 <tr class="odd">
@@ -175,7 +176,7 @@ Os novos métodos a seguir foram incluídos nesta versão.
 <td><p>Ignora uma linha inteira na leitura de um objeto <strong>Stream</strong> de texto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">Write</a></p></td>
+<td><p><a href="write-method-ado.md">Escrever</a></p></td>
 <td><p>Grava dados binários em um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998935"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708666"
 ---
 # <a name="databasenewpassword-method-dao"></a>Método Database.NewPassword (DAO)
 
@@ -50,15 +51,15 @@ Altera a senha de um banco de dados existente do mecanismo de banco de dados do 
 <tr class="odd">
 <td><p><em>bstrOld</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>A configuração atual da propriedade <strong>Password</strong> do objeto <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>bstrNew</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>A nova configuração da propriedade <strong>Password</strong> do objeto <strong>Database</strong> .</p>
-<p><strong>Observação</strong>: Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
+<p><strong>Observação</strong>: Use senhas fortes que combinam maiusculas e minúsculas, números e símbolos. As enhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</p>
 </td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Caixa de diálogo de propriedades personalizadas de controle ActiveX
+title: Caixa de diálogo propriedades personalizadas do controle ActiveX
 TOCTitle: ActiveX control custom properties dialog box
 description: Essa caixa de diálogo de propriedades personalizadas oferece uma alternativa à lista de propriedades da folha de propriedades do Microsoft Access para definir as propriedades dos controles ActiveX no modo de design.
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm4040
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6b068da25b99c52dfa53187879678ba05f978be8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871889"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712131"
 ---
-# <a name="activex-control-custom-properties-dialog-box"></a>Caixa de diálogo de propriedades personalizadas de controle ActiveX
+# <a name="activex-control-custom-properties-dialog-box"></a>Caixa de diálogo propriedades personalizadas do controle ActiveX
 
 **Aplica-se a**: Access 2013, o Office 2013
 

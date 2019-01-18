@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17a086e38d1654a880a7c223e7a4347455b9d31a
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937733"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712621"
 ---
 # <a name="dbengine-members-dao"></a>Membros de DBEngine (DAO)
 
@@ -131,7 +132,7 @@ O objeto DBEngine é de nível superior no modelo de objeto DAO.
 <td><p>Retorna a versão do DAO atualmente em uso. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
+<td><p><strong><a href="dbengine-workspaces-property-dao.md">Workplaces</a></strong></p></td>
 <td><p>Retorna uma coleção <strong>Workspaces</strong> que contém todos os objetos <strong>Workspace</strong> ativos e não ocultos. Somente leitura.</p></td>
 </tr>
 </tbody>

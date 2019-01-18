@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
 ms:contentKeyID: 48543562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1882486de2a2dfe61b98d4461abeea9cbcc23363
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949310"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715001"
 ---
 # <a name="row-property-ado"></a>Propriedade Row (ADO)
 
@@ -32,7 +33,7 @@ Colocar HRESULT\_linha (\[na\] IUnknown\* pRow);
 |*ppRow* |Ponteiro para um objeto **Row** do OLE DB.|
 |*PRow* |Um objeto **Row** do OLE DB.|
 
-## <a name="return-values"></a>Valor de retorno
+## <a name="return-values"></a>Valores de retorno
 
 Esse método de propriedade retorna os valores padrão HRESULT, incluindo S\_Okey e f\_falhar.
 

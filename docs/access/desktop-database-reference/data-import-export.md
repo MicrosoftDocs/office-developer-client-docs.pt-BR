@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c5a6e599dd43dced4c63a09f6060f1a904f683e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 767d80e8b3c73a78bb1401c4d3ffd729e0ce8bc0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927771"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713636"
 ---
-# <a name="data-importexport"></a>Importação/exportação de dados
+# <a name="data-importexport"></a>Importar/exportar dados
 
 **Aplica-se a**: Access 2013, o Office 2013
 

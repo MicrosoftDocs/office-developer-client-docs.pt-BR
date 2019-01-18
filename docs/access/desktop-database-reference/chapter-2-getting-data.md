@@ -1,19 +1,20 @@
 ---
-title: 'Capítulo 2: Obtendo dados'
+title: 'Capítulo 2: Obtenção de dados'
 TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f059e5dfe064442f10972fd36344e64f84fe7ea5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936998"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715190"
 ---
-# <a name="chapter-2-getting-data"></a>Capítulo 2: Obtendo dados
+# <a name="chapter-2-getting-data"></a>Capítulo 2: Obtenção de dados
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -35,7 +36,7 @@ O modelo de objeto do ADO representa o conceito de uma conexão com o objeto **C
 
 Este capítulo aborda os seguintes tópicos:
 
-- [Fazendo uma conexão](making-a-connection.md)
+- [Criação de uma conexão](making-a-connection.md)
 - [Usando a referência de objeto de conexão (ADO)](using-the-connection-object-access.md)
 - [Usando a referência de objeto command (ADO)](using-the-command-object-access.md)
 - [Adicionar dados para um Recordset (ADO)](adding-data-to-a-recordset.md)

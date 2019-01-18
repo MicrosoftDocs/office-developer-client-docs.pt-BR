@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
 ms:contentKeyID: 48547307
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b78db90a588f3b23ce2d0341f9eb1ac44eabd540
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a6bfefea569d5298b5fa5c69b1cf610592c9f952
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931159"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715169"
 ---
 # <a name="fields-members-dao"></a>Membros de campos (DAO)
 
@@ -65,7 +66,7 @@ Uma coleção Fields contém todos os objetos Field armazenados de um objeto Ind
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-count-property-dao.md">Contagem</a></strong></p></td>
+<td><p><strong><a href="fields-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Retorna o número de objetos da coleção especificada. <strong>Integer</strong> somente leitura.</p></td>
 </tr>
 </tbody>

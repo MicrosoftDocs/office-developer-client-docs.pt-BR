@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026376"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716177"
 ---
 # <a name="ado-methods"></a>Métodos do ADO
 
@@ -177,7 +178,7 @@ ms.locfileid: "26026376"
 <td><p>Obtém informações do esquema do banco de dados a partir do provedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Leitura</a></p></td>
 <td><p>Lê um número de bytes especificado a partir de um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -233,7 +234,7 @@ ms.locfileid: "26026376"
 <td><p>Grava todas as atualizações em lote pendentes no disco.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">Write</a></p></td>
+<td><p><a href="write-method-ado.md">Escrever</a></p></td>
 <td><p>Grava dados binários em um objeto <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d368077e94a24dfd7b3d20dcdaafb0ee7d3c84
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf3deac487f1e114bea2a69d5423a210a51a5944
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937789"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707140"
 ---
 # <a name="field2-members-dao"></a>Membros de Field2 (DAO)
 
@@ -117,7 +118,7 @@ Um objeto Field2 representa uma coluna de dados com um tipo de dados comum e um 
 <td><p>Retorna um <strong>Boolean</strong> que indica se o campo especificado tem um tipo de dados de vários valores. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="field2-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">

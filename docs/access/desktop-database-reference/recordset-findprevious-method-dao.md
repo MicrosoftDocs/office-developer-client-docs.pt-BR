@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6634067e1d26c32847f6ddf9b7ec518ff17539a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bbd678c460ed6c54a38e76faa2a2492cfd4e3384
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997459"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706430"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Método Recordset.FindPrevious (DAO)
 
@@ -50,7 +51,7 @@ Localiza o registro anterior em um objeto **[Recordset](recordset-object-dao.md)
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

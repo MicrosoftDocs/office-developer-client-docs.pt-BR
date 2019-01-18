@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa627d7c44700041209b9884374e57f7e3fa6c28
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937096"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713048"
 ---
 # <a name="database-members-dao"></a>Membros do banco de dados (DAO)
 
@@ -55,7 +56,7 @@ Um objeto Database representa um banco de dados aberto.
 <td><p>Cria um novo objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-execute-method-dao.md">Execução</a></strong></p></td>
+<td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
 <td><p>Executa uma consulta de ação ou executa uma instrução SQL no objeto especificado.</p></td>
 </tr>
 <tr class="odd">
@@ -110,7 +111,7 @@ Um objeto Database representa um banco de dados aberto.
 <p>Retorna o objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde ao banco de dados (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
+<td><p><strong><a href="database-containers-property-dao.md">Contêineres</a></strong></p></td>
 <td><p>Retorna uma coleção <strong>Containers</strong> que representa todos os objetos <strong>Container</strong> no banco de dados especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +119,7 @@ Um objeto Database representa um banco de dados aberto.
 <td><p>Define ou retorna um valor de 16 bytes que identifica exclusivamente a Design Mestre em um conjunto de réplicas (apenas espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">

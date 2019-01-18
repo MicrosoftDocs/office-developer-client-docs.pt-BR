@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 52d376b05c195ed0ea4707e849c5ae395c2b5590
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b294af16498778eae94b38a7a31b93fd029585e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936823"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710920"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>Instrução CREATE USER ou GROUP (Microsoft Access SQL)
 
@@ -48,7 +49,7 @@ A instrução CREATE USER ou GROUP tem estas partes:
 <td><p>O nome de um usuário que será adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>group</em></p></td>
+<td><p><em>grupo</em></p></td>
 <td><p>O nome de um grupo a ser adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="odd">

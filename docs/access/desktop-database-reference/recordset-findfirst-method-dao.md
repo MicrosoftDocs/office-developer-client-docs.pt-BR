@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 489e6060fdbaa4183c006e3f422c207d9a5013ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b2e334dcad84d2a9c3441e76e6552c1cb04f8552
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998851"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711788"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Método Recordset.FindFirst (DAO)
 
@@ -46,7 +47,7 @@ Localiza o primeiro registro em um dynaset ou objeto de tipo instantâneo do **C
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

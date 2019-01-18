@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b3afc134636d5621f38ece4530be5312e42bc74
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026257"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716142"
 ---
 # <a name="querydef-members-dao"></a>Membros de QueryDef (DAO)
 
@@ -35,7 +36,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydef-cancel-method-dao.md">Cancelar</a></strong></p></td>
+<td><p><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Cancela a execução de uma chamada assíncrona pendente do método (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
@@ -136,7 +137,7 @@ Um objeto QueryDef é uma definição armazenada de uma consulta em um banco de 
 <p>Indica se uma operação assíncrona ou não (ou seja, um método chamado com a opção <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) concluiu a execução (somente em espaços de trabalho ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. Somente leitura<strong>inteiro</strong>.</p></td>
 </tr>
 <tr class="odd">

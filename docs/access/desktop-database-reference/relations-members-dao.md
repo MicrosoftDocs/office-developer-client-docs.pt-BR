@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
 ms:contentKeyID: 48547326
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d148a314de37343b6bc34671cd401e5d1c697935
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a53b7170568c535ed2321a902796af2f942f6808
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927330"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709814"
 ---
 # <a name="relations-members-dao"></a>Membros de relações (DAO)
 
@@ -65,7 +66,7 @@ Uma coleção Relations contém objetos Relation armazenados de um objeto Databa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-count-property-dao.md">Contagem</a></strong></p></td>
+<td><p><strong><a href="relations-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Retorna o número de objetos na coleção especificada. Somente leitura.</p></td>
 </tr>
 </tbody>
