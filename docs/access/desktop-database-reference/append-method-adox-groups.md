@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d552539b84972b4a20fe0bff39b6c8570719bcf7
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9f0e7731777e3d82e3746c3886bdbddb3e43db66
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950157"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709023"
 ---
 # <a name="append-method-adox-groups"></a>Método Append (Grupos do ADOX)
 
