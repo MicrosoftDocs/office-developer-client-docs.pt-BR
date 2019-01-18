@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - MAPI.TCHAR
 api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 357ace3267f22d751a20a12c96f108ee2f8ae1e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2b04ebe6d05cd72a59fe6d44c9138468fd7ddec1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595199"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710444"
 ---
 # <a name="tchar"></a>TCHAR
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595199"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma cadeia de caracteres Win32 que pode ser usada para descrever as cadeias de caracteres ANSI, Unicode ou DBCS. Para plataformas ANSI e DBCS, TCHAR é definida da seguinte maneira:
+Uma cadeia de caracteres do Win32 que pode ser usada para descrever cadeias de caracteres ANSI, DBCS ou Unicode. Para plataformas ANSI e DBCS, o TCHAR é definido da seguinte forma:
   
 ```cpp
 typedef char TCHAR;
@@ -34,11 +34,11 @@ typedef char TCHAR;
 
 ## <a name="remarks"></a>Comentários
 
-Plataformas de Unicode, TCHAR é definido como o tipo WCHAR um sinônimo. 
+Para plataformas Unicode, o TCHAR é definido como sinônimo do tipo WCHAR. 
   
-Clientes MAPI podem usar o tipo de dados TCHAR para representar uma cadeia de caracteres de tipo de WCHAR ou char. Certifique-se definir o UNICODE constante simbólico e limitar a plataforma quando for solicitado. MAPI irá interpretar as informações de plataforma e internamente traduzir TCHAR para a cadeia de caracteres apropriada. O tipo de propriedade MAPI, PT_TSTRING, funciona como o tipo de dados TCHAR. Quando a plataforma oferece suporte a Unicode, propriedades do tipo PT_TSTRING recebem o tipo PT_UNICODE em tempo de compilação. Quando a plataforma não oferece suporte a Unicode, essas propriedades recebem o tipo PT_STRING8.
+Os clientes MAPI podem usar o tipo de dados TCHAR para representar uma cadeia de caracteres do tipo WCHAR ou char. Certifique-se de definir o UNICODE da constante simbólica e limite a plataforma quando for necessário. O MAPI interpretará as informações da plataforma e traduzirá internamente o TCHAR para a cadeia de caracteres apropriada. O tipo de propriedade MAPI, PT_TSTRING, funciona exatamente como o tipo de dados TCHAR. Quando a plataforma suporta Unicode, as propriedades do tipo PT_TSTRING são atribuídas ao tipo PT_UNICODE no tempo de compilação. Quando a plataforma não oferece suporte a Unicode, essas propriedades são atribuídas ao tipo PT_STRING8.
   
-Para obter mais informações sobre essa funcionalidade, consulte [Conjuntos de caracteres](mapi-character-sets.md) e a [Lista de tipos de propriedade](property-types.md). 
+Confira mais informações sobre essa em [Conjuntos de Caracteres](mapi-character-sets.md) e [Lista de Tipos de Propriedades](property-types.md). 
   
 ## <a name="see-also"></a>Confira também
 

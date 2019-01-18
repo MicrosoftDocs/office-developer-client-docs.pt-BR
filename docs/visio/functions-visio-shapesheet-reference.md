@@ -1,19 +1,19 @@
 ---
-title: Funções (referência de ShapeSheet do Visio)
+title: Funções (Referência do Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 928b8cff-c314-4502-be4f-daa44503c7f0
-ms.openlocfilehash: b803c2cafbe79ca2e965ec18250a0db6b7cb8b67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 606f34af82a8acd3152d672c1a20fae9f70d7900
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771959"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712866"
 ---
-# <a name="functions-visio-shapesheet-reference"></a>Funções (referência de ShapeSheet do Visio)
+# <a name="functions-visio-shapesheet-reference"></a>Funções (Referência do Visio ShapeSheet)
 
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -21,7 +21,7 @@ ms.locfileid: "19771959"
     
 - [Função ACOS](acos-function.md)
     
-- [Função E](and-function.md)
+- [Função AND](and-function.md)
     
 - [Função ANG360](ang360-function.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19771959"
     
 - [Função COSH](cosh-function.md)
     
-- [COS função (VisioShapeSheet)](cos-function-visioshapesheet.md)
+- [Função COS (VisioShapeSheet)](cos-function-visioshapesheet.md)
     
 - [Função CREATOR](creator-function.md)
     
@@ -137,7 +137,7 @@ ms.locfileid: "19771959"
     
 - [Função FIELDPICTURE](fieldpicture-function.md)
     
-- [Função FILENAME](filename-function.md)
+- [NOME FILENAME](filename-function.md)
     
 - [Função FIND](find-function.md)
     
@@ -165,7 +165,7 @@ ms.locfileid: "19771959"
     
 - [Função GUARD](guard-function.md)
     
-- [Método HASCATEGORY](hascategory-function.md)
+- [Função HASCATEGORY](hascategory-function.md)
     
 - [Função HELP](help-function.md)
     
@@ -211,7 +211,7 @@ ms.locfileid: "19771959"
     
 - [Função KEYWORDS](keywords-function.md)
     
-- [Função de idioma](language-function.md)
+- [Função LANGUAGE](language-function.md)
     
 - [Função LEFT (VisioShapeSheet)](left-function-visioshapesheet.md)
     
@@ -275,7 +275,7 @@ ms.locfileid: "19771959"
     
 - [Função NOT](not-function.md)
     
-- [Agora a função (VisioShapeSheet)](now-function-visioshapesheet.md)
+- [Função NOW (VisioShapeSheet)](now-function-visioshapesheet.md)
     
 - [Função NURBS](nurbs-function.md)
     
@@ -329,7 +329,7 @@ ms.locfileid: "19771959"
     
 - [Função REF](ref-function.md)
     
-- [Substituir função (VisioShapeSheet)](replace-function-visioshapesheet.md)
+- [Função REPLACE (VisioShapeSheet)](replace-function-visioshapesheet.md)
     
 - [Função REPT](rept-function.md)
     

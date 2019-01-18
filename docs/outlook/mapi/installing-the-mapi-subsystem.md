@@ -3,17 +3,17 @@ title: Instalar o subsistema MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: adb4d09ccce95683ac46e7b271fafa328b1a9f97
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 112a683f5967f8740c2d21285eb4ebbc0f455c48
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575347"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722435"
 ---
 # <a name="installing-the-mapi-subsystem"></a>Instalar o subsistema MAPI
 
@@ -21,9 +21,9 @@ ms.locfileid: "22575347"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Versões suportadas do Windows instalem a biblioteca de stub MAPI, Mapi32, no _ \<unidade\>_ \Windows\System32 folder. 
+As versões com suporte do Windows instalam a biblioteca stub do MAPI, Mapi32.dll, na pasta  _\<drive\>_ \Windows\System32. 
   
-As versões com suporte do Windows são:
+As versões com suporte do Windows são as seguintes:
   
 - Windows 7.
     
@@ -35,26 +35,26 @@ As versões com suporte do Windows são:
     
 - Windows XP.
     
-Para instalar corretamente o subsistema de MAPI, instale um aplicativo que contém um subsistema baseado em MAPI, como o Microsoft Outlook.
+Para instalar corretamente o subsistema MAPI, instale um aplicativo que contenha um subsistema baseado em MAPI, como o Microsoft Outlook.
   
-Você pode encontrar informações sobre a instalação do subsistema MAPI do computador no registro do sistema. Todos os valores nas entradas de registro são cadeias de caracteres. 
+Você pode encontrar informações sobre a instalação de subsistema MAPI do computador no registro do sistema. Todos os valores das entradas de registro são cadeias de caracteres. 
   
-Programas de instalação do serviço de mensagem são responsáveis por criar as informações de instalação na seguinte chave de registro do sistema: 
+Os programas de instalação do serviço de mensagens são responsáveis por criar as informações de instalação na seguinte chave de registro do sistema: 
   
  `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Messaging Subsystem`
   
-Serviços de mensagem devem adicionar entradas do registro do sistema. 
+Os serviços de mensagem devem adicionar entradas ao registro do sistema. 
   
-A tabela a seguir resume como clientes recuperam informações de versão para o subsistema MAPI em seus computadores.
+A tabela a seguir resume a forma como os clientes recuperam informações de versão para o subsistema MAPI em seus computadores.
   
-|**Para verificar**|**Registry**|
+|**Para verificar**|**Registro**|
 |:-----|:-----|
-|Disponibilidade de MAPI  <br/> |Procure por `MAPIX=1`.  <br/> |
-|Versão disponível de MAPI  <br/> |Procure por uma cadeia de caracteres MAPIXVER do formulário " _x.x.x_".  <br/> |
+|Disponibilidade de MAPI  <br/> |Procure  `MAPIX=1`.  <br/> |
+|Versão de MAPI disponível  <br/> |Procure uma cadeia de caracteres MAPIXVER do formulário " _x.x.x_".  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Vis�o geral da programa��o MAPI](mapi-programming-overview.md)
+[Visão geral da programação MAPI](mapi-programming-overview.md)
 

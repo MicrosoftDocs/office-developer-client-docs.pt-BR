@@ -3,50 +3,50 @@ title: Formato de arquivo de MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567171"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700382"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Formato de arquivo de MapiSvc.inf
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O arquivo Mapisvc atua como o banco de dados central para obter informações de configuração de serviço de mensagem MAPI. Mapisvc contém informações sobre cada um dos serviços de mensagem instalados na estação de trabalho, informações sobre os provedores de serviço que pertencem a cada serviço de mensagem e informações sobre o subsistema de MAPI. Mapisvc é a principal fonte de informações de perfis. Ou seja, quando um novo perfil está sendo construído ou um existente modificado, as informações relevantes para cada serviço de mensagem ou provedor de serviços é copiado do Mapisvc. 
+O arquivo MapiSvc.inf atua como o banco de dados central para informações de configuração do serviço de mensagem do MAPI. MapiSvc.inf contém informações sobre cada um dos serviços de mensagem instalados na estação de trabalho, informações sobre os provedores de serviços que pertencem a cada serviço de mensagens e informações sobre o subsistema do MAPI. MapiSvc.inf é a principal fonte de informações para perfis. Ou seja, quando um novo perfil está sendo criado ou um existente é modificado, informações relevantes para cada serviço de mensagem ou provedor de serviços são copiadas do MapiSvc.inf. 
   
-Mapisvc é dividido em seções hierárquicas vinculadas:
+MapiSvc.inf é dividido em seções hierárquicas vinculadas:
   
-1. Seção que contém informações que se aplicam a todos os perfis. Esta seção possui três partes:
+1. Seção contendo informações que se aplicam a todos os perfis. Esta seção tem três partes:
     
-   - Seção **[serviços]** , oferecendo links para cada um da mensagem subsequente seções de serviço. 
+   - A seção **[Services]** fornece links para cada uma das seções subsequentes do serviço de mensagens. 
     
-   - Seção **[Help File Mappings]** , que contém informações sobre. Arquivos HLP fornecidos pelos serviços de mensagem. 
+   - A seção **[Help File Mappings]** contém informações sobre arquivos .HLP fornecidos pelos serviços de mensagens. 
     
-   - Seção **[Services padrão]** , listando os serviços de mensagem que compõem uma instalação padrão. 
+   - A seção **[Default Services]** lista os serviços de mensagens que compõem uma instalação padrão. 
     
-2. Seção que contém informações que se aplicam aos serviços de mensagem individual. Entradas nestas seções fornecem links para seções do provedor de serviço subsequentes.
+2. Seção contendo informações que se aplicam a serviços de mensagens individuais. As entradas nessas seções fornecem links para seções subsequentes de provedores de serviços.
     
-3. Seção que contém informações que se aplicam a provedores de serviços individuais em um serviço de mensagem.
+3. Seção contendo informações que se aplicam a provedores de serviços individuais em um serviço de mensagens.
     
-A ilustração a seguir mostra a organização de um arquivo Mapisvc típico. Há três serviços de mensagem: AB, MsgService e MS. O nome na parte lateral direita do sinal de igual para cada serviço de mensagem é o nome para exibição do serviço. Cada serviço de mensagem tem sua própria seção em outro local do arquivo que é vinculado a uma ou mais seções do provedor de serviço. Não há uma seção de provedor de serviço para cada provedor de serviço que pertence ao serviço de mensagem. Os serviços de mensagem AB e MS são serviços único provedor, enquanto os três provedores de serviços pertencem ao serviço MsgService.
+A ilustração a seguir mostra a organização de um arquivo MapiSvc.inf comum. Há três serviços de mensagens: AB, MsgService e MS. O nome no lado direito do sinal de igual para cada serviço de mensagem é o nome de exibição do serviço. Cada serviço de mensagens tem sua própria seção em outro local no arquivo e está vinculada a uma ou mais seções do provedor de serviços. Há uma seção de provedor de serviços para cada provedor de serviços que pertence ao serviço de mensagens. Os serviços de mensagens AB e MS são serviços de provedores únicos, enquanto três provedores de serviços pertencem ao serviço MsgService.
   
 **MapiSvc.inf file organization**
   
-![Organização de arquivo Mapisvc] (media/amapi_30.gif "Organização de arquivo Mapisvc")
+![MapiSvc.inf file organization](media/amapi_30.gif "MapiSvc.inf file organization")
   
-MAPI fornece uma versão estrutural do arquivo Mapisvc que contém as entradas para o subsistema MAPI. Cada implementador de serviço de mensagem adiciona entradas que são apropriadas para seu serviço e os provedores de serviços que pertencem ao seu serviço. Algumas das entradas são necessárias, enquanto outros são opcionais. Por exemplo, o MAPI requer que você especifique o nome e caminho de cada um dos provedores de serviços em seu serviço de mensagem. Sem essas informações, eles não podem ser carregados.
+O MAPI fornece uma versão esquelética do arquivo MapiSvc.inf que contém as entradas para o subsistema do MAPI. Cada implementador de serviços de mensagens adiciona entradas que são apropriadas para seu serviço e para os provedores de serviços que pertencem ao seu serviço. Algumas entradas são necessárias, outras são opcionais. Por exemplo, o MAPI exige que você especifique o nome e o caminho de cada um dos provedores de serviço em seu serviço de mensagem. Sem essas informações, eles não poderão ser carregados.
   
-Você pode adicionar informações obrigatórios e opcionais nas seções para seu serviço de mensagem e/ou as seções do provedor de serviço. Onde você coloca as informações que descrevem o seu serviço de mensagem depende do número de provedores de serviço no serviço. Porque essas informações se aplicam a cada provedor de serviço no serviço, você deve torná-lo acessível a todos os provedores. Armazená-lo na seção de serviço de mensagem, a opção preferida, ou em todas as seções do provedor de serviço. Armazenar informações de uma vez para evitar replicações desnecessárias e a necessidade de guardar diversas cópias sincronizados.
+Você pode adicionar informações obrigatórias e opcionais à seção do serviço de mensagens e/ou às seções do provedor de serviços. O local onde você coloca as informações que descrevem seu serviço de mensagens depende do número de provedores de serviços no serviço. Como essas informações se aplicam a cada provedor de serviços no serviço, você deve torná-las acessíveis a todos os provedores. Armazene-as na seção do serviço de mensagens, na opção preferida ou em todas as seções do provedor de serviços. Armazene informações apenas uma vez para evitar a replicação desnecessária e a necessidade de manter várias cópias sincronizadas.
   
-Se sua mensagem for um serviço único provedor, armazene todas as informações de serviço de mensagem na seção para o provedor de serviço, em vez de na seção para o serviço. Acessando a seção de provedor de serviço é mais rápido e mais direto do que o acesso a seção de serviço de mensagem. 
+Se o serviço de mensagens for um único provedor, armazene todas as informações do serviço de mensagens na seção do provedor de serviços, e não na seção do serviço. Acessar a seção do provedor de serviços é mais rápido e mais direto do que acessar a seção do serviço de mensagens. 
   
-Armazene apenas dados de configuração pública no arquivo Mapisvc. Informação privada ou requer proteção extra, como senhas ou outras credenciais, não deve ser incluída neste arquivo. Em vez disso, optar por tanto não armazenam informações desse tipo nisso ou mantê-los no perfil como propriedades seguras. Propriedades protegidas têm recursos de proteção interna, como criptografia.
+Armazene somente dados públicos de configuração no arquivo MapiSvc.inf. As informações privadas ou que exigem proteção extra, como senhas ou outras credenciais, não devem ser incluídas nesse arquivo. Em vez disso, opte por não armazenar informações desse tipo ou mantê-las no perfil como propriedades seguras. As propriedades seguras possuem recursos de proteção integrados, como criptografia.
   
 
