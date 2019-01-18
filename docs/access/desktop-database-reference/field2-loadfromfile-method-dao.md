@@ -10,30 +10,31 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996927"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710626"
 ---
-# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="9795c-102">Método Field2.LoadFromFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="9795c-102">Field2.LoadFromFile method (DAO)</span></span>
+# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="29036-102">Método Field2.LoadFromFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="29036-102">Field2.LoadFromFile method (DAO)</span></span>
 
-<span data-ttu-id="9795c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9795c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="29036-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="29036-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9795c-104">Carrega o arquivo especificado do disco.</span><span class="sxs-lookup"><span data-stu-id="9795c-104">Loads the specified file from disk.</span></span>
+<span data-ttu-id="29036-104">Carrega o arquivo especificado do disco.</span><span class="sxs-lookup"><span data-stu-id="29036-104">Loads the specified file from disk.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="9795c-105">Version information</span><span class="sxs-lookup"><span data-stu-id="9795c-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="29036-105">Version information</span><span class="sxs-lookup"><span data-stu-id="29036-105">Version information</span></span>
 
-<span data-ttu-id="9795c-106">Versão adicionada: Access 2007</span><span class="sxs-lookup"><span data-stu-id="9795c-106">Version added: Access 2007</span></span>
+<span data-ttu-id="29036-106">Versão adicionada: Access 2007</span><span class="sxs-lookup"><span data-stu-id="29036-106">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9795c-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="9795c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="29036-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="29036-107">Syntax</span></span>
 
-<span data-ttu-id="9795c-108">*expressão* . LoadFromFile (***FileName***)</span><span class="sxs-lookup"><span data-stu-id="9795c-108">*expression* .LoadFromFile(***FileName***)</span></span>
+<span data-ttu-id="29036-108">*expressão* . LoadFromFile (***FileName***)</span><span class="sxs-lookup"><span data-stu-id="29036-108">*expression* .LoadFromFile(***FileName***)</span></span>
 
-<span data-ttu-id="9795c-109">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="9795c-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="29036-109">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="29036-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="9795c-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="9795c-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="29036-110">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="29036-110">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -44,26 +45,26 @@ ms.locfileid: "25996927"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9795c-111">Nome</span><span class="sxs-lookup"><span data-stu-id="9795c-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="9795c-112">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="9795c-112">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="9795c-113">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="9795c-113">Data type</span></span></p></th>
-<th><p><span data-ttu-id="9795c-114">Descrição</span><span class="sxs-lookup"><span data-stu-id="9795c-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="29036-111">Nome</span><span class="sxs-lookup"><span data-stu-id="29036-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="29036-112">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="29036-112">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="29036-113">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="29036-113">Data type</span></span></p></th>
+<th><p><span data-ttu-id="29036-114">Descrição</span><span class="sxs-lookup"><span data-stu-id="29036-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9795c-115"><em>FileName</em></span><span class="sxs-lookup"><span data-stu-id="9795c-115"><em>FileName</em></span></span></p></td>
-<td><p><span data-ttu-id="9795c-116">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="9795c-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="9795c-117"><strong>Cadeia de caracteres</strong></span><span class="sxs-lookup"><span data-stu-id="9795c-117"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="9795c-118">O caminho totalmente qualificado do arquivo a ser carregado.</span><span class="sxs-lookup"><span data-stu-id="9795c-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
+<td><p><span data-ttu-id="29036-115"><em>FileName</em></span><span class="sxs-lookup"><span data-stu-id="29036-115"><em>FileName</em></span></span></p></td>
+<td><p><span data-ttu-id="29036-116">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="29036-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="29036-117"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="29036-117"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="29036-118">O caminho totalmente qualificado do arquivo a ser carregado.</span><span class="sxs-lookup"><span data-stu-id="29036-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="9795c-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9795c-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="29036-119">Exemplo</span><span class="sxs-lookup"><span data-stu-id="29036-119">Example</span></span>
 
-<span data-ttu-id="9795c-120">O trecho de código a seguir usa o método **LoadFromFile** para carregar a foto de um funcionário do disco.</span><span class="sxs-lookup"><span data-stu-id="9795c-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
+<span data-ttu-id="29036-120">O trecho de código a seguir usa o método **LoadFromFile** para carregar a foto de um funcionário do disco.</span><span class="sxs-lookup"><span data-stu-id="29036-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
 
 ```vb 
    '  Instantiate the parent recordset.  
@@ -88,9 +89,9 @@ ms.locfileid: "25996927"
 
 <br/>
 
-<span data-ttu-id="9795c-121">O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="9795c-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="29036-121">O exemplo a seguir mostra como adicionar arquivos de um caminho de pasta especificado para um campo de anexo.</span><span class="sxs-lookup"><span data-stu-id="29036-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
-<span data-ttu-id="9795c-122">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="9795c-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="29036-122">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="29036-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

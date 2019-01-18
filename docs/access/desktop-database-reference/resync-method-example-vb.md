@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249571(v=office.15)
 ms:contentKeyID: 48546001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22eafe559757c6d4b7a9f03d17e89a20d87c97a4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 73cd34fcc81729ba1c9270e35dfe07fda1e896d9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868984"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712383"
 ---
-# <a name="resync-method-example-vb"></a><span data-ttu-id="51800-102">Exemplo do método Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="51800-102">Resync method example (VB)</span></span>
+# <a name="resync-method-example-vb"></a><span data-ttu-id="3028d-102">Exemplo do método Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="3028d-102">Resync method example (VB)</span></span>
 
 
-<span data-ttu-id="51800-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="51800-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3028d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3028d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51800-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="51800-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="3028d-104">Este exemplo demonstra a utilização do método [Resync](resync-method-ado.md) para atualizar dados em um recordset estático.</span><span class="sxs-lookup"><span data-stu-id="3028d-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```vb 
  

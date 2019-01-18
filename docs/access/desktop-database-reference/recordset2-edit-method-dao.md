@@ -10,54 +10,55 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1ab4577c9bfc487d7ce8d3c271b6a5c8edb37028
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2742b6558c555673937666ea7d27cae1a54fdf73
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997193"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707742"
 ---
-# <a name="recordset2edit-method-dao"></a><span data-ttu-id="50ac6-102">Método Recordset2.Edit (DAO)</span><span class="sxs-lookup"><span data-stu-id="50ac6-102">Recordset2.Edit method (DAO)</span></span>
+# <a name="recordset2edit-method-dao"></a><span data-ttu-id="d889e-102">Método Recordset2.Edit (DAO)</span><span class="sxs-lookup"><span data-stu-id="d889e-102">Recordset2.Edit method (DAO)</span></span>
 
-<span data-ttu-id="50ac6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="50ac6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d889e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d889e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="50ac6-104">Copia o registro atual de um objeto **[Recordset](recordset-object-dao.md)** atualizável para o buffer de cópia para edição subsequente.</span><span class="sxs-lookup"><span data-stu-id="50ac6-104">Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.</span></span>
+<span data-ttu-id="d889e-104">Copia o registro atual de um objeto **[Recordset](recordset-object-dao.md)** atualizável para o buffer de cópia para edição subsequente.</span><span class="sxs-lookup"><span data-stu-id="d889e-104">Copies the current record from an updatable **[Recordset](recordset-object-dao.md)** object to the copy buffer for subsequent editing.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="50ac6-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="50ac6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d889e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d889e-105">Syntax</span></span>
 
-<span data-ttu-id="50ac6-106">*expressão* . Editar</span><span class="sxs-lookup"><span data-stu-id="50ac6-106">*expression* .Edit</span></span>
+<span data-ttu-id="d889e-106">*expressão* . Editar</span><span class="sxs-lookup"><span data-stu-id="d889e-106">*expression* .Edit</span></span>
 
-<span data-ttu-id="50ac6-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="50ac6-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="d889e-107">*expressão* Uma variável que representa um objeto **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="d889e-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="50ac6-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="50ac6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d889e-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="d889e-108">Remarks</span></span>
 
-<span data-ttu-id="50ac6-p101">Assim que você usar o método **Edit**, as alterações feitas nos campos do registro atual serão copiadas no buffer de cópia. Depois de fazer as alterações desejadas no registro, use o método **[Update](recordset2-update-method-dao.md)** para salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="50ac6-p101">Once you use the **Edit** method, changes made to the current record's fields are copied to the copy buffer. After you make the desired changes to the record, use the **[Update](recordset2-update-method-dao.md)** method to save your changes.</span></span>
+<span data-ttu-id="d889e-p101">Assim que você usar o método **Edit**, as alterações feitas nos campos do registro atual serão copiadas no buffer de cópia. Depois de fazer as alterações desejadas no registro, use o método **[Update](recordset2-update-method-dao.md)** para salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="d889e-p101">Once you use the **Edit** method, changes made to the current record's fields are copied to the copy buffer. After you make the desired changes to the record, use the **[Update](recordset2-update-method-dao.md)** method to save your changes.</span></span>
 
-<span data-ttu-id="50ac6-111">O registro atual continua sendo atual depois do uso de **Edit**.</span><span class="sxs-lookup"><span data-stu-id="50ac6-111">The current record remains current after you use **Edit**.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="50ac6-112">[!OBSERVAçãO] Se você editar um registro e, em seguida, realizar qualquer operação que mova para outro registro, mas sem usar antes **Update**, suas alterações serão perdidas sem aviso.</span><span class="sxs-lookup"><span data-stu-id="50ac6-112">If you edit a record and then perform any operation that moves to another record, but without first using **Update**, your changes are lost without warning.</span></span> <span data-ttu-id="50ac6-113">Além disso, se você fechar o recordset ou encerrar o procedimento que declara o **Recordset** ou o objeto de **[banco de dados](database-object-dao.md)** ou **[Conexão](connection-object-dao.md)** pai, o seu registro editado é desconsiderado sem aviso.</span><span class="sxs-lookup"><span data-stu-id="50ac6-113">In addition, if you close recordset or end the procedure which declares the **Recordset** or the parent **[Database](database-object-dao.md)** or **[Connection](connection-object-dao.md)** object, your edited record is discarded without warning.</span></span>
-
-<span data-ttu-id="50ac6-114">O uso de **Edit** produzirá um erro se :</span><span class="sxs-lookup"><span data-stu-id="50ac6-114">Using **Edit** produces an error if:</span></span>
-
-- <span data-ttu-id="50ac6-115">Não houver registro atual.</span><span class="sxs-lookup"><span data-stu-id="50ac6-115">There is no current record.</span></span>
-
-- <span data-ttu-id="50ac6-116">O objeto **Connection**, **Database** ou **Recordset** tiver sido aberto somente para leitura.</span><span class="sxs-lookup"><span data-stu-id="50ac6-116">The **Connection**, **Database**, or **Recordset** object was opened as read-only.</span></span>
-
-- <span data-ttu-id="50ac6-117">Nenhum campo no registro for atualizável.</span><span class="sxs-lookup"><span data-stu-id="50ac6-117">No fields in the record are updatable.</span></span>
-
-- <span data-ttu-id="50ac6-118">O **Database** ou **Recordset** tiver sido aberto para uso exclusivo por outro usuário (espaço de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="50ac6-118">The **Database** or **Recordset** was opened for exclusive use by another user (Microsoft Access workspace).</span></span>
-
-- <span data-ttu-id="50ac6-119">Outro usuário tiver protegido a página que contém seu registro (espaço de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="50ac6-119">Another user has locked the page containing your record (Microsoft Access workspace).</span></span>
-
-<span data-ttu-id="50ac6-p103">Em um espaço de trabalho do Microsoft Access, quando a configuração da propriedade [**LockEdits**](recordset2-lockedits-property-dao.md) do objeto **Recordset** é **True** (bloqueado de forma pessimista) em um ambiente de vários usuários, o registro permanece bloqueado desde o momento em que **Edit** é usado até que a atualização seja concluída. Se a configuração da propriedade **LockEdits** for **False** (bloqueado de forma otimista), o registro será bloqueado e comparado ao registro pré-editado antes de ele ser atualizado no banco de dados. Se o registro foi alterado desde que você usou o método **Edit**, a operação **Update** falha com um erro de tempo de execução, se você usar **OpenRecordset** sem especificar **dbSeeChanges**. Por padrão, os bancos de dados ODBC e ISAM instalável conectados ao mecanismo de banco de dados do Microsoft Access sempre usam bloqueio otimista.</span><span class="sxs-lookup"><span data-stu-id="50ac6-p103">In a Microsoft Access workspace, when the **Recordset** object's **[LockEdits](recordset2-lockedits-property-dao.md)** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the update is complete. If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it's updated in the database. If the record has changed since you used the **Edit** method, the **Update** operation fails with a run-time error if you use **OpenRecordset** without specifying **dbSeeChanges**. By default, Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span>
+<span data-ttu-id="d889e-111">O registro atual continua sendo atual depois do uso de **Edit**.</span><span class="sxs-lookup"><span data-stu-id="d889e-111">The current record remains current after you use **Edit**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="50ac6-p104">[!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** ou **Edit** em um espaço de trabalho do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="50ac6-p104">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)**, or **Edit** method call in a Microsoft Access workspace.</span></span>
+> <span data-ttu-id="d889e-112">[!OBSERVAçãO] Se você editar um registro e, em seguida, realizar qualquer operação que mova para outro registro, mas sem usar antes **Update**, suas alterações serão perdidas sem aviso.</span><span class="sxs-lookup"><span data-stu-id="d889e-112">If you edit a record and then perform any operation that moves to another record, but without first using **Update**, your changes are lost without warning.</span></span> <span data-ttu-id="d889e-113">Além disso, se você fechar o recordset ou encerrar o procedimento que declara o **Recordset** ou o objeto de **[banco de dados](database-object-dao.md)** ou **[Conexão](connection-object-dao.md)** pai, o seu registro editado é desconsiderado sem aviso.</span><span class="sxs-lookup"><span data-stu-id="d889e-113">In addition, if you close recordset or end the procedure which declares the **Recordset** or the parent **[Database](database-object-dao.md)** or **[Connection](connection-object-dao.md)** object, your edited record is discarded without warning.</span></span>
 
-## <a name="example"></a><span data-ttu-id="50ac6-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="50ac6-126">Example</span></span>
+<span data-ttu-id="d889e-114">O uso de **Edit** produzirá um erro se :</span><span class="sxs-lookup"><span data-stu-id="d889e-114">Using **Edit** produces an error if:</span></span>
 
-<span data-ttu-id="50ac6-p105">Este exemplo usa o método **Edit** para substituir o dado atual pelo nome especificado. O procedimento EditName é exigido para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="50ac6-p105">This example uses the **Edit** method to replace the current data with the specified name. The EditName procedure is required for this procedure to run.</span></span>
+- <span data-ttu-id="d889e-115">Não houver registro atual.</span><span class="sxs-lookup"><span data-stu-id="d889e-115">There is no current record.</span></span>
+
+- <span data-ttu-id="d889e-116">O objeto **Connection**, **Database** ou **Recordset** tiver sido aberto somente para leitura.</span><span class="sxs-lookup"><span data-stu-id="d889e-116">The **Connection**, **Database**, or **Recordset** object was opened as read-only.</span></span>
+
+- <span data-ttu-id="d889e-117">Nenhum campo no registro for atualizável.</span><span class="sxs-lookup"><span data-stu-id="d889e-117">No fields in the record are updatable.</span></span>
+
+- <span data-ttu-id="d889e-118">O **Database** ou **Recordset** tiver sido aberto para uso exclusivo por outro usuário (espaço de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d889e-118">The **Database** or **Recordset** was opened for exclusive use by another user (Microsoft Access workspace).</span></span>
+
+- <span data-ttu-id="d889e-119">Outro usuário tiver protegido a página que contém seu registro (espaço de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d889e-119">Another user has locked the page containing your record (Microsoft Access workspace).</span></span>
+
+<span data-ttu-id="d889e-p103">Em um espaço de trabalho do Microsoft Access, quando a configuração da propriedade [**LockEdits**](recordset2-lockedits-property-dao.md) do objeto **Recordset** é **True** (bloqueado de forma pessimista) em um ambiente de vários usuários, o registro permanece bloqueado desde o momento em que **Edit** é usado até que a atualização seja concluída. Se a configuração da propriedade **LockEdits** for **False** (bloqueado de forma otimista), o registro será bloqueado e comparado ao registro pré-editado antes de ele ser atualizado no banco de dados. Se o registro foi alterado desde que você usou o método **Edit**, a operação **Update** falha com um erro de tempo de execução, se você usar **OpenRecordset** sem especificar **dbSeeChanges**. Por padrão, os bancos de dados ODBC e ISAM instalável conectados ao mecanismo de banco de dados do Microsoft Access sempre usam bloqueio otimista.</span><span class="sxs-lookup"><span data-stu-id="d889e-p103">In a Microsoft Access workspace, when the **Recordset** object's **[LockEdits](recordset2-lockedits-property-dao.md)** property setting is **True** (pessimistically locked) in a multiuser environment, the record remains locked from the time **Edit** is used until the update is complete. If the **LockEdits** property setting is **False** (optimistically locked), the record is locked and compared with the pre-edited record just before it's updated in the database. If the record has changed since you used the **Edit** method, the **Update** operation fails with a run-time error if you use **OpenRecordset** without specifying **dbSeeChanges**. By default, Microsoft Access database engine-connected ODBC and installable ISAM databases always use optimistic locking.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="d889e-p104">[!OBSERVAçãO] Para adicionar, editar ou excluir um registro, deve haver um índice único no registro na fonte de dados subjacente. Se não houver, ocorrerá um erro de "Permissão negada" na chamada do método **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** ou **Edit** em um espaço de trabalho do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d889e-p104">To add, edit, or delete a record, there must be a unique index on the record in the underlying data source. If not, a "Permission denied" error will occur on the **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)**, or **Edit** method call in a Microsoft Access workspace.</span></span>
+
+## <a name="example"></a><span data-ttu-id="d889e-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d889e-126">Example</span></span>
+
+<span data-ttu-id="d889e-p105">Este exemplo usa o método **Edit** para substituir o dado atual pelo nome especificado. O procedimento EditName é exigido para a execução deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="d889e-p105">This example uses the **Edit** method to replace the current data with the specified name. The EditName procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub EditX() 

@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
 ms:contentKeyID: 48543507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0250a7830408201498b68d796eee3ecf255d1e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 98e62229cdd0422e03ce83e0f6c7968d4ece7cf3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929759"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708750"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="ed4ab-102">Referência de objeto de registro (ADO)</span><span class="sxs-lookup"><span data-stu-id="ed4ab-102">Record object (ADO) reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="aac3a-102">Referência de objeto de registro (ADO)</span><span class="sxs-lookup"><span data-stu-id="aac3a-102">Record object (ADO) reference</span></span>
 
-<span data-ttu-id="ed4ab-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed4ab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aac3a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="aac3a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ed4ab-104">Objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="ed4ab-104">Record object (ADO)</span></span>](record-object-ado.md)
-- [<span data-ttu-id="ed4ab-105">Registros propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="ed4ab-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="aac3a-104">Objeto Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="aac3a-104">Record object (ADO)</span></span>](record-object-ado.md)
+- [<span data-ttu-id="aac3a-105">Registros propriedades, métodos e eventos (ADO)</span><span class="sxs-lookup"><span data-stu-id="aac3a-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

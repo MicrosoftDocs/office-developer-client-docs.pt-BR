@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249352(v=office.15)
 ms:contentKeyID: 48545182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 167930a29c040f9394f72ee3b2be158555e96edf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9018ae314f814f3adca3268beba2f82e4e0ea2fa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25866961"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707028"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="e8275-102">Exemplo do método Refresh de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="e8275-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="19d69-102">Exemplo do método Refresh de Views (VB)</span><span class="sxs-lookup"><span data-stu-id="19d69-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="e8275-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8275-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="19d69-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="19d69-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e8275-p101">O código a seguir mostra como atualizar a coleção [Views](views-collection-adox.md) de um [Catálogo](catalog-object-adox.md). Esse procedimento é necessário para acessar os objetos [View](view-object-adox.md) do **Catálogo**.</span><span class="sxs-lookup"><span data-stu-id="e8275-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="19d69-p101">O código a seguir mostra como atualizar a coleção [Views](views-collection-adox.md) de um [Catálogo](catalog-object-adox.md). Esse procedimento é necessário para acessar os objetos [View](view-object-adox.md) do **Catálogo**.</span><span class="sxs-lookup"><span data-stu-id="19d69-p101">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

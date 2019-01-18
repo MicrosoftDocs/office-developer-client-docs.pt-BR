@@ -10,33 +10,34 @@ f1_keywords:
 - dao360.chm1102617
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60a9e840e611988f33a66f67aff11ac5da3fe5ad
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 85790f92258b0851762337c2f74f281546e3526a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919322"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711032"
 ---
-# <a name="recordsetrecordstatus-property-dao"></a><span data-ttu-id="7699f-102">Propriedade Recordset.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="7699f-102">Recordset.RecordStatus property (DAO)</span></span>
+# <a name="recordsetrecordstatus-property-dao"></a><span data-ttu-id="3f16e-102">Propriedade Recordset.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f16e-102">Recordset.RecordStatus property (DAO)</span></span>
 
 
-<span data-ttu-id="7699f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7699f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f16e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f16e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7699f-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="7699f-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3f16e-104">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3f16e-104">Syntax</span></span>
 
-<span data-ttu-id="7699f-105">*expressão* . RecordStatus</span><span class="sxs-lookup"><span data-stu-id="7699f-105">*expression* .RecordStatus</span></span>
+<span data-ttu-id="3f16e-105">*expressão* . RecordStatus</span><span class="sxs-lookup"><span data-stu-id="3f16e-105">*expression* .RecordStatus</span></span>
 
-<span data-ttu-id="7699f-106">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="7699f-106">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="3f16e-106">*expressão* Uma variável que representa um objeto **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="3f16e-106">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7699f-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="7699f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f16e-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="3f16e-107">Remarks</span></span>
 
-<span data-ttu-id="7699f-108">O valor da propriedade **RecordStatus** indica se e como o registro atual será envolvido na próxima atualização em lotes otimista.</span><span class="sxs-lookup"><span data-stu-id="7699f-108">The value of the **RecordStatus** property indicates whether and how the current record will be involved in the next optimistic batch update.</span></span>
+<span data-ttu-id="3f16e-108">O valor da propriedade **RecordStatus** indica se e como o registro atual será envolvido na próxima atualização em lotes otimista.</span><span class="sxs-lookup"><span data-stu-id="3f16e-108">The value of the **RecordStatus** property indicates whether and how the current record will be involved in the next optimistic batch update.</span></span>
 
-<span data-ttu-id="7699f-p101">Quando um usuário alterar um registro, a propriedade **RecordStatus** desse registro será alterada automaticamente para **dbRecordModified**. De forma similar, caso um registro seja adicionado ou excluído, **RecordStatus** refletirá uma constante adequada. Mais tarde, quando você usar um método **[Update](recordset-update-method-dao.md)** do modo em lotes, o DAO submeterá uma operação adequada para o servidor remoto para cada registro, com base na propriedade **RecordStatus** do registro.</span><span class="sxs-lookup"><span data-stu-id="7699f-p101">When a user changes a record, the **RecordStatus** for that record automatically changes to **dbRecordModified**. Similarly, if a record is added or deleted, **RecordStatus** reflects the appropriate constant. When you then use a batch-mode **[Update](recordset-update-method-dao.md)** method, DAO will submit an appropriate operation to the remote server for each record, based on the record's **RecordStatus** property.</span></span>
+<span data-ttu-id="3f16e-p101">Quando um usuário alterar um registro, a propriedade **RecordStatus** desse registro será alterada automaticamente para **dbRecordModified**. De forma similar, caso um registro seja adicionado ou excluído, **RecordStatus** refletirá uma constante adequada. Mais tarde, quando você usar um método **[Update](recordset-update-method-dao.md)** do modo em lotes, o DAO submeterá uma operação adequada para o servidor remoto para cada registro, com base na propriedade **RecordStatus** do registro.</span><span class="sxs-lookup"><span data-stu-id="3f16e-p101">When a user changes a record, the **RecordStatus** for that record automatically changes to **dbRecordModified**. Similarly, if a record is added or deleted, **RecordStatus** reflects the appropriate constant. When you then use a batch-mode **[Update](recordset-update-method-dao.md)** method, DAO will submit an appropriate operation to the remote server for each record, based on the record's **RecordStatus** property.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7699f-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7699f-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3f16e-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="3f16e-112">Example</span></span>
 
-<span data-ttu-id="7699f-p102">Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações de um **Recordset** local são controladas durante a atualização em lotes. A função RecordStatusOutput é necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="7699f-p102">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="3f16e-p102">Este exemplo usa as propriedades **RecordStatus** e **DefaultCursorDriver** para mostrar como as alterações de um **Recordset** local são controladas durante a atualização em lotes. A função RecordStatusOutput é necessária para executar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="3f16e-p102">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RecordStatusX() 

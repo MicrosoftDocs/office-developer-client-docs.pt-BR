@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053175
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 51ded1704d8d2ff49921149337cf772132d1243f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fc77ea29cdc5f1d21e8b180fd85b5b61f703a67d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920764"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707518"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="638a9-102">Propriedade Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="638a9-102">Container.Documents property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="4aa45-102">Propriedade Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="4aa45-102">Container.Documents property (DAO)</span></span>
 
 
-<span data-ttu-id="638a9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="638a9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4aa45-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4aa45-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="638a9-p101">Retorna uma coleção **Documents** que contém todos os documentos armazenados no objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="638a9-p101">Returns a **Documents** collection that contains all of the documents stored in the specified object. Read-only.</span></span>
+<span data-ttu-id="4aa45-p101">Retorna uma coleção **Documents** que contém todos os documentos armazenados no objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="4aa45-p101">Returns a **Documents** collection that contains all of the documents stored in the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="638a9-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="638a9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4aa45-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4aa45-106">Syntax</span></span>
 
-<span data-ttu-id="638a9-107">*expressão* . Documents</span><span class="sxs-lookup"><span data-stu-id="638a9-107">*expression* .Documents</span></span>
+<span data-ttu-id="4aa45-107">*expressão* . Documentos</span><span class="sxs-lookup"><span data-stu-id="4aa45-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="638a9-108">*expressão* Uma variável que representa um objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="638a9-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="4aa45-108">*expressão* Uma variável que representa um objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="4aa45-108">*expression* A variable that represents a **Container** object.</span></span>
 

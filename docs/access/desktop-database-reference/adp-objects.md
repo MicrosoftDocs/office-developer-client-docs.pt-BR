@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)
 ms:contentKeyID: 52071277
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c83a03528b461a23614390879c10373fc23e315
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ca47adc071b230ded83427d53434189cbe514388
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921597"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707889"
 ---
-# <a name="adp-objects"></a><span data-ttu-id="3bc32-102">Objetos ADP</span><span class="sxs-lookup"><span data-stu-id="3bc32-102">ADP objects</span></span>
+# <a name="adp-objects"></a><span data-ttu-id="173be-102">Objetos ADP</span><span class="sxs-lookup"><span data-stu-id="173be-102">ADP objects</span></span>
 
-<span data-ttu-id="3bc32-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bc32-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="173be-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="173be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3bc32-104">Ação da macro CopiarArquivoDeBancodeDados</span><span class="sxs-lookup"><span data-stu-id="3bc32-104">CopyDatabaseFile macro action</span></span>](copydatabasefile-macro-action.md)
-- [<span data-ttu-id="3bc32-105">Ação da macro AbrirDiagrama</span><span class="sxs-lookup"><span data-stu-id="3bc32-105">OpenDiagram macro action</span></span>](opendiagram-macro-action.md)
-- [<span data-ttu-id="3bc32-106">Ação da macro AbrirFunção</span><span class="sxs-lookup"><span data-stu-id="3bc32-106">OpenFunction macro action</span></span>](openfunction-macro-action.md)
-- [<span data-ttu-id="3bc32-107">Ação da macro AbrirProcedimentoArmazenado</span><span class="sxs-lookup"><span data-stu-id="3bc32-107">OpenStoredProcedure macro action</span></span>](openstoredprocedure-macro-action.md)
-- [<span data-ttu-id="3bc32-108">Ação da macro AbrirModoDeExibição</span><span class="sxs-lookup"><span data-stu-id="3bc32-108">OpenView macro action</span></span>](openview-macro-action.md)
-- [<span data-ttu-id="3bc32-109">Ação de macro TransferirBancoDeDadosSQL</span><span class="sxs-lookup"><span data-stu-id="3bc32-109">TransferSQLDatabase macro action</span></span>](transfersqldatabase-macro-action.md)
+- [<span data-ttu-id="173be-104">Ação da macro CopiarArquivoDeBancodeDados</span><span class="sxs-lookup"><span data-stu-id="173be-104">CopyDatabaseFile macro action</span></span>](copydatabasefile-macro-action.md)
+- [<span data-ttu-id="173be-105">Ação da macro AbrirDiagrama</span><span class="sxs-lookup"><span data-stu-id="173be-105">OpenDiagram macro action</span></span>](opendiagram-macro-action.md)
+- [<span data-ttu-id="173be-106">Ação da macro AbrirFunção</span><span class="sxs-lookup"><span data-stu-id="173be-106">OpenFunction macro action</span></span>](openfunction-macro-action.md)
+- [<span data-ttu-id="173be-107">Ação da macro AbrirProcedimentoArmazenado</span><span class="sxs-lookup"><span data-stu-id="173be-107">OpenStoredProcedure macro action</span></span>](openstoredprocedure-macro-action.md)
+- [<span data-ttu-id="173be-108">Ação da macro AbrirModoDeExibição</span><span class="sxs-lookup"><span data-stu-id="173be-108">OpenView macro action</span></span>](openview-macro-action.md)
+- [<span data-ttu-id="173be-109">Ação de macro TransferirBancoDeDadosSQL</span><span class="sxs-lookup"><span data-stu-id="173be-109">TransferSQLDatabase macro action</span></span>](transfersqldatabase-macro-action.md)
 

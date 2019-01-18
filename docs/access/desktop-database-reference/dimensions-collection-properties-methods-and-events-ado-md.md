@@ -6,28 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249966(v=office.15)
 ms:contentKeyID: 48547615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95f4735b3b827ff4e4bd706e2e33fe0dfad5bd33
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6f3795a06955b994b4561b8b36ec50734be98d13
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943791"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711102"
 ---
-# <a name="dimensions-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="d9b31-102">Propriedades de conjunto de dimensões, métodos e eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d9b31-102">Dimensions collection properties, methods, and events (ADO MD)</span></span>
+# <a name="dimensions-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="d9032-102">Propriedades de conjunto de dimensões, métodos e eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d9032-102">Dimensions collection properties, methods, and events (ADO MD)</span></span>
 
 
-<span data-ttu-id="d9b31-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9b31-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d9032-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9032-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="d9b31-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="d9b31-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="d9032-104">Propriedades</span><span class="sxs-lookup"><span data-stu-id="d9032-104">Properties</span></span>
 
-- [<span data-ttu-id="d9b31-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="d9b31-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="d9b31-106">Propriedade item</span><span class="sxs-lookup"><span data-stu-id="d9b31-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="d9032-105">Propriedade Count</span><span class="sxs-lookup"><span data-stu-id="d9032-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="d9032-106">Propriedade item</span><span class="sxs-lookup"><span data-stu-id="d9032-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="d9b31-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="d9b31-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="d9032-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="d9032-107">Methods</span></span>
 
-- [<span data-ttu-id="d9b31-108">O método Refresh</span><span class="sxs-lookup"><span data-stu-id="d9b31-108">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="d9032-108">O método Refresh</span><span class="sxs-lookup"><span data-stu-id="d9032-108">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="d9b31-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="d9b31-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="d9032-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="d9032-109">Events</span></span>
 
-<span data-ttu-id="d9b31-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="d9b31-110">None.</span></span>
+<span data-ttu-id="d9032-110">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="d9032-110">None.</span></span>
 

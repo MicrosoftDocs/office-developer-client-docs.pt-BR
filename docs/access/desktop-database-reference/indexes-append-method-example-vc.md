@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250302(v=office.15)
 ms:contentKeyID: 48548918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ceef55e583df5c824e74ddeef3f2cafd78cde54
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a39cf987682ad919422b50a299f6cd2bea0f4fd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884888"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707721"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="5c4d5-102">Exemplo do método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="5c4d5-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="ccb55-102">Exemplo do método Append de Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="ccb55-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="5c4d5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c4d5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ccb55-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccb55-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5c4d5-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="5c4d5-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="ccb55-p101">O código a seguir demonstra como criar um novo índice. O índice ocupa duas colunas da tabela.</span><span class="sxs-lookup"><span data-stu-id="ccb55-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

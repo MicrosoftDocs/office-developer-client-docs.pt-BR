@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834513(v=office.15)
 ms:contentKeyID: 48547797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d672c96f239d74dda22a8fac61f4402d0e661498
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2c4e888c1077f143a773bdb4abf593170a53fbef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921576"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707567"
 ---
-# <a name="databasename-property-dao"></a><span data-ttu-id="cb188-102">Propriedade Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb188-102">Database.Name property (DAO)</span></span>
+# <a name="databasename-property-dao"></a><span data-ttu-id="fe5e5-102">Propriedade Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="fe5e5-102">Database.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="cb188-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb188-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fe5e5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe5e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cb188-p101">Retorna o nome do objeto especificado. **String** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cb188-p101">Returns the name of the specified object. Read-only **String**.</span></span>
+<span data-ttu-id="fe5e5-p101">Retorna o nome do objeto especificado. **String** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="fe5e5-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cb188-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="cb188-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fe5e5-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fe5e5-106">Syntax</span></span>
 
-<span data-ttu-id="cb188-107">*expressão* . Nome</span><span class="sxs-lookup"><span data-stu-id="cb188-107">*expression* .Name</span></span>
+<span data-ttu-id="fe5e5-107">*expressão* . Nome</span><span class="sxs-lookup"><span data-stu-id="fe5e5-107">*expression* .Name</span></span>
 
-<span data-ttu-id="cb188-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="cb188-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="fe5e5-108">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="fe5e5-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -1,24 +1,25 @@
 ---
-title: Tratando erros no VBScript
+title: Tratamento de erros em VBScript
 TOCTitle: Handling errors in VBScript
 ms:assetid: df8f96d5-b917-ddac-d274-6345b2499bf1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c442472fa30568cc60aec83c2a2de3ecf7ba2f71
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945968"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706727"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="cdb72-102">Tratando erros no VBScript</span><span class="sxs-lookup"><span data-stu-id="cdb72-102">Handling errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="66beb-102">Tratamento de erros em VBScript</span><span class="sxs-lookup"><span data-stu-id="66beb-102">Handling errors in VBScript</span></span>
 
 
-<span data-ttu-id="cdb72-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdb72-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66beb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="66beb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cdb72-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="cdb72-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="cdb72-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="cdb72-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="cdb72-106">Em outras palavras, é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="cdb72-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="cdb72-107">Em vez disso, use em VBScript.</span><span class="sxs-lookup"><span data-stu-id="cdb72-107">Instead, use in VBScript.</span></span> <span data-ttu-id="cdb72-108">Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="cdb72-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="66beb-104">Há pouca diferença entre os métodos usados no Visual Basic e os usados no VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="66beb-105">A principal diferença é que o VBScript não oferece suporte ao conceito de tratamento de erros, continuando a execução de um rótulo.</span><span class="sxs-lookup"><span data-stu-id="66beb-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="66beb-106">Em outras palavras, é possível usar On Error GoTo no VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="66beb-107">Em vez disso, use em VBScript.</span><span class="sxs-lookup"><span data-stu-id="66beb-107">Instead, use in VBScript.</span></span> <span data-ttu-id="66beb-108">Em vez disso, usar On Error Resume Next e verifique **Err. Number** e a propriedade **Count** da coleção **Errors** , conforme mostrado no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="66beb-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  
