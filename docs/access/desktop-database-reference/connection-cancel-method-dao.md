@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
 ms:contentKeyID: 48544509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4810bd1804433be091fc9a4b30aa9ba62f057965
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a0826a30f22cc46eb6ff9a114dbf02cab1d9f76a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922542"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718928"
 ---
 # <a name="connectioncancel-method-dao"></a>Método Connection.Cancel (DAO)
 

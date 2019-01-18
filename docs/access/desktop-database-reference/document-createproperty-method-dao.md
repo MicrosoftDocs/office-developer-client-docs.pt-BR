@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4c4abedd0ce4da7bbb35187ec1d24af81586bd5b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d1e2e2200953580406dded7d5c014b533129b133
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997060"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720132"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Método Document.CreateProperty (DAO)
 
@@ -48,7 +49,7 @@ Cria um novo objeto **[Property](property-object-dao.md)** definido pelo usuári
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma <strong>String</strong> que denomina exclusivamente o novo objeto <strong>Property</strong>. Consulte a propriedade <strong>Name</strong> para obter detalhes sobre nomes válidos de <strong>Property</strong>.</p></td>

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55baceac9523400c5e646fbc4c1e7bb411219697
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998585"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699888"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Método DBEngine (DAO)
 
@@ -48,13 +49,13 @@ Substitui temporariamente os valores para as chaves do mecanismo de banco de dad
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Opção</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Uma constante como descrita em Comentários.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Valor</em></p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Obrigatório</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>O valor que você deseja definir para option.</p></td>

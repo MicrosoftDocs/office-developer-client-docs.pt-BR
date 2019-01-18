@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910891"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704781"
 ---
 # <a name="adox-objects"></a>Objetos do ADOX
 
@@ -38,7 +39,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Contém coleções que descrevem o catálogo de esquemas de uma fonte de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Column</a></p></td>
+<td><p><a href="column-object-adox.md">Coluna</a></p></td>
 <td><p>Representa uma coluna de uma tabela, um índice ou uma chave.</p></td>
 </tr>
 <tr class="odd">
@@ -50,7 +51,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa um índice de uma tabela de banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Chave</a></p></td>
+<td><p><a href="key-object-adox.md">Tecla</a></p></td>
 <td><p>Representa um campo de chave primária, estrangeira ou exclusiva de uma tabela de banco de dados.</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +63,7 @@ Cada objeto pode estar contido em sua coleção correspondente. Por exemplo, um 
 <td><p>Representa uma tabela de banco de dados, incluindo colunas, índices e chaves.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">User</a></p></td>
+<td><p><a href="user-object-adox.md">Usuário</a></p></td>
 <td><p>Representa uma conta de usuário que tem permissões de acesso em um banco de dados protegido.</p></td>
 </tr>
 <tr class="odd">

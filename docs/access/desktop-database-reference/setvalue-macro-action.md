@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998872"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722687"
 ---
 # <a name="setvalue-macro-action"></a>Ação da macro DefinirValor
 
@@ -40,7 +41,7 @@ A ação **DefinirValor** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>1.1</strong></p></td>
+<td><p><strong>Item</strong></p></td>
 <td><p>O nome do campo, controle ou a propriedade cujo valor você deseja definir. Insira o nome de campo, controle ou propriedade na caixa de <strong>Item</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Você deve usar a sintaxe completa para se referir a este item, como <em>controlname</em> (para um controle no formulário ou relatório do qual a macro foi chamada) ou <strong>formulários</strong>! <em>formname</em>! <em>controlname</em>. Este é um argumento obrigatório.</p></td>
 </tr>
 <tr class="even">
@@ -117,7 +118,7 @@ A macro a seguir abre o formulário Adicionar produtos com um botão no formulá
 <td><p>Defina o controle de SupplierID como o fornecedor atual no formulário fornecedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CategoryID</p></td>
 <td><p>Vá para o controle CategoryID.</p></td>
 </tr>

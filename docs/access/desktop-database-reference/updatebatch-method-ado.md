@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ce946d3354f6bbf05ac3819efc5f96c436fa174
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9d269a9012588a7b82505ac2e28466151715cbb0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950122"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705999"
 ---
 # <a name="updatebatch-method-ado"></a>Método UpdateBatch (ADO)
 

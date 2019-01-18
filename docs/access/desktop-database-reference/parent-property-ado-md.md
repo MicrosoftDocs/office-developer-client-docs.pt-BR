@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
 ms:contentKeyID: 48545238
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1da5b763d85fc9975a42e357860d87ce64cf618
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e0c0eef638cb76676cd2287a34c0e4b17bd89c4d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930585"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699994"
 ---
 # <a name="parent-property-ado-md"></a>Propriedade Parent (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25930585"
 
 Indica o membro que é o pai do membro atual em uma hierarquia.
 
-## <a name="return-values"></a>Valor de retorno
+## <a name="return-values"></a>Valores de retorno
 
 Retorna um objeto [Member](member-object-ado-md.md) e é somente leitura.
 
