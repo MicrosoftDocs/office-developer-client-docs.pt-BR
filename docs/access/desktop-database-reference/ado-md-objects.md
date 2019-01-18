@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910835"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726208"
 ---
 # <a name="ado-md-objects"></a>Objetos do ADO MD
 
@@ -30,7 +31,7 @@ ms.locfileid: "25910835"
 <th>Descrição</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axis-object-ado-md.md">Eixo</a></p></td>
+<td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>Representa um eixo de posição ou de filtro de um conjunto de células, contendo membros selecionados de uma ou mais dimensões.</p></td>
 </tr>
 <tr class="even">
@@ -42,7 +43,7 @@ ms.locfileid: "25910835"
 <td><p>Representa os dados na interseção de coordenadas de eixo, contidos em um conjunto de células.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cellset-object-ado-md.md">Conjunto de células</a></p></td>
+<td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
 <td><p>Representa os resultados de uma consulta multidimensional. É uma coleção das células selecionadas em cubos ou outros conjuntos de células.</p></td>
 </tr>
 <tr class="odd">
@@ -66,7 +67,7 @@ ms.locfileid: "25910835"
 <td><p>Representa um membro de um nível em um cubo, os filhos de um membro de um nível ou um membro de uma posição em um eixo de um conjunto de células.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="position-object-ado-md.md">Position</a></p></td>
+<td><p><a href="position-object-ado-md.md">Posição</a></p></td>
 <td><p>Representa um conjunto de um ou mais membros de diferentes dimensões que define um ponto em um eixo.</p></td>
 </tr>
 </tbody>

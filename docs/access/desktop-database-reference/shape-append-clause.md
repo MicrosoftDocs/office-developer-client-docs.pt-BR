@@ -1,19 +1,20 @@
 ---
-title: Cláusula de Append de forma
+title: Cláusula Shape Append
 TOCTitle: Shape Append clause
 ms:assetid: 8f29afc3-fb93-4439-b67b-cad0eed0bda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eab008a03cf016edc259ef5e9d41cf320e85c8c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944842"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726348"
 ---
-# <a name="shape-append-clause"></a>Cláusula de Append de forma
+# <a name="shape-append-clause"></a>Cláusula Shape Append
 
 
 **Aplica-se a**: Access 2013, o Office 2013
@@ -124,9 +125,9 @@ Executa de forma selecionar \* de t1; Descartar tabela t1 e (selecione \* do t2 
 
 Esta seção inclui os seguintes tópicos:
 
-- [Operação de comandos não parametrizados](operation-of-non-parameterized-commands.md)
+- [Operação dos comandos sem parâmetros](operation-of-non-parameterized-commands.md)
 
-- [Operação de comandos parametrizados](operation-of-parameterized-commands.md)
+- [Operação dos comandos parametrizados](operation-of-parameterized-commands.md)
 
 - [Comandos híbridos](hybrid-commands.md)
 

@@ -3,15 +3,15 @@ title: Excel
 ms.date: 10/03/2018
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Encontre instruções, códigos de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Excel.
-ms.openlocfilehash: b12ee0ca7fa97e008767f3c207ea7fd54e914e6d
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
+localization_priority: Priority
+ms.openlocfilehash: 66c0d6aaa9a9f936fcbcabf93074625fda13abca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454520"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715785"
 ---
 # <a name="excel"></a>Excel
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'A Interface do aplicativo inclui métodos que ajudam a recuperar, manipular e atualizar o conteúdo e as informações do OneNote. Os métodos estão em quatro categorias gerais:'
-ms.openlocfilehash: b34cb5e4812842cc3660e24ad2a94268563a4964
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 20b2fc42711aaf4f1b407efb2c70057bd88a9046
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391476"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707994"
 ---
 # <a name="application-interface-onenote"></a>Interface do aplicativo (OneNote)
 

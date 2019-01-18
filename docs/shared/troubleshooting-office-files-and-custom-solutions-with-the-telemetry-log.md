@@ -3,15 +3,15 @@ title: Solucionando problemas de arquivos e de soluções personalizadas do Offi
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Use o Telemetry Log for Office 2013 para determinar problemas de compatibilidade com o Office 2013 e as soluções criadas para versões anteriores do Office.
-ms.openlocfilehash: ebcf7908fb9f7e1558b0f0576fbbf9a6f0b07568
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393275"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715162"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Solucionando problemas de arquivos e de soluções personalizadas do Office com o log de telemetria
 

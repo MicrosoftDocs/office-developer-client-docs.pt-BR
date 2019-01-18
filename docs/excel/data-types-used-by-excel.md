@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - tipos de dados de registro [Excel 2007],tipos de dados do Excel,cadeias de caracteres [Excel 2007],números [Excel 2007],estruturas de dados [Excel 2007],tipos de dados [Excel 2007]
-localization_priority: Normal
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b32a9beb2f77c12e6b6f2c445672c717a2546386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765271"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710605"
 ---
 # <a name="data-types-used-by-excel"></a>Tipos de dados usados pelo Excel
 

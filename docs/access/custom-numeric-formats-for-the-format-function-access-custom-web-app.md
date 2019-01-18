@@ -3,22 +3,22 @@ title: Formatos numéricos personalizados da função Format (aplicativo Web per
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Saiba como controlar como um número é exibido criando um formato de número definido pelo usuário
-ms.openlocfilehash: fac128ce13edf89105fbee7319533e1a3f346d05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765093"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706251"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Formatos numéricos personalizados da função Format (aplicativo Web personalizado do Access)
 
 Saiba como controlar como um número é exibido criando um formato de número definido pelo usuário
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
 Você pode alterar a maneira como um número é exibido criando um formato de número definido pelo usuário. Um formato de número definido pelo usuário pode conter de uma a três seções separadas por um ponto e vírgula (;). Se o argumento Style da função [Função Format (aplicativo Web personalizado do Access)](format-function-access-custom-web-app.md) contiver um dos formatos numéricos predefinidos, somente uma seção será permitida. 
   

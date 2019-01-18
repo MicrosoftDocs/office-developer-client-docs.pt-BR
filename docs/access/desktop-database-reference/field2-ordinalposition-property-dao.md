@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 600fe2855ba10e1ab36413f6395d3455bb7bd00b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 26d37bfda90f2ab4e2627b936d3cf37b5be811d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937054"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726327"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Propriedade Field2.OrdinalPosition (DAO)
 

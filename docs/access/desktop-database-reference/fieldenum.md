@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
 ms:contentKeyID: 48548876
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 6975017ed8867d794dce189de74f617636b9f223
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: e42dcfe63194364986e5b235c59b011231307a7c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886656"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726082"
 ---
 # <a name="fieldenum"></a>FieldEnum
 

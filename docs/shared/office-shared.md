@@ -3,15 +3,15 @@ title: Office compartilhado
 manager: soliver
 ms.date: 04/20/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c
 description: Encontre conteúdo de instruções, código de exemplo, documentação de SDKs e APIs, referências do VBA, treinamento e artigos técnicos para desenvolver soluções e personalizar o Office.
-ms.openlocfilehash: c0c08c980e0f42128b0fe8b2ad6c9225e38c9afe
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
+localization_priority: Priority
+ms.openlocfilehash: 758d0b25457089de0d611d41fa962e7323985abe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454555"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704410"
 ---
 # <a name="office-shared"></a>Office compartilhado
 
@@ -32,7 +32,7 @@ Encontre conteúdo de instruções, código de exemplo, documentação de SDKs e
   
 ### <a name="office-365-apis"></a>APIs do Office 365
   
-- [Introdução](https://developer.microsoft.com/pt-BR/office/docs)
+- [Introdução](https://developer.microsoft.com/en-us/office/docs)
   
 - [Visão geral da plataforma](https://docs.microsoft.com/previous-versions/office/office-365-api/)
   

@@ -4,22 +4,22 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Saiba como filtrar um modo de exibição em um aplicativo do Access usando a ação de macro RepetirConsultaDeRegistros e uma macro de dados.
-ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390405"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726397"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrar um modo de exibição usando uma macro em um aplicativo do Access
 
 Saiba como filtrar um modo de exibição em um aplicativo do Access usando a ação de macro RepetirConsultaDeRegistros e uma macro de dados.
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
 
 O modo de exibição padrão de listas em um aplicativo do Access permite filtrar os problemas dos valores contidos nos campos. Pode haver casos em que você queira filtrar um modo de exibição com base em um conjunto de condições ao invés de corresponder com um valor. Para isso é necessário criar uma macro. Este artigo mostra como criar uma macro que filtra o modo de exibição para exibir as tarefas em atraso ou que devem ser finalizadas nos próximos 7 dias.
   

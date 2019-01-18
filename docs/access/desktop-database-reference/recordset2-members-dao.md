@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f7011edaf7cbeb145ea30af64f7ba6bd85945f4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937705"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726278"
 ---
 # <a name="recordset2-members-dao"></a>Membros do Recordset2 (DAO)
 
@@ -92,7 +93,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Recupera várias linhas de um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-move-method-dao.md">Mover</a></strong></p></td>
+<td><p><strong><a href="recordset2-move-method-dao.md">Move</a></strong></p></td>
 <td><p>Move a posição do registro atual em um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -129,7 +130,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Localiza o registro em um objeto <strong>Recordset</strong> do tipo tabela indexada que satisfaz os critérios especificados para o índice atual e torna esse registro o registro atual (somente espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-update-method-dao.md">Atualizar</a></strong></p></td>
+<td><p><strong><a href="recordset2-update-method-dao.md">Update</a></strong></p></td>
 <td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Salva o conteúdo do buffer de cópia em um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> atualizável.</p></td>
 </tr>
@@ -175,7 +176,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Retorna um valor que indica se a posição do registro atual é antes do primeiro registro em um objeto <strong>Recordset</strong>. <strong>Boolean</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-bookmark-property-dao.md">Indicador</a></strong></p></td>
+<td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>Define ou retorna um marcador que identifica exclusivamente o registro atual em um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -211,7 +212,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Retorna uma coleção <strong>Fields</strong> que representa todos os objetos <strong>Field</strong> armazenados para o objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filtrar</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filtro</a></strong></p></td>
 <td><p>Define ou retornar um valor que determina os registros incluídos em um objeto <strong>Recordset</strong> aberto subsequentemente (somente espaços de trabalho do Microsoft Access). <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">
@@ -231,7 +232,7 @@ Um objeto Recordset2 representa os registros em uma tabela de base ou os registr
 <td><p>Define ou retorna um valor que indica o tipo de bloqueio ativo durante a edição.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">

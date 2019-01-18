@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
 ms:contentKeyID: 48548121
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39d338a902e9f7bf1c5396b579f64b14284aa901
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: d5526c571e53021c1b27aad8f3c18d7ebdc9ecb6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998438"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726306"
 ---
 # <a name="recordset2findnext-method-dao"></a>Método Recordset2.FindNext (DAO)
 
@@ -46,7 +47,7 @@ Localiza o próximo registro em um objeto **[Recordset](recordset-object-dao.md)
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Uma sequência usada para localizar o registro. Ela é como a cláusula WHERE em uma instrução SQL, mas sem a palavra WHERE.</p></td>
 </tr>
 </tbody>

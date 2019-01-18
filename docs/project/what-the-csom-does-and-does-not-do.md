@@ -3,15 +3,15 @@ title: O que o CSOM faz e não faz
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: O modelo de objeto no lado do cliente (CSOM) é um conjunto de APIs para o Project Server 2013 projetadas para uso online e local em aplicativos que podem ser desenvolvidos para PCs, dispositivos móveis e tablets. Este artigo inclui alguns cenários típicos para usar o CSOM e também lista as suas limitações.
-ms.openlocfilehash: ad9f9e0404cb0063a1c58c8e66a022372881a24f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 6cdcb72c24e352365b6dcc9268ddf0bd249369af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399288"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723044"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>O que o CSOM faz e não faz
 

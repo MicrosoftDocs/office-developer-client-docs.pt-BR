@@ -4,14 +4,14 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-ms.openlocfilehash: d837a83ea8773018033a27ec894375a22c15c8a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: d7d27e98189a5b6784e4db48c81a545b85f01fc1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391119"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716814"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Criar e personalizar um aplicativo Web no Access
 

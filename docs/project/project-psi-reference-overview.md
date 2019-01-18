@@ -39,15 +39,15 @@ f1_keywords:
 - WssInterop
 keywords:
 - serviço web,serviços web,calendário,autenticação,serviço Web,serviços Web,ResourcePlan,Web service,StatusReports,web service,PSI, namespaces,manipuladores de eventos, Project Server,manipulador de eventos,notificações,QueueSystem,Project 2013, plataforma,LoginWindows,status,recurso,recursos,WinProj,WssInterop,LookupTable,PWA,segurança,TimeSheet,eventos,programação,versão,versões,CustomFields,ResourcePlan,regra,regras,referência de código gerenciado,URL,para a PSI,administrador,administração,admin,CubeAdmin,exibir,LoginForms,URLs,ObjectLinkProvider,arquivo morto,evento,projeto,projetos,Project,Project Server Interface,interface do servidor do projeto,interface do Project Server,métodos Web
-localization_priority: Normal
 ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: A Interface do Project Server (PSI) é a API usada para desenvolver aplicativos que se integram ao Project Server 2013 no local.
-ms.openlocfilehash: 58235e16afd208d0d4415e28ad200cc7ff62ac8b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 178f050022916ac1d26bd3d71f0ac5210c92295d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390118"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716121"
 ---
 # <a name="project-psi-reference-overview"></a>Visão geral da referência da PSI do Project
 

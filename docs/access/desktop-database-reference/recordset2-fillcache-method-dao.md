@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef0f4ad298e316cbae295bcf4f6c4c5349b18655
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998529"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726110"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Método Recordset2.FillCache (DAO)
 

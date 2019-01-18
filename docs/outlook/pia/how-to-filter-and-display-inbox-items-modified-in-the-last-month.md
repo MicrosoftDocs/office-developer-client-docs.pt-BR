@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
 ms:contentKeyID: 55119886
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 952d28cc64ffa3638f8147b665e88a372dc81848
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 77fe6e7df4cf67ed1ca2d62b8cf48f1b2873ccbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406873"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698796"
 ---
 # <a name="filter-and-display-inbox-items-modified-in-the-last-month"></a>Filtro e exibir os itens de caixa de entrada modificados no mês passado
 

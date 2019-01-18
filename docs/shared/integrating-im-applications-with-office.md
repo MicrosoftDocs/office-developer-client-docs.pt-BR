@@ -3,15 +3,15 @@ title: Integração de aplicativos de mensagens instantâneas ao Office
 manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Este artigo descreve como configurar um aplicativo cliente de mensagens instantâneas para que ele se integre aos recursos de redes sociais no Office 2013, incluindo exibir presença e enviar mensagens instantâneas do cartão de visita.
-ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700707"
 ---
 # <a name="integrating-im-applications-with-office"></a>Integração de aplicativos de mensagens instantâneas ao Office
 
