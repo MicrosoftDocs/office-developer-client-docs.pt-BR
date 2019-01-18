@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424475(v=office.15)
 ms:contentKeyID: 55119851
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 9d4ccaa72718c3468616f6b0bde8a5443064ebdd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 7892fa98aaeadf0000d307edcf6dbb54ba583a04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406537"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722953"
 ---
-# <a name="group-sharing"></a><span data-ttu-id="1eaae-102">Compartilhamento em grupo</span><span class="sxs-lookup"><span data-stu-id="1eaae-102">Group sharing</span></span>
+# <a name="group-sharing"></a><span data-ttu-id="91b5f-102">Compartilhamento em grupo</span><span class="sxs-lookup"><span data-stu-id="91b5f-102">Group sharing</span></span>
 
-<span data-ttu-id="1eaae-103">Esta seção fornece exemplos de tarefas que envolvem compartilhamento em grupo.</span><span class="sxs-lookup"><span data-stu-id="1eaae-103">This section provides sample tasks that involve group sharing.</span></span>
+<span data-ttu-id="91b5f-103">Esta seção fornece exemplos de tarefas que envolvem compartilhamento em grupo.</span><span class="sxs-lookup"><span data-stu-id="91b5f-103">This section provides sample tasks that involve group sharing.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="1eaae-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1eaae-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="91b5f-104">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="91b5f-104">In this section</span></span>
 
-|<span data-ttu-id="1eaae-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="1eaae-105">Topic</span></span>|<span data-ttu-id="1eaae-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="1eaae-106">Description</span></span>|
+|<span data-ttu-id="91b5f-105">Tópico</span><span class="sxs-lookup"><span data-stu-id="91b5f-105">Topic</span></span>|<span data-ttu-id="91b5f-106">Descrição</span><span class="sxs-lookup"><span data-stu-id="91b5f-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="1eaae-107">Assinar um RSS feed</span><span class="sxs-lookup"><span data-stu-id="1eaae-107">Subscribe to an RSS feed</span></span>](how-to-subscribe-to-an-rss-feed.md)  |<span data-ttu-id="1eaae-108">Assina um RSS feed usando o método [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="1eaae-108">Subscribes to an RSS feed by using the [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) method.</span></span>|
-|[<span data-ttu-id="1eaae-109">Sincroniza o Outlook com uma pasta do SharePoint</span><span class="sxs-lookup"><span data-stu-id="1eaae-109">Synchronize Outlook with a SharePoint folder</span></span>](how-to-synchronize-outlook-with-a-sharepoint-folder.md)  |<span data-ttu-id="1eaae-110">Conecta via programação o Outlook com uma pasta do SharePoint e sincroniza o conteúdo da pasta.</span><span class="sxs-lookup"><span data-stu-id="1eaae-110">Programmatically connects Outlook with a SharePoint folder and synchronizes the folder contents.</span></span>|
+|[<span data-ttu-id="91b5f-107">Assinar um RSS feed</span><span class="sxs-lookup"><span data-stu-id="91b5f-107">Subscribe to an RSS feed</span></span>](how-to-subscribe-to-an-rss-feed.md)  |<span data-ttu-id="91b5f-108">Assina um RSS feed usando o método [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="91b5f-108">Subscribes to an RSS feed by using the [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) method.</span></span>|
+|[<span data-ttu-id="91b5f-109">Sincroniza o Outlook com uma pasta do SharePoint</span><span class="sxs-lookup"><span data-stu-id="91b5f-109">Synchronize Outlook with a SharePoint folder</span></span>](how-to-synchronize-outlook-with-a-sharepoint-folder.md)  |<span data-ttu-id="91b5f-110">Conecta via programação o Outlook com uma pasta do SharePoint e sincroniza o conteúdo da pasta.</span><span class="sxs-lookup"><span data-stu-id="91b5f-110">Programmatically connects Outlook with a SharePoint folder and synchronizes the folder contents.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="1eaae-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="1eaae-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="91b5f-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="91b5f-111">See also</span></span>
 
-- [<span data-ttu-id="1eaae-112">Calendário</span><span class="sxs-lookup"><span data-stu-id="1eaae-112">Calendar</span></span>](calendar.md)
-- [<span data-ttu-id="1eaae-113">Email</span><span class="sxs-lookup"><span data-stu-id="1eaae-113">mail</span></span>](mail.md)
-- [<span data-ttu-id="1eaae-114">Como faço para... (Referência do PIA do Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="1eaae-114">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="91b5f-112">Calendário</span><span class="sxs-lookup"><span data-stu-id="91b5f-112">Calendar</span></span>](calendar.md)
+- [<span data-ttu-id="91b5f-113">Email</span><span class="sxs-lookup"><span data-stu-id="91b5f-113">Mail</span></span>](mail.md)
+- [<span data-ttu-id="91b5f-114">Como faço para... (Referência do PIA do Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="91b5f-114">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 
