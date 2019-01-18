@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7fc8843e2d36179ec8a0168b0c44c6cdf3e866c4
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4ef268a821d65732e0a54776872387f62c67e999
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998494"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706587"
 ---
 # <a name="recordsetfillcache-method-dao"></a>Método Recordset.FillCache (DAO)
 

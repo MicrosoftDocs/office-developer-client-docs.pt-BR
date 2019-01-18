@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1555883ef8305225d6ddd1969d98de082288a6b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887534"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712033"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Microsoft OLE DB Provider for Microsoft Active Directory Service
 
@@ -92,11 +93,11 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 <td><p>Indica o objeto <strong>ADsPath</strong> a partir do qual iniciar a pesquisa (isto é, a raiz para a pesquisa).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filtrar</em></p></td>
+<td><p><em>Filtro</em></p></td>
 <td><p>Indica o filtro da pesquisa no formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Attributes</em></p></td>
+<td><p><em>Atributos</em></p></td>
 <td><p>Indica uma lista de atributos a ser retornada, delimitada por vírgula.</p></td>
 </tr>
 <tr class="even">
@@ -187,7 +188,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtrar</a></p></td>
+<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +216,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="source-property-ado-recordset.md">Origem</a></p></td>
+<td><p><a href="source-property-ado-recordset.md">Fonte</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
@@ -277,7 +278,7 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Mover</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">

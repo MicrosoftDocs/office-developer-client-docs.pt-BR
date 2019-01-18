@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250153(v=office.15)
 ms:contentKeyID: 48548292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a61ec584f5baddcfdb8ce1f6dda1bf990546c053
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9fc51522d143306d9625cdc07251edfe1dddf22d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949352"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712173"
 ---
 # <a name="onerror-event-rds"></a>Evento onError (RDS)
 

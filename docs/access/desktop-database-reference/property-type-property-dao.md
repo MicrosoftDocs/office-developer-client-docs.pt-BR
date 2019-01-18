@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
 ms:contentKeyID: 48547490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c157e088c594c7a5b6a8ae7af3df4617d79e9be3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4280b89102e06b2ecc09a783840e671b0af9ff73
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919840"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707168"
 ---
 # <a name="propertytype-property-dao"></a>Propriedade Property.Type (DAO)
 
@@ -50,11 +51,11 @@ Para um objeto **Property**, as configurações e os valores de retorno possíve
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binário</p></td>
+<td><p>Binária</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Boolean</p></td>
+<td><p>Booliano</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>

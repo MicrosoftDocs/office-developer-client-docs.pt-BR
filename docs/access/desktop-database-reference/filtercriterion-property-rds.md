@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9887551d4d8a141c8390764bcd23c98c59edc26
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 65541e8f64c5a019679252246edbe8027130c4ed
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950220"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707945"
 ---
 # <a name="filtercriterion-property-rds"></a>Propriedade FilterCriterion (RDS)
 

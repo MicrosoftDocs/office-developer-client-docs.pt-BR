@@ -1,19 +1,20 @@
 ---
-title: Cláusula Compute de forma
+title: Cláusula de cálculo de forma
 TOCTitle: Shape Compute clause
 ms:assetid: f4fee4a6-ec9e-c0b6-40e0-258f76c4696f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f8dbeb97a4afdc068d635411d6035f68ba1168b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946395"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711522"
 ---
-# <a name="shape-compute-clause"></a>Cláusula Compute de forma
+# <a name="shape-compute-clause"></a>Cláusula de cálculo de forma
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -85,7 +86,7 @@ Por exemplo, suponha que você tenha uma tabela  Demografia  contendo os cam
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Estado</p></th>
 <th><p>Cidade</p></th>
 <th><p>População</p></th>
 </tr>
@@ -192,7 +193,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Estado</p></th>
 <th><p>Cidade</p></th>
 <th><p>População</p></th>
 </tr>
@@ -222,7 +223,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Estado</p></th>
 <th><p>Cidade</p></th>
 <th><p>População</p></th>
 </tr>
@@ -252,7 +253,7 @@ Agora, você pode navegar pelo **Recordset** pai aberto e acessar os objetos **R
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Estado</p></th>
 <th><p>Cidade</p></th>
 <th><p>População</p></th>
 </tr>

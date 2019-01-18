@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
 ms:contentKeyID: 48543358
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d511155f7a5fe1e6b83092e2065302bab99765b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 63f543fd86e309372e0432c3e45513cd9d3942ab
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999005"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709317"
 ---
 # <a name="tabledefsdelete-method-dao"></a>Método TableDefs.Delete (DAO)
 
@@ -44,9 +45,9 @@ Exclui o objeto **TableDef** especificado da coleção **TableDefs**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>O nome de TableDef a ser excluído.</p></td>
 </tr>
 </tbody>

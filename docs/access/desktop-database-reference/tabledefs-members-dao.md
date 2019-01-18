@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
 ms:contentKeyID: 48545784
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1270a775318111b6e7a4b70fbe1151dae84040d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe8ba97e3d8306b8dc8b0415fdf50e4c7041d7f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927491"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710353"
 ---
 # <a name="tabledefs-members-dao"></a>Membros de TableDefs (DAO)
 
@@ -65,7 +66,7 @@ Uma coleção TableDefs contém todos os objetos TableDef armazenados em um banc
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-count-property-dao.md">Contagem</a></strong></p></td>
+<td><p><strong><a href="tabledefs-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Retorna o número de objetos na coleção especificada. Somente leitura.</p></td>
 </tr>
 </tbody>

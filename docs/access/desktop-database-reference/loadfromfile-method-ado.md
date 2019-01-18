@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7b8492da87d0443d7992a1b9443501885ade3a0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9316bc4302a559fa44082a0576595707157e9d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998578"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708456"
 ---
 # <a name="loadfromfile-method-ado"></a>Método LoadFromFile (ADO)
 

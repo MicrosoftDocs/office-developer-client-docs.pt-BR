@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf89b61a65c11f09d5a07e52caeee5ad416c118a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998970"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707623"
 ---
 # <a name="openform-macro-action"></a>Ação da macro AbrirFormulário
 
@@ -53,7 +54,7 @@ A ação **AbrirFormulário** tem os seguintes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Modo de Dados</strong></p></td>
-<td><p>O modo de entrada de dados para o formulário. Isso se aplica apenas aos formulários abertos no modo Formulário ou no modo Folha de Dados. Clique em <strong>Adicionar</strong> (o usuário pode adicionar novos registros mas não pode editar registros existentes), <strong>Editar</strong> (o usuário pode editar registros existentes e adicionar novos registros), ou <strong>Somente leitura</strong> (o usuário só pode exibir registros). O padrão é <strong>Editar</strong>. <strong>Notes</strong></p>
+<td><p>O modo de entrada de dados para o formulário. Isso se aplica apenas aos formulários abertos no modo Formulário ou no modo Folha de Dados. Clique em <strong>Adicionar</strong> (o usuário pode adicionar novos registros mas não pode editar registros existentes), <strong>Editar</strong> (o usuário pode editar registros existentes e adicionar novos registros), ou <strong>Somente leitura</strong> (o usuário só pode exibir registros). O padrão é <strong>Editar</strong>. <strong>Anotações</strong></p>
 <ul>
 <li><p>A definição do argumento <strong>Modo de dados</strong> substitui as configurações das propriedades de <strong>PermitirEdições</strong>, <strong>PermitirExclusões</strong>, <strong>PermitirAdições</strong>e <strong>DataEntry</strong> do formulário. Por exemplo, se uma propriedade <strong>PermitirEdições</strong> formulário for definida como <strong>não</strong>, você ainda pode usar a ação <strong>AbrirFormulário</strong> para abrir o formulário no modo de edição.</p></li>
 <li><p>Se você deixar este argumento em branco, o Access abre o formulário no modo de entrada de dados definido pelas propriedades de <strong>PermitirEdições</strong>, <strong>PermitirExclusões</strong>, <strong>PermitirAdições</strong>e <strong>DataEntry</strong> do formulário.</p></li>
@@ -128,7 +129,7 @@ A macro a seguir abre o formulário Adicionar produtos com um botão no formulá
 <td><p>Defina o controle de código do fornecedor como o fornecedor atual no formulário fornecedores.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CategoryID</p></td>
 <td><p>Vá para o controle de ID da categoria.</p></td>
 </tr>
@@ -170,7 +171,7 @@ A macro a seguir abre um formulário de lista de produtos no canto inferior dire
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: NomeDaEmpresa</p></td>
 <td><p>Mova o foco para o controle NomeDaEmpresa.</p></td>
 </tr>

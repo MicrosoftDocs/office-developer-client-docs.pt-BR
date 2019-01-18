@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
 ms:contentKeyID: 48545274
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b9ea1c08223282654af636326ba9a8c2bfe70e67
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4f9b393e90d579c131865b112263efd0aef3216b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949597"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710283"
 ---
 # <a name="setpermissions-method-adox"></a>Método SetPermissions (ADOX)
 
@@ -27,7 +28,7 @@ Especifica as permissões referentes a um grupo ou usuário em um objeto.
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Nome* |Um valor **String** que especifica o nome do objeto para o qual permissões serão definidas.|
+|*Name* |Um valor **String** que especifica o nome do objeto para o qual permissões serão definidas.|
 |*ObjectType* |Um valor **Long** que pode ser uma das constantes [ObjectTypeEnum](objecttypeenum.md), que especifica o tipo do objeto para o qual permissões serão obtidas.|
 |*Action* |Um valor **Long** que pode ser uma das constantes [ActionEnum](actionenum.md) que especifica o tipo de ação a ser executada durante a definição de permissões.|
 |*Rights* |Um valor **Long** que pode ser uma máscara de bits de uma ou mais constantes [RightsEnum](rightsenum.md), que indica os direitos a serem definidos.|

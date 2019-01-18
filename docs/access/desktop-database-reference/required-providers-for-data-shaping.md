@@ -1,19 +1,20 @@
 ---
-title: Provedores necessários para o data shaping
+title: Provedores necessários para Data Shaping
 TOCTitle: Required providers for data shaping
 ms:assetid: eb8933fb-d533-3ea7-e045-35c1ca585765
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250194(v=office.15)
 ms:contentKeyID: 48548488
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd4460b96cf222a9c6e4f7a8ea66ed22c0f2ff10
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ffb45599c01121204fe036cfdf60f17865388cd4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947634"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706671"
 ---
-# <a name="required-providers-for-data-shaping"></a>Provedores necessários para o data shaping
+# <a name="required-providers-for-data-shaping"></a>Provedores necessários para Data Shaping
 
 **Aplica-se a**: Access 2013, o Office 2013
 

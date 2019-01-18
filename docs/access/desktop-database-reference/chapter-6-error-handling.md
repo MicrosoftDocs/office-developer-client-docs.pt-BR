@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c6e4f4e4218992b89a3370375bb322adfcdd57c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937180"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708869"
 ---
 # <a name="chapter-6-error-handling"></a>Capítulo 6: Tratamento de erros
 
@@ -40,7 +41,7 @@ As seções a seguir descrevem cada um desses métodos de notificação em mais 
 - [Erros do ADO](ado-errors.md)
 - [Referência de erros do ADO](ado-error-reference.md)
 - [Erros do provedor](provider-errors.md)
-- [Informações sobre erros relacionados a campos](field-related-error-information.md)
-- [Informações sobre erros relacionados a Recordsets](recordset-related-error-information.md)
-- [Prevendo erros](anticipating-errors.md)
+- [Informações de erro relacionado ao campo](field-related-error-information.md)
+- [Informações de erro relacionado ao conjunto de registros](recordset-related-error-information.md)
+- [Antecipação de erros](anticipating-errors.md)
 - [Tratando erros em outros idiomas (ADO)](handling-errors-in-other-languages.md)

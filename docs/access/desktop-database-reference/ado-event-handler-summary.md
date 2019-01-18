@@ -1,17 +1,18 @@
 ---
-title: Manipulador de eventos do ADO resumo
+title: Resumo do manipulador de eventos do ADO
 TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945359"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710206"
 ---
 # <a name="ado-event-handler-summary"></a>Resumo do manipulador de eventos do ADO
 

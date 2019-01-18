@@ -1,19 +1,20 @@
 ---
-title: Editando registros existentes
+title: Edição de registros existentes
 TOCTitle: Editing existing records
 ms:assetid: 86b961e0-e0a5-85a2-1138-7ab2e696ec11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249585(v=office.15)
 ms:contentKeyID: 48546089
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37da1e888eaa4231c58155e6830477f853b4027f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dae80ddb85709ccc668e80adad0cb0c723c79cd5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944666"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710857"
 ---
-# <a name="editing-existing-records"></a>Editando registros existentes
+# <a name="editing-existing-records"></a>Edição de registros existentes
 
 
 **Aplica-se a**: Access 2013, o Office 2013

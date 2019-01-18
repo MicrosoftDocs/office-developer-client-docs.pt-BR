@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df4400752545be2d91cda978b41b32523d28f079
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927379"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709156"
 ---
 # <a name="index-members-dao"></a>Membros de índice (DAO)
 
@@ -81,7 +82,7 @@ Os objetos Index especificam a ordem dos registros acessados a partir de tabelas
 <td><p>Define ou retorna um valor que indica se os registros com valores Null nos campos de índice têm entradas de índice (somente nos espaços de trabalho do Microsoft Access ).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="index-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">
