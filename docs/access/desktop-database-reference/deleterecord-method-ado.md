@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249895(v=office.15)
 ms:contentKeyID: 48547370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5f63828a5c1f507ed33b66e905f49163f6b9995
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8d6ecd408bc2141ef9ff4bec8f6469a70e09bbe1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949919"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704515"
 ---
 # <a name="deleterecord-method-ado"></a>Método DeleteRecord (ADO)
 
@@ -27,7 +28,7 @@ Exclui a entidade representada por um [Record](record-object-ado.md).
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Origem* |Opcional. Um valor **String** que contém uma URL que identifica a entidade (por exemplo, o arquivo ou diretório) a ser excluída. Se *Source* for omitido ou especificar uma sequência vazia, a entidade representada pelo [Record](record-object-ado.md) atual será excluída. Se o Record for um registro de coleção ([RecordType](recordtype-property-ado.md) de **adCollectionRecord**, tal como um diretório) todos os filhos (por exemplo, subdiretórios) também serão excluídos.|
+|*Source* |Opcional. Um valor **String** que contém uma URL que identifica a entidade (por exemplo, o arquivo ou diretório) a ser excluída. Se *Source* for omitido ou especificar uma sequência vazia, a entidade representada pelo [Record](record-object-ado.md) atual será excluída. Se o Record for um registro de coleção ([RecordType](recordtype-property-ado.md) de **adCollectionRecord**, tal como um diretório) todos os filhos (por exemplo, subdiretórios) também serão excluídos.|
 |*Async* |Opcional. Um valor **Boolean** que, quando é **True**, especifica que a operação de exclusão é assíncrona.|
 
 ## <a name="remarks"></a>Comentários

@@ -1,19 +1,20 @@
 ---
-title: 'Capítulo 4: Editando dados'
+title: 'Capítulo 4: Edição de dados'
 TOCTitle: 'Chapter 4: Editing data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28103cebeea517395ce2507402677fcde8114bb0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b954cf8b730a74fb7e630fbafb96c046491c6f46
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936585"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701141"
 ---
-# <a name="chapter-4-editing-data"></a>Capítulo 4: Editando dados
+# <a name="chapter-4-editing-data"></a>Capítulo 4: Edição de dados
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -72,8 +73,8 @@ End Function
 
 Este capítulo aborda os seguintes tópicos:
 
-- [Editando registros existentes](editing-existing-records.md)
-- [Determinando o que é suportado](determining-what-is-supported.md)
-- [Excluindo registros com o método Delete](deleting-records-using-the-delete-method.md)
+- [Edição de registros existentes](editing-existing-records.md)
+- [Determinação do que é compatível](determining-what-is-supported.md)
+- [Exclusão de registros com o método Delete](deleting-records-using-the-delete-method.md)
 - [Alternativas: usando instruções SQL](alternatives-using-sql-statements.md)
 - [Adicionando registros (ADO)](adding-records.md)

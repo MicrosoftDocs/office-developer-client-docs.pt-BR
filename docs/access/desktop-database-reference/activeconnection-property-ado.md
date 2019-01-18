@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3f2a3cf85f51ac4a0d358fcc26e992d61fedca2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 037ae753f427c42f147972170dbb2e645b260623
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886022"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703199"
 ---
 # <a name="activeconnection-property-ado"></a>Propriedade ActiveConnection (ADO)
 

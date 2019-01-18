@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 161cfec0e8450ef7e80c47bc8fb1b8304790e7c5
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5aac745bacf0662f6cd389bfefde7182a9676d3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949905"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700826"
 ---
 # <a name="copyrecord-method-ado"></a>Método CopyRecord (ADO)
 

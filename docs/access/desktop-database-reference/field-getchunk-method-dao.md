@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c7eabceb1f7c130e349428aeb6b2dc079fe4319d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996990"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703745"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Método Field.GetChunk (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
 ms:contentKeyID: 48543369
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6c0a1788d4a8eb8f3b3f0c3cf67303a8506089
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bef947a7a45cb079ea0202fdecb0043a73ad05b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878847"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702583"
 ---
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Exemplo das propriedades Description, HelpContext, HelpFile, NativeError, Number, Source e SQLState (VC++)
 

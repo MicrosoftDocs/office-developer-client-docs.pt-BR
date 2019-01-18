@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249407(v=office.15)
 ms:contentKeyID: 48545383
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ccea479499d4d38650135b0ff31d270392afad31
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6d48b780a6b9561d5636eea5f2ed393002ec6a1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704872"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic"></a>Exemplos de código do ADOX no Microsoft Visual Basic
 
