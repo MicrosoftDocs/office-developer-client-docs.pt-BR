@@ -10,35 +10,36 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a651e017b77e01a3fc6e810f58c00c94ece123ad
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7d2202aa506750cd0a0d2a84eea5c507c3bb1147
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997767"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704935"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="e0de2-102">Propriedade QueryDef.ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0de2-102">QueryDef.ReturnsRecords property (DAO)</span></span>
+# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="bd73d-102">Propriedade QueryDef.ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="bd73d-102">QueryDef.ReturnsRecords property (DAO)</span></span>
 
-<span data-ttu-id="e0de2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0de2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bd73d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd73d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e0de2-104">Define ou retorna um valor que indica se uma consulta passagem SQL para um banco de dados externo retornará registros (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e0de2-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="bd73d-104">Define ou retorna um valor que indica se uma consulta passagem SQL para um banco de dados externo retornará registros (somente em espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="bd73d-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0de2-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="e0de2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd73d-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="bd73d-105">Syntax</span></span>
 
-<span data-ttu-id="e0de2-106">*expressão* . ReturnsRecords</span><span class="sxs-lookup"><span data-stu-id="e0de2-106">*expression* .ReturnsRecords</span></span>
+<span data-ttu-id="bd73d-106">*expressão* . ReturnsRecords</span><span class="sxs-lookup"><span data-stu-id="bd73d-106">*expression* .ReturnsRecords</span></span>
 
-<span data-ttu-id="e0de2-107">*expressão* Uma variável que representa um objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="e0de2-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="bd73d-107">*expressão* Uma variável que representa um objeto **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="bd73d-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e0de2-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="e0de2-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd73d-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="bd73d-108">Remarks</span></span>
 
-<span data-ttu-id="e0de2-p101">Nem todas as consultas passagem SQL para bancos de dados externos retornam registros. Por exemplo, uma instrução SQL UPDATE atualiza registros sem retornar registros, enquanto uma instrução SQL SELECT retorna registros. Se a consulta retornar registros, defina a propriedade **ReturnsRecords** como **True**; se a consulta não retornar registros, defina a propriedade **ReturnsRecords** como **False**.</span><span class="sxs-lookup"><span data-stu-id="e0de2-p101">Not all SQL pass-through queries to external databases return records. For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records. If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
+<span data-ttu-id="bd73d-p101">Nem todas as consultas passagem SQL para bancos de dados externos retornam registros. Por exemplo, uma instrução SQL UPDATE atualiza registros sem retornar registros, enquanto uma instrução SQL SELECT retorna registros. Se a consulta retornar registros, defina a propriedade **ReturnsRecords** como **True**; se a consulta não retornar registros, defina a propriedade **ReturnsRecords** como **False**.</span><span class="sxs-lookup"><span data-stu-id="bd73d-p101">Not all SQL pass-through queries to external databases return records. For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records. If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e0de2-112">[!OBSERVAçãO] Você deve definir a propriedade **[Connect](querydef-connect-property-dao.md)** antes de definir a propriedade **ReturnsRecords**.</span><span class="sxs-lookup"><span data-stu-id="e0de2-112">You must set the **[Connect](querydef-connect-property-dao.md)** property before you set the **ReturnsRecords** property.</span></span>
+> <span data-ttu-id="bd73d-112">[!OBSERVAçãO] Você deve definir a propriedade **[Connect](querydef-connect-property-dao.md)** antes de definir a propriedade **ReturnsRecords**.</span><span class="sxs-lookup"><span data-stu-id="bd73d-112">You must set the **[Connect](querydef-connect-property-dao.md)** property before you set the **ReturnsRecords** property.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e0de2-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="e0de2-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bd73d-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="bd73d-113">Example</span></span>
 
-<span data-ttu-id="e0de2-p102">Este exemplo usa as propriedades **Connect** e **ReturnsRecords** para selecionar os títulos dos cinco livros mais vendidos de um banco de dados do Microsoft SQL Server baseado em quantias de vendas do ano até a data. No caso de ocorrer uma correspondência exata nas quantias de vendas, o exemplo aumenta o tamanho da lista exibindo os resultados da consulta e imprime uma mensagem explicando porque isso aconteceu.</span><span class="sxs-lookup"><span data-stu-id="e0de2-p102">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts. In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
+<span data-ttu-id="bd73d-p102">Este exemplo usa as propriedades **Connect** e **ReturnsRecords** para selecionar os títulos dos cinco livros mais vendidos de um banco de dados do Microsoft SQL Server baseado em quantias de vendas do ano até a data. No caso de ocorrer uma correspondência exata nas quantias de vendas, o exemplo aumenta o tamanho da lista exibindo os resultados da consulta e imprime uma mensagem explicando porque isso aconteceu.</span><span class="sxs-lookup"><span data-stu-id="bd73d-p102">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts. In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
 
 ```vb 
 Sub ClientServerX1() 
@@ -104,7 +105,7 @@ Sub ClientServerX1()
 
 <br/>
 
-<span data-ttu-id="e0de2-116">Este exemplo usa a propriedade **ReturnsRecords** e a propriedade **LogMessages** personalizada para criar uma consulta passagem que retornará os dados e todas as mensagens gerados pelo servidor remoto.</span><span class="sxs-lookup"><span data-stu-id="e0de2-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
+<span data-ttu-id="bd73d-116">Este exemplo usa a propriedade **ReturnsRecords** e a propriedade **LogMessages** personalizada para criar uma consulta passagem que retornará os dados e todas as mensagens gerados pelo servidor remoto.</span><span class="sxs-lookup"><span data-stu-id="bd73d-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
 
 ```vb 
 Sub LogMessagesX() 

@@ -6,16 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250254(v=office.15)
 ms:contentKeyID: 48548740
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 701770367b8893cce0d2f177672bf0168dc92961
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f6d0d5ffe65c138b49752f5690b911899b4a91a8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703122"
 ---
-# <a name="rds-objects"></a><span data-ttu-id="6037b-102">Objetos RDS</span><span class="sxs-lookup"><span data-stu-id="6037b-102">RDS objects</span></span>
+# <a name="rds-objects"></a><span data-ttu-id="593af-102">Objetos RDS</span><span class="sxs-lookup"><span data-stu-id="593af-102">RDS objects</span></span>
 
-<span data-ttu-id="6037b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6037b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="593af-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="593af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -26,20 +27,20 @@ ms.locfileid: "25910786"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="6037b-104">Objeto</span><span class="sxs-lookup"><span data-stu-id="6037b-104">Object</span></span></th>
-<th><span data-ttu-id="6037b-105">Descrição</span><span class="sxs-lookup"><span data-stu-id="6037b-105">Description</span></span></th>
+<th><span data-ttu-id="593af-104">Objeto</span><span class="sxs-lookup"><span data-stu-id="593af-104">Object</span></span></th>
+<th><span data-ttu-id="593af-105">Descrição</span><span class="sxs-lookup"><span data-stu-id="593af-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6037b-106"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="6037b-106"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="6037b-107">Vincula uma consulta de dados do <strong>Recordset</strong> a um ou mais controles (por exemplo, uma caixa de texto, o controle de grade ou uma caixa de combinação) para exibir os dados do <strong>Recordset</strong> em uma página da Web.</span><span class="sxs-lookup"><span data-stu-id="6037b-107">Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</span></span></p></td>
+<td><p><span data-ttu-id="593af-106"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="593af-106"><a href="datacontrol-object-rds.md">DataControl (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="593af-107">Vincula uma consulta de dados do <strong>Recordset</strong> a um ou mais controles (por exemplo, uma caixa de texto, o controle de grade ou uma caixa de combinação) para exibir os dados do <strong>Recordset</strong> em uma página da Web.</span><span class="sxs-lookup"><span data-stu-id="593af-107">Binds a data query <strong>Recordset</strong> to one or more controls (for example, a text box, grid control, or combo box) to display the <strong>Recordset</strong> data on a webpage.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6037b-108"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span><span class="sxs-lookup"><span data-stu-id="6037b-108"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span></span></p></td>
-<td><p><span data-ttu-id="6037b-109">Implementa métodos que oferecem acesso de leitura/gravação de dados às fontes de dados especificadas para aplicativos cliente.</span><span class="sxs-lookup"><span data-stu-id="6037b-109">Implements methods that provide read/write data access to specified data sources for client-side applications.</span></span></p></td>
+<td><p><span data-ttu-id="593af-108"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span><span class="sxs-lookup"><span data-stu-id="593af-108"><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></span></span></p></td>
+<td><p><span data-ttu-id="593af-109">Implementa métodos que oferecem acesso de leitura/gravação de dados às fontes de dados especificadas para aplicativos cliente.</span><span class="sxs-lookup"><span data-stu-id="593af-109">Implements methods that provide read/write data access to specified data sources for client-side applications.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6037b-110"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="6037b-110"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="6037b-111">Cria proxies de cliente para objetos corporativos personalizados localizados na camada intermediária.</span><span class="sxs-lookup"><span data-stu-id="6037b-111">Creates client-side proxies to custom business objects located on the middle tier.</span></span></p></td>
+<td><p><span data-ttu-id="593af-110"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="593af-110"><a href="dataspace-object-rds.md">DataSpace (RDS)</a></span></span></p></td>
+<td><p><span data-ttu-id="593af-111">Cria proxies de cliente para objetos corporativos personalizados localizados na camada intermediária.</span><span class="sxs-lookup"><span data-stu-id="593af-111">Creates client-side proxies to custom business objects located on the middle tier.</span></span></p></td>
 </tr>
 </tbody>
 </table>

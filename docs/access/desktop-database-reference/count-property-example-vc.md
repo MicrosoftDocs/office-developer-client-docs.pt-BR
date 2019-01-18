@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
 ms:contentKeyID: 48545134
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a2761c34e71664d97118766ddfd8121542b67c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5f21bb3c2f20f0d9d446a099fd6322928e626616
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867220"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702093"
 ---
-# <a name="count-property-example-vc"></a><span data-ttu-id="93893-102">Exemplo da propriedade Count (VC++)</span><span class="sxs-lookup"><span data-stu-id="93893-102">Count property example (VC++)</span></span>
+# <a name="count-property-example-vc"></a><span data-ttu-id="3e7d9-102">Exemplo da propriedade Count (VC++)</span><span class="sxs-lookup"><span data-stu-id="3e7d9-102">Count property example (VC++)</span></span>
 
 
-<span data-ttu-id="93893-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="93893-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3e7d9-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e7d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93893-104">Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções do banco de dados do ***funcionário*** .</span><span class="sxs-lookup"><span data-stu-id="93893-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="93893-105">A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções.</span><span class="sxs-lookup"><span data-stu-id="93893-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="93893-106">Outra maneira para enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.</span><span class="sxs-lookup"><span data-stu-id="93893-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="3e7d9-104">Este exemplo demonstra a propriedade [Count](count-property-ado.md) com duas coleções do banco de dados do ***funcionário*** .</span><span class="sxs-lookup"><span data-stu-id="3e7d9-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="3e7d9-105">A propriedade obtém a quantidade de objetos em cada coleção e define o limite máximo de loops que enumeram essas coleções.</span><span class="sxs-lookup"><span data-stu-id="3e7d9-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="3e7d9-106">Outra maneira para enumerar essas coleções sem usar a propriedade **Count** seria usar instruções.</span><span class="sxs-lookup"><span data-stu-id="3e7d9-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```cpp 
  

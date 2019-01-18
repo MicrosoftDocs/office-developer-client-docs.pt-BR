@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 538ee7d2ba39e6a4da0661901076a296bb063d14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b6da2dc9ff721adbb4bc0e533a02085adb534b0b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877755"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722036"
 ---
-# <a name="getrows-method-example-jscript"></a><span data-ttu-id="2f43c-102">Exemplo do método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="2f43c-102">GetRows method example (JScript)</span></span>
+# <a name="getrows-method-example-jscript"></a><span data-ttu-id="a730b-102">Exemplo do método GetRows (JScript)</span><span class="sxs-lookup"><span data-stu-id="a730b-102">GetRows method example (JScript)</span></span>
 
 
-<span data-ttu-id="2f43c-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f43c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a730b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a730b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2f43c-104">Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar todas as linhas da tabela *Custiomers* de um [Recordset](recordset-object-ado.md) e preencher uma matriz com os dados resultantes.</span><span class="sxs-lookup"><span data-stu-id="2f43c-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="2f43c-105">O método **GetRows** retornará menos do que o número desejado de linhas em dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido atingido ou se **GetRows** tiver tentado recuperar um registro excluído por outro usuário.</span><span class="sxs-lookup"><span data-stu-id="2f43c-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="2f43c-106">A função retorna **False** apenas se o segundo caso ocorrer.</span><span class="sxs-lookup"><span data-stu-id="2f43c-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="2f43c-107">Recorte e cole o seguinte código no Bloco de Notas ou em outro editor de texto e salve-o como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="2f43c-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
+<span data-ttu-id="a730b-104">Este exemplo usa o método [GetRows](getrows-method-ado.md) para recuperar todas as linhas da tabela *Custiomers* de um [Recordset](recordset-object-ado.md) e preencher uma matriz com os dados resultantes.</span><span class="sxs-lookup"><span data-stu-id="a730b-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="a730b-105">O método **GetRows** retornará menos do que o número desejado de linhas em dois casos: se [EOF](bof-eof-properties-ado.md) tiver sido atingido ou se **GetRows** tiver tentado recuperar um registro excluído por outro usuário.</span><span class="sxs-lookup"><span data-stu-id="a730b-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="a730b-106">A função retorna **False** apenas se o segundo caso ocorrer.</span><span class="sxs-lookup"><span data-stu-id="a730b-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="a730b-107">Recorte e cole o seguinte código no Bloco de Notas ou em outro editor de texto e salve-o como **GetRowsJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="a730b-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
 
 ```javascript 
  

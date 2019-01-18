@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
 ms:contentKeyID: 48548430
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5601363e072585e731af58d117c219b363271f0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: df39d66db67652c840980aa01e15cd39a437bc48
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881549"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714497"
 ---
-# <a name="item-property-example-vb"></a><span data-ttu-id="f2bc7-102">Exemplo da propriedade Item (VB)</span><span class="sxs-lookup"><span data-stu-id="f2bc7-102">Item property example (VB)</span></span>
+# <a name="item-property-example-vb"></a><span data-ttu-id="3f958-102">Exemplo da propriedade Item (VB)</span><span class="sxs-lookup"><span data-stu-id="3f958-102">Item property example (VB)</span></span>
 
 
-<span data-ttu-id="f2bc7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2bc7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f958-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f958-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f2bc7-p101">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção. O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="f2bc7-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="3f958-p101">Este exemplo demonstra como a propriedade [Item](item-property-ado.md) acessa membros de uma coleção. O exemplo abre a tabela ***Authors*** do banco de dados ***Pubs*** com um comando parametrizado.</span><span class="sxs-lookup"><span data-stu-id="3f958-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="f2bc7-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Os campos do [Recordset](recordset-object-ado.md) retornado são então acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="f2bc7-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="3f958-p102">O parâmetro no comando emitido com relação ao banco de dados é acessado a partir da coleção [Parameters](command-object-ado.md) do objeto [Command](parameters-collection-ado.md) por índice e nome. Os campos do [Recordset](recordset-object-ado.md) retornado são então acessados a partir da coleção [Fields](fields-collection-ado.md) desse objeto por índice e nome.</span><span class="sxs-lookup"><span data-stu-id="3f958-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```vb 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 205c727b140ac8d9bd5b0aa096b7650e12e78e2e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 17bb30a3af97c3ec83fd44c8a9e5d3c5dbf12d2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873415"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700819"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="c4af2-102">Exemplo do método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="c4af2-102">Create method example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="d8074-102">Exemplo do método Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="d8074-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="c4af2-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4af2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d8074-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8074-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c4af2-104">O código a seguir mostra como criar um novo banco de dados do Microsoft Jet com o método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="c4af2-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="d8074-104">O código a seguir mostra como criar um novo banco de dados do Microsoft Jet com o método [Create](create-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="d8074-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

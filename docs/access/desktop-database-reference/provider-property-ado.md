@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
 ms:contentKeyID: 48543543
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df764aca267cab9b38760c432cd19154d6c6827f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0e640fb6131919cbdf88fbbf8229c62d0e2e4e13
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881563"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719551"
 ---
-# <a name="provider-property-ado"></a><span data-ttu-id="ad273-102">Propriedade Provider (ADO)</span><span class="sxs-lookup"><span data-stu-id="ad273-102">Provider property (ADO)</span></span>
+# <a name="provider-property-ado"></a><span data-ttu-id="d4231-102">Propriedade Provider (ADO)</span><span class="sxs-lookup"><span data-stu-id="d4231-102">Provider property (ADO)</span></span>
 
 
-<span data-ttu-id="ad273-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad273-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d4231-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4231-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad273-104">Indica o nome do provedor de um objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ad273-104">Indicates the name of the provider for a [Connection](connection-object-ado.md) object.</span></span>
+<span data-ttu-id="d4231-104">Indica o nome do provedor de um objeto [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d4231-104">Indicates the name of the provider for a [Connection](connection-object-ado.md) object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ad273-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ad273-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="d4231-105">Configurações e valores de retorno</span><span class="sxs-lookup"><span data-stu-id="d4231-105">Settings and return values</span></span>
 
-<span data-ttu-id="ad273-106">Define ou retorna um valor **String** que indica o nome do provedor.</span><span class="sxs-lookup"><span data-stu-id="ad273-106">Sets or returns a **String** value that indicates the provider name.</span></span>
+<span data-ttu-id="d4231-106">Define ou retorna um valor **String** que indica o nome do provedor.</span><span class="sxs-lookup"><span data-stu-id="d4231-106">Sets or returns a **String** value that indicates the provider name.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ad273-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="ad273-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d4231-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="d4231-107">Remarks</span></span>
 
-<span data-ttu-id="ad273-p101">Utilize a propriedade **Provider** para definir ou retornar o nome do provedor para uma conexão. Essa propriedade também pode ser definida pelo conteúdo da propriedade [ConnectionString](connectionstring-property-ado.md) ou pelo argumento \*ConnectionString \*  do método [Open](open-method-ado-connection.md); entretanto, a especificação de um provedor em mais de um local enquanto o método **Open** é chamado pode gerar resultados imprevisíveis. Se nenhum provedor for especificado, a propriedade assumirá o padrão de MSDASQL ([Microsoft OLE DB Provider for ODBC](microsoft-ole-db-provider-for-odbc.md)).</span><span class="sxs-lookup"><span data-stu-id="ad273-p101">Use the **Provider** property to set or return the name of the provider for a connection. This property can also be set by the contents of the [ConnectionString](connectionstring-property-ado.md) property or the *ConnectionString* argument of the [Open](open-method-ado-connection.md) method; however, specifying a provider in more than one place while calling the **Open** method can have unpredictable results. If no provider is specified, the property will default to MSDASQL ([Microsoft OLE DB Provider for ODBC](microsoft-ole-db-provider-for-odbc.md)).</span></span>
+<span data-ttu-id="d4231-p101">Utilize a propriedade **Provider** para definir ou retornar o nome do provedor para uma conexão. Essa propriedade também pode ser definida pelo conteúdo da propriedade [ConnectionString](connectionstring-property-ado.md) ou pelo argumento \*ConnectionString \*  do método [Open](open-method-ado-connection.md); entretanto, a especificação de um provedor em mais de um local enquanto o método **Open** é chamado pode gerar resultados imprevisíveis. Se nenhum provedor for especificado, a propriedade assumirá o padrão de MSDASQL ([Microsoft OLE DB Provider for ODBC](microsoft-ole-db-provider-for-odbc.md)).</span><span class="sxs-lookup"><span data-stu-id="d4231-p101">Use the **Provider** property to set or return the name of the provider for a connection. This property can also be set by the contents of the [ConnectionString](connectionstring-property-ado.md) property or the *ConnectionString* argument of the [Open](open-method-ado-connection.md) method; however, specifying a provider in more than one place while calling the **Open** method can have unpredictable results. If no provider is specified, the property will default to MSDASQL ([Microsoft OLE DB Provider for ODBC](microsoft-ole-db-provider-for-odbc.md)).</span></span>
 
-<span data-ttu-id="ad273-p102">A propriedade **Provider** é leitura/gravação quando a conexão estiver fechada e somente leitura quando estiver aberta. A definição será efetivada somente após a abertura do objeto **Connection** ou o acesso à coleção [Properties](properties-collection-ado.md) do objeto **Connection**. Haverá erro se a definição não for válida.</span><span class="sxs-lookup"><span data-stu-id="ad273-p102">The **Provider** property is read/write when the connection is closed and read-only when it is open. The setting does not take effect until you either open the **Connection** object or access the [Properties](properties-collection-ado.md) collection of the **Connection** object. If the setting is not valid, an error occurs.</span></span>
+<span data-ttu-id="d4231-p102">A propriedade **Provider** é leitura/gravação quando a conexão estiver fechada e somente leitura quando estiver aberta. A definição será efetivada somente após a abertura do objeto **Connection** ou o acesso à coleção [Properties](properties-collection-ado.md) do objeto **Connection**. Haverá erro se a definição não for válida.</span><span class="sxs-lookup"><span data-stu-id="d4231-p102">The **Provider** property is read/write when the connection is closed and read-only when it is open. The setting does not take effect until you either open the **Connection** object or access the [Properties](properties-collection-ado.md) collection of the **Connection** object. If the setting is not valid, an error occurs.</span></span>
 

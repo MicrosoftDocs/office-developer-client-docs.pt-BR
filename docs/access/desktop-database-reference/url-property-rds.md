@@ -6,37 +6,38 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efba5d3703f41c54a03202dde2c3f30ffa17005a
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aafc8cc10410cafed21e38ad7fec269c391c1fa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949462"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702387"
 ---
-# <a name="url-property-rds"></a><span data-ttu-id="9dc9e-102">Propriedade URL (RDS)</span><span class="sxs-lookup"><span data-stu-id="9dc9e-102">URL property (RDS)</span></span>
+# <a name="url-property-rds"></a><span data-ttu-id="5e655-102">Propriedade URL (RDS)</span><span class="sxs-lookup"><span data-stu-id="5e655-102">URL property (RDS)</span></span>
 
-<span data-ttu-id="9dc9e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9dc9e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5e655-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e655-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9dc9e-104">Indica um cadeia de caracteres que contém uma URL relativa ou absoluta.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-104">Indicates a string that contains a relative or absolute URL.</span></span>
+<span data-ttu-id="5e655-104">Indica um cadeia de caracteres que contém uma URL relativa ou absoluta.</span><span class="sxs-lookup"><span data-stu-id="5e655-104">Indicates a string that contains a relative or absolute URL.</span></span>
 
-<span data-ttu-id="9dc9e-105">Você pode definir a propriedade **URL** no tempo de design na marca OBJECT do objeto [DataControl](datacontrol-object-rds.md) ou em tempo de execução no código de script.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-105">You can set the **URL** property at design time in the [DataControl](datacontrol-object-rds.md) object's OBJECT tag, or at run time in scripting code.</span></span>
+<span data-ttu-id="5e655-105">Você pode definir a propriedade **URL** no tempo de design na marca OBJECT do objeto [DataControl](datacontrol-object-rds.md) ou em tempo de execução no código de script.</span><span class="sxs-lookup"><span data-stu-id="5e655-105">You can set the **URL** property at design time in the [DataControl](datacontrol-object-rds.md) object's OBJECT tag, or at run time in scripting code.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9dc9e-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="9dc9e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5e655-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5e655-106">Syntax</span></span>
 
-<span data-ttu-id="9dc9e-107">Tempo de design: \<PARAM nome = valor "URL" = "Server"\></span><span class="sxs-lookup"><span data-stu-id="9dc9e-107">Design time: \<PARAM NAME="URL" VALUE="Server"\></span></span>
+<span data-ttu-id="5e655-107">Tempo de design: \<PARAM nome = valor "URL" = "Server"\></span><span class="sxs-lookup"><span data-stu-id="5e655-107">Design time: \<PARAM NAME="URL" VALUE="Server"\></span></span>
 
-<span data-ttu-id="9dc9e-108">Tempo de execução: DataControl.URL="Server"</span><span class="sxs-lookup"><span data-stu-id="9dc9e-108">Run time: DataControl.URL="Server"</span></span>
+<span data-ttu-id="5e655-108">Tempo de execução: DataControl.URL="Server"</span><span class="sxs-lookup"><span data-stu-id="5e655-108">Run time: DataControl.URL="Server"</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="9dc9e-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="9dc9e-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5e655-109">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="5e655-109">Parameters</span></span>
 
-|<span data-ttu-id="9dc9e-110">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="9dc9e-110">Parameter</span></span>|<span data-ttu-id="9dc9e-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="9dc9e-111">Description</span></span>|
+|<span data-ttu-id="5e655-110">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="5e655-110">Parameter</span></span>|<span data-ttu-id="5e655-111">Descrição</span><span class="sxs-lookup"><span data-stu-id="5e655-111">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="9dc9e-112">*Server*</span><span class="sxs-lookup"><span data-stu-id="9dc9e-112">*Server*</span></span> |<span data-ttu-id="9dc9e-113">Um valor **String** que contém uma URL válida.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-113">A **String** value that contains a valid URL.</span></span>|
-|<span data-ttu-id="9dc9e-114">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="9dc9e-114">*DataControl*</span></span> |<span data-ttu-id="9dc9e-115">Uma variável de objeto que representa um objeto **DataControl**.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-115">An object variable that represents a **DataControl** object.</span></span>|
+|<span data-ttu-id="5e655-112">*Server*</span><span class="sxs-lookup"><span data-stu-id="5e655-112">*Server*</span></span> |<span data-ttu-id="5e655-113">Um valor **String** que contém uma URL válida.</span><span class="sxs-lookup"><span data-stu-id="5e655-113">A **String** value that contains a valid URL.</span></span>|
+|<span data-ttu-id="5e655-114">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="5e655-114">*DataControl*</span></span> |<span data-ttu-id="5e655-115">Uma variável de objeto que representa um objeto **DataControl**.</span><span class="sxs-lookup"><span data-stu-id="5e655-115">An object variable that represents a **DataControl** object.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="9dc9e-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="9dc9e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5e655-116">Comentários</span><span class="sxs-lookup"><span data-stu-id="5e655-116">Remarks</span></span>
 
-<span data-ttu-id="9dc9e-p101">Normalmente, a URL identifica um arquivo Active Server Page (.asp) que pode gerar e retornar um [Recordset](recordset-object-ado.md). Portanto, o usuário pode obter um **Recordset** sem ter que invocar o objeto [DataFactory](datafactory-object-rdsserver.md) do servidor ou programar um objeto comercial personalizado.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-p101">Typically, the URL identifies an Active Server Page (.asp) file that can produce and return a [Recordset](recordset-object-ado.md). Therefore, the user can obtain a **Recordset** without having to invoke the server-side [DataFactory](datafactory-object-rdsserver.md) object, or program a custom business object.</span></span>
+<span data-ttu-id="5e655-p101">Normalmente, a URL identifica um arquivo Active Server Page (.asp) que pode gerar e retornar um [Recordset](recordset-object-ado.md). Portanto, o usuário pode obter um **Recordset** sem ter que invocar o objeto [DataFactory](datafactory-object-rdsserver.md) do servidor ou programar um objeto comercial personalizado.</span><span class="sxs-lookup"><span data-stu-id="5e655-p101">Typically, the URL identifies an Active Server Page (.asp) file that can produce and return a [Recordset](recordset-object-ado.md). Therefore, the user can obtain a **Recordset** without having to invoke the server-side [DataFactory](datafactory-object-rdsserver.md) object, or program a custom business object.</span></span>
 
-<span data-ttu-id="9dc9e-119">Se a propriedade **URL** tiver sido definida, [SubmitChanges](submitchanges-method-rds.md) enviará as alterações para o local especificado pela URL.</span><span class="sxs-lookup"><span data-stu-id="9dc9e-119">If the **URL** property has been set, [SubmitChanges](submitchanges-method-rds.md) will submit changes to the location specified by the URL.</span></span>
+<span data-ttu-id="5e655-119">Se a propriedade **URL** tiver sido definida, [SubmitChanges](submitchanges-method-rds.md) enviará as alterações para o local especificado pela URL.</span><span class="sxs-lookup"><span data-stu-id="5e655-119">If the **URL** property has been set, [SubmitChanges](submitchanges-method-rds.md) will submit changes to the location specified by the URL.</span></span>
 

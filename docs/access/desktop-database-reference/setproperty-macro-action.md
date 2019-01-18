@@ -10,22 +10,23 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48b51ac15cde600b6f79968af49b73ad73333915
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918993"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703213"
 ---
-# <a name="setproperty-macro-action"></a><span data-ttu-id="74783-102">Ação da macro DefinirPropriedade</span><span class="sxs-lookup"><span data-stu-id="74783-102">SetProperty macro action</span></span>
+# <a name="setproperty-macro-action"></a><span data-ttu-id="88bdd-102">Ação da macro DefinirPropriedade</span><span class="sxs-lookup"><span data-stu-id="88bdd-102">SetProperty macro action</span></span>
 
-<span data-ttu-id="74783-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="74783-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="88bdd-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="88bdd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="74783-104">Você pode usar a ação **DefinirPropriedade** para definir uma propriedade para um controle em um formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="74783-104">You can use the **SetProperty** action to set a property for a control on a form or a report.</span></span>
+<span data-ttu-id="88bdd-104">Você pode usar a ação **DefinirPropriedade** para definir uma propriedade para um controle em um formulário ou relatório.</span><span class="sxs-lookup"><span data-stu-id="88bdd-104">You can use the **SetProperty** action to set a property for a control on a form or a report.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="74783-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="74783-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="88bdd-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="88bdd-105">Setting</span></span>
 
-<span data-ttu-id="74783-106">A ação **DefinirPropriedade** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="74783-106">The **SetProperty** action has the following arguments.</span></span>
+<span data-ttu-id="88bdd-106">A ação **DefinirPropriedade** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="88bdd-106">The **SetProperty** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -34,42 +35,42 @@ ms.locfileid: "25918993"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="74783-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="74783-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="74783-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="74783-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="88bdd-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="88bdd-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="88bdd-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="88bdd-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="74783-109">Nome do controle</span><span class="sxs-lookup"><span data-stu-id="74783-109">Control Name</span></span></p></td>
-<td><p><span data-ttu-id="74783-110">Digite o nome do campo ou controle para o qual você deseja definir o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="74783-110">Type the name of the field or control for which you want to set the property value.</span></span> <span data-ttu-id="74783-111">Use somente o nome do controle, não a sintaxe completa.</span><span class="sxs-lookup"><span data-stu-id="74783-111">Use only the control name, not the full syntax.</span></span> <span data-ttu-id="74783-112">Deixe este argumento em branco para definir a propriedade do formulário ou relatório atual.</span><span class="sxs-lookup"><span data-stu-id="74783-112">Leave this argument blank to set the property for the current form or report.</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-109">Nome do controle</span><span class="sxs-lookup"><span data-stu-id="88bdd-109">Control Name</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-110">Digite o nome do campo ou controle para o qual você deseja definir o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="88bdd-110">Type the name of the field or control for which you want to set the property value.</span></span> <span data-ttu-id="88bdd-111">Use somente o nome do controle, não a sintaxe completa.</span><span class="sxs-lookup"><span data-stu-id="88bdd-111">Use only the control name, not the full syntax.</span></span> <span data-ttu-id="88bdd-112">Deixe este argumento em branco para definir a propriedade do formulário ou relatório atual.</span><span class="sxs-lookup"><span data-stu-id="88bdd-112">Leave this argument blank to set the property for the current form or report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74783-113">Propriedade</span><span class="sxs-lookup"><span data-stu-id="74783-113">Property</span></span></p></td>
-<td><p><span data-ttu-id="74783-p102">Selecione a propriedade a ser definida. Consulte a seção <strong>Comentários</strong> deste artigo para obter uma lista das propriedades que podem ser definidas com esta ação.</span><span class="sxs-lookup"><span data-stu-id="74783-p102">Select the property that you want to set. See the <strong>Remarks</strong> section in this article for a list of the properties that can be set by using this action.</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-113">Propriedade</span><span class="sxs-lookup"><span data-stu-id="88bdd-113">Property</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-p102">Selecione a propriedade a ser definida. Consulte a seção <strong>Comentários</strong> deste artigo para obter uma lista das propriedades que podem ser definidas com esta ação.</span><span class="sxs-lookup"><span data-stu-id="88bdd-p102">Select the property that you want to set. See the <strong>Remarks</strong> section in this article for a list of the properties that can be set by using this action.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74783-116">Valor</span><span class="sxs-lookup"><span data-stu-id="74783-116">Value</span></span></p></td>
-<td><p><span data-ttu-id="74783-p103">Digite o valor com o qual a propriedade deve ser definida. Para propriedades cujos valores sejam Sim ou Não, use <strong>-1</strong> para Sim e <strong>0</strong> para Não.</span><span class="sxs-lookup"><span data-stu-id="74783-p103">Type the value that the property is to be set to. For properties whose values are either Yes or No, use <strong>-1</strong> for Yes and <strong>0</strong> for No.</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-116">Valor</span><span class="sxs-lookup"><span data-stu-id="88bdd-116">Value</span></span></p></td>
+<td><p><span data-ttu-id="88bdd-p103">Digite o valor com o qual a propriedade deve ser definida. Para propriedades cujos valores sejam Sim ou Não, use <strong>-1</strong> para Sim e <strong>0</strong> para Não.</span><span class="sxs-lookup"><span data-stu-id="88bdd-p103">Type the value that the property is to be set to. For properties whose values are either Yes or No, use <strong>-1</strong> for Yes and <strong>0</strong> for No.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="74783-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="74783-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="88bdd-119">Comentários</span><span class="sxs-lookup"><span data-stu-id="88bdd-119">Remarks</span></span>
 
-- <span data-ttu-id="74783-120">Você pode usar a ação **DefinirPropriedade** para definir estas propriedades de um controle: **Habilitado**, **Visível**, **Locked**, **Esquerdo**, **Superior**, **Largura**, **Altura**, **Cor de Primeiro Plano**, **Cor do Fundo** ou **Legenda**.</span><span class="sxs-lookup"><span data-stu-id="74783-120">You can use the **SetProperty** action to set the following properties of a control: **Enabled**, **Visible**, **Locked**, **Left**, **Top**, **Width**, **Height**, **Fore Color**, **Back Color**, or **Caption**.</span></span>
+- <span data-ttu-id="88bdd-120">Você pode usar a ação **DefinirPropriedade** para definir estas propriedades de um controle: **Habilitado**, **Visível**, **Locked**, **Esquerdo**, **Superior**, **Largura**, **Altura**, **Cor de Primeiro Plano**, **Cor do Fundo** ou **Legenda**.</span><span class="sxs-lookup"><span data-stu-id="88bdd-120">You can use the **SetProperty** action to set the following properties of a control: **Enabled**, **Visible**, **Locked**, **Left**, **Top**, **Width**, **Height**, **Fore Color**, **Back Color**, or **Caption**.</span></span>
 
-- <span data-ttu-id="74783-121">Se você inserir um valor inválido para o argumento ***Valor***, não ocorrerá nenhum erro, mas o Access poderá alterar a propriedade para um valor diferente, dependendo da forma como o Access interpretar o argumento.</span><span class="sxs-lookup"><span data-stu-id="74783-121">If you enter an invalid value for the ***Value*** argument, no error occurs, but Access might change the property to a different value, depending on how it interprets the argument.</span></span>
+- <span data-ttu-id="88bdd-121">Se você inserir um valor inválido para o argumento ***Valor***, não ocorrerá nenhum erro, mas o Access poderá alterar a propriedade para um valor diferente, dependendo da forma como o Access interpretar o argumento.</span><span class="sxs-lookup"><span data-stu-id="88bdd-121">If you enter an invalid value for the ***Value*** argument, no error occurs, but Access might change the property to a different value, depending on how it interprets the argument.</span></span>
 
-- <span data-ttu-id="74783-p104">A ação **DefinirPropriedade** poderá ser usada em uma macro autônoma somente se você precedê-la com uma ação que selecione o formulário ou o relatório contendo o controle para o qual está definindo a propriedade. Se o formulário ou o relatório não estiver aberto, você poderá usar a ação **AbrirFormulário** ou a ação **AbrirRelatório** para abri-lo ou selecioná-lo. Se o formulário ou o relatório já estiver aberto, use a ação **SelecionarObjeto** para selecioná-lo. Depois use a ação **DefinirPropriedade** para definir a propriedade. A seleção do objeto não será necessária se você usar a ação **DefinirPropriedade** em uma macro que esteja inserida em um controle do mesmo formulário ou relatório como o controle para o qual você está definindo a propriedade.</span><span class="sxs-lookup"><span data-stu-id="74783-p104">You can use the **SetProperty** action in a stand-alone macro only if you precede it with an action that selects the form or report containing the control for which you are setting the property. If the form or report is not open, you can use the **OpenForm** or **OpenReport** action to open and select it. If the form or report is already open, you can use the **SelectObject** action to select it. You can then use the **SetProperty** action to set the property. Selecting the object is not necessary if you use the **SetProperty** action in a macro which is embedded in a control on the same form or report as the control for which you are setting the property.</span></span>
+- <span data-ttu-id="88bdd-p104">A ação **DefinirPropriedade** poderá ser usada em uma macro autônoma somente se você precedê-la com uma ação que selecione o formulário ou o relatório contendo o controle para o qual está definindo a propriedade. Se o formulário ou o relatório não estiver aberto, você poderá usar a ação **AbrirFormulário** ou a ação **AbrirRelatório** para abri-lo ou selecioná-lo. Se o formulário ou o relatório já estiver aberto, use a ação **SelecionarObjeto** para selecioná-lo. Depois use a ação **DefinirPropriedade** para definir a propriedade. A seleção do objeto não será necessária se você usar a ação **DefinirPropriedade** em uma macro que esteja inserida em um controle do mesmo formulário ou relatório como o controle para o qual você está definindo a propriedade.</span><span class="sxs-lookup"><span data-stu-id="88bdd-p104">You can use the **SetProperty** action in a stand-alone macro only if you precede it with an action that selects the form or report containing the control for which you are setting the property. If the form or report is not open, you can use the **OpenForm** or **OpenReport** action to open and select it. If the form or report is already open, you can use the **SelectObject** action to select it. You can then use the **SetProperty** action to set the property. Selecting the object is not necessary if you use the **SetProperty** action in a macro which is embedded in a control on the same form or report as the control for which you are setting the property.</span></span>
 
-- <span data-ttu-id="74783-127">Para executar a ação **DefinirPropriedade** em um módulo do VBA, use o método **SetProperty** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="74783-127">To run the **SetProperty** action in a VBA module, use the **SetProperty** method of the **DoCmd** object.</span></span>
+- <span data-ttu-id="88bdd-127">Para executar a ação **DefinirPropriedade** em um módulo do VBA, use o método **SetProperty** do objeto **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="88bdd-127">To run the **SetProperty** action in a VBA module, use the **SetProperty** method of the **DoCmd** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="74783-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="74783-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="88bdd-128">Exemplo</span><span class="sxs-lookup"><span data-stu-id="88bdd-128">Example</span></span>
 
-<span data-ttu-id="74783-129">O exemplo a seguir mostra como usar a ação DefinirPropriedade para alternar a visibilidade da caixa de texto **MyTextBox** .</span><span class="sxs-lookup"><span data-stu-id="74783-129">The following example shows how to use the SetProperty action to toggle the visibility of the **MyTextBox** text box.</span></span>
+<span data-ttu-id="88bdd-129">O exemplo a seguir mostra como usar a ação DefinirPropriedade para alternar a visibilidade da caixa de texto **MyTextBox** .</span><span class="sxs-lookup"><span data-stu-id="88bdd-129">The following example shows how to use the SetProperty action to toggle the visibility of the **MyTextBox** text box.</span></span>
 
-<span data-ttu-id="74783-130">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="74783-130">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="88bdd-130">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="88bdd-130">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Submacro: TestVisible

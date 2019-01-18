@@ -6,34 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
 ms:contentKeyID: 48548282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 241233c65606df54feceb99903656d4d873b320b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930452"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699034"
 ---
-# <a name="field2size-property-dao"></a><span data-ttu-id="d2edb-102">Propriedade Field2.Size (DAO)</span><span class="sxs-lookup"><span data-stu-id="d2edb-102">Field2.Size property (DAO)</span></span>
+# <a name="field2size-property-dao"></a><span data-ttu-id="46098-102">Propriedade Field2.Size (DAO)</span><span class="sxs-lookup"><span data-stu-id="46098-102">Field2.Size property (DAO)</span></span>
 
 
-<span data-ttu-id="d2edb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2edb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="46098-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="46098-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="d2edb-104">Define ou retorna um valor que indica o tamanho máximo, em bytes, de um objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="d2edb-104">Sets or returns a value that indicates the maximum size, in bytes, of a **Field2** object.</span></span>
+<span data-ttu-id="46098-104">Define ou retorna um valor que indica o tamanho máximo, em bytes, de um objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="46098-104">Sets or returns a value that indicates the maximum size, in bytes, of a **Field2** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d2edb-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d2edb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="46098-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="46098-105">Syntax</span></span>
 
-<span data-ttu-id="d2edb-106">*expressão* . Tamanho</span><span class="sxs-lookup"><span data-stu-id="d2edb-106">*expression* .Size</span></span>
+<span data-ttu-id="46098-106">*expressão* . Tamanho</span><span class="sxs-lookup"><span data-stu-id="46098-106">*expression* .Size</span></span>
 
-<span data-ttu-id="d2edb-107">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="d2edb-107">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="46098-107">*expressão* Uma variável que representa um objeto **Field2** .</span><span class="sxs-lookup"><span data-stu-id="46098-107">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d2edb-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="d2edb-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="46098-108">Comentários</span><span class="sxs-lookup"><span data-stu-id="46098-108">Remarks</span></span>
 
-<span data-ttu-id="d2edb-109">Para um objeto ainda não acrescentado à coleção **[Fields](fields-collection-dao.md)**, essa propriedade é de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d2edb-109">For an object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write.</span></span>
+<span data-ttu-id="46098-109">Para um objeto ainda não acrescentado à coleção **[Fields](fields-collection-dao.md)**, essa propriedade é de leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="46098-109">For an object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="d2edb-p101">Para campos (diferentes dos campos tipo Memorando) que contêm dados de caractere, a propriedade **Size** indica o número máximo de caracteres que o campo pode ter. Para campos numéricos, a propriedade **Size** indica quantos bytes de repositório são necessários.</span><span class="sxs-lookup"><span data-stu-id="d2edb-p101">For fields (other than Memo type fields) that contain character data, the **Size** property indicates the maximum number of characters that the field can hold. For numeric fields, the **Size** property indicates how many bytes of storage are required.</span></span>
+<span data-ttu-id="46098-p101">Para campos (diferentes dos campos tipo Memorando) que contêm dados de caractere, a propriedade **Size** indica o número máximo de caracteres que o campo pode ter. Para campos numéricos, a propriedade **Size** indica quantos bytes de repositório são necessários.</span><span class="sxs-lookup"><span data-stu-id="46098-p101">For fields (other than Memo type fields) that contain character data, the **Size** property indicates the maximum number of characters that the field can hold. For numeric fields, the **Size** property indicates how many bytes of storage are required.</span></span>
 
-<span data-ttu-id="d2edb-112">O uso da propriedade **Size** depende do objeto que contém a coleção **Fields** à qual o objeto **Field2** está acrescentado, como mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="d2edb-112">Use of the **Size** property depends on the object that contains the **Fields** collection to which the **Field2** object is appended, as shown in the following table.</span></span>
+<span data-ttu-id="46098-112">O uso da propriedade **Size** depende do objeto que contém a coleção **Fields** à qual o objeto **Field2** está acrescentado, como mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="46098-112">Use of the **Size** property depends on the object that contains the **Fields** collection to which the **Field2** object is appended, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -42,42 +43,42 @@ ms.locfileid: "25930452"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d2edb-113">Objeto acrescentado a</span><span class="sxs-lookup"><span data-stu-id="d2edb-113">Object appended to</span></span></p></th>
-<th><p><span data-ttu-id="d2edb-114">Uso</span><span class="sxs-lookup"><span data-stu-id="d2edb-114">Usage</span></span></p></th>
+<th><p><span data-ttu-id="46098-113">Objeto acrescentado a</span><span class="sxs-lookup"><span data-stu-id="46098-113">Object appended to</span></span></p></th>
+<th><p><span data-ttu-id="46098-114">Uso</span><span class="sxs-lookup"><span data-stu-id="46098-114">Usage</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2edb-115"><strong>Índice</strong></span><span class="sxs-lookup"><span data-stu-id="d2edb-115"><strong>Index</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2edb-116">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="d2edb-116">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="46098-115"><strong>Índice</strong></span><span class="sxs-lookup"><span data-stu-id="46098-115"><strong>Index</strong></span></span></p></td>
+<td><p><span data-ttu-id="46098-116">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="46098-116">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d2edb-117"><strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="d2edb-117"><strong>QueryDef</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2edb-118">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="d2edb-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="46098-117"><strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="46098-117"><strong>QueryDef</strong></span></span></p></td>
+<td><p><span data-ttu-id="46098-118">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="46098-118">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d2edb-119"><strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="d2edb-119"><strong>Recordset</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2edb-120">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="d2edb-120">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="46098-119"><strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="46098-119"><strong>Recordset</strong></span></span></p></td>
+<td><p><span data-ttu-id="46098-120">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="46098-120">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d2edb-121"><strong>Relação</strong></span><span class="sxs-lookup"><span data-stu-id="d2edb-121"><strong>Relation</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2edb-122">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="d2edb-122">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="46098-121"><strong>Relação</strong></span><span class="sxs-lookup"><span data-stu-id="46098-121"><strong>Relation</strong></span></span></p></td>
+<td><p><span data-ttu-id="46098-122">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="46098-122">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d2edb-123"><strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="d2edb-123"><strong>TableDef</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2edb-124">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="d2edb-124">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="46098-123"><strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="46098-123"><strong>TableDef</strong></span></span></p></td>
+<td><p><span data-ttu-id="46098-124">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="46098-124">Read-only</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d2edb-p102">Quando você cria um objeto **Field2** com um tipo de dados diferente de Text, a configuração da propriedade **Type** automaticamente determina a configuração da propriedade **Size**; não é necessário defini-la. Para um objeto **Field2** com o tipo de dados Text, contudo, você pode definir **Size** para qualquer número inteiro até o tamanho máximo permito (255 para bancos de dados do mecanismo de bancos de dados do Microsoft Access). Se você não definir o tamanho, o campo será tão grande quanto o banco de dados permitir.</span><span class="sxs-lookup"><span data-stu-id="d2edb-p102">When you create a **Field2** object with a data type other than Text, the **Type** property setting automatically determines the **Size** property setting; you don't need to set it. For a **Field2** object with the Text data type, however, you can set **Size** to any integer up to the maximum text size (255 for Microsoft Access database engine databases). If you do not set the size, the field will be as large as the database allows.</span></span>
+<span data-ttu-id="46098-p102">Quando você cria um objeto **Field2** com um tipo de dados diferente de Text, a configuração da propriedade **Type** automaticamente determina a configuração da propriedade **Size**; não é necessário defini-la. Para um objeto **Field2** com o tipo de dados Text, contudo, você pode definir **Size** para qualquer número inteiro até o tamanho máximo permito (255 para bancos de dados do mecanismo de bancos de dados do Microsoft Access). Se você não definir o tamanho, o campo será tão grande quanto o banco de dados permitir.</span><span class="sxs-lookup"><span data-stu-id="46098-p102">When you create a **Field2** object with a data type other than Text, the **Type** property setting automatically determines the **Size** property setting; you don't need to set it. For a **Field2** object with the Text data type, however, you can set **Size** to any integer up to the maximum text size (255 for Microsoft Access database engine databases). If you do not set the size, the field will be as large as the database allows.</span></span>
 
-<span data-ttu-id="d2edb-p103">Para objetos **Field2** Long Binary e Memo, **Size** é sempre definido como 0. Use a propriedade **FieldSize** do objeto **Field2** para determinar o tamanho dos dados em um registro específico. O tamanho máximo de um campo Long Binary ou Memo é limitado apenas pelos recursos do sistema ou pelo tamanho máximo permitido pelo banco de dados.</span><span class="sxs-lookup"><span data-stu-id="d2edb-p103">For Long Binary and Memo **Field2** objects, **Size** is always set to 0. Use the **FieldSize** property of the **Field2** object to determine the size of the data in a specific record. The maximum size of a Long Binary or Memo field is limited only by your system resources or the maximum size that the database allows.</span></span>
+<span data-ttu-id="46098-p103">Para objetos **Field2** Long Binary e Memo, **Size** é sempre definido como 0. Use a propriedade **FieldSize** do objeto **Field2** para determinar o tamanho dos dados em um registro específico. O tamanho máximo de um campo Long Binary ou Memo é limitado apenas pelos recursos do sistema ou pelo tamanho máximo permitido pelo banco de dados.</span><span class="sxs-lookup"><span data-stu-id="46098-p103">For Long Binary and Memo **Field2** objects, **Size** is always set to 0. Use the **FieldSize** property of the **Field2** object to determine the size of the data in a specific record. The maximum size of a Long Binary or Memo field is limited only by your system resources or the maximum size that the database allows.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d2edb-131">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d2edb-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="46098-131">Exemplo</span><span class="sxs-lookup"><span data-stu-id="46098-131">Example</span></span>
 
-<span data-ttu-id="d2edb-132">Este exemplo demonstra a propriedade **Size** enumerando os nomes e os tamanhos dos objetos **Field2** na tabela Funcionários.</span><span class="sxs-lookup"><span data-stu-id="d2edb-132">This example demonstrates the **Size** property by enumerating the names and sizes of the **Field2** objects in the Employees table.</span></span>
+<span data-ttu-id="46098-132">Este exemplo demonstra a propriedade **Size** enumerando os nomes e os tamanhos dos objetos **Field2** na tabela Funcionários.</span><span class="sxs-lookup"><span data-stu-id="46098-132">This example demonstrates the **Size** property by enumerating the names and sizes of the **Field2** objects in the Employees table.</span></span>
 
 ```vb
     Sub SizeX() 

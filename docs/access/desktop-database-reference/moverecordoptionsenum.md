@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249039(v=office.15)
 ms:contentKeyID: 48543842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 667e1934c9095cda209f1ac46206e10cf3432aa2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5bd8196670513156011d69f08eacf790fa4a0a03
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867598"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703150"
 ---
-# <a name="moverecordoptionsenum"></a><span data-ttu-id="0cd4f-102">MoveRecordOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="0cd4f-102">MoveRecordOptionsEnum</span></span>
+# <a name="moverecordoptionsenum"></a><span data-ttu-id="8bc21-102">MoveRecordOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="8bc21-102">MoveRecordOptionsEnum</span></span>
 
 
-<span data-ttu-id="0cd4f-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="0cd4f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8bc21-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bc21-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0cd4f-104">Especifica o comportamento do objeto [Record](record-object-ado.md) do método [MoveRecord](moverecord-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="0cd4f-104">Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord](moverecord-method-ado.md) method.</span></span>
+<span data-ttu-id="8bc21-104">Especifica o comportamento do objeto [Record](record-object-ado.md) do método [MoveRecord](moverecord-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8bc21-104">Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord](moverecord-method-ado.md) method.</span></span>
 
 <table>
 <colgroup>
@@ -28,37 +29,37 @@ ms.locfileid: "25867598"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0cd4f-105">Constant</span><span class="sxs-lookup"><span data-stu-id="0cd4f-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="0cd4f-106">Valor</span><span class="sxs-lookup"><span data-stu-id="0cd4f-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="0cd4f-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="0cd4f-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="8bc21-105">Constant</span><span class="sxs-lookup"><span data-stu-id="8bc21-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="8bc21-106">Valor</span><span class="sxs-lookup"><span data-stu-id="8bc21-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="8bc21-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="8bc21-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0cd4f-108"><strong>adMoveUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="0cd4f-108"><strong>adMoveUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-109">-1</span><span class="sxs-lookup"><span data-stu-id="0cd4f-109">-1</span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-p101">Padrão. Executa a operação mover padrão: A operação falha se o arquivo ou diretório de destino já existir e a operação atualizar links de hipertexto.</span><span class="sxs-lookup"><span data-stu-id="0cd4f-p101">Default. Performs the default move operation: The operation fails if the destination file or directory already exists, and the operation updates hypertext links.</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-108"><strong>adMoveUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="8bc21-108"><strong>adMoveUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bc21-109">-1</span><span class="sxs-lookup"><span data-stu-id="8bc21-109">-1</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-p101">Padrão. Executa a operação mover padrão: A operação falha se o arquivo ou diretório de destino já existir e a operação atualizar links de hipertexto.</span><span class="sxs-lookup"><span data-stu-id="8bc21-p101">Default. Performs the default move operation: The operation fails if the destination file or directory already exists, and the operation updates hypertext links.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cd4f-112"><strong>adMoveOverWrite</strong></span><span class="sxs-lookup"><span data-stu-id="0cd4f-112"><strong>adMoveOverWrite</strong></span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-113">1</span><span class="sxs-lookup"><span data-stu-id="0cd4f-113">1</span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-114">Sobregrava o arquivo ou diretório de destino, mesmo se ele já existir.</span><span class="sxs-lookup"><span data-stu-id="0cd4f-114">Overwrites the destination file or directory, even if it already exists.</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-112"><strong>adMoveOverWrite</strong></span><span class="sxs-lookup"><span data-stu-id="8bc21-112"><strong>adMoveOverWrite</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bc21-113">1</span><span class="sxs-lookup"><span data-stu-id="8bc21-113">1</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-114">Sobregrava o arquivo ou diretório de destino, mesmo se ele já existir.</span><span class="sxs-lookup"><span data-stu-id="8bc21-114">Overwrites the destination file or directory, even if it already exists.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cd4f-115"><strong>adMoveDontUpdateLinks</strong></span><span class="sxs-lookup"><span data-stu-id="0cd4f-115"><strong>adMoveDontUpdateLinks</strong></span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-116">2</span><span class="sxs-lookup"><span data-stu-id="0cd4f-116">2</span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-p102">Modifica o comportamento padrão do método <strong>MoveRecord</strong> por não atualizar os links de hipertexto do <strong>Record</strong> de origem. O comportamento padrão depende dos recursos do provedor. A operação mover atualiza os links se o provedor tiver recursos. Se ele não puder consertar os links ou se este valor não for especificado, a operação mover terá êxito mesmo que os links não sejam consertados.</span><span class="sxs-lookup"><span data-stu-id="0cd4f-p102">Modifies the default behavior of <strong>MoveRecord</strong> method by not updating the hypertext links of the source <strong>Record</strong>. The default behavior depends on the capabilities of the provider. Move operation updates links if the provider is capable. If the provider cannot fix links or if this value is not specified, then the move succeeds even when links have not been fixed.</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-115"><strong>adMoveDontUpdateLinks</strong></span><span class="sxs-lookup"><span data-stu-id="8bc21-115"><strong>adMoveDontUpdateLinks</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bc21-116">2</span><span class="sxs-lookup"><span data-stu-id="8bc21-116">2</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-p102">Modifica o comportamento padrão do método <strong>MoveRecord</strong> por não atualizar os links de hipertexto do <strong>Record</strong> de origem. O comportamento padrão depende dos recursos do provedor. A operação mover atualiza os links se o provedor tiver recursos. Se ele não puder consertar os links ou se este valor não for especificado, a operação mover terá êxito mesmo que os links não sejam consertados.</span><span class="sxs-lookup"><span data-stu-id="8bc21-p102">Modifies the default behavior of <strong>MoveRecord</strong> method by not updating the hypertext links of the source <strong>Record</strong>. The default behavior depends on the capabilities of the provider. Move operation updates links if the provider is capable. If the provider cannot fix links or if this value is not specified, then the move succeeds even when links have not been fixed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cd4f-121"><strong>adMoveAllowEmulation</strong></span><span class="sxs-lookup"><span data-stu-id="0cd4f-121"><strong>adMoveAllowEmulation</strong></span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-122">4</span><span class="sxs-lookup"><span data-stu-id="0cd4f-122">4</span></span></p></td>
-<td><p><span data-ttu-id="0cd4f-p103">Solicita que o provedor tente simular a operação mover (usando as operações download, upload e excluir). Se a tentativa de mover o <strong>Record</strong> falhar porque o URL de destino está em um servidor diferente ou está sendo atendido por um provedor diferente da origem, isso poderá causar um aumento na latência ou a perda de dados, devido aos recursos diferentes do provedor ao mover os recursos entre os provedores.</span><span class="sxs-lookup"><span data-stu-id="0cd4f-p103">Requests that the provider attempt to simulate the move (using download, upload, and delete operations). If the attempt to move the <strong>Record</strong> fails because the destination URL is on a different server or serviced by a different provider than the source, this may cause increased latency or data loss, due to different provider capabilities when moving resources between providers.</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-121"><strong>adMoveAllowEmulation</strong></span><span class="sxs-lookup"><span data-stu-id="8bc21-121"><strong>adMoveAllowEmulation</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bc21-122">4</span><span class="sxs-lookup"><span data-stu-id="8bc21-122">4</span></span></p></td>
+<td><p><span data-ttu-id="8bc21-p103">Solicita que o provedor tente simular a operação mover (usando as operações download, upload e excluir). Se a tentativa de mover o <strong>Record</strong> falhar porque o URL de destino está em um servidor diferente ou está sendo atendido por um provedor diferente da origem, isso poderá causar um aumento na latência ou a perda de dados, devido aos recursos diferentes do provedor ao mover os recursos entre os provedores.</span><span class="sxs-lookup"><span data-stu-id="8bc21-p103">Requests that the provider attempt to simulate the move (using download, upload, and delete operations). If the attempt to move the <strong>Record</strong> fails because the destination URL is on a different server or serviced by a different provider than the source, this may cause increased latency or data loss, due to different provider capabilities when moving resources between providers.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="0cd4f-125">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="0cd4f-125">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="8bc21-125">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="8bc21-125">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="0cd4f-126">Essas constantes não têm ADO/WFC equivalentes.</span><span class="sxs-lookup"><span data-stu-id="0cd4f-126">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="8bc21-126">Essas constantes não têm ADO/WFC equivalentes.</span><span class="sxs-lookup"><span data-stu-id="8bc21-126">These constants do not have ADO/WFC equivalents.</span></span>
 

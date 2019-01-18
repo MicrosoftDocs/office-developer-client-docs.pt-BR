@@ -6,26 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702128"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a><span data-ttu-id="1ead5-102">Método Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ead5-102">Workspace.CreateDatabase method (DAO)</span></span>
+# <a name="workspacecreatedatabase-method-dao"></a><span data-ttu-id="bb57e-102">Método Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb57e-102">Workspace.CreateDatabase method (DAO)</span></span>
 
-<span data-ttu-id="1ead5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ead5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bb57e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb57e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1ead5-104">Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dados no disco e retorna um objeto **Database** aberto (apenas espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="1ead5-104">Creates a new **[Database](database-object-dao.md)** object, saves the database to disk, and returns an opened **Database** object (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="bb57e-104">Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dados no disco e retorna um objeto **Database** aberto (apenas espaços de trabalho do Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="bb57e-104">Creates a new **[Database](database-object-dao.md)** object, saves the database to disk, and returns an opened **Database** object (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1ead5-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="1ead5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb57e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="bb57e-105">Syntax</span></span>
 
-<span data-ttu-id="1ead5-106">*expressão* . CreateDatabase (***nome***, ***Conectar***, ***opção***)</span><span class="sxs-lookup"><span data-stu-id="1ead5-106">*expression* .CreateDatabase(***Name***, ***Connect***, ***Option***)</span></span>
+<span data-ttu-id="bb57e-106">*expressão* . CreateDatabase (***nome***, ***Conectar***, ***opção***)</span><span class="sxs-lookup"><span data-stu-id="bb57e-106">*expression* .CreateDatabase(***Name***, ***Connect***, ***Option***)</span></span>
 
-<span data-ttu-id="1ead5-107">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="1ead5-107">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="bb57e-107">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="bb57e-107">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1ead5-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="1ead5-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb57e-108">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bb57e-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -36,45 +37,45 @@ ms.locfileid: "25996892"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1ead5-109">Nome</span><span class="sxs-lookup"><span data-stu-id="1ead5-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="1ead5-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="1ead5-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="1ead5-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="1ead5-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="1ead5-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="1ead5-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-109">Nome</span><span class="sxs-lookup"><span data-stu-id="bb57e-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-110">Obrigatório/opcional</span><span class="sxs-lookup"><span data-stu-id="bb57e-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="bb57e-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="bb57e-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-113"><em>Nome</em></span><span class="sxs-lookup"><span data-stu-id="1ead5-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="1ead5-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="1ead5-115"><strong>Cadeia de caracteres</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-116">Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando.</span><span class="sxs-lookup"><span data-stu-id="1ead5-116">A String up to 255 characters long that is the name of the database file that you're creating.</span></span> <span data-ttu-id="1ead5-117">Pode ser o nome de arquivo e caminho completo.</span><span class="sxs-lookup"><span data-stu-id="1ead5-117">It can be the full path and file name.</span></span> <span data-ttu-id="1ead5-118">Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;.</span><span class="sxs-lookup"><span data-stu-id="1ead5-118">If your network supports it, you can also specify a network path, such as &quot;\\server1\share1\dir1\db1&quot;.</span></span> <span data-ttu-id="1ead5-119">Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</span><span class="sxs-lookup"><span data-stu-id="1ead5-119">You can only create Microsoft Access database files with this method.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="bb57e-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-114">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="bb57e-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-116">Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando.</span><span class="sxs-lookup"><span data-stu-id="bb57e-116">A String up to 255 characters long that is the name of the database file that you're creating.</span></span> <span data-ttu-id="bb57e-117">Pode ser o nome de arquivo e caminho completo.</span><span class="sxs-lookup"><span data-stu-id="bb57e-117">It can be the full path and file name.</span></span> <span data-ttu-id="bb57e-118">Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;.</span><span class="sxs-lookup"><span data-stu-id="bb57e-118">If your network supports it, you can also specify a network path, such as &quot;\\server1\share1\dir1\db1&quot;.</span></span> <span data-ttu-id="bb57e-119">Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</span><span class="sxs-lookup"><span data-stu-id="bb57e-119">You can only create Microsoft Access database files with this method.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-120"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="1ead5-120"><em>Connect</em></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-121">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="1ead5-121">Required</span></span></p></td>
-<td><p><span data-ttu-id="1ead5-122"><strong>Cadeia de caracteres</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-122"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-120"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="bb57e-120"><em>Connect</em></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-121">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="bb57e-121">Required</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-122"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-122"><strong>String</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="1ead5-p102">Uma expressão de cadeia de caracteres que especifica uma ordem de agrupamento para criar o banco de dados, conforme especificado em Configurações. Você deve fornecer esse argumento ou um erro ocorrerá.</span><span class="sxs-lookup"><span data-stu-id="1ead5-p102">A string expression that specifies a collating order for creating the database, as specified in Settings. You must supply this argument or an error occurs.</span></span></p></li>
-<li><p><span data-ttu-id="1ead5-125">Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres de senha (começando com &quot;; pwd =&quot;) com uma constante no argumento <em>locale</em> , semelhante a esta:</span><span class="sxs-lookup"><span data-stu-id="1ead5-125">You can also create a password for the new <strong>Database</strong> object by concatenating the password string (starting with &quot;;pwd=&quot;) with a constant in the <em>locale</em> argument, like this:</span></span></p></li>
-<li><p><span data-ttu-id="1ead5-126">dbLangSpanish &amp; &quot;; pwd = novasenha&quot;</span><span class="sxs-lookup"><span data-stu-id="1ead5-126">dbLangSpanish &amp; &quot;;pwd=NewPassword&quot;</span></span></p></li>
-<li><p><span data-ttu-id="1ead5-127">Se desejar usar o <em>local</em> padrão, mas especificar uma senha, simplesmente digite uma cadeia de caracteres como senha para o argumento <em>local</em>:</span><span class="sxs-lookup"><span data-stu-id="1ead5-127">If you want to use the default <em>locale</em>, but specify a password, simply enter a password string for the <em>locale</em> argument:</span></span></p></li>
-<li><p><span data-ttu-id="1ead5-128">&quot;; pwd = novasenha&quot;</span><span class="sxs-lookup"><span data-stu-id="1ead5-128">&quot;;pwd=NewPassword&quot;</span></span></p></li>
-<li><p><span data-ttu-id="1ead5-p103">[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</span><span class="sxs-lookup"><span data-stu-id="1ead5-p103">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-p102">Uma expressão de cadeia de caracteres que especifica uma ordem de agrupamento para criar o banco de dados, conforme especificado em Configurações. Você deve fornecer esse argumento ou um erro ocorrerá.</span><span class="sxs-lookup"><span data-stu-id="bb57e-p102">A string expression that specifies a collating order for creating the database, as specified in Settings. You must supply this argument or an error occurs.</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-125">Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres de senha (começando com &quot;; pwd =&quot;) com uma constante no argumento <em>locale</em> , semelhante a esta:</span><span class="sxs-lookup"><span data-stu-id="bb57e-125">You can also create a password for the new <strong>Database</strong> object by concatenating the password string (starting with &quot;;pwd=&quot;) with a constant in the <em>locale</em> argument, like this:</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-126">dbLangSpanish &amp; &quot;; pwd = novasenha&quot;</span><span class="sxs-lookup"><span data-stu-id="bb57e-126">dbLangSpanish &amp; &quot;;pwd=NewPassword&quot;</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-127">Se desejar usar o <em>local</em> padrão, mas especificar uma senha, simplesmente digite uma cadeia de caracteres como senha para o argumento <em>local</em>:</span><span class="sxs-lookup"><span data-stu-id="bb57e-127">If you want to use the default <em>locale</em>, but specify a password, simply enter a password string for the <em>locale</em> argument:</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-128">&quot;; pwd = novasenha&quot;</span><span class="sxs-lookup"><span data-stu-id="bb57e-128">&quot;;pwd=NewPassword&quot;</span></span></p></li>
+<li><p><span data-ttu-id="bb57e-p103">[!OBSERVAçãO] Use senhas fortes que combinem letras maiúsculas e minúsculas, números e símbolos. As senhas fracas não combinam esses elementos. Senha forte: Y6dh!et5. Senha fraca: House27. Use uma senha fraca para que você possa lembrá-la sem precisar escrevê-la.</span><span class="sxs-lookup"><span data-stu-id="bb57e-p103">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-134"><em>Opção</em></span><span class="sxs-lookup"><span data-stu-id="1ead5-134"><em>Option</em></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-135">Opcional</span><span class="sxs-lookup"><span data-stu-id="1ead5-135">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1ead5-136"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-136"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-p104">Uma constante ou combinação de constantes que indica uma ou mais opções, conforme especificado em Configurações. Você pode combinar opções associando as constantes correspondentes.</span><span class="sxs-lookup"><span data-stu-id="1ead5-p104">A constant or combination of constants that indicates one or more options, as specified in Settings. You can combine options by summing the corresponding constants.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-134"><em>Option</em></span><span class="sxs-lookup"><span data-stu-id="bb57e-134"><em>Option</em></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-135">Opcional</span><span class="sxs-lookup"><span data-stu-id="bb57e-135">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-136"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-136"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-p104">Uma constante ou combinação de constantes que indica uma ou mais opções, conforme especificado em Configurações. Você pode combinar opções associando as constantes correspondentes.</span><span class="sxs-lookup"><span data-stu-id="bb57e-p104">A constant or combination of constants that indicates one or more options, as specified in Settings. You can combine options by summing the corresponding constants.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="1ead5-139">Comentários</span><span class="sxs-lookup"><span data-stu-id="1ead5-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb57e-139">Comentários</span><span class="sxs-lookup"><span data-stu-id="bb57e-139">Remarks</span></span>
 
-<span data-ttu-id="1ead5-140">Você pode usar uma das seguintes constantes para o argumento locale a fim de especificar a propriedade [CollatingOrder](database-collatingorder-property-dao.md) do texto para comparações de cadeias de caracteres.</span><span class="sxs-lookup"><span data-stu-id="1ead5-140">You can use one of the following constants for the locale argument to specify the [CollatingOrder](database-collatingorder-property-dao.md) property of text for string comparisons.</span></span>
+<span data-ttu-id="bb57e-140">Você pode usar uma das seguintes constantes para o argumento locale a fim de especificar a propriedade [CollatingOrder](database-collatingorder-property-dao.md) do texto para comparações de cadeias de caracteres.</span><span class="sxs-lookup"><span data-stu-id="bb57e-140">You can use one of the following constants for the locale argument to specify the [CollatingOrder](database-collatingorder-property-dao.md) property of text for string comparisons.</span></span>
 
 <table>
 <colgroup>
@@ -83,101 +84,101 @@ ms.locfileid: "25996892"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1ead5-141">Constante</span><span class="sxs-lookup"><span data-stu-id="1ead5-141">Constant</span></span></p></th>
-<th><p><span data-ttu-id="1ead5-142">Ordem de agrupamento</span><span class="sxs-lookup"><span data-stu-id="1ead5-142">Collating order</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-141">Constante</span><span class="sxs-lookup"><span data-stu-id="bb57e-141">Constant</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-142">Ordem de agrupamento</span><span class="sxs-lookup"><span data-stu-id="bb57e-142">Collating order</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-143"><strong>dbLangGeneral</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-143"><strong>dbLangGeneral</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-144">Inglês, alemão, francês, português, italiano e espanhol moderno</span><span class="sxs-lookup"><span data-stu-id="1ead5-144">English, German, French, Portuguese, Italian, and Modern Spanish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-143"><strong>dbLangGeneral</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-143"><strong>dbLangGeneral</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-144">Inglês, alemão, francês, português, italiano e espanhol moderno</span><span class="sxs-lookup"><span data-stu-id="bb57e-144">English, German, French, Portuguese, Italian, and Modern Spanish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-145"><strong>dbLangArabic</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-145"><strong>dbLangArabic</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-146">Árabe</span><span class="sxs-lookup"><span data-stu-id="1ead5-146">Arabic</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-145"><strong>dbLangArabic</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-145"><strong>dbLangArabic</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-146">Árabe</span><span class="sxs-lookup"><span data-stu-id="bb57e-146">Arabic</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-147"><strong>dbLangChineseSimplified</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-147"><strong>dbLangChineseSimplified</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-148">Chinês simplificado</span><span class="sxs-lookup"><span data-stu-id="1ead5-148">Simplified Chinese</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-147"><strong>dbLangChineseSimplified</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-147"><strong>dbLangChineseSimplified</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-148">Chinês simplificado</span><span class="sxs-lookup"><span data-stu-id="bb57e-148">Simplified Chinese</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-149"><strong>dbLangChineseTraditional</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-149"><strong>dbLangChineseTraditional</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-150">Chinês tradicional</span><span class="sxs-lookup"><span data-stu-id="1ead5-150">Traditional Chinese</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-149"><strong>dbLangChineseTraditional</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-149"><strong>dbLangChineseTraditional</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-150">Chinês tradicional</span><span class="sxs-lookup"><span data-stu-id="bb57e-150">Traditional Chinese</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-151"><strong>dbLangCyrillic</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-151"><strong>dbLangCyrillic</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-152">Russo</span><span class="sxs-lookup"><span data-stu-id="1ead5-152">Russian</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-151"><strong>dbLangCyrillic</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-151"><strong>dbLangCyrillic</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-152">Russo</span><span class="sxs-lookup"><span data-stu-id="bb57e-152">Russian</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-153"><strong>dbLangCzech</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-153"><strong>dbLangCzech</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-154">Tcheco</span><span class="sxs-lookup"><span data-stu-id="1ead5-154">Czech</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-153"><strong>dbLangCzech</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-153"><strong>dbLangCzech</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-154">Tcheco</span><span class="sxs-lookup"><span data-stu-id="bb57e-154">Czech</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-155"><strong>dbLangDutch</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-155"><strong>dbLangDutch</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-156">Holandês</span><span class="sxs-lookup"><span data-stu-id="1ead5-156">Dutch</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-155"><strong>dbLangDutch</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-155"><strong>dbLangDutch</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-156">Holandês</span><span class="sxs-lookup"><span data-stu-id="bb57e-156">Dutch</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-157"><strong>dbLangGreek</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-157"><strong>dbLangGreek</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-158">Grego</span><span class="sxs-lookup"><span data-stu-id="1ead5-158">Greek</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-157"><strong>dbLangGreek</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-157"><strong>dbLangGreek</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-158">Grego</span><span class="sxs-lookup"><span data-stu-id="bb57e-158">Greek</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-159"><strong>dbLangHebrew</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-159"><strong>dbLangHebrew</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-160">Hebraico</span><span class="sxs-lookup"><span data-stu-id="1ead5-160">Hebrew</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-159"><strong>dbLangHebrew</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-159"><strong>dbLangHebrew</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-160">Hebraico</span><span class="sxs-lookup"><span data-stu-id="bb57e-160">Hebrew</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-161"><strong>dbLangHungarian</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-161"><strong>dbLangHungarian</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-162">Húngaro</span><span class="sxs-lookup"><span data-stu-id="1ead5-162">Hungarian</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-161"><strong>dbLangHungarian</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-161"><strong>dbLangHungarian</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-162">Húngaro</span><span class="sxs-lookup"><span data-stu-id="bb57e-162">Hungarian</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-163"><strong>dbLangIcelandic</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-163"><strong>dbLangIcelandic</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-164">Islandês</span><span class="sxs-lookup"><span data-stu-id="1ead5-164">Icelandic</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-163"><strong>dbLangIcelandic</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-163"><strong>dbLangIcelandic</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-164">Islandês</span><span class="sxs-lookup"><span data-stu-id="bb57e-164">Icelandic</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-165"><strong>dbLangJapanese</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-165"><strong>dbLangJapanese</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-166">Japonês</span><span class="sxs-lookup"><span data-stu-id="1ead5-166">Japanese</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-165"><strong>dbLangJapanese</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-165"><strong>dbLangJapanese</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-166">Japonês</span><span class="sxs-lookup"><span data-stu-id="bb57e-166">Japanese</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-167"><strong>dbLangKorean</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-167"><strong>dbLangKorean</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-168">Coreano</span><span class="sxs-lookup"><span data-stu-id="1ead5-168">Korean</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-167"><strong>dbLangKorean</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-167"><strong>dbLangKorean</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-168">Coreano</span><span class="sxs-lookup"><span data-stu-id="bb57e-168">Korean</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-169"><strong>dbLangNordic</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-169"><strong>dbLangNordic</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-170">Idiomas nórdicos (apenas mecanismo de banco de dados do Microsoft Jet versão 1.0)</span><span class="sxs-lookup"><span data-stu-id="1ead5-170">Nordic languages (Microsoft Jet database engine version 1.0 only)</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-169"><strong>dbLangNordic</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-169"><strong>dbLangNordic</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-170">Idiomas nórdicos (apenas mecanismo de banco de dados do Microsoft Jet versão 1.0)</span><span class="sxs-lookup"><span data-stu-id="bb57e-170">Nordic languages (Microsoft Jet database engine version 1.0 only)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-171"><strong>dbLangNorwDan</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-171"><strong>dbLangNorwDan</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-172">Norueguês e dinamarquês</span><span class="sxs-lookup"><span data-stu-id="1ead5-172">Norwegian and Danish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-171"><strong>dbLangNorwDan</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-171"><strong>dbLangNorwDan</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-172">Norueguês e dinamarquês</span><span class="sxs-lookup"><span data-stu-id="bb57e-172">Norwegian and Danish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-173"><strong>dbLangPolish</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-173"><strong>dbLangPolish</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-174">Polonês</span><span class="sxs-lookup"><span data-stu-id="1ead5-174">Polish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-173"><strong>dbLangPolish</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-173"><strong>dbLangPolish</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-174">Polonês</span><span class="sxs-lookup"><span data-stu-id="bb57e-174">Polish</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-175"><strong>dbLangSlovenian</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-175"><strong>dbLangSlovenian</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-176">Esloveno</span><span class="sxs-lookup"><span data-stu-id="1ead5-176">Slovenian</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-175"><strong>dbLangSlovenian</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-175"><strong>dbLangSlovenian</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-176">Esloveno</span><span class="sxs-lookup"><span data-stu-id="bb57e-176">Slovenian</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-177"><strong>dbLangSpanish</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-177"><strong>dbLangSpanish</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-178">Espanhol tradicional</span><span class="sxs-lookup"><span data-stu-id="1ead5-178">Traditional Spanish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-177"><strong>dbLangSpanish</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-177"><strong>dbLangSpanish</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-178">Espanhol tradicional</span><span class="sxs-lookup"><span data-stu-id="bb57e-178">Traditional Spanish</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-179"><strong>dbLangSwedFin</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-179"><strong>dbLangSwedFin</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-180">Sueco e finlandês</span><span class="sxs-lookup"><span data-stu-id="1ead5-180">Swedish and Finnish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-179"><strong>dbLangSwedFin</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-179"><strong>dbLangSwedFin</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-180">Sueco e finlandês</span><span class="sxs-lookup"><span data-stu-id="bb57e-180">Swedish and Finnish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-181"><strong>dbLangThai</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-181"><strong>dbLangThai</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-182">Tailandês</span><span class="sxs-lookup"><span data-stu-id="1ead5-182">Thai</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-181"><strong>dbLangThai</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-181"><strong>dbLangThai</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-182">Tailandês</span><span class="sxs-lookup"><span data-stu-id="bb57e-182">Thai</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-183"><strong>dbLangTurkish</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-183"><strong>dbLangTurkish</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-184">Turco</span><span class="sxs-lookup"><span data-stu-id="1ead5-184">Turkish</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-183"><strong>dbLangTurkish</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-183"><strong>dbLangTurkish</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-184">Turco</span><span class="sxs-lookup"><span data-stu-id="bb57e-184">Turkish</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-<span data-ttu-id="1ead5-185">Você pode usar uma ou mais das seguintes constantes no argumento options para especificar que versão o formato dos dados deve ter e se o banco de dados deve ser criptografado ou não.</span><span class="sxs-lookup"><span data-stu-id="1ead5-185">You can use one or more of the following constants in the options argument to specify which version the data format should have and whether or not to encrypt the database.</span></span>
+<span data-ttu-id="bb57e-185">Você pode usar uma ou mais das seguintes constantes no argumento options para especificar que versão o formato dos dados deve ter e se o banco de dados deve ser criptografado ou não.</span><span class="sxs-lookup"><span data-stu-id="bb57e-185">You can use one or more of the following constants in the options argument to specify which version the data format should have and whether or not to encrypt the database.</span></span>
 
 <table>
 <colgroup>
@@ -186,51 +187,51 @@ ms.locfileid: "25996892"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1ead5-186">Constant</span><span class="sxs-lookup"><span data-stu-id="1ead5-186">Constant</span></span></p></th>
-<th><p><span data-ttu-id="1ead5-187">Descrição</span><span class="sxs-lookup"><span data-stu-id="1ead5-187">Description</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-186">Constant</span><span class="sxs-lookup"><span data-stu-id="bb57e-186">Constant</span></span></p></th>
+<th><p><span data-ttu-id="bb57e-187">Descrição</span><span class="sxs-lookup"><span data-stu-id="bb57e-187">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-188"><strong>dbEncrypt</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-188"><strong>dbEncrypt</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-189">Cria um banco de dados criptografado.</span><span class="sxs-lookup"><span data-stu-id="1ead5-189">Creates an encrypted database.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-188"><strong>dbEncrypt</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-188"><strong>dbEncrypt</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-189">Cria um banco de dados criptografado.</span><span class="sxs-lookup"><span data-stu-id="bb57e-189">Creates an encrypted database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-190"><strong>dbVersion10</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-190"><strong>dbVersion10</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-191">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 1.0.</span><span class="sxs-lookup"><span data-stu-id="1ead5-191">Creates a database that uses the Microsoft Jet database engine version 1.0 file format.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-190"><strong>dbVersion10</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-190"><strong>dbVersion10</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-191">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 1.0.</span><span class="sxs-lookup"><span data-stu-id="bb57e-191">Creates a database that uses the Microsoft Jet database engine version 1.0 file format.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-192"><strong>dbVersion11</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-192"><strong>dbVersion11</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-193">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 1.1.</span><span class="sxs-lookup"><span data-stu-id="1ead5-193">Creates a database that uses the Microsoft Jet database engine version 1.1 file format.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-192"><strong>dbVersion11</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-192"><strong>dbVersion11</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-193">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 1.1.</span><span class="sxs-lookup"><span data-stu-id="bb57e-193">Creates a database that uses the Microsoft Jet database engine version 1.1 file format.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-194"><strong>dbVersion20</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-194"><strong>dbVersion20</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-195">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 2.0.</span><span class="sxs-lookup"><span data-stu-id="1ead5-195">Creates a database that uses the Microsoft Jet database engine version 2.0 file format.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-194"><strong>dbVersion20</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-194"><strong>dbVersion20</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-195">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 2.0.</span><span class="sxs-lookup"><span data-stu-id="bb57e-195">Creates a database that uses the Microsoft Jet database engine version 2.0 file format.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-196"><strong>dbVersion30</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-196"><strong>dbVersion30</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-197">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 3.0 (compatível com a versão 3.5).</span><span class="sxs-lookup"><span data-stu-id="1ead5-197">Creates a database that uses the Microsoft Jet database engine version 3.0 file format (compatible with version 3.5).</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-196"><strong>dbVersion30</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-196"><strong>dbVersion30</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-197">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 3.0 (compatível com a versão 3.5).</span><span class="sxs-lookup"><span data-stu-id="bb57e-197">Creates a database that uses the Microsoft Jet database engine version 3.0 file format (compatible with version 3.5).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ead5-198"><strong>dbVersion40</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-198"><strong>dbVersion40</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-199">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 4.0.</span><span class="sxs-lookup"><span data-stu-id="1ead5-199">Creates a database that uses the Microsoft Jet database engine version 4.0 file format.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-198"><strong>dbVersion40</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-198"><strong>dbVersion40</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-199">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Jet versão 4.0.</span><span class="sxs-lookup"><span data-stu-id="bb57e-199">Creates a database that uses the Microsoft Jet database engine version 4.0 file format.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ead5-200"><strong>dbVersion120</strong></span><span class="sxs-lookup"><span data-stu-id="1ead5-200"><strong>dbVersion120</strong></span></span></p></td>
-<td><p><span data-ttu-id="1ead5-201">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Access versão 12.0.</span><span class="sxs-lookup"><span data-stu-id="1ead5-201">Creates a database that uses the Microsoft Access database engine version 12.0 file format.</span></span></p></td>
+<td><p><span data-ttu-id="bb57e-200"><strong>dbVersion120</strong></span><span class="sxs-lookup"><span data-stu-id="bb57e-200"><strong>dbVersion120</strong></span></span></p></td>
+<td><p><span data-ttu-id="bb57e-201">Cria um banco de dados que usa o formato de arquivo do mecanismo de banco de dados Microsoft Access versão 12.0.</span><span class="sxs-lookup"><span data-stu-id="bb57e-201">Creates a database that uses the Microsoft Access database engine version 12.0 file format.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-<span data-ttu-id="1ead5-202">Se você omitir a constante de criptografia, **CreateDatabase** criará um banco de dados não criptografado.</span><span class="sxs-lookup"><span data-stu-id="1ead5-202">If you omit the encryption constant, **CreateDatabase** creates an un-encrypted database.</span></span>
+<span data-ttu-id="bb57e-202">Se você omitir a constante de criptografia, **CreateDatabase** criará um banco de dados não criptografado.</span><span class="sxs-lookup"><span data-stu-id="bb57e-202">If you omit the encryption constant, **CreateDatabase** creates an un-encrypted database.</span></span>
 
-<span data-ttu-id="1ead5-p105">Use o método **CreateDatabase** para criar e abrir um banco de dados novo e vazio e retornar o objeto **Database**. Você deve completar sua estrutura e seu conteúdo utilizando objetos DAO adicionais. Se você quiser fazer uma cópia parcial ou completa de um banco de dados existente, poderá usar o método **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** para fazer uma cópia que pode ser personalizada.</span><span class="sxs-lookup"><span data-stu-id="1ead5-p105">Use the **CreateDatabase** method to create and open a new, empty database, and return the **Database** object. You must complete its structure and content by using additional DAO objects. If you want to make a partial or complete copy of an existing database, you can use the **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** method to make a copy that you can customize.</span></span>
+<span data-ttu-id="bb57e-p105">Use o método **CreateDatabase** para criar e abrir um banco de dados novo e vazio e retornar o objeto **Database**. Você deve completar sua estrutura e seu conteúdo utilizando objetos DAO adicionais. Se você quiser fazer uma cópia parcial ou completa de um banco de dados existente, poderá usar o método **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** para fazer uma cópia que pode ser personalizada.</span><span class="sxs-lookup"><span data-stu-id="bb57e-p105">Use the **CreateDatabase** method to create and open a new, empty database, and return the **Database** object. You must complete its structure and content by using additional DAO objects. If you want to make a partial or complete copy of an existing database, you can use the **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** method to make a copy that you can customize.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1ead5-206">Exemplo</span><span class="sxs-lookup"><span data-stu-id="1ead5-206">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bb57e-206">Exemplo</span><span class="sxs-lookup"><span data-stu-id="bb57e-206">Example</span></span>
 
-<span data-ttu-id="1ead5-207">Este exemplo usa o **CreateDatabase** para criar um objeto **Database** novo e criptografado.</span><span class="sxs-lookup"><span data-stu-id="1ead5-207">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
+<span data-ttu-id="bb57e-207">Este exemplo usa o **CreateDatabase** para criar um objeto **Database** novo e criptografado.</span><span class="sxs-lookup"><span data-stu-id="bb57e-207">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
 
 ```vb
     Sub CreateDatabaseX() 

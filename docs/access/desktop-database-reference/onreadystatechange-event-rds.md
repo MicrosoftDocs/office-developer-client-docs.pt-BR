@@ -6,28 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
 ms:contentKeyID: 48546126
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 87e6e7718ef99f10dc185104f1f11959e6589c89
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ec2104634d9158d59d488b50d543cf0e57d9bd62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949842"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699727"
 ---
-# <a name="onreadystatechange-event-rds"></a><span data-ttu-id="c3fe5-102">Evento onReadyStateChange (RDS)</span><span class="sxs-lookup"><span data-stu-id="c3fe5-102">onReadyStateChange event (RDS)</span></span>
+# <a name="onreadystatechange-event-rds"></a><span data-ttu-id="bc0ce-102">Evento onReadyStateChange (RDS)</span><span class="sxs-lookup"><span data-stu-id="bc0ce-102">onReadyStateChange event (RDS)</span></span>
 
-<span data-ttu-id="c3fe5-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3fe5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bc0ce-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc0ce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c3fe5-104">O evento **onReadyStateChange** é chamado sempre que o valor da propriedade [ReadyState](readystate-property-rds.md) é alterado.</span><span class="sxs-lookup"><span data-stu-id="c3fe5-104">The **onReadyStateChange** event is called whenever the value of the [ReadyState](readystate-property-rds.md) property changes.</span></span>
+<span data-ttu-id="bc0ce-104">O evento **onReadyStateChange** é chamado sempre que o valor da propriedade [ReadyState](readystate-property-rds.md) é alterado.</span><span class="sxs-lookup"><span data-stu-id="bc0ce-104">The **onReadyStateChange** event is called whenever the value of the [ReadyState](readystate-property-rds.md) property changes.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c3fe5-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="c3fe5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc0ce-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="bc0ce-105">Syntax</span></span>
 
-<span data-ttu-id="c3fe5-106">onReadyStateChange</span><span class="sxs-lookup"><span data-stu-id="c3fe5-106">onReadyStateChange</span></span>
+<span data-ttu-id="bc0ce-106">onReadyStateChange</span><span class="sxs-lookup"><span data-stu-id="bc0ce-106">onReadyStateChange</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="c3fe5-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c3fe5-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bc0ce-107">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="bc0ce-107">Parameters</span></span>
 
-<span data-ttu-id="c3fe5-108">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="c3fe5-108">None.</span></span>
+<span data-ttu-id="bc0ce-108">Nenhum.</span><span class="sxs-lookup"><span data-stu-id="bc0ce-108">None.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c3fe5-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="c3fe5-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc0ce-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="bc0ce-109">Remarks</span></span>
 
-<span data-ttu-id="c3fe5-p101">A propriedade **ReadyState** reflete o andamento de um objeto [RDS.DataControl](datacontrol-object-rds.md) uma vez que ele recupera, de maneira assíncrona, os dados em seu objeto [Recordset](recordset-object-ado.md). Use o evento **onReadyStateChange** para monitorar as alterações na propriedade **ReadyState** sempre que elas ocorrerem. Isso é mais eficiente do que verificar periodicamente o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="c3fe5-p101">The **ReadyState** property reflects the progress of an [RDS.DataControl](datacontrol-object-rds.md) object as it asynchronously retrieves data into its [Recordset](recordset-object-ado.md) object. Use the **onReadyStateChange** event to monitor changes in the **ReadyState** property whenever they occur. This is more efficient than periodically checking the property's value.</span></span>
+<span data-ttu-id="bc0ce-p101">A propriedade **ReadyState** reflete o andamento de um objeto [RDS.DataControl](datacontrol-object-rds.md) uma vez que ele recupera, de maneira assíncrona, os dados em seu objeto [Recordset](recordset-object-ado.md). Use o evento **onReadyStateChange** para monitorar as alterações na propriedade **ReadyState** sempre que elas ocorrerem. Isso é mais eficiente do que verificar periodicamente o valor da propriedade.</span><span class="sxs-lookup"><span data-stu-id="bc0ce-p101">The **ReadyState** property reflects the progress of an [RDS.DataControl](datacontrol-object-rds.md) object as it asynchronously retrieves data into its [Recordset](recordset-object-ado.md) object. Use the **onReadyStateChange** event to monitor changes in the **ReadyState** property whenever they occur. This is more efficient than periodically checking the property's value.</span></span>
 
