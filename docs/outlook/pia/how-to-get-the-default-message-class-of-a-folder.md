@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184594(v=office.15)
 ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: c03e0737a3dd2e74f39d90ffbac31bb134d16348
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: bef6ebe051e669b831dfee752b1b17db0a9023b8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407216"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705271"
 ---
 # <a name="get-the-default-message-class-of-a-folder"></a>Obter a classe de mensagem padrão de uma pasta
 
@@ -24,7 +25,7 @@ Este exemplo mostra como usar a propriedade [DefaultMessageClass](https://msdn.m
 
 Para obter a classe de mensagem padrão para uma pasta, use a propriedade **DefaultMessageClass** do objeto [MAPIFolder](https://msdn.microsoft.com/library/bb624369\(v=office.15\)). Por exemplo, um objeto [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) com **DefaultMessageClass** de IPM.Contact significa que ele representa uma pasta Contact. No entanto, se a pasta tiver um formulário personalizado ou um formulário de substituição como um formulário padrão, você deverá usar o objeto [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) para determinar a classe da mensagem do formulário padrão. A propriedade **DefaultMessageClass** não retorna a classe de mensagem do formulário padrão da pasta.
 
-No exemplo de código a seguir, o procedimento GetDefaultMessageClass usa o **PropertyAccessor** para determinar o formulário padrão de uma pasta. Se a propriedade da pasta **PR\_DEF\_POST\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) não for encontrada e o Outlook gerar um erro, o bloco **try…catch** retorna a propriedade **DefaultMessageClass** para **Folder**.
+No exemplo de código a seguir, o procedimento GetDefaultMessageClass usa o **PropertyAccessor** para determinar o formulário padrão de uma pasta. Se a propriedade pasta **PR\_DEF\_POST\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) não for encontrado e Outlook gerará um erro, o bloco **try … catch** retorna a propriedade **DefaultMessageClass** para o **Pasta**.
 
 Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 

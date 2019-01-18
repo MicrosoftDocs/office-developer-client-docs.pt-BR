@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d71dd44d2dfc39124c5300d2597f5d8ed1e95ebb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395410"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723030"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -69,6 +69,9 @@ CCSF_INCLUDE_BCC
 CCSF_USE_RTF
   
 > O corpo de HTML do fluxo de MIME deve ser convertido para formato Rich Text (RTF) na mensagem de MAPI.
+
+CCSF_GLOBAL_MESSAGE
+> O conversor deve manipular o fluxo MIME como uma mensagem internacional (EAI/RFC6530). Não suportado no Outlook 2013.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -108,5 +111,5 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

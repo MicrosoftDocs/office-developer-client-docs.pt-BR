@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 27fc8630c8e2eb0b491dbb5075f4c58aacec7f93
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406243"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717752"
 ---
 # <a name="enumerate-and-add-categories"></a>Enumerar e adicionar categorias
 
@@ -40,7 +41,7 @@ Para expor o recurso de categorias, o modelo de objeto do Outlook fornece o obje
 
 Essas propriedades retornam um valor**cor\_OLE** valor dependente da **propriedade** cor do **objeto** categoria.
 
-Itens do Outlook são exibidos com base no nome da categoria. Cada objeto do item tem a propriedade**categorias**que armazena uma cadeia de caracteres delimitada por vírgula e que representa os nomes das categorias. (Por exemplo, para o objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)), use o**MailItem** [na propriedade](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) categorias). Isso permite que você adicione uma categoria para o item, mesmo se a categoria não estiver presente na lista de categorias.
+Itens do Outlook são exibidos com base no nome da categoria. Cada objeto do item tem a propriedade**categorias**que armazena uma cadeia de caracteres delimitada por vírgula e que representa os nomes das categorias. (Por exemplo, para o objeto [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , você usaria a propriedade [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) **MailItem**). Isso permite que você adicione uma categoria para o item, mesmo se a categoria não estiver presente na lista de categorias.
 
 
 > [!NOTE]

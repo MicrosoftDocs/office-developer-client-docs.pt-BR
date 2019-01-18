@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184640(v=office.15)
 ms:contentKeyID: 55119900
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: fbb3b6aa9bed2e08eb11cb58090233d271e5fed3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: b3bde66fd07a39aa8a63219876b9bdbcf72e00f7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406446"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717675"
 ---
 # <a name="enumerate-items-in-a-table-view"></a>Enumerar itens em um modo de exibição de tabela
 

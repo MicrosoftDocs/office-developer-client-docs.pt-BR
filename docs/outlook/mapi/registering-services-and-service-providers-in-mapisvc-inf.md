@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Modificado pela última vez: 18 de julho de 2013'
-ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: adc6318ab36818b4c423bb6b1dc1b083b3fb54eb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399547"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706881"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Registrar provedores de serviços e serviços no MapiSvc.inf
 
@@ -48,6 +48,6 @@ Além disso, o caminho que você usar pode ser convertido em Unicode usando a p�
 > [!CAUTION]
 > Fica falha se você escolher um caminho que contém caracteres que não podem sobreviver tal uma ida e volta por meio das funções [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) e [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
   
-Para obter uma demonstração dessa funcionalidade, a [amostra de PST quebrado automaticamente](https://ol2010mapisamples.codeplex.com/) no CodePlex foi revisado - a funcionalidade pertinente está em **MergeWithMapiSvc** e **GenerateProviderPath**.
+Para obter uma demonstração dessa funcionalidade, a [amostra de PST quebrado automaticamente](https://github.com/stephenegriffin/Outlook2010CodeSamples) no GitHub foi revisado - a funcionalidade pertinente está em **MergeWithMapiSvc** e **GenerateProviderPath**.
   
 
