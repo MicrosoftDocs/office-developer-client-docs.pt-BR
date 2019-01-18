@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d93cd1f094d52bc6f9ccfd3ab64d2fa17f766356
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891097"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715316"
 ---
-# <a name="clone-method-example-vbscript"></a><span data-ttu-id="8bdcb-102">Exemplo do método Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8bdcb-102">Clone method example (VBScript)</span></span>
+# <a name="clone-method-example-vbscript"></a><span data-ttu-id="dae6e-102">Exemplo do método Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="dae6e-102">Clone method example (VBScript)</span></span>
 
 
-<span data-ttu-id="8bdcb-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bdcb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dae6e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="dae6e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8bdcb-104">Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.</span><span class="sxs-lookup"><span data-stu-id="8bdcb-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="dae6e-104">Este exemplo utiliza o método [Clone](clone-method-ado.md) para criar cópias de um [Recordset](recordset-object-ado.md) e, em seguida, permite que o usuário posicione o ponteiro do registro de cada cópia de forma independente.</span><span class="sxs-lookup"><span data-stu-id="dae6e-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
-<span data-ttu-id="8bdcb-p101">Utilize o exemplo a seguir em um Active Server Page (ASP). Esse exemplo utiliza o banco de dados Northwind distribuído com o Microsoft Access. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **CloneVBS.asp**. É possível ver o resultado em qualquer navegador cliente.</span><span class="sxs-lookup"><span data-stu-id="8bdcb-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="dae6e-p101">Utilize o exemplo a seguir em um Active Server Page (ASP). Esse exemplo utiliza o banco de dados Northwind distribuído com o Microsoft Access. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **CloneVBS.asp**. É possível ver o resultado em qualquer navegador cliente.</span><span class="sxs-lookup"><span data-stu-id="dae6e-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="8bdcb-109">Para exercitar o exemplo, altere a linha RsCustomerList.Source = "Customers" para a RsCustomerList.Source = "Products" para contar uma tabela maior.</span><span class="sxs-lookup"><span data-stu-id="8bdcb-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
+<span data-ttu-id="dae6e-109">Para exercitar o exemplo, altere a linha RsCustomerList.Source = "Customers" para a RsCustomerList.Source = "Products" para contar uma tabela maior.</span><span class="sxs-lookup"><span data-stu-id="dae6e-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
 
 ```vb 
  

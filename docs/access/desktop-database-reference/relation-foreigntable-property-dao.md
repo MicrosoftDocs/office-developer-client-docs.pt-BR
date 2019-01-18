@@ -10,39 +10,40 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dcd454bc1c570e119cc8948acb8077a54649db84
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fc7ee9b5bc832cc2a125024c592db2c7b13e72f7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921709"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718970"
 ---
-# <a name="relationforeigntable-property-dao"></a><span data-ttu-id="014e4-102">Propriedade Relation.ForeignTable (DAO)</span><span class="sxs-lookup"><span data-stu-id="014e4-102">Relation.ForeignTable property (DAO)</span></span>
+# <a name="relationforeigntable-property-dao"></a><span data-ttu-id="fc58d-102">Propriedade Relation.ForeignTable (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc58d-102">Relation.ForeignTable property (DAO)</span></span>
 
 
-<span data-ttu-id="014e4-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="014e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc58d-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc58d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="014e4-p101">Define ou retorna o nome da tabela externa em uma relação (apenas espaços de trabalho do Microsoft Access). .</span><span class="sxs-lookup"><span data-stu-id="014e4-p101">Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="fc58d-p101">Define ou retorna o nome da tabela externa em uma relação (apenas espaços de trabalho do Microsoft Access). .</span><span class="sxs-lookup"><span data-stu-id="fc58d-p101">Sets or returns the name of the foreign table in a relationship (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="014e4-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="014e4-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fc58d-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fc58d-106">Syntax</span></span>
 
-<span data-ttu-id="014e4-107">*expressão* . ForeignTable</span><span class="sxs-lookup"><span data-stu-id="014e4-107">*expression* .ForeignTable</span></span>
+<span data-ttu-id="fc58d-107">*expressão* . ForeignTable</span><span class="sxs-lookup"><span data-stu-id="fc58d-107">*expression* .ForeignTable</span></span>
 
-<span data-ttu-id="014e4-108">*expressão* Uma variável que representa um objeto **Relation** .</span><span class="sxs-lookup"><span data-stu-id="014e4-108">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="fc58d-108">*expressão* Uma variável que representa um objeto **Relation** .</span><span class="sxs-lookup"><span data-stu-id="fc58d-108">*expression* A variable that represents a **Relation** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="014e4-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="014e4-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc58d-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="fc58d-109">Remarks</span></span>
 
-<span data-ttu-id="014e4-110">Essa propriedade é leitura/gravação para um novo objeto **[Relation](relation-object-dao.md)** ainda não acrescentado a uma coleção e somente leitura para um objeto **Relation** existente na coleção **[Relations](relations-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="014e4-110">This property is read/write for a new **[Relation](relation-object-dao.md)** object not yet appended to a collection and read-only for an existing **Relation** object in the **[Relations](relations-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="fc58d-110">Essa propriedade é leitura/gravação para um novo objeto **[Relation](relation-object-dao.md)** ainda não acrescentado a uma coleção e somente leitura para um objeto **Relation** existente na coleção **[Relations](relations-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="fc58d-110">This property is read/write for a new **[Relation](relation-object-dao.md)** object not yet appended to a collection and read-only for an existing **Relation** object in the **[Relations](relations-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="014e4-111">A definição da propriedade **ForeignTable** de um objeto **Relation** é a definição da propriedade **[Name](connection-name-property-dao.md)** de **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** que representa a tabela ou consulta externa; a definição da propriedade **[Table](relation-table-property-dao.md)** é a definição de propriedade **Name** do objeto **TableDef** ou **QueryDef** que representa a tabela primária ou consulta.</span><span class="sxs-lookup"><span data-stu-id="014e4-111">The **ForeignTable** property setting of a **Relation** object is the **[Name](connection-name-property-dao.md)** property setting of the **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** object that represents the foreign table or query; the **[Table](relation-table-property-dao.md)** property setting is the **Name** property setting of the **TableDef** or **QueryDef** object that represents the primary table or query.</span></span>
+<span data-ttu-id="fc58d-111">A definição da propriedade **ForeignTable** de um objeto **Relation** é a definição da propriedade **[Name](connection-name-property-dao.md)** de **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)** que representa a tabela ou consulta externa; a definição da propriedade **[Table](relation-table-property-dao.md)** é a definição de propriedade **Name** do objeto **TableDef** ou **QueryDef** que representa a tabela primária ou consulta.</span><span class="sxs-lookup"><span data-stu-id="fc58d-111">The **ForeignTable** property setting of a **Relation** object is the **[Name](connection-name-property-dao.md)** property setting of the **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** object that represents the foreign table or query; the **[Table](relation-table-property-dao.md)** property setting is the **Name** property setting of the **TableDef** or **QueryDef** object that represents the primary table or query.</span></span>
 
-<span data-ttu-id="014e4-p102">Por exemplo, se você tiver uma lista dos códigos de peça válidos (em um campo chamado PartNo) armazenada em uma tabela ValidParts, poderá estabelecer uma relação com uma tabela OrderItem de forma que, se um código de peça for inserido na tabela OrderItem, ele já deverá existir na tabela ValidParts. Se o código de peça não existir na tabela ValidParts e você não tiver definido a propriedade **[Attributes](field-attributes-property-dao.md)** do objeto **Relation** como **dbRelationDontEnforce**, ocorrerá um erro interceptável.</span><span class="sxs-lookup"><span data-stu-id="014e4-p102">For example, if you had a list of valid part codes (in a field named PartNo) stored in a ValidParts table, you could establish a relationship with an OrderItem table such that if a part code were entered into the OrderItem table, it would have to already be in the ValidParts table. If the part code didn't exist in the ValidParts table and you had not set the **[Attributes](field-attributes-property-dao.md)** property of the **Relation** object to **dbRelationDontEnforce**, a trappable error would occur.</span></span>
+<span data-ttu-id="fc58d-p102">Por exemplo, se você tiver uma lista dos códigos de peça válidos (em um campo chamado PartNo) armazenada em uma tabela ValidParts, poderá estabelecer uma relação com uma tabela OrderItem de forma que, se um código de peça for inserido na tabela OrderItem, ele já deverá existir na tabela ValidParts. Se o código de peça não existir na tabela ValidParts e você não tiver definido a propriedade **[Attributes](field-attributes-property-dao.md)** do objeto **Relation** como **dbRelationDontEnforce**, ocorrerá um erro interceptável.</span><span class="sxs-lookup"><span data-stu-id="fc58d-p102">For example, if you had a list of valid part codes (in a field named PartNo) stored in a ValidParts table, you could establish a relationship with an OrderItem table such that if a part code were entered into the OrderItem table, it would have to already be in the ValidParts table. If the part code didn't exist in the ValidParts table and you had not set the **[Attributes](field-attributes-property-dao.md)** property of the **Relation** object to **dbRelationDontEnforce**, a trappable error would occur.</span></span>
 
-<span data-ttu-id="014e4-p103">Nesse caso, a tabela ValidParts seria uma tabela primária e, por esse motivo, a propriedade **Table** do objeto **Relation** seria definida como ValidParts e a propriedade **ForeignTable** do objeto **Relation** seria definida como OrderItem. As propriedades **Name** e **ForeignName** do objeto **Field** na coleção **Fields** do objeto **Relation** seriam definidas como PartNo.</span><span class="sxs-lookup"><span data-stu-id="014e4-p103">In this case, the ValidParts table is the primary table, so the **Table** property of the **Relation** object would be set to ValidParts and the **ForeignTable** property of the **Relation** object would be set to OrderItem. The **Name** and **ForeignName** properties of the **Field** object in the **Relation** object's **Fields** collection would be set to PartNo.</span></span>
+<span data-ttu-id="fc58d-p103">Nesse caso, a tabela ValidParts seria uma tabela primária e, por esse motivo, a propriedade **Table** do objeto **Relation** seria definida como ValidParts e a propriedade **ForeignTable** do objeto **Relation** seria definida como OrderItem. As propriedades **Name** e **ForeignName** do objeto **Field** na coleção **Fields** do objeto **Relation** seriam definidas como PartNo.</span><span class="sxs-lookup"><span data-stu-id="fc58d-p103">In this case, the ValidParts table is the primary table, so the **Table** property of the **Relation** object would be set to ValidParts and the **ForeignTable** property of the **Relation** object would be set to OrderItem. The **Name** and **ForeignName** properties of the **Field** object in the **Relation** object's **Fields** collection would be set to PartNo.</span></span>
 
-## <a name="example"></a><span data-ttu-id="014e4-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="014e4-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fc58d-116">Exemplo</span><span class="sxs-lookup"><span data-stu-id="fc58d-116">Example</span></span>
 
-<span data-ttu-id="014e4-117">Esse exemplo mostra como as propriedades **Table**, **ForeignTable** e **ForeignName** definem os termos de um **Relation** entre as duas tabelas.</span><span class="sxs-lookup"><span data-stu-id="014e4-117">This example shows how the **Table**, **ForeignTable**, and **ForeignName** properties define the terms of a **Relation** between two tables.</span></span>
+<span data-ttu-id="fc58d-117">Esse exemplo mostra como as propriedades **Table**, **ForeignTable** e **ForeignName** definem os termos de um **Relation** entre as duas tabelas.</span><span class="sxs-lookup"><span data-stu-id="fc58d-117">This example shows how the **Table**, **ForeignTable**, and **ForeignName** properties define the terms of a **Relation** between two tables.</span></span>
 
 ```vb 
     Sub ForeignNameX() 

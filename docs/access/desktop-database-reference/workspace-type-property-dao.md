@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
 ms:contentKeyID: 48546177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c715da6ec535d90397b49e47be6ca76a72e5685
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e698963d60809e8d88c4ff87532fb7b74cff275c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926770"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722680"
 ---
-# <a name="workspacetype-property-dao"></a><span data-ttu-id="3d079-102">Propriedade Workspace.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="3d079-102">Workspace.Type property (DAO)</span></span>
+# <a name="workspacetype-property-dao"></a><span data-ttu-id="fa93a-102">Propriedade Workspace.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa93a-102">Workspace.Type property (DAO)</span></span>
 
 
-<span data-ttu-id="3d079-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d079-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fa93a-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa93a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3d079-p101">Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="3d079-p101">Sets or returns a value that indicates the operational type or data type of an object. Read-only **Integer**.</span></span>
+<span data-ttu-id="fa93a-p101">Define ou retorna um valor que indica o tipo operacional ou o tipo de dados de um objeto. **Integer** somente leitura.</span><span class="sxs-lookup"><span data-stu-id="fa93a-p101">Sets or returns a value that indicates the operational type or data type of an object. Read-only **Integer**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3d079-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="3d079-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fa93a-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="fa93a-106">Syntax</span></span>
 
-<span data-ttu-id="3d079-107">*expressão* . Tipo</span><span class="sxs-lookup"><span data-stu-id="3d079-107">*expression* .Type</span></span>
+<span data-ttu-id="fa93a-107">*expressão* . Tipo</span><span class="sxs-lookup"><span data-stu-id="fa93a-107">*expression* .Type</span></span>
 
-<span data-ttu-id="3d079-108">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="3d079-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="fa93a-108">*expressão* Uma variável que representa um objeto **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="fa93a-108">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3d079-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="3d079-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fa93a-109">Comentários</span><span class="sxs-lookup"><span data-stu-id="fa93a-109">Remarks</span></span>
 
-<span data-ttu-id="3d079-110">Para um objeto **Workspace**, as configurações e valores de retorno possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="3d079-110">For a **Workspace** object, the possible settings and return values are as follows.</span></span>
+<span data-ttu-id="fa93a-110">Para um objeto **Workspace**, as configurações e valores de retorno possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="fa93a-110">For a **Workspace** object, the possible settings and return values are as follows.</span></span>
 
 <table>
 <colgroup>
@@ -37,18 +38,18 @@ ms.locfileid: "25926770"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3d079-111">Constante</span><span class="sxs-lookup"><span data-stu-id="3d079-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="3d079-112">Tipo de Workspace</span><span class="sxs-lookup"><span data-stu-id="3d079-112">Workspace type</span></span></p></th>
+<th><p><span data-ttu-id="fa93a-111">Constante</span><span class="sxs-lookup"><span data-stu-id="fa93a-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="fa93a-112">Tipo de Workspace</span><span class="sxs-lookup"><span data-stu-id="fa93a-112">Workspace type</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3d079-113"><strong>dbUseJet</strong></span><span class="sxs-lookup"><span data-stu-id="3d079-113"><strong>dbUseJet</strong></span></span></p></td>
-<td><p><span data-ttu-id="3d079-114">O <strong>Workspace </strong> está conectado ao mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="3d079-114">The <strong>Workspace</strong> is connected to the Microsoft Access database engine.</span></span></p></td>
+<td><p><span data-ttu-id="fa93a-113"><strong>dbUseJet</strong></span><span class="sxs-lookup"><span data-stu-id="fa93a-113"><strong>dbUseJet</strong></span></span></p></td>
+<td><p><span data-ttu-id="fa93a-114">O <strong>Workspace </strong> está conectado ao mecanismo de banco de dados do Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="fa93a-114">The <strong>Workspace</strong> is connected to the Microsoft Access database engine.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3d079-115"><strong>dbUseODBC</strong></span><span class="sxs-lookup"><span data-stu-id="3d079-115"><strong>dbUseODBC</strong></span></span></p></td>
-<td><p><span data-ttu-id="3d079-116">O <strong>Workspace</strong> está conectado a uma fontes de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="3d079-116">The <strong>Workspace</strong> is connected to an ODBC data source.</span></span></p></td>
+<td><p><span data-ttu-id="fa93a-115"><strong>dbUseODBC</strong></span><span class="sxs-lookup"><span data-stu-id="fa93a-115"><strong>dbUseODBC</strong></span></span></p></td>
+<td><p><span data-ttu-id="fa93a-116">O <strong>Workspace</strong> está conectado a uma fontes de dados ODBC.</span><span class="sxs-lookup"><span data-stu-id="fa93a-116">The <strong>Workspace</strong> is connected to an ODBC data source.</span></span></p></td>
 </tr>
 </tbody>
 </table>

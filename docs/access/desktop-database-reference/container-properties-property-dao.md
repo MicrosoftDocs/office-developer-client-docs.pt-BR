@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192073(v=office.15)
 ms:contentKeyID: 48543917
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bbdb8cc16de2877c3165b00bd76c0935c1b3b4a4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 622d5edca3832d212ff7b9a5ed8a01c2c981e49e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921373"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717829"
 ---
-# <a name="containerproperties-property-dao"></a><span data-ttu-id="77fb8-102">Propriedade Container.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="77fb8-102">Container.Properties property (DAO)</span></span>
+# <a name="containerproperties-property-dao"></a><span data-ttu-id="32e8b-102">Propriedade Container.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="32e8b-102">Container.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="77fb8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="77fb8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="32e8b-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="32e8b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="77fb8-p101">Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="77fb8-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="32e8b-p101">Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="32e8b-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="77fb8-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="77fb8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="32e8b-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="32e8b-106">Syntax</span></span>
 
-<span data-ttu-id="77fb8-107">*expressão* . Propriedades</span><span class="sxs-lookup"><span data-stu-id="77fb8-107">*expression* .Properties</span></span>
+<span data-ttu-id="32e8b-107">*expressão* . Propriedades</span><span class="sxs-lookup"><span data-stu-id="32e8b-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="77fb8-108">*expressão* Uma variável que representa um objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="77fb8-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="32e8b-108">*expressão* Uma variável que representa um objeto **Container** .</span><span class="sxs-lookup"><span data-stu-id="32e8b-108">*expression* A variable that represents a **Container** object.</span></span>
 
