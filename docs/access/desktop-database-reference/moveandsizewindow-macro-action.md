@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c1b127995a2f9a0af7da80e9df862259b570870e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998809"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721644"
 ---
 # <a name="moveandsizewindow-macro-action"></a>Ação da macro MovereDimensionarJanela
 
@@ -40,7 +41,7 @@ A ação **Moveredimensionarjanela** tem os seguintes argumentos.
 <td><p>A nova posição horizontal do canto superior esquerdo da janela, medida a partir da extremidade esquerda da janela. Insira a posição na caixa <strong>direita</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Down</strong></p></td>
+<td><p><strong>Inativo</strong></p></td>
 <td><p>A nova posição vertical do canto superior esquerdo da janela, medida a partir da extremidade superior da janela.</p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +121,7 @@ A macro a seguir abre um formulário de lista de produtos no canto inferior dire
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: NomeDaEmpresa</p></td>
 <td><p>Mova o foco para o controle NomeDaEmpresa.</p></td>
 </tr>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194079(v=office.15)
 ms:contentKeyID: 48544881
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c151868e349621d964f61058cfe82458764cf443
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 61f60567ac170a0ecde2d4bd46589d2308b7788f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929087"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700367"
 ---
 # <a name="recordsetbatchcollisions-property-dao"></a>Propriedade Recordset.BatchCollisions (DAO)
 

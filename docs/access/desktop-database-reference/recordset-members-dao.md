@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab0a04fd7282c983bd200a16108babf5e40d240c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c36187eef0b55681b2ba426d979f42ee8a6efea8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026306"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716779"
 ---
 # <a name="recordset-members-dao"></a>Membros do conjunto de registros (DAO)
 
@@ -39,7 +40,7 @@ Um objeto Recordset representa os registros em uma tabela base ou os registros r
 <td><p>Cria um novo registro para um objeto <strong><a href="recordset-object-dao.md">Recordset</a></strong> atualizável.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-cancel-method-dao.md">Cancel</a></strong></p></td>
+<td><p><strong><a href="recordset-cancel-method-dao.md">Cancelar</a></strong></p></td>
 <td><p><strong>Observação</strong>: não há suporte para os espaços de trabalho ODBCDirect no Microsoft Access 2013. Use o ADO se você quiser acessar fontes de dado externas sem usar o mecanismo de banco de dados do Microsoft Access.</p>
 <p>Cancela a execução de uma chamada assíncrona pendente do método (apenas espaços de trabalho ODBCDirect).</p></td>
 </tr>
@@ -211,7 +212,7 @@ Um objeto Recordset representa os registros em uma tabela base ou os registros r
 <td><p>Retorna uma coleção <strong>Fields</strong> que representa todos os objetos <strong>Field</strong> armazenados para o objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-filter-property-dao.md">Filter</a></strong></p></td>
+<td><p><strong><a href="recordset-filter-property-dao.md">Filtro</a></strong></p></td>
 <td><p>Define ou retornar um valor que determina os registros incluídos em um objeto <strong>Recordset</strong> aberto subsequentemente (somente espaços de trabalho do Microsoft Access). <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="even">

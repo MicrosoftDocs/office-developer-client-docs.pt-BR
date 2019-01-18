@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1de2b13892ceda1cf34758414d38e649545f229e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998270"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716877"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Método Database.CreateRelation (DAO)
 
@@ -48,7 +49,7 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina exclusivamente o novo objeto <strong>Relation</strong>. Consulte a propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> para obter detalhes sobre nomes válidos de <strong>Relation</strong>.</p></td>
@@ -66,7 +67,7 @@ Cria um novo objeto **[Relation](relation-object-dao.md)** (apenas espaços de t
 <td><p>Um <strong>Variant</strong> (subtipo <strong>String</strong>) que denomina a tabela externa na relação. Se a tabela não existir antes de você acrescentar o objeto <strong>Relation</strong>, ocorrerá um erro em tempo de execução.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Attributes</em></p></td>
+<td><p><em>Atributos</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que contém informações sobre o tipo de relação. Consulte a propriedade <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> para obter detalhes.</p></td>

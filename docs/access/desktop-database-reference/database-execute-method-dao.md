@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13568f689d9e5b4e4533969192de7af65ea1f8ec
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 5a2ebbb549e309349695d93618f4522a2dbf7a7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997823"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714504"
 ---
 # <a name="databaseexecute-method-dao"></a>Método Database.Execute (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fa1474b12665b38c0e2e60dde953eb6082d9430
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 68a4583fd96682622476f523e6e5d6129b3be575
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997990"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701379"
 ---
 # <a name="workspacesdelete-method-dao"></a>Método Workspaces.Delete (DAO)
 
@@ -44,9 +45,9 @@ Exclui o formulário **Workspace** especificado da coleção **Workspaces**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>O nome do espaço de trabalho a ser excluído.</p></td>
 </tr>
 </tbody>

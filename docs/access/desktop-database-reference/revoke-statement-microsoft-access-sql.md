@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c3a7a64eee4617c07c1a655e34223f0531e16b18
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890894"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698446"
 ---
 # <a name="revoke-statement-microsoft-access-sql"></a>REVOGAR instrução (Microsoft Access SQL)
 
@@ -52,7 +53,7 @@ A instrução REVOKE contém estas partes:
 <td><p>Nenhum nome de tabela válido.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>object</em></p></td>
+<td><p><em>objeto</em></p></td>
 <td><p>Isso pode incluir qualquer objeto não-tabela. Uma consulta armazenada (visualização ou procedimento) é um exemplo.</p></td>
 </tr>
 <tr class="even">

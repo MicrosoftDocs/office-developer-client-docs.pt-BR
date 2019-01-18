@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124391(v=office.15)
 ms:contentKeyID: 52072025
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b693069acfe115e6e2028ae0083fa726151c8aed
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6b3ad3158e8826e3144a9918382266abad16c8e3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947333"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716485"
 ---
 # <a name="working-with-other-applications-access"></a>Trabalhando com outros aplicativos (Access)
 
 **Aplica-se a**: Access 2013, o Office 2013
 
 - [Automação com o Microsoft Access](automation-with-microsoft-access.md)
-- [Use o ActiveX Data Objects](using-activex-data-objects.md)
+- [Usar ADO (ActiveX Data Objects)](using-activex-data-objects.md)
 - [Usar o Microsoft Access como um servidor DDE](use-microsoft-access-as-a-dde-server.md)
 
 

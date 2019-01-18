@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c5b0f03e135f4e00b3ca9d6be7417bfe0e5047e6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0d0da48080b64e43cc39b9567275e1a8755a8881
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946577"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722568"
 ---
 # <a name="limits-of-a-recordset"></a>Limites de um conjunto de registros
 

@@ -8,12 +8,13 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860578"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718781"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>Instrução SELECT (Microsoft Access SQL)
 
@@ -113,7 +114,7 @@ AS HeadCount FROM Employees;
 
 Você pode usar as outras cláusulas em uma declaração SELECT para restringir e organizar melhor os seus dados retornados. Para saber mais, consulte o tópico de Ajuda para a cláusula que você está usando.
 
-**Os links fornecidos pela** comunidade [UtterAccess](https://www.utteraccess.com) . UtterAccess é o fórum principal de wiki e a Ajuda do Microsoft Access.
+**Links fornecidos por** a comunidade [UtterAccess](https://www.utteraccess.com). UtterAccess é o fórum principal de wiki e de ajuda do Microsoft Access.
 
 - [SQL to VBA Formatter](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 

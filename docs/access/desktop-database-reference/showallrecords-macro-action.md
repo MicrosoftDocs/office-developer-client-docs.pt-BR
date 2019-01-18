@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4ea531de8c5b99c9ff85eacddcc79a596caebd5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922038"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721056"
 ---
 # <a name="showallrecords-macro-action"></a>Ação da macro MostrarTodosRegistros
 
@@ -95,7 +96,7 @@ A macro a seguir contém um conjunto de ações, sendo que cada uma filtra os re
 </tr>
 <tr class="odd">
 <td><p>[RecordsetClone]. [RecordCount] &gt;0</p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: NomeDaEmpresa</p></td>
 <td><p>Se os registros forem retornados para a letra selecionada, mova o foco para o controle NomeDaEmpresa.</p></td>
 </tr>

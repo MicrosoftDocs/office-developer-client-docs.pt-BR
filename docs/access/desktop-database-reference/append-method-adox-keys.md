@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d99af00f1ad83087994737f5bb3ca29acf2a9deb
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c301f6809ab7f785497637b12e0b5d7a0bb7772d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949814"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718900"
 ---
 # <a name="append-method-adox-keys"></a>Método Append (Chaves do ADOX)
 
@@ -27,7 +28,7 @@ Adiciona um novo objeto [Key](key-object-adox.md) à coleção [Keys](keys-colle
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Key* |O objeto **Key** a ser anexado ou o nome da chave a ser criada e anexada.|
+|*Tecla* |O objeto **Key** a ser anexado ou o nome da chave a ser criada e anexada.|
 |*KeyType* |Opcional. Um valor **Long** que especifica o tipo de chave. O parâmetro *Key* corresponde à propriedade [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) de um objeto **Key** .|
 |*Column* |Opcional. Um valor **String** que especifica o nome da coluna a ser indexada. O parâmetro *Columns* corresponde ao valor da propriedade [Name](name-property-adox.md) de um objeto [Column](column-object-adox.md) .|
 |*RelatedTable* |Opcional. Um valor **String** que especifica o nome da tabela relacionada. O parâmetro *RelatedTable* corresponde ao valor da propriedade **Name** de um objeto [Table](table-object-adox.md) .|

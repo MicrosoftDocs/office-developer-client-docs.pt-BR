@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248800(v=office.15)
 ms:contentKeyID: 48542981
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13ca1f9bfd9dc507ce921de58bed17e933fbeaeb
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 33cbdc6de644592d87b7d49e65a5c5674ad94d5b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947928"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718403"
 ---
 # <a name="rds-object-model-summary"></a>Resumo de modelos de objeto RDS
 

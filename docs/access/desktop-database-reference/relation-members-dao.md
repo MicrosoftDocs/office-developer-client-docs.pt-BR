@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923725"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722722"
 ---
 # <a name="relation-members-dao"></a>Membros de Relation (DAO)
 
@@ -69,7 +70,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <td><p>Define ou retorna o nome da tabela externa em uma relação (apenas espaços de trabalho do Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">
@@ -81,7 +82,7 @@ Um objeto Relation representa uma relação entre campos nas tabelas ou consulta
 <td><p>Retorna a coleção <strong><a href="properties-collection-dao.md">Properties</a></strong> do objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-table-property-dao.md">Tabela</a></strong></p></td>
+<td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>
 <td><p>Indica o nome de uma tabela primária do objeto <strong><a href="relation-object-dao.md">Relation</a></strong>. Isso deve ser igual à definição da propriedade <strong><a href="connection-name-property-dao.md">Name</a></strong> de um objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> ou <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (somente em espaços de trabalho do Microsoft Access).</p></td>
 </tr>
 </tbody>

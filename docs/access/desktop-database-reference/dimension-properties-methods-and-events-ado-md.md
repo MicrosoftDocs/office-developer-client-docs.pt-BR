@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249419(v=office.15)
 ms:contentKeyID: 48545435
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e9a8b877ea5dbdefaea72140dce0dd75e76e4bd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ecef6c18e9f3398a35b27cae8eadaa1a11422201
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945052"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719278"
 ---
 # <a name="dimension-properties-methods-and-events-ado-md"></a>Dimensão propriedades, métodos e eventos (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25945052"
 ## <a name="propertiescollections"></a>Propriedades/coleções
 
 - [Propriedade Description](description-property-ado-md.md)
-- [Coleção hierarchies](hierarchies-collection-ado-md.md)
+- [Coleção Hierarchies](hierarchies-collection-ado-md.md)
 - [Propriedade Name](name-property-ado-md.md)
 - [Coleção Properties](properties-collection-ado.md)
 - [Propriedade UniqueName](uniquename-property-ado-md.md)

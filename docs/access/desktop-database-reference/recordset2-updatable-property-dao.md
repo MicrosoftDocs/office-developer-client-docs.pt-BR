@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821726(v=office.15)
 ms:contentKeyID: 48547041
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 871d92937bb7793b09d1520d2bf3fa33b61fcaf4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b6e6f2a20b4779259b80eff1fc152abe3698217
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919336"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722064"
 ---
 # <a name="recordset2updatable-property-dao"></a>Propriedade Recordset2.Updatable (DAO)
 

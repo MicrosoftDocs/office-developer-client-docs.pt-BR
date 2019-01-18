@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
 ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dac5eb06c1a973f52154050e1035c6ff9d84832b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0dc7219eca56ba155eb3c1d00361afabaf003ee2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923333"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720223"
 ---
 # <a name="container-members-dao"></a>Membros do contêiner (DAO)
 
@@ -39,7 +40,7 @@ Um objeto Container agrupa tipos semelhantes de objetos Document.
 <td><p>Retorna uma coleção <strong>Documents</strong> que contém todos os documentos armazenados no objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="container-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna o nome do objeto especificado. <strong>String</strong> somente leitura.</p></td>
 </tr>
 <tr class="odd">

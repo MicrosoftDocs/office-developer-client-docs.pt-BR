@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn126013(v=office.15)
 ms:contentKeyID: 52074882
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb90b55d0d6d07c19511a4fd9487c142ade228a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6aaba4ab42b32033123cd1723108017dfbedeecf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929668"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716947"
 ---
 # <a name="workspaces-object-reference-dao"></a>Referência de objeto de espaços de trabalho (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9fe82c2d3edd5127ef6e2944f10d496a558d1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920519"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721077"
 ---
 # <a name="tabledef-members-dao"></a>Membros de TableDef (DAO)
 
@@ -93,7 +94,7 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 <td><p>Retorna uma coleção <strong>Fields</strong> que representa todos os objetos <strong>Field</strong> armazenados para o objeto especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
+<td><p><strong><a href="tabledef-indexes-property-dao.md">Índices</a></strong></p></td>
 <td><p>Retorna uma coleção <strong>Indexes</strong> que contém todos os objetos <strong>Index</strong> armazenados na tabela especificada. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
@@ -101,7 +102,7 @@ Um objeto TableDef representa a definição armazenada de uma tabela base ou de 
 <td><p>Retorna a data e a hora da alteração feita mais recentemente em um objeto. <strong>Variant</strong> somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação.</p></td>
 </tr>
 <tr class="odd">

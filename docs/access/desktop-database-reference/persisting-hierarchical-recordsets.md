@@ -1,19 +1,20 @@
 ---
-title: Mantendo Recordsets hierárquicos
+title: Conjuntos de registros hierárquicos persistentes
 TOCTitle: Persisting hierarchical Recordsets
 ms:assetid: 28f48d4a-1c32-7b60-cd65-51fb87c5380e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249048(v=office.15)
 ms:contentKeyID: 48543872
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55f005818ef8fa44a2ee59542aa220f4d71eb687
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1964d207f2b35eaeaf51b409adc12a41eac6438f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944981"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718606"
 ---
-# <a name="persisting-hierarchical-recordsets"></a>Mantendo Recordsets hierárquicos
+# <a name="persisting-hierarchical-recordsets"></a>Conjuntos de registros hierárquicos persistentes
 
 **Aplica-se a**: Access 2013, o Office 2013
 

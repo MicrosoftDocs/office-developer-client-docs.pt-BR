@@ -1,19 +1,20 @@
 ---
-title: 'Enviando atualizações: UpdateBatch'
+title: 'Envio de atualizações: UpdateBatch'
 TOCTitle: 'Sending the updates: UpdateBatch'
 ms:assetid: a840b9a7-7ccd-9c31-7951-8921dadf381e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7da0320bf42d1a1720bccfe8bf9e3843a2bb94f5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ca97f3ec2cbddfae4d62a72e5e6148a57abb4325
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718977"
 ---
-# <a name="sending-the-updates-updatebatch"></a>Enviando atualizações: UpdateBatch
+# <a name="sending-the-updates-updatebatch"></a>Envio de atualizações: UpdateBatch
 
 
 **Aplica-se a**: Access 2013, o Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d5d334f449391f56d339f1b3882836e87f9dd6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e4206cedd139b551d687911f00aa9fc5e5782859
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946948"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718802"
 ---
 # <a name="rds-scenario"></a>Cenário do RDS
 
@@ -19,8 +20,8 @@ ms.locfileid: "25946948"
 
 - [Botões de comando do catálogo de endereços](address-book-command-buttons.md)
 - [Objeto Address Book Data-Binding](address-book-data-binding-object.md)
-- [Botões de navegação do Catálogo de Endereços](address-book-navigation-buttons.md)
-- [Execução do aplicativo de exemplo do Catálogo de Endereços](running-the-address-book-sample-application.md)
+- [Botões de navegação do catálogo de endereços](address-book-navigation-buttons.md)
+- [Executando o aplicativo de amostra do catálogo de endereços](running-the-address-book-sample-application.md)
 - [Requisitos do sistema para o aplicativo Catálogo de Endereços](system-requirements-for-the-address-book-application.md)
 
 

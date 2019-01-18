@@ -1,19 +1,20 @@
 ---
-title: Modelo de programação RDS básico
+title: Modelo de programação básico do RDS
 TOCTitle: Basic RDS programming model
 ms:assetid: a8dd22b0-ac9b-b5c3-4e31-d2990d36230a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249781(v=office.15)
 ms:contentKeyID: 48546911
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ad7a6d31fa973ffd8d04b4478d73a88312d52073
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 947a6355d07ba2e9fb9b2a9b76c4c1941d83e668
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944806"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717955"
 ---
-# <a name="basic-rds-programming-model"></a>Modelo de programação RDS básico
+# <a name="basic-rds-programming-model"></a>Modelo de programação básico do RDS
 
 **Aplica-se a**: Access 2013, o Office 2013
 

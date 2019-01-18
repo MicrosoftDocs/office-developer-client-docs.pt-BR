@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910926"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716219"
 ---
 # <a name="ado-md-properties"></a>Propriedades do ADO MD
 
@@ -34,7 +35,7 @@ ms.locfileid: "25910926"
 <td><p>Indica a que objeto <strong>Connection</strong> do ADO pertence o conjunto de células ou o catálogo atual.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="caption-property-ado-md.md">Legenda</a></p></td>
+<td><p><a href="caption-property-ado-md.md">Caption</a></p></td>
 <td><p>Indica a legenda de texto a ser usada para a exibição de um objeto <strong>Level</strong> ou <strong>Member</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -46,7 +47,7 @@ ms.locfileid: "25910926"
 <td><p>Retorna uma coleção de <strong>Members</strong> dos quais o <strong>Member</strong> atual é o pai na hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="count-property-ado.md">Contagem</a></p></td>
+<td><p><a href="count-property-ado.md">Count</a></p></td>
 <td><p>Indica a quantidade de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
@@ -70,11 +71,11 @@ ms.locfileid: "25910926"
 <td><p>Indica informações de filtro sobre o conjunto de células atual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">1.1</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
 <td><p>Recupera uma célula de um conjunto de células usando suas coordenadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">1.1</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Retorna um membro específico de uma coleção por nome ou número ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -90,7 +91,7 @@ ms.locfileid: "25910926"
 <td><p>Indica o nome do nível de um membro.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Nome</a></p></td>
+<td><p><a href="name-property-ado-md.md">Name</a></p></td>
 <td><p>Indica o nome de um objeto</p></td>
 </tr>
 <tr class="odd">
@@ -110,7 +111,7 @@ ms.locfileid: "25910926"
 <td><p>Indica se o pai do membro nesta posição é o mesmo pai do membro imediatamente anterior.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-md.md">Origem</a></p></td>
+<td><p><a href="source-property-ado-md.md">Fonte</a></p></td>
 <td><p>Indica a fonte dos dados no conjunto de dados.</p></td>
 </tr>
 <tr class="even">
@@ -118,7 +119,7 @@ ms.locfileid: "25910926"
 <td><p>Indica o estado atual do conjunto de células.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Tipo</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type</a></p></td>
 <td><p>Indica o tipo do membro atual.</p></td>
 </tr>
 <tr class="even">
@@ -126,7 +127,7 @@ ms.locfileid: "25910926"
 <td><p>Indica um nome ambíguo para o objeto atual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Valor</a></p></td>
+<td><p><a href="value-property-ado-md.md">Value</a></p></td>
 <td><p>Indica o valor da célula atual.</p></td>
 </tr>
 </tbody>

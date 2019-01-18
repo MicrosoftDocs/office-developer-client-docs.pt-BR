@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d176b08e35888afbbde8c5d485887c00e413d74d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947172"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717640"
 ---
 # <a name="provider-errors"></a>Erros do provedor
 
@@ -92,7 +93,7 @@ Examinando um objeto **Error** você pode determinar que erro ocorreu e, mais im
 <td><p>Um Long Integer que representa o número (listado no <strong>ErrorValueEnum</strong>) do erro que ocorreu.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Origem</strong></p></td>
+<td><p><strong>Fonte</strong></p></td>
 <td><p>Indica o nome do objeto ou aplicativo que gerou um erro.</p></td>
 </tr>
 <tr class="even">

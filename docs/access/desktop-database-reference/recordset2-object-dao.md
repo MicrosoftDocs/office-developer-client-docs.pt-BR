@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e4ab089af54a53889afac054598cbca57028353
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924677"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718340"
 ---
 # <a name="recordset2-object-dao"></a>Objeto Recordset2 (DAO)
 

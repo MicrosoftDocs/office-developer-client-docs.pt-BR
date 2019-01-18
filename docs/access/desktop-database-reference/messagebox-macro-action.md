@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944512"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722925"
 ---
 # <a name="messagebox-macro-action"></a>Ação da macro CaixaDeMensagem
 
@@ -36,7 +37,7 @@ A ação de **MessageBox** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Mensagem</strong></p></td>
+<td><p><strong>Message</strong></p></td>
 <td><p>O texto na caixa de mensagem. Insira o texto da mensagem na caixa de <strong>mensagem</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros. Você pode digitar até 255 caracteres ou inserir uma expressão (precedida por um sinal de igualdade).</p></td>
 </tr>
 <tr class="even">
@@ -44,11 +45,11 @@ A ação de **MessageBox** tem os seguintes argumentos.
 <td><p>Especifica se o alto-falante do seu computador emitirá um aviso sonoro quando a mensagem é exibida. Clique em <strong>Sim</strong> (som o aviso sonoro) ou <strong>não</strong> (não SOA o aviso sonoro). O padrão é <strong>Sim</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Type</strong></p></td>
 <td><p>O tipo de caixa de mensagem. Cada tipo tem um ícone diferente. Clique em <strong>Nenhum</strong>, <strong>crítico</strong>, <strong>Aviso?</strong>, <strong>Aviso!</strong>, ou <strong>informações</strong>. O padrão é <strong>None</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Título</strong></p></td>
+<td><p><strong>Title</strong></p></td>
 <td><p>O texto exibido na barra de título da caixa de mensagem. Por exemplo, você pode ter a exibição da barra de título &quot;validação de ID de cliente&quot;. Se você deixar este argumento em branco, &quot;Microsoft Access&quot; é exibida.</p></td>
 </tr>
 </tbody>
@@ -103,7 +104,7 @@ A macro a seguir abre um formulário de lista de produtos no canto inferior dire
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: NomeDaEmpresa</p></td>
 <td><p>Mova o foco para o controle NomeDaEmpresa.</p></td>
 </tr>
@@ -169,7 +170,7 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CEP</p></td>
 <td><p></p></td>
 </tr>
@@ -187,7 +188,7 @@ A macro de validação a seguir verifica os códigos postais inseridos em um for
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>IrParaControle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nome do controle</strong>: CEP</p></td>
 <td><p></p></td>
 </tr>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 525b261f5184f520d6f24c81f3d446fee8aa800e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936956"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719229"
 ---
 # <a name="workspace-members-dao"></a>Membros do espaço de trabalho (DAO)
 
@@ -86,7 +87,7 @@ Um objeto Workspace define uma sessão nomeada por um usuário. Ele contém banc
 <td><p>Retorna uma coleção <strong>Connections</strong> que representa as conexões atuais do <strong>Workspace</strong> especificado. Somente leitura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></p></td>
+<td><p><strong><a href="workspace-databases-property-dao.md">Bancos de dados</a></strong></p></td>
 <td><p>Retorna uma coleção <strong>Databases</strong> que representa os banco de dados abertos em um <strong>Workspace</strong> especificado. Somente leitura.</p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +104,7 @@ Um objeto Workspace define uma sessão nomeada por um usuário. Ele contém banc
 <td><p>Define ou retorna o número de segundos antes de ocorrer um erro durante a tentativa de fazer logon em um banco de dados ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-name-property-dao.md">Nome</a></strong></p></td>
+<td><p><strong><a href="workspace-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Retorna ou define o nome do objeto especificado. <strong>String</strong> de leitura/gravação se o objeto não foi acrescentado a uma coleção. <strong>String</strong> somente leitura se o objeto foi acrescentado a uma coleção.</p></td>
 </tr>
 <tr class="odd">

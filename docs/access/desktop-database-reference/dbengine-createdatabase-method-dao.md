@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998347"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701918"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>Método DBEngine.CreateDatabase (DAO)
 
@@ -48,15 +49,15 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Nome</em></p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Uma cadeia de caracteres até 255 caracteres que é o nome do arquivo de banco de dados que você está criando. Pode ser o nome de arquivo e caminho completo. Se sua rede oferecer suporte a ele, você pode também especificar um caminho de rede, tais como &quot; \\server1\share1\dir1\db1&quot;. Você só pode criar arquivos de banco de dados do Microsoft Access com este método.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Localidade</em></p></td>
 <td><p>Obrigatório</p></td>
-<td><p><strong>Cadeia de caracteres</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Uma expressão de cadeia de caracteres que especifica uma ordem de agrupamento para criar o banco de dados, conforme especificado em Configurações. Você deve fornecer esse argumento ou um erro ocorrerá.</p></li>
 <li><p>Você também pode criar uma senha para o novo objeto <strong>Database</strong> concatenando a cadeia de caracteres de senha (começando com &quot;; pwd =&quot; ) com uma constante no argumento <em>locale</em> , semelhante a esta:</p></li>
@@ -67,7 +68,7 @@ Cria um novo objeto **[Database](database-object-dao.md)**, salva o banco de dad
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><em>Opção</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Uma constante ou combinação de constantes que indica uma ou mais opções, conforme especificado em Configurações. Você pode combinar opções associando as constantes correspondentes.</p></td>

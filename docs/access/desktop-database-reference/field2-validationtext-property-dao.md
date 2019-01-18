@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
 ms:contentKeyID: 48545202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e7bf23dcde9b522e5a9ed74c4dc969c5312f5a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4d58cb6bd32bd46b0a6bcec40ff68cdc52eebc31
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931229"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698243"
 ---
 # <a name="field2validationtext-property-dao"></a>Propriedade Field2.ValidationText (DAO)
 

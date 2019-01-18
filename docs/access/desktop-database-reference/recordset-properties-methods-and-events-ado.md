@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fea6f59479578cfd701b1adeece609c6595583a1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947795"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702233"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Recordset propriedades, métodos e eventos (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25947795"
 - [Propriedade AbsolutePosition](absoluteposition-property-ado.md)
 - [Propriedade ActiveCommand](activecommand-property-ado.md)
 - [Propriedade ActiveConnection](activeconnection-property-ado.md)
-- [Propriedades BOF e EOF](bof-eof-properties-ado.md)
+- [Propriedades BOF, EOF](bof-eof-properties-ado.md)
 - [Propriedade Bookmark](bookmark-property-ado.md)
 - [Propriedade CacheSize](cachesize-property-ado.md)
 - [Propriedade CursorLocation](cursorlocation-property-ado.md)

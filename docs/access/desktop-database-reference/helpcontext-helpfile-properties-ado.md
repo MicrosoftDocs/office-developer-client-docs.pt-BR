@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
 ms:contentKeyID: 48546194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a9ad8c700b0b0ae293683f7b79062a0edf7775f9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c90fee6b8525ab13c8a294f9b39c52c20f580a62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881367"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722512"
 ---
 # <a name="helpcontext-helpfile-properties-ado"></a>Propriedades HelpContext, HelpFile (ADO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25881367"
 
 Indica o arquivo de ajuda e o tópico associado a um objeto [Error](error-object-ado.md).
 
-## <a name="return-values"></a>Valor de retorno
+## <a name="return-values"></a>Valores de retorno
 
 - **HelpContextID**  retorna uma ID de contexto, como um valor **Long**, para um tópico em um arquivo de Ajuda.
 

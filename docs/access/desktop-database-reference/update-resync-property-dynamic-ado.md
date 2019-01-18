@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
 ms:contentKeyID: 48543166
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f1443d1f2a4eccd8599256425a971bc63cd4d8b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 653291ade258d602d7ec523dcac7e9fe51dd91fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918979"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702023"
 ---
 # <a name="update-resync-dynamic-property-ado"></a>Propriedade Update Resync dinâmica (ADO)
 

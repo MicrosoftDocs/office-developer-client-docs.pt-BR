@@ -1,19 +1,20 @@
 ---
-title: Operação dos comandos sem parâmetros
+title: Operação de comandos não parametrizados
 TOCTitle: Operation of non-parameterized commands
 ms:assetid: 934740b1-07d0-140e-7c83-00feb34c01d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eac0297f2895ba78c1ff2746edcd532e79b1fa0c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 720cbaf346b64d4d23b1e3314b06ba941e78b700
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944890"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701883"
 ---
-# <a name="operation-of-non-parameterized-commands"></a>Operação dos comandos sem parâmetros
+# <a name="operation-of-non-parameterized-commands"></a>Operação de comandos não parametrizados
 
 
 **Aplica-se a**: Access 2013, o Office 2013

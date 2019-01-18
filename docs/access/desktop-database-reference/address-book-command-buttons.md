@@ -1,19 +1,20 @@
 ---
-title: Botões de comando do catálogo de endereços
+title: Botões de comando do Catálogo de Endereços
 TOCTitle: Address Book command buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f586b92f309ffd330230bf732d0e477acf0a8ba9
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 09f2513a3c541c76352e773f7f2a8f0c24f78850
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946921"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700301"
 ---
-# <a name="address-book-command-buttons"></a>Botões de comando do catálogo de endereços
+# <a name="address-book-command-buttons"></a>Botões de comando do Catálogo de Endereços
 
 
 **Aplica-se a**: Access 2013, o Office 2013

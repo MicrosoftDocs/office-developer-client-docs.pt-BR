@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 022db96a00253793505df6e89603070a6d429a8d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c9937f0ab32c5dba0e4435fdc0ba7e111f5651dc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998865"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698362"
 ---
 # <a name="moverecord-method-ado"></a>Método MoveRecord (ADO)
 
@@ -27,7 +28,7 @@ Move a entidade representada por um [Record](record-object-ado.md) para outro lo
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Origem* |Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.|
+|*Source* |Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.|
 |*Destination* |Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.|
 |*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.|
 |*Password* |Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.|

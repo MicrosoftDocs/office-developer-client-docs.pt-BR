@@ -1,19 +1,20 @@
 ---
-title: 'Capítulo 9: Data shaping'
+title: 'Capítulo 9: Data Shaping'
 TOCTitle: 'Chapter 9: Data shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53a74a53b8c741921ad51ae79ca18e95cda2923d
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43ad9d5e989bc1c6f4a54fb4882cfe3c3e357fd1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936550"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721551"
 ---
-# <a name="chapter-9-data-shaping"></a>Capítulo 9: Data shaping
+# <a name="chapter-9-data-shaping"></a>Capítulo 9: Data Shaping
 
 **Aplica-se a**: Access 2013, o Office 2013
 
@@ -25,11 +26,11 @@ A sintaxe do data shaping também permite outras possibilidades. Os desenvolvedo
 
 Consulte os tópicos a seguir para saber mais sobre o data shaping:
 
-- [Provedores necessários para o data shaping](required-providers-for-data-shaping.md)
-- [Cláusula Compute de forma](shape-compute-clause.md)
-- [Fabricando Recordsets hierárquicos](fabricating-hierarchical-recordsets.md)
-- [Acessando as linhas em um Recordset hierárquico](accessing-rows-in-a-hierarchical-recordset.md)
-- [Gramática formal de shape](formal-shape-grammar.md)
+- [Provedores necessários para Data Shaping](required-providers-for-data-shaping.md)
+- [Cláusula de cálculo de forma](shape-compute-clause.md)
+- [Fabricação de conjuntos de registros hierárquicos](fabricating-hierarchical-recordsets.md)
+- [Acesso de linhas em um conjunto de registros hierárquico](accessing-rows-in-a-hierarchical-recordset.md)
+- [Gramática formal de forma](formal-shape-grammar.md)
 - [Funções do Visual Basic for Applications](visual-basic-for-applications-functions.md)
 - [Cláusula Append de forma (ADO)](shape-append-clause.md)
 - [Data shaping (ADO)](data-shaping.md)

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 793e6c2e57f50b5086780d8632952c45f3d4442d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 424b2b2cab9bc4272052a201350a0cc2ab297b8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997977"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698306"
 ---
 # <a name="quitaccess-macro-action"></a>Ação da macro SairdoAccess
 
@@ -43,7 +44,7 @@ A ação **SairdoAccess** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Options</strong></p></td>
+<td><p><strong>Opções</strong></p></td>
 <td><p>Especifica o que acontece com objetos não salvos ao encerrar o Access. Clique em <strong>Aviso</strong> (para exibir caixas de diálogo que perguntam se cada objeto será salvo), <strong>Salvar Tudo</strong> (para salvar todos os objetos sem avisar por caixas de diálogo) ou <strong>Sair</strong> (para encerrar sem salvar nenhum objeto) na caixa <strong>Opções</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros. O padrão é <strong>Salvar Tudo</strong>.</p></td>
 </tr>
 </tbody>

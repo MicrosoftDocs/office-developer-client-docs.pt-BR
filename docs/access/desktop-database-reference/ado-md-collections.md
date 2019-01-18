@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
 ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c596cdd57a825efc7f856e37af4f9bd721d233e9
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ac915684afa74b091fb1288dfde6d984cee8244
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910954"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718578"
 ---
 # <a name="ado-md-collections"></a>Coleções do ADO MD
 
@@ -46,7 +47,7 @@ ms.locfileid: "25910954"
 <td><p>Contém os objetos <strong>Hierarchy</strong> definidos em uma dimensão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="level-object-ado-md.md">Levels</a></p></td>
+<td><p><a href="level-object-ado-md.md">Níveis</a></p></td>
 <td><p>Contém os objetos <strong>Level</strong> que formam uma hierarquia.</p></td>
 </tr>
 <tr class="even">
