@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
 ms:contentKeyID: 48547600
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 185321327ed1718784fe6227f259347c0f8bb17d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6613836a4d924d66902d4da4e7c25d1df1acd8ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889774"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713006"
 ---
-# <a name="version-property-example-vj"></a><span data-ttu-id="26932-102">Exemplo da propriedade Version (VJ++)</span><span class="sxs-lookup"><span data-stu-id="26932-102">Version property example (VJ++)</span></span>
+# <a name="version-property-example-vj"></a><span data-ttu-id="4a405-102">Exemplo da propriedade Version (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4a405-102">Version property example (VJ++)</span></span>
 
 
-<span data-ttu-id="26932-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="26932-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4a405-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a405-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="26932-p101">Este exemplo utiliza a propriedade [Version](version-property-ado.md) de um objeto [Connection](connection-object-ado.md) para exibir a versão atual do ADO. Ele também utiliza várias propriedades dinâmicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="26932-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="4a405-p101">Este exemplo utiliza a propriedade [Version](version-property-ado.md) de um objeto [Connection](connection-object-ado.md) para exibir a versão atual do ADO. Ele também utiliza várias propriedades dinâmicas para mostrar:</span><span class="sxs-lookup"><span data-stu-id="4a405-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="26932-106">o nome e a versão do DBMS atual.</span><span class="sxs-lookup"><span data-stu-id="26932-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="4a405-106">o nome e a versão do DBMS atual.</span><span class="sxs-lookup"><span data-stu-id="4a405-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="26932-107">a versão do OLE DB.</span><span class="sxs-lookup"><span data-stu-id="26932-107">OLE DB version.</span></span>
+  - <span data-ttu-id="4a405-107">a versão do OLE DB.</span><span class="sxs-lookup"><span data-stu-id="4a405-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="26932-108">o nome e a versão do provedor.</span><span class="sxs-lookup"><span data-stu-id="26932-108">provider name and version.</span></span>
+  - <span data-ttu-id="4a405-108">o nome e a versão do provedor.</span><span class="sxs-lookup"><span data-stu-id="4a405-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="26932-109">a versão do ODBC.</span><span class="sxs-lookup"><span data-stu-id="26932-109">ODBC version.</span></span>
+  - <span data-ttu-id="4a405-109">a versão do ODBC.</span><span class="sxs-lookup"><span data-stu-id="4a405-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="26932-110">o nome e a versão do driver do ODBC.</span><span class="sxs-lookup"><span data-stu-id="26932-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="4a405-110">o nome e a versão do driver do ODBC.</span><span class="sxs-lookup"><span data-stu-id="4a405-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

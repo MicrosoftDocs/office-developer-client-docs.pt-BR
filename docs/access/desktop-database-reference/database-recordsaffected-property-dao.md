@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
 ms:contentKeyID: 48543567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee3d7283bdf1f7ca1504c3cb6a12ef77fdb84ada
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a1bcb9ac1140b275d0c7a2441f58d2ced0e0f82c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919000"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715848"
 ---
-# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="4d413-102">Propriedade Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d413-102">Database.RecordsAffected property (DAO)</span></span>
+# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="688f1-102">Propriedade Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="688f1-102">Database.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="4d413-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d413-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="688f1-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="688f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d413-104">Retorna o número de registros afetados pelo método **[Execute](connection-execute-method-dao.md)** chamado mais recentemente.</span><span class="sxs-lookup"><span data-stu-id="4d413-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="688f1-104">Retorna o número de registros afetados pelo método **[Execute](connection-execute-method-dao.md)** chamado mais recentemente.</span><span class="sxs-lookup"><span data-stu-id="688f1-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d413-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="4d413-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="688f1-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="688f1-105">Syntax</span></span>
 
-<span data-ttu-id="4d413-106">*expressão* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="4d413-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="688f1-106">*expressão* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="688f1-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="4d413-107">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="4d413-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="688f1-107">*expressão* Uma variável que representa um objeto de **banco de dados** .</span><span class="sxs-lookup"><span data-stu-id="688f1-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4d413-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="4d413-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="688f1-108">Exemplo</span><span class="sxs-lookup"><span data-stu-id="688f1-108">Example</span></span>
 
-<span data-ttu-id="4d413-p101">Este exemplo usa a propriedade **RecordsAffected** com as consultas ação executadas a partir de um objeto **Database** e de um objeto **QueryDef**. A função RecordsAffectedOutput é exigida para que esse procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="4d413-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="688f1-p101">Este exemplo usa a propriedade **RecordsAffected** com as consultas ação executadas a partir de um objeto **Database** e de um objeto **QueryDef**. A função RecordsAffectedOutput é exigida para que esse procedimento seja executado.</span><span class="sxs-lookup"><span data-stu-id="688f1-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

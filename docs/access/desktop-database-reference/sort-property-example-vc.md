@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
 ms:contentKeyID: 48543259
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e23cf573d51e52c74f4bbf24801f4bd6f47ea22a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881212"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715358"
 ---
-# <a name="sort-property-example-vc"></a><span data-ttu-id="7ccf1-102">Exemplo da propriedade Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="7ccf1-102">Sort property example (VC++)</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="69552-102">Exemplo da propriedade Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="69552-102">Sort property example (VC++)</span></span>
 
 
-<span data-ttu-id="7ccf1-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ccf1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69552-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="69552-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ccf1-p101">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados **Pubs**. Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="7ccf1-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="69552-p101">Este exemplo utiliza a propriedade [Sort](sort-property-ado.md) do objeto [Recordset](recordset-object-ado.md) para reordenar as linhas de um **Recordset** derivado da tabela ***Authors*** do banco de dados **Pubs**. Uma rotina secundária do utilitário imprimirá cada linha.</span><span class="sxs-lookup"><span data-stu-id="69552-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database. A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  

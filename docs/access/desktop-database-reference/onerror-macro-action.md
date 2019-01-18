@@ -10,22 +10,23 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 38dc9491a03d2bfa043bddec84efd7fc12c5d08a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a2288d64241f3289505a8b0fafb98062830b0e97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919119"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711816"
 ---
-# <a name="onerror-macro-action"></a><span data-ttu-id="f12be-102">Ação da macro AoOcorrerErro</span><span class="sxs-lookup"><span data-stu-id="f12be-102">OnError macro action</span></span>
+# <a name="onerror-macro-action"></a><span data-ttu-id="7f318-102">Ação da macro AoOcorrerErro</span><span class="sxs-lookup"><span data-stu-id="7f318-102">OnError macro action</span></span>
 
-<span data-ttu-id="f12be-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="f12be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f318-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f318-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f12be-104">Você pode usar a ação **AoOcorrerErro** para especificar o que deve acontecer quando ocorre um erro em uma macro.</span><span class="sxs-lookup"><span data-stu-id="f12be-104">You can use the **OnError** action to specify what should happen when an error occurs in a macro.</span></span>
+<span data-ttu-id="7f318-104">Você pode usar a ação **AoOcorrerErro** para especificar o que deve acontecer quando ocorre um erro em uma macro.</span><span class="sxs-lookup"><span data-stu-id="7f318-104">You can use the **OnError** action to specify what should happen when an error occurs in a macro.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="f12be-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="f12be-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="7f318-105">Configuração</span><span class="sxs-lookup"><span data-stu-id="7f318-105">Setting</span></span>
 
-<span data-ttu-id="f12be-106">A ação **AoOcorrerErro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="f12be-106">The **OnError** action has the following arguments.</span></span>
+<span data-ttu-id="7f318-106">A ação **AoOcorrerErro** tem os seguintes argumentos.</span><span class="sxs-lookup"><span data-stu-id="7f318-106">The **OnError** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -34,14 +35,14 @@ ms.locfileid: "25919119"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f12be-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="f12be-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="f12be-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="f12be-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="7f318-107">Argumento da ação</span><span class="sxs-lookup"><span data-stu-id="7f318-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="7f318-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="7f318-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f12be-109">Ir para</span><span class="sxs-lookup"><span data-stu-id="f12be-109">Go to</span></span></p></td>
-<td><p><span data-ttu-id="f12be-p101">Especifique como deve ser o comportamento geral quando for encontrado um erro. Clique na seta suspensa e clique em uma das configurações a seguir:</span><span class="sxs-lookup"><span data-stu-id="f12be-p101">Specify the general behavior that should occur when an error is encountered. Click the drop-down arrow and then click one of the following settings:</span></span></p>
+<td><p><span data-ttu-id="7f318-109">Ir para</span><span class="sxs-lookup"><span data-stu-id="7f318-109">Go to</span></span></p></td>
+<td><p><span data-ttu-id="7f318-p101">Especifique como deve ser o comportamento geral quando for encontrado um erro. Clique na seta suspensa e clique em uma das configurações a seguir:</span><span class="sxs-lookup"><span data-stu-id="7f318-p101">Specify the general behavior that should occur when an error is encountered. Click the drop-down arrow and then click one of the following settings:</span></span></p>
 <div class="tableSection">
 <table>
 <colgroup>
@@ -50,22 +51,22 @@ ms.locfileid: "25919119"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f12be-112">Configuração</span><span class="sxs-lookup"><span data-stu-id="f12be-112">Setting</span></span></p></th>
-<th><p><span data-ttu-id="f12be-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="f12be-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="7f318-112">Configuração</span><span class="sxs-lookup"><span data-stu-id="7f318-112">Setting</span></span></p></th>
+<th><p><span data-ttu-id="7f318-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="7f318-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f12be-114"><strong>Next</strong></span><span class="sxs-lookup"><span data-stu-id="f12be-114"><strong>Next</strong></span></span></p></td>
-<td><p><span data-ttu-id="f12be-p102">O Microsoft Office Access 2007 registra os detalhes do erro no objeto <strong>MacroError</strong>, mas não interrompe a macro. A macro continua com a ação seguinte.</span><span class="sxs-lookup"><span data-stu-id="f12be-p102">Microsoft Office Access 2007 records the details of the error in the <strong>MacroError</strong> object but does not stop the macro. The macro continues with the next action.</span></span></p></td>
+<td><p><span data-ttu-id="7f318-114"><strong>Next</strong></span><span class="sxs-lookup"><span data-stu-id="7f318-114"><strong>Next</strong></span></span></p></td>
+<td><p><span data-ttu-id="7f318-p102">O Microsoft Office Access 2007 registra os detalhes do erro no objeto <strong>MacroError</strong>, mas não interrompe a macro. A macro continua com a ação seguinte.</span><span class="sxs-lookup"><span data-stu-id="7f318-p102">Microsoft Office Access 2007 records the details of the error in the <strong>MacroError</strong> object but does not stop the macro. The macro continues with the next action.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f12be-117"><strong>Macro Name</strong></span><span class="sxs-lookup"><span data-stu-id="f12be-117"><strong>Macro Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="f12be-118">O Access interrompe a macro atual e executa aquela nomeada no argumento <strong>Nome da Macro</strong>.</span><span class="sxs-lookup"><span data-stu-id="f12be-118">Access stops the current macro and runs the macro that is named in the <strong>Macro Name</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="7f318-117"><strong>Macro Name</strong></span><span class="sxs-lookup"><span data-stu-id="7f318-117"><strong>Macro Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="7f318-118">O Access interrompe a macro atual e executa aquela nomeada no argumento <strong>Nome da Macro</strong>.</span><span class="sxs-lookup"><span data-stu-id="7f318-118">Access stops the current macro and runs the macro that is named in the <strong>Macro Name</strong> argument.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f12be-119"><strong>Fail</strong></span><span class="sxs-lookup"><span data-stu-id="f12be-119"><strong>Fail</strong></span></span></p></td>
-<td><p><span data-ttu-id="f12be-120">O Access para a macro atual e exibe uma mensagem de erro.</span><span class="sxs-lookup"><span data-stu-id="f12be-120">Access stops the current macro and displays an error message.</span></span></p></td>
+<td><p><span data-ttu-id="7f318-119"><strong>Fail</strong></span><span class="sxs-lookup"><span data-stu-id="7f318-119"><strong>Fail</strong></span></span></p></td>
+<td><p><span data-ttu-id="7f318-120">O Access para a macro atual e exibe uma mensagem de erro.</span><span class="sxs-lookup"><span data-stu-id="7f318-120">Access stops the current macro and displays an error message.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -73,24 +74,24 @@ ms.locfileid: "25919119"
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f12be-121">Nome da Macro</span><span class="sxs-lookup"><span data-stu-id="f12be-121">Macro Name</span></span></p></td>
-<td><p><span data-ttu-id="f12be-122">Se o argumento ir para for definido como o nome da Macro, digite o nome da macro a ser usada para tratamento de erros.</span><span class="sxs-lookup"><span data-stu-id="f12be-122">If the Go to argument is set to Macro Name, type the name of the macro to be used for error handling.</span></span> <span data-ttu-id="f12be-123">O nome que você digitar deve corresponder a um nome na coluna <strong>Nome da Macro</strong> da macro atual; Você não pode inserir o nome de um objeto de macro diferente.</span><span class="sxs-lookup"><span data-stu-id="f12be-123">The name you type must match a name in the <strong>Macro Name</strong> column of the current macro; you can't enter the name of a different macro object.</span></span> <span data-ttu-id="f12be-124">No exemplo a seguir, a macro <strong>Manipuladorerro</strong> está contida no mesmo objeto macro como a ação <strong>AoOcorrerErro</strong> .</span><span class="sxs-lookup"><span data-stu-id="f12be-124">In the example below, the <strong>ErrorHandler</strong> macro is contained in the same macro object as the <strong>OnError</strong> action.</span></span> <span data-ttu-id="f12be-125">Este argumento precisará ficar em branco se o argumento ir para for definido como <strong>próximo</strong> ou <strong>falhar</strong>.</span><span class="sxs-lookup"><span data-stu-id="f12be-125">This argument must be left blank if the Go to argument is set to <strong>Next</strong> or <strong>Fail</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="7f318-121">Nome da Macro</span><span class="sxs-lookup"><span data-stu-id="7f318-121">Macro Name</span></span></p></td>
+<td><p><span data-ttu-id="7f318-122">Se o argumento ir para for definido como o nome da Macro, digite o nome da macro a ser usada para tratamento de erros.</span><span class="sxs-lookup"><span data-stu-id="7f318-122">If the Go to argument is set to Macro Name, type the name of the macro to be used for error handling.</span></span> <span data-ttu-id="7f318-123">O nome que você digitar deve corresponder a um nome na coluna <strong>Nome da Macro</strong> da macro atual; Você não pode inserir o nome de um objeto de macro diferente.</span><span class="sxs-lookup"><span data-stu-id="7f318-123">The name you type must match a name in the <strong>Macro Name</strong> column of the current macro; you can't enter the name of a different macro object.</span></span> <span data-ttu-id="7f318-124">No exemplo a seguir, a macro <strong>Manipuladorerro</strong> está contida no mesmo objeto macro como a ação <strong>AoOcorrerErro</strong> .</span><span class="sxs-lookup"><span data-stu-id="7f318-124">In the example below, the <strong>ErrorHandler</strong> macro is contained in the same macro object as the <strong>OnError</strong> action.</span></span> <span data-ttu-id="7f318-125">Este argumento precisará ficar em branco se o argumento ir para for definido como <strong>próximo</strong> ou <strong>falhar</strong>.</span><span class="sxs-lookup"><span data-stu-id="7f318-125">This argument must be left blank if the Go to argument is set to <strong>Next</strong> or <strong>Fail</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="f12be-126">Comentários</span><span class="sxs-lookup"><span data-stu-id="f12be-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f318-126">Comentários</span><span class="sxs-lookup"><span data-stu-id="7f318-126">Remarks</span></span>
 
-- <span data-ttu-id="f12be-p104">A ação **AoOcorrerErro** normalmente é colocada no início de uma macro, mas você também pode colocar a ação na macro posteriormente. As regras estabelecidas pela ação entrarão em vigor sempre que a ação for executada.</span><span class="sxs-lookup"><span data-stu-id="f12be-p104">The **OnError** action is usually placed at the beginning of a macro, but you can also place the action later in the macro. The rules established by the action will take effect whenever the action is run.</span></span>
+- <span data-ttu-id="7f318-p104">A ação **AoOcorrerErro** normalmente é colocada no início de uma macro, mas você também pode colocar a ação na macro posteriormente. As regras estabelecidas pela ação entrarão em vigor sempre que a ação for executada.</span><span class="sxs-lookup"><span data-stu-id="7f318-p104">The **OnError** action is usually placed at the beginning of a macro, but you can also place the action later in the macro. The rules established by the action will take effect whenever the action is run.</span></span>
 
-- <span data-ttu-id="f12be-p105">Se você definir o argumento Ir para como **Falhar**, o Access terá o mesmo comportamento de se não houvesse nenhuma ação **AoOcorrerErro** na macro. Isso significa que, se for encontrado um erro, o Access interromperá a macro e exibirá uma mensagem de erro padrão. O principal uso da configuração **Falhar** é desligar qualquer tratamento de erros que você tenha estabelecido anteriormente em uma macro.</span><span class="sxs-lookup"><span data-stu-id="f12be-p105">If you set the Go to argument to **Fail**, Access behaves the same way it would if there were no **OnError** action in the macro. That is, if an error is encountered, Access stops the macro and displays a standard error message. The main use for the **Fail** setting is to turn off any error handling that you established earlier in a macro.</span></span>
+- <span data-ttu-id="7f318-p105">Se você definir o argumento Ir para como **Falhar**, o Access terá o mesmo comportamento de se não houvesse nenhuma ação **AoOcorrerErro** na macro. Isso significa que, se for encontrado um erro, o Access interromperá a macro e exibirá uma mensagem de erro padrão. O principal uso da configuração **Falhar** é desligar qualquer tratamento de erros que você tenha estabelecido anteriormente em uma macro.</span><span class="sxs-lookup"><span data-stu-id="7f318-p105">If you set the Go to argument to **Fail**, Access behaves the same way it would if there were no **OnError** action in the macro. That is, if an error is encountered, Access stops the macro and displays a standard error message. The main use for the **Fail** setting is to turn off any error handling that you established earlier in a macro.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f12be-132">Exemplo</span><span class="sxs-lookup"><span data-stu-id="f12be-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7f318-132">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7f318-132">Example</span></span>
 
-<span data-ttu-id="f12be-133">A macro a seguir demonstra o uso da ação **AoOcorrerErro** .</span><span class="sxs-lookup"><span data-stu-id="f12be-133">The following macro demonstrates the use of the **OnError** action.</span></span> <span data-ttu-id="f12be-134">Neste exemplo, a ação **AoOcorrerErro** Especifica que o Access executa um macro chamada Manipuladorerro quando ocorre um erro de tratamento de erros personalizado.</span><span class="sxs-lookup"><span data-stu-id="f12be-134">In this example, the **OnError** action specifies that Access run a custom error handling macro named ErrorHandler when an error occurs.</span></span> <span data-ttu-id="f12be-135">Quando ocorre um erro, submacro CatchErrors é chamado.</span><span class="sxs-lookup"><span data-stu-id="f12be-135">When an error occurs, the CatchErrors submacro is called.</span></span> <span data-ttu-id="f12be-136">Se o número do erro for 2102, será exibida uma mensagem específica e execução da macro é interrompida.</span><span class="sxs-lookup"><span data-stu-id="f12be-136">If the error number is 2102, a specific message is displayed and macro execution is halted.</span></span> <span data-ttu-id="f12be-137">Caso contrário, será exibida uma mensagem descrevendo o erro e a macro é pausada para que você possa realizar a solução de problemas adicionais.</span><span class="sxs-lookup"><span data-stu-id="f12be-137">Otherwise, a message describing the error is displayed and the macro is paused so that you can perform additional troubleshooting.</span></span> <span data-ttu-id="f12be-138">A macro Manipuladorerro exibe uma caixa de mensagem que faz referência ao objeto **MacroError** para exibir informações sobre o erro.</span><span class="sxs-lookup"><span data-stu-id="f12be-138">The ErrorHandler macro displays a message box that refers to the **MacroError** object to display information about the error.</span></span>
+<span data-ttu-id="7f318-133">A macro a seguir demonstra o uso da ação **AoOcorrerErro** .</span><span class="sxs-lookup"><span data-stu-id="7f318-133">The following macro demonstrates the use of the **OnError** action.</span></span> <span data-ttu-id="7f318-134">Neste exemplo, a ação **AoOcorrerErro** Especifica que o Access executa um macro chamada Manipuladorerro quando ocorre um erro de tratamento de erros personalizado.</span><span class="sxs-lookup"><span data-stu-id="7f318-134">In this example, the **OnError** action specifies that Access run a custom error handling macro named ErrorHandler when an error occurs.</span></span> <span data-ttu-id="7f318-135">Quando ocorre um erro, submacro CatchErrors é chamado.</span><span class="sxs-lookup"><span data-stu-id="7f318-135">When an error occurs, the CatchErrors submacro is called.</span></span> <span data-ttu-id="7f318-136">Se o número do erro for 2102, será exibida uma mensagem específica e execução da macro é interrompida.</span><span class="sxs-lookup"><span data-stu-id="7f318-136">If the error number is 2102, a specific message is displayed and macro execution is halted.</span></span> <span data-ttu-id="7f318-137">Caso contrário, será exibida uma mensagem descrevendo o erro e a macro é pausada para que você possa realizar a solução de problemas adicionais.</span><span class="sxs-lookup"><span data-stu-id="7f318-137">Otherwise, a message describing the error is displayed and the macro is paused so that you can perform additional troubleshooting.</span></span> <span data-ttu-id="7f318-138">A macro Manipuladorerro exibe uma caixa de mensagem que faz referência ao objeto **MacroError** para exibir informações sobre o erro.</span><span class="sxs-lookup"><span data-stu-id="7f318-138">The ErrorHandler macro displays a message box that refers to the **MacroError** object to display information about the error.</span></span>
 
-<span data-ttu-id="f12be-139">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="f12be-139">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="7f318-139">**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="7f318-139">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

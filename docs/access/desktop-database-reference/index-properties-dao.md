@@ -6,24 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124774(v=office.15)
 ms:contentKeyID: 52072396
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21884dbaedd7c508c7bdc3c0063b12acc2776349
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b4524bea0d7cbe3439e4d84de85b52c35c3e67ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714875"
 ---
-# <a name="index-properties-dao"></a><span data-ttu-id="d1655-102">Propriedades de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-102">Index properties (DAO)</span></span>
+# <a name="index-properties-dao"></a><span data-ttu-id="6c4a8-102">Propriedades de índice (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-102">Index properties (DAO)</span></span>
 
-<span data-ttu-id="d1655-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1655-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6c4a8-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="6c4a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d1655-104">Propriedade Index.Clustered (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-104">Index.Clustered property (DAO)</span></span>](index-clustered-property-dao.md)
-- [<span data-ttu-id="d1655-105">Propriedade Index.DistinctCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-105">Index.DistinctCount property (DAO)</span></span>](index-distinctcount-property-dao.md)
-- [<span data-ttu-id="d1655-106">Propriedade Index.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-106">Index.Fields property (DAO)</span></span>](index-fields-property-dao.md)
-- [<span data-ttu-id="d1655-107">Propriedade Index.Foreign (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-107">Index.Foreign property (DAO)</span></span>](index-foreign-property-dao.md)
-- [<span data-ttu-id="d1655-108">Propriedade Index.IgnoreNulls (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-108">Index.IgnoreNulls property (DAO)</span></span>](index-ignorenulls-property-dao.md)
-- [<span data-ttu-id="d1655-109">Propriedade Index.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-109">Index.Name property (DAO)</span></span>](index-name-property-dao.md)
-- [<span data-ttu-id="d1655-110">Propriedade Index.Primary (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-110">Index.Primary property (DAO)</span></span>](index-primary-property-dao.md)
-- [<span data-ttu-id="d1655-111">Propriedade Index.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-111">Index.Properties property (DAO)</span></span>](index-properties-property-dao.md)
-- [<span data-ttu-id="d1655-112">Propriedade Index.Required (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-112">Index.Required property (DAO)</span></span>](index-required-property-dao.md)
-- [<span data-ttu-id="d1655-113">Propriedade Index.Unique (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1655-113">Index.Unique property (DAO)</span></span>](index-unique-property-dao.md)
+- [<span data-ttu-id="6c4a8-104">Propriedade Index.Clustered (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-104">Index.Clustered property (DAO)</span></span>](index-clustered-property-dao.md)
+- [<span data-ttu-id="6c4a8-105">Propriedade Index.DistinctCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-105">Index.DistinctCount property (DAO)</span></span>](index-distinctcount-property-dao.md)
+- [<span data-ttu-id="6c4a8-106">Propriedade Index.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-106">Index.Fields property (DAO)</span></span>](index-fields-property-dao.md)
+- [<span data-ttu-id="6c4a8-107">Propriedade Index.Foreign (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-107">Index.Foreign property (DAO)</span></span>](index-foreign-property-dao.md)
+- [<span data-ttu-id="6c4a8-108">Propriedade Index.IgnoreNulls (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-108">Index.IgnoreNulls property (DAO)</span></span>](index-ignorenulls-property-dao.md)
+- [<span data-ttu-id="6c4a8-109">Propriedade Index.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-109">Index.Name property (DAO)</span></span>](index-name-property-dao.md)
+- [<span data-ttu-id="6c4a8-110">Propriedade Index.Primary (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-110">Index.Primary property (DAO)</span></span>](index-primary-property-dao.md)
+- [<span data-ttu-id="6c4a8-111">Propriedade Index.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-111">Index.Properties property (DAO)</span></span>](index-properties-property-dao.md)
+- [<span data-ttu-id="6c4a8-112">Propriedade Index.Required (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-112">Index.Required property (DAO)</span></span>](index-required-property-dao.md)
+- [<span data-ttu-id="6c4a8-113">Propriedade Index.Unique (DAO)</span><span class="sxs-lookup"><span data-stu-id="6c4a8-113">Index.Unique property (DAO)</span></span>](index-unique-property-dao.md)
