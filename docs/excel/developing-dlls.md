@@ -5,70 +5,70 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- DLLs [excel 2007], a criação, criando DLLs [Excel 2007]
-localization_priority: Normal
+- DLLs [excel 2007], criação, criar DLLs [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 030cdd4358d9a71841eca6acfcef6e71839e02a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 89dd7b65ad94ba2fc7e1cf3f99ee163d3003d0fe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765284"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704746"
 ---
 # <a name="developing-dlls"></a>Desenvolver DLLs
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Uma biblioteca é um corpo de código compilado que fornece algumas funcionalidades e os dados para um aplicativo executável. Bibliotecas podem ser vinculadas estaticamente ou dinamicamente vinculadas e convencionalmente têm o. lib extensões de nome de arquivo e. dll respectivamente. Bibliotecas estáticas (por exemplo, a biblioteca de tempo de execução do C) são vinculadas ao aplicativo na compilação e então se torna parte do executável resultante. O aplicativo carrega uma DLL quando ela for necessária, geralmente quando o aplicativo é iniciado. Uma DLL pode carregar e vincular dinamicamente a outro DLL.
+Uma biblioteca é de uma base de códigos compilados que fornece algumas funcionalidades e dados para um aplicativo executável. As bibliotecas podem ser vinculadas estaticamente ou vinculadas dinamicamente e, convencionalmente, têm extensões de nome de arquivo .lib e .dll, respectivamente. Bibliotecas estáticas (como a biblioteca de tempo de execução C) são vinculadas ao aplicativo na compilação e, portanto, tornam-se parte da resultante executável. O aplicativo carrega uma DLL quando necessário, normalmente quando o aplicativo é iniciado. Um DLL pode carregar e vincular dinamicamente a DLL do outro.
   
 ## <a name="benefits-of-using-dlls"></a>Benefícios do uso de DLLs
 
-Os principais benefícios do DLLs são:
+Os principais benefícios de DLLs são os seguintes:
   
 - Todos os aplicativos podem compartilhar uma única cópia no disco.
     
-- Arquivos executáveis de nos aplicativos são mantidos menores.
+- Os arquivos executáveis dos aplicativos são menores.
     
-- Eles permitem que os projetos de desenvolvimento de grandes sejam divididos. Os desenvolvedores de aplicativos e DLL precisam concorda apenas uma interface entre seus respectivos papéis. Esta interface é exportada pela DLL.
+- Eles permitem que grandes projetos de desenvolvimento sejam desmembrados. Desenvolvedores de aplicativo e DLL só precisam concordar uma interface entre suas respectivas partes. Essa interface é exportada pela DLL.
     
-- Os desenvolvedores DLL podem atualizar DLLs — talvez para torná-los mais eficiente ou para corrigir um bug — sem precisar atualizar todos os aplicativos que usá-lo, desde que a interface exportada da DLL não é alterado.
+- Os desenvolvedores de DLL podem atualizar as DLLs, talvez para torná-las mais eficientes ou para corrigir um bug, sem precisar atualizar todos os aplicativos que as utilizam, desde que a interface exportada da DLL não seja alterada.
     
-Você pode usar DLLs para adicionar funções de planilha e comandos no Microsoft Excel.
+Você pode usar DLLs para adicionar comandos e funções de planilha no Microsoft Excel.
   
 ## <a name="resources-for-creating-dlls"></a>Recursos para a criação de DLLs
 
-Para criar uma DLL, você precisará dos seguintes itens:
+Para criar uma DLL, você precisa de:
   
-- Um editor de código fonte.
+- Um editor de código-fonte.
     
-- Um compilador para transformar o código-fonte em código do objeto que é compatível com o seu hardware.
+- Compilador para ativar o código-fonte do código de objeto que seja compatível com o seu hardware.
     
-- Um vinculador para adicionar o código de bibliotecas estáticas, onde usado e para criar o arquivo DLL executável.
+- Vinculador para adicionar o código de bibliotecas estáticas, quando usado e para criar o arquivo executável DLL.
     
-Ambientes de desenvolvimento integrado moderno (IDEs), como o Microsoft Visual Studio, fornecem todas essas coisas. Eles também fornecem uma excelente oportunidade mais: inteligente de editores, ferramentas para depurar seu código, ferramentas para gerenciar vários projetos, novos assistentes de projeto e muitas outras ferramentas importantes.
+Ambientes de desenvolvimento integrados modernos (IDEs), como o Microsoft Visual Studio, fornecem todas essas coisas. Eles também fornecem muito mais: editores inteligentes, ferramentas para depurar seu código, ferramentas para gerenciar vários projetos, novos assistentes de projeto e muitas outras ferramentas importantes.
   
-Você pode criar DLLs em diversos idiomas, por exemplo, C/C++, Pascal e Visual Basic. Considerando que o código-fonte API fornecido com o Excel é C e C++, apenas esses dois idiomas são considerados nesta documentação.
+Você pode criar DLLs em vários idiomas, por exemplo, C++ Pascal e Visual Basic. Dado que o código-fonte da API fornecido com o Excel é C e C ++, somente esses dois idiomas são considerados nesta documentação.
   
-## <a name="exporting-functions-and-commands"></a>Exportando funções e comandos
+## <a name="exporting-functions-and-commands"></a>Exportar comandos e funções
 
-Ao compilar um projeto DLL, o compilador e vinculador precisam saber quais funções são a ser exportado para que eles podem torná-los disponíveis para o aplicativo. Esta seção descreve as maneiras como isso pode ser feito.
+Ao compilar um projeto DLL, o compilador e o vinculador precisam saber quais funções devem ser exportadas para que possam disponibilizá-las para o aplicativo. Esta seção descreve as maneiras de fazer isso.
   
-Quando compiladores compilar código-fonte, em geral, eles alteram os nomes das funções de sua aparência no código-fonte. Eles geralmente fazem isso por meio da adição de início e/ou final do nome, em um processo conhecido como simplificação de nome. Você deve certificar-se de que a função é exportada com um nome reconhecível para o aplicativo ao carregar a DLL. Isso pode significar informando o vinculador para associar o nome decorado com um nome de exportação mais simples. O nome da exportação pode ser o nome como ele apareceu originalmente no código-fonte ou outra coisa.
+Quando compiladores compilam o código-fonte, em geral, eles alteram os nomes das funções de sua aparência no código-fonte. Eles geralmente fazem isso adicionando o início e/ou final do nome de um processo denominado nome decoração. Você precisa garantir que a função é exportada com um nome reconhecível para o aplicativo ao carregar a DLL. Isso pode significar informar ao vinculador para associar o nome decorado com um nome de exportação mais simples. O nome da exportação pode ser o nome que apareceu originalmente no código-fonte ou qualquer outra coisa.
   
-A maneira como o nome é decorado depende do idioma e como o compilador é instruído para disponibilizar a função, ou seja, a convenção de chamada. A convenção de chamada de standard entre processos para Windows usado pelo DLLs é conhecida como a convenção WinAPI. Ele é definido em arquivos de cabeçalho do Windows como **WINAPI**, que é definido por sua vez usando o declarador do Win32 **__stdcall**.
+A maneira como o nome é decorado depende do idioma e de como o compilador é instruído a disponibilizar a função, ou seja, a convenção de chamada. A convenção de chamada padrão entre processos para o Windows usada por DLLs é conhecida como a convenção WinAPI. Ele é definida nos arquivos de cabeçalho do Windows como **WINAPI**, que por sua vez é definido usando o **__stdcall** do declarador do Win32.
   
-Uma função de exportação de DLL para uso com o Excel (se é uma função de planilha, folha de macro de função equivalente ou comando definida pelo usuário) sempre deve usar o **WINAPI** / **__stdcall** convenção de chamada. É necessário incluir o especificador **WINAPI** explicitamente na definição da função como o padrão no Win32 compiladores é usar o **cdecl** chamar convenção, também são definida como **WINAPIV**, se nenhuma estiver especificada.
+Uma função de exportação de DLL para uso com o Excel (se é uma função de planilha, função equivalente de folha de macro ou comando definido pelo usuário) sempre deve usar a convenção de chamada**WINAPI** / **__stdcall**. É necessário incluir o especificador **WINAPI** explicitamente na definição da função, pois o padrão nos compiladores Win32 é usar a convenção de chamada **__cdecl**, também definida como **WINAPIV**, se nenhuma outra for especificada.
   
-Você pode dizer o vinculador que uma função deve ser exportado e o nome é conhecido por externamente de várias maneiras:
+Você pode dizer ao vinculador que uma função deve ser exportada, e o nome deve ser conhecido externamente de uma das várias maneiras:
   
-- Coloque a função em um arquivo DEF após a palavra-chave **exportações** e defina sua configuração de projeto DLL para fazer referência a este arquivo quando vincular. 
+- Coloque a função em um arquivo DEF após a palavra-chave **EXPORTS** e defina a configuração do projeto DLL para fazer referência a esse arquivo, vincular. 
     
-- Use o declarador **__declspec(dllexport)** na definição da função. 
+- Use o declarador **__declspec(dllexport)** na definição de função. 
     
-- Use uma diretiva de pré-processador **#pragma** para enviar uma mensagem para o vinculador. 
+- Use uma diretiva de pré-processador **#pragma** diretiva para enviar o vinculador. 
     
-Embora o seu projeto pode usar todos os três métodos e seu compilador e vinculador oferecer suporte a eles, você não deve tentar uma função em mais de uma dessas maneiras de exportação. Por exemplo, suponha que uma DLL contém módulos de código fonte dois, um C e um C++, que contêm as duas funções a serem exportados, **Meu\_C\_exportar** e **minha\_Cpp\_exportar** respectivamente. Para manter a simplicidade, suponha que cada função usa um único argumento numérico de precisão dupla e retorna o mesmo tipo de dados. As alternativas para a exportação de cada função usando cada um desses métodos são descritas nas seções a seguir. 
+Embora seu projeto possa usar todos os três métodos e seu compilador e vinculador os suportem, você não deve tentar exportar uma função em mais de uma destas maneiras. Por exemplo, suponha que uma DLL contenha dois módulos de código-fonte, um C e um C ++, que contenham duas funções a serem exportadas, **meu\_C\_exportar** e **meu\_Cpp\_exportar** respectivamente. Para simplificar, suponha que cada função receba um único argumento numérico de precisão dupla e retorne o mesmo tipo de dados. As alternativas para exportar cada função usando cada um desses métodos são descritas nas seções a seguir. 
   
 ### <a name="using-a-def-file"></a>Usando um arquivo DEF
 
@@ -96,18 +96,18 @@ O arquivo DEF precisa conter essas linhas.
 
 <br/>
 
-A sintaxe geral de uma linha que segue uma instrução **exportações** é da seguinte maneira. 
+A sintaxe geral de uma linha que segue uma instrução **EXPORTS** é a seguinte. 
   
 `entryname[=internalname] [@ordinal[NONAME]] [DATA] [PRIVATE]`
 
-Observe que a função C foi decorada, mas o arquivo DEF explicitamente força o vinculador expor a função usando o nome de código fonte original (neste exemplo). O vinculador implicitamente exporta a função C++ utilizando o nome de código original, para que ele não é necessário incluir o nome decorado no arquivo DEF.
+Observe que a função C foi decorada, mas o arquivo DEF explicitamente força o vinculador a expor a função usando o nome do código-fonte original (neste exemplo). O vinculador exporta implicitamente a função C ++ usando o nome de código original, para que não seja necessário incluir o nome decorado no arquivo DEF.
   
-Para chamadas de função de API do Windows de 32 bits, a convenção para a decoração de funções compilado C é da seguinte maneira: **nome_da_função** se torna _ **nome_da_função @** _n_ onde _n_ é o número de bytes, expressado como um número decimal ocupado por todos os argumentos, com os bytes para cada arredondado para cima até o múltiplo mais próximo de quatro. 
+Para chamadas de função da API do Windows de 32 bits, a convenção para a decoração de funções compiladas em C é a seguinte: **function_name** se torna** _ function_name @** _n_ onde _n_ é o número de bytes expressos como um decimal usado por todos os argumentos, com os bytes para cada arredondado para cima até o múltiplo de quatro mais próximo. 
   
 > [!NOTE]
-> Todos os ponteiros são ampla no Win32 de quatro bytes. O tipo de retorno tem nenhum impacto sobre simplificação de nome. 
+> Todos os ponteiros são quatro bytes de largura no Win32. O tipo de retorno não terá impacto sobre o nome da decoração. 
   
-É possível forçar o compilador C++ expor nomes não decorados para funções C++ colocando-se a função e protótipos de função, dentro de um externo "C" {...} bloquear, conforme mostrado neste exemplo. (Das chaves **{}** forem omitidos aqui porque a declaração refere-se apenas para o bloco de código de função que o segue imediatamente). 
+É possível forçar o compilador C ++ a expor nomes não-definidos para funções C ++ colocando a função e quaisquer protótipos de função dentro de um "C" externo {…} bloqueio, como é mostrado neste exemplo. (As chaves ** {} ** foram omitidos aqui porque a declaração refere-se somente ao bloco de código de função que o segue imediatamente). 
   
 ```cpp
 extern "C"
@@ -119,7 +119,7 @@ double WINAPI my_undecorated_Cpp_export(double x)
 
 ```
 
-Quando você está colocando C protótipos de função nos arquivos de cabeçalho que poderiam ser incluídos nos arquivos de origem do C ou C++, você deve incluir a diretiva de pré-processador a seguir.
+Quando você está colocando protótipos de função C em arquivos de cabeçalho que podem ser incluídos em arquivos de origem C ou C ++, inclua a seguinte diretiva de pré-processador.
   
 ```cpp
 #ifdef __cplusplus
@@ -132,7 +132,7 @@ double WINAPI my_Cdecorated_Cpp_export(double x);
 #endif
 ```
 
-### <a name="using-the-declspecdllexport-declarator"></a>Usando o declarador __declspec(dllexport)
+### <a name="using-the-declspecdllexport-declarator"></a>Usando declarador __declspec(dllexport)
 
 A palavra-chave **__declspec(dllexport)** pode ser usada na declaração de função da seguinte maneira. 
   
@@ -144,9 +144,9 @@ __declspec(dllexport) double WINAPI my_C_export(double x)
 }
 ```
 
-A palavra-chave **__declspec(dllexport)** deve ser adicionada à extrema esquerda da declaração. As vantagens dessa abordagem são que a função não precisa ser listadas em um arquivo de definição e o status de exportação é correta com a definição. 
+A palavra-chave **__declspec(dllexport)** deve ser adicionada à esquerda da declaração. As vantagens dessa abordagem são que a função não precisa ser listada em um arquivo DEF e que o status de exportação está correto com a definição. 
   
-Se você deseja evitar uma função C++ sendo disponibilizada com a simplificação de nome de C++, você deve declarar a função da seguinte maneira.
+Se você quiser evitar que uma função C ++ seja disponibilizada com a decoração do nome C ++, você deve declarar a função da seguinte maneira.
   
 ```cpp
 extern "C"
@@ -157,13 +157,13 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 }
 ```
 
-O vinculador disponibilizarão a função como my_undecorated_Cpp_export, ou seja, o nome como ele aparece no código-fonte com sem decoração.
+O vinculador disponibilizará a função como my_undecorated_Cpp_export, ou seja, o nome como aparece no código-fonte sem decoração.
   
-### <a name="using-a-pragma-preprocessor-linker-directive"></a>Usar uma diretiva de pré-processador vinculador #pragma
+### <a name="using-a-pragma-preprocessor-linker-directive"></a>Usando uma diretiva de vinculador de pré-processador #pragma
 
-Versões recentes do Microsoft Visual Studio oferecem suporte a duas macros predefinidas que, quando usado em conjunto com uma diretiva **#pragma** , permitem que você instruir o vinculador para exportar a função diretamente de dentro do código de função. As macros são __função__ e __FUNCDNAME__ (Observe o sublinhado duplo em cada extremidade) que são expandidos para os nomes de função não decorado e decorada respectivamente. 
+Versões recentes do Microsoft Visual Studio suportam duas macros predefinidas que, quando usadas em conjunto com uma diretiva **#pragma**, permite que você instrua o vinculador a exportar a função diretamente de dentro do código de função. As macros são __FUNCTION__ e __FUNCDNAME__ (observe o sublinhado duplo em cada extremidade) que são expandidas para os nomes das funções não decoradas e decoradas, respectivamente. 
   
-Por exemplo, quando você estiver usando o Microsoft Visual Studio, essas linhas podem ser incorporadas em um arquivo de cabeçalho comuns da seguinte maneira.
+Por exemplo, quando você está usando o Microsoft Visual Studio, essas linhas podem ser incorporadas em um arquivo de cabeçalho comum da seguinte maneira.
   
 ```cpp
 #if _MSC_VER > 1200 // Later than Visual Studio 6.0
@@ -174,9 +174,9 @@ Por exemplo, quando você estiver usando o Microsoft Visual Studio, essas linhas
 
 ```
 
-Se este conector está incluído nos arquivos de origem, as funções de dois exemplo podem ser exportadas da seguinte maneira.
+Se esse cabeçalho estiver incluído nos arquivos de origem, as duas funções de exemplo poderão ser exportadas da seguinte maneira.
   
-Código de C:
+Código C:
   
 ```C
 double WINAPI my_C_export(double x)
@@ -187,7 +187,7 @@ double WINAPI my_C_export(double x)
 }
 ```
 
-Código de C++:
+Código C++:
   
 ```cpp
 double WINAPI my_Cpp_export(double x)
@@ -198,12 +198,12 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
-Observe que a diretiva deve ser colocada dentro do corpo da função e é expandida apenas quando nenhuma das opções de compilador **/EP** ou **/P** é definido. Essa técnica remove a necessidade de um arquivo DEF, ou declaração de **__declspec(dllexport)** e mantém a especificação de seu status de exportação com o código de função. 
+Observe que a diretiva deve ser colocada no corpo da função e só está expandida quando nenhuma das opções do compilador **/EP** ou **/p** é definida. Essa técnica elimina a necessidade de um arquivo DEF ou declaração **__declspec(dllexport)** e mantém a especificação do seu status de exportação com o código de função. 
   
 ## <a name="see-also"></a>Confira também
 
 - [Acessar DLLs no Excel](how-to-access-dlls-in-excel.md)
 - [Calling into Excel from the DLL or XLL](calling-into-excel-from-the-dll-or-xll.md)
-- [Excel Programming Concepts](excel-programming-concepts.md)
+- [Conceitos de programação do Excel](excel-programming-concepts.md)
 - [Desenvolvimento de XLLs do Excel](developing-excel-xlls.md)
 
