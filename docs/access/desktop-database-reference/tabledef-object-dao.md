@@ -1,23 +1,24 @@
 ---
-title: Objeto TableDef (DAO)
+title: Objeto TableDef
 TOCTitle: TableDef Object
 ms:assetid: 715146b6-c62a-abff-28ee-e6bbe3c08adf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927365"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726341"
 ---
-# <a name="tabledef-object-dao"></a>Objeto TableDef (DAO)
+# <a name="tabledef-object-dao"></a>Objeto TableDef
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Um objeto **TableDef** representa a definição armazenada de uma tabela base ou de uma tabela vinculada (apenas espaços de trabalho do Microsoft Access).
+Um objeto **TableDef** representa a definição armazenada de uma tabela vinculada ou uma tabela base (apenas espaços de trabalho do Microsoft Access).
 
 ## <a name="remarks"></a>Comentários
 
@@ -27,13 +28,13 @@ Você manipula uma definição de tabela utilizando um objeto **TableDef** e seu
 
 - Usar as propriedades **Connect** e **SourceTableName** para definir ou retornar informações sobre tabelas vinculadas e usar o método **RefreshLink** para atualizar conexões com as tabelas vinculadas.
 
-- Usar as propriedades **ValidationRule** e **ValidationText** para definir ou retornar condições de validação.
+- Use as propriedades **ValidationRule** e **ValidationText** para definir ou retornar condições de validação.
 
-- Use o método **OpenRecordset** para criar uma tabela –, dynaset, dinâmico, instantâneo ou objeto de **Recordset** do tipo somente encaminhamento, com base na definição da tabela.
+- Use o método **OpenRecordset** para criar uma tabela, dynaset –, dinâmica –, instantânea –, ou objeto tipo-encaminhar– somente **conjunto de registros** com base na definição da tabela.
 
-Para tabelas base, a propriedade **RecordCount** contém o número de registros na tabela de banco de dados especificada. Para tabelas vinculadas, a configuração da propriedade **RecordCount** é sempre – 1.
+Para tabelas de base, a propriedade **RecordCount** contém o número de registros da tabela de banco de dados específico. Para tabelas vinculadas, a configuração **RecordCount** de propriedade é sempre – 1.
 
-Para criar um novo objeto **TableDef**, use o método **[CreateTableDef](database-createtabledef-method-dao.md)**.
+Para criar um novo objeto **TableDef**, use o ** método [CreateTableDef](database-createtabledef-method-dao.md) **.
 
 ### <a name="to-add-a-field-to-a-table"></a>Para adicionar um campo a uma tabela
 
@@ -69,9 +70,9 @@ Uma tabela vinculada é conectada ao banco de dados pelas propriedades **SourceT
 
 Para referir-se a um objeto **TableDef** de uma coleção pelo número ordinal ou pela configuração da propriedade **Name**, use qualquer uma das formas de sintaxe a seguir:
 
-**TableDefs** (0)
+**TableDefs**(0)
 
-**TableDefs** ("nome")
+**TableDefs**("nome")
 
 **TableDefs**\!\[nome\]
 
@@ -130,7 +131,7 @@ Este exemplo cria um novo objeto **TableDef** e o acrescenta à coleção **Tabl
 
 <br/>
 
-Este exemplo cria um novo objeto **TableDef** no banco de dados Northwind.
+Este exemplo cria um novo objeto **TableDef** no banco de dados da Northwind.
 
 ```vb 
 Sub CreateTableDefX() 
@@ -193,9 +194,9 @@ Sub CreateTableDefX()
 
 <br/>
 
-O exemplo a seguir mostra como criar um campo calculado. O método CreateField cria um campo denominado **FullName**. A propriedade de expressão, em seguida, é definida como a expressão que calcula o valor do campo.
+O exemplo a seguir mostra como criar um item de lista. O método CreateField cria um campo denominado **NomeCompleto**. A propriedade de expressão, em seguida, está definida como a expressão que calcula o valor do campo.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()
