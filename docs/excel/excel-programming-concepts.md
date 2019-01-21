@@ -5,22 +5,22 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- conceitos de programação, Excel do Excel
-localization_priority: Normal
+- programação do Excel, conceitos do Excel
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9a8598aeaf92a3f6950b6baa809cdcc071516bce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 13f99e3d4154516071fe42dcb27beb944ce384f4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765299"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719649"
 ---
 # <a name="excel-programming-concepts"></a>Conceitos de programação do Excel
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Esta seção fornece informações sobre o Excel comandos e funções, Estados do Excel, planilha e expressão avaliação, active versus planilha atual e referências de planilha.
+Esta seção fornece informações sobre comandos e funções do Excel, estados do Excel, avaliação de planilhas e expressões, planilha ativa vs. atual e referências de planilha.
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -28,7 +28,7 @@ Esta seção fornece informações sobre o Excel comandos e funções, Estados d
   
 > 
     
-[Planilha do Excel e avaliação de expressões](excel-worksheet-and-expression-evaluation.md)
+[Avaliação de expressões e planilhas do Excel](excel-worksheet-and-expression-evaluation.md)
   
 > 
     
@@ -44,9 +44,9 @@ Esta seção fornece informações sobre o Excel comandos e funções, Estados d
   
 > 
     
-## <a name="related-sections"></a>Seções relacionadas
+## <a name="related-sections"></a>Seções Relacionadas
 
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+[Referência de função da API do SDK XLL do Excel](excel-xll-sdk-api-function-reference.md)
   
 > 
     

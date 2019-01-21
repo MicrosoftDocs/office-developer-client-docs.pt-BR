@@ -1,33 +1,33 @@
 ---
-title: Maior que ou igual a (aplicativo da web personalizado do Access)
+title: Maior ou igual a (aplicativo Web personalizado do Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: cceb8dcb-5ce1-4c32-b057-6201b62a646f
-description: Compara duas expressões para maior ou igual.
-ms.openlocfilehash: 425745d8634f92e3bcce3cbfcd7d11a890e3be4b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Compara duas expressões como "maior ou igual a".
+localization_priority: Priority
+ms.openlocfilehash: 76472544be950c68f3b5d42fe13b3040e9268f48
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765063"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709254"
 ---
-# <a name="greater-than-or-equal-to-access-custom-web-app"></a>Maior que ou igual a (aplicativo da web personalizado do Access)
+# <a name="greater-than-or-equal-to-access-custom-web-app"></a>Maior ou igual a (aplicativo Web personalizado do Access)
 
-Compara duas expressões para maior ou igual.
+Compara duas expressões como "maior ou igual a".
   
 > [!IMPORTANT]
-> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
+> A Microsoft não recomenda mais criar e usar aplicativos Web do Access no SharePoint. Como alternativa, use o [Microsoft PowerApps](https://powerapps.microsoft.com/pt-BR/) para criar soluções de negócios sem código para a Web e dispositivos móveis. 
   
 ## <a name="syntax"></a>Sintaxe
 
 `>= (Greater Than or Equal To)`
 
-*expressão*  \>=  *expressão* 
+*expression*  \>=  *expression* 
   
-*expressão*  É qualquer expressão válida. Ambas as expressões devem ter tipos de dados implicitamente conversível. A conversão depende as regras de precedência de tipo de dados. 
+*expression* Trata-se de qualquer expressão válida. Ambas as expressões devem ter tipos de dados implicitamente conversíveis. A conversão depende das regras de precedência do tipo de dados. 
   
 ## <a name="return-type"></a>Tipo de retorno
 
@@ -35,6 +35,6 @@ Compara duas expressões para maior ou igual.
   
 ## <a name="remarks"></a>Comentários
 
-Quando você comparar expressões de não-nulo, o resultado é TRUE se o operando esquerdo possuir um valor maior ou igual que o operando direito; Caso contrário, o resultado é FALSE.
+Quando comparar expressões não nulas, o resultado será TRUE se o operando esquerdo tiver um valor maior ou igual em relação ao operando direito. Caso contrário, o resultado será FALSE.
   
 
