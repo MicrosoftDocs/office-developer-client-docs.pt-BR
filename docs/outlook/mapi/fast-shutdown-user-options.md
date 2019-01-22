@@ -1,35 +1,35 @@
 ---
-title: Opções de desligamento rápido do usuário
+title: Opções do usuário para desligamento rápido
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
-description: 'Modificado pela última vez: 26 de junho de 2012'
-ms.openlocfilehash: bd541ed09bc661f3697408d3f475928b9ef0bcc1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: 'Última modificação: 26 de junho de 2012'
+localization_priority: Priority
+ms.openlocfilehash: 3c60862733c6b38e60650ae9daba9bba578fcd58
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585189"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716366"
 ---
-# <a name="fast-shutdown-user-options"></a>Opções de desligamento rápido do usuário
+# <a name="fast-shutdown-user-options"></a>Opções do usuário para desligamento rápido
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico descreve as três Windows configurações do registro que estão disponíveis, iniciando no Microsoft Outlook 2010 e agora, incluindo Microsoft Outlook 2013, para desligamento rápido de clientes MAPI do usuário. Os administradores podem usar essas configurações do registro para especificar o comportamento de desligamento do cliente preferencial dependendo suporte dos provedores de MAPI para desligamento rápido do cliente. Configuração do administrador, por sua vez, determina como o subsistema de MAPI responde a chamada do cliente MAPI para [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) em termos de suporte de desligamento rápido disponíveis. 
+Este tópico descreve as três configurações de registro do Windows disponíveis, iniciando com o Microsoft Outlook 2010 e agora incluindo o Microsoft Outlook 2013, para o desligamento rápido de clientes de MAPI de um usuário. Os administradores podem usar essas configurações de registro para especificar o comportamento de desligamento preferencial do cliente, dependendo do suporte dos provedores de MAPI para o desligamento rápido do cliente. A configuração do administrador, por sua vez, determina como o subsistema de MAPI responde à chamada do cliente de MAPI para [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) em termos de suporte de desligamento rápido disponível. 
   
-Embora uma configuração de registro reflete a preferência do administrador no nível do usuário para o desligamento rápido para todos os clientes MAPI, um desenvolvedor de cliente MAPI pode decidir se o cliente suporta desligamento rápido independentemente de outros clientes MAPI e o configuração de registro do administrador. No entanto, para o desligamento rápido ocorrência com êxito, o usuário deve ter a configuração de registro necessárias, um cliente MAPI deve iniciar o desligamento rápido usando o [IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md) interface e os provedores MAPI que funcionam com o cliente deverá implementar o [IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) interface para suportar o desligamento rápido do cliente. 
+Mesmo que uma configuração do registro reflita a preferência do administrador no nível do usuário pelo desligamento rápido de todos os clientes de MAPI, um desenvolvedor de cliente de MAPI poderá decidir se o cliente dará suporte ao desligamento rápido independentemente de outros clientes de MAPI e da configuração do registro do administrador. No entanto, para que o desligamento rápido ocorra com êxito, o usuário deverá ter a configuração do registro necessária, um cliente de MAPI deverá iniciar o desligamento rápido usando a interface [IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md), e os provedores de MAPI que trabalham com o cliente deverão implementar a interface [IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) para dar suporte ao desligamento rápido do cliente. 
   
 A lista a seguir descreve as três opções de nível do usuário.
   
-### <a name="option-1-the-mapi-subsystem-enables-fast-shutdown-unless-mapi-providers-explicitly-opt-out"></a>Opção 1: O subsistema de MAPI habilita o desligamento rápido, a menos que provedores MAPI explicitamente rejeitar 
+### <a name="option-1-the-mapi-subsystem-enables-fast-shutdown-unless-mapi-providers-explicitly-opt-out"></a>Opção 1: o subsistema de MAPI permite o desligamento rápido, a menos que os provedores de MAPI recusem explicitamente 
     
-No Outlook 2010, isso é iniciar o comportamento padrão quando o Outlook é o cliente MAPI; não é necessariamente o comportamento padrão de outros clientes MAPI. Para especificar explicitamente essa opção para o Outlook, os administradores podem optar definir a seguinte chave do registro e o valor.
+Começando com o Outlook 2010, esse é o comportamento padrão quando o Outlook é o cliente de MAPI; não é necessariamente o comportamento padrão para outros clientes de MAPI. Para especificar explicitamente essa opção para o Outlook, os administradores podem optar por definir o seguinte valor e chave do Registro.
     
-Chave do registro:
+Chave do Registro:
   
 >  `[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\14.0\Outlook\Options\Shutdown]`
     
@@ -37,17 +37,17 @@ Valor:
   
 >  `"FastShutdownBehavior"=dword:00000000`
     
-Quando um cliente MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown** a consulta para suporte de desligamento rápido, o subsistema de MAPI responde à consulta retornando S\_Okey contanto que nenhum provedor MAPI que tenha um ativo MAPI sessão com o cliente MAPI tem explicitamente aceitos sem suporte de desligamento rápido. 
+Quando um cliente de MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown** para consultar o suporte do desligamento rápido, o subsistema de MAPI responde à consulta retornando S\_OK, desde que nenhum provedor de MAPI que tenha uma sessão de MAPI ativa com o cliente de MAPI tenha recusado explicitamente o suporte do desligamento rápido. 
 
-Um provedor MAPI recusa sem desligamento rápido Implementando o método [IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) para retornar um erro (MAPI\_f\_não\_suporte). Se um ou mais provedores MAPI retornam um erro em **IMAPIProviderShutdown::QueryFastShutdown**, o subsistema de MAPI retorna MAPI_\E_\NO\_suporte para **IMAPIClientShutdown::QueryFastShutdown**. 
+Um provedor de MAPI recusa o desligamento rápido implementando o método [IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) para retornar um erro (MAPI\_E\_NO\_SUPPORT). Se um ou mais provedores de MAPI retornarem um erro em **IMAPIProviderShutdown::QueryFastShutdown**, o subsistema de MAPI retorná MAPI_\E_\NO\_SUPPORT para **IMAPIClientShutdown::QueryFastShutdown**. 
 
-A menos que um provedor MAPI recusa, o retorna do subsistema MAPI S\_Okey, mesmo se um ou mais provedores não implementou o **IMAPIProviderShutdown: IUnknown** interface. 
+Se um provedor de MAPI recusar, o subsistema de MAPI retornará S\_OK, mesmo que um ou mais provedores não tenham implementado a interface **IMAPIProviderShutdown: IUnknown**. 
     
-### <a name="option-2-the-mapi-subsystem-enables-fast-shutdown-only-if-every-mapi-provider-explicitly-opts-in"></a>Opção 2: O subsistema de MAPI habilita o desligamento rápido somente se cada provedor MAPI recusa explicitamente em 
+### <a name="option-2-the-mapi-subsystem-enables-fast-shutdown-only-if-every-mapi-provider-explicitly-opts-in"></a>Opção 2: o subsistema de MAPI habilita o desligamento rápido somente se cada provedor de MAPI aceitar explicitamente 
     
-Os administradores devem definir explicitamente a seguinte chave do registro e o valor para especificar essa preferência para desligamento rápido do cliente.
+Os administradores devem definir explicitamente o seguinte valor e chave do Registro para especificar essa preferência para o desligamento rápido do cliente.
     
-Chave do registro:
+Chave do Registro:
   
 >  `[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\14.0\Outlook\Options\Shutdown]`
     
@@ -55,15 +55,15 @@ Valor:
   
 >  `"FastShutdownBehavior"=dword:00000001`
     
-Quando um cliente MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown** a consulta para suporte de desligamento rápido, o subsistema de MAPI responde à consulta retornando S\_Okey se todos os provedores MAPI que tiver sessões ativas com desligamento rápido do suporte de cliente MAPI. Um provedor MAPI demonstra seu suporte por meio da implementação **IMAPIProviderShutdown::QueryFastShutdown** para retornar um código de erro não (S\_Okey). 
+Quando um cliente de MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown ** para consultar o suporte do desligamento rápido, o subsistema de MAPI responde à consulta retornando S\_OK se todos os provedores de MAPI que possuem sessões ativas com o cliente de MAPI derem suporte ao desligamento rápido. Um provedor de MAPI demonstra o suporte implementando **IMAPIProviderShutdown::QueryFastShutdown** para retornar um código de não erro (S\_OK). 
 
-Se um ou mais desses provedores MAPI retornarem MAPI\_f\_não\_suporte, ou não implementar **IMAPIProviderShutdown::QueryFastShutdown**, o subsistema de MAPI retorna um código de erro ao **IMAPIClientShutdown::QueryFastShutdown** .
+Se um ou mais desses provedores de MAPI retornarem MAPI\_E\_NO\_SUPPORT ou não implementarem **IMAPIProviderShutdown::QueryFastShutdown**, o subsistema de MAPI retornará um código de erro para **IMAPIClientShutdown::QueryFastShutdown**.
     
-### <a name="option-3-an-administrator-disables-support-for-client-fast-shutdown"></a>Opção 3: Administrador desabilita o suporte para desligamento rápido do cliente
+### <a name="option-3-an-administrator-disables-support-for-client-fast-shutdown"></a>Opção 3: um administrador desabilita o suporte para o desligamento rápido do cliente
     
-Os administradores devem definir explicitamente a seguinte chave do registro e o valor para desabilitar o suporte para desligamento rápido do cliente.
+Os administradores devem definir explicitamente o seguinte valor e a chave do Registro para desabilitar o suporte para o desligamento rápido do cliente.
     
-Chave do registro:
+Chave do Registro:
   
 >  `[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\14.0\Outlook\Options\Shutdown]`
     
@@ -71,7 +71,7 @@ Valor:
   
 >  `"FastShutdownBehavior"=dword:00000002`
     
-Quando um cliente MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown** a consulta para suporte de desligamento rápido, o subsistema de MAPI responde à consulta, retornando MAPI_E_NO_SUPPORT, independentemente se qualquer provedor MAPI suporta rápida desligamento. Sob esta configuração do registro, o subsistema de MAPI nunca chama o método **IMAPIProviderShutdown::QueryFastShutdown** ou [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) de qualquer um dos provedores. 
+Quando um cliente de MAPI inicia um desligamento rápido e chama **IMAPIClientShutdown::QueryFastShutdown** para consultar o suporte do desligamento rápido, o subsistema de MAPI responde à consulta retornando MAPI_E_NO_SUPPORT, independentemente de se algum provedor de MAPI oferece suporte ao desligamento rápido. Nesta configuração de registro, o subsistema de MAPI nunca chama o método **IMAPIProviderShutdown::QueryFastShutdown** ou [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) de qualquer dos provedores. 
     
 ## <a name="see-also"></a>Confira também
 

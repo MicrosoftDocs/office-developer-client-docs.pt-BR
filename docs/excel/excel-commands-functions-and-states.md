@@ -5,98 +5,98 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- estados [excel 2007], [Excel 2007] de comandos, funções de planilha [Excel 2007], funções de folha de macro [Excel 2007], Estados do Excel
-localization_priority: Normal
+- estados [Excel 2007],comandos [Excel 2007],funções de planilha [Excel 2007],funções de planilha de macro [Excel 2007],estados do Excel
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765294"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716233"
 ---
 # <a name="excel-commands-functions-and-states"></a>Estados, funções e comandos do Excel
 
  **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-O Microsoft Excel reconhece dois tipos de funcionalidade adicionada muito diferentes: as funções e comandos.
+O Microsoft Excel reconhece dois tipos bem distintos de funcionalidade adicionada: comandos e funções.
   
 ## <a name="commands"></a>Comandos
 
-No Excel, comandos têm as seguintes características:
+No Excel, os comandos têm as seguintes características:
   
-- Eles realizar ações da mesma forma que os usuários fazem.
+- Realizam ações da mesma forma que os usuários.
     
-- Eles podem fazer qualquer coisa que um usuário pode fazer (assunto para os limites da interface utilizados), como alterar as configurações do Excel, abertura, fechamento e editando documentos, iniciando recálculos e assim por diante.
+- Podem realizar as mesmas ações que um usuário (sujeito aos limites da interface usada), como alterar as configurações do Excel, abrir, fechar e editar documentos, iniciar recálculos e muito mais.
     
-- Eles podem ser configurados para ser chamados quando ocorrerem determinados eventos capturados.
+- Podem ser configurados para ser chamados quando certos eventos interceptados ocorrerem.
     
-- Eles podem exibir caixas de diálogo e interagir com o usuário.
+- Podem exibir caixas de diálogo e interagir com o usuário.
     
-- Eles podem ser vinculados para controlar objetos para que eles são chamados quando alguma ação seja executada nesse objeto, como o mouse.
+- Podem ser vinculados a objetos de controle para que sejam chamados quando alguma ação for executada nesse objeto, como clicar com o botão esquerdo do mouse.
     
-- Eles nunca são chamados pelo Excel durante um recálculo.
+- Nunca são chamados pelo Excel durante um recálculo.
     
-- Eles não podem ser chamados pelas funções durante um recálculo.
+- Não podem ser chamados pela funções durante o recálculo.
     
 ## <a name="functions"></a>Funções
 
-Funções do Excel faça o seguinte:
+As ações no Excel realizam o seguinte:
   
-- Eles geralmente levam argumentos e sempre retornam um resultado.
+- Geralmente usam argumentos e sempre retornam um resultado.
     
-- Eles podem ser inseridos em uma ou mais células como parte de uma fórmula do Excel.
+- Podem ser inseridas em uma ou mais células como parte de uma fórmula do Excel.
     
-- Eles podem ser usados em definições do nome definido.
+- Podem ser usadas em definições de nome definido.
     
-- Eles podem ser usados em expressões de limite e de limite de formatação condicional.
+- Podem ser usadas ​​em expressões de limite e limite de formatação condicional.
     
-- Eles podem ser chamados pelos comandos.
+- Podem ser chamadas pelos comandos.
     
-- Eles não é possível chamar comandos.
+- Não podem chamar comandos.
     
-Excel faz outra distinção entre funções de planilha definidas pelo usuário e as funções definidas pelo usuário são projetadas para trabalhar em folhas de macro. Excel não limitam as funções de planilha de macro definida pelo usuário apenas a que está sendo usado em folhas de macro: essas funções podem ser usadas em qualquer lugar, uma função de planilha normal pode ser usada.
+O Excel faz uma distinção adicional entre funções de planilha definidas pelo usuário e funções definidas pelo usuário que são projetadas para trabalhar em planilhas de macro. O Excel não limita as funções de planilha de macro definidas pelo usuário somente para uso em planilhas de macro: essas funções podem ser usadas em qualquer lugar que uma função de planilha normal pode ser usada.
   
-### <a name="worksheet-functions"></a>Funções de Planilha
+### <a name="worksheet-functions"></a>Funções de planilha
 
-O exemplo a seguir for verdadeira das funções de planilha do Excel:
+As seguintes condições são verdadeiras para as funções de planilha do Excel:
   
-- Eles não podem acessar as funções de informações de folha de macro.
+- Não podem acessar as funções de informação de planilha de macro.
     
-- Eles não podem obter os valores das células não calculadas.
+- Não podem obter os valores de células não calculadas.
     
-- Eles podem ser gravados e registrados como thread-safe iniciando no Excel 2007.
+- Podem ser criadas e registradas como thread-safe, começando no Excel 2007.
     
-### <a name="macro-sheet-functions"></a>Funções de folha de macro
+### <a name="macro-sheet-functions"></a>Funções de planilha de macro
 
-O exemplo a seguir for verdadeira das funções de folha de macro do Excel:
+As seguintes condições são verdadeiras para as funções de planilha de macro do Excel:
   
-- Eles podem acessar as funções de informações de folha de macro.
+- Podem acessar as funções de informação de planilha de macro.
     
-- Eles podem obter os valores das células não calculadas, incluindo os valores das células da chamada.
+- Podem obter os valores de células não calculadas, inclusive os valores das células chamadas.
     
-- Eles não são considerados thread seguros iniciada no Excel 2007.
+- Não são consideradas thread-safe, começando no Excel 2007.
     
-Como o Excel trata uma função definida pelo usuário (UDF), o que permite a função fazer e como ele recalcula a função são determinados tudo ao registrar a função. Se uma função está registrada como uma função de planilha, mas tenta fazer algo que apenas uma função de folha de macro pode fazer, a operação falhará. Iniciando no Excel 2007, se uma função de planilha registrada como thread-safe tenta chamar uma função de folha de macro, novamente, a operação falhará.
+Quando você registra a função, determina como o Excel trata uma UDF (função definida pelo usuário), o que permite que a função faça e como ela recalcula a função. Se uma função for registrada como uma função de planilha, mas tenta fazer algo que somente uma função de planilha de macro pode fazer, a operação falhará. Desde o Excel 2007, se uma função de planilha registrada como thread-safe tentar chamar uma função de planilha de macro, novamente, a operação falhará.
   
-Excel trata do Microsoft Visual Basic for Applications (VBA) UDFs como funções equivalente a folha de macro, em que eles possam acessar informações de espaço de trabalho e o valor das células não calculadas e eles não são considerados como thread iniciando seguros no Excel 2007.
+O Excel trata as UDFs do VBA (Microsoft Visual Basic for Applications) como funções equivalentes a planilhas de macro, pois elas podem acessar informações de espaço de trabalho e o valor de células não calculadas, e não são consideradas como thread-safe desde o Excel 2007.
   
 ## <a name="excel-states"></a>Estados do Excel
 
-Excel pode estar em um dos vários estados a qualquer momento determinado, dependendo das ações do usuário, um processo externo, um evento capturado executando uma macro ou um evento de manutenção do sistema do Excel cronometrado como **salvamento automático**.
+O Excel pode estar em um dos vários estados a qualquer momento, dependendo das ações do usuário, de um processo externo, de um evento interceptado executando uma macro ou de um evento de manutenção do Excel, como **Salvamento Automático**.
   
-Os estados de experiências de usuário são:
+Os estados experimentados pelo usuário são os seguintes:
   
-- **Estado está pronto:** Não há comandos ou macros estão sendo executadas. Sem caixas de diálogo estiver sendo exibidas. Nenhuma célula estiver sendo editada e o usuário não estiver no meio de uma operação de Recortar/copiar e colar. Nenhum objeto incorporado tem o foco. 
+- **Estado Pronto:** nenhum comando ou macro está sendo executado. Nenhuma caixa de diálogo está sendo exibida. Nenhuma célula está sendo editada e o usuário não está no meio de uma operação de recortar/copiar e colar. Nenhum objeto inserido está focado. 
     
-- **Modo de edição:** O usuário foi iniciada digitar caracteres válidos de entrada em uma célula desbloqueada ou desprotegida ou pressionou **F2** em uma ou mais células desbloqueadas ou desprotegidas. 
+- **Modo Editar:** o usuário começou a digitar caracteres de entrada válidos em uma célula desbloqueada ou desprotegida, ou pressionou **F2** em uma ou mais células desbloqueadas ou desprotegidas. 
     
-- **Modo Recortar/copiar e colar:** O usuário tem recortado ou copiado de uma célula ou intervalo de células e tem não ainda coladas-los ou tem colado-los usando a caixa de diálogo Colar especial, que permite que várias operações de colagem. 
+- **Modo Recortar/copiar e colar:** o usuário recortou ou copiou uma célula ou um intervalo de células e ainda não colou, ou colou usando a caixa de diálogo especial de colagem, que permite várias operações de colagem. 
     
-- **Modo ponto:** O usuário está editando uma fórmula e está selecionando células cujos endereços são adicionados à fórmula está sendo editada. 
+- **Modo Apontar:** o usuário está editando uma fórmula e selecionando células cujos endereços são adicionados à fórmula que está sendo editada. 
     
-O usuário pode desmarcar a editar, ponto e modos de Recortar/copiar pressionando a tecla **ESC** , que retorna o Excel ao estado pronto. Outros eventos podem limpar desses estados, como o seguinte: 
+O usuário pode limpar os modos Editar, Apontar e Recortar/copiar pressionando a tecla **ESC**, que retorna o Excel ao estado pronto. Outros eventos podem limpar esses estados, como: 
   
 - O usuário abre uma caixa de diálogo interna.
     
@@ -104,17 +104,17 @@ O usuário pode desmarcar a editar, ponto e modos de Recortar/copiar pressionand
     
 - O usuário executa um comando.
     
-- Excel executa uma operação de **salvamento automático** . 
+- O Excel executa uma operação de **Salvamento Automático**. 
     
-- Um evento timer é interceptado.
+- Um evento de temporizador é interceptado.
     
-O exemplo a último é de importância ao suplemento desenvolvedores. Você deve considerar o impacto da usabilidade normal do Excel em que intercepta o evento timer frequente estão sendo definidos e executadas. Quando isso é uma parte importante do funcionalidade da seu suplemento, você deve fornecer aos usuários uma maneira podem ser acessada facilmente de suspendendo, para que eles podem Recortar/copiar e colar, normalmente, quando eles precisam.
+O último exemplo é importante para os desenvolvedores de suplementos. Você deve considerar o impacto da usabilidade normal do Excel, em que as interceptações de eventos de temporizador frequentes estão sendo definidas e executadas. Quando essa for uma parte importante da funcionalidade de seu suplemento, ofereça aos usuários uma forma facilmente acessível de suspendê-la, para que eles possam recortar/copiar e colar normalmente quando precisarem.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Excel Programming Concepts](excel-programming-concepts.md)
+[Conceitos de programação do Excel](excel-programming-concepts.md)
   
 [Permitir intervenções de usuário em operações demoradas](permitting-user-breaks-in-lengthy-operations.md)
 

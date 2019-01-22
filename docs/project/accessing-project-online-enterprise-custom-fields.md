@@ -3,54 +3,54 @@ title: Acessar campos personalizados da empresa no Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
-description: 'Project Online é um serviço do Office 365 que as empresas podem ampliar para atender às necessidades de negócios. Uma área de extensão é campos personalizados da empresa (ECFs). ECFs são campos de valor digitado que podem ser adicionados a projetos, recursos e tarefas. A tabela a seguir lista ECFs associar projetos, recursos e tarefas e fornece um exemplo de um valor para uma instância do que ECF:'
-ms.openlocfilehash: 978fdfbf4ba75382ad85b9f92f8ac4df5c7f97c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: 'O Project Online é um serviço do Office 365 que as empresas podem estender para atender às necessidades de negócios. Uma área de extensão são os Campos Personalizados da Empresa (Enterprise Custom Fields – ECFs). Os ECFs são campos de valores tipados que podem ser adicionados a projetos, recursos e tarefas. A tabela a seguir lista os ECFs que se associam a projetos, recursos e tarefas e fornece um exemplo de um valor para uma instância desse ECF:'
+localization_priority: Priority
+ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708302"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Acessar campos personalizados da empresa no Project Online
 
-Project Online é um serviço do Office 365 que as empresas podem ampliar para atender às necessidades de negócios. Uma área de extensão é campos personalizados da empresa (ECFs). ECFs são campos de valor digitado que podem ser adicionados a projetos, recursos e tarefas. A tabela a seguir lista ECFs associar projetos, recursos e tarefas e fornece um exemplo de um valor para uma instância do que ECF:
+O Project Online é um serviço do Office 365 que as empresas podem estender para atender às necessidades de negócios. Uma área de extensão são os Campos Personalizados da Empresa (Enterprise Custom Fields – ECFs). Os ECFs são campos de valores tipados que podem ser adicionados a projetos, recursos e tarefas. A tabela a seguir lista os ECFs que se associam a projetos, recursos e tarefas e fornece um exemplo de um valor para uma instância desse ECF:
   
-|Nome do ECF|Tipo ECF|Association|Valor de exemplo|
+|Nome ECF|Tipo ECF|Association|Valor de Exemplo|
 |:-----|:-----|:-----|:-----|
-|Justificativa  <br/> |TEXT  <br/> |Project  <br/> |Um usuário final pode registrar estatísticas importantes e dados de integridade, com os resultados que incluem uma avaliação de integridade e uma ação individualizada plano rumo melhor integridade.  <br/> |
-|Classificação de risco  <br/> |TEXT  <br/> |Project  <br/> |Baixa  <br/> |
-|RETORNO DO INVESTIMENTO  <br/> |NÚMERO  <br/> |Project  <br/> |2,10  <br/> |
-|Custo total  <br/> |CUSTO  <br/> |Project  <br/> |US $1,031,514  <br/> |
-|Início da equipe  <br/> |TEXT  <br/> |Resources  <br/> |Sim  <br/> |
-|Função posição  <br/> |TEXT  <br/> |Resources  <br/> |Testador  <br/> |
-|Status do Sinalizador  <br/> |SINALIZADOR  <br/> |Task  <br/> |Não  <br/> |
-|Saúde  <br/> |TEXT  <br/> |Task  <br/> |Não especificado  <br/> |
+|Justificação  <br/> |TEXTO  <br/> |Project  <br/> |Um usuário final pode registrar estatísticas vitais e dados sobre a integridade, com resultados que incluem uma avaliação da integridade e um plano de ação individualizado para melhorá-la.  <br/> |
+|Classificação de risco  <br/> |TEXTO  <br/> |Project  <br/> |Baixo  <br/> |
+|ROI  <br/> |NÚMERO  <br/> |Project  <br/> |2,10  <br/> |
+|Custo total  <br/> |CUSTO  <br/> |Project  <br/> |US$ 1.031.514  <br/> |
+|Equipe de lançamento  <br/> |TEXTO  <br/> |Recursos  <br/> |Sim  <br/> |
+|Função de posição  <br/> |TEXTO  <br/> |Recursos  <br/> |Testador  <br/> |
+|Status do sinalizador  <br/> |SINALIZAR  <br/> |Tarefa  <br/> |Não  <br/> |
+|Integridade  <br/> |TEXTO  <br/> |Tarefa  <br/> |Não especificado  <br/> |
    
-ECFs são definidas na instância do Project Web Application (PWA), externa de qualquer projeto, recurso ou tarefa. Ainda assim, eles podem se tornar associados a um projeto, recurso ou tarefa. Este artigo fornece um olhar introdutório sobre campos personalizados usando um aplicativo de amostra e se concentra em recuperando valores de ECF. 
+Os ECFs são definidos na instância externa do Project Web Application (PWA), de qualquer projeto, recurso ou tarefa. No entanto, eles podem se associar a um projeto, recurso ou tarefa. Este artigo fornece uma visão introdutória dos campos personalizados usando um aplicativo de exemplo e se concentra na recuperação de valores do ECF. 
   
-Você pode baixar o exemplo completo em https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
+É possível baixar o exemplo completo em https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
   
-Além disso, Project Online suporta campos personalizados locais como somente leitura entidades específicas para o projeto específico, recurso ou tarefa. Para obter mais informações sobre campos personalizados locais, consulte o exemplo https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
+Além disso, o Project Online é compatível com campos personalizados locais como entidades somente leitura específicas para o projeto, recursos ou tarefa específico. Para saber mais sobre campos personalizados locais, confira o exemplo https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
   
-## <a name="background-materials"></a>Materiais de plano de fundo
+## <a name="background-materials"></a>Materiais de tela de fundo
 
-Um artigo anterior, [desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente](developing-a-project-online-application-using-the-client-side-object-model.md), fornece um plano de fundo e a orientação inicial para desenvolver aplicativos usando o CSOM. Consulte este artigo para os seguintes itens:
+Um artigo anterior, [Desenvolver um aplicativo do Project Online usando o modelo de objeto do lado do cliente](developing-a-project-online-application-using-the-client-side-object-model.md), fornece o plano de fundo e a orientação inicial para o desenvolvimento de aplicativos usando o CSOM. Confira este artigo para ver os seguintes itens:
   
-- Informações básicas sobre o projeto, edições autônomos e baseado em nuvem 
+- Informações sobre o Project, edições autônomas e baseadas na nuvem 
     
 - Ambiente de desenvolvimento (edições do Visual Studio e bibliotecas de software)
     
-- Instalação de projeto do Visual Studio para um aplicativo .NET usando a biblioteca de CSOM
+- Instalação do projeto do Visual Studio para um aplicativo .NET usando a biblioteca CSOM
     
-- Conectando ao serviço Project Online
+- Conexão com o serviço do Project Online
     
-## <a name="preliminaries-class-level-declarations"></a>Etapas preliminares (nível da classe declarations)
+## <a name="preliminaries-class-level-declarations"></a>Preliminares (declarações de nível de classe)
 
-A classe para esse aplicativo define dois itens de dados: o contexto de projeto e o dicionário de pwaECF.
+A classe deste aplicativo define dois itens de dados: o contexto do projeto e o dicionário pwaECF.
   
-O objeto de contexto do projeto é parte do CSOM do projeto e conecta-se o aplicativo e a instância do PWA. Todas as solicitações ao serviço usam o contexto do projeto.
+O objeto do contexto do projeto faz parte do CSOM Project e conecta instância PWA e o aplicativo. Todas as solicitações do serviço usam o contexto do projeto.
   
 ```cs
 private static ProjectContext projContext = 
@@ -58,9 +58,9 @@ private static ProjectContext projContext =
 
 ```
 
-O contexto precisa o ponto de extremidade de conexão para criar uma instância de um aplicativo. O ponto de extremidade de conexão é a URL da sua instância do PWA. 
+O contexto precisa do ponto de extremidade de conexão para criar uma instância em um aplicativo. O ponto de extremidade de conexão é a URL de sua instância do PWA. 
   
-O dicionário pwaECF armazena o projeto ECFs definidas no nível do PWA. O dicionário usa o ECF. InternalName como a chave e o objeto CustomField como o valor. O dicionário é preenchido no método ListPWACustomFields e, em seguida, usado como uma referência no método Main. 
+O dicionário pwaECF armazena os EFCs do projeto definidos no nível do PWA. O dicionário usa o ECF.InternalName como a chave e o objeto CustomField como o valor. O dicionário é preenchido no método ListPWACustomFields e, em seguida, é usado como uma referência no método Main. 
   
 ```cs
     //Dictionary of ECFs
@@ -68,23 +68,23 @@ O dicionário pwaECF armazena o projeto ECFs definidas no nível do PWA. O dicio
 
 ```
 
-## <a name="main-method"></a>Método principal
+## <a name="main-method"></a>Método Main
 
-O método Main gerencia o fluxo de aplicativo. Como com outros aplicativos que usam o Project Online CSOM Main inicializa o contexto do projeto. 
+O método Main gerencia o fluxo do aplicativo. Assim como em outros aplicativos que usam o CSOM do Project Online, o Main inicializa o contexto do projeto. 
   
-1. Recupere e listar os ECFs no Project Online PWA.
+1. Recupere e liste os ECFs no PWA do Project Online.
     
-   Essa funcionalidade é implementada no método ListPWACustomFields.
+   Esse recurso é implementado no método ListPWACustomFields.
     
-2. Recupere os projetos com campos personalizados e não personalizadas.
+2. Recupere projetos com campos personalizados e campos não personalizados.
     
-   Ao recuperar projetos com ECFs, a solicitação de consulta para o serviço do Project Online precisa incluir os seguintes itens: 
+   Ao recuperar projetos com ECFs, a solicitação de consulta feita ao serviço do Project Online deve incluir os seguintes itens: 
     
-   - **IncludeCustomFields** &ndash; Esse item solicita o serviço para retornar uma coleção de PublishedProjects onde cada projeto publicado inclui uma extensão que ofereça suporte a campos personalizados. A menos que esse item for especificado, o Project Online retorna PublishedProject objetos que não incluem dados de campo personalizado.
+   - **IncludeCustomFields** &ndash; Este item solicita que o serviço retorne uma coleção de PublishedProjects, em que cada projeto publicado inclui uma extensão que oferece suporte a campos personalizados. A menos que este item seja especificado, o Project Online retorna objetos PublishedProject que não incluem dados do campo personalizado.
     
-   - **IncludeCustomFields.CustomFields** &ndash; este item solicita o serviço para preencher os objetos PublishedProject com dados CustomFields.
+   - **IncludeCustomFields.CustomFields** &ndash; Este item solicita que o serviço preencha os objetos PublishedProject com dados de CustomFields.
     
-   A solicitação a seguir especifica o Id do projeto e nome, bem como a extensão do objeto para campos personalizados e os valores de campo personalizado.
+   A solicitação a seguir especifica a ID e o nome do projeto, além da extensão do objeto para campos personalizados e os valores do campo personalizado.
     
    ```cs
         var projBlk = projContext.LoadQuery(
@@ -99,32 +99,32 @@ O método Main gerencia o fluxo de aplicativo. Como com outros aplicativos que u
 
 3. Examine cada projeto.
     
-   Os objetos de projeto usados nesse aplicativo são o tipo de PublishedProject porque os valores são recuperados e exibidos. 
+   Os objetos de projeto usados neste aplicativo são do tipo PublishedProject porque os valores são recuperados e exibidos. 
     
-   Se você precisar atualizar os valores de dados em um ou mais projetos, o projeto sendo submetido a atualização seria fazer check-out e o aplicativo usaria um objeto DraftProject para recuperar os valores e atualizar o projeto.
+   Se você precisar atualizar valores de dados em um ou mais projetos, o projeto que está passando pela atualização passará por check-out e o aplicativo utilizará um objeto DraftProject para recuperar os valores e atualizar o projeto.
     
-4. Acessando as entradas ECF para um projeto
+4. Acessar as entradas ECF para um projeto
     
-   Cada instância ECF separa o valor do campo do restante das informações ECF. O valor do campo é armazenado como parte de um par de chave/valor. O restante das informações é armazenado em um objeto CustomField.
+   Cada instância do ECF separa o valor do campo do restante das informações do ECF. O valor do campo é armazenado como parte de um par de chave/valor. O restante das informações é armazenado em um objeto CustomField.
     
-   Acessar valores de ECF em um projeto consiste em duas partes:
+   O acesso a valores do ECF em um projeto consiste em duas partes:
     
-   - Percorrendo a coleção CustomFields
+   - Passar pela coleção CustomFields
     
-   - Acessando a entrada adequada usando duas construções.
+   - Acessar a entrada adequada usando duas construções.
     
-   Cada projeto armazena entradas ECF associadas em dois lugares, um conjunto de CustomFields enumeráveis e e os valores de campo como parte de pares de chave/valor. Nos pares de chave/valor, o internalName é a chave e o valor do campo é o valor. Use um dicionário para manter e acessar os valores de campo. 
+   Cada projeto armazena entradas do ECF associadas em dois locais, uma coleção CustomFields que é enumerável e os valores do campo como parte de pares de chave/valor. Em pares de chave/valor, o internalName é a chave e o valor do campo é o valor. Use um dicionário para armazenar e acessar os valores do campo. 
     
-   As propriedades ECF, que não seja os valores de campo são armazenadas em objetos CustomField, um objeto por projeto. Use um conjunto de CustomFields para acessar os ECFs associados a um projeto individual. 
+   As propriedades do ECF, além dos valores de campo, são armazenadas em objetos CustomField, um objeto por projeto. Use uma coleção CustomFields para acessar os ECFs associados a um projeto individual. 
     
-5. Cada projeto armazena os ECFs associados em uma coleção onde cada entrada ECF consiste em uma chave--o nome interno do ECF – e um objeto que contém o valor do ECF. Transferi um dicionário para acessar entradas individuais da coleção. A declaração segue.
+5. Cada projeto armazena os ECFs associados em uma coleção na qual cada entrada do ECF é formada por uma chave, o nome interno do ECF, e um objeto que contém o valor do ECF. Transfira a coleção para um dicionário para acessar entradas individuais. A declaração seguirá a transferência.
     
    ```cs
     Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
     
    ```
 
-   O valor em uma entrada do dicionário corresponde ao tipo de dados do ECF. O objeto para cada ECF mapeado para um dos diversos tipos de. A maioria dos ECFs usam tipos de simples que se encaixam em variáveis standard. O fragmento a seguir mostra que o mínimo de processamento está envolvido para vários tipos:
+   O valor em uma entrada de dicionário corresponde ao tipo de dados do ECF. O objeto para cada ECF é mapeado para um dos vários tipos. A maioria dos ECFs usa tipos simples que se encaixam em variáveis padrão. O fragmento a seguir mostra que o processamento mínimo está envolvido em vários tipos:
     
    ```cs
     switch (cf.FieldType)
@@ -157,7 +157,7 @@ O método Main gerencia o fluxo de aplicativo. Como com outros aplicativos que u
     
    ```
 
-   A tabela de pesquisa de valores de texto, no entanto, requer processamento adicional. O aplicativo recupera a tabela de pesquisa apropriado do serviço e produz a instância ECF (com um ou vários valores) atravessando a tabela de pesquisa. O fragmento de código a seguir mostra o processamento de texto ECFs, incluindo aqueles que possuem valores simples e aquelas que usam tabelas de pesquisa: 
+   A tabela de pesquisa de valores de TEXTO, no entanto, requer processamento adicional. O aplicativo recupera a tabela de consulta apropriada do serviço e gera a instância do ECF (com valores únicos ou múltiplos) percorrendo a tabela de consulta. O fragmento de código a seguir mostra o processamento de ECFs de TEXTO, incluindo aqueles com valores simples e aqueles que usam tabelas de consulta: 
     
    ```cs
     case CustomFieldType.TEXT:
@@ -184,11 +184,11 @@ O método Main gerencia o fluxo de aplicativo. Como com outros aplicativos que u
     
    ```
 
-   Esse aplicativo simplesmente emite o valor (es); No entanto, é possível fazer mais significado a partir do valor de dados (es).
+   Este aplicativo simplesmente mostra os valores. No entanto, é possível obter mais significado nos valores de dados.
     
 ## <a name="listpwacustomfields"></a>ListPWACustomFields
 
-O método ListPWACustomFields recupera e lista os ECFs associados aos projetos. Esse método lista os ECFs registrados na instância do PWA que pode ser associada aos projetos individuais. O ponto de entrada para acessar os ECFs usa o elemento CustomFields do contexto do projeto, como a solicitação de consulta a seguir:
+O método ListPWACustomFields recupera e lista ECFs associados a projetos. Esse método lista ECFs registrados na instância PWA que pode ser associada a projetos individuais. O ponto de entrada para acessar os ECFs usa o elemento CustomFields do contexto do projeto, como na solicitação de consulta a seguir:
   
 ```cs
 // Project ECFs
@@ -201,13 +201,14 @@ O método ListPWACustomFields recupera e lista os ECFs associados aos projetos. 
 
 ```
 
-O método não verifica para ver se um projeto usa um ECF específico.
+O método não verifica se um projeto usa um ECF específico.
   
 ## <a name="see-also"></a>Confira também
 
-- [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project)
-- [Visão geral: Campos personalizados da empresa e tabelas de pesquisa](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- [Local e campos personalizados da empresa](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
+- [Plataforma de desenvolvimento do Project](https://developer.microsoft.com/pt-BR/project)
+- 
+  [Visão geral: campos personalizados empresariais e tabelas de pesquisa](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Campos personalizados empresariais e locais](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Adicionar ou editar campos personalizados empresariais no Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 
