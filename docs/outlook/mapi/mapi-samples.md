@@ -1,36 +1,36 @@
 ---
-title: Amostras MAPI
+title: Amostras de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
-description: Exemplos de código que mostram como obter certas tarefas ou a implementação de determinados serviço provedores usando MAPI do Outlook.
-ms.openlocfilehash: 717d261930c42b46d8bc1b3d0213c58a9210d9d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: Amostras de código que mostram como fazer determinadas tarefas ou implementar determinados serviço provedores usando o MAPI do Outlook.
+localization_priority: Priority
+ms.openlocfilehash: b4d866d1e064c722228af4dbc16cf5f7251603d9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585807"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702604"
 ---
-# <a name="mapi-samples"></a>Amostras MAPI
+# <a name="mapi-samples"></a>Amostras de MAPI
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção contém exemplos de código que mostram como obter certas tarefas ou a implementação de certos provedores de serviço usando MAPI. MFCMAPI também é usado nesta referência para demonstrar o uso de várias APIs. Para executar qualquer um dos exemplos sobre o Windows Vista, Windows Server 2008, Windows XP ou sistemas operacionais Windows Server 2003, você deve primeiro configurar o sistema de tempo de execução MAPI. Para obter mais informações, consulte [Visão geral da programação de MAPI](mapi-programming-overview.md).
+Amostras de código que mostram como fazer determinadas tarefas ou implementar determinados serviços provedores usando o MAPI do Outlook. MFCMAPI é usado também nessa referência para demonstrar o uso de muitos APIs. Para executar qualquer um dos exemplos no Windows Vista, Windows Server 2008, Windows XP ou sistemas operacionais Windows Server 2003, você deve primeiro configurar o sistema de tempo de execução MAPI. Para saber mais, confira [visão geral de programação de MAPI](mapi-programming-overview.md).
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md): descreve como baixar e usar MFCMAPI como um aplicativo de exemplo para essa referência.
+- [MFCMAPI como uma amostra de código](mfcmapi-as-a-code-sample.md): descreve como baixar e usar MFCMAPI como uma amostra de aplicativo para essa referência.
     
-- [Exemplos de provedor de serviço MAPI](mapi-service-provider-samples.md): provedores de serviços mostra exemplos de MAPI.
+- [Exemplos de provedor de serviços MAPI](mapi-service-provider-samples.md): mostra exemplos de MAPI provedores de serviços.
     
-- [Criando itens do Outlook usando MAPI](creating-outlook-items-by-using-mapi.md): mostra o exemplo de código de como criar itens do Outlook usando MAPI.
+- [Criar itens do Outlook, usando o MAPI](creating-outlook-items-by-using-mapi.md): mostra amostra de código de como criar itens do Outlook usando o MAPI.
     
 ## <a name="related-sections"></a>Seções relacionadas
 
 - [Introdução à Referência de MAPI do Outlook](getting-started-with-the-outlook-mapi-reference.md)
-- [Conceitos MAPI (em ingl�s)](mapi-concepts.md)
-- [Refer�ncia MAPI (em ingl�s)](mapi-reference.md)
+- [Conceitos MAPI](mapi-concepts.md)
+- [Referencia MAPI](mapi-reference.md)
   
 

@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
 description: 'Última modificação: 12 de março de 2013'
-ms.openlocfilehash: 8550963a50ea2475a3f5a6869264eb714eef6b5a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: d08e0526035010d5eaf272dfa9b3311c7aeda6c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585399"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719306"
 ---
 # <a name="mapi-properties"></a>Propriedades MAPI
 
@@ -23,13 +23,13 @@ ms.locfileid: "22585399"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Esta seção contém as propriedades canônicas que são suportadas pelo Microsoft Outlook Messaging API (MAPI). Cada propriedade canônica corresponde a uma ou várias propriedades MAPI relacionadas. Para obter mais informações sobre propriedades canônicas, consulte [Propriedades canônico MAPI](mapi-canonical-properties.md). Para obter uma explicação geral de como o MAPI funciona com uma lista das propriedades disponíveis para cada objeto e propriedades, consulte [Visão geral de propriedade de MAPI](mapi-property-overview.md). Para obter informações sobre as macros relacionadas a propriedade, consulte a página de referência para a estrutura [SPropValue](spropvalue.md) . Para obter uma lista abrangente de propriedades MAPI e seus mapeamentos para nomes de propriedade canônico, consulte o [Mapeamento de nomes de MAPI para nomes de propriedade canônico](mapping-mapi-names-to-canonical-property-names.md) e [Mapeamento de nomes de propriedade canônico para nomes de MAPI](mapping-canonical-property-names-to-mapi-names.md). 
+Esta seção contém propriedades canônicas que têm suporte da Microsoft Outlook Messaging API (MAP). Cada propriedade canônica corresponde a uma ou várias propriedades MAPI relacionadas. Confira mais informações em propriedades canônicas [MAPI propriedades canônicas](mapi-canonical-properties.md). Para obter uma explicação geral de como MAPI funciona com propriedades e uma lista das propriedades de cada objeto, confira [visão geral de propriedade MAPI](mapi-property-overview.md). Para saber sobre macros propriedade relacionados, consulte a página de referência para a estrutura [SPropValue](spropvalue.md). Confira uma lista completa de propriedades MAPI e seus mapeamento nomes de propriedade canônica, confira [Mapear nomes MAPI para nomes de propriedade canônica ](mapping-mapi-names-to-canonical-property-names.md) e [Mapear nomes de propriedade canônica para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md). 
   
-Observação: Ao contrário de membros de matrizes de variante OLE, cada membro em uma matriz de valores múltiplos de propriedade MAPI é do mesmo tipo. 
+Observação: Diferentemente membros de matrizes variantes OLE, todos os membros em uma matriz de valores múltiplos propriedade MAPI são do mesmo tipo. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Refer�ncia MAPI (em ingl�s)](mapi-reference.md)
+[Referencia MAPI](mapi-reference.md)
 
