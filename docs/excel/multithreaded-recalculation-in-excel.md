@@ -5,146 +5,146 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- células de thread-safe [excel 2007], multithreading no Excel, tarefas simultâneas [Excel 2007], funções thread-safe [Excel 2007], recálculo multithreaded [Excel 2007], MTR [Excel 2007], funções XLL [Excel 2007], registrando como thread-safe, [recálculo Excel 2007], memória multithreaded, contenção [Excel 2007], registrando XLL funciona como thread seguras funções inseguras [Excel 2007], [Excel 2007]
-localization_priority: Normal
+- células thread-safe [excel 2007],multithreading no Excel,tarefas simultâneas [Excel 2007],funções thread-safe [Excel 2007],recálculo multithreaded [Excel 2007],MTR [Excel 2007],funções XLL [Excel 2007], registrar como thread safe,recálculo [Excel 2007], multithreaded,contenção de memória [Excel 2007],registro de funções XLL como thread safe [Excel 2007],funções não seguras [Excel 2007]
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: 'Aplica-se a: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f0b6f3d7310cac6d141fc74652a3333f70bda8e9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765425"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720706"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>Recálculo multithreaded no Excel
 
 **Aplica-se a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Office Excel 2007 era a primeira versão do Excel use o recálculo multithreaded (MTR) das planilhas. Você pode configurar o Excel use até segmentos simultâneos de 1024 quando recalcular, independentemente do número de processadores ou núcleos de processador no computador. 
+O Microsoft Office Excel 2007 foi a primeira versão do Excel a usar o MTR (recálculo multithread) de planilhas. Você pode configurar o Excel para usar até 1.024 threads simultâneos ao recalcular, independentemente do número de processadores ou núcleos de processador no computador. 
   
 > [!NOTE]
-> Há um sistema operacional sobrecarga associado com cada segmento, portanto você não deve configurar o Excel para usar mais threads do que você precisa. 
+> Há uma sobrecarga do sistema operacional associada a cada thread. Portanto, você não deve configurar o Excel para usar mais threads do que o número necessário. 
   
-Se o computador tiver vários processadores ou núcleos de processador, o sistema operacional leva a responsabilidade para alocar os threads aos processadores da maneira mais eficiente.
+Se o computador tiver vários processadores ou núcleos de processador, o sistema operacional será responsável pela alocação dos threads para os processadores da maneira mais eficiente.
   
-## <a name="excel-mtr-overview"></a>Visão geral do Excel MTR
+## <a name="excel-mtr-overview"></a>Visão geral do MTR do Excel
 
-Excel tenta identificar partes da cadeia de cálculo que podem ser recalculadas simultaneamente em threads diferentes. A seguinte árvore muito simple (onde y x ← significa y depende somente x) mostra um exemplo disso.
+O Excel tenta identificar partes da cadeia de cálculo que podem ser recalculadas ao mesmo tempo em threads diferentes. A árvore muito simples a seguir (em que x ← y significa que y só depende de x) mostra um exemplo disso.
   
-**Figura 1. Calculando simultaneamente em threads diferentes**
+**Figura 1. Cálculo simultâneo em diferentes threads**
 
-![Calculando simultaneamente em threads diferentes] (media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif "Calculando simultaneamente em threads diferentes")
+![Cálculo simultâneo em diferentes threads](media/12b5a52b-6308-420c-b6cf-492bd1f195ce.gif "Cálculo simultâneo em diferentes threads")
   
-Depois que é calculado A1, A2 e, em seguida, A3 podem ser calculado em um segmento, enquanto B1 e, em seguida, C1 podem ser calculado em outro, supondo que todas as células são thread-safe. 
+Após o cálculo de A1, A2 e A3 podem ser calculados em um thread, enquanto B1 e C1 podem ser calculados em outro, presumindo que as células sejam thread-safe. 
   
 > [!NOTE]
-> A célula de thread-safe termo significa que uma célula que contém apenas as funções thread-safe. O que é e não é thread-safe são detalhados [What ' s e é não considerado Thread seguros pelo Excel](#xl2007xllsdk_threadsafe). 
+> O termo célula thread-safe significa uma célula que contém apenas funções thread-safe. O que é ou não thread-safe é detalhado em [O que é ou não considerado thread-safe pelo Excel](#xl2007xllsdk_threadsafe). 
   
-Pastas de trabalho mais práticas contêm árvores de dependência muito mais complexas do que esse exemplo. Além disso, o tempo de recálculo de uma célula não pode ser conhecido até que um cálculo é feito e pode variar bastante dependendo argumentos das funções. Para obter os melhores resultados, o Excel tenta melhorar a ordem de cálculo em cada cálculo até sem otimização adicional é possível.
+A maioria das pastas de trabalho contém árvores de dependência bem mais complexas do que esse exemplo. Além disso, o momento do recálculo de uma célula não pode ser conhecido até um cálculo ser feito e pode variar muito, dependendo dos argumentos das funções. Para obter os melhores resultados, o Excel tenta melhorar a ordem de cálculo em cada cálculo até que nenhuma otimização seja mais possível.
   
-Excel usa um único segmento principal para executar ou executar o seguinte:
+O Excel usa um único thread principal para executar o seguinte:
   
 - Comandos internos
     
 - Comandos XLL
     
-- Funções de interface do Gerenciador de suplementos XLL (função**xlAutoOpen** e assim por diante) 
+- Funções da interface do Gerenciador de Suplementos XLL (função **xlAutoOpen** e assim por diante) 
     
-- Microsoft Visual Basic para comandos definida pelo usuário de Applications (VBA) (geralmente conhecidos como macros)
+- Comandos definidos pelo usuário (muitas vezes chamados de macros) do Microsoft VBA (Visual Basic for Applications)
     
 - Funções definidas pelo usuário do VBA
     
-- Funções de planilha não seguros thread internas (consulte a próxima seção para obter uma lista)
+- Funções de planilha thread-unsafe internas (confira a próxima seção para obter uma lista)
     
-- Funções e definidas pelo usuário comandos de folha de macro XLM
+- Funções e comandos definidos pelo usuário de planilha de macro XLM
     
-- Funções e comandos do suplemento de COM
+- Funções e comandos de suplemento COM
     
-- Funções e operadores em expressões de formatação condicionais
+- Funções e operadores em expressões de formatação condicional
     
-- Funções e operadores dentro das definições de nome definido usadas em fórmulas de planilha
+- Funções e operadores em definições de nome definido usadas em fórmulas de planilha
     
-- Avaliação de uma expressão na caixa Editar fórmula usando a tecla **F9** forçada 
+- A avaliação forçada de uma expressão na caixa de edição de fórmula usando a tecla **F9** 
     
-Todas as fórmulas de planilha, independentemente se as funções estão thread-safe ou não, são avaliadas no thread principal, a menos que o Excel está configurado para usar mais de um segmento. Quando o usuário Especifica o que mais de um segmento deve ser usado, os threads adicionais são usados para as células de thread-safe. Observe que o thread principal ainda pode ser usado para as células de thread-safe quando fizer sentido do ponto de vista balanceamento de carga.
+Todas as fórmulas de planilha, independentemente de as funções serem thread-safe ou não, são avaliadas no thread principal, a menos que o Excel esteja configurado para usar mais de um thread. Quando o usuário especifica que mais de um thread deve ser usado, os threads adicionais são usados para células thread-safe. O thread principal ainda pode ser usado para células thread-safe quando isso faz sentido do ponto de vista do balanceamento de carga.
   
-Vale precisar reiniciar que Excel não fique mais de um comando ao mesmo tempo, portanto você não precisa empregar as mesmas precauções como quando você estiver escrevendo funções thread-safe, como o uso de memória local de segmento e seções críticas.
+Vale ressaltar que o Excel não executa mais de um comando de cada vez. Portanto, você não precisa adotar as mesmas precauções necessárias ao escrever funções thread-safe, como o uso de memória thread-local e seções críticas.
   
-## <a name="what-is-and-is-not-considered-thread-safe-by-excel"></a>O que é e não é considerado thread seguros pelo Excel
+## <a name="what-is-and-is-not-considered-thread-safe-by-excel"></a>O que é ou não considerado thread-safe pelo Excel
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Excel considera apenas o seguinte procedimento ao thread seguro:
+O Excel considera apenas o seguinte como thread-safe:
   
-- Todos os operadores unário e binário no Excel.
+- Todos os operadores unários e binários no Excel.
     
-- Quase todas as funções de planilha internas iniciada no Excel 2007 (consulte a lista de exceções)
+- Quase todas as funções de planilha internas, a partir do Excel 2007 (confira a lista de exceções)
     
-- Suplemento funções XLL que foram registradas explicitamente como thread-safe.
+- Funções de suplemento XLL registradas explicitamente como thread-safe.
     
 As funções de planilha internas que não são thread-safe são:
   
-- **FONÉTICO**
+- **FONÉTICA**
     
-- **CÉLULA** quando o argumento do "formato" ou "address" é usado 
+- **CÉL** quando o argumento "formato" ou "endereço" é usado 
     
-- **INDIRETAS**
+- **INDIRETO**
     
-- **GETPIVOTDATA**
+- **INFODADOSTABELADINÂMICA**
     
-- **CUBEMEMBER**
+- **MEMBROCUBO**
     
-- **CUBEVALUE**
+- **VALORCUBO**
     
-- **CUBEMEMBERPROPERTY**
+- **PROPRIEDADEMEMBROCUBO**
     
-- **CUBESET**
+- **CONJUNTOCUBO**
     
-- **CUBERANKEDMEMBER**
+- **MEMBROCLASSIFICADOCUBO**
     
-- **CUBEKPIMEMBER**
+- **MEMBROKPICUBO**
     
-- **CUBESETCOUNT**
+- **CONTAGEMCONJUNTOCUBO**
     
-- **Endereço** onde o quinto parâmetro (o sheet_name) é fornecido 
+- **ENDEREÇO** quando o quinto parâmetro (nome_da_planilha) é fornecido 
     
-- Qualquer função de banco de dados (**DSUM**, **BDMÉDIA**e assim por diante) que se refere a uma tabela dinâmica
+- Qualquer função de banco de dados (**BDSOMA**, **BDMÉDIA** e assim por diante) que se refere a uma tabela dinâmica
     
-- **ERRO. TIPO**
+- **TIPO.ERRO**
     
 - **HIPERLINK**
     
-Para ser explícitas, a seguir é considerada inseguros:
+Em termos explícitos, os seguintes itens são considerados não seguros:
   
 - Funções definidas pelo usuário do VBA
     
-- COM suplemento-funções definidas pelo usuário
+- Funções definidas pelo usuário de suplemento COM
     
-- Funções definidas pelo usuário de folha de macro XLM
+- Funções definidas pelo usuário de planilha de macro XLM
     
-- Funções de Suplemento XLL não explicitamente registrado como thread-safe
+- Funções de suplementos XLL não explicitamente registradas como thread-safe
     
-As implicações são que as operações e funções a seguir não são thread-safe e falharem se eles forem chamados de uma função XLL registrada como thread-safe:
+As implicações são que as operações e funções a seguir não são thread-safe e falham se são chamadas de uma função XLL registrada como thread-safe:
   
-- Chamadas para funções de informações XLM, por exemplo, **xlfGetCell** (**GET. CÉLULA**).
+- Chamadas para funções de informações XLM; por exemplo, **xlfGetCell** (**OBTER.CÉLULA**).
     
-- Chamadas para **xlfSetName** (**SET.NAME**) para definir ou excluir os nomes internos XLL.
+- Chamadas para **xlfSetName** (**DEF.NOME**) para definir ou excluir nomes internos XLL.
     
-- Chamadas para funções definidas pelo usuário de thread-inseguras usando **xlUDF**.
+- Chamadas para funções definidas pelo usuário thread-unsafe usando **xlUDF**.
     
-- Chamadas para a função [xlfEvaluate](xlfevaluate.md) para expressões que contêm funções thread-inseguras ou que contêm nomes definidos cujas definições contêm funções thread-inseguros. 
+- Chamadas para a função [xlfEvaluate](xlfevaluate.md) para expressões que contenham funções thread-unsafe ou que contenham nomes definidos cujas definições contenham funções thread-unsafe. 
     
-- Chamadas para a função [xlAbort](xlabort.md) para limpar uma condição de quebra. 
+- Chamadas para a função [xlAbort](xlabort.md) para limpar uma condição de interrupção. 
     
-- Chamadas para a função [xlCoerce](xlcoerce.md) para obter o valor de uma referência de célula não calculadas. 
+- Chamadas para a função [xlCoerce](xlcoerce.md) para obter o valor de uma referência de célula não calculada. 
     
 > [!NOTE]
-> Funções de planilha XLL não têm permissão para chamar os comandos do C API, por exemplo, **xlcSave**, independentemente se eles tiverem sido registrados como thread-safe ou não. 
+> Funções de planilha XLL não podem chamar comandos da API de C, por exemplo, **xlcSave**, independentemente de terem sido registradas como thread-safe ou não. 
   
-Visto que as funções XLL declaradas como thread-safe não é possível chamar funções de informações XLM ou referência a células não calculadas, Excel não permite que as funções XLL registrados como equivalentes de folha de macro para também ser registrada como thread-safe. Portanto, a tentativa de obter o valor de uma referência de célula não calculadas usando **xlCoerce** falha com um erro de **xlretUncalced** . Função de informações chamar um XLM falhará com um erro **xlretFailed** . Os outros pontos listados anteriormente falharem com um código de erro introduzido do C API do Excel: **xlretNotThreadSafe**. 
+Considerando que funções XLL declaradas como thread-safe não podem chamar funções de informações XLM ou referenciar células não calculadas, o Excel não permite que funções XLL registradas como equivalentes de planilha de macro também sejam registradas como thread-safe. Portanto, a tentativa de obter o valor de uma referência de célula não calculada usando **xlCoerce** falha com um erro **xlretUncalced**. A chamada de uma função de informações XLM falha com um erro **xlretFailed**. Os outros pontos listados anteriormente falham com um código de erro introduzido na API de C do Excel: **xlretNotThreadSafe**. 
   
-As funções de retorno de chamada do C API somente são todas thread-safe:
+Todas as funções de retorno de chamada somente de API de C são thread-safe:
   
-- **xlCoerce** (exceto embora coerção da célula não calculada referencia falhar) 
+- **xlCoerce** (exceto se a coerção de referências de célula não calculada falhar) 
     
 - **xlFree**
     
@@ -154,7 +154,7 @@ As funções de retorno de chamada do C API somente são todas thread-safe:
     
 - **xlSheetNm**
     
-- **xlAbort** (exceto quando usado para limpar uma condição de quebra) 
+- **xlAbort** (exceto quando usada para limpar uma condição de interrupção) 
     
 - **xlGetInst**
     
@@ -164,69 +164,69 @@ As funções de retorno de chamada do C API somente são todas thread-safe:
     
 - **xlDefineBinaryName**
     
-A única exceção é a função **xlSet** , que é, em qualquer caso, um equivalente de comando e, portanto não podem ser chamados a partir de qualquer função de planilha. 
+A única exceção é a função **xlSet** que, de qualquer forma, é um equivalente de comando e, portanto, não pode ser chamada de nenhuma função de planilha. 
   
-Uma função de planilha XLL pode ser registrada com o Excel como thread-safe. Isso informa ao Excel que a função pode ser chamada com segurança e simultaneamente em vários threads, embora você deve garantir isso é realmente o caso. Você possivelmente pode desestabilizar Excel se uma função registrada como thread-safe, em seguida, se comporta de forma não segura.
+Uma função de planilha XLL pode ser registrada no Excel como thread-safe. Isso informa ao Excel que a função pode ser chamada com segurança e simultaneamente em vários threads, embora você deva verificar se esse realmente é o caso. Você poderá possivelmente desestabilizar o Excel se uma função registrada como thread-safe se comportar de forma não segura.
   
-## <a name="registering-xll-functions-as-thread-safe"></a>Registrando as funções XLL como thread-safe
+## <a name="registering-xll-functions-as-thread-safe"></a>Registrar funções XLL como thread-safe
 <a name="xl2007xllsdk_threadsafe"> </a>
 
 As regras que um desenvolvedor deve cumprir ao escrever funções thread-safe são:
   
-- Não chame recursos de outras DLLs que podem não ser thread-safe.
+- Não chamar recursos em outras DLLs que possam não ser thread-safe.
     
-- Não faça qualquer não seguros thread chamadas através do C API ou COM.
+- Não fazer chamadas thread-unsafe por meio da API de C ou COM.
     
-- Protege os recursos que poderiam ser usados simultaneamente por mais de um segmento usando as seções críticas.
+- Proteger os recursos que podem ser usados simultaneamente por mais de um thread usando seções críticas.
     
-- Use memória local de segmento para armazenamento específicos de segmento e substituir as variáveis estáticas dentro das funções com variáveis de segmento locais.
+- Usar memória local de thread para armazenamento específico de thread e substituir variáveis estáticas em funções por variáveis locais de thread.
     
-Excel impõe uma restrição adicional: funções thread-safe não pode ser registradas como equivalentes de folha de macro e, portanto, não é possível chamar as funções de informações ou obter os valores de células não recalculadas.
+O Excel impõe uma restrição adicional: funções thread-safe não podem ser registradas como equivalentes de planilha de macro e, assim, não podem chamar funções de informações XLM nem obter os valores de células não recalculadas.
   
 ## <a name="memory-contention"></a>Contenção de memória
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Sistemas multithread devem atender duas questões fundamentais:
+Sistemas multi-threaded devem resolver dois problemas fundamentais:
   
-- Como proteger a memória que deve ser lido ou gravada por mais de um segmento.
+- Como proteger a memória que deve ser lida ou gravada por mais de um thread.
     
-- Como criar e memória de acesso que está associado e então particulares para, a execução do thread.
+- Como criar e acessar a memória que é associada e, assim, privada para o thread de execução.
     
-O sistema operacional Windows e Windows Software Development Kit (SDK) fornecem ferramentas para ambos dessas: seções críticas e a API de armazenamento de thread local (TLS) respectivamente. Para saber mais, consulte [Memory Management in Excel](memory-management-in-excel.md).
+O sistema operacional Windows e o SDK (Software Development Kit) do Windows oferecem ferramentas para ambos os itens: seções críticas e a API de TLS (armazenamento local de thread), respectivamente. Saiba mais em [Gerenciamento de Memória no Excel](memory-management-in-excel.md).
   
-O primeiro problema pode surgir, por exemplo, quando duas funções de planilha (ou duas instâncias simultaneamente a execução da mesma função) precisam acessar ou modificar uma variável global em um projeto DLL. Lembre-se de que tal variável global pode estar ocultos em uma instância de um objeto de classe do acessível globalmente.
+O primeiro problema pode ocorrer, por exemplo, quando duas funções de planilha (ou duas instâncias de execução simultânea da mesma função) precisam acessar ou modificar uma variável global em um projeto de DLL. Essa variável global pode estar oculta em uma instância globalmente acessível de um objeto de classe.
   
-O segundo problema pode surgir, por exemplo, quando uma função de planilha declara uma variável estática ou um objeto no código do corpo da função. O compilador C/C++ cria apenas uma única cópia que usam todos os threads. Isso significa que uma instância da função poderia alterar o valor, enquanto a outra em um segmento diferente pode supondo que o valor é o que ele anteriormente definido.
+O segundo problema pode ocorrer, por exemplo, quando uma função de planilha declara uma variável estática ou um objeto no código do corpo da função. O compilador de C/C++ apenas cria uma única cópia que todos os threads usam. Isso significa que uma instância da função pode alterar o valor, enquanto outra em um thread diferente pode supor que o valor é o que estava definido antes.
   
-## <a name="example-applications-of-mtr"></a>Aplicativos de exemplo de MTR
+## <a name="example-applications-of-mtr"></a>Exemplos de aplicações de MTR
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Qualquer XLL que exporta as funções de planilha pode tirar proveito de recálculo multithreaded (MTR) no Excel, desde que essas funções não é necessário realizar ações não seguros thread. Isso permite que o Excel recalcule pastas de trabalho que dependem deles mais rápido possível e, portanto, é desejável que for o aplicativo.
+Qualquer XLL que exporta funções de planilha pode aproveitar o MTR (recálculo multi-threaded) no Excel, desde que essas funções não precisem executar ações thread-unsafe. Isso habilita o Excel a recalcular pastas de trabalho que dependem delas o mais reapidamente possível e, portanto, desejável, seja qual for o aplicativo.
   
-Especificamente, MTR tem um enorme impacto sobre o tempo de recálculo das pastas de trabalho que chamam funções definidas pelo usuário (UDFs) que sozinhos chamar processos externos para obter o resultado desejado. Em particular, considere um UDF que chame um servidor remoto que pode processar muitas solicitações simultaneamente e uma pasta de trabalho que contém o número de chamadas para essa função. Se o recálculo da pasta de trabalho for single-threaded, cada chamada UDF e, portanto com o servidor remoto, deve concluir antes de seguir uma pode ser feita. Isso desperdiça a capacidade do servidor para processar muitas chamadas ao mesmo tempo. Se não for multithreaded recálculo da pasta de trabalho, o Excel pode fazer várias chamadas ao mesmo tempo ou em sucessão rápida.
+Especificamente, o MTR tem enorme impacto em relação ao tempo de recálculo de pastas de trabalho que chamam UDFs (funções definidas pelo usuário) que, por sua vez, chamam processos externos para obter o resultado desejado. Em particular, considere uma UDF que chama um servidor remoto que pode processar várias solicitações ao mesmo tempo e uma pasta de trabalho que contém muitas chamadas para essa função. Se o recálculo da pasta de trabalho for single-threaded, cada chamada à UDF e, assim, ao servidor remoto, deverá ser concluída para que a chamada seguinte possa ser feita. Isso desperdiça a capacidade do servidor de processar várias chamadas ao mesmo tempo. Se o recálculo da pasta de trabalho for multi-threaded, o Excel poderá fazer várias chamadas ao mesmo tempo ou em sequência rápida.
   
-Se o Excel está configurado para usar o mesmo número de threads como o servidor — chamá-lo N — e a topologia da árvore de dependência da pasta de trabalho permite que ele, o tempo total de recálculo poderia ser reduzido para algo se aproximando 1/N do tempo cálculo com um único segmento. Isso pode ser true, até mesmo, onde o computador cliente (em que a pasta de trabalho está sendo executado) tiver apenas um processador, especialmente onde o tempo necessário para fazer a chamada para o servidor é pequeno em relação ao tempo que leva o servidor ao processo a chamada. 
+Se o Excel estiver configurado para usar o mesmo número de threads que o servidor (vamos chamar isso de N) e a topologia da árvore de dependência da pasta de trabalho o permitir, o tempo total de recálculo poderá ser reduzido para algo próximo de 1/N do tempo de cálculo single-threaded. Isso pode ocorrer até mesmo quando o computador cliente (em que a pasta de trabalho está sendo executada) tem apenas um processador, especialmente quando o tempo necessário para fazer a chamada ao servidor é pequeno em relação ao tempo necessário para o servidor processar a chamada. 
   
-Não há sobrecarga de sistema operacional para cada segmento adicional. Portanto, alguns experimentação pode ser necessária para uma determinada pasta de trabalho e um determinado servidor e o computador cliente para localizar o número ideal de threads que Excel deve ser informado de usar. 
+Há sobrecarga do sistema operacional para cada thread adicional. Portanto, pode ser necessário testar um pouco para que determinada pasta de trabalho, servidor e computador cliente encontrem o número ideal de threads que o Excel deve ser instruído a usar. 
   
-Por exemplo, considere um processador único computador que está executando o Excel e uma pasta de trabalho que contém as 1.000 células. Ele chama um UDF, que por sua vez, chama um ou mais servidores remotos. Suponha que a 1.000 células não dependem uns dos outros, para que o Excel não tenha esperar por uma chamada concluir antes de chamar o próximo. (Alguns relaxamento desta restrição é possível sem afetar neste exemplo.) Se os servidores podem processar solicitações de 100 simultaneamente e Excel está configurado para usar a 100 segmentos, o tempo de execução pode ser reduzido ao mínimo 1/100th que onde apenas um segmento é usado. A sobrecarga associada Excel alocar chamadas para cada segmento e o sistema operacional Gerenciando 100 segmentos significa que, na prática, a redução não será bastante nesse excelente. Há também uma pressuposição implícita aqui que o servidor é bem dimensionado e solicitando que ele processar 100 tarefas simultaneamente não afetará os tempos de conclusão de tarefa individual significativamente.
+Por exemplo, considere um computador com processador único que esteja executando o Excel e uma pasta de trabalho que contenha 1.000 células. Ele chama uma UDF que, por sua vez, chama um ou mais servidores remotos. Suponha que as 1.000 células não dependam umas das outras. Portanto, o Excel não precisa esperar até que uma chamada seja concluída antes de chamar a próxima. É possível ter alguma flexibilidade para essa restrição sem afetar esse exemplo. Se os servidores podem processar 100 solicitações simultaneamente, e o Excel está configurado para usar 100 threads, o tempo de execução pode ser reduzido para apenas 1/100 disso, em que apenas um thread é usado. A sobrecarga que ocorre quando o Excel aloca chamadas para cada thread e o sistema operacional gerencia 100 threads significa que, na prática, a redução não será tão elevada. Também existe a suposição implícita de que o servidor é bem dimensionado e, se for solicitado a processar 100 tarefas ao mesmo tempo, isso não afetará os tempos de conclusão de tarefas individuais significativamente.
   
-Um aplicativo prático nas quais essa técnica pode ter um importante benefício é de métodos Monte Carlo, assim como outras tarefas numericamente intensivas que podem ser divididas em subtarefas menores que podem ser delegadas aos servidores.
+Uma aplicação prática em que essa técnica pode oferecer uma vantagem importante refere-se aos métodos Monte Carlo, bem como a outras tarefas com grande volume de números, que podem ser divididas em subtarefas menores que podem ser delegadas a servidores.
   
-## <a name="excel-services-considerations"></a>Considerações de serviços do Excel
+## <a name="excel-services-considerations"></a>Considerações sobre os Serviços do Excel
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Excel Services suporta o carregamento, calculando e renderização de planilhas do Excel em um servidor. Os usuários podem então acessar e interagir com as planilhas, usando as ferramentas padrão do navegador.
+Os Serviços do Excel dão suporte ao carregamento, ao cálculo e à renderização de planilhas do Excel em um servidor. Os usuários podem acessar e interagir com as planilhas usando ferramentas de navegador padrão.
   
-UDFs de serviços do Excel são criados usando código gerenciado do Microsoft .NET Framework e torná-los disponíveis, embora um assembly do .NET. XLLs não são suportados pelos serviços do Excel. Um servidor de código gerenciado recurso UDF pode ligar para um XLL para acessar sua funcionalidade, para que o usuário pode ter a mesma funcionalidade com uma pasta de trabalho do servidor carregado, assim como acontece com uma pasta de trabalho carregados pelo cliente.
+UDFs dos Serviços do Excel são criadas usando o código gerenciado do Microsoft .NET Framework e disponibilizados por meio de um assembly do .NET. XLLs não têm suporte nos Serviços do Excel. Um recurso de UDF de servidor de código gerenciado pode chamar um XLL para acessar sua funcionalidade, para que o usuário possa ter a mesma funcionalidade com uma pasta de trabalho carregada servidor no servidor que obteria com uma pasta de trabalho carregada no cliente.
   
-Para disponibilizar as funções de um XLL dessa maneira, eles, portanto, devem ser quebrados em um assembly do .NET que converte argumentos e valores de retorno de tipos de dados nativos para os tipos de dados do .NET Framework gerenciados e que chama as funções XLL. O wrapper .NET seria exportar um servidor UDF para cada função XLL sendo acessado. Um requisito adicional é que todas as funções XLL chamadas dessa forma devem ser thread-safe. Como as funções XLL não são registradas da maneira que estão com o cliente do Excel, o servidor e o wrapper .NET não têm como impondo que eles são thread-safe. É responsabilidade do desenvolvedor XLL garantir isso.
+Para disponibilizar as funções XLL dessa maneira, elas devem ser encapsuladas em um assembly do .NET que converta argumentos e retorne valores dos tipos de dados nativos para os tipos de dados gerenciados do .NET Framework e chame as funções XLL. O wrapper do .NET deve exportar uma UDF de servidor para cada função XLL que é acessada. Um requisito adicional é que as funções XLL chamadas dessa maneira devem ser thread-safe. Como as funções XLL não são registradas como ocorre no cliente Excel, o servidor e o wrapper do .NET não têm nenhuma maneira de impor que elas sejam thread-safe. É responsabilidade do desenvolvedor de XLL garantir isso.
   
 ## <a name="see-also"></a>Confira também
 
 - [Recálculo do Excel](excel-recalculation.md)  
-- [Gerenciamento de memória no Excel](memory-management-in-excel.md) 
+- [Gerenciamento de Memória no Excel](memory-management-in-excel.md) 
 - [Acessar o código de XLL no Excel](accessing-xll-code-in-excel.md)  
-- [Excel Programming Concepts](excel-programming-concepts.md)  
+- [Conceitos de programação do Excel](excel-programming-concepts.md)  
 - [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
 

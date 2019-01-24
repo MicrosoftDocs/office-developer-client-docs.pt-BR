@@ -1,152 +1,152 @@
 ---
-title: Desenvolvendo um aplicativo do Project Online usando o modelo de objeto do cliente
+title: Desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: Este artigo descreve o Microsoft Project Online desenvolvimento de aplicativos para aplicativos de área de trabalho usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem.
-ms.openlocfilehash: b6e7260fd2337d2b156f97605fdd201f5e0d4edc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online para área de trabalho, usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem.
+localization_priority: Priority
+ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385260"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712936"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desenvolvendo um aplicativo do Project Online usando o modelo de objeto do cliente
+# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Desenvolvimento de um aplicativo do Project Online usando o modelo de objeto do cliente
 
-Este artigo descreve o Microsoft Project Online desenvolvimento de aplicativos para aplicativos de área de trabalho usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem. 
+Este artigo descreve o desenvolvimento de aplicativos do Microsoft Project Online para área de trabalho, usando o .NET Framework 4.0. O aplicativo descrito neste artigo recupera informações do servidor de hospedagem. 
   
-## <a name="background"></a>Background
+## <a name="background"></a>Histórico
 
-Microsoft Project iniciado como aplicativo da área de trabalho da década de 1990 antecipado. Atualmente, o projeto é muito mais, como confirmar suas diversas variedades:
+O Microsoft Project começou como um aplicativo da área de trabalho no início da década de 1990. Atualmente o Project é muito mais, o que se comprova por sua variedade:
   
-- Project standard edition é um aplicativo de área de trabalho que é executado como um aplicativo autônomo.
+- O Project Standard Edition é um aplicativo da área de trabalho executado como um aplicativo autônomo.
     
-- Edição de Project professional é um aplicativo de desktop que pode interagir e compartilhar dados com um servidor em uma escala maior, bem como executar a funcionalidade encontrada no Project standard edition.
+- O Project Professional Edition é um aplicativo da área de trabalho que pode interagir e compartilhar dados com um servidor em uma escala maior, além de ter as mesmas funcionalidades do Project Standard Edition.
     
-- Project Online é um serviço hospedado pela Microsoft oferece às empresas uma solução no nível PMO para coordenar e gerenciar projetos, programas e portfólios. Uma oferta de diferente que as edições da área de trabalho, o Project Online pode manter e rastrear detalhes do projeto em toda a duração de um projeto. 
+- O Project Online é um serviço hospedado da Microsoft que oferece às empresas uma solução no nível de PMO para coordenar e gerenciar projetos, programas e portfólios. Diferente das edições da área de trabalho, o Project Online pode manter e controlar os detalhes do projeto durante a vigência dele. 
     
-- Project Server é um serviço hospedado enterprise no qual a empresa gerencia e protege o servidor que contém o projeto, programa e informações de portfólio. Project Server, em virtude protegendo o servidor interno, oferece o projeto, programa e recursos de portfólio orientada a do hospedado externamente Project Online com uma maior capacidade de personalização.
+- O Project Server é um serviço hospedado pela empresa em que ela gerencia e protege o servidor contendo informações de projetos, programas e portfólios. O Project Server, por proteger o servidor internamente, oferece os recursos orientados a projetos, programas e portfólios do Project Online hospedado externamente com maior capacidade de personalização.
     
-Project Online tem três conjuntos de APIs online: modelo de objeto do cliente (CSOM), o modelo de objeto JavaScript (JSOM) e transferência de estado representacional (REST). 
+O Project Online tem três conjuntos de API online: CSOM (Modelo de Objeto do Cliente), JSOM (Modelo de Objeto do JavaScript) e REST (Transferência de Estado Representacional). 
   
-- A implementação do .NET CSOM é a interface preferida ao desenvolver aplicativos do Windows que interagem com locatários Project Online. Ambientes típicos para aplicativos centrados no usuário incluem áreas de trabalho do Windows e dispositivos Microsoft Surface. Aplicativos back-end grafados com .NET CSOM podem se conectar a outros servidores para fontes de dados e lógica corporativos que são externos para o Project Online. Solicitações de recuperação para o Project Online usam um sistema de consulta do tipo LINQ que oferece vários aprimoramentos em relação de funções de recuperação básica.
+- A implementação do .NET CSOM é a interface preferencial ao desenvolver aplicativos para Windows que interagem com locatários do Project Online. Entre os ambientes típicos de aplicativos voltados para o usuário estão os computadores Windows e os dispositivos Microsoft Surface. Aplicativos de back-end escritos com .NET CSOM podem se conectar a outros servidores como fontes de dados e lógicas corporativas que sejam externas ao Project Online. Solicitações de recuperação no Project Online usam um sistema de consulta equivalente ao LINQ que oferece diversas melhorias em relação às funções básicas de recuperação.
     
-- A interface do modelo de objeto JavaScript (JSOM) oferece suporte a vários navegadores para suplementos Project Online. Um suplemento é um aplicativo web que é armazenado no Project Online inquilino. Quando um usuário quiser executar um add-in, o código para o suplemento baixa e executa no navegador na máquina do usuário. 
+- A interface do JSOM (Modelo de Objeto do JavaScript) oferece suporte a navegadores para Suplementos do Project Online. Um suplemento é um aplicativo web que fica armazenado em um locatário do Project Online. Quando um usuário deseja executar um suplemento, o código do suplemento é baixado e executado no navegador do computador do usuário. 
     
-- O modelo do REST/Odata fornece comunicação baseada em HTTP, esta interface é recomendado para aplicativos em ambientes de não-Windows. Pontos de extremidade de comunicação são os objetos no site do Project Web Application (PWA). Resultados fornecem os códigos de status HTTP normais.
+- O modelo de REST/Odata proporciona uma comunicação com base em HTTP. Essa interface é recomendável para aplicativos que não estão em ambientes Windows. Pontos de extremidade de comunicações são objetos no site do PWA (Projeto de Aplicativo Web). Os resultados fornecem códigos de status HTTP normal.
     
-Este artigo concentra-se em um aplicativo que usa a interface CSOM do .NET.
+Este artigo aborda um aplicativo que usa a interface do .NET CSOM.
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Comece com um sistema de base executando Windows 10 e, em seguida, adicione os seguintes itens:
+Comece com um sistema de base executando o Windows 10 e adicione os seguintes itens:
   
-- .NET framework 4.0 ou posterior – usam o framework completo. O site de download está https://msdn.microsoft.com/vstudio/aa496123.aspx.
+- .NET Framework 4.0 ou posterior – Use a estrutura completa. O site de download é https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
-- Visual Studio 2013 ou posterior – qualquer edição é aceitável. A edição de comunidade do Visual Studio de 2015 foi usada para desenvolver o aplicativo de amostra. A edição de comunidade está disponível em https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
+- Visual Studio 2013 ou posterior – Qualquer edição é aceitável. A edição da comunidade do Visual Studio 2015 foi usada para desenvolver o aplicativo de exemplo. A edição da comunidade está disponível em https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
     
-- Componentes de cliente do SharePoint SDK – Project Online e Project Server ficam na parte superior do SharePoint e o SharePoint assemblies. Os componentes de cliente do SharePoint estão incluídos no Visual Studio Professional e Enterprise Edition. Se você usar a edição da comunidade do Visual Studio, a versão mais recente do Office Developer Tools SDK está disponível no seguinte site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
+- SDK dos Componentes de Clientes do SharePoint – O Project Online e o Project Server estão acima do SharePoint e dos assemblies do SharePoint. Os Componentes do Cliente do SharePoint são incluídos nas edições do Visual Studio Professional e Enterprise. Se você usar a edição Visual Studio Community, a versão mais recente do SDK de Ferramentas de Desenvolvedor do Office estará disponível no seguinte site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
-- Uma conta de Project Online fornece acesso ao site de hospedagem. Para obter mais informações sobre como adquirir uma conta do Project Online, consulte https://products.office.com/en-us/Project/project-online-portfolio-management.
+- Uma conta do Project Online – Fornece acesso ao site de hospedagem. Confira mais informações sobre como obter uma conta do Project Online em https://products.office.com/en-us/Project/project-online-portfolio-management.
     
 - Projetos no site de hospedagem que são preenchidos com informações
     
 > [!NOTE]
-> O padrão (4.0 ou posterior) do .NET Framework é o correto framework usar. Não use o .NET Framework 4 Client Profile. 
+> O .NET Framework padrão (4.0 ou posterior) é a estrutura correta a se usar. Não use o .NET Framework 4 Client Profile. 
   
 ## <a name="develop-the-application"></a>Desenvolver o aplicativo
 
-Desenvolver um aplicativo de área de trabalho para o SharePoint, a interface preferencial é o modelo de objeto do lado do projeto cliente (CSOM). 
+Ao desenvolver um aplicativo de área de trabalho para o SharePoint, a interface preferida é o CSOM (Modelo de Objeto do Cliente) do Project. 
   
-Você pode baixar o exemplo completo em https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
+É possível baixar a amostra completa em https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
   
-Os dois primeiros tópicos cobrem problemas básicos: Criando um projeto do Visual Studio com namespaces apropriados e assemblies e acessando o servidor de hospedagem. Os tópicos restantes lidam com Recuperando informações por meio de CSOM, de um e muitos objetos. 
+Os dois primeiros tópicos abordam as questões básicas: a criação de um projeto do Visual Studio com namespaces apropriados e assemblies, e o acesso ao servidor de hospedagem. Os tópicos restantes lidam com a recuperação de informações por meio do CSOM, de um e de diversos objetos. 
   
-Recuperar informações do host é um processo de ação de dois de aplicativos do cliente. Primeiro, o aplicativo especifica e envia uma ou mais solicitações de recuperação para o servidor. Em segundo lugar, o aplicativo emite uma notificação para o servidor para executar as consultas enviadas. O servidor responde enviando os resultados da consulta para o cliente.
+Recuperar informações do host é um processo de duas ações nos aplicativos cliente. Primeiro o aplicativo especifica e envia uma ou mais solicitações de recuperação para o servidor. Depois o aplicativo emite uma notificação para o servidor executar as consultas enviadas. O servidor responde enviando os resultados da consulta para o cliente.
   
 ### <a name="set-up-the-visual-studio-project"></a>Configurar o projeto do Visual Studio
 
-A instalação do aplicativo consiste em criar um novo projeto, vinculando os assemblies apropriados e declarando os namespaces necessários. O Visual Studio apresenta vários tipos de projetos de desenvolvimento. 
+A instalação do aplicativo consiste em criar um novo projeto, vincular os assemblies apropriados e declarar os namespaces necessários. O Visual Studio apresenta vários tipos de projetos de desenvolvimento. 
   
-#### <a name="select-a-visual-studio-project"></a>Selecione um projeto do Visual Studio
+#### <a name="select-a-visual-studio-project"></a>Selecionar um projeto do Visual Studio
 
-1. Inicie o Visual Studio e selecione **Iniciar um novo projeto** , na página inicial. 
+1. Inicie o Visual Studio e selecione **Iniciar um Novo Projeto** na página inicial. 
     
-   A caixa de diálogo Novo projeto exibe modelos de aplicativos disponíveis e campos de dados para qualquer modelo selecionado. 
+   A caixa de diálogo Novo Projeto exibe modelos de aplicativos disponíveis e os campos de dados de qualquer modelo selecionado. 
     
-2. Para este aplicativo, especifique os seguintes itens. Palavras-chave, encontradas na tela tem um atributo negrito:
+2. Para esse aplicativo, especifique os itens a seguir. As palavras-chave da tela têm um atributo em negrito:
     
-   1. A partir de modelos de Installed no painel esquerdo, selecione **c#** => **Windows** => **desktop clássico**. 
+   1. nos modelos Instalados no painel esquerdo, selecione ** C#** => **Windows** => **Área de trabalho Clássica**. 
     
-   2. Na parte superior do painel central, selecione o **.NET Framework 4**. 
+   2. Na parte superior do painel central, selecione **.NET Framework 4**. 
     
-   3. A partir de tipos de aplicativos, no painel central, escolha o **Aplicativo de Console**. 
+   3. Nos tipos de aplicativo no painel central, escolha **Aplicativo do Console**. 
     
-   4. Na seção inferior, especifique um nome e local para o projeto e o nome da solução. 
+   4. Na seção inferior, especifique o nome e o local do projeto e o nome da solução. 
     
-   5. Também na seção inferior, marque a caixa de **criar diretório para a solução** . 
+   5. Também na seção inferior, marque a caixa **Criar diretório para a solução**. 
     
-3. Clique em **Okey** para criar o projeto inicial. 
+3. Clique em **OK** para criar o projeto inicial. 
     
 #### <a name="add-assemblies"></a>Adicionar assemblies
 
-A solução VERSUS precisa o assembly ProjectServerClient do projeto 2103 SDK, algumas de assemblies do SDK do SharePoint e o assembly System. Security do .NET Framework.
+A solução VS precisa do assembly ProjectServerClient do SDK do Project 2013, de um conjunto de assemblies do SDK do SharePoint e do assembly .NET Framework System.Security.
   
-1. No Solution Explorer VERSUS, com o botão direito na entrada referências e selecione **Adicionar referência...** no menu de atalho. 
+1. No Explorador de Soluções do VS, clique na entrada Referências e selecione **Adicionar Referência...** no menu de atalho. 
     
-2. Verifique o **Microsoft.ProjectServer.Client.dll**. 
+2. Verifique a **Microsoft.ProjectServer.Client.dll**. 
     
-   Se necessário, clique no que **Procurar...** botão na parte inferior da caixa de diálogo e navegue até o diretório de instalação do SDK do Project 2013 para localizar o assembly. 
+   Se necessário, clique no botão **Procurar...** na parte inferior da caixa de diálogo e navegue até o diretório de instalação do SDK do Project 2013 para localizar o assembly. 
     
 3. Clique em **OK**. 
     
-4. Adicione o namespace do cliente PrjoctServer ao arquivo. cs.
+4. Adicione o namespace ProjectServerClient ao arquivo .cs.
     
    ```cs
     using Microsoft.ProjectServer.Client;
    ```
 
-Adicione os assemblies do SDK do SharePoint 2013 usando o Console do Gerenciador de pacotes do NuGet. 
+Adicione os assemblies de SDK do SharePoint 2013 usando o Console do Gerenciador de Pacotes NuGet. 
   
-1. No menu Ferramentas do VS, clique nos seguintes menus: **ferramentas =\> NuGet Package Manager =\> Package Manager Console**. 
+1. No menu Ferramentas do VS, clique nos seguintes menus: **Ferramentas =\> Gerenciador de Pacotes NuGet =\> Console do Gerenciador de Pacotes**. 
     
-2. No Console do Gerenciador de pacotes, digite o seguinte comando e pressione \<ENTER\>:
+2. No Console do Gerenciador de Pacotes, insira o comando a seguir e pressione \<Enter\>:
     
    ```cs
     Install-Package Microsoft.SharePointOnline.CSOM
    ```
 
-   O **Console do Gerenciador de pacote** fornece uma descrição dos resultados do comando; e, então, VERSUS Solution Explorer exibe os assemblies do SharePoint nas referências de projeto. 
+   O **Console do Gerenciador de Pacotes** fornece uma descrição de resultados de comandos, e o Explorador de soluções do VS exibe assemblies do SharePoint nas referências do projeto. 
     
-3. Adicione os espaços para nome para o arquivo. cs:
+3. Adicione os namespaces ao arquivo .cs:
     
    ```cs
     using Microsoft.SharePoint.Client;
    ```
 
-O assembly System. Security faz parte do .NET Framework e foi instalado com o framework. O aplicativo de amostra precisa mais um namespace que fornece uma cadeia de caracteres criptografada para o sistema de hospedagem para autenticação. Uma vez autenticado, o aplicativo pode acessar os projetos no sistema de hospedagem. Adicione o namespace System. Security ao arquivo. cs desta forma:
+O assembly System.Security faz parte do .NET Framework e foi instalado com a estrutura. O aplicativo de exemplo precisa de mais um namespace que forneça uma cadeia de caracteres criptografada ao sistema de hospedagem para efetuar a autenticação. Depois de autenticado, o aplicativo pode acessar projetos no sistema de hospedagem. Adicione o namespace System.Security ao arquivo .cs desta maneira:
   
-1. No Solution Explorer VERSUS, com o botão direito na entrada referências e selecione **Adicionar referência...** no menu de atalho. 
+1. No Explorador de Soluções do VS, clique na entrada Referências e selecione **Adicionar Referência...** no menu de atalho. 
     
-2. Selecione **Assemblies =\> Framework** no painel à esquerda da caixa de diálogo Gerenciador de referências, verifique se **System. Security**. 
+2. Selecione **Assemblies =\> Framework** no painel esquerdo da caixa de diálogo Gerenciador de Referências, depois marque **System.Security**. 
     
 3. Clique em **OK**. 
     
-4. Adicione o namespace System. Security ao arquivo. cs:
+4. Adicione o namespace System.Security ao arquivo .cs:
     
    ```cs
     using System.Security;
    ```
 
-O início do arquivo. cs deve conter os seguintes namespaces:
+O início do arquivo .cs deve conter os seguintes namespaces:
   
 - System
     
 - System.Collections.Generic
     
-- System. Linq
+- System.Linq
     
 - System.Test
     
@@ -154,11 +154,11 @@ O início do arquivo. cs deve conter os seguintes namespaces:
     
 - Microsoft.SharePoint.Client
     
-- System. Security
+- System.Security
     
-### <a name="connect-to-the-host-system"></a>Conectar ao sistema de host
+### <a name="connect-to-the-host-system"></a>Conecte-se ao sistema de host
 
-Project Online é um aplicativo do SharePoint, portanto, usando a autenticação do SharePoint é a abordagem correta. O fragmento de código a seguir se prepara para acessar o ambiente hospedado.
+O Project Online é um aplicativo do SharePoint, assim, usar a autenticação do SharePoint é a abordagem correta. O fragmento de código a seguir prepara para acessar o ambiente hospedado.
   
 ```cs
     class Program
@@ -175,28 +175,28 @@ Project Online é um aplicativo do SharePoint, portanto, usando a autenticação
 
 ```
 
-Preparações para acessar o ambiente hospedado incluem os seguintes itens:
+Entre os preparativos para acessar o ambiente hospedado estão os seguintes itens:
   
-1. Crie um objeto de contexto para os projetos – isso está contido no código a seguir do fragmento de código anterior. 
+1. Criar um objeto de contexto para projetos – ele está contido no código a seguir ao fragmento de código anterior. 
     
    ```cs
     private static ProjectContext projContext;
     
    ```
 
-   O contexto é herdado por outros componentes, permitindo que o sistema gerenciar o contexto do modelo de objeto do projeto.
+   O contexto é herdado pelos outros componentes, permitindo que o sistema gerencie o contexto do modelo de objeto do Project.
     
-2. Identificar o site do host--isso é feito no código a seguir no fragmento de código anterior.
+2. Identificar o site do host – isso é feito no código a seguir ao fragmento de código anterior.
     
    ```cs
     using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
    ```
 
-   Ao instanciar o contexto de projetos, o aplicativo precisa fornecer a raiz do conjunto de sites de projetos. O aplicativo usa uma subcadeia de caracteres da URL da raiz dos projetos. Um instantâneo deste local é realçado com um retângulo vermelho na ilustração a seguir. A autenticação precisa a cadeia de caracteres de seu início por meio de subcadeia de caracteres "pwa". Na listagem de código, o aplicativo usa a cadeia de caracteres "https://XXXXXXXX.sharepoint.com/sites/pwa".
+   Ao instanciar o contexto dos projetos, o aplicativo deve fornecer a raiz do conjunto de sites dos Projects. O aplicativo usa uma subcadeia de caracteres da URL da raiz dos Projects. Um instantâneo desse local é realçado com um retângulo vermelho na ilustração a seguir. A autenticação precisa da cadeia de caracteres desde o início pela subcadeia de caracteres "pwa". Na lista de códigos, o aplicativo usa a cadeia "https://XXXXXXXX.sharepoint.com/sites/pwa".
         
-   ![Captura de tela da URL do conjunto de sites de projetos dentro de uma borda vermelha.] (media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Conjunto dentro de uma borda vermelha de sites de captura de tela da URL dos projetos")
+   ![Captura de tela da URL do conjunto de sites dos Projects dentro de uma borda vermelha. ] (media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Captura de tela da URL do conjunto de sites dos Projects dentro de uma borda vermelha")
   
-3. Colocar a senha em uma cadeia de caracteres segura--isso é feito no código a seguir no fragmento de código anterior.
+3. Definir a senha em uma cadeia de caracteres segura – isso é feito no código a seguir ao fragmento de código anterior.
     
    ```cs
     SecureString password - new SecureString();
@@ -204,37 +204,37 @@ Preparações para acessar o ambiente hospedado incluem os seguintes itens:
     
    ```
 
-   A conta de usuário e senha são as credenciais para acessar o site do host. 
+   A conta de usuário e a senha são as credenciais para acessar o site do host. 
     
-4. Adicionar a conta de usuário e senha para a parte de credenciais do objeto contexto – isso é feito no código a seguir no fragmento de código anterior.
+4. Adicionar a conta de usuário e senha na parte de credenciais do objeto de contexto – isso é feito no código a seguir ao fragmento de código anterior.
     
    ```cs
     projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
    ```
 
-O contexto de projeto instanciadas está pronto para uso.
+O contexto de instâncias do projeto está pronto para uso.
   
-### <a name="list-all-published-projects"></a>Listar projetos publicados tudo
+### <a name="list-all-published-projects"></a>Listar todos os projetos publicados
 
-Project Online e ProjectServer usam proxies para se comunicar com o servidor para criar, relatório, atualizar e excluir operações (CRUD). Servidor/host processa solicitações de maneira eficiente e tem o cliente a executar as seguintes ações na comunicação com o servidor:
+O Project Online e o Project Server usam proxies para se comunicar com o servidor para criar, relatar, atualizar e excluir operações (CRUD). O host/servidor manipula as solicitações de maneira eficiente e faz o cliente executar as seguintes ações ao se comunicar com o servidor:
   
-1. Estabelece um contexto para comunicação. 
+1. Estabelecer um contexto de comunicação. 
     
-   O contexto é usado pelo conjunto de projetos, bem como outros objetos e coleções por meio de herança, incluindo a coleção tasks, coleção assignments, o objeto stage e campos personalizados. 
+   O contexto é usado por conjunto de projetos, bem como outros objetos e coleções por herança, incluindo o conjunto de tarefas, conjunto de atribuições, o objeto estágio e os campos personalizados. 
     
-2. Use o modelo de objeto para especificar um objeto, coleção ou dados a serem recuperados.
+2. Use o modelo de objeto para especificar um objeto, conjunto ou dados a recuperar.
     
-   Esta etapa usa LINQ como uma consulta ou como um método. A especificação controla o que você recebe. Muitas vezes, esta etapa é incorporada como o corpo do método Load (etapa 3). 
+   Esta etapa usa LINQ como uma consulta ou método. A especificação controla o que você recebe. Geralmente essa etapa é inserida no corpo do método de Carregamento (etapa 3). 
     
-3. Carregar a especificação de recuperação da etapa anterior usando o método Load () ou LoadQuery().
+3. Carregue a especificação de recuperação da etapa anterior usando os métodos Load() ou LoadQuery().
     
-   Para carregar os objetos e coleções, use Load (). Para consultas com cláusulas como "where" e "grupo", use LoadQuery(). 
+   Para o carregamento de conjuntos e objetos, use Load(). Para consultas com cláusulas como "where" e "group", use LoadQuery(). 
     
-4. Execute a solicitação usando o método ExecuteQuery ().
+4. Execute a solicitação usando o método de ExecuteQuery().
     
-   O método ExecuteQuery () notifica o host que estão prontas para execução da consulta ou consultas. Depois que o host recebe uma notificação, ela executa as consultas e envia os resultados para o cliente. 
+   O método ExecuteQuery() notifica o host de que a consulta ou consultas estão prontas para executar. Quando o host recebe a notificações, executa as consultas e envia os resultados ao cliente. 
     
-Com as informações no cliente, o aplicativo pode usá-lo. O fragmento de código a seguir percorre os projetos publicados e imprime a Id e o nome para cada projeto publicado no host.
+Com as informações no cliente, o aplicativo pode usá-la. O fragmento de código a seguir percorre projetos publicados e marca o Id e o Nome de cada projeto publicado no host.
   
 ```cs
 // Get the list of projects in Project Web App.
@@ -257,29 +257,29 @@ Published Project count:2
 
 ```
 
-### <a name="make-a-request"></a>Fazer uma solicitação
+### <a name="make-a-request"></a>fazer uma solicitação
 
-Usando as ações de fragmento de código anterior, o aplicativo recupera a lista de projetos na conta especificada no site de hospedagem. 
+Usando as ações do fragmento de código anterior, o aplicativo recupera a lista de projetos na conta especificada do site de hospedagem. 
   
-1. O ProjectContext for especificado para listar os projetos. 
+1. ProjectContext está especificado nos projetos a listar. 
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-2. Especifique o item a ser recuperado. 
+2. Especifique o item a recuperar. 
     
    ```cs
     projContext.Load(projects);
    ```
 
-   Por informando apenas a coleção, o servidor recupera a coleção de projetos, preenchendo a cada projeto com valores para o conjunto de propriedades padrão. Acesso às propriedades que fazem parte do conjunto de propriedades padrão concede resultados bem-sucedidos. Acesso às propriedades que não fazem parte do padrão definir resultados em uma exceção "Não inicializado".
+   Ao simplesmente informar o conjunto, o servidor recupera o conjunto de projetos, preenchendo cada projeto com valores do conjunto padrão de propriedades. Acessar as propriedades que fazem parte do conjunto de propriedades padrão fornece resultados bem-sucedidos. Acessar as propriedades que não fazem parte do conjunto padrão resulta na exceção "Não inicializado".
     
-3. Carregar a solicitação (projContext.Load).
+3. Carregue a solicitação (projContext.Load).
     
-   Isso é parte da etapa anterior.
+   Isso faz parte da etapa anterior.
     
-4. Executa a consulta (ExecuteQuery). 
+4. Execute a consulta (ExecuteQuery). 
     
    ```cs
     projContext.ExecuteQuery();
@@ -287,7 +287,7 @@ Usando as ações de fragmento de código anterior, o aplicativo recupera a list
 
 ### <a name="retrieve-high-level-project-information"></a>Recuperar informações de projeto de alto nível
 
-Propriedades que não são propriedades padrão devem ser especificadas na solicitação ao servidor. O próximo fragmento de código carrega o contexto do conjunto de projetos do exemplo anterior. Em seguida, a especificação solicita propriedades adicionais de não-padrão para incluir no resultado. 
+Propriedades que não sejam propriedades padrão devem ser especificadas na solicitação para o servidor. O próximo fragmento de código carrega o contexto do conjunto de projetos, como no exemplo anterior. Em seguida, a especificação solicita propriedades adicionais não padrão a incluir no resultado. 
   
 ```cs
 var projects = projContext.Projects;
@@ -298,7 +298,7 @@ projContext.ExecuteQuery();
 
 ```
 
-A instrução de carga Especifica o contexto do conjunto de projetos e adiciona o StartDate, fase e estágio para o resultado da consulta. As propriedades adicionais podem ser escalares, objetos ou coleções. Escalares itens podem ser acessados diretamente. Objetos e coleções exigem processamento adicional, como o fragmento de código a seguir.
+A instrução de carregamento especifica o contexto de conjuntos de projetos e adiciona DataDeInício, Estágio e Fase ao resultado da consulta. As propriedades adicionais podem ser escalares, objetos ou conjuntos. Itens escalares podem ser acessados diretamente. Objetos e conjuntos exigem processamento adicional, como no próximo fragmento de código.
   
 ```cs
 // Using the previous definition and Load statement …
@@ -365,17 +365,17 @@ Project counts:31
 
 ```
 
-### <a name="retrieve-all-tasks-in-a-project"></a>Recuperar todas as tarefas em um projeto
+### <a name="retrieve-all-tasks-in-a-project"></a>recuperar todas as tarefas em um projeto
 
-Cada projeto tem muitas tarefas. Portanto, desligar as tarefas para um único projeto consiste das seguintes opções:
+Cada projeto tem diversas tarefas. Portanto, extrair as tarefas de um projeto único consiste em:
   
-1. Estabelece o contexto do conjunto de projetos.
+1. estabelecer o contexto do conjunto de projetos.
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-2. Recupere as informações de projeto, incluindo as propriedades da tarefa.
+2. Recupere informações de projeto, incluindo as propriedades da Tarefa.
     
    ```cs
     projContext.Load(projects);
@@ -384,17 +384,17 @@ Cada projeto tem muitas tarefas. Portanto, desligar as tarefas para um único pr
     
    ```
 
-    Observe que o aplicativo está lidando com projetos publicados. O contexto para o projeto publicado atual é pubProj. 
+    Observe que o aplicativo está voltado a projetos publicados. O contexto do projeto atual publicado é pubProj. 
     
-3. Estabelece o contexto de coleção Tasks.
+3. Estabeleça contexto para o conjunto de tarefas.
     
    ```cs
     PublishedTaskCollection collTask = pubProj.Tasks;
    ```
 
-   O `pubProj.Tasks` propriedade referencia as tarefas do projeto atual publicado. 
+   A propriedade `pubProj.Tasks` referencia as tarefas do projeto publicado atual. 
     
-4. Carregar a especificação para recuperar o conjunto de tarefa, incluindo as propriedades adequadas de não-padrão.
+4. Carregue a especificação para recuperar o conjunto de Tarefas, incluindo as propriedades não padrão apropriadas.
     
    ```cs
     projContext.Load(collTask,
@@ -404,13 +404,13 @@ Cada projeto tem muitas tarefas. Portanto, desligar as tarefas para um único pr
     
    ```
 
-5. Executa a consulta para recuperar a coleção de tarefa com as propriedades adequadas.
+5. Execute a consulta para recuperar o conjunto de tarefas com as propriedades apropriadas.
     
    ```cs
     projContext.ExecuteQuery();
    ```
 
-Agora, a informação é local. O fragmento de código a seguir processa a coleção tasks publicado escrevendo as informações no console.
+As informações agora são locais. O fragmento de código a seguir processa o conjunto de tarefas publicadas gravando as informações no console.
   
 ```cs
     Console.WriteLine("Task collection count: {0}", collTask.Count.ToString());
@@ -443,25 +443,25 @@ Task collection count: 5
 
 ```
 
-### <a name="access-information-at-multiple-levels"></a>Informações de acesso em vários níveis
+### <a name="access-information-at-multiple-levels"></a>acesse as informações em vários níveis
 
-Cada tarefa pode ter uma ou mais pessoas (também conhecido como recurso) contribuindo rumo à sua conclusão. Os conjuntos de recursos e atribuições contenham essas informações para cada tarefa. 
+Cada tarefa pode ter uma ou mais pessoas (ou seja, recursos) contribuindo até sua conclusão. Os conjuntos de Tarefas e Recursos contêm essas informações para cada tarefa. 
   
-O processamento consiste no seguinte:
+O processamento consiste em:
   
-1. Obtendo um contexto para a tarefa do projeto.
+1. obter um contexto para a tarefa do projeto.
     
-2. Crie uma solicitação e carregar a solicitação para as atribuições vinculadas à tarefa. 
+2. Criar e carregar uma solicitação para as tarefas vinculadas à tarefa. 
     
-3. Executa a consulta para as atribuições.
+3. Executar a consulta para as tarefas.
     
-4. Crie uma solicitação e carregar a solicitação para o recurso associado a uma atribuição individual. 
+4. Criar e carregar a solicitação do recurso associado a uma tarefa individual. 
     
-5. Executa a consulta para o recurso.
+5. Executar a consulta para o recurso.
     
 > [!NOTE] 
-> - A coleção Assignments é solicitada explicitamente as informações do servidor porque ele não é uma propriedade padrão da coleção Tasks. Como um conjunto, será feita uma consulta subsequente retire o conjunto do servidor. 
-> - O recurso é um objeto. A consulta para uma atribuição inclui o nome do recurso associado à atribuição.
+> - O conjunto de Atribuições é solicitado explicitamente nas informações do servidor porque não é uma propriedade padrão do conjunto de Tarefas. Como um conjunto, é feita uma consulta subsequente para obter o conjunto do servidor. 
+> - O Recurso é um objeto. A consulta de uma atribuição inclui o nome do recurso associado à tarefa.
     
 ```cs
 PublishedTaskCollection collTask = pubProj.Tasks;
@@ -510,7 +510,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 ```
 
-Saída para tarefas 52, 75 e 76 de um projeto:
+Saída das tarefas 52, 75 e 76 de um projeto:
   
 ```cs
 52. Id:2c729e96-54f0-e511-80c6-000d3a33235f     Name:Develop training materials
@@ -525,23 +525,23 @@ Saída para tarefas 52, 75 e 76 de um projeto:
 
 ```
 
-### <a name="access-custom-enterprise-level-fields"></a>Campos personalizados de nível empresarial acesso
+### <a name="access-custom-enterprise-level-fields"></a>acessar campos personalizados de nível empresarial
 
-Campos personalizados existirem para o Project Online. Esses são os campos de nível empresarial que podem ser associados ao projeto individual. Esta seção descreve como acessar esses campos. 
+Existem campos personalizados no Project Online. São os campos de nível empresarial que podem ser associados ao projeto individual. Esta seção descreve como acessar esses campos. 
   
-Campos personalizados não são incluídos no conjunto padrão das propriedades associadas a um projeto. Portanto, elas precisam identificação explícita na especificação da recuperação. O modo de exibição de alto nível do processo consiste dos seguintes itens:
+Campos personalizados não estão incluídos no conjunto padrão de propriedades associadas a um projeto. Portanto, eles precisam de identificação explícita na especificação da recuperação. A visão de alto nível do processo consiste nos seguintes itens:
   
-1. Túnel para o campo personalizado usando seu nome comum.
+1. direcionar para o campo personalizado usando seu nome comum.
     
-2. Recupere o nome interno do campo personalizado.
+2. Recuperar o nome do campo personalizado interno.
     
-3. Volte para o contexto global e o sistema utilizando o nome interno do campo personalizado de consulta.
+3. Retornar ao contexto global e consultar o sistema usando o nome interno do campo personalizado.
     
-#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a>Campo personalizado de túnel, recuperar seu nome interno e utilizou para o sistema de consulta
+#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a>Direcionar para o campo personalizado, recuperar o nome interno e usá-lo para consultar o sistema
 
-Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão com um detalhe adicionado.
+Essa tarefa especifica uma recuperação que usa uma propriedade não padrão com um detalhe adicional.
   
-1. Comece usando o contexto de projetos, conforme descrito no início deste artigo.
+1. Inicie usando o contexto de projetos, como descrito no início deste artigo.
     
    ```cs
     // Get the list of published projects in Project Web App.
@@ -549,7 +549,7 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
     
    ```
 
-2. Adicione dois itens para a solicitação de recuperação de conjunto de projetos além de quaisquer outras propriedades de não-padrão para recuperar:
+2. Adicione dois itens na solicitação de recuperação de conjunto de projetos além de quaisquer outras propriedades não padrão a recuperar:
     
    ```cs
     projContext.Load(projects,
@@ -562,13 +562,13 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
     
    ```
 
-   O `p => p.IncludeCustomFields` cláusula identifica a necessidade de usar um objeto de projeto que ofereça suporte a campos personalizados. 
+   A cláusula `p => p.IncludeCustomFields` identifica a necessidade de usar um objeto do projeto que ofereça suporte a campos personalizados. 
     
-   O `p => p.IncludeCustomFields.CustomFields` cláusula solicita a inclusão de dados de campo personalizado no resultado da consulta. Essa informação é usada após o nome interno de campo personalizado é recuperado. 
+   A cláusula `p => p.IncludeCustomFields.CustomFields` solicita a inclusão de dados do campo personalizado no resultado da consulta. Essas informações são usadas depois que o nome do campo personalizado interno é recuperado. 
     
-3. Carregar a solicitação.
+3. Carregue a solicitação.
     
-   Isso é parte da etapa anterior.
+   Isso faz parte da etapa anterior.
     
 4. Execute a consulta.
     
@@ -576,7 +576,7 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
     projContext.ExecuteQuery()
    ```
 
-5. Com essas informações no cliente, crie uma solicitação para recuperar os campos personalizados associados ao projeto atual.
+5. Com essas informações no cliente, crie uma solicitação para recuperar campos personalizados associados ao projeto atual.
     
    ```cs
     foreach (PublishedProject pubProj in projContext.Projects)
@@ -590,7 +590,7 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
     
    ```
 
-6. Localize o campo personalizado apropriado e recuperar o nome interno do campo. 
+6. Localize o campo personalizado apropriado e recupere o nome do campo interno. 
     
    ```cs
         foreach (CustomField oCF in collCustF)
@@ -602,9 +602,9 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
     
    ```
 
-   O nome interno do campo personalizado é recuperado. Itens de alto nível 1 e 2 agora estão concluídas.
+   O nome interno do campo personalizado é recuperado. Agora os itens de alto nível 1 e 2 estão concluídos.
     
-7. Volte para o contexto de projeto e recuperar o valor do campo personalizado.
+7. Retorne ao contexto do projeto e recupere o valor do campo personalizado.
     
    ```cs
     Console.WriteLine("Value: {0}", 
@@ -613,9 +613,9 @@ Essa tarefa especifica uma recuperação que usa uma propriedade de não-padrão
    ```
 
    > [!NOTE]
-   > O valor do campo personalizado é recuperado usando o nome interno como um índice. 
+   > O valor de campo personalizado é recuperado usando o nome interno como índice. 
   
-Saída de três projetos, consistindo em ID do projeto, nome do projeto, nome do campo personalizado, nome interno de campo personalizado e valor do campo personalizado.
+A saída de três projetos que consistem em ID do projeto, Nome do projeto, nome do campo personalizado, nome interno do campo personalizado e valor do campo personalizado.
   
 ```cs
 Project counts:31
@@ -639,6 +639,6 @@ Value: Red
 
 ## <a name="see-also"></a>Confira também
 
-Para documentação e exemplos relacionados ao Project Online e desenvolvimento de aplicativos usando CSOM, consulte o [Portal de desenvolvimento do Project](https://developer.microsoft.com/en-us/project).
+Confira a documentação e exemplos relacionados ao desenvolvimento de aplicativos usando o CSOM e Project Online no [Portal de Desenvolvimento do Project](https://developer.microsoft.com/pt-BR/project).
     
 
