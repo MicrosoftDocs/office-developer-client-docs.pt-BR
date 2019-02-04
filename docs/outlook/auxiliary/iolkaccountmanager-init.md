@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
 description: Inicializa o gerente de conta para uso.
-ms.openlocfilehash: 621c6a73ab2bcbdff17b87ce15af8b4e0c2e1e24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.openlocfilehash: 5a643a4636251afc98750be8acf47cd3bdab3847
+ms.sourcegitcommit: b361919ae2d3ac000d9fcaa3030713df7062ecd4
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19765958"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29715337"
 ---
 # <a name="iolkaccountmanagerinit"></a>IOlkAccountManager::Init
 
@@ -20,7 +20,7 @@ Inicializa o gerente de conta para uso.
   
 ## <a name="quick-info"></a>Informações rápidas
 
-Consulte [IOlkAccountManager](iolkaccountmanager.md).
+Confira [IOlkAccountManager](iolkaccountmanager.md).
   
 ```cpp
 HRESULT IOlkAccountManager::Init (  
@@ -34,31 +34,33 @@ HRESULT IOlkAccountManager::Init (
 
 _pAcctHelper_
   
-> [in] Uma interface [IOlkAccountHelper](iolkaccounthelper.md) que fornece a funcionalidade de auxiliar de conta. 
+> [em] Uma interface [IOlkAccountHelper](iolkaccounthelper.md)que fornece a funcionalidade de ajuda da conta. 
     
 _dwFlags_
   
 > [in] Sinalizadores para modificar o comportamento.
     
-   - **ACCT_INIT_NO_STORES_CHECK** — evita a sincronização com um repositório associado de uma conta (por exemplo, uma conta IMAP). 
+   - **ACCT_INIT_NO_STORES_CHECK**, impede que uma conta (como uma conta IMAP) seja sincronizada com um repositório associado. 
     
-   - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** — serviços MAPI impede da sincronização com contas. 
-    
-   - **OLK_ACCOUNT_NO_FLAGS** — serviços MAPI sincroniza com contas. 
+   - **ACCT_INIT_NOSYNCH_MAPI_ACCTS**, impede que os serviços MAPI sejam sincronizados com as contas. 
+   
+   - **ACCT_INIT_NO_NOTIFICATIONS**, impede que o Gerente de Contas intercepte a transmissão de mensagens destinadas a outros aplicativos. 
+   
+   - **OLK_ACCOUNT_NO_FLAGS**, sincroniza os serviços MAPI com as contas. 
     
 ## <a name="return-values"></a>Valores de retorno
 
 |**HRESULT**|**Descrição**|
 |:-----|:-----|
 |S_OK  <br/> |A chamada foi bem-sucedida.  <br/> |
-|E_OLK_ALREADY_INITIALIZED  <br/> |**Inicialização** já foi chamado.  <br/> |
-|E_OLK_REGISTRY  <br/> |O gerente de conta não foi possível acessar as configurações do registro necessárias.  <br/> |
+|E_OLK_ALREADY_INITIALIZED  <br/> |**Init** já foi chamado.  <br/> |
+|E_OLK_REGISTRY  <br/> |O gerente de conta não pôde acessar as configurações de registro necessárias.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O cliente deve chamar **IOlkAccountManager::Init** para inicializar a conta do gerente antes de usar o Gerenciador de conta para contas de acessar ou configurar as notificações. Como o Outlook sincroniza automaticamente serviços MAPI com contas na inicialização, use **ACCT_INIT_NOSYNCH_MAPI_ACCTS** , a menos que haja uma causa específica para sincronizar. 
+O cliente deverá ligar **IOlkAccountManager::Init** para inicializar o gerente de conta antes de usar o gerenciador de conta para acessar contas ou configurar notificações. Como o Outlook sincroniza automaticamente serviços MAPI com contas na inicialização, use **ACCT_INIT_NOSYNCH_MAPI_ACCTS** a menos que haja uma causa específica para sincronizar. 
   
 ## <a name="see-also"></a>Confira também
 
-- [Constantes (API de gerenciamento de conta)](constants-account-management-api.md)
+- [Constantes (API de gerenciamento de contas)](constants-account-management-api.md)
 
