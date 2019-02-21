@@ -11,22 +11,22 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 12fb79f459024ed113007e6f764945ca9564cb3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
+ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712929"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30135744"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialização do driver do Microsoft Excel
 
 **Aplica-se a**: Access 2013 | Office 2013
 
-Quando você instala o driver do Excel, o programa de instalação grava um conjunto de valores padrão no registro do Windows nas subchaves mecanismos e ISAM Formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
+Quando você instala o driver do Excel, o programa de instalação grava um conjunto de valores padrão no registro do Windows nas subchaves Engines e ISAM formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
 
 ## <a name="excel-initialization-settings"></a>Configurações de inicialização do Excel
 
-O **mecanismo de conectividade do Access\\mecanismos\\Excel** pasta inclui configurações de inicialização para o driver Aceexcl.dll, usada para acesso externo às planilhas do Microsoft Excel. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
+A pasta do **Excel\\mecanismos\\do mecanismo de conectividade do Access** inclui configurações de inicialização para o driver Aceexcl. dll, usado para acesso externo às planilhas do Microsoft Excel. As configurações normais das entradas nessa pasta são mostradas no exemplo a seguir.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -55,12 +55,12 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta do Ex
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Win32</p></td>
+<td><p>Win</p></td>
 <td><p>A localização do arquivo msexcl40. O caminho completo é determinado no momento da instalação. Os valores são do tipo REG_SZ.</p></td>
 </tr>
 <tr class="even">
-<td><p>Registo TypeGuessRows</p></td>
-<td><p>O número de linhas a serem verificadas para o tipo de dados. O tipo de dados é determinado dado o número máximo de tipos de dados encontrados. Se houver uma ligação, o tipo de dados é determinado na seguinte ordem: número, moeda, data, texto, Boolean. Se forem encontrados dados que não coincide com o tipo de dados avaliado para a coluna, ele é retornado como um valor <strong>Nulo</strong> . Na importação, se uma coluna tiver mistos tipos de dados, toda a coluna será convertida de acordo com a configuração ImportMixedTypes. O número padrão de linhas a serem verificadas é 8. Os valores são do tipo REG_DWORD.</p></td>
+<td><p>TypeGuessRows</p></td>
+<td><p>O número de linhas a serem verificadas quanto ao tipo de dados. O tipo de dados é determinado de acordo com o número máximo de tipos de dados encontrados. Se houver um vínculo, o tipo de dados é determinado na seguinte ordem: número, moeda, data, texto, Boolean. Se forem encontrados dados que não correspondem ao tipo de dados adivinhado para a coluna, ele será retornado como um valor <strong>nulo</strong> . Na importação, se uma coluna tiver tipos de dados mistos, a coluna inteira será convertida de acordo com a configuração ImportMixedTypes. O número padrão de linhas a serem verificadas é 8. Os valores são do tipo REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
@@ -79,7 +79,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta do Ex
 
 <br/>
 
-O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém as entradas a seguir, que se aplicam ao Microsoft Excel 97.
+A pasta **mecanismos\\\\de mecanismo de conectividade do Microsoft Excel 8,0** contém as entradas a seguir, que se aplicam ao Microsoft Excel 97.
 
 <table>
 <colgroup>
@@ -106,9 +106,9 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 <td><p>Microsoft Excel 97-2000 (*.xls)</p></td>
 </tr>
 <tr class="odd">
-<td><p>CanLink</p></td>
+<td><p>CanVinculo</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0,01</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
@@ -116,7 +116,7 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>IsamType</p></td>
+<td><p>Isamtype</p></td>
 <td><p>REG_DWORD</p></td>
 <td><p>1</p></td>
 </tr>
@@ -128,7 +128,7 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0,01</p></td>
 </tr>
 <tr class="even">
 <td><p>ResultTextExport</p></td>
@@ -138,16 +138,96 @@ O **mecanismo de conectividade do Access\\mecanismos\\Excel 8.0** pasta contém 
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0,01</p></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Usando a configuração TypeGuessRows para o driver do Excel
+Ao usar o driver do Microsoft Excel, você pode usar o valor de registro **TypeGuessRows** para configurar quantas linhas devem ser verificadas quanto ao tipo de dados. O valor **TypeGuessRows** está localizado na seguinte subchave do registro:
 
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
+Para uma instalação MSI do Office
+
+- Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
+    
+  **Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access**
+
+- Para o Office de 32 bits em Windows de 64 bits:
+
+  **Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access**
+    
+Para uma instalação clique para executar do Office
+
+- Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
+    
+  **Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access**
+
+- Para o Office de 32 bits em Windows de 64 bits:
+    
+  **Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access**
+
+O número padrão de linhas a serem verificadas é **8** (oito). Quando você define o valor de **TypeGuessRows** para **0** (zero), o driver do Excel verifica as primeiras 16.384 linhas para o tipo de dados. Se você deseja verificar mais de 16.384 linhas, defina **TypeGuessRows** como um valor que se baseia no intervalo desejado. Para verificar todas as linhas, defina **TypeGuessRows** como 1.048.576 (o número máximo de linhas permitido no Excel).
+ 
+O tipo de dados é determinado pelo número máximo de tipos de dados que é encontrado. Se houver um empate, o tipo de dados será determinado na seguinte ordem:
+
+- Número
+- Moeda
+- Data
+- Texto
+- Booliano
+
+Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
+
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+
+Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
+
+**Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access**
+
+Para o Office de 32 bits em Windows de 64 bits:
+
+**Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access**
+
+O número padrão de linhas a serem verificadas é **8** (oito). Quando você define o valor de **TypeGuessRows** para **0** (zero), o driver do Excel verifica as primeiras 16.384 linhas para o tipo de dados. Se você deseja verificar mais de 16.384 linhas, defina **TypeGuessRows** como um valor que se baseia no intervalo desejado. Para verificar todas as linhas, defina **TypeGuessRows** como 1.048.576 (o número máximo de linhas permitido no Excel).
+ 
+O tipo de dados é determinado pelo número máximo de tipos de dados que é encontrado. Se houver um empate, o tipo de dados será determinado na seguinte ordem:
+
+- Número
+- Moeda
+- Data
+- Texto
+- Booliano
+
+Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
+
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+
+Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
+
+**Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access**
+
+Para o Office de 32 bits em Windows de 64 bits:
+
+**Engine\Engines\Excel de conectividade HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access**
+
+O número padrão de linhas a serem verificadas é **8** (oito). Quando você define o valor de **TypeGuessRows** para **0** (zero), o driver do Excel verifica as primeiras 16.384 linhas para o tipo de dados. Se você deseja verificar mais de 16.384 linhas, defina **TypeGuessRows** como um valor que se baseia no intervalo desejado. Para verificar todas as linhas, defina **TypeGuessRows** como 1.048.576 (o número máximo de linhas permitido no Excel).
+ 
+O tipo de dados é determinado pelo número máximo de tipos de dados que é encontrado. Se houver um empate, o tipo de dados será determinado na seguinte ordem:
+
+- Número
+- Moeda
+- Data
+- Texto
+- Booliano
+
+Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
+
+---
 > [!NOTE]
-> Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
+> [!OBSERVAçãO] Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
 ## <a name="see-also"></a>Confira também
 
-- [Usando a configuração de registo TypeGuessRows para o Driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Usando a configuração TypeGuessRows para o driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
