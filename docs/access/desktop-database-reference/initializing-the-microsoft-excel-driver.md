@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
-ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
+ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30135744"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30179660"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialização do driver do Microsoft Excel
 
@@ -228,6 +228,3 @@ Se forem encontrados dados que não correspondam ao tipo de dados adivinhados pa
 > [!NOTE]
 > [!OBSERVAçãO] Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
 
-## <a name="see-also"></a>Confira também
-
-- [Usando a configuração TypeGuessRows para o driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
