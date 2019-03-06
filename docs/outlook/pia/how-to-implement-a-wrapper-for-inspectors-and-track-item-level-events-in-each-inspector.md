@@ -7,12 +7,12 @@ ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 8454c1e969fbccc80f5cb0341b6b55815132ade1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: a70aedf9a8803a2c990f07a77d4fc730f7263aae
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698670"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413963"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>Implementar um invólucro para inspetores e rastrear eventos em nível de item em cada inspetor
 
@@ -25,7 +25,7 @@ Este tópico contém dois exemplos de código que mostram como implementar um in
 
 Os dois exemplos de código a seguir implementam as classes Connect e OutlookInspector. O primeiro exemplo de código envolve métodos e manipuladores de eventos que você inclui na classe Connect para implementar um invólucro de uma colação **Inspectors**. O segundo exemplo de código envolve uma implementação simples da classe **OutlookInspector**.
 
-Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, você precisa primeiro adicionar uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especificar a variável do Outlook quando você importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -108,7 +108,7 @@ class OutlookInspector
     // wrapped ContactItem
     private Outlook.ContactItem m_Contact;
     // wrapped TaskItem      
-    private Outlook.ContactItem m_Task;             
+    private Outlook.TaskItem m_Task;             
 
     // OutlookInspector constructor
     public OutlookInspector(Outlook.Inspector inspector)

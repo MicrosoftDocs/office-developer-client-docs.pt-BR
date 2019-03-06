@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5f13c2825fc0127b95fbf5bc0b41d68c64556864
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 975f52e6ea0ca7a469a027565f845f9dc0f9c2cf
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384084"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413970"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriedade canônica PidTagMessageAttachments
 
@@ -25,7 +25,7 @@ ms.locfileid: "25384084"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma tabela das restrições que podem ser aplicadas a uma tabela de conteúdo para localizar todas as mensagens que contêm subobjetos anexo que atendam as restrições. 
+Contém uma tabela de anexos para uma mensagem. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contém uma tabela das restrições que podem ser aplicadas a uma tabela de cont
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade pode ser excluída em operações [IMAPIProp::CopyTo](imapiprop-copyto.md) ou incluída nas operações da [IMAPIProp::CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ele não pode ser recuperado com êxito pelo método [IMAPIProp::GetProps](imapiprop-getprops.md) . Seu conteúdo deve ser acessado pelo método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) , solicitando o identificador de interface **IID_IMAPITable** . Provedores de serviços devem relatá-la para o método [IMAPIProp::GetPropList](imapiprop-getproplist.md) se ele estiver definido, mas opcionalmente relatá-la ou não se ele não estiver definido. 
+Esta propriedade pode ser excluída nas operações de [IMAPIProp:: CopyTo](imapiprop-copyto.md) ou incluída nas operações [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como uma propriedade do tipo PT_OBJECT, ela não pode ser recuperada com êxito pelo método [IMAPIProp::](imapiprop-getprops.md) GetProps. Seu conteúdo deve ser acessado pelo método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , solicitando o identificador de interface **IID_IMAPITable** . Os provedores de serviços devem relatá-lo para o método [IMAPIProp::](imapiprop-getproplist.md) getproplist, se estiver definido, mas pode opcionalmente relatá-lo ou não se ele não estiver definido. 
   
-Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) . Para obter mais informações, consulte [As tabelas de anexo](attachment-tables.md). 
+Para recuperar o conteúdo da tabela, um aplicativo cliente deve chamar o método [IMessage::](imessage-getattachmenttable.md) GetAttachmentTable. Para obter mais informações, consulte [tabelas de anexo](attachment-tables.md). 
   
-Essa propriedade pode ser usada para restrição subobjeto especificando-o na estrutura [SSubRestriction](ssubrestriction.md) . Isso permite que o cliente limitar o modo de exibição de um contêiner para mensagens com anexos de reunião determinado critério. Uma mensagem qualifica para exibição se pelo menos uma linha em sua tabela de anexos, ou seja, um anexo, atenda a restrição subobjeto. 
+Essa propriedade pode ser usada para restrição de subobjeto especificando-a na estrutura [SSubRestriction](ssubrestriction.md) . Isso permite que o cliente limite o modo de exibição de um contêiner às mensagens com anexos que atendam aos critérios fornecidos. Uma mensagem é qualificada para exibir se pelo menos uma linha na tabela de anexos, ou seja, um anexo, satisfizer a restrição de subobjeto. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Define as estruturas de dados básicos que são usadas em operações remotas.
+> Define as estruturas de dados básicas que são usadas em operações remotas.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
