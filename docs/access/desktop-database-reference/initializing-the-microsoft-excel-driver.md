@@ -11,16 +11,16 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
-ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
+ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
+ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30179660"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518128"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Inicialização do driver do Microsoft Excel
 
-**Aplica-se a**: Access 2013 | Office 2013
+**Aplica-se a**: Excel 2016 | Access 2016 | Access 2013 | Office 2013 | Excel 2013 | Office for Business Access 2013 | Excel 2010 | Access 2010
 
 Quando você instala o driver do Excel, o programa de instalação grava um conjunto de valores padrão no registro do Windows nas subchaves Engines e ISAM formats. Você não deve modificar essas configurações diretamente; use o programa de instalação de seu aplicativo para adicionar, remover ou alterar essas configurações. As seções a seguir descrevem a inicialização e as configurações do ISAM Format no driver de banco de dados do Microsoft Excel.
 
@@ -60,7 +60,7 @@ O mecanismo de banco de dados do Microsoft Access usa as entradas da pasta do Ex
 </tr>
 <tr class="even">
 <td><p>TypeGuessRows</p></td>
-<td><p>O número de linhas a serem verificadas quanto ao tipo de dados. O tipo de dados é determinado de acordo com o número máximo de tipos de dados encontrados. Se houver um vínculo, o tipo de dados é determinado na seguinte ordem: número, moeda, data, texto, Boolean. Se forem encontrados dados que não correspondem ao tipo de dados adivinhado para a coluna, ele será retornado como um valor <strong>nulo</strong> . Na importação, se uma coluna tiver tipos de dados mistos, a coluna inteira será convertida de acordo com a configuração ImportMixedTypes. O número padrão de linhas a serem verificadas é 8. Os valores são do tipo REG_DWORD.</p></td>
+<td><p>O número de linhas cujo tipo de dados será verificado. O tipo de dados é determinado pelo número máximo de tipos de dados localizados. Se houver alguma ligação, o tipo de dados será determinado na seguinte ordem: número, moeda, data, texto e booleano. Se forem encontrados dados que não correspondam ao tipo desejado para a coluna, ele serão retornados como um valor <strong>Nulo</strong>. Na importação, se uma coluna tiver tipos de dados mistos, a coluna toda será calculada conforme a configuração de ImportMixedTypes. O número padrão de linhas a serem verificadas é 8. Os valores são do tipo REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
@@ -96,7 +96,7 @@ A pasta **mecanismos\\\\de mecanismo de conectividade do Microsoft Excel 8,0** c
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Engine</p></td>
+<td><p>Mecanismo</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Excel</p></td>
 </tr>
@@ -143,10 +143,11 @@ A pasta **mecanismos\\\\de mecanismo de conectividade do Microsoft Excel 8,0** c
 </tbody>
 </table>
 
+
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Usando a configuração TypeGuessRows para o driver do Excel
 Ao usar o driver do Microsoft Excel, você pode usar o valor de registro **TypeGuessRows** para configurar quantas linhas devem ser verificadas quanto ao tipo de dados. O valor **TypeGuessRows** está localizado na seguinte subchave do registro:
 
-# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
+# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
 
 Para uma instalação MSI do Office
 
@@ -175,12 +176,12 @@ O tipo de dados é determinado pelo número máximo de tipos de dados que é enc
 - Número
 - Moeda
 - Data
-- Texto
+- Text
 - Booliano
 
 Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
 
-# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
 
 Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
 
@@ -197,12 +198,12 @@ O tipo de dados é determinado pelo número máximo de tipos de dados que é enc
 - Número
 - Moeda
 - Data
-- Texto
+- Text
 - Booliano
 
 Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
 
-# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
 
 Para o Office de 32 bits no Windows de 32 bits ou no Office de 64 bits no Windows de 64 bits:
 
@@ -219,12 +220,16 @@ O tipo de dados é determinado pelo número máximo de tipos de dados que é enc
 - Número
 - Moeda
 - Data
-- Texto
+- Text
 - Booliano
 
 Se forem encontrados dados que não correspondam ao tipo de dados adivinhados para a coluna, esses dados serão retornados como um valor **nulo** . Durante uma importação, se uma coluna tem tipos de dados mistos, toda a coluna é convertida para o tipo de dados definido pela configuração **ImportMixedTypes** .
 
 ---
 > [!NOTE]
-> [!OBSERVAçãO] Ao alterar as configurações do Registro do Windows, você deve fechar e reiniciar o mecanismo de banco de dados para que as novas configurações entrem em vigor.
+> [!OBSERVAçãO] When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
+
+## <a name="see-also"></a>Confira também
+
+- [Usando a configuração TypeGuessRows para o driver do Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 
