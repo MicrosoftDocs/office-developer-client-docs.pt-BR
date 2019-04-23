@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e3735147f813d904c206910ff319913f056946e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287714"
 ---
 # <a name="parenturl-property-ado"></a>Propriedade ParentURL (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica uma sequência de URL absoluta que aponta para o [Record](record-object-ado.md) pai do objeto **Record** atual.
 
@@ -35,9 +35,9 @@ Suponha que "second" seja uma pasta contida em "first". Abra o objeto **Record**
     record.Open "second"
 ```
 
-Agora, o valor da propriedade **ParentURL** é a propriedade **ParentURL** é "https://first", igual da **ActiveConnection**.
+Agora, o valor da propriedade **ParentURL** é **ParentURL** propriedade é "https://first", o mesmo que **ActiveConnection**.
 
-A origem também pode ser uma URL absoluta, como "https://first/second". A propriedade **ParentURL** é então "https://first", o nível acima. A propriedade **ParentURL** é então "https://first", o nível acima "segundo".
+A origem também pode ser uma URL absoluta, como "https://first/second". A propriedade **ParentURL** é então "https://first", o nível acima. A propriedade **ParentURL** é então "https://first", o nível acima de "Second".
 
 Essa propriedade poderá ser um valor nulo se:
 
@@ -50,7 +50,7 @@ Esta propriedade é somente leitura.
 
 > [!NOTE]
 > - [!OBSERVAçãO] Esta propriedade conta com suporte somente de provedores de origem de documento, como [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [Registros e campos fornecidos pelo provedor](records-and-provider-supplied-fields.md).
-> - [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o Microsoft OLE DB Provider for Internet Publishing. Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md). 
+> - [!OBSERVAçãO] URLs using the http scheme will automatically invoke the Microsoft OLE DB Provider for Internet Publishing. Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md). 
 > - [!OBSERVAçãO] Se o registro atual contiver um registro de dados do **Recordset** de um ADO, acessar a propriedade **ParentURL** causará um erro de tempo de execução, indicando que nenhuma URL é possível.
 
 

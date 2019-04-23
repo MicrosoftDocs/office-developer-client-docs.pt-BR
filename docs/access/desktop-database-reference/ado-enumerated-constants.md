@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05e5d3a77dc7db5ef5a0d81a3f13d5fc5987f5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283405"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes enumeradas do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Para ajudar na depuração, as enumerações do ADO listam um valor para cada constante. Contudo, esse valor é temporário e pode ser alterado de uma versão do ADO para outra. Seu código deve depender somente do nome, não do valor real, de cada constante enumerada.
 
@@ -38,7 +38,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-autorecalc-enum.md">ADCPROP_AUTORECALC_ENUM</a></p></td>
-<td><p>Especifica quando o provedor <strong>MSDataShape</strong> recalcula colunas calculadas e agregadas em um <strong>Recordset</strong>de hierárquico.</p></td>
+<td><p>Especifica quando o provedor <strong>MSDataShape</strong> recalcula colunas calculadas e agregadas em um <strong>Recordset</strong> hierárquico.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-updatecriteria-enum.md">ADCPROP_UPDATECRITERIA_ENUM</a></p></td>
@@ -46,11 +46,11 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-updateresync-enum.md">ADCPROP_UPDATERESYNC_ENUM</a></p></td>
-<td><p>Especifica se o método <strong>UpdateBatch</strong> é seguido por uma operação do método <strong>Resync</strong> implícita e, se for, especifica o escopo dessa operação.</p></td>
+<td><p>Especifica se o método <strong>UpdateBatch</strong> é seguido por uma operação implícita do método <strong>Resync</strong> e, se for o caso, o escopo dessa operação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="affectenum.md">AffectEnum</a></p></td>
-<td><p>Especifica quais registros foram afetados por uma operação.</p></td>
+<td><p>Especifica quais registros são afetados por uma operação.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bookmarkenum.md">BookmarkEnum</a></p></td>
@@ -66,7 +66,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="odd">
 <td><p><a href="connectmodeenum.md">ConnectModeEnum</a></p></td>
-<td><p>Especifica as permissões disponíveis para modificar os dados em uma <strong>Connection</strong>, abrir um <strong>Record</strong> ou especificar os valores para a propriedade <strong>Mode</strong> dos objetos <strong>Record</strong> e <strong>Stream</strong>.</p></td>
+<td><p>Especifica as permissões disponíveis para modificar dados em uma <strong>Conexão</strong>, abrir um <strong>Registro</strong> ou especificar valores para a propriedade <strong>Mode</strong> dos objetos <strong>Record</strong> e <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connectoptionenum.md">ConnectOptionEnum</a></p></td>
@@ -90,7 +90,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="odd">
 <td><p><a href="cursortypeenum.md">CursorTypeEnum</a></p></td>
-<td><p>Especifica o tipo de cursor usado em um objeto <strong>Recordset</strong>.</p></td>
+<td><p>Especifica o tipo de cursor utilizado em um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
@@ -106,7 +106,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="odd">
 <td><p><a href="eventreasonenum.md">EventReasonEnum</a></p></td>
-<td><p>Especifica a razão que fez com que ocorresse um evento.</p></td>
+<td><p>Especifica a razão que causou a ocorrência de um evento.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="eventstatusenum.md">EventStatusEnum</a></p></td>
@@ -118,7 +118,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="even">
 <td><p><a href="fieldenum.md">FieldEnum</a></p></td>
-<td><p>Especifica os campos especiais mencionados em uma coleção de <strong>Campos</strong> do objeto <strong>Record</strong>.</p></td>
+<td><p>Especifica os campos especiais referenciados em uma coleção <strong>Fields</strong> do objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="fieldattributeenum.md">FieldAttributeEnum</a></p></td>
@@ -130,7 +130,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="odd">
 <td><p><a href="filtergroupenum.md">FilterGroupEnum</a></p></td>
-<td><p>Especifica o grupo de registros a serem filtrados a partir de um <strong>Recordset</strong>.</p></td>
+<td><p>Especifica o grupo de registro a ser filtrado de um <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="getrowsoptionenum.md">GetRowsOptionEnum</a></p></td>
@@ -190,7 +190,7 @@ Para ajudar na depuração, as enumerações do ADO listam um valor para cada co
 </tr>
 <tr class="even">
 <td><p><a href="recordstatusenum.md">RecordStatusEnum</a></p></td>
-<td><p>Especifica o status de um registro com relação a atualizações de batch e outras operações em massa.</p></td>
+<td><p>Especifica o status de um registro com relação às atualizações de lote e a outras operações em massa.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordtypeenum.md">RecordTypeEnum</a></p></td>

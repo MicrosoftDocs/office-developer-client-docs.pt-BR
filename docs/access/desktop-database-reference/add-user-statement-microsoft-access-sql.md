@@ -8,21 +8,21 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ba60a646fd234748bcc39b9a5604a33675caee5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280422"
 ---
 # <a name="add-user-statement-microsoft-access-sql"></a>Instrução ADD USER (Microsoft Access SQL)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Adiciona um ou vários *usuários* existentes em um *grupo* existente.
 
 ## <a name="syntax"></a>Sintaxe
 
-Adicionar usuário *usuário*\[, *usuário*,... \] Ao *grupo*
+Adicionar *usuário*\[, *usuário*,... \] Para *Agrupar*
 
 A instrução ADD USER possui as seguintes partes:
 
@@ -39,8 +39,8 @@ A instrução ADD USER possui as seguintes partes:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
-<td><p>O nome de um usuário que será adicionado ao arquivo de informações do grupo de trabalho.</p></td>
+<td><p><em>usuário</em></p></td>
+<td><p>O nome de um usuário a ser adicionado ao arquivo de informações do grupo de trabalho.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>grupo</em></p></td>
@@ -52,5 +52,5 @@ A instrução ADD USER possui as seguintes partes:
 
 ## <a name="remarks"></a>Comentários
 
-Depois que um *usuário* tiver sido adicionado a um *grupo*, o *usuário* tem todas as permissões que tiverem sido concedidas ao *grupo*.
+Depois que um *usuário* tiver sido adicionado a um *grupo*, o *usuário* terá todas as permissões concedidas ao *grupo*.
 

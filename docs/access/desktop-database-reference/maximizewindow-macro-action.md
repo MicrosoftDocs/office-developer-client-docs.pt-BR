@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 262e6781b61018cec3d52dbb930f380d3ff5bd85
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289746"
 ---
 # <a name="maximizewindow-macro-action"></a>Ação da macro MaximizarJanela
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você pode usar a ação **Maximizarjanela** para aumentar a janela ativa de modo que ele preencha a janela do Access. Esta ação permitirá ver o máximo possível do objeto na janela ativa.
+Se o Access estiver configurado para usar janelas sobrepostas em vez de documentos com guias, você poderá usar a ação **maximizarjanela** para ampliar a janela ativa de modo que ela preencha a janela do Access. Esta ação permitirá ver o máximo possível do objeto na janela ativa.
 
 > [!NOTE]
-> [!OBSERVAçãO] Esta ação não pode ser aplicada a janelas de código no Editor do Visual Basic (VBE). Para obter informações sobre como afetar janelas de código, consulte o tópico da propriedade **WindowState**.
+> [!OBSERVAçãO] Essa ação não pode ser aplicada a janelas de código do Editor do Visual Basic (VBE). Para obter informações sobre como manipular janelas de código, consulte o tópico da propriedade **WindowState**.
 
 ## <a name="setting"></a>Configuração
 

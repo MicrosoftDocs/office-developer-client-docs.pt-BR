@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b44bf60399cd3bdab9e5a1e51d13cbfc1daaba6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283237"
 ---
 # <a name="ado-programmers-guide"></a>Guia do programador do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Guia do programador do ADO foi criado para ajudar os desenvolvedores que são novos no ADO, concedendo a eles uma introdução detalhada para a tecnologia. Este guia descreve as bibliotecas da família ADO e usa um código simples em diversas linguagens para explicar o uso dessas bibliotecas, as melhores práticas para utilizá-las e as dicas e os truques para maximizar o desempenho do aplicativo ADO.
+O guia do programador do ADO foi criado para ajudar os desenvolvedores que são novos no ADO, oferecendo uma introdução completa à tecnologia. Este guia descreve as bibliotecas da família ADO e usa um código simples em diversas linguagens para explicar o uso dessas bibliotecas, as melhores práticas para utilizá-las e as dicas e os truques para maximizar o desempenho do aplicativo ADO.
 
-Guia do programador do ADO contém as seguintes seções e capítulos:
+O guia do programador do ADO contém as seguintes seções e capítulos:
 
 - [Introdução](introduction-to-ado-programming.md)
   

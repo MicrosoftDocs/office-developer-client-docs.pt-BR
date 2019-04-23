@@ -1,5 +1,5 @@
 ---
-title: Propriedade Parameter.Properties (DAO)
+title: Propriedade Parameter. Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 5281e1a3-c717-e7b9-1a0a-2e430125b747
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193941(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 58a6286f333c23e14e154c004449bc60bfd59362
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288011"
 ---
-# <a name="parameterproperties-property-dao"></a>Propriedade Parameter.Properties (DAO)
+# <a name="parameterproperties-property-dao"></a>Propriedade Parameter. Properties (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna a coleção **[Properties](properties-collection-dao.md)** do objeto especificado. Somente leitura.
 

@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9937f0ab32c5dba0e4435fdc0ba7e111f5651dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288676"
 ---
 # <a name="moverecord-method-ado"></a>Método MoveRecord (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
  
 Move a entidade representada por um [Record](record-object-ado.md) para outro local.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Registro*. MoveRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)
+*Record*. MoveRecord (*origem*, *destino*, *nome de usuário*, *senha*, *Opções*, *assíncrono*)
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
 |*Source* |Opcional. Um valor **String** que contém uma URL que identifica o **Record** a ser movido. Se *Source* for omitido ou especificar uma sequência vazia, o objeto representado por este **Record** será movido. Por exemplo, se o **Record** representar um arquivo, o conteúdo do arquivo será movido para o local especificado por *Destination*.|
-|*Destination* |Opcional. Um valor **String** que contém uma URL, especificando o local onde *fonte* será movido.|
+|*Destination* |Opcional. Um valor **String** que contém uma URL que especifica o local em que *Source* será movido.|
 |*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso ao *Destination*.|
 |*Password* |Opcional. Uma **String** que contém a senha que, se necessária, verifica *UserName*.|
 |*Options* |Opcional. Um valor [MoveRecordOptionsEnum](moverecordoptionsenum.md) cujo valor padrão é **adMoveUnspecified**. Especifica o comportamento deste método.|
-|*Async* |Opcional. **Boolean** valor que, quando especifica **True**, esta operação deve ser assíncrona.|
+|*Async* |Opcional. Um valor **Boolean** que, quando **true**, especifica que esta operação deve ser assíncrona.|
 
 ## <a name="return-value"></a>Valor de retorno
 
-Um valor **String**. Geralmente, é retornado o valor de *destino* . No entanto, o valor exato retornado depende do provedor.
+Um valor **String**. Normalmente, o valor de *Destination* é retornado. No entanto, o valor exato retornado depende do provedor.
 
 ## <a name="remarks"></a>Comentários
 
-Os valores de *origem* e de *destino* não devem ser idênticos; Caso contrário, ocorrerá um erro de tempo de execução. Pelo menos os nomes de servidor, caminho e recurso devem ser diferentes.
+Os valores de *Source* e *Destination* não devem ser idênticos; caso contrário, ocorrerá um erro em tempo de execução. Pelo menos os nomes de servidor, caminho e recurso devem ser diferentes.
 
 Para arquivos movidos utilizando-se o Internet Publishing Provider, este método atualiza todos os links de hipertexto nos arquivos que estão sendo movidos, a menos que especificado o contrário por *Options*. Este método falha se *Destination* identificar um objeto existente (por exemplo, um arquivo ou diretório), a menos que **adMoveOverWrite** seja especificado.
 
@@ -53,6 +53,6 @@ Alguns atributos do objeto **Record**, tal como a propriedade [ParentURL](parent
 Se esse **Record** foi obtido de um [Recordset](recordset-object-ado.md), o novo local do arquivo ou diretório movido não será refletido imediatamente no **Recordset**. Atualize o **Recordset** fechando e reabrindo o mesmo.
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
 
 

@@ -1,5 +1,5 @@
 ---
-title: Método Recordset.MoveLast (DAO)
+title: Método Recordset. moVelast (DAO)
 TOCTitle: MoveLast method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 79799742499e163a43d51a2d8553adcadf27b36d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284529"
 ---
-# <a name="recordsetmovelast-method-dao"></a>Método Recordset.MoveLast (DAO)
+# <a name="recordsetmovelast-method-dao"></a>Método Recordset. moVelast (DAO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Move o último registro em um objeto **Recordset** especificado e torna esse registro o atual.
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . MoveLast (***Opções***)
+*expressão* . MoVelast (***Opções***)
 
 *expressão* Uma variável que representa um objeto **Recordset** .
 
@@ -64,14 +64,14 @@ Quando você abre um **Recordset**, o primeiro registro é o atual, e a propried
 
 Se o primeiro ou o último registro já for o atual quando você usar **MoveFirst** ou **MoveLast**, o registro atual não será alterado.
 
-Se o recordset se refere a um tipo tabela **Recordset** (somente espaços de trabalho do Microsoft Access), o movimento segue o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
+Se Recordset se refere a um **Recordset** do tipo tabela (somente espaços de trabalho do Microsoft Access), o movimento segue o índice atual. Você pode definir o índice atual utilizando a propriedade **Index**. Se você não definir o índice atual, a ordem dos registros retornados será indefinida.
 
 > [!NOTE]
 > [!OBSERVAçãO] Você pode usar o método **MoveLast** para preencher totalmente um **Recordset** do tipo dynaset ou instantâneo para fornecer o número atual de registros no **Recordset**. Contudo, se você utilizar **MoveLast** dessa forma, poderá reduzir o desempenho do aplicativo. Utilize **MoveLast** somente se for absolutamente necessário para obter uma conta de registro precisa em um **Recordset** recém aberto. 
 > 
 > Se você usa a constante **dbRunAsync** com **MoveLast**, a chamada do método é assíncrona. É possível usar a propriedade **StillExecuting** para determinar quando o **Recordset** é totalmente preenchido, e o método **Cancel** para determinar a execução da chamada assíncrona do método **MoveLast**.
 
-Você não pode usar os métodos **MoveFirst**, **MoveLast**e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento.
+Você não pode usar os métodos **MoveFirst**, MoveLast e **MovePrevious** em um objeto **Recordset** do tipo somente encaminhamento. ****
 
 Para mover a posição do registro atual em um número específico de registros do objeto **Recordset** para frente ou para trás, use o método **Move**.
 

@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 33443fda474b3785d34d457719e49f5e358bb254
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288508"
 ---
 # <a name="odbc-scalar-functions"></a>Funções escalares ODBC
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-O Microsoft Access SQL suporta o uso da sintaxe ODBC definidas para funções escalares. 
+O Microsoft Access SQL suporta o uso da sintaxe definida por ODBC para funções escalares. 
 
-Por exemplo, a consulta `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` retornaria todas as linhas em que o valor absoluto da alteração no preço de uma ação foi maior que cinco.
+Por exemplo, a consulta `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` retorna todas as linhas em que o valor absoluto da alteração no preço de um estoque era maior que cinco.
 
 Um subconjunto de funções escalares definidas por ODBC é aceito. A tabela a seguir lista as funções aceitas.
 
@@ -41,26 +41,26 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 <tbody>
 <tr class="odd">
 <td><p>ASCII</p></td>
-<td><p>LENGTH</p></td>
+<td><p>COMPRIMENTO</p></td>
 <td><p>RTRIM</p></td>
 </tr>
 <tr class="even">
 <td><p>CHAR</p></td>
-<td><p>LOCATE</p></td>
-<td><p>SPACE</p></td>
+<td><p>LOCALIZADO</p></td>
+<td><p>ESPAÇO</p></td>
 </tr>
 <tr class="odd">
-<td><p>CONCAT</p></td>
+<td><p>CONCATENA</p></td>
 <td><p>LTRIM</p></td>
-<td><p>SUBSTRING</p></td>
+<td><p>SUBCADEIA</p></td>
 </tr>
 <tr class="even">
 <td><p>LCASE</p></td>
-<td><p>RIGHT</p></td>
+<td><p>Certo</p></td>
 <td><p>UCASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>LEFT</p></td>
+<td><p>DEIXOU</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -84,29 +84,29 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 </tr>
 <tr class="even">
 <td><p>ATAN</p></td>
-<td><p>LOG</p></td>
+<td><p>REGISTRA</p></td>
 <td><p>SQRT</p></td>
 </tr>
 <tr class="odd">
-<td><p>CEILING</p></td>
-<td><p>POWER</p></td>
-<td><p>TAN</p></td>
+<td><p>RENDIMENTO</p></td>
+<td><p>FORÇA</p></td>
+<td><p>Claro</p></td>
 </tr>
 <tr class="even">
-<td><p>COS</p></td>
+<td><p>EXIBI</p></td>
 <td><p>RAND</p></td>
 <td><p>MOD</p></td>
 </tr>
 <tr class="odd">
-<td><p>EXP</p></td>
-<td><p>SIGN</p></td>
+<td><p>ESP</p></td>
+<td><p>CIFRÃO</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="time--date-functions"></a>Funções de data hora &
+## <a name="time--date-functions"></a>Funções de data de tempo &
 
 <table>
 <colgroup>
@@ -118,26 +118,26 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 <tr class="odd">
 <td><p>CURDATE</p></td>
 <td><p>DAYOFYEAR</p></td>
-<td><p>MONTH</p></td>
+<td><p>MENSAL</p></td>
 </tr>
 <tr class="even">
 <td><p>CURTIME</p></td>
-<td><p>YEAR</p></td>
-<td><p>WEEK</p></td>
+<td><p>ANUAIS</p></td>
+<td><p>ÚTIL</p></td>
 </tr>
 <tr class="odd">
-<td><p>NOW</p></td>
-<td><p>HOUR</p></td>
-<td><p>QUARTER</p></td>
+<td><p>DISPONIBILIZA</p></td>
+<td><p>HORA</p></td>
+<td><p>TRIMESTRE</p></td>
 </tr>
 <tr class="even">
 <td><p>DAYOFMONTH</p></td>
-<td><p>MINUTE</p></td>
+<td><p>INCLUSÕES</p></td>
 <td><p>MONTHNAME</p></td>
 </tr>
 <tr class="odd">
 <td><p>DAYOFWEEK</p></td>
-<td><p>SECOND</p></td>
+<td><p>SECUNDÁRIA</p></td>
 <td><p>DAYNAME</p></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Para obter uma descrição dos argumentos e uma explicação completa da sintaxe
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>CONVERT</p></td>
+<td><p>CONVERSÃO</p></td>
 <td><p>Os literais de sequência podem ser convertidos para os seguintes tipos de dados: SQL_FLOAT, SQL_DOUBLE, SQL_NUMERIC, SQL_INTEGER, SQL_REAL, SQL_SMALLINT, SQL_VARCHAR e SQL_DATETIME.</p></td>
 </tr>
 </tbody>

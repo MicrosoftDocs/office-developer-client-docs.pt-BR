@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283349"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemplo de modelo de eventos do ADO (VC + +)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fornece uma descrição geral de como instanciar o modelo de eventos do ADO. A seguir está um exemplo específico de instanciando o modelo de evento dentro do ambiente criado pelo ** \#importar** diretiva.
+A seção Visual C++ da [Instanciação de eventos do ADO por linguagem](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fornece uma descrição geral de como instanciar o modelo de eventos do ADO. Veja a seguir um exemplo específico de instanciação do modelo de evento dentro do ambiente criado pela diretiva ** \#Import** .
 
-A descrição geral utiliza **adoint.h** como uma referência para assinaturas de métodos. No entanto, alguns detalhes na descrição geral ligeiramente alteram como resultado do uso do ** \#importar** diretiva:
+A descrição geral utiliza **adoint.h** como uma referência para assinaturas de métodos. No entanto, alguns detalhes na descrição geral mudam levemente como resultado do uso da ** \#diretiva import** :
 
-- O ** \#importar** diretiva resolve **typedef**e tipos de dados de assinatura do método e modificadores para seus formatos fundamentais.
+- A diretiva de ** \#importação** resolve os tipos de dados de **typedef**e os modificadores de tipo de assinatura do método para seus formatos fundamentais.
 
-- Os métodos virtuais puros que devem ser sobregravados são todos prefixados por "**brutos\_**".
+- Os métodos virtuais puros que devem ser substituídos são todos prefixados por "**RAW\_**".
 
 Alguns dos códigos simplesmente refletem o estilo de codificação.
 
@@ -34,13 +34,13 @@ Alguns dos códigos simplesmente refletem o estilo de codificação.
 
 - Talvez queira codificar implementações mais robustas de QueryInterface, AddRef e Release.
 
-- O ** \_ \_uuidof()** diretiva é utilizada extensivamente para obter as IDs de interface.
+- A diretiva uuidof ** \_() é usada extensivamente para obter IDs de \_** interface.
 
 Por fim, o exemplo contém alguns códigos em funcionamento.
 
 - O exemplo está escrito como um aplicativo de console.
 
-- Você deve inserir seu próprio código no comentário, "/ / algum trabalho".
+- Você deve inserir seu próprio código no comentário, "//fazer algumas tarefas".
 
 - Todos os manipuladores de evento são padronizados para não fazer nada e cancelar notificações adicionais. Insira o código apropriado para seu aplicativo e permita notificações, se forem exigidas.
 

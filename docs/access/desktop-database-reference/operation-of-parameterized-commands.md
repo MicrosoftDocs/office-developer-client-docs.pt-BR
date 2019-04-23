@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 145a2ee6c3d3c614eb9660350a0bb8a00d44d04c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288284"
 ---
 # <a name="operation-of-parameterized-commands"></a>Operação de comandos parametrizados
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Se você estiver trabalhando com um **Recordset** filho grande, especialmente em comparação com o tamanho do **Recordset** pai, mas precisar acessar apenas alguns capítulos do filho, poderá achar mais eficiente usar um comando com parâmetros.
 
-Um *comando sem parâmetros* recupera o inteiro pai e filho **Recordsets**, acrescenta uma coluna de capítulo ao pai e, em seguida, atribui uma referência para o capítulo filho relacionados para cada linha pai.
+Um *comando sem parâmetros* recupera os **Recordsets** pai e filho completos, acrescenta uma coluna de capítulo ao pai e atribui uma referência ao capítulo filho relacionado para cada linha pai.
 
-Um *comando parametrizado* recupera o **Recordset**pai inteira, mas recupera apenas o capítulo **Recordset** quando a coluna de capítulo é acessada. Essa diferença na estratégia de recuperação pode produzir melhoras significativas no desempenho.
+Um *comando com parâmetros* recupera todo o **Recordset** pai, mas recupera apenas o **Recordset** do capítulo quando a coluna do capítulo é acessada. Essa diferença na estratégia de recuperação pode produzir melhoras significativas no desempenho.
 
 Por exemplo, você pode especificar o seguinte:
 
@@ -33,20 +33,20 @@ SHAPE {SELECT * FROM customer}
  RELATE cust_id TO PARAMETER 0) 
 ```
 
-As tabelas pai e filho têm um nome de coluna em comum, com custo\_id *.* O *comando filho* tem um espaço reservado "?", ao qual se refere a cláusula RELATE (ou seja, "... PARÂMETRO 0").
+As tabelas pai e filho têm um nome de coluna em comum ID\_de cust *.* O *filho-Command* tem um marcador de "?", ao qual a cláusula relate se refere (ou seja, "... PARÂMETRO 0 ").
 
 > [!NOTE]
 > [!OBSERVAçãO] A cláusula PARAMETER refere-se apenas à sintaxe do comando shape. Ela não está associada ao objeto [Parameter](parameter-object-ado.md) do ADO ou à coleção [Parameters](parameters-collection-ado.md).
 
 Quando o comando shape com parâmetros é executado, ocorre o seguinte:
 
-1.  O *parent-command* é executado e retorna um **Recordset** pai da tabela Customers.
+1.  O *parent-command* é executado e retorna um **Recordset** pai da tabela Clientes.
 
 2.  Uma coluna de capítulo é acrescentada ao **Recordset** pai.
 
-3.  Quando a coluna de capítulo de uma linha pai é acessada, o *filho-command* é executado usando o valor do customer.cust\_id como o valor do parâmetro.
+3.  Quando a coluna de capítulo de uma linha pai é acessada, o *comando Child-Command* é executado usando o valor da\_ID Customer. cust como o valor do parâmetro.
 
-4.  Todas as linhas do conjunto de linhas do provedor de dados criado na etapa 3 são usadas para preencher o **Recordset** filho. Neste exemplo, que é a todas as linhas na tabela de pedidos nos quais o com custo\_id é igual ao valor de customer.cust\_id. Por padrão, o **Recordset**s filho será armazenada na cache no cliente até que todas as referências ao **Recordset** pai sejam liberadas. Para alterar esse comportamento, defina o **Recordset** [propriedade dinâmica](ado-dynamic-property-index.md)**Linhas filho de Cache** como **False**.
+4.  Todas as linhas do conjunto de linhas do provedor de dados criado na etapa 3 são usadas para preencher o **Recordset** filho. Neste exemplo, todas as linhas da tabela Orders em que a ID de cust\_é igual ao valor de Customer. cust\_ID. Por padrão, o **Recordset** filho será armazenado em cache no cliente até que todas as referências ao **Recordset** pai sejam liberadas. Para alterar esse comportamento, defina as**linhas filhas do cache** de [propriedades dinâmicas](ado-dynamic-property-index.md)do **Recordset** como **false**.
 
 5.  Uma referência às linhas filhas recuperadas (ou seja, o capítulo do **Recordset** filho) é colocada na coluna de capítulo da linha atual do **Recordset** pai.
 
@@ -69,11 +69,11 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 Em uma consulta com dois ou mais parâmetros, um filho armazenado em cache será usado apenas se todos os valores de parâmetros corresponderem aos valores armazenados em cache.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados e relações de filho pai complexa
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos com parâmetros e relações filho complexas pai
 
-Além de usar comandos com parâmetros para melhorar o desempenho de uma hierarquia do tipo junção de igualdade, os comandos com parâmetros podem ser usados para oferecer suporte a relações pai-filho mais complexas. Por exemplo, considere um banco de dados de pouca liga com duas tabelas: one consistindo as equipes (equipe\_id, equipe\_nome) e o outro dos jogos (data, residencial\_equipe, visitando\_equipe).
+Além de usar comandos com parâmetros para melhorar o desempenho de uma hierarquia do tipo junção de igualdade, os comandos com parâmetros podem ser usados para oferecer suporte a relações pai-filho mais complexas. Por exemplo, considere um pequeno banco de dados de League com duas tabelas: uma que consiste em equipes\_(ID da\_equipe, nome da equipe) e a outra de jogos\_(data,\_equipe inicial, equipe de visita).
 
-Usando uma hierarquia sem parâmetros, não há uma maneira de relacionar as tabelas de times e de jogos de maneira que o **Recordset** filho para cada time contenha sua agenda completa. Você pode criar capítulos que contenham a agenda local ou a agenda de viagem, mas não as duas. Isso porque a cláusula RELATE o limita à relação pai-filho do formulário (pc1=cc1) AND (pc2=pc2). Isso, se o comando inclui "relacionar equipe\_inicial de para id\_equipe, a equipe\_id do visitando\_equipe", você obterá apenas jogos onde foi reproduzir uma equipe em si. O que você deseja é "(equipe\_id = home\_equipe) ou (equipe\_id = visitando\_equipe)", mas o provedor de forma não oferece suporte a cláusula OR.
+Usando uma hierarquia sem parâmetros, não há uma maneira de relacionar as tabelas de times e de jogos de maneira que o **Recordset** filho para cada time contenha sua agenda completa. Você pode criar capítulos que contenham a agenda local ou a agenda de viagem, mas não as duas. Isso porque a cláusula RELATE o limita à relação pai-filho do formulário (pc1=cc1) AND (pc2=pc2). Portanto, se o seu comando incluiu "\_relacionar ID\_de equipe para\_equipe inicial,\_ID de equipe para a equipe de visita", você receberia apenas jogos em que a equipe estava jogando. O que você deseja é "(\_ID de equipe\_= equipe inicial) ou\_(ID de\_equipe = equipe de visita)", mas o provedor de forma não tem suporte para a cláusula or.
 
 Para obter o resultado desejado, você pode usar um comando com parâmetros. Por exemplo:
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d10a493aac39934a047c6fa311233fd6c9fac4e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288859"
 ---
 # <a name="more-ways-to-move-in-a-recordset"></a>Outras formas de movimentação em um conjunto de registros
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Os seguintes métodos são usados para se mover em torno de ou para rolar em um objeto **Recordset**: [MoveFirst, MoveLast, MoveNext e MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md). (Alguns desses métodos não estão disponíveis em cursores apenas de avanço.)
 
@@ -40,7 +40,7 @@ If oRs.BOF Then oRs.MoveFirst
 . . . 
 ```
 
-Nos casos em que o **Recordset** foi filtrado ou classificado e os dados do registro atual forem alterados, a posição também pode ser alterada. Nesses casos, o método **MoveNext** funciona normalmente, mas esteja ciente de que a posição é movida um registro para a frente a partir da nova posição, não da posição antiga. Por exemplo, alterando os dados no registro atual, de forma que o registro é movido para o final do **Recordset**classificados, significaria que chamar **MoveNext** resulta em ADO definindo o registro atual para a posição após o último registro no ** Recordset** (**EOF** = **True**).
+Nos casos em que o **Recordset** foi filtrado ou classificado e os dados do registro atual forem alterados, a posição também pode ser alterada. Nesses casos, o método **MoveNext** funciona normalmente, mas esteja ciente de que a posição é movida um registro para a frente a partir da nova posição, não da posição antiga. Por exemplo, alterar os dados no registro atual, de modo que o registro seja movido para o final do conjunto de **registros**classificados, significa que a chamada de **MoveNext** resultará no ADO definindo o registro atual como a posição após o último registro **da Recordset** (**EOF** = **true**).
 
 O comportamento de vários métodos Move do objeto **Recordset** depende, de alguma forma, dos dados no **Recordset**. Os novos registros adicionados ao **Recordset** são inicialmente adicionados em uma ordem específica, que é definida pela fonte de dados e pode ser dependente, de forma implícita ou explícita, dos dados no novo registro. Por exemplo, se uma classificação ou junção for feita dentro da consulta que popula o **Recordset**, o novo registro será inserido no local apropriado dentro do **Recordset**. Se a ordem não estiver especificada de forma clara na criação do **Recordset**, as alterações na implementação da fonte de dados podem modificar a ordem das linhas retornadas inadvertidamente. Além disso, as funções de classificação, filtragem e edição do **Recordset** podem afetar a ordem e possivelmente a visibilidade de algumas linhas no Recordset.
 

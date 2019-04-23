@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db8953cafc5ad266c81c51e59cbf92787d07cdfb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288375"
 ---
 # <a name="open-method-ado-record"></a>Método Open (Record do ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Abre um objeto [Record](record-object-ado.md) existente ou cria um novo item representado pelo **Record** (tal como um arquivo ou diretório).
 
 ## <a name="syntax"></a>Sintaxe
 
-Abra a *fonte*, *ActiveConnection*, *modo*, *CreateOptions*, *Opções*, *nome de usuário*, *senha*
+*Fonte*aberta, *ActiveConnection*, *Mode*, *CreateOptions*, *Options*, *username*, *password*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -31,7 +31,7 @@ Abra a *fonte*, *ActiveConnection*, *modo*, *CreateOptions*, *Opções*, *nome d
 |*Source* |Opcional. Uma **Variant** que pode representar a URL da entidade a ser representada por esse objeto **Record**, um **Command**, um [Recordset](recordset-object-ado.md) aberto ou outro objeto **Record**, uma sequência que contém uma instrução SQL SELECT ou um nome de tabela.|
 |*ActiveConnection* | Opcional. Uma **Variant** que representa a sequência de conexão ou objeto [Connection](connection-object-ado.md) aberto.|
 |*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md), cujo valor padrão é **adModeUnknown**, que especifica o modo de acesso para o objeto **Record** resultante.|
-|*CreateOptions* |Opcional. Um valor [RecordCreateOptionsEnum](recordcreateoptionsenum.md), cujo valor padrão é **adFailIfNotExists**, que especifica se um arquivo ou diretório existente deve ser aberto ou se um novo arquivo ou diretório deve ser criado. Se definido para o valor padrão, o modo de acesso será obtido da propriedade [Mode](mode-property-ado.md). Esse parâmetro é ignorado quando o parâmetro *Source* não contém uma URL.|
+|*Criaroptions* |Opcional. Um valor [RecordCreateOptionsEnum](recordcreateoptionsenum.md), cujo valor padrão é **adFailIfNotExists**, que especifica se um arquivo ou diretório existente deve ser aberto ou se um novo arquivo ou diretório deve ser criado. Se definido para o valor padrão, o modo de acesso será obtido da propriedade [Mode](mode-property-ado.md). Este parâmetro é ignorado quando o parâmetro *Source* não contém uma URL.|
 |*Options* |Opcional. Um valor [RecordOpenOptionsEnum](recordopenoptionsenum.md), cujo valor padrão é **adOpenRecordUnspecified**, que especifica opções para a abertura do **Record**. Esses valores podem ser combinados.|
 |*UserName* |Opcional. Um valor **String** que contém o ID de usuário que, se necessário, autoriza acesso a *Source*.|
 |*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, verifica *UserName*.|
@@ -40,7 +40,7 @@ Abra a *fonte*, *ActiveConnection*, *modo*, *CreateOptions*, *Opções*, *nome d
 
 *Source* pode ser:
 
-- Uma URL. Se o protocolo da URL for http, o Provedor de Internet será chamado por padrão. Se a URL apontar para um nó que contenha um script executável (tal como uma página .ASP), um **Record** que contém a fonte, em vez do conteúdo executado, será aberto por padrão. Use o argumento *Options* para modificar esse comportamento.
+- Uma URL. Se o protocolo da URL for http, o Provedor de Internet será chamado por padrão. Se a URL apontar para um nó que contenha um script executável (tal como uma página .ASP), um **Record** que contém a fonte, em vez do conteúdo executado, será aberto por padrão. Utilize o argumento *Options* para modificar esse comportamento.
 
 - Um objeto **Record**. Um objeto **Record** aberto a partir de outro **Record** clonará o objeto **Record** original.
 

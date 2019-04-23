@@ -1,5 +1,5 @@
 ---
-title: Coleção Positions (ADO MD)
+title: Coleção poSitions (ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: a1e6333a-26a5-047a-1311-1a4060c73145
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249746(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 305a20ba3f300f55063b8d15869d8d14cc5b6a78
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287483"
 ---
-# <a name="positions-collection-ado-md"></a>Coleção Positions (ADO MD)
+# <a name="positions-collection-ado-md"></a>Coleção poSitions (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Contém os objetos [Position](position-object-ado-md.md) que definem um ponto em um eixo.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bd8196670513156011d69f08eacf790fa4a0a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288669"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o comportamento do objeto [Record](record-object-ado.md) do método [MoveRecord](moverecord-method-ado.md).
 
@@ -47,19 +47,19 @@ Especifica o comportamento do objeto [Record](record-object-ado.md) do método [
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Modifica o comportamento padrão do método <strong>MoveRecord</strong> por não atualizar os links de hipertexto do <strong>Record</strong> de origem. O comportamento padrão depende dos recursos do provedor. A operação mover atualiza os links se o provedor tiver recursos. Se ele não puder consertar os links ou se este valor não for especificado, a operação mover terá êxito mesmo que os links não sejam consertados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMoveAllowEmulation</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Solicita que o provedor tente simular a operação mover (usando as operações download, upload e excluir). Se a tentativa de mover o <strong>Record</strong> falhar porque o URL de destino está em um servidor diferente ou está sendo atendido por um provedor diferente da origem, isso poderá causar um aumento na latência ou a perda de dados, devido aos recursos diferentes do provedor ao mover os recursos entre os provedores.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Essas constantes não têm ADO/WFC equivalentes.
 

@@ -1,5 +1,5 @@
 ---
-title: MemberTypeEnum (referência de banco de dados da área de trabalho do Access)
+title: MemberTypeEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 82d507457d9242daa92cc0218c87bae4d82759a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289200"
 ---
 # <a name="membertypeenum"></a>MemberTypeEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a definição da propriedade [Type](type-property-ado-md.md) de um objeto [Member](member-object-ado-md.md).
 
@@ -38,17 +38,17 @@ Especifica a definição da propriedade [Type](type-property-ado-md.md) de um ob
 <tbody>
 <tr class="odd">
 <td><p><strong>adMemberAll</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Indica que o objeto <strong>Member</strong> representa todos os membros do nível.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMemberFormula</strong></p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>Indica que o objeto <strong>Member</strong> é calculado por meio de uma expressão de fórmula.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberMeasure</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Indica que o objeto <strong>Member</strong> pertence à dimensão Measures e representa um atributo quantitativo.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Especifica a definição da propriedade [Type](type-property-ado-md.md) de um ob
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberUnknown</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Não é possível determinar o tipo do membro.</p></td>
 </tr>
 </tbody>

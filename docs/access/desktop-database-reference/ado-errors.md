@@ -1,5 +1,5 @@
 ---
-title: Erros de ActiveX Data Objects (ADO)
+title: Erros do ActiveX Data Objects (ADO)
 TOCTitle: ADO errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a25dc0d1d5e621a610b34ca1875c3fd76ba56eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283377"
 ---
 # <a name="ado-errors"></a>Erros do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Os erros do ADO são relatados para o seu programa como erros em tempo de execução. Você pode usar o mecanismo de interceptação de erro da sua linguagem de programação para interceptá-los e tratá-los. Por exemplo, no Visual Basic, use a instrução **On Error**. No Visual J++, use um bloco **try-catch**. No Visual C++, depende do método que estiver sendo usado para acessar as bibliotecas do ADO. Com \#importar, use um bloco **try-catch** . Caso contrário, os programadores do C++ precisarão recuperar de maneira explícita o objeto de erro chamando **GetErrorInfo**. O seguinte subprocedimento do Visual Basic demonstra a interceptação de um erro do ADO:
+Os erros do ADO são relatados para o seu programa como erros em tempo de execução. Você pode usar o mecanismo de interceptação de erro da sua linguagem de programação para interceptá-los e tratá-los. Por exemplo, no Visual Basic, use a instrução **On Error**. No Visual J++, use um bloco **try-catch**. No Visual C++, depende do método que estiver sendo usado para acessar as bibliotecas do ADO. Com \#a importação, use um bloco **try-catch** . Caso contrário, os programadores do C++ precisarão recuperar de maneira explícita o objeto de erro chamando **GetErrorInfo**. O seguinte subprocedimento do Visual Basic demonstra a interceptação de um erro do ADO:
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-Isso **formulário\_carga** procedimento de evento intencionalmente cria um erro ao tentar abrir o mesmo objeto de **Conexão** duas vezes. Na segunda vez que o método **Open** é chamado, o identificador de erro é ativado. Nesse caso, o erro é do tipo **adErrObjectOpen**, portanto, o identificador de erro exibe a seguinte mensagem antes de continuar a execução do programa:
+Este procedimento de evento **\_Form Load** cria intencionalmente um erro tentando abrir o mesmo objeto **Connection** duas vezes. Na segunda vez que o método **Open** é chamado, o identificador de erro é ativado. Nesse caso, o erro é do tipo **adErrObjectOpen**, portanto, o identificador de erro exibe a seguinte mensagem antes de continuar a execução do programa:
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

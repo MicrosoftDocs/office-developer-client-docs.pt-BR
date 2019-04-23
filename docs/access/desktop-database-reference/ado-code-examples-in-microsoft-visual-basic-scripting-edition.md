@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8be48c74dbf17062388866d3ab982b6a24643f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281836"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a>Exemplos de código ADO no Microsoft Visual Basic Scripting Edition
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use os seguintes exemplos de código para aprender sobre como usar os métodos ADO ao gravar no Visual Basic Scripting Edition (VBScript).
 
@@ -28,8 +28,8 @@ Use os seguintes exemplos de código para aprender sobre como usar os métodos A
 - [Exemplo do método AddNew](addnew-method-example-vbscript.md)
 - [Exemplo do método clone](clone-method-example-vbscript.md)
 - [Exemplo do método Delete](delete-method-example-vbscript.md)
-- [Execute, Requery e Clear exemplo dos métodos](execute-requery-and-clear-methods-example-vbscript.md)
+- [Exemplo dos métodos Execute, reQuery e Clear](execute-requery-and-clear-methods-example-vbscript.md)
 - [Exemplo do método Move](move-method-example-vbscript.md)
-- [Exemplo dos métodos MoveFirst, MoveLast, MoveNext e MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [Exemplo de métodos Open e Close](open-and-close-methods-example-vbscript.md)
+- [Exemplo dos métodos MoveFirst, moVelast, MoveNext e MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
+- [Exemplo dos métodos Open e close](open-and-close-methods-example-vbscript.md)
 

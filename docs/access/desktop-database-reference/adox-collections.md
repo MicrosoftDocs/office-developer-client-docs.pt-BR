@@ -1,5 +1,5 @@
 ---
-title: Coleções do ADOX (referência de banco de dados da área de trabalho do Access)
+title: Coleções do ADOX (referência de banco de dados do Access)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9728c8a736e2639816f65b006394e513ea5a5d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270123"
 ---
 # <a name="adox-collections"></a>Coleções do ADOX
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -57,7 +57,7 @@ ms.locfileid: "28718921"
 <td><p>Contém todos os objetos <strong>Tabela</strong> de um catálogo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="users-collection-adox.md">Usuários</a></p></td>
+<td><p><a href="users-collection-adox.md">Users</a></p></td>
 <td><p>Contém todos os objetos <strong>User</strong> armazenados de um catálogo ou grupo.</p></td>
 </tr>
 <tr class="even">

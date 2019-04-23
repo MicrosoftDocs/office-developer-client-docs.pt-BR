@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288599"
 ---
 # <a name="navigateto-macro-action"></a>Ação da macro NavegarPara
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **NavegarPara** para controlar a exibição de objetos de banco de dados no Painel de Navegação. Por exemplo, é possível alterar a maneira como os objetos de banco de dados são categorizados, além de filtrá-los para que somente alguns sejam exibidos.
 
@@ -41,12 +41,12 @@ A ação **NavegarPara** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Category</strong></p></td>
+<td><p><strong>Categoria</strong></p></td>
 <td><p>Obrigatório. A categoria pela qual você deseja que o Painel de Navegação exiba os objetos. Clique em <strong>Tipo de Objeto</strong>, <strong>Tabelas e Exibições</strong>, <strong>Data de Modificação</strong>, <strong>Data de Criação</strong> ou <strong>Personalizado</strong> na caixa <strong>Categoria</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Group</strong></p></td>
-<td><p>Opcional. Os limites de argumento do <strong>grupo</strong> que objetos na categoria aparecem no painel de navegação. Se você deixar vazio o argumento de <strong>grupo</strong> , o painel de navegação exibe todos os objetos de banco de dados, classificados por critérios especificados no argumento <strong>categoria</strong> . Exemplos de argumentos  <strong>Grupo</strong> válidos para os vários argumentos <strong>Categoria</strong> são mostrados na tabela a seguir.</p></td>
+<td><p>Opcional. O argumento <strong>Grupo</strong> limita quais objetos na categoria aparecem no Painel de Navegação. Se você deixar o argumento <strong>grupo</strong> em branco, o painel de navegação exibirá todos os objetos de banco de dados, categorizados pelos critérios especificados no argumento <strong>Category</strong> . Exemplos de argumentos <strong>Grupo</strong> válidos para os vários argumentos <strong>Categoria</strong> são mostrados na tabela a seguir.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ A ação **NavegarPara** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-- Esta ação é semelhante a selecionar categorias e grupos na barra de título do painel de navegação.
+- Esta ação é semelhante à seleção de categorias e grupos na barra de título do painel de navegação.
 
 - Os argumentos **Grupo** válidos dependem do argumento **Categoria** usado. Se você digitar um argumento **Grupo** inválido, será exibida uma mensagem de erro.A tabela a seguir contém exemplos de argumentos **Grupo** válidos para cada argumento **Categoria**.
     

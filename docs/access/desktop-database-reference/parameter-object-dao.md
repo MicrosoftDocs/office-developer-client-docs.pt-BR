@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5df04b1ee06a2224db9e21f67e9c68a3ee5740bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288081"
 ---
 # <a name="parameter-object-dao"></a>Objeto Parameter (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Um objeto **Parameter** representa um valor fornecido para uma consulta. O parâmetro está associado ao objeto **QueryDef** criado a partir de uma consulta parâmetro.
 
@@ -37,7 +37,7 @@ Utilizando as propriedades de um objeto **Parameter**, você pode definir uma co
 
 ## <a name="example"></a>Exemplo
 
-Este exemplo demonstra os objetos **Parameter** e a coleção **Parameters**, criando um **QueryDef** temporário e recuperando dados com base nas alterações feitas em **Parameters** do objeto **QueryDef**. O procedimento ParametersChange é exigido para que este procedimento seja executado.
+Este exemplo demonstra objetos **Parameter** e a coleção **Parameters** criando uma **QueryDef** temporária e recuperando dados com base em alterações feitas aos objetos **Parameters** do objeto **QueryDef**. O procedimento ParametersChange é exigido para a execução deste procedimento.
 
 ```vb
     Sub ParameterX() 

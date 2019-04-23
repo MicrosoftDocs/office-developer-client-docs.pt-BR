@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283398"
 ---
 # <a name="ado-dynamic-property-index"></a>Índice de propriedades dinâmicas do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Os provedores de dados, provedores de serviços e componentes de serviço podem adicionar propriedades dinâmicas às coleções **Properties** dos objetos [ Connection ](connection-object-ado.md) e [Recordset](recordset-object-ado.md) não abertos. Um determinado provedor também pode inserir propriedades adicionais quando esses objetos estão abertos. Algumas dessas propriedades estão listadas na seção [Propriedades dinâmicas do ADO](ado-dynamic-properties.md). Mais propriedades estão relacionadas nos provedores específicos da seção [Apêndice A: provedores](appendix-a-providers.md).
 
@@ -38,7 +38,7 @@ Observe os números utilizados no índice cruzado:
 
 (1) Esta propriedade é um sinalizador Booleano que indica se a interface nomeada deve ser utilizada. Se existir, o nome da propriedade do OLE DB equivalente será relacionado.
 
-(2) a propriedade "Bookmarkable" ADO é gerado internamente para trás para frente compatibilidade e é mapeado para a propriedade do OLE DB, DBPROP\_IROWSETLOCATE. Essa é a propriedade que corresponde à propriedade do ADO, IRowsetLocate.
+(2) a propriedade ADO "Bookmarkable" é gerada internamente para compatibilidade com versões anteriores e é mapeada para a propriedade OLE DB, DBPROP\_IROWSETLOCATE. Essa é a propriedade que corresponde à propriedade do ADO, IRowsetLocate.
 
 (3) A propriedade do ADO, "Hidden Columns", é nomeada de forma diferente da Descrição do nome da propriedade do OLE DB, "Hidden Columns Count."
 
@@ -149,7 +149,7 @@ Observe os números utilizados no índice cruzado:
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Location</p></td>
+<td><p>Localização</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">
@@ -169,7 +169,7 @@ Observe os números utilizados no índice cruzado:
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Modo</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -225,7 +225,7 @@ Observe os números utilizados no índice cruzado:
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="even">
-<td><p>Password</p></td>
+<td><p>Senha</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="odd">
@@ -338,7 +338,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="even">
 <td><p>IChapteredRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IColumnsInfo</p></td>
@@ -354,7 +354,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="even">
 <td><p>IConvertType</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>ILockBytes</p></td>
@@ -370,7 +370,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="even">
 <td><p>IParentRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetChange</p></td>
@@ -378,7 +378,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="even">
 <td><p>IRowsetExactScroll</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetFind</p></td>
@@ -402,10 +402,10 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="even">
 <td><p>IRowsetResynch</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetScroll</p></td>
+<td><p>Essa</p></td>
 <td><p>DBPROP_IROWSETSCROLL (1)</p></td>
 </tr>
 <tr class="even">
@@ -614,7 +614,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 </tr>
 <tr class="odd">
 <td><p>Private1</p></td>
-<td><p>(5)</p></td>
+<td><p>0,5</p></td>
 </tr>
 <tr class="even">
 <td><p>Quick Restart</p></td>
@@ -725,7 +725,7 @@ Observe que as **Propriedades Dinâmicas** do objeto **Recordset** ficam fora do
 <td><p>DBPROP_ADC_UNIQUETABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">

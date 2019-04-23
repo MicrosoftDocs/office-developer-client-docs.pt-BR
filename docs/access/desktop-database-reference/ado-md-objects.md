@@ -1,5 +1,5 @@
 ---
-title: Objetos do ADO MD (referência de banco de dados da área de trabalho do Access)
+title: Objetos do ADO MD (referência do banco de dados do Access Desktop)
 TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283293"
 ---
 # <a name="ado-md-objects"></a>Objetos do ADO MD
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -52,18 +52,18 @@ ms.locfileid: "28726208"
 </tr>
 <tr class="even">
 <td><p><a href="dimension-object-ado-md.md">Dimensão</a></p></td>
-<td><p>Representa uma das dimensões de um cubo multidimensional, contendo uma ou maishierarquias de membros.</p></td>
+<td><p>Representa uma das dimensões de um cubo multidimensional, contendo uma ou mais hierarquias de membros.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarquia</a></p></td>
-<td><p>Representa uma forma em que os membros de uma dimensão possam ser agregados ou &quot;acumulados. &quot; Uma dimensão possa ser agregada ao longo de uma ou mais hierarquias.</p></td>
+<td><p>Representa uma maneira em que os membros de uma dimensão podem ser agregados ou &quot;acumulados. &quot; Uma dimensão pode ser agregada ao longo de uma ou mais hierarquias.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Nível</a></p></td>
 <td><p>Contém um conjunto de membros, sendo que cada um tem a mesma ordem em uma hierarquia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Membro</a></p></td>
+<td><p><a href="member-object-ado-md.md">Member</a></p></td>
 <td><p>Representa um membro de um nível em um cubo, os filhos de um membro de um nível ou um membro de uma posição em um eixo de um conjunto de células.</p></td>
 </tr>
 <tr class="even">

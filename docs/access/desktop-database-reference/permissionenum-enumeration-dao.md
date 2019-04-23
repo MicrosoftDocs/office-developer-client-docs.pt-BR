@@ -1,5 +1,5 @@
 ---
-title: Enumeração PermissionEnum (DAO)
+title: Enumeração de PermissionEnum (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d4f6741bd6203dbdeffb364650b5e3550ea8b1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287707"
 ---
-# <a name="permissionenum-enumeration-dao"></a>Enumeração PermissionEnum (DAO)
+# <a name="permissionenum-enumeration-dao"></a>Enumeração de PermissionEnum (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 
@@ -52,12 +52,12 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 </tr>
 <tr class="even">
 <td><p>dbSecDBExclusive</p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>O usuário tem acesso exclusivo ao banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>O usuário pode abrir o banco de dados.</p></td>
 </tr>
 <tr class="even">
@@ -82,12 +82,12 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 </tr>
 <tr class="even">
 <td><p>dbSecNoAccess</p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>O usuário não tem acesso ao objeto (não é válido para objetos Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecReadDef</p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>O usuário pode ler a definição da tabela, inclusive informações de coluna e índice.</p></td>
 </tr>
 <tr class="even">
@@ -102,7 +102,7 @@ Usada com a propriedade **Permissions** para especificar o tipo das permissões.
 </tr>
 <tr class="even">
 <td><p>dbSecRetrieveData</p></td>
-<td><p>20</p></td>
+<td><p>508</p></td>
 <td><p>O usuário pode recuperar dados do objeto Document.</p></td>
 </tr>
 <tr class="odd">

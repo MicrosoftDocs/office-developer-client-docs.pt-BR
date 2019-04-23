@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281623"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Interface ADORecordConstruction (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A interface **ADORecordConstruction** é utilizada para construir um objeto **Record** do ADO a partir de um objeto **Row** do banco de dados OLE em um aplicativo C/C++.
 
@@ -34,12 +34,14 @@ Essa interface suporta as seguintes propriedades:
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
 <td><p>Somente gravação.<br />
-Define o contêiner de um objeto <strong>Row</strong> do OLE DB neste objeto <strong>Record</strong> do ADO.</p></td>
+
+Define o contêiner de um objeto <strong>Row</strong> do banco de dados OLE nesse objeto <strong>Record</strong> do ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="row-property-ado.md">Linha</a></p></td>
 <td><p>Leitura/gravação.<br />
-Obtém/define um objeto do OLE DB <strong>linha</strong> a partir de/neste objeto <strong>Record</strong> do ADO.</p></td>
+
+Obtém/define um objeto <strong>Row</strong> do banco de dados OLE desse/nesse objeto <strong>Record</strong> do ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -55,7 +57,7 @@ Nenhum.
 
 ## <a name="remarks"></a>Comentários
 
-Dado um objeto OLE DB **linha** (pRow), a construção de um objeto de **registro** do ADO (), a construção de um objeto **Record** do ADO (objeto adoR), quantidades às três operações básicas a seguir:
+Dado um objeto de **linha** OLE DB (Prow), a construção de um objeto **Record** do ADO (), a construção de um objeto **Record** do ADO (adoR), valores para as três operações básicas a seguir:
 
 1.  Criar um objeto **Record** do ADO:
     
@@ -72,7 +74,7 @@ Dado um objeto OLE DB **linha** (pRow), a construção de um objeto de **registr
                             (void**)&adoRConstruct);
     ```
 
-3.  Chamar o **IADORecordConstruction::put\_linha** método de propriedade para definir o objeto OLE DB **linha** no objeto **Record** do ADO:
+3.  Chame o método de propriedade de **linha IADORecordConstruction::p\_UT** para definir o objeto de **linha** OLE DB no objeto **Record** do ADO:
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -84,7 +86,7 @@ O objeto **adoR** resultante agora representa o objeto **Record** do ADO constru
 
 Um objeto **Record** do ADO também pode ser construído a partir do contêiner de um objeto **Row** do banco de dados OLE.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 **Versão:** ADO 2.0 e posterior
 

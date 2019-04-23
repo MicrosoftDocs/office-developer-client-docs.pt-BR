@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ab6600c6fd1794e860f432f41e4733690cc516af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280702"
 ---
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a>Exemplo das propriedades AbsolutePage, PageCount e PageSize (JScript)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo usa as propriedades [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) e [PageSize](pagesize-property-ado.md) para exibir nomes e datas de contratação da tabela ***Funcionários***; cinco registros por vez. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de textos e salve-o como **AbsolutePageJS.asp**.
 

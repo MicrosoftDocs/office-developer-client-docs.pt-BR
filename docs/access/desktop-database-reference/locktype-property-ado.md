@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d12946a90d61a941bf5ef7d479970c8c96e074f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289840"
 ---
 # <a name="locktype-property-ado"></a>Propriedade LockType (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o tipo de bloqueio colocado nos registros durante a edição.
 
@@ -35,5 +35,5 @@ A definição **adLockPessimistic** não terá suporte se a propriedade [CursorL
 
 A propriedade **LockType** será leitura/gravação quando o **Recordset** estiver fechado e somente leitura quando estiver aberto.
 
-**Uso de serviço de dados remotos** Quando usado em um objeto Recordset do lado do cliente, a propriedade **LockType** só pode ser definida como **adLockBatchOptimistic**.
+**Uso do Remote Data Service** Quando usado em um objeto Recordset do lado do cliente, **** a propriedade LockType só pode ser definida como **adLockBatchOptimistic**.
 

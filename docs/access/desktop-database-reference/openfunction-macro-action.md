@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b13d21ef1bd8a95587eb78cd448f19f9fd0c24c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288361"
 ---
 # <a name="openfunction-macro-action"></a>Ação da macro AbrirFunção
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirFunção** para abrir uma função definida pelo usuário no modo Folha de Dados, uma função in-line no modo Design, o modo Editor de Texto do SQL (para uma função definida pelo usuário escalar ou de tabela) ou Visualizar Impressão. Esta ação executa a função definida pelo usuário quando aberta em modo Folha de Dados. Você também pode selecionar o modo de entrada de dados para a função definida pelo usuário e restringir os registros exibidos pela função definida pelo usuário.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="setting"></a>Configuração
 
@@ -45,7 +45,7 @@ A ação **AbrirFunção** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da função</strong></p></td>
-<td><p>O nome da função definida pelo usuário para abrir. Caixa <strong>Nome da função</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as funções definidas pelo usuário no banco de dados atual. Esse é um argumento necessário. Se você executar uma macro que contém a ação <strong>função</strong> em um banco de dados biblioteca, o Microsoft Access procurará primeiro a função com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
+<td><p>O nome da função definida pelo usuário que será aberta. A caixa <strong>Nome da Função</strong> da seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todas as funções definidas pelo usuário no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>Function</strong> em um banco de dados biblioteca, o Microsoft Access procurará a função com esse nome no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

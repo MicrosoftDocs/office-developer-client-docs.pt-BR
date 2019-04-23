@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b3b83eb87b181320c86e1aea91ede70cd173a5ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288424"
 ---
 # <a name="open-method-ado-connection"></a>Método Open (Connection do ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
  
 Abre uma conexão a uma fonte de dados.
 
 ## <a name="syntax"></a>Sintaxe
 
-*conexão*. Abrir*ConnectionString*, *UserID*, *senha*, *Opções*
+*conexão*. *ConnectionString*aberta, *userid*, *senha*, *Opções*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -37,15 +37,15 @@ Abre uma conexão a uma fonte de dados.
 
 A utilização do método **Open** em um objeto [Connection](connection-object-ado.md) estabelece a conexão física a uma fonte de dados. Depois da conclusão com êxito desse método, a conexão estará ativa e será possível emitir comandos com relação à mesma e processar os resultados.
 
-Use o argumento *ConnectionString* opcional para especifique uma cadeia de caracteres de conexão que contém uma série de instruções de *= o valor* do *argumento* separadas por ponto e vírgula ou um arquivo ou identificado com uma URL de recurso de diretório. A propriedade **ConnectionString** herda automaticamente o valor usado para o argumento *ConnectionString* . Portanto, você pode definir a propriedade **ConnectionString** do objeto de **Conexão** antes de abri-lo, ou usar o argumento *ConnectionString* para definir ou substituir os parâmetros de conexão atual durante a chamada do método **Open** .
+Use o argumento *ConnectionString* opcional para especificar uma cadeia de caracteres de conexão contendo uma série de instruções *Argument* *= Value* separadas por ponto-e-vírgula ou um recurso de arquivo ou diretório identificado com uma URL. A propriedade **ConnectionString** herda automaticamente o valor utilizado para o argumento *ConnectionString*. Portanto, é possível definir a propriedade **ConnectionString** do objeto **Connection** antes de abri-lo ou utilizar o argumento *ConnectionString* para definir ou substituir os parâmetros da conexão atual durante a chamada ao método **Open**.
 
 Se você passar informações de usuário e senha no argumento *ConnectionString* e nos argumentos opcionais *UserID* e *Password*, os argumentos *UserID* e *Password* substituirão os valores especificados em *ConnectionString*.
 
 Quando concluir as operações em um **Connection** aberto, utilize o método [Close](close-method-ado.md) para liberar quaisquer recursos associados do sistema. O fechamento de um objeto não o remove da memória; é possível alterar as definições de propriedade e utilizar o método **Open** para abri-lo novamente mais tarde. Para eliminar completamente um objeto da memória, defina a variável do objeto como *Nothing*.
 
-**Uso de serviço de dados remotos** Quando usado em um objeto de **Conexão** do cliente, o método **Open** realmente não estabelece uma conexão ao servidor, até que um [conjunto de registros](recordset-object-ado.md) é aberto no objeto de **Conexão** .
+**Uso do Remote Data Service** Quando usado em um objeto **Connection** do lado do cliente, o método **Open** não estabelece realmente uma conexão com o servidor até que um [Recordset](recordset-object-ado.md) seja aberto no objeto **Connection** .
 
 > [!NOTE]
-> [!OBSERVAçãO] URLs que utilizem o esquema http chamarão automaticamente o [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
+> [!OBSERVAçãO] URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obter mais informações, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).
 
 

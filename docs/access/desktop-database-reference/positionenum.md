@@ -1,5 +1,5 @@
 ---
-title: PositionEnum (referência de banco de dados da área de trabalho do Access)
+title: PositionEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c791cbd31e346eef5ab8503cb55b0dec5e9fbbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287500"
 ---
 # <a name="positionenum"></a>PositionEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica a posição atual do ponteiro do registro em um [Recordset](recordset-object-ado.md).
 
@@ -55,7 +55,7 @@ Especifica a posição atual do ponteiro do registro em um [Recordset](recordset
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -65,18 +65,18 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Position.BOF</p></td>
+<td><p>AdoEnums. Position. BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Position.EOF</p></td>
+<td><p>AdoEnums. Position. EOF</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Position.UNKNOWN</p></td>
+<td><p>AdoEnums. Position. UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

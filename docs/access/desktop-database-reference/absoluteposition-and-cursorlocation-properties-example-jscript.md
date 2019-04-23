@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 675ed4e6f96af8ac069bcff593a1277244e60380
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282043"
 ---
 # <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>Exemplo das propriedades AbsolutePosition e CursorLocation (JScript)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo demonstra como a propriedade [AbsolutePosition](absoluteposition-property-ado.md) pode rastrear o progresso de um loop que enumera todos os registros de um [Recordset](recordset-object-ado.md). A propriedade [CursorLocation](cursorlocation-property-ado.md) é utilizada para habilitar a propriedade **AbsolutePosition**, definindo o cursor como um cliente. Recorte e cole o código a seguir no Bloco de Notas ou em outro editor de texto e salve-o como **AbsolutePositionJS.asp**.
 

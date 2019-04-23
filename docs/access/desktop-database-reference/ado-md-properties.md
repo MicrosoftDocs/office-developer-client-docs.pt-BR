@@ -1,5 +1,5 @@
 ---
-title: Propriedades de ActiveX Data Objects (ADO) MD
+title: Propriedades do ActiveX Data Objects (ADO) MD
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283286"
 ---
 # <a name="ado-md-properties"></a>Propriedades do ADO MD
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -27,7 +27,7 @@ ms.locfileid: "28716219"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriedade</th>
+<th>Propriedade	</th>
 <th>Descrição</th>
 </tr>
 <tr class="odd">
@@ -36,7 +36,7 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="even">
 <td><p><a href="caption-property-ado-md.md">Caption</a></p></td>
-<td><p>Indica a legenda de texto a ser usada para a exibição de um objeto <strong>Level</strong> ou <strong>Member</strong>.</p></td>
+<td><p>Indica a legenda de texto a ser usada para exibir um objeto <strong>Level</strong> ou <strong>Member</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="childcount-property-ado-md.md">ChildCount</a></p></td>
@@ -48,7 +48,7 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="odd">
 <td><p><a href="count-property-ado.md">Count</a></p></td>
-<td><p>Indica a quantidade de objetos em uma coleção.</p></td>
+<td><p>Indica o número de objetos em uma coleção.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="depth-property-ado-md.md">Depth</a></p></td>
@@ -60,7 +60,7 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="even">
 <td><p><a href="dimensioncount-property-ado-md.md">DimensionCount</a></p></td>
-<td><p>Indica o número de dimensões de um eixo.</p></td>
+<td><p>Indica o número de dimensões em um eixo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="drilleddown-property-ado-md.md">DrilledDown</a></p></td>
@@ -84,18 +84,18 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="even">
 <td><p><a href="leveldepth-property-ado-md.md">LevelDepth</a></p></td>
-<td><p>Indica o número de níveis entre a raiz da hierarquia e um membro.</p></td>
+<td><p>Indica o número de níveis entre a raiz da hierarquia e o membro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="levelname-property-ado-md.md">LevelName</a></p></td>
 <td><p>Indica o nome do nível de um membro.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Name</a></p></td>
-<td><p>Indica o nome de um objeto</p></td>
+<td><p><a href="name-property-ado-md.md">Nome</a></p></td>
+<td><p>Indica o nome de um objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (célula)</a></p></td>
+<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></p></td>
 <td><p>Identifica exclusivamente uma célula pela sua posição em um conjunto de células.</p></td>
 </tr>
 <tr class="even">
@@ -104,7 +104,7 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="odd">
 <td><p><a href="parent-property-ado-md.md">Responsável</a></p></td>
-<td><p>Indica o membro que é o pai do membro atual em uma hierarquia.</p></td>
+<td><p>Indica o membro que é pai do membro atual em uma hierarquia.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></p></td>
@@ -112,22 +112,22 @@ ms.locfileid: "28716219"
 </tr>
 <tr class="odd">
 <td><p><a href="source-property-ado-md.md">Fonte</a></p></td>
-<td><p>Indica a fonte dos dados no conjunto de dados.</p></td>
+<td><p>Indica a fonte dos dados no conjunto de células.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="state-property-ado-md.md">State</a></p></td>
 <td><p>Indica o estado atual do conjunto de células.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Type</a></p></td>
+<td><p><a href="type-property-ado-md.md">Tipo</a></p></td>
 <td><p>Indica o tipo do membro atual.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="uniquename-property-ado-md.md">Nome exclusivo</a></p></td>
-<td><p>Indica um nome ambíguo para o objeto atual.</p></td>
+<td><p><a href="uniquename-property-ado-md.md">UniqueName</a></p></td>
+<td><p>Indica um nome não ambíguo para o objeto atual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Value</a></p></td>
+<td><p><a href="value-property-ado-md.md">Valor</a></p></td>
 <td><p>Indica o valor da célula atual.</p></td>
 </tr>
 </tbody>

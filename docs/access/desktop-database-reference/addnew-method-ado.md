@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f733c574ba7927587c6fcb6305a361ca1070de0f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282510"
 ---
 # <a name="addnew-method-ado"></a>Método AddNew (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Cria um novo registro para um objeto [Recordset](recordset-object-ado.md) atualizável.
 
 ## <a name="syntax"></a>Sintaxe
 
-*conjunto de registros*. AddNew *FieldList*, *valores*
+*Recordset*. *Campo de campos*AddNew, *valores*
 
 ## <a name="parameters"></a>Parâmetros
 
@@ -30,7 +30,7 @@ Cria um novo registro para um objeto [Recordset](recordset-object-ado.md) atuali
 |:--------|:----------|
 |*recordset* |Um objeto **Recordset**.|
 |*FieldList* |Opcional. Um único nome, ou uma matriz de nomes ou posições ordinais dos campos no novo registro.|
-|*Values* |Opcional. Um único valor, ou uma matriz de valores para os campos no novo registro. Se *Fieldlist* é uma matriz, os *valores* também deve ser uma matriz com o mesmo número de membros; Caso contrário, ocorrerá um erro. A ordem dos nomes de campo deve corresponder à ordem dos valores de campo em cada matriz.|
+|*Values* |Opcional. Um único valor, ou uma matriz de valores para os campos no novo registro. Se *Fieldlist* for uma matriz, *Values* também deverá ser uma matriz com o mesmo número de membros; caso contrário, ocorrerá erro. A ordem dos nomes de campo deve corresponder à ordem dos valores de campo em cada matriz.|
 
 ## <a name="remarks"></a>Comentários
 
@@ -40,9 +40,9 @@ Depois que você chamar o método **AddNew**, o novo registro passará a ser o r
 
 Se você chamar **AddNew** durante a edição do registro atual ou a adição de um novo registro, o ADO chamará o método **Update** para salvar as alterações e, em seguida, criará o novo registro.
 
-O comportamento do método **AddNew** depende do modo de atualização do objeto **Recordset** e se serão passados os argumentos *Fieldlist* e *Values* .
+O comportamento do método **AddNew** depende do modo de atualização do objeto **Recordset** e se serão passados os argumentos *Fieldlist* e *Values*.
 
 No *modo de atualização imediato* (em que o provedor grava as alterações na fonte de dados subjacente quando você chama o método **Update**), se você chamar o método **AddNew** sem argumentos, a propriedade [EditMode](editmode-property-ado.md) será definida como **adEditAdd** (valor [EditModeEnum](editmodeenum.md)). O provedor armazena localmente em cache qualquer alteração de valor de campo. A chamada do método **Update** posta o novo registro no banco de dados e redefine a propriedade **EditMode** como  **adEditNone** (valor **EditModeEnum**). Se você passar os argumentos *Fieldlist* e *Values*, o ADO postará o novo registro imediatamente no banco de dados (nenhuma chamada de **Update** é necessária); o valor da propriedade **EditMode** não é alterado (**adEditNone**).
 
-No *modo de atualização em lotes* (no qual o provedor caches várias alterações e grava-los à fonte de dados subjacente somente quando você chamar o método [UpdateBatch](updatebatch-method-ado.md) ), chamar o método **AddNew** sem argumentos define a **EditMode** propriedade para **adEditAdd**. O provedor armazena no cache local as alterações de valores de campo. A chamada do método **Update** adiciona o novo registro ao **Recordset** atual e redefine a propriedade **EditMode** em **adEditNone**, mas o provedor não posta as alterações no banco de dados subjacente até a chamada do método **UpdateBatch**. Se você passar os argumentos *Fieldlist* e *Values* , ADO envia o novo registro para o provedor de armazenamento em cache; Você precisará chamar o método **UpdateBatch** para lançar o novo registro no banco de dados subjacente.
+No *modo de atualização em lotes* (em que o provedor armazena em cache várias alterações, gravando-as na fonte de dados subjacente somente quando o método [UpdateBatch](updatebatch-method-ado.md) é chamado), se você chamar o método **AddNew** sem argumentos, definirá a propriedade **EditMode** como **adEditAdd**. O provedor armazena localmente em cache qualquer alteração de valor de campo. A chamada do método **Update** adiciona o novo registro ao **Recordset** atual e redefine a propriedade **EditMode** como **adEditNone**, entretanto, o provedor não postará as alterações no banco de dados subjacente até que o método **UpdateBatch** seja chamado. Se você passar os argumentos *Fieldlist* e *Values*, o ADO enviará o novo registro para que o provedor o armazene em um cache; você precisará chamar o método **UpdateBatch** para postar o novo registro no banco de dados subjacente.
 

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4106e66074975f08a5058aafbfc0c6deac156277
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289833"
 ---
 # <a name="logevent-macro-action"></a>Ação da macro RegistrarEvento
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A ação **RegistrarEvento** grava informações na tabela de sistema **USysApplicationLog**.
 
 > [!NOTE]
-> [!OBSERVAçãO] A ação **RegistrarEvento** está disponível somente em Macros de Dados.
+> A ação **RegistrarEvento** está disponível somente em Macros de Dados.
 
 ## <a name="setting"></a>Configuração
 
@@ -35,7 +35,7 @@ A ação **RegistrarEvento** tem os seguintes argumentos.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argumento</p></th>
+<th><p>Argument</p></th>
 <th><p>Obrigatório</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -59,7 +59,7 @@ Para ver a tabela **USysApplicationLog**, siga estas etapas:
 
 1.  Clique no menu **Arquivo** e clique em **Opções**.
 
-2.  Na caixa de diálogo **Opções do Access**, clique na guia **Banco de Dados Atual**.
+2.  Na caixa de diálogo **Opções do Access**, clique na guia **Bancos de Dados Atual**.
 
 3.  Na seção **Navegação**, clique em **Opções de Navegação**.
 

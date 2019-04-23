@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288340"
 ---
 # <a name="openquery-macro-action"></a>Ação da macro AbrirConsulta
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AbrirConsulta** para abrir uma consulta de seleção ou tabela de referência cruzada em modo Folha de Dados, modo Design ou Visualizar Impressão. Esta ação executa uma consulta de ação. Também é possível selecionar um modo de entrada de dados para a consulta.
 
@@ -45,7 +45,7 @@ A ação **AbrirConsulta** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da Consulta</strong></p></td>
-<td><p>O nome da consulta a ser aberta. A caixa de <strong>Nome de consulta</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as consultas no banco de dados atual. Esse é um argumento necessário. Se você executar uma macro que contém a ação <strong>AbrirConsulta</strong> em um banco de dados biblioteca, o Microsoft Access procurará primeiro a consulta com esse nome no banco de dados biblioteca e, em seguida, no banco de dados atual.</p></td>
+<td><p>O nome da consulta que será aberta. A caixa <strong>nome da consulta</strong> na seção argumentos da <strong>ação</strong> do painel Construtor de macros mostra todas as consultas no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirConsulta</strong> em um banco de dados biblioteca, o Microsoft Access procurará a consulta com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

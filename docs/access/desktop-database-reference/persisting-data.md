@@ -1,5 +1,5 @@
 ---
-title: Mantendo dados (referência de banco de dados da área de trabalho do Access)
+title: Dados persistentes (referência do banco de dados de área de trabalho do Access)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287598"
 ---
 # <a name="persisting-data"></a>Dados persistentes
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A computação portátil (por exemplo, a utilização de laptops) gerou a necessidade de aplicativos que possam ser executados conectados e desconectados. O ADO adicionou suporte a isso, permitindo ao desenvolvedor salvar um **Recordset** de cursor do cliente no disco e recarregá-lo posteriormente.
 
@@ -51,7 +51,7 @@ Para obter melhores resultados, defina a propriedade [CursorLocation](cursorloca
 
 Quando um **Recordset** for mantido com a propriedade **CursorLocation** definida como **adUseServer**, a capacidade de atualização do **Recordset** será limitada. Normalmente, apenas atualizações, inserções e exclusões de tabela única são permitidas (dependendo da funcionalidade do provedor). O método [Resync](resync-method-ado.md) também está indisponível nessa configuração.
 
-Porque o parâmetro *Destination* pode aceitar qualquer objeto que dá suporte à interface **IStream** do OLE DB, você pode salvar um **Recordset** diretamente para o objeto de **resposta** do ASP.
+Como o parâmetro *Destination* pode aceitar qualquer objeto que ofereça suporte à interface **IStream** do banco de dados OLE, é possível salvar um **Recordset** diretamente no objeto **Response** do ASP.
 
 No exemplo a seguir, os métodos **Save** e **Open** são usados para manter um **Recordset** e reabri-lo posteriormente:
 
@@ -106,8 +106,8 @@ No exemplo a seguir, os métodos **Save** e **Open** são usados para manter um 
 
 Esta seção inclui os seguintes tópicos:
 
-- [Mais informações sobre a persistência de Recordset](more-about-recordset-persistence.md)
+- [Mais sobre a persistência do Recordset](more-about-recordset-persistence.md)
 
-- [Mantendo Recordsets hierárquicos e filtrados](persisting-filtered-and-hierarchical-recordsets.md)
+- [Mantendo Recordsets filtrados e hierárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
 - [Mantendo registros em formato XML (ADO)](persisting-records-in-xml-format.md)

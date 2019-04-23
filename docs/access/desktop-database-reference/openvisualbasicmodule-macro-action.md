@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 55af2ce884b26b4c3df219e7d1986e7dc2e4c8ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288277"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>Ação da macro AbrirMódulodoVisualBasic
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AbrirMódulodoVisualBasic** para abrir um módulo do VBA (Visual Basic for Applications) especificado em um procedimento especificado. Este pode ser um procedimento Sub, um procedimento Function ou um procedimento de evento.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="setting"></a>Configuração
 
@@ -45,7 +45,7 @@ A ação **AbrirMódulodoVisualBasic** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Módulo</strong></p></td>
-<td><p>O nome do módulo que você deseja abrir. Você pode deixar este argumento em branco se desejar pesquisar todos os módulos padrão no banco de dados para obter um procedimento e abrir o módulo apropriado nesse procedimento. Se você executar uma macro que contém a ação <strong>AbrirMódulodoVisualBasic</strong> em um banco de dados biblioteca, o Microsoft Access procurará o módulo com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do módulo que será aberto. Você pode deixar este argumento em branco para pesquisar em todos os módulos padrão do banco dedados se há um procedimento e abrir o módulo apropriado nesse procedimento. Se você executar uma macro que contém a ação <strong>AbrirMódulodoVisualBasic</strong> em um banco de dados biblioteca, o Microsoft Access procurará o módulo com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome do Procedimento</strong></p></td>
@@ -55,12 +55,12 @@ A ação **AbrirMódulodoVisualBasic** tem os seguintes argumentos.
 </table>
 
 > [!NOTE]
-> [!OBSERVAçãO] Você precisa digitar um nome válido no argumento **Nome do Módulo** ou **Nome do Procedimento**.
+> Você precisa digitar um nome válido no argumento **Nome do Módulo** ou **Nome do Procedimento**.
 
 
 ## <a name="remarks"></a>Comentários
 
-Você pode usar esta ação para abrir um procedimento de evento especificando o argumento **Nome do Módulo** e o argumento **Nome do Procedimento**. Por exemplo, para abrir o procedimento de evento **Click** do botão ImprimirFatura do formulário Pedidos, defina o argumento **Nome do módulo** **Orders** e defina o argumento **Nome do procedimento** como **ImprimirFatura\_clique**. Para exibir o procedimento de evento de um formulário ou relatório, este precisa estar aberto.
+Você pode usar esta ação para abrir um procedimento de evento especificando o argumento **Nome do Módulo** e o argumento **Nome do Procedimento**. Por exemplo, para abrir o procedimento de evento **Click** do botão PrintInvoice nas ordens de formulário, defina o argumento **nome do módulo** como **Form. Orders** e defina o argumento Nome do **procedimento** como **PrintInvoice\_clique**. Para exibir o procedimento de evento de um formulário ou relatório, este precisa estar aberto.
 
 Da mesma maneira, para abrir um procedimento em um módulo de classe, especifique o nome do módulo, embora não seja necessário abrir o módulo de classe.
 

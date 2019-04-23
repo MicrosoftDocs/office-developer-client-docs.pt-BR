@@ -1,5 +1,5 @@
 ---
-title: Exemplos de código do ADOX (referência de banco de dados da área de trabalho do Access)
+title: Exemplos de código do ADOX (referência de banco de dados do Access Desktop)
 TOCTitle: ADOX code examples
 ms:assetid: 706689e7-8b34-59eb-533b-65fb73f1eb5f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c0ba9aa652856a773e0986f2093b77898f259ef2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282842"
 ---
 # <a name="adox-code-examples"></a>Exemplos de código do ADOX
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use os exemplos de código a seguir para saber como usar os objetos, métodos, propriedades e eventos do ADOX.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriedade Parameter.Direction (DAO)
+title: Propriedade Parameter. Direction (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3260fd3f01e8ca22d5be4f8d14f6376c31e2735a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288088"
 ---
-# <a name="parameterdirection-property-dao"></a>Propriedade Parameter.Direction (DAO)
+# <a name="parameterdirection-property-dao"></a>Propriedade Parameter. Direction (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 ## <a name="syntax"></a>Sintaxe
 
-*expressão* . Direção
+*expressão* . Direciona
 
 *expressão* Uma variável que representa um objeto **Parameter** .
 
@@ -36,9 +36,9 @@ A configuração ou o valor de retorno é um Long que pode ser definido como uma
 
 Use a propriedade **Direction** para determinar se o parâmetro é de entrada, saída, ambos ou o valor de retorno do procedimento. Alguns drivers ODBC não fornecem informações sobre a direção dos parâmetros para uma instrução SELECT ou chamada de procedimento. Nesses casos, é necessário definir a direção antes de executar a consulta.
 
-Por exemplo, o procedimento a seguir retorna um valor de um procedimento armazenado chamado "obter\_funcionários":
+Por exemplo, o procedimento a seguir retorna um valor de um procedimento armazenado chamado "\_Get Employees":
 
-{? = chamada get\_funcionários}
+{? = Call get\_Employees}
 
 Essa chamada gera um parâmetro  o valor de retorno. Você precisa definir a direção desse parâmetro como **dbParamOutput** ou **dbParamReturnValue** antes de executar **[QueryDef](querydef-object-dao.md)**.
 

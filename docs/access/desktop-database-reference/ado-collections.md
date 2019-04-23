@@ -1,5 +1,5 @@
 ---
-title: Conjuntos de ActiveX Data Objects (ADO)
+title: Coleções do ActiveX Data Objects (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddaab78582429e201e563c01bb3195f585216cbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281705"
 ---
 # <a name="ado-collections"></a>Coleções ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre objetos, consulte [objetos ADO](ado-objects-and-interfaces.md) ou um tópico do objeto específico.
+Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Error](error-object-ado.md) pode estar contido em uma coleção [Errors](errors-collection-ado.md). Para obter mais informações sobre objetos, confira [objetos ADO](ado-objects-and-interfaces.md) ou um tópico de objeto específico.
 
 <br/>
 
@@ -41,11 +41,11 @@ Cada coleção pode conter seu objeto correspondente. Por exemplo, um objeto [Er
 <td><p>Contém todos os objetos <strong>Field</strong> de um objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameters-collection-ado.md">Parâmetros</a></p></td>
+<td><p><a href="parameters-collection-ado.md">Parameters</a></p></td>
 <td><p>Contém todos os objetos <strong>Parameter</strong> de um objeto <strong>Command</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-collection-ado.md">Propriedades</a></p></td>
+<td><p><a href="properties-collection-ado.md">Properties</a></p></td>
 <td><p>Contém todos os objetos <strong>Property</strong> para uma instância específica de um objeto.</p></td>
 </tr>
 </tbody>

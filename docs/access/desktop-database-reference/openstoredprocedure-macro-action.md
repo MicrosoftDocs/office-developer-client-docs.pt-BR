@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b972174e4fe7f3c0384b7483e17eb5ceb9e8bc15
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288305"
 ---
 # <a name="openstoredprocedure-macro-action"></a>Ação da macro AbrirProcedimentoArmazenado
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Em um projeto do Access, você pode usar a ação **AbrirProcedimentoArmazenado** para abrir um procedimento armazenado em modo Folha de Dados, em modo Design de procedimento armazenado ou Visualizar Impressão. Esta ação executa o procedimento armazenado nomeado quando aberta em modo Folha de Dados. Você pode selecionar o modo de entrada de dados do procedimento armazenado e restringir os registros exibidos pelo procedimento armazenado.
 
 > [!NOTE]
-> [!OBSERVAçãO] This action will not be allowed if the database is not trusted. 
+> Essa ação não será permitida se o banco de dados não for confiável. 
 
 ## <a name="setting"></a>Configuração
 
@@ -45,7 +45,7 @@ A ação **AbrirProcedimentoArmazenado** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Procedimento</strong></p></td>
-<td><p>O nome do procedimento armazenado para abrir. A caixa <strong>Nome do procedimento</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todos os procedimentos armazenados no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirProcedimentoArmazenado</strong> em um banco de dados biblioteca, o Microsoft Access procurará o procedimento armazenado com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome do procedimento armazenado que será aberto. A caixa <strong>nome do procedimento</strong> na seção <strong>argumentos da ação</strong> do painel Construtor de macros mostra todos os procedimentos armazenados no banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirProcedimentoArmazenado</strong> em um banco de dados biblioteca, o Microsoft Access procurará o procedimento armazenado com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -65,10 +65,8 @@ Esta ação é semelhante a clicar duas vezes no procedimento armazenado do Pain
 Alternar para o modo Design enquanto o procedimento armazenado é aberto remove a configuração do argumento **Modo de Dados** do procedimento armazenado. Essa configuração não entra em vigor, mesmo se o usuário retorna para o modo Folha de Dados.
 
 > [!TIP]
-> - Você pode arrastar um procedimento armazenado no painel de navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirProcedimentoArmazenado** que abre o procedimento armazenado no modo folha de dados.
-> - 
-						Se você não deseja exibir as mensagens do sistema que normalmente aparecem quando um procedimento armazenado é executado (indicando que ele é um procedimento armazenado e mostrando quantos registros serão afetados), use a ação **DefinirAviso** para suprimir a exibição dessas mensagens.
-
+> - Você pode arrastar um procedimento armazenado do painel de navegação para uma linha de ação de macro. Isso cria automaticamente uma ação **AbrirProcedimentoArmazenado** que abre o procedimento armazenado em modo Folha de Dados.
+> - Se você não deseja exibir as mensagens do sistema que normalmente aparecem quando um procedimento armazenado é executado (indicando que ele é um procedimento armazenado e mostrando quantos registros serão afetados), use a ação **DefinirAviso** para suprimir a exibição dessas mensagens.
 
 Para executar a ação **AbrirProcedimentoArmazenado** em um módulo do VBA (Visual Basic for Applications), use o método **OpenStoredProcedure** do objeto **DoCmd**.
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a7f756af1422588d99fcffe1ae1413422131b70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283391"
 ---
 # <a name="ado-error-reference"></a>Referência de erros do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter uma listagem completa dessas constantes enumeradas, incluindo os valores, consulte [Apêndice B: erros do ADO](appendix-b-ado-errors.md). Esta seção examinará alguns dos erros mais interessantes e explicará algumas situações específicas que podem provocá-los, ou então as soluções para corrigir o problema. São listados a constante **ErrorValueEnum** e o número decimal positivo curto.
 
@@ -37,7 +37,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="odd">
 <td><p><strong>3000</strong></p></td>
 <td><p><strong>adErrProviderFailed</strong></p></td>
-<td><p>O provedor falhou em executar a operação solicitada.</p></td>
+<td><p>O provedor não pôde executar a operação solicitada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3001</strong></p></td>
@@ -62,17 +62,17 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3021</strong></p></td>
 <td><p><strong>adErrNoCurrentRecord</strong></p></td>
-<td><p><strong>BOF</strong> ou <strong>EOF</strong> for True, ou o registro atual foi excluído. Operação solicitada requer um registro atual. Foi feita uma tentativa para atualizar registros usando <strong>Localizar</strong> ou <strong>Seek</strong> para mover o ponteiro do registro para o registro desejado. Se o registro não for encontrado, <strong>EOF</strong> serão True. Esse erro também pode ocorrer após uma <strong>AddNew</strong> com falha ou <strong>Excluir</strong> porque não há nenhum registro atual quando esses métodos falham.</p></td>
+<td><p><strong>BOF</strong> ou <strong>EOF</strong> é True ou o registro atual foi excluído. A operação solicitada requer um registro atual. Foi feita uma tentativa de atualizar os registros usando <strong>Find</strong> ou <strong>Seek</strong> para mover o ponteiro do registro para o registro desejado. Se o registro não for encontrado, <strong>EOF</strong> será True. Este erro também pode ocorrer após uma falha de <strong>AddNew</strong> ou <strong>Delete</strong> porque não existe nenhum registro atual quando esses métodos falham.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3219</strong></p></td>
 <td><p><strong>adErrIllegalOperation</strong></p></td>
-<td><p>A operação não é permitida nesse contexto.</p></td>
+<td><p>A operação não é permitida neste contexto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3220</strong></p></td>
 <td><p><strong>adErrCantChangeProvider</strong></p></td>
-<td><p>O provedor designado é diferente daquele que está em uso.</p></td>
+<td><p>O provedor fornecido é diferente daquele que já está sendo usado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3246</strong></p></td>
@@ -117,7 +117,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="odd">
 <td><p><strong>3706</strong></p></td>
 <td><p><strong>adErrProviderNotFound</strong></p></td>
-<td><p>Provedor não pode ser encontrado. Ele pode não ser instalado corretamente. O nome do provedor pode estar especificado incorretamente, o provedor especificado talvez não esteja instalado no computador em que o código está sendo executado, ou a instalação pode ter sido corrompida.</p></td>
+<td><p>O provedor não pode ser localizado. Talvez ele não esteja instalado corretamente. O nome do provedor pode estar especificado incorretamente, o provedor especificado talvez não esteja instalado no computador em que o código está sendo executado, ou a instalação pode ter sido corrompida.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3707</strong></p></td>
@@ -142,7 +142,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3711</strong></p></td>
 <td><p><strong>adErrStillExecuting</strong></p></td>
-<td><p>A operação não pode ser executada durante uma execução assíncrona.</p></td>
+<td><p>A operação não pode ser executada durante a execução assíncrona.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3712</strong></p></td>
@@ -157,27 +157,27 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="odd">
 <td><p><strong>3714</strong></p></td>
 <td><p><strong>adErrInvalidTransaction</strong></p></td>
-<td><p>A transação de coordenação é inválida ou não foi iniciada.</p></td>
+<td><p>A coordenação da transação é inválida ou não foi iniciada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3715</strong></p></td>
 <td><p><strong>adErrNotExecuting</strong></p></td>
-<td><p>A operação não pode ser executada sozinha.</p></td>
+<td><p>A operação não pode ser realizada enquanto não estiver sendo executada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3716</strong></p></td>
 <td><p><strong>adErrUnsafeOperation</strong></p></td>
-<td><p>As configurações de segurança nesse computador proíbem o acesso à fonte de dados em outro domínio.</p></td>
+<td><p>As configurações de segurança deste computador não permitem o acesso à fonte de dados em outro domínio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3717</strong></p></td>
 <td><p><strong>adWrnSecurityDialog</strong></p></td>
-<td><p>Somente para uso interno. Não use. (Entrada incluída para fins de complementação. Este erro não deve aparecer no seu código.)</p></td>
+<td><p>Para uso interno apenas. Não use. (Entrada incluída para fins de complementação. Este erro não deve aparecer no seu código.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3718</strong></p></td>
 <td><p><strong>adWrnSecurityDialogHeader</strong></p></td>
-<td><p>Somente para uso interno. Não use. (Entrada incluída para fins de complementação. Este erro não deve aparecer no seu código.)</p></td>
+<td><p>Para uso interno apenas. Não use. (Entrada incluída para fins de complementação. Este erro não deve aparecer no seu código.)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3719</strong></p></td>
@@ -202,17 +202,17 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3723</strong></p></td>
 <td><p><strong>adErrSignMismatch</strong></p></td>
-<td><p>A conversão falhou porque o valor dos dados era assinado e o tipo de dados do campo utilizado pelo provedor não era.</p></td>
+<td><p>A conversão falhou porque o valor dos dados era assinado e o tipo de dados do campo usado pelo provedor era não assinado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3724</strong></p></td>
 <td><p><strong>adErrCantConvertvalue</strong></p></td>
-<td><p>O valor dos dados não pode ser convertido por razões diferentes de incompatibilidade assinada ou estouro de dados. Por exemplo, a conversão truncaria os dados.</p></td>
+<td><p>O valor dos dados não pode ser convertido por razões diferentes de incompatibilidade assinada ou estouro de dados. Por exemplo, a conversão teria truncado os dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3725</strong></p></td>
 <td><p><strong>adErrCantCreate</strong></p></td>
-<td><p>O valor dos dados não pode ser definido ou recuperado porque o tipo de dados do campo é desconhecido ou o provedor tem recursos insuficientes para executar a operação.</p></td>
+<td><p>O valor dos dados não pode ser definido ou recuperado porque o tipo de dados do campo era desconhecido, ou os recursos do provedor eram insuficientes para executar a operação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3726</strong></p></td>
@@ -222,7 +222,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>A URL de origem ou o pai da URL de destino não existe. Há um erro de digitação na URL de origem ou de destino. Você pode ter https://mysite/photo/myphoto.jpg quando você na realidade deveria ter https://mysite/photos/myphoto.jpg em vez disso. O erro de digitação na URL pai (no caso, a <em>foto</em> em vez de <em>fotos</em>) causou o erro.</p></td>
+<td><p>A URL de origem ou o pai da URL de destino não existe. Há um erro ortográfico na URL de origem ou de destino. Você pode ter https://mysite/photo/myphoto.jpg quando deve realmente ter https://mysite/photos/myphoto.jpg em vez disso. O erro ortográfico na URL pai (neste caso, <em>photo</em> em vez de <em>photos</em>) causou o erro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>
@@ -292,7 +292,7 @@ A constante **ErrorValueEnum** descreve os valores de erro do ADO. Para obter um
 <tr class="even">
 <td><p><strong>3749</strong></p></td>
 <td><p><strong>adErrFieldsUpdateFailed</strong></p></td>
-<td><p>Falha na atualização de campos. Para obter mais informações, examine a propriedade <strong>Status</strong> de objetos field individual. Esse erro pode ocorrer em duas situações: quando alterando o valor de um objeto <strong>Field</strong> no processo de alterar ou adicionar um registro no banco de dados; e, ao alterar as propriedades do objeto <strong>Field</strong> em si. A atualização de <strong>registro</strong> ou <strong>Recordset</strong> falhou devido a um problema com um dos campos no registro atual. Enumere a coleção de <strong>campos</strong> e verifique se a propriedade <strong>Status</strong> de cada campo para determinar a causa do problema.</p></td>
+<td><p>A atualização dos campos falhou. Para obter mais informações, examine a propriedade <strong>Status</strong> de objetos de campo individuais. Este erro pode ocorrer em duas situações: ao alterar o valor de um objeto <strong>Field</strong> no processo de alteração ou inclusão de um registro no banco de dados; e ao alterar as propriedades do próprio campo <strong>Field</strong>. Falha na atualização de <strong>Record</strong> ou <strong>Recordset</strong> devido a um problema com um dos campos do registro atual. Enumere a coleção <strong>Fields</strong> e verifique a propriedade <strong>Status</strong> de cada campo para determinar a causa do problema.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3750</strong></p></td>

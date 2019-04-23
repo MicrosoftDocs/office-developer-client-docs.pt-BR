@@ -1,5 +1,5 @@
 ---
-title: Parâmetro propriedades, métodos e eventos (ADO)
+title: Propriedades, métodos e eventos de parâmetro (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3689904e-be91-ce15-1784-72f862033828
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 645aa1e57515f4908b8af5312b377f69cbabee76
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288053"
 ---
-# <a name="parameter-properties-methods-and-events-ado"></a>Parâmetro propriedades, métodos e eventos (ADO)
+# <a name="parameter-properties-methods-and-events-ado"></a>Propriedades, métodos e eventos de parâmetro (ADO)
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriedades/coleções
 

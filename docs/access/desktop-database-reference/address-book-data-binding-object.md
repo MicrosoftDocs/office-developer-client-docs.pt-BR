@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281864"
 ---
 # <a name="address-book-data-binding-object"></a>Objeto de vinculação de dados do Catálogo de Endereços
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O aplicativo do catálogo de endereços usa o objeto [RDS.DataControl](datacontrol-object-rds.md) para vincular os dados do banco de dados SQL Server para um objeto visual (nesse caso, uma tabela DHTML) na página HTML do cliente de aplicativos. A lógica do programa VBScript controlada por eventos usa o [RDS.DataControl](datacontrol-object-rds.md) para:
 
@@ -88,11 +88,11 @@ A tabela a seguir descreve os parâmetros específicos ao objeto **RDS.DataContr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">SERVIDOR</a></p></td>
-<td><p>Se você estiver usando o HTTP, o valor é o nome do computador servidor precedido por https://.</p></td>
+<td><p><a href="server-property-rds.md">DO</a></p></td>
+<td><p>Se você estiver usando HTTP, o valor será o nome do computador do servidor precedido por https://.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">CONECTE-SE</a></p></td>
+<td><p><a href="connect-property-rds.md">AO</a></p></td>
 <td><p>Fornece informações de conexão necessárias para que o <strong>RDS.DataControl</strong> se conecte ao SQL Server.</p></td>
 </tr>
 <tr class="odd">

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b4f1c46b390e1f059e57f3b7a70fc667da4b09b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288922"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Microsoft OLE DB Provider for Microsoft Jet
+# <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Provedor Microsoft OLE DB para Microsoft Jet
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O OLE DB Provider for Microsoft Jet permite que o ADO acesse bancos de dados do Microsoft Jet.
 
@@ -60,15 +60,15 @@ A cadeia de caracteres consiste nas seguintes palavras-chave:
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong></p></td>
-<td><p>Especifica o banco de dados caminho e nome de arquivo (por exemplo, c:\Northwind.mdb).</p></td>
+<td><p>Especifica o caminho e o nome de arquivo do banco de dados (por exemplo, c:\Northwind.mdb).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>User ID</strong></p></td>
-<td><p>Especifica o nome do usuário. Se essa palavra-chave não for especificado, a cadeia de caracteres, &quot;admin&quot;, é usado por padrão.</p></td>
+<td><p><strong>ID de usuário</strong></p></td>
+<td><p>Especifica o nome de usuário. Se essa palavra-chave não for especificada, a &quot;cadeia&quot;de caracteres, admin, será usada por padrão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Password</strong></p></td>
-<td><p>Especifica a senha do usuário. Se essa palavra-chave não for especificado, a cadeia de caracteres vazia (&quot;&quot;), é usado por padrão.</p></td>
+<td><p>Especifica a senha do usuário. Se essa palavra-chave não for especificada, a cadeia&quot;&quot;de caracteres vazia () será usada por padrão.</p></td>
 </tr>
 </tbody>
 </table>
@@ -93,22 +93,22 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Quantidade de espaço recuperado OLEDB:Compact Jet<br />
+<td><p>Jet OLEDB: quantidade de espaço em estado de recuperação<br />
 (DBPROP_JETOLEDB_COMPACTFREESPACESIZE)</p></td>
 <td><p>Indica uma estimativa da quantidade de espaço, em bytes, que pode ser recuperada compactando-se o banco de dados. Esse valor é válido somente depois que uma conexão com o banco de dados tiver sido estabelecida.</p></td>
 </tr>
 <tr class="even">
-<td><p>Controle de OLEDB:Connection Jet<br />
+<td><p>Jet OLEDB: controle de conexão<br />
 (DBPROP_JETOLEDB_CONNECTIONCONTROL)</p></td>
 <td><p>Indica se os usuários podem se conectar ao banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: Criar banco de dados do sistema<br />
+<td><p>Jet OLEDB: criar banco de dados do sistema<br />
 (DBPROP_JETOLEDB_CREATESYSTEMDATABASE)</p></td>
 <td><p>Indica se um banco de dados do sistema deve ser criado ao criar uma nova fonte de dados.</p></td>
 </tr>
 <tr class="even">
-<td><p>Modo de bloqueio de OLEDB:Database Jet<br />
+<td><p>Jet OLEDB: modo de bloqueio de banco de dados<br />
 (DBPROP_JETOLEDB_DATABASELOCKMODE)</p></td>
 <td><p>Indica o modo de bloqueio desse banco de dados. O primeiro usuário que abrir o banco de dados determinará o modo utilizado enquanto ele estiver aberto.</p></td>
 </tr>
@@ -135,8 +135,7 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 <tr class="odd">
 <td><p>Jet OLEDB:Exclusive Async Delay<br />
 (DBPROP_JETOLEDB_EXCLUSIVEASYNCDELAY)</p></td>
-<td><p>Indica o maior intervalo de tempo, em milissegundos, durante o qual o Jet poderá retardar as gravações assíncronas em disco quando o banco de dados estiver aberto exclusivamente.
- Esta propriedade será ignorada, a menos que <strong>Jet OLEDB:Flush Transaction Timeout</strong> tenha sido definida como 0.</p></td>
+<td><p>Indica o maior intervalo de tempo, em milissegundos, durante o qual o Jet poderá retardar as gravações assíncronas em disco quando o banco de dados estiver aberto exclusivamente. Esta propriedade será ignorada, a menos que <strong>Jet OLEDB:Flush Transaction Timeout</strong> tenha sido definida como 0.</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Flush Transaction Timeout<br />
@@ -144,12 +143,12 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 <td><p>Indica o intervalo de espera antes que os dados armazenados em um cache para gravação assíncrona sejam efetivamente gravados em disco. Essa configuração substitui os valores de <strong>Jet OLEDB:Shared Async Delay</strong> e <strong>Jet OLEDB:Exclusive Async Delay</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: transações em massa Global<br />
+<td><p>Jet OLEDB: transações globais em massa<br />
 (DBPROP_JETOLEDB_GLOBALBULKNOTRANSACTIONS)</p></td>
 <td><p>Indica se transações SQL em massa serão transacionadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: operações em massa de parcial Global<br />
+<td><p>Jet OLEDB: operações em massa parciais globais<br />
 (DBPROP_JETOLEDB_GLOBALBULKPARTIAL)</p></td>
 <td><p>Indica a senha utilizada para abrir o banco de dados.</p></td>
 </tr>
@@ -184,12 +183,12 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 <td><p>Indica a nova senha a ser definida para esse banco de dados. A senha anterior é armazenada em <strong>Jet OLEDB:Database Password</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:ODBC Command Time Out<br />
+<td><p>Jet OLEDB: tempo limite do comando ODBC<br />
 (DBPROP_JETOLEDB_ODBCCOMMANDTIMEOUT)</p></td>
 <td><p>Indica o número de milissegundos antes que uma consulta ODBC remota do Jet atinja o tempo limite.</p></td>
 </tr>
 <tr class="even">
-<td><p>Bloqueios do Jet OLEDB para bloqueio de tabela<br />
+<td><p>Jet OLEDB: bloqueios de página para bloqueio de tabela<br />
 (DBPROP_JETOLEDB_PAGELOCKSTOTABLELOCK)</p></td>
 <td><p>Indica quantas páginas devem ser bloqueadas dentro de uma transação antes que o Jet tente promover o bloqueio para um bloqueio de tabela. Se o valor for 0, o bloqueio nunca será promovido.</p></td>
 </tr>
@@ -209,7 +208,7 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 <td><p>Indica a chave de registro do Windows que contém valores para o mecanismo de banco de dados do Jet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Estatísticas do Jet OLEDB:Reset ISAM<br />
+<td><p>Jet OLEDB: redefinir estatísticas de ISAM<br />
 (DBPROP_JETOLEDB_RESETISAMSTATS)</p></td>
 <td><p>Indica se o esquema <strong>Recordset</strong> DBSCHEMA_JETOLEDB_ISAMSTATS deve redefinir seus contadores de desempenho depois de retornar informações sobre desempenho.</p></td>
 </tr>
@@ -224,7 +223,7 @@ A tabela abaixo relaciona essas propriedades com o nome da propriedade do OLE DB
 <td><p>Indica o caminho e o nome do arquivo de informações do grupo de trabalho (banco de dados do sistema).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Modo de confirmação do Jet OLEDB:Transaction<br />
+<td><p>Jet OLEDB: modo de confirmação de transação<br />
 (DBPROP_JETOLEDB_TXNCOMMITMODE)</p></td>
 <td><p>Indica se o Jet deverá gravar dados em disco em modo síncrono ou assíncrono quando uma transação for confirmada.</p></td>
 </tr>
@@ -248,23 +247,23 @@ O provedor Jet também oferece suporte a várias propriedades **Recordset** e **
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome da propriedade</p></th>
+<th><p>Nome da Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transações de OLEDB:Bulk Jet<br />
+<td><p>Jet OLEDB: transações em massa<br />
 (DBPROP_JETOLEDB_BULKNOTRANSACTIONS)</p></td>
 <td><p>Indica se operações SQL em massa serão transacionadas. Grandes operações em massa podem falhar quando transacionadas devido aos atrasos de recursos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Cursores do Jet OLEDB:Enable Fat<br />
+<td><p>Jet OLEDB: habilitar cursores de Fat<br />
 (DBPROP_JETOLEDB_ENABLEFATCURSOR)</p></td>
 <td><p>Indica se o Jet deve armazenar várias linhas em cache ao preencher um conjunto de registros usando fontes remotas de linhas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tamanho do Cache de Cursor do Jet OLEDB:Fat<br />
+<td><p>Jet OLEDB: tamanho do cache de cursor fat<br />
 (DBPROP_JETOLEDB_FATCURSORMAXROWS)</p></td>
 <td><p>Indica o número de linhas que serão armazenadas em cache quando o cache de linhas do repositório de dados remoto estiver sendo utilizado. Este valor será ignorado, a menos que <strong>Jet OLEDB:Enable Fat Cursors</strong> seja True.</p></td>
 </tr>
@@ -274,37 +273,37 @@ O provedor Jet também oferece suporte a várias propriedades **Recordset** e **
 <td><p>Indica se os resultados de consultas permitem atualizações inconsistentes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: bloqueio de granularidade<br />
+<td><p>Jet OLEDB: granularidade de bloqueio<br />
 (DBPROP_JETOLEDB_LOCKGRANULARITY)</p></td>
 <td><p>Indica se uma tabela é aberta usando bloqueio no nível de linha.</p></td>
 </tr>
 <tr class="even">
-<td><p>Instrução de passagem do Jet OLEDB:ODBC<br />
+<td><p>Jet OLEDB: instrução de passagem ODBC<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGH)</p></td>
 <td><p>Indica que o Jet deve passar o texto SQL de um objeto <strong>Command</strong> inalterado para o back-end.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Operações do Jet OLEDB:Partial em massa<br />
+<td><p>Jet OLEDB: operações em massa parciais<br />
 (DBPROP_JETOLEDB_BULKPARTIAL)</p></td>
 <td><p>Indica o comportamento do Jet quando operações SQL DML falharem.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Pass por meio de consulta em massa-Op<br />
+<td><p>Jet OLEDB: passagem de consulta de cooperação<br />
 (DBPROP_JETOLEDB_PASSTHROUGHBULKOP)</p></td>
 <td><p>Indica se as consultas que não retornam um <strong>Recordset</strong> são passadas inalteradas para a fonte de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Cadeia de ligação do Jet OLEDB:Pass por meio de consulta<br />
+<td><p>Jet OLEDB: passagem de cadeia de caracteres de conexão de consulta<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGHCONNECTSTRING)</p></td>
 <td><p>Indica a sequência de conexão do Jet utilizada para estabelecer a conexão com um repositório remoto de dados. Este valor será ignorado, a menos que <strong>Jet OLEDB:ODBC Pass-Through Statement</strong> seja True.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB: armazenados consulta<br />
+<td><p>Jet OLEDB: consulta armazenada<br />
 (DBPROP_JETOLEDB_STOREDQUERY)</p></td>
 <td><p>Indica se o texto de comando deve ser interpretado como uma consulta armazenada em vez de um comando SQL.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB: validar regras em conjunto<br />
+<td><p>Jet OLEDB: validar regras no conjunto<br />
 (DBPROP_JETOLEDB_VALIDATEONSET)</p></td>
 <td><p>Indica se as regras de validação do Jet serão avaliadas quando os dados das colunas forem definidos ou quando as alterações forem confirmadas no banco de dados.</p></td>
 </tr>
@@ -316,7 +315,7 @@ Por padrão, o OLE DB Provider for Microsoft Jet abre bancos de dados do Microso
 
 ## <a name="command-object-usage"></a>Uso do objeto Command
 
-O texto de comando do objeto [Command](command-object-ado.md) usa o dialeto Microsoft Jet SQL. Você pode especificar consultas que retornem linhas, consultas ação e nomes de tabelas no texto de comando; entretanto, não há suporte para procedimentos armazenados, que não devem ser especificados.
+O texto de comando do objeto [Command](command-object-ado.md) usa o dialeto Microsoft Jet SQL. Você pode especificar consultas que retornem linhas, consultas ação e nomes de tabelas no texto de comando; entretanto, não há suporte para  procedimentos armazenados, que não devem ser especificados.
 
 ## <a name="recordset-behavior"></a>Comportamento do Recordset
 
@@ -437,7 +436,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Modo</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -489,7 +488,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Password</p></td>
+<td><p>Senha</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">
@@ -709,7 +708,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetScroll</p></td>
+<td><p>Essa</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="odd">
@@ -873,7 +872,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_STRONGITDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
@@ -1005,7 +1004,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetScroll</p></td>
+<td><p>Essa</p></td>
 <td><p>DBPROP_IRowsetScroll</p></td>
 </tr>
 <tr class="even">
@@ -1173,7 +1172,7 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Updatability</p></td>
+<td><p>Atualização</p></td>
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
@@ -1186,5 +1185,5 @@ As propriedades abaixo são adicionadas à coleção **Properties** do objeto **
 
 ## <a name="see-also"></a>Confira também
 
-Para obter detalhes específicos de implementação e informações funcionais sobre o OLE DB Provider for Microsoft Jet, consulte o OLE DB Provider para a documentação do Microsoft Jet no MDAC SDK.
+Para obter detalhes específicos sobre a implementação e informações funcionais sobre o OLE DB Provider for Microsoft Jet, consulte a documentação do OLE DB Provider for Microsoft Jet no MDAC SDK.
 

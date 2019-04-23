@@ -1,5 +1,5 @@
 ---
-title: Adicionando registros (referência de banco de dados da área de trabalho do Access)
+title: Adicionando registros (referência de banco de dados de área de trabalho do Access)
 TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 268cd381cdeef11f2a6f351160d930e4b169cfbf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280284"
 ---
 # <a name="adding-records"></a>Adição de registros
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Use o método **AddNew** para criar e inicializar um novo registro em um **Recordset**. Você pode usar o método **Supports** com o valor **CursorOptionEnum** **adAddNew** para verificar se é possível adicionar registros ao objeto **Recordset** atual.
 
@@ -28,5 +28,5 @@ Esta seção inclui os seguintes tópicos:
 
 - [Adição de vários campos](adding-multiple-fields.md)
 - [Determinando o modo de edição](determining-edit-mode.md)
-- [Usando AddNew nos modos Immediate e em lotes](using-addnew-in-immediate-and-batch-modes.md)
+- [Usando AddNew nos modos imediato e em lote](using-addnew-in-immediate-and-batch-modes.md)
 

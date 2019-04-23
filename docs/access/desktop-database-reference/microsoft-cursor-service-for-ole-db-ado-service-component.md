@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d79d060922c6e7f28209242ebe82821c2ba97bfd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288985"
 ---
-# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Microsoft Cursor Service for OLE DB (Componente de Serviço do ADO)
+# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Serviço de cursor da Microsoft para OLE DB (Componente de serviços ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O Microsoft Cursor Service for OLE DB complementa as funções de suporte do cursor dos provedores de dados. Como resultado, o usuário percebe uma funcionalidade relativamente uniforme de todos os provedores de dados.
 
@@ -27,15 +27,15 @@ O Cursor Service permite o suporte para atualização em lote em todos os casos.
 
 ## <a name="keyword"></a>Palavra-chave
 
-Para invocar esse componente de serviço, defina a propriedade [CursorLocation](recordset-object-ado.md) dos objetos [Recordset](connection-object-ado.md) ou [Connection](cursorlocation-property-ado.md) como **adUseClient**.
+Para invocar esse componente de serviço, defina a propriedade [CursorLocation](cursorlocation-property-ado.md) dos objetos [Recordset](recordset-object-ado.md) ou [Connection](connection-object-ado.md) como **adUseClient**.
 
 `connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
 ## <a name="dynamic-properties"></a>Propriedades dinâmicas
 
-Quando o Cursor Service para OLE DB é invocado, as propriedades dinâmicas listadas abaixo são adicionadas à coleção **Properties** do objeto [Recordset](properties-collection-ado.md). A lista completa de propriedades dinâmicas dos objetos **Connection** e **Recordset** é fornecida no [Índice de Propriedades Dinâmicas do ADO](ado-dynamic-property-index.md). Os nomes das propriedades associadas do OLE DB, quando adequados, são incluídos entre parênteses após o nome da propriedade do ADO.
+Quando o Cursor Service para OLE DB é invocado, as propriedades dinâmicas listadas abaixo são adicionadas à coleção [Properties](properties-collection-ado.md) do objeto **Recordset**. A lista completa de propriedades dinâmicas dos objetos **Connection** e **Recordset** é fornecida no [Índice de Propriedades Dinâmicas do ADO](ado-dynamic-property-index.md). Os nomes das propriedades associadas do OLE DB, quando adequados, são incluídos entre parênteses após o nome da propriedade do ADO.
 
-As alterações em algumas propriedades dinâmicas não são visíveis para a fonte de dados de base depois que o Cursor Service é invocado. Por exemplo, a configuração da propriedade de *Comando de tempo limite* em um **Recordset** não será visível para o provedor de dados subjacente.
+As alterações em algumas propriedades dinâmicas não são visíveis para a fonte de dados de base depois que o Cursor Service é invocado. Por exemplo, a definição da propriedade  *Command Time out* de um **Recordset** não ficará visível para o provedor de dados de base.
 
 ```vb 
 ... 
@@ -52,7 +52,7 @@ Recordset1.Properties.Item("Command Time out") = 50
 Se o seu aplicativo exige o Cursor Service, mas você precisa definir propriedades dinâmicas no provedor de base, defina as propriedades antes de chamar o Cursor Service. As definições de propriedades de objetos de comando sempre são passadas para o provedor de dados de base, independentemente do local do cursor. Portanto, você também pode usar um objeto de comando para definir as propriedades a qualquer momento.
 
 > [!NOTE]
-> O serviço de cursor não oferece suporte à propriedade dinâmica DBPROP_SERVERDATAONINSERT, mesmo que o provedor de dados de base ofereça esse suporte.
+> [!OBSERVAçãO] O serviço de cursor não oferece suporte à propriedade dinâmica DBPROP_SERVERDATAONINSERT, mesmo que o provedor de dados de base ofereça esse suporte.
 
 
 
@@ -63,7 +63,7 @@ Se o seu aplicativo exige o Cursor Service, mas você precisa definir propriedad
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome da propriedade</p></th>
+<th><p>Nome da Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -94,7 +94,7 @@ Se o seu aplicativo exige o Cursor Service, mas você precisa definir propriedad
 <td><p>Indica o texto do comando utilizado para sincronizar novamente uma ou mais linhas em uma junção de várias tabelas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="optimize-property-dynamic-ado.md">Otimizar</a></p></td>
+<td><p><a href="optimize-property-dynamic-ado.md">Otimização</a></p></td>
 <td><p>Indica se um índice deverá ser criado. Se for definido como <strong>True</strong>, autorizará a criação temporária de índices para melhorar a execução de determinadas operações.</p></td>
 </tr>
 <tr class="odd">
@@ -149,7 +149,7 @@ O Cursor Service para OLE DB também afeta o comportamento de determinadas propr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome da propriedade</p></th>
+<th><p>Nome da Propriedade</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
@@ -172,5 +172,5 @@ O Cursor Service para OLE DB também afeta o comportamento de determinadas propr
 
 ## <a name="method-behavior"></a>Comportamento de métodos
 
-O Cursor Service para OLE DB habilita ou afeta o comportamento do método [Append](field-object-ado.md) do objeto [Field](append-method-ado.md); e dos métodos **Open**, [Resync](open-method-ado-recordset.md), [UpdateBatch](resync-method-ado.md) e [Save](updatebatch-method-ado.md) do objeto [Recordset](save-method-ado.md).
+O Cursor Service para OLE DB habilita ou afeta o comportamento do método [Append](append-method-ado.md) do objeto [Field](field-object-ado.md); e dos métodos  [Open](open-method-ado-recordset.md), [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) e [Save](save-method-ado.md) do objeto **Recordset**.
 

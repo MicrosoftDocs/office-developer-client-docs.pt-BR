@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288950"
 ---
-# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Microsoft OLE DB Persistence Provider (Provedor de Serviços do ADO)
+# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Provedor de persistência Microsoft OLE DB (Provedor de serviços ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013 
+**Aplica-se ao:** Access 2013, Office 2013 
 
 O Microsoft OLE DB Persistence Provider permite que você salve um objeto [Recordset](recordset-object-ado.md) em um arquivo e, posteriormente, restaure esse objeto **Recordset** a partir do arquivo. As informações do esquema, os dados e as alterações pendentes são preservados.
 
@@ -68,5 +68,5 @@ Atualmente, somente objetos **Recordset** hierárquicos com parâmetros não pod
 
 Para obter mais informações sobre o armazenamento persistente de objetos **Recordset**, consulte [Persistência de Recordset](more-about-recordset-persistence.md).
 
-Quando um fluxo é usado para abrir um **Recordset**, deve haver sem parâmetros especificado, exceto o parâmetro *Source* do método **Open** .
+Quando um fluxo é utilizado para abrir um **Recordset**, nenhum parâmetro deve ser especificado, exceto o parâmetro *Source* do método **Open**.
 

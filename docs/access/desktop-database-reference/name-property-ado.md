@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f6fbfbd7008919cc4d784a4d0468d8471d102708
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288662"
 ---
 # <a name="name-property-ado"></a>Propriedade Name (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o nome de um objeto
 
@@ -35,5 +35,5 @@ Para um objeto **Field**, **Name** normalmente é somente leitura. No entanto, p
 
 Para os objetos **Parameter** que ainda não foram acrescentados à coleção [Parameters](parameters-collection-ado.md), a propriedade **Name** é leitura/gravação. Para objetos **Parameter** acrescentados e todos os outros objetos, a propriedade **Name** é somente leitura. Os nomes não precisam ser exclusivos em uma coleção.
 
-Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal, após a qual pode se referir ao objeto diretamente pelo nome. Por exemplo, se rstMain.Properties(20). Nome produz a capacidade de atualização, você pode se referir a essa propriedade como produz a capacidade de atualização, você pode se referir a essa propriedade como rstMain.Properties("Updatability").
+Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal, após a qual pode se referir ao objeto diretamente pelo nome. Por exemplo, se rstMain. Properties (20). O nome produz a capacidade de atualização, posteriormente, você pode referir-se a essa propriedade como produz a capacidade de atualização, em seguida, pode referir-se a essa propriedade como rstMain. Properties ("atualização").
 

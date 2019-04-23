@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7c87acd433df4a303c1e6a15a60184cadf994c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282461"
 ---
 # <a name="address-book-navigation-buttons"></a>Botões de navegação do Catálogo de Endereços
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O aplicativo de catálogo de endereços exibe os botões de navegação na parte inferior da página da Web. Você pode utilizar os botões de navegação para navegar através dos dados na exibição da grade HTML, selecionando a primeira e a última linha de dados ou linhas adjacentes à seleção atual.
 
@@ -24,7 +24,7 @@ O aplicativo de catálogo de endereços exibe os botões de navegação na parte
 
 O aplicativo de Catálogo de Endereço contém vários procedimentos que permitem aos usuários clicarem nos botões **Primeiro**, **Próximo**, **Anterior** e **Último** para mover-se ap redor dos dados.
 
-Por exemplo, clicando no botão **primeiro** ativa a primeira VBScript\_procedimento OnClick Sub. O procedimento executa um método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), que torna a primeira linha de dados a seleção atual. Clicar no botão **último** ativa a última\_procedimento OnClick Sub, que chama o método [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , tornando a última linha de dados da seleção atual. Os demais botões de navegação trabalham de uma maneira semelhante.
+Por exemplo, clicar no **primeiro** botão ativa o primeiro\_procedimento do VBScript OnClick sub. O procedimento executa um método [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), que torna a primeira linha de dados a seleção atual. Clicar no botão **último** ativa o último\_procedimento OnClick, que invoca o método MoveLast, tornando a última linha de dados a seleção atual. [](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) Os demais botões de navegação trabalham de uma maneira semelhante.
 
 ```vb 
  

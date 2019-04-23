@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 904b5e3930c0e7e7b1d98f94bd39cfbf816aa145
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283202"
 ---
 # <a name="adowfc-programming"></a>Programação ADO/WFC
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Para o Microsoft Visual J++ 6.0, o ADO foi estendido para trabalhar com o WFC (Windows Foundation Classes) das seguintes maneiras. Primeiramente, um conjunto de classes Java foi implementado estendendo as interfaces ADO e criando notificações de interesse ao programador Java; as classes Java também expõem funções que retornam tipos Java ao usuário. Para aprimorar o desempenho, a classe Java acessa diretamente os tipos de dados nativos no objeto do conjunto de linhas OLE DB e os retorna ao programador Java como tipos Java sem convertê-los primeiro de e para uma variante. O ADO também foi estendido pra trabalhar com notificações de eventos na estrutura WFC.
 

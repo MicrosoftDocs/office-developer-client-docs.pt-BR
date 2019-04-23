@@ -1,5 +1,5 @@
 ---
-title: Objeto Member (ADO MD)
+title: Objeto member (ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 380fdf6c15f6774e27221e8500100870d22350c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289419"
 ---
-# <a name="member-object-ado-md"></a>Objeto Member (ADO MD)
+# <a name="member-object-ado-md"></a>Objeto member (ADO MD)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Representa um membro de um nível em um cubo, os filhos de um membro de um nível ou um membro de uma posição em um eixo de um conjunto de células.
 
@@ -86,7 +86,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O número de filhos que o membro tem.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nome do cubo</p></td>
+<td><p>CubeName</p></td>
 <td><p>O nome do cubo.</p></td>
 </tr>
 <tr class="even">
@@ -106,7 +106,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>A distância entre o nível e a raiz da hierarquia.</p></td>
 </tr>
 <tr class="even">
-<td><p>LevelUniqueName não</p></td>
+<td><p>LevelUniqueName</p></td>
 <td><p>O nome inequívoco do nível.</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +118,7 @@ A coleção **Properties** contém propriedades fornecidas pelo provedor. A tabe
 <td><p>O GUID do membro.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nome do membro</p></td>
+<td><p>NomeDoMembro</p></td>
 <td><p>O nome do membro.</p></td>
 </tr>
 <tr class="even">

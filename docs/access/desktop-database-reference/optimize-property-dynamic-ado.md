@@ -1,5 +1,5 @@
 ---
-title: Otimizar a propriedade dinâmica (ADO)
+title: Otimizar propriedade dinâmica (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288249"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Otimizar a propriedade dinâmica (ADO)
+# <a name="optimize-dynamic-property-ado"></a>Otimizar propriedade dinâmica (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se um índice deve ser criado em um campo
 

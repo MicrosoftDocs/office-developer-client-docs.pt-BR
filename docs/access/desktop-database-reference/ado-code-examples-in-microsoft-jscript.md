@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5906683354159df144bc31ff0d707658026aa1a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282454"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Exemplos de código ADO no Microsoft JScript
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Utilize os seguintes exemplos de código para aprender a utilizar os métodos, propriedades e eventos do ADO ao escrever em JScript.
 
@@ -26,18 +26,18 @@ Utilize os seguintes exemplos de código para aprender a utilizar os métodos, p
 ## <a name="methods"></a>Métodos
 
 - [Exemplo do método AddNew](addnew-method-example-jscript.md)
-- [Append e CreateParameter exemplo dos métodos](append-and-createparameter-methods-example-jscript.md)
-- [Execute, Requery e Clear exemplo dos métodos](execute-requery-and-clear-methods-example-jscript.md)
+- [Exemplo dos métodos Append e createParameter](append-and-createparameter-methods-example-jscript.md)
+- [Exemplo dos métodos Execute, reQuery e Clear](execute-requery-and-clear-methods-example-jscript.md)
 - [Exemplo do método Find](find-method-example-jscript.md)
-- [Exemplo do método GetRows](getrows-method-example-vb.md)
+- [Exemplo do método getRows](getrows-method-example-vb.md)
 
 ## <a name="properties"></a>Propriedades
 
 - [Exemplo das propriedades AbsolutePage, PageCount e PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 - [Exemplo das propriedades AbsolutePosition e CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
 - [Exemplo da propriedade ActiveCommand](activecommand-property-example-jscript.md)
-- [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, tamanho e direção](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [Exemplo das propriedades ActiveConnection, CommandText, CommandTimeout, CommandType, size e Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
 - [Exemplo das propriedades ActualSize e DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
-- [Exemplo da propriedade CacheSize](cachesize-property-example-jscript.md)
+- [Exemplo da propriedade caChesize](cachesize-property-example-jscript.md)
 - [Exemplo das propriedades Filter e RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

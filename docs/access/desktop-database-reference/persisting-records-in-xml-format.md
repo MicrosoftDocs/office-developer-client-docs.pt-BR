@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287563"
 ---
 # <a name="persisting-records-in-xml-format"></a>Registros persistentes no formato XML
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Como no formato ADTG, a manutenção de **Recordset** no formato XML é implementada com o Microsoft OLE DB Persistence Provider. Esse provedor gera um conjunto de linhas somente leitura, somente de encaminhamento a partir de um fluxo ou arquivo XML salvo que contém as informações de esquema geradas pelo ADO. Da mesma maneira, ele pode pegar um **Recordset** do ADO, gerar o XML e salvá-lo em um arquivo ou em qualquer objeto que implemente a interface **IStream** do COM. (Na verdade, um arquivo é apenas outro exemplo de um objeto que oferece suporte ao **IStream**.) Para as versões 2.5 e posteriores, o ADO se baseia no Microsoft XML Parser (MSXML) para carregar o XML no **Recordset**; portanto, o msxml.dll é necessário. Para a versão 2.5, o MSXML foi fornecido com o Internet Explorer 5. Para a versão 2.6, o MSXML foi fornecido com o SQL Server 2000.
 
@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-O ADO sempre mantém todo o objeto **Recordset**. Se você deseja manter apenas um subconjunto de linhas do objeto **Recordset**, use o método **Filter** para estreitar as linhas ou alterar sua cláusula de seleção. No entanto, é necessário abrir um objeto **Recordset** com um cursor do cliente (**CursorLocation** = **adUseClient**) usar o método de **filtro** para salvar um subconjunto de linhas. Por exemplo, para recuperar títulos que começam com a letra "b," você pode aplicar um filtro a um objeto **Recordset** aberto:
+O ADO sempre mantém todo o objeto **Recordset**. Se você deseja manter apenas um subconjunto de linhas do objeto **Recordset**, use o método **Filter** para estreitar as linhas ou alterar sua cláusula de seleção. No entanto, você deve abrir um objeto **Recordset** com um cursor do lado do cliente (**CursorLocation** = **adUseClient**) para usar o método **Filter** para salvar um subconjunto de linhas. Por exemplo, para recuperar títulos que começam com a letra "b," você pode aplicar um filtro a um objeto **Recordset** aberto:
 
 ```vb 
  
@@ -71,7 +71,7 @@ Esta seção inclui os seguintes tópicos:
 
 - [Namespaces](namespaces.md)
 
-- [Seção Schema](schema-section.md)
+- [Seção de esquema](schema-section.md)
 
 - [Seção de dados](data-section.md)
 
@@ -79,10 +79,10 @@ Esta seção inclui os seguintes tópicos:
 
 - [Propriedades dinâmicas do Recordset em XML](recordset-dynamic-properties-in-xml.md)
 
-- [Transformações XSLT](xslt-transformations.md)
+- [Transformações de XSLT](xslt-transformations.md)
 
-- [Salvar no objeto XML DOM](saving-to-the-xml-dom-object.md)
+- [Salvando no objeto DOM XML](saving-to-the-xml-dom-object.md)
 
-- [Considerações de segurança XML](xml-security-considerations.md)
+- [Considerações sobre segurança XML](xml-security-considerations.md)
 
-- [Tópicos de cenário de persistência de Recordset XML](xml-recordset-persistence-scenario.md)
+- [Tópicos do cenário de persistência de conjunto de registros XML](xml-recordset-persistence-scenario.md)

@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288936"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Microsoft OLE DB Provider for Microsoft Active Directory Service
+# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Provedor Microsoft OLE DB para Microsoft Active Directory Service
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O provedor ADSI (Interfaces de Serviços do Active Directory) da Microsoft permite que o ADO conecte-se a serviços de diretório heterogêneos por meio de ADSI. Isso fornece aos aplicativos do ADO acesso somente leitura aos serviços de diretório do Microsoft Windows NT 4.0 e Microsoft Windows 2000, além de qualquer serviço de diretório compatível com o LDAP e os Serviços de Diretório da Novell. O ADSI em si é baseado em um modelo de provedor, portanto, se houver um novo provedor fornecendo acesso a outro diretório, o aplicativo do ADO poderá acessá-lo sem qualquer problema. O provedor ADSI é de encadeamento livre e habilitado para unicode.
 
-## <a name="connection-string-parameters"></a>Parâmetros de sequência de conexão
+## <a name="connection-string-parameters"></a>Parâmetros da sequência de conexão
 
 Para conectar-se a esse provedor, defina o argumento **Provider** da propriedade [ConnectionString](connectionstring-property-ado.md) como:
 
@@ -89,11 +89,11 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Raiz</em></p></td>
+<td><p><em>Jailbreak</em></p></td>
 <td><p>Indica o objeto <strong>ADsPath</strong> a partir do qual iniciar a pesquisa (isto é, a raiz para a pesquisa).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filtro</em></p></td>
+<td><p><em>Filter</em></p></td>
 <td><p>Indica o filtro da pesquisa no formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -102,9 +102,9 @@ Uma sequência de texto de comando de quatro partes é reconhecida pelo provedor
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>Opcional. Uma <strong>cadeia de caracteres</strong> que especifica o escopo da pesquisa. Pode ser uma das seguintes opções: Base — pesquisa somente o objeto base (raiz da pesquisa).<br />
-OneLevel — Pesquisa somente um nível.<br />
-Subárvore — Pesquisa a subárvore inteira.</p></td>
+<td><p>Opcional. Uma <strong>String</strong> que especifica o escopo da pesquisa. Pode ser uma das seguintes opções: base – pesquise apenas o objeto base (raiz da pesquisa).<br />
+OnElevel – pesquise apenas um nível.<br />
+SubÁrvore — Pesquise toda a subárvore.</p></td>
 </tr>
 </tbody>
 </table>
@@ -142,7 +142,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade</p></th>
+<th><p>Propriedade	</p></th>
 <th><p>Disponibilidade</p></th>
 </tr>
 </thead>
@@ -168,7 +168,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
+<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
@@ -188,7 +188,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -231,7 +231,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </table>
 
 
-Disponibilidade dos métodos padrão do **Recordset** do ADO:
+Disponibilidade de métodos padrão do **Recordset** do ADO:
 
 <table>
 <colgroup>
@@ -240,8 +240,8 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método</p></th>
-<th><p>Disponível?</p></th>
+<th><p>Método		</p></th>
+<th><p>Disponíveis?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -282,7 +282,7 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Métodos MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
@@ -314,11 +314,11 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Suporta</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Atualização</a></p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">

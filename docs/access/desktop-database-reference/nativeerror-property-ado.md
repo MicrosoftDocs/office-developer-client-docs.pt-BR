@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 86734d77cafd8dbe3c26219e291c16b81ef0026b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288607"
 ---
 # <a name="nativeerror-property-ado"></a>Propriedade NativeError (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica o código de erro específico do provedor para um determinado objeto [Error](error-object-ado.md).
 

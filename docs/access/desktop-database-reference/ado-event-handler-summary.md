@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283370"
 ---
 # <a name="ado-event-handler-summary"></a>Resumo do manipulador de eventos do ADO
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Dois objetos do ADO podem gerar eventos: o objeto [Connection](connection-object-ado.md) e o objeto [Recordset](recordset-object-ado.md). A família **ConnectionEvent** pertence às operações no objeto **Connection**, e a família **RecordsetEvent** pertence às operações no objeto **Recordset**.
 
@@ -40,11 +40,11 @@ As seguintes tabelas resumem os eventos e suas descrições.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos begintranscomplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
 <td><p><strong>Gerenciamento de transação</strong> — Notificação sobre o início, a confirmação ou a reversão da transação atual na conexão.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, desconecte</a></p></td>
+<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, Disconnect</a></p></td>
 <td><p><strong>Gerenciamento de conexão</strong> — Notificação informando que a conexão atual será iniciada, foi iniciada ou foi finalizada.</p></td>
 </tr>
 <tr class="odd">

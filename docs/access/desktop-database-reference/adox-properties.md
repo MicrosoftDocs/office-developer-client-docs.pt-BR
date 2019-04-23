@@ -1,5 +1,5 @@
 ---
-title: Propriedades do ADOX (referência de banco de dados da área de trabalho do Access)
+title: Propriedades do ADOX (referência do banco de dados do Access)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0056764d80b5cfa19bf8e229d33c2c84c8b08c28
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285247"
 ---
 # <a name="adox-properties"></a>Propriedades do ADOX
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -27,22 +27,22 @@ ms.locfileid: "28703031"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade</p></th>
+<th><p>Propriedade	</p></th>
 <th><p>Descrição</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>
-<td><p>Indica o objeto de <strong>Conexão</strong> do ADO ao qual pertence o catalog.</p></td>
+<td><p>Indica o objeto <strong>Connection</strong> do ADO ao qual o catálogo pertence.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="attributes-property-adox.md">Atributos</a></p></td>
-<td><p>Descreve características da coluna.</p></td>
+<td><p>Descreve as características de colunas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="clustered-property-adox.md">Clustered</a></p></td>
-<td><p>Indica se o índice está agrupado.</p></td>
+<td><p>Indica se o índice é agrupado.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="command-property-adox.md">Command</a></p></td>
@@ -50,19 +50,19 @@ ms.locfileid: "28703031"
 </tr>
 <tr class="odd">
 <td><p><a href="count-property-ado.md">Count</a></p></td>
-<td><p>Indica a quantidade de objetos em uma coleção.</p></td>
+<td><p>Indica o número de objetos de uma coleção.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datecreated-property-adox.md">DateCreated</a></p></td>
-<td><p>Indica a data de criação do objeto.</p></td>
+<td><p>Indica a data em que o objeto foi criado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="datemodified-property-adox.md">DateModified</a></p></td>
-<td><p>Indica a data da última modificação do objeto.</p></td>
+<td><p>Indica a data em que o objeto foi modificado pela última vez.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="definedsize-property-adox.md">DefinedSize</a></p></td>
-<td><p>Indica o tamanho máximo definido para a coluna.</p></td>
+<td><p>Indica o tamanho máximo declarado da coluna.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterule-property-adox.md">DeleteRule</a></p></td>
@@ -70,14 +70,14 @@ ms.locfileid: "28703031"
 </tr>
 <tr class="even">
 <td><p><a href="indexnulls-property-adox.md">IndexNulls</a></p></td>
-<td><p>Indica se registros com valores nulos nos respectivos campos de índice têm entradas de índice.</p></td>
+<td><p>Indica se os registros com valores nulos em seus campos de índice contêm entradas de índice.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="item-property-ado.md">Item</a></p></td>
-<td><p>Indica um membro específico de uma coleção, por nome ou número ordinal.</p></td>
+<td><p>Indica um membro específico de uma coleção, pelo nome ou pelo número ordinal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Name</a></p></td>
+<td><p><a href="name-property-adox.md">Nome</a></p></td>
 <td><p>Indica o nome do objeto.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +86,7 @@ ms.locfileid: "28703031"
 </tr>
 <tr class="even">
 <td><p><a href="parentcatalog-property-adox.md">ParentCatalog</a></p></td>
-<td><p>Especifica o catálogo pai de um tabela ou coluna para conceder acesso a propriedades específicas do provedor.</p></td>
+<td><p>Especifica o catálogo pai de uma tabela ou coluna, para fornecer acesso às propriedades específicas do provedor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="precision-property-adox.md">Precisão</a></p></td>
@@ -94,7 +94,7 @@ ms.locfileid: "28703031"
 </tr>
 <tr class="even">
 <td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
-<td><p>Indica se o índice representa a chama primária na tabela.</p></td>
+<td><p>Indica se o índice representa a chave primária da tabela.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="relatedcolumn-property-adox.md">RelatedColumn</a></p></td>
@@ -109,15 +109,15 @@ ms.locfileid: "28703031"
 <td><p>Indica a sequência de classificação da coluna (somente colunas de índice).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Tipo (coluna)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Coluna)</a></p></td>
 <td><p>Indica o tipo de dados de uma coluna.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Tipo (chave)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Chave)</a></p></td>
 <td><p>Indica o tipo de dados da Chave.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Tipo (tabela)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Tabela)</a></p></td>
 <td><p>Indica o tipo de uma tabela.</p></td>
 </tr>
 <tr class="odd">

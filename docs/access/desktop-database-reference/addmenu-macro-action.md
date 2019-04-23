@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280270"
 ---
 # <a name="addmenu-macro-action"></a>Ação da macro AdicionarMenu
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este artigo descreve a operação básica da ação de macro **AdicionarMenu**.
 
@@ -51,14 +51,12 @@ A ação **AdicionarMenu** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome do Menu</strong></p></td>
-<td><p>O nome do menu, por exemplo, &quot;comandos do relatório&quot; ou &quot;ferramentas&quot;. Para criar uma tecla de acesso para que você pode usar o teclado para escolher o menu, digite um e comercial (<strong>&amp;</strong>) antes da letra que farão parte a tecla de acesso. Essa letra será sublinhada no nome do menu na guia <strong>Suplementos</strong> .</p></td>
+<td><p>O nome do menu, por exemplo &quot;, comandos&quot; ou &quot;ferramentas&quot;de relatório. Para criar uma chave de acesso para que você possa usar o teclado para escolher o menu, digite um e<strong>&amp;</strong>comercial () antes da letra que você deseja que seja a tecla de acesso. Essa letra estará sublinhada no nome do menu da guia <strong>Suplementos</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome da Macro do Menu</strong></p></td>
-<td><p>O nome do grupo de macros que contém as macros dos comandos do menu. Esse é um argumento obrigatório. 
-
-</p>
-<p><strong>Observação</strong>: se você executar uma macro que contém a ação <strong>AdicionarMenu</strong> em um banco de dados biblioteca, Microsoft Office Access 2007 procurará o grupo de macros com esse nome de banco de dados atual.</p></td>
+<td><p>O nome do grupo de macros que contém as macros dos comandos do menu. Esse é um argumento obrigatório.</p>
+<p><strong>Observação</strong>: se você executar uma macro que contém a ação <strong>AdicionarMenu</strong> em um banco de dados biblioteca, o Microsoft Office Access 2007 procurará o grupo de macros com esse nome somente no banco de dados atual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texto da Barra de Status</strong></p></td>

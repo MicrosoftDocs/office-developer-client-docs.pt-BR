@@ -1,5 +1,5 @@
 ---
-title: Eventos de ActiveX Data Objects (ADO)
+title: Eventos do ActiveX Data Objects (ADO)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cc2ef73798dca18e00c42768fde78da2abdb56a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283335"
 ---
 # <a name="ado-events"></a>Eventos do ADO
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 <br/>
 
@@ -31,7 +31,7 @@ ms.locfileid: "28706041"
 <th>Descrição</th>
 </tr>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos BeginTransComplete</a></p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">Eventos begintranscomplete</a></p></td>
 <td><p>Chamado após a operação <strong>BeginTrans</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -108,7 +108,7 @@ ms.locfileid: "28706041"
 </tr>
 <tr class="even">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></p></td>
-<td><p>O evento <strong>WillMove</strong> é chamado <em>antes de</em> uma operação pendente altera a posição atual no <strong>Recordset</strong>.</p></td>
+<td><p>O evento <strong>WillMove</strong> é chamado <em>antes</em> que a operação pendente altere a sua posição atual no <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,39 +8,39 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a943209ce329d59fb4846ed18fd008bc45803da
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288382"
 ---
 # <a name="open-method-ado-stream"></a>Método Open (Stream do ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 Abre um objeto [Stream](stream-object-ado.md) para manipular fluxos de dados de texto ou binários.
 
 ## <a name="syntax"></a>Sintaxe
 
-*Stream*. Abra o *código-fonte*, *modo*, *OpenOptions*, *nome de usuário*, *senha*
+*Stream*. *Fonte*aberta, *modo*, *openoptions*, *nome_de_usuário*, *senha*
 
 ## <a name="parameters"></a>Parâmetros
 
 |Parâmetro|Descrição|
 |:--------|:----------|
-|*Source* |Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Fonte* pode conter uma sequência de URL absoluta que aponta para um nó existente em uma estrutura de árvore conhecida, como um sistema de email ou o arquivo. Uma URL deve ser especificada usando a palavra-chave URL ("URL =*esquema*://*server*/*pasta*"). Como alternativa, a *fonte* pode conter uma referência a um objeto [Record](record-object-ado.md) já aberto, que abre um fluxo padrão associado ao **registro**. Se a *fonte* não for especificado, um **fluxo** é instanciado e aberto, associados a nenhuma fonte subjacente por padrão. Para obter mais informações sobre esquemas URL e seus provedores associados, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).|
-|*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md) que especifica o modo de acesso para o **Stream** resultante (por exemplo, leitura/gravação ou somente leitura). O valor padrão é **adModeUnknown**. Consulte a propriedade [Mode](mode-property-ado.md) para obter mais informações sobre modos de acesso. Se o *modo* não for especificado, ele é herdado pelo objeto de origem. Por exemplo, se o **Record** de origem for aberto no modo somente leitura, o **Stream** também será aberto no modo somente leitura por padrão.|
-|*OpenOptions* |Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.|
+|*Source* |Opcional. Um valor **Variant** que especifica a fonte dos dados para o **Stream**. *Source* pode conter uma cadeia de caracteres de URL absoluta que aponta para um nó existente em uma estrutura de árvore bem conhecida, como um email ou sistema de arquivos. Uma URL deve ser especificada usando a palavra-chave URL ("URL =*esquema*://*pasta**do servidor*/"). De forma alternativa, *Source* pode conter uma referência para um objeto [Record](record-object-ado.md) já aberto, que abre o fluxo padrão associado ao **Record**. Se *Source* não for especificado, um **Stream** será instanciado e aberto, não associado a fonte base alguma por padrão. Para obter mais informações sobre esquemas de URL e seus provedores associados, consulte [URLs absolutas e relativas](absolute-and-relative-urls.md).|
+|*Mode* |Opcional. Um valor [ConnectModeEnum](connectmodeenum.md) que especifica o modo de acesso para o **Stream** resultante (por exemplo, leitura/gravação ou somente leitura). O valor padrão é **adModeUnknown**. Consulte a propriedade [Mode](mode-property-ado.md) para obter mais informações sobre modos de acesso. Se *Mode* não for especificado, ele será herdado do objeto de origem. Por exemplo, se o **Record** de origem for aberto no modo somente leitura, o **Stream** também será aberto no modo somente leitura por padrão.|
+|*Adopenstreamfromrecord* |Opcional. Um valor [StreamOpenOptionsEnum](streamopenoptionsenum.md). O valor padrão é **adOpenStreamUnspecified**.|
 |*UserName* |Opcional. Um valor **String** que contém a identificação do usuário que, se necessária, acessa o objeto **Stream**.|
 |*Password* |Opcional. Um valor **String** que contém a senha que, se necessária, acessa o objeto **Stream**.|
 
 ## <a name="remarks"></a>Comentários
 
-Quando um objeto **Record** é passado como o parâmetro source, a *ID de usuário* e os parâmetros de *senha* não são usados como acesso ao objeto **registro** já está disponível. Da mesma forma, o [modo](mode-property-ado.md) do objeto **Record** é transferida para o objeto **Stream** . Quando o *código-fonte* não for especificado, o **fluxo** aberto não contém dados e tem um [tamanho](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) zero (0). Para evitar a perda de todos os dados que são gravados este **fluxo** quando o **fluxo** é fechado, salve o **Stream** com os métodos [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) ou salvá-lo para outro local de memória.
+Quando um objeto **Record** é passado como o parâmetro de origem, os parâmetros *UserID* e *Password* não são utilizados porque o acesso ao objeto **Record** já está disponível. Da mesma forma, o [Mode](mode-property-ado.md) do objeto **Record** é transferido para o objeto **Stream**. Quando *Source* não é especificado, o **Stream** aberto não contém dados e tem [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) igual a zero (0). To Para evitar a perda de quaisquer dados gravados nesse **Stream** quando o **Stream** for fechado, salve o **Stream** com os métodos [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) ou salve-o em outro local da memória.
 
-Um valor de *OpenOptions* de **adOpenStreamFromRecord** identifica o conteúdo do parâmetro *fonte* a ser um objeto de **registro** já aberto. O comportamento padrão é tratar a *fonte* como uma URL que aponta diretamente para um nó em uma estrutura de árvore, como um arquivo. O fluxo padrão associado a esse nó será aberto.
+Um valor **adOpenStreamFromRecord** de *OpenOptions* identifica o conteúdo do parâmetro *Source* para ser um objeto **Record** já aberto. O comportamento padrão é tratar *Source* como uma URL que aponta diretamente para um nó em uma estrutura em árvore, tal como um arquivo. O fluxo padrão associado a esse nó será aberto.
 
 Enquanto o **Stream** não estiver aberto, será possível ler todas as propriedades somente leitura do **Stream**. Se um **Stream** for aberto assincronamente, todas as operações subsequentes (que não sejam a verificação de [State](state-property-ado.md) e outras propriedades somente leitura) serão bloqueadas até que a operação **Open** seja concluída.
 

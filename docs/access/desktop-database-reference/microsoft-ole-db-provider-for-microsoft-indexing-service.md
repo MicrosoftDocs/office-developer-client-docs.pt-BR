@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288915"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
+# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Provedor Microsoft OLE DB para Serviço de Indexação Microsoft
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático de somente leitura aos dados de sistema e da web de arquivo indexados pela Microsoft Indexing Service. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
+O Microsoft OLE DB Provider for Microsoft Indexing Service fornece acesso programático somente leitura ao sistema de arquivos e a dados da Web indexados pelo serviço de indexação da Microsoft. Os aplicativos do ADO podem emitir consultas SQL para recuperar informações sobre o conteúdo e as propriedades de arquivos.
 
 O provedor é de encadeamento livre e habilitado para unicode.
 
@@ -96,7 +96,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriedade</p></th>
+<th><p>Propriedade	</p></th>
 <th><p>Disponibilidade</p></th>
 </tr>
 </thead>
@@ -122,7 +122,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
+<td><p><a href="cachesize-property-ado.md">Ches</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="odd">
@@ -142,7 +142,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 <td><p>somente leitura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>leitura/gravação</p></td>
 </tr>
 <tr class="even">
@@ -185,7 +185,7 @@ Disponibilidade das propriedades padrão do **Recordset** do ADO:
 </table>
 
 
-\*Indicadores devem estar habilitados no provedor para que este recurso exista no **Recordset**.
+\*Os indicadores devem estar habilitados no provedor para que este recurso exista no **Recordset**.
 
 Disponibilidade dos métodos padrão do **Recordset** do ADO:
 
@@ -196,8 +196,8 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Método</p></th>
-<th><p>Disponível?</p></th>
+<th><p>Método		</p></th>
+<th><p>Disponíveis?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -238,7 +238,7 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Métodos MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
@@ -258,11 +258,11 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Suporta</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatível</a></p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Atualização</a></p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
@@ -275,5 +275,5 @@ Disponibilidade dos métodos padrão do **Recordset** do ADO:
 
 ## <a name="see-also"></a>Confira também
 
-Para obter detalhes específicos de implementação e informações funcionais sobre o Microsoft OLE DB Provider for Microsoft Indexing Service, consulte de referência o Microsoft OLE DB do programador.
+Para obter detalhes específicos sobre a implementação e informações funcionais sobre o Microsoft OLE DB Provider for Microsoft Indexing Service, consulte a Referência do Programador do Microsoft OLE DB.
 

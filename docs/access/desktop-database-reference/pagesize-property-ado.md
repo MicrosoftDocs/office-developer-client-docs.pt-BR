@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9365acb13820f898c053d4c90fc252bfd3b228c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288130"
 ---
 # <a name="pagesize-property-ado"></a>Propriedade PageSize (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Indica quantos registros formam uma página no [Recordset](recordset-object-ado.md).
 
@@ -27,7 +27,7 @@ Define ou retorna um valor **Long** que indica quantos registros estão presente
 
 ## <a name="remarks"></a>Comentários
 
-Use a propriedade **PageSize** para determinar quantos registros compõem uma página lógica de dados. Estabelecer um tamanho de página permite que você use a propriedade [AbsolutePage](absolutepage-property-ado.md) para mover-se até o primeiro registro de uma página específica. Isso é útil em cenários de servidor da web quando você deseja permitir que o usuário à página através de dados, exibindo um determinado número de registros por vez.
+Use a propriedade **PageSize** para determinar quantos registros compõem uma página lógica de dados. Estabelecer um tamanho de página permite que você use a propriedade [AbsolutePage](absolutepage-property-ado.md) para mover-se até o primeiro registro de uma página específica. Isso é útil em cenários de servidor Web quando você deseja permitir que o usuário acesse os dados, exibindo um certo número de registros por vez.
 
-Essa propriedade pode ser definida a qualquer momento e seu valor será utilizado para calcular o local do primeiro registro de uma página específica.
+Essa propriedade pode ser definida a qualquer momento, e seu valor será usado para calcular o local do primeiro registro de uma página específica.
 

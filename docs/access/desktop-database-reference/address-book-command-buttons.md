@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 09f2513a3c541c76352e773f7f2a8f0c24f78850
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282475"
 ---
 # <a name="address-book-command-buttons"></a>Botões de comando do Catálogo de Endereços
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 
 O aplicativo de Catálogo de endereços inclui os seguintes botões de comando:
@@ -32,15 +32,15 @@ O aplicativo de Catálogo de endereços inclui os seguintes botões de comando:
 
 ## <a name="find-button"></a>Botão Localizar
 
-Clicar no botão **Localizar** ativa o VBScript localizar\_procedimento Sub de OnClick, que cria e envia a consulta SQL. Clicar nesse botão preenche a grade de dados.
+Clicar no botão **Localizar** ativa o procedimento de função\_do VBScript Find OnClick, que cria e envia a consulta SQL. Clicar nesse botão preenche a grade de dados.
 
 ## <a name="building-the-sql-query"></a>Criando a consulta SQL
 
-A primeira parte do localizar\_procedimento OnClick Sub cria a consulta SQL, uma frase de cada vez, acrescentando cadeias de caracteres de texto para uma instrução de SQL SELECT global. Ele começa definindo-se a variável como uma instrução SQL que as solicitações de todas as linhas de dados da tabela da fonte de dados. Em seguida, o procedimento Sub analisa cada uma das quatro caixas de entrada na página.
+A primeira parte do procedimento de\_função find OnClick cria a consulta SQL, uma frase por vez, acrescentando cadeias de caracteres de texto a uma instrução SQL SELECT global. Ele começa definindo a variável como uma instrução SQL SELECT que solicita todas as linhas de dados da tabela de fonte de dados. Em seguida, o procedimento Sub analisa cada uma das quatro caixas de entrada na página.
 
-Como o programa usa a palavra na criação das instruções SQL, as consultas são pesquisas de subcadeia de caracteres em vez de correspondências exatas.
+Como o programa usa a palavra para compilar as instruções SQL, as consultas são subcadeias de caracteres em vez de correspondências exatas.
 
-Por exemplo, se a caixa **Último nome** continha a entrada "Berge" e a caixa **cargo** continha a entrada "Program Manager", a instrução SQL (valor) leria:
+Por exemplo, se a caixa **último nome** continha a entrada "Berge" e a caixa **título** continha a entrada "gerente de programas", a instrução SQL (valor) seria a leitura:
 
 ```vb 
  
@@ -51,7 +51,7 @@ Se a consulta foi bem-sucedida, todas as pessoas com o último nome contendo o t
 
 ## <a name="preparing-and-sending-the-query"></a>Preparando e enviando a consulta
 
-A última parte da localizar\_procedimento OnClick Sub consiste em duas instruções. A primeira atribui a propriedade SQL do objeto RDS.DataControl à consulta SQL criada de forma dinâmica. A segunda instrução faz com que o **RDS. DataControl** () para consultar o banco de dados de objeto e, em seguida, exiba os novos resultados da consulta na grade.
+A última parte do procedimento de\_função find OnClick consiste em duas instruções. A primeira atribui a propriedade SQL do objeto RDS.DataControl à consulta SQL criada de forma dinâmica. A segunda instrução faz com que o **RDS. **Objeto DataControl () para consultar o banco de dados e, em seguida, exiba os novos resultados da consulta na grade.
 
 ```vb 
  
@@ -64,7 +64,7 @@ End Sub
 
 ## <a name="update-profile-button"></a>Botão Atualizar perfil
 
-Clicar no botão **Atualizar perfil** ativa a atualização do VBScript\_procedimento OnClick Sub, que executa o RDS. () SubmitChanges e Refresh métodos do objeto DataControl.
+Clicar no botão **Atualizar perfil** ativa o procedimento da função\_do VBScript Update OnClick, que executa o RDS. Métodos SubmitChanges e Refresh do objeto dataControl.
 
 ```vb 
  
@@ -74,11 +74,11 @@ Sub Update_OnClick
 End Sub 
 ```
 
-Quando DC1. Executa SubmitChanges, o serviço de dados remotos todas as informações de atualização de pacotes e enviá-la para o servidor via HTTP. A atualização ocorre em tudo ou em nada; se uma parte da atualização não tiver sucesso, nenhuma das alterações será feita, e uma mensagem de status será retornada. é executado, o Serviço de dados remoto cria pacote de todas as informações de atualização e os envia ao servidor via HTTP. A atualização ocorre em tudo ou em nada; se uma parte da atualização não tiver sucesso, nenhuma das alterações será feita, e uma mensagem de status será retornada. DC1. A atualização não é necessária depois de **SubmitChanges** com o Remote Data Service, mas garante dados atualizados.
+Quando DC1. O SubmitChanges é executado, o serviço de dados remoto empacota todas as informações de atualização e as envia ao servidor via HTTP. A atualização ocorre em tudo ou em nada; se uma parte da atualização não tiver sucesso, nenhuma das alterações será feita, e uma mensagem de status será retornada. é executado, o Serviço de dados remoto cria pacote de todas as informações de atualização e os envia ao servidor via HTTP. A atualização ocorre em tudo ou em nada; se uma parte da atualização não tiver sucesso, nenhuma das alterações será feita, e uma mensagem de status será retornada. DC1. A atualização não é necessária após o **SubmitChanges** com o Remote Data Service, mas garante dados atualizados.
 
 ## <a name="cancel-changes-button"></a>Botão Cancelar alterações
 
-Clicar em **Cancelar alterações** ativa o cancelamento do VBScript\_procedimento OnClick Sub, que executa o RDS. Do objeto DataControl (método CancelUpdate.
+Clicar em **cancelar alterações** ativa o procedimento do\_VBScript Cancel OnClick sub, que executa o RDS. Objeto dataControl (método CancelUpdate.
 
 ```vb 
  
@@ -87,5 +87,5 @@ Sub Cancel_OnClick
 End Sub 
 ```
 
-Quando é executado, ele descarta todas as edições feitas por um usuário para um registro de funcionário na grade de dados desde a última consulta ou atualização. Ele restaura os valores originais.
+Quando é executado, ele descarta todas as edições feitas por um usuário em um registro de funcionário na grade de dados desde a última consulta ou atualização. Ele restaura os valores originais.
 

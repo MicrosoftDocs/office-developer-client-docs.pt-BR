@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281630"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>Interface ADORecordsetConstruction (ADO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A interface **ADORecordsetConstruction** é utilizada para construir um objeto **Recordset** do ADO a partir de um objeto **Rowset** do banco de dados OLE em um aplicativo C/C++.
 
@@ -32,19 +32,22 @@ Essa interface suporta as seguintes propriedades:
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Capítulo</a></p></td>
+<td><p><a href="chapter-property-ado.md">Módulo</a></p></td>
 <td><p>Leitura/gravação.<br />
-Obtém/define um objeto de banco de dados OLE <strong>capítulo</strong> de/neste objeto <strong>Recordset</strong> do ADO.</p></td>
+
+Obtém/define um objeto <strong>Chapter</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
 <td><p>Leitura/gravação.<br />
-Obtém/define um objeto <strong>RowPosition</strong> do OLE DB a partir de/neste objeto <strong>Recordset</strong> do ADO.</p></td>
+
+Obtém/define um objeto <strong>RowPosition</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Conjunto de linhas</a></p></td>
+<td><p><a href="rowset-property-ado.md">OPENXML</a></p></td>
 <td><p>Leitura/gravação.<br />
-Obtém/define um objeto <strong>Rowset</strong> do OLE DB a partir de/neste objeto <strong>Recordset</strong> do ADO.</p></td>
+
+Obtém/define um objeto <strong>Rowset</strong> do banco de dados OLE desse/nesse objeto <strong>Recordset</strong> do ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +63,7 @@ Nenhum.
 
 ## <a name="remarks"></a>Comentários
 
-Dado um objeto **Rowset** do OLE DB (pRowset), a construção de um objeto do **Recordset** do ADO (), a construção de um **Recordset** do ADO as quantidades de objeto (adoRs) às três operações básicas a seguir:
+Dado um objeto de **conjunto de linhas** OLE DB (pRowset), a construção de um objeto **Recordset** do ADO (), a construção de um objeto **Recordset** do ADO (adoRs) para as três operações básicas a seguir:
 
 1. Criar um objeto **Recordset** do ADO:
     
@@ -76,7 +79,7 @@ Dado um objeto **Rowset** do OLE DB (pRowset), a construção de um objeto do **
          (void**)&adoRsConstruct);
    ```
 
-3. Chamar o IADORecordsetConstruction::put\_Rowset o método de propriedade para definir o objeto Rowset do OLE DB no objeto Recordset do ADO:
+3. Chame o método de propriedade IADORecordsetConstruction\_::p UT Rowset para definir o objeto Rowset do OLE DB no objeto RECORDSET do ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
@@ -87,7 +90,7 @@ O objeto resultante agora representa o objeto **Recordset** do ADO construído a
 
 Também é possível construir um objeto **Recordset** do ADO a partir de um objeto **Chapter** ou **RowPosition** do banco de dados OLE.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 - **Versão:** ADO 2.0 e posterior
 

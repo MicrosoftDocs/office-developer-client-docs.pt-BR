@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ade2e6eb2d54a686e4e1fa0537ec4573ee610d16
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288256"
 ---
 # <a name="optimize-property-example-vb"></a>Exemplo da propriedade Optimize (VB)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Este exemplo demonstra a propriedade Optimize dinâmica dos objetos [Field](field-object-ado.md). O campo ***zip*** da tabela dos ***autores*** do banco de dados ***Pubs*** não é indexado. A propriedade [Optimize](optimize-property-dynamic-ado.md) a definição como **True** no campo ***zip*** autoriza ADO para criar um índice que melhora o desempenho dos métodos [Find](find-method-ado.md) .
+Este exemplo demonstra a propriedade Optimize dinâmica dos objetos [Field](field-object-ado.md). O campo ***zip*** da tabela ***Authors*** no banco de dados ***Pubs*** não é indexado. Definir a propriedade [Optimize](optimize-property-dynamic-ado.md) como **True** no campo ***zip*** autoriza o ADO a construir um índice que melhora o desempenho do método [Find](find-method-ado.md).
 
 ```vb 
  

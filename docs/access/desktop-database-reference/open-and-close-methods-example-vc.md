@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f9d226f33fba327d3784d18d631f6c0c74a337a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288410"
 ---
 # <a name="open-and-close-methods-example-vc"></a>Exemplo dos métodos Open e Close (VC++)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Este exemplo utiliza os métodos **Open** e [Close](close-method-ado.md) nos objetos [Recordset](recordset-object-ado.md) e [Connection](connection-object-ado.md) que foram abertos.
 
@@ -219,7 +219,7 @@ void PrintComError(_com_error &e)
 // EndOpenCpp 
 ```
 
-**OpenX.h**
+**OpenX. h**
 
 ```cpp 
  

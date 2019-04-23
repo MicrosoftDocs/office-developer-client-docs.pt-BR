@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281953"
 ---
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Acesso de linhas em um conjunto de registros hierárquico
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 O exemplo a seguir mostra as etapas necessárias para acessar as linhas em um [Recordset](recordset-object-ado.md) hierárquico:
 
@@ -29,7 +29,7 @@ O exemplo a seguir mostra as etapas necessárias para acessar as linhas em um [R
 4. O loop interno exibe quatro campos de cada linha no **Recordset** anexado.
 
 > [!NOTE] 
-> A propriedade [StayInSync](stayinsync-property-ado.md) é definida como FALSE para fins de ilustração, para que você possa ver o capítulo alterar explicitamente cada iteração do loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Defina a propriedade **StayInSync** como TRUE, para que *rstTitleAuthor* automaticamente e implicitamente alterará o capítulo correspondente sempre que *rst* move para uma nova linha.
+> A propriedade [StayInSync](stayinsync-property-ado.md) é definida como false para fins de ilustração, portanto, você pode ver a alteração de capítulo explicitamente em cada iteração do loop externo. No entanto, o exemplo será mais eficiente se a atribuição na etapa 3 for movida antes da primeira linha na etapa 2; de modo que a atribuição seja executada apenas uma vez. Defina a propriedade **StayInSync** como true, para que o *rstTitleAuthor* mude implicitamente e automaticamente para o capítulo correspondente sempre que *RST* se mover para uma nova linha.
 
 **Exemplo**
 

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2288d64241f3289505a8b0fafb98062830b0e97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288452"
 ---
 # <a name="onerror-macro-action"></a>Ação da macro AoOcorrerErro
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AoOcorrerErro** para especificar o que deve acontecer quando ocorre um erro em uma macro.
 
@@ -41,7 +41,7 @@ A ação **AoOcorrerErro** tem os seguintes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ir para</p></td>
+<td><p>Acesse </p></td>
 <td><p>Especifique como deve ser o comportamento geral quando for encontrado um erro. Clique na seta suspensa e clique em uma das configurações a seguir:</p>
 <div class="tableSection">
 <table>
@@ -65,7 +65,7 @@ A ação **AoOcorrerErro** tem os seguintes argumentos.
 <td><p>O Access interrompe a macro atual e executa aquela nomeada no argumento <strong>Nome da Macro</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fail</strong></p></td>
+<td><p><strong>Malsucedida</strong></p></td>
 <td><p>O Access para a macro atual e exibe uma mensagem de erro.</p></td>
 </tr>
 </tbody>
@@ -74,8 +74,8 @@ A ação **AoOcorrerErro** tem os seguintes argumentos.
 </div></td>
 </tr>
 <tr class="even">
-<td><p>Nome da Macro</p></td>
-<td><p>Se o argumento ir para for definido como o nome da Macro, digite o nome da macro a ser usada para tratamento de erros. O nome que você digitar deve corresponder a um nome na coluna <strong>Nome da Macro</strong> da macro atual; Você não pode inserir o nome de um objeto de macro diferente. No exemplo a seguir, a macro <strong>Manipuladorerro</strong> está contida no mesmo objeto macro como a ação <strong>AoOcorrerErro</strong> . Este argumento precisará ficar em branco se o argumento ir para for definido como <strong>próximo</strong> ou <strong>falhar</strong>.</p></td>
+<td><p>Macro Name</p></td>
+<td><p>Se o argumento ir para estiver definido como nome da macro, digite o nome da macro a ser usada para tratamento de erros. O nome digitado deve corresponder a um nome na coluna <strong>nome da macro</strong> da macro atual; Você não pode inserir o nome de um objeto de macro diferente. No exemplo abaixo, a macro <strong>ErrorHandler</strong> está contida no mesmo objeto macro que a ação <strong>AoOcorrerErro</strong> . Este argumento precisará ficar em branco se o argumento Ir para for definido como <strong>Próximo</strong> ou <strong>Falhar</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,9 +89,9 @@ A ação **AoOcorrerErro** tem os seguintes argumentos.
 
 ## <a name="example"></a>Exemplo
 
-A macro a seguir demonstra o uso da ação **AoOcorrerErro** . Neste exemplo, a ação **AoOcorrerErro** Especifica que o Access executa um macro chamada Manipuladorerro quando ocorre um erro de tratamento de erros personalizado. Quando ocorre um erro, submacro CatchErrors é chamado. Se o número do erro for 2102, será exibida uma mensagem específica e execução da macro é interrompida. Caso contrário, será exibida uma mensagem descrevendo o erro e a macro é pausada para que você possa realizar a solução de problemas adicionais. A macro Manipuladorerro exibe uma caixa de mensagem que faz referência ao objeto **MacroError** para exibir informações sobre o erro.
+A macro a seguir demonstra o uso da ação **AoOcorrerErro** . Neste exemplo, a ação **AoOcorrerErro** especifica que o Access executa uma macro de tratamento de erros personalizada chamada ErrorHandler quando ocorre um erro. Quando ocorre um erro, a submacro CatchErrors é chamada. Se o número de erro for 2102, uma mensagem específica é exibida e a execução da macro é interrompida. Caso contrário, uma mensagem descrevendo o erro é exibida e a macro é pausada para que você possa executar a solução de problemas adicional. A macro ErrorHandler exibe uma caixa de mensagem que se refere ao objeto **MacroError** para exibir informações sobre o erro.
 
-**Código de exemplo fornecido pela** [referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Código de exemplo fornecido por:** a [Referência do programador do Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

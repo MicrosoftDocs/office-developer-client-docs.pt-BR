@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 48a3797c2008f261eda8acc3391b39561fec05f3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288291"
 ---
 # <a name="opentable-macro-action"></a>Ação da macro AbrirTabela
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **AbrirTabela** para abrir uma tabela em modo Folha de Dados, modo Design ou Visualizar Impressão. Também pode selecionar um modo de entrada de dados para a tabela.
 
@@ -42,7 +42,7 @@ A ação **AbrirTabela** tem os seguintes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nome da Tabela</strong></p></td>
-<td><p>O nome da tabela para abrir. Caixa <strong>Nome da tabela</strong> na seção <strong>Argumentos da ação</strong> do painel de tarefas do construtor de macros mostra todas as tabelas no banco de dados atual. Este é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirTabela</strong> em um banco de dados biblioteca, o Microsoft Access procurará a tabela com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
+<td><p>O nome da tabela que será aberta. A caixa <strong>Nome da Tabela</strong> na seção <strong>Argumentos da Ação</strong> do painel Construtor de Macros mostra todas as tabelas do banco de dados atual. Esse é um argumento obrigatório. Se você executar uma macro que contém a ação <strong>AbrirTabela</strong> em um banco de dados biblioteca, o Microsoft Access procurará a tabela com esse nome primeiro no banco de dados biblioteca e depois no banco de dados atual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

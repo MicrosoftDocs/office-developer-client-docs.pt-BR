@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d65378bf964ad8c6e81a08cb653f09bf00a8431c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288151"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Visão geral de dados e esquemas multidimensionais
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>Noções básicas sobre esquemas multidimensionais
 
 O objeto de metadados central no ADO MD é o *cubo*, que consiste de um conjunto estruturado de dimensões, hierarquias, níveis e membros relacionados.
 
-Uma *dimensão* é uma categoria independente dos dados do banco de dados multidimensional, derivado do seus entidades de negócios. Uma dimensão geralmente contém itens a serem usados como critérios de consulta para as medidas do banco de dados.
+Uma *dimensão* é uma categoria independente de dados de seu banco de dados multidimensional, derivados de suas entidades comerciais. Uma dimensão geralmente contém itens a serem usados como critérios de consulta para as medidas do banco de dados.
 
 Uma *hierarquia* é um caminho de agregação de uma dimensão. Uma dimensão pode ter vários níveis de granularidade, que têm relações pai-filho. Uma hierarquia define como esses níveis são relacionados.
 
 Um *nível* é uma etapa de agregação em uma hierarquia. Para dimensões com várias camadas de informações, cada camada é um nível.
 
-*Membro* é um item de dados em uma dimensão. Geralmente, você cria uma legenda ou descreve uma medida do banco de dados usando membros.
+Um *membro* é um item de dados em uma dimensão. Geralmente, você cria uma legenda ou descreve uma medida do banco de dados usando membros.
 
 Cubos são representados por objetos [CubeDef](cubedef-object-ado-md.md) no ADO MD. Dimensões, hierarquias, níveis e membros são representados também por seus objetos ADO MD correspondentes: [Dimension](dimension-object-ado-md.md), [Hierarchy](hierarchy-object-ado-md.md), [Level](level-object-ado-md.md) e [Member](member-object-ado-md.md).
 
@@ -64,42 +64,38 @@ Cada nível tem um conjunto de membros, conforme mostrado a seguir:
   - O Mundo = {All}
 
 
-  - Continentes = {North America, Europe}
+  - Continentes = {América do Norte, Europa}
 
+  - Países = {Canadá, EUA, ru, Alemanha}
 
-  - Países = {Canada, USA, UK, Germany}
+  - Regions = {Canada-leste, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escócia, Gales, Alemanha-Norte, Alemanha-Sul}
 
+  - Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, Nova York, London, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlim, Hamburg, Munique, Stuttgart}
 
-  - Regiões = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
-
-
-  - Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
-
-
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 Os membros do nível folha de uma hierarquia não têm filhos e os membros do nível raiz não têm pais. Todos os outros membros têm pelo menos um pai e um filho. Por exemplo, uma transversal parcial da árvore da hierarquia na dimensão Geografia resulta nas seguintes relações pai-filho:
 
-- {All} (pai) {Europa, América do Norte}
-- {North America} (pai) {Canadá, EUA}
-- {EUA} (pai) {USA-NE, USA-NW, USA-SE, USA-SW}
-- {USA-NW} (pai) {Seattle, Boise}
+- Todos os (pai de) {Europa, América do Norte}
+- {América do Norte} (pai de) {Canadá, USA}
+- Japão (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (pai de) {Boise, Seattle}
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Este exemplo também ilustra outra característica: alguns membros do nível da hierarquia da semana do ano semana não aparecem em qualquer nível da hierarquia trimestre do ano. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível semana da hierarquia ano-semana não aparecem em qualquer nível da hierarquia ano-trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 
 ## <a name="understanding-multidimensional-schemas"></a>Noções básicas sobre esquemas multidimensionais
 
 O objeto de metadados central no ADO MD é o *cubo*, que consiste de um conjunto estruturado de dimensões, hierarquias, níveis e membros relacionados.
 
-Uma *dimensão* é uma categoria independente dos dados do banco de dados multidimensional, derivado do seus entidades de negócios. Uma dimensão geralmente contém itens a serem usados como critérios de consulta para as medidas do banco de dados.
+Uma *dimensão* é uma categoria independente de dados de seu banco de dados multidimensional, derivados de suas entidades comerciais. Uma dimensão geralmente contém itens a serem usados como critérios de consulta para as medidas do banco de dados.
 
 Uma *hierarquia* é um caminho de agregação de uma dimensão. Uma dimensão pode ter vários níveis de granularidade, que têm relações pai-filho. Uma hierarquia define como esses níveis são relacionados.
 
 Um *nível* é uma etapa de agregação em uma hierarquia. Para dimensões com várias camadas de informações, cada camada é um nível.
 
-*Membro* é um item de dados em uma dimensão. Geralmente, você cria uma legenda ou descreve uma medida do banco de dados usando membros.
+Um *membro* é um item de dados em uma dimensão. Geralmente, você cria uma legenda ou descreve uma medida do banco de dados usando membros.
 
 Cubos são representados por objetos [CubeDef](cubedef-object-ado-md.md) no ADO MD. Dimensões, hierarquias, níveis e membros são representados também por seus objetos ADO MD correspondentes: [Dimension](dimension-object-ado-md.md), [Hierarchy](hierarchy-object-ado-md.md), [Level](level-object-ado-md.md) e [Member](member-object-ado-md.md).
 
@@ -135,31 +131,27 @@ Cada nível tem um conjunto de membros, conforme mostrado a seguir:
 - O Mundo = {All}
 
 
-- Continentes = {North America, Europe}
+- Continentes = {América do Norte, Europa}
 
+- Países = {Canadá, EUA, ru, Alemanha}
 
-- Países = {Canada, USA, UK, Germany}
+- Regions = {Canada-leste, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Inglaterra, Irlanda, Escócia, Gales, Alemanha-Norte, Alemanha-Sul}
 
+- Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, Nova York, London, Dover, Glasgow, Edimburgo, Cardiff, Pembroke, Belfast, Berlim, Hamburg, Munique, Stuttgart}
 
-- Regiões = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
-
-
-- Cidades = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
-
-
-## <a name="members"></a>Membros
+## <a name="members"></a>Members
 
 Os membros do nível folha de uma hierarquia não têm filhos e os membros do nível raiz não têm pais. Todos os outros membros têm pelo menos um pai e um filho. Por exemplo, uma transversal parcial da árvore da hierarquia na dimensão Geografia resulta nas seguintes relações pai-filho:
 
-- {All} (pai) {Europa, América do Norte}
+- Todos os (pai de) {Europa, América do Norte}
 
-- {North America} (pai) {Canadá, EUA}
+- {América do Norte} (pai de) {Canadá, USA}
 
-- {EUA} (pai) {USA-NE, USA-NW, USA-SE, USA-SW}
+- Japão (pai de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-- {USA-NW} (pai) {Seattle, Boise}
+- {USA-NW} (pai de) {Boise, Seattle}
 
 Os membros podem ser consolidados ao longo de uma ou mais hierarquias por dimensão.
 
-Este exemplo também ilustra outra característica: alguns membros do nível da hierarquia da semana do ano semana não aparecem em qualquer nível da hierarquia trimestre do ano. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
+Este exemplo também ilustra outra característica: alguns membros do nível semana da hierarquia ano-semana não aparecem em qualquer nível da hierarquia ano-trimestre. Portanto, uma hierarquia não precisa incluir todos os membros de uma dimensão.
 

@@ -1,5 +1,5 @@
 ---
-title: ObjectStateEnum (referência de banco de dados da área de trabalho do Access)
+title: ObjectStateEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6e346db2fb2dac0695e8c9048a210d8e40e6dc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288522"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados, executando um comando ou recuperando dados.
 
@@ -30,7 +30,7 @@ Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -38,7 +38,7 @@ Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados
 <tbody>
 <tr class="odd">
 <td><p><strong>adStateClosed</strong></p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>Indica que o objeto está fechado.</p></td>
 </tr>
 <tr class="even">
@@ -48,12 +48,12 @@ Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Indica que o objeto está conectando.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStateExecuting</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Indica que o objeto está executando um comando.</p></td>
 </tr>
 <tr class="odd">
@@ -65,7 +65,7 @@ Especifica se um objeto está aberto ou fechado, conectando a uma fonte de dados
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -75,24 +75,24 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CLOSED</p></td>
+<td><p>AdoEnums. ObjectState. CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.OPEN</p></td>
+<td><p>AdoEnums. ObjectState. OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
+<td><p>AdoEnums. ObjectState. CONNECTing</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
+<td><p>AdoEnums. ObjectState. EXECUting</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.FETCHING</p></td>
+<td><p>AdoEnums. ObjectState. FETCHing</p></td>
 </tr>
 </tbody>
 </table>

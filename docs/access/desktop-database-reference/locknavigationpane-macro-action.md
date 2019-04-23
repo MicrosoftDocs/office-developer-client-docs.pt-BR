@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7f6ee19edaf2efdc03301e98e709db6dd69f101a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289868"
 ---
 # <a name="locknavigationpane-macro-action"></a>Ação da macro BloquearPainelDeNavegação
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Você pode usar a ação **BloquearPainelDeNavegação** para impedir que os usuários excluam objetos de banco de dados exibidos no Painel de Navegação.
 
@@ -51,7 +51,7 @@ A ação **BloquearPainelDeNavegação** tem os seguintes argumentos.
 
 ## <a name="remarks"></a>Comentários
 
-O bloqueio do Painel de Navegação impede que você exclua os objetos de banco de dados ou recorte-os para a área de transferência. Ela faz *não* impede que você realize qualquer uma das seguintes operações:
+O bloqueio do Painel de Navegação impede que você exclua os objetos de banco de dados ou recorte-os para a área de transferência. Ele *não* impede que você execute alguma das operações a seguir:
 
   - Copiar objetos de banco de dados para a área de transferência
 

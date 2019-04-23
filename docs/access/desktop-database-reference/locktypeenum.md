@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (referência de banco de dados da área de trabalho do Access)
+title: LockTypeEnum (referência do banco de dados de área de trabalho do Access)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289861"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Especifica o tipo de bloqueio colocado nos registros durante a edição.
 
@@ -28,7 +28,7 @@ Especifica o tipo de bloqueio colocado nos registros durante a edição.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 <th><p>Valor</p></th>
 <th><p>Descrição</p></th>
 </tr>
@@ -36,17 +36,17 @@ Especifica o tipo de bloqueio colocado nos registros durante a edição.
 <tbody>
 <tr class="odd">
 <td><p><strong>adLockBatchOptimistic</strong></p></td>
-<td><p>4</p></td>
+<td><p>quatro</p></td>
 <td><p>Indica as atualizações em lote otimistas. Exigido para o modo de atualização em lote.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3</p></td>
+<td><p>3D</p></td>
 <td><p>Indica o bloqueio otimista, registro por registro. O provedor usa os registros de bloqueio otimistas apenas quando você chama o método <a href="update-method-ado.md">Update</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>2</p></td>
+<td><p>duas</p></td>
 <td><p>Indica o bloqueio pessimista, registro por registro. O provedor faz o que for necessário para garantir a edição bem-sucedida dos registros, geralmente bloqueando os registros na fonte de dados imediatamente após a edição.</p></td>
 </tr>
 <tr class="even">
@@ -63,7 +63,7 @@ Especifica o tipo de bloqueio colocado nos registros durante a edição.
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente do ADO/WFC
 
 Pacote: **com.ms.wfc.data**
 
@@ -73,24 +73,24 @@ Pacote: **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. BATCHOPTIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. otimista</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
+<td><p>AdoEnums. LockType. PESSIMISTA</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.READONLY</p></td>
+<td><p>AdoEnums. LockType. READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. LockType. unESPECIFICADO</p></td>
 </tr>
 </tbody>
 </table>
