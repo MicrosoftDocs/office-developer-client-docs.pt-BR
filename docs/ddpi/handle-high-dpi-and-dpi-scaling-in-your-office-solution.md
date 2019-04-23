@@ -1,14 +1,14 @@
 ---
-title: Lidar com a sua solução do Office de alta escala DPI e DPI
+title: Lidar com a sua solução do Office de escala DPI e DPI alto
 description: Atualize sua solução do Office como painéis de tarefas personalizados ou controles ActiveX, para dar suporte a monitores DPI altos.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 7092b77a6c7cf56e3dafa0a4c893566778abf00b
-ms.sourcegitcommit: c9720dd639f5c969f3cf6a324b84fadc57199370
+ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30517399"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980464"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Lidar com a sua solução do Office de alta escala DPI e DPI
 
@@ -36,14 +36,14 @@ Os seguintes tipos de soluções do Office podem ser afetados por conjunto de es
 
 ## <a name="windows-dpi-awareness-modes"></a>Modos de percepção DPI do Windows
 
-Neste artigo vamos nos referir aos modos de percepção DPI é compatível com Windows. Cada modo de percepção DPI é compatível com diferentes recursos, conforme descrito na tabela a seguir. Esta é uma descrição simplificada de modos para explicar como soluções do Office compatíveis. Confira mais informações sobre os modos de percepção DPI [desenvolvimento de aplicativos de área de trabalho do alto DPI no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+Neste artigo vamos nos referir aos modos de percepção DPI é compatível com Windows. Cada modo de percepção DPI é compatível com diferentes recursos, conforme descrito na tabela a seguir. Esta é uma descrição simplificada de modos para explicar como soluções do Office compatíveis. Confira mais informações sobre os modos de percepção DPI [desenvolvimento de aplicativos de área de trabalho do alto DPI no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 |Modo  |Descrição  |Quando alterações DPI  |
 |---------|---------|---------|
-|DPI desconhecido     |    Aplicativo sempre renderizado como se estivesse em uma exibição com valor de 96 DPI.     |    Aplicativo é bitmap alongado para o tamanho esperado em exibir primário e secundário.    |
-|DPI ciente do sistema     |   Aplicativo detecta DPI do monitor principal conectado ao fazer logon do Windows, mas não pode responder as alterações DPI. Para saber mais, confira a seção deste artigo [Configurar os aplicativos para corrigir imagens desfocados do Windows](#Configure-Windows-to-fix-blurry-apps).      |     O Aplicativo é bitmap alongado quando movidas para uma nova exibição com um DPI diferente.    |
-|Por Monitor DPI ciente     |    O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.     |    O Windows enviará notificações DPI para janelas de nível superior do aplicativo para que possa reemitir quando o DPI for alterado.     |
-|Por Monitor v2     |   O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.      |        O Windows enviará notificações DPI ao nível superior e janelas de criança para que o aplicativo possa reemitir quando o DPI for alterado. |
+|DPI desconhecido |  Aplicativo sempre renderizado como se estivesse em uma exibição com valor de 96 DPI. |  Aplicativo é bitmap alongado para o tamanho esperado em exibir primário e secundário.    |
+|DPI ciente do sistema |  Aplicativo detecta DPI do monitor principal conectado ao fazer logon do Windows, mas não pode responder as alterações DPI. Para obter mais informações, consulte a seção [Configurar o Windows para corrigir aplicativos borrados](#configure-windows-to-fix-blurry-apps) neste artigo.  | O Aplicativo é bitmap alongado quando movidas para uma nova exibição com um DPI diferente.    |
+|Por Monitor DPI ciente |  O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.  |   O Windows enviará notificações DPI para janelas de nível superior do aplicativo para que possa reemitir quando o DPI for alterado.     |
+|Por Monitor v2 |  O Aplicativo é capaz de redesenho próprio corretamente quando o DPI é alterado.  |   O Windows enviará notificações DPI ao nível superior e janelas de criança para que o aplicativo possa reemitir quando o DPI for alterado. |
 
 ## <a name="how-office-supports-dpi-scaling"></a>Como o Office dá suporte de escala DPI
 
@@ -63,13 +63,13 @@ Quando inicia o aplicativo do Office host, sua conversa principal é executada n
 
 ### <a name="creating-new-threads-with-the-correct-dpi-context"></a>Criar novas conversas com o contexto DPI correto
 
-Se a sua solução cria conversas adicionais, o Office forçará as conversas no contexto ciente Per DPI Monitor. Se o código espera um contexto diferente, você precisa usar a função [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para definir a percepção de conversa esperada DPI. 
+Se a sua solução cria conversas adicionais, o Office forçará as conversas no contexto ciente Per DPI Monitor. Se o código espera um contexto diferente, você precisa usar a função [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para definir a percepção de conversa esperada DPI. 
 
 ### <a name="build-a-context-block-for-incoming-thread-calls"></a>Criar um bloco de contexto conversa para chamadas de entrada
 
 ![Diagrama que mostra o bloco de contexto no aplicativo do Office migrando conversa para o contexto de sistema ciente chamados para janela de nível superior.](./media/thread-dpi-awareness-context-block.png)
 
-Sua solução interagirá com seu aplicativo do Office host, assim você terá chamadas de entrada para sua solução do Office como retornos de evento. Quando o Office chamada sua solução, tem um bloco de contexto que força o contexto de conversa a ser sistema no contexto ciente DPI. Você deve alterar o contexto de conversa para corresponder a percepção DPI da janela. Você pode implementar um bloco de contexto semelhante para alternar o contexto de conversa para chamadas de entrada. Use a função [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para alterar o contexto de acordo com o contexto da janela. 
+Sua solução interagirá com seu aplicativo do Office host, assim você terá chamadas de entrada para sua solução do Office como retornos de evento. Quando o Office chamada sua solução, tem um bloco de contexto que força o contexto de conversa a ser sistema no contexto ciente DPI. Você deve alterar o contexto de conversa para corresponder a percepção DPI da janela. Você pode implementar um bloco de contexto semelhante para alternar o contexto de conversa para chamadas de entrada. Use a função [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) para alterar o contexto de acordo com o contexto da janela. 
 
 > [!NOTE]
 > O bloco do contexto deverá restaurar o contexto de conversa DPI original antes de chamar outros componentes fora do seu código solução.
@@ -87,6 +87,7 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 this.value = value;
             }
+
             public static implicit operator DPI_AWARENESS_CONTEXT(IntPtr value)
             {
                 return new DPI_AWARENESS_CONTEXT(value);
@@ -97,28 +98,11 @@ public struct DPI_AWARENESS_CONTEXT
                 return context.value;
             }
 
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, long value)
-            {
-                return (IntPtr)(context.value.ToInt64() - value);
-            }
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, int value)
-            {
-                return (IntPtr)(context.value.ToInt32() - value);
-            }
-
-            public static bool operator ==(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value == context2;
-            }
-            public static bool operator !=(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value != context2;
-            }
-
             public static bool operator ==(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return AreDpiAwarenessContextsEqual(context1, context2);
             }
+
             public static bool operator !=(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return !AreDpiAwarenessContextsEqual(context1, context2);
@@ -133,36 +117,15 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 return base.GetHashCode();
             }
-
-            public override string ToString()
-            {
-                if (this.value == DPI_AWARENESS_CONTEXT_UNAWARE)
-                {
-                    return "Unaware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)
-                {
-                    return "System Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)
-                {
-                    return "Per Monitor Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)
-                {
-                    return "Per Monitor Aware V2";
-                }
-                return "Unknown";
-            }
         }
 
         private static DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_HANDLE = IntPtr.Zero;
 
         public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_INVALID = IntPtr.Zero;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = DPI_AWARENESS_CONTEXT_HANDLE - 1;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 2;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 3;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = DPI_AWARENESS_CONTEXT_HANDLE - 4;
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = new IntPtr(-1);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = new IntPtr(-2);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = new IntPtr(-3);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = new IntPtr(-4);
 
         public static DPI_AWARENESS_CONTEXT[] DpiAwarenessContexts =
         {
@@ -246,11 +209,12 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
       SetThreadDpiAwarenessContext(m_contextReversalType);
 }
 ```
+
 <h2 id="top-level-window-management">Gerenciamento de nível superior de janelas</h2>
 
-Ao iniciarem aplicativos do Office, uma chamada é feita para [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) como DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. Nesse contexto as alterações DPI serão enviadas ao HWND todas as janelas de nível superior no processo que estejam em execução de acordo com o Monitor DPI ciente. Janelas de nível superior são janelas do aplicativo do Office e as janelas de nível superior adicionais criadas pela sua solução. Quando um aplicativo do Office é movido para uma nova exibição, será notificado para que ele dinamicamente dimensione e desenhe corretamente o DPI da tela de nova. Sua solução do Office pode criar janelas de nível superior que estão em qualquer modo de reconhecimento de DPI. As janelas de nível superior podem também responder às alterações DPI ouvir a mensagem do Windows para as alterações.
+Ao iniciarem aplicativos do Office, uma chamada é feita para [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) como DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. Nesse contexto as alterações DPI serão enviadas ao HWND todas as janelas de nível superior no processo que estejam em execução de acordo com o Monitor DPI ciente. Janelas de nível superior são janelas do aplicativo do Office e as janelas de nível superior adicionais criadas pela sua solução. Quando um aplicativo do Office é movido para uma nova exibição, será notificado para que ele dinamicamente dimensione e desenhe corretamente o DPI da tela de nova. Sua solução do Office pode criar janelas de nível superior que estão em qualquer modo de reconhecimento de DPI. As janelas de nível superior podem também responder às alterações DPI ouvir a mensagem do Windows para as alterações.
 
-Se você criar janelas de criança que são como pais para a janela de nível superior, você pode configurá-los de qualquer modo de reconhecimento de DPI. No entanto, se você usar o modo ciente por DPI Monitor, as janelas de criança não receberão notificações de alteração DPI.  Confira mais informações sobre modos de percepção Windows DPI [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+Se você criar janelas de criança que são como pais para a janela de nível superior, você pode configurá-los de qualquer modo de reconhecimento de DPI. No entanto, se você usar o modo ciente por DPI Monitor, as janelas de criança não receberão notificações de alteração DPI.  Confira mais informações sobre modos de percepção Windows DPI [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ## <a name="child-window-management"></a>Gerenciamento de janelas
 
@@ -273,10 +237,10 @@ Com o Windows atualização de abril de 2018 (1803) e versões posteriores, DPI 
 
 ![Diagrama mostrando janelas filho executando o sistema DPI cientes contexto no Windows abril de 2018 atualização (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para receber reconhecimento DPI da janela dos pais. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Quando você cria um novo janelas filho, certifique-se de que elas correspondam às reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para receber reconhecimento DPI da janela dos pais. Para saber mais sobre DPI consistência de percepção, confira a seção "Forçada redefinição de reconhecimento DPI todo o processo" [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
-> Você não pode depender reconhecimento de DPI o processo de como ela pode retornar [PROCESS_SYSTEM_DPI_AWARE](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280512(v=vs.85).aspx) mesmo quando estiver o contexto de reconhecimento de conversa principal DPI aplicativo [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context). Use a função [GetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) Obtenha o contexto de reconhecimento de conversa DPI.
+> Você não pode depender reconhecimento de DPI o processo de como ela pode retornar [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) mesmo quando estiver o contexto de reconhecimento de conversa principal DPI aplicativo [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Use a função [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) Obtenha o contexto de reconhecimento de conversa DPI.
 
 ## <a name="office-and-windows-dpi-compatibility-settings"></a>Configurações de compatibilidade do Office e Windows DPI
 
@@ -372,9 +336,9 @@ Algumas soluções, podem receber e responder às alterações DPI. Alguns têm 
 
 <h3 id="vsto-add-ins">Suplemento VSTO</h3>
 
-O suplemento VSTO cria janelas filho que são pais de todas as janelas Office, verifique se corresponderem reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para receber reconhecimento DPI da janela dos pais. Suas janelas filho não receberão notificações de alteração da DPI. Se a sua solução não processa corretamente, os usuários precisarão instalar o Office no modo de compatibilidade.
+O suplemento VSTO cria janelas filho que são pais de todas as janelas Office, verifique se corresponderem reconhecimento DPI da janela de seus pais. Você pode usar a função [GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) para receber reconhecimento DPI da janela dos pais. Suas janelas filho não receberão notificações de alteração da DPI. Se a sua solução não processa corretamente, os usuários precisarão instalar o Office no modo de compatibilidade.
 
-Para as janelas de nível superior que o suplemento VSTO cria, você pode configurá-los de qualquer modo de reconhecimento de DPI. O código de exemplo a seguir mostra como configurar o reconhecimento DPI desejado e como responder às alterações DPI. Você também precisará ajustar o app.config, conforme descrito no artigo [suporte a DPI alto nos formulários do Windows](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
+Para as janelas de nível superior que o suplemento VSTO cria, você pode configurá-los de qualquer modo de reconhecimento de DPI. O código de exemplo a seguir mostra como configurar o reconhecimento DPI desejado e como responder às alterações DPI. Você também precisará ajustar o app.config, conforme descrito no artigo [suporte a DPI alto nos formulários do Windows](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
 
 ```csharp
 using System;
@@ -495,15 +459,15 @@ namespace SharedModule
 Um painel de tarefas personalizados é criado como uma janela de filho pelo Office. Ao executar a atualização do Windows Fall Creators (1709), seu painel de tarefas será executado usando o mesmo modo reconhecimento DPI como o Office. Ao executar o Windows (1803) de atualização de abril de 2018 e mais tarde, painel de tarefas será executada usando o modo de percepção DPI sistema. 
 
 Como painéis de tarefas personalizados são janelas filhos, elas não podem receber notificações de DPI. Se ele estiver desenhando incorretamente, o usuário será preciso usar [modo de compatibilidade do Office DPI](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
-Se o painel de tarefas cria janelas de nível superior, essas janelas podem ser executadas em qualquer modo de percepção DPI e receber notificações de alteração DPI. Para saber mais, confira a seção deste artigo [gerenciamento de nível superior de janelas](#Top-level-window-management).
+Se o painel de tarefas cria janelas de nível superior, essas janelas podem ser executadas em qualquer modo de percepção DPI e receber notificações de alteração DPI. Para saber mais, confira a seção deste artigo [gerenciamento de nível superior de janelas](#top-level-window-management).
 
 <h3 id="com-add-ins">Suplemento COM</h3>
 
-O suplemento que cria janelas de nível superior podem receber notificações de DPI. Você deverá criar um [bloquear contexto](#Build-a-context-block-for-incoming-thread-calls) para definir o reconhecimento DPI desejado para a janela da conversa, em seguida, criar sua janela. Há muito a manipulação notificações DPI corretamente, portanto, não deixe de ler [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) para obter mais detalhes.
+O suplemento que cria janelas de nível superior podem receber notificações de DPI. Você deverá criar um [bloquear contexto](#build-a-context-block-for-incoming-thread-calls) para definir o reconhecimento DPI desejado para a janela da conversa, em seguida, criar sua janela. Há muito a manipulação notificações DPI corretamente, portanto, não deixe de ler [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) para obter mais detalhes.
 
-As [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) mensagem é enviada quando DPI uma janela foi alterado.  Código não gerenciado, esta mensagem é tratada o [procedimento janela](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633570(v=vs.85).aspx) para o HWND.  Exemplo DPI alterar identificador código pode ser encontrado na [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) artigo. 
+As [WM_DPICHANGED](https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged) mensagem é enviada quando DPI uma janela foi alterado.  Código não gerenciado, esta mensagem é tratada o [procedimento janela](https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures) para o HWND.  Exemplo DPI alterar identificador código pode ser encontrado na WM_DPICHANGED artigo. 
 
-O suplemento que mostra janela filho que são pais de uma janela do Office não podem receber notificações de DPI. Se ele estiver desenhando incorretamente, o usuário será preciso usar [modo de compatibilidade do Office DPI](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+O suplemento que mostra janela filho que são pais de uma janela do Office não podem receber notificações de DPI. Se ele estiver desenhando incorretamente, o usuário será preciso usar [modo de compatibilidade do Office DPI](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="activex-controls">Controles ActiveX</h3>
 
@@ -511,7 +475,7 @@ Como suporte a controles ActiveX de escala DPI depende se o controle é com jane
 
 #### <a name="windowed-activex-controls"></a>Controles ActiveX em janelas
 
-Controles ActiveX em janelas recebem uma mensagem WM_SIZE sempre que no controle será redimensionado.  Quando este evento é disparado, o código de manipulador de eventos pode ligar para o [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) função usar HWND do controle para obter a DPI calcular as diferenças de fator de escala e ajustar conforme necessário. 
+Controles ActiveX em janelas recebem uma mensagem WM_SIZE sempre que no controle será redimensionado.  Quando este evento é disparado, o código de manipulador de eventos pode ligar para o [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) função usar HWND do controle para obter a DPI calcular as diferenças de fator de escala e ajustar conforme necessário. 
 
 O exemplo a seguir permite um controle ActiveX com base MFC para responder a **OnSize** evento. 
 
@@ -570,15 +534,15 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 Sem janela de controles ActiveX, não há garantia tem um HWND.  Quando um controle ActiveX é inserido em uma tela de documento, ele é inserido no modo de design.  Em aplicativos do Office, hospedagem contêiner retornará 0 para ligar para hDC -> GetWindow() na: OnDraw evento quando o controle está no modo design.  Não é possível recuperar uma DPI confiável nesse caso. 
 
-No entanto, quando o controle no modo de tempo de execução Office retornará HWND onde o controle é desenhar.  Nesse caso, o desenvolvedor de controle pode ligar [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) e a atual fontes DPI e escala, controles e assim por diante. 
+No entanto, quando o controle no modo de tempo de execução Office retornará HWND onde o controle é desenhar.  Nesse caso, o desenvolvedor de controle pode ligar [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) e a atual fontes DPI e escala, controles e assim por diante. 
 
 <h3 id="ribbon-extensibility">Extensibilidade da faixa de opções personalizada</h3>
 
-Os retornos de chamadas do Office para controles de faixa de opções personalizada estará em um reconhecimento de conversa DPI do sistema ciente DPI.  Se a sua solução estiver esperando um reconhecimento de conversa DPI diferentes, você deve implementar um bloco de contexto para configurar o reconhecimento de conversa conforme o esperado. Para saber mais, confira [criar um bloco contexto](#Build-a-context-block-for-incoming-thread-calls).
+Os retornos de chamadas do Office para controles de faixa de opções personalizada estará em um reconhecimento de conversa DPI do sistema ciente DPI.  Se a sua solução estiver esperando um reconhecimento de conversa DPI diferentes, você deve implementar um bloco de contexto para configurar o reconhecimento de conversa conforme o esperado. Para saber mais, confira [criar um bloco contexto](#build-a-context-block-for-incoming-thread-calls).
 
 <h3 id="ole">Servidores e clientes OLE</h3>
 
-Quando um servidor OLE estiver hospedado em um contêiner de cliente OLE, você no momento não poderá fornecer informações de DPI atuais, nem tem suportadas. Isso pode causar problemas como algumas combinações de pais para janela filho de modos misturado não têm suporte a arquitetura atual do Windows. Se o Word ou Excel detectar que há vários monitores com escalas de DPI diferentes, não serão compatíveis ativação in-loco. Seu servidor OLE será ativado fora do local. Se você estiver tendo problemas com as interações de servidor OLE, o usuário será preciso usar [modo de compatibilidade do Office DPI](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Quando um servidor OLE estiver hospedado em um contêiner de cliente OLE, você no momento não poderá fornecer informações de DPI atuais, nem tem suportadas. Isso pode causar problemas como algumas combinações de pais para janela filho de modos misturado não têm suporte a arquitetura atual do Windows. Se o Word ou Excel detectar que há vários monitores com escalas de DPI diferentes, não serão compatíveis ativação in-loco. Seu servidor OLE será ativado fora do local. Se você estiver tendo problemas com as interações de servidor OLE, o usuário será preciso usar [modo de compatibilidade do Office DPI](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="web-add-ins">Suplemento do Office Web</h3>
 
@@ -586,7 +550,7 @@ Suplementos do Office criados usando a API JavaScript do Office executam no cont
 
 ## <a name="verify-that-your-solution-supports-dpi-scaling"></a>Verificar se a sua solução dá suporte a DPI escala
 
-Depois de atualizar o aplicativo para dar suporte a escala DPI, você deve validar suas alterações em um ambiente combinado DPI. Valide que o código de interface do usuário responde adequadamente a alterações DPI das janelas de sua solução são movidos de uma exibição para outro que tenha valores DPI diferentes. Confira mais informações sobre testes de técnicas de escala DPI [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Depois de atualizar o aplicativo para dar suporte a escala DPI, você deve validar suas alterações em um ambiente combinado DPI. Valide que o código de interface do usuário responde adequadamente a alterações DPI das janelas de sua solução são movidos de uma exibição para outro que tenha valores DPI diferentes. Confira mais informações sobre testes de técnicas de escala DPI [desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 Você também pode encontrar essas técnicas adicionais úteis:
 
@@ -600,15 +564,14 @@ Você também pode encontrar essas técnicas adicionais úteis:
 
 ### <a name="articles"></a>Artigos
 
+- O [desenvolvimento de um aplicativo WPF de reconhecimento de DPI por monitor](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fornece uma visão geral e um guia para escrever aplicativos da área de trabalho Win32. Muitas das mesmas técnicas descritas neste artigo se aplicará a soluções de extensibilidade do Office.
 - 
-  [Escrever DPI cientes da área de trabalho e aplicativos de Win32](https://msdn.microsoft.com/en-us/library/windows/desktop/dn469266(v=vs.85).aspx) fornece uma visão geral e um guia para escrever Win32 os aplicativos da área de trabalho. Muitas das mesmas técnicas descritas neste artigo se aplicará a soluções de extensibilidade do Office.
-- 
-  [Escala de DPI mista e APIs de DPI](https://msdn.microsoft.com/en-us/library/windows/desktop/mt744321(v=vs.85).aspx) tem uma lista de APIs relacionados para DPI.
+  [Escala de DPI mista e APIs de DPI](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) tem uma lista de APIs relacionados para DPI.
 - [Desenvolvedor guia: visualização por Monitor DPI - WPF ](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) abrange o guia de desenvolvimento de aplicativos WPF para criar reconhecimento de DPI WPF aplicativos.
-- [Suporte do Office para alta definição exibe](https://support.office.com/en-us/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fornecer informações sobre como um usuário pode configurar o Office para otimizar para fins de compatibilidade se a sua solução do Office não tem suporte corretamente quando há alterações da DPI.
+- [Suporte do Office para alta definição exibe](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fornecer informações sobre como um usuário pode configurar o Office para otimizar para fins de compatibilidade se a sua solução do Office não tem suporte corretamente quando há alterações da DPI.
 - [Exibir as alterações de dimensionamento para a atualização de aniversário do Windows 10](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) é apresentar a uma postagem de blog sobre alterações com a atualização de aniversário do Windows 10. 
-- [Alça DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context) dispõe sobre valores DPI_AWARENESS_CONTEXT e definições de programação.
-- [Desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) inclui informações sobre testes da seção de testar suas alterações.
+- [Alça DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context) dispõe sobre valores DPI_AWARENESS_CONTEXT e definições de programação.
+- [Desenvolvimento de aplicativos de área de trabalho DPI alto no Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) inclui informações sobre testes da seção de testar suas alterações.
 
 ### <a name="code-samples"></a>Exemplos de código
 
