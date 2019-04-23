@@ -1,5 +1,5 @@
 ---
-title: Atualizando dados (referência de banco de dados da área de trabalho do Access)
+title: Atualizando dados (referência do banco de dados do Access)
 TOCTitle: Updating Data
 ms:assetid: 02e82066-77c8-cbb2-db28-98e2fc94404c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e6989468e23fc1c9c611eb091172822a6ffe938
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313563"
 ---
 # <a name="updating-data"></a>Atualização de dados
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 A atualização do comportamento e do recurso depende amplamente do modo Atualização (tipo de bloqueio), tipo de cursor e local do cursor.
 
@@ -31,5 +31,5 @@ Esta seção inclui os seguintes tópicos:
 
 - [Modo Imediato](immediate-mode.md)
 - [Processamento de transações](transaction-processing.md)
-- [Modo de lotes (ADO)](batch-mode.md)
+- [Modo de lote (ADO)](batch-mode.md)
 

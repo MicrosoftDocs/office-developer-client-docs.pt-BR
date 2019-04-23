@@ -1,5 +1,5 @@
 ---
-title: Propriedade TableDef.Updatable (DAO)
+title: Propriedade TableDef. upDatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 0b1ae7e5-416d-06f0-5d74-989c6db67ff2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845128(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a6e6c7409b89058c6be55d9fb83eb85c7af9fb9c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314410"
 ---
-# <a name="tabledefupdatable-property-dao"></a>Propriedade TableDef.Updatable (DAO)
+# <a name="tabledefupdatable-property-dao"></a>Propriedade TableDef. upDatable (DAO)
 
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
 Retorna um valor que indica se você pode alterar um objeto DAO. **Boolean** somente leitura.
 

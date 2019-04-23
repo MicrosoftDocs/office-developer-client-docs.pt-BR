@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ae9cc65d61416767140572b32d3f2e1b8e4d8eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313976"
 ---
 # <a name="significance-of-cursor-location"></a>Significado de local do cursor
 
-**Aplica-se a**: Access 2013, o Office 2013
+**Aplica-se ao:** Access 2013, Office 2013
 
-Todo cursor usa recursos temporários para manter seus dados. Esses recursos podem ser a memória, um arquivo de paginação de disco, arquivos de disco temporários ou mesmo repositório temporário no banco de dados. O cursor é chamado um cursor *do cliente* quando esses recursos estão localizados no computador cliente. O cursor é chamado um cursor do *lado do servidor* quando esses recursos estão localizados no servidor.
+Todo cursor usa recursos temporários para manter seus dados. Esses recursos podem ser a memória, um arquivo de paginação de disco, arquivos de disco temporários ou mesmo repositório temporário no banco de dados. O cursor é chamado cursor *do lado do cliente* quando esses recursos estão localizados no computador do cliente. E é chamado cursor *do servidor* quando esses recursos estão localizados no servidor.
 
 ## <a name="client-side-cursors"></a>Cursores do lado do cliente
 
