@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4e27870a0c1dbb38b7c0be31c439a95f6aae671
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288655"
 ---
-# <a name="name-property-ado-md"></a><span data-ttu-id="9f15e-102">Propriedade Name (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9f15e-102">Name property (ADO MD)</span></span>
+# <a name="name-property-ado-md"></a><span data-ttu-id="bf5cf-102">Propriedade Name (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bf5cf-102">Name property (ADO MD)</span></span>
 
 
-<span data-ttu-id="9f15e-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f15e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bf5cf-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf5cf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9f15e-104">Indica o nome de um objeto</span><span class="sxs-lookup"><span data-stu-id="9f15e-104">Indicates the name of an object.</span></span>
+<span data-ttu-id="bf5cf-104">Indica o nome de um objeto</span><span class="sxs-lookup"><span data-stu-id="bf5cf-104">Indicates the name of an object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="9f15e-105">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="9f15e-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bf5cf-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="bf5cf-105">Return values</span></span>
 
-<span data-ttu-id="9f15e-106">Retorna um objeto **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="9f15e-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="bf5cf-106">Retorna **String** e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bf5cf-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9f15e-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="9f15e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bf5cf-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="bf5cf-107">Remarks</span></span>
 
-<span data-ttu-id="9f15e-p101">Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal e, depois, fazer referência ao objeto diretamente pelo nome. Por exemplo, se cdf.CubeDefs(0).Name gerar "Bobs Video Store", você poderá fazer referência a esse [CubeDef](cubedef-object-ado-md.md) como cdf.CubeDefs("Bobs Video Store").</span><span class="sxs-lookup"><span data-stu-id="9f15e-p101">You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name. For example, if cdf.CubeDefs(0).Name yields "Bobs Video Store", you can refer to this [CubeDef](cubedef-object-ado-md.md) as cdf.CubeDefs("Bobs Video Store").</span></span>
+<span data-ttu-id="bf5cf-p101">Você pode recuperar a propriedade **Name** de um objeto por uma referência ordinal e, depois, fazer referência ao objeto diretamente pelo nome. Por exemplo, se cdf.CubeDefs(0).Name gerar "Bobs Video Store", você poderá fazer referência a esse [CubeDef](cubedef-object-ado-md.md) como cdf.CubeDefs("Bobs Video Store").</span><span class="sxs-lookup"><span data-stu-id="bf5cf-p101">You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name. For example, if cdf.CubeDefs(0).Name yields "Bobs Video Store", you can refer to this [CubeDef](cubedef-object-ado-md.md) as cdf.CubeDefs("Bobs Video Store").</span></span>
 

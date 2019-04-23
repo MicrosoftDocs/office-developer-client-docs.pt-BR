@@ -1,5 +1,5 @@
 ---
-title: Objeto Position (referência ADO MD)
+title: Objeto Position (referência do ADO MD)
 TOCTitle: Position object (ADO MD)
 ms:assetid: fbe77a91-766e-4cdb-ac2e-dcd30b0c1c82
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e0fc5caea6b7535a16da88b8b348f5c2dee2c18
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287556"
 ---
-# <a name="position-object-ado-md-reference"></a><span data-ttu-id="40ab7-102">Objeto Position (referência ADO MD)</span><span class="sxs-lookup"><span data-stu-id="40ab7-102">Position object (ADO MD reference)</span></span>
+# <a name="position-object-ado-md-reference"></a><span data-ttu-id="08818-102">Objeto Position (referência do ADO MD)</span><span class="sxs-lookup"><span data-stu-id="08818-102">Position object (ADO MD reference)</span></span>
 
-<span data-ttu-id="40ab7-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="40ab7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08818-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08818-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="40ab7-104">Objeto Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="40ab7-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
-- [<span data-ttu-id="40ab7-105">Posição propriedades, métodos e eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="40ab7-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="08818-104">Objeto Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="08818-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
+- [<span data-ttu-id="08818-105">Propriedades, métodos e eventos de Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="08818-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
 

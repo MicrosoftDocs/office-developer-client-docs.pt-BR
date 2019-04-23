@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2ded9721eb2af2f409a4b4a6ea261898a4d1b3fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288004"
 ---
-# <a name="parameterattributesenum"></a><span data-ttu-id="dc3c6-102">ParameterAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="dc3c6-102">ParameterAttributesEnum</span></span>
+# <a name="parameterattributesenum"></a><span data-ttu-id="cf3bf-102">ParameterAttributesEnum</span><span class="sxs-lookup"><span data-stu-id="cf3bf-102">ParameterAttributesEnum</span></span>
 
 
-<span data-ttu-id="dc3c6-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc3c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cf3bf-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf3bf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dc3c6-104">Especifica os atributos de um objeto [Parameter](parameter-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="dc3c6-104">Specifies the attributes of a [Parameter](parameter-object-ado.md) object.</span></span>
+<span data-ttu-id="cf3bf-104">Especifica os atributos de um objeto [Parameter](parameter-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cf3bf-104">Specifies the attributes of a [Parameter](parameter-object-ado.md) object.</span></span>
 
 <table>
 <colgroup>
@@ -29,34 +29,34 @@ ms.locfileid: "28716317"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="dc3c6-105">Constant</span><span class="sxs-lookup"><span data-stu-id="dc3c6-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="dc3c6-106">Valor</span><span class="sxs-lookup"><span data-stu-id="dc3c6-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="dc3c6-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="dc3c6-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="cf3bf-105">Constant</span><span class="sxs-lookup"><span data-stu-id="cf3bf-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cf3bf-106">Valor</span><span class="sxs-lookup"><span data-stu-id="cf3bf-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="cf3bf-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="cf3bf-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dc3c6-108"><strong>adParamSigned</strong></span><span class="sxs-lookup"><span data-stu-id="dc3c6-108"><strong>adParamSigned</strong></span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-109">16</span><span class="sxs-lookup"><span data-stu-id="dc3c6-109">16</span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-110">Indica que o parâmetro aceita os valores assinados.</span><span class="sxs-lookup"><span data-stu-id="dc3c6-110">Indicates that the parameter accepts signed values.</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-108"><strong>adParamSigned</strong></span><span class="sxs-lookup"><span data-stu-id="cf3bf-108"><strong>adParamSigned</strong></span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-109">dezesseis</span><span class="sxs-lookup"><span data-stu-id="cf3bf-109">16</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-110">Indica que o parâmetro aceita os valores assinados.</span><span class="sxs-lookup"><span data-stu-id="cf3bf-110">Indicates that the parameter accepts signed values.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dc3c6-111"><strong>adParamNullable</strong></span><span class="sxs-lookup"><span data-stu-id="dc3c6-111"><strong>adParamNullable</strong></span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-112">64</span><span class="sxs-lookup"><span data-stu-id="dc3c6-112">64</span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-113">Indica que o parâmetro aceita os valores nulos.</span><span class="sxs-lookup"><span data-stu-id="dc3c6-113">Indicates that the parameter accepts null values.</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-111"><strong>adParamNullable</strong></span><span class="sxs-lookup"><span data-stu-id="cf3bf-111"><strong>adParamNullable</strong></span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-112">64</span><span class="sxs-lookup"><span data-stu-id="cf3bf-112">64</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-113">Indica que o parâmetro aceita os valores nulos.</span><span class="sxs-lookup"><span data-stu-id="cf3bf-113">Indicates that the parameter accepts null values.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dc3c6-114"><strong>adParamLong</strong></span><span class="sxs-lookup"><span data-stu-id="dc3c6-114"><strong>adParamLong</strong></span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-115">128</span><span class="sxs-lookup"><span data-stu-id="dc3c6-115">128</span></span></p></td>
-<td><p><span data-ttu-id="dc3c6-116">Indica que o parâmetro aceita dados binários longos.</span><span class="sxs-lookup"><span data-stu-id="dc3c6-116">Indicates that the parameter accepts long binary data.</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-114"><strong>Bit adparamlong</strong></span><span class="sxs-lookup"><span data-stu-id="cf3bf-114"><strong>adParamLong</strong></span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-115">128</span><span class="sxs-lookup"><span data-stu-id="cf3bf-115">128</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-116">Indica que o parâmetro aceita dados binários longos.</span><span class="sxs-lookup"><span data-stu-id="cf3bf-116">Indicates that the parameter accepts long binary data.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="dc3c6-117">Equivalente ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="dc3c6-117">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="cf3bf-117">Equivalente do ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="cf3bf-117">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="dc3c6-118">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="dc3c6-118">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="cf3bf-118">Pacote: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="cf3bf-118">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -64,18 +64,18 @@ ms.locfileid: "28716317"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="dc3c6-119">Constante</span><span class="sxs-lookup"><span data-stu-id="dc3c6-119">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cf3bf-119">Constant</span><span class="sxs-lookup"><span data-stu-id="cf3bf-119">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dc3c6-120">AdoEnums.ParameterAttributes.SIGNED</span><span class="sxs-lookup"><span data-stu-id="dc3c6-120">AdoEnums.ParameterAttributes.SIGNED</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-120">AdoEnums. ParameterAttributes. SIGNED</span><span class="sxs-lookup"><span data-stu-id="cf3bf-120">AdoEnums.ParameterAttributes.SIGNED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dc3c6-121">AdoEnums.ParameterAttributes.NULLABLE</span><span class="sxs-lookup"><span data-stu-id="dc3c6-121">AdoEnums.ParameterAttributes.NULLABLE</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-121">AdoEnums. ParameterAttributes. NULLABLE</span><span class="sxs-lookup"><span data-stu-id="cf3bf-121">AdoEnums.ParameterAttributes.NULLABLE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dc3c6-122">AdoEnums.ParameterAttributes.LONG</span><span class="sxs-lookup"><span data-stu-id="dc3c6-122">AdoEnums.ParameterAttributes.LONG</span></span></p></td>
+<td><p><span data-ttu-id="cf3bf-122">AdoEnums. ParameterAttributes. LONG</span><span class="sxs-lookup"><span data-stu-id="cf3bf-122">AdoEnums.ParameterAttributes.LONG</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 263e245fdccddb95a5eb33af1eebe0319123f036
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287794"
 ---
-# <a name="parameters-properties-dao"></a><span data-ttu-id="a20df-102">Propriedades de parâmetros (DAO)</span><span class="sxs-lookup"><span data-stu-id="a20df-102">Parameters properties (DAO)</span></span>
+# <a name="parameters-properties-dao"></a><span data-ttu-id="e8278-102">Propriedades de parâmetros (DAO)</span><span class="sxs-lookup"><span data-stu-id="e8278-102">Parameters properties (DAO)</span></span>
 
-<span data-ttu-id="a20df-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="a20df-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e8278-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8278-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a20df-104">Propriedade Parameters.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="a20df-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
+- [<span data-ttu-id="e8278-104">Propriedade paraMeters. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="e8278-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
 

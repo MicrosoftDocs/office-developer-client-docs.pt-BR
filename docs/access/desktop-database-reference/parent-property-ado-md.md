@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0c0eef638cb76676cd2287a34c0e4b17bd89c4d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287787"
 ---
-# <a name="parent-property-ado-md"></a><span data-ttu-id="ce401-102">Propriedade Parent (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ce401-102">Parent property (ADO MD)</span></span>
+# <a name="parent-property-ado-md"></a><span data-ttu-id="b7aa0-102">Propriedade Parent (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b7aa0-102">Parent property (ADO MD)</span></span>
 
 
-<span data-ttu-id="ce401-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce401-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7aa0-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7aa0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ce401-104">Indica o membro que é o pai do membro atual em uma hierarquia.</span><span class="sxs-lookup"><span data-stu-id="ce401-104">Indicates the member that is the parent of the current member in a hierarchy.</span></span>
+<span data-ttu-id="b7aa0-104">Indica o membro que é o pai do membro atual em uma hierarquia.</span><span class="sxs-lookup"><span data-stu-id="b7aa0-104">Indicates the member that is the parent of the current member in a hierarchy.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="ce401-105">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ce401-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b7aa0-105">Valor de retorno</span><span class="sxs-lookup"><span data-stu-id="b7aa0-105">Return values</span></span>
 
-<span data-ttu-id="ce401-106">Retorna um objeto [Member](member-object-ado-md.md) e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="ce401-106">Returns a [Member](member-object-ado-md.md) object and is read-only.</span></span>
+<span data-ttu-id="b7aa0-106">Retorna um objeto [Member](member-object-ado-md.md) e é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="b7aa0-106">Returns a [Member](member-object-ado-md.md) object and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ce401-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="ce401-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b7aa0-107">Comentários</span><span class="sxs-lookup"><span data-stu-id="b7aa0-107">Remarks</span></span>
 
-<span data-ttu-id="ce401-p101">Um membro que está no nível superior de uma hierarquia (a raiz) não tem pai. Somente objetos **Member** pertencentes a um objeto [Level](level-object-ado-md.md) oferecem suporte a esta propriedade. Ocorre um erro quando essa propriedade é referenciada em objetos **Member** pertencentes a um objeto [Position](position-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="ce401-p101">A member that is at the top level of a hierarchy (the root) has no parent. This property is supported only on **Member** objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
+<span data-ttu-id="b7aa0-p101">Um membro que está no nível superior de uma hierarquia (a raiz) não tem pai. Somente objetos **Member** pertencentes a um objeto [Level](level-object-ado-md.md) oferecem suporte a esta propriedade. Ocorre um erro quando essa propriedade é referenciada em objetos **Member** pertencentes a um objeto [Position](position-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="b7aa0-p101">A member that is at the top level of a hierarchy (the root) has no parent. This property is supported only on **Member** objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
 

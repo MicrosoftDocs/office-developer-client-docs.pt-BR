@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 373aa8a8a2f69ff9d15891b953aac796f7f4da50
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288557"
 ---
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="7f7af-102">Exemplo das propriedades NumericScale e Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7f7af-102">NumericScale and Precision properties example (VJ++)</span></span>
+# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="adc39-102">Exemplo das propriedades NumericScale e Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="adc39-102">NumericScale and Precision properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="7f7af-103">**Aplica-se a**: Access 2013, o Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f7af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="adc39-103">**Aplica-se ao:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="adc39-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7f7af-104">Este exemplo usa as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md) para exibir a escala numérica e a precisão de campos na tabela ***Discounts*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="7f7af-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="adc39-104">Este exemplo usa as propriedades [NumericScale](numericscale-property-ado.md) e [Precision](precision-property-ado.md) para exibir a escala numérica e a precisão de campos na tabela ***Discounts*** do banco de dados ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="adc39-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```java 
  
