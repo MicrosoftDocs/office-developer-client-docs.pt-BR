@@ -10,7 +10,7 @@ ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: ed8e0b1c7a489411ed3ff0b455a91da6aec697c8
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25399715"
@@ -19,15 +19,15 @@ ms.locfileid: "25399715"
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico descreve como obter e instalar os arquivos de biblioteca e arquivos de cabeçalho MAPI.
+Este tópico descreve como obter e instalar arquivos de cabeçalho MAPI e arquivos de biblioteca.
 
-Arquivos de cabeçalho MAPI estão disponíveis para download em [Outlook 2010: arquivos de cabeçalho de MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Por padrão, os arquivos de cabeçalho MAPI são instalados na seguinte pasta: C:\Program Files\Microsoft SDKs\Office\14.0\Include.
+Os arquivos de cabeçalho MAPI estão disponíveis para download em [Outlook 2010: arquivos de cabeçalho MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Por padrão, os arquivos de cabeçalho MAPI serão instalados na seguinte pasta: C:\Arquivos de Programas\Microsoft SDKs\Office\14.0\Include.
   
-Para obter uma lista dos arquivos de cabeçalho MAPI, consulte [Comumente usadas arquivos de cabeçalho](commonly-used-header-files.md).
+Confira uma lista de arquivos de cabeçalho MAPI em [Arquivos de cabeçalho usados com frequência](commonly-used-header-files.md).
   
 ## <a name="see-also"></a>Confira também
 
-- [Vis�o geral da programa��o MAPI](mapi-programming-overview.md) 
+- [Visão geral da programação MAPI](mapi-programming-overview.md) 
 - [Link para funções MAPI](how-to-link-to-mapi-functions.md)
-- [Arquivos de cabe�alho usados com freq��ncia](commonly-used-header-files.md)
+- [Arquivos de cabeçalho usados com frequência](commonly-used-header-files.md)
 
