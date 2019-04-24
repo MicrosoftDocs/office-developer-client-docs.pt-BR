@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: e5d9261a9f33d77d52cfd6e448e69a2c1e8df415
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334661"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriedade canônica PidTagConversionWithLossProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585231"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de fazerem conversões de texto que perdem informações de mensagem. 
+Contém TRUE se um agente de transferência de mensagem (MTA) estiver proibido de fazer conversões de texto de mensagem que percam informações. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Conterá TRUE se um agente de transferência de mensagem (MTA) é proibido de fa
    
 ## <a name="remarks"></a>Comentários
 
-Um exemplo do tipo de conversão que está sendo proibida é o mapeamento "com perdas" do Unicode (dois bytes por caractere) para um conjunto de caracteres de byte único. 
+Um exemplo do tipo de conversão proibido é o mapeamento "com perdas" do Unicode (dois bytes por caractere) para um conjunto de caracteres de byte único. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 6986ed7c9ab9932c5d95fcfb7f74f80088f21971
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 91440d619c8ad8a64b2bac7463a26d9c196a3c0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339726"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22580366"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de valores duplos usados para descrever uma propriedade do tipo PT_MV_DOUBLE.
+Contém uma matriz de duplicatas usada para descrever uma propriedade do tipo PT_MV_DOUBLE.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -44,15 +44,15 @@ typedef struct _SDoubleArray
 
  **cValues**
   
-> Contagem de valores na matriz apontado pelo membro **lpdbl** . 
+> Contagem de valores na matriz apontada pelo membro **lpdbl** . 
     
  **lpdbl**
   
-> Ponteiro para uma matriz de valores duplos.
+> Ponteiro para uma matriz de valores Double.
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre PT_MV_DOUBLE, consulte a [Lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre o PT_MV_DOUBLE, confira [lista de tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 

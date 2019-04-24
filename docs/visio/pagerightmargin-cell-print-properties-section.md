@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: Especifica a margem direita da página impressa.
-ms.openlocfilehash: 951a16ff20e294b68ed5447d330f4e7cbc100c82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339491"
 ---
 # <a name="pagerightmargin-cell-print-properties-section"></a>Célula PageRightMargin (Seção Print Properties)
 

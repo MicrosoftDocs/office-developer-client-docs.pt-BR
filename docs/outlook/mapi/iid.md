@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336348"
 ---
 # <a name="iid"></a>IID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570937"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma estrutura [GUID](guid.md) usada para descrever um identificador para uma interface MAPI. 
+Descreve uma estrutura [GUID](guid.md) usada para descrever um identificador de uma interface MAPI. 
   
 ```cpp
 typedef struct _GUID
@@ -40,13 +40,13 @@ typedef struct _GUID
 
 ## <a name="members"></a>Members
 
-Ver a estrutura **GUID** . 
+Consulte a estrutura **GUID** . 
   
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **IID** é usada para identificar exclusivamente uma interface MAPI e para associar a um objeto de uma determinada interface. Por exemplo, quando um cliente chamadas [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir uma pasta, o cliente define o parâmetro _lpInterface_ para apontar para um **IID** representando a interface [IMAPIFolder](imapifolderimapicontainer.md) . MAPI define o **IMAPIFolderIID** para ser IID_IMAPIFolder. Estruturas **IID** também são usadas para identificar exclusivamente interfaces OLE. 
+Uma estrutura de **IID** é usada para identificar exclusivamente uma interface MAPI e para associar uma interface específica a um objeto. Por exemplo, quando um cliente chama [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir uma pasta, o cliente define o parâmetro _lpInterface_ para apontar para um **IID** representando a interface [IMAPIFolder](imapifolderimapicontainer.md) . MAPI define o **IMAPIFolderIID** a ser IID_IMAPIFolder. As estruturas de **IID** também são usadas para identificar exclusivamente interfaces OLE. 
   
-Todas as estruturas **IID** específicas para as interfaces de MAPI são definidas no arquivo de cabeçalho Mapiguid.h. 
+Todas as estruturas de **IID** específicas para as interfaces MAPI são definidas no arquivo de cabeçalho Mapiguid. h. 
   
 ## <a name="see-also"></a>Confira também
 

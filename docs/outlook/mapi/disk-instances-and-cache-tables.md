@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 27b21162c53a64675abbf31a8ab512719b413d5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4f0b66476b1ab3d149b6f7e7b8171de7a509b597
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338847"
 ---
 # <a name="disk-instances-and-cache-tables"></a>Instâncias de disco e tabelas de cache
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para ativar um formulário, seus arquivos executáveis devem estar disponíveis no computador do usuário. Se elas não estiverem disponíveis, eles devem ser copiados da biblioteca de formulários para o disco local. Para fazer isso, o gerente do formulário padrão cria um subdiretório no diretório do Windows do usuário para contêm arquivos executáveis do formulário (. Executáveis. HLPs). Esse diretório é conhecido como a instância do disco do formulário.
+Para ativar um formulário, seus arquivos executáveis devem estar disponíveis no computador do usuário. Se não estiverem disponíveis, eles devem ser copiados da biblioteca de formulários para o disco local. Para fazer isso, o Gerenciador de formulários padrão cria um subdiretório no diretório do Windows do usuário para conter os arquivos executáveis do formulário (. EXEs,. HLPs). Esse diretório é conhecido como instância de disco do formulário.
   
-O Gerenciador de formulário padrão mantém uma tabela de todas as instâncias de disco para que se já existir uma instância de disco pode ser usado sem precisar copiar os arquivos da biblioteca de formulários para o disco do usuário. A tabela de instâncias de disco é gerenciada como um cache menos frequentemente utilizado. Se for necessária uma nova instância do disco, ele é copiado para o computador do usuário, substituindo a instância do disco menos frequentemente utilizado. A tabela de cache de instância do disco, em seguida, é atualizada para refletir a configuração mais recente. O tamanho do cache de disco é uma opção configurável pelo usuário, permitindo que os usuários equilibrar velocidade com capacidade em disco disponível.
+O Gerenciador de formulários padrão mantém uma tabela de todas as instâncias de disco de modo que, se uma instância de disco já existe, ela pode ser usada sem ter que copiar arquivos da biblioteca de formulários para o disco do usuário. A tabela de instâncias de disco é gerenciada como um cache menos freqüentemente usado. Se for necessária uma nova instância de disco, ela será copiada para o computador do usuário, substituindo a instância de disco menos usada. A tabela de cache de instância de disco é atualizada para refletir a configuração mais recente. O tamanho do cache de disco é uma opção configurável pelo usuário, permitindo que os usuários equilibrem a velocidade com a capacidade de disco disponível.
   
-Além do cache de instância do disco, o gerente do formulário padrão mantém uma tabela de instância em execução que lista todas as instâncias em execução dos servidores de formulário no computador do usuário. Usa a capacidade do MAPI para manter as instâncias de formulário ocioso em execução em um estado invisível até que a mensagem do servidor é ativado a classe de formulário de um formulário do que. Em outras palavras, servidores de formulário podem ser armazenados em cache na RAM para minimizar o número de vezes executável de um formulário deve ser localizado dentro de uma biblioteca de formulários e carregado na memória do disco ou pela rede. Como o cache de instância do disco, o cache de instância em execução se comporta de maneira menores usados para que uma instância de formulário em execução pode ser removida do cache para liberar espaço para outra instância do formulário. Este cache é pesquisado para uma instância de um servidor de formulário em execução antes que as bibliotecas de formulário são pesquisadas para o servidor do formulário.
+Além do cache de instância de disco, o Gerenciador de formulários padrão mantém uma tabela de instância em execução que lista todas as instâncias em execução dos servidores de formulário no computador do usuário. Isso usa a capacidade de MAPI de manter instâncias de formulário ociosas em execução em um estado invisível até que um formulário da classe de mensagem desse servidor de formulário seja ativado. Em outras palavras, os servidores de formulário podem ser armazenados em cache na RAM para minimizar o número de vezes que o executável de um formulário deve estar localizado dentro de uma biblioteca de formulários e carregado na memória do disco ou pela rede. Assim como o cache de instância de disco, o cache de instância em execução se comporta de forma menos usada para que uma instância de formulário em execução possa ser limpa do cache para liberar espaço para outra instância do formulário. Esse cache é procurado por uma instância em execução de um servidor de formulário antes que as bibliotecas de formulários sejam pesquisadas para o servidor de formulários.
   
 > [!NOTE]
-> O Gerenciador de formulário padrão exibe um indicador de progresso quando a instalação de um formulário na estação de trabalho do usuário, permitindo que o usuário cancelar a operação. Isso é especialmente útil se a conexão do usuário para o arquivo executável do servidor formulário estiver em uma rede de baixa largura de banda. 
+> O Gerenciador de formulários padrão exibe um indicador de progresso ao instalar um formulário na estação de trabalho de um usuário, permitindo que o usuário cancele a operação. Isso é especialmente útil se a conexão do usuário com o arquivo executável do servidor de formulário estiver em uma rede de baixa largura de banda. 
   
 ## <a name="see-also"></a>Confira também
 

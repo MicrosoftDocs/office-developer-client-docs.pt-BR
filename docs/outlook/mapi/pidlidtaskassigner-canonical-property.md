@@ -13,11 +13,11 @@ api_type:
 ms.assetid: f7047e4e-0fb3-476b-9568-8f1135e6d970
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ef5f78fa36632227311d037ee61085c677920fb1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340086"
 ---
 # <a name="pidlidtaskassigner-canonical-property"></a>Propriedade canônica PidLidTaskAssigner
 
@@ -25,35 +25,35 @@ ms.locfileid: "25400562"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Nomes de usuário que foi a último tarefa atribuída a. 
+ Nomeia o usuário que recebeu a última atribuição da tarefa. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidTaskDelegator  <br/> |
-|Propriedade definida:  <br/> |PSETID_Task  <br/> |
-|ID de longo (LID):  <br/> |0x00008121  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Task  <br/> |
+|Long ID (LID):  <br/> |0x00008121  <br/> |
 |Tipo de dados:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarefa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Se a tarefa não tiver sido atribuída, essa propriedade é da esquerda não definida. Porque o cliente define essa propriedade depois que o destinatário da tarefa recebe uma solicitação de tarefa, a propriedade não será definida na cópia do cedente a tarefa da tarefa. Quando o cliente adiciona ou remove cedente uma tarefa da lista tarefas cedente na propriedade **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), a propriedade **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) deve ser definido como o adicionado ou cedente de tarefas removidos.
+Se a tarefa não tiver sido atribuída, essa propriedade será à esquerda desdefinida. Como o cliente define essa propriedade depois que o destinatário da tarefa recebe uma solicitação de tarefa, a propriedade não será definida na cópia da tarefa do destinatário da tarefa. Quando o cliente adiciona ou remove um separador de tarefas da lista de destinatários de tarefas na propriedade **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), a propriedade **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) deve ser definida como adicionado ou um atribuínte de tarefas removido.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Define a vários objetos que modelar o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
+> Define vários objetos que modelam o equivalente eletrônico de tarefas, atribuições de tarefas e atualizações de tarefas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

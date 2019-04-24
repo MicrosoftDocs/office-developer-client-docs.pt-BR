@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251424
 localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
-description: Retorna o resultado da expressão como uma cadeia de caracteres formatada de acordo com a figura de formatação.
-ms.openlocfilehash: dcb898b3cb21d8cc5ebee7e56540d9e2eefcffdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna o resultado da expressão como uma cadeia de caracteres formatada de acordo com o formatPicture.
+ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339890"
 ---
 # <a name="format-function"></a>Função FORMAT
 
-Retorna o resultado da _expressão_ como uma cadeia de caracteres formatada de acordo com a _Figura de formatação_.
+Retorna o resultado da _expressão_ como uma cadeia de caracteres formatada de acordo com o _formatPicture_.
   
 ## <a name="syntax"></a>Sintaxe
 
-FORMATO (* * *expressão* * *, "* * *formatpicture* * *") 
+Formato (* * *expressão* * *, "* * *formatPicture* * *") 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _expressão_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma combinação de constantes, operadores, funções e referências a células ShapeSheet que resulta em um valor.  <br/> |
-| _Figura de formatação_ <br/> |Obrigatório  <br/> |**String** <br/> |A imagem de formato usada para formatar a cadeia de caracteres.  <br/> |
+| _formatPicture_ <br/> |Obrigatório  <br/> |**String** <br/> |A imagem de formato usada para formatar a cadeia de caracteres.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
 ## <a name="remarks"></a>Comentários
 
-O tipo da expressão e o tipo especificado na figura de formatação determinam o comportamento de cadeia de caracteres retornada. A _Figura de formatação_ deve ser apropriado para o tipo de expressão. Para obter mais informações sobre como especificar o formato de imagens, consulte [sobre figuras de formatação](about-format-pictures.md).
+O tipo da expressão e o tipo especificado na figura de formatação determinam o comportamento da cadeia de caracteres retornada. O _formatPicture_ deve ser apropriado para o tipo de expressão. Para obter mais informações sobre como especificar imagens de formato, consulte [about Format Pictures](about-format-pictures.md).
   
-Retorna um erro se o resultado de _expression_ e o tipo esperado em _formatpicture_ forem diferentes ou se há erros de sintaxe em _formatpicture_.
+Retorna um erro se o resultado da _expressão_ e o tipo esperado em _formatPicture_ forem de um tipo diferente ou se houver erros de sintaxe no _formatPicture_.
   
 ## <a name="example-1"></a>Exemplo 1
 

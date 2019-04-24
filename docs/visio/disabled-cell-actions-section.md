@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indica se um item em um menu de atalho ou de marca de ação está desabilitado.
-ms.openlocfilehash: 3956b6cf5ccb870255d6943e74b4f02650952d09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332575"
 ---
 # <a name="disabled-cell-actions-section"></a>Célula Disabled (Seção Actions)
 
@@ -25,18 +25,18 @@ Indica se um item em um menu de atalho ou de marca de ação está desabilitado.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |Desativar (esmaecer) o nome do comando.  <br/> |
-|FALSO  <br/> |Ativar o nome do comando (padrão).  <br/> |
+|TRUE  <br/> |Desativar (esmaecer) o nome do comando.  <br/> |
+|FALSE  <br/> |Ativar o nome do comando (padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para obter uma referência para a célula Disabled pelo nome, de outra fórmula ou programa, usando a propriedade **CellsU**, utilize: 
+Para fazer referência à célula Disabled pelo nome, de outra fórmula ou programa, usando a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Desabilitado onde ações. *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Desativado onde actions. *Name* é o nome da linha de ações  <br/> |
    
-Para obter uma referência para a célula Disabled pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula Disabled pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

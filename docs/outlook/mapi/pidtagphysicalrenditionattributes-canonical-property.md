@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f66d0f06112d95cb5adb2a9e7419c1d20f71bfc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338665"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Propriedade canônica PidTagPhysicalRenditionAttributes
 
@@ -38,13 +38,13 @@ Contém um identificador de objeto ASN. 1 que é usado para processar anexos de 
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,31 +1,31 @@
 ---
-title: Elemento SnapAngles (DocumentSettings_Type complexType) ('Visio XML')
+title: Elemento SnapAngles (DocumentSettings_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 803ddfc1-b7d3-736f-2d85-7b8780ef9278
-description: Contém uma coleção de elementos de SnapAngle.
+description: Contém um conjunto de elementos SnapAngle.
 ms.openlocfilehash: 8121a65505c5283ea3cc4ff93a94fdae4c64d7a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334654"
 ---
-# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) ('Visio XML')
+# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) (' Visio XML ')
 
-Contém uma coleção de elementos de **SnapAngle** . 
+Contém um conjunto de elementos **SnapAngle**. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,19 +36,19 @@ Contém uma coleção de elementos de **SnapAngle** .
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém os elementos que especificam as configurações do documento.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém elementos que especificam configurações de documentos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contém uma flutuante aponte o número que especifica um ângulo snap em graus.  <br/> |
+|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Contém um número de ponto flutuante que especifica um ângulo de encaixe em graus.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

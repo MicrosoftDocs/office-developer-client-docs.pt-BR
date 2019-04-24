@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Determina como a forma do grupo e seus membros são exibidos.
-ms.openlocfilehash: 086685b47d8eaf170a8722f7cd00545230541e79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a49d7a38eac75a2845de0ca3ad22f7cbf79a63df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332708"
 ---
 # <a name="displaymode-cell-group-properties-section"></a>Célula DisplayMode (Seção Group Properties)
 
@@ -22,13 +22,13 @@ Determina como a forma do grupo e seus membros são exibidos.
   
 |**Valor**|**Modo de exibição**|**Constante de automação**|
 |:-----|:-----|:-----|
-|0  <br/> |Oculta o texto e a forma do grupo.  <br/> |**visGrpDispModeNone** <br/> |
+|,0  <br/> |Oculta o texto e a forma do grupo.  <br/> |**visGrpDispModeNone** <br/> |
 |1  <br/> |Exibe a forma do grupo atrás das formas dos membros.  <br/> |**visGrpDispModeBack** <br/> |
-|2  <br/> |Exibe a forma do grupo na frente das formas dos membros.  <br/> |**visGrpDispModeFront** <br/> |
+|duas  <br/> |Exibe a forma do grupo na frente das formas dos membros.  <br/> |**visGrpDispModeFront** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Você pode também definir esse valor selecionando o grupo, clicando em **comportamento** , no grupo **Design** da forma na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, selecionando um modo de exibição da lista de **dados de grupo** . 
+Você também pode definir esse valor selecionando o grupo, clicando em **comportamento** no grupo **design da forma** na guia [desenvolvedor](run-in-developer-mode-display-the-developer-tab.md) e, em seguida, selecionando um modo de exibição na lista dados do **grupo** . 
   
 Para obter uma referência para a célula DisplayMode pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
@@ -36,7 +36,7 @@ Para obter uma referência para a célula DisplayMode pelo nome, a partir de out
 |:-----|:-----|
 |Nome da célula:  <br/> |DisplayMode  <br/> |
    
-Para obter uma referência para a célula DisplayMode pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DisplayMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339295"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
@@ -37,7 +37,7 @@ HRESULT Logoff(
 
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,15 +47,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O processo de logoff geralmente é iniciado quando um cliente chama o método [IMAPISession::Logoff](imapisession-logoff.md) para encerrar uma sessão. MAPI, em seguida, chama o método **IABLogon::Logoff** do cada provedor catálogo de endereços para iniciar o processo de logoff. 
+O processo de logoff normalmente é iniciado quando um cliente chama o método [IMAPISession:: logoff](imapisession-logoff.md) para finalizar uma sessão. Em seguida, o MAPI chama cada método **IABLogon:: logoff** do provedor de catálogo de endereços para iniciar o processo de logoff. 
   
-O método **IABLogon::Logoff** faz o seguinte: 
+O método **IABLogon:: logoff** faz o seguinte: 
   
-- Libera todos os objetos abertos, como qualquer subobjetos ou o objeto de status.
+- Libera todos os objetos abertos, como qualquer subobjeto ou o objeto status.
     
-- Libera o objeto de suporte do provedor.
+- Libera o objeto support do provedor.
     
-Para obter mais informações sobre o processo de logoff de provedores de catálogo de endereços, consulte [Sendo pressionada um provedor de serviços](shutting-down-a-service-provider.md).
+Para obter mais informações sobre o processo de logoff dos provedores de catálogo de endereços, consulte desLigamento [de um provedor de serviços](shutting-down-a-service-provider.md).
   
 ## <a name="see-also"></a>Confira também
 

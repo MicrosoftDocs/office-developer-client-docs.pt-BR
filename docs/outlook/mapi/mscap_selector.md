@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8c23788d64fe3703c7c46998cade0bd40d2f3dd2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c5d8ab5bbac91250f3b8c552ad891c62134526e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338672"
 ---
 # <a name="mscapselector"></a>MSCAP_SELECTOR
 
@@ -21,7 +21,7 @@ ms.locfileid: "22588122"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica os recursos para retornar para um repositório.
+Especifica as funcionalidades a serem retornadas para um repositório.
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -36,26 +36,26 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membros
 
  *MSCAP_SEL_RESERVED1* 
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
  *MSCAP_SEL_FOLDER* 
   
-> Recursos sobre o suporte a pastas em um repositório.
+> Recursos sobre as pastas de suporte em um repositório.
     
  *MSCAP_SEL_RESERVED3* 
   
-> Este membro é reservado para uso interno do Outlook e não é suportado. 
+> Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Recursos sobre o suporte a restrições em um repositório.
+> Recursos sobre restrições de suporte em um repositório.
     
 

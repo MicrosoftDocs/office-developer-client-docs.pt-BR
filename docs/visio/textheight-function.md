@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Retorna a altura do texto redigido em uma forma em que nenhuma linha de texto excede a largura máxima.
-ms.openlocfilehash: 9a80dafcf80a1dcba968a0f60465aae4e2a2758b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna a altura do texto redigido em uma forma onde nenhuma linha de texto excede MaximumWidth.
+ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332319"
 ---
 # <a name="textheight-function"></a>Função TEXTHEIGHT
 
-Retorna a altura do texto redigido em uma forma em que nenhuma linha de texto excede a _largura máxima_. 
+Retorna a altura do texto redigido em uma forma onde nenhuma linha de texto excede _MaximumWidth_. 
   
 ## <a name="syntax"></a>Sintaxe
 
-TEXTHEIGHT (* * *shapename! TheText* * * * * *[, largura máxima]* * *) 
+TextHEIGHT (* * *shapename! O texto* * * * * *[, MaximumWidth]* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _shapename! theText_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula nomeada TheText na forma de destino.  _shapename!_ é o nome da forma do qual você deseja recuperar o texto.  <br/> |
-| _largura máxima_ <br/> |Opcional  <br/> |**Numérico** <br/> |A largura máxima de um bloco de texto.  <br/> |
+| _shapename! o texto_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
+| _MaximumWidth_ <br/> |Opcional  <br/> |**Numeric** <br/> |A largura máxima de um bloco de texto.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

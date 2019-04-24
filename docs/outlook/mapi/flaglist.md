@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336936"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
@@ -25,11 +25,11 @@ ms.locfileid: "22582095"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista dos sinalizadores usados para indicar o status das entradas de endereço durante o processo de resolução de nome.
+Contém uma lista de sinalizadores usados para indicar o status das entradas de endereço durante o processo de resolução de nomes.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,27 +44,27 @@ typedef struct
 
  **cFlags**
   
-> Contagem de sinalizadores MAPI-definidos na lista.
+> Contagem de sinalizadores definidos por MAPI na lista.
     
  **ulFlags**
   
-> Uma matriz dos sinalizadores que fornece o status da operação de resolução de nome de um destinatário. Sinalizadores a seguir podem ser definidos:
+> Uma matriz de sinalizadores que fornece o status da operação de resolução de nome de um destinatário. Os seguintes sinalizadores podem ser definidos:
     
 MAPI_AMBIGUOUS 
   
-> O destinatário foi resolvido, mas não a um identificador exclusivo de entrada. Outros contêineres do catálogo de endereços não devem tentar resolver o destinatário. 
+> O destinatário foi resolvido, mas não a um identificador de entrada exclusivo. Outros contêineres do catálogo de endereços não devem tentar resolver esse destinatário. 
     
 MAPI_RESOLVED 
   
-> O destinatário foi resolvido para um identificador exclusivo de entrada. Outros contêineres do catálogo de endereços não devem tentar resolver o destinatário. 
+> O destinatário foi resolvido para um identificador de entrada exclusivo. Outros contêineres do catálogo de endereços não devem tentar resolver esse destinatário. 
     
 MAPI_UNRESOLVED 
   
-> A entrada não foi resolvida. Outros contêineres do catálogo de endereços devem tentar resolver o destinatário.
+> A entrada não foi resolvida. Outros contêineres do catálogo de endereços devem tentar resolver esse destinatário.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **FLAGLIST** é usada como um parâmetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada um dos destinatários ser resolvido está incluída em uma estrutura [ADRLIST](adrlist.md) . Como o contêiner de catálogo de endereços tenta resolver cada destinatário, ele define o sinalizador apropriado na entrada correspondente na estrutura **FLAGLIST** . Todas as entradas na estrutura de **FLAGLIST** estão na mesma ordem como as entradas na estrutura de **ADRLIST** . Isso facilita associar a um destinatário de uma configuração de sinalizador. 
+A estrutura da **marca de sinalizador** é usada como um parâmetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada um dos destinatários a serem resolvidos está incluído em uma estrutura [das ADRLIST](adrlist.md) . Como o contêiner de catálogo de endereços tenta resolver cada destinatário, ele define o sinalizador apropriado na entrada correspondente na estrutura **flaglist** . Todas as entradas na estrutura **flaglist** estão na mesma ordem das entradas na estrutura **das ADRLIST** . Isso facilita a associação de uma configuração de sinalizador a um destinatário. 
   
 ## <a name="see-also"></a>Confira também
 

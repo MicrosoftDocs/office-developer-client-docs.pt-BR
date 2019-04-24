@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 8d6eb011e65ad44f4183eb5821697dcf2508032c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e318d7a709a09e67ebf423db0263985523d2fc28
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333030"
 ---
 # <a name="createiprop"></a>CreateIProp
 
@@ -29,9 +29,9 @@ Cria um objeto de dados de propriedade, ou seja, um objeto [IPropData](ipropdata
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 SCODE CreateIProp(
@@ -48,33 +48,33 @@ SCODE CreateIProp(
 
  _lpInterface_
   
-> [in] Ponteiro para um identificador de interface (IID) para o objeto de dados de propriedade. O identificador de interface válido é IID_IMAPIPropData. Passar NULL no parâmetro _lpInterface_ também fará com que o objeto de dados de propriedade retornado no parâmetro _lppPropData_ para ser convertido para a interface padrão para um objeto de dados de propriedade. 
+> no Ponteiro para um identificador de interface (IID) para o objeto de dados de propriedade. O identificador de interface válido é IID_IMAPIPropData. Passar NULL no parâmetro _lpInterface_ também faz com que o objeto de dados de propriedade retornado no parâmetro _lppPropData_ seja convertido na interface padrão de um objeto de dados de propriedade. 
     
  _lpAllocateBuffer_
   
-> [in] Ponteiro para a função de [MAPIAllocateBuffer](mapiallocatebuffer.md) , para ser usado para alocar memória. 
+> no Ponteiro para a função [MAPIAllocateBuffer](mapiallocatebuffer.md) , a ser usado para alocar memória. 
     
  _lpAllocateMore_
   
-> [in] Ponteiro para a função de [MAPIAllocateMore](mapiallocatemore.md) , para ser usado para alocar memória adicional. 
+> no Ponteiro para a função [MAPIAllocateMore](mapiallocatemore.md) , a ser usado para alocar memória adicional. 
     
  _lpFreeBuffer_
   
-> [in] Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , que será usada para liberar memória. 
+> no Ponteiro para a função [MAPIFreeBuffer](mapifreebuffer.md) , a ser usado para liberar memória. 
     
  _lpvReserved_
   
-> [in] Reservado; deve ser zero. 
+> no Serve deve ser zero. 
     
  _lppPropData_
   
-> [out] Ponteiro para um ponteiro para o objeto de dados de propriedade retornados.
+> bota Ponteiro para um ponteiro para o objeto de dados de propriedade retornado.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores. 
+> A chamada teve êxito e retornou o valor ou valores esperados. 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
@@ -82,6 +82,6 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 ## <a name="remarks"></a>Comentários
 
-Os parâmetros de entrada _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ apontam para o [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e funções [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Passa de um aplicativo cliente chamar **CreateIProp** em ponteiros para as funções MAPI apenas nomeadas; um provedor de serviços passa os ponteiros para essas funções ele recebidas em sua chamada de inicialização ou recuperadas com uma chamada ao método [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
+Os parâmetros de entrada _lpAllocateBuffer_, _lpAllocateMore_e _lpFreeBuffer_ apontam para as funções [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)e [MAPIFreeBuffer](mapifreebuffer.md) , respectivamente. Um aplicativo cliente que chama o **CreateIProp** passa em ponteiros para as funções MAPI apenas nomeadas; um provedor de serviços passa os ponteiros para essas funções recebidas em sua chamada de inicialização ou recuperadas com uma chamada para o método [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   
 

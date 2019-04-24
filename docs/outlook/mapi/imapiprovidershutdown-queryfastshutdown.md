@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 4301fb504439cf0ebd70b5ece589c812cb74844e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50b49761cf5923b11a450cbce7b7991f5ddd4d82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338483"
 ---
 # <a name="imapiprovidershutdownqueryfastshutdown"></a>IMAPIProviderShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585294"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Suporte a consultas o provedor MAPI para o desligamento rápido. 
+Consulta o provedor MAPI para obter suporte para desligamento rápido. 
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,17 +35,17 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> O provedor MAPI suporta o cliente MAPI para rápida desligamento.
+> O provedor MAPI dá suporte ao cliente MAPI para fazer desligamento rápido.
     
 MAPI_E_NO_SUPPORT
   
-> O provedor MAPI não suporta o cliente MAPI para rápida desligamento.
+> O provedor MAPI não dá suporte ao cliente MAPI para fazer desligamento rápido.
     
 ## <a name="remarks"></a>Comentários
 
-Provedores MAPI que não é necessário para suportar o desligamento rápido do cliente ainda devem implementar a interface [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) e têm o método **IMAPIProviderShutdown::QueryFastShutdown** retornar MAPI_E_NO_SUPPORT. Para o Outlook como um cliente MAPI, isso faz com que o Outlook esperar por todas as referências externas ser liberada antes de sair. 
+Os provedores MAPI que não precisam dar suporte ao desligamento rápido do cliente ainda devem implementar a interface [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) e fazer com que o método **IMAPIProviderShutdown:: QUERYFASTSHUTDOWN** retorne MAPI_E_NO_SUPPORT. Para o Outlook como um cliente MAPI, isso faz com que o Outlook espere que todas as referências externas sejam liberadas antes de sair. 
   
-Dependendo do registro do Windows do usuário configuração para fast desligamento, não Implementando a interface de **IMAPIProviderShutdown** não necessariamente impede que um desligamento rápido de cliente. 
+Dependendo da configuração do registro do Windows do usuário para desligamento rápido, não implementar a interface **IMAPIProviderShutdown** não necessariamente impede um desligamento rápido do cliente. 
   
 ## <a name="see-also"></a>Confira também
 

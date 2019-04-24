@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 916797012d62c5ce0b67dedf957dde09ba9ba27b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7d883faa6266086127a7722990e84bca00090f0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332645"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Propriedade canônica PidLidHeaderItem
 
@@ -25,27 +25,27 @@ ms.locfileid: "22595136"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica se o Microsoft Outlook tem baixada para o computador cliente somente do cabeçalho de uma mensagem, ou o cabeçalho e corpo da mensagem, quando o Outlook é configurado no modo cache do Exchange.
+Especifica se o Microsoft Outlook foi baixado para o computador cliente apenas o cabeçalho de uma mensagem ou o cabeçalho e o corpo da mensagem, quando o Outlook é configurado no modo cache do Exchange.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |dispidHeaderItem  <br/> |
-|Propriedade definida:  <br/> |PSETID_Common  <br/> |
-|ID de longo (LID):  <br/> |0x00008578  <br/> |
+|Conjunto de propriedades:  <br/> |PSETID_Common  <br/> |
+|Long ID (LID):  <br/> |0x00008578  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]] 
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

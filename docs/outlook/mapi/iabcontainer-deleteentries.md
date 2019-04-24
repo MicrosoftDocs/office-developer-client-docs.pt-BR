@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4140dc39b7f866b0372e5940aef5efc0524ad593
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e3b238129e55e03da33ef3af75ecce7e73fbad03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339379"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573107"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove uma ou mais entradas, normalmente mensagens outros contêineres, listas de distribuição ou os usuários.
+Remove uma ou mais entradas, tipicamente usuários de mensagens, listas de distribuição ou outros contêineres.
   
 ```cpp
 HRESULT DeleteEntries(
@@ -38,29 +38,29 @@ HRESULT DeleteEntries(
 
  _lpEntries_
   
-> [in] Um ponteiro para uma matriz de estruturas [ENTRYLIST](entrylist.md) que contêm os identificadores de entrada que representam as entradas que está sendo excluídas. 
+> no Um ponteiro para uma matriz de [](entrylist.md) estruturas ENTRYLIST que contêm identificadores de entrada que representam as entradas sendo excluídas. 
     
  _ulFlags_
   
-> [in] Reservado; deve ser zero.
+> no Serve deve ser zero.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> As entradas especificadas tenham sido excluídas com êxito. 
+> As entradas especificadas foram excluídas com êxito. 
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> A chamada foi bem-sucedida, mas um ou mais das entradas não pôde ser excluída. Quando este valor é retornado, a chamada deve ser manipulada com êxito. Para testar esse valor, use a macro **HR_FAILED** . Para obter mais informações, consulte [Usando Macros para tratamento de erros](using-macros-for-error-handling.md).
+> A chamada teve êxito, mas uma ou mais entradas não puderam ser excluídas. Quando esse valor é retornado, a chamada deve ser tratada como bem-sucedida. Para testar esse valor, use a macro **HR_FAILED** . Para obter mais informações, consulte [usando macros para tratamento de erros](using-macros-for-error-handling.md).
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **DeleteEntries** para excluir uma entrada específica de um contêiner de catálogo de endereços.  <br/> |
+|Abdlg. cpp  <br/> |CabDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa o método **DeleteEntries** para excluir uma entrada específica de um contêiner de catálogo de endereços.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -69,5 +69,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
 

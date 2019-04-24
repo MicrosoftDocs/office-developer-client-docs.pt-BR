@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indica se as marcações do documento estão sendo revisadas.
-ms.openlocfilehash: 69430122b0a7665d7daa4a6b28f3a51745b74473
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338630"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>Célula AddMarkup (Seção Document Properties)
 
@@ -22,15 +22,15 @@ Indica se as marcações do documento estão sendo revisadas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |O documento está sendo revisado.  <br/> |
-|FALSO  <br/> |O documento não está sendo revisado (o padrão).  <br/> |
+|TRUE  <br/> |O documento está sendo revisado.  <br/> |
+|FALSE  <br/> |O documento não está sendo revisado (o padrão).  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Quando a célula AddMarkup está definida como TRUE, o revisor está adicionando marcações e as alterações são aplicadas às páginas de sobreposição de marcação, não às páginas de desenho originais. Quando a célula AddMarkup é FALSE, o rastreamento de marcação está desativado e as alterações são aplicadas a páginas do desenho originais.
+Quando a célula AddMarkup está definida como VERDADEIRO, o revisor está adicionando marcações e as alterações são aplicadas às páginas de sobreposição de marcação, e não às páginas de desenho originais. Quando a célula AddMarkup está definida como FALSO, o controle de marcação está desativado e as alterações são aplicadas às páginas de desenho originais.
   
 > [!NOTE]
-> Você pode impedir a marcação em seus documentos usando a função GUARD. Se a célula AddMarkup contém a fórmula = Guard (FALSO), o comando **Rastrear Marcação** está desabilitado. 
+> Você pode impedir a marcação em seus documentos usando a função GUARD. Se a célula addMarkup contiver a fórmula = GUARD (FALSE), o comando **rastrear marcação** será desabilitado. 
   
 Essa configuração corresponde à configuração de comando **Rastrear Marcação** no grupo **Marcação** na guia **Revisão**. 
   

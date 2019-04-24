@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b2caa70600bd32234e38420f274bcd5c46ffb070
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339659"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de ponteiros para cadeias de caracteres de classe de mensagem
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |MAPIForm.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiform. h  <br/> |
 |Macro relacionada:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp

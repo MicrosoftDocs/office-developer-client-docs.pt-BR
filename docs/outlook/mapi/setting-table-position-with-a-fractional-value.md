@@ -1,5 +1,5 @@
 ---
-title: Definir uma posição de tabela com um valor fracionado
+title: Definir a posição da tabela com um valor fracionário
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8ffed8070c219e6611aebbcb1dd5cd181b662850
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7800a58cad7b4e2b0b1696706c8e1d401ed424d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579694"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339260"
 ---
-# <a name="setting-table-position-with-a-fractional-value"></a>Definir uma posição de tabela com um valor fracionado
+# <a name="setting-table-position-with-a-fractional-value"></a>Definir a posição da tabela com um valor fracionário
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os usuários da tabela podem mover para uma posição que representa um percentual aproximado de linhas em relação à total. Em vez de mover para uma linha exata, esse método de posicionamento divide a tabela em partes com base em frações. Os usuários da tabela podem mover, por exemplo, para o ponto de meia vias de uma tabela ou na linha que é 7/8 da maneira como a tabela. 
+Tabela os usuários podem mover para uma posição que representa uma porcentagem aproximada de linhas em relação ao total. Em vez de mover para uma linha exata, esse método de posicionamento divide a tabela em partes com base em frações. Tabela os usuários podem mover, por exemplo, para o ponto de meia-forma da tabela ou para a linha que é 7/8 da forma pela tabela. 
   
  **Para mover o cursor um número aproximado de linhas**
   
-- Chame [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** move para a linha que representa um percentual específico de linhas em relação ao início da tabela. Essa porcentagem é especificada nos parâmetros _ulNumerator_ e _ulDenominator_ . **SeekRowApprox** é usado com frequência para implementar as barras de rolagem. 
+- Call [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** move para a linha que representa uma porcentagem específica de linhas em relação ao início da tabela. Essa porcentagem é especificada nos parâmetros _ulNumerator_ e _ulDenominator_ . O **SeekRowApprox** é usado com frequência para implementar barras de rolagem. 
     
- **Para determinar a posição de uma tabela aproximado**
+ **Para determinar a posição aproximada de uma tabela**
   
-- Chame [IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition** pode ser usado para informar ao usuário da posição atual. Ele define um valor fracionário com base no número de linhas na tabela e o número da linha atual. Espere que esse valor representa uma aproximação. Implementadores de tabela são incentivados não para calcular a posição exata como implementações precisas podem ser caras de invocar, especialmente em tabelas categorizadas. 
+- Call [IMAPITable:: QueryPosition](imapitable-queryposition.md). **QueryPosition** pode ser usado para informar o usuário sobre a posição atual. Ele define um valor fracionário com base no número de linhas na tabela e o número da linha atual. Espero que esse valor represente uma aproximação. Os implementadores de tabela são incentivados a não calcular a posição exata, pois as implementações precisas podem ser caras para invocar, especialmente em tabelas categorizadas. 
     
 ## <a name="see-also"></a>Confira também
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 4fbf0d8b80fdb48e44480b2739a71aec43b88a05
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338651"
 ---
 # <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Propriedade canônica PidTagScheduleInfoFreeBusyBusy
 
@@ -25,26 +25,26 @@ ms.locfileid: "25395708"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os intervalos de tempo para o qual o status está ocupado.
+Contém os blocos de tempo para os quais o status está ocupado.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Identificador:  <br/> |0x6854  <br/> |
 |Tipo de dados:  <br/> |PT_MV_BINARY  <br/> |
-|Área:  <br/> |Informações de disponibilidade  <br/> |
+|Área:  <br/> |Disponibilidade  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-O formato, a computação e restrições dessa propriedade são iguais aos de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mas se referir a compromissos que são marcados ocorrendo no objeto calendário associado.
+O formato, a computação e as restrições dessa propriedade são os mesmos do **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), mas se referem aos compromissos marcados como ocupados no objeto Calendar associado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -52,13 +52,13 @@ O formato, a computação e restrições dessa propriedade são iguais aos de **
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

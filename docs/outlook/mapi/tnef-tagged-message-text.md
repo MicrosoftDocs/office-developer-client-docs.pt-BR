@@ -1,5 +1,5 @@
 ---
-title: Texto da mensagem marcado por TNEF
+title: Texto da mensagem marcado como TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b4d4cd790870a024cac6f2ed9952d18a970235a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339589"
 ---
-# <a name="tnef-tagged-message-text"></a>Texto da mensagem marcado por TNEF
+# <a name="tnef-tagged-message-text"></a>Texto da mensagem marcado como TNEF
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Texto da mensagem marcados é usado pelo TNEF resolver posições de anexo na mensagem pai. Isso é feito com a adição de um espaço reservado no texto da mensagem na posição do anexo. Esse espaço reservado ou marca de anexo, descreve o anexo de tal forma que o TNEF Saiba como resolver o anexo e sua posição. As marcas são formatadas da seguinte maneira:
+O texto da mensagem marcada é usado pelo TNEF para resolver posições de anexo na mensagem pai. Isso é feito adicionando um espaço reservado no texto da mensagem na posição do anexo. Este espaço reservado, ou marca de anexo, descreve o anexo de tal forma que o TNEF sabe como resolver o anexo e sua posição. As marcas são formatadas da seguinte maneira:
   
  `[[ <Object Title> : <KeyNum> in <Stream Name> ]] [[ <File Name> : <KeyNum> in <Transport Name> ]]`
   
- ** \<Título do objeto\> ** e ** \<nome de arquivo\> ** são variáveis que contêm valores que são extraídos do anexo em si. Em casos onde esses valores não estão disponíveis, o título assume o padrão por TNEF com base no tipo de anexo. 
+ O título ** \<\> ** do objeto e o nome do arquivo são variáveis que contêm valores que são obtidos do próprio anexo. ** \<\> ** Nos casos em que esses valores não estão disponíveis, o título é padronizado por TNEF com base no tipo de anexo. 
   
-O ** \<KeyNum\> ** variável contém a representação textual da chave anexo atribuída ao anexo por TNEF. O valor base da chave é passado na chamada de [OpenTnefStreamEx](opentnefstreamex.md) . O valor de base não deve ser zero e não deve ser o mesmo para cada chamada para **OpenTnefStreamEx**. Ele deve ser suficiente para usar números aleatórios de falsos baseados a hora do sistema de qualquer gerador de números aleatórios fornece em sua biblioteca de tempo de execução, desde que você garante que nunca são zero.
+A ** \<variável\> KeyNum** contém a representação textual da chave de anexo atribuída ao anexo por TNEF. O valor base da chave é passado para a chamada [OpenTnefStreamEx](opentnefstreamex.md) . O valor base não deve ser zero e não deve ser o mesmo para todas as chamadas para **OpenTnefStreamEx**. Deve ser suficiente usar números pseudo aleatórios com base no tempo do sistema de qualquer gerador de número aleatório que sua biblioteca de tempo de execução fornece, desde que você garanta que eles nunca sejam zero.
   
-O ** \<nome transporte\> ** variável contém o nome de fluxo passado para a chamada de [OpenTnefStreamEx](opentnefstreamex.md) ou o valor da propriedade **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+A ** \<variável de\> nome de transporte** contém o nome do fluxo passado para a chamada [OpenTnefStreamEx](opentnefstreamex.md) ou o valor da propriedade **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
   
 > [!NOTE]
-> A propriedade **PR_ATTACH_TRANSPORT_NAME** e o ** \<nome transporte\> ** variável em uma marca de texto da mensagem não tem nada a ver com o nome do provedor de transporte que você estiver implementando. Esses itens representam o nome de um anexo para o provedor de transporte e o sistema de mensagens. 
+> A propriedade **PR_ATTACH_TRANSPORT_NAME** e a ** \<variável de\> nome de transporte** em uma marca de texto de mensagem não têm nada a ver com o nome do provedor de transporte que você está implementando. Estes itens representam o nome de um anexo para o provedor de transporte e o sistema de mensagens. 
   
-O texto da mensagem está marcado quando um provedor de transporte solicita um texto de mensagem marcados chamando o método [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Ao ler a partir do fluxo de texto marcado, o TNEF substituirá o caractere único que estava no texto da mensagem no índice fornecido na propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) com a marca apropriada. Ao gravar o fluxo de texto marcado, TNEF verifica os dados de entrada de marcas, localiza o anexo associado e substitui a marca com um caractere de espaço simples.
+O texto da mensagem é marcado quando um provedor de transporte solicita um texto da mensagem marcada chamando o método [ITnef:: OpenTaggedBody](itnef-opentaggedbody.md) . Ao ler a partir do fluxo de texto marcado, o TNEF substitui o caractere único que estava no texto da mensagem no índice fornecido na propriedade **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) com a marca apropriada. Ao gravar no fluxo de texto marcado, o TNEF verifica os dados de entrada para marcas, localiza o anexo associado e substitui a marca por um único caractere de espaço.
   
-Observe que, usando o texto da mensagem marcados, um provedor de transporte pode preservar o posicionamento de anexos independentemente da maioria das alterações feitas para o texto da mensagem por sistemas de mensagens.
+Observe que, usando o texto da mensagem marcada, um provedor de transporte pode preservar o posicionamento de anexos, independentemente da maioria das alterações feitas no texto da mensagem pelos sistemas de mensagens.
   
 

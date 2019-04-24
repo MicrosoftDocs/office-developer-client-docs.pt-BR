@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c079fb10-4db7-4657-75d2-2fb953c86670
 description: Determina a distância de deslocamento horizontal do objeto em relação à origem de sua borda. O padrão é 0. Deslocar o objeto com a ferramenta Cortar irá alterar esse valor.
-ms.openlocfilehash: dda385b2157e48baec2b21c6da741b31d05c3291
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b3e97a07bc1cadc0276905c4199861ab0590ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335403"
 ---
-# <a name="imgoffsetx-cell-foreign-image-info-section"></a>Célula Cell (Foreign Image Info Section) (Seção Foreign Image Info)
+# <a name="imgoffsetx-cell-foreign-image-info-section"></a>Célula ImgOffsetX (Seção Foreign Image Info)
 
 Determina a distância de deslocamento horizontal do objeto em relação à origem de sua borda. O padrão é 0. Deslocar o objeto com a ferramenta **Cortar** irá alterar esse valor. 
   

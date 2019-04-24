@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b13b5d7b-413e-4405-8a35-0422477a9e86
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 53bc27b4ddd05b4a52328c605a6d4f673c91afd2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336474"
 ---
 # <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>Propriedade canônica PidTagScheduleInfoMonthsMerged
 
@@ -25,26 +25,26 @@ ms.locfileid: "25383818"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma lista dos meses para os dados de disponibilidade do tipo ocupado ou uma ausência temporária (OOF) mensagem está presente na mensagem de livre/ocupado. 
+Contém uma lista dos meses nos quais os dados de disponibilidade do tipo ocupado ou uma mensagem de ausência temporária (OOF) estão presentes na mensagem de disponibilidade. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SCHDINFO_MONTHS_MERGED  <br/> |
 |Identificador:  <br/> |0x684F  <br/> |
 |Tipo de dados:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Informações de disponibilidade  <br/> |
+|Área:  <br/> |Disponibilidade  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Eventos do tipo disponível/ocupado provisório não são incluídos nessa propriedade. O formato da sintaxe/e restrições dessa propriedade são iguais aos de **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), mas se referir a compromissos que são marcados ausência temporária ou ocupado no objeto calendário associado. 
+Os eventos da tentativa de tipo de disponibilidade não estão incluídos nessa propriedade. A sintaxe/o formato e as restrições dessa propriedade são os mesmos do **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), mas se referem aos compromissos marcados como OOF ou inatividade no objeto Calendar associado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -52,13 +52,13 @@ Eventos do tipo disponível/ocupado provisório não são incluídos nessa propr
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

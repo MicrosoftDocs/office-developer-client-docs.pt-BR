@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: Determina se é possível arrastar formas em um grupo usando o mouse.
-ms.openlocfilehash: df5d0d2b44e283ee8301d9c088d3ce55114e9a75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b15d75a98b5f5a72bce8b80758d27b197a346ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338581"
 ---
 # <a name="dontmovechildren-cell-group-properties-section"></a>Célula DontMoveChildren (Seção Group Properties)
 
@@ -22,8 +22,8 @@ Determina se é possível arrastar formas em um grupo usando o mouse.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | Não permite que as formas em um grupo sejam arrastadas usando o mouse.  <br/> |
-| FALSO  <br/> | Permite que as formas em um grupo sejam arrastadas usando o mouse.  <br/> |
+| TRUE  <br/> | Não permite que as formas em um grupo sejam arrastadas usando o mouse.  <br/> |
+| FALSE  <br/> | Permite que as formas em um grupo sejam arrastadas usando o mouse.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 

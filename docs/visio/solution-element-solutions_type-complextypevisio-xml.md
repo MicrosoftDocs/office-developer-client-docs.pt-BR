@@ -1,31 +1,31 @@
 ---
-title: Elemento Solution (Solutions_Type complexType) ('Visio XML')
+title: Elemento Solution (Solutions_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
-description: Especifica uma instância da solução que XML armazenado no desenho.
+description: Especifica uma instância do XML da solução armazenada no desenho.
 ms.openlocfilehash: bb3cd512ff6109467c9d6465ba72c764d83abf96
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335263"
 ---
-# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) ('Visio XML')
+# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (' Visio XML ')
 
-Especifica uma instância da solução que XML armazenado no desenho.
+Especifica uma instância do XML da solução armazenada no desenho.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Solutions.XML  <br/> |
+|**Partes do documento** <br/> |Solutions. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -35,7 +35,7 @@ Especifica uma instância da solução que XML armazenado no desenho.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -47,12 +47,12 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Especifica a relação a uma parte com a solução que XML associada a essa solução.  <br/> |
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Especifica a relação com uma parte com o XML da solução associado a essa solução.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Nome  <br/> |XSD: String  <br/> |obrigatório  <br/> |O nome da solução.  <br/> |Valores do tipo xsd: String.  <br/> |
+|Name  <br/> |xsd:string  <br/> |obrigatório  <br/> |O nome da solução.  <br/> |Valores do tipo xsd:string.  <br/> |
    
 

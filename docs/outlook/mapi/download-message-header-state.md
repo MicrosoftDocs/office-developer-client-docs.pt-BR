@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8e83119d724f583d40583a6a5227bc467dc94da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338833"
 ---
 # <a name="download-message-header-state"></a>Baixar o estado do cabeçalho da mensagem
 
@@ -19,25 +19,25 @@ ms.locfileid: "22578840"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- Este tópico descreve o que acontece durante o estado de cabeçalho de mensagem de download da máquina de estado de replicação. 
+ Este tópico descreve o que acontece durante o status de cabeçalho da mensagem de download da máquina de estado de replicação. 
   
 ## <a name="quick-info"></a>Informações rápidas
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
-|Desse estado:  <br/> |[Estado ocioso](idle-state.md) <br/> |
-|Com esse estado:  <br/> |Estado ocioso  <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
+|Estrutura de dados relacionada:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
+|A partir deste Estado:  <br/> |[Estado Ocioso](idle-state.md) <br/> |
+|Para este Estado:  <br/> |Estado Ocioso  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente partindo de um estado para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Durante esse estado, o cliente atualiza o cabeçalho de uma mensagem em um repositório local. Armazenamento local entra neste estado após **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** e sai quando **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** é chamado. Durante esse estado, o Outlook inicializa membros da estrutura de dados **HDRSYNC** associada com informações sobre o cabeçalho de uma mensagem. O cliente primeiramente baixa o item de mensagem completa do servidor e atualiza o cabeçalho do item mensagem localmente. 
+Durante esse Estado, o cliente atualiza o cabeçalho de uma mensagem em um repositório local. O repositório local entra nesse estado no **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)** e sai quando **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** é chamado. Durante esse Estado, o Outlook Inicializa membros da estrutura de dados do **HDRSYNC** associada com informações sobre o cabeçalho de uma mensagem. O cliente primeiro baixa o item de mensagem completo do servidor e, em seguida, atualiza o cabeçalho do item de mensagem localmente. 
   
-Quando a sincronização for encerrada, o cliente define os resultados de download. Armazenamento local retorna ao estado ocioso.
+Quando o sincronização termina, o cliente define os resultados do download. O repositório local retorna ao estado ocioso.
   
 ## <a name="see-also"></a>Confira também
 
@@ -49,5 +49,5 @@ Quando a sincronização for encerrada, o cliente define os resultados de downlo
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

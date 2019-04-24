@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 83940d9239bc172d5fab76232f6644f0e89033b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338014"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propriedade canônica PidTagConflictItems
 
@@ -25,7 +25,7 @@ ms.locfileid: "25386723"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma ou mais IDs de itens que participaram de resolução de conflitos automática de entrada.
+Contém uma ou mais IDs de entrada de itens que estão envolvidos em uma resolução de conflitos automática.
   
 ## 
 
@@ -34,38 +34,38 @@ Contém uma ou mais IDs de itens que participaram de resolução de conflitos au
 |Propriedades associadas:  <br/> |PR_CONFLICT_ITEMS  <br/> |
 |Identificador:  <br/> |0x1098  <br/> |
 |Tipo de propriedade:  <br/> |PT_MV_BINARY  <br/> |
-|Área:  <br/> |ICS  <br/> |
+|Área:  <br/> |PARTILHA  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Os tipos de itens padrão do Microsoft Outlook que oferecem suporte a resolução de conflito automática incluem os seguintes tipos de item padrão: itens de compromisso, itens de contato, itens de diário, itens de email, itens de reunião, itens de nota e itens de tarefa. Um item que pertence a uma classe de mensagem que derive de um desses tipos de item padrão também dá suporte a resolução de conflitos automática. No Microsoft Outlook 2003 e o Microsoft Office Outlook 2007, quando o Outlook sincroniza os itens e considera que existe uma possibilidade de que a cópia resultante não pode conter todos os dados essenciais, o Outlook armazena as cópias conflitantes nos **conflitos** pasta, sob a pasta **Problemas de sincronização** . 
+Os tipos de itens padrão do Microsoft Outlook que oferecem suporte à resolução de conflitos automática incluem os seguintes tipos de item padrão: itens de compromisso, itens de contato, itens de diário, itens de email, itens de reunião, itens de anotação adesiva e itens de tarefa. Um item pertencente a uma classe de mensagem que deriva de um desses tipos de item padrão também oferece suporte à resolução de conflitos automática. No Microsoft Outlook 2003 e no Microsoft Office Outlook 2007, quando o Outlook sincroniza itens e considera que há uma possibilidade de que a cópia resultante não possa conter todos os dados essenciais, o Outlook armazena as cópias conflitantes nos **conflitos** na pasta problemas de **sincronização** . 
   
 > [!NOTE]
-> **Problemas de sincronização** e suas subpastas estão ocultas até você clicar em **Lista de pastas** no menu **Ir** . 
+> **Problemas de sincronização** e suas subpastas ficam ocultos até você clicar em **lista de pastas** no menu **ir** . 
   
-Um item expõe a propriedade **PR_CONFLICT_ITEMS** se ele é um dos tipos de item que oferecem suporte a resolução de conflito automática, ganhou em uma resolução de conflito ou foi colocado na pasta **conflitos** devido a uma resolução de conflito. A pasta na qual o item é colocado determina o conteúdo de **PR_CONFLICT_ITEMS**. Se o item está localizado em alguma pasta que não seja a pasta **conflitos** e o item expõe a propriedade **PR_CONFLICT_ITEMS** , o item deve ter won a resolução de conflito e **PR_CONFLICT_ITEMS** conteria identificações de entrada de uma ou mais das os itens que perdidas na resolução de conflito. Se o item está localizado na pasta **conflitos** e o item expõe a propriedade **PR_CONFLICT_ITEMS** , esse item deve ter perdido a resolução de conflito e **PR_CONFLICT_ITEMS** conteria a identificação de entrada do item que won no conflito resolução. 
+Um item expõe a propriedade **PR_CONFLICT_ITEMS** se for um dos tipos de item que oferecem suporte à resolução de conflitos automática, venceu em uma resolução de conflitos ou foi colocado na pasta **conflitos** devido a uma resolução de conflito. A pasta na qual o item é colocado determina o conteúdo do **PR_CONFLICT_ITEMS**. Se o item está localizado em alguma pasta diferente da pasta **conflitos** e o item expõe a propriedade **PR_CONFLICT_ITEMS** , o item deve ter ganho a resolução de conflitos e o **PR_CONFLICT_ITEMS** conteria uma ou mais IDs de entrada de os itens que foram perdidos na resolução de conflitos. Se o item está localizado na pasta **conflitos** e o item expõe a propriedade **PR_CONFLICT_ITEMS** , este item deve ter perdido a resolução de conflitos e **PR_CONFLICT_ITEMS** conteria a identificação de entrada do item que venceu no conflito solução. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências relacionados especificações de protocolo do Exchange Server e as definições de conjunto de propriedades.
+> Fornece definições e referências de conjuntos de propriedades para especificações de protocolo do Exchange Server relacionadas.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Trata-se de sincronização de dados de objeto de mensagens entre um servidor e um cliente.
+> Manipula a sincronização de dados do objeto Messaging entre um servidor e um cliente.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -75,7 +75,7 @@ Mapitags.h
   
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

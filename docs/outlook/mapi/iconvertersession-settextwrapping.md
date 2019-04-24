@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a89f6dd14e8bbea9d0d4145dc05bf332af95234a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8a6546c38c629c193c1978998c95918943fe5c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336628"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573626"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define o largura de um fluxo MIME que o conversor vai retornar em [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)de quebra de texto.
+Define a largura de disposição do texto para um fluxo MIME que o conversor retornará no [IConverterSession:: MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -38,26 +38,26 @@ HRESULT IConverterSession::SetTextWrapping (
 
  *fWrapText* 
   
-> [in] Se deseja quebrar texto automaticamente ou não.
+> no Se o texto deve ser quebrado ou não.
     
  *ulWrapWidth* 
   
-> [in] O texto quebra largura usar.
+> no A largura da disposição do texto a ser usada.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK
   
 > A chamada foi bem-sucedida.
     
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
+|MapiMime. cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para converter um arquivo EML em uma mensagem MAPI.  <br/> |
+|MapiMime. cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para converter uma mensagem MAPI em um arquivo EML.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -78,5 +78,5 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
 
 
-[Constantes MAPI](mapi-constants.md)
+[Constantes de MAPI](mapi-constants.md)
 

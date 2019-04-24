@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 7ff6df6eddc8e610341cb09ccb152f4ad748a984
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336530"
 ---
 # <a name="pidtagsearchfolderlastused-canonical-property"></a>Propriedade canônica PidTagSearchFolderLastUsed
 
@@ -32,33 +32,33 @@ Representa a última vez em que a pasta foi acessada.
 |Propriedades associadas:  <br/> |PR_WB_SF_LAST_USED  <br/> |
 |Identificador:  <br/> |0x6834  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Pesquisar  <br/> |
+|Área:  <br/> |Pesquisa  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade deve ser formatada como o número de minutos desde a meia-noite Tempo Universal Coordenado (UTC) em 1 de janeiro de 1601.
+Essa propriedade deve ser formatada como o número de minutos desde o tempo universal coordenado da meia-noite (UTC) de 1º de janeiro de 1601.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a manipulação de uma configuração de lista da pasta de pesquisa.
+> Especifica as propriedades e operações para manipular uma configuração de lista de pastas de pesquisa.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

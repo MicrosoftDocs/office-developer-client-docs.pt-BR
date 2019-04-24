@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251510
 localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
-description: Aplica o padrão de linha, o padrão de preenchimento ou o fim de linha denominado nome à forma quando colocada na célula LinePattern, FillPattern, BeginArrow ou EndArrow.
-ms.openlocfilehash: 0b6668e57a8f997a69fece51cbc5bd1b1574a576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Aplica o padrão de linha, o padrão de preenchimento ou o nome de fim de linha chamado à forma quando colocado na célula LinePattern, FillPattern, BeginArrow ou endArrow.
+ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337146"
 ---
 # <a name="use-function"></a>Função USE
 
-Aplica o padrão de linha, o padrão de preenchimento ou o fim de linha denominado _nome_ à forma quando colocada na célula LinePattern, FillPattern, BeginArrow ou EndArrow. 
+Aplica o padrão de linha, o padrão de preenchimento ou o _nome_ de fim de linha chamado à forma quando colocado na célula LinePattern, FillPattern, BeginArrow ou endarrow. 
   
 ## <a name="syntax"></a>Sintaxe
 
-USO ("* * *nome* * *") 
+USE ("* * *nome* * *") 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
 | _name_ <br/> |Obrigatório  <br/> |**String** <br/> |Qualquer cadeia de caracteres que seja um nome de mestre válido.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
-Se um mestre chamado _name_ estiver presente no estêncil do documento do documento, o padrão será aplicado como um padrão de linha, o padrão de preenchimento, uma seta inicial ou seta final. 
+Se um _nome_ mestre nomeado estiver presente no estêncil de documento do documento, o padrão será aplicado como um padrão de linha, padrão de preenchimento, seta de início ou seta de fim. 
   
 Essa função sempre retornará 254.
   

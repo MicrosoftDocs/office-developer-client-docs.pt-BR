@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7bcaf230eed9cf21388b68f06ab678dc143f64ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c33633c4decd697cf241f8b7c27360f776a1ade
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332757"
 ---
 # <a name="proptype"></a>PROP_TYPE
 
@@ -25,11 +25,11 @@ ms.locfileid: "22571819"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Retorna o tipo de propriedade de uma marca de propriedade especificado.
+Retorna o tipo de propriedade de uma marca de propriedade especificada.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
@@ -44,9 +44,9 @@ PROP_TYPE (ulPropTag)
     
 ## <a name="remarks"></a>Comentários
 
-A macro **PROP_TYPE** pode ser usada para determinar o tipo de uma propriedade. Por exemplo, chamando PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) resultados no valor PT_BINARY sendo retornados.
+A macro **PROP_TYPE** pode ser usada para determinar o tipo de uma propriedade. Por exemplo, chamar PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) resulta no valor PT_BINARY que está sendo retornado.
   
-A marca de cada propriedade contém o tipo de propriedade da palavra de ordem baixa (0 a 15 bits) e o identificador de propriedade da palavra de ordem alta (16 a 31 bits). A macro **PROP_TYPE** extrai o tipo de propriedade e a coloca em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos com zeros. 
+Cada marca de propriedade contém o tipo de propriedade na palavra de ordem inferior (bits 0 a 15) e o identificador de propriedade na palavra de ordem alta (bits 16 a 31). A macro **PROP_TYPE** extrai o tipo de propriedade e a coloca em bits 0 a 15 do inteiro a ser retornado. Os bits restantes do valor de retorno são definidos como zeros. 
   
 ## <a name="see-also"></a>Confira também
 

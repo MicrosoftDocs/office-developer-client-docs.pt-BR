@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 56bf1366cdd44fac185277280d2e8ab80c644c45
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2e75bc6f8e14258787a6c9d80dfbf6334ec698b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336510"
 ---
 # <a name="srow"></a>SRow
 
@@ -27,7 +27,7 @@ Descreve uma linha de uma tabela que contém as propriedades selecionadas para u
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SRow
@@ -43,21 +43,21 @@ typedef struct _SRow
 
 **ulAdrEntryPad**
   
-> Preenchimento bytes para alinhar adequadamente os valores de propriedade apontado pelo membro **lpProps** . 
+> Os bytes de preenchimento para alinhar corretamente os valores de propriedade apontados pelo membro **lpProps** . 
     
 **cValues**
   
-> Contagem de valores de propriedade apontado pela **lpProps**. 
+> Contagem de valores de propriedade apontados por **lpProps**. 
     
 **lpProps**
   
-> Ponteiro para uma matriz de estruturas de [SPropValue](spropvalue.md) que descrevem os valores de propriedade para as colunas na linha. 
+> Ponteiro para uma matriz de estruturas [SPropValue](spropvalue.md) que descrevem os valores de propriedade para as colunas na linha. 
     
 ## <a name="remarks"></a>Comentários
 
 Uma estrutura **SRow** descreve uma linha em uma tabela. Ele está incluído na estrutura [TABLE_NOTIFICATION](table_notification.md) que acompanha uma notificação de tabela. 
   
-Estruturas de **SRow** são usadas nos seguintes métodos: 
+As estruturas **SRow** são usadas nos seguintes métodos: 
   
 - [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md)
     
@@ -75,17 +75,17 @@ Estruturas de **SRow** são usadas nos seguintes métodos:
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-Quando mais de uma linha precisa ser descrito, uma estrutura de [SRowSet](srowset.md) é usada. Uma estrutura **SRowSet** contém uma matriz de estruturas de **SRow** e uma contagem de estruturas na matriz. 
+Quando mais de uma linha precisa ser descrita, uma estrutura [SRowSet](srowset.md) é usada. Uma estrutura **SRowSet** contém uma matriz de estruturas **SRow** e uma contagem de estruturas na matriz. 
   
-A ilustração a seguir mostra a relação entre um **SRow** e uma estrutura de dados **SRowSet** . 
+A ilustração a seguir mostra a relação entre um **SRow** e uma estrutura de dados do **SRowSet** . 
   
 **Relationship between SRow and SRowSet**
   
 ![Relação entre SRow e SRowSet] (media/amapi_17.gif "Relação entre SRow e SRowSet")
   
-Estruturas de **SRow** são definidas iguais [ADRENTRY](adrentry.md) estruturas. Portanto, uma linha de uma tabela de destinatário e uma entrada em uma lista de endereços pode ser tratados da mesma. 
+As estruturas **SRow** são definidas da mesma forma que as estruturas [ADRENTRY](adrentry.md) . Portanto, uma linha de uma tabela de destinatários e uma entrada em uma lista de endereços podem ser tratados da mesma forma. 
   
-Para obter informações sobre como a memória para as estruturas de **SRow** deve ser alocada, consulte [Gerenciar memória para ADRLIST e estruturas de SRowSet](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obter informações sobre como a memória para estruturas **SRow** devem ser alocadas, consulte [Managing Memory for das ADRLIST and SRowSet structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -94,5 +94,5 @@ Para obter informações sobre como a memória para as estruturas de **SRow** de
 - [SRowSet](srowset.md)
 - [TABLE_NOTIFICATION](table_notification.md)
 - [Estruturas MAPI](mapi-structures.md)
-- [Gerenciar memória das estruturas ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+- [Gerenciando memória para estruturas das ADRLIST e SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: Determina se as formas podem ser posicionadas sobre quebras de página quando estão alinhadas ou espaçadas de forma incremental, ou ambos.
-ms.openlocfilehash: 045ceca430c6c285ad4e454b9d17f9dbd7492a4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ff5a31e26cc1ab9415eb69b76fc9f64ccd1ae7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338721"
 ---
 # <a name="avoidpagebreaks-cell-page-layout-section"></a>Célula AvoidPageBreaks (Seção Page Layout)
 

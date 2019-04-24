@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm65
 localization_priority: Normal
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
-description: Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
-ms.openlocfilehash: efb29181414957063e038b97c2d7b79720aa0405
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338819"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>Célula AvenueSizeX (Seção Page Layout)
 
-Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Novo Layout de página**e, em seguida, clique em * * mais Opções de layout * *).
+Determina a quantidade de espaço horizontal entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout da página**e, em seguida, clique em * * mais Opções de layout * *).
   
 ## <a name="remarks"></a>Comentários
 

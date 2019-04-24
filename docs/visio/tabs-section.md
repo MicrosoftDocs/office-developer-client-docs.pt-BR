@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6c6485c6-629c-9aef-d3da-117f34e71cde
 description: Contém as células para as formas ou os estilos que controlam o alinhamento e a posição de paradas de tabulação.
-ms.openlocfilehash: 1c4713946ba54a9286e15d37ae68f9f7d748c5a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a543d0a96be8ad3aee485f4171ab3efcdb53d8d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332449"
 ---
 # <a name="tabs-section"></a>Seção Tabs
 
@@ -22,7 +22,7 @@ Contém as células para as formas ou os estilos que controlam o alinhamento e a
   
 ## <a name="remarks"></a>Comentários
 
-Você também pode definir esses valores usando a guia **guias** na caixa de diálogo **texto** (clique iniciador de caixa de diálogo do grupo **fonte** na guia **página inicial** ) ou por meio da **Régua de texto**. Para exibir a **Régua de texto**, com o botão direito do texto no modo de edição de texto e, em seguida, clique em **Régua de texto** no menu de atalho. 
+Você também pode definir esses valores usando a guia **guias** da caixa de diálogo **texto** (clique em iniciador da caixa de diálogo no grupo **fonte** da guia **página inicial** ) ou usando a **régua de texto**. Para mostrar a **Régua de Texto**, clique com o botão direito do mouse no texto no modo de edição de texto e clique em **Régua de Texto** no menu de atalho. 
   
 Defina as paradas de tabulação para caracteres específicos selecionando o texto e definindo a parada de tabulação. Ao definir paradas de tabulação para caracteres específicos, uma nova linha é adicionada na janela ShapeSheet. O nome da linha representa o número que a parada de tabulação contém.
   

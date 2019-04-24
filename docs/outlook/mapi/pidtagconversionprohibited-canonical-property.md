@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1badffdb3dfcb154e69beaa18fe850b545496707
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334668"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriedade canônica PidTagConversionProhibited
 
@@ -25,7 +25,7 @@ ms.locfileid: "22593939"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Conterá TRUE se as conversões de mensagem estão proibidas por padrão para o usuário de mensagens associado.
+Contém TRUE se as conversões de mensagem são proibidas por padrão para o usuário de mensagens associado.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Conterá TRUE se as conversões de mensagem estão proibidas por padrão para o 
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

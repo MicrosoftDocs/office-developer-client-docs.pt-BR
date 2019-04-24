@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e0e2f9b794c4cee25488a754290922e58b7658d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338868"
 ---
 # <a name="upmsg"></a>UPMSG
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações de carregamento de um item do Outlook durante o [carregamento do estado da mensagem](upload-message-state.md).
+Informações para carregar um item do Outlook durante o [estado de mensagem de carregamento](upload-message-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -42,79 +42,79 @@ struct UPMSG
 
  _ulFlags_
   
-> [out] / [in] sinalizadores para determinar o comportamento apropriado durante o carregamento. 
+> [out]/[in] flags para determinar o comportamento apropriado durante o carregamento. 
     
   - UPM_ASSOC
     
-    - [out] Item está associado.
+    - bota Item está associado.
     
   - UPM_NEW
     
-    - [out] Novo item. 
+    - bota Novo item. 
     
   - UPM_MOV
     
-    - [out] Item foi movido aqui.
+    - bota O item foi movido aqui.
     
   - UPM_MOD_PROPS
     
-    - [out] Propriedades do item foram modificadas.
+    - bota As propriedades do item foram modificadas.
     
   - UPM_HEADER
     
-    - [out] O item é o cabeçalho da mensagem.
+    - bota Item é um cabeçalho de mensagem.
     
   - UPM_OK
     
-    - [in] Carregamento foi bem-sucedida. O cliente define esta após carregar as informações para o servidor.
+    - no O upload foi bem-sucedido. O cliente define isso após carregar informações no servidor.
     
   - UPM_MOVED
     
-    - [in] Item foi movido com êxito.
+    - no O item foi movido com êxito.
     
   - UPM_COMMIT
     
-    - [in] Confirme o estado de carregamento agora.
+    - no Confirme o estado de carregamento agora.
     
   - UPM_DELETE
     
-    - [in] Exclua item agora.
+    - no Excluir o item agora.
     
   - UPM_SAVE
     
-    - [in] Salve alterações no item.
+    - no Salvar alterações no item.
     
-_pmsg_
+_pMsg_
   
-> [out] Objeto de item aberto. Consulte mapidefs.h para a definição de tipo de **LPMESSAGE**. 
+> bota Objeto Open item. Consulte mapidefs. h para a definição de tipo de **lpMessage**. 
     
-_meid_
+_MEID_
   
-> [out] Identificação de entrada do item.
+> bota ID de entrada do item.
     
 _binReserved1_
   
-> [in] Este membro é reservado para uso interno do Outlook e não é suportado. 
+> no Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _binReserved2_
   
-> [in] Este membro é reservado para uso interno do Outlook e não é suportado. 
+> no Este membro é reservado para uso interno do Outlook e não tem suporte. 
     
 _feid_
   
-> [out] Identificação de entrada da pasta de origem, se o item foi movido.
+> bota ID de entrada da pasta de origem, se o item foi movido.
     
 _binChg_
   
-> [out] Alterar chave do item de destino, se o item foi movido. Consulte mapidefs.h para a definição de tipo de **SBinary**. 
+> bota Altere a chave do item de destino, se o item foi movido. Consulte mapidefs. h para a definição de tipo de **SBinary**. 
     
 _binPcl_
   
-> [out] Alterar a lista do item de destino, se o item foi movido. Consulte mapidefs.h para a definição de tipo de **SBinary**. 
+> bota Altere a lista do item de destino, se o item foi movido. Consulte mapidefs. h para a definição de tipo de **SBinary**. 
     
 _skeySrc_
   
-> [out] Chave de origem do item de origem, se o item foi movido.
+> bota Chave de origem do item de origem, se o item foi movido.
     
 ## <a name="see-also"></a>Confira também
 

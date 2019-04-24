@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c89a0a86ac733cd2cce1efc071e47fcb011fec18
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bd5a030d11577c2afabb8a2253cf4f6129814cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339232"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Propriedade canônica PidTagSubjectMessageId
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573065"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um valor binário que é copiado da mensagem para o qual um relatório está sendo gerado. 
+Contém um valor binário que é copiado da mensagem para a qual um relatório está sendo gerado. 
   
 |||
 |:-----|:-----|
@@ -42,13 +42,13 @@ Essa propriedade, como a propriedade **PR_REPORT_TAG** ([PidTagReportTag](pidtag
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

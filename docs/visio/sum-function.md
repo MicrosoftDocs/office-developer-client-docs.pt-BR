@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
 description: Retorna a soma de uma lista de números.
-ms.openlocfilehash: a64de440868c055ed917b7646a7c1d81318e3eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 749bf1620a26c6f4cf793a2f9e596d5720175be0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332491"
 ---
 # <a name="sum-function"></a>Função SUM
 
@@ -22,23 +22,23 @@ Retorna a soma de uma lista de números.
   
 ## <a name="syntax"></a>Sintaxe
 
-Soma (* * *Número1* * *, * * *número2* * *,..., * * *[numberN]* * *) 
+SUM (* * *número1* * *, * * *núm2* * *,..., * * *[numbern]* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _Número1_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O primeiro número.  <br/> |
-| _Número2_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O segundo número.  <br/> |
-| _numberN_ <br/> |Opcional  <br/> |**Numérico** <br/> |O enésimo número.  <br/> |
+| _número1_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O primeiro número.  <br/> |
+| _número2_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O segundo número.  <br/> |
+| _numerada_ <br/> |Opcional  <br/> |**Numeric** <br/> |O enésimo número.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Numérico
+Numeric
   
 ## <a name="example"></a>Exemplo
 
-SUM(5,7,12)
+SOMA (5, 7, 12)
   
 Retornará 24.
   

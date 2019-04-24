@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: Especifica a margem inferior da página.
-ms.openlocfilehash: fb67cf87f5e50719d24b0f354acc93209eed8811
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f546d89b8761c6c1b7340af69d2b48f16c180767
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334409"
 ---
 # <a name="pagebottommargin-cell-print-properties-section"></a>Célula PageBottomMargin (Seção Print Properties)
 

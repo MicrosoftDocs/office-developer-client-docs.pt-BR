@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fa04f897687fb96431225b297399df977dbf944f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339918"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriedade canônica PidTagAssociatedContentCount
 
@@ -25,30 +25,30 @@ ms.locfileid: "22573506"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a contagem de itens do índice de conteúdo associado da pasta.
+Contém a contagem de itens na tabela de conteúdo associada da pasta.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificador:  <br/> |0x3617  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Pasta  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém o número de entradas na tabela de conteúdo da pasta. 
+Esta propriedade contém o número de entradas na tabela de conteúdo da pasta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

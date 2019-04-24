@@ -1,5 +1,5 @@
 ---
-title: Iniciar sessão MAPI
+title: Iniciar uma sessão MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,46 +9,46 @@ api_type:
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336341"
 ---
-# <a name="starting-a-mapi-session"></a>Iniciar sessão MAPI
+# <a name="starting-a-mapi-session"></a>Iniciar uma sessão MAPI
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Embora não haja uma quantidade significativa de trabalho executado durante a sessão de inicialização, as tarefas necessárias são mínimas. Muito desse trabalho é feito de MAPI processamento das chamadas [MAPIInitialize](mapiinitialize.md) e [MAPILogonEx](mapilogonex.md) . Ambas as funções aceitam sinalizadores como parâmetros de entrada para controlar os aspectos da sessão como tratamento de notificação e a interface do usuário. É importante entender as consequências de configuração de cada um desses sinalizadores ao chamar **MAPIInitialize** para inicializar as bibliotecas MAPI e **MAPILogonEx** para fazer logon no subsistema de MAPI. 
+Embora haja uma quantidade significativa de trabalho executado durante a inicialização da sessão, as tarefas necessárias são mínimas. Grande parte desse trabalho é feita no processamento de MAPI das chamadas [MAPIInitialize](mapiinitialize.md) e [funçãomapilogonex](mapilogonex.md) . Ambas as funções aceitam sinalizadores como parâmetros de entrada para controlar os aspectos da sessão, como tratamento de notificações e a interface do usuário. É importante entender as conseqüências da configuração de cada um desses sinalizadores ao chamar **MAPIInitialize** para inicializar as bibliotecas MAPI e o **funçãomapilogonex** para fazer logon no subsistema MAPI. 
   
  **Para iniciar uma sessão MAPI**
   
 1. Chame **MAPIInitialize** para inicializar o conjunto padrão de bibliotecas MAPI. 
     
-2. Se você precisa usar as bibliotecas OLE, chamar a função OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. Se você precisar usar as bibliotecas OLE, chame a função OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
-3. Se você precisar usar a biblioteca do utilitário MAPI, chame [ScInitMapiUtil](scinitmapiutil.md).
+3. Se você precisar usar a biblioteca de utilitários MAPI, chame [ScInitMapiUtil](scinitmapiutil.md).
     
-4. Chame **MAPILogonEx** com um perfil válido para fazer logon no subsistema de MAPI. **MAPILogonEx** verifica a configuração de cada um dos provedores de serviço nos serviços de mensagem incluídos no perfil, avisar o usuário para obter informações adicionais, se necessário e possíveis. Quando terminar de **MAPILogonEx** , os provedores de serviço configurado estão prontos para o serviço. 
+4. Chame **funçãomapilogonex** com um perfil válido para fazer logon no subsistema MAPI. **Funçãomapilogonex** verifica a configuração de cada provedor de serviços nos serviços de mensagens incluídos no perfil, solicitando ao usuário informações adicionais, se necessário. Quando o **funçãomapilogonex** é concluído, os provedores de serviços configurados estão prontos para o serviço. 
     
 ## <a name="in-this-section"></a>Nesta seção
 
 [Iniciar MAPI](initializing-mapi.md)
   
-> Descreve como inicializar MAPI para uma sessão.
+> Descreve como inicializar o MAPI para uma sessão.
     
 [Iniciar OLE para MAPI](initializing-ole-for-mapi.md)
   
-> Descreve as chamadas para fazer para inicializar o OLE para uso com MAPI.
+> Descreve as chamadas a serem feitas para inicializar o OLE para uso com MAPI.
     
-[Inicializar os utilitários MAPI](initializing-the-mapi-utilities.md)
+[Inicializando os utilitários MAPI](initializing-the-mapi-utilities.md)
   
 > Descreve como inicializar utilitários MAPI.
     
 [Fazer logon no MAPI](logging-on-to-mapi.md)
   
-> Descreve como aplicativos cliente faça logon no sistema de sub MAPI.
+> Descreve como os aplicativos cliente fazem logon no sub-sistema MAPI.
     
 

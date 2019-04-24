@@ -8,37 +8,37 @@ api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 56847283afaf41c1d45cdb875ddf49eaa5881175
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339932"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Exibir uma tabela de conteúdo da pasta
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A tabela de conteúdo de uma pasta contém informações de resumo sobre todas as suas mensagens. Informações de resumo sobre novas mensagens de entrada é exibida na tabela de conteúdo da pasta de recebimento para a classe da mensagem. Para disponibilizar essas informações para usuários, recuperar a tabela e exibir as colunas e linhas conforme apropriado.
+A tabela de conteúdo de uma pasta contém informações resumidas sobre todas as suas mensagens. Informações de resumo sobre novas mensagens de entrada são exibidas na tabela de conteúdo da pasta de recebimento da classe de mensagem. Para disponibilizar essas informações aos usuários, recupere a tabela e exiba as colunas e linhas conforme apropriado.
   
-**Para exibir uma tabela de conteúdo de pasta**
+**Para exibir uma tabela de conteúdo da pasta**
   
-1. Chame [IMsgStore::OpenEntry](imsgstore-openentry.md), passando o identificador de entrada da pasta que contém a tabela.
+1. Chame [IMsgStore:: OpenEntry](imsgstore-openentry.md), passando o identificador de entrada da pasta que contém a tabela.
     
-2. Chame o método de [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) da pasta para abrir a tabela de seu conteúdo. 
+2. Chame o método [IMAPIContainer::](imapicontainer-getcontentstable.md) getcontenttable da pasta para abrir sua tabela de conteúdo. 
     
-3. Limite de sua exibição da tabela conteúdo se desejado, chamando o método da tabela [IMAPITable::SetColumns](imapitable-setcolumns.md) para especificar colunas específicas. 
+3. Limite o modo de exibição da tabela de conteúdo se quiser chamar o método [IMAPITable::](imapitable-setcolumns.md) SetColumns para especificar colunas específicas. 
     
-4. Limite sua exibição da tabela de conteúdo, se desejado, chamando o método da tabela [IMAPITable:: Restrict](imapitable-restrict.md) para filtrar linhas específicas. Se, por exemplo, você deseja mostrar somente as mensagens com uma classe de mensagem específica que ainda precisam ser lido: 
+4. Limite a exibição da tabela de conteúdo, se desejado, chamando o método [IMAPITable:: Restrict](imapitable-restrict.md) da tabela para filtrar linhas específicas. Se, por exemplo, você quiser mostrar apenas as mensagens com uma classe de mensagem específica que ainda devem ser lidas: 
     
-    1. Crie uma restrição de propriedade em uma estrutura de [SPropertyRestriction](spropertyrestriction.md) que corresponda a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) com a classe de mensagem desejado. 
+    1. Crie uma restrição de propriedade em uma estrutura [SPropertyRestriction](spropertyrestriction.md) que coincida com a propriedade **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) com a classe de mensagem desejada. 
         
-    2. Crie uma restrição de bitmask em uma estrutura de [SBitMaskRestriction](sbitmaskrestriction.md) que usa **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como a marca de propriedade e o valor MSGFLAG_UNREAD como a máscara.
+    2. Crie uma restrição de bitmask em uma estrutura [SBitMaskRestriction](sbitmaskrestriction.md) que usa **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como a marca de propriedade e o valor de MSGFLAG_UNREAD como máscara.
         
-    3. Crie uma restrição em uma estrutura de [SAndRestriction](sandrestriction.md) que une as restrições de propriedade e bitmask. 
+    3. Criar uma restrição em uma estrutura [SAndRestriction](sandrestriction.md) que une as restrições de propriedade e bitmask. 
     
-5. Classificar a tabela de conteúdo, se desejado, chamando o método da tabela [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+5. Classifique a tabela de conteúdo se desejar chamando o método imApitable [:: SortTable](imapitable-sorttable.md) da tabela. 
     
-6. Chame [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela de conteúdo para processamento. 
+6. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas as linhas da tabela de conteúdo para processamento. 
     
 

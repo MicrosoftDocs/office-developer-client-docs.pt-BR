@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6d9e99b8-fcd6-f36b-960e-bcf3a23afe04
 ms.openlocfilehash: eabfe218414874cdc7f10234ed6eeb1fa2f75cf4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334941"
 ---
 # <a name="commententrytype-complextype-visio-xml"></a>CommentEntry_Type complexType ('Visio XML')
 
@@ -80,7 +80,7 @@ Nenhum.
 |AutoCommentType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |Data  <br/> |xsd:dateTime  <br/> |obrigatório  <br/> ||Valores do tipo xsd:dateTime.  <br/> |
-|Concluído  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
+|Done  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores do tipo xsd:boolean.  <br/> |
 |EditDate  <br/> |xsd:dateTime  <br/> |opcional  <br/> ||Valores do tipo xsd:dateTime.  <br/> |
 |PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |
 |ShapeID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores do tipo xsd:unsignedInt.  <br/> |

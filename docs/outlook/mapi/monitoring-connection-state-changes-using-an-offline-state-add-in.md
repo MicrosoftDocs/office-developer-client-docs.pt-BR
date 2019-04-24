@@ -1,36 +1,36 @@
 ---
-title: Monitoramento de alterações de estado de conexão usando um suplemento de estado offline
+title: Monitorar alterações de estado de conexão usando um suplemento de estado offline
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d8385b2379f2fde8689ae2c7fc5d177af696f22e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d24a6d93943883a5503b57ef223d9be777af13d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338812"
 ---
-# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Monitoramento de alterações de estado de conexão usando um suplemento de estado offline
+# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Monitorar alterações de estado de conexão usando um suplemento de estado offline
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Antes de poder usar um suplemento do estado offline para monitorar as alterações de estado de conexão, você deve implementar funções para configurar e inicializar o suplemento. Para obter mais informações, consulte [Add-in de configuração para cima uma Offline estado](setting-up-an-offline-state-add-in.md).
+Antes de poder usar um suplemento de estado offline para monitorar alterações de estado de conexão, você deve implementar funções para configurar e inicializar o suplemento. Para obter mais informações, consulte conFigurando [um suplemento de estado offline](setting-up-an-offline-state-add-in.md).
   
-Depois de configurar o suplemento do estado offline, você deve usar a função **[HrOpenOfflineObj](hropenofflineobj.md)** para obter um objeto offline. Com esse objeto offline, você pode inicializar o monitor de estado e, em seguida, obter e definir o estado atual. 
+Depois de configurar o suplemento de estado offline, você deve usar a função **[HrOpenOfflineObj](hropenofflineobj.md)** para obter um objeto offline. Usando este objeto offline, você pode inicializar seu monitor de estado e, em seguida, obter e definir o estado atual. 
   
-Neste tópico, essas funções de monitoramento de estado são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento de amostra Offline estado é um suplemento de COM que adiciona um menu de **Estado Offline** para o Outlook e utiliza a API de estado Offline. Através do menu de **Estado Offline** , você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
+Neste tópico, essas funções de monitoramento de estado são demonstradas usando exemplos de código do suplemento de exemplo offline. O exemplo de suplemento de estado offline é um suplemento de COM que adiciona um menu de **estado offline** ao Outlook e utiliza a API de estado offline. No menu **estado offline** , você pode habilitar ou desabilitar o monitoramento de estado, verificar o estado atual e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
   
-Quando o suplemento de estado offline está desconectado, você precisa implementar funções para encerrar corretamente e limpar o suplemento. Para obter mais informações, consulte [desconectando um suplemento do estado Offline](disconnecting-an-offline-state-add-in.md).
+Quando o suplemento de estado offline está desconectado, você precisa implementar funções para encerrar corretamente e limpar o suplemento. Para obter mais informações, consulte [desconectar um suplemento de estado offline](disconnecting-an-offline-state-add-in.md).
   
-## <a name="open-offline-object-routine"></a>Rotina aberta do objeto Offline
+## <a name="open-offline-object-routine"></a>Abrir rotina de objeto offline
 
-Para o cliente ser notificado quando ocorre uma alteração de estado de conexão, você deve chamar a função **[HrOpenOfflineObj](hropenofflineobj.md)** . Essa função abre um objeto offline que suporta **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. A função **HrOpenOfflineObj** é definida no arquivo de cabeçalho ConnectionState.h. 
+Para que o cliente seja notificado quando uma alteração de estado de conexão ocorrer, você deve chamar a função **[HrOpenOfflineObj](hropenofflineobj.md)** . Essa função abre um objeto offline que oferece suporte a **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. A função **HrOpenOfflineObj** é definida no arquivo de cabeçalho ConnectionState. h. 
   
 > [!NOTE]
-> A função **HrOpenOfflineObj** é declarada como se segue no arquivo de cabeçalho ImportProcs.h: `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`. 
+> A função **HrOpenOfflineObj** é declarada no arquivo de cabeçalho ImportProcs. h da `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`seguinte maneira:. 
   
 ### <a name="hropenofflineobj-example"></a>Exemplo de HrOpenOfflineObj
 
@@ -44,11 +44,11 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 );
 ```
 
-## <a name="initialize-monitor-routine"></a>Inicializar a rotina de Monitor
+## <a name="initialize-monitor-routine"></a>Inicializar rotina de monitor
 
-O `InitMonitor` função chama a função **HrOpenOfflineObj** . O `InitMonitor` função chama **CMyOfflineNotify** para que o Outlook possa enviar notificações de retorno de chamada para o cliente e registra o retorno de chamada através da variável **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** `AdviseInfo`.
+A `InitMonitor` função chama a função **HrOpenOfflineObj** . A `InitMonitor` função chama **CMyOfflineNotify** para que o Outlook possa enviar notificações de retorno de chamada ao cliente e registra o retorno de chamada `AdviseInfo`através da variável **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** .
   
-### <a name="initmonitor-example"></a>Exemplo de InitMonitor()
+### <a name="initmonitor-example"></a>Exemplo de InitMonitor ()
 
 ```cpp
 void InitMonitor(LPCWSTR szProfile) 
@@ -115,11 +115,11 @@ void InitMonitor(LPCWSTR szProfile)
 }
 ```
 
-## <a name="get-current-state-routine"></a>Rotina de estado atual de Get
+## <a name="get-current-state-routine"></a>Obter rotina de estado atual
 
-O `GetCurrentState` função chama a função **HrOpenOfflineObj** e então usa o objeto offline para obter o estado da conexão atual. O estado atual é retornado em tempo de `ulCurState` variável, que é usada a `CButtonEventHandler::Click` função para exibir o estado atual para o usuário. 
+A `GetCurrentState` função chama a função **HrOpenOfflineObj** e, em seguida, usa o objeto offline para obter o estado de conexão atual. O estado atual é retornado na `ulCurState` variável, que é usada na `CButtonEventHandler::Click` função para exibir o estado atual para o usuário. 
   
-### <a name="getcurrentstate-example"></a>Exemplo de GetCurrentState()
+### <a name="getcurrentstate-example"></a>Exemplo de getCurrentstate ()
 
 ```cpp
 ULONG (LPCWSTR szProfile) 
@@ -172,11 +172,11 @@ ULONG (LPCWSTR szProfile)
 }
 ```
 
-## <a name="set-current-state-routine"></a>Rotina de estado do conjunto atual
+## <a name="set-current-state-routine"></a>Definir rotina de estado atual
 
-O `SetCurrentState` função chama a função **HrOpenOfflineObj** e, em seguida, usa o objeto offline para definir o estado da conexão atual. O `CButtonEventHandler::Click` chamadas de função do `SetCurrentState` função e o novo estado é passado por meio do `ulState` variável. 
+A `SetCurrentState` função chama a função **HrOpenOfflineObj** e, em seguida, usa o objeto offline para definir o estado de conexão atual. A `CButtonEventHandler::Click` função chama a `SetCurrentState` função e o novo estado é passado através da `ulState` variável. 
   
-### <a name="setcurrentstate-example"></a>Exemplo de SetCurrentState()
+### <a name="setcurrentstate-example"></a>Exemplo de setCurrentstate ()
 
 ```cpp
 HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState) 
@@ -241,9 +241,9 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 
 ## <a name="notification-routine"></a>Rotina de notificação
 
-A função **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** é usada pelo Outlook para enviar notificações para um cliente quando houver alterações no estado de conexão. 
+A função **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)** é usada pelo Outlook para enviar notificações a um cliente quando há alterações no estado de conexão. 
   
-### <a name="cmyofflinenotifynotify-example"></a>Exemplo de CMyOfflineNotify::Notify()
+### <a name="cmyofflinenotifynotify-example"></a>CMyOfflineNotify:: notificar () exemplo
 
 ```cpp
 void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo) 
@@ -312,5 +312,5 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 - [Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
 - [Sobre a amostra de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
 - [Configurar um suplemento de estado offline](setting-up-an-offline-state-add-in.md)
-- [Desconectando um Offline suplemento State](disconnecting-an-offline-state-add-in.md)
+- [Desconectar um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
 

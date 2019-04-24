@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b401f54df020fb6553cbdcc5b85206ee422a8429
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338854"
 ---
 # <a name="uptbl"></a>UPTBL
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações para carregar o conteúdo de uma pasta durante a [carregar o estado da tabela](upload-table-state.md).
+Informações para carregar o conteúdo de uma pasta durante o estado de [carregamento da tabela](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -43,11 +43,11 @@ struct UPTBL
 
 _ulFlags_
   
-> [in] Sinalizadores para determinar o comportamento apropriado durante o carregamento.
+> no Sinalizadores para determinar o comportamento apropriado durante o carregamento.
     
   - UPT_OK
     
-    - [in] Carregamento foi bem-sucedida. O cliente define esta após carregar o conteúdo da pasta no servidor.
+    - no O upload foi bem-sucedido. O cliente define isso após carregar o conteúdo da pasta no servidor.
     
 _pstmReserved_
   
@@ -67,25 +67,25 @@ _uintReserved_
     
 _rgte_
   
-> [out] Estrutura para armazenar as seguintes informações para itens de normais (ou não ocultos) e os itens associados (ou ocultos) na pasta: _rgte [0]_ é para itens normais e _rgte [1]_ é para itens associados. 
+> bota Estrutura para armazenar as seguintes informações para itens normais (ou não ocultos) e itens associados (ou ocultos) na pasta: _rgte [0]_ é para itens normais e _rgte [1]_ é para itens associados. 
     
-   - o número de itens de novos ou modificados
+   - o número de itens novos ou modificados
    - o número de itens de leitura 
    - o número de itens excluídos
     
  _iEnt_
   
-> [out] Índice para rastrear carregando o número de alterações especificado pelo _cEnt_.
+> bota Índice para acompanhar o carregamento do número de alterações especificado por _cEnt_.
     
 _cEnt_
   
-> [out] Número de alterações para a pasta.
+> bota Número de alterações na pasta.
     
 _pupmovHead_
   
-> [out] Cadeia de estruturas [UPMOV](upmov.md) . 
+> bota Cadeia de estruturas [UPMOV](upmov.md) . 
     
-_Preservadas_
+_Enquanto_
   
 > [out] Esse membro é reservado para uso interno do Outlook e não tem suporte.
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d29e1f8e-bde8-4a6e-aee8-188cee94fe1a
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bbc652d03ef9046db08d9a56459a595073c5505b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da544e65e7d54c18211ec9bb79846dade25ae9a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334339"
 ---
 # <a name="cbsrowset"></a>CbSRowSet
 
@@ -25,11 +25,11 @@ ms.locfileid: "22574619"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura de [SRowSet](srowset.md) existente. 
+Calcula o número de bytes em uma estrutura [SRowSet](srowset.md) existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SRowSet** <br/> |
    
 ```cpp

@@ -1,31 +1,31 @@
 ---
-title: Elemento IssueTarget (Issue_Type complexType) ('Visio XML')
+title: Elemento IssueTarget (Issue_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
-description: Dependendo de destino do pai questão de validação, especifica a página, ou a página e forma, associada a questão de validação do pai. Se o destino da questão de validação do pai for um documento, IssueTarget especifica nem uma página nem uma forma.
+description: Dependendo do destino do problema de validação pai, especifica a página ou a página e a forma, associadas ao problema de validação pai. Se o destino do problema de validação pai for um documento, IssueTarget especificará nenhuma página nem uma forma.
 ms.openlocfilehash: 74005bfb6035e32b7b34fdd5a8a5737813a562a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332519"
 ---
-# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Elemento IssueTarget (Issue_Type complexType) ('Visio XML')
+# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Elemento IssueTarget (Issue_Type complexType) (' Visio XML ')
 
-Dependendo de destino do pai questão de validação, especifica a página, ou a página e forma, associada a questão de validação do pai. Se o destino da questão de validação do pai for um documento, **IssueTarget** especifica nem uma página nem uma forma. 
+Dependendo do destino do problema de validação pai, especifica a página ou a página e a forma, associadas ao problema de validação pai. Se o destino do problema de validação pai for um documento, **IssueTarget** especificará nenhuma página nem uma forma. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Validation.XML  <br/> |
+|**Partes do documento** <br/> |Validation. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Dependendo de destino do pai questão de validação, especifica a página, ou a
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Problema](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Representa uma questão de validação no documento.  <br/> |
+|[Problema](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Representa um único problema de validação no documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -50,9 +50,9 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da página que está associado a questão de validação do pai. Se o destino for o documento, o valor de PageID pode ser 0xFFFFFFFF.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|Identificação da forma  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da forma que está associado com a questão de validação do pai. Se o destino for um documento ou uma página, o valor de identificação da forma pode ser 0xFFFFFFFF.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da página associada ao problema de validação pai. Se o destino for o documento, o valor PageId poderá ser 0xFFFFFFFF.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |Especifica o identificador exclusivo da forma associada ao problema de validação pai. Se o destino for o documento ou uma página, o valor ShapeID poderá ser 0xFFFFFFFF.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
    
 

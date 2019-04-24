@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09dfe769eec5c2d1272732e2a0d8b1f5d484131c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332225"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22563721"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Calcula o número de bytes em uma estrutura de [SPropProblemArray](spropproblemarray.md) existente. 
+Calcula o número de bytes em uma estrutura [SPropProblemArray](spropproblemarray.md) existente. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Parâmetros
 
- __lparray_
+ __LPArray_
   
 > Ponteiro para a estrutura **SPropProblemArray** existente. 
     

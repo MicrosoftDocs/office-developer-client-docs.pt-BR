@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: ca31aece48236227a03d8e2114f8af4b127b8f90
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339351"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriedade canônica PidTagSubmitFlags
 
@@ -25,48 +25,48 @@ ms.locfileid: "25384140"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask dos sinalizadores indicando detalhes sobre o envio de uma mensagem.
+Contém uma bitmask de sinalizadores que indicam detalhes sobre um envio de mensagens.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identificador:  <br/> |0x0E14  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |MAPI não transmittable  <br/> |
+|Área:  <br/> |MAPI não-transmittable  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Um ou mais dos seguintes sinalizadores podem ser definidas para o bitmask **PR_SUBMIT_FLAGS** : 
+Um ou mais dos seguintes sinalizadores podem ser definidos para o bitmask **PR_SUBMIT_FLAGS** : 
   
 SUBMITFLAG_LOCKED 
   
-> O MAPI spooler atualmente tem a mensagem protegida. 
+> O spooler MAPI tem a mensagem bloqueada no momento. 
     
 SUBMITFLAG_PREPROCESS 
   
-> A mensagem precisa pré-processamento. Quando terminar do MAPI spooler pré-processamento essa mensagem, ele deve chamar o método [IMessage::SubmitMessage](imessage-submitmessage.md) . O provedor de armazenamento de mensagem reconhece que o spooler, em vez do aplicativo cliente, tenha chamado **SubmitMessage**, limpa o sinalizador e continua o envio de mensagem.
+> A mensagem precisa de pré-processamento. Quando o spooler MAPI estiver realizando o pré-processamento dessa mensagem, ele deverá chamar o método [IMessage:: SubmitMessage](imessage-submitmessage.md) . O provedor de repositório de mensagens reconhece que o spooler, em vez do aplicativo cliente, chamou **SubmitMessage**, limpa o sinalizador e continua o envio da mensagem.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Converte entre IETF RFC2445, RFC2446 e RFC2447 e compromisso e objetos de reunião.
+> Converte entre o IETF RFC2445, o RFC2446 e o RFC2447 e os objetos de compromisso e reunião.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

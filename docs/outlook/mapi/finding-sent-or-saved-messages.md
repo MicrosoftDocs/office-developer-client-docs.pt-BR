@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86373fae2753df66d4456cc0fc00f8b289977650
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337125"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Localizar mensagens enviadas ou salvas
 
@@ -21,15 +21,15 @@ ms.locfileid: "22565015"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para localizar todas as mensagens de saída que você salva ou enviado**
+ **Para localizar todas as mensagens de saída que você salvou ou enviou**
   
-1. Chame [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) para comparar a pasta que contém suas mensagens enviadas com a pasta que contém suas mensagens de entrada. 
+1. Chame [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) para comparar a pasta que contém as mensagens enviadas com a pasta que contém suas mensagens de entrada. 
     
 2. Defina o parâmetro _lpEntryID1_ para apontar para **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) e o parâmetro _lpEntryID2_ para apontar para **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Lembre-se de que se você excluir mensagens depois que eles são enviados ou tem movido qualquer uma das mensagens enviadas para outra pasta, essa estratégia não funcionará. 
+Lembre-se de que se você excluir mensagens após elas terem sido enviadas ou se tiver movido qualquer uma das mensagens enviadas para outra pasta, essa estratégia não funcionará. 
   
-Se uma mensagem de entrada ao examinar notar que as propriedades que são normalmente definidas por um provedor de transporte estão ausentes, você pode assumir que a mensagem nunca foi tratada por um provedor de transporte. Essas propriedades incluem:
+Se estiver examinando uma mensagem de entrada, você percebe que as propriedades normalmente definidas por um provedor de transporte estão ausentes, você pode supor que a mensagem nunca foi manipulada por um provedor de transporte. Essas propriedades incluem:
   
 - Propriedades **PR_RECEIVED_BY** 
     

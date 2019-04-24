@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 38cb3692-a5f8-403a-9615-9bd5868af23c
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 34de52693d8484abb28d2ee2f7b86f15e8bd037b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7477213ee854be1ae71b47a0c1b339c4c13b6f04
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338679"
 ---
 # <a name="imapisessiongetlasterror"></a>IMAPISession::GetLastError
 
@@ -37,27 +37,27 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Parâmetros
 
- _hResult_
+ _And_
   
-> [in] Um identificador para o valor de erro gerado na chamada do método anterior.
+> no Um identificador para o valor de erro gerado na chamada do método anterior.
     
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla o tipo de cadeias de caracteres retornada. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla o tipo de cadeia de caracteres retornada. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As cadeias de caracteres na estrutura **MAPIERROR** retornado no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estão no formato ANSI. 
+> As cadeias de caracteres na estrutura **MAPIERROR** retornada no parâmetro _lppMAPIError_ estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as cadeias de caracteres estarão no formato ANSI. 
     
  _lppMAPIError_
   
-> [out] Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** que contém informações de versão, componente e contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se o MAPI, será possível fornecer informações apropriadas para uma estrutura **MAPIERROR** . 
+> bota Um ponteiro para um ponteiro para uma estrutura **MAPIERROR** que contém a versão, o componente e informações de contexto para o erro. O parâmetro _lppMAPIError_ pode ser definido como NULL se o MAPI não puder fornecer as informações apropriadas para uma estrutura **MAPIERROR** . 
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_E_BAD_CHARWIDTH 
   
@@ -65,13 +65,13 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession::GetLastError** recupera informações sobre o último erro que foi retornado por uma chamada de método **IMAPISession** . Clientes podem fornecer aos usuários informações detalhadas sobre o erro, incluindo essas informações em uma caixa de diálogo. 
+O método **IMAPISession:: GetLastError** recupera informações sobre o último erro retornado por uma chamada de método **IMAPISession** . Os clientes podem fornecer a seus usuários informações detalhadas sobre o erro, incluindo essa informação em uma caixa de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Você pode usar a estrutura **MAPIERROR** , se o MAPI fornece um, apontado pela _lppMAPIError_ parâmetro se **GetLastError** Retorna S_OK. Em alguns casos, MAPI não pode determinar qual foi o último erro ou não tem nada mais a ser relatado sobre o erro. Nessa situação, **GetLastError** retorna um ponteiro como NULL em _lppMAPIError_ em vez disso. 
+Você pode usar a estrutura **MAPIERROR** , se MAPI fornecer um, indicado pelo parâmetro _lppMAPIError_ somente se GetLastError **** retornar S_OK. Às vezes, o MAPI não pode determinar qual é o último erro ou não tem nada mais a relatar sobre o erro. Nessa situação, **GetLastError** retorna um ponteiro para nulo em _lppMAPIError_ em vez disso. 
   
-Para obter mais informações sobre o método **GetLastError** , consulte [MAPI estendido erros](mapi-extended-errors.md).
+Para obter mais informações sobre **** o método GetLastError, consulte [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -84,5 +84,5 @@ Para obter mais informações sobre o método **GetLastError** , consulte [MAPI 
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MAPI estendido erros](mapi-extended-errors.md)
+[Erros estendidos de MAPI](mapi-extended-errors.md)
 

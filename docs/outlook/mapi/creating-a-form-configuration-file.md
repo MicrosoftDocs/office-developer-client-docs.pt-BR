@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: aaf3b33d-ad2d-4ef8-847f-1ab1eaf08706
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d8159d93aef020d7c9c1b56be4cf6256f80b8aa3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 97ecafb2e4159c680fd23607f5ed6f8ea3156de7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333016"
 ---
 # <a name="creating-a-form-configuration-file"></a>Criar um arquivo de configuração de formulário
 
@@ -21,9 +21,9 @@ ms.locfileid: "22584161"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um arquivo de configuração de formulário fornece informações sobre um formulário para o gerente de formulário que está sendo usada e aplicativos cliente. Um arquivo de configuração do formulário contém uma especificação extensiva para um formulário, incluindo as propriedades publicadas pelo formulário para uso por clientes, os verbos implementados pelo formulário e as plataformas compatíveis com o formulário de mensagens.
+Um arquivo de configuração de formulário fornece informações sobre um formulário tanto para o gerente de formulários como usado como para aplicativos clientes. Um arquivo de configuração de formulário contém uma ampla especificação para um formulário, incluindo as propriedades publicadas pelo formulário para uso por clientes de mensagens, os verbos implementados pelo formulário e as plataformas suportadas pelo formulário.
   
-Um arquivo de configuração do formulário é um arquivo com uma extensão. cfg e tem um formato semelhante a um arquivo de inicialização do Windows. É um arquivo de texto sem formatação com um número de seções. Cada seção começa com um nome de seção, colocado entre colchetes. Cada seção contém uma ou mais linhas que definem os valores e configurações relevantes dessa seção. Valores tem um dos seguintes tipos:
+Um arquivo de configuração de formulário é um arquivo com uma extensão. cfg e tem um formato semelhante a um arquivo de inicialização do Windows. É um arquivo de texto sem formatação com várias seções. Cada seção começa com um nome de seção, entre colchetes. Cada seção contém uma ou mais linhas que definem valores e configurações relevantes para essa seção. Os valores têm um dos seguintes tipos:
   
 - String
     
@@ -37,11 +37,11 @@ Um arquivo de configuração do formulário é um arquivo com uma extensão. cfg
     
 - GUID
     
-Para obter mais informações sobre as seções de um arquivo. cfg, consulte o [Arquivo de formato do formulário arquivos de configuração](file-format-of-form-configuration-files.md).
+Para obter mais informações sobre as seções de um arquivo. cfg, consulte [formato de arquivo dos arquivos de configuração de formulário](file-format-of-form-configuration-files.md).
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Desenvolvimento de servidores de formulário MAPI](developing-mapi-form-servers.md)
+[Desenvolver servidores de formulário MAPI](developing-mapi-form-servers.md)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 076fb4946af9a80e53fb8452d720c22b351f5ef6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 852ce31ba5ab02ff8f05dee25c9b32acb73130ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337965"
 ---
 # <a name="setattribimsgonistg"></a>SetAttribIMsgOnIStg
 
@@ -25,13 +25,13 @@ ms.locfileid: "22572519"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define ou altera atributos das propriedades em um objeto [IMessage](imessageimapiprop.md) fornecido pela função [OpenIMsgOnIStg](openimsgonistg.md) . 
+Define ou altera atributos de propriedades em um objeto [IMessage](imessageimapiprop.md) fornecido pela função [OpenIMsgOnIStg](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |IMessage.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de armazenamento de mensagens e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |IMessage. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de repositórios de mensagens e aplicativos cliente  <br/> |
    
 ```cpp
 HRESULT SetAttribIMsgOnIStg(
@@ -46,38 +46,38 @@ HRESULT SetAttribIMsgOnIStg(
 
  _lpObject_
   
-> [in] Ponteiro para o objeto para o qual propriedade atributos estão sendo definidos. 
+> no Ponteiro para o objeto para o qual os atributos de propriedade estão sendo definidos. 
     
  _lpPropTags_
   
-> [in] Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) contendo uma matriz das marcas de propriedade indicando as propriedades para o qual propriedade atributos estão sendo definidos. 
+> no Ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade indicando as propriedades para as quais os atributos de propriedade estão sendo definidos. 
     
  _lpPropAttrs_
   
-> [in] Ponteiro para uma estrutura [SPropAttrArray](spropattrarray.md) listando os atributos de propriedade para definir. 
+> no Ponteiro para uma estrutura [SPropAttrArray](spropattrarray.md) listando os atributos de propriedade a serem definidos. 
     
  _lppPropProblems_
   
-> [out] Ponteiro para a estrutura de [SPropProblemArray](spropproblemarray.md) retornado contendo um conjunto de problemas de propriedade. Essa estrutura identifica os problemas encontrados se **SetAttribIMsgOnIStg** tiver sido apto a definir algumas propriedades, mas não todos. Se o parâmetro _lppPropProblems_ é passado um ponteiro como NULL, nenhuma matriz de problema de propriedade é retornado, mesmo se algumas propriedades não foram definidas. 
+> bota Ponteiro para a estrutura [SPropProblemArray](spropproblemarray.md) retornada que contém um conjunto de problemas de propriedade. Esta estrutura identifica problemas encontrados se **SetAttribIMsgOnIStg** foi capaz de definir algumas propriedades, mas não todas. Se um ponteiro para NULL for passado no parâmetro _lppPropProblems_ , nenhuma matriz de problemas de propriedade será retornada, mesmo que algumas propriedades não tenham sido definidas. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A chamada foi bem-sucedida e retornou o valor esperado ou valores.
+> A chamada teve êxito e retornou o valor ou valores esperados.
     
 MAPI_W_ERRORS_RETURNED 
   
-> Chamada bem-sucedida, mas uma ou mais propriedades não pôde ser acessadas e foram retornadas com um tipo de propriedade de PT_ERROR.
+> A chamada foi bem-sucedida, mas uma ou mais propriedades não puderam ser acessadas e retornadas com um tipo de propriedade de PT_ERROR.
     
 ## <a name="remarks"></a>Comentários
 
-Atributos de propriedade só podem ser acessados na propriedade objetos, ou seja, objetos Implementando o [IMAPIProp: IUnknown](imapipropiunknown.md) interface. Para disponibilizar propriedades MAPI em um objeto de armazenamento estruturado OLE, [OpenIMsgOnIStg](openimsgonistg.md) cria um [IMessage: IMAPIProp](imessageimapiprop.md) objeto na parte superior do objeto OLE **IStorage** . Os atributos de propriedade nesses objetos podem ser definidos ou alterados com **SetAttribIMsgOnIStg** e recuperados com [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
+Atributos de propriedade só podem ser acessados em objetos Property, ou seja, objetos que implementam a interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Para disponibilizar as propriedades MAPI em um objeto de armazenamento estruturado OLE, [OpenIMsgOnIStg](openimsgonistg.md) cria um objeto [IMessage: IMAPIProp](imessageimapiprop.md) na parte superior do objeto OLE **IStorage** . Os atributos de propriedade desses objetos podem ser definidos ou alterados com **SetAttribIMsgOnIStg** e recuperados com o [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
   
- **Observação** **GetAttribIMsgOnIStg** e **SetAttribIMsgOnIStg** não operam em todos os objetos **IMessage** . Eles só são válidos para **IMessage**- on - objetos **IStorage** retornados por **OpenIMsgOnIStg**. 
+ **Observação** **GetAttribIMsgOnIStg** e **SetAttribIMsgOnIStg** não operam em todos os objetos **IMessage** . Eles são válidos apenas para objetos **IMessage**-on- **IStorage** retornados por **OpenIMsgOnIStg**. 
   
-O parâmetro _lpPropAttrs_ , o número e a posição dos atributos devem coincidir com o número e a posição das marcas de propriedade passado no parâmetro _lpPropTags_ . 
+No parâmetro _lpPropAttrs_ , o número e a posição dos atributos devem corresponder ao número e à posição das marcas de propriedade passadas no parâmetro _lpPropTags_ . 
   
-A função **SetAttribIMsgOnIStg** é usada para tornar as propriedades da mensagem somente leitura quando exigido pelo esquema **IMessage** . O provedor de armazenamento de mensagem de amostra usa-lo para essa finalidade. Para obter mais informações, consulte [Messages](mapi-messages.md). 
+A função **SetAttribIMsgOnIStg** é usada para tornar as propriedades de mensagem somente leitura quando exigidos pelo esquema **IMessage** . O exemplo de provedor de repositório de mensagens o utiliza para essa finalidade. Para obter mais informações, [](mapi-messages.md)consulte messages. 
   
 

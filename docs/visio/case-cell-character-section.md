@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cf063c05-5789-e037-700b-1e70df00e254
 description: Determina a utilização de maiúsculas e minúsculas no texto de uma forma. Todas as letras maiúsculas (1) e maiúsculas iniciais (2) não alteram a aparência do texto digitado completamente em letras maiúsculas. O texto deve ser digitado em letras minúsculas para que essas opções possam ter efeito.
-ms.openlocfilehash: 9acd786b6fa38aec42990f1fd942174367f1135e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50ceaa1188caded40d36b8837c346fbbba2e14d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337230"
 ---
 # <a name="case-cell-character-section"></a>Célula Case (Seção Character)
 
@@ -22,9 +22,9 @@ Determina a utilização de maiúsculas e minúsculas no texto de uma forma. Tod
   
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Maiúsculas e minúsculas normais  <br/> |**visCaseNormal** <br/> |
+| ,0  <br/> | Maiúsculas e minúsculas normais  <br/> |**visCaseNormal** <br/> |
 | 1  <br/> | Tudo em letras maiúsculas  <br/> |**visCaseAllCaps** <br/> |
-| 2  <br/> | Somente as iniciais maiúsculas  <br/> |**visCaseInitialCaps** <br/> |
+| duas  <br/> | Somente as iniciais maiúsculas  <br/> |**visCaseInitialCaps** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -32,7 +32,7 @@ Para fazer referência à célula Case pelo nome, a partir de outra fórmula ou 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Char.Case [ *i* ] onde *i* = < 1 >, 2, 3,...  <br/> |
+| Nome da célula:  <br/> | Char. case [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
    
 Para fazer referência à célula Case pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

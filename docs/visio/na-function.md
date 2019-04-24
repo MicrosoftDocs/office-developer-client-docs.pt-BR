@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251468
 localization_priority: Normal
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
-description: 'Retornará o valor de erro #NA!.'
-ms.openlocfilehash: 017601d9dbfb8cba6727eff5544fea26b4918f6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Retorna o valor de erro #NA!.'
+ms.openlocfilehash: 25e7f8450b2aa379629f55e59d53e93c5f29bb51
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335144"
 ---
 # <a name="na-function"></a>Função NA
 
-Retornará o valor de erro #NA!. 
+Retorna o valor de erro #NA!. 
   
 Utilize a função NA em uma célula ShapeSheet em que estiver faltando informações, de forma que o valor padrão da célula não seja usado nos cálculos.
   
@@ -26,7 +26,7 @@ Utilize a função NA em uma célula ShapeSheet em que estiver faltando informa�
 
 NA( )
   
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   

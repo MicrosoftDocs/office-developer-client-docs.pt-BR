@@ -1,31 +1,31 @@
 ---
-title: Elemento de página (Pages_Type complexType) ('Visio XML')
+title: Elemento de página (Pages_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
-description: Contém os elementos que definem uma página do documento.
+description: Contém elementos que definem uma página no documento.
 ms.openlocfilehash: 800e4ab2c6446ab298747f0492800000bb44cca3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334444"
 ---
-# <a name="page-element-pagestype-complextype-visio-xml"></a>Elemento de página (Pages_Type complexType) ('Visio XML')
+# <a name="page-element-pagestype-complextype-visio-xml"></a>Elemento de página (Pages_Type complexType) (' Visio XML ')
 
-Contém os elementos que definem uma página do documento.
+Contém elementos que definem uma página no documento.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Pages.XML  <br/> |
+|**Partes do documento** <br/> |Pages. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,7 +36,7 @@ Contém os elementos que definem uma página do documento.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -48,22 +48,22 @@ Se o esquema define os requisitos específicos, como a **sequência**, **minOccu
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contém os elementos que definem a folha da página para um elemento de **página** .  <br/> |
+|[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contém elementos que definem a folha de página de um elemento de **página** .  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-|**Attribute**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
+|**Atributo**|**Tipo**|**Obrigatório**|**Descrição**|**Valores possíveis**|
 |:-----|:-----|:-----|:-----|:-----|
-|Background  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Um sinalizador que indica se a página é uma página de plano de fundo.  <br/> |Valores do tipo xsd:boolean.  <br/> |
-|BackPage  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |A identificação da página de plano de fundo nesta página.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |obrigatório  <br/> |A ID exclusiva do elemento dentro de seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|IsCustomName  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Indica se o nome tiver sido personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
-|IsCustomNameU  <br/> |XSD:Boolean  <br/> |opcional  <br/> |Indica se o nome universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
-|Nome  <br/> |XSD: String  <br/> |opcional  <br/> |O nome do elemento.  <br/> |Valores do tipo xsd: String.  <br/> |
-|NameU  <br/> |XSD: String  <br/> |opcional  <br/> |O nome universal do elemento.  <br/> |Valores do tipo xsd: String.  <br/> |
-|ReviewerID  <br/> |XSD:unsignedInt  <br/> |opcional  <br/> |A identificação do revisor associado com sobreposição de marcação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |XSD:Double  <br/> |opcional  <br/> |**ViewCenterX** e **ViewCenterY** especificam um ponto central em uma página que um novo modo de exibição (janela) pressupõe quando ele é aberto inicialmente.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ViewCenterY  <br/> |XSD:Double  <br/> |opcional  <br/> |**ViewCenterX** e **ViewCenterY** especificam um ponto central em uma página que um novo modo de exibição (janela) pressupõe quando ele é aberto inicialmente.  <br/> |Valores do tipo xsd:double.  <br/> |
-|ViewScale  <br/> |XSD:Double  <br/> |opcional  <br/> |O fator de ampliação padrão para usar quando uma nova exibição (janela) da página é aberta. Por exemplo, 1 = 100%; 1,5 = 150% e assim por diante.  <br/> |Valores do tipo xsd:double.  <br/> |
+|Background  <br/> |xsd:boolean  <br/> |opcional  <br/> |Um sinalizador que indica se a página é uma página de plano de fundo.  <br/> |Valores do tipo xsd:boolean.  <br/> |
+|BackPage  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID da página de plano de fundo desta página.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obrigatório  <br/> |A identificação exclusiva do elemento no seu elemento pai.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se o nome foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica se o nome Universal foi personalizado pelo usuário.  <br/> |Valores do tipo xsd:Boolean.  <br/> |
+|Nome  <br/> |xsd:string  <br/> |opcional  <br/> |O nome do elemento.  <br/> |Valores do tipo xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |opcional  <br/> |O nome universal do elemento.  <br/> |Valores do tipo xsd:string.  <br/> |
+|ReviewerID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |A ID do revisor associado com a sobreposição de marcação.  <br/> |Valores do tipo xsd:unsignedInt.  <br/> |
+|ViewCenterX  <br/> |xsd: Double  <br/> |opcional  <br/> |**ViewCenterX** e **ViewCenterY** especificam um ponto central em uma página que um novo modo de exibição (janela) assume quando é aberto inicialmente.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|ViewCenterY  <br/> |xsd: Double  <br/> |opcional  <br/> |**ViewCenterX** e **ViewCenterY** especificam um ponto central em uma página que um novo modo de exibição (janela) assume quando é aberto inicialmente.  <br/> |Valores do tipo xsd: Double.  <br/> |
+|ViewScale  <br/> |xsd: Double  <br/> |opcional  <br/> |O fator de ampliação padrão a ser usado quando um novo modo de exibição (janela) da página é aberto. Por exemplo, 1 = 100%; 1,5 = 150%, e assim por diante.  <br/> |Valores do tipo xsd: Double.  <br/> |
    
 

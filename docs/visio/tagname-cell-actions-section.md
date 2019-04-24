@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e593e95d-f975-481d-69cd-619049d4427d
 description: Contém o nome da marca de ação a que esta ação está associada.
-ms.openlocfilehash: e1495a34769cbcfdd687491855d1f9c761de2b4e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7bf5db940934d168ac2adb86d05b0374b0fd265
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332386"
 ---
 # <a name="tagname-cell-actions-section"></a>Célula TagName (Seção Actions)
 
@@ -27,11 +27,11 @@ Contém o nome da marca de ação a que esta ação está associada.
 
 A célula TagName na seção Actions trabalha junto com a célula TagName na seção Action Tags para associar a marca de ação a suas ações. 
   
-- Se a célula TagName em uma linha Actions estiver em branco, a ação é exibida em um menu de atalho, não em um menu de marca de ação.
+- Se a célula TagName em uma linha Actions estiver em branco, a ação será exibida em um menu de atalho, não em um menu de marca de ação.
     
-- Se o valor da célula TagName na linha Actions corresponder ao valor da célula TagName em uma linha Smart Tags, a ação é exibida no menu de marca de ação.
+- Se um valor de célula TagName na linha Actions corresponder ao valor da célula TagName em uma linha Smart Tags, a ação será exibida no menu de marca de ação.
     
-- Se a célula TagName de uma ação tem um valor, mas não corresponde ao valor TagName em qualquer linha da marca de forma, essa ação não aparecem nos qualquer menus de marca de ação ou os menus de atalho.
+- Se a célula TagName de uma ação tiver um valor, mas não corresponder ao valor TagName em qualquer linha de marca de forma, essa ação não aparecerá nos menus de marcas de ação ou nos menus de atalho.
     
 - Se várias linhas da marca inteligente tiverem o mesmo valor TagName, todas exibirão as mesmas ações.
     
@@ -39,9 +39,9 @@ Para obter uma referência para a célula TagName pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Ações. *nome* . Ações de TagNamewhere.  *nome* é o nome da linha Actions  <br/> |
+|Nome da célula:  <br/> |Ações. *nome* . Ações Tagnameonde.  *Name* é o nome da linha de ações  <br/> |
    
-Para obter uma referência para a célula TagName pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula TagName pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|

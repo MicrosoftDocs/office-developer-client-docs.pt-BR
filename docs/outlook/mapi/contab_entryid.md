@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: ff088dc5bf62f407692c9eec649ff388f79d549d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2a204f76b62c8c6bc6d8a4e793c936a0184dc65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335074"
 ---
 # <a name="contabentryid"></a>CONTAB_ENTRYID
 
@@ -21,11 +21,11 @@ ms.locfileid: "22567150"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém a identificação de entrada da pasta Contatos.
+Contém a identificação de entrada da pasta contatos.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |msomapiutil.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |msomapiutil. h  <br/> |
    
 ```cpp
 #pragma pack(4) 
@@ -46,46 +46,46 @@ typedef struct _contab_entryid
 
  **abFlags**
   
-> Uma bitmask dos sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura de [ENTRYID](entryid.md) . 
+> Uma bitmask de sinalizadores que fornece informações que descrevem o objeto. Para obter mais informações, consulte a descrição do campo **abFlags** de uma estrutura [EntryID](entryid.md) . 
     
  **muid**
   
-> GUID que identifica o provedor de armazenamento.
+> GUID que identifica o provedor de repositório.
     
  **ulVersion**
   
-> O número de versão da estrutura **CONTAB_ENTRYID** . Deve ser definida como CONTAB_VERSION. 
+> O número da versão da estrutura **CONTAB_ENTRYID** . Deve ser definido como CONTAB_VERSION. 
     
  **ulType**
   
-> Um inteiro que representa o tipo de ID de entrada do contato. Ele deve ser um dos seguintes valores:
+> Um inteiro que representa o tipo de ID de entrada de contato. Deve ser um dos seguintes valores:
     
 |**Nome**|**Descrição**|
 |:-----|:-----|
 |CONTAB_USER  <br/> |Um objeto de usuário de mensagens.  <br/> |
-|CONTAB_DISTLIST  <br/> |Um objeto de lista de distribuição.  <br/> |
+|CONTAB_DISTLIST  <br/> |0" não é um objeto de lista de distribuição.  <br/> |
    
  **ulIndex**
   
-> O índice para o subconjunto de propriedade de email.
+> O índice do subconjunto de propriedades de email.
     
  **cbeid**
   
-> O tamanho do identificador de entrada da mensagem de contato associado a essa entrada no catálogo de endereços de contatos.
+> O tamanho do identificador de entrada da mensagem de contato associada a essa entrada no catálogo de endereços de contatos.
     
- **abeid**
+ **Abeid**
   
-> O identificador de entrada da mensagem de contato associado a essa entrada no catálogo de endereços de contatos.
+> O identificador de entrada da mensagem de contato associada a essa entrada no catálogo de endereços de contatos.
     
 ## <a name="remarks"></a>Comentários
 
-Um catálogo de endereços de contatos é um catálogo de endereços que contém todos os itens contatos em uma pasta de contatos que têm um endereço de email ou um número de fax. Cada entrada no catálogo de endereços de contatos é associada um endereço de email ou um número de fax. Uma vez que um item de contato pode ter até três endereços de email e três números de fax, um item de contato pode ser representado pela até seis entradas no catálogo de endereços de contatos correspondentes.
+Um catálogo de endereços de contatos é um catálogo de endereços que contém todos os itens de contato em uma pasta de contatos que tem um endereço de email ou um número de fax. Cada entrada em um catálogo de endereços de contatos é associada a um endereço de email ou a um número de fax. Como um item de contato pode ter até três endereços de email e três números de fax, um item de contato pode ser representado por até seis entradas no catálogo de endereços de contatos correspondente.
   
-A finalidade do catálogo de endereços de contatos é suportar usuários lidando com as mensagens de email para contatos em uma pasta Contatos. O provedor de catálogo de endereços de contatos que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 suportam é Contab32.
+O objetivo de um catálogo de endereços de contatos é oferecer suporte aos usuários que endereçam mensagens de email para contatos em uma pasta de contatos. O provedor de catálogo de endereços de contatos que o Microsoft Outlook 2010 e o Microsoft Outlook 2013 oferecem suporte é contab32. dll.
   
-A estrutura **CONTAB_ENTRYID** oferece suporte a um subconjunto das informações que está presentes na mensagem de contato de MAPI subjacente. Identifica a mensagem de contato que uma determinada entrada de catálogo de endereços de contatos está associada. 
+A estrutura **CONTAB_ENTRYID** oferece suporte a um subconjunto das informações presentes na mensagem de contato MAPI subjacente. Ele identifica a mensagem de contato à qual uma entrada de catálogo de endereços de contatos específica está associada. 
   
-Os campos **cbeid** e **abeid** são válidos somente quando o valor do campo **ulType** é definido como CONTAB_DISTLIST ou CONTAB_USER. Quando o valor do campo **ulType** é definido como CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, a estrutura [DIR_ENTRYID](dir_entryid.md) deve ser usada. 
+Os campos **cbeid** e **Abeid** são válidos somente quando o valor do campo **ulType** é definido como CONTAB_DISTLIST ou CONTAB_USER. Quando o valor do campo **ulType** é definido como CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, a estrutura do [DIR_ENTRYID](dir_entryid.md) deve ser usada em vez disso. 
   
 ## <a name="see-also"></a>Confira também
 

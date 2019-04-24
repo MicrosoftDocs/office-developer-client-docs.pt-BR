@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60029
 localization_priority: Normal
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
-description: Determina o calendário que é usado para um campo de texto quando o tipo de dado for Data.
-ms.openlocfilehash: 6d9d3ef0addb1d6081e2046ca7a5a663eb2a9c8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o calendário a ser usado para um campo de texto quando o tipo de dado for Data.
+ms.openlocfilehash: e90f757fb176375c8f9e9d5744e09b67afaca527
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337496"
 ---
 # <a name="calendar-cell-text-fields-section"></a>Célula Calendar (Seção Text Fields)
 
-Determina o calendário que é usado para um campo de texto quando o tipo de dado for Data.
+Determina o calendário a ser usado para um campo de texto quando o tipo de dado for Data.
   
 ## <a name="remarks"></a>Comentários
 
@@ -28,7 +28,7 @@ Para fazer referência à célula Calendar pelo nome a partir de outra fórmula 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Fields.Calendar [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Fields. Calendar [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Calendar pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

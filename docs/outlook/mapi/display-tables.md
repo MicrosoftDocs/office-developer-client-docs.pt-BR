@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 738957d7fc9567a2e8202802edebd16cf57fbffd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1b94b0ea69237be3675e1ea02fc3e2bfac337025
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338553"
 ---
 # <a name="display-tables"></a>Exibir tabelas
 
@@ -21,33 +21,33 @@ ms.locfileid: "22581640"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Uma exibição de tabela descreve como mostrar um tipo específico de caixa de diálogo — um tendo uma ou mais páginas com guias Propriedade dedicadas ao exibindo e editando possivelmente uma ou mais propriedades. Associados com cada exibição tabela é um [IMAPIProp: IUnknown](imapipropiunknown.md) implementação de interface. A implementação de **IMAPIProp** mantém os dados de propriedade são apresentados na caixa de diálogo. 
+Uma tabela de exibição descreve como mostrar um tipo específico de caixa de diálogo — uma ou mais páginas de propriedades com guias dedicadas para exibir e possivelmente editar uma ou mais propriedades. Associado a cada tabela de exibição é uma implementação de interface [IMAPIProp: IUnknown](imapipropiunknown.md) . A implementação do **IMAPIProp** mantém os dados de propriedade apresentados na caixa de diálogo. 
   
-As linhas em uma tabela de exibição representam os controles ou objetos de interface do usuário, que são exibidos na caixa de diálogo. MAPI define vários tipos de controles, alguns com valores estáticos e alguns com valores dinâmicos que pode ser alterados por um usuário. A maioria dos controles pode ser associado com propriedades mantidas com a implementação de **IMAPIProp** . Quando um usuário altera o valor de um controle modificável, a propriedade correspondente é atualizada. 
+As linhas em uma tabela de exibição representam os controles, ou objetos da interface do usuário, que são exibidos na caixa de diálogo. O MAPI define vários tipos de controles, alguns com valores estáticos e alguns com valores dinâmicos que um usuário pode alterar. A maioria dos controles pode ser associada às propriedades mantidas com a implementação **IMAPIProp** . Quando um usuário altera o valor de um controle modificável, a propriedade correspondente é atualizada. 
   
-Provedores de serviços de implementam as tabelas de exibição e a interface **IMAPIProp** . Criando uma tabela de exibição é semelhante ao escrever um programa com uma linguagem de script. Provedores de serviços podem criar uma tabela de exibição por: 
+Os provedores de serviços implementam tabelas de exibição e a interface **IMAPIProp** . A criação de uma tabela de exibição é semelhante à gravação de um programa com uma linguagem de script. Os provedores de serviços podem criar uma tabela de exibição por: 
   
-- Chamar a função de [BuildDisplayTable](builddisplaytable.md) . 
+- Chamar a função [BuildDisplayTable](builddisplaytable.md) . 
     
-    - Ou -
+    - Ou
     
-- Incluindo um código personalizado que preenche a tabela de exibição diretamente usando um objeto de dados de tabela — um objeto que dá suporte a [ITableData: IUnknown](itabledataiunknown.md) interface. 
+- Incluindo o código personalizado que preenche a tabela de exibição diretamente usando um objeto Table Data — um objeto que dá suporte à interface [ITableData: IUnknown](itabledataiunknown.md) . 
     
-A função **BuildDisplayTable** combine informações de estruturas de tabela de exibição com elementos visuais de um recurso de caixa de diálogo Criar exibição linhas da tabela. A função retorna um ponteiro para uma [IMAPITable: IUnknown](imapitableiunknown.md) interface implementação e, se solicitado, um ponteiro para uma implementação de interface **ITableData** . 
+A função **BuildDisplayTable** combina informações de estruturas de tabelas de exibição com elementos visuais de um recurso de caixa de diálogo para compilar linhas de tabela de exibição. A função retorna um ponteiro para uma implementação de interface imApitable [: IUnknown](imapitableiunknown.md) e, se solicitado, um ponteiro para uma implementação de interface **ITableData** . 
   
-Usando o **BuildDisplayTable** para criar uma tabela de exibição é simples e facilita a manutenção quando alterar elementos visuais da tela. No entanto, os provedores de serviços que preferem não usar **BuildDisplayTable** podem criar uma tabela de exibição com código personalizado que usa os métodos de **ITableData**. Por exemplo, provedores de serviço que possuírem uma estrutura de modelo existente para suas páginas de propriedades talvez queira criar um código personalizado em vez de usar **BuildDisplayTable**.
+O uso do **BuildDisplayTable** para criar uma tabela de exibição é simples e torna a manutenção mais fácil quando os elementos visuais da exibição mudam. No enTanto, os provedores de serviços que preferem não usar o **BuildDisplayTable** podem criar uma tabela de exibição com código personalizado que usa os métodos de **ITableData**. Por exemplo, os provedores de serviços que têm uma estrutura de modelo existente para suas páginas de propriedades podem querer criar código personalizado em vez de usar **BuildDisplayTable**.
   
-Há várias maneiras de provedores de serviços podem implementar a interface de propriedade para sua tabela de exibição. Elas incluem:
+Há várias maneiras pelas quais os provedores de serviços podem implementar a interface de propriedade para a tabela de exibição. Entre eles:
   
-- Fornecendo um padrão [IMAPIProp: IUnknown](imapipropiunknown.md) implementação. 
+- Fornecer uma implementação [IMAPIProp: IUnknown](imapipropiunknown.md) padrão. 
     
-- Fornecendo uma implementação **IMAPIProp** com quebra que inclui o processamento especial antes de fazer as chamadas padrão. 
+- Fornecer uma implementação de **IMAPIProp** encapsulada que inclui processamento especial antes de fazer as chamadas padrão. 
     
-- Fornecendo uma [IPropData: IMAPIProp](ipropdataimapiprop.md) implementação. 
+- Fornecer uma implementação de [IPropData: IMAPIProp](ipropdataimapiprop.md) . 
     
-O tipo de implementação depende as características dos dados a ser exibido e o provedor de serviço responsável. Por exemplo, se houver uma relação implícita entre os dados em dois controles de edição e um dos controles é alterado, a implementação de **IMAPIProp** deverá alterar o valor de outro controle apropriadamente. 
+O tipo de implementação depende das características dos dados a serem exibidos e do provedor de serviços responsáveis. Por exemplo, se houver um relacionamento implícito entre os dados de dois controles de edição e um dos controles mudar, a implementação **IMAPIProp** deve alterar o valor do outro controle adequadamente. 
   
-Tabelas de exibição têm as seguintes propriedades no seu conjunto de coluna necessária:
+As tabelas de exibição têm as seguintes propriedades no conjunto de colunas exigido:
   
 |||
 |:-----|:-----|
@@ -56,17 +56,17 @@ Tabelas de exibição têm as seguintes propriedades no seu conjunto de coluna n
 |**PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md))  <br/> |**PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md))  <br/> |
 |**PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md))  <br/> |**PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md))  <br/> |
    
- **PR_XPOS** e **PR_YPOS** especificam as coordenadas X e Y do canto superior esquerdo do controle. As unidades horizontais são 1/4 da unidade base largura diálogo; as unidades verticais são 1/8 da unidade base altura diálogo. Windows computa as unidades base do diálogo atual da altura e largura da fonte do sistema atual. As coordenadas são em relação à origem da área de página de propriedade. O tamanho das páginas de propriedade é limitado para unidades de diálogo de 200 por 180 aproximadamente. 
+ **PR_XPOS** e **PR_YPOS** especificam as coordenadas X e Y do canto superior esquerdo do controle. As unidades horizontais são 1/4 da unidade de largura de base da caixa de diálogo; as unidades verticais são 1/8 da unidade de altura da base da caixa de diálogo. O Windows calcula as unidades base da caixa de diálogo atual da altura e da largura da fonte atual do sistema. As coordenadas são relativas à origem da área da página de propriedades. O tamanho das páginas de propriedades está limitado a aproximadamente 200 por unidades de caixa de diálogo de 180. 
   
- **PR_DELTAX** e **PR_DELTAY** são a largura e altura do controle. Estes são os valores ULONG. As unidades de largura são 1/4 da unidade base largura diálogo; as unidades de altura são 1/8 da unidade base altura diálogo. As coordenadas são em relação à origem do controle. 
+ **PR_DELTAX** e **PR_DELTAY** são a largura e a altura do controle. Estes são valores ULONG. As unidades de largura são 1/4 da unidade de largura de base da caixa de diálogo; as unidades de altura são 1/8 da unidade de altura da base da caixa de diálogo. As coordenadas são relativas à origem do controle. 
   
-As quatro propriedades descrevem várias características do controle. **PR_CONTROL_TYPE** indica o tipo de controle. MAPI define doze tipos de controles, cada um com um conjunto diferente de atributos. Esses atributos são descritos na propriedade flags, **PR_CONTROL_FLAGS**. Se um controle é editável ou necessária ou não são exemplos de atributos. 
+As outras quatro propriedades descrevem várias características do controle. **PR_CONTROL_TYPE** indica o tipo de controle. O MAPI define doze tipos de controles, cada um com um conjunto diferente de atributos. Esses atributos são descritos na Propriedade Flags, **PR_CONTROL_FLAGS**. Exemplos de atributos incluem se um controle é ou não editável ou obrigatório. 
   
-A estrutura de controle, **PR_CONTROL_STRUCTURE**, contém informações relevantes para o tipo específico de controle. Cada tipo de controle é descrito com uma estrutura diferente. Por exemplo, os controles de edição são descritos com a estrutura [DTBLEDIT](dtbledit.md) . Estruturas **DTBLEDIT** contêm membros dessa lista o número de e tipos específicos de caracteres que podem ser colocados no controle e uma marca de propriedade que identifica a propriedade cujo valor deve ser exibida no controle. **PR_CONTROL_STRUCTURE** é armazenada como uma propriedade binária. 
+A estrutura de controle, **PR_CONTROL_STRUCTURE**, contém informações relevantes para o tipo de controle específico. Cada tipo de controle é descrito com uma estrutura diferente. Por exemplo, os controles de edição são descritos com a estrutura [DTBLEDIT](dtbledit.md) . Estruturas **DTBLEDIT** contêm membros que listam o número de caracteres e tipos específicos que podem ser colocados no controle e uma marca de propriedade que identifica a propriedade cujo valor deve ser exibido no controle. **PR_CONTROL_STRUCTURE** é armazenado como uma propriedade binária. 
   
-O identificador de controle, **PR_CONTROL_ID**, identifica exclusivamente o controle de caixa de diálogo descrito pela tabela de exibição. **PR_CONTROL_ID** é definido por valores colocados nos membros *lpbNotif* e *cbNotif* da estrutura [DTCTL](dtctl.md) que é usado pelo **BuildDisplayTable** para criar a tabela de exibição. Porque o MAPI às vezes combina as tabelas de exibição, o identificador de **PR_CONTROL_ID** deve sempre ser exclusivo. Normalmente, provedores atribuem uma estrutura [GUID](guid.md) **PR_CONTROL_ID** para garantir que sua exclusividade. A propriedade **PR_CONTROL_ID** está incluída na estrutura [TABLE_NOTIFICATION](table_notification.md) quando uma notificação de tabela de exibição é gerada. 
+O identificador de controle, **PR_CONTROL_ID**, identifica exclusivamente o controle na caixa de diálogo descrita pela tabela de exibição. **PR_CONTROL_ID** é definido a partir dos valores colocados nos membros *lpbNotif* e *cbNotif* da estrutura [DTCTL](dtctl.md) que é usada pelo **BuildDisplayTable** para criar a tabela de exibição. Como o MAPI, às vezes, combina tabelas de exibição, o identificador no **PR_CONTROL_ID** deve sempre ser exclusivo. Normalmente, os provedores atribuem uma estrutura [GUID](guid.md) a **PR_CONTROL_ID** para garantir sua exclusividade. A propriedade **PR_CONTROL_ID** é incluída na estrutura [TABLE_NOTIFICATION](table_notification.md) quando uma notificação de tabela de exibição é gerada. 
   
-Para obter mais informações sobre tabelas de exibição, consulte [Sobre notificações de tabela de exibir](about-display-table-notifications.md)e [Implementação de tabela exibir](display-table-implementation.md) . 
+Para obter mais informações sobre as tabelas de exibição, consulte [exibir a implementação da tabela](display-table-implementation.md) e [sobre exibir notificações de tabela](about-display-table-notifications.md). 
   
 ## <a name="see-also"></a>Confira também
 

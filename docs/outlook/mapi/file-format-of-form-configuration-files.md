@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 95add2ca747a267b825648f0de82e8c8a83d3eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d07d88d7b8b892a82832f91989e322ea3b32e040
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334822"
 ---
 # <a name="file-format-of-form-configuration-files"></a>Formato de arquivo dos arquivos de configuração de formulários
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um arquivo de configuração do formulário é um arquivo formatado criado por desenvolvedores de formulário para definir um formulário.
+Um arquivo de configuração de formulário é um arquivo formatado criado por desenvolvedores de formulários para definir um formulário.
   
-Como os arquivos de configuração de formulário são usados por gerentes de formulário para carregar formulários, cada formulário deve ser definido usando um arquivo de configuração do formulário. Arquivos de configuração do formulário devem ter a extensão de nome de arquivo. cfg. O arquivo segue a sintaxe geral de um arquivo de inicialização do Windows (arquivo. ini). 
+Como os arquivos de configuração de formulário são usados por gerentes de formulários para carregar formulários, cada formulário deve ser definido usando um arquivo de configuração de formulário. Arquivos de configuração de formulário devem ter a extensão de nome de arquivo. cfg. O arquivo segue a sintaxe geral de um arquivo de inicialização do Windows (arquivo. ini). 
 
-Ele é dividido em seções nomeadas, e cada seção contém uma série de entradas e valores. Valores tem um dos seguintes tipos: cadeia de caracteres, cadeia de caracteres exibida, cadeia de caracteres de plataforma, caminho, inteiro ou **GUID**, identificador globalmente exclusivo. Arquivos de configuração de formulário podem ser criados com qualquer editor de texto ou o processador de texto que seja capaz de salvar arquivos de texto.
+Ele é dividido em seções nomeadas e cada seção contém uma série de entradas e valores. Os valores têm um dos seguintes tipos: cadeia de caracteres, Cadeia de caracteres exibida, Cadeia de caracteres de plataforma, caminho, inteiro ou identificador global exclusivo, **GUID**. Os arquivos de configuração de formulário podem ser criados com qualquer editor de texto ou processador de textos que possa salvar arquivos de texto.
   
 

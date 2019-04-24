@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335757"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393233"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cria um token numérico que o método [IMAPISession:: ShowForm](imapisession-showform.md) usa para acessar uma mensagem. 
+Cria um token numérico que o método [IMAPISession:: @ Form](imapisession-showform.md) usa para acessar uma mensagem. 
   
 ```cpp
 HRESULT PrepareForm(
@@ -39,29 +39,29 @@ HRESULT PrepareForm(
 
  _lpInterface_
   
-> [in] Um ponteiro para o identificador de interface (IID) que representa a interface que será usada para acessar a mensagem. Passando **Nulo** resultados na interface padrão ou [IMessage](imessageimapiprop.md), sendo usados. O parâmetro _lpInterface_ deve ser **nula** ou IID_IMessage. 
+> no Um ponteiro para o identificador de interface (IID) que representa a interface a ser usada para acessar a mensagem. Passar **** resultados nulos na interface padrão ou [IMessage](imessageimapiprop.md), sendo usado. O parâmetro _lpInterface_ deve ser **nulo** ou IID_IMessage. 
     
  _lpMessage_
   
-> [in] Um ponteiro para a mensagem a ser exibido no formulário.
+> no Um ponteiro para a mensagem a ser exibida no formulário.
     
  _lpulMessageToken_
   
-> [out] Um ponteiro para um token de mensagem, que é usado pelo método **IMAPISession:: ShowForm** para acessar a mensagem apontada pela _lpMessage_.
+> bota Um ponteiro para um token de mensagem, que é usado pelo método **IMAPISession:: Form** para acessar a mensagem indicada por _lpMessage_.
     
 ## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
-> A preparação de formulário foi bem-sucedida.
+> A preparação do formulário foi bem-sucedida.
     
 ## <a name="remarks"></a>Comentários
 
-O método **PrepareForm** cria um token de mensagem para a mensagem apontado pelo parâmetro _lpMessage_ e chama o método de [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) da mensagem. Este token é passada no parâmetro _ulMessageToken_ para **IMAPISession:: ShowForm**. 
+O método **IMAPISession::P repareform** cria um token de mensagem para a mensagem indicada pelo parâmetro _lpMessage_ e chama o método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) da mensagem. Esse token é passado no parâmetro _ulMessageToken_ para **IMAPISession:: conform**. 
   
 ## <a name="notes-to-callers"></a>Notas para chamadores
 
-Se a chamada para **PrepareForm** for bem sucedido, libere a mensagem apontada pela _lpMessage_ chamando seu método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de chamar **ShowForm**. Falha ao liberar a mensagem antes de chamar **ShowForm** pode causar vazamento de memória. 
+Se a chamada para **PrepareForm** tiver êxito, libere a mensagem indicada por _lpMessage_ chamando seu método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) antes de chamar o **formulário**. Falha ao liberar a mensagem antes de chamar o **formulário** pode causar vazamentos de memória. 
   
 ## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
@@ -69,7 +69,7 @@ Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
 |**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa o método **PrepareForm** , juntamente com **IMAPISession:: ShowForm**, exiba uma mensagem em um formulário restrito.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI usa o método **IMAPISession::P repareform** , juntamente com **IMAPISession::**, para exibir uma mensagem em um formulário de janela restrita.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

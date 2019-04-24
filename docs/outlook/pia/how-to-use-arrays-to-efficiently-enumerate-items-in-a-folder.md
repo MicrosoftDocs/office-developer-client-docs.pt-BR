@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be65e2818f22e6da289ef8b8da483c2747f941a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335382"
 ---
 # <a name="use-arrays-to-efficiently-enumerate-items-in-a-folder"></a>Usar matrizes para enumerar itens em uma pasta com eficiência
 
@@ -25,7 +25,7 @@ Este exemplo mostra como enumerar com eficiência itens em um objeto [Folder](ht
 
 No exemplo de código a seguir, DemoGetArrayForTable obtém um objeto [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) de um objeto **Folder** usando o método [GetTable (Object, Object)](https://msdn.microsoft.com/library/bb612592\(v=office.15\)). DemoGetArrayForTable então usa o método **GetArray** para retornar um objeto [Array](https://msdn.microsoft.com/library/system.array.aspx) que contém elementos para cada linha da tabela. O objeto **Array** retornado é uma matriz bidimensional que representa um conjunto de valores de linha e coluna da **Table**. A matriz é baseada em zero, em vez de baseada em um, como é o caso de coleções do Outlook. Uma vez obtido o objeto **Array**, o código usa um loop for para enumerar por meio da tabela.
 
-Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução**using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se você usar o Visual Studio para testar este exemplo de código, primeiro adicione uma referência para o componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável Outlook ao importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

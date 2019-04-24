@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: Uma área de trabalho para inserir fórmulas em células especificadas pelo usuário que podem ser referenciadas por outras células e outras ferramentas de complemento.
-ms.openlocfilehash: 6cfb95f49fb3c1c984e0dcdf7df7c05489de8797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337132"
 ---
 # <a name="user-defined-cells-section"></a>Seção User-defined Cells
 
@@ -22,9 +22,9 @@ Uma área de trabalho para inserir fórmulas em células especificadas pelo usu�
   
 ## <a name="remarks"></a>Comentários
 
-Como a seção [Scratch](scratch-section.md) , a seção **User-defined Cells** pode ser usada pela sua solução de várias maneiras diferentes. A vantagem da seção **User-defined Cells** é que as células podem ser nomeadas; células na seção **Scratch** não podem ser nomeadas. 
+Assim como a seção [Scratch](scratch-section.md) , a seção **User-defined Cells** pode ser usada por sua solução de várias maneiras diferentes. A vantagem da seção **User-defined Cells** é que as células podem ser nomeadas; as células da seção **Scratch** não podem ser nomeadas. 
   
-Se a solução tiver um objetivo bem definido, é recomendável que você use as células na seção **User-defined Cells** para manter a clareza porque as células de usuário podem ser nomeadas. A seção **Scratch** geralmente é usada para isolar cálculos complexos repetidos. 
+Se sua solução tiver uma finalidade bem definida, é recomendável que você use células na seção **User-defined Cells** para maior clareza, pois as células do usuário podem ser nomeadas. A seção **Scratch** é normalmente usada para isolar cálculos complexos repetidos. 
   
 Para adicionar essa seção, utilize a caixa de diálogo **Inserir Seção** (clique com o botão direito do mouse na janela do ShapeSheet e clique em **Inserir Seção**).
   

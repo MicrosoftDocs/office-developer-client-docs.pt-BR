@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: Controla a quantidade de espaço entre dois ou mais caracteres. O espaço pode ser adicionado ou subtraído em incrementos de ponto de 1/20.
-ms.openlocfilehash: ee714306e22cafb7f6d805851a6f977e93172377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 927b6203b81af453411cdd13b6f8c8342507a61b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334899"
 ---
 # <a name="spacing-cell-character-section"></a>Célula Spacing (Seção Character)
 
@@ -28,7 +28,7 @@ Para obter uma referência para a célula Spacing pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Char.Letterspace [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Char. Letterspace [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Spacing pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

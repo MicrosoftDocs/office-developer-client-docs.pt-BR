@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4bfbaada3ced58a689ca4d4745e6e4c798755d4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e15c259003ed2cb425eb181f4383f3054967b993
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339316"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriedade canônica PidTagStoreUnicodeMask
 
@@ -25,122 +25,122 @@ ms.locfileid: "22574304"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma bitmask dos sinalizadores que aplicativos cliente devem consultar para determinar as características de um armazenamento de mensagens.
+Contém uma bitmask de sinalizadores que os aplicativos clientes devem consultar para determinar as características de um repositório de mensagens.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_STORE_UNICODE_MASK  <br/> |
 |Identificador:  <br/> |0x340F  <br/> |
 |Tipo de dados:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Armazenamento de mensagens MAPI  <br/> |
+|Área:  <br/> |Repositório de mensagens MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade revela as capacidades de um armazenamento de mensagens para aplicativos cliente do planejamento para enviá-la uma mensagem. Os sinalizadores podem facilitar decisões por um cliente ou outro repositório, como se deseja enviar **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou apenas **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Um cliente nunca deve definir essa propriedade. Uma tentativa retorna **MAPI_E_COMPUTED**. 
+Essa propriedade divulga os recursos de um repositório de mensagens para os aplicativos cliente que planejam enviar uma mensagem. Os sinalizadores podem facilitar as decisões de um cliente ou de outra loja, como se enviar **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou apenas **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Um cliente nunca deve definir essa propriedade. Uma tentativa retorna **MAPI_E_COMPUTED**. 
   
-Um ou mais dos seguintes sinalizadores podem ser definido para essa propriedade: 
+Um ou mais dos seguintes sinalizadores podem ser definidos para esta propriedade: 
   
 STORE_ANSI_OK
   
-> (131072, 0x00020000) O armazenamento de mensagens oferece suporte a propriedades que contêm caracteres (8 bits), American National Standards Institute (ANSI).
+> (131072, 0x00020000) O repositório de mensagens oferece suporte a propriedades que contenham caracteres ANSI (8 bits) da América do Instituto Nacional.
     
 STORE_ATTACH_OK 
   
-> (32, 0x00000020) O armazenamento de mensagens oferece suporte a vinculação e incorporação de objetos (OLE) ou não-OLE anexos de mensagens. 
+> (32, 0x00000020) O repositório de mensagens oferece suporte a anexos de vinculação e incorporação de objetos (OLE) ou não OLE a mensagens. 
     
 STORE_CATEGORIZE_OK 
   
-> (1024, 0x00000400) O armazenamento de mensagens oferece suporte a categorizados modos de exibição das tabelas. 
+> (1024, 0x00000400) O repositório de mensagens oferece suporte a exibições categorizadas de tabelas. 
     
 STORE_CREATE_OK 
   
-> (16, 0x00000010) O armazenamento de mensagens oferece suporte a criação de novas mensagens. 
+> (16, 0x00000010) O repositório de mensagens oferece suporte à criação de novas mensagens. 
     
 STORE_ENTRYID_UNIQUE 
   
-> (1, 0x00000001) Identificadores de entrada para os objetos no repositório de mensagem são exclusivos, ou seja, nunca reutilizado durante a vida útil do repositório. 
+> (1, 0x00000001) Os identificadores de entrada para os objetos no repositório de mensagens são exclusivos, ou seja, nunca reutilizados durante a vida da loja. 
     
 STORE_HTML_OK 
   
-> (65536, 0x00010000) O armazenamento de mensagens oferece suporte a mensagens HTML, armazenadas na propriedade **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Observe que **STORE_HTML_OK** não está definido em versões do MAPIDEFS. H que estão incluídos no Microsoft Exchange 2000 Server e versões anteriores. Se seu ambiente de desenvolvimento usa um MAPIDEFS. Arquivo de H que não incluem **STORE_HTML_OK**, use o valor da "0x00010000". 
+> (65536, 0x00010000) O repositório de mensagens oferece suporte a mensagens HTML, armazenadas na propriedade **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Observe que **STORE_HTML_OK** não está definido nas versões do MAPIDEFS. O H que está incluído no Microsoft Exchange 2000 Server e versões anteriores. Se seu ambiente de desenvolvimento usa um MAPIDEFS. H que não inclui o **STORE_HTML_OK**, use o valor "0x00010000" em vez disso. 
     
 STORE_ITEMPROC
   
-> (2097152, 0x00200000) Em um repositório PST encapsulado, indica que quando uma nova mensagem chega na loja, o repositório faz regras e spam filtrar processamento na mensagem separadamente. As repositório chamadas [IMAPISupport::Notify](imapisupport-notify.md), configuração **fnevNewMail** na estrutura de [notificação](notification.md) que é passada como um parâmetro e, em seguida, passa os detalhes da nova mensagem para o cliente de escutando. Subsequentemente, quando o cliente escutando recebe a notificação, ele não processar regras na mensagem. 
+> (2097152, 0x00200000) Em um repositório PST encapsulado, indica que quando uma nova mensagem chega na loja, o repositório é regras e processamento de filtro de spam na mensagem separadamente. O repositório chama [IMAPISupport:: Notify](imapisupport-notify.md), setting **fnevNewMail** na estrutura de [notificação](notification.md) que é passada como um parâmetro e, em seguida, passa os detalhes da nova mensagem para o cliente de escuta. Posteriormente, quando o cliente de escutará recebe a notificação, ele não processará regras na mensagem. 
     
 STORE_LOCALSTORE
   
-> (524288, 0x00080000) Esse sinalizador é reservado e não deve ser usado.
+> (524288, 0x00080000) Este sinalizador é reservado e não deve ser usado.
     
 STORE_MODIFY_OK 
   
-> (8, 0x00000008) O armazenamento de mensagens oferece suporte a modificação das suas mensagens existentes. 
+> (8, 0x00000008) O repositório de mensagens oferece suporte à modificação de suas mensagens existentes. 
     
 STORE_MV_PROPS_OK 
   
-> (512, 0x00000200) O armazenamento de mensagens oferece suporte a vários valores de propriedades, garante a estabilidade da ordem de valor em uma propriedade de valores múltiplos em toda uma gravação de operação e suporta instanciação das propriedades multivaloradas nas tabelas. 
+> (512, 0x00000200) O repositório de mensagens oferece suporte a propriedades com vários valores, garante a estabilidade da ordem de valor em uma propriedade de vários valores durante uma operação de salvamento e oferece suporte à instanciação de propriedades com vários valores em tabelas. 
     
 STORE_NOTIFY_OK 
   
-> (256, 0x00000100) O armazenamento de mensagens oferece suporte a notificações. 
+> (256, 0x00000100) O repositório de mensagens oferece suporte a notificações. 
     
 STORE_OLE_OK 
   
-> (64, 0x00000040) O armazenamento de mensagens oferece suporte a anexos de OLE. Os dados OLE são acessíveis através de uma interface **IStorage** , tais como isto disponíveis por meio da propriedade **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
+> (64, 0x00000040) O repositório de mensagens oferece suporte a anexos OLE. Os dados OLE podem ser acessados por meio de uma interface **IStorage** , como o disponível através da propriedade **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
     
 STORE_PUBLIC_FOLDERS 
   
-> (16384, 0x00004000) As pastas nesse armazenamento são pública (multiusuário), não é particular (possivelmente várias instâncias, mas não multiusuário). 
+> (16384, 0x00004000) As pastas neste repositório são públicas (multiusuário), não privadas (possivelmente com várias instâncias, mas não vários usuários). 
     
 STORE_PUSHER_OK
   
-> (8388608, 0x00800000) O manipulador de protocolo MAPI não irá rastrear o repositório e o repositório é responsável por push quaisquer alterações por meio de notificações para o indexador para ter mensagens indexadas.
+> (8388608, 0x00800000) O manipulador de protocolo MAPI não rastreará o repositório e o repositório será responsável por enviar todas as alterações por meio de notificações para o indexador para ter mensagens indexadas.
     
 STORE_READONLY 
   
-> (2, 0x00000002) Todas as interfaces para o armazenamento de mensagens têm um nível de acesso somente leitura. 
+> (2, 0x00000002) Todas as interfaces para o repositório de mensagens têm um nível de acesso somente leitura. 
     
 STORE_RESTRICTION_OK 
   
-> (4096, 0x00001000) O armazenamento de mensagens oferece suporte a restrições. 
+> (4096, 0x00001000) O repositório de mensagens oferece suporte a restrições. 
     
 STORE_RTF_OK 
   
-> (2048, 0x00000800) O armazenamento de mensagens oferece suporte a mensagens de formato Rich Text (RTF), geralmente compactadas, e o próprio repositório mantém **PR_BODY** e **PR_RTF_COMPRESSED** sincronizados. 
+> (2048, 0x00000800) O repositório de mensagens oferece suporte a mensagens no formato Rich Text (RTF), geralmente compactadas, e a loja em si mantém o **PR_BODY** e o **PR_RTF_COMPRESSED** sincronizados. 
     
 STORE_SEARCH_OK 
   
-> (4, 0x00000004) O armazenamento de mensagens oferece suporte a pastas de resultados de pesquisa. 
+> (4, 0x00000004) O repositório de mensagens oferece suporte a pastas de resultados de pesquisa. 
     
 STORE_SORT_OK 
   
-> (8192, 0x00002000) O armazenamento de mensagens oferece suporte a classificação de modos de exibição das tabelas. 
+> (8192, 0x00002000) O repositório de mensagens oferece suporte à classificação de exibições de tabelas. 
     
 STORE_SUBMIT_OK 
   
-> (128, 0x00000080) O armazenamento de mensagens oferece suporte a marcação de uma mensagem para envio. 
+> (128, 0x00000080) O repositório de mensagens oferece suporte à marcação de uma mensagem para envio. 
     
 STORE_UNCOMPRESSED_RTF 
   
-> (32768, 0x00008000) O armazenamento de mensagens suporta o armazenamento de mensagens de texto (RTF) do formulário revisable descompactado. Um fluxo RTF descompactado é identificado pelo valor **dwMagicUncompressedRTF** no cabeçalho stream. O valor de **dwMagicUncompressedRTF** é definido no RTFLIB. Arquivo H. 
+> (32768, 0x00008000) O repositório de mensagens oferece suporte ao armazenamento de mensagens de texto de formulário revisadas (RTF) em formato descompactado. Um fluxo RTF descompactado é identificado pelo valor **dwMagicUncompressedRTF** no cabeçalho Stream. O valor **dwMagicUncompressedRTF** é definido em RTFLIB. Arquivo H. 
     
 STORE_UNICODE_OK
   
-> (262144, 0x00040000) O armazenamento de mensagens oferece suporte a propriedades que contém caracteres Unicode.
+> (262144, 0x00040000) O repositório de mensagens oferece suporte a propriedades que contêm caracteres Unicode.
     
-Uma versão RTF de uma mensagem sempre pode ser armazenada, mesmo se o armazenamento de mensagens é sem reconhecimento de RTF. Se o bit STORE_RTF_OK não estiver definido para um determinado repositório, um cliente de manutenção de versões RTF deve próprio chamar a função [RTFSync](rtfsync.md) para manter as versões de **PR_BODY** e **PR_RTF_COMPRESSED** sincronizadas para conteúdo de texto. RTF sempre será armazenado em **PR_RTF_COMPRESSED**, se ele é realmente compactado ou não. 
+Uma versão RTF de uma mensagem sempre pode ser armazenada, mesmo se o repositório de mensagens não reconhece RTF. Se o bit STORE_RTF_OK não for definido para um repositório específico, um cliente que mantém as versões RTF deve chamar a função [RTFSync](rtfsync.md) para manter as versões **PR_BODY** e **PR_RTF_COMPRESSED** sincronizadas para o conteúdo de texto. O RTF sempre é armazenado no **PR_RTF_COMPRESSED**, independentemente de ser compactado ou não. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -148,7 +148,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

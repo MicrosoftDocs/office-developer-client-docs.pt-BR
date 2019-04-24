@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6ff5d07b-17e2-f6ca-1860-5d498a9ebf06
 description: Especifica o tamanho de um marcador.
-ms.openlocfilehash: e1b6bd1b4535a70bf99b9cd90af3e0d52128da01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8671bc6f5ec40814b13727bc458f74eb2893f839
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337608"
 ---
 # <a name="bulletsize-cell-paragraph-section"></a>Célula BulletSize (Seção Paragraph)
 
@@ -24,13 +24,13 @@ Especifica o tamanho de um marcador.
 
 Esse valor pode ser especificado para marcadores predefinidos ou personalizados, como um valor percentual ou específico. 
   
-Se o valor for zero (0), o marcador é o mesmo tamanho da fonte que do primeiro caractere do parágrafo. Se o valor é uma porcentagem, o marcador é dimensionado como um percentual do tamanho da fonte do primeiro caractere do parágrafo. Números negativos são tratados como porcentagens.
+Se o valor for zero (0), o marcador terá o mesmo tamanho de fonte do primeiro caractere do parágrafo. Se o valor for percentual, o tamanho do marcador será um percentual do tamanho da fonte do primeiro caractere do parágrafo. Números negativos são tratados como percentuais.
   
 Para fazer referência à célula BulletSize pelo nome a partir de outra fórmula ou de um programa que usa a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para.BulletFontSize [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para. BulletFontSize [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula BulletSize pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

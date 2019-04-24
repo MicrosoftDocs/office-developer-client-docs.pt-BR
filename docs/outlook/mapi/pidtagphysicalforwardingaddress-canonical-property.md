@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7aa56e8c472da4d597733393313e44dbf1c1028f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338266"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Propriedade canônica PidTagPhysicalForwardingAddress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22569628"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o endereço de encaminhamento físico de um destinatário de mensagem e é usado somente com os relatórios de mensagem.
+Contém o endereço de encaminhamento físico de um destinatário de mensagem e é usado apenas com relatórios de mensagem.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contém o endereço de encaminhamento físico de um destinatário de mensagem e 
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

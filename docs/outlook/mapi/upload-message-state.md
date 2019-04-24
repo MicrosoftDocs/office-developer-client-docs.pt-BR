@@ -1,19 +1,19 @@
 ---
-title: Carregar o estado das mensagens
+title: Carregar estado da mensagem
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 430734fe98799c386e71612355b194a6b8edf00a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 61cda23557a501a2651385d192f1dc7432ef1cb5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332631"
 ---
-# <a name="upload-message-state"></a>Carregar o estado das mensagens
+# <a name="upload-message-state"></a>Carregar estado da mensagem
 
   
   
@@ -25,23 +25,23 @@ ms.locfileid: "22575410"
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[UPMSG](upmsg.md)** <br/> |
-|Desse estado:  <br/> |[Carregar o estado da tabela](upload-table-state.md) <br/> |
-|Com esse estado:  <br/> |Carregar o estado da tabela  <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
+|Estrutura de dados relacionada:  <br/> |**[UPMSG](upmsg.md)** <br/> |
+|A partir deste Estado:  <br/> |[Carregar estado da tabela](upload-table-state.md) <br/> |
+|Para este Estado:  <br/> |Carregar estado da tabela  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente partindo de um estado para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Nesse estado inicia o carregamento de um item do Outlook (email, calendário, contatos, tarefas, nota ou diário) que há de novo ou foi movida para a pasta atual ou que tenha sido modificado. Outlook inicializa a estrutura de dados **UPMSG** correpsonding com as informações apropriadas para o item, como sendo adicionado, movido ou modificado. 
+Este estado inicia o carregamento de um item do Outlook (email, calendário, contato, tarefa, anotação ou diário) que é novo ou que foi movido para a pasta atual ou que foi modificado. O Outlook Inicializa a estrutura de dados do correpsonding **UPMSG** com as informações apropriadas para o item como sendo adicionado, movido ou modificado. 
   
-Se o item foi adicionado ou movido, o cliente, em seguida, apropriadamente adiciona ou atualiza o item no servidor. 
+Se o item tiver sido adicionado ou movido, o cliente adicionará ou atualizará o item, apropriadamente, no servidor. 
   
-Se o item tiver sido modificado, Outlook ainda mais especifica na estrutura de dados **UPMSG** se as modificações estão em um cabeçalho de mensagem (caso em que o item é o cabeçalho da mensagem), nas propriedades do item ou no próprio item que requer o conflito resolução. O cliente, em seguida, atualiza o item no servidor. 
+Se o item tiver sido modificado, o Outlook especificará ainda mais na estrutura de dados do **UPMSG** se as modificações estiverem em um cabeçalho de mensagem (caso em que o item é o cabeçalho da mensagem), nas propriedades do item ou no próprio item que requer conflito solução. O cliente atualiza o item no servidor. 
   
-Quando o carregamento do item for encerrada, Outlook notas que a mensagem foi carregada, para que ele não será processado em um carregamento subsequente. Armazenamento local retorna para o estado da tabela de carregamento.
+Quando o carregamento do item termina, o Outlook observa que a mensagem foi carregada, de forma que ela não seja processada em um carregamento subsequente. O repositório local retorna ao estado de carregamento da tabela.
   
 ## <a name="see-also"></a>Confira também
 
@@ -53,5 +53,5 @@ Quando o carregamento do item for encerrada, Outlook notas que a mensagem foi ca
   
 [Sobre a máquina de estado de replicação](about-the-replication-state-machine.md)
   
-[ESTADO DE SINCRONIZAÇÃO](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

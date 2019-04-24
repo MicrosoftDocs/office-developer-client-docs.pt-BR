@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c1a848eec84c7d81792a95baa3f47fa6779e95f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33a7545f9b2719615617d46e2d5ed1f6952b5522
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335424"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propriedade canônica PidTagReportName
 
@@ -25,7 +25,7 @@ ms.locfileid: "22569579"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de exibição para o destinatário que deve obter relatórios para esta mensagem.
+Contém o nome de exibição do destinatário que deve obter relatórios para esta mensagem.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contém o nome de exibição para o destinatário que deve obter relatórios par
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades são exemplos das propriedades de endereço do destinatário que o remetente tenha delegada para receber qualquer relatórios gerados para esta mensagem.
+Essas propriedades são exemplos das propriedades de endereço para o destinatário que o remetente delegou para receber quaisquer relatórios gerados para esta mensagem.
   
-Um aplicativo cliente que deve rotear relatórios para outro usuário deve definir essas propriedades em tempo de envio de mensagem. Se não estiver definidas, os relatórios são enviados para o remetente da mensagem.
+Um aplicativo cliente que deve encaminhar relatórios para outro usuário deve definir essas propriedades no horário de envio da mensagem. Se não estiverem definidas, os relatórios serão enviados para o remetente da mensagem.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

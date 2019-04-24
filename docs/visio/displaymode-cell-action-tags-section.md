@@ -1,5 +1,5 @@
 ---
-title: Célula DisplayMode (Seção Action Tags)
+title: Célula DisplayMode (seção Action Tags)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,26 +8,26 @@ f1_keywords:
 - Vis_DSS.chm60039
 localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
-description: Determina se a marca de ação aparece quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
-ms.openlocfilehash: 4cb0666ca8de28247309de4fc0d2ff23e8b37d8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina se a marca de ação é exibida quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
+ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332729"
 ---
-# <a name="displaymode-cell-action-tags-section"></a>Célula DisplayMode (Seção Action Tags)
+# <a name="displaymode-cell-action-tags-section"></a>Célula DisplayMode (seção Action Tags)
 
-Determina se a marca de ação aparece quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
+Determina se a marca de ação é exibida quando o usuário move o ponteiro sobre a marca, quando a forma é selecionada ou sempre.
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
   
 |**Valor**|**Modo de exibição**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Aparece quando o mouse é pausado sobre a marca (padrão).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
+| ,0  <br/> | Aparece quando o mouse é pausado sobre a marca (o padrão).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
 | 1  <br/> | Exibido enquanto a forma é selecionada.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 2  <br/> | Sempre exibido.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| duas  <br/> | Sempre exibido.  <br/> |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -39,14 +39,14 @@ Para fazer referência à célula DisplayMode pelo nome, de outra fórmula ou pr
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Marcas inteligentes.  *nome* . DisplayMode onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
+| Nome da célula:  <br/> | SmartTags.  *nome* . DisplayMode onde SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
    
-Para obter uma referência para a célula DisplayMode pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para fazer referência à célula DisplayMode pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
-| Índice da linha:  <br/> |**visRowSmartTag** +  *i* onde *i* = 0, 1, 2...  <br/> |
+| Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
 | Índice da célula:  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

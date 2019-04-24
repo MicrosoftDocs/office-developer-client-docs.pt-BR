@@ -1,5 +1,5 @@
 ---
-title: Elemento de soluções ('Visio XML')
+title: Elemento Solutions (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Especifica as propriedades das soluções armazenadas no documento.
 ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334843"
 ---
-# <a name="solutions-element-visio-xml"></a>Elemento de soluções ('Visio XML')
+# <a name="solutions-element-visio-xml"></a>Elemento Solutions (' Visio XML ')
 
 Especifica as propriedades das soluções armazenadas no documento.
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Solutions.XML  <br/> |
+|**Partes do documento** <br/> |Solutions. xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -35,7 +35,7 @@ Especifica as propriedades das soluções armazenadas no documento.
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
@@ -45,10 +45,10 @@ Nenhum.
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Especifica uma instância da solução que XML armazenado no desenho.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Especifica uma instância do XML da solução armazenada no desenho.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum.
+Nenhuma.
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 371d0305f8f00e66704bae03f93857c7275b6a10
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc511ea4b3ec4eea9e38f744bcb8f277108085cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336894"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
@@ -27,7 +27,7 @@ Contém uma matriz de estruturas [FLATENTRY](flatentry.md) .
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macros relacionadas:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
 ```cpp
@@ -44,7 +44,7 @@ typedef struct
 
 **cEntries**
   
-> Contagem de estruturas **FLATENTRY** na matriz descrito pelo membro **abEntries** . 
+> Contagem de estruturas **FLATENTRY** na matriz descrita pelo membro **abEntries** . 
     
 **cbEntries**
   
@@ -52,15 +52,15 @@ typedef struct
     
 **abEntries**
   
-> Matriz de bytes que contém uma ou mais estruturas **FLATENTRY** , organizada ponta a ponta. 
+> Matriz de bytes que contém uma ou mais estruturas **FLATENTRY** , organizadas de ponta a ponta. 
     
 ## <a name="remarks"></a>Comentários
 
-Na matriz **abEntries** , cada estrutura **FLATENTRY** é alinhada em um limite naturalmente alinhado. Bytes extras são incluídos como preenchimento para tornar o alinhamento certeza natural entre qualquer duas estruturas **FLATENTRY** . A estrutura **FLATENTRY** primeira na matriz é sempre alinhada corretamente porque o deslocamento do membro **abEntries** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondado para cima até o próximo múltiplo de 4. Use a macro [CbFLATENTRY](cbflatentry.md) para calcular o tamanho de uma estrutura **FLATENTRY** . 
+Na matriz **abEntries** , cada estrutura **FLATENTRY** é alinhada em um limite naturalmente alinhado. Bytes extras são incluídos como enchimento para garantir o alinhamento natural entre duas estruturas **FLATENTRY** . A primeira estrutura **FLATENTRY** na matriz é sempre alinhada corretamente porque o deslocamento do membro **abEntries** é 8. Para calcular o deslocamento da próxima estrutura, use o tamanho da primeira entrada arredondado para o próximo múltiplo de 4. Use a macro [CbFLATENTRY](cbflatentry.md) para calcular o tamanho de uma estrutura **FLATENTRY** . 
   
-Por exemplo, a estrutura **FLATENTRY** segunda é iniciado em um deslocamento que consiste o deslocamento da primeira entrada mais o comprimento da primeira entrada arredondado para o próximo de quatro bytes. O comprimento da primeira entrada é o comprimento da sua lista de membros **cb** mais o comprimento do seu membro **abEntry** . 
+Por exemplo, a segunda estrutura **FLATENTRY** começa em um deslocamento que consiste no deslocamento da primeira entrada, além do comprimento da primeira entrada arredondada para os próximos quatro bytes. O comprimento da primeira entrada é o comprimento do seu membro **CB** mais o comprimento de seu membro **abEntry** . 
   
-O exemplo de código a seguir indica como compute deslocamentos em uma estrutura **FLATENTRYLIST** . Suponha que _lpFlatEntry_ é um ponteiro para a estrutura primeiro na lista. 
+O exemplo de código a seguir indica como computar deslocamentos em uma estrutura **FLATENTRYLIST** . Suponha que _lpFlatEntry_ é um ponteiro para a primeira estrutura na lista. 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4

@@ -1,5 +1,5 @@
 ---
-title: Baixar estado da hierarquia
+title: Estado de hierarquia de download
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 45535eef75c6fc091c02ec35b669675a51e4cf48
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337006"
 ---
-# <a name="download-hierarchy-state"></a>Baixar estado da hierarquia
+# <a name="download-hierarchy-state"></a>Estado de hierarquia de download
 
   
   
@@ -25,21 +25,21 @@ ms.locfileid: "25384854"
 
 |||
 |:-----|:-----|
-|Identificador de controle de sessão:  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
-|Estrutura de dados relacionados:  <br/> |**[DNHIER](dnhier.md)** <br/> |
-|Desse estado:  <br/> |[Sincronizar o estado](synchronize-state.md) <br/> |
-|Com esse estado:  <br/> |Sincronizar o estado  <br/> |
+|Identificador de Estado:  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
+|Estrutura de dados relacionada:  <br/> |**[DNHIER](dnhier.md)** <br/> |
+|A partir deste Estado:  <br/> |[Estado Sincronizar](synchronize-state.md) <br/> |
+|Para este Estado:  <br/> |Estado Sincronizar  <br/> |
    
 > [!NOTE]
-> A máquina de estado de replicação é uma máquina de estado determinantes. Um cliente partindo de um estado para outro eventualmente deve retornar para o anterior do último. 
+> A máquina de estado de replicação é uma máquina de estado determinista. Um cliente que faz parte de um estado para outro deve eventualmente retornar para o primeiro a partir do último. 
   
 ## <a name="description"></a>Descrição
 
-Nesse estado inicia o download de uma hierarquia de árvore de pastas de um servidor no repositório local. 
+Esse estado inicia o download de uma hierarquia de árvore de pastas de um servidor para o repositório local. 
   
-Outlook inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente downloads da hierarquia e insere novas pastas ou modificações em pastas no armazenamento local. O processo de download adota sincronização de alteração Incremental do Microsoft Exchange (ICS). Para obter mais informações sobre ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+O Outlook Inicializa a estrutura de dados **DNHIER** associada com um ponteiro para a hierarquia. O cliente baixa a hierarquia e insere novas pastas ou modificações em pastas no repositório local. O processo de download adota a sincronização de alteração incremental (ICS) do Microsoft Exchange. Confira mais informações sobre ICS em [Critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
-Quando for encerrada nesse estado, o armazenamento local retorna para o estado de sincronização.
+Quando esse estado termina, o repositório local retorna ao estado de sincronização.
   
 ## <a name="see-also"></a>Confira também
 

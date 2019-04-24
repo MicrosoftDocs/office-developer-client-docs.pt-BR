@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: Especifica uma URL, um nome de arquivo ou um caminho UNC para o qual ir.
-ms.openlocfilehash: 840ce0c4ce73da378f80e5d8a185073ac3915daf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338546"
 ---
 # <a name="address-cell-hyperlinks-section"></a>Célula Address (Seção Hyperlinks)
 
 Especifica uma URL, um nome de arquivo ou um caminho UNC para o qual ir.
   
-Você pode especificar o endereço como um caminho relativo com base no caminho de base definido para o documento na caixa de **base do hiperlink** na guia **Resumo** da caixa de diálogo **Propriedades** (clique na guia **arquivo** , clique em **Info*** * propriedades * * e clique em **Propriedades avançadas**). Se o documento não tiver nenhum caminho de base, o aplicativo navegará com base no caminho do documento. Se o documento não tiver sido salvo, o hiperlink é indefinido.
+Você pode especificar o endereço como um caminho relativo com base no caminho base definido para o documento na **caixa base do hiperlink** na guia **Resumo** da caixa de diálogo **Propriedades** (clique na guia **arquivo** , em **informações**, em * * Propriedades * * e, em seguida, clique em **Propriedades avançadas**. Se o documento não contiver um caminho de base, o aplicativo navegará com base no caminho do documento. Se o documento não tiver sido salvo, o hiperlink não será definido.
   
 ## <a name="remarks"></a>Comentários
 
@@ -30,14 +30,14 @@ Para fazer referência à célula Address pelo índice a partir de um programa, 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hiperlink. *nome* . Endereços onde Hyperlink. *nome* é o nome da linha do hiperlink  <br/> |
+|Nome da célula:  <br/> |Hiperlink. *nome* . Endereço onde hiperlink. *Name* é o nome da linha de hiperlink  <br/> |
    
-Para fazer referência à célula Address pelo nome, a partir de outra fórmula ou de um programa, usando a propriedade **CellsU** , utilize: 
+Para fazer referência à célula address pelo nome, a partir de outra fórmula ou programa, usando a propriedade Cells **** , utilize: 
   
 |||
 |:-----|:-----|
-| Índice da seção:  <br/> |**visSectionHyperlink** <br/> |
-| Índice da linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visHLinkAddress** <br/> |
+| Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
+| Índice de linha:  <br/> |**visRow1stHyperlink** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visHLinkAddress** <br/> |
    
 

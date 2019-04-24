@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: Determina o valor da unidade de página na escala de desenho atual. A escala de desenho da página representa a razão da unidade de página mostrada na célula PageScale em relação à unidade de desenho mostrada na célula DrawingScale.
-ms.openlocfilehash: 0e1721ea667ad3bcd9f35880ab4e63bc90802c32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0763fd6fad5f64bc741cbdd1e1227b0982323841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339449"
 ---
 # <a name="pagescale-cell-page-properties-section"></a>Célula PageScale (Seção Page Properties)
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3d9db53dd752367570fc10aaabe3143b3b3ea917
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ee1b84e36ef014fab87ca910115675c905f6a09
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332638"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
@@ -29,7 +29,7 @@ Atualiza o tipo de propriedade de uma marca de propriedade para um valor especif
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Estrutura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp

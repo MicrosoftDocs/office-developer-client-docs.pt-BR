@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: Especifica se as formas pertencentes à camada podem ser coladas.
-ms.openlocfilehash: 81a54bebaa8ca68a8fbc8853c69f88efb34bbdb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55886a7e96bd2c08966cb85f5edad6a7174e30cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332806"
 ---
 # <a name="glue-cell-layers-section"></a>Célula Glue (Seção Layers)
 
@@ -22,18 +22,18 @@ Especifica se as formas pertencentes à camada podem ser coladas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|VERDADEIRO  <br/> |A cola está ativada.  <br/> |
-|FALSO  <br/> |A cola não está ativada.  <br/> |
+|TRUE  <br/> |A cola está ativada.  <br/> |
+|FALSE  <br/> |A cola não está ativada.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa célula corresponde à opção **associar** na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e, em seguida, clique em **Propriedades da camada** ). 
+Esta célula corresponde à opção **colar** na caixa de diálogo **Propriedades da camada** (na guia **página inicial** , no grupo **edição** , clique em **camadas**e em Propriedades da **camada** ). 
   
 Para obter uma referência para a célula Glue pelo nome, a partir de outra fórmula ou programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Layers.Glue [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+|Nome da célula:  <br/> |Layers. Glue [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para obter uma referência para a célula Glue pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

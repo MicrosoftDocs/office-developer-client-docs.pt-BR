@@ -1,31 +1,31 @@
 ---
-title: Configurando um suplemento no estado offline
+title: ConFigurando um suplemento de estado offline
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: 'Última modificação: 05 de julho de 2012'
+description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
 ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339288"
 ---
-# <a name="setting-up-an-offline-state-add-in"></a>Configurando um suplemento no estado offline
+# <a name="setting-up-an-offline-state-add-in"></a>ConFigurando um suplemento de estado offline
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para implementar um suplemento do estado offline, você deve implementar a conexão, inicialização e outras funções de instalação. Este tópico, esses conexão, a inicialização e a configuração funções são demonstradas usando exemplos de código a partir do suplemento de amostra Offline estado. O suplemento do estado de Offline de amostra é um suplemento COM que adiciona uma **estado Offline** menu ao Outlook e usa a API de estado Offline. Através do menu de **Estado Offline** , você pode habilitar ou desabilitar o monitoramento do estado, verifique o estado atual e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
+Para implementar um suplemento de estado offline, você deve implementar a conexão, a inicialização e outras funções de configuração. Neste tópico, essas funções de conexão, inicialização e configuração são demonstradas usando exemplos de código do suplemento de exemplo offline. O suplemento do estado de Offline de amostra é um suplemento COM que adiciona uma **estado Offline** menu ao Outlook e usa a API de estado Offline. No menu **estado offline** , você pode habilitar ou desabilitar o monitoramento de estado, verificar o estado atual e alterar o estado atual. Para saber mais sobre como baixar e instalar a Amostra de Suplemento de Estado Offline, confira [Instalação da Amostra de Suplemento de Estado Offline](installing-the-sample-offline-state-add-in.md). Confira mais informações sobre a API de Estado Offline em [Sobre a API de Estado Offline](about-the-offline-state-api.md).
   
-Depois de configurar um suplemento no estado offline, você deve implementar funções para monitorar e modifique as alterações de estado de conexão. Para obter mais informações, consulte [Monitoring Conexão estado alterações usando um suplemento do estado Offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Depois de configurar um suplemento de estado offline, você deve implementar as funções para monitorar e modificar as alterações de estado de conexão. Para obter mais informações, consulte [monitorAndo as alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-## <a name="on-connection-routine"></a>Na rotina de Conexão
+## <a name="on-connection-routine"></a>Na rotina de conexão
 
-O **[Método IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** é chamado sempre que um suplemento for carregado. É o ponto de entrada para o suplemento, portanto, o código que você colocar no `OnConnection` função será chamada quando o suplemento for iniciado. No exemplo a seguir, o `OnConnection` chamadas de função do `HrInitAddin` função. 
+O **[método IDTExtensibility2.](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** OnConnection é chamado toda vez que um suplemento é carregado. É o ponto de entrada para o suplemento, portanto, o código colocado na `OnConnection` função será chamado quando o suplemento for iniciado. No exemplo a seguir, a `OnConnection` função chama a `HrInitAddin` função. 
   
-### <a name="cmyaddinonconnection-example"></a>Exemplo de CMyAddin::OnConnection()
+### <a name="cmyaddinonconnection-example"></a>Exemplo de CMyAddin:: onConnection ()
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -44,11 +44,11 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## <a name="initialize-add-in-routine"></a>Inicializar o suplemento de rotina
+## <a name="initialize-add-in-routine"></a>Inicializar rotina de suplemento
 
-O `HrInitAddin` chamadas de função a `LoadLibraries`, `HrCacheProfileName`, e `HrAddMenuItems` funções para concluir a configuração do suplemento do estado offline. 
+A `HrInitAddin` função chama as `LoadLibraries`funções `HrCacheProfileName`, e `HrAddMenuItems` para concluir a configuração do suplemento de estado offline. 
   
-### <a name="cmyaddinhrinitaddin-example"></a>Exemplo de CMyAddin::HrInitAddin()
+### <a name="cmyaddinhrinitaddin-example"></a>Exemplo de CMyAddin:: HrInitAddin ()
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a>Carregar a rotina de bibliotecas
+## <a name="load-libraries-routine"></a>Rotina de carregar bibliotecas
 
-O `LoadLibraries` função carrega os arquivos de biblioteca de vínculo dinâmico (DLL) que requer que o suplemento. 
+A `LoadLibraries` função carrega os arquivos dll (biblioteca de vínculo dinâmico) que o suplemento requer. 
   
-### <a name="loadlibraries-example"></a>Exemplo de LoadLibraries()
+### <a name="loadlibraries-example"></a>Exemplo de loadLibraries ()
 
 ```cpp
 void LoadLibraries() 
@@ -168,9 +168,9 @@ void LoadLibraries()
 
 ## <a name="cache-profile-name-routine"></a>Rotina de nome do perfil de cache
 
-O `HrCacheProfileName` função chama a função **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** para abrir uma seção de perfil da sessão atual e, em seguida, define o perfil para os manipuladores de botão. 
+A `HrCacheProfileName` função chama a função **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** para abrir uma seção de perfil da sessão atual e, em seguida, define o perfil dos manipuladores de botão. 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a>Exemplo de CMyAddin::HrCacheProfileName()
+### <a name="cmyaddinhrcacheprofilename-example"></a>Exemplo de CMyAddin:: HrCacheProfileName ()
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a>Adicionar itens de Menu rotina
+## <a name="add-menu-items-routine"></a>Adicionar rotina de itens de menu
 
-O `HrAddMenuItems` função define as opções de menu que aparecem no menu do **Estado Offline** que é criado quando o suplemento é carregado no Outlook e, em seguida, chama `DispEventAdvise` para cada item de menu. 
+A `HrAddMenuItems` função define as opções de menu que aparecem sob o menu de **estado offline** que é criado quando o suplemento é carregado no Outlook e, em seguida `DispEventAdvise` , chama cada item de menu. 
   
-### <a name="cmyaddinhraddmenuitems-example"></a>Exemplo de CMyAddin::HrAddMenuItems()
+### <a name="cmyaddinhraddmenuitems-example"></a>Exemplo de CMyAddin:: HrAddMenuItems ()
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -293,5 +293,5 @@ HRESULT CMyAddin::HrAddMenuItems()
 - [Instalar a amostra de suplemento de estado offline](installing-the-sample-offline-state-add-in.md)
 - [Sobre a amostra de suplemento de estado offline](about-the-sample-offline-state-add-in.md)
 - [Monitorar alterações de estado da conexão usando um suplemento de estado offline](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Desconectando um Offline suplemento State](disconnecting-an-offline-state-add-in.md)
+- [Desconectar um suplemento de estado offline](disconnecting-an-offline-state-add-in.md)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: Especifica os autores de comentários em um desenho.
 ms.openlocfilehash: af1b1889fa3736931c9abde35191cf5cb3e1bbd5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338413"
 ---
 # <a name="authorlist-element-commentstype-complextype-visio-xml"></a>Elemento AuthorList (Comments_Type complexType) ('Visio XML')
 
@@ -52,6 +52,6 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
    
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

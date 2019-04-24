@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: 'Última modificação: 05 de julho de 2012'
+description: '�ltima altera��o: quinta-feira, 5 de julho de 2012'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339183"
 ---
 # <a name="upmov"></a>UPMOV
  
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Informações de carregamento de itens que foram movidos. Essas informações são usadas durante o [carregamento excluir o estado de status](upload-delete-status-state.md) e [carregar o estado da tabela](upload-table-state.md).
+Informações para carregar itens que foram movidos. Essas informações são usadas durante o [carregamento do status de exclusão](upload-delete-status-state.md) e o [estado da tabela de carregamento](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informações rápidas
 
@@ -43,21 +43,21 @@ struct UPMOV
 
 _ulFlags_
   
-> [in] Sinalizadores para determinar o comportamento apropriado durante o carregamento.
+> no Sinalizadores para determinar o comportamento apropriado durante o carregamento.
     
   - UPV_ERROR
     
-    - [in] Problema ao abrir a pasta do servidor.
+    - no Problema ao abrir a pasta do servidor.
     
   - UPV_DIRTY
     
-    - [in] O estado de carregamento foi alterada. Isso é usado pelo cliente para rastrear a alteração do estado de armazenamento local.
+    - no O estado de carregamento foi alterado. Isso é usado pelo cliente para rastrear a alteração no estado do repositório local.
     
   - UPV_COMMIT
     
-    - [in] Confirme o estado de carregamento.
+    - no Confirme o estado de carregamento.
     
-_Preservadas_
+_Enquanto_
   
 >  [out] Esse membro é reservado para uso interno do Outlook e não tem suporte. 
     
@@ -67,22 +67,22 @@ _pstmReserved_
     
 _pszName_
   
->  [out] Nome da pasta de destino. 
+>  bota Nome da pasta de destino. 
     
   > [!NOTE]
-  > Este membro não oferece suporte a UNICODE. 
+  > Este membro não dá suporte a UNICODE. 
   
 _feid_
   
->  [out] Identificação de entrada da pasta de destino. 
+>  bota ID de entrada da pasta de destino. 
     
 _pfld_
   
->  [in] Ponteiro para a pasta do servidor. 
+>  no Ponteiro para a pasta do servidor. 
     
 _pxicc_
   
->  [in] Ponteiro para a interface de conteúdo de **IExchangeImportContentsChanges** que ofereça suporte a carregamento de alterações de conteúdo ao usar a sincronização de alteração Incremental (ICS). Para obter mais informações sobre **IExchangeImportContentsChanges** e ICS, consulte [ICS critérios de avaliação](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  no Ponteiro para a interface de conteúdo do **IExchangeImportContentsChanges** que oferece suporte ao carregamento de alterações de conteúdo ao usar a sincronização de alteração incremental (ICS). Para obter mais informações sobre o **IExchangeImportContentsChanges** e o ICS, consulte [critérios de avaliação de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
@@ -90,11 +90,11 @@ _dwReserved_
     
 _pupmovNext_
   
->  [out] Em seguida, mova contexto. 
+>  bota Próximo contexto de movimentação. 
     
 _cEntMov_
   
->  [in] Número de itens movidos aqui. 
+>  no Número de itens movidos aqui. 
     
 ## <a name="see-also"></a>Confira também
 

@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f750223f-165c-8c2f-457b-724817b062b3
 description: Para mover de uma célula para outra em uma janela do ShapeSheet, utilize as teclas de seta e a tecla TAB. Clique em uma célula para ativá-la ou role pelas células da janela do ShapeSheet sem alterar a célula ativa.
-ms.openlocfilehash: 0e58ba66b6d086ee296fbc344c0892cdf11d09c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6e71852f20bfeb889161c245859b458ad0debfb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335235"
 ---
-# <a name="move-around-a-shapesheet-window"></a>Mover-se por uma janela do ShapeSheet
+# <a name="move-around-a-shapesheet-window"></a>Mover-se pela janela do ShapeSheet
 
 Para mover de uma célula para outra em uma janela do ShapeSheet, utilize as teclas de seta e a tecla TAB. Clique em uma célula para ativá-la ou role pelas células da janela do ShapeSheet sem alterar a célula ativa.
   
 Você pode também utilizar as técnicas da tabela a seguir.
   
-|**To**|**Faça isso**|
+|**To**|**Faça isto**|
 |:-----|:-----|
 | Ativar uma célula  <br/> | Clique na célula com o ponteiro.  <br/> |
 | Selecionar uma linha de células numerada  <br/> | Clique no número da linha.  <br/> |

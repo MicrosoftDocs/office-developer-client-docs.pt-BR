@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Determina a direção dos caracteres em um bloco de texto.
-ms.openlocfilehash: c238b6b2a47c968809869f8eb3e38b6f0db1dcad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332354"
 ---
 # <a name="textdirection-cell-text-block-format-section"></a>Célula TextDirection (Seção Text Block Format)
 
@@ -22,7 +22,7 @@ Determina a direção dos caracteres em um bloco de texto.
   
 |**Valor**|**Direction**|**Constante de automação**|
 |:-----|:-----|:-----|
-| 0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
+| ,0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
 ## <a name="remarks"></a>Comentários

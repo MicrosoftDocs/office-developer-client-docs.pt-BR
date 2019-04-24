@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 48a69fa49735014dcbfffad0673f1d4da62452e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17e936093536f548d16021523d9434f09777c6d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338756"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594828"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Fornece acesso à tabela de status, uma tabela que contém informações sobre todos os recursos MAPI na sessão.
+Fornece acesso à tabela status, uma tabela que contém informações sobre todos os recursos MAPI na sessão.
   
 ```cpp
 HRESULT GetStatusTable(
@@ -38,17 +38,17 @@ HRESULT GetStatusTable(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que determina o formato de colunas que são cadeias de caracteres. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que determina o formato das colunas que são cadeias de caracteres. O seguinte sinalizador pode ser definido:
     
 MAPI_UNICODE 
   
-> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas de cadeia de caracteres estão no formato ANSI.
+> As colunas de cadeia de caracteres estão no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, as colunas da cadeia de caracteres estarão no formato ANSI.
     
  _lppTable_
   
-> [out] Um ponteiro para um ponteiro para a tabela de status.
+> bota Um ponteiro para um ponteiro para a tabela de status.
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
 S_OK 
   
@@ -56,19 +56,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession::GetStatusTable** fornece acesso à tabela de status que contém informações sobre todos os recursos MAPI na sessão. Não há uma linha na tabela para obter informações sobre o subsistema de MAPI, uma linha para o spooler MAPI, uma linha para o catálogo de endereços integrada e uma linha para cada provedor de serviços no perfil. 
+O método **IMAPISession::** getstatustable fornece acesso à tabela de status que contém informações sobre todos os recursos MAPI na sessão. Há uma linha na tabela para obter informações sobre o subsistema MAPI, uma linha para o spooler MAPI, uma linha para o catálogo de endereços integrado e uma linha para cada provedor de serviços no perfil. 
   
-Para obter uma lista completa de obrigatórios e opcionais de colunas na tabela de status, consulte [As tabelas de Status](status-tables.md). 
+Para obter uma lista completa de colunas obrigatórias e opcionais na tabela status, consulte [tabelas de status](status-tables.md). 
   
-Definir o sinalizador MAPI_UNICODE no parâmetro _ulFlags_ afeta o formato das colunas retornado dos métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornadas pelo método [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+Definir o sinalizador MAPI_UNICODE no parâmetro _parâmetroulflags_ afeta o formato das colunas retornadas dos métodos IMAPITable [:: QueryColumns](imapitable-querycolumns.md) e IMAPITable [:: QueryRows](imapitable-queryrows.md) . Esse sinalizador também controla os tipos de propriedade na ordem de classificação retornada pelo método imApitable [:: QuerySortOrder](imapitable-querysortorder.md) . 
   
-## <a name="mfcmapi-reference"></a>Referência MFCMAPI
+## <a name="mfcmapi-reference"></a>Referência do MFCMAPI
 
-Para exemplos de código MFCMAPI, consulte a tabela a seguir.
+Para ver códigos de exemplo do MFCMAPI, confira a tabela a seguir.
   
-|**Arquivo**|**Function**|**Comment**|
+|**Arquivo**|**Função**|**Comentário**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI usa o método **IMAPISession::GetStatusTable** para obter a tabela de status a ser renderizado.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: onStatustable  <br/> |MFCMAPI usa o método **IMAPISession::** getstatustable para obter a tabela de status a ser renderizada.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
@@ -89,7 +89,7 @@ Para exemplos de código MFCMAPI, consulte a tabela a seguir.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI como um exemplo de código](mfcmapi-as-a-code-sample.md)
+[MFCMAPI como exemplo de código](mfcmapi-as-a-code-sample.md)
   
 [Tabelas de status](status-tables.md)
 

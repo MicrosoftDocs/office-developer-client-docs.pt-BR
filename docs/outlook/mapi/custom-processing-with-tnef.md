@@ -8,17 +8,17 @@ api_type:
 - COM
 ms.assetid: c015335a-8fcd-4b03-abb9-9b6b72000e13
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: d9bbba40e5159221cfb3b3692b597b07fb606936
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ee219ec09116640903df75ce271f607972dd37e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336768"
 ---
 # <a name="custom-processing-with-tnef"></a>Processamento personalizado com TNEF
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de transporte podem usar o processamento personalizado para processar as propriedades em um anexo em si, transmitir anexos separadamente ou transmitem-los por meio do modelo de anexo do sistema de mensagens. TNEF usa um mecanismo que habilita o provedor de transporte enviar os anexos, além da mensagem e reconecte-os no lado de recepção.
+Os provedores de transporte podem usar o processamento personalizado para processar as propriedades em um próprio anexo, transmitir anexos separadamente ou transmiti-los por meio do modelo de anexo do sistema de mensagens. O TNEF usa um mecanismo que permite que o provedor de transporte envie os anexos separados da mensagem e reconecte-os ao lado do destinatário.
   
 

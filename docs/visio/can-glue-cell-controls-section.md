@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 description: Determina se é possível associar uma alça de controle a outras formas.
-ms.openlocfilehash: c7b6764e25deab3345b7b3cecd6cf12dde74a84c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f5e65ab72c584f88b56e273b0d73abf969a6588
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337251"
 ---
 # <a name="can-glue-cell-controls-section"></a>Célula Can Glue (Seção Controls)
 
@@ -22,8 +22,8 @@ Determina se é possível associar uma alça de controle a outras formas.
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-| VERDADEIRO  <br/> | É possível associar a alça de controle.  <br/> |
-| FALSO  <br/> | Não é possível associar a alça de controle.  <br/> |
+| TRUE  <br/> | É possível associar a alça de controle.  <br/> |
+| FALSE  <br/> | Não é possível associar a alça de controle.  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
@@ -31,7 +31,7 @@ Para fazer referência à célula Can Glue pelo nome, a partir de outra fórmula
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Controles.  *nome* . Controles de CanGluewhere.  *nome* é o nome da linha controles.  <br/> |
+| Nome da célula:  <br/> | Menores.  *nome* . Controles CanGluewhere.  *Name* é o nome da linha de controles.  <br/> |
    
 Para fazer referência à célula Can Glue pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

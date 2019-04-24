@@ -1,5 +1,5 @@
 ---
-title: Sintaxe do fluxo de TNEF
+title: Sintaxe de fluxo TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ce2b2497bd89f00ce7f063d3e482752fabfeb731
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12d2a92ff80897456707c7ab8af8f704605c85d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339631"
 ---
-# <a name="tnef-stream-syntax"></a>Sintaxe do fluxo de TNEF
+# <a name="tnef-stream-syntax"></a>Sintaxe de fluxo TNEF
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Este tópico apresenta uma Bakus-Nauer como a descrição da sintaxe TNEF stream. Nesta descrição, elementos não terminais que têm uma definição mais estão em itálico. Constantes e literais itens estão em negrito. Sequências de elementos são listadas na ordem em uma única linha. Por exemplo, o item de _fluxo_ consiste a constante **TNEF_SIGNATURE**, seguido por uma _chave_, seguido por um _objeto_. Quando um item tem mais de uma implementação possível, as alternativas são listadas em linhas consecutivas. Por exemplo, um _objeto_ pode consistir em um _Message_Seq_, _Message_Seq_ seguido por um _Attach_Seq_ou apenas um _Attach_Seq_.
+Este tópico apresenta um Bakus-Nauer como a descrição da sintaxe de fluxo TNEF. Nesta descrição, os elementos não terminais que têm uma definição adicional estão em itálico. Constantes e itens literais estão em negrito. As sequências de elementos são listadas em ordem em uma única linha. Por exemplo, o item _Stream_ consiste na constante **TNEF_SIGNATURE**, seguida por uma _chave_, seguida por um _objeto_. Quando um item tem mais de uma implementação possível, as alternativas são listadas em linhas consecutivas. Por exemplo, um _objeto_ pode consistir em um _Message_Seq_, um _Message_Seq_ seguido por um _Attach_Seq_ou apenas um _Attach_Seq_.
   
  _TNEF_Stream:_
   
 > **TNEF_SIGNATURE** _Chave_ _Objeto_
     
- _Chave:_
+ _Chaves_
   
 > um inteiro não assinado de 16 bits diferente de zero
     
-Transportes TNEF habilitado para geram esse valor antes de usar a implementação de TNEF para gerar um fluxo TNEF.
+Os transportes habilitados para TNEF geram esse valor antes de usar a implementação TNEF para gerar um fluxo TNEF.
   
- _Objeto:_
+ _Objeções_
   
 >  _Message_Seq Message_Seq Attach_Seq Attach_Seq_
     
@@ -43,11 +43,11 @@ Transportes TNEF habilitado para geram esse valor antes de usar a implementaçã
     
  _attTnefVersion:_
   
-> **LVL_MESSAGE attTnefVersion sizeof(ULONG)** soma de verificação **0x00010000** 
+> **LVL_MESSAGE attTnefVersion sizeof (ULong)** soma de verificação **0x00010000** 
     
  _attMessageClass:_
   
-> **LVL_MESSAGE attMessageClass** soma de verificação de _msg_class_length msg_class_ 
+> **LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ de soma de verificação 
     
  _Msg_Attribute_Seq:_
   
@@ -55,9 +55,9 @@ Transportes TNEF habilitado para geram esse valor antes de usar a implementaçã
     
  _Msg_Attribute:_
   
-> Soma de verificação de dados de atributo do **LVL_MESSAGE** ID do atributo comprimento do atributo 
+> Atributo **LVL_MESSAGE** -atributo de ID-soma de verificação de dados 
     
-ID do atributo é um dos identificadores de atributo TNEF, como **attSubject**. Comprimento do atributo é o tamanho em bytes dos dados de atributo. Dados de atributo são os dados associados com o atributo.
+Attribute-ID é um dos identificadores de atributo TNEF, como **attSubject**. Attribute-length é o tamanho em bytes dos dados de atributo. O atributo-data é os dados associados ao atributo.
   
  _Attach_Seq:_
   
@@ -65,9 +65,9 @@ ID do atributo é um dos identificadores de atributo TNEF, como **attSubject**. 
     
  _attRenddata:_
   
-> **LVL_ATTACHMENT attRenddata** soma de verificação de renddata **sizeof(RENDDATA)** 
+> **LVL_ATTACHMENT attRenddata** RENDDATA **de soma de verificação de sizeof (RENDDATA)** 
     
-Renddata é os dados associados a estrutura **RENDDATA** que contém as informações de renderização do anexo correspondente. A estrutura **RENDDATA** é definida no TNEF. Arquivo de cabeçalho H. 
+Renddata é os dados associados à estrutura **Renddata** que contém as informações de renderização para o anexo correspondente. A estrutura **RENDDATA** é definida no TNEF. Arquivo de cabeçalho H. 
   
  _Att_Attribute_Seq:_
   
@@ -75,8 +75,8 @@ Renddata é os dados associados a estrutura **RENDDATA** que contém as informa�
     
  _Att_Attribute:_
   
-> Soma de verificação de dados de atributo do **LVL_ATTACHMENT** ID do atributo comprimento do atributo 
+> Atributo **LVL_ATTACHMENT** -atributo de ID-soma de verificação de dados 
     
-ID do atributo, comprimento de atributo e dados de atributo têm os significados mesmos que para o item Msg_Attribute.
+O atributo-ID, o tamanho do atributo e o atributo-dados têm as mesmas médias para o item Msg_Attribute.
   
 

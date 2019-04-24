@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5f9f80ad8bce08484f4370ea32b2500fe05aa947
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: df646f9b2db9eee7782aa964aa385ad041a0b3d1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338770"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
@@ -25,29 +25,29 @@ ms.locfileid: "22573975"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define os métodos usados para gerenciar mensagens seguras.
+Define métodos usados para gerenciar mensagens seguras.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Exchsec.h  <br/> |
-|Expostos pelo:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
-|Implementada por:  <br/> |O Microsoft Outlook 2010 e o Microsoft Outlook 2013  <br/> |
-|Chamado pelo:  <br/> |Cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Exchsec. h  <br/> |
+|Exposto por:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
+|Implementado por:  <br/> |Microsoft Outlook 2010 e Microsoft Outlook 2013  <br/> |
+|Chamado por:  <br/> |Cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Tipo de ponteiro:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera subjacente [IMessage: IMAPIProp](imessageimapiprop.md) que esta [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) é encapsular.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
-|Membro do espaço reservado.  <br/> |Não tem suporte ou documentadas.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera o [IMessage subjacente: IMAPIProp](imessageimapiprop.md) que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
+|Membro de espaço reservado.  <br/> |Não suportado ou documentado.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

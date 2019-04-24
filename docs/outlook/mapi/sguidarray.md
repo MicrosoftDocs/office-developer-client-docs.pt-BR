@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d20a0932de0fb29ea73e56c37e262c0ccd062c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339211"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
@@ -29,7 +29,7 @@ Contém uma matriz de estruturas [GUID](guid.md) que são usadas para descrever 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,7 +44,7 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Contagem de valores na matriz apontado pelo membro **lpguid** . 
+> Contagem de valores na matriz apontada pelo membro **lpguid** . 
     
  **lpguid**
   
@@ -52,7 +52,7 @@ typedef struct _SGuidArray
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre PT_MV_CLSID, consulte a [Lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre o PT_MV_CLSID, confira [lista de tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 

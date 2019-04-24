@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm82251345
 localization_priority: Normal
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
-description: Avalia uma cadeia de caracteres que influencia a ordem em que os itens são listados na janela Dados de Forma.
-ms.openlocfilehash: 1dbc093f2cee509531b8148563fbdb1a777a349f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Resulta em uma cadeia de caracteres que influencia a ordem na qual os itens na janela Dados da Forma são listados.
+ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335179"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>Célula SortKey (Seção Shape Data)
 
@@ -22,23 +22,23 @@ Avalia uma cadeia de caracteres que influencia a ordem em que os itens são list
   
 ## <a name="remarks"></a>Comentários
 
-O cálculo usado para comparar valores de SortKey é específica de localidade e maiusculas de minúsculas. Se os valores de SortKey forem iguais, os dados da forma estão listados na ordem de linha. Dados da forma que possuem sem chave de classificação são listados depois que os dados de forma que contêm uma chave de classificação.
+O cálculo utilizado para comparar os valores da célula SortKey são específicos à localidade e sem diferenciação de maiúsculas e minúsculas. Se os valores de SortKey forem iguais, os dados da forma serão listados em fila. Os dados da forma que não têm chave de classificação são listados após os dados da forma que contêm uma chave de classificação.
   
 O exemplo a seguir mostra como utilizar as chaves de classificação para exibir os dados de forma na janela **Dados da Forma** na ordem: Número de Itens, Quantidade, Preço. 
   
- *Row, Label* e *SortKey* se referir a células na linha de dados de forma. Nesse caso, as linhas de dados de forma tenham sido chamadas. 
+ *Row, Label* e *SortKey* se referem a células na linha de dados da forma. Neste caso, as linhas de dados de forma foram nomeadas. 
   
-|**Row**|**Label**|**SortKey**|
+|**Linha**|**Label**|**SortKey**|
 |:-----|:-----|:-----|
-| Prop.Item  <br/> | Número de itens  <br/> | 1  <br/> |
-| Prop  <br/> | Preço  <br/> | 3  <br/> |
-| Prop.Quan  <br/> | Quantidade  <br/> | 2  <br/> |
+| Prop. Item  <br/> | Número de itens  <br/> | 1  <br/> |
+| Preço prop  <br/> | Price  <br/> | 3D  <br/> |
+| Prop. Quan  <br/> | Quantidade  <br/> | duas  <br/> |
    
 Para obter uma referência para a célula SortKey pelo nome a partir de outra fórmula ou de um programa que use a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Prop.  *Nome* . SortKey onde Prop.  *Nome* é o nome da linha de propriedade personalizada  <br/> |
+| Nome da célula:  <br/> | Hélice.  *Nome* . SortKey onde prop.  *Name* é o nome da linha de propriedade personalizada  <br/> |
    
 Para obter uma referência para a célula SortKey pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

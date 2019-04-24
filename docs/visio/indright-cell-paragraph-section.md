@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: Representa a distância do recuo de todas as linhas do texto em um parágrafo em relação à margem direita do bloco de texto. Esse valor não depende da escala do desenho. Se o desenho estiver em escala, o recuo direito será o mesmo.
-ms.openlocfilehash: 83f2688e598ffb335a9fafd1eed56ea17ffd4b2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335340"
 ---
 # <a name="indright-cell-paragraph-section"></a>Célula IndRight (Seção Paragraph)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula IndRight pelo nome, a partir de outra fórmula
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para.IndRight [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para. IndRight [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula IndRight pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

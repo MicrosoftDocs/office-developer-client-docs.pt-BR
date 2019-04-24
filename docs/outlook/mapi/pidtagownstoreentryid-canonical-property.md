@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 54014ab25d268c161465349b4e33c6a1df19f140
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 16a23c4e711bf9f7b670dff8b3e8f65371aa6bda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335445"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>Propriedade canônica PidTagOwnStoreEntryId
 
@@ -25,30 +25,30 @@ ms.locfileid: "22591684"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o identificador de entrada ligação estreita armazenamento de um transporte de mensagens.
+Contém o identificador de entrada de um repositório de mensagens rigidamente acoplado de um transporte.
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identificador:  <br/> |0x3E06  <br/> |
 |Tipo de dados:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propriedades do armazenamento de mensagens  <br/> |
+|Área:  <br/> |Propriedades do repositório de mensagens  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade especifica o identificador de entrada para o repositório de ligação estreita, se houver uma. Por exemplo, um provedor de transporte pode especificar a pasta particular armazenar o identificador de entrada para que o MAPI spooler pode conectar o provedor de transporte para o repositório.
+Esta propriedade especifica o identificador de entrada para o repositório rigidamente acoplado, se houver um. Por exemplo, um provedor de transporte pode especificar o identificador de entrada de armazenamento de pasta particular para que o spooler MAPI possa conectar o provedor de transporte ao repositório.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

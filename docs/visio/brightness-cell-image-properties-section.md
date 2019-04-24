@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: Ajusta o brilho de uma imagem de bitmap. Diminua o brilho de uma imagem inserindo um valor entre 0% e 49% ou aumente o brilho inserindo um valor entre 51% e 100%. O valor padrão é 50%.
-ms.openlocfilehash: 688a6cacfa9100ad116b9bf06926194c24712219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae1390d2db3adad86a8afcbeaff88172a841d030
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338021"
 ---
 # <a name="brightness-cell-image-properties-section"></a>Célula Brightness (Seção Image Properties)
 
@@ -26,7 +26,7 @@ Para fazer referência à célula Brightness pelo nome, a partir de outra fórmu
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Brightness  <br/> |
+| Nome da célula:  <br/> | Brilho  <br/> |
    
 Para fazer referência à célula Brightness pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

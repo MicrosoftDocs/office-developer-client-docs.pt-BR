@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm82251445
 localization_priority: Normal
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
-description: Retorna a y-coordenada (no sistema de coordenadas locais) do ponto de interseção de duas linhas.
-ms.openlocfilehash: c3c0e9afef317ed4c647f1d236c4c3a29c6cdaa6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna a coordenada y (no sistema de coordenadas locais) do ponto em que duas linhas fazem interseção.
+ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335256"
 ---
 # <a name="intersecty-function"></a>Função INTERSECTY
 
-Retorna a *y* -coordenada (no sistema de coordenadas locais) do ponto de interseção de duas linhas. 
+Retorna a coordenada *y* (no sistema de coordenadas locais) do ponto em que duas linhas fazem interseção. 
   
 ## <a name="syntax"></a>Sintaxe
 
-INTERSECTX (* * *x1* * *, * * *y1* * *, * * *angle1* * *, * * *x2* * *, * * *y2* * *, * * *angle2* * *) 
+INTERSECTX (* * *X1* * *, * * *Y1* * *, * * *angle1* * *, * * *X2* * *, * * *Y2* * *, * * *angle2* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |Obrigatório  <br/> |**Número** <br/> |_X_-coordenadas de um ponto na primeira linha.  <br/> |
-| _Y1_ <br/> |Obrigatório  <br/> |**Número** <br/> |_Y_-coordenadas de um ponto na primeira linha.  <br/> |
+| _X1_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _x_de um ponto na primeira linha.  <br/> |
+| _a1_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _y_de um ponto na primeira linha.  <br/> |
 | _angle1_ <br/> |Obrigatório  <br/> |**Número** <br/> | O valor da célula Angle da primeira linha.  <br/> |
-| _X2_ <br/> |Obrigatório  <br/> |**Número** <br/> |_X_-coordenadas de um ponto na segunda linha.  <br/> |
-| _a2_ <br/> |Obrigatório  <br/> |**Número** <br/> |_Y_-coordenadas de um ponto na segunda linha.  <br/> |
+| _X2_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _x_de um ponto na segunda linha.  <br/> |
+| _Y2_ <br/> |Obrigatório  <br/> |**Número** <br/> |A coordenada _y_de um ponto na segunda linha.  <br/> |
 | _angle2_ <br/> |Obrigatório  <br/> |**Número** <br/> |O valor da célula Angle da segunda linha.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Number
+Número
   
 ## <a name="remarks"></a>Comentários
 
@@ -49,8 +49,8 @@ Se as linhas não fizerem interseção, a função retornará um erro de dividid
   
 ## <a name="example"></a>Exemplo
 
-INTERSECTY (VertGuide! PinX, VertGuide! PinY, VertGuide! Ângulo, HorzGuide! PinX, HorzGuide! PinY, HorzGuide! Ângulo) 
+INTERSECT (VertGuide! PinX, VertGuide! PinY, VertGuide! Ângulo, HorzGuide! PinX, HorzGuide! PinY, HorzGuide! Reto 
   
-Retorna a *y* -coordenadas do ponto de interseção de VertGuide e HorzGuide em unidades de página. 
+Retorna a coordenada *y* do ponto de interseção de VertGuide e HorzGuide em unidades de página. 
   
 

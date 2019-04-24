@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339771"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
@@ -25,13 +25,13 @@ ms.locfileid: "22565834"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que chamadas MAPI quando ele tem descartado uma caixa de diálogo do catálogo de endereços sem janela restrita. 
+Define uma função de retorno de chamada que MAPI chama quando ele desrecebeu uma caixa de diálogo do catálogo de endereços sem restrições. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Função definido implementada por:  <br/> |Aplicativos cliente  <br/> |
-|Função definido chamada pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Função definida implementada por:  <br/> |Aplicativos cliente  <br/> |
+|Função definida chamada por:  <br/> |MAPI  <br/> |
    
 ```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
@@ -44,19 +44,19 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
  _ulUIParam_
   
-> [in] Um valor específico de implementação que geralmente é usado para passar informações de interface de usuário para uma função. Por exemplo, no Microsoft Windows esse parâmetro é o identificador da janela pai para a caixa de diálogo e é do tipo HWND, convertida em um **ULONG_PTR**. Um valor de zero indica que não há nenhuma janela pai. 
+> no Um valor específico da implementação normalmente usado para passar informações da interface do usuário para uma função. Por exemplo, no Microsoft Windows, esse parâmetro é o identificador de janela pai da caixa de diálogo e é do tipo HWND, CAST para um **ULONG_PTR**. Um valor igual A zero indica que não há janela pai. 
     
  _lpvContext_
   
-> [in] Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando chamadas de MAPI-lo. Esse valor pode representar um endereço de significância ao aplicativo cliente. Geralmente, para código C++, _lpvContext_ é um ponteiro para o endereço de uma instância do objeto C++. 
+> no Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de importância para o aplicativo cliente. Normalmente, para o código C++, _lpvContext_ é um ponteiro para o endereço de uma instância de objeto do C++. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-None
+Nenhum
   
 ## <a name="remarks"></a>Comentários
 
-Quando o aplicativo cliente invoca uma caixa de diálogo do catálogo de endereços sem janela restrita, ele inclui em seu loop de mensagem do Windows uma chamada para uma função com base em protótipo [ACCELERATEABSDI](accelerateabsdi.md) , que procura e processa as teclas de aceleração. Quando a caixa de diálogo é fechada, chamadas de MAPI o **DISMISSMODELESS** com base em função para que o aplicativo cliente será interrompida chamando o **ACCELERATEABSDI** com base em função. 
+Quando o aplicativo cliente invoca uma caixa de diálogo do catálogo de endereços sem restrições, ele inclui em seu loop de mensagem do Windows uma chamada para uma função com base no protótipo [ACCELERATEABSDI](accelerateabsdi.md) , que verifica e processa teclas de aceleração. Quando a caixa de diálogo é fechada, MAPI chama a função baseada em **DISMISSMODELESS** para que o aplicativo cliente pare de chamar a função baseada em **ACCELERATEABSDI** . 
   
 ## <a name="see-also"></a>Confira também
 

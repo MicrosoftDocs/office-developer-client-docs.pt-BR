@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm60025
 localization_priority: Normal
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
-description: Identifica o ícone exibido ao lado de um item em um menu de atalho ou de ação de marca.
-ms.openlocfilehash: 29ff71bc04e94f97f1526b28bd52c2846327eff1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Identifica o ícone exibido ao lado de um item em um menu de atalho ou de marca de ação.
+ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337545"
 ---
 # <a name="buttonface-cell-actions-section"></a>Célula ButtonFace (Seção Actions)
 
@@ -27,13 +27,13 @@ Identifica o ícone exibido ao lado de um item em um menu de atalho ou de ação
 
 A sequência de caracteres contida na célula ButtonFace representa a ID de uma imagem de face do botão do Microsoft Office. Um valor zero (0) ou em branco significa que nenhum ícone é exibido. 
   
-As IDs que podem ser usadas na célula ButtonFace são os mesmos as IDs usadas com a propriedade **FaceID** de um objeto **CommandBarButton** . Para obter mais detalhes sobre essas IDs, procure "Trabalhando com imagens de botão de barra de comandos" no MSDN. 
+As identificações que podem ser usadas na célula ButtonFace são as mesmas que as utilizadas com a propriedade **FaceID** de um objeto **CommandBarButton**. Para obter mais detalhes sobre essas identificações, procure "trabalhando com imagens de botão da barra de comandos" na MSDN. 
   
 Para obter uma referência para a célula ButtonFace pelo nome, de outra fórmula ou programa, usando a propriedade **CellsU**, utilize: 
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |**Ações**.  *nome* . **ButtonFace** onde **ações**.  *nome* é o nome da linha actions  <br/> |
+|Nome da célula:  <br/> |**Ações**.  *nome* . **ButtonFace** onde **Actions**.  *Name* é o nome da linha de ações  <br/> |
    
 Para fazer referência à célula ButtonFace pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

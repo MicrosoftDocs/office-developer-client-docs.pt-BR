@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
 description: Retorna uma referência de planilha para a forma de destino da forma de texto explicativo.
-ms.openlocfilehash: 1b0cb7c6737a810a0ade65f19afaff7bb4b9f616
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337244"
 ---
 # <a name="callouttargetref-function"></a>Função CALLOUTTARGETREF
 
@@ -25,19 +25,19 @@ Version Added: Visio 2010
   
 ## <a name="syntax"></a>Sintaxe
 
-CALLOUTTARGETREF()!
+CALLOUTTARGETREF ()!
   
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Referência do ShapeSheet
   
 ## <a name="remarks"></a>Comentários
 
-Se a forma não for uma forma de texto explicativo, ou se ele não estiver associado uma forma de destino, CALLOUTTARGETREF retornará #REF.
+Se a forma não for uma forma de texto explicativo ou não estiver associada a uma forma de destino, CALLOUTTARGETREF retornará #REF.
   
 ## <a name="example"></a>Exemplo
 
-CALLOUTTARGETREF()!Height 
+CALLOUTTARGETREF ()! Height 
   
 Retorna o valor na célula Height da forma associada ao texto explicativo. 
   

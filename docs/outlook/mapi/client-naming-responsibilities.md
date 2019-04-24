@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f47193bf8866622fa2e6d1f849d0568471c5461c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 808c7abf3d29872a8c5095fdc6dc39b2107a8993
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335137"
 ---
 # <a name="client-naming-responsibilities"></a>Responsabilidades de nomenclatura do cliente
 
@@ -21,7 +21,7 @@ ms.locfileid: "22580779"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Os clientes devem seguir uma convenção de nomenclatura para suas propriedades que precisam ser traduzidos por um gateway. Todas as propriedades a serem convertidos devem ser criadas como propriedades nomeadas em um dos conjuntos de cinco propriedade designados para manter as propriedades podem ser mapeadas:
+Os clientes devem seguir uma Convenção de nomenclatura para suas propriedades que precisam ser traduzidas por um gateway. Todas as propriedades a serem traduzidas devem ser criadas como propriedades nomeadas em um dos cinco conjuntos de propriedades designados para armazenar as propriedades mapeáveis:
   
 PS_ROUTING_EMAIL_ADDRESSES
   
@@ -33,25 +33,25 @@ PS_ROUTING_ENTRYID
   
 PS_ROUTING_SEARCH_KEY
   
-Lidando com as propriedades que se relacionam com o mesmo usuário deve ser fornecido o mesmo nome. Gateways contam com essa convenção de nomenclatura, que permite que eles corresponder a um endereço com seu tipo de endereço correto. Para análise de endereço, o mapeamento entre o endereço e o tipo de endereço deve ser exatos.
+As propriedades de endereçamento relacionadas ao mesmo usuário devem receber o mesmo nome. Os gateways dependem dessa Convenção de nomenclatura, o que permite que eles correspondam a um endereço com o tipo de endereço correto. Para análise de endereço, o mapeamento entre endereço e tipo de endereço deve ser preciso.
   
-MAPI denominada propriedades são representadas com a estrutura de dados **MAPINAMEID** , que especifica se o nome da propriedade pode ser uma cadeia de caracteres Unicode ou um inteiro de 32 bits. Para obter mais informações, consulte [MAPINAMEID](mapinameid.md). Inteiro de nomenclatura é recomendada para grupos de endereços porque ele é uma maneira simples para diferenciar entre conjuntos de propriedades podem ser mapeados, e ele facilmente pode servir como um índice para o usuário. Uma alternativa ao uso de números inteiros é atribuir uma cadeia de caracteres, como o nome para todos os cinco das propriedades de um usuário podem ser mapeados. Se apenas um usuário requer o mapeamento, atribuir uma cadeia de caracteres é aceitável. No entanto, quando houver vários usuários, é melhor usar a nomenclatura de inteiro. O nome, se ele ser numérico ou baseado em cadeia de caracteres deve ser armazenado em uma propriedade de específicas de classe de mensagem ou em uma propriedade que pertencem a um conjunto de propriedades que é definido pelo aplicativo cliente. 
+As propriedades nomeadas de MAPI são representadas com a estrutura de dados **MAPINAMEID** , que especifica que o nome da propriedade pode ser uma cadeia de caracteres Unicode ou um inteiro de 32 bits. Para obter mais informações, consulte [MAPINAMEID](mapinameid.md). O nome de número inteiro é recomendado para grupos de endereços porque é uma maneira simples de diferenciar entre conjuntos de propriedades mapeáveis e pode servir facilmente como um índice para o usuário. A alternativa ao uso de inteiros é atribuir uma cadeia de caracteres como o nome para todas as cinco Propriedades mapeáveis de um usuário. Se apenas um usuário requer mapeamento, a atribuição de uma cadeia de caracteres é aceitável. No enTanto, quando há vários usuários, é melhor usar a nomenclatura de inteiro. O nome, se for numérico ou baseado em cadeia de caracteres, deve ser armazenado em uma propriedade específica da classe de mensagem ou em uma propriedade que pertença a um conjunto de propriedades definido pelo aplicativo cliente. 
   
 > [!NOTE]
-> Evitar a converter nomes de inteiro em cadeias de caracteres, como "route_recipient_1" e "route_recipient_2". Essa iniciativa é desnecessária. 
+> Evite traduzir nomes de inteiros para cadeias de caracteres, como "route_recipient_1" e "route_recipient_2". Esse esforço é desnecessário. 
   
-Para ilustrar como funciona a essa convenção de nomenclatura, considere a possibilidade de um aplicativo de roteamento que envia uma mensagem para cada membro de uma equipe de quatro pessoas. Quando um membro recebe a mensagem, ele deve responder a ele para que possa ser enviado, juntamente com as respostas compiladas para o próximo membro. A mensagem original contém uma lista de destinatários com uma entrada: o primeiro membro da equipe. Incorporado dentro da mensagem são as propriedades podem ser mapeados gateway para os outros membros da equipe três. Cada membro tem cinco propriedades de usuário principal que residem nos conjuntos de propriedades podem ser mapeados gateway, que são atribuídos a um número exclusivo, como um nome. 
+Para ilustrar como essa Convenção de nomenclatura funciona, considere um aplicativo de roteamento que envia uma mensagem para cada membro de uma equipe de quatro pessoas. Quando um membro recebe a mensagem, ele deve respondê-lo antes de poder ser enviado junto com as respostas compiladas para o próximo membro. A mensagem original contém uma lista de destinatários com uma entrada: o primeiro membro da equipe. Incorporado dentro da mensagem estão as propriedades do gateway que podem ser mapeados para os outros três membros da equipe. Cada membro tem cinco Propriedades de usuário principais que residem nos conjuntos de propriedades do gateway-mapeáveis, que recebem um número exclusivo como um nome. 
   
-A tabela a seguir ilustra as configurações para cada conjunto de propriedades podem ser mapeados gateway armazenados para os três restantes membros da equipe a quem a mensagem é roteada quando o primeiro membro da equipe for concluído com ele.
+A tabela a seguir ilustra as configurações para cada conjunto de propriedades mapeadas de gateway armazenadas para os três membros restantes da equipe para os quais a mensagem é roteada quando o primeiro membro da equipe é concluído com ele.
   
-|**Conjunto de propriedades**|**Segunda equipe <br/> membro**|**Terceiro equipe <br/> membro**|**Quarto da equipe <br/> membro**|
+|**Property Set**|**Segundo membro <br/> da equipe**|**Terceiro membro <br/> da equipe**|**Quarto membro <br/> da equipe**|
 |:-----|:-----|:-----|:-----|
 |PS_ROUTING_EMAIL_ADDRESSES  <br/> |Endereço = 0  <br/> |Endereço = 1  <br/> |Endereço = 2  <br/> |
 |PS_ROUTING_ADDRTYPE  <br/> |Tipo de endereço = 0  <br/> |Tipo de endereço = 1  <br/> |Tipo de endereço = 2  <br/> |
 |PS_ROUTING_DISPLAY_NAME  <br/> |Nome para exibição = 0  <br/> |Nome para exibição = 1  <br/> |Nome para exibição = 2  <br/> |
-|PS_ROUTING_ENTRYID  <br/> |O identificador de entrada = 0  <br/> |O identificador de entrada = 1  <br/> |O identificador de entrada = 2  <br/> |
+|PS_ROUTING_ENTRYID  <br/> |Identificador de entrada = 0  <br/> |Identificador de entrada = 1  <br/> |Identificador de entrada = 2  <br/> |
 |PS_ROUTING_SEARCH_KEY  <br/> |Chave de pesquisa = 0  <br/> |Chave de pesquisa = 1  <br/> |Chave de pesquisa = 2  <br/> |
    
-Clientes que usam chaves de pesquisa podem ser mapeados como referências a outras propriedades de mensagem devem reconhecer que as outras propriedades de mensagem não serão traduzidas, a menos que eles são colocados em um desses conjuntos de propriedade podem ser mapeados. Quando uma mensagem com referências não mapeadas para chaves de pesquisa mapeado é enviada para um destino em outro domínio de mensagens, as referências são inválidas. Para habilitar essas outras propriedades permaneça sincronizado com as chaves de pesquisa, você pode atribuir a eles nomes de cadeia de caracteres no conjunto de propriedades PS_ROUTING_SEARCH_KEY que não interferem os nomes de dado a qualquer uma das propriedades podem ser mapeados core. Por exemplo, suponha que um cliente precisa transmitir uma propriedade que contém a chave de pesquisa para a última pessoa em uma lista de circulação longos. O cliente pode criar uma propriedade nomeada no conjunto de propriedades PS_ROUTING_SEARCH_KEY chamado "last_search_key". Porque ele está armazenado em um conjunto de propriedades podem ser mapeados, a propriedade "last_search_key" é traduzida junto com o restante das propriedades podem ser mapeados gateway.
+Os clientes que usam chaves de pesquisa mapeadas como referências a outras propriedades de mensagem devem reconhecer que as outras propriedades de mensagem não serão traduzidas, a menos que sejam colocadas em um desses conjuntos de propriedades mapeados. Quando uma mensagem com referências não mapeadas para chaves de pesquisa mapeadas é enviada para um destino em outro domínio de mensagens, as referências são inválidas. Para permitir que essas outras propriedades permaneçam sincronizadas com as chaves de pesquisa, você pode atribuir nomes de cadeia de caracteres no conjunto de propriedades PS_ROUTING_SEARCH_KEY que não interfiram com os nomes fornecidos a qualquer uma das propriedades principais mapeáveis. Por exemplo, suponha que um cliente precisa transmitir uma propriedade que contém a chave de pesquisa para a última pessoa em uma lista de roteamento longa. O cliente pode criar uma propriedade nomeada no conjunto de propriedades PS_ROUTING_SEARCH_KEY chamado "last_search_key". Como ela é armazenada em um conjunto de propriedades mapeáveis, a propriedade "last_search_key" é convertida junto com o restante das propriedades do gateway-mapeáveis.
   
 

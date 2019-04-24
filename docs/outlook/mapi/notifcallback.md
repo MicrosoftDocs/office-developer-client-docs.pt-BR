@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 17b038fea2dd1614f94f005e32b9e6ba4423dbda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0e2a1a582894e082722d73422fc8bafe34c4230c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334472"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
@@ -25,13 +25,13 @@ ms.locfileid: "22566261"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Define uma função de retorno de chamada que chamadas MAPI para enviar uma notificação de evento. Essa função de retorno de chamada pode ser usada apenas quando disposto em um objeto de coletor de eventos advise criado chamando-se a função [HrAllocAdviseSink](hrallocadvisesink.md) . 
+Define uma função de retorno de chamada que MAPI chama para enviar uma notificação de evento. Essa função de retorno de chamada só pode ser usada quando empacotado em um objeto de coletor de aviso criado chamando-se a função [HrAllocAdviseSink](hrallocadvisesink.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Função definido implementada por:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
-|Função definido chamada pelo:  <br/> |MAPI  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Função definida implementada por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
+|Função definida chamada por:  <br/> |MAPI  <br/> |
    
 ```cpp
 ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
@@ -45,29 +45,29 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
  _lpvContext_
   
-> [in] Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando chamadas de MAPI-lo. Esse valor pode representar um endereço de significância para o aplicativo cliente ou o provedor de serviço. Geralmente, para código C++, o parâmetro _lpvContext_ representa um ponteiro para um objeto C++. 
+> no Ponteiro para um valor arbitrário passado para a função de retorno de chamada quando MAPI o chama. Esse valor pode representar um endereço de importância para o aplicativo cliente ou provedor de serviços. Normalmente, para o código C++, o parâmetro _lpvContext_ representa um ponteiro para um objeto C++. 
     
  _cNotification_
   
-> [in] Contagem de notificações de evento na matriz indicado pelo parâmetro _lpNotifications_ . 
+> no Contagem de notificações de eventos na matriz indicada pelo parâmetro _lpNotifications_ . 
     
  _lpNotifications_
   
-> [out] Ponteiro para o local onde essa função grava uma matriz de estruturas de [notificação](notification.md) que contém as notificações de evento. 
+> bota Ponteiro para o local onde essa função grava uma matriz de estruturas de [notificação](notification.md) que contém as notificações de eventos. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-O conjunto de valores de retorno válidos para o protótipo de função **NOTIFCALLBACK** depende se a função é implementada por um provedor de serviços ou de um aplicativo cliente. Clientes sempre devem retornar S_OK. Provedores podem retornar S_OK ou CALLBACK_DISCONTINUE. 
+O conjunto de valores de retorno válidos para o protótipo de função **NOTIFCALLBACK** depende se a função é implementada por um aplicativo cliente ou um provedor de serviços. Os clientes sempre devem retornar S_OK. Os provedores podem retornar S_OK ou CALLBACK_DISCONTINUE. 
   
 ## <a name="remarks"></a>Comentários
 
-CALLBACK_DISCONTINUE é um valor de retorno válido para funções de retorno de chamada síncrona apenas; ele solicita que o MAPI parar imediatamente os retornos de chamada para essa notificação de processamento. Quando CALLBACK_DISCONTINUE é retornado, MAPI define o parâmetro _lpUlFlags_ para NOTIFY_CANCELED quando ele retorna da [IMAPISupport::Notify](imapisupport-notify.md). 
+CALLBACK_DISCONTINUE é um valor de retorno válido apenas para funções de retorno de chamada síncronas; Ele solicita que MAPI imediatamente pare de processar os retornos de chamada para esta notificação. Quando CALLBACK_DISCONTINUE é retornado, MAPI define o parâmetro _lpUlFlags_ como NOTIFY_CANCELED quando retorna de [IMAPISupport:: Notify](imapisupport-notify.md). 
   
-A seguir estão limitações no que pode fazer uma função de retorno de chamada síncrona:
+Veja a seguir limitações sobre o que uma função de retorno de chamada síncrona pode fazer:
   
-- Ele não pode causar outra notificação síncrona a serem gerados.
+- Não é possível fazer com que outra notificação síncrona seja gerada.
     
-- Ele não pode exibir uma interface do usuário.
+- Não é possível exibir uma interface do usuário.
     
 ## <a name="see-also"></a>Confira também
 

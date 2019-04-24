@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: c53bd63e60281e999d0d379913b3609e9472a40e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e04c872762665f4b3a22559dc2ed1504e7b8f9af
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339393"
 ---
 # <a name="enableidleroutine"></a>EnableIdleRoutine
 
@@ -25,13 +25,13 @@ ms.locfileid: "22579274"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Habilita ou desabilita uma rotina de ociosidade [FNIDLE](fnidle.md) com base. 
+Habilita ou desabilita uma rotina ociosa baseada em [FNIDLE](fnidle.md) . 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 VOID EnableIdleRoutine(
@@ -42,13 +42,13 @@ VOID EnableIdleRoutine(
 
 ## <a name="parameters"></a>Parâmetros
 
- _ftg_
+ _FTG_
   
-> [in] Marca de função que identifica a rotina ociosa para ser habilitada ou desabilitada. 
+> no Marca de função que identifica a rotina ociosa a ser habilitada ou desabilitada. 
     
  _fEnable_
   
-> [in] Contém TRUE se o mecanismo de ociosidade deve habilitar a rotina ociosa ou FALSE se ele deve desabilitá-lo.
+> no Contém TRUE se o mecanismo ocioso deve habilitar a rotina ociosa ou FALSE se ela deve desabilitá-la.
     
 ## <a name="return-value"></a>Valor retornado
 
@@ -56,19 +56,19 @@ Nenhum.
   
 ## <a name="remarks"></a>Comentários
 
-As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com ociosas rotinas com base no protótipo de função [FNIDLE](fnidle.md) : 
+As seguintes funções lidam com o mecanismo de ociosidade de MAPI e com rotinas ociosas com base no protótipo de função do [FNIDLE](fnidle.md) : 
   
-|**Função de rotina ociosa**|**Uso**|
+|**Função de rotina ociosa**|**Usage**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Altera as características de uma rotina de ociosidade registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Remove uma rotina de ociosidade registrada do sistema MAPI.  <br/> |
-|**EnableIdleRoutine** <br/> |Desativa ou ativa novamente uma rotina de ociosidade registrada sem removê-lo a partir do sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina de ociosidade ao sistema de MAPI, com ou sem ativá-lo.  <br/> |
+|**EnableIdleRoutine** <br/> |Desabilita ou habilita novamente uma rotina de ociosidade registrada sem removê-la do sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Adiciona uma rotina ociosa ao sistema MAPI, com ou sem ativá-la.  <br/> |
 |[MAPIDeInitIdle](mapideinitidle.md) <br/> |Desliga o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
 |[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa o mecanismo de ociosidade de MAPI para o aplicativo de chamada.  <br/> |
    
- **ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** tomar como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
+ **ChangeIdleRoutine**, **DeregisterIdleRoutine**e **EnableIdleRoutine** aceitam como um parâmetro de entrada a marca de função retornada por **FtgRegisterIdleRoutine**. 
   
-Quando todas as tarefas de primeiro plano para a plataforma ficam ociosas, o mecanismo de ociosidade de MAPI chama a rotina de ocioso de prioridade mais alta que está pronta para executar. Não há nenhuma garantia de chamar ordem entre as rotinas de ociosidade da mesma prioridade. 
+Quando todas as tarefas de primeiro plano para a plataforma ficarem ociosas, o mecanismo de ociosidade de MAPI chamará a rotina de ociosidade de prioridade mais alta que está pronta para ser executada. Não há garantia de ordem de chamada entre rotinas ociosas da mesma prioridade. 
   
 

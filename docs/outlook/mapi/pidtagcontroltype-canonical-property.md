@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3c1d415cc9aa4e66b6c4b17262f9a491fc01f6bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8614441ffa60181366c860b66ef4618ce32106be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334731"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriedade canônica PidTagControlType
 
@@ -44,27 +44,27 @@ DTCT_BUTTON
     
 DTCT_CHECKBOX 
   
-> Uma caixa de diálogo de seleção.
+> Uma caixa de seleção de diálogo.
     
 DTCT_COMBOBOX 
   
-> Uma caixa de diálogo de combinação.
+> Uma caixa de combinação de diálogo.
     
 DTCT_DDLBX 
   
-> Caixa de diálogo lista suspensa.
+> Uma caixa de listagem suspensa de diálogo.
     
 DTCT_EDIT 
   
-> Uma caixa de texto do diálogo Editar.
+> Uma caixa de texto de edição de diálogo.
     
 DTCT_GROUPBOX 
   
-> Uma caixa de diálogo de grupo.
+> Uma caixa de grupo de diálogo.
     
 DTCT_LABEL 
   
-> Um rótulo de diálogo.
+> Um rótulo de caixa de diálogo.
     
 DTCT_LBX 
   
@@ -76,11 +76,11 @@ DTCT_LISTBOX
     
 DTCT_MVDDLBX 
   
-> Uma caixa de listagem de múltiplos valores preenchida por uma propriedade de múltiplos valores do tipo string.
+> Uma caixa de listagem com vários valores preenchida por uma propriedade de vários valores do tipo String.
     
 DTCT_PAGE 
   
-> Uma página de diálogo com guias.
+> Uma página com guias de caixa de diálogo.
     
 DTCT_RADIOBUTTON 
   
@@ -90,13 +90,13 @@ DTCT_RADIOBUTTON
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-mapitags.h
+mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -104,7 +104,7 @@ mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

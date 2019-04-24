@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: '�ltima altera��o: s�bado, 23 de julho de 2011'
-ms.openlocfilehash: 69945bc03d9183ea18a436186523741ce534b71e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d6a0eaf8ad125a0ae1ea3abb57e2aa57e0bdfe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336733"
 ---
 # <a name="delegate-access"></a>Acesso de Representante
 

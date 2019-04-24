@@ -8,31 +8,31 @@ f1_keywords:
 - Vis_DSS.chm82251476
 localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Retorna verdadeiro (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
-ms.openlocfilehash: 14646f553e76c8c395fdbde8762daf75114f9480
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Retorna TRUE (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
+ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337209"
 ---
 # <a name="or-function"></a>Função OR
 
-Retorna verdadeiro (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
+Retorna TRUE (1) se qualquer uma das expressões lógicas passadas como parâmetros forem TRUE.
   
 ## <a name="syntax"></a>Sintaxe
 
-OU (* * *expressão lógica1* * *, * * *expressão lógica2* * *,..., * * *expressão lógicaN* * *) 
+ou (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _expressão lógica1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
-| _expressão lógica2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
-| _expressão lógicaN_ <br/> |Obrigatório  <br/> |**String** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression1_ <br/> |Obrigatório  <br/> |**String** <br/> |A primeira expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpression2_ <br/> |Obrigatório  <br/> |**String** <br/> |A segunda expressão cuja veracidade você deseja avaliar.  <br/> |
+| _logicalexpressionN_ <br/> |Obrigatório  <br/> |**String** <br/> |A enésima expressão cuja veracidade você deseja avaliar.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 Booliano
   

@@ -8,65 +8,65 @@ api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: bd840c7bef0607db37c6477bd8f4a7320a8188c6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5b4a4107d6326a61f50a4023ebc2538f699224b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335715"
 ---
 # <a name="creating-message-text"></a>Criar texto da mensagem
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Embora algumas mensagens são compostas de nada mais que uma lista de destinatários e uma linha de assunto, o conteúdo da maioria das mensagens, especificamente IPM. Observação as mensagens, inclui o texto. Mensagem de texto pode ser simples ou formatada e está armazenado em três propriedades: **PR\_corpo** ([PidTagBody](pidtagbody-canonical-property.md)) **PR\_HTML** ([Taghtml](pidtaghtml-canonical-property.md)) e **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
+Embora algumas mensagens sejam formadas por nada além de uma lista de destinatários e uma linha de assunto, o conteúdo da maioria das mensagens, especificamente IPM. Mensagens de observação, incluindo texto. O texto da mensagem pode ser simples ou formatado e é armazenado em três propriedades: **PR\_Body** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) e **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 
-Se seu cliente é baseado em texto sem formatação, defina **PR\_corpo**. Caso você ofereça suporte texto formatado em Rich Text Format (RTF), definidos **PR_RTF_COMPRESSED** apenas ou ambos os **PR_RTF_COMPRESSED** e **PR\_corpo**, dependendo do provedor de armazenamento de mensagem que você está usando. Quando um cliente RTF reconhecimento estiver usando um armazenamento de mensagens RTF reconhecimento, ela define **PR_RTF_COMPRESSED** somente. Quando um cliente RTF reconhecimento estiver usando um armazenamento de mensagens sem reconhecimento de RTF, ela define ambas as propriedades. Se seu cliente ofereça suporte a HTML, defina a propriedade **PR_HTML** . 
+Se o cliente for baseado em texto sem formatação, **defina\_PR Body**. Se você oferecer suporte ao texto formatado no formato Rich Text (RTF), defina **PR_RTF_COMPRESSED** somente ou ambos **PR_RTF_COMPRESSED** e **PR\_corpo**, dependendo do provedor de repositório de mensagens que você está usando. Quando um cliente com reconhecimento de RTF está usando um repositório de mensagens com reconhecimento de RTF, ele define **PR_RTF_COMPRESSED** somente. Quando um cliente com reconhecimento de RTF está usando um repositório de mensagens que não reconhece RTF, ele define ambas as propriedades. Se o cliente oferecer suporte a HTML, defina a propriedade **PR_HTML** . 
   
-## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>Determinar se o seu armazenamento de mensagens suporta formato Rich Text
+## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>Determinar se o repositório de mensagens suporta o formato Rich Text
   
-1. Chame o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do armazenamento de mensagens para recuperar a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)).
+1. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do repositório de mensagens para recuperar a propriedade **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)).
     
-2. Verifique se o bit STORE_RTF_OK. Se STORE_RTF_OK for definido, o provedor de armazenamento de mensagem suporta texto RTF. Se não estiver definida, o provedor de armazenamento de mensagem suporta apenas texto sem formatação.
+2. Verifique o bit STORE_RTF_OK. Se STORE_RTF_OK estiver definido, o provedor de armazenamento de mensagens oferece suporte a texto RTF. Se ele não estiver definido, o provedor do repositório de mensagens só oferece suporte a texto sem formatação.
     
-## <a name="determine-whether-your-message-store-supports-html"></a>Determinar se o seu armazenamento de mensagens oferece suporte a HTML
+## <a name="determine-whether-your-message-store-supports-html"></a>Determinar se o repositório de mensagens oferece suporte a HTML
   
-1. Chame o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do armazenamento de mensagens para recuperar a propriedade **PR_STORE_SUPPORT_MASK** . 
+1. Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do repositório de mensagens para recuperar a propriedade **PR_STORE_SUPPORT_MASK** . 
     
-2. Verifique se o bit STORE_HTML_OK. Se STORE_HTML_OK for definido, o provedor de armazenamento de mensagem suporta texto HTML. 
+2. Verifique o bit STORE_HTML_OK. Se STORE_HTML_OK estiver definido, o provedor de armazenamento de mensagens oferece suporte a texto HTML. 
     
-## <a name="set-prrtfcompressed"></a>Definir PR\_RTF_COMPRESSED
+## <a name="set-prrtfcompressed"></a>Set PR\_RTF_COMPRESSED
   
-1. Chame o método de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) da mensagem para abrir a propriedade **PR_RTF_COMPRESSED** , especificando IID_IStream como o identificador de interface e definindo o sinalizador MAPI_CREATE. 
+1. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) da mensagem para abrir a propriedade **PR_RTF_COMPRESSED** , especificando IID_IStream como o identificador de interface e definindo o sinalizador MAPI_CREATE. 
     
-2. Chame a função [WrapCompressedRTFStream](wrapcompressedrtfstream.md) , passando o sinalizador STORE_UNCOMPRESSED_RTF se o bit STORE_UNCOMPRESSED_RTF é definido na propriedade **PR_STORE_SUPPORT_MASK** do armazenamento de mensagens. 
+2. Chame a função [WrapCompressedRTFStream](wrapcompressedrtfstream.md) , passando o sinalizador STORE_UNCOMPRESSED_RTF se o bit STORE_UNCOMPRESSED_RTF estiver definido na propriedade **PR_STORE_SUPPORT_MASK** do repositório de mensagens. 
     
-3. Liberar o fluxo original chamando seu * * IUnknown:: Release * * método. 
+3. Libere o fluxo original chamando seu método * * IUnknown:: Release * *. 
     
-4. Chamar tanto * * IStream::Write * * ou **IStream::CopyTo** para gravar o fluxo de texto da mensagem retornado da **WrapCompressedRTFStream**.
+4. Call * * IStream:: Write * * ou **IStream:: CopyTo** para gravar o texto da mensagem no Stream retornado por **WrapCompressedRTFStream**.
     
-5. Chame os métodos **Commit** e a **versão** no fluxo retornado pelo método **OpenProperty** . 
+5. Chame os métodos **Commit** e **Release** no Stream retornado do método **OpenProperty** . 
     
-Neste ponto, se o provedor de armazenamento de mensagem suporta RTF, você fez tudo o que é necessário. Você pode depender o provedor de armazenamento de mensagem para lidar com formatação e sincronizando conteúdo da mensagem e criar o **PR\_corpo** propriedade, se necessário. Repositórios de mensagem RTF reconhecimento chame [RTFSync](rtfsync.md) para lidar com a sincronização. Se o RTF\_sinalizador SYNC_BODY_CHANGED é definido como TRUE, o provedor será recompilar a propriedade **PR_BODY** . 
+Neste ponto, se o provedor do repositório de mensagens oferecer suporte a RTF, tudo isso é necessário. Você pode depender do provedor de armazenamento de mensagens para lidar com a sincronização do conteúdo e da formatação da mensagem e criar a propriedade do **corpo da pr\_** , se necessário. O armazenamento de mensagens com reconhecimento de RTF chama [RTFSync](rtfsync.md) para lidar com a sincronização. Se o sinalizador\_RTF SYNC_BODY_CHANGED for definido como true, o provedor recalculará a propriedade **PR_BODY** . 
   
-Se o seu provedor de armazenamento de mensagens não oferece suporte a RTF, você também deve adicionar o conteúdo da mensagem não-RTF, definindo a propriedade **PR_BODY** . 
+Se o seu provedor de repositório de mensagens não oferecer suporte a RTF, você também deve adicionar conteúdo de mensagem não-RTF, definindo a propriedade **PR_BODY** . 
   
 ## <a name="set-prhtml"></a>Definir PR_HTML
   
-1. Chame o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_HTML** com a interface **IStream** . 
+1. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_HTML** com a interface **IStream** . 
     
-2. Chame **IStream::Write** para gravar os dados de texto de mensagem no fluxo retornado da **OpenProperty**. 
+2. IStream de chamada **:: Write** para gravar os dados de texto da mensagem no Stream retornado de **OpenProperty**. 
     
-3. Chamadas **IStream::Commit** e **IUnknown:: Release** no fluxo para confirmar as alterações e liberar sua memória. 
+3. IStream de chamada **:: Commit** e **IUnknown:: Release** no Stream para confirmar as alterações e liberar a memória. 
     
 ## <a name="set-prbody"></a>Definir PR_BODY
   
-1. Chame o método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_BODY** com a interface **IStream** . 
+1. Chame o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para abrir a propriedade **PR_BODY** com a interface **IStream** . 
     
-2. Chame **IStream::Write** para gravar os dados de texto de mensagem no fluxo retornado da **OpenProperty**. 
+2. IStream de chamada **:: Write** para gravar os dados de texto da mensagem no Stream retornado de **OpenProperty**. 
     
-3. Chame a função [RTFSync](rtfsync.md) para sincronizar o texto com a formatação. Como esta é uma nova mensagem, defina o RTF_SYNC_RTF_CHANGED e o RTF_SYNC_BODY_CHANGED sinalizadores para indicar que a versão RTF tanto o texto sem formatação do texto da mensagem foi alterado. **RTFSync** irá definir várias propriedades relacionadas que requer que o provedor de armazenamento de mensagens, como **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) e gravá-los à mensagem.
+3. Chame a função [RTFSync](rtfsync.md) para sincronizar o texto com a formatação. Como esta é uma nova mensagem, defina os sinalizadores RTF_SYNC_RTF_CHANGED e RTF_SYNC_BODY_CHANGED para indicar que a versão RTF e de texto sem formatação do texto da mensagem foi alterada. **RTFSync** definirá várias propriedades relacionadas que o provedor de armazenamento de mensagens requer, como **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)), e gravá-las na mensagem.
     
-4. Chamadas **IStream::Commit** e **IUnknown:: Release** no fluxo para confirmar as alterações e liberar sua memória. 
+4. IStream de chamada **:: Commit** e **IUnknown:: Release** no Stream para confirmar as alterações e liberar a memória. 
     
 

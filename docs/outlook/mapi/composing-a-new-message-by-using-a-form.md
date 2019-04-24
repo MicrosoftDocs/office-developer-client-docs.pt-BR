@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 667d7afe1772786507ffc8eb75f901439ada61d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1c5ba8631ba39309b7131440f04564f80b5dbb57
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335123"
 ---
 # <a name="composing-a-new-message-by-using-a-form"></a>Redigir uma nova mensagem usando um formulário
 
@@ -21,19 +21,19 @@ ms.locfileid: "22587863"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Para usar um formulário para redigir uma nova mensagem, primeiro crie um novo objeto de mensagem personalizada.
+Para usar um formulário para redigir uma nova mensagem, primeiro crie um novo objeto Message personalizado.
   
  **Para redigir uma nova mensagem usando um formulário**
   
-1. Chamar o método de [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) do gerente de formulário para recuperar um ponteiro para um objeto de informações de formulário — um objeto que implementa o [IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md) interface. 
+1. Chame o método [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) do gerente de formulários para recuperar um ponteiro para um objeto de informações de formulário — um objeto que implementa a interface [IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md) . 
     
-2. Passe o ponteiro para o objeto de informações de formulário em uma chamada para [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md). **CreateForm** carrega o servidor de formulário apropriada. Além disso, passe um identificador de interface para **CreateForm** para especificar a interface para ser usado para acessar a nova mensagem. Normalmente, você solicitar [IPersistMessage: IUnknown](ipersistmessageiunknown.md) , passando IID_IPersistMessage para **CreateForm**.
+2. Passe o ponteiro para o objeto de informações de formulário em uma chamada para [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md). **CreateForm** carrega o servidor de formulário apropriado. Além disso, passe um identificador de interface **** para CreateForm para especificar a interface a ser usada para acessar a nova mensagem. Normalmente, você solicita [IPersistMessage: IUnknown](ipersistmessageiunknown.md) passando IID_IPersistMessage para **CreateForm**.
     
-3. Salve a nova mensagem chamando o método [IPersistMessage::Save](ipersistmessage-save.md) . O servidor do formulário deve definir valores para as propriedades da mensagem necessários quando ele cria a mensagem. 
+3. Salve a nova mensagem chamando o método [IPersistMessage:: Save](ipersistmessage-save.md) . O servidor de formulários deve definir valores para as propriedades obrigatórias da mensagem quando ele cria a mensagem. 
     
-4. Carregar a mensagem usando uma das duas estratégias: [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) ou [PrepareForm](imapisession-prepareform.md) seguido [IMAPISession:: ShowForm](imapisession-showform.md). Para obter mais informações sobre essas estratégias, consulte [carregando uma mensagem em um formulário](loading-a-message-into-a-form.md).
+4. Carregue a mensagem usando uma das duas estratégias: [IMAPIFormMgr:: loadform](imapiformmgr-loadform.md) ou [IMAPISession::P Repareform](imapisession-prepareform.md) seguido por [IMAPISession:: o formulário](imapisession-showform.md). Para obter mais informações sobre essas estratégias, consulte [carregar uma mensagem em um formulário](loading-a-message-into-a-form.md).
     
 > [!NOTE]
-> Existem oportunidades para ganhos de desempenho ao carregar uma nova mensagem personalizada em um servidor de formulário, porque você já terá sido uma oportunidade de fazer algumas informações sobre a mensagem — como sua classe de mensagem — durante o processamento necessário para o ** ResolveMessageClass** e **CreateForm** chamadas. Dessa forma, você poderá simplificar o processamento necessário antes de chamar **LoadForm** sobre o que é descrito no tópico [carregando uma mensagem em um formulário](loading-a-message-into-a-form.md). 
+> Há oportunidades de ganhos de desempenho ao carregar uma nova mensagem personalizada em um servidor de formulário, pois você já terá uma oportunidade de obter algumas informações sobre a mensagem, como sua classe de mensagens, durante o processamento necessário para o ** **Chamadas ResolveMessageClass **** e CreateForm. Por esse motivo, você poderá simplificar o processamento necessário antes de chamar **loadform** sobre isso descrito no tópico [carregando uma mensagem em um formulário](loading-a-message-into-a-form.md). 
   
 

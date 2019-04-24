@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82253110
 localization_priority: Normal
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
-description: Você pode adicionar novas linhas, altere o tipo de linhas existentes ou excluir linhas na ShapeSheet do Microsoft Visio.
-ms.openlocfilehash: 7a3b20d1dbdfa36b414877202a7b1dce358a0ffe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Você pode adicionar novas linhas, alterar o tipo de linhas existentes ou excluir linhas no ShapeSheet no Microsoft Visio.
+ms.openlocfilehash: 385d1040527f8c4322fb1f158c1de2deb0e6f59c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338757"
 ---
 # <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Adicionar, alterar ou excluir linhas no ShapeSheet
 
-Você pode adicionar novas linhas, altere o tipo de linhas existentes ou excluir linhas na ShapeSheet do Microsoft Visio.
+Você pode adicionar novas linhas, alterar o tipo de linhas existentes ou excluir linhas no ShapeSheet no Microsoft Visio.
   
-### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Para adicionar uma nova linha a uma seção do ShapeSheet
+### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Para adicionar uma nova linha a uma seção no ShapeSheet
 
 1. Selecione uma célula na linha existente.
     
-2. No grupo de **linhas** , na guia **Design** , em **Ferramentas do ShapeSheet**, clique em **Inserir** para inserir uma linha depois da linha existente. 
+2. No grupo **linhas** da guia **design** em ferramentas do **ShapeSheet**, clique em **Inserir** para inserir a linha após a linha existente. 
     
-    Ou com o botão direito na célula e, em seguida, clique em **Inserir linha** ou **Inserir linha após** (apenas para a seção [Geometry](geometry-section.md) ), no menu de atalho. 
+    Ou clique com o botão direito do mouse na célula e clique em **Inserir linha** ou **Inserir linha após** (seção [Geometry](geometry-section.md) somente) no menu de atalho. 
     
-### <a name="to-change-a-rows-type-in-the-shapesheet"></a>Para alterar o tipo de uma linha ShapeSheet
+### <a name="to-change-a-rows-type-in-the-shapesheet"></a>Para alterar o tipo de uma linha no ShapeSheet
 
-- Clique com o botão um rótulo de linha ou célula e, em seguida, clique em **Alterar tipo de linha** no menu de atalho. 
+- Clique com o botão direito do mouse em um rótulo de linha ou célula e, em seguida, clique em **alterar tipo de linha** no menu de atalho. 
     
     > [!NOTE]
-    > Se **Alterar tipo de linha** não estiver disponível, a seção ShapeSheet não poderá permitir que outros tipos de linha. 
+    > Se o **tipo de linha de alteração** não estiver disponível, a seção ShapeSheet poderá não permitir outros tipos de linha. 
   
-### <a name="to-delete-a-row-in-the-shapesheet"></a>Para excluir uma linha do ShapeSheet
+### <a name="to-delete-a-row-in-the-shapesheet"></a>Para excluir uma linha no ShapeSheet
 
 1. Selecione a célula na linha que deseja excluir.
     
-2. No grupo de **linhas** , na guia **Design** , em **Ferramentas do ShapeSheet**, clique em **Excluir**. Ou com o botão direito na célula e, em seguida, clique em **Excluir linha** no menu de atalho. As seguintes linhas mover para cima de uma linha na seção. 
+2. No grupo **linhas** , na guia **design** , em **Ferramentas do ShapeSheet**, clique em **excluir**. Ou clique com o botão direito do mouse na célula e clique em **Excluir linha** no menu de atalho. As linhas a seguir são movidas uma linha para cima da seção. 
     
 

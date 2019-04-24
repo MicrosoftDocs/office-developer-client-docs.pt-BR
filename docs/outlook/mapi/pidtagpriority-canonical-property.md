@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0f3a628f-5f8e-4716-98cc-868bd3400ba9
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: b9c0f5ebeae21d6d683bbb5def727d29a34bcdb6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339428"
 ---
 # <a name="pidtagpriority-canonical-property"></a>Propriedade canônica PidTagPriority
 
@@ -36,9 +36,9 @@ Contém a prioridade relativa de uma mensagem.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade e a propriedade **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) não devem ser confundidos. Prioridade indica um valor para os usuários, enquanto a prioridade indica a ordem ou a velocidade na qual a mensagem deve ser enviada pelo software do sistema de mensagens. Geralmente, a prioridade mais alta indica um alto custo. Prioridade mais alta geralmente é associada uma exibição diferentes pela interface do usuário.
+Essa propriedade e a propriedade **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) não devem ser confundidas. Prioridade indica um valor para os usuários, enquanto a prioridade indica a ordem ou a velocidade na qual a mensagem deve ser enviada pelo software do sistema de mensagens. A prioridade mais alta geralmente indica um custo maior. A maior importância geralmente é associada a uma exibição diferente pela interface do usuário.
   
-A prioridade de uma mensagem de relatório deve ser o mesmo que a prioridade da mensagem original serem reportada.
+A prioridade de uma mensagem de relatório deve ser igual à prioridade da mensagem original que está sendo relatada.
   
 Essa propriedade pode ter exatamente um dos seguintes valores:
   
@@ -56,25 +56,25 @@ PRIO_URGENT
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -82,7 +82,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

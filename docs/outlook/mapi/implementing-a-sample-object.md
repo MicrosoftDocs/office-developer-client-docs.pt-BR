@@ -9,19 +9,19 @@ api_type:
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332827"
 ---
 # <a name="implementing-a-sample-object"></a>Implementar um objeto de exemplo
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Objetos de coletor de eventos de aviso — objetos que suportam o [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) interface — são objetos de MAPI que aplicativos cliente implementam para processamento de notificações. **IMAPIAdviseSink** herda diretamente da [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método, **OnNotify**. Portanto, para implementar um objeto de coletor de eventos advise, um cliente cria código para os três métodos **IUnknown** e [OnNotify](imapiadvisesink-onnotify.md).
+Avisar objetos coletores – objetos que suportam a interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) , são objetos MAPI que os aplicativos cliente implementam para processar notificações. O **IMAPIAdviseSink** herda diretamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) e contém apenas um método ****, OnNotify. Portanto, para implementar um objeto de coletor de aviso, um cliente cria código para os três métodos em **IUnknown** e para OnNotify. [](imapiadvisesink-onnotify.md)
   
-O arquivo de cabeçalho Mapidefs.h define uma implementação de interface **IMAPIAdviseSink** usando **DECLARE_MAPI_INTERFACE**, da seguinte maneira:
+O arquivo de cabeçalho mapidefs. h define uma implementação de interface do **IMAPIAdviseSink** usando o **DECLARE_MAPI_INTERFACE**, da seguinte maneira:
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Clientes que implementam aconselhe os objetos de coletor de eventos podem definir suas interfaces nos seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** . Implementadores do objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e para economizar tempo e esforço. 
+Os clientes que implementam os objetos de coletor de aviso podem definir suas interfaces em seus objetos manualmente ou com as macros **MAPI_IUNKNOWN_METHODS** e **MAPI_IMAPIADVISESINK_METHODS** . Implementações de objeto devem usar as macros de interface sempre que possível para garantir a consistência entre objetos e economizar tempo e esforço. 
   
-Implementar os métodos [AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é relativamente simple, porque geralmente apenas algumas linhas de código são necessárias. Portanto, clientes e provedores de serviços que implementam objetos podem fazer sua embutida de implementações **AddRef** e **Release** . O código a seguir mostra como definir um C++ avise o objeto coletor de eventos com embutida implementações de **AddRef** e **Release**.
+A implementação dos métodos [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) é relativamente simples, pois normalmente só são necessárias algumas linhas de código. Portanto, os clientes e provedores de serviço que implementam objetos podem tornar as implementações de **AddRef** e **versão** embutidas. O código a seguir mostra como definir um objeto de coletor de aviso do C++ com implementações embutidas de **AddRef** e **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-C, o objeto coletor de eventos advise consiste nos seguintes elementos:
+No C, o objeto de coletor de aviso é composto pelos seguintes elementos:
   
-- Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos na **IUnknown** e **IMAPIAdviseSink**.
+- Um ponteiro para uma vtable que contém ponteiros para implementações de cada um dos métodos em **IUnknown** e **IMAPIAdviseSink**.
     
 - Membros de dados.
     
-O exemplo de código a seguir mostra como definir um objeto de coletor de eventos advise em C e construir sua vtable. 
+O exemplo de código a seguir mostra como definir um objeto de coletor de aviso em C e construir sua vtable. 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Depois que você declarar um objeto em C, inicializá-lo, definindo o ponteiro vtable como o endereço do vtable construído, conforme mostrado no seguinte código:
+Depois de declarar um objeto no C, você deve inicializá-lo definindo o ponteiro vtable para o endereço da vtable construída, conforme mostrado no código a seguir:
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -116,5 +116,5 @@ lpMyObj->lpVtbl = &vtblADVISE;
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral da propriedade MAPI](mapi-property-overview.md)
-- [Implementar objetos de MAPI](implementing-mapi-objects.md)
+- [Implementar objetos MAPI](implementing-mapi-objects.md)
 

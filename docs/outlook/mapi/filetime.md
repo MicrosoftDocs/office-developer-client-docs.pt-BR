@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: d58a216a41ff8fe93387ce6d9d1d6aa16f36f224
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00355546717ca61492750cb1dd113d20114b0695
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334808"
 ---
 # <a name="filetime"></a>FILETIME
 
@@ -25,11 +25,11 @@ ms.locfileid: "22583250"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma data de 64 bits não assinada e o valor de tempo para um arquivo. Esse valor representa o número de unidades de 100 nanossegundos, desde o início do dia 1 de janeiro de 1601. 
+Contém um valor de data e hora de 64 bits não assinados para um arquivo. Esse valor representa o número de unidades de 100-nanossegundos desde o início de 1º de janeiro de 1601. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -44,17 +44,17 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> Valor de tempo de 32 bits de ordem baixa do arquivo. 
+> Bits de 32 de ordem inferior do valor de tempo do arquivo. 
     
  **dwHighDateTime**
   
-> Valor de tempo de 32 bits de ordem alta do arquivo.
+> Alta ordem 32 bits do valor de tempo do arquivo.
     
 ## <a name="remarks"></a>Comentários
 
-Uma propriedade do tipo PT_SYSTIME tem uma estrutura **FILETIME** para seu valor. Essa propriedade tem um tipo de dados **FILETIME** para o membro de **valor** em sua definição em uma estrutura [SPropValue](spropvalue.md) . 
+Uma propriedade do tipo PT_SYSTIME tem uma estrutura **FILETIME** para o valor. Tal propriedade tem um tipo de dados **FILETIME** para o membro **Value** em sua definição em uma estrutura [SPropValue](spropvalue.md) . 
   
-A definição da estrutura **FILETIME** está na _referência do programador do Win32_ e no arquivo de cabeçalho de MAPI Mapidefs.h. MAPI define a estrutura condicionalmente para certificar-se de que ela é definida quando a definição de Win32 não estiver disponível. 
+A definição da estrutura **FILETIME** está na _referência do programador do Win32_ e no arquivo de cabeçalho MAPI mapidefs. h. MAPI define a estrutura condicionalmente para garantir que ela seja definida quando a definição do Win32 não estiver disponível. 
   
 ## <a name="see-also"></a>Confira também
 

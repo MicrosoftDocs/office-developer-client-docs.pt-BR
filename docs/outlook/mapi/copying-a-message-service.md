@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 01e8ad76-973a-42fa-96aa-f41aabc12b4f
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 8388d14446a230b032e49ad0d614c85e79b8ece8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a4db4ed1c3098226891edca054621fe145daaa1f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333051"
 ---
 # <a name="copying-a-message-service"></a>Copiar um serviço de mensagens
 
@@ -21,10 +21,10 @@ ms.locfileid: "22573716"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
- **Para copiar um serviço de mensagem para um perfil**
+ **Para copiar um serviço de mensagens para um perfil**
   
-- Chame [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).
+- Chamar [IMsgServiceAdmin:: CopyMsgService](imsgserviceadmin-copymsgservice.md).
     
-Quando um serviço de mensagem é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original. Em alguns casos, **CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED. A causa mais comum de retorno este erro é um serviço de mensagem que não permita a mesmo a ser duplicado. 
+Quando um serviço de mensagens é copiado, a nova instância do serviço é configurada exatamente da mesma maneira que o original. Às vezes **CopyMsgService** retorna o erro MAPI_E_ACCESS_DENIED. A causa mais comum desse retorno de erro é um serviço de mensagens que não permite que ele próprio seja duplicado. 
   
 

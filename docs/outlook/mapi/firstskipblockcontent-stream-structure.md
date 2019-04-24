@@ -1,25 +1,25 @@
 ---
-title: Estrutura de fluxo de FirstSkipBlockContent
+title: Estrutura de fluxo FirstSkipBlockContent
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 89814eec-67c1-40b6-91d9-a58c3da0f15e
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 594187ada31c92f74125f572595d3c1261017240
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4804f2c6633095ea9eb38bec990cb1554240f6e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337062"
 ---
-# <a name="firstskipblockcontent-stream-structure"></a>Estrutura de fluxo de FirstSkipBlockContent
+# <a name="firstskipblockcontent-stream-structure"></a>Estrutura de fluxo FirstSkipBlockContent
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-A estrutura de fluxo de FirstSkipBlockContent é o conteúdo da primeira estrutura [SkipBlock](skipblock-stream-structure.md) no elemento SkipBlocks dados de um stream [FieldDefinition](fielddefinition-stream-structure.md) . O fluxo de FirstSkipBlockContent é simplesmente um elemento de dados único, FieldName: 
+A estrutura de fluxo FirstSkipBlockContent é o conteúdo da primeira estrutura [SkipBlock](skipblock-stream-structure.md) no elemento de dados SkipBlocks de um Stream [FieldDefinition](fielddefinition-stream-structure.md) . O fluxo FirstSkipBlockContent é simplesmente um único elemento de dados, FieldName: 
   
 - FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), o nome do campo.
     
@@ -27,11 +27,11 @@ A estrutura de fluxo de FirstSkipBlockContent é o conteúdo da primeira estrutu
 
 
 
-[Campos e itens do outlook](outlook-items-and-fields.md)
+[Campos e itens do Outlook](outlook-items-and-fields.md)
   
 [Estruturas de fluxo](stream-structures.md)
   
-[Estrutura de fluxo de SkipBlock](skipblock-stream-structure.md)
+[Estrutura de fluxo SkipBlock](skipblock-stream-structure.md)
   
-[Estrutura de fluxo de PackedUnicodeString](packedunicodestring-stream-structure.md)
+[Estrutura de fluxo PackedUnicodeString](packedunicodestring-stream-structure.md)
 

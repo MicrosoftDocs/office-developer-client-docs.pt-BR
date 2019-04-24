@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 5c6a16b62987a5338e1f14d362ba9d0ba9836e8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 842a8d9f2f08125fbede037dabf8ae6f6790d547
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332946"
 ---
 # <a name="creating-a-profile"></a>Criar um perfil
 
@@ -21,16 +21,16 @@ ms.locfileid: "22585154"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um cliente pode criar um perfil de uma das duas maneiras, usando o Assistente de perfil ou escrevendo código personalizado.
+Um cliente pode criar um perfil de uma das duas maneiras, usando o assistente de perfil ou escrevendo código personalizado.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criação de um perfil usando o Assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
+[Criar um perfil usando o assistente de perfil](creating-a-profile-by-using-the-profile-wizard.md)
   
-> Descreve como chamar o Assistente de perfil, um aplicativo que cria um perfil, permitindo que o usuário escolha provedores de serviço e serviços de mensagem interativamente.
+> Descreve como invocar o assistente de perfil, um aplicativo que cria um perfil permitindo que o usuário escolha serviços de mensagens e provedores de serviço interativamente.
     
-[Criando um perfil usando o código personalizado](creating-a-profile-by-using-custom-code.md)
+[Criar um perfil usando um código personalizado](creating-a-profile-by-using-custom-code.md)
   
-> Descreve como escrever código C ou C++, muitas vezes a melhor escolha para aplicativos de cliente não-interativo que requerem um conjunto específico de serviços de mensagem.
+> Descreve como escrever código C ou C++, geralmente a melhor opção para aplicativos cliente não-interativos que exigem um conjunto específico de serviços de mensagens.
     
 

@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60093
 localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
-description: O - coordenada posição x nas coordenadas locais da forma, em torno da qual é colocado o botão de marca de ação.
-ms.openlocfilehash: f6b3a57b825c96398058e7b71e3cebeb8480dd49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: A posição da coordenada x nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado.
+ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335765"
 ---
-# <a name="x-cell-action-tags-section"></a>Célula X Cell (Seção Action Tags)
+# <a name="x-cell-action-tags-section"></a>Célula X (Seção Action Tags)
 
-*X* -coordenar posição nas coordenadas locais da forma, em torno da qual é colocado o botão de marca de ação. 
+A posição da coordenada *x* nas coordenadas locais da forma em torno da qual o botão de marca de ação é colocado. 
   
 > [!NOTE]
 > Nas versões anteriores do Microsoft Visio, marcas de ação são chamadas marcas inteligentes. 
@@ -31,14 +31,14 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> |Marcas inteligentes. *nome* . X, onde SmartTags. *nome* é o nome da linha de marca de ação  <br/> |
+| Nome da célula:  <br/> |SmartTags. *nome* . X em que SmartTags. *name*  é o nome da linha da marca de ação  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionSmartTag** <br/> |
-| Índice da linha:  <br/> |**visRowSmartTag** +  *i* onde *i* = 0, 1, 2...  <br/> |
-| Índice da célula:  <br/> |**visSmartTagX** <br/> |
+| Índice de linha:  <br/> |**visRowSmartTag** +  *i*            em que  *i*  = 0, 1, 2...  <br/> |
+| Índice de célula:  <br/> |**visSmartTagX** <br/> |
    
 

@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm70
 localization_priority: Normal
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
-description: Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor formas usando a caixa de diálogo Configurar Layout (na guia Design, no grupo Layout, clique em Novo Layout de página e, em seguida, clique em mais opções de Layout).
-ms.openlocfilehash: af4089a3b215efaf49b8a45929ca94799fffcba5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo Configurar layout (na guia Design, no grupo layout, clique em reFazer o layout da página e, em seguida, clique em mais opções de layout).
+ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338420"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>Célula AvenueSizeY (Seção Page Layout)
 
-Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor formas usando a caixa de diálogo **Configurar Layout** (na guia **Design** , no grupo **Layout** , clique em **Novo Layout** de página e, em seguida, clique em **mais Opções de layout**).
+Determina a quantidade de espaço vertical entre as formas na página de desenho ao dispor as formas usando a caixa de diálogo **Configurar layout** (na guia **design** , no grupo **layout** , clique em refazer o **layout** da página e clique em **mais Opções de layout**).
   
 ## <a name="remarks"></a>Comentários
 

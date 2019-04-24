@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Um número que determina a ordem de hiperlinks que aparecem em um menu de atalho.
-ms.openlocfilehash: 03596918924b04a776eb7ffd2f16db1c57de8194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335214"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>Célula SortKey (Seção Hyperlinks)
 
@@ -28,14 +28,14 @@ Para obter uma referência para a célula SortKey pelo nome a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Hiperlink. *nome* . SortKey onde Hyperlink *. nome* é o nome da linha  <br/> |
+|Nome da célula:  <br/> |Hiperlink. *nome* . SortKey onde Hyperlink *. Name* é o nome da linha  <br/> |
    
 Para obter uma referência para a célula SortKey pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
-|Índice da seção:  <br/> |**visSectionHyperlink** <br/> |
-|Índice da linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
+|Índice da seção:  <br/> |**visSectionHiperlink** <br/> |
+|Índice de linha:  <br/> |**visRow1stHyperlink** +  *i* onde *i* = 0, 1, 2...  <br/> |
 |Índice da célula:  <br/> |**visHLinkSortKey** <br/> |
    
 

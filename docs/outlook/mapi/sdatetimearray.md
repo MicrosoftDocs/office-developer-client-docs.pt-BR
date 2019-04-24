@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dc90f15835de35354a271d87a736366a4caf8dd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d9fd04776742383f40c6989bcf588b24b33d84b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339792"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
@@ -25,11 +25,11 @@ ms.locfileid: "22578777"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém uma matriz de valores de hora são usadas para descrever uma propriedade do tipo PT_MV_SYSTIME.
+Contém uma matriz de valores de tempo que são usados para descrever uma propriedade do tipo PT_MV_SYSTIME.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -44,15 +44,15 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> Contagem de valores na matriz apontado pelo membro **lpft** . 
+> Contagem de valores na matriz apontada pelo membro **lpft** . 
     
  **lpft**
   
-> Ponteiro para uma matriz de estruturas [FILETIME](filetime.md) que contêm os valores de tempo. 
+> Ponteiro para uma matriz de estruturas [FILETIME](filetime.md) que contêm os valores de hora. 
     
 ## <a name="remarks"></a>Comentários
 
-Para obter mais informações sobre PT_MV_SYSTIME, consulte a [Lista de tipos de propriedade](property-types.md).
+Para obter mais informações sobre o PT_MV_SYSTIME, confira [lista de tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 

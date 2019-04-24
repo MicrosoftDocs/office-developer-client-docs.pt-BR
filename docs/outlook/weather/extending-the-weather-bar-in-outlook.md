@@ -1,5 +1,5 @@
 ---
-title: Estender a barra do tempo no Outlook
+title: Extending the Weather Bar in Outlook
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
 ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336561"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Estender a barra do tempo no Outlook
 
@@ -80,7 +80,7 @@ The following table describes the **WeatherServiceUrl** key.
   
 |||
 |:-----|:-----|
-|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Tecla** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**WeatherServiceUrl** <br/> |
 |**Value type** <br/> |REG_SZ  <br/> |
 |**Valor padrão** <br/> |EMPTY_STRING  <br/> |
@@ -99,10 +99,10 @@ Note that an administrator can also use Group Policy to disable the Weather Bar 
   
 |||
 |:-----|:-----|
-|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Tecla** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**DisableWeather** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Valor padrão** <br/> |0  <br/> |
+|**Default value** <br/> |,0  <br/> |
 |**Descrição** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
@@ -117,10 +117,10 @@ An administrator can also use Group Policy to disable all online content, includ
   
 |||
 |:-----|:-----|
-|**Chave** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Value name** <br/> |**UseOnlineContent** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Valor padrão** <br/> |2  <br/> |
+|**Default value** <br/> |duas  <br/> |
 |**Descrição** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 

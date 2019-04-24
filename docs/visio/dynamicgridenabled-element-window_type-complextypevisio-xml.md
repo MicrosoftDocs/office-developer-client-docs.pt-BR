@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
 description: Especifica se o recurso de grade dinâmica está habilitado para uma janela.
 ms.openlocfilehash: b0fe38f85a69a9d4274b7e4535005d1a1f214029
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334857"
 ---
 # <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (Window_Type complexType) ('Visio XML')
 
@@ -50,6 +50,6 @@ Nenhum.
   
 ### <a name="attributes"></a>Atributos
 
-Nenhum
+Nenhum.
   
 

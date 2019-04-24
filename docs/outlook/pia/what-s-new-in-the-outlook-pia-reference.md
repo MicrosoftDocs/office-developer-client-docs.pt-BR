@@ -1,5 +1,5 @@
 ---
-title: Quais são as novidades na referência PIA do Outlook
+title: Quais são as novidades na referência ao Outlook PIA
 TOCTitle: What's new in the Outlook PIA reference
 ms:assetid: 9863c857-2991-49af-84c7-1dd273172fe3
 ms:mtpsurl: https://msdn.microsoft.com/library/office/dn292515(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 09/15/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cfe322369707670833fc75f06993f6b961c28980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338588"
 ---
 # <a name="whats-new-in-the-outlook-pia-reference"></a>Quais são as novidades na referência PIA do Outlook
 
@@ -132,7 +132,7 @@ A tabela a seguir lista aprimoramentos para objetos e enumerações que estavam 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/bb645611(v=office.15)">Item de compromisso</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/bb645611(v=office.15)">AppointmentItem</a></p></td>
 <td><p>Evento<a href="https://msdn.microsoft.com/library/jj881880(v=office.15)">Leitura Completa</a></p></td>
 </tr>
 <tr class="even">

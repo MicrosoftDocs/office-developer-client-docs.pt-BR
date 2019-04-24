@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 8257c3c3583072d16e96e6ea9bba4632fc78f9ef
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339225"
 ---
 # <a name="pidtagsubjectprefix-canonical-property"></a>Propriedade canônica PidTagSubjectPrefix
 
@@ -25,52 +25,52 @@ ms.locfileid: "25385645"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém um prefixo de assunto que geralmente indica alguma ação em uma mensagem, como "firmware:" para encaminhamento. 
+Contém um prefixo de assunto que normalmente indica alguma ação em uma mensagem, como "FW:" para encaminhamento. 
   
 |||
 |:-----|:-----|
 |Propriedades associadas:  <br/> |PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, PR_SUBJECT_PREFIX_W  <br/> |
 |Identificador:  <br/> |0x003D  <br/> |
 |Tipo de dados:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Soluções gerais de mensagens  <br/> |
+|Área:  <br/> |Envio de mensagens gerais  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
 Essas propriedades são recomendadas em todos os objetos de mensagem. 
   
-O prefixo de assunto consiste em um ou mais caracteres alfanuméricos, seguidos por dois pontos e um espaço (que fazem parte do prefixo). Ele não deve conter caracteres não alfanuméricos antes dos dois pontos. Ausência de um prefixo pode ser representada por uma sequência vazia ou por essa propriedade não está definido. 
+O prefixo de assunto consiste em um ou mais caracteres alfanuméricos, seguidos por dois-pontos e um espaço (que fazem parte do prefixo). Ele não deve conter caracteres não alfanuméricos antes dos dois-pontos. A ausência de um prefixo pode ser representada por uma cadeia de caracteres vazia ou por esta propriedade não está sendo definida. 
   
-Se essas propriedades são definidas explicitamente, a cadeia de caracteres pode ter qualquer comprimento e usar qualquer caractere alfanumérico, mas deve corresponder uma subcadeia de caracteres no início da propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Se essas propriedades não são definidas pelo remetente e devem ser calculadas, seus conteúdos são mais restritos. A regra de computação o prefixo é que **PR_SUBJECT** deve começar com um, dois ou três letras (alfabéticos apenas) seguido por dois pontos e um espaço. Se uma subcadeia de caracteres for encontrada no início do **PR_SUBJECT**, ele se tornará a cadeia de caracteres para essas propriedades (e também permanece no início do **PR_SUBJECT**). Caso contrário, essas propriedades permanecem não definidas. 
+Se essas propriedades são definidas explicitamente, a cadeia de caracteres pode ser de qualquer tamanho e usar qualquer caractere alfanumérico, mas deve corresponder a uma subcadeia de caracteres no início da propriedade **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Se essas propriedades não forem definidas pelo remetente e devem ser computadas, seu conteúdo será mais restrito. A regra para a computação do prefixo é que o **PR_SUBJECT** deve começar com uma, duas ou três letras (somente alfabético) seguido por dois-pontos e um espaço. Se tal subcadeia de caracteres for encontrada no início de **PR_SUBJECT**, ela se tornará a cadeia de caracteres dessas propriedades (e também permanecerá no início de **PR_SUBJECT**). Caso contrário, essas propriedades permanecerão desdefinidas. 
   
-Essas propriedades e **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) devem ser calculado como parte da implementação do [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Um cliente não deve solicitar [IMAPIProp::GetProps](imapiprop-getprops.md) para seus valores até que forem confirmadas por uma chamada **IMAPIProp::SaveChanges** . 
+Essas propriedades e **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) devem ser calculadas como parte da implementação [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Um cliente não deve solicitar [IMAPIProp::](imapiprop-getprops.md) GetProps para seus valores até que eles tenham sido confirmados por uma chamada **IMAPIProp:: SaveChanges** . 
   
-As propriedades de assunto são normalmente pequenas cadeias de caracteres de menos de 256 caracteres e um provedor de armazenamento de mensagem não é obrigado a suporte à interface **IStream** do OLE neles. Um cliente deve sempre tentar o acesso por meio da interface **IMAPIProp** pela primeira vez e recorrer a **IStream** apenas se **MAPI_E_NOT_ENOUGH_MEMORY** é retornado. 
+As propriedades de assunto normalmente são pequenas cadeias de caracteres de menos de 256 caracteres, e um provedor de repositório de mensagens não é obrigado a oferecer suporte à interface de OLE **IStream** nelas. Um cliente sempre deve tentar acessar por meio da interface **IMAPIProp** primeiro e recorrer a **IStream** se **MAPI_E_NOT_ENOUGH_MEMORY** for retornado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas em objetos de mensagem de email.
+> Especifica as propriedades e as operações que são permitidas nos objetos de mensagem de email.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -78,7 +78,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

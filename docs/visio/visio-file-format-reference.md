@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
-description: Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para guiá-lo no desenvolvimento de soluções com o formato de arquivo do Visio.
+description: Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para orientá-lo no desenvolvimento de soluções com o formato de arquivo do Visio.
 ms.openlocfilehash: 28e7541515720c5516ce45cd48274becedd63cf3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335599"
 ---
 # <a name="visio-file-format-reference"></a>Referência de formato de arquivo para o Visio
 
-Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para guiá-lo no desenvolvimento de soluções com o formato de arquivo do Visio (\*. vsdx).
+Esta referência contém um tópico de visão geral conceitual e tópicos de referência, incluindo exemplos, para orientá-lo no desenvolvimento de soluções\*com o formato de arquivo do Visio (. vsdx).
   
-Bem-vindos seus comentários ou dúvidas sobre este conteúdo. Você pode enviar comentários para [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Agradecemos os comentários ou as perguntas sobre esse conteúdo. Envie comentários para [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
- **Publicação inicial**: outubro de 2012 | **Atualizado**: março de 2013
+ **Publicação inicial**: outubro de 2012 | **Atualizado**em: março de 2013
   
 Esta documentação contém as seguintes informações:
   
@@ -37,9 +37,9 @@ Esta documentação contém as seguintes informações:
 ## <a name="see-also"></a>Confira também
 
 - [Visio para desenvolvedores](https://msdn.microsoft.com/office/aa905478.aspx) 
-- [Accessibility in Microsoft Products](https://www.microsoft.com/enable/products/default.aspx)
+- [Acessibilidade em produtos Microsoft](https://www.microsoft.com/enable/products/default.aspx)
 - [Convenções de Documentos](https://msdn.microsoft.com/office/aa905365.aspx) 
-- [Aviso de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
+- [Notificação de direitos autorais do SDK do Visio](visio-sdk-copyright-notice.md)
 
     
 

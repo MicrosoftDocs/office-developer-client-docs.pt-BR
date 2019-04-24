@@ -8,28 +8,28 @@ f1_keywords:
 - vis_sdr.chm130
 localization_priority: Normal
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
-description: Determina o estilo com marcadores.
-ms.openlocfilehash: d3ecdd8e0f3780490f92766351b5ac94e875ae28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o estilo de marcador.
+ms.openlocfilehash: 03b7d046cd42458b614313c19b2100259730539c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338161"
 ---
-# <a name="bullet-cell-paragraph-section"></a>Célula Bullet (Seção Paragraph)
+# <a name="bullet-cell-paragraph-section"></a>Célula Bullet (seção Paragraph)
 
-Determina o estilo com marcadores.
+Determina o estilo de marcador.
   
-|**Valor**|**Estilo com marcadores**|
+|**Valor**|**Estilo de marcador**|
 |:-----|:-----|
-|0  <br/> |Nenhum  <br/> |
+|,0  <br/> |Nenhum  <br/> |
 |1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
-|4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|duas  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3D  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|quatro  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
+|0,5  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
 |6  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|7  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|178  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ Para obter uma referência para a célula Bullet pelo nome, a partir de outra f�
   
 |||
 |:-----|:-----|
-|Nome da célula:  <br/> |Para.Bullet [ *i* ] onde *i* = < 1 >, 2, 3,...  <br/> |
+|Nome da célula:  <br/> |Para. Bullet [ *i* ] onde *i* = <1>, 2, 3,...  <br/> |
    
 Para obter uma referência para a célula Bullet pelo índice, a partir de um programa, use a propriedade  **CellsSRC**com os seguintes argumentos: 
   

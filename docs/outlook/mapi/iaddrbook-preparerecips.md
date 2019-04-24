@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 004498ac94aadaa075d87d4dd3c675c8cd5f4feb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: db1c23f33e604d6aafdd8a046566c7390c281ad8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339218"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
@@ -39,19 +39,19 @@ HRESULT PrepareRecips(
 
  _ulFlags_
   
-> [in] Uma bitmask dos sinalizadores que controla como a entrada é aberta. O seguinte sinalizador pode ser definido:
+> no Uma bitmask de sinalizadores que controla como a entrada é aberta. O seguinte sinalizador pode ser definido:
     
 MAPI_CACHE_ONLY
   
-> Use somente o catálogo de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente para abrir a lista de endereços global (GAL) no modo cache do exchange e acessar uma entrada no catálogo de endereços do cache sem criar o tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas o provedor de catálogo de endereços do Exchange.
+> Use apenas o catálogo de endereços offline para executar a resolução de nomes. Por exemplo, você pode usar esse sinalizador para permitir que um aplicativo cliente Abra a lista de endereços global (GAL) no modo cache do Exchange e acesse uma entrada desse catálogo de endereços do cache sem criar tráfego entre o cliente e o servidor. Esse sinalizador é suportado apenas pelo provedor de catálogo de endereços do Exchange.
     
  _lpSPropTagArray_
   
-> [in] Um ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que indicam as propriedades, se houver, que requeiram a atualização. O parâmetro _lpSPropTagArray_ pode ser NULL. 
+> no Um ponteiro para uma estrutura [SPropTagArray](sproptagarray.md) que contém uma matriz de marcas de propriedade que indicam as propriedades, se houver, que precisam de atualização. O parâmetro _lpSPropTagArray_ pode ser NULL. 
     
  _lpRecipList_
   
-> [in] Um ponteiro para uma estrutura [ADRLIST](adrlist.md) que contém a lista de destinatários. 
+> no Um ponteiro para uma estrutura [das ADRLIST](adrlist.md) que contém a lista de destinatários. 
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -61,17 +61,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-Clientes e provedores de serviços de chamar o método de **PrepareRecips** para fazer o seguinte: 
+Os clientes e os provedores de serviços chamam o método **PrepareRecips** para fazer o seguinte: 
   
 - Certifique-se de que todos os destinatários no parâmetro _lpRecipList_ tenham identificadores de entrada de longo prazo. 
     
-- Certifique-se de que cada destinatário no parâmetro _lpRecipList_ tem as propriedades listadas no parâmetro _lpSPropTagArray_ e que essas propriedades serão exibidas no início da lista de destinatários. 
+- Certifique-se de que cada destinatário no parâmetro _lpRecipList_ tenha as propriedades listadas no parâmetro _lpSPropTagArray_ e que essas propriedades apareçam no início da lista de destinatários. 
     
-MAPI converte os identificadores de entrada de curto prazo de cada destinatário aos identificadores de entrada de longo prazo. Se necessário, longo prazo identificadores de entrada dos destinatários são recuperados do provedor de catálogo de endereço apropriado e as propriedades adicionais solicitadas.
+MAPI converte os identificadores de entrada de curto prazo de cada destinatário em identificadores de entrada de longo prazo. Se necessário, os identificadores de entrada de longo prazo dos destinatários são recuperados do provedor de catálogo de endereços apropriado e qualquer propriedade adicional é solicitada.
   
-Em uma entrada individual de destinatário, as propriedades solicitadas são ordenadas primeiro, seguido de quaisquer propriedades que já estavam presentes para a entrada. Se uma ou mais das propriedades solicitadas no parâmetro _lpSPropTagArray_ não são tratados pelo provedor de catálogo de endereço apropriado, seus tipos de propriedade serão definidos para PT_ERROR. Seus valores de propriedade serão definidos para a E_NOT_FOUND ou a outro valor que dá um motivo mais específico, por que as propriedades não estão disponíveis. Cada estrutura [SPropValue](spropvalue.md) incluída no parâmetro _lpRecipList_ deve ser alocada separadamente usando as funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIAllocateMore](mapiallocatemore.md) para que ela pode ser liberada individualmente. 
+Em uma entrada de destinatário individual, as propriedades solicitadas são ordenadas primeiro, seguidas por qualquer propriedade que já estava presente para a entrada. Se uma ou mais das propriedades solicitadas no parâmetro _lpSPropTagArray_ não forem tratadas pelo provedor de catálogo de endereços apropriado, seus tipos de propriedade serão definidos como PT_ERROR. Seus valores de propriedade serão definidos para MAPI_E_NOT_FOUND ou para outro valor que forneça um motivo mais específico para que as propriedades não estejam disponíveis. Cada estrutura [SPropValue](spropvalue.md) incluída no parâmetro _lpRecipList_ deve ser alocada separadamente usando as funções [MAPIAllocateBuffer](mapiallocatebuffer.md) e [MAPIAllocateMore](mapiallocatemore.md) para que ela possa ser liberada individualmente. 
   
-Para obter informações sobre PT_ERROR, consulte [Tipos de propriedade](property-types.md).
+Para obter informações sobre o PT_ERROR, consulte [tipos de propriedade](property-types.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -83,7 +83,7 @@ Para obter informações sobre PT_ERROR, consulte [Tipos de propriedade](propert
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[Propriedade canônico PidTagEntryId](pidtagentryid-canonical-property.md)
+[Propriedade canônica PidTagEntryId](pidtagentryid-canonical-property.md)
   
 [SPropValue](spropvalue.md)
   

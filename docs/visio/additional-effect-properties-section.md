@@ -6,20 +6,20 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 564c9e3b-e5cb-4d9b-b4b1-daa0d25a3848
-description: Mostra os efeitos adicionais aplicados à forma, incluindo os efeitos de bordas suaves, brilho e reflexão. Esta seção também incluídos os valores para um efeito de esboço.
-ms.openlocfilehash: bd9a29f45c4316a6bcf9f37ce036bd02f32c185d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Mostra os efeitos adicionais aplicados à forma, incluindo a reflexão, brilho e efeitos de bordas suaves. Esta seção também incluiu os valores para um efeito de esboço.
+ms.openlocfilehash: 64536bc7413070460e2f7e2a2b7db01340d0000a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338392"
 ---
 # <a name="additional-effect-properties-section"></a>Seção Additional Effect Properties
 
-Mostra os efeitos adicionais aplicados à forma, incluindo os efeitos de bordas suaves, brilho e reflexão. Esta seção também incluídos os valores para um efeito de esboço.
+Mostra os efeitos adicionais aplicados à forma, incluindo a reflexão, brilho e efeitos de bordas suaves. Esta seção também incluiu os valores para um efeito de esboço.
   
 ## <a name="remarks"></a>Comentários
 
-Você pode definir a reflexão, brilho e efeitos de bordas suaves na caixa de diálogo **Formatar forma** (**Home** > **Estilos de forma** > **efeitos**). Um efeito de esboço pode ser aplicado a uma forma usando um dos temas Esboço (**Design** > **temas** > **efeitos**) ou por meio de alterações para valores do ShapeSheet correspondente cells.
+Você pode definir os efeitos de reflexo, brilho e bordas suaves na caixa de diálogo **Formatar forma** (**efeitos**de**estilos** > de forma de**página inicial** > ). Um efeito de esboço pode ser aplicado a uma forma usando um dos temas de esboço (**design** > **** > de**efeitos**de Design) ou fazendo alterações nos valores das células correspondentes do ShapeSheet.
   
 

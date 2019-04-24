@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251746
 localization_priority: Normal
 ms.assetid: 11c69600-4e1f-4c52-ff35-b6a7cc6c734c
-description: Representa o x-coordenadas de um ponto de conexão em coordenadas locais.
-ms.openlocfilehash: 27821f9aa94f97d8e019d7c7307c036549bf807b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Representa a coordenada x de um ponto de conexão em coordenadas locais.
+ms.openlocfilehash: 496e5af6ea5b7ba99730b23dcbb510db6af9b23b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339873"
 ---
-# <a name="x-cell-connection-points-section"></a>Célula X Cell (Seção Connection Points)
+# <a name="x-cell-connection-points-section"></a>Célula X (Seção Connection Points)
 
-Representa o *x* -coordenadas de um ponto de conexão em coordenadas locais. 
+Representa a coordenada *x* de um ponto de conexão em coordenadas locais. 
   
 ## <a name="remarks"></a>Comentários
 
@@ -26,7 +26,7 @@ Para fazer referência à célula X pelo nome a partir de outra fórmula ou de u
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Connections.X *i* onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Connections. X *i* onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula X pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

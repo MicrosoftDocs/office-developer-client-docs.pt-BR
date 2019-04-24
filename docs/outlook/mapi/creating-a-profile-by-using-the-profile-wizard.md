@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 4b611818-f99f-43a2-9f6b-1aa5b9564d1d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f30dca8323f74bc2817bab375b58fcc1bc15c18b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a93cfb05d8abfffc9f55a7ea48efc3c3451dddbb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332932"
 ---
 # <a name="creating-a-profile-by-using-the-profile-wizard"></a>Criar um perfil usando o assistente de perfil
 
@@ -21,8 +21,8 @@ ms.locfileid: "22574255"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-O Assistente de perfil é um recurso MAPI que permite que o usuário crie um perfil da maneira mais fácil de possíveis. O Assistente de perfil exibe uma série de caixas de diálogo que solicita ao usuário selecionar serviços de mensagem e insira valores para algumas das propriedades de configuração mais essenciais. Para a maioria das outras propriedades necessárias, o Assistente de perfil usa valores padrão fornecidos. Para invocar o Assistente de perfil, chame **LaunchWizard**, uma função com base em protótipo [LAUNCHWIZARDENTRY](launchwizardentry.md) . 
+O assistente de perfil é um recurso MAPI que permite que um usuário crie um perfil da maneira mais fácil possível. O assistente de perfil exibe uma série de caixas de diálogo que solicitam que o usuário selecione serviços de mensagens e insira valores para algumas das propriedades de configuração mais essenciais. Para a maioria das outras propriedades obrigatórias, o assistente de perfil usa valores padrão fornecidos. Para invocar o assistente de perfil, chame **LaunchWizard**, uma função com base no protótipo [LAUNCHWIZARDENTRY](launchwizardentry.md) . 
   
-O usuário pode adicionar apenas os serviços de mensagem e os provedores de serviço para o novo perfil que suportam o Assistente de perfil. Como cada serviço de mensagem pode exigir mais de propriedades a ser definido do Assistente de perfil pode manipular, lembre-se de que se você usar essa abordagem, é possível para uma ou mais dos serviços selecionados ou provedores parcialmente ser configurado.
+O usuário pode adicionar apenas os serviços de mensagens e os provedores de serviços ao novo perfil que oferece suporte ao assistente de perfil. Como cada serviço de mensagens pode exigir que mais propriedades sejam definidas do que o assistente de perfil pode lidar, lembre-se de que se você usar essa abordagem, é possível que um ou mais serviços ou provedores selecionados sejam configurados de forma incompleta.
   
 

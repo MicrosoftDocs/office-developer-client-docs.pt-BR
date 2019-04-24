@@ -13,11 +13,11 @@ api_type:
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: fba49b052a51bd498f61fc115f630d08fc6c8926
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335793"
 ---
 # <a name="pidtagemsabserver-canonical-property"></a>Propriedade canônica PidTagEmsAbServer
 
@@ -25,7 +25,7 @@ ms.locfileid: "25384973"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Especifica o caminho de um contêiner de catálogo de endereços em um cenário offline ou o nome de domínio totalmente qualificado do servidor de catálogo global em que o contêiner de catálogo de endereços reside em um cenário online.
+Especifica o caminho de um contêiner de catálogo de endereços em um cenário offline ou o nome de domínio totalmente qualificado do servidor de catálogo global onde o contêiner do catálogo de endereços reside em um cenário online.
   
 ## 
 
@@ -34,29 +34,29 @@ Especifica o caminho de um contêiner de catálogo de endereços em um cenário 
 |Propriedades associadas:  <br/> |PR_EMS_AB_SERVER, PR_EMS_AB_SERVER_A, PR_EMS_AB_SERVER_W  <br/> |
 |Identificador:  <br/> |0xFFFE  <br/> |
 |Tipo de dados:  <br/> |PT_TSTRING  <br/> |
-|Área:  <br/> |Catálogo de Endereços  <br/> |
+|Área:  <br/> |Catálogo de endereços  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade tem o tipo de propriedade redefinido com **PT_UNICODE** quando ele é compilado com a `UNICODE` símbolo em uma plataforma de Unicode e **PT_STRING8** quando ele não é compilado com a `UNICODE` símbolo. 
+Essa propriedade tem o tipo de propriedade reset como **PT_UNICODE** quando ele é compilado com `UNICODE` o símbolo em uma plataforma Unicode e para **PT_STRING8** quando não é compilado com o `UNICODE` símbolo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece as definições do conjunto de propriedades.
+> Fornece definições de conjunto de propriedades.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

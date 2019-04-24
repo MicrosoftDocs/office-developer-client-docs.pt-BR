@@ -1,5 +1,5 @@
 ---
-title: Criar identificadores de entradas
+title: Construindo identificadores de entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f15749077596bd6c89828eb730cadd5624a75fe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d48c2584fa5b7e862102e401ea8165821607f77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335088"
 ---
-# <a name="constructing-entry-identifiers"></a>Criar identificadores de entradas
+# <a name="constructing-entry-identifiers"></a>Construindo identificadores de entrada
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Identificadores de entrada são construídos com a estrutura [ENTRYID](entryid.md) . A estrutura **ENTRYID** é composta por um sinalizador que descreve os atributos do identificador de entrada e o identificador de entrada real. 
+Os identificadores de entrada são construídos [](entryid.md) com a estrutura ENTRYID. A **** estrutura ENTRYID é composta de um sinalizador que descreve os atributos do identificador de entrada e o identificador de entrada real. 
   
-## <a name="entryid-structure"></a>Estrutura ENTRYID
+## <a name="entryid-structure"></a>Estrutura ENTRYid
 
-A estrutura **ENTRYID** é definida da seguinte maneira: 
+A **** estrutura ENTRYID é definida da seguinte maneira: 
   
 ```cpp
 typedef struct
@@ -36,33 +36,33 @@ typedef struct
  
 ```
 
-MAPI_DIM é uma constante que é definida no arquivo de cabeçalho MapiDefs.h. 
+MAPI_DIM é uma constante definida no arquivo de cabeçalho MapiDefs. h. 
   
-O primeiro byte do membro de 4 bytes **abFlags** descreve o tipo e use do identificador de entrada e pode ter os seguintes valores: 
+O primeiro byte do membro **abFlags** de 4 bytes descreve o tipo e o uso do identificador de entrada e pode ter os seguintes valores: 
   
-- MAPI_NOTRECI — Indica o identificador de entrada não pode ser usada como um destinatário em uma mensagem.
+- MAPI_NOTRECI — indica que o identificador de entrada não pode ser usado como um destinatário em uma mensagem.
     
-- MAPI_NOTRESERVED — Indica de que outros usuários não podem acessar o identificador de entrada.
+- MAPI_NOTRESERVED — indica que outros usuários não podem acessar o identificador de entrada.
     
-- MAPI_NOW — Indica de que o identificador de entrada não pode ser usado em outros momentos.
+- MAPI_NOW — indica que o identificador de entrada não pode ser usado em outros momentos.
     
-- MAPI_SHORTTERM — Indica de que o identificador de entrada é curto prazo. Todos os outros valores esse byte devem ser definidos, a menos que outros usos do identificador de entrada são permitidos.
+- MAPI_SHORTTERM — indica que o identificador de entrada é de curto prazo. Todos os outros valores nesse byte devem ser definidos, a menos que outros usos do identificador de entrada sejam permitidos.
     
-- MAPI_THISSESSION — Indica de que o identificador de entrada não pode ser usado em outras sessões.
+- MAPI_THISSESSION — indica que o identificador de entrada não pode ser usado em outras sessões.
     
-- MAPI_NOTRESERVED — Indica de que o identificador de entrada pode ser usado por outros provedores de serviços para outros objetos.
+- MAPI_NOTRESERVED — indica que o identificador de entrada pode ser usado por outros provedores de serviços para outros objetos.
     
-O membro de **ab** dos identificadores de entrada que é criado por provedores de repositório de mensagens e catálogo de endereços é composto por duas partes: uma estrutura [MAPIUID](mapiuid.md) de 16 bytes que identifica o provedor de serviço e uma informação para identificar o objeto. **MAPIUID** é uma estrutura que contém um identificador global exclusivo ou GUID. Um GUID é um identificador de independente da ordem de byte que pode ser criado usando o Microsoft Visual Studio*Criar GUID** ferramenta. 
+O membro **AB** dos identificadores de entrada criados por catálogo de endereços e provedores de repositório de mensagens é composto por duas partes: uma estrutura [MAPIUID](mapiuid.md) de 16 bytes que identifica o provedor de serviços e uma peça para identificar o objeto. **MAPIUID** é uma estrutura que contém um identificador global exclusivo ou GUID. Um GUID é um identificador independente de ordem de bytes que pode ser criado usando o Microsoft Visual Studio*Create GUID** Tool. 
   
-Um provedor de serviços registra sua estrutura **MAPIUID** com MAPI durante o processo de logon em uma chamada ao método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) . Quando um cliente chama um método **OpenEntry** para acessar um objeto, o MAPI usa a estrutura **MAPIUID** para determinar quais serviços provedor pode fornecer a esse acesso. Provedores de serviços devem usar a mesma estrutura **MAPIUID** para todas as versões dos seu DLL. Isso permite que os clientes com a versão mais recente responder às mensagens enviadas e salvas com a versão mais antiga. 
+Um provedor de serviços registra sua estrutura do **MAPIUID** com MAPI durante o processo de logon em uma chamada para o método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) . Quando um cliente chama um método **OpenEntry** para acessar um objeto, MAPI usa a estrutura **MAPIUID** para determinar qual provedor de serviços pode fornecer esse acesso. Os provedores de serviços devem usar a mesma estrutura **MAPIUID** para todas as versões de sua dll. Isso permite que os clientes com a versão mais recente respondam às mensagens enviadas e salvas com a versão mais antiga. 
   
-O restante do membro **ab** após a 16 bytes **MAPIUID** contém específico do provedor de serviço de dados binários para identificar objetos específicos. Não há nenhum tamanho fixo para esta parte do identificador de entrada. Pode ser qualquer tamanho, dentro do motivo. Um provedor de serviços normalmente inclui as seguintes informações nesta parte do seus identificadores de entrada: 
+O restante do membro **AB** após a **MAPIUID** de 16 bytes contém dados binários específicos do provedor de serviços para identificar objetos específicos. Não há tamanho fixo para esta parte do identificador de entrada. Pode ser qualquer tamanho, dentro da razão. Um provedor de serviços normalmente inclui as seguintes informações nesta parte de seus identificadores de entrada: 
   
-- Informações sobre a versão — porque é comum para um provedor de serviço alterar o formato dos seus identificadores de entrada de versão para versão, armazenar informações de versão torna possível determinar rapidamente como decifrar qualquer identificador de entrada.
+- Informações de versão — como é comum que um provedor de serviços altere o formato de seus identificadores de entrada da versão para a versão, armazenar informações de versão permite determinar rapidamente como decifrar qualquer identificador de entrada.
     
-- Informações de local — informações de local são os dados que fornece um indicador de como localizar o objeto representado pelo identificador de entrada de um provedor de serviços. Por exemplo, um provedor de serviços pode armazenar o disco de deslocamento para o último lugar em um arquivo de dados que o objeto foi armazenado. Como esse tipo de informação pode mudar ao longo do tempo, provedores de serviços deverão fornecer várias maneiras para localizar os objetos em seus identificadores de entrada.
+- Informações de local-informações de local são dados que fornecem um provedor de serviços um indicador de como localizar o objeto representado pelo identificador de entrada. Por exemplo, um provedor de serviços pode armazenar o deslocamento do disco para o último local em um arquivo de dados que o objeto foi armazenado. Como esse tipo de informação pode mudar com o tempo, os provedores de serviços devem fornecer várias maneiras de localizar objetos em seus identificadores de entrada.
     
-Embora os provedores de serviços podem reciclar seus identificadores de entrada, eles devem evitar essa prática. Se for necessário reutilizar um identificador de entrada, provedores de serviços devem fazer o período de tempo decorrido entre o uso inicial e a reutilização tanto quanto possível. Além disso, o identificador de entrada deve ser reatribuído a outro objeto do mesmo tipo. Ou seja, um identificador de entrada particular não deve ser associado primeiro uma mensagem e, em seguida, com uma pasta.
+Embora os provedores de serviços possam reciclar seus identificadores de entrada, eles devem evitar essa prática. Se for necessário reutilizar um identificador de entrada, os provedores de serviços devem tornar o período de tempo decorrido entre o uso inicial e a reutilização o máximo possível. Além disso, o identificador de entrada deve ser reatribuído a outro objeto do mesmo tipo. Ou seja, um determinado identificador de entrada não deve ser associado primeiro a uma mensagem e, em seguida, com uma pasta.
   
 ## <a name="see-also"></a>Confira também
 

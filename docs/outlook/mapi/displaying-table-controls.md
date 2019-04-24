@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 7af1e710006986807091c5c36d54da86204a71d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 37f6cd0320894d500416672c3dd0d90ee3324b40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337027"
 ---
 # <a name="displaying-table-controls"></a>Exibir controles de tabela
 
@@ -21,7 +21,7 @@ ms.locfileid: "22568459"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Há muitos tipos diferentes de controles, nenhum exclusivas de MAPI. No entanto, MAPI define suas próprias estruturas usadas em conjunto com [BuildDisplayTable](builddisplaytable.md) para descrever o conjunto exclusivo de dados envolvidos com cada controle. 
+Há muitos tipos diferentes de controles, nenhum exclusivo para MAPI. No enTanto, o MAPI define suas próprias estruturas que são usadas em conjunto com o [BuildDisplayTable](builddisplaytable.md) para descrever o conjunto exclusivo de dados envolvidos em cada controle. 
   
 A tabela a seguir lista as estruturas que descrevem cada tipo de controle. 
   
@@ -33,16 +33,16 @@ A tabela a seguir lista as estruturas que descrevem cada tipo de controle.
 |[DTBLDDLBX](dtblddlbx.md) <br/> |Descreve um controle de caixa de listagem suspensa.  <br/> |
 |[DTBLEDIT](dtbledit.md) <br/> |Descreve um controle de edição.  <br/> |
 |[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Descreve um controle de caixa de grupo.  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |Descreve um controle label.  <br/> |
+|[DTBLLABEL](dtbllabel.md) <br/> |Descreve um controle Label.  <br/> |
 |[DTBLLBX](dtbllbx.md) <br/> |Descreve um controle de caixa de listagem.  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Descreve um controle de caixa de listagem suspensa de valores múltiplos.  <br/> |
-|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Descreve um controle de caixa de listagem de valores múltiplos.  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |Descreve um controle de páginas com guias.  <br/> |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Descreve um controle de caixa de listagem suspensa de vários valores.  <br/> |
+|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Descreve um controle de caixa de listagem de vários valores.  <br/> |
+|[DTBLPAGE](dtblpage.md) <br/> |Descreve um controle de página com guias.  <br/> |
 |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Descreve um controle de botão de opção.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 
 
 
-[Implementação da tabela de exibição](display-table-implementation.md)
+[Exibir a implementação da tabela](display-table-implementation.md)
 

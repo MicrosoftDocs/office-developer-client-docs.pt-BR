@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Determina se uma forma 1D utilizará a cola estática (ponto a ponto) ou dinâmica (forma a forma) ao ser colada em outra forma.
-ms.openlocfilehash: 162827521cda6fe4a37d17a8f7d36d7a36718519
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae4eddf17c6e7b5e56cb3397f03d0721d965c9b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339512"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>Célula GlueType (Seção Glue Info)
 
@@ -23,8 +23,8 @@ Determina se uma forma 1D utilizará a cola estática (ponto a ponto) ou dinâmi
 |**Valor**|**Descrição**|**Constante de automação**|
 |:-----|:-----|:-----|
 | &amp;H0  <br/> | Padrão. Permitir cola dinâmica somente para o conector dinâmico; caso contrário, utilizar cola estática.  <br/> |**visGlueTypeDefault** <br/> |
-| &amp;H1  <br/> | Permitir cola dinâmica.  <br/> | Obsoleta no Visio 2002  <br/> |
-| &amp;H2  <br/> | Permitir cola dinâmica.  <br/> |**visGlueTypeWalking** <br/> |
+| &amp;Semestre  <br/> | Permitir cola dinâmica.  <br/> | Obsoleta no Visio 2002  <br/> |
+| &amp;S2  <br/> | Permitir cola dinâmica.  <br/> |**visGlueTypeWalking** <br/> |
 | &amp;H4  <br/> | Não permitir cola dinâmica.  <br/> |**visGlueTypeNoWalking** <br/> |
 | &amp;H8  <br/> | Não permitir que esta forma 2D seja conectada com cola dinâmica.  <br/> |**visGlueTypeNoWalkingTo** <br/> |
    

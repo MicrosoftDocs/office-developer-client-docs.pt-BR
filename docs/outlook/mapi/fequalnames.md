@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 09c6540f2a224b7dc89a62c34cfb0c867cef4632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f71b30bd02af8f768da86218456feadda8ea1b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334878"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
@@ -25,13 +25,13 @@ ms.locfileid: "22570846"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se o MAPI duas propriedades nomeadas são os mesmos. 
+Determina se duas propriedades nomeadas por MAPI são as mesmas. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapiutil.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços e aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapiutil. h  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente e provedores de serviços  <br/> |
    
 ```cpp
 BOOL FEqualNames(
@@ -44,26 +44,26 @@ BOOL FEqualNames(
 
  _lpName1_
   
-> [in] Ponteiro para uma estrutura [MAPINAMEID](mapinameid.md) descrevendo a primeira propriedade nomeada. 
+> no Ponteiro para uma estrutura [MAPINAMEID](mapinameid.md) descrevendo a primeira propriedade nomeada. 
     
  _lpName2_
   
-> [in] Ponteiro para uma estrutura **MAPINAMEID** descrevendo a segunda propriedade nomeada. 
+> no Ponteiro para uma estrutura **MAPINAMEID** descrevendo a segunda propriedade nomeada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
-> Os nomes das duas propriedades são iguais. 
+> Os dois nomes de propriedade são iguais. 
     
-FALSO 
+FALSE 
   
-> Os nomes das duas propriedades não são iguais.
+> Os dois nomes de propriedade não são iguais.
     
 ## <a name="remarks"></a>Comentários
 
-A função **FEqualNames** é útil porque a estrutura **MAPINAMEID** contém um [GUID](guid.md) e pode representar o próprio nome de propriedade em mais de uma forma. Isso significa que as duas estruturas não podem ser comparadas pelos métodos binários simples. 
+A função **FEqualNames** é útil porque a estrutura **MAPINAMEID** contém um [GUID](guid.md) e pode representar o próprio nome da propriedade em mais de uma forma. Isso significa que as duas estruturas não podem ser comparadas por métodos binários simples. 
   
-O processo de teste diferencia maiusculas de minúsculas para as cadeias de caracteres de nome de propriedade. 
+O processo de teste diferencia maiúsculas de minúsculas para as cadeias de caracteres de nome da propriedade. 
   
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 2868533e0383309e013bb82aaa4300a0a40e335a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b27f59e0bfdcac8eca1751af2f07139f12e2b3a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334738"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Propriedade canônica PidTagControlId
 
@@ -36,21 +36,21 @@ Contém um identificador exclusivo para um controle usado em uma caixa de diálo
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade contém um identificador exclusivo para o controle. Esse identificador deve conter uma estrutura [GUID](guid.md) e um valor binário do tipo **LONG**. Todos os controles na caixa de diálogo devem usar o mesmo **GUID** para identificar o provedor de serviço, e cada controle deve usar um único valor **longo** para garantir que os controles não coincidem. 
+Esta propriedade contém um identificador exclusivo para o controle. Esse identificador deve conter uma estrutura [GUID](guid.md) e um valor binário do tipo **Long**. Todos os controles na caixa de diálogo devem usar o mesmo **GUID** para identificar o provedor de serviços, e cada controle deve usar um valor **Long** exclusivo para garantir que os controles não colidem. 
   
-Essa propriedade é usada em notificações. Por exemplo, notificações enviadas na tabela exibição devem definir essa propriedade para identificar exclusivamente o controle a ser atualizado. 
+Essa propriedade é usada em notificações. Por exemplo, as notificações enviadas na tabela de exibição devem definir essa propriedade para identificar exclusivamente o controle a ser atualizado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

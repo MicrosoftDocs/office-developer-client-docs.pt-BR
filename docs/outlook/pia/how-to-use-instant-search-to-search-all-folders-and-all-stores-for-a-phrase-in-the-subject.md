@@ -1,5 +1,5 @@
 ---
-title: Usar buscas instantâneas para pesquisar uma frase do assunto em todas as pastas e todas as lojas.
+title: Usar pesquisas instantâneas para pesquisar uma frase do assunto em todas as pastas e todas as lojas.
 TOCTitle: Use instant search to search all folders and all stores for a phrase in the subject
 ms:assetid: d3152bfa-6e7d-4b68-8c7e-e2e155a92b49
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424478(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 07b0ba7a1d488dc1c7e1fcf0e9ae487b04b88755
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335368"
 ---
 # <a name="use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject"></a>Usar buscas instantâneas para pesquisar uma frase do assunto em todas as pastas e todas as lojas.
 
@@ -55,7 +55,7 @@ A pesquisa instantânea é um recurso do Microsoft Outlook que permite pesquisar
 
 No exemplo de código a seguir, o DemoInstantSearch obtém todas as pastas de email de todas as lojas onde a indexação é habilitada usando a propriedade [IsInstantSearchEnabled](https://msdn.microsoft.com/library/bb609793\(v=office.15\)) do objeto [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)). Ele usa o método **pesquisa** do objeto **Explorer** para filtrar por todos os itens que contêm a frase exata "Office 2007" no assunto e que foram recebidas no mês passado. Por fim, os resultados da pesquisa são exibidos em uma janela separada do Explorer.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A declaração**usando** não deve se situar antes de funções no exemplo código mas devem ser adicionada antes da declaração classe pública. A seguinte linha de código mostra como fazer a importação e de tarefa em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

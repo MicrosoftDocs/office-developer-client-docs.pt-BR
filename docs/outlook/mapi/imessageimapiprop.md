@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: b594297d364ba4f5a3ff7da603d2fe7c2fe8cf07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332869"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
@@ -25,32 +25,32 @@ ms.locfileid: "22588528"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Gerencia a destinatários, anexos e mensagens.
+Gerencia mensagens, anexos e destinatários.
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
-|Expostos pelo:  <br/> |Objeto de mensagem  <br/> |
-|Implementada por:  <br/> |Provedores de armazenamento de mensagem  <br/> |
-|Chamado pelo:  <br/> |Aplicativos cliente  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
+|Exposto por:  <br/> |Objeto Message  <br/> |
+|Implementado por:  <br/> |Provedores de repositórios de mensagens  <br/> |
+|Chamado por:  <br/> |Aplicativos cliente  <br/> |
 |Identificador de interface:  <br/> |IID_IMessage  <br/> |
 |Tipo de ponteiro:  <br/> |LPMESSAGE  <br/> |
-|Modelo de transação:  <br/> |Transacionadas  <br/> |
+|Modelo de transação:  <br/> |Transact  <br/> |
    
-## <a name="vtable-order"></a>Ordem vtable
+## <a name="vtable-order"></a>Vtable order
 
 |||
 |:-----|:-----|
-|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Retorna a tabela de anexos da mensagem.  <br/> |
+|[GetAttachmenttable](imessage-getattachmenttable.md) <br/> |Retorna a tabela de anexos da mensagem.  <br/> |
 |[OpenAttach](imessage-openattach.md) <br/> |Abre um anexo.  <br/> |
 |[CreateAttach](imessage-createattach.md) <br/> |Cria um novo anexo.  <br/> |
 |[DeleteAttach](imessage-deleteattach.md) <br/> |Exclui um anexo.  <br/> |
-|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Retorna a tabela de destinatário da mensagem.  <br/> |
-|[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Adiciona, exclui ou modifica os destinatários da mensagem.  <br/> |
-|[SubmitMessage](imessage-submitmessage.md) <br/> |Salva todas as alterações à mensagem e marca como pronto para enviar.  <br/> |
+|[GetRecipienttable](imessage-getrecipienttable.md) <br/> |Retorna a tabela de destinatários da mensagem.  <br/> |
+|[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Adiciona, exclui ou modifica destinatários de mensagens.  <br/> |
+|[SubmitMessage](imessage-submitmessage.md) <br/> |Salva todas as alterações na mensagem e a marca como pronta para envio.  <br/> |
 |[SetReadFlag](imessage-setreadflag.md) <br/> |Define ou limpa o sinalizador MSGFLAG_READ na propriedade **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) da mensagem e gerencia o envio de relatórios de leitura.  <br/> |
    
-As propriedades a seguir são necessárias em mensagens em algum momento durante seu ciclo de vida. A maioria das propriedades somente leitura é definida pelo provedor de repositório de mensagem quando um cliente chama o método de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) da mensagem. Outras propriedades somente leitura são definidas pelo provedor de transporte. 
+As propriedades a seguir são necessárias em mensagens em algum momento durante o ciclo de vida. A maioria das propriedades somente leitura é definida pelo provedor de armazenamento de mensagens quando um cliente chama o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de uma mensagem. Outras propriedades somente leitura são definidas pelo provedor de transporte. 
   
 |**Propriedades necessárias para mensagens de todas as classes**|**Access**|
 |:-----|:-----|
@@ -80,13 +80,13 @@ As propriedades a seguir são necessárias em mensagens em algum momento durante
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Somente leitura  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Somente leitura  <br/> |
    
-As propriedades a seguir são todos somente leitura para clientes, com exceção de **PR_BODY**. Clientes construir essa propriedade quando eles processam um relatório.
+As propriedades a seguir são somente leitura para clientes, com exceção de **PR_BODY**. Os clientes constroem essa propriedade quando processam um relatório.
   
-|**Propriedades de mensagens de relatório**|
+|**Propriedades para mensagens de relatório**|
 |:-----|
 |**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |
 |**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> |
-|**PR_CONVERSATION_TOPIC** ([Mapipidtagconversationtopic](pidtagconversationtopic-canonical-property.md))  <br/> |
+|**PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))  <br/> |
 |**PR_MESSAGE_CLASS** <br/> |
 |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |
 |**PR_ORIGINAL_DELIVERY_TIME** ([PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |
@@ -102,7 +102,7 @@ As propriedades a seguir são todos somente leitura para clientes, com exceção
 |Propriedades **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propriedades para os destinatários da mensagem**|**Access**|**Obrigatório ou opcional**|
+|**Propriedades para destinatários da mensagem**|**Access**|**Obrigatório ou opcional**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Somente leitura  <br/> |Obrigatório  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Leitura/gravação  <br/> |Obrigatório  <br/> |

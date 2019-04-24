@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3e965b787c32ea87a06c375cc82f25e385eea8de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 39d98972c22bd49549bf370ce1699b15cf1e27d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339904"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propriedade canônica PidTagAssociatedSharingProvider
 
@@ -21,7 +21,7 @@ ms.locfileid: "22577468"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Determina se um provedor de armazenamento de arquivo (. PST) de pastas particulares é configurado como um PST do Microsoft SharePoint 2010.
+Determina se um provedor de repositório de arquivos de pastas particulares (PST) está configurado como um PST do Microsoft SharePoint 2010.
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Determina se um provedor de armazenamento de arquivo (. PST) de pastas particula
    
 ## <a name="remarks"></a>Comentários
 
-Esta propriedade indica se um PST está configurado para Microsoft SharePoint 2010. Se a propriedade não estiver presente, o PST não foi configurado como um PST do Microsoft SharePoint 2010.
+Esta propriedade indica se um PST está configurado para o Microsoft SharePoint 2010. Se a propriedade não estiver presente, o PST não foi configurado como um PST do Microsoft SharePoint 2010.
   
 ## <a name="see-also"></a>Confira também
 
@@ -40,7 +40,7 @@ Esta propriedade indica se um PST está configurado para Microsoft SharePoint 20
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

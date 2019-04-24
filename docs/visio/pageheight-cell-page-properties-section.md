@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: Contém a altura da página impressa em unidades de desenho.
-ms.openlocfilehash: e198e90e9c70aad1e41ee02d5dcefea68846486c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ac24bee517f29da333a445f276447c1aa682f01c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334346"
 ---
 # <a name="pageheight-cell-page-properties-section"></a>Célula PageHeight (Seção Page Properties)
 

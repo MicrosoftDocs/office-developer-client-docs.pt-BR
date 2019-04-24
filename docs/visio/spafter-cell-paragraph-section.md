@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: Determina a quantidade de espaço inserido depois de cada parágrafo no bloco de texto da forma, além de qualquer espaço da célula SpLine e, caso seja o último parágrafo em um bloco de texto, da célula BottomMargin.
-ms.openlocfilehash: 93db93e58124b5f176fb57f843580eff6a3d4d3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335221"
 ---
 # <a name="spafter-cell-paragraph-section"></a>Célula SpAfter (Seção Paragraph)
 
@@ -28,7 +28,7 @@ Para fazer referência à célula SpAfter pelo nome a partir de outra fórmula o
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Para.SpAfter [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Para. antes de [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula SpAfter pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

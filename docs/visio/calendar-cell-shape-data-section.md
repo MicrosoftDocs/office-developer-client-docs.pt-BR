@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60027
 localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
-description: Determina o calendário que é usado para dados da forma quando o tipo de dado for Data.
-ms.openlocfilehash: 502ecd8a028c4c0d9841bbd3e0ed369f73bd6b65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Determina o calendário que é usado para dados da forma quando o tipo de dados é Data.
+ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337503"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Célula Calendar (Seção Shape Data)
 
-Determina o calendário que é usado para dados da forma quando o tipo de dado for Data.
+Determina o calendário que é usado para dados da forma quando o tipo de dados é Data.
   
 ## <a name="remarks"></a>Comentários
 
@@ -28,7 +28,7 @@ Para fazer referência à célula Calendar pelo nome a partir de outra fórmula 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Prop.  *nome* . Calendário onde Prop.  *Name* é o nome da linha  <br/> |
+| Nome da célula:  <br/> | Hélice.  *nome* . Calendário em que prop.  *Name* é o nome da linha  <br/> |
    
 Para fazer referência à célula Calendar pelo índice a partir de um programa, use a propriedade **CellsSRC** com estes argumentos: 
   

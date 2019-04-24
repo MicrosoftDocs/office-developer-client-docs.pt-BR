@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: dba7bd1fb7b0ca9bc23dbc45e07f44d0cc0dc8fe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9f1cc0bebf3c90a5c12f2714e8ab7eea59104da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337020"
 ---
 # <a name="displaying-table-rows-and-columns"></a>Exibir linhas e colunas da tabela
 
@@ -23,42 +23,42 @@ ms.locfileid: "22568137"
   
  Uma página de propriedades pode ser usada por um provedor de catálogo de endereços para permitir que os usuários definam novos destinatários de email. 
   
-A tabela de exibição correspondente contém quatro linhas, uma para cada controle. Os valores para as colunas que indicam a posição são os seguintes.
+A tabela de exibição correspondente contém quatro linhas, uma para cada controle. Os valores das colunas que indicam a posição são os seguintes.
   
-|**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAY**|
+|**Control**|**XPOS**|**YPOS**|**DELTAX**|**DELTAy**|
 |:-----|:-----|:-----|:-----|:-----|
-|Rótulo de nome de exibição  <br/> |14  <br/> |18  <br/> |49  <br/> |8  <br/> |
-|Caixa de edição de nome de exibição  <br/> |76  <br/> |16  <br/> |89  <br/> |12  <br/> |
-|Etiqueta de endereço de email  <br/> |14  <br/> |42  <br/> |50  <br/> |8  <br/> |
-|Caixa de edição de endereço de email  <br/> |76  <br/> |40  <br/> |89  <br/> |12  <br/> |
-|Caixa de seleção  <br/> |14  <br/> |64  <br/> |90  <br/> |12  <br/> |
+|Rótulo do nome para exibição  <br/> |14  <br/> |anos  <br/> |49  <br/> |8  <br/> |
+|Caixa de edição do nome para exibição  <br/> |76  <br/> |dezesseis  <br/> |89  <br/> |3,6  <br/> |
+|Rótulo de endereço de email  <br/> |14  <br/> |42  <br/> |50  <br/> |8  <br/> |
+|Caixa de edição de endereço de email  <br/> |76  <br/> |40  <br/> |89  <br/> |3,6  <br/> |
+|Caixa de seleção  <br/> |14  <br/> |64  <br/> |90  <br/> |3,6  <br/> |
    
-Esta tabela próxima sugere valores apropriados para o tipo do controle, sua propriedade **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) e bitmask dos sinalizadores, sua propriedade **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
+Esta tabela seguinte sugere os valores adequados para o tipo de controle, sua propriedade **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) e bitmask de sinalizadores, sua propriedade **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
   
 |**Control**|**Tipo**|**Flags**|
 |:-----|:-----|:-----|
-|Rótulo de nome de exibição  <br/> |DTCT_LABEL  <br/> |0  <br/> |
-|Caixa de edição de nome de exibição  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
-|Etiqueta de endereço de email  <br/> |DTCT_LABEL  <br/> |0  <br/> |
+|Rótulo do nome para exibição  <br/> |DTCT_LABEL  <br/> |,0  <br/> |
+|Caixa de edição do nome para exibição  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|Rótulo de endereço de email  <br/> |DTCT_LABEL  <br/> |,0  <br/> |
 |Caixa de edição de endereço de email  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
 |Caixa de seleção  <br/> |DTCT_CHECKBOX  <br/> |DT_EDITABLE  <br/> |
    
-A tabela final lista todos os controles com o conteúdo da sua estrutura de controle associado. Observe que o valor para cada um dos controles label aparece na memória diretamente seguindo a estrutura.
+A tabela final lista cada controle com o conteúdo de sua estrutura de controle associada. Observe que o valor de cada um dos controles Label aparece na memória diretamente após a estrutura.
   
 |**Control**|**Estrutura**|
 |:-----|:-----|
-|Rótulo de nome de exibição  <br/> |{0, sizeof(DTBLLABEL)} "Nome de exibição:"  <br/> |
-|Caixa de edição de nome de exibição  <br/> |{sizeof(DTBLEDIT), 0, 80, PR_DISPLAY_NAME}  <br/> |
-|Etiqueta de endereço de email  <br/> |{0, sizeof(DTBLLABEL)} "Endereço de email:"  <br/> |
-|Caixa de edição de endereço de email  <br/> |{sizeof(DTBLEDIT), 0, 80, PR_EMAIL_ADDRESS}  <br/> |
+|Rótulo do nome para exibição  <br/> |{sizeof (DTBLLABEL), 0} "Nome de exibição:"  <br/> |
+|Caixa de edição do nome para exibição  <br/> |{sizeof (DTBLEDIT), 0, 80, PR_DISPLAY_NAME}  <br/> |
+|Rótulo de endereço de email  <br/> |{sizeof (DTBLLABEL), 0} "Endereço de email:"  <br/> |
+|Caixa de edição de endereço de email  <br/> |{sizeof (DTBLEDIT), 0, 80, PR_EMAIL_ADDRESS}  <br/> |
 |Caixa de seleção  <br/> |PR_SEND_RICH_INFO  <br/> |
    
 > [!NOTE]
-> Os botões **Okey**, **Cancelar**e **Ajuda** não são incluídos na tabela de exibição. A interface do usuário pode adicionar contexto para uma caixa de diálogo adicionando controles não esteja na tabela de exibição. 
+> Os botões **OK**, **Cancelar**e **ajuda** não estão incluídos na tabela de exibição. A interface do usuário pode adicionar contexto a uma caixa de diálogo adicionando controles que não estão na tabela de exibição. 
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Implementação da tabela de exibição](display-table-implementation.md)
+[Exibir a implementação da tabela](display-table-implementation.md)
 

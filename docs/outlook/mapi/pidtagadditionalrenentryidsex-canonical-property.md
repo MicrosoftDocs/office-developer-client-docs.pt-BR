@@ -13,11 +13,11 @@ api_type:
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 57ab68d4c53693c769a4aadf8737f57ef5e73fcd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335200"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Propriedade canônica PidTagAdditionalRenEntryIdsEx
 
@@ -25,7 +25,7 @@ ms.locfileid: "25390412"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os IDs de entradas de pasta especial para um objeto de repositório. Cada entrada nessa propriedade de valores múltiplos pode ser mapeada para um ou mais identificações de entrada, ou seja, há uma relação um-para-muitos entre uma entrada e suas identificações de entrada associada.
+Contém IDs especiais de entrada de pasta para um objeto Store. Cada entrada nessa propriedade de vários valores pode ser mapeada para uma ou mais IDs de entrada, ou seja, há uma relação um-para-muitos entre uma entrada e suas IDs de entrada associadas.
   
 |||
 |:-----|:-----|
@@ -36,78 +36,78 @@ Contém os IDs de entradas de pasta especial para um objeto de repositório. Cad
    
 ## <a name="remarks"></a>Comentários
 
-Se essa propriedade for usada, ele contém uma matriz de blocos que especifica a entrada de IDs para as pastas. Os blocos de seguem o formato especificado pelo quatro tabelas a seguir.
+Se essa propriedade for usada, ela conterá uma matriz de blocos que especifica as IDs de entrada para as pastas. Os blocos seguem o formato especificado pelas quatro tabelas a seguir.
   
-**Bloco de PersistData**
+**Bloco PersistData**
 
-|**Name**|**Type**|**Size**|**Descrição**|
+|**Nome**|**Type**|**Tamanho**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|**PersistID** <br/> |WORD  <br/> |2  <br/> |Digite o valor do identificador para essa entrada **PersistData** . Consulte a tabela "PersistBlockType valores" na lista de valores válidos.  <br/> |
-|**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Tamanho, em bytes, do campo **DataElements** .  <br/> |
-|**DataElements** <br/> |matriz de blocos de **PersistElement**  <br/> |variável  <br/> |Indica quantas entradas **PersistElement** existem para o repositório. Consulte a tabela "PersistElement Block" para o formato desta estrutura.  <br/> |
+|**PersistId** <br/> |WORD  <br/> |duas  <br/> |O valor do identificador de tipo para esta entrada **PersistData** . Consulte a tabela "valores de PersistBlockType" da lista de valores válidos.  <br/> |
+|**DataElementsSize** <br/> |WORD  <br/> |duas  <br/> |Tamanho, em bytes, do campo **** dataelements.  <br/> |
+|**DataElements** <br/> |matriz de **** bloqueios persistentes  <br/> |variável  <br/> |Indica quantas **** entradas persistentes existem para o repositório. Consulte a tabela "persistir bloquear" para o formato desta estrutura.  <br/> |
    
 **Valores de PersistBlockType**
 
-|**Name**|**Valor**|**Descrição**|
+|**Nome**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|
-|PERSIST_SENTINEL  <br/> |0x0000  <br/> |Indica que não há mais blocos **PersistData** serão processados.  <br/> |
-|RSF_PID_RSS_SUBSCRIPTION  <br/> |0x8001  <br/> |Indica que este bloco contém dados para a pasta de assinaturas RSS.  <br/> |
-|RSF_PID_SEND_AND_TRACK  <br/> |0x8002  <br/> |Indica que este bloco contém dados para a pasta de processamento de email controlado.  <br/> |
-|RSF_PID_TODO_SEARCH  <br/> |0x8004  <br/> |Indica que este bloco contém dados da pasta de pesquisa de tarefas pendentes.  <br/> |
-|RSF_PID_CONV_ACTIONS  <br/> |0x8006  <br/> |Indica que este bloco contém dados para a pasta de configurações de ação de conversa.  <br/> |
+|PERSIST_SENTINEL  <br/> |0x0000  <br/> |Indica que nenhum bloco de **PersistData** será processado.  <br/> |
+|RSF_PID_RSS_SUBSCRIPTION  <br/> |0x8001  <br/> |Indica que esse bloco contém dados para a pasta de assinaturas RSS.  <br/> |
+|RSF_PID_SEND_AND_TRACK  <br/> |0x8002  <br/> |Indica que esse bloco contém dados para a pasta de processamento de emails rastreados.  <br/> |
+|RSF_PID_TODO_SEARCH  <br/> |0x8004  <br/> |Indica que esse bloco contém dados para a pasta de pesquisa de tarefas pendentes.  <br/> |
+|RSF_PID_CONV_ACTIONS  <br/> |0x8006  <br/> |Indica que esse bloco contém dados para a pasta de configurações de ação de conversa.  <br/> |
 |RSF_PID_COMBINED_ACTIONS  <br/> |0x8007  <br/> |Esse valor é reservado.  <br/> |
-|RSF_PID_SUGGESTED_CONTACTS  <br/> |0x8008  <br/> |Indica que este bloco contém dados para a pasta Contatos sugeridos.  <br/> |
-|RSF_PID_CONTACT_SEARCH  <br/> |0x8009  <br/> |Indica que este bloco contém dados da pasta de pesquisa de contatos.  <br/> Usado somente pelo Outlook.  <br/> |
-|RSF_PID_BUDDYLIST_PDLS  <br/> |0x800A  <br/> |Indica que este bloco contém dados para a pasta de listas de contatos de mensagens instantâneas (IM). A pasta referenciada contém listas de distribuição pessoal (PDLs) que representam cada grupo dentro da lista de contatos de mensagens Instantâneas.  <br/> Usado pelo Outlook e Exchange.  <br/> |
-|RSF_PID_BUDDYLIST_CONTACTS  <br/> |0x800B  <br/> |Indica que este bloco contém dados para a pasta de contatos de mensagens Instantâneas. A pasta referenciada contém os contatos individuais referenciados pelos grupos da lista de contatos de mensagens Instantâneas.  <br/> Usado pelo Outlook e Exchange.  <br/> |
+|RSF_PID_SUGGESTED_CONTACTS  <br/> |0x8008  <br/> |Indica que esse bloco contém dados para a pasta de contatos sugerida.  <br/> |
+|RSF_PID_CONTACT_SEARCH  <br/> |0x8009  <br/> |Indica que esse bloco contém dados para a pasta de pesquisa contatos.  <br/> Usado apenas pelo Outlook.  <br/> |
+|RSF_PID_BUDDYLIST_PDLS  <br/> |0x800A  <br/> |Indica que esse bloco contém dados para a pasta de listas de contatos de mensagens instantâneas (IM). A pasta de referência contém listas de distribuição pessoais (PDLs) que representam cada grupo da lista de contatos de mensagens INSTANTÂNEAs.  <br/> Usado pelo Outlook e pelo Exchange.  <br/> |
+|RSF_PID_BUDDYLIST_CONTACTS  <br/> |0x800B  <br/> |Indica que esse bloco contém dados para a pasta de contatos de mensagens INSTANTÂNEAs. A pasta de referência contém os contatos individuais referenciados pelos grupos de lista de contatos de mensagens INSTANTÂNEAs.  <br/> Usado pelo Outlook e pelo Exchange.  <br/> |
    
-Se o valor de **PersistBlockType** não for uma daquelas definidas aqui, o bloco de **PersistData** será ignorado e o processamento continua até que um PERSIST_SENTINEL **PersistID** é processada ou o fim do fluxo é atingido. 
+Se o valor **PersistBlockType** não for um dos definidos aqui, o bloco **PersistData** será ignorado e o processamento será continuado até que um PERSIST_SENTINEL **PersistId** seja processado ou que o final do Stream seja atingido. 
   
 **PersistElementBlock**
 
-|**Name**|**Type**|**Size**|**Descrição**|
+|**Nome**|**Type**|**Tamanho**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|**ElementID** <br/> |WORD  <br/> |2  <br/> |Especifica o valor do identificador de tipo para este bloco **PersistElement** . Consulte a tabela "PersistElementType valores" para obter uma lista de valores válidos.  <br/> |
-|**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Especifica o tamanho, em bytes, do campo **ElementData** .  <br/> |
-|**ElementData** <br/> |matriz de dados binários  <br/> |variável  <br/> |Contém os dados para este **PersistID** + **ElementID** par.  <br/> |
+|**ElementID** <br/> |WORD  <br/> |duas  <br/> |Especifica o valor do identificador de tipo **** para este bloco persistelement. Consulte a tabela "valores de PersistElementType" para obter uma lista de valores válidos.  <br/> |
+|**ElementDataSize** <br/> |WORD  <br/> |duas  <br/> |Especifica o tamanho, em bytes, do campo **ElementData** .  <br/> |
+|**ElementData** <br/> |matriz de dados binários  <br/> |variável  <br/> |Contém os dados deste par **** + **** de ElementID persistenteid.  <br/> |
    
 **Valores de PersistElementType**
 
-|**Name**|**Valor**|**Valor da ElementDataSize**|**Descrição**|
+|**Nome**|**Valor**|**Valor de ElementDataSize**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indica que o campo de **ElementData** deste bloco contém um valor de cabeçalho de DWORD. Como esse valor é interpretado depende do tipo de **PersistID** do bloco.  <br/> Para todos os tipos de **PersistID** especificados no [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), esse valor é zero.  <br/> |
-|RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variável  <br/> |Indica que este bloco contém a **EntryID** da pasta especificada pelo **PersistID**.  <br/> |
-|ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Indica que não há mais blocos **PersistElement** serão processados.  <br/> |
+|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indica que o campo **ElementData** do bloco contém um valor de cabeçalho DWORD. Como esse valor é interpretado depende do tipo **** de PersistId do bloco.  <br/> Para todos **** os tipos PersistId especificados em [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), esse valor é zero.  <br/> |
+|RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variável  <br/> |Indica que esse bloco contém a **EntryID** da pasta especificada por **PersistId**.  <br/> |
+|ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Indica que nenhum bloco **** de persistênciaelement será processado.  <br/> |
    
-Se o valor de **PersistElementType** não for uma daquelas definidas aqui, o bloco de **PersistElement** será ignorado e o processamento continua até que um ELEMENT_SENTINEL **ElementID** é processada ou o fim do fluxo é atingido. 
+Se o valor **PersistElementType** não for um dos definidos aqui, o bloco **persistelement** será ignorado e o processamento será continuado até que um ELEMENT_SENTINEL **ElementID** seja processado ou o final do Stream seja atingido. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
+> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações para a criação e a localização de pastas especiais em uma caixa de correio.
+> Especifica as propriedades e operações para criar e localizar as pastas especiais em uma caixa de correio.
     
 [[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifica e marca mensagens de email que foram projetadas para fazer com que os destinatários a divulgação de informações confidenciais (por exemplo, senhas e outras informações pessoais) para uma fonte não confiável.
+> Identifica e marca as mensagens de email que são projetadas para enganar os destinatários para divulgar informações confidenciais (como senhas e outras informações pessoais) para uma fonte não confiável.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
@@ -117,7 +117,7 @@ Mapidefs.h
 
 [Visão geral da propriedade MAPI](mapi-property-overview.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

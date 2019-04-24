@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ceb9181a3d8669f8cf9a62eff12ad07148b42e48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334675"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriedade canônica PidTagConversionEits
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577608"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os tipos de informação codificada (EITs) que são aplicados a uma mensagem em trânsito para descrever as conversões.
+Contém os tipos de informações codificados (EITs) que são aplicados a uma mensagem em trânsito para descrever conversões.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém os tipos de informação codificada (EITs) que são aplicados a uma mens
    
 ## <a name="remarks"></a>Comentários
 
-Ambientes de x. 400 usam essa propriedade para relatórios de entrega e de entrega.
+Ambientes X. 400 Use essa propriedade para os relatórios de não entrega e entrega.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

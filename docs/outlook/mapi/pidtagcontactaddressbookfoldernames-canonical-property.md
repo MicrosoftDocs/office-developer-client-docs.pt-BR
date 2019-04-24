@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334542"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Propriedade canônica PidTagContactAddressBookFolderNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "22568368"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os nomes das pastas de contatos, onde os usuários de email são mantidos.
+Contém os nomes das pastas de contatos onde os usuários de email são mantidos.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém os nomes das pastas de contatos, onde os usuários de email são mantido
    
 ## <a name="remarks"></a>Comentários
 
-Estas são as propriedades em uma seção de perfil do catálogo de endereços de contatos.
+Estas são as propriedades em uma seção de perfil do catálogo de endereços de contato.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidef.h
+Mapidef. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

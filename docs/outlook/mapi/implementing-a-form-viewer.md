@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: ad0da261b3059ca83f2d547c25a508ec9337aa72
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bbd0792b0e3e3f274797fabd7f5d5eb49cfc73fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332890"
 ---
 # <a name="implementing-a-form-viewer"></a>Implementar um visualizador de formulários
 
@@ -21,36 +21,36 @@ ms.locfileid: "22584741"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Um visualizador de formulário inclui três objetos: um site de mensagem, coletor de eventos e um contexto de modo de exibição de aviso de um modo de exibição. Cada um desses objetos permite que você interaja com um servidor de formulário e seus formulários.
+Um visualizador de formulários inclui três objetos: um site de mensagens, um coletor de aviso de exibição e um contexto de exibição. Cada um desses objetos permite interagir com um servidor de formulários e seus formulários.
   
-Um site de mensagem é um objeto que implementa o [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) interface e os servidores de formulário com tarefas como mover, salvar, ou excluindo mensagens, criando novas mensagens ou lançar novos servidores de formulário de Ajuda. Para obter mais informações sobre o status do seu cliente com relação a vários provedores de serviços, sites de mensagem são usados por formulários. Por exemplo, um formulário pode usar o seu site de mensagem para obter um ponteiro para o armazenamento de mensagens atual, uma mensagem ou uma pasta. 
+Um site de mensagens é um objeto que implementa a interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) e ajuda os servidores de formulário com tarefas como mover, salvar ou excluir mensagens, criar novas mensagens ou iniciar novos servidores de formulários. Os sites de mensagens são usados por formulários para obter informações sobre o status do seu cliente em relação a vários provedores de serviços. Por exemplo, um formulário pode usar seu site de mensagens para obter um ponteiro para o repositório de mensagens atual, uma mensagem ou uma pasta. 
   
-Existem dois tipos de métodos na interface do **IMAPIMessageSite** : 
+Há dois tipos de métodos na interface **IMAPIMessageSite** : 
   
-- Métodos que fornecem informações aos objetos de formulário.
+- Métodos que fornecem informações para objetos de formulário.
     
 - Métodos que manipulam mensagens.
     
-Os métodos que fornecem informações aos objetos de formulário são simples de implementar. Em todos os casos, exceto [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md), você já deve ter disponíveis as informações necessárias para cada método.
+Os métodos que fornecem informações a objetos de formulário são simples de implementar. Em todos os casos, exceto [IMAPIMessageSite:: GetSiteStatus](imapimessagesite-getsitestatus.md), você já deve ter disponível as informações exigidas por cada método.
   
-Os métodos de manipulam mensagens devem agir como se eles tivessem sido disparados por meio da interface de usuário normal. Por exemplo, se um objeto form chama seu método [IMAPIMessageSite::NewMessage](imapimessagesite-newmessage.md) , se comportam como se o usuário teve escolhida redigir uma nova mensagem personalizada com uma interface do usuário regular. Os comandos que geralmente geram esse comportamento são **redação**, **Abrir**, **responder**, **responder a todos os destinatários**e **Encaminhar**. 
+Os métodos que manipulam mensagens devem atuar como se tivessem sido acionados por meio da interface do usuário normal. Por exemplo, se um objeto Form chamar o método [IMAPIMessageSite:: NewMessage](imapimessagesite-newmessage.md) , se comportará como se o usuário tivesse optado por compor uma nova mensagem personalizada com sua interface do usuário normal. Comandos que normalmente geram esse comportamento **** são compor, **abrir**, **responder**, **responder a todos os destinatários**e encaminhar. **** 
   
-Um contexto de modo de exibição é um objeto que implementa o [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) interface e fornece os servidores de formulário com um contexto da mensagem atual, permitindo que os servidores alternar facilmente para a mensagem anterior ou seguinte na pasta. Um formulário usa um contexto de modo de exibição para compartilhamento de informações. Com um objeto de contexto do modo de exibição, um formulário pode: 
+Um contexto de exibição é um objeto que implementa a interface [IMAPIViewContext: IUnknown](imapiviewcontextiunknown.md) e fornece servidores de formulário com um contexto para a mensagem atual, permitindo que os servidores alternem facilmente para a mensagem seguinte ou anterior na pasta. Um formulário usa um contexto de exibição para compartilhar informações. Com um objeto de contexto de exibição, um formulário pode: 
   
-- Registre seu cliente para notificações.
+- Registre-se em seu cliente para notificações.
     
-- Ative a mensagem anterior ou seguinte na pasta.
+- Ativar a mensagem seguinte ou anterior na pasta.
     
-- Obtenha informações sobre a impressão.
+- Obter informações de impressão.
     
-- Obter o status do seu cliente.
+- Obter o status do cliente.
     
-- Obtenha um fluxo que pode ser usado para salvar a versão de texto de uma mensagem.
+- Obtenha um Stream que pode ser usado para salvar a versão de texto de uma mensagem.
     
-Semelhante aos métodos no [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) interface, os métodos do **IMAPIViewContext** correlacionam com ações do usuário e recursos do cliente que se relacionam com o contexto de modo de exibição. Por exemplo, um contexto de modo de exibição está envolvido com ativando a mensagem anterior ou seguinte, o conteúdo da pasta de classificação e filtragem de conteúdo da pasta. 
+Semelhante aos métodos da interface [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) , os métodos no **IMAPIViewContext** se correlacionam com ações do usuário e recursos do cliente relacionados ao contexto do modo de exibição. Por exemplo, um contexto de exibição está envolvido na ativação da mensagem seguinte ou anterior, classificando o conteúdo da pasta e filtrando o conteúdo da pasta. 
   
-Não é importante que você fornecer para usuários de mecanismo para ativar esses recursos, só é importante que a semântica desses recursos mapa bem para os métodos na interface do **IMAPIViewContext** . 
+Não é importante qual mecanismo você fornece para que os usuários ativem esses recursos, é importante que a semântica desses recursos seja mapeada bem para os métodos na interface **IMAPIViewContext** . 
   
-Um modo de exibição de aviso coletor de eventos é um objeto que implementa o [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) notificações de interface e os identificadores dos servidores de formulário que afetam seus formulários visualizador e ajuda e visualizadores de formulário para que trabalhem juntos. Para obter mais informações, consulte [enviando e recebendo notificações de formulário](sending-and-receiving-form-notifications.md). 
+Um coletor de aviso de exibição é um objeto que implementa a interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) e manipula notificações de servidores de formulário que afetam o visualizador e formulários de ajuda e visualizadores de formulários para trabalhar juntos. Para obter mais informações, consulte [envio e recebimento de notificações de formulário](sending-and-receiving-form-notifications.md). 
   
 

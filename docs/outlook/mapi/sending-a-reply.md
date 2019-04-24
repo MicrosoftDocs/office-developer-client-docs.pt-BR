@@ -8,83 +8,83 @@ api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 4d8c995f5fbca322fca44cdcbb0de224af6b2fbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f47741369b1091c0dd24358e063de8f4675000fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339778"
 ---
 # <a name="sending-a-reply"></a>Enviar uma resposta
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Aplicativos de cliente geralmente oferecem suporte a dois tipos de respostas: um que será enviada somente para o remetente da mensagem original e outro que será enviada para todos os outros destinatários incluídos na lista de destinatários da mensagem original além do remetente. Este segundo tipo de resposta é comumente conhecido como uma resposta de que todas as mensagem.
+Os aplicativos clientes normalmente dão suporte a dois tipos de respostas: um que é enviado somente para o remetente da mensagem original e um que é enviado a todos os outros destinatários incluídos na lista de destinatários da mensagem original, além do remetente. Esse segundo tipo de resposta costuma ser conhecido como uma mensagem de resposta a todos.
   
-Para enviar uma resposta de qualquer tipo, você implementar algumas das mesmas tarefas que você faria quando você envia uma mensagem original. Por exemplo, você pode abre o armazenamento de mensagens padrão e a pasta mensagens de saída, normalmente a caixa de saída e chama o método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de saída da pasta para criar a resposta. Além disso, você pode abrir a pasta que contém a mensagem original, normalmente a caixa de entrada. Para obter informações sobre como abrir pastas diferentes, consulte [abrindo uma pasta de repositório de mensagem](opening-a-message-store-folder.md).
+Para enviar uma resposta de qualquer tipo, implemente algumas das mesmas tarefas que você usaria ao enviar uma mensagem original. Por exemplo, você abre o repositório de mensagens padrão e a pasta de mensagens de saída, normalmente a saída e chama o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) da pasta de saída para criar a resposta. Além disso, abra a pasta que contém a mensagem original, normalmente a caixa de entrada. Para obter informações sobre como abrir pastas diferentes, consulte [abrir uma pasta de armazenamento de mensagens](opening-a-message-store-folder.md).
   
-A principal diferença entre uma resposta de criação e a criação de uma mensagem original é que com uma resposta, a maioria das propriedades sejam com base em ou copiada diretamente a partir de propriedades da mensagem original. Anexos — propriedade de **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) da mensagem — são especificamente excluídas. A lista de destinatários para uma resposta de todas as mensagens é criado a partir lista da mensagem original com o destinatário representado pela propriedade **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) e todos os destinatários de cópia oculta removidos. A propriedade **PR_RECEIVED_BY_SEARCH_KEY** representa o usuário atual. 
+A principal diferença entre a criação de uma resposta e a criação de uma mensagem original é que com uma resposta, a maioria das propriedades é baseada ou copiada diretamente das propriedades da mensagem original. Anexos – a propriedade **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) de uma mensagem — são especificamente excluídas. A lista de destinatários de uma mensagem de resposta a todos é criada a partir da lista da mensagem original com o destinatário representado pela propriedade **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) e todos os destinatários de cópia carbono oculta foram removidos. A propriedade **PR_RECEIVED_BY_SEARCH_KEY** representa o usuário atual. 
   
 ### <a name="to-send-a-reply"></a>Para enviar uma resposta
   
-1. Abra o armazenamento de mensagens padrão. Para obter mais informações, consulte [abrindo o armazenamento de mensagens padrão](opening-the-default-message-store.md).
+1. Abra o repositório de mensagens padrão. Para obter mais informações, consulte [abrindo o repositório de mensagens padrão](opening-the-default-message-store.md).
     
-2. Abra a pasta caixa de saída. Para obter mais informações, consulte [Abrir uma pasta de repositório de mensagem](opening-a-message-store-folder.md).
+2. Abra a pasta de saída. Para obter mais informações, consulte [abrir uma pasta de armazenamento de mensagens](opening-a-message-store-folder.md).
     
-3. Chame o método de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) da caixa de saída para criar a resposta. 
+3. Chame o método [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) da webquery para criar a resposta. 
     
-4. Chame o método de [IMAPIProp::CopyTo](imapiprop-copyto.md) da mensagem original para copiar as seguintes propriedades para a mensagem de resposta: 
+4. Chame o método [IMAPIProp:: CopyTo](imapiprop-copyto.md) da mensagem original para copiar as seguintes propriedades para a mensagem de resposta: 
     
-   - **PR\_corpo** ([PidTagBody](pidtagbody-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), dependendo se ou não suporte a Rich Text Format.
+   - **PR\_Body** ([PidTagBody](pidtagbody-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), dependendo se o formato Rich Text deve ou não ser suportado.
     
-   - **PR\_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), se a resposta serão encaminhadas para a lista de destinatários inteira.
+   - **PR\_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), se a resposta for para toda a lista de destinatários.
     
    - **PR\_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
     
-5. Não incluem as seguintes propriedades na chamada a **IMAPIProp::CopyTo**:
+5. Não inclua as seguintes propriedades em sua chamada para **IMAPIProp:: CopyTo**:
     
     |||
     |:-----|:-----|
-    |**PR\_cliente\_enviar\_tempo** <br/> |**PR\_mensagem\_entrega\_tempo** <br/> |
-    |**PR\_mensagem\_baixar\_tempo** <br/> |**PR\_mensagem\_sinalizadores** <br/> |
-    |**PR\_ORIGINADOR\_entrega\_ REPORT\REQUESTED** <br/> |**PR\_Recebidos\_REPRESENTANDO** propriedades  <br/> |
-    |**PR\_ler\_recebimento\_ENTRYID** <br/> |**PR\_ler\_recebimento\_solicitado** <br/> |
-    |**PR\_RECEIVED\_BY** propriedades  <br/> |**PR\_resposta\_destinatário** propriedades  <br/> |
-    |**PR\_relatório\_ENTRYID** <br/> |**PR\_remetente** propriedades  <br/> |
-    |**PR\_SENT\_REPRESENTANDO** propriedades  <br/> |**PR\_SENTMAIL\_ENTRYID** <br/> |
-    |**PR\_assunto\_PREFIX** <br/> | <br/> |
+    |**PR\_tempo\_de\_envio do cliente** <br/> |**PR\_tempo\_de\_entrega de mensagem** <br/> |
+    |**Tempo\_de\_download\_de mensagem PR** <br/> |**Sinalizadores\_de\_mensagem PR** <br/> |
+    |**PR\_REPORT\REQUESTED\_de\_ entrega de originador** <br/> |**PR\_recebidos\_representando** Propriedades  <br/> |
+    |**PR\_EntryID\_de confirmação de leitura\_** <br/> |**PR\_confirmação\_\_de leitura solicitada** <br/> |
+    |**PR\_recebidas\_por** Propriedades  <br/> |Propriedades do **destinatário da resposta PR\_\_**  <br/> |
+    |**PR\_de\_relatório de entrada** <br/> |**PR\_** Propriedades do remetente  <br/> |
+    |**PR\_propriedades\_de representação** remetidas  <br/> |**PR\_SENTMAIL\_EntryID** <br/> |
+    |**PR\_prefixo\_de assunto** <br/> | <br/> |
    
-6. Adicionar texto do separador a que julgar propriedade corpo da mensagem suportado — **PR_BODY**, L **PR_HTM**ou **PR_RTF_COMPRESSED**.
+6. Adicione texto separador a qualquer Propriedade do corpo da mensagem suportada — **PR_BODY**, **PR_HTM**L ou **PR_RTF_COMPRESSED**.
     
-7. Chame [ScCreateConversationIndex](sccreateconversationindex.md), passando o valor da propriedade de **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) da mensagem original.
+7. Chame [ScCreateConversationIndex](sccreateconversationindex.md), passando o valor da propriedade **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) da mensagem original.
     
-8. Defina um prefixo para a resposta. Se você estiver usando o padrão "RE:", concatenar esses caracteres até o início do **PR_NORMALIZED_SUBJECT** e defina **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) para essa nova cadeia de caracteres. Não defina **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)). Se você estiver usando um prefixo fora do padrão, como uma cadeia de caracteres com mais de três caracteres, armazene-a em **PR_SUBJECT_PREFIX**. 
+8. Definir um prefixo para a resposta. Se você estiver usando o padrão "RE:", concatene esses caracteres no início do **PR_NORMALIZED_SUBJECT** e defina **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) para essa nova cadeia de caracteres. Não defina **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)). Se você estiver usando um prefixo não padrão, como uma cadeia de caracteres com mais de três caracteres, armazene-o no **PR_SUBJECT_PREFIX**. 
     
-9. Defina as propriedades **PR_SENT_REPRESENTING** com os valores correspondentes nas propriedades do **PR_RCVD_REPRESENTING** . 
+9. Defina as propriedades de **PR_SENT_REPRESENTING** para os valores correspondentes nas propriedades de **PR_RCVD_REPRESENTING** . 
     
-10. Definir cada uma das entradas no **PR\_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) e **PR_REPLY\_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) com o nome de exibição e de identificador de entrada de um destinatário principal — um destinatário cujo tipo é MAPI_TO. Mantenha essas propriedades sincronizadas. Ou seja, **PR_REPLY_RECIPIENT\_ENTRADAS** **PR_REPLY_RECIPIENT_NAMES** deve conter o mesmo número de entradas e uma entrada em uma posição específica em uma das propriedades deve corresponder a uma entrada na mesma posição na outra propriedade. 
+10. Defina cada uma das entradas em **PR\_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) e **PR_REPLY\_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) para o identificador de entrada e o nome de exibição de um destinatário principal — um destinatário cujo tipo é MAPI_TO. Mantenha essas propriedades sincronizadas. Ou seja, **as\_entradas PR_REPLY_RECIPIENT** e **PR_REPLY_RECIPIENT_NAMES** devem conter o mesmo número de entradas, e uma entrada em uma posição específica em uma das propriedades deve corresponder a uma entrada na mesma posição no outro Propriedades. 
     
-11. Se a resposta está sendo enviada apenas ao remetente da mensagem original, crie uma lista de destinatários de entrada única com o destinatário representado pela propriedade **PR_SENT_REPRESENTING** da mensagem original. Para obter mais informações sobre como criar uma lista de destinatários, consulte [criar uma lista do destinatário](creating-a-recipient-list.md).
+11. Se a resposta estiver sendo enviada apenas ao remetente da mensagem original, crie uma única lista de destinatários de entrada com o destinatário representado pela propriedade **PR_SENT_REPRESENTING** da mensagem original. Para obter mais informações sobre como criar uma lista de destinatários, consulte [Creating a Recipient List](creating-a-recipient-list.md).
     
-12. Se a resposta é uma resposta a todos, crie uma lista de destinatários, da seguinte maneira:
+12. Se a resposta for uma resposta a todos, crie uma lista de destinatários da seguinte maneira:
     
-    1. Chame o método de [IMessage::GetRecipientTable](imessage-getrecipienttable.md) da mensagem original para acessar sua tabela de destinatário. 
+    1. Chame o método [IMessage::](imessage-getrecipienttable.md) GetRecipientTable da mensagem original para acessar sua tabela de destinatários. 
         
-    2. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas na tabela. Determine se cada linha representa um destinatário primária ou cópia carbono e deve permanecer na lista ou, se ele representa um destinatário de cópia oculta ou o usuário e deve ser removido da lista. 
+    2. Chame [HrQueryAllRows](hrqueryallrows.md) para recuperar todas as linhas na tabela. Determine se cada linha representa um destinatário principal ou de cópia carbono e deve permanecer na lista ou se ele representa um destinatário de cópia oculta ou o usuário e deve ser removido da lista. 
         
-    3. Diferencie entre tipos de destinatário examinando a coluna **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Esta coluna será definida para MAPI_TO para destinatários principais, MAPI_CC para destinatários de cópia carbono e MAPI_BCC para os destinatários de cópia oculta. 
+    3. Para diferenciar os tipos de destinatários, examine a coluna **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Esta coluna será definida como MAPI_TO para destinatários principais, MAPI_CC para destinatários de cópia carbono e MAPI_BCC para destinatários de cópia oculta. 
         
     4. Compare a coluna **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) com a propriedade **PR_RECEIVED_BY_SEARCH_KEY** da mensagem original para determinar se a linha representa o usuário. 
         
-    5. Remova linhas indesejadas da lista de destinatários chamando [MAPIFreeBuffer](mapifreebuffer.md) para liberar a memória associada as entradas correspondentes na estrutura do destinatário da tabela [SRowSet](srowset.md) . Defina todos os valores da matriz de valores de propriedade como zero, todos os membros **cValues** como zero e todos os membros de **lpProps** em cada estrutura de [SRow](srow.md) no **SRowSet** como NULL. 
+    5. Remova as linhas indesejadas da lista de destinatários chamando [MAPIFreeBuffer](mapifreebuffer.md) para liberar a memória associada às entradas correspondentes na estrutura [SRowSet](srowset.md) da tabela de destinatários. Defina todos os valores na matriz de valor da propriedade como zero, todos os membros **cValues** como zero e todos os membros **lpProps** em cada estrutura [SRow](srow.md) no **SRowSet** como nulo. 
         
-    6. Adicionar Remetente à lista de destinatários, conforme representado pela mensagem original **PR\_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) e **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) Propriedades. Verifique se o remetente não é duplicado na lista.
+    6. Adicionar o remetente à lista de destinatários, conforme representado pela **SENT_REPRESENTING_NAME de\_RP** da mensagem original ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) e **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) Propriedades. Verifique se o remetente não está duplicado na lista.
         
-    7. Chame o método [IMessage::ModifyRecipients](imessage-modifyrecipients.md) da mensagem reply, definindo o parâmetro _ulFlags_ como zero, para criar uma nova lista de destinatários para a resposta ou encaminhadas a mensagem com base na lista a partir da mensagem original. 
+    7. Chame o método [IMessage:: ModifyRecipients](imessage-modifyrecipients.md) da mensagem de resposta, definindo o parâmetro _parâmetroulflags_ como zero, para criar uma nova lista de destinatários para a resposta ou mensagem encaminhada com base na lista da mensagem original. 
     
-13. Chame [IMAPIProp::SaveChanges](imapiprop-savechanges.md) método a resposta para salvar a mensagem ou [IMessage::SubmitMessage](imessage-submitmessage.md) para salvar e enviá-la. 
+13. Chame o método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) da resposta para salvar a mensagem ou [IMessage:: SubmitMessage](imessage-submitmessage.md) para salvá-la e enviá-la. 
     
 > [!NOTE]
-> Antes de chamar **IMessage::ModifyRecipients** para armazenar as alterações na lista de destinatários, você pode permitir que os usuários façam modificações por meio do formulário de mensagem. Os usuários podem adicionar à lista ou remover membros específicos. Permitindo que os usuários façam alterações em uma lista de destinatários é um recurso de cliente opcional. 
+> Antes de chamar **IMessage:: ModifyRecipients** para armazenar as alterações na lista de destinatários, você pode permitir que os usuários façam modificações através do formulário de mensagem. Os usuários podem adicionar à lista ou remover membros específicos. Permitir que os usuários façam alterações em uma lista de destinatários é um recurso de cliente opcional. 
   
 

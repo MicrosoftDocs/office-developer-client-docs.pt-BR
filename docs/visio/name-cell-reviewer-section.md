@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: Contém o nome do revisor de um documento.
-ms.openlocfilehash: 6bc1629c51fc4dcb3fe7e2d6576e8f1f096144ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02f353ab8f2d39cc075211bb13157b93081e9d8f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19772409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335165"
 ---
 # <a name="name-cell-reviewer-section"></a>Célula Name (Seção Reviewer)
 
@@ -22,13 +22,13 @@ Contém o nome do revisor de um documento.
   
 ## <a name="remarks"></a>Comentários
 
- O valor padrão é o nome encontrado na caixa **nome** do usuário na guia **Geral** da caixa de diálogo **Opções do Visio** (clique na guia **arquivo** , clique em **Opções**e, em seguida, clique em **Geral**). 
+ Este valor padrão é o nome encontrado na caixa **nome de usuário** na guia **geral** da caixa de diálogo **Opções do Visio** (clique na guia **arquivo** , em **Opções**e em **geral**). 
   
-Para obter uma referência à célula Name pelo nome a partir de outra fórmula ou de um programa usando a propriedade **CellsU** , utilize: 
+Para fazer referência à célula Name pelo nome, a partir de outra fórmula ou programa que usa a propriedade **Cells** , utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Reviewer.Name [ *i* ] onde *i* = < 1 >, 2, 3...  <br/> |
+| Nome da célula:  <br/> | Reviewer.Name [ *i* ] onde *i* = <1>, 2, 3...  <br/> |
    
 Para fazer referência à célula Name pelo índice, a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   

@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 1ce379ac70f140aae24880b118ca7293f2e72aa4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2a2ca1fba5dceb45b41c2f25a96e163f02c41440
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339407"
 ---
 # <a name="dtctl"></a>DTCTL
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve um controle que será usado em uma caixa de diálogo construída a partir de uma tabela de exibição. 
+Descreve um controle que será usado em uma caixa de diálogo criada a partir de uma tabela de exibição. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct
@@ -62,7 +62,7 @@ typedef struct
 
 **ulCtlType**
   
-> Tipo de controle que está incluído no membro **ctl** e corresponde à propriedade de **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) do controle. Os valores possíveis são:
+> Tipo de controle incluído no membro **CTL** e corresponde à propriedade **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) do controle. Os valores possíveis são os seguintes:
     
 DTCT_LABEL 
   
@@ -74,7 +74,7 @@ DTCT_EDIT
     
 DTCT_LBX 
   
-> Controle de caixa de listagem.
+> Controle caixa de listagem.
     
 DTCT_COMBOBOX 
   
@@ -86,7 +86,7 @@ DTCT_DDLBX
     
 DTCT_CHECKBOX 
   
-> Controle de caixa de seleção.
+> Controle caixa de seleção.
     
 DTCT_GROUPBOX 
   
@@ -98,7 +98,7 @@ DTCT_BUTTON
     
 DTCT_PAGE 
   
-> Controle de páginas com guias.
+> Controle de página com guias.
     
 DTCT_RADIOBUTTON 
   
@@ -106,19 +106,19 @@ DTCT_RADIOBUTTON
     
 DTCT_MVLISTBOX 
   
-> Controle de lista de valores múltiplos.
+> Controle de lista de vários valores.
     
 DTCT_MVDDLBX 
   
-> Controle de lista de lista suspensa de valores múltiplos.
+> Controle de lista suspensa de vários valores.
     
 **ulCtlFlags**
   
-> Bitmask dos sinalizadores que descreve os recursos do controle e corresponde à propriedade de **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) do controle. Esses sinalizadores podem ser definidas para caixas de seleção, caixas de combinação, caixas de listagem e apenas controles de edição. Os valores possíveis são:
+> Bitmask de sinalizadores que descreve os recursos do controle e corresponde à propriedade **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) do controle. Esses sinalizadores podem ser definidos para caixas de seleção, caixas de combinação, caixas de listagem e controles de edição. Os valores possíveis são os seguintes:
     
 DT_ACCEPT_DBCS 
   
-> O ANSI DBCS formato ou será aceito. Esse sinalizador é válida para apenas controles de edição.
+> O formato ANSI ou DBCS é aceito. Este sinalizador é válido apenas para controles de edição.
     
 DT_EDITABLE 
   
@@ -126,31 +126,31 @@ DT_EDITABLE
     
 DT_MULTILINE 
   
-> O controle pode conter várias linhas de texto. Esse sinalizador é válida para apenas controles de edição.
+> O controle pode conter várias linhas de texto. Este sinalizador é válido apenas para controles de edição.
     
 DT_PASSWORD_EDIT 
   
-> O controle contém uma senha; Portanto, o conteúdo do controle não deve ser exibido para o usuário. Esse sinalizador é válida para apenas controles de edição.
+> O controle contém uma senha; Portanto, o conteúdo do controle não deve ser exibido para o usuário. Este sinalizador é válido apenas para controles de edição.
     
 DT_REQUIRED 
   
-> O controle de caixa de diálogo é necessário. Esse sinalizador é válida apenas para os controles de caixa de combinação e de editar.
+> O controle da caixa de diálogo é obrigatório. Este sinalizador é válido somente para controles de caixa de edição e de combinação.
     
 DT_SET_IMMEDIATE 
   
-> Permite a saída imediata de um valor após uma alteração no controle. Isso permite que uma relação de dependência a ser estabelecida entre dois controles. 
+> Permite a saída imediata de um valor após uma alteração no controle. Isso permite que uma relação de dependência seja estabelecida entre dois controles. 
     
 **lpbNotif**
   
-> Ponteiro para uma estrutura que consiste em uma estrutura [GUID](guid.md) , para representar o provedor de serviço e um identificador para o controle. Os membros **lpbNotif** e **cbNotif** correspondem à propriedade de **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) do controle e são usados para notificar a interface do usuário quando o controle tem a ser atualizado.
+> Ponteiro para uma estrutura que consiste em uma estrutura [GUID](guid.md) , para representar o provedor de serviço e um identificador para o controle. Os membros **lpbNotif** e **cbNotif** correspondem à propriedade do **PR_CONTROL_ID** do controle ([PidTagControlId](pidtagcontrolid-canonical-property.md)) e são usados para notificar a interface do usuário quando o controle precisa ser atualizado.
     
 **cbNotif**
   
-> Contagem de bytes na estrutura apontado pelo membro **lpbNotif** . 
+> Contagem de bytes na estrutura apontada pelo membro **lpbNotif** . 
     
 **lpszFilter**
   
-> Ponteiro para uma cadeia de caracteres que descreve quais caracteres podem ser inseridos em um controle de caixa de combinação ou editar. Para outros tipos de controles, o membro **lpszFilter** pode ser NULL. Para controles de caixa de combinação e de editar, ele deve ser uma expressão regular que se aplica a um único caractere por vez. O mesmo filtro é aplicado a todos os caracteres no controle. O formato da cadeia de caracteres de filtro é da seguinte maneira: 
+> Ponteiro para uma cadeia de caracteres que descreve quais caracteres podem ser inseridos em um controle de caixa de combinação ou edição. Para outros tipos de controles, o membro **lpszFilter** pode ser nulo. Para controles de caixa de edição e de combinação, deve ser uma expressão regular que se aplica a um único caractere por vez. O mesmo filtro é aplicado a todos os caracteres no controle. O formato da cadeia de caracteres de filtro é o seguinte: 
     
 |**Caractere**|**Descrição**|
 |:-----|:-----|
@@ -158,29 +158,29 @@ DT_SET_IMMEDIATE
 | `[ ]` <br/> |Define um conjunto de caracteres (por exemplo, `"[0123456789]"`.)  <br/> |
 | `-` <br/> |Indica um intervalo de caracteres (por exemplo, `"[a-z]"`).  <br/> |
 | `~` <br/> |Indica que esses caracteres não são permitidos (por exemplo, `"[~0-9]")`. <br/>|   
-| `\` <br/> |Usado para quote qualquer um dos símbolos anteriores (por exemplo, `"[\-\\\[\]]"` significa-, \, [, e] caracteres são permitidos).  <br/> |
+| `\` <br/> |Usado para citar qualquer um dos símbolos anteriores (por exemplo, `"[\-\\\[\]]"` os caracteres significa \, -, [e] são permitidos).  <br/> |
    
 **ulItemID**
   
-> Valor que identifica o controle do recurso de caixa de diálogo. Para controles de páginas com guias do tipo DTCT_PAGE o **ulItemID** membro opcionalmente é usado para carregar o nome do componente para a página de um recurso de cadeia de caracteres. Posição e informações sobre as etiquetas serão lidas a partir do recurso de caixa de diálogo. 
+> O valor que identifica o controle no recurso da caixa de diálogo. Para controles de páginas com guias do tipo DTCT_PAGE o membro **ulItemID** é opcionalmente usado para carregar o nome do componente da página de um recurso de cadeia de caracteres. As informações de posição e rótulo são lidas no recurso caixa de diálogo. 
     
 **CTL**
   
-> Uma estrutura que contém os dados para o controle e corresponde à propriedade de **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) do controle. Cada tipo de controle tem uma estrutura diferente.
+> Uma estrutura que armazena os dados do controle e corresponde à propriedade **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) do controle. Cada tipo de controle tem uma estrutura diferente.
     
 ## <a name="remarks"></a>Comentários
 
-A estrutura **DTCTL** descreve um controle de qualquer tipo. A maioria dos seus membros é usada para definir as propriedades do controle. 
+A estrutura **DTCTL** descreve um controle de qualquer tipo. A maioria dos seus membros é usada para definir propriedades no controle. 
   
-O membro de **ctl** é uma união de estruturas que se relacionam com um determinado tipo de controle. Se a estrutura **DTCTL** é descrevendo um controle de edição, por exemplo, o membro **ctl** irá apontar para uma estrutura [DTBLEDIT](dtbledit.md) . Essa estrutura corresponde à propriedade **PR_CONTROL_STRUCTURE** do controle. A união tem como seu primeiro membro em uma variável do tipo LPVOID para permitir a inicialização do tempo de compilação da estrutura **DTCTL** . 
+O membro **CTL** é uma União de estruturas que se relacionam a um tipo específico de controle. Se a estrutura **DTCTL** estiver descrevendo um controle de edição, por exemplo, o membro **CTL** apontará para uma estrutura [DTBLEDIT](dtbledit.md) . Essa estrutura corresponde à propriedade **PR_CONTROL_STRUCTURE** do controle. A União tem como seu primeiro membro uma variável do tipo LPVOID para permitir a inicialização de tempo de compilação da estrutura **DTCTL** . 
   
-Embora a função de [BuildDisplayTable](builddisplaytable.md) usa a estrutura **DTCTL** para construir a tabela de exibição de recursos de controle, a estrutura **DTCTL** nunca será exibida na tabela a exibição em si. Essa estrutura apenas fornece informações para **BuildDisplayTable**.
+Embora a função [BuildDisplayTable](builddisplaytable.md) use a estrutura **DTCTL** para criar a tabela de exibição a partir de recursos de controle, a estrutura **DTCTL** nunca aparece na própria tabela de exibição. Essa estrutura apenas fornece informações para o **BuildDisplayTable**.
   
-No membro **ulCtlFlags** , quatro sinalizadores DT_ACCEPT_DBCS, DT_EDITABLE, afetam DT_MULTILINE_and DT_PASSWORD_EDIT somente controles de edição. Duas outras pessoas DT_REQUIRED e DT_SET_IMMEDIATE afetam qualquer controle editável. 
+No membro **ulCtlFlags** , quatro sinalizadores DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT afetam somente os controles de edição. Dois outros DT_REQUIRED e DT_SET_IMMEDIATE afetam qualquer controle editável. 
   
-Os controles disponíveis para uma caixa de diálogo são rótulo, caixa de texto, caixa de texto de reconhecimento de tinta, lista, lista suspensa, caixa de combinação, caixa de seleção, caixa de grupo, botão, botão de opção e página com guias.
+Os controles disponíveis para uma caixa de diálogo são rótulo, caixa de texto, caixa de texto sensível à tinta, lista, lista suspensa, caixa de combinação, caixa de seleção, caixa de grupo, botão, botão de opção e página com tabulação.
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela exibir](display-table-implementation.md).
+Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

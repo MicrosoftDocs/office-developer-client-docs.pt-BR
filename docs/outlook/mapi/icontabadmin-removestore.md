@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 2ec8a28dc52e2aa1f1fa63410b6bd6c13fb5bd57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4865c1c867dd73514ab22ac4e8da628caf154ee7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339267"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583982"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Remove o contato endereço CAB (catálogo) especificado pela ID de entrada determinada da hierarquia de catálogo de endereços.
+Remove o catálogo de endereços de contatos (CAB) especificado pela ID de entrada fornecida na hierarquia do catálogo de endereços.
   
 ```cpp
 HRESULT RemoveStore(
@@ -38,10 +38,10 @@ LPENTRYID lpEntryID
 
  _cbEntryID_
   
-> [in] A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
+> no A contagem de bytes no identificador de entrada apontado pelo parâmetro _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Um ponteiro para o identificador de entrada do objeto a ser aberto.
+> no Um ponteiro para o identificador de entrada do objeto a ser aberto.
     
 

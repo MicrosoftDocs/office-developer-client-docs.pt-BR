@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5f06ad00-7205-48d8-a9ff-f5c6b5e38c5e
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: c3e766dc494234ed500892cfa2fc8590c347f8e6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335550"
 ---
 # <a name="pidtagjunkpermanentlydelete-canonical-property"></a>Propriedade canônica PidTagJunkPermanentlyDelete
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393800"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Significa, se definido como 1, o que as mensagens identificadas como spam será excluído permanentemente.
+Significa que, se definido como 1, essas mensagens identificadas como spam podem ser excluídas permanentemente.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Significa, se definido como 1, o que as mensagens identificadas como spam será 
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fornece referências a relacionados especificações de protocolo do Exchange Server.
+> Fornece referências às especificações relacionadas do protocolo do Exchange Server.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permite a manipulação das listas de permitir/bloquear e a determinação das mensagens de lixo eletrônico.
+> Permite a manipulação de listas de permissões/bloqueios e a determinação de mensagens de lixo eletrônico.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

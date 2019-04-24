@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
 description: 'Última modificação: 23 de julho de 2011'
 ms.openlocfilehash: 98a5faca00f5877eb10110406875b46a69244d94
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335697"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25397888"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Cancela o envio de notificações configuradas anteriormente com uma chamada ao método [IMAPISession::Advise](imapisession-advise.md) . 
+Cancela o envio de notificações anteriormente configuradas com uma chamada para o método [IMAPISession:: Advise](imapisession-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Par�metros
+## <a name="parameters"></a>Parâmetros
 
  _ulConnection_
   
-> [in] Um número de conexão associado a um registro de notificação ativo. O valor de _ulConnection_ deve ter retornado por uma chamada anterior para **IMAPISession::Advise**.
+> no Um número de conexão associado a um registro de notificação ativo. O valor de _ulConnection_ deve ter sido retornado por uma chamada anterior para **IMAPISession:: Advise**.
     
 ## <a name="return-value"></a>Valor de retorno
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentários
 
-O método **IMAPISession::Unadvise** cancela um registro de notificação. Versões de **Unadvise** coletor, o que ele recebido na chamada **Advise** usada para o registro de aviso de seu ponteiro para o chamador. 
+O método **IMAPISession:: Unadvise** cancela um registro para notificação. **Unadvise** libera seu ponteiro para o coletor de aviso do chamador, que ele recebeu na chamada de **aviso** usada para registro. 
   
-Geralmente, o **Unadvise** chama o método de [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do coletor de eventos advise durante a chamada **Unadvise** . No entanto, se outro thread no processo de chamar o método de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) do coletor de eventos advise, a chamada de **liberação** foi adiada até que o método **OnNotify** retorna. 
+Em geral, **Unadvise** chama o método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) do coletor de aviso, durante a chamada de **Unadvise** . No enTanto, se outro thread estiver no processo de chamar o método [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) do coletor de aviso, a chamada de **versão** será atrasada até o método OnNotify retornar. **** 
   
 ## <a name="see-also"></a>Confira também
 

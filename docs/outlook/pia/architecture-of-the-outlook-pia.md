@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 37ecad42b08b96d79d96d62f98e27913a0309971
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336523"
 ---
 # <a name="architecture-of-the-outlook-pia"></a>Arquitetura do Outlook PIA
 
@@ -31,5 +31,5 @@ O Outlook Primary Interop Assembly (PIA) oferece suporte total ao desenvolviment
 
 - [Como realizar a configuração para usar o Outlook PIA](setting-up-to-use-the-outlook-pia.md)
 - [Desenvolvimento de suplementos gerenciados do Outlook usando o Outlook PIA](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
-- [Como faço para... (Referência do Outlook 2013 PIA)](how-do-i-outlook-2013-pia-reference.md)
+- [Como faço para... (Referência do PIA do Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

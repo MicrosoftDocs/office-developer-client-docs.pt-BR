@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a9b8efcf-edc0-ad99-deae-21df16c58807
 description: Retorna a largura do texto redigido em uma forma.
-ms.openlocfilehash: d96b9489c08ce38205f8e9ad91e361fcb643c39c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43848bba4d24a0c31a3a084d123cd56140bf0709
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332267"
 ---
 # <a name="textwidth-function"></a>Função TEXTWIDTH
 
@@ -22,16 +22,16 @@ Retorna a largura do texto redigido em uma forma.
   
 ## <a name="syntax"></a>Sintaxe
 
-TEXTWIDTH (* * *shapename! TheText* * * * * *[, largura máxima]* * *) 
+TextWIDTH (* * *shapename! O texto* * * * * *[, MaximumWidth]* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _shapename! theText_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula nomeada TheText na forma de destino.  _shapename!_ é o nome da forma do qual você deseja recuperar o texto.  <br/> |
-| _largura máxima_ <br/> |Opcional  <br/> |**Numérico** <br/> |A largura máxima de um bloco de texto.  <br/> |
+| _shapename! o texto_ <br/> |Obrigatório  <br/> |**String** <br/> |Uma referência à célula chamada TheText na forma de destino.  _shapename!_ é o nome da forma da qual você deseja recuperar o texto.  <br/> |
+| _MaximumWidth_ <br/> |Opcional  <br/> |**Numeric** <br/> |A largura máxima de um bloco de texto.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
 String
   
@@ -39,13 +39,13 @@ String
 
 Essa função é normalmente usada para ajustar a largura de uma forma para ajustar o texto nela contido.
   
-Se _sheetN!_ for omitido, a forma padrão será a forma atual. 
+Se for _Sheetn!_ for omitido, a forma padrão será a forma atual. 
   
-Se a _largura máxima_ for especificado, o resultado é a linha mais longa do texto que caiba na _largura máxima_. Se a _largura máxima_ for omitido, o resultado é a largura total do texto. 
+Se _MaximumWidth_ for especificado, o resultado será a linha mais longa de texto que se ajusta dentro de _MaximumWidth_. Se _MaximumWidth_ for omitido, o resultado será a largura total do texto. 
   
 ## <a name="example"></a>Exemplo
 
-TextWidth(TheText) 
+TextWIDTH (o texto) 
   
 Retorna o comprimento total do texto na forma atual. 
   

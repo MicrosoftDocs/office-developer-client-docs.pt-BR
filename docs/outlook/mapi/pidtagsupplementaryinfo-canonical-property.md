@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de9635fa77cd0c282723e0f76eabd6bc0d0dbab9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339344"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Propriedade canônica PidTagSupplementaryInfo
 
@@ -36,19 +36,19 @@ Contém informações adicionais para uso em um relatório.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades contêm informações geradas pelo agente de transferência de mensagem ou provedor de transporte relacionadas ao relatório. Normalmente, ele é usado para o texto de relatório de entrega ou NDRs que originou com o sistema de mensagens subjacente.
+Essas propriedades contêm informações geradas pelo agente de transferência de mensagens ou pelo provedor de transporte relacionado ao relatório. Normalmente, é usado para entrega ou texto de relatório de não entrega originado no sistema de mensagens subjacente.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca7e6621-f39b-64dd-3594-41d74da21a94
-description: Armazena o valor de formatação local de uma forma quando você aplica um tema para que você possa restaurar a formatação local se o usuário subsequentemente remove o tema.
-ms.openlocfilehash: f22f603cad1d310adc59d19e9b3e3882bd797fce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Armazena o valor de formatação local de uma forma quando você aplica um tema para que você possa restaurar a formatação local se o usuário remover o tema subsequentemente.
+ms.openlocfilehash: 628e246f91172f136dd1a70807fca2abc1ff5bdd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332211"
 ---
 # <a name="themerestore-function"></a>Função THEMERESTORE
 
-Armazena o valor de formatação local de uma forma quando você aplica um tema para que você possa restaurar a formatação local se o usuário subsequentemente remove o tema.
+Armazena o valor de formatação local de uma forma quando você aplica um tema para que você possa restaurar a formatação local se o usuário remover o tema subsequentemente.
   
 ## <a name="syntax"></a>Sintaxe
 
-THEMERESTORE()
+THEMERESTORE ()
   
 ## <a name="example"></a>Exemplo
 

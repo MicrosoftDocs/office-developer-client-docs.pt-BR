@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: fc83bace43e4807598ce1b1f723eb15695794a86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f3ea9ec2df2f22ca14ad32bcb08fa34614d69e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338252"
 ---
 # <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a>Propriedade canônica PidTagPhysicalDeliveryReportRequest
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590600"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o modo de um relatório ao ser entregue a um destinatário de mensagem específica após a conclusão de entrega de mensagem física ou entrega pela tratamento de sistema de mensagens.
+Contém o modo de um relatório a ser entregue a um determinado destinatário da mensagem após a conclusão da entrega de mensagem física ou da entrega pelo sistema de manipulação de mensagens.
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contém o modo de um relatório ao ser entregue a um destinatário de mensagem e
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

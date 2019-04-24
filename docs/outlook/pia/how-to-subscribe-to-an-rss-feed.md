@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b92c733c5030ce12eb691bba57afb5ce6b9d1dad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335396"
 ---
 # <a name="subscribe-to-an-rss-feed"></a>Assinar um RSS feed
 
@@ -31,7 +31,7 @@ No exemplo a seguir, AddRssFeed se inscreve em um novo RSS feed chamado "RSS Fee
 > [!NOTE]
 > Você deve especificar o identificador de protocolo correto para a URL da pasta no método **OpenSharedFolder** para assinar um RSS feed. Por exemplo, você deve usar uma URL que comece com `feed://` em vez de `https://`. O Outlook não consegue abrir RSS feeds que exijam autenticação, a menos que a autenticação Windows NT LAN Manager (LAN) esteja disponível e não possa carregar RSS feeds de locais de protocolo SSL.
 
-Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. O ** que usa a instrução** não deve ocorrer diretamente antes das funções no exemplo de código, mas precisa ser adicionado antes da declaração de Classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
+Se usar o Visual Studio para testar este exemplo de código, adicione primeiro uma referência ao componente da biblioteca de objetos do Microsoft Outlook 15.0 e especifique a variável do Outlook quando importar o namespace **Microsoft.Office.Interop.Outlook**. A instrução **using** não deve ocorrer diretamente antes das funções no exemplo de código, mas deve ser adicionada antes da declaração de classe pública. A linha de código seguinte mostra como fazer a importação e atribuição em C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

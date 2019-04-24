@@ -1,5 +1,5 @@
 ---
-title: Implementar uma Interface de configuração para provedores do repositório de mensagens
+title: Implementar uma interface de configuração para provedores de repositório de mensagens
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 15833768fbd148ae4e689b5a80ed3479823864cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c349a03b0be465ed1262712372b6ee17a9812abd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332974"
 ---
-# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementar uma Interface de configuração para provedores do repositório de mensagens
+# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementar uma interface de configuração para provedores de repositório de mensagens
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Provedores de armazenamento de mensagem são necessários para implementar uma interface que permite ao usuário configurar o provedor de armazenamento de mensagens para ser executado no computador do usuário. Normalmente, o provedor de armazenamento de mensagens é configurado quando o provedor de armazenamento de mensagem é adicionado a um perfil de usuário. Interface de configuração do provedor de repositório a mensagem geralmente trata de tarefas, como a definição de nomes de usuário e senhas para repositórios de mensagem protegida, escolhendo caminhos para os arquivos necessários, e criando o mecanismo de armazenamento subjacente ele usará, se necessário.
+Os provedores de repositórios de mensagens são necessários para implementar uma interface que permite que o usuário configure o provedor de repositório de mensagens para ser executado no computador desse usuário. Normalmente, o provedor do repositório de mensagens é configurado quando o provedor do repositório de mensagens é adicionado ao perfil de um usuário. A interface de configuração do provedor de repositório de mensagens geralmente trata de tarefas como configurar nomes de usuário e senhas para repositórios de mensagens protegidos, escolher caminhos para arquivos necessários e criar o mecanismo de armazenamento subjacente que ele usará, se necessário.
   
-Você implementar a interface de configuração é acessada através de pontos de entrada adicionais na DLL do provedor de serviço sua mensagem. Para obter mais informações, consulte [Configurando um serviço de mensagem](configuring-a-message-service.md). Interface de configuração do provedor de repositório a mensagem é a única interface de usuário que um provedor de armazenamento de mensagem deve implementar.
+A interface de configuração implementada é acessada por pontos de entrada adicionais na DLL do provedor de serviços de mensagens. Para obter mais informações, consulte [Configuring a Message Service](configuring-a-message-service.md). A interface de configuração do provedor de repositório de mensagens é a única interface de usuário que um provedor de armazenamento de mensagens deve implementar.
   
 ## <a name="see-also"></a>Confira também
 
 
 
-[Recursos de armazenamento de mensagens](message-store-features.md)
+[Recursos do repositório de mensagens](message-store-features.md)
 

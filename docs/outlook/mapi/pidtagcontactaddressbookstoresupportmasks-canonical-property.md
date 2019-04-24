@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: a15830d1b673b44e9058e33a1499744f631d8e32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338259"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Propriedade canônica PidTagContactAddressBookStoreSupportMasks
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587653"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém os sinalizadores indicando recursos compatíveis da loja.
+Contém sinalizadores indicando os recursos com suporte da loja.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém os sinalizadores indicando recursos compatíveis da loja.
    
 ## <a name="remarks"></a>Comentários
 
-Essa propriedade é obtida os repositórios que contém as pastas de contatos. O provedor de catálogo de endereços de contatos utiliza para avaliar a adequação dos recursos com suporte da loja. É uma propriedade em uma seção de perfil do catálogo de endereços de contatos. 
+Essa propriedade é Obtida de armazenamentos que contém as pastas de contatos. O provedor do catálogo de endereços de contatos o utiliza para avaliar a adequação dos recursos compatíveis com o repositório. É uma propriedade em uma seção de perfil de catálogo de endereços de contatos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

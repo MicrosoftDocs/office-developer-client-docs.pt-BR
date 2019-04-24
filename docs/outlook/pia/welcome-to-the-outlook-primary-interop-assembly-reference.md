@@ -17,11 +17,11 @@ f1_keywords:
 - reference [Outlook 2010], primary interop assembly
 localization_priority: Normal
 ms.openlocfilehash: 53c50c447c6f132c562a1a22934df646347a51bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335743"
 ---
 # <a name="outlook-primary-interop-assembly-reference"></a>Referência de assembly de interoperabilidade primário do Outlook
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Retorna um número truncado para o número especificado de dígitos.
-ms.openlocfilehash: 8f6a9798391d308a234469d93bc8f481de5fc8da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335172"
 ---
 # <a name="trunc-function"></a>Função TRUNC
 
@@ -22,38 +22,38 @@ Retorna um número truncado para o número especificado de dígitos.
   
 ## <a name="syntax"></a>Sintaxe
 
-TRUNC (* * *número* * *, * * *número de dígitos* * *) 
+TRUNCAr (* * *número* * *, * * *dígitos* * *) 
   
 ### <a name="parameters"></a>Parâmetros
 
-|**Name**|**Obrigatório/Opcional**|**Tipo de dados**|**Descrição**|
+|**Nome**|**Obrigatório/opcional**|**Tipo de dados**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obrigatório  <br/> |**Numérico** <br/> |O número a ser truncado.  <br/> |
-| _número de dígitos_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número de dígitos para o qual truncar _number_.  <br/> |
+| _number_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número a ser truncado.  <br/> |
+| _dígitos_ <br/> |Obrigatório  <br/> |**Numeric** <br/> |O número de dígitos para o qual truncar o _número_.  <br/> |
    
-### <a name="return-value"></a>Valor retornado
+### <a name="return-value"></a>Valor de retorno
 
-Numérico.
+Numéricos.
   
 ## <a name="remarks"></a>Comentários
 
-Se o _número de dígitos_ for maior do que 0, o _número_ será truncada para o _número de dígitos_ à direita da vírgula decimal. Se o _número de dígitos_ for 0, o _número_ será truncada para um número inteiro. Se o _número de dígitos_ for menor que 0, o _número_ será truncada para o _número de dígitos_ à esquerda da vírgula decimal. 
+Se o número de _dígitos_ for maior que 0, o número será truncado para o _número_ de _dígitos_ à direita do decimal. Se o número de _dígitos_ for 0, _núm_ será truncado para um inteiro. Se o número de _dígitos_ for menor que 0, o número será truncado para o _número_ de _dígitos_ à esquerda do decimal. 
   
 ## <a name="example-1"></a>Exemplo 1
 
-TRUNC(123.654,2)
+TRUNCAR (123.654, 2)
   
 Retornará 123,65.
   
 ## <a name="example-2"></a>Exemplo 2
 
-TRUNC(123.654,0)
+TRUNCAR (123.654, 0)
   
 Retornará 123.
   
 ## <a name="example-3"></a>Exemplo 3
 
-TRUNC(123.654,-1)
+TRUNCAR (123.654,-1)
   
 Retornará 120.
   

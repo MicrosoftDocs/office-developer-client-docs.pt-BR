@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: Especifica as condições meteorológicas futuras para pelo menos três dias, incluindo hoje, amanhã, depois de amanhã.
 ms.openlocfilehash: 01604796d4460cc14005ee00ea6b8f46f04d4742
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339561"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>Elemento forecast (weatherType complexType) (Esquema de informações sobre o clima do Outlook)
 
@@ -43,7 +43,7 @@ Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,*
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[weather](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições meteorológicas de um local.  <br/> |
+|[clima](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Especifica as condições meteorológicas de um local.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 

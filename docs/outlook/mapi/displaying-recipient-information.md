@@ -8,41 +8,41 @@ api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1c31e5edf702dd8f172f67e7055a96ae4cfff1c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337034"
 ---
 # <a name="displaying-recipient-information"></a>Exibir informações do destinatário
 
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI fornece uma caixa de diálogo comuns para mostrar detalhes do destinatário. A caixa de diálogo detalhes é criada a partir de uma tabela de exibição e uma implementação **IMAPIProp** . A tabela de exibição descreve a aparência da exibição detalhes e a implementação de **IMAPIProp** controla os dados para o destinatário. Seu provedor é responsável por fornecer a tabela de exibição e a implementação de **IMAPIProp** para cada destinatário. 
+MAPI fornece uma caixa de diálogo comum para a exibição de detalhes do destinatário. A caixa de diálogo detalhes é criada a partir de uma tabela de exibição e de uma implementação do **IMAPIProp** . A tabela de exibição descreve a aparência da exibição de detalhes e a implementação do **IMAPIProp** controla os dados do destinatário. Seu provedor é responsável por fornecer a tabela de exibição e a implementação de **IMAPIProp** para cada destinatário. 
   
-A maneira mais fácil para criar a tabela de exibição é definir uma estrutura [DTPAGE](dtpage.md) e [BuildDisplayTable](builddisplaytable.md)de chamada. No entanto, alguns provedores, especificamente provedores somente leitura que permitem a criação de destinatários únicos, usam **IPropData**. A implementação de **IMAPIProp** pode ser qualquer tipo de objeto de propriedade. 
+A maneira mais fácil de criar a tabela de exibição é definir uma estrutura [DTPAGE](dtpage.md) e chamar [BuildDisplayTable](builddisplaytable.md). No enTanto, alguns provedores, especificamente provedores somente leitura que permitem a criação de destinatários únicos, usam **IPropData**. A implementação **IMAPIProp** pode ser qualquer tipo de objeto Property. 
   
-Há dois métodos para esta caixa de diálogo de invocação: [IAddrBook::Details](iaddrbook-details.md) e [IMAPISupport::Details](imapisupport-details.md). Quando seu provedor chama um destes métodos para solicitar detalhes para um destinatário, MAPI primeiro abre o destinatário chamando o método de [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) do seu contêiner. Em seguida, ele chama o método de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) do destinatário para solicitar a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** é a propriedade que representa a tabela de exibição de detalhes de um destinatário. 
+Há dois métodos para invocar esta caixa de diálogo: [IAddrBook::D etails](iaddrbook-details.md) e [IMAPISupport::D etails](imapisupport-details.md). Quando o provedor chama um destes métodos para solicitar detalhes de um destinatário, o MAPI primeiro abre o destinatário chamando o método [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md) do contêiner. Em seguida, ele chama o método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) do destinatário para solicitar a propriedade **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** é a propriedade que representa a tabela de exibição de detalhes de um destinatário. 
   
-O [IPropData: IMAPIProp](ipropdataimapiprop.md) interface pode ser usado para monitorar alterações nos controles de exibição de tabela, conforme descrito no procedimento a seguir. 
+A interface [IPropData: IMAPIProp](ipropdataimapiprop.md) pode ser usada para monitorar as alterações nos controles da tabela de exibição, conforme descrito no procedimento a seguir. 
   
-## <a name="monitor-changes-to-a-control"></a>Monitore as alterações em um controle
+## <a name="monitor-changes-to-a-control"></a>Monitorar alterações em um controle
   
-1. Antes do usuário obtiver acesso ao controle, chame [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) para definir o acesso do controle como IPROP_CLEAN. 
+1. Antes que o usuário tenha acesso ao controle, chame [IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md) para definir o acesso do controle ao IPROP_CLEAN. 
     
-2. Permitir que o usuário trabalhar com a caixa de diálogo. 
+2. Permite que o usuário trabalhe com a caixa de diálogo. 
     
-3. Quando o usuário tiver terminado, chame [IPropData::HrGetPropAccess](ipropdata-hrgetpropaccess.md) para recuperar o nível de acesso atual do controle. 
+3. Quando o usuário tiver concluído, chame [IPropData:: HrGetPropAccess](ipropdata-hrgetpropaccess.md) para recuperar o nível de acesso atual do controle. 
     
-4. Se o nível de acesso for IPROP_DIRTY, o usuário tiver modificado o controle. Seu provedor deve:
+4. Se o nível de acesso for IPROP_DIRTY, o usuário modificou o controle. Seu provedor deve:
     
-   - Chame [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) para definir o acesso do nível de volta ao IPROP_CLEAN. 
+   - Chame [IPropData:: HrSetPropAccess](ipropdata-hrsetpropaccess.md) para definir o nível de acesso de volta para o IPROP_CLEAN. 
     
-   - Chame o método de [IMAPIProp::GetProps](imapiprop-getprops.md) do objeto de dados de propriedade para recuperar a propriedade alterada e atualizá-lo chamando [IMAPIProp::SetProps](imapiprop-setprops.md).
+   - Chame o método [IMAPIProp::](imapiprop-getprops.md) GetProps do objeto de dados da propriedade para recuperar a propriedade alterada e atualizá-lo chamando [IMAPIProp::](imapiprop-setprops.md)SetProps.
     
-5. Se o nível de acesso ainda IPROP_CLEAN, o controle não foi modificado. 
+5. Se o nível de acesso ainda for IPROP_CLEAN, o controle não foi modificado. 
     
-Para obter mais informações sobre a criação de tabelas de exibição, consulte [Exibir tabelas](display-tables.md).
+Para obter mais informações sobre como criar tabelas de exibição, consulte [Exibir tabelas](display-tables.md).
   
 

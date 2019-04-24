@@ -1,31 +1,31 @@
 ---
-title: Elemento SnapExtensions (DocumentSettings_Type complexType) ('Visio XML')
+title: Elemento SnapExtensions (DocumentSettings_Type complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
-description: Especifica se uma configuração de extensão de snap específico está habilitada ou desabilitada para a janela ativa.
+description: Especifica se uma configuração de extensão de ajuste específica está habilitada ou desabilitada da janela ativa.
 ms.openlocfilehash: 9f21653fca7f1f5fa7be7449f1e588cf5ef67263
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334528"
 ---
-# <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (DocumentSettings_Type complexType) ('Visio XML')
+# <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapExtensions (DocumentSettings_Type complexType) (' Visio XML ')
 
-Especifica se uma configuração de extensão de snap específico está habilitada ou desabilitada para a janela ativa. 
+Especifica se uma configuração de extensão de ajuste específica está habilitada ou desabilitada da janela ativa. 
   
-## <a name="element-information"></a>Elemento de informações
+## <a name="element-information"></a>Informações de elemento
 
 |||
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Arquivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
-|**Partes do documento** <br/> |Document  <br/> |
+|**Partes do documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definição
 
@@ -36,13 +36,13 @@ Especifica se uma configuração de extensão de snap específico está habilita
 
 ## <a name="elements-and-attributes"></a>Elementos e atributos
 
-Se o esquema define os requisitos específicos, como a **sequência**, **minOccurs**, **maxOccurs**e **Escolha**, consulte a seção de definição. 
+Se o esquema definir requisitos específicos, como **sequence**, **minOccurs**,**maxOccurs** e **choice**, confira a seção de definição. 
   
 ### <a name="parent-elements"></a>Elementos pai
 
 |**Elemento**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém os elementos que especificam as configurações do documento.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contém elementos que especificam configurações de documentos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos filho
 
@@ -58,19 +58,19 @@ O valor do elemento **SnapExtensions** pode ser uma soma dos valores na tabela a
   
 |**Valor**|**Descrição**|
 |:-----|:-----|
-|0  <br/> |Ajustar a nada.  <br/> |
+|,0  <br/> |Ajustar a nada.  <br/> |
 |1  <br/> |Ajustar à extensão da caixa de alinhamento.  <br/> |
-|2  <br/> |Ajustar a extensão do eixo central.  <br/> |
-|4  <br/> |Ajustar à extensão tangente da curva.  <br/> |
-|8  <br/> |Ajustar a extensão de ponto de extremidade.  <br/> |
-|16  <br/> |Ajustar a extensão do ponto médio.  <br/> |
+|duas  <br/> |Ajustar à extensão do eixo central.  <br/> |
+|quatro  <br/> |Ajustar à extensão da tangente da curva.  <br/> |
+|8  <br/> |Ajustar à extensão do ponto de extremidade.  <br/> |
+|dezesseis  <br/> |Ajustar à extensão intermediária.  <br/> |
 |32  <br/> |Ajustar à extensão linear.  <br/> |
 |64  <br/> |Ajustar à extensão da curva.  <br/> |
-|128  <br/> |Ajustar à extensão perpendiculares do ponto de extremidade.  <br/> |
-|256  <br/> |Ajustar à extensão perpendiculares do ponto médio.  <br/> |
+|128  <br/> |Ajustar à extensão perpendicular de ponto de extremidade.  <br/> |
+|256  <br/> |Ajustar à extensão perpendicular de ponto central.  <br/> |
 |512  <br/> |Ajustar à extensão horizontal do ponto de extremidade.  <br/> |
 |1024  <br/> |Ajustar à extensão vertical do ponto de extremidade.  <br/> |
-|2048  <br/> |Ajustar a extensão de centro da elipse.  <br/> |
-|4096  <br/> |Ajustar à extensão isométrica ângulos.  <br/> |
+|2048  <br/> |Ajustar à extensão do centro da elipse.  <br/> |
+|4096  <br/> |Ajuste à extensão de ângulos isométrica.  <br/> |
    
 

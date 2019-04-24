@@ -9,43 +9,43 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 description: Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula C com base na linha na qual está localizada.
-ms.openlocfilehash: 1b9a813be825f2deeb5c90d596ffd9f3705bcef6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5599c09ad3656653c486d7feff9aed2ee89e4614
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19771438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337489"
 ---
 # <a name="c-cell-geometry-section"></a>Célula C (Seção Geometry)
 
 Representa informações diferentes em linhas diferentes. Esta tabela descreve a célula C com base na linha na qual está localizada.
   
-|**Row**|**Descrição**|
+|**Linha**|**Descrição**|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | O ângulo do eixo de principal do arco em relação a *x* -o eixo de seu pai.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | O ângulo do eixo principal do arco em relação ao eixo *x* de seu pai.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | O primeiro nó da B-spline racional não-uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | O último nó de uma spline.  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Um *x* -coordenadas de um ponto em um elipse, juntamente com o *y* -coordenada representada pela célula [D](d-cell-geometry-section.md) .  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Uma coordenada *x* de um ponto em uma elipse; emparelhado com a coordenada *y* representada pela célula [D](d-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Comentários
 
-Para fazer referência à célula C pelo nome, a partir de outra fórmula ou programa que usa a propriedade **CellsU**, utilize: 
+Para fazer referência à célula C pelo nome a partir de outra fórmula ou de um programa que usa a **** propriedade Cells, utilize: 
   
 |||
 |:-----|:-----|
-| Nome da célula:  <br/> | Geometria *i* . C *j* onde *i* e *j* = < 1 >, 2, 3...  <br/> |
-|| Geometria *i* . C1 (linha Ellipse)  <br/> |
+| Nome da célula:  <br/> | Geometry *i* . C *j* onde *i* e *j* = <1>, 2, 3...  <br/> |
+|| Geometry *i* . C1 (linha Ellipse)  <br/> |
    
-Para fazer referência à célula C pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
+Para obter uma referência para a célula C pelo índice a partir de um programa, use a propriedade **CellsSRC** com os seguintes argumentos: 
   
 |||
 |:-----|:-----|
 | Índice da seção:  <br/> |**visSectionFirstComponent** +  *i* onde *i* = 0, 1, 2...  <br/> |
 | Índice da linha:  <br/> |**visRowVertex** +  *j* onde *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex **(linha Ellipse)  <br/> |
-| Índice da célula:  <br/> |**visEccentricityAngle **(linha EllipticalArcTo)  <br/> |
-||**visNURBSKnotPrev **(linha NURBSTo)  <br/> |
-||**visSplineKnot3 **(linha SplineStart)  <br/> |
-||**visEllipseMinorX **(linha Ellipse)  <br/> |
+| Índice da célula:  <br/> |**visEccentricityAngle** (Linha EllipticalArcTo)  <br/> |
+||**visNURBSKnotPrev** (Linha NURBSto)  <br/> |
+||**visSplineKnot3** (Linha SplineStart)  <br/> |
+||**visEllipseMinorX** (Linha Ellipse)  <br/> |
    
 

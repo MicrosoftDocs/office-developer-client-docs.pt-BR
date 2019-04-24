@@ -1,5 +1,5 @@
 ---
-title: Implementar a tabela única de um provedor
+title: Implementar uma tabela de um provedor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,49 +8,49 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 'Última modificação: 23 de julho de 2011'
-ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 023686702b76b5b29acf4304fcfdb3377e8cfcff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332862"
 ---
-# <a name="implementing-a-provider-one-off-table"></a>Implementar a tabela única de um provedor
+# <a name="implementing-a-provider-one-off-table"></a>Implementar uma tabela de um provedor
 
   
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-MAPI chama o método de [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) do seu provedor quando o usuário de um aplicativo cliente adiciona um destinatário a uma mensagem de saída. Normalmente, os tipos de endereços solicitados são exclusivos para seu sistema de mensagens. Se seu provedor de suporte para a criação de destinatário, ele deve fornecer uma tabela único que expõe os modelos para cada tipo de endereço do destinatário com suporte. Se seu provedor não oferece suporte a criação de destinatário, retorne MAPI_E_NO_SUPPORT da chamada **GetOneOffTable** . 
+MAPI chama o método [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) do provedor quando o usuário de um aplicativo cliente adiciona um destinatário a uma mensagem de saída. Normalmente, os tipos de endereços solicitados são exclusivos do sistema de mensagens. Se o provedor oferecer suporte à criação de destinatários, ele deverá fornecer uma tabela única que exponha modelos para cada tipo de endereço de destinatário suportado. Se o provedor não oferecer suporte à criação de destinatário, retorne MAPI_E_NO_SUPPORT da chamada **GetOneOffTable** . 
   
-MAPI normalmente será mantenha tabela únicos do seu provedor aberto para o tempo de vida da sessão, liberá-lo apenas quando um cliente chama do subsistema ou método de [IMAPIStatus::ValidateState](imapistatus-validatestate.md) do catálogo de endereços. MAPI registra para notificações sobre esta tabela para que se modelos são adicionados ou excluídos, essas alterações podem sejam refletidas ao usuário. 
+Normalmente, o MAPI mantém a tabela única do provedor aberta para o tempo de vida da sessão, liberando-o somente quando um cliente chama o método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) do subsistema ou do catálogo de endereços. MAPI registra para notificações nesta tabela para que, se os modelos forem adicionados ou excluídos, essas alterações possam ser refletidas para o usuário. 
   
- **Para implementar IABLogon:: GetOneOffTable**
+ **Para implementar o IABLogon:: GetOneOffTable**
   
-1. Verifica o valor do parâmetro flags, _ulFlags_. Se o sinalizador MAPI_UNICODE está definido e o provedor não oferece suporte a Unicode, falhar e retornar MAPI_E_BAD_CHARWIDTH. 
+1. Verifique o valor do parâmetro flags, _parâmetroulflags_. Se o sinalizador MAPI_UNICODE estiver definido e seu provedor não oferecer suporte a Unicode, falha e retornar MAPI_E_BAD_CHARWIDTH. 
     
-2. Verifique se tabela únicos do seu provedor já foi criada. Como tabelas únicas são geralmente estáticas, seu provedor nunca deve passar o processo de criação mais de uma vez. Se já existir uma tabela, retorne um ponteiro para ele. 
+2. Verifique se a tabela única do provedor já foi criada. Como as tabelas únicas são normalmente estáticas, seu provedor nunca precisa passar pelo processo de criação mais de uma vez. Se uma tabela já existir, retorne um ponteiro para ela. 
     
-3. Se ainda não existir uma tabela único, chame **CreateTable** para criar um. 
+3. Se uma tabela única ainda não existir, chame CreateTable para **** criar uma. 
     
-4. Defina as seguintes propriedades para as colunas em suas linhas da tabela:
+4. Defina as seguintes propriedades para as colunas nas linhas da tabela:
     
-  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) com o nome do tipo de destinatário que o modelo pode criar. 
+  - **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) para o nome do tipo de destinatário que o modelo pode criar. 
     
-  - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para o identificador de entrada para o modelo único.
+  - **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para o identificador de entrada para o modelo one-off.
     
-  - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) para indicar o nível de hierarquia na tabela únicas são exibidas.
+  - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) para indicar o nível de hierarquia na exibição da tabela única.
     
-  - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) como TRUE para indicar se a linha representa um modelo e FALSE caso contrário.
+  - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md)) como true para indicar se a linha representa um modelo e false caso contrário.
     
   - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) para o tipo de endereço criado pelo modelo.
     
-  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para DT_MAILUSER ou outro valor que indica o tipo de exibição para o modelo.
+  - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para DT_MAILUSER ou outro valor que indica o tipo de exibição do modelo.
     
-  - **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) como um valor binário exclusivo. 
+  - **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) para um valor binário exclusivo. 
     
-5. Chame [ITableData::HrModifyRow](itabledata-hrmodifyrow.md) para modificar a tabela diretamente. 
+5. Chame [ITableData:: HrModifyRow](itabledata-hrmodifyrow.md) para modificar a tabela diretamente. 
     
-6. Chame [ITableData::HrGetView](itabledata-hrgetview.md) para criar uma implementação de interface **IMAPITable** para retornar ao chamador. 
+6. Call [ITableData:: HrGetView](itabledata-hrgetview.md) criar uma implementação **** de interface IMAPITable para retornar ao chamador. 
     
 

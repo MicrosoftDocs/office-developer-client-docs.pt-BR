@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: bd0caff8a6c7834bdd01ef4be64805bde66dd6d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f3d98a3133d79f78f4eb676d49ec85ef5a359f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340114"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
@@ -25,11 +25,11 @@ ms.locfileid: "22578819"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Descreve uma página com guias que será usada em uma caixa de diálogo que é construída a partir de uma tabela de exibição. 
+Descreve uma página com guias que será usada em uma caixa de diálogo criada a partir de uma tabela de exibição. 
   
 |||
 |:-----|:-----|
-|Arquivo de cabeçalho:  <br/> |Mapidefs.h  <br/> |
+|Arquivo de cabeçalho:  <br/> |Mapidefs. h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
    
 ```cpp
@@ -47,7 +47,7 @@ typedef struct _DTBLPAGE
 
  **ulbLpszLabel**
   
-> Posição na memória do rótulo caractere cadeia de caracteres para a guia página.
+> Posição na memória do rótulo de cadeia de caracteres para a guia de página.
     
  **ulFlags**
   
@@ -55,23 +55,23 @@ typedef struct _DTBLPAGE
     
 MAPI_UNICODE 
   
-> O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo está no formato ANSI.
+> O rótulo está no formato Unicode. Se o sinalizador MAPI_UNICODE não estiver definido, o rótulo estará no formato ANSI.
     
  **ulbLpszComponent**
   
-> Posição na memória de uma cadeia de caracteres que identifica a seção **[Help File Mappings]** o MAPISVC. Arquivo de configuração INF ou 0. O nome de arquivo que aparecem no MAPISVC. Seção INF pode ser usada por um usuário para acessar a ajuda estendida para a página com guias clicando no botão **Ajuda** na caixa de diálogo. Para obter mais informações sobre as entradas na MAPISVC. INF, consulte [formato de arquivo do MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Posição na memória de uma cadeia de caracteres que identifica a seção **[help file Mappings]** no MAPISVC. Arquivo de configuração INF ou 0. O nome do arquivo que aparece no MAPISVC. A seção INF pode ser usada por um usuário para acessar a ajuda estendida para a página com guias clicando no botão **ajuda** na caixa de diálogo. Para obter mais informações sobre as entradas em MAPISVC. INF, consulte [formato de arquivo de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Um identificador exclusivo para a página com guias na cadeia de caracteres definida pelo membro **ulbLpszComponent** . O membro **ulbLpszComponent** e o membro de **ulContext** devem ser diferente de zero para o botão **Ajuda** trabalhar. Se esse identificador é zero e a cadeia de caracteres do componente for NULL, não há nenhuma ajuda associada à página. 
+> Um identificador exclusivo para a página com guias na cadeia de caracteres definida pelo membro **ulbLpszComponent** . O membro **ulbLpszComponent** e o membro **ulContext** devem ser diferentes de zero para que o botão **ajuda** funcione. Se esse identificador for zero e a cadeia de caracteres do componente for nula, não haverá ajuda associada à página. 
     
 ## <a name="remarks"></a>Comentários
 
-Uma estrutura **DTBLPAGE** descreve uma página com guias de um controle que é usado para separar várias caixas de diálogo relacionadas. Geralmente, essas caixas de diálogo são folhas de propriedades para exibir a configuração, uma mensagem ou opções de destinatário. Ao clicar na guia, o usuário pode alternar de uma planilha para outro. 
+Uma estrutura **DTBLPAGE** descreve uma página com guias um controle que é usado para separar várias caixas de diálogo relacionadas. Normalmente, essas caixas de diálogo são folhas de propriedades para exibir opções de configuração, mensagem ou destinatário. Ao clicar na guia, o usuário pode alternar de uma planilha para outra. 
   
-O identificador de cadeia de caracteres e contexto de componente fornecem informações sobre se ajuda estendida está disponível para a página com guias. Se ajuda estendida estiver disponível, o identificador de cadeia de caracteres e o contexto do componente fornecerá informações sobre como acessá-lo. A cadeia de caracteres do componente é mapeado para o arquivo de ajuda; o identificador de contexto mapeia para o tópico de ajuda inicial. Se o identificador de contexto é zero e a cadeia de caracteres do componente for NULL, ajuda estendida não está disponível.
+A cadeia de caracteres do componente e o identificador de contexto fornecem informações sobre se a ajuda estendida está disponível para a página com guias. Se a ajuda estendida estiver disponível, a cadeia de caracteres do componente e o identificador de contexto fornecerão informações sobre como acessá-lo. A cadeia de caracteres do componente mapeia para o arquivo de ajuda; o identificador de contexto é mapeado para o tópico de ajuda inicial. Se o identificador de contexto for zero e a cadeia de caracteres do componente for nula, a ajuda estendida não estará disponível.
   
-Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [Implementando uma tabela exibir](display-table-implementation.md).
+Para obter uma visão geral das tabelas de exibição, consulte [Exibir tabelas](display-tables.md). Para obter informações sobre como implementar uma tabela de exibição, consulte [implementando uma tabela de exibição](display-table-implementation.md).
   
 ## <a name="see-also"></a>Confira também
 

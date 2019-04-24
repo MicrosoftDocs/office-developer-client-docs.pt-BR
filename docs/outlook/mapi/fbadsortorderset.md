@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336971"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -30,8 +30,8 @@ Valida uma ordem de classificação definida verificando sua alocação de memó
 |||
 |:-----|:-----|
 |Arquivo de cabeçalho:  <br/> |Mapival.h  <br/> |
-|Implementada por:  <br/> |MAPI  <br/> |
-|Chamado pelo:  <br/> |Provedores de serviços  <br/> |
+|Implementado por:  <br/> |MAPI  <br/> |
+|Chamado por:  <br/> |Provedores de serviços  <br/> |
    
 ```cpp
 ULONG FBadSortOrderSet(
@@ -41,22 +41,22 @@ ULONG FBadSortOrderSet(
 
 ## <a name="parameters"></a>Parâmetros
 
- _lpsos_
+ _Lpsos_
   
-> [in] Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) que identifica a ordem de classificação, defina a ser validado. 
+> no Ponteiro para uma estrutura [SSortOrderSet](ssortorderset.md) identificando a ordem de classificação definida para ser validada. 
     
-## <a name="return-value"></a>Valor retornado
+## <a name="return-value"></a>Valor de retorno
 
-VERDADEIRO 
+TRUE 
   
 > O conjunto de ordem de classificação especificado é inválido. 
     
-FALSO 
+FALSE 
   
-> O conjunto de ordem de classificação especificada é válido.
+> O conjunto de ordem de classificação especificado é válido.
     
 ## <a name="remarks"></a>Comentários
 
-A função de **FBadSortOrderSet** pode ser usada para se preparar para uma chamada para um método de classificação, como o método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+A função **FBadSortOrderSet** pode ser usada para preparar uma chamada para um método Sort, como o método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
   
 

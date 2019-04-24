@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: 'Última modificação: 9 de março de 2015'
 ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339323"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propriedade canônica PidTagAttachLongFilename
 
@@ -25,7 +25,7 @@ ms.locfileid: "25394458"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o nome de arquivo longo e extensão, excluindo o caminho de um anexo. 
+Contém o nome de arquivo e a extensão longos de um anexo, excluindo o caminho. 
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contém o nome de arquivo longo e extensão, excluindo o caminho de um anexo.
    
 ## <a name="remarks"></a>Comentários
 
-Essas propriedades relativas aos valores da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE e ATTACH_BY_REF_ONLY. Plataformas de nomes extensos de arquivos de suporte devem definir propriedades de **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) e o **PR_ATTACH_LONG_FILENAME** ao enviar e deve verificar **PR_ATTACH_LONG_FILENAME** que primeiro quando recebendo. 
+Essas propriedades pertencem aos valores ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE e ATTACH_BY_REF_ONLY da propriedade **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). Plataformas que suportam nomes de filetensamente devem definir as propriedades **PR_ATTACH_LONG_FILENAME** e **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ao enviar e devem verificar **PR_ATTACH_LONG_FILENAME** primeiro quando recebimento. 
   
-O aplicativo cliente deve definir essa propriedade como um nome de arquivo longo sugerido a ser usado se o computador host que você receber uma mensagem suporta nomes extensos de arquivos. **PR_ATTACH_LONG_FILENAME** pode ser usado como um nome de arquivo para salvar o anexo e fornecer a extensão de nome de arquivo, se a propriedade **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) não for fornecida. 
+O aplicativo cliente deve definir essa propriedade como um nome de arquivo extenso sugerido para ser usado se o computador host que recebe uma mensagem suportar nomes de arquivo longos. **PR_ATTACH_LONG_FILENAME** pode ser usado como um nome de arquivo para salvar o anexo e para fornecer a extensão de nome de arquivo se a propriedade **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) não for fornecida. 
   
-Diferentemente o nome de arquivo fornecido pelo **PR_ATTACH_FILENAME**, esse nome não é restrito a um nome de arquivo de oito caracteres mais uma extensão de três caracteres. Em vez disso, pode ser até 256 caracteres longos, incluindo o período de nome de arquivo, extensão e separador. 
+Diferentemente do nome de arquivo fornecido pelo **PR_ATTACH_FILENAME**, esse nome não é restrito a um nome de arquivo de oito caracteres, além de uma extensão de três caracteres. Em vez disso, pode ter até 256 caracteres de comprimento, incluindo o nome do arquivo, a extensão e o período separador. 
   
-MAPI funciona somente com nomes de arquivo no conjunto de caracteres ANSI. Aplicativos cliente que usam nomes de arquivo em um conjunto de caracteres OEM deverá convertê-los para ANSI antes de chamar MAPI. 
+MAPI funciona somente com nomes de fileset no conjunto de caracteres ANSI. Aplicativos clientes que usam nomes de FileNames em um conjunto de caracteres OEM devem convertê-los para ANSI antes de chamar MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificações de protocolo
+### <a name="protocol-specifications"></a>Especificações do protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Trata objetos de mensagem e o anexo.
+> Manipula objetos Message e Attachment.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Converte de convenções de email padrão da Internet para os objetos de mensagem.
+> Converte as convenções de email padrão da Internet em objetos de mensagem.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Especifica as propriedades das mensagens codificadas direitos gerenciados.
+> Especifica as propriedades de mensagens codificadas por direitos gerenciados.
     
 [[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Especifica as propriedades e operações que são permitidas para representar mensagens de caixa postal e fax.
+> Especifica as propriedades e as operações que são permitidas para representar a caixa postal e mensagens de fax.
     
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mmapitags.h
+Mmapitags. h
   
-> Contém definições das propriedades listadas como nomes alternativos.
+> Contém definições de propriedades listadas como nomes alternativos.
     
 ## <a name="see-also"></a>Confira também
 
@@ -80,7 +80,7 @@ Mmapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

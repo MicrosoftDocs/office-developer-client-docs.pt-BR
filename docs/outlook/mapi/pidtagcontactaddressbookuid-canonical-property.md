@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 'Última modificação: 9 de março de 2015'
-ms.openlocfilehash: 66eac870ffcb524be95b773697f06b2d9c03376b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2edc65b4c0dad964e83b2731528124a86c87a32d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338112"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Propriedade canônica PidTagContactAddressBookUid
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590586"
   
 **Aplica-se a**: Outlook 2013 | Outlook 2016 
   
-Contém o UID que identifica a mesma sessão do catálogo de endereços do contato.
+Contém o UID que identifica esta sessão do catálogo de endereços de contatos.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contém o UID que identifica a mesma sessão do catálogo de endereços do conta
    
 ## <a name="remarks"></a>Comentários
 
-Se você tiver vários catálogos de endereço de contato configurados, essa propriedade deve ser definida para cada uma delas. 
+Se você tiver vários catálogos de endereços de contato configurados, essa propriedade deve ser definida para cada um. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Arquivos de cabeçalho
 
-Mapidefs.h
+Mapidefs. h
   
 > Fornece definições de tipo de dados.
     
-Mapitags.h
+Mapitags. h
   
-> Contém definições das propriedades listadas como propriedades associadas.
+> Contém definições de propriedades listadas como propriedades associadas.
     
 ## <a name="see-also"></a>Confira também
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Propriedades MAPI](mapi-properties.md)
   
-[Propriedades MAPI canônicas](mapi-canonical-properties.md)
+[Propriedades canônicas MAPI](mapi-canonical-properties.md)
   
 [Mapear nomes de propriedades canônicas para nomes MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
